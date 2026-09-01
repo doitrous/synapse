@@ -11882,3 +11882,2217 @@ sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/c
 relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 label: Corrected against the bank's own complete, gapless answer table (Protein MCQ, Q58: "58.d" = Glucagon), read directly from the source page. The label/definition/pitfalls/original_wording above were originally authored guessing albumin as the exception, when this item's key was believed absent; a direct page render shows the bank's real answer is glucagon, which also matches standard biochemistry (albumin does carry disulfide bonds; a 29-residue peptide with no cysteine cannot).
 questionIds: QST-FND-AU-102-PROT-032 (question/AU-MED-102-biochem-structural-mcq.md, both roots) tests this corrected fact.
+
+
+---
+
+# Item
+
+## id
+CON-FND-3FD95F3799FC3F
+
+## label
+Feedback inhibition is enzyme regulation in which the pathway's own end product inhibits an earlier enzyme in the same pathway
+
+## canonical_key
+enzyme.regulation.feedback-end-product-inhibition
+
+## definition
+In feedback (end-product) inhibition, the final product of a metabolic pathway itself binds and inhibits an enzyme earlier in that same pathway -- typically the pathway's committed or rate-limiting step -- so that as product accumulates, further synthesis is automatically throttled. This is a form of physiological regulation defined by who the inhibitor is (the pathway's own end product), distinct from competitive inhibition, where the inhibitor is a substrate-mimicking foreign or drug molecule rather than the pathway's own output.
+
+## explicit_objective
+Identify feedback (end-product) inhibition as the regulatory mechanism in which a pathway's own end product inhibits an earlier enzyme of that pathway, and distinguish it from competitive/allosteric inhibition by foreign molecules.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme regulation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+End-product inhibition|Feedback regulation of enzymes|Product inhibition of a pathway
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing feedback inhibition with competitive inhibition -- feedback inhibition is defined by WHO the inhibitor is (the pathway's own end product), not by HOW it binds; the same end product can act competitively or allosterically depending on the specific enzyme.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-6BBAC69900B22F
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p2 q2 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-3FD95F3799FC3F-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+In .... Inhibition, the inhibitor is an end product of enzyme action: a. Non-competitive b. Allosteric c. Competitive d. Feedback. Key: d.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-90AFE9068889FA
+
+## label
+A coenzyme is a small, dialyzable, organic non-protein molecule that assists catalysis by accepting or donating a chemical group, and 'cofactor' is the broader term covering both organic coenzymes and inorganic cofactors
+
+## canonical_key
+enzyme.cofactor.coenzyme-nature-and-function
+
+## definition
+Coenzymes are organic, non-protein molecules -- as opposed to the protein enzyme (apoenzyme) they assist -- that are small enough to be dialyzable, unlike the colloidal, non-dialyzable protein itself. Functionally, a coenzyme participates directly in catalysis, most often by accepting one of the reaction's products (a hydrogen atom, an amino group, an acyl group) and carrying it away. 'Cofactor' is the more general term, covering both organic coenzymes and inorganic cofactors such as metal ions; every coenzyme is a cofactor, but not every cofactor is a coenzyme.
+
+## explicit_objective
+State that a coenzyme is an organic, non-protein, dialyzable molecule that functions by accepting a chemical group from the substrate or product, and that 'cofactor' is the broader term including inorganic cofactors too.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Cofactors and coenzymes
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Coenzyme definition|Organic cofactor|Dialyzable enzyme cofactor|Cofactor vs coenzyme
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Calling a coenzyme 'protein in nature' or 'colloidal' -- those properties describe the enzyme (apoenzyme) itself, the opposite of the coenzyme's own small, dialyzable, non-protein nature. Also treating 'cofactor' and 'coenzyme' as synonyms -- cofactor is the broader umbrella term that also covers inorganic metal-ion cofactors.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-534286EBBAC239
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p2,p5,p10 q3,q5,q26,q44,q45 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-90AFE9068889FA-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Coenzymes are: a. Organic, non-protein molecules. Key: a. More general term that include organic and inorganic molecules: a.Coenzyme b.Cofactor c.Metal d.Prosthetic group. Key: b.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-11018901C5A648
+
+## label
+Enzymes fall into six IUB classes by reaction type -- oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases -- each with its own defining reaction and worked example
+
+## canonical_key
+enzyme.classification.six-iub-classes-with-examples
+
+## definition
+Enzymes are classified into six major classes by the type of reaction catalysed. Oxidoreductases catalyse oxidation-reduction (electron/hydrogen transfer) reactions -- catalase and glutathione peroxidase are oxidoreductases, and a substrate whose hydroxyl group is converted to a ketone (loss of two hydrogens) is being acted on by a dehydrogenase, an oxidoreductase; aldolase, despite sitting among oxidoreductases in a pathway, is a lyase, not an oxidoreductase. Transferases move a functional group other than hydrogen between two substrates. Hydrolases cleave a bond by adding water; digestive enzymes such as pepsin belong here. Lyases remove a group without hydrolysis or oxidation, e.g. fumarase/hydratase; glutamine synthetase, despite the name resembling a lyase's job, is actually a ligase. Isomerases interconvert isomers of one substrate, e.g. converting a sugar from its L- to its D- form. Ligases (synthetases) join two substrate molecules together using ATP, e.g. glutamine synthetase and glycogen synthase.
+
+## explicit_objective
+Assign a named enzyme or reaction to one of the six IUB classes (oxidoreductase, transferase, hydrolase, lyase, isomerase, ligase) from its defining reaction type.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme classification
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Six enzyme classes|IUB enzyme classification|Oxidoreductase transferase hydrolase lyase isomerase ligase
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Glutamine synthetase is a ligase (it joins glutamate and ammonia using ATP), not a lyase despite the superficial name resemblance; aldolase is a lyase, not an oxidoreductase, despite appearing in glycolysis alongside several oxidoreductases; a reaction diagram showing a hydroxyl carbon converted to a ketone carbon identifies a dehydrogenase (oxidoreductase), not a lyase or hydrolase.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-CB8584ED2F3C49
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p2,p4,p5,p6,p9,p13,p14 q4,q17,q21,q23,q24,q39,q40,q42,q62 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-11018901C5A648-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Digestive enzymes as Pepsin belong to the class of: a.Hydrolases. Key: a. All the following enzymes are Oxidoreductases except: d.Aldolase. Key: d. An example of Lyase is: b.Hydratase. Key: b. The enzyme belonging to the Ligase class is: b.Glutamine synthetase. Key: b.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-74B64897158273
+
+## label
+Vmax is the maximal velocity an enzyme-catalysed reaction reaches when the enzyme is fully saturated with substrate -- it reflects the amount and turnover of active enzyme present, not substrate concentration
+
+## canonical_key
+enzyme.kinetics.vmax-definition
+
+## definition
+Vmax is the theoretical maximum reaction velocity a fixed amount of enzyme can achieve, reached asymptotically as substrate concentration becomes saturating, with essentially every active site occupied. Because it is measured under saturating substrate, Vmax is set by the amount of enzyme present and its intrinsic turnover, not by how much substrate is available -- doubling the enzyme concentration doubles Vmax, while adding still more substrate once already saturating does not raise it further.
+
+## explicit_objective
+Define Vmax as the maximal velocity reached at saturating substrate, and identify that it reflects enzyme quantity/turnover rather than substrate concentration.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme kinetics
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Maximal velocity|Vmax definition|Enzyme saturation kinetics
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing Vmax with substrate concentration or with Km -- Km is a substrate-concentration value (the concentration giving half-Vmax), while Vmax is a velocity value that depends on enzyme amount/turnover, not substrate concentration.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-028C50A610B2A2
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p3 q8 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-74B64897158273-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+In enzyme kinetics, V-max denotes: a. The amount of an active enzyme. Key: a.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-3D7C56F6F9B062
+
+## label
+A non-competitive inhibitor binds a site distinct from the active site, lowering Vmax while leaving Km essentially unchanged, and is not overcome by adding more substrate
+
+## canonical_key
+enzyme.kinetics.non-competitive-inhibition
+
+## definition
+Non-competitive inhibition occurs when an inhibitor binds a site on the enzyme other than the active site, and can bind whether or not substrate is already bound, distorting the enzyme so it converts substrate to product less efficiently. Because the inhibitor does not compete with substrate for the active site, the enzyme's apparent affinity for substrate (Km) is essentially unchanged, but because a fraction of the enzyme population is always non-functional regardless of substrate concentration, the maximal velocity (Vmax) is reduced -- and unlike competitive inhibition, this reduction is not reversed simply by adding more substrate.
+
+## explicit_objective
+Contrast non-competitive inhibition's kinetic signature (Vmax decreased, Km unchanged, not overcome by substrate) with competitive inhibition's (Km increased, Vmax unchanged).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme kinetics
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Non-competitive inhibitor kinetics|Vmax decreased Km unchanged|Allosteric-site inhibition kinetics
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any inhibitor that is 'not competitive' behaves identically to an allosteric regulator in every respect -- non-competitive inhibition is specifically defined by its kinetic signature (Vmax down, Km unchanged), which is the trait actually tested, not just 'binds somewhere else.'
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-CB8584ED2F3C49
+CON-FND-6BBAC69900B22F
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p5 q18 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-3D7C56F6F9B062-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+In non-competitive inhibitors: a.Km increases b.Km decreases c.Vmax decreases d.All of the above. Key: c.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-CCE5DCCCB059AA
+
+## label
+A rise in a tissue-characteristic enzyme's plasma level signals damage to the tissue that normally contains it -- amylase for pancreatitis, ALT for hepatitis, creatine kinase for myocardial infarction, and LDH for a range of conditions including pneumonia and liver disease
+
+## canonical_key
+enzyme.clinical.diagnostic-serum-enzyme-markers
+
+## definition
+Cells normally keep most of their enzymes intracellular; when a tissue is damaged, its enzymes leak into the plasma in proportion to the extent of damage, so an elevated plasma level of a tissue-characteristic enzyme is used diagnostically to infer which tissue is injured. Amylase elevation indicates pancreatitis (or salivary gland disease); alanine transaminase (ALT) elevation indicates hepatocellular damage such as hepatitis; creatine kinase elevation indicates muscle damage, classically myocardial infarction; and lactate dehydrogenase (LDH), present in many tissues, is elevated in conditions including pneumonia, myocardial infarction and liver disease, which is why its isoenzyme pattern rather than the total level is needed to localise the source. In general, any rise in a normally low or absent plasma enzyme signals tissue destruction, not normal growth or recovery.
+
+## explicit_objective
+Match a diagnostically useful plasma enzyme (amylase, ALT, creatine kinase, LDH) to the tissue/condition its elevation signals, and state that such an elevation reflects tissue damage.
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Clinical enzymology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Serum enzyme diagnostic markers|Plasma enzyme elevation and tissue damage|Cardiac and hepatic enzyme markers
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+LDH is not tissue-specific by itself (it rises in pneumonia, MI and liver disease alike), so an isolated total LDH elevation cannot localise damage the way ALT (liver) or creatine kinase (muscle/heart) can -- LDH needs its isoenzyme pattern for that.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-DD3EE5EC8C07D1
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p5,p9 q19,q43 | AU-MED-102
+src_01ab4268402d32d4d111 | department_question_book | undated | Enzymology section q21 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-CCE5DCCCB059AA-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+src_01ab4268402d32d4d111
+
+## original_wording
+Elevation of the blood level of the following enzyme helps in diagnosis of Pneumonia: b.Lactate Dehydrogenase. Key: b. An increase in non-functional plasma enzyme level is indication of: a.Tissue destruction. Key: a.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-25DCFA3B0D1322
+
+## label
+Digestive proteases cleave peptide bonds at specific residues -- pepsin at the bond formed by an aromatic amino acid's amino group, trypsin at the bond formed by a basic amino acid's carboxyl group
+
+## canonical_key
+enzyme.hydrolase.protease-cleavage-site-specificity
+
+## definition
+Proteolytic enzymes are not indiscriminate -- each recognises and cleaves the peptide bond adjacent to a particular kind of amino-acid side chain. Pepsin, active in the acidic stomach, preferentially cleaves the peptide bond formed between the amino group of an aromatic amino acid (phenylalanine, tyrosine, tryptophan) and the carboxyl group of the neighbouring residue. Trypsin, secreted by the pancreas and active in the alkaline duodenum, instead cleaves the peptide bond formed between the carboxyl group of a basic amino acid (lysine, arginine) and the amino group of the next residue. This differing specificity lets sequential protease action break a protein down progressively rather than any one enzyme finishing the job alone.
+
+## explicit_objective
+State which residue's peptide bond pepsin cleaves (aromatic amino acid's amino side) versus which trypsin cleaves (basic amino acid's carboxyl side).
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme classification
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pepsin cleavage specificity|Trypsin cleavage specificity|Protease substrate specificity
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Reversing which side of the bond each protease recognises (pepsin = aromatic residue's amino side; trypsin = basic residue's carboxyl side) -- the two are commonly confused because both are digestive proteases acting on peptide bonds, but their target residue and bond side differ.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-11018901C5A648
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p7 q28,q29 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-25DCFA3B0D1322-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Pepsin acts on: a. Peptide bond between NH2 of aromatic amino acid and carboxylic group of another amino acid. Key: a. Trypsin acts on: b. Peptide bond between COOH of basic amino acid and amino group of another amino acid. Key: b.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-38C5DF48209C9C
+
+## label
+Each enzyme has its own optimum pH matching its working environment -- pepsin at a strongly acidic pH around 1.5, alkaline phosphatase at an alkaline pH around 9.5
+
+## canonical_key
+enzyme.kinetics.optimum-ph-of-named-enzymes
+
+## definition
+Enzyme activity is pH-dependent because pH affects the ionisation state of catalytic and substrate-binding side chains, so each enzyme has a characteristic optimum pH matching the environment it normally works in. Pepsin, secreted into the strongly acidic stomach, has an optimum pH around 1.5, far more acidic than most enzymes. Alkaline phosphatase, consistent with its name, has an alkaline optimum pH around 9.5. Moving far from an enzyme's optimum pH in either direction reduces its activity and can eventually denature it.
+
+## explicit_objective
+State the optimum pH for pepsin (strongly acidic, ~1.5) and alkaline phosphatase (alkaline, ~9.5) as examples of enzyme-specific pH optima.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme kinetics
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Enzyme optimum pH|Pepsin pH optimum|Alkaline phosphatase pH optimum
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming all enzymes share one 'physiological' optimum pH near 7.4 -- pepsin's strongly acidic optimum (~pH 1.5) and alkaline phosphatase's alkaline optimum (~pH 9.5) are textbook exceptions specifically because each enzyme's optimum matches its own local environment.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-F29934C070A94C
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p7,p8 q30,q37 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-38C5DF48209C9C-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Optimum PH for Alkaline Phosphatase is: d. PH 9.5. Key: d. Optimum PH for pepsin is: a. 1.5. Key: a.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-0E1F753CEC70F5
+
+## label
+A multienzyme complex is a physically associated set of distinct enzymes catalysing successive steps of a pathway as one functional unit -- fatty acid synthase, pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase are multienzyme complexes, but glycogen synthase is a single enzyme, not one
+
+## canonical_key
+enzyme.classification.multienzyme-complexes
+
+## definition
+Some metabolic pathways group several distinct catalytic activities into one large, physically associated multienzyme complex, which channels the reaction intermediate directly from one active site to the next rather than releasing it to diffuse freely, improving efficiency and coordinating regulation. Fatty acid synthase, pyruvate dehydrogenase (three enzyme components plus five coenzymes), and alpha-ketoglutarate dehydrogenase (structurally analogous to pyruvate dehydrogenase) are the classic multienzyme-complex examples. Glycogen synthase, despite catalysing a comparably central, regulated metabolic step, is a single ordinary enzyme rather than a multienzyme complex.
+
+## explicit_objective
+Identify fatty acid synthase, pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase as multienzyme complexes, and glycogen synthase as the exception (a single enzyme).
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme classification
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Multienzyme complex examples|Pyruvate dehydrogenase complex|Fatty acid synthase complex
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any enzyme central to a major regulated pathway must be a multienzyme complex -- glycogen synthase is exactly this trap, catalysing a key regulated step of glycogenesis yet remaining a single enzyme, not a multi-subunit complex like PDH or fatty acid synthase.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-11018901C5A648
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_01ab4268402d32d4d111 | department_question_book | undated | Enzymology section q8 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-0E1F753CEC70F5-01
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## original_wording
+All are multienzyme complexes, EXCEPT: a.Fatty acid synthase b.Pyruvate dehydrogenase c.a-ketoglutarate dehydrogenase d.Glycogen synthase. Key: d.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-0418BB3CE98219
+
+## label
+A holoenzyme is the complete, catalytically active enzyme -- its protein (apoenzyme) plus its cofactor -- and a prosthetic group is a cofactor bound tightly, often covalently, unlike a loosely associating coenzyme
+
+## canonical_key
+enzyme.cofactor.holoenzyme-apoenzyme-prosthetic-group-terminology
+
+## definition
+The catalytically inactive protein portion of an enzyme alone is the apoenzyme; combined with its required non-protein cofactor, the complete, catalytically active complex is the holoenzyme. Most cofactors associate loosely and reversibly, cycling on and off with each catalytic round, but a cofactor bound instead tightly -- frequently covalently -- to the apoenzyme is specifically termed a prosthetic group rather than an ordinary coenzyme, even though both are non-protein organic cofactors functionally.
+
+## explicit_objective
+Distinguish apoenzyme (protein only, inactive) from holoenzyme (protein plus cofactor, active), and define a prosthetic group as a cofactor bound tightly/covalently rather than loosely.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Cofactors and coenzymes
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Holoenzyme definition|Apoenzyme definition|Prosthetic group vs coenzyme
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Using 'coenzyme' and 'prosthetic group' interchangeably -- both are non-protein organic cofactors, but a prosthetic group is specifically one bound tightly/covalently to the apoenzyme, while an ordinary coenzyme associates and dissociates loosely each catalytic cycle.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-90AFE9068889FA
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p4,p13 q14,q59 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-0418BB3CE98219-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Non-Protein organic molecule covalently bind to active site of enzyme is termed: d.Prosthetic Group. Key: d. What is the name given to active complete enzyme? c.Holoenzyme. Key: c.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-7D49CC0BDC9564
+
+## label
+Ethanol competitively inhibits alcohol dehydrogenase to treat methanol poisoning, and malonic acid competitively inhibits succinate dehydrogenase -- both raise the enzyme's apparent Km for its true substrate while leaving Vmax unchanged
+
+## canonical_key
+enzyme.clinical.competitive-inhibitor-examples-ethanol-malonate
+
+## definition
+Two classic worked examples illustrate competitive inhibition's kinetics in a clinical/biochemical context. In methanol poisoning, ethanol is given deliberately because it structurally resembles methanol and competes with it for the same active site of alcohol dehydrogenase, slowing methanol's conversion to the truly toxic formaldehyde -- a textbook competitive-inhibitor rescue. Malonic acid (malonate) resembles succinate closely enough to competitively occupy the active site of succinate dehydrogenase in the citric acid cycle; because the inhibition is competitive, adding more succinate can still displace malonate, so Km for succinate rises while Vmax, achievable once enough substrate out-competes the inhibitor, stays unchanged.
+
+## explicit_objective
+State that ethanol competitively inhibits alcohol dehydrogenase (used therapeutically in methanol poisoning) and that malonate competitively inhibits succinate dehydrogenase, in both cases raising Km without changing Vmax.
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme regulation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Ethanol methanol poisoning antidote|Malonate succinate dehydrogenase inhibition|Competitive inhibition clinical examples
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Describing the ethanol/methanol or malonate/succinate pairs as non-competitive -- both are specifically competitive (structural mimicry of the true substrate, active-site competition, Km raised/Vmax unchanged, reversible by excess true substrate), which is the entire reason ethanol works as a methanol-poisoning antidote.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-CB8584ED2F3C49
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.55
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p10 q46,q47 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-7D49CC0BDC9564-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Patients who ingested toxic level of methanol are sometimes treated with ethanol to inhibit methanol oxidation... Ethanol resembles methanol structure and competes with it for the enzyme binding site. Key: b. Addition of Malonic acid with Succinic acid in the reaction catalyzed by succinate dehydrogenase will lead to: c.Km increases and Vmax not changed. Key: c.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-250CFA7E2EE637
+
+## label
+Methotrexate competitively inhibits dihydrofolate reductase by structurally resembling its substrate, blocking folate regeneration and, with it, DNA synthesis in rapidly dividing cells
+
+## canonical_key
+enzyme.clinical.methotrexate-dihydrofolate-reductase-inhibition
+
+## definition
+Dihydrofolate reductase (DHFR) regenerates active tetrahydrofolate from dihydrofolate, a cofactor the one-carbon transfers of thymidylate and purine synthesis depend on. Methotrexate is a structural analogue of folate/dihydrofolate that binds the same active site far more tightly than the natural substrate, competitively inhibiting DHFR: as with any competitive inhibitor, this raises the enzyme's apparent Km for dihydrofolate while leaving Vmax unchanged. Because it starves rapidly dividing cells of thymidylate, methotrexate is used both as a chemotherapy agent and, at lower doses, as an immunosuppressant in conditions like rheumatoid arthritis.
+
+## explicit_objective
+State that methotrexate is a competitive inhibitor of dihydrofolate reductase, raising Km for dihydrofolate without changing Vmax, and blocking folate-dependent DNA synthesis.
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme regulation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Methotrexate mechanism|Dihydrofolate reductase inhibition|Folate antagonist chemotherapy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming methotrexate's kinetic signature is Vmax-lowering (non-competitive) rather than Km-raising (competitive) -- despite binding DHFR far more tightly than the natural substrate, the inhibition is still classified as competitive because it occupies the same active site and is in principle substrate-displaceable.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-CB8584ED2F3C49
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p12 q55 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-250CFA7E2EE637-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Addition of Methotrexate with Tetra Hydro Folate in the reaction catalyzed by Tetra Hydro Folate Reductase will lead to: d. Km increases and Vmax not changed. Key: d.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-BCF22EBBACF9E8
+
+## label
+The induced-fit model describes an enzyme's active site as flexible, reshaping around the substrate as it binds -- lipase is a textbook example of this flexible catalytic-site behaviour, contrasted with the older, rigid lock-and-key model
+
+## canonical_key
+enzyme.kinetics.induced-fit-vs-rigid-active-site-models
+
+## definition
+Two models describe how an enzyme's active site accommodates its substrate. The older lock-and-key model treats the active site as a rigid, pre-shaped template the substrate simply fits into, like a key into a lock. The induced-fit model, which better explains most real enzymes, instead treats the active site as flexible: the enzyme's conformation changes as substrate binds, the site moulding itself around the substrate to maximise the fit and position catalytic residues correctly. Lipase, which must accommodate substrates of varying chain length and orientation at a lipid-water interface, is used as a textbook example of this flexible, induced-fit catalytic-site behaviour.
+
+## explicit_objective
+Contrast the induced-fit model (flexible active site that reshapes around the substrate, e.g. lipase) with the rigid lock-and-key model of enzyme-substrate binding.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Enzyme kinetics
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Induced fit model|Lock and key model|Flexible catalytic site
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Treating lock-and-key and induced-fit as the same idea -- lock-and-key assumes the active site's shape is fixed before binding, while induced-fit specifically means the site's shape changes in response to substrate binding, which is the flexible-catalytic-site fact this bank's own question names lipase to illustrate.
+
+## article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_article_ids
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## related_concept_ids
+CON-FND-5846431203789F
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## exam_signal
+src_9929d079ddfd6e073223 | department_question_book | undated | p12 q54 | AU-MED-102
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-ENZ-BCF22EBBACF9E8-01
+
+## resource_ids
+src_9929d079ddfd6e073223
+
+## original_wording
+Which of the following is an example of the flexible model of the catalytic site? a.Lipase. Key: a.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet; curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific enzymology fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own Enzymes MCQ bank and the AFM master bank's Enzymology section; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched docs/Kasr-Source-Imports/concept/*.md and docs/import-ready/concept/*.md for this canonical key and its distinctive terms before minting (coverage/AU-MED-102-biochemistry-triage.md sec6-7, sec9 sub-lane split). No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the enzymology concepts minted alongside this one and the Kasr 102-INT enzyme-kinetics concepts already live; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.

@@ -2755,3 +2755,523 @@ Alexandria University AU-MED-102 Biochemistry department question source; is_ass
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-3FD95F3799FC3F-01
+
+## claim_id
+CLM-FND-ENZ-3FD95F3799FC3F-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+In .... Inhibition, the inhibitor is an end product of enzyme action: a. Non-competitive b. Allosteric c. Competitive d. Feedback. Key: d.
+
+## locator_type
+page
+
+## locator_page
+p2 q2
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-90AFE9068889FA-01
+
+## claim_id
+CLM-FND-ENZ-90AFE9068889FA-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Coenzymes are: a. Organic, non-protein molecules. Key: a. More general term that include organic and inorganic molecules: a.Coenzyme b.Cofactor c.Metal d.Prosthetic group. Key: b.
+
+## locator_type
+page
+
+## locator_page
+p2,p5,p10 q3,q5,q26,q44,q45
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-11018901C5A648-01
+
+## claim_id
+CLM-FND-ENZ-11018901C5A648-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Digestive enzymes as Pepsin belong to the class of: a.Hydrolases. Key: a. All the following enzymes are Oxidoreductases except: d.Aldolase. Key: d. An example of Lyase is: b.Hydratase. Key: b. The enzyme belonging to the Ligase class is: b.Glutamine synthetase. Key: b.
+
+## locator_type
+page
+
+## locator_page
+p2,p4,p5,p6,p9,p13,p14 q4,q17,q21,q23,q24,q39,q40,q42,q62
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-74B64897158273-01
+
+## claim_id
+CLM-FND-ENZ-74B64897158273-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+In enzyme kinetics, V-max denotes: a. The amount of an active enzyme. Key: a.
+
+## locator_type
+page
+
+## locator_page
+p3 q8
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-3D7C56F6F9B062-01
+
+## claim_id
+CLM-FND-ENZ-3D7C56F6F9B062-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+In non-competitive inhibitors: a.Km increases b.Km decreases c.Vmax decreases d.All of the above. Key: c.
+
+## locator_type
+page
+
+## locator_page
+p5 q18
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-CCE5DCCCB059AA-01
+
+## claim_id
+CLM-FND-ENZ-CCE5DCCCB059AA-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Elevation of the blood level of the following enzyme helps in diagnosis of Pneumonia: b.Lactate Dehydrogenase. Key: b. An increase in non-functional plasma enzyme level is indication of: a.Tissue destruction. Key: a.
+
+## locator_type
+page
+
+## locator_page
+p5,p9 q19,q43
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-25DCFA3B0D1322-01
+
+## claim_id
+CLM-FND-ENZ-25DCFA3B0D1322-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Pepsin acts on: a. Peptide bond between NH2 of aromatic amino acid and carboxylic group of another amino acid. Key: a. Trypsin acts on: b. Peptide bond between COOH of basic amino acid and amino group of another amino acid. Key: b.
+
+## locator_type
+page
+
+## locator_page
+p7 q28,q29
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-38C5DF48209C9C-01
+
+## claim_id
+CLM-FND-ENZ-38C5DF48209C9C-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Optimum PH for Alkaline Phosphatase is: d. PH 9.5. Key: d. Optimum PH for pepsin is: a. 1.5. Key: a.
+
+## locator_type
+page
+
+## locator_page
+p7,p8 q30,q37
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-0E1F753CEC70F5-01
+
+## claim_id
+CLM-FND-ENZ-0E1F753CEC70F5-01
+
+## resource_id
+src_01ab4268402d32d4d111
+
+## evidence_role
+local_curriculum
+
+## support_span
+All are multienzyme complexes, EXCEPT: a.Fatty acid synthase b.Pyruvate dehydrogenase c.a-ketoglutarate dehydrogenase d.Glycogen synthase. Key: d.
+
+## locator_type
+page
+
+## locator_page
+Enzymology section q8
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-0418BB3CE98219-01
+
+## claim_id
+CLM-FND-ENZ-0418BB3CE98219-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Non-Protein organic molecule covalently bind to active site of enzyme is termed: d.Prosthetic Group. Key: d. What is the name given to active complete enzyme? c.Holoenzyme. Key: c.
+
+## locator_type
+page
+
+## locator_page
+p4,p13 q14,q59
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-7D49CC0BDC9564-01
+
+## claim_id
+CLM-FND-ENZ-7D49CC0BDC9564-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Patients who ingested toxic level of methanol are sometimes treated with ethanol to inhibit methanol oxidation... Ethanol resembles methanol structure and competes with it for the enzyme binding site. Key: b. Addition of Malonic acid with Succinic acid in the reaction catalyzed by succinate dehydrogenase will lead to: c.Km increases and Vmax not changed. Key: c.
+
+## locator_type
+page
+
+## locator_page
+p10 q46,q47
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-250CFA7E2EE637-01
+
+## claim_id
+CLM-FND-ENZ-250CFA7E2EE637-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Addition of Methotrexate with Tetra Hydro Folate in the reaction catalyzed by Tetra Hydro Folate Reductase will lead to: d. Km increases and Vmax not changed. Key: d.
+
+## locator_type
+page
+
+## locator_page
+p12 q55
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-ENZ-BCF22EBBACF9E8-01
+
+## claim_id
+CLM-FND-ENZ-BCF22EBBACF9E8-01
+
+## resource_id
+src_9929d079ddfd6e073223
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is an example of the flexible model of the catalytic site? a.Lipase. Key: a.
+
+## locator_type
+page
+
+## locator_page
+p12 q54
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes

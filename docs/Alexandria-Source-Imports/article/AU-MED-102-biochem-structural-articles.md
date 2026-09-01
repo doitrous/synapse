@@ -801,3 +801,182 @@ module: No verified live AU-MED-102 module id has been confirmed in server data 
 moduleIds: Same reason — `docs/import-ready/academic/au-modules.md` has not been imported yet.
 lastReviewed: New record; not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 reviewDue: Set when the first faculty review completes.
+
+
+---
+
+# Item
+
+## id
+ART-FND-AU-MED-102-ENZYMOLOGY
+
+## title
+Enzymology: kinetics, classification, regulation and clinical enzymes
+
+## arabic_title
+
+
+## aliases
+Enzyme kinetics|Enzyme classification|Enzyme inhibition|Isoenzymes|Clinical enzymology
+
+## subject
+fnd
+
+## topic
+Biomolecules
+
+## subtopic
+Enzymes
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+20
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## universities
+au
+
+## years
+AU_Y1
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Enzymology
+
+## summary
+Alexandria's Biochemistry department examines enzymes as catalysts whose behaviour follows testable rules: how fast they work and why, how they are named and classified, how their activity is turned up or down, and how a leaked enzyme becomes a diagnostic clue. This article states each rule once, alongside the exception the department's own question banks test alongside it — an enzyme lowers activation energy but never shifts a reaction's equilibrium, a competitive inhibitor raises Km without touching Vmax while a non-competitive one does the reverse, and glutamine synthetase is a ligase despite a name that sounds like a lyase.
+
+## sections
+### Definition
+An enzyme is a protein biocatalyst, produced by living cells, active in very small amounts, unchanged at the end of the reaction, and highly specific for the substrate it acts on. Enzymes are colloidal and heat-labile (non-dialyzable, unlike the small molecules that assist them), and most are far larger than the substrate they act on. An enzyme catalyses a reaction by lowering the activation energy (Ea) needed to reach the transition state — the fleeting, high-energy arrangement two or more colliding molecules must pass through, with the right energy and the right orientation, for the reaction to proceed — but an enzyme never changes the reaction's equilibrium constant or the total free-energy difference between substrate and product; it only makes the existing reaction go faster in both directions equally.
+
+Many enzymes are synthesised as an inactive precursor, a zymogen (proenzyme), which is switched on by proteolysis that removes the segment masking the active site — pepsinogen becoming pepsin by autocatalysis is the classic example. An enzyme's active site is the region that binds the substrate; the shape-fit between the two is not perfectly rigid. The older lock-and-key model treated the active site as a fixed template the substrate simply fits into, but the induced-fit model, which better explains most real enzymes, holds that the site is flexible and reshapes itself around the substrate as it binds — lipase, accommodating substrates of varying chain length at a lipid-water interface, is the textbook example of this flexible catalytic-site behaviour.
+
+### Mechanism
+Enzyme kinetics is read off a velocity-versus-substrate-concentration curve through two defining values. Vmax is the maximal velocity a fixed amount of enzyme reaches once substrate is saturating (every active site occupied); it is set by how much enzyme is present and its intrinsic turnover, not by substrate concentration itself — doubling the enzyme doubles Vmax, but adding still more substrate past saturation does not. Km is the substrate concentration that gives half of Vmax; a smaller Km means a higher affinity of the enzyme for its substrate, because less substrate is needed to half-saturate it. Reaction rate itself rises with increasing substrate concentration (up to the point of saturation), and depends as well on enzyme concentration, cofactor concentration, temperature and pH — vigorous shaking or agitation, like excess heat, denatures the enzyme and lowers its activity irreversibly.
+
+Every enzyme has its own optimum pH matching the environment it works in, not one universal physiological value: pepsin, active in the strongly acidic stomach, has an optimum around pH 1.5, while alkaline phosphatase, true to its name, has an optimum around pH 9.5. An enzyme's rate can also be raised by an activator — chloride ion activates salivary amylase — which behaves as a positive version of the same cofactor-concentration factor that inhibitors act on negatively. Several enzymes work as a coenzyme-assisted pair rather than alone: a coenzyme is a small, dialyzable, organic non-protein molecule that assists catalysis, often by accepting one of the reaction's products, and is functionally distinct from the bulk, colloidal, non-dialyzable protein of the enzyme itself. "Cofactor" is the broader term, covering both organic coenzymes and inorganic metal-ion cofactors. The inactive protein alone is an apoenzyme; combined with its cofactor, the complete, catalytically active unit is a holoenzyme. Most cofactors associate loosely and reversibly, but one bound tightly, often covalently, to the apoenzyme is specifically a prosthetic group rather than an ordinary coenzyme.
+
+### Key determinants
+The International Union of Biochemistry sorts every enzyme into one of six classes by the type of reaction it catalyses. Oxidoreductases catalyse oxidation-reduction (electron or hydrogen transfer) reactions — catalase and glutathione peroxidase belong here, and a dehydrogenase (converting a hydroxyl-bearing carbon to a ketone, losing two hydrogens) is an oxidoreductase too; aldolase, despite sitting among oxidoreductases in glycolysis, is actually a lyase, not an oxidoreductase. Transferases move a functional group other than hydrogen between two substrates. Hydrolases cleave a bond by adding water — digestive enzymes such as pepsin belong to this class. Lyases remove a group without hydrolysis or oxidation, e.g. fumarase (a hydratase); glutamine synthetase, despite a name that invites confusion with a lyase, is in fact a ligase. Isomerases interconvert isomers of a single substrate, such as converting a sugar between its L- and D- forms. Ligases (synthetases) join two substrate molecules together at the cost of ATP, e.g. glutamine synthetase and glycogen synthase.
+
+Two of the department's digestive proteases are examined for exactly which peptide bond each one cleaves, not just that both are proteases: pepsin, active in the acidic stomach, cleaves the peptide bond formed between the amino group of an aromatic amino acid (phenylalanine, tyrosine, tryptophan) and the carboxyl group of the next residue, while trypsin, secreted by the pancreas into the alkaline duodenum, cleaves the peptide bond formed between the carboxyl group of a basic amino acid (lysine, arginine) and the amino group of the next residue. Some pathways go further and group several distinct enzyme activities into one physically associated multienzyme complex that channels the reaction intermediate from one active site straight to the next: fatty acid synthase, pyruvate dehydrogenase, and alpha-ketoglutarate dehydrogenase are multienzyme complexes, but glycogen synthase, despite catalysing an equally central regulated step, is a single ordinary enzyme, not a multienzyme complex.
+
+### Regulation
+Enzyme activity is turned up or down by several distinct mechanisms the department's questions test as a set, each with its own kinetic signature. A competitive inhibitor structurally resembles the substrate closely enough to occupy the active site itself; because more substrate can still out-compete it for that site, a competitive inhibitor raises the enzyme's apparent Km (more substrate is needed to reach half-Vmax) without changing Vmax, and the effect is reversed by adding enough substrate. A non-competitive inhibitor instead binds a site distinct from the active site, on either the free enzyme or the enzyme-substrate complex; because it does not compete for the active site, Km is essentially unchanged, but because a fraction of enzyme is disabled regardless of substrate concentration, Vmax falls — and, unlike competitive inhibition, this is not reversed by adding more substrate. An allosteric effector, inhibitory or stimulatory, binds a site distinct from the catalytic site altogether and works by producing a conformational change in the enzyme; feedback (end-product) inhibition is the special case in which that allosteric (or otherwise regulatory) inhibitor is specifically the pathway's own end product, acting on an earlier, often committed-step, enzyme of that same pathway. Covalent modification is a further, separate regulatory mechanism: reversible phosphorylation and dephosphorylation, catalysed respectively by protein kinase and protein phosphatase, adds or removes a phosphate group and can activate or inactivate an enzyme depending on which one it is.
+
+Two worked clinical/biochemical examples make competitive inhibition concrete. In methanol poisoning, ethanol is given deliberately because it structurally resembles methanol and competes with it for the same active site of alcohol dehydrogenase, slowing the production of the truly toxic formaldehyde — raising Km for methanol without changing Vmax, the same signature as any competitive inhibitor. Malonic acid similarly resembles succinate closely enough to competitively inhibit succinate dehydrogenase in the citric acid cycle, again raising Km while leaving Vmax unchanged. Methotrexate works the same way against dihydrofolate reductase (DHFR): it structurally resembles DHFR's substrate dihydrofolate and binds the same active site, competitively blocking regeneration of the tetrahydrofolate that thymidylate and purine synthesis need, which is why methotrexate is used both as a chemotherapy agent against rapidly dividing cells and, at lower doses, as an immunosuppressant.
+
+### Clinical significance
+Isoenzymes are enzymes that catalyse the same reaction but differ in structure — a different amino acid sequence, sometimes a different quaternary composition, giving each a distinct electrophoretic pattern and sometimes a different substrate affinity — while being present in different tissues; this tissue distribution is exactly what makes an isoenzyme's rise in plasma diagnostically useful for locating where it leaked from. Lactate dehydrogenase (LDH) is a tetramer of H and M subunits forming five tissue isoenzymes, and creatine kinase (CK) is a dimer of M and B subunits forming three; LDH1 rises characteristically in myocardial infarction and LDH5 in liver disease, which is why the isoenzyme pattern, not the total LDH level, is what localises the source. More broadly, cells keep most of their enzymes intracellular, so any rise in a normally low or absent plasma enzyme signals tissue destruction, not normal growth or recovery: amylase elevation points to pancreatitis, alanine transaminase (ALT) elevation to hepatocellular damage such as hepatitis, creatine kinase elevation to muscle damage (classically myocardial infarction), and LDH elevation to any of several conditions including pneumonia, myocardial infarction and liver disease — precisely because LDH alone is not tissue-specific, its isoenzyme pattern is what the diagnosis actually leans on.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+An enzyme lowers activation energy but never changes a reaction's equilibrium constant or overall free-energy change.
+Vmax depends on enzyme amount/turnover (reached at saturating substrate); Km is a substrate concentration (the level giving half-Vmax) and a smaller Km means higher affinity.
+A competitive inhibitor raises Km, leaves Vmax unchanged, and is reversed by more substrate; a non-competitive inhibitor lowers Vmax, leaves Km unchanged, and is not reversed by more substrate.
+Feedback inhibition is defined by who the inhibitor is (the pathway's own end product acting on an earlier enzyme), not by how it binds.
+Six IUB enzyme classes: oxidoreductase, transferase, hydrolase, lyase, isomerase, ligase — glutamine synthetase is a ligase despite the name, aldolase is a lyase despite sitting among oxidoreductases.
+Pepsin cleaves at an aromatic amino acid's amino side; trypsin cleaves at a basic amino acid's carboxyl side.
+Fatty acid synthase, pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase are multienzyme complexes; glycogen synthase is not.
+LDH (tetramer, 5 isoenzymes) and CK (dimer, 3 isoenzymes) rise in a tissue-specific pattern — LDH1 in myocardial infarction, LDH5 in liver disease.
+Ethanol/methanol and malonate/succinate dehydrogenase are worked examples of competitive inhibition; methotrexate is a competitive inhibitor of dihydrofolate reductase.
+A holoenzyme is apoenzyme plus cofactor; a prosthetic group is a tightly/covalently bound cofactor, unlike a loosely associating coenzyme.
+
+## lose_the_mark
+Answering "enzymes shift the reaction's equilibrium" — they only lower activation energy and speed up the approach to the same, unchanged equilibrium.
+Swapping the kinetic signatures of competitive and non-competitive inhibition (Km-up-Vmax-same vs Vmax-down-Km-same).
+Calling glutamine synthetase a lyase because its job "sounds like" bond formation without ATP — it is a ligase, ATP-dependent bond formation is exactly the ligase definition.
+Reversing pepsin and trypsin's cleavage specificity (aromatic-amino-acid-amino-side vs basic-amino-acid-carboxyl-side).
+Assuming a single "physiological" optimum pH for every enzyme — pepsin's is strongly acidic, alkaline phosphatase's is alkaline.
+Treating a total LDH elevation as tissue-specific on its own — it needs the isoenzyme pattern, unlike ALT (liver-specific) or CK (muscle/heart-specific).
+Using "coenzyme" and "prosthetic group" as synonyms — a prosthetic group is bound tightly/covalently, an ordinary coenzyme loosely and reversibly.
+
+## related_concepts
+CON-FND-BA7E60E9E6800B
+CON-FND-5846431203789F
+CON-FND-028C50A610B2A2
+CON-FND-F6E154FA6FF42A
+CON-FND-CB8584ED2F3C49
+CON-FND-6BBAC69900B22F
+CON-FND-6A58FA1680290F
+CON-FND-DD3EE5EC8C07D1
+CON-FND-F29934C070A94C
+CON-FND-3FD95F3799FC3F
+CON-FND-90AFE9068889FA
+CON-FND-11018901C5A648
+CON-FND-74B64897158273
+CON-FND-3D7C56F6F9B062
+CON-FND-CCE5DCCCB059AA
+CON-FND-25DCFA3B0D1322
+CON-FND-38C5DF48209C9C
+CON-FND-0E1F753CEC70F5
+CON-FND-0418BB3CE98219
+CON-FND-7D49CC0BDC9564
+CON-FND-250CFA7E2EE637
+CON-FND-BCF22EBBACF9E8
+
+## related_articles
+
+
+## notes
+Searched before creating: this article's teaching prose covers 22 distinct enzymology facts — 9 already live as Kasr `102-INT` concepts (CON-FND-BA7E60E9E6800B through CON-FND-F29934C070A94C above; sparse au/AU-MED-102 overlays staged in `pending-live/AU-MED-102-biochem-enzymology-overlays.md` since this lane cannot run the live-DB importer) and 13 genuinely new to the corpus (CON-FND-3FD95F3799FC3F through CON-FND-BCF22EBBACF9E8, minted fresh after the department triage's sec6-7 search plus a fresh find-existing/grep pass found no live or pending match for feedback inhibition, coenzyme nature, the six-class enzyme taxonomy, Vmax, non-competitive inhibition, diagnostic serum markers, protease specificity, named-enzyme optimum pH, multienzyme complexes, holoenzyme/apoenzyme/prosthetic-group terminology, the ethanol/methanol and malonate/succinate-dehydrogenase inhibitor examples, methotrexate/DHFR, and the induced-fit model). Two D-list ideas from the department triage (lead/ferrochelatase inhibition and vitamin-coenzyme pairings) were reassigned to sub-lane C by the chief of staff's triage sec9 split and are out of this article's scope. One triage-cited fact (copper-containing metalloenzymes, AFM Enzymology Q15) is held, not taught here: the source's own printed key and the OCR-extracted option lettering disagree with which option is highlighted, and rendering the page to resolve it was judged disproportionate for one fact — flagged in the coverage ledger rather than guessed.
+
+## field_notes
+arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.
+subtopicId: No SUB_ identifier exists for this module in the curriculum overlay; module_subject carries the department's own chapter position instead.
+microtopicId: The canonical placement (DIS-BIO-T01) and module_subject are already as fine as the department's own materials distinguish.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than anything examined.
+questionIds: No question record has been authored against this article yet; the reciprocal link is written in the question-authoring pass that follows.
+media: No medical image exists in this repository. The one figure this article could use (the enzyme-substrate reaction diagram on p.1 of the Enzymes MCQ bank) is filed as a media request rather than left unexplained; no MCQ in this pass depends on it.
+module: No verified live AU-MED-102 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+moduleIds: Same reason — `docs/import-ready/academic/au-modules.md` has not been imported yet.
+lastReviewed: New record; not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+reviewDue: Set when the first faculty review completes.
