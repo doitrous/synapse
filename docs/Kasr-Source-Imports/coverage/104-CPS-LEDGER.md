@@ -4,23 +4,21 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 591 | excluded: 130 | remaining: 431
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 634 | excluded: 134 | remaining: 384
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 591
+- authored (by key, this ledger): 634
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 591
+- authored minus held-back = build-style "kept": 634
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
 | (untagged) | 548 | 88 | 4 | 329 |
-| Gas Transport by the Blood | 24 | 0 | 0 | 24 |
-| Lymph node | 21 | 0 | 0 | 17 |
-| Tonsils | 17 | 0 | 0 | 14 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 9 | 0 | 13 |
+| Gas Transport by the Blood | 24 | 16 | 0 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
 | Basic Mechanisms of Circulatory Control | 18 | 8 | 4 | 6 |
 | Veins | 34 | 21 | 8 | 5 |
@@ -38,12 +36,14 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Control of Respiration | 15 | 9 | 6 | 0 |
 | Electrical Activity of the Heart | 47 | 28 | 19 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
+| Lymph node | 21 | 17 | 0 | 0 |
 | Macrophage system | 2 | 1 | 1 | 0 |
 | Organization of the Respiratory System | 9 | 6 | 3 | 0 |
 | Respiratory Portion | 30 | 28 | 2 | 0 |
 | Special Circulation | 1 | 1 | 0 | 0 |
 | The Cell Cycle | 5 | 5 | 0 | 0 |
 | Thymus | 12 | 7 | 4 | 0 |
+| Tonsils | 17 | 10 | 4 | 0 |
 
 ## Remaining keys by cluster
 
@@ -381,70 +381,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0` — Y wave in jugular venous pulse occurs in: 1
 - `y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19` — Y wave in jugular venous pulse occurs in:
 
-### Gas Transport by the Blood (24)
-
-- `all-of-the-followings-are-correct-as-regards-cyanosis-except-1cb68242` — All of the followings are Correct as regards cyanosis EXCEPT:
-- `carbon-dioxide-is-transported-in-blood-in-the-following-form-5c2f6551` — Carbon dioxide is transported in blood in the following forms, except:
-- `carbonic-anhydrase-cb975a18` — Carbonic anhydrase:
-- `cyanosis-1-60b08503` — Cyanosis: 1
-- `cyanosis-3ce6dbd2` — Cyanosis:
-- `during-chloride-shift-1-eefc11e6` — During chloride shift: 1
-- `during-chloride-shift-1441cfda` — During chloride shift: :
-- `factors-that-cause-shift-of-oxygen-dissociation-curve-to-the-b126141d` — Factors that cause shift of oxygen dissociation curve to the right are:
-- `factors-that-shift-oxygen-dissociation-curve-to-the-left-inc-3448eb05` — Factors that shift oxygen dissociation curve to the left include:
-- `hypoxic-hypoxia-3-7fa250af` — Hypoxic hypoxia: 3
-- `hypoxic-hypoxia-b97facbb` — Hypoxic hypoxia:
-- `in-which-vascular-bed-does-hypoxia-cause-vasoconstriction-bce0e518` — In which vascular bed does hypoxia cause vasoconstriction?
-- `most-co-is-transported-in-the-blood-in-the-form-of-9dc7cf8c` — Most CO, is transported in the blood in the form of:
-- `non-chemical-influence-on-respiration-inclucle-all-of-the-fo-491c9bf5` — Non-chemical influence on respiration inclucle all of the following, EXCEPT:
-- `non-chemical-influence-on-respiration-include-all-of-the-fol-a0b06c7d` — Non-chemical influence on respiration include all of the following, EXCEPT: |
-- `oxygen-therapy-is-of-limited-value-in-which-of-the-following-4b8eb82e` — Oxygen therapy is of limited value in which of the following situations?
-- `oxygen-unloading-3-26f77f75` — Oxygen unloading: 3
-- `oxygen-unloading-91021a0b` — Oxygen unloading:
-- `regarding-chloride-shift-phenomenon-at-the-tissue-level-d2124bd0` — Regarding chloride shift phenomenon at the tissue level:
-- `the-haldane-effect-refers-to-460f3b00` — The haldane effect refers to:
-- `the-hemoglobin-oxygen-dissociation-curve-moves-up-and-to-the-58fa0d96` — The hemoglobin-oxygen dissociation curve moves up and to the left with:
-- `the-respiratory-center-da0305c6` — The respiratory center:
-- `which-of-the-following-causes-of-hypoxia-is-characterized-by-214aa73e` — Which of the following causes of hypoxia is characterized by a decreased arteria…
-- `with-respect-to-the-binding-of-carbon-monoxide-to-haemoglobi-5467d1ba` — With respect to the binding of carbon monoxide to haemoglobin: ‏ا‎
-
-### Lymph node (17)
-
-- `all-characters-of-lymph-node-capsule-except-95568569` — All characters of lymph Node Capsule except
-- `all-functions-of-lymph-node-except-4faf6247` — All functions of lymph Node except
-- `choose-the-correct-statement-about-billroth-cords-aa93a7fb` — Choose the correct statement about Billroth cords:
-- `choose-the-correct-statement-about-lymph-node-functions-79a10886` — Choose the correct statement about lymph node functions: |
-- `choose-the-correct-statement-about-the-lymph-node-8ca055b5` — Choose the correct statement about the lymph node:
-- `choose-the-correct-statement-about-the-lymph-node-a-lymph-ci-76fd16cb` — Choose the correct statement about the lymph node: a, Lymph circulates from medu…
-- `concerning-the-billroth-cords-the-following-is-true-775e83c5` — Concerning the Billroth cords, the following is true:
-- `concerning-the-paracortex-of-lymph-node-choose-the-correct-s-b9c8b9f2` — Concerning the paracortex of lymph node, choose the correct Statement:
-- `identify-the-following-organ-choose-the-correct-statement-bd5813e3` — Identify the following organ & choose the correct statement:
-- `in-intrapulmonary-bronchi-muco-serous-lymphatic-nodule-prese-63a9f274` — in intrapulmonary bronchi, muco-Serous, lymphatic nodule Present in:
-- `is-bean-or-kidney-shaped-with-capsule-a9e2e5ba` — ……….. is bean or kidney shaped with Capsule
-- `regarding-lymph-node-which-answer-is-correct-821e3545` — Regarding lymph node, which answer is correct?
-- `regarding-the-germinal-center-in-lymph-node-2a8628a2` — Regarding the germinal center in lymph node:
-- `regional-enlargement-of-lymph-nodes-may-be-due-to-68fe188c` — Regional enlargement of lymph nodes may be due to:
-- `the-germinal-center-of-secondary-lymphatic-nodules-contain-m-7128bcbf` — The germinal center of secondary lymphatic nodules contain many:
-- `the-primary-lymphatic-organs-include-1a970a71` — The primary lymphatic organs include:
-- `which-cell-considered-as-a-part-of-the-phagocytic-system-325b83f1` — Which cell considered as a part of the phagocytic system:
-
-### Tonsils (14)
-
-- `a-10-year-old-child-had-frequent-acute-tonsillitis-his-mothe-d637af89` — A 10 year old child had frequent acute tonsillitis & his mother was advised to c…
-- `a-7-year-old-child-came-to-the-pediatric-clinic-presenting-w-52cb44df` — A 7 year old child came to the pediatric clinic presenting with a typical pictur…
-- `a-patient-has-an-auto-immune-disease-it-may-be-due-to-a-defe-060829f0` — A patient has an auto immune disease .It may be due to a defect in the lymphocyt…
-- `a7-year-old-child-came-to-the-pediatric-clinic-presenting-wi-c1adae6b` — A7 year old child came to the pediatric clinic presenting with a typical picture…
-- `all-characters-of-lingual-tonsil-except-0ee201de` — All characters of lingual tonsil except
-- `all-characters-of-palatine-tonsil-except-42969d66` — All characters of palatine tonsil except
-- `choose-the-correct-statement-about-pharyngeal-tonsil-0-9929dd81` — Choose the correct statement about pharyngeal! tonsil: 0
-- `choose-the-correct-statement-about-pharyngeal-tonsil-fce585ae` — Choose the correct statement about pharyngeal tonsil:
-- `choose-the-correct-statement-about-the-palatine-tonsil-7961b87c` — Choose the correct statement about the palatine tonsil:
-- `concerning-palatine-tonsils-which-of-the-following-is-correc-2b7b1204` — Concerning palatine tonsils, which of the following is correct?
-- `nasopharynx-04301511` — nasopharynx:
-- `non-keratinized-stratified-squamous-epithelium-is-the-coveri-a6b12974` — Non keratinized stratified squamous epithelium is the covering of: |
-- `the-lingual-tonsils-are-not-commonly-inflamed-because-84653f3a` — The lingual tonsils are not commonly inflamed because:
-- `the-pharyngeal-tonsils-are-covered-by-47e66976` — The Pharyngeal tonsils are covered by
-
 ### Chromosomal Aberrations (Abnormalities) (13)
 
 - `a-patient-was-diagnosed-as-having-chronic-myeloid-leukemia-h-e370e170` — A patient was diagnosed as having chronic myeloid leukemia. His | condition migh…
@@ -460,6 +396,17 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `philadelphia-chromosome-6245c1ec` — Philadelphia chromosome:
 - `structural-aberrations-include-9c106da4` — Structural aberrations include:
 - `trisomy-of-chromosome-x-is-d0d549ba` — Trisomy of chromosome X is:
+
+### Gas Transport by the Blood (8)
+
+- `all-of-the-followings-are-correct-as-regards-cyanosis-except-1cb68242` — All of the followings are Correct as regards cyanosis EXCEPT:
+- `cyanosis-1-60b08503` — Cyanosis: 1
+- `cyanosis-3ce6dbd2` — Cyanosis:
+- `hypoxic-hypoxia-3-7fa250af` — Hypoxic hypoxia: 3
+- `hypoxic-hypoxia-b97facbb` — Hypoxic hypoxia:
+- `oxygen-therapy-is-of-limited-value-in-which-of-the-following-4b8eb82e` — Oxygen therapy is of limited value in which of the following situations?
+- `which-of-the-following-causes-of-hypoxia-is-characterized-by-214aa73e` — Which of the following causes of hypoxia is characterized by a decreased arteria…
+- `with-respect-to-the-binding-of-carbon-monoxide-to-haemoglobi-5467d1ba` — With respect to the binding of carbon monoxide to haemoglobin: ‏ا‎
 
 ### A-V Connections (7)
 

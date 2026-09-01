@@ -34,9 +34,10 @@
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
+    Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
+    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
@@ -48,6 +49,7 @@
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 5 questions, 2 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 16 questions, 4 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
@@ -69,7 +71,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  130 questions were excluded and 0 held back for having no
+  134 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -3731,7 +3733,7 @@ src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
 src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
 ## article_ids
-+ART-104-HIS-MACROPHAGE-SYSTEM
++ART-104-HIS-MACROPHAGE-SYSTEM | +ART-104-HIS-LYMPHOID-ORGANS
 ## field_notes
 canonical_key "mononuclear-phagocyte-system.definition-origin-and-distribution" already has a pinned id in this module (CON-HEM-D1628423BE0844); mintConceptId derives the same id fresh (CON-HEM-D1628423BE0844) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
@@ -3746,7 +3748,7 @@ CON-HEM-60C0AFCC9A1F88
 ## canonical_key
 lymph-node.cortex-medulla-zones-and-cell-distribution
 ## definition
-The lymph node is organised into a cortex and a medulla. The cortex's outer part carries lymphatic nodules (follicles) — primary follicles of mainly B-lymphocytes with a few T-lymphocytes, and, once antigen has driven some B-lymphocytes to enlarge and aggregate, secondary follicles with a peripheral dark region of small lymphocytes around a pale germinal centre of large activated B-lymphocytes, plasma cells and a few macrophages and T-lymphocytes. Cortical (subcapsular and trabecular) lymph sinuses separate the follicles from the capsule and trabeculae and are lined by endothelial cells and macrophages, carrying B-lymphocytes, plasma cells, macrophages and a few T-cells. Between the cortex and the medulla lies the paracortex, the thymus-dependent zone: unlike the follicles and sinuses around it, it holds only T-lymphocytes, which have migrated in from the thymus through post-capillary venules. The medulla is medullary cords — irregular branching cords of B-lymphocytes, plasma cells and macrophages, sometimes continuous with the cortical follicles — separated by medullary sinuses, which are lined by endothelium and macrophages and filter the lymph arriving from the cortical sinuses before it leaves at the hilum.
+The lymph node is organised into a cortex and a medulla. The cortex's outer part carries lymphatic nodules (follicles) — primary follicles of mainly B-lymphocytes with a few T-lymphocytes, and, once antigen has driven some B-lymphocytes to enlarge and aggregate, secondary follicles with a peripheral dark region of small lymphocytes around a pale germinal centre of large activated B-lymphocytes, plasma cells and a few macrophages and T-lymphocytes. Cortical (subcapsular and trabecular) lymph sinuses separate the follicles from the capsule and trabeculae and are lined by endothelial cells and macrophages, carrying B-lymphocytes, plasma cells, macrophages and a few T-cells. Between the cortex and the medulla lies the paracortex, the thymus-dependent zone: unlike the follicles and sinuses around it, it holds only T-lymphocytes, which have migrated in from the thymus through post-capillary venules lined with simple cubical epithelium (carrying receptors for T-lymphocyte homing). The medulla is medullary cords — irregular branching cords of B-lymphocytes, plasma cells and macrophages, sometimes continuous with the cortical follicles — separated by medullary sinuses, which are lined by endothelium and macrophages and filter the lymph arriving from the cortical sinuses before it leaves at the hilum.
 ## explicit_objective
 Place B-lymphocytes, T-lymphocytes, plasma cells and macrophages correctly among the lymph node's cortical follicles, cortical sinuses, paracortex and medullary cords/sinuses, and identify the paracortex as the one zone that is T-lymphocytes only.
 ## pitfalls
@@ -3771,18 +3773,23 @@ kau
 1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+src_b0c5c0d32e396511ae20 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -3870,6 +3877,580 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## label
+The bean- or kidney-shaped, encapsulated lymph node has a thin capsule with smooth muscle at the hilum and adipose covering, pierced by afferent lymphatics at its convex surface, with trabeculae dividing the cortex regularly and the medulla irregularly
+## id
+CON-HEM-71A6919A0991FB
+## canonical_key
+lymph-node.capsule-trabeculae-and-stroma
+## definition
+The lymph node is a bean- or kidney-shaped encapsulated lymphatic organ, ranging from the size of a small bean up to an almond, found in groups along lymphatic vessels (axilla, groin, neck, thorax). It has a convex surface, which receives afferent lymphatics, and a concave surface (the hilum), where arteries enter and veins and efferent lymphatics leave. Its stroma has three components: the capsule, formed of dense irregular fibrous connective tissue and elastic fibres — thin, containing smooth muscle at the thickened hilum, covered with adipose tissue, and pierced by afferent lymphatic vessels at its convex surface; connective-tissue septa (trabeculae), extending from the capsule's deep surface, dividing the cortex into regular compartments and, on branching further into the medulla, dividing it into irregular compartments; and a reticular connective-tissue network of reticular cells and fibres forming the organ's background, more condensed where cell density is higher, staining brown with silver stain.
+## explicit_objective
+Describe the lymph node's shape and surfaces, list the three components of its stroma, and state which structure pierces the capsule where, and which part of the parenchyma the trabeculae divide regularly versus irregularly.
+## pitfalls
+Assuming the trabeculae divide both cortex and medulla the same way. They divide the cortex into regular compartments but branch further into the medulla to divide it into irregular compartments — reversing which part gets the regular division is a common trap.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lymph node capsule | Lymph node shape | Lymph node trabeculae | Lymph node stroma
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All characters of lymph Node Capsule except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The lymph node filters lymph, forms lymphocytes, and carries out both humoral immunity (B-lymphocytes to plasma cells to antibodies) and cell-mediated immunity (activated T-lymphocytes) — RBC destruction and blood-cell storage are spleen functions, not lymph node ones
+## id
+CON-HEM-5B40B8CAB70F24
+## canonical_key
+lymph-node.functions-filtration-lymphocytopoiesis-and-immunity
+## definition
+The lymph node's functions are filtration of lymph from microorganisms and foreign bodies; formation of lymphocytes; and immunological function in two forms — humoral immunity, the activation of B-lymphocytes into plasmablasts and then plasma cells that secrete immunoglobulins (antibodies), and cell-mediated immunity, in which activated T-lymphocytes directly destroy antigen. Destruction of old red blood cells and storage of blood cells and platelets are, by contrast, functions of the spleen, not the lymph node — the department book's own comparison table lists lymph node function as 'filter lymph, humoral and cell mediated immunity' against spleen function as 'filter blood, storage of blood and immunological functions'.
+## explicit_objective
+List the lymph node's three functions (filtration of lymph, lymphocyte formation, humoral and cell-mediated immunity) and distinguish them from the spleen's functions (filtration of blood, storage, destruction of old RBCs).
+## pitfalls
+Assigning a spleen function — destruction of old red blood cells, or storage of blood cells — to the lymph node. The lymph node filters lymph and mounts immune responses; it is the spleen that filters blood and destroys/stores blood cells.
+## concept_type
+mechanism
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lymph node functions | Lymphadenitis | Humoral immunity | Cell-mediated immunity
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All functions of lymph Node except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Regional lymph node enlargement follows infection of the area a node drains (lymphadenitis) or malignant spread through lymphatic vessels from that area — not a blood-borne route, and not the leukaemias, which the department book does not describe as regional-enlargement causes
+## id
+CON-HEM-F9536FBAB70634
+## canonical_key
+lymph-node.clinical-enlargement-lymphadenitis-and-metastasis
+## definition
+Infection in any part of the body can lead to enlarged and inflamed lymph nodes draining that area, called lymphadenitis. Malignant cells can also spread from their primary site through lymphatic vessels, causing enlargement of the regional lymph nodes; examining lymph nodes gives valuable information about the spread of the cancer. Both causes act through the local drainage relationship between a body region and its regional nodes, which is what makes the enlargement regional rather than generalised.
+## explicit_objective
+State the two causes of regional lymph node enlargement the department book names (local infection and lymphatic — not haematogenous — spread of malignancy) and why both are regional rather than generalised.
+## pitfalls
+Attributing regional node enlargement to spread of cancer via the blood stream, or to leukaemia. The department book specifies spread through lymphatic vessels, not the blood stream, as the malignant route to regional nodes, and does not discuss the leukaemias as a cause of regional (as opposed to generalised) lymphadenopathy at all.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p10 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lymphadenitis | Regional lymph node enlargement | Metastasis to lymph nodes
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regional enlargement of lymph nodes may be due to:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Thymus and bone marrow are the primary (central) lymphatic organs, where lymphocytes are produced — the thymus specifically producing CD4+ and CD8+ T-lymphocytes — while lymph nodes, spleen and tonsils are secondary (peripheral) organs, where mature lymphocytes mount immune responses
+## id
+CON-HEM-CF6A9A48ADA3AC
+## canonical_key
+lymphatic-organs.primary-vs-secondary-classification
+## definition
+Lymphatic tissue is organised into primary (central) and secondary (peripheral) lymphatic organs. The primary organs are the thymus and bone marrow, the sites where lymphocytes are produced: the thymus is a primary lymphoid organ with an endocrine function, of double origin (mesodermal, giving lymphocytes; endodermal, giving epithelial reticular cells), whose cortex and medulla complete T-lymphocyte production and maturation, including the CD4+ and CD8+ T-lymphocyte populations, before they seed the peripheral organs. The secondary organs are the lymph nodes, spleen and tonsils, where those already-produced lymphocytes encounter antigen and mount the immune response — lymph nodes filtering lymph and carrying out humoral and cell-mediated immunity, the spleen filtering blood, and the tonsils protecting the digestive and respiratory systems' entry points.
+## explicit_objective
+Classify thymus and bone marrow as primary (central) lymphatic organs and lymph node, spleen and tonsil as secondary (peripheral) ones, and state that CD4+/CD8+ T-lymphocyte production is a primary-organ (thymic) function, not a secondary-organ one.
+## pitfalls
+Placing the spleen, lymph node or tonsil among the primary lymphatic organs, or attributing a primary-organ function (production of new lymphocytes, including CD4+/CD8+ T-cells) to a secondary organ. Secondary organs act on lymphocytes already produced elsewhere; they do not produce them.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p9 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Primary lymphatic organs | Secondary lymphatic organs | Central vs peripheral lymphoid organs
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Identify the following organ & choose the correct statement:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-HEM-594B1725902DAD
+## label
+Red pulp is Billroth cords and stave-cell sinusoids whose intercellular gaps let blood cells pass back into the circulation
+## canonical_key
+spleen.red-pulp-billroth-cords-and-stave-cell-sinusoids
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
+src_b0c5c0d32e396511ae20 | question_book | | p2 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "spleen.red-pulp-billroth-cords-and-stave-cell-sinusoids" already has a pinned id in this module (CON-HEM-594B1725902DAD); mintConceptId would derive a different one (CON-HEM-5DC8E77A14E8C9) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-7C79F2D68F1003
+## label
+Cartilage, glands and goblet cells fall away from extrapulmonary bronchus to bronchiole, while smooth muscle becomes more developed and Clara cells appear
+## canonical_key
+bronchi-and-bronchioles.structural-progression-and-clara-cells
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS | +ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## field_notes
+canonical_key "bronchi-and-bronchioles.structural-progression-and-clara-cells" already has a pinned id in this module (CON-RES-7C79F2D68F1003); mintConceptId derives the same id fresh (CON-RES-7C79F2D68F1003) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
 ## id
 CON-HEM-2F3CB0082551D1
 ## label
@@ -3884,28 +4465,6 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p5 | 104 CPS
 +ART-104-HIS-LYMPHOID-ORGANS
 ## field_notes
 canonical_key "spleen.capsule-trabeculae-white-pulp-and-red-pulp" already has a pinned id in this module (CON-HEM-2F3CB0082551D1); mintConceptId would derive a different one (CON-HEM-0FED5653346EA8) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
-
-
----
-
-# Item
-## id
-CON-HEM-594B1725902DAD
-## label
-Red pulp is Billroth cords and stave-cell sinusoids whose intercellular gaps let blood cells pass back into the circulation
-## canonical_key
-spleen.red-pulp-billroth-cords-and-stave-cell-sinusoids
-## exam_signal
-src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
-src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
-src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
-src_9cf32ada2b25fa54f0e9 | question_book | | p8 | 104 CPS
-src_b0c5c0d32e396511ae20 | question_book | | p2 | 104 CPS
-src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
-## article_ids
-+ART-104-HIS-LYMPHOID-ORGANS
-## field_notes
-canonical_key "spleen.red-pulp-billroth-cords-and-stave-cell-sinusoids" already has a pinned id in this module (CON-HEM-594B1725902DAD); mintConceptId would derive a different one (CON-HEM-5DC8E77A14E8C9) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -4521,6 +5080,436 @@ ART-104-HIS-LYMPHOID-ORGANS
 direct_statement
 ## original_wording
 [asked 1x across the question books] Concerning the thymus, which of the following is correct? 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-HEM-093013026B640A
+## label
+The palatine tonsil is stratified squamous epithelium dipping in as crypts, nodules arranged around them, and dense connective tissue on the deep aspect only
+## canonical_key
+tonsil.palatine-epithelium-crypts-and-deep-capsule
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "tonsil.palatine-epithelium-crypts-and-deep-capsule" already has a pinned id in this module (CON-HEM-093013026B640A); mintConceptId would derive a different one (CON-HEM-D50158E9A0F2FB) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-HEM-23C119B7E783BD
+## label
+The pharyngeal tonsil is a single midline nasopharyngeal mass with folded respiratory epithelium and no crypts
+## canonical_key
+tonsil.pharyngeal-site-epithelium-and-absent-crypts
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-HIS-LYMPHOID-ORGANS
+## field_notes
+canonical_key "tonsil.pharyngeal-site-epithelium-and-absent-crypts" already has a pinned id in this module (CON-HEM-23C119B7E783BD); mintConceptId would derive a different one (CON-HEM-7C6AD76CC501ED) — minted outside mintConceptId and not this build's to re-mint; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The lingual tonsil is non-keratinized stratified squamous epithelium over multiple non-capsulated masses whose gland ducts open at the base of the crypts, continuously flushing them, so inflammation is uncommon
+## id
+CON-HEM-2E0E3962A69D21
+## canonical_key
+tonsil.lingual-crypts-no-capsule-and-continuous-flushing
+## definition
+The lingual tonsils are multiple masses of lymphoid tissue at the base of the tongue, covered with non-keratinized stratified squamous epithelium — the same epithelium type as the palatine tonsil, not the pseudostratified columnar epithelium of the pharyngeal tonsil — which dips down to form crypts. Each mass is formed of lymphatic nodules and diffuse lymphatic tissue, and, unlike the palatine tonsil, the lingual tonsil has no connective-tissue capsule at all. Its mucous gland ducts open into the bases of the crypts, giving continuous washing that keeps debris and organisms from accumulating, which is why lingual tonsillitis is the uncommon exception rather than the rule the palatine tonsil follows.
+## explicit_objective
+State the lingual tonsil's covering epithelium, its non-capsulated structure, and why its crypt-flushing duct arrangement makes it inflame less often than the palatine tonsil.
+## pitfalls
+Assigning the pharyngeal tonsil's pseudostratified columnar epithelium to the lingual tonsil, or assuming 'adenoid' hypertrophy applies to any enlarged tonsil rather than the pharyngeal tonsil specifically, which this book alone names as the source of adenoids.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Lingual tonsil | Tonsillar crypts (lingual)
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All characters of lingual tonsil except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Palatine and lingual tonsils share non-keratinized stratified squamous epithelium with crypts; the pharyngeal tonsil alone, sited in the respiratory-epithelium-lined nasopharynx, has folded pseudostratified ciliated columnar epithelium with goblet cells and no crypts
+## id
+CON-HEM-81DED3B4C771AF
+## canonical_key
+tonsil.epithelium-comparison-across-the-three-types
+## definition
+Of the three tonsil types, the palatine and lingual tonsils are both covered by non-keratinized stratified squamous epithelium that dips down to form crypts, matching the general oropharyngeal lining around them. The pharyngeal tonsil is the exception: sited under the mucous membrane of the nasopharynx — the uppermost, first part of the pharynx, lined by respiratory (ciliated, mucus-secreting) epithelium — it shares that same folded pseudostratified columnar ciliated epithelium with goblet cells, and has no crypts at all, only folds.
+## explicit_objective
+State which two tonsil types share non-keratinized stratified squamous epithelium, and which one instead carries the nasopharynx's own pseudostratified ciliated columnar epithelium with goblet cells and no crypts.
+## pitfalls
+Assuming all three tonsil types share one epithelium. The pharyngeal tonsil's epithelium follows its nasopharyngeal site, not the oropharyngeal pattern the palatine and lingual tonsils share.
+## concept_type
+structural_description
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Tonsil epithelium comparison | Nasopharynx
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] nasopharynx:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Tonsillitis is a palatine-tonsil disease, treated surgically by removing the palatine tonsils, and, like any local infection, it can inflame the regional (draining) lymph nodes
+## id
+CON-HEM-3D8EC762B8577E
+## canonical_key
+tonsil.clinical-tonsillitis-and-regional-lymphadenitis
+## definition
+The palatine tonsil is often infected (tonsillitis), a common cause of sore throat; repeated infections lead to its enlargement and it becomes a focus of infection, for which tonsillectomy — surgical removal of the palatine tonsils — is the standard treatment. Because the palatine tonsils are open, crypt-bearing lymphoid tissue exposed to the oropharynx with mucous-gland ducts that do not flush their crypts, they trap bacteria and debris and inflame far more often than the lingual or pharyngeal tonsils. As with any local infection, tonsillitis can lead to lymphadenitis of the regional (draining) lymph nodes — the cervical nodes that drain the oropharynx — consistent with the general rule that infection in a body region enlarges and inflames the nodes that drain it.
+## explicit_objective
+State that 'tonsillectomy' means surgical removal of the palatine tonsils specifically, and that local infection such as tonsillitis can inflame the regional lymph nodes draining that area.
+## pitfalls
+Assuming tonsillectomy removes the lingual or pharyngeal tonsils, or that a child's acute (infectious) tonsillitis would produce metastatic lymph nodes — a finding that implies malignancy, not infection.
+## concept_type
+clinical_correlation
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p10 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
+## aliases
+Tonsillitis | Tonsillectomy | Regional lymphadenitis
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] A 10 year old child had frequent acute tonsillitis & his mother was advised to consider tonsillectomy. Which of the following statements is correct about this case?
 ## conflicts
 [clear]
 ## uncertainty
@@ -7056,18 +8045,20 @@ kau
 ## exam_signal
 src_5465875dc14a998b7b21 | question_book | | p12 | 104 CPS
 src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p45 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -7075,7 +8066,7 @@ Respiratory System
 ## aliases
 Nervous regulation of respiration | Non-chemical control of breathing
 ## article_ids
-ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS | ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
 ## support_mode
 direct_statement
 ## original_wording
@@ -7097,7 +8088,7 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT | ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -7769,6 +8760,295 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The Hb-O2 dissociation curve shifts right (easier O2 unloading) with raised temperature, PCO2/acidosis or 2,3-DPG, and left (harder unloading) with the opposite of each plus CO poisoning and fetal haemoglobin
+## id
+CON-RES-9A7E8EA47079D0
+## canonical_key
+gas-transport.hb-o2-dissociation-curve-shifts
+## definition
+P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits. A rightward shift (higher P50, lower affinity) makes Hb give up O2 more readily at a given PO2, and is produced by a rise in temperature, PCO2 or 2,3-DPG, or a fall in pH (the Bohr effect: CO2 and H+ bind sites on Hb that change its configuration and favour O2 release) — this is exactly the pattern of active tissue, so more O2 is delivered where it is needed most. 2,3-DPG is a red-cell metabolic end product that binds deoxygenated Hb (HbO2 + 2,3-DPG → Hb-2,3-DPG + O2) and rises in hypoxia or exercise. A leftward shift (lower P50, higher affinity) makes Hb hold O2 more tightly and is produced by the opposite changes — falling temperature, PCO2 or 2,3-DPG, or rising pH — plus two named exceptions: carbon monoxide, which binds Hb at the same site as O2 with roughly 200-210 times O2's affinity and, once bound, keeps the other O2 molecules already attached from releasing easily; and fetal haemoglobin, whose gamma chains (unlike adult beta chains) cannot bind 2,3-DPG, giving it a higher O2 affinity suited to extracting O2 across the placenta.
+## explicit_objective
+State which four physiological changes shift the Hb-O2 dissociation curve right versus left, name the Bohr effect and the mechanism of 2,3-DPG, and explain why CO poisoning and fetal haemoglobin both shift the curve left despite acting by different mechanisms.
+## pitfalls
+Assuming every leftward-curve influence works by the same Bohr/DPG mechanism. CO shifts the curve left by occupying Hb's O2-binding site directly and interfering with the release of the O2 that is still bound, not by changing temperature, pH or 2,3-DPG — a genuinely separate mechanism from the four paired factors.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Bohr effect | P50 | 2,3-DPG | Oxygen unloading | Hb-O2 dissociation curve shifts
+## article_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Factors that cause shift of oxygen dissociation curve to the right are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+CO2 travels mostly as bicarbonate (42 of 48 ml/100 ml arterial blood), made in RBCs by carbonic anhydrase and exported by the chloride shift, with the Haldane effect linking CO2 carriage to Hb's own O2 saturation
+## id
+CON-RES-5FAC73A8BFC7DD
+## canonical_key
+gas-transport.co2-forms-and-chloride-shift
+## definition
+CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase. As HCO3- accumulates in the RBC it diffuses out to plasma down its gradient; because the RBC membrane favours anion over cation movement, chloride moves from plasma into the RBC to preserve electrical neutrality — the chloride shift. This raises RBC chloride and osmotic pressure (drawing water in, so RBCs swell and venous haematocrit rises) while lowering plasma chloride, and it very slightly acidifies blood (pH about 7.4 to 7.37) because some of the H+ from carbonic acid dissociation is buffered by deoxyhaemoglobin rather than removed. At the lungs the whole sequence reverses: O2 binding releases H+ from oxyhaemoglobin (a poorer buffer than reduced Hb), H+ combines with HCO3- to regenerate CO2 for exhalation, HCO3- re-enters the RBC from plasma, and Cl- returns to plasma. The Haldane effect is the rule that ties CO2 carriage to O2 saturation: at any given PCO2, reduced (deoxygenated) Hb carries more CO2 than oxygenated Hb, because O2 binding lowers Hb's affinity for CO2 — the mirror image of the Bohr effect, in which CO2/H+ lowers Hb's affinity for O2.
+## explicit_objective
+State the three forms of CO2 transport and their approximate proportions, explain why carbonic anhydrase makes bicarbonate formation an RBC event rather than a plasma one, describe the direction and purpose of the chloride shift at the tissues and its reversal at the lungs, and state the Haldane effect and how it differs from the Bohr effect.
+## pitfalls
+Confusing carbamino-haemoglobin (CO2 bound to Hb's amine groups, the true CO2-carrying compound) with carboxyhaemoglobin (CO bound to Hb's haem O2 site) — they sound alike but are chemically unrelated complexes of two different gases. Also confusing the Haldane effect (O2 saturation changes Hb's CO2 affinity) with the Bohr effect (CO2/H+ changes Hb's O2 affinity): they are reciprocal but distinct statements.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p39 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p43 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.71
+## exam_weight_by_year
+KAU_Y1=0.71
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+CO2 transport | Chloride shift | Carbonic anhydrase | Haldane effect | Carbamino compounds
+## article_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Most CO, is transported in the blood in the form of:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-76412894FAD01C
+## label
+Pulmonary vascular resistance, lowest at functional residual capacity, rises toward both total lung capacity and residual volume, and pulmonary arterioles uniquely constrict (rather than dilate) in response to local hypoxia
+## canonical_key
+pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
+## article_ids
++ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## field_notes
+canonical_key "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr" already has a pinned id in this module (CON-CVS-76412894FAD01C); mintConceptId derives the same id fresh (CON-CVS-76412894FAD01C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -9432,30 +10712,6 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## id
-CON-RES-7C79F2D68F1003
-## label
-Cartilage, glands and goblet cells fall away from extrapulmonary bronchus to bronchiole, while smooth muscle becomes more developed and Clara cells appear
-## canonical_key
-bronchi-and-bronchioles.structural-progression-and-clara-cells
-## exam_signal
-src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
-src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
-src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
-src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
-src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
-src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
-src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
-src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
-## article_ids
-+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
-## field_notes
-canonical_key "bronchi-and-bronchioles.structural-progression-and-clara-cells" already has a pinned id in this module (CON-RES-7C79F2D68F1003); mintConceptId derives the same id fresh (CON-RES-7C79F2D68F1003) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

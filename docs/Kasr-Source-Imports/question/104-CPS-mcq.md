@@ -34,9 +34,10 @@
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
+    Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
+    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
@@ -48,6 +49,7 @@
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 5 questions, 2 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 16 questions, 4 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
@@ -69,7 +71,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  130 questions were excluded and 0 held back for having no
+  134 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -26951,6 +26953,1570 @@ Answer changed from the source's: The printed key (C, subcapsular sinus alone) u
 
 # Item
 ## id
+QM-104-9E69E5794BBB
+## title
+All characters of lymph Node Capsule except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of lymph Node Capsule except
+## answer_a
+Contain smooth muscle at hilum
+## explanation_a
+True, so not the exception. The capsule contains smooth muscle at the thickened hilum.
+## answer_b
+Covered by adipose tissue
+## explanation_b
+True, so not the exception. The capsule is covered with adipose tissue.
+## answer_c
+Pierced at convex surface by Afferent vessel
+## explanation_c
+True, so not the exception. Afferent lymphatic vessels pierce the capsule's convex surface.
+## answer_d
+divide inner part into irregular Cortex, regular medulla
+## explanation_d
+The exception, and the answer. Trabeculae divide the cortex into regular compartments and, branching further into the medulla, divide it into irregular compartments — the reverse of what this option states (irregular cortex, regular medulla). The regularly-arranged cortical follicles sit inside those regular compartments, while the medullary cords wind irregularly through theirs.
+
+Why this is right:
+- The lymph node is a bean- or kidney-shaped encapsulated lymphatic organ, ranging from the size of a small bean up to an almond, found in groups along lymphatic vessels (axilla, groin, neck, thorax).
+## correct_answer
+D
+## main_concept
+CON-HEM-71A6919A0991FB
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the capsule's trabeculae divide the cortex regularly and the medulla irregularly, not the reverse.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (B) contradicts the book, which states the capsule is 'covered with adipose tissue' as a plain fact, not an exception. Histology department book p15-16 states trabeculae 'divide the cortex into regular compartments' and, branching in the medulla, 'divide it into irregular compartments' — option D reverses this (irregular cortex, regular medulla), making it the one statement that does not match the source.
+
+
+---
+
+# Item
+## id
+QM-104-51620C96EAA9
+## title
+All functions of lymph Node except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All functions of lymph Node except
+## answer_a
+filter lymph from microorganism, bacteria
+## explanation_a
+True, so not the exception. Filtration of lymph from microorganisms and bacteria is a stated lymph node function.
+## answer_b
+form lymphocyte in germinal Center
+## explanation_b
+True, so not the exception. Formation of lymphocytes, including in the germinal centre where B-lymphocytes proliferate on antigen exposure, is a stated lymph node function.
+## answer_c
+destruction of old RBCs, form blood element
+## explanation_c
+The exception, and the answer. Destruction of old red blood cells and formation of blood elements are spleen functions in this book, not lymph node ones — the lymph node's own list is filtration, lymphocyte formation, and humoral/cell-mediated immunity. The comparison table contrasts the two organs on exactly this point: the lymph node filters lymph and mounts immunity, while the spleen filters blood and handles blood-cell turnover.
+
+Why this is right:
+- The lymph node's functions are filtration of lymph from microorganisms and foreign bodies; formation of lymphocytes; and immunological function in two forms — humoral immunity, the activation of B-lymphocytes into plasmablasts and then plasma cells that secrete immunoglobulins (antibodies), and cell-mediated immunity, in which activated T-lymphocytes directly destroy antigen.
+## answer_d
+humoral, cell mediated immunity
+## explanation_d
+True, so not the exception. Humoral immunity (B-lymphocytes to plasma cells to antibodies) and cell-mediated immunity (activated T-lymphocytes) are both stated lymph node functions.
+## correct_answer
+C
+## main_concept
+CON-HEM-5B40B8CAB70F24
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish the lymph node's own functions from the spleen's function of destroying old red blood cells and forming blood elements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q10. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (B) contradicts the book, which states germinal-centre lymphocyte formation as a plain lymph node function, not an exception. Histology department book p17-18 lists the lymph node's functions as filtration, lymphocyte formation, and humoral/cell-mediated immunity, while p20's comparison table assigns 'destruction of old RBCs' and blood-cell storage/formation to the spleen specifically — making option C the one function this book does not credit to the lymph node.
+
+
+---
+
+# Item
+## id
+QM-104-233770875E86
+## title
+Choose the correct statement about Billroth cords:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about Billroth cords:
+## answer_a
+Found in stroma of lymph nodes.
+## explanation_a
+Billroth cords are a splenic red-pulp structure, found between the white pulps and blood sinusoids of the spleen — not in the stroma of lymph nodes, which have no Billroth cords at all.
+## answer_b
+Infiltrated by blood cells.
+## explanation_b
+Correct. Billroth cords are infiltrated with blood cells and lymphoid cells — RBCs, granulocytes, lymphocytes, monocytes, platelets, plasma cells and macrophages. That mixed cellular filling is what lets red-pulp cords act as a checkpoint where the spleen inspects and, when needed, removes ageing or abnormal blood cells.
+
+Why this is right:
+- Red pulp appears red in fresh sections because of the number of red cells and is formed of the splenic cords of Billroth and blood sinusoids — barrel-shaped wide channels lined by a fenestrated elongated endothelium of stave cells, with large intercellular spaces and a non-continuous basal lamina, an arrangement that lets blood pass from the cords back into the blood stream.
+## answer_c
+Are the spaces in between secondary lymphatic follicles.
+## explanation_c
+The spaces between secondary lymphatic follicles are not Billroth cords; Billroth cords are themselves cell-infiltrated cords, not empty spaces, and they sit between white pulp and blood sinusoids, not between follicles.
+## answer_d
+Contain central arterioles at one side.
+## explanation_d
+The central arteriole is a white-pulp feature (running through the Malpighian corpuscle), not a feature of Billroth cords, which belong to the red pulp.
+## correct_answer
+B
+## main_concept
+CON-HEM-594B1725902DAD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that Billroth cords are infiltrated with blood cells, against distractors describing lymph node stroma or white pulp features.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q9. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-0C58A1AC18BB
+## title
+Choose the correct statement about lymph node functions: |
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about lymph node functions: |
+## answer_a
+Formation and recirculation of lymphocytes
+## explanation_a
+Correct. The lymph node forms lymphocytes and, through the paracortex's post-capillary venules, participates in T-lymphocyte recirculation from the thymus. This recirculation is what lets already-produced T-lymphocytes patrol repeatedly through the peripheral lymphoid tissue rather than passing through only once.
+
+Why this is right:
+- The lymph node's functions are filtration of lymph from microorganisms and foreign bodies; formation of lymphocytes; and immunological function in two forms — humoral immunity, the activation of B-lymphocytes into plasmablasts and then plasma cells that secrete immunoglobulins (antibodies), and cell-mediated immunity, in which activated T-lymphocytes directly destroy antigen.
+## answer_b
+Filtration of blood. ‏ا‎
+## explanation_b
+Filtration of blood is a spleen function; the lymph node filters lymph, not blood.
+## answer_c
+Formation of blood platelets.
+## explanation_c
+Formation of blood platelets is not a lymph node function in this book.
+## answer_d
+Storage of blood cells
+## explanation_d
+Storage of blood cells is a spleen function (the spleen is a blood reservoir), not a lymph node one.
+## correct_answer
+A
+## main_concept
+CON-HEM-5B40B8CAB70F24
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify lymphocyte formation and recirculation as a lymph node function, against blood-filtration/storage functions that belong to the spleen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p2 q19. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-5036AA763A35
+## title
+Choose the correct statement about the lymph node:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about the lymph node:
+## answer_a
+Lymph circulates from medullary to cortical sinuses
+## explanation_a
+Lymph circulates the opposite way: from the cortical (subcapsular and trabecular) sinuses to the medullary sinuses, not from medullary to cortical.
+## answer_b
+Littoral cells line the lymph sinuses to phagocytose foreign bodies
+## explanation_b
+Littoral cells are the macrophage-system name used specifically in spleen and bone marrow sinusoid walls; the lymph node's sinuses are lined by endothelial cells and macrophages, not cells named littoral cells in this book.
+## answer_c
+Afferent lymph vessels enter lymph node through convex surface
+## explanation_c
+Correct. Afferent lymph vessels pierce and enter the lymph node through its convex surface; efferent vessels and blood vessels use the concave hilum instead. This one-way traffic pattern — lymph entering broadly across the convex surface and leaving concentrated at the hilum — is what lets the node filter every drop of lymph passing through it.
+
+Why this is right:
+- The lymph node is organised into a cortex and a medulla.
+## answer_d
+Its parenchyma is organized into white and red pulps
+## explanation_d
+White and red pulp are spleen terminology; the lymph node's parenchyma is organised into cortex and medulla instead.
+## correct_answer
+C
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that afferent lymphatic vessels enter the lymph node at the convex surface, against distractors describing reversed lymph flow, spleen terminology or an incorrect sinus lining.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q2. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-C80C1B4BE9B3
+## title
+Choose the correct statement about the lymph node: a, Lymph circulates from medullary t…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about the lymph node: a, Lymph circulates from medullary to cortical sinuses
+## answer_a
+T-suppressor and an antibody
+## explanation_a
+As printed, this option is an uninterpretable extraction fragment ('T-suppressor and an antibody') rather than a coherent statement about the lymph node, and so cannot be the correct answer regardless of how it is read.
+## answer_b
+Littoral cells line the lymphatic sinuses and phagocytose foreign debris :
+## explanation_b
+Littoral cells line spleen and bone marrow sinusoids in this book's naming, not lymph node lymphatic sinuses, which are lined by endothelial cells and macrophages instead.
+## answer_c
+Efferent lymphatic vessels drain the lymph node through the convex
+## explanation_c
+Efferent lymphatic vessels drain the lymph node through the concave surface (the hilum), not the convex surface — the convex surface is where afferent vessels enter.
+## answer_d
+The paracortex is the deep part of cortex and contains T-lymphocytes
+## explanation_d
+Correct. The paracortex lies between the cortex's outer follicles and the medulla — deep to the outer cortex — and, unlike every surrounding zone, contains only T-lymphocytes, which have migrated in from the thymus. No germinal centre or B-lymphocyte population forms here, which is what makes it the one exception among the lymph node's named compartments.
+
+Why this is right:
+- The lymph node is organised into a cortex and a medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the paracortex as the deep cortical zone containing only T-lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic System].pdf p1 q4. Manifest src_b0c5c0d32e396511ae20.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-161CD0D17A59
+## title
+Concerning the Billroth cords, the following is true:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the Billroth cords, the following is true:
+## answer_a
+Present in lymph node
+## explanation_a
+Billroth cords are present in the spleen's red pulp, not in the lymph node, which has no Billroth cords at all.
+## answer_b
+Are primary lymph follicle
+## explanation_b
+A primary lymph follicle is a B-lymphocyte-dominant lymphatic nodule, not a Billroth cord — cords and follicles are different structures within different pulps of the spleen.
+## answer_c
+Are secondary lymph follicle
+## explanation_c
+A secondary lymph follicle is likewise a lymphatic nodule with a germinal centre, not a Billroth cord.
+## answer_d
+Contain WBCs & RBCs
+## explanation_d
+Correct. Billroth cords are infiltrated with blood cells — RBCs, granulocytes, monocytes, platelets — alongside lymphoid cells such as lymphocytes, plasma cells and macrophages. This mixed filling is what distinguishes the red pulp's cords from the white pulp's purely lymphoid follicles.
+
+Why this is right:
+- Red pulp appears red in fresh sections because of the number of red cells and is formed of the splenic cords of Billroth and blood sinusoids — barrel-shaped wide channels lined by a fenestrated elongated endothelium of stave cells, with large intercellular spaces and a non-continuous basal lamina, an arrangement that lets blood pass from the cords back into the blood stream.
+## correct_answer
+D
+## main_concept
+CON-HEM-594B1725902DAD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that Billroth cords contain WBCs and RBCs, against distractors describing lymph node location or follicle types.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q5. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-0678921216C2
+## title
+Concerning the paracortex of lymph node, choose the correct Statement:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the paracortex of lymph node, choose the correct Statement:
+## answer_a
+Is the area between white pulp& the Billroth cords
+## explanation_a
+White pulp and Billroth cords are spleen terms, not lymph node ones; the paracortex is a lymph node zone lying between the cortex's follicles and the medulla, with no white-pulp or Billroth-cord neighbour to speak of.
+## answer_b
+Contains B-lymphocytes
+## explanation_b
+The paracortex is the one zone that contains only T-lymphocytes, not B-lymphocytes — B-lymphocytes belong to the surrounding follicles instead.
+## answer_c
+Its post-capillary venules are lined with simple cubical epithelium
+## explanation_c
+Correct. The paracortex's post-capillary venules — through which T-lymphocytes migrate in from the thymus — are lined with simple cubical epithelium, which carries receptors for T-lymphocyte homing. This is a departure from the flatter endothelium lining most small vessels, and it is exactly what lets circulating T-lymphocytes recognise and cross into the paracortex.
+
+Why this is right:
+- The lymph node is organised into a cortex and a medulla.
+## answer_d
+Is lined with plasma cells and macrophages
+## explanation_d
+The paracortex is not 'lined' by anything; that phrasing fits a sinus, and the paracortex is a lymphocyte-populated zone, not a lined space.
+## correct_answer
+C
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the paracortex's post-capillary venules are lined with simple cubical epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p8 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-85A076652F39
+## title
+Identify the following organ & choose the correct statement:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Identify the following organ & choose the correct statement:
+## answer_a
+The site of antibody production
+## explanation_a
+Antibody production is carried out in secondary lymphoid organs such as the lymph node (via humoral immunity), not in a primary organ producing lymphocytes.
+## answer_b
+A major site of red blood cell degradation and bilirubin recycling
+## explanation_b
+Red blood cell degradation and bilirubin recycling is a spleen (secondary organ) function, not a function of an organ that produces lymphocytes.
+## answer_c
+Has both afferent & efferent lymphatic vessels
+## explanation_c
+Having both afferent and efferent lymphatic vessels describes the lymph node specifically; a primary lymphoid organ such as the thymus has no afferent lymphatics at all.
+## answer_d
+The site of production of CD4 + and CD8 + cells
+## explanation_d
+Correct. Production of CD4+ and CD8+ T-lymphocytes is a primary lymphoid organ's role — the thymus completes T-lymphocyte production and maturation before these cells seed the secondary (peripheral) organs. None of the secondary organs (lymph node, spleen, tonsil) make new lymphocytes; they only act on the ones the thymus and bone marrow have already supplied.
+
+Why this is right:
+- Lymphatic tissue is organised into primary (central) and secondary (peripheral) lymphatic organs.
+## correct_answer
+D
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify CD4+/CD8+ T-lymphocyte production as a primary lymphoid organ (thymic) function, against statements describing secondary-organ functions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q19. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-13D8ECB5029F
+## title
+in intrapulmonary bronchi, muco-Serous, lymphatic nodule Present in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+in intrapulmonary bronchi, muco-Serous, lymphatic nodule Present in:
+## answer_a
+mucosa
+## explanation_a
+The mucosa is the epithelial lining and its immediate lamina propria; it is the extrapulmonary bronchus (and trachea) whose elastic membrane sits just deep to the mucosa, not the site of the intrapulmonary bronchus's glands and nodules.
+## answer_b
+submucosa
+## explanation_b
+The submucosa, present in the extrapulmonary bronchus, is lost as a distinct layer in the intrapulmonary bronchus — its glands and nodules move to the adventitia instead, not the (absent) submucosa.
+## answer_c
+musculosa
+## explanation_c
+The musculosa (smooth muscle layer) is spirally arranged in the intrapulmonary bronchus but does not carry the mucoserous glands or lymphatic nodules.
+## answer_d
+adventitia
+## explanation_d
+Correct. In the intrapulmonary bronchus, mucoserous glands and lymphatic nodules sit in the adventitia, between the cartilage plates — unlike the extrapulmonary bronchus, where they sit in the submucosa. This relocation tracks the loss of the submucosa and elastic membrane as distinct layers once the bronchus enters the lung.
+
+Why this is right:
+- Extrapulmonary bronchi are structurally identical to the trachea: pseudostratified ciliated epithelium rich in goblet cells, an elastic membrane separating mucosa from submucosa, a true submucosa carrying mucoserous glands and lymphatic nodules, and incomplete C-shaped hyaline cartilage rings.
+## correct_answer
+D
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that an intrapulmonary bronchus's mucoserous glands and lymphatic nodules sit in the adventitia, between the cartilage plates.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q41. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-11F830E48EA3
+## title
+……….. is bean or kidney shaped with Capsule
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+……….. is bean or kidney shaped with Capsule
+## answer_a
+lymph Node
+## explanation_a
+Correct. The lymph node is described as bean- or kidney-shaped, an encapsulated lymphatic organ found along lymphatic vessels. Its size ranges from a small bean up to an almond, and it presents a convex surface for afferent lymphatics and a concave hilum for its vessels.
+
+Why this is right:
+- The lymph node is a bean- or kidney-shaped encapsulated lymphatic organ, ranging from the size of a small bean up to an almond, found in groups along lymphatic vessels (axilla, groin, neck, thorax).
+## answer_b
+spleen
+## explanation_b
+The spleen is described as the large single intra-abdominal hemolymphatic organ, not by a bean or kidney shape — that description is reserved for the lymph node in this book.
+## answer_c
+tonsil
+## explanation_c
+The tonsil is an incompletely encapsulated aggregation of lymphatic tissue, not a fully encapsulated, bean-shaped organ.
+## answer_d
+liver
+## explanation_d
+The liver is not a lymphatic organ and is not described this way in this chapter.
+## correct_answer
+A
+## main_concept
+CON-HEM-71A6919A0991FB
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the lymph node, not the spleen, is described as bean- or kidney-shaped.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q2. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (B, spleen) contradicts the book. Histology department book p15 states of the lymph node specifically: 'Shape: bean or kidney shaped encapsulated lymphatic organs along lymphatic vessels.' The spleen's own structure section (p18) describes it only as 'the large single intra-abdominal hemolymphatic organ' — no bean/kidney description appears anywhere in the spleen's entry, so the printed key does not match the source and A is used instead.
+
+
+---
+
+# Item
+## id
+QM-104-E54FA636E5F9
+## title
+Regarding lymph node, which answer is correct?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding lymph node, which answer is correct?
+## answer_a
+Covered by simple columnar epithelium.
+## explanation_a
+The lymph node is not covered by an epithelium; its outer boundary is the connective-tissue capsule, not simple columnar epithelium.
+## answer_b
+Storage of RBCs.
+## explanation_b
+Storage of RBCs is a spleen function, not a lymph node one — the lymph node filters lymph and mounts immune responses rather than storing blood cells.
+## answer_c
+Differentiated T- lymphocytes reach through post capillary venules.
+## explanation_c
+Correct. Differentiated (thymus-matured) T-lymphocytes reach the lymph node's paracortex by migrating through post-capillary venules, which are lined with simple cubical epithelium carrying homing receptors for them. This route is what continually restocks the paracortex with T-lymphocytes as they recirculate around the body's lymphoid tissue.
+
+Why this is right:
+- The lymph node is organised into a cortex and a medulla.
+## answer_d
+Paracortex contains only B- lymphocytes.
+## explanation_d
+The paracortex contains only T-lymphocytes, not only B-lymphocytes — B-lymphocytes belong to the surrounding cortical follicles instead.
+## correct_answer
+C
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that differentiated T-lymphocytes reach the lymph node through post-capillary venules, against distractors naming an epithelial covering, RBC storage or an all-B paracortex.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q5. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CA7D793BEE5D
+## title
+Regarding the germinal center in lymph node:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the germinal center in lymph node:
+## answer_a
+Found in the cortical lymph sinus
+## explanation_a
+The germinal centre is found in the secondary lymphatic nodule (follicle) itself, not in the cortical lymph sinus, which is a separate, endothelium-and-macrophage-lined space.
+## answer_b
+Has only T-lymphocytes
+## explanation_b
+The germinal centre carries large activated B-lymphocytes, plasma cells and only a few T-lymphocytes — not only T-lymphocytes, which is the paracortex's population instead.
+## answer_c
+No Plasma cells
+## explanation_c
+The germinal centre does contain plasma cells (with pale nuclei), alongside large activated B-lymphocytes and a few macrophages and T-lymphocytes.
+## answer_d
+Has Large activated lymphocytes
+## explanation_d
+Correct. The germinal centre is a pale central region containing large activated B-lymphocytes, along with plasma cells, macrophages and a few T-lymphocytes. It is this large-cell population that gives the germinal centre its pale appearance against the darker, small-lymphocyte rim surrounding it.
+
+Why this is right:
+- The lymph node is organised into a cortex and a medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Lymph Node
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the germinal centre contains large activated lymphocytes, against distractors placing it in the wrong compartment or misdescribing its cell population.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q99. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5E990B10F119
+## title
+Regional enlargement of lymph nodes may be due to:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regional enlargement of lymph nodes may be due to:
+## answer_a
+Inflammation of part of body drained by lymph nodes
+## explanation_a
+Correct. Infection in any part of the body can lead to enlarged and inflamed lymph nodes draining that area — lymphadenitis — matching the book's own statement of this cause almost verbatim. This local drainage relationship is exactly why the enlargement is regional rather than affecting nodes throughout the body.
+
+Why this is right:
+- Infection in any part of the body can lead to enlarged and inflamed lymph nodes draining that area, called lymphadenitis.
+## answer_b
+Spread of cancer via blood stream
+## explanation_b
+The book specifies that malignant cells spread to regional nodes through lymphatic vessels, not through the blood stream; a blood-borne route would tend to produce distant metastases rather than enlargement specifically of the nodes draining the primary site.
+## answer_c
+Acute leukaemia
+## explanation_c
+Acute leukaemia is not discussed in this book as a cause of regional (as opposed to generalised) lymph node enlargement; leukaemic lymphadenopathy is typically generalised, arising from disease in the blood and bone marrow rather than from a single drained region.
+## answer_d
+Chronic leukaemia
+## explanation_d
+Chronic leukaemia, like acute leukaemia, is not discussed in this book as a cause of regional lymph node enlargement, and leukaemic lymphadenopathy is characteristically generalised rather than confined to one drainage area.
+## correct_answer
+A
+## main_concept
+CON-HEM-F9536FBAB70634
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical correlation
+## learning_objective
+State that regional lymph node enlargement follows local infection (lymphadenitis) or lymphatic (not haematogenous) spread of malignancy, distinguishing both from the leukaemias.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p10 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (C, acute leukaemia) is not supported by the book. Histology department book p18's read-only topic names exactly two causes of regional lymph node enlargement — local infection ('Infection in any part of body, can lead to enlarged and inflammed lymph nodes draining that area, which is called Lymphadenitis') and malignant spread specifically 'through lymphatic vessels' — and does not mention the leukaemias at all. Option A restates the book's own infection cause almost verbatim; option B misstates the malignant route as haematogenous rather than lymphatic; C and D (the leukaemias) have no support in this source, so A is used instead of the printed C.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-4D308A75E390
+## title
+The germinal center of secondary lymphatic nodules contain many:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The germinal center of secondary lymphatic nodules contain many:
+## answer_a
+Small B-lymphocytes
+## explanation_a
+Small B-lymphocytes populate the peripheral dark region of the secondary nodule surrounding the germinal centre, not the germinal centre's own pale central area.
+## answer_b
+Numerous T-lymphocytes
+## explanation_b
+The germinal centre carries only a few T-lymphocytes, not numerous ones — T-lymphocytes are the dominant population of the paracortex instead.
+## answer_c
+Activated large B-lymphocytes
+## explanation_c
+Correct. The germinal centre of a secondary lymphatic nodule contains many large activated B-lymphocytes (plus plasma cells, macrophages and a few T-lymphocytes). Their presence is what marks the transformation of a primary nodule into a secondary one following antigen exposure.
+
+Why this is right:
+- The lymph node is organised into a cortex and a medulla.
+## answer_d
+Erythrocytes
+## explanation_d
+Erythrocytes are not a described population of the lymph node's germinal centre; RBC-related content belongs to the spleen's red pulp instead.
+## correct_answer
+C
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the germinal centre of a secondary lymphatic nodule contains large activated B-lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-45C8FB13AF2F
+## title
+The primary lymphatic organs include:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The primary lymphatic organs include:
+## answer_a
+Bone marrow
+## explanation_a
+Correct. Bone marrow is, with the thymus, one of the two primary (central) lymphatic organs. Lymphocytes produced there seed the secondary organs — lymph node, spleen and tonsil — where they later mount immune responses.
+
+Why this is right:
+- Lymphatic tissue is organised into primary (central) and secondary (peripheral) lymphatic organs.
+## answer_b
+Spleen
+## explanation_b
+The spleen is a secondary (peripheral) lymphatic organ, not a primary one.
+## answer_c
+Lymph node
+## explanation_c
+The lymph node is a secondary (peripheral) lymphatic organ, not a primary one.
+## answer_d
+Tonsil
+## explanation_d
+The tonsil is a secondary (peripheral) lymphatic organ, not a primary one.
+## correct_answer
+A
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Lymph Node
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name bone marrow (with the thymus) as a primary lymphatic organ, against the secondary organs spleen, lymph node and tonsil.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q98. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-97F804046447
+## title
+Which cell considered as a part of the phagocytic system:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which cell considered as a part of the phagocytic system:
+## answer_a
+Reticular epithelial cells
+## explanation_a
+Reticular epithelial cells are the thymus's endoderm-derived stromal cells, not part of the monocyte-derived mononuclear phagocyte system.
+## answer_b
+Activated B-lymphocytes
+## explanation_b
+Activated B-lymphocytes are antibody-producing cells of the adaptive immune system, not phagocytic cells of the monocyte-derived lineage.
+## answer_c
+Littoral cells
+## explanation_c
+Correct. Littoral cells are the mononuclear phagocyte system's macrophages in the walls of blood sinusoids of the spleen and bone marrow. Like every member of this system, they differentiate from blood monocytes and share the family's phagocytic, pseudopodia-bearing appearance.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is distributed by site under separate names: monocytes in blood; macrophages (histiocytes) in loose connective tissue and in the reticular stroma of bone marrow, spleen and lymph node; littoral cells in the walls of blood sinusoids of spleen and bone marrow; von Kupffer cells in the liver's blood sinusoids; Langerhans cells in the skin; microglia in the CNS; dust cells and heart-failure cells in lung alveoli; and osteoclasts in bone's Howship's lacunae.
+## answer_d
+Merkel’s cells in the skin
+## explanation_d
+Merkel's cells are epidermal mechanoreceptor cells, not part of the monocyte-derived mononuclear phagocyte system's list of site-specific names.
+## correct_answer
+C
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify littoral cells as the mononuclear phagocyte system's name for macrophages in spleen and bone marrow sinusoid walls.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q3. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-91393F898434
 ## title
 Choose the correct statement about splenic trabeculae:
@@ -29714,6 +31280,922 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-104-6C1B079C1BF3
+## title
+All characters of lingual tonsil except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of lingual tonsil except
+## answer_a
+lined by Psendostratified Columnar
+## explanation_a
+The exception, and the answer. The lingual tonsil is lined by non-keratinized stratified squamous epithelium, the same type as the palatine tonsil — pseudostratified columnar epithelium is the pharyngeal tonsil's covering instead, not the lingual tonsil's. Confusing the two epithelium types across tonsils is one of the most common ways this topic is mis-answered.
+
+Why this is right:
+- The lingual tonsils are multiple masses of lymphoid tissue at the base of the tongue, covered with non-keratinized stratified squamous epithelium — the same epithelium type as the palatine tonsil, not the pseudostratified columnar epithelium of the pharyngeal tonsil — which dips down to form crypts.
+## answer_b
+if hypertrophy there is adeneid
+## explanation_b
+As printed, 'adenoid' names the pharyngeal tonsil's hypertrophy specifically in this book; taken as a lingual tonsil character it is not as directly and doubly confirmed by the book as option A's epithelium mismatch, so it is not preferred as the exception here.
+## answer_c
+has crypt, noncapsulated
+## explanation_c
+True, so not the exception. The lingual tonsil has crypts and is non-capsulated — it has no connective tissue capsule at all, unlike the palatine tonsil.
+## answer_d
+single mass of lymph tissue
+## explanation_d
+True as read. Each lingual tonsil follicle is itself a single mass of lymphatic tissue, one of the multiple such masses at the base of the tongue.
+## correct_answer
+A
+## main_concept
+CON-HEM-2E0E3962A69D21
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the lingual tonsil's covering is non-keratinized stratified squamous epithelium, not pseudostratified columnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q22. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (B) is less well supported than A. Histology department book p22 states the lingual tonsil is 'covered with non-keratinized stratified squamous epithelium' — directly contradicting option A's 'Pseudostratified Columnar', which is instead the pharyngeal tonsil's covering (p23). This same squamous-vs-columnar distinction is independently confirmed by the sibling bank row non-keratinized-stratified-squamous-epithelium-is-the-coveri-a6b12974, whose printed answer credits squamous epithelium to 'Palatine and lingual tonsils' specifically. A is therefore the option most directly and doubly contradicted by the source, and is used as the exception instead of the printed B.
+
+
+---
+
+# Item
+## id
+QM-104-808CC7F3F0B7
+## title
+Choose the correct statement about pharyngeal! tonsil: 0
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about pharyngeal! tonsil: 0
+## answer_a
+Has tonsillar crypts
+## explanation_a
+The pharyngeal tonsil has no crypts — it has folds instead; tonsillar crypts are a feature of the palatine and lingual tonsils.
+## answer_b
+Covering epithelium is pseudo-stratified columnar with goblet cells
+## explanation_b
+Correct. The pharyngeal tonsil's covering epithelium is pseudostratified columnar with goblet cells, matching the respiratory-type mucosa of the nasopharynx that surrounds it. This is the one epithelium type among the three tonsils that follows the respiratory, rather than the oropharyngeal, pattern.
+
+Why this is right:
+- The pharyngeal tonsil is a single mass of lymphoid tissue at the midline under the mucous membrane of the nasopharynx; its epithelium is folded pseudostratified columnar ciliated with goblet cells, it has no crypts, and it has an incomplete connective tissue capsule.
+## answer_c
+Present in the lateral wall of oropharynx
+## explanation_c
+The pharyngeal tonsil sits in the nasopharynx, not the lateral wall of the oropharynx — that site belongs to the palatine tonsil instead.
+## answer_d
+Protects digestive system against foreign invaders
+## explanation_d
+The book states tonsils generally protect both the digestive and respiratory systems against invaders; singling out only the digestive system understates the pharyngeal tonsil's role in the respiratory pathway it directly sits within.
+## correct_answer
+B
+## main_concept
+CON-HEM-23C119B7E783BD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the pharyngeal tonsil's covering epithelium is pseudostratified columnar with goblet cells, against distractors naming crypts, oropharynx or a digestive-only function.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p3 q23. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B2325FF3F249
+## title
+Choose the correct statement about the palatine tonsil:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about the palatine tonsil:
+## answer_a
+Found under the mucous membrane of the nasopharynx
+## explanation_a
+The palatine tonsil sits under the mucous membrane of the oropharynx, not the nasopharynx — the nasopharynx is where the pharyngeal tonsil sits instead.
+## answer_b
+Covered with pseudostratified columnar ciliated epithelium
+## explanation_b
+The palatine tonsil is covered by non-keratinized stratified squamous epithelium, not pseudostratified columnar ciliated epithelium — that covering belongs to the pharyngeal tonsil.
+## answer_c
+Consist of lymphatic nodules and diffuse lymphatic tissue
+## explanation_c
+Correct. The palatine tonsil's lymphatic tissue consists of lymphatic nodules (with or without germinal centres) arranged around the crypts, together with diffuse lymphatic tissue. Both components sit deep to the surface epithelium and superficial to the incomplete capsule.
+
+Why this is right:
+- The palatine tonsil is covered on its free surface by non-keratinized stratified squamous epithelium dipping down as tonsillar crypts, with lymphatic nodules arranged around the crypts and diffuse lymphatic tissue between them, and dense connective tissue deep to the lymphatic tissue forming an incomplete capsule; its mucous gland ducts open on the surface rather than at the base of the crypts, so inflammation of the crypts is common.
+## answer_d
+Surrounded with complete capsule
+## explanation_d
+The palatine tonsil has only an incomplete capsule, on its deep aspect, not a complete one surrounding it — there is no capsule at all on its free, epithelium-covered surface.
+## correct_answer
+C
+## main_concept
+CON-HEM-093013026B640A
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the palatine tonsil consists of lymphatic nodules and diffuse lymphatic tissue, against distractors misplacing its site, epithelium or capsule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q6. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C8C4566D3EE9
+## title
+nasopharynx:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+nasopharynx:
+## answer_a
+first part of pharynx
+## explanation_a
+True, so not the single answer alone. The nasopharynx is the uppermost, first part of the pharynx, continuous below with the oropharynx.
+## answer_b
+lined by respiratory epithelium
+## explanation_b
+True, so not the single answer alone. The nasopharynx is lined by respiratory-type (pseudostratified ciliated columnar) epithelium, matching the epithelium of the pharyngeal tonsil it contains.
+## answer_c
+Contain mucous gland, pharyngeal tonsil
+## explanation_c
+True, so not the single answer alone. The nasopharynx contains mucous glands in its wall and houses the pharyngeal tonsil under its mucous membrane.
+## answer_d
+All the above
+## explanation_d
+Correct. All three statements are true of the nasopharynx together, so 'all the above' is the answer that credits each of them. Its position, epithelium and contents are consistent with one another: a first, uppermost pharyngeal segment lined by the same respiratory epithelium as the tonsil and glands it houses.
+
+Why this is right:
+- Of the three tonsil types, the palatine and lingual tonsils are both covered by non-keratinized stratified squamous epithelium that dips down to form crypts, matching the general oropharyngeal lining around them.
+## correct_answer
+D
+## main_concept
+CON-HEM-81DED3B4C771AF
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the nasopharynx is the first part of the pharynx, lined by respiratory epithelium and containing the pharyngeal tonsil and mucous glands.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q30. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-CF648AE8641B
+## title
+Non keratinized stratified squamous epithelium is the covering of: |
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Non keratinized stratified squamous epithelium is the covering of: |
+## answer_a
+Palatine tonsil. |
+## explanation_a
+True of the palatine tonsil alone, so not the most complete answer — the lingual tonsil shares this same epithelium and is left out if this option alone is chosen.
+## answer_b
+Lingual tonsil. |
+## explanation_b
+True of the lingual tonsil alone, so not the most complete answer — the palatine tonsil shares this same epithelium and is left out if this option alone is chosen.
+## answer_c
+Pharyngeal tonsil. , 0
+## explanation_c
+The pharyngeal tonsil is covered by pseudostratified columnar ciliated epithelium with goblet cells, not non-keratinized stratified squamous epithelium — this option names the wrong tonsil type entirely.
+## answer_d
+Palatine and lingual tonsils. |
+## explanation_d
+Correct. Both the palatine and lingual tonsils are covered by non-keratinized stratified squamous epithelium, distinguishing them from the pharyngeal tonsil's respiratory-type covering. Both also form crypts by this epithelium dipping inward, unlike the pharyngeal tonsil's folds.
+
+Why this is right:
+- Of the three tonsil types, the palatine and lingual tonsils are both covered by non-keratinized stratified squamous epithelium that dips down to form crypts, matching the general oropharyngeal lining around them.
+## correct_answer
+D
+## main_concept
+CON-HEM-81DED3B4C771AF
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Tonsils
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that non-keratinized stratified squamous epithelium covers both the palatine and lingual tonsils, not the pharyngeal tonsil.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p14 q1. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-E12EC2E31AB7
+## title
+The Pharyngeal tonsils are covered by
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The Pharyngeal tonsils are covered by
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is not the pharyngeal tonsil's covering — that thin, single-layered epithelium suits diffusion surfaces, not a mucosa exposed to inhaled and swallowed antigen.
+## answer_b
+Stratified squamous epithelium
+## explanation_b
+Stratified squamous epithelium — keratinized or not — covers the palatine and lingual tonsils, not the pharyngeal tonsil.
+## answer_c
+Pseudostratified ciliated columnar epithelium with goblet cells
+## explanation_c
+Correct. The pharyngeal tonsil's folded epithelium is pseudostratified ciliated columnar with goblet cells, matching the respiratory mucosa of the nasopharynx around it. Its folds, rather than crypts, are also what set it apart structurally from the palatine and lingual tonsils.
+
+Why this is right:
+- The pharyngeal tonsil is a single mass of lymphoid tissue at the midline under the mucous membrane of the nasopharynx; its epithelium is folded pseudostratified columnar ciliated with goblet cells, it has no crypts, and it has an incomplete connective tissue capsule.
+## answer_d
+Stratified non ciliated columnar epithelium without goblet cells
+## explanation_d
+This option describes an epithelium that is neither ciliated nor goblet-cell-bearing — a combination this book does not attribute to any tonsil, let alone the pharyngeal one.
+## correct_answer
+C
+## main_concept
+CON-HEM-23C119B7E783BD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the pharyngeal tonsil is covered by pseudostratified ciliated columnar epithelium with goblet cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-31CC270AAA0F
+## title
+A 10 year old child had frequent acute tonsillitis & his mother was advised to consider…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+A 10 year old child had frequent acute tonsillitis & his mother was advised to consider tonsillectomy. Which of the following statements is correct about this case?
+## answer_a
+A blood film is likely to show lymphocytosis
+## explanation_a
+The book does not state a specific blood picture for tonsillitis; lymphocytosis is not established here as a defining feature of this case, and it is not the option best supported by the source.
+## answer_b
+The surgeon will remove the lingual tonsils
+## explanation_b
+Tonsillectomy targets the palatine tonsils, not the lingual tonsils — the lingual tonsil's flushed, non-capsulated crypts make it the tonsil type that is rarely the surgical target of recurrent infection.
+## answer_c
+The surgeon will remove the palatine tonsils
+## explanation_c
+Correct. Tonsillectomy is the surgical removal of the palatine tonsils, the tonsil type whose crypts trap debris (ducts open on the surface, not the crypt base) and that consequently inflames often enough to become 'a focus of infection' warranting removal. Neither the lingual tonsil (flushed crypts, uncommon inflammation) nor the pharyngeal tonsil (no crypts at all) is the tonsillectomy target this way.
+
+Why this is right:
+- The palatine tonsil is often infected (tonsillitis), a common cause of sore throat; repeated infections lead to its enlargement and it becomes a focus of infection, for which tonsillectomy — surgical removal of the palatine tonsils — is the standard treatment.
+## answer_d
+All lymphatic nodules are of the primary type
+## explanation_d
+Reactive, infected lymphoid tissue forms secondary nodules with germinal centres in response to antigen exposure, not exclusively primary (unstimulated) nodules — repeated infection would be expected to increase secondary, not all-primary, nodule formation.
+## correct_answer
+C
+## main_concept
+CON-HEM-3D8EC762B8577E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical correlation
+## learning_objective
+State that tonsillectomy removes the palatine tonsils, the tonsil type that inflames often and is the surgical target of recurrent tonsillitis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p3 q1; Histo MCQ by Dr.Kandeel [104].pdf p10 q1. Manifest src_2b531af1f3f6eace5974, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (D) is not supported by the book, which describes antigen exposure as converting primary nodules into secondary ones with germinal centres — the opposite of 'all lymphatic nodules are of the primary type' in a repeatedly infected tonsil. Histology department book p21-23's tonsillitis note ties recurrent infection and tonsillectomy specifically to the palatine tonsil ('Palatine tonsil is often infected (tonsillitis)... a common cause of sore throat. Repeated infections... its enlargement, and become a focus of infection'), and 'tonsillectomy' as a clinical term names removal of the palatine tonsils, making C the option the source most directly supports.
+
+
+---
+
+# Item
+## id
+QM-104-821D5764FD13
+## title
+A 7 year old child came to the pediatric clinic presenting with a typical picture of ac…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+A 7 year old child came to the pediatric clinic presenting with a typical picture of acute tonsillitis, choose the true statement related to this case:
+## answer_a
+The regional lymph nodes are likely to be inflamed
+## explanation_a
+Correct. As with any local infection, acute tonsillitis is expected to inflame the regional lymph nodes draining the oropharynx (the cervical nodes) — matching the general rule that infection in a body region enlarges and inflames the nodes that drain it. This lymphadenitis is a normal, reactive response to infection, not a sign of anything more sinister.
+
+Why this is right:
+- The palatine tonsil is often infected (tonsillitis), a common cause of sore throat; repeated infections lead to its enlargement and it becomes a focus of infection, for which tonsillectomy — surgical removal of the palatine tonsils — is the standard treatment.
+## answer_b
+Metastatic lymph nodes are likely seen
+## explanation_b
+Metastatic lymph nodes imply spread of malignant cells, not an acute infectious process in a child — nothing in this vignette supports a malignant, rather than infectious, cause of node involvement.
+## answer_c
+Blood film from this patient may present eosinophilia
+## explanation_c
+Eosinophilia is not the expected blood picture of acute (typically bacterial or viral) tonsillitis; it is associated with allergic or parasitic processes instead.
+## answer_d
+Blood film from this patient may present basophilia
+## explanation_d
+Basophilia is likewise not an expected finding in acute tonsillitis and is not supported by this book as a feature of the case.
+## correct_answer
+A
+## main_concept
+CON-HEM-3D8EC762B8577E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical correlation
+## learning_objective
+State that local infection such as tonsillitis inflames the regional (draining) lymph nodes, against a distractor implying malignancy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p10 q2. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (B, metastatic lymph nodes) is medically inconsistent with the vignette — a child's acute tonsillitis is an infectious process, and metastatic nodes imply malignancy, not infection. The department book's own general principle (p18) is that local infection enlarges and inflames the regional lymph nodes draining that area (lymphadenitis); applied to tonsillitis, this supports A, which also matches this row's own sibling a7-year-old-child-came-to-the-pediatric-clinic-presenting-wi-c1adae6b, whose printed key is already A for the identical stem and options.
+
+
+---
+
+# Item
+## id
+QM-104-1E67E16EA808
+## title
+A7 year old child came to the pediatric clinic presenting with a typical picture of acu…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+A7 year old child came to the pediatric clinic presenting with a typical picture of acute tonsillitis, choose the true statement related to this case:
+## answer_a
+The regional lymph nodes are likely to be inflamed. 8
+## explanation_a
+Correct. As with any local infection, acute tonsillitis is expected to inflame the regional lymph nodes draining the oropharynx, matching the general rule that infection in a body region enlarges and inflames the nodes that drain it. This lymphadenitis is a normal, reactive response to infection, not a sign of anything more sinister.
+
+Why this is right:
+- The palatine tonsil is often infected (tonsillitis), a common cause of sore throat; repeated infections lead to its enlargement and it becomes a focus of infection, for which tonsillectomy — surgical removal of the palatine tonsils — is the standard treatment.
+## answer_b
+Metastatic lymph nodes are likely seen
+## explanation_b
+Metastatic lymph nodes imply malignant spread, not an acute infectious process in a child.
+## answer_c
+Blood film from this patient may present eosinophilia
+## explanation_c
+Eosinophilia is not the expected blood picture of acute tonsillitis.
+## answer_d
+Blood film from this patient may present basophilia
+## explanation_d
+Basophilia is likewise not supported by this book as a feature of acute tonsillitis.
+## correct_answer
+A
+## main_concept
+CON-HEM-3D8EC762B8577E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical correlation
+## learning_objective
+State that local infection such as tonsillitis inflames the regional (draining) lymph nodes, against a distractor implying malignancy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p3 q2. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EDD68DC84F1B
+## title
+A patient has an auto immune disease .It may be due to a defect in the lymphocytes prod…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient has an auto immune disease .It may be due to a defect in the lymphocytes produced in the:
+## answer_a
+Lymph node b-spleen
+## explanation_a
+As printed, this option merges two organ names ('Lymph node b-spleen') into one string, likely an extraction artifact splicing two option letters together — but under either reading, both the lymph node and the spleen are secondary (peripheral) lymphoid organs, where already-produced lymphocytes act, not where they are produced.
+## answer_c
+Palatine tonsil
+## explanation_c
+The palatine tonsil is a secondary (peripheral) lymphoid organ, where mature lymphocytes mount immune responses to antigen already reaching the oropharynx — not a site of lymphocyte production.
+## answer_d
+Thymus gland :
+## explanation_d
+Correct. The thymus is a primary (central) lymphoid organ, where T-lymphocytes are produced and complete their maturation before seeding the secondary organs — a defect at this production/maturation stage is a recognised route to autoimmune disease, unlike a defect in a secondary organ that only acts on lymphocytes already made elsewhere. A thymus that fails to properly select against self-reactive T-lymphocytes can release them into circulation instead of eliminating them.
+
+Why this is right:
+- Lymphatic tissue is organised into primary (central) and secondary (peripheral) lymphatic organs.
+## correct_answer
+D
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the thymus is the primary lymphoid organ where lymphocytes are produced, so a defect there can underlie an autoimmune disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p3 q3. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
@@ -39946,6 +42428,1470 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-424AB905A7A9
+## title
+Factors that cause shift of oxygen dissociation curve to the right are:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Factors that cause shift of oxygen dissociation curve to the right are:
+## answer_a
+Increased 2, 3 DPG
+## explanation_a
+True, and one of three right-shift factors named together. A rise in 2,3-DPG binds deoxygenated Hb and lowers its O2 affinity, so more O2 is unloaded to tissues at a given PO2.
+## answer_b
+Acidosis. a
+## explanation_b
+True, and one of three right-shift factors named together. A fall in pH (acidosis) is the H+ half of the Bohr effect, changing Hb's configuration to favour O2 release.
+## answer_c
+Increased temperature
+## explanation_c
+True, and one of three right-shift factors named together. A rise in temperature — as in active, heat-producing tissue — likewise favours O2 release.
+## answer_d
+All of the above
+## explanation_d
+Correct. Increased 2,3-DPG, acidosis and increased temperature are all named right-shift factors, and each independently lowers Hb's O2 affinity, so 'all of the above' is the answer that credits every one of them rather than singling one out. This is exactly the combination present in active, metabolising tissue, so the right shift lets more O2 unload precisely where demand is highest.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+List the factors that shift the Hb-O2 dissociation curve to the right.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q130. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-00EC217C75E6
+## title
+Factors that shift oxygen dissociation curve to the left include:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Factors that shift oxygen dissociation curve to the left include:
+## answer_a
+Acidosis
+## explanation_a
+Acidosis (a fall in pH) is the H+ half of the Bohr effect and shifts the curve right, not left — the opposite of what this option claims.
+## answer_b
+Increased temperature
+## explanation_b
+A rise in temperature shifts the curve right, not left — the same direction as acidosis and raised 2,3-DPG, and the opposite of what this option claims.
+## answer_c
+Carbon monoxide poisoning
+## explanation_c
+Correct. Carbon monoxide binds Hb at the same site as O2 with roughly 200-210 times O2's affinity, and once bound, keeps the O2 molecules still attached to that Hb molecule from releasing easily — a genuinely left-shifting effect, but by a different mechanism than the Bohr/2,3-DPG factors. This is also why CO poisoning is dangerous beyond simply displacing O2: the O2 that does remain bound is held too tightly to unload to tissue.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_d
+Increased 2, 3 DPG
+## explanation_d
+A rise in 2,3-DPG shifts the curve right, not left — it lowers, not raises, Hb's O2 affinity, the opposite of what this option claims.
+## correct_answer
+C
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify carbon monoxide poisoning as a left-shift factor and distinguish it from the three right-shift factors it is grouped against.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p22 q42. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-B71D1F2043A7
+## title
+Oxygen unloading: 3
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Oxygen unloading: 3
+## answer_a
+Increases with increased Paco
+## explanation_a
+Correct. A rise in PCO2 is part of the Bohr effect (alongside falling pH): it shifts the dissociation curve right, lowering Hb's O2 affinity and increasing how readily O2 is unloaded at a given PO2 — exactly the response active, CO2-producing tissue needs. The same tissue that produces the extra CO2 is thereby rewarded with easier O2 delivery, a self-reinforcing loop.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_b
+Decreases with increase in temperature
+## explanation_b
+The reverse is true: a rise in temperature shifts the curve right and increases unloading, it does not decrease it.
+## answer_c
+Decreases with increase in 2, 3 DPG
+## explanation_c
+The reverse is true: a rise in 2,3-DPG shifts the curve right (Hb-2,3-DPG formation lowers O2 affinity) and increases unloading, it does not decrease it.
+## answer_d
+Increases with exposure to carbon monoxide poisoning
+## explanation_d
+The reverse is true: CO exposure shifts the curve left, meaning O2 is held more tightly and unloading decreases, not increases — CO's high-affinity occupation of the binding site is what impairs release of the O2 still attached.
+## correct_answer
+A
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Predict how O2 unloading from Hb changes with PCO2, temperature, 2,3-DPG and carbon monoxide.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p20 q30. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The bank row supplies only three of the usual four options, printing D twice in one variant of the row; A is the option consistent with the department book's own statement that increased PCO2, like acidosis and raised temperature, shifts the curve right and increases O2 unloading.
+
+
+---
+
+# Item
+## id
+QM-104-CAAF0E935925
+## title
+Oxygen unloading:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Oxygen unloading:
+## answer_a
+Increases with increased Paco
+## explanation_a
+Correct. A rise in PCO2 is part of the Bohr effect: it shifts the dissociation curve right, lowering Hb's O2 affinity and increasing how readily O2 is unloaded at a given PO2. Acidosis and raised temperature act the same way, so all three track together in metabolically active tissue.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_b
+Decreases with increase in temperature
+## explanation_b
+The reverse is true: a rise in temperature shifts the curve right and increases unloading, it does not decrease it.
+## answer_c
+Decreases with increase in 2, 3 DPG
+## explanation_c
+The reverse is true: a rise in 2,3-DPG shifts the curve right and increases unloading, it does not decrease it.
+## answer_d
+Increases with exposure to carbon monoxide poisoning
+## explanation_d
+The reverse is true: CO exposure shifts the curve left, so unloading of the O2 still bound decreases, not increases.
+## correct_answer
+A
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Predict how O2 unloading from Hb changes with PCO2, temperature, 2,3-DPG and carbon monoxide.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q115. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E3E424E4CB7A
+## title
+The hemoglobin-oxygen dissociation curve moves up and to the left with:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The hemoglobin-oxygen dissociation curve moves up and to the left with:
+## answer_a
+Increased hydrogen ion concentration
+## explanation_a
+Increased hydrogen ion concentration is the H+ half of the Bohr effect, and it shifts the curve right, not left.
+## answer_b
+Hypothermia
+## explanation_b
+Correct. A fall in temperature (hypothermia) is one of the paired right/left-shift factors alongside PCO2, pH and 2,3-DPG: a decrease in temperature increases Hb's O2 affinity and moves the curve left, meaning more O2 stays bound at a given PO2. This is part of why a hypothermic patient's tissues can struggle to extract the O2 their blood is actually carrying.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## answer_c
+Hypercarbia
+## explanation_c
+Hypercarbia (raised PCO2) is part of the Bohr effect, and it shifts the curve right, not left — the same direction as increased hydrogen ion.
+## answer_d
+All of the above
+## explanation_d
+Not every listed option shifts the curve the same way: A and C are right-shift factors, and only B is a left-shift factor, so 'all of the above' cannot be correct.
+## correct_answer
+B
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify hypothermia as a factor that shifts the Hb-O2 dissociation curve to the left, against hydrogen ion and CO2 as right-shift factors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q86. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D9017A865904
+## title
+Carbon dioxide is transported in blood in the following forms, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Carbon dioxide is transported in blood in the following forms, except:
+## answer_a
+In solution in the water of plasma ; i
+## explanation_a
+True, so not the exception. CO2 in physical solution is one of the three forms (about 3 ml/100 ml of arterial blood) and is what sets blood PCO2.
+## answer_b
+As bicarbonate ion
+## explanation_b
+True, so not the exception. Bicarbonate, formed via carbonic anhydrase inside red blood cells, carries the majority of blood CO2 (about 42 of 48 ml/100 ml arterial blood).
+## answer_c
+Combined to haemoglobin to form carboxy-haemoglobin
+## explanation_c
+The exception, and the answer. CO2 combines with haemoglobin's terminal amine groups to form carbamino-haemoglobin (Hb-NHCOOH), not 'carboxy-haemoglobin' — that name belongs to CO bound at Hb's O2 site, a different gas binding a different site on the molecule. The two names sound alike but describe chemically unrelated complexes, which is exactly what makes this option a well-aimed distractor.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_d
+Bound to plasma proteins
+## explanation_d
+True, so not the exception. Carbamino compounds form secondarily on plasma proteins as well as on haemoglobin, so 'bound to plasma proteins' is a genuine, if minor, form of CO2 transport.
+## correct_answer
+C
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the three true forms of CO2 transport and distinguish carbamino-haemoglobin from carboxyhaemoglobin.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q105. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-698EB044C1C7
+## title
+Carbonic anhydrase:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Carbonic anhydrase:
+## answer_a
+Is present in plasma :
+## explanation_a
+Carbonic anhydrase is not in plasma — the hydration of CO2 to carbonic acid is slow specifically because plasma lacks this enzyme, which is why the reaction runs almost entirely inside red blood cells instead.
+## answer_b
+Is present in erythrocytes :
+## explanation_b
+Correct. Carbonic anhydrase is present inside erythrocytes, where it accelerates the hydration of CO2 several thousand-fold compared with plasma, making red blood cells the site of nearly all bicarbonate formation. Without this enzyme, bicarbonate formation would be far too slow to keep pace with the CO2 tissues actually produce.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_c
+Catalyses the reaction between carbon dioxide and hemoglobin
+## explanation_c
+Carbonic anhydrase catalyses the reaction between CO2 and water (CO2 + H2O → H2CO3), not a reaction between CO2 and haemoglobin — CO2 binds haemoglobin directly, without this enzyme, to form carbamino compounds.
+## answer_d
+Catalyses the decomposition of carbonic acid into bicarbonate and hydrogen ions
+## explanation_d
+The dissociation of carbonic acid into bicarbonate and H+ is a fast, spontaneous ionisation once carbonic acid has formed; carbonic anhydrase's role is upstream of that step, catalysing CO2's hydration to carbonic acid in the first place.
+## correct_answer
+B
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State where carbonic anhydrase is located and what reaction it catalyses.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q108. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D7A43E226C4D
+## title
+During chloride shift: 1
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During chloride shift: 1
+## answer_a
+HCO; enters the RBC in exchange for Cl
+## explanation_a
+The reverse is true: bicarbonate leaves the red blood cell for plasma as it accumulates from CO2 hydration, and chloride enters the cell to replace the charge bicarbonate takes with it — not HCO3- entering in exchange for Cl-.
+## answer_b
+red cell in arterial blood shrink in size. ١
+## explanation_b
+The chloride shift happens at the tissues, producing venous, not arterial, blood characteristics; and the red cell swells rather than shrinks, as the extra intracellular HCO3- and Cl- draw water in by osmosis.
+## answer_c
+blood becomes more acidic.
+## explanation_c
+Correct. As CO2 is hydrated to carbonic acid inside the red cell, H+ is released; most of it is buffered by deoxyhaemoglobin, but enough escapes buffering that blood pH falls slightly in venous blood (from about 7.4 to 7.37) — blood becomes marginally more acidic during the chloride shift. Deoxyhaemoglobin's buffering is what keeps this fall small rather than sizeable, since it is a better buffer than oxyhaemoglobin.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_d
+RBCs size in arterial blood increased.
+## explanation_d
+Red cell size increases in venous, not arterial, blood — the chloride shift is a tissue-level, venous-blood event, and it is the venous red cell that swells as HCO3- and Cl- accumulate inside it.
+## correct_answer
+C
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+State the direction of ion movement in the chloride shift and its effect on blood pH.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p43 q138. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-852FCE5B0BFD
+## title
+During chloride shift: :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During chloride shift: :
+## answer_a
+HCO; enters the RBC in exchange for Cl a
+## explanation_a
+The reverse is true: bicarbonate leaves the red blood cell for plasma, and chloride enters the cell to replace the lost negative charge — not HCO3- entering in exchange for Cl-.
+## answer_b
+Red cell in arterial blood shrinks in size
+## explanation_b
+The red cell swells, not shrinks, in venous blood as HCO3- and Cl- accumulate inside it and draw water in osmotically.
+## answer_c
+Blood becomes more acidic
+## explanation_c
+Correct. H+ released as CO2 is hydrated to carbonic acid is mostly, but not completely, buffered by deoxyhaemoglobin, so venous blood pH falls slightly (about 7.4 to 7.37) — blood becomes marginally more acidic during the chloride shift. The shift reverses at the lungs, where oxyhaemoglobin releases the buffered H+ again to regenerate CO2 for exhalation.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_d
+RBCs size in arterial blood is increased
+## explanation_d
+Red cell size increases, not stays fixed or decreases, in venous blood specifically — this is a tissue-level, venous-blood event, not an arterial one.
+## correct_answer
+C
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+State the direction of ion movement in the chloride shift and its effect on blood pH.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q131. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6DF114F33B1C
+## title
+Regarding chloride shift phenomenon at the tissue level:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding chloride shift phenomenon at the tissue level:
+## answer_a
+CI increases in RBCs
+## explanation_a
+Correct. Chloride moves from plasma into red blood cells to replace the negative charge that bicarbonate takes with it as HCO3- diffuses out — so Cl- rises inside RBCs (and falls in plasma) during the chloride shift. This anion exchange is exactly what keeps the red cell electrically neutral while it exports the bicarbonate it has just manufactured.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+The osmotic pressure of the RBCs decreases
+## explanation_b
+The reverse is true: osmotic pressure of the RBCs increases, not decreases, because both HCO3- and Cl- accumulate inside the cell, drawing water in by osmosis.
+## answer_c
+Hematocrite value decreases in venous blood
+## explanation_c
+The reverse is true: the resulting water influx swells red blood cells, raising, not decreasing, the haematocrit value of venous blood compared with arterial blood.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State the chloride shift's effect on red cell chloride, osmotic pressure and haematocrit at the tissue level.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p14 q25. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5092D6BFB2ED
+## title
+The haldane effect refers to:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The haldane effect refers to:
+## answer_a
+The capacity for deoxygenated Hb to carry CO₂ at any CO₂ tension
+## explanation_a
+Correct. The Haldane effect is the statement that, at any given CO2 tension, reduced (deoxygenated) haemoglobin carries more CO2 than oxygenated haemoglobin does — O2 binding lowers Hb's affinity for CO2, the mirror image of the Bohr effect. This is what makes O2 loading at the lungs and CO2 unloading there self-reinforcing, and the reverse at the tissues equally so.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+The chloride shift that occurs to maintain electrical neutrality
+## explanation_b
+This describes the chloride shift, the anion exchange that keeps the red cell electrically neutral while bicarbonate is exported — a related but separate phenomenon from the Haldane effect.
+## answer_c
+The carriage of dissolved CO2
+## explanation_c
+Dissolved CO2 is only one of the three transport forms and is not what the Haldane effect describes; the Haldane effect concerns Hb-bound CO2 carriage, not physical solution.
+## answer_d
+The shape of the CO2 dissociation curve
+## explanation_d
+The Haldane effect is a statement about how much CO2 a given blood sample carries depending on Hb's O2 saturation, not a description of the CO2 dissociation curve's shape as such.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Define the Haldane effect and distinguish it from the chloride shift and the CO2 dissociation curve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q87. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-08BBA2661BD2
+## title
+Most CO, is transported in the blood in the form of:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Most CO, is transported in the blood in the form of:
+## answer_a
+Dissolved gas
+## explanation_a
+CO2 in physical solution is only about 3 of the 48 ml/100 ml of arterial blood's total CO2 — a small minority, not the majority form.
+## answer_b
+Carbaminohemoglobin
+## explanation_b
+Carbaminohaemoglobin carries only about 3 of the 48 ml/100 ml of arterial blood's total CO2 — a small minority, not the majority form.
+## answer_c
+Bicarbonate ion
+## explanation_c
+Correct. Bicarbonate carries about 42 of the 48 ml/100 ml of arterial blood's total CO2 — the clear majority, formed inside red blood cells via carbonic anhydrase and exported to plasma by the chloride shift. Dissolved CO2 and carbamino compounds make up only about 3 ml each, the two minor forms by comparison.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_d
+Carboxyhemoglobin ‏ظ‎
+## explanation_d
+Carboxyhaemoglobin is the complex formed by carbon monoxide, not carbon dioxide, binding haemoglobin — it is not a CO2 transport form at all.
+## correct_answer
+C
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that bicarbonate carries the majority of blood CO2, against the smaller dissolved and carbamino fractions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q56; DPT BOOK Physio MCQ [104][2022].pdf p38 q100. Manifest src_d3160d222c8c55775511, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D3CB8B15870A
+## title
+In which vascular bed does hypoxia cause vasoconstriction?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In which vascular bed does hypoxia cause vasoconstriction?
+## answer_a
+Coronary
+## explanation_a
+The coronary circulation, like most vascular beds, vasodilates in local hypoxia as part of active/metabolic hyperaemia — the opposite of the pulmonary response.
+## answer_b
+Pulmonary
+## explanation_b
+Correct. Pulmonary arterioles are the one vascular bed that constricts, not dilates, in response to local alveolar hypoxia (hypoxic pulmonary vasoconstriction) — a mechanism that usefully diverts blood away from poorly ventilated lung regions toward better-ventilated alveoli, matching perfusion to ventilation. When this response becomes global, as at high altitude or in chronic lung disease, the same mechanism instead raises pulmonary vascular resistance throughout the lung.
+
+Why this is right:
+- Unlike systemic vessels, pulmonary arterioles constrict in response to low PO2.
+## answer_d
+Muscle
+## explanation_d
+Skeletal muscle vasculature, like most systemic vascular beds, vasodilates in local hypoxia as part of active hyperaemia driven by falling ATP/O2 and rising vasodilator metabolites — the opposite of the pulmonary response.
+## correct_answer
+B
+## main_concept
+CON-CVS-76412894FAD01C
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Identify the pulmonary vascular bed as the one exception where local hypoxia causes vasoconstriction rather than vasodilation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p31 q46. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6BE99EDDF641
+## title
+Non-chemical influence on respiration inclucle all of the following, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Non-chemical influence on respiration inclucle all of the following, EXCEPT:
+## answer_a
+pain sensation through hypothalamus
+## explanation_a
+A genuine non-chemical influence, not the exception. Pain and emotional stimuli reach the respiratory centre through the limbic system, and temperature through the hypothalamus — both nervous routes; whichever brain region a given source is filed under, the pathway itself is nervous, not chemical.
+## answer_b
+swallowing
+## explanation_b
+A genuine non-chemical influence, not the exception. Swallowing is one of the visceral reflexes: pharyngeal mechanoreceptors send a glossopharyngeal afferent that inhibits respiration (swallowing apnoea) to keep food out of the airway.
+## answer_c
+coughing
+## explanation_c
+A genuine non-chemical influence, not the exception. Coughing is a protective reflex from irritant receptors in the trachea, larynx and bronchi, carried by the vagus, producing deep inspiration then forced expiration against a suddenly-opening glottis.
+## answer_d
+hypoxia
+## explanation_d
+The exception, and the answer. Hypoxia (a fall in arterial PO2) drives ventilation through the peripheral chemoreceptors — the chemical route — not through a nervous reflex, so it is the one option that does not belong under 'Non-Chemical (Nervous) Regulation'. Pain, swallowing and coughing, by contrast, all act through dedicated nervous afferent pathways with no blood-gas sensor involved.
+
+Why this is right:
+- Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory centre is regulated by nervous reflexes that are independent of blood gases.
+## correct_answer
+D
+## main_concept
+CON-RES-3A3D4A2919FA80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Separate the chemical (PCO2) drive to breathe from the nervous, non-chemical afferents that also regulate the respiratory centre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p23 q49. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The chapter structure contradicts the printed key. 'Non-Chemical (Nervous) Regulation of Respiratory Activity' (physiology department book p149-153) lists pain/limbic afferents, coughing and swallowing as nervous reflex sources of respiratory drive. Hypoxia (low PO2) sits in the separate chemical-regulation section, sensed by the peripheral chemoreceptors — the chemical route the non-chemical section is contrasted against — so it is the one option that is not a non-chemical influence.
+
+
+---
+
+# Item
+## id
+QM-104-BC18B927940C
+## title
+Non-chemical influence on respiration include all of the following, EXCEPT: |
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Non-chemical influence on respiration include all of the following, EXCEPT: |
+## answer_a
+pain sensation through hypothalamus. |
+## explanation_a
+A genuine non-chemical influence, not the exception. Pain and emotional afferents reach the respiratory centre through nervous routes (limbic system, hypothalamus), not through blood-gas chemoreceptors.
+## answer_b
+swallowing, . Lo fey
+## explanation_b
+A genuine non-chemical influence, not the exception. Swallowing apnoea is a visceral reflex carried by a glossopharyngeal afferent from pharyngeal mechanoreceptors.
+## answer_c
+coughing
+## explanation_c
+A genuine non-chemical influence, not the exception. Coughing is a vagally-mediated reflex from irritant receptors in the upper airway.
+## answer_d
+hypoxia. |
+## explanation_d
+The exception, and the answer. Hypoxia drives ventilation through the peripheral chemoreceptors — the chemical route — not through a nervous reflex, so it does not belong on a list of non-chemical influences. Pain and coughing, by contrast, act through dedicated nervous afferent pathways with no blood-gas sensor involved.
+
+Why this is right:
+- Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory centre is regulated by nervous reflexes that are independent of blood gases.
+## correct_answer
+D
+## main_concept
+CON-RES-3A3D4A2919FA80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Separate the chemical (PO2) drive to breathe from the nervous, non-chemical afferents that also regulate the respiratory centre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p45 q149. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Same reasoning as the sibling row non-chemical-influence-on-respiration-inclucle-all-of-the-fo-491c9bf5: the department book files hypoxia under chemical (peripheral chemoreceptor) regulation, a separate heading from 'Non-Chemical (Nervous) Regulation of Respiratory Activity' (p149-153), so it is the exception rather than option A, B or C.
+
+
+---
+
+# Item
+## id
+QM-104-D7AB458129E4
+## title
+The respiratory center:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The respiratory center:
+## answer_a
+Is located in the pons only
+## explanation_a
+The respiratory centre is bilateral in both the pons and the medulla, not the pons only — the medulla holds the dorsal and ventral respiratory groups, and the pons holds the apneustic and pneumotaxic centres.
+## answer_b
+Sends out regular impulses to the expiratory muscles during quiet
+## explanation_b
+During quiet breathing the dorsal respiratory group sends rhythmic signals to the inspiratory muscles, and the ventral respiratory group — which carries the expiratory neurons — is inactive; the centre does not send regular signals to expiratory muscles during quiet breathing.
+## answer_c
+Is stimulated directly by the low ‏و0‎ tension in cases of hypoxia
+## explanation_c
+The respiratory centre is not stimulated directly by low PO2. Peripheral chemoreceptors sense arterial PO2 and relay that afferent signal to the centre; the centre's own central chemoreceptors respond to CSF H+/CO2, not to O2 tension.
+## answer_d
+Is affected by impulses from proprioceptors in joints and muscles
+## explanation_d
+Correct. Afferents from proprioceptors in skeletal muscle, tendons and joints, carried by somatic nerves, reach and stimulate the respiratory centre — part of the drive behind the rise in ventilation seen at the very onset of muscular exercise. This proprioceptive input is fast enough to raise ventilation before exercising muscle's own metabolic byproducts have had time to build up and act through the chemical route.
+
+Why this is right:
+- Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory centre is regulated by nervous reflexes that are independent of blood gases.
+## correct_answer
+D
+## main_concept
+CON-RES-3A3D4A2919FA80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the respiratory centre is bilateral in both pons and medulla, that the DRG alone drives quiet inspiration, and that proprioceptor afferents reach it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p23 q45. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
