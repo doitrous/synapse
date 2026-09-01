@@ -9586,7 +9586,7 @@ ar
 Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
 
 ## qualification
-All 47 pages were already visually governed in source triage. Physical pages 6–20 were rendered and visually re-read for the bounded Parasitology core Q1–Q95 and case-based learning Case 1 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85, Q87–Q89 and Q91–Q94 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Core Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86, Q90 and Q95 plus Case 1 Q1–Q2 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Core Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+All 47 pages were already visually governed in source triage. Physical pages 6–20 were rendered and visually re-read for the bounded Parasitology core Q1–Q95 and case-based learning Cases 1–2 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85, Q87–Q89 and Q91–Q94 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Core Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86, Q90 and Q95 plus Case 1 Q1–Q2 and Case 2 Q1–Q3 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Core Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6
@@ -12024,6 +12024,20 @@ function microCoverage() {
 - **Mucize case-based learning Case 1 Q2 is held as an established cyclopropagative dependency-chain hold.** Printed B, Cyclo-propagative transmission, is supported for Plasmodium development and multiplication inside Anopheles, but \`CON-INF-23265735EECCA1\` and \`ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE\` remain in the unsafe focused dependency chain already documented for Mucize core Q52 and Q78. No partial exact-ID update or duplicate question was created.
 
 `
+  const mucizeCaseTwoDelta = `### Mucize Doctors case-based learning Case 2 delta
+
+- The governed Mucize assessment resource is reused. Physical page 20 was visually re-read in full for the complete Case 2 vignette, all three four-option prompts and the printed answer line.
+- +0 resources, +0 claims, +0 citations, +0 article spans, +0 concepts, +0 articles and +0 Draft questions.
+- +3 explicit governed-identity or same-source duplicate holds with no student-facing record.
+- The printed keys remain unchanged as source evidence: Q1 B, Elephantiasis; Q2 B, Culex mosquito; Q3 C, Cyclo-developmental transmission. No answer was repaired, inferred or promoted.
+- Mucize case-based learning Case 2: **0 authored / 3 held / 0 source-absent / 0 unassessed**. The exact next boundary is Mucize case-based learning Case 3 on physical page 21.
+
+`
+  const mucizeCaseTwoHolds = `- **Mucize case-based learning Case 2 Q1 is held as an exact same-source identity duplicate.** Printed B, Elephantiasis, is supported by lymphatic obstruction with lower-limb and external-genital swelling, but Mucize core Q57 already authors the reciprocal elephantiasis limb-swelling identity against \`CON-INF-43040B7549A6C2\`. No second same-source question was minted.
+- **Mucize case-based learning Case 2 Q2 is held as an exact same-source identity duplicate.** Printed B, Culex mosquito, is supported for Wuchereria bancrofti in the governed local curriculum, but Mucize core Q38 already authors the Culex–Wuchereria vector identity against \`CON-INF-476CFE4CB1DE34\`. No duplicate case-specific question was created.
+- **Mucize case-based learning Case 2 Q3 is held as an existing governed-question identity hold.** Printed C, Cyclo-developmental transmission, is directly supported, but Absalam Part 2 Mosquitoes Q18 already authors that exact Culex-filariasis transmission identity against \`CON-INF-476CFE4CB1DE34\` and the reciprocal Draft article. The repeated occurrence is preserved in the ledger without another student-facing record.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -12119,9 +12133,10 @@ function microCoverage() {
     .replace('| Questions | 215 |', '| Questions | 219 |')
     .replace('| Question authoring holds | 235 |', '| Question authoring holds | 236 |')
     .replace('| Question authoring holds | 236 |', '| Question authoring holds | 238 |')
+    .replace('| Question authoring holds | 238 |', '| Question authoring holds | 241 |')
     .replace('| Source-absent prompt dispositions | 1 |', '| Source-absent prompt dispositions | 2 |')
     .replace('Q32 has no printed answer and remains un-authored', 'opening-bank Q32 and Mucize Q25 have no printed answer and remain un-authored')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}${mucizeParasitologyFourthDelta}${mucizeCaseOneDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}${mucizeParasitologyFourthHolds}${mucizeCaseOneHolds}`)
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}${mucizeParasitologyFourthDelta}${mucizeCaseOneDelta}${mucizeCaseTwoDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}${mucizeParasitologyFourthHolds}${mucizeCaseOneHolds}${mucizeCaseTwoHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -12150,10 +12165,13 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 215 clean source-keyed prompts authored; **4,996 raw answer observations remain**, including the 235 held printed-key observations', 'Governed answer observations: 5,211 total; 219 clean source-keyed prompts authored; **4,992 raw answer observations remain**, including the 236 held printed-key observations')
     .replace('including 236 explicit holds', 'including 238 explicit holds')
     .replace('including the 236 held printed-key observations', 'including the 238 held printed-key observations')
+    .replace('including 238 explicit holds', 'including 241 explicit holds')
+    .replace('including the 238 held printed-key observations', 'including the 241 held printed-key observations')
     .replace('including 223 explicit holds and one source-absent opening-family prompt', 'including 223 explicit holds and two source-absent prompts')
     .replace('including 235 explicit holds and one source-absent opening-family prompt', 'including 235 explicit holds and two source-absent prompts')
     .replace('including 236 explicit holds and one source-absent opening-family prompt', 'including 236 explicit holds and two source-absent prompts')
     .replace('including 238 explicit holds and one source-absent opening-family prompt', 'including 238 explicit holds and two source-absent prompts')
+    .replace('including 241 explicit holds and one source-absent opening-family prompt', 'including 241 explicit holds and two source-absent prompts')
     .replace('Q32 contributes no answer observation', 'opening-bank Q32 and Mucize Q25 contribute no answer observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
@@ -12197,6 +12215,7 @@ function microCoverage() {
     .replace('All 223 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 235 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 235 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 236 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 236 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 238 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
+    .replace('All 238 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 241 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -12213,4 +12232,6 @@ function microCoverage() {
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q91.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize case-based learning Case 1 on physical page 20.')
     .replace('Its physical pages 6–19 / Parasitology core Q1–Q95 are fully dispositioned;', 'Its physical pages 6–20 / Parasitology core Q1–Q95 and case-based learning Case 1 are fully dispositioned;')
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize case-based learning Case 1 on physical page 20.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize case-based learning Case 2 on physical page 20.')
+    .replace('Its physical pages 6–20 / Parasitology core Q1–Q95 and case-based learning Case 1 are fully dispositioned;', 'Its physical pages 6–20 / Parasitology core Q1–Q95 and case-based learning Cases 1–2 are fully dispositioned;')
+    .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize case-based learning Case 2 on physical page 20.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize case-based learning Case 3 on physical page 21.')
 }
