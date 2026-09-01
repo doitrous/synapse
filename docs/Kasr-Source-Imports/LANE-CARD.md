@@ -18,7 +18,7 @@ node --experimental-strip-types scripts/kasr/build-batches.ts "<module>"
 `<module>` is one of `"101 ISK"`, `"102 INT"`, `"104 CPS"` (103 BMS and 108 INT are hand-authored, no generator) — **there is no build-everything mode**; a bare run refuses with "name the module to build" because five lanes share this one script and a bare run once rewrote every module's batches, including another lane's finished work. Then gate every file you touched, naming every sibling concept/article file of the module with `--with` (list them: `ls docs/Kasr-Source-Imports/{concept,article}/<module-slug>-*.md`):
 ```
 node scripts/content/gate.mjs batch <file> --with <every sibling concept/article file>
-node scripts/content/gate.mjs simulate <all your module's concept/article/evidence/question/written files>   # positional, apply order — no --with
+node scripts/content/gate.mjs simulate <all your module's concept/article/evidence/question/written files>   # positional, apply order — no --with; run ONCE at the END of a cluster (the 24-file 104 run is the single biggest token cost) — per-commit gate is `gate.mjs batch` only
 ```
 
 ## 5. Progress ledger
