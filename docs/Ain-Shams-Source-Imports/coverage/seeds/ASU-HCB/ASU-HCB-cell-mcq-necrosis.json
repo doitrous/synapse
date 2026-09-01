@@ -1,0 +1,73 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "cell",
+  "header": "ASU-HCB · Cell biology — all 46 questions of the ASU HCB Dr. Hegazy cell-biology MCQ bank (\"Cell MCQ set2\", sourceId src_6c35f6fae7691b0bdcc8), native text, keys read from the printed answer key table at the foot of PDF page 8. 43 of the 46 questions reuse existing pending Kasr 101-ISK (or 108-INT) cytology/pathology concepts via a sparse overlay (pending-live/ASU-HCB-cell-mcq-overlay-concepts.md) after a per-concept find-existing.mjs search; the remaining 3 (constitutive/regulated secretion, tubular mitochondrial cristae, phase-contrast microscopy) had no existing match and are minted fresh in concept/ASU-HCB-cell-mcq-concepts.md with a matching new article. See coverage/ASU-HCB-triage.md block A for the source triage.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Cell biology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-108-PAT-NECROSIS"
+    ],
+    "resource_ids": [
+      "src_6c35f6fae7691b0bdcc8"
+    ],
+    "source_citation": "Cell MCQ set2 (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cell-q38",
+      "page": 7,
+      "title": "Term for a darkly stained shrunken nucleus",
+      "question": "Which of the following term best describes the darkly stained shrunken nucleus?",
+      "options": {
+        "A": "Hypersensitivity reaction",
+        "B": "Inflammatory reaction .",
+        "C": "Pyknosis",
+        "D": "Karyorrhexis",
+        "E": "karyolysis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A hypersensitivity reaction is an immune response category, not a term for a nuclear morphological change.",
+        "B": "Incorrect. Inflammatory reaction describes a tissue-level response to injury, not the specific nuclear appearance being asked about.",
+        "C": "Correct. Pyknosis is the term for the nucleus of a necrotic cell shrinking and staining more darkly (more deeply basophilic/condensed) — one of the three recognised nuclear changes of necrosis, alongside karyolysis (fading of nuclear basophilia) and karyorrhexis (destructive fragmentation, which follows pyknosis). \"Darkly stained and shrunken\" is precisely the descriptive definition of pyknosis, distinguishing it from karyolysis (fading, not darkening) and karyorrhexis (fragmentation, not simple shrinkage).",
+        "D": "Incorrect. Karyorrhexis is destructive fragmentation of the nucleus, which follows pyknosis rather than describing the darkly stained, shrunken stage itself.",
+        "E": "Incorrect. Karyolysis is the fading of nuclear basophilia (the nucleus becoming paler), the opposite direction of change from a darkly stained nucleus."
+      },
+      "main_concept": "CON-FND-8DA30AD870AC1E",
+      "concept_ids": [
+        "CON-FND-8DA30AD870AC1E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name pyknosis as the term for a darkly stained, shrunken nucleus, distinguishing it from karyorrhexis and karyolysis.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-108-PAT-NECROSIS"
+      ]
+    }
+  ]
+}

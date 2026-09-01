@@ -1,0 +1,1146 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "cell",
+  "header": "ASU-HCB · Cell biology — all 46 questions of the ASU HCB Dr. Hegazy cell-biology MCQ bank (\"Cell MCQ set2\", sourceId src_6c35f6fae7691b0bdcc8), native text, keys read from the printed answer key table at the foot of PDF page 8. 43 of the 46 questions reuse existing pending Kasr 101-ISK (or 108-INT) cytology/pathology concepts via a sparse overlay (pending-live/ASU-HCB-cell-mcq-overlay-concepts.md) after a per-concept find-existing.mjs search; the remaining 3 (constitutive/regulated secretion, tubular mitochondrial cristae, phase-contrast microscopy) had no existing match and are minted fresh in concept/ASU-HCB-cell-mcq-concepts.md with a matching new article. See coverage/ASU-HCB-triage.md block A for the source triage.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Cell biology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+    ],
+    "resource_ids": [
+      "src_6c35f6fae7691b0bdcc8"
+    ],
+    "source_citation": "Cell MCQ set2 (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cell-q01",
+      "page": 1,
+      "title": "Organelle that forms zymogen granules",
+      "question": "On examining a cell of pancreatic acini by EM, you observe multiple zymogen granules in its cytoplasm. What is the organelle responsible for their formation?",
+      "options": {
+        "A": "Lysosome",
+        "B": "sER",
+        "C": "Golgi",
+        "D": "Polysomes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The lysosome digests material rather than packaging secretory granules, so it is not where zymogen granules are assembled.",
+        "B": "Incorrect. Smooth endoplasmic reticulum handles lipid synthesis and detoxification, not the packaging of a protein secretory granule.",
+        "C": "Correct. The Golgi apparatus is the exit-face organelle that packs, concentrates and buds off secretory products — in a pancreatic acinar cell this is exactly how the zymogen granules of digestive enzyme precursors are formed. The Golgi receives the enzyme protein made on rough endoplasmic reticulum and delivered by transfer vesicles to its entry (cis) face, then concentrates and packages it into a membrane-bound granule that leaves from the exit (trans) face. This trans-face budding of a concentrated, membrane-bound secretory granule is precisely the zymogen-granule-formation step this question tests.",
+        "D": "Incorrect. Polysomes are free ribosome clusters that translate protein; they do not package or concentrate the finished protein into a membrane-bound granule."
+      },
+      "main_concept": "CON-FND-405BB5EA3C359E",
+      "concept_ids": [
+        "CON-FND-405BB5EA3C359E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Golgi apparatus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State which organelle forms secretory (zymogen) granules from the protein delivered to it.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q03",
+      "page": 1,
+      "title": "Vesicle delivering rER protein to the Golgi",
+      "question": "Which of the following structures can deliver proteins synthesized by ribosomes of rER to the Golgi apparatus?",
+      "options": {
+        "A": "Coated vesicles",
+        "B": "Pinocytotic vesicles",
+        "C": "Phagocytic vesicles",
+        "D": "Transfer vesicles",
+        "E": "Secretory vesicles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Coated (clathrin-coated) vesicles are chiefly associated with receptor-mediated endocytosis at the plasma membrane and with some Golgi output, not with the rER-to-Golgi delivery step.",
+        "B": "Incorrect. Pinocytotic vesicles bring extracellular fluid into the cell from the plasma membrane; they play no part in moving newly made protein from the rER.",
+        "C": "Incorrect. Phagocytic vesicles engulf solid extracellular particles; they are unrelated to intracellular rER-to-Golgi transport.",
+        "D": "Correct. Transfer vesicles bud from the rough endoplasmic reticulum carrying newly synthesised protein and fuse with the entry (cis) face of the Golgi apparatus. This is a Golgi input, not a Golgi product — the most often tested distinction in this topic — and it is the specific mechanism by which rER protein reaches the Golgi for further processing. Recognising \"transfer vesicle\" as the rER-to-Golgi carrier, as opposed to \"secretory vesicle\" which carries a finished Golgi product outward, is exactly what this question checks.",
+        "E": "Incorrect. Secretory vesicles carry the finished, packaged product away from the Golgi's exit face; they do not carry protein into the Golgi from the rER."
+      },
+      "main_concept": "CON-FND-405BB5EA3C359E",
+      "concept_ids": [
+        "CON-FND-405BB5EA3C359E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Golgi apparatus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the transfer vesicle as the carrier of newly synthesised protein from rough endoplasmic reticulum to the Golgi apparatus.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q04",
+      "page": 1,
+      "title": "Organelle digesting phagocytosed bacteria",
+      "question": "In dealing with phagocytosed bacteria which of the following organelles are Primarily involved?",
+      "options": {
+        "A": "SER",
+        "B": "Peroxisomes",
+        "C": "Endosomes",
+        "D": "RER",
+        "E": "Lysosomes"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Smooth endoplasmic reticulum handles lipid metabolism and detoxification, not intracellular digestion of engulfed bacteria.",
+        "B": "Incorrect. Peroxisomes detoxify hydrogen peroxide and oxidise long-chain fatty acids; they are not the organelle primarily responsible for digesting phagocytosed material.",
+        "C": "Incorrect. Endosomes are an intermediate compartment in the endocytic pathway, but the actual digestion is carried out once lysosomal enzymes are delivered, not by the endosome itself.",
+        "D": "Incorrect. Rough endoplasmic reticulum synthesises secretory and lysosomal proteins; it does not itself digest engulfed bacteria.",
+        "E": "Correct. Lysosomes are the membrane-bound organelles containing hydrolytic enzymes — acid phosphatase, protease, sulfatase, phospholipase, nuclease — that are abundant in phagocytic cells such as macrophages and neutrophils and are specifically responsible for digesting phagocytosed bacteria and viruses. The phagosome containing the engulfed bacterium fuses with a lysosome to form a phagolysosome, inside which the hydrolytic enzymes destroy the microbe. This is the organelle's principal defensive function and the reason lysosomes are concentrated in phagocytic white blood cells."
+      },
+      "main_concept": "CON-FND-1ACE68A9080772",
+      "concept_ids": [
+        "CON-FND-1ACE68A9080772"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that lysosomes are the organelle primarily responsible for digesting phagocytosed bacteria.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q05",
+      "page": 2,
+      "title": "Route of hydrolytic enzymes from Golgi to lysosome",
+      "question": "Hydrolytic enzymes are transferred from Golgi apparatus to which of the following organelles?",
+      "options": {
+        "A": "Phagosomes",
+        "B": "Endosomes",
+        "C": "Secretory vesicles",
+        "D": "Peroxisomes",
+        "E": "Proteasomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A phagosome is formed at the plasma membrane around an engulfed particle; it does not receive hydrolytic enzymes directly from the Golgi.",
+        "B": "Correct. The Golgi apparatus buds off hydrolytic enzymes toward endosomes, which mature into lysosomes as the enzymes accumulate and the compartment acidifies — the Golgi-to-endosome route is the standard path by which a primary lysosome is formed. This route is why the mature, active digestive compartment is described as forming through Golgi-to-endosome enzyme delivery rather than direct Golgi-to-lysosome transfer. Recognising \"endosome\" as this intermediate step, rather than jumping straight to \"lysosome\", is exactly the distinction this question is testing.",
+        "C": "Incorrect. Secretory vesicles carry a cell's export product to the plasma membrane for exocytosis; they are a separate Golgi output from the lysosomal-enzyme route.",
+        "D": "Incorrect. Peroxisomes bud from the rough endoplasmic reticulum, not from the Golgi, and their enzymes are made on free ribosomes rather than routed through the Golgi.",
+        "E": "Incorrect. The proteasome is a separate, non-membranous cytosolic complex that is not built by Golgi budding or delivery at all."
+      },
+      "main_concept": "CON-FND-9D325B98FC59A0",
+      "concept_ids": [
+        "CON-FND-9D325B98FC59A0",
+        "CON-FND-405BB5EA3C359E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Trace the Golgi-to-endosome route by which hydrolytic enzymes reach and form a lysosome.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q07",
+      "page": 2,
+      "title": "Organelle holding age (lipofuscin) pigment",
+      "question": "A 90 years-old woman dies. Autopsy of her heart reveals cardiac cells with golden cytoplasmic granules. This aging pigment accumulates primarily within which of the following organelles?",
+      "options": {
+        "A": "Endosomes",
+        "B": "Golgi apparatus",
+        "C": "Lysosomes",
+        "D": "Peroxisomes",
+        "E": "Endoplasmic reticulum"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Endosomes are an intermediate stage of the endocytic pathway, not the long-term site where the indigestible age pigment accumulates.",
+        "B": "Incorrect. The Golgi apparatus packages and modifies protein; it is not where undigested residual material is retained.",
+        "C": "Correct. What is left undigested inside a secondary lysosome becomes a residual body, which either leaves the cell by exocytosis or stays inside it as lipofuscin — the golden-brown pigment that accumulates with age, particularly in long-lived, non-dividing cells such as cardiac muscle and nerve cells. A 90-year-old's cardiac myocytes are exactly the classic site for this finding, since these cells never divide to dilute the accumulating residual bodies. This is why lipofuscin is described as the \"wear-and-tear\" or aging pigment of lysosomal origin.",
+        "D": "Incorrect. Peroxisomes handle oxidative detoxification; they are not the site of lipofuscin storage.",
+        "E": "Incorrect. The endoplasmic reticulum synthesises protein and lipid; it does not accumulate undigested residual material as a pigment."
+      },
+      "main_concept": "CON-FND-9D325B98FC59A0",
+      "concept_ids": [
+        "CON-FND-9D325B98FC59A0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify lipofuscin as the lysosomal residual-body pigment that accumulates with age in non-dividing cells.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q09",
+      "page": 2,
+      "title": "How lysosomes are demonstrated histologically",
+      "question": "Lysosomes are specifically stained using which of the following techniques?",
+      "options": {
+        "A": "Histochemical",
+        "B": "Immunocytochemical",
+        "C": "Tissue culture",
+        "D": "Vital",
+        "E": "Supravital"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lysosomes cannot be seen in a routine haematoxylin-and-eosin section and need a histochemical reaction — the acid phosphatase reaction — to be identified, because their content of hydrolytic enzymes is what is being detected rather than a structural stain. The acid phosphatase histochemical reaction localises the enzyme activity itself, producing a visible reaction product exactly where lysosomes are present. This is why \"histochemical\" is the specific demonstration method associated with lysosomes rather than a routine or immunological stain.",
+        "B": "Incorrect. Immunocytochemistry detects a specific protein antigen using an antibody; it is not the classical technique used to demonstrate lysosomes, which relies instead on detecting enzyme activity.",
+        "C": "Incorrect. Tissue culture is a method for growing living cells, not a staining technique for demonstrating an organelle in a section.",
+        "D": "Incorrect. Vital staining colours living tissue with a dye taken up during life; it is not the specific method used to demonstrate lysosomes.",
+        "E": "Incorrect. Supravital staining is applied to cells shortly after removal from the body, again a different technique from the acid-phosphatase histochemical reaction used for lysosomes."
+      },
+      "main_concept": "CON-FND-1ACE68A9080772",
+      "concept_ids": [
+        "CON-FND-1ACE68A9080772"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that lysosomes are demonstrated by the histochemical acid phosphatase reaction, not a routine stain.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q10",
+      "page": 2,
+      "title": "Feature of the primary lysosome (except)",
+      "question": "About primary lysosome, all true except:",
+      "options": {
+        "A": "Has homogenous electron dense content",
+        "B": "Contain inactive lytic enzymes",
+        "C": "Arise from Trans face of Golgi",
+        "D": "Is an active lysosome"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. a true statement). A primary lysosome does have a homogeneous, electron-dense content on EM, since it has not yet fused with any digestive substrate.",
+        "B": "Incorrect (i.e. a true statement). The enzymes of a primary lysosome are inactive/unused until the lysosome fuses with a phagosome, pinocytic vesicle or old organelle and its enzymes are called into digestive action.",
+        "C": "Incorrect (i.e. a true statement). Primary lysosomes are formed at the trans (exit) face of the Golgi apparatus, which packages and buds off primary lysosomes among its other secretory products.",
+        "D": "Correct — this is the false statement, so it is the answer to an \"except\" question. A primary lysosome is, by definition, the inactive, pre-digestive form: it has not yet fused with anything and has not begun to digest. Once it fuses with a phagosome, pinocytic vesicle or old organelle it becomes a secondary lysosome, which is the active, digesting form — so describing the primary lysosome itself as \"active\" is the one statement that does not fit the other three true features listed."
+      },
+      "main_concept": "CON-FND-9D325B98FC59A0",
+      "concept_ids": [
+        "CON-FND-9D325B98FC59A0",
+        "CON-FND-405BB5EA3C359E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Distinguish the inactive, homogeneous primary lysosome (formed at the Golgi trans face) from the active secondary lysosome.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q11",
+      "page": 2,
+      "title": "Feature of the secondary lysosome (except)",
+      "question": "About secondary lysosome, all true except:",
+      "options": {
+        "A": "Has heterogenous electron dense content",
+        "B": "Contain active lytic enzymes",
+        "C": "Arise from Trans face of Golgi",
+        "D": "Formed by fusion of 1ry lysosome with endosome or autophagosome"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (i.e. a true statement). A secondary lysosome has heterogeneous content on EM because it now contains a mix of enzyme and whatever material is being digested.",
+        "B": "Incorrect (i.e. a true statement). By definition a secondary lysosome contains active lytic enzymes, since fusion with a digestive substrate is what activates the primary lysosome's enzymes.",
+        "C": "Correct — this is the false statement. It is the primary lysosome, not the secondary lysosome, that arises directly from the trans face of the Golgi apparatus. A secondary lysosome instead arises from the fusion of a primary lysosome with a phagosome, a pinocytic vesicle, or an autophagosome/old organelle — so attributing direct Golgi-trans-face origin to the secondary lysosome is the statement that does not belong with the other three.",
+        "D": "Incorrect (i.e. a true statement). A secondary lysosome is exactly the fusion product of a primary lysosome with a phagosome, pinocytic vesicle, or old organelle undergoing autophagy."
+      },
+      "main_concept": "CON-FND-9D325B98FC59A0",
+      "concept_ids": [
+        "CON-FND-9D325B98FC59A0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a secondary lysosome forms by fusion of a primary lysosome with a phagosome, pinocytic vesicle or autophagosome, not directly from the Golgi.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q12",
+      "page": 3,
+      "title": "Term for undigested residue after lysosomal digestion",
+      "question": "Which of the following terms best describes the remaining undigested particles after lysosomal digestion?",
+      "options": {
+        "A": "Phagocytic vesicle",
+        "B": "Residual body",
+        "C": "Pinocytotic vesicles",
+        "D": "Secretory",
+        "E": "Auto-phagosomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A phagocytic vesicle (phagosome) is the compartment formed when a solid particle is first engulfed, before any digestion has occurred, not the leftover material afterward.",
+        "B": "Correct. What is left undigested after lysosomal digestion becomes a residual body — the term specifically used for the indigestible remnant inside a secondary lysosome once digestion is complete. A residual body is then either discharged from the cell by exocytosis or retained inside the cell, where it accumulates as the pigment lipofuscin, particularly in long-lived cells such as cardiac muscle and neurons. This vocabulary — residual body as the post-digestion remnant — is the specific fact this question tests.",
+        "C": "Incorrect. A pinocytotic vesicle is the compartment formed by fluid-phase endocytosis before digestion, not the undigested remainder afterward.",
+        "D": "Incorrect. \"Secretory\" describes an outward-bound vesicle carrying an export product, unrelated to leftover digestive debris.",
+        "E": "Incorrect. An autophagosome is the compartment formed when an old organelle is first enclosed for digestion, before fusion with a lysosome, not the undigested remainder afterward."
+      },
+      "main_concept": "CON-FND-9D325B98FC59A0",
+      "concept_ids": [
+        "CON-FND-9D325B98FC59A0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name the residual body as the term for undigested material left after lysosomal digestion.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q13",
+      "page": 3,
+      "title": "Uptake of extracellular fluid by the cell",
+      "question": "Which of the following cellular processes describes the uptake of the extracellular fluids by the cell?",
+      "options": {
+        "A": "Autophagy",
+        "B": "Phagocytosis.",
+        "C": "pinoeytosis.",
+        "D": "Apoptosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Autophagy is the intracellular process of removing the cell's own old organelles using lysosomes; it does not describe taking in extracellular fluid.",
+        "B": "Incorrect. Phagocytosis is \"cell eating\" — the engulfment of a solid particle by pseudopodia — not the uptake of fluid.",
+        "C": "Correct. Pinocytosis (\"cell drinking\") is the uptake of extracellular fluid and whatever is dissolved in it through small invaginations of the plasma membrane, needing no specific receptor protein to occur. This non-selective, fluid-phase uptake is what distinguishes pinocytosis from receptor-mediated endocytosis (which needs a ligand-receptor interaction) and from phagocytosis (which engulfs solid particles). Recognising \"extracellular fluid uptake\" as the defining feature of pinocytosis is exactly what this question is testing.",
+        "D": "Incorrect. Apoptosis is programmed cell death, an entirely different process from fluid uptake."
+      },
+      "main_concept": "CON-FND-E66C68C0B80D16",
+      "concept_ids": [
+        "CON-FND-E66C68C0B80D16"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell biology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define pinocytosis as the fluid-phase uptake of extracellular fluid by the cell membrane.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q14",
+      "page": 3,
+      "title": "Origin of clathrin-coated vesicles",
+      "question": "Clathrin coated vesicles are pinched off from the...",
+      "options": {
+        "A": "SER",
+        "B": "Trans face of Golgi",
+        "C": "Cis face of Golgi",
+        "D": "plasma membrane"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Smooth endoplasmic reticulum is not coated with clathrin and does not pinch off clathrin-coated vesicles.",
+        "B": "Incorrect. The Golgi's trans (exit) face buds off secretory vesicles, primary lysosomes and some coated vesicles, but the classic clathrin-coated pit/vesicle mechanism this question tests is the plasma-membrane one.",
+        "C": "Incorrect. The Golgi's cis (entry) face receives incoming transfer vesicles from the rER; it is not where clathrin-coated vesicles pinch off.",
+        "D": "Correct. In receptor-mediated endocytosis, a ligand binds its receptors on the cell surface, the receptors aggregate over a patch of plasma membrane that clathrin coats on its cytoplasmic side, and this coated pit pinches off as a clathrin-coated vesicle — the mechanism by which a hormone such as growth hormone is taken up by the cell. This plasma-membrane origin of the clathrin-coated vesicle is the specific fact being tested here. Confusing this with a Golgi coated vesicle is the classic distractor this question is built to catch."
+      },
+      "main_concept": "CON-FND-E66C68C0B80D16",
+      "concept_ids": [
+        "CON-FND-E66C68C0B80D16",
+        "CON-FND-405BB5EA3C359E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell biology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that clathrin-coated vesicles of receptor-mediated endocytosis pinch off from the plasma membrane.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q15",
+      "page": 3,
+      "title": "Organelle oxidising toxic metabolites",
+      "question": "Which of the following organelles are concerned with oxidation of toxic metabolites within the cell?",
+      "options": {
+        "A": "Lysosomes",
+        "B": "Proteasomes",
+        "C": "Endosomes",
+        "D": "Peroxisomes",
+        "E": "Phagosomes"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Lysosomes digest macromolecules with hydrolytic enzymes; oxidative detoxification of metabolites is not their function.",
+        "B": "Incorrect. Proteasomes degrade ubiquitin-tagged cytosolic proteins; they do not oxidise toxic metabolites.",
+        "C": "Incorrect. Endosomes are an intermediate endocytic compartment, not a site of oxidative detoxification.",
+        "D": "Correct. Peroxisomes hold oxidase enzymes that carry out beta-oxidation of long-chain fatty acids and other oxidative reactions, generating hydrogen peroxide as a toxic by-product, which the peroxisome's own catalase then breaks down into water and oxygen. This oxidase-plus-catalase pairing is precisely how the peroxisome oxidises and detoxifies toxic metabolites within the cell. Peroxisomes are especially abundant in liver and kidney cells, which carry a heavy detoxification load.",
+        "E": "Incorrect. A phagosome is simply the compartment holding an engulfed particle before lysosomal fusion; it does not itself perform oxidative detoxification."
+      },
+      "main_concept": "CON-FND-195407DF67047D",
+      "concept_ids": [
+        "CON-FND-195407DF67047D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Peroxisomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the peroxisome, via its oxidase and catalase enzymes, oxidises and detoxifies toxic metabolites.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q16",
+      "page": 3,
+      "title": "Characteristics of peroxisomes",
+      "question": "Peroxisomes are characterized by....",
+      "options": {
+        "A": "Being numerous in kidney and liver.",
+        "B": "Being non membranous organelles.",
+        "C": "Being stained with acid-phosphatase enzyme.",
+        "D": "Containing hydrolytic enzymes.",
+        "E": "Containing its own DNA"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Peroxisomes are abundant in liver and kidney cells, which is where their oxidative and detoxification workload — beta-oxidation of long-chain fatty acids and destruction of the resulting hydrogen peroxide by catalase — is heaviest. This tissue distribution is a specifically tested peroxisome fact, distinguishing it from organelles found more uniformly across cell types. Liver and kidney cells also increase peroxisome number by simple division when detoxification demand rises.",
+        "B": "Incorrect. Peroxisomes are spherical membranous vesicles bounded by a single membrane, not non-membranous structures.",
+        "C": "Incorrect. Acid phosphatase is the histochemical marker enzyme for lysosomes, not for peroxisomes.",
+        "D": "Incorrect. Peroxisomes contain oxidase and catalase enzymes for oxidative detoxification, not the hydrolytic (digestive) enzymes that characterise the lysosome.",
+        "E": "Incorrect. Peroxisomes do not contain their own DNA; their enzymes are made on free cytosolic ribosomes and imported, unlike the mitochondrion, which does carry its own DNA."
+      },
+      "main_concept": "CON-FND-195407DF67047D",
+      "concept_ids": [
+        "CON-FND-195407DF67047D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Peroxisomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that peroxisomes are especially numerous in liver and kidney cells.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q17",
+      "page": 3,
+      "title": "Product of free ribosomes",
+      "question": "Free ribosomes in the cell is responsible for formation of",
+      "options": {
+        "A": "Proteins used by the cell.",
+        "B": "Secretory proteins.",
+        "C": "Steroid.",
+        "D": "Integral membrane proteins.",
+        "E": "Lysosomal enzymes."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Free ribosomes, scattered singly or as polyribosomes in the cytosol, form the proteins the cell uses within itself — its own glycolytic enzymes, the proteins needed for its own growth, and the enzymes packaged into its peroxisomes. This is the defining distinction from attached (rER) ribosomes, which instead make proteins destined for secretion, the membrane, or lysosomes. Free-ribosome basophilia, when diffuse rather than localised, is the light-microscopy correlate of this fact.",
+        "B": "Incorrect. Secretory proteins for export are made by ribosomes attached to the rough endoplasmic reticulum, not by free ribosomes.",
+        "C": "Incorrect. Steroid synthesis is carried out by smooth endoplasmic reticulum and mitochondrial enzymes, not by ribosomes of any kind (steroid is a lipid, not a ribosome-translated protein).",
+        "D": "Incorrect. Integral membrane proteins are made by ribosomes attached to the rough endoplasmic reticulum, the same attached-ribosome category as secretory proteins.",
+        "E": "Incorrect. Lysosomal enzymes are made by attached (rER) ribosomes, since they are destined for delivery via the Golgi rather than for use directly in the cytosol."
+      },
+      "main_concept": "CON-FND-60953640114635",
+      "concept_ids": [
+        "CON-FND-60953640114635"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Ribosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that free ribosomes make the protein the cell uses for itself, as opposed to attached ribosomes making export protein.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q18",
+      "page": 4,
+      "title": "Organelle degrading mitotic cyclins",
+      "question": "Mitotic cyclins are rapidly inactivated and degraded by which of the following organelles",
+      "options": {
+        "A": "Endosomes",
+        "B": "Lysosomes",
+        "C": "Proteosomes",
+        "D": "Phagosomes",
+        "E": "sER"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Endosomes are part of the endocytic pathway for material taken in from outside the cell, not the machinery for degrading a cell's own regulatory proteins.",
+        "B": "Incorrect. Lysosomes digest material taken in by endocytosis/phagocytosis or old organelles by autophagy; they are not the pathway that rapidly degrades short-lived cytosolic regulators like mitotic cyclins.",
+        "C": "Correct. The proteasome is the non-membranous cytoplasmic complex that degrades abnormal, misfolded and short-lived proteins in the cytosol after they are tagged with ubiquitin, and mitotic cyclins are exactly this kind of short-lived regulatory protein — their rapid, timed destruction by the ubiquitin-proteasome system is what drives the cell out of mitosis. This differs from lysosomal digestion in having no membrane and in acting on the cell's own soluble regulatory proteins rather than on material taken in or worn-out organelles. This proteasome-cyclin link is a frequently tested cell-cycle/cell-biology crossover fact.",
+        "D": "Incorrect. Phagosomes hold engulfed extracellular particles; they play no part in degrading intracellular regulatory proteins.",
+        "E": "Incorrect. Smooth endoplasmic reticulum is involved in lipid synthesis and detoxification, not in tagged-protein degradation."
+      },
+      "main_concept": "CON-FND-0D6F0DC6CBAD60",
+      "concept_ids": [
+        "CON-FND-0D6F0DC6CBAD60"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Proteasome",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the proteasome, not the lysosome, rapidly degrades mitotic cyclins.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q19",
+      "page": 4,
+      "title": "How proteasomes differ from lysosomes",
+      "question": "Proteasomes differ from lysosomes in:",
+      "options": {
+        "A": "degrading long half-life proteins",
+        "B": "degrading proteins tagged with ubiquitin",
+        "C": "degrading old organelles",
+        "D": "degrading alcohol"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The proteasome degrades short-lived, not long-half-life, proteins — long-lived proteins are more the province of ordinary lysosomal turnover.",
+        "B": "Correct. The proteasome specifically degrades proteins that have been tagged with ubiquitin, a labelling system the lysosome does not use — lysosomal substrates instead arrive via phagocytosis, pinocytosis or autophagy rather than by carrying a ubiquitin tag. This ubiquitin-tag recognition step is the defining biochemical difference between proteasomal and lysosomal degradation. It is also why proteasomal degradation can be highly selective and rapid, matching the need to destroy specific regulatory proteins such as cyclins on a precise schedule.",
+        "C": "Incorrect. Degrading old organelles is a lysosomal (autophagic) function, not a proteasomal one, so this describes the lysosome rather than a proteasome-specific feature.",
+        "D": "Incorrect. Alcohol detoxification is a smooth endoplasmic reticulum/peroxisome function, unrelated to either the proteasome or the lysosome."
+      },
+      "main_concept": "CON-FND-0D6F0DC6CBAD60",
+      "concept_ids": [
+        "CON-FND-0D6F0DC6CBAD60"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Proteasome",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the proteasome, unlike the lysosome, specifically degrades ubiquitin-tagged proteins.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q20",
+      "page": 4,
+      "title": "Site of degradation of abnormal short-lived proteins",
+      "question": "Abnormal short lived proteins are degraded inside the cell by....",
+      "options": {
+        "A": "Lysosomes.",
+        "B": "proteasome",
+        "C": "peroxisomes.",
+        "D": "endosome",
+        "E": "Phagosomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Lysosomes primarily digest material taken in from outside the cell or old organelles by autophagy, not short-lived cytosolic proteins.",
+        "B": "Correct. The proteasome is the non-membranous cytoplasmic complex specialised for degrading abnormal, misfolded and short-lived proteins in the cytosol once they are tagged with ubiquitin. Because it targets the cell's own soluble regulatory and defective proteins rather than material taken in from outside, it is the correct answer whenever a question describes rapid destruction of an abnormal or short-lived intracellular protein. Failure of this system lets abnormal protein accumulate, a mechanism linked to neurodegenerative disease.",
+        "C": "Incorrect. Peroxisomes handle oxidative detoxification, not degradation of abnormal cytosolic proteins.",
+        "D": "Incorrect. Endosomes are part of the endocytic pathway for extracellular material, not for degrading the cell's own short-lived proteins.",
+        "E": "Incorrect. Phagosomes hold engulfed extracellular particles, unrelated to intracellular abnormal-protein degradation."
+      },
+      "main_concept": "CON-FND-0D6F0DC6CBAD60",
+      "concept_ids": [
+        "CON-FND-0D6F0DC6CBAD60"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Proteasome",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the proteasome degrades abnormal, short-lived intracellular proteins.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q21",
+      "page": 4,
+      "title": "Structures forming the cytoskeleton",
+      "question": "Which of the following structures share in cytoskeleton formation?",
+      "options": {
+        "A": "Flagella",
+        "B": "Microtubules",
+        "C": "Myosin",
+        "D": "Cilia",
+        "E": "Stereocilia"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Flagella are structures built from microtubules (as an axoneme) rather than being one of the three cytoskeletal filament systems themselves.",
+        "B": "Correct. The cytoskeleton is a complex network of exactly three filament systems — microtubules, microfilaments and intermediate filaments — joined into a microtrabecular lattice, and microtubules are one of these three core components. Structures such as centrioles, cilia and flagella are built from microtubules, and microvilli/stereocilia from microfilaments, which makes them products of the cytoskeleton rather than additional independent elements of it. Recognising which listed structure is one of the three true cytoskeletal filament systems, rather than something built from them, is exactly the point of this question.",
+        "C": "Incorrect. Myosin is the motor protein of the contractile apparatus (working with actin microfilaments); the thick myosin filament of muscle is considered part of the contractile apparatus rather than a cytoskeletal filament system in its own right.",
+        "D": "Incorrect. Cilia, like flagella, are structures built by the microtubules of the cytoskeleton, not one of the three cytoskeletal systems themselves.",
+        "E": "Incorrect. Stereocilia are long, non-motile microvilli built from a microfilament (actin) core, a product of the cytoskeleton rather than one of its three defining systems."
+      },
+      "main_concept": "CON-FND-6D29BE5A5B1325",
+      "concept_ids": [
+        "CON-FND-6D29BE5A5B1325"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cytoskeleton",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name microtubules, microfilaments and intermediate filaments as the three components of the cytoskeleton.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q22",
+      "page": 4,
+      "title": "Properties of intermediate filaments",
+      "question": "Intermediate filaments are:",
+      "options": {
+        "A": "Involved in muscle contraction.",
+        "B": "5 nm in diameter.",
+        "C": "Homogenously distributed in all cells.",
+        "D": "Present in nucleus and cytoplasm.",
+        "E": "Formed of tubulin protein."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Intermediate filaments are supportive rather than motile/contractile structures; muscle contraction is carried out by actin and myosin, not intermediate filaments.",
+        "B": "Incorrect. Intermediate filaments are 8-10 nm across, between the thinner microfilaments and the thicker microtubules in diameter, not 5 nm.",
+        "C": "Incorrect. Intermediate filament protein composition differs from tissue to tissue (cytokeratin in epithelium, vimentin in connective tissue/muscle, desmin in muscle, neurofilaments in neurons, glial fibrillary acidic protein in glial cells, lamins in the nuclear envelope), so they are not uniformly the same across all cells.",
+        "D": "Correct. Intermediate filaments are present both in the cytoplasm, where tissue-specific proteins such as cytokeratin, vimentin, desmin, neurofilament protein and glial fibrillary acidic protein form the supportive network, and in the nucleus, where the lamins form the nuclear lamina lining the inner nuclear envelope. This dual cytoplasmic-and-nuclear distribution is a distinctive feature among the three cytoskeletal filament systems, since microtubules and microfilaments are essentially cytoplasmic. It is also the basis for identifying a tumour's cell of origin by which intermediate filament protein it expresses.",
+        "E": "Incorrect. Tubulin is the protein subunit of microtubules, not of intermediate filaments, which are instead built from tissue-specific tetrameric subunit proteins."
+      },
+      "main_concept": "CON-FND-6268E97A4A9F26",
+      "concept_ids": [
+        "CON-FND-6268E97A4A9F26"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cytoskeleton",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that intermediate filaments occur in both the cytoplasm and the nucleus (as lamins).",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q23",
+      "page": 4,
+      "title": "Which structure is not an intermediate filament",
+      "question": "All of the following are intermediate filaments, EXCEPT:",
+      "options": {
+        "A": "Tonofilaments",
+        "B": "Neurofilaments",
+        "C": "Glial filaments",
+        "D": "myofilaments (actin & myosin)",
+        "E": "nuclear lamina"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. a true statement). Tonofilaments (cytokeratin filaments) are the epithelial cell's intermediate filament, converging on desmosomes.",
+        "B": "Incorrect (i.e. a true statement). Neurofilaments are the intermediate filament protein of neurons.",
+        "C": "Incorrect (i.e. a true statement). Glial filaments (glial fibrillary acidic protein) are the intermediate filament of glial cells such as astrocytes.",
+        "D": "Correct — this is the exception. Actin and myosin myofilaments are the microfilament and motor-protein components of the contractile apparatus (and, more generally, actin is a microfilament rather than an intermediate filament), so they do not belong in a list of intermediate filaments. This is precisely the distinction the question is built to test: recognising that \"myofilaments\" names actin/myosin, a different cytoskeletal category from the tissue-specific intermediate filaments listed alongside it. Confusing filament diameter categories (microfilament vs intermediate filament) is the classic trap here.",
+        "E": "Incorrect (i.e. a true statement). The nuclear lamina is made of lamins, which are the intermediate filament proteins of the nuclear envelope."
+      },
+      "main_concept": "CON-FND-6268E97A4A9F26",
+      "concept_ids": [
+        "CON-FND-6268E97A4A9F26"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cytoskeleton",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Distinguish the true intermediate filaments (tonofilament, neurofilament, glial filament, lamin) from actin/myosin myofilaments, which are not intermediate filaments.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q24",
+      "page": 4,
+      "title": "Function NOT performed by microtubules",
+      "question": "Which of the following is NOT a function of microtubules?",
+      "options": {
+        "A": "They form structural component of cilia.",
+        "B": "They facilitate intracellular transport of organelles.",
+        "C": "They are involved in chromosomal movement during mitosis.",
+        "D": "They form structural core of microvilli.",
+        "E": "They determine the cell shape."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. a true function). Cilia are built from a microtubule axoneme, so this is a genuine microtubule function.",
+        "B": "Incorrect (i.e. a true function). Microtubules transport organelles, vesicles and macromolecules through the cytoplasm using motor proteins that walk along them, a real microtubule function.",
+        "C": "Incorrect (i.e. a true function). Microtubules form the mitotic spindle and move chromosomes during cell division, a genuine microtubule function.",
+        "D": "Correct — this is the false statement, since microtubules do not perform this role. The structural core of a microvillus is built from actin microfilaments, not microtubules — this is a specific and commonly tested point of contrast, since a microvillus (actin core) is often confused with a cilium (microtubule axoneme). Recognising that the microvillus core belongs to the microfilament system rather than the microtubule system is exactly what distinguishes the correct \"except\" answer here.",
+        "E": "Incorrect (i.e. a true function). Microtubules help determine and maintain cell shape and elongation, a genuine microtubule function."
+      },
+      "main_concept": "CON-FND-05D3B2832089AB",
+      "concept_ids": [
+        "CON-FND-05D3B2832089AB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cytoskeleton",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the microvillus core is built from actin microfilaments, not microtubules, distinguishing it from the microtubule-based cilium.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q25",
+      "page": 5,
+      "title": "Site of microtubule assembly initiation",
+      "question": "Assembly of microtubules is initiated near the...",
+      "options": {
+        "A": "Nucleus",
+        "B": "Nucleolus",
+        "C": "Centrioles",
+        "D": "Chromatin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The nucleus as a whole is not the specific initiation site; assembly is directed from a discrete structure, the centrosome, near the nucleus rather than by the nucleus itself.",
+        "B": "Incorrect. The nucleolus makes ribosomal RNA and assembles ribosomal subunits; it has no role in directing microtubule assembly.",
+        "C": "Correct. Microtubule assembly is directed by the microtubule organising centre — the centrosome — which contains the two perpendicular centrioles and is rich in gamma tubulin, the form that nucleates new microtubule growth. Tubulin dimers add on at the growing microtubule's plus end while the minus end stays anchored near the centrosome, so all cytoplasmic microtubules trace back to this centriole-containing organising centre. This centriole-based nucleation is also how the mitotic spindle is organised at the start of cell division.",
+        "D": "Incorrect. Chromatin is genetic material within the nucleus and has no role in nucleating microtubule assembly."
+      },
+      "main_concept": "CON-FND-F2650956ED1A0C",
+      "concept_ids": [
+        "CON-FND-F2650956ED1A0C",
+        "CON-FND-05D3B2832089AB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cytoskeleton",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that microtubule assembly is nucleated at the centriole-containing microtubule organising centre.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q27",
+      "page": 5,
+      "title": "True statement about microtubule structure",
+      "question": "Which of the following statements truly describes the microtubules?",
+      "options": {
+        "A": "They have constant length",
+        "B": "They are formed of 13 protofilaments",
+        "D": "Their tublin subunits are added at its minus end.",
+        "E": "They are assembled in the nucleolar organizer region"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Microtubule length is not fixed — microtubules are dynamic, lengthening and shortening by adding and losing tubulin subunits at their ends.",
+        "B": "Correct. A microtubule is a hollow cylinder of fixed diameter, 24 nm across, whose wall is built from exactly thirteen parallel protofilaments, each protofilament a chain of alpha- and beta-tubulin dimers. This fixed thirteen-protofilament wall structure is a specific, frequently tested ultrastructural fact distinguishing the microtubule from the other cytoskeletal filaments. The number of protofilaments stays constant even though the microtubule's overall length is dynamic.",
+        "D": "Incorrect. Tubulin subunits are added predominantly at the microtubule's plus end, not the minus end, which stays anchored near the microtubule organising centre.",
+        "E": "Incorrect. Microtubules are nucleated at the centrosome/microtubule organising centre (rich in gamma tubulin and containing the centrioles), not at the nucleolar organizer region, which instead carries the genes for ribosomal RNA."
+      },
+      "main_concept": "CON-FND-05D3B2832089AB",
+      "concept_ids": [
+        "CON-FND-05D3B2832089AB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cytoskeleton",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a microtubule's wall is built of exactly thirteen protofilaments.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q28",
+      "page": 5,
+      "title": "Intermediate filament of the inner nuclear envelope",
+      "question": "Which of the following intermediate filaments are associated with the inner nuclear envelope?",
+      "options": {
+        "A": "Desmin",
+        "B": "Vimentin",
+        "C": "Tubulin",
+        "D": "Actin",
+        "E": "Lamins"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Desmin is the intermediate filament protein of muscle cells, not of the nuclear envelope.",
+        "B": "Incorrect. Vimentin is the intermediate filament protein of connective tissue and muscle cells generally, not specifically the nuclear envelope.",
+        "C": "Incorrect. Tubulin is the subunit protein of microtubules, an entirely different cytoskeletal filament system, not an intermediate filament.",
+        "D": "Incorrect. Actin is the subunit protein of microfilaments, not of intermediate filaments, and it is not the protein lining the inner nuclear envelope.",
+        "E": "Correct. Lamins are the tissue-specific intermediate filament protein of the nuclear envelope: they form the nuclear lamina, a meshwork lying against the inner nuclear membrane that anchors peripheral chromatin and gives the envelope its mechanical support. This makes lamins the answer whenever a question links an intermediate filament specifically to the inner nuclear envelope, as opposed to cytokeratin, vimentin, desmin, neurofilament or glial fibrillary acidic protein, each of which marks a different tissue."
+      },
+      "main_concept": "CON-FND-6268E97A4A9F26",
+      "concept_ids": [
+        "CON-FND-6268E97A4A9F26",
+        "CON-FND-C5C16B3F123155"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Nucleus",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name lamins as the intermediate filament protein of the inner nuclear envelope (nuclear lamina).",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q39",
+      "page": 7,
+      "title": "What increases with age",
+      "question": "Which of the following increases with age?",
+      "options": {
+        "A": "Lysosomes",
+        "B": "Ribosome",
+        "C": "melanin pigments",
+        "D": "lipofuscin granules"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Lysosome number is not itself the age-related change being tested; it is their undigested residual content that changes with age.",
+        "B": "Incorrect. Ribosome number is not a recognised marker of cellular aging in the way lipofuscin accumulation is.",
+        "C": "Incorrect. Melanin is a pigment associated with skin/hair colour and sun exposure, not the classic lysosome-derived aging pigment being tested here.",
+        "D": "Correct. Lipofuscin granules — the golden-brown pigment left inside residual bodies after lysosomal digestion — accumulate progressively with age, particularly in long-lived, non-dividing cells such as cardiac muscle and neurons that never divide to dilute them out. This is why lipofuscin is described as the cell's \"wear-and-tear\" or aging pigment and why it is the expected answer whenever a question links an intracellular pigment specifically to increasing age."
+      },
+      "main_concept": "CON-FND-9D325B98FC59A0",
+      "concept_ids": [
+        "CON-FND-9D325B98FC59A0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Lysosomes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that lipofuscin granules, the lysosomal residual-body pigment, increase with age.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q40",
+      "page": 7,
+      "title": "PAS-positive pink granules in liver cytoplasm",
+      "question": "PAS stained section of the liver shows cells with abundant pink granules in the cytoplasm. Which of the following terms best describes these granules?",
+      "options": {
+        "A": "Fragments",
+        "B": "Vesicles",
+        "C": "Vacuoles",
+        "D": "Organelles",
+        "E": "Inclusion"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. \"Fragments\" is not the standard histological term for a stored, non-living cytoplasmic material such as glycogen.",
+        "B": "Incorrect. A vesicle is a small membrane-bound sac, which is not the correct category for a non-membrane-bound stored cytoplasmic material like glycogen.",
+        "C": "Incorrect. A vacuole is a membrane-bound, usually fluid-filled space, not the term for solid stored material such as glycogen granules.",
+        "D": "Incorrect. Organelles are the cell's permanent, metabolically active membrane-bound or non-membranous working structures (mitochondria, Golgi, and so on); stored, inert material such as glycogen is specifically excluded from this category.",
+        "E": "Correct. PAS (periodic acid-Schiff) is a histochemical reaction for carbohydrate that stains what it finds magenta-red, and the glycogen of the liver cell is a classic PAS-positive target. Glycogen, along with lipid droplets and pigments such as lipofuscin, is classified as a cytoplasmic inclusion — non-living, stored material that is not a permanent metabolically active organelle. Recognising \"inclusion\" as the correct category for PAS-positive glycogen granules, rather than mislabelling them as an organelle or vesicle, is exactly what this question tests."
+      },
+      "main_concept": "CON-FND-05C930A781CE55",
+      "concept_ids": [
+        "CON-FND-05C930A781CE55"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell biology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify PAS-positive glycogen granules in the liver cell as a cytoplasmic inclusion, not an organelle.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q43",
+      "page": 8,
+      "title": "Site of ATP synthase",
+      "question": "What is the site of ATP synthase (phosphorylation enzymes)?",
+      "options": {
+        "A": "Mitochondrial matrix",
+        "B": "Mitochondrial cristae",
+        "C": "Outer mitochondrial membrane",
+        "D": "Peroxisome"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The matrix holds the Krebs (citric acid) cycle enzymes, mitochondrial DNA and calcium-rich granules, not the ATP synthase of oxidative phosphorylation.",
+        "B": "Correct. The enzymes of oxidative phosphorylation, including ATP synthase, sit in the elementary particles studding the inner mitochondrial membrane's cristae — the folds that greatly increase the inner membrane's surface area available for this machinery. This cristae location, distinct from the citric-acid-cycle enzymes of the matrix, is the specific fact this question is testing: the Krebs cycle happens in the matrix, but the ATP-generating phosphorylation machinery is on the cristae.",
+        "C": "Incorrect. The outer mitochondrial membrane is smooth, carries porins, and is not the site of ATP synthase.",
+        "D": "Incorrect. The peroxisome is an entirely separate organelle handling oxidative detoxification, not ATP production via ATP synthase."
+      },
+      "main_concept": "CON-FND-B845AC57451E7F",
+      "concept_ids": [
+        "CON-FND-B845AC57451E7F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Mitochondria",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that ATP synthase sits on the cristae of the inner mitochondrial membrane.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q44",
+      "page": 8,
+      "title": "Cell type with apical mitochondria",
+      "question": "Of the following cell type, which would contain mitochondria in the apical part of the cell.",
+      "options": {
+        "A": "smooth muscles.",
+        "B": "ciliated cells .",
+        "C": "skeletal muscles.",
+        "D": "steroid secretory cells."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Smooth muscle cells distribute their mitochondria along the length of the contractile fibre, not concentrated apically.",
+        "B": "Correct. Mitochondria are sited wherever the cell needs energy most, and in a ciliated cell that is the apical cytoplasm, where the mitochondria cluster to supply the ATP that powers the dynein-driven ciliary beat immediately beneath the cilia. This apical concentration of mitochondria in ciliated cells is a specific, examinable example of the general principle that mitochondrial localisation follows local energy demand.",
+        "C": "Incorrect. Skeletal muscle mitochondria are distributed between the contractile myofibrils along the fibre's length, not concentrated at an apical pole.",
+        "D": "Incorrect. A steroid-secretory cell's mitochondria (with their tubular cristae) are distributed to support cytoplasmic steroidogenesis generally, not concentrated at an apical surface the way a ciliated cell's are."
+      },
+      "main_concept": "CON-FND-B845AC57451E7F",
+      "concept_ids": [
+        "CON-FND-B845AC57451E7F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Mitochondria",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a ciliated cell concentrates its mitochondria apically, next to the energy-demanding ciliary beat.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    },
+    {
+      "key": "cell-q45",
+      "page": 8,
+      "title": "True statement about mitochondria on EM",
+      "question": "Using transmission electron microscope, mitochondria are....",
+      "options": {
+        "B": "Continuous with the outer nuclear envelope",
+        "C": "Covered by ribosomes",
+        "D": "Surrounded by a double membrane",
+        "E": "Interconnected with sER"
+      },
+      "correct": "D",
+      "explanations": {
+        "B": "Incorrect. It is the endoplasmic reticulum, not the mitochondrion, that is continuous with the outer nuclear envelope; mitochondria are separate, independent organelles.",
+        "C": "Incorrect. Mitochondria are not studded with ribosomes the way rough endoplasmic reticulum is; ribosome-covering is a feature of the rER, not the mitochondrion.",
+        "D": "Correct. A mitochondrion is bounded by two unit (bilayer) membranes: a smooth outer membrane carrying porins, permeable to small molecules, and a selectively permeable inner membrane folded into cristae, with the intermembranous space between them and the matrix within the inner membrane. This double-membrane architecture, visible clearly on transmission electron microscopy, is the mitochondrion's defining ultrastructural feature and the fact this question is testing.",
+        "E": "Incorrect. Mitochondria are not structurally interconnected with the smooth endoplasmic reticulum; the two remain separate organelles, even though they may sit close together functionally (e.g. in steroidogenic cells)."
+      },
+      "main_concept": "CON-FND-29AD7E837E1E1E",
+      "concept_ids": [
+        "CON-FND-29AD7E837E1E1E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Mitochondria",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a mitochondrion is bounded by a double (two unit) membrane on electron microscopy.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-CYTOPLASMIC-ORGANELLES"
+      ]
+    }
+  ]
+}

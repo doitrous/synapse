@@ -1,0 +1,150 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "cell",
+  "header": "ASU-HCB · Cell biology — all 46 questions of the ASU HCB Dr. Hegazy cell-biology MCQ bank (\"Cell MCQ set2\", sourceId src_6c35f6fae7691b0bdcc8), native text, keys read from the printed answer key table at the foot of PDF page 8. 43 of the 46 questions reuse existing pending Kasr 101-ISK (or 108-INT) cytology/pathology concepts via a sparse overlay (pending-live/ASU-HCB-cell-mcq-overlay-concepts.md) after a per-concept find-existing.mjs search; the remaining 3 (constitutive/regulated secretion, tubular mitochondrial cristae, phase-contrast microscopy) had no existing match and are minted fresh in concept/ASU-HCB-cell-mcq-concepts.md with a matching new article. See coverage/ASU-HCB-triage.md block A for the source triage.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Cell biology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-FND-ASU-HCB-CELL-BIOLOGY-EXTRAS"
+    ],
+    "resource_ids": [
+      "src_6c35f6fae7691b0bdcc8"
+    ],
+    "source_citation": "Cell MCQ set2 (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cell-q02",
+      "page": 1,
+      "title": "Example of the constitutive secretory pathway",
+      "question": "Which of the following is an example of the constitutive pathway of protein secretion?",
+      "options": {
+        "A": "Insulin",
+        "B": "Lipase",
+        "C": "Amylase",
+        "D": "Procollagen for bone and connective tissue formation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Insulin is packaged into secretory granules and released only when blood glucose rises, which is the regulated pathway, not the constitutive one.",
+        "B": "Incorrect. Pancreatic digestive enzymes such as lipase are stored as zymogen granules and released on a feeding-related signal, again the regulated pathway.",
+        "C": "Incorrect. Amylase, like the other pancreatic acinar enzymes, is stored and released on stimulation rather than secreted continuously and without storage.",
+        "D": "Correct. Procollagen for bone and connective tissue formation is exported continuously by the cell as it is synthesised, with no storage step and no external trigger, which is the definition of the constitutive secretory pathway. Fibroblasts and osteoblasts need a steady, ongoing supply of collagen precursor to build and maintain extracellular matrix, so there is no advantage to storing it in granules for a signalled release. This makes procollagen the textbook example distinguishing constitutive from regulated secretion."
+      },
+      "main_concept": "CON-FND-9008CD5F4F24DF",
+      "concept_ids": [
+        "CON-FND-9008CD5F4F24DF"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell biology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Distinguish the constitutive from the regulated pathway of protein secretion and name a constitutive example.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-FND-ASU-HCB-CELL-BIOLOGY-EXTRAS"
+      ]
+    },
+    {
+      "key": "cell-q42",
+      "page": 7,
+      "title": "EM identifier of the adrenal cortex",
+      "question": "Which of the following structures can identify a TEM of adrenal cortex?",
+      "options": {
+        "A": "Prominent rER",
+        "B": "Mitochondria with tubular cristae +sER",
+        "C": "Excess lysosomes",
+        "D": "Trilaminar cell membrane",
+        "E": "Free ribosomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Prominent rough endoplasmic reticulum marks a cell heavily engaged in protein export, the opposite pattern from a steroid-secreting cell, which is instead rich in smooth endoplasmic reticulum.",
+        "B": "Correct. A steroid-secreting cell such as an adrenal cortical cell needs a very large area of inner mitochondrial membrane to carry the enzymes of steroidogenesis, and it achieves this by folding its cristae as tubules rather than flat shelves; this tubular-cristae mitochondrion, together with abundant smooth endoplasmic reticulum (also needed for steroid synthesis), is the combination that identifies a steroidogenic cell such as the adrenal cortex on transmission electron microscopy. Recognising this specific mitochondrial-cristae-plus-sER pairing as the adrenal cortex's ultrastructural signature is exactly what this question tests. Ordinary energy-hungry cells such as cardiac or skeletal muscle instead show shelf-like (lamellar) cristae, not tubular ones.",
+        "C": "Incorrect. Excess lysosomes are a feature of actively phagocytic or digestive cells, not the identifying feature of adrenal cortical (steroidogenic) cells.",
+        "D": "Incorrect. The trilaminar appearance of the plasma membrane is a generic feature of essentially every cell's membrane on EM, not something specific to the adrenal cortex.",
+        "E": "Incorrect. Free ribosomes mark protein synthesis for the cell's own use; they are not the identifying ultrastructural feature of a steroid-secreting cell."
+      },
+      "main_concept": "CON-FND-194550E6A0ECF5",
+      "concept_ids": [
+        "CON-FND-194550E6A0ECF5",
+        "CON-FND-29AD7E837E1E1E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Mitochondria",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify tubular mitochondrial cristae plus abundant smooth endoplasmic reticulum as the EM marker of the adrenal cortex.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-FND-ASU-HCB-CELL-BIOLOGY-EXTRAS"
+      ]
+    },
+    {
+      "key": "cell-q46",
+      "page": 8,
+      "title": "Microscope for detecting live organelle movement",
+      "question": "The type of microscope used to detect movement of the mitochondria in culture is:",
+      "options": {
+        "A": "Scanning electron microscope",
+        "B": "Transmission microscope",
+        "C": "Phase contrast microscope",
+        "D": "Light microscope",
+        "E": "Electric microscope"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Scanning electron microscopy images fixed, metal-coated surfaces, which kills the cell and cannot show live organelle movement.",
+        "B": "Incorrect. Transmission electron microscopy requires fixed, ultrathin, stained sections, which likewise cannot show movement in a living cell.",
+        "C": "Correct. Phase-contrast microscopy converts small differences in refractive index into visible contrast, which lets the observer view unstained, living cells without fixation and follow the movement of their organelles — such as mitochondrial trafficking in culture — in real time. Because it needs no fixation or staining, it is specifically the technique of choice for time-lapse observation of living, moving cell contents, unlike any electron-microscopy method or routine stained light microscopy, both of which require dead, fixed tissue.",
+        "D": "Incorrect. Routine (bright-field) light microscopy of a stained preparation also requires fixed, dead tissue and gives poor contrast on unstained living cells, unlike phase-contrast microscopy.",
+        "E": "Incorrect. \"Electric microscope\" is not a recognised distinct microscopy technique here; the relevant living-cell technique is phase-contrast microscopy."
+      },
+      "main_concept": "CON-FND-73BECA1F9B88F0",
+      "concept_ids": [
+        "CON-FND-73BECA1F9B88F0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell biology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name phase-contrast microscopy as the technique for observing organelle movement in living, unstained cultured cells.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-FND-ASU-HCB-CELL-BIOLOGY-EXTRAS"
+      ]
+    }
+  ]
+}

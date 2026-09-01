@@ -1,0 +1,73 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "cell",
+  "header": "ASU-HCB · Cell biology — all 46 questions of the ASU HCB Dr. Hegazy cell-biology MCQ bank (\"Cell MCQ set2\", sourceId src_6c35f6fae7691b0bdcc8), native text, keys read from the printed answer key table at the foot of PDF page 8. 43 of the 46 questions reuse existing pending Kasr 101-ISK (or 108-INT) cytology/pathology concepts via a sparse overlay (pending-live/ASU-HCB-cell-mcq-overlay-concepts.md) after a per-concept find-existing.mjs search; the remaining 3 (constitutive/regulated secretion, tubular mitochondrial cristae, phase-contrast microscopy) had no existing match and are minted fresh in concept/ASU-HCB-cell-mcq-concepts.md with a matching new article. See coverage/ASU-HCB-triage.md block A for the source triage.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Cell biology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-HIS-MEMBRANOUS-SPECIALISATIONS"
+    ],
+    "resource_ids": [
+      "src_6c35f6fae7691b0bdcc8"
+    ],
+    "source_citation": "Cell MCQ set2 (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cell-q26",
+      "page": 5,
+      "title": "Cause of immotile cilia syndrome",
+      "question": "Congenital defect in a case of \"Immotile cilia syndrome\" is due to...",
+      "options": {
+        "A": "Lack of dynein arms of the cilia.",
+        "B": "Lack of central sheath of the cilia.",
+        "C": "Lack of nexin of the cilia.",
+        "D": "Lack of radial spokes of the cilia.",
+        "E": "Lack of rootlets of the cilia."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Immotile cilia syndrome is caused by a congenital absence of the dynein arms of the ciliary axoneme — dynein is the motor protein that produces the sliding of microtubule doublets responsible for the ciliary beat, so without it the cilia are structurally present but cannot move. When cilia cannot beat, secretions accumulate on the epithelial surface and bacterial infection follows, giving repeated or chronic respiratory infection; because the spermatozoon's flagellum has exactly the same axonemal (9+2, dynein-dependent) structure, the same defect immobilises the sperm tail and causes male infertility. This dynein-arm mechanism, and its combined respiratory/infertility clinical picture, is the specific fact this question tests.",
+        "B": "Incorrect. The central sheath surrounds the central pair of microtubules structurally; its absence is not the defect named for immotile cilia syndrome, which is specifically a motor-protein (dynein) defect.",
+        "C": "Incorrect. Nexin links adjacent microtubule doublets and limits sliding, but the specific defect in immotile cilia syndrome is the missing dynein arm motor protein, not nexin.",
+        "D": "Incorrect. Radial spokes connect the peripheral doublets to the central sheath; their absence is not the defect this syndrome is classically attributed to.",
+        "E": "Incorrect. Rootlets anchor the cilium's basal body to the cell's apical cytoplasm; their absence is not the defect defining immotile cilia syndrome."
+      },
+      "main_concept": "CON-FND-BBC8959FD63F56",
+      "concept_ids": [
+        "CON-FND-BBC8959FD63F56"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cilia",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that immotile cilia syndrome is caused by absence of the axonemal dynein arms.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.8"
+      },
+      "library_ids": [
+        "ART-101-HIS-MEMBRANOUS-SPECIALISATIONS"
+      ]
+    }
+  ]
+}
