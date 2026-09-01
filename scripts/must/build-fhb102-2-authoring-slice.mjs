@@ -49,6 +49,7 @@ const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
 const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
 const antibioticsIntroResourceId = 'src_ee1fb7a716a473eb2d98'
 const antibioticsAdverseResourceId = 'src_0e91f1d10838d0af56f5'
+const penicillinsDetailResourceId = 'src_197fdef8ba580aa5e7ba'
 const gramPositiveCocciResourceId = 'src_e2832d7aebaad9c7b1fe'
 const cellWallTeachingResourceId = 'src_060e284322ddf8fdf92c'
 
@@ -1957,6 +1958,27 @@ const mucizeAntibacterialOnePrinciplesItems = [
 
 microItems.push(...mucizeAntibacterialOnePrinciplesItems)
 
+const mucizeAntibacterialOneBacampicillinItems = [
+  {
+    q: 16, conceptId: 'CON-INF-7301DCF758761C', canonicalKey: 'pharmacology.penicillins.bacampicillin-prodrug',
+    label: 'Bacampicillin is an ampicillin prodrug that decreases the incidence of diarrhea', aliases: ['Bacampicillin prodrug', 'Ampicillin prodrug esters'], conceptType: 'drug profile',
+    article: 'penicillins', microtopic: 'Aminopenicillin prodrugs', assessmentPage: 31, teachingPage: 31, teachingResourceId: penicillinsDetailResourceId,
+    stem: 'Which penicillin is a prodrug with less diarrhea and good absorption?', key: 'C',
+    options: ['Ampicillin', 'Amoxicillin', 'Bacampicillin', 'Carbenicillin'],
+    claim: 'Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins.',
+    support: "The official Penicillins deck's Route & Pharmacokinetics slide states that ampicillin prodrug such as bacampicillin is used to decrease the incidence of diarrhea, discussed alongside amoxicillin's better absorption and lower GIT upset than ampicillin.",
+    objective: 'Identify bacampicillin as the ampicillin prodrug associated with less diarrhea and good absorption.',
+    pitfalls: 'Ampicillin itself, not its prodrug, is the drug associated with more incomplete absorption and diarrhea on this slide; carbenicillin is an antipseudomonal penicillin, not an absorption-improving prodrug.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'ANTIBACT1', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Antibacterial (1) MCQ', answerPage: 36, teachingTitle: '1.Penicillins',
+  topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+microItems.push(...mucizeAntibacterialOneBacampicillinItems)
+
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
   'docs/MUST-Source-Imports/evidence/corpus-source-index.json': corpusSourceIndex(),
@@ -3415,6 +3437,61 @@ no
 # Item
 
 ## id
+${penicillinsDetailResourceId}
+
+## title
+1.Penicillins
+
+## institution
+Teaching deck; no authenticated MUST institution, department, module, examiner or faculty-key declaration is visible
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-02
+
+## page_count
+38
+
+## sha256
+197fdef8ba580aa5e7ba00933d6e7d674a38f2bfc240b89582ee49270d42a896
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+Page 31 was cache-searched (pagetext cache full-text search for "bacampicillin"/"prodrug") and read for the Mucize Antibacterial (1) Q16 authoring pass. It directly supports Q16 by stating bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, alongside amoxicillin's absorption advantage over ampicillin. Pages 21, 25 and 28 were also read (cache hits for beta-lactamase) and cover penicillin-class beta-lactamase resistance and inhibitor combinations already established by other MUST pharmacology resources; they do not state a cephalosporin generation-by-generation beta-lactamase-resistance trend. The deck is teaching evidence only and does not authenticate the student-printed Mucize answer table.
+
+## confidence
+0.85
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 ${cellWallTeachingResourceId}
 
 ## title
@@ -3914,6 +3991,19 @@ function corpusSourceIndex() {
         yearIds: ['MUST_Y1'],
         moduleIds: [moduleId],
         categories: ['Midterm Exams', 'Teaching'],
+      },
+      [penicillinsDetailResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf'],
+        sha256: '197fdef8ba580aa5e7ba00933d6e7d674a38f2bfc240b89582ee49270d42a896',
+        processingStatus: 'fully_governed',
+        pageCount: 38,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
       },
       [introTeachingResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf',
@@ -13460,4 +13550,32 @@ function microCoverage() {
     .replace('| Question authoring holds | 280 |', '| Question authoring holds | 281 |')
     .replace('Governed prompt observations: 5,444 total; 229 authored; **5,215 raw prompt observations remain**, including 280 explicit holds and two source-absent prompts', 'Governed prompt observations: 5,444 total; 229 authored; **5,215 raw prompt observations remain**, including 281 explicit holds and two source-absent prompts')
     .replace('Governed answer observations: 5,211 total; 229 clean source-keyed prompts authored; **4,982 raw answer observations remain**, including the 280 held printed-key observations', 'Governed answer observations: 5,211 total; 229 clean source-keyed prompts authored; **4,982 raw answer observations remain**, including the 281 held printed-key observations')
+    // Mucize Pharmacology — Antibacterial (1), Q1-Q50 (physical pages 29-36).
+    // Full per-question triage: docs/MUST-Source-Imports/coverage/FHB102-2-antibacterial-1-triage.md.
+    .replace(
+      'The Absalam Part 2 source is complete. The exact next boundary is Mucize Pharmacology — Antibacterial (1) Q1 on physical page 29, pending a fresh audit.',
+      'The Absalam Part 2 source is complete.\n\n### Mucize Antibacterial (1) delta\n\n'
+      + '- Full per-question triage of Q1-Q50 against the p.36 answer table: 19 authored, 31 held, 0 source-absent.\n'
+      + '- +2 evidence resources: Antibiotics Advrse effects.pdf and 1.Penicillins.pdf (both cache-searched and spot-read, not fully re-rendered).\n'
+      + '- +19 claims, +19 citations, +19 article spans, +14 under-review concepts, +1 new article (antimicrobialPrinciples, for general spectrum/cidal-static/prophylactic/mechanism/adverse-effect facts none of the existing pharmacology articles fit), +19 Draft questions.\n'
+      + '- Reused the existing penicillins and cephalosporins articles for the drug-class-specific facts (Q19, Q21-Q25, Q28, Q46, Q47) and the existing antibioticsIntroResourceId teaching resource for the general-principle facts (Q1-Q4, Q6, Q10).\n'
+      + '- Q27 (beta-lactamase resistance rising 1st-4th cephalosporin generation) is held, not authored: the pagetext cache for the B-Lactam & Vancomycin, 1.Penicillins and FHB Pharmacology Midterm Notes 2025 decks was full-text searched for a generation-by-generation beta-lactamase-resistance statement; every hit states either a class-wide penicillin-vs-cephalosporin comparison or an inhibitor-drug list, never the generation gradient the printed key implies, so no page in any assigned source states the fact.\n'
+      + '- Mucize Antibacterial (1): **19 authored / 31 held / 0 source-absent**. The exact next boundary is the next unstarted Mucize source cluster (see CLAUDE-HANDOVER.md).\n',
+    )
+    .replace('| Evidence resources | 29 |', '| Evidence resources | 31 |')
+    .replace('| Claims | 229 |', '| Claims | 248 |')
+    .replace('| Citations | 234 |', '| Citations | 253 |')
+    .replace('| Article spans | 229 |', '| Article spans | 248 |')
+    .replace('| Concepts | 163 |', '| Concepts | 177 |')
+    .replace('| Articles | 44 |', '| Articles | 45 |')
+    .replace('| Questions | 229 |', '| Questions | 248 |')
+    .replace('| Question authoring holds | 281 |', '| Question authoring holds | 312 |')
+    .replace(
+      'Governed prompt observations: 5,444 total; 229 authored; **5,215 raw prompt observations remain**, including 281 explicit holds and two source-absent prompts',
+      'Governed prompt observations: 5,444 total; 248 authored; **5,196 raw prompt observations remain**, including 312 explicit holds and two source-absent prompts',
+    )
+    .replace(
+      'Governed answer observations: 5,211 total; 229 clean source-keyed prompts authored; **4,982 raw answer observations remain**, including the 281 held printed-key observations',
+      'Governed answer observations: 5,211 total; 248 clean source-keyed prompts authored; **4,963 raw answer observations remain**, including the 312 held printed-key observations',
+    )
 }

@@ -15146,3 +15146,183 @@ rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survive
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-7301DCF758761C
+
+## label
+Bacampicillin is an ampicillin prodrug that decreases the incidence of diarrhea
+
+## canonical_key
+pharmacology.penicillins.bacampicillin-prodrug
+
+## aliases
+Bacampicillin prodrug
+Ampicillin prodrug esters
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins.
+
+## explicit_objective
+Identify bacampicillin as the ampicillin prodrug associated with less diarrhea and good absorption.
+
+## pitfalls
+Ampicillin itself, not its prodrug, is the drug associated with more incomplete absorption and diarrhea on this slide; carbenicillin is an antipseudomonal penicillin, not an absorption-improving prodrug.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Aminopenicillin prodrugs
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aminopenicillin prodrugs
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_197fdef8ba580aa5e7ba
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p31 Mucize Antibacterial (1) MCQ Q16; printed answer p36
+src_197fdef8ba580aa5e7ba | tier 1 local teaching | p31 direct MUST teaching
+
+## original_wording
+Which penicillin is a prodrug with less diarrhea and good absorption? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q16; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

@@ -4925,3 +4925,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
 source question: Absalam Mucize Antibacterial (1) MCQ Q9
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+
+## concept_id
+CON-INF-7301DCF758761C
+
+## subject
+Bacampicillin is an ampicillin prodrug that decreases the incidence of diarrhea
+
+## predicate
+states
+
+## object
+Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins.
+
+## display_text
+Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q16

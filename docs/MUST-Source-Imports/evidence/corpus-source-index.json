@@ -705,6 +705,30 @@
     "Teaching"
    ]
   },
+  "src_197fdef8ba580aa5e7ba": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf"
+   ],
+   "sha256": "197fdef8ba580aa5e7ba00933d6e7d674a38f2bfc240b89582ee49270d42a896",
+   "processingStatus": "fully_governed",
+   "pageCount": 38,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
   "src_f65b3872022ca0b42a79": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf",
    "sourceRelativePaths": [

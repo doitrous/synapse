@@ -114,3 +114,20 @@ prior MUST commit — including all 224 current Draft questions — went through
 seed-JSON → `emit-mcq.mjs` route. This triage was produced against that reality (existing question ids
 above were pulled straight from the generator's own output files). Actually writing the 20 AUTHOR
 candidates needs a decision on which pipeline to extend — see the session report for detail.
+
+**Resolved by the chief of staff**: extend the slice generator (per §4 as written), 5–10 questions per
+commit, `gate.mjs batch`/`simulate` per commit, full local suite once at cluster end.
+
+## Final disposition (cluster closed)
+
+19 of the 20 AUTHOR candidates were authored across three commits (Q19/21/22/23/24/25/28/46/47,
+Q1/2/3/4/6/7/8/9/10, Q16). **Q27 is downgraded to an explicit hold** — "no teaching page in assigned
+sources": the pagetext cache for `2. B-Lactam & Vancomycin.pdf`, `1.Penicillins.pdf` and
+`FHB Pharmacology Midterm Notes 2025.pdf` was full-text searched for
+`/generation.*(resist|stab)|β-lactamase|beta-lactamase/i`; every hit page states either a class-wide
+penicillin-vs-cephalosporin beta-lactamase-resistance comparison or a beta-lactamase-inhibitor-drug
+list, never a cephalosporin generation-by-generation resistance gradient. No page in any assigned
+source states the fact, so it is held rather than authored on a weak citation.
+
+Final cluster totals: **19 authored / 31 held / 0 source-absent** across Q1–Q50 of Mucize
+Antibacterial (1).

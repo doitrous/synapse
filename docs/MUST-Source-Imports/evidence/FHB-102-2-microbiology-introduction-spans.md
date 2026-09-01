@@ -2461,3 +2461,25 @@ CLM-INF-MUST-FHB1022-ANTIBACT1-Q9-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-ANTIBACT1-Q9-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q16-01

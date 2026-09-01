@@ -1379,6 +1379,61 @@ no
 # Item
 
 ## id
+src_197fdef8ba580aa5e7ba
+
+## title
+1.Penicillins
+
+## institution
+Teaching deck; no authenticated MUST institution, department, module, examiner or faculty-key declaration is visible
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/1.Penicillins.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-02
+
+## page_count
+38
+
+## sha256
+197fdef8ba580aa5e7ba00933d6e7d674a38f2bfc240b89582ee49270d42a896
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+Page 31 was cache-searched (pagetext cache full-text search for "bacampicillin"/"prodrug") and read for the Mucize Antibacterial (1) Q16 authoring pass. It directly supports Q16 by stating bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, alongside amoxicillin's absorption advantage over ampicillin. Pages 21, 25 and 28 were also read (cache hits for beta-lactamase) and cover penicillin-class beta-lactamase resistance and inhibitor combinations already established by other MUST pharmacology resources; they do not state a cephalosporin generation-by-generation beta-lactamase-resistance trend. The deck is teaching evidence only and does not authenticate the student-printed Mucize answer table.
+
+## confidence
+0.85
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 src_060e284322ddf8fdf92c
 
 ## title

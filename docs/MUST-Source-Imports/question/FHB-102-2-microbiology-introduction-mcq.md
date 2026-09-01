@@ -17021,3 +17021,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize Antibacterial (1) MCQ Q9 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q16
+
+## title
+Which penicillin is a prodrug with less diarrhea and good absorption?
+
+## question
+Which penicillin is a prodrug with less diarrhea and good absorption?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_197fdef8ba580aa5e7ba without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Ampicillin
+
+## explanation_a
+Incorrect. Ampicillin itself, not its prodrug, is the drug associated with more incomplete absorption and diarrhea on this slide; carbenicillin is an antipseudomonal penicillin, not an absorption-improving prodrug. The supported answer is C, Bacampicillin.
+
+## answer_b
+Amoxicillin
+
+## explanation_b
+Incorrect. Ampicillin itself, not its prodrug, is the drug associated with more incomplete absorption and diarrhea on this slide; carbenicillin is an antipseudomonal penicillin, not an absorption-improving prodrug. The supported answer is C, Bacampicillin.
+
+## answer_c
+Bacampicillin
+
+## explanation_c
+Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins. The official MUST teaching directly supports Bacampicillin for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Carbenicillin
+
+## explanation_d
+Incorrect. Ampicillin itself, not its prodrug, is the drug associated with more incomplete absorption and diarrhea on this slide; carbenicillin is an antipseudomonal penicillin, not an absorption-improving prodrug. The supported answer is C, Bacampicillin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-7301DCF758761C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aminopenicillin prodrugs
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_197fdef8ba580aa5e7ba
+
+## learning_objective
+Identify bacampicillin as the ampicillin prodrug associated with less diarrhea and good absorption.
+
+## source_citation
+Absalam101 Part 2, p31, Mucize Antibacterial (1) MCQ Q16, printed key p36 (16 = C); official MUST 1.Penicillins, p31.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q16 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

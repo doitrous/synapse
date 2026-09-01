@@ -4477,3 +4477,43 @@ The official MUST teaching deck directly supports the unchanged printed Mucize A
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+
+## resource_id
+src_197fdef8ba580aa5e7ba
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Penicillins deck's Route & Pharmacokinetics slide states that ampicillin prodrug such as bacampicillin is used to decrease the incidence of diarrhea, discussed alongside amoxicillin's better absorption and lower GIT upset than ampicillin.
+
+## locator_type
+page
+
+## locator_page
+31
+
+## locator_section
+1.Penicillins — Aminopenicillin prodrugs
+
+## locator_detail
+PDF page 31, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q16 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

@@ -1486,6 +1486,7 @@ Piperacillin is labelled the most potent antipseudomonal penicillin.
 The official B-Lactam & Vancomycin deck Therapeutic Uses slide lists acute throat infections (tonsillitis) under streptococcal infections and meningococcal meningitis treated with penicillin G or ampicillin IV; the separate Prophylaxis slide lists benzathine penicillin for recurrence of rheumatic fever.
 The official Adverse Effects slide lists hypersensitivity up to anaphylaxis as the most important adverse effect; the separate Therapeutic Uses slide lists meningococcal meningitis (penicillin G or ampicillin), syphilis and gonorrhea, and typhoid and paratyphoid fever (amoxicillin and ampicillin) as indications.
 The official Adverse Effects slide lists hypersensitivity (rashes up to anaphylaxis) and diarrhea from disruption of normal flora, particularly with broad-spectrum incompletely absorbed drugs such as ampicillin, as penicillin adverse effects; the separate Therapeutic Uses slide lists typhoid and paratyphoid fever, treated with amoxicillin and ampicillin, as an indication rather than an adverse effect.
+The official Penicillins deck's Route & Pharmacokinetics slide states that ampicillin prodrug such as bacampicillin is used to decrease the incidence of diarrhea, discussed alongside amoxicillin's better absorption and lower GIT upset than ampicillin.
 
 ## published_summary
 
@@ -1508,6 +1509,7 @@ Piperacillin is the most potent antipseudomonal penicillin in the governed penic
 Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication.
 Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching.
 Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect.
+Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins.
 
 ## lose_the_mark
 Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum.
@@ -1524,6 +1526,7 @@ Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal 
 None of the three listed uses is excluded from the governed therapeutic-uses and prophylaxis slides, so no single option alone is the complete governed answer.
 Meningitis, gonorrhea and typhoid are not distractors here: the governed Therapeutic Uses slide lists all three; only anaphylactic shock belongs to the separate Adverse Effects slide.
 Typhoid is not merely absent from the adverse-effects list: the governed Therapeutic Uses slide explicitly lists it as a treated indication, reinforcing that it belongs with the uses rather than the side effects of penicillin.
+Ampicillin itself, not its prodrug, is the drug associated with more incomplete absorption and diarrhea on this slide; carbenicillin is an antipseudomonal penicillin, not an absorption-improving prodrug.
 
 ## callout_evidence
 ### Penicillin G belongs to the natural penicillin group.
@@ -1596,6 +1599,11 @@ Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
 Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q47-01
 Reviewed by: pending medical review
 
+### Bacampicillin is an ampicillin prodrug used to decrease the incidence of diarrhea, with the improved oral absorption that follows amoxicillin-type aminopenicillins.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-6A330B9A78514F
 CON-INF-D5C29272FC4BC9
@@ -1608,6 +1616,7 @@ CON-INF-039F2A99E15968
 CON-INF-04E24B1EACC294
 CON-INF-5170E13153A92B
 CON-INF-AB5DEDED904BE8
+CON-INF-7301DCF758761C
 
 ## related_articles
 ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS: Cell-wall antibiotics: beta-lactams, vancomycin and bacitracin
@@ -1627,14 +1636,17 @@ QST-MUST-FHB1022-PHARM-Q147
 QST-MUST-FHB1022-ANTIBACT1-Q19
 QST-MUST-FHB1022-ANTIBACT1-Q46
 QST-MUST-FHB1022-ANTIBACT1-Q47
+QST-MUST-FHB1022-ANTIBACT1-Q16
 
 ## resource_ids
 src_875c205531a585cd5b91
+src_197fdef8ba580aa5e7ba
 src_4bd3b78f762673d7eb7f
 src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_875c205531a585cd5b91
+src_197fdef8ba580aa5e7ba
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-PHARM-Q130-01
@@ -1651,6 +1663,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q147-01
 CLM-INF-MUST-FHB1022-ANTIBACT1-Q19-01
 CLM-INF-MUST-FHB1022-ANTIBACT1-Q46-01
 CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q16-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-PHARM-Q130-01
@@ -1667,9 +1680,10 @@ SPN-INF-MUST-FHB1022-PHARM-Q147-01
 SPN-INF-MUST-FHB1022-ANTIBACT1-Q19-01
 SPN-INF-MUST-FHB1022-ANTIBACT1-Q46-01
 SPN-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q16-01
 
 ## university_notes
-must: Global Q130, Q131, Q132, Q133, Q134, Q135, Q136, Q139, Q142, Q146, Q147, Q19, Q46, Q47 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q130, Q131, Q132, Q133, Q134, Q135, Q136, Q139, Q142, Q146, Q147, Q19, Q46, Q47, Q16 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ### definition_of · CON-INF-6A330B9A78514F
@@ -1742,6 +1756,11 @@ Quote: The official Adverse Effects slide lists hypersensitivity (rashes up to a
 Block: body
 Id: ann-must-fhb1022-micro-q47
 
+### definition_of · CON-INF-7301DCF758761C
+Quote: The official Penicillins deck's Route & Pharmacokinetics slide states that ampicillin prodrug such as bacampicillin is used to decrease the incidence of diarrhea, discussed alongside amoxicillin's better absorption and lower GIT upset than ampicillin.
+Block: body
+Id: ann-must-fhb1022-micro-q16
+
 ## media
 
 
@@ -1751,6 +1770,7 @@ needs_evidence
 ## evidence_basis
 Official MUST FHB102-2 2. B-Lactam & Vancomycin deck, visually read on exact cited pages.
 Official MUST FHB102-2 B-Lactam & Vancomycin deck, visually read on exact cited pages.
+Official MUST FHB102-2 1.Penicillins deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps
