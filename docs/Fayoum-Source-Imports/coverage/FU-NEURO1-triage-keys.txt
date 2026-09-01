@@ -1,0 +1,29 @@
+# FU-NEURO1 — 27 distinct concepts from the S3 sample triage (see FU-NEURO1-triage.md)
+# format: <disposition>	<canonical-key-style slug>	<source question(s)>
+live	chorda-tympani-course-to-submandibular-sublingual-glands	AnatMCQ Q267
+pending	muscarinic-receptor-locations-and-effects	PhysioANS Q1,6,9,21,23,25,33
+pending	adrenal-medulla-as-modified-sympathetic-ganglion	PhysioANS Q13
+pending	acetylcholine-termination-by-cholinesterase	PhysioANS Q23
+pending	paravertebral-sympathetic-chain	PhysioANS Q10
+pending	collateral-prevertebral-ganglia	PhysioANS Q11
+pending	preganglionic-sympathetic-fibers-to-head-and-neck	(overlap, not directly sampled from this file's own Qs)
+pending	thoracolumbar-sympathetic-outflow	PhysioANS Q7,10
+pending	cholinergic-fibre-naming-rule-two-sympathetic-exceptions	PhysioANS Q8,19
+pending	craniosacral-parasympathetic-outflow	PhysioANS Q8
+pending	splanchnic-nerve-sympathetic-relay-to-viscera	(related to PhysioANS Q11, not a direct hit)
+pending	otic-ganglion-to-parotid-gland-pathway	AnatMCQ Q266
+new	nicotinic-receptor-at-autonomic-ganglia	PhysioANS Q5,9,21,31
+new	atropine-selective-blockade	PhysioANS Q25
+new	beta-1-adrenergic-receptor-cardiac-effect	PhysioANS Q16,34
+new	sympathetic-vasoconstrictor-fibres	PhysioANS Q27
+new	beta-receptor-mediating-bronchodilation	PhysioANS Q16
+new	sympathetic-pupillary-effect	PhysioANS Q2,20,24
+new	sympathetic-effect-on-gi-sphincters	PhysioANS Q24,27
+new	sympathetic-cholinergic-exception-sweat-glands	PhysioANS Q2,19,24
+new	vagus-nerve-as-parasympathetic-outflow	PhysioANS Q2,7
+new	auriculotemporal-nerve-course	AnatMCQ Q432
+new	facial-nerve-branches-at-stylomastoid-foramen	AnatMCQ Q436
+new	thyrocervical-trunk-branches-and-subclavian-supply	AnatMCQ Q433,434
+new	infratemporal-fossa-contents-as-a-region	AnatMCQ Q270
+new	bony-orbit-floor-and-lacrimal-bone	AnatMCQ Q435
+new	central-retinal-vessels-and-optic-nerve-subarachnoid-space	AnatMCQ Q269
