@@ -38,7 +38,9 @@ class QBankStatsTest {
             record(id = "a2", itemId = "q2", surface = "room", correct = false),
         )
 
-        val stats = QBankStats.of(records, total = 10)
+        // Pin the clock: the records sit on 2026-08-19, and the week window
+        // must be measured from the same day, not from whenever this runs.
+        val stats = QBankStats.of(records, total = 10, today = LocalDate.of(2026, 8, 19))
 
         assertEquals("both surfaces count towards coverage", 2, stats.seen)
         assertEquals("and both towards accuracy", 0.5, stats.accuracy!!, 0.0001)
