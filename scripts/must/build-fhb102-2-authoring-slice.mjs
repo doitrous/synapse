@@ -48,6 +48,7 @@ const mucizeAssessmentResourceId = 'src_352f47c6e866e76a9d8b'
 const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
 const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
 const antibioticsIntroResourceId = 'src_ee1fb7a716a473eb2d98'
+const antibioticsAdverseResourceId = 'src_0e91f1d10838d0af56f5'
 const gramPositiveCocciResourceId = 'src_e2832d7aebaad9c7b1fe'
 const cellWallTeachingResourceId = 'src_060e284322ddf8fdf92c'
 
@@ -1151,6 +1152,7 @@ const microArticles = {
   cephalosporins: 'ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS',
   otherBetaLactams: 'ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM',
   vancomycinClinical: 'ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE',
+  antimicrobialPrinciples: 'ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES',
 }
 
 const microArticleRelations = {
@@ -1171,6 +1173,7 @@ const microArticleRelations = {
   cephalosporins: ['otherBetaLactams', 'vancomycinClinical'],
   otherBetaLactams: ['cephalosporins', 'vancomycinClinical'],
   vancomycinClinical: ['cephalosporins', 'otherBetaLactams'],
+  antimicrobialPrinciples: ['cellWallAntibiotics', 'penicillins'],
 }
 
 const microItems = [
@@ -1836,6 +1839,123 @@ const mucizeAntibacterialOneItems = [
 }))
 
 microItems.push(...mucizeAntibacterialOneItems)
+
+const mucizeAntibacterialOnePrinciplesItems = [
+  {
+    q: 1, conceptId: 'CON-INF-262BE51D90B753', canonicalKey: 'pharmacology.antimicrobials.spectrum-classification',
+    label: 'Narrow-spectrum agents cover a limited species range; broad-spectrum agents cover a wide range', aliases: ['Antimicrobial spectrum classification', 'Narrow versus broad spectrum'], conceptType: 'classification',
+    article: 'antimicrobialPrinciples', microtopic: 'Spectrum of activity', assessmentPage: 29, teachingPage: 7, teachingResourceId: antibioticsIntroResourceId,
+    stem: 'What is the primary action of narrow-spectrum antibiotics?', key: 'B',
+    options: ['Act on both G+ve and G-ve bacteria', 'Act on either G+ve or G-ve bacteria', 'Act on fungi', 'Act on viruses'],
+    claim: 'Narrow-spectrum antibiotics are effective against a limited number of species, in practice acting on either the Gram-positive or the Gram-negative group rather than both.',
+    support: "The official Antibiotics Introduction deck's Principles/Definitions slide states narrow spectrum is effective against a limited number of species, contrasted with broad spectrum's wide variety of species, alongside a separate Gram-negative-agent/Gram-positive-agent/anti-anaerobic-activity classification axis.",
+    objective: 'Identify narrow-spectrum activity as coverage restricted to a limited group, in this bank operationalised as either the Gram-positive or Gram-negative group.',
+    pitfalls: 'Covering both Gram-positive and Gram-negative groups, or acting on fungi or viruses, is not the governed narrow-spectrum definition.',
+    rejected: [],
+  },
+  {
+    q: 2, conceptId: 'CON-INF-262BE51D90B753', canonicalKey: 'pharmacology.antimicrobials.spectrum-classification',
+    label: 'Narrow-spectrum agents cover a limited species range; broad-spectrum agents cover a wide range', aliases: ['Antimicrobial spectrum classification', 'Narrow versus broad spectrum'], conceptType: 'classification',
+    article: 'antimicrobialPrinciples', microtopic: 'Spectrum of activity', assessmentPage: 29, teachingPage: 7, teachingResourceId: antibioticsIntroResourceId,
+    stem: 'Broad-spectrum antibiotics are effective against:', key: 'C',
+    options: ['Only G+ve bacteria', 'Only G-ve bacteria', 'Both G+ve and G-ve bacteria', 'Only viruses'],
+    claim: 'Broad-spectrum antibiotics are effective against a wide variety of species, in practice covering both the Gram-positive and Gram-negative groups.',
+    support: 'The official Principles/Definitions slide states broad spectrum is effective against a wide variety of species, the complement of the narrow-spectrum definition on the same slide.',
+    objective: 'Identify broad-spectrum activity as coverage extending across both Gram-positive and Gram-negative groups.',
+    pitfalls: 'Restricting activity to only Gram-positive or only Gram-negative organisms, or to viruses alone, is the narrow-spectrum pattern, not broad-spectrum.',
+    rejected: [],
+  },
+  {
+    q: 3, conceptId: 'CON-INF-38531DB0D13F6E', canonicalKey: 'pharmacology.antimicrobials.bactericidal-bacteriostatic-classification',
+    label: 'Bactericidal drugs kill bacteria; bacteriostatic drugs inhibit growth and need an intact host immune system', aliases: ['Bactericidal versus bacteriostatic', 'Antimicrobial kill kinetics'], conceptType: 'classification',
+    article: 'antimicrobialPrinciples', microtopic: 'Bactericidal and bacteriostatic action', assessmentPage: 29, teachingPage: 6, teachingResourceId: antibioticsIntroResourceId,
+    stem: 'Bactericidal antibiotics:', key: 'B',
+    options: ['Stop bacterial growth', 'Kill and destroy bacteria', 'Inhibit bacterial reproduction', 'Prevent bacterial adhesion'],
+    claim: 'Bactericidal antibiotics kill bacteria and reduce bacterial load, distinct from bacteriostatic agents that only inhibit growth.',
+    support: 'The official deck states bactericidal drugs kill bacteria and reduce bacterial load, while bacteriostatic drugs inhibit growth and reproduction of bacteria.',
+    objective: 'Define bactericidal action as killing bacteria and reducing bacterial load.',
+    pitfalls: 'Stopping growth without killing, inhibiting reproduction alone, or preventing adhesion describe bacteriostatic or unrelated patterns, not the bactericidal definition.',
+    rejected: [],
+  },
+  {
+    q: 4, conceptId: 'CON-INF-38531DB0D13F6E', canonicalKey: 'pharmacology.antimicrobials.bactericidal-bacteriostatic-classification',
+    label: 'Bactericidal drugs kill bacteria; bacteriostatic drugs inhibit growth and need an intact host immune system', aliases: ['Bactericidal versus bacteriostatic', 'Antimicrobial kill kinetics'], conceptType: 'classification',
+    article: 'antimicrobialPrinciples', microtopic: 'Bactericidal and bacteriostatic action', assessmentPage: 29, teachingPage: 6, teachingResourceId: antibioticsIntroResourceId,
+    stem: 'Bacteriostatic antibiotics are contraindicated in:', key: 'B',
+    options: ['Mild infections', 'Severe infections', 'Healthy individuals', 'Non-immunocompromised patients'],
+    claim: 'Bacteriostatic antibiotics require an intact host immune system to clear the growth-inhibited bacteria, so they are less appropriate when the host cannot be relied on to finish clearing the infection, while bactericidal drugs are the governed choice when immunity is poor.',
+    support: 'The official deck states bacteriostatic drugs require an intact immune system while bactericidal drugs are appropriate in poor immunity, since all antibiotics ultimately require the immune system to work properly.',
+    objective: 'Recognise that bacteriostatic antibiotics depend on host immune competence, making them less suitable when that reserve cannot be relied upon.',
+    pitfalls: "The governed slide frames this as an immune-competence dependency rather than infection severity in the abstract; mild infections, healthy individuals and non-immunocompromised patients are the options the deck's logic excludes, not the printed key.",
+    rejected: [],
+  },
+  {
+    q: 6, conceptId: 'CON-INF-240CAE3484E391', canonicalKey: 'pharmacology.antimicrobials.prophylactic-therapeutic-classification',
+    label: 'Prophylaxis prevents infection; treatment cures existing or suspected infection', aliases: ['Prophylactic versus therapeutic antimicrobial use', 'Antimicrobial use intent'], conceptType: 'classification',
+    article: 'antimicrobialPrinciples', microtopic: 'Prophylaxis versus treatment', assessmentPage: 29, teachingPage: 7, teachingResourceId: antibioticsIntroResourceId,
+    stem: 'Antimicrobials used to prevent infection are referred to as:', key: 'B',
+    options: ['Therapeutic', 'Prophylactic', 'Curative', 'Diagnostic'],
+    claim: 'Antimicrobial use to prevent infection is termed prophylaxis, distinct from treatment, which cures an existing or suspected infection.',
+    support: 'The official Principles/Definitions slide states prophylaxis is use to prevent infection and treatment is use to cure existing or suspected infection.',
+    objective: 'Identify prophylactic use as antimicrobial administration intended to prevent infection.',
+    pitfalls: 'Curative and therapeutic wording describes treatment of existing infection, not prevention; diagnostic is not a governed antimicrobial-use category on this slide.',
+    rejected: [],
+  },
+  {
+    q: 10, conceptId: 'CON-INF-EF635FB877198C', canonicalKey: 'pharmacology.antimicrobials.five-general-targets',
+    label: 'Antibacterial agents act through five governed targets: cell wall, membrane, protein synthesis, nucleic acid synthesis and biosynthetic pathways', aliases: ['Five targets of antibacterial agents', 'General antimicrobial mechanism list'], conceptType: 'mechanism',
+    article: 'antimicrobialPrinciples', microtopic: 'General mechanisms of antimicrobial action', assessmentPage: 30, teachingPage: 27, teachingResourceId: antibioticsIntroResourceId,
+    stem: 'Which of the following is NOT a mechanism of antimicrobial action?', key: 'D',
+    options: ['Inhibition of cell wall synthesis', 'Inhibition of DNA replication', 'Inhibition of protein synthesis', 'Inhibition of vitamin absorption'],
+    claim: 'The governed deck lists five targets of antibacterial agents: cell-wall production, bacterial membranes, protein synthesis, nucleic acid synthesis and biosynthetic (folate) pathways; inhibition of vitamin absorption is not among them.',
+    support: 'The official Targets-of-antibacterial-agents slide numbers exactly five targets: inhibit cell wall production, disrupt bacterial membranes, inhibit protein synthesis, inhibit nucleic acid synthesis, and block biosynthetic pathways (folate metabolism).',
+    objective: 'Identify inhibition of vitamin absorption as outside the governed five-target list of antimicrobial mechanisms.',
+    pitfalls: 'Cell-wall synthesis, nucleic acid synthesis (DNA replication) and protein synthesis are each named targets on the governed slide; vitamin absorption is not.',
+    rejected: [],
+  },
+  {
+    q: 7, conceptId: 'CON-INF-27507C163E8413', canonicalKey: 'pharmacology.antimicrobials.general-adverse-effect-git-upset',
+    label: 'G.I.T. upset (nausea, vomiting, diarrhea) is a numbered general antimicrobial adverse effect', aliases: ['Antimicrobial G.I.T. upset', 'General antimicrobial adverse effects'], conceptType: 'adverse effect',
+    article: 'antimicrobialPrinciples', microtopic: 'General antimicrobial adverse effects', assessmentPage: 29, teachingPage: 3, teachingResourceId: antibioticsAdverseResourceId,
+    stem: 'Which of the following is a general adverse effect of antimicrobials?', key: 'B',
+    options: ['Increased appetite', 'G.I.T upset', 'Improved immunity', 'Enhanced vitamin absorption'],
+    claim: 'G.I.T. upset, covering nausea, vomiting and diarrhea, is listed first among the general adverse effects of antimicrobials in the governed teaching.',
+    support: 'The official Adverse Effects deck\'s first numbered category is GIT upset, with nausea and vomiting exemplified by erythromycin and diarrhea exemplified by ampicillin and chloramphenicol.',
+    objective: 'Identify G.I.T. upset as a governed general adverse effect of antimicrobials.',
+    pitfalls: 'Improved immunity and enhanced vitamin absorption are not general antimicrobial adverse effects in the governed numbered list; the deck instead numbers GIT upset first.',
+    rejected: [],
+  },
+  {
+    q: 8, conceptId: 'CON-INF-27452005C75CBA', canonicalKey: 'pharmacology.antimicrobials.candida-superinfection-broad-spectrum',
+    label: 'Broad-spectrum antibiotics that kill normal flora let Candida cause superinfection', aliases: ['Candida superinfection', 'Antibiotic-associated Candida overgrowth'], conceptType: 'adverse effect',
+    article: 'antimicrobialPrinciples', microtopic: 'Effect on bacterial flora', assessmentPage: 30, teachingPage: 6, teachingResourceId: antibioticsAdverseResourceId,
+    stem: 'Superinfection by Candida is commonly caused by:', key: 'B',
+    options: ['Narrow-spectrum antibiotics', 'Broad-spectrum antibiotics', 'Antiviral drugs', 'Antifungal drugs'],
+    claim: 'Incompletely absorbed and broad-spectrum antibiotics kill normal flora and give Candida the opportunity to flourish, causing superinfection.',
+    support: 'The official Adverse Effects deck\'s Effect-on-Bacterial-Flora slide states that incompletely absorbed antibiotics such as ampicillin, tetracyclines and chloramphenicol kill normal flora and give Candida the chance to flourish, listed under superinfection by Candida.',
+    objective: 'Identify broad-spectrum antibiotic disruption of normal flora as the governed cause of Candida superinfection.',
+    pitfalls: 'Narrow-spectrum antibiotics, antiviral drugs and antifungal drugs are not the governed cause of flora-disruption Candida superinfection; broad-spectrum antibacterial killing of normal flora is.',
+    rejected: [],
+  },
+  {
+    q: 9, conceptId: 'CON-INF-5B9C4DD48BC8E3', canonicalKey: 'pharmacology.antimicrobials.pseudomembranous-colitis-c-difficile',
+    label: 'Pseudomembranous colitis is Clostridium difficile-associated diarrhea caused by antibiotic disruption of flora', aliases: ['Pseudomembranous colitis organism', 'Clostridium difficile-associated diarrhea'], conceptType: 'adverse effect',
+    article: 'antimicrobialPrinciples', microtopic: 'Antibiotic-associated colitis', assessmentPage: 30, teachingPage: 7, teachingResourceId: antibioticsAdverseResourceId,
+    stem: 'Pseudomembranous colitis is associated with:', key: 'A',
+    options: ['Clostridium difficile', 'Candida albicans', 'Escherichia coli', 'Staphylococcus aureus'],
+    claim: 'Pseudomembranous colitis is Clostridium difficile-associated diarrhea (CDAD), caused by antibiotics such as clindamycin, ampicillin, chloramphenicol and tetracyclines, and treated with metronidazole, vancomycin or cholestyramine.',
+    support: 'The official Adverse Effects deck explicitly equates Clostridium Difficile Associated Diarrhoea with pseudomembranous colitis and antibiotic-associated colitis, naming clindamycin, ampicillin, chloramphenicol and tetracyclines as causative antibiotics.',
+    objective: 'Identify Clostridium difficile as the organism associated with pseudomembranous colitis.',
+    pitfalls: 'The governed deck names the causative antibiotics and treatment drugs separately from the causative organism; Clostridium difficile is the organism the printed key associates with pseudomembranous colitis.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'ANTIBACT1', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Antibacterial (1) MCQ', answerPage: 36, teachingTitle: 'Antibiotics Introduction and Adverse Effects',
+  topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+microItems.push(...mucizeAntibacterialOnePrinciplesItems)
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -3240,6 +3360,61 @@ no
 # Item
 
 ## id
+${antibioticsAdverseResourceId}
+
+## title
+Antibiotics Adverse Effects
+
+## institution
+Teaching deck visibly naming Prof. Ahmed Bastawy; no authenticated MUST institution, department, module, examiner or faculty-key declaration is visible
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-02
+
+## page_count
+14
+
+## sha256
+0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1-13 were rendered and visually read for the Mucize Antibacterial (1) Q7-Q10 authoring pass. Page 3 directly supports Q7 by numbering G.I.T. upset first among general antimicrobial adverse effects. Page 6 directly supports Q8 by naming broad-spectrum, incompletely absorbed antibiotics as the cause of Candida superinfection through disruption of normal flora. Page 7 directly supports Q9 by equating Clostridium Difficile Associated Diarrhoea with pseudomembranous colitis and antibiotic-associated colitis. The deck is teaching evidence only and does not authenticate the student-printed Mucize answer table.
+
+## confidence
+0.85
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 ${cellWallTeachingResourceId}
 
 ## title
@@ -3720,6 +3895,19 @@ function corpusSourceIndex() {
         sha256: 'ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3',
         processingStatus: 'fully_governed',
         pageCount: 46,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['Midterm Exams', 'Teaching'],
+      },
+      [antibioticsAdverseResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf'],
+        sha256: '0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648',
+        processingStatus: 'fully_governed',
+        pageCount: 14,
         languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
@@ -11449,6 +11637,28 @@ Route, spectrum and infusion rate determine whether vancomycin is being used app
 
 ### Common misconceptions
 Do not extend vancomycin to primary Gram-negative, fungal or viral activity. Hepatotoxicity and last-resort wording were not established by this deck, so those prompts remain held.`,
+  },
+  antimicrobialPrinciples: {
+    title: 'Antimicrobial chemotherapy principles: spectrum, kill kinetics and general adverse effects', microtopic: 'Antimicrobial classification principles',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'The governed introductory deck defines narrow- versus broad-spectrum activity, bactericidal versus bacteriostatic killing and its dependence on host immunity, prophylactic versus therapeutic use, the five general antibacterial targets, and the numbered general adverse-effect list including GIT upset, Candida superinfection and pseudomembranous colitis.',
+    sections: `### Definition
+Narrow-spectrum agents are effective against a limited number of species; broad-spectrum agents are effective against a wide variety of species. Prophylaxis is use to prevent infection; treatment is use to cure existing or suspected infection.
+
+### Mechanism
+Bactericidal antibiotics kill bacteria and reduce bacterial load; bacteriostatic antibiotics inhibit bacterial growth and reproduction without killing directly. Bactericidal drugs are appropriate when host immunity is poor, because bacteriostatic drugs require an intact immune system to clear the inhibited organisms.
+
+### Targets and general adverse effects
+The governed deck lists five general targets of antibacterial agents: inhibition of cell wall production, disruption of bacterial membranes, inhibition of protein synthesis, inhibition of nucleic acid synthesis, and blockade of biosynthetic pathways such as folate metabolism. The separate governed adverse-effects deck numbers GIT upset (nausea, vomiting, diarrhea) first, followed by allergy, blood dyscrasias, masking of infection, suppression of antibody formation, and effect on bacterial flora, which includes Candida superinfection and Clostridium difficile-associated pseudomembranous colitis from antibiotics that kill normal flora.
+
+### Key determinants
+Spectrum breadth, cidal-versus-static killing and its immunity dependence, and prophylactic-versus-therapeutic intent are the three classification axes tested from this deck. The five-target list and the numbered general adverse-effect list are each closed sets in the governed teaching.
+
+### Clinical significance
+These principles frame every specific drug-class fact taught afterward: whether an agent is chosen for its spectrum, its killing mechanism relative to host immune status, or its place in a prevention-versus-cure strategy, and what general toxicity to anticipate regardless of drug class.
+
+### Common misconceptions
+Do not treat "narrow spectrum" and "bactericidal" as synonyms: spectrum describes breadth of coverage, while cidal/static describes the kill mechanism. Do not assign vitamin absorption, enhanced immunity or improved vitamin synthesis to the governed five-target or general-adverse-effect lists; neither list includes them.`,
   },
   mycologyFoundations: {
     title: 'General mycology foundations', microtopic: 'Fungal form and terminology',

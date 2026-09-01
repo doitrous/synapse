@@ -13871,3 +13871,1278 @@ rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survive
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-262BE51D90B753
+
+## label
+Narrow-spectrum agents cover a limited species range; broad-spectrum agents cover a wide range
+
+## canonical_key
+pharmacology.antimicrobials.spectrum-classification
+
+## aliases
+Antimicrobial spectrum classification
+Narrow versus broad spectrum
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Narrow-spectrum antibiotics are effective against a limited number of species, in practice acting on either the Gram-positive or the Gram-negative group rather than both. Broad-spectrum antibiotics are effective against a wide variety of species, in practice covering both the Gram-positive and Gram-negative groups.
+
+## explicit_objective
+Identify narrow-spectrum activity as coverage restricted to a limited group, in this bank operationalised as either the Gram-positive or Gram-negative group. Identify broad-spectrum activity as coverage extending across both Gram-positive and Gram-negative groups.
+
+## pitfalls
+Covering both Gram-positive and Gram-negative groups, or acting on fungi or viruses, is not the governed narrow-spectrum definition. Restricting activity to only Gram-positive or only Gram-negative organisms, or to viruses alone, is the narrow-spectrum pattern, not broad-spectrum.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Spectrum of activity
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Spectrum of activity
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q1-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q2-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p29 Mucize Antibacterial (1) MCQ Q1; printed answer p36
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p29 Mucize Antibacterial (1) MCQ Q2; printed answer p36
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p7 direct MUST teaching
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p7 direct MUST teaching
+
+## original_wording
+What is the primary action of narrow-spectrum antibiotics? Printed key B; options retained in their original order.
+Broad-spectrum antibiotics are effective against: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q1; printed B agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (1) MCQ Q2; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-38531DB0D13F6E
+
+## label
+Bactericidal drugs kill bacteria; bacteriostatic drugs inhibit growth and need an intact host immune system
+
+## canonical_key
+pharmacology.antimicrobials.bactericidal-bacteriostatic-classification
+
+## aliases
+Bactericidal versus bacteriostatic
+Antimicrobial kill kinetics
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bactericidal antibiotics kill bacteria and reduce bacterial load, distinct from bacteriostatic agents that only inhibit growth. Bacteriostatic antibiotics require an intact host immune system to clear the growth-inhibited bacteria, so they are less appropriate when the host cannot be relied on to finish clearing the infection, while bactericidal drugs are the governed choice when immunity is poor.
+
+## explicit_objective
+Define bactericidal action as killing bacteria and reducing bacterial load. Recognise that bacteriostatic antibiotics depend on host immune competence, making them less suitable when that reserve cannot be relied upon.
+
+## pitfalls
+Stopping growth without killing, inhibiting reproduction alone, or preventing adhesion describe bacteriostatic or unrelated patterns, not the bactericidal definition. The governed slide frames this as an immune-competence dependency rather than infection severity in the abstract; mild infections, healthy individuals and non-immunocompromised patients are the options the deck's logic excludes, not the printed key.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Bactericidal and bacteriostatic action
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bactericidal and bacteriostatic action
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q3-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q4-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p29 Mucize Antibacterial (1) MCQ Q3; printed answer p36
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p29 Mucize Antibacterial (1) MCQ Q4; printed answer p36
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p6 direct MUST teaching
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p6 direct MUST teaching
+
+## original_wording
+Bactericidal antibiotics: Printed key B; options retained in their original order.
+Bacteriostatic antibiotics are contraindicated in: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q3; printed B agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (1) MCQ Q4; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-240CAE3484E391
+
+## label
+Prophylaxis prevents infection; treatment cures existing or suspected infection
+
+## canonical_key
+pharmacology.antimicrobials.prophylactic-therapeutic-classification
+
+## aliases
+Prophylactic versus therapeutic antimicrobial use
+Antimicrobial use intent
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Antimicrobial use to prevent infection is termed prophylaxis, distinct from treatment, which cures an existing or suspected infection.
+
+## explicit_objective
+Identify prophylactic use as antimicrobial administration intended to prevent infection.
+
+## pitfalls
+Curative and therapeutic wording describes treatment of existing infection, not prevention; diagnostic is not a governed antimicrobial-use category on this slide.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Prophylaxis versus treatment
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Prophylaxis versus treatment
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q6-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p29 Mucize Antibacterial (1) MCQ Q6; printed answer p36
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p7 direct MUST teaching
+
+## original_wording
+Antimicrobials used to prevent infection are referred to as: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q6; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-EF635FB877198C
+
+## label
+Antibacterial agents act through five governed targets: cell wall, membrane, protein synthesis, nucleic acid synthesis and biosynthetic pathways
+
+## canonical_key
+pharmacology.antimicrobials.five-general-targets
+
+## aliases
+Five targets of antibacterial agents
+General antimicrobial mechanism list
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The governed deck lists five targets of antibacterial agents: cell-wall production, bacterial membranes, protein synthesis, nucleic acid synthesis and biosynthetic (folate) pathways; inhibition of vitamin absorption is not among them.
+
+## explicit_objective
+Identify inhibition of vitamin absorption as outside the governed five-target list of antimicrobial mechanisms.
+
+## pitfalls
+Cell-wall synthesis, nucleic acid synthesis (DNA replication) and protein synthesis are each named targets on the governed slide; vitamin absorption is not.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+General mechanisms of antimicrobial action
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > General mechanisms of antimicrobial action
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q10-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p30 Mucize Antibacterial (1) MCQ Q10; printed answer p36
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p27 direct MUST teaching
+
+## original_wording
+Which of the following is NOT a mechanism of antimicrobial action? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q10; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-27507C163E8413
+
+## label
+G.I.T. upset (nausea, vomiting, diarrhea) is a numbered general antimicrobial adverse effect
+
+## canonical_key
+pharmacology.antimicrobials.general-adverse-effect-git-upset
+
+## aliases
+Antimicrobial G.I.T. upset
+General antimicrobial adverse effects
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+G.I.T. upset, covering nausea, vomiting and diarrhea, is listed first among the general adverse effects of antimicrobials in the governed teaching.
+
+## explicit_objective
+Identify G.I.T. upset as a governed general adverse effect of antimicrobials.
+
+## pitfalls
+Improved immunity and enhanced vitamin absorption are not general antimicrobial adverse effects in the governed numbered list; the deck instead numbers GIT upset first.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+General antimicrobial adverse effects
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > General antimicrobial adverse effects
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_0e91f1d10838d0af56f5
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q7-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p29 Mucize Antibacterial (1) MCQ Q7; printed answer p36
+src_0e91f1d10838d0af56f5 | tier 1 local teaching | p3 direct MUST teaching
+
+## original_wording
+Which of the following is a general adverse effect of antimicrobials? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q7; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-27452005C75CBA
+
+## label
+Broad-spectrum antibiotics that kill normal flora let Candida cause superinfection
+
+## canonical_key
+pharmacology.antimicrobials.candida-superinfection-broad-spectrum
+
+## aliases
+Candida superinfection
+Antibiotic-associated Candida overgrowth
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Incompletely absorbed and broad-spectrum antibiotics kill normal flora and give Candida the opportunity to flourish, causing superinfection.
+
+## explicit_objective
+Identify broad-spectrum antibiotic disruption of normal flora as the governed cause of Candida superinfection.
+
+## pitfalls
+Narrow-spectrum antibiotics, antiviral drugs and antifungal drugs are not the governed cause of flora-disruption Candida superinfection; broad-spectrum antibacterial killing of normal flora is.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Effect on bacterial flora
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Effect on bacterial flora
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_0e91f1d10838d0af56f5
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q8-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p30 Mucize Antibacterial (1) MCQ Q8; printed answer p36
+src_0e91f1d10838d0af56f5 | tier 1 local teaching | p6 direct MUST teaching
+
+## original_wording
+Superinfection by Candida is commonly caused by: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q8; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-5B9C4DD48BC8E3
+
+## label
+Pseudomembranous colitis is Clostridium difficile-associated diarrhea caused by antibiotic disruption of flora
+
+## canonical_key
+pharmacology.antimicrobials.pseudomembranous-colitis-c-difficile
+
+## aliases
+Pseudomembranous colitis organism
+Clostridium difficile-associated diarrhea
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Pseudomembranous colitis is Clostridium difficile-associated diarrhea (CDAD), caused by antibiotics such as clindamycin, ampicillin, chloramphenicol and tetracyclines, and treated with metronidazole, vancomycin or cholestyramine.
+
+## explicit_objective
+Identify Clostridium difficile as the organism associated with pseudomembranous colitis.
+
+## pitfalls
+The governed deck names the causative antibiotics and treatment drugs separately from the causative organism; Clostridium difficile is the organism the printed key associates with pseudomembranous colitis.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Antibiotic-associated colitis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antibiotic-associated colitis
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_0e91f1d10838d0af56f5
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q9-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p30 Mucize Antibacterial (1) MCQ Q9; printed answer p36
+src_0e91f1d10838d0af56f5 | tier 1 local teaching | p7 direct MUST teaching
+
+## original_wording
+Pseudomembranous colitis is associated with: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q9; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

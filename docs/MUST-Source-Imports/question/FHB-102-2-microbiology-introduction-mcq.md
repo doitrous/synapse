@@ -15653,3 +15653,1371 @@ yes
 
 ## author_notes
 Printed source key: Mucize Antibacterial (1) MCQ Q47 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q1
+
+## title
+What is the primary action of narrow-spectrum antibiotics?
+
+## question
+What is the primary action of narrow-spectrum antibiotics?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Act on both G+ve and G-ve bacteria
+
+## explanation_a
+Incorrect. Covering both Gram-positive and Gram-negative groups, or acting on fungi or viruses, is not the governed narrow-spectrum definition. The supported answer is B, Act on either G+ve or G-ve bacteria.
+
+## answer_b
+Act on either G+ve or G-ve bacteria
+
+## explanation_b
+Narrow-spectrum antibiotics are effective against a limited number of species, in practice acting on either the Gram-positive or the Gram-negative group rather than both. The official MUST teaching directly supports Act on either G+ve or G-ve bacteria for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Act on fungi
+
+## explanation_c
+Incorrect. Covering both Gram-positive and Gram-negative groups, or acting on fungi or viruses, is not the governed narrow-spectrum definition. The supported answer is B, Act on either G+ve or G-ve bacteria.
+
+## answer_d
+Act on viruses
+
+## explanation_d
+Incorrect. Covering both Gram-positive and Gram-negative groups, or acting on fungi or viruses, is not the governed narrow-spectrum definition. The supported answer is B, Act on either G+ve or G-ve bacteria.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-262BE51D90B753
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Spectrum of activity
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Identify narrow-spectrum activity as coverage restricted to a limited group, in this bank operationalised as either the Gram-positive or Gram-negative group.
+
+## source_citation
+Absalam101 Part 2, p29, Mucize Antibacterial (1) MCQ Q1, printed key p36 (1 = B); official MUST Antibiotics Introduction and Adverse Effects, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q1 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q2
+
+## title
+Broad-spectrum antibiotics are effective against:
+
+## question
+Broad-spectrum antibiotics are effective against:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Only G+ve bacteria
+
+## explanation_a
+Incorrect. Restricting activity to only Gram-positive or only Gram-negative organisms, or to viruses alone, is the narrow-spectrum pattern, not broad-spectrum. The supported answer is C, Both G+ve and G-ve bacteria.
+
+## answer_b
+Only G-ve bacteria
+
+## explanation_b
+Incorrect. Restricting activity to only Gram-positive or only Gram-negative organisms, or to viruses alone, is the narrow-spectrum pattern, not broad-spectrum. The supported answer is C, Both G+ve and G-ve bacteria.
+
+## answer_c
+Both G+ve and G-ve bacteria
+
+## explanation_c
+Broad-spectrum antibiotics are effective against a wide variety of species, in practice covering both the Gram-positive and Gram-negative groups. The official MUST teaching directly supports Both G+ve and G-ve bacteria for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Only viruses
+
+## explanation_d
+Incorrect. Restricting activity to only Gram-positive or only Gram-negative organisms, or to viruses alone, is the narrow-spectrum pattern, not broad-spectrum. The supported answer is C, Both G+ve and G-ve bacteria.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-262BE51D90B753
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Spectrum of activity
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Identify broad-spectrum activity as coverage extending across both Gram-positive and Gram-negative groups.
+
+## source_citation
+Absalam101 Part 2, p29, Mucize Antibacterial (1) MCQ Q2, printed key p36 (2 = C); official MUST Antibiotics Introduction and Adverse Effects, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q2 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q3
+
+## title
+Bactericidal antibiotics:
+
+## question
+Bactericidal antibiotics:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Stop bacterial growth
+
+## explanation_a
+Incorrect. Stopping growth without killing, inhibiting reproduction alone, or preventing adhesion describe bacteriostatic or unrelated patterns, not the bactericidal definition. The supported answer is B, Kill and destroy bacteria.
+
+## answer_b
+Kill and destroy bacteria
+
+## explanation_b
+Bactericidal antibiotics kill bacteria and reduce bacterial load, distinct from bacteriostatic agents that only inhibit growth. The official MUST teaching directly supports Kill and destroy bacteria for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Inhibit bacterial reproduction
+
+## explanation_c
+Incorrect. Stopping growth without killing, inhibiting reproduction alone, or preventing adhesion describe bacteriostatic or unrelated patterns, not the bactericidal definition. The supported answer is B, Kill and destroy bacteria.
+
+## answer_d
+Prevent bacterial adhesion
+
+## explanation_d
+Incorrect. Stopping growth without killing, inhibiting reproduction alone, or preventing adhesion describe bacteriostatic or unrelated patterns, not the bactericidal definition. The supported answer is B, Kill and destroy bacteria.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-38531DB0D13F6E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bactericidal and bacteriostatic action
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Define bactericidal action as killing bacteria and reducing bacterial load.
+
+## source_citation
+Absalam101 Part 2, p29, Mucize Antibacterial (1) MCQ Q3, printed key p36 (3 = B); official MUST Antibiotics Introduction and Adverse Effects, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q3 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q4
+
+## title
+Bacteriostatic antibiotics are contraindicated in:
+
+## question
+Bacteriostatic antibiotics are contraindicated in:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Mild infections
+
+## explanation_a
+Incorrect. The governed slide frames this as an immune-competence dependency rather than infection severity in the abstract; mild infections, healthy individuals and non-immunocompromised patients are the options the deck's logic excludes, not the printed key. The supported answer is B, Severe infections.
+
+## answer_b
+Severe infections
+
+## explanation_b
+Bacteriostatic antibiotics require an intact host immune system to clear the growth-inhibited bacteria, so they are less appropriate when the host cannot be relied on to finish clearing the infection, while bactericidal drugs are the governed choice when immunity is poor. The official MUST teaching directly supports Severe infections for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Healthy individuals
+
+## explanation_c
+Incorrect. The governed slide frames this as an immune-competence dependency rather than infection severity in the abstract; mild infections, healthy individuals and non-immunocompromised patients are the options the deck's logic excludes, not the printed key. The supported answer is B, Severe infections.
+
+## answer_d
+Non-immunocompromised patients
+
+## explanation_d
+Incorrect. The governed slide frames this as an immune-competence dependency rather than infection severity in the abstract; mild infections, healthy individuals and non-immunocompromised patients are the options the deck's logic excludes, not the printed key. The supported answer is B, Severe infections.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-38531DB0D13F6E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bactericidal and bacteriostatic action
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Recognise that bacteriostatic antibiotics depend on host immune competence, making them less suitable when that reserve cannot be relied upon.
+
+## source_citation
+Absalam101 Part 2, p29, Mucize Antibacterial (1) MCQ Q4, printed key p36 (4 = B); official MUST Antibiotics Introduction and Adverse Effects, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q4 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q6
+
+## title
+Antimicrobials used to prevent infection are referred to as:
+
+## question
+Antimicrobials used to prevent infection are referred to as:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Therapeutic
+
+## explanation_a
+Incorrect. Curative and therapeutic wording describes treatment of existing infection, not prevention; diagnostic is not a governed antimicrobial-use category on this slide. The supported answer is B, Prophylactic.
+
+## answer_b
+Prophylactic
+
+## explanation_b
+Antimicrobial use to prevent infection is termed prophylaxis, distinct from treatment, which cures an existing or suspected infection. The official MUST teaching directly supports Prophylactic for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Curative
+
+## explanation_c
+Incorrect. Curative and therapeutic wording describes treatment of existing infection, not prevention; diagnostic is not a governed antimicrobial-use category on this slide. The supported answer is B, Prophylactic.
+
+## answer_d
+Diagnostic
+
+## explanation_d
+Incorrect. Curative and therapeutic wording describes treatment of existing infection, not prevention; diagnostic is not a governed antimicrobial-use category on this slide. The supported answer is B, Prophylactic.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-240CAE3484E391
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Prophylaxis versus treatment
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Identify prophylactic use as antimicrobial administration intended to prevent infection.
+
+## source_citation
+Absalam101 Part 2, p29, Mucize Antibacterial (1) MCQ Q6, printed key p36 (6 = B); official MUST Antibiotics Introduction and Adverse Effects, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q6 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q10
+
+## title
+Which of the following is NOT a mechanism of antimicrobial action?
+
+## question
+Which of the following is NOT a mechanism of antimicrobial action?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Inhibition of cell wall synthesis
+
+## explanation_a
+Incorrect. Cell-wall synthesis, nucleic acid synthesis (DNA replication) and protein synthesis are each named targets on the governed slide; vitamin absorption is not. The supported answer is D, Inhibition of vitamin absorption.
+
+## answer_b
+Inhibition of DNA replication
+
+## explanation_b
+Incorrect. Cell-wall synthesis, nucleic acid synthesis (DNA replication) and protein synthesis are each named targets on the governed slide; vitamin absorption is not. The supported answer is D, Inhibition of vitamin absorption.
+
+## answer_c
+Inhibition of protein synthesis
+
+## explanation_c
+Incorrect. Cell-wall synthesis, nucleic acid synthesis (DNA replication) and protein synthesis are each named targets on the governed slide; vitamin absorption is not. The supported answer is D, Inhibition of vitamin absorption.
+
+## answer_d
+Inhibition of vitamin absorption
+
+## explanation_d
+The governed deck lists five targets of antibacterial agents: cell-wall production, bacterial membranes, protein synthesis, nucleic acid synthesis and biosynthetic (folate) pathways; inhibition of vitamin absorption is not among them. The official MUST teaching directly supports Inhibition of vitamin absorption for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-EF635FB877198C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > General mechanisms of antimicrobial action
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Identify inhibition of vitamin absorption as outside the governed five-target list of antimicrobial mechanisms.
+
+## source_citation
+Absalam101 Part 2, p30, Mucize Antibacterial (1) MCQ Q10, printed key p36 (10 = D); official MUST Antibiotics Introduction and Adverse Effects, p27.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q10 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q7
+
+## title
+Which of the following is a general adverse effect of antimicrobials?
+
+## question
+Which of the following is a general adverse effect of antimicrobials?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_0e91f1d10838d0af56f5 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Increased appetite
+
+## explanation_a
+Incorrect. Improved immunity and enhanced vitamin absorption are not general antimicrobial adverse effects in the governed numbered list; the deck instead numbers GIT upset first. The supported answer is B, G.I.T upset.
+
+## answer_b
+G.I.T upset
+
+## explanation_b
+G.I.T. upset, covering nausea, vomiting and diarrhea, is listed first among the general adverse effects of antimicrobials in the governed teaching. The official MUST teaching directly supports G.I.T upset for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Improved immunity
+
+## explanation_c
+Incorrect. Improved immunity and enhanced vitamin absorption are not general antimicrobial adverse effects in the governed numbered list; the deck instead numbers GIT upset first. The supported answer is B, G.I.T upset.
+
+## answer_d
+Enhanced vitamin absorption
+
+## explanation_d
+Incorrect. Improved immunity and enhanced vitamin absorption are not general antimicrobial adverse effects in the governed numbered list; the deck instead numbers GIT upset first. The supported answer is B, G.I.T upset.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-27507C163E8413
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > General antimicrobial adverse effects
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_0e91f1d10838d0af56f5
+
+## learning_objective
+Identify G.I.T. upset as a governed general adverse effect of antimicrobials.
+
+## source_citation
+Absalam101 Part 2, p29, Mucize Antibacterial (1) MCQ Q7, printed key p36 (7 = B); official MUST Antibiotics Introduction and Adverse Effects, p3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q7 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q8
+
+## title
+Superinfection by Candida is commonly caused by:
+
+## question
+Superinfection by Candida is commonly caused by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_0e91f1d10838d0af56f5 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Narrow-spectrum antibiotics
+
+## explanation_a
+Incorrect. Narrow-spectrum antibiotics, antiviral drugs and antifungal drugs are not the governed cause of flora-disruption Candida superinfection; broad-spectrum antibacterial killing of normal flora is. The supported answer is B, Broad-spectrum antibiotics.
+
+## answer_b
+Broad-spectrum antibiotics
+
+## explanation_b
+Incompletely absorbed and broad-spectrum antibiotics kill normal flora and give Candida the opportunity to flourish, causing superinfection. The official MUST teaching directly supports Broad-spectrum antibiotics for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Antiviral drugs
+
+## explanation_c
+Incorrect. Narrow-spectrum antibiotics, antiviral drugs and antifungal drugs are not the governed cause of flora-disruption Candida superinfection; broad-spectrum antibacterial killing of normal flora is. The supported answer is B, Broad-spectrum antibiotics.
+
+## answer_d
+Antifungal drugs
+
+## explanation_d
+Incorrect. Narrow-spectrum antibiotics, antiviral drugs and antifungal drugs are not the governed cause of flora-disruption Candida superinfection; broad-spectrum antibacterial killing of normal flora is. The supported answer is B, Broad-spectrum antibiotics.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-27452005C75CBA
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Effect on bacterial flora
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_0e91f1d10838d0af56f5
+
+## learning_objective
+Identify broad-spectrum antibiotic disruption of normal flora as the governed cause of Candida superinfection.
+
+## source_citation
+Absalam101 Part 2, p30, Mucize Antibacterial (1) MCQ Q8, printed key p36 (8 = B); official MUST Antibiotics Introduction and Adverse Effects, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q8 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q9
+
+## title
+Pseudomembranous colitis is associated with:
+
+## question
+Pseudomembranous colitis is associated with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_0e91f1d10838d0af56f5 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Clostridium difficile
+
+## explanation_a
+Pseudomembranous colitis is Clostridium difficile-associated diarrhea (CDAD), caused by antibiotics such as clindamycin, ampicillin, chloramphenicol and tetracyclines, and treated with metronidazole, vancomycin or cholestyramine. The official MUST teaching directly supports Clostridium difficile for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Candida albicans
+
+## explanation_b
+Incorrect. The governed deck names the causative antibiotics and treatment drugs separately from the causative organism; Clostridium difficile is the organism the printed key associates with pseudomembranous colitis. The supported answer is A, Clostridium difficile.
+
+## answer_c
+Escherichia coli
+
+## explanation_c
+Incorrect. The governed deck names the causative antibiotics and treatment drugs separately from the causative organism; Clostridium difficile is the organism the printed key associates with pseudomembranous colitis. The supported answer is A, Clostridium difficile.
+
+## answer_d
+Staphylococcus aureus
+
+## explanation_d
+Incorrect. The governed deck names the causative antibiotics and treatment drugs separately from the causative organism; Clostridium difficile is the organism the printed key associates with pseudomembranous colitis. The supported answer is A, Clostridium difficile.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-5B9C4DD48BC8E3
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antibiotic-associated colitis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_0e91f1d10838d0af56f5
+
+## learning_objective
+Identify Clostridium difficile as the organism associated with pseudomembranous colitis.
+
+## source_citation
+Absalam101 Part 2, p30, Mucize Antibacterial (1) MCQ Q9, printed key p36 (9 = A); official MUST Antibiotics Introduction and Adverse Effects, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q9 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

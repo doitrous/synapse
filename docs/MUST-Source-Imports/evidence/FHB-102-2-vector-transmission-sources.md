@@ -1324,6 +1324,61 @@ no
 # Item
 
 ## id
+src_0e91f1d10838d0af56f5
+
+## title
+Antibiotics Adverse Effects
+
+## institution
+Teaching deck visibly naming Prof. Ahmed Bastawy; no authenticated MUST institution, department, module, examiner or faculty-key declaration is visible
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-02
+
+## page_count
+14
+
+## sha256
+0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1-13 were rendered and visually read for the Mucize Antibacterial (1) Q7-Q10 authoring pass. Page 3 directly supports Q7 by numbering G.I.T. upset first among general antimicrobial adverse effects. Page 6 directly supports Q8 by naming broad-spectrum, incompletely absorbed antibiotics as the cause of Candida superinfection through disruption of normal flora. Page 7 directly supports Q9 by equating Clostridium Difficile Associated Diarrhoea with pseudomembranous colitis and antibiotic-associated colitis. The deck is teaching evidence only and does not authenticate the student-printed Mucize answer table.
+
+## confidence
+0.85
+
+## is_assessment
+no
+
+---
+
+# Item
+
+## id
 src_060e284322ddf8fdf92c
 
 ## title

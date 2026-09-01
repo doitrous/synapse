@@ -4529,3 +4529,399 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
 source question: Absalam Mucize Antibacterial (1) MCQ Q47
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q1-01
+
+## concept_id
+CON-INF-262BE51D90B753
+
+## subject
+Narrow-spectrum agents cover a limited species range; broad-spectrum agents cover a wide range
+
+## predicate
+states
+
+## object
+Narrow-spectrum antibiotics are effective against a limited number of species, in practice acting on either the Gram-positive or the Gram-negative group rather than both.
+
+## display_text
+Narrow-spectrum antibiotics are effective against a limited number of species, in practice acting on either the Gram-positive or the Gram-negative group rather than both.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q1
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q2-01
+
+## concept_id
+CON-INF-262BE51D90B753
+
+## subject
+Narrow-spectrum agents cover a limited species range; broad-spectrum agents cover a wide range
+
+## predicate
+states
+
+## object
+Broad-spectrum antibiotics are effective against a wide variety of species, in practice covering both the Gram-positive and Gram-negative groups.
+
+## display_text
+Broad-spectrum antibiotics are effective against a wide variety of species, in practice covering both the Gram-positive and Gram-negative groups.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q2
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q3-01
+
+## concept_id
+CON-INF-38531DB0D13F6E
+
+## subject
+Bactericidal drugs kill bacteria; bacteriostatic drugs inhibit growth and need an intact host immune system
+
+## predicate
+states
+
+## object
+Bactericidal antibiotics kill bacteria and reduce bacterial load, distinct from bacteriostatic agents that only inhibit growth.
+
+## display_text
+Bactericidal antibiotics kill bacteria and reduce bacterial load, distinct from bacteriostatic agents that only inhibit growth.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q3
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q4-01
+
+## concept_id
+CON-INF-38531DB0D13F6E
+
+## subject
+Bactericidal drugs kill bacteria; bacteriostatic drugs inhibit growth and need an intact host immune system
+
+## predicate
+states
+
+## object
+Bacteriostatic antibiotics require an intact host immune system to clear the growth-inhibited bacteria, so they are less appropriate when the host cannot be relied on to finish clearing the infection, while bactericidal drugs are the governed choice when immunity is poor.
+
+## display_text
+Bacteriostatic antibiotics require an intact host immune system to clear the growth-inhibited bacteria, so they are less appropriate when the host cannot be relied on to finish clearing the infection, while bactericidal drugs are the governed choice when immunity is poor.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q4
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q6-01
+
+## concept_id
+CON-INF-240CAE3484E391
+
+## subject
+Prophylaxis prevents infection; treatment cures existing or suspected infection
+
+## predicate
+states
+
+## object
+Antimicrobial use to prevent infection is termed prophylaxis, distinct from treatment, which cures an existing or suspected infection.
+
+## display_text
+Antimicrobial use to prevent infection is termed prophylaxis, distinct from treatment, which cures an existing or suspected infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q6
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q10-01
+
+## concept_id
+CON-INF-EF635FB877198C
+
+## subject
+Antibacterial agents act through five governed targets: cell wall, membrane, protein synthesis, nucleic acid synthesis and biosynthetic pathways
+
+## predicate
+states
+
+## object
+The governed deck lists five targets of antibacterial agents: cell-wall production, bacterial membranes, protein synthesis, nucleic acid synthesis and biosynthetic (folate) pathways; inhibition of vitamin absorption is not among them.
+
+## display_text
+The governed deck lists five targets of antibacterial agents: cell-wall production, bacterial membranes, protein synthesis, nucleic acid synthesis and biosynthetic (folate) pathways; inhibition of vitamin absorption is not among them.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q10
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q7-01
+
+## concept_id
+CON-INF-27507C163E8413
+
+## subject
+G.I.T. upset (nausea, vomiting, diarrhea) is a numbered general antimicrobial adverse effect
+
+## predicate
+states
+
+## object
+G.I.T. upset, covering nausea, vomiting and diarrhea, is listed first among the general adverse effects of antimicrobials in the governed teaching.
+
+## display_text
+G.I.T. upset, covering nausea, vomiting and diarrhea, is listed first among the general adverse effects of antimicrobials in the governed teaching.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q7
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q8-01
+
+## concept_id
+CON-INF-27452005C75CBA
+
+## subject
+Broad-spectrum antibiotics that kill normal flora let Candida cause superinfection
+
+## predicate
+states
+
+## object
+Incompletely absorbed and broad-spectrum antibiotics kill normal flora and give Candida the opportunity to flourish, causing superinfection.
+
+## display_text
+Incompletely absorbed and broad-spectrum antibiotics kill normal flora and give Candida the opportunity to flourish, causing superinfection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q8
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q9-01
+
+## concept_id
+CON-INF-5B9C4DD48BC8E3
+
+## subject
+Pseudomembranous colitis is Clostridium difficile-associated diarrhea caused by antibiotic disruption of flora
+
+## predicate
+states
+
+## object
+Pseudomembranous colitis is Clostridium difficile-associated diarrhea (CDAD), caused by antibiotics such as clindamycin, ampicillin, chloramphenicol and tetracyclines, and treated with metronidazole, vancomycin or cholestyramine.
+
+## display_text
+Pseudomembranous colitis is Clostridium difficile-associated diarrhea (CDAD), caused by antibiotics such as clindamycin, ampicillin, chloramphenicol and tetracyclines, and treated with metronidazole, vancomycin or cholestyramine.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q9

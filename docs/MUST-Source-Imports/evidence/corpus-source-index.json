@@ -681,6 +681,30 @@
     "Teaching"
    ]
   },
+  "src_0e91f1d10838d0af56f5": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Advrse effects.pdf"
+   ],
+   "sha256": "0e91f1d10838d0af56f52c98faec442de6803fa9934ec59f44e4f0950a456648",
+   "processingStatus": "fully_governed",
+   "pageCount": 14,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "Teaching"
+   ]
+  },
   "src_f65b3872022ca0b42a79": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf",
    "sourceRelativePaths": [

@@ -4117,3 +4117,363 @@ The official MUST teaching deck directly supports the unchanged printed Mucize A
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q1-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q1-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Antibiotics Introduction deck's Principles/Definitions slide states narrow spectrum is effective against a limited number of species, contrasted with broad spectrum's wide variety of species, alongside a separate Gram-negative-agent/Gram-positive-agent/anti-anaerobic-activity classification axis.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — Spectrum of activity
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q1 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q2-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q2-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Principles/Definitions slide states broad spectrum is effective against a wide variety of species, the complement of the narrow-spectrum definition on the same slide.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — Spectrum of activity
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q2 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q3-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q3-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states bactericidal drugs kill bacteria and reduce bacterial load, while bacteriostatic drugs inhibit growth and reproduction of bacteria.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — Bactericidal and bacteriostatic action
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q3 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q4-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q4-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states bacteriostatic drugs require an intact immune system while bactericidal drugs are appropriate in poor immunity, since all antibiotics ultimately require the immune system to work properly.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — Bactericidal and bacteriostatic action
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q4 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q6-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q6-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Principles/Definitions slide states prophylaxis is use to prevent infection and treatment is use to cure existing or suspected infection.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — Prophylaxis versus treatment
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q6 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q10-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q10-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Targets-of-antibacterial-agents slide numbers exactly five targets: inhibit cell wall production, disrupt bacterial membranes, inhibit protein synthesis, inhibit nucleic acid synthesis, and block biosynthetic pathways (folate metabolism).
+
+## locator_type
+page
+
+## locator_page
+27
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — General mechanisms of antimicrobial action
+
+## locator_detail
+PDF page 27, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q10 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q7-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q7-01
+
+## resource_id
+src_0e91f1d10838d0af56f5
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Adverse Effects deck's first numbered category is GIT upset, with nausea and vomiting exemplified by erythromycin and diarrhea exemplified by ampicillin and chloramphenicol.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — General antimicrobial adverse effects
+
+## locator_detail
+PDF page 3, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q7 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q8-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q8-01
+
+## resource_id
+src_0e91f1d10838d0af56f5
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Adverse Effects deck's Effect-on-Bacterial-Flora slide states that incompletely absorbed antibiotics such as ampicillin, tetracyclines and chloramphenicol kill normal flora and give Candida the chance to flourish, listed under superinfection by Candida.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — Effect on bacterial flora
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q8 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q9-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q9-01
+
+## resource_id
+src_0e91f1d10838d0af56f5
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Adverse Effects deck explicitly equates Clostridium Difficile Associated Diarrhoea with pseudomembranous colitis and antibiotic-associated colitis, naming clindamycin, ampicillin, chloramphenicol and tetracyclines as causative antibiotics.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Antibiotics Introduction and Adverse Effects — Antibiotic-associated colitis
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q9 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

@@ -2263,3 +2263,201 @@ CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q1-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+Narrow-spectrum antibiotics are effective against a limited number of species, in practice acting on either the Gram-positive or the Gram-negative group rather than both.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q1-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q1-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q2-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+Broad-spectrum antibiotics are effective against a wide variety of species, in practice covering both the Gram-positive and Gram-negative groups.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q2-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q2-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q3-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+Bactericidal antibiotics kill bacteria and reduce bacterial load, distinct from bacteriostatic agents that only inhibit growth.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q3-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q3-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q4-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+Bacteriostatic antibiotics require an intact host immune system to clear the growth-inhibited bacteria, so they are less appropriate when the host cannot be relied on to finish clearing the infection, while bactericidal drugs are the governed choice when immunity is poor.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q4-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q4-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q6-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+Antimicrobial use to prevent infection is termed prophylaxis, distinct from treatment, which cures an existing or suspected infection.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q6-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q6-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q10-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+The governed deck lists five targets of antibacterial agents: cell-wall production, bacterial membranes, protein synthesis, nucleic acid synthesis and biosynthetic (folate) pathways; inhibition of vitamin absorption is not among them.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q10-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q10-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q7-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+G.I.T. upset, covering nausea, vomiting and diarrhea, is listed first among the general adverse effects of antimicrobials in the governed teaching.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q7-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q7-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q8-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+Incompletely absorbed and broad-spectrum antibiotics kill normal flora and give Candida the opportunity to flourish, causing superinfection.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q8-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q8-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q9-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-principles-definition
+
+## text
+Pseudomembranous colitis is Clostridium difficile-associated diarrhea (CDAD), caused by antibiotics such as clindamycin, ampicillin, chloramphenicol and tetracyclines, and treated with metronidazole, vancomycin or cholestyramine.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q9-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q9-01
