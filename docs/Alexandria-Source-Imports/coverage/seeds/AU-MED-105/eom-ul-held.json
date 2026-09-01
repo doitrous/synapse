@@ -1,0 +1,120 @@
+{
+  "lane": "AU-105",
+  "cluster": "eom-ul",
+  "header": "AU-MED-105 Anatomy · EOM-UL bank held items — 27 questions that duplicate (verbatim or near-verbatim options) a question already authored elsewhere in this lane's Upper Limb work, plus 1 image-pointer item with no diagram in the corpus. Held, not re-authored, per LANE-BRIEF precedent (ul-q14/15/16/21/46).",
+  "defaults": {},
+  "questions": [
+    {
+      "key": "eom-ul-q03",
+      "hold": "already authored as ul-c-q21 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (same bank item, median nerve compression -> opponens pollicis); not duplicating"
+    },
+    {
+      "key": "eom-ul-q05",
+      "hold": "already authored as ul-c-q02 in question/AU-MED-105-anatomy-mcq-ul-c.md (same bank item, most fractured carpal bone -> scaphoid); not duplicating"
+    },
+    {
+      "key": "eom-ul-q09",
+      "hold": "already authored as ul-c-q37 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, radial artery in the hand FALSE statement); not duplicating"
+    },
+    {
+      "key": "eom-ul-q20",
+      "hold": "already authored as ul-c-q11 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, structure not beneath extensor retinaculum); not duplicating"
+    },
+    {
+      "key": "eom-ul-q21",
+      "hold": "already authored as ul-c-q39 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, radial pulse location); not duplicating"
+    },
+    {
+      "key": "eom-ul-q22",
+      "hold": "already authored as ul-c-q06 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, radial-nerve-supplied muscle -> ECRL); not duplicating"
+    },
+    {
+      "key": "eom-ul-q23",
+      "hold": "already authored as ul-c-q25 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, abductor digiti minimi nerve supply); not duplicating"
+    },
+    {
+      "key": "eom-ul-q26",
+      "hold": "image-pointer item (\"In view of the above diagram... fracture of the pointed part of this bone\") referring to a diagram not present anywhere in the corpus; the printed key is uninterpretable without seeing what the arrow points to, so no truthful explanation can be written"
+    },
+    {
+      "key": "eom-ul-q27",
+      "hold": "already authored as ul-c-q12 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, 1st compartment of extensor retinaculum); not duplicating"
+    },
+    {
+      "key": "eom-ul-q32",
+      "hold": "already authored as ul-c-q10 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, pronator teres correct statement); not duplicating"
+    },
+    {
+      "key": "eom-ul-q33",
+      "hold": "already authored as ul-c-q13 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, posterior interosseous nerve -> extensor carpi ulnaris); not duplicating"
+    },
+    {
+      "key": "eom-ul-q34",
+      "hold": "already authored as ul-c-q22 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, ulnar-supplied hand muscles EXCEPT 1st lumbrical); not duplicating"
+    },
+    {
+      "key": "eom-ul-q35",
+      "hold": "already authored as ul-c-q40 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, radial/ulnar arteries EXCEPT); not duplicating"
+    },
+    {
+      "key": "eom-ul-q38",
+      "hold": "already authored as ul-c-q24 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, median-supplied hand muscle -> abductor pollicis brevis); not duplicating"
+    },
+    {
+      "key": "eom-ul-q40",
+      "hold": "already authored as ul-c-q05 in question/AU-MED-105-anatomy-mcq-ul-c.md (identical options, anterior interosseous nerve EXCEPT pronator teres); not duplicating"
+    },
+    {
+      "key": "eom-ul-q44",
+      "hold": "already authored as ul-b-q01 in pending-live/AU-MED-105-anatomy-questions-ul-b.md (identical options, branch of the 2nd part of the axillary artery); not duplicating"
+    },
+    {
+      "key": "eom-ul-q45",
+      "hold": "already authored (\"One of the following is NOT attached to the medial border of the scapula\") in question/AU-MED-105-anatomy-mcq.md, identical options; not duplicating"
+    },
+    {
+      "key": "eom-ul-q48",
+      "hold": "already authored as ul-c-q43 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, ulnar nerve supplies all EXCEPT flexor pollicis longus); not duplicating"
+    },
+    {
+      "key": "eom-ul-q50",
+      "hold": "already authored as ul-c-q27 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, extensor expansion EXCEPT extensor carpi radialis brevis); not duplicating"
+    },
+    {
+      "key": "eom-ul-q55",
+      "hold": "already authored as ul-c-q32 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (same stem, testing deep branch of ulnar nerve via finger abduction/adduction, with one extra distractor here); not duplicating"
+    },
+    {
+      "key": "eom-ul-q59",
+      "hold": "already authored as ul-c-q36 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, muscle NOT supplied by ulnar nerve -> extensor carpi ulnaris); not duplicating"
+    },
+    {
+      "key": "eom-ul-q62",
+      "hold": "already authored as ul-c-q09 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, structures superficial to flexor retinaculum EXCEPT median nerve); not duplicating"
+    },
+    {
+      "key": "eom-ul-q66",
+      "hold": "already authored as ul-c-q23 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, palmaris brevis nerve supply); not duplicating"
+    },
+    {
+      "key": "eom-ul-q68",
+      "hold": "already authored as ul-c-q04 in question/AU-MED-105-anatomy-mcq-ul-c.md (identical options, lateral half of flexor digitorum profundus nerve supply); not duplicating"
+    },
+    {
+      "key": "eom-ul-q91",
+      "hold": "already authored as ul-c-q03 in question/AU-MED-105-anatomy-mcq-ul-c.md (identical options, pisiform as the carpal sesamoid bone); not duplicating"
+    },
+    {
+      "key": "eom-ul-q103",
+      "hold": "already authored as ul-c-q51 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (same scaphoid-fracture vignette, this file's version is a strict 4-option subset of ul-c-q51's 5); not duplicating"
+    },
+    {
+      "key": "eom-ul-q110",
+      "hold": "already authored as ul-c-q52 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical options, wrist-laceration structures superficial to flexor retinaculum); not duplicating"
+    },
+    {
+      "key": "eom-ul-q111",
+      "hold": "already authored as ul-c-q55 in pending-live/AU-MED-105-anatomy-questions-ul-c.md (identical vignette and options, sensory loss over the medial hand); not duplicating"
+    }
+  ]
+}
