@@ -48,3 +48,452 @@ Q87 tumor stage is the strongest prognostic factor among the options -- new
 Q88 p53 germline mutation -- multi-cancer family syndrome (Li-Fraumeni) -- new (distinct from pending p53/Mdm2 cell-cycle concept)
 Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
+
+# --- S3b: All Quizzes MPT 2022.pdf (second author lane) -- 441/441 keyed via literal
+# "The correct answer is:" text, no visual key-reading needed. Method + full 52-quiz
+# lecture/page map: coverage/AUN-MPT-104-triage.md, section "S3b". The token before
+# each '#' comment below is the literal seed key used in coverage/seeds/AUN-MPT-104/
+# quizzes-2022.json (ledger.mjs strips '#'-onward before comparing, so this file's
+# authored/held/remaining reconciles exactly, unlike the free-text final-2022 keys above).
+
+quizzes-2022-q001  # Lec1.Q1 p1 [Pathology] Introduction of pathology -- The diagnosis of disease by examination of isolated cells in body ﬂuid
+quizzes-2022-q002  # Lec1.Q2 p1 [Pathology] Introduction of pathology -- The diagnosis of disease from the examination of tissue sections is ca
+quizzes-2022-q003  # Lec1.Q3 p2 [Pathology] Introduction of pathology -- The observation of the pathological changes of organs or tissues by th
+quizzes-2022-q004  # Lec1.Q4 p2 [Pathology] Introduction of pathology -- The prediction of how a patient’s disease will progress is called:
+quizzes-2022-q005  # Lec1.Q5 p2 [Pathology] Introduction of pathology -- The steps or mechanisms of production of the lesion of a disease is te
+quizzes-2022-q006  # Lec1.Q6 p3 [Pathology] Introduction of pathology -- The use of antibodies linked chemically to enzymes to visualize speciﬁ
+quizzes-2022-q007  # Lec1.Q7 p3 [Pathology] Introduction of pathology -- To preserve specimen removed from the body from autolysis we add ﬁxati
+quizzes-2022-q008  # Lec2.Q1 p5 [Pharmacology] Introduction to Pharmacology -- Which of the following steps is most critical to achieve a therapeutic
+quizzes-2022-q009  # Lec2.Q2 p5 [Pharmacology] Introduction to Pharmacology -- What is the approved (generic) name of a drug?
+quizzes-2022-q010  # Lec2.Q3 p6 [Pharmacology] Introduction to Pharmacology -- The most common sequence of pharmacokinetics phases a drug may pass th
+quizzes-2022-q011  # Lec2.Q4 p6 [Pharmacology] Introduction to Pharmacology -- The pharmacodynamics are deﬁned as
+quizzes-2022-q012  # Lec2.Q5 p6 [Pharmacology] Introduction to Pharmacology -- Pharmacodynamics can be deﬁned as the study of
+quizzes-2022-q013  # Lec2.Q6 p7 [Pharmacology] Introduction to Pharmacology -- The pharmacokinetics are deﬁned as
+quizzes-2022-q014  # Lec2.Q7 p7 [Pharmacology] Introduction to Pharmacology -- The deﬁnition of pharmacology is:
+quizzes-2022-q015  # Lec2.Q8 p7 [Pharmacology] Introduction to Pharmacology -- Select the drug from both human and animal sources:
+quizzes-2022-q016  # Lec2.Q9 p8 [Pharmacology] Introduction to Pharmacology -- One of the following routes of medication administration would provide
+quizzes-2022-q017  # Lec3.Q1 p10 [Pathology] Cell injury its mechanism -- Cell death is a sign of:
+quizzes-2022-q018  # Lec3.Q2 p10 [Pathology] Cell injury its mechanism -- Inﬂux of which of the following ions plays a major role in irreversibl
+quizzes-2022-q019  # Lec3.Q3 p11 [Pathology] Cell injury its mechanism -- Irreversible cell injury includes:
+quizzes-2022-q020  # Lec3.Q4 p11 [Pathology] Cell injury its mechanism -- Stimuli causing cellular injury do so by:
+quizzes-2022-q021  # Lec3.Q5 p11 [Pathology] Cell injury its mechanism -- The major mechanism of plasma membrane damage in ischaemia is:
+quizzes-2022-q022  # Lec4.Q1 p13 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- A competitive antagonist affects the agonist --------- and a non-compe
+quizzes-2022-q023  # Lec4.Q2 p13 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- All of the following receptors match with their time scale except:
+quizzes-2022-q024  # Lec4.Q3 p14 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- An antagonist is a substance that:
+quizzes-2022-q025  # Lec4.Q4 p14 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- Muscarinic ACh receptors and adrenergic receptors are associated with
+quizzes-2022-q026  # Lec4.Q5 p14 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- If an agonist can produce maximal effects and has high eﬃcacy its call
+quizzes-2022-q027  # Lec4.Q6 p15 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- If an agonist can produce submaximal effects and has moderate eﬃcacy i
+quizzes-2022-q028  # Lec4.Q7 p15 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- Insulin at insulin receptor interacts with
+quizzes-2022-q029  # Lec4.Q8 p15 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- Intrinsic activity is a drug+IBk-s ability to elicit:
+quizzes-2022-q030  # Lec4.Q9 p16 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- One of the following interact with ligand-gated ion channels:
+quizzes-2022-q031  # Lec4.Q10 p16 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- One of the following is an example of ionotropic receptor
+quizzes-2022-q032  # Lec4.Q11 p16 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- Tick the second messenger of G-protein-coupled (metabotropic)receptor:
+quizzes-2022-q033  # Lec4.Q12 p17 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- Which of the following is NOT a second messenger associated with G pro
+quizzes-2022-q034  # Lec4.Q13 p17 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- Which of the following signaling mechanisms can involve heat-shock pro
+quizzes-2022-q035  # Lec4.Q14 p17 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- Which one of the following statements describes an agonist?
+quizzes-2022-q036  # Lec4.Q15 p18 [Pharmacology] Drug receptors, signaling mechanisms and drug action -- With reference to drug receptors
+quizzes-2022-q037  # Lec5.Q1 p20 [Pathology] Necrosis and apoptosis -- Apoptosis is brought by a group of enzymes called:
+quizzes-2022-q038  # Lec5.Q2 p20 [Pathology] Necrosis and apoptosis -- Bcl2 gene plays an important role in:
+quizzes-2022-q039  # Lec5.Q3 p21 [Pathology] Necrosis and apoptosis -- Enzymatic fat necrosis is characteristic of :
+quizzes-2022-q040  # Lec5.Q4 p21 [Pathology] Necrosis and apoptosis -- Feature of apoptosis include all of the following except:
+quizzes-2022-q041  # Lec5.Q5 p21 [Pathology] Necrosis and apoptosis -- Pulmonary infarction is:
+quizzes-2022-q042  # Lec5.Q6 p22 [Pathology] Necrosis and apoptosis -- The following nuclear changes can be seen in necrotic cells except:
+quizzes-2022-q043  # Lec5.Q7 p22 [Pathology] Necrosis and apoptosis -- Type of necrosis present in tuberculosis:
+quizzes-2022-q044  # Lec5.Q8 p22 [Pathology] Necrosis and apoptosis -- Which of the following describes Karyorrhexis:
+quizzes-2022-q045  # Lec5.Q9 p23 [Pathology] Necrosis and apoptosis -- Liqufactive necrosis is seen in
+quizzes-2022-q046  # Lec5.Q10 p23 [Pathology] Necrosis and apoptosis -- Match
+quizzes-2022-q047  # Lec6.Q1 p25 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- Which of the following statements about spare receptors is most correc
+quizzes-2022-q048  # Lec6.Q2 p26 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- The intrinsic activity or eﬃcacy of a drug is:
+quizzes-2022-q049  # Lec6.Q3 p26 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- ED50 is a measure of:
+quizzes-2022-q050  # Lec6.Q4 p26 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- Sugammadex is a new drug that reverses the action of rocuronium and ce
+quizzes-2022-q051  # Lec6.Q5 p27 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- Which of the following is the median effective dose, or the dose at wh
+quizzes-2022-q052  # Lec6.Q6 p27 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- What does "aﬃnity" mean?
+quizzes-2022-q053  # Lec6.Q7 p27 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- Regarding receptor up regulation, one of the following statements is t
+quizzes-2022-q054  # Lec6.Q8 p28 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- A study was carried out in isolated intestinal smooth muscle preparati
+quizzes-2022-q055  # Lec6.Q9 p28 [Pharmacology] Receptor Regulation and Variation in Drug Responsiveness -- Which ONE of the following drugs is a physiological antagonist to hist
+quizzes-2022-q056  # Lec7.Q1 p30 [Pathology] Cellular accumulations: cloudy swelling, hydropic degeneration and fatty changes -- Cellular swelling of fatty change is an example of:
+quizzes-2022-q057  # Lec7.Q2 p30 [Pathology] Cellular accumulations: cloudy swelling, hydropic degeneration and fatty changes -- Cloudy swelling is characterized by:
+quizzes-2022-q058  # Lec7.Q3 p31 [Pathology] Cellular accumulations: cloudy swelling, hydropic degeneration and fatty changes -- Liver affected by fatty change is characterized by:
+quizzes-2022-q059  # Lec7.Q4 p31 [Pathology] Cellular accumulations: cloudy swelling, hydropic degeneration and fatty changes -- Tigered effect of heart is seen in:
+quizzes-2022-q060  # Lec7.Q5 p31 [Pathology] Cellular accumulations: cloudy swelling, hydropic degeneration and fatty changes -- Which of the following statements is true for hepatic steatosis:
+quizzes-2022-q061  # Lec8.Q1 p33 [Pharmacology] Adverse drug reaction -- A 25-year-old medical student is given a prescription for asthma, whic
+quizzes-2022-q062  # Lec8.Q2 p33 [Pharmacology] Adverse drug reaction -- Therapeutic index for a drug is a measure of :
+quizzes-2022-q063  # Lec8.Q3 p34 [Pharmacology] Adverse drug reaction -- Tachyphylaxis refers to which of the following?
+quizzes-2022-q064  # Lec8.Q4 p34 [Pharmacology] Adverse drug reaction -- Which of the following refers to an increased intensity of response to
+quizzes-2022-q065  # Lec8.Q5 p34 [Pharmacology] Adverse drug reaction -- Which of the following can be used as a relative indicator of the marg
+quizzes-2022-q066  # Lec8.Q6 p35 [Pharmacology] Adverse drug reaction -- Which of the following is considered the therapeutic index (or ratio)?
+quizzes-2022-q067  # Lec8.Q7 p35 [Pharmacology] Adverse drug reaction -- Which of the following parameters is used to indicate the ability of a
+quizzes-2022-q068  # Lec8.Q8 p35 [Pharmacology] Adverse drug reaction -- A 67-year-old hospitalized patient with a deep venous thrombosis of th
+quizzes-2022-q069  # Lec8.Q9 p36 [Pharmacology] Adverse drug reaction -- A 44-year-old black male is brought to the emergency department with 6
+quizzes-2022-q070  # Lec8.Q10 p36 [Pharmacology] Adverse drug reaction -- A 47-year-old woman who has been diagnosed with bipolar disorder needs
+quizzes-2022-q071  # Lec8.Q11 p37 [Pharmacology] Adverse drug reaction -- Two cholesterol-lowering drugs, X and Y, were studied in a large group
+quizzes-2022-q072  # Lec8.Q12 p37 [Pharmacology] Adverse drug reaction -- A 55-year-old woman with hypertension is to be treated with a thiazide
+quizzes-2022-q073  # Lec9.Q1 p39 [Pathology] Cellular accumulations: Amyloidosis, hyalinosis and pathological calcification -- Amyloidosis is commonly associated with:
+quizzes-2022-q074  # Lec9.Q2 p39 [Pathology] Cellular accumulations: Amyloidosis, hyalinosis and pathological calcification -- Dystrophic calcification is most commonly associated with
+quizzes-2022-q075  # Lec9.Q3 p40 [Pathology] Cellular accumulations: Amyloidosis, hyalinosis and pathological calcification -- In renal amyloidosis, which of the following is a site of amyloid depo
+quizzes-2022-q076  # Lec9.Q4 p40 [Pathology] Cellular accumulations: Amyloidosis, hyalinosis and pathological calcification -- Which is true regarding metastatic calcification:
+quizzes-2022-q077  # Lec9.Q5 p40 [Pathology] Cellular accumulations: Amyloidosis, hyalinosis and pathological calcification -- Zenker's degeneration is an example of:
+quizzes-2022-q078  # Lec10.Q1 p41 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- lipid soluble drugs are absorbed mainly by:
+quizzes-2022-q079  # Lec10.Q2 p41 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Iodide has selective accumulation to:
+quizzes-2022-q080  # Lec10.Q3 p42 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Absorption is affected by all the following factors EXCEPT:
+quizzes-2022-q081  # Lec10.Q4 p42 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Drug toxicity is more with:
+quizzes-2022-q082  # Lec10.Q5 p42 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- The transporter protein which responsible for the excretion of some dr
+quizzes-2022-q083  # Lec10.Q6 p43 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Distribution is affected by all the following factors EXCEPT:
+quizzes-2022-q084  # Lec10.Q7 p43 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- An 18-year-old female patient is brought to the emergency department d
+quizzes-2022-q085  # Lec10.Q8 p43 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- The transporter protein which responsible for the uptake of some neuro
+quizzes-2022-q086  # Lec10.Q9 p44 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Drug A is a weakly basic drug with a pKa of 7.8. If administered orall
+quizzes-2022-q087  # Lec10.Q10 p44 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Water soluble drugs are absorbed mainly by:
+quizzes-2022-q088  # Lec10.Q11 p44 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Iron is absorbed mainly by:
+quizzes-2022-q089  # Lec10.Q12 p45 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Character of active transport:
+quizzes-2022-q090  # Lec10.Q13 p45 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Drugs that are highly bound to albumin:
+quizzes-2022-q091  # Lec10.Q14 p45 [Pharmacology] Pharmacokinetics 1 (Absorption & distribution) -- Most drugs gain entry to cells by:
+quizzes-2022-q092  # Lec11.Q1 p46 [Pathology] Cellular adaptation 1 -- Complete absence of an organ is called
+quizzes-2022-q093  # Lec11.Q2 p46 [Pathology] Cellular adaptation 1 -- Which of the following is a character of atrophy?
+quizzes-2022-q094  # Lec11.Q3 p47 [Pathology] Cellular adaptation 1 -- Which of the following is NOT true as regard atrophy?
+quizzes-2022-q095  # Lec12.Q1 p48 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- The addition of glucuronic acid to a drug:
+quizzes-2022-q096  # Lec12.Q2 p48 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Liver enzyme inducers increase the effect of:
+quizzes-2022-q097  # Lec12.Q3 p49 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- A woman is taking oral contraceptives (OCs). Which of the following dr
+quizzes-2022-q098  # Lec12.Q4 p49 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- The main organ which is responsible for drug metabolism is:
+quizzes-2022-q099  # Lec12.Q5 p49 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Biotransformation usually leads to:
+quizzes-2022-q100  # Lec12.Q6 p50 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Phase I reaction includes all the following types of reactions except:
+quizzes-2022-q101  # Lec12.Q7 p50 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Charcoal broiled foods may cause:
+quizzes-2022-q102  # Lec12.Q8 p50 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Slow metabolizers are more liable to:
+quizzes-2022-q103  # Lec12.Q9 p51 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Enterohepatic circulation occurs with:
+quizzes-2022-q104  # Lec12.Q10 p51 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Which of the following is a phase II drug metabolism reaction associat
+quizzes-2022-q105  # Lec12.Q11 p51 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- Failure of oral contraceptive pills may occur due to all the following
+quizzes-2022-q106  # Lec12.Q12 p52 [Pharmacology] Pharmacokinetics 2 (Metabolism & excretion) -- One is true regarding drug excretion:
+quizzes-2022-q107  # Lec13.Q1 p53 [Pathology] Cellular adaptation 2 -- Change of one type of tissue into another type is called:
+quizzes-2022-q108  # Lec13.Q2 p53 [Pathology] Cellular adaptation 2 -- Which of the following is true as regard hyperplasia?
+quizzes-2022-q109  # Lec14.Q1 p54 [Pharmacology] Pharmacokinetics variables 1 -- A drug has been classified under +IBw-D+IB0- in FDA pregnancy categori
+quizzes-2022-q110  # Lec14.Q2 p54 [Pharmacology] Pharmacokinetics variables 1 -- Haemodialysis is useful in cases of toxicity by one of the following d
+quizzes-2022-q111  # Lec14.Q3 p55 [Pharmacology] Pharmacokinetics variables 1 -- Extensive first-pass metabolism does not occur with:
+quizzes-2022-q112  # Lec14.Q4 p55 [Pharmacology] Pharmacokinetics variables 1 -- Vd is affected by all the following factors EXCEPT:
+quizzes-2022-q113  # Lec14.Q5 p55 [Pharmacology] Pharmacokinetics variables 1 -- Drugs with low oral bioavailability are better to be given by all the
+quizzes-2022-q114  # Lec14.Q6 p56 [Pharmacology] Pharmacokinetics variables 1 -- Bioavailability is affected by all the following factors EXCEPT:
+quizzes-2022-q115  # Lec14.Q7 p56 [Pharmacology] Pharmacokinetics variables 1 -- The fraction of a given dose that reaches systemic circulation is:
+quizzes-2022-q116  # Lec14.Q8 p56 [Pharmacology] Pharmacokinetics variables 1 -- Low oral bioavailability may be due to:
+quizzes-2022-q117  # Lec14.Q9 p57 [Pharmacology] Pharmacokinetics variables 1 -- Drug with low Vd is:
+quizzes-2022-q118  # Lec14.Q10 p57 [Pharmacology] Pharmacokinetics variables 1 -- A drug has been classified under "X" in FDA pregnancy categories? What
+quizzes-2022-q119  # Lec15.Q1 p58 [Pathology] Inflammation: definition and causes -- Histamine is:
+quizzes-2022-q120  # Lec15.Q2 p58 [Pathology] Inflammation: definition and causes -- In acute inflammation the exudate has a higher protein content than no
+quizzes-2022-q121  # Lec15.Q3 p59 [Pathology] Inflammation: definition and causes -- What is the first response of arterioles to injury in acute inflammati
+quizzes-2022-q122  # Lec15.Q4 p59 [Pathology] Inflammation: definition and causes -- Which factor is involved in the formation of inflammatory fluid exudat
+quizzes-2022-q123  # Lec15.Q5 p59 [Pathology] Inflammation: definition and causes -- Which of the following is a feature of acute inflammation?
+quizzes-2022-q124  # Lec16.Q1 p60 [Pharmacology] Pharmacokinetics variables 2 -- Clinically used drug may have:
+quizzes-2022-q125  # Lec16.Q2 p60 [Pharmacology] Pharmacokinetics variables 2 -- Constant clearance occurs with high dose of:
+quizzes-2022-q126  # Lec16.Q3 p61 [Pharmacology] Pharmacokinetics variables 2 -- If t1/2 of a drug is 2 days, the Css is reached after:
+quizzes-2022-q127  # Lec16.Q4 p61 [Pharmacology] Pharmacokinetics variables 2 -- If the t 1/2 of a drug is 30 hours, one of the followings is false:
+quizzes-2022-q128  # Lec16.Q5 p61 [Pharmacology] Pharmacokinetics variables 2 -- If the T1/2 of a drug is 18 h, it is better to give this drug every:
+quizzes-2022-q129  # Lec16.Q6 p62 [Pharmacology] Pharmacokinetics variables 2 -- TDM is indicated in all the following conditions EXCEPT:
+quizzes-2022-q130  # Lec16.Q7 p62 [Pharmacology] Pharmacokinetics variables 2 -- TDM is not indicated in patients using:
+quizzes-2022-q131  # Lec16.Q8 p62 [Pharmacology] Pharmacokinetics variables 2 -- The half-life is affected by all the following factors EXCEPT:
+quizzes-2022-q132  # Lec16.Q9 p63 [Pharmacology] Pharmacokinetics variables 2 -- The loading dose depends on:
+quizzes-2022-q133  # Lec16.Q10 p63 [Pharmacology] Pharmacokinetics variables 2 -- The maintenance dose depends on:
+quizzes-2022-q134  # Lec16.Q11 p63 [Pharmacology] Pharmacokinetics variables 2 -- We stopped the use of certain drug when plasma concentration is 100 mg
+quizzes-2022-q135  # Lec17.Q1 p64 [Pathology] Acute inflammation: mechanisms and formation of fluid exudate -- Which is Not an effect of chemical mediator:
+quizzes-2022-q136  # Lec17.Q2 p64 [Pathology] Acute inflammation: mechanisms and formation of fluid exudate -- Which of The following is not a chemical mediator:
+quizzes-2022-q137  # Lec17.Q3 p65 [Pathology] Acute inflammation: mechanisms and formation of fluid exudate -- In acute inflammation, the directed movement of leukocytes towards a p
+quizzes-2022-q138  # Lec18.Q1 p66 [Pharmacology] Introduction to Autonomic Nervous System -- Which of the following statements is correct regarding the sympathetic
+quizzes-2022-q139  # Lec18.Q2 p66 [Pharmacology] Introduction to Autonomic Nervous System -- Which of the following statements concerning the parasympathetic nervo
+quizzes-2022-q140  # Lec18.Q3 p67 [Pharmacology] Introduction to Autonomic Nervous System -- The correct statement about acetylcholine:
+quizzes-2022-q141  # Lec18.Q4 p67 [Pharmacology] Introduction to Autonomic Nervous System -- Which of the following is correct regarding neurotransmitters and neur
+quizzes-2022-q142  # Lec18.Q5 p67 [Pharmacology] Introduction to Autonomic Nervous System -- Which of the following is an expected effect of a therapeutic dose of
+quizzes-2022-q143  # Lec18.Q6 p68 [Pharmacology] Introduction to Autonomic Nervous System -- Influx of what ion causes ACh release into the synaptic cleft, prior t
+quizzes-2022-q144  # Lec18.Q7 p68 [Pharmacology] Introduction to Autonomic Nervous System -- Activation of postsynaptic M2 receptors on the heart is associated wit
+quizzes-2022-q145  # Lec18.Q8 p68 [Pharmacology] Introduction to Autonomic Nervous System -- Which of the following is correct regarding the autonomic nervous syst
+quizzes-2022-q146  # Lec18.Q9 p69 [Pharmacology] Introduction to Autonomic Nervous System -- Indicate the location of M2 cholinoreceptor type:
+quizzes-2022-q147  # Lec18.Q10 p69 [Pharmacology] Introduction to Autonomic Nervous System -- Acetylcholine is not a specific neurotransmitter at:
+quizzes-2022-q148  # Lec18.Q11 p69 [Pharmacology] Introduction to Autonomic Nervous System -- Which of the following statements concerning the parasympathetic nervo
+quizzes-2022-q149  # Lec18.Q12 p70 [Pharmacology] Introduction to Autonomic Nervous System -- Preganglionic sympathetic and parasympathetic fibers release -----, po
+quizzes-2022-q150  # Lec18.Q13 p70 [Pharmacology] Introduction to Autonomic Nervous System -- The activation of muscarinic receptors in bronchiolar smooth muscle is
+quizzes-2022-q151  # Lec19.Q1 p71 [Pathology] Acute suppurative inflammation -- Pyogenic inflammation often leads to:
+quizzes-2022-q152  # Lec19.Q2 p71 [Pathology] Acute suppurative inflammation -- Which of the following is the cause of the diffuse nature of celluliti
+quizzes-2022-q153  # Lec19.Q3 p72 [Pathology] Acute suppurative inflammation -- A localized suppurative with multiple sinuses is called:
+quizzes-2022-q154  # Lec19.Q4 p72 [Pathology] Acute suppurative inflammation -- Cellulitis is caused by:
+quizzes-2022-q155  # Lec19.Q5 p72 [Pathology] Acute suppurative inflammation -- Carbuncle is a:
+quizzes-2022-q156  # Lec19.Q6 p73 [Pathology] Acute suppurative inflammation -- Cellulitis is characterized by:
+quizzes-2022-q157  # Lec20.Q1 p74 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Which one of the following effects is caused by the ingestion of mushr
+quizzes-2022-q158  # Lec20.Q2 p74 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Acetylcholine is not used in clinical practice because:
+quizzes-2022-q159  # Lec20.Q3 p75 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Which of the following is the effect of stimulating muscarinic recepto
+quizzes-2022-q160  # Lec20.Q4 p75 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Following gastrointestinal surgery, your patient remains severely cons
+quizzes-2022-q161  # Lec20.Q5 p75 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- An overdose of muscarinic agonist carbachol but not an overdose of ace
+quizzes-2022-q162  # Lec20.Q6 p76 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Characteristics of carbachol include all of the following Except:
+quizzes-2022-q163  # Lec20.Q7 p76 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Characteristics of carbachol include all of the following EXCEPT:
+quizzes-2022-q164  # Lec20.Q8 p76 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Parasympathomimetic drugs cause:
+quizzes-2022-q165  # Lec20.Q9 p77 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Which of the following is NOT a primary effect of stimulating muscarin
+quizzes-2022-q166  # Lec20.Q10 p77 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Indicate a cholinomimetic agent, which is related to direct-acting dru
+quizzes-2022-q167  # Lec20.Q11 p77 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- What is bethanechol most commonly used for?
+quizzes-2022-q168  # Lec20.Q12 p78 [Pharmacology] Parasympathetic nervous system (Agonists) 1 -- Pilocarpine is most commonly used for?
+quizzes-2022-q169  # Lec21.Q1 p79 [Pathology] Acute non suppurative inflammation -- The main feature of catarrhal inflammation is:
+quizzes-2022-q170  # Lec21.Q2 p79 [Pathology] Acute non suppurative inflammation -- The usual outcome of acute catarrhal inflammation:
+quizzes-2022-q171  # Lec22.Q1 p80 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- Neostigmine differs from pilocarpine in having effects on
+quizzes-2022-q172  # Lec22.Q2 p81 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- An overdose of acetylcholinesterase inhibitor neostigmine but not an o
+quizzes-2022-q173  # Lec22.Q3 p81 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- What type of drug is rivastigmine?
+quizzes-2022-q174  # Lec22.Q4 p81 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- Which of the following is the best drug for distinguishing between mya
+quizzes-2022-q175  # Lec22.Q5 p82 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- Which of the following drugs is irreversible cholinesterase inhibitor?
+quizzes-2022-q176  # Lec22.Q6 p82 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- In Alzheimers disease, there is a deficiency of cholinergic neuronal f
+quizzes-2022-q177  # Lec22.Q7 p82 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- Which of the following reversible cholinesterase inhibitors is used fo
+quizzes-2022-q178  # Lec22.Q8 p83 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- A 5-year-old child becomes ill while visiting relatives who have a far
+quizzes-2022-q179  # Lec22.Q9 p83 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- An elderly female who lives in a farm house was brought to the emergen
+quizzes-2022-q180  # Lec22.Q10 p84 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- Sarin is a volatile nerve agent that inhibits cholinesterase enzymes.
+quizzes-2022-q181  # Lec22.Q11 p84 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- In case of organophosphate insecticide poisoning, which of the followi
+quizzes-2022-q182  # Lec22.Q12 p84 [Pharmacology] Parasympathetic nervous system (Agonists) 2 -- Head and neck irradiation in cancer patients can decrease salivary sec
+quizzes-2022-q183  # Lec23.Q1 p85 [Pathology] Chronic inflammation definition and types -- Endarteritis obliterans means:
+quizzes-2022-q184  # Lec23.Q2 p85 [Pathology] Chronic inflammation definition and types -- The following are NOT chronic inflammatory cells:
+quizzes-2022-q185  # Lec23.Q3 p86 [Pathology] Chronic inflammation definition and types -- The most important cell in the development of a granuloma is a:
+quizzes-2022-q186  # Lec24.Q1 p87 [Pharmacology] Parasympathetic nervous system (Antagonists) -- Adverse effects which frequently occur during treatment with high dose
+quizzes-2022-q187  # Lec24.Q2 p87 [Pharmacology] Parasympathetic nervous system (Antagonists) -- Which of the following is an adverse effect of atropine?
+quizzes-2022-q188  # Lec24.Q3 p88 [Pharmacology] Parasympathetic nervous system (Antagonists) -- A patient presents at Assiut University Hospital with high fever, hall
+quizzes-2022-q189  # Lec24.Q4 p88 [Pharmacology] Parasympathetic nervous system (Antagonists) -- What type of drugs is scopolamine?
+quizzes-2022-q190  # Lec24.Q5 p88 [Pharmacology] Parasympathetic nervous system (Antagonists) -- A patient with chronic obstructive pulmonary disease (COPD) was prescr
+quizzes-2022-q191  # Lec24.Q6 p89 [Pharmacology] Parasympathetic nervous system (Antagonists) -- Urination in the human subject is decreased by
+quizzes-2022-q192  # Lec24.Q7 p89 [Pharmacology] Parasympathetic nervous system (Antagonists) -- A patient presents to the physician with a dilated right eye and compl
+quizzes-2022-q193  # Lec24.Q8 p89 [Pharmacology] Parasympathetic nervous system (Antagonists) -- Atropine is one of the ingredients in the antidiarrheal combination di
+quizzes-2022-q194  # Lec24.Q9 p90 [Pharmacology] Parasympathetic nervous system (Antagonists) -- Which of the following drugs is ganglion blocker?
+quizzes-2022-q195  # Lec24.Q10 p90 [Pharmacology] Parasympathetic nervous system (Antagonists) -- Which of the following drugs would be the most effective anti-motion s
+quizzes-2022-q196  # Lec24.Q11 p90 [Pharmacology] Parasympathetic nervous system (Antagonists) -- Muscarinic antagonists are useful for all of the following EXCEPT:
+quizzes-2022-q197  # Lec24.Q12 p91 [Pharmacology] Parasympathetic nervous system (Antagonists) -- An 11 year old boy was brought to the ER by some of his friends becaus
+quizzes-2022-q198  # Lec25.Q1 p92 [Pathology] Granuloma: types and mechanisms -- Which of the following best explains the pathogenesis of granuloma?
+quizzes-2022-q199  # Lec25.Q2 p92 [Pathology] Granuloma: types and mechanisms -- Which of the following cell types would be most characteristic of the
+quizzes-2022-q200  # Lec25.Q3 p93 [Pathology] Granuloma: types and mechanisms -- Which of the following is a cause of non infective granuloma:
+quizzes-2022-q201  # Lec25.Q4 p93 [Pathology] Granuloma: types and mechanisms -- Bilharzial granuloma depend on:
+quizzes-2022-q202  # Lec25.Q5 p93 [Pathology] Granuloma: types and mechanisms -- Epithelioid cells are modiﬁed:
+quizzes-2022-q203  # Lec25.Q6 p94 [Pathology] Granuloma: types and mechanisms -- Ghon's focus consists of:
+quizzes-2022-q204  # Lec25.Q7 p94 [Pathology] Granuloma: types and mechanisms -- Langhans' giant cells result from fusion of:
+quizzes-2022-q205  # Lec25.Q8 p94 [Pathology] Granuloma: types and mechanisms -- The appearance of granulomas with Langhans giant cells and caseation i
+quizzes-2022-q206  # Lec25.Q9 p95 [Pathology] Granuloma: types and mechanisms -- The chronic inﬂammation of a delayed hypersensitivity reaction is medi
+quizzes-2022-q207  # Lec26.Q1 p97 [Pharmacology] Sympathetic nervous system (agonists) 1 -- Activation of prejunctional α2 receptors on sympathetic nerve endings
+quizzes-2022-q208  # Lec26.Q2 p97 [Pharmacology] Sympathetic nervous system (agonists) 1 -- Epinephrine is used in the treatment of all the following conditions E
+quizzes-2022-q209  # Lec26.Q3 p98 [Pharmacology] Sympathetic nervous system (agonists) 1 -- Norepinephrine is used by:
+quizzes-2022-q210  # Lec26.Q4 p98 [Pharmacology] Sympathetic nervous system (agonists) 1 -- The following sympathomimetic amine has agonistic action on alpha1 + a
+quizzes-2022-q211  # Lec26.Q5 p98 [Pharmacology] Sympathetic nervous system (agonists) 1 -- The principal process which terminates the action of noradrenaline rel
+quizzes-2022-q212  # Lec26.Q6 p99 [Pharmacology] Sympathetic nervous system (agonists) 1 -- Which of the following is a noncatecholamine sympathomimetic:
+quizzes-2022-q213  # Lec26.Q7 p99 [Pharmacology] Sympathetic nervous system (agonists) 1 -- Which one of the following sites is characterized by adrenergic transm
+quizzes-2022-q214  # Lec27.Q1 p101 [Pathology] Tissue repair: types and mechanisms -- 8- Organization means replacement of the damaged tissue by:
+quizzes-2022-q215  # Lec27.Q2 p102 [Pathology] Tissue repair: types and mechanisms -- A 25-year-old has an appendectomy, one month later she palpates a smal
+quizzes-2022-q216  # Lec27.Q3 p102 [Pathology] Tissue repair: types and mechanisms -- A 58-year-old man had chest pain persisting for 4 hours. A radiographi
+quizzes-2022-q217  # Lec27.Q4 p102 [Pathology] Tissue repair: types and mechanisms -- Cells which never regenerate are called:
+quizzes-2022-q218  # Lec27.Q5 p103 [Pathology] Tissue repair: types and mechanisms -- Labile cells are:
+quizzes-2022-q219  # Lec27.Q6 p103 [Pathology] Tissue repair: types and mechanisms -- Regeneration means:
+quizzes-2022-q220  # Lec27.Q7 p103 [Pathology] Tissue repair: types and mechanisms -- Stable cells are:
+quizzes-2022-q221  # Lec27.Q8 p104 [Pathology] Tissue repair: types and mechanisms -- Which of the following is an Examples of permanent cells?
+quizzes-2022-q222  # Lec28.Q1 p106 [Pharmacology] Sympathetic nervous system (agonists) 2 -- One of the following statements is TRUE regarding sympathomimetics:
+quizzes-2022-q223  # Lec28.Q2 p106 [Pharmacology] Sympathetic nervous system (agonists) 2 -- A sympathomimetic amine that acts almost exclusively by releasing nora
+quizzes-2022-q224  # Lec28.Q3 p107 [Pharmacology] Sympathetic nervous system (agonists) 2 -- A 45-year-old Nobel Prize-winner in chemistry has recently been the re
+quizzes-2022-q225  # Lec28.Q4 p107 [Pharmacology] Sympathetic nervous system (agonists) 2 -- Phenylephrine instilled in the eye produces:
+quizzes-2022-q226  # Lec28.Q5 p107 [Pharmacology] Sympathetic nervous system (agonists) 2 -- Regarding Amphetamine, one of the following sttaments is TRUE:
+quizzes-2022-q227  # Lec28.Q6 p108 [Pharmacology] Sympathetic nervous system (agonists) 2 -- Dopaminergic D1 and D2 as well as adrenergic alpha and beta receptors
+quizzes-2022-q228  # Lec28.Q7 p108 [Pharmacology] Sympathetic nervous system (agonists) 2 -- Select the side-effect characteristic for selective beta2-adrenomimics
+quizzes-2022-q229  # Lec29.Q1 p110 [Pathology] Tissue repair: Factors affecting and complications -- A 19-year-old man incurs a stab wound to the chest. The wound is treat
+quizzes-2022-q230  # Lec29.Q2 p111 [Pathology] Tissue repair: Factors affecting and complications -- A 20-year-old woman sustains an injury to her right calf in a mountain
+quizzes-2022-q231  # Lec29.Q3 p111 [Pathology] Tissue repair: Factors affecting and complications -- The following lesion does NOT heal by second intention:
+quizzes-2022-q232  # Lec29.Q4 p111 [Pathology] Tissue repair: Factors affecting and complications -- Which of the following is a feature of healing by second intention?
+quizzes-2022-q233  # Lec29.Q5 p112 [Pathology] Tissue repair: Factors affecting and complications -- Which of the following is characteristic for healing by ﬁrst intention
+quizzes-2022-q234  # Lec30.Q1 p114 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- A 34-year-old man is prescribed labetalol for hypertension. The effect
+quizzes-2022-q235  # Lec30.Q2 p114 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- Which of the following actions of epinephrine is blocked by prazosin?
+quizzes-2022-q236  # Lec30.Q3 p115 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- One of the following drugs is the most appropriate for treating patien
+quizzes-2022-q237  # Lec30.Q4 p115 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- The duration of action of doxazosin is:
+quizzes-2022-q238  # Lec30.Q5 p115 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- Which of the following is the least likely clinical use for +A7I--adre
+quizzes-2022-q239  # Lec30.Q6 p116 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- Stimulation of presynaptic t2 receptors by clonidine results in:
+quizzes-2022-q240  # Lec30.Q7 p116 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- Labetalol is an effective antihypertensive agent that, like propranolo
+quizzes-2022-q241  # Lec30.Q8 p116 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- Pheochromocytoma is better to be treated by:
+quizzes-2022-q242  # Lec30.Q9 p117 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- Stimulation of which of the following autonomic receptors would be exp
+quizzes-2022-q243  # Lec30.Q10 p117 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- 14 years old Ms. Fahima was brought at casualty of Dammam Central Hosp
+quizzes-2022-q244  # Lec30.Q11 p117 [Pharmacology] Sympathetic nervous system (antagonists) 1 -- 28 years old Mr. Nagy was hypertensive since last 5 years. He came to
+quizzes-2022-q245  # Lec31.Q1 p119 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- A 22-year-old second-year medical student develops a “red” face after
+quizzes-2022-q246  # Lec31.Q2 p120 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- A 60-year-old woman sustained fractures of the right femur, pelvis, an
+quizzes-2022-q247  # Lec31.Q3 p120 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- Chronic general venous congestion is noticed in patients with:
+quizzes-2022-q248  # Lec31.Q4 p120 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- Detached non septic venous thrombus goes to the:
+quizzes-2022-q249  # Lec31.Q5 p121 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- In phlebothrombosis the thrombus is formed in:
+quizzes-2022-q250  # Lec31.Q6 p121 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- Lines of Zahn consist of:
+quizzes-2022-q251  # Lec31.Q7 p121 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- Soft mass of blood constituents in a stagnant blood inside the vessel
+quizzes-2022-q252  # Lec31.Q8 p122 [Pathology] Heamodynamic disorders: Hyperemia, congestion and thrombosis -- Virchow’s triad is concerned with the formation of:
+quizzes-2022-q253  # Lec32.Q1 p124 [Pharmacology] Sympathetic nervous system (antagonists) 2 -- 35 years old patient was operated for inguinal hernia. Surgeon decided
+quizzes-2022-q254  # Lec32.Q2 p125 [Pharmacology] Sympathetic nervous system (antagonists) 2 -- In a hypertensive patient who is treated with insulin for diabetes mel
+quizzes-2022-q255  # Lec32.Q3 p125 [Pharmacology] Sympathetic nervous system (antagonists) 2 -- One of the following statements is FALSE regarding Beta-blockers:
+quizzes-2022-q256  # Lec32.Q4 p125 [Pharmacology] Sympathetic nervous system (antagonists) 2 -- The +A7I- adrenergic blocker having BETA 1 selectivity, intrinsic symp
+quizzes-2022-q257  # Lec32.Q5 p126 [Pharmacology] Sympathetic nervous system (antagonists) 2 -- Which of the following W- blockers would be most likely to worsen exer
+quizzes-2022-q258  # Lec33.Q1 p128 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- 76-year-old woman is hospitalized after falling and fracturing her lef
+quizzes-2022-q259  # Lec33.Q2 p129 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- A 55-year-old woman has had discomfort and swelling of the left leg fo
+quizzes-2022-q260  # Lec33.Q3 p129 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- A detached intravascular mass carried by the blood from its point of o
+quizzes-2022-q261  # Lec33.Q4 p129 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- A patient admits to the emergency unit after a neck vein stabbing woun
+quizzes-2022-q262  # Lec33.Q5 p130 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- A red infarction is seen in:
+quizzes-2022-q263  # Lec33.Q6 p130 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Cerebral infarction is:
+quizzes-2022-q264  # Lec33.Q7 p130 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Fat embolism can originate from:
+quizzes-2022-q265  # Lec33.Q8 p131 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Infarction is due to:
+quizzes-2022-q266  # Lec33.Q9 p131 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Infarcts occurs due to of arterial occlusion in solid organs such as t
+quizzes-2022-q267  # Lec33.Q10 p131 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Ischaemia can result from:
+quizzes-2022-q268  # Lec33.Q11 p132 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Microscopic examination of tissue taken from pyramidal shape pale lesi
+quizzes-2022-q269  # Lec33.Q12 p132 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- The commonest cause of chronic ischaemia is:
+quizzes-2022-q270  # Lec33.Q13 p132 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- The most frequent type of embolism is produced by:
+quizzes-2022-q271  # Lec33.Q14 p133 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- The spleen of a 26 year old male who died from complications of subacu
+quizzes-2022-q272  # Lec33.Q15 p133 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- which of the following sites of thrombi can be the source pulmonary em
+quizzes-2022-q273  # Lec33.Q16 p133 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- A thrombus in leg veins can be complicated by pulmonary embolism
+quizzes-2022-q274  # Lec33.Q17 p134 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Fat embolism is the most common type of emboli
+quizzes-2022-q275  # Lec33.Q18 p134 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Pale infarct occurs in highly vascular organs
+quizzes-2022-q276  # Lec33.Q19 p134 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Embolism means circulation of an embolus in a blood vessel.
+quizzes-2022-q277  # Lec33.Q20 p134 [Pathology] Heamodynamic disorders: Embolism, ischemia and infarction -- Septic thrombophlebitis plays an important role in the pathogenesis of
+quizzes-2022-q278  # Lec34.Q1 p136 [Pharmacology] Autacoids 1 -- A 43-year-old ship's captain complains of seasonal allergies. Which on
+quizzes-2022-q279  # Lec34.Q2 p136 [Pharmacology] Autacoids 1 -- Which one of the following statements regarding drug effects on seroto
+quizzes-2022-q280  # Lec34.Q3 p137 [Pharmacology] Autacoids 1 -- The widely used anticonvulsant phenytoin is often implicated in drug i
+quizzes-2022-q281  # Lec34.Q4 p137 [Pharmacology] Autacoids 1 -- A patient undergoing chemotherapy with cisplatin has severe nausea. Wh
+quizzes-2022-q282  # Lec34.Q5 p137 [Pharmacology] Autacoids 1 -- Ranitidine inhibits which of the following:
+quizzes-2022-q283  # Lec34.Q6 p138 [Pharmacology] Autacoids 1 -- You see a 43-year-old man long-distance truck driver in the clinic who
+quizzes-2022-q284  # Lec35.Q1 p140 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- A 55 years old man had chronic liver disease. On examination, there is
+quizzes-2022-q285  # Lec35.Q2 p141 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- A 78-year-old woman falls in the bathtub and strikes the back of her h
+quizzes-2022-q286  # Lec35.Q3 p141 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- All are forms of external haemorrhage Except:
+quizzes-2022-q287  # Lec35.Q4 p141 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- An example of local edema:
+quizzes-2022-q288  # Lec35.Q5 p142 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- cardiac edema starts in :
+quizzes-2022-q289  # Lec35.Q6 p142 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Exudate is characterised by:
+quizzes-2022-q290  # Lec35.Q7 p142 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Frequent loss of a small amount of blood may result in:
+quizzes-2022-q291  # Lec35.Q8 p143 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- In cardiac oedema:
+quizzes-2022-q292  # Lec35.Q9 p143 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Moist gangrene is characterized by:
+quizzes-2022-q293  # Lec35.Q10 p143 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Oedema is generalized in:
+quizzes-2022-q294  # Lec35.Q11 p144 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- The tissue affected by gangrene has a bad odour because of:
+quizzes-2022-q295  # Lec35.Q12 p144 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Which of the following is a type of internal haemorrhage:
+quizzes-2022-q296  # Lec35.Q13 p144 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Which of the following type of oedema is non-pitting:
+quizzes-2022-q297  # Lec35.Q14 p145 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Which of the following types of gangrene occur as a result of torsion
+quizzes-2022-q298  # Lec35.Q15 p145 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Frequent loss of small amount of blood for long period has no effect.
+quizzes-2022-q299  # Lec35.Q16 p145 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- The prognosis of wet gangrene is worse than that of dry gangrene
+quizzes-2022-q300  # Lec35.Q17 p145 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Gangrene means necrosis with putrefaction
+quizzes-2022-q301  # Lec35.Q18 p146 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Cardiac oedema is a localised type of oedema
+quizzes-2022-q302  # Lec35.Q19 p146 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Gangrene of the lower limbs is of the dry type due to evaporation of ﬂ
+quizzes-2022-q303  # Lec35.Q20 p146 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Match
+quizzes-2022-q304  # Lec35.Q21 p147 [Pathology] Heamodynamic disorders: Gangrene, heamorhage and edema -- Match
+quizzes-2022-q305  # Lec36.Q1 p149 [Pharmacology] Autacoids 2 -- Which antihypertensive medication can cause the rare side effect of an
+quizzes-2022-q306  # Lec36.Q2 p149 [Pharmacology] Autacoids 2 -- A 45-year-old man was started on therapy for hypertension and develope
+quizzes-2022-q307  # Lec36.Q3 p150 [Pharmacology] Autacoids 2 -- Which of the following is an advantage of losartan over enalapril?
+quizzes-2022-q308  # Lec36.Q4 p150 [Pharmacology] Autacoids 2 -- Enhancement of the effects of bradykinin is most with one of the follo
+quizzes-2022-q309  # Lec36.Q5 p150 [Pharmacology] Autacoids 2 -- Which one of the following is the most appropriate drug to use for the
+quizzes-2022-q310  # Lec36.Q6 p151 [Pharmacology] Autacoids 2 -- A woman with high blood pressure is given a drug that is considered a
+quizzes-2022-q311  # Lec37.Q1 p153 [Pathology] Neoplasia: definition and classification -- A benign tumour usually shows:
+quizzes-2022-q312  # Lec37.Q2 p153 [Pathology] Neoplasia: definition and classification -- A malignant ulcer is characterized by:
+quizzes-2022-q313  # Lec37.Q3 p154 [Pathology] Neoplasia: definition and classification -- Neoplasia is an autonomous growth characterized by:
+quizzes-2022-q314  # Lec37.Q4 p154 [Pathology] Neoplasia: definition and classification -- The edge of a malignant ulcer is:
+quizzes-2022-q315  # Lec37.Q5 p154 [Pathology] Neoplasia: definition and classification -- The nuclei of malignant cells show:
+quizzes-2022-q316  # Lec37.Q6 p155 [Pathology] Neoplasia: definition and classification -- Which of these benign tumours is uncapsulated ?
+quizzes-2022-q317  # Lec38.Q1 p157 [Pharmacology] Autacoids 3 -- Zileuton is effective in relieving asthma because it produces one of t
+quizzes-2022-q318  # Lec38.Q2 p157 [Pharmacology] Autacoids 3 -- For temporary maintenance of a patent ductus arteriosus, the drug of c
+quizzes-2022-q319  # Lec38.Q3 p158 [Pharmacology] Autacoids 3 -- A 34-year-old man complains of nasal congestion and a "runny nose" He
+quizzes-2022-q320  # Lec38.Q4 p158 [Pharmacology] Autacoids 3 -- 38-year-old woman is taking ibuprofen for severe dysmenorrhea but deve
+quizzes-2022-q321  # Lec38.Q5 p158 [Pharmacology] Autacoids 3 -- Which one of the following is approved for "ripening" of an unfavorabl
+quizzes-2022-q322  # Lec38.Q6 p159 [Pharmacology] Autacoids 3 -- Which of the following enzymes do leukotrienes require for their biosy
+quizzes-2022-q323  # Lec39.Q1 p161 [Pathology] Neoplasia: characters of benign and malignant -- Benign tumours show:
+quizzes-2022-q324  # Lec39.Q2 p161 [Pathology] Neoplasia: characters of benign and malignant -- Malignat tumours characterized by:
+quizzes-2022-q325  # Lec39.Q3 p162 [Pathology] Neoplasia: characters of benign and malignant -- The histological grade of malignant neoplasm describes:
+quizzes-2022-q326  # Lec39.Q4 p162 [Pathology] Neoplasia: characters of benign and malignant -- The most important factor in prognosis of malignant tumours is:
+quizzes-2022-q327  # Lec39.Q5 p162 [Pathology] Neoplasia: characters of benign and malignant -- A 48-year-old woman goes to her physician for a routine physical exami
+quizzes-2022-q328  # Lec39.Q6 p163 [Pathology] Neoplasia: characters of benign and malignant -- A study is performed to analyze characteristics of malignant neoplasms
+quizzes-2022-q329  # Lec40.Q1 p165 [Pharmacology] Introduction to Antimicrobial therapy -- The best effective prophylactic drug in streptococcus haemolyticus is:
+quizzes-2022-q330  # Lec40.Q2 p165 [Pharmacology] Introduction to Antimicrobial therapy -- Pick out the β -lactamase inhibitor for co-administration with penicil
+quizzes-2022-q331  # Lec40.Q3 p166 [Pharmacology] Introduction to Antimicrobial therapy -- Resistance to Penicillin and other β - lactams is due to:
+quizzes-2022-q332  # Lec40.Q4 p166 [Pharmacology] Introduction to Antimicrobial therapy -- Concerning vancomycin, the following is correct EXCEPT:
+quizzes-2022-q333  # Lec40.Q5 p166 [Pharmacology] Introduction to Antimicrobial therapy -- A characteristic adverse effect associated with the use of Ampicillin
+quizzes-2022-q334  # Lec40.Q6 p167 [Pharmacology] Introduction to Antimicrobial therapy -- A patient with hypersensitivity to pencillin V acquired an infection w
+quizzes-2022-q335  # Lec40.Q7 p167 [Pharmacology] Introduction to Antimicrobial therapy -- One of the following about ceftriaxone is correct:
+quizzes-2022-q336  # Lec41.Q1 p169 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- Degradation of the ECM occurs by proteolytic enzymes secreted by tumou
+quizzes-2022-q337  # Lec41.Q2 p169 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- In carcinoma distant spread occurs early through:
+quizzes-2022-q338  # Lec41.Q3 p170 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- In examining a lymph node microscopically for suspicion of metastasis,
+quizzes-2022-q339  # Lec41.Q4 p170 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- Normal cells are glued to each other and to their surroundings by a va
+quizzes-2022-q340  # Lec41.Q5 p170 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- Perineural invasion in malignant tumors cause:
+quizzes-2022-q341  # Lec41.Q6 p171 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- Tumour angiogenesis occurs under the influence of:
+quizzes-2022-q342  # Lec41.Q7 p171 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- Arteries are rarely invaded by malignant cells as their wall is rich i
+quizzes-2022-q343  # Lec41.Q8 p171 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- Spread to the skin or mucous membranes results in a malignant ulcer.
+quizzes-2022-q344  # Lec41.Q9 p171 [Pathology] Neoplasia: Mechanisms of spread of malignant tumors -- Carcinomas spread early by blood while sarcomas spread early by lympha
+quizzes-2022-q345  # Lec42.Q1 p172 [Pharmacology] Antimicrobial therapy 1 -- A patient is being discharged from the hospital on a 3-week course of
+quizzes-2022-q346  # Lec42.Q2 p172 [Pharmacology] Antimicrobial therapy 1 -- All of them belongs to macrolides EXCEPT:
+quizzes-2022-q347  # Lec42.Q3 p173 [Pharmacology] Antimicrobial therapy 1 -- Concerning Aminoglycosides, the following are true except:
+quizzes-2022-q348  # Lec42.Q4 p173 [Pharmacology] Antimicrobial therapy 1 -- Macrolids are -------- ribosomal subunit inhibitors that are ---------
+quizzes-2022-q349  # Lec42.Q5 p173 [Pharmacology] Antimicrobial therapy 1 -- Which of the following is used safely in pregnancy?
+quizzes-2022-q350  # Lec42.Q6 p174 [Pharmacology] Antimicrobial therapy 1 -- Which of the following antibiotic combinations is inappropriate based
+quizzes-2022-q351  # Lec42.Q7 p174 [Pharmacology] Antimicrobial therapy 1 -- The main reason for limited use of chloramphenicol is the high inciden
+quizzes-2022-q352  # Lec42.Q8 p174 [Pharmacology] Antimicrobial therapy 1 -- Aminoglycosides inhibit bacterial protein synthesis by:
+quizzes-2022-q353  # Lec43.Q1 p175 [Pathology] Neoplasia: Routes of spread of malignant tumors -- An epithelial neoplasm exhibiting all the cellular features associated
+quizzes-2022-q354  # Lec43.Q2 p175 [Pathology] Neoplasia: Routes of spread of malignant tumors -- One of the locally malignant tumours is:
+quizzes-2022-q355  # Lec43.Q3 p176 [Pathology] Neoplasia: Routes of spread of malignant tumors -- Osteoclastoma is:
+quizzes-2022-q356  # Lec43.Q4 p176 [Pathology] Neoplasia: Routes of spread of malignant tumors -- Which of the following statements is not true about distant metastases
+quizzes-2022-q357  # Lec43.Q5 p176 [Pathology] Neoplasia: Routes of spread of malignant tumors -- Which of the following statements is true for carcinoma in situ:
+quizzes-2022-q358  # Lec43.Q6 p177 [Pathology] Neoplasia: Routes of spread of malignant tumors -- Which one of these tumours metastasizing in bone is osteosclerotic:
+quizzes-2022-q359  # Lec44.Q1 p178 [Pharmacology] Antimicrobial therapy 2 -- A patient admitted to the gastroenterology service is being treated wi
+quizzes-2022-q360  # Lec44.Q2 p178 [Pharmacology] Antimicrobial therapy 2 -- All the following are true concerning co-trimoxazole EXCEPT:
+quizzes-2022-q361  # Lec44.Q3 p179 [Pharmacology] Antimicrobial therapy 2 -- Which antibiotic produces crystalluria?
+quizzes-2022-q362  # Lec44.Q4 p179 [Pharmacology] Antimicrobial therapy 2 -- Pseudomembranous colitis may be treated with:
+quizzes-2022-q363  # Lec44.Q5 p179 [Pharmacology] Antimicrobial therapy 2 -- Which of the following is a side effect of ciprofloxacin?
+quizzes-2022-q364  # Lec45.Q1 p180 [Pathology] Etiology of cancers and laboratory diagnosis -- A 42 years old fair skin man has a skin nodule on the right hand. It b
+quizzes-2022-q365  # Lec45.Q2 p180 [Pathology] Etiology of cancers and laboratory diagnosis -- Chemical carcinogens include all EXCEPT:
+quizzes-2022-q366  # Lec45.Q3 p181 [Pathology] Etiology of cancers and laboratory diagnosis -- Epstein-Barr virus is associated with development of:
+quizzes-2022-q367  # Lec45.Q4 p181 [Pathology] Etiology of cancers and laboratory diagnosis -- Genes that function in a manner that prevents malignant transformation
+quizzes-2022-q368  # Lec45.Q5 p181 [Pathology] Etiology of cancers and laboratory diagnosis -- Genes that promote autonomous cell growth in cancer cells are called:
+quizzes-2022-q369  # Lec45.Q6 p182 [Pathology] Etiology of cancers and laboratory diagnosis -- H pylori infection is involved in development of:
+quizzes-2022-q370  # Lec45.Q7 p182 [Pathology] Etiology of cancers and laboratory diagnosis -- Human papilloma virus is associated with:
+quizzes-2022-q371  # Lec45.Q8 p182 [Pathology] Etiology of cancers and laboratory diagnosis -- The following cancer is NOT related to virus Infection:
+quizzes-2022-q372  # Lec45.Q9 p183 [Pathology] Etiology of cancers and laboratory diagnosis -- The most important carcinogenic virus in Egypt is:
+quizzes-2022-q373  # Lec45.Q10 p183 [Pathology] Etiology of cancers and laboratory diagnosis -- Toxic metabolites produced by the fungus Aspergillus flavus contaminat
+quizzes-2022-q374  # Lec45.Q11 p183 [Pathology] Etiology of cancers and laboratory diagnosis -- Oncogenes are genes responsible for initiation and progression of canc
+quizzes-2022-q375  # Lec45.Q12 p184 [Pathology] Etiology of cancers and laboratory diagnosis -- Tumour markers are proteins produced by the tumours and help in the di
+quizzes-2022-q376  # Lec45.Q13 p184 [Pathology] Etiology of cancers and laboratory diagnosis -- Histologic examination of the tumour is NOT the most definite method o
+quizzes-2022-q377  # Lec45.Q14 p184 [Pathology] Etiology of cancers and laboratory diagnosis -- breast cancer is one of hormone dependant tumors
+quizzes-2022-q378  # Lec45.Q15 p184 [Pathology] Etiology of cancers and laboratory diagnosis -- Anticnacer treatment are implicated in development of other malignanci
+quizzes-2022-q379  # Lec45.Q16 p185 [Pathology] Etiology of cancers and laboratory diagnosis -- Tumour markers are antigens produced by the tumours in blood and help
+quizzes-2022-q380  # Lec45.Q17 p185 [Pathology] Etiology of cancers and laboratory diagnosis -- Histologic examination of the tumour is NOT the most definite method o
+quizzes-2022-q381  # Lec45.Q18 p185 [Pathology] Etiology of cancers and laboratory diagnosis -- Precancerous lesions are stage 1 of cancer
+quizzes-2022-q382  # Lec45.Q19 p185 [Pathology] Etiology of cancers and laboratory diagnosis -- Some benign tumors are considered as precancerous lesions
+quizzes-2022-q383  # Lec46.Q1 p186 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 1 -- A male patient presents with lower abdominal discomfort, flatulence, a
+quizzes-2022-q384  # Lec46.Q2 p186 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 1 -- Which helminthic infection does not respond to treatment with praziqua
+quizzes-2022-q385  # Lec46.Q3 p187 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 1 -- After the acute infection, which of the following medications is given
+quizzes-2022-q386  # Lec46.Q4 p187 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 1 -- Which drug should be used for oral treatment of the acute attack of P
+quizzes-2022-q387  # Lec46.Q5 p187 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 1 -- The drug regimen most likely to be effective in treating severe extrai
+quizzes-2022-q388  # Lec46.Q6 p188 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 1 -- Which ONE of the following drugs is efficiently used in management of
+quizzes-2022-q389  # Lec46.Q7 p188 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 1 -- A traveler in a geographical region where chloroquine-resistant P falc
+quizzes-2022-q390  # Lec47.Q1 p189 [Pathology] Benign epithelial tumors classification and examples -- A benign epithelial cell neoplasm derived from non-glandular surfaces
+quizzes-2022-q391  # Lec47.Q2 p189 [Pathology] Benign epithelial tumors classification and examples -- A benign epithelial cell neoplasm derived from non-glandular surfaces
+quizzes-2022-q392  # Lec47.Q3 p190 [Pathology] Benign epithelial tumors classification and examples -- If a tumor is benign and glandular in origin, what is it called?
+quizzes-2022-q393  # Lec47.Q4 p190 [Pathology] Benign epithelial tumors classification and examples -- If a tumor is benign and glandular in origin, what is it called?
+quizzes-2022-q394  # Lec47.Q5 p190 [Pathology] Benign epithelial tumors classification and examples -- Which of the following is a benign tumor of the epithelium characteriz
+quizzes-2022-q395  # Lec47.Q6 p191 [Pathology] Benign epithelial tumors classification and examples -- Fibroadenoma is a benign tumor of the breast.
+quizzes-2022-q396  # Lec47.Q7 p191 [Pathology] Benign epithelial tumors classification and examples -- -------------------------------
+quizzes-2022-q397  # Lec47.Q8 p191 [Pathology] Benign epithelial tumors classification and examples -- Adenomas are benign tumors of surface epithelium.
+quizzes-2022-q398  # Lec47.Q9 p191 [Pathology] Benign epithelial tumors classification and examples -- Duct papilloma is a benign tumor arise from the breast and Pleomorphic
+quizzes-2022-q399  # Lec48.Q1 p192 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 2 -- Which ONE of the following drugs Is used to inhibit herpes viruses?
+quizzes-2022-q400  # Lec48.Q2 p192 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 2 -- A 27-year-old nursing mother is diagnosed as suffering from genital he
+quizzes-2022-q401  # Lec48.Q3 p193 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 2 -- The drug most likely to suppress herpetic infections and provide proph
+quizzes-2022-q402  # Lec48.Q4 p193 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 2 -- All the following agents can be used effectively in eradication of HCV
+quizzes-2022-q403  # Lec48.Q5 p193 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 2 -- All the following agents can be used effectively in eradication of inf
+quizzes-2022-q404  # Lec48.Q6 p194 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 2 -- Oseltamivir can eradicate H1N1 influenza virus through:
+quizzes-2022-q405  # Lec48.Q7 p194 [Pharmacology] Commonly used Antiviral, antihelmentics, antiprotozoal 2 -- Interferons are protective glycoproteins that can be used effectively
+quizzes-2022-q406  # Lec49.Q1 p195 [Pathology] Malignant epithelial tumors classification and examples -- A 62 years male patient has hematuria for many times in past week. Cyt
+quizzes-2022-q407  # Lec49.Q2 p195 [Pathology] Malignant epithelial tumors classification and examples -- Adenocarcinoma is a:
+quizzes-2022-q408  # Lec49.Q3 p196 [Pathology] Malignant epithelial tumors classification and examples -- Broder’s classiﬁcation is used for grading squamous cell carcinoma acc
+quizzes-2022-q409  # Lec49.Q4 p196 [Pathology] Malignant epithelial tumors classification and examples -- Review of a series of surgical pathology reports indicates that a cert
+quizzes-2022-q410  # Lec49.Q5 p196 [Pathology] Malignant epithelial tumors classification and examples -- Signet ring carcinoma is a type of:
+quizzes-2022-q411  # Lec49.Q6 p197 [Pathology] Malignant epithelial tumors classification and examples -- Signet ring carcinoma is characterized by malignant signet-ring cells
+quizzes-2022-q412  # Lec49.Q7 p197 [Pathology] Malignant epithelial tumors classification and examples -- The edges of the malignant ulcer are:
+quizzes-2022-q413  # Lec49.Q8 p197 [Pathology] Malignant epithelial tumors classification and examples -- The most important histologic feature that differentiates sarcoma from
+quizzes-2022-q414  # Lec49.Q9 p197 [Pathology] Malignant epithelial tumors classification and examples -- Transitional cell carcinoma is NOT a locally malignant tumour.
+quizzes-2022-q415  # Lec50.Q1 p199 [Pharmacology] Anticancer & Immunomodulator 1 -- A drug used in a chemotherapy regimen works by complexing with iron an
+quizzes-2022-q416  # Lec50.Q2 p199 [Pharmacology] Anticancer & Immunomodulator 1 -- The cellular target of paclitaxel is:
+quizzes-2022-q417  # Lec50.Q3 p200 [Pharmacology] Anticancer & Immunomodulator 1 -- Which of the following medications has the major side effect of nephro
+quizzes-2022-q418  # Lec50.Q4 p200 [Pharmacology] Anticancer & Immunomodulator 1 -- Which of the following anticancer drugs is a folic acid analog?
+quizzes-2022-q419  # Lec50.Q5 p200 [Pharmacology] Anticancer & Immunomodulator 1 -- Which of the following anticancer drugs is a cell cycle non speciﬁc ag
+quizzes-2022-q420  # Lec51.Q1 p202 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- 14-year-old healthy girl has a 0.3 cm reddish, slightly raised nodule
+quizzes-2022-q421  # Lec51.Q2 p203 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- A 27-year-old woman in excellent health has a routine health maintenan
+quizzes-2022-q422  # Lec51.Q3 p203 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- A 32-year-old woman has noted dull pelvic pain for the last two months
+quizzes-2022-q423  # Lec51.Q4 p204 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- A 35-year-old woman had a ﬁrm nodule palpable on the dome of the uteru
+quizzes-2022-q424  # Lec51.Q5 p204 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- All germ cell tumours are malignant
+quizzes-2022-q425  # Lec51.Q6 p204 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Benign tumor of cartilage is called an:
+quizzes-2022-q426  # Lec51.Q7 p205 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Benign tumor of osseous tissue is called an:
+quizzes-2022-q427  # Lec51.Q8 p205 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Germ cells are cells which can give elements of ectoderm, mesoderm, an
+quizzes-2022-q428  # Lec51.Q9 p205 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Germ cells are NOT present in the post-natal life.
+quizzes-2022-q429  # Lec51.Q10 p205 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Hamartoma refers to:
+quizzes-2022-q430  # Lec51.Q11 p206 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Hamartoma refers to:
+quizzes-2022-q431  # Lec51.Q12 p206 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Malignant tumours are:
+quizzes-2022-q432  # Lec51.Q13 p206 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Neuroblastoma is a/an:
+quizzes-2022-q433  # Lec51.Q14 p207 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Sarcomas are NOT characterized by:
+quizzes-2022-q434  # Lec51.Q15 p207 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- The following tumour is NOT an embryonic tumour:
+quizzes-2022-q435  # Lec51.Q16 p207 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- What is a benign tumor called that is derived from all 3 germ cell lay
+quizzes-2022-q436  # Lec51.Q17 p208 [Pathology] Mesenchymal tumors: benign, malignant and developmental tumors -- Which is Not a benign tumour:
+quizzes-2022-q437  # Lec52.Q1 p210 [Pharmacology] Anticancer & Immunomodulator 2 -- The mechanism of action of cyclosporine is:
+quizzes-2022-q438  # Lec52.Q2 p210 [Pharmacology] Anticancer & Immunomodulator 2 -- Which side effect is related to cyclosporine?
+quizzes-2022-q439  # Lec52.Q3 p211 [Pharmacology] Anticancer & Immunomodulator 2 -- Toxic effects of cyclosporine DON'T include:
+quizzes-2022-q440  # Lec52.Q4 p211 [Pharmacology] Anticancer & Immunomodulator 2 -- Cyclosporine is metabolized mainly by:
+quizzes-2022-q441  # Lec52.Q5 p211 [Pharmacology] Anticancer & Immunomodulator 2 -- The drug of choice for prevention of post-transplant rejection is
