@@ -8,7 +8,7 @@ University id `kau`. Years `KAU_Y1`…`KAU_Y5`. **Module ids are bare, no prefix
 Same ten as every lane (`Instruction Manual for Content Creation/LANE-CARD-TEMPLATE.md` §2), plus: the book is the source — a definition/answer not in the cached page text is left blank with a `field_notes` reason, never filled from model knowledge (`LANE-BRIEF.md` rule 1). Six tags here collapse to one university (`kau`) but still all six columns.
 
 ## 3. Read text, don't look at pictures
-Per-source page cache already exists at `scripts/kasr/extract/pagetext/<sourceId>.json` (find the id in `docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json`) — read that first; only fall back to `node scripts/content/pagetext.mjs show "<pdf>" --pages a-b` for a source not yet in that cache. Garbled/highlighted keys: render at 200–300 dpi and read by eye, never trust `-layout` text alone (`kasr-pdf-extraction-traps`). Rule: `status` → `show`; `words=0` → `pagetext.mjs ocr`; `render` ONLY that one page if the OCR text is unreadable.
+Per-source page cache already exists at `scripts/kasr/extract/pagetext/<sourceId>.json` (find the id in `docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json`) — read that first; only fall back to `node scripts/content/pagetext.mjs show "<pdf>" --pages a-b` for a source not yet in that cache. Garbled/highlighted keys: render at 200–300 dpi and read by eye, never trust `-layout` text alone (`kasr-pdf-extraction-traps`). Rule: `status` → `show`; `words=0` → `pagetext.mjs ocr`; `render` ONLY that one page if the OCR text is unreadable. Cite by grep: search the cache for the fact's key words, read only the hit page.
 
 ## 4. Author: Kasr keeps its own generator
 **Do not use `scripts/content/emit-mcq.mjs` for Kasr.** Author seeds in `scripts/kasr/seeds/*.ts` (see `mcq.ts`, `101-eoy-2024.ts` for the shape), then generate:
@@ -18,7 +18,7 @@ node --experimental-strip-types scripts/kasr/build-batches.ts "<module>"
 `<module>` is one of `"101 ISK"`, `"102 INT"`, `"104 CPS"` (103 BMS and 108 INT are hand-authored, no generator) — **there is no build-everything mode**; a bare run refuses with "name the module to build" because five lanes share this one script and a bare run once rewrote every module's batches, including another lane's finished work. Then gate every file you touched, naming every sibling concept/article file of the module with `--with` (list them: `ls docs/Kasr-Source-Imports/{concept,article}/<module-slug>-*.md`):
 ```
 node scripts/content/gate.mjs batch <file> --with <every sibling concept/article file>
-node scripts/content/gate.mjs simulate <all your module's concept/article/evidence/question/written files>   # positional, apply order — no --with
+node scripts/content/gate.mjs simulate <all your module's concept/article/evidence/question/written files>   # positional, apply order — no --with; run ONCE at the END of a cluster (the 24-file 104 run is the single biggest token cost) — per-commit gate is `gate.mjs batch` only
 ```
 
 ## 5. Progress ledger

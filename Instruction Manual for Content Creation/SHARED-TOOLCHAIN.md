@@ -45,6 +45,7 @@ node scripts/content/pagetext.mjs mark-garbled <pdf> --pages 4   (and unmark-gar
 node scripts/content/pagetext.mjs ocr <pdf> --pages 4 [--dpi 300] [--force]
 node scripts/content/pagetext.mjs render <pdf> --pages 4 --out <dir>
 node scripts/content/pagetext.mjs index <dir-of-pdfs> --out <file.md>
+node scripts/content/pagetext.mjs grep <pdf-or-dir> <regex> [--context 1] [--max 50] [--case]
 ```
 
 Extracts a PDF once (`pdftotext -layout`, one page at a time), keyed by the file's
@@ -63,7 +64,10 @@ walks a directory recursively and writes the committed per-lane readability tabl
 `coverage/<lane>-readability-index.md` (13-orchestration.md §4, stage S1b).
 
 **Rule:** `status` → `show`; `words=0` → `ocr`; `render` ONLY that one page if the OCR text
-is unreadable.
+is unreadable. **Cite by grep:** search the cache for the fact's key words, read only the
+hit page — `grep` (case-insensitive by default) searches the cached text of one PDF or a
+whole directory and prints `<file> p<N>: <line>`, never auto-OCRs, and exits 1 on zero hits
+so a lane's brief can require "grep first" before quoting a page.
 
 ### `emit-mcq.mjs` + `ledger.mjs` — seed → generate, and the progress ledger
 

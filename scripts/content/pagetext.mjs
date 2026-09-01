@@ -73,7 +73,66 @@ function ocrPage(target, n, dpi, tmpDir) {
 }
 
 const [cmd, target, ...args] = process.argv.slice(2);
-if (!cmd || !target) die(`usage: pagetext.mjs <show|status|mark-garbled|unmark-garbled|render|ocr|index> <pdf|dir> [--pages 3-5] [--out <dir|file>] [--dpi 300] [--force]`);
+if (!cmd || !target) die(`usage: pagetext.mjs <show|status|mark-garbled|unmark-garbled|render|ocr|index|grep> <pdf|dir> [--pages 3-5] [--out <dir|file>] [--dpi 300] [--force]\n       pagetext.mjs grep <pdf|dir> <regex> [--context N] [--max N] [--ignore-case|--case]`);
+
+if (cmd === 'grep') {
+  const pattern = args[0];
+  const flags = args.slice(1);
+  if (!pattern) die(`usage: pagetext.mjs grep <pdf|dir> <regex> [--context N] [--max N] [--ignore-case|--case]`);
+  const contextN = Number(opt(flags, '--context') || 0);
+  const maxHits = Number(opt(flags, '--max') || 50);
+  const ignoreCase = !flags.includes('--case');
+  let re;
+  try {
+    re = new RegExp(pattern, ignoreCase ? 'i' : '');
+  } catch (e) {
+    die(`bad regex: ${e.message}`);
+  }
+  if (!existsSync(target)) die(`no such file or directory: ${target}`);
+  const isDir = statSync(target).isDirectory();
+  const pdfs = [];
+  if (isDir) {
+    (function walk(dir) {
+      for (const f of readdirSync(dir)) {
+        const p = path.join(dir, f);
+        if (statSync(p).isDirectory()) walk(p);
+        else if (/\.pdf$/i.test(f)) pdfs.push(p);
+      }
+    })(target);
+    pdfs.sort();
+  } else {
+    pdfs.push(target);
+  }
+
+  let hits = 0, pagesScanned = 0, filesScanned = 0;
+  search:
+  for (const pdf of pdfs) {
+    const rel = path.relative(process.cwd(), pdf);
+    const { entry: e } = load(pdf);
+    const noText = e.pages.every((p) => p.words === 0);
+    if (noText) {
+      if (!isDir) console.log(`${rel}: no text layer — run ocr first`);
+      continue;
+    }
+    filesScanned++;
+    for (const p of e.pages) {
+      pagesScanned++;
+      const lines = p.text.split('\n');
+      for (let i = 0; i < lines.length; i++) {
+        if (!re.test(lines[i])) continue;
+        if (hits >= maxHits) break search;
+        hits++;
+        console.log(`${rel} p${p.n}: ${lines[i].trim().slice(0, 160)}`);
+        if (contextN > 0) {
+          for (let c = Math.max(0, i - contextN); c < i; c++) console.log(`    ${lines[c].trim().slice(0, 160)}`);
+          for (let c = i + 1; c <= Math.min(lines.length - 1, i + contextN); c++) console.log(`    ${lines[c].trim().slice(0, 160)}`);
+        }
+      }
+    }
+  }
+  console.log(`${hits} hit(s) in ${pagesScanned} page(s) across ${filesScanned} file(s)`);
+  process.exit(hits > 0 ? 0 : 1);
+}
 
 if (cmd === 'index') {
   const rows = [];
