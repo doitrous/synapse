@@ -1,0 +1,1818 @@
+<!--
+  SCU-FBS102 · Foundation 1 — first authored batch, all 13 questions reuse an existing concept (5 already live, 8 pending in Kasr's 101-ISK/102-INT modules) per LANE-CARD.md §7 corrected split. Keys and stems read from the FOMSCU own-source quiz-app JSON (triage.md's five papers); explanations rewritten in house voice, never pasted from the JSON's own (FOMNINU-sourced) Arabic explanation field. Apply this batch's questions only after docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md and, for the 8 pending-concept rows, after their named Kasr source files are live.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-BIOCHEMISTRY-OPERATOR
+
+## title
+Free operator required for lac operon transcription
+
+## question
+To start transcription of the lac operon's structural genes, which region must be free of the repressor protein?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The promoter site
+
+## explanation_a
+Incorrect. The promoter is where RNA polymerase binds to begin transcription, but it is the operator, not the promoter, that the lac repressor occupies to physically block that polymerase. A free promoter with an occupied operator still yields no transcription, because the bound repressor sterically blocks polymerase progress.
+
+## answer_b
+The operator locus
+
+## explanation_b
+Correct. The operator is the DNA sequence that overlaps the promoter and is bound by the lacI-encoded repressor whenever lactose (or its inducer allolactose) is absent. When the operator is occupied, RNA polymerase cannot proceed past it into the structural genes, so transcription is switched off. Only when inducer binds the repressor and removes it from the operator does the operator become free, allowing polymerase to transcribe lacZ, lacY and lacA together as one polycistronic message.
+
+## answer_c
+The structural Y gene (lacY)
+
+## explanation_c
+Incorrect. lacY encodes lactose permease, one of the three structural genes transcribed once the operon is switched on — it is a downstream product of transcription, not the regulatory site that gates it.
+
+## answer_d
+The A gene (transacetylase, lacA)
+
+## explanation_d
+Incorrect. lacA encodes thiogalactoside transacetylase, the third structural gene in the operon; like lacY it is transcribed as an outcome of derepression, not the site that controls whether that transcription happens.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene regulation — lac operon
+
+## main_concept
+CON-FND-B5B2112BF2CADE
+
+## concept_ids
+CON-FND-B5B2112BF2CADE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Molecular Biology > Gene Regulation
+
+## question_only_for
+
+## library_ids
+ART-FND-TOP-EB8CCAC9B3
+
+## resource_ids
+
+## learning_objective
+State that the lac operator, not the promoter, must be free of the repressor for structural-gene transcription to proceed.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2022 Q46 (also 2021 Q66)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Operator locus', FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2022 Q46 (also 2021 Q66); source-JSON extraction, bank tier
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-HISTOLOGY-ENDOMYSIUM
+
+## title
+Connective tissue layer around one muscle fibre
+
+## question
+Which connective tissue layer completely surrounds each individual muscle fibre within a skeletal muscle?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Epimysium
+
+## explanation_a
+Incorrect. Epimysium is the outermost of the three coats and wraps the whole muscle as a unit, not the individual fibre — it is continuous with the deep fascia and, at the muscle's ends, with the tendon.
+
+## answer_b
+Perimysium
+
+## explanation_b
+Incorrect. Perimysium is the middle coat; it groups fibres into bundles called fascicles, carrying the larger vessels and nerve branches that supply each fascicle, rather than wrapping one fibre alone.
+
+## answer_c
+Endomysium
+
+## explanation_c
+Correct. Endomysium is the innermost and most delicate of the three nested connective-tissue coats, a thin layer of reticular fibres and a basal lamina that surrounds each individual muscle fibre. It carries the finest capillaries and nerve twigs that reach the fibre itself, and it is the layer directly continuous with the fibre's own sarcolemma. The three coats — epimysium, perimysium and endomysium — nest from whole muscle down to single fibre in that order.
+
+## answer_d
+Epineurium
+
+## explanation_d
+Incorrect. Epineurium is the outer connective-tissue sheath of a peripheral nerve, not a muscle coat at all; it is easily confused with epimysium by name alone.
+
+## topic
+Histology
+
+## subtopic
+Skeletal muscle connective-tissue coats
+
+## main_concept
+CON-MSK-0E3AE8E79060E1
+
+## concept_ids
+CON-MSK-0E3AE8E79060E1
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Muscle Tissue > Connective Tissue Coats
+
+## question_only_for
+
+## library_ids
+ART-MSK-TOP-B54C248DF1
+
+## resource_ids
+
+## learning_objective
+Name the connective-tissue coat that surrounds a single skeletal-muscle fibre and place it correctly among the three nested coats.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2022 Q3 (also 2021 Q23)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Endomysium', FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2022 Q3 (also 2021 Q23); source-JSON extraction, bank tier
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-HISTOLOGY-MAST-CELLS
+
+## title
+Connective tissue cells secreting heparin and histamine
+
+## question
+Which cells of connective tissue are known for secreting heparin and histamine?
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Mast cells
+
+## explanation_a
+Correct. Mast cells are connective-tissue cells packed with metachromatic cytoplasmic granules that store heparin, an anticoagulant, and histamine, a vasoactive amine released on degranulation. They cluster along small blood vessels and beneath epithelia, positioning them to trigger the immediate vasodilation and increased permeability of an allergic or inflammatory response the instant an antigen cross-links their surface IgE. Basophils, their circulating counterpart, share the same secretory repertoire.
+
+## answer_b
+Fibroblasts
+
+## explanation_b
+Incorrect. Fibroblasts are the principal cells that synthesise the connective tissue's own fibres and ground substance — collagen, elastin and proteoglycans — not heparin or histamine.
+
+## answer_c
+Macrophages
+
+## explanation_c
+Incorrect. Macrophages are phagocytic cells derived from circulating monocytes; their secretory role centres on cytokines and enzymes for defence and tissue remodelling, not heparin or histamine storage.
+
+## answer_d
+Lymphocytes
+
+## explanation_d
+Incorrect. Lymphocytes mediate humoral and cell-mediated immunity through antibody production and direct cytotoxicity; they do not store heparin or histamine granules.
+
+## topic
+Histology
+
+## subtopic
+Cells of connective tissue
+
+## main_concept
+CON-HEM-1975918ED45C76
+
+## concept_ids
+CON-HEM-1975918ED45C76
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Cells of Connective Tissue
+
+## question_only_for
+
+## library_ids
+ART-HEM-TOP-5E60609123
+
+## resource_ids
+
+## learning_objective
+Identify mast cells as the connective-tissue cell that stores and secretes heparin and histamine.
+
+## source_citation
+FOMSCU Foundation 1, EOY - Foundation 1 2026 - FOMSCU Final Q34
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Mast cells', FOMSCU Foundation 1 EOY 2026
+fomscu: EOY - Foundation 1 2026 - FOMSCU Final Q34; dated official exam paper
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-HISTOLOGY-PLASMA-CELLS
+
+## title
+Connective tissue cells producing antibodies
+
+## question
+Which of the following connective tissue cells is mainly responsible for defence by producing antibodies?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Fibroblasts
+
+## explanation_a
+Incorrect. Fibroblasts build and maintain the connective tissue's fibrous and ground-substance matrix; they have no antibody-secreting role.
+
+## answer_b
+Pericytes
+
+## explanation_b
+Incorrect. Pericytes wrap capillary and venule walls and act as a reserve of contractile and progenitor cells; they do not secrete antibodies.
+
+## answer_c
+Plasma cells
+
+## explanation_c
+Correct. Plasma cells are terminally differentiated B lymphocytes, recognisable histologically by an eccentric 'clock-face' nucleus and a basophilic cytoplasm rich in rough endoplasmic reticulum. That abundant rough ER is the machinery for the cell's one job: manufacturing and secreting large quantities of a single antibody specificity. They are a normal, if usually sparse, resident of loose connective tissue, and their numbers rise wherever humoral immune defence is active.
+
+## answer_d
+Undifferentiated mesenchymal cells
+
+## explanation_d
+Incorrect. Undifferentiated mesenchymal cells are multipotent progenitors retained in adult connective tissue that can give rise to fibroblasts, adipocytes and other connective-tissue cells; they do not themselves secrete antibodies.
+
+## topic
+Histology
+
+## subtopic
+Cells of connective tissue
+
+## main_concept
+CON-IMM-DD6187AD53D304
+
+## concept_ids
+CON-IMM-DD6187AD53D304
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Cells of Connective Tissue
+
+## question_only_for
+
+## library_ids
+ART-IMM-TOP-B42C277725
+
+## resource_ids
+
+## learning_objective
+Identify the plasma cell as the connective-tissue-resident antibody-secreting cell and recognise its rough-ER-rich morphology.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2022 Q31 (also 2021 Q51)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Plasma cells', FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2022 Q31 (also 2021 Q51); source-JSON extraction, bank tier
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-PHYSIOLOGY-ACTIVE-TRANSPORT
+
+## title
+Transport mechanism requiring direct energy expenditure
+
+## question
+Which of the following membrane transport mechanisms strictly requires the direct expenditure of energy?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Simple diffusion
+
+## explanation_a
+Incorrect. Simple diffusion moves a substance passively down its own concentration gradient directly through the lipid bilayer, with no carrier and no energy input.
+
+## answer_b
+Facilitated diffusion
+
+## explanation_b
+Incorrect. Facilitated diffusion also moves a substance down its concentration gradient, but through a specific carrier or channel protein; the protein speeds the process without itself consuming ATP.
+
+## answer_c
+Osmosis
+
+## explanation_c
+Incorrect. Osmosis is the passive movement of water across a semipermeable membrane down its own concentration gradient, driven by the osmotic pressure difference rather than by metabolic energy.
+
+## answer_d
+Active transport
+
+## explanation_d
+Correct. Active transport is defined by its need for a direct energy source, typically ATP hydrolysed by a pump such as the Na+/K+-ATPase, because it moves a solute against its concentration or electrochemical gradient. That uphill movement cannot occur spontaneously the way diffusion does, so the carrier must be coupled directly to an energy-yielding reaction. This is what distinguishes primary active transport from every passive transport mechanism, all of which move solute downhill and need no direct energy input.
+
+## topic
+Cell physiology
+
+## subtopic
+Membrane transport mechanisms
+
+## main_concept
+CON-FND-DEAE7971A31FB0
+
+## concept_ids
+CON-FND-DEAE7971A31FB0
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport
+
+## question_only_for
+
+## library_ids
+ART-FND-TOP-9E1180D1D1
+
+## resource_ids
+
+## learning_objective
+Distinguish active transport from the passive transport mechanisms by its requirement for direct ATP expenditure.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2022 Q21 (also 2021 Q41)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Active transport', FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2022 Q21 (also 2021 Q41); source-JSON extraction, bank tier
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-HISTOLOGY-RETICULAR-CONNECTIVE-TISSUE
+
+## title
+Connective tissue of the liver, spleen and lymph nodes
+
+## question
+Which type of connective tissue predominates in the stroma of the liver, spleen and lymph nodes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Dense regular connective tissue
+
+## explanation_a
+Incorrect. Dense regular connective tissue has thick collagen bundles running in one parallel direction, built for unidirectional tensile load, as in tendons and ligaments — not the supporting stroma of a lymphoid or haemopoietic organ.
+
+## answer_b
+Yellow elastic connective tissue
+
+## explanation_b
+Incorrect. Yellow elastic connective tissue is dominated by branching elastic fibres that let a structure such as the wall of a large artery or the ligamenta flava recoil after stretch; it is not the framework of the liver, spleen or lymph nodes.
+
+## answer_c
+Reticular connective tissue
+
+## explanation_c
+Correct. Reticular connective tissue is a delicate meshwork of thin type III collagen (reticular) fibres, produced and wrapped by reticular cells, that forms the internal supporting framework — the stroma — of organs whose free cell population must move through it easily. It is demonstrated with a silver stain, which blackens the fibres. The liver, spleen, lymph nodes and bone marrow are the classic examples, since their filtering and haemopoietic functions both depend on a loose, permeable framework rather than a dense fibrous one.
+
+## answer_d
+White fibrous connective tissue
+
+## explanation_d
+Incorrect. White fibrous (dense irregular) connective tissue has thick collagen bundles running in multiple directions to resist multidirectional stress, as in the dermis or organ capsules, not the fine internal stroma these organs need.
+
+## topic
+Histology
+
+## subtopic
+Types of connective tissue proper
+
+## main_concept
+CON-FND-49D5829AC3DCA1
+
+## concept_ids
+CON-FND-49D5829AC3DCA1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
+
+## resource_ids
+
+## learning_objective
+Name reticular connective tissue as the stromal framework of the liver, spleen and lymph nodes, and state how it is demonstrated.
+
+## source_citation
+FOMSCU Foundation 1, EOY - Foundation 1 2026 - FOMSCU Final Q35
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Reticular connective tissue', FOMSCU Foundation 1 EOY 2026
+fomscu: EOY - Foundation 1 2026 - FOMSCU Final Q35; dated official exam paper
+reuse: pending concept CON-FND-49D5829AC3DCA1, docs/Kasr-Source-Imports/concept/101-ISK-practical-concepts.md; article ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE, docs/Kasr-Source-Imports/article/101-ISK-histology-2.md
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-ANATOMY-PRIMARY-CARTILAGINOUS
+
+## title
+Joint type at a long bone's growth plate
+
+## question
+Which type of joint is characteristically found at the growth plate (epiphyseal plate) of a developing long bone?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Synovial joint
+
+## explanation_a
+Incorrect. A synovial joint has a joint cavity, synovial membrane and articular cartilage over the bone ends, built for free movement, such as the knee or shoulder — not the union between metaphysis and epiphysis.
+
+## answer_b
+Primary cartilaginous joint
+
+## explanation_b
+Correct. A primary cartilaginous joint (synchondrosis) unites two bones by hyaline cartilage, permits no movement, and is typically temporary, ossifying as growth completes. The epiphyseal (growth) plate of a long bone is the textbook example: hyaline cartilage at this site both unites metaphysis to epiphysis and drives longitudinal bone growth, until it ossifies at skeletal maturity and the joint disappears.
+
+## answer_c
+Secondary cartilaginous joint
+
+## explanation_c
+Incorrect. A secondary cartilaginous joint (symphysis) unites bones by fibrocartilage, lies in the midline, is permanent, and permits slight movement, as at the pubic symphysis or an intervertebral disc — the growth plate is neither midline nor permanent.
+
+## answer_d
+Fibrous joint
+
+## explanation_d
+Incorrect. A fibrous joint unites bones by dense fibrous tissue with little or no movement, as at a skull suture; it involves no cartilage and is not the tissue at a growth plate.
+
+## topic
+Anatomy
+
+## subtopic
+Classification of joints
+
+## main_concept
+CON-MSK-8863ACD7E8D790
+
+## concept_ids
+CON-MSK-8863ACD7E8D790
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Basis of Anatomy > Articular System
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-CARTILAGINOUS-JOINTS
+
+## resource_ids
+
+## learning_objective
+Identify the epiphyseal plate as a primary cartilaginous joint and distinguish it from secondary cartilaginous, synovial and fibrous joints.
+
+## source_citation
+FOMSCU Foundation 1, Formative and Past Exams 2022 Q1 (also 2021 Q21)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Primary cartilaginous joint', FOMSCU Foundation 1 QBank
+fomscu: Formative and Past Exams 2022 Q1 (also 2021 Q21); source-JSON extraction, bank tier
+reuse: pending concept CON-MSK-8863ACD7E8D790, docs/Kasr-Source-Imports/concept/101-ISK-concepts.md; article ART-101-ANA-CARTILAGINOUS-JOINTS, docs/Kasr-Source-Imports/article/101-ISK-anatomy-2.md
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-BIOCHEMISTRY-COMPOUND-LIPIDS
+
+## title
+Classification of phospholipids among lipid categories
+
+## question
+Phospholipids are chemically and structurally classified into which of the following lipid categories?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Simple lipids
+
+## explanation_a
+Incorrect. Simple lipids are esters of fatty acids with an alcohol only, such as triacylglycerol (fatty acid plus glycerol) — nothing besides fatty acid and alcohol, so phospholipids, which carry an extra phosphate-containing group, do not qualify.
+
+## answer_b
+Derived lipids
+
+## explanation_b
+Incorrect. Derived lipids are the hydrolysis products of simple or compound lipids, or substances found in natural association with them — free fatty acids, alcohols and steroids are examples — not an intact compound lipid itself.
+
+## answer_c
+Steroid molecules
+
+## explanation_c
+Incorrect. Steroid molecules, built on the four-ring cyclopentanoperhydrophenanthrene nucleus, are themselves classed as derived lipids; they share no structural relationship with the fatty-acid-plus-alcohol-plus-extra-group architecture of a phospholipid.
+
+## answer_d
+Compound lipids
+
+## explanation_d
+Correct. Compound (complex) lipids are defined as fatty acid plus alcohol plus an additional group beyond those two. A phospholipid fits this definition exactly: it is built on a glycerol (or sphingosine) backbone esterified to fatty acids, with a phosphate group — and, in most cases, a further nitrogenous base such as choline or ethanolamine — attached besides. That extra phosphate-bearing group is precisely what moves it out of the simple-lipid category and into the compound-lipid one.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid classification
+
+## main_concept
+CON-FND-30D2E317144DDF
+
+## concept_ids
+CON-FND-30D2E317144DDF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Lipids of Biological Importance
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+
+## learning_objective
+Place phospholipids correctly among the simple/compound/derived three-way lipid classification, by identifying the extra group beyond fatty acid and alcohol.
+
+## source_citation
+FOMSCU Foundation 1, EOY - Foundation 1 2026 - FOMSCU Final Q51
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Compound lipids', FOMSCU Foundation 1 EOY 2026
+fomscu: EOY - Foundation 1 2026 - FOMSCU Final Q51; dated official exam paper
+reuse: pending concept CON-FND-30D2E317144DDF, docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md; article ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE, docs/Kasr-Source-Imports/article/102-INT-coverage.md
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-ANATOMY-PRONATION
+
+## title
+Forearm rotation that turns the palm backward
+
+## question
+What is the rotation of the forearm that turns the palm to face backward (posteriorly) called?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Supination
+
+## explanation_a
+Incorrect. Supination is the opposite forearm rotation, turning the palm to face forward (anteriorly) or upward, produced mainly by supinator and biceps brachii.
+
+## answer_b
+Inversion
+
+## explanation_b
+Incorrect. Inversion is a foot movement at the subtalar and transverse tarsal joints that turns the sole to face medially; it has no relation to forearm rotation.
+
+## answer_c
+Eversion
+
+## explanation_c
+Incorrect. Eversion is likewise a foot movement, turning the sole to face laterally, and describes ankle/foot mechanics rather than the forearm.
+
+## answer_d
+Pronation
+
+## explanation_d
+Correct. Pronation is the rotational movement of the forearm in which the radius rotates around a longitudinal axis passing roughly from the radial head to the ulnar head, carrying the distal radius across the ulna so the palm comes to face backward (posteriorly) or downward. It is produced by pronator teres and pronator quadratus, and it is the direct opposite of supination.
+
+## topic
+Anatomy
+
+## subtopic
+Forearm movements
+
+## main_concept
+CON-MSK-E10403A4189B45
+
+## concept_ids
+CON-MSK-E10403A4189B45
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Upper Limb > Forearm
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-FOREARM-RETINACULUM-ROTATION
+
+## resource_ids
+
+## learning_objective
+Name pronation as the forearm rotation that turns the palm posteriorly, and distinguish it from supination, inversion and eversion.
+
+## source_citation
+FOMSCU Foundation 1, EOY - Foundation 1 2026 - FOMSCU Final Q5
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Pronation', FOMSCU Foundation 1 EOY 2026
+fomscu: EOY - Foundation 1 2026 - FOMSCU Final Q5; dated official exam paper
+reuse: pending concept CON-MSK-E10403A4189B45, docs/Kasr-Source-Imports/concept/101-ISK-concepts.md; article ART-101-ANA-FOREARM-RETINACULUM-ROTATION, docs/Kasr-Source-Imports/article/101-ISK-anatomy.md
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-ANATOMY-MEMBRANOUS-OSSIFICATION
+
+## title
+Ossification process forming the clavicle
+
+## question
+Which of the following features specifically characterises the clavicle among the bones of the skeleton?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Part of the axial skeleton
+
+## explanation_a
+Incorrect. The clavicle belongs to the appendicular skeleton, as part of the pectoral girdle, not the axial skeleton, which comprises the skull, vertebral column and rib cage.
+
+## answer_b
+Flat bone structure
+
+## explanation_b
+Incorrect. Shaped like a long bone with a shaft and two ends, the clavicle is classified as a long bone by shape, not a flat bone, even though its development departs from the usual long-bone pattern.
+
+## answer_c
+Intramembranous (membranous) ossification
+
+## explanation_c
+Correct. Bones ossify by one of two processes: intramembranous, where bone forms directly within a mesenchymal membrane, or endochondral, where a cartilage model is first laid down and then replaced by bone. Almost every long bone ossifies endochondrally, but the clavicle is the standing exception — despite its long-bone shape, it ossifies intramembranously, alongside the flat bones of the skull vault. This is exactly the fact the examiner is testing: a long bone shape with a membranous origin.
+
+## answer_d
+Irregular bone shape
+
+## explanation_d
+Incorrect. An irregular bone, such as a vertebra, has a shape that fits none of the long/short/flat categories; the clavicle's shaft-and-two-ends shape places it with the long bones, not the irregular ones.
+
+## topic
+Anatomy
+
+## subtopic
+Ossification and bone classification
+
+## main_concept
+CON-MSK-2C78EFB16CA67F
+
+## concept_ids
+CON-MSK-2C78EFB16CA67F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Basis of Anatomy > Skeletal System
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SKELETAL-SYSTEM
+
+## resource_ids
+
+## learning_objective
+Identify the clavicle as the long bone that is the exception to endochondral ossification, forming instead by the intramembranous process.
+
+## source_citation
+FOMSCU Foundation 1, EOY - Foundation 1 2026 - FOMSCU Final Q7
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Membranous ossification', FOMSCU Foundation 1 EOY 2026
+fomscu: EOY - Foundation 1 2026 - FOMSCU Final Q7; dated official exam paper
+reuse: pending concept CON-MSK-2C78EFB16CA67F, docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md; article ART-101-ANA-SKELETAL-SYSTEM, docs/Kasr-Source-Imports/article/101-ISK-anatomy-2.md
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-GENETICS-CYCLINS
+
+## title
+Substance oscillating through cell-cycle phases
+
+## question
+What is the substance whose intracellular quantity oscillates through the different phases of the cell cycle?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cytokines
+
+## explanation_a
+Incorrect. Cytokines are extracellular signalling proteins used in immune and inflammatory communication between cells; they play no role in the intracellular cell-cycle clock.
+
+## answer_b
+Cyclin-dependent kinase inhibitors
+
+## explanation_b
+Incorrect. Cyclin-dependent kinase inhibitors, such as p21 and p27, restrain CDK activity at checkpoints, but they act as brakes on the system rather than being the oscillating driver of it.
+
+## answer_c
+Cyclin-dependent kinases (CDKs)
+
+## explanation_c
+Incorrect. Cyclin-dependent kinases are present at a roughly constant level throughout the cycle; it is their activity, not their own concentration, that rises and falls, and that activity swing is driven by the partner cyclin's changing level.
+
+## answer_d
+Cyclins
+
+## explanation_d
+Correct. Cyclins are named for exactly this behaviour: their concentration rises and falls in a repeating pattern through the cell cycle, driven by phase-specific synthesis and, once each phase's work is done, targeted degradation. Each cyclin type — D, E, A, B — peaks during a different phase and complexes with a specific CDK to activate it, so the cyclin's oscillating abundance is what times the CDK's activity and drives the cell from one phase to the next. This periodic rise-and-fall is the basis of the whole cyclin/CDK control system.
+
+## topic
+Genetics
+
+## subtopic
+Cell cycle control
+
+## main_concept
+CON-FND-FF40DB9ED068F9
+
+## concept_ids
+CON-FND-FF40DB9ED068F9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Genetics > Cell Cycle
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+
+## learning_objective
+Identify cyclins as the cell-cycle proteins whose concentration oscillates through the phases, distinct from the CDKs they activate.
+
+## source_citation
+FOMSCU Foundation 1, EOM - Foundation 1 2026 - FOMSCU MID Q17
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Cyclins', FOMSCU Foundation 1 EOM 2026
+fomscu: EOM - Foundation 1 2026 - FOMSCU MID Q17; dated official exam paper
+reuse: pending concept CON-FND-FF40DB9ED068F9, docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md; article ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES, docs/Kasr-Source-Imports/article/102-INT-biochemistry.md
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-ANATOMY-CRANIAL-NERVE-X
+
+## title
+Cranial nerve regulating the heartbeat
+
+## question
+Which cranial nerve has an important role in regulating the heartbeat?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cranial nerve VIII
+
+## explanation_a
+Incorrect. Cranial nerve VIII, the vestibulocochlear nerve, carries hearing and balance information; it has no autonomic supply to the heart.
+
+## answer_b
+Cranial nerve IX
+
+## explanation_b
+Incorrect. Cranial nerve IX, the glossopharyngeal, does carry some parasympathetic fibres, but to the parotid gland, and afferents from the carotid sinus/body — the cardiac motor role belongs to nerve X, not IX.
+
+## answer_c
+Cranial nerve XI
+
+## explanation_c
+Incorrect. Cranial nerve XI, the accessory nerve, is a purely motor nerve to the sternocleidomastoid and trapezius; it carries no autonomic fibres to viscera.
+
+## answer_d
+Cranial nerve X
+
+## explanation_d
+Correct. Cranial nerve X, the vagus, supplies essentially the whole parasympathetic outflow to the thoracic and abdominal viscera, including the heart. Its preganglionic fibres reach the atria, where vagal stimulation slows the heart rate by acting on the sinoatrial and atrioventricular nodes — the vagus does not supply the ventricular myocardium itself. This vagal brake on heart rate is the clinical and physiological basis of vagal manoeuvres used to slow a rapid heartbeat.
+
+## topic
+Physiology
+
+## subtopic
+Autonomic nervous system
+
+## main_concept
+CON-NEU-C3D7B209FB3260
+
+## concept_ids
+CON-NEU-C3D7B209FB3260
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Physiology > Autonomic Nervous System > Parasympathetic Nervous System
+
+## question_only_for
+
+## library_ids
+ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
+
+## resource_ids
+
+## learning_objective
+Identify the vagus (cranial nerve X) as the parasympathetic nerve that regulates heart rate via the atria.
+
+## source_citation
+FOMSCU Foundation 1, EOY - Foundation 1 2026 - FOMSCU Final Q15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Cranial nerve X', FOMSCU Foundation 1 EOY 2026
+fomscu: EOY - Foundation 1 2026 - FOMSCU Final Q15; dated official exam paper
+reuse: pending concept CON-NEU-C3D7B209FB3260, docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md; article ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM, docs/Kasr-Source-Imports/article/102-INT-coverage.md
+
+---
+
+# Item
+
+## id
+QST-SCUFBS102-PENDING-LIVE-REUSE-BATCH1-HISTOLOGY-GOLGI-APPARATUS
+
+## title
+Organelle that modifies and packages proteins
+
+## question
+Which cellular organelle is primarily responsible for modifying and packaging proteins for secretion?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Smooth endoplasmic reticulum
+
+## explanation_a
+Incorrect. Smooth endoplasmic reticulum handles lipid synthesis, steroid metabolism and detoxification; it has no ribosomes and no role in protein packaging.
+
+## answer_b
+Rough endoplasmic reticulum
+
+## explanation_b
+Incorrect. Rough endoplasmic reticulum synthesises and performs the earliest folding of secretory and membrane proteins, but the further modification and sorting into secretory packages happens downstream of it, in the Golgi.
+
+## answer_c
+Lysosome
+
+## explanation_c
+Incorrect. The lysosome is the destination for digestive enzymes after Golgi packaging, and the site of intracellular digestion; it does not itself modify or package newly made protein.
+
+## answer_d
+Golgi apparatus
+
+## explanation_d
+Correct. The Golgi apparatus receives newly synthesised protein from the rough endoplasmic reticulum and carries out further post-translational modification — glycosylation, sulfation, proteolytic processing — before sorting and packaging the finished product into membrane-bound vesicles addressed to their destination, whether secretion, the plasma membrane or a lysosome. It is not seen as a structure in a routine H&E section, appearing only as a pale negative area beside the nucleus, but silver impregnation demonstrates it directly, and its position — apical in a secretory cell, perinuclear in a neuron — follows the direction the cell secretes.
+
+## topic
+Histology
+
+## subtopic
+Cytoplasmic organelles
+
+## main_concept
+CON-FND-9EBFBDE42AC100
+
+## concept_ids
+CON-FND-9EBFBDE42AC100
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+SCU_Y1=moderate
+
+## years
+SCU_Y1
+
+## universities
+scu
+
+## module
+SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytology > Cytoplasmic Organelles
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+
+## learning_objective
+Identify the Golgi apparatus as the organelle that modifies and packages protein for secretion, downstream of the rough endoplasmic reticulum.
+
+## source_citation
+FOMSCU Foundation 1, EOM - Foundation 1 2026 - FOMSCU MID Q10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer 'Golgi Apparatus', FOMSCU Foundation 1 EOM 2026
+fomscu: EOM - Foundation 1 2026 - FOMSCU MID Q10; dated official exam paper
+reuse: pending concept CON-FND-9EBFBDE42AC100, docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md; article ART-101-HIS-CYTOPLASMIC-ORGANELLES, docs/Kasr-Source-Imports/article/101-ISK-histology-2.md
