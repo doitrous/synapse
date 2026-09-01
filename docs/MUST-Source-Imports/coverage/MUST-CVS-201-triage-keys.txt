@@ -1,0 +1,51 @@
+MUST-CVS-201 first-tranche triage keys
+Source A = 00 Module-wide/06 EOM Exams/EOM MCQs - CVS201 Written Questions (Final) Fall 2024.pdf (3 pages, written, all subjects, by Absalam101 & Hamza & Rehab)
+Source B = Pathology/06 EOM Exams/EOM MCQs - written pathology final by dr.maria.pdf (2 pages, written, Pathology, by Dr.maria)
+
+--- Source A (11/11 keyed) ---
+A-Q1  key=printed  Anterior interventricular artery = branch of left coronary artery, supplies anterior 2/3 of IV septum
+A-Q2  key=printed  Rheumatic fever: post-streptococcal (S. pyogenes), molecular mimicry vs M protein, type II hypersensitivity, cross-reacts heart/joint/brain
+A-Q3  key=printed  Edema = excess tissue fluid; causes: raised hydrostatic P, lowered colloid osmotic P, raised capillary permeability, lymphatic obstruction, salt & water retention
+A-Q4  key=printed  Amiodarone: class III anti-arrhythmic, blocks K+/Ca2+ channels + alpha/beta receptors; AEs: pulmonary toxicity, hepatic cirrhosis, corneal deposits, thyroid dysfunction, photosensitivity, GIT upset, neuro
+A-Q5  key=printed  Posterior interventricular artery originates from right coronary artery
+A-Q6  key=printed  Atherosclerosis risk factors: hyperlipidemia, HTN, smoking, diabetes, age, male sex, obesity, stress
+A-Q7  key=printed  Autoregulation: intrinsic organ ability to maintain constant blood flow despite perfusion-pressure change; local metabolic + myogenic mechanisms; brain/heart/kidney
+A-Q8  key=printed  Malignant hypertension causes of death (order): renal failure, heart failure, coronary heart disease, cerebral hemorrhage
+A-Q9  key=printed  Smooth muscle histology: spindle-shaped, non-striated, non-branched, single central nucleus, no T-tubules
+A-Q10 key=printed  Left coronary artery origin: left posterior aortic sinus of ascending aorta
+A-Q11 key=printed  Long-term ABP regulation: RAS, ANP, vasopressin mechanisms
+
+--- Source B (8/8 keyed) ---
+B-Q1  key=printed  Dilated cardiomyopathy: definition, causes, gross, microscopy, effect
+B-Q2  key=printed  Cardiac tamponade: definition, causes, complications, medical emergency
+B-Q3  key=printed  Fibrinous pericarditis: definition (bread and butter), causes
+B-Q4  key=printed  Atherosclerosis: definition + risk factors (duplicate of A-Q6 concept)
+B-Q5  key=printed  Fatty streak: definition, gross, microscopy (foam cells), sites
+B-Q6  key=printed  Hypertension definition: sustained systolic >140 or diastolic >90
+B-Q7  key=printed  Secondary hypertension causes: renal, endocrine, pheochromocytoma, coarctation, obesity/OCP/sleep apnea, pregnancy
+B-Q8  key=printed  Malignant hypertension: definition (>280/180), features, kidney changes (duplicate of A-Q8 concept, different facets — both kept as one candidate)
+
+--- find-existing.mjs query log (17 distinct concept candidates) ---
+"anterior interventricular artery" -> 7 hits, pending (Kasr 104-CPS-anatomy-concepts.md, import-ready/question/SYS-CVS-QUESTION-003.md)
+"rheumatic fever" -> 12 hits, pending (import-ready/concept/SYS-CVS-CONCEPT-T06.md, SYS-CVS-CONCEPT-T08.md)
+"edema" -> 26 hits, pending (Kasr 104-CPS-physiology-concepts.md "Causes of oedema" alias) -- borderline, same word not confirmed same scope
+"amiodarone" -> no hit -> NEW
+"posterior interventricular artery" -> 1 hit, pending (Kasr 104-CPS-anatomy-concepts.md)
+"atherosclerosis risk factors" -> no hit
+"atherosclerosis" (broadened) -> no hit -> NEW (confirmed)
+"autoregulation" -> 9 hits, pending (Kasr 104-CPS-physiology-concepts.md, local-blood-flow-regulation + coronary-circulation canonical_keys)
+"malignant hypertension" -> 1 hit, pending (import-ready/article/SYS-CVS-ARTICLE-T07.md)
+"smooth muscle histological features" -> no hit
+"smooth muscle" (broadened) -> 93 hits, pending (Kasr 103-BMS-histology-department-written.md comparison table) -- borderline, verify scope at S2
+"left coronary artery origin" -> no hit
+"coronary artery origin" (broadened) -> no hit -> NEW (confirmed)
+"long-term regulation of arterial blood pressure" -> no hit
+"arterial blood pressure regulation" (broadened) -> no hit -> NEW (confirmed)
+"dilated cardiomyopathy" -> 3 hits, pending (import-ready/article/SYS-CVS-ARTICLE-T04.md, concept/SYS-CVS-CONCEPT-T04.md)
+"cardiac tamponade" -> 3 hits, pending (import-ready/article/SYS-CVS-ARTICLE-T06.md, concept/SYS-CVS-CONCEPT-T06.md)
+"fibrinous pericarditis" -> no hit -> NEW
+"fatty streak" -> no hit -> NEW
+"hypertension" -> 40 hits, pending (Alexandria AU-MED-106-physiology-concepts.md hypertension.definition-and-causes.overview canonical_key)
+"secondary hypertension" -> 4 hits, pending (import-ready/article/SYS-CVS-ARTICLE-T07.md, concept/SYS-CVS-CONCEPT-T07.md)
+
+Tally: pending=11 (edema and smooth-muscle-histology counted pending but flagged borderline/needs S2 re-verify), new=6, live=0, total distinct=17
