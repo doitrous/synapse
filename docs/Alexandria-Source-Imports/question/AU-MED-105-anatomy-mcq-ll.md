@@ -5098,3 +5098,6723 @@ yes
 
 ## author_notes
 keySource: printed answer table p12, Q50=D (unnumbered item, second of two on p11)
+
+---
+
+<!--
+  AU-MED-105 Anatomy · Lower Limb part 3 (Foot/Vessels/Joints) bank — AU-native concepts. Keys read from a full-resolution render of the bank's own answer table (p12).
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q01
+
+## title
+Lateral plantar nerve — the exception
+
+## question
+The lateral plantar nerve supplies the following muscles, EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Adductor hallucis
+
+## explanation_a
+Incorrect (this IS lateral-plantar-supplied). Adductor hallucis is one of the lateral plantar nerve's muscles, despite its name suggesting a medial relationship.
+
+## answer_b
+Flexor digitorum brevis
+
+## explanation_b
+Correct. Flexor digitorum brevis is one of the "one and a half" muscles supplied by the medial plantar nerve, not the lateral plantar nerve, making it the exception here. Recognising quadratus plantae's role as a corrector — it pulls the oblique flexor digitorum longus tendons into a straighter line of pull toward each toe — helps explain why it needs its own dedicated lateral plantar nerve supply rather than following the medial branch.
+
+## answer_c
+Abductor digiti minimi
+
+## explanation_c
+Incorrect (this IS lateral-plantar-supplied). Abductor digiti minimi is supplied by the lateral plantar nerve.
+
+## answer_d
+Lateral three lumbricals
+
+## explanation_d
+Incorrect (this IS lateral-plantar-supplied). The lateral three lumbricals (2nd–4th) are lateral-plantar-supplied, unlike the first lumbrical, which is medial.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Apply the medial-plantar-nerve "one and a half muscles" rule to identify flexor digitorum brevis as the exception in a list of otherwise lateral-plantar-supplied muscles.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q1=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q03
+
+## title
+Extensor expansion of the little toe
+
+## question
+The extensor expansion of the little toe gives attachment to:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+One lumbrical muscle and one interosseous muscle
+
+## explanation_a
+Correct. Like the fingers' extensor expansions, each lateral toe's expansion receives one lumbrical tendon and one interosseous tendon, converging with the long extensor tendon on the middle and distal phalanges. This same one-lumbrical-one-interosseous pattern applies to the third and fourth toes as well, since only the second toe (with dorsal interossei on both sides) and the great toe (with no interosseous at all) break from it.
+
+## answer_b
+One lumbrical muscle and 2 interosseous muscles
+
+## explanation_b
+Incorrect. The little toe, being the most lateral digit, has only one interosseous (a dorsal interosseous) contributing, not two.
+
+## answer_c
+2 lumbrical muscles and one interosseous muscle
+
+## explanation_c
+Incorrect. Only one lumbrical, not two, inserts into any single toe's expansion.
+
+## answer_d
+One lumbrical muscle and extensor digitorum brevis
+
+## explanation_d
+Incorrect. Extensor digitorum brevis's own tendon joins the extensor expansions of the medial four toes generally, but the specific one-lumbrical/one-interosseous pairing is the pattern this bank tests, not a direct EDB attachment claim.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+CON-MSK-0CC053D55B268C
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that a lateral toe's extensor expansion receives one lumbrical and one interosseous tendon, mirroring the hand's pattern.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q3=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q04
+
+## title
+Medial plantar nerve — the exception
+
+## question
+All are supplied by the medial plantar nerve EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Abductor hallucis
+
+## explanation_a
+Incorrect (this IS medial-plantar-supplied). Abductor hallucis is one of the medial plantar nerve's classic four targets.
+
+## answer_b
+Flexor digitorum brevis
+
+## explanation_b
+Incorrect (this IS medial-plantar-supplied). Flexor digitorum brevis is another of the medial plantar nerve's targets.
+
+## answer_c
+Flexor digitorum accessorius (quadratus plantae)
+
+## explanation_c
+Correct. Quadratus plantae (flexor digitorum accessorius) is the classic exception, supplied by the lateral plantar nerve despite sitting close to the other long-flexor-related muscles. Recognising this exception is what separates a student who has memorised the "one and a half muscles are medial" rule correctly from one who has only memorised a list of muscle names.
+
+## answer_d
+Flexor hallucis brevis
+
+## explanation_d
+Incorrect (this IS medial-plantar-supplied). Flexor hallucis brevis is medial-plantar-supplied, completing the "one and a half" group with the first lumbrical.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Identify quadratus plantae as the deliberate lateral-plantar-nerve exception among otherwise medial-plantar-supplied muscles.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q4=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q05
+
+## title
+Nerve supply of extensor digitorum brevis
+
+## question
+Extensor digitorum brevis is supplied by:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Deep peroneal nerve
+
+## explanation_a
+Correct. Extensor digitorum brevis, the one intrinsic muscle on the dorsum of the foot, is supplied by the deep peroneal nerve, continuing the same nerve that drives the whole anterior compartment. This is a useful landmark clinically: a swelling anterolateral to the ankle after inversion injury is sometimes mistaken for this muscle's belly rather than recognised as extensor digitorum brevis itself.
+
+## answer_b
+Superficial peroneal nerve
+
+## explanation_b
+Incorrect. The superficial peroneal nerve is largely sensory over the dorsum by this point, having no motor branch to extensor digitorum brevis.
+
+## answer_c
+Medial plantar nerve
+
+## explanation_c
+Incorrect. The medial plantar nerve supplies sole muscles, not the dorsal extensor digitorum brevis.
+
+## answer_d
+Lateral plantar nerve
+
+## explanation_d
+Incorrect. The lateral plantar nerve likewise supplies sole muscles, not the dorsal extensor digitorum brevis.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-0CC053D55B268C
+
+## concept_ids
+CON-MSK-0CC053D55B268C
+
+## contextual_concept_ids
+CON-MSK-79E3831EA7CB4F
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Confirm that extensor digitorum brevis is deep-peroneal-nerve-supplied, continuing the anterior compartment's nerve onto the dorsum of the foot.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q5=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q06
+
+## title
+Second layer of the sole — the exception
+
+## question
+The following are contents of the second layer of muscles of the sole of the foot EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Tendon of flexor digitorum longus
+
+## explanation_a
+Incorrect (this IS layer 2). The flexor digitorum longus tendon runs through layer 2 en route to the toes.
+
+## answer_b
+Tendon of flexor hallucis longus
+
+## explanation_b
+Incorrect (this IS layer 2). The flexor hallucis longus tendon also runs through layer 2.
+
+## answer_c
+Abductor digiti minimi muscle
+
+## explanation_c
+Correct. Abductor digiti minimi belongs to layer 1 (the most superficial layer), not layer 2, making it the exception here. Distinguishing which muscles cross through a layer (like the long flexor tendons) from which ones belong to a more superficial layer is the main source of difficulty in this four-layer scheme.
+
+## answer_d
+Flexor digitorum accessorius
+
+## explanation_d
+Incorrect (this IS layer 2). Flexor digitorum accessorius (quadratus plantae) is a layer 2 muscle.
+
+## answer_e
+Lumbrical muscles
+
+## explanation_e
+Incorrect (this IS layer 2). The lumbricals, arising from the flexor digitorum longus tendons, are also layer 2.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Distinguish layer 1's abductor digiti minimi from the true layer 2 contents (long flexor tendons, quadratus plantae, lumbricals).
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q6=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q07
+
+## title
+Medial plantar nerve — the exception (second phrasing)
+
+## question
+The medial plantar nerve supplies all of the following muscles EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Adductor hallucis
+
+## explanation_a
+Correct. Adductor hallucis is lateral-plantar-supplied, the deliberate exception among the sole's abductor/flexor-brevis group despite sitting near the medially-named muscles. This pattern mirrors the hand, where the ulnar (here, lateral plantar) nerve supplies the adductor of the thumb despite the median nerve supplying its other thenar muscles.
+
+## answer_b
+Flexor hallucis brevis
+
+## explanation_b
+Incorrect (this IS medial-plantar-supplied). Flexor hallucis brevis is one of the "one and a half" medial plantar targets.
+
+## answer_c
+Flexor digitorum brevis
+
+## explanation_c
+Incorrect (this IS medial-plantar-supplied). Flexor digitorum brevis is also medial-plantar-supplied.
+
+## answer_d
+Abductor hallucis
+
+## explanation_d
+Incorrect (this IS medial-plantar-supplied). Abductor hallucis is medial-plantar-supplied.
+
+## answer_e
+First lumbrical
+
+## explanation_e
+Incorrect (this IS medial-plantar-supplied). The first lumbrical completes the "one and a half" group.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Reinforce adductor hallucis as a lateral-plantar-nerve exception despite its name.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q7=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q08
+
+## title
+Contents of the first layer of the sole
+
+## question
+The 1st layer of the sole contains ONE of the following muscles:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Flexor hallucis brevis
+
+## explanation_a
+Incorrect. Flexor hallucis brevis is a layer 3 muscle, not layer 1.
+
+## answer_b
+Flexor digitorum brevis
+
+## explanation_b
+Correct. Flexor digitorum brevis, along with abductor hallucis and abductor digiti minimi, is one of the three layer 1 (most superficial) muscles of the sole. Learning these three layer-1 muscles as a set — abductor hallucis, flexor digitorum brevis, abductor digiti minimi — is more reliable than trying to reason out layer membership from a muscle's name alone.
+
+## answer_c
+Flexor digiti minimi
+
+## explanation_c
+Incorrect. Flexor digiti minimi brevis is a layer 3 muscle.
+
+## answer_d
+Tendon of peroneus longus muscle
+
+## explanation_d
+Incorrect. Peroneus longus's tendon crosses the sole in layer 4, the deepest layer, not layer 1.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Identify flexor digitorum brevis, abductor hallucis and abductor digiti minimi as layer 1 of the sole.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q8=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q09
+
+## title
+A muscle in the third layer of the sole
+
+## question
+Which ONE of the following muscles lies in the 3rd layer of the sole of the foot?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Abductor hallucis
+
+## explanation_a
+Incorrect. Abductor hallucis is a layer 1 muscle.
+
+## answer_b
+Flexor digitorum brevis
+
+## explanation_b
+Incorrect. Flexor digitorum brevis is also a layer 1 muscle.
+
+## answer_c
+Flexor digitorum accessorius
+
+## explanation_c
+Incorrect. Flexor digitorum accessorius (quadratus plantae) is a layer 2 muscle.
+
+## answer_d
+Adductor hallucis
+
+## explanation_d
+Correct. Adductor hallucis, together with flexor hallucis brevis and flexor digiti minimi brevis, forms layer 3 of the sole. Layer 3 sits directly beneath the long flexor tendons and lumbricals of layer 2, immediately superficial to the interossei of layer 4.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Identify adductor hallucis, flexor hallucis brevis and flexor digiti minimi brevis as layer 3 of the sole.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q9=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q10
+
+## title
+A muscle supplied by the lateral plantar nerve
+
+## question
+Which ONE of the following muscles is supplied by the lateral plantar nerve?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Flexor hallucis brevis
+
+## explanation_a
+Incorrect. Flexor hallucis brevis is medial-plantar-supplied, part of the "one and a half" group.
+
+## answer_b
+Flexor digitorum brevis
+
+## explanation_b
+Incorrect. Flexor digitorum brevis is also medial-plantar-supplied.
+
+## answer_c
+Adductor hallucis
+
+## explanation_c
+Correct. Adductor hallucis is lateral-plantar-supplied, the exception among the abductor/flexor-brevis group. No other option in this list breaks from the medial plantar nerve's "one and a half muscles" group, which is what makes adductor hallucis the single correct answer.
+
+## answer_d
+First lumbrical
+
+## explanation_d
+Incorrect. The first lumbrical is medial-plantar-supplied, unlike the lateral three lumbricals.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Identify adductor hallucis as the lateral-plantar-supplied muscle among otherwise medial-plantar-supplied options.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q10=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q11
+
+## title
+Extensor expansion of the second toe — the exception
+
+## question
+All of the following muscles are attached to the extensor expansion of the 2nd toe EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Lumbrical muscle
+
+## explanation_a
+Incorrect (this DOES attach). The second toe's own lumbrical inserts into its extensor expansion.
+
+## answer_b
+Interosseous muscle
+
+## explanation_b
+Incorrect (this DOES attach). An interosseous tendon (the second toe has both a dorsal and plantar interosseous relationship, unlike the purely lateral toes) also attaches.
+
+## answer_c
+Extensor hallucis longus
+
+## explanation_c
+Correct. Extensor hallucis longus is exclusive to the great (first) toe and never attaches to the second toe's expansion, making it the exception. This exclusivity is why extensor hallucis longus can be tested as an isolated, single-toe landmark, unlike extensor digitorum longus, which fans out across all four lateral toes.
+
+## answer_d
+Extensor digitorum brevis
+
+## explanation_d
+Incorrect (this DOES attach). Extensor digitorum brevis's slip to the second toe joins its expansion alongside extensor digitorum longus.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+CON-MSK-0CC053D55B268C
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Recognise extensor hallucis longus as exclusive to the great toe, never contributing to the second toe's extensor expansion.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q11=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q12
+
+## title
+Cutaneous supply to the toes — the exception
+
+## question
+All of the following nerves give cutaneous supply to the toes EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Deep peroneal nerve
+
+## explanation_a
+Incorrect (this DOES reach the toes). The deep peroneal nerve supplies the adjacent sides of the first and second toes at the first web space.
+
+## answer_b
+Medial plantar nerve
+
+## explanation_b
+Incorrect (this DOES reach the toes). The medial plantar nerve supplies the plantar surface of the medial three and a half toes.
+
+## answer_c
+Saphenous nerve
+
+## explanation_c
+Correct. The saphenous nerve's territory ends at the medial malleolus/foot border and never reaches the toes, making it the exception. Recognising the saphenous nerve's proximal limit is a common examination trap, since its territory is easy to over-extend distally by assumption.
+
+## answer_d
+Superficial peroneal nerve
+
+## explanation_d
+Incorrect (this DOES reach the toes). The superficial peroneal nerve supplies most of the dorsal skin of the toes.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-583524B3AE47F7
+
+## concept_ids
+CON-MSK-583524B3AE47F7
+
+## contextual_concept_ids
+CON-MSK-3F2004E89BDB84
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Recognise that the saphenous nerve's territory stops short of the toes, unlike the other three named nerves.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q12=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q13
+
+## title
+Cutaneous nerve of the medial 3.5 toes' sole
+
+## question
+Cutaneous innervation of the plantar surface of the 3.5 medial toes is provided by which nerve?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Deep peroneal nerve
+
+## explanation_a
+Incorrect. The deep peroneal nerve's sensory field is dorsal (first web space only), not plantar.
+
+## answer_b
+Medial plantar nerve
+
+## explanation_b
+Correct. The medial plantar nerve, the sole's larger "median-nerve-equivalent" branch, supplies the plantar skin of the medial three and a half toes, matching the pattern of its motor territory. This division of labour — deep peroneal for the first web space only, medial plantar for the medial three and a half toes' sole, lateral plantar for the rest of the sole — is the complete picture of toe sensation this bank tests across several items.
+
+## answer_c
+Saphenous nerve
+
+## explanation_c
+Incorrect. The saphenous nerve does not reach the toes at all.
+
+## answer_d
+Superficial peroneal nerve
+
+## explanation_d
+Incorrect. The superficial peroneal nerve's field is dorsal, not plantar.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-583524B3AE47F7
+
+## concept_ids
+CON-MSK-583524B3AE47F7
+
+## contextual_concept_ids
+CON-MSK-3F2004E89BDB84
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the medial plantar nerve supplies the plantar skin of the medial three and a half toes.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q13=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q15
+
+## title
+Action of the plantar interossei
+
+## question
+Action of the plantar interossei muscles:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Extension of metatarsophalangeal joints
+
+## explanation_a
+Incorrect. Extension at the metatarsophalangeal joints is chiefly an extensor digitorum longus/brevis action, not the interossei's primary role.
+
+## answer_b
+Abduction of the lateral 4 toes
+
+## explanation_b
+Incorrect. Abduction of the lateral toes is a dorsal interossei (and abductor digiti minimi) action, the opposite of the plantar interossei.
+
+## answer_c
+Adduction of the lateral 3 toes
+
+## explanation_c
+Correct. Following the hand's PAD (Plantar ADduct) pattern, the plantar interossei adduct the lateral three toes (3rd–5th) toward the axis through the second toe. Learning PAD (Plantar ADduct) alongside DAB (Dorsal ABduct) for the interossei is the standard mnemonic bridge from the hand's anatomy to the foot's analogous but axis-shifted scheme.
+
+## answer_d
+Adduction of the big toe
+
+## explanation_d
+Incorrect. Adduction of the great toe is adductor hallucis's job, a separate layer-3 muscle, not one of the four plantar interossei.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-3F2004E89BDB84
+
+## concept_ids
+CON-MSK-3F2004E89BDB84
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Apply the PAD mnemonic (Plantar ADduct) to the foot's plantar interossei.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q15=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q16
+
+## title
+The deepest structure in the popliteal fossa
+
+## question
+Which of the following is the deepest structure in the popliteal fossa?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Popliteal vein
+
+## explanation_a
+Incorrect. The popliteal vein lies superficial to the artery, intermediate between it and the nerve.
+
+## answer_b
+Popliteal artery
+
+## explanation_b
+Correct. The popliteal artery, lying directly against the femur/knee joint capsule, is the deepest of the popliteal fossa's three main neurovascular structures. This depth explains why the popliteal artery is the structure most protected from a posterior knee laceration, while the tibial nerve, most superficial, is the one most exposed.
+
+## answer_c
+Common peroneal nerve
+
+## explanation_c
+Incorrect. The common peroneal nerve is one of the most superficial structures at the upper fossa, splitting off laterally.
+
+## answer_d
+Tibial nerve
+
+## explanation_d
+Incorrect. The tibial nerve is superficial to both the vein and artery throughout the fossa.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-B85AD5D0E8E692
+
+## concept_ids
+CON-MSK-B85AD5D0E8E692
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the popliteal artery is the deepest structure in the popliteal fossa.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q16=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q17
+
+## title
+A true statement about dorsalis pedis
+
+## question
+Regarding the dorsalis pedis artery:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It is the continuation of the posterior tibial artery deep to the flexor retinaculum
+
+## explanation_a
+Incorrect. Dorsalis pedis is the continuation of the anterior tibial artery, not the posterior tibial artery, and it lies deep to the inferior (not the flexor) retinaculum.
+
+## answer_b
+It runs medial to the anterior tibial nerve
+
+## explanation_b
+Correct. At the front of the ankle, the deep peroneal nerve runs lateral to the artery, so the artery itself lies medial to the nerve. This relation — nerve lateral, artery medial — is the opposite of what a student might assume by analogy with the leg, where the deep peroneal nerve and anterior tibial artery run essentially side by side rather than with a fixed lateral/medial rule.
+
+## answer_c
+The peroneal artery is one of its branches
+
+## explanation_c
+Incorrect. The peroneal artery is a branch of the posterior tibial artery, an entirely different vessel from dorsalis pedis.
+
+## answer_d
+It passes deep to the superior extensor retinaculum
+
+## explanation_d
+Incorrect. Dorsalis pedis passes deep to the inferior extensor retinaculum, not the superior one, which lies more proximally.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-0415214C935D2D
+
+## concept_ids
+CON-MSK-0415214C935D2D
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that dorsalis pedis lies medial to the deep peroneal nerve at the ankle, and is the anterior tibial artery's own continuation.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q17=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q18
+
+## title
+The vessel not in the cruciate anastomosis
+
+## question
+Which vessel is NOT involved in the cruciate anastomosis?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The superior gluteal artery
+
+## explanation_a
+Correct. The superior gluteal artery is part of the trochanteric anastomosis around the greater trochanter, not the cruciate anastomosis. Recognising that the superior gluteal artery belongs to the separate trochanteric anastomosis, not the cruciate one, is the key discrimination this stem tests.
+
+## answer_b
+The 1st perforating branch of profunda femoris
+
+## explanation_b
+Incorrect (this IS part of it). The first perforating branch of profunda femoris is one of the cruciate anastomosis's four contributors.
+
+## answer_c
+The lateral circumflex femoral artery
+
+## explanation_c
+Incorrect (this IS part of it). The lateral circumflex femoral artery also contributes to the cruciate anastomosis.
+
+## answer_d
+The inferior gluteal artery
+
+## explanation_d
+Incorrect (this IS part of it). The inferior gluteal artery is likewise a cruciate anastomosis contributor.
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## main_concept
+CON-MSK-878CDBCE65A326
+
+## concept_ids
+CON-MSK-878CDBCE65A326
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Distinguish the cruciate anastomosis's four vessels from the superior gluteal artery, which belongs to the separate trochanteric anastomosis.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q18=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q19
+
+## title
+Femoral vein tributaries — the exception
+
+## question
+All of the followings are tributaries to the femoral vein EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Deep external pudendal vein
+
+## explanation_a
+Incorrect (this IS a tributary). The deep external pudendal vein does drain into the femoral vein.
+
+## answer_b
+Lateral circumflex femoral vein
+
+## explanation_b
+Incorrect (this IS a tributary). The lateral circumflex femoral vein also drains into the femoral vein.
+
+## answer_c
+Short (small) saphenous vein
+
+## explanation_c
+Correct. The small (short) saphenous vein drains into the popliteal vein behind the knee, not the femoral vein — the deliberate exception here. Recognising that the small saphenous vein bypasses the femoral vein entirely, draining instead into the popliteal vein, is a common point of confusion with its great saphenous counterpart.
+
+## answer_d
+Profunda femoris vein
+
+## explanation_d
+Incorrect (this IS a tributary). The profunda femoris vein drains into the femoral vein.
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## main_concept
+CON-MSK-5428C841EE2214
+
+## concept_ids
+CON-MSK-5428C841EE2214
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Distinguish the femoral vein's true deep tributaries from the small saphenous vein, which drains into the popliteal vein instead.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q19=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q20
+
+## title
+What passes behind the lateral malleolus
+
+## question
+........... pass behind the lateral malleolus of the foot.
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Saphenous nerve and great saphenous vein
+
+## explanation_a
+Incorrect. The saphenous nerve and great saphenous vein pass in front of the medial malleolus, not behind the lateral one.
+
+## answer_b
+Saphenous nerve and small saphenous vein
+
+## explanation_b
+Incorrect. The saphenous nerve belongs with the great, not small, saphenous vein, and passes at the medial malleolus.
+
+## answer_c
+Sural nerve and great saphenous vein
+
+## explanation_c
+Incorrect. The sural nerve is correctly paired here, but the great saphenous vein belongs at the medial malleolus, not with the sural nerve.
+
+## answer_d
+Sural nerve and small saphenous vein
+
+## explanation_d
+Correct. The sural nerve and the small (short) saphenous vein travel together behind the lateral malleolus, continuing onto the lateral border of the foot. This pairing mirrors, on the lateral side, the saphenous nerve/great saphenous vein pairing on the medial side — same principle, opposite malleolus.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-583524B3AE47F7
+
+## concept_ids
+CON-MSK-583524B3AE47F7
+
+## contextual_concept_ids
+CON-MSK-3C463B166E712C
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Pair the sural nerve with the small saphenous vein behind the lateral malleolus, distinct from the saphenous nerve/great saphenous vein pairing at the medial malleolus.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q20=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q21
+
+## title
+A true statement about the great saphenous vein
+
+## question
+Great saphenous vein:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Ascends in the leg anterior to the medial malleolus
+
+## explanation_a
+Correct. The great saphenous vein ascends anterior to the medial malleolus before continuing up the medial side of the leg and thigh. This anterior position at the ankle is the opposite of the small saphenous vein's posterior course at the lateral malleolus, a frequent point of confusion between the two systems.
+
+## answer_b
+Is accompanied by the sural nerve
+
+## explanation_b
+Incorrect. The great saphenous vein is accompanied by the saphenous nerve, not the sural nerve, which instead runs with the small saphenous vein.
+
+## answer_c
+Pierces the deep fascia of the popliteal region
+
+## explanation_c
+Incorrect. The great saphenous vein terminates by piercing the cribriform fascia at the saphenous opening in the groin, not the popliteal region's deep fascia — that description fits the small saphenous vein's termination.
+
+## answer_d
+Is accompanied by the femoral nerve
+
+## explanation_d
+Incorrect. The great saphenous vein is accompanied by the saphenous nerve (a femoral nerve branch), not the femoral nerve itself, which lies well proximal in the femoral triangle.
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## main_concept
+CON-MSK-3C463B166E712C
+
+## concept_ids
+CON-MSK-3C463B166E712C
+
+## contextual_concept_ids
+CON-MSK-583524B3AE47F7
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Confirm that the great saphenous vein ascends anterior to the medial malleolus, accompanied by the saphenous nerve.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q21=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q22
+
+## title
+The great saphenous vein — the exception
+
+## question
+Regarding the great saphenous vein, all the following statements are true, EXCEPT that it:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Runs most of its course in the superficial fascia
+
+## explanation_a
+Incorrect (this IS true). The great saphenous vein runs almost entirely within the superficial fascia of the leg and thigh.
+
+## answer_b
+Ends into the femoral vein
+
+## explanation_b
+Incorrect (this IS true). It does end by joining the femoral vein at the saphenofemoral junction.
+
+## answer_c
+Has many valves
+
+## explanation_c
+Incorrect (this IS true). Like other superficial veins, it has many valves, whose incompetence produces varicosities.
+
+## answer_d
+Passes deep to the inguinal ligament
+
+## explanation_d
+Correct. The great saphenous vein pierces the cribriform fascia at the saphenous opening, below and lateral to the pubic tubercle — it does not pass deep to the inguinal ligament itself, making this the false statement. Recognising this distinction between "pierces the cribriform fascia at the saphenous opening" and "passes deep to the inguinal ligament" prevents conflating the vein's course with the femoral artery/vein's own passage beneath the ligament.
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## main_concept
+CON-MSK-3C463B166E712C
+
+## concept_ids
+CON-MSK-3C463B166E712C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Recognise that the great saphenous vein pierces the cribriform fascia at the saphenous opening, not passing deep to the inguinal ligament itself.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q22=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q23
+
+## title
+Trochanteric anastomosis — the exception
+
+## question
+Trochanteric anastomosis is formed by the following arteries EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Superior gluteal artery
+
+## explanation_a
+Incorrect (this IS part of it). The superior gluteal artery contributes to the trochanteric anastomosis.
+
+## answer_b
+Ascending branch of lateral circumflex femoral
+
+## explanation_b
+Incorrect (this IS part of it). The ascending branch of the lateral circumflex femoral artery also contributes.
+
+## answer_c
+First perforating branch of profunda femoris
+
+## explanation_c
+Correct. The first perforating branch of profunda femoris belongs to the cruciate anastomosis, not the trochanteric one, making it the exception here. Recognising which perforating branch belongs to which anastomosis — first perforating to cruciate, not trochanteric — is the recurring discrimination this bank tests across several items.
+
+## answer_d
+Inferior gluteal artery
+
+## explanation_d
+Incorrect (this IS part of it). The inferior gluteal artery is another trochanteric anastomosis contributor.
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## main_concept
+CON-MSK-878CDBCE65A326
+
+## concept_ids
+CON-MSK-878CDBCE65A326
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Distinguish the trochanteric anastomosis's vessels from the cruciate anastomosis's first perforating artery.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q23=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q24
+
+## title
+Nutrient artery of the fibula
+
+## question
+The nutrient artery of the fibula is a branch from ONE of the following:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Posterior tibial artery
+
+## explanation_a
+Incorrect. The posterior tibial artery gives the peroneal artery as a branch, but the nutrient artery itself branches from the peroneal artery, not directly from the posterior tibial.
+
+## answer_b
+Peroneal artery
+
+## explanation_b
+Correct. The peroneal artery, running close against the fibula's shaft in the deep posterior compartment, gives off the fibula's nutrient artery. This detail matters clinically because a fibular shaft fracture can compromise this nutrient supply, contributing to delayed union at that level.
+
+## answer_c
+Circumflex fibular artery
+
+## explanation_c
+Incorrect. "Circumflex fibular artery" is not the standard source of the fibula's nutrient supply in this scheme.
+
+## answer_d
+Anterior tibial recurrent artery
+
+## explanation_d
+Incorrect. The anterior tibial recurrent artery contributes to the genicular anastomosis around the knee, not the fibula's nutrient supply.
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## main_concept
+CON-MSK-0415214C935D2D
+
+## concept_ids
+CON-MSK-0415214C935D2D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the peroneal artery gives the fibula's nutrient artery.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q24=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q25
+
+## title
+Veins of the lower limb — the exception
+
+## question
+Regarding veins of the lower limb, the following statements are correct EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The great saphenous vein passes behind the medial malleolus
+
+## explanation_a
+Correct — this is the false statement. The great saphenous vein passes in front of, not behind, the medial malleolus. Recognising this reversal (in front of, not behind) prevents confusing the great saphenous vein's course with the small saphenous vein's posterior course at the opposite (lateral) malleolus.
+
+## answer_b
+Small saphenous vein drains into popliteal vein
+
+## explanation_b
+Incorrect (this IS true). The small saphenous vein does drain into the popliteal vein.
+
+## answer_c
+Femoral vein lies medial to the femoral artery at the base of the femoral triangle
+
+## explanation_c
+Incorrect (this IS true). The femoral vein does lie medial to the femoral artery at the base of the femoral triangle.
+
+## answer_d
+Great saphenous vein pierces cribriform fascia to enter femoral vein
+
+## explanation_d
+Incorrect (this IS true). The great saphenous vein does pierce the cribriform fascia to join the femoral vein.
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## main_concept
+CON-MSK-3C463B166E712C
+
+## concept_ids
+CON-MSK-3C463B166E712C
+
+## contextual_concept_ids
+CON-MSK-5428C841EE2214
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Reinforce that the great saphenous vein passes in front of, not behind, the medial malleolus.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q25=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q26
+
+## title
+A true statement about the great saphenous vein (second phrasing)
+
+## question
+For the great saphenous vein, ONE of the followings is true:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It ascends behind the medial malleolus
+
+## explanation_a
+Incorrect. It ascends in front of, not behind, the medial malleolus.
+
+## answer_b
+It originates from the medial side of the dorsal venous arch
+
+## explanation_b
+Correct. The great saphenous vein originates from the medial end of the dorsal venous arch of the foot, then ascends in front of the medial malleolus. From there it ascends in front of the medial malleolus and continues up the medial leg and thigh to the saphenofemoral junction.
+
+## answer_c
+The small saphenous vein is one of its tributaries
+
+## explanation_c
+Incorrect. The small saphenous vein is a separate, parallel superficial system draining into the popliteal vein, not a tributary of the great saphenous vein.
+
+## answer_d
+It passes through an opening in adductor magnus
+
+## explanation_d
+Incorrect. Passing through the adductor hiatus (an opening in adductor magnus) describes the femoral vessels' course, not the great saphenous vein, which stays superficial throughout the thigh.
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## main_concept
+CON-MSK-3C463B166E712C
+
+## concept_ids
+CON-MSK-3C463B166E712C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the great saphenous vein originates from the medial end of the dorsal venous arch of the foot.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q26=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q27
+
+## title
+Popliteal artery — the exception
+
+## question
+The following statements regarding the popliteal artery are correct EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It begins at the adductor hiatus
+
+## explanation_a
+Incorrect (this IS true). The popliteal artery begins as the femoral artery's continuation at the adductor hiatus.
+
+## answer_b
+It ends at the lower border of the popliteus muscle
+
+## explanation_b
+Incorrect (this IS true). It ends at popliteus's lower border by dividing into the anterior and posterior tibial arteries.
+
+## answer_c
+The middle genicular artery is one of its branches
+
+## explanation_c
+Incorrect (this IS true). The middle genicular artery, supplying the cruciate ligaments, is one of its branches.
+
+## answer_d
+It is the most superficial structure in the popliteal fossa
+
+## explanation_d
+Correct. The popliteal artery is the deepest, not the most superficial, structure in the popliteal fossa — the tibial nerve holds that position instead. Recognising this depth is what makes the popliteal artery relatively protected from superficial injury in the fossa, unlike the tibial nerve immediately beneath the skin.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-B85AD5D0E8E692
+
+## concept_ids
+CON-MSK-B85AD5D0E8E692
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Reinforce that the popliteal artery is the deepest, not the most superficial, popliteal-fossa structure.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q27=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q28
+
+## title
+Posterior tibial artery — the exception
+
+## question
+Regarding the posterior tibial artery, the following statements are correct, EXCEPT that it:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Is one of the two terminal branches of the popliteal artery
+
+## explanation_a
+Incorrect (this IS true). It is indeed one of the popliteal artery's two terminal branches, alongside the anterior tibial artery.
+
+## answer_b
+Gives rise to the peroneal artery
+
+## explanation_b
+Incorrect (this IS true). It does give rise to the peroneal artery.
+
+## answer_c
+Accompanies the common peroneal nerve along most of its course
+
+## explanation_c
+Correct. The posterior tibial artery accompanies the tibial nerve, not the common peroneal nerve, along its course — the deliberate false statement here. Recognising that the posterior tibial artery's companion nerve is the tibial nerve, not the common peroneal nerve, is the key discrimination this stem tests.
+
+## answer_d
+Shares in anastomosis around the knee and ankle joints
+
+## explanation_d
+Incorrect (this IS true). It does contribute to the genicular anastomosis around the knee and the malleolar anastomoses around the ankle.
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## main_concept
+CON-MSK-0415214C935D2D
+
+## concept_ids
+CON-MSK-0415214C935D2D
+
+## contextual_concept_ids
+CON-MSK-9180242FA01B58
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Confirm the posterior tibial artery accompanies the tibial nerve, not the common peroneal nerve.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q28=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q29
+
+## title
+Veins of the lower limb — the exception (second phrasing)
+
+## question
+Regarding veins of the lower limb, the following statements are correct, EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The great saphenous vein ascends in front of the medial malleolus
+
+## explanation_a
+Incorrect (this IS true). The great saphenous vein does ascend in front of the medial malleolus.
+
+## answer_b
+Small saphenous vein drains into the popliteal vein
+
+## explanation_b
+Incorrect (this IS true). The small saphenous vein does drain into the popliteal vein.
+
+## answer_c
+Femoral vein lies lateral to the femoral artery at the base of the femoral triangle
+
+## explanation_c
+Correct. The femoral vein lies medial to, not lateral to, the femoral artery at the base of the femoral triangle — the false statement here. Recognising this medial (not lateral) relation is essential for femoral vein cannulation, where the artery's pulse is used as the landmark and the vein is sought just medial to it.
+
+## answer_d
+Great saphenous vein pierces cribriform fascia to enter femoral vein
+
+## explanation_d
+Incorrect (this IS true). The great saphenous vein does pierce the cribriform fascia to enter the femoral vein.
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## main_concept
+CON-MSK-5428C841EE2214
+
+## concept_ids
+CON-MSK-5428C841EE2214
+
+## contextual_concept_ids
+CON-MSK-3C463B166E712C
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Reinforce that the femoral vein lies medial, not lateral, to the femoral artery at the base of the femoral triangle.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q29=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q30
+
+## title
+A direct branch of dorsalis pedis
+
+## question
+Which of the following dorsal metatarsal arteries is a direct branch from the dorsalis pedis artery?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+1st
+
+## explanation_a
+Correct. The first dorsal metatarsal artery arises directly from dorsalis pedis before it dives into the sole; the second to fourth instead arise from the arcuate artery, a branch of dorsalis pedis. Because the second through fourth dorsal metatarsal arteries instead branch from the arcuate artery, only the first carries dorsalis pedis's name forward directly into the forefoot.
+
+## answer_b
+2nd
+
+## explanation_b
+Incorrect. The second dorsal metatarsal artery arises from the arcuate artery, not directly from dorsalis pedis.
+
+## answer_c
+3rd
+
+## explanation_c
+Incorrect. The third likewise arises from the arcuate artery.
+
+## answer_d
+4th
+
+## explanation_d
+Incorrect. The fourth also arises from the arcuate artery.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-0415214C935D2D
+
+## concept_ids
+CON-MSK-0415214C935D2D
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that only the first dorsal metatarsal artery is a direct dorsalis pedis branch, the rest arising from the arcuate artery.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q30=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q31
+
+## title
+Origin of the medial circumflex femoral artery
+
+## question
+The medial circumflex femoral artery is a direct branch from:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Femoral artery
+
+## explanation_a
+Incorrect. Although it can arise directly from the femoral artery in a minority of people, this bank's convention treats profunda femoris as the standard origin.
+
+## answer_b
+External iliac artery
+
+## explanation_b
+Incorrect. The external iliac artery becomes the femoral artery well proximal to this branching, and does not itself give the medial circumflex femoral artery.
+
+## answer_c
+Profunda femoris artery
+
+## explanation_c
+Correct. The medial circumflex femoral artery, the chief supply to the femoral head via its ascending cervical branches, arises from profunda femoris shortly after its origin. Its ascending cervical branches climb along the femoral neck under the hip capsule, making this the chief blood supply to the femoral head in most adults, more important than the minor contribution via ligamentum teres.
+
+## answer_d
+Anterior tibial artery
+
+## explanation_d
+Incorrect. The anterior tibial artery is a leg vessel, an entirely different region from the thigh's circumflex femoral arteries.
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## main_concept
+CON-MSK-5428C841EE2214
+
+## concept_ids
+CON-MSK-5428C841EE2214
+
+## contextual_concept_ids
+CON-MSK-7D8177F46809E6
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the medial circumflex femoral artery arises from profunda femoris in this bank's convention.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q31=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q32
+
+## title
+A true statement about dorsalis pedis (second phrasing)
+
+## question
+About the dorsalis pedis artery:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It lies medial to the posterior tibial nerve
+
+## explanation_a
+Incorrect. Dorsalis pedis relates to the deep peroneal nerve at the ankle, not the posterior tibial nerve, which is an entirely separate structure passing behind the medial malleolus instead.
+
+## answer_b
+It passes behind the medial malleolus
+
+## explanation_b
+Incorrect. It is the posterior tibial artery, not dorsalis pedis, that passes behind the medial malleolus.
+
+## answer_c
+It ends in the sole of the foot
+
+## explanation_c
+Correct. Dorsalis pedis ends by diving between the two heads of the first dorsal interosseous muscle into the sole, completing the deep plantar arch. This end point completes the deep plantar arch by joining the lateral plantar artery, linking the foot's dorsal and plantar arterial systems.
+
+## answer_d
+Most of its course lies in the sole of the foot
+
+## explanation_d
+Incorrect. Most of dorsalis pedis's course lies on the dorsum of the foot; only its very end dips into the sole.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-0415214C935D2D
+
+## concept_ids
+CON-MSK-0415214C935D2D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that dorsalis pedis ends in the sole (completing the deep plantar arch) despite running mostly on the dorsum.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q32=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q33
+
+## title
+Location of the deep inguinal lymph nodes
+
+## question
+The deep inguinal lymph nodes lie:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+In the lateral compartment of the femoral sheath
+
+## explanation_a
+Incorrect. The lateral compartment of the femoral sheath contains the femoral artery, not the lymph nodes.
+
+## answer_b
+Superficial to the fascia lata
+
+## explanation_b
+Incorrect. The deep inguinal nodes lie deep to the fascia lata, not superficial to it (that describes the superficial inguinal nodes).
+
+## answer_c
+On each side of the great saphenous vein
+
+## explanation_c
+Incorrect. Nodes on each side of the great saphenous vein describes the superficial inguinal group, not the deep group.
+
+## answer_d
+Inside the femoral canal
+
+## explanation_d
+Correct. The deep inguinal lymph nodes, including the node of Cloquet, lie within the femoral canal, medial to the femoral vein. The node of Cloquet, the most superior deep inguinal node, sits right at the femoral ring, which is why malignant nodal involvement there can be difficult to distinguish from a femoral hernia on examination.
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## main_concept
+CON-MSK-1928774A98F5F2
+
+## concept_ids
+CON-MSK-1928774A98F5F2
+
+## contextual_concept_ids
+CON-MSK-104D395A23E1DF
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the deep inguinal lymph nodes lie inside the femoral canal, medial to the femoral vein.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q33=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q34
+
+## title
+Structures in the lower part of the popliteal fossa
+
+## question
+In the lower part of the popliteal fossa:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The popliteal artery lies medial to the popliteal vein
+
+## explanation_a
+Incorrect. This is the reverse of the relation this bank tests for the lower fossa; option D is the one recorded as true.
+
+## answer_b
+The popliteal vein lies medial to the medial popliteal (tibial) nerve
+
+## explanation_b
+Incorrect. The vein-to-nerve relation here does not match the printed key's tested pairing.
+
+## answer_c
+The popliteal artery lies medial to the tibial nerve
+
+## explanation_c
+Incorrect. The artery-to-nerve relation here does not match the printed key's tested pairing.
+
+## answer_d
+The popliteal vein lies medial to the popliteal artery
+
+## explanation_d
+Correct. In the lower part of the popliteal fossa, as the three structures rearrange approaching the leg, the popliteal vein comes to lie medial to the popliteal artery. This rearrangement reflects the vessels' transition from the more separated relations of the upper fossa toward the tighter, stacked arrangement they take as they enter the leg together, deep to soleus.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-B85AD5D0E8E692
+
+## concept_ids
+CON-MSK-B85AD5D0E8E692
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State the popliteal vein's medial relation to the artery specifically in the lower part of the popliteal fossa, distinct from the upper-fossa arrangement.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q34=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q35
+
+## title
+Muscle separating the femoral and profunda femoris arteries
+
+## question
+Which muscle separates the femoral artery from the profunda femoris artery?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Sartorius
+
+## explanation_a
+Incorrect. Sartorius crosses superficially over the femoral vessels but does not separate the femoral artery from profunda femoris in the plane this question tests.
+
+## answer_b
+Adductor longus
+
+## explanation_b
+Correct. As profunda femoris passes posteriorly toward the perforating branches, adductor longus's belly crosses in front of it, separating it from the femoral artery, which continues anteriorly into the adductor canal. This same muscle also marks the transition from the femoral triangle into the adductor canal for the femoral artery itself, making it a useful single landmark for both vessels' relations.
+
+## answer_c
+Rectus femoris
+
+## explanation_c
+Incorrect. Rectus femoris lies anterior to the femur, unrelated to the femoral/profunda femoris split.
+
+## answer_d
+Semitendinosus
+
+## explanation_d
+Incorrect. Semitendinosus is a posterior thigh (hamstring) muscle, well away from these anterior thigh vessels.
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## main_concept
+CON-MSK-5428C841EE2214
+
+## concept_ids
+CON-MSK-5428C841EE2214
+
+## contextual_concept_ids
+CON-MSK-7D8177F46809E6
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that adductor longus separates the femoral artery from profunda femoris in the thigh.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q35=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q36
+
+## title
+Hip joint ligaments — the exception
+
+## question
+The following are ligaments of the hip joint EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Iliofemoral
+
+## explanation_a
+Incorrect (this IS a hip ligament). The iliofemoral (Y) ligament reinforces the hip capsule anteriorly.
+
+## answer_b
+Round ligament of the head of femur
+
+## explanation_b
+Incorrect (this IS a hip ligament). The round ligament (ligamentum teres) is intracapsular, running from the fovea capitis to the acetabulum.
+
+## answer_c
+Pubofemoral
+
+## explanation_c
+Incorrect (this IS a hip ligament). The pubofemoral ligament reinforces the capsule inferomedially.
+
+## answer_d
+Cruciate ligament
+
+## explanation_d
+Correct. The cruciate ligaments (anterior and posterior) belong to the knee joint, not the hip — a classic trap given how frequently "cruciate" appears in this bank's knee questions. No hip-joint ligament of this name exists; a student who confuses the two joints' ligament lists will mistakenly include it here.
+
+## answer_e
+Transverse acetabular
+
+## explanation_e
+Incorrect (this IS a hip ligament, of the acetabulum). The transverse acetabular ligament bridges the acetabular notch, completing the acetabular labrum's ring.
+
+## topic
+Lower limb
+
+## subtopic
+The Hip
+
+## main_concept
+CON-MSK-653EBFBF7DB21C
+
+## concept_ids
+CON-MSK-653EBFBF7DB21C
+
+## contextual_concept_ids
+CON-MSK-96555E54E55FB1
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Recognise that the cruciate ligaments belong to the knee, not the hip, despite the hip's own rich ligament list.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q36=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q37
+
+## title
+Type of the superior tibiofibular joint
+
+## question
+Superior tibio-fibular joint:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Syndesmosis
+
+## explanation_a
+Incorrect. A syndesmosis (fibrous joint) describes the inferior, not the superior, tibiofibular joint.
+
+## answer_b
+Synovial hinge
+
+## explanation_b
+Incorrect. A hinge joint permits only flexion/extension-type movement, not the gliding this joint actually allows.
+
+## answer_c
+Synovial plane
+
+## explanation_c
+Correct. The superior tibiofibular joint is a small synovial plane joint between the fibular head and the lateral tibial condyle, permitting a small gliding movement. Recognising this small gliding movement is why the superior tibiofibular joint contributes almost nothing to ankle mobility itself, unlike the fibrous inferior joint just above the ankle, which stabilises the mortise instead.
+
+## answer_d
+Synovial modified hinge
+
+## explanation_d
+Incorrect. "Modified hinge" describes joints like the knee, not the superior tibiofibular joint's plane-gliding type.
+
+## topic
+Lower limb
+
+## subtopic
+The Leg
+
+## main_concept
+CON-MSK-1D267DB068BB13
+
+## concept_ids
+CON-MSK-1D267DB068BB13
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the superior tibiofibular joint is a synovial plane joint, unlike the fibrous inferior tibiofibular joint.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q37=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q38
+
+## title
+Usual direction of hip dislocation
+
+## question
+Hip dislocation is usually:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Posterior
+
+## explanation_a
+Correct. Hip dislocation is most commonly posterior — the classic "dashboard injury" mechanism, where a force along the femoral shaft with the hip flexed drives the femoral head out through the weaker posterior capsule. This posterior weakness reflects the relative thinness of the posterior capsule and the absence there of a ligament as strong as the anterior iliofemoral ligament.
+
+## answer_b
+Anterior
+
+## explanation_b
+Incorrect. Anterior dislocation is far less common, usually from a forced abduction/external rotation mechanism.
+
+## answer_c
+Medial
+
+## explanation_c
+Incorrect. "Medial" is not a standard direction used to classify hip dislocation.
+
+## answer_d
+Lateral
+
+## explanation_d
+Incorrect. "Lateral" is likewise not the standard classification; dislocations are described as anterior or posterior.
+
+## topic
+Lower limb
+
+## subtopic
+The Hip
+
+## main_concept
+CON-MSK-653EBFBF7DB21C
+
+## concept_ids
+CON-MSK-653EBFBF7DB21C
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that hip dislocation is usually posterior.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q38=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q39
+
+## title
+Anterior knee bursae — the exception
+
+## question
+Bursae related to the knee joint anteriorly are all the following EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Suprapatellar
+
+## explanation_a
+Incorrect (this IS an anterior bursa). The suprapatellar bursa lies deep to quadriceps femoris above the patella and communicates with the joint cavity.
+
+## answer_b
+Prepatellar
+
+## explanation_b
+Incorrect (this IS an anterior bursa). The prepatellar bursa lies in front of the patella itself.
+
+## answer_c
+Popliteal bursa
+
+## explanation_c
+Correct. The popliteal (semimembranosus) bursa lies posteriorly, behind the knee, not anteriorly — the exception here. Recognising the popliteal bursa's posterior location, unrelated to the three anterior bursae, is the key discrimination this stem tests.
+
+## answer_d
+Infrapatellar bursa
+
+## explanation_d
+Incorrect (this IS an anterior bursa). The infrapatellar bursa (superficial and deep) lies below the patella.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-96555E54E55FB1
+
+## concept_ids
+CON-MSK-96555E54E55FB1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Distinguish the knee's anterior bursae (suprapatellar, prepatellar, infrapatellar) from the posterior popliteal bursa.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q39=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q40
+
+## title
+What prevents hip hyperextension
+
+## question
+Hyperextension of the hip joint is prevented by the:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Obturator internus tendon
+
+## explanation_a
+Incorrect. Obturator internus is a lateral rotator muscle, not the structure that limits hip hyperextension.
+
+## answer_b
+Iliofemoral ligament
+
+## explanation_b
+Correct. The iliofemoral (Y) ligament, the strongest ligament in the body, winds tighter as the hip extends and is the chief structure preventing hyperextension, allowing quiet standing with minimal muscular effort. Because it winds tighter, not looser, as the hip extends, the iliofemoral ligament allows quiet, low-effort standing without requiring sustained muscular work to keep the joint from hyperextending.
+
+## answer_c
+Iliotibial tract
+
+## explanation_c
+Incorrect. The iliotibial tract stabilises the knee and assists hip abduction/lateral stability, not the hip's extension limit.
+
+## answer_d
+Ligamentum teres
+
+## explanation_d
+Incorrect. Ligamentum teres carries a minor blood supply to the femoral head and has negligible mechanical role in limiting hip extension.
+
+## topic
+Lower limb
+
+## subtopic
+The Hip
+
+## main_concept
+CON-MSK-653EBFBF7DB21C
+
+## concept_ids
+CON-MSK-653EBFBF7DB21C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the iliofemoral ligament prevents hip hyperextension.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q40=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q41
+
+## title
+What prevents knee hyperextension
+
+## question
+Which ONE of the following prevents hyperextension of the knee joint?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Posterior cruciate ligament
+
+## explanation_a
+Incorrect. The posterior cruciate ligament chiefly prevents posterior translation of the tibia on the femur, not hyperextension.
+
+## answer_b
+Anterior cruciate ligament
+
+## explanation_b
+Correct. The anterior cruciate ligament, taut in extension, is the primary structure preventing knee hyperextension as well as anterior tibial translation. Because the anterior cruciate ligament is taut throughout extension, it is also the ligament most often torn by a hyperextension or pivoting injury.
+
+## answer_c
+Medial collateral ligament
+
+## explanation_c
+Incorrect. The medial collateral ligament resists valgus (side-to-side) stress, not hyperextension specifically.
+
+## answer_d
+Tendon of the popliteus muscle
+
+## explanation_d
+Incorrect. Popliteus's tendon unlocks the knee from full extension; it does not itself prevent hyperextension.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-96555E54E55FB1
+
+## concept_ids
+CON-MSK-96555E54E55FB1
+
+## contextual_concept_ids
+CON-MSK-231FAF0D3F1A84
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the anterior cruciate ligament is the primary restraint against knee hyperextension.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q41=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q42
+
+## title
+Structure attached to the head of the femur
+
+## question
+Which of the following structures is attached to the head of the femur?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Iliofemoral ligament
+
+## explanation_a
+Incorrect. The iliofemoral ligament attaches to the anterior inferior iliac spine and the intertrochanteric line, not the femoral head itself.
+
+## answer_b
+Lateral collateral ligament
+
+## explanation_b
+Incorrect. The (fibular/lateral) collateral ligament belongs to the knee, attaching to the lateral femoral epicondyle and fibular head, unrelated to the femoral head.
+
+## answer_c
+Ligamentum teres
+
+## explanation_c
+Correct. Ligamentum teres (the round ligament) runs from the acetabular fossa/transverse acetabular ligament to the fovea capitis on the femoral head, carrying a small artery to it. This small artery running within the ligament contributes a minor, and in adults often unreliable, part of the femoral head's blood supply, most of which instead comes from the retinacular vessels via the trochanteric anastomosis.
+
+## answer_d
+Ischiofemoral ligament
+
+## explanation_d
+Incorrect. The ischiofemoral ligament reinforces the capsule posteriorly, attaching near the acetabular rim and intertrochanteric crest, not the femoral head itself.
+
+## topic
+Lower limb
+
+## subtopic
+The Hip
+
+## main_concept
+CON-MSK-653EBFBF7DB21C
+
+## concept_ids
+CON-MSK-653EBFBF7DB21C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that ligamentum teres, not the three capsular ligaments, attaches directly to the femoral head.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q42=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q43
+
+## title
+The one true statement about the femur
+
+## question
+Which ONE of the following is true about the femur?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+The cruciate anastomosis occurs at the level of the greater trochanter
+
+## explanation_a
+Incorrect. The cruciate anastomosis is centred at the level of the lesser trochanter; the trochanteric anastomosis, a separate network, is the one at the greater trochanter.
+
+## answer_b
+The main arterial supply of the head of femur passes through ligamentum teres
+
+## explanation_b
+Incorrect. The main arterial supply of the femoral head in an adult comes from the retinacular (ascending cervical) branches of the medial circumflex femoral artery via the trochanteric anastomosis; ligamentum teres's contribution is minor and clinically unreliable, especially after skeletal maturity.
+
+## answer_c
+The neck of the femur is completely covered by the hip capsule posteriorly
+
+## explanation_c
+Incorrect. Posteriorly, the hip capsule covers only the medial two-thirds of the femoral neck, leaving its lateral third extracapsular — a fact with real clinical weight, since an extracapsular neck fracture there has a different blood-supply risk profile from an intracapsular one.
+
+## answer_d
+The iliofemoral ligament attaches to the anterior superior iliac spine
+
+## explanation_d
+Incorrect. The iliofemoral ligament attaches to the anterior inferior iliac spine, not the anterior superior iliac spine (which gives origin to sartorius instead).
+
+## answer_e
+None of the above
+
+## explanation_e
+Correct. Each of the first four statements contains a specific, checkable error (wrong anastomosis level, overstated ligamentum teres supply, an incomplete rather than complete posterior capsule, and the wrong iliac spine), so none of them is true and "none of the above" is the only defensible answer. Recognising that a plausible-sounding statement can still be individually false is the reasoning skill this "none of the above" format is specifically designed to test.
+
+## topic
+Lower limb
+
+## subtopic
+The Hip
+
+## main_concept
+CON-MSK-653EBFBF7DB21C
+
+## concept_ids
+CON-MSK-653EBFBF7DB21C
+
+## contextual_concept_ids
+CON-MSK-878CDBCE65A326
+
+## difficulty
+Challenging
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+15
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Check each of four plausible-sounding femur/hip facts against the precise anatomy (anastomosis level, dominant blood supply, capsule coverage, ligament attachment) to recognise all four are individually wrong.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q43=E
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q44
+
+## title
+The false statement about the knee joint
+
+## question
+About the knee joint, which is false?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The anterior cruciate ligament is extra-synovial
+
+## explanation_a
+Incorrect (this IS true). The anterior cruciate ligament is intracapsular but extrasynovial, as the synovium reflects around it.
+
+## answer_b
+The posterior cruciate ligament is intracapsular
+
+## explanation_b
+Incorrect (this IS true). The posterior cruciate ligament is likewise intracapsular.
+
+## answer_c
+The popliteus tendon passes inside the knee joint
+
+## explanation_c
+Incorrect (this IS true). Popliteus's tendon does pass through the joint capsule to reach its femoral origin, giving it an intracapsular course.
+
+## answer_d
+The lateral collateral ligament is firmly attached to the lateral meniscus
+
+## explanation_d
+Correct — this is the false statement. Unlike the medial collateral ligament (fused to the medial meniscus), the lateral collateral ligament is separated from the lateral meniscus by popliteus's tendon, so it is not firmly attached to it. Recognising this asymmetry between the two collateral ligaments is why a valgus-and-rotation knee injury classically injures the medial meniscus together with the medial collateral ligament and anterior cruciate ligament (the "unhappy triad"), while an isolated lateral meniscus tear without collateral ligament injury is comparatively more common.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-96555E54E55FB1
+
+## concept_ids
+CON-MSK-96555E54E55FB1
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Recognise that, unlike the medial collateral ligament, the lateral collateral ligament is not attached to its adjacent meniscus.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q44=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q45
+
+## title
+Structures inside the knee joint — the exception
+
+## question
+All of the following structures are present inside the knee joint EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Anterior cruciate ligament
+
+## explanation_a
+Incorrect (this IS intracapsular). The anterior cruciate ligament lies inside the capsule.
+
+## answer_b
+Medial collateral ligament
+
+## explanation_b
+Correct. The medial collateral ligament is extracapsular, lying superficial to the capsule — the exception among these otherwise intracapsular structures. Because it lies superficial to the capsule, the medial collateral ligament can be injured in isolation without necessarily opening the joint's synovial cavity, unlike a torn cruciate ligament or meniscus.
+
+## answer_c
+Posterior cruciate ligament
+
+## explanation_c
+Incorrect (this IS intracapsular). The posterior cruciate ligament also lies inside the capsule.
+
+## answer_d
+Medial meniscus
+
+## explanation_d
+Incorrect (this IS intracapsular). The medial meniscus, like the lateral, sits inside the joint.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-96555E54E55FB1
+
+## concept_ids
+CON-MSK-96555E54E55FB1
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Distinguish the extracapsular medial collateral ligament from the intracapsular cruciate ligaments and menisci.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q45=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q46
+
+## title
+The true statement about the knee joint
+
+## question
+Regarding the knee joint, which is true?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Its lateral semilunar cartilage (meniscus) is less mobile than the medial one
+
+## explanation_a
+Incorrect. The lateral meniscus is actually more mobile than the medial one, since it is not fused to its collateral ligament the way the medial meniscus is.
+
+## answer_b
+Popliteus is responsible for locking of the joint
+
+## explanation_b
+Incorrect. Popliteus unlocks, not locks, the knee; locking happens passively via the screw-home mechanism on full extension.
+
+## answer_c
+The suprapatellar bursa is continuous with the cavity of the joint
+
+## explanation_c
+Correct. The suprapatellar bursa, lying deep to quadriceps femoris, communicates directly with the synovial cavity of the knee joint, which is why it distends whenever the joint effuses. This is why an effusion following knee trauma classically produces visible suprapatellar swelling, since fluid within the joint cavity communicates freely with this bursa.
+
+## answer_d
+Hyperextension of the joint is prevented by the posterior cruciate ligament
+
+## explanation_d
+Incorrect. Hyperextension is prevented by the anterior, not the posterior, cruciate ligament.
+
+## topic
+Lower limb
+
+## subtopic
+The Knee
+
+## main_concept
+CON-MSK-96555E54E55FB1
+
+## concept_ids
+CON-MSK-96555E54E55FB1
+
+## contextual_concept_ids
+CON-MSK-231FAF0D3F1A84
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Confirm that the suprapatellar bursa communicates with the knee joint's synovial cavity, while ruling out three plausible but false knee-joint statements.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q46=C
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q47
+
+## title
+Joint responsible for inversion and eversion
+
+## question
+Inversion and eversion of the foot occurs at the level of which joint?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Ankle joint
+
+## explanation_a
+Incorrect. The true ankle (talocrural) joint is a hinge limited to dorsiflexion and plantarflexion, not inversion/eversion.
+
+## answer_b
+Subtalar joint
+
+## explanation_b
+Incorrect alone. The subtalar (posterior talocalcaneal) joint contributes to inversion/eversion, but this bank's printed key names the talocalcaneonavicular joint specifically as the answer, reflecting that inversion/eversion is really a compound movement across the whole subtalar-and-transverse-tarsal joint complex.
+
+## answer_c
+Inferior tibiofibular joint
+
+## explanation_c
+Incorrect. The inferior tibiofibular joint is a fibrous syndesmosis permitting no independent movement of its own.
+
+## answer_d
+Talo-calcaneo-navicular joint
+
+## explanation_d
+Correct. The talocalcaneonavicular joint, acting together with the subtalar joint as the functional "transverse tarsal" complex, is where the rotational movement of inversion and eversion actually takes place. Recognising that this is a compound, multi-joint movement rather than a single hinge action is the reasoning this bank rewards over simply naming "the subtalar joint" alone.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-D8D5A545B71CEC
+
+## concept_ids
+CON-MSK-D8D5A545B71CEC
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Locate inversion/eversion to the talocalcaneonavicular/subtalar joint complex, not the true ankle joint.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q47=D
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q48
+
+## title
+Support of the medial longitudinal arch
+
+## question
+Which of the following muscles supports the medial longitudinal arch?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Tibialis posterior
+
+## explanation_a
+Correct. Tibialis posterior, inserting broadly around the navicular and neighbouring tarsals, is the chief dynamic support of the medial longitudinal arch, alongside the spring ligament and plantar aponeurosis. Collapse of tibialis posterior's supporting function, along with the spring ligament, is a recognised cause of acquired flat foot (pes planus) in adults.
+
+## answer_b
+Peroneus brevis
+
+## explanation_b
+Incorrect. Peroneus brevis inserts on the fifth metatarsal, on the lateral side of the foot, contributing more to the lateral arch than the medial one.
+
+## answer_c
+Plantaris
+
+## explanation_c
+Incorrect. Plantaris inserts via the tendo calcaneus onto the calcaneus and plays no supporting role in the medial arch.
+
+## answer_d
+Soleus
+
+## explanation_d
+Incorrect. Soleus likewise inserts via the tendo calcaneus, with no direct medial-arch-supporting insertion.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-ABB4852A88E0B5
+
+## concept_ids
+CON-MSK-ABB4852A88E0B5
+
+## contextual_concept_ids
+CON-MSK-9180242FA01B58
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Identify tibialis posterior as the chief dynamic support of the medial longitudinal arch.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q48=A
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q49
+
+## title
+Which arches include the calcaneus
+
+## question
+The calcaneus participates in the formation of which ONE of the following arch(es) of the foot?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Medial longitudinal arch only
+
+## explanation_a
+Incorrect. The calcaneus contributes to the lateral longitudinal arch as well, not the medial one alone.
+
+## answer_b
+Medial and lateral longitudinal arches
+
+## explanation_b
+Correct. The calcaneus is the shared posterior pillar of both the medial longitudinal arch (with talus, navicular, cuneiforms, medial three metatarsals) and the lateral longitudinal arch (with cuboid and the lateral two metatarsals). This shared posterior pillar is why a calcaneal fracture can compromise the height of both longitudinal arches simultaneously, not just one.
+
+## answer_c
+Transverse arch only
+
+## explanation_c
+Incorrect. The transverse arch is formed by the cuneiforms, cuboid and metatarsal bases, not by the calcaneus.
+
+## answer_d
+Medial longitudinal and transverse arches
+
+## explanation_d
+Incorrect. The calcaneus does not contribute to the transverse arch, only to the two longitudinal arches.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-ABB4852A88E0B5
+
+## concept_ids
+CON-MSK-ABB4852A88E0B5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+State that the calcaneus is the shared posterior pillar of both longitudinal arches, but not the transverse arch.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q49=B
+
+---
+
+# Item
+
+## id
+QST-AU105-LL3-LL3-Q50
+
+## title
+Bones of the lateral longitudinal arch — the exception
+
+## question
+The following bones form the lateral longitudinal arch of the foot EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Calcaneus
+
+## explanation_a
+Incorrect (this IS part of it). The calcaneus is the posterior pillar shared by both longitudinal arches.
+
+## answer_b
+Talus
+
+## explanation_b
+Correct. The talus belongs to the medial longitudinal arch, not the lateral one, making it the exception here — the lateral arch passes directly from calcaneus to cuboid without involving the talus. Because the talus instead sits atop the medial arch's posterior segment, articulating with the navicular, confusing the two arches' bone lists is a common source of error in this bank.
+
+## answer_c
+Cuboid
+
+## explanation_c
+Incorrect (this IS part of it). The cuboid is a key bone of the lateral longitudinal arch.
+
+## answer_d
+4th metatarsal
+
+## explanation_d
+Incorrect (this IS part of it). The fourth (and fifth) metatarsal forms the anterior end of the lateral longitudinal arch.
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## main_concept
+CON-MSK-ABB4852A88E0B5
+
+## concept_ids
+CON-MSK-ABB4852A88E0B5
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Foot, Vessels, Joints
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOOT-SOLE-KNEE-VESSELS | ART-MSK-AU105-LL-VESSELS-LYMPHATICS | ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE | ART-MSK-AU105-LEG-ANKLE-FOOT | ART-MSK-AU105-LEG-NERVES-CUTANEOUS | ART-MSK-AU105-GLUTEAL-HIP-JOINT | ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL
+
+## resource_ids
+src_a2ec24de7b5561128fed
+
+## learning_objective
+Recognise that the talus belongs to the medial, not the lateral, longitudinal arch.
+
+## source_citation
+Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p12, Q50=B
