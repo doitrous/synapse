@@ -83,7 +83,7 @@ KIND_TIER_OF_ORGANIZED_FOLDER = {
 
 # Filename heuristics for the (otherwise unsorted) staging corpus. Checked in
 # this order; first match wins. Directional only -- see module docstring.
-PAPER_RE = re.compile(r"\b(exam|written|model\s*answer|past\s*years?)\b", re.I)
+PAPER_RE = re.compile(r"\b(exams?|written|model\s*answer|past\s*years?)\b", re.I)
 PAPER_RE_AR = re.compile(r"تجميعات")
 BANK_RE = re.compile(r"\b(mcq|qbank|questions?|q\s*&\s*a)\b", re.I)
 BANK_RE_AR = re.compile(r"أسئلة")

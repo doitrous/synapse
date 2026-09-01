@@ -64,12 +64,12 @@ Telegram-`PPPM` files against `MANS-PPPM-201` without per-file confirmation.
 
 | Group | paper | bank | dept-book | lecture | practical | other | Total |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| AEP | 7 | 61 | 20 | 62 | 29 | 136 | 315 |
-| HBG | 4 | 34 | 13 | 87 | 11 | 82 | 231 |
-| PPPM | 11 | 60 | 18 | 260 | 1 | 72 | 422 |
+| AEP | 10 | 60 | 20 | 62 | 29 | 134 | 315 |
+| HBG | 8 | 31 | 13 | 87 | 11 | 81 | 231 |
+| PPPM | 16 | 58 | 18 | 260 | 1 | 69 | 422 |
 | MSS | 10 | 45 | 3 | 161 | 1 | 43 | 263 |
 | HIS | 0 | 12 | 11 | 75 | 1 | 14 | 113 |
-| **Total** | **32** | **212** | **65** | **645** | **43** | **347** | **1,344** |
+| **Total** | **44** | **206** | **65** | **645** | **43** | **341** | **1,344** |
 
 **Kind is a filename heuristic, not a content read** — 1,344 files is too many to open
 individually at Phase-0. The regex rules live in `scripts/mans/intake/manifest.py`
