@@ -822,7 +822,7 @@ ART-MSK-AU105-FOREARM-NERVES | ART-MSK-AU105-CARPAL-BONES
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that flexor pollicis longus is one of the three muscles supplied by the anterior interosseous nerve, the median nerve's purely motor branch.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -966,7 +966,7 @@ ART-MSK-AU105-FOREARM-NERVES | ART-MSK-AU105-CARPAL-BONES
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that pronator quadratus is the most distal of the anterior interosseous nerve's three targets, completing its supply alongside flexor pollicis longus and the lateral half of flexor digitorum profundus.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 

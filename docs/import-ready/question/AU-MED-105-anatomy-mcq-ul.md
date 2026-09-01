@@ -1366,7 +1366,7 @@ AU-MED-105 > Anatomy > Upper Limb > Pectoral region and shoulder girdle
 ## question_only_for
 
 ## library_ids
-ART-MSK-AU105-SHOULDER-GIRDLE-NERVES | ART-MSK-TOP-1609AFA15E
+ART-MSK-AU105-SHOULDER-GIRDLE-NERVES | ART-MSK-TOP-1609AFA15E | ART-101-ANA-SHOULDER-REGION
 
 ## resource_ids
 src_c86f47635016c192bd42
