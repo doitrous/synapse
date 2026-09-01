@@ -1,6 +1,8 @@
 # LANE-CARD — MUST University Year 1 (must)
 Read this card first. This module's content lives on branch `codex/must-year1-content`, not `main` — work off that branch. The chief-of-staff dispatch you receive IS the resume authority (Omar resumed all lanes 2026-09-01); the branch's `CLAUDE-HANDOVER.md` is history and its STOPPED line is superseded — read it only for source paths and the last boundary.
 
+**Year 2 lane:** see `LANE-CARD-Y2.md` (kept separate to stay under this file's byte budget). Year 2 is Phase-0 (survey/triage only, branch `must-y2-phase0` off `main`) — no concept minted, stopped awaiting "TRIAGE APPROVED".
+
 ## 1. Identity and ids
 University id `must`. Years `MUST_Y1`… (`buildYears('MUST')`). Module ids `MUST-<CODE>`, e.g. `MUST-FHB-102-2` (Semester 102, module "FHB 102-2" — the faculty-printed code becomes the id, spaces to hyphens). Concept id `CON-<SYSTEM>-<14hex>` (standard mint, e.g. `inf` subject → `CON-INF-…`). Question id `QST-MUST-<MODULE-SLUG>-<TOPIC>-Q<N>`. Files: `docs/MUST-Source-Imports/{concept,article,question,evidence,coverage}/`.
 
