@@ -3989,3 +3989,1142 @@ yes
 Four-option item in the source (no printed option e); left blank rather than invented. main_concept reuses this lane's pending-hit overlay of the general caspases concept — the granular initiator/effector-per-pathway and apoptosome facts (Q29-34, 36, 42, 43) are a distinct, more specific concept minted new rather than force-fit here.
 
 ---
+
+# Item
+
+## id
+
+## title
+Initiator caspase of the intrinsic pathway
+
+## question
+Which of the following is the initiator caspase in intrinsic pathway
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Caspase 3
+
+## explanation_a
+Incorrect. Caspase 3 is the shared effector (executioner) caspase both pathways converge on, not the intrinsic pathway's initiator.
+
+## answer_b
+Caspase 8
+
+## explanation_b
+Incorrect. Caspase 8 is the initiator caspase of the extrinsic, not the intrinsic, pathway.
+
+## answer_c
+Caspase 9
+
+## explanation_c
+Correct. Caspase 9 is the initiator caspase of the intrinsic (mitochondrial) apoptotic pathway: cytochrome c released from stressed mitochondria assembles with Apaf-1, procaspase-9 and ATP into the apoptosome, which activates caspase 9 to begin the execution phase of apoptosis. This numbering (9 for intrinsic) is the single fact this whole run of caspase questions turns on, so fixing it firmly is worth more than memorising each question separately.
+
+## answer_d
+Caspase 4
+
+## explanation_d
+Incorrect. Caspase 4 is not the caspase taught as the intrinsic pathway's initiator in this chapter.
+
+## answer_e
+Caspase 5
+
+## explanation_e
+Incorrect. Caspase 5 is not the caspase taught as the intrinsic pathway's initiator in this chapter.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name caspase 9 as the initiator caspase of the intrinsic pathway.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q29, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+First of nine questions (Q29-34, 36, 42, 43) on the newly minted caspase-cascade concept, all sourced from one dense run of the chapter testing initiator/effector caspase identity and apoptosome composition from every angle.
+
+---
+
+# Item
+
+## id
+
+## title
+Initiator caspase of the extrinsic pathway
+
+## question
+Which of the following is the initiator caspase in Extrinsic pathway
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Caspase 3
+
+## explanation_a
+Incorrect. Caspase 3 is the shared effector (executioner) caspase both pathways converge on, not the extrinsic pathway's initiator.
+
+## answer_b
+Caspase 8
+
+## explanation_b
+Correct. Caspase 8 is the initiator caspase of the extrinsic (death-receptor) apoptotic pathway: once a death ligand binds its receptor (FAS or a TNF-family receptor), a receptor-bound adaptor protein directly activates procaspase-8, beginning the extrinsic pathway's route to apoptosis. Keeping this numbering straight against caspase 9's intrinsic-pathway role (Q29) is the exact discrimination this pair of questions is built to test.
+
+## answer_c
+Caspase 9
+
+## explanation_c
+Incorrect. Caspase 9 is the initiator caspase of the intrinsic, not the extrinsic, pathway.
+
+## answer_d
+Caspase 4
+
+## explanation_d
+Incorrect. Caspase 4 is not the caspase taught as the extrinsic pathway's initiator in this chapter.
+
+## answer_e
+Caspase 5
+
+## explanation_e
+Incorrect. Caspase 5 is not the caspase taught as the extrinsic pathway's initiator in this chapter.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name caspase 8 as the initiator caspase of the extrinsic pathway.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q30, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+Effector caspase in the extrinsic pathway
+
+## question
+Which of the following is the Effector caspase in Extrinsic pathway
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Caspase 3
+
+## explanation_a
+Correct. Caspase 3 is the shared effector (executioner) caspase that both the extrinsic and intrinsic pathways converge on and activate; it is caspase 3, not the pathway's own initiator caspase, that actually carries out the destruction of the cell in the extrinsic pathway just as it does in the intrinsic one. Caspase 8 starts the extrinsic cascade by responding to a death-receptor signal, but it is caspase 3 that finishes it — cleaving the structural and repair proteins that produce the DNA fragmentation, cytoskeletal breakdown and blebbing seen in a dying cell. The same caspase 3 does this job regardless of which initiator triggered it, which is why the intrinsic pathway's own effector question (Q32) has the identical answer.
+
+## answer_b
+Caspase 8
+
+## explanation_b
+Incorrect. Caspase 8 is the extrinsic pathway's initiator caspase, not its effector.
+
+## answer_c
+Caspase 9
+
+## explanation_c
+Incorrect. Caspase 9 is the intrinsic pathway's initiator caspase, not the extrinsic pathway's effector.
+
+## answer_d
+Caspase 4
+
+## explanation_d
+Incorrect. Caspase 4 is not the effector caspase taught for the extrinsic pathway in this chapter.
+
+## answer_e
+Caspase 5
+
+## explanation_e
+Incorrect. Caspase 5 is not the effector caspase taught for the extrinsic pathway in this chapter.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name caspase 3 as the shared effector caspase of the extrinsic pathway.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q31, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+Effector caspase in the intrinsic pathway
+
+## question
+Which of the following is the Effector caspase in Intrinsic pathway
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Caspase 3
+
+## explanation_a
+Correct. Caspase 3 is the shared effector caspase both pathways converge on; in the intrinsic pathway, caspase 9 (activated by the apoptosome) in turn activates caspase 3, which then executes the cell's death — the same executioner caspase 3 that the extrinsic pathway also converges on. This is the exact companion fact to Q31, confirming caspase 3 is the effector regardless of which pathway triggered it.
+
+## answer_b
+Caspase 8
+
+## explanation_b
+Incorrect. Caspase 8 belongs to the extrinsic pathway as its initiator, not to the intrinsic pathway's effector step.
+
+## answer_c
+Caspase 9
+
+## explanation_c
+Incorrect. Caspase 9 is the intrinsic pathway's initiator caspase, not its effector.
+
+## answer_d
+Caspase 4
+
+## explanation_d
+Incorrect. Caspase 4 is not the effector caspase taught for the intrinsic pathway in this chapter.
+
+## answer_e
+Caspase 5.
+
+## explanation_e
+Incorrect. Caspase 5 is not the effector caspase taught for the intrinsic pathway in this chapter.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name caspase 3 as the shared effector caspase of the intrinsic pathway.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q32, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+The one component NOT in the apoptosome (procaspase-8)
+
+## question
+Apoptosome contain all the following except
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+cytochrome C
+
+## explanation_a
+Not the exception — this is true. Cytochrome c, released from stressed mitochondria, is a genuine apoptosome component.
+
+## answer_b
+Apaf-1 (apoptosis activation factor)
+
+## explanation_b
+Not the exception — this is true. Apaf-1 (apoptosis activation factor) is a genuine apoptosome component.
+
+## answer_c
+Procaspase 8
+
+## explanation_c
+Correct — this is the exception. Procaspase-8 is not a component of the apoptosome; it belongs to the separate, receptor-driven extrinsic pathway, where it is activated directly by an adaptor protein rather than assembled with cytochrome c and Apaf-1. The apoptosome itself is a distinct intrinsic-pathway complex, and procaspase-8 is the classic distractor precisely because it sounds like it should belong.
+
+## answer_d
+ATP
+
+## explanation_d
+Not the exception — this is true. ATP (or dATP) is required for apoptosome assembly, a genuine component of the complex.
+
+## answer_e
+pro-caspase 9.
+
+## explanation_e
+Not the exception — this is true. Procaspase-9 is a genuine apoptosome component, activated into caspase 9 once the complex assembles.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+List the apoptosome's true components and recognise procaspase-8 as belonging to the separate extrinsic pathway instead.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q33, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+Direct activator of procaspase 8
+
+## question
+Which of the following is the direct activator of procaspase 8
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+cytochrome C
+
+## explanation_a
+Incorrect. Cytochrome c activates the intrinsic pathway (via the apoptosome and procaspase-9), not procaspase-8 in the extrinsic pathway.
+
+## answer_b
+Apaf-1 (apoptosis activation factor)
+
+## explanation_b
+Incorrect. Apaf-1 is part of the intrinsic-pathway apoptosome that activates procaspase-9, not the direct activator of procaspase-8.
+
+## answer_c
+Adaptor protein
+
+## explanation_c
+Correct. Once a death ligand binds its receptor (FAS or a TNF-family receptor) in the extrinsic pathway, a receptor-bound adaptor protein is what directly activates procaspase-8 — not cytochrome c or Apaf-1, which belong to the separate, intrinsic-pathway apoptosome instead. This is the extrinsic pathway's own dedicated activation step, mirroring the apoptosome's role in the intrinsic pathway tested in the previous question.
+
+## answer_d
+Caspase 3
+
+## explanation_d
+Incorrect. Caspase 3 is the shared downstream effector caspase, activated after procaspase-8, not its direct upstream activator.
+
+## answer_e
+Procaspase 9
+
+## explanation_e
+Incorrect. Procaspase-9 belongs to the intrinsic pathway's apoptosome, not to the extrinsic pathway's procaspase-8 activation step.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name a receptor-bound adaptor protein, not cytochrome c or Apaf-1, as procaspase-8's direct activator.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q34, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+Which listed process is NOT an example of apoptosis (myocardial infarction)
+
+## question
+Which of the followings is not an example of apoptosis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Development of fingers during emberyogenesis.
+
+## explanation_a
+Not the exception — this is true. Interdigital apoptosis, which deletes the webbing between developing digits, is the classic physiological example of apoptosis sculpting normal development.
+
+## answer_b
+Shedding of endometrial cells during menstruation.
+
+## explanation_b
+Not the exception — this is true. Cyclical shedding of the endometrium during menstruation is a physiological, hormone-dependent example of apoptosis.
+
+## answer_c
+Regression of mother breast after weaning.
+
+## explanation_c
+Not the exception — this is true. Involution of breast tissue after weaning, once lactation-driving hormonal support is withdrawn, is a physiological example of apoptosis.
+
+## answer_d
+Myocardial infarction.
+
+## explanation_d
+Correct — this is the exception. Myocardial infarction causes cell death by ischaemic necrosis — an uncontrolled, energy-independent process with membrane rupture and an inflammatory response — not by the programmed, non-inflammatory process of apoptosis; it is therefore not an example of apoptosis, unlike the other four options. The other four are genuine physiological or pathological apoptosis triggers named by this concept's own definition, so the pattern a student needs is recognising ischaemic infarct death specifically as necrosis, the one process this chapter deliberately excludes from its own list. Confusing the two is a common exam trap, since both are forms of cell death but only apoptosis is programmed and non-inflammatory.
+
+## answer_e
+Death of viral infected cells.
+
+## explanation_e
+Not the exception — this is true. Elimination of virus-infected cells is a recognised pathological (though still programmed and beneficial) trigger of apoptosis.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-A40D59DAB245EA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-108-PAT-APOPTOSIS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Distinguish physiological/pathological apoptosis examples from myocardial infarction's necrotic cell death.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q35, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+
+## title
+Which listed factor is NOT involved in the intrinsic apoptotic pathway (caspase 8)
+
+## question
+Which of the followings is not involved in intrinsic apoptotic pathway ?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+BAX gene family.
+
+## explanation_a
+Not the exception — this is true. The BAX gene family (pro-apoptotic Bcl-2 relatives) promotes mitochondrial cytochrome c release, a genuine intrinsic-pathway component.
+
+## answer_b
+P53 protein.
+
+## explanation_b
+Not the exception — this is true. p53 triggers the intrinsic pathway (via Bax) when DNA damage is irreparable, a genuine intrinsic-pathway participant.
+
+## answer_c
+Proapoptotic proteins.
+
+## explanation_c
+Not the exception — this is true. Proapoptotic proteins generally (such as Bax) drive the intrinsic pathway's mitochondrial trigger step.
+
+## answer_d
+Caspase 8.
+
+## explanation_d
+Correct — this is the exception. Caspase 8 is the initiator caspase specific to the extrinsic (death-receptor) pathway; it plays no role in the intrinsic (mitochondrial) pathway, which instead uses caspase 9, activated via the apoptosome. Every other option here — BAX, p53, proapoptotic proteins generally, and caspase 9 itself — is a genuine intrinsic-pathway participant, which is what makes caspase 8 the one clean exception among five otherwise-correct answers. Keeping caspase 8 mentally filed under "extrinsic only" is the same discrimination tested from the opposite direction back at Q29 and Q30.
+
+## answer_e
+Caspase 9.
+
+## explanation_e
+Not the exception — this is true. Caspase 9 is the intrinsic pathway's own initiator caspase, activated by the apoptosome.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-B03C1C16A79323
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise caspase 8 as extrinsic-pathway-specific, uninvolved in the intrinsic pathway.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q36, p.39.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+main_concept on the caspase-cascade concept since the answer is about caspase-8's pathway specificity; p53's DNA-damage-response concept linked as contextual since option b names it as a genuine intrinsic-pathway participant.
+
+---
