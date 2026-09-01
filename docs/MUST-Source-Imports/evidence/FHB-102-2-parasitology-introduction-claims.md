@@ -3077,3 +3077,355 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Sandfly Q30
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q03-01
+
+## concept_id
+CON-INF-04A996DBD345A9
+
+## subject
+Parasite as a host-associated harmful organism
+
+## predicate
+states
+
+## object
+A parasite lives at the expense of another living organism.
+
+## display_text
+A parasite lives at the expense of another living organism.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q3
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q05-01
+
+## concept_id
+CON-INF-829EB6EC11CC8F
+
+## subject
+Malaria parasites inhabit human blood
+
+## predicate
+states
+
+## object
+Malaria parasites are blood parasites in the human haemopoietic system.
+
+## display_text
+Malaria parasites are blood parasites in the human haemopoietic system.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q5
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q08-01
+
+## concept_id
+CON-INF-C79E84EB999C31
+
+## subject
+Opportunistic parasite in immunocompromised hosts
+
+## predicate
+states
+
+## object
+An opportunistic parasite may cause severe disease in an immunocompromised host.
+
+## display_text
+An opportunistic parasite may cause severe disease in an immunocompromised host.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q8
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q09-01
+
+## concept_id
+CON-INF-D13F9697E5B95F
+
+## subject
+Parasites classified by taxonomy and human-body habitat
+
+## predicate
+states
+
+## object
+Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
+
+## display_text
+Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q9
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q11-01
+
+## concept_id
+CON-INF-DF11AEE644F4AF
+
+## subject
+Parasitic flatworms include trematodes and cestodes
+
+## predicate
+states
+
+## object
+Tapeworms belong to class Cestoda.
+
+## display_text
+Tapeworms belong to class Cestoda.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q11
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
+
+## concept_id
+CON-INF-4EEE8525216319
+
+## subject
+Mosquitoes are insects in the order Diptera
+
+## predicate
+states
+
+## object
+Mosquitoes belong to class Insecta and order Diptera.
+
+## display_text
+Mosquitoes belong to class Insecta and order Diptera.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q15
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
+
+## concept_id
+CON-INF-3D51F420815EB7
+
+## subject
+Fannia causes urogenital myiasis
+
+## predicate
+states
+
+## object
+Fannia is associated with urogenital myiasis.
+
+## display_text
+Fannia is associated with urogenital myiasis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q28
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
+
+## concept_id
+CON-INF-1B48D20E6F3C95
+
+## subject
+Dermatobia uses another insect to carry its eggs
+
+## predicate
+states
+
+## object
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
+## display_text
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q29

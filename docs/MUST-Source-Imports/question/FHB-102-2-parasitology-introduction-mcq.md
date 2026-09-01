@@ -10637,3 +10637,1219 @@ yes
 
 ## author_notes
 Printed source key: Sandfly Q30 = B. The wording, option order and key are preserved exactly. The assessment wording “highly exophilic but can adapt to indoor environments” is retained; the governed deck directly states “more exophilic than endophilic” and lists indoor cracks and crevices as resting sites. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q03
+
+## title
+Which of the following correctly defines a parasite?
+
+## question
+Which of the following correctly defines a parasite?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+An organism that benefits the host
+
+## explanation_a
+Incorrect. A parasite does not benefit the host, is not defined as free-living, and is a living organism rather than a non-living infectious agent. The supported answer is B, An organism that lives at the expense of another organism.
+
+## answer_b
+An organism that lives at the expense of another organism
+
+## explanation_b
+A parasite lives at the expense of another living organism. The governed university slide directly supports An organism that lives at the expense of another organism for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+A free-living organism
+
+## explanation_c
+Incorrect. A parasite does not benefit the host, is not defined as free-living, and is a living organism rather than a non-living infectious agent. The supported answer is B, An organism that lives at the expense of another organism.
+
+## answer_d
+A non-living infectious agent
+
+## explanation_d
+Incorrect. A parasite does not benefit the host, is not defined as free-living, and is a living organism rather than a non-living infectious agent. The supported answer is B, An organism that lives at the expense of another organism.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-04A996DBD345A9
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Parasite definition
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Recognise the harmful host-associated relationship that defines a parasite.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p6 Mucize Parasitology core Q3, printed key p6 (3 = B); MUST FHB102-2 Introduction to Medical Parasitology, p5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q3 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q05
+
+## title
+Where do blood parasites primarily reside?
+
+## question
+Where do blood parasites primarily reside?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Skin
+
+## explanation_a
+Incorrect. The governed habitat is blood, not skin, lungs or stomach. The supported answer is C, Blood.
+
+## answer_b
+Lungs
+
+## explanation_b
+Incorrect. The governed habitat is blood, not skin, lungs or stomach. The supported answer is C, Blood.
+
+## answer_c
+Blood
+
+## explanation_c
+Malaria parasites are blood parasites in the human haemopoietic system. The governed university slide directly supports Blood for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Stomach
+
+## explanation_d
+Incorrect. The governed habitat is blood, not skin, lungs or stomach. The supported answer is C, Blood.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-829EB6EC11CC8F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Protozoology > Parasite habitat
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Identify blood as the primary habitat named for blood parasites in the governed local teaching.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p6 Mucize Parasitology core Q5, printed key p6 (5 = C); MUST FHB102-2 Introduction to Medical Parasitology, p16.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q5 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q08
+
+## title
+Which type of parasite causes disease in immuno-compromised individuals?
+
+## question
+Which type of parasite causes disease in immuno-compromised individuals?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Opportunistic parasite
+
+## explanation_a
+An opportunistic parasite may cause severe disease in an immunocompromised host. The governed university slide directly supports Opportunistic parasite for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Temporary parasite
+
+## explanation_b
+Incorrect. Temporary, permanent and ectoparasite describe different parasite relationships and do not name the governed immunocompromised-host association. The supported answer is A, Opportunistic parasite.
+
+## answer_c
+Permanent parasite
+
+## explanation_c
+Incorrect. Temporary, permanent and ectoparasite describe different parasite relationships and do not name the governed immunocompromised-host association. The supported answer is A, Opportunistic parasite.
+
+## answer_d
+Ectoparasite
+
+## explanation_d
+Incorrect. Temporary, permanent and ectoparasite describe different parasite relationships and do not name the governed immunocompromised-host association. The supported answer is A, Opportunistic parasite.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-C79E84EB999C31
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Host susceptibility
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Identify an opportunistic parasite from the immunocompromised-host context.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p7 Mucize Parasitology core Q8, printed key p7 (8 = A); MUST FHB102-2 Introduction to Medical Parasitology, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q8 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q09
+
+## title
+How are parasites classified in medical parasitology?
+
+## question
+How are parasites classified in medical parasitology?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Based on their DNA structure
+
+## explanation_a
+Incorrect. The local classification slide does not use DNA structure, host immune response or antibiotic resistance as the offered classification pair. The supported answer is C, Based on taxonomy and habitat.
+
+## answer_b
+Based on their host’s immune response
+
+## explanation_b
+Incorrect. The local classification slide does not use DNA structure, host immune response or antibiotic resistance as the offered classification pair. The supported answer is C, Based on taxonomy and habitat.
+
+## answer_c
+Based on taxonomy and habitat
+
+## explanation_c
+Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host. The governed university slide directly supports Based on taxonomy and habitat for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Based on their antibiotic resistance
+
+## explanation_d
+Incorrect. The local classification slide does not use DNA structure, host immune response or antibiotic resistance as the offered classification pair. The supported answer is C, Based on taxonomy and habitat.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-D13F9697E5B95F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Parasite classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Recognise taxonomy and habitat as the two governed approaches to parasite classification.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p7 Mucize Parasitology core Q9, printed key p7 (9 = C); MUST FHB102-2 Introduction to Medical Parasitology, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q9 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q11
+
+## title
+Which group of parasites includes tapeworms?
+
+## question
+Which group of parasites includes tapeworms?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Protozoa
+
+## explanation_a
+Incorrect. Trematoda are flukes, Nematoda are roundworms, and Protozoa are unicellular parasites rather than tapeworms. The supported answer is C, Cestoda.
+
+## answer_b
+Trematoda
+
+## explanation_b
+Incorrect. Trematoda are flukes, Nematoda are roundworms, and Protozoa are unicellular parasites rather than tapeworms. The supported answer is C, Cestoda.
+
+## answer_c
+Cestoda
+
+## explanation_c
+Tapeworms belong to class Cestoda. The governed university slide directly supports Cestoda for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Nematoda
+
+## explanation_d
+Incorrect. Trematoda are flukes, Nematoda are roundworms, and Protozoa are unicellular parasites rather than tapeworms. The supported answer is C, Cestoda.
+
+## topic
+Parasitology
+
+## subtopic
+Helminthology
+
+## main_concept
+CON-INF-DF11AEE644F4AF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Helminthology > Helminth classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Identify Cestoda as the helminth class that includes tapeworms.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p7 Mucize Parasitology core Q11, printed key p7 (11 = C); MUST FHB102-2 Introduction to Medical Parasitology, p34.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q11 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q15
+
+## title
+What is the correct classification of a mosquito?
+
+## question
+What is the correct classification of a mosquito?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Class Insecta, Order Diptera
+
+## explanation_a
+Mosquitoes belong to class Insecta and order Diptera. The governed university slide directly supports Class Insecta, Order Diptera for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Class Arachnida, Order Scorpiones
+
+## explanation_b
+Incorrect. Arachnida, Crustacea and Platyhelminthes are not the mosquito class, and Scorpiones, Decapoda and Trematoda are not the mosquito order. The supported answer is A, Class Insecta, Order Diptera.
+
+## answer_c
+Class Crustacea, Order Decapoda
+
+## explanation_c
+Incorrect. Arachnida, Crustacea and Platyhelminthes are not the mosquito class, and Scorpiones, Decapoda and Trematoda are not the mosquito order. The supported answer is A, Class Insecta, Order Diptera.
+
+## answer_d
+Class Platyhelminthes, Order Trematoda
+
+## explanation_d
+Incorrect. Arachnida, Crustacea and Platyhelminthes are not the mosquito class, and Scorpiones, Decapoda and Trematoda are not the mosquito order. The supported answer is A, Class Insecta, Order Diptera.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-4EEE8525216319
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito taxonomy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify class Insecta and order Diptera as the complete mosquito classification offered.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p8 Mucize Parasitology core Q15, printed key p8 (15 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p3–4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q15 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q28
+
+## title
+What is the larva revealed by urine examination of a myiasis patient who frequently uses public toilets?
+
+## question
+What is the larva revealed by urine examination of a myiasis patient who frequently uses public toilets?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Sarcophaga species
+
+## explanation_a
+Incorrect. The governed site association selects Fannia rather than Sarcophaga, Dermatobia or Chrysomia. The supported answer is D, Fannia species.
+
+## answer_b
+Dermatobia species
+
+## explanation_b
+Incorrect. The governed site association selects Fannia rather than Sarcophaga, Dermatobia or Chrysomia. The supported answer is D, Fannia species.
+
+## answer_c
+Chrysomia species
+
+## explanation_c
+Incorrect. The governed site association selects Fannia rather than Sarcophaga, Dermatobia or Chrysomia. The supported answer is D, Fannia species.
+
+## answer_d
+Fannia species
+
+## explanation_d
+Fannia is associated with urogenital myiasis. The governed university slide directly supports Fannia species for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-3D51F420815EB7
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Clinical myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify Fannia from the urine-examination and public-toilet urogenital-myiasis context.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p10 Mucize Parasitology core Q28, printed key p10 (28 = D); MUST FHB102-2 Flies and Myiasis, p42 and 45.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q28 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q29
+
+## title
+Which fly is known to deposit its eggs on another insect, which then carries them to the host?
+
+## question
+Which fly is known to deposit its eggs on another insect, which then carries them to the host?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Calliphora
+
+## explanation_a
+Incorrect. The governed phoretic carriage mechanism belongs to Dermatobia hominis, not Calliphora, Sarcophaga or Glossina. The supported answer is B, Dermatobia hominis.
+
+## answer_b
+Dermatobia hominis
+
+## explanation_b
+Dermatobia hominis uses another insect to carry and deliver its eggs. The governed university slide directly supports Dermatobia hominis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Sarcophaga
+
+## explanation_c
+Incorrect. The governed phoretic carriage mechanism belongs to Dermatobia hominis, not Calliphora, Sarcophaga or Glossina. The supported answer is B, Dermatobia hominis.
+
+## answer_d
+Glossina
+
+## explanation_d
+Incorrect. The governed phoretic carriage mechanism belongs to Dermatobia hominis, not Calliphora, Sarcophaga or Glossina. The supported answer is B, Dermatobia hominis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-1B48D20E6F3C95
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Cutaneous myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify Dermatobia hominis from its use of another insect to carry its eggs to the host.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p10 Mucize Parasitology core Q29, printed key p10 (29 = B); MUST FHB102-2 Flies and Myiasis, p37–38.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q29 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

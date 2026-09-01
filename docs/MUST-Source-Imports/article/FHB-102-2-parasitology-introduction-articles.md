@@ -105,6 +105,7 @@ A parasite is a living organism that lives in or on another organism and harms i
 A facultative parasite can alternate between free-living and parasitic modes of life.
 An opportunistic parasite may cause severe disease in an immunocompromised host.
 An obligatory parasite is completely dependent on its host and cannot exist without it.
+A parasite lives at the expense of another living organism.
 
 ## published_summary
 
@@ -117,12 +118,16 @@ A parasite is a living organism that lives in or on another organism and harms i
 A facultative parasite can alternate between free-living and parasitic modes of life.
 An opportunistic parasite may cause severe disease in an immunocompromised host.
 An obligatory parasite is completely dependent on its host and cannot exist without it.
+A parasite lives at the expense of another living organism.
+An opportunistic parasite may cause severe disease in an immunocompromised host.
 
 ## lose_the_mark
 A parasite does not benefit its host, and parasitism does not imply that the organism can live only outside a host.
 Facultative does not mean obligately host-dependent, necessarily endoparasitic, or dependent on multiple hosts.
 Opportunistic does not mean plant-only infection, obligatory disease in healthy people, or independent free living.
 Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts.
+A parasite does not benefit the host, is not defined as free-living, and is a living organism rather than a non-living infectious agent.
+Temporary, permanent and ectoparasite describe different parasite relationships and do not name the governed immunocompromised-host association.
 
 ## callout_evidence
 ### A parasite is a living organism that lives in or on another organism and harms it.
@@ -145,6 +150,16 @@ Claims: CLM-INF-MUST-FHB1022-INTRO-Q25-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q25-01
 Reviewed by: pending medical review
 
+### A parasite lives at the expense of another living organism.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q03-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q03-01
+Reviewed by: pending medical review
+
+### An opportunistic parasite may cause severe disease in an immunocompromised host.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q08-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q08-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-04A996DBD345A9
 CON-INF-F82C6307A7B7E3
@@ -160,10 +175,13 @@ QST-MUST-FHB1022-PARA-INTRO-Q02
 QST-MUST-FHB1022-PARA-INTRO-Q04
 QST-MUST-FHB1022-PARA-INTRO-Q05
 QST-MUST-FHB1022-PARA-INTRO-Q25
+QST-MUST-FHB1022-PARA-MUCIZE-Q03
+QST-MUST-FHB1022-PARA-MUCIZE-Q08
 
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_f65b3872022ca0b42a79
@@ -173,12 +191,16 @@ CLM-INF-MUST-FHB1022-INTRO-Q02-01
 CLM-INF-MUST-FHB1022-INTRO-Q04-01
 CLM-INF-MUST-FHB1022-INTRO-Q05-01
 CLM-INF-MUST-FHB1022-INTRO-Q25-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q03-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q08-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q02-01
 SPN-INF-MUST-FHB1022-INTRO-Q04-01
 SPN-INF-MUST-FHB1022-INTRO-Q05-01
 SPN-INF-MUST-FHB1022-INTRO-Q25-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q03-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q08-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -203,6 +225,16 @@ Id: ann-must-fhb1022-intro-q05
 Quote: An obligatory parasite is completely dependent on its host and cannot exist without it.
 Block: body
 Id: ann-must-fhb1022-intro-q25
+
+### definition_of · CON-INF-04A996DBD345A9
+Quote: A parasite lives at the expense of another living organism.
+Block: body
+Id: ann-must-fhb1022-mucize-q03
+
+### definition_of · CON-INF-C79E84EB999C31
+Quote: An opportunistic parasite may cause severe disease in an immunocompromised host.
+Block: body
+Id: ann-must-fhb1022-mucize-q08
 
 ## media
 
@@ -358,12 +390,16 @@ Malaria parasites are blood parasites in the human haemopoietic system.
 Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
 Classification of parasites by their habitat in the human host supports clinical diagnosis.
 Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
+Malaria parasites are blood parasites in the human haemopoietic system.
+Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
 
 ## lose_the_mark
 Do not substitute intestine, muscle, or skin for the blood habitat stated in the local classification slide.
 Colour is not one of the two classification approaches taught on the governed slide.
 Laboratory identification is assigned to scientific taxonomy, not habitat classification.
 Clinical diagnosis is assigned to habitat classification; taxonomy is not a method for killing parasites or controlling vectors.
+The governed habitat is blood, not skin, lungs or stomach.
+The local classification slide does not use DNA structure, host immune response or antibiotic resistance as the offered classification pair.
 
 ## callout_evidence
 ### Malaria parasites are blood parasites in the human haemopoietic system.
@@ -386,6 +422,16 @@ Claims: CLM-INF-MUST-FHB1022-INTRO-Q23-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q23-01
 Reviewed by: pending medical review
 
+### Malaria parasites are blood parasites in the human haemopoietic system.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q05-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q05-01
+Reviewed by: pending medical review
+
+### Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q09-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q09-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-829EB6EC11CC8F
 CON-INF-D13F9697E5B95F
@@ -401,10 +447,13 @@ QST-MUST-FHB1022-PARA-INTRO-Q09
 QST-MUST-FHB1022-PARA-INTRO-Q11
 QST-MUST-FHB1022-PARA-INTRO-Q21
 QST-MUST-FHB1022-PARA-INTRO-Q23
+QST-MUST-FHB1022-PARA-MUCIZE-Q05
+QST-MUST-FHB1022-PARA-MUCIZE-Q09
 
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_f65b3872022ca0b42a79
@@ -414,12 +463,16 @@ CLM-INF-MUST-FHB1022-INTRO-Q09-01
 CLM-INF-MUST-FHB1022-INTRO-Q11-01
 CLM-INF-MUST-FHB1022-INTRO-Q21-01
 CLM-INF-MUST-FHB1022-INTRO-Q23-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q05-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q09-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q09-01
 SPN-INF-MUST-FHB1022-INTRO-Q11-01
 SPN-INF-MUST-FHB1022-INTRO-Q21-01
 SPN-INF-MUST-FHB1022-INTRO-Q23-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q05-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q09-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -444,6 +497,16 @@ Id: ann-must-fhb1022-intro-q21
 Quote: Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
 Block: body
 Id: ann-must-fhb1022-intro-q23
+
+### definition_of · CON-INF-829EB6EC11CC8F
+Quote: Malaria parasites are blood parasites in the human haemopoietic system.
+Block: body
+Id: ann-must-fhb1022-mucize-q05
+
+### definition_of · CON-INF-D13F9697E5B95F
+Quote: Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
+Block: body
+Id: ann-must-fhb1022-mucize-q09
 
 ## media
 
@@ -585,6 +648,7 @@ Do not combine nematodes with cestodes or trematodes as the two flatworm groups.
 ### Exam-linked statements
 Trematodes are flat, leaf-like, unsegmented helminths.
 The parasitic flatworms comprise trematodes and cestodes.
+Tapeworms belong to class Cestoda.
 
 ## published_summary
 
@@ -595,10 +659,12 @@ The parasitic flatworms comprise trematodes and cestodes.
 ## hold_these
 Trematodes are flat, leaf-like, unsegmented helminths.
 The parasitic flatworms comprise trematodes and cestodes.
+Tapeworms belong to class Cestoda.
 
 ## lose_the_mark
 Tape-like segmented morphology describes cestodes, while cylindrical unsegmented morphology describes nematodes.
 Nematodes are roundworms, and protozoa are unicellular parasites rather than flatworm helminths.
+Trematoda are flukes, Nematoda are roundworms, and Protozoa are unicellular parasites rather than tapeworms.
 
 ## callout_evidence
 ### Trematodes are flat, leaf-like, unsegmented helminths.
@@ -609,6 +675,11 @@ Reviewed by: pending medical review
 ### The parasitic flatworms comprise trematodes and cestodes.
 Claims: CLM-INF-MUST-FHB1022-INTRO-Q15-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q15-01
+Reviewed by: pending medical review
+
+### Tapeworms belong to class Cestoda.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q11-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q11-01
 Reviewed by: pending medical review
 
 ## related_concepts
@@ -622,10 +693,12 @@ ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION: Parasite habitat and class
 ## question_ids
 QST-MUST-FHB1022-PARA-INTRO-Q14
 QST-MUST-FHB1022-PARA-INTRO-Q15
+QST-MUST-FHB1022-PARA-MUCIZE-Q11
 
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_f65b3872022ca0b42a79
@@ -633,10 +706,12 @@ src_f65b3872022ca0b42a79
 ## claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q14-01
 CLM-INF-MUST-FHB1022-INTRO-Q15-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q11-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q14-01
 SPN-INF-MUST-FHB1022-INTRO-Q15-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q11-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -651,6 +726,11 @@ Id: ann-must-fhb1022-intro-q14
 Quote: The parasitic flatworms comprise trematodes and cestodes.
 Block: body
 Id: ann-must-fhb1022-intro-q15
+
+### definition_of · CON-INF-DF11AEE644F4AF
+Quote: Tapeworms belong to class Cestoda.
+Block: body
+Id: ann-must-fhb1022-mucize-q11
 
 ## media
 
@@ -2006,10 +2086,12 @@ Dermatobia hominis uses another insect to carry and deliver its eggs.
 ## hold_these
 Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
 Dermatobia hominis uses another insect to carry and deliver its eggs.
+Dermatobia hominis uses another insect to carry and deliver its eggs.
 
 ## lose_the_mark
 All three offered genera are associated with cutaneous myiasis in the governed teaching; do not exclude two by selecting only one.
 The governed mechanism is insect carriage, not direct skin deposition, larval ingestion or deposition in water.
+The governed phoretic carriage mechanism belongs to Dermatobia hominis, not Calliphora, Sarcophaga or Glossina.
 
 ## callout_evidence
 ### Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
@@ -2022,6 +2104,11 @@ Claims: CLM-INF-MUST-FHB1022-INTRO-Q48-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q48-01
 Reviewed by: pending medical review
 
+### Dermatobia hominis uses another insect to carry and deliver its eggs.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q29-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-0A47C19D5E2B84
 CON-INF-1B48D20E6F3C95
@@ -2032,10 +2119,12 @@ ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
 ## question_ids
 QST-MUST-FHB1022-PARA-INTRO-Q47
 QST-MUST-FHB1022-PARA-INTRO-Q48
+QST-MUST-FHB1022-PARA-MUCIZE-Q29
 
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_2c1e04372fbb8b2607f7
@@ -2043,10 +2132,12 @@ src_2c1e04372fbb8b2607f7
 ## claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q47-01
 CLM-INF-MUST-FHB1022-INTRO-Q48-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q47-01
 SPN-INF-MUST-FHB1022-INTRO-Q48-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q29-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -2061,6 +2152,11 @@ Id: ann-must-fhb1022-intro-q47
 Quote: Dermatobia hominis uses another insect to carry and deliver its eggs.
 Block: body
 Id: ann-must-fhb1022-intro-q48
+
+### definition_of · CON-INF-1B48D20E6F3C95
+Quote: Dermatobia hominis uses another insect to carry and deliver its eggs.
+Block: body
+Id: ann-must-fhb1022-mucize-q29
 
 ## media
 
@@ -2212,10 +2308,12 @@ Sarcophaga is associated with aural myiasis in the local curriculum.
 ## hold_these
 Fannia is associated with urogenital myiasis.
 Sarcophaga is associated with aural myiasis in the local curriculum.
+Fannia is associated with urogenital myiasis.
 
 ## lose_the_mark
 The governed site-specific association selects Fannia rather than Sarcophaga, Musca domestica or Cordylobia.
 The local site-specific association selects Sarcophaga, not the mosquito Anopheles, Calliphora or Stomoxys.
+The governed site association selects Fannia rather than Sarcophaga, Dermatobia or Chrysomia.
 
 ## callout_evidence
 ### Fannia is associated with urogenital myiasis.
@@ -2226,6 +2324,11 @@ Reviewed by: pending medical review
 ### Sarcophaga is associated with aural myiasis in the local curriculum.
 Claims: CLM-INF-MUST-FHB1022-INTRO-Q52-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q52-01
+Reviewed by: pending medical review
+
+### Fannia is associated with urogenital myiasis.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q28-01
 Reviewed by: pending medical review
 
 ## related_concepts
@@ -2240,10 +2343,12 @@ ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS: Sarcophaga identification in trau
 ## question_ids
 QST-MUST-FHB1022-PARA-INTRO-Q51
 QST-MUST-FHB1022-PARA-INTRO-Q52
+QST-MUST-FHB1022-PARA-MUCIZE-Q28
 
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_2c1e04372fbb8b2607f7
@@ -2251,10 +2356,12 @@ src_2c1e04372fbb8b2607f7
 ## claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q51-01
 CLM-INF-MUST-FHB1022-INTRO-Q52-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q51-01
 SPN-INF-MUST-FHB1022-INTRO-Q52-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q28-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -2269,6 +2376,11 @@ Id: ann-must-fhb1022-intro-q51
 Quote: Sarcophaga is associated with aural myiasis in the local curriculum.
 Block: body
 Id: ann-must-fhb1022-intro-q52
+
+### definition_of · CON-INF-3D51F420815EB7
+Quote: Fannia is associated with urogenital myiasis.
+Block: body
+Id: ann-must-fhb1022-mucize-q28
 
 ## media
 
@@ -2851,6 +2963,7 @@ The mosquito pupa is the non-feeding stage, while the larva feeds.
 A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
 Anopheles larvae are more surface-feeding because they lack a siphon.
 Mosquitoes are attracted by bright light and dark clothes.
+Mosquitoes belong to class Insecta and order Diptera.
 
 ## lose_the_mark
 Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order.
@@ -2864,6 +2977,7 @@ The source typo “Larve” is preserved; larva is feeding and the governed answ
 Water, sunlight and mating are not the stimulus named by the governed teaching statement.
 The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon.
 Both A and B are directly supported, so selecting only one makes the response incomplete.
+Arachnida, Crustacea and Platyhelminthes are not the mosquito class, and Scorpiones, Decapoda and Trematoda are not the mosquito order.
 
 ## callout_evidence
 ### Mosquitoes belong to class Insecta and order Diptera.
@@ -2921,6 +3035,11 @@ Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
 Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q19-01
 Reviewed by: pending medical review
 
+### Mosquitoes belong to class Insecta and order Diptera.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q15-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-4EEE8525216319
 CON-INF-FABEF04D8E14A7
@@ -2949,10 +3068,12 @@ QST-MUST-FHB1022-PARA-MOSQ2-Q09
 QST-MUST-FHB1022-PARA-MOSQ2-Q10
 QST-MUST-FHB1022-PARA-MOSQ2-Q17
 QST-MUST-FHB1022-PARA-MOSQ2-Q19
+QST-MUST-FHB1022-PARA-MUCIZE-Q15
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_b75f65f2298d0fcbc5f3
@@ -2969,6 +3090,7 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q09-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q01-01
@@ -2982,6 +3104,7 @@ SPN-INF-MUST-FHB1022-MOSQ2-Q09-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q10-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q17-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q19-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q15-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -3041,6 +3164,11 @@ Id: ann-must-fhb1022-mosq2-q17
 Quote: Mosquitoes are attracted by bright light and dark clothes.
 Block: body
 Id: ann-must-fhb1022-mosq2-q19
+
+### definition_of · CON-INF-4EEE8525216319
+Quote: Mosquitoes belong to class Insecta and order Diptera.
+Block: body
+Id: ann-must-fhb1022-mucize-q15
 
 ## media
 

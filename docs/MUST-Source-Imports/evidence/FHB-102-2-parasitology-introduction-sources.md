@@ -107,3 +107,59 @@ Pages 1, 4–7, 9, 11–12, 14–16, 21–22, 27, 32–34 and 40–41 were rende
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_352f47c6e866e76a9d8b
+
+## title
+FHB102-2 MCQs till mid — Mucize Doctors Publish
+
+## institution
+Student-authored revision bank published by Mucize Doctors; the carrier identifies its student-to-student educational purpose but no MUST faculty member, department, examiner or authenticated answer key
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+ar
+
+## publication_date
+2025
+
+## accessed_at
+2026-09-01
+
+## page_count
+47
+
+## sha256
+352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f
+
+## rights
+Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
+
+## qualification
+All 47 pages were already visually governed in source triage. Physical pages 6–10 were rendered and visually re-read for the bounded Parasitology core Q1–Q30 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28 and Q29 are authored only where their unchanged printed keys align with direct MUST faculty teaching and exact governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27 and Q30 remain explicit identity, dependency, negative-closure, unsupported-precision or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+
+## confidence
+0.6
+
+## is_assessment
+yes

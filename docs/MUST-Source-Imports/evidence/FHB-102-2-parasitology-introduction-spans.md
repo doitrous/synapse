@@ -1537,3 +1537,179 @@ CLM-INF-MUST-FHB1022-SAND2-Q30-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-SAND2-Q30-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q03-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
+
+## section_id
+art-inf-must-fhb1022-parasite-definitions-definition
+
+## text
+A parasite lives at the expense of another living organism.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q03-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q03-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q05-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-parasite-habitat-classification-definition
+
+## text
+Malaria parasites are blood parasites in the human haemopoietic system.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q05-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q05-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q08-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
+
+## section_id
+art-inf-must-fhb1022-parasite-definitions-definition
+
+## text
+An opportunistic parasite may cause severe disease in an immunocompromised host.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q08-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q08-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q09-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-parasite-habitat-classification-definition
+
+## text
+Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q09-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q09-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q11-01
+
+## article_id
+ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY
+
+## section_id
+art-inf-must-fhb1022-helminth-taxonomy-morphology-definition
+
+## text
+Tapeworms belong to class Cestoda.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q11-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q11-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q15-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Mosquitoes belong to class Insecta and order Diptera.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q15-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q28-01
+
+## article_id
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-clinical-site-myiasis-definition
+
+## text
+Fannia is associated with urogenital myiasis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q28-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q29-01
+
+## article_id
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## section_id
+art-inf-must-fhb1022-cutaneous-myiasis-phoresis-definition
+
+## text
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q29-01

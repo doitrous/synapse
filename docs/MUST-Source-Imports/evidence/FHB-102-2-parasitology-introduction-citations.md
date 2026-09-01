@@ -2797,3 +2797,323 @@ The university-branded FHB102-2 deck directly supports the unchanged printed San
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q03-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q03-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+A parasite is a living organism that lives in or on another living organism and harms it.
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+Introduction to Medical Parasitology — Parasite definition
+
+## locator_detail
+PDF page 5, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q3 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q05-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q05-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+Haemopoietic system: blood parasites e.g. Malaria parasite.
+
+## locator_type
+page
+
+## locator_page
+16
+
+## locator_section
+Introduction to Medical Parasitology — Parasite habitat
+
+## locator_detail
+PDF page 16, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q5 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q08-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q08-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+An opportunistic parasite causes severe disease in immunocompromised hosts.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Introduction to Medical Parasitology — Host susceptibility
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q8 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q09-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q09-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+Classification of parasites: based on their taxonomy (scientific classification) and based on their habitat (where they live in human host).
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Introduction to Medical Parasitology — Parasite classification
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q9 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q11-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q11-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+Class Cestoda (the tapeworms): flat, segmented.
+
+## locator_type
+page
+
+## locator_page
+34
+
+## locator_section
+Introduction to Medical Parasitology — Helminth classification
+
+## locator_detail
+PDF page 34, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q11 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q15-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck places mosquitoes in class Insecta and lists mosquitoes under order Diptera.
+
+## locator_type
+page
+
+## locator_page
+3–4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito taxonomy
+
+## locator_detail
+PDF page 3–4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q15 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q28-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The clinical-site classification lists Fannia under urogenital myiasis.
+
+## locator_type
+page
+
+## locator_page
+42 and 45
+
+## locator_section
+Flies and Myiasis — Clinical myiasis
+
+## locator_detail
+PDF page 42 and 45, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q28 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q29-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Dermatobia uses phoresis: eggs are attached to another insect, which carries them to the host.
+
+## locator_type
+page
+
+## locator_page
+37–38
+
+## locator_section
+Flies and Myiasis — Cutaneous myiasis
+
+## locator_detail
+PDF page 37–38, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q29 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

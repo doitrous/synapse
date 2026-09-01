@@ -80,6 +80,7 @@ ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -113,6 +114,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q02-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q03-01
 
 ## resource_occurrence_ids
 [clear]
@@ -122,10 +124,13 @@ CLM-INF-MUST-FHB1022-INTRO-Q02-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q2; printed answer p9
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p6 Mucize Parasitology core Q3; printed answer p6
+src_f65b3872022ca0b42a79 | tier 2 | undated | p5 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p5 direct university teaching
 
 ## original_wording
 A parasite is an organism that: Printed key B; options retained in their original order.
+Which of the following correctly defines a parasite? Printed key B; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -134,7 +139,7 @@ A parasite is an organism that: Printed key B; options retained in their origina
 [clear]
 
 ## conflicts
-No key conflict affects authored Introduction Q2. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q2. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q3. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -444,6 +449,7 @@ ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -477,6 +483,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q05-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q08-01
 
 ## resource_occurrence_ids
 [clear]
@@ -486,10 +493,13 @@ CLM-INF-MUST-FHB1022-INTRO-Q05-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q5; printed answer p9
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p7 Mucize Parasitology core Q8; printed answer p7
+src_f65b3872022ca0b42a79 | tier 2 | undated | p9 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p9 direct university teaching
 
 ## original_wording
 An opportunistic parasite: Printed key C; options retained in their original order.
+Which type of parasite causes disease in immuno-compromised individuals? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -498,7 +508,7 @@ An opportunistic parasite: Printed key C; options retained in their original ord
 concept_99ed9f61ec904013cf85cd95
 
 ## conflicts
-No key conflict affects authored Introduction Q5. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q5. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q8. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -628,6 +638,7 @@ ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -661,6 +672,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q09-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q05-01
 
 ## resource_occurrence_ids
 [clear]
@@ -670,10 +682,13 @@ CLM-INF-MUST-FHB1022-INTRO-Q09-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q9; printed answer p9
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p6 Mucize Parasitology core Q5; printed answer p6
+src_f65b3872022ca0b42a79 | tier 2 | undated | p16 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p16 direct university teaching
 
 ## original_wording
 What is the habitat of malaria parasites in humans? Printed key D; options retained in their original order.
+Where do blood parasites primarily reside? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -682,7 +697,7 @@ What is the habitat of malaria parasites in humans? Printed key D; options retai
 [clear]
 
 ## conflicts
-No key conflict affects authored Introduction Q9. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q9. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q5. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -812,6 +827,7 @@ ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -847,6 +863,7 @@ MUST_Y1=0.45
 CLM-INF-MUST-FHB1022-INTRO-Q11-01
 CLM-INF-MUST-FHB1022-INTRO-Q21-01
 CLM-INF-MUST-FHB1022-INTRO-Q23-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q09-01
 
 ## resource_occurrence_ids
 [clear]
@@ -858,6 +875,8 @@ CLM-INF-MUST-FHB1022-INTRO-Q23-01
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q11; printed answer p9
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Introduction Q21; printed answer p9
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Introduction Q23; printed answer p9
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p7 Mucize Parasitology core Q9; printed answer p7
+src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
@@ -866,6 +885,7 @@ src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 Which of the following is is a classification of parasites? Printed key D; options retained in their original order.
 What is the purpose of classifying parasites based on habitat? Printed key C; options retained in their original order.
 What is the purpose of classifying parasites based on their taxonomy? Printed key A; options retained in their original order.
+How are parasites classified in medical parasitology? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -874,7 +894,7 @@ What is the purpose of classifying parasites based on their taxonomy? Printed ke
 [clear]
 
 ## conflicts
-No key conflict affects authored Introduction Q11. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Introduction Q21. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Introduction Q23. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q11. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Introduction Q21. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Introduction Q23. Its printed A agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q9. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1184,6 +1204,7 @@ ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
 ## resource_ids
 src_f65b3872022ca0b42a79
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -1217,6 +1238,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q15-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q11-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1226,19 +1248,22 @@ CLM-INF-MUST-FHB1022-INTRO-Q15-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q15; printed answer p9
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p7 Mucize Parasitology core Q11; printed answer p7
+src_f65b3872022ca0b42a79 | tier 2 | undated | p34 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p34 direct university teaching
 
 ## original_wording
 The group of parasitic flatworms includes: Printed key C; options retained in their original order.
+Which group of parasites includes tapeworms? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
 
 ## rejected_merge_candidate_ids
-[clear]
+concept_b80a272b4cd80d7b91bc7ee6
 
 ## conflicts
-No key conflict affects authored Introduction Q15. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q15. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q11. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1279,7 +1304,7 @@ approvedFileResourceIds: Neither local PDF has been rights-cleared for student d
 approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
-rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+rejectedMergeCandidateIds: concept_b80a272b4cd80d7b91bc7ee6 — raw tapeworm/Cestoda wording overlaps this governed local identity and is retained as rejected merge provenance.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
@@ -3370,6 +3395,7 @@ ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -3403,6 +3429,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q48-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3412,10 +3439,13 @@ CLM-INF-MUST-FHB1022-INTRO-Q48-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p14 Arthropoda Q18 (global Q48); printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p10 Mucize Parasitology core Q29; printed answer p10
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p37–38 direct university teaching
 src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p37–38 direct university teaching
 
 ## original_wording
 Which method is used by Dermatobia hominis (human botfly) for transmission? Printed key B; options retained in their original order.
+Which fly is known to deposit its eggs on another insect, which then carries them to the host? Printed key B; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -3424,7 +3454,7 @@ Which method is used by Dermatobia hominis (human botfly) for transmission? Prin
 [clear]
 
 ## conflicts
-No key conflict affects authored Arthropoda Q18 (global Q48). Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q18 (global Q48). Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q29. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -3737,6 +3767,7 @@ ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -3770,6 +3801,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q51-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3779,10 +3811,13 @@ CLM-INF-MUST-FHB1022-INTRO-Q51-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p15 Arthropoda Q21 (global Q51); printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p10 Mucize Parasitology core Q28; printed answer p10
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p42 and 45 direct university teaching
 src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p42 and 45 direct university teaching
 
 ## original_wording
 Which of the following causes Urogenital myiasis? Printed key B; options retained in their original order.
+What is the larva revealed by urine examination of a myiasis patient who frequently uses public toilets? Printed key D; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -3791,7 +3826,7 @@ Which of the following causes Urogenital myiasis? Printed key B; options retaine
 concept_25a7c6c1a0f6c476622cf674
 
 ## conflicts
-No key conflict affects authored Arthropoda Q21 (global Q51). Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q21 (global Q51). Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q28. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -5015,6 +5050,7 @@ ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -5049,6 +5085,7 @@ MUST_Y1=0.45
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-MOSQ2-Q01-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5059,12 +5096,15 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p1 Mosquitoes Q1; printed answer p9
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p1 Mosquitoes Q2; printed answer p9
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p8 Mucize Parasitology core Q15; printed answer p8
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p3–4 direct university teaching
 src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p3–4 direct university teaching
 src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p3–4 direct university teaching
 
 ## original_wording
 Which class do mosquitoes belong to? Printed key B; options retained in their original order.
 Which order do mosquitoes belong to? Printed key C; options retained in their original order.
+What is the correct classification of a mosquito? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -5073,7 +5113,7 @@ Which order do mosquitoes belong to? Printed key C; options retained in their or
 [clear]
 
 ## conflicts
-No key conflict affects authored Mosquitoes Q1. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mosquitoes Q2. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Mosquitoes Q1. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mosquitoes Q2. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q15. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.

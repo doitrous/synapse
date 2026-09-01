@@ -44,6 +44,7 @@ const bacterialGrowthResourceId = 'src_da7cc51e7ac1ee22c68a'
 const bacterialCellResourceId = 'src_88ddfa49fe01adee5444'
 const absalamAssessmentResourceId = 'src_4bd3b78f762673d7eb7f'
 const absalamPart2AssessmentResourceId = 'src_8bd3b772b3b32db59726'
+const mucizeAssessmentResourceId = 'src_352f47c6e866e76a9d8b'
 const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
 const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
 const antibioticsIntroResourceId = 'src_ee1fb7a716a473eb2d98'
@@ -504,6 +505,99 @@ const sandflyItems = [
 }))
 
 introItems.push(...sandflyItems)
+
+const mucizeParasitologyItems = [
+  {
+    q: 3, conceptId: 'CON-INF-04A996DBD345A9', canonicalKey: 'parasitology.foundations.parasite-definition',
+    label: 'Parasite as a host-associated harmful organism', aliases: ['Parasite definition', 'Parasitic organism'], conceptType: 'definition',
+    article: 'definitions', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite definition', teachingPage: 5, assessmentPage: 6, answerPage: 6,
+    stem: 'Which of the following correctly defines a parasite?', key: 'B', options: ['An organism that benefits the host', 'An organism that lives at the expense of another organism', 'A free-living organism', 'A non-living infectious agent'],
+    claim: 'A parasite lives at the expense of another living organism.',
+    support: 'A parasite is a living organism that lives in or on another living organism and harms it.',
+    objective: 'Recognise the harmful host-associated relationship that defines a parasite.',
+    pitfalls: 'A parasite does not benefit the host, is not defined as free-living, and is a living organism rather than a non-living infectious agent.', rejected: [],
+  },
+  {
+    q: 5, conceptId: 'CON-INF-829EB6EC11CC8F', canonicalKey: 'parasitology.habitat.malaria-blood',
+    label: 'Malaria parasites inhabit human blood', aliases: ['Malaria blood habitat', 'Haemopoietic habitat of malaria parasites'], conceptType: 'fact',
+    article: 'classification', primaryNode: 'DIS-PAR-T01', subtopic: 'Protozoology', microtopic: 'Parasite habitat', teachingPage: 16, assessmentPage: 6, answerPage: 6,
+    stem: 'Where do blood parasites primarily reside?', key: 'C', options: ['Skin', 'Lungs', 'Blood', 'Stomach'],
+    claim: 'Malaria parasites are blood parasites in the human haemopoietic system.',
+    support: 'Haemopoietic system: blood parasites e.g. Malaria parasite.',
+    objective: 'Identify blood as the primary habitat named for blood parasites in the governed local teaching.',
+    pitfalls: 'The governed habitat is blood, not skin, lungs or stomach.', rejected: [],
+  },
+  {
+    q: 8, conceptId: 'CON-INF-C79E84EB999C31', canonicalKey: 'parasitology.foundations.opportunistic-parasite',
+    label: 'Opportunistic parasite in immunocompromised hosts', aliases: ['Opportunistic parasitism', 'Parasite causing severe disease in immunocompromised hosts'], conceptType: 'definition',
+    article: 'definitions', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Host susceptibility', teachingPage: 9, assessmentPage: 7, answerPage: 7,
+    stem: 'Which type of parasite causes disease in immuno-compromised individuals?', key: 'A', options: ['Opportunistic parasite', 'Temporary parasite', 'Permanent parasite', 'Ectoparasite'],
+    claim: 'An opportunistic parasite may cause severe disease in an immunocompromised host.',
+    support: 'An opportunistic parasite causes severe disease in immunocompromised hosts.',
+    objective: 'Identify an opportunistic parasite from the immunocompromised-host context.',
+    pitfalls: 'Temporary, permanent and ectoparasite describe different parasite relationships and do not name the governed immunocompromised-host association.', rejected: [],
+  },
+  {
+    q: 9, conceptId: 'CON-INF-D13F9697E5B95F', canonicalKey: 'parasitology.classification.taxonomy-and-habitat',
+    label: 'Parasites classified by taxonomy and human-body habitat', aliases: ['Scientific and habitat classification of parasites', 'Parasite classification approaches'], conceptType: 'classification',
+    article: 'classification', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite classification', teachingPage: 32, assessmentPage: 7, answerPage: 7,
+    stem: 'How are parasites classified in medical parasitology?', key: 'C', options: ['Based on their DNA structure', 'Based on their host’s immune response', 'Based on taxonomy and habitat', 'Based on their antibiotic resistance'],
+    claim: 'Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.',
+    support: 'Classification of parasites: based on their taxonomy (scientific classification) and based on their habitat (where they live in human host).',
+    objective: 'Recognise taxonomy and habitat as the two governed approaches to parasite classification.',
+    pitfalls: 'The local classification slide does not use DNA structure, host immune response or antibiotic resistance as the offered classification pair.', rejected: [],
+  },
+  {
+    q: 11, conceptId: 'CON-INF-DF11AEE644F4AF', canonicalKey: 'parasitology.helminths.flatworms-trematodes-cestodes',
+    label: 'Parasitic flatworms include trematodes and cestodes', aliases: ['Flatworm helminth groups', 'Platyhelminths: trematodes and cestodes'], conceptType: 'classification',
+    article: 'helminths', primaryNode: 'DIS-PAR-T02', subtopic: 'Helminthology', microtopic: 'Helminth classification', teachingPage: 34, assessmentPage: 7, answerPage: 7,
+    stem: 'Which group of parasites includes tapeworms?', key: 'C', options: ['Protozoa', 'Trematoda', 'Cestoda', 'Nematoda'],
+    claim: 'Tapeworms belong to class Cestoda.',
+    support: 'Class Cestoda (the tapeworms): flat, segmented.',
+    objective: 'Identify Cestoda as the helminth class that includes tapeworms.',
+    pitfalls: 'Trematoda are flukes, Nematoda are roundworms, and Protozoa are unicellular parasites rather than tapeworms.',
+    rejected: ['concept_b80a272b4cd80d7b91bc7ee6 — raw tapeworm/Cestoda wording overlaps this governed local identity and is retained as rejected merge provenance.'],
+  },
+  {
+    q: 15, conceptId: 'CON-INF-4EEE8525216319', canonicalKey: 'parasitology.mosquitoes.taxonomy-insecta-diptera',
+    label: 'Mosquitoes are insects in the order Diptera', aliases: ['Mosquito taxonomy', 'Insecta Diptera mosquitoes'], conceptType: 'classification',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito taxonomy', teachingPages: '3–4', assessmentPage: 8, answerPage: 8,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'What is the correct classification of a mosquito?', key: 'A', options: ['Class Insecta, Order Diptera', 'Class Arachnida, Order Scorpiones', 'Class Crustacea, Order Decapoda', 'Class Platyhelminthes, Order Trematoda'],
+    claim: 'Mosquitoes belong to class Insecta and order Diptera.',
+    support: 'The official deck places mosquitoes in class Insecta and lists mosquitoes under order Diptera.',
+    objective: 'Identify class Insecta and order Diptera as the complete mosquito classification offered.',
+    pitfalls: 'Arachnida, Crustacea and Platyhelminthes are not the mosquito class, and Scorpiones, Decapoda and Trematoda are not the mosquito order.', rejected: [],
+  },
+  {
+    q: 28, conceptId: 'CON-INF-3D51F420815EB7', canonicalKey: 'parasitology.myiasis.urogenital-fannia',
+    label: 'Fannia causes urogenital myiasis', aliases: ['Fannia urogenital myiasis association', 'Urogenital myiasis fly'], conceptType: 'fact',
+    article: 'clinicalSiteMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Clinical myiasis', teachingPages: '42 and 45', assessmentPage: 10, answerPage: 10,
+    teachingResourceId: myiasisResourceId, teachingTitle: 'Flies and Myiasis',
+    stem: 'What is the larva revealed by urine examination of a myiasis patient who frequently uses public toilets?', key: 'D', options: ['Sarcophaga species', 'Dermatobia species', 'Chrysomia species', 'Fannia species'],
+    claim: 'Fannia is associated with urogenital myiasis.',
+    support: 'The clinical-site classification lists Fannia under urogenital myiasis.',
+    objective: 'Identify Fannia from the urine-examination and public-toilet urogenital-myiasis context.',
+    pitfalls: 'The governed site association selects Fannia rather than Sarcophaga, Dermatobia or Chrysomia.',
+    rejected: ['concept_25a7c6c1a0f6c476622cf674 — describes urogenital-myiasis manifestations; not the Fannia association.'],
+  },
+  {
+    q: 29, conceptId: 'CON-INF-1B48D20E6F3C95', canonicalKey: 'parasitology.myiasis.dermatobia-phoresis',
+    label: 'Dermatobia uses another insect to carry its eggs', aliases: ['Dermatobia phoresis', 'Human botfly egg carriage'], conceptType: 'mechanism',
+    article: 'cutaneousMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Cutaneous myiasis', teachingPages: '37–38', assessmentPage: 10, answerPage: 10,
+    teachingResourceId: myiasisResourceId, teachingTitle: 'Flies and Myiasis',
+    stem: 'Which fly is known to deposit its eggs on another insect, which then carries them to the host?', key: 'B', options: ['Calliphora', 'Dermatobia hominis', 'Sarcophaga', 'Glossina'],
+    claim: 'Dermatobia hominis uses another insect to carry and deliver its eggs.',
+    support: 'Dermatobia uses phoresis: eggs are attached to another insect, which carries them to the host.',
+    objective: 'Identify Dermatobia hominis from its use of another insect to carry its eggs to the host.',
+    pitfalls: 'The governed phoretic carriage mechanism belongs to Dermatobia hominis, not Calliphora, Sarcophaga or Glossina.', rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'MUCIZE', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Parasitology core', ...item,
+}))
+
+introItems.push(...mucizeParasitologyItems)
 
 const microArticles = {
   foundations: 'ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS',
@@ -2606,7 +2700,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 28,
+    count: 29,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -2936,6 +3030,19 @@ function corpusSourceIndex() {
         processingStatus: 'fully_governed',
         pageCount: 56,
         languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['Midterm Exams', 'MCQs'],
+      },
+      [mucizeAssessmentResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf'],
+        sha256: '352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f',
+        processingStatus: 'fully_governed',
+        pageCount: 47,
+        languages: ['en', 'ar'],
         exclusionReason: null,
         universityId: 'must',
         yearIds: ['MUST_Y1'],
@@ -9054,6 +9161,62 @@ Pages 1, 4–7, 9, 11–12, 14–16, 21–22, 27, 32–34 and 40–41 were rende
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+${mucizeAssessmentResourceId}
+
+## title
+FHB102-2 MCQs till mid — Mucize Doctors Publish
+
+## institution
+Student-authored revision bank published by Mucize Doctors; the carrier identifies its student-to-student educational purpose but no MUST faculty member, department, examiner or authenticated answer key
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+ar
+
+## publication_date
+2025
+
+## accessed_at
+2026-09-01
+
+## page_count
+47
+
+## sha256
+352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f
+
+## rights
+Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
+
+## qualification
+All 47 pages were already visually governed in source triage. Physical pages 6–10 were rendered and visually re-read for the bounded Parasitology core Q1–Q30 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28 and Q29 are authored only where their unchanged printed keys align with direct MUST faculty teaching and exact governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27 and Q30 remain explicit identity, dependency, negative-closure, unsupported-precision or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+
+## confidence
+0.6
+
+## is_assessment
+yes
 `
 }
 
@@ -10118,10 +10281,14 @@ function introArticleSectionId(key) { return `${introArticles[key].toLowerCase()
 function introTeachingResource(item) { return item.teachingResourceId ?? introTeachingResourceId }
 function introAssessmentResource(item) { return item.assessmentResourceId ?? absalamAssessmentResourceId }
 function introAnswerPage(item) { return item.answerPage ?? (item.bankQ ? 18 : 9) }
-function introBankSourceTitle(item) { return ['MOSQ2', 'SAND2'].includes(item.idPrefix) ? 'Absalam101 Part 2' : 'Absalam101 Part 1' }
+function introBankSourceTitle(item) {
+  if (item.idPrefix === 'MUCIZE') return 'Mucize Doctors FHB102-2 MCQ bank'
+  return ['MOSQ2', 'SAND2'].includes(item.idPrefix) ? 'Absalam101 Part 2' : 'Absalam101 Part 1'
+}
 function introBankLabel(item) {
   if (item.idPrefix === 'MOSQ2') return `Mosquitoes Q${item.bankQ}`
   if (item.idPrefix === 'SAND2') return `Sandfly Q${item.bankQ}`
+  if (item.idPrefix === 'MUCIZE') return `Mucize Parasitology core Q${item.bankQ}`
   return item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Introduction Q${item.q}`
 }
 function introArticleTitle(key, data) {
@@ -11368,6 +11535,40 @@ function microCoverage() {
 - **Pharmacology Q29 is held as an unsupported superlative-use hold.** Printed B, vancomycin, is supported for resistant Gram-positive infection including MRSA, but the official deck does not state that it is the singular “last-resort antibiotic” for resistant infections.
 
 `
+  const mucizeParasitologyDelta = `### Mucize Doctors Parasitology core Q1–Q30 delta
+
+- +1 governed assessment resource: the 47-page student-authored Mucize Doctors bank. All pages were already governed in triage; physical pages 6–10 were rendered and visually re-read for this exact boundary.
+- +8 verified local-curriculum claims, +8 citations and +8 article spans for Q3, Q5, Q8, Q9, Q11, Q15, Q28 and Q29.
+- +0 concepts and +0 articles. All eight questions reuse exact governed MUST concept and reciprocal Draft article identities; those complete records are expanded by exact ID without dropping prior content, universities, relationships or question links.
+- +8 Draft questions and +21 explicit identity, dependency, negative-closure, unsupported-precision or malformed-form holds with no student-facing record.
+- +1 source-absent disposition: Q25 has a complete prompt, but its same-page answer row skips Q25 and visibly prints “35.B”; no answer was inferred, corrected or renumbered.
+- Every authored stem, option and printed key is unchanged. The Mucize carrier identifies itself as student-to-student material and directs readers to official faculty resources; its answer lines remain source evidence rather than authenticated faculty keys.
+- Mucize Parasitology core Q1–Q30: **8 authored / 21 held / 1 source-absent / 0 unassessed**. The exact next boundary is Mucize Parasitology Q31.
+
+`
+  const mucizeParasitologyHolds = `- **Mucize Parasitology Q1 is held as an identity/authority hold.** Printed C is directionally supported, but raw medical-parasitology scope identities \`concept_67e3dcb99284cae795d4cf8f\` and \`concept_8de933ca4fcbba40f533edac\` overlap the same broad definition; no duplicate concept was minted.
+- **Mucize Parasitology Q2 is held as a broad negative-closure/authority hold.** Printed C excludes bacterial infections from the listed parasitology objectives, but the official introduction deck does not state the offered closed “NOT” set as a single authenticated answer.
+- **Mucize Parasitology Q4 is held as an identity hold.** Printed B is supported, but exact raw identity \`concept_4cf60f293dd2603501b07838\` already states that the definitive host carries adult or sexual stages; no duplicate was minted.
+- **Mucize Parasitology Q6 is held as an unsupported compound-purpose hold.** Printed C combines disease pathogenesis, diagnosis and prevention. The official deck supports life-cycle study and its practical importance but does not state this full three-part option as a single governed teaching claim.
+- **Mucize Parasitology Q7 is held as a malformed negative-closure hold.** The source duplicates option label B and asks which route is NOT common. The entry-route slides do not establish a safe universal exclusion for hair-follicle absorption; the key was not normalized or inferred.
+- **Mucize Parasitology Q10 is held as an identity/dependency hold.** Printed B is supported by the protozoan classification, but no exact governed local atomic concept/article dependency for “unicellular parasite = Protozoa” can be added without duplicating broader raw identities.
+- **Mucize Parasitology Q12 is held as an identity/ambiguity hold.** Printed B is directionally supported by the locomotion slide, but raw \`concept_9dc1156f5fddd3a2c18a42af\` already governs the four-group classification and the broader teaching also uses morphology, reproduction and habitat.
+- **Mucize Parasitology Q13 is held as an identity/dependency hold.** Printed C is standard terminology, but the bounded governed records do not contain an exact atomic Helminthology-definition identity and no duplicate terminology concept was minted.
+- **Mucize Parasitology Q14 is held as an unsupported closed-classification hold.** Printed A includes Insecta, Arachnida and Crustacea, while the selected official teaching directly governs Insecta and Arachnida but does not establish this exact three-class closed set.
+- **Mucize Parasitology Q16 is held as an identity hold.** Printed B is supported, but raw \`concept_7482060cb7f283619c078023\` and \`concept_c85bd6a9786422a574f8a50a\` already represent Anopheles transmission of malaria.
+- **Mucize Parasitology Q17 is held as a negative-closure hold.** Printed C identifies scorpion, but the selected teaching does not authenticate the offered universal “NOT a vector of disease” closure across all options and contexts.
+- **Mucize Parasitology Q18 is held as an identity hold.** Printed B is supported, but exact raw \`concept_a42b36f3cee0d189109260e7\` already governs propagative multiplication without development.
+- **Mucize Parasitology Q19 is held as an identity hold.** Printed B is supported, but raw \`concept_029a51c793d756b91bf5e550\` and \`concept_a0958f268e6d2701352c57da\` already define myiasis as living-tissue infestation by fly larvae.
+- **Mucize Parasitology Q20 is held as a scope/dependency hold.** Printed A is supported for furuncular myiasis, but the existing local Dermatobia concept governs a broader cutaneous-myiasis genus set rather than this furuncular identity; it was not silently broadened.
+- **Mucize Parasitology Q21 is held as an identity hold.** Printed C is supported, but raw \`concept_a5e0413816dbec96b1178762\` already governs facultative myiasis in diseased or dead tissue.
+- **Mucize Parasitology Q22 is held as an unsupported superlative hold.** Printed B names Calliphora as “most associated” with forensic investigations, while governed teaching supports multiple fly genera and does not establish that singular superlative.
+- **Mucize Parasitology Q23 is held as an identity/precision hold.** Printed B names Wohlfahrtia, while raw \`concept_e7b846627f08540d850c1978\` already governs traumatic myiasis and the bounded official evidence does not safely narrow the whole identity to the offered genus.
+- **Mucize Parasitology Q24 is held as an identity hold.** Printed B is supported, but raw \`concept_8d9cafb99baef390a663df18\` and \`concept_8f98d380a95e2bd806b1f319\` already govern accidental ingestion and intestinal myiasis.
+- **Mucize Parasitology Q26 is held as an identity hold.** Printed B is supported, but raw \`concept_7bf8806533d667d1cd65b96a\` already connects Glossina tsetse flies with African trypanosomiasis.
+- **Mucize Parasitology Q27 is held as an identity hold.** Printed A is supported as mechanical carriage, but raw \`concept_012efb068aac441646ea164f\` and \`concept_ed540a67619ad2d979d7558f\` already govern Musca domestica carriage and contamination.
+- **Mucize Parasitology Q30 is held as an unsupported symptom-precision hold.** Printed B gives skin nodules with central pores, but the selected governed local cutaneous-myiasis concept/article does not independently state that exact symptom formulation.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -11438,7 +11639,15 @@ function microCoverage() {
     .replace('| Articles | 41 |', '| Articles | 44 |')
     .replace('| Questions | 151 |', '| Questions | 173 |')
     .replace('| Question authoring holds | 180 |', '| Question authoring holds | 188 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}`)
+    .replace('| Evidence resources | 28 |', '| Evidence resources | 29 |')
+    .replace('| Claims | 173 |', '| Claims | 181 |')
+    .replace('| Citations | 178 |', '| Citations | 186 |')
+    .replace('| Article spans | 173 |', '| Article spans | 181 |')
+    .replace('| Questions | 173 |', '| Questions | 181 |')
+    .replace('| Question authoring holds | 188 |', '| Question authoring holds | 209 |')
+    .replace('| Source-absent prompt dispositions | 1 |', '| Source-absent prompt dispositions | 2 |')
+    .replace('Q32 has no printed answer and remains un-authored', 'opening-bank Q32 and Mucize Q25 have no printed answer and remain un-authored')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -11457,6 +11666,10 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 132 clean source-keyed prompts authored; **5,079 raw answer observations remain**, including the 169 held printed-key observations', 'Governed answer observations: 5,211 total; 151 clean source-keyed prompts authored; **5,060 raw answer observations remain**, including the 180 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 151 authored; **5,293 raw prompt observations remain**, including 180 explicit holds', 'Governed prompt observations: 5,444 total; 173 authored; **5,271 raw prompt observations remain**, including 188 explicit holds')
     .replace('Governed answer observations: 5,211 total; 151 clean source-keyed prompts authored; **5,060 raw answer observations remain**, including the 180 held printed-key observations', 'Governed answer observations: 5,211 total; 173 clean source-keyed prompts authored; **5,038 raw answer observations remain**, including the 188 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 173 authored; **5,271 raw prompt observations remain**, including 188 explicit holds', 'Governed prompt observations: 5,444 total; 181 authored; **5,263 raw prompt observations remain**, including 209 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 173 clean source-keyed prompts authored; **5,038 raw answer observations remain**, including the 188 held printed-key observations', 'Governed answer observations: 5,211 total; 181 clean source-keyed prompts authored; **5,030 raw answer observations remain**, including the 209 held printed-key observations')
+    .replace('including 209 explicit holds and one source-absent opening-family prompt', 'including 209 explicit holds and two source-absent prompts')
+    .replace('Q32 contributes no answer observation', 'opening-bank Q32 and Mucize Q25 contribute no answer observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
@@ -11466,6 +11679,7 @@ function microCoverage() {
     .replace('Record-level backlog is not asserted as 5,315 unique records', 'Record-level backlog is not asserted as 5,312 unique records')
     .replace('Record-level backlog is not asserted as 5,312 unique records', 'Record-level backlog is not asserted as 5,293 unique records')
     .replace('Record-level backlog is not asserted as 5,293 unique records', 'Record-level backlog is not asserted as 5,271 unique records')
+    .replace('Record-level backlog is not asserted as 5,271 unique records', 'Record-level backlog is not asserted as 5,263 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -11476,6 +11690,7 @@ function microCoverage() {
     .replace('All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts', 'All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts')
     .replace('All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts', 'All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts')
     .replace('All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts', 'All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts')
+    .replace('All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts', 'All forty-four student-facing articles and all one hundred eighty-one questions remain Draft; all one hundred thirty-nine concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
@@ -11486,6 +11701,7 @@ function microCoverage() {
     .replace('All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 209 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -11494,4 +11710,6 @@ function microCoverage() {
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; all six Part 2 families through Pharmacology Q1–Q30 are fully dispositioned. The Absalam Part 2 source is complete; the next question-bearing family must be selected from the governed FHB-102-2 source ranking.')
+    .replace('The Absalam Part 2 source is complete; the next question-bearing family must be selected from the governed FHB-102-2 source ranking.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q31.')
+    .replace('The next family boundary is the completed third triage source, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, a 45-page student-authored revision bank containing five independent 30-MCQ sections (150 prompts / 150 printed answers). Its Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 boundaries are fully dispositioned; ', 'The current source boundary is the governed 47-page Mucize Doctors student-authored bank, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`. Its physical pages 6–10 / Parasitology core Q1–Q30 are fully dispositioned; ')
 }

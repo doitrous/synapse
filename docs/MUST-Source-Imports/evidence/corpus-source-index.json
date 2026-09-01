@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 28,
+ "count": 29,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -594,6 +594,31 @@
    "pageCount": 56,
    "languages": [
     "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "MCQs"
+   ]
+  },
+  "src_352f47c6e866e76a9d8b": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf"
+   ],
+   "sha256": "352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f",
+   "processingStatus": "fully_governed",
+   "pageCount": 47,
+   "languages": [
+    "en",
+    "ar"
    ],
    "exclusionReason": null,
    "universityId": "must",
