@@ -1,0 +1,145 @@
+import type { McqLeafSeed } from '../../mcq.ts'
+
+export const LEAF: McqLeafSeed = {
+  leaf: "The Trachea, Bronchi and Thoracic Oesophagus",
+  modulePath: "104 CPS > Anatomy > Large Tubes of the Thorax",
+  articleId: "ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS",
+
+  concepts: [
+    {
+      // Reuse: CON-RES-A6B5E6793B2E5E (docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md).
+      key: "trachea.structure-relations-and-constrictions",
+      label: "The trachea runs from C6 to the sternal angle, held patent by 16-20 C-shaped cartilage rings, and may be constricted by the thyroid gland above, the brachiocephalic artery on the right, and the aortic arch on the left",
+      definition: "The trachea continues the larynx from the lower border of C6 in the neck to the sternal angle in the thorax, where it divides into the two principal bronchi; it is 10-12 cm long and 1.5-2 cm wide, lying in the midline except at its lower end, where the aortic arch pushes it slightly to the right. It is kept patent by sixteen to twenty C-shaped cartilage rings, their open backs joined by the trachealis muscle to allow the oesophagus to distend during swallowing, and its lowest ring projects up between the two bronchi as the carina. It may be constricted at its upper end by the thyroid gland, in its middle by the brachiocephalic artery on the right, and at its lower end by the aortic arch on the left. Its thoracic part lies with the manubrium and left brachiocephalic vein in front, the oesophagus and left recurrent laryngeal nerve behind, the right vagus, brachiocephalic artery, right brachiocephalic vein, SVC and azygos arch on its right, and the left subclavian and common carotid arteries and the aortic arch on its left.",
+      objective: "State the vertebral levels at which the trachea begins and bifurcates, and name the three structures that may constrict it along its length.",
+      pitfall: "Treating the trachea as perfectly midline throughout. Only its upper part is; at its lower end the aortic arch pushes it slightly to the right, which is the anatomical basis for the carina's asymmetric position on imaging.",
+      subject: "resp",
+      primary: "DIS-ANA-T04",
+      secondary: ["SYS-RES-T01-S01-M01"],
+      modulePath: "104 CPS > Anatomy > Large Tubes of the Thorax",
+      type: "structural_description",
+      aliases: ["Carina", "Trachealis muscle"],
+    },
+    {
+      // Reuse: CON-RES-16C7132ECAA7BF.
+      key: "principal-bronchi.right-vs-left-differences",
+      label: "The right principal bronchus is shorter, wider and more in line with the trachea than the left, which is why an inhaled foreign body passes into it more often",
+      definition: "The right principal bronchus is shorter (about 1 inch), wider and more in line with the trachea (25 degrees from the midline) than the left, dividing into three lobar bronchi with the superior (eparterial) bronchus arising outside the hilum. The left principal bronchus is longer (about 2 inches), narrower and more horizontal (45 degrees from the midline), dividing into only two lobar bronchi on entering the hilum. A foreign body inhaled past the carina passes more often into the right bronchus, because it combines being both wider and more in line with the trachea than the left — the two reasons act together, and citing only one gives half the mechanism.",
+      objective: "State the three paired differences between the right and left principal bronchus, and explain why both (not just one) make the right bronchus the more common site for an inhaled foreign body.",
+      pitfall: "Attributing the right bronchus's vulnerability to foreign bodies to width alone. The book gives two reasons together, width AND alignment with the trachea — naming only one answers half the mechanism.",
+      subject: "resp",
+      primary: "DIS-ANA-T04",
+      secondary: ["SYS-RES-T01-S01-M01"],
+      modulePath: "104 CPS > Anatomy > Large Tubes of the Thorax",
+      type: "structural_description",
+      aliases: ["Eparterial bronchus", "Inhaled foreign body"],
+    },
+    {
+      // Reuse: CON-GIT-4E4EC465826CF2.
+      key: "oesophagus.thoracic-course-and-constrictions",
+      label: "The thoracic oesophagus runs from the trachea's posterior aspect, behind the left bronchus into the posterior mediastinum, to pierce the diaphragm at T10, deviating forward and left as it does so",
+      definition: "The thoracic oesophagus, about 25 cm long overall, enters the thorax through the thoracic inlet between the trachea in front and the vertebral column behind, running as the most posterior structure of the superior mediastinum to the right of the aortic arch; at the sternal angle it passes behind the left principal bronchus into the posterior mediastinum, descending along the descending thoracic aorta's right side, behind the pericardium and the left atrium, to T7, then deviating forwards and left, crossing in front of the aorta, to leave through the diaphragm's oesophageal opening at T10, one inch left of the midline. It shows four constrictions: at its beginning (17 cm from the incisor teeth), where crossed by the aortic arch (22 cm), where crossed by the left principal bronchus (27 cm) and at the diaphragm (42 cm) — the sites where a swallowed foreign body most often lodges and where a corrosive stricture most often forms.",
+      objective: "Name the oesophagus's four constrictions in order with their distance from the incisor teeth, and state which two are produced by neighbouring thoracic structures crossing it.",
+      pitfall: "Treating the four oesophageal constrictions as fixed anatomical narrowings of the wall itself. Two of the four — the aortic arch crossing and the left bronchus crossing — are produced by an adjacent structure pressing on the oesophagus, not by the oesophageal wall narrowing on its own.",
+      subject: "gi",
+      primary: "DIS-ANA-T04",
+      secondary: [],
+      modulePath: "104 CPS > Anatomy > Large Tubes of the Thorax",
+      type: "structural_description",
+      aliases: ["Oesophageal constriction", "Course of the thoracic oesophagus"],
+    },
+  ],
+
+  questions: [
+    {
+      key: "ifa-child-inhales-by-mistake-a-foreign-body-it-will-pass-to-bcab2764",
+      conceptKey: "principal-bronchi.right-vs-left-differences",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that the right bronchus's shorter, wider, more vertical course is why an inhaled foreign body favours it.",
+      explanations: {
+        A: "This is the correct answer. The right principal bronchus is shorter, wider and more in line with the trachea's own long axis than the left — the department book gives width and alignment together as the reason a swallowed or inhaled foreign body passes preferentially into the right lung rather than the left. All three of \"shorter\", \"wider\" and \"more vertical\" describe the right side specifically.",
+        D: "This describes the LEFT principal bronchus, not the right — longer, narrower and more horizontal (about 45 degrees from the midline) than its counterpart, which is exactly why the left is the less common route for an inhaled foreign body.",
+      },
+    },
+    {
+      key: "regarding-the-bronchi-the-following-statements-are-true-exce-4c571716",
+      conceptKey: "principal-bronchi.right-vs-left-differences",
+      difficulty: "Hard",
+      questionType: "Recall of a false statement",
+      learningObjective: "Exclude a claimed relation between the right bronchus and the SVC that the department book does not support.",
+      explanations: {
+        A: "True of the lung's dual blood supply described alongside the bronchial tree, so not the exception sought here.",
+        B: "True, so not the exception. Inhaled foreign bodies favour the right bronchus, which is shorter, wider and more in line with the trachea.",
+        C: "This is the exception, and the answer. The department book's own account of the right bronchus places it below the arch of the azygos vein and gives it no stated relation to the superior vena cava passing in front of it — the SVC lies anterior and medial in the superior mediastinum, not astride the right bronchus's own course to the hilum.",
+        D: "True, so not the exception. The right principal bronchus gives off its superior (eparterial) lobar bronchus before entering the hilum, unlike the left, which divides only after entering the hilum.",
+        E: "True, so not the exception. In both lungs the pulmonary artery lies in front of the principal bronchus at the hilum.",
+      },
+    },
+    {
+      key: "regarding-the-trachea-in-thorax-the-following-statements-are-9cd4602d",
+      conceptKey: "trachea.structure-relations-and-constrictions",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Place the tracheal bifurcation at the sternal-angle plane, not at the third thoracic vertebra.",
+      explanations: {
+        A: "True, so not the exception. The trachea's wall is supported by sixteen to twenty C-shaped cartilage rings.",
+        B: "This is the exception, and the answer. The trachea ends by bifurcating at the level of the sternal angle — the same oblique plane as the T4/T5 intervertebral disc — not at the third thoracic vertebra, which is one to two levels too high.",
+        C: "True, so not the exception. The oesophagus lies immediately behind the trachea throughout its thoracic course.",
+        D: "True, so not the exception. The trachea's lower end is crossed by, and slightly displaced by, the arch of the aorta.",
+        E: "True, so not the exception. The left subclavian artery lies on the trachea's left side, above the aortic arch, as one of the structures related to its lower left aspect.",
+      },
+    },
+    {
+      key: "regarding-the-trachea-mark-one-correct-statement-d3ea806b",
+      conceptKey: "trachea.structure-relations-and-constrictions",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Place the arch of the azygos vein on the trachea's right side.",
+      explanations: {
+        A: "The trachea's thoracic part lies in the superior mediastinum, not the posterior mediastinum — it has already bifurcated by the time the posterior mediastinum's structures (descending aorta, azygos system, oesophagus, thoracic duct) are reached.",
+        B: "The trachea divides at the sternal-angle plane, the same level as the T4/T5 intervertebral disc — not at the level of the fifth thoracic vertebra's own body.",
+        C: "This is the correct answer. On its right side, the trachea's thoracic part is related in sequence to the right vagus nerve and paratracheal nodes, the brachiocephalic artery, the right brachiocephalic vein and upper SVC, and — most inferiorly — the arch of the azygos vein, which crosses forward above the root of the right lung to reach the SVC. Naming the azygos arch as a right-sided tracheal relation is exactly the discriminating fact this question rewards.",
+      },
+    },
+    {
+      key: "what-is-true-of-the-anatomy-of-the-trachea-8e21112a",
+      conceptKey: "trachea.structure-relations-and-constrictions",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that the trachea begins at the lower border of C6.",
+      explanations: {
+        A: "The trachea is 10-12 cm long, not 20 cm, and bifurcates at the sternal angle rather than \"below the manubrium\" as a separate landmark — the manubrium ends at the sternal angle itself, so this option conflates two different reference points.",
+        B: "This is the correct answer. The trachea continues the larynx from the lower border of the sixth cervical vertebra (C6) in the neck, running down to the sternal angle in the thorax before it bifurcates into the two principal bronchi.",
+        C: "The trachea is 1.5-2 cm WIDE, not 10 cm in diameter — a figure nearly seven times too large for an airway that sits behind a 2 cm-wide surface band on the front of the neck and upper thorax.",
+        D: "The trachea bifurcates at the sternal angle, the same oblique plane as the T4/T5 disc — not \"just below the level of T6\", which places the bifurcation roughly one and a half vertebral levels too low.",
+      },
+    },
+    {
+      key: "which-of-the-following-statements-about-the-course-of-the-th-dff1f8cd",
+      conceptKey: "oesophagus.thoracic-course-and-constrictions",
+      difficulty: "Hard",
+      questionType: "Recall",
+      learningObjective: "Trace the oesophagus's final deviation, forward and to the left, as it approaches the diaphragm.",
+      explanations: {
+        A: "The oesophagus enters the thorax to the RIGHT of the aortic arch, in the superior mediastinum, not anterior to it — it only reaches the posterior mediastinum lower down, after passing behind the left principal bronchus at the sternal-angle level.",
+        B: "The oesophagus passes behind the left principal bronchus and behind the pericardium (and left atrium), not in front of the right principal bronchus — its whole posterior-mediastinal course runs behind, not in front of, the structures it neighbours.",
+        C: "The oesophagus enters the diaphragm's oesophageal opening at the level of T10, not T8 — T8 is instead the level of the diaphragm's caval opening, which transmits the inferior vena cava, not the oesophagus.",
+        D: "This is the correct answer. In its final segment the oesophagus deviates forwards and to the left, crossing in front of the descending thoracic aorta, before leaving the thorax through the diaphragm's oesophageal opening at T10, one inch left of the midline. This last deviation is exactly why the oesophageal hiatus sits to the LEFT of the midline rather than directly behind the aorta.",
+      },
+    },
+    {
+      key: "which-of-the-following-statements-regarding-the-esophagus-is-fcf71760",
+      conceptKey: "oesophagus.thoracic-course-and-constrictions",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Place the oesophagus's whole thoracic course, after the sternal angle, within the posterior mediastinum.",
+      explanations: {
+        A: "The oesophagus begins at the lower border of C6, continuing the pharynx — not at C3, which is several vertebral levels too high and sits within the pharynx itself.",
+        B: "The descending (thoracic) aorta is a posterior-mediastinum structure, not present in the superior mediastinum at all — in the superior mediastinum the oesophagus instead lies to the right of the aortic ARCH, so this statement misplaces both the vessel and the compartment.",
+        C: "The oesophagus pierces the diaphragm at T10, not T12 — T12 is instead the level of the aortic opening, which transmits the aorta, the azygos vein and the thoracic duct, not the oesophagus.",
+        D: "This is the correct answer. After passing the sternal angle, the oesophagus's whole remaining thoracic course — behind the left bronchus, alongside the descending thoracic aorta, behind the pericardium and left atrium, down to T10 — runs through the posterior mediastinum, one of the five structures the department book lists among that compartment's contents.",
+      },
+    },
+  ],
+}

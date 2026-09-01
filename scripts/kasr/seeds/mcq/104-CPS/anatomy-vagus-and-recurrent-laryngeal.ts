@@ -1,0 +1,80 @@
+import type { McqLeafSeed } from '../../mcq.ts'
+
+export const LEAF: McqLeafSeed = {
+  leaf: "The Vagus Nerves and the Left Recurrent Laryngeal Nerve",
+  modulePath: "104 CPS > Anatomy > Large Nerves of the Thorax",
+  articleId: "ART-104-ANA-THORACIC-NERVES",
+
+  concepts: [
+    {
+      // Reuse: CON-CVS-E9CF510CBD01BC (docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md).
+      key: "vagus-nerve.thoracic-course-and-plexuses",
+      label: "The right vagus runs beside the trachea and behind the lung root; the left crosses the aortic arch before running behind the left lung root — both nerves end up behind, not in front of, their bronchus",
+      definition: "The right vagus crosses in front of the subclavian artery's first part, giving its recurrent laryngeal branch there, then descends on the trachea's right side behind the right brachiocephalic vein and upper SVC, crossed on its right by the azygos arch, to the back of the right bronchus. The left vagus descends between the left common carotid and subclavian arteries, behind the left brachiocephalic vein, crossed by the left phrenic nerve, then crosses the aortic arch's left anterior aspect (crossed there by the left superior intercostal vein) to the back of the left bronchus. Behind each lung root the nerve forms the posterior pulmonary plexus, with filaments to the anterior plexus; below the root, oesophageal plexus branches form — the right vagus contributing mainly to the posterior oesophageal plexus, the left mainly to the anterior; near the diaphragm, the two reform as the posterior and anterior gastric nerves respectively.",
+      objective: "State which vagus crosses the aortic arch and which is crossed by the azygos arch instead, and name the plexus each forms behind its own lung root.",
+      pitfall: "Assuming both vagi cross the aortic arch by analogy with the left. Only the left vagus crosses the arch; the right vagus runs beside the trachea instead and is crossed BY the azygos arch.",
+      subject: "cvs",
+      primary: "DIS-ANA-T04",
+      secondary: [],
+      modulePath: "104 CPS > Anatomy > Large Nerves of the Thorax",
+      type: "structural_description",
+      aliases: ["Posterior pulmonary plexus", "Anterior and posterior oesophageal plexus"],
+    },
+    {
+      // Reuse: CON-CVS-E9BA4A6C0E8392.
+      key: "left-recurrent-laryngeal-nerve.origin-and-course",
+      label: "The left recurrent laryngeal nerve branches from the left vagus on the aortic arch and hooks beneath it, behind the ligamentum arteriosum, before ascending to the neck — unlike the right nerve's hook, which is around the subclavian artery and never enters the thorax",
+      definition: "The left recurrent laryngeal nerve branches from the left vagus on the aortic arch, then hooks below the arch, behind and to the left of the ligamentum arteriosum, before ascending deep to the arch in the left tracheo-oesophageal groove to reach the neck. The right recurrent laryngeal nerve's equivalent hook, by contrast, is around the right subclavian artery in the neck, not in the thorax at all — an asymmetry that follows the two nerves' different embryological origins from the sixth and fourth aortic arch arteries respectively. The thoracic part of the trachea is related posteriorly to the oesophagus, with the left recurrent laryngeal nerve running in the groove between the two.",
+      objective: "State where the left recurrent laryngeal nerve hooks beneath the aortic arch, and contrast this with the right nerve's hook around the subclavian artery in the neck.",
+      pitfall: "Assuming the right recurrent laryngeal nerve has a thoracic hook like the left. It does not: its hook is around the right subclavian artery in the neck, never entering the thorax at all.",
+      subject: "cvs",
+      primary: "DIS-ANA-T04",
+      secondary: [],
+      modulePath: "104 CPS > Anatomy > Large Nerves of the Thorax",
+      type: "structural_description",
+      aliases: ["Hook of the left recurrent laryngeal nerve", "Ligamentum arteriosum and the recurrent laryngeal nerve"],
+    },
+  ],
+
+  questions: [
+    {
+      key: "regarding-the-vagus-nerves-mark-one-correct-statement-4f8ac496",
+      conceptKey: "vagus-nerve.thoracic-course-and-plexuses",
+      difficulty: "Hard",
+      questionType: "Recall",
+      learningObjective: "State that the left vagus passes behind the root of the left lung, forming the posterior pulmonary plexus there.",
+      explanations: {
+        A: "The right vagus passes BEHIND, not in front of, the root of the right lung — it descends beside the trachea, crossed by the azygos arch, before reaching the back of the right bronchus.",
+        B: "This is the correct answer. Both vagi end up behind their own lung root: the left vagus, after crossing the aortic arch's left anterior aspect, runs down to the back of the left bronchus, where it forms the posterior pulmonary plexus together with filaments to the anterior plexus in front.",
+        C: "The right vagus contributes mainly to the POSTERIOR oesophageal plexus, not the anterior surface of the oesophagus — the anterior plexus is instead mainly the left vagus's contribution.",
+        D: "The left vagus contributes mainly to the ANTERIOR oesophageal plexus, not the posterior surface — reversing this is the same error as option C, applied to the other nerve.",
+        E: "The left vagus descends between the left common carotid and left subclavian arteries, not alongside the brachiocephalic artery — the brachiocephalic artery is a right-sided structure the left vagus never runs beside.",
+      },
+    },
+    {
+      key: "the-left-recurrent-laryngeal-nerve-hooks-inferiorly-around-t-f916dd25",
+      conceptKey: "left-recurrent-laryngeal-nerve.origin-and-course",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that the left recurrent laryngeal nerve hooks around the aortic arch, immediately behind the ligamentum arteriosum.",
+      explanations: {
+        A: "The left subclavian artery is one of the aortic arch's three branches, but the left recurrent laryngeal nerve does not hook around it — that hook belongs to the right recurrent laryngeal nerve, around the right subclavian artery in the neck.",
+        B: "The left brachiocephalic vein crosses the upper aspect of the aortic arch, but the left recurrent laryngeal nerve's hook is around the arch itself, one plane lower.",
+        C: "The azygos vein arches over the root of the right lung, on the opposite side of the thorax from the left recurrent laryngeal nerve's course.",
+        D: "This is the correct answer. The left recurrent laryngeal nerve branches from the left vagus as it crosses the aortic arch, then hooks inferiorly around the arch itself — immediately behind and to the left of the ligamentum arteriosum — before ascending back to the neck in the tracheo-oesophageal groove. This thoracic hook is unique to the left nerve; the right recurrent laryngeal nerve hooks around the right subclavian artery in the neck instead.",
+      },
+    },
+    {
+      key: "the-thoracic-part-of-trachea-is-related-posteriorly-to-the-e-54713c25",
+      conceptKey: "left-recurrent-laryngeal-nerve.origin-and-course",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Name the left recurrent laryngeal nerve as the structure running between the trachea and the oesophagus.",
+      explanations: {
+        A: "True in itself of the external intercostal muscle's own fibre direction, but an unrelated fact folded into this row by the extraction — it says nothing about what runs between the trachea and the oesophagus, which is what the question asks.",
+        B: "This is the correct answer. The thoracic trachea is related posteriorly to the oesophagus, with the left recurrent laryngeal nerve running in the groove between the two — the same nerve that, lower down, hooks beneath the aortic arch before ascending to this position.",
+        D: "The internal laryngeal nerve is a sensory branch of the superior laryngeal nerve, supplying the larynx above the vocal folds — it has no thoracic course and plays no part in the trachea-oesophagus groove.",
+      },
+    },
+  ],
+}

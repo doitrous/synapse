@@ -8,8 +8,11 @@
     Large Nerves of the Thorax — 3 questions, 1 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
+    Subdivisions of the Mediastinum — 11 questions, 4 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
+    The Trachea, Bronchi and Thoracic Oesophagus — 7 questions, 3 concepts
+    The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 3 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
@@ -71,7 +74,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  134 questions were excluded and 0 held back for having no
+  135 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1578,6 +1581,942 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-4545972AA6AB
+## title
+Among the followings the most superficial structure in the superior mediastinum is the:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Among the followings the most superficial structure in the superior mediastinum is the:
+## answer_a
+Vagus nerve
+## explanation_a
+The vagus nerves run centrally in the superior mediastinum, alongside the aortic arch's branches — a deeper plane than the retrosternal veins, so not the most superficial choice here.
+## answer_b
+Superior vena cava
+## explanation_b
+This is the correct answer. The department book's own front-to-back reading of the superior mediastinum starts retrosternally with the brachiocephalic veins and the superior vena cava, before the aortic arch and its branches occupy the middle plane and the trachea, oesophagus and thoracic duct sit most posteriorly. Of the four structures offered, the SVC alone belongs to that first, most anterior (most superficial) group.
+
+Why this is right:
+- The superior mediastinum lies between the manubrium in front, the upper four thoracic vertebrae behind, the thoracic inlet above and the sternal angle plane below.
+## answer_c
+Left subclavian artery
+## explanation_c
+The left subclavian artery is one of the aortic arch's three branches, part of the middle group in the superior mediastinum's front-to-back order — deeper than the retrosternal veins.
+## answer_d
+Thoracic duct
+## explanation_d
+The thoracic duct is the most posterior of the superior mediastinum's tubal structures, ascending behind the oesophagus's left border — the opposite extreme from "most superficial".
+## correct_answer
+B
+## main_concept
+CON-RES-F360EFDEA84D58
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Subdivisions of the Mediastinum
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Place the superior vena cava as the most anterior (retrosternal) of these four superior-mediastinum structures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p11 q89. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6411875F7023
+## title
+In which mediastinum is the thoracic part of the trachea located?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In which mediastinum is the thoracic part of the trachea located?
+## answer_a
+Superior
+## explanation_a
+This is the correct answer. The trachea's thoracic part is the most posterior tubal structure of the three named in the superior mediastinum's front-to-back list — behind the aortic arch and its branches, and in front of the oesophagus — and the whole of that list, veins to tubes, belongs to the superior, not the inferior, mediastinum.
+
+Why this is right:
+- The superior mediastinum lies between the manubrium in front, the upper four thoracic vertebrae behind, the thoracic inlet above and the sternal angle plane below.
+## answer_b
+Posterior
+## explanation_b
+The posterior mediastinum lies below the sternal-angle plane and holds the descending thoracic aorta, the azygos system, the oesophagus and the thoracic duct, but not the trachea — the trachea has already bifurcated into the two principal bronchi by the time that plane is reached.
+## answer_c
+Middle
+## explanation_c
+The middle mediastinum is occupied by the pericardium and its contents (heart, ascending aorta, pulmonary trunk, lower SVC) — the trachea plays no part in it.
+## answer_d
+Anterior
+## explanation_d
+The anterior mediastinum is the narrow space in front of the pericardium, holding the sternopericardial ligaments, the lower thymus and a few lymph nodes — not the trachea.
+## correct_answer
+A
+## main_concept
+CON-RES-F360EFDEA84D58
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Subdivisions of the Mediastinum
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Place the trachea's thoracic part among the superior mediastinum's contents.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q21. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-9DEDBBE6C74A
+## title
+Regarding the superior mediastinum, select the incorrect answer:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the superior mediastinum, select the incorrect answer:
+## answer_a
+Its anterior boundary is formed by the manubrium sternum
+## explanation_a
+True, so not the answer sought. The superior mediastinum's anterior boundary is the manubrium sterni.
+## answer_b
+The arch of the aorta lies within it
+## explanation_b
+True, so not the answer sought. The arch of the aorta lies wholly within the superior mediastinum.
+## answer_c
+It is separated from the inferior mediastinum by a plane passing through the third costal cartilage
+## explanation_c
+This is the incorrect statement, and the answer. The superior mediastinum is separated from the inferior mediastinum by the oblique plane running from the sternal angle in front to the T4/T5 disc behind — not a plane through the third costal cartilage. The sternal angle itself marks the SECOND costal cartilage, one space above the distractor's claim.
+
+Why this is right:
+- The mediastinum is the thick median partition of the thoracic cavity, extending from the sternum to the vertebral column and from the thoracic inlet to the diaphragm.
+- An imaginary plane from the sternal angle in front to the lower border of T4, or the T4/T5 disc, behind divides it into a superior mediastinum above and an inferior mediastinum below.
+- The inferior mediastinum is further subdivided into an anterior mediastinum, a narrow space in front of the pericardium; a middle mediastinum, occupied by the pericardium and its contents; and a posterior mediastinum, behind the pericardium and in front of the vertebral column.
+## answer_d
+It contains the thymus
+## explanation_d
+True, so not the answer sought. The thymus (or its lower part, once involuted) is a superior mediastinum content, listed retrosternally alongside the great veins.
+## correct_answer
+C
+## main_concept
+CON-RES-F78FBA0BF1E673
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Anatomy
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Locate the superior/inferior mediastinum dividing plane at the sternal angle, not at the third costal cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q9. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-63B0421762B0
+## title
+The following are the contents of superior mediastinum, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are the contents of superior mediastinum, EXCEPT:
+## answer_a
+Left brachiocephalic vein
+## explanation_a
+True, so not the exception. The left brachiocephalic vein is one of the retrosternal contents of the superior mediastinum.
+## answer_b
+Inferior vena Cava
+## explanation_b
+This is the exception, and the answer. The inferior vena cava plays no part in the superior mediastinum at all — its short intrathoracic course, after piercing the diaphragm, runs straight into the middle mediastinum's pericardial sac to reach the right atrium, well below the sternal-angle plane.
+
+Why this is right:
+- The superior mediastinum lies between the manubrium in front, the upper four thoracic vertebrae behind, the thoracic inlet above and the sternal angle plane below.
+## answer_c
+Arch of aorta
+## explanation_c
+True, so not the exception. The arch of the aorta is the central content of the superior mediastinum, occupying the plane between the retrosternal veins and the posterior trachea/oesophagus.
+## answer_d
+Esophagus
+## explanation_d
+True, so not the exception. The oesophagus is the second of the superior mediastinum's three posterior tubal structures.
+## answer_e
+Thoracic duct
+## explanation_e
+True, so not the exception. The thoracic duct is the most posterior of those three tubal structures, ascending behind the oesophagus's left border.
+## correct_answer
+B
+## main_concept
+CON-RES-F360EFDEA84D58
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Anatomy
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Exclude the inferior vena cava from the superior mediastinum's contents.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p23 q92. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F5A299FF89B4
+## title
+Which of the followings is not a content in the superior mediastinum?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the followings is not a content in the superior mediastinum?
+## answer_a
+trachea
+## explanation_a
+The trachea is a genuine superior mediastinum content, so not the answer sought.
+## answer_b
+ascending aorta
+## explanation_b
+This is the correct answer. The ascending aorta lies wholly within the fibrous pericardium, in the middle mediastinum — it ends behind the second right sternocostal junction, at the sternal-angle plane, which is exactly where the ARCH of the aorta begins and the superior mediastinum starts. The ascending aorta itself never enters the superior mediastinum.
+
+Why this is right:
+- The superior mediastinum lies between the manubrium in front, the upper four thoracic vertebrae behind, the thoracic inlet above and the sternal angle plane below.
+## answer_c
+arch of aorta
+## explanation_c
+The arch of the aorta is a genuine superior mediastinum content (unlike the ascending aorta), so not the answer sought.
+## answer_d
+left brachiocaphalic vein
+## explanation_d
+The left brachiocephalic vein is a genuine, retrosternal superior mediastinum content, so not the answer sought.
+## correct_answer
+B
+## main_concept
+CON-RES-F360EFDEA84D58
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Subdivisions of the Mediastinum
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Distinguish the ascending aorta (middle mediastinum) from the arch of the aorta (superior mediastinum).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q32. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9D0793C9ADBB
+## title
+The following are the contents of the posterior mediastinum, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are the contents of the posterior mediastinum, EXCEPT:
+## answer_a
+Descending aorta
+## explanation_a
+True, so not the exception. The descending (thoracic) aorta and its branches are the posterior mediastinum's arterial content.
+## answer_b
+Oesophagus
+## explanation_b
+True, so not the exception. The oesophagus is one of the posterior mediastinum's two tubal contents.
+## answer_c
+Thoracic duct
+## explanation_c
+True, so not the exception. The thoracic duct, running along the oesophagus's right side, is the other.
+## answer_d
+Azygos Vein
+## explanation_d
+True, so not the exception. The azygos vein, with the hemiazygos system, is the posterior mediastinum's venous content.
+## answer_e
+Internal thoracic artery
+## explanation_e
+This is the exception, and the answer. The internal thoracic artery runs in the thoracic WALL, behind the costal cartilages close to the sternal margin — it never enters the posterior mediastinum, which the department book's own five-group list (arteries, veins, nerves, tubes, lymph nodes) does not include it under.
+
+Why this is right:
+- The posterior mediastinum lies with the pericardium above and the diaphragm below in front of it, and the lower eight thoracic vertebrae, T5 to T12, behind it.
+- The posterior mediastinum contains five groups of structures: the descending thoracic aorta and its branches; the azygos and hemiazygos veins; the two vagi with the sympathetic trunks and their splanchnic branches; the oesophagus with the thoracic duct on its right side; and the posterior mediastinal lymph nodes.
+## correct_answer
+E
+## main_concept
+CON-RES-03AB23DA654BAF
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Anatomy
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Exclude the internal thoracic artery from the posterior mediastinum's five content groups.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p24 q97. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DF982DF7C93A
+## title
+The following structure lies behind the oseophagus:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure lies behind the oseophagus:
+## answer_a
+Thoracic duct
+## explanation_a
+This is the correct answer. The thoracic duct runs immediately behind the oesophagus along its course through the thorax — on its right side low in the posterior mediastinum, then crossing behind it to ascend on its left border once it reaches the superior mediastinum. "Behind the oesophagus" is exactly how the department book's own superior-mediastinum account places it: trachea, then oesophagus, then the thoracic duct most posteriorly.
+
+Why this is right:
+- The posterior mediastinum lies with the pericardium above and the diaphragm below in front of it, and the lower eight thoracic vertebrae, T5 to T12, behind it.
+- The posterior mediastinum contains five groups of structures: the descending thoracic aorta and its branches; the azygos and hemiazygos veins; the two vagi with the sympathetic trunks and their splanchnic branches; the oesophagus with the thoracic duct on its right side; and the posterior mediastinal lymph nodes.
+## answer_b
+Inferior venal cava
+## explanation_b
+The inferior vena cava has no course through the mediastinum at all — its short intrathoracic segment runs straight from the diaphragm into the pericardium to reach the right atrium, nowhere near the oesophagus.
+## answer_c
+Internal thoracic artery
+## explanation_c
+The internal thoracic artery runs in the thoracic wall, well anterior to the oesophagus, not behind it.
+## answer_d
+Right coronary artery
+## explanation_d
+The right coronary artery lies in the coronary sulcus on the heart's own surface, inside the pericardium — an entirely different plane from the oesophagus's posterior-mediastinal course.
+## correct_answer
+A
+## main_concept
+CON-RES-03AB23DA654BAF
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Subdivisions of the Mediastinum
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Place the thoracic duct behind the oesophagus as it ascends through the mediastinum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p13 q107. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-483F5C1E6365
+## title
+At the level of the sternal angle the following features are present, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+At the level of the sternal angle the following features are present, EXCEPT:
+## answer_a
+Second rib articulates with sternum
+## explanation_a
+True, so not the exception. The second costal cartilage articulates with the sternum exactly at the sternal angle — the landmark's own anatomical definition.
+## answer_b
+Trachea bifurcates
+## explanation_b
+True, so not the exception. The trachea bifurcates into the two principal bronchi at the sternal-angle level.
+## answer_c
+Aortic arch begins
+## explanation_c
+True, so not the exception. The ascending aorta ends and the arch of the aorta begins at this level, opposite the second right sternocostal junction.
+## answer_d
+Superior vena cava begins
+## explanation_d
+This is the exception, and the answer. The superior vena cava is not begun at the sternal angle — the two brachiocephalic veins unite one space higher, behind the lower border of the FIRST right costal cartilage, close to the manubrium. The sternal angle instead marks where the azygos vein's arch joins the already-formed SVC, and where the SVC pierces the pericardium.
+
+Why this is right:
+- The sternal angle (the manubriosternal joint) is where the second costal cartilage articulates with the sternum — not the first rib, which articulates with the manubrium above the angle.
+## answer_e
+Superior mediastinum ends
+## explanation_e
+True, so not the exception. The sternal-angle plane is exactly where the department book divides the superior from the inferior mediastinum.
+## correct_answer
+D
+## main_concept
+CON-RES-69FF90DE1AC263
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Anatomy
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Place the SVC's own formation one space above the sternal angle, at the first rather than the second costal cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p27 q108. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AAAE936B5B54
+## title
+The most superficial structure in the thoracic inlet is the:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The most superficial structure in the thoracic inlet is the:
+## answer_a
+Vagus nerve
+## explanation_a
+The vagus nerve descends centrally, alongside the aortic arch's branches, once past the inlet — a deeper plane than the retrosternal veins.
+## answer_b
+Superior vena cava
+## explanation_b
+This is the correct answer. Of the structures that cross the thoracic inlet to continue into the superior mediastinum, the great veins (brachiocephalic veins and the upper SVC) run in the most anterior, retrosternal plane — in front of the arch of the aorta and its branches centrally, and well in front of the trachea, oesophagus and thoracic duct posteriorly.
+
+Why this is right:
+- The superior mediastinum lies between the manubrium in front, the upper four thoracic vertebrae behind, the thoracic inlet above and the sternal angle plane below.
+## answer_c
+Left subclavian artery
+## explanation_c
+The left subclavian artery is one of the aortic arch's three branches, occupying the middle plane once it enters the superior mediastinum — deeper than the retrosternal veins.
+## answer_d
+Thoracic duct
+## explanation_d
+The thoracic duct is the most posterior of the three tubal structures in the superior mediastinum, the opposite extreme from "most superficial".
+## correct_answer
+B
+## main_concept
+CON-RES-F360EFDEA84D58
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Anatomy
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Place the superior vena cava as the most anterior of these four structures crossing the thoracic inlet into the superior mediastinum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q2. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DCDCEA3009EE
+## title
+At the sternal angle, one is wrong:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+At the sternal angle, one is wrong:
+## answer_a
+the aortic arch ends
+## explanation_a
+True, so not the answer sought. The arch of the aorta ends at the T4/T5 disc level — the same oblique plane as the sternal angle, read from behind rather than in front.
+## answer_b
+the first rib articulates with sternum
+## explanation_b
+This is the wrong statement, and the answer. It is the SECOND rib's costal cartilage that articulates with the sternum at the sternal angle, not the first. The first rib articulates with the manubrium above the angle, one space higher — exactly where the two brachiocephalic veins unite to form the SVC.
+
+Why this is right:
+- The sternal angle (the manubriosternal joint) is where the second costal cartilage articulates with the sternum — not the first rib, which articulates with the manubrium above the angle.
+## answer_c
+the trachea bifurcates ١
+## explanation_c
+True, so not the answer sought. The trachea bifurcates into the two principal bronchi at the sternal angle.
+## answer_d
+the azygos vein enters ‏مط‎ superior venacava ‏اا‎
+## explanation_d
+True, so not the answer sought. The azygos vein's arch enters the superior vena cava at the sternal-angle level, opposite the second right costal cartilage.
+## correct_answer
+B
+## main_concept
+CON-RES-69FF90DE1AC263
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Subdivisions of the Mediastinum
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Attribute the sternal angle to the second, not the first, costal cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p14 q114. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-BD0E17EAE0F3
 ## title
 About the transverse sinus of the serous pericardium mark one correct statement:
@@ -2596,6 +3535,931 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p19 q75. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B866EC4B8561
+## title
+Ifa child inhales by mistake a foreign body, it will pass to the right bronchus as it is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Ifa child inhales by mistake a foreign body, it will pass to the right bronchus as it is:
+## answer_a
+Shorter, wider and vertical
+## explanation_a
+This is the correct answer. The right principal bronchus is shorter, wider and more in line with the trachea's own long axis than the left — the department book gives width and alignment together as the reason a swallowed or inhaled foreign body passes preferentially into the right lung rather than the left. All three of "shorter", "wider" and "more vertical" describe the right side specifically.
+
+Why this is right:
+- The trachea bifurcates at the sternal angle into right and left principal bronchi, each descending into its lung's root.
+- Both bronchi share the same lymphatic drainage, to the inferior tracheobronchial and bronchopulmonary nodes, and the same autonomic supply, from the vagi and sympathetic chains via the pulmonary plexuses.
+## answer_d
+Longer, narrower and oblique
+## explanation_d
+This describes the LEFT principal bronchus, not the right — longer, narrower and more horizontal (about 45 degrees from the midline) than its counterpart, which is exactly why the left is the less common route for an inhaled foreign body.
+## correct_answer
+A
+## main_concept
+CON-RES-16C7132ECAA7BF
+## library_ids
+ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## topic
+The Trachea, Bronchi and Thoracic Oesophagus
+## subtopic
+The Trachea, Bronchi and Thoracic Oesophagus
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Tubes of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the right bronchus's shorter, wider, more vertical course is why an inhaled foreign body favours it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p1 q3. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FD7B98268E99
+## title
+Regarding the bronchi, the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the bronchi, the following statements are true, EXCEPT:
+## answer_a
+The bronchial vessels lie behind the bronchi
+## explanation_a
+True of the lung's dual blood supply described alongside the bronchial tree, so not the exception sought here.
+## answer_b
+Inhaled foreign bodies tend to enter the right bronchus
+## explanation_b
+True, so not the exception. Inhaled foreign bodies favour the right bronchus, which is shorter, wider and more in line with the trachea.
+## answer_c
+The right bronchus passes in front of the superior vena cava
+## explanation_c
+This is the exception, and the answer. The department book's own account of the right bronchus places it below the arch of the azygos vein and gives it no stated relation to the superior vena cava passing in front of it — the SVC lies anterior and medial in the superior mediastinum, not astride the right bronchus's own course to the hilum.
+
+Why this is right:
+- The trachea bifurcates at the sternal angle into right and left principal bronchi, each descending into its lung's root.
+- Both bronchi share the same lymphatic drainage, to the inferior tracheobronchial and bronchopulmonary nodes, and the same autonomic supply, from the vagi and sympathetic chains via the pulmonary plexuses.
+## answer_d
+Right bronchus divides into an upper lobe bronchus before entering the
+## explanation_d
+True, so not the exception. The right principal bronchus gives off its superior (eparterial) lobar bronchus before entering the hilum, unlike the left, which divides only after entering the hilum.
+## answer_e
+The pulmonary arteries lie in front of the bronchi
+## explanation_e
+True, so not the exception. In both lungs the pulmonary artery lies in front of the principal bronchus at the hilum.
+## correct_answer
+C
+## main_concept
+CON-RES-16C7132ECAA7BF
+## library_ids
+ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## topic
+Anatomy
+## subtopic
+The Trachea, Bronchi and Thoracic Oesophagus
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Tubes of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Exclude a claimed relation between the right bronchus and the SVC that the department book does not support.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p18 q72. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3A6BA053683A
+## title
+Regarding the trachea in thorax, the following statements are Correct, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the trachea in thorax, the following statements are Correct, EXCEPT:
+## answer_a
+Its wall is supported by 16-20 C-shaped cartilaginous rings
+## explanation_a
+True, so not the exception. The trachea's wall is supported by sixteen to twenty C-shaped cartilage rings.
+## answer_b
+It ends at the level of the third thoracic vertebra
+## explanation_b
+This is the exception, and the answer. The trachea ends by bifurcating at the level of the sternal angle — the same oblique plane as the T4/T5 intervertebral disc — not at the third thoracic vertebra, which is one to two levels too high.
+
+Why this is right:
+- It may be constricted at its upper end by the thyroid gland, in its middle by the brachiocephalic artery on the right, and at its lower end by the aortic arch on the left.
+- Its thoracic part lies with the manubrium and left brachiocephalic vein in front, the oesophagus and left recurrent laryngeal nerve behind, the right vagus, brachiocephalic artery, right brachiocephalic vein, SVC and azygos arch on its right, and the left subclavian and common carotid arteries and the aortic arch on its left.
+## answer_c
+It is related posteriorly to the esophagus
+## explanation_c
+True, so not the exception. The oesophagus lies immediately behind the trachea throughout its thoracic course.
+## answer_d
+It is crossed by the arch of the aorta
+## explanation_d
+True, so not the exception. The trachea's lower end is crossed by, and slightly displaced by, the arch of the aorta.
+## answer_e
+The left subclavian artery lies on its left side
+## explanation_e
+True, so not the exception. The left subclavian artery lies on the trachea's left side, above the aortic arch, as one of the structures related to its lower left aspect.
+## correct_answer
+B
+## main_concept
+CON-RES-A6B5E6793B2E5E
+## library_ids
+ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## topic
+Anatomy
+## subtopic
+The Trachea, Bronchi and Thoracic Oesophagus
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Tubes of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Place the tracheal bifurcation at the sternal-angle plane, not at the third thoracic vertebra.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p18 q70. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BD638C5C793A
+## title
+Regarding the trachea, mark ONE CORRECT statement:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the trachea, mark ONE CORRECT statement:
+## answer_a
+Its thoracic part lies in the posterior mediastinum
+## explanation_a
+The trachea's thoracic part lies in the superior mediastinum, not the posterior mediastinum — it has already bifurcated by the time the posterior mediastinum's structures (descending aorta, azygos system, oesophagus, thoracic duct) are reached.
+## answer_b
+It divides at the level of 5" thoracic vertebra
+## explanation_b
+The trachea divides at the sternal-angle plane, the same level as the T4/T5 intervertebral disc — not at the level of the fifth thoracic vertebra's own body.
+## answer_c
+It is crossed on its right side by the arch of azygos vein
+## explanation_c
+This is the correct answer. On its right side, the trachea's thoracic part is related in sequence to the right vagus nerve and paratracheal nodes, the brachiocephalic artery, the right brachiocephalic vein and upper SVC, and — most inferiorly — the arch of the azygos vein, which crosses forward above the root of the right lung to reach the SVC. Naming the azygos arch as a right-sided tracheal relation is exactly the discriminating fact this question rewards.
+
+Why this is right:
+- It may be constricted at its upper end by the thyroid gland, in its middle by the brachiocephalic artery on the right, and at its lower end by the aortic arch on the left.
+- Its thoracic part lies with the manubrium and left brachiocephalic vein in front, the oesophagus and left recurrent laryngeal nerve behind, the right vagus, brachiocephalic artery, right brachiocephalic vein, SVC and azygos arch on its right, and the left subclavian and common carotid arteries and the aortic arch on its left.
+## correct_answer
+C
+## main_concept
+CON-RES-A6B5E6793B2E5E
+## library_ids
+ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## topic
+Anatomy
+## subtopic
+The Trachea, Bronchi and Thoracic Oesophagus
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Tubes of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Place the arch of the azygos vein on the trachea's right side.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p23 q90. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6D507AA7C7C6
+## title
+What is true of the anatomy of the trachea? —
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What is true of the anatomy of the trachea? —
+## answer_a
+It is 20cm long and bifurcates below the manubrium sterni.
+## explanation_a
+The trachea is 10-12 cm long, not 20 cm, and bifurcates at the sternal angle rather than "below the manubrium" as a separate landmark — the manubrium ends at the sternal angle itself, so this option conflates two different reference points.
+## answer_b
+it starts at the level of the C6.
+## explanation_b
+This is the correct answer. The trachea continues the larynx from the lower border of the sixth cervical vertebra (C6) in the neck, running down to the sternal angle in the thorax before it bifurcates into the two principal bronchi.
+
+Why this is right:
+- It may be constricted at its upper end by the thyroid gland, in its middle by the brachiocephalic artery on the right, and at its lower end by the aortic arch on the left.
+- Its thoracic part lies with the manubrium and left brachiocephalic vein in front, the oesophagus and left recurrent laryngeal nerve behind, the right vagus, brachiocephalic artery, right brachiocephalic vein, SVC and azygos arch on its right, and the left subclavian and common carotid arteries and the aortic arch on its left.
+## answer_c
+itis about 10cm diameter in the adult.
+## explanation_c
+The trachea is 1.5-2 cm WIDE, not 10 cm in diameter — a figure nearly seven times too large for an airway that sits behind a 2 cm-wide surface band on the front of the neck and upper thorax.
+## answer_d
+bifurcate just below the level of T6.
+## explanation_d
+The trachea bifurcates at the sternal angle, the same oblique plane as the T4/T5 disc — not "just below the level of T6", which places the bifurcation roughly one and a half vertebral levels too low.
+## correct_answer
+B
+## main_concept
+CON-RES-A6B5E6793B2E5E
+## library_ids
+ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## topic
+The Trachea, Bronchi and Thoracic Oesophagus
+## subtopic
+The Trachea, Bronchi and Thoracic Oesophagus
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Tubes of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the trachea begins at the lower border of C6.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p12 q91. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6C0A9B3C6703
+## title
+Which of the following statements about the course of the thoracic part of esophagus is…
+## subject
+gi
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following statements about the course of the thoracic part of esophagus is correct?
+## answer_a
+It enters the posterior mediastinum anterior to the aortic arch
+## explanation_a
+The oesophagus enters the thorax to the RIGHT of the aortic arch, in the superior mediastinum, not anterior to it — it only reaches the posterior mediastinum lower down, after passing behind the left principal bronchus at the sternal-angle level.
+## answer_b
+It passes in front the right main principal bronchus and the pericardium
+## explanation_b
+The oesophagus passes behind the left principal bronchus and behind the pericardium (and left atrium), not in front of the right principal bronchus — its whole posterior-mediastinal course runs behind, not in front of, the structures it neighbours.
+## answer_c
+It enters the diaphragmatic opening at the level of T8
+## explanation_c
+The oesophagus enters the diaphragm's oesophageal opening at the level of T10, not T8 — T8 is instead the level of the diaphragm's caval opening, which transmits the inferior vena cava, not the oesophagus.
+## answer_d
+It deviates anteriorly and to the left as it enters the abdomen
+## explanation_d
+This is the correct answer. In its final segment the oesophagus deviates forwards and to the left, crossing in front of the descending thoracic aorta, before leaving the thorax through the diaphragm's oesophageal opening at T10, one inch left of the midline. This last deviation is exactly why the oesophageal hiatus sits to the LEFT of the midline rather than directly behind the aorta.
+
+Why this is right:
+- The thoracic oesophagus, about 25 cm long overall, enters the thorax through the thoracic inlet between the trachea in front and the vertebral column behind, running as the most posterior structure of the superior mediastinum to the right of the aortic arch; at the sternal angle it passes behind the left principal bronchus into the posterior mediastinum, descending along the descending thoracic aorta's right side, behind the pericardium and the left atrium, to T7, then deviating forwards and left, crossing in front of the aorta, to leave through the diaphragm's oesophageal opening at T10, one inch left of the midline.
+## correct_answer
+D
+## main_concept
+CON-GIT-4E4EC465826CF2
+## library_ids
+ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## topic
+The Trachea, Bronchi and Thoracic Oesophagus
+## subtopic
+The Trachea, Bronchi and Thoracic Oesophagus
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Tubes of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Trace the oesophagus's final deviation, forward and to the left, as it approaches the diaphragm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q26. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3ABABD049651
+## title
+Which of the following statements, regarding the esophagus is true:
+## subject
+gi
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following statements, regarding the esophagus is true:
+## answer_a
+Begins at the level of C3
+## explanation_a
+The oesophagus begins at the lower border of C6, continuing the pharynx — not at C3, which is several vertebral levels too high and sits within the pharynx itself.
+## answer_b
+Passes posterior to the descending aorta in superior mediastinum
+## explanation_b
+The descending (thoracic) aorta is a posterior-mediastinum structure, not present in the superior mediastinum at all — in the superior mediastinum the oesophagus instead lies to the right of the aortic ARCH, so this statement misplaces both the vessel and the compartment.
+## answer_c
+Pierces the diaphragm at the level of T12
+## explanation_c
+The oesophagus pierces the diaphragm at T10, not T12 — T12 is instead the level of the aortic opening, which transmits the aorta, the azygos vein and the thoracic duct, not the oesophagus.
+## answer_d
+Passes through the posterior mediastinum
+## explanation_d
+This is the correct answer. After passing the sternal angle, the oesophagus's whole remaining thoracic course — behind the left bronchus, alongside the descending thoracic aorta, behind the pericardium and left atrium, down to T10 — runs through the posterior mediastinum, one of the five structures the department book lists among that compartment's contents.
+
+Why this is right:
+- The thoracic oesophagus, about 25 cm long overall, enters the thorax through the thoracic inlet between the trachea in front and the vertebral column behind, running as the most posterior structure of the superior mediastinum to the right of the aortic arch; at the sternal angle it passes behind the left principal bronchus into the posterior mediastinum, descending along the descending thoracic aorta's right side, behind the pericardium and the left atrium, to T7, then deviating forwards and left, crossing in front of the aorta, to leave through the diaphragm's oesophageal opening at T10, one inch left of the midline.
+## correct_answer
+D
+## main_concept
+CON-GIT-4E4EC465826CF2
+## library_ids
+ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## topic
+The Trachea, Bronchi and Thoracic Oesophagus
+## subtopic
+The Trachea, Bronchi and Thoracic Oesophagus
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Tubes of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Place the oesophagus's whole thoracic course, after the sternal angle, within the posterior mediastinum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q3. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-39D071E2DDF6
+## title
+Regarding the vagus nerves, mark ONE correct statement:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the vagus nerves, mark ONE correct statement:
+## answer_a
+The right vagus nerve passes in front of the root of the lung
+## explanation_a
+The right vagus passes BEHIND, not in front of, the root of the right lung — it descends beside the trachea, crossed by the azygos arch, before reaching the back of the right bronchus.
+## answer_b
+The left vagus nerve passes behind the root of the jung
+## explanation_b
+This is the correct answer. Both vagi end up behind their own lung root: the left vagus, after crossing the aortic arch's left anterior aspect, runs down to the back of the left bronchus, where it forms the posterior pulmonary plexus together with filaments to the anterior plexus in front.
+
+Why this is right:
+- The left vagus descends between the left common carotid and subclavian arteries, behind the left brachiocephalic vein, crossed by the left phrenic nerve, then crosses the aortic arch's left anterior aspect — crossed there by the left superior intercostal vein — to reach the back of the left bronchus.
+## answer_c
+The right vagus nerve passes On the anterior surface of the esophagus:
+## explanation_c
+The right vagus contributes mainly to the POSTERIOR oesophageal plexus, not the anterior surface of the oesophagus — the anterior plexus is instead mainly the left vagus's contribution.
+## answer_d
+The left vagus nerve passes On the posterior surface of the esophagus:
+## explanation_d
+The left vagus contributes mainly to the ANTERIOR oesophageal plexus, not the posterior surface — reversing this is the same error as option C, applied to the other nerve.
+## answer_e
+The left vagus descends to the left side of the brachiocephalic artery:
+## explanation_e
+The left vagus descends between the left common carotid and left subclavian arteries, not alongside the brachiocephalic artery — the brachiocephalic artery is a right-sided structure the left vagus never runs beside.
+## correct_answer
+B
+## main_concept
+CON-CVS-E9CF510CBD01BC
+## library_ids
+ART-104-ANA-THORACIC-NERVES
+## topic
+Anatomy
+## subtopic
+The Vagus Nerves and the Left Recurrent Laryngeal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Nerves of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that the left vagus passes behind the root of the left lung, forming the posterior pulmonary plexus there.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p17 q67. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-40C51855A2B3
+## title
+The left recurrent laryngeal nerve hooks inferiorly around the:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The left recurrent laryngeal nerve hooks inferiorly around the:
+## answer_a
+The left subclavian artery
+## explanation_a
+The left subclavian artery is one of the aortic arch's three branches, but the left recurrent laryngeal nerve does not hook around it — that hook belongs to the right recurrent laryngeal nerve, around the right subclavian artery in the neck.
+## answer_b
+The left brachiocephalic vein
+## explanation_b
+The left brachiocephalic vein crosses the upper aspect of the aortic arch, but the left recurrent laryngeal nerve's hook is around the arch itself, one plane lower.
+## answer_c
+The azygos vein
+## explanation_c
+The azygos vein arches over the root of the right lung, on the opposite side of the thorax from the left recurrent laryngeal nerve's course.
+## answer_d
+The arch of the aorta
+## explanation_d
+This is the correct answer. The left recurrent laryngeal nerve branches from the left vagus as it crosses the aortic arch, then hooks inferiorly around the arch itself — immediately behind and to the left of the ligamentum arteriosum — before ascending back to the neck in the tracheo-oesophageal groove. This thoracic hook is unique to the left nerve; the right recurrent laryngeal nerve hooks around the right subclavian artery in the neck instead.
+
+Why this is right:
+- The left recurrent laryngeal nerve branches from the left vagus while the vagus lies on the aortic arch's left anterior aspect.
+- It hooks below the arch, behind and to the left of the ligamentum arteriosum, then ascends deep to the arch in the left tracheo-oesophageal groove, leaving the superior mediastinum through the thoracic inlet to enter the root of the neck.
+- In the thorax it gives cardiac branches to the deep cardiac plexus and tracheal and oesophageal branches.
+## correct_answer
+D
+## main_concept
+CON-CVS-E9BA4A6C0E8392
+## library_ids
+ART-104-ANA-THORACIC-NERVES
+## topic
+The Vagus Nerves and the Left Recurrent Laryngeal Nerve
+## subtopic
+The Vagus Nerves and the Left Recurrent Laryngeal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Nerves of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left recurrent laryngeal nerve hooks around the aortic arch, immediately behind the ligamentum arteriosum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q8. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8DBD6B2D6DE6
+## title
+The thoracic part of trachea is related posteriorly to the esophagus with the following…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The thoracic part of trachea is related posteriorly to the esophagus with the following nerve in between: ‘a- Right recurrent laryngcal nerve
+## answer_a
+External intercostal muscle has fibres directed downwards and forwards
+## explanation_a
+True in itself of the external intercostal muscle's own fibre direction, but an unrelated fact folded into this row by the extraction — it says nothing about what runs between the trachea and the oesophagus, which is what the question asks.
+## answer_b
+Left recurrent laryngeal nerve
+## explanation_b
+This is the correct answer. The thoracic trachea is related posteriorly to the oesophagus, with the left recurrent laryngeal nerve running in the groove between the two — the same nerve that, lower down, hooks beneath the aortic arch before ascending to this position.
+
+Why this is right:
+- The left recurrent laryngeal nerve branches from the left vagus while the vagus lies on the aortic arch's left anterior aspect.
+- It hooks below the arch, behind and to the left of the ligamentum arteriosum, then ascends deep to the arch in the left tracheo-oesophageal groove, leaving the superior mediastinum through the thoracic inlet to enter the root of the neck.
+- In the thorax it gives cardiac branches to the deep cardiac plexus and tracheal and oesophageal branches.
+## answer_d
+Internal laryngeal nerve
+## explanation_d
+The internal laryngeal nerve is a sensory branch of the superior laryngeal nerve, supplying the larynx above the vocal folds — it has no thoracic course and plays no part in the trachea-oesophagus groove.
+## correct_answer
+B
+## main_concept
+CON-CVS-E9BA4A6C0E8392
+## library_ids
+ART-104-ANA-THORACIC-NERVES
+## topic
+The Vagus Nerves and the Left Recurrent Laryngeal Nerve
+## subtopic
+The Vagus Nerves and the Left Recurrent Laryngeal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Nerves of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the left recurrent laryngeal nerve as the structure running between the trachea and the oesophagus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p2 q15. Manifest src_5465875dc14a998b7b21.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

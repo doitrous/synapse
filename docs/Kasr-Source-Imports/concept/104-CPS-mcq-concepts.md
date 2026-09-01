@@ -8,8 +8,11 @@
     Large Nerves of the Thorax — 3 questions, 1 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
+    Subdivisions of the Mediastinum — 11 questions, 4 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
+    The Trachea, Bronchi and Thoracic Oesophagus — 7 questions, 3 concepts
+    The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 3 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
@@ -71,7 +74,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  134 questions were excluded and 0 held back for having no
+  135 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -486,6 +489,308 @@ canonical_key "thoracic-duct.course-tributaries-and-termination" already has a p
 
 # Item
 ## id
+CON-RES-F78FBA0BF1E673
+## label
+A plane from the sternal angle to the T4/T5 disc divides the mediastinum into superior and inferior parts, and the inferior part into anterior, middle and posterior
+## canonical_key
+mediastinum.subdivisions-and-boundaries
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+## article_ids
++ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## field_notes
+canonical_key "mediastinum.subdivisions-and-boundaries" already has a pinned id in this module (CON-RES-F78FBA0BF1E673); mintConceptId derives the same id fresh (CON-RES-F78FBA0BF1E673) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-F360EFDEA84D58
+## label
+The superior mediastinum holds the great veins and thymus in front, the aortic arch and its three branches in the middle, and the trachea, oesophagus and thoracic duct behind
+## canonical_key
+superior-mediastinum.contents
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p11 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p23 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+## article_ids
++ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## field_notes
+canonical_key "superior-mediastinum.contents" already has a pinned id in this module (CON-RES-F360EFDEA84D58); mintConceptId derives the same id fresh (CON-RES-F360EFDEA84D58) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The posterior mediastinum lies between the pericardium/diaphragm in front and T5-T12 behind, and its contents fall into five groups: the descending aorta, the azygos/hemiazygos veins, the vagi with the sympathetic trunks, the oesophagus with the thoracic duct, and the posterior mediastinal lymph nodes
+## id
+CON-RES-03AB23DA654BAF
+## canonical_key
+posterior-mediastinum.boundaries-and-contents
+## definition
+Its boundaries are the pericardium above and the diaphragm below in front, and the lower eight thoracic vertebrae, T5 to T12, behind. Its contents are five groups: the descending thoracic aorta and its branches; the azygos and hemiazygos venous system; the two vagi, which form the oesophageal plexuses, together with the sympathetic trunks and their splanchnic branches; the oesophagus and the thoracic duct, which runs along its right side; and the posterior mediastinal lymph nodes.
+## explicit_objective
+Give the boundaries of the posterior mediastinum and list its contents by group.
+## pitfalls
+Stopping at four groups. The posterior mediastinal lymph nodes are the fifth, and they are the group the solved copy of this paper loses.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p24 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Mediastinum
+## aliases
+Contents of the posterior mediastinum | Internal thoracic artery not a posterior mediastinum content
+## article_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The following are the contents of the posterior mediastinum, EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM | ART-104-ANA-PERICARDIUM-SINUSES | ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The sternal angle marks the second costal cartilage, the plane dividing superior from inferior mediastinum, the tracheal bifurcation and the beginning/end of the aortic arch — but not the origin of the SVC or the articulation of the first rib
+## id
+CON-RES-69FF90DE1AC263
+## canonical_key
+sternal-angle.surface-and-vertebral-correlations
+## definition
+The sternal angle (the manubriosternal joint) is where the second costal cartilage articulates with the sternum — not the first rib, which articulates with the manubrium above the angle. Because the plane through the sternal angle continues backwards to the T4/T5 disc, everything the department book places at that oblique plane is read off the same landmark: it is the plane separating the superior from the inferior mediastinum; it is where the trachea bifurcates into the two principal bronchi; it is where the ascending aorta ends and the arch of the aorta begins, opposite the second right sternocostal junction, and where the arch itself ends on the left, opposite the same T4/T5 level; and it is where the azygos vein's arch turns forward to enter the superior vena cava, opposite the second right costal cartilage. The superior vena cava itself is not formed at this level — the two brachiocephalic veins unite behind the first right costal cartilage, one space higher, close to the manubrium rather than at the angle.
+## explicit_objective
+List every structure or event the department book places at the sternal-angle plane, and name the one large-vein event that instead happens one space higher, at the first costal cartilage.
+## pitfalls
+Crediting the sternal angle with the formation of the superior vena cava, or with the first rib's articulation. Both belong one level higher, at the first costal cartilage/manubrium — the sternal angle itself is the SECOND costal cartilage's level.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p27 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Mediastinum
+## aliases
+Manubriosternal joint | Angle of Louis | Landmarks at the sternal angle
+## article_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] At the level of the sternal angle the following features are present, EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM | ART-104-ANA-PERICARDIUM-SINUSES | ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
 CON-CVS-3706498A4F8F97
 ## label
 The transverse sinus of the pericardium passes between the arterial and venous ends of the heart; the oblique sinus is a blind recess behind the left atrium
@@ -684,6 +989,96 @@ src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
 +ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
 ## field_notes
 canonical_key "pleura.surface-anatomy" already has a pinned id in this module (CON-RES-B833146BBFCB26); mintConceptId derives the same id fresh (CON-RES-B833146BBFCB26) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-A6B5E6793B2E5E
+## label
+The trachea is a 10-12 cm tube of 16-20 C-shaped cartilage rings, constricted by the thyroid gland above, the brachiocephalic artery on the right and the aortic arch on the left
+## canonical_key
+trachea.structure-relations-and-constrictions
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p23 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p12 | 104 CPS
+## article_ids
++ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## field_notes
+canonical_key "trachea.structure-relations-and-constrictions" already has a pinned id in this module (CON-RES-A6B5E6793B2E5E); mintConceptId derives the same id fresh (CON-RES-A6B5E6793B2E5E) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-16C7132ECAA7BF
+## label
+The right principal bronchus is shorter, wider and more vertical than the left, which is why an inhaled foreign body most often lodges on the right
+## canonical_key
+principal-bronchi.right-vs-left-differences
+## exam_signal
+src_5465875dc14a998b7b21 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
+## article_ids
++ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## field_notes
+canonical_key "principal-bronchi.right-vs-left-differences" already has a pinned id in this module (CON-RES-16C7132ECAA7BF); mintConceptId derives the same id fresh (CON-RES-16C7132ECAA7BF) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-GIT-4E4EC465826CF2
+## label
+The oesophagus enters the thorax as the most posterior structure of the superior mediastinum and has four constrictions, one where the aortic arch and left bronchus each cross it
+## canonical_key
+oesophagus.thoracic-course-and-constrictions
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
+## field_notes
+canonical_key "oesophagus.thoracic-course-and-constrictions" already has a pinned id in this module (CON-GIT-4E4EC465826CF2); mintConceptId derives the same id fresh (CON-GIT-4E4EC465826CF2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-E9CF510CBD01BC
+## label
+The right and left vagus nerves take different paths through the superior mediastinum before both break up behind their lung roots into the pulmonary and oesophageal plexuses
+## canonical_key
+vagus-nerve.thoracic-course-and-plexuses
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p17 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-NERVES
+## field_notes
+canonical_key "vagus-nerve.thoracic-course-and-plexuses" already has a pinned id in this module (CON-CVS-E9CF510CBD01BC); mintConceptId derives the same id fresh (CON-CVS-E9CF510CBD01BC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-E9BA4A6C0E8392
+## label
+The left recurrent laryngeal nerve leaves the vagus on the aortic arch and hooks beneath it beside the ligamentum arteriosum before ascending in the tracheo-oesophageal groove
+## canonical_key
+left-recurrent-laryngeal-nerve.origin-and-course
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-NERVES
+## field_notes
+canonical_key "left-recurrent-laryngeal-nerve.origin-and-course" already has a pinned id in this module (CON-CVS-E9BA4A6C0E8392); mintConceptId derives the same id fresh (CON-CVS-E9BA4A6C0E8392) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

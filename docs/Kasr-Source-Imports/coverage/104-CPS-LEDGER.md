@@ -4,23 +4,23 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 634 | excluded: 134 | remaining: 384
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 654 | excluded: 135 | remaining: 363
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 634
+- authored (by key, this ledger): 654
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 634
+- authored minus held-back = build-style "kept": 654
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Mediastinum | 41 | 0 | 0 | 41 |
 | Electrical Activity of the Heart | 82 | 28 | 19 | 35 |
-| Thoracic Wall | 33 | 0 | 0 | 33 |
 | The heart | 43 | 10 | 2 | 31 |
+| Thoracic Wall | 33 | 3 | 0 | 30 |
 | Basic Mechanisms of Circulatory Control | 36 | 8 | 4 | 24 |
+| Mediastinum | 41 | 17 | 1 | 23 |
 | Mechanics of Breathing | 22 | 0 | 0 | 22 |
 | Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
 | Gas Transport by the Blood | 35 | 16 | 0 | 19 |
@@ -54,50 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Mediastinum (41)
-
-- `all-of-following-are-branches-of-descending-thoracic-aorta-e-59eb3cb8` — All of following are branches of descending thoracic aorta EXCEPT:
-- `among-the-followings-the-most-superficial-structure-in-the-s-103cf442` — Among the followings the most superficial structure in the superior mediastinum …
-- `anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40` — Anterior media stinum Space, mark the unacceptable statement:
-- `at-what-level-does-the-trachea-divides-into-the-main-bronchi-bd18e810` — At what level does the trachea divides into the main bronchi? ‏عم‎ At the level …
-- `concerning-the-azygos-vein-choose-the-false-answer-8fa1ebff` — Concerning the azygos vein, choose the false answer:
-- `concerning-the-oesophagus-all-true-except-135051ac` — Concerning the oesophagus all true EXCEPT:
-- `ifa-child-inhales-by-mistake-a-foreign-body-it-will-pass-to-bcab2764` — Ifa child inhales by mistake a foreign body, it will pass to the right bronchus …
-- `in-the-superior-mediastinum-which-is-appropriate-78a9a3f4` — In the superior mediastinum, which is appropriate?
-- `in-which-mediastinum-is-the-thoracic-part-of-the-trachea-loc-90a56cbb` — In which mediastinum is the thoracic part of the trachea located?
-- `in-which-mediastinum-is-the-thoracic-part-of-the-trachea-loc-a3662d0e` — In which mediastinum is the thoracic part of the trachea located? Superior |
-- `one-of-the-following-structures-passes-with-the-descending-t-924d7cfa` — One of the following structures passes with the descending thoracic aorta throug…
-- `one-of-the-following-veinsdrain-into-the-right-brachiocephal-5f88d0f2` — One of the following veinsdrain into the right brachiocephalic vein:
-- `opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387` — Opposite the tracheal bifurcation, lies; indicate the correct answer:
-- `regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da` — Regarding arch of aorta, mark ONE correct answer: | a- It extends above the supr…
-- `regarding-arch-of-aorta-the-following-statements-are-correct-7928ecd9` — Regarding arch of aorta, the following statements are correct, EXCEPT:
-- `regarding-descending-thoracic-aorta-select-the-true-answer-28c74a27` — Regarding descending thoracic aorta, select the true answer:
-- `regarding-descending-thoracic-aorta-select-the-true-answer-a-30b7e545` — Regarding descending thoracic aorta, select the true answer: ‏كا‎ a- it is relat…
-- `regarding-the-arch-of-the-aorta-one-is-false-c6faa886` — Regarding the arch of the aorta, one is false:
-- `regarding-the-arch-of-the-aorta-which-is-incorrect-5880a035` — Regarding the arch of the aorta, which is incorrect:
-- `regarding-the-azygos-vein-the-following-statements-are-corre-75a55e25` — Regarding the azygos vein, the following statements are Correct, EXCEPT:
-- `regarding-the-bronchi-the-following-statements-are-true-exce-4c571716` — Regarding the bronchi, the following statements are true, EXCEPT:
-- `regarding-the-descending-thoracic-aorta-the-following-statem-0c346b05` — Regarding the descending thoracic aorta, the following statemen,. are correct, E…
-- `regarding-the-superior-mediastinum-select-the-incorrect-answ-8ac910fc` — Regarding the superior mediastinum, select the incorrect answer:
-- `regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722` — Regarding the trachea, choose the correct statement: . : a, It contains incomple…
-- `regarding-the-trachea-in-thorax-the-following-statements-are-9cd4602d` — Regarding the trachea in thorax, the following statements are Correct, EXCEPT:
-- `regarding-the-trachea-mark-one-correct-statement-d3ea806b` — Regarding the trachea, mark ONE CORRECT statement:
-- `regarding-the-vagus-nerves-mark-one-correct-statement-4f8ac496` — Regarding the vagus nerves, mark ONE correct statement:
-- `the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f` — The autonomic plexus of the oesophagus, indicate the correct statement:
-- `the-following-are-the-contents-of-superior-mediastinum-excep-f5f71f58` — The following are the contents of superior mediastinum, EXCEPT:
-- `the-following-are-the-contents-of-the-posterior-mediastinum-2d0d25e8` — The following are the contents of the posterior mediastinum, EXCEPT:
-- `the-following-structure-lies-behind-the-oseophagus-0548e986` — The following structure lies behind the oseophagus:
-- `the-left-recurrent-laryngeal-nerve-hooks-inferiorly-around-t-f916dd25` — The left recurrent laryngeal nerve hooks inferiorly around the:
-- `the-superior-vena-cava-choose-the-true-answer-27315868` — The superior vena cava, choose the true answer:
-- `the-thoracic-part-of-trachea-is-related-posteriorly-to-the-e-54713c25` — The thoracic part of trachea is related posteriorly to the esophagus with the fo…
-- `thorax-all-are-true-except-88af29b9` — Thorax; all are true except:
-- `what-is-true-of-the-anatomy-of-the-trachea-8e21112a` — What is true of the anatomy of the trachea? —
-- `which-of-the-following-statements-about-the-course-of-the-th-dff1f8cd` — Which of the following statements about the course of the thoracic part of esoph…
-- `which-of-the-following-statements-regarding-the-esophagus-is-fcf71760` — Which of the following statements, regarding the esophagus is true:
-- `which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f` — Which of the following statements regarding the phrenic nerves is | true?
-- `which-of-the-followings-is-not-a-content-in-the-superior-med-2c3e2242` — Which of the followings is not a content in the superior mediastinum?
-- `which-one-of-the-followings-regarding-the-superior-vena-cava-c979512d` — Which one of the followings regarding the superior vena cava is not true:
 
 ### Electrical Activity of the Heart (35)
 
@@ -137,42 +93,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-is-not-a-part-of-the-specialized-seij-44db1b50` — Which of the following is not a part of the specialized seij-excitable conductiv…
 - `which-of-the-following-is-the-correct-pathway-of-impulses-th-bcc9a59a` — Which of the following is the correct pathway of impulses through the conducting…
 
-### Thoracic Wall (33)
-
-- `at-the-level-of-the-sternal-angle-the-following-features-are-835ef4ab` — At the level of the sternal angle the following features are present, EXCEPT:
-- `at-the-sternal-angle-one-is-wrong-909d35f4` — At the sternal angle, one is wrong:
-- `concerning-the-external-intercostal-muscle-choose-the-incorr-7f6cb920` — ١ Concerning the external intercostal muscle; choose the incorrect answer:
-- `concerning-the-intercostal-and-subcostal-arteries-which-of-t-24b9b038` — Concerning the intercostal and subcostal arteries, which of the following is tru…
-- `concerning-the-intercostal-nerves-select-the-false-statement-c001aebb` — Concerning the intercostal nerves, select the false statement:
-- `concerning-the-internal-thoracic-artery-select-correct-answe-749f950e` — Concerning the internal thoracic artery, select correct answer:
-- `concerning-the-posterior-intercostal-arteries-select-the-cor-80aa271c` — Concerning the posterior intercostal arteries, select the correct answer:
-- `concerning-the-typical-intercostal-nerves-select-the-correct-c3dcf961` — Concerning the typical intercostal nerves, select the correct statement:
-- `eleventh-1-regarding-the-external-intercostal-muscle-indicat-9a181d08` — Eleventh. 1 @)-Regarding the external - intercostal: muscle; indicate the wrong:…
-- `external-intercostal-muscle-select-the-correct-statement-501f3257` — External intercostal muscle, select the correct statement:
-- `in-the-chest-wall-one-is-correct-2b79c80a` — In the chest wall, one is correct:
-- `one-of-the-following-is-not-a-branch-of-the-internal-thoraci-db5ffa2e` — One of the following is not a branch of the internal thoracic artery:
-- `regarding-intercostal-blood-vessels-one-is-true-3464230a` — Regarding intercostal blood vessels, one is true:
-- `regarding-intercostal-spaces-choose-the-correct-statement-5b563ce5` — Regarding intercostal spaces, choose the correct statement:
-- `regarding-intercostal-spaces-choose-the-correct-statement-a-7ff13aa0` — Regarding intercostal spaces, choose the correct statement: ‏ا‎ ‎a. Internal int…
-- `regarding-the-external-intercostal-muscle-the-following-stat-694db6e0` — Regarding the external intercostal muscle, the following statements are true, EX…
-- `regarding-the-intercostal-arteries-all-the-following-stateme-487c3bb6` — Regarding the intercostal arteries, all the following statements are true, EXCEP…
-- `regarding-the-intercostal-arteries-one-is-true-15556e57` — Regarding the intercostal arteries, one is true:
-- `regarding-the-intercostal-nerve-mark-one-correct-statement-39200e19` — Regarding the intercostal nerve, mark ONE correct statement:
-- `regarding-the-intercostal-nerves-one-is-false-482d0ad2` — Regarding the intercostal nerves, one is false:
-- `regarding-the-intercostal-nerves-the-following-statements-ar-de5ec519` — Regarding the intercostal nerves, the following statements are correct, EXCEPT:
-- `regarding-the-internal-mammary-artery-the-following-statemen-fae6e956` — Regarding the internal mammary artery, the following statements are correct, EXC…
-- `regarding-the-internal-thoracic-artery-one-is-false-fdbf7a43` — Regarding the internal thoracic artery, one is false:
-- `regarding-the-ribs-one-of-the-following-statements-is-wrong-1d20d8ae` — Regarding the ribs; one of the following statements is wrong: _
-- `regarding-the-thoracic-skeleton-the-following-statements-are-62092e50` — Regarding the thoracic skeleton, the following statements are Correct, EXCEPT:
-- `regarding-the-vessels-of-the-thoracic-wall-the-following-sta-738e0dae` — Regarding the vessels of the thoracic wall, the following statements are correct…
-- `the-1st-posterior-intercostal-artery-is-a-branch-from-72492885` — The 1st posterior intercostal artery is a branch from:
-- `the-9th-anterior-intercostal-artery-is-a-branch-from-3bef8271` — The 9th anterior intercostal artery is a branch from:
-- `the-action-of-the-ribs-during-breathing-67046c81` — The action of the ribs during breathing:
-- `the-internal-mammary-artery-arises-from-bc7138a7` — The Internal Mammary artery arises from:
-- `the-left-superior-intercostal-vein-drains-usually-into-the-f54a19d6` — The Left superior intercostal vein drains usually into the:
-- `the-most-superficial-structure-in-the-thoracic-inlet-is-the-4687669f` — The most superficial structure in the thoracic inlet is the:
-- `the-right-superior-intercostal-veins-drains-into-tepe-gd-8dd78bd6` — The right superior intercostal veins drains into: tePe gd
-
 ### The heart (31)
 
 - `at-which-of-the-following-levels-does-the-base-of-the-heart-3ba1e7d4` — At which of the following levels does the base of the heart lie? ‏كهيعمر‎ ‎a- T2…
@@ -207,6 +127,39 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-structures-present-at-the-level-of-th-60a385c5` — Which of the following structures present at the level of the lower border of th…
 - `with-respect-to-the-cardiac-plexuses-one-is-true-1f95d468` — With respect to the cardiac plexuses, one is true:
 
+### Thoracic Wall (30)
+
+- `concerning-the-external-intercostal-muscle-choose-the-incorr-7f6cb920` — ١ Concerning the external intercostal muscle; choose the incorrect answer:
+- `concerning-the-intercostal-and-subcostal-arteries-which-of-t-24b9b038` — Concerning the intercostal and subcostal arteries, which of the following is tru…
+- `concerning-the-intercostal-nerves-select-the-false-statement-c001aebb` — Concerning the intercostal nerves, select the false statement:
+- `concerning-the-internal-thoracic-artery-select-correct-answe-749f950e` — Concerning the internal thoracic artery, select correct answer:
+- `concerning-the-posterior-intercostal-arteries-select-the-cor-80aa271c` — Concerning the posterior intercostal arteries, select the correct answer:
+- `concerning-the-typical-intercostal-nerves-select-the-correct-c3dcf961` — Concerning the typical intercostal nerves, select the correct statement:
+- `eleventh-1-regarding-the-external-intercostal-muscle-indicat-9a181d08` — Eleventh. 1 @)-Regarding the external - intercostal: muscle; indicate the wrong:…
+- `external-intercostal-muscle-select-the-correct-statement-501f3257` — External intercostal muscle, select the correct statement:
+- `in-the-chest-wall-one-is-correct-2b79c80a` — In the chest wall, one is correct:
+- `one-of-the-following-is-not-a-branch-of-the-internal-thoraci-db5ffa2e` — One of the following is not a branch of the internal thoracic artery:
+- `regarding-intercostal-blood-vessels-one-is-true-3464230a` — Regarding intercostal blood vessels, one is true:
+- `regarding-intercostal-spaces-choose-the-correct-statement-5b563ce5` — Regarding intercostal spaces, choose the correct statement:
+- `regarding-intercostal-spaces-choose-the-correct-statement-a-7ff13aa0` — Regarding intercostal spaces, choose the correct statement: ‏ا‎ ‎a. Internal int…
+- `regarding-the-external-intercostal-muscle-the-following-stat-694db6e0` — Regarding the external intercostal muscle, the following statements are true, EX…
+- `regarding-the-intercostal-arteries-all-the-following-stateme-487c3bb6` — Regarding the intercostal arteries, all the following statements are true, EXCEP…
+- `regarding-the-intercostal-arteries-one-is-true-15556e57` — Regarding the intercostal arteries, one is true:
+- `regarding-the-intercostal-nerve-mark-one-correct-statement-39200e19` — Regarding the intercostal nerve, mark ONE correct statement:
+- `regarding-the-intercostal-nerves-one-is-false-482d0ad2` — Regarding the intercostal nerves, one is false:
+- `regarding-the-intercostal-nerves-the-following-statements-ar-de5ec519` — Regarding the intercostal nerves, the following statements are correct, EXCEPT:
+- `regarding-the-internal-mammary-artery-the-following-statemen-fae6e956` — Regarding the internal mammary artery, the following statements are correct, EXC…
+- `regarding-the-internal-thoracic-artery-one-is-false-fdbf7a43` — Regarding the internal thoracic artery, one is false:
+- `regarding-the-ribs-one-of-the-following-statements-is-wrong-1d20d8ae` — Regarding the ribs; one of the following statements is wrong: _
+- `regarding-the-thoracic-skeleton-the-following-statements-are-62092e50` — Regarding the thoracic skeleton, the following statements are Correct, EXCEPT:
+- `regarding-the-vessels-of-the-thoracic-wall-the-following-sta-738e0dae` — Regarding the vessels of the thoracic wall, the following statements are correct…
+- `the-1st-posterior-intercostal-artery-is-a-branch-from-72492885` — The 1st posterior intercostal artery is a branch from:
+- `the-9th-anterior-intercostal-artery-is-a-branch-from-3bef8271` — The 9th anterior intercostal artery is a branch from:
+- `the-action-of-the-ribs-during-breathing-67046c81` — The action of the ribs during breathing:
+- `the-internal-mammary-artery-arises-from-bc7138a7` — The Internal Mammary artery arises from:
+- `the-left-superior-intercostal-vein-drains-usually-into-the-f54a19d6` — The Left superior intercostal vein drains usually into the:
+- `the-right-superior-intercostal-veins-drains-into-tepe-gd-8dd78bd6` — The right superior intercostal veins drains into: tePe gd
+
 ### Basic Mechanisms of Circulatory Control (24)
 
 - `a-decrease-in-carotid-sinus-pressure-from-100-mmhg-to-70-mml-6e408561` — A decrease in carotid sinus pressure from 100 mmHg to 70 mmlIlg will lead to
@@ -233,6 +186,32 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `the-effect-of-parasympathetic-ns-on-the-heart-is-fbd13988` — The effect of parasympathetic NS on the heart is:
 - `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
 - `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
+
+### Mediastinum (23)
+
+- `all-of-following-are-branches-of-descending-thoracic-aorta-e-59eb3cb8` — All of following are branches of descending thoracic aorta EXCEPT:
+- `anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40` — Anterior media stinum Space, mark the unacceptable statement:
+- `at-what-level-does-the-trachea-divides-into-the-main-bronchi-bd18e810` — At what level does the trachea divides into the main bronchi? ‏عم‎ At the level …
+- `concerning-the-azygos-vein-choose-the-false-answer-8fa1ebff` — Concerning the azygos vein, choose the false answer:
+- `concerning-the-oesophagus-all-true-except-135051ac` — Concerning the oesophagus all true EXCEPT:
+- `in-the-superior-mediastinum-which-is-appropriate-78a9a3f4` — In the superior mediastinum, which is appropriate?
+- `one-of-the-following-structures-passes-with-the-descending-t-924d7cfa` — One of the following structures passes with the descending thoracic aorta throug…
+- `one-of-the-following-veinsdrain-into-the-right-brachiocephal-5f88d0f2` — One of the following veinsdrain into the right brachiocephalic vein:
+- `opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387` — Opposite the tracheal bifurcation, lies; indicate the correct answer:
+- `regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da` — Regarding arch of aorta, mark ONE correct answer: | a- It extends above the supr…
+- `regarding-arch-of-aorta-the-following-statements-are-correct-7928ecd9` — Regarding arch of aorta, the following statements are correct, EXCEPT:
+- `regarding-descending-thoracic-aorta-select-the-true-answer-28c74a27` — Regarding descending thoracic aorta, select the true answer:
+- `regarding-descending-thoracic-aorta-select-the-true-answer-a-30b7e545` — Regarding descending thoracic aorta, select the true answer: ‏كا‎ a- it is relat…
+- `regarding-the-arch-of-the-aorta-one-is-false-c6faa886` — Regarding the arch of the aorta, one is false:
+- `regarding-the-arch-of-the-aorta-which-is-incorrect-5880a035` — Regarding the arch of the aorta, which is incorrect:
+- `regarding-the-azygos-vein-the-following-statements-are-corre-75a55e25` — Regarding the azygos vein, the following statements are Correct, EXCEPT:
+- `regarding-the-descending-thoracic-aorta-the-following-statem-0c346b05` — Regarding the descending thoracic aorta, the following statemen,. are correct, E…
+- `regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722` — Regarding the trachea, choose the correct statement: . : a, It contains incomple…
+- `the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f` — The autonomic plexus of the oesophagus, indicate the correct statement:
+- `the-superior-vena-cava-choose-the-true-answer-27315868` — The superior vena cava, choose the true answer:
+- `thorax-all-are-true-except-88af29b9` — Thorax; all are true except:
+- `which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f` — Which of the following statements regarding the phrenic nerves is | true?
+- `which-one-of-the-followings-regarding-the-superior-vena-cava-c979512d` — Which one of the followings regarding the superior vena cava is not true:
 
 ### Mechanics of Breathing (22)
 
