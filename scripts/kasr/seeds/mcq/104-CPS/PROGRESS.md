@@ -1824,3 +1824,161 @@ assuming a gap.
 HANDOFF: kasr-104-author-run36@<this commit's sha, see `git log -1`> ·
 resume-first: Vascular Function cluster, starting with the Poiseuille-law
 down-payment row.
+
+## run36 continued — Vascular Function CLOSED (32/35 accounted: 29 kept,
+3 excluded; 3 deliberately left, all genuine source gaps/conflicts, not
+guessed past). Same commit as above did not include this — separate
+commit, full gate run before committing.
+
+**Goldmine confirmed again**: before minting anything, grepped
+`104-CPS-physiology-concepts.md` for "Vascular Function" module_subject
+and found **7 pinned, hand-authored, unimported concepts** already
+sitting there (hemodynamics F=deltaP/R + TPR worked values, arterial BP/
+MAP/pulse-pressure, vascular-tree pressure/compliance distribution,
+capillary-exchange diffusion + Starling forces — the latter two already
+reused by the A-V Connections cluster per this file's own earlier
+entries — interstitial-fluid/oedema, and local-blood-flow-regulation/
+autoregulation), plus, in the sibling "Basic Mechanisms of Circulatory
+Control" module_subject, **5 more pinned concepts** named as
+`related_concepts` on `ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL`
+(peripheral chemoreceptors, central chemoreceptors, the CNS ischaemic
+response, the Cushing reflex, and the two medullary centres) — every one
+read in full and cross-checked against its own bank row before use.
+
+**Two new files** (Vascular Function's own leaf, no seed file existed for
+it before this session):
+- `physiology-vascular-function-hemodynamics.ts` (articleId
+  ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE): sparse reuse of
+  `hemodynamics.flow-pressure-resistance-relationship`
+  (CON-CVS-FA5FB57963DDF7, 6 kept + 2 excluded — TPR/MAP calculations,
+  viscosity/radius effects on flow and resistance, **gap disclosed**:
+  Poiseuille's own radius^4/viscosity expansion of resistance is not
+  itself stated by this article, standard undisputed physics),
+  `arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure`
+  (CON-CVS-A0579343614BCD, 5 kept — MAP/pulse-pressure definitions and
+  calculations), and `local-blood-flow-regulation.myogenic-and-metabolic-
+  autoregulation` (CON-CVS-56A68328FD03C7, cross-leaf reuse from "Basic
+  Mechanisms of Circulatory Control", 1 kept — active hyperaemia as the
+  quantitatively dominant local-flow mechanism). Two **fresh mints**,
+  both search-clean (`find-existing.mjs` "Reynolds number turbulent blood
+  flow" / "critical closing pressure" -> "safe to create"), both
+  **gap-disclosed** rather than sourced to any live article (no 104-CPS
+  article states either): `turbulent-blood-flow.reynolds-number-
+  determinants` (2 kept + 1 excluded) and `critical-closing-pressure.
+  definition-and-mechanism` (1 kept) — standard, undisputed
+  haemodynamics, flagged for the article-authoring lane.
+- `physiology-vascular-function-capillary-exchange-and-edema.ts`
+  (articleId ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS): sparse reuse
+  of `interstitial-fluid.volume-determinants-and-causes-of-oedema`
+  (CON-CVS-6D8E2D62A9F51E, 2 kept — the four-mechanism causes-of-oedema
+  classification, including the pitting-vs-non-pitting lymphatic-
+  obstruction distinction the concept's own definition already states).
+
+**Extended `physiology-circulatory-control-hemorrhagic-shock.ts`**
+(Basic Mechanisms of Circulatory Control leaf — leaf-mismatch reroute
+from this cluster's own "Vascular Function" bank tag, genuinely this
+file's own content-home): 3 more sparse-reuse concepts (`peripheral-
+chemoreceptor-reflex.carotid-and-aortic-bodies` CON-CVS-131F06D46D3B84,
+`cns-ischemic-response.trigger-and-effect` CON-CVS-8E2C7AEC68C4CB,
+`cushing-reflex.trigger-and-triad` CON-CVS-BBAEB2E1A51102), plus 7 more
+questions routed onto the arterial-baroreceptor-reflex concept this
+branch already added in the previous commit (carotid-body-vs-carotid-
+sinus discrimination, hemorrhagic-shock clinical vignette, hypertension-
+reflex-direction except-question, hypovolemic-shock clinical-signs
+except-question x2) — 9 kept + 1 excluded across the file this commit.
+
+**Extended `cardiovascular-autonomic-control-and-refractory-periods.ts`**
+(Electrical Activity of the Heart leaf): +4 kept questions onto the
+already-existing `autonomic-nervous-system.heart-rate-and-conduction-
+velocity.chronotropy-dromotropy` concept (vagal-tone-withdrawal-raises-
+HR, restated 3 times as duplicate-occurrence rows plus once combined with
+the HR-to-CO-to-ABP chain) — **gap disclosed**: the HR-to-CO-to-ABP chain
+itself is basic undisputed physiology, already established elsewhere in
+this same pipeline's own cardiac-output concept, not invented fresh.
+
+**Extended `physiology-cardiac-output-formula.ts`**: +1 kept question
+(stroke-volume-from-CO/HR calculation) onto the already-existing
+`cardiac-output.definition-formula-and-index` concept.
+
+**Two self-caught defects, same class as prior sessions' own
+precedent**: `baroreceptors-of-carotid-sinus-and-aortic-arch-are-
+sensitive-5a5b4cb9` and `the-tendency-for-blood-flow-to-be-turbulent-is-
+increased-by-19fbd049` were both drafted as kept questions on first pass,
+but this commit's own `medical:batch` run flagged both (3 options each,
+contract is 4 to 5 — the second row's own option C text is itself a merge
+of two original choices that an earlier draft had wrongly split into
+separate C/D options not actually present in the bank's own data).
+Converted both to `exclude: true` before the final gate run; the fix is
+reflected in the commit's own gate-line history (first run: 9 errors;
+after fix: back to 7, all pre-existing/known-false-positive).
+
+**3 rows left deliberately unclaimed, cluster still counted CLOSED** —
+genuine source gaps/conflicts, not guessed past:
+- `which-combination-of-the-following-local-factors-leads-to-ar-c8779f94`
+  — the bank's own credited answer ("Decrease in CO2, increase in
+  lactate and decrease in K+" as the combination causing arteriolar
+  vasodilatation) directly contradicts both standard physiology and this
+  session's own pinned `local-blood-flow-regulation` concept, which
+  states explicitly that vasodilator metabolites are CO2, H+ and
+  adenosine (i.e. INCREASED CO2 dilates, not decreased) — a genuine,
+  sourced conflict between the bank's own key and a pinned, evidenced
+  concept, escalated rather than resolved by picking a side, per the
+  brachiocephalic-vein precedent documented earlier in this file.
+- `atrial-natriuretic-peptide-6fd6b3d3` — tests ANP's own direct actions
+  (secretion trigger, vasodilator/BP-lowering effect), which no 104-CPS
+  article covers in any depth (the one live article that mentions ANP at
+  all explicitly disclaims teaching it, "not covered by this article for
+  reasons of scope"; the glossary term is too thin to source these
+  specific claims). Left unauthored rather than sourced to nothing.
+- `which-of-the-following-changes-would-not-occur-following-inh-ff65be24`
+  — tests the RAAS/ACE-inhibitor mechanism (renin/aldosterone/sodium-
+  reabsorption/peripheral-resistance), which no 104-CPS article covers
+  beyond a single passing mention of "increased renin-angiotensin-
+  aldosterone secretion" in the postural-hypotension concept — not enough
+  depth to source this row's own specific pharmacology claims. Left
+  unauthored rather than sourced to nothing.
+All three flagged for the article-authoring lane (a dedicated local-
+factors/RAAS/ANP article would resolve all three at once).
+
+Gate (this commit): 569 kept (+27 from 542), 121 excluded (+5 from 116),
+137 MCQ concepts (+9: 2 fresh mints + 7 pinned concepts' first appearance
+in this pipeline's own files via sparse reuse). `medical:batch` full
+`--with`: 7 errors — all pre-existing/known-false-positive (3
+`library_ids`-coverage false positives on sparse-reused hand-authored
+concepts, including 1 new one from this commit's own
+`local-blood-flow-regulation` reuse, confirmed against the same false-
+positive class documented earlier in this file; 4 pre-existing respiratory
+3-option-contract rows), 0 new real errors (confirmed by an intermediate
+run that caught and fixed the 2 self-caught defects above). `medical:
+simulate` (positional, 11 files): `errors: []`, `skipped: []`, delta
+concepts +242 / articles +57. `medical:audit --source`: 581 total errors
+(systemic, pre-existing, +2 from the previous commit's 579 — both new
+fresh-mint concept ids each showing only the same pre-existing
+`needs_evidence` pair, 0 real errors introduced). `medical:duplicate-keys`:
+0 canonical key collisions, 1 pre-existing label collision. Additive-only
+id diff: 0 QM-104-* ids removed, +27 added, matching the kept-count delta
+exactly.
+
+## Next action (resume-first)
+
+Vascular Function is CLOSED. Per the dispatch's own queued order, budget
+permitting, continue to the next untouched CVS cluster. Recompute the
+"what's left" leaf breakdown first (do not trust any prior count without
+recomputing) — as of this session's own recompute at the start of the
+Mechanical-Properties work, the largest untouched CVS leaves after this
+session's two closures are likely **Basic Mechanisms of Circulatory
+Control** (18 bank-tagged rows, though this session's own reroutes into
+`physiology-circulatory-control-hemorrhagic-shock.ts` have already closed
+a meaningful fraction of it — recompute before assuming how much remains)
+and **Conducting Portion** (67, respiratory, a different organ system).
+Check `104-CPS-physiology-concepts.md` / `104-CPS-histology-concepts.md`
+for pinned, unimported concepts before minting anything on either, per
+the heightened dedup mitigation — this session's own experience (12
+pinned concepts found across two clusters) suggests the same is true
+almost everywhere in this module.
+
+HANDOFF: kasr-104-author-run36@<this commit's sha, see `git log -1`> ·
+resume-first: recompute "what's left" leaf breakdown, then continue to
+the next largest untouched CVS cluster (likely Basic Mechanisms of
+Circulatory Control or Conducting Portion), checking pinned physiology/
+histology concept files before minting.

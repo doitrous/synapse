@@ -107,6 +107,57 @@ export const LEAF: McqLeafSeed = {
         "No conflicting record found; find-existing.mjs returned this concept as the only hit for 'carotid sinus baroreceptor' and 'baroreceptor reflex', confirming reuse rather than a fresh mint.",
       ],
     },
+    {
+      // Sparse reuse, not a fresh mint: canonical_key already pinned in
+      // 104-CPS-physiology-concepts.md as CON-CVS-131F06D46D3B84, this
+      // exact leaf's own module_subject, pinned to the real, live
+      // ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL article (which this
+      // file does not itself use as its own articleId, but sparse reuse
+      // leaves the pinned record's own article_ids untouched).
+      key: "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies",
+      label: "The peripheral chemoreceptor reflex, driven by low arterial PO2 in the carotid and aortic bodies, raises sympathetic discharge to correct a markedly low arterial pressure",
+      definition: "Peripheral chemoreceptors sit in the carotid and aortic bodies, carried to the medulla by the carotid sinus (glossopharyngeal) nerve and the vagus respectively. They are stimulated primarily by low arterial PO2, and secondarily by a marked fall of arterial pressure to 40-60 mmHg, because such low pressure itself reduces blood flow through the bodies and produces local hypoxia. Their stimulation increases sympathetic discharge, producing tachycardia and vasoconstriction that tend to raise the low blood pressure back up.",
+      objective: "State that the carotid and aortic body chemoreceptors are primarily O2 sensors, and that their stimulation raises sympathetic discharge and so arterial blood pressure.",
+      pitfall: "Treating the peripheral chemoreceptor reflex as a direct pressure sensor. It is an O2 sensor first; it only engages with pressure once pressure has fallen low enough (40-60 mmHg) to make the receptors themselves hypoxic.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Carotid body chemoreceptors", "Aortic body chemoreceptors", "Peripheral chemoreceptor reflex"],
+    },
+    {
+      // Sparse reuse, not a fresh mint: canonical_key already pinned in
+      // 104-CPS-physiology-concepts.md as CON-CVS-8E2C7AEC68C4CB, this
+      // exact leaf's own module_subject and article.
+      key: "cns-ischemic-response.trigger-and-effect",
+      label: "The CNS ischaemic response, triggered when arterial pressure falls below about 50 mmHg, is the most powerful activator of the sympathetic nervous system",
+      definition: "The CNS ischaemic response is triggered when marked hypotension causes ischaemia of the medullary vasomotor area itself; the resulting local rise in PCO2 stimulates the vasomotor area directly, producing marked vasoconstriction and a rise in arterial pressure. It is activated once arterial pressure drops below about 50 mmHg and is described as the single most powerful stimulator of the sympathetic nervous system.",
+      objective: "State that the CNS ischaemic response triggers below about 50 mmHg arterial pressure and is the single most powerful stimulator of the sympathetic nervous system.",
+      pitfall: "Confusing the CNS ischaemic response's ~50 mmHg threshold with the baroreceptor reflex, which operates continuously across the whole physiological pressure range, not only at a severe-hypotension threshold.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["CNS ischaemic response", "Medullary vasomotor ischaemia"],
+    },
+    {
+      // Sparse reuse, not a fresh mint: canonical_key already pinned in
+      // 104-CPS-physiology-concepts.md as CON-CVS-BBAEB2E1A51102, this
+      // exact leaf's own module_subject and article.
+      key: "cushing-reflex.trigger-and-triad",
+      label: "The Cushing reflex — raised arterial pressure with bradycardia — is triggered by raised intracranial pressure compressing the cerebral vessels and making the vasomotor area ischaemic",
+      definition: "The Cushing reflex is seen when intracranial pressure is raised: the patient shows marked elevation of arterial blood pressure with bradycardia. High intracranial pressure compresses the cerebral vessels, causing brain ischaemia; the resulting local hypercapnia and hypoxia produce a pressor response that raises arterial pressure, and the bradycardia that accompanies it is due to baroreceptor stimulation by that raised pressure.",
+      objective: "State that the Cushing reflex is triggered by raised intracranial pressure and produces hypertension with a secondary, baroreceptor-mediated bradycardia.",
+      pitfall: "Assuming the Cushing reflex's bradycardia is a direct effect of raised intracranial pressure. It is secondary — a baroreceptor response to the hypertension the ischaemic vasomotor area itself produces.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Cushing reflex", "Raised intracranial pressure and blood pressure"],
+    },
   ],
 
   questions: [
@@ -314,6 +365,129 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "Already unanswerable at the bank's own editorial stage (answerConfidence: none, editorialExcluded: true): all four surviving options are inconsistent with the well-established compensatory response to hemorrhagic shock (heart rate, total peripheral resistance and myocardial contractility all INCREASE via sympathetic activation, none decrease), and the fourth option ('peaks in early diastole') is an unrelated fragment about coronary flow timing rather than a genuine systemic shock finding. The clean, complete sibling copy of this question is already kept as during-hemorrhagic-shock-the-patient-exhibits-a-decreased-he-5f1a1828.",
+    },
+    {
+      // Bank-tagged leaf: "Vascular Function" — genuinely this leaf's own
+      // baroreceptor-reflex content (bank leaf tags are unreliable
+      // throughout this branch), routed onto the concept above.
+      key: "baroreceptors-060d2015",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Easy",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that arterial baroreceptors are stretch receptors, located in the carotid SINUS (not the carotid body, a chemoreceptor site) and aortic arch, that respond continuously across the physiological range rather than only over week-long timescales.",
+      explanations: {
+        A: "Correct. Arterial baroreceptors are a type of stretch (mechanoreceptor) receptor, responding to the degree of stretch of the vessel wall produced by arterial pressure.",
+        B: "Backwards on location: arterial baroreceptors sit in the carotid SINUS and aortic arch, not the carotid BODY (the carotid body is instead the site of the peripheral chemoreceptors, which sense O2, not stretch).",
+        C: "Backwards on timescale: the baroreceptor reflex is a rapid, moment-to-moment buffer against short-term pressure swings, not a week-to-week regulator — over days to weeks the baroreceptors themselves reset (adapt) to a new operating pressure, so they do not hold mean arterial pressure fixed on that timescale.",
+        D: "Backwards on direction: baroreceptors are stimulated by a RISE, not a sudden fall, in blood pressure — their discharge increases as pressure rises and decreases as pressure falls.",
+      },
+    },
+    {
+      // Excluded rather than kept: the bank extraction recovered only 3
+      // options (A, B, C) — no D — below the platform's 4-to-5-option
+      // import contract (medical:batch's own gate flags it: "3 options —
+      // the contract is 4 to 5", caught on this commit's own gate run).
+      // The baroreceptor reflex is already fully tested by 8 other kept
+      // questions in this file, so no teaching content is lost.
+      key: "baroreceptors-of-carotid-sinus-and-aortic-arch-are-sensitive-5a5b4cb9",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The bank extraction recovered only 3 options (A, B, C) — no D — below the platform's 4-to-5-option import contract (medical:batch rejects it outright: \"3 options — the contract is 4 to 5\"). The baroreceptor reflex is already fully tested by 8 other kept questions in this file, so no teaching content is lost by excluding this corrupted row.",
+    },
+    {
+      key: "stimulation-of-carotid-bodies-causes-6c5117f9",
+      conceptKey: "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that stimulation of the carotid body chemoreceptors raises blood pressure (via increased sympathetic discharge), as opposed to decreasing respiratory depth or discharge in cranial nerves IX or X.",
+      explanations: {
+        A: "Backwards. Stimulation of the carotid bodies (a hypoxia response) INCREASES, not decreases, the depth of respiration, as part of the same chemoreceptor reflex arc that also serves respiratory control.",
+        B: "Backwards. The carotid body's afferent signal travels via the glossopharyngeal (IX) nerve, and its stimulation INCREASES, not decreases, discharge in this nerve.",
+        C: "The vagus (X) nerve carries the aortic body's own chemoreceptor afferents (and other visceral afferents), not primarily the carotid body's; stimulation of the carotid bodies does not act through decreased vagal discharge.",
+        D: "Correct. Stimulation of the carotid bodies (low arterial PO2) raises sympathetic discharge via the medullary vasomotor centre, producing vasoconstriction and tachycardia that raise blood pressure.",
+      },
+    },
+    {
+      key: "which-of-the-following-would-be-expected-during-brain-ischem-458ed3b2",
+      conceptKey: "cns-ischemic-response.trigger-and-effect",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that brain (cerebral) ischaemia triggers the CNS ischaemic response, a marked INCREASE in sympathetic activity, as opposed to increased parasympathetic activity or a decrease in heart rate or arterial pressure.",
+      explanations: {
+        A: "Backwards. The CNS ischaemic response is driven by a rise in SYMPATHETIC, not parasympathetic, activity.",
+        B: "Backwards. The CNS ischaemic response raises heart rate (via the same sympathetic surge that raises contractility and vasoconstriction), it does not lower it.",
+        C: "Backwards. The CNS ischaemic response's entire purpose is to RAISE, not lower, arterial pressure, restoring cerebral perfusion pressure to a starved medulla.",
+        D: "Correct. Brain (medullary) ischaemia triggers the CNS ischaemic response — a marked rise in sympathetic outflow, described as the single most powerful stimulator of the sympathetic nervous system, producing severe vasoconstriction and a sharp rise in arterial pressure in an attempt to restore cerebral perfusion.",
+      },
+    },
+    {
+      key: "blood-pressure-increases-and-heart-rate-decreases-in-respons-c1d490d5",
+      conceptKey: "cushing-reflex.trigger-and-triad",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "Identify increased intracranial tension as the trigger of the Cushing reflex (hypertension with bradycardia), as opposed to increased body temperature, high altitude, or hemorrhage, none of which produce this specific triad.",
+      explanations: {
+        A: "Increased body temperature does not produce the Cushing reflex's hypertension-with-bradycardia pattern; if anything, fever tends to raise heart rate.",
+        B: "Exposure to high altitude triggers the peripheral chemoreceptor (hypoxia) reflex — tachycardia and vasoconstriction — not the Cushing reflex's bradycardia-with-hypertension pattern.",
+        C: "Correct. Increased intracranial tension (raised intracranial pressure) compresses the cerebral vessels, causing local brain ischaemia that drives the Cushing reflex: marked hypertension with a secondary, baroreceptor-mediated bradycardia.",
+        D: "Hemorrhage triggers the baroreceptor reflex and, in severe cases, the CNS ischaemic response — both producing tachycardia, not the bradycardia the Cushing reflex specifically produces.",
+      },
+    },
+    {
+      key: "a-17-year-old-boy-is-brought-to-the-emergency-room-after-an-74c6b22e",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that in significant blood loss, the fall in arterial pressure lowers baroreceptor discharge, disinhibiting the medullary vasomotor and cardiac centres and so raising sympathetic outflow to the heart and vessels together — not lowering total peripheral resistance or heart rate, nor raising carotid sinus nerve firing.",
+      explanations: {
+        A: "Backwards. Significant blood loss raises, not decreases, total peripheral resistance, via the same sympathetic-driven arteriolar vasoconstriction that helps compensate for the fall in pressure.",
+        B: "Backwards. Reflex tachycardia (increased, not decreased, heart rate) is a hallmark early sign of compensated hemorrhagic shock, driven by increased sympathetic and decreased vagal outflow to the heart.",
+        C: "Backwards. A fall in arterial pressure LOWERS, not raises, baroreceptor discharge (and so carotid sinus nerve firing) — it is this fall in discharge that disinhibits the medullary centres and drives the compensatory sympathetic surge.",
+        D: "Correct. The fall in blood pressure from significant blood loss reduces baroreceptor stretch and firing, which disinhibits the medullary vasomotor and cardiac centres, resulting in a marked increase in sympathetic outflow to both the heart (raising heart rate and contractility) and the peripheral vasculature (raising vasoconstriction and total peripheral resistance).",
+      },
+    },
+    {
+      key: "a-blood-pressure-of-180-120-mmhg-was-found-in-a-patient-aged-ff99150a",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that an elevated arterial pressure triggers the baroreceptor reflex to LOWER, not raise, cardiac output, as the exception among otherwise correct statements about severe hypertension.",
+      explanations: {
+        A: "The exception, and the answer. An elevated blood pressure of 180/120 mmHg triggers the baroreceptor reflex to DECREASE, not increase, cardiac output and heart rate — the body's own negative-feedback mechanism working to bring the elevated pressure back down toward normal.",
+        B: "True of this scenario, so not the exception: increased renin secretion (driving angiotensin II-mediated vasoconstriction) is a genuine cause of secondary hypertension, so it could produce this finding.",
+        C: "True of this scenario, so not the exception: a catecholamine-secreting adrenal tumour (phaeochromocytoma) causes hypertension through excess circulating epinephrine/norepinephrine.",
+        D: "True of this scenario, so not the exception: left ventricular work rises directly with the pressure (afterload) the ventricle must eject against, so this high pressure genuinely increases left ventricular work.",
+      },
+    },
+    {
+      key: "hypovolemic-shock-is-characterized-by-all-except-56cefa81",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that hypovolemic shock produces a FAST (reflex tachycardic), not slow, pulse rate as the exception among its otherwise correct clinical signs.",
+      explanations: {
+        A: "True of hypovolemic shock, so not the exception: low blood pressure is the defining haemodynamic disturbance, from reduced circulating blood volume.",
+        B: "The exception, and the answer. Hypovolemic shock produces a FAST, not slow, pulse rate: the fall in arterial pressure lowers baroreceptor discharge, driving a compensatory sympathetic surge with reflex tachycardia — the opposite of the bradycardia this option describes.",
+        C: "True of hypovolemic shock, so not the exception: cold, pale, sweaty skin reflects the same sympathetic-driven cutaneous vasoconstriction and sweating that helps redirect blood to vital organs.",
+        D: "True of hypovolemic shock, so not the exception: rapid respiration is a genuine compensatory sign, partly reflecting sympathetic drive and the metabolic (lactic) acidosis of inadequate tissue perfusion.",
+      },
+    },
+    {
+      key: "hypovolemis-shock-is-characterized-by-all-the-following-exce-5491354e",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that hypovolemic shock produces a FAST (reflex tachycardic), not slow, pulse rate as the exception among its otherwise correct clinical signs.",
+      explanations: {
+        A: "True of hypovolemic shock, so not the exception: low blood pressure is the defining haemodynamic disturbance, from reduced circulating blood volume.",
+        B: "The exception, and the answer. Hypovolemic shock produces a FAST, not slow, pulse rate: the fall in arterial pressure lowers baroreceptor discharge, driving a compensatory sympathetic surge with reflex tachycardia — the opposite of the bradycardia this option describes.",
+        C: "True of hypovolemic shock, so not the exception: cold, pale, sweaty skin reflects the same sympathetic-driven cutaneous vasoconstriction and sweating that helps redirect blood to vital organs.",
+        D: "True of hypovolemic shock, so not the exception: rapid respiration is a genuine compensatory sign, partly reflecting sympathetic drive and the metabolic (lactic) acidosis of inadequate tissue perfusion.",
+      },
     },
   ],
 }

@@ -290,5 +290,21 @@ export const LEAF: McqLeafSeed = {
         D: 'Correct. Sympathetic stimulation of the heart raises heart rate and contractility together, and because cardiac output equals heart rate times stroke volume, this combined rise raises cardiac output as well — all three listed effects are genuine, interconnected consequences of sympathetic stimulation, so the comprehensive option is the correct choice.',
       },
     },
+    {
+      // Bank-tagged leaf: "Vascular Function" — genuinely this file's own
+      // cardiac-output-formula content (SV = CO / HR, a rearrangement of
+      // CO = SV x HR this concept already states), routed here.
+      key: 'the-following-data-are-obtained-from-a-patient-connected-to-208204d2',
+      conceptKey: 'cardiac-output.definition-formula-and-index',
+      difficulty: 'Moderate',
+      questionType: 'Calculation',
+      learningObjective: 'Calculate stroke volume as cardiac output divided by heart rate from a clinical data panel, as opposed to miscalculated pulse pressure, mean arterial pressure or total peripheral resistance values.',
+      explanations: {
+        A: 'Pulse pressure equals systolic minus diastolic pressure: 122 - 70 = 52 mmHg from this data, not 80 mmHg as this option states.',
+        B: 'The standard MAP approximation (diastolic + one-third pulse pressure) gives 70 + (1/3)(52) = roughly 87 mmHg from this data, not 94 mmHg as this option states.',
+        C: 'The standard TPR calculation ((MAP - CVP) / CO) does not yield approximately 40 resistance units from this data using the standard MAP approximation and the given cardiac output.',
+        D: 'Correct. Stroke volume equals cardiac output divided by heart rate: 5000 mL/min / 100 beats/min = 50 mL, exactly matching this option — a direct rearrangement of CO = SV x HR.',
+      },
+    },
   ],
 }

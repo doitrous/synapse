@@ -11,7 +11,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
-    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 10 questions, 3 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
@@ -41,9 +41,9 @@
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 17 questions, 4 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 16 questions, 6 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 25 questions, 9 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -52,6 +52,8 @@
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
+    Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 16 questions, 5 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
@@ -67,7 +69,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  116 questions were excluded and 0 held back for having no
+  121 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -6283,6 +6285,374 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E6222E704FE4
+## title
+Concerning the effects of autonomic nervous activity on the cardiovascular system:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the effects of autonomic nervous activity on the cardiovascular system:
+## answer_a
+Inhibition of parasympathetic nerves increases heart rate
+## explanation_a
+Correct. Parasympathetic (vagal) tone normally holds the SA node's own intrinsic discharge rate down; inhibiting it removes this brake, so heart rate rises toward the SA node's faster intrinsic rate.
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_b
+Inhibition of parasympathetic nerves increases total peripheral resistance
+## explanation_b
+Total peripheral resistance is set chiefly by sympathetic, not parasympathetic, tone on the arterioles (parasympathetic innervation of peripheral vasculature is minimal); inhibiting parasympathetic nerves does not directly raise TPR.
+## answer_c
+Inhibition of parasympathetic nerves decreases total peripheral resistance
+## explanation_c
+For the same reason as B, inhibiting parasympathetic nerves does not directly lower TPR either — TPR is a sympathetic, not a parasympathetic, story.
+## answer_d
+Stimulation of parasympathetic nerves decreases the strength of cardiac ventricular contractions
+## explanation_d
+Parasympathetic (vagal) innervation of the ventricular myocardium is sparse compared with the atria; stimulating it slows the SA node and AV conduction chiefly, with only a minor direct effect on ventricular contractile strength, so this overstates a direct parasympathetic weakening of ventricular contraction.
+## correct_answer
+A
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that inhibiting parasympathetic (vagal) nerves raises heart rate — removing the vagal brake on the SA node — as opposed to raising or lowering total peripheral resistance directly, or that parasympathetic stimulation weakens ventricular contraction directly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p13 q101. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-955778A7358F
+## title
+Arterial blood pressure may be increased by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Arterial blood pressure may be increased by:
+## answer_a
+Decreased sympathetic tone
+## explanation_a
+Backwards. Decreased sympathetic tone reduces vasoconstriction and cardiac stimulation, LOWERING arterial blood pressure, not raising it.
+## answer_b
+Venodilation ;
+## explanation_b
+Backwards. Venodilation pools more blood in the compliant venous capacitance vessels, reducing venous return and preload, which LOWERS, not raises, cardiac output and arterial blood pressure.
+## answer_c
+Decreased parasympathetic tone
+## explanation_c
+Correct. A decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, allowing heart rate to rise; a higher heart rate raises cardiac output, and a higher cardiac output raises arterial blood pressure (MAP = CO x TPR).
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_d
+Decreased antidiuretic hormone release
+## explanation_d
+Backwards. Decreased antidiuretic hormone (vasopressin) release increases free-water excretion by the kidney, tending to LOWER, not raise, circulating blood volume and so arterial blood pressure.
+## correct_answer
+C
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that decreased parasympathetic tone raises heart rate and so cardiac output and arterial blood pressure, as opposed to decreased sympathetic tone, venodilation, or decreased ADH release, each of which lowers arterial blood pressure instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p18 q134. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A5425E42A541
+## title
+Arterial blood pressure may be increased by which of the following? 7
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Arterial blood pressure may be increased by which of the following? 7
+## answer_a
+Decreased sympathetic tone
+## explanation_a
+Backwards. Decreased sympathetic tone reduces vasoconstriction and cardiac stimulation, LOWERING arterial blood pressure, not raising it.
+## answer_b
+Venodilation 3
+## explanation_b
+Backwards. Venodilation pools more blood in the compliant venous capacitance vessels, reducing venous return and preload, which LOWERS, not raises, cardiac output and arterial blood pressure.
+## answer_c
+Decreased parasympathetic tone
+## explanation_c
+Correct. A decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, raising heart rate and so cardiac output, and thereby increasing arterial blood pressure.
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_d
+Decreased antidiuretic hormone release
+## explanation_d
+Backwards. Decreased antidiuretic hormone (vasopressin) release increases free-water excretion by the kidney, tending to LOWER, not raise, circulating blood volume and so arterial blood pressure.
+## correct_answer
+C
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that decreased parasympathetic tone raises heart rate and so cardiac output and arterial blood pressure, as opposed to decreased sympathetic tone, venodilation, or decreased ADH release, each of which lowers arterial blood pressure instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p9 q35. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BA342E6D7EA9
+## title
+Arterial blood pressure may be increased by which of the following?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Arterial blood pressure may be increased by which of the following?
+## answer_a
+Decreased sympathetic tone
+## explanation_a
+Backwards. Decreased sympathetic tone reduces vasoconstriction and cardiac stimulation, LOWERING arterial blood pressure, not raising it.
+## answer_b
+Venodilation
+## explanation_b
+Backwards. Venodilation pools more blood in the compliant venous capacitance vessels, reducing venous return and preload, which LOWERS, not raises, cardiac output and arterial blood pressure.
+## answer_c
+Decreased parasympathetic tone
+## explanation_c
+Correct. A decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, raising heart rate and so cardiac output, and thereby increasing arterial blood pressure.
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_d
+Decreased antidiuretic hormone release
+## explanation_d
+Backwards. Decreased antidiuretic hormone (vasopressin) release increases free-water excretion by the kidney, tending to LOWER, not raise, circulating blood volume and so arterial blood pressure.
+## correct_answer
+C
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that decreased parasympathetic tone raises heart rate and so cardiac output and arterial blood pressure, as opposed to decreased sympathetic tone, venodilation, or decreased ADH release, each of which lowers arterial blood pressure instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q74. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
 
 
 
@@ -34597,6 +34967,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-4CA77AE13CE4
+## title
+The following data are obtained from a patient connected to a monitor: Arterial systoli…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following data are obtained from a patient connected to a monitor: Arterial systolic blood pressure 122 mmHg Arterial diastolic blood pressure 70 mmHg Central venous pressure 2 mmHg Cardiac output (COP) 5000ml/min Heart Rate (HR) 1 100 beats/min From these data, one can determine that the:
+## answer_a
+Pulse pressure is 80 mmHg
+## explanation_a
+Pulse pressure equals systolic minus diastolic pressure: 122 - 70 = 52 mmHg from this data, not 80 mmHg as this option states.
+## answer_b
+Mean arterial pressure (MAP) is 94 mmHg
+## explanation_b
+The standard MAP approximation (diastolic + one-third pulse pressure) gives 70 + (1/3)(52) = roughly 87 mmHg from this data, not 94 mmHg as this option states.
+## answer_c
+Total peripheral resistance (TPR) is approximately 40 resistance units
+## explanation_c
+The standard TPR calculation ((MAP - CVP) / CO) does not yield approximately 40 resistance units from this data using the standard MAP approximation and the given cardiac output.
+## answer_d
+Stroke volume (SV) is 50 ml
+## explanation_d
+Correct. Stroke volume equals cardiac output divided by heart rate: 5000 mL/min / 100 beats/min = 50 mL, exactly matching this option — a direct rearrangement of CO = SV x HR.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## correct_answer
+D
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+Calculate stroke volume as cardiac output divided by heart rate from a clinical data panel, as opposed to miscalculated pulse pressure, mean arterial pressure or total peripheral resistance values.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p18 q135. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-30851052ECE6
 ## title
 All about cardiac preload is true, EXCEPT:
@@ -36153,6 +36615,747 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q177. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3D1E2726340E
+## title
+Baroreceptors: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Baroreceptors: |
+## answer_a
+Are a type of stretch receptors |
+## explanation_a
+Correct. Arterial baroreceptors are a type of stretch (mechanoreceptor) receptor, responding to the degree of stretch of the vessel wall produced by arterial pressure.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_b
+Are located in the aortic and carotid bodies
+## explanation_b
+Backwards on location: arterial baroreceptors sit in the carotid SINUS and aortic arch, not the carotid BODY (the carotid body is instead the site of the peripheral chemoreceptors, which sense O2, not stretch).
+## answer_c
+Control the mean arterial pressure from week to week
+## explanation_c
+Backwards on timescale: the baroreceptor reflex is a rapid, moment-to-moment buffer against short-term pressure swings, not a week-to-week regulator — over days to weeks the baroreceptors themselves reset (adapt) to a new operating pressure, so they do not hold mean arterial pressure fixed on that timescale.
+## answer_d
+Are stimulated by sudden fall in blood pressure
+## explanation_d
+Backwards on direction: baroreceptors are stimulated by a RISE, not a sudden fall, in blood pressure — their discharge increases as pressure rises and decreases as pressure falls.
+## correct_answer
+A
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that arterial baroreceptors are stretch receptors, located in the carotid SINUS (not the carotid body, a chemoreceptor site) and aortic arch, that respond continuously across the physiological range rather than only over week-long timescales.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p23 q169. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-59F0FF9EAC30
+## title
+Stimulation of carotid bodies causes:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of carotid bodies causes:
+## answer_a
+Decrease in depth of respiration
+## explanation_a
+Backwards. Stimulation of the carotid bodies (a hypoxia response) INCREASES, not decreases, the depth of respiration, as part of the same chemoreceptor reflex arc that also serves respiratory control.
+## answer_b
+Decreased discharge in the IX cranial nerve
+## explanation_b
+Backwards. The carotid body's afferent signal travels via the glossopharyngeal (IX) nerve, and its stimulation INCREASES, not decreases, discharge in this nerve.
+## answer_c
+Decreased discharge in the X cranial nerve
+## explanation_c
+The vagus (X) nerve carries the aortic body's own chemoreceptor afferents (and other visceral afferents), not primarily the carotid body's; stimulation of the carotid bodies does not act through decreased vagal discharge.
+## answer_d
+Increase in blood pressure
+## explanation_d
+Correct. Stimulation of the carotid bodies (low arterial PO2) raises sympathetic discharge via the medullary vasomotor centre, producing vasoconstriction and tachycardia that raise blood pressure.
+
+Why this is right:
+- Peripheral chemoreceptors in the carotid and aortic bodies are primarily stimulated by low arterial PO2.
+## correct_answer
+D
+## main_concept
+CON-CVS-131F06D46D3B84
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that stimulation of the carotid body chemoreceptors raises blood pressure (via increased sympathetic discharge), as opposed to decreasing respiratory depth or discharge in cranial nerves IX or X.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p23 q170. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7EE8DD1AC666
+## title
+Which of the following would be expected during brain ischemia?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following would be expected during brain ischemia?
+## answer_a
+Increase in parasympathetic activity
+## explanation_a
+Backwards. The CNS ischaemic response is driven by a rise in SYMPATHETIC, not parasympathetic, activity.
+## answer_b
+Decrease in heart rate
+## explanation_b
+Backwards. The CNS ischaemic response raises heart rate (via the same sympathetic surge that raises contractility and vasoconstriction), it does not lower it.
+## answer_c
+Decrease in arterial pressure
+## explanation_c
+Backwards. The CNS ischaemic response's entire purpose is to RAISE, not lower, arterial pressure, restoring cerebral perfusion pressure to a starved medulla.
+## answer_d
+Increase in sympathetic activity
+## explanation_d
+Correct. Brain (medullary) ischaemia triggers the CNS ischaemic response — a marked rise in sympathetic outflow, described as the single most powerful stimulator of the sympathetic nervous system, producing severe vasoconstriction and a sharp rise in arterial pressure in an attempt to restore cerebral perfusion.
+
+Why this is right:
+- The CNS ischaemic response is activated when arterial blood pressure drops below 50 mmHg and is the most powerful stimulator of the sympathetic nervous system.
+## correct_answer
+D
+## main_concept
+CON-CVS-8E2C7AEC68C4CB
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that brain (cerebral) ischaemia triggers the CNS ischaemic response, a marked INCREASE in sympathetic activity, as opposed to increased parasympathetic activity or a decrease in heart rate or arterial pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q183. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8E326CD203B2
+## title
+Blood pressure increases and heart rate decreases in response to;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Blood pressure increases and heart rate decreases in response to;
+## answer_a
+increased body temperature.
+## explanation_a
+Increased body temperature does not produce the Cushing reflex's hypertension-with-bradycardia pattern; if anything, fever tends to raise heart rate.
+## answer_b
+exposure to high altitude .
+## explanation_b
+Exposure to high altitude triggers the peripheral chemoreceptor (hypoxia) reflex — tachycardia and vasoconstriction — not the Cushing reflex's bradycardia-with-hypertension pattern.
+## answer_c
+Increased intracranial tension.
+## explanation_c
+Correct. Increased intracranial tension (raised intracranial pressure) compresses the cerebral vessels, causing local brain ischaemia that drives the Cushing reflex: marked hypertension with a secondary, baroreceptor-mediated bradycardia.
+
+Why this is right:
+- The Cushing reflex is observed when intracranial pressure is increased: the patient has marked elevation of arterial blood pressure and bradycardia.
+## answer_d
+Haemorrhage.
+## explanation_d
+Hemorrhage triggers the baroreceptor reflex and, in severe cases, the CNS ischaemic response — both producing tachycardia, not the bradycardia the Cushing reflex specifically produces.
+## correct_answer
+C
+## main_concept
+CON-CVS-BBAEB2E1A51102
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify increased intracranial tension as the trigger of the Cushing reflex (hypertension with bradycardia), as opposed to increased body temperature, high altitude, or hemorrhage, none of which produce this specific triad.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q120. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0E2A4B8EEF0E
+## title
+A 17 year old boy is brought to the emergency room after an accident. He was injured an…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A 17 year old boy is brought to the emergency room after an accident. He was injured and suffering from significant blood loss. Which of the following is true about his condition?
+## answer_a
+His total peripheral resistance is decreased
+## explanation_a
+Backwards. Significant blood loss raises, not decreases, total peripheral resistance, via the same sympathetic-driven arteriolar vasoconstriction that helps compensate for the fall in pressure.
+## answer_b
+His heart rate is decreased
+## explanation_b
+Backwards. Reflex tachycardia (increased, not decreased, heart rate) is a hallmark early sign of compensated hemorrhagic shock, driven by increased sympathetic and decreased vagal outflow to the heart.
+## answer_c
+The firing rate of his carotid sinus nerves is increased
+## explanation_c
+Backwards. A fall in arterial pressure LOWERS, not raises, baroreceptor discharge (and so carotid sinus nerve firing) — it is this fall in discharge that disinhibits the medullary centres and drives the compensatory sympathetic surge.
+## answer_d
+Sympathetic outflow to his heart and blood vessels was increased
+## explanation_d
+Correct. The fall in blood pressure from significant blood loss reduces baroreceptor stretch and firing, which disinhibits the medullary vasomotor and cardiac centres, resulting in a marked increase in sympathetic outflow to both the heart (raising heart rate and contractility) and the peripheral vasculature (raising vasoconstriction and total peripheral resistance).
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## correct_answer
+D
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that in significant blood loss, the fall in arterial pressure lowers baroreceptor discharge, disinhibiting the medullary vasomotor and cardiac centres and so raising sympathetic outflow to the heart and vessels together — not lowering total peripheral resistance or heart rate, nor raising carotid sinus nerve firing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p18 q139. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-47B1E3E9BF56
+## title
+A blood pressure of 180/120 mmHg was found in a patient aged 35. The following statemen…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A blood pressure of 180/120 mmHg was found in a patient aged 35. The following statements about this are true, except:
+## answer_a
+The blood pressure is elevated which will initiate reflexes that increase the cardiacoutput
+## explanation_a
+The exception, and the answer. An elevated blood pressure of 180/120 mmHg triggers the baroreceptor reflex to DECREASE, not increase, cardiac output and heart rate — the body's own negative-feedback mechanism working to bring the elevated pressure back down toward normal.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_b
+Increased renin secretion could produce this finding
+## explanation_b
+True of this scenario, so not the exception: increased renin secretion (driving angiotensin II-mediated vasoconstriction) is a genuine cause of secondary hypertension, so it could produce this finding.
+## answer_c
+Increased blood level of epinephrine due to the presence of a tumor of adrenal gland
+## explanation_c
+True of this scenario, so not the exception: a catecholamine-secreting adrenal tumour (phaeochromocytoma) causes hypertension through excess circulating epinephrine/norepinephrine.
+## answer_d
+The left ventricular work is increased because of this hi gh pressure
+## explanation_d
+True of this scenario, so not the exception: left ventricular work rises directly with the pressure (afterload) the ventricle must eject against, so this high pressure genuinely increases left ventricular work.
+## correct_answer
+A
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that an elevated arterial pressure triggers the baroreceptor reflex to LOWER, not raise, cardiac output, as the exception among otherwise correct statements about severe hypertension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p19 q142. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-11D9C4D84A54
+## title
+Hypovolemic shock is characterized by all, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Hypovolemic shock is characterized by all, except
+## answer_a
+Low blood pressure
+## explanation_a
+True of hypovolemic shock, so not the exception: low blood pressure is the defining haemodynamic disturbance, from reduced circulating blood volume.
+## answer_b
+Slow pulse rate
+## explanation_b
+The exception, and the answer. Hypovolemic shock produces a FAST, not slow, pulse rate: the fall in arterial pressure lowers baroreceptor discharge, driving a compensatory sympathetic surge with reflex tachycardia — the opposite of the bradycardia this option describes.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_c
+Cold, pale and sweaty skin
+## explanation_c
+True of hypovolemic shock, so not the exception: cold, pale, sweaty skin reflects the same sympathetic-driven cutaneous vasoconstriction and sweating that helps redirect blood to vital organs.
+## answer_d
+Rapid respiration
+## explanation_d
+True of hypovolemic shock, so not the exception: rapid respiration is a genuine compensatory sign, partly reflecting sympathetic drive and the metabolic (lactic) acidosis of inadequate tissue perfusion.
+## correct_answer
+B
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that hypovolemic shock produces a FAST (reflex tachycardic), not slow, pulse rate as the exception among its otherwise correct clinical signs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p23 q176. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C21379202434
+## title
+Hypovolemis shock is characterized by all the following, except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Hypovolemis shock is characterized by all the following, except:
+## answer_a
+Low blood pressure
+## explanation_a
+True of hypovolemic shock, so not the exception: low blood pressure is the defining haemodynamic disturbance, from reduced circulating blood volume.
+## answer_b
+Slow pulse rate
+## explanation_b
+The exception, and the answer. Hypovolemic shock produces a FAST, not slow, pulse rate: the fall in arterial pressure lowers baroreceptor discharge, driving a compensatory sympathetic surge with reflex tachycardia — the opposite of the bradycardia this option describes.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_c
+Cold, pale and sweaty skin
+## explanation_c
+True of hypovolemic shock, so not the exception: cold, pale, sweaty skin reflects the same sympathetic-driven cutaneous vasoconstriction and sweating that helps redirect blood to vital organs.
+## answer_d
+Rapid respiration
+## explanation_d
+True of hypovolemic shock, so not the exception: rapid respiration is a genuine compensatory sign, partly reflecting sympathetic drive and the metabolic (lactic) acidosis of inadequate tissue perfusion.
+## correct_answer
+B
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that hypovolemic shock produces a FAST (reflex tachycardic), not slow, pulse rate as the exception among its otherwise correct clinical signs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p9 q37. Manifest src_ab84e963639b236e0951.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -40944,6 +42147,1298 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q21. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E20AB4B9933A
+## title
+All of the followings are causes of pitting edema Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the followings are causes of pitting edema Except:
+## answer_a
+Liver cirrhosis
+## explanation_a
+Liver cirrhosis genuinely causes pitting oedema, so not the exception: failed hepatic albumin synthesis lowers plasma colloid osmotic pressure, favouring filtration over absorption.
+## answer_b
+Nutritional edema
+## explanation_b
+Nutritional (protein-deficiency) oedema genuinely causes pitting oedema, so not the exception: inadequate dietary protein lowers plasma colloid osmotic pressure by the same route as liver cirrhosis.
+## answer_c
+Longstanding lymphatic obstruction
+## explanation_c
+The exception, and the answer. LONGSTANDING lymphatic obstruction produces characteristically NON-pitting oedema — the chronically stagnant, protein-rich fluid stimulates progressive tissue fibrosis, giving a firm, non-compressible texture, unlike the other three mechanisms listed here.
+
+Why this is right:
+- Oedema caused by inadequate lymph flow follows lymphatic obstruction, and the resulting fluid has a high protein content, producing non-pitting oedema with inflammation and fibrosis in longstanding disease such as elephantiasis.
+## answer_d
+Nephrosis
+## explanation_d
+Nephrosis (nephrotic syndrome) genuinely causes pitting oedema, so not the exception: heavy urinary protein loss lowers plasma colloid osmotic pressure, favouring filtration over absorption.
+## correct_answer
+C
+## main_concept
+CON-CVS-6D8E2D62A9F51E
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema
+## subtopic
+Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify longstanding lymphatic obstruction, which produces non-pitting rather than pitting oedema, as the exception among genuine causes of pitting oedema.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q73. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1A43D4E2C18B
+## title
+Edema may be caused by all of the following, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Edema may be caused by all of the following, except
+## answer_a
+Decreased albumin content in vascular compartment
+## explanation_a
+Decreased albumin content genuinely causes oedema, so not the exception: it lowers plasma colloid osmotic pressure, one of the two Starling forces normally holding fluid in the capillary.
+## answer_b
+Low arterial blood pressure
+## explanation_b
+The exception, and the answer. Low arterial blood pressure does not itself raise capillary filtration — if anything, a lower driving pressure through the arterial system tends to lower, not raise, capillary hydrostatic pressure; it is a rise in venous (not a fall in arterial) pressure that causes oedema by raising capillary hydrostatic pressure.
+
+Why this is right:
+- Oedema caused by inadequate lymph flow follows lymphatic obstruction, and the resulting fluid has a high protein content, producing non-pitting oedema with inflammation and fibrosis in longstanding disease such as elephantiasis.
+## answer_c
+Increased venous pressure
+## explanation_c
+Increased venous pressure genuinely causes oedema, so not the exception: it raises capillary hydrostatic pressure by impeding venous drainage from the capillary bed, favouring filtration over absorption.
+## answer_d
+Lymphatic obstruction
+## explanation_d
+Lymphatic obstruction genuinely causes oedema, so not the exception: it blocks the drainage route that normally returns the fluid that capillary filtration always slightly exceeds.
+## correct_answer
+B
+## main_concept
+CON-CVS-6D8E2D62A9F51E
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify low arterial blood pressure, which does not raise capillary filtration pressure, as the exception among genuine causes of oedema.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p20 q148. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EB7326B80994
+## title
+All about arterial blood pressure is true, except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All about arterial blood pressure is true, except:
+## answer_a
+Is affected by the amount of elastin in the arterial wall
+## explanation_a
+True of arterial blood pressure, so not the exception: arterial wall elastin content sets vessel compliance, and compliance shapes pulse pressure and the overall pressure profile.
+## answer_b
+Is only regulated by changes in peripheral resistance
+## explanation_b
+The exception, and the answer. Arterial blood pressure is set by more than peripheral resistance alone — mean arterial pressure equals cardiac output times total peripheral resistance, so cardiac output (itself set by heart rate and stroke volume/venous return) is just as much a determinant as resistance is.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## answer_c
+May be increased by increase in venous return
+## explanation_c
+True of arterial blood pressure, so not the exception: increased venous return raises end-diastolic volume and, by the Frank-Starling mechanism, stroke volume and cardiac output, which raises arterial blood pressure.
+## answer_d
+Can be measured using an auscultatory method
+## explanation_d
+True of arterial blood pressure, so not the exception: the auscultatory (Korotkoff-sound) method, using a sphygmomanometer and stethoscope, is the standard clinical way of measuring it.
+## correct_answer
+B
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that arterial blood pressure is regulated by more than peripheral resistance alone (also cardiac output, blood volume and vessel compliance among others) as the exception among true statements about it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q30; DPT BOOK Physio MCQ [104][2022].pdf p19 q143. Manifest src_ab84e963639b236e0951, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-783A26E72C7C
+## title
+Mean arterial pressure:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Mean arterial pressure:
+## answer_a
+Is the average arterial pressure over a cardiac cycle
+## explanation_a
+True, but incomplete alone. Mean arterial pressure is indeed the average arterial pressure over a cardiac cycle — but option C is also true, so the comprehensive option combining both is the better answer.
+## answer_b
+Can be calculated from ‏كا‎ (systolic minus diastolic pressure)
+## explanation_b
+Not a valid formula for MAP: the garbled option text aside, systolic minus diastolic pressure is the definition of PULSE pressure, not mean arterial pressure.
+## answer_c
+Can be calculated from diastolic pressure + 1/3 (pulse pressure)
+## explanation_c
+True, but incomplete alone. MAP can indeed be approximated as diastolic pressure plus one-third of the pulse pressure — but option A is also true, so the comprehensive option combining both is the better answer.
+## answer_d
+Can be calculated from the cardiac output X total peripheral resistance
+## explanation_d
+Cardiac output times total peripheral resistance does give mean arterial pressure numerically (MAP = CO x TPR, since TPR = MAP/CO by definition), but this option is not selected as part of the credited "both A and C" answer, which names the cycle-average definition and the diastolic + 1/3 pulse-pressure formula specifically.
+## answer_e
+Both a and © are correct
+## explanation_e
+Correct. Both A (MAP is the average arterial pressure over a cardiac cycle) and C (MAP can be calculated from diastolic pressure + one-third of the pulse pressure) state genuine, complementary facts about mean arterial pressure — a definition and a calculation formula for it — so "both A and C" is the comprehensive correct answer.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## correct_answer
+E
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a comprehensive true statement
+## learning_objective
+State that mean arterial pressure is both the average pressure over the cardiac cycle and can be calculated as diastolic pressure plus one-third of the pulse pressure, so the comprehensive option is correct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p18 q138. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-15A23C3918D4
+## title
+The pulse pressure is increased in the following conditions, except ;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The pulse pressure is increased in the following conditions, except ;
+## answer_a
+Severe anemia
+## explanation_a
+Severe anaemia genuinely widens pulse pressure (via a hyperdynamic circulation with raised stroke volume from reduced blood viscosity), so not the exception.
+## answer_b
+Aortic regurge
+## explanation_b
+Aortic regurgitation genuinely widens pulse pressure — diastolic pressure falls sharply as blood regurgitates back into the ventricle, while systolic pressure rises from the larger effective stroke volume — so not the exception.
+## answer_c
+Hemorrhage
+## explanation_c
+The exception, and the answer. Hemorrhage lowers stroke volume (via reduced venous return and preload), and a lower stroke volume narrows, not widens, pulse pressure — the opposite direction from the other three listed conditions.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## answer_d
+Atherosclerosis
+## explanation_d
+Atherosclerosis genuinely widens pulse pressure by lowering arterial compliance — the stiffer artery lets systolic pressure rise and diastolic pressure fall for the same stroke volume — so not the exception.
+## correct_answer
+C
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify hemorrhage, which lowers stroke volume and so narrows (not widens) pulse pressure, as the exception among conditions that widen pulse pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p17 q130. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-236606676652
+## title
+Which of the given terms is defined as “the difference between the systolic and the dia…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the given terms is defined as “the difference between the systolic and the diastolic pressures”?
+## answer_a
+Blood Pressure
+## explanation_a
+"Blood pressure" is the broader general term, not specifically defined as this particular difference.
+## answer_b
+Pulse Pressure
+## explanation_b
+Correct. Pulse pressure is defined precisely as the difference between systolic and diastolic arterial pressure, normally about 30-50 mmHg, reflecting the pressure swing produced by each heartbeat's stroke volume.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## answer_c
+Mean Arterial Pressure
+## explanation_c
+Mean arterial pressure is the average pressure over the cardiac cycle (approximately diastolic + one-third of the pulse pressure), not the systolic-diastolic difference itself.
+## answer_d
+End-ventricular Pressure
+## explanation_d
+"End-ventricular pressure" is not a standard defined term for the systolic-diastolic difference in the arterial system.
+## correct_answer
+B
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define pulse pressure as the difference between systolic and diastolic arterial pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p9 q36. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-154D071DCD20
+## title
+The following data are obtained from a patient connected to a monitor: ystolic blood pr…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following data are obtained from a patient connected to a monitor: ystolic blood pressure = 120 mmHg; Diastolic blood pressure = 70 mmHg Central venous pressure = 2 mmHg; Heart Rate (HR) = 100 beats/min Cardiac output (COP) = 6000mI/min; From these data, one can determine that the:
+## answer_a
+Pulse pressure is 50 mmHg
+## explanation_a
+Correct. Pulse pressure equals systolic minus diastolic blood pressure: 120 - 70 = 50 mmHg, exactly matching this option.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## answer_b
+Mean arterial pressure (MAP) is 94 mmHg
+## explanation_b
+The standard MAP approximation (diastolic + one-third pulse pressure) gives 70 + (1/3)(50) = roughly 87 mmHg from this data, not 94 mmHg as this option states.
+## answer_c
+Total peripheral resistance (TPR) is approximately 40 resistance units
+## explanation_c
+The standard TPR calculation ((MAP - CVP) / CO) does not yield approximately 40 resistance units from this data using the standard MAP approximation and the given cardiac output.
+## answer_d
+Stroke volume (SV) is 50 ml
+## explanation_d
+Stroke volume from this data is cardiac output divided by heart rate: 6000 mL/min / 100 beats/min = 60 mL, not the 50 mL this option states.
+## correct_answer
+A
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+Calculate pulse pressure as systolic minus diastolic pressure from a clinical data panel, as opposed to miscalculated stroke volume, mean arterial pressure or total peripheral resistance values.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p4 q24. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-71AE1B449F44
+## title
+An increase in which of the following would be expected to decrease the blood flow in a…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+An increase in which of the following would be expected to decrease the blood flow in a vessel ,
+## answer_a
+Pressure gradient across a vessel
+## explanation_a
+A larger pressure gradient (deltaP) across a vessel INCREASES flow (F = deltaP/R), it does not decrease it.
+## answer_b
+Radius of a vessel
+## explanation_b
+A larger vessel radius sharply LOWERS resistance (inversely proportional to radius to the fourth power via Poiseuille's law) and so INCREASES flow, it does not decrease it.
+## answer_c
+Plasma colloid osmotic pressure
+## explanation_c
+Plasma colloid osmotic pressure governs trans-capillary fluid exchange (the Starling forces), not the pressure-gradient/resistance relationship that determines a vessel's own blood flow.
+## answer_d
+Viscosity of the blood
+## explanation_d
+Correct. Increased blood viscosity raises resistance to flow (viscosity sits in the numerator of Poiseuille's law, which underlies the resistance term in F = deltaP/R), and for an unchanged pressure gradient, higher resistance means lower flow.
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## correct_answer
+D
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that increased blood viscosity decreases blood flow (by raising resistance), as opposed to increased pressure gradient or vessel radius, which increase flow, or plasma colloid osmotic pressure, which does not directly determine vascular flow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q124. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CD073B0967EA
+## title
+If a patient at rest has a systolic/diastolic blood pressure of 140/80 mmHg and a cardi…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If a patient at rest has a systolic/diastolic blood pressure of 140/80 mmHg and a cardiac outputofS 07 L/min, what is his total peripheral resistance? ‏سنن‎ ‎a- 18 mmHg x min/L
+## answer_a
+18 mmHg x min/L
+## explanation_a
+18 mmHg x min/L does not match this patient's own calculated value; it is the book's own separate worked example at different numbers (MAP 90, CO 5).
+## answer_b
+20 mmHg x min/L
+## explanation_b
+Correct. Mean arterial pressure is approximated as diastolic pressure plus one-third of the pulse pressure: 80 + (1/3)(140-80) = 80 + 20 = 100 mmHg. Total peripheral resistance equals mean arterial pressure divided by cardiac output: 100 mmHg / 5 L/min = 20 mmHg x min/L.
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## answer_c
+22 mmHg x min/L
+## explanation_c
+22 mmHg x min/L does not match the calculated value of 20 mmHg x min/L from this patient's own data.
+## answer_d
+25 mmHg x min/L Page 3 of
+## explanation_d
+25 mmHg x min/L does not match the calculated value of 20 mmHg x min/L from this patient's own data.
+## correct_answer
+B
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+Calculate total peripheral resistance as mean arterial pressure divided by cardiac output, using the diastolic + one-third pulse-pressure approximation for MAP.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p4 q26. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6001ACD02A54
+## title
+When the radius of the resistance vessels is increased, which of the following is incre…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+When the radius of the resistance vessels is increased, which of the following is increased?
+## answer_a
+Systolic blood pressure
+## explanation_a
+Increasing arteriolar radius, by lowering downstream resistance, tends to lower rather than raise systolic pressure at a fixed cardiac output.
+## answer_b
+Diastolic blood pressure
+## explanation_b
+Increasing arteriolar radius lowers, rather than raises, diastolic pressure at a fixed cardiac output, since it lowers total peripheral resistance.
+## answer_c
+Viscosity of the blood
+## explanation_c
+Vessel radius does not determine blood viscosity, an independent physical property of the blood itself (set by haematocrit, plasma protein content and temperature).
+## answer_d
+Capillary blood flow
+## explanation_d
+Correct. Increasing the radius of the resistance vessels (arterioles) sharply lowers vascular resistance (inversely proportional to radius to the fourth power via Poiseuille's law), and since flow equals the pressure gradient divided by resistance, this directly raises blood flow to the downstream capillary bed for a given driving pressure.
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## correct_answer
+D
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that increasing arteriolar (resistance vessel) radius raises capillary blood flow, via Poiseuille's law lowering resistance, as opposed to raising systolic or diastolic pressure, or blood viscosity, which it does not directly change.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p9 q62. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D1B83F2C38B5
+## title
+When the viscosity of blood increases, which of the following is increased
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+When the viscosity of blood increases, which of the following is increased
+## answer_a
+Mcan blood pressure
+## explanation_a
+Correct. Increased blood viscosity raises vascular resistance; since mean arterial pressure equals cardiac output times total peripheral resistance, a rise in resistance at an unchanged cardiac output raises mean arterial pressure.
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## answer_b
+Radius of the resistance vessels
+## explanation_b
+Blood viscosity is a property of the blood itself, not of the vessel wall; it does not directly change the radius of the resistance vessels (arterioles), which is instead set by vasomotor tone.
+## answer_c
+Radius of the capacitance vessels
+## explanation_c
+Blood viscosity does not directly change the radius of the capacitance vessels (veins), which is set by venous tone, not by the physical properties of the blood flowing through them.
+## answer_d
+Central venous pressure ١
+## explanation_d
+Central venous pressure is set by venous return and right heart function, not directly by blood viscosity.
+## correct_answer
+A
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that increased blood viscosity raises resistance and so, at an unchanged cardiac output, raises mean arterial pressure, as opposed to changing resistance-vessel radius, capacitance-vessel radius or central venous pressure directly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q125. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3B5DE99E918F
+## title
+Quantitatively, the most important means for increasing blood flow to an actively metab…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Quantitatively, the most important means for increasing blood flow to an actively metabolizing tissue is:
+## answer_a
+Increase in arterial blood pressure
+## explanation_a
+A rise in overall arterial blood pressure is not the quantitatively dominant mechanism matching flow to one tissue's own rising metabolic demand — it would raise flow everywhere non-selectively, not target the active tissue specifically.
+## answer_b
+Increase in total peripheral resistance
+## explanation_b
+An increase in total peripheral resistance would, if anything, tend to LOWER flow overall (F = deltaP/R) — the opposite of what is needed to increase flow to a metabolically active tissue.
+## answer_c
+Decrease in stroke volume
+## explanation_c
+A decrease in stroke volume would lower cardiac output and, if anything, tend to lower flow generally, not selectively raise it to an actively metabolizing tissue.
+## answer_d
+Decrease in local vascular resistance
+## explanation_d
+Correct. Local metabolic vasodilation — a fall in local vascular resistance driven by tissue metabolites (CO2, H+, adenosine) and hypoxia accumulating during increased metabolic activity — is quantitatively the dominant mechanism matching blood flow to an actively metabolizing tissue's own needs, since flow is inversely proportional to resistance for any given driving pressure.
+
+Why this is right:
+- In the myogenic mechanism of autoregulation, arteriolar stretch from a pressure rise stimulates calcium entry into smooth muscle fibres, which contract with greater force, producing vasoconstriction.
+## correct_answer
+D
+## main_concept
+CON-CVS-56A68328FD03C7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that a fall in local vascular resistance, driven by local metabolic vasodilator factors (active hyperaemia), is quantitatively the dominant mechanism increasing blood flow to an actively metabolizing tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p9 q66. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-24A2D123AE9E
+## title
+The tendency of blood flow to be turbulent increases when there is ;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The tendency of blood flow to be turbulent increases when there is ;
+## answer_a
+decrease in blood flow velocity.
+## explanation_a
+A decrease in blood flow velocity LOWERS, not raises, the Reynolds number and so lowers the tendency toward turbulence.
+## answer_b
+decrease viscosity of blood.
+## explanation_b
+Correct. The Reynolds number places viscosity in its denominator, so a decrease in blood viscosity RAISES the Reynolds number and so raises the tendency toward turbulent flow — the opposite direction from resistance, which rises (not falls) with viscosity.
+
+Why this is right:
+- Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises.
+## answer_c
+None of the above
+## explanation_c
+Incorrect as a standalone option: option B genuinely raises turbulence tendency, so "none of the above" cannot be correct.
+## answer_d
+All of the above.
+## explanation_d
+Incorrect: only option B (decreased viscosity) genuinely raises turbulence tendency among the listed options; option A (decreased velocity) lowers it, so "all of the above" cannot be correct.
+## correct_answer
+B
+## main_concept
+CON-CVS-BE644093FBBA69
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that decreased blood viscosity increases the Reynolds number and so the tendency toward turbulent flow, as opposed to decreased velocity, which lowers it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p15 q115. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-76494C66D3C4
+## title
+The pressure in a blood vessel at which flow ceases is called:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The pressure in a blood vessel at which flow ceases is called:
+## answer_a
+mean arterial pressure
+## explanation_a
+Mean arterial pressure is the average pressure across the cardiac cycle, not specifically the threshold pressure at which a vessel collapses and flow ceases.
+## answer_b
+pulse pressure
+## explanation_b
+Pulse pressure is the difference between systolic and diastolic pressure, an unrelated quantity to the pressure at which a vessel collapses.
+## answer_c
+critical closing pressure
+## explanation_c
+Correct. Critical closing pressure is the specific transmural pressure below which a blood vessel with active vascular smooth-muscle tone collapses completely, so that flow abruptly ceases rather than tapering off gradually.
+
+Why this is right:
+- In a vessel with active vascular smooth-muscle tone, flow does not fall smoothly to zero as distending (transmural) pressure is lowered.
+## answer_d
+perfusion pressure
+## explanation_d
+Perfusion pressure is the pressure gradient actually driving flow through an organ, not the specific threshold pressure at which a vessel collapses.
+## correct_answer
+C
+## main_concept
+CON-CVS-CF72E21EE3FCEF
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Define critical closing pressure as the pressure at which a blood vessel collapses and flow ceases, as opposed to mean arterial, pulse or perfusion pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q2. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

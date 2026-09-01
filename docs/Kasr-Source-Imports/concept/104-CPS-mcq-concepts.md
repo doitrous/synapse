@@ -11,7 +11,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
-    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 10 questions, 3 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
@@ -41,9 +41,9 @@
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 17 questions, 4 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 16 questions, 6 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 25 questions, 9 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -52,6 +52,8 @@
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
+    Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 16 questions, 5 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
@@ -67,7 +69,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  116 questions were excluded and 0 held back for having no
+  121 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1129,6 +1131,10 @@ autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotro
 src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-CONDUCTION
 ## field_notes
@@ -6840,18 +6846,21 @@ kau
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p23 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -6934,6 +6943,57 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-131F06D46D3B84
+## label
+The peripheral chemoreceptor reflex, driven by low arterial PO2 in the carotid and aortic bodies, raises sympathetic discharge to correct a markedly low arterial pressure
+## canonical_key
+peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p23 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies" already has a pinned id in this module (CON-CVS-131F06D46D3B84); mintConceptId derives the same id fresh (CON-CVS-131F06D46D3B84) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-8E2C7AEC68C4CB
+## label
+The CNS ischaemic response, triggered when arterial pressure falls below about 50 mmHg, is the most powerful activator of the sympathetic nervous system
+## canonical_key
+cns-ischemic-response.trigger-and-effect
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "cns-ischemic-response.trigger-and-effect" already has a pinned id in this module (CON-CVS-8E2C7AEC68C4CB); mintConceptId derives the same id fresh (CON-CVS-8E2C7AEC68C4CB) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-BBAEB2E1A51102
+## label
+The Cushing reflex — raised arterial pressure with bradycardia — is triggered by raised intracranial pressure compressing the cerebral vessels and making the vasomotor area ischaemic
+## canonical_key
+cushing-reflex.trigger-and-triad
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "cushing-reflex.trigger-and-triad" already has a pinned id in this module (CON-CVS-BBAEB2E1A51102); mintConceptId derives the same id fresh (CON-CVS-BBAEB2E1A51102) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -8457,6 +8517,344 @@ direct_statement
 [clear]
 ## related_article_ids
 ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-6D8E2D62A9F51E
+## label
+Interstitial fluid volume depends on capillary hydrostatic and osmotic pressure, the filtration coefficient, the number of open capillaries, and lymph flow, and oedema follows when any of these shifts toward filtration
+## canonical_key
+interstitial-fluid.volume-determinants-and-causes-of-oedema
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+## article_ids
++ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## field_notes
+canonical_key "interstitial-fluid.volume-determinants-and-causes-of-oedema" already has a pinned id in this module (CON-CVS-6D8E2D62A9F51E); mintConceptId derives the same id fresh (CON-CVS-6D8E2D62A9F51E) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-FA5FB57963DDF7
+## label
+Blood flow equals the pressure gradient divided by resistance, and applied to the whole circulation this gives a systemic resistance of about 18 mmHg/L/min against a pulmonary resistance of only about 1.4 mmHg/L/min
+## canonical_key
+hemodynamics.flow-pressure-resistance-relationship
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+## article_ids
++ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "hemodynamics.flow-pressure-resistance-relationship" already has a pinned id in this module (CON-CVS-FA5FB57963DDF7); mintConceptId derives the same id fresh (CON-CVS-FA5FB57963DDF7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-A0579343614BCD
+## label
+Systolic, diastolic and mean arterial pressure are distinct quantities, mean arterial pressure sits nearer diastolic because diastole outlasts systole, and pulse pressure widens when arterial compliance falls
+## canonical_key
+arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p17 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure" already has a pinned id in this module (CON-CVS-A0579343614BCD); mintConceptId derives the same id fresh (CON-CVS-A0579343614BCD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-56A68328FD03C7
+## label
+Local blood flow is matched to tissue metabolism by two mechanisms — active hyperaemia driven by vasodilator metabolites and hypoxia, and myogenic/metabolic autoregulation that returns flow toward normal after a change in perfusion pressure
+## canonical_key
+local-blood-flow-regulation.myogenic-and-metabolic-autoregulation
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+## article_ids
++ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "local-blood-flow-regulation.myogenic-and-metabolic-autoregulation" already has a pinned id in this module (CON-CVS-56A68328FD03C7); mintConceptId derives the same id fresh (CON-CVS-56A68328FD03C7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Blood flow becomes turbulent, rather than laminar, when its Reynolds number rises — driven up by higher velocity or vessel diameter and DOWN by higher viscosity — and partial vessel occlusion promotes turbulence locally by raising velocity through the narrowed segment
+## id
+CON-CVS-BE644093FBBA69
+## canonical_key
+turbulent-blood-flow.reynolds-number-determinants
+## definition
+Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises. A higher Reynolds number means a greater tendency toward turbulence; a decrease in blood viscosity therefore increases the tendency toward turbulence, the opposite of what raising viscosity does. Partial occlusion (stenosis or narrowing) of a blood vessel forces the same volume of blood through a smaller cross-sectional area, sharply increasing local flow velocity at and just beyond the narrowed segment, which promotes turbulence there even if flow elsewhere in the vessel remains laminar — the physical basis of vascular murmurs and bruits.
+## explicit_objective
+State that the tendency of blood flow to become turbulent rises with velocity, vessel diameter and blood density, falls with blood viscosity, and that partial vessel occlusion promotes local turbulence by raising local velocity.
+## pitfalls
+Assuming turbulence tendency rises with viscosity, by analogy with resistance (which does rise with viscosity). The Reynolds number places viscosity in its denominator, so turbulence tendency runs the OPPOSITE direction from resistance as viscosity changes.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Reynolds number | Turbulent vs laminar flow | Vascular murmurs and bruits
+## article_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The tendency for blood flow to be turbulent is increased by 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS article states the Reynolds-number relationship explicitly; this is standard, undisputed haemodynamics (the same physics underlying auscultatory blood-pressure measurement and vascular bruits), flagged for the article-authoring lane rather than invented without any source at all.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Critical closing pressure is the transmural pressure below which a blood vessel with active smooth-muscle tone collapses completely and flow abruptly ceases, rather than simply falling in proportion to the declining pressure
+## id
+CON-CVS-CF72E21EE3FCEF
+## canonical_key
+critical-closing-pressure.definition-and-mechanism
+## definition
+In a vessel with active vascular smooth-muscle tone, flow does not fall smoothly to zero as distending (transmural) pressure is lowered. Below a specific pressure — the critical closing pressure — the vessel wall's own tension exceeds the distending pressure trying to keep it open, and the vessel collapses completely, so flow ceases abruptly rather than tapering off gradually. This is distinct from mean arterial pressure (the average pressure across the cardiac cycle), pulse pressure (the systolic-diastolic difference) and perfusion pressure (the pressure gradient actually driving flow through an organ) — critical closing pressure is specifically the threshold transmural pressure at which a vessel with tone snaps shut.
+## explicit_objective
+Define critical closing pressure as the transmural pressure at which a toned blood vessel collapses and flow abruptly ceases, and distinguish it from mean arterial, pulse and perfusion pressure.
+## pitfalls
+Assuming blood flow simply approaches zero smoothly as vessel pressure falls, the way it would in a rigid tube. A vessel with active smooth-muscle tone instead collapses abruptly at its own critical closing pressure, a genuinely different behaviour from a passive conduit.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p47 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Critical closing pressure | Vessel collapse pressure
+## article_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The pressure in a blood vessel at which flow ceases is called:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS article names critical closing pressure; standard, undisputed vascular physiology (the behaviour of a collapsible tube with active wall tension), flagged for the article-authoring lane rather than invented without any source at all.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids

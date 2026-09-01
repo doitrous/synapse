@@ -208,5 +208,73 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "Option B is an uninterpretable extraction fragment ('The orig decreases the contractility') with no seed-level field able to repair option text; the bank's own recorded variant of this same paper shows a coherent B ('Due to activation of L-type Ca++ channels'), confirming this copy is corrupted rather than merely terse. The credited fact (sympathetic stimulation speeds SA-node discharge via the funny current) is already taught cleanly by the sibling question what-is-the-effect-of-sympathetic-stimulation-on-the-membran-6c7c92a3, so no teaching content is lost.",
     },
+    {
+      // Bank-tagged leaf: "Vascular Function" — genuinely this file's own
+      // chronotropy-dromotropy content (vagal-tone withdrawal raising
+      // heart rate), routed here rather than onto the sibling baroreceptor
+      // concept, since the credited fact is specifically about
+      // parasympathetic tone's effect on the SA node, which this
+      // concept's own definition already states directly ("resting vagal
+      // tone dominates... resting heart rate is slower than the SA node's
+      // own intrinsic rate").
+      key: "concerning-the-effects-of-autonomic-nervous-activity-on-the-4c9f1f9f",
+      conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that inhibiting parasympathetic (vagal) nerves raises heart rate — removing the vagal brake on the SA node — as opposed to raising or lowering total peripheral resistance directly, or that parasympathetic stimulation weakens ventricular contraction directly.",
+      explanations: {
+        A: "Correct. Parasympathetic (vagal) tone normally holds the SA node's own intrinsic discharge rate down; inhibiting it removes this brake, so heart rate rises toward the SA node's faster intrinsic rate.",
+        B: "Total peripheral resistance is set chiefly by sympathetic, not parasympathetic, tone on the arterioles (parasympathetic innervation of peripheral vasculature is minimal); inhibiting parasympathetic nerves does not directly raise TPR.",
+        C: "For the same reason as B, inhibiting parasympathetic nerves does not directly lower TPR either — TPR is a sympathetic, not a parasympathetic, story.",
+        D: "Parasympathetic (vagal) innervation of the ventricular myocardium is sparse compared with the atria; stimulating it slows the SA node and AV conduction chiefly, with only a minor direct effect on ventricular contractile strength, so this overstates a direct parasympathetic weakening of ventricular contraction.",
+      },
+    },
+    {
+      // Bank-tagged leaf: "Vascular Function" — genuinely this file's own
+      // chronotropy content (vagal-tone withdrawal raising HR, and via
+      // increased CO, arterial blood pressure). **Gap disclosed**: this
+      // concept's own definition states the vagal-tone/HR fact directly
+      // but not the further HR-to-CO-to-ABP chain; that chain is basic,
+      // undisputed physiology, already established elsewhere in this same
+      // pipeline's own cardiac-output.determinants-and-directional-
+      // effects concept (physiology-cardiac-output-formula.ts).
+      key: "arterial-blood-pressure-may-be-increased-by-d7be95b1",
+      conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that decreased parasympathetic tone raises heart rate and so cardiac output and arterial blood pressure, as opposed to decreased sympathetic tone, venodilation, or decreased ADH release, each of which lowers arterial blood pressure instead.",
+      explanations: {
+        A: "Backwards. Decreased sympathetic tone reduces vasoconstriction and cardiac stimulation, LOWERING arterial blood pressure, not raising it.",
+        B: "Backwards. Venodilation pools more blood in the compliant venous capacitance vessels, reducing venous return and preload, which LOWERS, not raises, cardiac output and arterial blood pressure.",
+        C: "Correct. A decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, allowing heart rate to rise; a higher heart rate raises cardiac output, and a higher cardiac output raises arterial blood pressure (MAP = CO x TPR).",
+        D: "Backwards. Decreased antidiuretic hormone (vasopressin) release increases free-water excretion by the kidney, tending to LOWER, not raise, circulating blood volume and so arterial blood pressure.",
+      },
+    },
+    {
+      key: "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-6c505d42",
+      conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that decreased parasympathetic tone raises heart rate and so cardiac output and arterial blood pressure, as opposed to decreased sympathetic tone, venodilation, or decreased ADH release, each of which lowers arterial blood pressure instead.",
+      explanations: {
+        A: "Backwards. Decreased sympathetic tone reduces vasoconstriction and cardiac stimulation, LOWERING arterial blood pressure, not raising it.",
+        B: "Backwards. Venodilation pools more blood in the compliant venous capacitance vessels, reducing venous return and preload, which LOWERS, not raises, cardiac output and arterial blood pressure.",
+        C: "Correct. A decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, raising heart rate and so cardiac output, and thereby increasing arterial blood pressure.",
+        D: "Backwards. Decreased antidiuretic hormone (vasopressin) release increases free-water excretion by the kidney, tending to LOWER, not raise, circulating blood volume and so arterial blood pressure.",
+      },
+    },
+    {
+      key: "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-e73503b4",
+      conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that decreased parasympathetic tone raises heart rate and so cardiac output and arterial blood pressure, as opposed to decreased sympathetic tone, venodilation, or decreased ADH release, each of which lowers arterial blood pressure instead.",
+      explanations: {
+        A: "Backwards. Decreased sympathetic tone reduces vasoconstriction and cardiac stimulation, LOWERING arterial blood pressure, not raising it.",
+        B: "Backwards. Venodilation pools more blood in the compliant venous capacitance vessels, reducing venous return and preload, which LOWERS, not raises, cardiac output and arterial blood pressure.",
+        C: "Correct. A decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, raising heart rate and so cardiac output, and thereby increasing arterial blood pressure.",
+        D: "Backwards. Decreased antidiuretic hormone (vasopressin) release increases free-water excretion by the kidney, tending to LOWER, not raise, circulating blood volume and so arterial blood pressure.",
+      },
+    },
   ],
 }
