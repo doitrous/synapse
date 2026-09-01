@@ -2,6 +2,25 @@
 
 Generated 2026-08-22 from `/Users/doitrous/Desktop/Kasr Alainy/y2`. **631 files.** Machine-readable copy: [`kasr-y2-sources.json`](kasr-y2-sources.json).
 
+## Re-verification (2026-09-02)
+
+The canonical corpus root has since moved one directory level: `/Users/doitrous/Desktop/
+Universities/Kasr Alainy/y2/` (this manifest's own `corpusRoot`/`absolutePath` fields
+still say `/Users/doitrous/Desktop/Kasr Alainy/y2` — stale, do not follow literally).
+Re-verified by content, not filename: hashed every file currently in the canonical tree
+(622 files, excluding `README.md`) and compared to all 429 distinct `sha256` values this
+manifest recorded. **Result: zero content loss and zero new content** — every distinct
+source hash from 2026-08-22 is still present on disk today, byte-identical; nothing was
+deleted, and nothing was added.
+
+What changed is filenames and duplicate-path bookkeeping, not bytes: 218 of the 631
+manifest paths no longer resolve verbatim (147 of those gained a `Department Book - `
+prefix inside `Dpt` priority folders; the remainder are whitespace/timestamp cleanup on
+EOM/EOY filenames), and 8 rows' worth of duplicate-path bookkeeping was tidied away
+(631 rows → 622 files on disk today, all accounted for by the hash comparison). A reader
+matching a manifest row to disk should match by `sourceId`/`sha256`, not by `fileName`,
+for any row touched by this drift.
+
 Every file has a row: module, subject (folder vs. filename, and which won), instructor,
 priority, exam-type evidence and year signals — see
 `docs/Kasr-Source-Imports/manifest/kasr-y2-sources.json`. The corpus arrived already

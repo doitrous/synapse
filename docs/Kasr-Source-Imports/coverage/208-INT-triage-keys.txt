@@ -1,0 +1,29 @@
+208 INT — triage keys
+Source: 208 INT/EOM/EOM - End of INT - 208 2023 195 With Answers.pdf (sitting year 2023,
+manifest sourceId src_ — see kasr-y2-sources.json, corpusRelativePath "208 INT/EOM/EOM -
+End of INT - 208 2023 195 With Answers.pdf")
+Method: printed answer key, page 21 ("ANSWERS INT 208"), native text layer, confirmed by
+render at 200 dpi (no highlighting on the questions themselves — pages 1-20's occasional
+capitalised option letter, e.g. "C. Adhesion of leukocytes to endothelium" on Q1, is NOT
+a key marking; it does not correlate with the printed key and must not be used as one —
+this is the "answer keys hide/mislead" hazard, confirmed by render before trusting text).
+Note: the source's own key table repeats "60.D" at the start of the next column (both
+occurrences agree; not a conflict, just the source's own layout quirk).
+
+Q1.D    Q2.B    Q3.B    Q4.B    Q5.C    Q6.D    Q7.C    Q8.D    Q9.C    Q10.B
+Q11.C   Q12.A   Q13.C   Q14.B   Q15.C   Q16.C   Q17.A   Q18.A   Q19.D   Q20.C
+Q21.C   Q22.C   Q23.A   Q24.B   Q25.C   Q26.D   Q27.B   Q28.D   Q29.B   Q30.D
+Q31.B   Q32.B   Q33.D   Q34.A   Q35.C   Q36.C   Q37.B   Q38.A   Q39.B   Q40.A
+Q41.C   Q42.C   Q43.D   Q44.A   Q45.D   Q46.B   Q47.B   Q48.B   Q49.A   Q50.C
+Q51.D   Q52.C   Q53.C   Q54.C   Q55.A   Q56.D   Q57.C   Q58.C   Q59.B   Q60.D
+Q61.D   Q62.D   Q63.A   Q64.B   Q65.B   Q66.C   Q67.A   Q68.D   Q69.B   Q70.C
+Q71.D   Q72.B   Q73.A   Q74.B   Q75.D   Q76.B   Q77.B   Q78.D   Q79.C   Q80.A
+Q81.B   Q82.D   Q83.D   Q84.B   Q85.D   Q86.B   Q87.D   Q88.C   Q89.A   Q90.C
+Q91.A   Q92.A   Q93.C   Q94.C   Q95.D   Q96.D   Q97.B   Q98.C   Q99.C   Q100.B
+Q101.C  Q102.A  Q103.B  Q104.D  Q105.D  Q106.D  Q107.B  Q108.C  Q109.C  Q110.B
+Q111.D  Q112.A  Q113.A  Q114.C  Q115.D  Q116.B  Q117.B  Q118.A  Q119.C  Q120.D
+
+120/120 questions triaged, 120/120 keys recovered (all from the printed key page, no
+inference needed). Remaining 208 INT papers (23 more tier 1-3 files, see
+coverage/KAU-Y2-priority-sources.md) not yet triaged — this file covers the first paper
+only.
