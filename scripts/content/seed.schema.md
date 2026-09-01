@@ -55,6 +55,9 @@ given. Never hand-edit the generated `.md`; fix the seed and re-emit.
       "reasoning_level": 1,
       "learning_objective": "Distinguish tumour suppressor genes from proto-oncogenes.",
       "media_recommendations": "",
+      "library_ids": ["ART-A"],
+      "module_subject": "ASU-MBG > Molecular Biology > Cancer, TP53 subsection",
+      "source_citation": "TP53 review, p.{page}",
       "field_notes": { "keySource": "printed answer table p.30", "asu": "MBG bank p.12" },
       "author_notes": ""
     },
@@ -65,6 +68,23 @@ given. Never hand-edit the generated `.md`; fix the seed and re-emit.
 
 The full example above (`scripts/content/fixtures/seed/ASU-MBG-cancer-example.json`)
 is the fixture the tests run against — it doubles as documentation.
+
+## Defaults are per-field, and any default can be overridden per question
+
+`defaults` sets the value each emitted field falls back to when a question
+doesn't say otherwise. Every emitted field resolves independently as
+`question[key] ?? defaults[key] ?? <built-in empty>` — a question that sets
+its own `library_ids`, `module_subject`, `source_citation`, or any other key
+that also appears in `defaults` (including list/object fields like
+`resource_ids`, `universities`, `years` and `exam_weight_by_year`) is not
+merged with the default, it replaces it outright, and every other field
+still falls back to `defaults` as usual. This is what lets one seed file
+hold a cluster whose questions cite different articles or pages: put the
+common case in `defaults.source_citation` and give the odd ones out their
+own `source_citation` (and `page` — see below) directly on the question.
+`{page}` substitutes into whichever `source_citation` wins, from that same
+question's own `page` (falling back to `defaults.page` if the seed sets
+one) — a question can set `source_citation`, `page`, both, or neither.
 
 ## Enforced rules (exit 1 with `error: <key>: <reason>`, nothing written)
 

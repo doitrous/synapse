@@ -44,6 +44,51 @@ test('rejects an option starting with +', () => {
   assert.equal(run(f).status, 1);
 });
 
+function parseRecords(stdout) {
+  return stdout
+    .trim()
+    .split(/\n\n---\n\n/)
+    .map((record) => record.replace(/^# Item\n\n/, ''))
+    .map((record) => {
+      const fields = {};
+      for (const block of record.split(/\n\n(?=## )/)) {
+        const m = block.match(/^## (\w+)\n?([\s\S]*)$/);
+        if (m) fields[m[1]] = m[2];
+      }
+      return fields;
+    });
+}
+
+test('a per-question value overrides the same-named default, field by field', () => {
+  const seed = JSON.parse(readFileSync(SEED, 'utf8'));
+  const q1 = seed.questions[0]; // cancer-q01: no hold, real options/explanations
+  const q2 = JSON.parse(JSON.stringify(q1)); // same shape, no overrides of its own
+  q2.key = 'cancer-q03';
+  q2.id = 'QST-ASUMBG-CANCER-Q03';
+
+  q1.library_ids = ['ART-A'];
+  q1.module_subject = 'X > Y';
+  q1.source_citation = 'Paper p.{page}';
+  q1.page = 7;
+
+  seed.questions = [q1, q2]; // drop the held cancer-q02 fixture entry entirely
+
+  const f = path.join(mkdtempSync(path.join(tmpdir(), 'seed-')), 's.json');
+  writeFileSync(f, JSON.stringify(seed));
+  const r = run(f);
+  assert.equal(r.status, 0, r.stderr);
+
+  const [r1, r2] = parseRecords(r.stdout);
+  assert.equal(r1.library_ids, 'ART-A');
+  assert.equal(r1.module_subject, 'X > Y');
+  assert.equal(r1.source_citation, 'Paper p.7');
+
+  // q2 set no overrides, so every one of those keys falls back to `defaults`:
+  assert.equal(r2.library_ids ?? '', '');
+  assert.equal(r2.module_subject, 'ASU-MBG > Molecular Biology > Cancer');
+  assert.equal(r2.source_citation, 'ASU-MBG Cancer chapter question bank, p.12');
+});
+
 test('generated batch passes medical:batch standalone', () => {
   const out = path.join(mkdtempSync(path.join(tmpdir(), 'batch-')), 'ASU-MBG-cancer-mcq.md');
   assert.equal(run(SEED, '--out', out).status, 0);
