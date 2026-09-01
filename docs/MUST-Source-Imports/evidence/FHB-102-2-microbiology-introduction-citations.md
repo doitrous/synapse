@@ -237,3 +237,123 @@ The official MUST teaching deck directly supports the unchanged printed global Q
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q85-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q85-01
+
+## resource_id
+src_88ddfa49fe01adee5444
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching compares Gram-positive and Gram-negative bacterial cell walls and their different peptidoglycan thicknesses.
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Introduction to Microbiology and Bacterial Cell Structure — Gram-stain cell-wall basis
+
+## locator_detail
+PDF page 28, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q85 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q88-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q88-01
+
+## resource_id
+src_88ddfa49fe01adee5444
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching states that the new system of classification is based on molecular biology and genetic composition.
+
+## locator_type
+page
+
+## locator_page
+24
+
+## locator_section
+Introduction to Microbiology and Bacterial Cell Structure — Modern bacterial classification
+
+## locator_detail
+PDF page 24, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q88 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MICRO-Q90-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MICRO-Q90-01
+
+## resource_id
+src_88ddfa49fe01adee5444
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed teaching lists penicillins among drugs that prevent synthesis of the peptidoglycan layer of the bacterial cell wall.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Introduction to Microbiology and Bacterial Cell Structure — Peptidoglycan as an antibacterial target
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q90 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

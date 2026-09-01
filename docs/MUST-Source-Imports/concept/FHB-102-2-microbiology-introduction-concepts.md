@@ -133,7 +133,7 @@ Which of the following is NOT considered a microorganism? Printed key D; options
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q62; printed D agrees with the governed MUST teaching. The nine held questions remain outside this concept.
+No key conflict affects authored global Q62; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -314,7 +314,7 @@ What is the main function of saprophytes? Printed key B; options retained in the
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q63; printed B agrees with the governed MUST teaching. The nine held questions remain outside this concept.
+No key conflict affects authored global Q63; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -495,7 +495,7 @@ In the scientific nomenclature, which part of the name is capitalized? Printed k
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q64; printed B agrees with the governed MUST teaching. The nine held questions remain outside this concept.
+No key conflict affects authored global Q64; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -681,7 +681,7 @@ CON-INF-1165F8B9564697
 CON-INF-29351FD540E214
 
 ## conflicts
-No key conflict affects authored global Q65; printed C agrees with the governed MUST teaching. No key conflict affects authored global Q66; printed B agrees with the governed MUST teaching. The nine held questions remain outside this concept.
+No key conflict affects authored global Q65; printed C agrees with the governed MUST teaching. No key conflict affects authored global Q66; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -863,7 +863,7 @@ CON-FND-54F59770FE61B9
 concept_a4992569b1751dff3ed9ded3
 
 ## conflicts
-No key conflict affects authored global Q67; printed A agrees with the governed MUST teaching. The nine held questions remain outside this concept.
+No key conflict affects authored global Q67; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -905,6 +905,549 @@ approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
 rejectedMergeCandidateIds: CON-FND-54F59770FE61B9 — concerns fungi specifically as eukaryotes, not the general prokaryote/eukaryote nucleus distinction. concept_a4992569b1751dff3ed9ded3 — a fungi-specific true-nucleus raw identity, not this general cellular comparison.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-95F04C0956E08A
+
+## label
+Gram stain differentiates bacteria by cell-wall structure
+
+## canonical_key
+microbiology.gram-stain.cell-wall-structure-determines-reaction
+
+## aliases
+Gram-stain cell-wall basis
+Cell-wall basis of Gram differentiation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure.
+
+## explicit_objective
+Identify cell-wall structure as the basis used by the Gram stain to differentiate bacteria.
+
+## pitfalls
+Capsule composition, nucleoid shape and growth pattern are not the structural basis of Gram differentiation presented in the governed comparison.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Gram-stain cell-wall basis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Gram-stain cell-wall basis
+
+## article_ids
+ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_88ddfa49fe01adee5444
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q85-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p25 Microbiology Q25 (global Q85); printed answer p27
+src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p28 direct MUST teaching
+
+## original_wording
+The Gram stain differentiates bacteria based on: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_0678baa786a55cfe68dc9d7f
+
+## conflicts
+No key conflict affects authored global Q85; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_0678baa786a55cfe68dc9d7f — broader cell-wall shape, osmotic-protection, division and staining identity; not the exact Gram-stain differentiation basis tested here.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-BED5519A81949A
+
+## label
+Modern bacterial classification uses molecular biology and genetic composition
+
+## canonical_key
+microbiology.classification.molecular-biology-and-genetic-composition
+
+## aliases
+Molecular-genetic bacterial classification
+New bacterial classification basis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The new system of bacterial classification is based on molecular biology and genetic composition.
+
+## explicit_objective
+Recognise molecular biology and genetic composition as the basis of the new classification system.
+
+## pitfalls
+Cell-wall nature, staining characteristics and spore formation are useful bacterial characteristics but are not the new-system basis stated on the governed page.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Modern bacterial classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Modern bacterial classification
+
+## article_ids
+ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_88ddfa49fe01adee5444
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q88-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p26 Microbiology Q28 (global Q88); printed answer p27
+src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p24 direct MUST teaching
+
+## original_wording
+The new system of classification is based on: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q88; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-491A10DF6B6C1E
+
+## label
+Penicillin targets bacterial peptidoglycan synthesis
+
+## canonical_key
+microbiology.beta-lactams.peptidoglycan-layer-target
+
+## aliases
+Penicillin peptidoglycan-layer target
+Beta-lactam cell-wall target
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options.
+
+## explicit_objective
+Select the peptidoglycan layer as the source-level bacterial target of penicillin among the offered structures.
+
+## pitfalls
+The governed teaching links penicillin to peptidoglycan synthesis rather than to ribosomes, plasmids or the cytoplasmic membrane; the literal option wording is preserved without expanding it into an uncited molecular-target claim.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+Peptidoglycan as an antibacterial target
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Peptidoglycan as an antibacterial target
+
+## article_ids
+ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_88ddfa49fe01adee5444
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q90-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p26 Microbiology Q30 (global Q90); printed answer p27
+src_88ddfa49fe01adee5444 | tier 1 local teaching | 2025-02-08 | p32 direct MUST teaching
+
+## original_wording
+Which of the following is the primary target of antibiotics like penicillin? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_2ea5d75f7d95e485adc3d8ef
+
+## conflicts
+No key conflict affects authored global Q90; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_2ea5d75f7d95e485adc3d8ef — covers carbapenem-specific PBP binding and cell-wall inhibition, not the broader source-level penicillin prompt.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

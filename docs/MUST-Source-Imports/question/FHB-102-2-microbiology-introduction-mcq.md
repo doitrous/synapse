@@ -909,3 +909,459 @@ yes
 
 ## author_notes
 Printed source key: Microbiology Q7 (global Q67) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q85
+
+## title
+The Gram stain differentiates bacteria based on:
+
+## question
+The Gram stain differentiates bacteria based on:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_88ddfa49fe01adee5444 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Capsule composition
+
+## explanation_a
+Incorrect. Capsule composition, nucleoid shape and growth pattern are not the structural basis of Gram differentiation presented in the governed comparison. The supported answer is B, Cell wall structure.
+
+## answer_b
+Cell wall structure
+
+## explanation_b
+The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure. The official MUST teaching directly supports Cell wall structure for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Nucleoid shape
+
+## explanation_c
+Incorrect. Capsule composition, nucleoid shape and growth pattern are not the structural basis of Gram differentiation presented in the governed comparison. The supported answer is B, Cell wall structure.
+
+## answer_d
+Growth pattern
+
+## explanation_d
+Incorrect. Capsule composition, nucleoid shape and growth pattern are not the structural basis of Gram differentiation presented in the governed comparison. The supported answer is B, Cell wall structure.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-95F04C0956E08A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Gram-stain cell-wall basis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_88ddfa49fe01adee5444
+
+## learning_objective
+Identify cell-wall structure as the basis used by the Gram stain to differentiate bacteria.
+
+## source_citation
+Absalam101 Part 1, p25, Microbiology Q25 (global Q85), printed key p27 (25 = B); official MUST Introduction to Microbiology and Bacterial Cell Structure, p28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Q25 (global Q85) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q88
+
+## title
+The new system of classification is based on:
+
+## question
+The new system of classification is based on:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_88ddfa49fe01adee5444 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Molecular biology and genetics composition
+
+## explanation_a
+The new system of bacterial classification is based on molecular biology and genetic composition. The official MUST teaching directly supports Molecular biology and genetics composition for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Nature of the cell wall
+
+## explanation_b
+Incorrect. Cell-wall nature, staining characteristics and spore formation are useful bacterial characteristics but are not the new-system basis stated on the governed page. The supported answer is A, Molecular biology and genetics composition.
+
+## answer_c
+Staining characteristics
+
+## explanation_c
+Incorrect. Cell-wall nature, staining characteristics and spore formation are useful bacterial characteristics but are not the new-system basis stated on the governed page. The supported answer is A, Molecular biology and genetics composition.
+
+## answer_d
+Ability to form spores:
+
+## explanation_d
+Incorrect. Cell-wall nature, staining characteristics and spore formation are useful bacterial characteristics but are not the new-system basis stated on the governed page. The supported answer is A, Molecular biology and genetics composition.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-BED5519A81949A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Modern bacterial classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_88ddfa49fe01adee5444
+
+## learning_objective
+Recognise molecular biology and genetic composition as the basis of the new classification system.
+
+## source_citation
+Absalam101 Part 1, p26, Microbiology Q28 (global Q88), printed key p27 (28 = A); official MUST Introduction to Microbiology and Bacterial Cell Structure, p24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Q28 (global Q88) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MICRO-INTRO-Q90
+
+## title
+Which of the following is the primary target of antibiotics like penicillin?
+
+## question
+Which of the following is the primary target of antibiotics like penicillin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_88ddfa49fe01adee5444 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Ribosomes
+
+## explanation_a
+Incorrect. The governed teaching links penicillin to peptidoglycan synthesis rather than to ribosomes, plasmids or the cytoplasmic membrane; the literal option wording is preserved without expanding it into an uncited molecular-target claim. The supported answer is B, Peptidoglycan layer.
+
+## answer_b
+Peptidoglycan layer
+
+## explanation_b
+Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options. The official MUST teaching directly supports Peptidoglycan layer for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Plasmids
+
+## explanation_c
+Incorrect. The governed teaching links penicillin to peptidoglycan synthesis rather than to ribosomes, plasmids or the cytoplasmic membrane; the literal option wording is preserved without expanding it into an uncited molecular-target claim. The supported answer is B, Peptidoglycan layer.
+
+## answer_d
+Cytoplasmic membrane
+
+## explanation_d
+Incorrect. The governed teaching links penicillin to peptidoglycan synthesis rather than to ribosomes, plasmids or the cytoplasmic membrane; the literal option wording is preserved without expanding it into an uncited molecular-target claim. The supported answer is B, Peptidoglycan layer.
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+CON-INF-491A10DF6B6C1E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General bacteriology > Peptidoglycan as an antibacterial target
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_88ddfa49fe01adee5444
+
+## learning_objective
+Select the peptidoglycan layer as the source-level bacterial target of penicillin among the offered structures.
+
+## source_citation
+Absalam101 Part 1, p26, Microbiology Q30 (global Q90), printed key p27 (30 = B); official MUST Introduction to Microbiology and Bacterial Cell Structure, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Q30 (global Q90) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

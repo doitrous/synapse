@@ -261,3 +261,135 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Microbiology Chapters 1–3
 source question: Absalam Microbiology Q7 (global Q67)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q85-01
+
+## concept_id
+CON-INF-95F04C0956E08A
+
+## subject
+Gram stain differentiates bacteria by cell-wall structure
+
+## predicate
+states
+
+## object
+The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure.
+
+## display_text
+The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+source question: Absalam Microbiology Q25 (global Q85)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q88-01
+
+## concept_id
+CON-INF-BED5519A81949A
+
+## subject
+Modern bacterial classification uses molecular biology and genetic composition
+
+## predicate
+states
+
+## object
+The new system of bacterial classification is based on molecular biology and genetic composition.
+
+## display_text
+The new system of bacterial classification is based on molecular biology and genetic composition.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+source question: Absalam Microbiology Q28 (global Q88)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MICRO-Q90-01
+
+## concept_id
+CON-INF-491A10DF6B6C1E
+
+## subject
+Penicillin targets bacterial peptidoglycan synthesis
+
+## predicate
+states
+
+## object
+Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options.
+
+## display_text
+Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+source question: Absalam Microbiology Q30 (global Q90)

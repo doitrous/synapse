@@ -510,6 +510,42 @@ const microItems = [
     pitfalls: 'A cell wall is not the universal separator in the offered comparison, and both cell types can reproduce.',
     rejected: ['CON-FND-54F59770FE61B9 — concerns fungi specifically as eukaryotes, not the general prokaryote/eukaryote nucleus distinction.', 'concept_a4992569b1751dff3ed9ded3 — a fungi-specific true-nucleus raw identity, not this general cellular comparison.'],
   },
+  {
+    q: 85, bankQ: 25, conceptId: 'CON-INF-95F04C0956E08A', canonicalKey: 'microbiology.gram-stain.cell-wall-structure-determines-reaction',
+    label: 'Gram stain differentiates bacteria by cell-wall structure', aliases: ['Gram-stain cell-wall basis', 'Cell-wall basis of Gram differentiation'], conceptType: 'classification',
+    article: 'organisation', microtopic: 'Gram-stain cell-wall basis', assessmentPage: 25, teachingPage: 28,
+    stem: 'The Gram stain differentiates bacteria based on:', key: 'B', options: ['Capsule composition', 'Cell wall structure', 'Nucleoid shape', 'Growth pattern'],
+    claim: 'The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure.',
+    annotationQuote: 'Gram-positive and Gram-negative bacteria differ in cell-wall structure, including peptidoglycan thickness',
+    support: 'The governed teaching compares Gram-positive and Gram-negative bacterial cell walls and their different peptidoglycan thicknesses.',
+    objective: 'Identify cell-wall structure as the basis used by the Gram stain to differentiate bacteria.',
+    pitfalls: 'Capsule composition, nucleoid shape and growth pattern are not the structural basis of Gram differentiation presented in the governed comparison.',
+    rejected: ['concept_0678baa786a55cfe68dc9d7f — broader cell-wall shape, osmotic-protection, division and staining identity; not the exact Gram-stain differentiation basis tested here.'],
+  },
+  {
+    q: 88, bankQ: 28, conceptId: 'CON-INF-BED5519A81949A', canonicalKey: 'microbiology.classification.molecular-biology-and-genetic-composition',
+    label: 'Modern bacterial classification uses molecular biology and genetic composition', aliases: ['Molecular-genetic bacterial classification', 'New bacterial classification basis'], conceptType: 'classification',
+    article: 'foundations', microtopic: 'Modern bacterial classification', assessmentPage: 26, teachingPage: 24,
+    stem: 'The new system of classification is based on:', key: 'A', options: ['Molecular biology and genetics composition', 'Nature of the cell wall', 'Staining characteristics', 'Ability to form spores:'],
+    claim: 'The new system of bacterial classification is based on molecular biology and genetic composition.',
+    annotationQuote: 'The new system of classification is based on molecular biology and genetic composition.',
+    support: 'The governed teaching states that the new system of classification is based on molecular biology and genetic composition.',
+    objective: 'Recognise molecular biology and genetic composition as the basis of the new classification system.',
+    pitfalls: 'Cell-wall nature, staining characteristics and spore formation are useful bacterial characteristics but are not the new-system basis stated on the governed page.',
+    rejected: [],
+  },
+  {
+    q: 90, bankQ: 30, conceptId: 'CON-INF-491A10DF6B6C1E', canonicalKey: 'microbiology.beta-lactams.peptidoglycan-layer-target',
+    label: 'Penicillin targets bacterial peptidoglycan synthesis', aliases: ['Penicillin peptidoglycan-layer target', 'Beta-lactam cell-wall target'], conceptType: 'mechanism',
+    article: 'organisation', microtopic: 'Peptidoglycan as an antibacterial target', assessmentPage: 26, teachingPage: 32,
+    stem: 'Which of the following is the primary target of antibiotics like penicillin?', key: 'B', options: ['Ribosomes', 'Peptidoglycan layer', 'Plasmids', 'Cytoplasmic membrane'],
+    claim: 'Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options.',
+    annotationQuote: 'The deck also lists penicillins among agents that prevent synthesis of the bacterial peptidoglycan layer',
+    support: 'The governed teaching lists penicillins among drugs that prevent synthesis of the peptidoglycan layer of the bacterial cell wall.',
+    objective: 'Select the peptidoglycan layer as the source-level bacterial target of penicillin among the offered structures.',
+    pitfalls: 'The governed teaching links penicillin to peptidoglycan synthesis rather than to ribosomes, plasmids or the cytoplasmic membrane; the literal option wording is preserved without expanding it into an uncited molecular-target claim.',
+    rejected: ['concept_2ea5d75f7d95e485adc3d8ef — covers carbapenem-specific PBP binding and cell-wall inhibition, not the broader source-level penicillin prompt.'],
+  },
 ]
 
 const outputs = {
@@ -1681,7 +1717,7 @@ en
 Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
-Pages 1, 9–15, 28–30, 32, 34, 36–38 were rendered and visually read across the bounded bacterial-structure and Absalam Microbiology Q61–Q75 assessments; other pages are not claimed as visually governed in these slices. Pages 1, 9–15, 28, 30, 32, 34 and 37–38 were rendered and visually read for global Q61–Q75. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 9–12 directly support the major microorganism groups, saprophytes, genus capitalization and acellular/prokaryotic classification; page 15 supports the true-nucleus distinction. Pages 28, 30, 32, 34 and 37–38 support the nine bounded hold decisions without authenticating the student-bank key. Page 28 states that Gram-positive bacteria have a thick peptidoglycan layer, specified as 40 sheets and 50% of wall thickness, while Gram-negative bacteria have only 1–2 sheets; page 29 diagrams the peptidoglycan lattice. Page 36 identifies plasmids as dispensable extrachromosomal DNA. Page 15 states that the prokaryotic cell has one single circular chromosome, and page 34 identifies the nucleoid as one chromosome made of double-stranded DNA.
+Pages 1, 9–15, 24, 28–30, 32–38 were rendered and visually read across the bounded bacterial-structure and Absalam Microbiology Q61–Q90 assessments; other pages are not claimed as visually governed in these slices. Pages 1, 9–15, 28, 30, 32, 34 and 37–38 were rendered and visually read for global Q61–Q75. Pages 24, 28, 30, 32–36 and 38 were rendered and visually read for global Q76–Q90. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 9–12 directly support the major microorganism groups, saprophytes, genus capitalization and acellular/prokaryotic classification; page 15 supports the true-nucleus distinction. Page 24 states the molecular-biology and genetic-composition basis of the new classification system. Pages 28, 30, 32–36 and 38 support the three authored items and twelve bounded hold decisions without authenticating the student-bank key. Page 28 compares Gram-positive and Gram-negative cell-wall structure and peptidoglycan thickness. Page 30 places peptidoglycan and hydrolytic enzymes in the Gram-negative periplasm, so global Q78 is non-unique as written. Page 32 presents penicillins among drugs preventing peptidoglycan synthesis. Page 35 states glycocalyx attachment and nutrient-storage functions, so global Q84 is non-unique as written. Page 36 identifies plasmids as dispensable extrachromosomal DNA. Page 15 states that the prokaryotic cell has one single circular chromosome, and page 34 identifies the nucleoid as one chromosome made of double-stranded DNA.
 
 ## confidence
 0.95
@@ -7703,7 +7739,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–22 and answer pages 9, 18 and 27 were rendered and visually read for global Q1–Q75. Pages 19–22 and 27 were rendered and visually read for global Q61–Q75. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41, Q44, Q47–Q49, Q51–Q54, Q56–Q58 and Q62–Q67 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43, Q45–Q46, Q50, Q55, Q59–Q61 and Q68–Q75 remain explicit identity, authority, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
+Pages 1–27, including answer pages 9, 18 and 27, were rendered and visually read for global Q1–Q90. Pages 19–22 and 27 were rendered and visually read for global Q61–Q75. Pages 23–27 were rendered and visually read for global Q76–Q90. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41, Q44, Q47–Q49, Q51–Q54, Q56–Q58, Q62–Q67, Q85, Q88 and Q90 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43, Q45–Q46, Q50, Q55, Q59–Q61, Q68–Q84, Q86–Q87 and Q89 remain explicit identity, authority, evidence-scope, duplicate, dependency or key-form holds with no student-facing record.
 
 ## confidence
 0.6
@@ -8955,7 +8991,7 @@ ${group.map(microClaimId).join('\n')}
 [clear]
 
 ## source_candidate_ids
-[clear]
+${item.sourceCandidates?.join('\n') ?? '[clear]'}
 
 ## exam_signal
 ${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage} Microbiology Q${entry.bankQ} (global Q${entry.q}); printed answer p27`).join('\n')}
@@ -8971,7 +9007,7 @@ ${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained
 ${rejectedIds}
 
 ## conflicts
-${group.map((entry) => `No key conflict affects authored global Q${entry.q}; printed ${entry.key} agrees with the governed MUST teaching.`).join(' ')} The nine held questions remain outside this concept.
+${group.map((entry) => `No key conflict affects authored global Q${entry.q}; printed ${entry.key} agrees with the governed MUST teaching.`).join(' ')} Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -9011,7 +9047,7 @@ microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; th
 approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
 approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
-sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+sourceCandidateIds: ${item.sourceCandidates?.length ? `Raw candidate ${item.sourceCandidates.join(', ')} was retained as provenance but did not replace this narrower governed identity.` : 'The required live-and-pending search gate returned no exact record for this concept.'}
 rejectedMergeCandidateIds: ${rejectedNotes}
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
@@ -9022,7 +9058,7 @@ relationships: Related reading is restricted to the two complete reciprocal Draf
 function getMicroArticleData() { return {
   foundations: {
     title: 'Microbiology scope, saprophytes and scientific nomenclature', microtopic: 'Microbiology foundations',
-    summary: 'The local curriculum defines the major microorganism groups, associates saprophytes with dead animal or plant material, and capitalizes the genus rather than the species in a scientific name.',
+    summary: 'The local curriculum defines the major microorganism groups, associates saprophytes with dead animal or plant material, capitalizes the genus rather than the species in a scientific name, and bases the new classification system on molecular biology and genetic composition.',
     sections: `### Definition
 Microorganisms are minute living things. The five major groups listed in the governed MUST deck are bacteria, fungi, protozoa, helminths and viruses; plants are not in that closed list.
 
@@ -9032,15 +9068,17 @@ Saprophytes feed on dead animal or plant material and thereby decompose dead org
 ### Key determinants
 Scientific nomenclature assigns two names. The genus is the first name and is always capitalized; the species name follows and is not capitalized.
 
+The new system of classification is based on molecular biology and genetic composition. Cell-wall nature, staining characteristics and spore formation are not substituted for that source-stated basis.
+
 ### Clinical significance
 These definitions supply the vocabulary used before the course moves into microbial cellular structure and clinical bacteriology.
 
 ### Common misconceptions
-Do not remove viruses from the deck's microorganism list merely because they are acellular. Do not capitalize the species position or define saprophytes by obligate intracellular replication.`,
+Do not remove viruses from the deck's microorganism list merely because they are acellular. Do not capitalize the species position or define saprophytes by obligate intracellular replication. Do not replace the stated molecular-genetic basis of the new classification system with one older phenotypic characteristic.`,
   },
   organisation: {
     title: 'Cellular organisation of microorganisms', microtopic: 'Microbial cell organisation',
-    summary: 'Viruses are acellular agents, bacteria are prokaryotic microorganisms, and a true membrane-bound nucleus distinguishes eukaryotic from prokaryotic cells.',
+    summary: 'Viruses are acellular agents, bacteria are prokaryotic microorganisms, a true membrane-bound nucleus distinguishes eukaryotic from prokaryotic cells, Gram staining reflects cell-wall structure, and penicillin acts against peptidoglycan synthesis.',
     sections: `### Definition
 The local curriculum divides microorganisms into cellular and acellular categories. Viruses are acellular agents and are not true cells. Bacteria occupy the prokaryotic branch, while fungi occupy the eukaryotic branch.
 
@@ -9050,11 +9088,13 @@ Prokaryotic cells lack a true nucleus, nuclear membrane and nucleolus. Their DNA
 ### Key determinants
 Viruses select acellular. Bacteria select prokaryotic. Presence of a true membrane-bound nucleus is the structural distinction tested between prokaryotic and eukaryotic cells.
 
+Gram-positive and Gram-negative bacteria differ in cell-wall structure, including peptidoglycan thickness; this is the governed structural basis for Gram-stain differentiation. The deck also lists penicillins among agents that prevent synthesis of the bacterial peptidoglycan layer, so the peptidoglycan layer is retained as the literal source-level answer to the bounded prompt.
+
 ### Clinical significance
 This cellular framework explains why later microbiology teaching assigns different structures and targets to bacteria, fungi and viruses.
 
 ### Common misconceptions
-Do not classify viruses as prokaryotic cells. Do not use cell-wall presence as the universal separator: the governed comparison identifies the true nucleus as the defining distinction for this prompt.`,
+Do not classify viruses as prokaryotic cells. Do not use cell-wall presence as the universal separator: the governed comparison identifies the true nucleus as the defining distinction for that prompt. Capsule composition, nucleoid shape and growth pattern are not the stated basis of Gram differentiation. The penicillin item is kept at the deck's peptidoglycan-layer level and is not silently rewritten into a more specific uncited molecular-target question.`,
   },
 } }
 
@@ -9188,7 +9228,7 @@ ${articleItems.map(microClaimId).join('\n')}
 ${articleItems.map(microSpanId).join('\n')}
 
 ## university_notes
-must: Global Q${articleItems[0].q}–Q${articleItems.at(-1).q} retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q${articleItems.map((item) => item.q).join(', Q')} retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.annotationQuote}\nBlock: body\nId: ann-must-fhb1022-micro-q${item.q}`).join('\n\n')}
@@ -9201,7 +9241,7 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 Introduction to Microbiology and Bacterial Cell Structure deck, visually read on exact cited pages.
-Absalam101 Part 1 revision bank, visually read on prompt pages 19–22 and printed-answer page 27.
+Absalam101 Part 1 revision bank, visually read on prompt pages 19–26 and printed-answer page 27.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
@@ -9216,7 +9256,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-First bounded Absalam Microbiology slice only. Every record remains Draft and local; this file is not an upload instruction.
+First and second bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -9387,18 +9427,46 @@ function microCoverage() {
 - **Q75 is held in the Absalam Microbiology Ch1-3 family as an authority hold.** The bank prints D, All of the above. Official page 38 explicitly supports heat and chemicals but does not mention radiation, while pending \`CON-INF-3E6590C8AC2166\` covers only the broader highly resistant endospore identity. The printed key was neither corrected nor promoted to student-facing content.
 
 `
+  const secondDelta = `### Second Absalam Microbiology Ch1-3 slice delta
+
+- +3 verified local-curriculum claims, +3 citations and +3 article spans for global Q85, Q88 and Q90.
+- +3 under-review / needs-evidence concepts. Q85 records raw candidate \`concept_0678baa786a55cfe68dc9d7f\` as a rejected broader merge without losing provenance; Q90 rejects carbapenem-specific raw candidate \`concept_2ea5d75f7d95e485adc3d8ef\`.
+- +0 resources and +0 articles. The two existing standalone-complete reciprocal MUST Draft articles were expanded by exact ID without changing their identity or reciprocal relationship.
+- +3 Draft questions: global Q85, Q88 and Q90.
+- +12 explicit holds with no student-facing record: global Q76–Q84, Q86–Q87 and Q89.
+- Every authored stem, option and printed key is unchanged, including Q88's “genetics composition” wording and the trailing colon in option D. The official MUST deck supplies teaching evidence but does not authenticate the student-authored bank key.
+- Second Absalam Microbiology Ch1-3 slice, global Q76–Q90: **3 authored / 12 held / 0 unassessed**.
+- Absalam source global Q1–Q90: **39 authored / 51 held / 0 unassessed**. The next unassessed boundary is global Q91–Q120, Microbiology Chapter 6.
+
+`
+  const secondHolds = `- **Q76 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed D, A & B, is supported by official page 38, but live \`CON-INF-3E6590C8AC2166\` and \`ART-INF-TOP-1181606D78\` already govern the spore-forming Bacillus-and-Clostridium identity. No duplicate or unsafe dependency update was created.
+- **Q77 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed C, Protect against phagocytosis, is supported by official page 35, but live \`CON-INF-7789C0F6154E35\` and \`ART-INF-TOP-1181606D78\` already govern this capsule function. No duplicate or unsafe dependency update was created.
+- **Q78 is held in the Absalam Microbiology Ch1-3 family as a non-unique key-form hold.** The bank prints B, Hydrolytic enzymes, but official page 30 places both peptidoglycan and hydrolytic enzymes in the Gram-negative periplasm. Both options A and B are therefore supported by the governed teaching; no answer was corrected and no student-facing record was created.
+- **Q79 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Ribosomes, is supported by official page 34, but live \`CON-INF-AB3EC3956C007F\` and pending semantic twin \`CON-INF-29351FD540E214\` / \`ART-INF-BACTERIAL-MEMBRANE-RIBOSOME\` already govern bacterial protein synthesis. No duplicate or unsafe merge was created.
+- **Q80 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed D, All of the above, is supported by official page 33, but pending \`CON-INF-16D6694E224671\` / \`ART-INF-BACTERIAL-MEMBRANE-RIBOSOME\` already govern the cytoplasmic-membrane function identity. No unsafe dependency update was created.
+- **Q81 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Circular pieces of extra-chromosomal DNA, is supported by official page 36, but live \`CON-DEV-FE47A8F9B0768E\` / \`ART-DEV-TOP-39535C6C81\` already govern plasmid identity. No duplicate or cross-scope update was created.
+- **Q82 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed A, Provide antibiotic resistance, is supported by official page 36, but pending \`CON-INF-134BE2C9B827D5\` / \`ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS\` already govern plasmid-mediated resistance. No unsafe dependency update was created.
+- **Q83 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Lack a cell wall, is supported by official page 32, but pending \`CON-INF-D2C104EA01CE30\` / \`ART-INF-MYCOPLASMA-L-FORMS\` already govern the L-form identity. No duplicate was minted.
+- **Q84 is held in the Absalam Microbiology Ch1-3 family as a non-unique key-form hold.** The bank prints C, Mediate adherence, but governed raw concept \`concept_e33f14bb7abc2aa7188b82c8\` and official page 35 support both adherence and nutrient storage as glycocalyx functions. Options C and D are both supported; no answer was corrected and no student-facing record was created.
+- **Q86 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Gram-negative bacteria, is supported by official page 30, but pending \`CON-INF-D60EAAF763C476\` / \`ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK\` already govern endotoxin identity. No unsafe dependency update was created.
+- **Q87 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Penicillins, is supported by official pages 30 and 33, but pending \`CON-INF-64A7823DCEC6E5\` / \`ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS\` already govern beta-lactamase resistance. No duplicate or unsafe dependency update was created.
+- **Q89 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed A, Gram-positive cell walls, is supported by official page 30, but pending \`CON-INF-7E3B831D71A008\` / \`ART-INF-CELL-WALL-OUTER-MEMBRANE\` already govern the Gram-positive wall identity. No unsafe dependency update was created.
+
+`
   return coverage()
-    .replace('| Claims | 38 |', '| Claims | 44 |')
-    .replace('| Citations | 43 |', '| Citations | 49 |')
-    .replace('| Article spans | 38 |', '| Article spans | 44 |')
-    .replace('| Concepts | 35 |', '| Concepts | 40 |')
+    .replace('| Claims | 38 |', '| Claims | 47 |')
+    .replace('| Citations | 43 |', '| Citations | 52 |')
+    .replace('| Article spans | 38 |', '| Article spans | 47 |')
+    .replace('| Concepts | 35 |', '| Concepts | 43 |')
     .replace('| Articles | 21 |', '| Articles | 23 |')
-    .replace('| Questions | 38 |', '| Questions | 44 |')
-    .replace('| Question authoring holds | 53 |', '| Question authoring holds | 62 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}## Explicit authoring holds\n\n${holds}`)
-    .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 44 authored; **5,400 raw prompt observations remain**, including 62 explicit holds')
-    .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 44 clean source-keyed prompts authored; **5,167 raw answer observations remain**, including the 62 held printed-key observations')
-    .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,400 unique records')
-    .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q75 are fully dispositioned; global Q76–Q90 (the second half of Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.')
-    .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-four questions remain Draft; all forty concepts')
+    .replace('| Questions | 38 |', '| Questions | 47 |')
+    .replace('| Question authoring holds | 53 |', '| Question authoring holds | 74 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}## Explicit authoring holds\n\n${holds}${secondHolds}`)
+    .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
+    .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
+    .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
+    .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
+    .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
+    .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
 }

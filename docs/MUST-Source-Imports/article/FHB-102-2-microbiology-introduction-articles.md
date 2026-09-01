@@ -82,7 +82,7 @@ MUST-FHB-102-2
 MUST-FHB-102-2 > Microbiology > General bacteriology > Microbiology foundations
 
 ## summary
-The local curriculum defines the major microorganism groups, associates saprophytes with dead animal or plant material, and capitalizes the genus rather than the species in a scientific name.
+The local curriculum defines the major microorganism groups, associates saprophytes with dead animal or plant material, capitalizes the genus rather than the species in a scientific name, and bases the new classification system on molecular biology and genetic composition.
 
 ## sections
 ### Definition
@@ -94,11 +94,13 @@ Saprophytes feed on dead animal or plant material and thereby decompose dead org
 ### Key determinants
 Scientific nomenclature assigns two names. The genus is the first name and is always capitalized; the species name follows and is not capitalized.
 
+The new system of classification is based on molecular biology and genetic composition. Cell-wall nature, staining characteristics and spore formation are not substituted for that source-stated basis.
+
 ### Clinical significance
 These definitions supply the vocabulary used before the course moves into microbial cellular structure and clinical bacteriology.
 
 ### Common misconceptions
-Do not remove viruses from the deck's microorganism list merely because they are acellular. Do not capitalize the species position or define saprophytes by obligate intracellular replication.
+Do not remove viruses from the deck's microorganism list merely because they are acellular. Do not capitalize the species position or define saprophytes by obligate intracellular replication. Do not replace the stated molecular-genetic basis of the new classification system with one older phenotypic characteristic.
 
 ## published_summary
 
@@ -110,11 +112,13 @@ Do not remove viruses from the deck's microorganism list merely because they are
 The major microorganism groups include bacteria, fungi, protozoa, helminths and viruses; plants are not in that microorganism list.
 Saprophytes feed on dead animal or plant material and thereby decompose dead organic matter.
 In scientific nomenclature the genus is the first name and is capitalized, while the following species name is not capitalized.
+The new system of bacterial classification is based on molecular biology and genetic composition.
 
 ## lose_the_mark
 Bacteria, viruses and protozoa are each explicitly included in the governed microorganism list; plants are not.
 Saprophytes are not defined by causing human disease, obligate intracellular replication or antibiotic production.
 The species name follows the genus and is not capitalized; family and class are not the two-name position asked by this item.
+Cell-wall nature, staining characteristics and spore formation are useful bacterial characteristics but are not the new-system basis stated on the governed page.
 
 ## callout_evidence
 ### The major microorganism groups include bacteria, fungi, protozoa, helminths and viruses; plants are not in that microorganism list.
@@ -132,10 +136,16 @@ Claims: CLM-INF-MUST-FHB1022-MICRO-Q64-01
 Citations: CIT-INF-MUST-FHB1022-MICRO-Q64-01
 Reviewed by: pending medical review
 
+### The new system of bacterial classification is based on molecular biology and genetic composition.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q88-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q88-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-CC62854BEC55D3
 CON-INF-4D65B20EBBAE83
 CON-INF-02A3740FAEFDAD
+CON-INF-BED5519A81949A
 
 ## related_articles
 ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION: Cellular organisation of microorganisms
@@ -144,6 +154,7 @@ ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION: Cellular organisation of micro
 QST-MUST-FHB1022-MICRO-INTRO-Q62
 QST-MUST-FHB1022-MICRO-INTRO-Q63
 QST-MUST-FHB1022-MICRO-INTRO-Q64
+QST-MUST-FHB1022-MICRO-INTRO-Q88
 
 ## resource_ids
 src_88ddfa49fe01adee5444
@@ -156,14 +167,16 @@ src_88ddfa49fe01adee5444
 CLM-INF-MUST-FHB1022-MICRO-Q62-01
 CLM-INF-MUST-FHB1022-MICRO-Q63-01
 CLM-INF-MUST-FHB1022-MICRO-Q64-01
+CLM-INF-MUST-FHB1022-MICRO-Q88-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MICRO-Q62-01
 SPN-INF-MUST-FHB1022-MICRO-Q63-01
 SPN-INF-MUST-FHB1022-MICRO-Q64-01
+SPN-INF-MUST-FHB1022-MICRO-Q88-01
 
 ## university_notes
-must: Global Q62–Q64 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q62, Q63, Q64, Q88 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ### definition_of · CON-INF-CC62854BEC55D3
@@ -181,6 +194,11 @@ Quote: The genus is the first name and is always capitalized; the species name f
 Block: body
 Id: ann-must-fhb1022-micro-q64
 
+### definition_of · CON-INF-BED5519A81949A
+Quote: The new system of classification is based on molecular biology and genetic composition.
+Block: body
+Id: ann-must-fhb1022-micro-q88
+
 ## media
 
 
@@ -189,7 +207,7 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 Introduction to Microbiology and Bacterial Cell Structure deck, visually read on exact cited pages.
-Absalam101 Part 1 revision bank, visually read on prompt pages 19–22 and printed-answer page 27.
+Absalam101 Part 1 revision bank, visually read on prompt pages 19–26 and printed-answer page 27.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
@@ -204,7 +222,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-First bounded Absalam Microbiology slice only. Every record remains Draft and local; this file is not an upload instruction.
+First and second bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -300,7 +318,7 @@ MUST-FHB-102-2
 MUST-FHB-102-2 > Microbiology > General bacteriology > Microbial cell organisation
 
 ## summary
-Viruses are acellular agents, bacteria are prokaryotic microorganisms, and a true membrane-bound nucleus distinguishes eukaryotic from prokaryotic cells.
+Viruses are acellular agents, bacteria are prokaryotic microorganisms, a true membrane-bound nucleus distinguishes eukaryotic from prokaryotic cells, Gram staining reflects cell-wall structure, and penicillin acts against peptidoglycan synthesis.
 
 ## sections
 ### Definition
@@ -312,11 +330,13 @@ Prokaryotic cells lack a true nucleus, nuclear membrane and nucleolus. Their DNA
 ### Key determinants
 Viruses select acellular. Bacteria select prokaryotic. Presence of a true membrane-bound nucleus is the structural distinction tested between prokaryotic and eukaryotic cells.
 
+Gram-positive and Gram-negative bacteria differ in cell-wall structure, including peptidoglycan thickness; this is the governed structural basis for Gram-stain differentiation. The deck also lists penicillins among agents that prevent synthesis of the bacterial peptidoglycan layer, so the peptidoglycan layer is retained as the literal source-level answer to the bounded prompt.
+
 ### Clinical significance
 This cellular framework explains why later microbiology teaching assigns different structures and targets to bacteria, fungi and viruses.
 
 ### Common misconceptions
-Do not classify viruses as prokaryotic cells. Do not use cell-wall presence as the universal separator: the governed comparison identifies the true nucleus as the defining distinction for this prompt.
+Do not classify viruses as prokaryotic cells. Do not use cell-wall presence as the universal separator: the governed comparison identifies the true nucleus as the defining distinction for that prompt. Capsule composition, nucleoid shape and growth pattern are not the stated basis of Gram differentiation. The penicillin item is kept at the deck's peptidoglycan-layer level and is not silently rewritten into a more specific uncited molecular-target question.
 
 ## published_summary
 
@@ -328,11 +348,15 @@ Do not classify viruses as prokaryotic cells. Do not use cell-wall presence as t
 Viruses are acellular agents rather than prokaryotic, eukaryotic or multicellular organisms.
 Bacteria are the prokaryotic microorganisms among fungi, bacteria, protozoa and algae.
 Prokaryotic cells lack a true nucleus and nuclear membrane, whereas eukaryotic cells have a true membrane-bound nucleus.
+The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure.
+Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options.
 
 ## lose_the_mark
 Viruses are not placed under either cellular branch and therefore are not prokaryotic, eukaryotic or multicellular cells.
 Fungi, protozoa and algae are eukaryotic groups in this comparison; bacteria are prokaryotic.
 A cell wall is not the universal separator in the offered comparison, and both cell types can reproduce.
+Capsule composition, nucleoid shape and growth pattern are not the structural basis of Gram differentiation presented in the governed comparison.
+The governed teaching links penicillin to peptidoglycan synthesis rather than to ribosomes, plasmids or the cytoplasmic membrane; the literal option wording is preserved without expanding it into an uncited molecular-target claim.
 
 ## callout_evidence
 ### Viruses are acellular agents rather than prokaryotic, eukaryotic or multicellular organisms.
@@ -350,9 +374,21 @@ Claims: CLM-INF-MUST-FHB1022-MICRO-Q67-01
 Citations: CIT-INF-MUST-FHB1022-MICRO-Q67-01
 Reviewed by: pending medical review
 
+### The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q85-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q85-01
+Reviewed by: pending medical review
+
+### Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options.
+Claims: CLM-INF-MUST-FHB1022-MICRO-Q90-01
+Citations: CIT-INF-MUST-FHB1022-MICRO-Q90-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-98A3DF2E20880C
 CON-INF-9680A199504CCA
+CON-INF-95F04C0956E08A
+CON-INF-491A10DF6B6C1E
 
 ## related_articles
 ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS: Microbiology scope, saprophytes and scientific nomenclature
@@ -361,6 +397,8 @@ ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS: Microbiology scope, saprophytes a
 QST-MUST-FHB1022-MICRO-INTRO-Q65
 QST-MUST-FHB1022-MICRO-INTRO-Q66
 QST-MUST-FHB1022-MICRO-INTRO-Q67
+QST-MUST-FHB1022-MICRO-INTRO-Q85
+QST-MUST-FHB1022-MICRO-INTRO-Q90
 
 ## resource_ids
 src_88ddfa49fe01adee5444
@@ -373,14 +411,18 @@ src_88ddfa49fe01adee5444
 CLM-INF-MUST-FHB1022-MICRO-Q65-01
 CLM-INF-MUST-FHB1022-MICRO-Q66-01
 CLM-INF-MUST-FHB1022-MICRO-Q67-01
+CLM-INF-MUST-FHB1022-MICRO-Q85-01
+CLM-INF-MUST-FHB1022-MICRO-Q90-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MICRO-Q65-01
 SPN-INF-MUST-FHB1022-MICRO-Q66-01
 SPN-INF-MUST-FHB1022-MICRO-Q67-01
+SPN-INF-MUST-FHB1022-MICRO-Q85-01
+SPN-INF-MUST-FHB1022-MICRO-Q90-01
 
 ## university_notes
-must: Global Q65–Q67 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q65, Q66, Q67, Q85, Q90 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ### definition_of · CON-INF-98A3DF2E20880C
@@ -398,6 +440,16 @@ Quote: Prokaryotic cells lack a true nucleus, nuclear membrane and nucleolus.
 Block: body
 Id: ann-must-fhb1022-micro-q67
 
+### definition_of · CON-INF-95F04C0956E08A
+Quote: Gram-positive and Gram-negative bacteria differ in cell-wall structure, including peptidoglycan thickness
+Block: body
+Id: ann-must-fhb1022-micro-q85
+
+### definition_of · CON-INF-491A10DF6B6C1E
+Quote: The deck also lists penicillins among agents that prevent synthesis of the bacterial peptidoglycan layer
+Block: body
+Id: ann-must-fhb1022-micro-q90
+
 ## media
 
 
@@ -406,7 +458,7 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 Introduction to Microbiology and Bacterial Cell Structure deck, visually read on exact cited pages.
-Absalam101 Part 1 revision bank, visually read on prompt pages 19–22 and printed-answer page 27.
+Absalam101 Part 1 revision bank, visually read on prompt pages 19–26 and printed-answer page 27.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
@@ -421,7 +473,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-First bounded Absalam Microbiology slice only. Every record remains Draft and local; this file is not an upload instruction.
+First and second bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.

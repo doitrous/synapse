@@ -129,3 +129,69 @@ CLM-INF-MUST-FHB1022-MICRO-Q67-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MICRO-Q67-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q85-01
+
+## article_id
+ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION
+
+## section_id
+art-inf-must-fhb1022-microbial-cell-organisation-definition
+
+## text
+The Gram stain differentiates bacteria according to differences in bacterial cell-wall structure.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q85-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q85-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q88-01
+
+## article_id
+ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS
+
+## section_id
+art-inf-must-fhb1022-microbiology-foundations-definition
+
+## text
+The new system of bacterial classification is based on molecular biology and genetic composition.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q88-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q88-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MICRO-Q90-01
+
+## article_id
+ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION
+
+## section_id
+art-inf-must-fhb1022-microbial-cell-organisation-definition
+
+## text
+Penicillin acts against bacterial cell-wall peptidoglycan synthesis, making the peptidoglycan layer the supported source-level target among the offered options.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MICRO-Q90-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MICRO-Q90-01
