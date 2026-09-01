@@ -1,8 +1,37 @@
 # ASU-MBG progress ledger
 
 Tracks status against the 12 concept clusters in `ASU-MBG-triage.md`, plus Cluster 13 (Molecular
-Biology of Cancer, found and triaged by author11). Update this file, do not recreate it, as each
-cluster closes.
+Biology of Cancer, found and triaged by author11) and Cluster 14 (Gene Therapy, found and triaged
+by author12). Update this file, do not recreate it, as each cluster closes.
+
+## Done (author12, branch `asu-mbg-author12`, base `asu-mbg-author11` @ 448915cf)
+
+**Cluster 14 · Gene Therapy — new chapter, not in the original S1 triage. CLOSED, all 24
+questions authored.**
+
+Found sitting immediately after Cluster 13's own answer table, on the same PDF page (p.41), in
+the same file (`EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf`). Like Cluster 13, this chapter's
+scan is clean throughout — no blacked-out or unrecoverable answer cells — and its own "Answers of
+Gene Therapy" table (PDF p.43, not p.44 as an earlier note guessed — p.44 is the start of the
+already-closed Mode of Inheritance chapter) keys all 24 questions. Full triage table:
+`coverage/ASU-MBG-triage.md` Cluster 14.
+
+| Concept | ID | Qs | Status |
+|---|---|---:|---|
+| Gene therapy definition & germline vs somatic heritability | `CON-FND-06F6AE69D9BD8D` | 1,2,3,23 | **new** |
+| Restriction endonuclease origin & recognition (bacterial, palindromic) | `CON-FND-C444D428BE3E1D` | 4,5,9,14,19 | **new** |
+| Sticky vs blunt restriction-fragment ends | `CON-FND-744B37261093E4` | 11,12 | **new** |
+| Restriction fragment counting (linear vs circular) | `CON-FND-1F3840652F24F8` | 7,8 | **new** |
+| Molecular cloning workflow (chimeric DNA, vectors, step order) | `CON-FND-3893485BBEEC06` | 6,10,13,15,16,18,20 | **new** |
+| CRISPR-Cas9 gene-editing mechanism | `CON-FND-16C60870619649` | 21,24 | **new** |
+| ADA-SCID as first gene-therapy success (related to Kasr `CON-IMM-10470076F1AF95`) | `CON-FND-1C82888CCCC7FD` | 17,22 | **new** |
+
+7 concepts minted (all new — this chapter's facts are entirely distinct from anything found
+live/pending), 1 article (`ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY`), 1 resource
+record (`src_d83a3017c760e2770c22` — missing from the tree since Cluster 13, authored this pass
+to satisfy the question gate's resource-existence check). `gate.mjs batch`: items=24 errors=0.
+`gate.mjs simulate` (resource → concepts → article → questions): created=33 errors=0 rejected=0.
+`ledger.mjs`: gene-therapy authored=24 held=0 remaining=0.
 
 ## Done (author11, branch `asu-mbg-author11`, base `asu-mbg-author10` @ 86222f5c)
 
@@ -451,7 +480,7 @@ All still sourced from `EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf` unless no
 | 7 · Modes of inheritance | **CLOSED this pass (author6) — see the "Done" section above.** | — | done |
 | (misc) | "Collection Questions" Q1-27, LMS snippets ~15, file 1 pp.33-49 (~17pp not yet opened — pp.20-28, 30 now opened as the Genetic-Codes/Translation chapters and its answer table; pp.33-52 opened this pass while authoring cluster 7, no unrelated content of note beyond the "Molecular Biology of Cancer" chapter noted below), file 8 (essay) page count/remainder | unmapped | not yet triaged in detail |
 | 13 · Molecular Biology of Cancer | **CLOSED this pass (author11) — all 44 questions authored, PDF pp.35-41. See "Cluster 13" in the "Done" section above.** | — | done |
-| (new finding, unmapped) | Immediately after Cluster 13's own answer table (PDF p.41), a separate "Gene Therapy" chapter begins its own ~24-question run (germline vs somatic gene therapy, restriction endonucleases, palindromic sequences, molecular cloning, plasmids), with its own "Answers of Gene Therapy" table later in the file. Not named in author11's dispatch orders — not triaged, not authored, not keyed this pass. `find-existing.mjs` spot-checks suggest likely-new content. | Not triaged, not authored, not keyed. | needs its own triage/dispatch before authoring |
+| 14 · Gene Therapy | **CLOSED this pass (author12) — all 24 questions authored, PDF pp.41-43 (immediately after Cluster 13's own answer table, on the same page). Own "Answers of Gene Therapy" table is on PDF p.43 (corrects the earlier "p.44" guess — p.44 is the already-closed Mode of Inheritance chapter). See `coverage/ASU-MBG-triage.md` Cluster 14 for the full triage, and `coverage/ASU-MBG-LEDGER.md` for the gate summary.** | — | done |
 
 ## Page map confirmed this pass (PDF page index, via `pdftoppm`, cross-checked against printed page numbers where visible)
 
