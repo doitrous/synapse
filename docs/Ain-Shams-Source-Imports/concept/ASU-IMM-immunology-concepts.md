@@ -22530,3 +22530,548 @@ reviewDue: Set after the first review is completed.
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
 uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-E92EE28916590A
+
+## label
+Type I interferon (alpha/beta) is produced early in viral infection by infected cells and plasmacytoid dendritic cells, not macrophages, and induces an antiviral state while activating NK cells
+
+## canonical_key
+cytokine.typeI-ifn.source-antiviral-state-nk-activation
+
+## aliases
+Type I interferon source and function
+Interferon-alpha antiviral role
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Type I interferons (IFN-alpha and IFN-beta) are produced early in the course of a viral infection, chiefly by virally infected cells themselves and by plasmacytoid dendritic cells — not by macrophages, whose own cytokine repertoire (IFN-gamma, IL-12, IL-6, IL-18) is a different set. Type I interferon acts on neighbouring, still-uninfected cells to induce an intracellular antiviral state that slows the infection's spread, and it also increases NK-cell activity, but it does not itself increase MHC class II expression (that action belongs to IFN-gamma).
+
+## explicit_objective
+State that type I interferon is produced early by infected cells/pDCs (not macrophages), induces an antiviral state in adjoining cells, and increases NK-cell activity.
+
+## pitfalls
+Listing type I interferon among the macrophage-derived cytokine set alongside IL-12/IL-6/IL-18; and crediting it with increasing MHC class II expression, which is specifically an IFN-gamma (type II interferon) action.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_concept_ids
+CON-IMM-17CE429C40F7BD
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TYPE-I-IFN-SOURCE-FUNCTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+3- Which of the following molecules is produced early in the course of viral infection and serves to slow the infection of adjoining cells? c. Interferon-a / 6- All of the following cytokines are produced by MQ except: c. IFN type I / 13- Type I interferon acts by: d. Both b&c (Increase activity of NK cell, Induce antiviral state)
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Cytokines Q3/Q6/Q13
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-784D374ED001D5
+
+## label
+TGF-beta induces antibody class switching to IgA, not IgG
+
+## canonical_key
+cytokine.tgfbeta.iga-class-switch-not-igg
+
+## aliases
+TGF-beta and IgA class switching
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+TGF-beta, alongside its roles as a Treg-secreted inhibitory cytokine and (with IL-1, IL-6 and IL-23) a driver of Th17 differentiation, directs B-cell class switching specifically toward IgA — the antibody isotype adapted for mucosal secretion — not toward IgG, which instead depends chiefly on IFN-gamma and CD40-CD40L signalling in this course's framing.
+
+## explicit_objective
+State that TGF-beta drives class switching to IgA, correcting the misconception that it switches to IgG.
+
+## pitfalls
+Assuming any T-cell cytokine that supports antibody responses drives IgG switching by default; TGF-beta's class-switch target is specifically IgA.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_concept_ids
+CON-IMM-E0C9FDCE3A6A5D
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TGFBETA-IGA-CLASS-SWITCH-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+8- Which is false about TGF-beta: b. Induce class switch to IgG
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Cytokines Q8
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-11B3AB072B3541
+
+## label
+IL-12 is the principal cytokine driving Th1 differentiation
+
+## canonical_key
+cytokine.il12.th1-differentiation-driver
+
+## aliases
+IL-12 drives Th1 development
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+IL-12, produced chiefly by activated macrophages and dendritic cells, is the principal cytokine that drives a naive CD4+ T cell to differentiate along the Th1 pathway; IL-4, by contrast, drives Th2 differentiation instead, and IL-3/IL-5 are not the differentiation-driving signal for either subset.
+
+## explicit_objective
+Identify IL-12 as the cytokine that promotes Th1 (rather than Th2) differentiation.
+
+## pitfalls
+Confusing the cytokine that DRIVES Th1 differentiation (IL-12) with the cytokines Th1 cells themselves SECRETE once differentiated (IFN-gamma, IL-2, TNF-alpha).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-0608CC8768B863
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-IL12-TH1-DIFFERENTIATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+14- Development of Th1 is promoted by: a. IL12
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Cytokines Q14
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.

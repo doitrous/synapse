@@ -103,4 +103,20 @@ hegazy-ch4-q39
 hegazy-ch4-q40
 hegazy-ch4-q41
 hegazy-ch4-q42
-# Chapter 4-tail Cytokines mini-section (15 Qs) and Chapters 5-6 (Humoral IR ~38 Qs, Complement 17 Qs): not yet authored this sitting
+# Chapter 4-tail Cytokines mini-section, 15/15 keyed and authored — all keys read from page-image render, no holds
+hegazy-cytokines-q01
+hegazy-cytokines-q02
+hegazy-cytokines-q03
+hegazy-cytokines-q04
+hegazy-cytokines-q05
+hegazy-cytokines-q06
+hegazy-cytokines-q07
+hegazy-cytokines-q08
+hegazy-cytokines-q09
+hegazy-cytokines-q10
+hegazy-cytokines-q11
+hegazy-cytokines-q12
+hegazy-cytokines-q13
+hegazy-cytokines-q14
+hegazy-cytokines-q15
+# Chapters 5-6 (Humoral IR ~38 Qs, Complement 17 Qs): not yet authored this sitting
