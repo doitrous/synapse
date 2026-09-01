@@ -1490,6 +1490,7 @@ Do not treat holometabolous and hemimetabolous as interchangeable or select both
 
 ### Exam-linked statements
 Complete metamorphosis is called holometabolous metamorphosis.
+Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.
 
 ## published_summary
 
@@ -1499,14 +1500,21 @@ Complete metamorphosis is called holometabolous metamorphosis.
 
 ## hold_these
 Complete metamorphosis is called holometabolous metamorphosis.
+Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.
 
 ## lose_the_mark
 Hemimetabolous describes incomplete metamorphosis and is not interchangeable with holometabolous.
+Incomplete metamorphosis proceeds through nymphs without a pupal stage; it is not the pattern with a pupa, and complete metamorphosis is not nymph-only.
 
 ## callout_evidence
 ### Complete metamorphosis is called holometabolous metamorphosis.
 Claims: CLM-INF-MUST-FHB1022-INTRO-Q33-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q33-01
+Reviewed by: pending medical review
+
+### Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.
+Claims: CLM-INF-MUST-FHB1022-MUCIZEADV-Q11-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZEADV-Q11-01
 Reviewed by: pending medical review
 
 ## related_concepts
@@ -1518,19 +1526,23 @@ ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION: Transovarian transmission in art
 
 ## question_ids
 QST-MUST-FHB1022-PARA-INTRO-Q33
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q11
 
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_2c1e04372fbb8b2607f7
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q33-01
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q11-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q33-01
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q11-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -1540,6 +1552,11 @@ must: The bounded Absalam questions are retained with their printed wording, opt
 Quote: Complete metamorphosis is called holometabolous metamorphosis.
 Block: body
 Id: ann-must-fhb1022-intro-q33
+
+### definition_of · CON-INF-1E7B4A9D306FC2
+Quote: Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.
+Block: body
+Id: ann-must-fhb1022-mucizeadv-q11
 
 ## media
 

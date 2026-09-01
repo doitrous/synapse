@@ -1025,6 +1025,28 @@ const mucizeCaseItems = [
 
 introItems.push(...mucizeCaseItems)
 
+const mucizeAdvancedItems = [
+  {
+    q: 11, bankQ: 11, conceptId: 'CON-INF-1E7B4A9D306FC2', canonicalKey: 'parasitology.arthropods.complete-metamorphosis-holometabolous',
+    label: 'Complete metamorphosis is holometabolous', aliases: ['Holometabolous metamorphosis', 'Complete arthropod metamorphosis'], conceptType: 'definition',
+    article: 'arthropodMetamorphosis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Metamorphosis',
+    assessmentPage: 25, answerPage: 28, teachingPages: '7–8', teachingResourceId: myiasisResourceId,
+    teachingTitle: 'Flies and Myiasis',
+    stem: 'What is the key difference between complete and incomplete metamorphosis in arthropods?', key: 'A',
+    options: ['Complete metamorphosis involves a pupal stage, while incomplete metamorphosis does not', 'Incomplete metamorphosis involves a pupal stage, while complete metamorphosis does not', 'Complete metamorphosis involves only nymph stages, while incomplete metamorphosis involve larvae', 'Incomplete metamorphosis involves only adult stages, while complete metamorphosis involves larvae'],
+    claim: 'Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.',
+    support: 'The official comparison diagram shows egg, larva, pupa and adult for complete metamorphosis, versus egg, nymph and adult for incomplete metamorphosis; the following slide repeats egg → larva → pupa → adult versus egg → nymph → adult.',
+    objective: 'Identify the pupal stage as the offered distinction between complete and incomplete arthropod metamorphosis.',
+    pitfalls: 'Incomplete metamorphosis proceeds through nymphs without a pupal stage; it is not the pattern with a pupa, and complete metamorphosis is not nymph-only.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'MUCIZEADV', assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: `Mucize Advanced MCQ Q${item.bankQ}`, ...item,
+}))
+
+introItems.push(...mucizeAdvancedItems)
+
 const microArticles = {
   foundations: 'ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS',
   organisation: 'ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION',
@@ -9636,7 +9658,7 @@ ar
 Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
 
 ## qualification
-All 47 pages were already visually governed in source triage. Physical pages 6–25 and 28 were rendered and visually re-read for the bounded Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q10 authoring audit, including every governed option and printed answer token. Core Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85, Q87–Q89 and Q91–Q94 plus Case 4 Q2, Case 6 Q1 and Case 7 Q2 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Core Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86, Q90 and Q95 plus Case 1 Q1–Q2, Case 2 Q1–Q3, Case 3 Q1–Q2, Case 4 Q1, Q3–Q4, Case 5 Q1, Case 6 Q2–Q3, Case 7 Q1/Q3, Case 8 Q1–Q4 and Advanced Q1–Q10 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Core Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+All 47 pages were already visually governed in source triage. Physical pages 6–25 and 28 were rendered and visually re-read for the bounded Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q11 authoring audit, including every governed option and printed answer token. Core Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85, Q87–Q89 and Q91–Q94 plus Case 4 Q2, Case 6 Q1, Case 7 Q2 and Advanced Q11 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Core Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86, Q90 and Q95 plus Case 1 Q1–Q2, Case 2 Q1–Q3, Case 3 Q1–Q2, Case 4 Q1, Q3–Q4, Case 5 Q1, Case 6 Q2–Q3, Case 7 Q1/Q3, Case 8 Q1–Q4 and Advanced Q1–Q10 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Core Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6
@@ -10716,6 +10738,7 @@ function introBankLabel(item) {
   if (item.idPrefix === 'SAND2') return `Sandfly Q${item.bankQ}`
   if (item.idPrefix === 'MUCIZE') return `Mucize Parasitology core Q${item.bankQ}`
   if (item.idPrefix?.startsWith('MUCIZECASE')) return `Mucize case-based learning Case ${item.caseNumber} Q${item.bankQ}`
+  if (item.idPrefix === 'MUCIZEADV') return `Mucize Advanced MCQ Q${item.bankQ}`
   return item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Introduction Q${item.q}`
 }
 function introArticleTitle(key, data) {
@@ -12292,6 +12315,16 @@ function microCoverage() {
   const mucizeAdvancedTenHolds = `- **Mucize Advanced MCQ Q10 is held as an uncorrected authority and superlative-form hold.** Printed C, Vaccinating the reservoir host, is not supported by the governed faculty deck. Official mosquito page 34 presents integrated anti-mosquito control through physical/mechanical, biological and chemical measures and does not identify reservoir-host vaccination or one universally most-effective intervention. The printed key remains unchanged as source evidence; it was not silently replaced with offered B, and no student-facing record was created.
 
 `
+  const mucizeAdvancedElevenDelta = `### Mucize Doctors Advanced MCQ Q11 delta
+
+- The governed Mucize assessment resource and official Flies and Myiasis teaching resource are reused. Physical pages 25 and 28 and official pages 7–8 were rendered and visually read for the exact Q11 stem, all four options, printed answer token, next source boundary and direct teaching authority.
+- +1 verified local-curriculum claim, +1 citation and +1 article span.
+- +0 resources, +0 concepts and +0 articles: existing \`CON-INF-1E7B4A9D306FC2\` and its standalone-complete reciprocal Draft metamorphosis article are expanded in place without changing their IDs or prior governed content.
+- +1 Draft question and +0 holds. The wording, source grammar, option order and printed key remain unchanged: Q11 A, Complete metamorphosis involves a pupal stage, while incomplete metamorphosis does not. Official pages 7–8 directly contrast egg → larva → pupa → adult with egg → nymph → adult.
+- Search/replay gate: exact searches for the pupal-stage distinction found the existing general holometabolous/hemimetabolous concept and article but no rival concept ID or duplicate question. The new assessment occurrence is therefore attached to that governed identity rather than minting a semantic twin.
+- Mucize Advanced MCQ Q11: **1 authored / 0 held / 0 source-absent / 0 unassessed**. Advanced Q1–Q11 cumulative: **1 authored / 10 held / 0 source-absent / 0 unassessed**. The exact next boundary is Mucize Advanced MCQ Q12 on physical page 25.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -12405,12 +12438,16 @@ function microCoverage() {
     .replace('| Citations | 226 |', '| Citations | 227 |')
     .replace('| Article spans | 221 |', '| Article spans | 222 |')
     .replace('| Questions | 221 |', '| Questions | 222 |')
+    .replace('| Claims | 222 |', '| Claims | 223 |')
+    .replace('| Citations | 227 |', '| Citations | 228 |')
+    .replace('| Article spans | 222 |', '| Article spans | 223 |')
+    .replace('| Questions | 222 |', '| Questions | 223 |')
     .replace('| Question authoring holds | 249 |', '| Question authoring holds | 251 |')
     .replace('| Question authoring holds | 251 |', '| Question authoring holds | 255 |')
     .replace('| Question authoring holds | 255 |', '| Question authoring holds | 256 |')
     .replace('| Source-absent prompt dispositions | 1 |', '| Source-absent prompt dispositions | 2 |')
     .replace('Q32 has no printed answer and remains un-authored', 'opening-bank Q32 and Mucize Q25 have no printed answer and remain un-authored')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}${mucizeParasitologyFourthDelta}${mucizeCaseOneDelta}${mucizeCaseTwoDelta}${mucizeCaseThreeDelta}${mucizeCaseFourDelta}${mucizeCaseFiveDelta}${mucizeCaseSixDelta}${mucizeCaseSevenDelta}${mucizeCaseEightDelta}${mucizeAdvancedOneDelta}${mucizeAdvancedTwoDelta}${mucizeAdvancedThreeDelta}${mucizeAdvancedFourDelta}${mucizeAdvancedFiveDelta}${mucizeAdvancedSixDelta}${mucizeAdvancedSevenDelta}${mucizeAdvancedEightDelta}${mucizeAdvancedNineDelta}${mucizeAdvancedTenDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}${mucizeParasitologyFourthHolds}${mucizeCaseOneHolds}${mucizeCaseTwoHolds}${mucizeCaseThreeHolds}${mucizeCaseFourHolds}${mucizeCaseFiveHolds}${mucizeCaseSixHolds}${mucizeCaseSevenHolds}${mucizeCaseEightHolds}${mucizeAdvancedOneHolds}${mucizeAdvancedTwoHolds}${mucizeAdvancedThreeHolds}${mucizeAdvancedFourHolds}${mucizeAdvancedFiveHolds}${mucizeAdvancedSixHolds}${mucizeAdvancedSevenHolds}${mucizeAdvancedEightHolds}${mucizeAdvancedNineHolds}${mucizeAdvancedTenHolds}`)
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}${mucizeParasitologyFourthDelta}${mucizeCaseOneDelta}${mucizeCaseTwoDelta}${mucizeCaseThreeDelta}${mucizeCaseFourDelta}${mucizeCaseFiveDelta}${mucizeCaseSixDelta}${mucizeCaseSevenDelta}${mucizeCaseEightDelta}${mucizeAdvancedOneDelta}${mucizeAdvancedTwoDelta}${mucizeAdvancedThreeDelta}${mucizeAdvancedFourDelta}${mucizeAdvancedFiveDelta}${mucizeAdvancedSixDelta}${mucizeAdvancedSevenDelta}${mucizeAdvancedEightDelta}${mucizeAdvancedNineDelta}${mucizeAdvancedTenDelta}${mucizeAdvancedElevenDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}${mucizeParasitologyFourthHolds}${mucizeCaseOneHolds}${mucizeCaseTwoHolds}${mucizeCaseThreeHolds}${mucizeCaseFourHolds}${mucizeCaseFiveHolds}${mucizeCaseSixHolds}${mucizeCaseSevenHolds}${mucizeCaseEightHolds}${mucizeAdvancedOneHolds}${mucizeAdvancedTwoHolds}${mucizeAdvancedThreeHolds}${mucizeAdvancedFourHolds}${mucizeAdvancedFiveHolds}${mucizeAdvancedSixHolds}${mucizeAdvancedSevenHolds}${mucizeAdvancedEightHolds}${mucizeAdvancedNineHolds}${mucizeAdvancedTenHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -12475,6 +12512,7 @@ function microCoverage() {
     .replace('Record-level backlog is not asserted as 5,225 unique records', 'Record-level backlog is not asserted as 5,224 unique records')
     .replace('Record-level backlog is not asserted as 5,224 unique records', 'Record-level backlog is not asserted as 5,223 unique records')
     .replace('Record-level backlog is not asserted as 5,223 unique records', 'Record-level backlog is not asserted as 5,222 unique records')
+    .replace('Record-level backlog is not asserted as 5,222 unique records', 'Record-level backlog is not asserted as 5,221 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -12507,6 +12545,7 @@ function microCoverage() {
     .replace('All 238 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 241 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 241 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 243 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All forty-four student-facing articles and all two hundred nineteen questions remain Draft; all one hundred fifty-six concepts', 'All forty-four student-facing articles and all two hundred twenty-two questions remain Draft; all one hundred fifty-seven concepts')
+    .replace('All forty-four student-facing articles and all two hundred twenty-two questions remain Draft; all one hundred fifty-seven concepts', 'All forty-four student-facing articles and all two hundred twenty-three questions remain Draft; all one hundred fifty-seven concepts')
     .replace('All 243 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 246 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 246 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 247 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 247 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 249 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
@@ -12543,6 +12582,8 @@ function microCoverage() {
     .replace('including the 263 held printed-key observations', 'including the 264 held printed-key observations')
     .replace('including 264 explicit holds and two source-absent prompts', 'including 265 explicit holds and two source-absent prompts')
     .replace('including the 264 held printed-key observations', 'including the 265 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 222 authored; **5,222 raw prompt observations remain**, including 265 explicit holds and two source-absent prompts', 'Governed prompt observations: 5,444 total; 223 authored; **5,221 raw prompt observations remain**, including 265 explicit holds and two source-absent prompts')
+    .replace('Governed answer observations: 5,211 total; 222 clean source-keyed prompts authored; **4,989 raw answer observations remain**, including the 265 held printed-key observations', 'Governed answer observations: 5,211 total; 223 clean source-keyed prompts authored; **4,988 raw answer observations remain**, including the 265 held printed-key observations')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -12593,4 +12634,6 @@ function microCoverage() {
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q9 on physical page 25.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q10 on physical page 25.')
     .replace('Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q9 are fully dispositioned;', 'Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q10 are fully dispositioned;')
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q10 on physical page 25.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q11 on physical page 25.')
+    .replace('Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q10 are fully dispositioned;', 'Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q11 are fully dispositioned;')
+    .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q11 on physical page 25.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q12 on physical page 25.')
 }

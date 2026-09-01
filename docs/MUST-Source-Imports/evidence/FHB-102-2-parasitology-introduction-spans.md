@@ -2615,3 +2615,25 @@ CLM-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q11-01
+
+## article_id
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## section_id
+art-inf-must-fhb1022-arthropod-metamorphosis-definition
+
+## text
+Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q11-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q11-01

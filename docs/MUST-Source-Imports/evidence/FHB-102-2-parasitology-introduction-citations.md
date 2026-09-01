@@ -4757,3 +4757,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q11-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q11-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official comparison diagram shows egg, larva, pupa and adult for complete metamorphosis, versus egg, nymph and adult for incomplete metamorphosis; the following slide repeats egg → larva → pupa → adult versus egg → nymph → adult.
+
+## locator_type
+page
+
+## locator_page
+7–8
+
+## locator_section
+Flies and Myiasis — Metamorphosis
+
+## locator_detail
+PDF page 7–8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Advanced MCQ Q11 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

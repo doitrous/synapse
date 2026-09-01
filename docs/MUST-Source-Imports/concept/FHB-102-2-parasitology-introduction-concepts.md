@@ -2487,6 +2487,7 @@ ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -2520,6 +2521,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q33-01
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q11-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2529,10 +2531,13 @@ CLM-INF-MUST-FHB1022-INTRO-Q33-01
 
 ## exam_signal
 src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p10 Arthropoda Q3 (global Q33); printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p25 Mucize Advanced MCQ Q11; printed answer p28
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p7–8 direct university teaching
 src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p7–8 direct university teaching
 
 ## original_wording
 What type of metamorphosis is called complete metamorphosis? Printed key A; options retained in their original order.
+What is the key difference between complete and incomplete metamorphosis in arthropods? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -2543,7 +2548,7 @@ concept_3f0bf457e07d8f6c5ffebc19
 concept_5ff9a835b91d24b057877b28
 
 ## conflicts
-No key conflict affects authored Arthropoda Q3 (global Q33). Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q3 (global Q33). Its printed A agrees with the governed university teaching statement. No key conflict affects authored Mucize Advanced MCQ Q11. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.

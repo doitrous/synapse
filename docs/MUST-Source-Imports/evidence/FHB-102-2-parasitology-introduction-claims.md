@@ -5233,3 +5233,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize case-based learning Case 7 Q2
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q11-01
+
+## concept_id
+CON-INF-1E7B4A9D306FC2
+
+## subject
+Complete metamorphosis is holometabolous
+
+## predicate
+states
+
+## object
+Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.
+
+## display_text
+Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Advanced MCQ Q11

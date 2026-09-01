@@ -18085,3 +18085,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize case-based learning Case 7 Q2 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q11
+
+## title
+What is the key difference between complete and incomplete metamorphosis in arthropods?
+
+## question
+What is the key difference between complete and incomplete metamorphosis in arthropods?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Complete metamorphosis involves a pupal stage, while incomplete metamorphosis does not
+
+## explanation_a
+Complete metamorphosis includes a pupal stage, whereas incomplete metamorphosis has a nymph stage and no pupa. The governed university slide directly supports Complete metamorphosis involves a pupal stage, while incomplete metamorphosis does not for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Incomplete metamorphosis involves a pupal stage, while complete metamorphosis does not
+
+## explanation_b
+Incorrect. Incomplete metamorphosis proceeds through nymphs without a pupal stage; it is not the pattern with a pupa, and complete metamorphosis is not nymph-only. The supported answer is A, Complete metamorphosis involves a pupal stage, while incomplete metamorphosis does not.
+
+## answer_c
+Complete metamorphosis involves only nymph stages, while incomplete metamorphosis involve larvae
+
+## explanation_c
+Incorrect. Incomplete metamorphosis proceeds through nymphs without a pupal stage; it is not the pattern with a pupa, and complete metamorphosis is not nymph-only. The supported answer is A, Complete metamorphosis involves a pupal stage, while incomplete metamorphosis does not.
+
+## answer_d
+Incomplete metamorphosis involves only adult stages, while complete metamorphosis involves larvae
+
+## explanation_d
+Incorrect. Incomplete metamorphosis proceeds through nymphs without a pupal stage; it is not the pattern with a pupa, and complete metamorphosis is not nymph-only. The supported answer is A, Complete metamorphosis involves a pupal stage, while incomplete metamorphosis does not.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-1E7B4A9D306FC2
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Metamorphosis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify the pupal stage as the offered distinction between complete and incomplete arthropod metamorphosis.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p25 Mucize Advanced MCQ Q11, printed key p28 (11 = A); MUST FHB102-2 Flies and Myiasis, p7–8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Advanced MCQ Q11 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
