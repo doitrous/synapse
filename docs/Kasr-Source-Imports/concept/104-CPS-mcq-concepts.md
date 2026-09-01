@@ -3,6 +3,7 @@
 
     Aortic Arch Relations and Cardiac Plexuses — 13 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart's Conducting System (components) — 6 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
@@ -11,7 +12,7 @@
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
-    Subdivisions of the Mediastinum — 12 questions, 4 concepts
+    Subdivisions of the Mediastinum — 14 questions, 4 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
@@ -259,6 +260,27 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-6799821893D6D2
+## label
+The conducting system runs SA node to AV node to AV bundle to right and left bundle branches to Purkinje fibres, arranged so each ventricle contracts from the apex upwards
+## canonical_key
+conducting-system-of-heart.components
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p11 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p7 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p10 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## field_notes
+canonical_key "conducting-system-of-heart.components" already has a pinned id in this module (CON-CVS-6799821893D6D2); mintConceptId derives the same id fresh (CON-CVS-6799821893D6D2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -987,6 +1009,7 @@ A plane from the sternal angle to the T4/T5 disc divides the mediastinum into su
 mediastinum.subdivisions-and-boundaries
 ## exam_signal
 src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
 ## article_ids
 +ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
 ## field_notes
@@ -1182,18 +1205,19 @@ kau
 ## exam_signal
 src_c30d947377670cb99a40 | question_book | | p27 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic

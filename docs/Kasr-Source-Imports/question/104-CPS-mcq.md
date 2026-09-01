@@ -3,6 +3,7 @@
 
     Aortic Arch Relations and Cardiac Plexuses — 13 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart's Conducting System (components) — 6 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
@@ -11,7 +12,7 @@
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
-    Subdivisions of the Mediastinum — 12 questions, 4 concepts
+    Subdivisions of the Mediastinum — 14 questions, 4 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
@@ -1010,6 +1011,570 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p13 q99. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-083B1B21F3B5
+## title
+The following are a parts of the conductive system of the heart, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are a parts of the conductive system of the heart, EXCEPT:
+## answer_a
+Purkinje fibers
+## explanation_a
+True, so not the exception. Purkinje fibres are the terminal, most distal component of the conducting system, encircling the papillary-muscle bases before ascending beneath the endocardium.
+## answer_b
+Sinoatrial node
+## explanation_b
+True, so not the exception. The sino-atrial node, in the right atrial wall behind the SVC opening, is the conducting system's own point of origin.
+## answer_c
+Chorda tendinae
+## explanation_c
+The exception, and the answer. The chordae tendinae are fibrous cords connecting the atrioventricular valve cusps to the papillary muscles — part of the mechanical valve-support apparatus, not the electrical conduction system at all. A common trap: assuming any structure closely associated with the ventricular cavity's own machinery must belong to the conducting system, when the two systems (electrical and mechanical) are built and named separately.
+
+Why this is right:
+- The conducting system is built of specialised cardiac muscle, not nerve tissue.
+## answer_d
+Atrioventricular bundle
+## explanation_d
+True, so not the exception. The atrioventricular bundle is the sole muscular bridge across the fibrous skeleton, carrying the impulse from the AV node into the ventricles.
+## answer_e
+Atrioventircular node
+## explanation_e
+True, so not the exception. The atrioventricular node relays the impulse from the atria, after a deliberate conduction delay, into the AV bundle.
+## correct_answer
+C
+## main_concept
+CON-CVS-6799821893D6D2
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Conducting System (components)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the chordae tendinae as the exception among listed parts of the heart's conductive system.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p26 q106. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-92218C0965A1
+## title
+The following are parts of the conductive system of the heart, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following are parts of the conductive system of the heart, EXCEPT:
+## answer_a
+Purkinje fibers
+## explanation_a
+True, so not the exception. Purkinje fibres are the terminal, most distal component of the conducting system, encircling the papillary-muscle bases before ascending beneath the endocardium.
+## answer_b
+Sinoatrial node
+## explanation_b
+True, so not the exception. The sino-atrial node, in the right atrial wall behind the SVC opening, is the conducting system's own point of origin.
+## answer_c
+Chorda tendinae
+## explanation_c
+The exception, and the answer. This is a duplicate of the identical question asked elsewhere in the same paper; the chordae tendinae remain the correct exception because they are mechanical valve-support cords, connecting the AV valve cusps to the papillary muscles, not electrical conduction tissue.
+
+Why this is right:
+- The conducting system is built of specialised cardiac muscle, not nerve tissue.
+## answer_d
+Atrioventricular bundle
+## explanation_d
+True, so not the exception. The atrioventricular bundle is the sole muscular bridge across the fibrous skeleton, carrying the impulse from the AV node into the ventricles.
+## answer_e
+Atrioventircular node
+## explanation_e
+True, so not the exception. The atrioventricular node relays the impulse from the atria, after a deliberate conduction delay, into the AV bundle.
+## correct_answer
+C
+## main_concept
+CON-CVS-6799821893D6D2
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Conducting System (components)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the chordae tendinae as the exception among listed parts of the heart's conductive system.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p11 q43. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-66A32A000E02
+## title
+what is the correct pathway of impulses through the conducting system of the heart?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+what is the correct pathway of impulses through the conducting system of the heart?
+## answer_a
+SA node, AV node, AV bundle, bundle branches, Purkinje fibers
+## explanation_a
+Correct. The impulse starts at the SA node, is relayed through the AV node's own deliberate delay to the AV bundle, splits there into the right and left bundle branches, and finally spreads through the Purkinje network — the department book's own component order, followed in exactly this sequence.
+
+Why this is right:
+- The conducting system is built of specialised cardiac muscle, not nerve tissue.
+## answer_b
+AV node, AV bundle, Purkinje fibers, bundle branches, SA node
+## explanation_b
+Placing the AV node before the SA node reverses the true origin of the impulse: the SA node initiates it, and the AV node only relays what the SA node has already generated.
+## answer_c
+Purkinje fibers, AV node, bundle branches, SA node, AV bundle :
+## explanation_c
+Starting from the Purkinje fibres reverses the entire pathway; the Purkinje network is the terminal, most distal component, not the point of origin, and the SA node — omitted here entirely — is where the impulse actually begins.
+## answer_d
+SA node, AV node, Purkinje fibers, bundle branches, AV bundle
+## explanation_d
+Placing the Purkinje fibres before the bundle branches reverses their true order: the AV bundle splits INTO the bundle branches, which THEN break up into the Purkinje network — the branches are always upstream of the Purkinje fibres they feed, never downstream of them.
+## correct_answer
+A
+## main_concept
+CON-CVS-6799821893D6D2
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Physiology
+## subtopic
+Anatomy Cardiovascular System — The Heart's Conducting System (components)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a sequence
+## learning_objective
+Sequence the conducting system correctly: SA node, AV node, AV bundle, bundle branches, Purkinje fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p4 q11. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0096A336DC77
+## title
+Which of the following is the correct pathway of impulses through the conducting system…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is the correct pathway of impulses through the conducting system of the heart?
+## answer_a
+SA node, AV node, AV bundle, bundle branches, Purkinje fibers
+## explanation_a
+Correct. The impulse starts at the SA node, is relayed through the AV node's own deliberate delay to the AV bundle, splits there into the right and left bundle branches, and finally spreads through the Purkinje network — the department book's own component order, followed in exactly this sequence.
+
+Why this is right:
+- The conducting system is built of specialised cardiac muscle, not nerve tissue.
+## answer_b
+AV node, AV bundle, Purkinje fibers, bundle branches, SA node
+## explanation_b
+Placing the AV node before the SA node reverses the true origin of the impulse: the SA node initiates it, and the AV node only relays what the SA node has already generated.
+## answer_c
+Purkinje fibers, AV node, bundle branches, SA node, AV bundle
+## explanation_c
+Starting from the Purkinje fibres reverses the entire pathway; the Purkinje network is the terminal, most distal component, not the point of origin, and the SA node — omitted here entirely — is where the impulse actually begins.
+## answer_d
+SA node, AV node, Purkinje fibers, bundle branches, AV bundle
+## explanation_d
+Placing the Purkinje fibres before the bundle branches reverses their true order: the AV bundle splits INTO the bundle branches, which THEN break up into the Purkinje network — the branches are always upstream of the Purkinje fibres they feed, never downstream of them.
+## correct_answer
+A
+## main_concept
+CON-CVS-6799821893D6D2
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Anatomy Cardiovascular System — The Heart's Conducting System (components)
+## subtopic
+Anatomy Cardiovascular System — The Heart's Conducting System (components)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a sequence
+## learning_objective
+Sequence the conducting system correctly: SA node, AV node, AV bundle, bundle branches, Purkinje fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p7 q53. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-691005ABA813
+## title
+Which of the following is not a part of the specialized seij-excitable conductive syste…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is not a part of the specialized seij-excitable conductive system of the heart?
+## answer_a
+SA node
+## explanation_a
+The SA node is a genuine component of the specialized conducting system — its own point of origin — so not the answer sought.
+## answer_b
+AV node
+## explanation_b
+The AV node is a genuine component of the specialized conducting system, relaying the impulse from the atria to the AV bundle after its own deliberate delay — so not the answer sought.
+## answer_c
+Papillary muscle
+## explanation_c
+Correct. A papillary muscle is part of the ventricle's mechanical valve-support apparatus — anchoring the AV valve cusps' chordae tendinae — not part of the specialized, self-excitable electrical conducting system at all, even though both sit inside the same ventricular cavity.
+
+Why this is right:
+- The conducting system is built of specialised cardiac muscle, not nerve tissue.
+## answer_d
+Bundle of His
+## explanation_d
+The bundle of His (AV bundle) is a genuine component of the specialized conducting system, the sole muscular bridge across the fibrous skeleton — so not the answer sought.
+## correct_answer
+C
+## main_concept
+CON-CVS-6799821893D6D2
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Physiology
+## subtopic
+Anatomy Cardiovascular System — The Heart's Conducting System (components)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify the papillary muscle as not a part of the specialized self-excitable conducting system, unlike the SA node, AV node and bundle of His.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p4 q9. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6392DF25A5A8
+## title
+Regarding the heart, mark ONE correct statement:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the heart, mark ONE correct statement:
+## answer_a
+Its apex lies in the 4 left intercostal space 3 1/2 inches from the midline
+## explanation_a
+The apex of the heart is opposite the LEFT fifth intercostal space, not the fourth — a common, closely-related but incorrect distractor figure.
+## answer_b
+The mitral valve lies behind 3” left costal cartilage
+## explanation_b
+The mitral valve's surface projection lies behind the left half of the sternal body at the level of the fourth left sternocostal junction, not the third left costal cartilage — that figure instead describes the pulmonary valve's own projection.
+## answer_c
+The left coronary artery supplies the sinoatrial node in 60% of the subjects
+## explanation_c
+The left coronary artery supplies the SA node in about 40% of people, not 60% — the right coronary artery is the majority (60%) source, a frequently swapped pair of figures.
+## answer_d
+The sinoatrial node is located near the entrance of the superior vena Cava
+## explanation_d
+Correct. The sino-atrial node is situated in the wall of the right atrium behind the opening of the superior vena cava — the department book's own stated location, and the fact from which its 'pacemaker' role follows: it is the first tissue an impulse-initiating stimulus reaches on that pathway.
+
+Why this is right:
+- The conducting system is built of specialised cardiac muscle, not nerve tissue.
+## answer_e
+Trabeculae carnea are muscular ridges in the interior of the right atrium
+## explanation_e
+Trabeculae carneae are muscular ridges in the interior of the ventricles, not the right atrium — the right atrium's own ridged feature is instead the musculi pectinati of its rough anterior part.
+## correct_answer
+D
+## main_concept
+CON-CVS-6799821893D6D2
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart's Conducting System (components)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Locate the SA node in the right atrial wall behind the entrance of the superior vena cava, as opposed to incorrect apex, valve-projection, coronary-supply and trabeculae-carneae statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p10 q39. Manifest src_c30d947377670cb99a40.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -5488,6 +6053,196 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-BF2541F16004
+## title
+The heart is situated in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The heart is situated in:
+## answer_a
+Superior mediastinum.
+## explanation_a
+The superior mediastinum lies above the sternal-angle/T4-T5 plane and holds the great vessels, trachea and oesophagus — the heart itself lies below this plane, in the inferior mediastinum.
+## answer_b
+Anterior mediastinum.
+## explanation_b
+The anterior mediastinum is the narrow space directly in front of the pericardium, holding only the sternopericardial ligaments, the lower thymus and a few lymph nodes — the heart lies inside the pericardium, not in front of it.
+## answer_c
+Middle mediastinum.
+## explanation_c
+Correct. The middle mediastinum, one of the inferior mediastinum's three compartments, is occupied by the pericardium and its contents — the heart, the roots of the great vessels and the lower superior vena cava — which is exactly where the heart itself sits.
+
+Why this is right:
+- The mediastinum is the thick median partition of the thoracic cavity, extending from the sternum to the vertebral column and from the thoracic inlet to the diaphragm.
+- An imaginary plane from the sternal angle in front to the lower border of T4, or the T4/T5 disc, behind divides it into a superior mediastinum above and an inferior mediastinum below.
+- The inferior mediastinum is further subdivided into an anterior mediastinum, a narrow space in front of the pericardium; a middle mediastinum, occupied by the pericardium and its contents; and a posterior mediastinum, behind the pericardium and in front of the vertebral column.
+## answer_d
+Posterior mediastinum.
+## explanation_d
+The posterior mediastinum lies behind the pericardium, holding the descending thoracic aorta, the azygos system, the oesophagus and the thoracic duct — the heart lies inside the pericardium, in the compartment in front of this one.
+## answer_e
+None of the above.
+## explanation_e
+Since option C correctly places the heart in the middle mediastinum, 'none of the above' does not apply.
+## correct_answer
+C
+## main_concept
+CON-RES-F78FBA0BF1E673
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Anatomy
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+State that the heart is situated in the middle mediastinum, occupied by the pericardium and its contents.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p26 q104. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6EDC1E5EAE6D
+## title
+Which of the following structures present at the level of the lower border of the fourt…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following structures present at the level of the lower border of the fourth thoracic vertebra?
+## answer_a
+End of arch of aorta
+## explanation_a
+Correct. The arch of the aorta ends, becoming the descending (thoracic) aorta, at the T4/T5 disc level — the same oblique plane as the sternal angle, read from behind rather than in front, exactly the level this question asks about.
+
+Why this is right:
+- The sternal angle (the manubriosternal joint) is where the second costal cartilage articulates with the sternum — not the first rib, which articulates with the manubrium above the angle.
+## answer_b
+Beginning of superior vena
+## explanation_b
+The superior vena cava does not begin at this level at all; it is formed one space higher, behind the lower border of the first right costal cartilage, where the two brachiocephalic veins unite.
+## answer_c
+left atrium
+## explanation_c
+The left atrium forms the base (posterior surface) of the heart, within the middle mediastinum below the sternal-angle plane — not a structure whose own upper limit is defined at the T4 level.
+## answer_d
+end of left vagus nerve
+## explanation_d
+The left vagus nerve continues well past the T4/T5 level, descending through the posterior mediastinum to form the oesophageal plexus with its fellow on the right — its course is not bounded at this vertebral level.
+## correct_answer
+A
+## main_concept
+CON-RES-69FF90DE1AC263
+## library_ids
+ART-104-ANA-MEDIASTINUM-SUBDIVISIONS
+## topic
+Subdivisions of the Mediastinum
+## subtopic
+Subdivisions of the Mediastinum
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Place the end of the arch of the aorta at the level of the lower border of the fourth thoracic vertebra (the T4/T5 disc, the sternal-angle plane read from behind).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q17. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
 
 ---
 

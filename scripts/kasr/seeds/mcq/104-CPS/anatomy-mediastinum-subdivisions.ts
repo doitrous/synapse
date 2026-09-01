@@ -227,5 +227,35 @@ export const LEAF: McqLeafSeed = {
         D: "True, so not the answer sought. The azygos vein's arch enters the superior vena cava at the sternal-angle level, opposite the second right costal cartilage.",
       },
     },
+    // run40, "The heart" batch. Bank-tagged leaf null, chapter "Mediastinum"
+    // — genuinely this file's own subdivisions concept, no new search
+    // needed.
+    {
+      key: "the-heart-is-situated-in-e707e57c",
+      conceptKey: "mediastinum.subdivisions-and-boundaries",
+      difficulty: "Easy",
+      questionType: "Recall of a definition",
+      learningObjective: "State that the heart is situated in the middle mediastinum, occupied by the pericardium and its contents.",
+      explanations: {
+        A: "The superior mediastinum lies above the sternal-angle/T4-T5 plane and holds the great vessels, trachea and oesophagus — the heart itself lies below this plane, in the inferior mediastinum.",
+        B: "The anterior mediastinum is the narrow space directly in front of the pericardium, holding only the sternopericardial ligaments, the lower thymus and a few lymph nodes — the heart lies inside the pericardium, not in front of it.",
+        C: "Correct. The middle mediastinum, one of the inferior mediastinum's three compartments, is occupied by the pericardium and its contents — the heart, the roots of the great vessels and the lower superior vena cava — which is exactly where the heart itself sits.",
+        D: "The posterior mediastinum lies behind the pericardium, holding the descending thoracic aorta, the azygos system, the oesophagus and the thoracic duct — the heart lies inside the pericardium, in the compartment in front of this one.",
+        E: "Since option C correctly places the heart in the middle mediastinum, 'none of the above' does not apply.",
+      },
+    },
+    {
+      key: "which-of-the-following-structures-present-at-the-level-of-th-60a385c5",
+      conceptKey: "sternal-angle.surface-and-vertebral-correlations",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "Place the end of the arch of the aorta at the level of the lower border of the fourth thoracic vertebra (the T4/T5 disc, the sternal-angle plane read from behind).",
+      explanations: {
+        A: "Correct. The arch of the aorta ends, becoming the descending (thoracic) aorta, at the T4/T5 disc level — the same oblique plane as the sternal angle, read from behind rather than in front, exactly the level this question asks about.",
+        B: "The superior vena cava does not begin at this level at all; it is formed one space higher, behind the lower border of the first right costal cartilage, where the two brachiocephalic veins unite.",
+        C: "The left atrium forms the base (posterior surface) of the heart, within the middle mediastinum below the sternal-angle plane — not a structure whose own upper limit is defined at the T4 level.",
+        D: "The left vagus nerve continues well past the T4/T5 level, descending through the posterior mediastinum to form the oesophageal plexus with its fellow on the right — its course is not bounded at this vertebral level.",
+      },
+    },
   ],
 }
