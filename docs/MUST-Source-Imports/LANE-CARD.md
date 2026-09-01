@@ -1,11 +1,11 @@
 # LANE-CARD — MUST University Year 1 (must)
-Read this card first. This module's content lives on branch `codex/must-year1-content`, not `main` — work off that branch. Before writing anything, read `docs/MUST-Source-Imports/CLAUDE-HANDOVER.md` on that branch for the current STOPPED/RESUME status; do not continue automatically if it says STOPPED.
+Read this card first. This module's content lives on branch `codex/must-year1-content`, not `main` — work off that branch. The chief-of-staff dispatch you receive IS the resume authority (Omar resumed all lanes 2026-09-01); the branch's `CLAUDE-HANDOVER.md` is history and its STOPPED line is superseded — read it only for source paths and the last boundary.
 
 ## 1. Identity and ids
 University id `must`. Years `MUST_Y1`… (`buildYears('MUST')`). Module ids `MUST-<CODE>`, e.g. `MUST-FHB-102-2` (Semester 102, module "FHB 102-2" — the faculty-printed code becomes the id, spaces to hyphens). Concept id `CON-<SYSTEM>-<14hex>` (standard mint, e.g. `inf` subject → `CON-INF-…`). Question id `QST-MUST-<MODULE-SLUG>-<TOPIC>-Q<N>`. Files: `docs/MUST-Source-Imports/{concept,article,question,evidence,coverage}/`.
 
 ## 2. The ten rules that cannot bend
-Same ten as every lane, plus (CLAUDE-HANDOVER, standing since this lane started): **MUST is local-only Draft — never upload, never `git push` to a remote Omar didn't name, unless he explicitly changes that rule.** Preserve every printed key exactly; a conflict is an explicit hold, never a repaired-by-inference key. A held dependency chain must not receive a sparse exact-ID update. All content stays `Draft` / `needs_evidence`.
+Same ten as every lane, plus (CLAUDE-HANDOVER, standing since this lane started): **MUST is local-only Draft — never import into production and never run the importer.** Committing and pushing your branch to `origin` (Omar's own repo) is backup, not upload — do it after every commit. Preserve every printed key exactly; a conflict is an explicit hold, never a repaired-by-inference key. A held dependency chain must not receive a sparse exact-ID update. All content stays `Draft` / `needs_evidence`.
 
 ## 3. Read text, don't look at pictures
 Organized source root: `/Users/doitrous/Desktop/Universities/MUST/Year 1/`. Main assessment source: `Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`. Governed teaching text: `Semester 102/FHB 102-2/Parasitology/01 University Material/`. `node scripts/content/pagetext.mjs show "<pdf>" --pages a-b` (≤ 3 pages/call), `status` first. **Use existing Desktop sources only — do not download replacements or move sources out of the organized tree.**
@@ -20,7 +20,7 @@ No seed-JSON directory exists here (seeds are the generator's own observation ta
 **One question (or one small natural-boundary batch, e.g. Q17–Q33) per atomic commit**, holds included — a hold is still a commit, it records the decision. Never batch a large run before checkpointing; a death here costs a rebuilt audit, not just questions. Report ≤ 20 lines, ends `HANDOFF: <branch>@<sha> · resume-first: <next>` and update `CLAUDE-HANDOVER.md` itself.
 
 ## 7. This lane's known traps
-- **Never upload.** This is the one lane where "push gate-clean work" does not mean import or make public — local commit only, until Omar changes the rule.
+- **Never upload.** "Push gate-clean work" here means push the git branch to origin; it never means import into production or flip anything from Draft — only Omar changes that.
 - Printed keys stand even when a bank's own wording contradicts its stated answer letter; hold, do not silently correct.
 - A held dependency chain (an earlier question in the same cluster still on hold) must not receive a sparse update that assumes it resolved.
 - Advanced/case-style questions can run to dozens of parts (`Mucize Advanced Q1–Q95`+) — a "safe batch" audit (which Qs are keyable vs held) is guidance only, re-check every item against the PDF before writing, per the last handover's own caution.
