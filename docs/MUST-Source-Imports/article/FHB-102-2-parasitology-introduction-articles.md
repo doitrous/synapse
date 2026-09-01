@@ -3480,6 +3480,7 @@ Culex is the mosquito vector of Wuchereria bancrofti in the governed local curri
 Anopheles pharoensis is the chief malaria vector in Egypt.
 Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
 West Nile virus is transmitted propagatively by Culex mosquitoes.
+Aedes mosquitoes transmit Zika virus.
 
 ## published_summary
 
@@ -3495,6 +3496,7 @@ Anopheles pharoensis is the chief malaria vector in Egypt.
 Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
 Zika virus infection during pregnancy is associated with congenital microcephaly.
 West Nile virus is transmitted propagatively by Culex mosquitoes.
+Aedes mosquitoes transmit Zika virus.
 
 ## lose_the_mark
 The governed association is Zika, not malaria, yellow fever or Rift Valley fever.
@@ -3504,6 +3506,7 @@ The deck states that Anopheles gambiae is not found in Egypt and does not assign
 The governed complication is lymphatic swelling rather than liver failure, jaundice or a simple rash.
 The governed association is congenital microcephaly, not yellow fever, elephantiasis or anaemia.
 The governed table labels West Nile transmission propagative rather than cyclodevelopmental, cyclopropagative or mechanical.
+The governed Zika vector is Aedes, not Anopheles, Culex or sandfly.
 
 ## callout_evidence
 ### Zika virus infection during pregnancy is associated with congenital microcephaly.
@@ -3541,12 +3544,18 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q59-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q59-01
 Reviewed by: pending medical review
 
+### Aedes mosquitoes transmit Zika virus.
+Claims: CLM-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-C78116FCC3B754
 CON-INF-476CFE4CB1DE34
 CON-INF-DF00AF29E78092
 CON-INF-43040B7549A6C2
 CON-INF-F08BDC422993D8
+CON-INF-326CB7EB4934C6
 
 ## related_articles
 ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY: Mosquito taxonomy, morphology, life cycle and bionomics
@@ -3560,6 +3569,7 @@ QST-MUST-FHB1022-PARA-MUCIZE-Q54
 QST-MUST-FHB1022-PARA-MUCIZE-Q57
 QST-MUST-FHB1022-PARA-MUCIZE-Q58
 QST-MUST-FHB1022-PARA-MUCIZE-Q59
+QST-MUST-FHB1022-PARA-MUCIZECASE4-Q02
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
@@ -3577,6 +3587,7 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q54-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q57-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q58-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q59-01
+CLM-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q15-01
@@ -3586,6 +3597,7 @@ SPN-INF-MUST-FHB1022-MUCIZE-Q54-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q57-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q58-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q59-01
+SPN-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -3625,6 +3637,11 @@ Id: ann-must-fhb1022-mucize-q58
 Quote: West Nile virus is transmitted propagatively by Culex mosquitoes.
 Block: body
 Id: ann-must-fhb1022-mucize-q59
+
+### definition_of · CON-INF-326CB7EB4934C6
+Quote: Aedes mosquitoes transmit Zika virus.
+Block: body
+Id: ann-must-fhb1022-mucizecase4-q02
 
 ## media
 

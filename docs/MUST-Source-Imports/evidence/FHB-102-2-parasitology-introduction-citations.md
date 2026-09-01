@@ -4637,3 +4637,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Aedes disease table lists Zika virus under female Aedes, and the congenital-microcephaly case slide asks for the vector responsible.
+
+## locator_type
+page
+
+## locator_page
+19, 24
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Aedes-borne disease
+
+## locator_detail
+PDF page 19, 24, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize case-based learning Case 4 Q2 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

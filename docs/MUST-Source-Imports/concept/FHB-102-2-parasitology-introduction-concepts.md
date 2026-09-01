@@ -14383,3 +14383,185 @@ rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the ide
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-326CB7EB4934C6
+
+## label
+Aedes mosquitoes transmit Zika virus
+
+## canonical_key
+parasitology.mosquitoes.aedes-zika-vector
+
+## aliases
+Zika mosquito vector
+Aedes-borne Zika
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Aedes mosquitoes transmit Zika virus.
+
+## explicit_objective
+Identify Aedes mosquito as the vector in the congenital Zika case.
+
+## pitfalls
+The governed Zika vector is Aedes, not Anopheles, Culex or sandfly.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Aedes-borne disease
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Aedes-borne disease
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p21 Mucize case-based learning Case 4 Q2; printed answer p21
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p19, 24 direct university teaching
+
+## original_wording
+What is the vector responsible for the disease transmission? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_67e667ad81d088a8265cb35b
+
+## conflicts
+No key conflict affects authored Mucize case-based learning Case 4 Q2. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_67e667ad81d088a8265cb35b — raw Aedes identity covers yellow fever and dengue but does not include Zika.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.

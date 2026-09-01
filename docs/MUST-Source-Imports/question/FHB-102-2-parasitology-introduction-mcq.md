@@ -17629,3 +17629,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize Parasitology core Q94 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZECASE4-Q02
+
+## title
+What is the vector responsible for the disease transmission?
+
+## question
+What is the vector responsible for the disease transmission?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Anopheles mosquito
+
+## explanation_a
+Incorrect. The governed Zika vector is Aedes, not Anopheles, Culex or sandfly. The supported answer is B, Aedes mosquito.
+
+## answer_b
+Aedes mosquito
+
+## explanation_b
+Aedes mosquitoes transmit Zika virus. The governed university slide directly supports Aedes mosquito for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Culex mosquito
+
+## explanation_c
+Incorrect. The governed Zika vector is Aedes, not Anopheles, Culex or sandfly. The supported answer is B, Aedes mosquito.
+
+## answer_d
+Sandfly
+
+## explanation_d
+Incorrect. The governed Zika vector is Aedes, not Anopheles, Culex or sandfly. The supported answer is B, Aedes mosquito.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-326CB7EB4934C6
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Aedes-borne disease
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Aedes mosquito as the vector in the congenital Zika case.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p21 Mucize case-based learning Case 4 Q2, printed key p21 (2 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p19, 24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize case-based learning Case 4 Q2 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

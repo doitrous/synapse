@@ -5101,3 +5101,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Parasitology core Q94
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+
+## concept_id
+CON-INF-326CB7EB4934C6
+
+## subject
+Aedes mosquitoes transmit Zika virus
+
+## predicate
+states
+
+## object
+Aedes mosquitoes transmit Zika virus.
+
+## display_text
+Aedes mosquitoes transmit Zika virus.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize case-based learning Case 4 Q2

@@ -2549,3 +2549,25 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q94-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZE-Q94-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+Aedes mosquitoes transmit Zika virus.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZECASE4-Q02-01
