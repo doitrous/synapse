@@ -2072,17 +2072,17 @@ MUST-FHB-102-2
 MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Cutaneous myiasis
 
 ## summary
-Cordylobia, Dermatobia and Hypoderma can cause cutaneous myiasis. Dermatobia hominis reaches the host by attaching its eggs to another insect that carries them.
+Cutaneous myiasis produces skin lesions or nodules. Cordylobia, Dermatobia and Hypoderma can cause cutaneous myiasis, and Dermatobia hominis reaches the host by attaching its eggs to another insect that carries them.
 
 ## sections
 ### Definition
-Cutaneous myiasis is skin infestation by fly larvae. Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+Cutaneous myiasis is skin infestation by fly larvae and produces lesions or nodules in the skin. Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
 
 ### Mechanism
 Dermatobia hominis uses another insect to carry and deliver its eggs. This phoresis attaches eggs to another insect, which carries them to the human host; the mechanism is therefore insect carriage rather than direct deposition of Dermatobia eggs on skin.
 
 ### Key determinants
-Cordylobia, Dermatobia and Hypoderma are all represented in the local cutaneous-myiasis teaching. A question offering the three separately and an all-of-the-above option selects all three. For Dermatobia transmission, the decisive clue is another insect carrying its eggs.
+Skin lesions or nodules identify the cutaneous presentation. Cordylobia, Dermatobia and Hypoderma are all represented in the local cutaneous-myiasis teaching. A question offering the three separately and an all-of-the-above option selects all three. For Dermatobia transmission, the decisive clue is another insect carrying its eggs.
 
 ### Clinical significance
 Recognising the causative genera and the phoretic transfer mechanism helps connect cutaneous lesions with fly exposure in the local myiasis framework.
@@ -2093,6 +2093,7 @@ Do not restrict cutaneous myiasis to only one of the three governed genera. Do n
 ### Exam-linked statements
 Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
 Dermatobia hominis uses another insect to carry and deliver its eggs.
+Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.
 
 ## published_summary
 
@@ -2104,11 +2105,13 @@ Dermatobia hominis uses another insect to carry and deliver its eggs.
 Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
 Dermatobia hominis uses another insect to carry and deliver its eggs.
 Dermatobia hominis uses another insect to carry and deliver its eggs.
+Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.
 
 ## lose_the_mark
 All three offered genera are associated with cutaneous myiasis in the governed teaching; do not exclude two by selecting only one.
 The governed mechanism is insect carriage, not direct skin deposition, larval ingestion or deposition in water.
 The governed phoretic carriage mechanism belongs to Dermatobia hominis, not Calliphora, Sarcophaga or Glossina.
+The governed presentation is cutaneous tissue involvement, not gastrointestinal invasion, contaminated-water transmission, or ingested larvae causing systemic infection.
 
 ## callout_evidence
 ### Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
@@ -2126,9 +2129,15 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q29-01
 Reviewed by: pending medical review
 
+### Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.
+Claims: CLM-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-0A47C19D5E2B84
 CON-INF-1B48D20E6F3C95
+CON-INF-6D13C7A920B4EF
 
 ## related_articles
 ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
@@ -2137,6 +2146,7 @@ ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
 QST-MUST-FHB1022-PARA-INTRO-Q47
 QST-MUST-FHB1022-PARA-INTRO-Q48
 QST-MUST-FHB1022-PARA-MUCIZE-Q29
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q13
 
 ## resource_ids
 src_2c1e04372fbb8b2607f7
@@ -2150,11 +2160,13 @@ src_2c1e04372fbb8b2607f7
 CLM-INF-MUST-FHB1022-INTRO-Q47-01
 CLM-INF-MUST-FHB1022-INTRO-Q48-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q13-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q47-01
 SPN-INF-MUST-FHB1022-INTRO-Q48-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q29-01
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q13-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -2174,6 +2186,11 @@ Id: ann-must-fhb1022-intro-q48
 Quote: Dermatobia hominis uses another insect to carry and deliver its eggs.
 Block: body
 Id: ann-must-fhb1022-mucize-q29
+
+### definition_of · CON-INF-6D13C7A920B4EF
+Quote: Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.
+Block: body
+Id: ann-must-fhb1022-mucizeadv-q13
 
 ## media
 

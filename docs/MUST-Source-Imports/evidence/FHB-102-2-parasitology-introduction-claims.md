@@ -5277,3 +5277,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Advanced MCQ Q11
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+
+## concept_id
+CON-INF-6D13C7A920B4EF
+
+## subject
+Cutaneous myiasis produces lesions or nodules in the skin
+
+## predicate
+states
+
+## object
+Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.
+
+## display_text
+Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Advanced MCQ Q13

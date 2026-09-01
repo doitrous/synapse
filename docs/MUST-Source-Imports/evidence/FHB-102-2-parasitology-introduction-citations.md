@@ -4797,3 +4797,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck classifies cutaneous myiasis as obligatory myiasis of living tissue and shows Cordylobia larvae penetrating skin to produce swellings or boils and Dermatobia larvae penetrating skin to cause cutaneous myiasis.
+
+## locator_type
+page
+
+## locator_page
+37, 42
+
+## locator_section
+Flies and Myiasis — Cutaneous myiasis
+
+## locator_detail
+PDF page 37, 42, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Advanced MCQ Q13 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

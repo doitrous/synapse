@@ -2637,3 +2637,25 @@ CLM-INF-MUST-FHB1022-MUCIZEADV-Q11-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZEADV-Q11-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+
+## article_id
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## section_id
+art-inf-must-fhb1022-cutaneous-myiasis-phoresis-definition
+
+## text
+Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q13-01

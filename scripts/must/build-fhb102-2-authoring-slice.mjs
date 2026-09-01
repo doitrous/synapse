@@ -1040,6 +1040,21 @@ const mucizeAdvancedItems = [
     pitfalls: 'Incomplete metamorphosis proceeds through nymphs without a pupal stage; it is not the pattern with a pupa, and complete metamorphosis is not nymph-only.',
     rejected: [],
   },
+  {
+    q: 13, bankQ: 13, conceptId: 'CON-INF-6D13C7A920B4EF', canonicalKey: 'parasitology.myiasis.cutaneous-skin-lesions-nodules',
+    label: 'Cutaneous myiasis produces lesions or nodules in the skin', aliases: ['Cutaneous-myiasis skin lesions', 'Cutaneous-myiasis nodules'], conceptType: 'clinical feature',
+    article: 'cutaneousMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Cutaneous myiasis',
+    assessmentPage: 25, answerPage: 28, teachingPages: '37, 42', teachingResourceId: myiasisResourceId,
+    teachingTitle: 'Flies and Myiasis',
+    stem: 'Which of the following is a key feature of cutaneous myiasis?', key: 'B',
+    options: ['The larvae invade the gastrointestinal tract', 'The larvae cause lesions or nodules in the skin', 'The larvae are transmitted through contaminated water', 'The larvae are ingested and cause systemic infections'],
+    claim: 'Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue.',
+    support: 'The official deck classifies cutaneous myiasis as obligatory myiasis of living tissue and shows Cordylobia larvae penetrating skin to produce swellings or boils and Dermatobia larvae penetrating skin to cause cutaneous myiasis.',
+    objective: 'Recognise skin lesions or nodules as the offered clinical feature of cutaneous myiasis.',
+    pitfalls: 'The governed presentation is cutaneous tissue involvement, not gastrointestinal invasion, contaminated-water transmission, or ingested larvae causing systemic infection.',
+    sourceCandidates: ['concept_3965ff3ac0ffc63c51c97f38'],
+    rejected: ['concept_3965ff3ac0ffc63c51c97f38 — raw furuncular-myiasis wording about maggots protruding from boil-like swellings is narrower than this generic cutaneous-myiasis lesion-or-nodule identity and is retained only as lineage.'],
+  },
 ].map((item) => ({
   idPrefix: 'MUCIZEADV', assessmentResourceId: mucizeAssessmentResourceId,
   bankLabel: `Mucize Advanced MCQ Q${item.bankQ}`, ...item,
@@ -9658,7 +9673,7 @@ ar
 Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
 
 ## qualification
-All 47 pages were already visually governed in source triage. Physical pages 6–25 and 28 were rendered and visually re-read for the bounded Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q12 authoring audit, including every governed option and printed answer token. Core Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85, Q87–Q89 and Q91–Q94 plus Case 4 Q2, Case 6 Q1, Case 7 Q2 and Advanced Q11 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Core Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86, Q90 and Q95 plus Case 1 Q1–Q2, Case 2 Q1–Q3, Case 3 Q1–Q2, Case 4 Q1, Q3–Q4, Case 5 Q1, Case 6 Q2–Q3, Case 7 Q1/Q3, Case 8 Q1–Q4 and Advanced Q1–Q10/Q12 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Core Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+All 47 pages were already visually governed in source triage. Physical pages 6–25 and 28 were rendered and visually re-read for the bounded Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q13 authoring audit, including every governed option and printed answer token. Core Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85, Q87–Q89 and Q91–Q94 plus Case 4 Q2, Case 6 Q1, Case 7 Q2 and Advanced Q11/Q13 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Core Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86, Q90 and Q95 plus Case 1 Q1–Q2, Case 2 Q1–Q3, Case 3 Q1–Q2, Case 4 Q1, Q3–Q4, Case 5 Q1, Case 6 Q2–Q3, Case 7 Q1/Q3, Case 8 Q1–Q4 and Advanced Q1–Q10/Q12 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Core Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6
@@ -10128,15 +10143,15 @@ Do not apply the rounded incomplete-peritreme Sarcophaga pattern or a triangular
   },
   cutaneousMyiasis: {
     title: 'Cutaneous myiasis and Dermatobia phoresis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Cutaneous myiasis',
-    summary: 'Cordylobia, Dermatobia and Hypoderma can cause cutaneous myiasis. Dermatobia hominis reaches the host by attaching its eggs to another insect that carries them.',
+    summary: 'Cutaneous myiasis produces skin lesions or nodules. Cordylobia, Dermatobia and Hypoderma can cause cutaneous myiasis, and Dermatobia hominis reaches the host by attaching its eggs to another insect that carries them.',
     sections: `### Definition
-Cutaneous myiasis is skin infestation by fly larvae. Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+Cutaneous myiasis is skin infestation by fly larvae and produces lesions or nodules in the skin. Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
 
 ### Mechanism
 Dermatobia hominis uses another insect to carry and deliver its eggs. This phoresis attaches eggs to another insect, which carries them to the human host; the mechanism is therefore insect carriage rather than direct deposition of Dermatobia eggs on skin.
 
 ### Key determinants
-Cordylobia, Dermatobia and Hypoderma are all represented in the local cutaneous-myiasis teaching. A question offering the three separately and an all-of-the-above option selects all three. For Dermatobia transmission, the decisive clue is another insect carrying its eggs.
+Skin lesions or nodules identify the cutaneous presentation. Cordylobia, Dermatobia and Hypoderma are all represented in the local cutaneous-myiasis teaching. A question offering the three separately and an all-of-the-above option selects all three. For Dermatobia transmission, the decisive clue is another insect carrying its eggs.
 
 ### Clinical significance
 Recognising the causative genera and the phoretic transfer mechanism helps connect cutaneous lesions with fly exposure in the local myiasis framework.
@@ -12337,6 +12352,16 @@ function microCoverage() {
   const mucizeAdvancedTwelveHolds = `- **Mucize Advanced MCQ Q12 is held as an established cyclopropagative dependency-chain hold.** Printed C, Cyclo-propagative transmission, is directly supported by the local Myiasis Notes page 2 definition of multiplication plus morphological change and by the department-branded page 2 Trypanosoma cruzi / Triatoma example. Existing \`CON-INF-23265735EECCA1\` and \`ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE\` remain in the established unsafe focused dependency chain already documented for Absalam Arthropoda Q36/Q42 and other Mucize occurrences. The printed key was not changed; no partial exact-ID update, duplicate concept/article or student-facing question was created.
 
 `
+  const mucizeAdvancedThirteenDelta = `### Mucize Doctors Advanced MCQ Q13 delta
+
+- The governed Mucize assessment resource and official Flies and Myiasis teaching resource are reused. Physical pages 25 and 28 and official pages 37 and 42 were rendered and visually read for the exact Q13 stem, all four options, printed answer token, next source boundary and direct teaching authority.
+- +1 verified local-curriculum claim, +1 citation, +1 article span and +1 needs_evidence concept.
+- +0 resources and +0 articles: the existing standalone-complete reciprocal Draft cutaneous-myiasis article is expanded in place without changing its ID or prior governed content.
+- +1 Draft question and +0 holds. The wording, option order and printed key remain unchanged: Q13 B, The larvae cause lesions or nodules in the skin. Official pages 37 and 42 classify cutaneous myiasis as obligatory living-tissue infestation and show larval skin penetration producing swellings or boils.
+- Search/replay gate: no duplicate governed question or exact concept identity was found. Raw \`concept_3965ff3ac0ffc63c51c97f38\` is retained as a rejected merge candidate because its furuncular-myiasis statement about maggots protruding from boil-like swellings is narrower than this generic cutaneous lesion-or-nodule identity.
+- Mucize Advanced MCQ Q13: **1 authored / 0 held / 0 source-absent / 0 unassessed**. Advanced Q1–Q13 cumulative: **2 authored / 11 held / 0 source-absent / 0 unassessed**. The exact next boundary is Mucize Advanced MCQ Q14 on physical page 25.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -12454,12 +12479,17 @@ function microCoverage() {
     .replace('| Citations | 227 |', '| Citations | 228 |')
     .replace('| Article spans | 222 |', '| Article spans | 223 |')
     .replace('| Questions | 222 |', '| Questions | 223 |')
+    .replace('| Claims | 223 |', '| Claims | 224 |')
+    .replace('| Citations | 228 |', '| Citations | 229 |')
+    .replace('| Article spans | 223 |', '| Article spans | 224 |')
+    .replace('| Concepts | 157 |', '| Concepts | 158 |')
+    .replace('| Questions | 223 |', '| Questions | 224 |')
     .replace('| Question authoring holds | 249 |', '| Question authoring holds | 251 |')
     .replace('| Question authoring holds | 251 |', '| Question authoring holds | 255 |')
     .replace('| Question authoring holds | 255 |', '| Question authoring holds | 256 |')
     .replace('| Source-absent prompt dispositions | 1 |', '| Source-absent prompt dispositions | 2 |')
     .replace('Q32 has no printed answer and remains un-authored', 'opening-bank Q32 and Mucize Q25 have no printed answer and remain un-authored')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}${mucizeParasitologyFourthDelta}${mucizeCaseOneDelta}${mucizeCaseTwoDelta}${mucizeCaseThreeDelta}${mucizeCaseFourDelta}${mucizeCaseFiveDelta}${mucizeCaseSixDelta}${mucizeCaseSevenDelta}${mucizeCaseEightDelta}${mucizeAdvancedOneDelta}${mucizeAdvancedTwoDelta}${mucizeAdvancedThreeDelta}${mucizeAdvancedFourDelta}${mucizeAdvancedFiveDelta}${mucizeAdvancedSixDelta}${mucizeAdvancedSevenDelta}${mucizeAdvancedEightDelta}${mucizeAdvancedNineDelta}${mucizeAdvancedTenDelta}${mucizeAdvancedElevenDelta}${mucizeAdvancedTwelveDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}${mucizeParasitologyFourthHolds}${mucizeCaseOneHolds}${mucizeCaseTwoHolds}${mucizeCaseThreeHolds}${mucizeCaseFourHolds}${mucizeCaseFiveHolds}${mucizeCaseSixHolds}${mucizeCaseSevenHolds}${mucizeCaseEightHolds}${mucizeAdvancedOneHolds}${mucizeAdvancedTwoHolds}${mucizeAdvancedThreeHolds}${mucizeAdvancedFourHolds}${mucizeAdvancedFiveHolds}${mucizeAdvancedSixHolds}${mucizeAdvancedSevenHolds}${mucizeAdvancedEightHolds}${mucizeAdvancedNineHolds}${mucizeAdvancedTenHolds}${mucizeAdvancedTwelveHolds}`)
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}${mucizeParasitologyFourthDelta}${mucizeCaseOneDelta}${mucizeCaseTwoDelta}${mucizeCaseThreeDelta}${mucizeCaseFourDelta}${mucizeCaseFiveDelta}${mucizeCaseSixDelta}${mucizeCaseSevenDelta}${mucizeCaseEightDelta}${mucizeAdvancedOneDelta}${mucizeAdvancedTwoDelta}${mucizeAdvancedThreeDelta}${mucizeAdvancedFourDelta}${mucizeAdvancedFiveDelta}${mucizeAdvancedSixDelta}${mucizeAdvancedSevenDelta}${mucizeAdvancedEightDelta}${mucizeAdvancedNineDelta}${mucizeAdvancedTenDelta}${mucizeAdvancedElevenDelta}${mucizeAdvancedTwelveDelta}${mucizeAdvancedThirteenDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}${mucizeParasitologyFourthHolds}${mucizeCaseOneHolds}${mucizeCaseTwoHolds}${mucizeCaseThreeHolds}${mucizeCaseFourHolds}${mucizeCaseFiveHolds}${mucizeCaseSixHolds}${mucizeCaseSevenHolds}${mucizeCaseEightHolds}${mucizeAdvancedOneHolds}${mucizeAdvancedTwoHolds}${mucizeAdvancedThreeHolds}${mucizeAdvancedFourHolds}${mucizeAdvancedFiveHolds}${mucizeAdvancedSixHolds}${mucizeAdvancedSevenHolds}${mucizeAdvancedEightHolds}${mucizeAdvancedNineHolds}${mucizeAdvancedTenHolds}${mucizeAdvancedTwelveHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -12558,6 +12588,7 @@ function microCoverage() {
     .replace('All 241 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 243 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All forty-four student-facing articles and all two hundred nineteen questions remain Draft; all one hundred fifty-six concepts', 'All forty-four student-facing articles and all two hundred twenty-two questions remain Draft; all one hundred fifty-seven concepts')
     .replace('All forty-four student-facing articles and all two hundred twenty-two questions remain Draft; all one hundred fifty-seven concepts', 'All forty-four student-facing articles and all two hundred twenty-three questions remain Draft; all one hundred fifty-seven concepts')
+    .replace('All forty-four student-facing articles and all two hundred twenty-three questions remain Draft; all one hundred fifty-seven concepts', 'All forty-four student-facing articles and all two hundred twenty-four questions remain Draft; all one hundred fifty-eight concepts')
     .replace('All 243 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 246 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 246 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 247 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 247 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 249 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
@@ -12600,6 +12631,8 @@ function microCoverage() {
     .replace('including the 265 held printed-key observations', 'including the 266 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 222 authored; **5,222 raw prompt observations remain**, including 266 explicit holds and two source-absent prompts', 'Governed prompt observations: 5,444 total; 223 authored; **5,221 raw prompt observations remain**, including 266 explicit holds and two source-absent prompts')
     .replace('Governed answer observations: 5,211 total; 222 clean source-keyed prompts authored; **4,989 raw answer observations remain**, including the 266 held printed-key observations', 'Governed answer observations: 5,211 total; 223 clean source-keyed prompts authored; **4,988 raw answer observations remain**, including the 266 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 223 authored; **5,221 raw prompt observations remain**, including 266 explicit holds and two source-absent prompts', 'Governed prompt observations: 5,444 total; 224 authored; **5,220 raw prompt observations remain**, including 266 explicit holds and two source-absent prompts')
+    .replace('Governed answer observations: 5,211 total; 223 clean source-keyed prompts authored; **4,988 raw answer observations remain**, including the 266 held printed-key observations', 'Governed answer observations: 5,211 total; 224 clean source-keyed prompts authored; **4,987 raw answer observations remain**, including the 266 held printed-key observations')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -12654,4 +12687,6 @@ function microCoverage() {
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q11 on physical page 25.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q12 on physical page 25.')
     .replace('Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q11 are fully dispositioned;', 'Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q12 are fully dispositioned;')
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q12 on physical page 25.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q13 on physical page 25.')
+    .replace('Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q12 are fully dispositioned;', 'Its physical pages 6–25 and 28 / Parasitology core Q1–Q95, case-based learning Cases 1–8 and Advanced MCQs Q1–Q13 are fully dispositioned;')
+    .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q13 on physical page 25.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Advanced MCQ Q14 on physical page 25.')
 }

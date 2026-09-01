@@ -18237,3 +18237,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize Advanced MCQ Q11 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q13
+
+## title
+Which of the following is a key feature of cutaneous myiasis?
+
+## question
+Which of the following is a key feature of cutaneous myiasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+The larvae invade the gastrointestinal tract
+
+## explanation_a
+Incorrect. The governed presentation is cutaneous tissue involvement, not gastrointestinal invasion, contaminated-water transmission, or ingested larvae causing systemic infection. The supported answer is B, The larvae cause lesions or nodules in the skin.
+
+## answer_b
+The larvae cause lesions or nodules in the skin
+
+## explanation_b
+Cutaneous myiasis produces lesions or nodules in the skin as fly larvae penetrate and develop in living cutaneous tissue. The governed university slide directly supports The larvae cause lesions or nodules in the skin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+The larvae are transmitted through contaminated water
+
+## explanation_c
+Incorrect. The governed presentation is cutaneous tissue involvement, not gastrointestinal invasion, contaminated-water transmission, or ingested larvae causing systemic infection. The supported answer is B, The larvae cause lesions or nodules in the skin.
+
+## answer_d
+The larvae are ingested and cause systemic infections
+
+## explanation_d
+Incorrect. The governed presentation is cutaneous tissue involvement, not gastrointestinal invasion, contaminated-water transmission, or ingested larvae causing systemic infection. The supported answer is B, The larvae cause lesions or nodules in the skin.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-6D13C7A920B4EF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Cutaneous myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Recognise skin lesions or nodules as the offered clinical feature of cutaneous myiasis.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p25 Mucize Advanced MCQ Q13, printed key p28 (13 = B); MUST FHB102-2 Flies and Myiasis, p37, 42.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Advanced MCQ Q13 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
