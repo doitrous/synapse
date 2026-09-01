@@ -69,7 +69,9 @@ def classify(parts):
     ['Semester 201', 'CVS 201', 'Anatomy', '05 MCQs', 'file.pdf']
     Returns (semester, moduleFolder, subjectFolder, kindFolder, kind, tier)."""
     semester = parts[0] if parts else None
-    if len(parts) < 2:
+    if len(parts) < 3:
+        # file sits directly under the semester folder (e.g. a source-manifest
+        # TSV) -- no module folder involved.
         return semester, None, None, None, "other", 9
 
     moduleFolder = parts[1]
