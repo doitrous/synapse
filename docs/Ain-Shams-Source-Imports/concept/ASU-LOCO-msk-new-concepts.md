@@ -1099,10 +1099,10 @@ CON-FND-7B9C2FBCBD3E5D
 creatine.synthesis.pathway-agat-gamt
 
 ## definition
-Creatine synthesis begins in the kidney, where arginine:glycine amidinotransferase (AGAT) transfers the amidino group of arginine to glycine, releasing ornithine and forming guanidinoacetate (GAA). GAA travels in the blood to the liver, where guanidinoacetate methyltransferase (GAMT) methylates it using S-adenosylmethionine (SAM) as the methyl donor, producing creatine (and S-adenosylhomocysteine). Creatine is then taken up by muscle and brain via a specific creatine transporter and phosphorylated by creatine kinase to creatine phosphate, the rapid-buffer store for regenerating ATP.
+Creatine synthesis begins in the kidney, where arginine:glycine amidinotransferase (AGAT) transfers the amidino group of arginine to glycine, releasing ornithine and forming guanidinoacetate (GAA). GAA travels in the blood to the liver, where guanidinoacetate methyltransferase (GAMT) methylates it using S-adenosylmethionine (SAM) as the methyl donor, producing creatine (and S-adenosylhomocysteine). Creatine is then taken up by muscle and brain via a specific creatine transporter and phosphorylated by creatine kinase to creatine phosphate, the rapid-buffer store for regenerating ATP. Creatine kinase itself exists as tissue-specific isoenzymes built from two subunits (M and B): CK-MM (CK3) predominates in skeletal muscle, CK-MB (CK2) is relatively specific to cardiac muscle, and CK-BB (CK1) predominates in brain. A rise in plasma CK-MB is a classic (if now largely superseded by troponin) marker of myocardial infarction, because cardiac injury releases the cardiac-specific isoenzyme into the circulation.
 
 ## explicit_objective
-Sequence creatine synthesis from arginine and glycine through AGAT and GAMT, naming the organ of each step and the methyl donor.
+Sequence creatine synthesis from arginine and glycine through AGAT and GAMT, naming the organ of each step and the methyl donor, and name CK-MB as the creatine kinase isoenzyme that is relatively specific to cardiac muscle and rises in plasma after myocardial infarction.
 
 ## concept_type
 mechanism

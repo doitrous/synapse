@@ -917,6 +917,9 @@ AGAT deficiency presents with global developmental delay, speech delay, hypotoni
 ### Fuel selection alongside the phosphagen system (added, author6)
 Creatine phosphate is muscle's fastest energy buffer, regenerating ATP within seconds via creatine kinase and providing the earliest-available energy system for a short sprint, before anaerobic glycolysis and then oxidative phosphorylation take over. Muscle's choice of fuel beyond this immediate buffer shifts with state: in the well-fed state muscle takes up glucose (to replenish glycogen) and amino acids (to synthesise protein); in early fasting, resting muscle burns fatty acids; under anaerobic conditions only glycogen/glucose can be used (fatty acid and ketone oxidation both require oxygen); and the aerobic oxidative system draws on glucose, fatty acids and ketone bodies together.
 
+### Creatine kinase isoenzymes (added, author6)
+Creatine kinase itself exists as tissue-specific isoenzymes built from M and B subunits: CK-MM (CK3) predominates in skeletal muscle, CK-MB (CK2) is relatively specific to cardiac muscle, and CK-BB (CK1) predominates in brain. A rise in plasma CK-MB is a classic marker of myocardial infarction, because cardiac injury releases the cardiac-specific isoenzyme into the circulation.
+
 ## hold_these
 Creatine synthesis: AGAT (kidney, arginine+glycine -> guanidinoacetate) then GAMT (liver, SAM methylates to creatine).
 Creatinine is a non-enzymatic breakdown product proportional to muscle mass, cleared by glomerular filtration.
