@@ -7,19 +7,38 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 
 const PDF = 'scripts/content/fixtures/pagetext/two-pages.pdf';
+const SCAN_PDF = 'scripts/content/fixtures/pagetext/scanned-page.pdf';
 const cacheDir = mkdtempSync(path.join(tmpdir(), 'pagetext-'));
 const run = (...args) => spawnSync('node', ['scripts/content/pagetext.mjs', ...args], { encoding: 'utf8', env: { ...process.env, NISHANY_PAGETEXT_CACHE: cacheDir } });
 
 before(() => {
-  if (existsSync(PDF)) return;
-  const py = `import fitz,os
+  if (!existsSync(PDF)) {
+    const py = `import fitz,os
 os.makedirs(${JSON.stringify(path.dirname(PDF))}, exist_ok=True)
 d=fitz.open()
 for t in ("PAGE ONE alpha","PAGE TWO beta"):
     p=d.new_page(); p.insert_text((72,72), t)
 d.save(${JSON.stringify(PDF)})`;
-  const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
-  assert.equal(r.status, 0, r.stderr);
+    const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
+    assert.equal(r.status, 0, r.stderr);
+  }
+  if (!existsSync(SCAN_PDF)) {
+    // Build a page whose only content is an IMAGE of text (no text layer), so
+    // pdftotext yields 0 words and the page can only be read via OCR.
+    const py = `import fitz, os
+os.makedirs(${JSON.stringify(path.dirname(SCAN_PDF))}, exist_ok=True)
+src = fitz.open()
+sp = src.new_page(width=900, height=300)
+sp.insert_text((30, 170), "SURFACTANT REDUCES ALVEOLAR SURFACE TENSION", fontsize=42)
+pix = sp.get_pixmap(dpi=150)
+png_bytes = pix.tobytes("png")
+d = fitz.open()
+page = d.new_page(width=900, height=300)
+page.insert_image(fitz.Rect(0, 0, 900, 300), stream=png_bytes)
+d.save(${JSON.stringify(SCAN_PDF)}, deflate=True, garbage=4)`;
+    const r = spawnSync('python3', ['-c', py], { encoding: 'utf8' });
+    assert.equal(r.status, 0, r.stderr);
+  }
 });
 
 test('show extracts on first touch, caches, and prints page headers', () => {
@@ -37,8 +56,8 @@ test('show extracts on first touch, caches, and prints page headers', () => {
 
 test('status lists pages with word counts', () => {
   const r = run('status', PDF);
-  assert.match(r.stdout, /^p1 words=3 garbled=no$/m);
-  assert.match(r.stdout, /^p2 words=3 garbled=no$/m);
+  assert.match(r.stdout, /^p1 words=3 garbled=no ocr=no$/m);
+  assert.match(r.stdout, /^p2 words=3 garbled=no ocr=no$/m);
 });
 
 test('render refuses a page that is not marked garbled, then allows it after marking', () => {
@@ -58,6 +77,34 @@ test('index writes a markdown table with one row per pdf', () => {
   const r = run('index', path.dirname(PDF), '--out', outFile);
   assert.equal(r.status, 0, r.stderr);
   const md = readFileSync(outFile, 'utf8');
-  assert.match(md, /\| file \| pages \| words \| garbled pages \|/);
-  assert.match(md, /two-pages\.pdf \| 2 \| 6 \| 1 \|/);
+  assert.match(md, /\| file \| pages \| words \| garbled pages \| ocr pages \|/);
+  assert.match(md, /two-pages\.pdf \| 2 \| 6 \| 1 \| 0 \|/);
+});
+
+test('a scanned (image-only) page extracts as 0 words and garbled', () => {
+  const r = run('status', SCAN_PDF);
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /^p1 words=0 garbled=yes ocr=no$/m);
+});
+
+test('ocr fills in text for a scanned page, marks it ocr=yes, and show/index reflect it', () => {
+  let r = run('ocr', SCAN_PDF, '--pages', '1');
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /^p1 ocr words=\d+ psm=\d+$/m);
+
+  r = run('status', SCAN_PDF);
+  assert.match(r.stdout, /^p1 words=(\d+) garbled=(yes|no) ocr=yes$/m);
+  const wordsMatch = /^p1 words=(\d+) /m.exec(r.stdout);
+  assert.ok(Number(wordsMatch[1]) >= 2, `expected >=2 OCR'd words, got: ${r.stdout}`);
+
+  r = run('show', SCAN_PDF, '--pages', '1');
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /=== page 1 \(ocr\) ===/);
+  assert.match(r.stdout, /SURFACTANT/i);
+
+  const outFile = path.join(mkdtempSync(path.join(tmpdir(), 'idx-ocr-')), 'INDEX.md');
+  r = run('index', path.dirname(SCAN_PDF), '--out', outFile);
+  assert.equal(r.status, 0, r.stderr);
+  const md = readFileSync(outFile, 'utf8');
+  assert.match(md, /scanned-page\.pdf \| 1 \| \d+ \| \d+ \| 1 \|/);
 });

@@ -42,6 +42,7 @@ outright (exit 2, "simulate has no --with flag") instead of being silently dropp
 node scripts/content/pagetext.mjs show <pdf> --pages 3-5
 node scripts/content/pagetext.mjs status <pdf>
 node scripts/content/pagetext.mjs mark-garbled <pdf> --pages 4   (and unmark-garbled)
+node scripts/content/pagetext.mjs ocr <pdf> --pages 4 [--dpi 300] [--force]
 node scripts/content/pagetext.mjs render <pdf> --pages 4 --out <dir>
 node scripts/content/pagetext.mjs index <dir-of-pdfs> --out <file.md>
 ```
@@ -49,14 +50,20 @@ node scripts/content/pagetext.mjs index <dir-of-pdfs> --out <file.md>
 Extracts a PDF once (`pdftotext -layout`, one page at a time), keyed by the file's
 sha256, so the same source reached from any worktree or Desktop path hits the same cache
 entry. Cache: `${NISHANY_PAGETEXT_CACHE:-$HOME/.cache/nishany-pagetext}/<sha256>.json` —
-outside the repo, not committed. `show` prints `=== page N ===` + text per requested page;
-`status` prints `p<N> words=<n> garbled=<yes|no>` (a 0-word page is auto-flagged garbled).
-`render` (200 dpi, via `pdftoppm`) **refuses** a page that is not marked garbled (exit 2)
-unless `--force` — rendering costs roughly 50× the tokens of reading the cached text, so
-it is gated behind an explicit "the text really is unusable" flag. `index` walks a
-directory recursively and writes the committed per-lane readability table
-(`| file | pages | words | garbled pages |`) — this is what a lane commits as
+outside the repo, not committed. `show` prints `=== page N ===` (or `=== page N (ocr) ===`
+once that page has been OCR'd) + text per requested page; `status` prints `p<N> words=<n>
+garbled=<yes|no> ocr=<yes|no>` (a 0-word page is auto-flagged garbled). `ocr` renders each
+selected 0-word page (`pdftoppm` → `tesseract --psm 6 -l eng`, falling back to `--psm 4`
+under 20 words) and caches the recognized text ONCE so no lane re-renders the same scanned
+page twice. `render` (200 dpi, via `pdftoppm`) **refuses** a page that is not marked
+garbled (exit 2) unless `--force` — rendering costs roughly 50× the tokens of reading the
+cached text, so it is gated behind an explicit "the text really is unusable" flag. `index`
+walks a directory recursively and writes the committed per-lane readability table
+(`| file | pages | words | garbled pages | ocr pages |`) — this is what a lane commits as
 `coverage/<lane>-readability-index.md` (13-orchestration.md §4, stage S1b).
+
+**Rule:** `status` → `show`; `words=0` → `ocr`; `render` ONLY that one page if the OCR text
+is unreadable.
 
 ### `emit-mcq.mjs` + `ledger.mjs` — seed → generate, and the progress ledger
 
