@@ -592,6 +592,182 @@ const mucizeParasitologyItems = [
     objective: 'Identify Dermatobia hominis from its use of another insect to carry its eggs to the host.',
     pitfalls: 'The governed phoretic carriage mechanism belongs to Dermatobia hominis, not Calliphora, Sarcophaga or Glossina.', rejected: [],
   },
+  {
+    q: 31, conceptId: 'CON-INF-CD8A632D0E68EF', canonicalKey: 'parasitology.myiasis.mdt-greenbottle-flies',
+    label: 'Greenbottle fly larvae are used in maggot therapy', aliases: ['Greenbottle maggot therapy', 'Maggot debridement fly'], conceptType: 'management',
+    article: 'myiasisTherapyPrevention', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Maggot debridement therapy', teachingPage: 41, assessmentPage: 10, answerPage: 10,
+    teachingResourceId: myiasisResourceId, teachingTitle: 'Flies and Myiasis',
+    stem: 'The larvae of which fly are used in maggot therapy?', key: 'A', options: ['Greenbottle fly', 'Tsetse fly', 'Stable fly', 'Black fly'],
+    claim: 'Greenbottle fly larvae are usually used in maggot debridement therapy.',
+    support: 'Usually Greenbottle flies are used.',
+    objective: 'Identify greenbottle fly larvae as the larvae used in maggot therapy.',
+    pitfalls: 'The governed teaching identifies greenbottle flies rather than tsetse, stable or black flies for maggot therapy.', rejected: [],
+  },
+  {
+    q: 38, conceptId: 'CON-INF-476CFE4CB1DE34', canonicalKey: 'parasitology.mosquitoes.culex-filariasis-cyclodevelopmental',
+    label: 'Culex transmits Wuchereria bancrofti cyclodevelopmentally', aliases: ['Culex filariasis transmission type', 'Wuchereria cyclodevelopmental transmission'], conceptType: 'mechanism',
+    article: 'mosquitoDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Culex-borne filariasis', teachingPages: '27–28', assessmentPage: 11, answerPage: 11,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Which fly primarily transmits Wuchereria bancrofti?', key: 'B', options: ['Anopheles', 'Culex', 'Glossina', 'Musca'],
+    claim: 'Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.',
+    support: 'The official Culex table identifies Wuchereria bancrofti among diseases transmitted by female Culex.',
+    objective: 'Identify Culex as the offered vector of Wuchereria bancrofti.',
+    pitfalls: 'The governed vector association selects Culex rather than Anopheles, Glossina or Musca.', rejected: ['concept_a0aff0c30fa4c2646a6e9ddf — broader raw Culex/Wuchereria vector association is retained as rejected merge provenance.'],
+  },
+  {
+    q: 41, conceptId: 'CON-INF-3D4CC9A1238C61', canonicalKey: 'parasitology.mosquitoes.culex-annoying-hum',
+    label: 'Culex produces an annoying hum in flight', aliases: ['Culex flight hum', 'Mosquito acoustic behaviour'], conceptType: 'behaviour',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito bionomics', teachingPage: 9, assessmentPage: 12, answerPage: 12,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Which mosquito species has a silent approach?', key: 'C', options: ['Aedes', 'Culex', 'Anopheles', 'Mansonia'],
+    claim: 'Anopheles has a silent approach, whereas Culex produces an annoying hum.',
+    support: 'Culex has an annoying hum while Anopheles has a silent approach.',
+    objective: 'Identify Anopheles from its silent approach.',
+    pitfalls: 'The governed contrast assigns the annoying hum to Culex and the silent approach to Anopheles.', rejected: [],
+  },
+  {
+    q: 42, conceptId: 'CON-INF-2D0A5960736100', canonicalKey: 'parasitology.mosquitoes.male-nectar-feeding',
+    label: 'Male mosquitoes feed on plant juice and nectar', aliases: ['Male mosquito nectar feeding', 'Vegetarian male mosquitoes'], conceptType: 'behaviour',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito feeding', teachingPage: 6, assessmentPage: 12, answerPage: 12,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'What is the feeding habit of male mosquitoes?', key: 'C', options: ['Blood feeding', 'Sucking human sweat', 'Nectar feeding', 'Feeding on fungi'],
+    claim: 'Male mosquitoes suck plant juice and feed on nectar.',
+    support: 'Male mosquito mouthparts are adapted for sucking plant juice; males are nectar feeders or vegetarian.',
+    objective: 'Identify nectar feeding as the feeding habit of male mosquitoes.',
+    pitfalls: 'The governed male feeding habit is plant juice or nectar, not blood, sweat or fungi.', rejected: [],
+  },
+  {
+    q: 43, conceptId: 'CON-INF-137835388110E5', canonicalKey: 'parasitology.arthropods.ticks-arachnida-not-insecta',
+    label: 'Ticks belong to Arachnida rather than Insecta', aliases: ['Tick arthropod class', 'Arachnida ticks'], conceptType: 'classification',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Arthropod classification', teachingPage: 3, assessmentPage: 12, answerPage: 12,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Which of the following does NOT belong to Class Insecta?', key: 'C', options: ['Mosquitoes', 'Fleas', 'Ticks', 'Lice'],
+    claim: 'Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.',
+    support: 'The official classification slide places mosquitoes, fleas and lice in Insecta and ticks in Arachnida.',
+    objective: 'Distinguish ticks as Arachnida from the offered insects.',
+    pitfalls: 'Mosquitoes, fleas and lice are insects in the governed classification; ticks are arachnids.', rejected: [],
+  },
+  {
+    q: 44, conceptId: 'CON-INF-84CF3B2FCF546F', canonicalKey: 'parasitology.mosquitoes.anopheles-larva-surface-feeding',
+    label: 'Anopheles larvae are the most surface-feeding mosquito larvae', aliases: ['Anopheles surface feeder', 'Mosquito larval siphon comparison'], conceptType: 'behaviour',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito larvae', teachingPage: 11, assessmentPage: 12, answerPage: 12,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'What distinguishes Anopheles larvae from other mosquito larvae?', key: 'A', options: ['Lack of siphon (respiratory tube)', 'Presence of long proboscis', 'Larvae do not feed', 'Larvae are red in color'],
+    claim: 'Anopheles larvae lack a siphon and therefore remain closer to the water surface.',
+    support: 'Anopheles larvae are more surface feeders due to lack of siphon (respiratory tube).',
+    objective: 'Identify lack of a siphon as the distinguishing offered Anopheles larval feature.',
+    pitfalls: 'Anopheles larvae feed; the governed distinction is lack of a siphon, not proboscis length or colour.', rejected: [],
+  },
+  {
+    q: 45, conceptId: 'CON-INF-EBC6A5A33FF6AA', canonicalKey: 'parasitology.mosquitoes.stagnant-water-life-cycle',
+    label: 'The mosquito life cycle is completed in stagnant water', aliases: ['Mosquito stagnant-water life cycle', 'Mosquito breeding water'], conceptType: 'life cycle',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito life cycle', teachingPage: 8, assessmentPage: 12, answerPage: 12,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'The mosquito life cycle is completed in:', key: 'A', options: ['Stagnant water', 'Fast-moving water', 'Soil', 'Dry tree bark'],
+    claim: 'The mosquito life cycle is completed in stagnant water.',
+    support: 'Life cycle of mosquitoes: completed in stagnant water.',
+    objective: 'Identify stagnant water as the governed mosquito life-cycle habitat.',
+    pitfalls: 'The governed slide names stagnant water rather than fast-moving water, soil or dry bark.', rejected: [],
+  },
+  {
+    q: 46, conceptId: 'CON-INF-17EA50AF2F923C', canonicalKey: 'parasitology.mosquitoes.pupa-nonfeeding',
+    label: 'The mosquito pupa is non-feeding', aliases: ['Non-feeding mosquito stage', 'Mosquito pupa feeding status'], conceptType: 'life cycle',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito life cycle', teachingPage: 11, assessmentPage: 12, answerPage: 12,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Which of the following is the non-feeding stage of mosquitoes?', key: 'B', options: ['Larva', 'Pupa', 'Egg', 'Adult'],
+    claim: 'The mosquito pupa is the non-feeding stage, while the larva feeds.',
+    support: 'Larvae are feeding stage while pupae are non-feeding.',
+    objective: 'Identify the mosquito pupa as the non-feeding stage.',
+    pitfalls: 'The governed comparison states that larvae feed and pupae do not.', rejected: [],
+  },
+  {
+    q: 47, conceptId: 'CON-INF-1C69CD2C41026C', canonicalKey: 'parasitology.mosquitoes.female-lifespan-six-eight-weeks',
+    label: 'Female mosquitoes usually live six to eight weeks', aliases: ['Female mosquito lifespan', 'Mosquito six-to-eight-week lifespan'], conceptType: 'bionomics',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito bionomics', teachingPage: 9, assessmentPage: 12, answerPage: 12,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'The lifespan of a female mosquito is usually:', key: 'C', options: ['1-2 days', '1-2 weeks', '6-8 weeks', '6 months'],
+    claim: 'The usual female mosquito lifespan is six to eight weeks and may increase in winter.',
+    support: 'Life span of 6-8 weeks increased in winter.',
+    objective: 'Recall the governed six-to-eight-week female mosquito lifespan.',
+    pitfalls: 'The official bionomics slide gives six to eight weeks, not days, one to two weeks or six months.', rejected: [],
+  },
+  {
+    q: 48, conceptId: 'CON-INF-D40D6E6C25F7C4', canonicalKey: 'parasitology.mosquitoes.blood-meal-stimulates-ovulation',
+    label: 'A blood meal stimulates ovulation in female mosquitoes', aliases: ['Mosquito ovulation trigger', 'Blood meal and egg laying'], conceptType: 'physiology',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito bionomics', teachingPage: 10, assessmentPage: 13, answerPage: 13,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Female mosquitoes require a blood meal for:', key: 'C', options: ['Energy', 'Digestion', 'Egg production', 'Body growth'],
+    claim: 'A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.',
+    support: 'After a blood meal the female lays eggs because the meal stimulates a hormone necessary for ovulation.',
+    objective: 'Link the female mosquito blood meal to egg production.',
+    pitfalls: 'The governed purpose is ovulation and egg laying rather than digestion or body growth.', rejected: [],
+  },
+  {
+    q: 49, conceptId: 'CON-INF-E7CE29355ADA44', canonicalKey: 'parasitology.mosquitoes.flight-range-two-kilometres',
+    label: 'Mosquitoes normally fly about two kilometres', aliases: ['Mosquito flight range', 'Two-kilometre mosquito range'], conceptType: 'bionomics',
+    article: 'mosquitoBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito bionomics', teachingPage: 9, assessmentPage: 13, answerPage: 13,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'What is the flight range of mosquitoes under normal conditions?', key: 'B', options: ['500 meters', '2 kilometers', '10 kilometers', '50 kilometers'],
+    claim: 'The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.',
+    support: 'Flight range is 2 kilometers increased to 10 Km by the wind.',
+    objective: 'Identify two kilometres as the governed normal mosquito flight range.',
+    pitfalls: 'Ten kilometres is the wind-assisted range, not the normal range.', rejected: [],
+  },
+  {
+    q: 54, conceptId: 'CON-INF-DF00AF29E78092', canonicalKey: 'parasitology.mosquitoes.pharoensis-chief-egypt-vector',
+    label: 'Anopheles pharoensis is the chief malaria vector in Egypt', aliases: ['Egypt chief malaria vector', 'Anopheles pharoensis malaria'], conceptType: 'epidemiology',
+    article: 'mosquitoDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Malaria vectors', teachingPage: 17, assessmentPage: 13, answerPage: 13,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'The chief malaria vector in Egypt is:', key: 'A', options: ['Anopheles pharoensis', 'Aedes aegypti', 'Anopheles gambiae', 'Culex pipiens'],
+    claim: 'Anopheles pharoensis is the chief malaria vector in Egypt.',
+    support: 'Anopheles pharoensis: chief malaria vector; geographical distribution: Nile valley.',
+    objective: 'Identify Anopheles pharoensis as the chief malaria vector in Egypt.',
+    pitfalls: 'The deck states that Anopheles gambiae is not found in Egypt and does not assign the chief-vector role to Aedes or Culex.', rejected: [],
+  },
+  {
+    q: 57, conceptId: 'CON-INF-43040B7549A6C2', canonicalKey: 'parasitology.filariasis.elephantiasis-limb-swelling',
+    label: 'Elephantiasis causes marked swelling of affected limbs', aliases: ['Elephantiasis limb swelling', 'Lymphatic filariasis swelling'], conceptType: 'clinical association',
+    article: 'mosquitoDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Culex-borne filariasis', teachingPage: 27, assessmentPage: 14, answerPage: 14,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'What is the main symptom of elephantiasis?', key: 'C', options: ['Skin rash', 'Liver failure', 'Swelling of limbs', 'Jaundice'],
+    claim: 'Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.',
+    support: 'Untreated Wuchereria infection may be complicated by elephantiasis of the lower limb and external genitalia.',
+    objective: 'Identify limb swelling as the characteristic offered manifestation of elephantiasis.',
+    pitfalls: 'The governed complication is lymphatic swelling rather than liver failure, jaundice or a simple rash.', rejected: [],
+  },
+  {
+    q: 58, conceptId: 'CON-INF-C78116FCC3B754', canonicalKey: 'parasitology.mosquitoes.zika-congenital-microcephaly',
+    label: 'Maternal Zika infection is associated with congenital microcephaly', aliases: ['Zika congenital microcephaly', 'Mosquito-borne microcephaly association'], conceptType: 'clinical association',
+    article: 'mosquitoDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Aedes-borne disease', teachingPages: '19, 24', assessmentPage: 14, answerPage: 14,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Zika virus can cause:', key: 'B', options: ['Yellow fever', 'Microcephaly in newborns', 'Elephantiasis', 'Anemia'],
+    claim: 'Zika virus infection during pregnancy is associated with congenital microcephaly.',
+    support: 'The official Aedes disease table associates maternal Zika infection with congenital microcephaly.',
+    objective: 'Identify microcephaly in newborns as the offered Zika-associated condition.',
+    pitfalls: 'The governed association is congenital microcephaly, not yellow fever, elephantiasis or anaemia.', rejected: ['concept_2f42dd8709456d0836771eb0 — broader raw arboviral microcephaly wording remains rejected merge provenance.'],
+  },
+  {
+    q: 59, conceptId: 'CON-INF-F08BDC422993D8', canonicalKey: 'parasitology.mosquitoes.west-nile-propagative',
+    label: 'West Nile virus is transmitted propagatively by Culex', aliases: ['West Nile propagative transmission', 'Culex West Nile transmission type'], conceptType: 'mechanism',
+    article: 'mosquitoDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Culex-borne arboviruses', teachingPage: 27, assessmentPage: 14, answerPage: 14,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'What is the mode of transmission for West Nile virus?', key: 'C', options: ['Cyclo-developmental', 'Cyclo-propagative', 'Propagative', 'Mechanical'],
+    claim: 'West Nile virus is transmitted propagatively by Culex mosquitoes.',
+    support: 'The official Culex table labels West Nile viral encephalitis transmission as propagative.',
+    objective: 'Identify propagative transmission for West Nile virus in Culex.',
+    pitfalls: 'The governed table labels West Nile transmission propagative rather than cyclodevelopmental, cyclopropagative or mechanical.', rejected: [],
+  },
+  {
+    q: 60, conceptId: 'CON-INF-863856AB7138F8', canonicalKey: 'parasitology.mosquitoes.control-gambusia-biological',
+    label: 'Gambusia fish provide biological mosquito control', aliases: ['Gambusia mosquito control', 'Larvivorous fish control'], conceptType: 'intervention',
+    article: 'mosquitoControl', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Biological mosquito control', teachingPage: 38, assessmentPage: 14, answerPage: 14,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Which method is an example of biological control of mosquitoes?', key: 'B', options: ['DDT spraying', 'Using Gambusia fish', 'Installing window screens', 'Burning mosquito coils'],
+    claim: 'Using Gambusia fish is a biological mosquito-control method.',
+    support: 'The official control slide lists Gambusia affinis among natural enemies used for biological control.',
+    objective: 'Identify use of Gambusia fish as biological mosquito control.',
+    pitfalls: 'DDT is chemical control, window screens are mechanical control and mosquito coils are repellents.', rejected: [],
+  },
 ].map((item) => ({
   idPrefix: 'MUCIZE', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
   bankLabel: 'Mucize Parasitology core', ...item,
@@ -9210,7 +9386,7 @@ ar
 Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
 
 ## qualification
-All 47 pages were already visually governed in source triage. Physical pages 6–10 were rendered and visually re-read for the bounded Parasitology core Q1–Q30 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28 and Q29 are authored only where their unchanged printed keys align with direct MUST faculty teaching and exact governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27 and Q30 remain explicit identity, dependency, negative-closure, unsupported-precision or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+All 47 pages were already visually governed in source triage. Physical pages 6–14 were rendered and visually re-read for the bounded Parasitology core Q1–Q60 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53 and Q55–Q56 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6
@@ -11569,6 +11745,33 @@ function microCoverage() {
 - **Mucize Parasitology Q30 is held as an unsupported symptom-precision hold.** Printed B gives skin nodules with central pores, but the selected governed local cutaneous-myiasis concept/article does not independently state that exact symptom formulation.
 
 `
+  const mucizeParasitologySecondDelta = `### Mucize Doctors Parasitology core Q31–Q60 delta
+
+- The governed Mucize assessment resource is reused. Physical pages 10–14 were rendered and visually read for every prompt, option and same-page answer token in Q31–Q60.
+- +16 verified local-curriculum claims, +16 citations and +16 article spans for Q31, Q38, Q41–Q49, Q54, Q57–Q60.
+- +9 under-review / needs-evidence concepts and +0 articles. Seven questions safely reuse exact governed local concepts; the existing standalone-complete reciprocal Draft articles are expanded by exact ID without dropping prior fields, universities, relationships or question links.
+- +16 Draft questions and +14 explicit identity, duplicate, dependency-chain, negative-closure, unsupported-superlative, non-unique-key or teaching-conflict holds with no student-facing record.
+- Every authored stem, option and printed key is unchanged. Q34 and Q39 remain uncorrected key-form or teaching conflicts; Q35 and Q52 remain in the established cyclopropagative dependency-chain hold. The Mucize answer lines remain student-bank evidence rather than authenticated faculty keys.
+- Mucize Parasitology core Q31–Q60: **16 authored / 14 held / 0 source-absent / 0 unassessed**.
+- Mucize Parasitology core Q1–Q60 cumulative: **24 authored / 35 held / 1 source-absent / 0 unassessed**. The exact next boundary is Mucize Parasitology Q61.
+
+`
+  const mucizeParasitologySecondHolds = `- **Mucize Parasitology Q32 is held as a negative-closure hold.** Printed C, Using antibiotics, is absent from the official prevention list, but the governed deck does not authenticate the offered universal “NOT a method” closure; no answer was inferred from omission.
+- **Mucize Parasitology Q33 is held as a raw-identity hold.** Printed B is supported, but exact raw \`concept_25690ce10dd47faf309ae1f3\` already governs aural myiasis as maggot infestation of the ear; no duplicate concept was minted.
+- **Mucize Parasitology Q34 is held as a non-unique key-form conflict.** The bank prints B, Housefly, while official teaching states that myiasis-causing fly larvae generally are identified by characteristic posterior spiracles. Option C is therefore also supported by the governed teaching; the key was not corrected or promoted.
+- **Mucize Parasitology Q35 is held as an established dependency-chain hold.** Printed B is directly supported and maps to \`CON-INF-23265735EECCA1\`, but the cyclopropagative article's retained live relationship graph cannot pass the focused dependency contract without importing unrelated content or dropping a relation. Neither action was taken.
+- **Mucize Parasitology Q36 is held as an unsupported terminology hold.** The student bank prints B, Entomophobia, but the selected MUST arthropod teaching does not define fear-of-insects terminology; no external definition was substituted.
+- **Mucize Parasitology Q37 is held as an unsupported superlative hold.** Official teaching lists fly control or eradication among several myiasis-prevention measures but does not establish it as the singular “main method.” The printed B was preserved only as source evidence.
+- **Mucize Parasitology Q39 is held as an uncorrected teaching conflict.** The bank prints B, Biological requires pathogen multiplication inside the vector, but official teaching includes cyclodevelopmental biological transmission with development and no multiplication. No key or wording was repaired.
+- **Mucize Parasitology Q40 is held as an exact same-source identity duplicate.** Its printed C, Diptera, is supported, but Mucize Q15 already authors the complete Class Insecta / Order Diptera mosquito classification against \`CON-INF-4EEE8525216319\`; no second same-source taxonomy record was minted.
+- **Mucize Parasitology Q50 is held as a raw-identity hold.** Printed C is supported, but raw \`concept_7482060cb7f283619c078023\` already governs Anopheles transmission of malaria sporozoites; no duplicate identity was created.
+- **Mucize Parasitology Q51 is held as a host-direction ambiguity and raw-identity hold.** Printed B, Sporozoite, is the stage inoculated into humans, while gametocytes are taken up by the mosquito. The stem says only “in malaria transmission,” and raw \`concept_77cb95db160e84cced2b2efb\` and \`concept_d4f5e10459aea16bd4fe67ac\` already govern the human-infective sporozoite identity. No host was inferred.
+- **Mucize Parasitology Q52 is held as an established dependency-chain hold.** Printed B, Cyclo-propagative, is supported for Plasmodium development and multiplication inside Anopheles, but the same unsafe cyclopropagative article dependency chain prevents a focused-gate-clean exact-ID update.
+- **Mucize Parasitology Q53 is held as a raw-identity/precision hold.** Printed D, Ring stage, is shown as one diagnostic blood stage, but official teaching also displays an amoeboid diagnostic stage and raw \`concept_ebc42effc375d0fa2f2c8985\` already governs ring-stage morphology. The broad singular stem was not narrowed.
+- **Mucize Parasitology Q55 is held as a raw-identity hold.** Printed C is supported, but raw \`concept_67e667ad81d088a8265cb35b\` already governs Aedes transmission of dengue and yellow-fever viruses; no duplicate identity was minted.
+- **Mucize Parasitology Q56 is held as an exact same-source duplicate.** Its printed C, Culex, repeats the vector identity already authored from earlier Mucize Q38 against \`CON-INF-476CFE4CB1DE34\`; no second occurrence was minted.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -11645,9 +11848,15 @@ function microCoverage() {
     .replace('| Article spans | 173 |', '| Article spans | 181 |')
     .replace('| Questions | 173 |', '| Questions | 181 |')
     .replace('| Question authoring holds | 188 |', '| Question authoring holds | 209 |')
+    .replace('| Claims | 181 |', '| Claims | 197 |')
+    .replace('| Citations | 186 |', '| Citations | 202 |')
+    .replace('| Article spans | 181 |', '| Article spans | 197 |')
+    .replace('| Concepts | 139 |', '| Concepts | 148 |')
+    .replace('| Questions | 181 |', '| Questions | 197 |')
+    .replace('| Question authoring holds | 209 |', '| Question authoring holds | 223 |')
     .replace('| Source-absent prompt dispositions | 1 |', '| Source-absent prompt dispositions | 2 |')
     .replace('Q32 has no printed answer and remains un-authored', 'opening-bank Q32 and Mucize Q25 have no printed answer and remain un-authored')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}`)
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -11668,7 +11877,9 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 151 clean source-keyed prompts authored; **5,060 raw answer observations remain**, including the 180 held printed-key observations', 'Governed answer observations: 5,211 total; 173 clean source-keyed prompts authored; **5,038 raw answer observations remain**, including the 188 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 173 authored; **5,271 raw prompt observations remain**, including 188 explicit holds', 'Governed prompt observations: 5,444 total; 181 authored; **5,263 raw prompt observations remain**, including 209 explicit holds')
     .replace('Governed answer observations: 5,211 total; 173 clean source-keyed prompts authored; **5,038 raw answer observations remain**, including the 188 held printed-key observations', 'Governed answer observations: 5,211 total; 181 clean source-keyed prompts authored; **5,030 raw answer observations remain**, including the 209 held printed-key observations')
-    .replace('including 209 explicit holds and one source-absent opening-family prompt', 'including 209 explicit holds and two source-absent prompts')
+    .replace('Governed prompt observations: 5,444 total; 181 authored; **5,263 raw prompt observations remain**, including 209 explicit holds', 'Governed prompt observations: 5,444 total; 197 authored; **5,247 raw prompt observations remain**, including 223 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 181 clean source-keyed prompts authored; **5,030 raw answer observations remain**, including the 209 held printed-key observations', 'Governed answer observations: 5,211 total; 197 clean source-keyed prompts authored; **5,014 raw answer observations remain**, including the 223 held printed-key observations')
+    .replace('including 223 explicit holds and one source-absent opening-family prompt', 'including 223 explicit holds and two source-absent prompts')
     .replace('Q32 contributes no answer observation', 'opening-bank Q32 and Mucize Q25 contribute no answer observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
@@ -11680,6 +11891,7 @@ function microCoverage() {
     .replace('Record-level backlog is not asserted as 5,312 unique records', 'Record-level backlog is not asserted as 5,293 unique records')
     .replace('Record-level backlog is not asserted as 5,293 unique records', 'Record-level backlog is not asserted as 5,271 unique records')
     .replace('Record-level backlog is not asserted as 5,271 unique records', 'Record-level backlog is not asserted as 5,263 unique records')
+    .replace('Record-level backlog is not asserted as 5,263 unique records', 'Record-level backlog is not asserted as 5,247 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -11691,6 +11903,7 @@ function microCoverage() {
     .replace('All thirty-eight student-facing articles and all one hundred thirty-two questions remain Draft; all one hundred sixteen concepts', 'All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts')
     .replace('All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts', 'All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts')
     .replace('All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts', 'All forty-four student-facing articles and all one hundred eighty-one questions remain Draft; all one hundred thirty-nine concepts')
+    .replace('All forty-four student-facing articles and all one hundred eighty-one questions remain Draft; all one hundred thirty-nine concepts', 'All forty-four student-facing articles and all one hundred ninety-seven questions remain Draft; all one hundred forty-eight concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
@@ -11702,6 +11915,7 @@ function microCoverage() {
     .replace('All 169 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 209 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
+    .replace('All 209 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 223 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -11711,5 +11925,6 @@ function microCoverage() {
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; all six Part 2 families through Pharmacology Q1–Q30 are fully dispositioned. The Absalam Part 2 source is complete; the next question-bearing family must be selected from the governed FHB-102-2 source ranking.')
     .replace('The Absalam Part 2 source is complete; the next question-bearing family must be selected from the governed FHB-102-2 source ranking.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q31.')
-    .replace('The next family boundary is the completed third triage source, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, a 45-page student-authored revision bank containing five independent 30-MCQ sections (150 prompts / 150 printed answers). Its Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 boundaries are fully dispositioned; ', 'The current source boundary is the governed 47-page Mucize Doctors student-authored bank, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`. Its physical pages 6–10 / Parasitology core Q1–Q30 are fully dispositioned; ')
+    .replace('The next family boundary is the completed third triage source, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, a 45-page student-authored revision bank containing five independent 30-MCQ sections (150 prompts / 150 printed answers). Its Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 boundaries are fully dispositioned; ', 'The current source boundary is the governed 47-page Mucize Doctors student-authored bank, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`. Its physical pages 6–14 / Parasitology core Q1–Q60 are fully dispositioned; ')
+    .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q31.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q61.')
 }

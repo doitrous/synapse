@@ -3429,3 +3429,707 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Parasitology core Q29
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q31-01
+
+## concept_id
+CON-INF-CD8A632D0E68EF
+
+## subject
+Greenbottle fly larvae are used in maggot therapy
+
+## predicate
+states
+
+## object
+Greenbottle fly larvae are usually used in maggot debridement therapy.
+
+## display_text
+Greenbottle fly larvae are usually used in maggot debridement therapy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q31
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q38-01
+
+## concept_id
+CON-INF-476CFE4CB1DE34
+
+## subject
+Culex transmits Wuchereria bancrofti cyclodevelopmentally
+
+## predicate
+states
+
+## object
+Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.
+
+## display_text
+Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q38
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q41-01
+
+## concept_id
+CON-INF-3D4CC9A1238C61
+
+## subject
+Culex produces an annoying hum in flight
+
+## predicate
+states
+
+## object
+Anopheles has a silent approach, whereas Culex produces an annoying hum.
+
+## display_text
+Anopheles has a silent approach, whereas Culex produces an annoying hum.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q41
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q42-01
+
+## concept_id
+CON-INF-2D0A5960736100
+
+## subject
+Male mosquitoes feed on plant juice and nectar
+
+## predicate
+states
+
+## object
+Male mosquitoes suck plant juice and feed on nectar.
+
+## display_text
+Male mosquitoes suck plant juice and feed on nectar.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q42
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q43-01
+
+## concept_id
+CON-INF-137835388110E5
+
+## subject
+Ticks belong to Arachnida rather than Insecta
+
+## predicate
+states
+
+## object
+Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.
+
+## display_text
+Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q43
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q44-01
+
+## concept_id
+CON-INF-84CF3B2FCF546F
+
+## subject
+Anopheles larvae are the most surface-feeding mosquito larvae
+
+## predicate
+states
+
+## object
+Anopheles larvae lack a siphon and therefore remain closer to the water surface.
+
+## display_text
+Anopheles larvae lack a siphon and therefore remain closer to the water surface.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q44
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q45-01
+
+## concept_id
+CON-INF-EBC6A5A33FF6AA
+
+## subject
+The mosquito life cycle is completed in stagnant water
+
+## predicate
+states
+
+## object
+The mosquito life cycle is completed in stagnant water.
+
+## display_text
+The mosquito life cycle is completed in stagnant water.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q45
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q46-01
+
+## concept_id
+CON-INF-17EA50AF2F923C
+
+## subject
+The mosquito pupa is non-feeding
+
+## predicate
+states
+
+## object
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+
+## display_text
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q46
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q47-01
+
+## concept_id
+CON-INF-1C69CD2C41026C
+
+## subject
+Female mosquitoes usually live six to eight weeks
+
+## predicate
+states
+
+## object
+The usual female mosquito lifespan is six to eight weeks and may increase in winter.
+
+## display_text
+The usual female mosquito lifespan is six to eight weeks and may increase in winter.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q47
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q48-01
+
+## concept_id
+CON-INF-D40D6E6C25F7C4
+
+## subject
+A blood meal stimulates ovulation in female mosquitoes
+
+## predicate
+states
+
+## object
+A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
+
+## display_text
+A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q48
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q49-01
+
+## concept_id
+CON-INF-E7CE29355ADA44
+
+## subject
+Mosquitoes normally fly about two kilometres
+
+## predicate
+states
+
+## object
+The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
+
+## display_text
+The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q49
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q54-01
+
+## concept_id
+CON-INF-DF00AF29E78092
+
+## subject
+Anopheles pharoensis is the chief malaria vector in Egypt
+
+## predicate
+states
+
+## object
+Anopheles pharoensis is the chief malaria vector in Egypt.
+
+## display_text
+Anopheles pharoensis is the chief malaria vector in Egypt.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q54
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q57-01
+
+## concept_id
+CON-INF-43040B7549A6C2
+
+## subject
+Elephantiasis causes marked swelling of affected limbs
+
+## predicate
+states
+
+## object
+Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
+
+## display_text
+Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q57
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q58-01
+
+## concept_id
+CON-INF-C78116FCC3B754
+
+## subject
+Maternal Zika infection is associated with congenital microcephaly
+
+## predicate
+states
+
+## object
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+
+## display_text
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q58
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q59-01
+
+## concept_id
+CON-INF-F08BDC422993D8
+
+## subject
+West Nile virus is transmitted propagatively by Culex
+
+## predicate
+states
+
+## object
+West Nile virus is transmitted propagatively by Culex mosquitoes.
+
+## display_text
+West Nile virus is transmitted propagatively by Culex mosquitoes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q59
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
+
+## concept_id
+CON-INF-863856AB7138F8
+
+## subject
+Gambusia fish provide biological mosquito control
+
+## predicate
+states
+
+## object
+Using Gambusia fish is a biological mosquito-control method.
+
+## display_text
+Using Gambusia fish is a biological mosquito-control method.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q60

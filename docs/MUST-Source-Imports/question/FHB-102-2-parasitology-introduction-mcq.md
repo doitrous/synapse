@@ -11853,3 +11853,2435 @@ yes
 
 ## author_notes
 Printed source key: Mucize Parasitology core Q29 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q31
+
+## title
+The larvae of which fly are used in maggot therapy?
+
+## question
+The larvae of which fly are used in maggot therapy?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Greenbottle fly
+
+## explanation_a
+Greenbottle fly larvae are usually used in maggot debridement therapy. The governed university slide directly supports Greenbottle fly for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Tsetse fly
+
+## explanation_b
+Incorrect. The governed teaching identifies greenbottle flies rather than tsetse, stable or black flies for maggot therapy. The supported answer is A, Greenbottle fly.
+
+## answer_c
+Stable fly
+
+## explanation_c
+Incorrect. The governed teaching identifies greenbottle flies rather than tsetse, stable or black flies for maggot therapy. The supported answer is A, Greenbottle fly.
+
+## answer_d
+Black fly
+
+## explanation_d
+Incorrect. The governed teaching identifies greenbottle flies rather than tsetse, stable or black flies for maggot therapy. The supported answer is A, Greenbottle fly.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-CD8A632D0E68EF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Maggot debridement therapy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify greenbottle fly larvae as the larvae used in maggot therapy.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p10 Mucize Parasitology core Q31, printed key p10 (31 = A); MUST FHB102-2 Flies and Myiasis, p41.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q31 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q38
+
+## title
+Which fly primarily transmits Wuchereria bancrofti?
+
+## question
+Which fly primarily transmits Wuchereria bancrofti?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Anopheles
+
+## explanation_a
+Incorrect. The governed vector association selects Culex rather than Anopheles, Glossina or Musca. The supported answer is B, Culex.
+
+## answer_b
+Culex
+
+## explanation_b
+Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum. The governed university slide directly supports Culex for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Glossina
+
+## explanation_c
+Incorrect. The governed vector association selects Culex rather than Anopheles, Glossina or Musca. The supported answer is B, Culex.
+
+## answer_d
+Musca
+
+## explanation_d
+Incorrect. The governed vector association selects Culex rather than Anopheles, Glossina or Musca. The supported answer is B, Culex.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-476CFE4CB1DE34
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Culex-borne filariasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Culex as the offered vector of Wuchereria bancrofti.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p11 Mucize Parasitology core Q38, printed key p11 (38 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p27–28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q38 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q41
+
+## title
+Which mosquito species has a silent approach?
+
+## question
+Which mosquito species has a silent approach?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Aedes
+
+## explanation_a
+Incorrect. The governed contrast assigns the annoying hum to Culex and the silent approach to Anopheles. The supported answer is C, Anopheles.
+
+## answer_b
+Culex
+
+## explanation_b
+Incorrect. The governed contrast assigns the annoying hum to Culex and the silent approach to Anopheles. The supported answer is C, Anopheles.
+
+## answer_c
+Anopheles
+
+## explanation_c
+Anopheles has a silent approach, whereas Culex produces an annoying hum. The governed university slide directly supports Anopheles for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Mansonia
+
+## explanation_d
+Incorrect. The governed contrast assigns the annoying hum to Culex and the silent approach to Anopheles. The supported answer is C, Anopheles.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-3D4CC9A1238C61
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Anopheles from its silent approach.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p12 Mucize Parasitology core Q41, printed key p12 (41 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q41 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q42
+
+## title
+What is the feeding habit of male mosquitoes?
+
+## question
+What is the feeding habit of male mosquitoes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Blood feeding
+
+## explanation_a
+Incorrect. The governed male feeding habit is plant juice or nectar, not blood, sweat or fungi. The supported answer is C, Nectar feeding.
+
+## answer_b
+Sucking human sweat
+
+## explanation_b
+Incorrect. The governed male feeding habit is plant juice or nectar, not blood, sweat or fungi. The supported answer is C, Nectar feeding.
+
+## answer_c
+Nectar feeding
+
+## explanation_c
+Male mosquitoes suck plant juice and feed on nectar. The governed university slide directly supports Nectar feeding for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Feeding on fungi
+
+## explanation_d
+Incorrect. The governed male feeding habit is plant juice or nectar, not blood, sweat or fungi. The supported answer is C, Nectar feeding.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-2D0A5960736100
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito feeding
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify nectar feeding as the feeding habit of male mosquitoes.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p12 Mucize Parasitology core Q42, printed key p12 (42 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q42 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q43
+
+## title
+Which of the following does NOT belong to Class Insecta?
+
+## question
+Which of the following does NOT belong to Class Insecta?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Mosquitoes
+
+## explanation_a
+Incorrect. Mosquitoes, fleas and lice are insects in the governed classification; ticks are arachnids. The supported answer is C, Ticks.
+
+## answer_b
+Fleas
+
+## explanation_b
+Incorrect. Mosquitoes, fleas and lice are insects in the governed classification; ticks are arachnids. The supported answer is C, Ticks.
+
+## answer_c
+Ticks
+
+## explanation_c
+Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta. The governed university slide directly supports Ticks for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Lice
+
+## explanation_d
+Incorrect. Mosquitoes, fleas and lice are insects in the governed classification; ticks are arachnids. The supported answer is C, Ticks.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-137835388110E5
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Arthropod classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Distinguish ticks as Arachnida from the offered insects.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p12 Mucize Parasitology core Q43, printed key p12 (43 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q43 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q44
+
+## title
+What distinguishes Anopheles larvae from other mosquito larvae?
+
+## question
+What distinguishes Anopheles larvae from other mosquito larvae?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Lack of siphon (respiratory tube)
+
+## explanation_a
+Anopheles larvae lack a siphon and therefore remain closer to the water surface. The governed university slide directly supports Lack of siphon (respiratory tube) for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Presence of long proboscis
+
+## explanation_b
+Incorrect. Anopheles larvae feed; the governed distinction is lack of a siphon, not proboscis length or colour. The supported answer is A, Lack of siphon (respiratory tube).
+
+## answer_c
+Larvae do not feed
+
+## explanation_c
+Incorrect. Anopheles larvae feed; the governed distinction is lack of a siphon, not proboscis length or colour. The supported answer is A, Lack of siphon (respiratory tube).
+
+## answer_d
+Larvae are red in color
+
+## explanation_d
+Incorrect. Anopheles larvae feed; the governed distinction is lack of a siphon, not proboscis length or colour. The supported answer is A, Lack of siphon (respiratory tube).
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-84CF3B2FCF546F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito larvae
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify lack of a siphon as the distinguishing offered Anopheles larval feature.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p12 Mucize Parasitology core Q44, printed key p12 (44 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q44 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q45
+
+## title
+The mosquito life cycle is completed in:
+
+## question
+The mosquito life cycle is completed in:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Stagnant water
+
+## explanation_a
+The mosquito life cycle is completed in stagnant water. The governed university slide directly supports Stagnant water for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Fast-moving water
+
+## explanation_b
+Incorrect. The governed slide names stagnant water rather than fast-moving water, soil or dry bark. The supported answer is A, Stagnant water.
+
+## answer_c
+Soil
+
+## explanation_c
+Incorrect. The governed slide names stagnant water rather than fast-moving water, soil or dry bark. The supported answer is A, Stagnant water.
+
+## answer_d
+Dry tree bark
+
+## explanation_d
+Incorrect. The governed slide names stagnant water rather than fast-moving water, soil or dry bark. The supported answer is A, Stagnant water.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-EBC6A5A33FF6AA
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify stagnant water as the governed mosquito life-cycle habitat.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p12 Mucize Parasitology core Q45, printed key p12 (45 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q45 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q46
+
+## title
+Which of the following is the non-feeding stage of mosquitoes?
+
+## question
+Which of the following is the non-feeding stage of mosquitoes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Larva
+
+## explanation_a
+Incorrect. The governed comparison states that larvae feed and pupae do not. The supported answer is B, Pupa.
+
+## answer_b
+Pupa
+
+## explanation_b
+The mosquito pupa is the non-feeding stage, while the larva feeds. The governed university slide directly supports Pupa for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Egg
+
+## explanation_c
+Incorrect. The governed comparison states that larvae feed and pupae do not. The supported answer is B, Pupa.
+
+## answer_d
+Adult
+
+## explanation_d
+Incorrect. The governed comparison states that larvae feed and pupae do not. The supported answer is B, Pupa.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-17EA50AF2F923C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify the mosquito pupa as the non-feeding stage.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p12 Mucize Parasitology core Q46, printed key p12 (46 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q46 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q47
+
+## title
+The lifespan of a female mosquito is usually:
+
+## question
+The lifespan of a female mosquito is usually:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+1-2 days
+
+## explanation_a
+Incorrect. The official bionomics slide gives six to eight weeks, not days, one to two weeks or six months. The supported answer is C, 6-8 weeks.
+
+## answer_b
+1-2 weeks
+
+## explanation_b
+Incorrect. The official bionomics slide gives six to eight weeks, not days, one to two weeks or six months. The supported answer is C, 6-8 weeks.
+
+## answer_c
+6-8 weeks
+
+## explanation_c
+The usual female mosquito lifespan is six to eight weeks and may increase in winter. The governed university slide directly supports 6-8 weeks for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+6 months
+
+## explanation_d
+Incorrect. The official bionomics slide gives six to eight weeks, not days, one to two weeks or six months. The supported answer is C, 6-8 weeks.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-1C69CD2C41026C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Recall the governed six-to-eight-week female mosquito lifespan.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p12 Mucize Parasitology core Q47, printed key p12 (47 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q47 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q48
+
+## title
+Female mosquitoes require a blood meal for:
+
+## question
+Female mosquitoes require a blood meal for:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Energy
+
+## explanation_a
+Incorrect. The governed purpose is ovulation and egg laying rather than digestion or body growth. The supported answer is C, Egg production.
+
+## answer_b
+Digestion
+
+## explanation_b
+Incorrect. The governed purpose is ovulation and egg laying rather than digestion or body growth. The supported answer is C, Egg production.
+
+## answer_c
+Egg production
+
+## explanation_c
+A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes. The governed university slide directly supports Egg production for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Body growth
+
+## explanation_d
+Incorrect. The governed purpose is ovulation and egg laying rather than digestion or body growth. The supported answer is C, Egg production.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D40D6E6C25F7C4
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Link the female mosquito blood meal to egg production.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p13 Mucize Parasitology core Q48, printed key p13 (48 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q48 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q49
+
+## title
+What is the flight range of mosquitoes under normal conditions?
+
+## question
+What is the flight range of mosquitoes under normal conditions?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+500 meters
+
+## explanation_a
+Incorrect. Ten kilometres is the wind-assisted range, not the normal range. The supported answer is B, 2 kilometers.
+
+## answer_b
+2 kilometers
+
+## explanation_b
+The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind. The governed university slide directly supports 2 kilometers for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+10 kilometers
+
+## explanation_c
+Incorrect. Ten kilometres is the wind-assisted range, not the normal range. The supported answer is B, 2 kilometers.
+
+## answer_d
+50 kilometers
+
+## explanation_d
+Incorrect. Ten kilometres is the wind-assisted range, not the normal range. The supported answer is B, 2 kilometers.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-E7CE29355ADA44
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify two kilometres as the governed normal mosquito flight range.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p13 Mucize Parasitology core Q49, printed key p13 (49 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q49 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q54
+
+## title
+The chief malaria vector in Egypt is:
+
+## question
+The chief malaria vector in Egypt is:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Anopheles pharoensis
+
+## explanation_a
+Anopheles pharoensis is the chief malaria vector in Egypt. The governed university slide directly supports Anopheles pharoensis for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Aedes aegypti
+
+## explanation_b
+Incorrect. The deck states that Anopheles gambiae is not found in Egypt and does not assign the chief-vector role to Aedes or Culex. The supported answer is A, Anopheles pharoensis.
+
+## answer_c
+Anopheles gambiae
+
+## explanation_c
+Incorrect. The deck states that Anopheles gambiae is not found in Egypt and does not assign the chief-vector role to Aedes or Culex. The supported answer is A, Anopheles pharoensis.
+
+## answer_d
+Culex pipiens
+
+## explanation_d
+Incorrect. The deck states that Anopheles gambiae is not found in Egypt and does not assign the chief-vector role to Aedes or Culex. The supported answer is A, Anopheles pharoensis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-DF00AF29E78092
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Malaria vectors
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Anopheles pharoensis as the chief malaria vector in Egypt.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p13 Mucize Parasitology core Q54, printed key p13 (54 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p17.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q54 = A. The wording, option order and key are preserved exactly. Q54 preserves the source's literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot; the wording is disclosed and not silently corrected. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q57
+
+## title
+What is the main symptom of elephantiasis?
+
+## question
+What is the main symptom of elephantiasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Skin rash
+
+## explanation_a
+Incorrect. The governed complication is lymphatic swelling rather than liver failure, jaundice or a simple rash. The supported answer is C, Swelling of limbs.
+
+## answer_b
+Liver failure
+
+## explanation_b
+Incorrect. The governed complication is lymphatic swelling rather than liver failure, jaundice or a simple rash. The supported answer is C, Swelling of limbs.
+
+## answer_c
+Swelling of limbs
+
+## explanation_c
+Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs. The governed university slide directly supports Swelling of limbs for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Jaundice
+
+## explanation_d
+Incorrect. The governed complication is lymphatic swelling rather than liver failure, jaundice or a simple rash. The supported answer is C, Swelling of limbs.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-43040B7549A6C2
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Culex-borne filariasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify limb swelling as the characteristic offered manifestation of elephantiasis.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p14 Mucize Parasitology core Q57, printed key p14 (57 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p27.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q57 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q58
+
+## title
+Zika virus can cause:
+
+## question
+Zika virus can cause:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Yellow fever
+
+## explanation_a
+Incorrect. The governed association is congenital microcephaly, not yellow fever, elephantiasis or anaemia. The supported answer is B, Microcephaly in newborns.
+
+## answer_b
+Microcephaly in newborns
+
+## explanation_b
+Zika virus infection during pregnancy is associated with congenital microcephaly. The governed university slide directly supports Microcephaly in newborns for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Elephantiasis
+
+## explanation_c
+Incorrect. The governed association is congenital microcephaly, not yellow fever, elephantiasis or anaemia. The supported answer is B, Microcephaly in newborns.
+
+## answer_d
+Anemia
+
+## explanation_d
+Incorrect. The governed association is congenital microcephaly, not yellow fever, elephantiasis or anaemia. The supported answer is B, Microcephaly in newborns.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-C78116FCC3B754
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Aedes-borne disease
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify microcephaly in newborns as the offered Zika-associated condition.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p14 Mucize Parasitology core Q58, printed key p14 (58 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p19, 24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q58 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q59
+
+## title
+What is the mode of transmission for West Nile virus?
+
+## question
+What is the mode of transmission for West Nile virus?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Cyclo-developmental
+
+## explanation_a
+Incorrect. The governed table labels West Nile transmission propagative rather than cyclodevelopmental, cyclopropagative or mechanical. The supported answer is C, Propagative.
+
+## answer_b
+Cyclo-propagative
+
+## explanation_b
+Incorrect. The governed table labels West Nile transmission propagative rather than cyclodevelopmental, cyclopropagative or mechanical. The supported answer is C, Propagative.
+
+## answer_c
+Propagative
+
+## explanation_c
+West Nile virus is transmitted propagatively by Culex mosquitoes. The governed university slide directly supports Propagative for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Mechanical
+
+## explanation_d
+Incorrect. The governed table labels West Nile transmission propagative rather than cyclodevelopmental, cyclopropagative or mechanical. The supported answer is C, Propagative.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F08BDC422993D8
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Culex-borne arboviruses
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify propagative transmission for West Nile virus in Culex.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p14 Mucize Parasitology core Q59, printed key p14 (59 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p27.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q59 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q60
+
+## title
+Which method is an example of biological control of mosquitoes?
+
+## question
+Which method is an example of biological control of mosquitoes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+DDT spraying
+
+## explanation_a
+Incorrect. DDT is chemical control, window screens are mechanical control and mosquito coils are repellents. The supported answer is B, Using Gambusia fish.
+
+## answer_b
+Using Gambusia fish
+
+## explanation_b
+Using Gambusia fish is a biological mosquito-control method. The governed university slide directly supports Using Gambusia fish for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Installing window screens
+
+## explanation_c
+Incorrect. DDT is chemical control, window screens are mechanical control and mosquito coils are repellents. The supported answer is B, Using Gambusia fish.
+
+## answer_d
+Burning mosquito coils
+
+## explanation_d
+Incorrect. DDT is chemical control, window screens are mechanical control and mosquito coils are repellents. The supported answer is B, Using Gambusia fish.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-863856AB7138F8
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Biological mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify use of Gambusia fish as biological mosquito control.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p14 Mucize Parasitology core Q60, printed key p14 (60 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p38.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q60 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

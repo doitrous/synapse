@@ -1713,3 +1713,355 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q29-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZE-Q29-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q31-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+
+## section_id
+art-inf-must-fhb1022-myiasis-therapy-prevention-definition
+
+## text
+Greenbottle fly larvae are usually used in maggot debridement therapy.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q31-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q31-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q38-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q38-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q38-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q41-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Anopheles has a silent approach, whereas Culex produces an annoying hum.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q41-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q41-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q42-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Male mosquitoes suck plant juice and feed on nectar.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q42-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q42-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q43-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q43-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q43-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q44-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Anopheles larvae lack a siphon and therefore remain closer to the water surface.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q44-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q44-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q45-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+The mosquito life cycle is completed in stagnant water.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q45-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q45-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q46-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q46-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q46-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q47-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+The usual female mosquito lifespan is six to eight weeks and may increase in winter.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q47-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q47-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q48-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q48-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q48-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q49-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q49-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q49-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q54-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+Anopheles pharoensis is the chief malaria vector in Egypt.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q54-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q54-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q57-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q57-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q57-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q58-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q58-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q58-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q59-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+West Nile virus is transmitted propagatively by Culex mosquitoes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q59-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q59-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q60-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Using Gambusia fish is a biological mosquito-control method.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q60-01

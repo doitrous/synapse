@@ -2729,6 +2729,7 @@ Do not silently rewrite the source's “Diabetes foot ulcers” wording. Keeping
 ### Exam-linked statements
 Maggot debridement therapy is used to treat diabetic foot ulcers.
 Proper wound hygiene and covering a clean wound help prevent myiasis.
+Greenbottle fly larvae are usually used in maggot debridement therapy.
 
 ## published_summary
 
@@ -2739,10 +2740,12 @@ Proper wound hygiene and covering a clean wound help prevent myiasis.
 ## hold_these
 Maggot debridement therapy is used to treat diabetic foot ulcers.
 Proper wound hygiene and covering a clean wound help prevent myiasis.
+Greenbottle fly larvae are usually used in maggot debridement therapy.
 
 ## lose_the_mark
 The governed therapeutic use is diabetic foot wound debridement, not tuberculosis, malaria or pneumonia.
 Keeping flies, increasing indoor humidity and avoiding antibiotics are not the wound-protection measure taught in the governed deck.
+The governed teaching identifies greenbottle flies rather than tsetse, stable or black flies for maggot therapy.
 
 ## callout_evidence
 ### Maggot debridement therapy is used to treat diabetic foot ulcers.
@@ -2755,9 +2758,15 @@ Claims: CLM-INF-MUST-FHB1022-INTRO-Q57-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q57-01
 Reviewed by: pending medical review
 
+### Greenbottle fly larvae are usually used in maggot debridement therapy.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q31-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q31-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-6054C753B481EA
 CON-INF-8257E975D6A30C
+CON-INF-CD8A632D0E68EF
 
 ## related_articles
 ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
@@ -2766,10 +2775,12 @@ ART-INF-MUST-FHB1022-FORENSIC-MYIASIS: Forensic use of myiasis-associated flies
 ## question_ids
 QST-MUST-FHB1022-PARA-INTRO-Q54
 QST-MUST-FHB1022-PARA-INTRO-Q57
+QST-MUST-FHB1022-PARA-MUCIZE-Q31
 
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_2c1e04372fbb8b2607f7
@@ -2777,10 +2788,12 @@ src_2c1e04372fbb8b2607f7
 ## claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q54-01
 CLM-INF-MUST-FHB1022-INTRO-Q57-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q31-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q54-01
 SPN-INF-MUST-FHB1022-INTRO-Q57-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q31-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -2795,6 +2808,11 @@ Id: ann-must-fhb1022-intro-q54
 Quote: Proper wound hygiene and covering a clean wound help prevent myiasis.
 Block: body
 Id: ann-must-fhb1022-intro-q57
+
+### definition_of · CON-INF-CD8A632D0E68EF
+Quote: Greenbottle fly larvae are usually used in maggot debridement therapy.
+Block: body
+Id: ann-must-fhb1022-mucize-q31
 
 ## media
 
@@ -2944,6 +2962,14 @@ The mosquito pupa is the non-feeding stage, while the larva feeds.
 A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
 Anopheles larvae are more surface-feeding because they lack a siphon.
 Mosquitoes are attracted by bright light and dark clothes.
+Anopheles has a silent approach, whereas Culex produces an annoying hum.
+Male mosquitoes suck plant juice and feed on nectar.
+Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.
+Anopheles larvae lack a siphon and therefore remain closer to the water surface.
+The mosquito life cycle is completed in stagnant water.
+The usual female mosquito lifespan is six to eight weeks and may increase in winter.
+A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
+The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
 
 ## published_summary
 
@@ -2964,6 +2990,15 @@ A blood meal stimulates the hormone production necessary for ovulation in female
 Anopheles larvae are more surface-feeding because they lack a siphon.
 Mosquitoes are attracted by bright light and dark clothes.
 Mosquitoes belong to class Insecta and order Diptera.
+Anopheles has a silent approach, whereas Culex produces an annoying hum.
+Male mosquitoes suck plant juice and feed on nectar.
+Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.
+Anopheles larvae lack a siphon and therefore remain closer to the water surface.
+The mosquito life cycle is completed in stagnant water.
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+The usual female mosquito lifespan is six to eight weeks and may increase in winter.
+A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
+The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
 
 ## lose_the_mark
 Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order.
@@ -2978,6 +3013,15 @@ Water, sunlight and mating are not the stimulus named by the governed teaching s
 The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon.
 Both A and B are directly supported, so selecting only one makes the response incomplete.
 Arachnida, Crustacea and Platyhelminthes are not the mosquito class, and Scorpiones, Decapoda and Trematoda are not the mosquito order.
+The governed contrast assigns the annoying hum to Culex and the silent approach to Anopheles.
+The governed male feeding habit is plant juice or nectar, not blood, sweat or fungi.
+Mosquitoes, fleas and lice are insects in the governed classification; ticks are arachnids.
+Anopheles larvae feed; the governed distinction is lack of a siphon, not proboscis length or colour.
+The governed slide names stagnant water rather than fast-moving water, soil or dry bark.
+The governed comparison states that larvae feed and pupae do not.
+The official bionomics slide gives six to eight weeks, not days, one to two weeks or six months.
+The governed purpose is ovulation and egg laying rather than digestion or body growth.
+Ten kilometres is the wind-assisted range, not the normal range.
 
 ## callout_evidence
 ### Mosquitoes belong to class Insecta and order Diptera.
@@ -3040,6 +3084,51 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q15-01
 Reviewed by: pending medical review
 
+### Anopheles has a silent approach, whereas Culex produces an annoying hum.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q41-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q41-01
+Reviewed by: pending medical review
+
+### Male mosquitoes suck plant juice and feed on nectar.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q42-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q42-01
+Reviewed by: pending medical review
+
+### Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q43-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q43-01
+Reviewed by: pending medical review
+
+### Anopheles larvae lack a siphon and therefore remain closer to the water surface.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q44-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q44-01
+Reviewed by: pending medical review
+
+### The mosquito life cycle is completed in stagnant water.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q45-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q45-01
+Reviewed by: pending medical review
+
+### The mosquito pupa is the non-feeding stage, while the larva feeds.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q46-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q46-01
+Reviewed by: pending medical review
+
+### The usual female mosquito lifespan is six to eight weeks and may increase in winter.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q47-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q47-01
+Reviewed by: pending medical review
+
+### A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q48-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q48-01
+Reviewed by: pending medical review
+
+### The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q49-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q49-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-4EEE8525216319
 CON-INF-FABEF04D8E14A7
@@ -3051,6 +3140,11 @@ CON-INF-17EA50AF2F923C
 CON-INF-D40D6E6C25F7C4
 CON-INF-84CF3B2FCF546F
 CON-INF-38226C7CAC7BE1
+CON-INF-2D0A5960736100
+CON-INF-137835388110E5
+CON-INF-EBC6A5A33FF6AA
+CON-INF-1C69CD2C41026C
+CON-INF-E7CE29355ADA44
 
 ## related_articles
 ART-INF-MUST-FHB1022-MOSQUITO-DISEASES: Mosquito-borne disease and transmission patterns
@@ -3069,6 +3163,15 @@ QST-MUST-FHB1022-PARA-MOSQ2-Q10
 QST-MUST-FHB1022-PARA-MOSQ2-Q17
 QST-MUST-FHB1022-PARA-MOSQ2-Q19
 QST-MUST-FHB1022-PARA-MUCIZE-Q15
+QST-MUST-FHB1022-PARA-MUCIZE-Q41
+QST-MUST-FHB1022-PARA-MUCIZE-Q42
+QST-MUST-FHB1022-PARA-MUCIZE-Q43
+QST-MUST-FHB1022-PARA-MUCIZE-Q44
+QST-MUST-FHB1022-PARA-MUCIZE-Q45
+QST-MUST-FHB1022-PARA-MUCIZE-Q46
+QST-MUST-FHB1022-PARA-MUCIZE-Q47
+QST-MUST-FHB1022-PARA-MUCIZE-Q48
+QST-MUST-FHB1022-PARA-MUCIZE-Q49
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
@@ -3091,6 +3194,15 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q15-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q41-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q42-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q43-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q44-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q45-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q46-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q47-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q48-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q49-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q01-01
@@ -3105,6 +3217,15 @@ SPN-INF-MUST-FHB1022-MOSQ2-Q10-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q17-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q19-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q15-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q41-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q42-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q43-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q44-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q45-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q46-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q47-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q48-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q49-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -3169,6 +3290,51 @@ Id: ann-must-fhb1022-mosq2-q19
 Quote: Mosquitoes belong to class Insecta and order Diptera.
 Block: body
 Id: ann-must-fhb1022-mucize-q15
+
+### definition_of · CON-INF-3D4CC9A1238C61
+Quote: Anopheles has a silent approach, whereas Culex produces an annoying hum.
+Block: body
+Id: ann-must-fhb1022-mucize-q41
+
+### definition_of · CON-INF-2D0A5960736100
+Quote: Male mosquitoes suck plant juice and feed on nectar.
+Block: body
+Id: ann-must-fhb1022-mucize-q42
+
+### definition_of · CON-INF-137835388110E5
+Quote: Ticks belong to class Arachnida, while mosquitoes, fleas and lice belong to class Insecta.
+Block: body
+Id: ann-must-fhb1022-mucize-q43
+
+### definition_of · CON-INF-84CF3B2FCF546F
+Quote: Anopheles larvae lack a siphon and therefore remain closer to the water surface.
+Block: body
+Id: ann-must-fhb1022-mucize-q44
+
+### definition_of · CON-INF-EBC6A5A33FF6AA
+Quote: The mosquito life cycle is completed in stagnant water.
+Block: body
+Id: ann-must-fhb1022-mucize-q45
+
+### definition_of · CON-INF-17EA50AF2F923C
+Quote: The mosquito pupa is the non-feeding stage, while the larva feeds.
+Block: body
+Id: ann-must-fhb1022-mucize-q46
+
+### definition_of · CON-INF-1C69CD2C41026C
+Quote: The usual female mosquito lifespan is six to eight weeks and may increase in winter.
+Block: body
+Id: ann-must-fhb1022-mucize-q47
+
+### definition_of · CON-INF-D40D6E6C25F7C4
+Quote: A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
+Block: body
+Id: ann-must-fhb1022-mucize-q48
+
+### definition_of · CON-INF-E7CE29355ADA44
+Quote: The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
+Block: body
+Id: ann-must-fhb1022-mucize-q49
 
 ## media
 
@@ -3310,6 +3476,10 @@ Do not substitute malaria, yellow fever or Rift Valley fever for the governed Zi
 ### Exam-linked statements
 Zika virus infection during pregnancy is associated with congenital microcephaly.
 Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.
+Anopheles pharoensis is the chief malaria vector in Egypt.
+Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
+West Nile virus is transmitted propagatively by Culex mosquitoes.
 
 ## published_summary
 
@@ -3320,10 +3490,20 @@ Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
 ## hold_these
 Zika virus infection during pregnancy is associated with congenital microcephaly.
 Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.
+Anopheles pharoensis is the chief malaria vector in Egypt.
+Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+West Nile virus is transmitted propagatively by Culex mosquitoes.
 
 ## lose_the_mark
 The governed association is Zika, not malaria, yellow fever or Rift Valley fever.
 Wuchereria develops without the multiplication pattern that defines cyclopropagative transmission.
+The governed vector association selects Culex rather than Anopheles, Glossina or Musca.
+The deck states that Anopheles gambiae is not found in Egypt and does not assign the chief-vector role to Aedes or Culex.
+The governed complication is lymphatic swelling rather than liver failure, jaundice or a simple rash.
+The governed association is congenital microcephaly, not yellow fever, elephantiasis or anaemia.
+The governed table labels West Nile transmission propagative rather than cyclodevelopmental, cyclopropagative or mechanical.
 
 ## callout_evidence
 ### Zika virus infection during pregnancy is associated with congenital microcephaly.
@@ -3336,9 +3516,37 @@ Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
 Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q18-01
 Reviewed by: pending medical review
 
+### Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q38-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q38-01
+Reviewed by: pending medical review
+
+### Anopheles pharoensis is the chief malaria vector in Egypt.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q54-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q54-01
+Reviewed by: pending medical review
+
+### Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q57-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q57-01
+Reviewed by: pending medical review
+
+### Zika virus infection during pregnancy is associated with congenital microcephaly.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q58-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q58-01
+Reviewed by: pending medical review
+
+### West Nile virus is transmitted propagatively by Culex mosquitoes.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q59-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q59-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-C78116FCC3B754
 CON-INF-476CFE4CB1DE34
+CON-INF-DF00AF29E78092
+CON-INF-43040B7549A6C2
+CON-INF-F08BDC422993D8
 
 ## related_articles
 ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY: Mosquito taxonomy, morphology, life cycle and bionomics
@@ -3347,10 +3555,16 @@ ART-INF-MUST-FHB1022-MOSQUITO-CONTROL: Integrated mosquito control methods
 ## question_ids
 QST-MUST-FHB1022-PARA-MOSQ2-Q15
 QST-MUST-FHB1022-PARA-MOSQ2-Q18
+QST-MUST-FHB1022-PARA-MUCIZE-Q38
+QST-MUST-FHB1022-PARA-MUCIZE-Q54
+QST-MUST-FHB1022-PARA-MUCIZE-Q57
+QST-MUST-FHB1022-PARA-MUCIZE-Q58
+QST-MUST-FHB1022-PARA-MUCIZE-Q59
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_b75f65f2298d0fcbc5f3
@@ -3358,10 +3572,20 @@ src_b75f65f2298d0fcbc5f3
 ## claim_ids
 CLM-INF-MUST-FHB1022-MOSQ2-Q15-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q38-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q54-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q57-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q58-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q59-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q15-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q18-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q38-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q54-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q57-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q58-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q59-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -3376,6 +3600,31 @@ Id: ann-must-fhb1022-mosq2-q15
 Quote: Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
 Block: body
 Id: ann-must-fhb1022-mosq2-q18
+
+### definition_of · CON-INF-476CFE4CB1DE34
+Quote: Culex is the mosquito vector of Wuchereria bancrofti in the governed local curriculum.
+Block: body
+Id: ann-must-fhb1022-mucize-q38
+
+### definition_of · CON-INF-DF00AF29E78092
+Quote: Anopheles pharoensis is the chief malaria vector in Egypt.
+Block: body
+Id: ann-must-fhb1022-mucize-q54
+
+### definition_of · CON-INF-43040B7549A6C2
+Quote: Elephantiasis from lymphatic filariasis produces marked swelling of affected limbs.
+Block: body
+Id: ann-must-fhb1022-mucize-q57
+
+### definition_of · CON-INF-C78116FCC3B754
+Quote: Zika virus infection during pregnancy is associated with congenital microcephaly.
+Block: body
+Id: ann-must-fhb1022-mucize-q58
+
+### definition_of · CON-INF-F08BDC422993D8
+Quote: West Nile virus is transmitted propagatively by Culex mosquitoes.
+Block: body
+Id: ann-must-fhb1022-mucize-q59
 
 ## media
 
@@ -3539,6 +3788,7 @@ Draining or filling swampy breeding sites is physical mosquito control.
 Malathion is listed as a residual organophosphorus mosquito insecticide.
 Installing window screens is a mechanical mosquito-control measure.
 Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+Using Gambusia fish is a biological mosquito-control method.
 
 ## lose_the_mark
 Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection.
@@ -3549,6 +3799,7 @@ Drainage does not use a chemical, biological enemy or genetic method.
 Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents.
 Spraying is chemical, while fish and Bacillus thuringiensis are biological controls.
 Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only.
+DDT is chemical control, window screens are mechanical control and mosquito coils are repellents.
 
 ## callout_evidence
 ### Using Gambusia fish is a biological mosquito-control method.
@@ -3591,6 +3842,11 @@ Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
 Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q30-01
 Reviewed by: pending medical review
 
+### Using Gambusia fish is a biological mosquito-control method.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q60-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-863856AB7138F8
 CON-INF-BDA58A5572D741
@@ -3614,10 +3870,12 @@ QST-MUST-FHB1022-PARA-MOSQ2-Q26
 QST-MUST-FHB1022-PARA-MOSQ2-Q27
 QST-MUST-FHB1022-PARA-MOSQ2-Q28
 QST-MUST-FHB1022-PARA-MOSQ2-Q30
+QST-MUST-FHB1022-PARA-MUCIZE-Q60
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_b75f65f2298d0fcbc5f3
@@ -3631,6 +3889,7 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q26-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q21-01
@@ -3641,6 +3900,7 @@ SPN-INF-MUST-FHB1022-MOSQ2-Q26-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q27-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q28-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q30-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q60-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -3685,6 +3945,11 @@ Id: ann-must-fhb1022-mosq2-q28
 Quote: Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
 Block: body
 Id: ann-must-fhb1022-mosq2-q30
+
+### definition_of · CON-INF-863856AB7138F8
+Quote: Using Gambusia fish is a biological mosquito-control method.
+Block: body
+Id: ann-must-fhb1022-mucize-q60
 
 ## media
 

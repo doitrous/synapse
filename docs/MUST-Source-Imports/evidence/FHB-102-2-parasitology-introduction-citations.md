@@ -3117,3 +3117,643 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q31-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q31-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Usually Greenbottle flies are used.
+
+## locator_type
+page
+
+## locator_page
+41
+
+## locator_section
+Flies and Myiasis — Maggot debridement therapy
+
+## locator_detail
+PDF page 41, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q31 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q38-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q38-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Culex table identifies Wuchereria bancrofti among diseases transmitted by female Culex.
+
+## locator_type
+page
+
+## locator_page
+27–28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Culex-borne filariasis
+
+## locator_detail
+PDF page 27–28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q38 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q41-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q41-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Culex has an annoying hum while Anopheles has a silent approach.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q41 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q42-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q42-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Male mosquito mouthparts are adapted for sucking plant juice; males are nectar feeders or vegetarian.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito feeding
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q42 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q43-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q43-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official classification slide places mosquitoes, fleas and lice in Insecta and ticks in Arachnida.
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Arthropod classification
+
+## locator_detail
+PDF page 3, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q43 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q44-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q44-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Anopheles larvae are more surface feeders due to lack of siphon (respiratory tube).
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito larvae
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q44 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q45-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q45-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Life cycle of mosquitoes: completed in stagnant water.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito life cycle
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q45 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q46-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q46-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Larvae are feeding stage while pupae are non-feeding.
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito life cycle
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q46 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q47-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q47-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Life span of 6-8 weeks increased in winter.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q47 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q48-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q48-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+After a blood meal the female lays eggs because the meal stimulates a hormone necessary for ovulation.
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q48 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q49-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q49-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Flight range is 2 kilometers increased to 10 Km by the wind.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q49 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q54-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q54-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Anopheles pharoensis: chief malaria vector; geographical distribution: Nile valley.
+
+## locator_type
+page
+
+## locator_page
+17
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Malaria vectors
+
+## locator_detail
+PDF page 17, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q54 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q57-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q57-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Untreated Wuchereria infection may be complicated by elephantiasis of the lower limb and external genitalia.
+
+## locator_type
+page
+
+## locator_page
+27
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Culex-borne filariasis
+
+## locator_detail
+PDF page 27, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q57 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q58-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q58-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Aedes disease table associates maternal Zika infection with congenital microcephaly.
+
+## locator_type
+page
+
+## locator_page
+19, 24
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Aedes-borne disease
+
+## locator_detail
+PDF page 19, 24, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q58 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q59-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q59-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Culex table labels West Nile viral encephalitis transmission as propagative.
+
+## locator_type
+page
+
+## locator_page
+27
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Culex-borne arboviruses
+
+## locator_detail
+PDF page 27, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q59 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q60-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official control slide lists Gambusia affinis among natural enemies used for biological control.
+
+## locator_type
+page
+
+## locator_page
+38
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Biological mosquito control
+
+## locator_detail
+PDF page 38, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q60 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
