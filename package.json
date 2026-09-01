@@ -31,7 +31,9 @@
     "medical:simulate": "node --experimental-strip-types scripts/simulate-content-import.mjs",
     "test:content": "node --test scripts/content/*.test.mjs",
     "content:gate": "node scripts/content/gate.mjs",
-    "content:pagetext": "node scripts/content/pagetext.mjs"
+    "content:pagetext": "node scripts/content/pagetext.mjs",
+    "content:emit": "node scripts/content/emit-mcq.mjs",
+    "content:ledger": "node scripts/content/ledger.mjs"
   },
   "dependencies": {
     "@fontsource-variable/baloo-2": "^5.3.0",
