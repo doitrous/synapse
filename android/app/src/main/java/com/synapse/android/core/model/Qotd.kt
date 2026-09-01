@@ -1,7 +1,7 @@
 package com.synapse.android.core.model
 
 /**
- * Wire types for the Question-of-the-Day endpoints (`/api/qotd/*`).
+ * Wire types for the Question-of-the-Day endpoints (under `/api/qotd`).
  *
  * The question BODY is deliberately absent: `today` names the day's
  * `questionId`, and the app resolves the question from the local published
