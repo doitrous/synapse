@@ -1,10 +1,10 @@
 <!--
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
-    Aortic Arch Relations and Cardiac Plexuses — 4 questions, 2 concepts
+    Aortic Arch Relations and Cardiac Plexuses — 10 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
-    The Diaphragm — 2 questions, 2 concepts
+    The Diaphragm — 4 questions, 2 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
@@ -260,6 +260,562 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p26 q105. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F0DFE5F3AE87
+## title
+All of following are branches of descending thoracic aorta EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All of following are branches of descending thoracic aorta EXCEPT:
+## answer_a
+Posterior intercostal artery
+## explanation_a
+True, so not the exception. The posterior intercostal arteries (third to eleventh space) are branches of the descending thoracic aorta.
+## answer_b
+Subcostal artery
+## explanation_b
+True, so not the exception. The subcostal artery is one of the descending thoracic aorta's paired branches.
+## answer_c
+Left subclavian artery
+## explanation_c
+This is the exception, and the answer. The left subclavian artery is the THIRD branch off the upper convexity of the arch of the aorta — a different, higher segment entirely — not a branch of the descending thoracic aorta.
+
+Why this is right:
+- The descending thoracic aorta, about 20 cm long, is the longest thoracic part of the aorta.
+- It begins on the left of the T4/T5 disc as the continuation of the aortic arch and descends, first on the left of the T5 to T7 vertebral bodies, then in front of T8 to T12, ending at the lower border of T12 by passing through the diaphragm's aortic opening to become the abdominal aorta.
+- Anteriorly it is related, from above down, to the left principal bronchus, the pericardium, the oesophagus and the diaphragm; posteriorly to the lower five vertebral bodies and the two hemiazygos veins, crossing at T8 and T9; on its right to the oesophagus above and the thoracic duct and azygos vein throughout; and on its left to the pleura and lung.
+## answer_d
+Left bronchial artery
+## explanation_d
+True, so not the exception. The descending thoracic aorta gives two left bronchial arteries.
+## answer_e
+Esophageal branches
+## explanation_e
+True, so not the exception. Oesophageal branches arise directly from the descending thoracic aorta to supply the mid-oesophagus.
+## correct_answer
+C
+## main_concept
+CON-CVS-EEA29FB47CBB71
+## library_ids
+ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## topic
+Anatomy
+## subtopic
+Aortic Arch Relations and Cardiac Plexuses
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Exclude the left subclavian artery from the descending thoracic aorta's own branches.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p2 q4. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-10DF3FDE4B15
+## title
+Regarding arch of aorta, the following statements are correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding arch of aorta, the following statements are correct, EXCEPT:
+## answer_a
+It ends at the lower border of 14
+## explanation_a
+True, so not the exception. The arch of the aorta ends at the lower border of T4, on the left of the T4/T5 disc, continuing as the descending thoracic aorta.
+## answer_b
+The left superior intercostal vein crosses superficial to the arch
+## explanation_b
+True, so not the exception. The left superior intercostal vein crosses the aortic arch's left anterior aspect superficially, alongside the left phrenic and vagus nerves.
+## answer_c
+It is connected to the left pulmonary artery by the ligamentum arteriosum
+## explanation_c
+True, so not the exception. The ligamentum arteriosum links the left pulmonary artery to the arch's concavity.
+## answer_d
+The thoracic duct ascends deep to the arch
+## explanation_d
+True, so not the exception. The thoracic duct, on the arch's right posterior aspect, ascends deep to it.
+## answer_e
+It begins opposite the second left sternocostal junction
+## explanation_e
+This is the exception, and the answer. The arch of the aorta begins where the ascending aorta ends, behind the SECOND RIGHT sternocostal junction — not the second left, which is nowhere named as a landmark for either vessel in the department book's account.
+
+Why this is right:
+- The arch of the aorta continues the ascending aorta from the second right sternocostal junction, passing upwards, backwards and to the left in front of the trachea, then backwards and downwards on its left side, to end on the left of the T4/T5 disc as the descending thoracic aorta.
+## correct_answer
+E
+## main_concept
+CON-CVS-9C60987F3CB5A1
+## library_ids
+ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## topic
+Anatomy
+## subtopic
+Aortic Arch Relations and Cardiac Plexuses
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the arch of the aorta begins opposite the second RIGHT (not left) sternocostal junction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p14 q56. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-78AA6B2DC788
+## title
+Regarding the arch of the aorta, one is false:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the arch of the aorta, one is false:
+## answer_a
+It commences at the level of the sternal angle
+## explanation_a
+True, so not the answer sought. The arch of the aorta commences at the level of the sternal angle, where the ascending aorta ends behind the second right sternocostal junction.
+## answer_b
+The oseophagus lies anterior and to the left
+## explanation_b
+This is the false statement, and the answer. The oesophagus lies on the arch's RIGHT POSTERIOR aspect, not anterior and to the left — the arch's left anterior aspect is instead crossed by the left phrenic and vagus nerves, separating it from the left pleura and lung.
+
+Why this is right:
+- The arch of the aorta continues the ascending aorta from the second right sternocostal junction, passing upwards, backwards and to the left in front of the trachea, then backwards and downwards on its left side, to end on the left of the T4/T5 disc as the descending thoracic aorta.
+## correct_answer
+B
+## main_concept
+CON-CVS-9C60987F3CB5A1
+## library_ids
+ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## topic
+Aortic Arch Relations and Cardiac Plexuses
+## subtopic
+Aortic Arch Relations and Cardiac Plexuses
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Place the oesophagus posterior and to the right of the aortic arch, not anterior and to the left.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p12 q98. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-FF0134E2A9E4
+## title
+Regarding the arch of the aorta, which is incorrect:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the arch of the aorta, which is incorrect:
+## answer_a
+It is related inferiorly to the left brachiocephalic vein
+## explanation_a
+This is the incorrect statement, and the answer. The left brachiocephalic vein crosses the arch's UPPER, not inferior, aspect — running obliquely along the top of the arch and in front of the origins of its three branches on its way to join the right brachiocephalic vein.
+
+Why this is right:
+- The arch of the aorta continues the ascending aorta from the second right sternocostal junction, passing upwards, backwards and to the left in front of the trachea, then backwards and downwards on its left side, to end on the left of the T4/T5 disc as the descending thoracic aorta.
+## answer_b
+It commences at the level of the sternal angle
+## explanation_b
+True, so not the answer sought. The arch of the aorta commences at the sternal-angle level.
+## answer_c
+Left vagus nerve lies anterior and to the left to it
+## explanation_c
+True, so not the answer sought. The left vagus nerve crosses the arch's left anterior aspect.
+## answer_d
+It is related posteriorly and to the right to the trachea and esophagus
+## explanation_d
+True, so not the answer sought. The arch's right posterior aspect relates to the trachea and the oesophagus.
+## correct_answer
+A
+## main_concept
+CON-CVS-9C60987F3CB5A1
+## library_ids
+ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## topic
+Aortic Arch Relations and Cardiac Plexuses
+## subtopic
+Aortic Arch Relations and Cardiac Plexuses
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Place the left brachiocephalic vein on the arch's upper aspect, not its inferior one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q25. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-13C50727659D
+## title
+In the superior mediastinum, which is appropriate?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In the superior mediastinum, which is appropriate?
+## answer_a
+the azygous vein arches under the right main bronchus
+## explanation_a
+The azygos vein's arch passes above the root of the right lung, not "under" the right main bronchus — the arch turns forward through the superior mediastinum well clear of the bronchus itself.
+## answer_b
+the right brachiocephalic vein receives the thoracic duct
+## explanation_b
+The thoracic duct drains into the LEFT brachiocephalic vein, not the right — the right brachiocephalic vein instead receives the right internal thoracic vein, the right first posterior intercostal vein and the right lymphatic duct.
+## answer_c
+the aortic arch is crossed on the left side by the phrenic and vagus nerves
+## explanation_c
+This is the correct answer. The aortic arch's left anterior aspect is crossed by the left phrenic and vagus nerves (together with cardiac branches and the left superior intercostal vein), which is exactly what separates this aspect of the arch from the left pleura and lung.
+
+Why this is right:
+- The arch of the aorta continues the ascending aorta from the second right sternocostal junction, passing upwards, backwards and to the left in front of the trachea, then backwards and downwards on its left side, to end on the left of the T4/T5 disc as the descending thoracic aorta.
+## answer_d
+the superior vena cava receives the azygous vein at the lower border of the right 1st costal cartilage
+## explanation_d
+The SVC receives the azygos vein at the level of the SECOND right costal cartilage, just before it pierces the pericardium — not at the lower border of the first, which is instead where the SVC itself is formed from the two brachiocephalic veins.
+## correct_answer
+C
+## main_concept
+CON-CVS-9C60987F3CB5A1
+## library_ids
+ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## topic
+Aortic Arch Relations and Cardiac Plexuses
+## subtopic
+Aortic Arch Relations and Cardiac Plexuses
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Place the left phrenic and vagus nerves on the aortic arch's left anterior aspect.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q1. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8931EE226469
+## title
+Regarding the descending thoracic aorta, the following statemen,. are correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the descending thoracic aorta, the following statemen,. are correct, EXCEPT:
+## answer_a
+It begins at the level of the sternal angle
+## explanation_a
+True, so not the exception. The descending thoracic aorta begins at the sternal-angle level, continuing from the arch at the T4/T5 disc.
+## answer_b
+It ends at the lower border of the tenth thoracic vertebra
+## explanation_b
+This is the exception, and the answer. The descending thoracic aorta ends at the lower border of the TWELFTH thoracic vertebra, not the tenth, passing through the diaphragm's aortic opening to become the abdominal aorta.
+
+Why this is right:
+- The descending thoracic aorta, about 20 cm long, is the longest thoracic part of the aorta.
+- It begins on the left of the T4/T5 disc as the continuation of the aortic arch and descends, first on the left of the T5 to T7 vertebral bodies, then in front of T8 to T12, ending at the lower border of T12 by passing through the diaphragm's aortic opening to become the abdominal aorta.
+- Anteriorly it is related, from above down, to the left principal bronchus, the pericardium, the oesophagus and the diaphragm; posteriorly to the lower five vertebral bodies and the two hemiazygos veins, crossing at T8 and T9; on its right to the oesophagus above and the thoracic duct and azygos vein throughout; and on its left to the pleura and lung.
+## answer_c
+It is related posteriorly to the hemiazygos veins
+## explanation_c
+True, so not the exception. The descending thoracic aorta is related posteriorly to the lower vertebral bodies and the two hemiazygos veins, which cross behind it at T8 and T9.
+## answer_e
+During its passage through the diaphragm, it is accompanied by the thoracic
+## explanation_e
+True, so not the exception. As it passes through the diaphragm's aortic opening, the descending thoracic aorta is accompanied by the azygos vein to its right and the thoracic duct between the two.
+## correct_answer
+B
+## main_concept
+CON-CVS-EEA29FB47CBB71
+## library_ids
+ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## topic
+Anatomy
+## subtopic
+Aortic Arch Relations and Cardiac Plexuses
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the descending thoracic aorta ends at T12, not T10.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p16 q61. Manifest src_c30d947377670cb99a40.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -822,6 +1378,190 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p5 q48. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7BA7C3CE43F4
+## title
+One of the following structures passes with the descending thoracic aorta through the d…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures passes with the descending thoracic aorta through the diaphragm: 07
+## answer_a
+esophagus
+## explanation_a
+The oesophagus passes through its own, separate opening — the oesophageal opening, at T10 in the right crus — not through the aortic opening with the descending aorta.
+## answer_b
+inferior vena cava
+## explanation_b
+The inferior vena cava passes through the caval opening, at T8 in the central tendon — the highest and most anterior of the diaphragm's three major openings, well away from the aortic opening at T12.
+## answer_c
+azygos vein
+## explanation_c
+This is the correct answer. The aortic opening, at T12 behind the median arcuate ligament, transmits the aorta together with the azygos vein to its right and the thoracic duct between the two — the azygos vein is exactly the structure that shares this opening with the descending thoracic aorta.
+
+Why this is right:
+- The three major openings of the diaphragm sit at three different vertebral levels in the midline plane, each transmitting a distinct set of structures.
+## correct_answer
+C
+## main_concept
+CON-RES-80C9B9E43B459B
+## library_ids
+ART-104-ANA-DIAPHRAGM
+## topic
+The Diaphragm
+## subtopic
+The Diaphragm
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > The Diaphragm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the azygos vein as the structure accompanying the descending thoracic aorta through the diaphragm's aortic opening.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p14 q111. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1539273A13F0
+## title
+Thorax; all are true except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Thorax; all are true except:
+## answer_a
+Arch of aorta lies completely in superior media stinum
+## explanation_a
+True, so not the exception. The arch of the aorta lies wholly within the superior mediastinum.
+## answer_b
+The left recurrent laryngeal nerve Curve around aortic arch medial to
+## explanation_b
+True, so not the exception. The left recurrent laryngeal nerve hooks around the aortic arch medial to the ligamentum arteriosum.
+## answer_c
+The deep cardiac plexus lies near the bifurcation of the trachea
+## explanation_c
+True, so not the exception. The deep cardiac plexus lies on the arch's right posterior aspect, near the bifurcation of the trachea.
+## answer_d
+The thoracic duct crosses behind the oesophagus opposite 4
+## explanation_d
+True, so not the exception. The thoracic duct crosses behind the oesophagus as it ascends through the mediastinum, around the T4/T5 level.
+## answer_e
+The thoracic duct Passes behind the oesophagus through oesophgeal
+## explanation_e
+This is the exception, and the answer. The thoracic duct passes from the abdomen into the thorax through the diaphragm's AORTIC opening, at T12, alongside the aorta and to the azygos vein's left — not through the oesophageal opening, which transmits only the oesophagus, the two vagi and the oesophageal branches of the left gastric vessels.
+
+Why this is right:
+- The three major openings of the diaphragm sit at three different vertebral levels in the midline plane, each transmitting a distinct set of structures.
+## correct_answer
+E
+## main_concept
+CON-RES-80C9B9E43B459B
+## library_ids
+ART-104-ANA-DIAPHRAGM
+## topic
+Anatomy
+## subtopic
+The Diaphragm
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > The Diaphragm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the thoracic duct enters the abdomen through the diaphragm's aortic opening, not the oesophageal opening.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p4 q16. Manifest src_c30d947377670cb99a40.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

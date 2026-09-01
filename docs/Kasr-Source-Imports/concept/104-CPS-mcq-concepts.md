@@ -1,10 +1,10 @@
 <!--
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
-    Aortic Arch Relations and Cardiac Plexuses — 4 questions, 2 concepts
+    Aortic Arch Relations and Cardiac Plexuses — 10 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
-    The Diaphragm — 2 questions, 2 concepts
+    The Diaphragm — 4 questions, 2 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
@@ -94,6 +94,10 @@ arch-of-aorta.relations-and-branches
 ## exam_signal
 src_f1905b4b83def7d5642b | question_book | | p4 | 104 CPS
 src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p14 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p12 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
 ## article_ids
 +ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
 ## field_notes
@@ -110,6 +114,8 @@ The descending thoracic aorta runs from T4/T5 to T12, giving nine pairs of poste
 ## canonical_key
 descending-thoracic-aorta.course-relations-and-branches
 ## exam_signal
+src_c30d947377670cb99a40 | question_book | | p2 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p16 | 104 CPS
 src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
 ## article_ids
 +ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
@@ -427,6 +433,8 @@ The diaphragm has three major openings — aortic at T12, oesophageal at T10, ca
 diaphragm.major-openings
 ## exam_signal
 src_c30d947377670cb99a40 | question_book | | p5 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
 ## article_ids
 +ART-104-ANA-DIAPHRAGM
 ## field_notes

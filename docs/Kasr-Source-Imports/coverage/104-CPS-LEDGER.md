@@ -4,13 +4,13 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 663 | excluded: 135 | remaining: 354
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 671 | excluded: 135 | remaining: 346
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 663
+- authored (by key, this ledger): 671
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 663
+- authored minus held-back = build-style "kept": 671
 
 ## By cluster (leaf tag)
 
@@ -23,13 +23,13 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Mechanics of Breathing | 22 | 0 | 0 | 22 |
 | Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
 | Gas Transport by the Blood | 35 | 16 | 0 | 19 |
-| Mediastinum | 41 | 22 | 1 | 18 |
 | Pulmonary Compliance | 45 | 24 | 3 | 18 |
 | Gas exchange in the lung | 21 | 4 | 2 | 15 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 9 | 0 | 13 |
 | Cardiac Function | 80 | 44 | 24 | 12 |
 | Vascular Function | 44 | 27 | 5 | 12 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
+| Mediastinum | 41 | 30 | 1 | 10 |
 | Lung Volumes and Capacities | 9 | 0 | 0 | 9 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
@@ -254,27 +254,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-statement-about-hemoglobin-is-incorrect-e6822bc0` — Which statement about hemoglobin is Incorrect?
 - `with-respect-to-the-binding-of-carbon-monoxide-to-haemoglobi-5467d1ba` — With respect to the binding of carbon monoxide to haemoglobin: ‏ا‎
 
-### Mediastinum (18)
-
-- `all-of-following-are-branches-of-descending-thoracic-aorta-e-59eb3cb8` — All of following are branches of descending thoracic aorta EXCEPT:
-- `anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40` — Anterior media stinum Space, mark the unacceptable statement:
-- `at-what-level-does-the-trachea-divides-into-the-main-bronchi-bd18e810` — At what level does the trachea divides into the main bronchi? ‏عم‎ At the level …
-- `concerning-the-oesophagus-all-true-except-135051ac` — Concerning the oesophagus all true EXCEPT:
-- `in-the-superior-mediastinum-which-is-appropriate-78a9a3f4` — In the superior mediastinum, which is appropriate?
-- `one-of-the-following-structures-passes-with-the-descending-t-924d7cfa` — One of the following structures passes with the descending thoracic aorta throug…
-- `opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387` — Opposite the tracheal bifurcation, lies; indicate the correct answer:
-- `regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da` — Regarding arch of aorta, mark ONE correct answer: | a- It extends above the supr…
-- `regarding-arch-of-aorta-the-following-statements-are-correct-7928ecd9` — Regarding arch of aorta, the following statements are correct, EXCEPT:
-- `regarding-descending-thoracic-aorta-select-the-true-answer-28c74a27` — Regarding descending thoracic aorta, select the true answer:
-- `regarding-descending-thoracic-aorta-select-the-true-answer-a-30b7e545` — Regarding descending thoracic aorta, select the true answer: ‏كا‎ a- it is relat…
-- `regarding-the-arch-of-the-aorta-one-is-false-c6faa886` — Regarding the arch of the aorta, one is false:
-- `regarding-the-arch-of-the-aorta-which-is-incorrect-5880a035` — Regarding the arch of the aorta, which is incorrect:
-- `regarding-the-descending-thoracic-aorta-the-following-statem-0c346b05` — Regarding the descending thoracic aorta, the following statemen,. are correct, E…
-- `regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722` — Regarding the trachea, choose the correct statement: . : a, It contains incomple…
-- `the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f` — The autonomic plexus of the oesophagus, indicate the correct statement:
-- `thorax-all-are-true-except-88af29b9` — Thorax; all are true except:
-- `which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f` — Which of the following statements regarding the phrenic nerves is | true?
-
 ### Pulmonary Compliance (18)
 
 - `among-the-functions-of-surfactant-c9e14838` — Among the functions of surfactant:
@@ -372,6 +351,19 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-discharge-spontaneously-during-quiet-b30226e7` — Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- S…
 - `which-of-the-following-discharge-spontaneously-during-quist-89974900` — Which of the following discharge spontaneously during quist breathing?
 - `which-of-the-following-discharges-spontaneously-during-quiet-20ea9248` — Which of the following discharges spontaneously during quiet breathing?
+
+### Mediastinum (10)
+
+- `anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40` — Anterior media stinum Space, mark the unacceptable statement:
+- `at-what-level-does-the-trachea-divides-into-the-main-bronchi-bd18e810` — At what level does the trachea divides into the main bronchi? ‏عم‎ At the level …
+- `concerning-the-oesophagus-all-true-except-135051ac` — Concerning the oesophagus all true EXCEPT:
+- `opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387` — Opposite the tracheal bifurcation, lies; indicate the correct answer:
+- `regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da` — Regarding arch of aorta, mark ONE correct answer: | a- It extends above the supr…
+- `regarding-descending-thoracic-aorta-select-the-true-answer-28c74a27` — Regarding descending thoracic aorta, select the true answer:
+- `regarding-descending-thoracic-aorta-select-the-true-answer-a-30b7e545` — Regarding descending thoracic aorta, select the true answer: ‏كا‎ a- it is relat…
+- `regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722` — Regarding the trachea, choose the correct statement: . : a, It contains incomple…
+- `the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f` — The autonomic plexus of the oesophagus, indicate the correct statement:
+- `which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f` — Which of the following statements regarding the phrenic nerves is | true?
 
 ### Lung Volumes and Capacities (9)
 

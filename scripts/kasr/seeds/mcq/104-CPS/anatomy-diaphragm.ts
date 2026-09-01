@@ -62,5 +62,31 @@ export const LEAF: McqLeafSeed = {
         E: "True, so not the exception. The aortic hiatus lies behind (deep to) the median arcuate ligament, formed by the diaphragm's two crura, at the T12 level.",
       },
     },
+    {
+      key: "one-of-the-following-structures-passes-with-the-descending-t-924d7cfa",
+      conceptKey: "diaphragm.major-openings",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Name the azygos vein as the structure accompanying the descending thoracic aorta through the diaphragm's aortic opening.",
+      explanations: {
+        A: "The oesophagus passes through its own, separate opening — the oesophageal opening, at T10 in the right crus — not through the aortic opening with the descending aorta.",
+        B: "The inferior vena cava passes through the caval opening, at T8 in the central tendon — the highest and most anterior of the diaphragm's three major openings, well away from the aortic opening at T12.",
+        C: "This is the correct answer. The aortic opening, at T12 behind the median arcuate ligament, transmits the aorta together with the azygos vein to its right and the thoracic duct between the two — the azygos vein is exactly the structure that shares this opening with the descending thoracic aorta.",
+      },
+    },
+    {
+      key: "thorax-all-are-true-except-88af29b9",
+      conceptKey: "diaphragm.major-openings",
+      difficulty: "Hard",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that the thoracic duct enters the abdomen through the diaphragm's aortic opening, not the oesophageal opening.",
+      explanations: {
+        A: "True, so not the exception. The arch of the aorta lies wholly within the superior mediastinum.",
+        B: "True, so not the exception. The left recurrent laryngeal nerve hooks around the aortic arch medial to the ligamentum arteriosum.",
+        C: "True, so not the exception. The deep cardiac plexus lies on the arch's right posterior aspect, near the bifurcation of the trachea.",
+        D: "True, so not the exception. The thoracic duct crosses behind the oesophagus as it ascends through the mediastinum, around the T4/T5 level.",
+        E: "This is the exception, and the answer. The thoracic duct passes from the abdomen into the thorax through the diaphragm's AORTIC opening, at T12, alongside the aorta and to the azygos vein's left — not through the oesophageal opening, which transmits only the oesophagus, the two vagi and the oesophageal branches of the left gastric vessels.",
+      },
+    },
   ],
 }
