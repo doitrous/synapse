@@ -1,0 +1,402 @@
+{
+  "lane": "ASU-AE",
+  "cluster": "embryo2-deferred-firstweek",
+  "header": "ASU-AE \u00b7 Embryology, Embryo 2 deferred cluster \u2014 First Week of Development block, authored from \"MCQs - Embryo 2.pdf\" (src_a7e3b821ab294015c05f) against Kasr 101-ISK concepts (live 2026-08-27). Pending-live overlay for the four target concepts is docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-embryology-overlay-concepts.md.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-AE",
+    "module_subject": "ASU-AE > Embryology > Questions > Embryo 2",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.4"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-ANA-FERTILIZATION",
+      "ART-101-ANA-IMPLANTATION"
+    ],
+    "resource_ids": [
+      "src_a7e3b821ab294015c05f"
+    ],
+    "source_citation": "Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, \"MCQs - Embryo 2.pdf\" (Part 2), printed answer key p.{page}.",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "embryo2-deferred-firstweek-q42",
+      "page": 14,
+      "title": "Where does fertilisation normally occur?",
+      "question": "Normal site of fertilization is:",
+      "options": {
+        "A": "Fundus of uterus.",
+        "B": "Medial part of uterine tube.",
+        "C": "Lateral part of uterine tube.",
+        "D": "On surface of ovary.",
+        "E": "Body of uterus."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The fundus of the uterus is where implantation later lands, not where the sperm and secondary oocyte meet -- fertilisation happens well upstream of the uterine cavity.",
+        "B": "Incorrect. The medial (isthmic) part of the uterine tube is narrower and closer to the uterus; the oocyte is fertilised before it reaches this segment.",
+        "C": "Correct. Fertilisation occurs in the ampulla, the widest and longest part of the uterine tube, in its lateral third near the ovary -- it is here that the secondary oocyte, released at ovulation, meets and fuses with a capacitated sperm to form the zygote. The ampulla's wide lumen and ciliated, secretory lining give the gametes time and the right environment to meet, and the fertilised zygote then begins cleavage as it is carried toward the uterus. This is the single most heavily tested fact in this concept's exam signal across both the Kasr and ASU papers, asked from several different angles.",
+        "D": "Incorrect. The surface of the ovary is where the secondary oocyte is released at ovulation, before it is picked up by the fimbriae of the uterine tube -- fertilisation itself occurs later, inside the tube.",
+        "E": "Incorrect. The body of the uterus is where the blastocyst implants about a week later; fertilisation itself is a tubal event, not a uterine one."
+      },
+      "main_concept": "CON-DEV-F33BB68138377B",
+      "concept_ids": [
+        "CON-DEV-F33BB68138377B"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fertilisation",
+      "subtopic": "Site of fertilisation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that fertilisation occurs in the ampulla, the lateral third of the uterine tube.",
+      "field_notes": {
+        "sourceQ": "Q42, answer key p.14 row 42 = c"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q42"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q38",
+      "page": 14,
+      "title": "Which is NOT a result of fertilisation?",
+      "question": "Results of fertilization include all the following EXCEPT:",
+      "options": {
+        "A": "Restoration of diploid number of chromosomes.",
+        "B": "Initiation of cleavage.",
+        "C": "Completion of 2nd meiotic division.",
+        "D": "Extrusion of 2nd polar body.",
+        "E": "Beginning of implantation."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect as an answer to this EXCEPT question -- restoring the diploid (46-chromosome) number by combining the haploid sperm and oocyte nuclei is one of fertilisation's own results, so it is a true statement here, not the exception.",
+        "B": "Incorrect as an answer -- fertilisation's own definition includes that it initiates cleavage, so this is a true statement of what fertilisation does, not the exception being asked for.",
+        "C": "Incorrect as an answer -- sperm entry is exactly what triggers the secondary oocyte to complete its arrested second meiotic division, so this is a true, direct result of fertilisation.",
+        "D": "Incorrect as an answer -- completing the second meiotic division releases the second polar body, so this too is a true, direct result of fertilisation and not the exception.",
+        "E": "Correct. Fertilisation's four results, by this concept's own definition, are zygote formation, sex determination, restoration of the diploid number, and the start of cleavage with migration toward the uterine cavity -- implantation is not among them. Implantation is a separate, later event that begins only on about the seventh day after fertilisation, once the blastocyst has formed and travelled to the uterine cavity, so calling it a direct result of fertilisation conflates two different stages of the first week. Every other listed item (diploid restoration, cleavage initiation, completing meiosis II, extruding the second polar body) is a genuine, immediate consequence of sperm-oocyte fusion, which is exactly what makes 'beginning of implantation' the one false statement in this EXCEPT list."
+      },
+      "main_concept": "CON-DEV-F33BB68138377B",
+      "concept_ids": [
+        "CON-DEV-F33BB68138377B"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fertilisation",
+      "subtopic": "Results of fertilisation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "List the four direct results of fertilisation and recognise that implantation is a later, separate event.",
+      "field_notes": {
+        "sourceQ": "Q38, answer key p.14 row 38 = e"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q38"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q37",
+      "page": 14,
+      "title": "Which stage implants into the uterus?",
+      "question": "The stage that implants into the uterus is:",
+      "options": {
+        "A": "Morula.",
+        "B": "Blastocyst.",
+        "C": "2 cell stage.",
+        "D": "4 cell stage.",
+        "E": "Zygote."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The morula is the solid, 16-cell ball that precedes the blastocyst -- it has not yet developed the blastocele cavity or the trophoblast/embryoblast split that implantation depends on.",
+        "B": "Correct. Once the morula's zona pellucida degenerates and uterine fluid enters, the cells reorganise into a wall of trophoblast around a fluid-filled blastocele with the embryoblast at one pole -- this is the blastocyst, and it is by its embryonic pole (the trophoblast overlying the embryoblast) that it adheres to and begins implanting into the endometrium, normally in the posterior wall of the uterine fundus, at the end of the first week. Naming the stage correctly matters clinically and academically because every implantation event -- adhesion, syncytiotrophoblast invasion, lacunar formation -- is described as something the blastocyst does, never the morula or an earlier stage. This is one of the most repeated single facts across this exam bank's cleavage and implantation questions.",
+        "C": "Incorrect. The 2-cell stage is the very first cleavage division, roughly a day after fertilisation -- far too early and structurally unready for implantation.",
+        "D": "Incorrect. The 4-cell stage is an early cleavage stage on about the second day, still inside the zona pellucida with no trophoblast or blastocele formed yet.",
+        "E": "Incorrect. The zygote is the single fertilised cell before any cleavage division has occurred, so it has none of the structural features (trophoblast wall, blastocele, embryonic pole) that implantation requires."
+      },
+      "main_concept": "CON-DEV-28CF4D241BE607",
+      "concept_ids": [
+        "CON-DEV-28CF4D241BE607"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - implantation",
+      "subtopic": "Blastocyst structure",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the blastocyst as the stage that implants, distinguishing it from earlier cleavage stages.",
+      "field_notes": {
+        "sourceQ": "Q37, answer key p.14 row 37 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q37"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q64",
+      "page": 15,
+      "title": "What happens during implantation of the blastocyst?",
+      "question": "During implantation, the blastocyst:",
+      "options": {
+        "A": "Implants in the body of the uterus.",
+        "B": "Causes a change in the endometrial tissues.",
+        "C": "Implants in the endometrium.",
+        "D": "Is implanted at its embryonic pole.",
+        "E": "All of the above."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incomplete as a standalone answer, but true in the general sense intended here -- the normal implantation site is the posterior wall of the body of the uterus, near the fundus -- which is why it is folded into the composite \"all of the above\" answer rather than excluded as false.",
+        "B": "Incomplete as a standalone answer, but true -- as the syncytiotrophoblast erodes the endometrium, the endometrial stroma itself reacts (the decidual reaction), so implantation does cause a change in the endometrial tissue, making this one of the true sub-statements bundled into the composite answer.",
+        "C": "Incomplete as a standalone answer, but true -- the blastocyst becomes embedded in the superficial layers of the endometrium, which is the definition of implantation, so this sub-statement is also correct on its own.",
+        "D": "Incomplete as a standalone answer, but true -- adhesion and invasion both begin at the embryonic pole, the trophoblast overlying the embryoblast, which is why this sub-statement is also correct.",
+        "E": "Correct. Each of the first four statements is individually true of implantation -- it happens in the body of the uterus, it changes the endometrial tissue, it is embedding in the endometrium, and it proceeds by the embryonic pole -- so the composite \"all of the above\" is the only option that does not drop one of these genuine features. Questions written this way are testing whether the student can hold the whole implantation picture together rather than picking one true fact and missing that the others are equally true. Recognising an \"all of the above\" answer as correct requires checking every sub-statement individually against the concept, not just spotting one obviously true item and stopping there."
+      },
+      "main_concept": "CON-DEV-28CF4D241BE607",
+      "concept_ids": [
+        "CON-DEV-28CF4D241BE607"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - implantation",
+      "subtopic": "Blastocyst implantation behaviour",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise the several true features of blastocyst implantation together, not just one in isolation.",
+      "field_notes": {
+        "sourceQ": "Q64, answer key p.15 row 64 = e"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q64"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q30",
+      "page": 14,
+      "title": "When does the morula reach the uterine cavity?",
+      "question": "On what day does the morula reach the uterine cavity after fertilization?",
+      "options": {
+        "A": "4th day.",
+        "B": "7th day.",
+        "C": "9th day.",
+        "D": "8th day.",
+        "E": "10th day."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cleaving from 2 to 4 to 8 blastomeres over the first three days, the zygote becomes a 16-cell morula inside the uterine tube by the third day, and tubal peristalsis, ciliary beating and tubal mucus together carry it into the uterine cavity, which it reaches on the fourth day -- while the zona pellucida is still intact around it. This four-day figure is one of the most heavily tested single numbers in this whole embryology bank, and it is easy to confuse with implantation's own day-6/day-7/day-11 timeline, which belongs to the blastocyst stage a few days later, not the morula's arrival.",
+        "B": "Incorrect. The seventh day is when the blastocyst -- not the morula -- begins adhering to the endometrium; the morula has already reached the uterine cavity and transformed into a blastocyst well before this day.",
+        "C": "Incorrect. The ninth day belongs to the second week's implantation timetable (complete embedding, Heuser's membrane, lacunar spaces), not to the morula's arrival in the uterine cavity, which happens earlier.",
+        "D": "Incorrect. The eighth day is when the bilaminar disc and amniotic cavity form, well after the morula has already reached the uterine cavity and turned into a blastocyst.",
+        "E": "Incorrect. The tenth day is deep into the second week's implantation events; the morula reaches the uterine cavity days earlier, on the fourth day."
+      },
+      "main_concept": "CON-DEV-F5A87FDF5D911C",
+      "concept_ids": [
+        "CON-DEV-F5A87FDF5D911C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - cleavage",
+      "subtopic": "Morula timing",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State that the morula reaches the uterine cavity on the fourth day after fertilisation.",
+      "field_notes": {
+        "sourceQ": "Q30, answer key p.14 row 30 = a"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q30"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q12",
+      "page": 13,
+      "title": "What stops the cleaving zygote from enlarging?",
+      "question": "Enlargement of the cleaving zygote is prevented by:",
+      "options": {
+        "A": "Corona radiata.",
+        "B": "Zona pellucida.",
+        "C": "Vitelline membrane.",
+        "D": "Fallopian tube.",
+        "E": "Follicular cells."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The corona radiata is the outer layer of follicular cells around the ovulated oocyte, held together by hyaluronic acid -- it is shed before or during fertilisation and plays no role in bounding the later cleaving zygote.",
+        "B": "Correct. The zona pellucida is the tough glycoprotein coat that surrounds the zygote and holds the daughter cells (blastomeres) together as they compact through successive cleavage divisions -- because the zona does not expand, the cells get progressively smaller with each division instead of the whole embryo growing larger, and it is only after the morula reaches the uterine cavity that the zona begins to degenerate, at the end of the fifth day. This is exactly the trap this concept's own pitfall note flags: students confuse when the zona is lost with the blastocyst's other features, but the zona pellucida itself is what keeps the dividing zygote at a constant overall size throughout cleavage.",
+        "C": "Incorrect. The vitelline membrane is not the structure this exam bank's own concept uses for this role -- it is the zona pellucida, not a separate vitelline membrane, that bounds the human cleaving zygote.",
+        "D": "Incorrect. The Fallopian (uterine) tube is the passageway the morula travels through, not the physical boundary preventing individual blastomeres from spreading apart.",
+        "E": "Incorrect. Follicular cells make up the corona radiata around the oocyte before fertilisation; like the corona radiata itself, they are shed early and are not what constrains the later cleaving zygote."
+      },
+      "main_concept": "CON-DEV-F5A87FDF5D911C",
+      "concept_ids": [
+        "CON-DEV-F5A87FDF5D911C"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - cleavage",
+      "subtopic": "Zona pellucida during cleavage",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the zona pellucida prevents the cleaving zygote from enlarging.",
+      "field_notes": {
+        "sourceQ": "Q12, answer key p.13 row 12 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q12"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q59",
+      "page": 15,
+      "title": "Which statement about the blastocyst is FALSE?",
+      "question": "As regards the blastocyst, all the following statements are true EXCEPT:",
+      "options": {
+        "A": "It is the stage that implants in the uterus.",
+        "B": "It is surrounded by zona pellucida until after implantation.",
+        "C": "Its inner mass forms the embryo.",
+        "D": "Its outer cell mass forms the fetal part of the placenta.",
+        "E": "It implants by its embryonic pole."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect as an answer to this EXCEPT question -- the blastocyst genuinely is the stage that implants into the uterus, so this statement is true and not the exception.",
+        "B": "Correct. The zona pellucida degenerates at the end of the fifth day, once the morula has already arrived in the uterine cavity and reorganised into a blastocyst -- implantation itself only begins on the seventh day, so by the time adhesion starts the zona is already gone, not still present until after implantation. This is precisely the trap this concept's own pitfall note warns about: attaching a feature that belongs to the morula/cleavage stage (the intact zona) onto the later blastocyst/implantation stage. Every other statement in this list -- that the blastocyst implants, that its inner cell mass forms the embryo, that its outer trophoblast will contribute to the fetal placenta, and that it implants by its embryonic pole -- is true of the blastocyst, which is what makes the zona-timing statement the one false item.",
+        "C": "Incorrect as an answer -- the inner cell mass (embryoblast) genuinely does go on to form the embryo proper, so this statement is true and not the exception.",
+        "D": "Incorrect as an answer -- the outer cell mass (trophoblast) genuinely does contribute to the fetal part of the placenta via the chorion, so this statement is true and not the exception.",
+        "E": "Incorrect as an answer -- the blastocyst genuinely does implant by its embryonic pole, the side where the trophoblast overlies the embryoblast, so this statement is true and not the exception."
+      },
+      "main_concept": "CON-DEV-F5A87FDF5D911C",
+      "concept_ids": [
+        "CON-DEV-F5A87FDF5D911C"
+      ],
+      "contextual_concept_ids": [
+        "CON-DEV-28CF4D241BE607"
+      ],
+      "topic": "Embryology - cleavage",
+      "subtopic": "Zona pellucida timing versus implantation",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Distinguish when the zona pellucida degenerates (end of the fifth day) from when implantation begins (the seventh day).",
+      "field_notes": {
+        "sourceQ": "Q59, answer key p.15 row 59 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q59"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q2",
+      "page": 13,
+      "title": "Where does placenta praevia form?",
+      "question": "Placenta praevia results from implantation of the blastocyst in the:",
+      "options": {
+        "A": "Pelvic peritoneum.",
+        "B": "Medial part of uterine tube.",
+        "C": "Lateral part of uterine tube.",
+        "D": "Upper part of the uterus.",
+        "E": "Lower part of the uterus."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Implantation on the pelvic peritoneum is a form of ectopic (extrauterine) pregnancy, not placenta praevia, which is by definition an intrauterine abnormality of where in the uterus implantation happens.",
+        "B": "Incorrect. The medial part of the uterine tube is a tubal ectopic-pregnancy site, not a uterine one, so it cannot produce placenta praevia, which is specifically an intrauterine implantation abnormality.",
+        "C": "Incorrect. The lateral part of the uterine tube is the ampulla, the normal fertilisation site, not an implantation site at all, and certainly not the uterus.",
+        "D": "Incorrect. Implantation in the upper part of the uterus (the fundus) is the normal site, not an abnormal one -- it is exactly the opposite of what produces placenta praevia.",
+        "E": "Correct. Placenta praevia is abnormal intrauterine implantation in the lower uterine segment, where the placenta comes to lie in relation to the internal cervical os -- in complete/total, partial and marginal forms depending on how much of the os it covers. Because the placenta then sits over or near the birth canal, this is clinically important as a cause of painless antepartum bleeding and can obstruct normal vaginal delivery. It is the low uterine location, not the ovary, tube or peritoneum, that distinguishes placenta praevia from the ectopic-pregnancy sites tested in this same paper's other rows."
+      },
+      "main_concept": "CON-DEV-89FC3BBB3C9BCE",
+      "concept_ids": [
+        "CON-DEV-89FC3BBB3C9BCE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - abnormal implantation",
+      "subtopic": "Placenta praevia",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that placenta praevia is implantation in the lower uterine segment.",
+      "field_notes": {
+        "sourceQ": "Q2, answer key p.13 row 2 = e"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q2"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q32",
+      "page": 14,
+      "title": "What is placenta praevia marginalis?",
+      "question": "Placenta praevia marginalis:",
+      "options": {
+        "A": "Is formed of 2 or 3 parts.",
+        "B": "Covers internal os partially.",
+        "C": "Covers internal os completely.",
+        "D": "Lies near fundus of uterus.",
+        "E": "Has umbilical cord attached to its margin."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Being formed of two or three lobes describes a bilobed or tripartite placenta, an entirely different structural variant, not the marginal subtype of placenta praevia, which is defined by how close its edge lies to the internal os.",
+        "B": "Correct. This concept's own classification places placenta praevia along a spectrum by how much of the internal cervical os the low-lying placenta covers -- complete/total (covers it entirely), partial, and marginal, where the placental edge only touches or partially encroaches on the os rather than covering it completely. Marginalis is the mildest end of that spectrum, distinguishing it from the complete/total form, which fully covers the os and carries a higher bleeding and obstruction risk. Getting the marginalis-versus-total distinction right matters clinically because it changes the delivery plan, not just the label.",
+        "C": "Incorrect. Covering the internal os completely is the definition of placenta praevia totalis/completa, not marginalis -- the two terms sit at opposite ends of the same praevia spectrum.",
+        "D": "Incorrect. Placenta praevia by definition lies in the lower uterine segment, not near the fundus -- a fundal placenta is not praevia at all, marginal or otherwise.",
+        "E": "Incorrect. Having the umbilical cord attached to the placental margin describes battledore placenta, a separate cord-insertion anomaly tested elsewhere in this same paper, not placenta praevia marginalis, which is about the placenta's relation to the internal os."
+      },
+      "main_concept": "CON-DEV-89FC3BBB3C9BCE",
+      "concept_ids": [
+        "CON-DEV-89FC3BBB3C9BCE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - abnormal implantation",
+      "subtopic": "Placenta praevia subtypes",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish placenta praevia marginalis (partial coverage) from the complete/total form.",
+      "field_notes": {
+        "sourceQ": "Q32, answer key p.14 row 32 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FIRSTWEEK-Q32"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q56",
+      "hold": "duplicate of q42 (fertilisation site), same fact in EXCEPT format \u2014 'It usually occurs in uterine cavity' as the false statement"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q53",
+      "hold": "duplicate of q38 (results of fertilisation), less specific 'all of the above' phrasing of the same four-results fact"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q39",
+      "hold": "duplicate of q30 (morula reaches uterine cavity on day 4), different stem wording, same day and same key"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q57",
+      "hold": "duplicate of q30 \u2014 same day-4 morula-arrival fact, phrased as a day range (3-4 days)"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q15",
+      "hold": "duplicate of q12 (zona pellucida prevents zygote enlargement), different stem wording, same key"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q66",
+      "hold": "duplicate of q12 \u2014 broader restatement (zona pellucida 'surrounds' morula/zygote/blastocyst/oocyte) of the same zona-pellucida-bounds-the-cleaving-cells fact"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q10",
+      "hold": "duplicate of q2 (placenta praevia = implantation in the lower uterine segment), naming-only restatement"
+    },
+    {
+      "key": "embryo2-deferred-firstweek-q51",
+      "hold": "duplicate of q2 \u2014 same fact framed as 'which placental abnormality is due to abnormal implantation'"
+    }
+  ]
+}

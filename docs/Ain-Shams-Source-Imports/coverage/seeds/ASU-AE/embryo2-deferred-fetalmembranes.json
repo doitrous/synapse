@@ -1,0 +1,273 @@
+{
+  "lane": "ASU-AE",
+  "cluster": "embryo2-deferred-fetalmembranes",
+  "header": "ASU-AE \u00b7 Embryology, Embryo 2 deferred cluster \u2014 Fetal Membranes block, authored from \"MCQs - Embryo 2.pdf\" (src_a7e3b821ab294015c05f) against Kasr 101-ISK concepts (live 2026-08-27). Pending-live overlay for the three target concepts is docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-embryology-overlay-concepts.md.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-AE",
+    "module_subject": "ASU-AE > Embryology > Questions > Embryo 2",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.4"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-ANA-CHORIONIC-VILLI-PLACENTA",
+      "ART-101-ANA-FERTILIZATION"
+    ],
+    "resource_ids": [
+      "src_a7e3b821ab294015c05f"
+    ],
+    "source_citation": "Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, \"MCQs - Embryo 2.pdf\" (Part 2), printed answer key p.{page}.",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "embryo2-deferred-fetalmembranes-q11",
+      "page": 13,
+      "title": "Which part of the decidua does the chorion laeve face?",
+      "question": "The chorion leave faces which part of the decidua?",
+      "options": {
+        "A": "Basalis.",
+        "B": "Capsularis.",
+        "C": "Parietalis.",
+        "D": "Lateralis.",
+        "E": "Frondosum."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Decidua basalis lies deep to the conceptus, on the opposite side from the chorion, and it faces the vascular, villus-bearing chorion frondosum -- not the smooth chorion laeve.",
+        "B": "Correct. As the conceptus grows, its avillous pole (chorion laeve, where the villi degenerate) bulges toward the uterine cavity and is covered only by decidua capsularis, the thin part of the decidua stretched over the growing sac -- while the villus-bearing chorion frondosum stays applied to decidua basalis beneath it. This basalis-versus-capsularis pairing with frondosum-versus-laeve is exactly the paired fact this concept's own definition and this exam bank's related placenta-origin questions both test, and mixing up which decidual part faces which chorionic part is the single most common error in this area.",
+        "C": "Incorrect. Decidua parietalis lines the rest of the uterine cavity, away from the conceptus entirely, and later fuses with the capsularis as the sac grows -- it does not face the chorion laeve directly at this stage.",
+        "D": "Incorrect. \"Decidua lateralis\" is not one of the three named parts of the decidua in this concept's own classification -- the three real parts are basalis, capsularis and parietalis.",
+        "E": "Incorrect. \"Chorion frondosum\" is a chorionic structure, not a part of the decidua -- it is the villus-bearing chorion that decidua basalis, not the laeve-facing capsularis, lies against."
+      },
+      "main_concept": "CON-DEV-B84639AB8FF5DE",
+      "concept_ids": [
+        "CON-DEV-B84639AB8FF5DE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fetal membranes",
+      "subtopic": "Decidua classification",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the chorion laeve is covered by decidua capsularis, distinct from decidua basalis under the chorion frondosum.",
+      "field_notes": {
+        "sourceQ": "Q11, answer key p.13 row 11 = b; options re-read by rendering the page at 300 DPI, OCR had mis-read option c (Parietalis) as a second \"d\""
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FETALMEMBRANES-Q11"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q61",
+      "page": 14,
+      "title": "What makes up a primary stem villus?",
+      "question": "A primary stem villus consists of:",
+      "options": {
+        "A": "Cytotrophoblast.",
+        "B": "Syncytiotrophoblast.",
+        "C": "Cytotrophoblast & Syncytiotrophoblast.",
+        "D": "Cytotrophoblast, Syncytiotrophoblast & Extraembryonic Mesoderm.",
+        "E": "Syncytiotrophoblast & extraembryonic mesoderm."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cytotrophoblast alone describes the proliferating core before the syncytiotrophoblast layer has even formed around it -- a primary villus already has both trophoblastic layers, not just one.",
+        "B": "Incorrect. Syncytiotrophoblast alone is only the outer covering; a primary villus also has a cytotrophoblastic core pushing it outward, so the syncytiotrophoblast by itself is incomplete.",
+        "C": "Correct. This concept's own villus progression defines a primary villus as a core of proliferating cytotrophoblast pushing outward into the overlying syncytiotrophoblast -- both trophoblastic layers and nothing else. It becomes a secondary villus only once extra-embryonic mesoderm invades that cytotrophoblastic core, and a tertiary villus only once fetal blood vessels then form within that mesoderm. Getting the primary stage right as \"trophoblast only, no mesoderm yet\" is the anchor fact the secondary and tertiary stages both build on.",
+        "D": "Incorrect. Adding extraembryonic mesoderm to the two trophoblastic layers describes a secondary villus (mesoderm present, no vessels yet), not the primary stage, which has no mesodermal core at all.",
+        "E": "Incorrect. Dropping cytotrophoblast while keeping syncytiotrophoblast and mesoderm does not match any real stage in this concept's progression -- the cytotrophoblastic core is present at every stage, from primary through tertiary."
+      },
+      "main_concept": "CON-DEV-E099FAA01BEAEB",
+      "concept_ids": [
+        "CON-DEV-E099FAA01BEAEB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fetal membranes",
+      "subtopic": "Chorionic villus types",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that a primary chorionic villus consists of cytotrophoblast and syncytiotrophoblast only, with no mesodermal core yet.",
+      "field_notes": {
+        "sourceQ": "Q61, answer key p.14 row 61 = c"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FETALMEMBRANES-Q61"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q14",
+      "page": 13,
+      "title": "What is a secondary chorionic villus made of?",
+      "question": "A 2ry chorionic villus is made of:",
+      "options": {
+        "A": "Cytotrophoblast + syncytiotrophoblast.",
+        "B": "Trophoblast + 2ry mesoderm.",
+        "C": "Trophoblast + 1ry mesoderm + fetal capillaries.",
+        "D": "Syncytiotrophoblast + fetal capillaries.",
+        "E": "Trophoblast + 1ry mesoderm."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Trophoblast (cytotrophoblast + syncytiotrophoblast) with no mesoderm at all is the *primary* villus stage, one step before this record's secondary stage.",
+        "B": "Incorrect. This concept's naming uses \"1ry mesoderm\" for the mesoderm that first invades the villus core, not \"2ry mesoderm\" -- there is no such thing as a \"2ry mesoderm\" stage in this progression.",
+        "C": "Incorrect. Adding fetal capillaries on top of trophoblast and mesoderm is exactly what defines the *tertiary*, not secondary, villus -- the presence of vessels is the specific feature that moves a villus from secondary to tertiary.",
+        "D": "Incorrect. This drops the cytotrophoblastic core entirely and adds fetal capillaries, matching neither the secondary nor the tertiary stage as this concept defines them -- every real stage keeps both trophoblastic layers.",
+        "E": "Correct. A secondary chorionic villus is made when extra-embryonic (primary) mesoderm invades the cytotrophoblastic core of a primary villus, still covered by syncytiotrophoblast -- so it is trophoblast (both layers) plus this primary mesoderm, with no fetal blood vessels yet. It becomes tertiary only once that mesoderm develops its own fetal capillaries, so \"mesoderm present, vessels absent\" is precisely what distinguishes secondary from both the primary stage before it (no mesoderm) and the tertiary stage after it (mesoderm plus vessels)."
+      },
+      "main_concept": "CON-DEV-E099FAA01BEAEB",
+      "concept_ids": [
+        "CON-DEV-E099FAA01BEAEB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fetal membranes",
+      "subtopic": "Chorionic villus types",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that a secondary chorionic villus is trophoblast plus primary mesoderm, with no fetal vessels yet.",
+      "field_notes": {
+        "sourceQ": "Q14, answer key p.13 row 14 = e"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FETALMEMBRANES-Q14"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q63",
+      "page": 14,
+      "title": "What is a tertiary stem villus made of?",
+      "question": "A tertiary stem villus consists of:",
+      "options": {
+        "A": "Cytotrophoblast & Syncytiotrophoblast only.",
+        "B": "Syncytiotrophoblast & extraembryonic mesoderm only.",
+        "C": "Cytotrophoblast & extraembryonic mesoderm only.",
+        "D": "Cytotrophoblast, Syncytiotrophoblast & intraembryonic mesoderm.",
+        "E": "Cytotrophoblast, Syncytiotrophoblast & extraembryonic mesoderm with small blood vessels."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Trophoblast alone, with no mesoderm, is the *primary* villus stage -- a tertiary villus has already gained a vascularised mesodermal core.",
+        "B": "Incorrect. Dropping the cytotrophoblastic core does not match any stage in this concept's progression -- both trophoblastic layers are retained through every villus stage, including tertiary.",
+        "C": "Incorrect. Dropping the syncytiotrophoblastic covering, and omitting that the mesoderm carries blood vessels, does not match the tertiary stage as this concept defines it.",
+        "D": "Incorrect. Chorionic villi are built from *extraembryonic*, not intraembryonic, mesoderm -- intraembryonic mesoderm belongs to the embryo's own trilaminar disc, a separate structure entirely.",
+        "E": "Correct. A tertiary (definitive) chorionic villus keeps both trophoblastic layers -- cytotrophoblast and syncytiotrophoblast -- around a core of extraembryonic mesoderm that has now developed its own small fetal blood vessels, which is precisely the feature that distinguishes it from the secondary stage (mesoderm present, no vessels yet). This vascularised stage is what allows real fetal-maternal exchange to occur across the villus wall, since fetal blood can now be carried right up to (though never mixed with) the maternal blood bathing the villus in the intervillous space. Naming all three components together -- both trophoblastic layers plus vascularised extraembryonic mesoderm -- is what this row is checking, since dropping any one of them describes an earlier stage instead."
+      },
+      "main_concept": "CON-DEV-E099FAA01BEAEB",
+      "concept_ids": [
+        "CON-DEV-E099FAA01BEAEB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fetal membranes",
+      "subtopic": "Chorionic villus types",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that a tertiary chorionic villus is trophoblast plus extraembryonic mesoderm carrying fetal blood vessels.",
+      "field_notes": {
+        "sourceQ": "Q63, answer key p.14 row 63 = e"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FETALMEMBRANES-Q63"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q62",
+      "page": 14,
+      "title": "Which statement about secondary villi is FALSE?",
+      "question": "As regards the secondary villi, all are true EXCEPT:",
+      "options": {
+        "A": "They contain cytotrophoblast.",
+        "B": "They contain syncytiotrophoblast.",
+        "C": "They do not contain fetal blood vessels.",
+        "D": "They contain a core of 2ry mesoderm.",
+        "E": "They are found in decidua basalis."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as an answer to this EXCEPT question -- secondary villi genuinely do retain a cytotrophoblastic core, inherited unchanged from the primary stage, so this statement is true and not the exception.",
+        "B": "Incorrect as an answer -- secondary villi genuinely do keep their syncytiotrophoblastic covering, so this statement is true and not the exception.",
+        "C": "Incorrect as an answer -- secondary villi genuinely lack fetal blood vessels, since vascularisation is exactly what turns a secondary villus into a tertiary one, so this statement is true and not the exception.",
+        "D": "Correct. This concept's own villus progression names the mesoderm that first invades the cytotrophoblastic core \"1ry (primary/extraembryonic) mesoderm,\" not \"2ry mesoderm\" -- there is no separate \"secondary mesoderm\" generation in this concept's terminology at all. This is the exact naming trap this concept's own pitfalls note warns about: it is tempting to assume \"secondary villus\" must contain \"secondary mesoderm\" by analogy, but the villus stage's own ordinal (primary/secondary/tertiary) does not match the mesoderm's own naming (which stays \"1ry\" throughout). Because every other statement about secondary villi in this list is genuinely true, this mismatched \"2ry mesoderm\" label is the one false statement, making it the correct answer to this EXCEPT question.",
+        "E": "Incorrect as an answer -- chorionic villi of all three types, including secondary, are found where the chorion faces the decidua, and villi anchored toward decidua basalis specifically persist to form the placenta, so this statement is true and not the exception."
+      },
+      "main_concept": "CON-DEV-E099FAA01BEAEB",
+      "concept_ids": [
+        "CON-DEV-E099FAA01BEAEB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fetal membranes",
+      "subtopic": "Chorionic villus types",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise that secondary villi contain 1ry (not '2ry') mesoderm, avoiding the ordinal-naming trap.",
+      "field_notes": {
+        "sourceQ": "Q62, answer key p.14 row 62 = d"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FETALMEMBRANES-Q62"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q7",
+      "page": 13,
+      "title": "What does the blastocoele become?",
+      "question": "The blastocoele becomes the:",
+      "options": {
+        "A": "Amniotic sac.",
+        "B": "Yolk sac.",
+        "C": "Extraembryonic coelom.",
+        "D": "Intraembryonic coelom.",
+        "E": "Chorionic cavity."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The amniotic cavity opens separately, within the remainder of the inner cell mass on day 8 -- it is a different space entirely, not a transformation of the blastocoele.",
+        "B": "Correct. On the ninth day, flat hypoblast-derived cells spread out to line the blastocele, forming a membrane (Heuser's membrane) -- once this lining is complete, the cavity it encloses is renamed the primary yolk sac. This is the very first step of a whole sequence this concept describes: the primary yolk sac is later replaced by a second, definitive yolk sac lined by a fresh wave of hypoblast cells, and this second sac in turn gives rise to the allantois and, after folding, the vitelline duct connecting to the midgut. Recognising that the blastocele does not simply vanish but is renamed and re-lined as the primary yolk sac is the anchor fact the rest of that sequence builds on.",
+        "C": "Incorrect. The extraembryonic coelom (chorionic cavity) forms later, around day 13, within the extraembryonic mesoderm -- a structurally different space that appears well after the blastocele has already become the yolk sac.",
+        "D": "Incorrect. The intraembryonic coelom is a much later cavity within the embryo's own lateral plate mesoderm, unrelated to the blastocele, which is an extraembryonic space from the very start.",
+        "E": "Incorrect. \"Chorionic cavity\" is another name for the extraembryonic coelom, which forms later and separately from the blastocele's own transformation into the yolk sac."
+      },
+      "main_concept": "CON-DEV-1D10DF3B716A70",
+      "concept_ids": [
+        "CON-DEV-1D10DF3B716A70"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fetal membranes",
+      "subtopic": "Yolk sac formation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the blastocoele becomes the primary yolk sac once Heuser's membrane lines it.",
+      "field_notes": {
+        "sourceQ": "Q7, answer key p.13 row 7 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-FETALMEMBRANES-Q7"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q8",
+      "hold": "duplicate of q61 (chorionic vesicle wall = cytotrophoblast + syncytiotrophoblast), same fact as the primary-villus composition"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q20",
+      "hold": "duplicate of q14 (secondary villus naming, 'invaded by mesoderm'), same fact from the naming angle rather than composition"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q22",
+      "hold": "duplicate of q63 (tertiary villus naming, 'becomes vascularized'), same fact from the naming angle rather than composition"
+    },
+    {
+      "key": "embryo2-deferred-fetalmembranes-q60",
+      "hold": "duplicate of q61/q63 combined, 'chorion consists of all of the above' is a less specific restatement of the same cyto/syncytiotrophoblast/mesoderm components"
+    }
+  ]
+}

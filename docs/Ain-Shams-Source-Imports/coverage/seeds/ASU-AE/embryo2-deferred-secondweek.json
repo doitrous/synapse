@@ -1,0 +1,228 @@
+{
+  "lane": "ASU-AE",
+  "cluster": "embryo2-deferred-secondweek",
+  "header": "ASU-AE \u00b7 Embryology, Embryo 2 deferred cluster \u2014 Second Week of Development block, authored from \"MCQs - Embryo 2.pdf\" (src_a7e3b821ab294015c05f) against Kasr 101-ISK concepts (live 2026-08-27). Pending-live overlay for the three target concepts is docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-embryology-overlay-concepts.md.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-AE",
+    "module_subject": "ASU-AE > Embryology > Questions > Embryo 2",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.4"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-ANA-CHORIONIC-VILLI-PLACENTA",
+      "ART-101-ANA-IMPLANTATION"
+    ],
+    "resource_ids": [
+      "src_a7e3b821ab294015c05f"
+    ],
+    "source_citation": "Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, \"MCQs - Embryo 2.pdf\" (Part 2), printed answer key p.{page}.",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "embryo2-deferred-secondweek-q4",
+      "page": 13,
+      "title": "When is implantation of the blastocyst completed?",
+      "question": "Implantation of blastocyst is completed in which post-fertilization day?",
+      "options": {
+        "A": "5th.",
+        "B": "7th.",
+        "C": "9th.",
+        "D": "11th.",
+        "E": "13th."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The fifth day is before implantation even begins -- it is the day the zona pellucida finishes degenerating around the already-arrived blastocyst, not a day within the implantation process itself.",
+        "B": "Incorrect. The seventh day is when implantation begins, with the blastocyst adhering by its embryonic pole and the trophoblast starting to split into cytotrophoblast and syncytiotrophoblast -- it is the start of the process, not its completion.",
+        "C": "Incorrect. By the ninth day the blastocyst is completely embedded and the breach in the surface epithelium is plugged by a fibrin clot, but the epithelium has not yet grown back over that clot -- that final step is what completion requires.",
+        "D": "Correct. This concept's own day-by-day timetable places implantation's start at adhesion on day 7 and its completion on days 11-12, when the endometrial epithelium has grown back over the fibrin clot that plugged the original breach, the lacunar spaces in the syncytiotrophoblast have filled with maternal blood to open the utero-placental circulation, and extra-embryonic mesoderm has appeared from the yolk sac wall. Day 11 is the specific day this concept and this exam bank both cite as when the epithelium re-seals over the implantation site, which is the defining event of \"completion\" as opposed to the earlier stages of adhesion, embedding and plugging. Confusing this day with day 7 (when implantation only begins) is the single most common error this pairing of questions is designed to catch.",
+        "E": "Incorrect. The thirteenth day belongs to a later step in this same timetable -- the chorionic cavity forming and primary chorionic villi beginning -- which happens after implantation is already complete, not at its completion."
+      },
+      "main_concept": "CON-DEV-22C6EB6EB88448",
+      "concept_ids": [
+        "CON-DEV-22C6EB6EB88448"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - second week",
+      "subtopic": "Implantation timetable",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that implantation is completed by the 11th post-fertilisation day, distinct from its day-7 start.",
+      "field_notes": {
+        "sourceQ": "Q4, answer key p.13 row 4 = d; options re-read by rendering the page at 300 DPI, OCR was unreadable"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-SECONDWEEK-Q4"
+    },
+    {
+      "key": "embryo2-deferred-secondweek-q43",
+      "page": 14,
+      "title": "When does implantation of the blastocyst begin?",
+      "question": "Implantation of blastocyst begins in which post-fertilization day?",
+      "options": {
+        "A": "5th.",
+        "B": "6th.",
+        "C": "9th.",
+        "D": "11th.",
+        "E": "13th."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The fifth day is when the zona pellucida finishes degenerating around the already-formed blastocyst -- a preparatory event, not the start of adhesion to the endometrium.",
+        "B": "Correct. This concept's own timetable places implantation's start at day 6 to 7, when the fully formed blastocyst first adheres to the endometrium by its embryonic pole and the trophoblast begins differentiating into an inner cytotrophoblast and an outer syncytiotrophoblast. This exam bank's own printed key places the beginning specifically on day 6, immediately after the zona pellucida has cleared on day 5, which fits neatly between the morula's day-4 arrival in the uterine cavity and completion of implantation around day 11. Distinguishing this \"begins\" question from its sibling \"is completed\" question (day 11) is exactly the kind of pairing this exam bank uses to test whether students know the whole timetable rather than one isolated day.",
+        "C": "Incorrect. The ninth day is well into the implantation process -- the blastocyst is already completely embedded and Heuser's membrane is forming -- not the day adhesion first begins.",
+        "D": "Incorrect. The eleventh day is when implantation is completed, with the endometrial epithelium closing back over the breach -- the end of the process, not its beginning.",
+        "E": "Incorrect. The thirteenth day belongs to a later step, chorionic cavity formation, well after implantation has both begun and been completed."
+      },
+      "main_concept": "CON-DEV-22C6EB6EB88448",
+      "concept_ids": [
+        "CON-DEV-22C6EB6EB88448"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - second week",
+      "subtopic": "Implantation timetable",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that implantation begins on about the 6th post-fertilisation day.",
+      "field_notes": {
+        "sourceQ": "Q43, answer key p.14 row 43 = b; options re-read by rendering the page at 300 DPI, OCR was unreadable"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-SECONDWEEK-Q43"
+    },
+    {
+      "key": "embryo2-deferred-secondweek-q68",
+      "page": 15,
+      "title": "What lines the extraembryonic coelom?",
+      "question": "The Extraembryonic coelom:",
+      "options": {
+        "A": "Lies between cytotrophoblast & syncytiotrophoblast.",
+        "B": "Is first formed in 3rd postnatal week.",
+        "C": "Is lined by extraembryonic mesoderm.",
+        "D": "Is obliterated by the expansion of the placenta.",
+        "E": "None of the above."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The extraembryonic coelom (chorionic cavity) forms within the extraembryonic mesoderm itself, once its own internal spaces run together on about day 13 -- it does not sit sandwiched between the two trophoblastic layers.",
+        "B": "Incorrect. This concept's own timetable places the extraembryonic coelom's formation on the thirteenth day after fertilisation, during the second week of prenatal, not postnatal, development -- by the third postnatal week the fetus has long been born.",
+        "C": "Correct. Once extra-embryonic mesoderm appears from the yolk sac wall on days 11-12, its own internal spaces run together into a single large cavity, the extraembryonic coelom (chorionic cavity), on day 13 -- so it is that same extra-embryonic mesoderm, now split into an outer somatic and an inner splanchnic layer, that lines the coelom on both sides. This lining relationship is what lets the coelom later be compressed almost to nothing as the amnion expands to fill the chorionic cavity, since the somatic mesoderm lining its outer wall stays applied to the chorion. Naming extraembryonic mesoderm as the lining, rather than the trophoblast or endoderm, is the specific fact this row is testing.",
+        "D": "Incorrect. It is the amnion's own expansion late in gestation, not the placenta's expansion, that progressively obliterates the extraembryonic (chorionic) cavity by filling it.",
+        "E": "Incorrect as an answer -- option C is a correct, defensible statement about the extraembryonic coelom, so \"none of the above\" cannot be right."
+      },
+      "main_concept": "CON-DEV-22C6EB6EB88448",
+      "concept_ids": [
+        "CON-DEV-22C6EB6EB88448"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - second week",
+      "subtopic": "Extraembryonic coelom",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the extraembryonic coelom is lined by extraembryonic mesoderm, formed on about day 13.",
+      "field_notes": {
+        "sourceQ": "Q68, answer key p.15 row 68 = c"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-SECONDWEEK-Q68"
+    },
+    {
+      "key": "embryo2-deferred-secondweek-q44",
+      "page": 14,
+      "title": "What is the normal site for implantation?",
+      "question": "The normal site for implantation is:",
+      "options": {
+        "A": "Cervix of uterus.",
+        "B": "Anterior wall of body of uterus.",
+        "C": "Posterior wall of body of uterus.",
+        "D": "Lower part of uterus.",
+        "E": "Surface of ovary."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Implantation in the cervix is a rare and dangerous form of ectopic pregnancy, not the normal site -- the normal site is well up in the body of the uterus, not the cervix.",
+        "B": "Incorrect. This concept explicitly ranks the anterior wall as the less common of the two normal sites -- normal implantation happens more often in the posterior wall, with the anterior wall as the secondary alternative.",
+        "C": "Correct. This concept states that implantation happens normally in the endometrium of the upper part of the posterior wall of the uterus, just below the fundus, and less often in the upper anterior wall -- at a time when the endometrium is in its secretory phase, thickened, with secretion-filled glands and spiral arteries ready to support the conceptus. This posterior-wall preference is a specific, testable fact distinct from the general \"body of the uterus\" answer, and distinguishing it from the rarer anterior-wall site or from abnormal sites (cervix, lower segment, ovary) is exactly what this row is checking.",
+        "D": "Incorrect. Implantation in the lower part of the uterus is placenta praevia, an abnormal site tested elsewhere in this same paper -- the normal site is high up, near the fundus, not low in the uterus.",
+        "E": "Incorrect. Implantation on the surface of the ovary is ovarian ectopic pregnancy, an abnormal, extrauterine site -- the normal site is inside the uterine cavity's own wall."
+      },
+      "main_concept": "CON-DEV-E08715FEB6438D",
+      "concept_ids": [
+        "CON-DEV-E08715FEB6438D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - second week",
+      "subtopic": "Normal implantation site",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State that the normal implantation site is the upper posterior wall of the uterine body.",
+      "field_notes": {
+        "sourceQ": "Q44, answer key p.14 row 44 = c"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-SECONDWEEK-Q44"
+    },
+    {
+      "key": "embryo2-deferred-secondweek-q67",
+      "page": 15,
+      "title": "What are the first two intraembryonic germ layers?",
+      "question": "The first 2 intraembryonic germ layers that differentiate are:",
+      "options": {
+        "A": "Ectoderm & endoderm.",
+        "B": "Epiblast & hypoblast.",
+        "C": "Ectoderm & mesoderm.",
+        "D": "Ectoderm & hypoblast.",
+        "E": "Endoderm & epiblast."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ectoderm and endoderm are two of the three germ layers of the trilaminar disc, formed during gastrulation in the third week -- these are later derivatives of the epiblast, not the first bilaminar-disc layers themselves.",
+        "B": "Correct. On the eighth day, the embryoblast splits into two layers: the hypoblast, cuboidal cells facing the blastocele, and the epiblast, taller columnar cells forming the floor of the newly opened amniotic cavity -- together these make up the bilaminar embryonic disc, and they are the first two germ-layer-precursor populations to differentiate in the embryo. This matters because the epiblast, not the hypoblast, is the layer that goes on to give rise to all three germ layers of the trilaminar disc the following week (ectoderm, intraembryonic mesoderm and endoderm), while the hypoblast is simply displaced rather than converted into any of them. Naming epiblast and hypoblast correctly as the *first* pair, distinct from the *three* germ layers that come later, is the specific distinction this row tests.",
+        "C": "Incorrect. Ectoderm and mesoderm are two of the three later trilaminar-disc germ layers, both ultimately derived from the epiblast during gastrulation -- they are not the first bilaminar-disc layers.",
+        "D": "Incorrect. This mixes one bilaminar-disc layer (ectoderm, actually a later trilaminar-disc derivative) with one true bilaminar-disc layer (hypoblast), which is not a matched pair from either stage.",
+        "E": "Incorrect. This pairs a later trilaminar-disc layer (endoderm) with a true bilaminar-disc layer (epiblast), again mixing stages rather than naming the correct first pair."
+      },
+      "main_concept": "CON-DEV-59DB99C028C33F",
+      "concept_ids": [
+        "CON-DEV-59DB99C028C33F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - second week",
+      "subtopic": "Bilaminar embryonic disc",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name epiblast and hypoblast as the first two intraembryonic layers, distinct from the three later germ layers.",
+      "field_notes": {
+        "sourceQ": "Q67, answer key p.15 row 67 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-SECONDWEEK-Q67"
+    },
+    {
+      "key": "embryo2-deferred-secondweek-q58",
+      "hold": "duplicate of q43 (implantation begins day 6), phrased as 'six days between fertilisation and starting implantation'"
+    },
+    {
+      "key": "embryo2-deferred-secondweek-q69",
+      "hold": "printed key (d, 'during 1st week after fertilization') conflicts with this concept's own timeline, which places amniotic-cavity formation on day 8 \u2014 conventionally the first day of the second week \u2014 so the key was judged indefensible per distractor and held rather than authored against it"
+    }
+  ]
+}

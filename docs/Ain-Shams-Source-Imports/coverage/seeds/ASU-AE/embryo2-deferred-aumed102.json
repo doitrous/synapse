@@ -1,0 +1,175 @@
+{
+  "lane": "ASU-AE",
+  "cluster": "embryo2-deferred-aumed102",
+  "header": "ASU-AE \u00b7 Embryology, Embryo 2 deferred cluster \u2014 zona reaction / sperm capacitation block, authored from \"MCQs - Embryo 2.pdf\" (src_a7e3b821ab294015c05f) against Alexandria AU-MED-102 embryology concepts (live 2026-08-27). Pending-live overlay for the two target concepts is docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-embryology-overlay-concepts.md.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-AE",
+    "module_subject": "ASU-AE > Embryology > Questions > Embryo 2",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.35"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-AU-MED-102-EMBR-FERTILIZATION"
+    ],
+    "resource_ids": [
+      "src_a7e3b821ab294015c05f"
+    ],
+    "source_citation": "Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, \"MCQs - Embryo 2.pdf\" (Part 2), printed answer key p.{page}.",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "embryo2-deferred-aumed102-q29",
+      "page": 14,
+      "title": "What does the zona reaction achieve?",
+      "question": "What is the result of the zona reaction (cortical reaction)?",
+      "options": {
+        "A": "The corona radiata is formed.",
+        "B": "The zona pellucida is formed.",
+        "C": "Sperms can now enter the egg.",
+        "D": "Acrosomes are removed.",
+        "E": "Sperms can no longer enter the egg."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The corona radiata is formed around the oocyte much earlier, during follicular development in the ovary, from follicular cells held together by hyaluronic acid -- the zona reaction happens afterward, at fertilisation, and does not form the corona radiata.",
+        "B": "Incorrect. The zona pellucida itself is already present around the oocyte before fertilisation -- the zona *reaction* is a chemical change in that already-existing coat, triggered by the first sperm's entry, not the formation of the coat itself.",
+        "C": "Incorrect. This is the opposite of what the zona reaction does -- rather than opening the door to more sperm, it closes it, which is exactly the point of the mechanism.",
+        "D": "Incorrect. Acrosomal enzyme release happens on the sperm's own side during the acrosome reaction, which lets a single sperm penetrate the corona radiata and zona -- it is not what the *zona's* own cortical-granule-driven reaction does in response.",
+        "E": "Correct. Once the first sperm fuses with the oocyte's plasma membrane, cortical granules beneath that membrane release their contents, chemically altering the zona pellucida's structure -- this is the zona reaction (cortical reaction), and its result is that the altered zona can no longer be penetrated by any further sperm. This is the specific mechanism that blocks polyspermy: fertilisation by more than one sperm, which would leave the zygote with the wrong chromosome number and is normally lethal to the embryo. Naming the *result* (sperm can no longer enter) rather than the *trigger* (first sperm's entry) or an unrelated event (corona radiata formation) is exactly what this row is testing."
+      },
+      "main_concept": "CON-DEV-642BA9E28AC8B6",
+      "concept_ids": [
+        "CON-DEV-642BA9E28AC8B6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fertilisation",
+      "subtopic": "Zona reaction / block to polyspermy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the zona reaction blocks further sperm penetration, preventing polyspermy.",
+      "field_notes": {
+        "sourceQ": "Q29, answer key p.14 row 29 = e"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-AUMED102-Q29"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q18",
+      "page": 14,
+      "title": "Where does sperm capacitation take place?",
+      "question": "The process of sperm capacitation takes place within the:",
+      "options": {
+        "A": "Testes.",
+        "B": "Male urethra.",
+        "C": "Female genital tract.",
+        "D": "Ovum.",
+        "E": "Embryo."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The testes are where spermatogenesis, not capacitation, happens -- sperm leave the testes already fully formed but still coated with the glycoproteins that capacitation later removes.",
+        "B": "Incorrect. The male urethra is simply the passage sperm travel through at ejaculation -- capacitation is a change that happens afterward, once the sperm are inside the female tract, not while still in the male's own duct system.",
+        "C": "Correct. Capacitation is the removal of the glycoprotein coat and seminal plasma proteins from the plasma membrane overlying the sperm's acrosomal region, and this stripping happens only after ejaculation, as the sperm travels through the female genital tract. Only a capacitated sperm can go on to bind zona pellucida receptors and undergo the acrosome reaction, so this step is a required gatekeeper before fertilisation can occur at all -- a freshly ejaculated, uncapacitated sperm cannot fertilise an oocyte even if it reaches one. This female-tract location, rather than anywhere in the male reproductive system, is the specific fact this row and its sibling question (Q65, on capacitation's necessity) both test.",
+        "D": "Incorrect. The ovum (strictly, the oocyte before fertilisation) is not itself a site where anything happens to the sperm -- capacitation is a change to the sperm's own surface, occurring in the surrounding female tract, not something the oocyte does or a location inside it.",
+        "E": "Incorrect. There is no embryo yet at the point capacitation occurs -- capacitation happens before fertilisation, and the embryo does not exist until after the sperm and oocyte have already fused."
+      },
+      "main_concept": "CON-DEV-CA422E559742A2",
+      "concept_ids": [
+        "CON-DEV-CA422E559742A2"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - fertilisation",
+      "subtopic": "Sperm capacitation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that sperm capacitation occurs within the female genital tract, after ejaculation.",
+      "field_notes": {
+        "sourceQ": "Q18, answer key p.14 row 18 = c; options re-read by rendering the page at 300 DPI, OCR was unreliable"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-AUMED102-Q18"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q65",
+      "page": 15,
+      "title": "Which statement about sperm capacitation is correct?",
+      "question": "As regards sperm capacitation, choose the CORRECT statement:",
+      "options": {
+        "A": "Occurs in male just before ejaculation.",
+        "B": "Is essential for fertilization.",
+        "C": "Is caused by zona pellucida.",
+        "D": "Prevents entrance of more than one sperm to oocyte.",
+        "E": "Removes the head of the sperm."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Capacitation happens after ejaculation, inside the female genital tract, not beforehand in the male -- the sperm is still coated with glycoproteins and seminal plasma proteins right up until ejaculation.",
+        "B": "Correct. This concept states that capacitation is a prerequisite for the acrosome reaction -- only a capacitated sperm can bind zona pellucida receptors and undergo acrosomal exocytosis to penetrate the corona radiata and zona pellucida, so without capacitation a sperm simply cannot fertilise an oocyte at all, however normal it otherwise looks. This is what makes capacitation clinically relevant too: sperm used for in-vitro fertilisation must be capacitated in the laboratory (mimicking the female tract's own effect) before they are capable of fertilising a retrieved oocyte. Confusing capacitation's own role (stripping the surface coat, enabling the later acrosome reaction) with the acrosome reaction itself is the specific trap this concept's own pitfall note names, and this option is testing that capacitation's necessity is what should be recognised as correct, not any of the other listed claims.",
+        "C": "Incorrect. Capacitation is not caused by the zona pellucida -- it is caused by exposure to secretions of the female genital tract, and it must already be complete before the sperm ever binds zona pellucida receptors.",
+        "D": "Incorrect. Preventing entry of more than one sperm is the role of the zona reaction (cortical reaction) on the oocyte's own side, not sperm capacitation -- these are two separate mechanisms tested elsewhere in this same paper.",
+        "E": "Incorrect. Capacitation removes surface glycoproteins from the sperm's plasma membrane; it does not remove or alter the sperm head itself, which remains intact until the acrosome reaction later releases its enzyme contents."
+      },
+      "main_concept": "CON-DEV-CA422E559742A2",
+      "concept_ids": [
+        "CON-DEV-CA422E559742A2"
+      ],
+      "contextual_concept_ids": [
+        "CON-DEV-642BA9E28AC8B6"
+      ],
+      "topic": "Embryology - fertilisation",
+      "subtopic": "Sperm capacitation",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that capacitation is essential for fertilisation, distinguishing it from the zona reaction and the acrosome reaction.",
+      "field_notes": {
+        "sourceQ": "Q65, answer key p.15 row 65 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-AUMED102-Q65"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q3",
+      "hold": "duplicate of q29 (zona reaction blocks polyspermy); Q3 also uses this source's own non-standard 'vitelline membrane' label for the same barrier, which the live concept does not use"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q19",
+      "hold": "duplicate of q29 \u2014 same zona-reaction/no-further-sperm-entry fact, different stem wording"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q41",
+      "hold": "duplicate of q29 \u2014 same zona-reaction fact, different stem wording"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q54",
+      "hold": "duplicate of q29 \u2014 same zona-reaction fact, different stem wording"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q21",
+      "hold": "duplicate of q18 (capacitation site); Q21's own printed key narrows the site to 'uterus' specifically rather than 'female genital tract', an inconsistency within this same paper's own four capacitation-site rows \u2014 q18's cleaner, majority-consistent wording was kept instead"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q28",
+      "hold": "duplicate of q18 \u2014 same capacitation-site fact, different stem wording"
+    },
+    {
+      "key": "embryo2-deferred-aumed102-q33",
+      "hold": "duplicate of q18 \u2014 same capacitation-site fact, different stem wording"
+    }
+  ]
+}

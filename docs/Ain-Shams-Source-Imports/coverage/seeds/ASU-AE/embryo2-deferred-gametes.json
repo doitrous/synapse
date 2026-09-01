@@ -1,0 +1,113 @@
+{
+  "lane": "ASU-AE",
+  "cluster": "embryo2-deferred-gametes",
+  "header": "ASU-AE \u00b7 Embryology, Embryo 2 deferred cluster \u2014 Gametes block, authored from \"MCQs - Embryo 2.pdf\" (src_a7e3b821ab294015c05f) against Kasr 101-ISK concept CON-DEV-0BA870DF2C2E13 (live 2026-08-27). Pending-live overlay is docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-embryology-overlay-concepts.md.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-AE",
+    "module_subject": "ASU-AE > Embryology > Questions > Embryo 2",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.4"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-ANA-GAMETES",
+      "ART-101-HIS-NUCLEUS"
+    ],
+    "resource_ids": [
+      "src_a7e3b821ab294015c05f"
+    ],
+    "source_citation": "Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, \"MCQs - Embryo 2.pdf\" (Part 2), printed answer key p.{page}.",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "embryo2-deferred-gametes-q9",
+      "page": 13,
+      "title": "Which cell is fertilised by the sperm?",
+      "question": "The cell that is fertilized by the sperm is the:",
+      "options": {
+        "A": "Primary oocyte.",
+        "B": "Secondary oocyte.",
+        "C": "Mature ovum.",
+        "D": "First polar body.",
+        "E": "Second polar body."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The primary oocyte completes its first meiotic division at ovulation, becoming a secondary oocyte before it is ever exposed to sperm -- the primary oocyte itself is never the cell that gets fertilised.",
+        "B": "Correct. Oogenesis is arrested in metaphase of the second meiotic division at ovulation, so the cell released from the ovary and picked up by the uterine tube is a secondary oocyte, carrying 22 autosomes and a single X chromosome -- it is this secondary oocyte, not a fully mature ovum, that the sperm fuses with in the ampulla. Sperm entry is exactly what triggers the secondary oocyte to complete its stalled second meiotic division, extruding the second polar body and only then becoming a mature ovum pronucleus that combines with the sperm's own pronucleus to form the zygote. This sequencing -- fertilisation triggers the completion of meiosis II, rather than meiosis II finishing beforehand -- is the key distinction this row and this concept's own definition are testing.",
+        "C": "Incorrect. A \"mature ovum\" in the strict sense only exists after the second meiotic division is complete, which happens as a *consequence* of fertilisation, not as the cell that is fertilised in the first place.",
+        "D": "Incorrect. The first polar body is a byproduct of the first meiotic division, extruded before ovulation -- it plays no further role and is never the cell fertilised.",
+        "E": "Incorrect. The second polar body is only extruded once fertilisation has already triggered completion of the second meiotic division -- it is a byproduct that appears *after* fertilisation, not the cell being fertilised."
+      },
+      "main_concept": "CON-DEV-0BA870DF2C2E13",
+      "concept_ids": [
+        "CON-DEV-0BA870DF2C2E13"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - gametes",
+      "subtopic": "Oocyte maturation and fertilisation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the sperm fertilises a secondary oocyte, which then completes meiosis II as a result.",
+      "field_notes": {
+        "sourceQ": "Q9, answer key p.13 row 9 = b"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-GAMETES-Q9"
+    },
+    {
+      "key": "embryo2-deferred-gametes-q40",
+      "page": 14,
+      "title": "When is the sex of the embryo determined?",
+      "question": "The sex of the embryo is determined at",
+      "options": {
+        "A": "Fertilization.",
+        "B": "Spermatogenesis.",
+        "C": "Ovulation.",
+        "D": "Development of gonads.",
+        "E": "Development of external genitalia."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This concept's own definition states that the secondary oocyte's nucleus always carries 22 autosomes plus a single X chromosome, with no alternative -- so it is entirely the fertilising sperm, carrying either an X or a Y chromosome, that decides whether the resulting zygote is chromosomally XX or XY. The moment sperm and oocyte nuclei combine at fertilisation is therefore the moment the embryo's genetic (chromosomal) sex is fixed, even though the gonads and external genitalia that later reveal that sex outwardly do not develop until weeks afterward. This concept's own pitfall note flags the common error of thinking the oocyte can somehow determine sex too -- it cannot, because its nucleus only ever carries an X.",
+        "B": "Incorrect. Spermatogenesis is the process that produces X-bearing and Y-bearing sperm in the first place, but it happens in the father well before fertilisation -- it sets up the possibility of either sex, without itself being the moment any one embryo's sex is fixed.",
+        "C": "Incorrect. Ovulation releases the secondary oocyte, whose nucleus can only ever carry an X chromosome -- ovulation cannot determine sex because it offers no X-versus-Y choice at all; that choice belongs to the sperm.",
+        "D": "Incorrect. Gonadal development happens weeks after fertilisation and simply reads out the chromosomal sex that was already fixed at fertilisation -- it does not determine sex itself.",
+        "E": "Incorrect. External genitalia develop even later than the gonads, under hormonal influence from the already-determined gonads -- this is the visible endpoint of sex determination, not the moment it happens."
+      },
+      "main_concept": "CON-DEV-0BA870DF2C2E13",
+      "concept_ids": [
+        "CON-DEV-0BA870DF2C2E13"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - gametes",
+      "subtopic": "Chromosomal sex determination",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that chromosomal sex is fixed at fertilisation, by whether the fertilising sperm carries X or Y.",
+      "field_notes": {
+        "sourceQ": "Q40, answer key p.14 row 40 = a"
+      },
+      "id": "QST-ASUAE-EMBRYO2-DEFERRED-GAMETES-Q40"
+    },
+    {
+      "key": "embryo2-deferred-gametes-q55",
+      "hold": "duplicate of q40 (chromosomal sex determined at fertilisation), different stem wording, same key"
+    }
+  ]
+}

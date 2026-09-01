@@ -1,0 +1,58 @@
+# ASU-AE triage keys — Embryo 2 deferred cluster (47 rows, "MCQs - Embryo 2.pdf")
+# One key per printed row that was deferred pending the Kasr 101-ISK / AU-MED-102
+# embryology import (docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-EMBRYO2-deferred-pending-concepts.md).
+# Cluster prefix (before the trailing -qNN) must match each seed's own top-level
+# "cluster" field in coverage/seeds/ASU-AE/ for ledger.mjs's remaining-count to line up.
+# 25 authored, 22 held (all resolved this pass — see the seeds' own "hold" rows).
+
+embryo2-deferred-firstweek-q42
+embryo2-deferred-firstweek-q56
+embryo2-deferred-firstweek-q38
+embryo2-deferred-firstweek-q53
+embryo2-deferred-firstweek-q37
+embryo2-deferred-firstweek-q64
+embryo2-deferred-firstweek-q30
+embryo2-deferred-firstweek-q39
+embryo2-deferred-firstweek-q57
+embryo2-deferred-firstweek-q12
+embryo2-deferred-firstweek-q15
+embryo2-deferred-firstweek-q66
+embryo2-deferred-firstweek-q59
+embryo2-deferred-firstweek-q2
+embryo2-deferred-firstweek-q10
+embryo2-deferred-firstweek-q51
+embryo2-deferred-firstweek-q32
+
+embryo2-deferred-secondweek-q4
+embryo2-deferred-secondweek-q43
+embryo2-deferred-secondweek-q58
+embryo2-deferred-secondweek-q68
+embryo2-deferred-secondweek-q44
+embryo2-deferred-secondweek-q67
+embryo2-deferred-secondweek-q69
+
+embryo2-deferred-gametes-q9
+embryo2-deferred-gametes-q40
+embryo2-deferred-gametes-q55
+
+embryo2-deferred-fetalmembranes-q11
+embryo2-deferred-fetalmembranes-q61
+embryo2-deferred-fetalmembranes-q8
+embryo2-deferred-fetalmembranes-q14
+embryo2-deferred-fetalmembranes-q20
+embryo2-deferred-fetalmembranes-q22
+embryo2-deferred-fetalmembranes-q63
+embryo2-deferred-fetalmembranes-q62
+embryo2-deferred-fetalmembranes-q60
+embryo2-deferred-fetalmembranes-q7
+
+embryo2-deferred-aumed102-q29
+embryo2-deferred-aumed102-q3
+embryo2-deferred-aumed102-q19
+embryo2-deferred-aumed102-q41
+embryo2-deferred-aumed102-q54
+embryo2-deferred-aumed102-q18
+embryo2-deferred-aumed102-q21
+embryo2-deferred-aumed102-q28
+embryo2-deferred-aumed102-q33
+embryo2-deferred-aumed102-q65
