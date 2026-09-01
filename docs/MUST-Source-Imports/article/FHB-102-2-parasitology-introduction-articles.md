@@ -1855,3 +1855,815 @@ reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
 relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## title
+Cutaneous myiasis and Dermatobia phoresis
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Cutaneous myiasis
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Cutaneous myiasis
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Cutaneous myiasis
+
+## summary
+Cordylobia, Dermatobia and Hypoderma can cause cutaneous myiasis. Dermatobia hominis reaches the host by attaching its eggs to another insect that carries them.
+
+## sections
+### Definition
+Cutaneous myiasis is skin infestation by fly larvae. Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+
+### Mechanism
+Dermatobia hominis uses another insect to carry and deliver its eggs. This phoresis attaches eggs to another insect, which carries them to the human host; the mechanism is therefore insect carriage rather than direct deposition of Dermatobia eggs on skin.
+
+### Key determinants
+Cordylobia, Dermatobia and Hypoderma are all represented in the local cutaneous-myiasis teaching. A question offering the three separately and an all-of-the-above option selects all three. For Dermatobia transmission, the decisive clue is another insect carrying its eggs.
+
+### Clinical significance
+Recognising the causative genera and the phoretic transfer mechanism helps connect cutaneous lesions with fly exposure in the local myiasis framework.
+
+### Common misconceptions
+Do not restrict cutaneous myiasis to only one of the three governed genera. Do not rewrite phoresis as ingestion, water deposition or direct Dermatobia egg deposition on skin.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
+## lose_the_mark
+All three offered genera are associated with cutaneous myiasis in the governed teaching; do not exclude two by selecting only one.
+The governed mechanism is insect carriage, not direct skin deposition, larval ingestion or deposition in water.
+
+## callout_evidence
+### Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q47-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q47-01
+Reviewed by: pending medical review
+
+### Dermatobia hominis uses another insect to carry and deliver its eggs.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q48-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q48-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-0A47C19D5E2B84
+CON-INF-1B48D20E6F3C95
+
+## related_articles
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q47
+QST-MUST-FHB1022-PARA-INTRO-Q48
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q47-01
+CLM-INF-MUST-FHB1022-INTRO-Q48-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q47-01
+SPN-INF-MUST-FHB1022-INTRO-Q48-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-0A47C19D5E2B84
+Quote: Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+Block: body
+Id: ann-must-fhb1022-intro-q47
+
+### definition_of · CON-INF-1B48D20E6F3C95
+Quote: Dermatobia hominis uses another insect to carry and deliver its eggs.
+Block: body
+Id: ann-must-fhb1022-intro-q48
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## title
+Clinical-site patterns of myiasis
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Clinical myiasis
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Clinical myiasis
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Clinical myiasis
+
+## summary
+Clinical myiasis is classified by involved site. Fannia is associated with urogenital myiasis, while Sarcophaga is associated with aural myiasis in the local curriculum.
+
+## sections
+### Definition
+Clinical myiasis may be classified by the body site involved. Urogenital and aural myiasis are two site-specific patterns in the governed teaching.
+
+### Mechanism
+Fannia is associated with urogenital myiasis. Sarcophaga is associated with aural myiasis in the local curriculum. These are source-specific organism–site associations rather than a claim that either fly is restricted to one clinical presentation.
+
+### Key determinants
+Urogenital selects Fannia among the offered flies. Aural selects Sarcophaga among the offered alternatives.
+
+### Clinical significance
+Site and fly association together organise recognition of myiasis presentations and connect specimen context with the broader wound-myiasis and prevention material.
+
+### Common misconceptions
+Do not substitute a manifestation-only definition for an organism association. Do not infer that a fly listed at one site can never occur elsewhere.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Fannia is associated with urogenital myiasis.
+Sarcophaga is associated with aural myiasis in the local curriculum.
+
+## lose_the_mark
+The governed site-specific association selects Fannia rather than Sarcophaga, Musca domestica or Cordylobia.
+The local site-specific association selects Sarcophaga, not the mosquito Anopheles, Calliphora or Stomoxys.
+
+## callout_evidence
+### Fannia is associated with urogenital myiasis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q51-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q51-01
+Reviewed by: pending medical review
+
+### Sarcophaga is associated with aural myiasis in the local curriculum.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q52-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q52-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-3D51F420815EB7
+CON-INF-4E52A531926FC8
+
+## related_articles
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS: Cutaneous myiasis and Dermatobia phoresis
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION: Myiasis therapy and prevention
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS: Sarcophaga identification in traumatic wound myiasis
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q51
+QST-MUST-FHB1022-PARA-INTRO-Q52
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q51-01
+CLM-INF-MUST-FHB1022-INTRO-Q52-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q51-01
+SPN-INF-MUST-FHB1022-INTRO-Q52-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-3D51F420815EB7
+Quote: Fannia is associated with urogenital myiasis.
+Block: body
+Id: ann-must-fhb1022-intro-q51
+
+### definition_of · CON-INF-4E52A531926FC8
+Quote: Sarcophaga is associated with aural myiasis in the local curriculum.
+Block: body
+Id: ann-must-fhb1022-intro-q52
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS
+
+## title
+Forensic use of myiasis-associated flies
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Forensic entomology
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Forensic entomology
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Forensic entomology
+
+## summary
+Lucilia and Sarcophaga are used in forensic parasitology and entomology. Their evidence can help estimate the post-mortem interval or time since death.
+
+## sections
+### Definition
+Forensic entomology applies insect evidence to legal investigation. Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+
+### Mechanism
+Forensic entomology can estimate the post-mortem interval from fly evidence. Fly colonisation and larval evidence can be related to decomposition timing, allowing estimation of time since death.
+
+### Key determinants
+Both Lucilia and Sarcophaga are supported when offered together. Determining the post-mortem interval is the forensic application supported by the deck.
+
+### Clinical significance
+The time relationship between flies and decomposing remains can contribute evidence in a criminal investigation without replacing the broader forensic examination.
+
+### Common misconceptions
+The source stem calls Lucilia and Sarcophaga “species,” although both offered names are genera; that wording is preserved and disclosed rather than silently corrected. Do not conflate fly-based interval estimation with rigor-mortis estimation, blood toxicology or infection diagnosis.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+Forensic entomology can estimate the post-mortem interval from fly evidence.
+
+## lose_the_mark
+Both Lucilia and Sarcophaga are supported. The source calls them “species” in the stem although the offered names are genera; preserve that wording without changing the answer.
+The governed application is time-since-death estimation, not blood toxicology, malaria diagnosis or bacterial wound detection.
+
+## callout_evidence
+### Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q53-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q53-01
+Reviewed by: pending medical review
+
+### Forensic entomology can estimate the post-mortem interval from fly evidence.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q58-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q58-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-5F53B642A370D9
+CON-INF-9358FA86E7B41D
+
+## related_articles
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION: Myiasis therapy and prevention
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS: Sarcophaga identification in traumatic wound myiasis
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q53
+QST-MUST-FHB1022-PARA-INTRO-Q58
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q53-01
+CLM-INF-MUST-FHB1022-INTRO-Q58-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q53-01
+SPN-INF-MUST-FHB1022-INTRO-Q58-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-5F53B642A370D9
+Quote: Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+Block: body
+Id: ann-must-fhb1022-intro-q53
+
+### definition_of · CON-INF-9358FA86E7B41D
+Quote: Forensic entomology can estimate the post-mortem interval from fly evidence.
+Block: body
+Id: ann-must-fhb1022-intro-q58
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+
+## title
+Myiasis therapy and prevention
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Myiasis management
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Myiasis management
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Myiasis management
+
+## summary
+Maggot debridement therapy is used for diabetic foot ulcers. Proper wound hygiene, cleaning and protective dressing help prevent myiasis.
+
+## sections
+### Definition
+The local curriculum presents a therapeutic use of selected larvae and practical prevention of unwanted myiasis.
+
+### Mechanism
+Maggot debridement therapy is used to treat diabetic foot ulcers. Proper wound hygiene and covering a clean wound help prevent myiasis. Prevention includes cleaning a wound and closing it with surgical dressing, which limits exposure to flies.
+
+### Key determinants
+The source's literal option “Diabetes foot ulcers” corresponds to the deck's diabetic-foot use of maggot debridement therapy. Proper wound hygiene is the preventive action among the offered choices.
+
+### Clinical significance
+The paired teaching distinguishes controlled therapeutic larval use from accidental wound infestation and links prevention to direct wound care.
+
+### Common misconceptions
+Do not silently rewrite the source's “Diabetes foot ulcers” wording. Keeping flies, increasing humidity and avoiding antibiotics are not substitutes for cleaning and protecting a wound.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Maggot debridement therapy is used to treat diabetic foot ulcers.
+Proper wound hygiene and covering a clean wound help prevent myiasis.
+
+## lose_the_mark
+The governed therapeutic use is diabetic foot wound debridement, not tuberculosis, malaria or pneumonia.
+Keeping flies, increasing indoor humidity and avoiding antibiotics are not the wound-protection measure taught in the governed deck.
+
+## callout_evidence
+### Maggot debridement therapy is used to treat diabetic foot ulcers.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q54-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q54-01
+Reviewed by: pending medical review
+
+### Proper wound hygiene and covering a clean wound help prevent myiasis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q57-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q57-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-6054C753B481EA
+CON-INF-8257E975D6A30C
+
+## related_articles
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS: Forensic use of myiasis-associated flies
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q54
+QST-MUST-FHB1022-PARA-INTRO-Q57
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_2c1e04372fbb8b2607f7
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q54-01
+CLM-INF-MUST-FHB1022-INTRO-Q57-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q54-01
+SPN-INF-MUST-FHB1022-INTRO-Q57-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-6054C753B481EA
+Quote: Maggot debridement therapy is used to treat diabetic foot ulcers.
+Block: body
+Id: ann-must-fhb1022-intro-q54
+
+### definition_of · CON-INF-8257E975D6A30C
+Quote: Proper wound hygiene and covering a clean wound help prevent myiasis.
+Block: body
+Id: ann-must-fhb1022-intro-q57
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.

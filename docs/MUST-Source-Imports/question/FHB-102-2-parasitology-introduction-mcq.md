@@ -3037,3 +3037,1523 @@ yes
 
 ## author_notes
 Printed source key: Arthropoda Q14 (global Q44) = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q47
+
+## title
+Which of the following causes cutaneous myiasis:
+
+## question
+Which of the following causes cutaneous myiasis:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Cordylobia
+
+## explanation_a
+Incorrect. All three offered genera are associated with cutaneous myiasis in the governed teaching; do not exclude two by selecting only one. The supported answer is D, All of the above.
+
+## answer_b
+Dermatobia
+
+## explanation_b
+Incorrect. All three offered genera are associated with cutaneous myiasis in the governed teaching; do not exclude two by selecting only one. The supported answer is D, All of the above.
+
+## answer_c
+Hypoderma
+
+## explanation_c
+Incorrect. All three offered genera are associated with cutaneous myiasis in the governed teaching; do not exclude two by selecting only one. The supported answer is D, All of the above.
+
+## answer_d
+All of the above
+
+## explanation_d
+Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis. The governed university slide directly supports All of the above for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-0A47C19D5E2B84
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Cutaneous myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Recognise Cordylobia, Dermatobia and Hypoderma as causes of cutaneous myiasis.
+
+## source_citation
+Absalam101 Part 1, p14 Arthropoda Q17 (global Q47), printed key p18 (17 = D); MUST FHB102-2 Flies and Myiasis, p37, 42 and 46.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q17 (global Q47) = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q48
+
+## title
+Which method is used by Dermatobia hominis (human botfly) for transmission?
+
+## question
+Which method is used by Dermatobia hominis (human botfly) for transmission?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Direct deposition of eggs on the skin
+
+## explanation_a
+Incorrect. The governed mechanism is insect carriage, not direct skin deposition, larval ingestion or deposition in water. The supported answer is B, It uses another insect to carry eggs.
+
+## answer_b
+It uses another insect to carry eggs
+
+## explanation_b
+Dermatobia hominis uses another insect to carry and deliver its eggs. The governed university slide directly supports It uses another insect to carry eggs for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Ingestion of larvae
+
+## explanation_c
+Incorrect. The governed mechanism is insect carriage, not direct skin deposition, larval ingestion or deposition in water. The supported answer is B, It uses another insect to carry eggs.
+
+## answer_d
+Deposition in water sources
+
+## explanation_d
+Incorrect. The governed mechanism is insect carriage, not direct skin deposition, larval ingestion or deposition in water. The supported answer is B, It uses another insect to carry eggs.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-1B48D20E6F3C95
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Cutaneous myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify carriage by another insect as the Dermatobia transmission method.
+
+## source_citation
+Absalam101 Part 1, p14 Arthropoda Q18 (global Q48), printed key p18 (18 = B); MUST FHB102-2 Flies and Myiasis, p37–38.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q18 (global Q48) = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q49
+
+## title
+Which fly family is responsible for wound myiasis?
+
+## question
+Which fly family is responsible for wound myiasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Sarcophagidae
+
+## explanation_a
+Incorrect. Both A and B are supported; Glossinidae is not presented as a wound-myiasis family in the governed comparison. The supported answer is D, A & B.
+
+## answer_b
+Calliphoridae
+
+## explanation_b
+Incorrect. Both A and B are supported; Glossinidae is not presented as a wound-myiasis family in the governed comparison. The supported answer is D, A & B.
+
+## answer_c
+Glossinidae
+
+## explanation_c
+Incorrect. Both A and B are supported; Glossinidae is not presented as a wound-myiasis family in the governed comparison. The supported answer is D, A & B.
+
+## answer_d
+A & B
+
+## explanation_d
+Sarcophagidae and Calliphoridae are fly families associated with wound myiasis. The governed university slide directly supports A & B for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-2C49E31F704DA6
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Wound myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Recognise both Sarcophagidae and Calliphoridae as wound-myiasis families.
+
+## source_citation
+Absalam101 Part 1, p14–15 Arthropoda Q19 (global Q49), printed key p18 (19 = D); MUST FHB102-2 Flies and Myiasis, p32, 39 and 46.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q19 (global Q49) = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q51
+
+## title
+Which of the following causes Urogenital myiasis?
+
+## question
+Which of the following causes Urogenital myiasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Sarcophaga
+
+## explanation_a
+Incorrect. The governed site-specific association selects Fannia rather than Sarcophaga, Musca domestica or Cordylobia. The supported answer is B, Fannia.
+
+## answer_b
+Fannia
+
+## explanation_b
+Fannia is associated with urogenital myiasis. The governed university slide directly supports Fannia for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Musca domestica
+
+## explanation_c
+Incorrect. The governed site-specific association selects Fannia rather than Sarcophaga, Musca domestica or Cordylobia. The supported answer is B, Fannia.
+
+## answer_d
+Cordylobia
+
+## explanation_d
+Incorrect. The governed site-specific association selects Fannia rather than Sarcophaga, Musca domestica or Cordylobia. The supported answer is B, Fannia.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-3D51F420815EB7
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Clinical myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify Fannia as the offered fly associated with urogenital myiasis.
+
+## source_citation
+Absalam101 Part 1, p15 Arthropoda Q21 (global Q51), printed key p18 (21 = B); MUST FHB102-2 Flies and Myiasis, p42 and 45.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q21 (global Q51) = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q52
+
+## title
+Aural myiasis commonly occurs due to:
+
+## question
+Aural myiasis commonly occurs due to:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Sarcophaga
+
+## explanation_a
+Sarcophaga is associated with aural myiasis in the local curriculum. The governed university slide directly supports Sarcophaga for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Anopheles
+
+## explanation_b
+Incorrect. The local site-specific association selects Sarcophaga, not the mosquito Anopheles, Calliphora or Stomoxys. The supported answer is A, Sarcophaga.
+
+## answer_c
+Calliphora
+
+## explanation_c
+Incorrect. The local site-specific association selects Sarcophaga, not the mosquito Anopheles, Calliphora or Stomoxys. The supported answer is A, Sarcophaga.
+
+## answer_d
+Stomoxys
+
+## explanation_d
+Incorrect. The local site-specific association selects Sarcophaga, not the mosquito Anopheles, Calliphora or Stomoxys. The supported answer is A, Sarcophaga.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-4E52A531926FC8
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Clinical myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify Sarcophaga as the offered fly associated with aural myiasis.
+
+## source_citation
+Absalam101 Part 1, p15 Arthropoda Q22 (global Q52), printed key p18 (22 = A); MUST FHB102-2 Flies and Myiasis, p42 and 51.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q22 (global Q52) = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q53
+
+## title
+Which fly species is commonly involved in forensic parasitology?
+
+## question
+Which fly species is commonly involved in forensic parasitology?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Glossina
+
+## explanation_a
+Incorrect. Both Lucilia and Sarcophaga are supported. The source calls them “species” in the stem although the offered names are genera; preserve that wording without changing the answer. The supported answer is D, B & C.
+
+## answer_b
+Lucilia
+
+## explanation_b
+Incorrect. Both Lucilia and Sarcophaga are supported. The source calls them “species” in the stem although the offered names are genera; preserve that wording without changing the answer. The supported answer is D, B & C.
+
+## answer_c
+Sarcophaga
+
+## explanation_c
+Incorrect. Both Lucilia and Sarcophaga are supported. The source calls them “species” in the stem although the offered names are genera; preserve that wording without changing the answer. The supported answer is D, B & C.
+
+## answer_d
+B & C
+
+## explanation_d
+Lucilia and Sarcophaga are used in forensic parasitology and entomology. The governed university slide directly supports B & C for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-5F53B642A370D9
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Forensic entomology
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Recognise Lucilia and Sarcophaga as the two offered forensic fly taxa.
+
+## source_citation
+Absalam101 Part 1, p15–16 Arthropoda Q23 (global Q53), printed key p18 (23 = D); MUST FHB102-2 Flies and Myiasis, p39–40.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q23 (global Q53) = D. The wording, option order and key are preserved exactly. Q53 preserves the source's “species” wording although Lucilia and Sarcophaga are genus names; this taxonomy-form risk is disclosed and not silently corrected. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q54
+
+## title
+Which condition is treated using Maggot Debridement Therapy (MDT)?
+
+## question
+Which condition is treated using Maggot Debridement Therapy (MDT)?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Tuberculosis
+
+## explanation_a
+Incorrect. The governed therapeutic use is diabetic foot wound debridement, not tuberculosis, malaria or pneumonia. The supported answer is B, Diabetes foot ulcers.
+
+## answer_b
+Diabetes foot ulcers
+
+## explanation_b
+Maggot debridement therapy is used to treat diabetic foot ulcers. The governed university slide directly supports Diabetes foot ulcers for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Malaria
+
+## explanation_c
+Incorrect. The governed therapeutic use is diabetic foot wound debridement, not tuberculosis, malaria or pneumonia. The supported answer is B, Diabetes foot ulcers.
+
+## answer_d
+Pneumonia
+
+## explanation_d
+Incorrect. The governed therapeutic use is diabetic foot wound debridement, not tuberculosis, malaria or pneumonia. The supported answer is B, Diabetes foot ulcers.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-6054C753B481EA
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Myiasis management
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify diabetic foot ulcers as the condition treated with maggot debridement therapy.
+
+## source_citation
+Absalam101 Part 1, p16 Arthropoda Q24 (global Q54), printed key p18 (24 = B); MUST FHB102-2 Flies and Myiasis, p41.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q24 (global Q54) = B. The wording, option order and key are preserved exactly. Q54 preserves the source's literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot; the wording is disclosed and not silently corrected. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q56
+
+## title
+What is the shape of Calliphoridae larva’s posterior spiracle?
+
+## question
+What is the shape of Calliphoridae larva’s posterior spiracle?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Triangular with complete peritreme, 3 long. slits
+
+## explanation_a
+Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits. The governed university slide directly supports Triangular with complete peritreme, 3 long. slits for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+D-shape, medial button 3 M-shaped sinuous slits
+
+## explanation_b
+Incorrect. The D-shaped M-slit pattern belongs to Musca, while the rounded incomplete-peritreme pattern belongs to Sarcophaga in the governed table. The supported answer is A, Triangular with complete peritreme, 3 long. slits.
+
+## answer_c
+Rounded with incomplete peritreme, 3 long. slits
+
+## explanation_c
+Incorrect. The D-shaped M-slit pattern belongs to Musca, while the rounded incomplete-peritreme pattern belongs to Sarcophaga in the governed table. The supported answer is A, Triangular with complete peritreme, 3 long. slits.
+
+## answer_d
+None of them
+
+## explanation_d
+Incorrect. The D-shaped M-slit pattern belongs to Musca, while the rounded incomplete-peritreme pattern belongs to Sarcophaga in the governed table. The supported answer is A, Triangular with complete peritreme, 3 long. slits.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-7156D864C592FB
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Fly larval identification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Recognise the triangular complete-peritreme three-slit Calliphoridae larval pattern.
+
+## source_citation
+Absalam101 Part 1, p16 Arthropoda Q26 (global Q56), printed key p18 (26 = A); MUST FHB102-2 Flies and Myiasis, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q26 (global Q56) = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q57
+
+## title
+What is a common preventive measure for myiasis?
+
+## question
+What is a common preventive measure for myiasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Proper wound hygiene
+
+## explanation_a
+Proper wound hygiene and covering a clean wound help prevent myiasis. The governed university slide directly supports Proper wound hygiene for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Keeping flies as pets
+
+## explanation_b
+Incorrect. Keeping flies, increasing indoor humidity and avoiding antibiotics are not the wound-protection measure taught in the governed deck. The supported answer is A, Proper wound hygiene.
+
+## answer_c
+Increasing humidity in homes
+
+## explanation_c
+Incorrect. Keeping flies, increasing indoor humidity and avoiding antibiotics are not the wound-protection measure taught in the governed deck. The supported answer is A, Proper wound hygiene.
+
+## answer_d
+Avoiding antibiotics
+
+## explanation_d
+Incorrect. Keeping flies, increasing indoor humidity and avoiding antibiotics are not the wound-protection measure taught in the governed deck. The supported answer is A, Proper wound hygiene.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-8257E975D6A30C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Myiasis prevention
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify proper wound hygiene as a preventive measure for myiasis.
+
+## source_citation
+Absalam101 Part 1, p16–17 Arthropoda Q27 (global Q57), printed key p18 (27 = A); MUST FHB102-2 Flies and Myiasis, p56.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q27 (global Q57) = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q58
+
+## title
+How can forensic entomology assist in criminal investigations?
+
+## question
+How can forensic entomology assist in criminal investigations?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Identifying toxic substances in blood
+
+## explanation_a
+Incorrect. The governed application is time-since-death estimation, not blood toxicology, malaria diagnosis or bacterial wound detection. The supported answer is B, Determining time of death (Post-mortem Interval).
+
+## answer_b
+Determining time of death (Post-mortem Interval)
+
+## explanation_b
+Forensic entomology can estimate the post-mortem interval from fly evidence. The governed university slide directly supports Determining time of death (Post-mortem Interval) for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Diagnosing malaria
+
+## explanation_c
+Incorrect. The governed application is time-since-death estimation, not blood toxicology, malaria diagnosis or bacterial wound detection. The supported answer is B, Determining time of death (Post-mortem Interval).
+
+## answer_d
+Detecting bacteria in wounds
+
+## explanation_d
+Incorrect. The governed application is time-since-death estimation, not blood toxicology, malaria diagnosis or bacterial wound detection. The supported answer is B, Determining time of death (Post-mortem Interval).
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-9358FA86E7B41D
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Forensic entomology
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify post-mortem interval estimation as a forensic-entomology contribution to criminal investigation.
+
+## source_citation
+Absalam101 Part 1, p17 Arthropoda Q28 (global Q58), printed key p18 (28 = B); MUST FHB102-2 Flies and Myiasis, p40.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Arthropoda Q28 (global Q58) = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

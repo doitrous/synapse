@@ -45,7 +45,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–14 and the complete printed answer tables on pages 9 and 18 were rendered and visually read for the first 45 global prompts: Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q15 (global Q31–Q45). The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41 and Q44 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43 and Q45 remain explicit identity, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
+Pages 1–18, including the complete printed answer tables on pages 9 and 18, were rendered and visually read for the first 60 global prompts: Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 (global Q31–Q60). The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41, Q44, Q47–Q49, Q51–Q54 and Q56–Q58 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43, Q45–Q46, Q50, Q55 and Q59–Q60 remain explicit identity, authority, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
 
 ## confidence
 0.6

@@ -877,3 +877,443 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Absalam Arthropoda Q14 (global Q44)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q47-01
+
+## concept_id
+CON-INF-0A47C19D5E2B84
+
+## subject
+Cordylobia, Dermatobia and Hypoderma cause cutaneous myiasis
+
+## predicate
+states
+
+## object
+Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+
+## display_text
+Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q17 (global Q47)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q48-01
+
+## concept_id
+CON-INF-1B48D20E6F3C95
+
+## subject
+Dermatobia uses another insect to carry its eggs
+
+## predicate
+states
+
+## object
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
+## display_text
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q18 (global Q48)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q49-01
+
+## concept_id
+CON-INF-2C49E31F704DA6
+
+## subject
+Sarcophagidae and Calliphoridae cause wound myiasis
+
+## predicate
+states
+
+## object
+Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
+
+## display_text
+Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q19 (global Q49)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q51-01
+
+## concept_id
+CON-INF-3D51F420815EB7
+
+## subject
+Fannia causes urogenital myiasis
+
+## predicate
+states
+
+## object
+Fannia is associated with urogenital myiasis.
+
+## display_text
+Fannia is associated with urogenital myiasis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q21 (global Q51)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q52-01
+
+## concept_id
+CON-INF-4E52A531926FC8
+
+## subject
+Sarcophaga is associated with aural myiasis
+
+## predicate
+states
+
+## object
+Sarcophaga is associated with aural myiasis in the local curriculum.
+
+## display_text
+Sarcophaga is associated with aural myiasis in the local curriculum.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q22 (global Q52)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q53-01
+
+## concept_id
+CON-INF-5F53B642A370D9
+
+## subject
+Lucilia and Sarcophaga are used in forensic parasitology
+
+## predicate
+states
+
+## object
+Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+
+## display_text
+Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q23 (global Q53)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q54-01
+
+## concept_id
+CON-INF-6054C753B481EA
+
+## subject
+Maggot debridement therapy treats diabetic foot ulcers
+
+## predicate
+states
+
+## object
+Maggot debridement therapy is used to treat diabetic foot ulcers.
+
+## display_text
+Maggot debridement therapy is used to treat diabetic foot ulcers.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q24 (global Q54)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q56-01
+
+## concept_id
+CON-INF-7156D864C592FB
+
+## subject
+Calliphoridae larva has a triangular complete-peritreme posterior spiracle
+
+## predicate
+states
+
+## object
+Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits.
+
+## display_text
+Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q26 (global Q56)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q57-01
+
+## concept_id
+CON-INF-8257E975D6A30C
+
+## subject
+Proper wound hygiene helps prevent myiasis
+
+## predicate
+states
+
+## object
+Proper wound hygiene and covering a clean wound help prevent myiasis.
+
+## display_text
+Proper wound hygiene and covering a clean wound help prevent myiasis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q27 (global Q57)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q58-01
+
+## concept_id
+CON-INF-9358FA86E7B41D
+
+## subject
+Forensic entomology estimates post-mortem interval
+
+## predicate
+states
+
+## object
+Forensic entomology can estimate the post-mortem interval from fly evidence.
+
+## display_text
+Forensic entomology can estimate the post-mortem interval from fly evidence.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Arthropoda Q28 (global Q58)

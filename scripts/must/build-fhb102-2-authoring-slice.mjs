@@ -54,6 +54,10 @@ const introArticles = {
   arthropodMetamorphosis: 'ART-INF-MUST-FHB1022-ARTHROPOD-METAMORPHOSIS',
   transovarian: 'ART-INF-MUST-FHB1022-TRANSOVARIAN-TRANSMISSION',
   muscidIdentification: 'ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION',
+  cutaneousMyiasis: 'ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS',
+  clinicalSiteMyiasis: 'ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS',
+  forensicMyiasis: 'ART-INF-MUST-FHB1022-FORENSIC-MYIASIS',
+  myiasisTherapyPrevention: 'ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION',
   sarcophaga: sarcoArticleId,
 }
 
@@ -67,6 +71,11 @@ const introArticleRelations = {
   arthropodMetamorphosis: ['arthropodClasses', 'transovarian'],
   transovarian: ['arthropodMetamorphosis'],
   muscidIdentification: ['sarcophaga'],
+  cutaneousMyiasis: ['clinicalSiteMyiasis'],
+  clinicalSiteMyiasis: ['cutaneousMyiasis', 'myiasisTherapyPrevention', 'sarcophaga'],
+  forensicMyiasis: ['myiasisTherapyPrevention', 'sarcophaga'],
+  myiasisTherapyPrevention: ['clinicalSiteMyiasis', 'forensicMyiasis'],
+  sarcophaga: ['muscidIdentification', 'clinicalSiteMyiasis', 'forensicMyiasis'],
 }
 
 const introItems = [
@@ -295,6 +304,126 @@ const introItems = [
     objective: 'Recognise the D-shaped posterior spiracle, medial button and three M-shaped sinuous slits of Musca larvae.',
     pitfalls: 'Triangular complete-peritreme and rounded incomplete-peritreme patterns belong to other fly larvae in the comparison table.',
     rejected: ['concept_c5d51a3d11cc596d324e5761 — broader posterior-spiracle morphology identity; not the Musca-specific D-shaped pattern.'],
+  },
+  {
+    q: 47, bankQ: 17, conceptId: 'CON-INF-0A47C19D5E2B84', canonicalKey: 'parasitology.myiasis.cutaneous-cordylobia-dermatobia-hypoderma',
+    label: 'Cordylobia, Dermatobia and Hypoderma cause cutaneous myiasis', aliases: ['Cutaneous myiasis fly genera', 'Cutaneous myiasis causes'], conceptType: 'classification',
+    article: 'cutaneousMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Cutaneous myiasis', page: 46, teachingPages: '37, 42 and 46', assessmentPage: 14,
+    teachingResourceId: myiasisResourceId,
+    stem: 'Which of the following causes cutaneous myiasis:', key: 'D', options: ['Cordylobia', 'Dermatobia', 'Hypoderma', 'All of the above'],
+    claim: 'Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.',
+    support: 'The deck identifies Dermatobia and Cordylobia as obligatory cutaneous myiasis flies and lists Hypoderma among flies causing cutaneous myiasis.',
+    objective: 'Recognise Cordylobia, Dermatobia and Hypoderma as causes of cutaneous myiasis.',
+    pitfalls: 'All three offered genera are associated with cutaneous myiasis in the governed teaching; do not exclude two by selecting only one.',
+    rejected: ['concept_9da141963fe4f773b6431e12 — broader classification of cutaneous-myiasis types; not the three-genus cause set.', 'concept_1ffd40812a4df1ef0eb6ca09 — obligatory living-tissue requirement; not the three-genus cutaneous-myiasis classification.'],
+  },
+  {
+    q: 48, bankQ: 18, conceptId: 'CON-INF-1B48D20E6F3C95', canonicalKey: 'parasitology.myiasis.dermatobia-phoresis',
+    label: 'Dermatobia uses another insect to carry its eggs', aliases: ['Dermatobia phoresis', 'Human botfly egg carriage'], conceptType: 'mechanism',
+    article: 'cutaneousMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Cutaneous myiasis', page: 38, teachingPages: '37–38', assessmentPage: 14,
+    teachingResourceId: myiasisResourceId,
+    stem: 'Which method is used by Dermatobia hominis (human botfly) for transmission?', key: 'B', options: ['Direct deposition of eggs on the skin', 'It uses another insect to carry eggs', 'Ingestion of larvae', 'Deposition in water sources'],
+    claim: 'Dermatobia hominis uses another insect to carry and deliver its eggs.',
+    support: 'Dermatobia uses phoresis: eggs are attached to another insect, which carries them to the host.',
+    objective: 'Identify carriage by another insect as the Dermatobia transmission method.',
+    pitfalls: 'The governed mechanism is insect carriage, not direct skin deposition, larval ingestion or deposition in water.',
+    rejected: [],
+  },
+  {
+    q: 49, bankQ: 19, conceptId: 'CON-INF-2C49E31F704DA6', canonicalKey: 'parasitology.myiasis.wound-sarcophagidae-calliphoridae',
+    label: 'Sarcophagidae and Calliphoridae cause wound myiasis', aliases: ['Wound-myiasis fly families', 'Flesh flies and blowflies in wound myiasis'], conceptType: 'classification',
+    article: 'sarcophaga', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Wound myiasis', page: 46, teachingPages: '32, 39 and 46', assessmentPage: '14–15',
+    teachingResourceId: myiasisResourceId,
+    stem: 'Which fly family is responsible for wound myiasis?', key: 'D', options: ['Sarcophagidae', 'Calliphoridae', 'Glossinidae', 'A & B'],
+    claim: 'Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.',
+    support: 'The governed deck places Sarcophaga/Sarcophagidae and Calliphora/Lucilia of Calliphoridae among flies invading wounds and causing traumatic cutaneous myiasis.',
+    objective: 'Recognise both Sarcophagidae and Calliphoridae as wound-myiasis families.',
+    pitfalls: 'Both A and B are supported; Glossinidae is not presented as a wound-myiasis family in the governed comparison.',
+    rejected: ['concept_8ffbe95c3b6704234743614c — broader list of myiasis-associated fly families; not the focused two-family wound-myiasis identity.', 'CON-INF-7400B05B6501D2 — existing Sarcophaga-only wound-myiasis concept covers only half of the combined keyed answer.'],
+  },
+  {
+    q: 51, bankQ: 21, conceptId: 'CON-INF-3D51F420815EB7', canonicalKey: 'parasitology.myiasis.urogenital-fannia',
+    label: 'Fannia causes urogenital myiasis', aliases: ['Fannia urogenital myiasis association', 'Urogenital myiasis fly'], conceptType: 'fact',
+    article: 'clinicalSiteMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Clinical myiasis', page: 45, teachingPages: '42 and 45', assessmentPage: 15,
+    teachingResourceId: myiasisResourceId,
+    stem: 'Which of the following causes Urogenital myiasis?', key: 'B', options: ['Sarcophaga', 'Fannia', 'Musca domestica', 'Cordylobia'],
+    claim: 'Fannia is associated with urogenital myiasis.',
+    support: 'The clinical-site classification lists Fannia under urogenital myiasis.',
+    objective: 'Identify Fannia as the offered fly associated with urogenital myiasis.',
+    pitfalls: 'The governed site-specific association selects Fannia rather than Sarcophaga, Musca domestica or Cordylobia.',
+    rejected: ['concept_25a7c6c1a0f6c476622cf674 — describes urogenital-myiasis manifestations; not the Fannia association.'],
+  },
+  {
+    q: 52, bankQ: 22, conceptId: 'CON-INF-4E52A531926FC8', canonicalKey: 'parasitology.myiasis.aural-sarcophaga',
+    label: 'Sarcophaga is associated with aural myiasis', aliases: ['Sarcophaga aural myiasis association', 'Aural myiasis fly'], conceptType: 'fact',
+    article: 'clinicalSiteMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Clinical myiasis', page: 51, teachingPages: '42 and 51', assessmentPage: 15,
+    teachingResourceId: myiasisResourceId,
+    stem: 'Aural myiasis commonly occurs due to:', key: 'A', options: ['Sarcophaga', 'Anopheles', 'Calliphora', 'Stomoxys'],
+    claim: 'Sarcophaga is associated with aural myiasis in the local curriculum.',
+    support: 'The governed clinical-site material identifies Sarcophaga in association with aural myiasis.',
+    objective: 'Identify Sarcophaga as the offered fly associated with aural myiasis.',
+    pitfalls: 'The local site-specific association selects Sarcophaga, not the mosquito Anopheles, Calliphora or Stomoxys.',
+    rejected: ['concept_0e16a8f3a380e17ec90d2ba6 — describes aural-myiasis complications; not the Sarcophaga association.', 'concept_25690ce10dd47faf309ae1f3 — defines external-ear myiasis; not the Sarcophaga association.'],
+  },
+  {
+    q: 53, bankQ: 23, conceptId: 'CON-INF-5F53B642A370D9', canonicalKey: 'parasitology.forensics.lucilia-sarcophaga',
+    label: 'Lucilia and Sarcophaga are used in forensic parasitology', aliases: ['Forensic myiasis-associated flies', 'Lucilia and Sarcophaga in forensic work'], conceptType: 'fact',
+    article: 'forensicMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Forensic entomology', page: 40, teachingPages: '39–40', assessmentPage: '15–16',
+    teachingResourceId: myiasisResourceId,
+    stem: 'Which fly species is commonly involved in forensic parasitology?', key: 'D', options: ['Glossina', 'Lucilia', 'Sarcophaga', 'B & C'],
+    claim: 'Lucilia and Sarcophaga are used in forensic parasitology and entomology.',
+    support: 'The forensic teaching names Lucilia and Sarcophaga among the flies used to assess decomposing remains.',
+    objective: 'Recognise Lucilia and Sarcophaga as the two offered forensic fly taxa.',
+    pitfalls: 'Both Lucilia and Sarcophaga are supported. The source calls them “species” in the stem although the offered names are genera; preserve that wording without changing the answer.',
+    rejected: ['concept_eff95f557102c66a6ce45d64 — covers Lucilia morphology only; not its forensic association or the combined Lucilia/Sarcophaga identity.'],
+  },
+  {
+    q: 54, bankQ: 24, conceptId: 'CON-INF-6054C753B481EA', canonicalKey: 'parasitology.myiasis.mdt-diabetic-foot',
+    label: 'Maggot debridement therapy treats diabetic foot ulcers', aliases: ['MDT for diabetic foot', 'Larval therapy for diabetic ulcers'], conceptType: 'management',
+    article: 'myiasisTherapyPrevention', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Myiasis management', page: 41, assessmentPage: 16,
+    teachingResourceId: myiasisResourceId,
+    stem: 'Which condition is treated using Maggot Debridement Therapy (MDT)?', key: 'B', options: ['Tuberculosis', 'Diabetes foot ulcers', 'Malaria', 'Pneumonia'],
+    claim: 'Maggot debridement therapy is used to treat diabetic foot ulcers.',
+    support: 'The deck describes maggot debridement therapy for diabetic foot.',
+    objective: 'Identify diabetic foot ulcers as the condition treated with maggot debridement therapy.',
+    pitfalls: 'The governed therapeutic use is diabetic foot wound debridement, not tuberculosis, malaria or pneumonia.',
+    rejected: [],
+  },
+  {
+    q: 56, bankQ: 26, conceptId: 'CON-INF-7156D864C592FB', canonicalKey: 'parasitology.calliphoridae.triangular-complete-peritreme',
+    label: 'Calliphoridae larva has a triangular complete-peritreme posterior spiracle', aliases: ['Calliphoridae posterior spiracle', 'Blowfly larval spiracle morphology'], conceptType: 'morphology',
+    article: 'sarcophaga', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Fly larval identification', page: 32, assessmentPage: 16,
+    teachingResourceId: myiasisResourceId,
+    stem: 'What is the shape of Calliphoridae larva’s posterior spiracle?', key: 'A', options: ['Triangular with complete peritreme, 3 long. slits', 'D-shape, medial button 3 M-shaped sinuous slits', 'Rounded with incomplete peritreme, 3 long. slits', 'None of them'],
+    claim: 'Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits.',
+    support: 'The comparison table gives the Calliphoridae larval posterior spiracle as triangular, with complete peritreme and three long slits.',
+    objective: 'Recognise the triangular complete-peritreme three-slit Calliphoridae larval pattern.',
+    pitfalls: 'The D-shaped M-slit pattern belongs to Musca, while the rounded incomplete-peritreme pattern belongs to Sarcophaga in the governed table.',
+    rejected: ['concept_c5d51a3d11cc596d324e5761 — broader posterior-spiracle diagnostic identity; not the family-specific Calliphoridae morphology.'],
+  },
+  {
+    q: 57, bankQ: 27, conceptId: 'CON-INF-8257E975D6A30C', canonicalKey: 'parasitology.myiasis.prevention-wound-hygiene',
+    label: 'Proper wound hygiene helps prevent myiasis', aliases: ['Myiasis wound prevention', 'Clean wound prevention measure'], conceptType: 'prevention',
+    article: 'myiasisTherapyPrevention', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Myiasis prevention', page: 56, assessmentPage: '16–17',
+    teachingResourceId: myiasisResourceId,
+    stem: 'What is a common preventive measure for myiasis?', key: 'A', options: ['Proper wound hygiene', 'Keeping flies as pets', 'Increasing humidity in homes', 'Avoiding antibiotics'],
+    claim: 'Proper wound hygiene and covering a clean wound help prevent myiasis.',
+    support: 'The prevention slide instructs cleaning the wound and closing it with surgical dressing.',
+    objective: 'Identify proper wound hygiene as a preventive measure for myiasis.',
+    pitfalls: 'Keeping flies, increasing indoor humidity and avoiding antibiotics are not the wound-protection measure taught in the governed deck.',
+    rejected: ['concept_82a88b95daa10ff6ae935fff — broader myiasis and housefly control scope; not the specific wound-hygiene action.', 'concept_a5e0413816dbec96b1178762 — neglected-wound risk factor; not the prevention action itself.'],
+  },
+  {
+    q: 58, bankQ: 28, conceptId: 'CON-INF-9358FA86E7B41D', canonicalKey: 'parasitology.forensics.postmortem-interval-flies',
+    label: 'Forensic entomology estimates post-mortem interval', aliases: ['Fly-based time-of-death estimation', 'Forensic post-mortem interval'], conceptType: 'application',
+    article: 'forensicMyiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Forensic entomology', page: 40, assessmentPage: 17,
+    teachingResourceId: myiasisResourceId,
+    stem: 'How can forensic entomology assist in criminal investigations?', key: 'B', options: ['Identifying toxic substances in blood', 'Determining time of death (Post-mortem Interval)', 'Diagnosing malaria', 'Detecting bacteria in wounds'],
+    claim: 'Forensic entomology can estimate the post-mortem interval from fly evidence.',
+    support: 'The forensic-entomology slide explains using fly larvae and succession to estimate the post-mortem interval or time since death.',
+    objective: 'Identify post-mortem interval estimation as a forensic-entomology contribution to criminal investigation.',
+    pitfalls: 'The governed application is time-since-death estimation, not blood toxicology, malaria diagnosis or bacterial wound detection.',
+    rejected: ['concept_a603c60e0c6a1022ef020314 — estimates time of death through rigor mortis, a different mechanism from forensic entomology.'],
   },
 ]
 
@@ -800,7 +929,7 @@ en
 Faculty-distributed university teaching material; internal curriculum use.
 
 ## qualification
-Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 3–4, 7–8, 13–15, 20, 22–25, 28, 32, 36, 42–43, 46 and 57 were visually governed across the Sarcophaga and Absalam Arthropoda slices. The deck directly supports the six authored Arthropoda keys and the clean printed keys retained on the Q36/Q42 dependency holds, and it exposes Q38's unsupported “biological vector” wording: Stomoxys transmission of Trypanosoma and Leishmania is taught as direct mechanical transmission.
+Officially branded MUST Faculty of Medicine Parasitology Department FHB102-2 teaching deck. Pages 3–4, 7–8, 13–15, 20, 22–25, 28, 32, 36–42, 45–46, 51, 56 and 57 were visually governed across the Sarcophaga and Absalam Arthropoda slices. The deck directly supports the sixteen authored Arthropoda keys, the clean printed keys retained on the Q36/Q42 dependency holds, and the explicit authority/identity holds through Q60. It exposes Q38's unsupported “biological vector” wording, does not establish Eristalis as the most common gastric-myiasis cause, does not state that Calliphora lays eggs in wounds, and does not support Q60's “commonly” or “severe” qualifiers.
 
 ## confidence
 0.9
@@ -6813,6 +6942,7 @@ relationships: This bounded slice has no necessary evidence-backed typed relatio
 }
 
 function sarcoArticles() {
+  const sarcoIntroItems = introItems.filter((item) => item.article === 'sarcophaga')
   return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
 
 # Item
@@ -6898,17 +7028,18 @@ ${moduleId}
 ${moduleId} > Parasitology > Arthropods and vectors > Myiasis
 
 ## summary
-Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may cause traumatic dermal myiasis by invading wounds or ulcers.
+Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may cause traumatic dermal myiasis by invading wounds or ulcers. Sarcophagidae and Calliphoridae are associated with wound myiasis; Calliphoridae larvae have a contrasting triangular complete-peritreme posterior spiracle.
 
 ## sections
 ### Definition
 Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may invade wounds or ulcers in traumatic dermal myiasis.
+Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
 
 ### Mechanism
 Sarcophaga is a flesh fly in Sarcophagidae. Its larvae can act as facultative sarcobiots, invading living wounded tissue after association with decaying matter.
 
 ### Key determinants
-The open or incomplete peritreme distinguishes the Sarcophagidae pattern from Calliphora's complete peritreme. A bed sore is a wound setting compatible with traumatic dermal myiasis.
+The open or incomplete peritreme distinguishes the rounded Sarcophagidae pattern from the triangular complete-peritreme Calliphoridae pattern. Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits. Both families are associated with wound myiasis. A bed sore is a wound setting compatible with traumatic dermal myiasis.
 
 ### Clinical significance
 Posterior spiracle morphology and the wound context together support larval identification in a myiasis specimen.
@@ -6924,47 +7055,67 @@ Do not select Calliphora solely because it can invade wounds; its posterior spir
 
 ## hold_these
 Sarcophaga larvae have a rounded incomplete or open posterior peritreme and may invade wounds.
+${sarcoIntroItems.map((item) => item.claim).join('\n')}
 
 ## lose_the_mark
 Ignoring posterior-spiracle morphology and selecting Calliphora despite its complete peritreme.
+${sarcoIntroItems.map((item) => item.pitfalls).join('\n')}
 
 ## callout_evidence
 ### Sarcophaga larvae have a rounded incomplete or open posterior peritreme and may invade wounds.
 Claims: CLM-INF-MUST-FHB1022-SARCO-01
 Citations: CIT-INF-MUST-FHB1022-SARCO-01, CIT-INF-MUST-FHB1022-SARCO-02
 Reviewed by: pending medical review
+${sarcoIntroItems.map((item) => `
+### ${item.claim}
+Claims: ${introClaimId(item)}
+Citations: ${introCitationId(item)}
+Reviewed by: pending medical review`).join('\n')}
 
 ## related_concepts
 ${sarcoConceptId}
+${sarcoIntroItems.map((item) => item.conceptId).join('\n')}
 
 ## related_articles
 ${articleId}: Cyclopropagative transmission in arthropod vectors
 ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION: Muscidae identification: Stomoxys and Musca
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS: Forensic use of myiasis-associated flies
 
 ## question_ids
 QST-MUST-FHB1022-PARA-VECT-Q12
+${sarcoIntroItems.map(introQuestionId).join('\n')}
 
 ## resource_ids
 ${myiasisResourceId}
 ${assessmentResourceId}
+${absalamAssessmentResourceId}
 
 ## article_source_ids
 ${myiasisResourceId}
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-SARCO-01
+${sarcoIntroItems.map(introClaimId).join('\n')}
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SARCO-01
+${sarcoIntroItems.map(introSpanId).join('\n')}
 
 ## university_notes
 must: Q12 comes from the governed FHB102-2 module-wide MCQ family and is directly corroborated by the university Parasitology Department flies and myiasis lecture.
+must: Absalam Arthropoda Q19 and Q26 (global Q49 and Q56) retain literal wording and printed keys as student-bank evidence, checked against the same governed university deck.
 
 ## annotations
 ### definition_of · ${sarcoConceptId}
 Quote: Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may invade wounds or ulcers in traumatic dermal myiasis.
 Block: body
 Id: ann-must-fhb1022-sarco-001
+${sarcoIntroItems.map((item) => `
+### definition_of · ${item.conceptId}
+Quote: ${item.claim}
+Block: body
+Id: ann-must-fhb1022-intro-q${String(item.q).padStart(2, '0')}`).join('\n')}
 
 ## media
 
@@ -6975,13 +7126,14 @@ needs_evidence
 ## evidence_basis
 MUST Faculty of Medicine Parasitology Department, FHB102-2 Flies and Myiasis lecture, visually read pp1,32,46 and 57.
 Anonymous FHB102-2 MCQ bank, visually read p2 prompt Q12 and p5 printed answer D.
+Absalam101 Part 1 revision bank, visually read pp14–18 for Arthropoda Q19/Q26 and their printed keys.
 
 ## evidence_gaps
 Independent standard-reference review is required before publication.
 Q2, Q3, Q4 and Q6 remain outside this article as explicit key-conflict holds.
 
 ## conflicts
-No key conflict affects authored Q12. The anonymous bank's printed D agrees with the university Sarcophaga teaching.
+No key conflict affects authored Q12 or Absalam global Q49/Q56. Each printed key agrees with the governed university teaching; no student-authored answer was promoted to faculty authority.
 
 ## last_reviewed
 
@@ -6990,7 +7142,7 @@ No key conflict affects authored Q12. The anonymous bank's printed D agrees with
 
 
 ## notes
-Eighth bounded question-led slice only. Q12 is the sole newly authored question; no held item is represented as a student-facing record, and no record is authorised for upload.
+The prior Q12 record and every governed field are preserved. The approved Absalam global Q49/Q56 expansion adds only the wound-family and Calliphoridae comparison evidence, concepts, questions and reciprocal reading links. Held items have no student-facing projection, and no record is authorised for upload.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -7000,7 +7152,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after the first review is completed.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: The prior cyclopropagative link is preserved. The Muscidae identification article is a reciprocal complete record in the same bounded import and supplies a direct posterior-spiracle comparison.
+relatedArticles: The prior cyclopropagative and Muscidae links are preserved. The new clinical-site and forensic links are reciprocal complete records in the same bounded import; no existing relation, question or governed field was removed.
 `
 }
 
@@ -7460,7 +7612,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–14 and the complete printed answer tables on pages 9 and 18 were rendered and visually read for the first 45 global prompts: Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q15 (global Q31–Q45). The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41 and Q44 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43 and Q45 remain explicit identity, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
+Pages 1–18, including the complete printed answer tables on pages 9 and 18, were rendered and visually read for the first 60 global prompts: Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 (global Q31–Q60). The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41, Q44, Q47–Q49, Q51–Q54 and Q56–Q58 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43, Q45–Q46, Q50, Q55 and Q59–Q60 remain explicit identity, authority, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
 
 ## confidence
 0.6
@@ -7983,6 +8135,78 @@ These features separate adult stable flies and housefly larvae from alternative 
 ### Common misconceptions
 Do not apply the rounded incomplete-peritreme Sarcophaga pattern or a triangular complete-peritreme pattern to Musca. Stomoxys is winged and blood-feeding.`,
   },
+  cutaneousMyiasis: {
+    title: 'Cutaneous myiasis and Dermatobia phoresis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Cutaneous myiasis',
+    summary: 'Cordylobia, Dermatobia and Hypoderma can cause cutaneous myiasis. Dermatobia hominis reaches the host by attaching its eggs to another insect that carries them.',
+    sections: `### Definition
+Cutaneous myiasis is skin infestation by fly larvae. Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+
+### Mechanism
+Dermatobia hominis uses another insect to carry and deliver its eggs. This phoresis attaches eggs to another insect, which carries them to the human host; the mechanism is therefore insect carriage rather than direct deposition of Dermatobia eggs on skin.
+
+### Key determinants
+Cordylobia, Dermatobia and Hypoderma are all represented in the local cutaneous-myiasis teaching. A question offering the three separately and an all-of-the-above option selects all three. For Dermatobia transmission, the decisive clue is another insect carrying its eggs.
+
+### Clinical significance
+Recognising the causative genera and the phoretic transfer mechanism helps connect cutaneous lesions with fly exposure in the local myiasis framework.
+
+### Common misconceptions
+Do not restrict cutaneous myiasis to only one of the three governed genera. Do not rewrite phoresis as ingestion, water deposition or direct Dermatobia egg deposition on skin.`,
+  },
+  clinicalSiteMyiasis: {
+    title: 'Clinical-site patterns of myiasis', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Clinical myiasis',
+    summary: 'Clinical myiasis is classified by involved site. Fannia is associated with urogenital myiasis, while Sarcophaga is associated with aural myiasis in the local curriculum.',
+    sections: `### Definition
+Clinical myiasis may be classified by the body site involved. Urogenital and aural myiasis are two site-specific patterns in the governed teaching.
+
+### Mechanism
+Fannia is associated with urogenital myiasis. Sarcophaga is associated with aural myiasis in the local curriculum. These are source-specific organism–site associations rather than a claim that either fly is restricted to one clinical presentation.
+
+### Key determinants
+Urogenital selects Fannia among the offered flies. Aural selects Sarcophaga among the offered alternatives.
+
+### Clinical significance
+Site and fly association together organise recognition of myiasis presentations and connect specimen context with the broader wound-myiasis and prevention material.
+
+### Common misconceptions
+Do not substitute a manifestation-only definition for an organism association. Do not infer that a fly listed at one site can never occur elsewhere.`,
+  },
+  forensicMyiasis: {
+    title: 'Forensic use of myiasis-associated flies', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Forensic entomology',
+    summary: 'Lucilia and Sarcophaga are used in forensic parasitology and entomology. Their evidence can help estimate the post-mortem interval or time since death.',
+    sections: `### Definition
+Forensic entomology applies insect evidence to legal investigation. Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+
+### Mechanism
+Forensic entomology can estimate the post-mortem interval from fly evidence. Fly colonisation and larval evidence can be related to decomposition timing, allowing estimation of time since death.
+
+### Key determinants
+Both Lucilia and Sarcophaga are supported when offered together. Determining the post-mortem interval is the forensic application supported by the deck.
+
+### Clinical significance
+The time relationship between flies and decomposing remains can contribute evidence in a criminal investigation without replacing the broader forensic examination.
+
+### Common misconceptions
+The source stem calls Lucilia and Sarcophaga “species,” although both offered names are genera; that wording is preserved and disclosed rather than silently corrected. Do not conflate fly-based interval estimation with rigor-mortis estimation, blood toxicology or infection diagnosis.`,
+  },
+  myiasisTherapyPrevention: {
+    title: 'Myiasis therapy and prevention', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Myiasis management',
+    summary: 'Maggot debridement therapy is used for diabetic foot ulcers. Proper wound hygiene, cleaning and protective dressing help prevent myiasis.',
+    sections: `### Definition
+The local curriculum presents a therapeutic use of selected larvae and practical prevention of unwanted myiasis.
+
+### Mechanism
+Maggot debridement therapy is used to treat diabetic foot ulcers. Proper wound hygiene and covering a clean wound help prevent myiasis. Prevention includes cleaning a wound and closing it with surgical dressing, which limits exposure to flies.
+
+### Key determinants
+The source's literal option “Diabetes foot ulcers” corresponds to the deck's diabetic-foot use of maggot debridement therapy. Proper wound hygiene is the preventive action among the offered choices.
+
+### Clinical significance
+The paired teaching distinguishes controlled therapeutic larval use from accidental wound infestation and links prevention to direct wound care.
+
+### Common misconceptions
+Do not silently rewrite the source's “Diabetes foot ulcers” wording. Keeping flies, increasing humidity and avoiding antibiotics are not substitutes for cleaning and protecting a wound.`,
+  },
 } }
 
 function introArticleRecords() {
@@ -8288,7 +8512,7 @@ Absalam101 Part 1, p${item.assessmentPage ?? '1–5'} ${item.bankQ ? `Arthropoda
 yes
 
 ## author_notes
-Printed source key: ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Q${item.q}`} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
+Printed source key: ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Q${item.q}`} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}${item.q === 53 ? 'Q53 preserves the source\'s “species” wording although Lucilia and Sarcophaga are genus names; this taxonomy-form risk is disclosed and not silently corrected. ' : ''}${item.q === 54 ? 'Q54 preserves the source\'s literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot; the wording is disclosed and not silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
   }))
 }
 
@@ -8327,6 +8551,18 @@ function coverage() {
 - First 15-prompt Absalam Arthropoda slice: **6 authored / 9 held / 0 unassessed**.
 - Absalam source global Q1–Q45: **20 authored / 25 held / 0 unassessed**. The remaining boundary is Arthropoda Q16–Q30 plus the three later 30-prompt sections, for **105 unassessed prompts** in this source.
 
+### Second Absalam Arthropoda slice delta
+
+- +10 teaching claims, +10 citations and +10 article spans for global Q47–Q49, Q51–Q54 and Q56–Q58.
+- +10 under-review / needs-evidence concepts, each preserving the exact governed question scope after rejecting broader, narrower or mechanism-mismatched raw candidates.
+- +4 standalone-complete reciprocal Draft articles: cutaneous myiasis and Dermatobia phoresis, clinical-site myiasis, forensic myiasis, and myiasis therapy/prevention.
+- +1 exact-ID-preserving complete Draft article update: the Sarcophaga article retains every prior field, relation, concept and Q12 link while adding the wound-family and Calliphoridae morphology evidence for Q49/Q56 and reciprocal clinical-site/forensic links.
+- +10 Draft questions: global Q47, Q48, Q49, Q51, Q52, Q53, Q54, Q56, Q57 and Q58.
+- +5 explicit holds with no student-facing record: global Q46, Q50, Q55, Q59 and Q60.
+- Q53 retains and discloses the source's “species” wording although Lucilia and Sarcophaga are genus names. Q54 retains and discloses the literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot. Neither wording nor any printed key was silently corrected.
+- Second 15-prompt Absalam Arthropoda slice: **10 authored / 5 held / 0 unassessed**.
+- Absalam source global Q1–Q60: **30 authored / 30 held / 0 unassessed**. The next unopened boundary is global Q61–Q90, Microbiology Ch1-3, leaving **90 unassessed prompts** in this source.
+
 `
   const holds = `- **Q1 is held in the Absalam introduction family.** Its clean printed C is supported by the teaching deck, but raw identities \`concept_67e3dcb99284cae795d4cf8f\` and \`concept_8de933ca4fcbba40f533edac\` overlap the same medical-parasitology definition. No duplicate concept or student-facing record was minted.
 - **Q3 is held in the Absalam introduction family.** Its printed B is supported, but raw lice/ectoparasite identities \`concept_7bbc067f755c9cdfc88ab06c\` and \`concept_db670dbd615a4a13896cb1a4\` create unresolved identity overlap. No student-facing record was minted.
@@ -8353,23 +8589,28 @@ function coverage() {
 - **Q42 is held in the Absalam Arthropoda family as a dependency-chain hold.** Its printed B, Cyclo-propagative transmission, is directly supported and maps to existing concept \`CON-INF-23265735EECCA1\`. The same unsafe exact-ID article dependency chain that holds Q36 prevents a focused-gate-clean student-facing record; the printed key was not changed and no record was created.
 - **Q43 is held in the Absalam Arthropoda family.** Its printed B, Mechanical transmission, is supported, but exact raw identities \`concept_012efb068aac441646ea164f\` and \`concept_ed540a67619ad2d979d7558f\` already represent housefly mechanical carriage and contamination. The source typo “Musca domesticA” was not silently repaired through a student-facing record.
 - **Q45 is held in the Absalam Arthropoda family.** Its printed C, Flies, is supported, but exact raw identities \`concept_029a51c793d756b91bf5e550\` and \`concept_a0958f268e6d2701352c57da\` already define myiasis as invasion by dipterous fly larvae. No duplicate was minted.
+- **Q46 is held in the Absalam Arthropoda family.** Its printed B, “Larvae must invade living tissues to complete their life cycle,” is directly supported, but exact raw identity \`concept_1ffd40812a4df1ef0eb6ca09\` already represents the obligatory-myiasis living-tissue requirement. No duplicate concept or student-facing record was minted.
+- **Q50 is held in the Absalam Arthropoda family.** Its printed D says “Erystalis,” while the governed deck presents \`Eristalis\` only as an example associated with gastric myiasis and does not establish it as the “most common” cause. Neither spelling nor answer was corrected, and no student-facing record was created.
+- **Q55 is held in the Absalam Arthropoda family.** Its printed C, purgatives, is represented by exact raw identity \`concept_0d6ad71378af78716219e769\`, which already covers site-specific myiasis treatment including purgation. No duplicate concept or student-facing record was minted.
+- **Q59 is held in the Absalam Arthropoda family.** Its printed A, Calliphora, is directionally related to the official deck's statement that Calliphora larvae can invade wounds, but that teaching does not state that Calliphora lays eggs in wounds as the stem specifically asks. The source grammar “flies lays” and printed key remain evidence only; no correction or student-facing record was created.
+- **Q60 is held in the Absalam Arthropoda family.** Its printed B, Ivermectin, appears in the official treatment list, but the deck does not support the stem's additional “commonly” or “severe” qualifiers. The printed answer was not promoted beyond its source authority and no student-facing record was created.
 
 `
   return baseCoverage()
     .replace('| Evidence resources | 20 |', '| Evidence resources | 22 |')
-    .replace('| Claims | 8 |', '| Claims | 28 |')
-    .replace('| Citations | 13 |', '| Citations | 33 |')
-    .replace('| Article spans | 8 |', '| Article spans | 28 |')
-    .replace('| Concepts | 8 |', '| Concepts | 25 |')
-    .replace('| Articles | 8 |', '| Articles | 17 |')
-    .replace('| Questions | 8 |', '| Questions | 28 |')
-    .replace('| Question authoring holds | 23 |', '| Question authoring holds | 48 |')
+    .replace('| Claims | 8 |', '| Claims | 38 |')
+    .replace('| Citations | 13 |', '| Citations | 43 |')
+    .replace('| Article spans | 8 |', '| Article spans | 38 |')
+    .replace('| Concepts | 8 |', '| Concepts | 35 |')
+    .replace('| Articles | 8 |', '| Articles | 21 |')
+    .replace('| Questions | 8 |', '| Questions | 38 |')
+    .replace('| Question authoring holds | 23 |', '| Question authoring holds | 53 |')
     .replace('## Explicit authoring holds\n\n', `${delta}## Explicit authoring holds\n\n${holds}`)
-    .replace('Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including 23 explicit holds', 'Governed prompt observations: 5,444 total; 28 authored; **5,416 raw prompt observations remain**, including 48 explicit holds')
-    .replace('Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 23 held printed-key observations', 'Governed answer observations: 5,211 total; 28 clean source-keyed prompts authored; **5,183 raw answer observations remain**, including the 48 held printed-key observations')
-    .replace('Record-level backlog is not asserted as 5,436 unique records', 'Record-level backlog is not asserted as 5,416 unique records')
-    .replace('It has not been opened for downstream authoring in this slice.', 'Its Parasitology Introduction Q1–Q30 and first Arthropoda Q1–Q15 boundaries are fully dispositioned; Arthropoda Q16–Q30 and the three later 30-prompt sections remain unopened for downstream authoring.')
-    .replace('All eight student-facing articles and questions remain Draft; all eight concepts', 'All seventeen student-facing articles and all twenty-eight questions remain Draft; all twenty-five concepts')
+    .replace('Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including 23 explicit holds', 'Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 23 held printed-key observations', 'Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations')
+    .replace('Record-level backlog is not asserted as 5,436 unique records', 'Record-level backlog is not asserted as 5,406 unique records')
+    .replace('It has not been opened for downstream authoring in this slice.', 'Its Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 boundaries are fully dispositioned; global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.')
+    .replace('All eight student-facing articles and questions remain Draft; all eight concepts', 'All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts')
 }
 
 function generatedItems(items) {

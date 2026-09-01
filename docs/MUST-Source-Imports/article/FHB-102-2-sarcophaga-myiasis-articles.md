@@ -83,17 +83,18 @@ MUST-FHB-102-2
 MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Myiasis
 
 ## summary
-Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may cause traumatic dermal myiasis by invading wounds or ulcers.
+Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may cause traumatic dermal myiasis by invading wounds or ulcers. Sarcophagidae and Calliphoridae are associated with wound myiasis; Calliphoridae larvae have a contrasting triangular complete-peritreme posterior spiracle.
 
 ## sections
 ### Definition
 Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may invade wounds or ulcers in traumatic dermal myiasis.
+Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
 
 ### Mechanism
 Sarcophaga is a flesh fly in Sarcophagidae. Its larvae can act as facultative sarcobiots, invading living wounded tissue after association with decaying matter.
 
 ### Key determinants
-The open or incomplete peritreme distinguishes the Sarcophagidae pattern from Calliphora's complete peritreme. A bed sore is a wound setting compatible with traumatic dermal myiasis.
+The open or incomplete peritreme distinguishes the rounded Sarcophagidae pattern from the triangular complete-peritreme Calliphoridae pattern. Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits. Both families are associated with wound myiasis. A bed sore is a wound setting compatible with traumatic dermal myiasis.
 
 ### Clinical significance
 Posterior spiracle morphology and the wound context together support larval identification in a myiasis specimen.
@@ -109,9 +110,13 @@ Do not select Calliphora solely because it can invade wounds; its posterior spir
 
 ## hold_these
 Sarcophaga larvae have a rounded incomplete or open posterior peritreme and may invade wounds.
+Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
+Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits.
 
 ## lose_the_mark
 Ignoring posterior-spiracle morphology and selecting Calliphora despite its complete peritreme.
+Both A and B are supported; Glossinidae is not presented as a wound-myiasis family in the governed comparison.
+The D-shaped M-slit pattern belongs to Musca, while the rounded incomplete-peritreme pattern belongs to Sarcophaga in the governed table.
 
 ## callout_evidence
 ### Sarcophaga larvae have a rounded incomplete or open posterior peritreme and may invade wounds.
@@ -119,37 +124,69 @@ Claims: CLM-INF-MUST-FHB1022-SARCO-01
 Citations: CIT-INF-MUST-FHB1022-SARCO-01, CIT-INF-MUST-FHB1022-SARCO-02
 Reviewed by: pending medical review
 
+### Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q49-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q49-01
+Reviewed by: pending medical review
+
+### Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q56-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q56-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-7400B05B6501D2
+CON-INF-2C49E31F704DA6
+CON-INF-7156D864C592FB
 
 ## related_articles
 ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE: Cyclopropagative transmission in arthropod vectors
 ART-INF-MUST-FHB1022-MUSCID-IDENTIFICATION: Muscidae identification: Stomoxys and Musca
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS: Clinical-site patterns of myiasis
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS: Forensic use of myiasis-associated flies
 
 ## question_ids
 QST-MUST-FHB1022-PARA-VECT-Q12
+QST-MUST-FHB1022-PARA-INTRO-Q49
+QST-MUST-FHB1022-PARA-INTRO-Q56
 
 ## resource_ids
 src_2c1e04372fbb8b2607f7
 src_b9989e9ef3c314f6c771
+src_4bd3b78f762673d7eb7f
 
 ## article_source_ids
 src_2c1e04372fbb8b2607f7
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-SARCO-01
+CLM-INF-MUST-FHB1022-INTRO-Q49-01
+CLM-INF-MUST-FHB1022-INTRO-Q56-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SARCO-01
+SPN-INF-MUST-FHB1022-INTRO-Q49-01
+SPN-INF-MUST-FHB1022-INTRO-Q56-01
 
 ## university_notes
 must: Q12 comes from the governed FHB102-2 module-wide MCQ family and is directly corroborated by the university Parasitology Department flies and myiasis lecture.
+must: Absalam Arthropoda Q19 and Q26 (global Q49 and Q56) retain literal wording and printed keys as student-bank evidence, checked against the same governed university deck.
 
 ## annotations
 ### definition_of · CON-INF-7400B05B6501D2
 Quote: Sarcophaga larvae have rounded posterior spiracles with an incomplete or open peritreme and may invade wounds or ulcers in traumatic dermal myiasis.
 Block: body
 Id: ann-must-fhb1022-sarco-001
+
+### definition_of · CON-INF-2C49E31F704DA6
+Quote: Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
+Block: body
+Id: ann-must-fhb1022-intro-q49
+
+### definition_of · CON-INF-7156D864C592FB
+Quote: Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits.
+Block: body
+Id: ann-must-fhb1022-intro-q56
 
 ## media
 
@@ -160,13 +197,14 @@ needs_evidence
 ## evidence_basis
 MUST Faculty of Medicine Parasitology Department, FHB102-2 Flies and Myiasis lecture, visually read pp1,32,46 and 57.
 Anonymous FHB102-2 MCQ bank, visually read p2 prompt Q12 and p5 printed answer D.
+Absalam101 Part 1 revision bank, visually read pp14–18 for Arthropoda Q19/Q26 and their printed keys.
 
 ## evidence_gaps
 Independent standard-reference review is required before publication.
 Q2, Q3, Q4 and Q6 remain outside this article as explicit key-conflict holds.
 
 ## conflicts
-No key conflict affects authored Q12. The anonymous bank's printed D agrees with the university Sarcophaga teaching.
+No key conflict affects authored Q12 or Absalam global Q49/Q56. Each printed key agrees with the governed university teaching; no student-authored answer was promoted to faculty authority.
 
 ## last_reviewed
 
@@ -175,7 +213,7 @@ No key conflict affects authored Q12. The anonymous bank's printed D agrees with
 
 
 ## notes
-Eighth bounded question-led slice only. Q12 is the sole newly authored question; no held item is represented as a student-facing record, and no record is authorised for upload.
+The prior Q12 record and every governed field are preserved. The approved Absalam global Q49/Q56 expansion adds only the wound-family and Calliphoridae comparison evidence, concepts, questions and reciprocal reading links. Held items have no student-facing projection, and no record is authorised for upload.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -185,4 +223,4 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after the first review is completed.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: The prior cyclopropagative link is preserved. The Muscidae identification article is a reciprocal complete record in the same bounded import and supplies a direct posterior-spiracle comparison.
+relatedArticles: The prior cyclopropagative and Muscidae links are preserved. The new clinical-site and forensic links are reciprocal complete records in the same bounded import; no existing relation, question or governed field was removed.

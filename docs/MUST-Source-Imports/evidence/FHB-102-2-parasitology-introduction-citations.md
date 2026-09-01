@@ -797,3 +797,403 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Q44
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q47-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q47-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The deck identifies Dermatobia and Cordylobia as obligatory cutaneous myiasis flies and lists Hypoderma among flies causing cutaneous myiasis.
+
+## locator_type
+page
+
+## locator_page
+46
+
+## locator_section
+Introduction to Medical Parasitology — Cutaneous myiasis
+
+## locator_detail
+PDF page 37, 42 and 46, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q47 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q48-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q48-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+Dermatobia uses phoresis: eggs are attached to another insect, which carries them to the host.
+
+## locator_type
+page
+
+## locator_page
+38
+
+## locator_section
+Introduction to Medical Parasitology — Cutaneous myiasis
+
+## locator_detail
+PDF page 37–38, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q48 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q49-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q49-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck places Sarcophaga/Sarcophagidae and Calliphora/Lucilia of Calliphoridae among flies invading wounds and causing traumatic cutaneous myiasis.
+
+## locator_type
+page
+
+## locator_page
+46
+
+## locator_section
+Introduction to Medical Parasitology — Wound myiasis
+
+## locator_detail
+PDF page 32, 39 and 46, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q49 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q51-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q51-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The clinical-site classification lists Fannia under urogenital myiasis.
+
+## locator_type
+page
+
+## locator_page
+45
+
+## locator_section
+Introduction to Medical Parasitology — Clinical myiasis
+
+## locator_detail
+PDF page 42 and 45, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q51 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q52-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q52-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed clinical-site material identifies Sarcophaga in association with aural myiasis.
+
+## locator_type
+page
+
+## locator_page
+51
+
+## locator_section
+Introduction to Medical Parasitology — Clinical myiasis
+
+## locator_detail
+PDF page 42 and 51, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q52 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q53-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q53-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The forensic teaching names Lucilia and Sarcophaga among the flies used to assess decomposing remains.
+
+## locator_type
+page
+
+## locator_page
+40
+
+## locator_section
+Introduction to Medical Parasitology — Forensic entomology
+
+## locator_detail
+PDF page 39–40, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q53 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q54-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q54-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The deck describes maggot debridement therapy for diabetic foot.
+
+## locator_type
+page
+
+## locator_page
+41
+
+## locator_section
+Introduction to Medical Parasitology — Myiasis management
+
+## locator_detail
+PDF page 41, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q54 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q56-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q56-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The comparison table gives the Calliphoridae larval posterior spiracle as triangular, with complete peritreme and three long slits.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Introduction to Medical Parasitology — Fly larval identification
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q56 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q57-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q57-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The prevention slide instructs cleaning the wound and closing it with surgical dressing.
+
+## locator_type
+page
+
+## locator_page
+56
+
+## locator_section
+Introduction to Medical Parasitology — Myiasis prevention
+
+## locator_detail
+PDF page 56, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q57 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q58-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q58-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The forensic-entomology slide explains using fly larvae and succession to estimate the post-mortem interval or time since death.
+
+## locator_type
+page
+
+## locator_page
+40
+
+## locator_section
+Introduction to Medical Parasitology — Forensic entomology
+
+## locator_detail
+PDF page 40, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q58 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

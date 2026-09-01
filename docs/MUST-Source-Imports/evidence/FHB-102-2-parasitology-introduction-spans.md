@@ -437,3 +437,223 @@ CLM-INF-MUST-FHB1022-INTRO-Q44-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-INTRO-Q44-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q47-01
+
+## article_id
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## section_id
+art-inf-must-fhb1022-cutaneous-myiasis-phoresis-definition
+
+## text
+Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q47-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q47-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q48-01
+
+## article_id
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+
+## section_id
+art-inf-must-fhb1022-cutaneous-myiasis-phoresis-definition
+
+## text
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q48-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q48-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q49-01
+
+## article_id
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-sarcophaga-wound-myiasis-definition
+
+## text
+Sarcophagidae and Calliphoridae are fly families associated with wound myiasis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q49-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q49-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q51-01
+
+## article_id
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-clinical-site-myiasis-definition
+
+## text
+Fannia is associated with urogenital myiasis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q51-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q51-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q52-01
+
+## article_id
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-clinical-site-myiasis-definition
+
+## text
+Sarcophaga is associated with aural myiasis in the local curriculum.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q52-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q52-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q53-01
+
+## article_id
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-forensic-myiasis-definition
+
+## text
+Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q53-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q53-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q54-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+
+## section_id
+art-inf-must-fhb1022-myiasis-therapy-prevention-definition
+
+## text
+Maggot debridement therapy is used to treat diabetic foot ulcers.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q54-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q54-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q56-01
+
+## article_id
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-sarcophaga-wound-myiasis-definition
+
+## text
+Calliphoridae larvae have triangular posterior spiracles with a complete peritreme and three long slits.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q56-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q56-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q57-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+
+## section_id
+art-inf-must-fhb1022-myiasis-therapy-prevention-definition
+
+## text
+Proper wound hygiene and covering a clean wound help prevent myiasis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q57-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q57-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q58-01
+
+## article_id
+ART-INF-MUST-FHB1022-FORENSIC-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-forensic-myiasis-definition
+
+## text
+Forensic entomology can estimate the post-mortem interval from fly evidence.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q58-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q58-01
