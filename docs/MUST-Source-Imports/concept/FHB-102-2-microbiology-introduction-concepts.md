@@ -17696,3 +17696,924 @@ rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survive
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-713CC7D134054A
+
+## label
+Concentration-dependent killing needs high concentrations above MIC; time-dependent killing needs duration above MIC
+
+## canonical_key
+pharmacology.pkpd.concentration-vs-time-dependent-definition
+
+## aliases
+Concentration-dependent definition
+Time-dependent definition
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect. Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing.
+
+## explicit_objective
+Identify high concentrations above MIC as the governed concentration-dependent-antibiotic requirement. Identify duration above MIC as the governed time-dependent-antibiotic priority.
+
+## pitfalls
+The governed slide assigns high PAE (not minimal PAE) and does not define concentration-dependent killing by prolonged infusion time or time above MIC; those describe the contrasting time-dependent category. The governed slide states time-dependent killers have minimal PAE (not a prioritised post-antibiotic effect) and do not benefit from higher peak concentrations, distinguishing them from concentration-dependent agents.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Concentration-dependent definition
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Concentration-dependent definition
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p39 Mucize Antibacterial (2) MCQ Q17; printed answer p44
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p41 Mucize Antibacterial (2) MCQ Q32; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p13 direct MUST teaching
+src_9a16b2156717527bf0ab | tier 1 local teaching | p14 direct MUST teaching
+
+## original_wording
+Concentration-dependent antibiotics require: Printed key B; options retained in their original order.
+Time-dependent antibiotics prioritize: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q17; printed B agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (2) MCQ Q32; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-D061C3B8911EF4
+
+## label
+Aminoglycosides are concentration-dependent with high post-antibiotic effect
+
+## canonical_key
+pharmacology.pkpd.aminoglycosides-concentration-dependent-high-pae
+
+## aliases
+Aminoglycoside PK/PD classification
+Aminoglycoside high PAE
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect. Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification.
+
+## explicit_objective
+Classify Aminoglycosides as concentration-dependent. Identify Aminoglycosides as the governed high-PAE drug class among the options.
+
+## pitfalls
+The governed table places Aminoglycosides in the concentration-dependent column only, not the time-dependent or "both" columns. Beta-lactams, Vancomycin and Penicillin are each listed under the minimal-PAE, time-dependent column in the governed table, not the high-PAE column.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Aminoglycoside PK/PD classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aminoglycoside PK/PD classification
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p39 Mucize Antibacterial (2) MCQ Q18; printed answer p44
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p43 Mucize Antibacterial (2) MCQ Q47; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p15 direct MUST teaching
+src_9a16b2156717527bf0ab | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Aminoglycosides are classified as: Printed key B; options retained in their original order.
+High PAE is characteristic of: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q18; printed B agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (2) MCQ Q47; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-FD6B64970205C9
+
+## label
+Vancomycin is time-dependent with minimal post-antibiotic effect
+
+## canonical_key
+pharmacology.pkpd.vancomycin-time-dependent-minimal-pae
+
+## aliases
+Vancomycin PK/PD classification
+Vancomycin minimal PAE
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams.
+
+## explicit_objective
+Identify Vancomycin as time-dependent with minimal PAE.
+
+## pitfalls
+Ciprofloxacin and Gentamicin are not listed in this table's time-dependent-minimal-PAE column (Gentamicin is an aminoglycoside, concentration-dependent), and Metronidazole is listed under concentration-dependent, high PAE.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin PK/PD classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin PK/PD classification
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p39 Mucize Antibacterial (2) MCQ Q19; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Which antibiotic is time-dependent with minimal PAE? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q19; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-1DCDE57508ED81
+
+## label
+Clindamycin is both time- and concentration-dependent
+
+## canonical_key
+pharmacology.pkpd.clindamycin-both-dependent
+
+## aliases
+Clindamycin PK/PD classification
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Clindamycin is classified as both time- and concentration-dependent.
+
+## explicit_objective
+Classify Clindamycin as both time- and concentration-dependent.
+
+## pitfalls
+The governed table does not place Clindamycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Clindamycin PK/PD classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Clindamycin PK/PD classification
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p39 Mucize Antibacterial (2) MCQ Q20; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Clindamycin is categorized as: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q20; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-DA565D20A41E12
+
+## label
+Clarithromycin and Azithromycin are both time- and concentration-dependent
+
+## canonical_key
+pharmacology.pkpd.macrolide-both-dependent
+
+## aliases
+Macrolide PK/PD classification
+Azithromycin-clarithromycin both-dependent
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent. Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent.
+
+## explicit_objective
+Identify Azithromycin as both time- and concentration-dependent. Classify Clarithromycin as both time- and concentration-dependent, per the governed table.
+
+## pitfalls
+Penicillin, Vancomycin and Ampicillin are beta-lactam-class or glycopeptide agents listed under the time-dependent, minimal-PAE column, not the combined "both" column. The governed table does not place Clarithromycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column, unlike the printed key of this bank's own Q38.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Macrolide PK/PD classification
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Macrolide PK/PD classification
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p41 Mucize Antibacterial (2) MCQ Q34; printed answer p44
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p43 Mucize Antibacterial (2) MCQ Q49; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p15 direct MUST teaching
+src_9a16b2156717527bf0ab | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Which antibiotic is both time and concentration-dependent? Printed key A; options retained in their original order.
+Clarithromycin is classified as: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q34; printed A agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (2) MCQ Q49; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

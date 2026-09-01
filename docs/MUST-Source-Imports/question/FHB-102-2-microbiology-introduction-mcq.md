@@ -19757,3 +19757,1219 @@ yes
 
 ## author_notes
 Printed source key: Mucize Antibacterial (2) MCQ Q31 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q17
+
+## title
+Concentration-dependent antibiotics require:
+
+## question
+Concentration-dependent antibiotics require:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Prolonged infusion time
+
+## explanation_a
+Incorrect. The governed slide assigns high PAE (not minimal PAE) and does not define concentration-dependent killing by prolonged infusion time or time above MIC; those describe the contrasting time-dependent category. The supported answer is B, High concentrations above MIC.
+
+## answer_b
+High concentrations above MIC
+
+## explanation_b
+Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect. The official MUST teaching directly supports High concentrations above MIC for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Minimal PAE
+
+## explanation_c
+Incorrect. The governed slide assigns high PAE (not minimal PAE) and does not define concentration-dependent killing by prolonged infusion time or time above MIC; those describe the contrasting time-dependent category. The supported answer is B, High concentrations above MIC.
+
+## answer_d
+Time above MIC
+
+## explanation_d
+Incorrect. The governed slide assigns high PAE (not minimal PAE) and does not define concentration-dependent killing by prolonged infusion time or time above MIC; those describe the contrasting time-dependent category. The supported answer is B, High concentrations above MIC.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-713CC7D134054A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Concentration-dependent definition
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify high concentrations above MIC as the governed concentration-dependent-antibiotic requirement.
+
+## source_citation
+Absalam101 Part 2, p39, Mucize Antibacterial (2) MCQ Q17, printed key p44 (17 = B); official MUST general antibacterial 2, p13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q17 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q32
+
+## title
+Time-dependent antibiotics prioritize:
+
+## question
+Time-dependent antibiotics prioritize:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Peak concentration
+
+## explanation_a
+Incorrect. The governed slide states time-dependent killers have minimal PAE (not a prioritised post-antibiotic effect) and do not benefit from higher peak concentrations, distinguishing them from concentration-dependent agents. The supported answer is B, Duration above MIC.
+
+## answer_b
+Duration above MIC
+
+## explanation_b
+Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing. The official MUST teaching directly supports Duration above MIC for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Post-antibiotic effect
+
+## explanation_c
+Incorrect. The governed slide states time-dependent killers have minimal PAE (not a prioritised post-antibiotic effect) and do not benefit from higher peak concentrations, distinguishing them from concentration-dependent agents. The supported answer is B, Duration above MIC.
+
+## answer_d
+Single daily dosing
+
+## explanation_d
+Incorrect. The governed slide states time-dependent killers have minimal PAE (not a prioritised post-antibiotic effect) and do not benefit from higher peak concentrations, distinguishing them from concentration-dependent agents. The supported answer is B, Duration above MIC.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-713CC7D134054A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Time-dependent definition
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify duration above MIC as the governed time-dependent-antibiotic priority.
+
+## source_citation
+Absalam101 Part 2, p41, Mucize Antibacterial (2) MCQ Q32, printed key p44 (32 = B); official MUST general antibacterial 2, p14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q32 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q18
+
+## title
+Aminoglycosides are classified as:
+
+## question
+Aminoglycosides are classified as:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Time-dependent antibiotics
+
+## explanation_a
+Incorrect. The governed table places Aminoglycosides in the concentration-dependent column only, not the time-dependent or "both" columns. The supported answer is B, Concentration-dependent antibiotics.
+
+## answer_b
+Concentration-dependent antibiotics
+
+## explanation_b
+Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect. The official MUST teaching directly supports Concentration-dependent antibiotics for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Both time and concentration-dependent
+
+## explanation_c
+Incorrect. The governed table places Aminoglycosides in the concentration-dependent column only, not the time-dependent or "both" columns. The supported answer is B, Concentration-dependent antibiotics.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. The governed table places Aminoglycosides in the concentration-dependent column only, not the time-dependent or "both" columns. The supported answer is B, Concentration-dependent antibiotics.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D061C3B8911EF4
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aminoglycoside PK/PD classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Classify Aminoglycosides as concentration-dependent.
+
+## source_citation
+Absalam101 Part 2, p39, Mucize Antibacterial (2) MCQ Q18, printed key p44 (18 = B); official MUST general antibacterial 2, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q18 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q47
+
+## title
+High PAE is characteristic of:
+
+## question
+High PAE is characteristic of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Beta-lactams
+
+## explanation_a
+Incorrect. Beta-lactams, Vancomycin and Penicillin are each listed under the minimal-PAE, time-dependent column in the governed table, not the high-PAE column. The supported answer is B, Aminoglycosides.
+
+## answer_b
+Aminoglycosides
+
+## explanation_b
+Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification. The official MUST teaching directly supports Aminoglycosides for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Vancomycin
+
+## explanation_c
+Incorrect. Beta-lactams, Vancomycin and Penicillin are each listed under the minimal-PAE, time-dependent column in the governed table, not the high-PAE column. The supported answer is B, Aminoglycosides.
+
+## answer_d
+Penicillin
+
+## explanation_d
+Incorrect. Beta-lactams, Vancomycin and Penicillin are each listed under the minimal-PAE, time-dependent column in the governed table, not the high-PAE column. The supported answer is B, Aminoglycosides.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D061C3B8911EF4
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aminoglycoside PK/PD classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Aminoglycosides as the governed high-PAE drug class among the options.
+
+## source_citation
+Absalam101 Part 2, p43, Mucize Antibacterial (2) MCQ Q47, printed key p44 (47 = B); official MUST general antibacterial 2, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q47 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q19
+
+## title
+Which antibiotic is time-dependent with minimal PAE?
+
+## question
+Which antibiotic is time-dependent with minimal PAE?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Ciprofloxacin
+
+## explanation_a
+Incorrect. Ciprofloxacin and Gentamicin are not listed in this table's time-dependent-minimal-PAE column (Gentamicin is an aminoglycoside, concentration-dependent), and Metronidazole is listed under concentration-dependent, high PAE. The supported answer is C, Vancomycin.
+
+## answer_b
+Gentamicin
+
+## explanation_b
+Incorrect. Ciprofloxacin and Gentamicin are not listed in this table's time-dependent-minimal-PAE column (Gentamicin is an aminoglycoside, concentration-dependent), and Metronidazole is listed under concentration-dependent, high PAE. The supported answer is C, Vancomycin.
+
+## answer_c
+Vancomycin
+
+## explanation_c
+Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams. The official MUST teaching directly supports Vancomycin for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Metronidazole
+
+## explanation_d
+Incorrect. Ciprofloxacin and Gentamicin are not listed in this table's time-dependent-minimal-PAE column (Gentamicin is an aminoglycoside, concentration-dependent), and Metronidazole is listed under concentration-dependent, high PAE. The supported answer is C, Vancomycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-FD6B64970205C9
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin PK/PD classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Vancomycin as time-dependent with minimal PAE.
+
+## source_citation
+Absalam101 Part 2, p39, Mucize Antibacterial (2) MCQ Q19, printed key p44 (19 = C); official MUST general antibacterial 2, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q19 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q20
+
+## title
+Clindamycin is categorized as:
+
+## question
+Clindamycin is categorized as:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Time-dependent
+
+## explanation_a
+Incorrect. The governed table does not place Clindamycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column. The supported answer is C, Both time and concentration-dependent.
+
+## answer_b
+Concentration-dependent
+
+## explanation_b
+Incorrect. The governed table does not place Clindamycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column. The supported answer is C, Both time and concentration-dependent.
+
+## answer_c
+Both time and concentration-dependent
+
+## explanation_c
+Clindamycin is classified as both time- and concentration-dependent. The official MUST teaching directly supports Both time and concentration-dependent for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+None
+
+## explanation_d
+Incorrect. The governed table does not place Clindamycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column. The supported answer is C, Both time and concentration-dependent.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-1DCDE57508ED81
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Clindamycin PK/PD classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Classify Clindamycin as both time- and concentration-dependent.
+
+## source_citation
+Absalam101 Part 2, p39, Mucize Antibacterial (2) MCQ Q20, printed key p44 (20 = C); official MUST general antibacterial 2, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q20 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q34
+
+## title
+Which antibiotic is both time and concentration-dependent?
+
+## question
+Which antibiotic is both time and concentration-dependent?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Azithromycin
+
+## explanation_a
+Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent. The official MUST teaching directly supports Azithromycin for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Penicillin
+
+## explanation_b
+Incorrect. Penicillin, Vancomycin and Ampicillin are beta-lactam-class or glycopeptide agents listed under the time-dependent, minimal-PAE column, not the combined "both" column. The supported answer is A, Azithromycin.
+
+## answer_c
+Vancomycin
+
+## explanation_c
+Incorrect. Penicillin, Vancomycin and Ampicillin are beta-lactam-class or glycopeptide agents listed under the time-dependent, minimal-PAE column, not the combined "both" column. The supported answer is A, Azithromycin.
+
+## answer_d
+Ampicillin
+
+## explanation_d
+Incorrect. Penicillin, Vancomycin and Ampicillin are beta-lactam-class or glycopeptide agents listed under the time-dependent, minimal-PAE column, not the combined "both" column. The supported answer is A, Azithromycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-DA565D20A41E12
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Macrolide PK/PD classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Azithromycin as both time- and concentration-dependent.
+
+## source_citation
+Absalam101 Part 2, p41, Mucize Antibacterial (2) MCQ Q34, printed key p44 (34 = A); official MUST general antibacterial 2, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q34 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q49
+
+## title
+Clarithromycin is classified as:
+
+## question
+Clarithromycin is classified as:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Time-dependent
+
+## explanation_a
+Incorrect. The governed table does not place Clarithromycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column, unlike the printed key of this bank's own Q38. The supported answer is C, Both.
+
+## answer_b
+Concentration-dependent
+
+## explanation_b
+Incorrect. The governed table does not place Clarithromycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column, unlike the printed key of this bank's own Q38. The supported answer is C, Both.
+
+## answer_c
+Both
+
+## explanation_c
+Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent. The official MUST teaching directly supports Both for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Neither
+
+## explanation_d
+Incorrect. The governed table does not place Clarithromycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column, unlike the printed key of this bank's own Q38. The supported answer is C, Both.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-DA565D20A41E12
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Macrolide PK/PD classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Classify Clarithromycin as both time- and concentration-dependent, per the governed table.
+
+## source_citation
+Absalam101 Part 2, p43, Mucize Antibacterial (2) MCQ Q49, printed key p44 (49 = C); official MUST general antibacterial 2, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q49 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

@@ -5197,3 +5197,323 @@ The official MUST teaching deck directly supports the unchanged printed Mucize A
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states: "Concentration-dependent antibiotics 1- High Concentrations (more than MIC) are needed for optimal bactericidal effect. 2- Have high postantibiotic effect (PAE)."
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+general antibacterial 2 — Concentration-dependent definition
+
+## locator_detail
+PDF page 13, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q17 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states: "The time-dependent antibiotics 1-Time of drug administration is very important for optimum effect 2- Higher concentrations (more than MIC) do not result in greater killing of organisms. 3-They tend to have minimal (PAE)."
+
+## locator_type
+page
+
+## locator_page
+14
+
+## locator_section
+general antibacterial 2 — Time-dependent definition
+
+## locator_detail
+PDF page 14, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q32 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," alongside Fluoroquinolones and Metronidazole.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+general antibacterial 2 — Aminoglycoside PK/PD classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q18 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," while Beta-lactams, Vancomycin and Penicillin are all listed under "Time-Dependent (with minimal PAE)."
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+general antibacterial 2 — Aminoglycoside PK/PD classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q47 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official governed three-column table lists "1-Beta-lactams 2-Vancomycin" under "Time-Dependent (with minimal PAE)."
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+general antibacterial 2 — Vancomycin PK/PD classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q19 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official governed three-column table lists Clindamycin under "Time-Dependent, Concentration-Dependent," alongside Clarithromycin-Azithromycin, Erythromycin, Linezolid and Tetracyclines.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+general antibacterial 2 — Clindamycin PK/PD classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q20 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent."
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+general antibacterial 2 — Macrolide PK/PD classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q34 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent." This directly contradicts Q38 of the same printed bank, which keys Clarithromycin as concentration-dependent alone; the governed table sides with this item, not Q38, so Q38 is held on the contradiction rather than silently corrected.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+general antibacterial 2 — Macrolide PK/PD classification
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q49 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

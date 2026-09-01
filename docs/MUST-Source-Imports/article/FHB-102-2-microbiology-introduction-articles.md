@@ -3634,7 +3634,14 @@ This classification governs dosing strategy: concentration-dependent agents are 
 Do not classify vancomycin as concentration-dependent; the governed table places it under time-dependent, minimal PAE, alongside beta-lactams. Do not classify clarithromycin as concentration-dependent alone; the governed table places it under "both," not the concentration-dependent-only column.
 
 ### Governed evidence statements
-
+The official slide states: "Concentration-dependent antibiotics 1- High Concentrations (more than MIC) are needed for optimal bactericidal effect. 2- Have high postantibiotic effect (PAE)."
+The official slide states: "The time-dependent antibiotics 1-Time of drug administration is very important for optimum effect 2- Higher concentrations (more than MIC) do not result in greater killing of organisms. 3-They tend to have minimal (PAE)."
+The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," alongside Fluoroquinolones and Metronidazole.
+The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," while Beta-lactams, Vancomycin and Penicillin are all listed under "Time-Dependent (with minimal PAE)."
+The official governed three-column table lists "1-Beta-lactams 2-Vancomycin" under "Time-Dependent (with minimal PAE)."
+The official governed three-column table lists Clindamycin under "Time-Dependent, Concentration-Dependent," alongside Clarithromycin-Azithromycin, Erythromycin, Linezolid and Tetracyclines.
+The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent."
+The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent." This directly contradicts Q38 of the same printed bank, which keys Clarithromycin as concentration-dependent alone; the governed table sides with this item, not Q38, so Q38 is held on the contradiction rather than silently corrected.
 
 ## published_summary
 
@@ -3643,16 +3650,72 @@ Do not classify vancomycin as concentration-dependent; the governed table places
 
 
 ## hold_these
-
+Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect.
+Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing.
+Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect.
+Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification.
+Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams.
+Clindamycin is classified as both time- and concentration-dependent.
+Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent.
+Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent.
 
 ## lose_the_mark
-
+The governed slide assigns high PAE (not minimal PAE) and does not define concentration-dependent killing by prolonged infusion time or time above MIC; those describe the contrasting time-dependent category.
+The governed slide states time-dependent killers have minimal PAE (not a prioritised post-antibiotic effect) and do not benefit from higher peak concentrations, distinguishing them from concentration-dependent agents.
+The governed table places Aminoglycosides in the concentration-dependent column only, not the time-dependent or "both" columns.
+Beta-lactams, Vancomycin and Penicillin are each listed under the minimal-PAE, time-dependent column in the governed table, not the high-PAE column.
+Ciprofloxacin and Gentamicin are not listed in this table's time-dependent-minimal-PAE column (Gentamicin is an aminoglycoside, concentration-dependent), and Metronidazole is listed under concentration-dependent, high PAE.
+The governed table does not place Clindamycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column.
+Penicillin, Vancomycin and Ampicillin are beta-lactam-class or glycopeptide agents listed under the time-dependent, minimal-PAE column, not the combined "both" column.
+The governed table does not place Clarithromycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column, unlike the printed key of this bank's own Q38.
 
 ## callout_evidence
+### Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+Reviewed by: pending medical review
 
+### Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+Reviewed by: pending medical review
+
+### Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+Reviewed by: pending medical review
+
+### Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+Reviewed by: pending medical review
+
+### Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+Reviewed by: pending medical review
+
+### Clindamycin is classified as both time- and concentration-dependent.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+Reviewed by: pending medical review
+
+### Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+Reviewed by: pending medical review
+
+### Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+Reviewed by: pending medical review
 
 ## related_concepts
-
+CON-INF-713CC7D134054A
+CON-INF-D061C3B8911EF4
+CON-INF-FD6B64970205C9
+CON-INF-1DCDE57508ED81
+CON-INF-DA565D20A41E12
 
 ## related_articles
 ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES: Antimicrobial chemotherapy principles: spectrum, kill kinetics and general adverse effects
@@ -3660,26 +3723,85 @@ ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM: Carbapenems and monobactams
 ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE: Vancomycin clinical profile and pseudomembranous colitis
 
 ## question_ids
-
+QST-MUST-FHB1022-ANTIBACT2-Q17
+QST-MUST-FHB1022-ANTIBACT2-Q32
+QST-MUST-FHB1022-ANTIBACT2-Q18
+QST-MUST-FHB1022-ANTIBACT2-Q47
+QST-MUST-FHB1022-ANTIBACT2-Q19
+QST-MUST-FHB1022-ANTIBACT2-Q20
+QST-MUST-FHB1022-ANTIBACT2-Q34
+QST-MUST-FHB1022-ANTIBACT2-Q49
 
 ## resource_ids
-
-
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
-
+src_9a16b2156717527bf0ab
 
 ## claim_ids
-
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q49-01
 
 ## span_ids
-
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q49-01
 
 ## university_notes
-must: Global Q retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q17, Q32, Q18, Q47, Q19, Q20, Q34, Q49 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
+### definition_of · CON-INF-713CC7D134054A
+Quote: The official slide states: "Concentration-dependent antibiotics 1- High Concentrations (more than MIC) are needed for optimal bactericidal effect. 2- Have high postantibiotic effect (PAE)."
+Block: body
+Id: ann-must-fhb1022-antibact2-q17
 
+### definition_of · CON-INF-713CC7D134054A
+Quote: The official slide states: "The time-dependent antibiotics 1-Time of drug administration is very important for optimum effect 2- Higher concentrations (more than MIC) do not result in greater killing of organisms. 3-They tend to have minimal (PAE)."
+Block: body
+Id: ann-must-fhb1022-antibact2-q32
+
+### definition_of · CON-INF-D061C3B8911EF4
+Quote: The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," alongside Fluoroquinolones and Metronidazole.
+Block: body
+Id: ann-must-fhb1022-antibact2-q18
+
+### definition_of · CON-INF-D061C3B8911EF4
+Quote: The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," while Beta-lactams, Vancomycin and Penicillin are all listed under "Time-Dependent (with minimal PAE)."
+Block: body
+Id: ann-must-fhb1022-antibact2-q47
+
+### definition_of · CON-INF-FD6B64970205C9
+Quote: The official governed three-column table lists "1-Beta-lactams 2-Vancomycin" under "Time-Dependent (with minimal PAE)."
+Block: body
+Id: ann-must-fhb1022-antibact2-q19
+
+### definition_of · CON-INF-1DCDE57508ED81
+Quote: The official governed three-column table lists Clindamycin under "Time-Dependent, Concentration-Dependent," alongside Clarithromycin-Azithromycin, Erythromycin, Linezolid and Tetracyclines.
+Block: body
+Id: ann-must-fhb1022-antibact2-q20
+
+### definition_of · CON-INF-DA565D20A41E12
+Quote: The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent."
+Block: body
+Id: ann-must-fhb1022-antibact2-q34
+
+### definition_of · CON-INF-DA565D20A41E12
+Quote: The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent." This directly contradicts Q38 of the same printed bank, which keys Clarithromycin as concentration-dependent alone; the governed table sides with this item, not Q38, so Q38 is held on the contradiction rather than silently corrected.
+Block: body
+Id: ann-must-fhb1022-antibact2-q49
 
 ## media
 
@@ -3688,7 +3810,7 @@ must: Global Q retain literal student-bank wording, option order and printed key
 needs_evidence
 
 ## evidence_basis
-
+Official MUST FHB102-2 general antibacterial 2 deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps

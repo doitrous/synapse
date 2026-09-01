@@ -5717,3 +5717,355 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
 source question: Absalam Mucize Antibacterial (2) MCQ Q31
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+
+## concept_id
+CON-INF-713CC7D134054A
+
+## subject
+Concentration-dependent killing needs high concentrations above MIC; time-dependent killing needs duration above MIC
+
+## predicate
+states
+
+## object
+Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect.
+
+## display_text
+Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q17
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+
+## concept_id
+CON-INF-713CC7D134054A
+
+## subject
+Concentration-dependent killing needs high concentrations above MIC; time-dependent killing needs duration above MIC
+
+## predicate
+states
+
+## object
+Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing.
+
+## display_text
+Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q32
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+
+## concept_id
+CON-INF-D061C3B8911EF4
+
+## subject
+Aminoglycosides are concentration-dependent with high post-antibiotic effect
+
+## predicate
+states
+
+## object
+Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect.
+
+## display_text
+Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q18
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+
+## concept_id
+CON-INF-D061C3B8911EF4
+
+## subject
+Aminoglycosides are concentration-dependent with high post-antibiotic effect
+
+## predicate
+states
+
+## object
+Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification.
+
+## display_text
+Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q47
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+
+## concept_id
+CON-INF-FD6B64970205C9
+
+## subject
+Vancomycin is time-dependent with minimal post-antibiotic effect
+
+## predicate
+states
+
+## object
+Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams.
+
+## display_text
+Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+
+## concept_id
+CON-INF-1DCDE57508ED81
+
+## subject
+Clindamycin is both time- and concentration-dependent
+
+## predicate
+states
+
+## object
+Clindamycin is classified as both time- and concentration-dependent.
+
+## display_text
+Clindamycin is classified as both time- and concentration-dependent.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q20
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+
+## concept_id
+CON-INF-DA565D20A41E12
+
+## subject
+Clarithromycin and Azithromycin are both time- and concentration-dependent
+
+## predicate
+states
+
+## object
+Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent.
+
+## display_text
+Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q34
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+
+## concept_id
+CON-INF-DA565D20A41E12
+
+## subject
+Clarithromycin and Azithromycin are both time- and concentration-dependent
+
+## predicate
+states
+
+## object
+Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent.
+
+## display_text
+Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q49

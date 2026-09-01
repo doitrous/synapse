@@ -2857,3 +2857,179 @@ CLM-INF-MUST-FHB1022-ANTIBACT2-Q31-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q17-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q32-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q18-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q47-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Clindamycin is classified as both time- and concentration-dependent.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q20-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q34-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-pharmacodynamics-definition
+
+## text
+Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q49-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q49-01

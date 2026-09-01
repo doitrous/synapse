@@ -2332,7 +2332,7 @@ const mucizeAntibacterialTwoPharmacodynamicsItems = [
   primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
 }))
 
-// STAGED-COMMIT-MARKER-C: microItems.push(...mucizeAntibacterialTwoPharmacodynamicsItems)
+microItems.push(...mucizeAntibacterialTwoPharmacodynamicsItems)
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -14047,5 +14047,35 @@ function microCoverage() {
     .replace(
       'Governed answer observations: 5,211 total; 229 clean source-keyed prompts authored; **4,982 raw answer observations remain**, including the 281 held printed-key observations',
       'Governed answer observations: 5,211 total; 248 clean source-keyed prompts authored; **4,963 raw answer observations remain**, including the 312 held printed-key observations',
+    )
+    // Mucize Pharmacology — Antibacterial (2), Q1-Q50 (physical pages 37-44).
+    // Full per-question triage: docs/MUST-Source-Imports/coverage/FHB102-2-antibacterial-2-triage.md.
+    .replace(
+      'Mucize Antibacterial (1): **19 authored / 31 held / 0 source-absent**. The exact next boundary is the next unstarted Mucize source cluster (see CLAUDE-HANDOVER.md).\n',
+      'Mucize Antibacterial (1): **19 authored / 31 held / 0 source-absent**. The exact next boundary is the next unstarted Mucize source cluster (see CLAUDE-HANDOVER.md).\n\n'
+      + '### Mucize Antibacterial (2) delta\n\n'
+      + '- Full per-question triage of Q1-Q50 against the p.44 answer table: 25 authored, 25 held, 0 source-absent, 1 internal contradiction pair (Q38/Q49 disagree on Clarithromycin\'s PK/PD class; the governed source sides with Q49, so Q38 is held rather than silently corrected).\n'
+      + '- +1 new evidence resource: `general antibacterial 2.pdf` (15 pages, cache-searched then spot-read at the hit pages, not fully re-rendered) — carried almost every fact this cluster needed in one dense deck.\n'
+      + '- +25 claims, +25 citations, +25 article spans, +18 under-review concepts (6 shared across question pairs testing complementary facts from the same teaching bullet, per the existing narrow/broad-spectrum precedent), +2 new articles (antimicrobialClinicalUse for chemoprophylaxis regimens and the biliary-tract-infection drug list; antimicrobialPharmacodynamics for the concentration-/time-dependent PK/PD classification framework, neither of which any existing pharmacology article covered), +25 Draft questions.\n'
+      + '- Extended three existing articles (otherBetaLactams, vancomycinClinical, cellWallAntibiotics) with new sections/key-determinants for this cluster\'s additional facts about the same drug classes, rather than creating redundant articles.\n'
+      + '- Fixed a pre-existing generator bug found while gating this batch: the per-article annotations block keyed its Id off the literal string "micro" plus the raw bank question number only, ignoring idPrefix, so this cluster\'s Q21 collided with the existing PHARM2 Q21 (both in otherBetaLactams). Fixed to key off idPrefix like every sibling id function already does.\n'
+      + '- Also registered the new resource in `FHB-102-2-parasitology-introduction-sources.md` (introSources()), the actual resource-kind registry gate.mjs simulate reads, not corpus-source-index.json alone.\n'
+      + '- Mucize Antibacterial (2): **25 authored / 25 held / 0 source-absent**. The next source boundary is physical page 45, "Advanced MCQs" — out of scope (prior MUST session history exists for that section per CLAUDE-HANDOVER.md).\n',
+    )
+    .replace('| Evidence resources | 31 |', '| Evidence resources | 32 |')
+    .replace('| Claims | 248 |', '| Claims | 273 |')
+    .replace('| Citations | 253 |', '| Citations | 278 |')
+    .replace('| Article spans | 248 |', '| Article spans | 273 |')
+    .replace('| Concepts | 177 |', '| Concepts | 195 |')
+    .replace('| Articles | 45 |', '| Articles | 47 |')
+    .replace('| Questions | 248 |', '| Questions | 273 |')
+    .replace('| Question authoring holds | 312 |', '| Question authoring holds | 337 |')
+    .replace(
+      'Governed prompt observations: 5,444 total; 248 authored; **5,196 raw prompt observations remain**, including 312 explicit holds and two source-absent prompts',
+      'Governed prompt observations: 5,444 total; 273 authored; **5,171 raw prompt observations remain**, including 337 explicit holds and two source-absent prompts',
+    )
+    .replace(
+      'Governed answer observations: 5,211 total; 248 clean source-keyed prompts authored; **4,963 raw answer observations remain**, including the 312 held printed-key observations',
+      'Governed answer observations: 5,211 total; 273 clean source-keyed prompts authored; **4,938 raw answer observations remain**, including the 337 held printed-key observations',
     )
 }
