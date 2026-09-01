@@ -2703,3 +2703,25 @@ CLM-INF-MUST-FHB1022-MUCIZEADV-Q19-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZEADV-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Non-volatile oils sprayed on water surfaces form a continuous film that acts as a respiratory poison, suffocating mosquito eggs, larvae and pupae.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q26-01

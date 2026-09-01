@@ -5409,3 +5409,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Advanced MCQ Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+
+## concept_id
+CON-INF-C9A3D62F58B417
+
+## subject
+Non-volatile oils suffocate mosquito aquatic stages as chemical control
+
+## predicate
+states
+
+## object
+Non-volatile oils sprayed on water surfaces form a continuous film that acts as a respiratory poison, suffocating mosquito eggs, larvae and pupae.
+
+## display_text
+Non-volatile oils sprayed on water surfaces form a continuous film that acts as a respiratory poison, suffocating mosquito eggs, larvae and pupae.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Advanced MCQ Q26

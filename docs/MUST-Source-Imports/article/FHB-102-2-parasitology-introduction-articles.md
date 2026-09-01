@@ -3858,6 +3858,7 @@ Malathion is listed as a residual organophosphorus mosquito insecticide.
 Installing window screens is a mechanical mosquito-control measure.
 Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
 Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
+Non-volatile oils sprayed on water surfaces form a continuous film that acts as a respiratory poison, suffocating mosquito eggs, larvae and pupae.
 
 ## published_summary
 
@@ -3876,6 +3877,7 @@ Installing window screens is a mechanical mosquito-control measure.
 Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
 Using Gambusia fish is a biological mosquito-control method.
 Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
+Non-volatile oils sprayed on water surfaces form a continuous film that acts as a respiratory poison, suffocating mosquito eggs, larvae and pupae.
 
 ## lose_the_mark
 Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection.
@@ -3888,6 +3890,7 @@ Spraying is chemical, while fish and Bacillus thuringiensis are biological contr
 Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only.
 DDT is chemical control, window screens are mechanical control and mosquito coils are repellents.
 Paris green is not presented as an adulticide or ovicide, and non-feeding pupae are not affected.
+Light traps are mechanical, Bacillus thuringiensis is biological and genetic sterilization is not the governed chemical method for larvae.
 
 ## callout_evidence
 ### Using Gambusia fish is a biological mosquito-control method.
@@ -3940,6 +3943,11 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q62-01
 Reviewed by: pending medical review
 
+### Non-volatile oils sprayed on water surfaces form a continuous film that acts as a respiratory poison, suffocating mosquito eggs, larvae and pupae.
+Claims: CLM-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-863856AB7138F8
 CON-INF-BDA58A5572D741
@@ -3949,6 +3957,7 @@ CON-INF-526EC45FD5407A
 CON-INF-2C5809D3326AEE
 CON-INF-7DD1BECF36B7C0
 CON-INF-DE8BA9EC7D8688
+CON-INF-C9A3D62F58B417
 
 ## related_articles
 ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY: Mosquito taxonomy, morphology, life cycle and bionomics
@@ -3965,6 +3974,7 @@ QST-MUST-FHB1022-PARA-MOSQ2-Q28
 QST-MUST-FHB1022-PARA-MOSQ2-Q30
 QST-MUST-FHB1022-PARA-MUCIZE-Q60
 QST-MUST-FHB1022-PARA-MUCIZE-Q62
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q26
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
@@ -3985,6 +3995,7 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q26-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q21-01
@@ -3997,6 +4008,7 @@ SPN-INF-MUST-FHB1022-MOSQ2-Q28-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q30-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q60-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q62-01
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q26-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -4051,6 +4063,11 @@ Id: ann-must-fhb1022-mucize-q60
 Quote: Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
 Block: body
 Id: ann-must-fhb1022-mucize-q62
+
+### definition_of · CON-INF-C9A3D62F58B417
+Quote: Non-volatile oils sprayed on water surfaces form a continuous film that acts as a respiratory poison, suffocating mosquito eggs, larvae and pupae.
+Block: body
+Id: ann-must-fhb1022-mucizeadv-q26
 
 ## media
 

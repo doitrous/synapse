@@ -4917,3 +4917,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q26-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official chemical-control slide states that non-volatile oil, such as solar, diesel or waste engine oil, forms a continuous film when sprayed on the water surface and acts as a respiratory poison that suffocates and poisons aquatic forms by inhalation.
+
+## locator_type
+page
+
+## locator_page
+39
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Chemical mosquito control
+
+## locator_detail
+PDF page 39, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Advanced MCQ Q26 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
