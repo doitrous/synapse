@@ -81,7 +81,8 @@ struct SignedInView: View {
             Tab(strings("Today"), systemImage: "sun.max", value: Destination.today) {
                 DashboardView(
                     store: container.store, sync: container.sync,
-                    user: user, auth: auth, audienceStore: container.audienceStore
+                    user: user, auth: auth, audienceStore: container.audienceStore,
+                    openTab: { tab = $0 }
                 )
             }
             Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
