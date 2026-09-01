@@ -1,0 +1,22 @@
+{
+ "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-battledore-mcq.md",
+ "kind": "question",
+ "items": 1,
+ "fieldsUsed": 49,
+ "warnings": [
+  "explanation of the correct answer, across 1 question(s): shortest 435 chars, median 435; 0% under 200 chars, 0% under 3 sentences."
+ ],
+ "difficulty": {
+  "Easy": 1
+ },
+ "conceptsTested": 1,
+ "mediaFlagged": 0,
+ "notes": [
+  "docs/Ain-Shams-Source-Imports/resource/ASU-AE-embryo3-resources.md: 1 catalogue-resource rows treated as pending import",
+  "QST-DEV-ASU-AE-EMBRYO3-BATTLEDORE-PLACENTA: main concept CON-OBS-C095B75A61EA4F has not passed the evidence gate (needs_evidence) — promote the concept and the question together"
+ ],
+ "errors": [
+  "Item 1 (Umbilical cord attached to the placental margin): no library_ids — nothing teaches this question's answer",
+  "Item 1 (Umbilical cord attached to the placental margin): main concept CON-OBS-C095B75A61EA4F is not covered by any article in library_ids"
+ ]
+}

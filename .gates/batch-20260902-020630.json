@@ -1,0 +1,25 @@
+{
+ "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-newfacts-mcq.md",
+ "kind": "question",
+ "items": 4,
+ "fieldsUsed": 49,
+ "warnings": [
+  "explanation of the correct answer, across 4 question(s): shortest 388 chars, median 442; 0% under 200 chars, 0% under 3 sentences."
+ ],
+ "difficulty": {
+  "Moderate": 4
+ },
+ "conceptsTested": 3,
+ "mediaFlagged": 0,
+ "notes": [
+  "docs/Ain-Shams-Source-Imports/concept/ASU-AE-embryo3-new-facts-concepts.md: 3 concept rows treated as pending import",
+  "docs/Ain-Shams-Source-Imports/article/ASU-AE-embryo3-new-facts-articles.md: 1 article rows treated as pending import",
+  "docs/Ain-Shams-Source-Imports/resource/ASU-AE-embryo3-resources.md: 1 catalogue-resource rows treated as pending import",
+  "docs/Alexandria-Source-Imports/concept/AU-MED-102-embryology-concepts.md: 5 concept rows treated as pending import",
+  "QST-DEV-ASU-AE-EMBRYO3-ADRENAL-ORIGIN: main concept CON-DEV-ASU-AE-ADRENAL-ORIGIN has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-HEPARIN-NOT-TERATOGENIC: main concept CON-DEV-ASU-AE-TERATOGEN-PRINCIPLES has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-POLYHYDRAMNIOS-GI: main concept CON-DEV-ASU-AE-POLYHYDRAMNIOS-GI has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-TERATOGEN-FIRST-TRIMESTER: main concept CON-DEV-ASU-AE-TERATOGEN-PRINCIPLES has not passed the evidence gate (needs_evidence) — promote the concept and the question together"
+ ],
+ "errors": []
+}

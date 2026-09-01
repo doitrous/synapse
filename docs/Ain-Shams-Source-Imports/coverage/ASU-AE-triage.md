@@ -1,5 +1,29 @@
 # ASU-AE triage — Phase 1
 
+**Phase 3 triage + authoring update (2026-09-02, author5):** Corpus root moved — `~/Desktop/ain
+shams` is retired, the same file now lives at `~/Desktop/Universities/Ain Shams/...` (sha256
+`3448fabd…` confirmed identical to the manifest's `src_3448fabd352cb8018ed3`). Read all 20 pages
+of `MCQs - Embryo 3.pdf` (OCR'd whole-file once; pages 1, 2, 5, 7, 13, 17, 18, 19, 20 re-rendered
+at 300 DPI because the CamScanner OCR either garbled symbols or, on p.18 specifically, the scan
+itself is physically cropped — the answer-key table's "Remarks" column is cut off from row 36
+onward, though the answer **letters** for every row stay legible and were cross-checked against
+each stem's own embryology logic). All 104 printed items read, keyed and triaged; full disposition
+table below. One printed-key defect found (Q10 — see below). Search-before-mint
+(`find-existing.mjs`, four-query pattern) found this block is **overwhelmingly live-hit or
+pending-hit against Kasr's own `101-ISK-mcq-concepts.md`**, exactly as the Phase-1 block note
+below predicted (notochord 34 hits, somite 51 hits) — 15 of this file's own comprehensive
+week-3/derivatives/syndrome/umbilical-cord concepts cover 87 of the 104 questions between them,
+so this pass authored almost entirely as sparse pending-live overlays rather than new mints (3
+genuinely new facts: adrenal cortex/medulla split origin, teratogen critical-period + a
+non-teratogenic-drug example, and polyhydramnios from GI atresia — none of which `find-existing`
+matched anywhere). **42 authored, 52 held as within-paper or cross-batch duplicates of an
+authored question, 10 held as a matching-format cluster (same exclusion Embryo 1 made for its own
+Q19–23), 1 held for a printed key that doesn't match its own stem — 104/104 disposed, cluster
+closed.** See `## Embryo 3 — full disposition (104/104)` below for the per-question table,
+`coverage/seeds/ASU-AE/embryo3-*.json` for the seeds, and
+`pending-live/ASU-AE-EMBRYO3-overlay-concepts.md` for the 12 sparse concept overlays (Kasr
+101-ISK + Alexandria AU-MED-102 + one live CON-OBS record).
+
 **Phase 2b authoring update (2026-08-28):** authored 21 of "MCQs - Embryo 2.pdf"'s 69 printed
 items (src_a7e3b821ab294015c05f, fertilization mechanics/placenta/twins block) as
 `docs/Ain-Shams-Source-Imports/{concept,article,question,evidence}/ASU-AE-embryology-fertilization-placenta-*.md`
@@ -137,3 +161,128 @@ terminology (langer's lines, twinning) is more likely genuinely new.
     classification facts) looks like the most likely genuinely-new territory; placement `dev` for
     embryology concepts, `fnd`/body-system for generic anatomy terms (same open question flagged in the
     ASU-HCB triage file).
+
+## Embryo 3 — full disposition (104/104)
+
+Source: `MCQs - Embryo 3.pdf` (src_3448fabd352cb8018ed3), 20 pages, printed answer-key table
+p.17–18 (letters) + explanation prose p.19–20. Concept-id column gives the concept the question's
+fact is tested against; "AUTHOR" rows have a seed in `coverage/seeds/ASU-AE/embryo3-*.json`,
+"HOLD" rows carry a `hold` reason in the same seeds (dup-of-Qn = same fact as an authored question,
+tested from a different angle or a different wrong-answer set).
+
+**Q10 anomaly:** printed key row 10 reads letter `e` / remark "Pia matter," but Q10's own five
+printed options (Adrenal cortex / Dura mater / Melanocyte / Dermis of skin / Heart) contain no
+"pia mater" at all, and the only embryologically correct ectoderm-derived option among the five is
+`c` (Melanocyte) — option `e` (Heart) is mesodermal, not ectodermal, so the printed key is not
+just surprising but wrong against its own stem. Rows 9 and 11 both check out cleanly against their
+own stems (and "pia mater" turns up correctly as a real distractor in the unrelated Q72), so this
+looks like an isolated single-row erratum in the source rather than a systematic offset. Held per
+schema `hold` convention ("printed key conflicts with the stem"), not authored either way.
+
+| Q | Key | Fact | Disposition |
+|---|---|---|---|
+| 1 | a | Primitive streak develops from epiblast | AUTHOR — `CON-DEV-215BD7E9E58872` |
+| 2 | a | Dermis develops from somites | HOLD dup-of-Q67/Q104 |
+| 3 | c | Klinefelter = 44+XXY | AUTHOR — `CON-FND-5097CA5BAB2E51` |
+| 4 | c | Battledore placenta = cord at placental margin | AUTHOR — `CON-OBS-C095B75A61EA4F` (live) |
+| 5 | a | Major source of intraembryonic mesoderm = primitive streak | HOLD dup-of-Q81 |
+| 6 | d | Normal amniotic fluid volume at birth ≈1000 mL | AUTHOR — `CON-DEV-3D26C14BF0AA28` |
+| 7 | b | Turner via chromosomal monosomy | HOLD dup-of-Q43 |
+| 8 | c | Klinefelter = 44+XXY | HOLD dup-of-Q3 |
+| 9 | c | Kidneys from intermediate cell mass | AUTHOR — `CON-DEV-2E3E3098D90C0C` |
+| 10 | e* | *(printed key does not match its own stem — see note above)* | HOLD indefensible key |
+| 11 | e | Only the left umbilical vein persists at full term | AUTHOR — `CON-DEV-134C8B5E98D759` |
+| 12 | b | Dermis is the mesodermal part of skin | HOLD dup-of-Q67/Q104 |
+| 13 | d | Respiratory passages are endodermal | AUTHOR — `CON-DEV-C84AD85AB265CC` |
+| 14 | a | Oligohydramnios → renal agenesis | HOLD dup-of-Q26 |
+| 15 | b | Turner = 44+XO | HOLD dup-of-Q43 |
+| 16 | e | Paraxial mesoderm → dermis | HOLD dup-of-Q67/Q104 |
+| 17 | c | Day 22 → 7 somites | AUTHOR — `CON-DEV-3AB7E19B99F387` |
+| 18 | d | Anterior neuropore closes ~day 25 | AUTHOR — `CON-DEV-4BC4233153C3DC` |
+| 19 | c | Klinefelter = 44+XXY | HOLD dup-of-Q3 |
+| 20 | a | Axial skeleton from paraxial mesoderm | HOLD dup-of-Q104 |
+| 21 | e | Klinefelter = 44+XXY | HOLD dup-of-Q3 |
+| 22 | c | Allantois lies within the connecting stalk | AUTHOR — `CON-DEV-134C8B5E98D759` |
+| 23 | e | Adrenal cortex is mesodermal (medulla is neural crest) | AUTHOR — mint `CON-DEV-ASU-AE-ADRENAL-ORIGIN` |
+| 24 | a | Axial skeleton from somites | HOLD dup-of-Q104 |
+| 25 | c | Bronchial tree is endodermal | HOLD dup-of-Q13 |
+| 26 | c | Oligohydramnios → renal agenesis | AUTHOR — `CON-DEV-3D26C14BF0AA28` |
+| 27 | c | Klinefelter = 44+XXY | HOLD dup-of-Q3 |
+| 28 | c | Heparin is not teratogenic (doesn't cross placenta) | AUTHOR — mint `CON-DEV-ASU-AE-TERATOGEN-PRINCIPLES` |
+| 29 | d | Day 23 → 10 somite pairs | HOLD dup-of-Q17 |
+| 30 | a | Brain is ectodermal | HOLD dup-of-Q13 (low-value repeat) |
+| 31 | e | Down syndrome = trisomy 21 | AUTHOR — `CON-FND-5097CA5BAB2E51` |
+| 32 | a | Polyhydramnios → esophageal/GI atresia | AUTHOR — mint `CON-DEV-ASU-AE-POLYHYDRAMNIOS-GI` |
+| 33 | a | Kidneys from intermediate cell mass | HOLD dup-of-Q9 |
+| 34 | c | First somite pair appears day 20 | AUTHOR — `CON-DEV-3AB7E19B99F387` |
+| 35 | e | Retina is from the neural tube, not the neural crest | AUTHOR — `CON-DEV-785CE84F7C03DB` |
+| 36 | d | Umbilical cord = 2 arteries + 1 vein | HOLD dup-of-Q11 |
+| 37 | b | GI anomaly → polyhydramnios | HOLD dup-of-Q32 |
+| 38 | b | Nucleus pulposus from notochord | HOLD dup-of-Q86 |
+| 39 | a | GIT epithelium is endodermal | HOLD dup-of-Q13 |
+| 40 | c | Melanocytes are from the neural crest | AUTHOR — `CON-DEV-785CE84F7C03DB` |
+| 41 | b | Notochord induces development of the nervous system | AUTHOR — `CON-DEV-4BC4233153C3DC` |
+| 42 | d | Neural crest derivatives EXCEPT dura mater (mesodermal) | AUTHOR — `CON-DEV-785CE84F7C03DB` |
+| 43 | b | Turner = 44+XO | AUTHOR — `CON-FND-5097CA5BAB2E51` |
+| 44 | d | Gastrulation occurs in the 3rd week | AUTHOR — `CON-DEV-215BD7E9E58872` |
+| 45 | e | Notochord derived from epiblast | AUTHOR — `CON-DEV-1BCF37C48AF307` |
+| 46 | b | Lateral folding forms the elongated gut tube | AUTHOR — `CON-DEV-44A219B862FFD5` |
+| 47 | b | Somites do not give epidermis | HOLD dup-of-Q104 |
+| 48 | a | Gut epithelium is endodermal | HOLD dup-of-Q13 |
+| 49 | c | Blood/lymphatic vessels are mesodermal | AUTHOR — `CON-DEV-2E3E3098D90C0C` |
+| 50 | c | Neurenteric canal connects amniotic cavity & yolk sac | AUTHOR — `CON-DEV-1BCF37C48AF307` |
+| 51 | e | Connecting stalk is not a mesoderm subdivision | HOLD dup-of-Q9/Q49 |
+| 52 | c | Umbilical cord anatomy at birth (EXCEPT) | HOLD dup-of-Q11 |
+| 53 | c | Somite onset day | HOLD dup-of-Q34 |
+| 54 | b | Esophageal atresia → hydramnios | HOLD dup-of-Q32 |
+| 55–59 | a/c/e/b/d | Matching cluster: syndrome → chromosomal formula | HOLD matching-format, not attempted (Embryo 1's own Q19–23 precedent) |
+| 60–64 | a/d/e/b/c | Matching cluster: syndrome → chromosomal alteration | HOLD matching-format, not attempted |
+| 65 | b | Mesoderm absent at the oral (oropharyngeal) membrane | HOLD dup-of-Q82 |
+| 66 | d | Day 26 → 19 somites | HOLD dup-of-Q17 |
+| 67 | d | Skin develops from ectoderm AND mesoderm | AUTHOR — `CON-DEV-5E63C211DEEE00` |
+| 68 | c | Dorsal root ganglion from neural crest | HOLD dup-of-Q42 |
+| 69 | b | Primitive-streak formation = start of gastrulation | HOLD dup-of-Q1 |
+| 70 | d | Neurenteric canal (amniotic cavity ↔ yolk sac) | HOLD dup-of-Q50 |
+| 71 | a | Visceral pericardium from splanchnic layer of lateral plate mesoderm | AUTHOR — `CON-DEV-2E3E3098D90C0C` |
+| 72 | b | Neural tube forms brain & spinal cord | HOLD dup-of-Q35/Q41 |
+| 73 | c | Primitive node — INCORRECT statement (not yet ecto/endoderm) | HOLD dup-of-Q1/Q44 |
+| 74 | b | Cloacal membrane at caudal end (ecto+endo meet) | HOLD dup-of-Q81/Q82 |
+| 75 | c | Intraembryonic mesoderm develops in 3rd week | HOLD dup-of-Q44 |
+| 76 | a | Neural crest appears at neural fold margins | HOLD dup-of-Q35/Q40/Q42 |
+| 77 | e | Alveolar lining epithelium is endodermal | HOLD dup-of-Q13 |
+| 78 | d | Folding: connecting stalk becomes ventral (not dorsal) | AUTHOR — `CON-DEV-44A219B862FFD5` |
+| 79 | a | Somites develop from paraxial (not lateral plate) mesoderm | HOLD dup-of-Q104 |
+| 80 | a | Segmentation is seen in paraxial mesoderm | HOLD dup-of-Q104 |
+| 81 | d | Sources of intraembryonic mesoderm = streak + node + notochord (all) | AUTHOR — `CON-DEV-215BD7E9E58872` |
+| 82 | e | Intraembryonic mesoderm absent at 4 named sites (all) | AUTHOR — `CON-DEV-215BD7E9E58872` |
+| 83 | d | Neural plate = ectoderm dorsal to the notochord | AUTHOR — `CON-DEV-4BC4233153C3DC` |
+| 84 | c | Oropharyngeal membrane at cranial end | HOLD dup-of-Q81/Q82 |
+| 85 | a | Notochord is ectodermal, not endodermal, in origin | HOLD dup-of-Q45 |
+| 86 | b | Notochord forms the nucleus pulposus | AUTHOR — `CON-DEV-1BCF37C48AF307` |
+| 87 | c | Pancreas is endodermal | AUTHOR — `CON-DEV-C84AD85AB265CC` |
+| 88 | b | Dermis of skin is mesodermal (ectoderm EXCEPT) | HOLD dup-of-Q67 |
+| 89 | c | GIT epithelium is endodermal (ectoderm EXCEPT) | HOLD dup-of-Q13 |
+| 90 | e | Notochord is not a fetal membrane | AUTHOR — `CON-DEV-1BCF37C48AF307` |
+| 91 | c | Definitive yolk sac lies within the umbilical cord | AUTHOR — `CON-DEV-1D10DF3B716A70` |
+| 92 | c | Secondary yolk sac cavity is endoderm-lined | HOLD cross-batch dup — same concept Embryo 2 already tested (Q7) |
+| 93 | c | Amnion helps, not prevents, fetal movements | AUTHOR — `CON-DEV-F356C3B8CFD31E` |
+| 94 | d | Primitive umbilical cord contains 2 umbilical arteries | AUTHOR — `CON-DEV-134C8B5E98D759` |
+| 95 | c | Wharton's-jelly accumulation causes false (not true) knots | AUTHOR — `CON-DEV-3E918A4C74B56D` |
+| 96 | b | Teratogenic effect is greatest in the 1st trimester | AUTHOR — mint `CON-DEV-ASU-AE-TERATOGEN-PRINCIPLES` |
+| 97 | c | Somatic layer of lateral plate mesoderm → body-wall supportive elements | HOLD dup-of-Q71 |
+| 98 | c | Down syndrome = trisomy of autosomes | HOLD dup-of-Q31 |
+| 99 | a | Allantois = diverticulum of the hindgut | AUTHOR — `CON-DEV-1D10DF3B716A70` |
+| 100 | c | Enamel of teeth is ectodermal (mesoderm EXCEPT) | HOLD dup-of-Q13/Q87 (low-value repeat) |
+| 101 | b | Neural crest EXCEPT dura mater | HOLD dup-of-Q42 |
+| 102 | b | Ectoderm EXCEPT suprarenal cortex (mesodermal) | HOLD dup-of-Q23 |
+| 103 | e | Mesoderm EXCEPT suprarenal medulla (neural crest) | HOLD dup-of-Q23 |
+| 104 | e | Somite differentiation: sclerotome/myotome/dermatome (all correct) | AUTHOR — `CON-DEV-5E63C211DEEE00` |
+
+**Totals: 42 authored, 52 held as duplicate-of-an-authored-question, 10 held as matching-format,
+1 held as indefensible printed key — 104/104 disposed.** Concepts touched: 12 sparse overlays onto
+pending Kasr `101-ISK-mcq-concepts.md` records, 1 sparse overlay onto a pending Alexandria
+`AU-MED-102-embryology-concepts.md` record, 1 sparse overlay onto a live `CON-OBS` record, 1
+extension of Embryo 2's own existing `CON-DEV-1D10DF3B716A70` overlay (same concept, two more
+Embryo-3 questions), and 3 newly minted ASU-AE concepts (adrenal cortex/medulla origin, teratogen
+principles, polyhydramnios-from-GI-atresia) — all four search-before-mint queries came back empty
+for these three.

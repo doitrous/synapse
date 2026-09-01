@@ -1,0 +1,23 @@
+{
+ "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-somites-mcq.md",
+ "kind": "question",
+ "items": 2,
+ "fieldsUsed": 49,
+ "warnings": [
+  "explanation of the correct answer, across 2 question(s): shortest 339 chars, median 400; 0% under 200 chars, 0% under 3 sentences."
+ ],
+ "difficulty": {
+  "Moderate": 1,
+  "Easy": 1
+ },
+ "conceptsTested": 1,
+ "mediaFlagged": 0,
+ "notes": [
+  "docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md: 260 concept rows treated as pending import",
+  "docs/Kasr-Source-Imports/article/101-ISK-anatomy.md: 39 article rows treated as pending import",
+  "docs/Ain-Shams-Source-Imports/resource/ASU-AE-embryo3-resources.md: 1 catalogue-resource rows treated as pending import",
+  "QST-DEV-ASU-AE-EMBRYO3-SOMITE-COUNT-DAY22: main concept CON-DEV-3AB7E19B99F387 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-FIRST-SOMITE-DAY: main concept CON-DEV-3AB7E19B99F387 has not passed the evidence gate (needs_evidence) — promote the concept and the question together"
+ ],
+ "errors": []
+}

@@ -1,0 +1,13 @@
+
+/* stderr */
+file:///Users/doitrous/Documents/CodexGPT/Codex-Synapse%20continue%20on%20Claude/ClaudeSynapse/.claude/worktrees/asu-ae-author5/scripts/validate-content-batch.mjs:155
+  throw new Error(`Unrecognised argument "${arg}". Only --with <file> is accepted after the batch path.`)
+        ^
+
+Error: Unrecognised argument "docs/Kasr-Source-Imports/article/101-ISK-histology-2.md". Only --with <file> is accepted after the batch path.
+    at file:///Users/doitrous/Documents/CodexGPT/Codex-Synapse%20continue%20on%20Claude/ClaudeSynapse/.claude/worktrees/asu-ae-author5/scripts/validate-content-batch.mjs:155:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:633:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.16.0

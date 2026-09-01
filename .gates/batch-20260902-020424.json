@@ -1,0 +1,32 @@
+{
+ "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-syndromes-mcq.md",
+ "kind": "question",
+ "items": 3,
+ "fieldsUsed": 49,
+ "warnings": [
+  "explanation of the correct answer, across 3 question(s): shortest 442 chars, median 473; 0% under 200 chars, 0% under 3 sentences."
+ ],
+ "difficulty": {
+  "Easy": 2,
+  "Moderate": 1
+ },
+ "conceptsTested": 1,
+ "mediaFlagged": 0,
+ "notes": [
+  "docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md: 260 concept rows treated as pending import",
+  "QST-DEV-ASU-AE-EMBRYO3-KLINEFELTER-GENOTYPE: main concept CON-FND-5097CA5BAB2E51 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-DOWN-TRISOMY21-GENOTYPE: main concept CON-FND-5097CA5BAB2E51 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-TURNER-GENOTYPE: main concept CON-FND-5097CA5BAB2E51 has not passed the evidence gate (needs_evidence) — promote the concept and the question together"
+ ],
+ "errors": [
+  "Item 1 (Which syndrome has 44+XXY chromosomes?): module_subject starts with \"101 ISK\", which is not a module this record declares (ASU-AE)",
+  "Item 1 (Which syndrome has 44+XXY chromosomes?): library_ids ART-101-HIS-NUCLEUS is not an article that exists",
+  "Item 1 (Which syndrome has 44+XXY chromosomes?): resource_ids src_3448fabd352cb8018ed3 is not a resource that exists",
+  "Item 2 (Chromosomal formula of a boy with Down's syndrome): module_subject starts with \"101 ISK\", which is not a module this record declares (ASU-AE)",
+  "Item 2 (Chromosomal formula of a boy with Down's syndrome): library_ids ART-101-HIS-NUCLEUS is not an article that exists",
+  "Item 2 (Chromosomal formula of a boy with Down's syndrome): resource_ids src_3448fabd352cb8018ed3 is not a resource that exists",
+  "Item 3 (Turner's syndrome genotype): module_subject starts with \"101 ISK\", which is not a module this record declares (ASU-AE)",
+  "Item 3 (Turner's syndrome genotype): library_ids ART-101-HIS-NUCLEUS is not an article that exists",
+  "Item 3 (Turner's syndrome genotype): resource_ids src_3448fabd352cb8018ed3 is not a resource that exists"
+ ]
+}

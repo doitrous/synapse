@@ -1,0 +1,24 @@
+{
+ "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-syndromes-mcq.md",
+ "kind": "question",
+ "items": 3,
+ "fieldsUsed": 49,
+ "warnings": [
+  "explanation of the correct answer, across 3 question(s): shortest 442 chars, median 473; 0% under 200 chars, 0% under 3 sentences."
+ ],
+ "difficulty": {
+  "Easy": 2,
+  "Moderate": 1
+ },
+ "conceptsTested": 1,
+ "mediaFlagged": 0,
+ "notes": [
+  "docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md: 260 concept rows treated as pending import",
+  "docs/Kasr-Source-Imports/article/101-ISK-histology-2.md: 12 article rows treated as pending import",
+  "docs/Ain-Shams-Source-Imports/resource/ASU-AE-embryo3-resources.md: 1 catalogue-resource rows treated as pending import",
+  "QST-DEV-ASU-AE-EMBRYO3-KLINEFELTER-GENOTYPE: main concept CON-FND-5097CA5BAB2E51 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-DOWN-TRISOMY21-GENOTYPE: main concept CON-FND-5097CA5BAB2E51 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-TURNER-GENOTYPE: main concept CON-FND-5097CA5BAB2E51 has not passed the evidence gate (needs_evidence) — promote the concept and the question together"
+ ],
+ "errors": []
+}

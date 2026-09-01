@@ -1,0 +1,83 @@
+{
+  "lane": "ASU-AE",
+  "cluster": "embryo3-amnioticfluid",
+  "header": "ASU-AE · Embryology > Questions > Embryo 3 — amniotic-fluid-volume cluster, sparse overlay onto Alexandria's own pending `AU-MED-102-embryology-concepts.md` record `CON-DEV-3D26C14BF0AA28` (Oligohydramnios is amniotic fluid under 400 mL), whose own definition already states both the oligohydramnios threshold and the normal term range ('roughly 800-1500 mL') plus the renal-agenesis mechanism this source's own answer-key remark gives verbatim ('Renal agenesis causes oligohydramnios'). 3 printed items; 2 authored, 1 held as a duplicate.",
+  "defaults": {
+    "subject": "dev",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["asu"],
+    "years": ["ASU_Y1"],
+    "module": "ASU-AE",
+    "module_subject": "ASU-AE > Embryology > Questions > Embryo 3",
+    "exam_weight_by_year": { "ASU_Y1": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-AU-MED-102-EMBR-AMNION"],
+    "resource_ids": ["src_3448fabd352cb8018ed3"],
+    "source_citation": "Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, \"MCQs - Embryo 3.pdf\" (Part 3), question {page}, printed answer key p.17.",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "embryo3-q006",
+      "id": "QST-DEV-ASU-AE-EMBRYO3-NORMAL-AF-VOLUME",
+      "page": 2,
+      "title": "Normal amniotic fluid volume at birth",
+      "question": "The normal volume of amniotic fluid at birth is:",
+      "options": { "A": "100 mL", "B": "200 mL", "C": "500 mL", "D": "1000 mL", "E": "1500 mL" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. 100 mL is far below the normal term range and would in fact sit deep in the oligohydramnios range (conventionally under 400 mL) -- too little to be the normal figure the question asks for.",
+        "B": "Incorrect. 200 mL is likewise well under the roughly 800-1500 mL normal term range and would be classed as abnormally reduced, not normal.",
+        "C": "Incorrect. 500 mL is closer to the normal range but still sits below it, near the lower edge that starts to raise concern for reduced fluid rather than representing the typical term value.",
+        "D": "Correct. Amniotic fluid volume rises through pregnancy to roughly 800-1500 mL at term, and the printed answer key here rounds this to the commonly quoted teaching figure of about 1000 mL (1 litre). From mid-pregnancy onward most of the fluid is fetal urine, with contributions also from fetal lung fluid, balanced by fetal swallowing -- a balance whose disruption is exactly what the oligohydramnios (too little, often from reduced fetal urine output, for example in renal agenesis) and polyhydramnios (too much, often from reduced fetal swallowing, for example in esophageal or other GI atresia) questions elsewhere in this same bank test.",
+        "E": "Incorrect. 1500 mL sits at the upper edge of, or just past, the normal term range and is closer to a volume that would be flagged as excessive (polyhydramnios) than to the typical value this question asks for."
+      },
+      "main_concept": "CON-DEV-3D26C14BF0AA28",
+      "concept_ids": ["CON-DEV-3D26C14BF0AA28"],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - amniotic fluid",
+      "subtopic": "Normal amniotic fluid volume",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State the approximate normal amniotic fluid volume at term.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer key p.17, row 6 = d, remark '1000 ml (litre)'", "asu": "Embryo 3 Q6." },
+      "author_notes": "Sparse overlay onto CON-DEV-3D26C14BF0AA28, whose own definition already states the normal term range (roughly 800-1500 mL) alongside the oligohydramnios threshold."
+    },
+    {
+      "key": "embryo3-q026",
+      "id": "QST-DEV-ASU-AE-EMBRYO3-OLIGOHYDRAMNIOS-RENAL-AGENESIS",
+      "page": 5,
+      "title": "Oligohydramnios and renal agenesis",
+      "question": "Oligohydramnios could indicate the presence of:",
+      "options": { "A": "Diabetes in the mother", "B": "Knots in the umbilical cord", "C": "Renal agenesis", "D": "A large fetus", "E": "Esophageal atresia" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Maternal diabetes is classically associated with polyhydramnios (excess amniotic fluid), driven by fetal hyperglycaemia and osmotic polyuria increasing fetal urine output -- the opposite direction of change from oligohydramnios.",
+        "B": "Incorrect. Knots (true or false) in the umbilical cord are a structural finding along the cord itself and are not a recognised cause of reduced amniotic fluid volume.",
+        "C": "Correct. From mid-pregnancy onward, fetal urine is the dominant source of amniotic fluid. Bilateral renal agenesis leaves the fetus unable to produce urine, so amniotic fluid volume falls sharply -- the classic mechanistic link (reduced fetal urine output) behind oligohydramnios, and the fetal renal/urinary-outflow explanation this concept's own definition names directly.",
+        "D": "Incorrect. Fetal macrosomia (a large fetus) is more often associated with maternal diabetes and, through the same mechanism as option A, with polyhydramnios rather than oligohydramnios.",
+        "E": "Incorrect. Esophageal atresia prevents the fetus from swallowing amniotic fluid, so fluid accumulates rather than depletes -- this is a cause of polyhydramnios, not oligohydramnios (the opposite pairing is tested directly at embryo3-q032)."
+      },
+      "main_concept": "CON-DEV-3D26C14BF0AA28",
+      "concept_ids": ["CON-DEV-3D26C14BF0AA28"],
+      "contextual_concept_ids": [],
+      "topic": "Embryology - amniotic fluid",
+      "subtopic": "Oligohydramnios",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Link oligohydramnios to reduced fetal urine output and name renal agenesis as its classic cause.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer key p.17, row 26 = c, remark 'Renal agenesis causes oligohydramnios'", "asu": "Embryo 3 Q26, same fact re-tested at Q14 (held as duplicate)." },
+      "author_notes": "Sparse overlay onto CON-DEV-3D26C14BF0AA28, whose own definition already states the renal-agenesis mechanism."
+    },
+    { "key": "embryo3-q014", "hold": "duplicate of embryo3-q026 -- same oligohydramnios-from-renal-agenesis fact" }
+  ]
+}
