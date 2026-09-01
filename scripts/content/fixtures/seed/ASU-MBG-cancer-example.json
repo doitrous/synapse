@@ -1,0 +1,53 @@
+{
+  "lane": "ASU-MBG",
+  "cluster": "cancer",
+  "header": "ASU-MBG · Molecular Biology of Cancer — authored from the ASU-MBG Cancer chapter question bank, keys read from the printed answer table p.30.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["asu"],
+    "years": ["ASU_Y1"],
+    "module": "ASU-MBG",
+    "module_subject": "ASU-MBG > Molecular Biology > Cancer",
+    "exam_weight_by_year": { "ASU_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": ["src_example0000000000000000000"],
+    "source_citation": "ASU-MBG Cancer chapter question bank, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "cancer-q01",
+      "id": "QST-ASUMBG-CANCER-Q01",
+      "page": 12,
+      "title": "Which gene is a tumour suppressor?",
+      "question": "Which of the following is a tumour suppressor gene?",
+      "options": { "A": "RAS", "B": "TP53", "C": "MYC", "D": "BCR-ABL" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. RAS is a proto-oncogene that encodes a small GTPase acting as a molecular switch in growth-factor signalling, cycling between an active GTP-bound state and an inactive GDP-bound state. Point mutations at codons 12, 13 or 61 lock RAS in its active GTP-bound conformation, so it drives downstream MAPK/ERK signalling continuously even without an upstream growth signal. Because a single mutated allele already produces a gain-of-function protein, RAS behaves dominantly and is classified as an oncogene rather than a tumour suppressor.",
+        "B": "Correct. TP53 encodes the transcription factor p53, often called the guardian of the genome because it is activated by DNA damage, hypoxia and oncogene activation to halt the cell cycle at the G1 to S checkpoint while repair takes place. When damage is irreparable, p53 induces apoptosis by up-regulating pro-apoptotic genes such as BAX and PUMA, removing cells that would otherwise propagate mutations. Because both copies of TP53 typically must be inactivated, one by mutation and the other by loss of heterozygosity, before its protective function is lost, it fits the classic two-hit model of a tumour suppressor gene. TP53 is the single most commonly mutated gene across human cancers, which underlines its central role in genome surveillance.",
+        "C": "Incorrect. MYC encodes a basic helix-loop-helix leucine zipper transcription factor that dimerises with MAX to drive transcription of genes controlling cell growth, ribosome biogenesis and cell-cycle progression. Chromosomal translocations, such as the one seen in Burkitt lymphoma, place MYC under the control of a strong immunoglobulin enhancer, causing constitutive overexpression that pushes cells into continuous proliferation. Because overexpression of a single MYC allele is sufficient to promote tumourigenesis, MYC is an oncogene rather than a gene whose loss removes a brake on growth.",
+        "D": "Incorrect. BCR-ABL is not a normal cellular gene at all but a fusion oncogene created by a translocation that joins the BCR and ABL1 loci, producing the Philadelphia chromosome. The resulting fusion protein has constitutively active tyrosine kinase activity, driving unchecked proliferation and survival signalling in chronic myeloid leukaemia. Because this fusion actively creates a novel always-on kinase rather than removing a growth-restraining function, it acts as an oncogene, and its activity is specifically what imatinib and other tyrosine-kinase inhibitors are designed to block."
+      },
+      "main_concept": "CON-GEN-EXAMPLE0000001",
+      "concept_ids": ["CON-GEN-EXAMPLE0000001"],
+      "contextual_concept_ids": [],
+      "topic": "Molecular biology of cancer",
+      "subtopic": "Tumour suppressor genes",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Distinguish tumour suppressor genes from proto-oncogenes and oncogenic fusion genes.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer table p.30", "asu": "MBG bank p.12" },
+      "author_notes": ""
+    },
+    { "key": "cancer-q02", "hold": "printed key conflicts with the stem (B vs D on the answer sheet)" }
+  ]
+}
