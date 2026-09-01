@@ -3169,3 +3169,601 @@ no
 
 ## qualifiers
 scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-3FD95F3799FC3F-01
+
+## concept_id
+CON-FND-3FD95F3799FC3F
+
+## subject
+Enzyme regulation
+
+## predicate
+is taught as
+
+## object
+Feedback inhibition is enzyme regulation in which the pathway's own end product inhibits an earlier enzyme in the same pathway
+
+## display_text
+Feedback inhibition is enzyme regulation in which the pathway's own end product inhibits an earlier enzyme in the same pathway.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-90AFE9068889FA-01
+
+## concept_id
+CON-FND-90AFE9068889FA
+
+## subject
+Cofactors and coenzymes
+
+## predicate
+is taught as
+
+## object
+A coenzyme is a small, dialyzable, organic non-protein molecule that assists catalysis by accepting or donating a chemical group, and 'cofactor' is the broader term covering both organic coenzymes and inorganic cofactors
+
+## display_text
+A coenzyme is a small, dialyzable, organic non-protein molecule that assists catalysis by accepting or donating a chemical group, and 'cofactor' is the broader term covering both organic coenzymes and inorganic cofactors.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-11018901C5A648-01
+
+## concept_id
+CON-FND-11018901C5A648
+
+## subject
+Enzyme classification
+
+## predicate
+is taught as
+
+## object
+Enzymes fall into six IUB classes by reaction type -- oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases -- each with its own defining reaction and worked example
+
+## display_text
+Enzymes fall into six IUB classes by reaction type -- oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases -- each with its own defining reaction and worked example.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-74B64897158273-01
+
+## concept_id
+CON-FND-74B64897158273
+
+## subject
+Enzyme kinetics
+
+## predicate
+is taught as
+
+## object
+Vmax is the maximal velocity an enzyme-catalysed reaction reaches when the enzyme is fully saturated with substrate -- it reflects the amount and turnover of active enzyme present, not substrate concentration
+
+## display_text
+Vmax is the maximal velocity an enzyme-catalysed reaction reaches when the enzyme is fully saturated with substrate -- it reflects the amount and turnover of active enzyme present, not substrate concentration.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-3D7C56F6F9B062-01
+
+## concept_id
+CON-FND-3D7C56F6F9B062
+
+## subject
+Enzyme kinetics
+
+## predicate
+is taught as
+
+## object
+A non-competitive inhibitor binds a site distinct from the active site, lowering Vmax while leaving Km essentially unchanged, and is not overcome by adding more substrate
+
+## display_text
+A non-competitive inhibitor binds a site distinct from the active site, lowering Vmax while leaving Km essentially unchanged, and is not overcome by adding more substrate.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-CCE5DCCCB059AA-01
+
+## concept_id
+CON-FND-CCE5DCCCB059AA
+
+## subject
+Clinical enzymology
+
+## predicate
+is taught as
+
+## object
+A rise in a tissue-characteristic enzyme's plasma level signals damage to the tissue that normally contains it -- amylase for pancreatitis, ALT for hepatitis, creatine kinase for myocardial infarction, and LDH for a range of conditions including pneumonia and liver disease
+
+## display_text
+A rise in a tissue-characteristic enzyme's plasma level signals damage to the tissue that normally contains it -- amylase for pancreatitis, ALT for hepatitis, creatine kinase for myocardial infarction, and LDH for a range of conditions including pneumonia and liver disease.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-25DCFA3B0D1322-01
+
+## concept_id
+CON-FND-25DCFA3B0D1322
+
+## subject
+Enzyme classification
+
+## predicate
+is taught as
+
+## object
+Digestive proteases cleave peptide bonds at specific residues -- pepsin at the bond formed by an aromatic amino acid's amino group, trypsin at the bond formed by a basic amino acid's carboxyl group
+
+## display_text
+Digestive proteases cleave peptide bonds at specific residues -- pepsin at the bond formed by an aromatic amino acid's amino group, trypsin at the bond formed by a basic amino acid's carboxyl group.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-38C5DF48209C9C-01
+
+## concept_id
+CON-FND-38C5DF48209C9C
+
+## subject
+Enzyme kinetics
+
+## predicate
+is taught as
+
+## object
+Each enzyme has its own optimum pH matching its working environment -- pepsin at a strongly acidic pH around 1.5, alkaline phosphatase at an alkaline pH around 9.5
+
+## display_text
+Each enzyme has its own optimum pH matching its working environment -- pepsin at a strongly acidic pH around 1.5, alkaline phosphatase at an alkaline pH around 9.5.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-0E1F753CEC70F5-01
+
+## concept_id
+CON-FND-0E1F753CEC70F5
+
+## subject
+Enzyme classification
+
+## predicate
+is taught as
+
+## object
+A multienzyme complex is a physically associated set of distinct enzymes catalysing successive steps of a pathway as one functional unit -- fatty acid synthase, pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase are multienzyme complexes, but glycogen synthase is a single enzyme, not one
+
+## display_text
+A multienzyme complex is a physically associated set of distinct enzymes catalysing successive steps of a pathway as one functional unit -- fatty acid synthase, pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase are multienzyme complexes, but glycogen synthase is a single enzyme, not one.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-0418BB3CE98219-01
+
+## concept_id
+CON-FND-0418BB3CE98219
+
+## subject
+Cofactors and coenzymes
+
+## predicate
+is taught as
+
+## object
+A holoenzyme is the complete, catalytically active enzyme -- its protein (apoenzyme) plus its cofactor -- and a prosthetic group is a cofactor bound tightly, often covalently, unlike a loosely associating coenzyme
+
+## display_text
+A holoenzyme is the complete, catalytically active enzyme -- its protein (apoenzyme) plus its cofactor -- and a prosthetic group is a cofactor bound tightly, often covalently, unlike a loosely associating coenzyme.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-7D49CC0BDC9564-01
+
+## concept_id
+CON-FND-7D49CC0BDC9564
+
+## subject
+Enzyme regulation
+
+## predicate
+is taught as
+
+## object
+Ethanol competitively inhibits alcohol dehydrogenase to treat methanol poisoning, and malonic acid competitively inhibits succinate dehydrogenase -- both raise the enzyme's apparent Km for its true substrate while leaving Vmax unchanged
+
+## display_text
+Ethanol competitively inhibits alcohol dehydrogenase to treat methanol poisoning, and malonic acid competitively inhibits succinate dehydrogenase -- both raise the enzyme's apparent Km for its true substrate while leaving Vmax unchanged.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-250CFA7E2EE637-01
+
+## concept_id
+CON-FND-250CFA7E2EE637
+
+## subject
+Enzyme regulation
+
+## predicate
+is taught as
+
+## object
+Methotrexate competitively inhibits dihydrofolate reductase by structurally resembling its substrate, blocking folate regeneration and, with it, DNA synthesis in rapidly dividing cells
+
+## display_text
+Methotrexate competitively inhibits dihydrofolate reductase by structurally resembling its substrate, blocking folate regeneration and, with it, DNA synthesis in rapidly dividing cells.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
+
+---
+
+# Item
+
+## id
+CLM-FND-ENZ-BCF22EBBACF9E8-01
+
+## concept_id
+CON-FND-BCF22EBBACF9E8
+
+## subject
+Enzyme kinetics
+
+## predicate
+is taught as
+
+## object
+The induced-fit model describes an enzyme's active site as flexible, reshaping around the substrate as it binds -- lipase is a textbook example of this flexible catalytic-site behaviour, contrasted with the older, rigid lock-and-key model
+
+## display_text
+The induced-fit model describes an enzyme's active site as flexible, reshaping around the substrate as it binds -- lipase is a textbook example of this flexible catalytic-site behaviour, contrasted with the older, rigid lock-and-key model.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural/enzymology
