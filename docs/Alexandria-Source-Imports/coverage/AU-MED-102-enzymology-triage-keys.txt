@@ -1,0 +1,80 @@
+# AU-MED-102 Biochemistry sub-lane A -- enzymology triage keys.
+# Source: Enzymes MCQ bank (src_9929d079ddfd6e073223, Q1-Q63) plus one fact (multienzyme
+# complexes, "enz-q64") sourced from the AFM master bank's Enzymology section Q8
+# (src_01ab4268402d32d4d111) since the Enzymes bank does not test it directly. Scope =
+# coverage/AU-MED-102-biochemistry-triage.md sec9 topic D (Enzymology), D1-D40 minus D35
+# (lead/ferrochelatase) and D37 (vitamin-coenzyme pairings), both reassigned to sub-lane C
+# and authored there (pending-live/AU-MED-102-biochem-nitrogen-blood.md /
+# -questions.md) -- out of this lane's scope, not listed below.
+#
+# The AFM Enzymology section's other 21 questions (Q1-Q7, Q9-Q22) are a corroborating
+# duplicate of the Enzymes MCQ bank (same wording/distractors per the department triage
+# sec8) and resolve to facts already tracked below via their Enzymes-bank citation; not
+# double-tracked as separate remaining keys.
+#
+# Q51 (lead/ferrochelatase) and Q60 (vitamin-coenzyme pairings) omitted -- sub-lane C scope.
+# The unlabelled two-part pathway-diagram item at the end of the Enzymes bank (no answer
+# options extracted, flagged in the department triage sec2 as a likely rendering artifact)
+# is excluded entirely, not tracked as an owed key.
+enz-q01
+enz-q02
+enz-q03
+enz-q04
+enz-q05
+enz-q06
+enz-q07
+enz-q08
+enz-q09
+enz-q10
+enz-q11
+enz-q12
+enz-q13
+enz-q14
+enz-q15
+enz-q16
+enz-q17
+enz-q18
+enz-q19
+enz-q20
+enz-q21
+enz-q22
+enz-q23
+enz-q24
+enz-q25
+enz-q26
+enz-q27
+enz-q28
+enz-q29
+enz-q30
+enz-q31
+enz-q32
+enz-q33
+enz-q34
+enz-q35
+enz-q36
+enz-q37
+enz-q38
+enz-q39
+enz-q40
+enz-q41
+enz-q42
+enz-q43
+enz-q44
+enz-q45
+enz-q46
+enz-q47
+enz-q48
+enz-q49
+enz-q50
+enz-q52
+enz-q53
+enz-q54
+enz-q55
+enz-q56
+enz-q57
+enz-q58
+enz-q59
+enz-q61
+enz-q62
+enz-q63
+enz-q64

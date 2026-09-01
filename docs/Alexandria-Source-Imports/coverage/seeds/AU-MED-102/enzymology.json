@@ -1,0 +1,1094 @@
+{
+  "lane": "AU-102-BIOC-ENZ",
+  "cluster": "enz",
+  "header": "AU-MED-102 * Biochemistry * Enzymology (new concepts) -- authored from the department's own Enzymes MCQ bank (src_9929d079ddfd6e073223, Dr. Mohamed Agha) and the AFM master bank's Enzymology section (src_01ab4268402d32d4d111), keys read from each bank's own printed answer table.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y1"
+    ],
+    "module": "",
+    "module_subject": "AU-MED-102 > Biochemistry > Enzymology",
+    "exam_weight_by_year": {
+      "AU_Y1": "0.35"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-FND-AU-MED-102-ENZYMOLOGY"
+    ],
+    "resource_ids": [
+      "src_9929d079ddfd6e073223"
+    ],
+    "source_citation": "Alexandria University AU-MED-102 Biochemistry department, Enzymes MCQ bank, Dr. Mohamed Agha (\"The Genius in Biochemistry\").",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "enz-q02",
+      "id": "QST-FND-AU-102-ENZ-001",
+      "page": 2,
+      "title": "In which type of inhibition is the inhibitor an end product of enzyme action?",
+      "question": "In which type of enzyme inhibition is the inhibitor an end product of the enzyme's own reaction pathway?",
+      "options": {
+        "A": "Non-competitive inhibition",
+        "B": "Allosteric inhibition",
+        "C": "Competitive inhibition",
+        "D": "Feedback inhibition"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Non-competitive inhibition is defined by where the inhibitor binds (a site distinct from the active site), not by where the inhibitor comes from -- a non-competitive inhibitor need not be the pathway's own product.",
+        "B": "Incorrect. Allosteric inhibition describes the binding site (distinct from the catalytic site) and mechanism (a conformational change), not the inhibitor's origin -- an allosteric inhibitor can be a foreign molecule or a drug just as easily as a pathway product.",
+        "C": "Incorrect. Competitive inhibition is defined by the inhibitor structurally resembling the substrate and competing for the active site; the inhibitor in competitive inhibition is typically a foreign or drug molecule, not the pathway's own output.",
+        "D": "Correct. Feedback (end-product) inhibition is specifically the case where the pathway's own final product loops back and inhibits an earlier enzyme in that same pathway, usually the committed or rate-limiting step. As product accumulates, this automatically throttles further synthesis, a simple and efficient way for a cell to match production to demand without external signalling. The defining feature is WHO the inhibitor is (the pathway's own end product), not how it binds -- the same product could act competitively or allosterically depending on the specific enzyme involved."
+      },
+      "main_concept": "CON-FND-3FD95F3799FC3F",
+      "concept_ids": [
+        "CON-FND-3FD95F3799FC3F"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-6BBAC69900B22F"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme regulation",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify feedback (end-product) inhibition as the case where a pathway's own end product inhibits an earlier enzyme of that pathway.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q2 = d",
+        "au": "Enzymes MCQ bank p.2 Q2"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q03",
+      "id": "QST-FND-AU-102-ENZ-002",
+      "page": 2,
+      "title": "Coenzymes are best described as:",
+      "question": "Which statement best describes what a coenzyme is?",
+      "options": {
+        "A": "Organic, non-protein molecules",
+        "B": "Colloidal, protein molecules",
+        "C": "Structural analogues of enzymes",
+        "D": "Different forms of the same enzyme"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A coenzyme is a small, dialyzable, organic molecule that is not itself protein -- the opposite of the enzyme's own bulk protein nature. Coenzymes assist catalysis, most often by accepting one of the reaction's products (a hydrogen atom, an amino group, or an acyl group) and carrying it away, and many are derived from water-soluble vitamins (NAD+ from niacin, FAD from riboflavin). Because they are small and organic, coenzymes diffuse freely (are dialyzable), unlike the large colloidal enzyme protein they work alongside.",
+        "B": "Incorrect. 'Colloidal, protein molecules' describes the enzyme itself, not the coenzyme -- coenzymes are specifically small and non-protein, the opposite property.",
+        "C": "Incorrect. Coenzymes are not structural analogues of the enzyme; that description instead fits a competitive inhibitor, which mimics the substrate rather than the enzyme.",
+        "D": "Incorrect. 'Different forms of the same enzyme' describes isoenzymes, a distinct concept -- isoenzymes are structurally different proteins catalysing the same reaction, not small organic cofactors."
+      },
+      "main_concept": "CON-FND-90AFE9068889FA",
+      "concept_ids": [
+        "CON-FND-90AFE9068889FA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Cofactors and coenzymes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a coenzyme is an organic, non-protein, dialyzable molecule that assists catalysis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q3 = a",
+        "au": "Enzymes MCQ bank p.2 Q3"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q45",
+      "id": "QST-FND-AU-102-ENZ-003",
+      "page": 10,
+      "title": "The more general term that includes both organic and inorganic molecules assisting an enzyme is:",
+      "question": "Which term is the more general one, covering both organic coenzymes and inorganic metal-ion cofactors that assist an enzyme?",
+      "options": {
+        "A": "Coenzyme",
+        "B": "Cofactor",
+        "C": "Metal",
+        "D": "Prosthetic group"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. 'Coenzyme' is specifically the organic, non-protein subtype -- it does not cover inorganic metal-ion cofactors, so it is the narrower, not the more general, term.",
+        "B": "Correct. 'Cofactor' is the umbrella term for any non-protein helper an enzyme needs for activity, whether it is organic (a coenzyme, such as NAD+ or coenzyme A) or inorganic (a metal ion, such as zinc or magnesium). Every coenzyme is a cofactor, but not every cofactor is a coenzyme, which is exactly the distinction this question tests. Recognising this hierarchy prevents the common error of treating 'coenzyme' and 'cofactor' as interchangeable synonyms.",
+        "C": "Incorrect. 'Metal' names only the inorganic subtype of cofactor (e.g. zinc, magnesium, iron); it does not cover organic coenzymes, so it is narrower than 'cofactor', not more general.",
+        "D": "Incorrect. A prosthetic group is a cofactor bound tightly, often covalently, to the enzyme -- a specific binding mode, not a general term covering both organic and inorganic cofactors regardless of how they bind."
+      },
+      "main_concept": "CON-FND-90AFE9068889FA",
+      "concept_ids": [
+        "CON-FND-90AFE9068889FA"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-0418BB3CE98219"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Cofactors and coenzymes",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Distinguish 'cofactor' (the general term, organic + inorganic) from 'coenzyme' (the organic subtype only).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q45 = b",
+        "au": "Enzymes MCQ bank p.10 Q45"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q04",
+      "id": "QST-FND-AU-102-ENZ-004",
+      "page": 2,
+      "title": "Digestive enzymes such as pepsin belong to which enzyme class?",
+      "question": "Digestive enzymes such as pepsin belong to which of the six IUB enzyme classes?",
+      "options": {
+        "A": "Hydrolases",
+        "B": "Ligases",
+        "C": "Lyases",
+        "D": "Oxidoreductases"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pepsin, like the other major digestive enzymes (trypsin, amylase, lipase), catalyses the cleavage of a bond by adding water across it -- the defining reaction of the hydrolase class. Digestive enzymes as a group are hydrolases because digestion itself is fundamentally the hydrolysis of large macromolecules (proteins, starch, fat) into their smaller absorbable units. This is why 'hydrolase' and 'digestive enzyme' are so closely associated in exam questions.",
+        "B": "Incorrect. Ligases join two substrate molecules together using ATP (e.g. glutamine synthetase, glycogen synthase) -- the opposite direction of chemistry from pepsin's bond-breaking hydrolysis.",
+        "C": "Incorrect. Lyases remove a group without hydrolysis or oxidation, often creating or using a double bond (e.g. fumarase) -- pepsin's mechanism specifically involves adding water across the peptide bond, which is the hydrolase, not lyase, reaction.",
+        "D": "Incorrect. Oxidoreductases catalyse electron/hydrogen transfer (oxidation-reduction) reactions, such as dehydrogenases and oxidases -- pepsin's peptide-bond cleavage involves no electron transfer at all."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-25DCFA3B0D1322"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Classify pepsin (a digestive enzyme) as a hydrolase, from the six IUB enzyme classes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q4 = a",
+        "au": "Enzymes MCQ bank p.2 Q4"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q21",
+      "id": "QST-FND-AU-102-ENZ-005",
+      "page": 5,
+      "title": "All the following are oxidoreductases EXCEPT:",
+      "question": "All of the following enzymes are oxidoreductases EXCEPT:",
+      "options": {
+        "A": "Glutathione peroxidase",
+        "B": "Di-oxygenase",
+        "C": "Catalase",
+        "D": "Aldolase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS an oxidoreductase). Glutathione peroxidase catalyses the reduction of hydrogen peroxide using reduced glutathione, an oxidation-reduction reaction, so it belongs to the oxidoreductase class.",
+        "B": "Incorrect (i.e. this IS an oxidoreductase). A dioxygenase incorporates both atoms of molecular oxygen into its substrate, an oxidation reaction, placing it in the oxidoreductase class alongside monooxygenases.",
+        "C": "Incorrect (i.e. this IS an oxidoreductase). Catalase catalyses the breakdown of hydrogen peroxide into water and oxygen, a classic oxidation-reduction reaction, so it too is an oxidoreductase.",
+        "D": "Correct. Aldolase catalyses the reversible cleavage of fructose-1,6-bisphosphate into two three-carbon sugars in glycolysis -- a carbon-carbon bond cleavage with no oxidation or reduction involved, which makes it a lyase, not an oxidoreductase. This is a classic exam trap: aldolase sits in a pathway (glycolysis) alongside several genuine oxidoreductases (like glyceraldehyde-3-phosphate dehydrogenase), but its own reaction type is different from theirs."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify aldolase as a lyase, not an oxidoreductase, despite appearing among oxidoreductases in glycolysis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q21 = d",
+        "au": "Enzymes MCQ bank p.5 Q21"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q39",
+      "id": "QST-FND-AU-102-ENZ-006",
+      "page": 9,
+      "title": "An enzyme which removes electrons from a substrate is termed:",
+      "question": "An enzyme which removes electrons from its substrate is termed a(n):",
+      "options": {
+        "A": "Oxidoreductase",
+        "B": "Ligase",
+        "C": "Hydrolase",
+        "D": "Transferase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Oxidoreductases catalyse oxidation-reduction reactions -- oxidation is, by definition, the removal of electrons (or hydrogen atoms) from a substrate, with those electrons passed to an acceptor. Dehydrogenases and oxidases are the two main oxidoreductase subtypes examined at this level. Removing electrons from a substrate is the single defining action of this enzyme class.",
+        "B": "Incorrect. Ligases join two substrate molecules together using ATP -- a bond-forming reaction with no electron transfer involved.",
+        "C": "Incorrect. Hydrolases cleave a bond by adding water across it -- again, no electron transfer, just bond hydrolysis.",
+        "D": "Incorrect. Transferases move a functional group other than hydrogen from one substrate to another -- group transfer, not electron removal, is their defining reaction."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define an oxidoreductase as an enzyme that removes electrons (oxidises) its substrate.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q39 = a",
+        "au": "Enzymes MCQ bank p.9 Q39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q23",
+      "id": "QST-FND-AU-102-ENZ-007",
+      "page": 5,
+      "title": "An example of a lyase is:",
+      "question": "Which of the following is an example of a lyase?",
+      "options": {
+        "A": "Glutamine synthetase",
+        "B": "Hydratase",
+        "C": "Cholinesterase",
+        "D": "Amylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Glutamine synthetase joins glutamate and ammonia together using ATP, which is the defining reaction of a ligase, not a lyase, despite the superficial name resemblance.",
+        "B": "Correct. A hydratase (such as fumarase) adds or removes water across a double bond without hydrolysing a separate bond and without oxidation -- the defining reaction of the lyase class. Fumarase specifically interconverts fumarate and malate in the citric acid cycle by adding water across fumarate's double bond, a textbook lyase reaction.",
+        "C": "Incorrect. Cholinesterase hydrolyses acetylcholine by adding water across the ester bond, which makes it a hydrolase, not a lyase.",
+        "D": "Incorrect. Amylase hydrolyses the glycosidic bonds of starch by adding water, again a hydrolase reaction, not a lyase one."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify a hydratase (e.g. fumarase) as a worked example of the lyase class.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q23 = b",
+        "au": "Enzymes MCQ bank p.5-6 Q23"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q24",
+      "id": "QST-FND-AU-102-ENZ-008",
+      "page": 6,
+      "title": "The enzyme belonging to the ligase class is:",
+      "question": "Which of the following enzymes belongs to the ligase class?",
+      "options": {
+        "A": "Glycogen synthase",
+        "B": "Glutamine synthetase",
+        "C": "Porphobilinogen deaminase",
+        "D": "Histidine decarboxylase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Glycogen synthase does join glucose units together, but per this bank's own classification it is treated as a single ordinary enzyme rather than the answer keyed to the ligase class here; the keyed ligase example is glutamine synthetase, whose ATP-dependent joining of two distinct substrates (glutamate + ammonia) is the more unambiguous ligase illustration this question tests.",
+        "B": "Correct. Glutamine synthetase joins glutamate and ammonia together to form glutamine, a reaction driven by ATP hydrolysis -- exactly the defining pattern of a ligase (synthetase): joining two separate substrate molecules at the cost of ATP. This is a frequently tested example because its name ('synthetase') is one of the direct verbal cues for the ligase class.",
+        "C": "Incorrect. Porphobilinogen deaminase (also called hydroxymethylbilane synthase) catalyses a step of heme synthesis that is not an ATP-driven joining of two substrates, so it is not classified as a ligase.",
+        "D": "Incorrect. Histidine decarboxylase removes a carboxyl group from histidine to form histamine -- a lyase-type decarboxylation, not an ATP-dependent joining reaction."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify glutamine synthetase as a worked example of the ligase class (ATP-dependent joining of two substrates).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q24 = b",
+        "au": "Enzymes MCQ bank p.6 Q24"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q40",
+      "id": "QST-FND-AU-102-ENZ-009",
+      "page": 9,
+      "title": "An enzyme that combines two substrates to synthesise one product is termed:",
+      "question": "An enzyme that combines two substrate molecules to synthesise a single product, at the cost of ATP, is termed a(n):",
+      "options": {
+        "A": "Ligase",
+        "B": "Hydrolase",
+        "C": "Lyase",
+        "D": "Transferase"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Joining two separate substrate molecules together into one product, powered by ATP hydrolysis, is precisely the defining reaction of the ligase (synthetase) class. Glutamine synthetase and glycogen synthase are the worked examples of this class at this level. The ATP requirement is the tell-tale sign of a ligase, since forming a new covalent bond between two separate molecules is thermodynamically unfavourable without an external energy source.",
+        "B": "Incorrect. A hydrolase cleaves a single substrate's bond by adding water -- the reverse direction of chemistry (breaking apart, not joining two substrates together).",
+        "C": "Incorrect. A lyase removes a group without hydrolysis or oxidation, typically working on one substrate, not joining two separate substrate molecules together.",
+        "D": "Incorrect. A transferase moves a functional group from one substrate to another, but it does not join the two substrates into a single combined product the way a ligase does."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a ligase as an enzyme that combines two substrate molecules into one product using ATP.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q40 = a",
+        "au": "Enzymes MCQ bank p.9 Q40"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q42",
+      "id": "QST-FND-AU-102-ENZ-010",
+      "page": 9,
+      "title": "An enzyme that changes a substrate from the L form to the D form is a(n):",
+      "question": "An enzyme that converts a substrate from its L form to its D form is a(n):",
+      "options": {
+        "A": "Lyase",
+        "B": "Hydrolase",
+        "C": "Ligase",
+        "D": "Isomerase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A lyase removes a group without hydrolysis or oxidation; it does not interconvert stereoisomers of the same molecule.",
+        "B": "Incorrect. A hydrolase cleaves a bond by adding water; converting one stereoisomer to another does not involve breaking a bond with water.",
+        "C": "Incorrect. A ligase joins two separate substrate molecules together using ATP; converting L to D form involves only one substrate molecule, not a joining reaction.",
+        "D": "Correct. Isomerases interconvert isomers of a single substrate -- racemases specifically interconvert D and L (mirror-image) forms of the same molecule, which is exactly the reaction this question describes. This is the defining action of the isomerase class: no atoms are added, removed, or exchanged with another molecule, only the spatial arrangement changes."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify an isomerase as the class that interconverts a substrate's L and D forms.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q42 = d",
+        "au": "Enzymes MCQ bank p.9 Q42"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q62",
+      "id": "QST-FND-AU-102-ENZ-011",
+      "page": 13,
+      "title": "Enzymes that catalyse transfer of a functional group other than hydrogen between two substrates are:",
+      "question": "Which enzyme class catalyses transfer of a functional group other than hydrogen from one substrate to another?",
+      "options": {
+        "A": "Isomerases",
+        "B": "Transferases",
+        "C": "Hydrolases",
+        "D": "Lyases"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Isomerases interconvert isomers of a single substrate; they do not transfer a group between two different substrates.",
+        "B": "Correct. Transferases move a functional group -- an amino group (aminotransferases), a phosphate group (kinases), or an acyl group, for example -- from one substrate to another, excluding hydrogen transfer, which is specifically the territory of the oxidoreductase class instead. This exclusion of hydrogen transfer is exactly why the question specifies 'other than hydrogen': it separates transferases cleanly from oxidoreductases.",
+        "C": "Incorrect. Hydrolases cleave a bond in a single substrate by adding water; they do not transfer a group between two substrates.",
+        "D": "Incorrect. Lyases remove a group from a substrate without hydrolysis or oxidation, typically acting on one substrate rather than transferring a group between two."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Define a transferase as an enzyme that moves a functional group (other than hydrogen) between two substrates.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q62 = b",
+        "au": "Enzymes MCQ bank p.13-14 Q62"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q08",
+      "id": "QST-FND-AU-102-ENZ-012",
+      "page": 3,
+      "title": "In enzyme kinetics, Vmax denotes:",
+      "question": "In enzyme kinetics, what does Vmax denote?",
+      "options": {
+        "A": "The amount of active enzyme",
+        "B": "Substrate concentration",
+        "C": "Half of substrate concentration",
+        "D": "Quantity of coenzyme"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Vmax is the maximal reaction velocity reached once substrate is saturating, and at saturation the rate is limited only by how much active enzyme is present and how fast each molecule turns over -- so Vmax is fundamentally a reflection of enzyme quantity/activity, not of substrate. Doubling the amount of active enzyme doubles Vmax; this is the property this bank's key is naming.",
+        "B": "Incorrect. Substrate concentration is the x-axis variable of the kinetics curve, not what Vmax itself represents -- Vmax is a y-axis (velocity) value reached at high substrate concentration, not a substrate-concentration value.",
+        "C": "Incorrect. 'Half of substrate concentration' does not correspond to Vmax at all -- it is Km, the substrate concentration that gives half of Vmax, that is being confused with Vmax here.",
+        "D": "Incorrect. Vmax reflects enzyme activity/quantity, not coenzyme quantity -- a coenzyme is a cofactor the enzyme may need, but Vmax is not defined in terms of how much coenzyme is present."
+      },
+      "main_concept": "CON-FND-74B64897158273",
+      "concept_ids": [
+        "CON-FND-74B64897158273"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-028C50A610B2A2"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme kinetics",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Define Vmax as the maximal velocity reflecting enzyme amount/turnover, not substrate concentration.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q8 = a",
+        "au": "Enzymes MCQ bank p.3 Q8"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q17",
+      "id": "QST-FND-AU-102-ENZ-013",
+      "page": 4,
+      "title": "A substrate's hydroxyl carbon is converted to a ketone carbon (with loss of hydrogen) -- what type of enzyme catalysed this?",
+      "question": "A biochemistry question shows a substrate with a secondary hydroxyl-bearing carbon (-CH(OH)-) converted to a product with a ketone at the same carbon (-C(=O)-), with loss of two hydrogen atoms. What type of enzyme catalysed this conversion?",
+      "options": {
+        "A": "Hydrolase",
+        "B": "Ligase",
+        "C": "Isomerase",
+        "D": "Dehydrogenase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A hydrolase would cleave a bond by adding water; this reaction adds no water and breaks no bond -- it removes hydrogen atoms, which is an oxidation, not a hydrolysis.",
+        "B": "Incorrect. A ligase joins two separate substrate molecules using ATP; this reaction involves one substrate being chemically transformed, not two substrates being joined.",
+        "C": "Incorrect. An isomerase would rearrange the substrate into a structural or stereoisomer without changing its molecular formula; converting a hydroxyl to a ketone removes two hydrogen atoms, changing the molecular formula, which rules out simple isomerisation.",
+        "D": "Correct. Converting a secondary alcohol (-CH(OH)-) to a ketone (-C(=O)-) is an oxidation reaction -- specifically the removal of two hydrogen atoms from the substrate -- which is exactly what a dehydrogenase does. Dehydrogenases are a subtype of the oxidoreductase class and are named for removing hydrogen from their substrate and passing it to a coenzyme acceptor such as NAD+. Recognising the hydroxyl-to-ketone pattern in a reaction diagram is a direct, reliable way to identify a dehydrogenase without needing to know the specific molecule's name."
+      },
+      "main_concept": "CON-FND-11018901C5A648",
+      "concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "Identify a dehydrogenase (oxidoreductase) from a reaction converting a hydroxyl-bearing carbon to a ketone carbon.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q17 = d; stem adapted from the bank's own partially-extracted reaction structures (COO-/HO-C-H/C=O/CH2 fragments), described in prose rather than reproducing the figure, since the transformation type (hydroxyl to ketone) is unambiguous from the extracted text alone.",
+        "au": "Enzymes MCQ bank p.4 Q17"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q18",
+      "id": "QST-FND-AU-102-ENZ-014",
+      "page": 5,
+      "title": "In non-competitive inhibition:",
+      "question": "Which of the following is the correct kinetic signature of non-competitive inhibition?",
+      "options": {
+        "A": "Km increases",
+        "B": "Km decreases",
+        "C": "Vmax decreases",
+        "D": "All of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Km rising is the signature of competitive inhibition, not non-competitive -- a non-competitive inhibitor does not compete with substrate for the active site, so the enzyme's apparent affinity for substrate (Km) is essentially unchanged.",
+        "B": "Incorrect. Km does not fall in non-competitive inhibition either; it stays essentially unchanged, since the inhibitor's binding site is separate from the active site substrate binds.",
+        "C": "Correct. A non-competitive inhibitor binds a site distinct from the active site (on the free enzyme or the enzyme-substrate complex), permanently disabling a fraction of the enzyme population regardless of how much substrate is present. Because that disabled fraction cannot be rescued by adding more substrate, the maximal velocity Vmax is reduced, while Km, reflecting substrate affinity rather than enzyme quantity, is left essentially unchanged. This Vmax-down/Km-unchanged pattern is the exact opposite of competitive inhibition's Km-up/Vmax-unchanged pattern, and the two are frequently tested as a contrasting pair.",
+        "D": "Incorrect. Since Km is unchanged (not increased or decreased), 'all of the above' cannot be correct -- only Vmax decreasing is the accurate kinetic signature."
+      },
+      "main_concept": "CON-FND-3D7C56F6F9B062",
+      "concept_ids": [
+        "CON-FND-3D7C56F6F9B062"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-CB8584ED2F3C49"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme kinetics",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State that non-competitive inhibition lowers Vmax while leaving Km unchanged.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q18 = c",
+        "au": "Enzymes MCQ bank p.5 Q18"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q19",
+      "id": "QST-FND-AU-102-ENZ-015",
+      "page": 5,
+      "title": "Elevation of which enzyme's blood level helps diagnose pneumonia?",
+      "question": "Elevation of the blood level of which of the following enzymes helps in the diagnosis of pneumonia?",
+      "options": {
+        "A": "Amylase",
+        "B": "Lactate dehydrogenase",
+        "C": "Creatine kinase",
+        "D": "Acid phosphatase"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Amylase elevation is used to diagnose pancreatitis (or salivary gland disease), not pneumonia.",
+        "B": "Correct. Lactate dehydrogenase (LDH) is present in many tissues, including the lung, so lung tissue damage from pneumonia releases LDH into the plasma, making it one of the (non-specific) diagnostic markers checked in pneumonia. Because LDH is elevated in several different conditions (pneumonia, myocardial infarction, liver disease), a raised total LDH by itself does not pinpoint the source -- its isoenzyme pattern is what would be needed for that.",
+        "C": "Incorrect. Creatine kinase elevation is classically used to diagnose muscle damage, particularly myocardial infarction, not pneumonia.",
+        "D": "Incorrect. Acid phosphatase elevation is classically associated with prostatic disease, not pneumonia."
+      },
+      "main_concept": "CON-FND-CCE5DCCCB059AA",
+      "concept_ids": [
+        "CON-FND-CCE5DCCCB059AA"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-DD3EE5EC8C07D1"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Clinical enzymology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify LDH as the diagnostically useful enzyme marker for pneumonia among the options given.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q19 = b",
+        "au": "Enzymes MCQ bank p.5 Q19"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q43",
+      "id": "QST-FND-AU-102-ENZ-016",
+      "page": 9,
+      "title": "An increase in a normally low or non-functional plasma enzyme level is an indication of:",
+      "question": "An increase in the level of a normally low or non-functional plasma enzyme is an indication of:",
+      "options": {
+        "A": "Tissue destruction",
+        "B": "Normal growth",
+        "C": "Recovery from a disease",
+        "D": "No significance"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cells normally keep most of their enzymes intracellular; when a tissue is damaged or destroyed, its enzymes leak out into the plasma in proportion to the extent of damage. A rise in a normally low or absent plasma enzyme is therefore a general marker of tissue destruction, the same underlying principle behind every specific diagnostic enzyme marker (ALT for liver, creatine kinase for muscle, and so on).",
+        "B": "Incorrect. Normal growth does not release intracellular enzymes into the plasma in a way that would raise a 'non-functional' plasma enzyme level; growth is not associated with the tissue damage this finding signals.",
+        "C": "Incorrect. Recovery from a disease would be expected to normalise, not further raise, a plasma enzyme level that had been elevated by earlier tissue damage.",
+        "D": "Incorrect. The finding is highly significant clinically, since it is exactly the basis for using plasma enzyme levels diagnostically to detect tissue damage."
+      },
+      "main_concept": "CON-FND-CCE5DCCCB059AA",
+      "concept_ids": [
+        "CON-FND-CCE5DCCCB059AA"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Enzymes",
+      "subtopic": "Clinical enzymology",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a rise in plasma enzyme level signals tissue destruction.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q43 = a",
+        "au": "Enzymes MCQ bank p.9 Q43"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q28",
+      "id": "QST-FND-AU-102-ENZ-017",
+      "page": 7,
+      "title": "Pepsin acts on:",
+      "question": "Pepsin specifically cleaves the peptide bond formed between:",
+      "options": {
+        "A": "The amino group of an aromatic amino acid and the carboxylic group of another amino acid",
+        "B": "The carboxyl group of a basic amino acid and the amino group of another amino acid",
+        "C": "The carboxyl group of an aromatic amino acid and the amino group of another amino acid",
+        "D": "Terminal peptide bonds at the carboxylic end of the peptide chain"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pepsin, active in the strongly acidic stomach, preferentially cleaves the peptide bond formed between the amino group of an aromatic amino acid (phenylalanine, tyrosine, tryptophan) and the carboxyl group of the neighbouring residue. This specificity is what lets pepsin begin protein digestion at particular points along the chain rather than indiscriminately, generating fragments that later proteases (like trypsin) continue to break down.",
+        "B": "Incorrect. Cleaving at the carboxyl group of a basic amino acid is trypsin's specificity, not pepsin's -- the two proteases are commonly confused precisely because both act on peptide bonds but recognise opposite kinds of residues.",
+        "C": "Incorrect. Pepsin recognises the amino side of an aromatic residue, not the carboxyl side -- reversing which side of the bond is recognised is the classic error this option tests.",
+        "D": "Incorrect. Pepsin is an endopeptidase, cleaving internal peptide bonds based on the identity of the flanking residue, not an exopeptidase removing only terminal residues from the chain end."
+      },
+      "main_concept": "CON-FND-25DCFA3B0D1322",
+      "concept_ids": [
+        "CON-FND-25DCFA3B0D1322"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that pepsin cleaves the peptide bond at an aromatic amino acid's amino side.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q28 = a",
+        "au": "Enzymes MCQ bank p.7 Q28"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q29",
+      "id": "QST-FND-AU-102-ENZ-018",
+      "page": 7,
+      "title": "Trypsin acts on:",
+      "question": "Trypsin specifically cleaves the peptide bond formed between:",
+      "options": {
+        "A": "The amino group of an aromatic amino acid and the carboxylic group of another amino acid",
+        "B": "The carboxyl group of a basic amino acid and the amino group of another amino acid",
+        "C": "The carboxyl group of an aromatic amino acid and the amino group of another amino acid",
+        "D": "Terminal peptide bonds at the amino end of the peptide chain"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cleaving at an aromatic amino acid's amino group is pepsin's specificity, not trypsin's -- the two are frequently swapped in exam distractors.",
+        "B": "Correct. Trypsin, secreted by the pancreas and active in the alkaline duodenum, cleaves the peptide bond formed between the carboxyl group of a basic amino acid (lysine or arginine) and the amino group of the next residue. This specificity complements pepsin's aromatic-residue specificity, so sequential digestion by the two proteases (plus others) breaks a protein down progressively at different points rather than any single enzyme finishing the job alone.",
+        "C": "Incorrect. This mixes an aromatic-residue target (pepsin's territory) with a carboxyl-side cleavage, which does not match either protease's actual specificity as tested here.",
+        "D": "Incorrect. Trypsin is an endopeptidase acting on internal bonds determined by the residue identity, not an exopeptidase removing only the amino-terminal residue."
+      },
+      "main_concept": "CON-FND-25DCFA3B0D1322",
+      "concept_ids": [
+        "CON-FND-25DCFA3B0D1322"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that trypsin cleaves the peptide bond at a basic amino acid's carboxyl side.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q29 = b",
+        "au": "Enzymes MCQ bank p.7 Q29"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q30",
+      "id": "QST-FND-AU-102-ENZ-019",
+      "page": 7,
+      "title": "Optimum pH for alkaline phosphatase is:",
+      "question": "What is the approximate optimum pH for alkaline phosphatase?",
+      "options": {
+        "A": "pH 8.5",
+        "B": "pH 8",
+        "C": "pH 8.4",
+        "D": "pH 9.5"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. pH 8.5 is close to but not the value this bank's own printed key selects for alkaline phosphatase.",
+        "B": "Incorrect. pH 8 is more moderately alkaline than the value this bank's key selects, and does not match the specific figure tested here.",
+        "C": "Incorrect. pH 8.4 is another close but non-keyed value among the distractors.",
+        "D": "Correct. Alkaline phosphatase, true to its name, has an alkaline optimum pH, and this bank's printed key selects approximately 9.5 as the specific value tested. This is notably far from the neutral pH most enzymes prefer. It is exactly why this fact, alongside pepsin's strongly acidic optimum at the opposite extreme, is used to illustrate that each enzyme's optimum pH matches its own working environment rather than one universal value."
+      },
+      "main_concept": "CON-FND-38C5DF48209C9C",
+      "concept_ids": [
+        "CON-FND-38C5DF48209C9C"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-F29934C070A94C"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme kinetics",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State that alkaline phosphatase has an alkaline optimum pH (approximately 9.5).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q30 = d (garbled '30.\\n.d' in the raw text extraction, resolved unambiguously by the surrounding answer-table sequence)",
+        "au": "Enzymes MCQ bank p.7 Q30"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q37",
+      "id": "QST-FND-AU-102-ENZ-020",
+      "page": 8,
+      "title": "Optimum pH for pepsin is:",
+      "question": "What is the approximate optimum pH for pepsin?",
+      "options": {
+        "A": "1.5",
+        "B": "6.8",
+        "C": "7.5",
+        "D": "8.5"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pepsin is secreted into, and active within, the strongly acidic environment of the stomach, and its optimum pH is around 1.5 -- one of the most acidic optima of any enzyme in the body. This is a textbook exception to the assumption that enzymes work best near physiological pH (7.4); pepsin instead is denatured by a neutral or alkaline pH, which is exactly why it becomes inactive once chyme reaches the alkaline duodenum.",
+        "B": "Incorrect. pH 6.8 is close to neutral, far more alkaline than pepsin's actual acidic optimum.",
+        "C": "Incorrect. pH 7.5 is physiological pH, the opposite extreme from pepsin's strongly acidic working environment.",
+        "D": "Incorrect. pH 8.5 is alkaline, matching an enzyme like alkaline phosphatase rather than the strongly acidic pepsin."
+      },
+      "main_concept": "CON-FND-38C5DF48209C9C",
+      "concept_ids": [
+        "CON-FND-38C5DF48209C9C"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-25DCFA3B0D1322"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme kinetics",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State that pepsin has a strongly acidic optimum pH (approximately 1.5), matching its gastric environment.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q37 = a",
+        "au": "Enzymes MCQ bank p.8 Q37"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q64",
+      "id": "QST-FND-AU-102-ENZ-021",
+      "page": 15,
+      "title": "All of the following are multienzyme complexes EXCEPT:",
+      "question": "All of the following are multienzyme complexes EXCEPT:",
+      "options": {
+        "A": "Fatty acid synthase",
+        "B": "Pyruvate dehydrogenase",
+        "C": "Alpha-ketoglutarate dehydrogenase",
+        "D": "Glycogen synthase"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (i.e. this IS a multienzyme complex). Fatty acid synthase groups multiple distinct catalytic domains into one functional unit that channels the growing fatty acid chain from one active site to the next.",
+        "B": "Incorrect (i.e. this IS a multienzyme complex). Pyruvate dehydrogenase is a large mitochondrial multienzyme complex of three distinct enzyme components plus five coenzymes, converting pyruvate to acetyl-CoA in a tightly coordinated sequence.",
+        "C": "Incorrect (i.e. this IS a multienzyme complex). Alpha-ketoglutarate dehydrogenase is structurally and mechanistically analogous to pyruvate dehydrogenase, another mitochondrial multienzyme complex, this time in the citric acid cycle.",
+        "D": "Correct. Glycogen synthase, despite catalysing a comparably central and tightly regulated step (glycogenesis), is a single ordinary enzyme rather than a multienzyme complex -- it does not group multiple distinct catalytic activities into one physically associated unit the way fatty acid synthase, PDH and alpha-KG dehydrogenase do. This is the classic trap of assuming any pathway-defining enzyme must be a multienzyme complex just because of its regulatory importance."
+      },
+      "main_concept": "CON-FND-0E1F753CEC70F5",
+      "concept_ids": [
+        "CON-FND-0E1F753CEC70F5"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-11018901C5A648"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme classification",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify fatty acid synthase, pyruvate dehydrogenase and alpha-ketoglutarate dehydrogenase as multienzyme complexes, and glycogen synthase as the exception.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, AFM master bank Enzymology section Q8 = d",
+        "au": "AFM master bank (src_01ab4268402d32d4d111), Enzymology section p.15 Q8"
+      },
+      "author_notes": "Sourced from the AFM master bank's Enzymology section (a corroborating superset of the Enzymes MCQ bank per the department triage sec8), not the standalone Enzymes MCQ bank, which does not test multienzyme complexes directly."
+    },
+    {
+      "key": "enz-q14",
+      "id": "QST-FND-AU-102-ENZ-022",
+      "page": 4,
+      "title": "A non-protein organic molecule covalently bound to the active site of an enzyme is termed:",
+      "question": "A non-protein organic molecule covalently bound to the active site of an enzyme is termed a:",
+      "options": {
+        "A": "Co-substrate",
+        "B": "Coenzyme",
+        "C": "Modulator",
+        "D": "Prosthetic group"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. A co-substrate is a second reactant consumed and regenerated across separate reaction cycles, not a description defined by tight covalent binding to the enzyme.",
+        "B": "Incorrect. An ordinary coenzyme associates loosely and reversibly with the enzyme, cycling on and off; a cofactor bound covalently instead earns the more specific name 'prosthetic group'.",
+        "C": "Incorrect. A modulator (such as an allosteric effector) changes enzyme activity by binding a regulatory site, but the term does not specifically describe a covalently bound organic cofactor.",
+        "D": "Correct. When a non-protein organic cofactor is bound tightly, specifically covalently, to the enzyme's active site rather than associating loosely like a typical coenzyme, it is termed a prosthetic group. This distinction -- tight/covalent binding versus loose/reversible association -- is exactly what separates a prosthetic group from an ordinary coenzyme, even though both are non-protein organic cofactors functionally."
+      },
+      "main_concept": "CON-FND-0418BB3CE98219",
+      "concept_ids": [
+        "CON-FND-0418BB3CE98219"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-90AFE9068889FA"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Cofactors and coenzymes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Define a prosthetic group as a non-protein cofactor bound tightly/covalently to the enzyme.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q14 = d",
+        "au": "Enzymes MCQ bank p.4 Q14"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q59",
+      "id": "QST-FND-AU-102-ENZ-023",
+      "page": 13,
+      "title": "What is the name given to the active, complete enzyme?",
+      "question": "What is the name given to the active, complete enzyme -- its protein portion plus its required cofactor?",
+      "options": {
+        "A": "Apoenzyme",
+        "B": "Prosthetic group",
+        "C": "Holoenzyme",
+        "D": "Coenzyme"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The apoenzyme is only the protein portion of the enzyme, catalytically inactive on its own -- it is the holoenzyme that adds the required cofactor and becomes active.",
+        "B": "Incorrect. A prosthetic group is one specific kind of tightly bound cofactor, not a term for the whole active enzyme complex.",
+        "C": "Correct. The holoenzyme is the complete, catalytically active enzyme -- the apoenzyme (protein) combined with its required non-protein cofactor. This is the counterpart term to apoenzyme: apoenzyme alone is inactive, apoenzyme plus cofactor is the active holoenzyme.",
+        "D": "Incorrect. A coenzyme is the non-protein cofactor itself, not the term for the complete active enzyme complex that results once it is bound."
+      },
+      "main_concept": "CON-FND-0418BB3CE98219",
+      "concept_ids": [
+        "CON-FND-0418BB3CE98219"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-90AFE9068889FA"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Cofactors and coenzymes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define a holoenzyme as the complete, catalytically active apoenzyme-plus-cofactor complex.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q59 = c",
+        "au": "Enzymes MCQ bank p.13 Q59"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q46",
+      "id": "QST-FND-AU-102-ENZ-024",
+      "page": 10,
+      "title": "Ethanol is given in methanol poisoning because:",
+      "question": "Patients who have ingested a toxic level of methanol are sometimes treated with ethanol to inhibit methanol's oxidation to formaldehyde by alcohol dehydrogenase. Which statement best explains this treatment?",
+      "options": {
+        "A": "Ethanol inhibits the enzyme by binding to the formaldehyde-binding site",
+        "B": "Ethanol resembles methanol's structure and competes with it for the enzyme's binding site",
+        "C": "Ethanol alters the Vmax of the enzyme for methanol oxidation",
+        "D": "Ethanol is a structural analog of methanol and thus an effective non-competitive inhibitor"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. There is no separate 'formaldehyde-binding site' that ethanol targets; ethanol competes for the same active site that binds methanol itself, not a downstream product-binding site.",
+        "B": "Correct. Ethanol structurally resembles methanol closely enough to compete with it for the same active site of alcohol dehydrogenase. Because the enzyme preferentially processes whichever alcohol is more abundant/better-competing at the active site, giving a large dose of ethanol out-competes methanol for the enzyme, slowing methanol's conversion into the truly toxic products (formaldehyde, then formic acid) and allowing the unmetabolised methanol to be cleared by the kidneys instead. This is a textbook example of therapeutic competitive inhibition -- ethanol is a substrate-mimic, not a distinct-site or Vmax-altering inhibitor.",
+        "C": "Incorrect. Competitive inhibition, which is what ethanol/methanol illustrates, specifically does NOT alter Vmax (Vmax stays unchanged; it is Km that rises) -- an effect on Vmax would instead describe non-competitive inhibition.",
+        "D": "Incorrect. This mislabels the mechanism as non-competitive; ethanol/methanol's active-site competition, structural resemblance, and reversibility by excess substrate are exactly the hallmarks of competitive, not non-competitive, inhibition."
+      },
+      "main_concept": "CON-FND-7D49CC0BDC9564",
+      "concept_ids": [
+        "CON-FND-7D49CC0BDC9564"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-CB8584ED2F3C49"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme regulation",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "Explain ethanol's therapeutic use in methanol poisoning as competitive inhibition of alcohol dehydrogenase.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q46 = b",
+        "au": "Enzymes MCQ bank p.10 Q46"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q47",
+      "id": "QST-FND-AU-102-ENZ-025",
+      "page": 10,
+      "title": "Addition of malonic acid to succinic acid in the reaction catalyzed by succinate dehydrogenase leads to which effect?",
+      "question": "Addition of malonic acid alongside succinic acid, in the reaction catalysed by succinate dehydrogenase, leads to which of the following effects?",
+      "options": {
+        "A": "Km and Vmax both decrease",
+        "B": "Km and Vmax both increase",
+        "C": "Km increases and Vmax is not changed",
+        "D": "Km is not changed and Vmax decreases"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A fall in both Km and Vmax does not match any classic inhibition pattern relevant here, and specifically does not match malonate's competitive mechanism.",
+        "B": "Incorrect. Vmax does not rise under inhibition of any kind; competitive inhibition specifically leaves Vmax unchanged rather than raising it.",
+        "C": "Correct. Malonic acid (malonate) resembles succinate closely enough in structure to competitively occupy the active site of succinate dehydrogenase in the citric acid cycle. Because more succinate can still out-compete malonate for the active site, the enzyme's apparent Km for succinate rises (more substrate is needed to reach the same rate), while Vmax, still achievable once enough substrate out-competes the inhibitor, stays unchanged -- the textbook Km-up/Vmax-unchanged signature of competitive inhibition.",
+        "D": "Incorrect. Km unchanged with Vmax decreased is the signature of non-competitive, not competitive, inhibition -- malonate's mechanism is specifically competitive (active-site competition via structural resemblance to succinate)."
+      },
+      "main_concept": "CON-FND-7D49CC0BDC9564",
+      "concept_ids": [
+        "CON-FND-7D49CC0BDC9564"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-CB8584ED2F3C49"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme regulation",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that malonate competitively inhibits succinate dehydrogenase, raising Km without changing Vmax.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q47 = c",
+        "au": "Enzymes MCQ bank p.10 Q47"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q55",
+      "id": "QST-FND-AU-102-ENZ-026",
+      "page": 12,
+      "title": "Addition of methotrexate to tetrahydrofolate in the reaction catalyzed by dihydrofolate reductase leads to which effect?",
+      "question": "Addition of methotrexate, in the reaction catalysed by dihydrofolate reductase, leads to which of the following effects?",
+      "options": {
+        "A": "Km is not changed and Vmax decreases",
+        "B": "Km and Vmax both decrease",
+        "C": "Km and Vmax both increase",
+        "D": "Km increases and Vmax is not changed"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Km unchanged with Vmax decreased describes non-competitive inhibition, not methotrexate's mechanism against DHFR, which is competitive.",
+        "B": "Incorrect. A fall in both Km and Vmax does not match methotrexate's competitive mechanism.",
+        "C": "Incorrect. Vmax does not rise; the inhibition of DHFR by methotrexate does not increase the enzyme's maximal velocity.",
+        "D": "Correct. Methotrexate is a structural analogue of dihydrofolate (DHFR's natural substrate) that binds the same active site, competitively inhibiting the enzyme. As with any competitive inhibitor, this raises the enzyme's apparent Km for dihydrofolate (more substrate needed to reach the same rate) while Vmax, still reachable given enough substrate to out-compete methotrexate, remains unchanged. This is exactly why methotrexate is described as a folate antagonist rather than an irreversible DHFR-destroying poison -- the inhibition is, in principle, substrate-competitive."
+      },
+      "main_concept": "CON-FND-250CFA7E2EE637",
+      "concept_ids": [
+        "CON-FND-250CFA7E2EE637"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-CB8584ED2F3C49"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme regulation",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that methotrexate competitively inhibits dihydrofolate reductase, raising Km without changing Vmax.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q55 = d",
+        "au": "Enzymes MCQ bank p.12 Q55"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "enz-q54",
+      "id": "QST-FND-AU-102-ENZ-027",
+      "page": 12,
+      "title": "Which of the following is an example of the flexible (induced-fit) model of the catalytic site?",
+      "question": "Which of the following enzymes is used as an example of the flexible (induced-fit) model of the catalytic site?",
+      "options": {
+        "A": "Lipase",
+        "B": "Lactase",
+        "C": "Sucrase",
+        "D": "Urease"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Lipase, which must accommodate lipid substrates of varying chain length and orientation at a lipid-water interface, is the textbook example of an enzyme whose active site is flexible rather than a fixed, pre-shaped template. The induced-fit model holds that the site reshapes itself around the substrate as it binds, which describes lipase's behaviour better than the older, rigid lock-and-key model. This flexibility is part of why lipase can efficiently act on a whole family of related lipid substrates rather than being restricted to one exact molecular shape.",
+        "B": "Incorrect. Lactase is not the example this bank's key selects for the flexible/induced-fit model; it is a standard hydrolase acting on a single, well-defined disaccharide substrate.",
+        "C": "Incorrect. Sucrase, like lactase, acts on one specific, well-defined disaccharide substrate and is not the keyed example of flexible catalytic-site behaviour here.",
+        "D": "Incorrect. Urease acts on a single small, well-defined substrate (urea) and is not the example this bank uses to illustrate the induced-fit model."
+      },
+      "main_concept": "CON-FND-BCF22EBBACF9E8",
+      "concept_ids": [
+        "CON-FND-BCF22EBBACF9E8"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-5846431203789F"
+      ],
+      "topic": "Enzymes",
+      "subtopic": "Enzyme kinetics",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify lipase as the textbook example of the flexible, induced-fit catalytic-site model.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table, Enzymes MCQ Q54 = a",
+        "au": "Enzymes MCQ bank p.12 Q54"
+      },
+      "author_notes": ""
+    }
+  ]
+}
