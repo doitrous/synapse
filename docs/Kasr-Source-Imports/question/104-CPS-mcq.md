@@ -11,6 +11,7 @@
     The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
+    Anatomy Respiratory System — Lungs, Gross Anatomy — 21 questions, 10 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Subdivisions of the Mediastinum — 14 questions, 4 concepts
@@ -82,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  173 questions were excluded and 0 held back for having no
+  178 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -5769,6 +5770,1502 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-645DFD8F6414
+## title
+Following statements regarding lungs are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Following statements regarding lungs are true, EXCEPT:
+## answer_a
+The ascending aorta makes an impression on the mediastinal surface of the
+## explanation_a
+The exception, and the answer. The ascending aorta's triangular impression is a RIGHT-lung mediastinal-surface feature, anterior to the hilum — placing it on the LEFT lung is incorrect; the left lung's own anterior impression at that level is instead the pulmonary trunk, a different vessel.
+
+Why this is right:
+- On the right lung's mediastinal surface, in front of and above the hilum lie the cardiac impression (related to the right atrium and auricle), the groove for the superior vena cava (continuing up into the right brachiocephalic vein groove), the triangular impression for the ascending aorta, the groove for the inferior vena cava, and the groove for the arch of the azygos vein, with the tracheal and oesophageal grooves, the latter continuing behind the hilum.
+## answer_c
+Each lung receives non-oxygenated blood through a pulmonary artery
+## explanation_c
+True, so not the exception. Each lung receives non-oxygenated (deoxygenated) blood through its own pulmonary artery, part of the functional pulmonary circulation carrying blood from the right ventricle to the alveolar capillaries for gas exchange.
+## answer_d
+The horizontal fissure of the right lung lies at the level of the 4" costal
+## explanation_d
+True, so not the exception. The horizontal fissure of the right lung runs from the fourth right costal cartilage anteriorly to meet the oblique fissure at the sixth rib in the midaxillary line.
+## answer_e
+The intersegmental parts of the pulmonary veins run in the septa between
+## explanation_e
+True, so not the exception. The intersegmental connective-tissue septa between adjacent bronchopulmonary segments carry the radicles of the pulmonary veins — the one component of a segment's supply that is not itself confined within one segment.
+## correct_answer
+A
+## main_concept
+CON-RES-DC1111DA6DD151
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the ascending aorta's impression belongs to the RIGHT, not the left, lung's mediastinal surface — the exception among four otherwise true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p19 q76. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0DCBBF382D0F
+## title
+i Regarding the root of the lung; mark the incorrect answer: 00 ْ a- It lie opposite th…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+i Regarding the root of the lung; mark the incorrect answer: 00 ْ a- It lie opposite the bodies of the T5, 6,7 vertebrae
+## answer_a
+It lie opposite the bodies of the TS. 6. 7 vertebrae. © 1
+## explanation_a
+True, so not the incorrect answer. The root of the lung lies opposite the bodies of the T5, T6 and T7 vertebrae. (Standard thoracic anatomy; not spelled out verbatim by this leaf's own currently authored article — flagged as a gap for the article-authoring lane.)
+## answer_b
+It includes bronchial arteries ,
+## explanation_b
+True, so not the incorrect answer. Bronchial vessels are among the structures filling the spaces between the named components of the root, alongside the pulmonary plexuses and bronchopulmonary lymph nodes.
+## answer_c
+That of right lung lies behind the inferior vena cava 1
+## explanation_c
+The incorrect statement, and the answer. The root of the right lung lies IN FRONT OF (anterior to), not behind, the inferior vena cava — the IVC grooves the right lung's mediastinal surface in front of and above the hilum, not posterior to it.
+
+Why this is right:
+- On the right lung's mediastinal surface, in front of and above the hilum lie the cardiac impression (related to the right atrium and auricle), the groove for the superior vena cava (continuing up into the right brachiocephalic vein groove), the triangular impression for the ascending aorta, the groove for the inferior vena cava, and the groove for the arch of the azygos vein, with the tracheal and oesophageal grooves, the latter continuing behind the hilum.
+## answer_d
+That of left lung lies anterior to the descending aorta
+## explanation_d
+True, so not the incorrect answer. The root of the left lung lies anterior to the descending thoracic aorta, which grooves the left lung's mediastinal surface behind the hilum — the same relation stated from the aorta's side.
+## correct_answer
+C
+## main_concept
+CON-RES-DC1111DA6DD151
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the right lung's root lies IN FRONT OF, not behind, the inferior vena cava — the incorrect statement among four otherwise true ones about the root of the lung.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p8 q6. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C34BC57E7155
+## title
+Pleural reflection lies at which rib level in the midclavicular line?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Pleural reflection lies at which rib level in the midclavicular line?
+## answer_a
+8th
+## explanation_a
+This is the correct answer. The parietal pleura's inferior border crosses the eighth rib in the midclavicular line, two ribs below the lung's own inferior border at the same landmark (the sixth rib) — the gap the costodiaphragmatic recess occupies.
+
+Why this is right:
+- The cervical pleura is represented by a curved line, convex upwards, from the junction of the medial and middle thirds of the clavicle to the sternoclavicular joint, its highest point about 3 cm above the medial third of the clavicle.
+## answer_b
+9th
+## explanation_b
+The ninth rib is not the pleural reflection's own midclavicular-line level; it is the eighth rib, not the ninth.
+## answer_c
+10th
+## explanation_c
+The tenth rib is the pleural reflection's level in the MIDAXILLARY line, not the midclavicular line asked about here.
+## answer_d
+12th
+## explanation_d
+The twelfth rib (or spine) is the pleural reflection's level posteriorly (paravertebrally), not in the midclavicular line.
+## correct_answer
+A
+## main_concept
+CON-RES-B833146BBFCB26
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the pleural reflection crosses the eighth rib in the midclavicular line.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q13. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4FD7E9A7B8E7
+## title
+Regarding bronchopulmonary segments, which is correct?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding bronchopulmonary segments, which is correct?
+## answer_a
+There are approximately 10 segments in each lung
+## explanation_a
+There are ten bronchopulmonary segments on the RIGHT and eight on the LEFT — 'approximately 10 in each lung' is incorrect for the left side specifically.
+## answer_b
+The upper lobe of right lung divides into three segments
+## explanation_b
+This is the correct answer. The right lung's upper lobe has three bronchopulmonary segments (apical, posterior, anterior) — part of its own total of ten (3 upper, 2 middle, 5 lower).
+
+Why this is right:
+- A bronchopulmonary segment is a functionally independent unit of lung tissue supplied by a segmental (tertiary) bronchus and an accompanying end-artery branch of the pulmonary artery, with its own lymphatics and autonomic innervation (carried with the bronchial tree, not by the phrenic nerve).
+## answer_c
+Phrenic nerves supplying it
+## explanation_c
+A bronchopulmonary segment's own innervation runs with its bronchial tree, autonomically, not via the phrenic nerve — the phrenic nerve supplies the diaphragm and parts of the pleura, not the lung parenchyma's own segments.
+## answer_d
+It is quadrangular in shape
+## explanation_d
+A bronchopulmonary segment is wedge-shaped (apex at the hilum, base at the lung surface), not quadrangular.
+## correct_answer
+B
+## main_concept
+CON-RES-2A560C53F8E712
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the right lung's upper lobe divides into three bronchopulmonary segments, as opposed to false claims about segment count, innervation or shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q11. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-90B384AF64B2
+## title
+Regarding surface markings of the lungs the following is true:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding surface markings of the lungs the following is true:
+## answer_a
+Apex of lungs rises 5cm above the lateral third of clavicle
+## explanation_a
+The lung apex rises about one inch (roughly 3 cm) above the MEDIAL third of the clavicle, not 5 cm above the LATERAL third — both the landmark and the distance given here are wrong.
+## answer_b
+Oblique fissure follows approximately the axis of 4th rib
+## explanation_b
+The oblique fissure's surface line does not follow the axis of the fourth rib; its own course runs from about 3 cm off the T3 spinous process down to the sixth rib in the midaxillary line and forward to the sixth costal cartilage.
+## answer_c
+Oblique fissure following medial border of scapula abducted arm
+## explanation_c
+This is the correct answer. With the arm raised (abducted) overhead, the oblique fissure's surface projection corresponds closely to the medial border of the scapula in that position — the classic bedside landmark for locating it.
+
+Why this is right:
+- Both lungs have an oblique fissure, running from the posterior border 6 cm below the apex down and forwards to the inferior border, cutting as far as the hilum — corresponding on the surface to a line roughly along the medial border of the scapula when the arm is raised overhead, from about 3 cm off the T3 spine down to the sixth rib in the midaxillary line and forward to the sixth costal cartilage.
+## answer_d
+Transverse fissure of right lung is at 8th costal cartilage level
+## explanation_d
+The horizontal (transverse) fissure of the right lung runs from the fourth costal cartilage anteriorly to the sixth rib in the midaxillary line — not at the eighth costal cartilage level.
+## correct_answer
+C
+## main_concept
+CON-RES-DC7CC9CC4757BE
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the oblique fissure's surface line follows the medial border of the scapula when the arm is abducted overhead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q33. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EB5AEA2B614B
+## title
+Regarding the blood supply of the lungs, mark ONE correct statement:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the blood supply of the lungs, mark ONE correct statement:
+## answer_a
+Bronchial arteries supply oxygenated blood to the lungs tissues
+## explanation_a
+This is the correct answer. The bronchial arteries, branches of the descending thoracic aorta (or, on the right, the third posterior intercostal artery), carry OXYGENATED blood to nourish the bronchial tree, lung stroma and visceral pleura — the nutritive circulation, distinct from the pulmonary vessels' gas-exchange role.
+
+Why this is right:
+- The lung receives two separate circulations.
+## answer_b
+Pulmonary veins carry deoxygenated blood to them
+## explanation_b
+Backwards: the pulmonary veins carry OXYGENATED, not deoxygenated, blood — they return blood from the alveolar capillaries, after gas exchange, to the left atrium.
+## answer_c
+Pulmonary arteries carry oxygenated blood for the lung
+## explanation_c
+Backwards: the pulmonary arteries carry DEoxygenated, not oxygenated, blood — from the right ventricle to the alveolar capillaries for gas exchange.
+## answer_d
+Alveoli are surrounded by a network of capillaries from bronchial arteries
+## explanation_d
+The alveoli are surrounded by capillaries from the PULMONARY, not the bronchial, circulation — the bronchial arteries nourish the bronchial tree, stroma and visceral pleura but do not reach the alveolar capillary bed itself.
+## answer_e
+Pulmonary veins drain into the right atrium
+## explanation_e
+The pulmonary veins drain into the LEFT, not the right, atrium — carrying newly oxygenated blood back to the systemic side of the heart.
+## correct_answer
+A
+## main_concept
+CON-RES-CF9852282948CD
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the bronchial arteries, part of the nutritive circulation, carry oxygenated blood to the lung tissue, as opposed to the pulmonary vessels' own reversed (deoxygenated-in, oxygenated-out) roles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p21 q82. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DA73BC090319
+## title
+Regarding the lungs, all the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the lungs, all the following statements are true, EXCEPT:
+## answer_a
+Its apex projects into the neck
+## explanation_a
+True, so not the exception. The lung's apex projects through the thoracic inlet into the root of the neck, above the medial third of the clavicle.
+## answer_b
+Its costal surface is convex
+## explanation_b
+True, so not the exception. The lung's costal surface is wide, smooth and convex, against the ribs and intercostal spaces.
+## answer_c
+Its mediastinal surface is concave
+## explanation_c
+True, so not the exception. The lung's mediastinal surface is concave, moulded against the heart and mediastinal structures it lies beside.
+## answer_d
+Its anterior border is thick and rounded
+## explanation_d
+The exception, and the answer. The lung's ANTERIOR border is thin and sharp, not thick and rounded — 'thick and rounded' instead describes the POSTERIOR border; the two are opposite in character.
+
+Why this is right:
+- Each lung resembles half a cone, with an apex projecting through the thoracic inlet to about one inch above the medial third of the clavicle, and a concave base resting on the diaphragm.
+## answer_e
+Its posterior border lies beside the vertebral column
+## explanation_e
+True, so not the exception. The lung's posterior border lies beside the vertebral column, corresponding to the vertebral part of its medial surface.
+## correct_answer
+D
+## main_concept
+CON-RES-69F499B794713C
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the lung's anterior border is thin and sharp, not thick and rounded — the exception among four otherwise true statements about the lung's shape.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p29 q118. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-70ADF7E39856
+## title
+Regarding the lungs, the following statements are correct EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the lungs, the following statements are correct EXCEPT:
+## answer_a
+The bronchial arteries supply nutrition to the lung tissue
+## explanation_a
+True, so not the exception. The bronchial arteries supply nutrition (oxygenated blood) to the lung tissue, part of the nutritive bronchial circulation distinct from the pulmonary vessels' gas-exchange role.
+## answer_c
+The epi arterial bronchus of the right lung supplies both the upper and
+## explanation_c
+The exception, and the answer. The right lung's eparterial bronchus supplies the UPPER LOBE ALONE — the middle and lower lobes are instead supplied by the separate hyparterial bronchus, arising below the pulmonary artery; crediting the eparterial bronchus with both the upper and middle lobes is incorrect.
+
+Why this is right:
+- The hilum is the area on the mediastinal surface through which the structures of the root enter or leave the lung; the root is that group of structures, sleeved by a downward prolongation of mediastinal pleura that continues below as the pulmonary ligament.
+## answer_d
+The upper lobe of the right lung has three bronchopulmonary segments
+## explanation_d
+True, so not the exception. The right lung's upper lobe has three bronchopulmonary segments (apical, posterior, anterior).
+## answer_e
+The apex of each lung projects into the root of neck above the medial 1/3 of
+## explanation_e
+True, so not the exception. The apex of each lung projects into the root of the neck, above the medial third of the clavicle.
+## correct_answer
+C
+## main_concept
+CON-RES-9E5D1C2A67CB5D
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the right lung's eparterial bronchus supplies the upper lobe alone, not the upper and middle lobes together — the exception among four otherwise true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p19 q73. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-4EBB61692914
+## title
+Regarding the pleura, all the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pleura, all the following statements are true, EXCEPT:
+## answer_a
+The costodiaphragmatic recess is occupied by the inferior border of the lung
+## explanation_a
+True, so not the exception. The costodiaphragmatic recess is occupied by the lung's own inferior border during forced (deep) inspiration, when the expanding lung fills the space the recess normally leaves empty at rest.
+## answer_b
+The visceral pleura extend into the fissures of the lungs
+## explanation_b
+True, so not the exception. The visceral pleura, adherent to the lung throughout its surface, extends into the fissures between the lobes along with the lung tissue it covers.
+## answer_c
+The lymphatics draining the visceral pleura pass to the bronchopulmonary
+## explanation_c
+True, so not the exception. Lymphatics draining the visceral pleura pass centripetally to the bronchopulmonary lymph nodes at the hilum, the first station on the lung's own lymphatic drainage pathway.
+## answer_d
+The visceral pleura is innervated by the phrenic and the lower five
+## explanation_d
+The exception, and the answer. The VISCERAL pleura is innervated autonomically, via the anterior and posterior pulmonary plexuses, and is insensitive to somatic pain — it is the PARIETAL pleura (specifically its mediastinal and central diaphragmatic parts) that takes the phrenic nerve, with costal pleura taking the segmental intercostal nerves instead of 'the lower five' uniformly.
+
+Why this is right:
+- The visceral pleura takes the same autonomic innervation as the lung, through the anterior and posterior pulmonary plexuses, and is not sensitive to somatic stimuli such as pain and temperature; the parietal pleura takes the somatic nerve of the part of the wall, mediastinum or diaphragm it lines.
+## answer_e
+The costal pleura is separated from the ribs and costal cartilages by
+## explanation_e
+True, so not the exception. The costal pleura is separated from the ribs and costal cartilages by the endothoracic fascia, a thin fibroelastic layer between the two.
+## correct_answer
+D
+## main_concept
+CON-RES-3AB5ED388161A2
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the visceral pleura is innervated autonomically by the pulmonary plexuses, not by the phrenic and lower five intercostal nerves — the exception among four otherwise true statements about the pleura.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p20 q80. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-78EC79766592
+## title
+Regarding the right lung, all the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the right lung, all the following statements are true, EXCEPT:
+## answer_a
+It is lager than the left one
+## explanation_a
+True, so not the exception. The right lung is heavier and has a greater capacity than the left, even though it is shorter (the liver raises the right diaphragmatic dome).
+## answer_b
+Its horizontal fissure runs at the 6" costal cartilage
+## explanation_b
+The exception, and the answer. The right lung's horizontal fissure runs anteriorly from the FOURTH right costal cartilage, not the sixth — it meets the oblique fissure at the sixth rib in the midaxillary line, but that sixth-rib point is a different, lateral landmark from where the horizontal fissure itself begins anteriorly.
+
+Why this is right:
+- The right lung is shorter than the left because the liver raises the right cupola of the diaphragm, but broader because the heart bulges to the left, and it is heavier with a greater capacity.
+## answer_c
+Its upper lobe has three bronchopulmonary segments
+## explanation_c
+True, so not the exception. The right lung's upper lobe has three bronchopulmonary segments.
+## answer_d
+Its anterior border is vertical down to the 6" costal cartilage
+## explanation_d
+True, so not the exception. The right lung's anterior border is straight, running vertically down to about the sixth costal cartilage, unlike the left's cardiac notch and lingula.
+## answer_e
+It is related to the right atrium
+## explanation_e
+True, so not the exception. The right lung's cardiac impression, anterior to its hilum, is related to the right atrium and auricle.
+## correct_answer
+B
+## main_concept
+CON-RES-491F7739C10120
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the right lung's horizontal fissure runs at the fourth, not the sixth, costal cartilage anteriorly — the exception among four otherwise true statements about the right lung.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p29 q119. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-50015DDA90A9
+## title
+Regarding the root of the lung all true except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the root of the lung all true except:
+## answer_a
+It lie opposite the bodies of the T5, 6, 7 vertebrae
+## explanation_a
+True, so not the exception. The root of the lung lies opposite the bodies of the T5, T6 and T7 vertebrae. (Standard thoracic anatomy; not spelled out verbatim by this leaf's own currently authored article — flagged as a gap for the article-authoring lane.)
+## answer_b
+It includes bronchial arteries
+## explanation_b
+True, so not the exception. Bronchial vessels are among the structures filling the spaces between the named components of the root.
+## answer_c
+That of right lung lies behind the inferior vena cava
+## explanation_c
+The exception, and the answer. The root of the right lung lies IN FRONT OF, not behind, the inferior vena cava — the IVC grooves the right lung's mediastinal surface in front of and above the hilum.
+
+Why this is right:
+- On the right lung's mediastinal surface, in front of and above the hilum lie the cardiac impression (related to the right atrium and auricle), the groove for the superior vena cava (continuing up into the right brachiocephalic vein groove), the triangular impression for the ascending aorta, the groove for the inferior vena cava, and the groove for the arch of the azygos vein, with the tracheal and oesophageal grooves, the latter continuing behind the hilum.
+## answer_d
+That of left lung lies anterior to the descending aorta
+## explanation_d
+True, so not the exception. The root of the left lung lies anterior to the descending thoracic aorta, which grooves the left lung's mediastinal surface behind the hilum.
+## answer_e
+Cardiac impression lie anterior and below it
+## explanation_e
+True, so not the exception. The cardiac impression lies anterior to and below the root of the lung on both sides.
+## correct_answer
+C
+## main_concept
+CON-RES-DC1111DA6DD151
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the right lung's root lies IN FRONT OF, not behind, the inferior vena cava — the exception among five otherwise true statements about the root of the lung.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p4 q17. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1237B9EC2A30
+## title
+Regarding the root of the lung, one is incorrect:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the root of the lung, one is incorrect:
+## answer_a
+It includes bronchial arteries
+## explanation_a
+True, so not the incorrect answer. Bronchial vessels are among the structures included at the root of the lung, filling the spaces between its named components.
+## answer_b
+That of right lung lies behind the inferior vena cava
+## explanation_b
+The incorrect statement, and the answer. The root of the right lung lies IN FRONT OF, not behind, the inferior vena cava.
+
+Why this is right:
+- On the right lung's mediastinal surface, in front of and above the hilum lie the cardiac impression (related to the right atrium and auricle), the groove for the superior vena cava (continuing up into the right brachiocephalic vein groove), the triangular impression for the ascending aorta, the groove for the inferior vena cava, and the groove for the arch of the azygos vein, with the tracheal and oesophageal grooves, the latter continuing behind the hilum.
+## answer_c
+That of left lung lies anterior to the descending aorta
+## explanation_c
+True, so not the incorrect answer. The root of the left lung lies anterior to the descending thoracic aorta, which grooves the left lung's mediastinal surface behind the hilum.
+## answer_d
+Cardiac impression lies anterior and below it
+## explanation_d
+True, so not the incorrect answer. The cardiac impression lies anterior to and below the root of the lung.
+## correct_answer
+B
+## main_concept
+CON-RES-DC1111DA6DD151
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the right lung's root lies IN FRONT OF, not behind, the inferior vena cava — the incorrect statement among four otherwise true ones about the root of the lung.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q29. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-164B45EC7297
+## title
+Regarding the suprapleural membrane, all the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the suprapleural membrane, all the following statements are true, EXCEPT:
+## answer_a
+It is a dense fascial layer that closes the thoracic inlet.
+## explanation_a
+True, so not the exception. The suprapleural membrane (Sibson's fascia) is a dense fascial layer that closes off the thoracic inlet, protecting the structures beneath it.
+## answer_b
+It is attached to the inner border of the first rib.
+## explanation_b
+True, so not the exception. Its base is attached to the inner border of the first rib and its costal cartilage.
+## answer_c
+Its apex is attached to the transverse process of the 7 cervical vertebra.
+## explanation_c
+True, so not the exception. Its apex is attached to the transverse process of the seventh cervical vertebra.
+## answer_d
+It protects the cervical pleura.
+## explanation_d
+True, so not the exception. It protects the cervical pleura and the apex of the lung beneath it from injury and from being sucked inward during inspiration.
+## answer_e
+It moves upwards to increase the vertical diameter of the thorax.
+## explanation_e
+The exception, and the answer. The suprapleural membrane does NOT move upwards to increase thoracic vertical diameter — it does the opposite, RESISTING upward bulging of the lung apex during forced expiration and inward suction at the root of the neck during inspiration, functioning as a protective, largely static fascial sheet rather than a moving one.
+
+Why this is right:
+- Each pleural sac is a closed serous sac invaginated from its medial side by the lung, forming a visceral layer adherent to the lung and a parietal layer, with the pleural cavity between them holding only a thin film of fluid.
+## correct_answer
+E
+## main_concept
+CON-RES-CED26421AF8B39
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the suprapleural membrane resists, rather than causes, upward movement of the thoracic apex — the exception among four otherwise true statements about it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p29 q120. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-930CF54AA2D0
+## title
+What lies posterior to the right root of the lung?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What lies posterior to the right root of the lung?
+## answer_a
+Aorta
+## explanation_a
+The aorta does not lie directly posterior to the right root specifically — the arch and descending aorta relate mainly to the left side of the mediastinum and the left lung's own root, not the right.
+## answer_b
+Right phrenic nerve
+## explanation_b
+The right PHRENIC nerve descends in front of, not behind, its lung's root, separated from it by mediastinal pleura — the opposite position from what this question asks about.
+## answer_c
+Right vagus nerve
+## explanation_c
+This is the correct answer. The right vagus nerve descends posterior to the root of the right lung, contributing to the posterior pulmonary plexus there — the complementary position to the phrenic nerve's own anterior course past the same root. (Defensible by the phrenic nerve's confirmed anterior position and standard paired thoracic-nerve anatomy; the currently authored article states the phrenic relation explicitly but not this specific vagus relation — flagged as a gap for the article-authoring lane.)
+
+Why this is right:
+- The hilum is the area on the mediastinal surface through which the structures of the root enter or leave the lung; the root is that group of structures, sleeved by a downward prolongation of mediastinal pleura that continues below as the pulmonary ligament.
+## answer_d
+Left vagus nerve
+## explanation_d
+The LEFT, not the right, vagus nerve lies near the left root (crossing the aortic arch before giving the left recurrent laryngeal nerve) — it has no direct relation to the RIGHT lung's root.
+## correct_answer
+C
+## main_concept
+CON-RES-9E5D1C2A67CB5D
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify the right vagus nerve as the structure lying posterior to the root of the right lung, as distinct from the phrenic nerve's own anterior position.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q5. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B83D20B2A355
+## title
+Which of the following are the bronchopulmonary segments of the lingula of the left lung?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following are the bronchopulmonary segments of the lingula of the left lung?
+## answer_a
+Anterior and posterior
+## explanation_a
+Anterior and posterior are not the lingula's own segment names — those terms instead describe two of the segments elsewhere in the upper lobe (apical, posterior, anterior on the standard numbering).
+## answer_b
+Medial and lateral
+## explanation_b
+Medial and lateral are the names of two of the RIGHT middle lobe's own segments, the lingula's closest anatomical analogue on the other side — not the lingula's own segment names.
+## answer_c
+Superior and inferior
+## explanation_c
+This is the correct answer. The lingula of the left lung's upper lobe — the analogue of the right middle lobe — divides into two bronchopulmonary segments, the superior and inferior lingular segments. (The article confirms the lingula carries exactly two segments within the left upper lobe's total of four; the specific 'superior/inferior' naming is standard bronchopulmonary-segment nomenclature not spelled out verbatim by the currently authored article — flagged as a gap for the article-authoring lane.)
+
+Why this is right:
+- A bronchopulmonary segment is a functionally independent unit of lung tissue supplied by a segmental (tertiary) bronchus and an accompanying end-artery branch of the pulmonary artery, with its own lymphatics and autonomic innervation (carried with the bronchial tree, not by the phrenic nerve).
+## answer_d
+Anterior basal and posterior basal
+## explanation_d
+Anterior basal and posterior basal are two of the LOWER lobe's own basal segments (shared in name and position by both lungs), not segments of the lingula, which sits in the upper lobe.
+## answer_e
+None of the above
+## explanation_e
+Not correct: the lingula does have two named bronchopulmonary segments of its own (superior and inferior lingular), so 'none of the above' does not apply.
+## correct_answer
+C
+## main_concept
+CON-RES-2A560C53F8E712
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the superior and inferior lingular segments as the two bronchopulmonary segments of the left lung's lingula.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p20 q77. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-656A9F0D8E36
+## title
+Which one of the following structures leaves an impression on the mediastinal surfaces …
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following structures leaves an impression on the mediastinal surfaces of both Lungs?
+## answer_a
+The esophagus
+## explanation_a
+This is the correct answer. The oesophagus grooves the mediastinal surface of both lungs — behind the hilum on the right, and behind the subclavian-artery groove (also behind the hilum) on the left — making it the one structure common to both sides' impressions.
+
+Why this is right:
+- On the right lung's mediastinal surface, in front of and above the hilum lie the cardiac impression (related to the right atrium and auricle), the groove for the superior vena cava (continuing up into the right brachiocephalic vein groove), the triangular impression for the ascending aorta, the groove for the inferior vena cava, and the groove for the arch of the azygos vein, with the tracheal and oesophageal grooves, the latter continuing behind the hilum.
+## answer_c
+The inferior vena cava
+## explanation_c
+The inferior vena cava grooves only the RIGHT lung's mediastinal surface (in front of and above the hilum); the left lung has no IVC-related impression at all.
+## answer_d
+The superior vena cava
+## explanation_d
+The superior vena cava likewise grooves only the RIGHT lung's mediastinal surface; it has no equivalent impression on the left lung.
+## correct_answer
+A
+## main_concept
+CON-RES-DC1111DA6DD151
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs, Gross Anatomy
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify the oesophagus as the one structure that leaves an impression on the mediastinal surfaces of BOTH lungs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p5 q33. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 

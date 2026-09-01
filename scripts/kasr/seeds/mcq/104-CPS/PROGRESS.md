@@ -2288,3 +2288,82 @@ bronchopulmonary-segment per-lobe breakdown (3 upper/2 middle/5 lower
 right, 4 upper incl. 2 lingular/4 lower left) is in `104-CPS-anatomy.md`'s
 own article prose, not yet copied into that concept's summary
 definition).
+
+## run41 continued — Lungs — Gross Anatomy CLOSED (21/21: 16 kept, 5
+excluded, 0 unclaimed). New leaf, new file `anatomy-lungs-gross.ts` — 0
+fresh mints. `104-CPS-anatomy-concepts.md` (not `GENERATED_BY` this MCQ
+pipeline) turned out to hold a rich, already hand-authored, pinned lung/
+pleura anatomy concept set, all pinned to real, live, evidenced Draft
+articles (`ART-104-ANA-LUNG-SURFACE-FEATURES`,
+`ART-104-ANA-LUNG-SEGMENTS-AND-BLOOD-SUPPLY`,
+`ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY`) — the same goldmine
+pattern documented repeatedly elsewhere in this branch. `pleura.nerve-
+supply` (CON-RES-3AB5ED388161A2) came from `104-CPS-concepts.md` instead
+(the written-paper pipeline's own generated file, also not `GENERATED_BY`
+this pipeline, so equally visible). Every kept question is a sparse reuse
+of one of 10 pinned concepts: `lung.hilum-and-root`, `lung.fissures-and-
+lobes`, `bronchopulmonary-segment.definition-and-distribution`, `lung.
+dual-blood-supply`, `right-vs-left-lung.differences`, `lung.mediastinal-
+surface-impressions`, `lung.external-features`, `pleura.divisions-and-
+recesses`, `pleura.surface-anatomy`, `pleura.nerve-supply`.
+
+**A recurring pattern this cluster confirms**: several "root of the lung"
+rows credit "right lung's root lies behind the inferior vena cava" as the
+FALSE/incorrect statement — resolved cleanly by the already-pinned
+`lung.mediastinal-surface-impressions` concept, whose own definition
+places the IVC groove "in front of and above the hilum" on the right lung
+(i.e. the root sits in FRONT of, not behind, the IVC) — no new search or
+mint needed for three separate bank rows testing this same relation from
+different angles.
+
+**16 kept**, most as sparse reuses onto one of the 10 pinned concepts
+above; two carry a disclosed, defensible-by-elimination gap rather than a
+fully-stated source fact: `what-lies-posterior-to-the-right-root-of-the-
+lung-961e042f` (right vagus nerve — grounded by the phrenic nerve's own
+confirmed anterior position and standard paired thoracic-nerve anatomy,
+not stated verbatim by the currently authored article) and `which-of-the-
+following-are-the-bronchopulmonary-segments-of-b8d446b1` (lingula =
+superior + inferior segments — the article confirms "two lingular
+segments" exist but does not name them).
+
+**5 excluded**: `regarding-the-bronchopulmonary-segments-choose-the-
+correct-s-a03bf8bf` — a genuine two-correct-answer ambiguity (both
+"supplied by a tertiary bronchus" and "supplied by end arteries" are true
+per the same pinned concept's own defining sentence, and this row's own
+confidence is the weakest tier, editorial-no-printed-key); `regarding-
+the-lungs-mark-the-wrong-statement-e5cc97b5` — option E is another
+question's own stem bled in verbatim, leaving only 3 usable options;
+`03-6-visceral-pleufa-is-innervated...5369899d` — at least 3 separate
+source questions merged across the stem/option boundary; `one-of-the-
+followings-is-a-main-feature-of-the-right-lung-fe-6a94ad9a` — only 2
+option letters survive; `what-impression-cannot-be-found-on-the-
+mediastinal-surface-o-630618f3` — option A merges two distinct choices
+with no letter boundary, and the bank's own credited answer (SVC groove
+"cannot be found" on the right lung) directly contradicts this leaf's own
+sourced mediastinal-impressions concept, which states the SVC groove IS
+a genuine right-lung feature — the corruption plausibly explains the
+mismatch (the physiologically consistent answer, left subclavian artery
+groove, is exactly the fact merged into the corrupted option instead of
+being cleanly lettered).
+
+Gate: build-batches.ts "104 CPS": 788 kept (+16 from 772), 178 excluded
+(+5 from 173), 188 MCQ concepts (+7, all sparse-reuse first appearances
+in this pipeline's own MCQ-concept file — 0 fresh mints). `medical:batch
+--with` (10-file recipe): errors=0. `kasr:ledger-104`: Lungs — Gross
+Anatomy now bank 21, authored 16, excluded 5, remaining 0 — CLOSED.
+
+Both of this run's dispatched new leaves (Mechanics of Breathing, Lungs
+— Gross Anatomy) are now closed, alongside the reopened Basic Mechanisms
+of Circulatory Control tranche (17 remaining, all respected-unclaimed —
+see above). Simulate not yet run this session; due once at the end of
+this cluster, before the final commit, per the lane card.
+
+HANDOFF: kasr-104-author-run41@<this commit's sha, see `git log -1`> ·
+resume-first: run `node scripts/content/gate.mjs simulate` once, positional,
+over every 104-CPS concept/article/evidence/question/written file this
+branch has touched (apply order), then close out with a final ledger
+recompute and report. No further authoring dispatched this session beyond
+the three named clusters (Basic Mechanisms of Circulatory Control,
+Mechanics of Breathing, Lungs — Gross Anatomy) — the next-largest
+untouched clusters (Pulmonary Compliance 18, Gas exchange in the lung 15,
+Chromosomal Aberrations 13) are candidates for a future run.

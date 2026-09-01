@@ -4,19 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 772 | excluded: 173 | remaining: 207
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 788 | excluded: 178 | remaining: 186
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 772
+- authored (by key, this ledger): 788
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 772
+- authored minus held-back = build-style "kept": 788
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
 | Pulmonary Compliance | 45 | 24 | 3 | 18 |
 | Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
 | Gas exchange in the lung | 21 | 4 | 2 | 15 |
@@ -45,6 +44,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
+| Lungs — Gross Anatomy | 21 | 16 | 5 | 0 |
 | Mechanics of Breathing | 22 | 18 | 4 | 0 |
 | Mediastinum | 41 | 30 | 11 | 0 |
 | The Cell Cycle | 5 | 5 | 0 | 0 |
@@ -54,30 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Lungs — Gross Anatomy (21)
-
-- `03-6-visceral-pleufa-is-innervated-by-the-phrenic-and-the-fo-5369899d` — 03 6 visceral pleufa is innervated by the phrenic and the fower five 1 00 interc…
-- `following-statements-regarding-lungs-are-true-except-a8d8c3cf` — Following statements regarding lungs are true, EXCEPT:
-- `i-regarding-the-root-of-the-lung-mark-the-incorrect-answer-0-e92f0fa9` — i Regarding the root of the lung; mark the incorrect answer: 00 ْ a- It lie oppo…
-- `one-of-the-followings-is-a-main-feature-of-the-right-lung-fe-6a94ad9a` — One of the followings is a main feature of the right lung: febref a It has two l…
-- `pleural-reflection-lies-at-which-rib-level-in-the-midclavicu-4742bd47` — Pleural reflection lies at which rib level in the midclavicular line?
-- `regarding-bronchopulmonary-segments-which-is-correct-03061e6c` — Regarding bronchopulmonary segments, which is correct?
-- `regarding-surface-markings-of-the-lungs-the-following-is-tru-173291e3` — Regarding surface markings of the lungs the following is true:
-- `regarding-the-blood-supply-of-the-lungs-mark-one-correct-sta-475d3a78` — Regarding the blood supply of the lungs, mark ONE correct statement:
-- `regarding-the-bronchopulmonary-segments-choose-the-correct-s-a03bf8bf` — Regarding the bronchopulmonary segments, choose the correct statement:
-- `regarding-the-lungs-all-the-following-statements-are-true-ex-1bfb9298` — Regarding the lungs, all the following statements are true, EXCEPT:
-- `regarding-the-lungs-mark-the-wrong-statement-e5cc97b5` — Regarding the lungs, mark the wrong statement: ; :
-- `regarding-the-lungs-the-following-statements-are-correct-exc-e8f3c3d0` — Regarding the lungs, the following statements are correct EXCEPT:
-- `regarding-the-pleura-all-the-following-statements-are-true-e-1968aabb` — Regarding the pleura, all the following statements are true, EXCEPT:
-- `regarding-the-right-lung-all-the-following-statements-are-tr-6f98f439` — Regarding the right lung, all the following statements are true, EXCEPT:
-- `regarding-the-root-of-the-lung-all-true-except-5bb8ca0c` — Regarding the root of the lung all true except:
-- `regarding-the-root-of-the-lung-one-is-incorrect-ab551b87` — Regarding the root of the lung, one is incorrect:
-- `regarding-the-suprapleural-membrane-all-the-following-statem-c8caf1dc` — Regarding the suprapleural membrane, all the following statements are true, EXCE…
-- `what-impression-cannot-be-found-on-the-mediastinal-surface-o-630618f3` — What impression cannot be found-on. the mediastinal surface of the right Jung:
-- `what-lies-posterior-to-the-right-root-of-the-lung-961e042f` — What lies posterior to the right root of the lung?
-- `which-of-the-following-are-the-bronchopulmonary-segments-of-b8d446b1` — Which of the following are the bronchopulmonary segments of the lingula of the l…
-- `which-one-of-the-following-structures-leaves-an-impression-o-bc55d0f1` — Which one of the following structures leaves an impression on the mediastinal su…
 
 ### Pulmonary Compliance (18)
 

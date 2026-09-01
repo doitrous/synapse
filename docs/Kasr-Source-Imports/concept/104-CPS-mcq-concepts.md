@@ -11,6 +11,7 @@
     The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
+    Anatomy Respiratory System — Lungs, Gross Anatomy — 21 questions, 10 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Subdivisions of the Mediastinum — 14 questions, 4 concepts
@@ -82,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  173 questions were excluded and 0 held back for having no
+  178 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1188,17 +1189,293 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## id
+CON-RES-9E5D1C2A67CB5D
+## label
+The root of the lung is enclosed in a pleural sleeve and its structures are arranged with the superior pulmonary vein most anterior, the principal bronchus most posterior and the artery in front of the bronchus
+## canonical_key
+lung.hilum-and-root
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.hilum-and-root" already has a pinned id in this module (CON-RES-9E5D1C2A67CB5D); mintConceptId derives the same id fresh (CON-RES-9E5D1C2A67CB5D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-DC7CC9CC4757BE
+## label
+The oblique fissure is present in both lungs; only the right lung also has a horizontal fissure, which separates its upper and middle lobes
+## canonical_key
+lung.fissures-and-lobes
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.fissures-and-lobes" already has a pinned id in this module (CON-RES-DC7CC9CC4757BE); mintConceptId derives the same id fresh (CON-RES-DC7CC9CC4757BE) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-2A560C53F8E712
+## label
+A bronchopulmonary segment is a wedge-shaped, functionally independent unit supplied by its own segmental bronchus and pulmonary artery branch, ten on the right and eight on the left
+## canonical_key
+bronchopulmonary-segment.definition-and-distribution
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p20 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "bronchopulmonary-segment.definition-and-distribution" already has a pinned id in this module (CON-RES-2A560C53F8E712); mintConceptId derives the same id fresh (CON-RES-2A560C53F8E712) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-CF9852282948CD
+## label
+The lung has a dual blood supply: pulmonary vessels carry blood to be oxygenated, and bronchial vessels nourish the lung tissue itself
+## canonical_key
+lung.dual-blood-supply
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p21 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.dual-blood-supply" already has a pinned id in this module (CON-RES-CF9852282948CD); mintConceptId derives the same id fresh (CON-RES-CF9852282948CD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-491F7739C10120
+## label
+The right lung is shorter, broader and heavier than the left, has three lobes and two fissures against the left's two lobes and one, and ten bronchopulmonary segments against eight
+## canonical_key
+right-vs-left-lung.differences
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p29 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "right-vs-left-lung.differences" already has a pinned id in this module (CON-RES-491F7739C10120); mintConceptId derives the same id fresh (CON-RES-491F7739C10120) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
 CON-RES-DC1111DA6DD151
 ## label
 The mediastinal surfaces of the two lungs carry different impressions: the right is grooved by the SVC and azygos arch, the left by the aortic arch and its two great branches
 ## canonical_key
 lung.mediastinal-surface-impressions
 ## exam_signal
+src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p8 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p5 | 104 CPS
 src_b2b20b3b22954ea7843a | question_book | | p5 | 104 CPS
 ## article_ids
 +ART-104-ANA-LUNG-SURFACE-FEATURES
 ## field_notes
 canonical_key "lung.mediastinal-surface-impressions" already has a pinned id in this module (CON-RES-DC1111DA6DD151); mintConceptId derives the same id fresh (CON-RES-DC1111DA6DD151) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-69F499B794713C
+## label
+Each lung is half a cone with an apex, a base, costal and medial surfaces, and anterior, posterior and inferior borders
+## canonical_key
+lung.external-features
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p29 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.external-features" already has a pinned id in this module (CON-RES-69F499B794713C); mintConceptId derives the same id fresh (CON-RES-69F499B794713C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-CED26421AF8B39
+## label
+The parietal pleura is named cervical, costal, mediastinal and diaphragmatic by the wall it lines, and each pleural sac has a costomediastinal and a costodiaphragmatic recess
+## canonical_key
+pleura.divisions-and-recesses
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p29 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p26 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES | +ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## field_notes
+canonical_key "pleura.divisions-and-recesses" already has a pinned id in this module (CON-RES-CED26421AF8B39); mintConceptId derives the same id fresh (CON-RES-CED26421AF8B39) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-B833146BBFCB26
+## label
+The cervical pleura rises 3 cm above the medial third of the clavicle, and the two anterior pleural borders diverge below the fourth costal cartilage for the cardiac notch
+## canonical_key
+pleura.surface-anatomy
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES | +ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## field_notes
+canonical_key "pleura.surface-anatomy" already has a pinned id in this module (CON-RES-B833146BBFCB26); mintConceptId derives the same id fresh (CON-RES-B833146BBFCB26) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Visceral pleura takes autonomic fibres from the pulmonary plexuses and feels no pain; parietal pleura takes the somatic nerve of the wall it lines, not the pulmonary plexuses
+## id
+CON-RES-3AB5ED388161A2
+## canonical_key
+pleura.nerve-supply
+## definition
+The visceral (pulmonary) pleura is supplied by the same autonomic innervation as the lung, through the anterior and posterior pulmonary plexuses, and is not sensitive to somatic stimuli such as pain and temperature. The parietal pleura takes the somatic innervation of the structure it lines: the cervical pleura from the first intercostal nerve, the costal pleura segmentally from the corresponding intercostal nerve, the mediastinal pleura and the central part of the diaphragmatic pleura from the phrenic nerve, and the peripheral part of the diaphragmatic pleura from the lower intercostal nerves.
+## explicit_objective
+Give the nerve supply of visceral and parietal pleura, naming the nerve for each part of the parietal pleura, and state that the pulmonary plexuses supply the VISCERAL, not the parietal, pleura.
+## pitfalls
+Giving the phrenic nerve the whole diaphragmatic pleura, or crediting the pulmonary plexuses with the parietal pleura's own supply. Only the diaphragmatic pleura's central part is phrenic (the periphery is intercostal), and the pulmonary plexuses supply the VISCERAL pleura alone — the parietal pleura is somatically, not autonomically, innervated throughout.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Respiratory System > Lungs — Gross Anatomy
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p20 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Respiratory System
+## aliases
+Nerve supply of the pleura | Visceral pleura innervation | Parietal pleura innervation
+## article_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding the lungs, mark the wrong statement: ; :
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-LUNG-SEGMENTS-AND-BLOOD-SUPPLY | ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -1693,40 +1970,6 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## id
-CON-RES-CED26421AF8B39
-## label
-The parietal pleura is named cervical, costal, mediastinal and diaphragmatic by the wall it lines, and each pleural sac has a costomediastinal and a costodiaphragmatic recess
-## canonical_key
-pleura.divisions-and-recesses
-## exam_signal
-src_9cf32ada2b25fa54f0e9 | question_book | | p26 | 104 CPS
-## article_ids
-+ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
-## field_notes
-canonical_key "pleura.divisions-and-recesses" already has a pinned id in this module (CON-RES-CED26421AF8B39); mintConceptId derives the same id fresh (CON-RES-CED26421AF8B39) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
-
-
----
-
-# Item
-## id
-CON-RES-B833146BBFCB26
-## label
-The cervical pleura rises 3 cm above the medial third of the clavicle, and the two anterior pleural borders diverge below the fourth costal cartilage for the cardiac notch
-## canonical_key
-pleura.surface-anatomy
-## exam_signal
-src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
-## article_ids
-+ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
-## field_notes
-canonical_key "pleura.surface-anatomy" already has a pinned id in this module (CON-RES-B833146BBFCB26); mintConceptId derives the same id fresh (CON-RES-B833146BBFCB26) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
