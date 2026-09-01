@@ -1,0 +1,54 @@
+# ZU-MED-106 (Cardiopulmonary) triage keys — one per line, # comments allowed.
+# S3 first-module triage, first source: Fakous CPS Final 2024.pdf (46 questions:
+# 10 written + 36 SBA, all 36 SBA keys recovered via hand-drawn-mark render — see
+# coverage/ZU-MED-106-triage.md). Slug = kebab-case of the tested idea; status is
+# this source's find-existing.mjs result (live/pending/new); comment carries the
+# recovered key letter for MCQ items so a re-triage never re-reads the render.
+# --- Written (essay) — no single-letter key, graded via rubric/department book ---
+cps-pleura-surface-anatomy  # new · essay: cervical/anterior/inferior borders of pleura
+cps-internal-jugular-vein-tributaries  # new · essay: 5 tributaries of IJV
+cps-co2-transport-forms-in-blood  # new · essay: forms of CO2 carried in arterial blood
+cps-intra-alveolar-pressure  # live (partial — citation only, no full concept) · essay: definition and values
+cps-arteriolar-autoregulation-intrinsic-mechanism  # new · essay 5a
+cps-stress-relaxation-bp-regulation  # new · essay 5b
+cps-surfactant-functions  # new · essay: enumerate functions
+cps-chylomicron-metabolism  # new · essay: describe metabolism
+cps-palatine-vs-pharyngeal-tonsil-histology  # new · essay: site/number/covering/crypts comparison
+cps-purkinje-vs-cardiac-muscle-histology  # new · essay: 6 histological differences
+cps-pneumocyte-type-2-histology-function  # new · essay: structure and function
+# --- SBA (36, 1 literal duplicate: Q14=Q17) ---
+cps-lung-carcinoma-lingula-anatomy  # pending (Kasr 104-CPS-anatomy) · key: d) Lingula
+cps-thyrocervical-trunk-ligation  # new · key: b) Thyrocervical trunk
+cps-recurrent-laryngeal-nerve-thyroarytenoid  # new · key: c) Thyroarytenoid
+cps-sphenoethmoidal-recess-sphenoid-sinus  # new · key: b) Sphenoid sinus
+cps-foreign-body-right-main-bronchus  # new · key: a) Right main bronchus
+cps-thoracic-duct-injury-chylothorax  # new · key: b) Chylothorax
+cps-laryngopharynx-piriform-recess  # new · key: d) Piriform recess
+cps-vocal-cord-abduction-posterior-cricoarytenoid  # new · key: d) Posterior cricoarytenoid
+cps-littles-area-sphenopalatine-artery  # new · key: b) Sphenopalatine
+cps-carotid-buffer-nerve-stimulation-effect  # new · key: b) Reflex hypotension and bradycardia
+cps-neurogenic-shock-mechanism  # new · key: c) Vasodilation of skeletal muscle blood vessels
+cps-isometric-relaxation-second-heart-sound  # new · key: a) Second heart sound
+cps-post-hemorrhage-capillary-shift-mechanism  # new · key: c) Capillary shift mechanism
+cps-angiotensin-ii-thirst-effect  # new · key: c) Stimulates thirst sensation (2 identical SBA copies, Q14+Q17)
+cps-refractory-shock-cause-of-death  # live (partial — different fact than live concept) · key: d) Release of toxins by ischemic tissues
+cps-hydrostatic-indifferent-point  # new · key: d) Normally 5-7cm below diaphragm
+cps-conducting-zone-dead-space  # new · key: c) It is called dead space
+cps-quiet-inspiration-diaphragm  # new · key: a) Diaphragm
+cps-forced-expiration-muscles  # new · key: d) Internal intercostal and abdominal muscles
+cps-pulmonary-edema-surface-tension-prevention  # new · key: a) Surface tension of fluid lining alveoli
+cps-hypoxia-definition  # new · key: c) Diminished O2 supply at tissue level
+cps-bronchial-tone-vip-relaxation  # new · key: a) V.I.P.
+cps-stagnant-hypoxia-decreased-blood-supply  # live (partial — different fact than live concept) · key: b) Stagnant hypoxia
+cps-central-chemoreceptors-co2-sensitivity  # new · key: b) CO2 excess
+cps-ldl-receptor-apo-specificity  # new · key: d) Apo B100 and apo E
+cps-cholesterol-synthesis-committed-step  # new · key: b) Formation of mevalonate from HMG CoA
+cps-apo-cii-lipoprotein-lipase-activation  # new · key: a) Lipoprotein lipase
+cps-hmp-pathway-nadph-source  # new · key: b) The hexose monophosphate (HMP) pathway
+cps-de-novo-fatty-acid-synthesis-nadph  # new · key: d) NADPH+H+ is required
+cps-tay-sachs-hexosaminidase-a  # new · key: c) Hexosaminidase A
+cps-thymus-epithelial-reticular-cells  # new · key: c) Joined together by cell junctions
+cps-splenic-sinusoid-endothelium  # new · key: b) Elongated endothelial cells
+cps-basilar-artery-characteristics  # new · key: c) Wide lumen and thin wall
+cps-nervous-tissue-capillaries  # new · key: a) Contain pinocytic vesicles that permit transport
+cps-terminal-bronchiole-histology  # live (partial — different fact than live concept) · key: b) Lamina propria has no glands
