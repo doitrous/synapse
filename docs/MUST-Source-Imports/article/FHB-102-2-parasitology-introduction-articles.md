@@ -3772,6 +3772,7 @@ Draining or filling swampy breeding sites is physical mosquito control.
 Malathion is listed as a residual organophosphorus mosquito insecticide.
 Installing window screens is a mechanical mosquito-control measure.
 Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
 
 ## published_summary
 
@@ -3789,6 +3790,7 @@ Malathion is listed as a residual organophosphorus mosquito insecticide.
 Installing window screens is a mechanical mosquito-control measure.
 Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
 Using Gambusia fish is a biological mosquito-control method.
+Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
 
 ## lose_the_mark
 Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection.
@@ -3800,6 +3802,7 @@ Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents.
 Spraying is chemical, while fish and Bacillus thuringiensis are biological controls.
 Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only.
 DDT is chemical control, window screens are mechanical control and mosquito coils are repellents.
+Paris green is not presented as an adulticide or ovicide, and non-feeding pupae are not affected.
 
 ## callout_evidence
 ### Using Gambusia fish is a biological mosquito-control method.
@@ -3847,6 +3850,11 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q60-01
 Reviewed by: pending medical review
 
+### Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q62-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-863856AB7138F8
 CON-INF-BDA58A5572D741
@@ -3871,6 +3879,7 @@ QST-MUST-FHB1022-PARA-MOSQ2-Q27
 QST-MUST-FHB1022-PARA-MOSQ2-Q28
 QST-MUST-FHB1022-PARA-MOSQ2-Q30
 QST-MUST-FHB1022-PARA-MUCIZE-Q60
+QST-MUST-FHB1022-PARA-MUCIZE-Q62
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
@@ -3890,6 +3899,7 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
 CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q21-01
@@ -3901,6 +3911,7 @@ SPN-INF-MUST-FHB1022-MOSQ2-Q27-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q28-01
 SPN-INF-MUST-FHB1022-MOSQ2-Q30-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q60-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q62-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -3950,6 +3961,11 @@ Id: ann-must-fhb1022-mosq2-q30
 Quote: Using Gambusia fish is a biological mosquito-control method.
 Block: body
 Id: ann-must-fhb1022-mucize-q60
+
+### definition_of · CON-INF-DE8BA9EC7D8688
+Quote: Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
+Block: body
+Id: ann-must-fhb1022-mucize-q62
 
 ## media
 
@@ -4099,6 +4115,14 @@ Adult sandflies hide in rodent burrows and in cracks or crevices in buildings du
 Female sandflies are nocturnal feeders.
 Sandflies are weak fliers and characteristically move by hopping.
 Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+Sandflies are called sandflies because of their sandy yellow colour.
+Old World sandflies belong to Phlebotomus species.
+New World sandflies belong to Lutzomyia species.
+Sandfly distribution is limited to areas with temperatures above 15.6°C.
+Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.
+Sandflies are weak fliers with a tendency to hop.
+As a rule, female sandflies are the blood-sucking sex.
+Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
 
 ## published_summary
 
@@ -4117,6 +4141,15 @@ Adult sandflies hide in rodent burrows and in cracks or crevices in buildings du
 Female sandflies are nocturnal feeders.
 Sandflies are weak fliers and characteristically move by hopping.
 Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+Sandflies are called sandflies because of their sandy yellow colour.
+Old World sandflies belong to Phlebotomus species.
+New World sandflies belong to Lutzomyia species.
+Sandfly distribution is limited to areas with temperatures above 15.6°C.
+Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.
+Sandflies undergo complete metamorphosis.
+Sandflies are weak fliers with a tendency to hop.
+As a rule, female sandflies are the blood-sucking sex.
+Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
 
 ## lose_the_mark
 The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat.
@@ -4129,6 +4162,15 @@ Both A and B are supported; sandflies do not use water as the governed daytime h
 The governed statement is nocturnal, not diurnal, dawn-only or non-feeding.
 The deck does not describe strong continuous or long-distance flight, and burrows are resting habitat rather than movement.
 Sandflies are not restricted to indoors, do not breed in water and are not defined as biting only humans.
+The governed naming feature is colour, not desert habitat, egg-laying substrate or hopping in sand.
+Lutzomyia is the New World sandfly genus, while Aedes and Anopheles are mosquito genera.
+Phlebotomus is the Old World sandfly genus, while Culex and Anopheles are mosquito genera.
+The deck does not support below 10°C, a 5–20°C range or unrestricted temperatures.
+Water, tree canopies and human skin are not the governed daytime hiding sites.
+The governed deck does not describe incomplete, mixed or absent metamorphosis.
+The deck does not describe strong flight, hovering or straight-line gliding.
+The governed statement does not assign blood feeding to males or to neither sex.
+The governed explanation is not contaminated food, urban restriction or universal worldwide distribution.
 
 ## callout_evidence
 ### Sandflies are called sandflies because they have a sandy yellow colour.
@@ -4181,6 +4223,51 @@ Claims: CLM-INF-MUST-FHB1022-SAND2-Q30-01
 Citations: CIT-INF-MUST-FHB1022-SAND2-Q30-01
 Reviewed by: pending medical review
 
+### Sandflies are called sandflies because of their sandy yellow colour.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q67-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q67-01
+Reviewed by: pending medical review
+
+### Old World sandflies belong to Phlebotomus species.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q68-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q68-01
+Reviewed by: pending medical review
+
+### New World sandflies belong to Lutzomyia species.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q69-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q69-01
+Reviewed by: pending medical review
+
+### Sandfly distribution is limited to areas with temperatures above 15.6°C.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q70-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q70-01
+Reviewed by: pending medical review
+
+### Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q71-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q71-01
+Reviewed by: pending medical review
+
+### Sandflies undergo complete metamorphosis.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q72-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q72-01
+Reviewed by: pending medical review
+
+### Sandflies are weak fliers with a tendency to hop.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q74-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q74-01
+Reviewed by: pending medical review
+
+### As a rule, female sandflies are the blood-sucking sex.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q75-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q75-01
+Reviewed by: pending medical review
+
+### Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q76-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-04788D75905E81
 CON-INF-51472DA1BC2690
@@ -4191,6 +4278,9 @@ CON-INF-D794E6CF4268C2
 CON-INF-E09D0599F15B92
 CON-INF-509BF395C5EBF9
 CON-INF-3D7119FED6F45C
+CON-INF-999163730B9587
+CON-INF-93E9B181184A6B
+CON-INF-F4101FB9DECB61
 
 ## related_articles
 ART-INF-MUST-FHB1022-SANDFLY-DISEASES: Sandfly bite reactions and transmitted diseases
@@ -4207,10 +4297,20 @@ QST-MUST-FHB1022-PARA-SAND2-Q07
 QST-MUST-FHB1022-PARA-SAND2-Q08
 QST-MUST-FHB1022-PARA-SAND2-Q10
 QST-MUST-FHB1022-PARA-SAND2-Q30
+QST-MUST-FHB1022-PARA-MUCIZE-Q67
+QST-MUST-FHB1022-PARA-MUCIZE-Q68
+QST-MUST-FHB1022-PARA-MUCIZE-Q69
+QST-MUST-FHB1022-PARA-MUCIZE-Q70
+QST-MUST-FHB1022-PARA-MUCIZE-Q71
+QST-MUST-FHB1022-PARA-MUCIZE-Q72
+QST-MUST-FHB1022-PARA-MUCIZE-Q74
+QST-MUST-FHB1022-PARA-MUCIZE-Q75
+QST-MUST-FHB1022-PARA-MUCIZE-Q76
 
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_a82c32271ee38d0b2cad
@@ -4226,6 +4326,15 @@ CLM-INF-MUST-FHB1022-SAND2-Q07-01
 CLM-INF-MUST-FHB1022-SAND2-Q08-01
 CLM-INF-MUST-FHB1022-SAND2-Q10-01
 CLM-INF-MUST-FHB1022-SAND2-Q30-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q67-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q68-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q69-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q70-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q71-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q72-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q74-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q75-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SAND2-Q01-01
@@ -4238,6 +4347,15 @@ SPN-INF-MUST-FHB1022-SAND2-Q07-01
 SPN-INF-MUST-FHB1022-SAND2-Q08-01
 SPN-INF-MUST-FHB1022-SAND2-Q10-01
 SPN-INF-MUST-FHB1022-SAND2-Q30-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q67-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q68-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q69-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q70-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q71-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q72-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q74-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q75-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q76-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -4292,6 +4410,51 @@ Id: ann-must-fhb1022-sand2-q10
 Quote: Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
 Block: body
 Id: ann-must-fhb1022-sand2-q30
+
+### definition_of · CON-INF-04788D75905E81
+Quote: Sandflies are called sandflies because of their sandy yellow colour.
+Block: body
+Id: ann-must-fhb1022-mucize-q67
+
+### definition_of · CON-INF-51472DA1BC2690
+Quote: Old World sandflies belong to Phlebotomus species.
+Block: body
+Id: ann-must-fhb1022-mucize-q68
+
+### definition_of · CON-INF-51472DA1BC2690
+Quote: New World sandflies belong to Lutzomyia species.
+Block: body
+Id: ann-must-fhb1022-mucize-q69
+
+### definition_of · CON-INF-999163730B9587
+Quote: Sandfly distribution is limited to areas with temperatures above 15.6°C.
+Block: body
+Id: ann-must-fhb1022-mucize-q70
+
+### definition_of · CON-INF-D794E6CF4268C2
+Quote: Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.
+Block: body
+Id: ann-must-fhb1022-mucize-q71
+
+### definition_of · CON-INF-F4702893869E6F
+Quote: Sandflies undergo complete metamorphosis.
+Block: body
+Id: ann-must-fhb1022-mucize-q72
+
+### definition_of · CON-INF-509BF395C5EBF9
+Quote: Sandflies are weak fliers with a tendency to hop.
+Block: body
+Id: ann-must-fhb1022-mucize-q74
+
+### definition_of · CON-INF-93E9B181184A6B
+Quote: As a rule, female sandflies are the blood-sucking sex.
+Block: body
+Id: ann-must-fhb1022-mucize-q75
+
+### definition_of · CON-INF-F4101FB9DECB61
+Quote: Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+Block: body
+Id: ann-must-fhb1022-mucize-q76
 
 ## media
 
@@ -4438,6 +4601,10 @@ Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is 
 Oroya fever is caused by Bartonella bacilliformis.
 Oroya fever is associated with acute hemolytic anemia.
 Bartonellosis is transmitted propagatively by sandflies.
+Visceral leishmaniasis is associated with hepatosplenomegaly.
+Sandfly fever is transmitted propagatively by sandflies.
+Bartonella bacilliformis causes Oroya fever.
+Bartonella bacilliformis is transmitted propagatively inside sandflies.
 
 ## published_summary
 
@@ -4453,6 +4620,11 @@ Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is 
 Oroya fever is caused by Bartonella bacilliformis.
 Oroya fever is associated with acute hemolytic anemia.
 Bartonellosis is transmitted propagatively by sandflies.
+Visceral leishmaniasis is associated with hepatosplenomegaly.
+Sandfly fever is caused by a virus.
+Sandfly fever is transmitted propagatively by sandflies.
+Bartonella bacilliformis causes Oroya fever.
+Bartonella bacilliformis is transmitted propagatively inside sandflies.
 
 ## lose_the_mark
 The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister.
@@ -4462,6 +4634,11 @@ Leishmaniasis, Oroya fever and sandfly fever are all explicitly listed as sandfl
 Leishmania, Plasmodium and Trypanosoma are not the causative agent named for Oroya fever.
 The governed association is hemolysis, not iron deficiency, megaloblastic or aplastic anemia.
 The governed deck distinguishes this propagative pattern from cyclopropagative leishmaniasis and mechanical transmission.
+Skin ulcers belong to cutaneous disease, while chronic diarrhoea and paralysis are not the governed manifestation.
+Bacteria, protozoa and fungi are not the governed causative-agent class.
+The deck distinguishes this from mechanical, cyclopropagative and cyclodevelopmental transmission.
+Malaria, dengue and leishmaniasis are not caused by Bartonella bacilliformis.
+The governed deck does not label this cyclodevelopmental or mechanical.
 
 ## callout_evidence
 ### A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
@@ -4499,10 +4676,36 @@ Claims: CLM-INF-MUST-FHB1022-SAND2-Q24-01
 Citations: CIT-INF-MUST-FHB1022-SAND2-Q24-01
 Reviewed by: pending medical review
 
+### Visceral leishmaniasis is associated with hepatosplenomegaly.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q80-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q80-01
+Reviewed by: pending medical review
+
+### Sandfly fever is caused by a virus.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q82-01
+Reviewed by: pending medical review
+
+### Sandfly fever is transmitted propagatively by sandflies.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q83-01
+Reviewed by: pending medical review
+
+### Bartonella bacilliformis causes Oroya fever.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q84-01
+Reviewed by: pending medical review
+
+### Bartonella bacilliformis is transmitted propagatively inside sandflies.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q85-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-D884D3F6076D08
 CON-INF-F538E763E1260E
 CON-INF-482144C092C2DD
+CON-INF-F58AE2DFC9E4A1
 
 ## related_articles
 ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY: Sandfly taxonomy, development and bionomics
@@ -4516,10 +4719,16 @@ QST-MUST-FHB1022-PARA-SAND2-Q14
 QST-MUST-FHB1022-PARA-SAND2-Q21
 QST-MUST-FHB1022-PARA-SAND2-Q23
 QST-MUST-FHB1022-PARA-SAND2-Q24
+QST-MUST-FHB1022-PARA-MUCIZE-Q80
+QST-MUST-FHB1022-PARA-MUCIZE-Q82
+QST-MUST-FHB1022-PARA-MUCIZE-Q83
+QST-MUST-FHB1022-PARA-MUCIZE-Q84
+QST-MUST-FHB1022-PARA-MUCIZE-Q85
 
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_a82c32271ee38d0b2cad
@@ -4532,6 +4741,11 @@ CLM-INF-MUST-FHB1022-SAND2-Q14-01
 CLM-INF-MUST-FHB1022-SAND2-Q21-01
 CLM-INF-MUST-FHB1022-SAND2-Q23-01
 CLM-INF-MUST-FHB1022-SAND2-Q24-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q80-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SAND2-Q09-01
@@ -4541,6 +4755,11 @@ SPN-INF-MUST-FHB1022-SAND2-Q14-01
 SPN-INF-MUST-FHB1022-SAND2-Q21-01
 SPN-INF-MUST-FHB1022-SAND2-Q23-01
 SPN-INF-MUST-FHB1022-SAND2-Q24-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q80-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q82-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q83-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q84-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q85-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -4580,6 +4799,31 @@ Id: ann-must-fhb1022-sand2-q23
 Quote: Bartonellosis is transmitted propagatively by sandflies.
 Block: body
 Id: ann-must-fhb1022-sand2-q24
+
+### definition_of · CON-INF-F58AE2DFC9E4A1
+Quote: Visceral leishmaniasis is associated with hepatosplenomegaly.
+Block: body
+Id: ann-must-fhb1022-mucize-q80
+
+### definition_of · CON-INF-F538E763E1260E
+Quote: Sandfly fever is caused by a virus.
+Block: body
+Id: ann-must-fhb1022-mucize-q82
+
+### definition_of · CON-INF-F538E763E1260E
+Quote: Sandfly fever is transmitted propagatively by sandflies.
+Block: body
+Id: ann-must-fhb1022-mucize-q83
+
+### definition_of · CON-INF-482144C092C2DD
+Quote: Bartonella bacilliformis causes Oroya fever.
+Block: body
+Id: ann-must-fhb1022-mucize-q84
+
+### definition_of · CON-INF-482144C092C2DD
+Quote: Bartonella bacilliformis is transmitted propagatively inside sandflies.
+Block: body
+Id: ann-must-fhb1022-mucize-q85
 
 ## media
 
@@ -4721,6 +4965,9 @@ Do not stop using repellents or replace narrow-mesh nets with unsupported measur
 ### Exam-linked statements
 Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
 Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+Filling cracks and crevices is a sandfly-control strategy.
+DDT is listed as a potent residual insecticide for sandfly control.
+Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.
 
 ## published_summary
 
@@ -4731,10 +4978,16 @@ Filling cracks, spraying insecticides and using bed nets are sandfly-control mea
 ## hold_these
 Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
 Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+Filling cracks and crevices is a sandfly-control strategy.
+DDT is listed as a potent residual insecticide for sandfly control.
+Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.
 
 ## lose_the_mark
 Stopping repellents, burning plants and dark clothing are not the governed prevention recommendation.
 Crack filling, insecticide spraying and bed nets are each explicitly recommended.
+The governed strategy is not antibiotics, tree planting or mosquito-style stagnant-water control.
+Penicillin and amoxicillin are antibiotics, while chloroquine is not the sandfly insecticide listed in the governed slide.
+Bright clothing, tap-water avoidance and vitamin intake are not the governed bite-prevention measures.
 
 ## callout_evidence
 ### Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
@@ -4747,9 +5000,25 @@ Claims: CLM-INF-MUST-FHB1022-SAND2-Q27-01
 Citations: CIT-INF-MUST-FHB1022-SAND2-Q27-01
 Reviewed by: pending medical review
 
+### Filling cracks and crevices is a sandfly-control strategy.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q87-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q87-01
+Reviewed by: pending medical review
+
+### DDT is listed as a potent residual insecticide for sandfly control.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q88-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q88-01
+Reviewed by: pending medical review
+
+### Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q89-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q89-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-D5B09C8CE384D6
 CON-INF-C6B9B514C3AC20
+CON-INF-CC1A40F9CF6129
 
 ## related_articles
 ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY: Sandfly taxonomy, development and bionomics
@@ -4758,10 +5027,14 @@ ART-INF-MUST-FHB1022-SANDFLY-DISEASES: Sandfly bite reactions and transmitted di
 ## question_ids
 QST-MUST-FHB1022-PARA-SAND2-Q26
 QST-MUST-FHB1022-PARA-SAND2-Q27
+QST-MUST-FHB1022-PARA-MUCIZE-Q87
+QST-MUST-FHB1022-PARA-MUCIZE-Q88
+QST-MUST-FHB1022-PARA-MUCIZE-Q89
 
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_a82c32271ee38d0b2cad
@@ -4769,10 +5042,16 @@ src_a82c32271ee38d0b2cad
 ## claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q26-01
 CLM-INF-MUST-FHB1022-SAND2-Q27-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q87-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q88-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q89-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SAND2-Q26-01
 SPN-INF-MUST-FHB1022-SAND2-Q27-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q87-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q88-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q89-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -4787,6 +5066,21 @@ Id: ann-must-fhb1022-sand2-q26
 Quote: Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
 Block: body
 Id: ann-must-fhb1022-sand2-q27
+
+### definition_of · CON-INF-C6B9B514C3AC20
+Quote: Filling cracks and crevices is a sandfly-control strategy.
+Block: body
+Id: ann-must-fhb1022-mucize-q87
+
+### definition_of · CON-INF-CC1A40F9CF6129
+Quote: DDT is listed as a potent residual insecticide for sandfly control.
+Block: body
+Id: ann-must-fhb1022-mucize-q88
+
+### definition_of · CON-INF-D5B09C8CE384D6
+Quote: Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.
+Block: body
+Id: ann-must-fhb1022-mucize-q89
 
 ## media
 

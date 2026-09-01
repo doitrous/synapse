@@ -768,6 +768,170 @@ const mucizeParasitologyItems = [
     objective: 'Identify use of Gambusia fish as biological mosquito control.',
     pitfalls: 'DDT is chemical control, window screens are mechanical control and mosquito coils are repellents.', rejected: [],
   },
+  {
+    q: 62, conceptId: 'CON-INF-DE8BA9EC7D8688', canonicalKey: 'parasitology.mosquitoes.paris-green-larvicidal-only',
+    label: 'Paris green is larvicidal and does not affect non-feeding pupae', aliases: ['Paris green larvicide', 'Stomach-poison mosquito larvicide'], conceptType: 'intervention',
+    article: 'mosquitoControl', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Chemical mosquito control', teachingPage: 39, assessmentPage: 14, answerPage: 14,
+    teachingResourceId: mosquitoResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+    stem: 'Paris green insecticide mainly affects:', key: 'C', options: ['Mosquito pupae', 'Adult mosquitoes', 'Mosquito larvae', 'Mosquito eggs'],
+    claim: 'Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.',
+    support: 'The official deck states that Paris green is larvicidal and that pupae are not affected because they do not feed.',
+    objective: 'Identify mosquito larvae as the principal stage affected by Paris green.',
+    pitfalls: 'Paris green is not presented as an adulticide or ovicide, and non-feeding pupae are not affected.', rejected: ['concept_93621f76281954bdf8c77e72 — broader raw control list does not preserve the larvicidal and pupa-exclusion identity.'],
+  },
+  {
+    q: 67, conceptId: 'CON-INF-04788D75905E81', canonicalKey: 'parasitology.sandfly.name-sandy-yellow',
+    label: 'Sandflies are named for their sandy yellow colour', aliases: ['Sandfly name', 'Sandy yellow sandfly'], conceptType: 'morphology',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly morphology', teachingPage: 2, assessmentPage: 15, answerPage: 15,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'Why are sandflies called "sandflies"?', key: 'A', options: ['Due to their sandy yellow color', 'Because they live in desert areas', 'Since they lay eggs in the sand', 'Due to their ability to jump in sand'],
+    claim: 'Sandflies are called sandflies because of their sandy yellow colour.', support: 'The official deck directly describes the name Sand Fly as arising from sandy yellow colour.',
+    objective: 'Identify sandy yellow colour as the basis of the sandfly name.', pitfalls: 'The governed naming feature is colour, not desert habitat, egg-laying substrate or hopping in sand.', rejected: [],
+  },
+  {
+    q: 68, conceptId: 'CON-INF-51472DA1BC2690', canonicalKey: 'parasitology.sandfly.genera-phlebotomus-lutzomyia',
+    label: 'Phlebotomus and Lutzomyia are sandfly genera', aliases: ['Sandfly genera', 'Phlebotomus and Lutzomyia'], conceptType: 'classification',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly taxonomy', teachingPage: 4, assessmentPage: 15, answerPage: 15,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the scientific name for sandflies in the Old World?', key: 'D', options: ['Aedes', 'Anopheles', 'Lutzomyia', 'Phlebotomus'],
+    claim: 'Old World sandflies belong to Phlebotomus species.', support: 'The official distribution slide lists Phlebotomus species in the Old World and Lutzomyia species in the New World.',
+    objective: 'Identify Phlebotomus as the Old World sandfly genus.', pitfalls: 'Lutzomyia is the New World sandfly genus, while Aedes and Anopheles are mosquito genera.', rejected: [],
+  },
+  {
+    q: 69, conceptId: 'CON-INF-51472DA1BC2690', canonicalKey: 'parasitology.sandfly.genera-phlebotomus-lutzomyia',
+    label: 'Phlebotomus and Lutzomyia are sandfly genera', aliases: ['Sandfly genera', 'Phlebotomus and Lutzomyia'], conceptType: 'classification',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly taxonomy', teachingPage: 4, assessmentPage: 15, answerPage: 15,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the scientific name for sandflies in the New World?', key: 'A', options: ['Lutzomyia', 'Culex', 'Anopheles', 'Phlebotomus'],
+    claim: 'New World sandflies belong to Lutzomyia species.', support: 'The official distribution slide lists Lutzomyia species in the New World and Phlebotomus species in the Old World.',
+    objective: 'Identify Lutzomyia as the New World sandfly genus.', pitfalls: 'Phlebotomus is the Old World sandfly genus, while Culex and Anopheles are mosquito genera.', rejected: [],
+  },
+  {
+    q: 70, conceptId: 'CON-INF-999163730B9587', canonicalKey: 'parasitology.sandfly.temperature-above-15-6-celsius',
+    label: 'Sandflies are distributed where temperatures exceed 15.6°C', aliases: ['Sandfly temperature threshold', 'Sandfly distribution above 15.6°C'], conceptType: 'ecology',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly ecology', teachingPage: 7, assessmentPage: 16, answerPage: 16,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'In which temperature range do sandflies thrive?', key: 'B', options: ['Below 10°C', 'Above 15.6°C', '5°C - 20°C', 'Any temperature range'],
+    claim: 'Sandfly distribution is limited to areas with temperatures above 15.6°C.', support: 'The official bionomics slide states that sandfly distribution is limited to areas with temperatures above 15.6°C.',
+    objective: 'Recall the governed temperature threshold for sandfly distribution.', pitfalls: 'The deck does not support below 10°C, a 5–20°C range or unrestricted temperatures.', rejected: [],
+  },
+  {
+    q: 71, conceptId: 'CON-INF-D794E6CF4268C2', canonicalKey: 'parasitology.sandfly.daytime-hiding-burrows-cracks',
+    label: 'Adult sandflies hide in burrows and building cracks by day', aliases: ['Sandfly daytime hiding places', 'Burrow and crack resting sites'], conceptType: 'behaviour',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly bionomics', teachingPage: 8, assessmentPage: 16, answerPage: 16,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'Where do adult sandflies hide during the daytime?', key: 'C', options: ['In water bodies', 'In tree canopies', 'In rodent burrows, cracks, and crevices', 'On human skin'],
+    claim: 'Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.', support: 'The official bionomics slide lists rodent burrows and building cracks and crevices as daytime hiding places.',
+    objective: 'Identify burrows, cracks and crevices as adult sandfly daytime refuges.', pitfalls: 'Water, tree canopies and human skin are not the governed daytime hiding sites.', rejected: [],
+  },
+  {
+    q: 72, conceptId: 'CON-INF-F4702893869E6F', canonicalKey: 'parasitology.sandfly.complete-metamorphosis-30-days',
+    label: 'Sandflies complete metamorphosis in about thirty days', aliases: ['Sandfly metamorphosis', 'Thirty-day sandfly development'], conceptType: 'life cycle',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly life cycle', teachingPage: 6, assessmentPage: 16, answerPage: 16,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What type of metamorphosis do sandflies undergo?', key: 'A', options: ['Complete metamorphosis', 'Incomplete metamorphosis', 'Mixed metamorphosis', 'No metamorphosis'],
+    claim: 'Sandflies undergo complete metamorphosis.', support: 'The official development slide directly states complete metamorphosis.',
+    objective: 'Identify complete metamorphosis as sandfly development.', pitfalls: 'The governed deck does not describe incomplete, mixed or absent metamorphosis.', rejected: [],
+  },
+  {
+    q: 74, conceptId: 'CON-INF-509BF395C5EBF9', canonicalKey: 'parasitology.sandfly.weak-hopping-flight',
+    label: 'Sandflies are weak fliers with hopping movement', aliases: ['Sandfly movement', 'Weak hopping flight'], conceptType: 'behaviour',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly bionomics', teachingPage: 8, assessmentPage: 16, answerPage: 16,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'How do sandflies move while flying?', key: 'C', options: ['Strong fliers like mosquitoes', 'Hover in one place', 'Weak fliers with a hopping movement', 'Glide in a straight line'],
+    claim: 'Sandflies are weak fliers with a tendency to hop.', support: 'The official bionomics slide directly describes weak flight and a tendency to hop.',
+    objective: 'Identify weak hopping flight as characteristic sandfly movement.', pitfalls: 'The deck does not describe strong flight, hovering or straight-line gliding.', rejected: [],
+  },
+  {
+    q: 75, conceptId: 'CON-INF-93E9B181184A6B', canonicalKey: 'parasitology.sandfly.female-blood-feeding',
+    label: 'Female sandflies are the blood-sucking sex', aliases: ['Female sandfly blood feeding', 'Sandfly sex-specific blood feeding'], conceptType: 'behaviour',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly feeding', teachingPage: 8, assessmentPage: 16, answerPage: 16,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the main blood-feeding behavior of sandflies?', key: 'C', options: ['Both males and females suck blood', 'Only males suck blood', 'Only females suck blood', 'Neither suck blood'],
+    claim: 'As a rule, female sandflies are the blood-sucking sex.', support: 'The official bionomics slide states that adults feed on mammals and, as a rule, females are the blood-sucking sex.',
+    objective: 'Identify female sandflies as the blood-sucking sex.', pitfalls: 'The governed statement does not assign blood feeding to males or to neither sex.', rejected: [],
+  },
+  {
+    q: 76, conceptId: 'CON-INF-F4101FB9DECB61', canonicalKey: 'parasitology.sandfly.weak-flight-localized-diseases',
+    label: 'Weak sandfly flight localises Phlebotomus-borne diseases', aliases: ['Localized sandfly-borne disease', 'Weak flight limits disease distribution'], conceptType: 'epidemiology',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly bionomics', teachingPage: 8, assessmentPage: 16, answerPage: 16,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is a common characteristic of Phlebotomus-borne diseases?', key: 'B', options: ['They have a worldwide distribution', 'They are often localized due to weak flying ability', 'They are spread through contaminated food', 'They are only found in urban areas'],
+    claim: 'Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.', support: 'The official bionomics slide links weak hopping flight with the rather limited, localized nature of Phlebotomus-borne diseases.',
+    objective: 'Connect weak sandfly flight with localized Phlebotomus-borne disease distribution.', pitfalls: 'The governed explanation is not contaminated food, urban restriction or universal worldwide distribution.', rejected: [],
+  },
+  {
+    q: 80, conceptId: 'CON-INF-F58AE2DFC9E4A1', canonicalKey: 'parasitology.leishmaniasis.visceral-hepatosplenomegaly',
+    label: 'Visceral leishmaniasis causes hepatosplenomegaly', aliases: ['Visceral leishmaniasis organ enlargement', 'Kala-azar hepatosplenomegaly'], conceptType: 'clinical association',
+    article: 'sandflyDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Visceral leishmaniasis', teachingPage: 22, assessmentPage: 17, answerPage: 17,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the main symptom of visceral leishmaniasis?', key: 'B', options: ['Skin ulcers', 'Hepatosplenomegaly', 'Chronic diarrhea', 'Paralysis'],
+    claim: 'Visceral leishmaniasis is associated with hepatosplenomegaly.', support: 'The official visceral-leishmaniasis slide directly labels hepatosplenomegaly due to Leishmania donovani.',
+    objective: 'Identify hepatosplenomegaly as the offered visceral-leishmaniasis manifestation.', pitfalls: 'Skin ulcers belong to cutaneous disease, while chronic diarrhoea and paralysis are not the governed manifestation.', rejected: [],
+  },
+  {
+    q: 82, conceptId: 'CON-INF-F538E763E1260E', canonicalKey: 'parasitology.sandfly.disease-profile',
+    label: 'Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever', aliases: ['Sandfly-transmitted diseases', 'Sandfly fever virus'], conceptType: 'clinical association',
+    article: 'sandflyDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly fever', teachingPage: 26, assessmentPage: 17, answerPage: 17,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the causative agent of Sandfly fever?', key: 'B', options: ['Bacteria', 'Virus', 'Protozoa', 'Fungi'],
+    claim: 'Sandfly fever is caused by a virus.', support: 'The official sandfly-fever slide directly states that the causative organism is a virus.',
+    objective: 'Identify a virus as the causative agent of sandfly fever.', pitfalls: 'Bacteria, protozoa and fungi are not the governed causative-agent class.', rejected: [],
+  },
+  {
+    q: 83, conceptId: 'CON-INF-F538E763E1260E', canonicalKey: 'parasitology.sandfly.disease-profile',
+    label: 'Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever', aliases: ['Sandfly-transmitted diseases', 'Sandfly fever virus'], conceptType: 'mechanism',
+    article: 'sandflyDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly fever', teachingPage: 26, assessmentPage: 17, answerPage: 17,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the mode of transmission of Sandfly fever?', key: 'C', options: ['Mechanical transmission', 'Cyclopropagative transmission', 'Propagative transmission', 'Cyclodevelopmental transmission'],
+    claim: 'Sandfly fever is transmitted propagatively by sandflies.', support: 'The official sandfly-fever slide states that transmission by the bite of the sandfly is propagative.',
+    objective: 'Identify propagative transmission as the governed sandfly-fever mode.', pitfalls: 'The deck distinguishes this from mechanical, cyclopropagative and cyclodevelopmental transmission.', rejected: [],
+  },
+  {
+    q: 84, conceptId: 'CON-INF-482144C092C2DD', canonicalKey: 'parasitology.sandfly.oroya-profile',
+    label: 'Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia', aliases: ['Oroya fever profile', 'Bartonella sandfly transmission'], conceptType: 'clinical association',
+    article: 'sandflyDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Oroya fever', teachingPage: 28, assessmentPage: 18, answerPage: 18,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'Which disease is caused by Bartonella bacilliformis?', key: 'C', options: ['Malaria', 'Dengue fever', 'Oroya fever', 'Leishmaniasis'],
+    claim: 'Bartonella bacilliformis causes Oroya fever.', support: 'The official Oroya-fever slide directly names Bartonella bacilliformis as the causative bacterium.',
+    objective: 'Identify Oroya fever as the disease caused by Bartonella bacilliformis.', pitfalls: 'Malaria, dengue and leishmaniasis are not caused by Bartonella bacilliformis.', rejected: [],
+  },
+  {
+    q: 85, conceptId: 'CON-INF-482144C092C2DD', canonicalKey: 'parasitology.sandfly.oroya-profile',
+    label: 'Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia', aliases: ['Oroya fever profile', 'Bartonella sandfly transmission'], conceptType: 'mechanism',
+    article: 'sandflyDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Oroya fever', teachingPage: 28, assessmentPage: 18, answerPage: 18,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the type of transmission for Bartonella bacilliformis in sandflies?', key: 'A', options: ['Propagative', 'Cyclodevelopmental', 'Mechanical', 'None of the above'],
+    claim: 'Bartonella bacilliformis is transmitted propagatively inside sandflies.', support: 'The official Oroya-fever slide directly states that the type of transmission inside the sandfly is propagative.',
+    objective: 'Identify propagative transmission for Bartonella bacilliformis in sandflies.', pitfalls: 'The governed deck does not label this cyclodevelopmental or mechanical.', rejected: [],
+  },
+  {
+    q: 87, conceptId: 'CON-INF-C6B9B514C3AC20', canonicalKey: 'parasitology.sandfly.control-not-stagnant-water',
+    label: 'Sandfly control does not rely on draining stagnant water', aliases: ['Sandfly habitat control', 'Non-aquatic sandfly breeding'], conceptType: 'prevention',
+    article: 'sandflyControl', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly control', teachingPages: '9, 32', assessmentPage: 18, answerPage: 18,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is a key strategy in sandfly control?', key: 'B', options: ['Destroying stagnant water sources', 'Filling cracks and crevices', 'Using antibiotics regularly', 'Planting more trees'],
+    claim: 'Filling cracks and crevices is a sandfly-control strategy.', support: 'The official control slide recommends plastering wall cracks and filling holes; sandflies do not breed in water.',
+    objective: 'Identify filling cracks and crevices as the offered sandfly-control strategy.', pitfalls: 'The governed strategy is not antibiotics, tree planting or mosquito-style stagnant-water control.', rejected: [],
+  },
+  {
+    q: 88, conceptId: 'CON-INF-CC1A40F9CF6129', canonicalKey: 'parasitology.sandfly.control-ddt',
+    label: 'DDT is used as a residual insecticide against sandflies', aliases: ['DDT sandfly control', 'Residual insecticide for sandflies'], conceptType: 'intervention',
+    article: 'sandflyControl', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly control', teachingPage: 32, assessmentPage: 18, answerPage: 18,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'Which of the following insecticides is effective against sandflies?', key: 'A', options: ['DDT', 'Penicillin', 'Amoxicillin', 'Chloroquine'],
+    claim: 'DDT is listed as a potent residual insecticide for sandfly control.', support: 'The official integrated-control slide recommends spraying a potent residual insecticide and names DDT.',
+    objective: 'Identify DDT as the offered sandfly insecticide.', pitfalls: 'Penicillin and amoxicillin are antibiotics, while chloroquine is not the sandfly insecticide listed in the governed slide.', rejected: [],
+  },
+  {
+    q: 89, conceptId: 'CON-INF-D5B09C8CE384D6', canonicalKey: 'parasitology.sandfly.narrow-mesh-net-prevention',
+    label: 'Narrow-mesh nets help prevent sandfly bites', aliases: ['Sandfly bed-net prevention', 'Narrow-mesh mosquito nets'], conceptType: 'prevention',
+    article: 'sandflyControl', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly bite prevention', teachingPage: 32, assessmentPage: 18, answerPage: 18,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is an effective preventive measure against sandfly bites?', key: 'A', options: ['Sleeping under mosquito nets with fine mesh', 'Wearing bright-colored clothing', 'Avoiding drinking tap water', 'Eating vitamin-rich food'],
+    claim: 'Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.', support: 'The official integrated-control slide recommends mosquito nets with narrow meshes.',
+    objective: 'Identify fine-mesh bed nets as an effective sandfly-bite prevention measure.', pitfalls: 'Bright clothing, tap-water avoidance and vitamin intake are not the governed bite-prevention measures.', rejected: [],
+  },
 ].map((item) => ({
   idPrefix: 'MUCIZE', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
   bankLabel: 'Mucize Parasitology core', ...item,
@@ -9386,7 +9550,7 @@ ar
 Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
 
 ## qualification
-All 47 pages were already visually governed in source triage. Physical pages 6–14 were rendered and visually re-read for the bounded Parasitology core Q1–Q60 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53 and Q55–Q56 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+All 47 pages were already visually governed in source triage. Physical pages 6–18 were rendered and visually re-read for the bounded Parasitology core Q1–Q90 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85 and Q87–Q89 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86 and Q90 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6
@@ -11772,6 +11936,31 @@ function microCoverage() {
 - **Mucize Parasitology Q56 is held as an exact same-source duplicate.** Its printed C, Culex, repeats the vector identity already authored from earlier Mucize Q38 against \`CON-INF-476CFE4CB1DE34\`; no second occurrence was minted.
 
 `
+  const mucizeParasitologyThirdDelta = `### Mucize Doctors Parasitology core Q61–Q90 delta
+
+- The governed Mucize assessment resource is reused. Physical pages 14–18 were rendered and visually read for every prompt, option and same-page answer token in Q61–Q90.
+- +18 verified local-curriculum claims, +18 citations and +18 article spans for Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85 and Q87–Q89.
+- +5 under-review / needs-evidence concepts and +0 articles. Thirteen questions safely reuse exact governed local concepts; the existing standalone-complete reciprocal Draft articles are expanded by exact ID without dropping prior fields, universities, relationships or question links.
+- +18 Draft questions and +12 explicit authority-form, unsupported-terminology, non-unique-key, scope, dependency-chain or governed-identity holds with no student-facing record.
+- Every authored stem, option and printed key is unchanged. Q61, Q63–Q66 and Q73 are not promoted beyond the official teaching wording; Q77–Q79, Q81 and Q86 remain in the established leishmaniasis dependency chain; Q90 remains a governed-identity hold rather than a third paratransgenesis definition record.
+- Mucize Parasitology core Q61–Q90: **18 authored / 12 held / 0 source-absent / 0 unassessed**.
+- Mucize Parasitology core Q1–Q90 cumulative: **42 authored / 47 held / 1 source-absent / 0 unassessed**. The exact next boundary is Mucize Parasitology Q91.
+
+`
+  const mucizeParasitologyThirdHolds = `- **Mucize Parasitology Q61 is held as an unsupported-specificity hold.** Printed A, Pyrethrum, is not authenticated for treated bed nets by the official mosquito deck. The deck says nets may be impregnated with insecticides, while Pyrethrum is separately taught as a coil smoke or non-residual aerosol; no insecticide identity was inferred across those uses.
+- **Mucize Parasitology Q63 is held as an unsupported-terminology hold.** Printed A calls citronella oil a “contact repellent,” while official teaching only calls citronella a short-duration repellent applied to skin or clothing and does not teach the offered contact/systemic classification.
+- **Mucize Parasitology Q64 is held as an unsupported-superlative hold.** Printed B, Draining stagnant water, is a governed physical control method, but the official deck does not establish it as the singular “most environmentally safe” method.
+- **Mucize Parasitology Q65 is held as an unsupported-modifier hold.** Official teaching states that Malathion is toxic to man and should be used with care, but it does not authenticate the option's stronger “Highly toxic to humans” wording.
+- **Mucize Parasitology Q66 is held as a non-unique negative-form hold.** Printed C, Spraying insecticides, is not physical control, but the governed taxonomy also treats bed nets and window screens as barrier/mechanical adult control rather than the physical aquatic-stage category. The offered NOT set is therefore not uniquely keyed.
+- **Mucize Parasitology Q73 is held as a scope hold.** Printed C says sandflies generically are most active at night, while the official bionomics statement is narrower: females are nocturnal blood feeders. The sex-specific teaching was not broadened.
+- **Mucize Parasitology Q77 is held as an established leishmaniasis dependency-chain hold.** Printed B is supported, but the intermediate-host identity belongs to \`CON-INF-5EAC54C4EC6F18\` / \`ART-INF-MUST-FHB1022-CUTANEOUS-LEISHMANIASIS-VECTOR\`; no partial or duplicate update was created.
+- **Mucize Parasitology Q78 is held as an established cyclopropagative dependency-chain hold.** Printed B is directly supported, but \`CON-INF-23265735EECCA1\` and its retained article graph cannot pass the focused dependency contract through a bounded partial update.
+- **Mucize Parasitology Q79 is held as an established leishmaniasis dependency-chain hold.** Printed B, Promastigote, is supported, but the infective-stage identity belongs to the existing cutaneous-leishmaniasis concept/article chain and was not duplicated.
+- **Mucize Parasitology Q81 is held as an established leishmaniasis dependency-chain hold.** Printed C, Oriental sore, is supported, but the exact naming identity belongs to the existing cutaneous-leishmaniasis article chain; no unsafe partial widening was made.
+- **Mucize Parasitology Q86 is held as an established leishmaniasis dependency-chain hold.** Printed B, Skin ulcers with raised borders, is supported, but lesion morphology already belongs to the cutaneous-leishmaniasis article identity and was not duplicated.
+- **Mucize Parasitology Q90 is held as a governed-identity hold.** Printed B is supported, but the paratransgenesis definition and purpose are already represented by two governed Draft questions against \`CON-INF-A0D40E9CB0E211\` / \`ART-INF-MUST-FHB1022-PARATRANSGENESIS\`; no third definition-level record was minted.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -11854,9 +12043,15 @@ function microCoverage() {
     .replace('| Concepts | 139 |', '| Concepts | 148 |')
     .replace('| Questions | 181 |', '| Questions | 197 |')
     .replace('| Question authoring holds | 209 |', '| Question authoring holds | 223 |')
+    .replace('| Claims | 197 |', '| Claims | 215 |')
+    .replace('| Citations | 202 |', '| Citations | 220 |')
+    .replace('| Article spans | 197 |', '| Article spans | 215 |')
+    .replace('| Concepts | 148 |', '| Concepts | 153 |')
+    .replace('| Questions | 197 |', '| Questions | 215 |')
+    .replace('| Question authoring holds | 223 |', '| Question authoring holds | 235 |')
     .replace('| Source-absent prompt dispositions | 1 |', '| Source-absent prompt dispositions | 2 |')
     .replace('Q32 has no printed answer and remains un-authored', 'opening-bank Q32 and Mucize Q25 have no printed answer and remain un-authored')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}`)
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -11879,7 +12074,10 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 173 clean source-keyed prompts authored; **5,038 raw answer observations remain**, including the 188 held printed-key observations', 'Governed answer observations: 5,211 total; 181 clean source-keyed prompts authored; **5,030 raw answer observations remain**, including the 209 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 181 authored; **5,263 raw prompt observations remain**, including 209 explicit holds', 'Governed prompt observations: 5,444 total; 197 authored; **5,247 raw prompt observations remain**, including 223 explicit holds')
     .replace('Governed answer observations: 5,211 total; 181 clean source-keyed prompts authored; **5,030 raw answer observations remain**, including the 209 held printed-key observations', 'Governed answer observations: 5,211 total; 197 clean source-keyed prompts authored; **5,014 raw answer observations remain**, including the 223 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 197 authored; **5,247 raw prompt observations remain**, including 223 explicit holds', 'Governed prompt observations: 5,444 total; 215 authored; **5,229 raw prompt observations remain**, including 235 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 197 clean source-keyed prompts authored; **5,014 raw answer observations remain**, including the 223 held printed-key observations', 'Governed answer observations: 5,211 total; 215 clean source-keyed prompts authored; **4,996 raw answer observations remain**, including the 235 held printed-key observations')
     .replace('including 223 explicit holds and one source-absent opening-family prompt', 'including 223 explicit holds and two source-absent prompts')
+    .replace('including 235 explicit holds and one source-absent opening-family prompt', 'including 235 explicit holds and two source-absent prompts')
     .replace('Q32 contributes no answer observation', 'opening-bank Q32 and Mucize Q25 contribute no answer observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
@@ -11892,6 +12090,7 @@ function microCoverage() {
     .replace('Record-level backlog is not asserted as 5,293 unique records', 'Record-level backlog is not asserted as 5,271 unique records')
     .replace('Record-level backlog is not asserted as 5,271 unique records', 'Record-level backlog is not asserted as 5,263 unique records')
     .replace('Record-level backlog is not asserted as 5,263 unique records', 'Record-level backlog is not asserted as 5,247 unique records')
+    .replace('Record-level backlog is not asserted as 5,247 unique records', 'Record-level backlog is not asserted as 5,229 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -11904,6 +12103,7 @@ function microCoverage() {
     .replace('All forty-one student-facing articles and all one hundred fifty-one questions remain Draft; all one hundred twenty-nine concepts', 'All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts')
     .replace('All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts', 'All forty-four student-facing articles and all one hundred eighty-one questions remain Draft; all one hundred thirty-nine concepts')
     .replace('All forty-four student-facing articles and all one hundred eighty-one questions remain Draft; all one hundred thirty-nine concepts', 'All forty-four student-facing articles and all one hundred ninety-seven questions remain Draft; all one hundred forty-eight concepts')
+    .replace('All forty-four student-facing articles and all one hundred ninety-seven questions remain Draft; all one hundred forty-eight concepts', 'All forty-four student-facing articles and all two hundred fifteen questions remain Draft; all one hundred fifty-three concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
@@ -11916,6 +12116,7 @@ function microCoverage() {
     .replace('All 180 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 209 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 209 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 223 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
+    .replace('All 223 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 235 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -11925,6 +12126,7 @@ function microCoverage() {
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology and Virology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Microbiology Chapter 10 Q1–Q30 on pages 39–47.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly, Mycology, Virology and Microbiology Chapter 10 Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Pharmacology Q1–Q30 on pages 48–56.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; all six Part 2 families through Pharmacology Q1–Q30 are fully dispositioned. The Absalam Part 2 source is complete; the next question-bearing family must be selected from the governed FHB-102-2 source ranking.')
     .replace('The Absalam Part 2 source is complete; the next question-bearing family must be selected from the governed FHB-102-2 source ranking.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q31.')
-    .replace('The next family boundary is the completed third triage source, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, a 45-page student-authored revision bank containing five independent 30-MCQ sections (150 prompts / 150 printed answers). Its Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 boundaries are fully dispositioned; ', 'The current source boundary is the governed 47-page Mucize Doctors student-authored bank, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`. Its physical pages 6–14 / Parasitology core Q1–Q60 are fully dispositioned; ')
+    .replace('The next family boundary is the completed third triage source, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, a 45-page student-authored revision bank containing five independent 30-MCQ sections (150 prompts / 150 printed answers). Its Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 boundaries are fully dispositioned; ', 'The current source boundary is the governed 47-page Mucize Doctors student-authored bank, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`. Its physical pages 6–18 / Parasitology core Q1–Q90 are fully dispositioned; ')
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q31.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q61.')
+    .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q61.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q91.')
 }

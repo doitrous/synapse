@@ -14285,3 +14285,2739 @@ yes
 
 ## author_notes
 Printed source key: Mucize Parasitology core Q60 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q62
+
+## title
+Paris green insecticide mainly affects:
+
+## question
+Paris green insecticide mainly affects:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Mosquito pupae
+
+## explanation_a
+Incorrect. Paris green is not presented as an adulticide or ovicide, and non-feeding pupae are not affected. The supported answer is C, Mosquito larvae.
+
+## answer_b
+Adult mosquitoes
+
+## explanation_b
+Incorrect. Paris green is not presented as an adulticide or ovicide, and non-feeding pupae are not affected. The supported answer is C, Mosquito larvae.
+
+## answer_c
+Mosquito larvae
+
+## explanation_c
+Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae. The governed university slide directly supports Mosquito larvae for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Mosquito eggs
+
+## explanation_d
+Incorrect. Paris green is not presented as an adulticide or ovicide, and non-feeding pupae are not affected. The supported answer is C, Mosquito larvae.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-DE8BA9EC7D8688
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify mosquito larvae as the principal stage affected by Paris green.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p14 Mucize Parasitology core Q62, printed key p14 (62 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p39.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q62 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q67
+
+## title
+Why are sandflies called "sandflies"?
+
+## question
+Why are sandflies called "sandflies"?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Due to their sandy yellow color
+
+## explanation_a
+Sandflies are called sandflies because of their sandy yellow colour. The governed university slide directly supports Due to their sandy yellow color for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Because they live in desert areas
+
+## explanation_b
+Incorrect. The governed naming feature is colour, not desert habitat, egg-laying substrate or hopping in sand. The supported answer is A, Due to their sandy yellow color.
+
+## answer_c
+Since they lay eggs in the sand
+
+## explanation_c
+Incorrect. The governed naming feature is colour, not desert habitat, egg-laying substrate or hopping in sand. The supported answer is A, Due to their sandy yellow color.
+
+## answer_d
+Due to their ability to jump in sand
+
+## explanation_d
+Incorrect. The governed naming feature is colour, not desert habitat, egg-laying substrate or hopping in sand. The supported answer is A, Due to their sandy yellow color.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-04788D75905E81
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly morphology
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify sandy yellow colour as the basis of the sandfly name.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p15 Mucize Parasitology core Q67, printed key p15 (67 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q67 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q68
+
+## title
+What is the scientific name for sandflies in the Old World?
+
+## question
+What is the scientific name for sandflies in the Old World?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Aedes
+
+## explanation_a
+Incorrect. Lutzomyia is the New World sandfly genus, while Aedes and Anopheles are mosquito genera. The supported answer is D, Phlebotomus.
+
+## answer_b
+Anopheles
+
+## explanation_b
+Incorrect. Lutzomyia is the New World sandfly genus, while Aedes and Anopheles are mosquito genera. The supported answer is D, Phlebotomus.
+
+## answer_c
+Lutzomyia
+
+## explanation_c
+Incorrect. Lutzomyia is the New World sandfly genus, while Aedes and Anopheles are mosquito genera. The supported answer is D, Phlebotomus.
+
+## answer_d
+Phlebotomus
+
+## explanation_d
+Old World sandflies belong to Phlebotomus species. The governed university slide directly supports Phlebotomus for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-51472DA1BC2690
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly taxonomy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify Phlebotomus as the Old World sandfly genus.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p15 Mucize Parasitology core Q68, printed key p15 (68 = D); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q68 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q69
+
+## title
+What is the scientific name for sandflies in the New World?
+
+## question
+What is the scientific name for sandflies in the New World?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Lutzomyia
+
+## explanation_a
+New World sandflies belong to Lutzomyia species. The governed university slide directly supports Lutzomyia for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Culex
+
+## explanation_b
+Incorrect. Phlebotomus is the Old World sandfly genus, while Culex and Anopheles are mosquito genera. The supported answer is A, Lutzomyia.
+
+## answer_c
+Anopheles
+
+## explanation_c
+Incorrect. Phlebotomus is the Old World sandfly genus, while Culex and Anopheles are mosquito genera. The supported answer is A, Lutzomyia.
+
+## answer_d
+Phlebotomus
+
+## explanation_d
+Incorrect. Phlebotomus is the Old World sandfly genus, while Culex and Anopheles are mosquito genera. The supported answer is A, Lutzomyia.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-51472DA1BC2690
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly taxonomy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify Lutzomyia as the New World sandfly genus.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p15 Mucize Parasitology core Q69, printed key p15 (69 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q69 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q70
+
+## title
+In which temperature range do sandflies thrive?
+
+## question
+In which temperature range do sandflies thrive?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Below 10°C
+
+## explanation_a
+Incorrect. The deck does not support below 10°C, a 5–20°C range or unrestricted temperatures. The supported answer is B, Above 15.6°C.
+
+## answer_b
+Above 15.6°C
+
+## explanation_b
+Sandfly distribution is limited to areas with temperatures above 15.6°C. The governed university slide directly supports Above 15.6°C for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+5°C - 20°C
+
+## explanation_c
+Incorrect. The deck does not support below 10°C, a 5–20°C range or unrestricted temperatures. The supported answer is B, Above 15.6°C.
+
+## answer_d
+Any temperature range
+
+## explanation_d
+Incorrect. The deck does not support below 10°C, a 5–20°C range or unrestricted temperatures. The supported answer is B, Above 15.6°C.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-999163730B9587
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly ecology
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Recall the governed temperature threshold for sandfly distribution.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p16 Mucize Parasitology core Q70, printed key p16 (70 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q70 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q71
+
+## title
+Where do adult sandflies hide during the daytime?
+
+## question
+Where do adult sandflies hide during the daytime?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+In water bodies
+
+## explanation_a
+Incorrect. Water, tree canopies and human skin are not the governed daytime hiding sites. The supported answer is C, In rodent burrows, cracks, and crevices.
+
+## answer_b
+In tree canopies
+
+## explanation_b
+Incorrect. Water, tree canopies and human skin are not the governed daytime hiding sites. The supported answer is C, In rodent burrows, cracks, and crevices.
+
+## answer_c
+In rodent burrows, cracks, and crevices
+
+## explanation_c
+Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime. The governed university slide directly supports In rodent burrows, cracks, and crevices for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+On human skin
+
+## explanation_d
+Incorrect. Water, tree canopies and human skin are not the governed daytime hiding sites. The supported answer is C, In rodent burrows, cracks, and crevices.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D794E6CF4268C2
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify burrows, cracks and crevices as adult sandfly daytime refuges.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p16 Mucize Parasitology core Q71, printed key p16 (71 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q71 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q72
+
+## title
+What type of metamorphosis do sandflies undergo?
+
+## question
+What type of metamorphosis do sandflies undergo?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Complete metamorphosis
+
+## explanation_a
+Sandflies undergo complete metamorphosis. The governed university slide directly supports Complete metamorphosis for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Incomplete metamorphosis
+
+## explanation_b
+Incorrect. The governed deck does not describe incomplete, mixed or absent metamorphosis. The supported answer is A, Complete metamorphosis.
+
+## answer_c
+Mixed metamorphosis
+
+## explanation_c
+Incorrect. The governed deck does not describe incomplete, mixed or absent metamorphosis. The supported answer is A, Complete metamorphosis.
+
+## answer_d
+No metamorphosis
+
+## explanation_d
+Incorrect. The governed deck does not describe incomplete, mixed or absent metamorphosis. The supported answer is A, Complete metamorphosis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F4702893869E6F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify complete metamorphosis as sandfly development.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p16 Mucize Parasitology core Q72, printed key p16 (72 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q72 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q74
+
+## title
+How do sandflies move while flying?
+
+## question
+How do sandflies move while flying?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Strong fliers like mosquitoes
+
+## explanation_a
+Incorrect. The deck does not describe strong flight, hovering or straight-line gliding. The supported answer is C, Weak fliers with a hopping movement.
+
+## answer_b
+Hover in one place
+
+## explanation_b
+Incorrect. The deck does not describe strong flight, hovering or straight-line gliding. The supported answer is C, Weak fliers with a hopping movement.
+
+## answer_c
+Weak fliers with a hopping movement
+
+## explanation_c
+Sandflies are weak fliers with a tendency to hop. The governed university slide directly supports Weak fliers with a hopping movement for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Glide in a straight line
+
+## explanation_d
+Incorrect. The deck does not describe strong flight, hovering or straight-line gliding. The supported answer is C, Weak fliers with a hopping movement.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-509BF395C5EBF9
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify weak hopping flight as characteristic sandfly movement.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p16 Mucize Parasitology core Q74, printed key p16 (74 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q74 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q75
+
+## title
+What is the main blood-feeding behavior of sandflies?
+
+## question
+What is the main blood-feeding behavior of sandflies?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Both males and females suck blood
+
+## explanation_a
+Incorrect. The governed statement does not assign blood feeding to males or to neither sex. The supported answer is C, Only females suck blood.
+
+## answer_b
+Only males suck blood
+
+## explanation_b
+Incorrect. The governed statement does not assign blood feeding to males or to neither sex. The supported answer is C, Only females suck blood.
+
+## answer_c
+Only females suck blood
+
+## explanation_c
+As a rule, female sandflies are the blood-sucking sex. The governed university slide directly supports Only females suck blood for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Neither suck blood
+
+## explanation_d
+Incorrect. The governed statement does not assign blood feeding to males or to neither sex. The supported answer is C, Only females suck blood.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-93E9B181184A6B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly feeding
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify female sandflies as the blood-sucking sex.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p16 Mucize Parasitology core Q75, printed key p16 (75 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q75 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q76
+
+## title
+What is a common characteristic of Phlebotomus-borne diseases?
+
+## question
+What is a common characteristic of Phlebotomus-borne diseases?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+They have a worldwide distribution
+
+## explanation_a
+Incorrect. The governed explanation is not contaminated food, urban restriction or universal worldwide distribution. The supported answer is B, They are often localized due to weak flying ability.
+
+## answer_b
+They are often localized due to weak flying ability
+
+## explanation_b
+Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers. The governed university slide directly supports They are often localized due to weak flying ability for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+They are spread through contaminated food
+
+## explanation_c
+Incorrect. The governed explanation is not contaminated food, urban restriction or universal worldwide distribution. The supported answer is B, They are often localized due to weak flying ability.
+
+## answer_d
+They are only found in urban areas
+
+## explanation_d
+Incorrect. The governed explanation is not contaminated food, urban restriction or universal worldwide distribution. The supported answer is B, They are often localized due to weak flying ability.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F4101FB9DECB61
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Connect weak sandfly flight with localized Phlebotomus-borne disease distribution.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p16 Mucize Parasitology core Q76, printed key p16 (76 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q76 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q80
+
+## title
+What is the main symptom of visceral leishmaniasis?
+
+## question
+What is the main symptom of visceral leishmaniasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Skin ulcers
+
+## explanation_a
+Incorrect. Skin ulcers belong to cutaneous disease, while chronic diarrhoea and paralysis are not the governed manifestation. The supported answer is B, Hepatosplenomegaly.
+
+## answer_b
+Hepatosplenomegaly
+
+## explanation_b
+Visceral leishmaniasis is associated with hepatosplenomegaly. The governed university slide directly supports Hepatosplenomegaly for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Chronic diarrhea
+
+## explanation_c
+Incorrect. Skin ulcers belong to cutaneous disease, while chronic diarrhoea and paralysis are not the governed manifestation. The supported answer is B, Hepatosplenomegaly.
+
+## answer_d
+Paralysis
+
+## explanation_d
+Incorrect. Skin ulcers belong to cutaneous disease, while chronic diarrhoea and paralysis are not the governed manifestation. The supported answer is B, Hepatosplenomegaly.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F58AE2DFC9E4A1
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Visceral leishmaniasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify hepatosplenomegaly as the offered visceral-leishmaniasis manifestation.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p17 Mucize Parasitology core Q80, printed key p17 (80 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q80 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q82
+
+## title
+What is the causative agent of Sandfly fever?
+
+## question
+What is the causative agent of Sandfly fever?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Bacteria
+
+## explanation_a
+Incorrect. Bacteria, protozoa and fungi are not the governed causative-agent class. The supported answer is B, Virus.
+
+## answer_b
+Virus
+
+## explanation_b
+Sandfly fever is caused by a virus. The governed university slide directly supports Virus for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Protozoa
+
+## explanation_c
+Incorrect. Bacteria, protozoa and fungi are not the governed causative-agent class. The supported answer is B, Virus.
+
+## answer_d
+Fungi
+
+## explanation_d
+Incorrect. Bacteria, protozoa and fungi are not the governed causative-agent class. The supported answer is B, Virus.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F538E763E1260E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify a virus as the causative agent of sandfly fever.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p17 Mucize Parasitology core Q82, printed key p17 (82 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q82 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q83
+
+## title
+What is the mode of transmission of Sandfly fever?
+
+## question
+What is the mode of transmission of Sandfly fever?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Mechanical transmission
+
+## explanation_a
+Incorrect. The deck distinguishes this from mechanical, cyclopropagative and cyclodevelopmental transmission. The supported answer is C, Propagative transmission.
+
+## answer_b
+Cyclopropagative transmission
+
+## explanation_b
+Incorrect. The deck distinguishes this from mechanical, cyclopropagative and cyclodevelopmental transmission. The supported answer is C, Propagative transmission.
+
+## answer_c
+Propagative transmission
+
+## explanation_c
+Sandfly fever is transmitted propagatively by sandflies. The governed university slide directly supports Propagative transmission for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Cyclodevelopmental transmission
+
+## explanation_d
+Incorrect. The deck distinguishes this from mechanical, cyclopropagative and cyclodevelopmental transmission. The supported answer is C, Propagative transmission.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F538E763E1260E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify propagative transmission as the governed sandfly-fever mode.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p17 Mucize Parasitology core Q83, printed key p17 (83 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q83 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q84
+
+## title
+Which disease is caused by Bartonella bacilliformis?
+
+## question
+Which disease is caused by Bartonella bacilliformis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Malaria
+
+## explanation_a
+Incorrect. Malaria, dengue and leishmaniasis are not caused by Bartonella bacilliformis. The supported answer is C, Oroya fever.
+
+## answer_b
+Dengue fever
+
+## explanation_b
+Incorrect. Malaria, dengue and leishmaniasis are not caused by Bartonella bacilliformis. The supported answer is C, Oroya fever.
+
+## answer_c
+Oroya fever
+
+## explanation_c
+Bartonella bacilliformis causes Oroya fever. The governed university slide directly supports Oroya fever for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Leishmaniasis
+
+## explanation_d
+Incorrect. Malaria, dengue and leishmaniasis are not caused by Bartonella bacilliformis. The supported answer is C, Oroya fever.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-482144C092C2DD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Oroya fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify Oroya fever as the disease caused by Bartonella bacilliformis.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p18 Mucize Parasitology core Q84, printed key p18 (84 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q84 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q85
+
+## title
+What is the type of transmission for Bartonella bacilliformis in sandflies?
+
+## question
+What is the type of transmission for Bartonella bacilliformis in sandflies?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Propagative
+
+## explanation_a
+Bartonella bacilliformis is transmitted propagatively inside sandflies. The governed university slide directly supports Propagative for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Cyclodevelopmental
+
+## explanation_b
+Incorrect. The governed deck does not label this cyclodevelopmental or mechanical. The supported answer is A, Propagative.
+
+## answer_c
+Mechanical
+
+## explanation_c
+Incorrect. The governed deck does not label this cyclodevelopmental or mechanical. The supported answer is A, Propagative.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. The governed deck does not label this cyclodevelopmental or mechanical. The supported answer is A, Propagative.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-482144C092C2DD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Oroya fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify propagative transmission for Bartonella bacilliformis in sandflies.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p18 Mucize Parasitology core Q85, printed key p18 (85 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q85 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q87
+
+## title
+What is a key strategy in sandfly control?
+
+## question
+What is a key strategy in sandfly control?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Destroying stagnant water sources
+
+## explanation_a
+Incorrect. The governed strategy is not antibiotics, tree planting or mosquito-style stagnant-water control. The supported answer is B, Filling cracks and crevices.
+
+## answer_b
+Filling cracks and crevices
+
+## explanation_b
+Filling cracks and crevices is a sandfly-control strategy. The governed university slide directly supports Filling cracks and crevices for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Using antibiotics regularly
+
+## explanation_c
+Incorrect. The governed strategy is not antibiotics, tree planting or mosquito-style stagnant-water control. The supported answer is B, Filling cracks and crevices.
+
+## answer_d
+Planting more trees
+
+## explanation_d
+Incorrect. The governed strategy is not antibiotics, tree planting or mosquito-style stagnant-water control. The supported answer is B, Filling cracks and crevices.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-C6B9B514C3AC20
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify filling cracks and crevices as the offered sandfly-control strategy.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p18 Mucize Parasitology core Q87, printed key p18 (87 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p9, 32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q87 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q88
+
+## title
+Which of the following insecticides is effective against sandflies?
+
+## question
+Which of the following insecticides is effective against sandflies?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+DDT
+
+## explanation_a
+DDT is listed as a potent residual insecticide for sandfly control. The governed university slide directly supports DDT for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Penicillin
+
+## explanation_b
+Incorrect. Penicillin and amoxicillin are antibiotics, while chloroquine is not the sandfly insecticide listed in the governed slide. The supported answer is A, DDT.
+
+## answer_c
+Amoxicillin
+
+## explanation_c
+Incorrect. Penicillin and amoxicillin are antibiotics, while chloroquine is not the sandfly insecticide listed in the governed slide. The supported answer is A, DDT.
+
+## answer_d
+Chloroquine
+
+## explanation_d
+Incorrect. Penicillin and amoxicillin are antibiotics, while chloroquine is not the sandfly insecticide listed in the governed slide. The supported answer is A, DDT.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-CC1A40F9CF6129
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify DDT as the offered sandfly insecticide.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p18 Mucize Parasitology core Q88, printed key p18 (88 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q88 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZE-Q89
+
+## title
+What is an effective preventive measure against sandfly bites?
+
+## question
+What is an effective preventive measure against sandfly bites?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Sleeping under mosquito nets with fine mesh
+
+## explanation_a
+Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites. The governed university slide directly supports Sleeping under mosquito nets with fine mesh for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Wearing bright-colored clothing
+
+## explanation_b
+Incorrect. Bright clothing, tap-water avoidance and vitamin intake are not the governed bite-prevention measures. The supported answer is A, Sleeping under mosquito nets with fine mesh.
+
+## answer_c
+Avoiding drinking tap water
+
+## explanation_c
+Incorrect. Bright clothing, tap-water avoidance and vitamin intake are not the governed bite-prevention measures. The supported answer is A, Sleeping under mosquito nets with fine mesh.
+
+## answer_d
+Eating vitamin-rich food
+
+## explanation_d
+Incorrect. Bright clothing, tap-water avoidance and vitamin intake are not the governed bite-prevention measures. The supported answer is A, Sleeping under mosquito nets with fine mesh.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D5B09C8CE384D6
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bite prevention
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify fine-mesh bed nets as an effective sandfly-bite prevention measure.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p18 Mucize Parasitology core Q89, printed key p18 (89 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Parasitology core Q89 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

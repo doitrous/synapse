@@ -8554,6 +8554,7 @@ ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -8587,6 +8588,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
 
 ## resource_occurrence_ids
 [clear]
@@ -8596,19 +8598,23 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p9 Mosquitoes Q30; printed answer p9
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p14 Mucize Parasitology core Q62; printed answer p14
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p39 direct university teaching
 src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p39 direct university teaching
 
 ## original_wording
 Which of the following is larvicidal only? Printed key A; options retained in their original order.
+Paris green insecticide mainly affects: Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
 
 ## rejected_merge_candidate_ids
 concept_93621f76281954bdf8c77e72
+concept_93621f76281954bdf8c77e72
 
 ## conflicts
-No key conflict affects authored Mosquitoes Q30. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Mosquitoes Q30. Its printed A agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q62. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -8649,7 +8655,7 @@ approvedFileResourceIds: Neither local PDF has been rights-cleared for student d
 approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
-rejectedMergeCandidateIds: concept_93621f76281954bdf8c77e72 — broader raw control list does not preserve the larvicidal-only and pupa-exclusion identity.
+rejectedMergeCandidateIds: concept_93621f76281954bdf8c77e72 — broader raw control list does not preserve the larvicidal-only and pupa-exclusion identity. concept_93621f76281954bdf8c77e72 — broader raw control list does not preserve the larvicidal and pupa-exclusion identity.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
@@ -8736,6 +8742,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -8769,6 +8776,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q01-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q67-01
 
 ## resource_occurrence_ids
 [clear]
@@ -8778,10 +8786,13 @@ CLM-INF-MUST-FHB1022-SAND2-Q01-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p10 Sandfly Q1; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p15 Mucize Parasitology core Q67; printed answer p15
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p2 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p2 direct university teaching
 
 ## original_wording
 Why are sandflies called "sandflies"? Printed key B; options retained in their original order.
+Why are sandflies called "sandflies"? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -8790,7 +8801,7 @@ Why are sandflies called "sandflies"? Printed key B; options retained in their o
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q1. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q1. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q67. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -8918,6 +8929,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -8951,6 +8963,8 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q02-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q68-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q69-01
 
 ## resource_occurrence_ids
 [clear]
@@ -8960,10 +8974,16 @@ CLM-INF-MUST-FHB1022-SAND2-Q02-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p10 Sandfly Q2; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p15 Mucize Parasitology core Q68; printed answer p15
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p15 Mucize Parasitology core Q69; printed answer p15
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p4 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p4 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p4 direct university teaching
 
 ## original_wording
 Which of the following genera belong to sandflies? Printed key C; options retained in their original order.
+What is the scientific name for sandflies in the Old World? Printed key D; options retained in their original order.
+What is the scientific name for sandflies in the New World? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -8972,7 +8992,7 @@ Which of the following genera belong to sandflies? Printed key C; options retain
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q2. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q2. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q68. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q69. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -9100,6 +9120,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -9134,6 +9155,7 @@ MUST_Y1=0.45
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q03-01
 CLM-INF-MUST-FHB1022-SAND2-Q04-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q72-01
 
 ## resource_occurrence_ids
 [clear]
@@ -9144,12 +9166,15 @@ CLM-INF-MUST-FHB1022-SAND2-Q04-01
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p10 Sandfly Q3; printed answer p18
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p11 Sandfly Q4; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p16 Mucize Parasitology core Q72; printed answer p16
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p6 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p6 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p6 direct university teaching
 
 ## original_wording
 What type of metamorphosis do sandflies undergo? Printed key B; options retained in their original order.
 What is the lifespan of sandfly development from egg to adult? Printed key B; options retained in their original order.
+What type of metamorphosis do sandflies undergo? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -9158,7 +9183,7 @@ What is the lifespan of sandfly development from egg to adult? Printed key B; op
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q3. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q4. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q3. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q4. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q72. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -9650,6 +9675,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -9683,6 +9709,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q07-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q71-01
 
 ## resource_occurrence_ids
 [clear]
@@ -9692,10 +9719,13 @@ CLM-INF-MUST-FHB1022-SAND2-Q07-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p11 Sandfly Q7; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p16 Mucize Parasitology core Q71; printed answer p16
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
 
 ## original_wording
 During the daytime, where are adult sandflies most likely to hide? Printed key D; options retained in their original order.
+Where do adult sandflies hide during the daytime? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -9704,7 +9734,7 @@ During the daytime, where are adult sandflies most likely to hide? Printed key D
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q7. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q7. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q71. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -10200,6 +10230,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -10233,6 +10264,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q10-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q74-01
 
 ## resource_occurrence_ids
 [clear]
@@ -10242,10 +10274,13 @@ CLM-INF-MUST-FHB1022-SAND2-Q10-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p12 Sandfly Q10; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p16 Mucize Parasitology core Q74; printed answer p16
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
 
 ## original_wording
 How do sandflies typically move? Printed key C; options retained in their original order.
+How do sandflies move while flying? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -10254,7 +10289,7 @@ How do sandflies typically move? Printed key C; options retained in their origin
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q10. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q10. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q74. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -10382,6 +10417,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -10416,6 +10452,8 @@ MUST_Y1=0.45
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q13-01
 CLM-INF-MUST-FHB1022-SAND2-Q14-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
 
 ## resource_occurrence_ids
 [clear]
@@ -10426,12 +10464,18 @@ CLM-INF-MUST-FHB1022-SAND2-Q14-01
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p13 Sandfly Q13; printed answer p18
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p13 Sandfly Q14; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p17 Mucize Parasitology core Q82; printed answer p17
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p17 Mucize Parasitology core Q83; printed answer p17
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 26 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p26 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p26 direct university teaching
 
 ## original_wording
 What is the causative agent of sandfly fever? Printed key C; options retained in their original order.
 Which of the following diseases is NOT transmitted by sandflies? Printed key B; options retained in their original order.
+What is the causative agent of Sandfly fever? Printed key B; options retained in their original order.
+What is the mode of transmission of Sandfly fever? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -10440,7 +10484,7 @@ Which of the following diseases is NOT transmitted by sandflies? Printed key B; 
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q13. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q14. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q13. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q14. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q82. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q83. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -10568,6 +10612,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -10603,6 +10648,8 @@ MUST_Y1=0.45
 CLM-INF-MUST-FHB1022-SAND2-Q21-01
 CLM-INF-MUST-FHB1022-SAND2-Q23-01
 CLM-INF-MUST-FHB1022-SAND2-Q24-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
 
 ## resource_occurrence_ids
 [clear]
@@ -10614,14 +10661,20 @@ CLM-INF-MUST-FHB1022-SAND2-Q24-01
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p15 Sandfly Q21; printed answer p18
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q23; printed answer p18
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q24; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p18 Mucize Parasitology core Q84; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p18 Mucize Parasitology core Q85; printed answer p18
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p12, 28 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 28 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
 
 ## original_wording
 What is the causative agent of Oroya fever? Printed key B; options retained in their original order.
 What type of anemia is associated with Oroya fever? Printed key B; options retained in their original order.
 What type of transmission occurs in Bartonellosis? Printed key B; options retained in their original order.
+Which disease is caused by Bartonella bacilliformis? Printed key C; options retained in their original order.
+What is the type of transmission for Bartonella bacilliformis in sandflies? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -10630,7 +10683,7 @@ What type of transmission occurs in Bartonellosis? Printed key B; options retain
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q21. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q23. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q24. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q21. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q23. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q24. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q84. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q85. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -10758,6 +10811,7 @@ ART-INF-MUST-FHB1022-SANDFLY-DISEASES
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -10791,6 +10845,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q26-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q89-01
 
 ## resource_occurrence_ids
 [clear]
@@ -10800,10 +10855,13 @@ CLM-INF-MUST-FHB1022-SAND2-Q26-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q26; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p18 Mucize Parasitology core Q89; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p32 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p32 direct university teaching
 
 ## original_wording
 What is an effective method to prevent sandfly bites? Printed key A; options retained in their original order.
+What is an effective preventive measure against sandfly bites? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -10812,7 +10870,7 @@ What is an effective method to prevent sandfly bites? Printed key A; options ret
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q26. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q26. Its printed A agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q89. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -10940,6 +10998,7 @@ ART-INF-MUST-FHB1022-SANDFLY-DISEASES
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -10973,6 +11032,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q27-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q87-01
 
 ## resource_occurrence_ids
 [clear]
@@ -10982,10 +11042,13 @@ CLM-INF-MUST-FHB1022-SAND2-Q27-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p17 Sandfly Q27; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p18 Mucize Parasitology core Q87; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p9, 32 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p9, 32 direct university teaching
 
 ## original_wording
 Which of the following is NOT a method of sandfly control? Printed key D; options retained in their original order.
+What is a key strategy in sandfly control? Printed key B; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -10994,7 +11057,7 @@ Which of the following is NOT a method of sandfly control? Printed key D; option
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q27. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q27. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q87. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -12815,6 +12878,916 @@ What is the mode of transmission for West Nile virus? Printed key C; options ret
 
 ## conflicts
 No key conflict affects authored Mucize Parasitology core Q59. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-999163730B9587
+
+## label
+Sandflies are distributed where temperatures exceed 15.6°C
+
+## canonical_key
+parasitology.sandfly.temperature-above-15-6-celsius
+
+## aliases
+Sandfly temperature threshold
+Sandfly distribution above 15.6°C
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandfly distribution is limited to areas with temperatures above 15.6°C.
+
+## explicit_objective
+Recall the governed temperature threshold for sandfly distribution.
+
+## pitfalls
+The deck does not support below 10°C, a 5–20°C range or unrestricted temperatures.
+
+## concept_type
+ecology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly ecology
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly ecology
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q70-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p16 Mucize Parasitology core Q70; printed answer p16
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p7 direct university teaching
+
+## original_wording
+In which temperature range do sandflies thrive? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q70. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-93E9B181184A6B
+
+## label
+Female sandflies are the blood-sucking sex
+
+## canonical_key
+parasitology.sandfly.female-blood-feeding
+
+## aliases
+Female sandfly blood feeding
+Sandfly sex-specific blood feeding
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+As a rule, female sandflies are the blood-sucking sex.
+
+## explicit_objective
+Identify female sandflies as the blood-sucking sex.
+
+## pitfalls
+The governed statement does not assign blood feeding to males or to neither sex.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly feeding
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly feeding
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q75-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p16 Mucize Parasitology core Q75; printed answer p16
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
+
+## original_wording
+What is the main blood-feeding behavior of sandflies? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q75. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-F4101FB9DECB61
+
+## label
+Weak sandfly flight localises Phlebotomus-borne diseases
+
+## canonical_key
+parasitology.sandfly.weak-flight-localized-diseases
+
+## aliases
+Localized sandfly-borne disease
+Weak flight limits disease distribution
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+
+## explicit_objective
+Connect weak sandfly flight with localized Phlebotomus-borne disease distribution.
+
+## pitfalls
+The governed explanation is not contaminated food, urban restriction or universal worldwide distribution.
+
+## concept_type
+epidemiology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p16 Mucize Parasitology core Q76; printed answer p16
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
+
+## original_wording
+What is a common characteristic of Phlebotomus-borne diseases? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q76. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-F58AE2DFC9E4A1
+
+## label
+Visceral leishmaniasis causes hepatosplenomegaly
+
+## canonical_key
+parasitology.leishmaniasis.visceral-hepatosplenomegaly
+
+## aliases
+Visceral leishmaniasis organ enlargement
+Kala-azar hepatosplenomegaly
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Visceral leishmaniasis is associated with hepatosplenomegaly.
+
+## explicit_objective
+Identify hepatosplenomegaly as the offered visceral-leishmaniasis manifestation.
+
+## pitfalls
+Skin ulcers belong to cutaneous disease, while chronic diarrhoea and paralysis are not the governed manifestation.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Visceral leishmaniasis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Visceral leishmaniasis
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q80-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p17 Mucize Parasitology core Q80; printed answer p17
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p22 direct university teaching
+
+## original_wording
+What is the main symptom of visceral leishmaniasis? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q80. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-CC1A40F9CF6129
+
+## label
+DDT is used as a residual insecticide against sandflies
+
+## canonical_key
+parasitology.sandfly.control-ddt
+
+## aliases
+DDT sandfly control
+Residual insecticide for sandflies
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+DDT is listed as a potent residual insecticide for sandfly control.
+
+## explicit_objective
+Identify DDT as the offered sandfly insecticide.
+
+## pitfalls
+Penicillin and amoxicillin are antibiotics, while chloroquine is not the sandfly insecticide listed in the governed slide.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly control
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q88-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p18 Mucize Parasitology core Q88; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p32 direct university teaching
+
+## original_wording
+Which of the following insecticides is effective against sandflies? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q88. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.

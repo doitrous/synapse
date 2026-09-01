@@ -3757,3 +3757,723 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q62-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that Paris green is larvicidal and that pupae are not affected because they do not feed.
+
+## locator_type
+page
+
+## locator_page
+39
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Chemical mosquito control
+
+## locator_detail
+PDF page 39, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q62 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q67-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q67-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck directly describes the name Sand Fly as arising from sandy yellow colour.
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly morphology
+
+## locator_detail
+PDF page 2, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q67 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q68-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q68-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official distribution slide lists Phlebotomus species in the Old World and Lutzomyia species in the New World.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly taxonomy
+
+## locator_detail
+PDF page 4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q68 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q69-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q69-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official distribution slide lists Lutzomyia species in the New World and Phlebotomus species in the Old World.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly taxonomy
+
+## locator_detail
+PDF page 4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q69 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q70-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q70-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide states that sandfly distribution is limited to areas with temperatures above 15.6°C.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly ecology
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q70 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q71-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q71-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide lists rodent burrows and building cracks and crevices as daytime hiding places.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bionomics
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q71 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q72-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q72-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official development slide directly states complete metamorphosis.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly life cycle
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q72 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q74-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q74-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide directly describes weak flight and a tendency to hop.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bionomics
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q74 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q75-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q75-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide states that adults feed on mammals and, as a rule, females are the blood-sucking sex.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly feeding
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q75 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q76-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide links weak hopping flight with the rather limited, localized nature of Phlebotomus-borne diseases.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bionomics
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q76 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q80-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q80-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official visceral-leishmaniasis slide directly labels hepatosplenomegaly due to Leishmania donovani.
+
+## locator_type
+page
+
+## locator_page
+22
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Visceral leishmaniasis
+
+## locator_detail
+PDF page 22, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q80 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q82-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official sandfly-fever slide directly states that the causative organism is a virus.
+
+## locator_type
+page
+
+## locator_page
+26
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly fever
+
+## locator_detail
+PDF page 26, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q82 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q83-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official sandfly-fever slide states that transmission by the bite of the sandfly is propagative.
+
+## locator_type
+page
+
+## locator_page
+26
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly fever
+
+## locator_detail
+PDF page 26, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q83 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q84-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Oroya-fever slide directly names Bartonella bacilliformis as the causative bacterium.
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Oroya fever
+
+## locator_detail
+PDF page 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q84 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q85-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Oroya-fever slide directly states that the type of transmission inside the sandfly is propagative.
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Oroya fever
+
+## locator_detail
+PDF page 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q85 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q87-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q87-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official control slide recommends plastering wall cracks and filling holes; sandflies do not breed in water.
+
+## locator_type
+page
+
+## locator_page
+9, 32
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly control
+
+## locator_detail
+PDF page 9, 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q87 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q88-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q88-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official integrated-control slide recommends spraying a potent residual insecticide and names DDT.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly control
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q88 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q89-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q89-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official integrated-control slide recommends mosquito nets with narrow meshes.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bite prevention
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q89 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

@@ -2065,3 +2065,399 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q60-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZE-Q60-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q62-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q62-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q67-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandflies are called sandflies because of their sandy yellow colour.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q67-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q67-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q68-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Old World sandflies belong to Phlebotomus species.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q68-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q68-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q69-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+New World sandflies belong to Lutzomyia species.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q69-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q69-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q70-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandfly distribution is limited to areas with temperatures above 15.6°C.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q70-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q70-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q71-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q71-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q71-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q72-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandflies undergo complete metamorphosis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q72-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q72-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q74-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandflies are weak fliers with a tendency to hop.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q74-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q74-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q75-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+As a rule, female sandflies are the blood-sucking sex.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q75-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q75-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q76-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q76-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q80-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Visceral leishmaniasis is associated with hepatosplenomegaly.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q80-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q80-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q82-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Sandfly fever is caused by a virus.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q82-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q83-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Sandfly fever is transmitted propagatively by sandflies.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q83-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q84-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Bartonella bacilliformis causes Oroya fever.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q84-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q85-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Bartonella bacilliformis is transmitted propagatively inside sandflies.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q85-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q87-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## section_id
+art-inf-must-fhb1022-sandfly-control-definition
+
+## text
+Filling cracks and crevices is a sandfly-control strategy.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q87-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q87-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q88-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## section_id
+art-inf-must-fhb1022-sandfly-control-definition
+
+## text
+DDT is listed as a potent residual insecticide for sandfly control.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q88-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q88-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q89-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## section_id
+art-inf-must-fhb1022-sandfly-control-definition
+
+## text
+Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q89-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q89-01

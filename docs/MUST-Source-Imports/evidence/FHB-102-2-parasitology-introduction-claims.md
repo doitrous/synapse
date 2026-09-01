@@ -4133,3 +4133,795 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Parasitology core Q60
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q62-01
+
+## concept_id
+CON-INF-DE8BA9EC7D8688
+
+## subject
+Paris green is larvicidal and does not affect non-feeding pupae
+
+## predicate
+states
+
+## object
+Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
+
+## display_text
+Paris green is a stomach poison that mainly affects feeding mosquito larvae and does not affect non-feeding pupae.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q62
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q67-01
+
+## concept_id
+CON-INF-04788D75905E81
+
+## subject
+Sandflies are named for their sandy yellow colour
+
+## predicate
+states
+
+## object
+Sandflies are called sandflies because of their sandy yellow colour.
+
+## display_text
+Sandflies are called sandflies because of their sandy yellow colour.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q67
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q68-01
+
+## concept_id
+CON-INF-51472DA1BC2690
+
+## subject
+Phlebotomus and Lutzomyia are sandfly genera
+
+## predicate
+states
+
+## object
+Old World sandflies belong to Phlebotomus species.
+
+## display_text
+Old World sandflies belong to Phlebotomus species.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q68
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q69-01
+
+## concept_id
+CON-INF-51472DA1BC2690
+
+## subject
+Phlebotomus and Lutzomyia are sandfly genera
+
+## predicate
+states
+
+## object
+New World sandflies belong to Lutzomyia species.
+
+## display_text
+New World sandflies belong to Lutzomyia species.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q69
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q70-01
+
+## concept_id
+CON-INF-999163730B9587
+
+## subject
+Sandflies are distributed where temperatures exceed 15.6°C
+
+## predicate
+states
+
+## object
+Sandfly distribution is limited to areas with temperatures above 15.6°C.
+
+## display_text
+Sandfly distribution is limited to areas with temperatures above 15.6°C.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q70
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q71-01
+
+## concept_id
+CON-INF-D794E6CF4268C2
+
+## subject
+Adult sandflies hide in burrows and building cracks by day
+
+## predicate
+states
+
+## object
+Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.
+
+## display_text
+Adult sandflies hide in rodent burrows and in cracks and crevices of buildings during daytime.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q71
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q72-01
+
+## concept_id
+CON-INF-F4702893869E6F
+
+## subject
+Sandflies complete metamorphosis in about thirty days
+
+## predicate
+states
+
+## object
+Sandflies undergo complete metamorphosis.
+
+## display_text
+Sandflies undergo complete metamorphosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q72
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q74-01
+
+## concept_id
+CON-INF-509BF395C5EBF9
+
+## subject
+Sandflies are weak fliers with hopping movement
+
+## predicate
+states
+
+## object
+Sandflies are weak fliers with a tendency to hop.
+
+## display_text
+Sandflies are weak fliers with a tendency to hop.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q74
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q75-01
+
+## concept_id
+CON-INF-93E9B181184A6B
+
+## subject
+Female sandflies are the blood-sucking sex
+
+## predicate
+states
+
+## object
+As a rule, female sandflies are the blood-sucking sex.
+
+## display_text
+As a rule, female sandflies are the blood-sucking sex.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q75
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
+
+## concept_id
+CON-INF-F4101FB9DECB61
+
+## subject
+Weak sandfly flight localises Phlebotomus-borne diseases
+
+## predicate
+states
+
+## object
+Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+
+## display_text
+Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q76
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q80-01
+
+## concept_id
+CON-INF-F58AE2DFC9E4A1
+
+## subject
+Visceral leishmaniasis causes hepatosplenomegaly
+
+## predicate
+states
+
+## object
+Visceral leishmaniasis is associated with hepatosplenomegaly.
+
+## display_text
+Visceral leishmaniasis is associated with hepatosplenomegaly.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q80
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
+
+## concept_id
+CON-INF-F538E763E1260E
+
+## subject
+Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever
+
+## predicate
+states
+
+## object
+Sandfly fever is caused by a virus.
+
+## display_text
+Sandfly fever is caused by a virus.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q82
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
+
+## concept_id
+CON-INF-F538E763E1260E
+
+## subject
+Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever
+
+## predicate
+states
+
+## object
+Sandfly fever is transmitted propagatively by sandflies.
+
+## display_text
+Sandfly fever is transmitted propagatively by sandflies.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q83
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
+
+## concept_id
+CON-INF-482144C092C2DD
+
+## subject
+Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia
+
+## predicate
+states
+
+## object
+Bartonella bacilliformis causes Oroya fever.
+
+## display_text
+Bartonella bacilliformis causes Oroya fever.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q84
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
+
+## concept_id
+CON-INF-482144C092C2DD
+
+## subject
+Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia
+
+## predicate
+states
+
+## object
+Bartonella bacilliformis is transmitted propagatively inside sandflies.
+
+## display_text
+Bartonella bacilliformis is transmitted propagatively inside sandflies.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q85
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q87-01
+
+## concept_id
+CON-INF-C6B9B514C3AC20
+
+## subject
+Sandfly control does not rely on draining stagnant water
+
+## predicate
+states
+
+## object
+Filling cracks and crevices is a sandfly-control strategy.
+
+## display_text
+Filling cracks and crevices is a sandfly-control strategy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q87
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q88-01
+
+## concept_id
+CON-INF-CC1A40F9CF6129
+
+## subject
+DDT is used as a residual insecticide against sandflies
+
+## predicate
+states
+
+## object
+DDT is listed as a potent residual insecticide for sandfly control.
+
+## display_text
+DDT is listed as a potent residual insecticide for sandfly control.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q88
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q89-01
+
+## concept_id
+CON-INF-D5B09C8CE384D6
+
+## subject
+Narrow-mesh nets help prevent sandfly bites
+
+## predicate
+states
+
+## object
+Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.
+
+## display_text
+Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q89
