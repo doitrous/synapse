@@ -6477,3 +6477,166 @@ sourceCandidateIds: Searched the corpus for "minute respiratory volume" and "min
 lastReviewed: New record; not yet reviewed.
 reviewDue: Set when the first review completes.
 relationships: Cross-linked to CON-RES-5CBC8159EFAA44 (lung volume definitions, which this record's tidal-volume term depends on).
+
+---
+
+# Item
+
+## id
+CON-CVS-06CCAE51B78F52
+
+## label
+This bank teaches the normal QT interval as 0.3-0.4 seconds, disagreeing with a typo'd option in the plain copy
+
+## canonical_key
+ecg.qt-interval.normal-duration-disagreement
+
+## aliases
+Normal QT interval duration
+QT interval — printed-key disagreement
+
+## arabic_label
+المدة الطبيعية لفترة QT (تباين بين النسختين)
+
+## arabic_aliases
+
+## definition
+The QT interval spans the start of the QRS complex to the end of the T wave — the whole of ventricular depolarisation plus repolarisation. This bank's answer-key copy marks the normal duration as 0.3-0.4 seconds, and this is independently corroborated by the Telegram addendum bank's own printed key (Spot 34.3). The bank's own plain (non-key) copy instead shows the same option's text as "1-3 sec" — a value that is physiologically implausible for a QT interval and is recorded here as an uncorrected typo in that copy, not a genuine second teaching value, since two independent sources converge on 0.3-0.4 sec and none support 1-3 sec.
+
+## explicit_objective
+State the normal QT interval duration this bank teaches (0.3-0.4 sec), and recognise the plain copy's "1-3 sec" option text as a source-side typo rather than a competing fact.
+
+## pitfalls
+Treating the plain copy's "1-3 sec" as a real alternative teaching value. It has no independent corroboration anywhere in the corpus, is off by roughly an order of magnitude from any physiologically plausible QT interval, and sits in the exact option slot the keyed copy marks correct with the value 0.3-0.4 sec — the pattern of a single-source transcription defect, not a genuine disagreement between two teaching sources.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+SYS-CVS-T09-S01-M01
+
+## secondary_node_ids
+
+## topic
+Cardiovascular investigations
+
+## subtopic
+ECG reading
+
+## microtopic
+
+## nanotopic
+
+## modules
+AU-MED-106
+
+## module_subject
+AU-MED-106 > Physiology > Cardiac electrophysiology > QT interval duration
+
+## article_ids
+ART-CVS-ECG-READING
+
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-F00614D402A312
+
+## resource_ids
+src_2fc652b90b34c2b804be
+src_208b4c27ce9ba9d8cc26
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.25
+
+## confidence
+0.6
+
+## exam_signal
+src_2fc652b90b34c2b804be | bank | | p4 | AU-MED-106
+
+## atomic_claim_ids
+CLM-CVS-QT-INTERVAL-DURATION-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"QT interval duration A- ... D- .3-.4 sec" (recovered from the "-3" answer-key copy's corrupted label, MCQs - Mohammed Mostafa physio practical, AU-MED-106 Physiology, p4); the plain copy's own option D text reads "1-3 sec" in the same slot; "What is the normal duration of QT interval? [answer: 0.3-0.4 sec]" (Practical CVS Qs Bank, ASM Minds, AU-MED-106 Physiology, Spot 34.3, sourceId pending) independently corroborates 0.3-0.4 sec.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+The plain copy's option text ("1-3 sec") disagrees with the keyed copy's recovered mark and value ("0.3-0.4 sec") at the same question/option slot — recorded as a sourced disagreement per coverage/AU-MED-106-physiology-triage.md Step 3, not silently resolved. The Telegram addendum bank's independent, unrelated-author key corroborates 0.3-0.4 sec, which is why 0.3-0.4 sec (not 1-3 sec) is authored as the printed/taught value.
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+questionIds: AU-MED-106-PHYS-P4-Q3, AU-MED-106-TG-SPOT34-Q3
+microtopicId: The canonical placement is already at microtopic depth; a university-overlay microtopic would restate the same location less precisely.
+nanotopicId: The cardiovascular curriculum overlay defines no nanotopic nodes for this cluster, so there is nothing to point at.
+relatedArticleIds: No further-reading article beyond ART-CVS-ECG-READING (already in article_ids) exists yet for this cluster.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+resourceOccurrenceIds: Hand-authored from coverage/AU-MED-106-physiology-triage.md Step 3 (QT interval disagreement, independently corroborated).
+sourceCandidateIds: Searched the corpus for "QT interval" — live/pending records are all about long-QT syndromes/aetiology, not baseline duration; no candidate record exists for the plain duration fact.
+lastReviewed: New record; not yet reviewed.
+reviewDue: Set when the first review completes.
+relationships: Sibling of CON-CVS-F00614D402A312 (hypercalcaemia shortens QT), which states the same interval's determinant rather than its baseline duration; minted per the standing ruling that the QT disagreement is recorded, not corrected.

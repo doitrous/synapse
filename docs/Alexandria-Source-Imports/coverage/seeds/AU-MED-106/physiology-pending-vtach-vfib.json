@@ -1,0 +1,73 @@
+{
+  "lane": "AU-MED-106-PHYS",
+  "cluster": "pending-arr",
+  "header": "AU-MED-106 Physiology · pending-live — questions on the Telegram addendum bank's ventricular tachycardia / ventricular fibrillation spots (Practical CVS Qs Bank, ASM Minds, sourceId pending), whose main concepts (CON-CVS-AEC4F470747102, CON-CVS-4B1E9C05DA52C1) exist only in another lane's unimported batch (docs/import-ready/concept/SYS-CVS-CONCEPT-T05.md, docs/import-ready/article/SYS-CVS-ARTICLE-T05.md). Do not apply until those two files are live. Validate with: npm run medical:batch -- <this file> --with docs/import-ready/concept/SYS-CVS-CONCEPT-T05.md --with docs/import-ready/article/SYS-CVS-ARTICLE-T05.md",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["au"],
+    "years": ["AU_Y1"],
+    "module": "AU-MED-106",
+    "module_subject": "AU-MED-106 > Physiology > Cardiac arrhythmias",
+    "exam_weight_by_year": { "AU_Y1": "high" },
+    "library_ids": ["ART-CVS-VENTRICULAR-TACHYCARDIA", "ART-CVS-VENTRICULAR-FIBRILLATION"],
+    "resource_ids": [],
+    "source_citation": "Practical CVS Qs Bank, ASM Minds, AU-MED-106 Physiology, Spot {page}",
+    "setting": "Academic",
+    "estimated_seconds": 75,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "pending-arr-q01",
+      "page": "43.3",
+      "title": "Broad-complex tachycardia — default assumption",
+      "question": "A patient presents with a regular, broad-complex (wide QRS) tachycardia on ECG. Which is the safest default diagnosis to assume until proven otherwise?",
+      "options": { "A": "Supraventricular tachycardia with aberrant conduction", "B": "Ventricular tachycardia", "C": "Sinus tachycardia with a bundle branch block", "D": "Atrial flutter with 1:1 conduction" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Supraventricular tachycardia with aberrant conduction can genuinely look identical to ventricular tachycardia on a broad-complex ECG, and distinguishing the two reliably can be difficult even for experienced readers. Because misdiagnosing a dangerous rhythm as a benign one carries far greater risk than the reverse, this is not the safe default assumption.",
+        "B": "Correct. Ventricular tachycardia and supraventricular tachycardia with aberrant conduction both produce a regular broad-complex tachycardia, and they can be genuinely difficult to separate from the surface ECG alone. Because ventricular tachycardia is both far commoner in this presentation and far more immediately dangerous (it can degenerate into ventricular fibrillation and cardiac arrest), the safe default is to assume ventricular tachycardia until specific evidence proves otherwise.",
+        "C": "Incorrect. While sinus tachycardia with a pre-existing bundle branch block can also produce a wide-complex rapid rhythm, it is a less immediately dangerous explanation, and defaulting to it risks under-treating a genuinely life-threatening ventricular arrhythmia.",
+        "D": "Incorrect. Atrial flutter with 1:1 AV conduction can produce a fast, though typically narrow-complex, rhythm; it is not the standard broad-complex differential this teaching point addresses, and assuming it here would similarly risk missing a true ventricular tachycardia."
+      },
+      "main_concept": "CON-CVS-AEC4F470747102",
+      "concept_ids": ["CON-CVS-AEC4F470747102"],
+      "library_ids": ["ART-CVS-VENTRICULAR-TACHYCARDIA"],
+      "topic": "Cardiovascular physiology",
+      "subtopic": "Cardiac arrhythmias",
+      "difficulty": "Hard",
+      "question_type": "Diagnosis",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State the safe-default rule for a broad-complex tachycardia (assume ventricular tachycardia until proven otherwise) and explain the risk asymmetry behind it.",
+      "field_notes": { "keySource": "Telegram bank printed key, Spot 43.3", "au": "Practical CVS Qs Bank, ASM Minds (Telegram addendum), Spot 43.3" }
+    },
+    {
+      "key": "pending-arr-q02",
+      "page": "32.3",
+      "title": "Ventricular fibrillation — rate and output",
+      "question": "In ventricular fibrillation, the ventricular myocardium depolarises chaotically at a rate of roughly 350-500 beats/min from many sites at once. What is the resulting cardiac output?",
+      "options": { "A": "Normal cardiac output, since the ventricles are still electrically active", "B": "Reduced but still measurable cardiac output", "C": "No cardiac output — this is cardiac arrest", "D": "Increased cardiac output from the very rapid rate" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Electrical activity alone does not guarantee mechanical output; in ventricular fibrillation the depolarisation is chaotic and disorganised rather than a single coordinated wave, so it cannot trigger the synchronised contraction a normal cardiac output requires.",
+        "B": "Incorrect. Even a severely reduced but still-measurable output would allow some tissue perfusion; ventricular fibrillation instead produces none at all, because no coordinated mechanical contraction occurs anywhere in the chaotically-depolarising ventricle.",
+        "C": "Correct. In ventricular fibrillation the ventricular myocardium depolarises chaotically in many places at once (at the stated rate of roughly 350-500 beats/min), so no coordinated contraction occurs. There is no stroke volume and no pulse: ventricular fibrillation is cardiac arrest, not merely a rhythm to be monitored, and requires immediate defibrillation rather than observation.",
+        "D": "Incorrect. A very rapid electrical rate does not translate into increased output when the underlying contraction is disorganised; without coordinated mechanical systole, rate alone cannot generate any forward stroke volume, let alone an increased one."
+      },
+      "main_concept": "CON-CVS-4B1E9C05DA52C1",
+      "concept_ids": ["CON-CVS-4B1E9C05DA52C1"],
+      "library_ids": ["ART-CVS-VENTRICULAR-FIBRILLATION"],
+      "topic": "Cardiovascular physiology",
+      "subtopic": "Cardiac arrhythmias",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that ventricular fibrillation produces no cardiac output and is cardiac arrest, not a monitorable rhythm.",
+      "field_notes": { "keySource": "Telegram bank printed key, Spot 32.3", "au": "Practical CVS Qs Bank, ASM Minds (Telegram addendum), Spot 32.3" }
+    }
+  ]
+}

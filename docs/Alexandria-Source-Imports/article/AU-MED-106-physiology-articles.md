@@ -76,7 +76,7 @@ Medical team, Admin team
 Admin team
 
 ## summary
-Pulmonary function testing separates disease into a restrictive pattern (low volumes, preserved or high FEV1/FVC ratio, normal RV/TLC%) and an obstructive pattern (low FEV1/FVC ratio, raised RV/TLC% from air trapping). Reading a spirogram or flow-volume loop means finding the FEV1/FVC ratio and the curve's own shape, not FVC alone. Two dead-space measurement methods answer different questions: Bohr's method (CO2 dilution) measures physiological dead space, and Fowler's method (single-breath N2 washout) measures anatomical dead space only. Breathing reserve and MVV describe ventilatory capacity in reserve during exercise, distinct from the resting spirometric volumes (VC, IC, ERV, TV) that make up the lung's basic bookkeeping.
+Pulmonary function testing separates disease into a restrictive pattern (low volumes, preserved or high FEV1/FVC ratio, normal RV/TLC%) and an obstructive pattern (low FEV1/FVC ratio, raised RV/TLC% from air trapping). Reading a spirogram or flow-volume loop means finding the FEV1/FVC ratio and the curve's own shape, not FVC alone. Two dead-space measurement methods answer different questions: Bohr's method (CO2 dilution) measures physiological dead space, and Fowler's method (single-breath N2 washout) measures anatomical dead space only. A third method, closed-circuit helium dilution, measures functional residual capacity (FRC) rather than dead space, using a different inert-gas-dilution principle. Breathing reserve and MVV describe ventilatory capacity in reserve during exercise, distinct from the resting spirometric volumes (VC, IC, ERV, TV) that make up the lung's basic bookkeeping.
 
 ## sections
 ### Purpose and indications
@@ -96,6 +96,9 @@ A restrictive pattern (e.g. silicosis, interstitial fibrosis, late pregnancy) sh
 
 ### Limitations and pitfalls
 FVC or TLC alone cannot classify the pattern — restriction lowers both, so only the FEV1/FVC ratio (together with RV/TLC%) discriminates the two. Bohr's and Fowler's methods are not interchangeable: Bohr's (CO2) captures physiological dead space including alveolar dead space; Fowler's (N2 washout) captures anatomical dead space only, and reading the washout curve's plateau instead of the transition midpoint mislocates the boundary. MVV and breathing reserve are functional, effort-dependent tests distinct from the resting lung volumes (VC, IC, ERV, TV) — a low resting VC does not by itself predict a low breathing reserve or vice versa.
+
+### Measuring FRC by closed-circuit helium dilution
+Functional residual capacity (FRC) — the volume remaining in the lungs after a normal, quiet expiration — cannot be read directly off a spirometer trace, because it contains residual volume, which never leaves the lung. The closed-circuit helium-dilution method measures it instead: the patient rebreathes from a spirometer of known volume (V1) containing a known starting helium concentration (C1), an inert gas that is not absorbed by the blood. As the patient's own FRC mixes into the circuit, the helium is diluted to a lower, stable concentration (C2); because the total amount of helium in the closed circuit does not change, conservation of helium gives FRC = V1 x (C1 - C2) / C2. This bank's own worked question and answer key test exactly this formula and name the method "closed circuit."
 
 ## published_summary
 
@@ -133,6 +136,7 @@ CON-RES-F435CA0ACFDBF7
 CON-RES-923CA633E36332
 CON-RES-AB1463D9940B0A
 CON-RES-B42E5C0BAA73E9
+CON-RES-787C8F7B4F09DD
 
 ## related_articles
 
@@ -156,6 +160,7 @@ CLM-RES-LUNG-VOLUME-DEFS-01
 CLM-RES-ANATOMICAL-DEADSPACE-DETERMINANTS-01
 CLM-RES-BREATHING-RESERVE-01
 CLM-RES-MVV-CURVE-01
+CLM-RES-FRC-HELIUM-DILUTION-01
 
 ## span_ids
 SPN-RES-PFT-SPIROMETRY-01
@@ -225,11 +230,11 @@ Evidence must be attached before publication — no verified claim chain yet.
 ## review_due
 
 ## notes
-Groups the 9 NEW respiratory concepts from AU-MED-106-physiology-concepts.md that this bank's Physiology section tests (PFT patterns, dead-space measurement methods, lung-volume definitions, breathing reserve/MVV). The cardiovascular NEW concepts (arrhythmia/ECG/BP/heart-sound cluster) are authored in a separate article.
+Groups the 9 NEW respiratory concepts from AU-MED-106-physiology-concepts.md that this bank's Physiology section tests (PFT patterns, dead-space measurement methods, lung-volume definitions, breathing reserve/MVV) plus CON-RES-787C8F7B4F09DD (FRC/helium dilution, a HIT-LIVE Kasr concept sparse-updated in this lane's own concept file). The cardiovascular NEW concepts (arrhythmia/ECG/BP/heart-sound cluster) are authored in a separate article.
 
 ## field_notes
 arabicTitle: Researched and supplied.
-relatedConcepts: CON-RES-787C8F7B4F09DD (FRC/helium dilution, sparse-updated in concept/AU-MED-106-physiology-concepts.md) is taught alongside this article's cluster but is NOT listed in related_concepts — it is a HIT-LIVE record and a sparse update cannot safely restate its live article_ids without risking a full-field overwrite (LANE-BRIEF §15/§19); the two-sided link stays one-directional until the live record itself is edited by a lane authorised to do so.
+relatedConcepts: CON-RES-787C8F7B4F09DD (FRC/helium dilution) is now listed in related_concepts and taught in a dedicated "Measuring FRC by closed-circuit helium dilution" section, added during the authoring pass so its own question could satisfy two-sided coverage (LANE-CARD §7: an article must name the concept in related_concepts AND teach it). This is safe unlike a sparse UPDATE row on the live concept's own article_ids field — the earlier caution about "risking a full-field overwrite" (LANE-BRIEF §15/§19) applies to writing an update-shaped row onto the live concept record, not to this article's own (not-yet-live, this-lane-owned) related_concepts field, which carries no such overwrite risk.
 moduleIds: No verified live module ID beyond AU-MED-106 was supplied.
 microtopicId: The canonical placement is already at microtopic depth (SYS-RES-T08-S01-M03 / SYS-RES-T01-S02-M01); a university-overlay microtopic would restate the same location less precisely.
 nanotopicId: The respiratory curriculum overlay defines no nanotopic nodes for this cluster, so there is nothing to point at.
@@ -320,7 +325,7 @@ Standard paper calibration (25 mm/s, 10 mm/mV) makes one small square 0.04 sec/0
 Electrodes are placed at the four limbs (for leads I, II, III, aVR, aVL, aVF) and six fixed chest positions (V1-V2 at the 4th intercostal space either side of the sternum, V4 at the 5th left intercostal space mid-clavicular line, V6 at the 5th left intercostal space mid-axillary line) per the standard colour-coded convention, and the tracing is recorded at standard speed and gain.
 
 ### Normal findings
-Normal QRS duration is 0.06-0.10 sec (widened beyond 0.12 sec in complete bundle branch block); normal PR interval is 0.12-0.20 sec; a small septal Q wave is normal in several leads; lead aVR is normally fully inverted.
+Normal QRS duration is 0.06-0.10 sec (widened beyond 0.12 sec in complete bundle branch block); normal PR interval is 0.12-0.20 sec, prolonged beyond that range in first-degree AV block (delayed AV-nodal conduction); a small septal Q wave is normal in several leads; lead aVR is normally fully inverted. This bank's answer key gives the normal QT interval as 0.3-0.4 sec, independently corroborated by the Telegram addendum bank; the bank's own plain (non-key) copy shows "1-3 sec" in the same option slot, recorded as an uncorrected source-side typo rather than a genuine second teaching value, since no independent source supports it.
 
 ### Abnormal findings and interpretation
 ST elevation with an evolving deep/wide Q wave = infarction; ST depression/T-wave inversion alone = ischaemia without infarction; QRS >0.12 sec = bundle branch block; increased QRS amplitude = ventricular hypertrophy; enlarged P wave = atrial hypertrophy; shortened QT = hypercalcaemia. This bank (and, independently, the Telegram addendum bank) marks "absent Q wave" as a sign of ventricular septal defect — recorded as a printed, cross-corroborated local teaching claim, not verified mainstream cardiology.
@@ -367,6 +372,8 @@ CON-CVS-651A40909F4D77
 CON-CVS-F00614D402A312
 CON-CVS-A36DDB0E5915D3
 CON-CVS-1D946C63E12EE5
+CON-CVS-06CCAE51B78F52
+CON-CVS-FAC483F74DFA04
 
 ## related_articles
 
@@ -393,6 +400,7 @@ CLM-CVS-ACUTE-MI-ECG-01
 CLM-CVS-HYPERCALCEMIA-QT-01
 CLM-CVS-ECG-ELECTRODE-PLACEMENT-01
 CLM-CVS-VENTRICULAR-HYPERTROPHY-QRS-01
+CLM-CVS-QT-INTERVAL-DURATION-01
 
 ## span_ids
 SPN-CVS-ECG-READING-01
@@ -454,7 +462,7 @@ The VSD/absent-Q-wave claim (CON-CVS-F04E25B4155D1C) is recorded as a sourced di
 ## review_due
 
 ## notes
-Groups the 13 NEW cardiovascular ECG-cluster concepts from AU-MED-106-physiology-concepts.md. The BP/pulse/heart-sounds/arrhythmia-definition cluster is authored in a separate article (ART-CVS-BP-PULSE-AUSCULTATION).
+Groups the 14 NEW cardiovascular ECG-cluster concepts from AU-MED-106-physiology-concepts.md (13 original + CON-CVS-06CCAE51B78F52, the QT-interval-duration disagreement concept minted for the authoring pass per the standing ruling that the QT disagreement is recorded, not corrected) plus CON-CVS-FAC483F74DFA04 (PR interval/first-degree AV block, a HIT-LIVE Kasr concept sparse-updated in this lane's own concept file, added to related_concepts during the authoring pass so its own question could satisfy two-sided coverage — the article's Principle section already taught this fact). The BP/pulse/heart-sounds/arrhythmia-definition cluster is authored in a separate article (ART-CVS-BP-PULSE-AUSCULTATION).
 
 ## field_notes
 arabicTitle: Researched and supplied.
@@ -542,7 +550,7 @@ Correct auscultatory BP technique needs the device at heart level, correct cuff 
 Blood pressure and pulse examination, and cardiac auscultation, are the core bedside cardiovascular assessment — together they screen for hypertension, arrhythmia and valvular/heart-failure signs without any equipment beyond a sphygmomanometer and stethoscope.
 
 ### Principle
-Auscultatory BP technique requires the device at heart level (a height error introduces a hydrostatic offset), the cuff bladder centred over the brachial artery about 2.5 cm proximal to the cubital fossa, and the stethoscope diaphragm under the cuff edge. A preceding palpatory estimate (inflate while palpating the radial pulse until it disappears, then reinflate 20-30 mmHg above that point) sets the correct starting pressure so the auscultatory gap — a real, patient-specific silent interval within Korotkoff phase II, more likely with a stiff aorta — is not mistaken for the true systolic reading. Korotkoff sounds themselves pass from first tapping (systolic) through softer/murmurish, louder/banging, abrupt muffling and silence (diastolic) as the cuff deflates. Pulse examination assesses rate, rhythm, force/volume (how large the wave feels, from rolling the artery under the examining finger) and the condition of the arterial wall — never "condition of the vein", which is not part of the arterial pulse at all. An irregular rhythm such as atrial fibrillation can produce a pulsus deficit: some beats generate too little stroke volume to produce a palpable peripheral pulse at all, so the palpated pulse rate undercounts the auscultated heart rate. Pulse pressure (systolic minus diastolic) rises physiologically with a meal, exercise and age, and falls during sleep. Diastolic pressure is described as more important than systolic for organ perfusion because diastole occupies roughly two-thirds of the cardiac cycle (and virtually all of coronary flow), so adequate diastolic pressure sustains perfusion through most of each heartbeat. Blood flow velocity is fastest in the aorta and slowest in the capillaries, inversely proportional to each level's total cross-sectional area. Heart sounds: S1 (mitral/tricuspid closure, 25-40 Hz) marks the start of systole; the four auscultation areas (mitral at the apex, tricuspid at the left lower sternal border, pulmonary and aortic at the 2nd intercostal spaces) are named for where each valve's sound transmits best, not its anatomical position; S3 can be a normal finding in children/young adults but usually signals heart failure in an older adult, while S4 is never normal at any age.
+Auscultatory BP technique requires the device at heart level (a height error introduces a hydrostatic offset), the cuff bladder centred over the brachial artery about 2.5 cm proximal to the cubital fossa, and the stethoscope diaphragm under the cuff edge. A preceding palpatory estimate (inflate while palpating the radial pulse until it disappears, then reinflate 20-30 mmHg above that point) sets the correct starting pressure so the auscultatory gap — a real, patient-specific silent interval within Korotkoff phase II, more likely with a stiff aorta — is not mistaken for the true systolic reading. Korotkoff sounds themselves pass from first tapping — which begins exactly when cuff pressure first falls to systolic pressure, since no sound is generated while the cuff still fully occludes the artery above that pressure — through softer/murmurish, louder/banging, abrupt muffling and silence (diastolic) as the cuff deflates. Mean arterial pressure (MAP) is estimated from a single cuff reading as MAP = diastolic pressure + one-third of the pulse pressure, weighted toward diastole because diastole occupies roughly two-thirds of the cardiac cycle. Pulse examination assesses rate, rhythm, force/volume (how large the wave feels, from rolling the artery under the examining finger) and the condition of the arterial wall — never "condition of the vein", which is not part of the arterial pulse at all. An irregular rhythm such as atrial fibrillation can produce a pulsus deficit: some beats generate too little stroke volume to produce a palpable peripheral pulse at all, so the palpated pulse rate undercounts the auscultated heart rate. Atrial fibrillation itself is recognised on ECG by the absence of discrete P waves, replaced by fine, irregular fibrillatory waves, because the atria depolarise chaotically from multiple foci rather than in one organised sinoatrial wave. Pulse pressure (systolic minus diastolic) rises physiologically with a meal, exercise and age, and falls during sleep. Diastolic pressure is described as more important than systolic for organ perfusion because diastole occupies roughly two-thirds of the cardiac cycle (and virtually all of coronary flow), so adequate diastolic pressure sustains perfusion through most of each heartbeat. Blood flow velocity is fastest in the aorta and slowest in the capillaries, inversely proportional to each level's total cross-sectional area. Heart sounds: S1 (mitral/tricuspid closure, 25-40 Hz) marks the start of systole; the four auscultation areas (mitral at the apex, tricuspid at the left lower sternal border, pulmonary and aortic at the 2nd intercostal spaces) are named for where each valve's sound transmits best, not its anatomical position; S3 can be a normal finding in children/young adults but usually signals heart failure in an older adult, while S4 is never normal at any age.
 
 ### How it is performed
 Auscultatory BP: palpate the radial pulse while inflating to estimate systolic, deflate fully, reinflate 20-30 mmHg above the palpatory estimate, then deflate slowly (2-3 mmHg/s) while auscultating over the brachial artery for the Korotkoff phases. Pulse: palpate the radial (or another accessible) artery, noting rate, rhythm, force and wall character over several beats. Auscultation: place the stethoscope diaphragm/bell in turn at the mitral, tricuspid, pulmonic and aortic areas, listening for S1, S2 and any additional sounds.
@@ -598,6 +606,9 @@ CON-CVS-F4BBA78E076D30
 CON-CVS-BCFB8AF00C5053
 CON-CVS-F4A51007E715DD
 CON-CVS-E40856B6F0BE8B
+CON-CVS-AEBDDFAB03B5DF
+CON-CVS-BE94FBA0B205EF
+CON-CVS-236CE7171C7289
 
 ## related_articles
 
@@ -687,7 +698,7 @@ The Telegram addendum bank states S3's timing two different ways in its own answ
 ## review_due
 
 ## notes
-Groups the 16 NEW cardiovascular concepts (heart sounds/auscultation, BP measurement/pulse, hypertension and rhythm-definition cluster) that this bank tests beyond the ECG-reading cluster, which is authored separately in ART-CVS-ECG-READING.
+Groups the 16 NEW cardiovascular concepts (heart sounds/auscultation, BP measurement/pulse, hypertension and rhythm-definition cluster) that this bank tests beyond the ECG-reading cluster, which is authored separately in ART-CVS-ECG-READING, plus three HIT-LIVE Kasr concepts (mean arterial pressure, Korotkoff-sounds-at-systolic, atrial fibrillation's absent P wave) added to related_concepts during the authoring pass — each was already taught in this article's Principle section in substance (MAP arithmetic, the Korotkoff-phase sequence, and pulsus deficit's atrial-fibrillation context) and the section was extended with one explicit sentence each so a question testing it satisfies two-sided coverage.
 
 ## field_notes
 arabicTitle: Researched and supplied.
