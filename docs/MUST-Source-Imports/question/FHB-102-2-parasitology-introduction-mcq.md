@@ -17933,3 +17933,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize case-based learning Case 6 Q1 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZECASE7-Q02
+
+## title
+What is the vector?
+
+## question
+What is the vector?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Sandfly (Lutzomyia)
+
+## explanation_a
+Oroya fever is transmitted by the sandfly Lutzomyia. The governed university slide directly supports Sandfly (Lutzomyia) for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Anopheles mosquito
+
+## explanation_b
+Incorrect. Anopheles, Aedes and Culex are mosquitoes and are not the governed vector for Oroya fever. The supported answer is A, Sandfly (Lutzomyia).
+
+## answer_c
+Aedes mosquito
+
+## explanation_c
+Incorrect. Anopheles, Aedes and Culex are mosquitoes and are not the governed vector for Oroya fever. The supported answer is A, Sandfly (Lutzomyia).
+
+## answer_d
+Culex mosquito
+
+## explanation_d
+Incorrect. Anopheles, Aedes and Culex are mosquitoes and are not the governed vector for Oroya fever. The supported answer is A, Sandfly (Lutzomyia).
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-482144C092C2DD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Oroya fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify Sandfly (Lutzomyia) as the vector in the governed Oroya-fever vignette.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p22 Mucize case-based learning Case 7 Q2, printed key p23 (2 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize case-based learning Case 7 Q2 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

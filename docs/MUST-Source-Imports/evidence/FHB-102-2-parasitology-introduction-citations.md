@@ -4717,3 +4717,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Oroya-fever slide directly states that the South American disease is transmitted by the sandfly Lutzomyia.
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Oroya fever
+
+## locator_detail
+PDF page 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize case-based learning Case 7 Q2 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

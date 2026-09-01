@@ -4674,6 +4674,7 @@ Bartonella bacilliformis causes Oroya fever.
 Bartonella bacilliformis is transmitted propagatively inside sandflies.
 Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
 Sandflies transmit viral sandfly fever.
+Oroya fever is transmitted by the sandfly Lutzomyia.
 
 ## published_summary
 
@@ -4696,6 +4697,7 @@ Bartonella bacilliformis causes Oroya fever.
 Bartonella bacilliformis is transmitted propagatively inside sandflies.
 Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
 Sandflies transmit viral sandfly fever.
+Oroya fever is transmitted by the sandfly Lutzomyia.
 
 ## lose_the_mark
 The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister.
@@ -4712,6 +4714,7 @@ Malaria, dengue and leishmaniasis are not caused by Bartonella bacilliformis.
 The governed deck does not label this cyclodevelopmental or mechanical.
 The governed diseases are not transmitted through food, direct contact or inhalation.
 Anopheles, Aedes and Culex are mosquitoes and are not the governed vector for sandfly fever.
+Anopheles, Aedes and Culex are mosquitoes and are not the governed vector for Oroya fever.
 
 ## callout_evidence
 ### A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
@@ -4784,6 +4787,11 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
 Reviewed by: pending medical review
 
+### Oroya fever is transmitted by the sandfly Lutzomyia.
+Claims: CLM-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-D884D3F6076D08
 CON-INF-F538E763E1260E
@@ -4810,6 +4818,7 @@ QST-MUST-FHB1022-PARA-MUCIZE-Q84
 QST-MUST-FHB1022-PARA-MUCIZE-Q85
 QST-MUST-FHB1022-PARA-MUCIZE-Q92
 QST-MUST-FHB1022-PARA-MUCIZECASE6-Q01
+QST-MUST-FHB1022-PARA-MUCIZECASE7-Q02
 
 ## resource_ids
 src_a82c32271ee38d0b2cad
@@ -4834,6 +4843,7 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q92-01
 CLM-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
+CLM-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SAND2-Q09-01
@@ -4850,6 +4860,7 @@ SPN-INF-MUST-FHB1022-MUCIZE-Q84-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q85-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q92-01
 SPN-INF-MUST-FHB1022-MUCIZECASE6-Q01-01
+SPN-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -4924,6 +4935,11 @@ Id: ann-must-fhb1022-mucize-q92
 Quote: Sandflies transmit viral sandfly fever.
 Block: body
 Id: ann-must-fhb1022-mucizecase6-q01
+
+### definition_of · CON-INF-482144C092C2DD
+Quote: Oroya fever is transmitted by the sandfly Lutzomyia.
+Block: body
+Id: ann-must-fhb1022-mucizecase7-q02
 
 ## media
 

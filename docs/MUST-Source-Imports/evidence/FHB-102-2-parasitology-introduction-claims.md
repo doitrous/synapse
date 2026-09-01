@@ -5189,3 +5189,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize case-based learning Case 6 Q1
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
+
+## concept_id
+CON-INF-482144C092C2DD
+
+## subject
+Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia
+
+## predicate
+states
+
+## object
+Oroya fever is transmitted by the sandfly Lutzomyia.
+
+## display_text
+Oroya fever is transmitted by the sandfly Lutzomyia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize case-based learning Case 7 Q2

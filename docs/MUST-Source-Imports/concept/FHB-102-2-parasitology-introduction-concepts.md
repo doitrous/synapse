@@ -10659,6 +10659,7 @@ CLM-INF-MUST-FHB1022-SAND2-Q23-01
 CLM-INF-MUST-FHB1022-SAND2-Q24-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
+CLM-INF-MUST-FHB1022-MUCIZECASE7-Q02-01
 
 ## resource_occurrence_ids
 [clear]
@@ -10672,9 +10673,11 @@ src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q23; printed answer p18
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q24; printed answer p18
 src_352f47c6e866e76a9d8b | tier 3 | 2025 | p18 Mucize Parasitology core Q84; printed answer p18
 src_352f47c6e866e76a9d8b | tier 3 | 2025 | p18 Mucize Parasitology core Q85; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p22 Mucize case-based learning Case 7 Q2; printed answer p23
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p12, 28 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 28 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
 
@@ -10684,6 +10687,7 @@ What type of anemia is associated with Oroya fever? Printed key B; options retai
 What type of transmission occurs in Bartonellosis? Printed key B; options retained in their original order.
 Which disease is caused by Bartonella bacilliformis? Printed key C; options retained in their original order.
 What is the type of transmission for Bartonella bacilliformis in sandflies? Printed key A; options retained in their original order.
+What is the vector? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -10692,7 +10696,7 @@ What is the type of transmission for Bartonella bacilliformis in sandflies? Prin
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q21. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q23. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q24. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q84. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q85. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q21. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q23. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q24. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q84. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q85. Its printed A agrees with the governed university teaching statement. No key conflict affects authored Mucize case-based learning Case 7 Q2. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
