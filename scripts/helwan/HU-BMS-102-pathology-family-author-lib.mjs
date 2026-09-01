@@ -13,7 +13,7 @@ const append=(x,n,vals)=>{const a=get(x,n).split(/\n| \| /).filter(v=>v&&v!=='[c
 
 export function authorFamily(repo,cfg){
   const root=join(repo,'docs','Helwan-Source-Imports'), family=cfg.family, source=cfg.source
-  const findExisting=id=>{for(const f of readdirSync(join(root,'concept'))){const x=extract(join(root,'concept',f),id);if(x)return x}}
+  const findExisting=id=>{for(const f of readdirSync(join(root,'concept'))){if(f===`HU-BMS-102-pathology-family${family}-concepts.md`)continue;const x=extract(join(root,'concept',f),id);if(x)return x}}
   const qs=cfg.specs.map(s=>({...s,concept:s.concept??cid(s.canonical),id:`Q-HU102-PAT-F${family}-${s.ref}`,claim:`CLM-HU102-F${family}-${s.ref}-01`,qcit:`CIT-HU102-F${family}-${s.ref}-QUESTION`,kcit:`CIT-HU102-F${family}-${s.ref}-KEY`,span:`SPN-HU102-F${family}-${s.ref}-01`}))
   const byArticle=Object.groupBy(qs,q=>q.article)
   const sourceRow=row([['id',source],['title',cfg.sourceMeta.title],['institution',cfg.sourceMeta.institution],['collection_id','hu-y1'],['source_relative_path',cfg.sourceMeta.path],['media_type','application/pdf'],['languages','en'],['page_count',String(cfg.sourceMeta.pages)],['sha256',cfg.sourceMeta.sha],['processing_status','pending'],['rights',cfg.sourceMeta.rights],['qualification',cfg.sourceMeta.qualification],['is_assessment','yes']])
