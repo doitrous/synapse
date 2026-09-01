@@ -277,3 +277,283 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Q15
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q18-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q18-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+Classification of Protozoa based on organs of locomotion: Apicomplexa — By gliding.
+
+## locator_type
+page
+
+## locator_page
+41
+
+## locator_section
+Introduction to Medical Parasitology — Protozoan locomotion
+
+## locator_detail
+PDF page 41, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q18 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q19-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+A vector is usually an arthropod that transmits parasites from one host to another.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+Introduction to Medical Parasitology — Vectors
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q19 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q21-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q21-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+Based on their habitat (where they live in human host). Purpose: for clinical diagnosis.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Introduction to Medical Parasitology — Parasite classification
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q21 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q22-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q22-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+Parasitic diseases originally from animal sources and transmitted to man are called zoonotic diseases.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+Introduction to Medical Parasitology — Zoonoses
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q22 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q23-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q23-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+Based on their taxonomy (scientific classification). Purpose: for their laboratory identification and diagnosis.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Introduction to Medical Parasitology — Parasite classification
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q23 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q24-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q24-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+The primary modes of entry include ingestion and penetration of skin; the next teaching slide lists vector transmission.
+
+## locator_type
+page
+
+## locator_page
+21
+
+## locator_section
+Introduction to Medical Parasitology — Routes of entry
+
+## locator_detail
+PDF page 21–22, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q24 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-INTRO-Q25-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-INTRO-Q25-01
+
+## resource_id
+src_f65b3872022ca0b42a79
+
+## evidence_role
+local_curriculum
+
+## support_span
+An obligatory parasite lives completely dependent on its host and cannot exist without it.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Introduction to Medical Parasitology — Parasite living habits
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q25 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

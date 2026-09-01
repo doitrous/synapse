@@ -45,7 +45,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–5 and the complete printed answer table on page 9 were rendered and visually read for Parasitology Introduction Q1–Q15. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Q2, Q4, Q5, Q9, Q11, Q14 and Q15 are authored with their printed wording, option order and keys unchanged. Q1, Q3, Q6, Q7, Q8, Q10, Q12 and Q13 remain explicit identity, evidence-scope or ambiguity holds with no student-facing record.
+Pages 1–8 and the complete printed answer table on page 9 were rendered and visually read for Parasitology Introduction Q1–Q30. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25 are authored with their printed wording, option order and keys unchanged. Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20 and Q26–Q30 remain explicit identity, evidence-scope, duplicate or key-form holds with no student-facing record.
 
 ## confidence
 0.6
@@ -100,7 +100,7 @@ f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149
 Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
-Pages 1, 4–7, 9, 11–12, 14, 16–17, 27, 32–34 and 40–41 were rendered and visually read for the bounded Q1–Q15 assessment. Page 1 visibly carries the MUST and FHB102-2 identity. The selected pages directly support the seven authored keys and expose Q13's broad single-best-answer ambiguity, but the deck is teaching authority rather than an authenticated answer key.
+Pages 1, 4–7, 9, 11–12, 14–16, 21–22, 27, 32–34 and 40–41 were rendered and visually read for the bounded Q1–Q30 assessment. Page 1 visibly carries the MUST and FHB102-2 identity. The selected pages directly support all fourteen authored keys, expose Q13's broad single-best-answer ambiguity and expose Q17's malformed key/form conflict, but the deck is teaching authority rather than an authenticated answer key.
 
 ## confidence
 0.95

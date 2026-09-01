@@ -48,6 +48,16 @@ const introArticles = {
   definitions: 'ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS',
   classification: 'ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION',
   helminths: 'ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY',
+  locomotion: 'ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION',
+  transmission: 'ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES',
+}
+
+const introArticleRelations = {
+  definitions: ['classification', 'helminths'],
+  classification: ['definitions', 'helminths', 'locomotion', 'transmission'],
+  helminths: ['definitions', 'classification'],
+  locomotion: ['classification', 'transmission'],
+  transmission: ['classification', 'locomotion'],
 }
 
 const introItems = [
@@ -127,6 +137,83 @@ const introItems = [
     objective: 'Identify trematodes and cestodes as the two parasitic flatworm groups.',
     pitfalls: 'Nematodes are roundworms, and protozoa are unicellular parasites rather than flatworm helminths.',
     rejected: [],
+  },
+  {
+    q: 18, conceptId: 'CON-INF-2A48E6BD3C1F70', canonicalKey: 'parasitology.protozoa.apicomplexa-gliding',
+    label: 'Apicomplexa move by gliding', aliases: ['Apicomplexan gliding', 'Gliding locomotion of Apicomplexa'], conceptType: 'classification',
+    article: 'locomotion', primaryNode: 'DIS-PAR-T01', subtopic: 'Protozoology', microtopic: 'Protozoan locomotion', page: 41, assessmentPage: 5,
+    stem: 'Which of the following is an organism that moves by gliding?', key: 'B', options: ['Entamoeba histolytica', 'Apicomplexa', 'Amoeba', 'Ciliates'],
+    claim: 'The local curriculum classifies Apicomplexa as moving by gliding.',
+    support: 'Classification of Protozoa based on organs of locomotion: Apicomplexa — By gliding.',
+    objective: 'Identify Apicomplexa as the protozoan group associated with gliding locomotion in the local curriculum.',
+    pitfalls: 'Amoebae use pseudopodia and ciliates use cilia; do not rewrite the source’s singular “organism” wording even though Apicomplexa is a group.',
+    rejected: ['concept_9dc1156f5fddd3a2c18a42af — broader four-group locomotion classification; not the specific Apicomplexa-gliding statement.', 'concept_15a2896e46ef4cd8cbefa6a2 — states absence of a specific locomotor organ rather than the governed gliding wording.'],
+  },
+  {
+    q: 19, conceptId: 'CON-INF-8C35F4B1A206DE', canonicalKey: 'parasitology.transmission.vector-host-to-host',
+    label: 'Vector transmits parasites between hosts', aliases: ['Parasitology vector definition', 'Host-to-host parasite vector'], conceptType: 'definition',
+    article: 'transmission', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Vectors', page: 12, assessmentPage: 6,
+    stem: 'A vector is an organism that:', key: 'B', options: ['Provides nutrition to parasites', 'Transmits parasites from one host to another', 'Serves as a reservoir host', 'Is always infected by the parasite'],
+    claim: 'A vector transmits parasites from one host to another.',
+    support: 'A vector is usually an arthropod that transmits parasites from one host to another.',
+    objective: 'Recognise host-to-host parasite transmission as the defining role of a vector.',
+    pitfalls: 'A vector is not defined by nourishing the parasite, serving as a reservoir, or always being infected.',
+    rejected: ['concept_cbe678b590c9d68db81d4ed5 — narrower mechanical-versus-biological arthropod transmission identity reserved as the Q29 duplicate hold.'],
+  },
+  {
+    q: 21, conceptId: 'CON-INF-D13F9697E5B95F', canonicalKey: 'parasitology.classification.taxonomy-and-habitat',
+    label: 'Parasites classified by taxonomy and human-body habitat', aliases: ['Scientific and habitat classification of parasites', 'Parasite classification approaches'], conceptType: 'classification',
+    article: 'classification', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite classification', page: 32, assessmentPage: 6,
+    stem: 'What is the purpose of classifying parasites based on habitat?', key: 'C', options: ['For laboratory identification', 'For taxonomic studies', 'For clinical diagnosis', 'For vector control'],
+    claim: 'Classification of parasites by their habitat in the human host supports clinical diagnosis.',
+    support: 'Based on their habitat (where they live in human host). Purpose: for clinical diagnosis.',
+    objective: 'Recognise clinical diagnosis as the purpose of habitat-based parasite classification in the local curriculum.',
+    pitfalls: 'Laboratory identification is assigned to scientific taxonomy, not habitat classification.',
+    rejected: [],
+  },
+  {
+    q: 22, conceptId: 'CON-INF-93B7D64C0E2A15', canonicalKey: 'parasitology.transmission.zoonotic-animal-origin',
+    label: 'Zoonotic parasitic diseases originate from animals', aliases: ['Zoonotic disease definition', 'Animal-origin parasitic disease'], conceptType: 'definition',
+    article: 'transmission', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Zoonoses', page: 15, assessmentPage: 6,
+    stem: 'Zoonotic diseases are:', key: 'B', options: ['Only found in humans', 'Parasitic diseases that originate from animals', 'Transmitted only through vectors', 'Always caused by protozoa'],
+    claim: 'Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.',
+    support: 'Parasitic diseases originally from animal sources and transmitted to man are called zoonotic diseases.',
+    objective: 'Recognise animal origin as the defining source relationship of zoonotic parasitic disease.',
+    pitfalls: 'Zoonoses are not restricted to protozoa or vector-only transmission and are not diseases found only in humans.',
+    rejected: [],
+  },
+  {
+    q: 23, conceptId: 'CON-INF-D13F9697E5B95F', canonicalKey: 'parasitology.classification.taxonomy-and-habitat',
+    label: 'Parasites classified by taxonomy and human-body habitat', aliases: ['Scientific and habitat classification of parasites', 'Parasite classification approaches'], conceptType: 'classification',
+    article: 'classification', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite classification', page: 32, assessmentPage: 7,
+    stem: 'What is the purpose of classifying parasites based on their taxonomy?', key: 'A', options: ['For laboratory identification', 'For killing the parasite', 'For clinical diagnosis', 'For vector control'],
+    claim: 'Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.',
+    support: 'Based on their taxonomy (scientific classification). Purpose: for their laboratory identification and diagnosis.',
+    objective: 'Recognise laboratory identification as the purpose of taxonomy-based parasite classification in the local curriculum.',
+    pitfalls: 'Clinical diagnosis is assigned to habitat classification; taxonomy is not a method for killing parasites or controlling vectors.',
+    rejected: [],
+  },
+  {
+    q: 24, conceptId: 'CON-INF-A5D19C7E204BF3', canonicalKey: 'parasitology.transmission.entry-routes',
+    label: 'Parasite entry routes include ingestion, skin penetration and vectors', aliases: ['Routes of parasite entry', 'Parasite transmission entry routes'], conceptType: 'classification',
+    article: 'transmission', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Routes of entry', page: 21, teachingPages: '21–22', assessmentPage: 7,
+    stem: 'Which of the following is(are) routes of entry of parasites?', key: 'D', options: ['Ingestion', 'Skin penetration', 'Vectors', 'All of the above'],
+    claim: 'Parasites can enter hosts through ingestion, skin penetration and vector transmission.',
+    support: 'The primary modes of entry include ingestion and penetration of skin; the next teaching slide lists vector transmission.',
+    objective: 'Identify ingestion, skin penetration and vectors as routes by which parasites enter hosts.',
+    pitfalls: 'Each listed route is taught; do not select one route while excluding the other two.',
+    rejected: [],
+  },
+  {
+    q: 25, conceptId: 'CON-INF-6E41B8C3F902AD', canonicalKey: 'parasitology.foundations.obligatory-parasite',
+    label: 'Obligatory parasite depends on a host', aliases: ['Obligate parasite', 'Host-dependent parasite'], conceptType: 'definition',
+    article: 'definitions', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite living habits', page: 7, assessmentPage: 7,
+    stem: 'An obligatory parasite:', key: 'A', options: ['Is always dependent on a host', 'Can live both as a parasite and free-living', 'Is always an endoparasite', 'Requires multiple hosts for survival'],
+    claim: 'An obligatory parasite is completely dependent on its host and cannot exist without it.',
+    support: 'An obligatory parasite lives completely dependent on its host and cannot exist without it.',
+    objective: 'Identify complete host dependence as the defining feature of an obligatory parasite.',
+    pitfalls: 'Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts.',
+    rejected: ['concept_b976208980c6167c35ff80fa — broader list of endoparasite categories; not the complete host-dependence definition.'],
   },
 ]
 
@@ -7291,7 +7378,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–5 and the complete printed answer table on page 9 were rendered and visually read for Parasitology Introduction Q1–Q15. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Q2, Q4, Q5, Q9, Q11, Q14 and Q15 are authored with their printed wording, option order and keys unchanged. Q1, Q3, Q6, Q7, Q8, Q10, Q12 and Q13 remain explicit identity, evidence-scope or ambiguity holds with no student-facing record.
+Pages 1–8 and the complete printed answer table on page 9 were rendered and visually read for Parasitology Introduction Q1–Q30. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25 are authored with their printed wording, option order and keys unchanged. Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20 and Q26–Q30 remain explicit identity, evidence-scope, duplicate or key-form holds with no student-facing record.
 
 ## confidence
 0.6
@@ -7346,7 +7433,7 @@ f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149
 Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
-Pages 1, 4–7, 9, 11–12, 14, 16–17, 27, 32–34 and 40–41 were rendered and visually read for the bounded Q1–Q15 assessment. Page 1 visibly carries the MUST and FHB102-2 identity. The selected pages directly support the seven authored keys and expose Q13's broad single-best-answer ambiguity, but the deck is teaching authority rather than an authenticated answer key.
+Pages 1, 4–7, 9, 11–12, 14–16, 21–22, 27, 32–34 and 40–41 were rendered and visually read for the bounded Q1–Q30 assessment. Page 1 visibly carries the MUST and FHB102-2 identity. The selected pages directly support all fourteen authored keys, expose Q13's broad single-best-answer ambiguity and expose Q17's malformed key/form conflict, but the deck is teaching authority rather than an authenticated answer key.
 
 ## confidence
 0.95
@@ -7428,7 +7515,7 @@ ${item.page}
 Introduction to Medical Parasitology — ${item.microtopic}
 
 ## locator_detail
-PDF page ${item.page}, visually read direct teaching statement.
+PDF page ${item.teachingPages ?? item.page}, visually read direct teaching statement.
 
 ## context_note
 The university-branded FHB102-2 deck directly supports the unchanged printed Q${item.q} answer ${item.key}.
@@ -7463,10 +7550,13 @@ ${introCitationId(item)}`))
 }
 
 function introConcepts() {
-  return generatedItems(introItems.map((item) => {
-    const relatedArticles = Object.values(introArticles).filter((id) => id !== introArticles[item.article]).join('\n')
-    const rejectedIds = item.rejected.length ? item.rejected.map((entry) => entry.split(' — ')[0]).join('\n') : '[clear]'
-    const rejectedNotes = item.rejected.length ? item.rejected.join(' ') : 'No manual raw-corpus merge candidate survived the identity audit.'
+  const conceptGroups = [...Map.groupBy(introItems, (item) => item.conceptId).values()]
+  return generatedItems(conceptGroups.map((group) => {
+    const item = group[0]
+    const relatedArticles = introArticleRelations[item.article].map((key) => introArticles[key]).join('\n')
+    const rejected = [...new Set(group.flatMap((entry) => entry.rejected))]
+    const rejectedIds = rejected.length ? rejected.map((entry) => entry.split(' — ')[0]).join('\n') : '[clear]'
+    const rejectedNotes = rejected.length ? rejected.join(' ') : 'No manual raw-corpus merge candidate survived the identity audit.'
     return `# Item
 
 ## id
@@ -7577,7 +7667,7 @@ MUST_Y1=0.45
 0.9
 
 ## atomic_claim_ids
-${introClaimId(item)}
+${group.map(introClaimId).join('\n')}
 
 ## resource_occurrence_ids
 [clear]
@@ -7586,11 +7676,11 @@ ${introClaimId(item)}
 [clear]
 
 ## exam_signal
-${absalamAssessmentResourceId} | tier 3 | 2025 | pp1–5 Q${item.q}; printed answer p9
-${introTeachingResourceId} | tier 2 | undated | p${item.page} direct university teaching
+${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage ?? '1–5'} Q${entry.q}; printed answer p9`).join('\n')}
+${group.map((entry) => `${introTeachingResourceId} | tier 2 | undated | p${entry.teachingPages ?? entry.page} direct university teaching`).join('\n')}
 
 ## original_wording
-${item.stem} Printed key ${item.key}; options retained in their original order.
+${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained in their original order.`).join('\n')}
 
 ## merge_ids
 [clear]
@@ -7599,7 +7689,7 @@ ${item.stem} Printed key ${item.key}; options retained in their original order.
 ${rejectedIds}
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q${item.q}. Its printed ${item.key} agrees with the governed university teaching statement. Held questions remain outside this concept.
+${group.map((entry) => `No key conflict affects authored Absalam Introduction Q${entry.q}. Its printed ${entry.key} agrees with the governed university teaching statement.`).join(' ')} Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -7643,28 +7733,28 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: ${rejectedNotes}
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.`
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.`
   }))
 }
 
 function getIntroArticleData() { return {
   definitions: {
     title: 'Parasite definitions and living habits', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite definitions',
-    summary: 'A parasite lives in or on a host and harms it. Facultative parasites can alternate between free-living and parasitic modes, while opportunistic parasites may cause severe disease when host immunity is compromised.',
+    summary: 'A parasite lives in or on a host and harms it. Obligatory parasites depend completely on a host, facultative parasites can alternate between free-living and parasitic modes, and opportunistic parasites may cause severe disease when host immunity is compromised.',
     sections: `### Definition
 A parasite is a living organism that lives in or on another organism and harms it. This host-associated harmful relationship distinguishes parasitism from a mutually beneficial association.
 
 ### Mechanism
-A facultative parasite can alternate between free-living and parasitic modes of life. It is therefore not always dependent on a host and is not defined by a multiple-host life cycle. An opportunistic parasite may cause severe disease in an immunocompromised host. The term describes the interaction with reduced host defence rather than a plant-only infection or free-living habit.
+An obligatory parasite is completely dependent on its host and cannot exist without it. A facultative parasite can alternate between free-living and parasitic modes of life. It is therefore not always dependent on a host and is not defined by a multiple-host life cycle. An opportunistic parasite may cause severe disease in an immunocompromised host. The term describes the interaction with reduced host defence rather than a plant-only infection or free-living habit.
 
 ### Key determinants
-Parasite describes the harmful host relationship, facultative describes the ability to alternate living modes, and opportunistic describes disease emerging in a susceptible host context.
+Parasite describes the harmful host relationship, obligatory describes complete host dependence, facultative describes the ability to alternate living modes, and opportunistic describes disease emerging in a susceptible host context.
 
 ### Clinical significance
 These definitions organise how parasite behaviour and host susceptibility are described in the local curriculum. They provide the recognition language used in the associated questions without extending beyond the governed teaching statements.
 
 ### Common misconceptions
-Do not treat facultative as synonymous with obligatory parasitism. Do not define opportunistic parasites as organisms that necessarily cause severe disease in every healthy host.`,
+Do not treat facultative as synonymous with obligatory parasitism. Obligatory does not mean necessarily endoparasitic or dependent on multiple hosts. Do not define opportunistic parasites as organisms that necessarily cause severe disease in every healthy host.`,
   },
   classification: {
     title: 'Parasite habitat and classification', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Habitat and classification',
@@ -7679,7 +7769,7 @@ Habitat classification groups parasites by their site in the human body. The app
 Malaria parasites are blood parasites in the human haemopoietic system. Blood is therefore the best answer when the question asks their human habitat. Taxonomy and habitat are both valid classification approaches in the governed deck, while colour is not.
 
 ### Clinical significance
-Scientific classification supports laboratory identification, while habitat classification supports clinical diagnosis in the teaching deck. Malaria supplies the direct blood-habitat example used in the bounded question slice.
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis. Classification of parasites by their habitat in the human host supports clinical diagnosis. Malaria supplies the direct blood-habitat example used in the bounded question slice.
 
 ### Common misconceptions
 Do not force a choice between taxonomy and habitat when an option combines both. Do not substitute intestine, muscle, or skin for the stated blood habitat of malaria parasites.`,
@@ -7702,13 +7792,49 @@ The class-level morphology supplies a rapid recognition framework for medical he
 ### Common misconceptions
 Do not combine nematodes with cestodes or trematodes as the two flatworm groups. Do not call trematodes tape-like and segmented.`,
   },
+  locomotion: {
+    title: 'Protozoan locomotion', primaryNode: 'DIS-PAR-T01', subtopic: 'Protozoology', microtopic: 'Protozoan locomotion',
+    summary: 'The local curriculum classifies protozoa by locomotion: amoebae use pseudopodia, flagellates use flagella, ciliates use cilia and Apicomplexa move by gliding.',
+    sections: `### Definition
+Protozoan groups are distinguished in the local curriculum by their organs or mode of locomotion. The local curriculum classifies Apicomplexa as moving by gliding.
+
+### Mechanism
+Amoebae use pseudopodia, flagellates use flagella and ciliates use cilia. The same classification slide places Apicomplexa under “By gliding.”
+
+### Key determinants
+Gliding selects Apicomplexa among the offered groups. Entamoeba histolytica and Amoeba belong with pseudopodial movement, while ciliates use cilia.
+
+### Clinical significance
+Locomotion supplies a foundational classification framework for recognising the main protozoan groups in the MUST FHB102-2 curriculum.
+
+### Common misconceptions
+The source question uses singular “an organism” although Apicomplexa is a group; that wording is preserved rather than silently repaired. Do not substitute flagella, cilia or pseudopodia for the slide’s gliding classification.`,
+  },
+  transmission: {
+    title: 'Parasite transmission, vectors and zoonoses', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Transmission and zoonoses',
+    summary: 'Vectors transmit parasites between hosts. Parasites may enter through ingestion, skin penetration or vectors, and zoonotic parasitic diseases originate from animal sources and are transmitted to humans.',
+    sections: `### Definition
+A vector transmits parasites from one host to another. Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+
+### Mechanism
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
+### Key determinants
+Host-to-host parasite transmission defines the vector role in the associated question. All three offered entry routes—ingestion, skin penetration and vectors—are taught directly. Animal origin distinguishes zoonotic disease from diseases limited to humans.
+
+### Clinical significance
+Recognising source and entry route supports introductory reasoning about exposure, transmission and prevention without promoting the student bank to faculty-key authority.
+
+### Common misconceptions
+Vectors are not defined by nourishing parasites or always serving as reservoirs. Zoonoses are not restricted to protozoa or vector-only spread. Do not exclude one of the three directly taught entry routes.`,
+  },
 } }
 
 function introArticleRecords() {
   const introArticleData = getIntroArticleData()
   return generatedItems(Object.entries(introArticleData).map(([key, article]) => {
     const articleItems = introItems.filter((item) => item.article === key)
-    const related = Object.entries(introArticles).filter(([other]) => other !== key).map(([other, id]) => `${id}: ${introArticleData[other].title}`).join('\n')
+    const related = introArticleRelations[key].map((other) => `${introArticles[other]}: ${introArticleData[other].title}`).join('\n')
     return `# Item
 
 ## id
@@ -7847,7 +7973,7 @@ needs_evidence
 
 ## evidence_basis
 MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–5 for prompts and p9 for the printed answer table.
+Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -7862,7 +7988,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First bounded Absalam Introduction slice only. Every record remains Draft and local; this file is not an upload instruction.
+First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -7872,7 +7998,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: The three complete articles in this batch are reciprocally linked; no live article was overwritten.`
+relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.`
   }))
 }
 
@@ -7988,7 +8114,7 @@ ${introTeachingResourceId}
 ${item.objective}
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q${item.q}, printed key p9 (${item.q} = ${item.key}); MUST FHB102-2 Introduction to Medical Parasitology, p${item.page}.
+Absalam101 Part 1, p${item.assessmentPage ?? '1–5'} Q${item.q}, printed key p9 (${item.q} = ${item.key}); MUST FHB102-2 Introduction to Medical Parasitology, p${item.teachingPages ?? item.page}.
 
 ## attached_image
 
@@ -8006,7 +8132,7 @@ Absalam101 Part 1, pp1–5 Q${item.q}, printed key p9 (${item.q} = ${item.key});
 yes
 
 ## author_notes
-Printed source key: Q${item.q} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
+Printed source key: Q${item.q} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
   }))
 }
 
@@ -8020,6 +8146,18 @@ function coverage() {
 - Every authored stem, option and printed key is unchanged. Q11's visible “is is” typo is retained and disclosed; no silent correction was made.
 - First 15-prompt Absalam introduction slice: **7 authored / 8 held / 0 unassessed**. The remaining source boundary is Q16–Q30 in this section plus four later 30-prompt sections, for **135 unassessed prompts** in this source.
 
+### Second Absalam introduction slice delta
+
+- +7 teaching claims, +7 citations and +7 article spans for Q18, Q19 and Q21–Q25.
+- +5 under-review / needs-evidence concepts for Q18, Q19, Q22, Q24 and Q25; Q21 and Q23 safely reuse the existing broad classification concept \`CON-INF-D13F9697E5B95F\` without minting duplicates.
+- +2 standalone-complete reciprocal Draft articles for protozoan locomotion and parasite transmission/vectors/zoonoses.
+- +2 exact-ID-preserving complete Draft article updates: parasite classification gains Q21/Q23 and the approved reciprocal links; parasite definitions gains Q25 while retaining its prior content and relationships.
+- +7 Draft questions: Q18, Q19, Q21, Q22, Q23, Q24 and Q25.
+- +8 explicit holds with no student-facing record: Q16, Q17, Q20, Q26, Q27, Q28, Q29 and Q30.
+- Q18's singular “an organism” wording is preserved and disclosed although Apicomplexa is a group. Q17's printed A is preserved only as source evidence because “Flagella” is a locomotor organ, not an example organism; no correction was imported.
+- Second 15-prompt Absalam introduction slice: **7 authored / 8 held / 0 unassessed**.
+- Absalam Parasitology Introduction Q1–Q30: **14 authored / 16 held / 0 unassessed**. The remaining source boundary is the four later 30-prompt sections, for **120 unassessed prompts** in this source.
+
 `
   const holds = `- **Q1 is held in the Absalam introduction family.** Its clean printed C is supported by the teaching deck, but raw identities \`concept_67e3dcb99284cae795d4cf8f\` and \`concept_8de933ca4fcbba40f533edac\` overlap the same medical-parasitology definition. No duplicate concept or student-facing record was minted.
 - **Q3 is held in the Absalam introduction family.** Its printed B is supported, but raw lice/ectoparasite identities \`concept_7bbc067f755c9cdfc88ab06c\` and \`concept_db670dbd615a4a13896cb1a4\` create unresolved identity overlap. No student-facing record was minted.
@@ -8029,22 +8167,31 @@ function coverage() {
 - **Q10 is held in the Absalam introduction family.** Its printed B is directionally supported by the diagnostic-stage teaching, but raw identity \`concept_dfede741e82d80ac0f2f30b2\` overlaps the same scope and the selected teaching wording does not independently sharpen “detected in lab diagnosis” enough to justify a new identity. No student-facing record was minted.
 - **Q12 is held in the Absalam introduction family.** Its printed C is supported, but raw identity \`concept_b80a272b4cd80d7b91bc7ee6\` already links cestodes and tapeworm morphology. No duplicate was minted.
 - **Q13 is held in the Absalam introduction family.** Printed B is supported by the locomotion slide, but the preceding classification slide also includes morphological identification, reproduction/locomotion and habitat; option A can therefore overlap the broad stem. Exact raw identity \`concept_9dc1156f5fddd3a2c18a42af\` adds duplication risk. The key was neither corrected nor taught through a new student-facing record.
+- **Q16 is held in the Absalam introduction family.** Its printed C, Pseudopodia, is supported by page 41, but exact raw identities \`concept_529981449491192c1b4f5a29\` and \`concept_1766c9903841d22dec992ac8\` already represent amoebic pseudopodial locomotion. No duplicate concept or student-facing record was minted.
+- **Q17 is held in the Absalam introduction family.** The student bank prints A, “Flagella,” as an example of a flagellate protozoan. The governed slide instead presents Zoomastigophora as the flagellate group and “Flagella” as its locomotor organ. “Flagella” is the locomotor organ, not the requested example organism. No correction was imported, and no student-facing record was authored.
+- **Q20 is held in the Absalam introduction family.** Its printed B, Nematodes, is visually supported by the nematode mouth–intestine–anus diagram, but exact raw identity \`concept_af313c18c2fc4f03d7ccb32e\` already states that nematodes have a complete digestive tract. No duplicate was minted.
+- **Q26 is held in the Absalam introduction family.** Its printed C, Live inside the host, is supported, but raw identity \`concept_5c4d7c3f025582504ad5e86a\` already classifies parasites as ectoparasites or endoparasites by location. No duplicate was minted.
+- **Q27 is held in the Absalam introduction family.** Its printed B, Definitive host, is supported, but exact raw identity \`concept_4cf60f293dd2603501b07838\` already states that a definitive host carries adult or sexual parasite stages. This is the same collision that held earlier Q6; no duplicate was minted.
+- **Q28 is held in the Absalam introduction family.** Its printed B, Live on the host’s external surface, is supported, but raw identity \`concept_5c4d7c3f025582504ad5e86a\` already represents the ectoparasite/endoparasite location classification. No duplicate was minted.
+- **Q29 is held in the Absalam introduction family.** Its printed B, Facilitate mechanical or biological transmission, is supported, but exact raw identity \`concept_cbe678b590c9d68db81d4ed5\` already states mechanical or biological arthropod transmission and the item overlaps Q19's vector scope. The prompts were not silently merged and no duplicate was minted.
+- **Q30 is held in the Absalam introduction family.** Its printed D, An infected mother transmits the parasite to her fetus, is supported, but raw identity \`concept_c623cf376abcb64b5fbc4e89\` already states transplacental transmission from mother to fetus. No duplicate was minted.
 
 `
   return baseCoverage()
     .replace('| Evidence resources | 20 |', '| Evidence resources | 22 |')
-    .replace('| Claims | 8 |', '| Claims | 15 |')
-    .replace('| Citations | 13 |', '| Citations | 20 |')
-    .replace('| Article spans | 8 |', '| Article spans | 15 |')
-    .replace('| Concepts | 8 |', '| Concepts | 15 |')
-    .replace('| Articles | 8 |', '| Articles | 11 |')
-    .replace('| Questions | 8 |', '| Questions | 15 |')
-    .replace('| Question authoring holds | 23 |', '| Question authoring holds | 31 |')
+    .replace('| Claims | 8 |', '| Claims | 22 |')
+    .replace('| Citations | 13 |', '| Citations | 27 |')
+    .replace('| Article spans | 8 |', '| Article spans | 22 |')
+    .replace('| Concepts | 8 |', '| Concepts | 20 |')
+    .replace('| Articles | 8 |', '| Articles | 13 |')
+    .replace('| Questions | 8 |', '| Questions | 22 |')
+    .replace('| Question authoring holds | 23 |', '| Question authoring holds | 39 |')
     .replace('## Explicit authoring holds\n\n', `${delta}## Explicit authoring holds\n\n${holds}`)
-    .replace('Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including 23 explicit holds', 'Governed prompt observations: 5,444 total; 15 authored; **5,429 raw prompt observations remain**, including 31 explicit holds')
-    .replace('Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 23 held printed-key observations', 'Governed answer observations: 5,211 total; 15 clean source-keyed prompts authored; **5,196 raw answer observations remain**, including the 31 held printed-key observations')
-    .replace('It has not been opened for downstream authoring in this slice.', 'Its first Parasitology Introduction Q1–Q15 boundary is now fully dispositioned; Q16–Q30 and the remaining four 30-prompt sections have not been opened for downstream authoring.')
-    .replace('All eight student-facing articles and questions remain Draft; all eight concepts', 'All eleven student-facing articles and all fifteen questions remain Draft; all fifteen concepts')
+    .replace('Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including 23 explicit holds', 'Governed prompt observations: 5,444 total; 22 authored; **5,422 raw prompt observations remain**, including 39 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 23 held printed-key observations', 'Governed answer observations: 5,211 total; 22 clean source-keyed prompts authored; **5,189 raw answer observations remain**, including the 39 held printed-key observations')
+    .replace('Record-level backlog is not asserted as 5,436 unique records', 'Record-level backlog is not asserted as 5,422 unique records')
+    .replace('It has not been opened for downstream authoring in this slice.', 'Its Parasitology Introduction Q1–Q30 boundary is now fully dispositioned; the remaining four 30-prompt sections have not been opened for downstream authoring.')
+    .replace('All eight student-facing articles and questions remain Draft; all eight concepts', 'All thirteen student-facing articles and all twenty-two questions remain Draft; all twenty concepts')
 }
 
 function generatedItems(items) {

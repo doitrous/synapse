@@ -151,3 +151,157 @@ CLM-INF-MUST-FHB1022-INTRO-Q15-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-INTRO-Q15-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q18-01
+
+## article_id
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+
+## section_id
+art-inf-must-fhb1022-protozoan-locomotion-definition
+
+## text
+The local curriculum classifies Apicomplexa as moving by gliding.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q18-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q18-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## section_id
+art-inf-must-fhb1022-parasite-transmission-vectors-zoonoses-definition
+
+## text
+A vector transmits parasites from one host to another.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q21-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-parasite-habitat-classification-definition
+
+## text
+Classification of parasites by their habitat in the human host supports clinical diagnosis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q21-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q21-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q22-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## section_id
+art-inf-must-fhb1022-parasite-transmission-vectors-zoonoses-definition
+
+## text
+Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q22-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q22-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q23-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## section_id
+art-inf-must-fhb1022-parasite-habitat-classification-definition
+
+## text
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q23-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q23-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q24-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## section_id
+art-inf-must-fhb1022-parasite-transmission-vectors-zoonoses-definition
+
+## text
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q24-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q24-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-INTRO-Q25-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
+
+## section_id
+art-inf-must-fhb1022-parasite-definitions-definition
+
+## text
+An obligatory parasite is completely dependent on its host and cannot exist without it.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q25-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-INTRO-Q25-01

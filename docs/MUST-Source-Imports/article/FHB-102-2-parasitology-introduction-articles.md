@@ -82,23 +82,23 @@ MUST-FHB-102-2
 MUST-FHB-102-2 > Parasitology > Foundations > Parasite definitions
 
 ## summary
-A parasite lives in or on a host and harms it. Facultative parasites can alternate between free-living and parasitic modes, while opportunistic parasites may cause severe disease when host immunity is compromised.
+A parasite lives in or on a host and harms it. Obligatory parasites depend completely on a host, facultative parasites can alternate between free-living and parasitic modes, and opportunistic parasites may cause severe disease when host immunity is compromised.
 
 ## sections
 ### Definition
 A parasite is a living organism that lives in or on another organism and harms it. This host-associated harmful relationship distinguishes parasitism from a mutually beneficial association.
 
 ### Mechanism
-A facultative parasite can alternate between free-living and parasitic modes of life. It is therefore not always dependent on a host and is not defined by a multiple-host life cycle. An opportunistic parasite may cause severe disease in an immunocompromised host. The term describes the interaction with reduced host defence rather than a plant-only infection or free-living habit.
+An obligatory parasite is completely dependent on its host and cannot exist without it. A facultative parasite can alternate between free-living and parasitic modes of life. It is therefore not always dependent on a host and is not defined by a multiple-host life cycle. An opportunistic parasite may cause severe disease in an immunocompromised host. The term describes the interaction with reduced host defence rather than a plant-only infection or free-living habit.
 
 ### Key determinants
-Parasite describes the harmful host relationship, facultative describes the ability to alternate living modes, and opportunistic describes disease emerging in a susceptible host context.
+Parasite describes the harmful host relationship, obligatory describes complete host dependence, facultative describes the ability to alternate living modes, and opportunistic describes disease emerging in a susceptible host context.
 
 ### Clinical significance
 These definitions organise how parasite behaviour and host susceptibility are described in the local curriculum. They provide the recognition language used in the associated questions without extending beyond the governed teaching statements.
 
 ### Common misconceptions
-Do not treat facultative as synonymous with obligatory parasitism. Do not define opportunistic parasites as organisms that necessarily cause severe disease in every healthy host.
+Do not treat facultative as synonymous with obligatory parasitism. Obligatory does not mean necessarily endoparasitic or dependent on multiple hosts. Do not define opportunistic parasites as organisms that necessarily cause severe disease in every healthy host.
 
 ## published_summary
 
@@ -110,11 +110,13 @@ Do not treat facultative as synonymous with obligatory parasitism. Do not define
 A parasite is a living organism that lives in or on another organism and harms it.
 A facultative parasite can alternate between free-living and parasitic modes of life.
 An opportunistic parasite may cause severe disease in an immunocompromised host.
+An obligatory parasite is completely dependent on its host and cannot exist without it.
 
 ## lose_the_mark
 A parasite does not benefit its host, and parasitism does not imply that the organism can live only outside a host.
 Facultative does not mean obligately host-dependent, necessarily endoparasitic, or dependent on multiple hosts.
 Opportunistic does not mean plant-only infection, obligatory disease in healthy people, or independent free living.
+Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts.
 
 ## callout_evidence
 ### A parasite is a living organism that lives in or on another organism and harms it.
@@ -132,10 +134,16 @@ Claims: CLM-INF-MUST-FHB1022-INTRO-Q05-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q05-01
 Reviewed by: pending medical review
 
+### An obligatory parasite is completely dependent on its host and cannot exist without it.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q25-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q25-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-04A996DBD345A9
 CON-INF-F82C6307A7B7E3
 CON-INF-C79E84EB999C31
+CON-INF-6E41B8C3F902AD
 
 ## related_articles
 ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION: Parasite habitat and classification
@@ -145,6 +153,7 @@ ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY: Medical helminth taxonomy and
 QST-MUST-FHB1022-PARA-INTRO-Q02
 QST-MUST-FHB1022-PARA-INTRO-Q04
 QST-MUST-FHB1022-PARA-INTRO-Q05
+QST-MUST-FHB1022-PARA-INTRO-Q25
 
 ## resource_ids
 src_f65b3872022ca0b42a79
@@ -157,11 +166,13 @@ src_f65b3872022ca0b42a79
 CLM-INF-MUST-FHB1022-INTRO-Q02-01
 CLM-INF-MUST-FHB1022-INTRO-Q04-01
 CLM-INF-MUST-FHB1022-INTRO-Q05-01
+CLM-INF-MUST-FHB1022-INTRO-Q25-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q02-01
 SPN-INF-MUST-FHB1022-INTRO-Q04-01
 SPN-INF-MUST-FHB1022-INTRO-Q05-01
+SPN-INF-MUST-FHB1022-INTRO-Q25-01
 
 ## university_notes
 must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
@@ -182,6 +193,11 @@ Quote: An opportunistic parasite may cause severe disease in an immunocompromise
 Block: body
 Id: ann-must-fhb1022-intro-q05
 
+### definition_of · CON-INF-6E41B8C3F902AD
+Quote: An obligatory parasite is completely dependent on its host and cannot exist without it.
+Block: body
+Id: ann-must-fhb1022-intro-q25
+
 ## media
 
 
@@ -190,7 +206,7 @@ needs_evidence
 
 ## evidence_basis
 MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–5 for prompts and p9 for the printed answer table.
+Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -205,7 +221,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First bounded Absalam Introduction slice only. Every record remains Draft and local; this file is not an upload instruction.
+First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -215,7 +231,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: The three complete articles in this batch are reciprocally linked; no live article was overwritten.
+relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
 
 ---
 
@@ -314,7 +330,7 @@ Habitat classification groups parasites by their site in the human body. The app
 Malaria parasites are blood parasites in the human haemopoietic system. Blood is therefore the best answer when the question asks their human habitat. Taxonomy and habitat are both valid classification approaches in the governed deck, while colour is not.
 
 ### Clinical significance
-Scientific classification supports laboratory identification, while habitat classification supports clinical diagnosis in the teaching deck. Malaria supplies the direct blood-habitat example used in the bounded question slice.
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis. Classification of parasites by their habitat in the human host supports clinical diagnosis. Malaria supplies the direct blood-habitat example used in the bounded question slice.
 
 ### Common misconceptions
 Do not force a choice between taxonomy and habitat when an option combines both. Do not substitute intestine, muscle, or skin for the stated blood habitat of malaria parasites.
@@ -328,10 +344,14 @@ Do not force a choice between taxonomy and habitat when an option combines both.
 ## hold_these
 Malaria parasites are blood parasites in the human haemopoietic system.
 Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
+Classification of parasites by their habitat in the human host supports clinical diagnosis.
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
 
 ## lose_the_mark
 Do not substitute intestine, muscle, or skin for the blood habitat stated in the local classification slide.
 Colour is not one of the two classification approaches taught on the governed slide.
+Laboratory identification is assigned to scientific taxonomy, not habitat classification.
+Clinical diagnosis is assigned to habitat classification; taxonomy is not a method for killing parasites or controlling vectors.
 
 ## callout_evidence
 ### Malaria parasites are blood parasites in the human haemopoietic system.
@@ -344,17 +364,33 @@ Claims: CLM-INF-MUST-FHB1022-INTRO-Q11-01
 Citations: CIT-INF-MUST-FHB1022-INTRO-Q11-01
 Reviewed by: pending medical review
 
+### Classification of parasites by their habitat in the human host supports clinical diagnosis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q21-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q21-01
+Reviewed by: pending medical review
+
+### Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q23-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q23-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-829EB6EC11CC8F
+CON-INF-D13F9697E5B95F
+CON-INF-D13F9697E5B95F
 CON-INF-D13F9697E5B95F
 
 ## related_articles
 ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS: Parasite definitions and living habits
 ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY: Medical helminth taxonomy and morphology
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION: Protozoan locomotion
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES: Parasite transmission, vectors and zoonoses
 
 ## question_ids
 QST-MUST-FHB1022-PARA-INTRO-Q09
 QST-MUST-FHB1022-PARA-INTRO-Q11
+QST-MUST-FHB1022-PARA-INTRO-Q21
+QST-MUST-FHB1022-PARA-INTRO-Q23
 
 ## resource_ids
 src_f65b3872022ca0b42a79
@@ -366,10 +402,14 @@ src_f65b3872022ca0b42a79
 ## claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q09-01
 CLM-INF-MUST-FHB1022-INTRO-Q11-01
+CLM-INF-MUST-FHB1022-INTRO-Q21-01
+CLM-INF-MUST-FHB1022-INTRO-Q23-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q09-01
 SPN-INF-MUST-FHB1022-INTRO-Q11-01
+SPN-INF-MUST-FHB1022-INTRO-Q21-01
+SPN-INF-MUST-FHB1022-INTRO-Q23-01
 
 ## university_notes
 must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
@@ -385,6 +425,16 @@ Quote: Parasites may be classified scientifically by taxonomy or clinically by t
 Block: body
 Id: ann-must-fhb1022-intro-q11
 
+### definition_of · CON-INF-D13F9697E5B95F
+Quote: Classification of parasites by their habitat in the human host supports clinical diagnosis.
+Block: body
+Id: ann-must-fhb1022-intro-q21
+
+### definition_of · CON-INF-D13F9697E5B95F
+Quote: Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
+Block: body
+Id: ann-must-fhb1022-intro-q23
+
 ## media
 
 
@@ -393,7 +443,7 @@ needs_evidence
 
 ## evidence_basis
 MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–5 for prompts and p9 for the printed answer table.
+Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -408,7 +458,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First bounded Absalam Introduction slice only. Every record remains Draft and local; this file is not an upload instruction.
+First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -418,7 +468,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: The three complete articles in this batch are reciprocally linked; no live article was overwritten.
+relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
 
 ---
 
@@ -596,7 +646,7 @@ needs_evidence
 
 ## evidence_basis
 MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read pp1–5 for prompts and p9 for the printed answer table.
+Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -611,7 +661,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First bounded Absalam Introduction slice only. Every record remains Draft and local; this file is not an upload instruction.
+First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -621,4 +671,410 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: The three complete articles in this batch are reciprocally linked; no live article was overwritten.
+relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+
+## title
+Protozoan locomotion
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Protozoan locomotion
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## microtopic
+Protozoan locomotion
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T01
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Protozoology > Protozoan locomotion
+
+## summary
+The local curriculum classifies protozoa by locomotion: amoebae use pseudopodia, flagellates use flagella, ciliates use cilia and Apicomplexa move by gliding.
+
+## sections
+### Definition
+Protozoan groups are distinguished in the local curriculum by their organs or mode of locomotion. The local curriculum classifies Apicomplexa as moving by gliding.
+
+### Mechanism
+Amoebae use pseudopodia, flagellates use flagella and ciliates use cilia. The same classification slide places Apicomplexa under “By gliding.”
+
+### Key determinants
+Gliding selects Apicomplexa among the offered groups. Entamoeba histolytica and Amoeba belong with pseudopodial movement, while ciliates use cilia.
+
+### Clinical significance
+Locomotion supplies a foundational classification framework for recognising the main protozoan groups in the MUST FHB102-2 curriculum.
+
+### Common misconceptions
+The source question uses singular “an organism” although Apicomplexa is a group; that wording is preserved rather than silently repaired. Do not substitute flagella, cilia or pseudopodia for the slide’s gliding classification.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+The local curriculum classifies Apicomplexa as moving by gliding.
+
+## lose_the_mark
+Amoebae use pseudopodia and ciliates use cilia; do not rewrite the source’s singular “organism” wording even though Apicomplexa is a group.
+
+## callout_evidence
+### The local curriculum classifies Apicomplexa as moving by gliding.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q18-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q18-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-2A48E6BD3C1F70
+
+## related_articles
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION: Parasite habitat and classification
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES: Parasite transmission, vectors and zoonoses
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q18
+
+## resource_ids
+src_f65b3872022ca0b42a79
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_f65b3872022ca0b42a79
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q18-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q18-01
+
+## university_notes
+must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+
+## annotations
+### definition_of · CON-INF-2A48E6BD3C1F70
+Quote: The local curriculum classifies Apicomplexa as moving by gliding.
+Block: body
+Id: ann-must-fhb1022-intro-q18
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## title
+Parasite transmission, vectors and zoonoses
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Transmission and zoonoses
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## microtopic
+Transmission and zoonoses
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Transmission and zoonoses
+
+## summary
+Vectors transmit parasites between hosts. Parasites may enter through ingestion, skin penetration or vectors, and zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+
+## sections
+### Definition
+A vector transmits parasites from one host to another. Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+
+### Mechanism
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
+### Key determinants
+Host-to-host parasite transmission defines the vector role in the associated question. All three offered entry routes—ingestion, skin penetration and vectors—are taught directly. Animal origin distinguishes zoonotic disease from diseases limited to humans.
+
+### Clinical significance
+Recognising source and entry route supports introductory reasoning about exposure, transmission and prevention without promoting the student bank to faculty-key authority.
+
+### Common misconceptions
+Vectors are not defined by nourishing parasites or always serving as reservoirs. Zoonoses are not restricted to protozoa or vector-only spread. Do not exclude one of the three directly taught entry routes.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+A vector transmits parasites from one host to another.
+Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
+## lose_the_mark
+A vector is not defined by nourishing the parasite, serving as a reservoir, or always being infected.
+Zoonoses are not restricted to protozoa or vector-only transmission and are not diseases found only in humans.
+Each listed route is taught; do not select one route while excluding the other two.
+
+## callout_evidence
+### A vector transmits parasites from one host to another.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q19-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q19-01
+Reviewed by: pending medical review
+
+### Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q22-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q22-01
+Reviewed by: pending medical review
+
+### Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+Claims: CLM-INF-MUST-FHB1022-INTRO-Q24-01
+Citations: CIT-INF-MUST-FHB1022-INTRO-Q24-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-8C35F4B1A206DE
+CON-INF-93B7D64C0E2A15
+CON-INF-A5D19C7E204BF3
+
+## related_articles
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION: Parasite habitat and classification
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION: Protozoan locomotion
+
+## question_ids
+QST-MUST-FHB1022-PARA-INTRO-Q19
+QST-MUST-FHB1022-PARA-INTRO-Q22
+QST-MUST-FHB1022-PARA-INTRO-Q24
+
+## resource_ids
+src_f65b3872022ca0b42a79
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_f65b3872022ca0b42a79
+
+## claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q19-01
+CLM-INF-MUST-FHB1022-INTRO-Q22-01
+CLM-INF-MUST-FHB1022-INTRO-Q24-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-INTRO-Q19-01
+SPN-INF-MUST-FHB1022-INTRO-Q22-01
+SPN-INF-MUST-FHB1022-INTRO-Q24-01
+
+## university_notes
+must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+
+## annotations
+### definition_of · CON-INF-8C35F4B1A206DE
+Quote: A vector transmits parasites from one host to another.
+Block: body
+Id: ann-must-fhb1022-intro-q19
+
+### definition_of · CON-INF-93B7D64C0E2A15
+Quote: Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+Block: body
+Id: ann-must-fhb1022-intro-q22
+
+### definition_of · CON-INF-A5D19C7E204BF3
+Quote: Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+Block: body
+Id: ann-must-fhb1022-intro-q24
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read pp1–8 for prompts and p9 for the printed answer table.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First two bounded Absalam Introduction slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal within this five-article batch. The definitions and classification exact-ID records preserve their prior governed content and links while adding only the approved complete updates.

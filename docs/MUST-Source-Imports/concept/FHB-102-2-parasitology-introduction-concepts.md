@@ -121,7 +121,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q02-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | pp1–5 Q2; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q2; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p5 direct university teaching
 
 ## original_wording
@@ -178,7 +178,7 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
 
 ---
 
@@ -303,7 +303,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q04-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | pp1–5 Q4; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q4; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p7 direct university teaching
 
 ## original_wording
@@ -360,7 +360,7 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: concept_4843023d39649fa9864f9980 — narrower Strongyloides-specific free-living/parasitic example; not the general definition.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
 
 ---
 
@@ -485,7 +485,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q05-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | pp1–5 Q5; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q5; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p9 direct university teaching
 
 ## original_wording
@@ -542,7 +542,7 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: concept_99ed9f61ec904013cf85cd95 — narrower Pneumocystis example; not the general opportunistic-parasite definition.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
 
 ---
 
@@ -619,6 +619,8 @@ ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
 ## related_article_ids
 ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
 ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
 
 ## related_concept_ids
 [clear]
@@ -667,7 +669,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q09-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | pp1–5 Q9; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q9; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p16 direct university teaching
 
 ## original_wording
@@ -724,7 +726,7 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
 
 ---
 
@@ -801,6 +803,8 @@ ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
 ## related_article_ids
 ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
 ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
 
 ## related_concept_ids
 [clear]
@@ -841,6 +845,8 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-INTRO-Q11-01
+CLM-INF-MUST-FHB1022-INTRO-Q21-01
+CLM-INF-MUST-FHB1022-INTRO-Q23-01
 
 ## resource_occurrence_ids
 [clear]
@@ -849,11 +855,17 @@ CLM-INF-MUST-FHB1022-INTRO-Q11-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | pp1–5 Q11; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q11; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Q21; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Q23; printed answer p9
+src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
+src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 
 ## original_wording
 Which of the following is is a classification of parasites? Printed key D; options retained in their original order.
+What is the purpose of classifying parasites based on habitat? Printed key C; options retained in their original order.
+What is the purpose of classifying parasites based on their taxonomy? Printed key A; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -862,7 +874,7 @@ Which of the following is is a classification of parasites? Printed key D; optio
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q11. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Absalam Introduction Q11. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Absalam Introduction Q21. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Absalam Introduction Q23. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -906,7 +918,7 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
 
 ---
 
@@ -1031,7 +1043,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q14-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | pp1–5 Q14; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q14; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p33 direct university teaching
 
 ## original_wording
@@ -1088,7 +1100,7 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: concept_7529e2cd8159d395916adb19 — narrower Fasciola-specific leaf-shape example; not the class-level trematode morphology.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
 
 ---
 
@@ -1213,7 +1225,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q15-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | pp1–5 Q15; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q15; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p34 direct university teaching
 
 ## original_wording
@@ -1270,4 +1282,915 @@ sourceCandidateIds: The required live/pending search gate returned no record for
 rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
-relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-2A48E6BD3C1F70
+
+## label
+Apicomplexa move by gliding
+
+## canonical_key
+parasitology.protozoa.apicomplexa-gliding
+
+## aliases
+Apicomplexan gliding
+Gliding locomotion of Apicomplexa
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The local curriculum classifies Apicomplexa as moving by gliding.
+
+## explicit_objective
+Identify Apicomplexa as the protozoan group associated with gliding locomotion in the local curriculum.
+
+## pitfalls
+Amoebae use pseudopodia and ciliates use cilia; do not rewrite the source’s singular “organism” wording even though Apicomplexa is a group.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T01
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## microtopic
+Protozoan locomotion
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Protozoology > Protozoan locomotion
+
+## article_ids
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_f65b3872022ca0b42a79
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q18-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p5 Q18; printed answer p9
+src_f65b3872022ca0b42a79 | tier 2 | undated | p41 direct university teaching
+
+## original_wording
+Which of the following is an organism that moves by gliding? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_9dc1156f5fddd3a2c18a42af
+concept_15a2896e46ef4cd8cbefa6a2
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q18. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_9dc1156f5fddd3a2c18a42af — broader four-group locomotion classification; not the specific Apicomplexa-gliding statement. concept_15a2896e46ef4cd8cbefa6a2 — states absence of a specific locomotor organ rather than the governed gliding wording.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-8C35F4B1A206DE
+
+## label
+Vector transmits parasites between hosts
+
+## canonical_key
+parasitology.transmission.vector-host-to-host
+
+## aliases
+Parasitology vector definition
+Host-to-host parasite vector
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A vector transmits parasites from one host to another.
+
+## explicit_objective
+Recognise host-to-host parasite transmission as the defining role of a vector.
+
+## pitfalls
+A vector is not defined by nourishing the parasite, serving as a reservoir, or always being infected.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## microtopic
+Vectors
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Vectors
+
+## article_ids
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_f65b3872022ca0b42a79
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q19-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Q19; printed answer p9
+src_f65b3872022ca0b42a79 | tier 2 | undated | p12 direct university teaching
+
+## original_wording
+A vector is an organism that: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_cbe678b590c9d68db81d4ed5
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q19. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_cbe678b590c9d68db81d4ed5 — narrower mechanical-versus-biological arthropod transmission identity reserved as the Q29 duplicate hold.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-93B7D64C0E2A15
+
+## label
+Zoonotic parasitic diseases originate from animals
+
+## canonical_key
+parasitology.transmission.zoonotic-animal-origin
+
+## aliases
+Zoonotic disease definition
+Animal-origin parasitic disease
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+
+## explicit_objective
+Recognise animal origin as the defining source relationship of zoonotic parasitic disease.
+
+## pitfalls
+Zoonoses are not restricted to protozoa or vector-only transmission and are not diseases found only in humans.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## microtopic
+Zoonoses
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Zoonoses
+
+## article_ids
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_f65b3872022ca0b42a79
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q22-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Q22; printed answer p9
+src_f65b3872022ca0b42a79 | tier 2 | undated | p15 direct university teaching
+
+## original_wording
+Zoonotic diseases are: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q22. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-A5D19C7E204BF3
+
+## label
+Parasite entry routes include ingestion, skin penetration and vectors
+
+## canonical_key
+parasitology.transmission.entry-routes
+
+## aliases
+Routes of parasite entry
+Parasite transmission entry routes
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
+## explicit_objective
+Identify ingestion, skin penetration and vectors as routes by which parasites enter hosts.
+
+## pitfalls
+Each listed route is taught; do not select one route while excluding the other two.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## microtopic
+Routes of entry
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Routes of entry
+
+## article_ids
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_f65b3872022ca0b42a79
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q24-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Q24; printed answer p9
+src_f65b3872022ca0b42a79 | tier 2 | undated | p21–22 direct university teaching
+
+## original_wording
+Which of the following is(are) routes of entry of parasites? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q24. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-6E41B8C3F902AD
+
+## label
+Obligatory parasite depends on a host
+
+## canonical_key
+parasitology.foundations.obligatory-parasite
+
+## aliases
+Obligate parasite
+Host-dependent parasite
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+An obligatory parasite is completely dependent on its host and cannot exist without it.
+
+## explicit_objective
+Identify complete host dependence as the defining feature of an obligatory parasite.
+
+## pitfalls
+Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## microtopic
+Parasite living habits
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Parasite living habits
+
+## article_ids
+ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_f65b3872022ca0b42a79
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-INTRO-Q25-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Q25; printed answer p9
+src_f65b3872022ca0b42a79 | tier 2 | undated | p7 direct university teaching
+
+## original_wording
+An obligatory parasite: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_b976208980c6167c35ff80fa
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q25. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_b976208980c6167c35ff80fa — broader list of endoparasite categories; not the complete host-dependence definition.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.

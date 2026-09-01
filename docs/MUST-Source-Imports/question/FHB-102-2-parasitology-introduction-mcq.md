@@ -130,7 +130,7 @@ src_f65b3872022ca0b42a79
 Recognise the host-associated and harmful relationship that defines a parasite.
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q2, printed key p9 (2 = B); MUST FHB102-2 Introduction to Medical Parasitology, p5.
+Absalam101 Part 1, p1–5 Q2, printed key p9 (2 = B); MUST FHB102-2 Introduction to Medical Parasitology, p5.
 
 ## attached_image
 
@@ -282,7 +282,7 @@ src_f65b3872022ca0b42a79
 Identify the ability to live either freely or parasitically as the defining feature of a facultative parasite.
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q4, printed key p9 (4 = B); MUST FHB102-2 Introduction to Medical Parasitology, p7.
+Absalam101 Part 1, p1–5 Q4, printed key p9 (4 = B); MUST FHB102-2 Introduction to Medical Parasitology, p7.
 
 ## attached_image
 
@@ -434,7 +434,7 @@ src_f65b3872022ca0b42a79
 Recognise immunocompromise as the host context associated with severe opportunistic parasitic disease.
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q5, printed key p9 (5 = C); MUST FHB102-2 Introduction to Medical Parasitology, p9.
+Absalam101 Part 1, p1–5 Q5, printed key p9 (5 = C); MUST FHB102-2 Introduction to Medical Parasitology, p9.
 
 ## attached_image
 
@@ -586,7 +586,7 @@ src_f65b3872022ca0b42a79
 Identify blood as the human habitat of malaria parasites.
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q9, printed key p9 (9 = D); MUST FHB102-2 Introduction to Medical Parasitology, p16.
+Absalam101 Part 1, p1–5 Q9, printed key p9 (9 = D); MUST FHB102-2 Introduction to Medical Parasitology, p16.
 
 ## attached_image
 
@@ -738,7 +738,7 @@ src_f65b3872022ca0b42a79
 Recognise taxonomy and human-body habitat as two valid approaches to parasite classification.
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q11, printed key p9 (11 = D); MUST FHB102-2 Introduction to Medical Parasitology, p32.
+Absalam101 Part 1, p1–5 Q11, printed key p9 (11 = D); MUST FHB102-2 Introduction to Medical Parasitology, p32.
 
 ## attached_image
 
@@ -890,7 +890,7 @@ src_f65b3872022ca0b42a79
 Distinguish the leaf-like unsegmented morphology of trematodes from cestodes and nematodes.
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q14, printed key p9 (14 = B); MUST FHB102-2 Introduction to Medical Parasitology, p33.
+Absalam101 Part 1, p1–5 Q14, printed key p9 (14 = B); MUST FHB102-2 Introduction to Medical Parasitology, p33.
 
 ## attached_image
 
@@ -1042,7 +1042,7 @@ src_f65b3872022ca0b42a79
 Identify trematodes and cestodes as the two parasitic flatworm groups.
 
 ## source_citation
-Absalam101 Part 1, pp1–5 Q15, printed key p9 (15 = C); MUST FHB102-2 Introduction to Medical Parasitology, p34.
+Absalam101 Part 1, p1–5 Q15, printed key p9 (15 = C); MUST FHB102-2 Introduction to Medical Parasitology, p34.
 
 ## attached_image
 
@@ -1061,3 +1061,1067 @@ yes
 
 ## author_notes
 Printed source key: Q15 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q18
+
+## title
+Which of the following is an organism that moves by gliding?
+
+## question
+Which of the following is an organism that moves by gliding?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Entamoeba histolytica
+
+## explanation_a
+Incorrect. Amoebae use pseudopodia and ciliates use cilia; do not rewrite the source’s singular “organism” wording even though Apicomplexa is a group. The supported answer is B, Apicomplexa.
+
+## answer_b
+Apicomplexa
+
+## explanation_b
+The local curriculum classifies Apicomplexa as moving by gliding. The governed university slide directly supports Apicomplexa for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Amoeba
+
+## explanation_c
+Incorrect. Amoebae use pseudopodia and ciliates use cilia; do not rewrite the source’s singular “organism” wording even though Apicomplexa is a group. The supported answer is B, Apicomplexa.
+
+## answer_d
+Ciliates
+
+## explanation_d
+Incorrect. Amoebae use pseudopodia and ciliates use cilia; do not rewrite the source’s singular “organism” wording even though Apicomplexa is a group. The supported answer is B, Apicomplexa.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-2A48E6BD3C1F70
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Protozoology > Protozoan locomotion
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PROTOZOAN-LOCOMOTION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Identify Apicomplexa as the protozoan group associated with gliding locomotion in the local curriculum.
+
+## source_citation
+Absalam101 Part 1, p5 Q18, printed key p9 (18 = B); MUST FHB102-2 Introduction to Medical Parasitology, p41.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q18 = B. The wording, option order and key are preserved exactly. Q18 preserves the source's singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q19
+
+## title
+A vector is an organism that:
+
+## question
+A vector is an organism that:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Provides nutrition to parasites
+
+## explanation_a
+Incorrect. A vector is not defined by nourishing the parasite, serving as a reservoir, or always being infected. The supported answer is B, Transmits parasites from one host to another.
+
+## answer_b
+Transmits parasites from one host to another
+
+## explanation_b
+A vector transmits parasites from one host to another. The governed university slide directly supports Transmits parasites from one host to another for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Serves as a reservoir host
+
+## explanation_c
+Incorrect. A vector is not defined by nourishing the parasite, serving as a reservoir, or always being infected. The supported answer is B, Transmits parasites from one host to another.
+
+## answer_d
+Is always infected by the parasite
+
+## explanation_d
+Incorrect. A vector is not defined by nourishing the parasite, serving as a reservoir, or always being infected. The supported answer is B, Transmits parasites from one host to another.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-8C35F4B1A206DE
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Vectors
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Recognise host-to-host parasite transmission as the defining role of a vector.
+
+## source_citation
+Absalam101 Part 1, p6 Q19, printed key p9 (19 = B); MUST FHB102-2 Introduction to Medical Parasitology, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q19 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q21
+
+## title
+What is the purpose of classifying parasites based on habitat?
+
+## question
+What is the purpose of classifying parasites based on habitat?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+For laboratory identification
+
+## explanation_a
+Incorrect. Laboratory identification is assigned to scientific taxonomy, not habitat classification. The supported answer is C, For clinical diagnosis.
+
+## answer_b
+For taxonomic studies
+
+## explanation_b
+Incorrect. Laboratory identification is assigned to scientific taxonomy, not habitat classification. The supported answer is C, For clinical diagnosis.
+
+## answer_c
+For clinical diagnosis
+
+## explanation_c
+Classification of parasites by their habitat in the human host supports clinical diagnosis. The governed university slide directly supports For clinical diagnosis for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+For vector control
+
+## explanation_d
+Incorrect. Laboratory identification is assigned to scientific taxonomy, not habitat classification. The supported answer is C, For clinical diagnosis.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-D13F9697E5B95F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Parasite classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Recognise clinical diagnosis as the purpose of habitat-based parasite classification in the local curriculum.
+
+## source_citation
+Absalam101 Part 1, p6 Q21, printed key p9 (21 = C); MUST FHB102-2 Introduction to Medical Parasitology, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q21 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q22
+
+## title
+Zoonotic diseases are:
+
+## question
+Zoonotic diseases are:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Only found in humans
+
+## explanation_a
+Incorrect. Zoonoses are not restricted to protozoa or vector-only transmission and are not diseases found only in humans. The supported answer is B, Parasitic diseases that originate from animals.
+
+## answer_b
+Parasitic diseases that originate from animals
+
+## explanation_b
+Zoonotic parasitic diseases originate from animal sources and are transmitted to humans. The governed university slide directly supports Parasitic diseases that originate from animals for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Transmitted only through vectors
+
+## explanation_c
+Incorrect. Zoonoses are not restricted to protozoa or vector-only transmission and are not diseases found only in humans. The supported answer is B, Parasitic diseases that originate from animals.
+
+## answer_d
+Always caused by protozoa
+
+## explanation_d
+Incorrect. Zoonoses are not restricted to protozoa or vector-only transmission and are not diseases found only in humans. The supported answer is B, Parasitic diseases that originate from animals.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-93B7D64C0E2A15
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Zoonoses
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Recognise animal origin as the defining source relationship of zoonotic parasitic disease.
+
+## source_citation
+Absalam101 Part 1, p6 Q22, printed key p9 (22 = B); MUST FHB102-2 Introduction to Medical Parasitology, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q22 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q23
+
+## title
+What is the purpose of classifying parasites based on their taxonomy?
+
+## question
+What is the purpose of classifying parasites based on their taxonomy?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+For laboratory identification
+
+## explanation_a
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis. The governed university slide directly supports For laboratory identification for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+For killing the parasite
+
+## explanation_b
+Incorrect. Clinical diagnosis is assigned to habitat classification; taxonomy is not a method for killing parasites or controlling vectors. The supported answer is A, For laboratory identification.
+
+## answer_c
+For clinical diagnosis
+
+## explanation_c
+Incorrect. Clinical diagnosis is assigned to habitat classification; taxonomy is not a method for killing parasites or controlling vectors. The supported answer is A, For laboratory identification.
+
+## answer_d
+For vector control
+
+## explanation_d
+Incorrect. Clinical diagnosis is assigned to habitat classification; taxonomy is not a method for killing parasites or controlling vectors. The supported answer is A, For laboratory identification.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-D13F9697E5B95F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Parasite classification
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Recognise laboratory identification as the purpose of taxonomy-based parasite classification in the local curriculum.
+
+## source_citation
+Absalam101 Part 1, p7 Q23, printed key p9 (23 = A); MUST FHB102-2 Introduction to Medical Parasitology, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q23 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q24
+
+## title
+Which of the following is(are) routes of entry of parasites?
+
+## question
+Which of the following is(are) routes of entry of parasites?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Ingestion
+
+## explanation_a
+Incorrect. Each listed route is taught; do not select one route while excluding the other two. The supported answer is D, All of the above.
+
+## answer_b
+Skin penetration
+
+## explanation_b
+Incorrect. Each listed route is taught; do not select one route while excluding the other two. The supported answer is D, All of the above.
+
+## answer_c
+Vectors
+
+## explanation_c
+Incorrect. Each listed route is taught; do not select one route while excluding the other two. The supported answer is D, All of the above.
+
+## answer_d
+All of the above
+
+## explanation_d
+Parasites can enter hosts through ingestion, skin penetration and vector transmission. The governed university slide directly supports All of the above for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-A5D19C7E204BF3
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Routes of entry
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-TRANSMISSION-VECTORS-ZOONOSES
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Identify ingestion, skin penetration and vectors as routes by which parasites enter hosts.
+
+## source_citation
+Absalam101 Part 1, p7 Q24, printed key p9 (24 = D); MUST FHB102-2 Introduction to Medical Parasitology, p21–22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q24 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-INTRO-Q25
+
+## title
+An obligatory parasite:
+
+## question
+An obligatory parasite:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_f65b3872022ca0b42a79 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Is always dependent on a host
+
+## explanation_a
+An obligatory parasite is completely dependent on its host and cannot exist without it. The governed university slide directly supports Is always dependent on a host for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Can live both as a parasite and free-living
+
+## explanation_b
+Incorrect. Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts. The supported answer is A, Is always dependent on a host.
+
+## answer_c
+Is always an endoparasite
+
+## explanation_c
+Incorrect. Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts. The supported answer is A, Is always dependent on a host.
+
+## answer_d
+Requires multiple hosts for survival
+
+## explanation_d
+Incorrect. Obligatory does not mean facultative, necessarily endoparasitic, or dependent on multiple hosts. The supported answer is A, Is always dependent on a host.
+
+## topic
+Parasitology
+
+## subtopic
+Foundations
+
+## main_concept
+CON-INF-6E41B8C3F902AD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Foundations > Parasite living habits
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_f65b3872022ca0b42a79
+
+## learning_objective
+Identify complete host dependence as the defining feature of an obligatory parasite.
+
+## source_citation
+Absalam101 Part 1, p7 Q25, printed key p9 (25 = A); MUST FHB102-2 Introduction to Medical Parasitology, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q25 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

@@ -305,3 +305,311 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Absalam Introduction Q15
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q18-01
+
+## concept_id
+CON-INF-2A48E6BD3C1F70
+
+## subject
+Apicomplexa move by gliding
+
+## predicate
+states
+
+## object
+The local curriculum classifies Apicomplexa as moving by gliding.
+
+## display_text
+The local curriculum classifies Apicomplexa as moving by gliding.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q18
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q19-01
+
+## concept_id
+CON-INF-8C35F4B1A206DE
+
+## subject
+Vector transmits parasites between hosts
+
+## predicate
+states
+
+## object
+A vector transmits parasites from one host to another.
+
+## display_text
+A vector transmits parasites from one host to another.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q21-01
+
+## concept_id
+CON-INF-D13F9697E5B95F
+
+## subject
+Parasites classified by taxonomy and human-body habitat
+
+## predicate
+states
+
+## object
+Classification of parasites by their habitat in the human host supports clinical diagnosis.
+
+## display_text
+Classification of parasites by their habitat in the human host supports clinical diagnosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q21
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q22-01
+
+## concept_id
+CON-INF-93B7D64C0E2A15
+
+## subject
+Zoonotic parasitic diseases originate from animals
+
+## predicate
+states
+
+## object
+Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+
+## display_text
+Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q22
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q23-01
+
+## concept_id
+CON-INF-D13F9697E5B95F
+
+## subject
+Parasites classified by taxonomy and human-body habitat
+
+## predicate
+states
+
+## object
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
+
+## display_text
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q23
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q24-01
+
+## concept_id
+CON-INF-A5D19C7E204BF3
+
+## subject
+Parasite entry routes include ingestion, skin penetration and vectors
+
+## predicate
+states
+
+## object
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
+## display_text
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q24
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-INTRO-Q25-01
+
+## concept_id
+CON-INF-6E41B8C3F902AD
+
+## subject
+Obligatory parasite depends on a host
+
+## predicate
+states
+
+## object
+An obligatory parasite is completely dependent on its host and cannot exist without it.
+
+## display_text
+An obligatory parasite is completely dependent on its host and cannot exist without it.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q25
