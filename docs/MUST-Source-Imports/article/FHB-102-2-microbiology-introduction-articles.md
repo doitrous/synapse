@@ -1110,6 +1110,9 @@ The official deck directly states that vancomycin inhibits peptidoglycan synthes
 The deck labels carbapenems and monobactams as other beta-lactams and presents vancomycin as a non-beta-lactam antibiotic.
 The deck presents cephalosporins, carbapenems and monobactams as beta-lactams and vancomycin as non-beta-lactam.
 The official comparison states that beta-lactam antibiotics inhibit cell-wall peptidoglycan cross-linking.
+The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections. Not used systemically because it is nephrotoxic."
+The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections."
+The official slide states: "Antimicrobials that Increase permeability of cell membrane are polymyxin and nystatin."
 
 ## published_summary
 
@@ -1130,6 +1133,9 @@ Vancomycin inhibits peptidoglycan synthesis at an earlier cell-wall stage.
 Vancomycin is not a beta-lactam, whereas cephalosporins, carbapenems and monobactams are beta-lactam groups.
 Vancomycin is the non-beta-lactam among cefazolin, imipenem, vancomycin and aztreonam.
 Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity.
+Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus.
+Polymyxin increases the permeability of the bacterial cell membrane.
 
 ## lose_the_mark
 Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis.
@@ -1144,6 +1150,9 @@ The governed slide does not assign vancomycin ribosomal inhibition, membrane-per
 Cephalosporins, carbapenems and monobactams belong to the beta-lactam classification in the governed deck.
 Cefazolin, imipenem and aztreonam represent beta-lactam groups in the governed classification.
 The governed mechanism does not assign beta-lactams DNA, folate or RNA-polymerase inhibition.
+The governed slide does not attribute the topical-only restriction to poor oral absorption, beta-lactamase production, or a narrow spectrum.
+The governed slide does not assign Bacitracin activity against Gram-negative rods, anaerobes or Pseudomonas.
+Vancomycin and Ceftriaxone act on the cell wall rather than membrane permeability, and Azithromycin is a protein-synthesis inhibitor, not a membrane-permeability agent, in the governed deck.
 
 ## callout_evidence
 ### Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
@@ -1206,6 +1215,21 @@ Claims: CLM-INF-MUST-FHB1022-PHARM2-Q25-01
 Citations: CIT-INF-MUST-FHB1022-PHARM2-Q25-01
 Reviewed by: pending medical review
 
+### Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+Reviewed by: pending medical review
+
+### Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+Reviewed by: pending medical review
+
+### Polymyxin increases the permeability of the bacterial cell membrane.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-AF1A323DC43B0A
 CON-INF-D152917B8E5B0C
@@ -1214,6 +1238,8 @@ CON-INF-B87838294C76F5
 CON-INF-2EF55DB215EF9D
 CON-INF-4DBE227F632F33
 CON-INF-CE6D8921A7E095
+CON-INF-C823BEE4EA2E9B
+CON-INF-6C3E76AC2AC9D4
 
 ## related_articles
 ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY: Penicillin classes, combinations, uses and hypersensitivity
@@ -1231,18 +1257,24 @@ QST-MUST-FHB1022-PHARM2-Q14
 QST-MUST-FHB1022-PHARM2-Q19
 QST-MUST-FHB1022-PHARM2-Q24
 QST-MUST-FHB1022-PHARM2-Q25
+QST-MUST-FHB1022-ANTIBACT2-Q11
+QST-MUST-FHB1022-ANTIBACT2-Q27
+QST-MUST-FHB1022-ANTIBACT2-Q15
 
 ## resource_ids
 src_ee1fb7a716a473eb2d98
 src_875c205531a585cd5b91
 src_060e284322ddf8fdf92c
+src_9a16b2156717527bf0ab
 src_4bd3b78f762673d7eb7f
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_ee1fb7a716a473eb2d98
 src_875c205531a585cd5b91
 src_060e284322ddf8fdf92c
+src_9a16b2156717527bf0ab
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-PHARM-Q126-01
@@ -1257,6 +1289,9 @@ CLM-INF-MUST-FHB1022-PHARM2-Q14-01
 CLM-INF-MUST-FHB1022-PHARM2-Q19-01
 CLM-INF-MUST-FHB1022-PHARM2-Q24-01
 CLM-INF-MUST-FHB1022-PHARM2-Q25-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q15-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-PHARM-Q126-01
@@ -1271,9 +1306,12 @@ SPN-INF-MUST-FHB1022-PHARM2-Q14-01
 SPN-INF-MUST-FHB1022-PHARM2-Q19-01
 SPN-INF-MUST-FHB1022-PHARM2-Q24-01
 SPN-INF-MUST-FHB1022-PHARM2-Q25-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q15-01
 
 ## university_notes
-must: Global Q126, Q127, Q128, Q129, Q137, Q138, Q149, Q150, Q14, Q19, Q24, Q25 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q126, Q127, Q128, Q129, Q137, Q138, Q149, Q150, Q14, Q19, Q24, Q25, Q11, Q27, Q15 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ### definition_of · CON-INF-AF1A323DC43B0A
@@ -1336,6 +1374,21 @@ Quote: The official comparison states that beta-lactam antibiotics inhibit cell-
 Block: body
 Id: ann-must-fhb1022-pharm2-q25
 
+### definition_of · CON-INF-C823BEE4EA2E9B
+Quote: The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections. Not used systemically because it is nephrotoxic."
+Block: body
+Id: ann-must-fhb1022-antibact2-q11
+
+### definition_of · CON-INF-C823BEE4EA2E9B
+Quote: The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections."
+Block: body
+Id: ann-must-fhb1022-antibact2-q27
+
+### definition_of · CON-INF-6C3E76AC2AC9D4
+Quote: The official slide states: "Antimicrobials that Increase permeability of cell membrane are polymyxin and nystatin."
+Block: body
+Id: ann-must-fhb1022-antibact2-q15
+
 ## media
 
 
@@ -1346,6 +1399,7 @@ needs_evidence
 Official MUST FHB102-2 Antibiotics Introd Mechan deck, visually read on exact cited pages.
 Official MUST FHB102-2 2. B-Lactam & Vancomycin deck, visually read on exact cited pages.
 Official MUST FHB102-2 Cell Wall and Cell Membrane Inhibitors deck, visually read on exact cited pages.
+Official MUST FHB102-2 general antibacterial 2 deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps
@@ -3324,7 +3378,11 @@ Recognising which drug prevents which infection, and which organism a prophylact
 Do not swap the rheumatic-fever regimen's target organism (Streptococcus pyogenes) for the endocarditis regimen's target organism (Streptococcus viridans), or vice versa. Do not treat cefoperazone's biliary excretion route (a separate cephalosporin pharmacokinetics fact) as the same claim as this deck's biliary-tract-infection treatment list. Linezolid is not a governed biliary-tract-infection drug in this deck.
 
 ### Governed evidence statements
-
+The official slide states: "Chemoprophylaxis of infective endocarditis: -Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."
+The official slide states: "Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."
+The official slide states: "Prophylaxis against rheumatic fever (strept.pyogenous- Group A beta hemolytic Strept) (by benzathine penicillin)."
+The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin."
+The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin," with no Linezolid entry.
 
 ## published_summary
 
@@ -3333,16 +3391,49 @@ Do not swap the rheumatic-fever regimen's target organism (Streptococcus pyogene
 
 
 ## hold_these
-
+Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans.
+Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans.
+Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin.
+Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection.
+Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed.
 
 ## lose_the_mark
-
+The governed slide does not assign this prophylaxis role to Aztreonam, Meropenem or Bacitracin.
+Streptococcus pyogenes is the target organism of the separate rheumatic-fever chemoprophylaxis regimen on the same slide, not the endocarditis regimen; the deck does not target Clostridium difficile or MRSA with this prophylaxis.
+The governed slide does not target rheumatic-fever chemoprophylaxis at Streptococcus pneumoniae, Staphylococcus aureus or Pseudomonas; Streptococcus viridans is instead the target of the separate endocarditis regimen on the same slide.
+Vancomycin, Bacitracin and Linezolid are not on the governed five-drug biliary-tract-infection list.
+Ceftriaxone, Rifampicin and Doxycycline are each explicitly on the governed five-drug list; only Linezolid is absent.
 
 ## callout_evidence
+### Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+Reviewed by: pending medical review
 
+### Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+Reviewed by: pending medical review
+
+### Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+Reviewed by: pending medical review
+
+### Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+Reviewed by: pending medical review
+
+### Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+Reviewed by: pending medical review
 
 ## related_concepts
-
+CON-INF-ED3FAB429E5084
+CON-INF-E2874B3C53FC5E
+CON-INF-9AD357B7C8EAC5
 
 ## related_articles
 ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY: Penicillin classes, combinations, uses and hypersensitivity
@@ -3350,26 +3441,61 @@ ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM: Carbapenems and monobactams
 ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE: Vancomycin clinical profile and pseudomembranous colitis
 
 ## question_ids
-
+QST-MUST-FHB1022-ANTIBACT2-Q14
+QST-MUST-FHB1022-ANTIBACT2-Q28
+QST-MUST-FHB1022-ANTIBACT2-Q39
+QST-MUST-FHB1022-ANTIBACT2-Q16
+QST-MUST-FHB1022-ANTIBACT2-Q31
 
 ## resource_ids
-
-
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
-
+src_9a16b2156717527bf0ab
 
 ## claim_ids
-
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q31-01
 
 ## span_ids
-
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q31-01
 
 ## university_notes
-must: Global Q retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q14, Q28, Q39, Q16, Q31 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
+### definition_of · CON-INF-ED3FAB429E5084
+Quote: The official slide states: "Chemoprophylaxis of infective endocarditis: -Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."
+Block: body
+Id: ann-must-fhb1022-antibact2-q14
 
+### definition_of · CON-INF-ED3FAB429E5084
+Quote: The official slide states: "Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."
+Block: body
+Id: ann-must-fhb1022-antibact2-q28
+
+### definition_of · CON-INF-E2874B3C53FC5E
+Quote: The official slide states: "Prophylaxis against rheumatic fever (strept.pyogenous- Group A beta hemolytic Strept) (by benzathine penicillin)."
+Block: body
+Id: ann-must-fhb1022-antibact2-q39
+
+### definition_of · CON-INF-9AD357B7C8EAC5
+Quote: The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin."
+Block: body
+Id: ann-must-fhb1022-antibact2-q16
+
+### definition_of · CON-INF-9AD357B7C8EAC5
+Quote: The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin," with no Linezolid entry.
+Block: body
+Id: ann-must-fhb1022-antibact2-q31
 
 ## media
 
@@ -3378,7 +3504,7 @@ must: Global Q retain literal student-bank wording, option order and printed key
 needs_evidence
 
 ## evidence_basis
-
+Official MUST FHB102-2 general antibacterial 2 deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps

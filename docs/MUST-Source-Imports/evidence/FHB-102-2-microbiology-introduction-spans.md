@@ -2681,3 +2681,179 @@ CLM-INF-MUST-FHB1022-ANTIBACT2-Q50-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-ANTIBACT2-Q50-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Polymyxin increases the permeability of the bacterial cell membrane.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-clinical-use-definition
+
+## text
+Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-clinical-use-definition
+
+## text
+Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-clinical-use-definition
+
+## text
+Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-clinical-use-definition
+
+## text
+Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+
+## article_id
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## section_id
+art-inf-must-fhb1022-antimicrobial-clinical-use-definition
+
+## text
+Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q31-01

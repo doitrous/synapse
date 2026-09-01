@@ -2156,7 +2156,7 @@ const mucizeAntibacterialTwoCellWallItems = [
   primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
 }))
 
-// STAGED-COMMIT-MARKER-B: microItems.push(...mucizeAntibacterialTwoCellWallItems)
+microItems.push(...mucizeAntibacterialTwoCellWallItems)
 
 const mucizeAntibacterialTwoClinicalUseItems = [
   {
@@ -2226,7 +2226,7 @@ const mucizeAntibacterialTwoClinicalUseItems = [
   primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
 }))
 
-// STAGED-COMMIT-MARKER-B: microItems.push(...mucizeAntibacterialTwoClinicalUseItems)
+microItems.push(...mucizeAntibacterialTwoClinicalUseItems)
 
 const mucizeAntibacterialTwoPharmacodynamicsItems = [
   {

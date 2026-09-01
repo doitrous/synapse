@@ -18541,3 +18541,1219 @@ yes
 
 ## author_notes
 Printed source key: Mucize Antibacterial (2) MCQ Q50 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q11
+
+## title
+Bacitracin is limited to topical use due to its:
+
+## question
+Bacitracin is limited to topical use due to its:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Poor oral absorption
+
+## explanation_a
+Incorrect. The governed slide does not attribute the topical-only restriction to poor oral absorption, beta-lactamase production, or a narrow spectrum. The supported answer is B, Nephrotoxicity when systemic.
+
+## answer_b
+Nephrotoxicity when systemic
+
+## explanation_b
+Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity. The official MUST teaching directly supports Nephrotoxicity when systemic for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Beta-lactamase production
+
+## explanation_c
+Incorrect. The governed slide does not attribute the topical-only restriction to poor oral absorption, beta-lactamase production, or a narrow spectrum. The supported answer is B, Nephrotoxicity when systemic.
+
+## answer_d
+Narrow spectrum
+
+## explanation_d
+Incorrect. The governed slide does not attribute the topical-only restriction to poor oral absorption, beta-lactamase production, or a narrow spectrum. The supported answer is B, Nephrotoxicity when systemic.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-C823BEE4EA2E9B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bacitracin use and safety
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify systemic nephrotoxicity as the governed reason Bacitracin is limited to topical use.
+
+## source_citation
+Absalam101 Part 2, p38, Mucize Antibacterial (2) MCQ Q11, printed key p44 (11 = B); official MUST general antibacterial 2, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q11 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q27
+
+## title
+Bacitracin is primarily effective against:
+
+## question
+Bacitracin is primarily effective against:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Gram-negative rods
+
+## explanation_a
+Incorrect. The governed slide does not assign Bacitracin activity against Gram-negative rods, anaerobes or Pseudomonas. The supported answer is B, Beta-lactamase-producing Staphylococcus.
+
+## answer_b
+Beta-lactamase-producing Staphylococcus
+
+## explanation_b
+Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus. The official MUST teaching directly supports Beta-lactamase-producing Staphylococcus for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Anaerobes
+
+## explanation_c
+Incorrect. The governed slide does not assign Bacitracin activity against Gram-negative rods, anaerobes or Pseudomonas. The supported answer is B, Beta-lactamase-producing Staphylococcus.
+
+## answer_d
+Pseudomonas
+
+## explanation_d
+Incorrect. The governed slide does not assign Bacitracin activity against Gram-negative rods, anaerobes or Pseudomonas. The supported answer is B, Beta-lactamase-producing Staphylococcus.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-C823BEE4EA2E9B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bacitracin use and safety
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify beta-lactamase-producing Staphylococcus as the governed Bacitracin target.
+
+## source_citation
+Absalam101 Part 2, p40, Mucize Antibacterial (2) MCQ Q27, printed key p44 (27 = B); official MUST general antibacterial 2, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q27 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q15
+
+## title
+Which antimicrobial increases cell membrane permeability?
+
+## question
+Which antimicrobial increases cell membrane permeability?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Polymyxin
+
+## explanation_a
+Polymyxin increases the permeability of the bacterial cell membrane. The official MUST teaching directly supports Polymyxin for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Vancomycin
+
+## explanation_b
+Incorrect. Vancomycin and Ceftriaxone act on the cell wall rather than membrane permeability, and Azithromycin is a protein-synthesis inhibitor, not a membrane-permeability agent, in the governed deck. The supported answer is A, Polymyxin.
+
+## answer_c
+Ceftriaxone
+
+## explanation_c
+Incorrect. Vancomycin and Ceftriaxone act on the cell wall rather than membrane permeability, and Azithromycin is a protein-synthesis inhibitor, not a membrane-permeability agent, in the governed deck. The supported answer is A, Polymyxin.
+
+## answer_d
+Azithromycin
+
+## explanation_d
+Incorrect. Vancomycin and Ceftriaxone act on the cell wall rather than membrane permeability, and Azithromycin is a protein-synthesis inhibitor, not a membrane-permeability agent, in the governed deck. The supported answer is A, Polymyxin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-6C3E76AC2AC9D4
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Polymyxin mechanism
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Polymyxin as the antimicrobial that increases cell membrane permeability.
+
+## source_citation
+Absalam101 Part 2, p39, Mucize Antibacterial (2) MCQ Q15, printed key p44 (15 = A); official MUST general antibacterial 2, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q15 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q14
+
+## title
+Before dental procedures, endocarditis prophylaxis involves:
+
+## question
+Before dental procedures, endocarditis prophylaxis involves:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Aztreonam
+
+## explanation_a
+Incorrect. The governed slide does not assign this prophylaxis role to Aztreonam, Meropenem or Bacitracin. The supported answer is B, Ampicillin.
+
+## answer_b
+Ampicillin
+
+## explanation_b
+Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans. The official MUST teaching directly supports Ampicillin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Meropenem
+
+## explanation_c
+Incorrect. The governed slide does not assign this prophylaxis role to Aztreonam, Meropenem or Bacitracin. The supported answer is B, Ampicillin.
+
+## answer_d
+Bacitracin
+
+## explanation_d
+Incorrect. The governed slide does not assign this prophylaxis role to Aztreonam, Meropenem or Bacitracin. The supported answer is B, Ampicillin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-ED3FAB429E5084
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Infective endocarditis chemoprophylaxis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify ampicillin as the governed drug for dental-procedure endocarditis chemoprophylaxis.
+
+## source_citation
+Absalam101 Part 2, p38, Mucize Antibacterial (2) MCQ Q14, printed key p44 (14 = B); official MUST general antibacterial 2, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q14 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q28
+
+## title
+Chemoprophylaxis for endocarditis targets:
+
+## question
+Chemoprophylaxis for endocarditis targets:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Streptococcus pyogenes
+
+## explanation_a
+Incorrect. Streptococcus pyogenes is the target organism of the separate rheumatic-fever chemoprophylaxis regimen on the same slide, not the endocarditis regimen; the deck does not target Clostridium difficile or MRSA with this prophylaxis. The supported answer is B, Streptococcus viridans.
+
+## answer_b
+Streptococcus viridans
+
+## explanation_b
+Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans. The official MUST teaching directly supports Streptococcus viridans for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Clostridium difficile
+
+## explanation_c
+Incorrect. Streptococcus pyogenes is the target organism of the separate rheumatic-fever chemoprophylaxis regimen on the same slide, not the endocarditis regimen; the deck does not target Clostridium difficile or MRSA with this prophylaxis. The supported answer is B, Streptococcus viridans.
+
+## answer_d
+MRSA
+
+## explanation_d
+Incorrect. Streptococcus pyogenes is the target organism of the separate rheumatic-fever chemoprophylaxis regimen on the same slide, not the endocarditis regimen; the deck does not target Clostridium difficile or MRSA with this prophylaxis. The supported answer is B, Streptococcus viridans.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-ED3FAB429E5084
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Infective endocarditis chemoprophylaxis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Streptococcus viridans as the governed target organism of dental-endocarditis chemoprophylaxis.
+
+## source_citation
+Absalam101 Part 2, p40, Mucize Antibacterial (2) MCQ Q28, printed key p44 (28 = B); official MUST general antibacterial 2, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q28 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q39
+
+## title
+Chemoprophylaxis for rheumatic fever prevents infections by:
+
+## question
+Chemoprophylaxis for rheumatic fever prevents infections by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Streptococcus pneumoniae
+
+## explanation_a
+Incorrect. The governed slide does not target rheumatic-fever chemoprophylaxis at Streptococcus pneumoniae, Staphylococcus aureus or Pseudomonas; Streptococcus viridans is instead the target of the separate endocarditis regimen on the same slide. The supported answer is B, Streptococcus pyogenes.
+
+## answer_b
+Streptococcus pyogenes
+
+## explanation_b
+Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin. The official MUST teaching directly supports Streptococcus pyogenes for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Staphylococcus aureus
+
+## explanation_c
+Incorrect. The governed slide does not target rheumatic-fever chemoprophylaxis at Streptococcus pneumoniae, Staphylococcus aureus or Pseudomonas; Streptococcus viridans is instead the target of the separate endocarditis regimen on the same slide. The supported answer is B, Streptococcus pyogenes.
+
+## answer_d
+Pseudomonas
+
+## explanation_d
+Incorrect. The governed slide does not target rheumatic-fever chemoprophylaxis at Streptococcus pneumoniae, Staphylococcus aureus or Pseudomonas; Streptococcus viridans is instead the target of the separate endocarditis regimen on the same slide. The supported answer is B, Streptococcus pyogenes.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-E2874B3C53FC5E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Rheumatic-fever chemoprophylaxis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Streptococcus pyogenes as the governed target organism of rheumatic-fever chemoprophylaxis.
+
+## source_citation
+Absalam101 Part 2, p42, Mucize Antibacterial (2) MCQ Q39, printed key p44 (39 = B); official MUST general antibacterial 2, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q39 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q16
+
+## title
+Which antibiotic is used in biliary tract infections?
+
+## question
+Which antibiotic is used in biliary tract infections?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Ceftriaxone
+
+## explanation_a
+Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection. The official MUST teaching directly supports Ceftriaxone for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Vancomycin
+
+## explanation_b
+Incorrect. Vancomycin, Bacitracin and Linezolid are not on the governed five-drug biliary-tract-infection list. The supported answer is A, Ceftriaxone.
+
+## answer_c
+Bacitracin
+
+## explanation_c
+Incorrect. Vancomycin, Bacitracin and Linezolid are not on the governed five-drug biliary-tract-infection list. The supported answer is A, Ceftriaxone.
+
+## answer_d
+Linezolid
+
+## explanation_d
+Incorrect. Vancomycin, Bacitracin and Linezolid are not on the governed five-drug biliary-tract-infection list. The supported answer is A, Ceftriaxone.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-9AD357B7C8EAC5
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Biliary tract infection treatment
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify ceftriaxone as a governed biliary-tract-infection treatment drug.
+
+## source_citation
+Absalam101 Part 2, p39, Mucize Antibacterial (2) MCQ Q16, printed key p44 (16 = A); official MUST general antibacterial 2, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q16 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q31
+
+## title
+Which is NOT listed for biliary tract infections?
+
+## question
+Which is NOT listed for biliary tract infections?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Ceftriaxone
+
+## explanation_a
+Incorrect. Ceftriaxone, Rifampicin and Doxycycline are each explicitly on the governed five-drug list; only Linezolid is absent. The supported answer is D, Linezolid.
+
+## answer_b
+Rifampicin
+
+## explanation_b
+Incorrect. Ceftriaxone, Rifampicin and Doxycycline are each explicitly on the governed five-drug list; only Linezolid is absent. The supported answer is D, Linezolid.
+
+## answer_c
+Doxycycline
+
+## explanation_c
+Incorrect. Ceftriaxone, Rifampicin and Doxycycline are each explicitly on the governed five-drug list; only Linezolid is absent. The supported answer is D, Linezolid.
+
+## answer_d
+Linezolid
+
+## explanation_d
+Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed. The official MUST teaching directly supports Linezolid for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-9AD357B7C8EAC5
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Biliary tract infection treatment
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Linezolid as the drug absent from the governed biliary-tract-infection list.
+
+## source_citation
+Absalam101 Part 2, p41, Mucize Antibacterial (2) MCQ Q31, printed key p44 (31 = D); official MUST general antibacterial 2, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q31 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

@@ -5365,3 +5365,355 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
 source question: Absalam Mucize Antibacterial (2) MCQ Q50
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+
+## concept_id
+CON-INF-C823BEE4EA2E9B
+
+## subject
+Bacitracin is limited to topical use against beta-lactamase-producing Staphylococcus because systemic use is nephrotoxic
+
+## predicate
+states
+
+## object
+Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity.
+
+## display_text
+Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q11
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+
+## concept_id
+CON-INF-C823BEE4EA2E9B
+
+## subject
+Bacitracin is limited to topical use against beta-lactamase-producing Staphylococcus because systemic use is nephrotoxic
+
+## predicate
+states
+
+## object
+Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus.
+
+## display_text
+Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q27
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+
+## concept_id
+CON-INF-6C3E76AC2AC9D4
+
+## subject
+Polymyxin increases bacterial cell membrane permeability
+
+## predicate
+states
+
+## object
+Polymyxin increases the permeability of the bacterial cell membrane.
+
+## display_text
+Polymyxin increases the permeability of the bacterial cell membrane.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q15
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+
+## concept_id
+CON-INF-ED3FAB429E5084
+
+## subject
+Dental-procedure endocarditis chemoprophylaxis uses ampicillin or amoxicillin against Streptococcus viridans
+
+## predicate
+states
+
+## object
+Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans.
+
+## display_text
+Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q14
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+
+## concept_id
+CON-INF-ED3FAB429E5084
+
+## subject
+Dental-procedure endocarditis chemoprophylaxis uses ampicillin or amoxicillin against Streptococcus viridans
+
+## predicate
+states
+
+## object
+Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans.
+
+## display_text
+Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q28
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+
+## concept_id
+CON-INF-E2874B3C53FC5E
+
+## subject
+Rheumatic-fever chemoprophylaxis prevents infection by Streptococcus pyogenes (Group A beta-hemolytic Streptococcus)
+
+## predicate
+states
+
+## object
+Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin.
+
+## display_text
+Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q39
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+
+## concept_id
+CON-INF-9AD357B7C8EAC5
+
+## subject
+Biliary tract infection is treated with ceftriaxone, cefoperazone, rifampicin, doxycycline and ampicillin
+
+## predicate
+states
+
+## object
+Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection.
+
+## display_text
+Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q16
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+
+## concept_id
+CON-INF-9AD357B7C8EAC5
+
+## subject
+Biliary tract infection is treated with ceftriaxone, cefoperazone, rifampicin, doxycycline and ampicillin
+
+## predicate
+states
+
+## object
+Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed.
+
+## display_text
+Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q31

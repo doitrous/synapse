@@ -4877,3 +4877,323 @@ The official MUST teaching deck directly supports the unchanged printed Mucize A
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections. Not used systemically because it is nephrotoxic."
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+general antibacterial 2 — Bacitracin use and safety
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q11 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections."
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+general antibacterial 2 — Bacitracin use and safety
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q27 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states: "Antimicrobials that Increase permeability of cell membrane are polymyxin and nystatin."
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+general antibacterial 2 — Polymyxin mechanism
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q15 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states: "Chemoprophylaxis of infective endocarditis: -Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+general antibacterial 2 — Infective endocarditis chemoprophylaxis
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q14 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states: "Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+general antibacterial 2 — Infective endocarditis chemoprophylaxis
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q28 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states: "Prophylaxis against rheumatic fever (strept.pyogenous- Group A beta hemolytic Strept) (by benzathine penicillin)."
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+general antibacterial 2 — Rheumatic-fever chemoprophylaxis
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q39 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin."
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+general antibacterial 2 — Biliary tract infection treatment
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q16 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin," with no Linezolid entry.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+general antibacterial 2 — Biliary tract infection treatment
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q31 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

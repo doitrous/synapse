@@ -16778,3 +16778,921 @@ rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survive
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-C823BEE4EA2E9B
+
+## label
+Bacitracin is limited to topical use against beta-lactamase-producing Staphylococcus because systemic use is nephrotoxic
+
+## canonical_key
+pharmacology.bacitracin.topical-staph-nephrotoxicity
+
+## aliases
+Bacitracin topical restriction
+Bacitracin nephrotoxicity
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity. Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus.
+
+## explicit_objective
+Identify systemic nephrotoxicity as the governed reason Bacitracin is limited to topical use. Identify beta-lactamase-producing Staphylococcus as the governed Bacitracin target.
+
+## pitfalls
+The governed slide does not attribute the topical-only restriction to poor oral absorption, beta-lactamase production, or a narrow spectrum. The governed slide does not assign Bacitracin activity against Gram-negative rods, anaerobes or Pseudomonas.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Bacitracin use and safety
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bacitracin use and safety
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q11-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q27-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p38 Mucize Antibacterial (2) MCQ Q11; printed answer p44
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p40 Mucize Antibacterial (2) MCQ Q27; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p10 direct MUST teaching
+src_9a16b2156717527bf0ab | tier 1 local teaching | p10 direct MUST teaching
+
+## original_wording
+Bacitracin is limited to topical use due to its: Printed key B; options retained in their original order.
+Bacitracin is primarily effective against: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q11; printed B agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (2) MCQ Q27; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-6C3E76AC2AC9D4
+
+## label
+Polymyxin increases bacterial cell membrane permeability
+
+## canonical_key
+pharmacology.polymyxin.membrane-permeability-mechanism
+
+## aliases
+Polymyxin mechanism
+Cell membrane permeability agents
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Polymyxin increases the permeability of the bacterial cell membrane.
+
+## explicit_objective
+Identify Polymyxin as the antimicrobial that increases cell membrane permeability.
+
+## pitfalls
+Vancomycin and Ceftriaxone act on the cell wall rather than membrane permeability, and Azithromycin is a protein-synthesis inhibitor, not a membrane-permeability agent, in the governed deck.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Polymyxin mechanism
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Polymyxin mechanism
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q15-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p39 Mucize Antibacterial (2) MCQ Q15; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p11 direct MUST teaching
+
+## original_wording
+Which antimicrobial increases cell membrane permeability? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q15; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-ED3FAB429E5084
+
+## label
+Dental-procedure endocarditis chemoprophylaxis uses ampicillin or amoxicillin against Streptococcus viridans
+
+## canonical_key
+pharmacology.chemoprophylaxis.dental-endocarditis-ampicillin-strep-viridans
+
+## aliases
+Dental endocarditis prophylaxis
+Chemoprophylaxis before dental manipulation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans. Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans.
+
+## explicit_objective
+Identify ampicillin as the governed drug for dental-procedure endocarditis chemoprophylaxis. Identify Streptococcus viridans as the governed target organism of dental-endocarditis chemoprophylaxis.
+
+## pitfalls
+The governed slide does not assign this prophylaxis role to Aztreonam, Meropenem or Bacitracin. Streptococcus pyogenes is the target organism of the separate rheumatic-fever chemoprophylaxis regimen on the same slide, not the endocarditis regimen; the deck does not target Clostridium difficile or MRSA with this prophylaxis.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Infective endocarditis chemoprophylaxis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Infective endocarditis chemoprophylaxis
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q14-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q28-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p38 Mucize Antibacterial (2) MCQ Q14; printed answer p44
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p40 Mucize Antibacterial (2) MCQ Q28; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p11 direct MUST teaching
+src_9a16b2156717527bf0ab | tier 1 local teaching | p11 direct MUST teaching
+
+## original_wording
+Before dental procedures, endocarditis prophylaxis involves: Printed key B; options retained in their original order.
+Chemoprophylaxis for endocarditis targets: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q14; printed B agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (2) MCQ Q28; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-E2874B3C53FC5E
+
+## label
+Rheumatic-fever chemoprophylaxis prevents infection by Streptococcus pyogenes (Group A beta-hemolytic Streptococcus)
+
+## canonical_key
+pharmacology.chemoprophylaxis.rheumatic-fever-organism-strep-pyogenes
+
+## aliases
+Rheumatic fever prophylaxis organism
+Group A Streptococcus prophylaxis target
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin.
+
+## explicit_objective
+Identify Streptococcus pyogenes as the governed target organism of rheumatic-fever chemoprophylaxis.
+
+## pitfalls
+The governed slide does not target rheumatic-fever chemoprophylaxis at Streptococcus pneumoniae, Staphylococcus aureus or Pseudomonas; Streptococcus viridans is instead the target of the separate endocarditis regimen on the same slide.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Rheumatic-fever chemoprophylaxis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Rheumatic-fever chemoprophylaxis
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q39-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p42 Mucize Antibacterial (2) MCQ Q39; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p11 direct MUST teaching
+
+## original_wording
+Chemoprophylaxis for rheumatic fever prevents infections by: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q39; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-9AD357B7C8EAC5
+
+## label
+Biliary tract infection is treated with ceftriaxone, cefoperazone, rifampicin, doxycycline and ampicillin
+
+## canonical_key
+pharmacology.biliary-tract-infection.drug-list
+
+## aliases
+Biliary tract infection drug list
+Antimicrobials for biliary tract infection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection. Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed.
+
+## explicit_objective
+Identify ceftriaxone as a governed biliary-tract-infection treatment drug. Identify Linezolid as the drug absent from the governed biliary-tract-infection list.
+
+## pitfalls
+Vancomycin, Bacitracin and Linezolid are not on the governed five-drug biliary-tract-infection list. Ceftriaxone, Rifampicin and Doxycycline are each explicitly on the governed five-drug list; only Linezolid is absent.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Biliary tract infection treatment
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Biliary tract infection treatment
+
+## article_ids
+ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q16-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q31-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p39 Mucize Antibacterial (2) MCQ Q16; printed answer p44
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p41 Mucize Antibacterial (2) MCQ Q31; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p12 direct MUST teaching
+src_9a16b2156717527bf0ab | tier 1 local teaching | p12 direct MUST teaching
+
+## original_wording
+Which antibiotic is used in biliary tract infections? Printed key A; options retained in their original order.
+Which is NOT listed for biliary tract infections? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q16; printed A agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (2) MCQ Q31; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
