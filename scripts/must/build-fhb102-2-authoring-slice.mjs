@@ -41,6 +41,94 @@ const bacterialGeneticsResourceId = 'src_a3d71ccbc276ec903213'
 const antifungalDrugResourceId = 'src_bbf7f72f08ce85032b4d'
 const bacterialGrowthResourceId = 'src_da7cc51e7ac1ee22c68a'
 const bacterialCellResourceId = 'src_88ddfa49fe01adee5444'
+const absalamAssessmentResourceId = 'src_4bd3b78f762673d7eb7f'
+const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
+
+const introArticles = {
+  definitions: 'ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS',
+  classification: 'ART-INF-MUST-FHB1022-PARASITE-HABITAT-CLASSIFICATION',
+  helminths: 'ART-INF-MUST-FHB1022-HELMINTH-TAXONOMY-MORPHOLOGY',
+}
+
+const introItems = [
+  {
+    q: 2, conceptId: 'CON-INF-04A996DBD345A9', canonicalKey: 'parasitology.foundations.parasite-definition',
+    label: 'Parasite as a host-associated harmful organism', aliases: ['Parasite definition', 'Parasitic organism'], conceptType: 'definition',
+    article: 'definitions', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite definition', page: 5,
+    stem: 'A parasite is an organism that:', key: 'B', options: ['Benefits the host', 'A living organism that lives in or on another organism and harms it', 'A free-living organism', 'Can only survive outside a host'],
+    claim: 'A parasite is a living organism that lives in or on another organism and harms it.',
+    support: 'A parasite is a living organism that lives in or on another living organism and harms it.',
+    objective: 'Recognise the host-associated and harmful relationship that defines a parasite.',
+    pitfalls: 'A parasite does not benefit its host, and parasitism does not imply that the organism can live only outside a host.',
+    rejected: [],
+  },
+  {
+    q: 4, conceptId: 'CON-INF-F82C6307A7B7E3', canonicalKey: 'parasitology.foundations.facultative-parasite',
+    label: 'Facultative parasite', aliases: ['Facultative parasitism', 'Free-living or parasitic organism'], conceptType: 'definition',
+    article: 'definitions', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite living habits', page: 7,
+    stem: 'A facultative parasite:', key: 'B', options: ['Is always dependent on a host', 'Can live both as a parasite and free-living', 'Is always an endoparasite', 'Requires multiple hosts for survival'],
+    claim: 'A facultative parasite can alternate between free-living and parasitic modes of life.',
+    support: 'Facultative parasites can alternate between free-living and parasitic modes of life.',
+    objective: 'Identify the ability to live either freely or parasitically as the defining feature of a facultative parasite.',
+    pitfalls: 'Facultative does not mean obligately host-dependent, necessarily endoparasitic, or dependent on multiple hosts.',
+    rejected: ['concept_4843023d39649fa9864f9980 — narrower Strongyloides-specific free-living/parasitic example; not the general definition.'],
+  },
+  {
+    q: 5, conceptId: 'CON-INF-C79E84EB999C31', canonicalKey: 'parasitology.foundations.opportunistic-parasite',
+    label: 'Opportunistic parasite in immunocompromised hosts', aliases: ['Opportunistic parasitism', 'Parasite causing severe disease in immunocompromised hosts'], conceptType: 'definition',
+    article: 'definitions', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Host susceptibility', page: 9,
+    stem: 'An opportunistic parasite:', key: 'C', options: ['Causes disease in healthy individuals', 'Only infects plants', 'Causes severe disease in immunocompromised hosts', 'Can live independently without a host'],
+    claim: 'An opportunistic parasite may cause severe disease in an immunocompromised host.',
+    support: 'An opportunistic parasite causes severe disease in immunocompromised hosts.',
+    objective: 'Recognise immunocompromise as the host context associated with severe opportunistic parasitic disease.',
+    pitfalls: 'Opportunistic does not mean plant-only infection, obligatory disease in healthy people, or independent free living.',
+    rejected: ['concept_99ed9f61ec904013cf85cd95 — narrower Pneumocystis example; not the general opportunistic-parasite definition.'],
+  },
+  {
+    q: 9, conceptId: 'CON-INF-829EB6EC11CC8F', canonicalKey: 'parasitology.habitat.malaria-blood',
+    label: 'Malaria parasites inhabit human blood', aliases: ['Malaria blood habitat', 'Haemopoietic habitat of malaria parasites'], conceptType: 'fact',
+    article: 'classification', primaryNode: 'DIS-PAR-T01', subtopic: 'Protozoology', microtopic: 'Parasite habitat', page: 16,
+    stem: 'What is the habitat of malaria parasites in humans?', key: 'D', options: ['Intestine', 'Muscles', 'Skin', 'Blood'],
+    claim: 'Malaria parasites are blood parasites in the human haemopoietic system.',
+    support: 'Haemopoietic system: blood parasites e.g. Malaria parasite.',
+    objective: 'Identify blood as the human habitat of malaria parasites.',
+    pitfalls: 'Do not substitute intestine, muscle, or skin for the blood habitat stated in the local classification slide.',
+    rejected: [],
+  },
+  {
+    q: 11, conceptId: 'CON-INF-D13F9697E5B95F', canonicalKey: 'parasitology.classification.taxonomy-and-habitat',
+    label: 'Parasites classified by taxonomy and human-body habitat', aliases: ['Scientific and habitat classification of parasites', 'Parasite classification approaches'], conceptType: 'classification',
+    article: 'classification', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite classification', page: 32,
+    stem: 'Which of the following is is a classification of parasites?', key: 'D', options: ['Based on their taxonomy', 'Based on their habitat in the human body', 'Based on their color', 'A & B'],
+    claim: 'Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.',
+    support: 'Classification of parasites: based on their taxonomy (scientific classification) and based on their habitat (where they live in human host).',
+    objective: 'Recognise taxonomy and human-body habitat as two valid approaches to parasite classification.',
+    pitfalls: 'Colour is not one of the two classification approaches taught on the governed slide.',
+    rejected: [],
+  },
+  {
+    q: 14, conceptId: 'CON-INF-F58CE242AA1B1E', canonicalKey: 'parasitology.helminths.trematode-leaf-like-unsegmented',
+    label: 'Trematodes are leaf-like unsegmented flatworms', aliases: ['Trematode morphology', 'Flukes are leaf-like and unsegmented'], conceptType: 'morphology',
+    article: 'helminths', primaryNode: 'DIS-PAR-T02', subtopic: 'Helminthology', microtopic: 'Trematodes', page: 33,
+    stem: 'What is the shape of trematodes?', key: 'B', options: ['Tape-like and segmented', 'Leaf-like and unsegmented', 'Cylindrical and unsegmented', 'Spherical'],
+    claim: 'Trematodes are flat, leaf-like, unsegmented helminths.',
+    support: 'Class: Trematoda (the flukes): flat leaf like, un-segmented.',
+    objective: 'Distinguish the leaf-like unsegmented morphology of trematodes from cestodes and nematodes.',
+    pitfalls: 'Tape-like segmented morphology describes cestodes, while cylindrical unsegmented morphology describes nematodes.',
+    rejected: ['concept_7529e2cd8159d395916adb19 — narrower Fasciola-specific leaf-shape example; not the class-level trematode morphology.'],
+  },
+  {
+    q: 15, conceptId: 'CON-INF-DF11AEE644F4AF', canonicalKey: 'parasitology.helminths.flatworms-trematodes-cestodes',
+    label: 'Parasitic flatworms include trematodes and cestodes', aliases: ['Flatworm helminth groups', 'Platyhelminths: trematodes and cestodes'], conceptType: 'classification',
+    article: 'helminths', primaryNode: 'DIS-PAR-T02', subtopic: 'Helminthology', microtopic: 'Helminth classification', page: 34,
+    stem: 'The group of parasitic flatworms includes:', key: 'C', options: ['Trematodes and Nematodes', 'Nematodes and Cestodes', 'Cestodes and Trematodes', 'Cestodes and Protozoa'],
+    claim: 'The parasitic flatworms comprise trematodes and cestodes.',
+    support: 'Helminths divide into roundworms (nematodes) and flatworms; flatworms divide into trematodes and cestodes.',
+    objective: 'Identify trematodes and cestodes as the two parasitic flatworm groups.',
+    pitfalls: 'Nematodes are roundworms, and protozoa are unicellular parasites rather than flatworm helminths.',
+    rejected: [],
+  },
+]
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -93,6 +181,13 @@ const outputs = {
   'docs/MUST-Source-Imports/concept/FHB-102-2-sarcophaga-myiasis-concepts.md': sarcoConcepts(),
   'docs/MUST-Source-Imports/article/FHB-102-2-sarcophaga-myiasis-articles.md': sarcoArticles(),
   'docs/MUST-Source-Imports/question/FHB-102-2-sarcophaga-myiasis-mcq.md': sarcoQuestions(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-parasitology-introduction-sources.md': introSources(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-parasitology-introduction-claims.md': introClaims(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-parasitology-introduction-citations.md': introCitations(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-parasitology-introduction-spans.md': introSpans(),
+  'docs/MUST-Source-Imports/concept/FHB-102-2-parasitology-introduction-concepts.md': introConcepts(),
+  'docs/MUST-Source-Imports/article/FHB-102-2-parasitology-introduction-articles.md': introArticleRecords(),
+  'docs/MUST-Source-Imports/question/FHB-102-2-parasitology-introduction-mcq.md': introQuestions(),
   'docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md': coverage(),
 }
 
@@ -1213,7 +1308,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 20,
+    count: 22,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -1477,6 +1572,32 @@ function corpusSourceIndex() {
         sha256: '88ddfa49fe01adee544433ce1dce313110c9dc622debf1dc3d6ef85a7606d674',
         processingStatus: 'partially_governed_selected_pages',
         pageCount: 42,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
+      },
+      [absalamAssessmentResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf'],
+        sha256: '4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf',
+        processingStatus: 'fully_governed',
+        pageCount: 45,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['Midterm Exams', 'MCQs'],
+      },
+      [introTeachingResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf'],
+        sha256: 'f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149',
+        processingStatus: 'fully_governed',
+        pageCount: 48,
         languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
@@ -6869,7 +6990,7 @@ Printed source key: Q12 = D. The printed key agrees with the university Sarcopha
 `
 }
 
-function coverage() {
+function baseCoverage() {
   return `# MUST FHB 102-2 — authoring progress
 
 Generated by \`scripts/must/build-fhb102-2-authoring-slice.mjs\`. This file is an authoring ledger, not an upload instruction.
@@ -7121,3 +7242,817 @@ The next family boundary is the completed third triage source, \`Year 1/Semester
 No MUST content has been uploaded or imported. All eight student-facing articles and questions remain Draft; all eight concepts use the concept schema's non-published \`under review\` state and \`publication_status: needs_evidence\`. Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.
 `
 }
+
+function introSources() {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->
+
+# Item
+
+## id
+${absalamAssessmentResourceId}
+
+## title
+FHB102-2 MCQs till Midterm by Absalam101 — Part 1
+
+## institution
+Student-authored revision bank attributed to Absalam101; MUST scope appears in the title, but no institution, department, examiner or authenticated faculty key is printed
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025
+
+## accessed_at
+2026-09-01
+
+## page_count
+45
+
+## sha256
+4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf
+
+## rights
+Locally supplied study material; internal curriculum authoring only.
+
+## qualification
+Pages 1–5 and the complete printed answer table on page 9 were rendered and visually read for Parasitology Introduction Q1–Q15. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Q2, Q4, Q5, Q9, Q11, Q14 and Q15 are authored with their printed wording, option order and keys unchanged. Q1, Q3, Q6, Q7, Q8, Q10, Q12 and Q13 remain explicit identity, evidence-scope or ambiguity holds with no student-facing record.
+
+## confidence
+0.6
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
+${introTeachingResourceId}
+
+## title
+An Introduction to Medical Parasitology, FHB102-2
+
+## institution
+Misr University for Science and Technology, Faculty of Medicine; teaching updates visibly attributed to Dr Heba Abdel Aaty
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+48
+
+## sha256
+f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+Pages 1, 4–7, 9, 11–12, 14, 16–17, 27, 32–34 and 40–41 were rendered and visually read for the bounded Q1–Q15 assessment. Page 1 visibly carries the MUST and FHB102-2 identity. The selected pages directly support the seven authored keys and expose Q13's broad single-best-answer ambiguity, but the deck is teaching authority rather than an authenticated answer key.
+
+## confidence
+0.95
+
+## is_assessment
+no
+`
+}
+
+function introClaims() {
+  return generatedItems(introItems.map((item) => `# Item
+
+## id
+${introClaimId(item)}
+
+## concept_id
+${item.conceptId}
+
+## subject
+${item.label}
+
+## predicate
+states
+
+## object
+${item.claim}
+
+## display_text
+${item.claim}
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Introduction Q${item.q}`))
+}
+
+function introCitations() {
+  return generatedItems(introItems.map((item) => `# Item
+
+## id
+${introCitationId(item)}
+
+## claim_id
+${introClaimId(item)}
+
+## resource_id
+${introTeachingResourceId}
+
+## evidence_role
+local_curriculum
+
+## support_span
+${item.support}
+
+## locator_type
+page
+
+## locator_page
+${item.page}
+
+## locator_section
+Introduction to Medical Parasitology — ${item.microtopic}
+
+## locator_detail
+PDF page ${item.page}, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Q${item.q} answer ${item.key}.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes`))
+}
+
+function introSpans() {
+  return generatedItems(introItems.map((item) => `# Item
+
+## id
+${introSpanId(item)}
+
+## article_id
+${introArticles[item.article]}
+
+## section_id
+${introArticleSectionId(item.article)}
+
+## text
+${item.claim}
+
+## claim_ids
+${introClaimId(item)}
+
+## citation_ids
+${introCitationId(item)}`))
+}
+
+function introConcepts() {
+  return generatedItems(introItems.map((item) => {
+    const relatedArticles = Object.values(introArticles).filter((id) => id !== introArticles[item.article]).join('\n')
+    const rejectedIds = item.rejected.length ? item.rejected.map((entry) => entry.split(' — ')[0]).join('\n') : '[clear]'
+    const rejectedNotes = item.rejected.length ? item.rejected.join(' ') : 'No manual raw-corpus merge candidate survived the identity audit.'
+    return `# Item
+
+## id
+${item.conceptId}
+
+## label
+${item.label}
+
+## canonical_key
+${item.canonicalKey}
+
+## aliases
+${item.aliases.join('\n')}
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+${item.claim}
+
+## explicit_objective
+${item.objective}
+
+## pitfalls
+${item.pitfalls}
+
+## concept_type
+${item.conceptType}
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+${item.primaryNode}
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+${item.subtopic}
+
+## microtopic
+${item.microtopic}
+
+## nanotopic
+
+
+## modules
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > ${item.subtopic} > ${item.microtopic}
+
+## article_ids
+${introArticles[item.article]}
+
+## related_article_ids
+${relatedArticles}
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+${introTeachingResourceId}
+${absalamAssessmentResourceId}
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+${introClaimId(item)}
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+${absalamAssessmentResourceId} | tier 3 | 2025 | pp1–5 Q${item.q}; printed answer p9
+${introTeachingResourceId} | tier 2 | undated | p${item.page} direct university teaching
+
+## original_wording
+${item.stem} Printed key ${item.key}; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+${rejectedIds}
+
+## conflicts
+No key conflict affects authored Absalam Introduction Q${item.q}. Its printed ${item.key} agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: ${rejectedNotes}
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete sibling articles created in the same bounded batch.`
+  }))
+}
+
+function getIntroArticleData() { return {
+  definitions: {
+    title: 'Parasite definitions and living habits', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Parasite definitions',
+    summary: 'A parasite lives in or on a host and harms it. Facultative parasites can alternate between free-living and parasitic modes, while opportunistic parasites may cause severe disease when host immunity is compromised.',
+    sections: `### Definition
+A parasite is a living organism that lives in or on another organism and harms it. This host-associated harmful relationship distinguishes parasitism from a mutually beneficial association.
+
+### Mechanism
+A facultative parasite can alternate between free-living and parasitic modes of life. It is therefore not always dependent on a host and is not defined by a multiple-host life cycle. An opportunistic parasite may cause severe disease in an immunocompromised host. The term describes the interaction with reduced host defence rather than a plant-only infection or free-living habit.
+
+### Key determinants
+Parasite describes the harmful host relationship, facultative describes the ability to alternate living modes, and opportunistic describes disease emerging in a susceptible host context.
+
+### Clinical significance
+These definitions organise how parasite behaviour and host susceptibility are described in the local curriculum. They provide the recognition language used in the associated questions without extending beyond the governed teaching statements.
+
+### Common misconceptions
+Do not treat facultative as synonymous with obligatory parasitism. Do not define opportunistic parasites as organisms that necessarily cause severe disease in every healthy host.`,
+  },
+  classification: {
+    title: 'Parasite habitat and classification', primaryNode: 'DIS-PAR', subtopic: 'Foundations', microtopic: 'Habitat and classification',
+    summary: 'Parasites can be classified scientifically by taxonomy or clinically by their habitat in the human host. Malaria parasites are classified by habitat as blood parasites of the haemopoietic system.',
+    sections: `### Definition
+Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host. The local curriculum presents both approaches rather than treating either as the sole classification.
+
+### Mechanism
+Habitat classification groups parasites by their site in the human body. The approach supports clinical recognition and diagnosis without replacing scientific taxonomy.
+
+### Key determinants
+Malaria parasites are blood parasites in the human haemopoietic system. Blood is therefore the best answer when the question asks their human habitat. Taxonomy and habitat are both valid classification approaches in the governed deck, while colour is not.
+
+### Clinical significance
+Scientific classification supports laboratory identification, while habitat classification supports clinical diagnosis in the teaching deck. Malaria supplies the direct blood-habitat example used in the bounded question slice.
+
+### Common misconceptions
+Do not force a choice between taxonomy and habitat when an option combines both. Do not substitute intestine, muscle, or skin for the stated blood habitat of malaria parasites.`,
+  },
+  helminths: {
+    title: 'Medical helminth taxonomy and morphology', primaryNode: 'DIS-PAR-T02', subtopic: 'Helminthology', microtopic: 'Taxonomy and morphology',
+    summary: 'Medical helminths include roundworms and flatworms. Flatworms comprise trematodes and cestodes; trematodes are flat, leaf-like and unsegmented, whereas cestodes are flat and segmented.',
+    sections: `### Definition
+Medical helminths include roundworms and flatworms. Nematodes are roundworms, while the flatworms comprise trematodes and cestodes. The parasitic flatworms comprise trematodes and cestodes.
+
+### Mechanism
+The teaching deck distinguishes the groups through branch relationships and visible body form. Class membership and morphology together separate trematodes, cestodes and nematodes.
+
+### Key determinants
+Trematodes are flat, leaf-like, unsegmented helminths. Cestodes are tapeworms and are flat and segmented. Their segmentation is the contrasting feature used beside trematode morphology in the governed teaching deck.
+
+### Clinical significance
+The class-level morphology supplies a rapid recognition framework for medical helminth questions. It also prevents roundworm nematodes or unicellular protozoa from being grouped with parasitic flatworms.
+
+### Common misconceptions
+Do not combine nematodes with cestodes or trematodes as the two flatworm groups. Do not call trematodes tape-like and segmented.`,
+  },
+} }
+
+function introArticleRecords() {
+  const introArticleData = getIntroArticleData()
+  return generatedItems(Object.entries(introArticleData).map(([key, article]) => {
+    const articleItems = introItems.filter((item) => item.article === key)
+    const related = Object.entries(introArticles).filter(([other]) => other !== key).map(([other, id]) => `${id}: ${introArticleData[other].title}`).join('\n')
+    return `# Item
+
+## id
+${introArticles[key]}
+
+## title
+${article.title}
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 ${article.microtopic}
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+${article.subtopic}
+
+## microtopic
+${article.microtopic}
+
+## nanotopic
+
+
+## primary_node_id
+${article.primaryNode}
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > ${article.subtopic} > ${article.microtopic}
+
+## summary
+${article.summary}
+
+## sections
+${article.sections}
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+${articleItems.map((item) => item.claim).join('\n')}
+
+## lose_the_mark
+${articleItems.map((item) => item.pitfalls).join('\n')}
+
+## callout_evidence
+${articleItems.map((item) => `### ${item.claim}\nClaims: ${introClaimId(item)}\nCitations: ${introCitationId(item)}\nReviewed by: pending medical review`).join('\n\n')}
+
+## related_concepts
+${articleItems.map((item) => item.conceptId).join('\n')}
+
+## related_articles
+${related}
+
+## question_ids
+${articleItems.map(introQuestionId).join('\n')}
+
+## resource_ids
+${introTeachingResourceId}
+${absalamAssessmentResourceId}
+
+## article_source_ids
+${introTeachingResourceId}
+
+## claim_ids
+${articleItems.map(introClaimId).join('\n')}
+
+## span_ids
+${articleItems.map(introSpanId).join('\n')}
+
+## university_notes
+must: The bounded Absalam Introduction questions are retained with their printed wording, options and keys and checked against the MUST FHB102-2 Introduction to Medical Parasitology deck.
+
+## annotations
+${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.claim}\nBlock: body\nId: ann-must-fhb1022-intro-q${String(item.q).padStart(2, '0')}`).join('\n\n')}
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+MUST FHB102-2 Introduction to Medical Parasitology deck, visually read on the exact cited pages.
+Absalam101 Part 1 revision bank, visually read pp1–5 for prompts and p9 for the printed answer table.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First bounded Absalam Introduction slice only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The three complete articles in this batch are reciprocally linked; no live article was overwritten.`
+  }))
+}
+
+function introQuestions() {
+  return generatedItems(introItems.map((item) => {
+    const correct = item.options['ABCD'.indexOf(item.key)]
+    const explanation = `${item.claim} The governed university slide directly supports ${correct} for this prompt. Therefore ${item.key} is retained as the unchanged source-printed answer, pending medical review.`
+    return `# Item
+
+## id
+${introQuestionId(item)}
+
+## title
+${item.stem}
+
+## question
+${item.stem}
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${introTeachingResourceId} without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+${item.key}
+
+${item.options.map((option, index) => `## answer_${'abcd'[index]}\n${option}\n\n## explanation_${'abcd'[index]}\n${'ABCD'[index] === item.key ? explanation : `Incorrect. ${item.pitfalls} The supported answer is ${item.key}, ${correct}.`}`).join('\n\n')}
+
+## topic
+Parasitology
+
+## subtopic
+${item.subtopic}
+
+## main_concept
+${item.conceptId}
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > ${item.subtopic} > ${item.microtopic}
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+${introArticles[item.article]}
+
+## resource_ids
+${absalamAssessmentResourceId}
+${introTeachingResourceId}
+
+## learning_objective
+${item.objective}
+
+## source_citation
+Absalam101 Part 1, pp1–5 Q${item.q}, printed key p9 (${item.q} = ${item.key}); MUST FHB102-2 Introduction to Medical Parasitology, p${item.page}.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Q${item.q} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
+  }))
+}
+
+function coverage() {
+  const delta = `### First Absalam introduction slice delta
+
+- +2 governed local resources: the 45-page Absalam101 student-authored bank and the 48-page MUST FHB102-2 Introduction to Medical Parasitology teaching deck.
+- +7 claims, +7 citations, +7 article spans and +7 under-review / needs-evidence concepts.
+- +3 standalone-complete reciprocal Draft articles and +7 Draft questions: Q2, Q4, Q5, Q9, Q11, Q14 and Q15.
+- +8 explicit holds with no student-facing record: Q1, Q3, Q6, Q7, Q8, Q10, Q12 and Q13.
+- Every authored stem, option and printed key is unchanged. Q11's visible “is is” typo is retained and disclosed; no silent correction was made.
+- First 15-prompt Absalam introduction slice: **7 authored / 8 held / 0 unassessed**. The remaining source boundary is Q16–Q30 in this section plus four later 30-prompt sections, for **135 unassessed prompts** in this source.
+
+`
+  const holds = `- **Q1 is held in the Absalam introduction family.** Its clean printed C is supported by the teaching deck, but raw identities \`concept_67e3dcb99284cae795d4cf8f\` and \`concept_8de933ca4fcbba40f533edac\` overlap the same medical-parasitology definition. No duplicate concept or student-facing record was minted.
+- **Q3 is held in the Absalam introduction family.** Its printed B is supported, but raw lice/ectoparasite identities \`concept_7bbc067f755c9cdfc88ab06c\` and \`concept_db670dbd615a4a13896cb1a4\` create unresolved identity overlap. No student-facing record was minted.
+- **Q6 is held in the Absalam introduction family.** Its printed C is supported, but exact raw identity \`concept_4cf60f293dd2603501b07838\` already states the definitive-host concept. No duplicate was minted.
+- **Q7 is held in the Absalam introduction family.** Its printed B is supported, but exact raw identity \`concept_379bf3d8ea267775959b6004\` already states the intermediate-host concept. No duplicate was minted.
+- **Q8 is held in the Absalam introduction family.** Its printed C is supported, but exact raw identity \`concept_49b33fb2fff7f5b6f66ebc34\` already states the reservoir-host concept. No duplicate was minted.
+- **Q10 is held in the Absalam introduction family.** Its printed B is directionally supported by the diagnostic-stage teaching, but raw identity \`concept_dfede741e82d80ac0f2f30b2\` overlaps the same scope and the selected teaching wording does not independently sharpen “detected in lab diagnosis” enough to justify a new identity. No student-facing record was minted.
+- **Q12 is held in the Absalam introduction family.** Its printed C is supported, but raw identity \`concept_b80a272b4cd80d7b91bc7ee6\` already links cestodes and tapeworm morphology. No duplicate was minted.
+- **Q13 is held in the Absalam introduction family.** Printed B is supported by the locomotion slide, but the preceding classification slide also includes morphological identification, reproduction/locomotion and habitat; option A can therefore overlap the broad stem. Exact raw identity \`concept_9dc1156f5fddd3a2c18a42af\` adds duplication risk. The key was neither corrected nor taught through a new student-facing record.
+
+`
+  return baseCoverage()
+    .replace('| Evidence resources | 20 |', '| Evidence resources | 22 |')
+    .replace('| Claims | 8 |', '| Claims | 15 |')
+    .replace('| Citations | 13 |', '| Citations | 20 |')
+    .replace('| Article spans | 8 |', '| Article spans | 15 |')
+    .replace('| Concepts | 8 |', '| Concepts | 15 |')
+    .replace('| Articles | 8 |', '| Articles | 11 |')
+    .replace('| Questions | 8 |', '| Questions | 15 |')
+    .replace('| Question authoring holds | 23 |', '| Question authoring holds | 31 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}## Explicit authoring holds\n\n${holds}`)
+    .replace('Governed prompt observations: 5,444 total; 8 authored; **5,436 raw prompt observations remain**, including 23 explicit holds', 'Governed prompt observations: 5,444 total; 15 authored; **5,429 raw prompt observations remain**, including 31 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 8 clean source-keyed prompts authored; **5,203 raw answer observations remain**, including the 23 held printed-key observations', 'Governed answer observations: 5,211 total; 15 clean source-keyed prompts authored; **5,196 raw answer observations remain**, including the 31 held printed-key observations')
+    .replace('It has not been opened for downstream authoring in this slice.', 'Its first Parasitology Introduction Q1–Q15 boundary is now fully dispositioned; Q16–Q30 and the remaining four 30-prompt sections have not been opened for downstream authoring.')
+    .replace('All eight student-facing articles and questions remain Draft; all eight concepts', 'All eleven student-facing articles and all fifteen questions remain Draft; all fifteen concepts')
+}
+
+function generatedItems(items) {
+  return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->\n\n${items.join('\n\n---\n\n')}`
+}
+
+function introClaimId(item) { return `CLM-INF-MUST-FHB1022-INTRO-Q${String(item.q).padStart(2, '0')}-01` }
+function introCitationId(item) { return `CIT-INF-MUST-FHB1022-INTRO-Q${String(item.q).padStart(2, '0')}-01` }
+function introSpanId(item) { return `SPN-INF-MUST-FHB1022-INTRO-Q${String(item.q).padStart(2, '0')}-01` }
+function introQuestionId(item) { return `QST-MUST-FHB1022-PARA-INTRO-Q${String(item.q).padStart(2, '0')}` }
+function introArticleSectionId(key) { return `${introArticles[key].toLowerCase()}-definition` }

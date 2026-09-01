@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 20,
+ "count": 22,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -472,6 +472,54 @@
    "sha256": "88ddfa49fe01adee544433ce1dce313110c9dc622debf1dc3d6ef85a7606d674",
    "processingStatus": "partially_governed_selected_pages",
    "pageCount": 42,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_4bd3b78f762673d7eb7f": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf"
+   ],
+   "sha256": "4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf",
+   "processingStatus": "fully_governed",
+   "pageCount": 45,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "Midterm Exams",
+    "MCQs"
+   ]
+  },
+  "src_f65b3872022ca0b42a79": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf"
+   ],
+   "sha256": "f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149",
+   "processingStatus": "fully_governed",
+   "pageCount": 48,
    "languages": [
     "en"
    ],
