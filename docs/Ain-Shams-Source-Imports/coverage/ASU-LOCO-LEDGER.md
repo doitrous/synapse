@@ -1,30 +1,19 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| calcium | 0 | 0 | 12 | 12 |
+| calcium | 11 | 1 | 0 | 12 |
 | collagen | 26 | 4 | 0 | 30 |
 | important | 0 | 0 | 4 | 4 |
 | muscle | 0 | 0 | 25 | 25 |
 | purine | 0 | 0 | 16 | 16 |
 
 ## Held
+- calcium-q08 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 7 (between Q7 and Q9); confirmed by rendering the page image, not an OCR artifact
 - collagen-q16 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 4 (between Q15 and Q18); confirmed by rendering the page image, not an OCR artifact
 - collagen-q17 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 4 (between Q15 and Q18); confirmed by rendering the page image, not an OCR artifact
 - collagen-q25 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 5 (between Q24 and Q26); confirmed by rendering the page image, not an OCR artifact
 - collagen-q29 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 5 (between Q28 and Q30); confirmed by rendering the page image, not an OCR artifact
 
 ## Remaining
-- calcium-q01
-- calcium-q02
-- calcium-q03
-- calcium-q04
-- calcium-q05
-- calcium-q06
-- calcium-q07
-- calcium-q08
-- calcium-q09
-- calcium-q10
-- calcium-q11
-- calcium-q12
 - important-q01
 - important-q02
 - important-q03
