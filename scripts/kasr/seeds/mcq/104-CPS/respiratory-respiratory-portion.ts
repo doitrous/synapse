@@ -559,5 +559,209 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "Only three lettered options survive extraction (A, B and D — no C), one short of the platform's 4-to-5-option import contract, and the surviving D option (\"All of the above\") refers to a set that is missing a member, so it can no longer be presented meaningfully. The same fact — the blood-air barrier includes both the alveolar cell's and the capillary endothelial cell's plasma membranes — is already covered cleanly by this leaf's own `blood-air-barrier-is-formed-of-all-the-following-except` question on the same concept.",
     },
+    {
+      // Bank-tagged "Conducting Portion", genuinely the respiratory
+      // bronchiole (this concept's own transition point). Duplicate
+      // occurrence 1 of 3 (also 4e2dc249, a808aec7) of the same source
+      // fact, extracted from three different question books.
+      key: "airway-located-at-the-transition-between-conducting-and-resp-16186d60",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Name the respiratory bronchiole as the airway at the transition between the conducting and respiratory portions.",
+      explanations: {
+        A: "Secondary (lobar) bronchi are purely conducting-portion tissue, well upstream of the transition point.",
+        B: "Correct. The respiratory bronchiole sits at the transition between the conducting and respiratory portions -- its wall is interrupted by the first alveolar openings while it still keeps the cuboidal, ciliated lining that looks like conducting-portion tissue.",
+        C: "Terminal bronchioles are the last purely conducting structure, one step upstream of the respiratory bronchiole; no alveoli open from their wall.",
+        D: "Primary (main) bronchi are the most proximal, purely conducting airway of the four options, far upstream of the transition.",
+      },
+    },
+    {
+      key: "the-part-of-airway-which-is-located-at-the-transition-betwee-4e2dc249",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Name the respiratory bronchiole as the airway at the transition between the conducting and respiratory portions.",
+      explanations: {
+        A: "Secondary bronchi are conducting-portion tissue only, upstream of the transition point.",
+        B: "Correct. The respiratory bronchiole is the transitional airway -- gas exchange first becomes possible through the alveolar openings interrupting its wall, even though its lining still resembles the conducting portion's.",
+        C: "Terminal bronchioles are the last purely conducting airway, immediately upstream of the respiratory bronchiole, with no alveolar openings of their own.",
+        D: "Primary bronchi are far upstream, purely conducting airway with no transitional feature at all.",
+      },
+    },
+    {
+      key: "the-part-of-the-airway-which-is-located-at-the-transition-be-a808aec7",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Name the respiratory bronchiole as the airway at the transition between the conducting and respiratory portions.",
+      explanations: {
+        A: "Secondary bronchi lie entirely within the conducting portion, upstream of the transition.",
+        B: "Correct. The respiratory bronchiole marks the boundary itself: some alveoli already open from its wall, but its own lining is still the cuboidal, ciliated (Clara-cell-bearing) epithelium of the conducting portion.",
+        C: "Terminal bronchioles are purely conducting, the last airway before the respiratory bronchiole, with no alveolar openings.",
+        D: "Primary bronchi are the most proximal airway among these choices, far from the transition.",
+      },
+    },
+    {
+      key: "which-of-the-following-is-the-first-branching-of-the-bronchi-25ef4f27",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Name the respiratory bronchiole as the first branch of the bronchial tree with gas-exchanging capability.",
+      explanations: {
+        A: "Terminal bronchioles are one branch upstream of the first gas-exchanging airway; they are purely conducting, with no alveoli opening from their wall.",
+        B: "Correct. Respiratory bronchioles are the first branching of the bronchial tree with gas-exchanging capability -- their wall is interrupted by the openings of some alveoli, even though the lining still looks like conducting-portion tissue.",
+        C: "Alveoli are the terminal gas-exchange unit, several branches past the first point gas exchange becomes possible, not the first branching itself.",
+        D: "Segmental bronchi are purely conducting-portion tissue, several branches upstream of any gas-exchanging airway.",
+      },
+    },
+    {
+      // Bank-tagged "Conducting Portion". "Gas exchange occurs in" the
+      // alveolar sac -- a distinct fact from the respiratory bronchiole
+      // being the *first* site gas exchange becomes possible (already kept
+      // above as `the-first-portion-of-the-respiratory-tree-where-gas-
+      // exchange-86978cf5` / `what-is-the-first-portion...`).
+      key: "gas-exchange-occurs-in-53a49db9",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "State that gas exchange occurs in the alveolar sac, among these four named airway/airspace choices.",
+      explanations: {
+        A: "Terminal bronchioles are purely conducting-portion tissue, one step upstream of the respiratory bronchiole; no alveoli open from their wall, so no gas exchange occurs there.",
+        B: "Intra-pulmonary bronchi are conducting-portion airway, several branches upstream of any gas-exchanging structure.",
+        C: "Correct. The alveolar sac -- a group of adjacent alveoli opening into a common central space -- is respiratory-portion tissue, lined by alveolar epithelium, where gas exchange takes place.",
+        D: "Extra-pulmonary bronchi are the most proximal bronchi, purely conducting-portion tissue, far from any gas-exchanging structure.",
+      },
+    },
+    {
+      key: "the-first-part-of-the-respiratory-tract-contains-non-ciliate-5a7257a5",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Name the alveolar duct as the first part of the respiratory tract lined by non-ciliated cells.",
+      explanations: {
+        A: "Terminal bronchioles still carry a ciliated, cuboidal lining -- purely conducting-portion epithelium, not the non-ciliated lining the stem asks for.",
+        B: "Respiratory bronchioles keep a cuboidal, ciliated (Clara-cell-bearing) lining, cilia only disappearing distally within this segment -- not yet the fully non-ciliated lining further along.",
+        C: "The trachea is lined by pseudostratified ciliated columnar epithelium, the conducting portion's default ciliated lining, the opposite of what the stem asks for.",
+        D: "Correct. The alveolar duct, lined completely by alveolar epithelium, is the first part of the respiratory tract with no ciliated cells left at all.",
+      },
+    },
+    {
+      key: "alveolar-duct-sac-are-lined-by-c823c948",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "State that the alveolar duct and alveolar sac are both lined by alveolar epithelium.",
+      explanations: {
+        A: "Olfactory epithelium lines the roof and superior conchae of the nasal cavity, an entirely different, proximal conducting-portion region.",
+        B: "Correct. Both the alveolar duct and the alveolar sac are lined by alveolar epithelium alone.",
+        C: "Respiratory epithelium (pseudostratified ciliated columnar with goblet cells) lines most of the conducting portion, not the alveolar duct or sac.",
+        D: "Alveolar epithelium is the lining named directly by this leaf's own sourced concept, so 'none of the above' is incorrect.",
+      },
+    },
+    {
+      key: "alveolar-sacs-are-characterized-by-the-following-d7a17b89",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that alveolar sacs are groups of alveoli sharing a common central space.",
+      explanations: {
+        A: "This describes the alveolar duct -- the free termination of the respiratory bronchiole -- not the alveolar sac, which is one step further along the sequence.",
+        B: "Alveolar sacs, like the alveolar duct, are lined by alveolar epithelium, not simple cuboidal epithelium.",
+        C: "Smooth muscle in the respiratory portion is confined to small sphincter-like knobs at the mouths of alveoli along the alveolar duct; it has disappeared by the level of the alveolar sac.",
+        D: "Correct. Alveolar sacs are groups of adjacent alveoli opening into a common central space.",
+      },
+    },
+    {
+      // Bank-tagged "Conducting Portion", genuinely respiratory-bronchiole
+      // content. Duplicate occurrence 1 of 2 (also 284f61b0) of the same
+      // statement-true item.
+      key: "one-of-the-following-statements-concerning-respiratory-bronc-5e10f9d9",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that respiratory bronchioles carry a thin layer of smooth muscle in their wall.",
+      explanations: {
+        A: "Reversed: gas exchange does occur through the respiratory bronchiole's own wall, since some alveoli already open directly from it -- this is the transitional feature that defines the segment.",
+        B: "Correct. Respiratory bronchioles carry a thin musculosa of smooth muscle in their wall, on a corium of elastic-fibre-rich connective tissue.",
+        C: "Goblet cells are absent from bronchiolar epithelium generally (replaced by Clara cells); respiratory bronchioles do not carry goblet cells in their lining.",
+        D: "Reversed: their epithelium is simple cuboidal, not simple columnar, ciliated -- and cilia become absent distally within this segment.",
+      },
+    },
+    {
+      key: "which-one-of-the-following-statements-concerning-respiratory-284f61b0",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that respiratory bronchioles carry a thin layer of smooth muscle in their wall.",
+      explanations: {
+        A: "Reversed: the respiratory bronchiole's wall is exactly where gas exchange first becomes possible, its wall interrupted by the openings of some alveoli.",
+        B: "Correct. A thin layer of smooth muscle sits in the respiratory bronchiole's musculosa, over a corium rich in elastic fibres.",
+        C: "Goblet cells fall away well before the respiratory bronchiole; Clara cells, not goblet cells, populate this segment's lining.",
+        D: "Reversed: the lining is simple cuboidal ciliated epithelium (cilia lost distally), not simple columnar.",
+      },
+    },
+    {
+      key: "respiratory-bronchiole-is-characterized-by-all-except-89f9fea4",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Correct 'simple columnar ciliated' to 'simple cuboidal ciliated' as the respiratory bronchiole's own lining.",
+      explanations: {
+        A: "True of the respiratory bronchiole, so not the exception -- cilia become absent in its distal part.",
+        B: "The exception, and the answer. The respiratory bronchiole's lining mucosa is simple cuboidal, not simple columnar, ciliated epithelium.",
+        C: "True, so not the exception -- a thin layer of smooth muscle fibre sits in its musculosa.",
+        D: "True, so not the exception -- its corium is loose connective tissue rich in elastic fibres.",
+      },
+    },
+    {
+      // Bank-tagged "Conducting Portion", genuinely surfactant-deficiency
+      // content -- the same fact this concept's own definition already
+      // states explicitly ("respiratory distress syndrome of prematurity").
+      key: "respiratory-distress-syndrome-is-caused-by-deficiency-of-fccac63c",
+      conceptKey: "surfactant.reduces-surface-tension-and-increases-compliance",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that respiratory distress syndrome is caused by a deficiency of pulmonary surfactant.",
+      explanations: {
+        A: "Goblet cells secrete mucus in the conducting airways; their absence plays no part in respiratory distress syndrome.",
+        B: "Correct. Respiratory distress syndrome of prematurity is caused by a deficiency of pulmonary surfactant: alveolar surface tension rises, compliance falls, and alveoli collapse at the end of each expiration.",
+        C: "Elastic fibres contribute the smaller of the two forces resisting lung expansion; their loss is not what defines respiratory distress syndrome.",
+        D: "Sero-mucous glands lie in the conducting portion's submucosa and play no part in alveolar surface tension or respiratory distress syndrome.",
+      },
+    },
+    {
+      // Bank-tagged "Conducting Portion", genuinely a pneumocyte-
+      // identification question (great alveolar cell = type II pneumocyte,
+      // the surfactant-producing cell whose deficiency causes the
+      // premature infant's respiratory distress).
+      key: "in-premature-babies-suffering-from-difficulty-in-breathing-a-396bf6f5",
+      conceptKey: "pneumocyte-type-i-vs-type-ii.structure-and-function",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Identify the great alveolar cell (type II pneumocyte) as the cell whose immaturity underlies respiratory distress in premature infants.",
+      explanations: {
+        A: "Clara cells are bronchiolar, conducting-portion cells; they play no part in the alveolar surfactant deficiency behind a premature infant's breathing difficulty.",
+        B: "Small granule cells are the conducting portion's neuroendocrine (APUD) cells, unrelated to alveolar surfactant production.",
+        C: "Squamous alveolar cells (type I pneumocytes) form the thin gas-exchange wall but have no secretory role; they are not the cell whose immaturity causes the deficiency.",
+        D: "Correct. Great alveolar cells (type II pneumocytes) are the surfactant-secreting cell; in a premature infant their immaturity leaves surfactant deficient, raising alveolar surface tension and causing the breathing difficulty that requires incubator care.",
+      },
+    },
+    {
+      // Bank-tagged "Conducting Portion", genuinely a corrupted duplicate
+      // of `gas-exchange-occurs-in-53a49db9` (kept above, same concept):
+      // the stem itself merges the clean question with a second,
+      // unrelated fragment ("What is the first portion of the respiratory
+      // tree..."), and option B's text is entirely absorbed into option
+      // A's garbled block, leaving no clean, distinguishable option set.
+      key: "gas-exchange-occurs-in-a-terminal-bronchioles-b-intra-pulmon-049ead38",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Corrupted duplicate of `gas-exchange-occurs-in-53a49db9` (kept above, same concept, same underlying fact): the extracted stem runs two separate source questions together (\"Gas exchange occurs in...\" plus a second, unrelated \"What is the first portion of the respiratory tree...\" fragment), and the lettered options collapse into two garbled blocks with no clean A/B/C/D boundary -- option B's text is fully absorbed into option A's block. No seed-level field exists to rewrite stem or option text.",
+    },
   ],
 }

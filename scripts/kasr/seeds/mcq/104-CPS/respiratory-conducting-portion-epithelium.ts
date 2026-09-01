@@ -537,5 +537,44 @@ export const LEAF: McqLeafSeed = {
         D: "Keratinized stratified squamous epithelium lines the nasal vestibule's entrance, not the conducting portion's respiratory epithelium.",
       },
     },
+    {
+      // Duplicate occurrence 4 of the paranasal-sinus-lining fact already
+      // kept three times above (what-type-of-tissues-lines-the-paranasal-
+      // sinuses-*), extracted from a fourth question book with shorter
+      // phrasing.
+      key: "para-nasal-sinus-is-lined-by-90a3c631",
+      conceptKey: "paranasal-sinuses.lining-epithelium",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "State that the paranasal sinuses are lined by pseudostratified columnar ciliated epithelium with few goblet cells.",
+      explanations: {
+        A: "The sinus lining does carry goblet cells, just fewer of them than the nasal fossae proper -- 'no goblet cell' overstates how thin the lining becomes.",
+        B: "Correct. The paranasal sinuses are lined by pseudostratified columnar epithelium with few goblet cells -- a thinner copy of the nasal fossae's own respiratory mucosa.",
+        C: "Stratified columnar epithelium is not a lining found in the paranasal sinuses at all.",
+        D: "Keratinized stratified squamous epithelium belongs to the nasal vestibule's entrance, not the sinuses, which keep the conducting portion's ciliated, mucus-clearing lining throughout.",
+      },
+    },
+    {
+      // Bank-tagged "Conducting Portion", genuinely this same leaf's own
+      // sensory-receptor cell (brush cell) fact -- already kept twice
+      // above (cell-act-as-sensory-receptor-..., concerning-the-
+      // epithelial-celts-...-54e6f0db) -- but this occurrence's own
+      // handwritten-recovered answer (D, "Squamous cells") contradicts
+      // both of those kept questions and this leaf's own sourced concept
+      // text, which attributes the sensory-receptor role and basal
+      // afferent nerve endings specifically to the BRUSH cell, not a
+      // squamous cell (squamous cells are not even one of the conducting
+      // portion's five named epithelial cell types). Escalated as a
+      // genuine conflict rather than keyed against the source it should
+      // agree with, per this branch's brachiocephalic-vein precedent.
+      key: "concerning-the-epithelial-cells-lining-the-respiratory-condu-fb419acf",
+      conceptKey: "conducting-portion-epithelium.five-cell-types",
+      difficulty: "Hard",
+      questionType: "Not sittable with confidence.",
+      learningObjective: "Not sittable with confidence.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The stem and options are themselves OCR-garbled (stray pipe/Arabic-diacritic characters splitting each option), and the handwritten-recovered answer (D, \"Squamous cells\") contradicts this leaf's own department-book-sourced concept text, which attributes basal afferent nerve endings and the sensory-receptor role specifically to the BRUSH cell -- squamous cells are not even one of the conducting portion's five named epithelial cell types. The same fact (brush cell = sensory receptor) is already kept cleanly, twice, on this same concept (`cell-act-as-sensory-receptor-contain-afferent-nerve-ending-424f9d70`, `concerning-the-epithelial-celts-lining-the-respiratory-condu-54e6f0db`). Excluded rather than keyed against the source it should agree with.",
+    },
   ],
 }

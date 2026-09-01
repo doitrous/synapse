@@ -55,9 +55,9 @@
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
     Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 16 questions, 5 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
-    Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 35 questions, 6 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
+    Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -69,7 +69,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  125 questions were excluded and 0 held back for having no
+  130 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -8368,12 +8368,14 @@ src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p18 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -9183,12 +9185,13 @@ kau
 src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
 src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
 src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -9517,12 +9520,17 @@ src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p28 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p32 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -9540,7 +9548,7 @@ ART-104-HIS-RESPIRATORY-PORTION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Afferents which may stimulate inspiratory centers include:
+[asked 2x across the question books] Gas exchange occurs in:
 ## conflicts
 [clear]
 ## uncertainty

@@ -470,5 +470,61 @@ export const LEAF: McqLeafSeed = {
         D: "Air is cleansed and moistened by the combined action of the respiratory epithelium (mucus trapping particles, cilia clearing them) and the vascular network beneath it (warming and humidifying the air) — conditioning carried out separately from the wall's structural, collapse-resisting components.",
       },
     },
+    {
+      // Bank-tagged "Conducting Portion", genuinely larynx embryology --
+      // out of scope for this concept's own histological content, and the
+      // options themselves are corrupted (only A and B survive, with
+      // garbled arch-numbering: "1*and2™ arches" / "24 and 4\" arches"),
+      // with no printed answer.
+      key: "the-muscles-and-cartilages-of-the-larynx-are-derived-embryol-77635214",
+      conceptKey: "larynx.vocal-cords-and-cartilages",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only two lettered options survive extraction, both with garbled arch-numbering (\"1*and2™ arches\", \"24 and 4\\\" arches\"), one short of the platform's 4-to-5-option import contract, and no printed or recoverable answer. The question also tests embryological origin (branchial-arch derivation), which this leaf's own histology concept does not teach -- out of scope for this cluster's sourced content regardless of the option corruption.",
+    },
+    {
+      // Bank-tagged "Conducting Portion", genuinely a corrupted duplicate
+      // of the Clara-cell content already kept extensively on this same
+      // concept above (clara-cell-which-of-the-following-is-false-
+      // 90453836 and siblings): only 3 options survive (no D), and the
+      // surviving option B ("Flatcalls") is itself OCR-garbled beyond
+      // reconstruction, with no printed answer.
+      key: "clara-cells-are-known-to-be-7933b952",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only three lettered options survive extraction (A, B, C -- no D), one short of the 4-to-5-option import contract; option B (\"Flatcalls\") is itself OCR-garbled past reconstruction, and no printed answer exists. The same underlying fact set (Clara cells: dome-shaped, non-ciliated, protective, surfactant-like secretion, possible stem-cell role) is already kept cleanly on this same concept via `clara-cell-which-of-the-following-is-false-90453836` and its siblings.",
+    },
+    {
+      // Bank-tagged "Conducting Portion", genuinely intra-pulmonary-
+      // bronchus content this leaf's own concept teaches in full ("lose
+      // the elastic membrane and submucosa... replace the C-shaped rings
+      // with multiple plates of hyaline cartilage in the adventitia...
+      // arrange their smooth muscle spirally around the whole lumen...
+      // carry their glands and nodules in the adventitia" -- with FEWER,
+      // not many, goblet cells). Pagetext-recovered from the source PDF
+      // (Histo MCQ by Dr.Kandeel [104].pdf p24 #42) confirms the bank's
+      // extraction dropped options A and B's text entirely, leaving only
+      // C/D/E -- the option set as it stands in mcq-bank.json is missing
+      // two of five options, and no seed-level field exists to supply
+      // corrected option text (only the answer letter can be overridden
+      // via `answerOverride`), so even with the source fact clear
+      // (concept text implies A -- "many goblet cells" -- is the false/
+      // except statement) this row cannot be imported as extracted.
+      key: "intra-pulmonary-bronchi-is-characterized-by-all-except-a-pse-f23160d8",
+      conceptKey: "bronchi-and-bronchioles.structural-progression-and-clara-cells",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction preserves only options C, D and E; options A and B's text is missing entirely, two short of the platform's 4-to-5-option import contract. Pagetext recovery of the source page (Histo MCQ by Dr.Kandeel [104].pdf p24 #42) confirms the intended full option set and, against this leaf's own sourced concept text (intrapulmonary bronchi have FEWER, not many, goblet cells; lack an elastic membrane/submucosa; carry multiple cartilage plates and spiral smooth muscle in the adventitia), the false/'except' statement is option A ('pseudostratified columnar with many goblet cell'). But no seed-level field exists to supply corrected option text for import, only the extracted bank options -- which are two short. Left excluded rather than authored against an incomplete option set.",
+    },
   ],
 }

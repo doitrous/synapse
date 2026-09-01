@@ -55,9 +55,9 @@
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
     Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 16 questions, 5 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
-    Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 35 questions, 6 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
+    Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -69,7 +69,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  125 questions were excluded and 0 held back for having no
+  130 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -47591,6 +47591,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-A903E968EC80
+## title
+Para nasal sinus is lined by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Para nasal sinus is lined by
+## answer_a
+pseudo stratified columnar with no goblet cell
+## explanation_a
+The sinus lining does carry goblet cells, just fewer of them than the nasal fossae proper -- 'no goblet cell' overstates how thin the lining becomes.
+## answer_b
+pseudo stratified columnar with few goblet cell
+## explanation_b
+Correct. The paranasal sinuses are lined by pseudostratified columnar epithelium with few goblet cells -- a thinner copy of the nasal fossae's own respiratory mucosa.
+
+Why this is right:
+- The paranasal sinuses — the frontal, maxillary, ethmoidal and sphenoidal air cavities within the skull bones surrounding the nose — communicate with the nasal cavity through small openings (ostia) and carry the same family of lining as the nasal fossae: pseudostratified ciliated columnar epithelium.
+## answer_c
+stratified Columnor with few goblet cell
+## explanation_c
+Stratified columnar epithelium is not a lining found in the paranasal sinuses at all.
+## answer_d
+keratinized stratified squamous epithelium
+## explanation_d
+Keratinized stratified squamous epithelium belongs to the nasal vestibule's entrance, not the sinuses, which keep the conducting portion's ciliated, mucus-clearing lining throughout.
+## correct_answer
+B
+## main_concept
+CON-RES-E55C5360CC116B
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the paranasal sinuses are lined by pseudostratified columnar ciliated epithelium with few goblet cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q29. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-817A9B423643
 ## title
 Cartilage in epiglottis, cuneiform, Corniculate is
@@ -53284,5 +53376,1201 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).p
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7C857A03E4ED
+## title
+Airway located at the transition between conducting and respiratory portions is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Airway located at the transition between conducting and respiratory portions is:
+## answer_a
+Secondary bronchi
+## explanation_a
+Secondary (lobar) bronchi are purely conducting-portion tissue, well upstream of the transition point.
+## answer_b
+Respiratory bronchioles
+## explanation_b
+Correct. The respiratory bronchiole sits at the transition between the conducting and respiratory portions -- its wall is interrupted by the first alveolar openings while it still keeps the cuboidal, ciliated lining that looks like conducting-portion tissue.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+Terminal bronchioles
+## explanation_c
+Terminal bronchioles are the last purely conducting structure, one step upstream of the respiratory bronchiole; no alveoli open from their wall.
+## answer_d
+Primary bronchi
+## explanation_d
+Primary (main) bronchi are the most proximal, purely conducting airway of the four options, far upstream of the transition.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the respiratory bronchiole as the airway at the transition between the conducting and respiratory portions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q12. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4A534C1D46C8
+## title
+The part of airway which is located at the transition between conducting and respirator…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The part of airway which is located at the transition between conducting and respiratory portions is:
+## answer_a
+Secondary bronchi
+## explanation_a
+Secondary bronchi are conducting-portion tissue only, upstream of the transition point.
+## answer_b
+Respiratory bronchioles
+## explanation_b
+Correct. The respiratory bronchiole is the transitional airway -- gas exchange first becomes possible through the alveolar openings interrupting its wall, even though its lining still resembles the conducting portion's.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+Terminal bronchioles
+## explanation_c
+Terminal bronchioles are the last purely conducting airway, immediately upstream of the respiratory bronchiole, with no alveolar openings of their own.
+## answer_d
+Primary bronchi
+## explanation_d
+Primary bronchi are far upstream, purely conducting airway with no transitional feature at all.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the respiratory bronchiole as the airway at the transition between the conducting and respiratory portions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q12. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0B94B947C94A
+## title
+The part of the airway which is located at the transition between the conducting and re…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The part of the airway which is located at the transition between the conducting and respiratory portions is:
+## answer_a
+Secondary bronchi
+## explanation_a
+Secondary bronchi lie entirely within the conducting portion, upstream of the transition.
+## answer_b
+Respiratory bronchioles
+## explanation_b
+Correct. The respiratory bronchiole marks the boundary itself: some alveoli already open from its wall, but its own lining is still the cuboidal, ciliated (Clara-cell-bearing) epithelium of the conducting portion.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+Terminal bronchioles
+## explanation_c
+Terminal bronchioles are purely conducting, the last airway before the respiratory bronchiole, with no alveolar openings.
+## answer_d
+Primary bronchi
+## explanation_d
+Primary bronchi are the most proximal airway among these choices, far from the transition.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the respiratory bronchiole as the airway at the transition between the conducting and respiratory portions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p2 q12. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8E8CD635D67B
+## title
+Which of the following is the first branching of the bronchial tree that has gas exchan…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is the first branching of the bronchial tree that has gas exchanging capabilities?
+## answer_a
+Terminal bronchioles
+## explanation_a
+Terminal bronchioles are one branch upstream of the first gas-exchanging airway; they are purely conducting, with no alveoli opening from their wall.
+## answer_b
+Respiratory bronchioles
+## explanation_b
+Correct. Respiratory bronchioles are the first branching of the bronchial tree with gas-exchanging capability -- their wall is interrupted by the openings of some alveoli, even though the lining still looks like conducting-portion tissue.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+Alveoli
+## explanation_c
+Alveoli are the terminal gas-exchange unit, several branches past the first point gas exchange becomes possible, not the first branching itself.
+## answer_d
+segmental bronchi
+## explanation_d
+Segmental bronchi are purely conducting-portion tissue, several branches upstream of any gas-exchanging airway.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Physiology
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the respiratory bronchiole as the first branch of the bronchial tree with gas-exchanging capability.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q19. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B81CF3A9D83C
+## title
+Gas exchange occurs in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Gas exchange occurs in:
+## answer_a
+Terminal bronchioles
+## explanation_a
+Terminal bronchioles are purely conducting-portion tissue, one step upstream of the respiratory bronchiole; no alveoli open from their wall, so no gas exchange occurs there.
+## answer_b
+Intra-pulmonary bronchi
+## explanation_b
+Intra-pulmonary bronchi are conducting-portion airway, several branches upstream of any gas-exchanging structure.
+## answer_c
+Alveolar sac
+## explanation_c
+Correct. The alveolar sac -- a group of adjacent alveoli opening into a common central space -- is respiratory-portion tissue, lined by alveolar epithelium, where gas exchange takes place.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_d
+Extra-pulmonary bronchi
+## explanation_d
+Extra-pulmonary bronchi are the most proximal bronchi, purely conducting-portion tissue, far from any gas-exchanging structure.
+## correct_answer
+C
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that gas exchange occurs in the alveolar sac, among these four named airway/airspace choices.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q14; Histo MCQ by Dr.Kandeel [104].pdf p30 q14. Manifest src_12ecc23fe206a928203d, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-524DC655B644
+## title
+The first part of the respiratory tract contains non-ciliated cells is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The first part of the respiratory tract contains non-ciliated cells is:
+## answer_a
+Terminal bronchiole
+## explanation_a
+Terminal bronchioles still carry a ciliated, cuboidal lining -- purely conducting-portion epithelium, not the non-ciliated lining the stem asks for.
+## answer_b
+Respiratory bronchiole
+## explanation_b
+Respiratory bronchioles keep a cuboidal, ciliated (Clara-cell-bearing) lining, cilia only disappearing distally within this segment -- not yet the fully non-ciliated lining further along.
+## answer_c
+Trachea
+## explanation_c
+The trachea is lined by pseudostratified ciliated columnar epithelium, the conducting portion's default ciliated lining, the opposite of what the stem asks for.
+## answer_d
+Alveolar duct
+## explanation_d
+Correct. The alveolar duct, lined completely by alveolar epithelium, is the first part of the respiratory tract with no ciliated cells left at all.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## correct_answer
+D
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the alveolar duct as the first part of the respiratory tract lined by non-ciliated cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q11; Histo MCQ by Dr.Kandeel [104].pdf p30 q11. Manifest src_12ecc23fe206a928203d, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-716A38E3EEFB
+## title
+Alveolar duct, sac are lined by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Alveolar duct, sac are lined by
+## answer_a
+olfactory epithelium
+## explanation_a
+Olfactory epithelium lines the roof and superior conchae of the nasal cavity, an entirely different, proximal conducting-portion region.
+## answer_b
+alveolar epithelium
+## explanation_b
+Correct. Both the alveolar duct and the alveolar sac are lined by alveolar epithelium alone.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+respiratory epithelium
+## explanation_c
+Respiratory epithelium (pseudostratified ciliated columnar with goblet cells) lines most of the conducting portion, not the alveolar duct or sac.
+## answer_d
+none of the above
+## explanation_d
+Alveolar epithelium is the lining named directly by this leaf's own sourced concept, so 'none of the above' is incorrect.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the alveolar duct and alveolar sac are both lined by alveolar epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q52. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-65EBEFE312DF
+## title
+Alveolar sacs are characterized by the following:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Alveolar sacs are characterized by the following:
+## answer_a
+Are expanded irregular spaces at distal ends of terminal bronchiole. ‏ا‎
+## explanation_a
+This describes the alveolar duct -- the free termination of the respiratory bronchiole -- not the alveolar sac, which is one step further along the sequence.
+## answer_b
+Lined by simple cubical epithelium
+## explanation_b
+Alveolar sacs, like the alveolar duct, are lined by alveolar epithelium, not simple cuboidal epithelium.
+## answer_c
+They have smooth muscles in their walls. ‏ا‎
+## explanation_c
+Smooth muscle in the respiratory portion is confined to small sphincter-like knobs at the mouths of alveoli along the alveolar duct; it has disappeared by the level of the alveolar sac.
+## answer_d
+Formed of group of alveoli with common central space.
+## explanation_d
+Correct. Alveolar sacs are groups of adjacent alveoli opening into a common central space.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## correct_answer
+D
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that alveolar sacs are groups of alveoli sharing a common central space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q25. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-31070EA4CC40
+## title
+One of the following statements concerning respiratory bronchioles is true:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following statements concerning respiratory bronchioles is true:
+## answer_a
+No gas exchange occurs in their walls
+## explanation_a
+Reversed: gas exchange does occur through the respiratory bronchiole's own wall, since some alveoli already open directly from it -- this is the transitional feature that defines the segment.
+## answer_b
+Their walls contain a thin layer of smooth muscles
+## explanation_b
+Correct. Respiratory bronchioles carry a thin musculosa of smooth muscle in their wall, on a corium of elastic-fibre-rich connective tissue.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+They contain goblet cells in their lining epithelium
+## explanation_c
+Goblet cells are absent from bronchiolar epithelium generally (replaced by Clara cells); respiratory bronchioles do not carry goblet cells in their lining.
+## answer_d
+They are lined by simple columnar ciliated epithelium
+## explanation_d
+Reversed: their epithelium is simple cuboidal, not simple columnar, ciliated -- and cilia become absent distally within this segment.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that respiratory bronchioles carry a thin layer of smooth muscle in their wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q22. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E9D0644624C6
+## title
+Which one of the following statements concerning respiratory bronchioles is true?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following statements concerning respiratory bronchioles is true?
+## answer_a
+No gas exchange occurs in their walls
+## explanation_a
+Reversed: the respiratory bronchiole's wall is exactly where gas exchange first becomes possible, its wall interrupted by the openings of some alveoli.
+## answer_b
+Their walls contain a thin layer of smooth muscles
+## explanation_b
+Correct. A thin layer of smooth muscle sits in the respiratory bronchiole's musculosa, over a corium rich in elastic fibres.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+They contain goblet cells in their lining epithelium
+## explanation_c
+Goblet cells fall away well before the respiratory bronchiole; Clara cells, not goblet cells, populate this segment's lining.
+## answer_d
+They are lined by simple columnar ciliated epithelium
+## explanation_d
+Reversed: the lining is simple cuboidal ciliated epithelium (cilia lost distally), not simple columnar.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that respiratory bronchioles carry a thin layer of smooth muscle in their wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p3 q22. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2956BBAE6D45
+## title
+respiratory bronchiole is characterized by All except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+respiratory bronchiole is characterized by All except
+## answer_a
+cilia become absent in distal part
+## explanation_a
+True of the respiratory bronchiole, so not the exception -- cilia become absent in its distal part.
+## answer_b
+Simple Columnar ciliated lining mucosa
+## explanation_b
+The exception, and the answer. The respiratory bronchiole's lining mucosa is simple cuboidal, not simple columnar, ciliated epithelium.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_c
+thin smooth muscle fiber in musculosa
+## explanation_c
+True, so not the exception -- a thin layer of smooth muscle fibre sits in its musculosa.
+## answer_d
+loose C.T with CT Corium that rich in elastic fiber
+## explanation_d
+True, so not the exception -- its corium is loose connective tissue rich in elastic fibres.
+## correct_answer
+B
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Correct 'simple columnar ciliated' to 'simple cuboidal ciliated' as the respiratory bronchiole's own lining.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q50. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-9017CC596838
+## title
+Respiratory distress syndrome is caused by deficiency of:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Respiratory distress syndrome is caused by deficiency of:
+## answer_a
+Goblet cells
+## explanation_a
+Goblet cells secrete mucus in the conducting airways; their absence plays no part in respiratory distress syndrome.
+## answer_b
+Pulmonary surfactant
+## explanation_b
+Correct. Respiratory distress syndrome of prematurity is caused by a deficiency of pulmonary surfactant: alveolar surface tension rises, compliance falls, and alveoli collapse at the end of each expiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_c
+Elastic fibers
+## explanation_c
+Elastic fibres contribute the smaller of the two forces resisting lung expansion; their loss is not what defines respiratory distress syndrome.
+## answer_d
+Sero-mucous glands
+## explanation_d
+Sero-mucous glands lie in the conducting portion's submucosa and play no part in alveolar surface tension or respiratory distress syndrome.
+## correct_answer
+B
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that respiratory distress syndrome is caused by a deficiency of pulmonary surfactant.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q16; Histo MCQ by Dr.Kandeel [104].pdf p30 q16. Manifest src_12ecc23fe206a928203d, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4C4A8ACC9D0C
+## title
+In premature babies suffering from difficulty in breathing and kept in incubators, whic…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In premature babies suffering from difficulty in breathing and kept in incubators, which of the following cells is involved?
+## answer_a
+Clara cells
+## explanation_a
+Clara cells are bronchiolar, conducting-portion cells; they play no part in the alveolar surfactant deficiency behind a premature infant's breathing difficulty.
+## answer_b
+Small granule cells
+## explanation_b
+Small granule cells are the conducting portion's neuroendocrine (APUD) cells, unrelated to alveolar surfactant production.
+## answer_c
+Squamous alveolar cells
+## explanation_c
+Squamous alveolar cells (type I pneumocytes) form the thin gas-exchange wall but have no secretory role; they are not the cell whose immaturity causes the deficiency.
+## answer_d
+Great alveolar cells
+## explanation_d
+Correct. Great alveolar cells (type II pneumocytes) are the surfactant-secreting cell; in a premature infant their immaturity leaves surfactant deficient, raising alveolar surface tension and causing the breathing difficulty that requires incubator care.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## correct_answer
+D
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the great alveolar cell (type II pneumocyte) as the cell whose immaturity underlies respiratory distress in premature infants.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q23; Histo MCQ by Dr.Kandeel [104].pdf p31 q23; DPT HISTO MCQ [Respiratory].pdf p3 q23. Manifest src_12ecc23fe206a928203d, src_9cf32ada2b25fa54f0e9, src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
 
