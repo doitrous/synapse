@@ -4,6 +4,7 @@
 | hegazy-ch2 | 23 | 0 | 0 | 23 |
 | hegazy-ch3 | 22 | 0 | 0 | 22 |
 | hegazy-ch4 | 42 | 0 | 0 | 42 |
+| hegazy-ch5 | 38 | 0 | 0 | 38 |
 | hegazy-cytokines | 15 | 0 | 0 | 15 |
 
 ## Held

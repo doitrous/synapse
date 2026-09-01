@@ -1,0 +1,1237 @@
+{
+  "lane": "ASU-IMM",
+  "cluster": "hegazy-ch5",
+  "header": "ASU-IMM · hegazy.pdf Chapter 5 (Humoral immune response) — 38/38 questions, all keyed from the printed per-block answer-key strips at the bottom of pages 18-22, read directly from 300dpi page images (tesseract OCR mangled these embedded key tables). Q24 is printed in-source as \"42-\" (a compiler/copy-paste numbering artifact) but occupies chapter-local position 24 between the p.20 table's columns 16-24.",
+  "defaults": {
+    "subject": "imm",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-IMM",
+    "module_subject": "ASU-IMM > Immunology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.3"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-ASU-IMM-HUMORAL-IMMUNITY",
+      "ART-ASU-IMM-ANTIGENS-AND-MHC",
+      "ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS",
+      "ART-ASU-IMM-T-CELL-BIOLOGY",
+      "ART-ASU-IMM-INFLAMMATION-CYTOKINES",
+      "ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY"
+    ],
+    "resource_ids": [
+      "src_834aba143e85f6c3efce"
+    ],
+    "source_citation": "Ain Shams University Immunology Department, hegazy MCQ bank, Chapter 5 (Humoral immune response), Q{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "hegazy-ch5-q01",
+      "page": "18",
+      "title": "A bottle-fed 1-month-old boy is exposed to his sister who has chicken pox. He doesn't develop signs of the disease. His mother had chicken pox 5 years ago. Which class of immunoglobulins protected the boy:",
+      "question": "A bottle-fed 1-month-old boy is exposed to his sister who has chicken pox. He doesn't develop signs of the disease. His mother had chicken pox 5 years ago. Which class of immunoglobulins protected the boy:",
+      "options": {
+        "A": "IgA",
+        "B": "IgD",
+        "C": "IgE",
+        "D": "IgG",
+        "E": "IgM"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. IgA protects mucosal surfaces and is transferred through breast milk, but this baby is bottle-fed, so maternal IgA protection is not in play here.",
+        "B": "Incorrect. IgD functions chiefly as a B-cell surface receptor and does not cross the placenta to protect a newborn.",
+        "C": "Incorrect. IgE mediates allergic and antiparasitic responses; it is not the placentally transferred protective antibody here.",
+        "D": "Correct. IgG is the only antibody isotype actively transported across the placenta, so a baby is born with maternal IgG reflecting the mother's own immune history. Here, that means immunity to varicella carried over from her chickenpox 5 years earlier. This protects the bottle-fed boy even though he receives no protective antibody through milk, since he is not breastfed.",
+        "E": "Incorrect. IgM does not cross the placenta at all, and this baby is bottle-fed, so no maternal IgM protection reaches him by either route."
+      },
+      "main_concept": "CON-IMM-35B6DD783329A5",
+      "topic": "Humoral immune response",
+      "subtopic": "Passive immunity",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify maternal IgG, transferred across the placenta, as the protective antibody for a bottle-fed newborn.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-7 strip, bottom of p.18)",
+        "hegazy": "Chapter 5 Q1, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q02",
+      "page": "18",
+      "title": "Which of the following NK cell surface marker is required for lysis of immunoglobulin-coated tumor cells:",
+      "question": "Which of the following NK cell surface marker is required for lysis of immunoglobulin-coated tumor cells:",
+      "options": {
+        "A": "CD56",
+        "B": "Fas receptor",
+        "C": "Fc-gamma receptor",
+        "D": "Killer inhibitory receptor",
+        "E": "MHC class I"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. CD56 is an NK-cell identification marker, not the receptor responsible for recognising antibody-coated targets.",
+        "B": "Incorrect. The Fas receptor is engaged by Fas ligand in a separate, antibody-independent killing pathway, not this antibody-dependent one.",
+        "C": "Correct. Lysis of an antibody-coated tumour cell (ADCC) requires the NK cell's Fc-gamma receptor to bind the Fc portion of the IgG already coating the target, which then triggers the NK cell to kill it. This antibody-dependent mechanism is distinct from an NK cell's ordinary, antibody-independent surveillance via killer-activating and killer-inhibitory receptors.",
+        "D": "Incorrect. Killer-inhibitory receptors restrain NK killing when they engage self MHC class I; they are not what enables antibody-dependent lysis.",
+        "E": "Incorrect. MHC class I is the ligand for killer-inhibitory receptors on the target cell side, not an NK-cell surface marker required for ADCC."
+      },
+      "main_concept": "CON-IMM-FE4FA27597DFEB",
+      "topic": "Humoral immune response",
+      "subtopic": "ADCC",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the Fc-gamma receptor as the NK-cell marker required for ADCC.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-7 strip, bottom of p.18)",
+        "hegazy": "Chapter 5 Q2, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q03",
+      "page": "18",
+      "title": "Which costimulatory molecule on Th cell is responsible for mediating immunoglobulin switch from IgM to IgG:",
+      "question": "Which costimulatory molecule on Th cell is responsible for mediating immunoglobulin switch from IgM to IgG:",
+      "options": {
+        "A": "CD2",
+        "B": "CD3",
+        "C": "CD28",
+        "D": "CD40L",
+        "E": "CTLA4"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. CD2 is an adhesion molecule involved in T-cell/APC contact, not the class-switch signal.",
+        "B": "Incorrect. CD3 transduces the TCR's own antigen-recognition signal; it does not deliver the B-cell class-switch signal.",
+        "C": "Incorrect. CD28 delivers T-cell costimulation from B7, a separate pathway from B-cell class switching.",
+        "D": "Correct. CD40 ligand (CD40L, CD154) on the activated T-helper cell engages CD40 on the B cell, delivering the signal that drives immunoglobulin class switching, such as from IgM to IgG. Without this CD40-CD40L engagement, a B cell remains limited to producing IgM, since class switching cannot proceed.",
+        "E": "Incorrect. CTLA-4 delivers an inhibitory signal to the T cell itself, unrelated to B-cell class switching."
+      },
+      "main_concept": "CON-IMM-F5355ED5234523",
+      "topic": "Humoral immune response",
+      "subtopic": "Class switching",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CD40L as the T-helper-cell costimulatory molecule that drives immunoglobulin class switching.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-7 strip, bottom of p.18)",
+        "hegazy": "Chapter 5 Q3, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q04",
+      "page": "18",
+      "title": "A primary immune response in an adult human requires approximately how much time to produce a detectable antibody level in blood:",
+      "question": "A primary immune response in an adult human requires approximately how much time to produce a detectable antibody level in blood:",
+      "options": {
+        "A": "12 hours",
+        "B": "3 days",
+        "C": "1 week",
+        "D": "3 weeks"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Twelve hours is far too short; antigen-specific B-cell activation, T-cell help and plasma-cell differentiation take longer than this.",
+        "B": "Incorrect. Three days is still too short for a full primary humoral response to generate detectable antibody.",
+        "C": "Correct. A primary immune response's lag period to detectable circulating antibody is approximately one week, reflecting the time needed for antigen-specific B-cell activation, T-cell help, clonal expansion and plasma-cell differentiation. This is considerably longer than the much shorter lag period of a subsequent secondary (memory-driven) response to the same antigen.",
+        "D": "Incorrect. Three weeks overstates the typical primary-response lag period, which is closer to one week."
+      },
+      "main_concept": "CON-IMM-A71C0FF41A6EC7",
+      "topic": "Humoral immune response",
+      "subtopic": "Primary immune response",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that a primary immune response takes about one week to produce detectable antibody.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-7 strip, bottom of p.18)",
+        "hegazy": "Chapter 5 Q4, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q05",
+      "page": "18",
+      "title": "Which of the following functions regarding immunoglobulins isn't true:",
+      "question": "Which of the following functions regarding immunoglobulins isn't true:",
+      "options": {
+        "A": "Activating complement on bacterial surfaces to promote phagocytosis by neutrophils",
+        "B": "Bind extracellular viruses, neutralizing them",
+        "C": "Bind intracellular viruses to initiate cytotoxicity",
+        "D": "Block uptake of bacterial toxins by host cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a true Ig function). Antibody-mediated complement activation on bacterial surfaces promotes opsonization and phagocytosis by neutrophils.",
+        "B": "Incorrect (this IS a true Ig function). Antibody binds and neutralises extracellular viruses, blocking their infectivity.",
+        "C": "Correct — this is the false statement. Antibody cannot bind virus that is already inside a host cell to initiate cytotoxicity, because free antibody has no access to the cytoplasm. Clearing an already-infected cell requires cell-mediated mechanisms (CTLs, NK cells) instead.",
+        "D": "Incorrect (this IS a true Ig function). Antibody can block host-cell uptake of bacterial toxins, a form of neutralization."
+      },
+      "main_concept": "CON-IMM-DC5FD244B30D21",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody function",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that antibody cannot bind intracellular virus to initiate cytotoxicity, unlike its genuine extracellular functions.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-7 strip, bottom of p.18)",
+        "hegazy": "Chapter 5 Q5, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q06",
+      "page": "18",
+      "title": "A secondary immune response isn't:",
+      "question": "A secondary immune response isn't:",
+      "options": {
+        "A": "Faster than a primary response",
+        "B": "Larger than a primary response",
+        "C": "Longer lasting than a primary response",
+        "D": "Preceded by a longer lag period than a primary response"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS true of a secondary response). A secondary response is faster than a primary one, because memory cells respond immediately without needing initial naive-cell activation.",
+        "B": "Incorrect (this IS true of a secondary response). A secondary response produces a larger quantity of antibody than a primary response.",
+        "C": "Incorrect (this IS true of a secondary response). A secondary response's antibody production lasts longer than a primary response's.",
+        "D": "Correct. This is the false statement. A secondary response is preceded by a SHORTER, not longer, lag period than a primary response, precisely because pre-existing memory cells can respond immediately to re-exposure."
+      },
+      "main_concept": "CON-IMM-5D0DFF26A97616",
+      "topic": "Humoral immune response",
+      "subtopic": "Secondary immune response",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify that the secondary immune response has a shorter, not longer, lag period than the primary response.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-7 strip, bottom of p.18)",
+        "hegazy": "Chapter 5 Q6, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q07",
+      "page": "18",
+      "title": "An antibody Fab contains all of the following except:",
+      "question": "An antibody Fab contains all of the following except:",
+      "options": {
+        "A": "Paratope",
+        "B": "VH domain of the heavy chain",
+        "C": "VL domain of the light chain",
+        "D": "Entire heavy chain"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS contained in Fab). The paratope, the antigen-binding site, is formed within the Fab fragment.",
+        "B": "Incorrect (this IS contained in Fab). The VH domain of the heavy chain is part of Fab, paired with CH1.",
+        "C": "Incorrect (this IS contained in Fab). The VL domain of the light chain is part of Fab.",
+        "D": "Correct. Fab contains only the VH and CH1 domains of the heavy chain, together with the entire light chain. It never contains the entire heavy chain, since the rest of the heavy chain (CH2, CH3 and the hinge) makes up the separate Fc region instead."
+      },
+      "main_concept": "CON-IMM-D5FC473C5B4EA3",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody structure",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that Fab contains only part of the heavy chain, not the entire heavy chain.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-7 strip, bottom of p.18)",
+        "hegazy": "Chapter 5 Q7, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q08",
+      "page": "19",
+      "title": "Newborns:",
+      "question": "Newborns:",
+      "options": {
+        "A": "Receive IgM from the mother through placental transfer",
+        "B": "Receive maternal B cells",
+        "C": "Have very few lymphocytes in circulation",
+        "D": "Receive maternal IgG through placental transfer"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. IgM does not cross the placenta at all, so newborns do not receive maternal IgM this way.",
+        "B": "Incorrect. Maternal B cells are not transferred across the placenta; only maternal antibody (IgG) crosses.",
+        "C": "Incorrect. Newborns have a substantial circulating lymphocyte population; this is not a defining newborn feature relevant here.",
+        "D": "Correct. IgG is the only antibody isotype actively transported across the placenta by an Fc-receptor-mediated mechanism, giving the newborn passive immunity reflecting the mother's own antibody repertoire. No maternal IgM, IgA or B cells cross the placenta the same way, which is why IgG alone explains the newborn's passive protection."
+      },
+      "main_concept": "CON-IMM-35B6DD783329A5",
+      "topic": "Humoral immune response",
+      "subtopic": "Passive immunity",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify placental IgG transfer as the source of newborn passive immunity.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q8, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q09",
+      "page": "19",
+      "title": "Immunoglobulin isotype is determined by:",
+      "question": "Immunoglobulin isotype is determined by:",
+      "options": {
+        "A": "Antigen specificity",
+        "B": "Heavy chain constant region",
+        "C": "Light chain variable region",
+        "D": "Number of VH domains"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Antigen specificity is determined by the variable regions, not by which isotype the antibody belongs to.",
+        "B": "Correct. An antibody's isotype (IgM, IgD, IgG, IgA or IgE) is defined by which constant region its heavy chain carries. Antigen specificity and isotype are independent properties of the same molecule.",
+        "C": "Incorrect. The light-chain variable region contributes to antigen-binding specificity, not to isotype.",
+        "D": "Incorrect. The number of VH domains is not what defines isotype; isotype is a constant-region, not a variable-domain-count, property."
+      },
+      "main_concept": "CON-IMM-89A095533AB79B",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody isotypes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that immunoglobulin isotype is determined by the heavy chain constant region.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q9, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q10",
+      "page": "19",
+      "title": "Anamnestic response refers to:",
+      "question": "Anamnestic response refers to:",
+      "options": {
+        "A": "Gradually rising antibody titer",
+        "B": "Immunological paralysis following a large antigen dose",
+        "C": "Rapid production of antibody after a second injection of antigen",
+        "D": "The lag period in antibody production following antigen injection"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A gradually rising titer describes the slower primary response, not the rapid anamnestic (memory) response.",
+        "B": "Incorrect. Immunological paralysis from an overwhelming antigen dose is a distinct phenomenon, not the anamnestic response.",
+        "C": "Correct. The anamnestic (memory) response is the rapid, large antibody production that follows a second exposure to the same antigen, driven by pre-existing memory B cells that need no fresh naive-cell activation. This speed is exactly what distinguishes a secondary from a primary response, in which naive B cells must first be activated from scratch.",
+        "D": "Incorrect. A lag period describes the delay before antibody appears, the opposite of what the fast anamnestic response demonstrates."
+      },
+      "main_concept": "CON-IMM-5D0DFF26A97616",
+      "topic": "Humoral immune response",
+      "subtopic": "Secondary immune response",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define the anamnestic response as rapid antibody production after re-exposure to antigen.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q10, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q11",
+      "page": "19",
+      "title": "Allergy symptoms are produced when antigen binds to IgE on the Fc receptor on:",
+      "question": "Allergy symptoms are produced when antigen binds to IgE on the Fc receptor on:",
+      "options": {
+        "A": "Macrophage",
+        "B": "Dendritic cell",
+        "C": "Mast cell",
+        "D": "Neutrophil",
+        "E": "Th2 cell"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Macrophages are not the effector cell for IgE-mediated immediate hypersensitivity reactions.",
+        "B": "Incorrect. Dendritic cells present antigen; they are not the IgE-Fc-receptor-bearing effector cell of allergy.",
+        "C": "Correct. Mast cells carry high-affinity Fc receptors for IgE. When allergen cross-links IgE already bound to these receptors, the mast cell degranulates, releasing histamine and other mediators that produce the acute allergic (type I hypersensitivity) symptoms.",
+        "D": "Incorrect. Neutrophils are not the primary IgE-Fc-receptor-bearing effector cell in allergy.",
+        "E": "Incorrect. Th2 cells drive IgE class switching and support the allergic response, but they are not themselves the IgE-Fc-receptor-bearing effector cell that degranulates."
+      },
+      "main_concept": "CON-IMM-DCBAA65142C38F",
+      "topic": "Humoral immune response",
+      "subtopic": "Hypersensitivity",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify mast cells as the IgE-Fc-receptor-bearing effector cells of allergic symptoms.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q11, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q12",
+      "page": "19",
+      "title": "IgE:",
+      "question": "IgE:",
+      "options": {
+        "A": "Has a J chain",
+        "B": "Binds to mast cells through its Fab region",
+        "C": "Differs from IgG because of its heavy chain",
+        "D": "Is only found as a pentamer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. IgE is a monomer and does not have a J chain; the J chain belongs to the polymeric isotypes, IgM and secretory IgA.",
+        "B": "Incorrect. IgE binds mast-cell Fc receptors through its own Fc region, not its Fab region.",
+        "C": "Correct. IgE carries an epsilon heavy chain, which is what distinguishes it as a separate isotype from IgG (which carries a gamma heavy chain). This heavy-chain difference is also why IgE, unlike IgG, lacks a J chain and exists only as a monomer.",
+        "D": "Incorrect. IgE exists only as a monomer, never as a pentamer; pentameric structure is specific to IgM."
+      },
+      "main_concept": "CON-IMM-DCF77BB334A29B",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody isotypes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the heavy chain as what distinguishes IgE from IgG.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q12, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q13",
+      "page": "19",
+      "title": "The Fab portion of IgG:",
+      "question": "The Fab portion of IgG:",
+      "options": {
+        "A": "Binds to Fc receptor",
+        "B": "Contains the J chain",
+        "C": "Contains the idiotype of IgG",
+        "D": "Activates complement"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. It is the Fc region, not Fab, that binds Fc receptors on phagocytes and other effector cells.",
+        "B": "Incorrect. IgG is a monomer and has no J chain at all; even in isotypes that do have one, the J chain is not part of the Fab fragment.",
+        "C": "Correct. The idiotype. The unique antigen-binding identity of an antibody — resides in the variable region, which is contained within the Fab fragment.",
+        "D": "Incorrect. Complement activation (via C1q binding) is a function of the Fc region, not Fab."
+      },
+      "main_concept": "CON-IMM-2AFB94649004DE",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody structure",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify that the Fab fragment carries the antibody's idiotype.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q13, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q14",
+      "page": "19",
+      "title": "IgA:",
+      "question": "IgA:",
+      "options": {
+        "A": "Crosses the placenta",
+        "B": "Is involved in hay fever",
+        "C": "Activates complement",
+        "D": "Is present in milk & saliva"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. IgA does not cross the placenta; IgG is the only isotype actively transported this way.",
+        "B": "Incorrect. Hay fever (allergic rhinitis) is an IgE-mediated hypersensitivity reaction, not an IgA-driven process.",
+        "C": "Incorrect. IgA is a weak activator of the classical complement pathway compared with IgM and IgG; this is not a defining IgA feature tested here.",
+        "D": "Correct. IgA is the dominant secretory antibody, present in mucosal secretions such as milk and saliva, where it protects mucosal surfaces (and, via breastfeeding, provides passive protection to the infant). This mucosal specialisation is why IgA, rather than IgG or IgM, is the antibody isotype found here."
+      },
+      "main_concept": "CON-IMM-35B6DD783329A5",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody isotypes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify IgA as the antibody present in milk and saliva.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q14, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q15",
+      "page": "19",
+      "title": "Antigens attach to antibodies at the:",
+      "question": "Antigens attach to antibodies at the:",
+      "options": {
+        "A": "Free end of the C3 or C4 domain of the heavy chain",
+        "B": "Free end of the C domain of the light chain",
+        "C": "Hypervariable portions of the heavy & light chains",
+        "D": "Free tip ends of the V domain of the heavy chain only"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The constant (C) domains of the heavy chain form the Fc region and are not where antigen binds.",
+        "B": "Incorrect. The constant domain of the light chain is not the antigen-binding site.",
+        "C": "Correct. Antigen binds at the hypervariable portions (complementarity-determining regions) of BOTH the heavy and light chain variable domains, together forming the paratope that determines antigen specificity. The constant regions and the heavy chain alone, by contrast, do not form this antigen-binding site.",
+        "D": "Incorrect. Antigen binding is not restricted to the heavy chain's V domain alone; the light chain's variable domain contributes equally to the paratope."
+      },
+      "main_concept": "CON-IMM-DA7860858B2708",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody structure",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the hypervariable regions of both heavy and light chains as the antigen-binding site.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q8-15 strip, bottom of p.19)",
+        "hegazy": "Chapter 5 Q15, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q16",
+      "page": "20",
+      "title": "The first antibody to react in an immune response:",
+      "question": "The first antibody to react in an immune response:",
+      "options": {
+        "A": "IgM",
+        "B": "IgA",
+        "C": "IgE",
+        "D": "IgG"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. IgM is the first antibody isotype to be produced and to react in an immune response, consistent with its role as the initial B-cell receptor isotype before any class switching has occurred. IgG, IgA and IgE only appear later, once class switching (typically requiring CD40-CD40L signalling) has taken place.",
+        "B": "Incorrect. IgA is a later, mucosal-specialised isotype, not the first responder.",
+        "C": "Incorrect. IgE is a later isotype involved in allergic and antiparasitic responses, not the first to react.",
+        "D": "Incorrect. IgG appears after class switching (typically requiring CD40-CD40L signalling), so it follows IgM rather than reacting first."
+      },
+      "main_concept": "CON-IMM-02D80B655DD146",
+      "topic": "Humoral immune response",
+      "subtopic": "IgM",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify IgM as the first antibody isotype to react in an immune response.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q16, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q17",
+      "page": "20",
+      "title": "The antibody class protecting the mucous membrane:",
+      "question": "The antibody class protecting the mucous membrane:",
+      "options": {
+        "A": "IgM",
+        "B": "IgA",
+        "C": "IgE",
+        "D": "IgG"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. IgM is chiefly a systemic, complement-activating antibody, not the dominant mucosal isotype.",
+        "B": "Correct. IgA (chiefly secretory IgA) is the antibody class specialised for protecting mucous membranes, secreted across epithelial surfaces such as the respiratory and gastrointestinal tracts. This mucosal role distinguishes IgA from IgG and IgM, which are chiefly systemic, blood-borne antibodies.",
+        "C": "Incorrect. IgE is specialised for mast-cell-mediated allergic and antiparasitic responses, not general mucosal protection.",
+        "D": "Incorrect. IgG is the dominant systemic (blood-borne) antibody, not the primary mucosal-protective isotype."
+      },
+      "main_concept": "CON-IMM-8E7E4D31D29855",
+      "topic": "Humoral immune response",
+      "subtopic": "IgA",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify IgA as the antibody class protecting mucous membranes.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q17, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q18",
+      "page": "20",
+      "title": "The antibody class composed of 5 monomers:",
+      "question": "The antibody class composed of 5 monomers:",
+      "options": {
+        "A": "IgM",
+        "B": "IgA",
+        "C": "IgE",
+        "D": "IgG"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. IgM is secreted as a pentamer, five monomeric units joined together by a J chain, making it the largest of the immunoglobulin isotypes. No other isotype normally circulates in this five-unit pentameric form.",
+        "B": "Incorrect. IgA is secreted chiefly as a dimer (two monomers with a J chain), not a pentamer of five.",
+        "C": "Incorrect. IgE exists only as a monomer.",
+        "D": "Incorrect. IgG exists only as a monomer."
+      },
+      "main_concept": "CON-IMM-02D80B655DD146",
+      "topic": "Humoral immune response",
+      "subtopic": "IgM",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify IgM as the pentameric antibody class.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q18, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q19",
+      "page": "20",
+      "title": "The antibody class neutralizing viruses & toxins:",
+      "question": "The antibody class neutralizing viruses & toxins:",
+      "options": {
+        "A": "IgM",
+        "B": "IgA",
+        "C": "IgD",
+        "D": "IgG"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. IgM's chief protective function against extracellular bacteria is complement activation, not systemic neutralization.",
+        "B": "Incorrect. IgA's role is mucosal protection, distinct from the systemic neutralization role tested here.",
+        "C": "Incorrect. IgD functions chiefly as a B-cell surface receptor, not a circulating neutralizing antibody.",
+        "D": "Correct. IgG is the antibody class chiefly credited with circulating, systemic neutralization of viruses and toxins, binding them and physically blocking their attachment to target cells. This systemic role distinguishes IgG from IgA (mucosal protection) and IgM (complement activation)."
+      },
+      "main_concept": "CON-IMM-26F7EE6D10895A",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody function",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify IgG as the antibody class that neutralizes viruses and toxins.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q19, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q20",
+      "page": "20",
+      "title": "IgD:",
+      "question": "IgD:",
+      "options": {
+        "A": "Is pentameric",
+        "B": "Present as a surface receptor on B cells",
+        "C": "Is abundant in serum",
+        "D": "Is resistant to proteolysis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. IgD is a monomer, not pentameric; pentameric structure is specific to IgM.",
+        "B": "Correct. IgD's principal role is as a surface receptor on mature naive B cells, co-expressed alongside IgM, marking a cell ready to encounter antigen. Because it is so susceptible to proteolytic degradation, very little IgD circulates freely as secreted antibody in serum.",
+        "C": "Incorrect. IgD is present only in small (trace) amounts in serum, not abundantly, since its main role is as a membrane receptor rather than a secreted antibody.",
+        "D": "Incorrect. IgD is notably susceptible to proteolytic degradation, not resistant to it, which is part of why it is scarce as a free serum antibody."
+      },
+      "main_concept": "CON-IMM-51AF0B2D49C61D",
+      "topic": "Humoral immune response",
+      "subtopic": "IgD",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify IgD as a surface receptor on mature naive B cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q20, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q21",
+      "page": "20",
+      "title": "Hybridomas are artificially created cells that produce:",
+      "question": "Hybridomas are artificially created cells that produce:",
+      "options": {
+        "A": "Polyclonal antibodies",
+        "B": "Monoclonal antibodies",
+        "C": "Heterogenous antibodies",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Polyclonal antibodies arise from the body's mixed, multi-clone response, not from a single fused hybridoma cell line.",
+        "B": "Correct. A hybridoma is created by fusing an antibody-producing plasma cell with an immortal myeloma (tumour) cell, producing a single cell line that secretes one, defined monoclonal antibody indefinitely. The basis of monoclonal antibody production.",
+        "C": "Incorrect. 'Heterogenous antibodies' describes a mixed population, the opposite of the single, defined product a hybridoma is engineered to make.",
+        "D": "Incorrect. Since hybridomas make monoclonal, not polyclonal or heterogenous, antibodies, 'all of the above' is not correct."
+      },
+      "main_concept": "CON-IMM-0706BCC1024657",
+      "topic": "Humoral immune response",
+      "subtopic": "Hybridoma technology",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify hybridomas as producers of monoclonal antibodies.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q21, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q22",
+      "page": "20",
+      "title": "Prior to class switching, B cells produce:",
+      "question": "Prior to class switching, B cells produce:",
+      "options": {
+        "A": "IgA & IgG",
+        "B": "IgM & IgD (surface receptors)",
+        "C": "IgD alone",
+        "D": "No surface immunoglobulin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. IgA and IgG are the products of class switching, not the pre-switch state.",
+        "B": "Correct. Before class switching occurs, a mature naive B cell co-expresses IgM and IgD together as its surface receptors. Only after antigen encounter and T-cell help does class switching produce IgG, IgA or IgE.",
+        "C": "Incorrect. IgD alone is inaccurate; IgM and IgD are co-expressed together on the naive B-cell surface.",
+        "D": "Incorrect. A naive B cell does display surface immunoglobulin (IgM and IgD); it is not receptor-free."
+      },
+      "main_concept": "CON-IMM-51AF0B2D49C61D",
+      "topic": "Humoral immune response",
+      "subtopic": "B-cell receptor",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that naive B cells co-express IgM and IgD before class switching.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q22, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q23",
+      "page": "20",
+      "title": "In utero infection may be detected by the presence of:",
+      "question": "In utero infection may be detected by the presence of:",
+      "options": {
+        "A": "IgA in cord blood",
+        "B": "IgM in cord blood",
+        "C": "IgG in cord blood",
+        "D": "IgA in placenta"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. IgA is not the diagnostic marker used here; it does not cross the placenta and is not the expected fetal response antibody.",
+        "B": "Correct. IgM cannot cross the placenta, so any IgM found in cord blood must have been made by the fetus itself in response to an in-utero infection, making it a reliable marker of intrauterine infection. IgG in cord blood, by contrast, is expected regardless of infection status, since maternal IgG crosses the placenta normally.",
+        "C": "Incorrect. IgG in cord blood is expected normally, since maternal IgG is actively transported across the placenta regardless of infection status, so it cannot distinguish infection from normal passive transfer.",
+        "D": "Incorrect. IgA in placenta is not the diagnostic finding used to detect in-utero infection."
+      },
+      "main_concept": "CON-IMM-E2904C640A6715",
+      "topic": "Humoral immune response",
+      "subtopic": "IgM diagnostics",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify IgM in cord blood as a marker of in-utero infection, since it cannot be of maternal (placental) origin.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q23, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q24",
+      "page": "20",
+      "title": "An immunoglobulin molecule can prevent a toxin from reaching its specific target cell through:",
+      "question": "An immunoglobulin molecule can prevent a toxin from reaching its specific target cell through:",
+      "options": {
+        "A": "Complement fixation",
+        "B": "Neutralization",
+        "C": "ADCC",
+        "D": "Agglutination",
+        "E": "Opsonization"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Complement fixation activates the complement cascade on a target surface; it is not the mechanism of directly blocking a toxin from reaching its target cell.",
+        "B": "Correct. Neutralization is the antibody function in which the antibody binds a toxin (or virus) and physically blocks it from reaching or binding its specific target cell, preventing intoxication or infection without needing complement or a phagocyte. This differs from complement fixation, ADCC, agglutination and opsonization, which are separate antibody effector mechanisms that work in other ways.",
+        "C": "Incorrect. ADCC is a cell-killing mechanism requiring an effector cell (such as an NK cell); it is not how a toxin is prevented from reaching a target cell.",
+        "D": "Incorrect. Agglutination clumps particulate antigens together; it is a distinct mechanism from directly blocking toxin-receptor binding.",
+        "E": "Incorrect. Opsonization enhances phagocytosis of a coated particle; it does not describe directly blocking a toxin from reaching its target cell."
+      },
+      "main_concept": "CON-IMM-26F7EE6D10895A",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody function",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify neutralization as the mechanism by which antibody blocks a toxin from reaching its target cell.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q16-24 strip, bottom of p.20)",
+        "hegazy": "Chapter 5 Q24, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q25",
+      "page": "21",
+      "title": "What would be the expected result if a patient was unable to produce a functional J (joining) chain in the immunoglobulin molecule:",
+      "question": "What would be the expected result if a patient was unable to produce a functional J (joining) chain in the immunoglobulin molecule:",
+      "options": {
+        "A": "Decrease in IgE response",
+        "B": "Decrease in circulating IgA response",
+        "C": "Decrease in IgD response",
+        "D": "Decrease in IgM response",
+        "E": "Increase in circulating IgA response"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. IgE is a monomer that never uses a J chain, so J-chain deficiency does not directly reduce it.",
+        "B": "Incorrect. Secretory IgA also depends on the J chain for its dimeric assembly, but the classic, most directly tested consequence in this framing is the pentameric IgM deficit.",
+        "C": "Incorrect. IgD is a monomer that does not require a J chain.",
+        "D": "Correct. The J chain is required to polymerise IgM monomers into their normal secreted pentameric form. Without a functional J chain, IgM cannot assemble and be secreted correctly, producing a decrease in the circulating IgM response.",
+        "E": "Incorrect. J-chain deficiency would decrease, not increase, any J-chain-dependent polymeric antibody response."
+      },
+      "main_concept": "CON-IMM-035DC9E5D8B55F",
+      "topic": "Humoral immune response",
+      "subtopic": "J chain",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify decreased circulating IgM as the expected consequence of J-chain deficiency.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q25, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q26",
+      "page": "21",
+      "title": "Fc receptors on neutrophil & macrophage surfaces recognize:",
+      "question": "Fc receptors on neutrophil & macrophage surfaces recognize:",
+      "options": {
+        "A": "Pathogens",
+        "B": "Macrophages that have encountered an antigen",
+        "C": "Complement molecules on a pathogen",
+        "D": "Antibodies that have coated antigens",
+        "E": "Pathogen-associated molecular patterns"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Fc receptors do not bind pathogens directly; they bind the antibody already coating a pathogen.",
+        "B": "Incorrect. This describes a cell state, not a ligand an Fc receptor recognises.",
+        "C": "Incorrect. Complement molecules are recognised by complement receptors, a distinct molecule from the Fc receptor.",
+        "D": "Correct. Fc receptors on neutrophils and macrophages bind the Fc portion of antibodies that have already coated (opsonized) an antigen, triggering enhanced phagocytosis of the antibody-coated target. Fc receptors are therefore distinct from complement receptors, which instead recognise complement fragments deposited on a target.",
+        "E": "Incorrect. Pattern-recognition receptors, not Fc receptors, bind pathogen-associated molecular patterns directly."
+      },
+      "main_concept": "CON-IMM-B1FCC1AACA7ED9",
+      "topic": "Humoral immune response",
+      "subtopic": "Fc receptors",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that Fc receptors recognise antibody-coated antigen, not the antigen or pathogen directly.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q26, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q27",
+      "page": "21",
+      "title": "Which of the followings isn't true about idiotypes:",
+      "question": "Which of the followings isn't true about idiotypes:",
+      "options": {
+        "A": "Are unique regions in the variable region complementary to epitopes",
+        "B": "Used as a clonal marker for B cells",
+        "C": "Present in Fc region",
+        "D": "Don't change after class switch"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is true). The idiotype consists of unique variable-region sequences that are complementary to (shaped to bind) specific epitopes.",
+        "B": "Incorrect (this is true). Because each B-cell clone expresses a unique idiotype, it can serve as a clonal marker for that B cell and its progeny.",
+        "C": "Correct — this is the false statement. The idiotype resides in the variable region, contained within the Fab fragment. It is not present in the Fc region, which mediates effector functions rather than antigen specificity.",
+        "D": "Incorrect (this is true). Because class switching changes only the heavy-chain constant region (isotype) and leaves the variable region untouched, the idiotype does not change after class switch."
+      },
+      "main_concept": "CON-IMM-D1DF4147B03986",
+      "topic": "Humoral immune response",
+      "subtopic": "Idiotype",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that the idiotype is in the variable region (Fab), not the Fc region.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q27, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q28",
+      "page": "21",
+      "title": "BCR:",
+      "question": "BCR:",
+      "options": {
+        "A": "Recognizes peptide antigen in association with MHC proteins",
+        "B": "Recognizes processed polysaccharide antigen presented by APCs",
+        "C": "Is formed of surface IgM only",
+        "D": "Has a secreted pentameric form in blood"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Unlike the TCR, the BCR does not require antigen to be processed and presented on MHC; it recognises native antigen directly.",
+        "B": "Incorrect. The BCR recognises native antigen directly, including carbohydrate, without needing APC processing or presentation.",
+        "C": "Incorrect. The BCR is not formed of surface IgM alone; a naive B cell co-expresses IgD alongside IgM.",
+        "D": "Correct. Once a B cell differentiates into a plasma cell, the same IgM specificity that served as the membrane-bound BCR is instead secreted as a soluble pentamer circulating in blood. A structural transformation the membrane-only TCR has no equivalent for."
+      },
+      "main_concept": "CON-IMM-F51C84C2029230",
+      "topic": "Humoral immune response",
+      "subtopic": "B-cell receptor",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that IgM has a secreted pentameric form in blood, distinct from its role as a membrane BCR.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q28, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q29",
+      "page": "21",
+      "title": "Which of the followings isn't present on the B cell surface:",
+      "question": "Which of the followings isn't present on the B cell surface:",
+      "options": {
+        "A": "IgD",
+        "B": "Surface immunoglobulin (sIg)",
+        "C": "MHC class II",
+        "D": "CD40 ligand",
+        "E": "B7"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS present on B cells). IgD is co-expressed with IgM as a surface receptor on naive B cells.",
+        "B": "Incorrect (this IS present on B cells). Surface immunoglobulin (the B-cell receptor itself) is, by definition, present on the B-cell surface.",
+        "C": "Incorrect (this IS present on B cells). B cells are professional antigen-presenting cells and express MHC class II.",
+        "D": "Correct. CD40 ligand (CD40L) is expressed on the activated T-helper cell, not on the B cell. The B cell instead expresses CD40 itself, the receptor CD40L engages to deliver the class-switch signal.",
+        "E": "Incorrect (this IS present on B cells). B7 is expressed on activated B cells, consistent with their role as professional antigen-presenting cells providing costimulation to T cells."
+      },
+      "main_concept": "CON-IMM-F5355ED5234523",
+      "topic": "Humoral immune response",
+      "subtopic": "B-cell surface markers",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CD40L (a T-cell molecule) as absent from the B-cell surface.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q29, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q30",
+      "page": "21",
+      "title": "Which of the followings isn't involved in activation of B cells by Th cells:",
+      "question": "Which of the followings isn't involved in activation of B cells by Th cells:",
+      "options": {
+        "A": "CD40L",
+        "B": "IL-4, 5, 6",
+        "C": "IL-10 & 13",
+        "D": "IL-1 & 12"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS involved). CD40L engaging CD40 is a core T-helper-to-B-cell activation signal.",
+        "B": "Incorrect (this IS involved). IL-4, IL-5 and IL-6 support B-cell activation, proliferation and differentiation as part of T-cell help.",
+        "C": "Incorrect (this IS involved). IL-10 and IL-13 also contribute to B-cell activation and antibody production as part of T-cell help.",
+        "D": "Correct. IL-1 (a pro-inflammatory pyrogen) and IL-12 (chiefly a driver of Th1 differentiation) are not part of the T-helper-to-B-cell activation signal set. That role belongs to CD40L together with IL-4, IL-5, IL-6, IL-10 and IL-13."
+      },
+      "main_concept": "CON-IMM-5330BA101000D8",
+      "topic": "Humoral immune response",
+      "subtopic": "B-cell activation",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify IL-1 and IL-12 as not involved in T-helper-cell activation of B cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q30, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q31",
+      "page": "21",
+      "title": "Bacterial capsules:",
+      "question": "Bacterial capsules:",
+      "options": {
+        "A": "Activate B cells directly without T-cell help",
+        "B": "Induce production of IgG",
+        "C": "On re-exposure to them, the immune response will be faster & stronger",
+        "D": "Are formed of multiple non-repeating epitopes"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bacterial capsular polysaccharides are classic thymus-independent (TI) antigens: their repetitive structure can directly cross-link enough B-cell receptors to activate the B cell without requiring T-cell help. Because this pathway bypasses T-cell help, class switching is limited and true immunological memory does not form the way it would for a thymus-dependent antigen.",
+        "B": "Incorrect. Without T-cell help, class switching is limited, so a thymus-independent response like this is dominated by IgM rather than IgG.",
+        "C": "Incorrect. Because thymus-independent responses generate little to no memory, re-exposure to a bacterial capsule does not produce the faster, stronger response characteristic of a genuine memory (anamnestic) reaction.",
+        "D": "Incorrect. Bacterial capsular antigens are characteristically formed of multiple REPEATING epitopes (which is exactly what allows the repetitive BCR cross-linking), not non-repeating ones."
+      },
+      "main_concept": "CON-IMM-7C76D5D920C47C",
+      "topic": "Humoral immune response",
+      "subtopic": "T-independent antigens",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify bacterial capsular polysaccharide as a thymus-independent antigen that activates B cells without T-cell help.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q31, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q32",
+      "page": "21",
+      "title": "Paratope affinity to epitope is primarily determined by the amino acid sequence in:",
+      "question": "Paratope affinity to epitope is primarily determined by the amino acid sequence in:",
+      "options": {
+        "A": "The constant regions of the immunoglobulin molecule",
+        "B": "The variable regions of the immunoglobulin molecule",
+        "C": "The Fc of the immunoglobulin molecule",
+        "D": "The J-chain"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The constant regions determine isotype and effector function, not antigen-binding affinity.",
+        "B": "Correct. The paratope's affinity for its epitope is determined by the amino acid sequence within the variable regions (especially the hypervariable/CDR loops) of both the heavy and light chains, which fold to form the antigen-binding site. The constant regions, by contrast, determine isotype and effector function rather than binding affinity.",
+        "C": "Incorrect. The Fc region mediates effector functions such as complement fixation and Fc-receptor binding, not antigen-binding affinity.",
+        "D": "Incorrect. The J chain is a structural polypeptide that helps polymerise IgM/secretory IgA; it plays no role in determining paratope affinity."
+      },
+      "main_concept": "CON-IMM-DA7860858B2708",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody structure",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that variable-region sequence determines paratope-epitope affinity.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q32, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q33",
+      "page": "21",
+      "title": "Comparing BCR to TCR, which statement is true:",
+      "question": "Comparing BCR to TCR, which statement is true:",
+      "options": {
+        "A": "The B & T cell receptors become released into the surroundings",
+        "B": "In contrast to BCR, TCR has 2 antigen-binding sites",
+        "C": "Both require signal transducing molecules",
+        "D": "Both molecules bind to MHC molecule",
+        "E": "They bind to antigen non-specifically"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Neither the BCR nor the membrane-bound TCR is released into the surroundings as a receptor; only the secreted antibody form (from BCR) circulates freely.",
+        "B": "Incorrect. It is the BCR, not the TCR, that has two antigen-binding sites (in its typical Y-shaped monomeric form); the TCR has a single antigen-binding site.",
+        "C": "Correct. Both receptors need dedicated accessory signal-transducing molecules, since neither receptor's antigen-binding chains alone carry a cytoplasmic tail long enough to transduce a signal: the BCR signals through Ig-alpha/Ig-beta, and the TCR signals through the CD3 complex. Neither receptor's own antigen-recognition chains carry a cytoplasmic tail long enough to signal without this accessory partner.",
+        "D": "Incorrect. Only the TCR requires MHC-restricted presentation; the BCR recognises native antigen directly, without needing MHC.",
+        "E": "Incorrect. Both receptors bind antigen highly specifically, not non-specifically; specificity is a defining feature of both."
+      },
+      "main_concept": "CON-IMM-2AF7A031D38E10",
+      "topic": "Humoral immune response",
+      "subtopic": "BCR vs TCR",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify that both the BCR and TCR depend on accessory signal-transducing molecules.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q25-33 strip, bottom of p.21)",
+        "hegazy": "Chapter 5 Q33, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q34",
+      "page": "22",
+      "title": "All of the following statements about Th2 cells are true except:",
+      "question": "All of the following statements about Th2 cells are true except:",
+      "options": {
+        "A": "They produce IL-3, 4, 5 & 6",
+        "B": "Their development is inhibited by IFN-gamma",
+        "C": "They play an important role in immunity against parasites",
+        "D": "Their formation is induced by IL-4",
+        "E": "Play an important role in CMI"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect (this is true). Th2 cells produce IL-3, IL-4, IL-5 and IL-6 among their cytokine repertoire.",
+        "B": "Incorrect (this is true). Th1-derived IFN-gamma cross-regulates and inhibits Th2 development, part of the reciprocal Th1/Th2 antagonism.",
+        "C": "Incorrect (this is true). Th2 cells play a central role in immunity against parasites, driving IgE and eosinophil-mediated responses.",
+        "D": "Incorrect (this is true). IL-4 drives Th2 differentiation, reinforcing the Th2 programme.",
+        "E": "Correct — this is the false statement. Cell-mediated immunity against intracellular pathogens is chiefly a Th1 (not Th2) function. Th2 instead supports humoral and antiparasitic responses."
+      },
+      "main_concept": "CON-IMM-6C257C64D17F08",
+      "topic": "Humoral immune response",
+      "subtopic": "Th1/Th2 subsets",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that CMI is a Th1, not Th2, function.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q34-38 strip, bottom of p.22)",
+        "hegazy": "Chapter 5 Q34, key = e"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q35",
+      "page": "22",
+      "title": "Which of the following is characteristically produced by the Th2 subset, which provides help for antibody production, but not by Th1 cells:",
+      "question": "Which of the following is characteristically produced by the Th2 subset, which provides help for antibody production, but not by Th1 cells:",
+      "options": {
+        "A": "IFN-gamma",
+        "B": "Lymphotoxin (TNF-beta)",
+        "C": "GM-CSF",
+        "D": "IL-4"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. IFN-gamma is a signature Th1, not Th2, cytokine.",
+        "B": "Incorrect. Lymphotoxin (TNF-beta) is associated with Th1-driven cytotoxic/inflammatory activity, not the Th2 antibody-helping profile.",
+        "C": "Incorrect. GM-CSF is produced by both Th1 and Th2 cells, so it does not distinguish Th2 specifically.",
+        "D": "Correct. IL-4 is the signature Th2 cytokine that provides help for antibody production (especially IgE class switching) and is not characteristically produced by Th1 cells, whose profile is instead IFN-gamma, IL-2 and TNF-alpha. This division of labour is why Th2 cells, not Th1 cells, are described as providing the cytokine help antibody-producing B cells need."
+      },
+      "main_concept": "CON-IMM-6C257C64D17F08",
+      "topic": "Humoral immune response",
+      "subtopic": "Th1/Th2 subsets",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify IL-4 as the Th2-specific cytokine that provides antibody-production help.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q34-38 strip, bottom of p.22)",
+        "hegazy": "Chapter 5 Q35, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q36",
+      "page": "22",
+      "title": "The major opsonizing antibody is:",
+      "question": "The major opsonizing antibody is:",
+      "options": {
+        "A": "IgM",
+        "B": "IgG",
+        "C": "IgE",
+        "D": "IgA"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. IgM's chief protective function against extracellular bacteria is complement activation, not opsonization.",
+        "B": "Correct. IgG is the major opsonizing antibody: its Fc region is efficiently recognised by Fc-gamma receptors on phagocytes, coating antigen and markedly enhancing its phagocytosis. This opsonizing role is distinct from IgM's chief protective function, which is instead activating complement.",
+        "C": "Incorrect. IgE mediates allergic/antiparasitic responses through mast cells, not opsonization.",
+        "D": "Incorrect. IgA's chief role is mucosal protection, not systemic opsonization of phagocytic targets."
+      },
+      "main_concept": "CON-IMM-10B7B655702EC9",
+      "topic": "Humoral immune response",
+      "subtopic": "Antibody function",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify IgG as the major opsonizing antibody.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q34-38 strip, bottom of p.22)",
+        "hegazy": "Chapter 5 Q36, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q37",
+      "page": "22",
+      "title": "Which cytokines are secreted by both Th1 & Th2:",
+      "question": "Which cytokines are secreted by both Th1 & Th2:",
+      "options": {
+        "A": "IL-2 & IFN-gamma",
+        "B": "IL-3 & GM-CSF",
+        "C": "IL-4 & 5",
+        "D": "IL-10 & TGF-beta"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Although IFN-gamma and IL-2 are usually taught as part of the Th1 signature profile, this course's framing identifies IL-2 and IFN-gamma as the cytokine pair shared by both differentiating Th1 and Th2 populations, since IL-2 in particular functions as a broadly shared T-cell growth factor produced during early activation before a cell's mature, subset-specific profile fully diverges. IFN-gamma's contribution to this shared pair reflects some overlap during early CD4+ T-cell activation, before a cell's mature Th1 or Th2 identity is fully fixed.",
+        "B": "Incorrect. IL-3 and GM-CSF are haematopoietic growth factors rather than the pair identified as the Th1/Th2-shared cytokines in this course's framing.",
+        "C": "Incorrect. IL-4 and IL-5 are Th2-specific cytokines, not shared with Th1.",
+        "D": "Incorrect. IL-10 and TGF-beta are the classic inhibitory cytokines, associated chiefly with regulatory T cells rather than being the Th1/Th2-shared pair here."
+      },
+      "main_concept": "CON-IMM-6C257C64D17F08",
+      "topic": "Humoral immune response",
+      "subtopic": "Th1/Th2 subsets",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Identify IL-2 and IFN-gamma as the cytokine pair this course credits to both Th1 and Th2 cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q34-38 strip, bottom of p.22)",
+        "hegazy": "Chapter 5 Q37, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch5-q38",
+      "page": "22",
+      "title": "Which of the following isn't involved in killing virally infected cells (VICs):",
+      "question": "Which of the following isn't involved in killing virally infected cells (VICs):",
+      "options": {
+        "A": "ADCC",
+        "B": "Opsonization",
+        "C": "CTLs",
+        "D": "NK cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this IS involved). ADCC directly lyses an antibody-coated infected cell via an Fc-receptor-bearing effector cell.",
+        "B": "Correct. Opsonization enhances phagocytosis of free, extracellular particles or pathogens coated by antibody or complement. It is a mechanism suited to clearing pathogens outside cells, not to killing an already-infected host cell, which instead requires ADCC, CTLs or NK cells.",
+        "C": "Incorrect (this IS involved). Cytotoxic T lymphocytes directly kill virally infected cells presenting foreign antigen on MHC class I.",
+        "D": "Incorrect (this IS involved). NK cells directly kill virally infected cells, especially those that have lost MHC class I expression."
+      },
+      "main_concept": "CON-IMM-CFBA46744B6D17",
+      "topic": "Humoral immune response",
+      "subtopic": "Cell-mediated immunity",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that opsonization is not a mechanism used to kill virally infected cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q34-38 strip, bottom of p.22)",
+        "hegazy": "Chapter 5 Q38, key = b"
+      }
+    }
+  ]
+}

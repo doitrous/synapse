@@ -119,4 +119,43 @@ hegazy-cytokines-q12
 hegazy-cytokines-q13
 hegazy-cytokines-q14
 hegazy-cytokines-q15
-# Chapters 5-6 (Humoral IR ~38 Qs, Complement 17 Qs): not yet authored this sitting
+# Chapter 5 (Humoral immune response), 38/38 keyed and authored — all keys read from page-image render, no holds
+hegazy-ch5-q01
+hegazy-ch5-q02
+hegazy-ch5-q03
+hegazy-ch5-q04
+hegazy-ch5-q05
+hegazy-ch5-q06
+hegazy-ch5-q07
+hegazy-ch5-q08
+hegazy-ch5-q09
+hegazy-ch5-q10
+hegazy-ch5-q11
+hegazy-ch5-q12
+hegazy-ch5-q13
+hegazy-ch5-q14
+hegazy-ch5-q15
+hegazy-ch5-q16
+hegazy-ch5-q17
+hegazy-ch5-q18
+hegazy-ch5-q19
+hegazy-ch5-q20
+hegazy-ch5-q21
+hegazy-ch5-q22
+hegazy-ch5-q23
+hegazy-ch5-q24
+hegazy-ch5-q25
+hegazy-ch5-q26
+hegazy-ch5-q27
+hegazy-ch5-q28
+hegazy-ch5-q29
+hegazy-ch5-q30
+hegazy-ch5-q31
+hegazy-ch5-q32
+hegazy-ch5-q33
+hegazy-ch5-q34
+hegazy-ch5-q35
+hegazy-ch5-q36
+hegazy-ch5-q37
+hegazy-ch5-q38
+# Chapter 6 (Complement, 17 Qs): not yet authored this sitting
