@@ -222,7 +222,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -473,7 +473,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -711,7 +711,7 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -981,11 +981,676 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
 nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## title
+Cell-wall antibiotics: beta-lactams, vancomycin and bacitracin
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Cell-wall antibiotic mechanisms
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Cell-wall antibiotic mechanisms
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cell-wall antibiotic mechanisms
+
+## summary
+Beta-lactams are time-dependent bactericidal cell-wall inhibitors. PBPs catalyze peptidoglycan transpeptidation, vancomycin binds D-Ala-D-Ala precursors, bacitracin blocks precursor transport, and beta-lactamase inhibitors protect susceptible partner penicillins.
+
+## sections
+### Definition
+Cell-wall-active antibiotics include beta-lactams and non-beta-lactam agents. Penicillins, cephalosporins and carbapenems are beta-lactams; vancomycin and bacitracin inhibit cell-wall formation by different non-beta-lactam mechanisms.
+
+### Mechanism
+Beta-lactams inhibit bacterial cell-wall synthesis through PBPs, which catalyze the transpeptidase reaction used to cross-link peptidoglycan. Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors. Bacitracin blocks transport of cell-wall precursors across the membrane. Beta-lactamase inhibitors protect susceptible partner penicillins from enzymatic degradation.
+
+### Key determinants
+Vancomycin is not a beta-lactam. PBPs are transpeptidase targets rather than ribosomal or DNA enzymes. Penicillins and cephalosporins share beta-lactam cell-wall inhibition. Beta-lactam killing is time dependent.
+
+### Clinical significance
+Keeping the mechanisms separate prevents classifying every cell-wall inhibitor as a beta-lactam and supports rational interpretation of protected penicillin combinations.
+
+### Common misconceptions
+Do not assign vancomycin to the beta-lactam class. Do not replace bacitracin's precursor-transport block with ribosomal or DNA-gyrase inhibition. Beta-lactamase inhibitors protect the partner antibiotic; they do not repair adverse effects or inhibit DNA replication.
+
+### Governed evidence statements
+Cell-wall-active antibacterial drugs are bactericidal agents that include the beta-lactam group.
+PBPs catalyze the transpeptidase reaction used in peptidoglycan cross-linking.
+The governed classification separates beta-lactams from non-beta-lactams such as vancomycin.
+Beta-lactamase inhibitors protect beta-lactam antibiotics from enzymatic hydrolysis.
+Vancomycin binds to D-Ala-D-Ala on peptidoglycan precursors.
+Bacitracin inhibits transport of cell-wall precursors across the cytoplasmic membrane.
+Penicillins and cephalosporins are grouped as bactericidal beta-lactam cell-wall inhibitors.
+Cell-wall-active beta-lactam antibiotics are presented as time-dependent bactericidal drugs.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan.
+Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.
+Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation.
+Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
+Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.
+Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
+Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.
+
+## lose_the_mark
+Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis.
+PBPs are not ribosomal inhibitors, DNA-destroying enzymes or a generic label for antibiotic resistance.
+Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification.
+The combination is not intended to increase resistance, reduce all adverse effects or inhibit bacterial DNA replication.
+Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides.
+Bacitracin is not identified here as a ribosomal, protein-synthesis or DNA-gyrase inhibitor.
+The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck.
+The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams.
+
+## callout_evidence
+### Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q126-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q126-01
+Reviewed by: pending medical review
+
+### Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q127-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q127-01
+Reviewed by: pending medical review
+
+### Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q128-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q128-01
+Reviewed by: pending medical review
+
+### Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q129-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q129-01
+Reviewed by: pending medical review
+
+### Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q137-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q137-01
+Reviewed by: pending medical review
+
+### Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q138-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q138-01
+Reviewed by: pending medical review
+
+### Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q149-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q149-01
+Reviewed by: pending medical review
+
+### Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q150-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q150-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-AF1A323DC43B0A
+CON-INF-D152917B8E5B0C
+CON-INF-ED16D39441C89B
+CON-INF-B87838294C76F5
+CON-INF-2EF55DB215EF9D
+CON-INF-4DBE227F632F33
+CON-INF-CE6D8921A7E095
+
+## related_articles
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY: Penicillin classes, combinations, uses and hypersensitivity
+
+## question_ids
+QST-MUST-FHB1022-PHARM-Q126
+QST-MUST-FHB1022-PHARM-Q127
+QST-MUST-FHB1022-PHARM-Q128
+QST-MUST-FHB1022-PHARM-Q129
+QST-MUST-FHB1022-PHARM-Q137
+QST-MUST-FHB1022-PHARM-Q138
+QST-MUST-FHB1022-PHARM-Q149
+QST-MUST-FHB1022-PHARM-Q150
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_ee1fb7a716a473eb2d98
+src_875c205531a585cd5b91
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q126-01
+CLM-INF-MUST-FHB1022-PHARM-Q127-01
+CLM-INF-MUST-FHB1022-PHARM-Q128-01
+CLM-INF-MUST-FHB1022-PHARM-Q129-01
+CLM-INF-MUST-FHB1022-PHARM-Q137-01
+CLM-INF-MUST-FHB1022-PHARM-Q138-01
+CLM-INF-MUST-FHB1022-PHARM-Q149-01
+CLM-INF-MUST-FHB1022-PHARM-Q150-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-PHARM-Q126-01
+SPN-INF-MUST-FHB1022-PHARM-Q127-01
+SPN-INF-MUST-FHB1022-PHARM-Q128-01
+SPN-INF-MUST-FHB1022-PHARM-Q129-01
+SPN-INF-MUST-FHB1022-PHARM-Q137-01
+SPN-INF-MUST-FHB1022-PHARM-Q138-01
+SPN-INF-MUST-FHB1022-PHARM-Q149-01
+SPN-INF-MUST-FHB1022-PHARM-Q150-01
+
+## university_notes
+must: Global Q126, Q127, Q128, Q129, Q137, Q138, Q149, Q150 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-AF1A323DC43B0A
+Quote: Cell-wall-active antibacterial drugs are bactericidal agents that include the beta-lactam group.
+Block: body
+Id: ann-must-fhb1022-micro-q126
+
+### definition_of · CON-INF-D152917B8E5B0C
+Quote: PBPs catalyze the transpeptidase reaction used in peptidoglycan cross-linking.
+Block: body
+Id: ann-must-fhb1022-micro-q127
+
+### definition_of · CON-INF-ED16D39441C89B
+Quote: The governed classification separates beta-lactams from non-beta-lactams such as vancomycin.
+Block: body
+Id: ann-must-fhb1022-micro-q128
+
+### definition_of · CON-INF-B87838294C76F5
+Quote: Beta-lactamase inhibitors protect beta-lactam antibiotics from enzymatic hydrolysis.
+Block: body
+Id: ann-must-fhb1022-micro-q129
+
+### definition_of · CON-INF-2EF55DB215EF9D
+Quote: Vancomycin binds to D-Ala-D-Ala on peptidoglycan precursors.
+Block: body
+Id: ann-must-fhb1022-micro-q137
+
+### definition_of · CON-INF-4DBE227F632F33
+Quote: Bacitracin inhibits transport of cell-wall precursors across the cytoplasmic membrane.
+Block: body
+Id: ann-must-fhb1022-micro-q138
+
+### definition_of · CON-INF-AF1A323DC43B0A
+Quote: Penicillins and cephalosporins are grouped as bactericidal beta-lactam cell-wall inhibitors.
+Block: body
+Id: ann-must-fhb1022-micro-q149
+
+### definition_of · CON-INF-CE6D8921A7E095
+Quote: Cell-wall-active beta-lactam antibiotics are presented as time-dependent bactericidal drugs.
+Block: body
+Id: ann-must-fhb1022-micro-q150
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 Antibiotics Introd Mechan deck, visually read on exact cited pages.
+Official MUST FHB102-2 2. B-Lactam & Vancomycin deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## title
+Penicillin classes, combinations, uses and hypersensitivity
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Penicillin pharmacology
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Penicillin pharmacology
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin pharmacology
+
+## summary
+Penicillin G is natural; amoxicillin is an aminopenicillin; dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal agent; piperacillin is extended-spectrum and antipseudomonal. Benzathine penicillin supports rheumatic-fever prophylaxis, named inhibitor combinations pair amoxicillin with clavulanate and ampicillin with sulbactam, and hypersensitivity is a major adverse effect.
+
+## sections
+### Definition
+Penicillins are grouped by spectrum, beta-lactamase resistance, route and clinical use. Penicillin G is natural, amoxicillin is an aminopenicillin, dicloxacillin is an antistaphylococcal enzyme-resistant penicillin, and piperacillin is extended-spectrum and antipseudomonal.
+
+### Mechanism
+Clavulanate protects amoxicillin from beta-lactamase. Sulbactam is paired with ampicillin in Unasyn. These inhibitors preserve the partner beta-lactam rather than supplying an unrelated antimicrobial target.
+
+### Key determinants
+Benzathine penicillin is used for rheumatic-fever prophylaxis. Cloxacillin and dicloxacillin are oral antistaphylococcal formulations in the governed table. Dicloxacillin is used for susceptible staphylococcal infection. Piperacillin is labelled the most potent antipseudomonal penicillin in the governed classification.
+
+### Clinical significance
+Correct class and combination recognition guides spectrum and administration decisions, while penicillin hypersensitivity remains an important safety consideration.
+
+### Common misconceptions
+Do not classify amoxicillin as natural or piperacillin as penicillinase resistant. Do not interchange amoxicillin-clavulanate, ampicillin-sulbactam and piperacillin-tazobactam. The held piperacillin-sulbactam source item is not taught here.
+
+### Governed evidence statements
+The penicillin classification table lists Penicillin G among natural penicillins.
+Benzathine penicillin is listed for rheumatic-fever prophylaxis.
+The penicillin table lists dicloxacillin among enzyme-resistant antistaphylococcal penicillins.
+The penicillin classification table groups amoxicillin with aminopenicillins.
+The penicillin table places piperacillin in the antipseudomonal extended-spectrum group.
+The governed combination table lists amoxicillin plus clavulanic acid as Augmentin.
+The combination table identifies Unasyn as ampicillin plus sulbactam.
+Hypersensitivity is presented as the most important penicillin adverse effect.
+The penicillin table marks cloxacillin and dicloxacillin as orally active.
+The penicillin table places dicloxacillin in the antistaphylococcal group.
+Piperacillin is labelled the most potent antipseudomonal penicillin.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Penicillin G belongs to the natural penicillin group.
+Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever.
+Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin.
+Amoxicillin belongs to the aminopenicillin group.
+Piperacillin is classified as an extended-spectrum antipseudomonal penicillin.
+Clavulanate is the beta-lactamase inhibitor combined with amoxicillin.
+Unasyn is the combination of ampicillin and sulbactam.
+Hypersensitivity reactions are a major adverse effect of penicillins.
+Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification.
+Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.
+Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.
+
+## lose_the_mark
+Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum.
+The governed use is not treatment of viral infection, fungal infection or tuberculosis.
+Amoxicillin and ampicillin are aminopenicillins, while Penicillin G is natural rather than enzyme-resistant.
+Amoxicillin is not classified as natural, carboxy- or ureidopenicillin in the governed table.
+Piperacillin is not natural or penicillinase-resistant, and the deck distinguishes it from the carboxypenicillin subgroup.
+Vancomycin and teicoplanin are glycopeptides, while nafcillin is a penicillin rather than the inhibitor paired with amoxicillin.
+Amoxicillin-clavulanate and piperacillin-tazobactam are different named combinations; nafcillin-dicloxacillin is not Unasyn.
+The governed adverse-effect emphasis is hypersensitivity, not the alternative toxicities offered in this item.
+Because both B and C are supported, selecting only one omits the other governed oral formulation.
+Amoxicillin and ampicillin are aminopenicillins, while benzathine penicillin is a long-acting natural penicillin formulation.
+Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal penicillin in the governed table.
+
+## callout_evidence
+### Penicillin G belongs to the natural penicillin group.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q130-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q130-01
+Reviewed by: pending medical review
+
+### Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q131-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q131-01
+Reviewed by: pending medical review
+
+### Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q132-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q132-01
+Reviewed by: pending medical review
+
+### Amoxicillin belongs to the aminopenicillin group.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q133-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q133-01
+Reviewed by: pending medical review
+
+### Piperacillin is classified as an extended-spectrum antipseudomonal penicillin.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q134-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q134-01
+Reviewed by: pending medical review
+
+### Clavulanate is the beta-lactamase inhibitor combined with amoxicillin.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q135-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q135-01
+Reviewed by: pending medical review
+
+### Unasyn is the combination of ampicillin and sulbactam.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q136-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q136-01
+Reviewed by: pending medical review
+
+### Hypersensitivity reactions are a major adverse effect of penicillins.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q139-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q139-01
+Reviewed by: pending medical review
+
+### Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q142-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q142-01
+Reviewed by: pending medical review
+
+### Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q146-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q146-01
+Reviewed by: pending medical review
+
+### Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.
+Claims: CLM-INF-MUST-FHB1022-PHARM-Q147-01
+Citations: CIT-INF-MUST-FHB1022-PHARM-Q147-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-6A330B9A78514F
+CON-INF-D5C29272FC4BC9
+CON-INF-D09939F6D566ED
+CON-INF-3AA4D2A99A6811
+CON-INF-CF391031D13D70
+CON-INF-3BBF6AEA4C5AB4
+CON-INF-A23FC59A677DB6
+CON-INF-039F2A99E15968
+CON-INF-04E24B1EACC294
+
+## related_articles
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS: Cell-wall antibiotics: beta-lactams, vancomycin and bacitracin
+
+## question_ids
+QST-MUST-FHB1022-PHARM-Q130
+QST-MUST-FHB1022-PHARM-Q131
+QST-MUST-FHB1022-PHARM-Q132
+QST-MUST-FHB1022-PHARM-Q133
+QST-MUST-FHB1022-PHARM-Q134
+QST-MUST-FHB1022-PHARM-Q135
+QST-MUST-FHB1022-PHARM-Q136
+QST-MUST-FHB1022-PHARM-Q139
+QST-MUST-FHB1022-PHARM-Q142
+QST-MUST-FHB1022-PHARM-Q146
+QST-MUST-FHB1022-PHARM-Q147
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## article_source_ids
+src_875c205531a585cd5b91
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q130-01
+CLM-INF-MUST-FHB1022-PHARM-Q131-01
+CLM-INF-MUST-FHB1022-PHARM-Q132-01
+CLM-INF-MUST-FHB1022-PHARM-Q133-01
+CLM-INF-MUST-FHB1022-PHARM-Q134-01
+CLM-INF-MUST-FHB1022-PHARM-Q135-01
+CLM-INF-MUST-FHB1022-PHARM-Q136-01
+CLM-INF-MUST-FHB1022-PHARM-Q139-01
+CLM-INF-MUST-FHB1022-PHARM-Q142-01
+CLM-INF-MUST-FHB1022-PHARM-Q146-01
+CLM-INF-MUST-FHB1022-PHARM-Q147-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-PHARM-Q130-01
+SPN-INF-MUST-FHB1022-PHARM-Q131-01
+SPN-INF-MUST-FHB1022-PHARM-Q132-01
+SPN-INF-MUST-FHB1022-PHARM-Q133-01
+SPN-INF-MUST-FHB1022-PHARM-Q134-01
+SPN-INF-MUST-FHB1022-PHARM-Q135-01
+SPN-INF-MUST-FHB1022-PHARM-Q136-01
+SPN-INF-MUST-FHB1022-PHARM-Q139-01
+SPN-INF-MUST-FHB1022-PHARM-Q142-01
+SPN-INF-MUST-FHB1022-PHARM-Q146-01
+SPN-INF-MUST-FHB1022-PHARM-Q147-01
+
+## university_notes
+must: Global Q130, Q131, Q132, Q133, Q134, Q135, Q136, Q139, Q142, Q146, Q147 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-6A330B9A78514F
+Quote: The penicillin classification table lists Penicillin G among natural penicillins.
+Block: body
+Id: ann-must-fhb1022-micro-q130
+
+### definition_of · CON-INF-D5C29272FC4BC9
+Quote: Benzathine penicillin is listed for rheumatic-fever prophylaxis.
+Block: body
+Id: ann-must-fhb1022-micro-q131
+
+### definition_of · CON-INF-D09939F6D566ED
+Quote: The penicillin table lists dicloxacillin among enzyme-resistant antistaphylococcal penicillins.
+Block: body
+Id: ann-must-fhb1022-micro-q132
+
+### definition_of · CON-INF-3AA4D2A99A6811
+Quote: The penicillin classification table groups amoxicillin with aminopenicillins.
+Block: body
+Id: ann-must-fhb1022-micro-q133
+
+### definition_of · CON-INF-CF391031D13D70
+Quote: The penicillin table places piperacillin in the antipseudomonal extended-spectrum group.
+Block: body
+Id: ann-must-fhb1022-micro-q134
+
+### definition_of · CON-INF-3BBF6AEA4C5AB4
+Quote: The governed combination table lists amoxicillin plus clavulanic acid as Augmentin.
+Block: body
+Id: ann-must-fhb1022-micro-q135
+
+### definition_of · CON-INF-A23FC59A677DB6
+Quote: The combination table identifies Unasyn as ampicillin plus sulbactam.
+Block: body
+Id: ann-must-fhb1022-micro-q136
+
+### definition_of · CON-INF-039F2A99E15968
+Quote: Hypersensitivity is presented as the most important penicillin adverse effect.
+Block: body
+Id: ann-must-fhb1022-micro-q139
+
+### definition_of · CON-INF-D09939F6D566ED
+Quote: The penicillin table marks cloxacillin and dicloxacillin as orally active.
+Block: body
+Id: ann-must-fhb1022-micro-q142
+
+### definition_of · CON-INF-D09939F6D566ED
+Quote: The penicillin table places dicloxacillin in the antistaphylococcal group.
+Block: body
+Id: ann-must-fhb1022-micro-q146
+
+### definition_of · CON-INF-04E24B1EACC294
+Quote: Piperacillin is labelled the most potent antipseudomonal penicillin.
+Block: body
+Id: ann-must-fhb1022-micro-q147
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 2. B-Lactam & Vancomycin deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
 media: These questions are text-only and do not require student-facing media.
 lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.

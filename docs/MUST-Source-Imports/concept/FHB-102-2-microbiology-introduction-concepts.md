@@ -3264,3 +3264,2896 @@ rejectedMergeCandidateIds: concept_7e50394238ac7cb476935db2 — exact raw extrac
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-AF1A323DC43B0A
+
+## label
+Beta-lactams inhibit bacterial cell-wall synthesis
+
+## canonical_key
+pharmacology.beta-lactams.cell-wall-inhibition
+
+## aliases
+Beta-lactam cell-wall inhibition
+Penicillin and cephalosporin cell-wall mechanism
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis. Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
+
+## explicit_objective
+Identify bacterial cell-wall synthesis as the process inhibited by beta-lactam antibiotics. Recognise the shared cell-wall-synthesis mechanism of penicillins and cephalosporins.
+
+## pitfalls
+Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis. The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Beta-lactam mechanism
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactam mechanism
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q126-01
+CLM-INF-MUST-FHB1022-PHARM-Q149-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_94077f144bd452aeaa123adf
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38 Pharmacology Q6 (global Q126); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p44 Pharmacology Q29 (global Q149); printed answer p45
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p30 direct MUST teaching
+src_875c205531a585cd5b91 | tier 1 local teaching | p6, 8 direct MUST teaching
+
+## original_wording
+Beta-lactam antibiotics work by inhibiting: Printed key D; options retained in their original order.
+Which of the following statements is true about cephalosporins and penicillins? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_94077f144bd452aeaa123adf
+concept_94077f144bd452aeaa123adf
+
+## conflicts
+No key conflict affects authored global Q126; printed D agrees with the governed MUST teaching. No key conflict affects authored global Q149; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_94077f144bd452aeaa123adf was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_94077f144bd452aeaa123adf — broad raw beta-lactam mechanism candidate retained as lineage rather than imported as a governed record. concept_94077f144bd452aeaa123adf — broad raw mechanism candidate retained as lineage rather than imported.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-D152917B8E5B0C
+
+## label
+PBPs catalyze peptidoglycan transpeptidation
+
+## canonical_key
+pharmacology.beta-lactams.pbp-transpeptidation
+
+## aliases
+Penicillin-binding protein transpeptidase activity
+PBP cell-wall cross-linking
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan.
+
+## explicit_objective
+Recognise transpeptidation for cell-wall synthesis as a PBP function.
+
+## pitfalls
+PBPs are not ribosomal inhibitors, DNA-destroying enzymes or a generic label for antibiotic resistance.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Penicillin-binding proteins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin-binding proteins
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q127-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38 Pharmacology Q7 (global Q127); printed answer p45
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p31 direct MUST teaching
+
+## original_wording
+What is the function of Penicillin-Binding Proteins (PBPs)? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_2ea5d75f7d95e485adc3d8ef
+
+## conflicts
+No key conflict affects authored global Q127; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_2ea5d75f7d95e485adc3d8ef — carbapenem-specific PBP raw candidate is narrower than the class-level function tested here.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-ED16D39441C89B
+
+## label
+Vancomycin is a non-beta-lactam cell-wall inhibitor
+
+## canonical_key
+pharmacology.cell-wall.vancomycin-non-beta-lactam
+
+## aliases
+Vancomycin non-beta-lactam classification
+Glycopeptide cell-wall inhibitor
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.
+
+## explicit_objective
+Distinguish vancomycin from the beta-lactam groups in the option set.
+
+## pitfalls
+Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Cell-wall inhibitor classes
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cell-wall inhibitor classes
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q128-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38–39 Pharmacology Q8 (global Q128); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p6 direct MUST teaching
+
+## original_wording
+Which of the following drugs is NOT a beta-lactam? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_1add06a78a1c70b54159a262
+
+## conflicts
+No key conflict affects authored global Q128; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_1add06a78a1c70b54159a262 — broader glycopeptide raw identity does not preserve this exact beta-lactam contrast.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-B87838294C76F5
+
+## label
+Beta-lactamase inhibitors protect partner penicillins
+
+## canonical_key
+pharmacology.beta-lactamase-inhibitors.protect-penicillins
+
+## aliases
+Beta-lactamase inhibitor partner protection
+Protection from beta-lactam degradation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation.
+
+## explicit_objective
+Explain why a beta-lactamase inhibitor is paired with a susceptible penicillin.
+
+## pitfalls
+The combination is not intended to increase resistance, reduce all adverse effects or inhibit bacterial DNA replication.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Beta-lactamase inhibitors
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactamase inhibitors
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q129-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_2702d2a68f2fa4a8f84067f4
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q9 (global Q129); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p33 direct MUST teaching
+
+## original_wording
+Why are beta-lactamase inhibitors combined with some penicillins? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_2702d2a68f2fa4a8f84067f4
+
+## conflicts
+No key conflict affects authored global Q129; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_2702d2a68f2fa4a8f84067f4 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_2702d2a68f2fa4a8f84067f4 — exact raw extraction retained as lineage but not imported as a governed concept.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-6A330B9A78514F
+
+## label
+Penicillin G is a natural penicillin
+
+## canonical_key
+pharmacology.penicillins.natural-penicillin-g
+
+## aliases
+Natural penicillin G
+Natural penicillin classification
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Penicillin G belongs to the natural penicillin group.
+
+## explicit_objective
+Identify Penicillin G as the natural penicillin among the offered agents.
+
+## pitfalls
+Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Natural penicillins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Natural penicillins
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q130-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q10 (global Q130); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
+
+## original_wording
+Which of the following is a natural penicillin? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q130; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-D5C29272FC4BC9
+
+## label
+Benzathine penicillin prevents recurrent rheumatic fever
+
+## canonical_key
+pharmacology.penicillins.benzathine-rheumatic-fever-prophylaxis
+
+## aliases
+Benzathine penicillin rheumatic-fever prophylaxis
+Long-acting penicillin prophylaxis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever.
+
+## explicit_objective
+Identify rheumatic-fever prophylaxis as the stated use of benzathine penicillin.
+
+## pitfalls
+The governed use is not treatment of viral infection, fungal infection or tuberculosis.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Long-acting penicillins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Long-acting penicillins
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q131-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_37b12448aaf7607dcef25f69
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q11 (global Q131); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p22 direct MUST teaching
+
+## original_wording
+What is the main use of benzathine penicillin? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_37b12448aaf7607dcef25f69
+
+## conflicts
+No key conflict affects authored global Q131; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_37b12448aaf7607dcef25f69 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_37b12448aaf7607dcef25f69 — broad raw long-acting prophylaxis candidate retained as lineage.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-D09939F6D566ED
+
+## label
+Dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal penicillin
+
+## canonical_key
+pharmacology.penicillins.dicloxacillin-oral-resistant-antistaphylococcal
+
+## aliases
+Dicloxacillin classification
+Oral antistaphylococcal penicillin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin. Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification. Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.
+
+## explicit_objective
+Identify dicloxacillin as beta-lactamase resistant. Recognise both cloxacillin and dicloxacillin as oral formulations in the offered set. Select dicloxacillin as the antistaphylococcal penicillin in the offered set.
+
+## pitfalls
+Amoxicillin and ampicillin are aminopenicillins, while Penicillin G is natural rather than enzyme-resistant. Because both B and C are supported, selecting only one omits the other governed oral formulation. Amoxicillin and ampicillin are aminopenicillins, while benzathine penicillin is a long-acting natural penicillin formulation.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Antistaphylococcal penicillins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antistaphylococcal penicillins
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q132-01
+CLM-INF-MUST-FHB1022-PHARM-Q142-01
+CLM-INF-MUST-FHB1022-PHARM-Q146-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39–40 Pharmacology Q12 (global Q132); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p42 Pharmacology Q22 (global Q142); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p43 Pharmacology Q26 (global Q146); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
+src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
+src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
+
+## original_wording
+Which of these penicillins is resistant to beta-lactamase? Printed key B; options retained in their original order.
+Which penicillin formulation is given orally? Printed key D; options retained in their original order.
+Which penicillin is used primarily for Staphylococcus aureus infections? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q132; printed B agrees with the governed MUST teaching. No key conflict affects authored global Q142; printed D agrees with the governed MUST teaching. No key conflict affects authored global Q146; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-3AA4D2A99A6811
+
+## label
+Amoxicillin is an aminopenicillin
+
+## canonical_key
+pharmacology.penicillins.amoxicillin-aminopenicillin
+
+## aliases
+Amoxicillin class
+Broad-spectrum aminopenicillin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Amoxicillin belongs to the aminopenicillin group.
+
+## explicit_objective
+Classify amoxicillin as an aminopenicillin.
+
+## pitfalls
+Amoxicillin is not classified as natural, carboxy- or ureidopenicillin in the governed table.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Aminopenicillins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aminopenicillins
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q133-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q13 (global Q133); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
+
+## original_wording
+Amoxicillin belongs to which group of penicillins? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q133; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-CF391031D13D70
+
+## label
+Piperacillin is an extended-spectrum antipseudomonal penicillin
+
+## canonical_key
+pharmacology.penicillins.piperacillin-extended-antipseudomonal
+
+## aliases
+Piperacillin classification
+Antipseudomonal extended-spectrum penicillin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Piperacillin is classified as an extended-spectrum antipseudomonal penicillin.
+
+## explicit_objective
+Classify piperacillin as an extended-spectrum penicillin.
+
+## pitfalls
+Piperacillin is not natural or penicillinase-resistant, and the deck distinguishes it from the carboxypenicillin subgroup.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Extended-spectrum penicillins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Extended-spectrum penicillins
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q134-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q14 (global Q134); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
+
+## original_wording
+Piperacillin belongs to which category of penicillins? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q134; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-3BBF6AEA4C5AB4
+
+## label
+Amoxicillin is combined with clavulanate
+
+## canonical_key
+pharmacology.penicillins.amoxicillin-clavulanate
+
+## aliases
+Co-amoxiclav combination
+Amoxicillin clavulanic acid
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Clavulanate is the beta-lactamase inhibitor combined with amoxicillin.
+
+## explicit_objective
+Pair amoxicillin with clavulanate.
+
+## pitfalls
+Vancomycin and teicoplanin are glycopeptides, while nafcillin is a penicillin rather than the inhibitor paired with amoxicillin.
+
+## concept_type
+drug combination
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Beta-lactamase inhibitor combinations
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactamase inhibitor combinations
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q135-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_550a06f2f8cdb1283f34bc9b
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q15 (global Q135); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p33 direct MUST teaching
+
+## original_wording
+Which beta-lactamase inhibitor is commonly combined with amoxicillin? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_550a06f2f8cdb1283f34bc9b
+
+## conflicts
+No key conflict affects authored global Q135; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_550a06f2f8cdb1283f34bc9b was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_550a06f2f8cdb1283f34bc9b — exact raw extraction retained as lineage but not imported as a governed record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-A23FC59A677DB6
+
+## label
+Unasyn combines ampicillin with sulbactam
+
+## canonical_key
+pharmacology.penicillins.ampicillin-sulbactam
+
+## aliases
+Ampicillin sulbactam
+Unasyn composition
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Unasyn is the combination of ampicillin and sulbactam.
+
+## explicit_objective
+Identify the two components of Unasyn.
+
+## pitfalls
+Amoxicillin-clavulanate and piperacillin-tazobactam are different named combinations; nafcillin-dicloxacillin is not Unasyn.
+
+## concept_type
+drug combination
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Beta-lactamase inhibitor combinations
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactamase inhibitor combinations
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q136-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_ac6dc41e45d23db7b00bcdc0
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40–41 Pharmacology Q16 (global Q136); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p33 direct MUST teaching
+
+## original_wording
+Unasyn is a combination of: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_ac6dc41e45d23db7b00bcdc0
+
+## conflicts
+No key conflict affects authored global Q136; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_ac6dc41e45d23db7b00bcdc0 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_ac6dc41e45d23db7b00bcdc0 — exact raw extraction retained as lineage but not imported as a governed record.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-2EF55DB215EF9D
+
+## label
+Vancomycin binds D-alanyl-D-alanyl peptidoglycan precursors
+
+## canonical_key
+pharmacology.cell-wall.vancomycin-d-ala-d-ala
+
+## aliases
+Vancomycin D-Ala-D-Ala binding
+Glycopeptide precursor binding
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
+
+## explicit_objective
+Identify vancomycin from its D-Ala-D-Ala binding mechanism.
+
+## pitfalls
+Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin mechanism
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin mechanism
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q137-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q17 (global Q137); printed answer p45
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p32 direct MUST teaching
+
+## original_wording
+Which antibiotic binds to the D-alanyl-D-alanyl portion of peptidoglycan precursors? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q137; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-4DBE227F632F33
+
+## label
+Bacitracin blocks transport of cell-wall precursors
+
+## canonical_key
+pharmacology.cell-wall.bacitracin-precursor-transport
+
+## aliases
+Bacitracin precursor transport inhibition
+Bacitracin cell-wall mechanism
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.
+
+## explicit_objective
+Recognise blockade of cell-wall precursor transport as bacitracin’s mechanism.
+
+## pitfalls
+Bacitracin is not identified here as a ribosomal, protein-synthesis or DNA-gyrase inhibitor.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Bacitracin mechanism
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bacitracin mechanism
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q138-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q18 (global Q138); printed answer p45
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p32 direct MUST teaching
+
+## original_wording
+Bacitracin works by: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q138; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-039F2A99E15968
+
+## label
+Hypersensitivity is a major penicillin adverse effect
+
+## canonical_key
+pharmacology.penicillins.hypersensitivity
+
+## aliases
+Penicillin allergy
+Penicillin hypersensitivity reaction
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Hypersensitivity reactions are a major adverse effect of penicillins.
+
+## explicit_objective
+Identify hypersensitivity as a major penicillin adverse effect.
+
+## pitfalls
+The governed adverse-effect emphasis is hypersensitivity, not the alternative toxicities offered in this item.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Penicillin adverse effects
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin adverse effects
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q139-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q19 (global Q139); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p23 direct MUST teaching
+
+## original_wording
+A major adverse effect of penicillins is: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q139; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-04E24B1EACC294
+
+## label
+Piperacillin is the most potent listed antipseudomonal penicillin
+
+## canonical_key
+pharmacology.penicillins.piperacillin-pseudomonas-potency
+
+## aliases
+Piperacillin Pseudomonas activity
+Most potent antipseudomonal penicillin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.
+
+## explicit_objective
+Identify piperacillin as the most effective offered penicillin against Pseudomonas aeruginosa.
+
+## pitfalls
+Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal penicillin in the governed table.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Antipseudomonal penicillins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antipseudomonal penicillins
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q147-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p43–44 Pharmacology Q27 (global Q147); printed answer p45
+src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
+
+## original_wording
+Which penicillin is the most effective against Pseudomonas aeruginosa? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored global Q147; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-CE6D8921A7E095
+
+## label
+Beta-lactams are time-dependent bactericidal drugs
+
+## canonical_key
+pharmacology.beta-lactams.time-dependent-killing
+
+## aliases
+Beta-lactam time-dependent killing
+Time-dependent cell-wall antibiotics
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.
+
+## explicit_objective
+Identify beta-lactams as time-dependent killers among the offered antibiotic groups.
+
+## pitfalls
+The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams.
+
+## concept_type
+pharmacodynamics
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Time-dependent killing
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Time-dependent killing
+
+## article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_ee1fb7a716a473eb2d98
+src_4bd3b78f762673d7eb7f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q150-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+concept_b63d87129941d4e1074248e5
+
+## exam_signal
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p44 Pharmacology Q30 (global Q150); printed answer p45
+src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p30 direct MUST teaching
+
+## original_wording
+Which of the following is a time-dependent killer? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_b63d87129941d4e1074248e5
+
+## conflicts
+No key conflict affects authored global Q150; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: Raw candidate concept_b63d87129941d4e1074248e5 was retained as provenance but did not replace this narrower governed identity.
+rejectedMergeCandidateIds: concept_b63d87129941d4e1074248e5 — exact raw extraction retained as lineage but not imported as a governed concept.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

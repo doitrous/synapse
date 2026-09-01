@@ -415,3 +415,421 @@ CLM-INF-MUST-FHB1022-MICRO-Q117-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MICRO-Q117-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q126-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q126-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q126-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q127-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q127-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q127-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q128-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q128-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q128-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q129-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q129-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q129-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q130-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Penicillin G belongs to the natural penicillin group.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q130-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q130-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q131-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q131-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q131-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q132-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q132-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q132-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q133-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Amoxicillin belongs to the aminopenicillin group.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q133-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q133-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q134-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Piperacillin is classified as an extended-spectrum antipseudomonal penicillin.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q134-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q134-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q135-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Clavulanate is the beta-lactamase inhibitor combined with amoxicillin.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q135-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q135-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q136-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Unasyn is the combination of ampicillin and sulbactam.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q136-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q136-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q137-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q137-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q137-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q138-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q138-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q138-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q139-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Hypersensitivity reactions are a major adverse effect of penicillins.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q139-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q139-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q142-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q142-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q142-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q146-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q146-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q146-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q147-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q147-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q147-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q149-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q149-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q149-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-PHARM-Q150-01
+
+## article_id
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## section_id
+art-inf-must-fhb1022-cell-wall-antibiotics-definition
+
+## text
+Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-PHARM-Q150-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-PHARM-Q150-01

@@ -833,3 +833,839 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Microbiology Chapter 6
 source question: Absalam Microbiology Chapter 6 Q27 (global Q117)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q126-01
+
+## concept_id
+CON-INF-AF1A323DC43B0A
+
+## subject
+Beta-lactams inhibit bacterial cell-wall synthesis
+
+## predicate
+states
+
+## object
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+
+## display_text
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q6 (global Q126)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q127-01
+
+## concept_id
+CON-INF-D152917B8E5B0C
+
+## subject
+PBPs catalyze peptidoglycan transpeptidation
+
+## predicate
+states
+
+## object
+Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan.
+
+## display_text
+Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q7 (global Q127)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q128-01
+
+## concept_id
+CON-INF-ED16D39441C89B
+
+## subject
+Vancomycin is a non-beta-lactam cell-wall inhibitor
+
+## predicate
+states
+
+## object
+Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.
+
+## display_text
+Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q8 (global Q128)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q129-01
+
+## concept_id
+CON-INF-B87838294C76F5
+
+## subject
+Beta-lactamase inhibitors protect partner penicillins
+
+## predicate
+states
+
+## object
+Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation.
+
+## display_text
+Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q9 (global Q129)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q130-01
+
+## concept_id
+CON-INF-6A330B9A78514F
+
+## subject
+Penicillin G is a natural penicillin
+
+## predicate
+states
+
+## object
+Penicillin G belongs to the natural penicillin group.
+
+## display_text
+Penicillin G belongs to the natural penicillin group.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q10 (global Q130)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q131-01
+
+## concept_id
+CON-INF-D5C29272FC4BC9
+
+## subject
+Benzathine penicillin prevents recurrent rheumatic fever
+
+## predicate
+states
+
+## object
+Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever.
+
+## display_text
+Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q11 (global Q131)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q132-01
+
+## concept_id
+CON-INF-D09939F6D566ED
+
+## subject
+Dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal penicillin
+
+## predicate
+states
+
+## object
+Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin.
+
+## display_text
+Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q12 (global Q132)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q133-01
+
+## concept_id
+CON-INF-3AA4D2A99A6811
+
+## subject
+Amoxicillin is an aminopenicillin
+
+## predicate
+states
+
+## object
+Amoxicillin belongs to the aminopenicillin group.
+
+## display_text
+Amoxicillin belongs to the aminopenicillin group.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q13 (global Q133)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q134-01
+
+## concept_id
+CON-INF-CF391031D13D70
+
+## subject
+Piperacillin is an extended-spectrum antipseudomonal penicillin
+
+## predicate
+states
+
+## object
+Piperacillin is classified as an extended-spectrum antipseudomonal penicillin.
+
+## display_text
+Piperacillin is classified as an extended-spectrum antipseudomonal penicillin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q14 (global Q134)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q135-01
+
+## concept_id
+CON-INF-3BBF6AEA4C5AB4
+
+## subject
+Amoxicillin is combined with clavulanate
+
+## predicate
+states
+
+## object
+Clavulanate is the beta-lactamase inhibitor combined with amoxicillin.
+
+## display_text
+Clavulanate is the beta-lactamase inhibitor combined with amoxicillin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q15 (global Q135)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q136-01
+
+## concept_id
+CON-INF-A23FC59A677DB6
+
+## subject
+Unasyn combines ampicillin with sulbactam
+
+## predicate
+states
+
+## object
+Unasyn is the combination of ampicillin and sulbactam.
+
+## display_text
+Unasyn is the combination of ampicillin and sulbactam.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q16 (global Q136)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q137-01
+
+## concept_id
+CON-INF-2EF55DB215EF9D
+
+## subject
+Vancomycin binds D-alanyl-D-alanyl peptidoglycan precursors
+
+## predicate
+states
+
+## object
+Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
+
+## display_text
+Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q17 (global Q137)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q138-01
+
+## concept_id
+CON-INF-4DBE227F632F33
+
+## subject
+Bacitracin blocks transport of cell-wall precursors
+
+## predicate
+states
+
+## object
+Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.
+
+## display_text
+Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q18 (global Q138)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q139-01
+
+## concept_id
+CON-INF-039F2A99E15968
+
+## subject
+Hypersensitivity is a major penicillin adverse effect
+
+## predicate
+states
+
+## object
+Hypersensitivity reactions are a major adverse effect of penicillins.
+
+## display_text
+Hypersensitivity reactions are a major adverse effect of penicillins.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q19 (global Q139)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q142-01
+
+## concept_id
+CON-INF-D09939F6D566ED
+
+## subject
+Dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal penicillin
+
+## predicate
+states
+
+## object
+Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification.
+
+## display_text
+Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q22 (global Q142)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q146-01
+
+## concept_id
+CON-INF-D09939F6D566ED
+
+## subject
+Dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal penicillin
+
+## predicate
+states
+
+## object
+Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.
+
+## display_text
+Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q26 (global Q146)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q147-01
+
+## concept_id
+CON-INF-04E24B1EACC294
+
+## subject
+Piperacillin is the most potent listed antipseudomonal penicillin
+
+## predicate
+states
+
+## object
+Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.
+
+## display_text
+Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q27 (global Q147)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q149-01
+
+## concept_id
+CON-INF-AF1A323DC43B0A
+
+## subject
+Beta-lactams inhibit bacterial cell-wall synthesis
+
+## predicate
+states
+
+## object
+Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
+
+## display_text
+Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q29 (global Q149)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-PHARM-Q150-01
+
+## concept_id
+CON-INF-CE6D8921A7E095
+
+## subject
+Beta-lactams are time-dependent bactericidal drugs
+
+## predicate
+states
+
+## object
+Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.
+
+## display_text
+Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Pharmacology
+source question: Absalam Pharmacology Q30 (global Q150)

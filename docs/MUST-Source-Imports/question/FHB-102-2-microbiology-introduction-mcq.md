@@ -2885,3 +2885,2891 @@ yes
 
 ## author_notes
 Printed source key: Microbiology Chapter 6 Q27 (global Q117) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q126
+
+## title
+Beta-lactam antibiotics work by inhibiting:
+
+## question
+Beta-lactam antibiotics work by inhibiting:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+DNA replication
+
+## explanation_a
+Incorrect. Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis. The supported answer is D, Cell wall synthesis.
+
+## answer_b
+RNA synthesis
+
+## explanation_b
+Incorrect. Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis. The supported answer is D, Cell wall synthesis.
+
+## answer_c
+Protein synthesis
+
+## explanation_c
+Incorrect. Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis. The supported answer is D, Cell wall synthesis.
+
+## answer_d
+Cell wall synthesis
+
+## explanation_d
+Beta-lactam antibiotics inhibit bacterial cell-wall synthesis. The official MUST teaching directly supports Cell wall synthesis for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-AF1A323DC43B0A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactam mechanism
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Identify bacterial cell-wall synthesis as the process inhibited by beta-lactam antibiotics.
+
+## source_citation
+Absalam101 Part 1, p38, Pharmacology Q6 (global Q126), printed key p45 (6 = D); official MUST Antibiotics Introd Mechan, p30.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q6 (global Q126) = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q127
+
+## title
+What is the function of Penicillin-Binding Proteins (PBPs)?
+
+## question
+What is the function of Penicillin-Binding Proteins (PBPs)?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Inhibit bacterial ribosomes
+
+## explanation_a
+Incorrect. PBPs are not ribosomal inhibitors, DNA-destroying enzymes or a generic label for antibiotic resistance. The supported answer is B, Catalyze transpeptidation for cell wall synthesis.
+
+## answer_b
+Catalyze transpeptidation for cell wall synthesis
+
+## explanation_b
+Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan. The official MUST teaching directly supports Catalyze transpeptidation for cell wall synthesis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Destroy bacterial DNA
+
+## explanation_c
+Incorrect. PBPs are not ribosomal inhibitors, DNA-destroying enzymes or a generic label for antibiotic resistance. The supported answer is B, Catalyze transpeptidation for cell wall synthesis.
+
+## answer_d
+Promote antibiotic resistance
+
+## explanation_d
+Incorrect. PBPs are not ribosomal inhibitors, DNA-destroying enzymes or a generic label for antibiotic resistance. The supported answer is B, Catalyze transpeptidation for cell wall synthesis.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D152917B8E5B0C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin-binding proteins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Recognise transpeptidation for cell-wall synthesis as a PBP function.
+
+## source_citation
+Absalam101 Part 1, p38, Pharmacology Q7 (global Q127), printed key p45 (7 = B); official MUST Antibiotics Introd Mechan, p31.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q7 (global Q127) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q128
+
+## title
+Which of the following drugs is NOT a beta-lactam?
+
+## question
+Which of the following drugs is NOT a beta-lactam?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Penicillin
+
+## explanation_a
+Incorrect. Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification. The supported answer is C, Vancomycin.
+
+## answer_b
+Cephalosporin
+
+## explanation_b
+Incorrect. Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification. The supported answer is C, Vancomycin.
+
+## answer_c
+Vancomycin
+
+## explanation_c
+Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams. The official MUST teaching directly supports Vancomycin for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Carbapenem
+
+## explanation_d
+Incorrect. Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification. The supported answer is C, Vancomycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-ED16D39441C89B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cell-wall inhibitor classes
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Distinguish vancomycin from the beta-lactam groups in the option set.
+
+## source_citation
+Absalam101 Part 1, p38–39, Pharmacology Q8 (global Q128), printed key p45 (8 = C); official MUST 2. B-Lactam & Vancomycin, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q8 (global Q128) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q129
+
+## title
+Why are beta-lactamase inhibitors combined with some penicillins?
+
+## question
+Why are beta-lactamase inhibitors combined with some penicillins?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+To increase bacterial resistance
+
+## explanation_a
+Incorrect. The combination is not intended to increase resistance, reduce all adverse effects or inhibit bacterial DNA replication. The supported answer is B, To block beta-lactamase enzymes that degrade antibiotics.
+
+## answer_b
+To block beta-lactamase enzymes that degrade antibiotics
+
+## explanation_b
+Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation. The official MUST teaching directly supports To block beta-lactamase enzymes that degrade antibiotics for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+To reduce adverse effects
+
+## explanation_c
+Incorrect. The combination is not intended to increase resistance, reduce all adverse effects or inhibit bacterial DNA replication. The supported answer is B, To block beta-lactamase enzymes that degrade antibiotics.
+
+## answer_d
+To inhibit bacterial DNA replication
+
+## explanation_d
+Incorrect. The combination is not intended to increase resistance, reduce all adverse effects or inhibit bacterial DNA replication. The supported answer is B, To block beta-lactamase enzymes that degrade antibiotics.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-B87838294C76F5
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactamase inhibitors
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Explain why a beta-lactamase inhibitor is paired with a susceptible penicillin.
+
+## source_citation
+Absalam101 Part 1, p39, Pharmacology Q9 (global Q129), printed key p45 (9 = B); official MUST 2. B-Lactam & Vancomycin, p33.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q9 (global Q129) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q130
+
+## title
+Which of the following is a natural penicillin?
+
+## question
+Which of the following is a natural penicillin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Nafcillin
+
+## explanation_a
+Incorrect. Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum. The supported answer is C, Penicillin G.
+
+## answer_b
+Amoxicillin
+
+## explanation_b
+Incorrect. Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum. The supported answer is C, Penicillin G.
+
+## answer_c
+Penicillin G
+
+## explanation_c
+Penicillin G belongs to the natural penicillin group. The official MUST teaching directly supports Penicillin G for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Piperacillin
+
+## explanation_d
+Incorrect. Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum. The supported answer is C, Penicillin G.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-6A330B9A78514F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Natural penicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify Penicillin G as the natural penicillin among the offered agents.
+
+## source_citation
+Absalam101 Part 1, p39, Pharmacology Q10 (global Q130), printed key p45 (10 = C); official MUST 2. B-Lactam & Vancomycin, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q10 (global Q130) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q131
+
+## title
+What is the main use of benzathine penicillin?
+
+## question
+What is the main use of benzathine penicillin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Treating viral infections
+
+## explanation_a
+Incorrect. The governed use is not treatment of viral infection, fungal infection or tuberculosis. The supported answer is C, Prophylaxis for rheumatic fever.
+
+## answer_b
+Treating fungal infections
+
+## explanation_b
+Incorrect. The governed use is not treatment of viral infection, fungal infection or tuberculosis. The supported answer is C, Prophylaxis for rheumatic fever.
+
+## answer_c
+Prophylaxis for rheumatic fever
+
+## explanation_c
+Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever. The official MUST teaching directly supports Prophylaxis for rheumatic fever for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Treating tuberculosis
+
+## explanation_d
+Incorrect. The governed use is not treatment of viral infection, fungal infection or tuberculosis. The supported answer is C, Prophylaxis for rheumatic fever.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D5C29272FC4BC9
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Long-acting penicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify rheumatic-fever prophylaxis as the stated use of benzathine penicillin.
+
+## source_citation
+Absalam101 Part 1, p39, Pharmacology Q11 (global Q131), printed key p45 (11 = C); official MUST 2. B-Lactam & Vancomycin, p22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q11 (global Q131) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q132
+
+## title
+Which of these penicillins is resistant to beta-lactamase?
+
+## question
+Which of these penicillins is resistant to beta-lactamase?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Amoxicillin
+
+## explanation_a
+Incorrect. Amoxicillin and ampicillin are aminopenicillins, while Penicillin G is natural rather than enzyme-resistant. The supported answer is B, Dicloxacillin.
+
+## answer_b
+Dicloxacillin
+
+## explanation_b
+Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin. The official MUST teaching directly supports Dicloxacillin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Penicillin G
+
+## explanation_c
+Incorrect. Amoxicillin and ampicillin are aminopenicillins, while Penicillin G is natural rather than enzyme-resistant. The supported answer is B, Dicloxacillin.
+
+## answer_d
+Ampicillin
+
+## explanation_d
+Incorrect. Amoxicillin and ampicillin are aminopenicillins, while Penicillin G is natural rather than enzyme-resistant. The supported answer is B, Dicloxacillin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D09939F6D566ED
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antistaphylococcal penicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify dicloxacillin as beta-lactamase resistant.
+
+## source_citation
+Absalam101 Part 1, p39–40, Pharmacology Q12 (global Q132), printed key p45 (12 = B); official MUST 2. B-Lactam & Vancomycin, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q12 (global Q132) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q133
+
+## title
+Amoxicillin belongs to which group of penicillins?
+
+## question
+Amoxicillin belongs to which group of penicillins?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Natural penicillins
+
+## explanation_a
+Incorrect. Amoxicillin is not classified as natural, carboxy- or ureidopenicillin in the governed table. The supported answer is B, Aminopenicillins.
+
+## answer_b
+Aminopenicillins
+
+## explanation_b
+Amoxicillin belongs to the aminopenicillin group. The official MUST teaching directly supports Aminopenicillins for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Carboxypenicillins
+
+## explanation_c
+Incorrect. Amoxicillin is not classified as natural, carboxy- or ureidopenicillin in the governed table. The supported answer is B, Aminopenicillins.
+
+## answer_d
+Ureidopenicillins
+
+## explanation_d
+Incorrect. Amoxicillin is not classified as natural, carboxy- or ureidopenicillin in the governed table. The supported answer is B, Aminopenicillins.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-3AA4D2A99A6811
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aminopenicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Classify amoxicillin as an aminopenicillin.
+
+## source_citation
+Absalam101 Part 1, p40, Pharmacology Q13 (global Q133), printed key p45 (13 = B); official MUST 2. B-Lactam & Vancomycin, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q13 (global Q133) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q134
+
+## title
+Piperacillin belongs to which category of penicillins?
+
+## question
+Piperacillin belongs to which category of penicillins?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Extended-spectrum penicillins
+
+## explanation_a
+Piperacillin is classified as an extended-spectrum antipseudomonal penicillin. The official MUST teaching directly supports Extended-spectrum penicillins for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Natural penicillins
+
+## explanation_b
+Incorrect. Piperacillin is not natural or penicillinase-resistant, and the deck distinguishes it from the carboxypenicillin subgroup. The supported answer is A, Extended-spectrum penicillins.
+
+## answer_c
+Penicillinase-resistant penicillins
+
+## explanation_c
+Incorrect. Piperacillin is not natural or penicillinase-resistant, and the deck distinguishes it from the carboxypenicillin subgroup. The supported answer is A, Extended-spectrum penicillins.
+
+## answer_d
+Carboxypenicillins
+
+## explanation_d
+Incorrect. Piperacillin is not natural or penicillinase-resistant, and the deck distinguishes it from the carboxypenicillin subgroup. The supported answer is A, Extended-spectrum penicillins.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-CF391031D13D70
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Extended-spectrum penicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Classify piperacillin as an extended-spectrum penicillin.
+
+## source_citation
+Absalam101 Part 1, p40, Pharmacology Q14 (global Q134), printed key p45 (14 = A); official MUST 2. B-Lactam & Vancomycin, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q14 (global Q134) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q135
+
+## title
+Which beta-lactamase inhibitor is commonly combined with amoxicillin?
+
+## question
+Which beta-lactamase inhibitor is commonly combined with amoxicillin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Clavulanate
+
+## explanation_a
+Clavulanate is the beta-lactamase inhibitor combined with amoxicillin. The official MUST teaching directly supports Clavulanate for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Vancomycin
+
+## explanation_b
+Incorrect. Vancomycin and teicoplanin are glycopeptides, while nafcillin is a penicillin rather than the inhibitor paired with amoxicillin. The supported answer is A, Clavulanate.
+
+## answer_c
+Teicoplanin
+
+## explanation_c
+Incorrect. Vancomycin and teicoplanin are glycopeptides, while nafcillin is a penicillin rather than the inhibitor paired with amoxicillin. The supported answer is A, Clavulanate.
+
+## answer_d
+Nafcillin
+
+## explanation_d
+Incorrect. Vancomycin and teicoplanin are glycopeptides, while nafcillin is a penicillin rather than the inhibitor paired with amoxicillin. The supported answer is A, Clavulanate.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-3BBF6AEA4C5AB4
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactamase inhibitor combinations
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Pair amoxicillin with clavulanate.
+
+## source_citation
+Absalam101 Part 1, p40, Pharmacology Q15 (global Q135), printed key p45 (15 = A); official MUST 2. B-Lactam & Vancomycin, p33.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q15 (global Q135) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q136
+
+## title
+Unasyn is a combination of:
+
+## question
+Unasyn is a combination of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Amoxicillin + clavulanate
+
+## explanation_a
+Incorrect. Amoxicillin-clavulanate and piperacillin-tazobactam are different named combinations; nafcillin-dicloxacillin is not Unasyn. The supported answer is C, Ampicillin + sulbactam.
+
+## answer_b
+Piperacillin + tazobactam
+
+## explanation_b
+Incorrect. Amoxicillin-clavulanate and piperacillin-tazobactam are different named combinations; nafcillin-dicloxacillin is not Unasyn. The supported answer is C, Ampicillin + sulbactam.
+
+## answer_c
+Ampicillin + sulbactam
+
+## explanation_c
+Unasyn is the combination of ampicillin and sulbactam. The official MUST teaching directly supports Ampicillin + sulbactam for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Nafcillin + dicloxacillin
+
+## explanation_d
+Incorrect. Amoxicillin-clavulanate and piperacillin-tazobactam are different named combinations; nafcillin-dicloxacillin is not Unasyn. The supported answer is C, Ampicillin + sulbactam.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-A23FC59A677DB6
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactamase inhibitor combinations
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify the two components of Unasyn.
+
+## source_citation
+Absalam101 Part 1, p40–41, Pharmacology Q16 (global Q136), printed key p45 (16 = C); official MUST 2. B-Lactam & Vancomycin, p33.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q16 (global Q136) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q137
+
+## title
+Which antibiotic binds to the D-alanyl-D-alanyl portion of peptidoglycan precursors?
+
+## question
+Which antibiotic binds to the D-alanyl-D-alanyl portion of peptidoglycan precursors?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Bacitracin
+
+## explanation_a
+Incorrect. Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides. The supported answer is B, Vancomycin.
+
+## answer_b
+Vancomycin
+
+## explanation_b
+Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors. The official MUST teaching directly supports Vancomycin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Amoxicillin
+
+## explanation_c
+Incorrect. Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides. The supported answer is B, Vancomycin.
+
+## answer_d
+Ceftriaxone
+
+## explanation_d
+Incorrect. Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides. The supported answer is B, Vancomycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-2EF55DB215EF9D
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin mechanism
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Identify vancomycin from its D-Ala-D-Ala binding mechanism.
+
+## source_citation
+Absalam101 Part 1, p41, Pharmacology Q17 (global Q137), printed key p45 (17 = B); official MUST Antibiotics Introd Mechan, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q17 (global Q137) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q138
+
+## title
+Bacitracin works by:
+
+## question
+Bacitracin works by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Inhibiting protein synthesis
+
+## explanation_a
+Incorrect. Bacitracin is not identified here as a ribosomal, protein-synthesis or DNA-gyrase inhibitor. The supported answer is C, Blocking transport of cell wall precursors.
+
+## answer_b
+Inhibiting bacterial DNA gyrase
+
+## explanation_b
+Incorrect. Bacitracin is not identified here as a ribosomal, protein-synthesis or DNA-gyrase inhibitor. The supported answer is C, Blocking transport of cell wall precursors.
+
+## answer_c
+Blocking transport of cell wall precursors
+
+## explanation_c
+Bacitracin blocks transport of bacterial cell-wall precursors across the membrane. The official MUST teaching directly supports Blocking transport of cell wall precursors for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Binding to ribosomes
+
+## explanation_d
+Incorrect. Bacitracin is not identified here as a ribosomal, protein-synthesis or DNA-gyrase inhibitor. The supported answer is C, Blocking transport of cell wall precursors.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-4DBE227F632F33
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Bacitracin mechanism
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Recognise blockade of cell-wall precursor transport as bacitracin’s mechanism.
+
+## source_citation
+Absalam101 Part 1, p41, Pharmacology Q18 (global Q138), printed key p45 (18 = C); official MUST Antibiotics Introd Mechan, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q18 (global Q138) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q139
+
+## title
+A major adverse effect of penicillins is:
+
+## question
+A major adverse effect of penicillins is:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Hepatotoxicity
+
+## explanation_a
+Incorrect. The governed adverse-effect emphasis is hypersensitivity, not the alternative toxicities offered in this item. The supported answer is C, Hypersensitivity reactions.
+
+## answer_b
+Nephrotoxicity
+
+## explanation_b
+Incorrect. The governed adverse-effect emphasis is hypersensitivity, not the alternative toxicities offered in this item. The supported answer is C, Hypersensitivity reactions.
+
+## answer_c
+Hypersensitivity reactions
+
+## explanation_c
+Hypersensitivity reactions are a major adverse effect of penicillins. The official MUST teaching directly supports Hypersensitivity reactions for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Seizures
+
+## explanation_d
+Incorrect. The governed adverse-effect emphasis is hypersensitivity, not the alternative toxicities offered in this item. The supported answer is C, Hypersensitivity reactions.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-039F2A99E15968
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin adverse effects
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify hypersensitivity as a major penicillin adverse effect.
+
+## source_citation
+Absalam101 Part 1, p41, Pharmacology Q19 (global Q139), printed key p45 (19 = C); official MUST 2. B-Lactam & Vancomycin, p23.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q19 (global Q139) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q142
+
+## title
+Which penicillin formulation is given orally?
+
+## question
+Which penicillin formulation is given orally?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Penicillin G
+
+## explanation_a
+Incorrect. Because both B and C are supported, selecting only one omits the other governed oral formulation. The supported answer is D, B & C.
+
+## answer_b
+Cloxacillin
+
+## explanation_b
+Incorrect. Because both B and C are supported, selecting only one omits the other governed oral formulation. The supported answer is D, B & C.
+
+## answer_c
+Dicloxacillin
+
+## explanation_c
+Incorrect. Because both B and C are supported, selecting only one omits the other governed oral formulation. The supported answer is D, B & C.
+
+## answer_d
+B & C
+
+## explanation_d
+Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification. The official MUST teaching directly supports B & C for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D09939F6D566ED
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antistaphylococcal penicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Recognise both cloxacillin and dicloxacillin as oral formulations in the offered set.
+
+## source_citation
+Absalam101 Part 1, p42, Pharmacology Q22 (global Q142), printed key p45 (22 = D); official MUST 2. B-Lactam & Vancomycin, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q22 (global Q142) = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q146
+
+## title
+Which penicillin is used primarily for Staphylococcus aureus infections?
+
+## question
+Which penicillin is used primarily for Staphylococcus aureus infections?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Amoxicillin
+
+## explanation_a
+Incorrect. Amoxicillin and ampicillin are aminopenicillins, while benzathine penicillin is a long-acting natural penicillin formulation. The supported answer is B, Dicloxacillin.
+
+## answer_b
+Dicloxacillin
+
+## explanation_b
+Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection. The official MUST teaching directly supports Dicloxacillin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Benzathine penicillin
+
+## explanation_c
+Incorrect. Amoxicillin and ampicillin are aminopenicillins, while benzathine penicillin is a long-acting natural penicillin formulation. The supported answer is B, Dicloxacillin.
+
+## answer_d
+Ampicillin
+
+## explanation_d
+Incorrect. Amoxicillin and ampicillin are aminopenicillins, while benzathine penicillin is a long-acting natural penicillin formulation. The supported answer is B, Dicloxacillin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-D09939F6D566ED
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antistaphylococcal penicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Select dicloxacillin as the antistaphylococcal penicillin in the offered set.
+
+## source_citation
+Absalam101 Part 1, p43, Pharmacology Q26 (global Q146), printed key p45 (26 = B); official MUST 2. B-Lactam & Vancomycin, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q26 (global Q146) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q147
+
+## title
+Which penicillin is the most effective against Pseudomonas aeruginosa?
+
+## question
+Which penicillin is the most effective against Pseudomonas aeruginosa?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Penicillin G
+
+## explanation_a
+Incorrect. Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal penicillin in the governed table. The supported answer is C, Piperacillin.
+
+## answer_b
+Amoxicillin
+
+## explanation_b
+Incorrect. Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal penicillin in the governed table. The supported answer is C, Piperacillin.
+
+## answer_c
+Piperacillin
+
+## explanation_c
+Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table. The official MUST teaching directly supports Piperacillin for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Nafcillin
+
+## explanation_d
+Incorrect. Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal penicillin in the governed table. The supported answer is C, Piperacillin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-04E24B1EACC294
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Antipseudomonal penicillins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify piperacillin as the most effective offered penicillin against Pseudomonas aeruginosa.
+
+## source_citation
+Absalam101 Part 1, p43–44, Pharmacology Q27 (global Q147), printed key p45 (27 = C); official MUST 2. B-Lactam & Vancomycin, p12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q27 (global Q147) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q149
+
+## title
+Which of the following statements is true about cephalosporins and penicillins?
+
+## question
+Which of the following statements is true about cephalosporins and penicillins?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+They have completely different mechanisms of action
+
+## explanation_a
+Incorrect. The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck. The supported answer is C, Both inhibit bacterial cell wall synthesis.
+
+## answer_b
+Cross-reactivity between them is rare
+
+## explanation_b
+Incorrect. The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck. The supported answer is C, Both inhibit bacterial cell wall synthesis.
+
+## answer_c
+Both inhibit bacterial cell wall synthesis
+
+## explanation_c
+Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis. The official MUST teaching directly supports Both inhibit bacterial cell wall synthesis for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Cephalosporins are bacteriostatic
+
+## explanation_d
+Incorrect. The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck. The supported answer is C, Both inhibit bacterial cell wall synthesis.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-AF1A323DC43B0A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Beta-lactam mechanism
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_875c205531a585cd5b91
+
+## learning_objective
+Recognise the shared cell-wall-synthesis mechanism of penicillins and cephalosporins.
+
+## source_citation
+Absalam101 Part 1, p44, Pharmacology Q29 (global Q149), printed key p45 (29 = C); official MUST 2. B-Lactam & Vancomycin, p6, 8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q29 (global Q149) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PHARM-Q150
+
+## title
+Which of the following is a time-dependent killer?
+
+## question
+Which of the following is a time-dependent killer?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_4bd3b78f762673d7eb7f; printed key checked against src_ee1fb7a716a473eb2d98 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Beta-lactams
+
+## explanation_a
+Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity. The official MUST teaching directly supports Beta-lactams for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Aminoglycosides
+
+## explanation_b
+Incorrect. The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams. The supported answer is A, Beta-lactams.
+
+## answer_c
+Fluoroquinolones
+
+## explanation_c
+Incorrect. The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams. The supported answer is A, Beta-lactams.
+
+## answer_d
+Tetracyclines
+
+## explanation_d
+Incorrect. The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams. The supported answer is A, Beta-lactams.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-CE6D8921A7E095
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Time-dependent killing
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## resource_ids
+src_4bd3b78f762673d7eb7f
+src_ee1fb7a716a473eb2d98
+
+## learning_objective
+Identify beta-lactams as time-dependent killers among the offered antibiotic groups.
+
+## source_citation
+Absalam101 Part 1, p44, Pharmacology Q30 (global Q150), printed key p45 (30 = A); official MUST Antibiotics Introd Mechan, p30.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Pharmacology Q30 (global Q150) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

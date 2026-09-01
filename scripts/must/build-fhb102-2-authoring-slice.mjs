@@ -44,6 +44,7 @@ const bacterialCellResourceId = 'src_88ddfa49fe01adee5444'
 const absalamAssessmentResourceId = 'src_4bd3b78f762673d7eb7f'
 const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
 const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
+const antibioticsIntroResourceId = 'src_ee1fb7a716a473eb2d98'
 
 const introArticles = {
   definitions: 'ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS',
@@ -433,6 +434,8 @@ const microArticles = {
   organisation: 'ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION',
   colonizationCarriage: 'ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE',
   virulenceEvasion: 'ART-INF-MUST-FHB1022-VIRULENCE-EVASION',
+  cellWallAntibiotics: 'ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS',
+  penicillins: 'ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY',
 }
 
 const microArticleRelations = {
@@ -440,6 +443,8 @@ const microArticleRelations = {
   organisation: ['foundations'],
   colonizationCarriage: ['virulenceEvasion'],
   virulenceEvasion: ['colonizationCarriage'],
+  cellWallAntibiotics: ['penicillins'],
+  penicillins: ['cellWallAntibiotics'],
 }
 
 const microItems = [
@@ -687,11 +692,188 @@ const microItems = [
     sourceCandidates: ['concept_7e50394238ac7cb476935db2'],
     rejected: ['concept_7e50394238ac7cb476935db2 — exact raw extraction is retained as lineage but is not an import-ready governed concept record.'],
   },
+  {
+    q: 126, bankQ: 6, conceptId: 'CON-INF-AF1A323DC43B0A', canonicalKey: 'pharmacology.beta-lactams.cell-wall-inhibition',
+    label: 'Beta-lactams inhibit bacterial cell-wall synthesis', aliases: ['Beta-lactam cell-wall inhibition', 'Penicillin and cephalosporin cell-wall mechanism'], conceptType: 'mechanism',
+    article: 'cellWallAntibiotics', microtopic: 'Beta-lactam mechanism', assessmentPage: 38, teachingPage: 30, teachingResourceId: antibioticsIntroResourceId,
+    teachingTitle: 'Antibiotics Introd Mechan', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Beta-lactam antibiotics work by inhibiting:', key: 'D', options: ['DNA replication', 'RNA synthesis', 'Protein synthesis', 'Cell wall synthesis'],
+    claim: 'Beta-lactam antibiotics inhibit bacterial cell-wall synthesis.', annotationQuote: 'Cell-wall-active antibacterial drugs are bactericidal agents that include the beta-lactam group.',
+    support: 'The governed mechanism deck lists beta-lactams among cell-wall synthesis inhibitors.', objective: 'Identify bacterial cell-wall synthesis as the process inhibited by beta-lactam antibiotics.',
+    pitfalls: 'Beta-lactams do not answer this item through inhibition of DNA replication, RNA synthesis or protein synthesis.',
+    sourceCandidates: ['concept_94077f144bd452aeaa123adf'], rejected: ['concept_94077f144bd452aeaa123adf — broad raw beta-lactam mechanism candidate retained as lineage rather than imported as a governed record.'],
+  },
+  {
+    q: 127, bankQ: 7, conceptId: 'CON-INF-D152917B8E5B0C', canonicalKey: 'pharmacology.beta-lactams.pbp-transpeptidation',
+    label: 'PBPs catalyze peptidoglycan transpeptidation', aliases: ['Penicillin-binding protein transpeptidase activity', 'PBP cell-wall cross-linking'], conceptType: 'mechanism',
+    article: 'cellWallAntibiotics', microtopic: 'Penicillin-binding proteins', assessmentPage: 38, teachingPage: 31, teachingResourceId: antibioticsIntroResourceId,
+    teachingTitle: 'Antibiotics Introd Mechan', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'What is the function of Penicillin-Binding Proteins (PBPs)?', key: 'B', options: ['Inhibit bacterial ribosomes', 'Catalyze transpeptidation for cell wall synthesis', 'Destroy bacterial DNA', 'Promote antibiotic resistance'],
+    claim: 'Penicillin-binding proteins catalyze the transpeptidase reaction that cross-links bacterial peptidoglycan.', annotationQuote: 'PBPs catalyze the transpeptidase reaction used in peptidoglycan cross-linking.',
+    support: 'The governed mechanism deck states that PBPs catalyze the transpeptidase reaction.', objective: 'Recognise transpeptidation for cell-wall synthesis as a PBP function.',
+    pitfalls: 'PBPs are not ribosomal inhibitors, DNA-destroying enzymes or a generic label for antibiotic resistance.', rejected: ['concept_2ea5d75f7d95e485adc3d8ef — carbapenem-specific PBP raw candidate is narrower than the class-level function tested here.'],
+  },
+  {
+    q: 128, bankQ: 8, conceptId: 'CON-INF-ED16D39441C89B', canonicalKey: 'pharmacology.cell-wall.vancomycin-non-beta-lactam',
+    label: 'Vancomycin is a non-beta-lactam cell-wall inhibitor', aliases: ['Vancomycin non-beta-lactam classification', 'Glycopeptide cell-wall inhibitor'], conceptType: 'classification',
+    article: 'cellWallAntibiotics', microtopic: 'Cell-wall inhibitor classes', assessmentPage: '38–39', teachingPage: 6, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which of the following drugs is NOT a beta-lactam?', key: 'C', options: ['Penicillin', 'Cephalosporin', 'Vancomycin', 'Carbapenem'],
+    claim: 'Vancomycin is a non-beta-lactam cell-wall inhibitor, whereas penicillins, cephalosporins and carbapenems are beta-lactams.', annotationQuote: 'The governed classification separates beta-lactams from non-beta-lactams such as vancomycin.',
+    support: 'The governed deck classifies penicillins, cephalosporins and carbapenems as beta-lactams and vancomycin as a non-beta-lactam.', objective: 'Distinguish vancomycin from the beta-lactam groups in the option set.',
+    pitfalls: 'Penicillins, cephalosporins and carbapenems are all beta-lactams in the governed classification.', rejected: ['concept_1add06a78a1c70b54159a262 — broader glycopeptide raw identity does not preserve this exact beta-lactam contrast.'],
+  },
+  {
+    q: 129, bankQ: 9, conceptId: 'CON-INF-B87838294C76F5', canonicalKey: 'pharmacology.beta-lactamase-inhibitors.protect-penicillins',
+    label: 'Beta-lactamase inhibitors protect partner penicillins', aliases: ['Beta-lactamase inhibitor partner protection', 'Protection from beta-lactam degradation'], conceptType: 'mechanism',
+    article: 'cellWallAntibiotics', microtopic: 'Beta-lactamase inhibitors', assessmentPage: 39, teachingPage: 33, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Why are beta-lactamase inhibitors combined with some penicillins?', key: 'B', options: ['To increase bacterial resistance', 'To block beta-lactamase enzymes that degrade antibiotics', 'To reduce adverse effects', 'To inhibit bacterial DNA replication'],
+    claim: 'Beta-lactamase inhibitors block beta-lactamase and protect susceptible partner penicillins from degradation.', annotationQuote: 'Beta-lactamase inhibitors protect beta-lactam antibiotics from enzymatic hydrolysis.',
+    support: 'The governed deck states that beta-lactamase inhibitors protect beta-lactam antibiotics from bacterial beta-lactamases.', objective: 'Explain why a beta-lactamase inhibitor is paired with a susceptible penicillin.',
+    pitfalls: 'The combination is not intended to increase resistance, reduce all adverse effects or inhibit bacterial DNA replication.', sourceCandidates: ['concept_2702d2a68f2fa4a8f84067f4'], rejected: ['concept_2702d2a68f2fa4a8f84067f4 — exact raw extraction retained as lineage but not imported as a governed concept.'],
+  },
+  {
+    q: 130, bankQ: 10, conceptId: 'CON-INF-6A330B9A78514F', canonicalKey: 'pharmacology.penicillins.natural-penicillin-g',
+    label: 'Penicillin G is a natural penicillin', aliases: ['Natural penicillin G', 'Natural penicillin classification'], conceptType: 'classification',
+    article: 'penicillins', microtopic: 'Natural penicillins', assessmentPage: 39, teachingPage: 12, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which of the following is a natural penicillin?', key: 'C', options: ['Nafcillin', 'Amoxicillin', 'Penicillin G', 'Piperacillin'],
+    claim: 'Penicillin G belongs to the natural penicillin group.', annotationQuote: 'The penicillin classification table lists Penicillin G among natural penicillins.', support: 'The governed penicillin table places Penicillin G in the natural group.',
+    objective: 'Identify Penicillin G as the natural penicillin among the offered agents.', pitfalls: 'Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum.', rejected: [],
+  },
+  {
+    q: 131, bankQ: 11, conceptId: 'CON-INF-D5C29272FC4BC9', canonicalKey: 'pharmacology.penicillins.benzathine-rheumatic-fever-prophylaxis',
+    label: 'Benzathine penicillin prevents recurrent rheumatic fever', aliases: ['Benzathine penicillin rheumatic-fever prophylaxis', 'Long-acting penicillin prophylaxis'], conceptType: 'clinical use',
+    article: 'penicillins', microtopic: 'Long-acting penicillins', assessmentPage: 39, teachingPage: 22, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'What is the main use of benzathine penicillin?', key: 'C', options: ['Treating viral infections', 'Treating fungal infections', 'Prophylaxis for rheumatic fever', 'Treating tuberculosis'],
+    claim: 'Benzathine penicillin is used for prophylaxis against recurrent rheumatic fever.', annotationQuote: 'Benzathine penicillin is listed for rheumatic-fever prophylaxis.', support: 'The governed deck lists benzathine penicillin for prophylaxis of rheumatic fever.',
+    objective: 'Identify rheumatic-fever prophylaxis as the stated use of benzathine penicillin.', pitfalls: 'The governed use is not treatment of viral infection, fungal infection or tuberculosis.', sourceCandidates: ['concept_37b12448aaf7607dcef25f69'], rejected: ['concept_37b12448aaf7607dcef25f69 — broad raw long-acting prophylaxis candidate retained as lineage.'],
+  },
+  {
+    q: 132, bankQ: 12, conceptId: 'CON-INF-D09939F6D566ED', canonicalKey: 'pharmacology.penicillins.dicloxacillin-oral-resistant-antistaphylococcal',
+    label: 'Dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal penicillin', aliases: ['Dicloxacillin classification', 'Oral antistaphylococcal penicillin'], conceptType: 'classification',
+    article: 'penicillins', microtopic: 'Antistaphylococcal penicillins', assessmentPage: '39–40', teachingPage: 12, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which of these penicillins is resistant to beta-lactamase?', key: 'B', options: ['Amoxicillin', 'Dicloxacillin', 'Penicillin G', 'Ampicillin'],
+    claim: 'Dicloxacillin is classified as a beta-lactamase-resistant antistaphylococcal penicillin.', annotationQuote: 'The penicillin table lists dicloxacillin among enzyme-resistant antistaphylococcal penicillins.', support: 'The governed table places dicloxacillin among beta-lactamase-resistant antistaphylococcal penicillins.',
+    objective: 'Identify dicloxacillin as beta-lactamase resistant.', pitfalls: 'Amoxicillin and ampicillin are aminopenicillins, while Penicillin G is natural rather than enzyme-resistant.', rejected: [],
+  },
+  {
+    q: 133, bankQ: 13, conceptId: 'CON-INF-3AA4D2A99A6811', canonicalKey: 'pharmacology.penicillins.amoxicillin-aminopenicillin',
+    label: 'Amoxicillin is an aminopenicillin', aliases: ['Amoxicillin class', 'Broad-spectrum aminopenicillin'], conceptType: 'classification',
+    article: 'penicillins', microtopic: 'Aminopenicillins', assessmentPage: 40, teachingPage: 12, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Amoxicillin belongs to which group of penicillins?', key: 'B', options: ['Natural penicillins', 'Aminopenicillins', 'Carboxypenicillins', 'Ureidopenicillins'],
+    claim: 'Amoxicillin belongs to the aminopenicillin group.', annotationQuote: 'The penicillin classification table groups amoxicillin with aminopenicillins.', support: 'The governed table places amoxicillin in the aminopenicillin or broad-spectrum group.',
+    objective: 'Classify amoxicillin as an aminopenicillin.', pitfalls: 'Amoxicillin is not classified as natural, carboxy- or ureidopenicillin in the governed table.', rejected: [],
+  },
+  {
+    q: 134, bankQ: 14, conceptId: 'CON-INF-CF391031D13D70', canonicalKey: 'pharmacology.penicillins.piperacillin-extended-antipseudomonal',
+    label: 'Piperacillin is an extended-spectrum antipseudomonal penicillin', aliases: ['Piperacillin classification', 'Antipseudomonal extended-spectrum penicillin'], conceptType: 'classification',
+    article: 'penicillins', microtopic: 'Extended-spectrum penicillins', assessmentPage: 40, teachingPage: 12, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Piperacillin belongs to which category of penicillins?', key: 'A', options: ['Extended-spectrum penicillins', 'Natural penicillins', 'Penicillinase-resistant penicillins', 'Carboxypenicillins'],
+    claim: 'Piperacillin is classified as an extended-spectrum antipseudomonal penicillin.', annotationQuote: 'The penicillin table places piperacillin in the antipseudomonal extended-spectrum group.', support: 'The governed table identifies piperacillin as an antipseudomonal broad or extended-spectrum penicillin.',
+    objective: 'Classify piperacillin as an extended-spectrum penicillin.', pitfalls: 'Piperacillin is not natural or penicillinase-resistant, and the deck distinguishes it from the carboxypenicillin subgroup.', rejected: [],
+  },
+  {
+    q: 135, bankQ: 15, conceptId: 'CON-INF-3BBF6AEA4C5AB4', canonicalKey: 'pharmacology.penicillins.amoxicillin-clavulanate',
+    label: 'Amoxicillin is combined with clavulanate', aliases: ['Co-amoxiclav combination', 'Amoxicillin clavulanic acid'], conceptType: 'drug combination',
+    article: 'penicillins', microtopic: 'Beta-lactamase inhibitor combinations', assessmentPage: 40, teachingPage: 33, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which beta-lactamase inhibitor is commonly combined with amoxicillin?', key: 'A', options: ['Clavulanate', 'Vancomycin', 'Teicoplanin', 'Nafcillin'],
+    claim: 'Clavulanate is the beta-lactamase inhibitor combined with amoxicillin.', annotationQuote: 'The governed combination table lists amoxicillin plus clavulanic acid as Augmentin.', support: 'The governed deck lists amoxicillin plus clavulanic acid among beta-lactamase-inhibitor combinations.',
+    objective: 'Pair amoxicillin with clavulanate.', pitfalls: 'Vancomycin and teicoplanin are glycopeptides, while nafcillin is a penicillin rather than the inhibitor paired with amoxicillin.', sourceCandidates: ['concept_550a06f2f8cdb1283f34bc9b'], rejected: ['concept_550a06f2f8cdb1283f34bc9b — exact raw extraction retained as lineage but not imported as a governed record.'],
+  },
+  {
+    q: 136, bankQ: 16, conceptId: 'CON-INF-A23FC59A677DB6', canonicalKey: 'pharmacology.penicillins.ampicillin-sulbactam',
+    label: 'Unasyn combines ampicillin with sulbactam', aliases: ['Ampicillin sulbactam', 'Unasyn composition'], conceptType: 'drug combination',
+    article: 'penicillins', microtopic: 'Beta-lactamase inhibitor combinations', assessmentPage: '40–41', teachingPage: 33, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Unasyn is a combination of:', key: 'C', options: ['Amoxicillin + clavulanate', 'Piperacillin + tazobactam', 'Ampicillin + sulbactam', 'Nafcillin + dicloxacillin'],
+    claim: 'Unasyn is the combination of ampicillin and sulbactam.', annotationQuote: 'The combination table identifies Unasyn as ampicillin plus sulbactam.', support: 'The governed deck lists Unasyn as ampicillin plus sulbactam.',
+    objective: 'Identify the two components of Unasyn.', pitfalls: 'Amoxicillin-clavulanate and piperacillin-tazobactam are different named combinations; nafcillin-dicloxacillin is not Unasyn.', sourceCandidates: ['concept_ac6dc41e45d23db7b00bcdc0'], rejected: ['concept_ac6dc41e45d23db7b00bcdc0 — exact raw extraction retained as lineage but not imported as a governed record.'],
+  },
+  {
+    q: 137, bankQ: 17, conceptId: 'CON-INF-2EF55DB215EF9D', canonicalKey: 'pharmacology.cell-wall.vancomycin-d-ala-d-ala',
+    label: 'Vancomycin binds D-alanyl-D-alanyl peptidoglycan precursors', aliases: ['Vancomycin D-Ala-D-Ala binding', 'Glycopeptide precursor binding'], conceptType: 'mechanism',
+    article: 'cellWallAntibiotics', microtopic: 'Vancomycin mechanism', assessmentPage: 41, teachingPage: 32, teachingResourceId: antibioticsIntroResourceId,
+    teachingTitle: 'Antibiotics Introd Mechan', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which antibiotic binds to the D-alanyl-D-alanyl portion of peptidoglycan precursors?', key: 'B', options: ['Bacitracin', 'Vancomycin', 'Amoxicillin', 'Ceftriaxone'],
+    claim: 'Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors.', annotationQuote: 'Vancomycin binds to D-Ala-D-Ala on peptidoglycan precursors.', support: 'The governed mechanism deck states that vancomycin binds the D-alanyl-D-alanyl portion of peptidoglycan precursors.',
+    objective: 'Identify vancomycin from its D-Ala-D-Ala binding mechanism.', pitfalls: 'Bacitracin blocks precursor transport, while amoxicillin and ceftriaxone are beta-lactams rather than D-Ala-D-Ala-binding glycopeptides.', rejected: [],
+  },
+  {
+    q: 138, bankQ: 18, conceptId: 'CON-INF-4DBE227F632F33', canonicalKey: 'pharmacology.cell-wall.bacitracin-precursor-transport',
+    label: 'Bacitracin blocks transport of cell-wall precursors', aliases: ['Bacitracin precursor transport inhibition', 'Bacitracin cell-wall mechanism'], conceptType: 'mechanism',
+    article: 'cellWallAntibiotics', microtopic: 'Bacitracin mechanism', assessmentPage: 41, teachingPage: 32, teachingResourceId: antibioticsIntroResourceId,
+    teachingTitle: 'Antibiotics Introd Mechan', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Bacitracin works by:', key: 'C', options: ['Inhibiting protein synthesis', 'Inhibiting bacterial DNA gyrase', 'Blocking transport of cell wall precursors', 'Binding to ribosomes'],
+    claim: 'Bacitracin blocks transport of bacterial cell-wall precursors across the membrane.', annotationQuote: 'Bacitracin inhibits transport of cell-wall precursors across the cytoplasmic membrane.', support: 'The governed mechanism deck states that bacitracin blocks transport of cell-wall precursors.',
+    objective: 'Recognise blockade of cell-wall precursor transport as bacitracin’s mechanism.', pitfalls: 'Bacitracin is not identified here as a ribosomal, protein-synthesis or DNA-gyrase inhibitor.', rejected: [],
+  },
+  {
+    q: 139, bankQ: 19, conceptId: 'CON-INF-039F2A99E15968', canonicalKey: 'pharmacology.penicillins.hypersensitivity',
+    label: 'Hypersensitivity is a major penicillin adverse effect', aliases: ['Penicillin allergy', 'Penicillin hypersensitivity reaction'], conceptType: 'adverse effect',
+    article: 'penicillins', microtopic: 'Penicillin adverse effects', assessmentPage: 41, teachingPage: 23, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'A major adverse effect of penicillins is:', key: 'C', options: ['Hepatotoxicity', 'Nephrotoxicity', 'Hypersensitivity reactions', 'Seizures'],
+    claim: 'Hypersensitivity reactions are a major adverse effect of penicillins.', annotationQuote: 'Hypersensitivity is presented as the most important penicillin adverse effect.', support: 'The governed deck identifies hypersensitivity as the most important adverse effect of penicillins.',
+    objective: 'Identify hypersensitivity as a major penicillin adverse effect.', pitfalls: 'The governed adverse-effect emphasis is hypersensitivity, not the alternative toxicities offered in this item.', rejected: [],
+  },
+  {
+    q: 142, bankQ: 22, conceptId: 'CON-INF-D09939F6D566ED', canonicalKey: 'pharmacology.penicillins.dicloxacillin-oral-resistant-antistaphylococcal',
+    label: 'Dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal penicillin', aliases: ['Dicloxacillin classification', 'Oral antistaphylococcal penicillin'], conceptType: 'classification',
+    article: 'penicillins', microtopic: 'Antistaphylococcal penicillins', assessmentPage: 42, teachingPage: 12, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which penicillin formulation is given orally?', key: 'D', options: ['Penicillin G', 'Cloxacillin', 'Dicloxacillin', 'B & C'],
+    claim: 'Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification.', annotationQuote: 'The penicillin table marks cloxacillin and dicloxacillin as orally active.', support: 'The governed table identifies cloxacillin and dicloxacillin as oral antistaphylococcal penicillins.',
+    objective: 'Recognise both cloxacillin and dicloxacillin as oral formulations in the offered set.', pitfalls: 'Because both B and C are supported, selecting only one omits the other governed oral formulation.', rejected: [],
+  },
+  {
+    q: 146, bankQ: 26, conceptId: 'CON-INF-D09939F6D566ED', canonicalKey: 'pharmacology.penicillins.dicloxacillin-oral-resistant-antistaphylococcal',
+    label: 'Dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal penicillin', aliases: ['Dicloxacillin classification', 'Oral antistaphylococcal penicillin'], conceptType: 'classification',
+    article: 'penicillins', microtopic: 'Antistaphylococcal penicillins', assessmentPage: 43, teachingPage: 12, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which penicillin is used primarily for Staphylococcus aureus infections?', key: 'B', options: ['Amoxicillin', 'Dicloxacillin', 'Benzathine penicillin', 'Ampicillin'],
+    claim: 'Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.', annotationQuote: 'The penicillin table places dicloxacillin in the antistaphylococcal group.', support: 'The governed table lists dicloxacillin among beta-lactamase-resistant antistaphylococcal penicillins used for susceptible staphylococci.',
+    objective: 'Select dicloxacillin as the antistaphylococcal penicillin in the offered set.', pitfalls: 'Amoxicillin and ampicillin are aminopenicillins, while benzathine penicillin is a long-acting natural penicillin formulation.', rejected: [],
+  },
+  {
+    q: 147, bankQ: 27, conceptId: 'CON-INF-04E24B1EACC294', canonicalKey: 'pharmacology.penicillins.piperacillin-pseudomonas-potency',
+    label: 'Piperacillin is the most potent listed antipseudomonal penicillin', aliases: ['Piperacillin Pseudomonas activity', 'Most potent antipseudomonal penicillin'], conceptType: 'clinical use',
+    article: 'penicillins', microtopic: 'Antipseudomonal penicillins', assessmentPage: '43–44', teachingPage: 12, teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which penicillin is the most effective against Pseudomonas aeruginosa?', key: 'C', options: ['Penicillin G', 'Amoxicillin', 'Piperacillin', 'Nafcillin'],
+    claim: 'Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.', annotationQuote: 'Piperacillin is labelled the most potent antipseudomonal penicillin.', support: 'The governed table labels piperacillin as the most potent agent in the antipseudomonal penicillin group.',
+    objective: 'Identify piperacillin as the most effective offered penicillin against Pseudomonas aeruginosa.', pitfalls: 'Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal penicillin in the governed table.', rejected: [],
+  },
+  {
+    q: 149, bankQ: 29, conceptId: 'CON-INF-AF1A323DC43B0A', canonicalKey: 'pharmacology.beta-lactams.cell-wall-inhibition',
+    label: 'Beta-lactams inhibit bacterial cell-wall synthesis', aliases: ['Beta-lactam cell-wall inhibition', 'Penicillin and cephalosporin cell-wall mechanism'], conceptType: 'mechanism',
+    article: 'cellWallAntibiotics', microtopic: 'Beta-lactam mechanism', assessmentPage: 44, teachingPage: '6, 8', teachingResourceId: vancomycinResourceId,
+    teachingTitle: '2. B-Lactam & Vancomycin', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which of the following statements is true about cephalosporins and penicillins?', key: 'C', options: ['They have completely different mechanisms of action', 'Cross-reactivity between them is rare', 'Both inhibit bacterial cell wall synthesis', 'Cephalosporins are bacteriostatic'],
+    claim: 'Penicillins and cephalosporins are beta-lactams that inhibit bacterial cell-wall synthesis.', annotationQuote: 'Penicillins and cephalosporins are grouped as bactericidal beta-lactam cell-wall inhibitors.', support: 'The governed deck places penicillins and cephalosporins in the beta-lactam cell-wall inhibitor group and describes beta-lactams as bactericidal.',
+    objective: 'Recognise the shared cell-wall-synthesis mechanism of penicillins and cephalosporins.', pitfalls: 'The two groups share a beta-lactam cell-wall mechanism, and cephalosporins are not classified as bacteriostatic in the governed deck.', rejected: ['concept_94077f144bd452aeaa123adf — broad raw mechanism candidate retained as lineage rather than imported.'],
+  },
+  {
+    q: 150, bankQ: 30, conceptId: 'CON-INF-CE6D8921A7E095', canonicalKey: 'pharmacology.beta-lactams.time-dependent-killing',
+    label: 'Beta-lactams are time-dependent bactericidal drugs', aliases: ['Beta-lactam time-dependent killing', 'Time-dependent cell-wall antibiotics'], conceptType: 'pharmacodynamics',
+    article: 'cellWallAntibiotics', microtopic: 'Time-dependent killing', assessmentPage: 44, teachingPage: 30, teachingResourceId: antibioticsIntroResourceId,
+    teachingTitle: 'Antibiotics Introd Mechan', bankLabel: 'Pharmacology', answerPage: 45, topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], idPrefix: 'PHARM',
+    stem: 'Which of the following is a time-dependent killer?', key: 'A', options: ['Beta-lactams', 'Aminoglycosides', 'Fluoroquinolones', 'Tetracyclines'],
+    claim: 'Beta-lactam cell-wall inhibitors exhibit time-dependent bactericidal activity.', annotationQuote: 'Cell-wall-active beta-lactam antibiotics are presented as time-dependent bactericidal drugs.', support: 'The governed mechanism deck classifies cell-wall-active beta-lactams as time-dependent bactericidal agents.',
+    objective: 'Identify beta-lactams as time-dependent killers among the offered antibiotic groups.', pitfalls: 'The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams.', sourceCandidates: ['concept_b63d87129941d4e1074248e5'], rejected: ['concept_b63d87129941d4e1074248e5 — exact raw extraction retained as lineage but not imported as a governed concept.'],
+  },
 ]
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
   'docs/MUST-Source-Imports/evidence/corpus-source-index.json': corpusSourceIndex(),
+  'docs/MUST-Source-Imports/evidence/corpus-concept-index.json': corpusConceptIndex(),
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-claims.md': claims(),
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-citations.md': citations(),
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-spans.md': spans(),
@@ -1920,6 +2102,61 @@ All 41 pages were rendered and visually read for global Q91–Q120. Page 1 visib
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+${antibioticsIntroResourceId}
+
+## title
+Antibiotics Introd Mechan
+
+## institution
+Teaching deck carrying Jost author metadata and visibly naming Prof. Ahmed Bastawy; no authenticated MUST institution, department, module, examiner or faculty-key declaration is visible
+
+## processing_status
+visually_read_all_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+46
+
+## sha256
+ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+All 46 pages were rendered and visually read during source governance. Pages 30–32 directly support global Q126, Q127, Q137, Q138 and Q150 by classifying beta-lactams as time-dependent bactericidal cell-wall inhibitors, describing PBP transpeptidase activity, stating vancomycin D-Ala-D-Ala binding and describing bacitracin blockade of precursor transport. The deck is teaching evidence only and does not authenticate the student-authored Absalam answer table.
+
+## confidence
+0.85
+
+## is_assessment
+no
 `
 }
 
@@ -1928,7 +2165,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 23,
+    count: 24,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -2225,6 +2462,19 @@ function corpusSourceIndex() {
         moduleIds: [moduleId],
         categories: ['University Material', 'Teaching'],
       },
+      [antibioticsIntroResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf'],
+        sha256: 'ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3',
+        processingStatus: 'fully_governed',
+        pageCount: 46,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['Midterm Exams', 'Teaching'],
+      },
       [introTeachingResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf',
         sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Parasitology/01 University Material/1 - Introduction to Medical Parasitology.pdf'],
@@ -2238,6 +2488,26 @@ function corpusSourceIndex() {
         moduleIds: [moduleId],
         categories: ['University Material', 'Teaching'],
       },
+    },
+  }, null, 1)
+}
+
+function corpusConceptIndex() {
+  return JSON.stringify({
+    note: 'Minimal exact raw-candidate index for the governed FHB-102-2 authoring records; entries are copied from the repository corpus index and remain rejected merge provenance, not import-ready records.',
+    candidates: {
+      concept_25930191933ec8ce06dbcc36: { labels: ['Colonization is bacterial multiplication on a body surface without disease'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain colonization is bacterial multiplication on a body surface without disease as taught by the source.'] },
+      concept_a2b4b11a538e270f6ec8c386: { labels: ['carrier state'], sources: ['10. MTI Uni Books/FINAL GIT 220 THEORITICAL BOOK 2022.pdf'], statements: [] },
+      concept_392ea19120acaefcbc4900f1: { labels: ['Virulence is the quantitative degree of pathogenicity'], sources: ['5. Beni Suef Uni Books/micro.pdf'], statements: ['Explain or identify virulence is the quantitative degree of pathogenicity from the cited general microbiology evidence.'] },
+      concept_b346ddd4b96640338b4ed62b: { labels: ['Virulence factors mediate adherence invasion immune evasion injury and persistence'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain virulence factors mediate adherence invasion immune evasion injury and persistence as taught by the source.'] },
+      concept_ef140fbdea83f0ad8f632b5e: { labels: ['Bacteria compete for iron by siderophores'], sources: ['10. MTI Uni Books/Final HIM 110 theoretical 2022.pdf'], statements: [] },
+      concept_7e50394238ac7cb476935db2: { labels: ['It converts fibrinogen into fibrin.'], sources: ['6. Fayoum Uni Books/ميكرو القسم.pdf'], statements: [] },
+      concept_94077f144bd452aeaa123adf: { labels: ['Beta-lactam antibiotics inhibit bacterial cell-wall synthesis and are bactericidal'], sources: ['8. Tanta Uni Books/a14786de-78b8-42e5-a3e3-26b231151b4e.pdf'], statements: [] },
+      concept_2702d2a68f2fa4a8f84067f4: { labels: ['Beta-lactamase inhibitors protect partner beta-lactams from enzymatic destruction'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain beta-lactamase inhibitors protect partner beta-lactams from enzymatic destruction as taught by the source.'] },
+      concept_37b12448aaf7607dcef25f69: { labels: ['Long-acting penicillin applied for chemoprophylaxis of rheumatic fever'], sources: ['10. MTI Uni Books/PHA 109 II.pdf'], statements: [] },
+      concept_550a06f2f8cdb1283f34bc9b: { labels: ['Co-amoxiclav combines amoxicillin with clavulanic acid'], sources: ['4. Alexandria Uni Books/Pharma practical ID1 2022.pdf'], statements: ['Explain co-amoxiclav combines amoxicillin with clavulanic acid as taught by the source.'] },
+      concept_ac6dc41e45d23db7b00bcdc0: { labels: ['Ampicillin-Sulbactam'], sources: ['9. Zagazig Uni Books/Renal Practical.pdf'], statements: [] },
+      concept_b63d87129941d4e1074248e5: { labels: ['Beta-lactams are bactericidal time-dependent cell-wall inhibitors'], sources: ['4. Alexandria Uni Books/Infectious diseases 1 (part 1) - 2022.pdf'], statements: ['Explain beta-lactams are bactericidal time-dependent cell-wall inhibitors as taught by the source.'] },
     },
   }, null, 1)
 }
@@ -7948,7 +8218,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–27, including answer pages 9, 18 and 27, were rendered and visually read for global Q1–Q90. Pages 19–22 and 27 were rendered and visually read for global Q61–Q75. Pages 23–27 were rendered and visually read for global Q76–Q90. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41, Q44, Q47–Q49, Q51–Q54, Q56–Q58, Q62–Q67, Q85, Q88 and Q90 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43, Q45–Q46, Q50, Q55, Q59–Q61, Q68–Q84, Q86–Q87 and Q89 remain explicit identity, authority, evidence-scope, duplicate, dependency or key-form holds with no student-facing record.
+All 45 pages were rendered and visually read across the five bounded 30-prompt families; answer pages 9, 18, 27, 36 and 45 were checked against every authored or held prompt. Pages 19–22 and 27 were rendered and visually read for global Q61–Q75. Pages 23–27 were rendered and visually read for global Q76–Q90. Pages 37–44 and answer page 45 were rendered and visually read for global Q121–Q150. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q126–Q139, Q142, Q146, Q147, Q149 and Q150 join the prior approved Draft questions with their printed wording, option order and keys unchanged. Global Q121–Q125, Q140, Q141, Q143–Q145 and Q148 join the prior explicit identity, authority, evidence-scope, duplicate, dependency or key-form holds with no student-facing record. Q145 remains an uncorrected teaching conflict: the bank prints piperacillin plus sulbactam while governed teaching gives piperacillin plus tazobactam and ampicillin plus sulbactam.
 
 ## confidence
 0.6
@@ -8965,15 +9235,20 @@ function introArticleTitle(key, data) {
   throw new Error(`Unknown intro article key: ${key}`)
 }
 
-function microClaimId(item) { return `CLM-INF-MUST-FHB1022-MICRO-Q${item.q}-01` }
-function microCitationId(item) { return `CIT-INF-MUST-FHB1022-MICRO-Q${item.q}-01` }
-function microSpanId(item) { return `SPN-INF-MUST-FHB1022-MICRO-Q${item.q}-01` }
-function microQuestionId(item) { return `QST-MUST-FHB1022-MICRO-INTRO-Q${item.q}` }
+function microPrefix(item) { return item.idPrefix ?? 'MICRO' }
+function microClaimId(item) { return `CLM-INF-MUST-FHB1022-${microPrefix(item)}-Q${item.q}-01` }
+function microCitationId(item) { return `CIT-INF-MUST-FHB1022-${microPrefix(item)}-Q${item.q}-01` }
+function microSpanId(item) { return `SPN-INF-MUST-FHB1022-${microPrefix(item)}-Q${item.q}-01` }
+function microQuestionId(item) { return item.idPrefix ? `QST-MUST-FHB1022-${item.idPrefix}-Q${item.q}` : `QST-MUST-FHB1022-MICRO-INTRO-Q${item.q}` }
 function microArticleSectionId(key) { return `${microArticles[key].toLowerCase()}-definition` }
 function microTeachingResource(item) { return item.teachingResourceId ?? bacterialCellResourceId }
 function microTeachingTitle(item) { return item.teachingTitle ?? 'Introduction to Microbiology and Bacterial Cell Structure' }
 function microBankLabel(item) { return item.bankLabel ?? 'Microbiology' }
 function microAnswerPage(item) { return item.answerPage ?? 27 }
+function microTopic(item) { return item.topic ?? 'Microbiology' }
+function microSubtopic(item) { return item.subtopic ?? 'General bacteriology' }
+function microPrimaryNode(item) { return item.primaryNode ?? 'DIS-MIC-T01' }
+function microSecondaryNodes(item) { return item.secondaryNodes ?? ['SYS-FND-T05-S01', 'DIS-MIC'] }
 
 function microClaims() {
   return generatedItems(microItems.map((item) => `# Item
@@ -9130,17 +9405,16 @@ direct_statement
 inf
 
 ## primary_node_id
-DIS-MIC-T01
+${microPrimaryNode(item)}
 
 ## secondary_node_ids
-SYS-FND-T05-S01
-DIS-MIC
+${microSecondaryNodes(item).join('\n')}
 
 ## topic
-Microbiology
+${microTopic(item)}
 
 ## subtopic
-General bacteriology
+${microSubtopic(item)}
 
 ## microtopic
 ${item.microtopic}
@@ -9152,7 +9426,7 @@ ${item.microtopic}
 ${moduleId}
 
 ## module_subject
-${moduleId} > Microbiology > General bacteriology > ${item.microtopic}
+${moduleId} > ${microTopic(item)} > ${microSubtopic(item)} > ${item.microtopic}
 
 ## article_ids
 ${microArticles[item.article]}
@@ -9255,8 +9529,8 @@ drafted_not_reviewed
 ## field_notes
 arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
 arabicAliases: No reviewed Arabic aliases were supplied.
-nanotopicId: No verified nanotopic below the selected Microbiology node exists.
-microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+nanotopicId: No verified nanotopic below the selected ${microTopic(item)} node exists.
+microtopicId: The reviewed taxonomy stops at the selected ${microTopic(item)} topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
 approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
 approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
@@ -9353,6 +9627,44 @@ Immune evasion and nutrient acquisition allow bacteria to persist and multiply d
 ### Common misconceptions
 Do not substitute antibiotic resistance, spore formation or tissue-degrading enzymes for antigenic variation. Do not confuse siderophores with pili, capsule or exotoxins. Hyaluronidase, collagenase and lecithinase do not perform coagulase's fibrinogen-to-fibrin reaction.`,
   },
+  cellWallAntibiotics: {
+    title: 'Cell-wall antibiotics: beta-lactams, vancomycin and bacitracin', microtopic: 'Cell-wall antibiotic mechanisms',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'Beta-lactams are time-dependent bactericidal cell-wall inhibitors. PBPs catalyze peptidoglycan transpeptidation, vancomycin binds D-Ala-D-Ala precursors, bacitracin blocks precursor transport, and beta-lactamase inhibitors protect susceptible partner penicillins.',
+    sections: `### Definition
+Cell-wall-active antibiotics include beta-lactams and non-beta-lactam agents. Penicillins, cephalosporins and carbapenems are beta-lactams; vancomycin and bacitracin inhibit cell-wall formation by different non-beta-lactam mechanisms.
+
+### Mechanism
+Beta-lactams inhibit bacterial cell-wall synthesis through PBPs, which catalyze the transpeptidase reaction used to cross-link peptidoglycan. Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors. Bacitracin blocks transport of cell-wall precursors across the membrane. Beta-lactamase inhibitors protect susceptible partner penicillins from enzymatic degradation.
+
+### Key determinants
+Vancomycin is not a beta-lactam. PBPs are transpeptidase targets rather than ribosomal or DNA enzymes. Penicillins and cephalosporins share beta-lactam cell-wall inhibition. Beta-lactam killing is time dependent.
+
+### Clinical significance
+Keeping the mechanisms separate prevents classifying every cell-wall inhibitor as a beta-lactam and supports rational interpretation of protected penicillin combinations.
+
+### Common misconceptions
+Do not assign vancomycin to the beta-lactam class. Do not replace bacitracin's precursor-transport block with ribosomal or DNA-gyrase inhibition. Beta-lactamase inhibitors protect the partner antibiotic; they do not repair adverse effects or inhibit DNA replication.`,
+  },
+  penicillins: {
+    title: 'Penicillin classes, combinations, uses and hypersensitivity', microtopic: 'Penicillin pharmacology',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'Penicillin G is natural; amoxicillin is an aminopenicillin; dicloxacillin is an oral beta-lactamase-resistant antistaphylococcal agent; piperacillin is extended-spectrum and antipseudomonal. Benzathine penicillin supports rheumatic-fever prophylaxis, named inhibitor combinations pair amoxicillin with clavulanate and ampicillin with sulbactam, and hypersensitivity is a major adverse effect.',
+    sections: `### Definition
+Penicillins are grouped by spectrum, beta-lactamase resistance, route and clinical use. Penicillin G is natural, amoxicillin is an aminopenicillin, dicloxacillin is an antistaphylococcal enzyme-resistant penicillin, and piperacillin is extended-spectrum and antipseudomonal.
+
+### Mechanism
+Clavulanate protects amoxicillin from beta-lactamase. Sulbactam is paired with ampicillin in Unasyn. These inhibitors preserve the partner beta-lactam rather than supplying an unrelated antimicrobial target.
+
+### Key determinants
+Benzathine penicillin is used for rheumatic-fever prophylaxis. Cloxacillin and dicloxacillin are oral antistaphylococcal formulations in the governed table. Dicloxacillin is used for susceptible staphylococcal infection. Piperacillin is labelled the most potent antipseudomonal penicillin in the governed classification.
+
+### Clinical significance
+Correct class and combination recognition guides spectrum and administration decisions, while penicillin hypersensitivity remains an important safety consideration.
+
+### Common misconceptions
+Do not classify amoxicillin as natural or piperacillin as penicillinase resistant. Do not interchange amoxicillin-clavulanate, ampicillin-sulbactam and piperacillin-tazobactam. The held piperacillin-sulbactam source item is not taught here.`,
+  },
 } }
 
 function microArticleRecords() {
@@ -9361,6 +9673,9 @@ function microArticleRecords() {
     const articleItems = microItems.filter((item) => item.article === key)
     const teachingResources = [...new Set(articleItems.map(microTeachingResource))]
     const related = microArticleRelations[key].map((other) => `${microArticles[other]}: ${data[other].title}`).join('\n')
+    const bodySections = article.topic === 'Pharmacology'
+      ? `${article.sections}\n\n### Governed evidence statements\n${articleItems.map((item) => item.annotationQuote).join('\n')}`
+      : article.sections
     return `# Item
 
 ## id
@@ -9391,10 +9706,10 @@ Medical team, Admin team
 Admin team
 
 ## topic
-Microbiology
+${article.topic ?? 'Microbiology'}
 
 ## subtopic
-General bacteriology
+${article.subtopic ?? 'General bacteriology'}
 
 ## microtopic
 ${article.microtopic}
@@ -9403,11 +9718,10 @@ ${article.microtopic}
 
 
 ## primary_node_id
-DIS-MIC-T01
+${article.primaryNode ?? 'DIS-MIC-T01'}
 
 ## secondary_node_ids
-SYS-FND-T05-S01
-DIS-MIC
+${(article.secondaryNodes ?? ['SYS-FND-T05-S01', 'DIS-MIC']).join('\n')}
 
 ## template_id
 TPL-CONCEPT
@@ -9440,13 +9754,13 @@ MUST_Y1
 ${moduleId}
 
 ## module_subject
-${moduleId} > Microbiology > General bacteriology > ${article.microtopic}
+${moduleId} > ${article.topic ?? 'Microbiology'} > ${article.subtopic ?? 'General bacteriology'} > ${article.microtopic}
 
 ## summary
 ${article.summary}
 
 ## sections
-${article.sections}
+${bodySections}
 
 ## published_summary
 
@@ -9514,11 +9828,11 @@ No authored question has a teaching contradiction. The student-bank keys remain 
 
 
 ## notes
-Bounded Absalam Microbiology slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
-nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+nanotopicId: No verified nanotopic below the selected ${article.topic ?? 'Microbiology'} node exists.
 media: These questions are text-only and do not require student-facing media.
 lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
@@ -9567,10 +9881,10 @@ ${item.key}
 ${item.options.map((option, index) => `## answer_${'abcd'[index]}\n${option}\n\n## explanation_${'abcd'[index]}\n${'ABCD'[index] === item.key ? explanation : `Incorrect. ${item.pitfalls} The supported answer is ${item.key}, ${correct}.`}`).join('\n\n')}
 
 ## topic
-Microbiology
+${microTopic(item)}
 
 ## subtopic
-General bacteriology
+${microSubtopic(item)}
 
 ## main_concept
 ${item.conceptId}
@@ -9624,7 +9938,7 @@ must
 ${moduleId}
 
 ## module_subject
-${moduleId} > Microbiology > General bacteriology > ${item.microtopic}
+${moduleId} > ${microTopic(item)} > ${microSubtopic(item)} > ${item.microtopic}
 
 ## question_only_for
 MUST_Y1
@@ -9745,6 +10059,31 @@ function microCoverage() {
 - **Q120 is held in the Absalam Microbiology Chapter 6 family as an identity/dependency hold.** Printed B, It leads to inflammation and tissue damage, is supported by official page 35, but the same pending endotoxin article chain already governs complement-mediated inflammation and cannot be duplicated safely.
 
 `
+  const fourthDelta = `### Absalam Pharmacology final-family delta
+
+- +1 evidence resource: the 46-page locally supplied Antibiotics Introd Mechan teaching deck, already fully visually governed; the existing governed beta-lactam and vancomycin resource and Absalam assessment resource are reused.
+- +19 verified local-curriculum claims, +19 citations and +19 article spans for global Q126–Q139, Q142, Q146, Q147, Q149 and Q150.
+- +16 under-review / needs-evidence concepts. Q126/Q149 share the beta-lactam cell-wall identity; Q132/Q142/Q146 share the oral beta-lactamase-resistant antistaphylococcal dicloxacillin identity. Raw candidates are retained only as rejected-merge lineage.
+- +2 standalone-complete reciprocal Draft articles and +19 Draft questions.
+- +11 explicit holds with no student-facing record: global Q121–Q125, Q140, Q141, Q143–Q145 and Q148.
+- Every authored stem, option and printed key is unchanged. Q145 remains an uncorrected teaching conflict; Q140, Q141, Q143, Q144 and Q148 remain exact precision or wording holds. No key was repaired or silently taught through a student-facing record.
+- Absalam Pharmacology, global Q121–Q150: **19 authored / 11 held / 0 unassessed**.
+- Absalam source global Q1–Q150: **68 authored / 82 held / 0 unassessed**. The source is fully dispositioned.
+
+`
+  const fourthHolds = `- **Q121 is held in the Absalam Pharmacology family as an identity/dependency hold.** Printed B, Treating infections caused by microorganisms, overlaps live concept \`CON-INF-25871D95E4E1D3\` and live article \`ART-INF-TOP-65C8E5125F\`. No duplicate concept or unsafe live-article update was created.
+- **Q122 is held in the Absalam Pharmacology family as an exact duplicate hold.** Printed C, Kill bacteria and reduce bacterial load, duplicates live bactericidal concept \`CON-INF-1249475C90F47B\`; no second identity was minted.
+- **Q123 is held in the Absalam Pharmacology family as a dependency hold.** Printed B, In immunocompromised patients, is supported by local teaching, but its broad antimicrobial-principles dependency overlaps live article \`ART-INF-TOP-65C8E5125F\`, whose complete relationship graph cannot be widened safely inside this bounded batch.
+- **Q124 is held in the Absalam Pharmacology family as a dependency hold.** Printed C, A wide range of bacterial species, is supported by local teaching, but the necessary broad-spectrum definition belongs in the same unsafe live antimicrobial-principles dependency chain; no duplicate article was created.
+- **Q125 is held in the Absalam Pharmacology family as a dependency hold.** Printed B, Antineoplastic, follows the local antibacterial/antiviral/antifungal category list, but the broad antimicrobial-category identity again overlaps the live antimicrobial-principles article and was not duplicated or overwritten.
+- **Q140 is held in the Absalam Pharmacology family as an unsupported quantitative-authority hold.** The bank prints B, 5-15%, while governed local teaching states only that penicillin-cephalosporin cross-allergy may occur or is low and gives no exact rate. No number was inferred or imported.
+- **Q141 is held in the Absalam Pharmacology family as an unsupported wording hold.** The bank prints B, A severe reaction that can be fatal. Governed teaching identifies penicillin anaphylaxis as the most serious hypersensitivity reaction but does not state the offered “can be fatal” wording. No external wording was substituted.
+- **Q143 is held in the Absalam Pharmacology family as an unsupported precision hold.** The bank prints B, Staphylococcus aureus. Governed teaching supports beta-lactamase-producing staphylococci but does not state the offered species-level “commonly produce” formulation.
+- **Q144 is held in the Absalam Pharmacology family as an unsupported category-form hold.** The bank prints B, Gram-negative aerobes. Governed teaching supports broader Gram-negative and antipseudomonal activity for carbenicillin and ticarcillin but does not state the exact “aerobes” category.
+- **Q145 is held in the Absalam Pharmacology family as an uncorrected teaching conflict.** The bank prints B, Piperacillin + sulbactam. Governed teaching consistently gives piperacillin + tazobactam and ampicillin + sulbactam. The printed key was neither corrected nor promoted to student-facing content.
+- **Q148 is held in the Absalam Pharmacology family as an unsupported formulation-wording hold.** The bank prints B, Procaine penicillin (Penicillin G), as a long-acting IM formulation. Governed teaching lists procaine penicillin as a depot IM preparation dosed every 12–24 hours but explicitly labels only benzathine penicillin as long-acting. No equivalence was inferred.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -9761,18 +10100,32 @@ function microCoverage() {
     .replace('| Articles | 23 |', '| Articles | 25 |')
     .replace('| Questions | 47 |', '| Questions | 57 |')
     .replace('| Question authoring holds | 74 |', '| Question authoring holds | 94 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}`)
+    .replace('| Evidence resources | 23 |', '| Evidence resources | 24 |')
+    .replace('| Claims | 57 |', '| Claims | 76 |')
+    .replace('| Citations | 62 |', '| Citations | 81 |')
+    .replace('| Article spans | 57 |', '| Article spans | 76 |')
+    .replace('| Concepts | 53 |', '| Concepts | 69 |')
+    .replace('| Articles | 25 |', '| Articles | 27 |')
+    .replace('| Questions | 57 |', '| Questions | 76 |')
+    .replace('| Question authoring holds | 94 |', '| Question authoring holds | 105 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
     .replace('Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations', 'Governed answer observations: 5,211 total; 57 clean source-keyed prompts authored; **5,154 raw answer observations remain**, including the 94 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds', 'Governed prompt observations: 5,444 total; 76 authored; **5,368 raw prompt observations remain**, including 105 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 57 clean source-keyed prompts authored; **5,154 raw answer observations remain**, including the 94 held printed-key observations', 'Governed answer observations: 5,211 total; 76 clean source-keyed prompts authored; **5,135 raw answer observations remain**, including the 105 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
+    .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
+    .replace('All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts', 'All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
+    .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
 }

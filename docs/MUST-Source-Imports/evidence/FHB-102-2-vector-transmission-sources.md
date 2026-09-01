@@ -1153,3 +1153,58 @@ All 41 pages were rendered and visually read for global Q91–Q120. Page 1 visib
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_ee1fb7a716a473eb2d98
+
+## title
+Antibiotics Introd Mechan
+
+## institution
+Teaching deck carrying Jost author metadata and visibly naming Prof. Ahmed Bastawy; no authenticated MUST institution, department, module, examiner or faculty-key declaration is visible
+
+## processing_status
+visually_read_all_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/08 Midterm Exams/Antibiotics Introd Mechan.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-01
+
+## page_count
+46
+
+## sha256
+ee1fb7a716a473eb2d983d7f25ad342f2320dc40d55d3c8d32b777ae69fb46a3
+
+## rights
+Locally supplied teaching material; internal curriculum authoring only.
+
+## qualification
+All 46 pages were rendered and visually read during source governance. Pages 30–32 directly support global Q126, Q127, Q137, Q138 and Q150 by classifying beta-lactams as time-dependent bactericidal cell-wall inhibitors, describing PBP transpeptidase activity, stating vancomycin D-Ala-D-Ala binding and describing bacitracin blockade of precursor transport. The deck is teaching evidence only and does not authenticate the student-authored Absalam answer table.
+
+## confidence
+0.85
+
+## is_assessment
+no

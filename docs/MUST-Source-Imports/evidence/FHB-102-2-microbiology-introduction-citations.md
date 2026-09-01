@@ -757,3 +757,763 @@ The official MUST teaching deck directly supports the unchanged printed global Q
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q126-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q126-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed mechanism deck lists beta-lactams among cell-wall synthesis inhibitors.
+
+## locator_type
+page
+
+## locator_page
+30
+
+## locator_section
+Antibiotics Introd Mechan — Beta-lactam mechanism
+
+## locator_detail
+PDF page 30, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q126 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q127-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q127-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed mechanism deck states that PBPs catalyze the transpeptidase reaction.
+
+## locator_type
+page
+
+## locator_page
+31
+
+## locator_section
+Antibiotics Introd Mechan — Penicillin-binding proteins
+
+## locator_detail
+PDF page 31, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q127 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q128-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q128-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck classifies penicillins, cephalosporins and carbapenems as beta-lactams and vancomycin as a non-beta-lactam.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+2. B-Lactam & Vancomycin — Cell-wall inhibitor classes
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q128 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q129-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q129-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck states that beta-lactamase inhibitors protect beta-lactam antibiotics from bacterial beta-lactamases.
+
+## locator_type
+page
+
+## locator_page
+33
+
+## locator_section
+2. B-Lactam & Vancomycin — Beta-lactamase inhibitors
+
+## locator_detail
+PDF page 33, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q129 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q130-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q130-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed penicillin table places Penicillin G in the natural group.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+2. B-Lactam & Vancomycin — Natural penicillins
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q130 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q131-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q131-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck lists benzathine penicillin for prophylaxis of rheumatic fever.
+
+## locator_type
+page
+
+## locator_page
+22
+
+## locator_section
+2. B-Lactam & Vancomycin — Long-acting penicillins
+
+## locator_detail
+PDF page 22, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q131 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q132-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q132-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed table places dicloxacillin among beta-lactamase-resistant antistaphylococcal penicillins.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+2. B-Lactam & Vancomycin — Antistaphylococcal penicillins
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q132 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q133-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q133-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed table places amoxicillin in the aminopenicillin or broad-spectrum group.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+2. B-Lactam & Vancomycin — Aminopenicillins
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q133 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q134-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q134-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed table identifies piperacillin as an antipseudomonal broad or extended-spectrum penicillin.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+2. B-Lactam & Vancomycin — Extended-spectrum penicillins
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q134 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q135-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q135-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck lists amoxicillin plus clavulanic acid among beta-lactamase-inhibitor combinations.
+
+## locator_type
+page
+
+## locator_page
+33
+
+## locator_section
+2. B-Lactam & Vancomycin — Beta-lactamase inhibitor combinations
+
+## locator_detail
+PDF page 33, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q135 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q136-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q136-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck lists Unasyn as ampicillin plus sulbactam.
+
+## locator_type
+page
+
+## locator_page
+33
+
+## locator_section
+2. B-Lactam & Vancomycin — Beta-lactamase inhibitor combinations
+
+## locator_detail
+PDF page 33, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q136 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q137-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q137-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed mechanism deck states that vancomycin binds the D-alanyl-D-alanyl portion of peptidoglycan precursors.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Antibiotics Introd Mechan — Vancomycin mechanism
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q137 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q138-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q138-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed mechanism deck states that bacitracin blocks transport of cell-wall precursors.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Antibiotics Introd Mechan — Bacitracin mechanism
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q138 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q139-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q139-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck identifies hypersensitivity as the most important adverse effect of penicillins.
+
+## locator_type
+page
+
+## locator_page
+23
+
+## locator_section
+2. B-Lactam & Vancomycin — Penicillin adverse effects
+
+## locator_detail
+PDF page 23, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q139 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q142-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q142-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed table identifies cloxacillin and dicloxacillin as oral antistaphylococcal penicillins.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+2. B-Lactam & Vancomycin — Antistaphylococcal penicillins
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q142 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q146-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q146-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed table lists dicloxacillin among beta-lactamase-resistant antistaphylococcal penicillins used for susceptible staphylococci.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+2. B-Lactam & Vancomycin — Antistaphylococcal penicillins
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q146 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q147-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q147-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed table labels piperacillin as the most potent agent in the antipseudomonal penicillin group.
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+2. B-Lactam & Vancomycin — Antipseudomonal penicillins
+
+## locator_detail
+PDF page 12, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q147 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q149-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q149-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed deck places penicillins and cephalosporins in the beta-lactam cell-wall inhibitor group and describes beta-lactams as bactericidal.
+
+## locator_type
+page
+
+## locator_page
+6, 8
+
+## locator_section
+2. B-Lactam & Vancomycin — Beta-lactam mechanism
+
+## locator_detail
+PDF page 6, 8, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q149 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-PHARM-Q150-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-PHARM-Q150-01
+
+## resource_id
+src_ee1fb7a716a473eb2d98
+
+## evidence_role
+local_curriculum
+
+## support_span
+The governed mechanism deck classifies cell-wall-active beta-lactams as time-dependent bactericidal agents.
+
+## locator_type
+page
+
+## locator_page
+30
+
+## locator_section
+Antibiotics Introd Mechan — Time-dependent killing
+
+## locator_detail
+PDF page 30, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q150 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
