@@ -1,0 +1,91 @@
+# MANS-HIS-203 — recovered answer keys, Phase-0 sample
+# Format: <source sourceId> :: <internal question #> :: <key> :: <one-line stem>
+# Method: "printed" = plain-text key beside the option, reliable.
+#         "ocr" = tesseract OCR of a scanned page; noisy, spot-check before use.
+#         "cross-ref" = key recovered from an identical question in a companion
+#           readable source, not from this file's own (garbled) OCR.
+
+## src_c4ee1e63536c22ca52d4 (His Continuous Berlin Book 2026.pdf) — Histology, Lecture 1&2, printed keys
+Q1  :: B :: light microscopic picture of platelets
+Q2  :: A :: largest cell in thrombopoiesis
+Q3  :: B :: normal life span of platelets
+Q4  :: E :: mitosis lost at which erythropoiesis stage
+Q5  :: C :: decreased RBC count = anemia
+Q6  :: C :: normal RBC count in males
+Q7  :: B :: normal platelet count
+Q8  :: A :: mature erythrocyte properties
+Q9  :: D :: RBC adaptability exception
+Q10 :: D :: delta granules of platelets contain
+Q11 :: A :: red bone marrow site
+Q12 :: E :: yellow (inactive) bone marrow site
+Q13 :: A :: erythropoiesis = development of RBCs
+Q14 :: A :: main site of erythropoiesis in middle age
+Q15 :: D :: platelet development, megakaryocyte nucleus
+Q16 :: E :: hemoglobin first appears at which erythropoiesis stage
+Q17 :: B :: reticulocyte characteristics
+Q18 :: E :: increased RBC count = polycythemia
+Q19 :: B :: site of erythropoiesis in early embryo
+Q20 :: C :: first precursor cell for RBCs (proerythroblast)
+Q51 :: C :: B-lymphocytes — humoral immunity
+Q52 :: D :: T-lymphocytes — cellular immunity
+Q53 :: B :: largest cell in granulopoiesis (promyelocyte)
+Q54 :: C :: specific granules first appear at myelocyte stage
+Q55 :: B :: promyelocyte — fine nonspecific granules
+
+## src_c4ee1e63536c22ca52d4 — Histology, Lecture 3&4 opening, printed keys
+Q56 :: D :: largest blast cell — monoblast
+Q57 :: B :: granulopoiesis = development of eosinophils [stem garbled by RTL/typo in source, verify]
+Q58 :: A :: eosinophil nucleus shape — horseshoe/bilobed
+Q59 :: B :: primary neutrophil granules — azurophilic
+Q60 :: C :: fine non-specific granules appear at promyelocyte stage
+Q61(L3-Q1) :: D :: lymph node medullary cords — plasma cells
+Q62(L3-Q2) :: A :: lymph node cortex — lymphoid follicles
+Q63(L3-Q3) :: D :: spleen — main site of old RBC destruction
+Q64(L3-Q4) :: C :: lymph node — encapsulated lymphatic organ
+Q65(L3-Q5) :: B :: spleen white pulp = lymph follicle collections
+
+## src_c4ee1e63536c22ca52d4 — Histology, "دفعة 62" past-exam block (p.36), printed keys
+D62-Q1 :: C :: RBC = biconcave disc shape
+D62-Q2 :: E :: average RBC diameter, 7.5 um
+D62-Q3 :: C :: thrombocytes — blood clotting role
+D62-Q4 :: C :: neutrophil nucleus — multilobed
+D62-Q5 :: D :: lymph node medullary cords — plasma cells
+
+## src_c4ee1e63536c22ca52d4 — Histology, "دفعة 63" past-exam block (p.36-37), printed keys
+D62-Q6  :: C :: thymus medulla — Hassall's corpuscles
+D62-Q7  :: C :: adult hemopoiesis site — bone marrow
+D62-Q8  :: C :: smallest blood cell — platelet
+D62-Q9  :: D :: largest cell in blood smear — monocyte
+D62-Q10 :: A :: lymph node cortex — lymphoid follicles
+
+## src_c4ee1e63536c22ca52d4 (p.38) — Histology, "دفعة 63" second block, printed keys
+D63-Q1 :: A :: reticulocytes give rise to erythrocytes
+D63-Q2 :: C :: RBC life span, 120 days
+D63-Q3 :: A :: yolk sac hematopoiesis duration — few weeks
+D63-Q4 :: C :: adult hemopoiesis site — bone marrow
+D63-Q5 :: B :: reticulocyte — basophilic cytoplasm
+
+## src_649cbae59ac952ac4668-adjacent (Microbiology, Berlin Book p.46) — L1 questions, printed keys
+M-Q1 :: C :: pollen — type I (immediate) hypersensitivity
+M-Q2 :: D :: IgE cross-links mast cells, degranulation
+M-Q3 :: A :: type I mechanism — IgE production
+M-Q4 :: B :: penicillin + pollen hypersensitivity — both IgE-mediated
+M-Q5 :: B :: Rh(D) hemolytic disease of the newborn — type II hypersensitivity
+
+## src_59f4d49a6f6a2ef7c047 (HIS 1- MCQ-scan.pdf) — Physiology-flavored bank, OCR, keys largely lost
+# The correct-answer highlight did not survive OCR for most items on the pages sampled
+# (p.2-4). Recovered where a stray letter/marker survived OCR; unmarked stems below need
+# a second OCR pass (different psm) or a visual check before use.
+p2-Q2 (packed cell volume / normal values) :: C :: recovered (OCR, low confidence)
+p3-Q3 (old RBC removal by macrophages)     :: C :: recovered (OCR, low confidence)
+p3-Q5 (normal RBC count, adult females)    :: unclear "e" token :: recovered (OCR, very low confidence, verify)
+p2-Q1, p2-Q1(hematocrit-stmt), p2-Q3(erythrocyte-stmt), p2-Q4/5(RBC/biconcave-shape),
+p3-Q1(erythrocyte-structure-stmt), p3-Q2(RBC-function), p3-Q4/p3-Q6(RBC-count),
+p4-all(Hb-structure/content) :: NOT RECOVERED — key not legible in this OCR pass
+
+## src_7d6804673006cadc10e0 (Histo HIS Important MCQ.pdf) — content-twin of Continuous
+## Book's Lecture 1&2 Q1-10 (same stems, same option order), OCR
+# Same underlying question set as src_c4ee1e63536c22ca52d4 Q1-10 above. Cross-reference:
+# use the Continuous Book's printed keys (Q1=B, Q2=A, Q3=B, Q4=E, Q5=C, Q6=C, Q7=B,
+# Q8=A, Q9=D, Q10=D) rather than this file's own OCR, which only recovered Q5 (C) and
+# Q6 (C) cleanly.
