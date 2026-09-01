@@ -15,11 +15,19 @@ struct DashboardView: View {
     let user: SessionUser
     let auth: AuthModel
     let audienceStore: AudienceStore
+    /// Switches the app's own tab, so "Continue session" and the grid cards
+    /// that lead to another tab land there directly rather than pushing a
+    /// second copy of that surface onto this tab's own stack.
+    let openTab: (SignedInView.Destination) -> Void
 
-    @State private var articleCount = 0
     @State private var questionCount = 0
     @State private var showingAccount = false
     @State private var showingQotd = false
+    /// The sitting still in progress, if there is one — read straight from
+    /// `LiveSession.key` rather than through `QBankStore`, so the resume card
+    /// does not have to stand up the whole question-bank stack just to ask
+    /// one question.
+    @State private var liveSession: LiveSession?
     /// Both calendars, merged, so "what is next" answers from whichever has it.
     /// Concept id → the name a person would recognise.
     ///
@@ -31,7 +39,16 @@ struct DashboardView: View {
     @State private var recent: [RecentResource] = []
     private let api: SynapseAPI
 
-    init(store: LocalStore, sync: SyncEngine, user: SessionUser, auth: AuthModel, audienceStore: AudienceStore) {
+    /// No per-student daily target exists in settings yet. Forty questions is
+    /// a sensible default sitting — enough to matter, short enough to
+    /// actually finish — until the app exposes one to set. Mirrors
+    /// `DAILY_QUESTION_GOAL` in `src/components/dashboard/TodaysTarget.tsx`.
+    private static let dailyQuestionGoal = 40
+
+    init(
+        store: LocalStore, sync: SyncEngine, user: SessionUser, auth: AuthModel,
+        audienceStore: AudienceStore, openTab: @escaping (SignedInView.Destination) -> Void
+    ) {
         _model = State(wrappedValue: PerformanceModel(store: store))
         _mastery = State(wrappedValue: MasteryModel(api: auth.api, sync: sync))
         self.sync = sync
@@ -39,10 +56,77 @@ struct DashboardView: View {
         self.user = user
         self.auth = auth
         self.audienceStore = audienceStore
+        self.openTab = openTab
         self.api = auth.api
     }
 
     private var audience: StudentAudience { audienceStore.audience }
+
+    /// What to call this student, the way the web derives it in `nameFor` —
+    /// a profile name first, then the part of their email before the "@",
+    /// then a plain fallback. iOS only ever has the email.
+    private var studentName: String {
+        let local = user.email?
+            .split(separator: "@", maxSplits: 1)
+            .first
+            .map(String.init)?
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        return (local?.isEmpty == false ? local : nil) ?? strings("Student")
+    }
+
+    /// The single letter in the header's avatar circle.
+    private var avatarInitial: String {
+        studentName.first.map { String($0).uppercased() } ?? "?"
+    }
+
+    /// "Good morning" / "Good afternoon" / "Good evening", by the phone's own
+    /// clock — the same three-way split `greetingKey` uses on the web.
+    private var greeting: String {
+        let hour = Calendar.current.component(.hour, from: Date())
+        let key: String
+        if hour < 12 { key = "Good morning" }
+        else if hour < 18 { key = "Good afternoon" }
+        else { key = "Good evening" }
+
+        // Arabic separates the greeting from the name with "، " rather than
+        // ", ", as the web's own `TodaysTarget` does.
+        let separator = strings.language == .ar ? "، " : ", "
+        return "\(strings(key))\(separator)\(studentName)"
+    }
+
+    /// "**28 of 40** questions done — 12 more to hit your mark," with only
+    /// the count set in the bold primary colour, or the earned line once the
+    /// goal is met. A port of the same branch in `TodaysTarget.tsx`.
+    ///
+    /// Arabic reorders this rather than just translating it word for word —
+    /// "أنجزت **٢٨ من ٤٠** سؤالًا — أكمل ١٢ سؤالًا لتصيب هدفك." opens on a verb
+    /// that has no English counterpart, and puts a second verb ("أكمل") ahead
+    /// of the remaining count rather than trailing it — so the sentence is
+    /// built from pieces around the two numbers rather than one template
+    /// string, with `Money.number` giving each count Arabic-Indic digits.
+    private var targetLine: Text {
+        let done = model.summary.todayQuestions
+        let goal = Self.dailyQuestionGoal
+        let language = strings.language
+        guard done < goal else {
+            return Text(strings("Target hit for today — nice shooting"))
+        }
+        let remaining = goal - done
+        let isArabic = language == .ar
+
+        let lead = Text(isArabic ? "أنجزت " : "")
+
+        let count = Text("\(Money.number(Double(done), language)) \(strings("of")) \(Money.number(Double(goal), language))")
+            .font(Theme.ui(13, weight: 700))
+            .foregroundStyle(Theme.primaryStrong)
+
+        let remainingLead = isArabic ? "أكمل " : ""
+        let tail = Text(
+            " \(strings("questions done")) — \(remainingLead)\(Money.number(Double(remaining), language)) \(strings("more to hit your mark."))"
+        )
+
+        return lead + count + tail
+    }
 
     /// Open the Question of the Day if a reminder tap asked for it, and consume
     /// the pending route so it fires once.
@@ -56,38 +140,29 @@ struct DashboardView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
-                    QotdCard { showingQotd = true }
-                    if model.summary.attempts == 0 {
-                        firstRun
-                        nextOnSchedule
-                    } else {
-                        todayLine
-                        nextOnSchedule
-                        dueReviews
-                        stats
-                        weakest
+                    header
+                    Text(greeting)
+                        .font(Theme.display(22))
+                        .foregroundStyle(Theme.ink)
+                    targetHero
+                    if let liveSession {
+                        resumeCard(liveSession)
                     }
+                    todayGrid
+                    QotdCard { showingQotd = true }
+                    nextOnSchedule
+                    dueReviews
                     lastUsed
-                    catalogue
                 }
                 .padding(16)
                 .frame(maxWidth: 680)
                 .frame(maxWidth: .infinity)
             }
             .background(Theme.paper)
-            .navigationTitle(strings("Today"))
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    AssistantButton(surface: "Dashboard")
-                }
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button { showingAccount = true } label: {
-                        Image(systemName: "person.crop.circle")
-                    }
-                    .tint(Theme.primary)
-                    .accessibilityLabel(strings("Account"))
-                }
-            }
+            // The header row above draws the wordmark and the account
+            // avatar itself, so the system bar this screen would otherwise
+            // get — a plain title and two toolbar buttons — is redundant.
+            .toolbar(.hidden, for: .navigationBar)
             .sheet(isPresented: $showingAccount) {
                 AccountView(user: user, auth: auth, sync: sync, audienceStore: audienceStore)
             .localisedSheet()
@@ -114,6 +189,171 @@ struct DashboardView: View {
         }
     }
 
+    // MARK: - Header
+
+    private var header: some View {
+        HStack(spacing: 10) {
+            Wordmark(height: 30)
+            Spacer(minLength: 8)
+            AssistantButton(surface: "Dashboard")
+            Button { showingAccount = true } label: {
+                Text(avatarInitial)
+                    .font(Theme.ui(13, weight: 600))
+                    .foregroundStyle(Theme.accentStrong)
+                    .frame(width: 34, height: 34)
+                    .background(Theme.accentTint)
+                    .overlay(Circle().stroke(Theme.accentLine, lineWidth: 1))
+                    .clipShape(Circle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(strings("Account"))
+        }
+    }
+
+    // MARK: - Today's target
+
+    /// The screen's hero: the ring, the day's line, and the one action that
+    /// actually moves it. A port of `TodaysTarget.tsx`'s panel.
+    private var targetHero: some View {
+        HStack(alignment: .center, spacing: 16) {
+            TargetRing(value: model.summary.todayQuestions, goal: Self.dailyQuestionGoal)
+
+            VStack(alignment: .leading, spacing: 5) {
+                Text(strings("Today's target"))
+                    .font(Theme.ui(15.5, weight: 700))
+                    .foregroundStyle(Theme.ink)
+                targetLine
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.ink2)
+                    .lineSpacing(3)
+
+                Button { openTab(.questions) } label: {
+                    Text(strings("Continue session"))
+                        .font(Theme.ui(13, weight: 600))
+                        .foregroundStyle(Theme.onPrimary)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 8)
+                        .background(Theme.primary)
+                        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md))
+                }
+                .buttonStyle(.plain)
+                .padding(.top, 4)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .padding(18)
+        .background(Theme.surface)
+        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xxl).stroke(Theme.line, lineWidth: 1))
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xxl))
+        .shadow(color: .black.opacity(0.05), radius: 2, y: 1)
+    }
+
+    // MARK: - Resume
+
+    /// "Cardiology · question 128 of 300" — named for the sitting when it has
+    /// a name, plain when it does not.
+    private func resumeSubtitle(_ session: LiveSession) -> String {
+        let position = "\(strings("question")) \(session.idx + 1) \(strings("of")) \(session.questionIds.count)"
+        return session.name.isEmpty ? position : "\(session.name) · \(position)"
+    }
+
+    private func resumeCard(_ session: LiveSession) -> some View {
+        Button { openTab(.questions) } label: {
+            HStack(spacing: 10) {
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(strings("Pick up where you left off"))
+                        .font(Theme.ui(13.5, weight: 600))
+                        .foregroundStyle(Theme.ink)
+                    Text(resumeSubtitle(session))
+                        .font(Theme.ui(12))
+                        .foregroundStyle(Theme.ink2)
+                }
+                Spacer(minLength: 8)
+                Text(strings("Resume"))
+                    .font(Theme.ui(12, weight: 600))
+                    .foregroundStyle(Theme.primaryStrong)
+                    .padding(.horizontal, 13)
+                    .padding(.vertical, 6)
+                    .background(Theme.primaryTint)
+                    .overlay(Capsule().stroke(Theme.primaryLine, lineWidth: 1))
+                    .clipShape(Capsule())
+            }
+        }
+        .buttonStyle(.plain)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 14)
+        .background(Theme.surface)
+        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+    }
+
+    // MARK: - The 2×2 grid
+
+    private var todayGrid: some View {
+        LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible())], spacing: 12) {
+            Button { openTab(.questions) } label: {
+                gridCard(symbol: "questionmark.circle", title: "Question bank") {
+                    Text(Money.number(Double(questionCount), strings.language))
+                        .font(Theme.numeric(11))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
+            .buttonStyle(.plain)
+
+            NavigationLink {
+                AdaptiveStudyView(api: api, sync: sync, store: library, audience: audience)
+            } label: {
+                gridCard(symbol: "arrow.triangle.2.circlepath", title: "Reviews") {
+                    Text("\(mastery.due.count) \(strings("due"))")
+                        .font(Theme.numeric(11))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
+            .buttonStyle(.plain)
+
+            Button { openTab(.library) } label: {
+                gridCard(symbol: "books.vertical", title: "Medical library") {
+                    Text(strings("Concepts & sources"))
+                        .font(Theme.ui(11))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
+            .buttonStyle(.plain)
+
+            NavigationLink {
+                PerformanceView(store: library, sync: sync)
+            } label: {
+                gridCard(symbol: "chart.bar", title: "Performance") {
+                    Text(strings("Study rhythm"))
+                        .font(Theme.ui(11))
+                        .foregroundStyle(Theme.ink3)
+                }
+            }
+            .buttonStyle(.plain)
+        }
+    }
+
+    /// One tile: a stroke icon, a label, and whatever sublabel its caller
+    /// wants — a grouped count in `Theme.numeric`, or a plain phrase.
+    private func gridCard<Sublabel: View>(
+        symbol: String, title: String, @ViewBuilder sublabel: () -> Sublabel
+    ) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Image(systemName: symbol)
+                .font(.system(size: 22))
+                .foregroundStyle(Theme.accentStrong)
+            Text(strings(title))
+                .font(Theme.ui(13.5, weight: 600))
+                .foregroundStyle(Theme.ink)
+            sublabel()
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(14)
+        .background(Theme.surface)
+        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+    }
+
     /// Counts what the student can actually open, not what is in the ledger.
     ///
     /// `itemCount` includes drafts and items under review — 290 rather than
@@ -121,8 +361,12 @@ struct DashboardView: View {
     /// they cannot reach is worse than telling them nothing.
     private func refresh() async {
         await model.load()
-        articleCount = (try? await library.items(kind: .article, audience: audience).count) ?? 0
         questionCount = (try? await library.items(kind: .question, audience: audience).count) ?? 0
+
+        // The resume card only offers a sitting that is actually still open —
+        // one already scored is a finished sitting, not one to pick back up.
+        let saved = (try? await api.userState(LiveSession.self, key: LiveSession.key))?.value
+        liveSession = saved?.phase == "running" ? saved : nil
 
         // Two calendars with two owners, read as one list. A student whose
         // university has published nothing — which is most of them, most of the
@@ -302,86 +546,6 @@ struct DashboardView: View {
         }
     }
 
-    /// Nothing answered yet. Say what to do, not how well it went.
-    private var firstRun: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text(strings("Start where you like"))
-                .font(Theme.display(22))
-                .foregroundStyle(Theme.ink)
-            Text(strings("Answer some questions and this becomes a record of what you know and what is slipping."))
-                .font(Theme.ui(14))
-                .foregroundStyle(Theme.ink2)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(16)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
-    }
-
-    private var todayLine: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            Text(model.summary.streak > 0
-                 ? "\(model.summary.streak) day\(model.summary.streak == 1 ? "" : "s") running"
-                 : "Pick it back up")
-                .font(Theme.display(22))
-                .foregroundStyle(Theme.ink)
-            Text("\(model.summary.attempts) question\(model.summary.attempts == 1 ? "" : "s") answered so far.")
-                .font(Theme.ui(14))
-                .foregroundStyle(Theme.ink2)
-        }
-    }
-
-    private var stats: some View {
-        HStack(spacing: 10) {
-            StatTile(
-                label: "Accuracy",
-                value: model.hasEnoughForAccuracy
-                    ? model.summary.accuracy.map { "\(Int(($0 * 100).rounded()))%" } ?? "—"
-                    : "—",
-                detail: model.hasEnoughForAccuracy
-                    ? "of \(model.summary.marked) marked"
-                    : "after \(PerformanceModel.minimumMarked) answers"
-            )
-            StatTile(
-                label: "Answered",
-                value: "\(model.summary.attempts)",
-                detail: model.summary.medianSeconds.map { "~\($0)s each" } ?? ""
-            )
-        }
-    }
-
-    /// What to study next, which is the whole point of the screen.
-    @ViewBuilder
-    private var weakest: some View {
-        let weak = Array(model.summary.bySubject.prefix(3))
-        if !weak.isEmpty {
-            VStack(alignment: .leading, spacing: 10) {
-                Text(strings("Weakest topics"))
-                    .font(Theme.panelTitle())
-                    .foregroundStyle(Theme.ink2)
-
-                ForEach(weak) { row in
-                    HStack {
-                        Text(row.topic.isEmpty ? row.subjectId : row.topic)
-                            .font(Theme.ui(14))
-                            .foregroundStyle(Theme.ink)
-                            .lineLimit(1)
-                        Spacer()
-                        Text("\(Int((row.accuracy * 100).rounded()))%")
-                            .font(Theme.numeric(13))
-                            .foregroundStyle(row.accuracy < 0.5 ? Theme.danger : Theme.ink2)
-                    }
-                }
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(16)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
-        }
-    }
-
     /// What the ledger says is worth going back to.
     ///
     /// The first principle of the product, and until now absent from this
@@ -480,13 +644,6 @@ struct DashboardView: View {
         case .practised: Theme.ink3
         case .secure: Theme.success
         case .unseen: Theme.ink3
-        }
-    }
-
-    private var catalogue: some View {
-        HStack(spacing: 10) {
-            StatTile(label: "Articles", value: "\(articleCount)", detail: "in your library")
-            StatTile(label: "Questions", value: "\(questionCount)", detail: "available")
         }
     }
 }

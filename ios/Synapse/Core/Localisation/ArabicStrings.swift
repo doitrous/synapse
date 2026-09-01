@@ -8,7 +8,7 @@ import Foundation
 /// with no Arabic behind it falls back to the English it was written from, so
 /// partial coverage reads as English rather than as a missing string.
 ///
-/// 625 entries. Regenerate rather than edit by hand.
+/// 637 entries. Regenerate rather than edit by hand.
 enum ArabicStrings {
 
     static let table: [String: String] = [
@@ -28,7 +28,7 @@ enum ArabicStrings {
         "Practical": "العملي",
         "Resources": "المصادر",
         "Plan": "التخطيط",
-        "Performance": "الأداء",
+        "Performance": "أدائي",
         "Medical Taxonomy": "المصطلحات الطبية",
         "A bilingual dictionary of the basic medical terms — with Arabic translations and plain explanations to help you build vocabulary fast.": "قاموس ثنائي اللغة لأهم المصطلحات الطبية — بترجمة عربية وشرح مبسّط لتبني حصيلتك اللغوية بسرعة.",
         "Search a term in Arabic or English…": "ابحث عن مصطلح بالعربية أو الإنجليزية…",
@@ -637,5 +637,19 @@ enum ArabicStrings {
         "The assistant is unavailable right now.": "المساعد غير متاح في الوقت الحالي.",
         "That did not go through. Your message is back in the box — try again.": "لم تمرّ الرسالة. أعدناها إلى الصندوق — حاول مرة أخرى.",
         "A study tool, not clinical guidance. Never use it for a decision about a patient.": "أداة مذاكرة، وليست إرشادًا سريريًا. لا تستخدمها أبدًا في قرار يخص مريضًا.",
+
+        // ---- Home dashboard redesign --------------------------------------
+        "Today's target": "هدف اليوم",
+        "Continue session": "تابع الجلسة",
+        "Pick up where you left off": "تابع من حيث توقفت",
+        "Resume": "متابعة",
+        "Reviews": "المراجعات",
+        "due": "اليوم",
+        "Medical library": "المكتبة الطبية",
+        "Concepts & sources": "مفاهيم ومصادر",
+        "Study rhythm": "إيقاع المذاكرة",
+        "Target hit for today — nice shooting": "أصبت هدف اليوم — رمية موفقة",
+        "questions done": "سؤالًا",
+        "more to hit your mark.": "سؤالًا لتصيب هدفك.",
     ]
 }

@@ -13,11 +13,11 @@ struct PerformanceTests {
     private func record(
         daysAgo: Int = 0, correct: Bool? = true, seconds: Int? = 60,
         subject: String = "SYS_CVS", topic: String = "Cardiac output",
-        difficulty: String = "Moderate", id: String = UUID().uuidString
+        difficulty: String = "Moderate", surface: String = "qbank", id: String = UUID().uuidString
     ) -> AttemptRecord {
         let at = calendar.date(byAdding: .day, value: -daysAgo, to: now)!
         return AttemptRecord(
-            id: id, at: ISO8601DateFormatter.synapse.string(from: at), surface: "qbank",
+            id: id, at: ISO8601DateFormatter.synapse.string(from: at), surface: surface,
             itemId: "Q-\(id)", subjectId: subject, topic: topic, difficulty: difficulty,
             conceptIds: [], correct: correct, seconds: seconds, sessionId: "S1"
         )
@@ -133,6 +133,40 @@ struct PerformanceTests {
             }
             #expect(helper.summarise(records).byDifficulty.map(\.difficulty)
                     == ["Easy", "Moderate", "Hard", "Challenging"])
+        }
+    }
+
+    @Suite("Today's target")
+    struct TodaysQuestions {
+        private let helper = PerformanceTests()
+
+        /// The dashboard's ring counts today's qbank and room attempts only —
+        /// the same filter `TodaysTarget.tsx` applies on the web.
+        @Test("counts today's qbank and room attempts, nothing else")
+        func onlyQbankAndRoomToday() {
+            let summary = helper.summarise([
+                helper.record(surface: "qbank"),
+                helper.record(surface: "room"),
+                helper.record(surface: "flashcards"),
+                helper.record(surface: "practical"),
+            ])
+            #expect(summary.todayQuestions == 2)
+        }
+
+        @Test("yesterday's attempts do not count toward today")
+        func excludesOtherDays() {
+            let summary = helper.summarise([
+                helper.record(daysAgo: 0, surface: "qbank"),
+                helper.record(daysAgo: 1, surface: "qbank"),
+                helper.record(daysAgo: 2, surface: "room"),
+            ])
+            #expect(summary.todayQuestions == 1)
+        }
+
+        @Test("no attempts today reports zero, not nil")
+        func zeroWhenNothingToday() {
+            let summary = helper.summarise([helper.record(daysAgo: 1, surface: "qbank")])
+            #expect(summary.todayQuestions == 0)
         }
     }
 
