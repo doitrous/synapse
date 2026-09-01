@@ -14759,3 +14759,186 @@ rejectedMergeCandidateIds: concept_3965ff3ac0ffc63c51c97f38 — raw furuncular-m
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-A17B2E4C9D6F81
+
+## label
+Urogenital myiasis follows public-toilet or latrine exposure
+
+## canonical_key
+parasitology.myiasis.urogenital-latrine-exposure
+
+## aliases
+Urogenital myiasis latrine exposure
+Latrine-associated urogenital myiasis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
+
+## explicit_objective
+Identify urogenital myiasis as the type associated with public-toilet or latrine exposure.
+
+## pitfalls
+Gastric, aural and nasopharyngeal myiasis are not the site linked to public-toilet or latrine exposure in the governed teaching.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Clinical myiasis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Clinical myiasis
+
+## article_ids
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS
+ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION
+ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_2c1e04372fbb8b2607f7
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q17-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p26 Mucize Advanced MCQ Q17; printed answer p28
+src_2c1e04372fbb8b2607f7 | tier 2 | 2022-04-01 | p45 direct university teaching
+
+## original_wording
+Which type of myiasis is most likely to occur in individuals who frequently use public toilets or latrines? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_25a7c6c1a0f6c476622cf674
+
+## conflicts
+No key conflict affects authored Mucize Advanced MCQ Q17. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_25a7c6c1a0f6c476622cf674 — the same pending raw urogenital-myiasis-manifestations identity flagged as a rejected merge candidate when Fannia's fly-specific association (CON-INF-3D51F420815EB7) was authored; completed here as its own exact concept because it answers which myiasis type follows the exposure route, not which fly causes it.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.

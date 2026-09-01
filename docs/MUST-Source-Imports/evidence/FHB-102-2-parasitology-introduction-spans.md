@@ -2659,3 +2659,25 @@ CLM-INF-MUST-FHB1022-MUCIZEADV-Q13-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZEADV-Q13-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q17-01
+
+## article_id
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-clinical-site-myiasis-definition
+
+## text
+Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q17-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q17-01

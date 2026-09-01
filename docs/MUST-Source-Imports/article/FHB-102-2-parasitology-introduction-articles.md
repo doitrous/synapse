@@ -2332,6 +2332,7 @@ Do not substitute a manifestation-only definition for an organism association. D
 ### Exam-linked statements
 Fannia is associated with urogenital myiasis.
 Sarcophaga is associated with aural myiasis in the local curriculum.
+Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
 
 ## published_summary
 
@@ -2343,11 +2344,13 @@ Sarcophaga is associated with aural myiasis in the local curriculum.
 Fannia is associated with urogenital myiasis.
 Sarcophaga is associated with aural myiasis in the local curriculum.
 Fannia is associated with urogenital myiasis.
+Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
 
 ## lose_the_mark
 The governed site-specific association selects Fannia rather than Sarcophaga, Musca domestica or Cordylobia.
 The local site-specific association selects Sarcophaga, not the mosquito Anopheles, Calliphora or Stomoxys.
 The governed site association selects Fannia rather than Sarcophaga, Dermatobia or Chrysomia.
+Gastric, aural and nasopharyngeal myiasis are not the site linked to public-toilet or latrine exposure in the governed teaching.
 
 ## callout_evidence
 ### Fannia is associated with urogenital myiasis.
@@ -2365,9 +2368,15 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q28-01
 Reviewed by: pending medical review
 
+### Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
+Claims: CLM-INF-MUST-FHB1022-MUCIZEADV-Q17-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZEADV-Q17-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-3D51F420815EB7
 CON-INF-4E52A531926FC8
+CON-INF-A17B2E4C9D6F81
 
 ## related_articles
 ART-INF-MUST-FHB1022-CUTANEOUS-MYIASIS-PHORESIS: Cutaneous myiasis and Dermatobia phoresis
@@ -2378,6 +2387,7 @@ ART-INF-MUST-FHB1022-SARCOPHAGA-WOUND-MYIASIS: Sarcophaga identification in trau
 QST-MUST-FHB1022-PARA-INTRO-Q51
 QST-MUST-FHB1022-PARA-INTRO-Q52
 QST-MUST-FHB1022-PARA-MUCIZE-Q28
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q17
 
 ## resource_ids
 src_2c1e04372fbb8b2607f7
@@ -2391,11 +2401,13 @@ src_2c1e04372fbb8b2607f7
 CLM-INF-MUST-FHB1022-INTRO-Q51-01
 CLM-INF-MUST-FHB1022-INTRO-Q52-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q28-01
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q17-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-INTRO-Q51-01
 SPN-INF-MUST-FHB1022-INTRO-Q52-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q28-01
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q17-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -2415,6 +2427,11 @@ Id: ann-must-fhb1022-intro-q52
 Quote: Fannia is associated with urogenital myiasis.
 Block: body
 Id: ann-must-fhb1022-mucize-q28
+
+### definition_of · CON-INF-A17B2E4C9D6F81
+Quote: Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
+Block: body
+Id: ann-must-fhb1022-mucizeadv-q17
 
 ## media
 

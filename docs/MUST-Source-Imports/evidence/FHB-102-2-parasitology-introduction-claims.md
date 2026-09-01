@@ -5321,3 +5321,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Advanced MCQ Q13
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q17-01
+
+## concept_id
+CON-INF-A17B2E4C9D6F81
+
+## subject
+Urogenital myiasis follows public-toilet or latrine exposure
+
+## predicate
+states
+
+## object
+Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
+
+## display_text
+Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Advanced MCQ Q17

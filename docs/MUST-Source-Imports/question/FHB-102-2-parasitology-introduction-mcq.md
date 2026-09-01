@@ -18389,3 +18389,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize Advanced MCQ Q13 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q17
+
+## title
+Which type of myiasis is most likely to occur in individuals who frequently use public toilets or latrines?
+
+## question
+Which type of myiasis is most likely to occur in individuals who frequently use public toilets or latrines?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Gastric myiasis
+
+## explanation_a
+Incorrect. Gastric, aural and nasopharyngeal myiasis are not the site linked to public-toilet or latrine exposure in the governed teaching. The supported answer is B, Urogenital myiasis.
+
+## answer_b
+Urogenital myiasis
+
+## explanation_b
+Urogenital myiasis is the clinically associated outcome when flies deposit eggs on the urethral opening during defecation or latrine use. The governed university slide directly supports Urogenital myiasis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Aural myiasis
+
+## explanation_c
+Incorrect. Gastric, aural and nasopharyngeal myiasis are not the site linked to public-toilet or latrine exposure in the governed teaching. The supported answer is B, Urogenital myiasis.
+
+## answer_d
+Nasopharyngeal myiasis
+
+## explanation_d
+Incorrect. Gastric, aural and nasopharyngeal myiasis are not the site linked to public-toilet or latrine exposure in the governed teaching. The supported answer is B, Urogenital myiasis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-A17B2E4C9D6F81
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Clinical myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify urogenital myiasis as the type associated with public-toilet or latrine exposure.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p26 Mucize Advanced MCQ Q17, printed key p28 (17 = B); MUST FHB102-2 Flies and Myiasis, p45.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Advanced MCQ Q17 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
