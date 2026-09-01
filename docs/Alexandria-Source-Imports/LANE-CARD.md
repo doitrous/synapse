@@ -1,5 +1,5 @@
 # LANE-CARD — Alexandria University Year 1 (au)
-Read this card first. Open `LANE-BRIEF.md` (§1–§24) or the full manual only when you hit a wall; name the wall in your report.
+Read this card first. Open `LANE-BRIEF.md` (§1–§24) or the full manual only when you hit a wall; name the wall in your report. **Year 2 (resumed 2026-09-02): see `LANE-CARD-Y2.md`** — §§1-8 below still apply, that card covers only what's Year-2-specific.
 
 ## 1. Identity and ids
 University id `au`. Years `AU_Y1`–`AU_Y3` (Year 1 only is active — Years 2–3 stay frozen until Omar says RESUME). Module ids `AU-<CODE>` — uppercase, hyphens, no spaces: `AU-MED-102`, `AU-MED-105`, `AU-UNI-104`. Concepts are minted university-blind (§4 below) — most Alexandria ideas already exist as Kasr concepts; only genuinely new ones mint `CON-<SYSTEM>-<14hex>` fresh. Files: `docs/Alexandria-Source-Imports/{concept,article,question,evidence,coverage,pending-live,academic,manifest}/`.
