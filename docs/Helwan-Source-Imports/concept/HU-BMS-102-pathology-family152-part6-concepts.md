@@ -505,6 +505,136 @@ exclusionReason: Not excluded; held at needs_evidence.
 
 # Item
 ## label
+Infarction
+## id
+CON-FND-0BA658B26E1758
+## canonical_key
+infarction
+## aliases
+Infarct
+Tissue necrosis from ischaemia
+## arabic_label
+الاحتشاء
+## arabic_aliases
+النخر الإقفاري
+## definition
+Death of tissue caused by loss of its blood supply, most often because a thrombus or embolus has obstructed the vessel supplying it.
+## explicit_objective
+Given an obstructed vessel, distinguish reversible ischaemia from infarction, the necrosis that follows sufficiently severe or prolonged loss of perfusion.
+## pitfalls
+Treating infarction and ischaemia as the same word. Ischaemia is reduced perfusion; infarction is the necrosis that follows if it is severe or long enough.
+## concept_type
+mechanism
+## status
+Draft
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+SYS-FND-T06-S01-M04
+## secondary_node_ids
+DIS-PAT
+DIS-PHY
+## topic
+General pathology
+## subtopic
+Circulatory disturbances
+## microtopic
+Ischemia and infarction
+## nanotopic
+Infarction definition
+## learner_years
+1
+2
+## universities
+hu
+kau
+## modules
+HU-BMS-102
+## module_subject
+HU-BMS-102 > Pathology > Circulatory disturbances > Family152 Part6 > Q65
+## article_ids
+ART-HU-BMS102-PAT-INFARCTION
+## related_article_ids
+ART-HU-BMS102-PAT-F133P1-ISCHEMIA-GANGRENE
+## related_concept_ids
+CON-FND-C81ACFA73704BD
+## resource_ids
+src_a988f51544db9b537b0c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## blueprint_weight
+0.62
+## exam_weight_by_year
+HU_Y1=0.62
+## clinical_relevance
+0.9
+## academic_relevance
+0.94
+## weight_confidence
+0.44
+## confidence
+0.8
+## exam_signal
+src_a988f51544db9b537b0c | Family152 Part6 Q65 | tier-3 keyed bank; not official key
+## atomic_claim_ids
+CLM-HU102-F152-P6-Q65-01
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## original_wording
+Infarction
+[Family152 Part6 Q65] Necrosis of tissues due to ischemia is defined as: [printed answer E]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## conflicts
+[clear]
+## uncertainty
+The governed canonical Infarction concept is absent from the current live graph, so this is a complete standalone create with its exact canonical key and deterministic ID rather than a sparse update.
+## evidence_gaps
+Red-versus-pale infarct patterns, collateral supply and histological timing require independent medical verification and named Helwan pathology faculty review.
+## owner
+Helwan Year-1 authoring lane
+## reviewer
+Medical team, Helwan Pathology faculty
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+drafted_not_reviewed
+## exclusion_reason
+
+## field_notes
+canonicalIdentity: Preserves governed canonical_key infarction and deterministic ID CON-FND-0BA658B26E1758.
+standaloneCreate: Current live preflight confirms the governed ID is absent; every importer field is therefore supplied.
+arabicLabel: Preserved from the governed concept.
+arabicAliases: Preserved from the governed concept.
+microtopicId: No reviewed microtopic ID exists; the governed text microtopic is retained.
+nanotopicId: No reviewed nanotopic ID exists; the governed text nanotopic is retained.
+approvedFileResourceIds: Source is not rights-cleared for redistribution.
+approvedVideoResourceIds: No video is assigned.
+resourceOccurrenceIds: Hand-authored from exact Family152 Q65 and right-column key.
+sourceCandidateIds: No unresolved corpus candidate pointer is imported.
+mergeIds: No merge occurred.
+rejectedMergeCandidateIds: No rival ID was minted.
+lastReviewed: New Draft; no faculty review.
+reviewDue: Set after review.
+exclusionReason: Not excluded; held at needs_evidence.
+---
+
+# Item
+## label
 Infarction follows acute complete obstruction of an end artery in the source model
 ## id
 CON-FND-B8D606F14F48CA
