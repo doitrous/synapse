@@ -182,16 +182,100 @@ three existing pending articles above plus `ART-104-HIS-STRUCTURAL-ABERRATIONS` 
 Placement: subject `fnd` (general cancer-genetics principles, not organ-system-specific), module_subject
 `ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer`.
 
-### New finding, not yet triaged (next dispatch)
+### New finding, previously flagged for the next dispatch — now Cluster 14 below
 
-A **"Gene Therapy" chapter** starts immediately after this chapter's own answer table on the same PDF
-page (pg41), with its own separate "Answers of Gene Therapy" table located later (pg44 per author6's
-earlier page-map note) covering its own Q1-24 (germline vs somatic gene therapy, restriction
-endonucleases, palindromic sequences, molecular cloning, plasmids). Not named in this session's
-dispatch orders, not triaged, not authored. `find-existing.mjs` spot-checks ("restriction endonuclease
-palindromic", "gene therapy germline somatic") returned no hits — likely fully new content, flagged for
-the orchestrator to scope into a future dispatch.
+The **"Gene Therapy" chapter** starts immediately after this chapter's own answer table on the same PDF
+page (pg41). See Cluster 14 below (author12 this pass) for the full triage and authoring — corrected
+page map (own "Answers of Gene Therapy" table is on PDF p.43, not p.44 as this note originally guessed;
+p.44 is the start of the already-closed Mode of Inheritance chapter) and all 24 questions keyed.
 
 ### TRIAGE — self-consistent, proceeding to Phase 2 authoring per this session's explicit dispatch order
 ("Triage... first... [then] Author its questions" — one task, no external approval gate named for this
 chapter). No `Cluster 6`-style hazard found on this chapter (clean scan throughout, full 44/44 keyed).
+
+## Cluster 14 · Gene Therapy (author12 this pass) — closed, 24/24 keyed
+
+Same source as Cluster 13 (`EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf`, `src_d83a3017c760e2770c22`),
+sitting immediately after Cluster 13's own answer table on the same PDF page. `pagetext.mjs status`
+confirms `words=0`/`garbled=yes` for every page of this file (a genuinely non-OCRable scan throughout,
+not a Cluster-13-only quirk) — rendered PDF pp.41-43 (`pdftoppm -r 200`, 3 pages, the whole chapter) and
+read by eye; a 4th page (44) was rendered to confirm the chapter boundary and turned out to be the
+already-closed Mode of Inheritance chapter (its own printed page number 43), not more Gene Therapy
+content, so nothing further was authored from it.
+
+**Page map (PDF page index):** pg41=Q1-8 (directly below Cluster 13's own answer table on the same
+page), pg42=Q9-17, pg43=Q18-24 + "Answers of Gene Therapy" table (Q1-24, all 24 cells present, no
+blackout/highlight hazard — clean scan throughout, unlike Cluster 6).
+
+**24/24 questions recovered with keys**, cross-checked for internal consistency (Q9's restriction site
+ACGGCCGT verified by hand as a genuine palindrome — reverse complement equals itself — against the three
+non-palindromic distractors; Q7/Q8's linear-vs-circular fragment counts verified against the n+1/n rule;
+Q16's four cloning-order options are mislabelled a/b/b/d in the source scan itself — a printing error,
+not a data-entry error here — resolved against the printed key "b" and normalised to unique A-D letters,
+see `docs/Ain-Shams-Source-Imports/concept/ASU-MBG-gene-therapy-concepts.md` field_notes on
+`CON-FND-3893485BBEEC06`) — all logically consistent with the printed table, high confidence.
+
+### Per-question table
+
+| Q | Stem (short) | Key | Concept | Classification |
+|---:|---|---|---|---|
+| 1 | Process to insert normal gene into human cells | a) Gene therapy | Gene therapy definition & germline/somatic heritability | new |
+| 2 | Gene therapy targeting the germline is | a) Heritable | Gene therapy definition & germline/somatic heritability | new |
+| 3 | Gene therapy targeting the somatic line is | b) Not heritable | Gene therapy definition & germline/somatic heritability | new |
+| 4 | Restriction endonuclease present normally in | b) Bacteria | Restriction endonuclease origin & recognition | new |
+| 5 | Restriction endonucleases can recognize | a) Palindromic sequences | Restriction endonuclease origin & recognition | new |
+| 6 | Bacterial plasmid used in molecular cloning is a | d) Double stranded circular DNA | Molecular cloning workflow (chimeric DNA/vectors) | new |
+| 7 | Linear DNA, 3 sites → fragments | b) 4 | Restriction fragment counting (linear vs circular) | new |
+| 8 | Circular DNA, 3 sites → fragments | c) 3 | Restriction fragment counting (linear vs circular) | new |
+| 9 | Which is a restriction site | a) ACGGCCGT | Restriction endonuclease origin & recognition | new |
+| 10 | Chimeric DNA formation means | c) Coupling human and bacterial DNAs together | Molecular cloning workflow (chimeric DNA/vectors) | new |
+| 11 | Sticky ends produced by restriction endonucleases | c) Ends of fragment are overlapping | Sticky vs blunt restriction-fragment ends | new |
+| 12 | Blunt ends produced by restriction endonucleases | d) Ends of fragment are non overlapping | Sticky vs blunt restriction-fragment ends | new |
+| 13 | Monoclonal antibodies prepared by which DNA tech | a) Molecular cloning | Molecular cloning workflow (chimeric DNA/vectors) | new |
+| 14 | Restriction endonuclease (combined properties) | e) All of the above | Restriction endonuclease origin & recognition | new |
+| 15 | Essential features of vector EXCEPT | d) Must be circular | Molecular cloning workflow (chimeric DNA/vectors) | new |
+| 16 | True sequence of cloning steps | b) 4-2-1-3 | Molecular cloning workflow (chimeric DNA/vectors) | new |
+| 17 | ADA-SCID — permanently curative treatment | e) Gene therapy to replace ADA gene | ADA-SCID as first gene-therapy success | new; `related_concept_ids` → Kasr `CON-IMM-10470076F1AF95` (ADA/SCID mechanism) |
+| 18 | A vector in genetic engineering is a | d) Plasmid or virus carrying modified genetic material | Molecular cloning workflow (chimeric DNA/vectors) | new |
+| 19 | Restriction endonucleases are enzymes | b) Capable of cutting DNA molecules | Restriction endonuclease origin & recognition | new |
+| 20 | Gene formed from two DNA sources called | d) All of these (hybrid/chimeric/recombinant) | Molecular cloning workflow (chimeric DNA/vectors) | new |
+| 21 | Enzyme used in CRISPR gene editing | e) Cas9 | CRISPR-Cas9 gene-editing mechanism | new |
+| 22 | First disorder treated with gene therapy | a) Adenosine deaminase deficiency (ADA) | ADA-SCID as first gene-therapy success | new; `related_concept_ids` → Kasr `CON-IMM-10470076F1AF95` |
+| 23 | Process to insert normal genes (restated) | d) Gene therapy | Gene therapy definition & germline/somatic heritability | new |
+| 24 | Gene strategy that applies to CRISPR-cas9 | b) Gene editing | CRISPR-Cas9 gene-editing mechanism | new |
+
+### Concept classification summary
+
+| # | Concept cluster | Qs | Classification | Evidence / disposition |
+|---|---|---:|---|---|
+| 14.1 | Gene therapy definition, and germline vs somatic heritability | 1,2,3,23 (4) | **new** | `find-existing.mjs "gene therapy"`, "germline gene therapy", "somatic gene therapy" — no hit; grep across every `docs/*-Source-Imports/concept/` also no hit. Mint `CON-FND-06F6AE69D9BD8D` (`genetherapy.definition.germline-vs-somatic-heritability`) |
+| 14.2 | Restriction endonuclease origin, recognition & combined enzymatic properties | 4,5,9,14,19 (5) | **new** | `find-existing.mjs "restriction endonuclease palindromic"`, "restriction enzyme recognition site" — no hit. Mint `CON-FND-C444D428BE3E1D` (`restrictionendonuclease.origin-and-recognition.bacterial-source-palindromic-sites`) |
+| 14.3 | Sticky vs blunt restriction-fragment ends | 11,12 (2) | **new** | `find-existing.mjs "sticky ends"`, "blunt ends" — no hit. Mint `CON-FND-744B37261093E4` (`restrictiondigestion.fragment-ends.sticky-vs-blunt`) |
+| 14.4 | Restriction fragment counting, linear vs circular DNA | 7,8 (2) | **new** | `find-existing.mjs "restriction fragment"`, "circular DNA digestion" — no hit. Mint `CON-FND-1F3840652F24F8` (`restrictiondigestion.fragment-count.linear-vs-circular-dna`) |
+| 14.5 | Molecular cloning workflow — chimeric DNA, plasmid vectors, cloning-step order, vector essential features, monoclonal antibody production, gene-naming synonyms | 6,10,13,15,16,18,20 (7) | **new** | `find-existing.mjs "molecular cloning"`, "chimeric DNA", "plasmid vector", "monoclonal antibody" — no hit. Mint `CON-FND-3893485BBEEC06` (`molecularcloning.workflow.chimeric-dna-and-vectors`) |
+| 14.6 | CRISPR-cas9 gene-editing classification and Cas9 enzyme | 21,24 (2) | **new** | `find-existing.mjs "CRISPR"`, "Cas9" — no hit. Mint `CON-FND-16C60870619649` (`crispr.mechanism.cas9-gene-editing`) |
+| 14.7 | ADA-SCID as the first disorder treated with gene therapy | 17,22 (2) | **new**, related (not merged) to a Kasr hit | `find-existing.mjs "adenosine deaminase deficiency gene therapy"` no hit, but a plain `grep` for "adenosine deaminase" hit `CON-IMM-10470076F1AF95` (`docs/Kasr-Source-Imports/concept/103-BMS-mcq-purine-concepts.md`) — that record teaches only the biochemical mechanism (dATP→ribonucleotide-reductase inhibition→SCID), never mentions gene therapy as treatment, so this record's therapy-history facts (first gene-therapy target; gene replacement vs transfusion) are new and linked via `related_concept_ids` rather than overlaid. Mint `CON-FND-1C82888CCCC7FD` (`adascid.treatment.first-successful-gene-therapy`) |
+
+**Totals: distinct concepts touched 7 · new (mint) 7 · pending-hit (sparse update) 0 · reused 0.**
+All 24 questions map to a named concept — 0 unmapped, 0 held, 0 deferred within this chapter.
+
+### Article home
+
+No existing pending article teaches gene therapy, restriction endonucleases, molecular cloning, or
+CRISPR-cas9 — one new minimal `TPL-CONCEPT` article covers the whole chapter:
+`ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY` (teaches 14.1-14.7), cross-linked to the
+Cluster-13 sibling article `ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES` (same source booklet) and,
+in its own notes field, to the pre-existing Kasr ADA/SCID mechanism article.
+
+Placement: subject `fnd` (general recombinant-DNA-technology principles, not organ-system-specific),
+module_subject `ASU-MBG > Molecular Biology > Gene Therapy`, `primary_node_id` `DIS-BIO-T06` (same as
+every other new-mint concept in this cluster's Molecular biology topic, per Cluster 13's precedent).
+
+A resource record for `src_d83a3017c760e2770c22` did not exist anywhere in the tree before this pass
+(Cluster 13 referenced it without one, a pre-existing gap out of this cluster's scope to fix
+retroactively) — authored `docs/Ain-Shams-Source-Imports/resource/ASU-MBG-gene-therapy-resources.md`
+covering both chapters of the same source file, needed for `question` kind's resource-existence gate.
+
+### TRIAGE — self-consistent, Cluster 14 CLOSED. `gate.mjs batch` and `gate.mjs simulate` both clean
+(see `coverage/ASU-MBG-LEDGER.md` and the HANDOFF report for exact summary lines). No `Cluster 6`-style
+hazard found on this chapter (clean scan throughout, full 24/24 keyed).
