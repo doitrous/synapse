@@ -293,6 +293,12 @@ Hydroxylation (proline/lysine hydroxylase) is intracellular and vitamin-C depend
 ### Clinical significance
 The shared Ehlers-Danlos picture is hyperextensible, fragile skin that heals with thin "cigarette-paper" scars, hypermobile joints prone to dislocation, and fragile blood vessels. Recognise it as a fibrillar (not basement-membrane) collagen disease, and recognise lysyl oxidase/copper as the cross-linking step distinct from vitamin-C-dependent hydroxylation.
 
+### Primary structure and the synthesis sequence (added, author6)
+Each alpha-chain is about 1000 residues, built from a repeating Gly-X-Y motif (glycine every third position; X and Y often proline and hydroxyproline) -- glycine's small size is the only side chain that fits at the crowded triple-helix core, so a bulky substitution there (the classic osteogenesis imperfecta mutation) distorts the whole helix. Proline's ring structure also means this triple helix is not a classical alpha helix, which instead relies on intrachain hydrogen bonding roughly every 3.6 residues; collagen's stability comes mainly from interchain hydrogen bonds and, once mature, cross-links. The full synthesis-to-maturation sequence runs: cleavage of the preprocollagen signal peptide, hydroxylation of proline/lysine, glycosylation of some hydroxylysine, and disulfide-bond-driven chain alignment -- all intracellular, in the rough endoplasmic reticulum -- followed by secretion, then extracellular propeptide cleavage (preprochain -> prochain -> procollagen -> tropocollagen), fibril assembly, and finally lysyl-oxidase cross-linking to give the mature collagen fibril. Cysteine is essentially absent from mature triple-helical collagen (it survives only in the propeptides, which are cut off extracellularly). Mature fibrils are then packed differently by tissue: parallel bundles in tendon (and, by the same tensile-strength logic, teeth), a loose gel in the vitreous humor, and near-crystalline packing in the cornea.
+
+### Osteogenesis imperfecta (added, author6)
+Osteogenesis imperfecta is typically a dominant-negative missense point mutation substituting a bulky residue for one of the obligatory Gly-X-Y glycines in type I collagen (COL1A1/COL1A2), distorting the triple helix from that point on and producing fragile, easily-fractured bone.
+
 ## hold_these
 Lysyl oxidase (copper-dependent) cross-links collagen extracellularly by oxidising lysine/hydroxylysine.
 Hydroxylation (vitamin C, intracellular) and cross-linking (copper, extracellular) are two different steps with two different cofactors.
@@ -330,6 +336,9 @@ relatedArticleIds: Left blank -- a companion article in another lane's directory
 ## related_concepts
 CON-FND-D8F146476CB0EE
 CON-FND-987FEBCF7C3205
+CON-FND-8A9685D59E3274
+CON-FND-C664CAF0B0AFF3
+CON-FND-D74FE513D2971F
 
 ## related_articles
 
@@ -352,6 +361,15 @@ Quote: Lysyl oxidase then oxidatively deaminates specific lysine and hydroxylysi
 
 ### associated_with · CON-FND-987FEBCF7C3205
 Quote: Ehlers-Danlos syndrome is a group of inherited disorders of fibrillar collagen (commonly type I, III or V), from mutations in the collagen genes themselves or in the enzymes that process them.
+
+### associated_with · CON-FND-8A9685D59E3274
+Quote: Each alpha-chain is about 1000 residues, built from a repeating Gly-X-Y motif (glycine every third position; X and Y often proline and hydroxyproline)
+
+### associated_with · CON-FND-C664CAF0B0AFF3
+Quote: cleavage of the preprocollagen signal peptide, hydroxylation of proline/lysine, glycosylation of some hydroxylysine, and disulfide-bond-driven chain alignment -- all intracellular, in the rough endoplasmic reticulum -- followed by secretion, then extracellular propeptide cleavage
+
+### associated_with · CON-FND-D74FE513D2971F
+Quote: Osteogenesis imperfecta is typically a dominant-negative missense point mutation substituting a bulky residue for one of the obligatory Gly-X-Y glycines in type I collagen (COL1A1/COL1A2), distorting the triple helix from that point on and producing fragile, easily-fractured bone.
 
 ## callout_evidence
 
@@ -483,6 +501,12 @@ Renal 1-alpha-hydroxylase activity — the rate-limiting activation step — is 
 ### Clinical significance
 Sequence the two vitamin D hydroxylation steps by organ and enzyme, identify calcitriol as the active hormone, and name the three calcium-regulating hormones with the direction each moves serum calcium — this is the basis for understanding renal osteodystrophy, vitamin D-resistant states, and hypo/hyperparathyroidism.
 
+### Dosing when the kidney's activation step is lost (added, author6)
+Chronic renal failure and 1-alpha-hydroxylase-deficient vitamin-D-dependent rickets type I both fail at the same step -- the kidney's own 1-alpha-hydroxylation. Because plain vitamin D3 and even 25-hydroxyvitamin D still require that missing step, both scenarios are treated by bypassing it: giving calcitriol itself or a preparation that is already 1-alpha-hydroxylated (e.g. 1-alpha-hydroxycholecalciferol / "1-hydroxy D3"), not plain D3 or 25-hydroxy D3.
+
+### Sources and body distribution (added, author6)
+Preformed vitamin D3 (cholecalciferol) is found in dietary sources such as cod liver oil, fatty fish and egg yolk; skin does not contain preformed D3, only its inactive precursor 7-dehydrocholesterol, which UV light converts photochemically. Body calcium is heavily skewed toward the skeleton: roughly 99% is stored in bone, and only about 1% sits in soft tissue, extracellular fluid and plasma -- plasma calcium is therefore a small, tightly regulated fraction of the whole-body total, held constant by the PTH-calcitriol-calcitonin loop described above.
+
 ## hold_these
 Vitamin D activation: liver adds 25-OH, kidney adds 1-alpha-OH -> calcitriol.
 PTH and calcitriol raise serum calcium; calcitonin lowers it (minor role in humans).
@@ -520,6 +544,9 @@ relatedArticleIds: Left blank -- a companion article in another lane's directory
 ## related_concepts
 CON-FND-49D9C172607D9A
 CON-FND-D5FE7973164258
+CON-FND-E8F73BC47BCDAE
+CON-FND-BCCB7323D6E33E
+CON-FND-7296DA274A4004
 
 ## related_articles
 
@@ -542,6 +569,15 @@ Quote: The liver adds a hydroxyl group at carbon 25 (25-hydroxylase) to give 25-
 
 ### associated_with · CON-FND-D5FE7973164258
 Quote: PTH raises calcium by mobilising it from bone, increasing renal tubular calcium reabsorption, and stimulating renal 1-alpha-hydroxylase to make more calcitriol.
+
+### associated_with · CON-FND-E8F73BC47BCDAE
+Quote: Chronic renal failure and 1-alpha-hydroxylase-deficient vitamin-D-dependent rickets type I both fail at the same step -- the kidney's own 1-alpha-hydroxylation.
+
+### associated_with · CON-FND-BCCB7323D6E33E
+Quote: Body calcium is heavily skewed toward the skeleton: roughly 99% is stored in bone, and only about 1% sits in soft tissue, extracellular fluid and plasma -- plasma calcium is therefore a small, tightly regulated fraction of the whole-body total
+
+### associated_with · CON-FND-7296DA274A4004
+Quote: Preformed vitamin D3 (cholecalciferol) is found in dietary sources such as cod liver oil, fatty fish and egg yolk; skin does not contain preformed D3, only its inactive precursor 7-dehydrocholesterol, which UV light converts photochemically.
 
 ## callout_evidence
 
@@ -673,6 +709,12 @@ Inheritance pattern separates the two: Lesch-Nyhan syndrome (HGPRT) is X-linked,
 ### Clinical significance
 Pair HGPRT deficiency with Lesch-Nyhan syndrome and ADA deficiency with SCID, name the enzyme missing in each, and use the presence or absence of hyperuricaemia to tell the two apart on a vignette.
 
+### The six enzyme-reaction pairings (added, author6)
+Purine catabolism/salvage runs through six separately-testable enzyme-to-reaction conversions: HGPRT (hypoxanthine -> IMP), purine nucleoside phosphorylase/PNP (a nucleoside -> its free base + ribose-1-P, e.g. guanosine -> guanine), 5'-nucleotidase (a nucleotide -> the corresponding nucleoside), guanase/guanine deaminase (guanine -> xanthine), adenosine deaminase/ADA (adenosine -> inosine), and xanthine oxidase (xanthine -> uric acid, and hypoxanthine -> xanthine upstream of that). Allopurinol, a hypoxanthine analogue, competitively inhibits xanthine oxidase specifically, lowering uric acid production and treating gout; uric acid overproduction via this pathway is the direct cause of acute gouty arthritis, classically at the big toe.
+
+### ADA versus PNP: which lymphocyte lineage fails (added, author6)
+ADA deficiency lets deoxyadenosine accumulate, which is toxic to both developing T and B lymphocytes -- a combined (T and B low) immunodeficiency, i.e. a form of SCID. PNP deficiency instead lets deoxyguanosine accumulate, which is selectively toxic to T lymphocytes, sparing B cells -- a T-cell-only immunodeficiency with normal B-cell numbers. The two are distinguished on a vignette by whether B cells are low (ADA/SCID) or normal (PNP).
+
 ## hold_these
 HGPRT deficiency -> Lesch-Nyhan syndrome (hyperuricaemia, choreoathetosis, self-mutilation), X-linked.
 Adenosine deaminase (ADA) deficiency -> a form of SCID (lymphocyte-selective toxicity), autosomal recessive.
@@ -709,6 +751,9 @@ relatedArticleIds: Left blank -- a companion article in another lane's directory
 
 ## related_concepts
 CON-FND-108D52927380AB
+CON-FND-F17B84857CD716
+CON-FND-D227A9E8979674
+CON-FND-E9E2A2E6F091C9
 
 ## related_articles
 
@@ -728,6 +773,15 @@ src_e4a23646b45bcc340c70
 ## annotations
 ### associated_with · CON-FND-108D52927380AB
 Quote: HGPRT salvages hypoxanthine and guanine back to their nucleotides. Its near-total deficiency forces purine synthesis down the wasteful de novo pathway, raising uric acid and producing the Lesch-Nyhan syndrome triad: hyperuricaemia/gout, choreoathetosis, and compulsive self-mutilation.
+
+### associated_with · CON-FND-F17B84857CD716
+Quote: Purine catabolism/salvage runs through six separately-testable enzyme-to-reaction conversions: HGPRT (hypoxanthine -> IMP), purine nucleoside phosphorylase/PNP (a nucleoside -> its free base + ribose-1-P, e.g. guanosine -> guanine), 5'-nucleotidase (a nucleotide -> the corresponding nucleoside), guanase/guanine deaminase (guanine -> xanthine), adenosine deaminase/ADA (adenosine -> inosine), and xanthine oxidase (xanthine -> uric acid, and hypoxanthine -> xanthine upstream of that).
+
+### associated_with · CON-FND-D227A9E8979674
+Quote: Allopurinol, a hypoxanthine analogue, competitively inhibits xanthine oxidase specifically, lowering uric acid production and treating gout; uric acid overproduction via this pathway is the direct cause of acute gouty arthritis, classically at the big toe.
+
+### associated_with · CON-FND-E9E2A2E6F091C9
+Quote: ADA deficiency lets deoxyadenosine accumulate, which is toxic to both developing T and B lymphocytes -- a combined (T and B low) immunodeficiency, i.e. a form of SCID. PNP deficiency instead lets deoxyguanosine accumulate, which is selectively toxic to T lymphocytes, sparing B cells -- a T-cell-only immunodeficiency with normal B-cell numbers.
 
 ## callout_evidence
 
@@ -860,6 +914,9 @@ Which step fails determines the disease: AGAT deficiency sits upstream of guanid
 ### Clinical significance
 AGAT deficiency presents with global developmental delay, speech delay, hypotonia and sometimes seizures, and oral creatine supplementation bypasses the block and improves the clinical picture. Serum creatinine and creatinine clearance remain the everyday clinical tool for estimating glomerular filtration rate.
 
+### Fuel selection alongside the phosphagen system (added, author6)
+Creatine phosphate is muscle's fastest energy buffer, regenerating ATP within seconds via creatine kinase and providing the earliest-available energy system for a short sprint, before anaerobic glycolysis and then oxidative phosphorylation take over. Muscle's choice of fuel beyond this immediate buffer shifts with state: in the well-fed state muscle takes up glucose (to replenish glycogen) and amino acids (to synthesise protein); in early fasting, resting muscle burns fatty acids; under anaerobic conditions only glycogen/glucose can be used (fatty acid and ketone oxidation both require oxygen); and the aerobic oxidative system draws on glucose, fatty acids and ketone bodies together.
+
 ## hold_these
 Creatine synthesis: AGAT (kidney, arginine+glycine -> guanidinoacetate) then GAMT (liver, SAM methylates to creatine).
 Creatinine is a non-enzymatic breakdown product proportional to muscle mass, cleared by glomerular filtration.
@@ -898,6 +955,7 @@ relatedArticleIds: Left blank -- a companion article in another lane's directory
 CON-FND-7B9C2FBCBD3E5D
 CON-FND-280B4FBAE66E3C
 CON-FND-2A0A9B8A28A214
+CON-FND-0756BE1431BFA1
 
 ## related_articles
 
@@ -923,6 +981,9 @@ Quote: Creatinine forms non-enzymatically, at a roughly constant rate proportion
 
 ### associated_with · CON-FND-2A0A9B8A28A214
 Quote: AGAT deficiency, a rare autosomal recessive cerebral creatine deficiency syndrome, blocks synthesis at the first, kidney step, so guanidinoacetate and downstream creatine are never made.
+
+### associated_with · CON-FND-0756BE1431BFA1
+Quote: in the well-fed state muscle takes up glucose (to replenish glycogen) and amino acids (to synthesise protein); in early fasting, resting muscle burns fatty acids; under anaerobic conditions only glycogen/glucose can be used (fatty acid and ketone oxidation both require oxygen); and the aerobic oxidative system draws on glucose, fatty acids and ketone bodies together.
 
 ## callout_evidence
 
