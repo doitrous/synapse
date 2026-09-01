@@ -1,0 +1,27 @@
+{
+ "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-neuralmesoderm-mcq.md",
+ "kind": "question",
+ "items": 6,
+ "fieldsUsed": 49,
+ "warnings": [
+  "explanation of the correct answer, across 6 question(s): shortest 346 chars, median 424; 0% under 200 chars, 0% under 3 sentences."
+ ],
+ "difficulty": {
+  "Moderate": 3,
+  "Easy": 3
+ },
+ "conceptsTested": 2,
+ "mediaFlagged": 0,
+ "notes": [
+  "docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md: 260 concept rows treated as pending import",
+  "docs/Kasr-Source-Imports/article/101-ISK-anatomy-2.md: 9 article rows treated as pending import",
+  "docs/Ain-Shams-Source-Imports/resource/ASU-AE-embryo3-resources.md: 1 catalogue-resource rows treated as pending import",
+  "QST-DEV-ASU-AE-EMBRYO3-RETINA-NEURAL-TUBE: main concept CON-DEV-785CE84F7C03DB has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-MELANOCYTE-NEURAL-CREST: main concept CON-DEV-785CE84F7C03DB has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-DURA-MATER-MESODERMAL: main concept CON-DEV-785CE84F7C03DB has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-KIDNEYS-INTERMEDIATE-MESODERM: main concept CON-DEV-2E3E3098D90C0C has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-VESSELS-MESODERM: main concept CON-DEV-2E3E3098D90C0C has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-VISCERAL-PERICARDIUM-SPLANCHNIC: main concept CON-DEV-2E3E3098D90C0C has not passed the evidence gate (needs_evidence) — promote the concept and the question together"
+ ],
+ "errors": []
+}

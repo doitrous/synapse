@@ -1,0 +1,32 @@
+{
+ "file": "docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-placentacord-mcq.md",
+ "kind": "question",
+ "items": 11,
+ "fieldsUsed": 49,
+ "warnings": [
+  "explanation of the correct answer, across 11 question(s): shortest 316 chars, median 389; 0% under 200 chars, 0% under 3 sentences."
+ ],
+ "difficulty": {
+  "Moderate": 10,
+  "Easy": 1
+ },
+ "conceptsTested": 5,
+ "mediaFlagged": 0,
+ "notes": [
+  "docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md: 260 concept rows treated as pending import",
+  "docs/Kasr-Source-Imports/article/101-ISK-anatomy.md: 39 article rows treated as pending import",
+  "docs/Ain-Shams-Source-Imports/resource/ASU-AE-embryo3-resources.md: 1 catalogue-resource rows treated as pending import",
+  "QST-DEV-ASU-AE-EMBRYO3-NOTOCHORD-FROM-EPIBLAST: main concept CON-DEV-1BCF37C48AF307 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-NEURENTERIC-CANAL: main concept CON-DEV-1BCF37C48AF307 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-NOTOCHORD-NUCLEUS-PULPOSUS: main concept CON-DEV-1BCF37C48AF307 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-NOTOCHORD-NOT-FETAL-MEMBRANE: main concept CON-DEV-1BCF37C48AF307 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-UMBILICAL-VEIN-LEFT-PERSISTS: main concept CON-DEV-134C8B5E98D759 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-ALLANTOIS-CONNECTING-STALK: main concept CON-DEV-134C8B5E98D759 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-PRIMITIVE-CORD-TWO-ARTERIES: main concept CON-DEV-134C8B5E98D759 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-WHARTON-JELLY-FALSE-KNOT: main concept CON-DEV-3E918A4C74B56D has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-DEFINITIVE-YOLK-SAC-IN-CORD: main concept CON-DEV-1D10DF3B716A70 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-ALLANTOIS-HINDGUT-DIVERTICULUM: main concept CON-DEV-1D10DF3B716A70 has not passed the evidence gate (needs_evidence) — promote the concept and the question together",
+  "QST-DEV-ASU-AE-EMBRYO3-AMNION-HELPS-MOVEMENTS: main concept CON-DEV-F356C3B8CFD31E has not passed the evidence gate (needs_evidence) — promote the concept and the question together"
+ ],
+ "errors": []
+}

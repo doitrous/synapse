@@ -1,0 +1,17 @@
+
+/* stderr */
+node:internal/fs/promises:640
+  return new FileHandle(await PromisePrototypeThen(
+                        ^
+
+Error: ENOENT: no such file or directory, open 'docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-neuralmesoderm-mcq.md'
+    at async open (node:internal/fs/promises:640:25)
+    at async readFile (node:internal/fs/promises:1287:14)
+    at async file:///Users/doitrous/Documents/CodexGPT/Codex-Synapse%20continue%20on%20Claude/ClaudeSynapse/.claude/worktrees/asu-ae-author5/scripts/validate-content-batch.mjs:182:28 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'docs/Ain-Shams-Source-Imports/question/ASU-AE-embryo3-neuralmesoderm-mcq.md'
+}
+
+Node.js v24.16.0
