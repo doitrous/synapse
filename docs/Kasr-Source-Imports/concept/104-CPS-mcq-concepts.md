@@ -5,6 +5,7 @@
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
+    The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
@@ -13,6 +14,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     The Trachea, Bronchi and Thoracic Oesophagus — 7 questions, 3 concepts
+    The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 3 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
@@ -439,6 +441,27 @@ src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
 +ART-104-ANA-DIAPHRAGM
 ## field_notes
 canonical_key "diaphragm.major-openings" already has a pinned id in this module (CON-RES-80C9B9E43B459B); mintConceptId derives the same id fresh (CON-RES-80C9B9E43B459B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-671ABF9D60BE19
+## label
+The intercostal space has three muscle layers — external, internal and innermost — of which the external is the main inspiratory elevator of the rib
+## canonical_key
+intercostal-muscles.layers-and-action
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p48 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p30 | 104 CPS
+## article_ids
++ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## field_notes
+canonical_key "intercostal-muscles.layers-and-action" already has a pinned id in this module (CON-RES-671ABF9D60BE19); mintConceptId derives the same id fresh (CON-RES-671ABF9D60BE19) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -1354,6 +1377,27 @@ src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
 +ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS
 ## field_notes
 canonical_key "oesophagus.thoracic-course-and-constrictions" already has a pinned id in this module (CON-GIT-4E4EC465826CF2); mintConceptId derives the same id fresh (CON-GIT-4E4EC465826CF2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-0BB6BDDB3E4413
+## label
+A typical intercostal nerve runs in the neurovascular bundle below the vein and artery, and ends as the anterior cutaneous branch
+## canonical_key
+typical-intercostal-nerve.course-and-branches
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p11 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p5 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## field_notes
+canonical_key "typical-intercostal-nerve.course-and-branches" already has a pinned id in this module (CON-RES-0BB6BDDB3E4413); mintConceptId derives the same id fresh (CON-RES-0BB6BDDB3E4413) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

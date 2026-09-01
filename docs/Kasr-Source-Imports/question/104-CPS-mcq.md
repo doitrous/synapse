@@ -5,6 +5,7 @@
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
+    The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
@@ -13,6 +14,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     The Trachea, Bronchi and Thoracic Oesophagus — 7 questions, 3 concepts
+    The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 3 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
@@ -1562,6 +1564,378 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p4 q16. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-183E9E5B9C73
+## title
+External intercostal muscle, select the correct statement:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+External intercostal muscle, select the correct statement:
+## answer_a
+is innervated by the posterior ramus of the thoracic spinal nerve
+## explanation_a
+The external intercostal muscle is innervated by the corresponding intercostal nerve — the ANTERIOR (ventral) primary ramus of the thoracic spinal nerve — not by any posterior ramus, which instead supplies the muscles and skin of the back.
+## answer_b
+extends as far forwards as the costochondral junction
+## explanation_b
+This is the correct answer. The external intercostal muscle's fleshy fibres run from the tubercle of the rib above only as far forwards as the costochondral junction; beyond that point it continues as the anterior intercostal membrane, no longer as muscle.
+
+Why this is right:
+- The three muscle layers of an intercostal space run superficial to deep: the external intercostal, fibres obliquely downwards and forwards from the tubercle of the rib above to the costochondral junction, continuing anteriorly (where the muscle itself stops) as the anterior intercostal membrane; the internal intercostal, fibres obliquely downwards and backwards from the sternum to the rib angle, continuing posteriorly as the posterior intercostal membrane; and the innermost intercostal, running in the same direction as the internal but separated from it by the neurovascular bundle.
+## answer_c
+has an attachment to the neck of the respective rib
+## explanation_c
+The external intercostal muscle attaches to the TUBERCLE of the rib above, not the neck of the rib — the tubercle sits lateral to the neck, at the point where the rib's shaft begins.
+## answer_d
+has fibres directed downwards and backwards
+## explanation_d
+The external intercostal muscle's fibres run downwards and FORWARDS, not downwards and backwards — that fibre direction instead belongs to the internal intercostal muscle, one layer deeper.
+## correct_answer
+B
+## main_concept
+CON-RES-671ABF9D60BE19
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Intercostal Muscles
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the external intercostal muscle itself extends only as far forwards as the costochondral junction, continuing onward as membrane rather than muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q7; EOM 2022 CPS 104 (1).pdf p13 q106. Manifest src_b2b20b3b22954ea7843a, src_d3160d222c8c55775511.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CF77131F9171
+## title
+Regarding intercostal spaces, choose the correct statement:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding intercostal spaces, choose the correct statement:
+## answer_a
+External intercostal muscle has fibres directed downwards and forwards
+## explanation_a
+This is the correct answer. The external intercostal muscle's fibres run obliquely downwards and forwards, from the tubercle of the rib above to the costochondral junction of the rib below.
+
+Why this is right:
+- The three muscle layers of an intercostal space run superficial to deep: the external intercostal, fibres obliquely downwards and forwards from the tubercle of the rib above to the costochondral junction, continuing anteriorly (where the muscle itself stops) as the anterior intercostal membrane; the internal intercostal, fibres obliquely downwards and backwards from the sternum to the rib angle, continuing posteriorly as the posterior intercostal membrane; and the innermost intercostal, running in the same direction as the internal but separated from it by the neurovascular bundle.
+## answer_b
+Each intercostal space is supplied by five anterior intercostal arteries
+## explanation_b
+Each intercostal space contains only a small number of anterior intercostal arteries (typically one main vessel per space, from the internal thoracic or musculophrenic artery), not five — five is a figure that belongs to no structure described in this chapter.
+## answer_c
+Posterior intercostal arteries supplying the first two spaces arise from the descending aorta
+## explanation_c
+The posterior intercostal arteries supplying the first two spaces arise from the superior intercostal artery (itself a costocervical-trunk branch of the subclavian artery), not from the descending aorta — only the third to eleventh spaces' posterior intercostal arteries come from the descending thoracic aorta.
+## answer_d
+All anterior intercostal veins drain into the internal thoracic vein
+## explanation_d
+Not all anterior intercostal veins drain into the internal thoracic vein directly — only those of the upper three spaces do; the middle and lower spaces drain into it only indirectly, via the venae comitantes of the internal thoracic and musculophrenic arteries.
+## correct_answer
+A
+## main_concept
+CON-RES-671ABF9D60BE19
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Intercostal Muscles
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State the external intercostal muscle's fibre direction as downwards and forwards.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p48 q10. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-08A0C6F88D25
+## title
+Regarding the external intercostal muscle, the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the external intercostal muscle, the following statements are true, EXCEPT:
+## answer_a
+It is a muscle of inspiration
+## explanation_a
+True, so not the exception. The external intercostal muscle elevates the ribs and is a muscle of inspiration.
+## answer_b
+Its fibers are directed downward and forward
+## explanation_b
+True, so not the exception. The external intercostal muscle's fibres run obliquely downwards and forwards.
+## answer_c
+It continues backwards as the posterior intercostal membrane
+## explanation_c
+This is the exception, and the answer. The external intercostal muscle continues anteriorly, beyond the costochondral junction, as the ANTERIOR intercostal membrane — it is the INTERNAL intercostal muscle that continues posteriorly as the posterior intercostal membrane, the opposite pairing.
+
+Why this is right:
+- The three muscle layers of an intercostal space run superficial to deep: the external intercostal, fibres obliquely downwards and forwards from the tubercle of the rib above to the costochondral junction, continuing anteriorly (where the muscle itself stops) as the anterior intercostal membrane; the internal intercostal, fibres obliquely downwards and backwards from the sternum to the rib angle, continuing posteriorly as the posterior intercostal membrane; and the innermost intercostal, running in the same direction as the internal but separated from it by the neurovascular bundle.
+## answer_d
+It extends from the rib tubercle to the costochondral junction
+## explanation_d
+True, so not the exception. The external intercostal muscle extends from the tubercle of the rib above to the costochondral junction, where the anterior intercostal membrane takes over.
+## answer_e
+It is supplied by the corresponding intercostal nerve
+## explanation_e
+True, so not the exception. Like all three intercostal layers, the external intercostal muscle is supplied by the corresponding intercostal nerve.
+## correct_answer
+C
+## main_concept
+CON-RES-671ABF9D60BE19
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Intercostal Muscles
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the external intercostal muscle continues as the ANTERIOR, not the posterior, intercostal membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p7 q27. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-D3E4F8290C79
+## title
+The action of the ribs during breathing:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The action of the ribs during breathing:
+## answer_a
+Carries the larynx downward
+## explanation_a
+The larynx is not carried by rib movement at all — laryngeal elevation and depression are actions of the extrinsic laryngeal muscles during swallowing and phonation, unrelated to the ribs' own respiratory action.
+## answer_b
+Results in the contraction of the diaphragm, during expiration
+## explanation_b
+The diaphragm contracts during INSPIRATION, not expiration, and diaphragmatic contraction is a separate action from the ribs' own movement, even though the two work together to expand the thoracic cavity.
+## answer_c
+Increase the antero posterior and transverse diameters of thoracic cavity
+## explanation_c
+This is the correct answer. Elevating the ribs — the external intercostal muscles' own action during inspiration — increases both the antero-posterior diameter (the "pump-handle" movement of the upper ribs and sternum) and the transverse diameter (the "bucket-handle" movement of the lower ribs) of the thoracic cavity, enlarging it to draw air in.
+
+Why this is right:
+- The three muscle layers of an intercostal space run superficial to deep: the external intercostal, fibres obliquely downwards and forwards from the tubercle of the rib above to the costochondral junction, continuing anteriorly (where the muscle itself stops) as the anterior intercostal membrane; the internal intercostal, fibres obliquely downwards and backwards from the sternum to the rib angle, continuing posteriorly as the posterior intercostal membrane; and the innermost intercostal, running in the same direction as the internal but separated from it by the neurovascular bundle.
+## answer_d
+Is that they are lowered during inhalation
+## explanation_d
+The ribs are ELEVATED, not lowered, during inhalation — it is during quiet expiration that they are lowered again, as the external intercostal muscles relax and elastic recoil takes over.
+## correct_answer
+C
+## main_concept
+CON-RES-671ABF9D60BE19
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Physiology
+## subtopic
+The Intercostal Muscles
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that elevating the ribs during inspiration increases both the antero-posterior and the transverse diameters of the thoracic cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q38. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -5759,6 +6133,562 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EE87B1A37EE0
+## title
+Concerning the intercostal nerves, select the false statement:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the intercostal nerves, select the false statement:
+## answer_a
+are the ventral rami of thoracic spinal nerves
+## explanation_a
+True, so not the answer sought. Intercostal nerves are the ventral (anterior) primary rami of the thoracic spinal nerves.
+## answer_b
+lie deep to the internal intercostal muscles
+## explanation_b
+True, so not the answer sought. The intercostal nerve lies deep to the internal intercostal muscle, running in the neurovascular bundle between the internal and innermost intercostal layers.
+## answer_c
+lie above the intercostal vessels in the costal groove
+## explanation_c
+This is the false statement, and the answer. The intercostal nerve lies BELOW, not above, the intercostal vessels in the costal groove — the neurovascular bundle's order from top to bottom is vein, artery, nerve (VAN), with the nerve running lowest of the three.
+
+Why this is right:
+- A typical intercostal nerve, the anterior primary ramus of T2 to T6, starts posteriorly between the parietal pleura and the posterior intercostal membrane, behind the sympathetic chain; runs forward in the costal groove within the neurovascular bundle, between the internal and innermost intercostal muscles, BELOW the vein and artery (the neurovascular bundle's order, top to bottom, is vein, artery, nerve — VAN); then crosses in front of the internal thoracic vessels near the sternum before piercing the wall as the anterior cutaneous branch.
+## answer_d
+cross in front of the internal thoracic artery near the sternum
+## explanation_d
+True, so not the answer sought. Near the sternum, the intercostal nerve crosses in front of the internal thoracic vessels before piercing the wall as its anterior cutaneous branch.
+## correct_answer
+C
+## main_concept
+CON-RES-0BB6BDDB3E4413
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Typical Intercostal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the intercostal nerve runs below, not above, the intercostal vessels in the costal groove.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q1. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-34563E9D6CDB
+## title
+Concerning the typical intercostal nerves, select the correct statement:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the typical intercostal nerves, select the correct statement:
+## answer_a
+They are the ventral rami of thoracic spinal nerves
+## explanation_a
+This is the correct answer. Typical intercostal nerves are the ventral (anterior) primary rami of the thoracic spinal nerves — specifically the second to sixth, the segment the department book defines as "typical".
+
+Why this is right:
+- A typical intercostal nerve, the anterior primary ramus of T2 to T6, starts posteriorly between the parietal pleura and the posterior intercostal membrane, behind the sympathetic chain; runs forward in the costal groove within the neurovascular bundle, between the internal and innermost intercostal muscles, BELOW the vein and artery (the neurovascular bundle's order, top to bottom, is vein, artery, nerve — VAN); then crosses in front of the internal thoracic vessels near the sternum before piercing the wall as the anterior cutaneous branch.
+## answer_b
+They lie deep to the innermost intercostal muscles
+## explanation_b
+The intercostal nerve lies between the INTERNAL and innermost intercostal muscles, not deep to the innermost layer alone — placing it deep to the innermost muscle would put it one plane too far posterior.
+## answer_c
+They lie above the intercostal vessels in the costal groove
+## explanation_c
+The intercostal nerve lies BELOW, not above, the intercostal vessels in the costal groove — the VAN order places the nerve lowest of the three (vein, artery, nerve).
+## answer_d
+They are from TI to 9 eae Save: Sse ‏:التبسشسص م‎
+## explanation_d
+As best interpretable through the extraction's garbled text, this option numbers the typical intercostal nerves from T1 to T9 — incorrect either way: the typical nerves are T2 to T6 only, since T1 mostly joins the brachial plexus and T7-T11 are non-typical.
+## correct_answer
+A
+## main_concept
+CON-RES-0BB6BDDB3E4413
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+The Typical Intercostal Nerve
+## subtopic
+The Typical Intercostal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that typical intercostal nerves are the ventral rami of the thoracic spinal nerves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p11 q88. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-63844ADCDDC0
+## title
+In the chest wall, one is correct:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In the chest wall, one is correct:
+## answer_a
+The posterior intercostal artery is more superficial than the vein
+## explanation_a
+The posterior intercostal artery is NOT more superficial than the vein — the vein lies uppermost of the three neurovascular structures, with the artery immediately below it.
+## answer_b
+The posterior intercostal artery lies between the intercostal nerve and vein
+## explanation_b
+This is the correct answer. The neurovascular bundle's order from top to bottom is vein, artery, nerve (VAN) — which means the artery lies literally between the vein above it and the nerve below it, exactly as this option states.
+
+Why this is right:
+- A typical intercostal nerve, the anterior primary ramus of T2 to T6, starts posteriorly between the parietal pleura and the posterior intercostal membrane, behind the sympathetic chain; runs forward in the costal groove within the neurovascular bundle, between the internal and innermost intercostal muscles, BELOW the vein and artery (the neurovascular bundle's order, top to bottom, is vein, artery, nerve — VAN); then crosses in front of the internal thoracic vessels near the sternum before piercing the wall as the anterior cutaneous branch.
+## answer_c
+The innermost intercostal muscle lies between the external and internal intercostals
+## explanation_c
+The innermost intercostal muscle is the DEEPEST of the three layers, not sandwiched between the external and internal — it lies deep to the internal intercostal, separated from it only by the neurovascular bundle.
+## answer_d
+The neurovascular bundle lies between the external and internal intercostals
+## explanation_d
+The neurovascular bundle lies between the INTERNAL and innermost intercostal muscles, not between the external and internal — that placement is one layer too superficial.
+## correct_answer
+B
+## main_concept
+CON-RES-0BB6BDDB3E4413
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+The Typical Intercostal Nerve
+## subtopic
+The Typical Intercostal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that the posterior intercostal artery lies between the intercostal nerve and vein — the artery is the middle element of the VAN order.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q7. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9D0D1747708D
+## title
+Regarding the intercostal arteries, all the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the intercostal arteries, all the following statements are true, EXCEPT:
+## answer_a
+The anterior intercostal arteries give branches to the medial half of the
+## explanation_a
+True, so not the exception. Perforating branches of the anterior intercostal (internal thoracic) system supply the skin and the medial breast.
+## answer_b
+The upper two posterior intercostal arteries are branches of the costocervical
+## explanation_b
+True, so not the exception. The upper two posterior intercostal arteries are indirect branches of the costocervical trunk, via the superior intercostal artery.
+## answer_c
+The posterior intercostal arteries give branches to the spinal cord
+## explanation_c
+True of standard intercostal artery anatomy, so not the exception sought here — posterior intercostal arteries give small spinal branches through the intervertebral foramina to supply the spinal cord and its coverings, alongside their main course in the costal groove.
+## answer_d
+In the costal groove, the intercostal artery runs above the accompanying
+## explanation_d
+This is the exception, and the answer. In the costal groove, the intercostal artery runs BELOW its accompanying vein, not above it — the VAN order places the vein highest of the three neurovascular structures, with the artery directly beneath it and the nerve lowest of all.
+
+Why this is right:
+- A typical intercostal nerve, the anterior primary ramus of T2 to T6, starts posteriorly between the parietal pleura and the posterior intercostal membrane, behind the sympathetic chain; runs forward in the costal groove within the neurovascular bundle, between the internal and innermost intercostal muscles, BELOW the vein and artery (the neurovascular bundle's order, top to bottom, is vein, artery, nerve — VAN); then crosses in front of the internal thoracic vessels near the sternum before piercing the wall as the anterior cutaneous branch.
+## answer_e
+Each anterior intercostals space contains two anterior intercostals arteries
+## explanation_e
+True, so not the exception. Each anterior intercostal space is supplied by two anterior intercostal arteries, one from each of the internal thoracic artery's own upper branches (or, lower down, from the musculophrenic artery).
+## correct_answer
+D
+## main_concept
+CON-RES-0BB6BDDB3E4413
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Typical Intercostal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the intercostal artery runs below, not above, its accompanying vein in the costal groove.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p5 q21. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BFAFF7A1B878
+## title
+Regarding the intercostal nerves, one is false:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the intercostal nerves, one is false:
+## answer_a
+The anterior primary ramus of the twelfth thoracic nerve is the subcostal nerve
+## explanation_a
+True, so not the answer sought. The anterior primary ramus of the twelfth thoracic nerve is the subcostal nerve, which runs entirely in the abdominal wall.
+## answer_b
+The 7th intercostal nerve is a typical spinal nerve
+## explanation_b
+This is the false statement, and the answer. The seventh intercostal nerve is NON-typical, not typical — the department book classifies only the second to sixth intercostal nerves as typical; the seventh to eleventh run part of their course in the thorax and part in the abdomen.
+
+Why this is right:
+- A typical intercostal nerve, the anterior primary ramus of T2 to T6, starts posteriorly between the parietal pleura and the posterior intercostal membrane, behind the sympathetic chain; runs forward in the costal groove within the neurovascular bundle, between the internal and innermost intercostal muscles, BELOW the vein and artery (the neurovascular bundle's order, top to bottom, is vein, artery, nerve — VAN); then crosses in front of the internal thoracic vessels near the sternum before piercing the wall as the anterior cutaneous branch.
+## answer_c
+They lie in the subcostal groove
+## explanation_c
+True, so not the answer sought. The intercostal nerves lie in the costal groove of the rib above their own space.
+## answer_d
+The 2nd has a supply to the skin of the axilla
+## explanation_d
+True, so not the answer sought. The second intercostal nerve's lateral cutaneous branch becomes the intercostobrachial nerve, supplying skin over the axillary floor.
+## correct_answer
+B
+## main_concept
+CON-RES-0BB6BDDB3E4413
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Typical Intercostal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the seventh intercostal nerve is non-typical, not typical.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q5. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-FA5D64FF970A
+## title
+Regarding the intercostal nerves, the following statements are correct, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the intercostal nerves, the following statements are correct, EXCEPT:
+## answer_a
+The first intercostal has no anterior cutaneous branch
+## explanation_a
+True, so not the exception. The first intercostal nerve mostly joins the brachial plexus and has no typical anterior cutaneous branch of its own.
+## answer_b
+The lateral cutaneous branch of the second intercostal nerve is called the
+## explanation_b
+True, so not the exception. The lateral cutaneous branch of the second intercostal nerve is renamed the intercostobrachial nerve, supplying the axillary floor and medial arm.
+## answer_c
+The lower five intercostal nerves supply the muscles of the anterior
+## explanation_c
+True, so not the exception. The lower five intercostal nerves continue their course onto the anterior abdominal wall, supplying its muscles alongside the subcostal nerve.
+## answer_d
+In the costal groove, the intercostals nerve lies above the accompanying
+## explanation_d
+This is the exception, and the answer. In the costal groove, the intercostal nerve lies BELOW, not above, its accompanying vessels — the VAN order (vein, artery, nerve) places the nerve lowest of the three.
+
+Why this is right:
+- A typical intercostal nerve, the anterior primary ramus of T2 to T6, starts posteriorly between the parietal pleura and the posterior intercostal membrane, behind the sympathetic chain; runs forward in the costal groove within the neurovascular bundle, between the internal and innermost intercostal muscles, BELOW the vein and artery (the neurovascular bundle's order, top to bottom, is vein, artery, nerve — VAN); then crosses in front of the internal thoracic vessels near the sternum before piercing the wall as the anterior cutaneous branch.
+## correct_answer
+D
+## main_concept
+CON-RES-0BB6BDDB3E4413
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Typical Intercostal Nerve
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the intercostal nerve runs below, not above, its accompanying vessels in the costal groove.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p6 q24. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
