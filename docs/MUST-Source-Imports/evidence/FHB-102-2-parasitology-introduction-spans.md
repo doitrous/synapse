@@ -2747,3 +2747,25 @@ CLM-INF-MUST-FHB1022-MUCIZEADV-Q28-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZEADV-Q28-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q29-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Aedes and some other mosquitoes can breed in very small collections of water, such as inside a flower vase, a bucket or even a bottle cover.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q29-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q29-01

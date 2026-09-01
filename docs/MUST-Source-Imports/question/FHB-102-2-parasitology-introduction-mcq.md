@@ -18997,3 +18997,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize Advanced MCQ Q28 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q29
+
+## title
+Which of the following is a key feature of the breeding habits of Aedes mosquitoes?
+
+## question
+Which of the following is a key feature of the breeding habits of Aedes mosquitoes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+They breed only in large bodies of water like lakes
+
+## explanation_a
+Incorrect. The governed teaching does not restrict Aedes breeding to large lakes, waterless conditions or fast-flowing rivers. The supported answer is B, They can breed in small water collections, such as flower vases or buckets.
+
+## answer_b
+They can breed in small water collections, such as flower vases or buckets
+
+## explanation_b
+Aedes and some other mosquitoes can breed in very small collections of water, such as inside a flower vase, a bucket or even a bottle cover. The governed university slide directly supports They can breed in small water collections, such as flower vases or buckets for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+They do not require water for breeding
+
+## explanation_c
+Incorrect. The governed teaching does not restrict Aedes breeding to large lakes, waterless conditions or fast-flowing rivers. The supported answer is B, They can breed in small water collections, such as flower vases or buckets.
+
+## answer_d
+They breed only in fast-flowing rivers
+
+## explanation_d
+Incorrect. The governed teaching does not restrict Aedes breeding to large lakes, waterless conditions or fast-flowing rivers. The supported answer is B, They can breed in small water collections, such as flower vases or buckets.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F16A82C4E9D375
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito breeding habitat
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify small artificial water collections such as flower vases and buckets as Aedes breeding sites.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p27 Mucize Advanced MCQ Q29, printed key p28 (29 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Advanced MCQ Q29 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

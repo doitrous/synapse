@@ -3038,6 +3038,7 @@ The mosquito life cycle is completed in stagnant water.
 The usual female mosquito lifespan is six to eight weeks and may increase in winter.
 A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
 The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
+Aedes and some other mosquitoes can breed in very small collections of water, such as inside a flower vase, a bucket or even a bottle cover.
 
 ## published_summary
 
@@ -3067,6 +3068,7 @@ The mosquito pupa is the non-feeding stage, while the larva feeds.
 The usual female mosquito lifespan is six to eight weeks and may increase in winter.
 A blood meal stimulates hormone production necessary for ovulation and egg laying in female mosquitoes.
 The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
+Aedes and some other mosquitoes can breed in very small collections of water, such as inside a flower vase, a bucket or even a bottle cover.
 
 ## lose_the_mark
 Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order.
@@ -3090,6 +3092,7 @@ The governed comparison states that larvae feed and pupae do not.
 The official bionomics slide gives six to eight weeks, not days, one to two weeks or six months.
 The governed purpose is ovulation and egg laying rather than digestion or body growth.
 Ten kilometres is the wind-assisted range, not the normal range.
+The governed teaching does not restrict Aedes breeding to large lakes, waterless conditions or fast-flowing rivers.
 
 ## callout_evidence
 ### Mosquitoes belong to class Insecta and order Diptera.
@@ -3197,6 +3200,11 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q49-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q49-01
 Reviewed by: pending medical review
 
+### Aedes and some other mosquitoes can breed in very small collections of water, such as inside a flower vase, a bucket or even a bottle cover.
+Claims: CLM-INF-MUST-FHB1022-MUCIZEADV-Q29-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZEADV-Q29-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-4EEE8525216319
 CON-INF-FABEF04D8E14A7
@@ -3213,6 +3221,7 @@ CON-INF-137835388110E5
 CON-INF-EBC6A5A33FF6AA
 CON-INF-1C69CD2C41026C
 CON-INF-E7CE29355ADA44
+CON-INF-F16A82C4E9D375
 
 ## related_articles
 ART-INF-MUST-FHB1022-MOSQUITO-DISEASES: Mosquito-borne disease and transmission patterns
@@ -3240,6 +3249,7 @@ QST-MUST-FHB1022-PARA-MUCIZE-Q46
 QST-MUST-FHB1022-PARA-MUCIZE-Q47
 QST-MUST-FHB1022-PARA-MUCIZE-Q48
 QST-MUST-FHB1022-PARA-MUCIZE-Q49
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q29
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
@@ -3271,6 +3281,7 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q46-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q47-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q48-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q49-01
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q29-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-MOSQ2-Q01-01
@@ -3294,6 +3305,7 @@ SPN-INF-MUST-FHB1022-MUCIZE-Q46-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q47-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q48-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q49-01
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q29-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -3403,6 +3415,11 @@ Id: ann-must-fhb1022-mucize-q48
 Quote: The normal mosquito flight range is about two kilometres and may increase to ten kilometres with wind.
 Block: body
 Id: ann-must-fhb1022-mucize-q49
+
+### definition_of · CON-INF-F16A82C4E9D375
+Quote: Aedes and some other mosquitoes can breed in very small collections of water, such as inside a flower vase, a bucket or even a bottle cover.
+Block: body
+Id: ann-must-fhb1022-mucizeadv-q29
 
 ## media
 

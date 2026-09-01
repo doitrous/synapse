@@ -4997,3 +4997,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q29-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q29-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide states that Aedes and some other mosquitoes can breed in a very little collection of water inside a flower vase, water inside buckets, and even in a bottle cover.
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito breeding habitat
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Advanced MCQ Q29 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

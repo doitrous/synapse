@@ -15489,3 +15489,185 @@ rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the ide
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-F16A82C4E9D375
+
+## label
+Aedes and related mosquitoes breed in small artificial water collections
+
+## canonical_key
+parasitology.mosquitoes.aedes-small-container-breeding
+
+## aliases
+Aedes container breeding
+Aedes flower-vase and bucket breeding
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Aedes and some other mosquitoes can breed in very small collections of water, such as inside a flower vase, a bucket or even a bottle cover.
+
+## explicit_objective
+Identify small artificial water collections such as flower vases and buckets as Aedes breeding sites.
+
+## pitfalls
+The governed teaching does not restrict Aedes breeding to large lakes, waterless conditions or fast-flowing rivers.
+
+## concept_type
+life cycle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito breeding habitat
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito breeding habitat
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q29-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p27 Mucize Advanced MCQ Q29; printed answer p28
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p10 direct university teaching
+
+## original_wording
+Which of the following is a key feature of the breeding habits of Aedes mosquitoes? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Advanced MCQ Q29. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
