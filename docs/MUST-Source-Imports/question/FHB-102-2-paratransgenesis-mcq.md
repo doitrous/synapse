@@ -149,3 +149,155 @@ yes
 
 ## author_notes
 Printed source key: Q10 = A. The printed key agrees with the university teaching definition of paratransgenesis; no override was made.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q29
+
+## title
+What is the purpose of paratransgenesis in mosquito control?
+
+## question
+What is the purpose of paratransgenesis in mosquito control?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+To block parasite development in mosquitoes
+
+## explanation_a
+Correct. The official MUST lecture defines paratransgenesis as feeding symbiont bacteria to the larval stage so that adult mosquitoes do not become infected by viruses and parasites. Preventing adult infection blocks pathogen development and subsequent disease transmission. Therefore A is retained as the unchanged source-printed answer.
+
+## answer_b
+To sterilize mosquitoes
+
+## explanation_b
+Incorrect. Sterilising male mosquitoes is presented as a separate genetic-control measure. Paratransgenesis instead uses symbiont bacteria to prevent pathogen infection and development in the vector.
+
+## answer_c
+To attract mosquitoes to traps
+
+## explanation_c
+Incorrect. Light traps are a separate control method. Paratransgenesis changes vector competence through symbiont bacteria rather than attracting mosquitoes.
+
+## answer_d
+To increase mosquito lifespan
+
+## explanation_d
+Incorrect. The governed purpose is to prevent adult vector infection and interrupt transmission, not to prolong mosquito life. The supported answer is A.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-A0D40E9CB0E211
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.55
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Vector control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PARATRANSGENESIS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify blocking pathogen development in mosquitoes as the purpose of paratransgenesis.
+
+## source_citation
+Absalam101 Part 2, p8 Mosquitoes Q29, printed key p9 (Q29 = A); MUST Faculty of Medicine Parasitology Department mosquito-control lecture, p44.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q29 = A. The wording, option order and key are preserved exactly. This record remains Draft/local-only and is not authorised for upload.

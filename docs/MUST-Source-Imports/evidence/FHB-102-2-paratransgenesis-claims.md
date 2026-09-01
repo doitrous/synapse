@@ -41,3 +41,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 method: biological vector control
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## concept_id
+CON-INF-A0D40E9CB0E211
+
+## subject
+Purpose of paratransgenesis in mosquito control
+
+## predicate
+prevents
+
+## object
+parasite development and later disease transmission by preventing adult mosquito infection
+
+## display_text
+Paratransgenesis aims to block parasite or virus development in mosquitoes by using symbiont bacteria that prevent adult vector infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Part 2 Mosquitoes Q29

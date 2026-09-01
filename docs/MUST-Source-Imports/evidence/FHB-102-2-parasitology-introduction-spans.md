@@ -657,3 +657,465 @@ CLM-INF-MUST-FHB1022-INTRO-Q58-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-INTRO-Q58-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q01-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Mosquitoes belong to class Insecta and order Diptera.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q01-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q01-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q02-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Mosquitoes belong to class Insecta and order Diptera.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q02-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q03-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Mosquitoes undergo complete metamorphosis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q03-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q03-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q04-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Mosquito eggs, larvae and pupae are aquatic immature stages.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q04-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q04-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q06-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Adult Anopheles rests at a 45-degree angle to the surface.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q06-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q06-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q07-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Female mosquitoes are temporary obligatory ectoparasites.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q07-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q07-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q08-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Culex produces an annoying hum, whereas Anopheles approaches silently.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q08-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q08-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q09-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q09-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q09-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q10-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q10-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q15-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q15-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q15-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q17-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Anopheles larvae are more surface-feeding because they lack a siphon.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q17-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## section_id
+art-inf-must-fhb1022-mosquito-diseases-definition
+
+## text
+Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-mosquito-biology-definition
+
+## text
+Mosquitoes are attracted by bright light and dark clothes.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q21-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Using Gambusia fish is a biological mosquito-control method.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q21-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q21-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q22-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q22-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q22-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q23-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Spraying DDT is a chemical mosquito-control method.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q23-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q23-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q24-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q24-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q24-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q26-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Draining or filling swampy breeding sites is physical mosquito control.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q26-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q26-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q27-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Malathion is listed as a residual organophosphorus mosquito insecticide.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q27-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q28-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Installing window screens is a mechanical mosquito-control measure.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q28-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## article_id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## section_id
+art-inf-must-fhb1022-mosquito-control-definition
+
+## text
+Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q30-01

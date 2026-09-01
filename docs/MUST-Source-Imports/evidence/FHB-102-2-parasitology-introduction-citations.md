@@ -30,7 +30,7 @@ Introduction to Medical Parasitology — Parasite definition
 PDF page 5, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q2 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q2 answer B.
 
 ## confidence
 0.9
@@ -70,7 +70,7 @@ Introduction to Medical Parasitology — Parasite living habits
 PDF page 7, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q4 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q4 answer B.
 
 ## confidence
 0.9
@@ -110,7 +110,7 @@ Introduction to Medical Parasitology — Host susceptibility
 PDF page 9, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q5 answer C.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q5 answer C.
 
 ## confidence
 0.9
@@ -150,7 +150,7 @@ Introduction to Medical Parasitology — Parasite habitat
 PDF page 16, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q9 answer D.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q9 answer D.
 
 ## confidence
 0.9
@@ -190,7 +190,7 @@ Introduction to Medical Parasitology — Parasite classification
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q11 answer D.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q11 answer D.
 
 ## confidence
 0.9
@@ -230,7 +230,7 @@ Introduction to Medical Parasitology — Trematodes
 PDF page 33, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q14 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q14 answer B.
 
 ## confidence
 0.9
@@ -270,7 +270,7 @@ Introduction to Medical Parasitology — Helminth classification
 PDF page 34, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q15 answer C.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q15 answer C.
 
 ## confidence
 0.9
@@ -310,7 +310,7 @@ Introduction to Medical Parasitology — Protozoan locomotion
 PDF page 41, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q18 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q18 answer B.
 
 ## confidence
 0.9
@@ -350,7 +350,7 @@ Introduction to Medical Parasitology — Vectors
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q19 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q19 answer B.
 
 ## confidence
 0.9
@@ -390,7 +390,7 @@ Introduction to Medical Parasitology — Parasite classification
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q21 answer C.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q21 answer C.
 
 ## confidence
 0.9
@@ -430,7 +430,7 @@ Introduction to Medical Parasitology — Zoonoses
 PDF page 15, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q22 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q22 answer B.
 
 ## confidence
 0.9
@@ -470,7 +470,7 @@ Introduction to Medical Parasitology — Parasite classification
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q23 answer A.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q23 answer A.
 
 ## confidence
 0.9
@@ -501,7 +501,7 @@ The primary modes of entry include ingestion and penetration of skin; the next t
 page
 
 ## locator_page
-21
+21–22
 
 ## locator_section
 Introduction to Medical Parasitology — Routes of entry
@@ -510,7 +510,7 @@ Introduction to Medical Parasitology — Routes of entry
 PDF page 21–22, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q24 answer D.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q24 answer D.
 
 ## confidence
 0.9
@@ -550,7 +550,7 @@ Introduction to Medical Parasitology — Parasite living habits
 PDF page 7, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q25 answer A.
+The university-branded FHB102-2 deck directly supports the unchanged printed Introduction Q25 answer A.
 
 ## confidence
 0.9
@@ -590,7 +590,7 @@ Introduction to Medical Parasitology — Arthropod classification
 PDF page 3, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q31 answer C.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q1 (global Q31) answer C.
 
 ## confidence
 0.9
@@ -630,7 +630,7 @@ Introduction to Medical Parasitology — Arthropod classification
 PDF page 4, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q32 answer C.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q2 (global Q32) answer C.
 
 ## confidence
 0.9
@@ -661,7 +661,7 @@ Complete metamorphosis: Holometabolous.
 page
 
 ## locator_page
-8
+7–8
 
 ## locator_section
 Introduction to Medical Parasitology — Metamorphosis
@@ -670,7 +670,7 @@ Introduction to Medical Parasitology — Metamorphosis
 PDF page 7–8, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q33 answer A.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q3 (global Q33) answer A.
 
 ## confidence
 0.9
@@ -710,7 +710,7 @@ Introduction to Medical Parasitology — Transovarian transmission
 PDF page 15, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q40 answer C.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q10 (global Q40) answer C.
 
 ## confidence
 0.9
@@ -741,7 +741,7 @@ Stomoxys calcitrans: proboscis piercing and sucking.
 page
 
 ## locator_page
-23
+22–23
 
 ## locator_section
 Introduction to Medical Parasitology — Muscidae identification
@@ -750,7 +750,7 @@ Introduction to Medical Parasitology — Muscidae identification
 PDF page 22–23, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q41 answer A.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q11 (global Q41) answer A.
 
 ## confidence
 0.9
@@ -790,7 +790,7 @@ Introduction to Medical Parasitology — Muscidae identification
 PDF page 28, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q44 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q14 (global Q44) answer B.
 
 ## confidence
 0.9
@@ -821,7 +821,7 @@ The deck identifies Dermatobia and Cordylobia as obligatory cutaneous myiasis fl
 page
 
 ## locator_page
-46
+37, 42 and 46
 
 ## locator_section
 Introduction to Medical Parasitology — Cutaneous myiasis
@@ -830,7 +830,7 @@ Introduction to Medical Parasitology — Cutaneous myiasis
 PDF page 37, 42 and 46, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q47 answer D.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q17 (global Q47) answer D.
 
 ## confidence
 0.9
@@ -861,7 +861,7 @@ Dermatobia uses phoresis: eggs are attached to another insect, which carries the
 page
 
 ## locator_page
-38
+37–38
 
 ## locator_section
 Introduction to Medical Parasitology — Cutaneous myiasis
@@ -870,7 +870,7 @@ Introduction to Medical Parasitology — Cutaneous myiasis
 PDF page 37–38, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q48 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q18 (global Q48) answer B.
 
 ## confidence
 0.9
@@ -901,7 +901,7 @@ The governed deck places Sarcophaga/Sarcophagidae and Calliphora/Lucilia of Call
 page
 
 ## locator_page
-46
+32, 39 and 46
 
 ## locator_section
 Introduction to Medical Parasitology — Wound myiasis
@@ -910,7 +910,7 @@ Introduction to Medical Parasitology — Wound myiasis
 PDF page 32, 39 and 46, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q49 answer D.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q19 (global Q49) answer D.
 
 ## confidence
 0.9
@@ -941,7 +941,7 @@ The clinical-site classification lists Fannia under urogenital myiasis.
 page
 
 ## locator_page
-45
+42 and 45
 
 ## locator_section
 Introduction to Medical Parasitology — Clinical myiasis
@@ -950,7 +950,7 @@ Introduction to Medical Parasitology — Clinical myiasis
 PDF page 42 and 45, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q51 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q21 (global Q51) answer B.
 
 ## confidence
 0.9
@@ -981,7 +981,7 @@ The governed clinical-site material identifies Sarcophaga in association with au
 page
 
 ## locator_page
-51
+42 and 51
 
 ## locator_section
 Introduction to Medical Parasitology — Clinical myiasis
@@ -990,7 +990,7 @@ Introduction to Medical Parasitology — Clinical myiasis
 PDF page 42 and 51, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q52 answer A.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q22 (global Q52) answer A.
 
 ## confidence
 0.9
@@ -1021,7 +1021,7 @@ The forensic teaching names Lucilia and Sarcophaga among the flies used to asses
 page
 
 ## locator_page
-40
+39–40
 
 ## locator_section
 Introduction to Medical Parasitology — Forensic entomology
@@ -1030,7 +1030,7 @@ Introduction to Medical Parasitology — Forensic entomology
 PDF page 39–40, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q53 answer D.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q23 (global Q53) answer D.
 
 ## confidence
 0.9
@@ -1070,7 +1070,7 @@ Introduction to Medical Parasitology — Myiasis management
 PDF page 41, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q54 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q24 (global Q54) answer B.
 
 ## confidence
 0.9
@@ -1110,7 +1110,7 @@ Introduction to Medical Parasitology — Fly larval identification
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q56 answer A.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q26 (global Q56) answer A.
 
 ## confidence
 0.9
@@ -1150,7 +1150,7 @@ Introduction to Medical Parasitology — Myiasis prevention
 PDF page 56, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q57 answer A.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q27 (global Q57) answer A.
 
 ## confidence
 0.9
@@ -1190,7 +1190,847 @@ Introduction to Medical Parasitology — Forensic entomology
 PDF page 40, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q58 answer B.
+The university-branded FHB102-2 deck directly supports the unchanged printed Arthropoda Q28 (global Q58) answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q01-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q01-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck places mosquitoes in class Insecta and lists mosquitoes under order Diptera.
+
+## locator_type
+page
+
+## locator_page
+3–4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito taxonomy
+
+## locator_detail
+PDF page 3–4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q1 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q02-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck places mosquitoes and flies in order Diptera.
+
+## locator_type
+page
+
+## locator_page
+3–4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito taxonomy
+
+## locator_detail
+PDF page 3–4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q2 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q03-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q03-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official mosquito life-cycle slide explicitly labels the mosquito cycle as complete metamorphosis.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito life cycle
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q3 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q04-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q04-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that immature mosquito stages—eggs, larvae and pupae—are aquatic.
+
+## locator_type
+page
+
+## locator_page
+8, 11
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito life cycle
+
+## locator_detail
+PDF page 8, 11, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q4 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q06-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q06-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck contrasts Anopheles at 45 degrees with Culex and Aedes parallel to the surface.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito morphology
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q6 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q07-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q07-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide directly classifies female mosquitoes as temporary obligatory ectoparasites.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q7 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q08-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q08-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide states that Culex has an annoying hum while Anopheles has a silent approach.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q8 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q09-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q09-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that larvae are feeding stages and pupae are non-feeding.
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito life cycle
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q9 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q10-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that the blood meal stimulates production of a hormone necessary for ovulation.
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q10 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q15-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q15-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Aedes disease table and congenital case slide associate maternal Zika infection with congenital microcephaly.
+
+## locator_type
+page
+
+## locator_page
+19, 24
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Aedes-borne disease
+
+## locator_detail
+PDF page 19, 24, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q15 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q17-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck explicitly calls Anopheles larvae more surface feeders due to lack of a siphon.
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito larvae
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q17 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Culex table and life-cycle slide label Wuchereria transmission as cyclodevelopmental.
+
+## locator_type
+page
+
+## locator_page
+27–28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Culex-borne filariasis
+
+## locator_detail
+PDF page 27–28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q18 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide directly lists bright light and dark clothes as attractants.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mosquito bionomics
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q19 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q21-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q21-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official control slide lists Gambusia affinis among natural enemies used for biological control.
+
+## locator_type
+page
+
+## locator_page
+38
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Biological mosquito control
+
+## locator_detail
+PDF page 38, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q21 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q22-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q22-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide identifies Bacillus thuringiensis spores as highly toxic to mosquito larvae.
+
+## locator_type
+page
+
+## locator_page
+38
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Biological mosquito control
+
+## locator_detail
+PDF page 38, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q22 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q23-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q23-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck lists DDT among chemical residual insecticides.
+
+## locator_type
+page
+
+## locator_page
+40, 43
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Chemical mosquito control
+
+## locator_detail
+PDF page 40, 43, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q23 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q24-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q24-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck describes mosquito-control chemicals as poisonous and says DDT should be avoided because of persistence and tissue accumulation.
+
+## locator_type
+page
+
+## locator_page
+39–40
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Chemical mosquito control
+
+## locator_detail
+PDF page 39–40, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q24 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q26-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q26-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official physical-control slide lists filling swampy areas and draining water collections.
+
+## locator_type
+page
+
+## locator_page
+37
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Physical mosquito control
+
+## locator_detail
+PDF page 37, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q26 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q27-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official adult-control slide contrasts non-residual Pyrethrum with residual Malathion.
+
+## locator_type
+page
+
+## locator_page
+43
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Chemical mosquito control
+
+## locator_detail
+PDF page 43, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q27 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q28-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official adult-control slide lists screening windows and doors with wire screens.
+
+## locator_type
+page
+
+## locator_page
+41
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Mechanical mosquito control
+
+## locator_detail
+PDF page 41, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q28 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that Paris green is larvicidal and that pupae are not affected because they do not feed.
+
+## locator_type
+page
+
+## locator_page
+39
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Mosquitoes — Chemical mosquito control
+
+## locator_detail
+PDF page 39, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mosquitoes Q30 answer A.
 
 ## confidence
 0.9

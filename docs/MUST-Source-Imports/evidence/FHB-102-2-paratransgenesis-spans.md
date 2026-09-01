@@ -19,3 +19,25 @@ CLM-INF-MUST-FHB1022-PARATRANS-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-PARATRANS-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## article_id
+ART-INF-MUST-FHB1022-PARATRANSGENESIS
+
+## section_id
+art-inf-must-fhb1022-paratransgenesis-definition
+
+## text
+Paratransgenesis blocks pathogen development in mosquitoes by preventing adult vector infection through larval-stage symbiont bacteria.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q29-01

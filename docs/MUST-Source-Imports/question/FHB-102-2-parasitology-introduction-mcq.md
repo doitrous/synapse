@@ -130,7 +130,7 @@ src_f65b3872022ca0b42a79
 Recognise the host-associated and harmful relationship that defines a parasite.
 
 ## source_citation
-Absalam101 Part 1, p1–5 Q2, printed key p9 (2 = B); MUST FHB102-2 Introduction to Medical Parasitology, p5.
+Absalam101 Part 1, p1–5 Introduction Q2, printed key p9 (2 = B); MUST FHB102-2 Introduction to Medical Parasitology, p5.
 
 ## attached_image
 
@@ -148,7 +148,7 @@ Absalam101 Part 1, p1–5 Q2, printed key p9 (2 = B); MUST FHB102-2 Introduction
 yes
 
 ## author_notes
-Printed source key: Q2 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q2 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -282,7 +282,7 @@ src_f65b3872022ca0b42a79
 Identify the ability to live either freely or parasitically as the defining feature of a facultative parasite.
 
 ## source_citation
-Absalam101 Part 1, p1–5 Q4, printed key p9 (4 = B); MUST FHB102-2 Introduction to Medical Parasitology, p7.
+Absalam101 Part 1, p1–5 Introduction Q4, printed key p9 (4 = B); MUST FHB102-2 Introduction to Medical Parasitology, p7.
 
 ## attached_image
 
@@ -300,7 +300,7 @@ Absalam101 Part 1, p1–5 Q4, printed key p9 (4 = B); MUST FHB102-2 Introduction
 yes
 
 ## author_notes
-Printed source key: Q4 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q4 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -434,7 +434,7 @@ src_f65b3872022ca0b42a79
 Recognise immunocompromise as the host context associated with severe opportunistic parasitic disease.
 
 ## source_citation
-Absalam101 Part 1, p1–5 Q5, printed key p9 (5 = C); MUST FHB102-2 Introduction to Medical Parasitology, p9.
+Absalam101 Part 1, p1–5 Introduction Q5, printed key p9 (5 = C); MUST FHB102-2 Introduction to Medical Parasitology, p9.
 
 ## attached_image
 
@@ -452,7 +452,7 @@ Absalam101 Part 1, p1–5 Q5, printed key p9 (5 = C); MUST FHB102-2 Introduction
 yes
 
 ## author_notes
-Printed source key: Q5 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q5 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -586,7 +586,7 @@ src_f65b3872022ca0b42a79
 Identify blood as the human habitat of malaria parasites.
 
 ## source_citation
-Absalam101 Part 1, p1–5 Q9, printed key p9 (9 = D); MUST FHB102-2 Introduction to Medical Parasitology, p16.
+Absalam101 Part 1, p1–5 Introduction Q9, printed key p9 (9 = D); MUST FHB102-2 Introduction to Medical Parasitology, p16.
 
 ## attached_image
 
@@ -604,7 +604,7 @@ Absalam101 Part 1, p1–5 Q9, printed key p9 (9 = D); MUST FHB102-2 Introduction
 yes
 
 ## author_notes
-Printed source key: Q9 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q9 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -738,7 +738,7 @@ src_f65b3872022ca0b42a79
 Recognise taxonomy and human-body habitat as two valid approaches to parasite classification.
 
 ## source_citation
-Absalam101 Part 1, p1–5 Q11, printed key p9 (11 = D); MUST FHB102-2 Introduction to Medical Parasitology, p32.
+Absalam101 Part 1, p1–5 Introduction Q11, printed key p9 (11 = D); MUST FHB102-2 Introduction to Medical Parasitology, p32.
 
 ## attached_image
 
@@ -756,7 +756,7 @@ Absalam101 Part 1, p1–5 Q11, printed key p9 (11 = D); MUST FHB102-2 Introducti
 yes
 
 ## author_notes
-Printed source key: Q11 = D. The wording, option order and key are preserved exactly. The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q11 = D. The wording, option order and key are preserved exactly. The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -890,7 +890,7 @@ src_f65b3872022ca0b42a79
 Distinguish the leaf-like unsegmented morphology of trematodes from cestodes and nematodes.
 
 ## source_citation
-Absalam101 Part 1, p1–5 Q14, printed key p9 (14 = B); MUST FHB102-2 Introduction to Medical Parasitology, p33.
+Absalam101 Part 1, p1–5 Introduction Q14, printed key p9 (14 = B); MUST FHB102-2 Introduction to Medical Parasitology, p33.
 
 ## attached_image
 
@@ -908,7 +908,7 @@ Absalam101 Part 1, p1–5 Q14, printed key p9 (14 = B); MUST FHB102-2 Introducti
 yes
 
 ## author_notes
-Printed source key: Q14 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q14 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -1042,7 +1042,7 @@ src_f65b3872022ca0b42a79
 Identify trematodes and cestodes as the two parasitic flatworm groups.
 
 ## source_citation
-Absalam101 Part 1, p1–5 Q15, printed key p9 (15 = C); MUST FHB102-2 Introduction to Medical Parasitology, p34.
+Absalam101 Part 1, p1–5 Introduction Q15, printed key p9 (15 = C); MUST FHB102-2 Introduction to Medical Parasitology, p34.
 
 ## attached_image
 
@@ -1060,7 +1060,7 @@ Absalam101 Part 1, p1–5 Q15, printed key p9 (15 = C); MUST FHB102-2 Introducti
 yes
 
 ## author_notes
-Printed source key: Q15 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q15 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -1194,7 +1194,7 @@ src_f65b3872022ca0b42a79
 Identify Apicomplexa as the protozoan group associated with gliding locomotion in the local curriculum.
 
 ## source_citation
-Absalam101 Part 1, p5 Q18, printed key p9 (18 = B); MUST FHB102-2 Introduction to Medical Parasitology, p41.
+Absalam101 Part 1, p5 Introduction Q18, printed key p9 (18 = B); MUST FHB102-2 Introduction to Medical Parasitology, p41.
 
 ## attached_image
 
@@ -1212,7 +1212,7 @@ Absalam101 Part 1, p5 Q18, printed key p9 (18 = B); MUST FHB102-2 Introduction t
 yes
 
 ## author_notes
-Printed source key: Q18 = B. The wording, option order and key are preserved exactly. Q18 preserves the source's singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q18 = B. The wording, option order and key are preserved exactly. Q18 preserves the source's singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -1346,7 +1346,7 @@ src_f65b3872022ca0b42a79
 Recognise host-to-host parasite transmission as the defining role of a vector.
 
 ## source_citation
-Absalam101 Part 1, p6 Q19, printed key p9 (19 = B); MUST FHB102-2 Introduction to Medical Parasitology, p12.
+Absalam101 Part 1, p6 Introduction Q19, printed key p9 (19 = B); MUST FHB102-2 Introduction to Medical Parasitology, p12.
 
 ## attached_image
 
@@ -1364,7 +1364,7 @@ Absalam101 Part 1, p6 Q19, printed key p9 (19 = B); MUST FHB102-2 Introduction t
 yes
 
 ## author_notes
-Printed source key: Q19 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q19 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -1498,7 +1498,7 @@ src_f65b3872022ca0b42a79
 Recognise clinical diagnosis as the purpose of habitat-based parasite classification in the local curriculum.
 
 ## source_citation
-Absalam101 Part 1, p6 Q21, printed key p9 (21 = C); MUST FHB102-2 Introduction to Medical Parasitology, p32.
+Absalam101 Part 1, p6 Introduction Q21, printed key p9 (21 = C); MUST FHB102-2 Introduction to Medical Parasitology, p32.
 
 ## attached_image
 
@@ -1516,7 +1516,7 @@ Absalam101 Part 1, p6 Q21, printed key p9 (21 = C); MUST FHB102-2 Introduction t
 yes
 
 ## author_notes
-Printed source key: Q21 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q21 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -1650,7 +1650,7 @@ src_f65b3872022ca0b42a79
 Recognise animal origin as the defining source relationship of zoonotic parasitic disease.
 
 ## source_citation
-Absalam101 Part 1, p6 Q22, printed key p9 (22 = B); MUST FHB102-2 Introduction to Medical Parasitology, p15.
+Absalam101 Part 1, p6 Introduction Q22, printed key p9 (22 = B); MUST FHB102-2 Introduction to Medical Parasitology, p15.
 
 ## attached_image
 
@@ -1668,7 +1668,7 @@ Absalam101 Part 1, p6 Q22, printed key p9 (22 = B); MUST FHB102-2 Introduction t
 yes
 
 ## author_notes
-Printed source key: Q22 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q22 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -1802,7 +1802,7 @@ src_f65b3872022ca0b42a79
 Recognise laboratory identification as the purpose of taxonomy-based parasite classification in the local curriculum.
 
 ## source_citation
-Absalam101 Part 1, p7 Q23, printed key p9 (23 = A); MUST FHB102-2 Introduction to Medical Parasitology, p32.
+Absalam101 Part 1, p7 Introduction Q23, printed key p9 (23 = A); MUST FHB102-2 Introduction to Medical Parasitology, p32.
 
 ## attached_image
 
@@ -1820,7 +1820,7 @@ Absalam101 Part 1, p7 Q23, printed key p9 (23 = A); MUST FHB102-2 Introduction t
 yes
 
 ## author_notes
-Printed source key: Q23 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q23 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -1954,7 +1954,7 @@ src_f65b3872022ca0b42a79
 Identify ingestion, skin penetration and vectors as routes by which parasites enter hosts.
 
 ## source_citation
-Absalam101 Part 1, p7 Q24, printed key p9 (24 = D); MUST FHB102-2 Introduction to Medical Parasitology, p21–22.
+Absalam101 Part 1, p7 Introduction Q24, printed key p9 (24 = D); MUST FHB102-2 Introduction to Medical Parasitology, p21–22.
 
 ## attached_image
 
@@ -1972,7 +1972,7 @@ Absalam101 Part 1, p7 Q24, printed key p9 (24 = D); MUST FHB102-2 Introduction t
 yes
 
 ## author_notes
-Printed source key: Q24 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q24 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -2106,7 +2106,7 @@ src_f65b3872022ca0b42a79
 Identify complete host dependence as the defining feature of an obligatory parasite.
 
 ## source_citation
-Absalam101 Part 1, p7 Q25, printed key p9 (25 = A); MUST FHB102-2 Introduction to Medical Parasitology, p7.
+Absalam101 Part 1, p7 Introduction Q25, printed key p9 (25 = A); MUST FHB102-2 Introduction to Medical Parasitology, p7.
 
 ## attached_image
 
@@ -2124,7 +2124,7 @@ Absalam101 Part 1, p7 Q25, printed key p9 (25 = A); MUST FHB102-2 Introduction t
 yes
 
 ## author_notes
-Printed source key: Q25 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+Printed source key: Introduction Q25 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4557,3 +4557,3195 @@ yes
 
 ## author_notes
 Printed source key: Arthropoda Q28 (global Q58) = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q01
+
+## title
+Which class do mosquitoes belong to?
+
+## question
+Which class do mosquitoes belong to?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Arachnida
+
+## explanation_a
+Incorrect. Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order. The supported answer is B, Insecta.
+
+## answer_b
+Insecta
+
+## explanation_b
+Mosquitoes belong to class Insecta and order Diptera. The governed university slide directly supports Insecta for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Crustacea
+
+## explanation_c
+Incorrect. Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order. The supported answer is B, Insecta.
+
+## answer_d
+Siphonaptera
+
+## explanation_d
+Incorrect. Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order. The supported answer is B, Insecta.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-4EEE8525216319
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito taxonomy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Insecta as the class containing mosquitoes.
+
+## source_citation
+Absalam101 Part 2, p1 Mosquitoes Q1, printed key p9 (1 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p3–4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q1 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q02
+
+## title
+Which order do mosquitoes belong to?
+
+## question
+Which order do mosquitoes belong to?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Hemiptera
+
+## explanation_a
+Incorrect. Hemiptera contains bugs, Siphonaptera contains fleas and Anoplura contains lice in the governed classification. The supported answer is C, Diptera.
+
+## answer_b
+Siphonaptera
+
+## explanation_b
+Incorrect. Hemiptera contains bugs, Siphonaptera contains fleas and Anoplura contains lice in the governed classification. The supported answer is C, Diptera.
+
+## answer_c
+Diptera
+
+## explanation_c
+Mosquitoes belong to class Insecta and order Diptera. The governed university slide directly supports Diptera for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Anoplura
+
+## explanation_d
+Incorrect. Hemiptera contains bugs, Siphonaptera contains fleas and Anoplura contains lice in the governed classification. The supported answer is C, Diptera.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-4EEE8525216319
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito taxonomy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Diptera as the order containing mosquitoes.
+
+## source_citation
+Absalam101 Part 2, p1 Mosquitoes Q2, printed key p9 (2 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p3–4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q2 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q03
+
+## title
+What type of metamorphosis do mosquitoes undergo?
+
+## question
+What type of metamorphosis do mosquitoes undergo?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Incomplete
+
+## explanation_a
+Incorrect. Mosquitoes are not presented as having incomplete, partial or absent metamorphosis. The supported answer is B, Complete.
+
+## answer_b
+Complete
+
+## explanation_b
+Mosquitoes undergo complete metamorphosis. The governed university slide directly supports Complete for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Partial
+
+## explanation_c
+Incorrect. Mosquitoes are not presented as having incomplete, partial or absent metamorphosis. The supported answer is B, Complete.
+
+## answer_d
+None
+
+## explanation_d
+Incorrect. Mosquitoes are not presented as having incomplete, partial or absent metamorphosis. The supported answer is B, Complete.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-FABEF04D8E14A7
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify complete metamorphosis as the mosquito developmental pattern.
+
+## source_citation
+Absalam101 Part 2, p1–2 Mosquitoes Q3, printed key p9 (3 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q3 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q04
+
+## title
+Which of the following is an aquatic stage of the mosquito lifecycle?
+
+## question
+Which of the following is an aquatic stage of the mosquito lifecycle?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Larvae
+
+## explanation_a
+Incorrect. All three listed immature stages are aquatic, so selecting only one omits other directly taught aquatic stages. The supported answer is D, All of the above.
+
+## answer_b
+Pupae
+
+## explanation_b
+Incorrect. All three listed immature stages are aquatic, so selecting only one omits other directly taught aquatic stages. The supported answer is D, All of the above.
+
+## answer_c
+Eggs
+
+## explanation_c
+Incorrect. All three listed immature stages are aquatic, so selecting only one omits other directly taught aquatic stages. The supported answer is D, All of the above.
+
+## answer_d
+All of the above
+
+## explanation_d
+Mosquito eggs, larvae and pupae are aquatic immature stages. The governed university slide directly supports All of the above for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-1FB0421D44FF97
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Recognise eggs, larvae and pupae as aquatic mosquito stages.
+
+## source_citation
+Absalam101 Part 2, p2 Mosquitoes Q4, printed key p9 (4 = D); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p8, 11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q4 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q06
+
+## title
+Which mosquito species rests at a 45-degree angle to the surface?
+
+## question
+Which mosquito species rests at a 45-degree angle to the surface?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Culex
+
+## explanation_a
+Incorrect. Culex and Aedes rest parallel to the surface in the governed comparison. The supported answer is C, Anopheles.
+
+## answer_b
+Aedes
+
+## explanation_b
+Incorrect. Culex and Aedes rest parallel to the surface in the governed comparison. The supported answer is C, Anopheles.
+
+## answer_c
+Anopheles
+
+## explanation_c
+Adult Anopheles rests at a 45-degree angle to the surface. The governed university slide directly supports Anopheles for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Culex and Aedes rest parallel to the surface in the governed comparison. The supported answer is C, Anopheles.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-449076BA8EA921
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito morphology
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Anopheles from its 45-degree resting position.
+
+## source_citation
+Absalam101 Part 2, p2 Mosquitoes Q6, printed key p9 (6 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q6 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q07
+
+## title
+Female mosquitos are:
+
+## question
+Female mosquitos are:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Temporary obligatory ectoparasites
+
+## explanation_a
+Female mosquitoes are temporary obligatory ectoparasites. The governed university slide directly supports Temporary obligatory ectoparasites for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Permanent obligatory endoparasites
+
+## explanation_b
+Incorrect. They are not permanent, endoparasitic or facultative in the governed classification. The supported answer is A, Temporary obligatory ectoparasites.
+
+## answer_c
+Temporary facultative ectoparasites
+
+## explanation_c
+Incorrect. They are not permanent, endoparasitic or facultative in the governed classification. The supported answer is A, Temporary obligatory ectoparasites.
+
+## answer_d
+Permanent facultative endoparasites
+
+## explanation_d
+Incorrect. They are not permanent, endoparasitic or facultative in the governed classification. The supported answer is A, Temporary obligatory ectoparasites.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-CD80FDDAADB0C0
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Classify female mosquitoes by duration, dependence and host location.
+
+## source_citation
+Absalam101 Part 2, p3 Mosquitoes Q7, printed key p9 (7 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q7 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q08
+
+## title
+Which mosquito species produces an annoying hum while flying?
+
+## question
+Which mosquito species produces an annoying hum while flying?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Anopheles
+
+## explanation_a
+Incorrect. The governed contrast assigns the silent approach to Anopheles, not the annoying hum. The supported answer is B, Culex.
+
+## answer_b
+Culex
+
+## explanation_b
+Culex produces an annoying hum, whereas Anopheles approaches silently. The governed university slide directly supports Culex for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Aedes
+
+## explanation_c
+Incorrect. The governed contrast assigns the silent approach to Anopheles, not the annoying hum. The supported answer is B, Culex.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. The governed contrast assigns the silent approach to Anopheles, not the annoying hum. The supported answer is B, Culex.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-3D4CC9A1238C61
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Culex from the annoying flight hum.
+
+## source_citation
+Absalam101 Part 2, p3 Mosquitoes Q8, printed key p9 (8 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q8 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q09
+
+## title
+Which of the following mosquito stage(s) is(are) non-feeding?
+
+## question
+Which of the following mosquito stage(s) is(are) non-feeding?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Larve
+
+## explanation_a
+Incorrect. The source typo “Larve” is preserved; larva is feeding and the governed answer is Pupae. The supported answer is B, Pupae.
+
+## answer_b
+Pupae
+
+## explanation_b
+The mosquito pupa is the non-feeding stage, while the larva feeds. The governed university slide directly supports Pupae for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Adult
+
+## explanation_c
+Incorrect. The source typo “Larve” is preserved; larva is feeding and the governed answer is Pupae. The supported answer is B, Pupae.
+
+## answer_d
+A & C
+
+## explanation_d
+Incorrect. The source typo “Larve” is preserved; larva is feeding and the governed answer is Pupae. The supported answer is B, Pupae.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-17EA50AF2F923C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify the mosquito pupa as the non-feeding stage.
+
+## source_citation
+Absalam101 Part 2, p3 Mosquitoes Q9, printed key p9 (9 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q9 = B. The wording, option order and key are preserved exactly. The source option “Larve” is retained exactly and disclosed rather than silently repaired. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q10
+
+## title
+What stimulates ovulation in female mosquitoes?
+
+## question
+What stimulates ovulation in female mosquitoes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Presence of water
+
+## explanation_a
+Incorrect. Water, sunlight and mating are not the stimulus named by the governed teaching statement. The supported answer is C, Blood meal.
+
+## answer_b
+Exposure to sunlight
+
+## explanation_b
+Incorrect. Water, sunlight and mating are not the stimulus named by the governed teaching statement. The supported answer is C, Blood meal.
+
+## answer_c
+Blood meal
+
+## explanation_c
+A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes. The governed university slide directly supports Blood meal for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Mating
+
+## explanation_d
+Incorrect. Water, sunlight and mating are not the stimulus named by the governed teaching statement. The supported answer is C, Blood meal.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D40D6E6C25F7C4
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify a blood meal as the ovulation stimulus in female mosquitoes.
+
+## source_citation
+Absalam101 Part 2, p3 Mosquitoes Q10, printed key p9 (10 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q10 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q15
+
+## title
+Which mosquito-borne disease is associated with congenital microcephaly?
+
+## question
+Which mosquito-borne disease is associated with congenital microcephaly?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Malaria
+
+## explanation_a
+Incorrect. The governed association is Zika, not malaria, yellow fever or Rift Valley fever. The supported answer is B, Zika virus.
+
+## answer_b
+Zika virus
+
+## explanation_b
+Zika virus infection during pregnancy is associated with congenital microcephaly. The governed university slide directly supports Zika virus for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Yellow fever
+
+## explanation_c
+Incorrect. The governed association is Zika, not malaria, yellow fever or Rift Valley fever. The supported answer is B, Zika virus.
+
+## answer_d
+Rift Valley fever
+
+## explanation_d
+Incorrect. The governed association is Zika, not malaria, yellow fever or Rift Valley fever. The supported answer is B, Zika virus.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-C78116FCC3B754
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Aedes-borne disease
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Zika virus as the mosquito-borne infection associated with congenital microcephaly.
+
+## source_citation
+Absalam101 Part 2, p5 Mosquitoes Q15, printed key p9 (15 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p19, 24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q15 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q17
+
+## title
+Which of the following is the most surface feeder?
+
+## question
+Which of the following is the most surface feeder?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Aedes
+
+## explanation_a
+Incorrect. The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon. The supported answer is B, Anopheles.
+
+## answer_b
+Anopheles
+
+## explanation_b
+Anopheles larvae are more surface-feeding because they lack a siphon. The governed university slide directly supports Anopheles for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Culex
+
+## explanation_c
+Incorrect. The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon. The supported answer is B, Anopheles.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon. The supported answer is B, Anopheles.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-84CF3B2FCF546F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito larvae
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Anopheles as the most surface-feeding offered mosquito larva.
+
+## source_citation
+Absalam101 Part 2, p5 Mosquitoes Q17, printed key p9 (17 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q17 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q18
+
+## title
+What type of transmission does Culex use for filariasis?
+
+## question
+What type of transmission does Culex use for filariasis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Propagative
+
+## explanation_a
+Incorrect. Wuchereria develops without the multiplication pattern that defines cyclopropagative transmission. The supported answer is C, Cyclo-developmental.
+
+## answer_b
+Cyclo-propagative
+
+## explanation_b
+Incorrect. Wuchereria develops without the multiplication pattern that defines cyclopropagative transmission. The supported answer is C, Cyclo-developmental.
+
+## answer_c
+Cyclo-developmental
+
+## explanation_c
+Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission. The governed university slide directly supports Cyclo-developmental for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Wuchereria develops without the multiplication pattern that defines cyclopropagative transmission. The supported answer is C, Cyclo-developmental.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-476CFE4CB1DE34
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Culex-borne filariasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify cyclodevelopmental transmission for Culex-borne filariasis.
+
+## source_citation
+Absalam101 Part 2, p5–6 Mosquitoes Q18, printed key p9 (18 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p27–28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q18 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q19
+
+## title
+What is the primary attractant for mosquitoes?
+
+## question
+What is the primary attractant for mosquitoes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Dark clothes
+
+## explanation_a
+Incorrect. Both A and B are directly supported, so selecting only one makes the response incomplete. The supported answer is D, A & B.
+
+## answer_b
+Bright light
+
+## explanation_b
+Incorrect. Both A and B are directly supported, so selecting only one makes the response incomplete. The supported answer is D, A & B.
+
+## answer_c
+Sweet smells
+
+## explanation_c
+Incorrect. Both A and B are directly supported, so selecting only one makes the response incomplete. The supported answer is D, A & B.
+
+## answer_d
+A & B
+
+## explanation_d
+Mosquitoes are attracted by bright light and dark clothes. The governed university slide directly supports A & B for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-38226C7CAC7BE1
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Select the combined bright-light and dark-clothes option.
+
+## source_citation
+Absalam101 Part 2, p6 Mosquitoes Q19, printed key p9 (19 = D); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q19 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q21
+
+## title
+Which of the following is a biological control method for mosquitoes?
+
+## question
+Which of the following is a biological control method for mosquitoes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Using Gambusia fish
+
+## explanation_a
+Using Gambusia fish is a biological mosquito-control method. The governed university slide directly supports Using Gambusia fish for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Spraying insecticides
+
+## explanation_b
+Incorrect. Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection. The supported answer is A, Using Gambusia fish.
+
+## answer_c
+Removing breeding sites
+
+## explanation_c
+Incorrect. Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection. The supported answer is A, Using Gambusia fish.
+
+## answer_d
+Using mosquito nets
+
+## explanation_d
+Incorrect. Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection. The supported answer is A, Using Gambusia fish.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-863856AB7138F8
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Biological mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Gambusia fish as biological mosquito control.
+
+## source_citation
+Absalam101 Part 2, p6 Mosquitoes Q21, printed key p9 (21 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p38.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q21 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q22
+
+## title
+Which bacteria is used in biological mosquito control?
+
+## question
+Which bacteria is used in biological mosquito control?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Bacillus thuringiensis
+
+## explanation_a
+Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae. The governed university slide directly supports Bacillus thuringiensis for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Clostridium botulinum
+
+## explanation_b
+Incorrect. The other offered bacteria are not listed as biological mosquito-control agents. The supported answer is A, Bacillus thuringiensis.
+
+## answer_c
+Escherichia coli
+
+## explanation_c
+Incorrect. The other offered bacteria are not listed as biological mosquito-control agents. The supported answer is A, Bacillus thuringiensis.
+
+## answer_d
+Mycobacterium tuberculosis
+
+## explanation_d
+Incorrect. The other offered bacteria are not listed as biological mosquito-control agents. The supported answer is A, Bacillus thuringiensis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-BDA58A5572D741
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Biological mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Bacillus thuringiensis as the bacterial biological-control agent.
+
+## source_citation
+Absalam101 Part 2, p6–7 Mosquitoes Q22, printed key p9 (22 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p38.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q22 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q23
+
+## title
+Which of the following is a chemical control method?
+
+## question
+Which of the following is a chemical control method?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Using mosquito nets
+
+## explanation_a
+Incorrect. Nets are mechanical, dragonflies are biological and stagnant-water removal is physical control. The supported answer is B, Spraying DDT.
+
+## answer_b
+Spraying DDT
+
+## explanation_b
+Spraying DDT is a chemical mosquito-control method. The governed university slide directly supports Spraying DDT for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Introducing dragonflies
+
+## explanation_c
+Incorrect. Nets are mechanical, dragonflies are biological and stagnant-water removal is physical control. The supported answer is B, Spraying DDT.
+
+## answer_d
+Removing stagnant water
+
+## explanation_d
+Incorrect. Nets are mechanical, dragonflies are biological and stagnant-water removal is physical control. The supported answer is B, Spraying DDT.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-65E5061E3821D1
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify DDT spraying as chemical mosquito control.
+
+## source_citation
+Absalam101 Part 2, p7 Mosquitoes Q23, printed key p9 (23 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p40, 43.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q23 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q24
+
+## title
+Why has the use of DDT been discouraged?
+
+## question
+Why has the use of DDT been discouraged?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+High cost
+
+## explanation_a
+Incorrect. The governed concern is not high cost, ineffectiveness or a short-lasting effect. The supported answer is B, Environmental persistence and toxicity.
+
+## answer_b
+Environmental persistence and toxicity
+
+## explanation_b
+DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals. The governed university slide directly supports Environmental persistence and toxicity for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Ineffectiveness against mosquitoes
+
+## explanation_c
+Incorrect. The governed concern is not high cost, ineffectiveness or a short-lasting effect. The supported answer is B, Environmental persistence and toxicity.
+
+## answer_d
+Short-lasting effect
+
+## explanation_d
+Incorrect. The governed concern is not high cost, ineffectiveness or a short-lasting effect. The supported answer is B, Environmental persistence and toxicity.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F255517C50045A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify environmental persistence and toxicity as the reason DDT use is discouraged.
+
+## source_citation
+Absalam101 Part 2, p7 Mosquitoes Q24, printed key p9 (24 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p39–40.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q24 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q26
+
+## title
+Which mosquito control method involves draining swamps?
+
+## question
+Which mosquito control method involves draining swamps?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Chemical
+
+## explanation_a
+Incorrect. Drainage does not use a chemical, biological enemy or genetic method. The supported answer is B, Physical.
+
+## answer_b
+Physical
+
+## explanation_b
+Draining or filling swampy breeding sites is physical mosquito control. The governed university slide directly supports Physical for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Biological
+
+## explanation_c
+Incorrect. Drainage does not use a chemical, biological enemy or genetic method. The supported answer is B, Physical.
+
+## answer_d
+Genetic
+
+## explanation_d
+Incorrect. Drainage does not use a chemical, biological enemy or genetic method. The supported answer is B, Physical.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-526EC45FD5407A
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Physical mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Classify swamp drainage as physical mosquito control.
+
+## source_citation
+Absalam101 Part 2, p8 Mosquitoes Q26, printed key p9 (26 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p37.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q26 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q27
+
+## title
+Which of the following is an example of a residual insecticide?
+
+## question
+Which of the following is an example of a residual insecticide?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Pyrethrum
+
+## explanation_a
+Incorrect. Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents. The supported answer is B, Malathion.
+
+## answer_b
+Malathion
+
+## explanation_b
+Malathion is listed as a residual organophosphorus mosquito insecticide. The governed university slide directly supports Malathion for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Citronella oil
+
+## explanation_c
+Incorrect. Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents. The supported answer is B, Malathion.
+
+## answer_d
+Eucalyptus oil
+
+## explanation_d
+Incorrect. Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents. The supported answer is B, Malathion.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-2C5809D3326AEE
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Malathion as the residual insecticide in the offered set.
+
+## source_citation
+Absalam101 Part 2, p8 Mosquitoes Q27, printed key p9 (27 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p43.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q27 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q28
+
+## title
+Which of the following is an example of mechanical mosquito control?
+
+## question
+Which of the following is an example of mechanical mosquito control?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Spraying insecticides
+
+## explanation_a
+Incorrect. Spraying is chemical, while fish and Bacillus thuringiensis are biological controls. The supported answer is C, Installing window screens.
+
+## answer_b
+Using fish to eat larvae
+
+## explanation_b
+Incorrect. Spraying is chemical, while fish and Bacillus thuringiensis are biological controls. The supported answer is C, Installing window screens.
+
+## answer_c
+Installing window screens
+
+## explanation_c
+Installing window screens is a mechanical mosquito-control measure. The governed university slide directly supports Installing window screens for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Using Bacillus thuringiensis
+
+## explanation_d
+Incorrect. Spraying is chemical, while fish and Bacillus thuringiensis are biological controls. The supported answer is C, Installing window screens.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-7DD1BECF36B7C0
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mechanical mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify window screens as mechanical mosquito control.
+
+## source_citation
+Absalam101 Part 2, p8 Mosquitoes Q28, printed key p9 (28 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p41.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q28 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q30
+
+## title
+Which of the following is larvicidal only?
+
+## question
+Which of the following is larvicidal only?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_b75f65f2298d0fcbc5f3 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Paris green (stomach poison)
+
+## explanation_a
+Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae. The governed university slide directly supports Paris green (stomach poison) for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Non-volatile oils
+
+## explanation_b
+Incorrect. Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only. The supported answer is A, Paris green (stomach poison).
+
+## answer_c
+Fish
+
+## explanation_c
+Incorrect. Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only. The supported answer is A, Paris green (stomach poison).
+
+## answer_d
+DDT
+
+## explanation_d
+Incorrect. Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only. The supported answer is A, Paris green (stomach poison).
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-DE8BA9EC7D8688
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_b75f65f2298d0fcbc5f3
+
+## learning_objective
+Identify Paris green as the larvicidal-only option.
+
+## source_citation
+Absalam101 Part 2, p9 Mosquitoes Q30, printed key p9 (30 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Mosquitoes, p39.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q30 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

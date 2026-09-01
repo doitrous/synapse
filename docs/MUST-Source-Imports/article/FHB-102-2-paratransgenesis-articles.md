@@ -109,6 +109,7 @@ Do not equate paratransgenesis with sterile-male techniques or with stocking lar
 
 ## hold_these
 Paratransgenesis uses symbiont bacteria to prevent later vector infection and disease transmission.
+Paratransgenesis blocks parasite development in mosquitoes by preventing adult vector infection.
 
 ## lose_the_mark
 Selecting sterile-male genetic control instead of the symbiont-bacteria method.
@@ -119,6 +120,11 @@ Claims: CLM-INF-MUST-FHB1022-PARATRANS-01
 Citations: CIT-INF-MUST-FHB1022-PARATRANS-01
 Reviewed by: pending medical review
 
+### Paratransgenesis blocks parasite development in mosquitoes by preventing adult vector infection.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q29-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-A0D40E9CB0E211
 
@@ -127,22 +133,26 @@ ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE: Cyclopropagative transmission in arthropo
 
 ## question_ids
 QST-MUST-FHB1022-PARA-VECT-Q10
+QST-MUST-FHB1022-PARA-MOSQ2-Q29
 
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
 src_b9989e9ef3c314f6c771
+src_8bd3b772b3b32db59726
 
 ## article_source_ids
 src_b75f65f2298d0fcbc5f3
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-PARATRANS-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-PARATRANS-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q29-01
 
 ## university_notes
-must: Q10 comes from the governed FHB102-2 module-wide MCQ family and is directly corroborated by the university Parasitology Department mosquito-control lecture.
+must: Q10 and Absalam Part 2 Mosquitoes Q29 come from governed FHB102-2 question carriers and are directly corroborated by the university Parasitology Department mosquito-control lecture.
 
 ## annotations
 ### definition_of · CON-INF-A0D40E9CB0E211
@@ -159,13 +169,14 @@ needs_evidence
 ## evidence_basis
 MUST Faculty of Medicine Parasitology Department, FHB102-2 Arthropod Vectors for Disease Transmission mosquito lecture, visually read pp1 and 44.
 Anonymous FHB102-2 MCQ bank, visually read p2 prompt Q10 and p5 printed answer A.
+Absalam101 Part 2, visually read p8 Mosquitoes Q29 and p9 printed answer A.
 
 ## evidence_gaps
 Independent standard-reference review is required before publication.
 Q2, Q3, Q4 and Q6 remain outside this article as explicit key-conflict holds.
 
 ## conflicts
-No key conflict affects authored Q10. The anonymous bank's printed A agrees with the university slide's symbiont-bacteria definition.
+No key conflict affects authored Q10 or Part 2 Mosquitoes Q29. Both printed A answers agree with the university slide's symbiont-bacteria definition and purpose.
 
 ## last_reviewed
 
@@ -174,7 +185,7 @@ No key conflict affects authored Q10. The anonymous bank's printed A agrees with
 
 
 ## notes
-Sixth bounded question-led slice only. Q10 is the sole newly authored question; no held item is represented as a student-facing record, and no record is authorised for upload.
+Exact-ID-safe expansion preserves the full governed Q10 content and adds Part 2 Mosquitoes Q29. No held item is represented as a student-facing record, and no record is authorised for upload.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.

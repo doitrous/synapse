@@ -100,6 +100,12 @@ These definitions organise how parasite behaviour and host susceptibility are de
 ### Common misconceptions
 Do not treat facultative as synonymous with obligatory parasitism. Obligatory does not mean necessarily endoparasitic or dependent on multiple hosts. Do not define opportunistic parasites as organisms that necessarily cause severe disease in every healthy host.
 
+### Exam-linked statements
+A parasite is a living organism that lives in or on another organism and harms it.
+A facultative parasite can alternate between free-living and parasitic modes of life.
+An opportunistic parasite may cause severe disease in an immunocompromised host.
+An obligatory parasite is completely dependent on its host and cannot exist without it.
+
 ## published_summary
 
 
@@ -206,7 +212,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -335,6 +341,12 @@ Scientific taxonomic classification of parasites supports laboratory identificat
 ### Common misconceptions
 Do not force a choice between taxonomy and habitat when an option combines both. Do not substitute intestine, muscle, or skin for the stated blood habitat of malaria parasites.
 
+### Exam-linked statements
+Malaria parasites are blood parasites in the human haemopoietic system.
+Parasites may be classified scientifically by taxonomy or clinically by their habitat in the human host.
+Classification of parasites by their habitat in the human host supports clinical diagnosis.
+Scientific taxonomic classification of parasites supports laboratory identification and diagnosis.
+
 ## published_summary
 
 
@@ -376,8 +388,6 @@ Reviewed by: pending medical review
 
 ## related_concepts
 CON-INF-829EB6EC11CC8F
-CON-INF-D13F9697E5B95F
-CON-INF-D13F9697E5B95F
 CON-INF-D13F9697E5B95F
 
 ## related_articles
@@ -443,7 +453,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -572,6 +582,10 @@ The class-level morphology supplies a rapid recognition framework for medical he
 ### Common misconceptions
 Do not combine nematodes with cestodes or trematodes as the two flatworm groups. Do not call trematodes tape-like and segmented.
 
+### Exam-linked statements
+Trematodes are flat, leaf-like, unsegmented helminths.
+The parasitic flatworms comprise trematodes and cestodes.
+
 ## published_summary
 
 
@@ -646,7 +660,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -775,6 +789,9 @@ Locomotion supplies a foundational classification framework for recognising the 
 ### Common misconceptions
 The source question uses singular “an organism” although Apicomplexa is a group; that wording is preserved rather than silently repaired. Do not substitute flagella, cilia or pseudopodia for the slide’s gliding classification.
 
+### Exam-linked statements
+The local curriculum classifies Apicomplexa as moving by gliding.
+
 ## published_summary
 
 
@@ -833,7 +850,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -962,6 +979,11 @@ Recognising source and entry route supports introductory reasoning about exposur
 ### Common misconceptions
 Vectors are not defined by nourishing parasites or always serving as reservoirs. Zoonoses are not restricted to protozoa or vector-only spread. Do not exclude one of the three directly taught entry routes.
 
+### Exam-linked statements
+A vector transmits parasites from one host to another.
+Zoonotic parasitic diseases originate from animal sources and are transmitted to humans.
+Parasites can enter hosts through ingestion, skin penetration and vector transmission.
+
 ## published_summary
 
 
@@ -1052,7 +1074,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -1181,6 +1203,10 @@ Class-level morphology provides the first recognition step when separating medic
 ### Common misconceptions
 Do not assign the four-pair arachnid pattern to insects or the three-pair insect pattern to arachnids.
 
+### Exam-linked statements
+Insects typically have three pairs of legs.
+Arachnids have four pairs of legs.
+
 ## published_summary
 
 
@@ -1207,7 +1233,6 @@ Citations: CIT-INF-MUST-FHB1022-INTRO-Q32-01
 Reviewed by: pending medical review
 
 ## related_concepts
-CON-INF-A4C8D2136F90B7
 CON-INF-A4C8D2136F90B7
 
 ## related_articles
@@ -1254,7 +1279,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -1383,6 +1408,9 @@ Metamorphosis terminology supports classification of medically important arthrop
 ### Common misconceptions
 Do not treat holometabolous and hemimetabolous as interchangeable or select both for a prompt asking specifically about complete metamorphosis.
 
+### Exam-linked statements
+Complete metamorphosis is called holometabolous metamorphosis.
+
 ## published_summary
 
 
@@ -1441,7 +1469,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -1570,6 +1598,9 @@ Recognising vertical vector transmission separates pathogen persistence across a
 ### Common misconceptions
 Do not substitute propagative, cyclodevelopmental or cyclopropagative transmission when the prompt specifically asks about passage to offspring.
 
+### Exam-linked statements
+Transovarian transmission passes a pathogen from an arthropod to its offspring.
+
 ## published_summary
 
 
@@ -1627,7 +1658,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -1756,6 +1787,10 @@ These features separate adult stable flies and housefly larvae from alternative 
 ### Common misconceptions
 Do not apply the rounded incomplete-peritreme Sarcophaga pattern or a triangular complete-peritreme pattern to Musca. Stomoxys is winged and blood-feeding.
 
+### Exam-linked statements
+Stomoxys calcitrans has a piercing and sucking proboscis.
+Musca domestica larva has a D-shaped posterior spiracle with a medial button and three M-shaped sinuous slits.
+
 ## published_summary
 
 
@@ -1829,7 +1864,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -1958,6 +1993,10 @@ Recognising the causative genera and the phoretic transfer mechanism helps conne
 ### Common misconceptions
 Do not restrict cutaneous myiasis to only one of the three governed genera. Do not rewrite phoresis as ingestion, water deposition or direct Dermatobia egg deposition on skin.
 
+### Exam-linked statements
+Cordylobia, Dermatobia and Hypoderma can each cause cutaneous myiasis.
+Dermatobia hominis uses another insect to carry and deliver its eggs.
+
 ## published_summary
 
 
@@ -2031,7 +2070,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -2160,6 +2199,10 @@ Site and fly association together organise recognition of myiasis presentations 
 ### Common misconceptions
 Do not substitute a manifestation-only definition for an organism association. Do not infer that a fly listed at one site can never occur elsewhere.
 
+### Exam-linked statements
+Fannia is associated with urogenital myiasis.
+Sarcophaga is associated with aural myiasis in the local curriculum.
+
 ## published_summary
 
 
@@ -2235,7 +2278,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -2364,6 +2407,10 @@ The time relationship between flies and decomposing remains can contribute evide
 ### Common misconceptions
 The source stem calls Lucilia and Sarcophaga “species,” although both offered names are genera; that wording is preserved and disclosed rather than silently corrected. Do not conflate fly-based interval estimation with rigor-mortis estimation, blood toxicology or infection diagnosis.
 
+### Exam-linked statements
+Lucilia and Sarcophaga are used in forensic parasitology and entomology.
+Forensic entomology can estimate the post-mortem interval from fly evidence.
+
 ## published_summary
 
 
@@ -2438,7 +2485,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -2567,6 +2614,10 @@ The paired teaching distinguishes controlled therapeutic larval use from acciden
 ### Common misconceptions
 Do not silently rewrite the source's “Diabetes foot ulcers” wording. Keeping flies, increasing humidity and avoiding antibiotics are not substitutes for cleaning and protecting a wound.
 
+### Exam-linked statements
+Maggot debridement therapy is used to treat diabetic foot ulcers.
+Proper wound hygiene and covering a clean wound help prevent myiasis.
+
 ## published_summary
 
 
@@ -2641,7 +2692,881 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## title
+Mosquito taxonomy, morphology, life cycle and bionomics
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Mosquito biology
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito biology
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito biology
+
+## summary
+Mosquitoes are dipteran insects with complete metamorphosis. Their aquatic immature stages, adult morphology, female parasitic habit and characteristic bionomics support genus and stage recognition.
+
+## sections
+### Definition
+Mosquitoes belong to class Insecta and order Diptera and undergo complete metamorphosis. Eggs, larvae and pupae are aquatic immature stages.
+
+### Mechanism
+The female piercing-sucking proboscis supports temporary obligatory ectoparasitism. Anopheles rests at 45 degrees and its larvae remain closest to the surface because they lack a siphon. Culex produces an annoying hum. Pupae do not feed, a blood meal stimulates ovulation, and bright light plus dark clothes attract mosquitoes.
+
+### Key determinants
+Insecta and Diptera define taxonomy; 45-degree resting identifies Anopheles; an annoying hum identifies Culex; non-feeding identifies the pupa.
+
+### Clinical significance
+These recognition features organise the mosquito life cycle and help distinguish medically important genera before disease-vector associations are applied.
+
+### Common misconceptions
+Do not treat Culex or Aedes as the 45-degree resting genus. Do not classify pupae as feeding larvae or omit eggs and pupae from the aquatic boundary.
+
+### Exam-linked statements
+Mosquitoes belong to class Insecta and order Diptera.
+Mosquitoes undergo complete metamorphosis.
+Mosquito eggs, larvae and pupae are aquatic immature stages.
+Adult Anopheles rests at a 45-degree angle to the surface.
+Female mosquitoes are temporary obligatory ectoparasites.
+Culex produces an annoying hum, whereas Anopheles approaches silently.
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+Anopheles larvae are more surface-feeding because they lack a siphon.
+Mosquitoes are attracted by bright light and dark clothes.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Mosquitoes belong to class Insecta and order Diptera.
+Mosquitoes belong to class Insecta and order Diptera.
+Mosquitoes undergo complete metamorphosis.
+Mosquito eggs, larvae and pupae are aquatic immature stages.
+Adult Anopheles rests at a 45-degree angle to the surface.
+Female mosquitoes are temporary obligatory ectoparasites.
+Culex produces an annoying hum, whereas Anopheles approaches silently.
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+Anopheles larvae are more surface-feeding because they lack a siphon.
+Mosquitoes are attracted by bright light and dark clothes.
+
+## lose_the_mark
+Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order.
+Hemiptera contains bugs, Siphonaptera contains fleas and Anoplura contains lice in the governed classification.
+Mosquitoes are not presented as having incomplete, partial or absent metamorphosis.
+All three listed immature stages are aquatic, so selecting only one omits other directly taught aquatic stages.
+Culex and Aedes rest parallel to the surface in the governed comparison.
+They are not permanent, endoparasitic or facultative in the governed classification.
+The governed contrast assigns the silent approach to Anopheles, not the annoying hum.
+The source typo “Larve” is preserved; larva is feeding and the governed answer is Pupae.
+Water, sunlight and mating are not the stimulus named by the governed teaching statement.
+The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon.
+Both A and B are directly supported, so selecting only one makes the response incomplete.
+
+## callout_evidence
+### Mosquitoes belong to class Insecta and order Diptera.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q01-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q01-01
+Reviewed by: pending medical review
+
+### Mosquitoes belong to class Insecta and order Diptera.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q02-01
+Reviewed by: pending medical review
+
+### Mosquitoes undergo complete metamorphosis.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q03-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q03-01
+Reviewed by: pending medical review
+
+### Mosquito eggs, larvae and pupae are aquatic immature stages.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q04-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q04-01
+Reviewed by: pending medical review
+
+### Adult Anopheles rests at a 45-degree angle to the surface.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q06-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q06-01
+Reviewed by: pending medical review
+
+### Female mosquitoes are temporary obligatory ectoparasites.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q07-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q07-01
+Reviewed by: pending medical review
+
+### Culex produces an annoying hum, whereas Anopheles approaches silently.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q08-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q08-01
+Reviewed by: pending medical review
+
+### The mosquito pupa is the non-feeding stage, while the larva feeds.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q09-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q09-01
+Reviewed by: pending medical review
+
+### A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q10-01
+Reviewed by: pending medical review
+
+### Anopheles larvae are more surface-feeding because they lack a siphon.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q17-01
+Reviewed by: pending medical review
+
+### Mosquitoes are attracted by bright light and dark clothes.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q19-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-4EEE8525216319
+CON-INF-FABEF04D8E14A7
+CON-INF-1FB0421D44FF97
+CON-INF-449076BA8EA921
+CON-INF-CD80FDDAADB0C0
+CON-INF-3D4CC9A1238C61
+CON-INF-17EA50AF2F923C
+CON-INF-D40D6E6C25F7C4
+CON-INF-84CF3B2FCF546F
+CON-INF-38226C7CAC7BE1
+
+## related_articles
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES: Mosquito-borne disease and transmission patterns
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL: Integrated mosquito control methods
+
+## question_ids
+QST-MUST-FHB1022-PARA-MOSQ2-Q01
+QST-MUST-FHB1022-PARA-MOSQ2-Q02
+QST-MUST-FHB1022-PARA-MOSQ2-Q03
+QST-MUST-FHB1022-PARA-MOSQ2-Q04
+QST-MUST-FHB1022-PARA-MOSQ2-Q06
+QST-MUST-FHB1022-PARA-MOSQ2-Q07
+QST-MUST-FHB1022-PARA-MOSQ2-Q08
+QST-MUST-FHB1022-PARA-MOSQ2-Q09
+QST-MUST-FHB1022-PARA-MOSQ2-Q10
+QST-MUST-FHB1022-PARA-MOSQ2-Q17
+QST-MUST-FHB1022-PARA-MOSQ2-Q19
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_b75f65f2298d0fcbc5f3
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q01-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q03-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q04-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q06-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q07-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q08-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q09-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MOSQ2-Q01-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q02-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q03-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q04-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q06-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q07-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q08-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q09-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q10-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q17-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-4EEE8525216319
+Quote: Mosquitoes belong to class Insecta and order Diptera.
+Block: body
+Id: ann-must-fhb1022-mosq2-q01
+
+### definition_of · CON-INF-4EEE8525216319
+Quote: Mosquitoes belong to class Insecta and order Diptera.
+Block: body
+Id: ann-must-fhb1022-mosq2-q02
+
+### definition_of · CON-INF-FABEF04D8E14A7
+Quote: Mosquitoes undergo complete metamorphosis.
+Block: body
+Id: ann-must-fhb1022-mosq2-q03
+
+### definition_of · CON-INF-1FB0421D44FF97
+Quote: Mosquito eggs, larvae and pupae are aquatic immature stages.
+Block: body
+Id: ann-must-fhb1022-mosq2-q04
+
+### definition_of · CON-INF-449076BA8EA921
+Quote: Adult Anopheles rests at a 45-degree angle to the surface.
+Block: body
+Id: ann-must-fhb1022-mosq2-q06
+
+### definition_of · CON-INF-CD80FDDAADB0C0
+Quote: Female mosquitoes are temporary obligatory ectoparasites.
+Block: body
+Id: ann-must-fhb1022-mosq2-q07
+
+### definition_of · CON-INF-3D4CC9A1238C61
+Quote: Culex produces an annoying hum, whereas Anopheles approaches silently.
+Block: body
+Id: ann-must-fhb1022-mosq2-q08
+
+### definition_of · CON-INF-17EA50AF2F923C
+Quote: The mosquito pupa is the non-feeding stage, while the larva feeds.
+Block: body
+Id: ann-must-fhb1022-mosq2-q09
+
+### definition_of · CON-INF-D40D6E6C25F7C4
+Quote: A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+Block: body
+Id: ann-must-fhb1022-mosq2-q10
+
+### definition_of · CON-INF-84CF3B2FCF546F
+Quote: Anopheles larvae are more surface-feeding because they lack a siphon.
+Block: body
+Id: ann-must-fhb1022-mosq2-q17
+
+### definition_of · CON-INF-38226C7CAC7BE1
+Quote: Mosquitoes are attracted by bright light and dark clothes.
+Block: body
+Id: ann-must-fhb1022-mosq2-q19
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## title
+Mosquito-borne disease and transmission patterns
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Mosquito-borne disease
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito-borne disease
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito-borne disease
+
+## summary
+The MUST teaching deck links maternal Zika infection to congenital microcephaly and classifies Culex transmission of Wuchereria bancrofti as cyclodevelopmental.
+
+## sections
+### Definition
+Mosquito genera transmit characteristic pathogens through biological transmission patterns. The bounded clean items cover Zika-associated congenital microcephaly and Culex-borne filariasis.
+
+### Mechanism
+Maternal Zika infection during pregnancy is associated with congenital microcephaly. In Culex, Wuchereria bancrofti develops to the infective filariform stage without multiplication, giving cyclodevelopmental transmission.
+
+### Key determinants
+Congenital microcephaly selects Zika virus. Culex filariasis selects cyclodevelopmental transmission.
+
+### Clinical significance
+Pairing disease manifestations with vector biology helps distinguish arboviral pregnancy effects from helminth developmental transmission.
+
+### Common misconceptions
+Do not substitute malaria, yellow fever or Rift Valley fever for the governed Zika association. Do not label Wuchereria transmission propagative or cyclopropagative.
+
+### Exam-linked statements
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+
+## lose_the_mark
+The governed association is Zika, not malaria, yellow fever or Rift Valley fever.
+Wuchereria develops without the multiplication pattern that defines cyclopropagative transmission.
+
+## callout_evidence
+### Zika virus infection during pregnancy is associated with congenital microcephaly.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q15-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q15-01
+Reviewed by: pending medical review
+
+### Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q18-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-C78116FCC3B754
+CON-INF-476CFE4CB1DE34
+
+## related_articles
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY: Mosquito taxonomy, morphology, life cycle and bionomics
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL: Integrated mosquito control methods
+
+## question_ids
+QST-MUST-FHB1022-PARA-MOSQ2-Q15
+QST-MUST-FHB1022-PARA-MOSQ2-Q18
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_b75f65f2298d0fcbc5f3
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q15-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MOSQ2-Q15-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-C78116FCC3B754
+Quote: Zika virus infection during pregnancy is associated with congenital microcephaly.
+Block: body
+Id: ann-must-fhb1022-mosq2-q15
+
+### definition_of · CON-INF-476CFE4CB1DE34
+Quote: Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+Block: body
+Id: ann-must-fhb1022-mosq2-q18
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## title
+Integrated mosquito control methods
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Mosquito control
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito control
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito control
+
+## summary
+Mosquito control combines physical breeding-site management, biological enemies, chemical larvicides and adulticides, mechanical barriers and genetic approaches.
+
+## sections
+### Definition
+Integrated mosquito control targets aquatic stages and adults through physical, biological, chemical, mechanical and genetic methods.
+
+### Mechanism
+Gambusia fish and Bacillus thuringiensis provide biological control. Draining swamps is physical control. DDT and Malathion are chemical residual insecticides, although DDT persistence, accumulation and toxicity discourage its use. Window screens are mechanical control. Paris green is a stomach poison that kills feeding larvae but not non-feeding pupae.
+
+### Key determinants
+Gambusia and Bacillus thuringiensis identify biological control; drainage identifies physical control; DDT and Malathion identify chemical control; window screens identify mechanical control; Paris green identifies larvicidal-only stomach poisoning.
+
+### Clinical significance
+Method classification links mosquito bionomics to practical prevention and supports recognition of stage-specific interventions.
+
+### Common misconceptions
+Do not classify insecticide spraying as mechanical control or fish as chemical control. Pyrethrum is non-residual in the governed comparison, while Malathion is residual.
+
+### Exam-linked statements
+Using Gambusia fish is a biological mosquito-control method.
+Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+Spraying DDT is a chemical mosquito-control method.
+DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+Draining or filling swampy breeding sites is physical mosquito control.
+Malathion is listed as a residual organophosphorus mosquito insecticide.
+Installing window screens is a mechanical mosquito-control measure.
+Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Using Gambusia fish is a biological mosquito-control method.
+Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+Spraying DDT is a chemical mosquito-control method.
+DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+Draining or filling swampy breeding sites is physical mosquito control.
+Malathion is listed as a residual organophosphorus mosquito insecticide.
+Installing window screens is a mechanical mosquito-control measure.
+Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+
+## lose_the_mark
+Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection.
+The other offered bacteria are not listed as biological mosquito-control agents.
+Nets are mechanical, dragonflies are biological and stagnant-water removal is physical control.
+The governed concern is not high cost, ineffectiveness or a short-lasting effect.
+Drainage does not use a chemical, biological enemy or genetic method.
+Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents.
+Spraying is chemical, while fish and Bacillus thuringiensis are biological controls.
+Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only.
+
+## callout_evidence
+### Using Gambusia fish is a biological mosquito-control method.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q21-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q21-01
+Reviewed by: pending medical review
+
+### Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q22-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q22-01
+Reviewed by: pending medical review
+
+### Spraying DDT is a chemical mosquito-control method.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q23-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q23-01
+Reviewed by: pending medical review
+
+### DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q24-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q24-01
+Reviewed by: pending medical review
+
+### Draining or filling swampy breeding sites is physical mosquito control.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q26-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q26-01
+Reviewed by: pending medical review
+
+### Malathion is listed as a residual organophosphorus mosquito insecticide.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q27-01
+Reviewed by: pending medical review
+
+### Installing window screens is a mechanical mosquito-control measure.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q28-01
+Reviewed by: pending medical review
+
+### Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q30-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-863856AB7138F8
+CON-INF-BDA58A5572D741
+CON-INF-65E5061E3821D1
+CON-INF-F255517C50045A
+CON-INF-526EC45FD5407A
+CON-INF-2C5809D3326AEE
+CON-INF-7DD1BECF36B7C0
+CON-INF-DE8BA9EC7D8688
+
+## related_articles
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY: Mosquito taxonomy, morphology, life cycle and bionomics
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES: Mosquito-borne disease and transmission patterns
+
+## question_ids
+QST-MUST-FHB1022-PARA-MOSQ2-Q21
+QST-MUST-FHB1022-PARA-MOSQ2-Q22
+QST-MUST-FHB1022-PARA-MOSQ2-Q23
+QST-MUST-FHB1022-PARA-MOSQ2-Q24
+QST-MUST-FHB1022-PARA-MOSQ2-Q26
+QST-MUST-FHB1022-PARA-MOSQ2-Q27
+QST-MUST-FHB1022-PARA-MOSQ2-Q28
+QST-MUST-FHB1022-PARA-MOSQ2-Q30
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_b75f65f2298d0fcbc5f3
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q21-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q22-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q23-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q24-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q26-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MOSQ2-Q21-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q22-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q23-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q24-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q26-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q27-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q28-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-863856AB7138F8
+Quote: Using Gambusia fish is a biological mosquito-control method.
+Block: body
+Id: ann-must-fhb1022-mosq2-q21
+
+### definition_of · CON-INF-BDA58A5572D741
+Quote: Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+Block: body
+Id: ann-must-fhb1022-mosq2-q22
+
+### definition_of · CON-INF-65E5061E3821D1
+Quote: Spraying DDT is a chemical mosquito-control method.
+Block: body
+Id: ann-must-fhb1022-mosq2-q23
+
+### definition_of · CON-INF-F255517C50045A
+Quote: DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+Block: body
+Id: ann-must-fhb1022-mosq2-q24
+
+### definition_of · CON-INF-526EC45FD5407A
+Quote: Draining or filling swampy breeding sites is physical mosquito control.
+Block: body
+Id: ann-must-fhb1022-mosq2-q26
+
+### definition_of · CON-INF-2C5809D3326AEE
+Quote: Malathion is listed as a residual organophosphorus mosquito insecticide.
+Block: body
+Id: ann-must-fhb1022-mosq2-q27
+
+### definition_of · CON-INF-7DD1BECF36B7C0
+Quote: Installing window screens is a mechanical mosquito-control measure.
+Block: body
+Id: ann-must-fhb1022-mosq2-q28
+
+### definition_of · CON-INF-DE8BA9EC7D8688
+Quote: Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+Block: body
+Id: ann-must-fhb1022-mosq2-q30
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.

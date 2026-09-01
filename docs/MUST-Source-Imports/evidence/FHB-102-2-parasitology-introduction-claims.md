@@ -40,7 +40,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q2
+source question: Introduction Q2
 
 ---
 
@@ -84,7 +84,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q4
+source question: Introduction Q4
 
 ---
 
@@ -128,7 +128,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q5
+source question: Introduction Q5
 
 ---
 
@@ -172,7 +172,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q9
+source question: Introduction Q9
 
 ---
 
@@ -216,7 +216,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q11
+source question: Introduction Q11
 
 ---
 
@@ -260,7 +260,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q14
+source question: Introduction Q14
 
 ---
 
@@ -304,7 +304,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q15
+source question: Introduction Q15
 
 ---
 
@@ -348,7 +348,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q18
+source question: Introduction Q18
 
 ---
 
@@ -392,7 +392,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q19
+source question: Introduction Q19
 
 ---
 
@@ -436,7 +436,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q21
+source question: Introduction Q21
 
 ---
 
@@ -480,7 +480,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q22
+source question: Introduction Q22
 
 ---
 
@@ -524,7 +524,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q23
+source question: Introduction Q23
 
 ---
 
@@ -568,7 +568,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q24
+source question: Introduction Q24
 
 ---
 
@@ -612,7 +612,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Introduction Q25
+source question: Introduction Q25
 
 ---
 
@@ -656,7 +656,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q1 (global Q31)
+source question: Arthropoda Q1 (global Q31)
 
 ---
 
@@ -700,7 +700,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q2 (global Q32)
+source question: Arthropoda Q2 (global Q32)
 
 ---
 
@@ -744,7 +744,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q3 (global Q33)
+source question: Arthropoda Q3 (global Q33)
 
 ---
 
@@ -788,7 +788,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q10 (global Q40)
+source question: Arthropoda Q10 (global Q40)
 
 ---
 
@@ -832,7 +832,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q11 (global Q41)
+source question: Arthropoda Q11 (global Q41)
 
 ---
 
@@ -876,7 +876,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q14 (global Q44)
+source question: Arthropoda Q14 (global Q44)
 
 ---
 
@@ -920,7 +920,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q17 (global Q47)
+source question: Arthropoda Q17 (global Q47)
 
 ---
 
@@ -964,7 +964,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q18 (global Q48)
+source question: Arthropoda Q18 (global Q48)
 
 ---
 
@@ -1008,7 +1008,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q19 (global Q49)
+source question: Arthropoda Q19 (global Q49)
 
 ---
 
@@ -1052,7 +1052,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q21 (global Q51)
+source question: Arthropoda Q21 (global Q51)
 
 ---
 
@@ -1096,7 +1096,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q22 (global Q52)
+source question: Arthropoda Q22 (global Q52)
 
 ---
 
@@ -1140,7 +1140,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q23 (global Q53)
+source question: Arthropoda Q23 (global Q53)
 
 ---
 
@@ -1184,7 +1184,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q24 (global Q54)
+source question: Arthropoda Q24 (global Q54)
 
 ---
 
@@ -1228,7 +1228,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q26 (global Q56)
+source question: Arthropoda Q26 (global Q56)
 
 ---
 
@@ -1272,7 +1272,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q27 (global Q57)
+source question: Arthropoda Q27 (global Q57)
 
 ---
 
@@ -1316,4 +1316,928 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam Arthropoda Q28 (global Q58)
+source question: Arthropoda Q28 (global Q58)
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q01-01
+
+## concept_id
+CON-INF-4EEE8525216319
+
+## subject
+Mosquitoes are insects in the order Diptera
+
+## predicate
+states
+
+## object
+Mosquitoes belong to class Insecta and order Diptera.
+
+## display_text
+Mosquitoes belong to class Insecta and order Diptera.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q1
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
+
+## concept_id
+CON-INF-4EEE8525216319
+
+## subject
+Mosquitoes are insects in the order Diptera
+
+## predicate
+states
+
+## object
+Mosquitoes belong to class Insecta and order Diptera.
+
+## display_text
+Mosquitoes belong to class Insecta and order Diptera.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q2
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q03-01
+
+## concept_id
+CON-INF-FABEF04D8E14A7
+
+## subject
+Mosquitoes undergo complete metamorphosis
+
+## predicate
+states
+
+## object
+Mosquitoes undergo complete metamorphosis.
+
+## display_text
+Mosquitoes undergo complete metamorphosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q3
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q04-01
+
+## concept_id
+CON-INF-1FB0421D44FF97
+
+## subject
+Mosquito eggs larvae and pupae are aquatic stages
+
+## predicate
+states
+
+## object
+Mosquito eggs, larvae and pupae are aquatic immature stages.
+
+## display_text
+Mosquito eggs, larvae and pupae are aquatic immature stages.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q4
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q06-01
+
+## concept_id
+CON-INF-449076BA8EA921
+
+## subject
+Anopheles rests at a 45-degree angle
+
+## predicate
+states
+
+## object
+Adult Anopheles rests at a 45-degree angle to the surface.
+
+## display_text
+Adult Anopheles rests at a 45-degree angle to the surface.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q6
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q07-01
+
+## concept_id
+CON-INF-CD80FDDAADB0C0
+
+## subject
+Female mosquitoes are temporary obligatory ectoparasites
+
+## predicate
+states
+
+## object
+Female mosquitoes are temporary obligatory ectoparasites.
+
+## display_text
+Female mosquitoes are temporary obligatory ectoparasites.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q7
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q08-01
+
+## concept_id
+CON-INF-3D4CC9A1238C61
+
+## subject
+Culex produces an annoying hum in flight
+
+## predicate
+states
+
+## object
+Culex produces an annoying hum, whereas Anopheles approaches silently.
+
+## display_text
+Culex produces an annoying hum, whereas Anopheles approaches silently.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q8
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q09-01
+
+## concept_id
+CON-INF-17EA50AF2F923C
+
+## subject
+The mosquito pupa is non-feeding
+
+## predicate
+states
+
+## object
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+
+## display_text
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q9
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
+
+## concept_id
+CON-INF-D40D6E6C25F7C4
+
+## subject
+A blood meal stimulates ovulation in female mosquitoes
+
+## predicate
+states
+
+## object
+A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+
+## display_text
+A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q10
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q15-01
+
+## concept_id
+CON-INF-C78116FCC3B754
+
+## subject
+Maternal Zika infection is associated with congenital microcephaly
+
+## predicate
+states
+
+## object
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+
+## display_text
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q15
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
+
+## concept_id
+CON-INF-84CF3B2FCF546F
+
+## subject
+Anopheles larvae are the most surface-feeding mosquito larvae
+
+## predicate
+states
+
+## object
+Anopheles larvae are more surface-feeding because they lack a siphon.
+
+## display_text
+Anopheles larvae are more surface-feeding because they lack a siphon.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q17
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## concept_id
+CON-INF-476CFE4CB1DE34
+
+## subject
+Culex transmits Wuchereria bancrofti cyclodevelopmentally
+
+## predicate
+states
+
+## object
+Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+
+## display_text
+Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q18
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## concept_id
+CON-INF-38226C7CAC7BE1
+
+## subject
+Mosquitoes are attracted by bright light and dark clothes
+
+## predicate
+states
+
+## object
+Mosquitoes are attracted by bright light and dark clothes.
+
+## display_text
+Mosquitoes are attracted by bright light and dark clothes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q21-01
+
+## concept_id
+CON-INF-863856AB7138F8
+
+## subject
+Gambusia fish provide biological mosquito control
+
+## predicate
+states
+
+## object
+Using Gambusia fish is a biological mosquito-control method.
+
+## display_text
+Using Gambusia fish is a biological mosquito-control method.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q21
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q22-01
+
+## concept_id
+CON-INF-BDA58A5572D741
+
+## subject
+Bacillus thuringiensis is used in biological mosquito control
+
+## predicate
+states
+
+## object
+Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+
+## display_text
+Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q22
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q23-01
+
+## concept_id
+CON-INF-65E5061E3821D1
+
+## subject
+Spraying DDT is chemical mosquito control
+
+## predicate
+states
+
+## object
+Spraying DDT is a chemical mosquito-control method.
+
+## display_text
+Spraying DDT is a chemical mosquito-control method.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q23
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q24-01
+
+## concept_id
+CON-INF-F255517C50045A
+
+## subject
+DDT use is discouraged because of environmental persistence and toxicity
+
+## predicate
+states
+
+## object
+DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+
+## display_text
+DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q24
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q26-01
+
+## concept_id
+CON-INF-526EC45FD5407A
+
+## subject
+Draining swamps is physical mosquito control
+
+## predicate
+states
+
+## object
+Draining or filling swampy breeding sites is physical mosquito control.
+
+## display_text
+Draining or filling swampy breeding sites is physical mosquito control.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q26
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
+
+## concept_id
+CON-INF-2C5809D3326AEE
+
+## subject
+Malathion is a residual mosquito insecticide
+
+## predicate
+states
+
+## object
+Malathion is listed as a residual organophosphorus mosquito insecticide.
+
+## display_text
+Malathion is listed as a residual organophosphorus mosquito insecticide.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q27
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
+
+## concept_id
+CON-INF-7DD1BECF36B7C0
+
+## subject
+Window screens are mechanical mosquito control
+
+## predicate
+states
+
+## object
+Installing window screens is a mechanical mosquito-control measure.
+
+## display_text
+Installing window screens is a mechanical mosquito-control measure.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q28
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## concept_id
+CON-INF-DE8BA9EC7D8688
+
+## subject
+Paris green is larvicidal and does not affect non-feeding pupae
+
+## predicate
+states
+
+## object
+Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+
+## display_text
+Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mosquitoes Q30

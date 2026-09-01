@@ -80,6 +80,7 @@ ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE
 ## resource_ids
 src_b75f65f2298d0fcbc5f3
 src_b9989e9ef3c314f6c771
+src_8bd3b772b3b32db59726
 
 ## approved_file_resource_ids
 [clear]
@@ -113,6 +114,7 @@ MUST_Y1=0.55
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-PARATRANS-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
 
 ## resource_occurrence_ids
 [clear]
@@ -122,10 +124,12 @@ CLM-INF-MUST-FHB1022-PARATRANS-01
 
 ## exam_signal
 src_b9989e9ef3c314f6c771 | tier 3 | undated | p2 Q10; printed answer p5
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p8 Mosquitoes Q29; printed answer p9
 src_b75f65f2298d0fcbc5f3 | tier 2 | undated | p44 direct university teaching
 
 ## original_wording
 Q10 asks which vector-control method is paratransgenesis; printed key A, biological using symbiont bacteria.
+Part 2 Mosquitoes Q29 asks the purpose of paratransgenesis in mosquito control; printed key A, to block parasite development in mosquitoes.
 
 ## merge_ids
 [clear]
@@ -134,7 +138,7 @@ Q10 asks which vector-control method is paratransgenesis; printed key A, biologi
 [clear]
 
 ## conflicts
-No key conflict affects authored Q10. Its printed A agrees with the university slide's direct symbiont-bacteria definition. Q2, Q3, Q4 and Q6 remain separate authoring holds.
+No key conflict affects authored Q10 or Part 2 Mosquitoes Q29. Both printed A answers agree with the university slide's direct symbiont-bacteria definition and purpose. Q2, Q3, Q4 and Q6 remain separate authoring holds.
 
 ## uncertainty
 The source uses a concise teaching definition; the Draft explanation does not extend beyond its stated mechanism.

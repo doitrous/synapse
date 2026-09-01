@@ -1208,3 +1208,58 @@ All 46 pages were rendered and visually read during source governance. Pages 30�
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+src_8bd3b772b3b32db59726
+
+## title
+FHB102-2 MCQs till Midterm by Absalam101 — Part 2
+
+## institution
+Student-authored revision bank attributed to Absalam101; no institution, department, examiner, sitting or authenticated faculty-key declaration is visible
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025
+
+## accessed_at
+2026-09-01
+
+## page_count
+56
+
+## sha256
+8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c
+
+## rights
+Locally supplied study material; internal curriculum authoring only.
+
+## qualification
+Pages 1–9 were rendered and visually read for the complete Parasitology Mosquitoes Q1–Q30 boundary. Page 9 carries the complete thirty-token source answer table. Twenty-two prompts are approved for Draft authoring with their wording, options and keys unchanged; Q5, Q11–Q14, Q16, Q20 and Q25 remain explicit identity or dependency holds with no student-facing record. The source answers remain student-bank evidence rather than authenticated faculty keys.
+
+## confidence
+0.6
+
+## is_assessment
+yes

@@ -37,3 +37,43 @@ The university-branded FHB102-2 slide directly supports printed Q10 answer A.
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## resource_id
+src_b75f65f2298d0fcbc5f3
+
+## evidence_role
+local_curriculum
+
+## support_span
+Paratransgenesis feeds symbiont bacteria to larvae to prevent adult mosquitoes from becoming infected by viruses and parasites and consequently prevent disease transmission.
+
+## locator_type
+page
+
+## locator_page
+44
+
+## locator_section
+Mosquito control — updated genetic control measures
+
+## locator_detail
+PDF page 44, final bullet defining the purpose and mechanism of paratransgenesis.
+
+## context_note
+The official MUST deck directly supports the unchanged Part 2 Mosquitoes Q29 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

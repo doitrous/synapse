@@ -121,7 +121,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q02-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q2; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q2; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p5 direct university teaching
 
 ## original_wording
@@ -134,7 +134,7 @@ A parasite is an organism that: Printed key B; options retained in their origina
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q2. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q2. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -303,7 +303,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q04-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q4; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q4; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p7 direct university teaching
 
 ## original_wording
@@ -316,7 +316,7 @@ A facultative parasite: Printed key B; options retained in their original order.
 concept_4843023d39649fa9864f9980
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q4. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q4. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -485,7 +485,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q05-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q5; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q5; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p9 direct university teaching
 
 ## original_wording
@@ -498,7 +498,7 @@ An opportunistic parasite: Printed key C; options retained in their original ord
 concept_99ed9f61ec904013cf85cd95
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q5. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q5. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -669,7 +669,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q09-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q9; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q9; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p16 direct university teaching
 
 ## original_wording
@@ -682,7 +682,7 @@ What is the habitat of malaria parasites in humans? Printed key D; options retai
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q9. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q9. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -855,9 +855,9 @@ CLM-INF-MUST-FHB1022-INTRO-Q23-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q11; printed answer p9
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Q21; printed answer p9
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Q23; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q11; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Introduction Q21; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Introduction Q23; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
 src_f65b3872022ca0b42a79 | tier 2 | undated | p32 direct university teaching
@@ -874,7 +874,7 @@ What is the purpose of classifying parasites based on their taxonomy? Printed ke
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q11. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Absalam Introduction Q21. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Absalam Introduction Q23. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q11. Its printed D agrees with the governed university teaching statement. No key conflict affects authored Introduction Q21. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Introduction Q23. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1043,7 +1043,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q14-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q14; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q14; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p33 direct university teaching
 
 ## original_wording
@@ -1056,7 +1056,7 @@ What is the shape of trematodes? Printed key B; options retained in their origin
 concept_7529e2cd8159d395916adb19
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q14. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q14. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1225,7 +1225,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q15-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Q15; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p1–5 Introduction Q15; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p34 direct university teaching
 
 ## original_wording
@@ -1238,7 +1238,7 @@ The group of parasitic flatworms includes: Printed key C; options retained in th
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q15. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q15. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1407,7 +1407,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q18-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p5 Q18; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p5 Introduction Q18; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p41 direct university teaching
 
 ## original_wording
@@ -1421,7 +1421,7 @@ concept_9dc1156f5fddd3a2c18a42af
 concept_15a2896e46ef4cd8cbefa6a2
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q18. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q18. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1590,7 +1590,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q19-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Q19; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Introduction Q19; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p12 direct university teaching
 
 ## original_wording
@@ -1603,7 +1603,7 @@ A vector is an organism that: Printed key B; options retained in their original 
 concept_cbe678b590c9d68db81d4ed5
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q19. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q19. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1772,7 +1772,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q22-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Q22; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p6 Introduction Q22; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p15 direct university teaching
 
 ## original_wording
@@ -1785,7 +1785,7 @@ Zoonotic diseases are: Printed key B; options retained in their original order.
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q22. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q22. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -1954,7 +1954,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q24-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Q24; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Introduction Q24; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p21–22 direct university teaching
 
 ## original_wording
@@ -1967,7 +1967,7 @@ Which of the following is(are) routes of entry of parasites? Printed key D; opti
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q24. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q24. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -2136,7 +2136,7 @@ CLM-INF-MUST-FHB1022-INTRO-Q25-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Q25; printed answer p9
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p7 Introduction Q25; printed answer p9
 src_f65b3872022ca0b42a79 | tier 2 | undated | p7 direct university teaching
 
 ## original_wording
@@ -2149,7 +2149,7 @@ An obligatory parasite: Printed key A; options retained in their original order.
 concept_b976208980c6167c35ff80fa
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q25. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Introduction Q25. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -2334,7 +2334,7 @@ How many pairs of legs do arachnids have? Printed key C; options retained in the
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q31. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Absalam Introduction Q32. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q1 (global Q31). Its printed C agrees with the governed university teaching statement. No key conflict affects authored Arthropoda Q2 (global Q32). Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -2518,7 +2518,7 @@ concept_3f0bf457e07d8f6c5ffebc19
 concept_5ff9a835b91d24b057877b28
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q33. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q3 (global Q33). Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -2699,7 +2699,7 @@ What is the term for arthropods transmitting pathogens to offspring? Printed key
 concept_649287c6052c87091710dd54
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q40. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q10 (global Q40). Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -2880,7 +2880,7 @@ What is the distinguishing feature of Stomoxys calcitrans (Stable fly)? Printed 
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q41. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q11 (global Q41). Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -3061,7 +3061,7 @@ What is the shape of Musca domestica larva’s posterior spiracle? Printed key B
 concept_c5d51a3d11cc596d324e5761
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q44. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q14 (global Q44). Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -3243,7 +3243,7 @@ concept_9da141963fe4f773b6431e12
 concept_1ffd40812a4df1ef0eb6ca09
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q47. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q17 (global Q47). Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -3424,7 +3424,7 @@ Which method is used by Dermatobia hominis (human botfly) for transmission? Prin
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q48. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q18 (global Q48). Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -3608,7 +3608,7 @@ concept_8ffbe95c3b6704234743614c
 CON-INF-7400B05B6501D2
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q49. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q19 (global Q49). Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -3791,7 +3791,7 @@ Which of the following causes Urogenital myiasis? Printed key B; options retaine
 concept_25a7c6c1a0f6c476622cf674
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q51. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q21 (global Q51). Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -3975,7 +3975,7 @@ concept_0e16a8f3a380e17ec90d2ba6
 concept_25690ce10dd47faf309ae1f3
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q52. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q22 (global Q52). Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -4157,7 +4157,7 @@ Which fly species is commonly involved in forensic parasitology? Printed key D; 
 concept_eff95f557102c66a6ce45d64
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q53. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q23 (global Q53). Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -4339,7 +4339,7 @@ Which condition is treated using Maggot Debridement Therapy (MDT)? Printed key B
 [clear]
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q54. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q24 (global Q54). Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -4522,7 +4522,7 @@ What is the shape of Calliphoridae larva’s posterior spiracle? Printed key A; 
 concept_c5d51a3d11cc596d324e5761
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q56. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q26 (global Q56). Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -4705,7 +4705,7 @@ concept_82a88b95daa10ff6ae935fff
 concept_a5e0413816dbec96b1178762
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q57. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q27 (global Q57). Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -4887,7 +4887,7 @@ How can forensic entomology assist in criminal investigations? Printed key B; op
 concept_a603c60e0c6a1022ef020314
 
 ## conflicts
-No key conflict affects authored Absalam Introduction Q58. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Arthropoda Q28 (global Q58). Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -4929,6 +4929,3650 @@ approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
 rejectedMergeCandidateIds: concept_a603c60e0c6a1022ef020314 — estimates time of death through rigor mortis, a different mechanism from forensic entomology.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-4EEE8525216319
+
+## label
+Mosquitoes are insects in the order Diptera
+
+## canonical_key
+parasitology.mosquitoes.taxonomy-insecta-diptera
+
+## aliases
+Mosquito taxonomy
+Insecta Diptera mosquitoes
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mosquitoes belong to class Insecta and order Diptera.
+
+## explicit_objective
+Identify Insecta as the class containing mosquitoes.
+
+## pitfalls
+Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito taxonomy
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito taxonomy
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q01-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q02-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p1 Mosquitoes Q1; printed answer p9
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p1 Mosquitoes Q2; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p3–4 direct university teaching
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p3–4 direct university teaching
+
+## original_wording
+Which class do mosquitoes belong to? Printed key B; options retained in their original order.
+Which order do mosquitoes belong to? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q1. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mosquitoes Q2. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-FABEF04D8E14A7
+
+## label
+Mosquitoes undergo complete metamorphosis
+
+## canonical_key
+parasitology.mosquitoes.complete-metamorphosis
+
+## aliases
+Mosquito complete metamorphosis
+Holometabolous mosquito life cycle
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mosquitoes undergo complete metamorphosis.
+
+## explicit_objective
+Identify complete metamorphosis as the mosquito developmental pattern.
+
+## pitfalls
+Mosquitoes are not presented as having incomplete, partial or absent metamorphosis.
+
+## concept_type
+life cycle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito life cycle
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q03-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p1–2 Mosquitoes Q3; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p8 direct university teaching
+
+## original_wording
+What type of metamorphosis do mosquitoes undergo? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q3. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-1FB0421D44FF97
+
+## label
+Mosquito eggs larvae and pupae are aquatic stages
+
+## canonical_key
+parasitology.mosquitoes.aquatic-immature-stages
+
+## aliases
+Aquatic mosquito stages
+Immature mosquito stages
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mosquito eggs, larvae and pupae are aquatic immature stages.
+
+## explicit_objective
+Recognise eggs, larvae and pupae as aquatic mosquito stages.
+
+## pitfalls
+All three listed immature stages are aquatic, so selecting only one omits other directly taught aquatic stages.
+
+## concept_type
+life cycle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito life cycle
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q04-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p2 Mosquitoes Q4; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p8, 11 direct university teaching
+
+## original_wording
+Which of the following is an aquatic stage of the mosquito lifecycle? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q4. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-449076BA8EA921
+
+## label
+Anopheles rests at a 45-degree angle
+
+## canonical_key
+parasitology.mosquitoes.anopheles-resting-angle
+
+## aliases
+Anopheles resting position
+Mosquito resting angle
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Adult Anopheles rests at a 45-degree angle to the surface.
+
+## explicit_objective
+Identify Anopheles from its 45-degree resting position.
+
+## pitfalls
+Culex and Aedes rest parallel to the surface in the governed comparison.
+
+## concept_type
+morphology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito morphology
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito morphology
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q06-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p2 Mosquitoes Q6; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p7 direct university teaching
+
+## original_wording
+Which mosquito species rests at a 45-degree angle to the surface? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q6. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-CD80FDDAADB0C0
+
+## label
+Female mosquitoes are temporary obligatory ectoparasites
+
+## canonical_key
+parasitology.mosquitoes.female-temporary-obligate-ectoparasite
+
+## aliases
+Female mosquito parasitic habit
+Temporary obligatory ectoparasite
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Female mosquitoes are temporary obligatory ectoparasites.
+
+## explicit_objective
+Classify female mosquitoes by duration, dependence and host location.
+
+## pitfalls
+They are not permanent, endoparasitic or facultative in the governed classification.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q07-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p3 Mosquitoes Q7; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p9 direct university teaching
+
+## original_wording
+Female mosquitos are: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q7. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-3D4CC9A1238C61
+
+## label
+Culex produces an annoying hum in flight
+
+## canonical_key
+parasitology.mosquitoes.culex-annoying-hum
+
+## aliases
+Culex flight hum
+Mosquito acoustic behaviour
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Culex produces an annoying hum, whereas Anopheles approaches silently.
+
+## explicit_objective
+Identify Culex from the annoying flight hum.
+
+## pitfalls
+The governed contrast assigns the silent approach to Anopheles, not the annoying hum.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q08-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p3 Mosquitoes Q8; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p9 direct university teaching
+
+## original_wording
+Which mosquito species produces an annoying hum while flying? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q8. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-17EA50AF2F923C
+
+## label
+The mosquito pupa is non-feeding
+
+## canonical_key
+parasitology.mosquitoes.pupa-nonfeeding
+
+## aliases
+Non-feeding mosquito stage
+Mosquito pupa feeding status
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The mosquito pupa is the non-feeding stage, while the larva feeds.
+
+## explicit_objective
+Identify the mosquito pupa as the non-feeding stage.
+
+## pitfalls
+The source typo “Larve” is preserved; larva is feeding and the governed answer is Pupae.
+
+## concept_type
+life cycle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito life cycle
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito life cycle
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q09-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p3 Mosquitoes Q9; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p11 direct university teaching
+
+## original_wording
+Which of the following mosquito stage(s) is(are) non-feeding? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q9. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-D40D6E6C25F7C4
+
+## label
+A blood meal stimulates ovulation in female mosquitoes
+
+## canonical_key
+parasitology.mosquitoes.blood-meal-stimulates-ovulation
+
+## aliases
+Mosquito ovulation trigger
+Blood meal and egg laying
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.
+
+## explicit_objective
+Identify a blood meal as the ovulation stimulus in female mosquitoes.
+
+## pitfalls
+Water, sunlight and mating are not the stimulus named by the governed teaching statement.
+
+## concept_type
+physiology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q10-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p3 Mosquitoes Q10; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p10 direct university teaching
+
+## original_wording
+What stimulates ovulation in female mosquitoes? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q10. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-C78116FCC3B754
+
+## label
+Maternal Zika infection is associated with congenital microcephaly
+
+## canonical_key
+parasitology.mosquitoes.zika-congenital-microcephaly
+
+## aliases
+Zika congenital microcephaly
+Mosquito-borne microcephaly association
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Zika virus infection during pregnancy is associated with congenital microcephaly.
+
+## explicit_objective
+Identify Zika virus as the mosquito-borne infection associated with congenital microcephaly.
+
+## pitfalls
+The governed association is Zika, not malaria, yellow fever or Rift Valley fever.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Aedes-borne disease
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Aedes-borne disease
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q15-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p5 Mosquitoes Q15; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p19, 24 direct university teaching
+
+## original_wording
+Which mosquito-borne disease is associated with congenital microcephaly? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_2f42dd8709456d0836771eb0
+
+## conflicts
+No key conflict affects authored Mosquitoes Q15. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_2f42dd8709456d0836771eb0 — broader raw arboviral microcephaly wording does not preserve the explicit Zika identity tested here.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-84CF3B2FCF546F
+
+## label
+Anopheles larvae are the most surface-feeding mosquito larvae
+
+## canonical_key
+parasitology.mosquitoes.anopheles-larva-surface-feeding
+
+## aliases
+Anopheles surface feeder
+Mosquito larval siphon comparison
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Anopheles larvae are more surface-feeding because they lack a siphon.
+
+## explicit_objective
+Identify Anopheles as the most surface-feeding offered mosquito larva.
+
+## pitfalls
+The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito larvae
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito larvae
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q17-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p5 Mosquitoes Q17; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p11 direct university teaching
+
+## original_wording
+Which of the following is the most surface feeder? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q17. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-476CFE4CB1DE34
+
+## label
+Culex transmits Wuchereria bancrofti cyclodevelopmentally
+
+## canonical_key
+parasitology.mosquitoes.culex-filariasis-cyclodevelopmental
+
+## aliases
+Culex filariasis transmission type
+Wuchereria cyclodevelopmental transmission
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.
+
+## explicit_objective
+Identify cyclodevelopmental transmission for Culex-borne filariasis.
+
+## pitfalls
+Wuchereria develops without the multiplication pattern that defines cyclopropagative transmission.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Culex-borne filariasis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Culex-borne filariasis
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q18-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p5–6 Mosquitoes Q18; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p27–28 direct university teaching
+
+## original_wording
+What type of transmission does Culex use for filariasis? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_a0aff0c30fa4c2646a6e9ddf
+
+## conflicts
+No key conflict affects authored Mosquitoes Q18. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_a0aff0c30fa4c2646a6e9ddf — broader raw Culex/Wuchereria vector association does not preserve the transmission-type identity tested here.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-38226C7CAC7BE1
+
+## label
+Mosquitoes are attracted by bright light and dark clothes
+
+## canonical_key
+parasitology.mosquitoes.attraction-bright-light-dark-clothes
+
+## aliases
+Mosquito attractants
+Bright light and dark clothing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mosquitoes are attracted by bright light and dark clothes.
+
+## explicit_objective
+Select the combined bright-light and dark-clothes option.
+
+## pitfalls
+Both A and B are directly supported, so selecting only one makes the response incomplete.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mosquito bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mosquito bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q19-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p6 Mosquitoes Q19; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p9 direct university teaching
+
+## original_wording
+What is the primary attractant for mosquitoes? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q19. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-863856AB7138F8
+
+## label
+Gambusia fish provide biological mosquito control
+
+## canonical_key
+parasitology.mosquitoes.control-gambusia-biological
+
+## aliases
+Gambusia mosquito control
+Larvivorous fish control
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Using Gambusia fish is a biological mosquito-control method.
+
+## explicit_objective
+Identify Gambusia fish as biological mosquito control.
+
+## pitfalls
+Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Biological mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Biological mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q21-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p6 Mosquitoes Q21; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p38 direct university teaching
+
+## original_wording
+Which of the following is a biological control method for mosquitoes? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q21. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-BDA58A5572D741
+
+## label
+Bacillus thuringiensis is used in biological mosquito control
+
+## canonical_key
+parasitology.mosquitoes.control-bacillus-thuringiensis
+
+## aliases
+Bacterial mosquito control
+Bacillus thuringiensis larval control
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.
+
+## explicit_objective
+Identify Bacillus thuringiensis as the bacterial biological-control agent.
+
+## pitfalls
+The other offered bacteria are not listed as biological mosquito-control agents.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Biological mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Biological mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q22-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p6–7 Mosquitoes Q22; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p38 direct university teaching
+
+## original_wording
+Which bacteria is used in biological mosquito control? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q22. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-65E5061E3821D1
+
+## label
+Spraying DDT is chemical mosquito control
+
+## canonical_key
+parasitology.mosquitoes.control-ddt-chemical
+
+## aliases
+DDT mosquito control
+Chemical vector control
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Spraying DDT is a chemical mosquito-control method.
+
+## explicit_objective
+Identify DDT spraying as chemical mosquito control.
+
+## pitfalls
+Nets are mechanical, dragonflies are biological and stagnant-water removal is physical control.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Chemical mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q23-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p7 Mosquitoes Q23; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p40, 43 direct university teaching
+
+## original_wording
+Which of the following is a chemical control method? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q23. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-F255517C50045A
+
+## label
+DDT use is discouraged because of environmental persistence and toxicity
+
+## canonical_key
+parasitology.mosquitoes.ddt-persistence-toxicity
+
+## aliases
+DDT environmental persistence
+Organochlorine accumulation risk
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.
+
+## explicit_objective
+Identify environmental persistence and toxicity as the reason DDT use is discouraged.
+
+## pitfalls
+The governed concern is not high cost, ineffectiveness or a short-lasting effect.
+
+## concept_type
+safety
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Chemical mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q24-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p7 Mosquitoes Q24; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p39–40 direct university teaching
+
+## original_wording
+Why has the use of DDT been discouraged? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q24. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-526EC45FD5407A
+
+## label
+Draining swamps is physical mosquito control
+
+## canonical_key
+parasitology.mosquitoes.control-drainage-physical
+
+## aliases
+Swamp drainage mosquito control
+Physical breeding-site control
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Draining or filling swampy breeding sites is physical mosquito control.
+
+## explicit_objective
+Classify swamp drainage as physical mosquito control.
+
+## pitfalls
+Drainage does not use a chemical, biological enemy or genetic method.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Physical mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Physical mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q26-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p8 Mosquitoes Q26; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p37 direct university teaching
+
+## original_wording
+Which mosquito control method involves draining swamps? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q26. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-2C5809D3326AEE
+
+## label
+Malathion is a residual mosquito insecticide
+
+## canonical_key
+parasitology.mosquitoes.malathion-residual-insecticide
+
+## aliases
+Malathion residual control
+Organophosphorus mosquito insecticide
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Malathion is listed as a residual organophosphorus mosquito insecticide.
+
+## explicit_objective
+Identify Malathion as the residual insecticide in the offered set.
+
+## pitfalls
+Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Chemical mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q27-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p8 Mosquitoes Q27; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p43 direct university teaching
+
+## original_wording
+Which of the following is an example of a residual insecticide? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q27. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-7DD1BECF36B7C0
+
+## label
+Window screens are mechanical mosquito control
+
+## canonical_key
+parasitology.mosquitoes.control-window-screens-mechanical
+
+## aliases
+Mosquito window screening
+Mechanical adult mosquito control
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Installing window screens is a mechanical mosquito-control measure.
+
+## explicit_objective
+Identify window screens as mechanical mosquito control.
+
+## pitfalls
+Spraying is chemical, while fish and Bacillus thuringiensis are biological controls.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Mechanical mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Mechanical mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q28-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p8 Mosquitoes Q28; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p41 direct university teaching
+
+## original_wording
+Which of the following is an example of mechanical mosquito control? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mosquitoes Q28. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-DE8BA9EC7D8688
+
+## label
+Paris green is larvicidal and does not affect non-feeding pupae
+
+## canonical_key
+parasitology.mosquitoes.paris-green-larvicidal-only
+
+## aliases
+Paris green larvicide
+Stomach-poison mosquito larvicide
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.
+
+## explicit_objective
+Identify Paris green as the larvicidal-only option.
+
+## pitfalls
+Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only.
+
+## concept_type
+intervention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Chemical mosquito control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Chemical mosquito control
+
+## article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY
+ART-INF-MUST-FHB1022-MOSQUITO-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_b75f65f2298d0fcbc5f3
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p9 Mosquitoes Q30; printed answer p9
+src_b75f65f2298d0fcbc5f3 | tier 2 | 2022-04-01 | p39 direct university teaching
+
+## original_wording
+Which of the following is larvicidal only? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_93621f76281954bdf8c77e72
+
+## conflicts
+No key conflict affects authored Mosquitoes Q30. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: concept_93621f76281954bdf8c77e72 — broader raw control list does not preserve the larvicidal-only and pupa-exclusion identity.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.

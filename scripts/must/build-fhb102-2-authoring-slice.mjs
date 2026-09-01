@@ -42,6 +42,7 @@ const antifungalDrugResourceId = 'src_bbf7f72f08ce85032b4d'
 const bacterialGrowthResourceId = 'src_da7cc51e7ac1ee22c68a'
 const bacterialCellResourceId = 'src_88ddfa49fe01adee5444'
 const absalamAssessmentResourceId = 'src_4bd3b78f762673d7eb7f'
+const absalamPart2AssessmentResourceId = 'src_8bd3b772b3b32db59726'
 const introTeachingResourceId = 'src_f65b3872022ca0b42a79'
 const hostMicrobeResourceId = 'src_e4b2f7ce3e55fad37c9a'
 const antibioticsIntroResourceId = 'src_ee1fb7a716a473eb2d98'
@@ -61,6 +62,9 @@ const introArticles = {
   forensicMyiasis: 'ART-INF-MUST-FHB1022-FORENSIC-MYIASIS',
   myiasisTherapyPrevention: 'ART-INF-MUST-FHB1022-MYIASIS-THERAPY-PREVENTION',
   sarcophaga: sarcoArticleId,
+  mosquitoBiology: 'ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY',
+  mosquitoDiseases: 'ART-INF-MUST-FHB1022-MOSQUITO-DISEASES',
+  mosquitoControl: 'ART-INF-MUST-FHB1022-MOSQUITO-CONTROL',
 }
 
 const introArticleRelations = {
@@ -78,6 +82,9 @@ const introArticleRelations = {
   forensicMyiasis: ['myiasisTherapyPrevention', 'sarcophaga'],
   myiasisTherapyPrevention: ['clinicalSiteMyiasis', 'forensicMyiasis'],
   sarcophaga: ['muscidIdentification', 'clinicalSiteMyiasis', 'forensicMyiasis'],
+  mosquitoBiology: ['mosquitoDiseases', 'mosquitoControl'],
+  mosquitoDiseases: ['mosquitoBiology', 'mosquitoControl'],
+  mosquitoControl: ['mosquitoBiology', 'mosquitoDiseases'],
 }
 
 const introItems = [
@@ -428,6 +435,37 @@ const introItems = [
     rejected: ['concept_a603c60e0c6a1022ef020314 — estimates time of death through rigor mortis, a different mechanism from forensic entomology.'],
   },
 ]
+
+const mosquitoItems = [
+  { q: 1, conceptId: 'CON-INF-4EEE8525216319', canonicalKey: 'parasitology.mosquitoes.taxonomy-insecta-diptera', label: 'Mosquitoes are insects in the order Diptera', aliases: ['Mosquito taxonomy', 'Insecta Diptera mosquitoes'], conceptType: 'classification', article: 'mosquitoBiology', microtopic: 'Mosquito taxonomy', teachingPages: '3–4', assessmentPage: 1, stem: 'Which class do mosquitoes belong to?', key: 'B', options: ['Arachnida', 'Insecta', 'Crustacea', 'Siphonaptera'], claim: 'Mosquitoes belong to class Insecta and order Diptera.', support: 'The official deck places mosquitoes in class Insecta and lists mosquitoes under order Diptera.', objective: 'Identify Insecta as the class containing mosquitoes.', pitfalls: 'Diptera is the order, while Arachnida and Crustacea are different arthropod classes and Siphonaptera is the flea order.', rejected: [] },
+  { q: 2, conceptId: 'CON-INF-4EEE8525216319', canonicalKey: 'parasitology.mosquitoes.taxonomy-insecta-diptera', label: 'Mosquitoes are insects in the order Diptera', aliases: ['Mosquito taxonomy', 'Insecta Diptera mosquitoes'], conceptType: 'classification', article: 'mosquitoBiology', microtopic: 'Mosquito taxonomy', teachingPages: '3–4', assessmentPage: 1, stem: 'Which order do mosquitoes belong to?', key: 'C', options: ['Hemiptera', 'Siphonaptera', 'Diptera', 'Anoplura'], claim: 'Mosquitoes belong to class Insecta and order Diptera.', support: 'The official deck places mosquitoes and flies in order Diptera.', objective: 'Identify Diptera as the order containing mosquitoes.', pitfalls: 'Hemiptera contains bugs, Siphonaptera contains fleas and Anoplura contains lice in the governed classification.', rejected: [] },
+  { q: 3, conceptId: 'CON-INF-FABEF04D8E14A7', canonicalKey: 'parasitology.mosquitoes.complete-metamorphosis', label: 'Mosquitoes undergo complete metamorphosis', aliases: ['Mosquito complete metamorphosis', 'Holometabolous mosquito life cycle'], conceptType: 'life cycle', article: 'mosquitoBiology', microtopic: 'Mosquito life cycle', teachingPage: 8, assessmentPage: '1–2', stem: 'What type of metamorphosis do mosquitoes undergo?', key: 'B', options: ['Incomplete', 'Complete', 'Partial', 'None'], claim: 'Mosquitoes undergo complete metamorphosis.', support: 'The official mosquito life-cycle slide explicitly labels the mosquito cycle as complete metamorphosis.', objective: 'Identify complete metamorphosis as the mosquito developmental pattern.', pitfalls: 'Mosquitoes are not presented as having incomplete, partial or absent metamorphosis.', rejected: [] },
+  { q: 4, conceptId: 'CON-INF-1FB0421D44FF97', canonicalKey: 'parasitology.mosquitoes.aquatic-immature-stages', label: 'Mosquito eggs larvae and pupae are aquatic stages', aliases: ['Aquatic mosquito stages', 'Immature mosquito stages'], conceptType: 'life cycle', article: 'mosquitoBiology', microtopic: 'Mosquito life cycle', teachingPages: '8, 11', assessmentPage: 2, stem: 'Which of the following is an aquatic stage of the mosquito lifecycle?', key: 'D', options: ['Larvae', 'Pupae', 'Eggs', 'All of the above'], claim: 'Mosquito eggs, larvae and pupae are aquatic immature stages.', support: 'The official deck states that immature mosquito stages—eggs, larvae and pupae—are aquatic.', objective: 'Recognise eggs, larvae and pupae as aquatic mosquito stages.', pitfalls: 'All three listed immature stages are aquatic, so selecting only one omits other directly taught aquatic stages.', rejected: [] },
+  { q: 6, conceptId: 'CON-INF-449076BA8EA921', canonicalKey: 'parasitology.mosquitoes.anopheles-resting-angle', label: 'Anopheles rests at a 45-degree angle', aliases: ['Anopheles resting position', 'Mosquito resting angle'], conceptType: 'morphology', article: 'mosquitoBiology', microtopic: 'Mosquito morphology', teachingPage: 7, assessmentPage: 2, stem: 'Which mosquito species rests at a 45-degree angle to the surface?', key: 'C', options: ['Culex', 'Aedes', 'Anopheles', 'None of the above'], claim: 'Adult Anopheles rests at a 45-degree angle to the surface.', support: 'The official deck contrasts Anopheles at 45 degrees with Culex and Aedes parallel to the surface.', objective: 'Identify Anopheles from its 45-degree resting position.', pitfalls: 'Culex and Aedes rest parallel to the surface in the governed comparison.', rejected: [] },
+  { q: 7, conceptId: 'CON-INF-CD80FDDAADB0C0', canonicalKey: 'parasitology.mosquitoes.female-temporary-obligate-ectoparasite', label: 'Female mosquitoes are temporary obligatory ectoparasites', aliases: ['Female mosquito parasitic habit', 'Temporary obligatory ectoparasite'], conceptType: 'classification', article: 'mosquitoBiology', microtopic: 'Mosquito bionomics', teachingPage: 9, assessmentPage: 3, stem: 'Female mosquitos are:', key: 'A', options: ['Temporary obligatory ectoparasites', 'Permanent obligatory endoparasites', 'Temporary facultative ectoparasites', 'Permanent facultative endoparasites'], claim: 'Female mosquitoes are temporary obligatory ectoparasites.', support: 'The official bionomics slide directly classifies female mosquitoes as temporary obligatory ectoparasites.', objective: 'Classify female mosquitoes by duration, dependence and host location.', pitfalls: 'They are not permanent, endoparasitic or facultative in the governed classification.', rejected: [] },
+  { q: 8, conceptId: 'CON-INF-3D4CC9A1238C61', canonicalKey: 'parasitology.mosquitoes.culex-annoying-hum', label: 'Culex produces an annoying hum in flight', aliases: ['Culex flight hum', 'Mosquito acoustic behaviour'], conceptType: 'behaviour', article: 'mosquitoBiology', microtopic: 'Mosquito bionomics', teachingPage: 9, assessmentPage: 3, stem: 'Which mosquito species produces an annoying hum while flying?', key: 'B', options: ['Anopheles', 'Culex', 'Aedes', 'None of the above'], claim: 'Culex produces an annoying hum, whereas Anopheles approaches silently.', support: 'The official bionomics slide states that Culex has an annoying hum while Anopheles has a silent approach.', objective: 'Identify Culex from the annoying flight hum.', pitfalls: 'The governed contrast assigns the silent approach to Anopheles, not the annoying hum.', rejected: [] },
+  { q: 9, conceptId: 'CON-INF-17EA50AF2F923C', canonicalKey: 'parasitology.mosquitoes.pupa-nonfeeding', label: 'The mosquito pupa is non-feeding', aliases: ['Non-feeding mosquito stage', 'Mosquito pupa feeding status'], conceptType: 'life cycle', article: 'mosquitoBiology', microtopic: 'Mosquito life cycle', teachingPage: 11, assessmentPage: 3, stem: 'Which of the following mosquito stage(s) is(are) non-feeding?', key: 'B', options: ['Larve', 'Pupae', 'Adult', 'A & C'], claim: 'The mosquito pupa is the non-feeding stage, while the larva feeds.', support: 'The official deck states that larvae are feeding stages and pupae are non-feeding.', objective: 'Identify the mosquito pupa as the non-feeding stage.', pitfalls: 'The source typo “Larve” is preserved; larva is feeding and the governed answer is Pupae.', rejected: [] },
+  { q: 10, conceptId: 'CON-INF-D40D6E6C25F7C4', canonicalKey: 'parasitology.mosquitoes.blood-meal-stimulates-ovulation', label: 'A blood meal stimulates ovulation in female mosquitoes', aliases: ['Mosquito ovulation trigger', 'Blood meal and egg laying'], conceptType: 'physiology', article: 'mosquitoBiology', microtopic: 'Mosquito bionomics', teachingPage: 10, assessmentPage: 3, stem: 'What stimulates ovulation in female mosquitoes?', key: 'C', options: ['Presence of water', 'Exposure to sunlight', 'Blood meal', 'Mating'], claim: 'A blood meal stimulates the hormone production necessary for ovulation in female mosquitoes.', support: 'The official deck states that the blood meal stimulates production of a hormone necessary for ovulation.', objective: 'Identify a blood meal as the ovulation stimulus in female mosquitoes.', pitfalls: 'Water, sunlight and mating are not the stimulus named by the governed teaching statement.', rejected: [] },
+  { q: 15, conceptId: 'CON-INF-C78116FCC3B754', canonicalKey: 'parasitology.mosquitoes.zika-congenital-microcephaly', label: 'Maternal Zika infection is associated with congenital microcephaly', aliases: ['Zika congenital microcephaly', 'Mosquito-borne microcephaly association'], conceptType: 'clinical association', article: 'mosquitoDiseases', microtopic: 'Aedes-borne disease', teachingPages: '19, 24', assessmentPage: 5, stem: 'Which mosquito-borne disease is associated with congenital microcephaly?', key: 'B', options: ['Malaria', 'Zika virus', 'Yellow fever', 'Rift Valley fever'], claim: 'Zika virus infection during pregnancy is associated with congenital microcephaly.', support: 'The official Aedes disease table and congenital case slide associate maternal Zika infection with congenital microcephaly.', objective: 'Identify Zika virus as the mosquito-borne infection associated with congenital microcephaly.', pitfalls: 'The governed association is Zika, not malaria, yellow fever or Rift Valley fever.', rejected: ['concept_2f42dd8709456d0836771eb0 — broader raw arboviral microcephaly wording does not preserve the explicit Zika identity tested here.'] },
+  { q: 17, conceptId: 'CON-INF-84CF3B2FCF546F', canonicalKey: 'parasitology.mosquitoes.anopheles-larva-surface-feeding', label: 'Anopheles larvae are the most surface-feeding mosquito larvae', aliases: ['Anopheles surface feeder', 'Mosquito larval siphon comparison'], conceptType: 'behaviour', article: 'mosquitoBiology', microtopic: 'Mosquito larvae', teachingPage: 11, assessmentPage: 5, stem: 'Which of the following is the most surface feeder?', key: 'B', options: ['Aedes', 'Anopheles', 'Culex', 'All of the above'], claim: 'Anopheles larvae are more surface-feeding because they lack a siphon.', support: 'The official deck explicitly calls Anopheles larvae more surface feeders due to lack of a siphon.', objective: 'Identify Anopheles as the most surface-feeding offered mosquito larva.', pitfalls: 'The singular source wording is preserved; Culex is described as farthest from the surface because of its long siphon.', rejected: [] },
+  { q: 18, conceptId: 'CON-INF-476CFE4CB1DE34', canonicalKey: 'parasitology.mosquitoes.culex-filariasis-cyclodevelopmental', label: 'Culex transmits Wuchereria bancrofti cyclodevelopmentally', aliases: ['Culex filariasis transmission type', 'Wuchereria cyclodevelopmental transmission'], conceptType: 'mechanism', article: 'mosquitoDiseases', microtopic: 'Culex-borne filariasis', teachingPages: '27–28', assessmentPage: '5–6', stem: 'What type of transmission does Culex use for filariasis?', key: 'C', options: ['Propagative', 'Cyclo-propagative', 'Cyclo-developmental', 'None of the above'], claim: 'Culex transmits Wuchereria bancrofti by cyclodevelopmental transmission.', support: 'The official Culex table and life-cycle slide label Wuchereria transmission as cyclodevelopmental.', objective: 'Identify cyclodevelopmental transmission for Culex-borne filariasis.', pitfalls: 'Wuchereria develops without the multiplication pattern that defines cyclopropagative transmission.', rejected: ['concept_a0aff0c30fa4c2646a6e9ddf — broader raw Culex/Wuchereria vector association does not preserve the transmission-type identity tested here.'] },
+  { q: 19, conceptId: 'CON-INF-38226C7CAC7BE1', canonicalKey: 'parasitology.mosquitoes.attraction-bright-light-dark-clothes', label: 'Mosquitoes are attracted by bright light and dark clothes', aliases: ['Mosquito attractants', 'Bright light and dark clothing'], conceptType: 'behaviour', article: 'mosquitoBiology', microtopic: 'Mosquito bionomics', teachingPage: 9, assessmentPage: 6, stem: 'What is the primary attractant for mosquitoes?', key: 'D', options: ['Dark clothes', 'Bright light', 'Sweet smells', 'A & B'], claim: 'Mosquitoes are attracted by bright light and dark clothes.', support: 'The official bionomics slide directly lists bright light and dark clothes as attractants.', objective: 'Select the combined bright-light and dark-clothes option.', pitfalls: 'Both A and B are directly supported, so selecting only one makes the response incomplete.', rejected: [] },
+  { q: 21, conceptId: 'CON-INF-863856AB7138F8', canonicalKey: 'parasitology.mosquitoes.control-gambusia-biological', label: 'Gambusia fish provide biological mosquito control', aliases: ['Gambusia mosquito control', 'Larvivorous fish control'], conceptType: 'intervention', article: 'mosquitoControl', microtopic: 'Biological mosquito control', teachingPage: 38, assessmentPage: 6, stem: 'Which of the following is a biological control method for mosquitoes?', key: 'A', options: ['Using Gambusia fish', 'Spraying insecticides', 'Removing breeding sites', 'Using mosquito nets'], claim: 'Using Gambusia fish is a biological mosquito-control method.', support: 'The official control slide lists Gambusia affinis among natural enemies used for biological control.', objective: 'Identify Gambusia fish as biological mosquito control.', pitfalls: 'Insecticides are chemical, breeding-site removal is physical and mosquito nets are mechanical protection.', rejected: [] },
+  { q: 22, conceptId: 'CON-INF-BDA58A5572D741', canonicalKey: 'parasitology.mosquitoes.control-bacillus-thuringiensis', label: 'Bacillus thuringiensis is used in biological mosquito control', aliases: ['Bacterial mosquito control', 'Bacillus thuringiensis larval control'], conceptType: 'intervention', article: 'mosquitoControl', microtopic: 'Biological mosquito control', teachingPage: 38, assessmentPage: '6–7', stem: 'Which bacteria is used in biological mosquito control?', key: 'A', options: ['Bacillus thuringiensis', 'Clostridium botulinum', 'Escherichia coli', 'Mycobacterium tuberculosis'], claim: 'Bacillus thuringiensis is used as a bacterial biological control against mosquito larvae.', support: 'The official slide identifies Bacillus thuringiensis spores as highly toxic to mosquito larvae.', objective: 'Identify Bacillus thuringiensis as the bacterial biological-control agent.', pitfalls: 'The other offered bacteria are not listed as biological mosquito-control agents.', rejected: [] },
+  { q: 23, conceptId: 'CON-INF-65E5061E3821D1', canonicalKey: 'parasitology.mosquitoes.control-ddt-chemical', label: 'Spraying DDT is chemical mosquito control', aliases: ['DDT mosquito control', 'Chemical vector control'], conceptType: 'intervention', article: 'mosquitoControl', microtopic: 'Chemical mosquito control', teachingPages: '40, 43', assessmentPage: 7, stem: 'Which of the following is a chemical control method?', key: 'B', options: ['Using mosquito nets', 'Spraying DDT', 'Introducing dragonflies', 'Removing stagnant water'], claim: 'Spraying DDT is a chemical mosquito-control method.', support: 'The official deck lists DDT among chemical residual insecticides.', objective: 'Identify DDT spraying as chemical mosquito control.', pitfalls: 'Nets are mechanical, dragonflies are biological and stagnant-water removal is physical control.', rejected: [] },
+  { q: 24, conceptId: 'CON-INF-F255517C50045A', canonicalKey: 'parasitology.mosquitoes.ddt-persistence-toxicity', label: 'DDT use is discouraged because of environmental persistence and toxicity', aliases: ['DDT environmental persistence', 'Organochlorine accumulation risk'], conceptType: 'safety', article: 'mosquitoControl', microtopic: 'Chemical mosquito control', teachingPages: '39–40', assessmentPage: 7, stem: 'Why has the use of DDT been discouraged?', key: 'B', options: ['High cost', 'Environmental persistence and toxicity', 'Ineffectiveness against mosquitoes', 'Short-lasting effect'], claim: 'DDT use is discouraged because organochlorines persist in the environment, accumulate in tissues and are toxic chemicals.', support: 'The official deck describes mosquito-control chemicals as poisonous and says DDT should be avoided because of persistence and tissue accumulation.', objective: 'Identify environmental persistence and toxicity as the reason DDT use is discouraged.', pitfalls: 'The governed concern is not high cost, ineffectiveness or a short-lasting effect.', rejected: [] },
+  { q: 26, conceptId: 'CON-INF-526EC45FD5407A', canonicalKey: 'parasitology.mosquitoes.control-drainage-physical', label: 'Draining swamps is physical mosquito control', aliases: ['Swamp drainage mosquito control', 'Physical breeding-site control'], conceptType: 'intervention', article: 'mosquitoControl', microtopic: 'Physical mosquito control', teachingPage: 37, assessmentPage: 8, stem: 'Which mosquito control method involves draining swamps?', key: 'B', options: ['Chemical', 'Physical', 'Biological', 'Genetic'], claim: 'Draining or filling swampy breeding sites is physical mosquito control.', support: 'The official physical-control slide lists filling swampy areas and draining water collections.', objective: 'Classify swamp drainage as physical mosquito control.', pitfalls: 'Drainage does not use a chemical, biological enemy or genetic method.', rejected: [] },
+  { q: 27, conceptId: 'CON-INF-2C5809D3326AEE', canonicalKey: 'parasitology.mosquitoes.malathion-residual-insecticide', label: 'Malathion is a residual mosquito insecticide', aliases: ['Malathion residual control', 'Organophosphorus mosquito insecticide'], conceptType: 'intervention', article: 'mosquitoControl', microtopic: 'Chemical mosquito control', teachingPage: 43, assessmentPage: 8, stem: 'Which of the following is an example of a residual insecticide?', key: 'B', options: ['Pyrethrum', 'Malathion', 'Citronella oil', 'Eucalyptus oil'], claim: 'Malathion is listed as a residual organophosphorus mosquito insecticide.', support: 'The official adult-control slide contrasts non-residual Pyrethrum with residual Malathion.', objective: 'Identify Malathion as the residual insecticide in the offered set.', pitfalls: 'Pyrethrum is non-residual, while citronella and eucalyptus oils are repellents.', rejected: [] },
+  { q: 28, conceptId: 'CON-INF-7DD1BECF36B7C0', canonicalKey: 'parasitology.mosquitoes.control-window-screens-mechanical', label: 'Window screens are mechanical mosquito control', aliases: ['Mosquito window screening', 'Mechanical adult mosquito control'], conceptType: 'intervention', article: 'mosquitoControl', microtopic: 'Mechanical mosquito control', teachingPage: 41, assessmentPage: 8, stem: 'Which of the following is an example of mechanical mosquito control?', key: 'C', options: ['Spraying insecticides', 'Using fish to eat larvae', 'Installing window screens', 'Using Bacillus thuringiensis'], claim: 'Installing window screens is a mechanical mosquito-control measure.', support: 'The official adult-control slide lists screening windows and doors with wire screens.', objective: 'Identify window screens as mechanical mosquito control.', pitfalls: 'Spraying is chemical, while fish and Bacillus thuringiensis are biological controls.', rejected: [] },
+  { q: 30, conceptId: 'CON-INF-DE8BA9EC7D8688', canonicalKey: 'parasitology.mosquitoes.paris-green-larvicidal-only', label: 'Paris green is larvicidal and does not affect non-feeding pupae', aliases: ['Paris green larvicide', 'Stomach-poison mosquito larvicide'], conceptType: 'intervention', article: 'mosquitoControl', microtopic: 'Chemical mosquito control', teachingPage: 39, assessmentPage: 9, stem: 'Which of the following is larvicidal only?', key: 'A', options: ['Paris green (stomach poison)', 'Non-volatile oils', 'Fish', 'DDT'], claim: 'Paris green is a stomach poison that is larvicidal and does not affect non-feeding pupae.', support: 'The official deck states that Paris green is larvicidal and that pupae are not affected because they do not feed.', objective: 'Identify Paris green as the larvicidal-only option.', pitfalls: 'Non-volatile oils poison eggs, larvae and pupae; fish consume aquatic stages; DDT is not described as larvicidal only.', rejected: ['concept_93621f76281954bdf8c77e72 — broader raw control list does not preserve the larvicidal-only and pupa-exclusion identity.'] },
+].map((item) => ({
+  idPrefix: 'MOSQ2', bankQ: item.q, assessmentResourceId: absalamPart2AssessmentResourceId,
+  answerPage: 9, bankLabel: 'Parasitology — Mosquitoes', teachingResourceId: mosquitoResourceId,
+  teachingTitle: 'Arthropod Vectors for Disease Transmission — Mosquitoes',
+  primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', ...item,
+}))
+
+introItems.push(...mosquitoItems)
 
 const microArticles = {
   foundations: 'ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS',
@@ -2157,6 +2195,61 @@ All 46 pages were rendered and visually read during source governance. Pages 30�
 
 ## is_assessment
 no
+
+---
+
+# Item
+
+## id
+${absalamPart2AssessmentResourceId}
+
+## title
+FHB102-2 MCQs till Midterm by Absalam101 — Part 2
+
+## institution
+Student-authored revision bank attributed to Absalam101; no institution, department, examiner, sitting or authenticated faculty-key declaration is visible
+
+## processing_status
+visually_read_selected_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025
+
+## accessed_at
+2026-09-01
+
+## page_count
+56
+
+## sha256
+8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c
+
+## rights
+Locally supplied study material; internal curriculum authoring only.
+
+## qualification
+Pages 1–9 were rendered and visually read for the complete Parasitology Mosquitoes Q1–Q30 boundary. Page 9 carries the complete thirty-token source answer table. Twenty-two prompts are approved for Draft authoring with their wording, options and keys unchanged; Q5, Q11–Q14, Q16, Q20 and Q25 remain explicit identity or dependency holds with no student-facing record. The source answers remain student-bank evidence rather than authenticated faculty keys.
+
+## confidence
+0.6
+
+## is_assessment
+yes
 `
 }
 
@@ -2165,7 +2258,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 24,
+    count: 25,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -2442,6 +2535,19 @@ function corpusSourceIndex() {
         sha256: '4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf',
         processingStatus: 'fully_governed',
         pageCount: 45,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['Midterm Exams', 'MCQs'],
+      },
+      [absalamPart2AssessmentResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 2).pdf'],
+        sha256: '8bd3b772b3b32db5972665614475a6193f5ffa871e686a2026b0a7aeeadf375c',
+        processingStatus: 'fully_governed',
+        pageCount: 56,
         languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
@@ -5916,6 +6022,50 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 method: biological vector control
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## concept_id
+${paratransConceptId}
+
+## subject
+Purpose of paratransgenesis in mosquito control
+
+## predicate
+prevents
+
+## object
+parasite development and later disease transmission by preventing adult mosquito infection
+
+## display_text
+Paratransgenesis aims to block parasite or virus development in mosquitoes by using symbiont bacteria that prevent adult vector infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Absalam Part 2 Mosquitoes Q29
 `
 }
 
@@ -5959,6 +6109,46 @@ The university-branded FHB102-2 slide directly supports printed Q10 answer A.
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## resource_id
+${mosquitoResourceId}
+
+## evidence_role
+local_curriculum
+
+## support_span
+Paratransgenesis feeds symbiont bacteria to larvae to prevent adult mosquitoes from becoming infected by viruses and parasites and consequently prevent disease transmission.
+
+## locator_type
+page
+
+## locator_page
+44
+
+## locator_section
+Mosquito control — updated genetic control measures
+
+## locator_detail
+PDF page 44, final bullet defining the purpose and mechanism of paratransgenesis.
+
+## context_note
+The official MUST deck directly supports the unchanged Part 2 Mosquitoes Q29 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
 `
 }
 
@@ -5984,6 +6174,28 @@ CLM-INF-MUST-FHB1022-PARATRANS-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-PARATRANS-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## article_id
+${paratransArticleId}
+
+## section_id
+art-inf-must-fhb1022-paratransgenesis-definition
+
+## text
+Paratransgenesis blocks pathogen development in mosquitoes by preventing adult vector infection through larval-stage symbiont bacteria.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MOSQ2-Q29-01
 `
 }
 
@@ -6070,6 +6282,7 @@ ${articleId}
 ## resource_ids
 ${mosquitoResourceId}
 ${assessmentResourceId}
+${absalamPart2AssessmentResourceId}
 
 ## approved_file_resource_ids
 [clear]
@@ -6103,6 +6316,7 @@ MUST_Y1=0.55
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-PARATRANS-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6112,10 +6326,12 @@ CLM-INF-MUST-FHB1022-PARATRANS-01
 
 ## exam_signal
 ${assessmentResourceId} | tier 3 | undated | p2 Q10; printed answer p5
+${absalamPart2AssessmentResourceId} | tier 3 | 2025 | p8 Mosquitoes Q29; printed answer p9
 ${mosquitoResourceId} | tier 2 | undated | p44 direct university teaching
 
 ## original_wording
 Q10 asks which vector-control method is paratransgenesis; printed key A, biological using symbiont bacteria.
+Part 2 Mosquitoes Q29 asks the purpose of paratransgenesis in mosquito control; printed key A, to block parasite development in mosquitoes.
 
 ## merge_ids
 [clear]
@@ -6124,7 +6340,7 @@ Q10 asks which vector-control method is paratransgenesis; printed key A, biologi
 [clear]
 
 ## conflicts
-No key conflict affects authored Q10. Its printed A agrees with the university slide's direct symbiont-bacteria definition. Q2, Q3, Q4 and Q6 remain separate authoring holds.
+No key conflict affects authored Q10 or Part 2 Mosquitoes Q29. Both printed A answers agree with the university slide's direct symbiont-bacteria definition and purpose. Q2, Q3, Q4 and Q6 remain separate authoring holds.
 
 ## uncertainty
 The source uses a concise teaching definition; the Draft explanation does not extend beyond its stated mechanism.
@@ -6283,6 +6499,7 @@ Do not equate paratransgenesis with sterile-male techniques or with stocking lar
 
 ## hold_these
 Paratransgenesis uses symbiont bacteria to prevent later vector infection and disease transmission.
+Paratransgenesis blocks parasite development in mosquitoes by preventing adult vector infection.
 
 ## lose_the_mark
 Selecting sterile-male genetic control instead of the symbiont-bacteria method.
@@ -6293,6 +6510,11 @@ Claims: CLM-INF-MUST-FHB1022-PARATRANS-01
 Citations: CIT-INF-MUST-FHB1022-PARATRANS-01
 Reviewed by: pending medical review
 
+### Paratransgenesis blocks parasite development in mosquitoes by preventing adult vector infection.
+Claims: CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
+Citations: CIT-INF-MUST-FHB1022-MOSQ2-Q29-01
+Reviewed by: pending medical review
+
 ## related_concepts
 ${paratransConceptId}
 
@@ -6301,22 +6523,26 @@ ${articleId}: Cyclopropagative transmission in arthropod vectors
 
 ## question_ids
 QST-MUST-FHB1022-PARA-VECT-Q10
+QST-MUST-FHB1022-PARA-MOSQ2-Q29
 
 ## resource_ids
 ${mosquitoResourceId}
 ${assessmentResourceId}
+${absalamPart2AssessmentResourceId}
 
 ## article_source_ids
 ${mosquitoResourceId}
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-PARATRANS-01
+CLM-INF-MUST-FHB1022-MOSQ2-Q29-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-PARATRANS-01
+SPN-INF-MUST-FHB1022-MOSQ2-Q29-01
 
 ## university_notes
-must: Q10 comes from the governed FHB102-2 module-wide MCQ family and is directly corroborated by the university Parasitology Department mosquito-control lecture.
+must: Q10 and Absalam Part 2 Mosquitoes Q29 come from governed FHB102-2 question carriers and are directly corroborated by the university Parasitology Department mosquito-control lecture.
 
 ## annotations
 ### definition_of · ${paratransConceptId}
@@ -6333,13 +6559,14 @@ needs_evidence
 ## evidence_basis
 MUST Faculty of Medicine Parasitology Department, FHB102-2 Arthropod Vectors for Disease Transmission mosquito lecture, visually read pp1 and 44.
 Anonymous FHB102-2 MCQ bank, visually read p2 prompt Q10 and p5 printed answer A.
+Absalam101 Part 2, visually read p8 Mosquitoes Q29 and p9 printed answer A.
 
 ## evidence_gaps
 Independent standard-reference review is required before publication.
 Q2, Q3, Q4 and Q6 remain outside this article as explicit key-conflict holds.
 
 ## conflicts
-No key conflict affects authored Q10. The anonymous bank's printed A agrees with the university slide's symbiont-bacteria definition.
+No key conflict affects authored Q10 or Part 2 Mosquitoes Q29. Both printed A answers agree with the university slide's symbiont-bacteria definition and purpose.
 
 ## last_reviewed
 
@@ -6348,7 +6575,7 @@ No key conflict affects authored Q10. The anonymous bank's printed A agrees with
 
 
 ## notes
-Sixth bounded question-led slice only. Q10 is the sole newly authored question; no held item is represented as a student-facing record, and no record is authorised for upload.
+Exact-ID-safe expansion preserves the full governed Q10 content and adds Part 2 Mosquitoes Q29. No held item is represented as a student-facing record, and no record is authorised for upload.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -6514,6 +6741,158 @@ yes
 
 ## author_notes
 Printed source key: Q10 = A. The printed key agrees with the university teaching definition of paratransgenesis; no override was made.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MOSQ2-Q29
+
+## title
+What is the purpose of paratransgenesis in mosquito control?
+
+## question
+What is the purpose of paratransgenesis in mosquito control?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from ${absalamPart2AssessmentResourceId}; printed key checked against ${mosquitoResourceId} without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+To block parasite development in mosquitoes
+
+## explanation_a
+Correct. The official MUST lecture defines paratransgenesis as feeding symbiont bacteria to the larval stage so that adult mosquitoes do not become infected by viruses and parasites. Preventing adult infection blocks pathogen development and subsequent disease transmission. Therefore A is retained as the unchanged source-printed answer.
+
+## answer_b
+To sterilize mosquitoes
+
+## explanation_b
+Incorrect. Sterilising male mosquitoes is presented as a separate genetic-control measure. Paratransgenesis instead uses symbiont bacteria to prevent pathogen infection and development in the vector.
+
+## answer_c
+To attract mosquitoes to traps
+
+## explanation_c
+Incorrect. Light traps are a separate control method. Paratransgenesis changes vector competence through symbiont bacteria rather than attracting mosquitoes.
+
+## answer_d
+To increase mosquito lifespan
+
+## explanation_d
+Incorrect. The governed purpose is to prevent adult vector infection and interrupt transmission, not to prolong mosquito life. The supported answer is A.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+${paratransConceptId}
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.55
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Parasitology > Arthropods and vectors > Vector control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+${paratransArticleId}
+
+## resource_ids
+${absalamPart2AssessmentResourceId}
+${mosquitoResourceId}
+
+## learning_objective
+Identify blocking pathogen development in mosquitoes as the purpose of paratransgenesis.
+
+## source_citation
+Absalam101 Part 2, p8 Mosquitoes Q29, printed key p9 (Q29 = A); MUST Faculty of Medicine Parasitology Department mosquito-control lecture, p44.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mosquitoes Q29 = A. The wording, option order and key are preserved exactly. This record remains Draft/local-only and is not authorised for upload.
 `
 }
 
@@ -8324,7 +8703,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
-source question: Absalam ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Introduction Q${item.q}`}`))
+source question: ${introBankLabel(item)}`))
 }
 
 function introCitations() {
@@ -8349,16 +8728,16 @@ ${item.support}
 page
 
 ## locator_page
-${item.page}
+${item.teachingPages ?? item.teachingPage ?? item.page}
 
 ## locator_section
-Introduction to Medical Parasitology — ${item.microtopic}
+${item.teachingTitle ?? 'Introduction to Medical Parasitology'} — ${item.microtopic}
 
 ## locator_detail
-PDF page ${item.teachingPages ?? item.page}, visually read direct teaching statement.
+PDF page ${item.teachingPages ?? item.teachingPage ?? item.page}, visually read direct teaching statement.
 
 ## context_note
-The university-branded FHB102-2 deck directly supports the unchanged printed Q${item.q} answer ${item.key}.
+The university-branded FHB102-2 deck directly supports the unchanged printed ${introBankLabel(item)} answer ${item.key}.
 
 ## confidence
 0.9
@@ -8475,7 +8854,7 @@ ${relatedArticles}
 
 ## resource_ids
 ${[...new Set(group.map(introTeachingResource))].join('\n')}
-${absalamAssessmentResourceId}
+${[...new Set(group.map(introAssessmentResource))].join('\n')}
 
 ## approved_file_resource_ids
 [clear]
@@ -8517,8 +8896,8 @@ ${group.map(introClaimId).join('\n')}
 [clear]
 
 ## exam_signal
-${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage ?? '1–5'} ${entry.bankQ ? `Arthropoda Q${entry.bankQ} (global Q${entry.q}); printed answer p18` : `Q${entry.q}; printed answer p9`}`).join('\n')}
-${group.map((entry) => `${introTeachingResource(entry)} | tier 2 | ${entry.teachingResourceId ? '2022-04-01' : 'undated'} | p${entry.teachingPages ?? entry.page} direct university teaching`).join('\n')}
+${group.map((entry) => `${introAssessmentResource(entry)} | tier 3 | 2025 | p${entry.assessmentPage ?? '1–5'} ${introBankLabel(entry)}; printed answer p${introAnswerPage(entry)}`).join('\n')}
+${group.map((entry) => `${introTeachingResource(entry)} | tier 2 | ${entry.teachingResourceId ? '2022-04-01' : 'undated'} | p${entry.teachingPages ?? entry.teachingPage ?? entry.page} direct university teaching`).join('\n')}
 
 ## original_wording
 ${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained in their original order.`).join('\n')}
@@ -8530,7 +8909,7 @@ ${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained
 ${rejectedIds}
 
 ## conflicts
-${group.map((entry) => `No key conflict affects authored Absalam Introduction Q${entry.q}. Its printed ${entry.key} agrees with the governed university teaching statement.`).join(' ')} Held questions remain outside this concept.
+${group.map((entry) => `No key conflict affects authored ${introBankLabel(entry)}. Its printed ${entry.key} agrees with the governed university teaching statement.`).join(' ')} Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -8813,6 +9192,60 @@ The paired teaching distinguishes controlled therapeutic larval use from acciden
 ### Common misconceptions
 Do not silently rewrite the source's “Diabetes foot ulcers” wording. Keeping flies, increasing humidity and avoiding antibiotics are not substitutes for cleaning and protecting a wound.`,
   },
+  mosquitoBiology: {
+    title: 'Mosquito taxonomy, morphology, life cycle and bionomics', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito biology',
+    summary: 'Mosquitoes are dipteran insects with complete metamorphosis. Their aquatic immature stages, adult morphology, female parasitic habit and characteristic bionomics support genus and stage recognition.',
+    sections: `### Definition
+Mosquitoes belong to class Insecta and order Diptera and undergo complete metamorphosis. Eggs, larvae and pupae are aquatic immature stages.
+
+### Mechanism
+The female piercing-sucking proboscis supports temporary obligatory ectoparasitism. Anopheles rests at 45 degrees and its larvae remain closest to the surface because they lack a siphon. Culex produces an annoying hum. Pupae do not feed, a blood meal stimulates ovulation, and bright light plus dark clothes attract mosquitoes.
+
+### Key determinants
+Insecta and Diptera define taxonomy; 45-degree resting identifies Anopheles; an annoying hum identifies Culex; non-feeding identifies the pupa.
+
+### Clinical significance
+These recognition features organise the mosquito life cycle and help distinguish medically important genera before disease-vector associations are applied.
+
+### Common misconceptions
+Do not treat Culex or Aedes as the 45-degree resting genus. Do not classify pupae as feeding larvae or omit eggs and pupae from the aquatic boundary.`,
+  },
+  mosquitoDiseases: {
+    title: 'Mosquito-borne disease and transmission patterns', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito-borne disease',
+    summary: 'The MUST teaching deck links maternal Zika infection to congenital microcephaly and classifies Culex transmission of Wuchereria bancrofti as cyclodevelopmental.',
+    sections: `### Definition
+Mosquito genera transmit characteristic pathogens through biological transmission patterns. The bounded clean items cover Zika-associated congenital microcephaly and Culex-borne filariasis.
+
+### Mechanism
+Maternal Zika infection during pregnancy is associated with congenital microcephaly. In Culex, Wuchereria bancrofti develops to the infective filariform stage without multiplication, giving cyclodevelopmental transmission.
+
+### Key determinants
+Congenital microcephaly selects Zika virus. Culex filariasis selects cyclodevelopmental transmission.
+
+### Clinical significance
+Pairing disease manifestations with vector biology helps distinguish arboviral pregnancy effects from helminth developmental transmission.
+
+### Common misconceptions
+Do not substitute malaria, yellow fever or Rift Valley fever for the governed Zika association. Do not label Wuchereria transmission propagative or cyclopropagative.`,
+  },
+  mosquitoControl: {
+    title: 'Integrated mosquito control methods', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Mosquito control',
+    summary: 'Mosquito control combines physical breeding-site management, biological enemies, chemical larvicides and adulticides, mechanical barriers and genetic approaches.',
+    sections: `### Definition
+Integrated mosquito control targets aquatic stages and adults through physical, biological, chemical, mechanical and genetic methods.
+
+### Mechanism
+Gambusia fish and Bacillus thuringiensis provide biological control. Draining swamps is physical control. DDT and Malathion are chemical residual insecticides, although DDT persistence, accumulation and toxicity discourage its use. Window screens are mechanical control. Paris green is a stomach poison that kills feeding larvae but not non-feeding pupae.
+
+### Key determinants
+Gambusia and Bacillus thuringiensis identify biological control; drainage identifies physical control; DDT and Malathion identify chemical control; window screens identify mechanical control; Paris green identifies larvicidal-only stomach poisoning.
+
+### Clinical significance
+Method classification links mosquito bionomics to practical prevention and supports recognition of stage-specific interventions.
+
+### Common misconceptions
+Do not classify insecticide spraying as mechanical control or fish as chemical control. Pyrethrum is non-residual in the governed comparison, while Malathion is residual.`,
+  },
 } }
 
 function introArticleRecords() {
@@ -8821,6 +9254,7 @@ function introArticleRecords() {
     const articleItems = introItems.filter((item) => item.article === key)
     const related = introArticleRelations[key].map((other) => `${introArticles[other]}: ${introArticleTitle(other, introArticleData)}`).join('\n')
     const teachingResources = [...new Set(articleItems.map(introTeachingResource))]
+    const assessmentResources = [...new Set(articleItems.map(introAssessmentResource))]
     return `# Item
 
 ## id
@@ -8908,6 +9342,9 @@ ${article.summary}
 ## sections
 ${article.sections}
 
+### Exam-linked statements
+${[...new Set(articleItems.map((item) => item.claim))].join('\n')}
+
 ## published_summary
 
 
@@ -8924,7 +9361,7 @@ ${articleItems.map((item) => item.pitfalls).join('\n')}
 ${articleItems.map((item) => `### ${item.claim}\nClaims: ${introClaimId(item)}\nCitations: ${introCitationId(item)}\nReviewed by: pending medical review`).join('\n\n')}
 
 ## related_concepts
-${articleItems.map((item) => item.conceptId).join('\n')}
+${[...new Set(articleItems.map((item) => item.conceptId))].join('\n')}
 
 ## related_articles
 ${related}
@@ -8934,7 +9371,7 @@ ${articleItems.map(introQuestionId).join('\n')}
 
 ## resource_ids
 ${teachingResources.join('\n')}
-${absalamAssessmentResourceId}
+${assessmentResources.join('\n')}
 
 ## article_source_ids
 ${teachingResources.join('\n')}
@@ -8949,7 +9386,7 @@ ${articleItems.map(introSpanId).join('\n')}
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
 
 ## annotations
-${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.claim}\nBlock: body\nId: ann-must-fhb1022-intro-q${String(item.q).padStart(2, '0')}`).join('\n\n')}
+${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.claim}\nBlock: body\nId: ann-must-fhb1022-${introPrefix(item).toLowerCase()}-q${String(item.q).padStart(2, '0')}`).join('\n\n')}
 
 ## media
 
@@ -8959,7 +9396,7 @@ needs_evidence
 
 ## evidence_basis
 Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
-Absalam101 Part 1 revision bank, visually read on the exact prompt pages and the corresponding printed answer tables.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
 
 ## evidence_gaps
 Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
@@ -9019,7 +9456,7 @@ Dr. Omar
 single best answer
 
 ## derived_from
-Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${introTeachingResource(item)} without treating the student bank as an authenticated faculty key.
+Transcribed verbatim from ${introAssessmentResource(item)}; printed key checked against ${introTeachingResource(item)} without treating the student bank as an authenticated faculty key.
 
 ## correct_answer
 ${item.key}
@@ -9093,14 +9530,14 @@ MUST_Y1
 ${introArticles[item.article]}
 
 ## resource_ids
-${absalamAssessmentResourceId}
+${introAssessmentResource(item)}
 ${introTeachingResource(item)}
 
 ## learning_objective
 ${item.objective}
 
 ## source_citation
-Absalam101 Part 1, p${item.assessmentPage ?? '1–5'} ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q}), printed key p18 (${item.bankQ} = ${item.key})` : `Q${item.q}, printed key p9 (${item.q} = ${item.key})`}; MUST FHB102-2 ${item.teachingResourceId ? 'Flies and Myiasis' : 'Introduction to Medical Parasitology'}, p${item.teachingPages ?? item.page}.
+${introBankSourceTitle(item)}, p${item.assessmentPage ?? '1–5'} ${introBankLabel(item)}, printed key p${introAnswerPage(item)} (${item.bankQ ?? item.q} = ${item.key}); MUST FHB102-2 ${item.teachingTitle ?? (item.teachingResourceId ? 'Flies and Myiasis' : 'Introduction to Medical Parasitology')}, p${item.teachingPages ?? item.teachingPage ?? item.page}.
 
 ## attached_image
 
@@ -9118,7 +9555,7 @@ Absalam101 Part 1, p${item.assessmentPage ?? '1–5'} ${item.bankQ ? `Arthropoda
 yes
 
 ## author_notes
-Printed source key: ${item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Q${item.q}`} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}${item.q === 53 ? 'Q53 preserves the source\'s “species” wording although Lucilia and Sarcophaga are genus names; this taxonomy-form risk is disclosed and not silently corrected. ' : ''}${item.q === 54 ? 'Q54 preserves the source\'s literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot; the wording is disclosed and not silently corrected. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
+Printed source key: ${introBankLabel(item)} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 && !item.idPrefix ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 && !item.idPrefix ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}${item.q === 53 ? 'Q53 preserves the source\'s “species” wording although Lucilia and Sarcophaga are genus names; this taxonomy-form risk is disclosed and not silently corrected. ' : ''}${item.q === 54 ? 'Q54 preserves the source\'s literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot; the wording is disclosed and not silently corrected. ' : ''}${item.idPrefix === 'MOSQ2' && item.q === 9 ? 'The source option “Larve” is retained exactly and disclosed rather than silently repaired. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
   }))
 }
 
@@ -9223,12 +9660,20 @@ function generatedItems(items) {
   return `<!-- Generated by scripts/must/build-fhb102-2-authoring-slice.mjs. -->\n\n${items.join('\n\n---\n\n')}`
 }
 
-function introClaimId(item) { return `CLM-INF-MUST-FHB1022-INTRO-Q${String(item.q).padStart(2, '0')}-01` }
-function introCitationId(item) { return `CIT-INF-MUST-FHB1022-INTRO-Q${String(item.q).padStart(2, '0')}-01` }
-function introSpanId(item) { return `SPN-INF-MUST-FHB1022-INTRO-Q${String(item.q).padStart(2, '0')}-01` }
-function introQuestionId(item) { return `QST-MUST-FHB1022-PARA-INTRO-Q${String(item.q).padStart(2, '0')}` }
+function introPrefix(item) { return item.idPrefix ?? 'INTRO' }
+function introClaimId(item) { return `CLM-INF-MUST-FHB1022-${introPrefix(item)}-Q${String(item.q).padStart(2, '0')}-01` }
+function introCitationId(item) { return `CIT-INF-MUST-FHB1022-${introPrefix(item)}-Q${String(item.q).padStart(2, '0')}-01` }
+function introSpanId(item) { return `SPN-INF-MUST-FHB1022-${introPrefix(item)}-Q${String(item.q).padStart(2, '0')}-01` }
+function introQuestionId(item) { return `QST-MUST-FHB1022-PARA-${introPrefix(item)}-Q${String(item.q).padStart(2, '0')}` }
 function introArticleSectionId(key) { return `${introArticles[key].toLowerCase()}-definition` }
 function introTeachingResource(item) { return item.teachingResourceId ?? introTeachingResourceId }
+function introAssessmentResource(item) { return item.assessmentResourceId ?? absalamAssessmentResourceId }
+function introAnswerPage(item) { return item.answerPage ?? (item.bankQ ? 18 : 9) }
+function introBankSourceTitle(item) { return item.idPrefix === 'MOSQ2' ? 'Absalam101 Part 2' : 'Absalam101 Part 1' }
+function introBankLabel(item) {
+  if (item.idPrefix === 'MOSQ2') return `Mosquitoes Q${item.bankQ}`
+  return item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Introduction Q${item.q}`
+}
 function introArticleTitle(key, data) {
   if (data[key]) return data[key].title
   if (key === 'sarcophaga') return 'Sarcophaga identification in traumatic wound myiasis'
@@ -10084,6 +10529,27 @@ function microCoverage() {
 - **Q148 is held in the Absalam Pharmacology family as an unsupported formulation-wording hold.** The bank prints B, Procaine penicillin (Penicillin G), as a long-acting IM formulation. Governed teaching lists procaine penicillin as a depot IM preparation dosed every 12–24 hours but explicitly labels only benzathine penicillin as long-acting. No equivalence was inferred.
 
 `
+  const mosquitoDelta = `### Absalam Part 2 Mosquitoes Q1–Q30 delta
+
+- +1 evidence resource: the 56-page Absalam101 Part 2 assessment bank; Mosquitoes prompts and options were visually governed on pages 1–8 and the printed answer table on page 9. The existing 47-page official MUST Mosquitoes teaching resource is reused.
+- +22 verified local-curriculum claims, +22 citations and +22 article spans for Mosquitoes Q1–Q4, Q6–Q10, Q15, Q17–Q19, Q21–Q24 and Q26–Q30.
+- +20 under-review / needs-evidence concepts. Q1 and Q2 share one mosquito-development identity, while Q29 reuses and safely expands the exact paratransgenesis concept rather than creating a duplicate.
+- +3 standalone-complete reciprocal Draft articles and +22 Draft questions. The existing paratransgenesis article is expanded by exact ID without changing its identity or removing any prior content or relationships.
+- +8 explicit identity/dependency holds with no student-facing record: Mosquitoes Q5, Q11–Q14, Q16, Q20 and Q25.
+- Every authored stem, option and printed key is unchanged, including Q9's source spelling “Larve”. The student bank remains tier 3 assessment evidence; the official MUST deck supplies teaching evidence but does not authenticate the bank key.
+- Absalam Part 2 Mosquitoes Q1–Q30: **22 authored / 8 held / 0 unassessed**. The next source boundary is Sandfly Q1–Q30 on assessment pages 10–18.
+
+`
+  const mosquitoHolds = `- **Mosquitoes Q5 is held as an identity/dependency hold.** Printed B, Thorax, is cleanly supported by official teaching page 6, but exact raw candidate \`concept_e5ff93a03d9d8361b0a8bbf1\` already occupies the identity. No duplicate or unsafe raw-candidate merge was created.
+- **Mosquitoes Q11 is held as an identity/dependency hold.** Printed B, Malaria, is cleanly supported by official teaching pages 14–17, but exact raw candidates \`concept_7482060cb7f283619c078023\` and \`concept_c85bd6a9786422a574f8a50a\` already occupy this scope, which also overlaps the prior Part 1 Anopheles-malaria hold. No duplicate was minted.
+- **Mosquitoes Q12 is held as a dependency-chain hold.** Printed B, Cyclopropagative, is cleanly supported by official teaching pages 14–15, but existing \`CON-INF-23265735EECCA1\` and \`ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE\` remain in the same unsafe dependency chain that held prior Part 1 Q36 and Q42. No duplicate or partial exact-ID update was created.
+- **Mosquitoes Q13 is held as an identity/dependency hold.** Printed C, Head, is cleanly supported by official teaching page 19, but exact raw candidate \`concept_67e667ad81d088a8265cb35b\` already occupies the identity. No duplicate or unsafe merge was created.
+- **Mosquitoes Q14 is held as an identity/dependency hold.** Printed A, Long palp, is cleanly supported by official teaching page 27, but exact raw candidate \`concept_cfb7223e74ffec3dd67afaa0\` already occupies the identity. No duplicate or unsafe merge was created.
+- **Mosquitoes Q16 is held as an identity/dependency hold.** Printed C, Bends upwards during penetration, is cleanly supported by official teaching page 27, but exact raw candidate \`concept_a0aff0c30fa4c2646a6e9ddf\` already occupies the identity. No duplicate or unsafe merge was created.
+- **Mosquitoes Q20 is held as an identity/dependency hold.** Printed C, 3, is cleanly supported by official teaching pages 14–15, but exact raw candidates \`concept_d4f5e10459aea16bd4fe67ac\` and \`concept_e3a15998a42152b368395e79\` already occupy the salivary-gland and lobe-count scope. No duplicate or unsafe merge was created.
+- **Mosquitoes Q25 is held as an identity/dependency hold.** Printed A, Eggs are laid singly, is cleanly supported by official teaching page 41, but exact raw candidate \`concept_56ba665277758beb236f7371\` already occupies the identity. No duplicate or unsafe merge was created.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -10108,24 +10574,38 @@ function microCoverage() {
     .replace('| Articles | 25 |', '| Articles | 27 |')
     .replace('| Questions | 57 |', '| Questions | 76 |')
     .replace('| Question authoring holds | 94 |', '| Question authoring holds | 105 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}`)
+    .replace('| Evidence resources | 24 |', '| Evidence resources | 25 |')
+    .replace('| Claims | 76 |', '| Claims | 98 |')
+    .replace('| Citations | 81 |', '| Citations | 103 |')
+    .replace('| Article spans | 76 |', '| Article spans | 98 |')
+    .replace('| Concepts | 69 |', '| Concepts | 89 |')
+    .replace('| Articles | 27 |', '| Articles | 30 |')
+    .replace('| Questions | 76 |', '| Questions | 98 |')
+    .replace('| Question authoring holds | 105 |', '| Question authoring holds | 113 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
     .replace('Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations', 'Governed answer observations: 5,211 total; 57 clean source-keyed prompts authored; **5,154 raw answer observations remain**, including the 94 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds', 'Governed prompt observations: 5,444 total; 76 authored; **5,368 raw prompt observations remain**, including 105 explicit holds')
     .replace('Governed answer observations: 5,211 total; 57 clean source-keyed prompts authored; **5,154 raw answer observations remain**, including the 94 held printed-key observations', 'Governed answer observations: 5,211 total; 76 clean source-keyed prompts authored; **5,135 raw answer observations remain**, including the 105 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 76 authored; **5,368 raw prompt observations remain**, including 105 explicit holds', 'Governed prompt observations: 5,444 total; 98 authored; **5,346 raw prompt observations remain**, including 113 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 76 clean source-keyed prompts authored; **5,135 raw answer observations remain**, including the 105 held printed-key observations', 'Governed answer observations: 5,211 total; 98 clean source-keyed prompts authored; **5,113 raw answer observations remain**, including the 113 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
+    .replace('Record-level backlog is not asserted as 5,368 unique records', 'Record-level backlog is not asserted as 5,346 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
     .replace('All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts', 'All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts')
+    .replace('All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts', 'All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
+    .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
 }
