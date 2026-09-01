@@ -1,0 +1,55 @@
+// scripts/content/emit-mcq.test.mjs
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { spawnSync } from 'node:child_process';
+import { readFileSync, writeFileSync, mkdtempSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import path from 'node:path';
+
+const SEED = 'scripts/content/fixtures/seed/ASU-MBG-cancer-example.json';
+const run = (...a) => spawnSync('node', ['scripts/content/emit-mcq.mjs', ...a], { encoding: 'utf8' });
+
+test('emits one record per non-held question in the hand-authored field order', () => {
+  const r = run(SEED);
+  assert.equal(r.status, 0, r.stderr);
+  const md = r.stdout;
+  assert.equal((md.match(/^# Item$/mg) ?? []).length, 1);          // q02 is held
+  const order = [...md.matchAll(/^## (\w+)$/mg)].map((m) => m[1]);
+  const expectedStart = ['id', 'title', 'question', 'subject', 'status', 'owner', 'vignette', 'correct_answer', 'answer_a', 'explanation_a'];
+  assert.deepEqual(order.slice(0, expectedStart.length), expectedStart);
+  assert.ok(order.includes('author_notes'));
+  assert.match(md, /^QST-ASUMBG-CANCER-Q01$/m);
+  assert.match(md, /^keySource: printed answer table p\.30$/m);
+});
+
+test('is deterministic', () => {
+  assert.equal(run(SEED).stdout, run(SEED).stdout);
+});
+
+test('rejects a correct explanation under 3 sentences', () => {
+  const seed = JSON.parse(readFileSync(SEED, 'utf8'));
+  seed.questions[0].explanations.B = 'Correct. Short.';
+  const f = path.join(mkdtempSync(path.join(tmpdir(), 'seed-')), 's.json');
+  writeFileSync(f, JSON.stringify(seed));
+  const r = run(f);
+  assert.equal(r.status, 1);
+  assert.match(r.stdout + r.stderr, /cancer-q01.*explanation for correct answer B has 2 sentences/);
+});
+
+test('rejects an option starting with +', () => {
+  const seed = JSON.parse(readFileSync(SEED, 'utf8'));
+  seed.questions[0].options.A = '+RAS';
+  const f = path.join(mkdtempSync(path.join(tmpdir(), 'seed-')), 's.json');
+  writeFileSync(f, JSON.stringify(seed));
+  assert.equal(run(f).status, 1);
+});
+
+test('generated batch passes medical:batch standalone', () => {
+  const out = path.join(mkdtempSync(path.join(tmpdir(), 'batch-')), 'ASU-MBG-cancer-mcq.md');
+  assert.equal(run(SEED, '--out', out).status, 0);
+  const g = spawnSync('node', ['--experimental-strip-types', 'scripts/validate-content-batch.mjs', out], { encoding: 'utf8' });
+  const j = JSON.parse(g.stdout.slice(g.stdout.indexOf('{')));
+  // The fixture's concept ids are placeholders, so only structural errors are disallowed:
+  const structural = j.errors.filter((e) => !/concept|library_ids|resource/i.test(JSON.stringify(e)));
+  assert.deepEqual(structural, [], JSON.stringify(j.errors, null, 1));
+});
