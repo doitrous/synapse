@@ -1,0 +1,3432 @@
+<!--
+  ASU-MBG · Gene Therapy — authored from the ASU-MBG Gene Therapy chapter (same 'EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf' source as the closed Molecular Biology of Cancer chapter), keys read from the printed 'Answers of Gene Therapy' table, PDF p.43.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q01
+
+## title
+Process to insert normal gene into human cells
+
+## question
+Which process is used to insert normal gene into human cells to correct disorders?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Gene therapy
+
+## explanation_a
+Correct. Gene therapy is defined as inserting a normal copy of a gene into a patient's cells to correct a disorder caused by a defective or missing gene. It acts directly on the genetic defect itself, rather than on the protein product, the antigen, or the whole cell. This is the definition tested repeatedly across this chapter, including a near-identical restatement later in the same question set.
+
+## answer_b
+Live vector vaccines
+
+## explanation_b
+Incorrect. Live vector vaccines deliver an antigen to provoke an immune response for prevention of infectious disease, not a corrective gene for a genetic disorder.
+
+## answer_c
+Molecular cloning
+
+## explanation_c
+Incorrect. Molecular cloning is the laboratory technique used to propagate and manipulate DNA constructs; it is not itself the clinical act of correcting a patient's disorder.
+
+## answer_d
+Stem cell therapy
+
+## explanation_d
+Incorrect. Stem cell therapy replaces or regenerates cells; it does not itself involve inserting a normal gene into the patient's existing cells.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-06F6AE69D9BD8D
+
+## concept_ids
+CON-FND-06F6AE69D9BD8D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define gene therapy as gene insertion to correct a disorder, distinguishing it from live vector vaccines, molecular cloning and stem cell therapy.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q02
+
+## title
+Heritability of germline gene therapy
+
+## question
+Gene therapy targeting the germline is...
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Heritable
+
+## explanation_a
+Correct. Germline gene therapy modifies reproductive cells — sperm, eggs, or the early embryo. Because these cells give rise to the next generation, any correction made to them is passed on to the patient's offspring. This heritability is exactly why germline gene therapy raises safety and ethical concerns that somatic gene therapy does not, and why it is not used in current clinical practice.
+
+## answer_b
+Not heritable
+
+## explanation_b
+Incorrect. "Not heritable" describes somatic gene therapy, which targets non-reproductive body cells instead of the germline.
+
+## answer_c
+Sometimes heritable
+
+## explanation_c
+Incorrect. Germline gene therapy is consistently heritable, not sometimes — the outcome follows directly from which cell line was targeted.
+
+## answer_d
+Unrelated to heritability
+
+## explanation_d
+Incorrect. Heritability is precisely the property that distinguishes germline from somatic gene therapy; it is not unrelated to which line was targeted.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-06F6AE69D9BD8D
+
+## concept_ids
+CON-FND-06F6AE69D9BD8D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that germline gene therapy is heritable because it modifies reproductive cells.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q03
+
+## title
+Heritability of somatic gene therapy
+
+## question
+Gene therapy targeting the Somatic line is...
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Heritable
+
+## explanation_a
+Incorrect. "Heritable" describes germline gene therapy, which targets reproductive cells rather than the somatic line.
+
+## answer_b
+Not heritable
+
+## explanation_b
+Correct. Somatic gene therapy modifies non-reproductive body cells only. Because these cells are not passed on to offspring, any correction made is confined to the treated individual and dies with that individual's own cells. This is why somatic gene therapy — not germline — is the only form currently used in clinical practice: it avoids the transmission-to-offspring concern that germline modification raises.
+
+## answer_c
+Sometimes heritable
+
+## explanation_c
+Incorrect. Somatic gene therapy is consistently not heritable, not sometimes — the outcome follows directly from which cell line was targeted.
+
+## answer_d
+Unrelated to heritability
+
+## explanation_d
+Incorrect. Heritability is precisely the property that distinguishes somatic from germline gene therapy; it is not unrelated to which line was targeted.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-06F6AE69D9BD8D
+
+## concept_ids
+CON-FND-06F6AE69D9BD8D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that somatic gene therapy is not heritable because it modifies non-reproductive body cells only.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q04
+
+## title
+Normal source of restriction endonucleases
+
+## question
+Restriction endonucleases are present normally in
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Virus
+
+## explanation_a
+Incorrect. Restriction endonucleases are not viral enzymes — viruses are, in fact, one of the foreign-DNA targets these bacterial enzymes evolved to cut up.
+
+## answer_b
+Bacteria
+
+## explanation_b
+Correct. Restriction endonucleases occur normally in bacteria, where they form part of a restriction-modification defence system. This system cuts up foreign DNA, such as that of an invading bacteriophage, while the bacterium's own DNA is protected from the same cut by methylation at the recognition sites. This bacterial origin is also why restriction enzyme names (like EcoRI) are typically derived from the bacterial species they were isolated from.
+
+## answer_c
+Plant cell
+
+## explanation_c
+Incorrect. Restriction endonucleases are not a normal plant-cell enzyme system; they are bacterial in origin.
+
+## answer_d
+Human cell
+
+## explanation_d
+Incorrect. Restriction endonucleases are not a normal human-cell enzyme system; they are bacterial in origin, which is exactly why they are harvested from bacteria for use as laboratory tools.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-C444D428BE3E1D
+
+## concept_ids
+CON-FND-C444D428BE3E1D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that restriction endonucleases occur normally in bacteria as part of a defence system against foreign DNA.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q05
+
+## title
+What restriction endonucleases recognize
+
+## question
+Restriction endonucleases can recognize
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Palindromic sequences
+
+## explanation_a
+Correct. Restriction endonucleases recognize a specific palindromic sequence — a double-stranded sequence that reads identically 5' to 3' on both strands, so its reverse complement equals itself. This site-specific recognition, rather than random cutting, is what makes restriction enzymes precise and reproducible tools. It is exactly this property that lets a target DNA segment and a vector cut with the same enzyme be joined at matching, predictable positions.
+
+## answer_b
+Chimeric DNA
+
+## explanation_b
+Incorrect. Chimeric DNA is the product formed later in the cloning workflow by joining two DNA segments together; it is not what a restriction endonuclease recognizes as its cutting target.
+
+## answer_c
+DNA RNA hybrids
+
+## explanation_c
+Incorrect. Restriction endonucleases act on double-stranded DNA at specific sequences, not on DNA-RNA hybrid molecules.
+
+## answer_d
+Homopolymer sequences
+
+## explanation_d
+Incorrect. A homopolymer sequence (a run of one repeated base) is not the palindromic double-stranded sequence restriction endonucleases are defined by recognizing.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-C444D428BE3E1D
+
+## concept_ids
+CON-FND-C444D428BE3E1D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that restriction endonucleases recognize specific palindromic sequences.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q06
+
+## title
+Structure of a bacterial plasmid vector
+
+## question
+Bacterial plasmid used in molecular cloning is a
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Single stranded linear DNA
+
+## explanation_a
+Incorrect. A bacterial plasmid is not single stranded, and it is not linear.
+
+## answer_b
+Single stranded circular DNA
+
+## explanation_b
+Incorrect. A bacterial plasmid is not single stranded; it is a double-stranded molecule.
+
+## answer_c
+Double stranded linear DNA
+
+## explanation_c
+Incorrect. A bacterial plasmid is not linear; it is a circular molecule.
+
+## answer_d
+Double stranded circular DNA
+
+## explanation_d
+Correct. The bacterial plasmid used as the standard vector in molecular cloning is a double-stranded, circular DNA molecule. Its circularity is why it has no free ends to start with, which matters directly for how many fragments a restriction enzyme produces when cutting it. Being circular and double-stranded also lets it replicate autonomously inside a host bacterial cell, one of the essential features a functional vector must have.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-3893485BBEEC06
+
+## concept_ids
+CON-FND-3893485BBEEC06
+
+## contextual_concept_ids
+CON-FND-1F3840652F24F8
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the bacterial plasmid vector used in molecular cloning is double-stranded circular DNA.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q07
+
+## title
+Fragment count — linear DNA, three sites
+
+## question
+If a linear piece of DNA has three sites for a particular restriction enzyme, into how many fragments will that restriction enzyme cut the DNA?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+2
+
+## explanation_a
+Incorrect. Two fragments would result from only one cut site on a linear molecule, not three.
+
+## answer_b
+4
+
+## explanation_b
+Correct. A linear piece of DNA already has two free ends before any cut is made. Each additional cut at one of the enzyme's recognition sites adds exactly one more fragment, so n cut sites on a linear molecule produce n+1 fragments. With three sites, that gives 3+1 = 4 fragments.
+
+## answer_c
+3
+
+## explanation_c
+Incorrect. Three fragments is the answer for a circular molecule with three cut sites, not a linear one — the linear and circular counting rules are different and must not be swapped.
+
+## answer_d
+5
+
+## explanation_d
+Incorrect. Five fragments would require four cut sites on a linear molecule (4+1 = 5), not three.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-1F3840652F24F8
+
+## concept_ids
+CON-FND-1F3840652F24F8
+
+## contextual_concept_ids
+CON-FND-C444D428BE3E1D
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Calculate that a linear DNA molecule cut at n restriction sites yields n+1 fragments.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q08
+
+## title
+Fragment count — circular DNA, three sites
+
+## question
+If a circular piece of DNA has three sites for a particular restriction enzyme, into how many fragments will that restriction enzyme cut the DNA?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+2
+
+## explanation_a
+Incorrect. Two fragments does not match the n-fragments rule for a circular molecule with three cut sites.
+
+## answer_b
+4
+
+## explanation_b
+Incorrect. Four fragments is the answer for a linear molecule with three cut sites (n+1), not a circular one — the two rules are different and must not be swapped.
+
+## answer_c
+3
+
+## explanation_c
+Correct. A circular piece of DNA, such as a plasmid, has no free ends to start with. Every cut both creates a new fragment and closes off the fragment before it, so n cut sites on a circular molecule produce exactly n fragments. With three sites, that gives exactly 3 fragments.
+
+## answer_d
+5
+
+## explanation_d
+Incorrect. Five fragments does not match the n-fragments rule for a circular molecule with three cut sites.
+
+## answer_e
+The answer cannot be predicted
+
+## explanation_e
+Incorrect. The number of fragments is always predictable once the molecule's topology (linear vs circular) and the number of cut sites are both known; it is not unpredictable here.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-1F3840652F24F8
+
+## concept_ids
+CON-FND-1F3840652F24F8
+
+## contextual_concept_ids
+CON-FND-C444D428BE3E1D
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Calculate that a circular DNA molecule cut at n restriction sites yields exactly n fragments.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.41
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.41
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q09
+
+## title
+Identifying a restriction site
+
+## question
+Which of the following is a restriction site?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+ACGGCCGT
+
+## explanation_a
+Correct. A restriction site must be palindromic — its reverse complement must equal the original sequence. Taking the complement of ACGGCCGT gives TGCCGGCA, and reversing that complement gives back ACGGCCGT, which is identical to the original. Because the sequence equals its own reverse complement, ACGGCCGT is a genuine palindromic restriction site.
+
+## answer_b
+ACGCCGGT
+
+## explanation_b
+Incorrect. ACGCCGGT's reverse complement does not equal ACGCCGGT itself, so it fails the palindrome test that defines a restriction site.
+
+## answer_c
+ACGGACGG
+
+## explanation_c
+Incorrect. ACGGACGG's reverse complement does not equal ACGGACGG itself, so it fails the palindrome test that defines a restriction site.
+
+## answer_d
+ATCGGCTA
+
+## explanation_d
+Incorrect. ATCGGCTA's reverse complement does not equal ATCGGCTA itself, so it fails the palindrome test that defines a restriction site.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-C444D428BE3E1D
+
+## concept_ids
+CON-FND-C444D428BE3E1D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify a palindromic restriction site by comparing a sequence to its own reverse complement.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q10
+
+## title
+Meaning of chimeric DNA in cloning
+
+## question
+Cloning technology involves the formation of chimeric DNA, that means
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Plasmid
+
+## explanation_a
+Incorrect. A plasmid is the vector used to carry the inserted DNA; it is not itself the definition of "chimeric DNA formation."
+
+## answer_b
+A target DNA segment
+
+## explanation_b
+Incorrect. "A target DNA segment" names only one of the two components joined to form chimeric DNA, not the joining (coupling) itself that the term describes.
+
+## answer_c
+Coupling human and bacterial DNAs together
+
+## explanation_c
+Correct. Chimeric DNA is formed by coupling DNA from two different sources together — in this course's worked example, human (target gene) and bacterial (vector) DNA. The resulting joined molecule is also called hybrid or recombinant DNA, three names for the same product. This coupling step is the central event of the molecular cloning workflow, sitting between excising the target DNA and transfecting it into a host cell.
+
+## answer_d
+Bacterial DNA
+
+## explanation_d
+Incorrect. "Bacterial DNA" alone names only the vector's origin, not the coupling of two different sources that defines chimeric DNA formation.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-3893485BBEEC06
+
+## concept_ids
+CON-FND-3893485BBEEC06
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define chimeric DNA as the product of coupling DNA from two different sources together.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q11
+
+## title
+Definition of sticky ends
+
+## question
+In sticky ends produced by restriction endonucleases
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The 2 strands of DNA are joined to each other
+
+## explanation_a
+Incorrect. Sticky ends are not about the two strands of one fragment being joined to each other; the two strands remain separate, with one strand overhanging the other at each end.
+
+## answer_b
+The DNA strands stick to the restriction endonuclease
+
+## explanation_b
+Incorrect. "Sticky" does not mean the DNA strands stick to the restriction enzyme itself; the enzyme is no longer bound once the cut is made, and the name instead refers to the overhang's ability to base-pair with a complementary overhang.
+
+## answer_c
+The ends of a double stranded fragment are overlapping
+
+## explanation_c
+Correct. Sticky ends occur when the enzyme cuts the two strands at staggered positions, leaving a short single-stranded overhang on each fragment end. Because the two overhangs from a cut by the same enzyme are complementary, the ends of a double-stranded fragment are described as overlapping. This overlap is what lets sticky-end fragments re-anneal specifically, which is exactly why sticky-end cutters are preferred for directional molecular cloning.
+
+## answer_d
+The ends of a double stranded fragment are non overlapping
+
+## explanation_d
+Incorrect. "Non overlapping" describes blunt ends, the opposite of sticky ends, not sticky ends themselves.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-744B37261093E4
+
+## concept_ids
+CON-FND-744B37261093E4
+
+## contextual_concept_ids
+CON-FND-C444D428BE3E1D
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define sticky ends as overlapping (single-stranded overhang) fragment ends.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q12
+
+## title
+Definition of blunt ends
+
+## question
+In blunt ends produced by restriction endonucleases
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The 2 strands of DNA are joined to each other
+
+## explanation_a
+Incorrect. Blunt ends are not about the two strands of one fragment being joined to each other; each fragment still has its own two separate strands.
+
+## answer_b
+The DNA strands stick to the restriction endonuclease
+
+## explanation_b
+Incorrect. Blunt ends are not defined by the DNA strands sticking to the restriction enzyme; the enzyme is no longer bound once the cut is made.
+
+## answer_c
+The ends of a double stranded fragment are overlapping
+
+## explanation_c
+Incorrect. "Overlapping" describes sticky ends, the opposite of blunt ends, not blunt ends themselves.
+
+## answer_d
+The ends of a double stranded fragment are non overlapping
+
+## explanation_d
+Correct. Blunt ends occur when the enzyme cuts both strands at the same position, leaving no single-stranded overhang. The ends of a double-stranded fragment are therefore described as non-overlapping, or flush. Joining two blunt ends in a cloning reaction relies on non-specific ligation rather than the complementary base-pairing available to sticky ends.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-744B37261093E4
+
+## concept_ids
+CON-FND-744B37261093E4
+
+## contextual_concept_ids
+CON-FND-C444D428BE3E1D
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define blunt ends as non-overlapping (flush) fragment ends.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q13
+
+## title
+DNA technology behind monoclonal antibody production
+
+## question
+Monoclonal antibodies which are needed for different diagnostic tests are prepared by which of the following DNA technologies?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Molecular cloning
+
+## explanation_a
+Correct. Monoclonal antibody production for diagnostic tests is prepared using molecular cloning technology, which propagates a single antibody-producing cell line so that every antibody produced is identical. This reuses the same cloning machinery — vectors, host cells, selection by marker — tested elsewhere in this chapter, applied here to antibody-producing cells rather than a therapeutic gene. It is this shared underlying cloning technology, not a separate diagnostic-specific technique, that is being tested here.
+
+## answer_b
+Polymerase Chain Reaction
+
+## explanation_b
+Incorrect. Polymerase Chain Reaction amplifies existing DNA sequences in vitro; it is not the technology used to prepare monoclonal antibodies.
+
+## answer_c
+Gene therapy
+
+## explanation_c
+Incorrect. Gene therapy corrects a patient's genetic disorder by inserting a gene; it is not the technology used to prepare monoclonal antibodies for diagnostic tests.
+
+## answer_d
+Gene editing
+
+## explanation_d
+Incorrect. Gene editing (e.g. CRISPR-cas9) alters a target DNA sequence directly; it is not the technology used to prepare monoclonal antibodies for diagnostic tests.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-3893485BBEEC06
+
+## concept_ids
+CON-FND-3893485BBEEC06
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that monoclonal antibodies for diagnostic tests are prepared using molecular cloning technology.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q14
+
+## title
+Properties of restriction endonuclease
+
+## question
+Restriction endonuclease
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Makes two cuts
+
+## explanation_a
+Incomplete alone. A restriction endonuclease does make two cuts (one on each strand of a double-stranded site), but this is only one of the several properties listed together as the full correct answer.
+
+## answer_b
+Can break covalent bond
+
+## explanation_b
+Incomplete alone. A restriction endonuclease can break a covalent bond, since cutting the phosphodiester backbone is a covalent-bond-breaking reaction, but this is only one of the several properties listed together as the full correct answer.
+
+## answer_c
+Can break hydrogen bond
+
+## explanation_c
+Incomplete alone. A restriction endonuclease can break a hydrogen bond in the course of transiently separating the DNA strands to access its cut site, but this is only one of the several properties listed together as the full correct answer.
+
+## answer_d
+Recognizes specific site
+
+## explanation_d
+Incomplete alone. A restriction endonuclease does recognize a specific site (its palindromic sequence), but this is only one of the several properties listed together as the full correct answer.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. A restriction endonuclease recognizes a specific site, can break the hydrogen bonds holding the double helix together while accessing that site, cleaves the covalent phosphodiester backbone at the site, and makes two cuts (one on each strand) to sever the double-stranded molecule. Because all four statements are individually true of the same enzyme, "all of the above" is the complete and correct answer rather than any single property alone. This combination of site-specificity and cutting ability is exactly why restriction endonucleases are the foundational tool of molecular cloning.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-C444D428BE3E1D
+
+## concept_ids
+CON-FND-C444D428BE3E1D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+List the combined properties of a restriction endonuclease: specific-site recognition, covalent- and hydrogen-bond breaking, and making two cuts.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q15
+
+## title
+Essential features of a vector (except)
+
+## question
+All of the following is essential features of vector except
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Capable of replication inside host cell
+
+## explanation_a
+Incorrect as the exception. Being capable of replication inside the host cell is a genuine essential feature of a vector — without it, the inserted DNA cannot be propagated.
+
+## answer_b
+Contain restriction site recognized by restriction endonucleases
+
+## explanation_b
+Incorrect as the exception. Containing a restriction site recognized by restriction endonucleases is a genuine essential feature — without it, a target DNA segment could not be inserted into the vector.
+
+## answer_c
+Contain a marker gene
+
+## explanation_c
+Incorrect as the exception. Containing a marker gene is a genuine essential feature — without it, successfully transformed host cells could not be selected from the mixture.
+
+## answer_d
+Must be circular
+
+## explanation_d
+Correct. Being circular is typical of the standard plasmid vector, but it is not itself one of the three essential features every functional vector must have (replication capacity, a restriction site, a marker gene). Viral vectors, for example, are not circular yet are still functional vectors. "Must be circular" is therefore the exception among the four listed properties.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-3893485BBEEC06
+
+## concept_ids
+CON-FND-3893485BBEEC06
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify the three essential features of a cloning vector and recognize that circularity is not one of them.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q16
+
+## title
+True sequence of cloning steps
+
+## question
+The true sequence of the following steps of cloning is: 1-Transfection to host cell, 2-Formation of chimeric DNA, 3-Select the host cell by marker, 4-Use restriction endonuclease to isolate target DNA
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+4-3-2-1
+
+## explanation_a
+Incorrect. This order performs marker-selection (step 3) before chimeric DNA is even formed (step 2) and before transfection (step 1), which is impossible — a host cell cannot be selected by a marker it has not yet received.
+
+## answer_b
+4-2-1-3
+
+## explanation_b
+Correct. The true cloning workflow starts by using a restriction endonuclease to isolate the target DNA (4), then joining it to the vector to form chimeric DNA (2), then transfecting that chimeric DNA into a host cell (1), and finally selecting the successfully transformed host cells using the vector's marker gene (3). Each step depends on the one before it — chimeric DNA cannot form before the target DNA is isolated, transfection cannot happen before chimeric DNA exists, and marker-based selection cannot happen before transfection has occurred. This order (4-2-1-3) is the only one of the four listed that respects every one of those dependencies.
+
+## answer_c
+4-1-2-3
+
+## explanation_c
+Incorrect. This order transfects the host cell (step 1) before chimeric DNA has been formed (step 2), which is impossible — there is nothing to transfect yet at that point.
+
+## answer_d
+4-3-1-2
+
+## explanation_d
+Incorrect. This order selects the host cell by marker (step 3) before transfection has occurred (step 1), which is impossible — a cell cannot be selected as successfully transformed before it has been transfected.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-3893485BBEEC06
+
+## concept_ids
+CON-FND-3893485BBEEC06
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Order the molecular cloning workflow correctly: restriction digestion, chimeric DNA formation, transfection, marker-based selection.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43, key 'b' = 4-2-1-3
+asu: MBG bank p.42
+sourceNote: Source prints the four options mislabelled a/b/b/d (third option repeats label 'b' rather than 'c') — normalised here to unique letters A-D with the printed '4-2-1-3' order kept as the correct answer B; see concept CON-FND-3893485BBEEC06 field_notes.
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q17
+
+## title
+Permanent cure for ADA-SCID
+
+## question
+A patient suffers from adenosine deaminase (ADA) deficiency, an autosomal recessive immune deficiency in which bone marrow lymphoblasts cannot replicate to generate immune-competent lymphocytes. The treatment option that would permanently cure the patient is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Blood transfusion from a healthy donor
+
+## explanation_a
+Incorrect. A blood transfusion supplies donor material only temporarily and does not correct the patient's own underlying ADA gene defect.
+
+## answer_b
+Plasma transfusion from a healthy donor
+
+## explanation_b
+Incorrect. A plasma transfusion supplies donor material only temporarily and does not correct the patient's own underlying ADA gene defect.
+
+## answer_c
+Lymphocytes transfusion from a healthy donor
+
+## explanation_c
+Incorrect. A lymphocyte transfusion supplies donor cells only temporarily and does not correct the patient's own underlying ADA gene defect, so the patient's own bone marrow lymphoblasts remain unable to replicate.
+
+## answer_d
+Platelet transfusion from a healthy donor
+
+## explanation_d
+Incorrect. A platelet transfusion does not address lymphocyte production at all, and like every transfusion option it supplies donor material only temporarily without correcting the underlying genetic defect.
+
+## answer_e
+Gene therapy to replace ADA gene
+
+## explanation_e
+Correct. Gene therapy to replace the defective ADA gene corrects the underlying genetic defect directly in the patient's own bone marrow lymphoblasts, restoring their ability to replicate and generate immune-competent lymphocytes. Because it fixes the cause rather than substituting donor material, it is the option that can permanently cure the patient, unlike any of the transfusion-based options. ADA deficiency was, in fact, the first disorder researchers ever treated with gene therapy, precisely because gene replacement offered this permanent correction where transfusion could not.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-1C82888CCCC7FD
+
+## concept_ids
+CON-FND-1C82888CCCC7FD
+
+## contextual_concept_ids
+CON-FND-06F6AE69D9BD8D
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognize that gene therapy to replace the ADA gene, not donor transfusion, is the only permanently curative option for ADA-SCID.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.42
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.42
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q18
+
+## title
+Definition of a vector
+
+## question
+A vector in genetic engineering is a
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+restriction endonuclease
+
+## explanation_a
+Incorrect. A restriction endonuclease is the enzyme used to cut DNA when preparing a vector or target insert; it is not itself the vector.
+
+## answer_b
+CRISPR is an example
+
+## explanation_b
+Incorrect. CRISPR-cas9 is a gene-editing strategy, not an example of a vector.
+
+## answer_c
+An organism that can carry a disease to a host
+
+## explanation_c
+Incorrect. This describes a disease vector in the epidemiological sense (e.g. an insect that transmits a pathogen), not a vector in genetic engineering.
+
+## answer_d
+Plasmid or virus that carries modified genetic material
+
+## explanation_d
+Correct. In genetic engineering, a vector is a plasmid or virus that carries modified genetic material — the chimeric DNA constructed from a target gene and the vector's own backbone — into a host cell. This is the sense of "vector" used throughout the molecular cloning workflow tested in this chapter: a plasmid or viral carrier, not a disease-transmitting organism or a host-growth organism.
+
+## answer_e
+A host organism that is used to grow up lots of copies of transfected DNA
+
+## explanation_e
+Incorrect. This describes the host cell that receives the vector and is used to propagate it, not the vector itself.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-3893485BBEEC06
+
+## concept_ids
+CON-FND-3893485BBEEC06
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define a vector in genetic engineering as a plasmid or virus that carries modified genetic material into a host cell.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.43
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.43
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q19
+
+## title
+Enzymatic activity of restriction endonucleases
+
+## question
+Restriction endonucleases are enzymes
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Capable of joining DNA molecules
+
+## explanation_a
+Incorrect. Joining DNA molecules together is the role of a ligase, not a restriction endonuclease.
+
+## answer_b
+Capable of cutting DNA molecules
+
+## explanation_b
+Correct. Restriction endonucleases are enzymes capable of cutting DNA molecules — they cleave the phosphodiester backbone at their specific palindromic recognition sites. This cutting activity, applied to both a target gene and a vector, is what generates the compatible ends used to build chimeric DNA in molecular cloning. "Endonuclease" itself describes an enzyme that cuts within (endo-) a nucleic acid strand, as opposed to an exonuclease that trims from an end.
+
+## answer_c
+Capable of adding nucleotides to the 3'OH end
+
+## explanation_c
+Incorrect. Adding nucleotides to the 3'OH end is the role of a polymerase (or a terminal transferase), not a restriction endonuclease.
+
+## answer_d
+Capable of removing nucleotides from the 5'P end
+
+## explanation_d
+Incorrect. Removing nucleotides from the 5'P end describes an exonuclease activity, not the site-specific internal cutting a restriction endonuclease performs.
+
+## answer_e
+Capable of restricting protein synthesis
+
+## explanation_e
+Incorrect. Restriction endonucleases act on DNA molecules directly, not on protein synthesis.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-C444D428BE3E1D
+
+## concept_ids
+CON-FND-C444D428BE3E1D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that restriction endonucleases are enzymes capable of cutting DNA molecules.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.43
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.43
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q20
+
+## title
+Naming the gene formed from two DNA sources
+
+## question
+The gene formed by the joining of DNA segments from two different sources are called as
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Hybrid gene
+
+## explanation_a
+Incomplete alone. "Hybrid gene" is indeed a correct name for this product, but it is only one of the three synonymous terms listed together as the full correct answer.
+
+## answer_b
+Chimeric gene
+
+## explanation_b
+Incomplete alone. "Chimeric gene" is indeed a correct name for this product, but it is only one of the three synonymous terms listed together as the full correct answer.
+
+## answer_c
+Recombinant gene
+
+## explanation_c
+Incomplete alone. "Recombinant gene" is indeed a correct name for this product, but it is only one of the three synonymous terms listed together as the full correct answer.
+
+## answer_d
+All of these
+
+## explanation_d
+Correct. A gene formed by joining DNA segments from two different sources is called, interchangeably, a hybrid gene, a chimeric gene, or a recombinant gene — three names for the same product, all used across this chapter and in the wider molecular biology literature. Because all three terms are correct, "all of these" is the complete answer rather than any single term alone.
+
+## answer_e
+None of these
+
+## explanation_e
+Incorrect. All three named terms (hybrid, chimeric, recombinant gene) are genuine, correct names for this product, so "none of these" is wrong.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-3893485BBEEC06
+
+## concept_ids
+CON-FND-3893485BBEEC06
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognize hybrid gene, chimeric gene and recombinant gene as three synonymous names for the same product.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.43
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.43
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q21
+
+## title
+Enzyme used in CRISPR gene editing
+
+## question
+What enzyme is used in CRISPR gene editing?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Rna5
+
+## explanation_a
+Incorrect. "Rna5" is not a real CRISPR enzyme name; it confuses the guide RNA component of the system with the cutting enzyme.
+
+## answer_b
+Cas5
+
+## explanation_b
+Incorrect. "Cas5" is a plausible-sounding but incorrect enzyme name; it is not the enzyme CRISPR-cas9 uses to cut DNA.
+
+## answer_c
+Cas3
+
+## explanation_c
+Incorrect. "Cas3" is a plausible-sounding but incorrect enzyme name; it is not the enzyme CRISPR-cas9 uses to cut DNA.
+
+## answer_d
+Cpr9
+
+## explanation_d
+Incorrect. "Cpr9" is a plausible-sounding but incorrect enzyme name; it is not the enzyme CRISPR-cas9 uses to cut DNA.
+
+## answer_e
+Cas9
+
+## explanation_e
+Correct. CRISPR-cas9 uses the Cas9 enzyme to cut the target DNA at a site specified by a guide RNA. Cas9 is the DNA-cutting component of the system, while the CRISPR sequence itself provides the guide-RNA targeting information. This is the specific enzyme name this course expects, distinguishing it from the plausible but incorrect distractor names.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-16C60870619649
+
+## concept_ids
+CON-FND-16C60870619649
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name Cas9 as the enzyme CRISPR-cas9 uses to cut DNA.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.43
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.43
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q22
+
+## title
+First disorder treated with gene therapy
+
+## question
+Which deficiency of the immune system was the first disorder researchers treated with gene therapy?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Adenosine deaminase deficiency (ADA)
+
+## explanation_a
+Correct. Adenosine deaminase (ADA) deficiency, an immunodeficiency in which bone marrow lymphoblasts cannot replicate to generate immune-competent lymphocytes, was the first disorder researchers treated with gene therapy. Gene replacement offered a permanent correction for ADA-SCID where donor-transfusion options could only supply temporary, non-curative material. This historical priority is exactly why ADA deficiency is the worked clinical example this chapter returns to when testing gene therapy's practical application.
+
+## answer_b
+Cystic Fibrosis (CF)
+
+## explanation_b
+Incorrect. Cystic fibrosis is a disorder later investigated as a gene-therapy target, but it was not the first disorder treated with gene therapy.
+
+## answer_c
+Sickle Cell Anemia (SCA)
+
+## explanation_c
+Incorrect. Sickle cell anemia is a disorder later investigated as a gene-therapy target, but it was not the first disorder treated with gene therapy.
+
+## answer_d
+Ornithine transcarbamylase (OTC)
+
+## explanation_d
+Incorrect. Ornithine transcarbamylase (OTC) deficiency is a disorder later investigated as a gene-therapy target, but it was not the first disorder treated with gene therapy.
+
+## answer_e
+Duchenne muscular dystrophy (DMD)
+
+## explanation_e
+Incorrect. Duchenne muscular dystrophy is a disorder later investigated as a gene-therapy target, but it was not the first disorder treated with gene therapy.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-1C82888CCCC7FD
+
+## concept_ids
+CON-FND-1C82888CCCC7FD
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify ADA deficiency as the first disorder researchers treated with gene therapy.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.43
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.43
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q23
+
+## title
+Process to insert normal genes (restated)
+
+## question
+Which process is used to insert normal genes into human cells to correct disorders?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Live vector vaccines
+
+## explanation_a
+Incorrect. Live vector vaccines deliver an antigen to provoke an immune response for disease prevention, not a corrective gene for a genetic disorder.
+
+## answer_b
+Gene Editing
+
+## explanation_b
+Incorrect. Gene editing (e.g. CRISPR-cas9) alters an existing DNA sequence directly at its own location; the question here specifically asks about inserting a normal gene to correct a disorder, which is gene therapy's definition.
+
+## answer_c
+Molecular cloning
+
+## explanation_c
+Incorrect. Molecular cloning is the laboratory technique used to construct and propagate a corrective gene construct; it is not itself the clinical act of correcting a patient's disorder.
+
+## answer_d
+Gene therapy
+
+## explanation_d
+Correct. Gene therapy is the process of inserting a normal copy of a gene into human cells to correct a disorder caused by a defective or missing gene. This is the same definition tested earlier in this chapter with a different option set, confirming it is the chapter's central defining fact for this topic.
+
+## answer_e
+Stem cell therapy
+
+## explanation_e
+Incorrect. Stem cell therapy replaces or regenerates cells; it does not itself involve inserting a normal gene into the patient's existing cells.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-06F6AE69D9BD8D
+
+## concept_ids
+CON-FND-06F6AE69D9BD8D
+
+## contextual_concept_ids
+CON-FND-16C60870619649 | CON-FND-3893485BBEEC06
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define gene therapy as gene insertion to correct a disorder, distinguishing it from gene editing, molecular cloning, live vector vaccines and stem cell therapy.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.43
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.43
+
+---
+
+# Item
+
+## id
+QST-ASUMBG-GENE-THERAPY-GENE-THERAPY-Q24
+
+## title
+Classifying the CRISPR-cas9 strategy
+
+## question
+Which of the following gene strategies applies to CRISPR-cas9?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Recombinant DNA
+
+## explanation_a
+Incorrect. Recombinant DNA (chimeric DNA formed by molecular cloning) is a related but distinct technology; it is not the classification CRISPR-cas9 falls under.
+
+## answer_b
+Gene editing
+
+## explanation_b
+Correct. CRISPR-cas9 is classified as a gene-editing strategy: it uses the Cas9 enzyme, guided by a targeting RNA, to make a precise, site-specific alteration to existing DNA. This classification is distinct from recombinant DNA/molecular cloning, gene cloning, in vitro DNA amplification (PCR), and gene therapy, even though all five are related molecular biology technologies tested against each other in this chapter.
+
+## answer_c
+Gene cloning
+
+## explanation_c
+Incorrect. Gene cloning propagates copies of a DNA sequence; it is not the classification CRISPR-cas9 falls under.
+
+## answer_d
+In vitro DNA amplification
+
+## explanation_d
+Incorrect. In vitro DNA amplification (PCR) makes many copies of an existing DNA sequence; it is not the classification CRISPR-cas9 falls under.
+
+## answer_e
+Gene therapy
+
+## explanation_e
+Incorrect. Gene therapy is the clinical act of inserting a corrective gene into a patient; CRISPR-cas9 itself is classified as the gene-editing tool, a distinct category in this chapter's scheme.
+
+## topic
+Molecular biology
+
+## subtopic
+Gene Therapy
+
+## main_concept
+CON-FND-16C60870619649
+
+## concept_ids
+CON-FND-16C60870619649
+
+## contextual_concept_ids
+CON-FND-06F6AE69D9BD8D | CON-FND-3893485BBEEC06
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Molecular Biology > Gene Therapy
+
+## question_only_for
+
+## library_ids
+ART-FND-GENE-THERAPY-AND-RECOMBINANT-DNA-TECHNOLOGY
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Classify CRISPR-cas9 correctly as a gene-editing strategy, distinct from recombinant DNA/cloning, PCR, and gene therapy.
+
+## source_citation
+MBG bank, Gene Therapy chapter, p.43
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.43
+asu: MBG bank p.43

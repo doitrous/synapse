@@ -73,9 +73,15 @@ A nucleic acid is a polymer of nucleotides, and the chapter builds DNA in three 
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures
 102 INT > Biochemistry > Chemistry of Nucleic Acids
 
+## related_concepts
++CON-FND-AF09E96F70832F
++CON-FND-31428037F9FDDF
++CON-FND-297C617E70A8FA
+
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
 university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) sits its own nucleic-acid chemistry papers on the same content — no wording difference identified yet.
+related_concepts: appends this lane's own GC-content/melting-temperature concept (CON-FND-AF09E96F70832F) and the two RNA-superlatives concepts (CON-FND-31428037F9FDDF mRNA heterogeneity/tRNA modification, CON-FND-297C617E70A8FA RNA alkali-lability/uracil), whose own article_ids name this article as their teaching home — two-sided coverage, not previously set.
 
 ## subject
 fnd
@@ -149,8 +155,12 @@ Replication is one job split five ways, and the five DNA polymerases are named b
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures
 102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
 
+## related_concepts
++CON-FND-4E6FC7DF8DE3E5
+
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+related_concepts: appends this lane's own DNA-polymerase-exonuclease/proofreading concept (CON-FND-4E6FC7DF8DE3E5), whose own article_ids names this article as its teaching home — two-sided coverage, not previously set.
 university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) sits its own DNA-replication/repair papers on the same content — no wording difference identified yet.
 
 ## subject
@@ -272,9 +282,14 @@ translation is finished, as cystine's formation from two cysteine residues shows
 AU-MED-102 > Biochemistry > Molecular Biology
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
 
+## related_concepts
++CON-FND-BCF447304F1CBC
++CON-FND-4E6727895BF8B5
+
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
 university_notes: Alexandria (AU-MED-102) owns this article. Ain Shams (ASU-MBG) sits its own RNA-structure/transcription/translation papers on the same content — no wording difference identified yet.
+related_concepts: appends this lane's own genetic-code-and-mutation concepts (CON-FND-BCF447304F1CBC, CON-FND-4E6727895BF8B5), whose own article_ids name this article as their teaching home — two-sided coverage, not previously set.
 
 ## subject
 fnd

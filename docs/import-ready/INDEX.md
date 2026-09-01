@@ -1329,6 +1329,196 @@ detail in `pending-live/INDEX.md`.
 
 ---
 
+### Ain Shams University ASU-MBG (Medical Genetics and Molecular Biology, 13 closed clusters) — 57 files across 5 folders
+
+Staged 2026-09-02 by the chief-of-staff staging lane, from the completed authoring branch
+`asu-mbg-author12` (HEAD `47ff7576`, base for staging branch `staging/asu-mbg-verify`). Copied
+verbatim from `docs/Ain-Shams-Source-Imports/{resource,article,concept,evidence,question}/ASU-MBG-*`
+— the only edits made after copying are the QA fixes described below (reviewer/publisher,
+two-sided coverage, law of voice, explanation bar, one missing evidence pair authored), each
+independently re-verified with the gates unchanged in shape (0 errors traceable to this module)
+after every edit. **Cluster 6 (Regulation of Gene Expression) is not included — its answer
+keys are physically blacked out on the source scan, a genuine unrecoverable printed key, logged
+as needs-Omar per `coverage/ASU-MBG-triage.md`.**
+
+**Apply in this order** (`academic/asu-modules.md` — ASU selected — must already be applied so
+`ASU-MBG` exists):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/ASU-MBG-{chromosome-analysis,cytogenetic-technique-selection,molecular-genetics,nucleic-acid-chemistry}-sources.md` (4 files) | Bulk import evidence · Resource | 7 (the source PDFs; this is the *evidence*-kind resource citations resolve against — do not confuse with row 2) | On |
+| 1 | `resource/ASU-MBG-{chromosome-analysis,cytogenetic-technique-selection,gene-therapy,nucleic-acid-chemistry}-resources.md` (4 files) | Bulk import → **resource** | 7 (catalogue/deck entries, same `src_…` ids, different kind — `medical:batch` reports it as `catalogue-resource`) | On |
+| 2 | `article/ASU-MBG-{chromosome-analysis,gene-therapy,modes-of-inheritance,molecular-biology-of-cancer,prokaryotic-transcription-apparatus,translation-protein-synthesis}-articles.md` (6 files) | Bulk import → **article** | 10 | On |
+| 3 | `concept/ASU-MBG-*-concepts.md` (10 files, one per cluster below) | Concepts › Import | 46 (all new — no id here is shared with a live concept) | On |
+| 4 | `evidence/ASU-MBG-*-claims.md` (10 files) | Bulk import evidence · Claim | 46 | On |
+| 5 | `evidence/ASU-MBG-*-citations.md` (10 files) | Bulk import evidence · Citation | 47 | On |
+| 6 | `evidence/ASU-MBG-{chromosome-analysis,modes-of-inheritance,prokaryotic-transcription-apparatus,translation-protein-synthesis}-spans.md` (4 files) | Bulk import evidence · Span | 9 | On |
+| 7 | `question/ASU-MBG-*-mcq.md` (9 files) | Bulk import → **question** | 317 | On |
+
+New concepts by file: chromosome-analysis (4), cytogenetic-technique-selection (1),
+gene-therapy (7), genetic-code-disease-mutations (3), modes-of-inheritance (12),
+molecular-biology-of-cancer (7), nucleic-acid-chemistry (2), prokaryotic-transcription-apparatus
+(2), rna-types-superlatives (2), translation-protein-synthesis (6) = 46 concepts. These 10 files
+cover 8 of the module's 13 closed clusters directly; the other 5 (roughly, molecular genetics /
+DNA-RNA-chemistry topics `coverage/ASU-MBG-triage.md` groups separately from
+`nucleic-acid-chemistry`) teach off concepts already minted as sparse updates onto live
+Kasr/Alexandria records rather than a new ASU-MBG concept file — see the `pending-live` overlay
+below and two-sided coverage above. No `relations/`, `glossary/`, or `practical/` batch exists
+for this module in this pass.
+
+**QA fixes made this pass, all independently re-verified against the source files (not assumed
+from any prior session's own report):**
+
+- **Reviewer / final publisher — 9 fixes.** 7 concepts (chromosome-analysis ×4,
+  cytogenetic-technique-selection ×1, nucleic-acid-chemistry ×2) and 2 articles
+  (chromosome-analysis-articles.md, both records) still carried the `Dr. Omar` / `Dr. Omar`
+  placeholder instead of the standing ruling (`reviewer: Medical team, Admin team` /
+  `final_publisher: Admin team`). Fixed on all 9 records in both
+  `docs/import-ready/{concept,article}/` and `docs/Ain-Shams-Source-Imports/{concept,article}/`;
+  `## owner` (`Dr. Omar`) was left untouched, matching the ASU-IBM precedent. Every other
+  concept and article in this module already carried the standing ruling — checked every record,
+  not assumed.
+- **Two-sided coverage — closed.** Two gaps found: (1) 2 concepts (cytogenetic-technique-selection's
+  own, translation-protein-synthesis's genetic-code-disease-mutations sibling) had minted a
+  teaching-article link that the target MBG article's own `related_concepts` did not name back —
+  fixed directly in this module's own article files. (2) 6 concepts whose teaching article is an
+  already-staged Kasr/Alexandria article (`ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS`,
+  `ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR`, `ART-FND-TRANSCRIPTION-CODE-TRANSLATION`)
+  were missing from that external article's own `related_concepts` — fixed with a `+`-append
+  `related_concepts` row on each of the three affected rows of
+  `pending-live/ASU-MBG-molecular-genetics-articles.md` (an ID-list column, safe to append; see
+  eviction guard below for why a full-replacement field on the same rows needed a different fix).
+  Also closed 14 concepts with an empty `related_article_ids` (the further-reading field) — filled
+  with one genuine topical link drawn from each concept's own teaching article's `related_articles`
+  set, the same single-bare-id convention ASU-INF and ASU-IBM's finishing passes established. No
+  medicine, question keys, or law-of-voice prose touched — graph linkage only.
+- **Law of voice — 5 fixes.** 3 student-facing `explanation_<correct>` fields (2 in
+  `chromosomal-aberrations-mcq.md`, 1 in `modes-of-inheritance-mcq.md`) opened with "Correct, as
+  printed in the source key" / "Correct, as printed in the source's own answer key" instead of
+  stating the medicine directly — reworded to "Correct." plus the same medical content, one
+  parenthetical aside about a printed option's imprecise wording reworded the same way. 2 lines
+  in `chromosome-analysis-articles.md`'s "Key determinants" and "Common misconceptions" sections
+  attributed a fact to "the source text" / "the source defines it" — reworded to state the
+  medicine directly. Left untouched: `field_notes`, `author_notes`, `evidence_gaps` and
+  `scopeRuling` provenance fields (their correct home per the ASU-INF precedent), and the
+  idiomatic "the textbook illustration/trigger" phrasing (classic-example usage, not an
+  attribution to a department book).
+- **Explanation bar — 4 fixes.** 4 `explanation_<correct>` fields in `molecular-genetics-mcq.md`
+  were under the 3-sentence floor by the toolchain's own `sentenceCount` (`scripts/content/emit-mcq.mjs`'s
+  `[.!?](\s|$)` split, not a looser heuristic) — each extended with the mechanism/clinical-
+  significance sentence the rule asks for (alpha-amanitin's RNA-polymerase selectivity and the
+  liver-failure stakes; truncated-protein causes excluded by missense/silent mutations; AUG's
+  reading-frame-setting role; the nonsense-codon release-factor mechanism). 0 violations remain
+  library-wide within this module (checked all 317 questions against the toolchain's exact
+  counting function, not a proxy).
+- **Missing evidence pair authored — gene-therapy.** The gene-therapy article's own `claim_ids`
+  field named 7 claims that had never been written (no `evidence/ASU-MBG-gene-therapy-{claims,
+  citations}.md` existed at all — the only one of this module's 10 clusters missing its evidence
+  pair). `medical:audit` confirmed the dangling references (`references unknown claim …` ×6).
+  Authored both files from each concept's own `original_wording` (verbatim exam-bank quotes
+  already captured at authoring time) and the cluster's own resource
+  (`src_d83a3017c760e2770c22`, PDF pp.41-43, "Answers of Gene Therapy" table p.43) — 7 claims,
+  7 citations, locator pages and question numbers cross-checked against
+  `coverage/ASU-MBG-PROGRESS.md`'s own Cluster 14 concept→question table. `medical:batch`: 0
+  errors on both files.
+
+**Eviction hazard found and fixed this pass —
+`pending-live/ASU-MBG-molecular-genetics-articles.md`.** 7 of this overlay's 14 rows truncated
+the live `module_subject` union instead of restating it in full: 3 rows
+(`ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS`, `ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES`,
+`ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR`) dropped the specific chapter-topic leaf off
+Kasr's own `102 INT > Biochemistry > …` line, 2 rows (`ART-104-HIS-NUMERICAL-ABERRATIONS`,
+`ART-104-HIS-STRUCTURAL-ABERRATIONS`) dropped `> Chromosomal Aberrations (Abnormalities)` off
+Kasr's `104 CPS` line, 1 row (`ART-101-HIS-CYTOPLASMIC-ORGANELLES`) dropped `> Cytoplasm` off
+Kasr's `101 ISK` line, and 1 row (`ART-108-PAT-APOPTOSIS`, the most severe) restated only 1 of
+the live record's 5 existing `module_subject` lines, dropping the other 4 outright. Applying
+this overlay as originally written would have silently narrowed or wiped the pre-existing
+Kasr path on five different live/staged articles the moment it landed. Restored every missing
+line verbatim, verified individually against the live Kasr source files
+(`102-INT-biochemistry.md`, `104-CPS-histology.md`, `101-ISK-histology.md`,
+`108-INT-pathology.md`) line by line, not assumed from the overlay's own text — 0 missing lines
+remain in any of the 14 rows after the fix. `exam_signal` is never touched by this overlay (the
+field is entirely absent from all 45 rows in the sibling concept overlay too), which is the safe
+form — an omitted key is left as is, per 00-START-HERE.md's update semantics — so there was
+nothing to evict there. `universities`/`years`/`module` all use the correct `+`-append form on
+every row of both overlay files; 0 full-replacement violations found.
+
+**Gate status, independently run against this staged copy (not trusted from any branch's own
+commit message):**
+
+- `medical:batch` per file: all 4 resource files, all 10 concept files, all 10 claims files
+  `errors: []`. All 6 article files `errors: []` except
+  `molecular-biology-of-cancer-articles.md`'s 1 pre-existing, documented directory-scope line
+  (below). All 10 citations/4 spans files `errors: []` for structure; citations report the same
+  pre-existing corpus-source-index gap documented under 103 BMS/ASU-INF above (confirmed by
+  running the identical check against an already-staged `AU-MED-102-anatomy-citations.md`, which
+  fails it too — university-wide snapshot gap, not this module). All 9 question files, run with
+  their own module's concept/article/resource files plus the 4 external Kasr/Alexandria files
+  each one actually needs (`AU-MED-102-biochem-molecular-{concepts,articles}.md`,
+  `102-INT-{mcq-concepts,biochemistry}.md`, `104-CPS-histology-concepts.md`,
+  `108-INT-concepts-pathology.md`, `101-ISK-mcq-concepts.md`): `errors: []`, item counts 32,
+  24, 18, 52, 44, 68, 8, 6, 65 — 317 total, matching the source count exactly.
+- **`medical:batch` known, pre-existing directory-scope line (not a defect):**
+  `ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES: related article ART-104-HIS-STRUCTURAL-ABERRATIONS
+  is authored nowhere in the batch directory`. `medical:batch`'s article-kind `related_articles`
+  check resolves only within the primary file's own directory (`scripts/validate-content-batch.mjs`
+  — a documented design choice, not `--with`-driven), and Kasr 104 CPS is not yet staged into
+  `docs/import-ready/article/` (per the chief-of-staff HANDOFF: "Kasr 104 CPS NOT staged").
+  Confirmed by copying both files into a scratch directory together — the error disappears.
+  Resolves automatically once 104 CPS lands in `docs/import-ready/`.
+- `medical:simulate` (all 57 files above, positional, resource → article → concept → evidence →
+  question, plus everything already staged — 362 files, whole tree): `created: 46 concepts / 10
+  articles / 46 claims / 47 citations / 9 spans / 7 resources / 293 questions (24 rejected)`,
+  every other batch in the tree unchanged. **53 total errors in the whole 362-file tree: 29 the
+  documented AU-105 image-gap lines, 24 the Kasr-104-CPS-not-staged gap above** (3 concept ids +
+  2 article ids this module's own questions reference, all real, all legitimately blocked on a
+  dependency outside this pass's scope) — **0 unexplained errors, 0 regressions to any
+  already-staged module.** The 24 rejected questions (22 in `chromosomal-aberrations-mcq.md`, 1
+  each in `modes-of-inheritance-mcq.md` and `molecular-biology-of-cancer-mcq.md`) will import
+  cleanly once 104 CPS is staged — not a content defect in this module.
+- `medical:audit` against that emit: 371 errors library-wide before this pass's fixes, **347
+  after** — the 24-error drop is exactly this module's `microtopicId` (17 concepts/articles,
+  fixed with the same `microtopicId: Free-text title given …` field_notes reason already used
+  elsewhere in this same lane) and dangling-claim (6, closed by authoring the gene-therapy
+  evidence pair) fixes. Of the 347 remaining, exactly 2 mention any id from this module: the
+  same pre-existing 104-CPS-not-staged line above, and this module's 3 articles appearing inside
+  one library-wide `spanIds missing` line alongside ~150 other pre-existing articles from
+  unrelated CVS/MSK/PHA/PAT/PHY/BIO/HIS/ANA lanes — a systemic, pre-existing gap this module
+  did not introduce and a staging pass should not attempt to close by writing spans for records
+  outside its own scope.
+- `medical:duplicate-keys`: 0 canonical-key collisions; the 1 label collision reported
+  predates this module (the pre-existing Kasr aspirin/102-INT pair) and is unrelated to it.
+
+**Pending-live — apply only after the named Kasr/Alexandria files are live** (nothing in
+`pending-live/` is staged here or anywhere in `docs/import-ready/`, by design, same convention
+as ASU-IBM's own `pending-live/`):
+
+| File | Applies after | Records |
+|---|---|---|
+| `pending-live/ASU-MBG-molecular-genetics.md` | 45 concept ids across `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md`, `104-CPS-histology-concepts.md`, `104-CPS-mcq-concepts.md`, `108-INT-concepts-pathology.md`, `101-ISK-mcq-concepts.md` and `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md` are all live | 45 sparse updates (`+asu`, `+ASU_Y1`, `+ASU-MBG`) |
+| `pending-live/ASU-MBG-molecular-genetics-articles.md` | 14 article ids across `docs/Kasr-Source-Imports/article/102-INT-biochemistry.md`, `104-CPS-histology.md`, `101-ISK-histology.md`, `108-INT-pathology.md` and `docs/Alexandria-Source-Imports/article/AU-MED-102-biochem-molecular-articles.md` are all live | 14 sparse updates (`+asu`, `+ASU_Y1`, `+ASU-MBG`; 3 rows also append `related_concepts`) |
+
+`AU-MED-102-biochem-molecular-{concepts,articles}.md` and `102-INT-mcq-concepts.md` /
+`102-INT-biochemistry.md` are already staged in `docs/import-ready/` (applying the tree above
+satisfies most of this dependency); `104-CPS-histology-concepts.md`, `104-CPS-mcq-concepts.md`,
+`108-INT-concepts-pathology.md` (staged) and `101-ISK-mcq-concepts.md` (staged) are the
+remainder — `108-INT-concepts-pathology.md` and `101-ISK-mcq-concepts.md` are already in
+`docs/import-ready/concept/`; the two Kasr 104 CPS concept files and all four Kasr 104
+CPS/101 ISK/102 INT/108 INT article files are not, per the same 104-CPS-not-staged gap
+documented above.
+
+**Not publish-ready, and why:**
+1. **Cluster 6 (Regulation of Gene Expression) — needs Omar.** Blacked-out printed answer keys,
+   a genuine unrecoverable-key case, not re-triaged per the standing chief-of-staff ruling.
+2. **24 questions blocked on Kasr 104 CPS staging** (chromosomal-aberrations ×22,
+   modes-of-inheritance ×1, molecular-biology-of-cancer ×1) — pre-existing dependency, outside
+   this lane's scope, resolves automatically once that module is staged.
+3. **`pending-live/` overlays** (45 concept + 14 article sparse updates) apply only after their
+   named Kasr/Alexandria dependencies are live — see table above.
+4. **No relations, glossary or practical content** exists for this module in this pass.
+
+---
+
 ## Before applying anything
 
 ```bash
