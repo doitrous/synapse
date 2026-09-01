@@ -1944,7 +1944,7 @@ en
 ## learner_stage
 Years 1–3 foundation
 ## reading_time
-8
+10
 ## high_yield
 Core
 ## time_sensitive
@@ -1958,7 +1958,7 @@ Medical team, Admin team
 ## final_publisher
 Admin team
 ## summary
-Almost all the oxygen blood carries rides on haemoglobin, and almost all the carbon dioxide it carries back rides as bicarbonate born inside the red cell itself — and the two gases are not carried independently: haemoglobin's grip on one changes its grip on the other. This article covers the arithmetic of O2 content and capacity, the three forms CO2 travels in, the chloride shift that keeps the red cell electrically neutral while it manufactures that bicarbonate, and the Haldane effect that ties O2 and CO2 transport together.
+Almost all the oxygen blood carries rides on haemoglobin, and almost all the carbon dioxide it carries back rides as bicarbonate born inside the red cell itself — and the two gases are not carried independently: haemoglobin's grip on one changes its grip on the other. This article covers the arithmetic of O2 content and capacity, the three forms CO2 travels in, the chloride shift that keeps the red cell electrically neutral while it manufactures that bicarbonate, the Haldane effect that ties O2 and CO2 transport together, and — at minimal, exam-matched scope only — the classification of hypoxia, the absolute-quantity rule behind cyanosis, and why carbon monoxide poisoning produces neither a fall in arterial PO2 nor cyanosis.
 ## sections
 ### Definition
 Oxygen is carried dissolved and haemoglobin-bound; carbon dioxide is carried dissolved, as carbamino compounds, and as bicarbonate. P50 anchors where the oxygen curve sits, and the Haldane effect is the rule that binding one gas to haemoglobin changes its grip on the other.
@@ -1971,6 +1971,12 @@ Because % saturation (read by pulse oximetry) does not fall in anaemia, a pulse 
 ### Common misconceptions
 Treating O2 saturation as a proxy for how much oxygen the blood is actually delivering. It only measures what fraction of available haemoglobin is loaded; a low-haemoglobin (anaemic) patient can have normal saturation and still dangerously low O2 content.
 Assuming bicarbonate forms mainly in plasma. The hydration of CO2 is slow in plasma and fast inside the red cell because of carbonic anhydrase, which is exactly why bicarbonate then has to diffuse back out and chloride has to shift in.
+### Types of hypoxia, cyanosis and carbon monoxide poisoning
+The department book's own Gas Transport chapter does not carry this classification — it is added here at minimal, exam-matched scope, cited to a standard physiology textbook (Guyton & Hall, Textbook of Medical Physiology) rather than the department book, because the module's question banks test it directly. Hypoxia is classified by where the defect sits. Hypoxic hypoxia is a fall in arterial PO2 itself (from hypoventilation, a diffusion defect, ventilation-perfusion mismatch, a right-to-left shunt, or high altitude) — arterial O2 saturation falls with it, and because a normal total haemoglobin is present to sit unsaturated, this is the type classically accompanied by cyanosis. Anaemic hypoxia (too little haemoglobin) and histotoxic hypoxia (tissue cells unable to use the oxygen delivered to them) both leave arterial PO2 and % saturation normal, and in each case there is too little absolute reduced haemoglobin for cyanosis to appear, even though tissue O2 delivery or use is impaired. Stagnant (circulatory) hypoxia, from a reduced rate of blood flow, lets tissues extract more O2 from the blood that does pass, raising local reduced haemoglobin enough that cyanosis is often seen despite normal arterial PO2 and content.
+
+Cyanosis itself is a bluish skin and mucous membrane discolouration, classically appearing once capillary blood contains more than 5 g of reduced (deoxygenated) haemoglobin per 100 ml — an absolute quantity of reduced haemoglobin, not a percentage or a saturation figure, which is why a severely anaemic patient (too little total haemoglobin to reach that 5 g/dL of the reduced fraction) can be profoundly hypoxic without ever turning cyanosed.
+
+Carbon monoxide poisoning does not produce cyanosis, and this is the clearest illustration of the same absolute-quantity rule: CO binds the same haemoglobin site as O2 with roughly 200 times O2's own affinity, so carboxyhaemoglobin — not reduced (deoxygenated) haemoglobin — accumulates, giving the classic cherry-red skin colour rather than a blue one. Because the defect is in what haemoglobin is carrying (CO instead of O2) rather than in the lung's own gas exchange, arterial and alveolar PO2 both stay normal, which is also why carbon monoxide poisoning is not itself an instance of hypoxic hypoxia. Oxygen therapy is correspondingly of limited value in the two hypoxia types where the defect lies beyond how much oxygen reaches or is dissolved in the blood: stagnant hypoxia (the problem is flow, not content) and histotoxic hypoxia such as cyanide poisoning (the problem is cellular use, not delivery) — supplemental O2 raises dissolved and Hb-bound O2 further, which cannot compensate for a pump or a poisoned enzyme.
 ## published_summary
 
 ## published_sections
@@ -1981,10 +1987,15 @@ P50 = PO2 at 50% saturation, normally 27 mmHg.
 CO2: dissolved (~3 ml/100 ml), carbamino (~3 ml/100 ml), bicarbonate (~42 ml/100 ml, the majority).
 Chloride shift: HCO3- leaves the red cell, Cl- enters to preserve electrical balance.
 Haldane effect: deoxygenated Hb carries more CO2 at a given PCO2 than oxygenated Hb.
+Cyanosis: >5 g reduced Hb/100 ml capillary blood — an absolute quantity, so severe anaemia can hide it even with profound hypoxia.
+Hypoxic hypoxia (low arterial PO2) and stagnant hypoxia are classically accompanied by cyanosis; anaemic and histotoxic hypoxia, and CO poisoning, classically are not.
+O2 therapy is of limited value in stagnant hypoxia (a flow problem) and histotoxic hypoxia such as cyanide poisoning (a cellular-use problem) — supplemental O2 cannot fix either.
 ## lose_the_mark
 Using O2 saturation as a stand-in for O2 content/delivery.
 Confusing the Haldane effect (O2 changes CO2 affinity) with the Bohr effect (CO2 changes O2 affinity).
 Forgetting anaemia lowers content and capacity together, leaving % saturation normal.
+Assuming CO poisoning causes cyanosis. It causes a cherry-red colour instead — carboxyhaemoglobin accumulates, not reduced haemoglobin, so the >5 g/dL reduced-Hb threshold for cyanosis is never met, however hypoxic the tissues are.
+Treating carbon monoxide poisoning as a form of hypoxic hypoxia. Arterial and alveolar PO2 are both normal in CO poisoning; the defect is in what haemoglobin carries, not in the lung's own gas exchange.
 ## callout_evidence
 
 ## related_concepts
@@ -2028,10 +2039,10 @@ Rights: must be CC-BY or public domain, or newly drawn for this product
 ## publication_gate
 needs_evidence
 ## evidence_basis
-Kasr Alainy physiology department book, "Cardiopulmonary (Respiration)", Chapter 4 ("Gas Transport by the Blood"), printed pages 124-134 (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction.
+Kasr Alainy physiology department book, "Cardiopulmonary (Respiration)", Chapter 4 ("Gas Transport by the Blood"), printed pages 124-134, plus page 131 of the neighbouring "Hemoglobin-Oxygen Dissociation Curve" section for the carbon monoxide affinity figure (manifest src_a11a7faed67c95e2d636). Read from the committed page-text cache rather than by re-extraction. The "Types of hypoxia, cyanosis and carbon monoxide poisoning" section is the one exception: re-checked against the full printed range (pages 124-134) and confirmed absent from this department book chapter, so it is instead cited to a standard physiology textbook (Guyton & Hall, Textbook of Medical Physiology) and kept deliberately minimal — scoped to exactly what this module's own question banks ask (the classification of hypoxia by mechanism, the >5 g/dL reduced-Hb threshold for cyanosis, and why CO poisoning produces neither hypoxic hypoxia nor cyanosis).
 ## evidence_gaps
-No independent citation has been attached to any figure here; every number is traceable to one department book.
-Cyanosis is covered by the department book in this chapter but is deliberately not included here — an already-live catalogue (a different, Year-3 pulmonology course) covers cyanosis and carboxyhaemoglobin causes; see the lane report.
+No independent citation has been attached to any figure in the O2/CO2-arithmetic sections; every number there is traceable to the one department book.
+The hypoxia/cyanosis/CO-poisoning section is tested by this module's question banks but not taught by the department book itself (confirmed by a full re-read of the printed chapter) — this section is Year-1-scoped to exactly what those questions ask, not a general hypoxia/cyanosis treatise. A separate, already-live catalogue (a different, Year-3 pulmonology course) holds the fuller clinical treatment of cyanosis types (central vs peripheral) and carbon monoxide poisoning's management; this section does not attempt to duplicate it.
 ## conflicts
 [clear]
 ## last_reviewed

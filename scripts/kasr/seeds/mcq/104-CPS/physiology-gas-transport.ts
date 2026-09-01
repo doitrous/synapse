@@ -305,5 +305,18 @@ export const LEAF: McqLeafSeed = {
         D: "Correct. Afferents from proprioceptors in skeletal muscle, tendons and joints, carried by somatic nerves, reach and stimulate the respiratory centre — part of the drive behind the rise in ventilation seen at the very onset of muscular exercise. This proprioceptive input is fast enough to raise ventilation before exercising muscle's own metabolic byproducts have had time to build up and act through the chemical route.",
       },
     },
+    {
+      key: "with-respect-to-the-binding-of-carbon-monoxide-to-haemoglobi-5467d1ba",
+      conceptKey: "gas-transport.hb-o2-dissociation-curve-shifts",
+      difficulty: "Hard",
+      questionType: "Recall",
+      learningObjective: "State that carbon monoxide's roughly 200-fold higher affinity for haemoglobin shifts the CO-Hb dissociation curve far to the left of the O2-Hb curve.",
+      explanations: {
+        A: "Carbon monoxide binds the SAME site on haemoglobin as oxygen — the heme iron — which is exactly why the two gases compete directly for the same binding sites rather than acting independently.",
+        B: "The opposite is true: haemoglobin's affinity for carbon monoxide is roughly 200 times GREATER than its affinity for oxygen, not lower — this single fact is why even a small inspired CO concentration can tie up a large fraction of the body's haemoglobin.",
+        C: "Almost all carbon monoxide in the blood is carried bound to haemoglobin, not dissolved in plasma water — a 97%-dissolved figure instead describes roughly the physically-dissolved fraction of a gas like O2, not CO's own overwhelmingly Hb-bound transport.",
+        D: "This is the correct answer. Because haemoglobin's affinity for carbon monoxide is about 200 times greater than for oxygen, a given percentage saturation with CO is reached at a far lower partial pressure than the same saturation with O2 — so the CO-Hb dissociation curve sits well to the left of the O2-Hb curve. This is the same superaffinity that lets bound CO also resist the release of any oxygen molecules still attached to the same haemoglobin tetramer, shifting the O2 curve itself to the left as well.",
+      },
+    },
   ],
 }

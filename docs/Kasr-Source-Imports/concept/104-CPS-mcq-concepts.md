@@ -55,8 +55,9 @@
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
-    Physiology Respiratory System — Gas Exchange in the Lung — 5 questions, 2 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 16 questions, 4 concepts
+    Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
@@ -78,7 +79,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  140 questions were excluded and 0 held back for having no
+  141 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -9572,18 +9573,19 @@ kau
 ## exam_signal
 src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -9707,12 +9709,13 @@ src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p39 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -9955,6 +9958,140 @@ src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
 +ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
 ## field_notes
 canonical_key "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr" already has a pinned id in this module (CON-CVS-76412894FAD01C); mintConceptId derives the same id fresh (CON-CVS-76412894FAD01C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Hypoxia is classified by where the defect sits — hypoxic, anaemic, stagnant or histotoxic — and only the types with a normal total haemoglobin sitting unsaturated (hypoxic, stagnant) classically produce cyanosis; CO poisoning produces neither a fall in arterial PO2 nor cyanosis
+## id
+CON-RES-94F216A2FDD9E5
+## canonical_key
+hypoxia.classification-cyanosis-and-carbon-monoxide-poisoning
+## definition
+Hypoxia is classified by mechanism. Hypoxic hypoxia is a fall in arterial PO2 itself (hypoventilation, diffusion defect, ventilation-perfusion mismatch, right-to-left shunt, or high altitude); arterial saturation falls with it. Anaemic hypoxia (too little haemoglobin) and histotoxic hypoxia (cells unable to use delivered oxygen) both leave arterial PO2 and % saturation normal. Stagnant (circulatory) hypoxia, from reduced blood flow, lets tissues extract more O2 per unit of blood that does pass. Cyanosis — bluish discolouration of skin and mucous membranes — classically appears once capillary blood contains more than 5 g of reduced (deoxygenated) haemoglobin per 100 ml, an absolute quantity rather than a percentage or saturation figure; this is why it is classically seen in hypoxic hypoxia and stagnant hypoxia (normal total haemoglobin, enough of it sitting unsaturated to cross the 5 g/dL threshold) but classically absent in anaemic hypoxia (too little total haemoglobin to reach that absolute threshold even fully desaturated) and in histotoxic hypoxia (blood remains normally saturated). Carbon monoxide poisoning produces neither a fall in arterial PO2 (so it is not itself hypoxic hypoxia) nor cyanosis: CO's roughly 200-fold greater affinity for haemoglobin than O2 means carboxyhaemoglobin, not reduced haemoglobin, accumulates, giving the classic cherry-red rather than blue skin colour. Oxygen therapy is correspondingly of limited value in stagnant hypoxia (a flow problem, not an oxygen-content one) and in histotoxic hypoxia such as cyanide poisoning (a cellular-use problem): supplemental O2 raises dissolved and Hb-bound O2 further, which cannot compensate for a pump or a poisoned enzyme.
+## explicit_objective
+Name the four mechanisms of hypoxia, state the absolute (not percentage) threshold for cyanosis, and explain why carbon monoxide poisoning produces neither a fall in arterial PO2 nor cyanosis.
+## pitfalls
+Assuming any severe hypoxia produces cyanosis. Cyanosis depends on an ABSOLUTE quantity of reduced haemoglobin (>5 g/dL) being present, which is why profound anaemic hypoxia and CO poisoning — both of which leave too little reduced (as opposed to carboxy-) haemoglobin to cross that threshold — can be severely hypoxic without ever appearing cyanosed.
+## concept_type
+classification
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Types of hypoxia | Cyanosis threshold | Carbon monoxide poisoning | Cherry-red skin | Stagnant hypoxia | Histotoxic hypoxia
+## article_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Cyanosis: 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The department book's own Gas Transport chapter does not teach this classification; sourced instead to a standard physiology textbook (Guyton & Hall) at minimal, exam-matched scope — see the article's own evidence_gaps field.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---

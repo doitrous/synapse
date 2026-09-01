@@ -107,6 +107,19 @@ export const LEAF: McqLeafSeed = {
         D: "Carbon monoxide occupies haemoglobin's oxygen-binding sites without changing how much dissolved O2 the plasma carries, so it lowers oxygen content, not PO2 — arterial and alveolar PO2 remain normal in CO poisoning.",
       },
     },
+    {
+      key: "which-of-the-following-causes-of-hypoxia-is-characterized-by-214aa73e",
+      conceptKey: "hypoxemia.causes-and-distinction-from-non-hypoxemic-hypoxia",
+      difficulty: "Hard",
+      questionType: "Classification",
+      learningObjective: "Identify a right-to-left cardiac shunt as the cause of hypoxia with a decreased arterial PO2 alongside a normal alveolar PO2.",
+      explanations: {
+        A: "Hypoventilation lowers alveolar PO2 first — less fresh air reaches the alveoli — and arterial PO2 falls with it, so both fall together rather than showing the normal-alveolar/low-arterial dissociation this question asks for.",
+        B: "This is the correct answer. A right-to-left cardiac shunt sends venous blood directly into the systemic arterial circulation without it ever passing through ventilated alveoli, so arterial PO2 falls while the alveoli that ARE ventilated register an entirely normal alveolar PO2 — exactly the dissociation the stem describes, and the classic teaching point that separates a shunt from every other cause of hypoxia listed here.",
+        C: "Anaemia lowers the total amount of haemoglobin available to carry oxygen, not the partial pressure of oxygen itself — arterial and alveolar PO2 both stay normal in anaemia, even though O2 content and delivery fall.",
+        D: "Carbon monoxide poisoning displaces O2 from haemoglobin's own binding sites without changing dissolved O2 in the plasma — arterial and alveolar PO2 both stay normal, which is also why CO poisoning is not itself a form of hypoxic hypoxia.",
+      },
+    },
 
     // --- Excluded: corrupted or unrecoverable beyond what this pipeline can fix ---
 

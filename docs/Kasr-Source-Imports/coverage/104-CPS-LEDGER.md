@@ -4,13 +4,13 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 692 | excluded: 140 | remaining: 320
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 699 | excluded: 141 | remaining: 312
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 692
+- authored (by key, this ledger): 699
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 692
+- authored minus held-back = build-style "kept": 699
 
 ## By cluster (leaf tag)
 
@@ -21,12 +21,12 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Basic Mechanisms of Circulatory Control | 36 | 8 | 4 | 24 |
 | Mechanics of Breathing | 22 | 0 | 0 | 22 |
 | Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
-| Gas Transport by the Blood | 35 | 16 | 0 | 19 |
 | Pulmonary Compliance | 45 | 24 | 3 | 18 |
 | Gas exchange in the lung | 21 | 4 | 2 | 15 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 9 | 0 | 13 |
 | Cardiac Function | 80 | 44 | 24 | 12 |
 | Vascular Function | 44 | 27 | 5 | 12 |
+| Gas Transport by the Blood | 35 | 23 | 1 | 11 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
 | Mediastinum | 41 | 30 | 1 | 10 |
 | Lung Volumes and Capacities | 9 | 0 | 0 | 9 |
@@ -203,28 +203,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-are-the-bronchopulmonary-segments-of-b8d446b1` — Which of the following are the bronchopulmonary segments of the lingula of the l…
 - `which-one-of-the-following-structures-leaves-an-impression-o-bc55d0f1` — Which one of the following structures leaves an impression on the mediastinal su…
 
-### Gas Transport by the Blood (19)
-
-- `about-70-of-the-carbon-dioxide-is-transported-to-the-lungs-1-5ecaaa90` — About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
-- `all-about-hemoglobin-is-rue-except-d59e6077` — All about hemoglobin is (rue, except:
-- `all-of-the-followings-are-correct-as-regards-cyanosis-except-1cb68242` — All of the followings are Correct as regards cyanosis EXCEPT:
-- `cyanosis-1-60b08503` — Cyanosis: 1
-- `cyanosis-3ce6dbd2` — Cyanosis:
-- `during-the-release-of-carbon-dioxide-in-the-lungs-ba73316c` — During the release of carbon dioxide in the lungs:
-- `how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8` — How much oxygen is normally carried in the blood?
-- `hypoxic-hypoxia-3-7fa250af` — Hypoxic hypoxia: 3
-- `hypoxic-hypoxia-b97facbb` — Hypoxic hypoxia:
-- `in-the-transport-of-co2-from-the-tissues-to-the-lungs-which-b9c9fd6b` — In the transport of CO2 from the tissues to the lungs, which of the following oc…
-- `oxygen-therapy-is-of-limited-value-in-which-of-the-following-4b8eb82e` — Oxygen therapy is of limited value in which of the following situations?
-- `ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913` — pH of venous blood is only slightly more acidic than pH of arterial blood becaus…
-- `select-the-correct-statement-about-o-transport-in-the-blood-c34350a2` — Select the correct statement about O, transport in the blood: 12 0 ‏خ146ا1ا1ا[| …
-- `the-largest-amount-of-co-is-transported-by-the-blood-as-691eba1c` — The largest amount of CO; is transported by the blood as:
-- `the-oxygen-hemoglobin-dissociation-curve-will-shift-to-the-r-6cda5909` — The oxygen-hemoglobin dissociation curve will shift to the right with:
-- `the-oxyhemoglobin-dissociation-curve-fa89718b` — The oxyhemoglobin dissociation curve:
-- `which-of-the-following-causes-of-hypoxia-is-characterized-by-214aa73e` — Which of the following causes of hypoxia is characterized by a decreased arteria…
-- `which-statement-about-hemoglobin-is-incorrect-e6822bc0` — Which statement about hemoglobin is Incorrect?
-- `with-respect-to-the-binding-of-carbon-monoxide-to-haemoglobi-5467d1ba` — With respect to the binding of carbon monoxide to haemoglobin: ‏ا‎
-
 ### Pulmonary Compliance (18)
 
 - `among-the-functions-of-surfactant-c9e14838` — Among the functions of surfactant:
@@ -309,6 +287,20 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-describes-the-pulse-pressure-212b2ae7` — Which of the following describes the pulse pressure?
 - `y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0` — Y wave in jugular venous pulse occurs in: 1
 - `y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19` — Y wave in jugular venous pulse occurs in:
+
+### Gas Transport by the Blood (11)
+
+- `about-70-of-the-carbon-dioxide-is-transported-to-the-lungs-1-5ecaaa90` — About 70% of the carbon dioxide is transported to the lungs: 1 ‏ا‎
+- `all-about-hemoglobin-is-rue-except-d59e6077` — All about hemoglobin is (rue, except:
+- `during-the-release-of-carbon-dioxide-in-the-lungs-ba73316c` — During the release of carbon dioxide in the lungs:
+- `how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8` — How much oxygen is normally carried in the blood?
+- `in-the-transport-of-co2-from-the-tissues-to-the-lungs-which-b9c9fd6b` — In the transport of CO2 from the tissues to the lungs, which of the following oc…
+- `ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913` — pH of venous blood is only slightly more acidic than pH of arterial blood becaus…
+- `select-the-correct-statement-about-o-transport-in-the-blood-c34350a2` — Select the correct statement about O, transport in the blood: 12 0 ‏خ146ا1ا1ا[| …
+- `the-largest-amount-of-co-is-transported-by-the-blood-as-691eba1c` — The largest amount of CO; is transported by the blood as:
+- `the-oxygen-hemoglobin-dissociation-curve-will-shift-to-the-r-6cda5909` — The oxygen-hemoglobin dissociation curve will shift to the right with:
+- `the-oxyhemoglobin-dissociation-curve-fa89718b` — The oxyhemoglobin dissociation curve:
+- `which-statement-about-hemoglobin-is-incorrect-e6822bc0` — Which statement about hemoglobin is Incorrect?
 
 ### Control of Respiration (10)
 

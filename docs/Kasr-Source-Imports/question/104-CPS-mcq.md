@@ -55,8 +55,9 @@
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
-    Physiology Respiratory System — Gas Exchange in the Lung — 5 questions, 2 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 16 questions, 4 concepts
+    Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
@@ -78,7 +79,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  140 questions were excluded and 0 held back for having no
+  141 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -47828,6 +47829,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-FA01844B0AF5
+## title
+Which of the following causes of hypoxia is characterized by a decreased arterial PO2 a…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following causes of hypoxia is characterized by a decreased arterial PO2 and a normal Alveolar PO2?
+## answer_a
+Hypoventilation ,
+## explanation_a
+Hypoventilation lowers alveolar PO2 first — less fresh air reaches the alveoli — and arterial PO2 falls with it, so both fall together rather than showing the normal-alveolar/low-arterial dissociation this question asks for.
+## answer_b
+Right-to-left cardiac shunt
+## explanation_b
+This is the correct answer. A right-to-left cardiac shunt sends venous blood directly into the systemic arterial circulation without it ever passing through ventilated alveoli, so arterial PO2 falls while the alveoli that ARE ventilated register an entirely normal alveolar PO2 — exactly the dissociation the stem describes, and the classic teaching point that separates a shunt from every other cause of hypoxia listed here.
+
+Why this is right:
+- Hypoxaemia is a fall in arterial PO2, and it has four classic mechanisms: hypoventilation lowers alveolar PO2 (and so arterial PO2) while raising PCO2; a diffusion defect (a thickened or reduced-area respiratory membrane) slows O2 transfer more than CO2 elimination, so PaO2 falls while PaCO2 may stay normal; ventilation-perfusion mismatch lets poorly ventilated but well-perfused lung units contribute desaturated blood to the pulmonary veins; and a right-to-left shunt (an anatomical bypass of ventilated alveoli) mixes fully deoxygenated blood directly into the arterial circulation, so PaO2 falls despite an entirely normal alveolar PO2.
+## answer_c
+Anemia
+## explanation_c
+Anaemia lowers the total amount of haemoglobin available to carry oxygen, not the partial pressure of oxygen itself — arterial and alveolar PO2 both stay normal in anaemia, even though O2 content and delivery fall.
+## answer_d
+Carbon monoxide poisoning
+## explanation_d
+Carbon monoxide poisoning displaces O2 from haemoglobin's own binding sites without changing dissolved O2 in the plasma — arterial and alveolar PO2 both stay normal, which is also why CO poisoning is not itself a form of hypoxic hypoxia.
+## correct_answer
+B
+## main_concept
+CON-RES-59FB00D6B96AE0
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Identify a right-to-left cardiac shunt as the cause of hypoxia with a decreased arterial PO2 alongside a normal alveolar PO2.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q96. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-424AB905A7A9
 ## title
 Factors that cause shift of oxygen dissociation curve to the right are:
@@ -49287,6 +49380,558 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-AC3B85D2487B
+## title
+With respect to the binding of carbon monoxide to haemoglobin: ‏ا‎
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+With respect to the binding of carbon monoxide to haemoglobin: ‏ا‎
+## answer_a
+The binding site of carbon monoxide to Hb is different from that of oxygen ‏ا‎
+## explanation_a
+Carbon monoxide binds the SAME site on haemoglobin as oxygen — the heme iron — which is exactly why the two gases compete directly for the same binding sites rather than acting independently.
+## answer_b
+Hemoglobin has a higher affinity for oxygen than for carbon monoxide i
+## explanation_b
+The opposite is true: haemoglobin's affinity for carbon monoxide is roughly 200 times GREATER than its affinity for oxygen, not lower — this single fact is why even a small inspired CO concentration can tie up a large fraction of the body's haemoglobin.
+## answer_c
+97% of carbon monoxide transported by blood is in solution in the water of plasma ‏ا‎
+## explanation_c
+Almost all carbon monoxide in the blood is carried bound to haemoglobin, not dissolved in plasma water — a 97%-dissolved figure instead describes roughly the physically-dissolved fraction of a gas like O2, not CO's own overwhelmingly Hb-bound transport.
+## answer_d
+CO - Hb dissociation curve lies to the left of the oxygen - Hb dissociation curve ‏ا‎
+## explanation_d
+This is the correct answer. Because haemoglobin's affinity for carbon monoxide is about 200 times greater than for oxygen, a given percentage saturation with CO is reached at a far lower partial pressure than the same saturation with O2 — so the CO-Hb dissociation curve sits well to the left of the O2-Hb curve. This is the same superaffinity that lets bound CO also resist the release of any oxygen molecules still attached to the same haemoglobin tetramer, shifting the O2 curve itself to the left as well.
+
+Why this is right:
+- P50, the PO2 at 50% Hb saturation, is normally 27 mmHg and marks where the sigmoid Hb-O2 dissociation curve sits.
+## correct_answer
+D
+## main_concept
+CON-RES-9A7E8EA47079D0
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that carbon monoxide's roughly 200-fold higher affinity for haemoglobin shifts the CO-Hb dissociation curve far to the left of the O2-Hb curve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p39 q102. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-ADBCF0E0F6C9
+## title
+Cyanosis: 1
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Cyanosis: 1
+## answer_a
+Can be seen in a person if his capillary blood contains 5 mg reduced hemoglobin/100 ml blood.
+## explanation_a
+States the standard threshold figure for cyanosis (reduced haemoglobin exceeding roughly 5 g/100 ml capillary blood), but on its own names only the number, not a clinical setting — the question is testing which SITUATION reliably produces that threshold being crossed, which option D names directly and unambiguously.
+## answer_b
+Is observed in histotoxic hypoxia.
+## explanation_b
+Histotoxic hypoxia leaves arterial blood normally oxygenated — the defect is in the tissue's ability to use the oxygen delivered to it, not in how much reduced haemoglobin is circulating — so it is not classically accompanied by cyanosis.
+## answer_c
+Is seen in carbon monoxide poisoning. ‏ش‎
+## explanation_c
+Carbon monoxide poisoning does not produce cyanosis: CO's much higher affinity for haemoglobin than O2 means carboxyhaemoglobin accumulates instead of reduced haemoglobin, giving a cherry-red rather than blue discolouration.
+## answer_d
+Is present in severe ventilation perfusion imbalance.
+## explanation_d
+This is the correct answer. Severe ventilation-perfusion imbalance is a form of hypoxic hypoxia — arterial PO2 and saturation fall while total haemoglobin remains normal — which is exactly the combination that lets enough reduced haemoglobin accumulate to cross the cyanosis threshold, unlike anaemic, histotoxic hypoxia or CO poisoning.
+
+Why this is right:
+- Hypoxia is classified by mechanism.
+## correct_answer
+D
+## main_concept
+CON-RES-94F216A2FDD9E5
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Attribute cyanosis to severe ventilation-perfusion imbalance — a form of hypoxic hypoxia with normal total haemoglobin available to sit unsaturated.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q125. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DA60CE5DDCDD
+## title
+Cyanosis:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Cyanosis:
+## answer_a
+Can be seen in a person if his capillary blood contains 5 mg reduced hemoglobin/100 ml blood
+## explanation_a
+States the standard threshold figure for cyanosis, but names only the number rather than a clinical setting — the question is testing which situation reliably crosses that threshold, which option D names directly.
+## answer_b
+Is observed in histotoxic hypoxia
+## explanation_b
+Histotoxic hypoxia leaves arterial blood normally oxygenated, so there is no excess reduced haemoglobin for cyanosis to appear — the defect is purely in the tissue's ability to use the oxygen it receives.
+## answer_c
+Is seen in carbon monoxide poisoning
+## explanation_c
+Carbon monoxide poisoning produces carboxyhaemoglobin, not reduced haemoglobin, and so gives a cherry-red rather than a cyanosed appearance despite genuine tissue hypoxia.
+## answer_d
+Is present in severe ventilation perfusion imbalance,
+## explanation_d
+This is the correct answer. Severe ventilation-perfusion imbalance — a form of hypoxic hypoxia — lowers arterial PO2 and saturation while total haemoglobin stays normal, exactly the combination needed for enough reduced haemoglobin to accumulate and cross the cyanosis threshold.
+
+Why this is right:
+- Hypoxia is classified by mechanism.
+## correct_answer
+D
+## main_concept
+CON-RES-94F216A2FDD9E5
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Attribute cyanosis to severe ventilation-perfusion imbalance, the same reasoning as its sibling row.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q59. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-F5B736325F64
+## title
+Hypoxic hypoxia: 3
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Hypoxic hypoxia: 3
+## answer_a
+Is characterized by normal O2 tension in arterial blood and normal saturation of Hb with 02
+## explanation_a
+This describes anaemic or histotoxic hypoxia, not hypoxic hypoxia — hypoxic hypoxia is defined by a LOW arterial PO2 and low haemoglobin saturation, the opposite of what this option states.
+## answer_b
+Is accompanied with cyanosis
+## explanation_b
+This is the correct answer. Hypoxic hypoxia leaves total haemoglobin normal while lowering its saturation, so enough reduced haemoglobin accumulates to cross the cyanosis threshold — hypoxic hypoxia is one of the two mechanisms (with stagnant hypoxia) classically accompanied by visible cyanosis.
+
+Why this is right:
+- Hypoxia is classified by mechanism.
+## answer_c
+Is produced by carbon monoxide poisoning
+## explanation_c
+Carbon monoxide poisoning leaves arterial PO2 normal — CO occupies haemoglobin's binding sites without lowering dissolved O2 — so it is not itself an instance of hypoxic hypoxia, which is defined by a fall in arterial PO2.
+## answer_d
+Is accompanied with low hemoglobin content. ,
+## explanation_d
+Low haemoglobin content describes anaemic hypoxia, a separate category — hypoxic hypoxia by definition has a normal total haemoglobin, just an abnormally low fraction of it saturated with oxygen.
+## correct_answer
+B
+## main_concept
+CON-RES-94F216A2FDD9E5
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that hypoxic hypoxia is classically accompanied by cyanosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q126. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2B0860BEBCC0
+## title
+Hypoxic hypoxia:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Hypoxic hypoxia:
+## answer_a
+Is characterized by normal oxygen tension in arterial blood and normal saturation of hemoglobin with oxygen.
+## explanation_a
+Hypoxic hypoxia is defined by a LOW arterial oxygen tension and low haemoglobin saturation — this option instead describes a hypoxia type with normal blood gases, such as anaemic or histotoxic hypoxia.
+## answer_b
+Is accompanied with cyanosis.
+## explanation_b
+This is the correct answer. With total haemoglobin normal but its saturation reduced, hypoxic hypoxia lets enough reduced haemoglobin build up to cross the cyanosis threshold, making it (with stagnant hypoxia) one of the two mechanisms classically accompanied by visible cyanosis.
+
+Why this is right:
+- Hypoxia is classified by mechanism.
+## answer_c
+Is produced by carbon monoxide poisoning.
+## explanation_c
+Carbon monoxide poisoning does not lower arterial PO2 — it displaces O2 from haemoglobin's binding sites without changing dissolved O2 — so it is not a form of hypoxic hypoxia by definition.
+## answer_d
+15 accompanied with low hemoglobin content.
+## explanation_d
+A low haemoglobin content describes anaemic hypoxia, a distinct category from hypoxic hypoxia, which by definition has normal total haemoglobin and only an abnormally low fraction of it saturated.
+## correct_answer
+B
+## main_concept
+CON-RES-94F216A2FDD9E5
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that hypoxic hypoxia is classically accompanied by cyanosis, the same reasoning as its sibling row.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p22 q40. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-815418E96C71
+## title
+Oxygen therapy is of limited value in which of the following situations?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Oxygen therapy is of limited value in which of the following situations?
+## answer_a
+Acute respiratory distress syndrome
+## explanation_a
+Acute respiratory distress syndrome is a form of hypoxic hypoxia (severe ventilation-perfusion mismatch and shunting); raising inspired O2 still increases the oxygen available to whatever alveoli remain adequately perfused and ventilated, so it retains meaningful (if sometimes incomplete) value — unlike the two situations named in D, where the defect lies entirely beyond how much oxygen the blood carries.
+## answer_b
+Stagnant hypoxia
+## explanation_b
+Correct as one half of the answer (see D). In stagnant (circulatory) hypoxia the defect is a reduced rate of blood flow, not insufficient oxygen content in the blood that does flow — raising inspired O2 cannot substitute for restoring flow.
+## answer_c
+Cyanide poisoning
+## explanation_c
+Correct as the other half of the answer (see D). Cyanide poisoning is a form of histotoxic hypoxia — the cells cannot use the oxygen delivered to them because cytochrome oxidase is blocked — so supplemental O2 cannot correct the underlying defect.
+## answer_d
+b and c
+## explanation_d
+This is the correct answer. Oxygen therapy is of limited value precisely where the problem lies beyond how much oxygen reaches or is dissolved in the blood: stagnant hypoxia (B, a flow problem) and histotoxic hypoxia such as cyanide poisoning (C, a cellular-use problem). Both differ fundamentally from hypoxic or anaemic hypoxia, where raising the oxygen actually delivered (or, in anaemia, at least its partial pressure and dissolved fraction) still helps.
+
+Why this is right:
+- Hypoxia is classified by mechanism.
+## correct_answer
+D
+## main_concept
+CON-RES-94F216A2FDD9E5
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that supplemental O2 has limited value in stagnant hypoxia and in histotoxic hypoxia such as cyanide poisoning, since neither is a problem of insufficient oxygen reaching the blood.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q97. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
 
 ---
 
