@@ -320,5 +320,48 @@ export const LEAF: McqLeafSeed = {
         E: "The right half of the lower sternum approximates the TRICUSPID valve's own auscultatory area (more precisely, the xiphisternal junction), not the pulmonary valve's.",
       },
     },
+    {
+      // Content-corrupted/unverifiable-key row, not merely an option-count
+      // shortfall: neither coronary artery arises from the arch of the
+      // aorta at all (both arise from the ascending aorta's own aortic
+      // sinuses, confirmed by this file's own right/left coronary-artery
+      // concepts, department book pp.83-84), and option D ("It measures
+      // about 5 inches") is an unrelated fragment, not a genuine arch-
+      // branch candidate — indicating the option set has bled together
+      // from a different question. The bank's own editorial answer (B,
+      // "Right coronary artery") is not defensible against the book.
+      key: "one-of-the-following-branches-arises-from-arch-of-aorta-5f0c9b55",
+      conceptKey: "right-coronary-artery.course-and-distribution",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The bank's own editorial (no-printed-key) answer credits the right coronary artery as an arch-of-aorta branch, but the department book (p.83) states plainly the right coronary artery arises from the ANTERIOR AORTIC SINUS of the ascending aorta — not the arch at all, and the same is true of the left coronary artery (p.84, left posterior aortic sinus). Option D ('It measures about 5 inches') is also an unrelated garbled fragment, not a genuine arch-branch candidate, indicating the option set has bled together from a different exam item. No re-verifiable printed key exists to resolve this against; excluded rather than guessed at.",
+    },
+    {
+      // Only 3 options survive (A, C, D — no B), below the platform's
+      // 4-to-5-option import contract.
+      key: "one-of-the-following-structures-lie-below-the-aortic-arch-87da8fa4",
+      conceptKey: "pulmonary-trunk.origin-course-and-ligamentum-arteriosum",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, C, D — no B), below the platform's 4-to-5-option import contract. The credited fact (the left principal bronchus lies below the aortic arch, part of the cardiac sling's own hooking mechanism) is not otherwise tested in this run's own batch, so it is a genuine, not merely duplicate, loss.",
+    },
+    {
+      // Only 2 options survive (B, C — no A, D or E), well below the
+      // platform's 4-to-5-option import contract.
+      key: "the-atrio-ventricular-valves-a-have-three-cusps-for-each-val-74e93b22",
+      conceptKey: "cardiac-valve.surface-markings-cusp-counts-and-auscultatory-areas",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 2 options (B, C — no A, D or E), well below the platform's 4-to-5-option import contract. The credited fact (AV-valve closure is triggered by ventricular pressure exceeding atrial pressure, a passive pressure-driven event, not a papillary-muscle-driven one) is physiology rather than this leaf's own gross-anatomy scope, and is not otherwise tested in this run's own batch.",
+    },
   ],
 }

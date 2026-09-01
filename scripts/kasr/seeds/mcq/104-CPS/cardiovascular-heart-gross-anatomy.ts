@@ -185,5 +185,95 @@ export const LEAF: McqLeafSeed = {
         E: "True, so not the exception. The moderator band (septomarginal trabecula) runs from the septum to the anterior papillary muscle within the right ventricle, bracing it and carrying the right bundle branch.",
       },
     },
+    {
+      // Only 3 options survive (A, B, D — no C), below the platform's
+      // 4-to-5-option import contract.
+      key: "at-which-of-the-following-levels-does-the-base-of-the-heart-3ba1e7d4",
+      conceptKey: "heart.external-features",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, B, D — no C), below the platform's 4-to-5-option import contract. No other row in this run's own batch tests the vertebral-level range of the base of the heart specifically, so the fact itself is a genuine, not merely duplicate, loss.",
+    },
+    {
+      // Only 3 options survive (A, B, D — no C), below the platform's
+      // 4-to-5-option import contract.
+      key: "concerning-the-left-ventricle-select-the-incorrect-statement-6dc70dc8",
+      conceptKey: "heart.left-chambers-interior",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, B, D — no C), below the platform's 4-to-5-option import contract. The bank's own editorial key (B, false) also directly conflicts with the department book's own comparison table (p.76, 'trabeculae: few and coarse' in the right ventricle vs 'numerous and fine' in the left), under which B would in fact read TRUE, not false — a second, independent reason not to author this row as extracted. The genuine facts it touches (LV three times thicker, LV trabeculae fine and numerous) are already kept cleanly in this file's sibling row the-internal-structure-of-left-ventricle-one-is-correct-f794c1b3.",
+    },
+    {
+      // Stem-absorbed-option-A corruption (a recurring hazard class in this
+      // branch): the bank's own key text ('coronary sinus') is embedded
+      // unlettered inside the stem itself, and only 3 real lettered options
+      // (B, C, D) survive — below the platform's 4-to-5-option contract.
+      key: "during-the-heart-development-the-left-horn-of-the-sinus-veno-a2954fc5",
+      conceptKey: "heart.left-chambers-interior",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Stem-absorbed-option-A corruption: the stem itself ends '...becomes smaller and forms: @)coronary sinus' — the bank's own correct-answer text sits unlettered inside the stem, and only 3 real lettered options survive (B, C, D), below the platform's 4-to-5-option import contract. The underlying fact (left sinus-venosus horn becomes the coronary sinus) is well-sourced (department book, p.136) and worth a future clean-option row if one is found.",
+    },
+    {
+      // Corrupted/mismatched-content row: option A's text ('1st right
+      // costal cartilage') belongs to a different fact entirely (SVC
+      // formation) and bears no relation to this stem ('the left horn of
+      // the sinus venosus becomes... '), and only 3 lettered options
+      // survive (A, C, D) — below the platform's 4-to-5-option contract.
+      key: "during-the-heart-development-the-left-horn-of-the-sinus-veno-fb6e29c0",
+      conceptKey: "heart.left-chambers-interior",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 lettered options survive (A, C, D — no B), below the platform's 4-to-5-option import contract, and the handwritten-recovered answer (A, 'the-1st-right-costal-cartilage') is itself a content mismatch — that fact belongs to the superior vena cava's own formation, not to the sinus venosus's left horn this stem asks about, indicating a merge with a different exam item. The underlying fact (left sinus-venosus horn becomes the coronary sinus) is well-sourced (department book, p.136) and worth a future clean-option row if one is found.",
+    },
+    {
+      // Only 3 options survive (B, C, D — no A, with option A's text
+      // absorbed unlettered into the stem itself), below the platform's
+      // 4-to-5-option import contract.
+      key: "one-of-the-following-does-not-open-into-the-right-atrium-2-a-3a31c50e",
+      conceptKey: "heart.right-chambers-interior",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Stem-absorbed-option-A corruption: the stem itself ends '...into the right atrium: (2 azygos vein' — the intended option A text sits unlettered inside the stem, and only 3 real lettered options survive (B, C, D), below the platform's 4-to-5-option import contract.",
+    },
+    {
+      // Only 3 options survive (A, B, D — no C), below the platform's
+      // 4-to-5-option import contract.
+      key: "one-of-the-following-does-not-open-into-the-right-atrium-679e33ac",
+      conceptKey: "heart.right-chambers-interior",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, B, D — no C), below the platform's 4-to-5-option import contract. This is a clean duplicate of the sibling row one-of-the-following-does-not-open-into-the-right-atrium-2-a-3a31c50e, itself also excluded for the same 3-option shortfall — no complete-option copy of this question exists in the bank.",
+    },
+    {
+      // Only 3 options survive (A, B, C — no D), below the platform's
+      // 4-to-5-option import contract.
+      key: "one-of-the-followings-is-not-true-concerning-the-left-atrium-cc2b5add",
+      conceptKey: "heart.left-chambers-interior",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, B, C — no D), below the platform's 4-to-5-option import contract ('3 options — the contract is 4 to 5'). The credited fact (the left atrium does NOT form the main lower part of the left border — that is the left ventricle/auricle's own contribution) is not otherwise tested in this run's own batch, so it is a genuine, not merely duplicate, loss.",
+    },
   ],
 }

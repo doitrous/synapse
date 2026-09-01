@@ -4,7 +4,7 @@
     Aortic Arch Relations and Cardiac Plexuses — 13 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Anatomy Cardiovascular System — The Heart's Conducting System (components) — 6 questions, 1 concepts
-    Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings — 12 questions, 6 concepts
+    Anatomy Cardiovascular System — The Heart's Coronary Vessels, Plexuses and Surface Markings — 15 questions, 6 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
@@ -25,7 +25,7 @@
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
-    Anatomy Cardiovascular System — The Heart (external features) — 7 questions, 3 concepts
+    Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 17 questions, 4 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
@@ -81,7 +81,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  157 questions were excluded and 0 held back for having no
+  167 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
