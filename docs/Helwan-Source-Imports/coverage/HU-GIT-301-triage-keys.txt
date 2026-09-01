@@ -1,0 +1,281 @@
+achalasia.definition	new	achalasia	
+acute-appendicitis.predisposing-factors	new	acute appendicitis	
+acute-cholangitic-abscess.multiplicity	generic-entity-needs-manual-search	acute cholangitic abscess	
+acute-gastric-ulceration.causes	generic-entity-needs-manual-search	acute gastric ulceration	
+acute-gastritis.causes	generic-entity-needs-manual-search	acute gastritis	
+acute-gastritis.commonest-cause	generic-entity-needs-manual-search	acute gastritis	
+acute-gastritis.pathogenesis	generic-entity-needs-manual-search	acute gastritis	
+acute-intestinal-obstruction.functional-vs-mechanical	generic-entity-needs-manual-search	acute intestinal obstruction	
+acute-oesophagitis.infective-causes	generic-entity-needs-manual-search	acute oesophagitis	
+alcoholic-cirrhosis.gross-features	new	alcoholic cirrhosis	
+alcoholic-fatty-liver.increased-nadh-nad-ratio	new	alcoholic fatty liver	
+alcoholic-steatosis.mechanisms	new	alcoholic steatosis	
+aluminium-hydroxide.phosphate-binding-in-renal-failure	new	aluminium hydroxide	
+amoebic-dysentery.flask-shaped-ulcers	new	amoebic dysentery	
+amoebic-liver-abscess.clinical-vignette-diagnosis	new	amoebic liver abscess	
+ancylostoma-duodenale.clinical-vignette-diagnosis	new	ancylostoma duodenale	
+ancylostoma-duodenale.ground-itch	new	ancylostoma duodenale	
+ancylostoma-duodenale.infective-stage.filariform-larva	new	ancylostoma duodenale	
+ancylostoma-duodenale.iron-deficiency-anemia	new	ancylostoma duodenale	
+antacid-combination.mg-al-balancing-bowel-effects	new	antacid combination	
+antacids.rapid-onset-brief-duration	generic-entity-needs-manual-search	antacids	
+antidiarrhoeal-drugs.indapamide-is-a-diuretic	generic-entity-needs-manual-search	antidiarrhoeal drugs	
+antidiarrhoeal-drugs.neostigmine-not-antidiarrhoeal	generic-entity-needs-manual-search	antidiarrhoeal drugs	
+antiemetics.apomorphine-is-an-emetic	generic-entity-needs-manual-search	antiemetics	
+antiemetics.motion-sickness.dimenhydrinate	generic-entity-needs-manual-search	antiemetics	
+antispasmodics.direct-vs-anticholinergic	generic-entity-needs-manual-search	antispasmodics	
+ascaris-lumbricoides.clinical-vignette-diagnosis	new	ascaris lumbricoides	
+ascaris-lumbricoides.complications.obstruction	new	ascaris lumbricoides	
+ascaris-lumbricoides.egg-maturation-in-soil	new	ascaris lumbricoides	
+ascaris-lumbricoides.egg-morphology.single-cell	new	ascaris lumbricoides	
+ascaris-lumbricoides.loefflers-syndrome	new	ascaris lumbricoides	
+ascaris-lumbricoides.pulmonary-migration	new	ascaris lumbricoides	
+autoinfection.parasite-scope	generic-entity-needs-manual-search	autoinfection	
+bacillary-dysentery.causative-organism	new	bacillary dysentery	
+bacillary-dysentery.inflammation-type	new	bacillary dysentery	
+budd-chiari-syndrome.hepatic-vein-thrombosis	new	budd chiari syndrome	
+capillaria-philippinensis.mode-of-infection	new	capillaria philippinensis	
+carcinoid-tumour.commonest-site.appendix	pending-hit	carcinoid tumour	docs/Kasr-Source-Imports/concept/103-BMS-mcq-aromatic-concepts.md
+castor-oil.classification.irritant-laxative	live-hit	castor oil	CON-GIT-3DD22DDCB35DC1
+cestoda.infective-stage.eggs	generic-entity-needs-manual-search	cestoda	
+chemotherapy-induced-nausea.corticosteroid-adjunct	generic-entity-needs-manual-search	chemotherapy induced nausea	
+chenodeoxycholic-acid.gallstone-dissolution	new	chenodeoxycholic acid	
+cholangiocarcinoma.afp-not-a-marker	new	cholangiocarcinoma	
+chronic-hepatitis.commonest-cause-viral	generic-entity-needs-manual-search	chronic hepatitis	
+chronic-hepatitis.metabolic-causes	generic-entity-needs-manual-search	chronic hepatitis	
+chronic-intestinal-obstruction.causes	generic-entity-needs-manual-search	chronic intestinal obstruction	
+chronic-intestinal-obstruction.pathology	generic-entity-needs-manual-search	chronic intestinal obstruction	
+chronic-liver-failure.causes	generic-entity-needs-manual-search	chronic liver failure	
+chronic-pancreatitis.commonest-cause-alcohol	generic-entity-needs-manual-search	chronic pancreatitis	
+chronic-pancreatitis.complications	generic-entity-needs-manual-search	chronic pancreatitis	
+chronic-pancreatitis.pathogenesis	generic-entity-needs-manual-search	chronic pancreatitis	
+cimetidine.cytochrome-p450-drug-interactions	new	cimetidine	
+cimetidine.gynaecomastia-side-effect	new	cimetidine	
+cimetidine.mechanism-and-adverse-effects	new	cimetidine	
+cirrhosis.regeneration-nodule-architecture	live-hit	cirrhosis	CON-GIT-D5AE5CFC839666
+coeliac-disease.gluten-trigger	new	coeliac disease	
+colloidal-bismuth.black-staining-side-effect	new	colloidal bismuth	
+colonic-adenoma.malignant-potential	generic-entity-needs-manual-search	colonic adenoma	
+colonic-polyps.non-neoplastic-vs-neoplastic	generic-entity-needs-manual-search	colonic polyps	
+colorectal-carcinoma.modified-dukes-staging	new	colorectal carcinoma	
+cryptosporidium.differential-diarrhoea-in-immunosuppressed	new	cryptosporidium	
+cryptosporidium.infective-stage.oocyst	new	cryptosporidium	
+diarrhoea-treatment.muscarinic-agonists-not-used	generic-entity-needs-manual-search	diarrhoea treatment	
+dietary-lipid-transport.chylomicrons	new	dietary lipid transport	
+diphyllobothrium-latum.clinical-vignette-diagnosis	new	diphyllobothrium latum	
+diphyllobothrium-latum.complication.b12-deficiency-anemia	new	diphyllobothrium latum	
+diphyllobothrium-latum.diagnostic-stage	new	diphyllobothrium latum	
+diphyllobothrium-latum.differential-b12-deficiency-anemia	new	diphyllobothrium latum	
+diphyllobothrium-latum.egg-morphology.operculated	new	diphyllobothrium latum	
+diphyllobothrium-latum.infective-stage.plerocercoid-in-fish	new	diphyllobothrium latum	
+diphyllobothrium-latum.mechanism-of-b12-deficiency-anemia	new	diphyllobothrium latum	
+diphyllobothrium-latum.second-intermediate-host.fish	new	diphyllobothrium latum	
+diphyllobothrium-latum.treatment.praziquantel	new	diphyllobothrium latum	
+dipylidium-caninum.control.flea-vector	new	dipylidium caninum	
+dipylidium-caninum.diagnostic-stage	new	dipylidium caninum	
+disaccharide-digestion.pancreatic-enzymes	new	disaccharide digestion	
+diverticular-disease-colon.epidemiology	generic-entity-needs-manual-search	diverticular disease colon	
+diverticular-disease-colon.pathology	generic-entity-needs-manual-search	diverticular disease colon	
+diverticular-disease-colon.site	generic-entity-needs-manual-search	diverticular disease colon	
+drug-induced-diarrhoea.codeine-causes-constipation	generic-entity-needs-manual-search	drug induced diarrhoea	
+duodenal-peptic-ulcer.gastrinoma-association	generic-entity-needs-manual-search	duodenal peptic ulcer	
+echinococcus-granulosus.intermediate-host.sheep	new	echinococcus granulosus	
+echinococcus-granulosus.larval-stage.hydatid-cyst	new	echinococcus granulosus	
+echinococcus-granulosus.man-as-intermediate-host	new	echinococcus granulosus	
+echinococcus.alveolar-hydatid.intermediate-host	new	echinococcus	
+echinococcus.alveolar-hydatid.malignant-like-behaviour	new	echinococcus	
+echinococcus.alveolar-hydatid.site	new	echinococcus	
+entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate	new	entamoeba histolytica	
+entamoeba-histolytica.infective-stage.cyst	new	entamoeba histolytica	
+enterobius-vermicularis.airborne-egg-transmission	new	enterobius vermicularis	
+enterobius-vermicularis.clinical-features.perianal-pruritus	new	enterobius vermicularis	
+enterobius-vermicularis.clinical-vignette-diagnosis	new	enterobius vermicularis	
+enterobius-vermicularis.diagnosis.graham-swab	new	enterobius vermicularis	
+enterobius-vermicularis.diagnosis.not-by-stool	new	enterobius vermicularis	
+enterobius-vermicularis.diagnosis.perianal-swab	new	enterobius vermicularis	
+enterobius-vermicularis.diagnostic-stage	new	enterobius vermicularis	
+enterobius-vermicularis.ectopic-egg-deposition	new	enterobius vermicularis	
+enterobius-vermicularis.egg-morphology.plano-convex	new	enterobius vermicularis	
+enterobius-vermicularis.egg-under-fingernails	new	enterobius vermicularis	
+enterobius-vermicularis.identity	new	enterobius vermicularis	
+enterobius-vermicularis.mode-of-infection.egg-not-larva	new	enterobius vermicularis	
+enterobius-vermicularis.retroinfection	new	enterobius vermicularis	
+fap.apc-gene-mutation	live-hit	fap	CON-GIT-BA1483A0234CCD
+fap.apc-tumour-suppressor-gene	live-hit	fap	CON-GIT-BA1483A0234CCD
+fasciola-hepatica.intermediate-host.lymnaea-truncatula	new	fasciola hepatica	
+fasciola.clinical-course	new	fasciola	
+fasciola.clinical-features-and-diagnosis	new	fasciola	
+fasciola.clinical-vignette-diagnosis	new	fasciola	
+fasciola.complication.b12-deficiency-anemia	new	fasciola	
+fasciola.diagnosis.serology-when-stool-negative	new	fasciola	
+fasciola.early-diagnosis.serology	new	fasciola	
+fasciola.habitat.bile-ducts	new	fasciola	
+fasciola.halzoon-syndrome	new	fasciola	
+fasciola.spurious-infection	new	fasciola	
+fasciola.spurious-vs-false-infection	new	fasciola	
+fasciola.treatment.triclabendazole	new	fasciola	
+fasciolopsis-buski.reservoir-host.pig	new	fasciolopsis buski	
+fatty-liver.causes-vs-increased-fatty-acid-oxidation	live-hit	fatty liver	CON-GIT-ADAE9B3037FA58,CON-GIT-2D2709CD4D9A17,CON-GIT-5E17AE710409A4
+fish-borne-helminths	generic-entity-needs-manual-search	fish borne helminths	
+fructose-absorption.glut-5	new	fructose absorption	
+gallstones.cholesterol-vs-pigment-risk-factors	pending-hit	gallstones	docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md
+gallstones.pigment-stones-haemolysis	pending-hit	gallstones	docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md
+gallstones.secondary-biliary-cirrhosis	pending-hit	gallstones	docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md
+gastric-carcinoma.risk-factors	generic-entity-needs-manual-search	gastric carcinoma	
+gastric-lipase.significance-in-infants	generic-entity-needs-manual-search	gastric lipase	
+gastric-lymphoma.h-pylori-association	generic-entity-needs-manual-search	gastric lymphoma	
+gastric-polyps.malignant-potential.adenomatous	generic-entity-needs-manual-search	gastric polyps	
+gastric-tumours.benign-mesenchymal-vs-epithelial	generic-entity-needs-manual-search	gastric tumours	
+gerd.proton-pump-inhibitor-for-full-acid-suppression	new	gerd	
+giardia-lamblia.clinical-vignette-diagnosis	new	giardia lamblia	
+giardia-lamblia.habitat.duodenum-jejunum	new	giardia lamblia	
+gist.c-kit-mutation	new	gist	
+gist.commonest-abdominal-mesenchymal-tumour	new	gist	
+git-lymphoma.commonest-site	new	git lymphoma	
+glucose-transporters.intestinal-scglt1-glut2-glut5	pending-hit	glucose transporters	docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md
+glut-2.basolateral-sugar-exit	new	glut 2	
+granisetron.mechanism.5ht3-receptor-antagonist	new	granisetron	
+granulomatous-liver-disease.exclusion-nash	generic-entity-needs-manual-search	granulomatous liver disease	
+h-pylori-eradication.antibiotic-regimen	generic-entity-needs-manual-search	h pylori eradication	
+h-pylori-eradication.clarithromycin	generic-entity-needs-manual-search	h pylori eradication	
+h-pylori-eradication.triple-therapy	generic-entity-needs-manual-search	h pylori eradication	
+h-pylori-gastritis.pathogenesis	new	h pylori gastritis	
+h2-blockers.famotidine-ulcer-healing	new	h2 blockers	
+h2-blockers.maintenance-therapy-ulcer-relapse	new	h2 blockers	
+haemochromatosis.pigmented-cirrhosis	pending-hit	haemochromatosis	docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md
+hepatic-parasites	generic-entity-needs-manual-search	hepatic parasites	
+hepatoblastoma.angiosarcoma-vs-hepatoblastoma-risk-factors	new	hepatoblastoma	
+hepatocellular-carcinoma.afp-marker	new	hepatocellular carcinoma	
+heterophyes.complication.ectopic-egg-emboli	new	heterophyes	
+heterophyes.complication.egg-emboli	new	heterophyes	
+heterophyes.complication.myocarditis	new	heterophyes	
+heterophyes.diagnosis.stool-concentration-technique	new	heterophyes	
+heterophyes.egg-hatching.no-miracidium-in-water	new	heterophyes	
+heterophyes.infective-stage.encysted-metacercaria	new	heterophyes	
+heterophyes.intermediate-host.pirenella-conica	new	heterophyes	
+heterophyes.life-cycle.lophocercous-cercaria	new	heterophyes	
+heterophyes.second-intermediate-host.fish	new	heterophyes	
+heterophyes.treatment.praziquantel	new	heterophyes	
+hev.fulminant-hepatitis-in-pregnancy	new	hev	
+hev.transmission.faecal-oral	new	hev	
+hiatus-hernia.pathogenesis	new	hiatus hernia	
+hirschsprung-disease.clinical-features	new	hirschsprung disease	
+hookworm-group.iron-deficiency-anemia	new	hookworm group	
+hookworm.iron-deficiency-anemia	live-hit	hookworm	CON-HEM-F1B029CB7BD806
+hymenolepis-diminuta.intermediate-host.arthropod	new	hymenolepis diminuta	
+hymenolepis-nana.autoinfection	new	hymenolepis nana	
+hymenolepis-nana.direct-life-cycle	new	hymenolepis nana	
+hymenolepis-nana.egg-morphology	new	hymenolepis nana	
+hymenolepis-nana.epidemiology.children	new	hymenolepis nana	
+hymenolepis-nana.larval-stage.cysticercoid	new	hymenolepis nana	
+hymenolepis.diagnostic-stage.eggs	new	hymenolepis	
+hymenolepis.nana-vs-diminuta.egg-size	new	hymenolepis	
+immunodiagnosis.parasite-scope	generic-entity-needs-manual-search	immunodiagnosis	
+inflammatory-bowel-disease.crohns-site	live-hit	inflammatory bowel disease	CON-GIT-C62E7B8F674941
+intestinal-nematodes.complication.appendicitis	generic-entity-needs-manual-search	intestinal nematodes	
+intestinal-nematodes.diagnostic-stage.adult-worm	generic-entity-needs-manual-search	intestinal nematodes	
+intestinal-parasites.complication.appendicitis	generic-entity-needs-manual-search	intestinal parasites	
+irritant-purgatives.mechanism	new	irritant purgatives	
+juvenile-polyp.features	new	juvenile polyp	
+lactase.hydrolysis-products	new	lactase	
+lactose-intolerance.lactase-deficiency	pending-hit	lactose intolerance	docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md
+lactulose.hepatic-encephalopathy-treatment	live-hit	lactulose	CON-GIT-CFF765C2EF7ED9
+laxatives.diphenoxylate-is-antidiarrhoeal	generic-entity-needs-manual-search	laxatives	
+leukoplakia.malignant-transformation-is-to-scc-not-adenocarcinoma	new	leukoplakia	
+lipotropic-factors.chloroform-is-hepatotoxic	live-hit	lipotropic factors	CON-GIT-2F25DC280014C6,CON-GIT-49C0A180AAED8F
+liquid-paraffin.fat-soluble-vitamin-malabsorption	live-hit	liquid paraffin	CON-GIT-262FBDAC8E7506
+liver-abscess.multiple-vs-solitary-causes	new	liver abscess	
+liver-biopsy.parasitic-diagnosis	new	liver biopsy	
+liver-cell-adenoma.oral-contraceptive-association	new	liver cell adenoma	
+liver-function-tests.afp-in-liver-cancer	generic-entity-needs-manual-search	liver function tests	
+liver-function-tests.prothrombin-time-synthetic-function	generic-entity-needs-manual-search	liver function tests	
+liver-function-tests.transaminases-hepatocellular-damage	generic-entity-needs-manual-search	liver function tests	
+liver-metabolism.gamma-globulins-not-hepatic-synthesis	new	liver metabolism	
+liver-zonation.zone-3-ischaemic-vulnerability	new	liver zonation	
+loperamide.drug-class	new	loperamide	
+loperamide.opioid-derivative-otc-status	new	loperamide	
+loperamide.travellers-diarrhoea	new	loperamide	
+magnesium-antacids.diarrhoea-side-effect	new	magnesium antacids	
+magnesium-hydroxide.osmotic-laxative	new	magnesium hydroxide	
+meckels-diverticulum.antimesenteric-border	new	meckels diverticulum	
+melena.causes-vs-haematochezia	generic-entity-needs-manual-search	melena	
+metoclopramide.diabetic-gastroparesis	new	metoclopramide	
+metoclopramide.dual-antiemetic-prokinetic-action	new	metoclopramide	
+metoclopramide.mechanism.d2-receptor-antagonist	new	metoclopramide	
+misoprostol.nsaid-ulcer-prophylaxis	new	misoprostol	
+nematodes.large-intestine-habitat	generic-entity-needs-manual-search	nematodes	
+nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines	new	nucleoprotein digestion	
+oesophageal-squamous-papilloma.hpv-association	new	oesophageal squamous papilloma	
+ondansetron.indication.chemotherapy-induced-vomiting	new	ondansetron	
+ondansetron.mechanism.5ht3-receptor-blockade	new	ondansetron	
+paediatric-diarrhoea.fluid-electrolyte-correction	generic-entity-needs-manual-search	paediatric diarrhoea	
+pancreatic-carcinoma.clinical-presentation	new	pancreatic carcinoma	
+pancreatic-carcinoma.commonest-site-head	new	pancreatic carcinoma	
+pancreatic-lipase.cofactors	pending-hit	pancreatic lipase	docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md
+pancreatic-pseudocyst.no-epithelial-lining	new	pancreatic pseudocyst	
+pepsin.endopeptidase-not-exopeptidase	live-hit	pepsin	CON-GIT-E717E25A1060A4,CON-GIT-E10E05FE786B9A,CON-GIT-6E386B69AA17CB
+peptic-ulcer-disease.common-sites	generic-entity-needs-manual-search	peptic ulcer disease	
+peptic-ulcer-disease.gross-site	generic-entity-needs-manual-search	peptic ulcer disease	
+peptic-ulcer-disease.h-pylori-risk-factor	generic-entity-needs-manual-search	peptic ulcer disease	
+peptic-ulcer-disease.pathogenesis-gastric-vs-duodenal	generic-entity-needs-manual-search	peptic ulcer disease	
+peptic-ulcer-drugs.corticosteroids-not-used	generic-entity-needs-manual-search	peptic ulcer drugs	
+peritoneal-carcinomatosis.commonest-primary	generic-entity-needs-manual-search	peritoneal carcinomatosis	
+pirenella-conica.habitat.brackish-water	new	pirenella conica	
+pirenella-conica.molluscicide-resistance	new	pirenella conica	
+portal-hypertension.presinusoidal-cause-schistosomiasis	generic-entity-needs-manual-search	portal hypertension	
+praziquantel.spectrum.cestodes-and-trematodes	new	praziquantel	
+primary-biliary-cirrhosis.female-predominance	new	primary biliary cirrhosis	
+proton-pump-inhibitors.omeprazole	new	proton pump inhibitors	
+purgatives.indications-vs-contraindication-gastroenteritis	generic-entity-needs-manual-search	purgatives	
+purgatives.physical-vs-irritant-classification	generic-entity-needs-manual-search	purgatives	
+ranitidine.mechanism.h2-receptor-blockade	new	ranitidine	
+salivary-gland-tumours.commonest-malignant.mucoepidermoid	new	salivary gland tumours	
+salivary-gland-tumours.site.parotid	new	salivary gland tumours	
+sglt-1.tissue-distribution-intestine-and-kidney-not-muscle	new	sglt 1	
+sialadenitis.sjogren-syndrome-aetiology	new	sialadenitis	
+sialadenitis.viral-aetiology.mumps	new	sialadenitis	
+sodium-bicarbonate.systemic-antacid-rebound-and-bleeding-risk	new	sodium bicarbonate	
+soil-transmitted-helminths.sanitation-control	generic-entity-needs-manual-search	soil transmitted helminths	
+steatorrhoea.causes-vs-hormone-sensitive-lipase	new	steatorrhoea	
+stool-examination.helminth-scope	generic-entity-needs-manual-search	stool examination	
+strongyloides-stercoralis.corticosteroid-hyperinfection-risk	new	strongyloides stercoralis	
+strongyloides-stercoralis.diagnosis.duodenal-aspiration	new	strongyloides stercoralis	
+strongyloides-stercoralis.diagnosis.stool-culture	new	strongyloides stercoralis	
+strongyloides-stercoralis.diagnostic-stage.rhabditiform-larva	new	strongyloides stercoralis	
+strongyloides-stercoralis.larva-currens	new	strongyloides stercoralis	
+strongyloides-stercoralis.larva-morphology.double-bulbed-oesophagus	new	strongyloides stercoralis	
+strongyloides-stercoralis.life-cycle-forms	new	strongyloides stercoralis	
+strongyloides-stercoralis.portal-of-entry.skin	new	strongyloides stercoralis	
+strongyloides-stercoralis.rhabditiform-larva-morphology	new	strongyloides stercoralis	
+strongyloides-stercoralis.smallest-intestinal-nematode	new	strongyloides stercoralis	
+strongyloides-stercoralis.treatment.ivermectin	new	strongyloides stercoralis	
+sulfasalazine.indication.inflammatory-bowel-disease	new	sulfasalazine	
+taenia-saginata.clinical-vignette-diagnosis	new	taenia saginata	
+taenia-saginata.diagnostic-stages	new	taenia saginata	
+taenia-saginata.infective-stage.cysticercus-bovis	new	taenia saginata	
+taenia-solium.cysticercosis	new	taenia solium	
+taenia-solium.cysticercosis-risk	new	taenia solium	
+taenia-solium.man-as-accidental-intermediate-host	new	taenia solium	
+taenia-solium.not-zoonotic-man-only-host	new	taenia solium	
+taenia-solium.treatment.praziquantel	new	taenia solium	
+taenia.diagnostic-stage	new	taenia	
+taenia.differentiation-by-uterine-branches	new	taenia	
+taenia.differentiation-solium-vs-saginata	new	taenia	
+tongue-squamous-carcinoma.predisposing-factors	new	tongue squamous carcinoma	
+toxocara.clinical-vignette-diagnosis	new	toxocara	
+toxocara.infective-stage.embryonated-egg	new	toxocara	
+trematode-eggs.operculated-immature	generic-entity-needs-manual-search	trematode eggs	
+trematode-eggs.stool-concentration-technique	generic-entity-needs-manual-search	trematode eggs	
+trematodes.infective-stage.encysted-metacercaria	generic-entity-needs-manual-search	trematodes	
+trichuris-trichiura.clinical-vignette-diagnosis	new	trichuris trichiura	
+trichuris-trichiura.complication.rectal-prolapse	new	trichuris trichiura	
+trichuris-trichiura.complications	new	trichuris trichiura	
+trichuris-trichiura.egg-morphology.bipolar-plugs	new	trichuris trichiura	
+trichuris-trichiura.mucosal-attachment	new	trichuris trichiura	
+trichuris-trichiura.no-migratory-phase	new	trichuris trichiura	
+trypsin.endopeptidase-not-exopeptidase	live-hit	trypsin	CON-GIT-DCE600A449FBC4,CON-GIT-2E93ABAB29A4BC
+trypsin.substrate-specificity-arginine-lysine	live-hit	trypsin	CON-GIT-DCE600A449FBC4,CON-GIT-2E93ABAB29A4BC
+viral-hepatitis.hbv-hdv-coinfection	new	viral hepatitis	
+viral-hepatitis.hdv-can-cause-chronic-disease	new	viral hepatitis	
+zollinger-ellison-syndrome.proton-pump-inhibitor-treatment	new	zollinger ellison syndrome	
+zoonotic-dog-transmitted-parasites	generic-entity-needs-manual-search	zoonotic dog transmitted parasites	
