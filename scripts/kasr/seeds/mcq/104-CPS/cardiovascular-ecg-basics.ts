@@ -90,6 +90,53 @@ export const LEAF: McqLeafSeed = {
         "No 104-CPS-scoped article currently covers the clinical/pathophysiological electrical effects of myocardial ischemia; this leaf's articleId (ART-104-PHY-CARDIAC-CONDUCTION) covers the normal autonomic/conduction physiology this concept builds on but not the ischemic disease state itself. Flagged for a future clinical-correlate article-authoring pass.",
       ],
     },
+    {
+      // Fresh mint, run40. find-existing.mjs "precordial lead V1 placement"
+      // -> "Safe to create one." Same "no 104-CPS-scoped ECG article" gap as
+      // every other concept in this file — the leaf's own articleId
+      // (ART-104-PHY-CARDIAC-CONDUCTION) does not itself state precordial
+      // lead placement, only the standard bipolar limb leads this file's
+      // own recording-technique concept already covers. Kept as a separate
+      // concept from that one rather than folded in, since unipolar chest
+      // leads are a distinct lead system from the standard limb leads.
+      key: "ecg.precordial-chest-leads.v1-placement",
+      label: "The exploring electrode of the unipolar chest lead V1 is placed at the fourth intercostal space at the right sternal border",
+      definition: "The six unipolar precordial (chest) leads, V1 through V6, each record the potential at one exploring electrode on the chest wall against a zero reference formed by combining the three limb electrodes (Wilson's central terminal). V1's exploring electrode sits at the fourth intercostal space at the right sternal border, immediately across the sternum from its mirror-image partner V2 (fourth intercostal space, left sternal border). Because V1 and V2 sit closest to the right ventricle and the interventricular septum, they are the standard leads used to assess right heart forces and the terminal (left atrial) component of the P wave. The remaining precordial leads continue laterally and downward across the same horizontal plane: V3 midway between V2 and V4, V4 at the fifth intercostal space in the midclavicular line, V5 at the anterior axillary line level with V4, and V6 at the midaxillary line, also level with V4.",
+      objective: "State that the V1 exploring electrode is placed at the fourth intercostal space at the right sternal border, and locate it relative to its mirror-image partner V2 and the rest of the precordial lead sequence.",
+      pitfall: "Confusing V1's placement with V2's. V1 sits at the RIGHT sternal border, fourth intercostal space; V2 is its mirror image at the LEFT sternal border, same intercostal space — swapping the two is the single most common precordial-lead placement error.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart",
+      type: "structural_description",
+      aliases: ["V1 chest lead", "Precordial leads", "Unipolar chest leads"],
+      gaps: [
+        "Same gap as this file's other three concepts: no 104-CPS-scoped article currently states the precordial (unipolar chest) lead placements; ART-104-PHY-CARDIAC-CONDUCTION is used as the closest live-module article because it does cover the conduction physiology the ECG records, though not lead placement itself.",
+      ],
+    },
+    {
+      // Fresh mint, run40. This row's own bank tag is leaf "The heart"
+      // (subject Histology, chapter "Cardiovascular System") — genuinely
+      // Electrical Activity content (ECG's own diagnostic scope), the same
+      // row PROGRESS.md's run29 entry flagged as "left unclaimed... no
+      // dedicated 104 CPS ECG article/concept file exists yet" before this
+      // file existed. find-existing.mjs "ECG diagnostic scope cardiac
+      // output rhythm ischemia" -> "Safe to create one."
+      key: "ecg.diagnostic-scope-and-limitations",
+      label: "An ECG reveals cardiac rhythm and conduction disturbances, relative chamber size and myocardial ischemic changes, but it does not itself measure cardiac output",
+      definition: "The ECG is a record of the heart's electrical activity, not its mechanical performance. It gives valuable, direct information about disturbances of rhythm and conduction (arrhythmias, heart block), the relative size of the cardiac chambers (via characteristic voltage and axis changes in hypertrophy), and ischemic changes of the myocardium (ST-segment and T-wave abnormalities). What it cannot measure directly is cardiac output: a normal-looking ECG can accompany a failing pump, and a grossly abnormal ECG (an ectopic beat, for instance) may barely change stroke volume — because cardiac output is a mechanical, pressure-and-volume quantity that has to be assessed by other means (echocardiography, the Fick principle, thermodilution), not read off the electrical tracing itself.",
+      objective: "List the three categories of information an ECG genuinely provides (rhythm/conduction, relative chamber size, ischemic change), and state that cardiac output is not one of them.",
+      pitfall: "Assuming a normal or abnormal ECG tracing tells you how much blood the heart is pumping. The ECG records electrical, not mechanical, events; cardiac output must be assessed by a separate method entirely, and a heart can be failing mechanically while its electrical tracing still looks reasonable.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart",
+      type: "structural_description",
+      aliases: ["What an ECG shows", "ECG diagnostic scope", "Cardiac output not shown by ECG"],
+      gaps: [
+        "Same gap as this file's other concepts: no 104-CPS-scoped article currently states the ECG's own diagnostic scope in one place; ART-104-PHY-CARDIAC-CONDUCTION is used as the closest live-module article.",
+      ],
+    },
   ],
 
   questions: [
@@ -338,6 +385,89 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "Already excluded at the bank/editorial-keying stage (editorialExcluded, answerConfidence none): the likely false statement is embedded unlettered in the stem, and the three surviving lettered options are all independently true statements about the pacemaker potential — no letter to assign the intended exception to. Recorded here as a seed exclude for this leaf's own complete accounting, per this branch's standing practice (see A-V Connections' 'record 4 already-known corrupted rows as seed excludes').",
+    },
+    {
+      key: "einthoven-s-triangle-is-an-equilateral-triangle-the-sides-of-a74c2de5",
+      conceptKey: "ecg.recording-technique.paper-speed-and-limb-leads",
+      difficulty: "Moderate",
+      questionType: "Recall of a definition",
+      learningObjective: "State that the sides of Einthoven's equilateral triangle represent the three standard (bipolar) limb leads.",
+      explanations: {
+        A: "Correct. Einthoven's triangle is an equilateral triangle whose three sides represent the three standard bipolar limb leads — lead I (left arm to right arm), lead II (left leg to right arm) and lead III (left leg to left arm) — with the heart modelled as a single dipole at its centre.",
+        B: "The unipolar limb leads (aVR, aVL, aVF) are derived from the same three electrode positions but are not what the triangle's sides themselves represent; they are augmented voltages referenced to a modified central terminal, a separate construction from the triangle's three sides.",
+        C: "The triangle's sides represent the three standard leads specifically, not some combination of standard and unipolar leads together — the augmented unipolar leads are constructed separately, bisecting the triangle's own angles rather than forming its sides.",
+        D: "The heart, modelled as a single dipole, is conventionally placed at the CENTRE of Einthoven's triangle, not at its top — the three limb electrodes occupy the triangle's own three corners.",
+      },
+    },
+    {
+      key: "p-r-interval-is-prolonged-in-all-the-following-cases-except-9c1e8349",
+      conceptKey: "ecg.intervals-and-segments.pr-qt-st-timing",
+      difficulty: "Hard",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify AV nodal rhythm as the exception among conditions that prolong the P-R interval.",
+      explanations: {
+        A: "The exception, and the answer. An AV nodal (junctional) rhythm arises from the AV node itself rather than being conducted down to it from the SA node through the usual delay, so it does not lengthen the P-R interval the way delayed AV conduction does — if anything it shortens or abolishes a normal P-R relationship, since the impulse no longer has to traverse the same conduction path.",
+        B: "True, so not the exception. Atrial hypertrophy can slow conduction across the enlarged atrial mass on its way to the AV node, prolonging the P-R interval.",
+        C: "True, so not the exception. High vagal tone slows AV nodal conduction directly (negative dromotropy), a classic and common cause of a prolonged P-R interval.",
+        D: "True, so not the exception. First-degree heart block is defined precisely as a prolonged P-R interval (greater than 0.2 seconds) from delayed AV conduction — the textbook example of P-R prolongation.",
+      },
+    },
+    {
+      key: "t-waye-is-inverted-in-a-muscular-exercise-be27b8b3",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "Identify coronary ischemia as the classic cause of T-wave inversion, as opposed to muscular exercise, sympathetic overactivity, or hyperthyroidism.",
+      explanations: {
+        A: "Muscular exercise on its own is not the classic, textbook-defining cause of T-wave inversion; T-wave changes with exercise are more typically transient and non-specific rather than the diagnostic sign ischemia produces.",
+        B: "Sympathetic overactivity can alter repolarization, but it is not the primary, classically emphasised cause of T-wave inversion that ischemia represents.",
+        C: "Correct. Coronary (myocardial) ischemia alters ventricular repolarization and is the single most classic, clinically significant cause of T-wave inversion — a hallmark ECG finding used diagnostically to identify areas of compromised coronary blood supply, since the T wave records exactly the repolarization process ischemic tissue disturbs.",
+        D: "Hyperthyroidism produces various cardiac and ECG changes, chiefly tachycardia and arrhythmias, but it is not the primary, classically emphasised cause of T-wave inversion specifically.",
+      },
+    },
+    {
+      key: "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-14f45925",
+      conceptKey: "ecg.precordial-chest-leads.v1-placement",
+      difficulty: "Moderate",
+      questionType: "Recall of a definition",
+      learningObjective: "State that V1's exploring electrode is placed at the fourth intercostal space at the right sternal border.",
+      explanations: {
+        A: "The fourth intercostal space at the LEFT sternal border is V2's placement, V1's mirror-image partner, not V1's own position.",
+        B: "Correct. V1's exploring electrode sits at the fourth intercostal space at the RIGHT sternal border, immediately across the sternum from V2 — the placement that puts V1 closest to the right ventricle and interventricular septum.",
+        C: "The fifth intercostal space at the midclavicular line is V4's placement, two leads further along the precordial sequence, not V1's.",
+        D: "The fifth intercostal space at the anterior axillary line is V5's placement, further still along the sequence, not V1's.",
+      },
+    },
+    {
+      key: "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-fc99a24d",
+      conceptKey: "ecg.precordial-chest-leads.v1-placement",
+      difficulty: "Moderate",
+      questionType: "Recall of a definition",
+      learningObjective: "State that V1's exploring electrode is placed at the fourth intercostal space at the right sternal border.",
+      explanations: {
+        A: "The fourth intercostal space at the LEFT sternal border is V2's placement, V1's mirror-image partner, not V1's own position.",
+        B: "Correct. V1's exploring electrode sits at the fourth intercostal space at the RIGHT sternal border, immediately across the sternum from V2 — the placement that puts V1 closest to the right ventricle and interventricular septum, and makes it the standard lead for assessing right heart forces.",
+        C: "The fifth intercostal space at the midclavicular line is V4's placement, two leads further along the precordial sequence, not V1's.",
+        D: "The fifth intercostal space at the anterior axillary line is V5's placement, further still along the sequence, not V1's.",
+      },
+    },
+    // Bank-tagged leaf "The heart" (subject Histology, chapter
+    // "Cardiovascular System") — genuinely this file's own ECG diagnostic-
+    // scope content, the same row run29's own PROGRESS.md entry flagged as
+    // "no dedicated 104 CPS ECG article/concept file exists yet" before this
+    // file was opened by run33. Leaf-mismatch reroute, no new search needed.
+    {
+      key: "ecg-record-gives-valuable-information-about-all-of-the-follo-68820593",
+      conceptKey: "ecg.diagnostic-scope-and-limitations",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify cardiac output as the one quantity an ECG record does not itself reveal, unlike rhythm/conduction disturbance, relative chamber size and ischemic change.",
+      explanations: {
+        A: "True, so not the exception. An ECG is the direct, primary tool for detecting disturbances of rhythm (arrhythmias) and conduction (heart block), since these are exactly electrical events.",
+        B: "True, so not the exception. Characteristic voltage and axis changes on the ECG give valuable evidence of the relative size of the cardiac chambers, as in the criteria for atrial or ventricular hypertrophy.",
+        C: "The exception, and the answer. Cardiac output is a mechanical, pressure-and-volume quantity — how much blood the heart actually pumps per minute — that the ECG's electrical tracing does not measure directly; a heart can be failing mechanically while its ECG still looks unremarkable, and cardiac output has to be assessed by a separate method (echocardiography, the Fick principle, thermodilution).",
+        D: "True, so not the exception. ST-segment and T-wave abnormalities on the ECG are the classic, valuable signs of ischemic changes in the myocardium.",
+      },
     },
     {
       key: "cardiac-muscle-cannot-be-tetanized-because-of-e311a248",

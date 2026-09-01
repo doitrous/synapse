@@ -22,7 +22,7 @@
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Electrocardiogram Basics — 21 questions, 4 concepts
+    Physiology Cardiovascular System — Electrocardiogram Basics — 27 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 15 questions, 4 concepts
@@ -17483,6 +17483,558 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E381680D1673
+## title
+Einthoven’s triangle is an equilateral triangle, the sides of which represent:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Einthoven’s triangle is an equilateral triangle, the sides of which represent:
+## answer_a
+the 3 standard limb leads. |
+## explanation_a
+Correct. Einthoven's triangle is an equilateral triangle whose three sides represent the three standard bipolar limb leads — lead I (left arm to right arm), lead II (left leg to right arm) and lead III (left leg to left arm) — with the heart modelled as a single dipole at its centre.
+
+Why this is right:
+- Two technical facts govern how a standard ECG tracing is read.
+## answer_b
+the 3 unipolar limb leads
+## explanation_b
+The unipolar limb leads (aVR, aVL, aVF) are derived from the same three electrode positions but are not what the triangle's sides themselves represent; they are augmented voltages referenced to a modified central terminal, a separate construction from the triangle's three sides.
+## answer_c
+combination of both the standard and unipolar leads
+## explanation_c
+The triangle's sides represent the three standard leads specifically, not some combination of standard and unipolar leads together — the augmented unipolar leads are constructed separately, bisecting the triangle's own angles rather than forming its sides.
+## answer_d
+the heart lies at the top of this triangle
+## explanation_d
+The heart, modelled as a single dipole, is conventionally placed at the CENTRE of Einthoven's triangle, not at its top — the three limb electrodes occupy the triangle's own three corners.
+## correct_answer
+A
+## main_concept
+CON-CVS-B1BD95D51903F8
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State that the sides of Einthoven's equilateral triangle represent the three standard (bipolar) limb leads.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q81. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CB794E030717
+## title
+P-R interval is prolonged in all the following cases except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+P-R interval is prolonged in all the following cases except:
+## answer_a
+A-V nodal rhythm. 1
+## explanation_a
+The exception, and the answer. An AV nodal (junctional) rhythm arises from the AV node itself rather than being conducted down to it from the SA node through the usual delay, so it does not lengthen the P-R interval the way delayed AV conduction does — if anything it shortens or abolishes a normal P-R relationship, since the impulse no longer has to traverse the same conduction path.
+
+Why this is right:
+- Three named intervals/segments on the ECG mark specific timing relationships.
+## answer_b
+atrial hypertrophy
+## explanation_b
+True, so not the exception. Atrial hypertrophy can slow conduction across the enlarged atrial mass on its way to the AV node, prolonging the P-R interval.
+## answer_c
+high vagal tone
+## explanation_c
+True, so not the exception. High vagal tone slows AV nodal conduction directly (negative dromotropy), a classic and common cause of a prolonged P-R interval.
+## answer_d
+first degree heart block
+## explanation_d
+True, so not the exception. First-degree heart block is defined precisely as a prolonged P-R interval (greater than 0.2 seconds) from delayed AV conduction — the textbook example of P-R prolongation.
+## correct_answer
+A
+## main_concept
+CON-CVS-14B716A64FA68C
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify AV nodal rhythm as the exception among conditions that prolong the P-R interval.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q70. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-898B86DFDDDF
+## title
+'T waye is inverted in: a, muscular exercise. |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+'T waye is inverted in: a, muscular exercise. |
+## answer_a
+muscular exercise
+## explanation_a
+Muscular exercise on its own is not the classic, textbook-defining cause of T-wave inversion; T-wave changes with exercise are more typically transient and non-specific rather than the diagnostic sign ischemia produces.
+## answer_b
+sympathetic overactivity,
+## explanation_b
+Sympathetic overactivity can alter repolarization, but it is not the primary, classically emphasised cause of T-wave inversion that ischemia represents.
+## answer_c
+coronary ischemia
+## explanation_c
+Correct. Coronary (myocardial) ischemia alters ventricular repolarization and is the single most classic, clinically significant cause of T-wave inversion — a hallmark ECG finding used diagnostically to identify areas of compromised coronary blood supply, since the T wave records exactly the repolarization process ischemic tissue disturbs.
+
+Why this is right:
+- Each deflection on a normal ECG tracing corresponds to a specific electrical event of the cardiac cycle.
+## answer_d
+hyperthyroidism
+## explanation_d
+Hyperthyroidism produces various cardiac and ECG changes, chiefly tachycardia and arrhythmias, but it is not the primary, classically emphasised cause of T-wave inversion specifically.
+## correct_answer
+C
+## main_concept
+CON-CVS-E546F6AC415A6E
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify coronary ischemia as the classic cause of T-wave inversion, as opposed to muscular exercise, sympathetic overactivity, or hyperthyroidism.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q72. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-09AB9880C32D
+## title
+The exploring electrode of V1 of unipolar chest leads of ECG is placed at: a
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The exploring electrode of V1 of unipolar chest leads of ECG is placed at: a
+## answer_a
+fourth intercostal space at left sternal border
+## explanation_a
+The fourth intercostal space at the LEFT sternal border is V2's placement, V1's mirror-image partner, not V1's own position.
+## answer_b
+fourth intercostal space at right sternal border
+## explanation_b
+Correct. V1's exploring electrode sits at the fourth intercostal space at the RIGHT sternal border, immediately across the sternum from V2 — the placement that puts V1 closest to the right ventricle and interventricular septum.
+
+Why this is right:
+- The six unipolar precordial (chest) leads, V1 through V6, each record the potential at one exploring electrode on the chest wall against a zero reference formed by combining the three limb electrodes (Wilson's central terminal).
+## answer_c
+fifth intercostal space at the midclavicular line
+## explanation_c
+The fifth intercostal space at the midclavicular line is V4's placement, two leads further along the precordial sequence, not V1's.
+## answer_d
+fifth intercostal space at anterior axillary line
+## explanation_d
+The fifth intercostal space at the anterior axillary line is V5's placement, further still along the sequence, not V1's.
+## correct_answer
+B
+## main_concept
+CON-CVS-74F2BC8D5993BF
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State that V1's exploring electrode is placed at the fourth intercostal space at the right sternal border.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p3 q15. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D8BF01D38D8A
+## title
+The exploring electrode of V1 of unipolar chest leads of ECG is placed at:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The exploring electrode of V1 of unipolar chest leads of ECG is placed at:
+## answer_a
+fourth intercostal space at left sternal border,
+## explanation_a
+The fourth intercostal space at the LEFT sternal border is V2's placement, V1's mirror-image partner, not V1's own position.
+## answer_b
+fourth intercostal space at right sternal border.
+## explanation_b
+Correct. V1's exploring electrode sits at the fourth intercostal space at the RIGHT sternal border, immediately across the sternum from V2 — the placement that puts V1 closest to the right ventricle and interventricular septum, and makes it the standard lead for assessing right heart forces.
+
+Why this is right:
+- The six unipolar precordial (chest) leads, V1 through V6, each record the potential at one exploring electrode on the chest wall against a zero reference formed by combining the three limb electrodes (Wilson's central terminal).
+## answer_c
+fifth intercostal space at the midclavicular line.
+## explanation_c
+The fifth intercostal space at the midclavicular line is V4's placement, two leads further along the precordial sequence, not V1's.
+## answer_d
+fifth intercostal space at anterior axillary line. .
+## explanation_d
+The fifth intercostal space at the anterior axillary line is V5's placement, further still along the sequence, not V1's.
+## correct_answer
+B
+## main_concept
+CON-CVS-74F2BC8D5993BF
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State that V1's exploring electrode is placed at the fourth intercostal space at the right sternal border.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q82. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2A3D09BFB93E
+## title
+ECG record gives valuable information about all of the following except: - ‏ظ‎ ‎a. dist…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+ECG record gives valuable information about all of the following except: - ‏ظ‎ ‎a. disturbance of rhythm and conduction. |
+## answer_a
+disturbance of rhythm and conduction
+## explanation_a
+True, so not the exception. An ECG is the direct, primary tool for detecting disturbances of rhythm (arrhythmias) and conduction (heart block), since these are exactly electrical events.
+## answer_b
+relative size of heart chamber
+## explanation_b
+True, so not the exception. Characteristic voltage and axis changes on the ECG give valuable evidence of the relative size of the cardiac chambers, as in the criteria for atrial or ventricular hypertrophy.
+## answer_c
+cardiac output
+## explanation_c
+The exception, and the answer. Cardiac output is a mechanical, pressure-and-volume quantity — how much blood the heart actually pumps per minute — that the ECG's electrical tracing does not measure directly; a heart can be failing mechanically while its ECG still looks unremarkable, and cardiac output has to be assessed by a separate method (echocardiography, the Fick principle, thermodilution).
+
+Why this is right:
+- The ECG is a record of the heart's electrical activity, not its mechanical performance.
+## answer_d
+ischemic changes of the myocardium.
+## explanation_d
+True, so not the exception. ST-segment and T-wave abnormalities on the ECG are the classic, valuable signs of ischemic changes in the myocardium.
+## correct_answer
+C
+## main_concept
+CON-CVS-18196D00EBCA00
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify cardiac output as the one quantity an ECG record does not itself reveal, unlike rhythm/conduction disturbance, relative chamber size and ischemic change.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q84. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
