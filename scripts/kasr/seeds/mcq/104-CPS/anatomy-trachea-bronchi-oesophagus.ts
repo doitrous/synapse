@@ -52,6 +52,36 @@ export const LEAF: McqLeafSeed = {
 
   questions: [
     {
+      key: "at-what-level-does-the-trachea-divides-into-the-main-bronchi-bd18e810",
+      conceptKey: "trachea.structure-relations-and-constrictions",
+      difficulty: "Moderate",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The extraction has corrupted both the stem and the option set: option A's text (\"the level of the transverse plane that passes through the body of the sixth cervical vertebra\") is folded directly into the stem rather than kept as a separate lettered option, and option C is missing entirely, leaving only B and D as genuinely separate choices. With the option lettering broken this badly, a clean four-option item cannot be reconstructed from what survived extraction.",
+    },
+    {
+      key: "concerning-the-oesophagus-all-true-except-135051ac",
+      conceptKey: "oesophagus.thoracic-course-and-constrictions",
+      difficulty: "Hard",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Two of the five options are independently false against the department book, not one: option D (\"lined by transitional epithelium in the lower one-third\") is wrong (the oesophagus is lined by non-keratinised stratified squamous epithelium throughout, transitional epithelium being specific to the urinary tract), but option A (\"is 40 cm in length\") also contradicts the source, which states the oesophagus is \"about 25 cm long overall\" (ART-104-PHY... cross-referenced anatomically in ART-104-ANA-TRACHEA-BRONCHI-OESOPHAGUS). With two candidate false statements for a single-answer EXCEPT question, the intended answer cannot be established from the source.",
+    },
+    {
+      key: "regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722",
+      conceptKey: "trachea.structure-relations-and-constrictions",
+      difficulty: "Moderate",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The extraction is corrupted with duplicate/merged lettering: a statement about incomplete cartilage rings is folded into the stem as \"a,\" text, separate from and inconsistent with a differently-lettered option list that includes its own \"A) It is wider than the right principal bronchus\" (the bank's marked answer) and a second, unrelated \"B) It begins at the level of the lower border of C5\" (itself false — the trachea begins at C6, not C5). Whether the stem's own merged statement about cartilage-ring completeness is meant as a second true claim or a distractor cannot be determined from the corrupted lettering, so no single coherent question can be reconstructed.",
+    },
+    {
       key: "ifa-child-inhales-by-mistake-a-foreign-body-it-will-pass-to-bcab2764",
       conceptKey: "principal-bronchi.right-vs-left-differences",
       difficulty: "Easy",

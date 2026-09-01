@@ -1,7 +1,7 @@
 <!--
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
-    Aortic Arch Relations and Cardiac Plexuses — 10 questions, 2 concepts
+    Aortic Arch Relations and Cardiac Plexuses — 13 questions, 2 concepts
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
@@ -11,12 +11,12 @@
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
-    Subdivisions of the Mediastinum — 11 questions, 4 concepts
+    Subdivisions of the Mediastinum — 12 questions, 4 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    The Trachea, Bronchi and Thoracic Oesophagus — 7 questions, 3 concepts
+    The Trachea, Bronchi and Thoracic Oesophagus — 10 questions, 3 concepts
     The Typical Intercostal Nerve — 6 questions, 1 concepts
-    The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 3 questions, 2 concepts
+    The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
@@ -79,7 +79,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  141 questions were excluded and 0 held back for having no
+  151 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 

@@ -75,6 +75,16 @@ export const LEAF: McqLeafSeed = {
 
   questions: [
     {
+      key: "anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40",
+      conceptKey: "mediastinum.subdivisions-and-boundaries",
+      difficulty: "Hard",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The department book (ART-104-ANA-MEDIASTINUM-SUBDIVISIONS) states the anterior mediastinum contains only \"the sternopericardial ligaments, the lower part of the thymus and a few lymph nodes\" — confirming options A (thymus) and E (pericardiosternal/sternopericardial ligament) as genuine contents, but neither confirming nor denying B (internal thoracic vessels) or C (sternocostalis muscle) as anterior-mediastinum contents. With the marked \"unacceptable\" answer (D, intercostal nerves' anterior cutaneous branches) resolvable only by assuming B and C are both true — which the source does not state — the single-answer determination cannot be made from the book alone.",
+    },
+    {
       key: "among-the-followings-the-most-superficial-structure-in-the-s-103cf442",
       conceptKey: "superior-mediastinum.contents",
       difficulty: "Moderate",

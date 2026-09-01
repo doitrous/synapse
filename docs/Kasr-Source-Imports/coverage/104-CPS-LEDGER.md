@@ -4,7 +4,7 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 699 | excluded: 141 | remaining: 312
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 699 | excluded: 151 | remaining: 302
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
@@ -28,7 +28,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Vascular Function | 44 | 27 | 5 | 12 |
 | Gas Transport by the Blood | 35 | 23 | 1 | 11 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
-| Mediastinum | 41 | 30 | 1 | 10 |
 | Lung Volumes and Capacities | 9 | 0 | 0 | 9 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
 | A-V Connections | 54 | 40 | 7 | 7 |
@@ -48,6 +47,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | (untagged) | 219 | 88 | 4 | 0 |
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
+| Mediastinum | 41 | 30 | 11 | 0 |
 | The Cell Cycle | 5 | 5 | 0 | 0 |
 | Thoracic Wall | 33 | 28 | 5 | 0 |
 
@@ -314,19 +314,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-discharge-spontaneously-during-quiet-b30226e7` — Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- S…
 - `which-of-the-following-discharge-spontaneously-during-quist-89974900` — Which of the following discharge spontaneously during quist breathing?
 - `which-of-the-following-discharges-spontaneously-during-quiet-20ea9248` — Which of the following discharges spontaneously during quiet breathing?
-
-### Mediastinum (10)
-
-- `anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40` — Anterior media stinum Space, mark the unacceptable statement:
-- `at-what-level-does-the-trachea-divides-into-the-main-bronchi-bd18e810` — At what level does the trachea divides into the main bronchi? ‏عم‎ At the level …
-- `concerning-the-oesophagus-all-true-except-135051ac` — Concerning the oesophagus all true EXCEPT:
-- `opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387` — Opposite the tracheal bifurcation, lies; indicate the correct answer:
-- `regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da` — Regarding arch of aorta, mark ONE correct answer: | a- It extends above the supr…
-- `regarding-descending-thoracic-aorta-select-the-true-answer-28c74a27` — Regarding descending thoracic aorta, select the true answer:
-- `regarding-descending-thoracic-aorta-select-the-true-answer-a-30b7e545` — Regarding descending thoracic aorta, select the true answer: ‏كا‎ a- it is relat…
-- `regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722` — Regarding the trachea, choose the correct statement: . : a, It contains incomple…
-- `the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f` — The autonomic plexus of the oesophagus, indicate the correct statement:
-- `which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f` — Which of the following statements regarding the phrenic nerves is | true?
 
 ### Lung Volumes and Capacities (9)
 

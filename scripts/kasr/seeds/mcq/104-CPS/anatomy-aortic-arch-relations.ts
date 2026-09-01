@@ -36,6 +36,36 @@ export const LEAF: McqLeafSeed = {
 
   questions: [
     {
+      key: "regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da",
+      conceptKey: "arch-of-aorta.relations-and-branches",
+      difficulty: "Hard",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The extraction is doubly corrupted: option A's real text (\"it extends above the suprasternal notch\") is folded into the stem rather than kept as a lettered option, and a second, entirely unrelated \"A) Consists of SAN, AVN and AV bundle\" (a cardiac-conduction-system statement, not about the aortic arch at all) appears separately in the option list — two different statements sharing the same letter. No coherent five-option question can be reconstructed from this pairing.",
+    },
+    {
+      key: "regarding-descending-thoracic-aorta-select-the-true-answer-28c74a27",
+      conceptKey: "descending-thoracic-aorta.course-relations-and-branches",
+      difficulty: "Moderate",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option A gives the descending thoracic aorta's starting level as \"C6\" (a cervical vertebra), which cannot be correct for a thoracic-segment vessel — the department book places its origin at the T4/T5 disc, level with the sternal angle. This is very likely an OCR misread of \"T4\" as \"C6\", but the row also carries only two of what was almost certainly a longer option set (B, breaking off mid-sentence at \"T10\", is itself the row's only other survivor), so neither the intended numeral nor the full option set can be confidently reconstructed.",
+    },
+    {
+      key: "regarding-descending-thoracic-aorta-select-the-true-answer-a-30b7e545",
+      conceptKey: "descending-thoracic-aorta.course-relations-and-branches",
+      difficulty: "Hard",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The extraction has merged three separate statements (labelled a, b, c in the source) directly into the stem rather than keeping them as distinct lettered options, leaving only a corrupted \"D) it gives right upper nine posterior intercostal arteries\" (itself false — the descending thoracic aorta gives the third to eleventh, not the upper nine) plus B and C as genuinely separate options. With the stem itself carrying most of the real option content in unlettered, run-together form, no clean single-question structure survives.",
+    },
+    {
       key: "regarding-arch-of-aorta-select-the-false-statement-b86a56ca",
       conceptKey: "arch-of-aorta.relations-and-branches",
       difficulty: "Hard",

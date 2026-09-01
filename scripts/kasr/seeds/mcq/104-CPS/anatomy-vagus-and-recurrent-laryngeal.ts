@@ -38,6 +38,36 @@ export const LEAF: McqLeafSeed = {
 
   questions: [
     {
+      key: "opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387",
+      conceptKey: "vagus-nerve.thoracic-course-and-plexuses",
+      difficulty: "Hard",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option C (\"Each lung receives non-oxygenated blood through a pulmonary artery\") is an unrelated statement about pulmonary circulation, not about what lies opposite the tracheal bifurcation — an evident cross-contamination from a different bank row. Options D (\"a and b only\") and E (\"b and c only\") are built on combinations that include this contaminated C, so neither can be evaluated either. Only option B (deep cardiac plexus, the department book's own answer for what lies at the tracheal bifurcation) is clean, but a single-letter answer cannot be defended when the surrounding combination-options depend on a fifth, corrupted statement.",
+    },
+    {
+      key: "the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f",
+      conceptKey: "vagus-nerve.thoracic-course-and-plexuses",
+      difficulty: "Hard",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The bank's answer (D, \"All the above\") requires option C (\"receives sympathetic fibres from the greater splanchnic nerve\") to be true, but the department book instead states the oesophageal plexus receives sympathetic contributions from the UPPER FIVE thoracic sympathetic ganglia directly (ART-104-ANA-THORACIC-NERVES), while the greater splanchnic nerve specifically arises from the fifth to ninth ganglia and terminates in the coeliac ganglion, serving the abdominal viscera rather than the thoracic oesophageal plexus. With C contradicted by the source, \"all of the above\" cannot be confirmed as correct.",
+    },
+    {
+      key: "which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f",
+      conceptKey: "vagus-nerve.thoracic-course-and-plexuses",
+      difficulty: "Hard",
+      questionType: "Not sittable as printed.",
+      learningObjective: "Not sittable as printed.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option A's determining detail is truncated in the extraction (\"the left phrenic nerve is crossed by the left …\", with the crossing structure's name cut off) — the department book does describe the left phrenic nerve as crossed by the left superior intercostal vein over the aortic arch, so depending on the missing word this option could independently be true, which would conflict with the bank's own answer (E). With that ambiguity unresolved, a confident single-answer determination cannot be made.",
+    },
+    {
       key: "regarding-the-vagus-nerves-mark-one-correct-statement-4f8ac496",
       conceptKey: "vagus-nerve.thoracic-course-and-plexuses",
       difficulty: "Hard",
