@@ -1,0 +1,538 @@
+{
+  "lane": "AU-105",
+  "cluster": "ll2",
+  "header": "AU-MED-105 Anatomy \u00b7 Lower Limb part 2 (Leg) \u2014 questions whose main concept is a Kasr overlay id (peroneus longus/lateral compartment CON-MSK-32B5B7A5CD2A27, common peroneal nerve injury CON-MSK-AB5318A9255811, docs/Kasr-Source-Imports/concept/103-BMS-anatomy-concepts.md). Apply after those Kasr concept + article batches land.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y1"
+    ],
+    "module": "AU-MED-105",
+    "module_subject": "AU-MED-105 > Anatomy > Leg",
+    "exam_weight_by_year": {
+      "AU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-103-ANA-PERONEUS-LONGUS",
+      "ART-103-ANA-COMMON-PERONEAL-NERVE"
+    ],
+    "resource_ids": [
+      "src_78b66af9c28aa239cdb7"
+    ],
+    "source_citation": "Lower Limb MCQ part 2 (Leg), Dr Ibrahim Amr",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "ll2-q04",
+      "page": 1,
+      "title": "Fracture site affecting peroneus brevis insertion",
+      "question": "Fracture of which of the following bones will affect the insertion of the peroneus brevis muscle?",
+      "options": {
+        "A": "Calcaneus",
+        "B": "Navicular",
+        "C": "Base of 1st metatarsal bone",
+        "D": "Base of 5th metatarsal bone"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The calcaneus receives the tendo calcaneus and long plantar ligament, not peroneus brevis.",
+        "B": "Incorrect. The navicular receives part of tibialis posterior's insertion, not peroneus brevis.",
+        "C": "Incorrect. The base of the first metatarsal (with the medial cuneiform) is where peroneus longus, not brevis, inserts.",
+        "D": "Correct. Peroneus brevis inserts on the tuberosity at the base of the fifth metatarsal, so a fracture there (a \"Jones fracture\" in clinical shorthand) directly threatens this tendon's insertion. No other tarsal or metatarsal named in this stem carries peroneus brevis's insertion, which is what makes the fifth metatarsal base the single correct site."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that peroneus brevis inserts on the base of the fifth metatarsal.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q4=D",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q08",
+      "page": 2,
+      "title": "The incorrect statement about leg muscles",
+      "question": "Regarding the muscles of the leg, the INCORRECT statement is:",
+      "options": {
+        "A": "Peroneus longus muscle is inserted into 5th metatarsal bone",
+        "B": "The tibialis anterior is inserted into the medial cuneiform bone",
+        "C": "The gastrocnemius is inserted into the back of calcaneus",
+        "D": "The tibialis posterior is inserted into the tuberosity of the navicular bone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct \u2014 this is the incorrect (false) statement. Peroneus longus inserts on the base of the first metatarsal and medial cuneiform, not the fifth metatarsal; the fifth metatarsal is peroneus brevis's insertion. Recognising this reversed pairing \u2014 longus to the first metatarsal, brevis to the fifth \u2014 is the exact discrimination this stem tests.",
+        "B": "Incorrect (this statement IS true). Tibialis anterior does insert on the medial cuneiform (and base of the first metatarsal).",
+        "C": "Incorrect (this statement IS true). Gastrocnemius, via the tendo calcaneus, does insert on the back of the calcaneus.",
+        "D": "Incorrect (this statement IS true). Tibialis posterior's chief insertion is the tuberosity of the navicular, with slips to neighbouring tarsals."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-9180242FA01B58",
+        "CON-MSK-79E3831EA7CB4F"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that peroneus longus, not peroneus brevis, is the muscle whose fifth-metatarsal insertion is being misstated.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q8=A",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q09",
+      "page": 2,
+      "title": "The muscle that everts the foot",
+      "question": "Which of the following muscles everts the foot?",
+      "options": {
+        "A": "Peroneus longus muscle",
+        "B": "Extensor hallucis longus",
+        "C": "Tibialis anterior muscle",
+        "D": "Soleus muscle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Peroneus longus, a lateral compartment muscle supplied by the superficial peroneal nerve, is a prime evertor of the foot, alongside peroneus brevis. Peroneus brevis, its close partner in the lateral compartment, shares this same eversion action and nerve supply.",
+        "B": "Incorrect. Extensor hallucis longus dorsiflexes the ankle and extends the great toe; it has no eversion action.",
+        "C": "Incorrect. Tibialis anterior dorsiflexes and inverts, the opposite of eversion.",
+        "D": "Incorrect. Soleus plantarflexes the ankle and has no eversion action."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-79E3831EA7CB4F",
+        "CON-MSK-9180242FA01B58"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify peroneus longus as a prime evertor of the foot.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q9=A",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q10",
+      "page": 2,
+      "title": "Nerve supply of peroneus brevis",
+      "question": "Peroneus brevis muscle is supplied by:",
+      "options": {
+        "A": "Deep peroneal nerve",
+        "B": "Musculocutaneous nerve (of the leg)",
+        "C": "Medial popliteal nerve",
+        "D": "Lateral plantar nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The deep peroneal nerve supplies the anterior compartment (dorsiflexors), not the lateral compartment.",
+        "B": "Correct. Peroneus brevis, like peroneus longus, is supplied by the superficial peroneal nerve \u2014 termed the \"musculocutaneous nerve of the leg\" in this bank's older terminology. Recognising this older naming convention prevents a student from mistaking \"musculocutaneous nerve\" here for the upper-limb nerve of the same name, which is an entirely different structure.",
+        "C": "Incorrect. The medial popliteal (tibial) nerve supplies the posterior compartment, not the lateral compartment.",
+        "D": "Incorrect. The lateral plantar nerve supplies intrinsic sole muscles in the foot, an entirely different region from the leg's lateral compartment."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-79E3831EA7CB4F",
+        "CON-MSK-9180242FA01B58"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Confirm that the superficial peroneal nerve (this bank's \"musculocutaneous nerve of the leg\") supplies peroneus brevis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q10=B",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q11",
+      "page": 3,
+      "title": "Attachment of peroneus longus",
+      "question": "Peroneus longus muscle is attached to:",
+      "options": {
+        "A": "Navicular bone",
+        "B": "Cuboid bone",
+        "C": "1st metatarsal bone",
+        "D": "5th metatarsal bone"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The navicular receives part of tibialis posterior's insertion, not peroneus longus.",
+        "B": "Incorrect. The cuboid only grooves peroneus longus's tendon as it crosses the sole; it is not the insertion point.",
+        "C": "Correct. Peroneus longus's tendon crosses the sole obliquely to insert on the base of the first metatarsal and the medial cuneiform. This insertion, shared with tibialis anterior at the same two bones from the opposite side of the foot, forms a functional \"stirrup\" that helps support the transverse arch.",
+        "D": "Incorrect. The fifth metatarsal is peroneus brevis's insertion, not peroneus longus's."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that peroneus longus inserts on the base of the first metatarsal/medial cuneiform, not the fifth metatarsal.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q11=C",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q12",
+      "page": 3,
+      "title": "Structure at the neck of the fibula",
+      "question": "The neck of the fibula is related to:",
+      "options": {
+        "A": "Common peroneal nerve",
+        "B": "Lateral plantar nerve",
+        "C": "Medial popliteal nerve",
+        "D": "Posterior tibial nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The common peroneal nerve winds superficially around the neck of the fibula before dividing into its superficial and deep branches, making it directly vulnerable to fracture or external compression at that point. This superficial, subcutaneous position at the fibular neck is precisely why the nerve is also vulnerable to prolonged external pressure, such as from tight leg-crossing or a poorly padded cast.",
+        "B": "Incorrect. The lateral plantar nerve is a sole-of-foot structure, unrelated to the fibular neck.",
+        "C": "Incorrect. The medial popliteal (tibial) nerve runs deep in the posterior compartment, well away from the subcutaneous fibular neck.",
+        "D": "Incorrect. The posterior tibial nerve likewise runs deep posteriorly, not at the fibular neck."
+      },
+      "main_concept": "CON-MSK-AB5318A9255811",
+      "concept_ids": [
+        "CON-MSK-AB5318A9255811"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the common peroneal nerve winds around the fibular neck, making it vulnerable there.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q12=A",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q17",
+      "page": 4,
+      "title": "Nerve damaged by a fibular neck fracture",
+      "question": "A 20-year-old college student receives a severe blow to the inferolateral side of the left knee joint while playing football. Radiographic examination reveals a fracture of the head and neck of the fibula. Which of the following nerves is damaged?",
+      "options": {
+        "A": "Sciatic",
+        "B": "Tibial",
+        "C": "Common peroneal",
+        "D": "Deep peroneal"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The sciatic nerve has already divided well above the knee in most people, so a fibular-neck fracture affects only its common peroneal branch, not the intact sciatic trunk.",
+        "B": "Incorrect. The tibial nerve runs deep in the posterior compartment, well away from the subcutaneous fibular neck.",
+        "C": "Correct. The common peroneal nerve winds directly around the fibular neck, making it the nerve classically injured by a fracture at exactly this site. This mechanism \u2014 a direct blow or fracture compressing the nerve against the bone at its most exposed point \u2014 is the classic teaching example of a peripheral nerve injury from local trauma.",
+        "D": "Incorrect. The deep peroneal nerve is only the common peroneal nerve's distal branch, given off after it has already passed the fibular neck \u2014 the injury at the neck itself affects the whole common peroneal trunk, which is the more precise answer here."
+      },
+      "main_concept": "CON-MSK-AB5318A9255811",
+      "concept_ids": [
+        "CON-MSK-AB5318A9255811"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Localise a fibular neck fracture's nerve injury to the common peroneal nerve specifically.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q17=C",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q18",
+      "page": 4,
+      "title": "Muscle paralysed after the same injury",
+      "question": "After injury to this nerve (from the fibular neck fracture case), which muscle could be paralysed?",
+      "options": {
+        "A": "Gastrocnemius",
+        "B": "Popliteus",
+        "C": "Extensor hallucis longus",
+        "D": "Flexor digitorum longus"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Gastrocnemius is tibial-nerve-supplied, part of the uninjured posterior compartment.",
+        "B": "Incorrect. Popliteus is also tibial-nerve-supplied and would be spared.",
+        "C": "Correct. Extensor hallucis longus is an anterior compartment muscle supplied by the deep peroneal branch of the common peroneal nerve, so it is paralysed by this injury. Because it is one of several deep peroneal-supplied muscles, extensor hallucis longus weakness is only part of the broader anterior-compartment foot-drop picture from this injury.",
+        "D": "Incorrect. Flexor digitorum longus is tibial-nerve-supplied and would be spared."
+      },
+      "main_concept": "CON-MSK-AB5318A9255811",
+      "concept_ids": [
+        "CON-MSK-AB5318A9255811"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-79E3831EA7CB4F"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify extensor hallucis longus as an anterior-compartment muscle paralysed by a common peroneal nerve injury.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q18=C",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q31",
+      "page": 7,
+      "title": "Nerve affected by a fibular neck fracture (second vignette)",
+      "question": "After a road traffic accident, a 37-year-old male was admitted to the emergency department; X-rays showed a fracture in the neck of the fibula. Which nerve may be affected?",
+      "options": {
+        "A": "Posterior tibial nerve",
+        "B": "Sciatic nerve",
+        "C": "Lateral popliteal nerve",
+        "D": "Medial popliteal nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The posterior tibial nerve runs deep in the posterior compartment, away from the subcutaneous fibular neck.",
+        "B": "Incorrect. The sciatic nerve has already divided proximal to the knee in most people, so only its common peroneal branch is at risk here, not the intact trunk.",
+        "C": "Correct. \"Lateral popliteal nerve\" is this bank's older synonym for the common peroneal nerve, which winds directly around the fibular neck and is the nerve classically injured there. This older terminology names the nerve by the fossa it traverses (the lateral side of the popliteal fossa) rather than by its distal branching pattern, but it refers to the same common peroneal nerve.",
+        "D": "Incorrect. \"Medial popliteal nerve\" is this bank's older synonym for the tibial nerve, which runs deep and posteromedial, away from the fibular neck."
+      },
+      "main_concept": "CON-MSK-AB5318A9255811",
+      "concept_ids": [
+        "CON-MSK-AB5318A9255811"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise \"lateral popliteal nerve\" as this bank's synonym for the common peroneal nerve, injured at the fibular neck.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q31=C",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q32",
+      "page": 7,
+      "title": "Movement impaired by the same nerve injury",
+      "question": "As a result of this nerve injury, the patient may complain of severe impairment in:",
+      "options": {
+        "A": "Plantar flexion of foot",
+        "B": "Plantar flexion and inversion",
+        "C": "Dorsi-flexion of foot",
+        "D": "Dorsi-flexion of foot and knee flexion"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Plantarflexion is a tibial-nerve (posterior compartment) action, unaffected by a common peroneal nerve injury.",
+        "B": "Incorrect. Plantarflexion and inversion together are tibial-nerve actions, not common peroneal.",
+        "C": "Correct. The common peroneal nerve drives the whole anterior compartment (dorsiflexors), so its injury produces severe dorsiflexion weakness \u2014 classic foot drop. Because plantarflexion and inversion (tibial-nerve actions) remain intact, the deficit is confined to the movements the anterior compartment alone produces.",
+        "D": "Incorrect. Knee flexion is a hamstring (mostly tibial-division) action, largely spared by an isolated common peroneal nerve injury at the fibular neck."
+      },
+      "main_concept": "CON-MSK-AB5318A9255811",
+      "concept_ids": [
+        "CON-MSK-AB5318A9255811"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-79E3831EA7CB4F"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Link common peroneal nerve injury to dorsiflexion weakness (foot drop), sparing plantarflexion and knee flexion.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q32=C",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q34",
+      "page": 7,
+      "title": "Where the common peroneal nerve terminates",
+      "question": "The common peroneal nerve terminates inside ...... muscle.",
+      "options": {
+        "A": "Peroneus longus",
+        "B": "Peroneus brevis",
+        "C": "Extensor digitorum longus",
+        "D": "Popliteus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The common peroneal nerve divides into its superficial and deep peroneal branches within the substance of peroneus longus, after winding around the fibular neck and piercing that muscle's origin. This detail matters clinically because a laceration or compression at peroneus longus itself, not only at the fibular neck, can produce the same distal nerve deficits.",
+        "B": "Incorrect. Peroneus brevis lies distal to this division point and does not contain the nerve's bifurcation.",
+        "C": "Incorrect. Extensor digitorum longus is a deep-peroneal-nerve-supplied anterior compartment muscle, not the site of the common peroneal nerve's own division.",
+        "D": "Incorrect. Popliteus is a tibial-nerve-supplied posterior compartment muscle, unrelated to the common peroneal nerve's course."
+      },
+      "main_concept": "CON-MSK-AB5318A9255811",
+      "concept_ids": [
+        "CON-MSK-AB5318A9255811"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the common peroneal nerve divides into its superficial/deep branches within peroneus longus.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q34=A",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q38",
+      "page": 8,
+      "title": "The false statement about the superficial peroneal nerve",
+      "question": "All of the following statements concerning the musculocutaneous nerve of the leg (superficial peroneal nerve) are true EXCEPT:",
+      "options": {
+        "A": "It supplies the peroneus longus muscle",
+        "B": "It participates in the cutaneous supply of the dorsum of the foot",
+        "C": "It passes deep to the extensor retinaculum of the foot",
+        "D": "It is one of the 2 terminal branches of the common peroneal nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS true). The superficial peroneal nerve does supply peroneus longus (and brevis).",
+        "B": "Incorrect (this IS true). It does contribute most of the dorsum of the foot's cutaneous supply.",
+        "C": "Correct \u2014 this is the false statement. The superficial peroneal nerve becomes cutaneous by piercing the deep fascia above the ankle and runs superficial to (not deep to) the extensor retinaculum; it is the deep peroneal nerve that passes deep to it. This distinction matters clinically: a superficial peroneal nerve injury near the ankle produces sensory loss over the dorsum without a foot-drop-type motor deficit, since the deep peroneal nerve (which does run deep to the retinaculum) is unaffected.",
+        "D": "Incorrect (this IS true). It is one of the common peroneal nerve's two terminal branches, the other being the deep peroneal nerve."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-AB5318A9255811",
+        "CON-MSK-79E3831EA7CB4F"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Distinguish the superficial peroneal nerve's superficial course from the deep peroneal nerve's deep-to-retinaculum course.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q38=C",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll2-q46",
+      "page": 10,
+      "title": "Muscle paralysed by a severed superficial peroneal nerve",
+      "question": "A motorcyclist falls from his bike and gets a deep gash that severs the superficial peroneal nerve near its origin. Which of the following muscles is paralyzed?",
+      "options": {
+        "A": "Peroneus longus",
+        "B": "Extensor hallucis longus",
+        "C": "Extensor digitorum longus",
+        "D": "Fibularis tertius",
+        "E": "Extensor digitorum brevis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Peroneus longus, a lateral compartment muscle, is supplied by the superficial peroneal nerve, so it is paralysed by this injury. Because peroneus brevis shares the same nerve, this injury also weakens eversion generally, not just the single named muscle.",
+        "B": "Incorrect. Extensor hallucis longus is deep-peroneal-nerve-supplied (anterior compartment), spared by a superficial peroneal nerve injury.",
+        "C": "Incorrect. Extensor digitorum longus is likewise deep-peroneal-supplied, spared.",
+        "D": "Incorrect. Fibularis (peroneus) tertius is anatomically part of the anterior compartment and deep-peroneal-supplied despite its name, spared.",
+        "E": "Incorrect. Extensor digitorum brevis, the one intrinsic dorsal foot muscle, is deep-peroneal-supplied, spared."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [
+        "CON-MSK-79E3831EA7CB4F"
+      ],
+      "topic": "Lower limb",
+      "subtopic": "The Leg",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Localise superficial peroneal nerve injury to peroneus longus/brevis paralysis, sparing the deep-peroneal-supplied muscles that share the \"peroneus/fibularis\" name pattern.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q46=A",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    }
+  ]
+}

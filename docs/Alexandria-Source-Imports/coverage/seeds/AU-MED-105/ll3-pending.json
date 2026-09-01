@@ -1,0 +1,111 @@
+{
+  "lane": "AU-105",
+  "cluster": "ll3",
+  "header": "AU-MED-105 Anatomy \u00b7 Lower Limb part 3 (Foot/Vessels/Joints) \u2014 questions whose main concept is a Kasr overlay id (peroneus longus/lateral compartment CON-MSK-32B5B7A5CD2A27, docs/Kasr-Source-Imports/concept/103-BMS-anatomy-concepts.md). Apply after that Kasr concept + article batch lands.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y1"
+    ],
+    "module": "AU-MED-105",
+    "module_subject": "AU-MED-105 > Anatomy > Leg",
+    "exam_weight_by_year": {
+      "AU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-103-ANA-PERONEUS-LONGUS",
+      "ART-103-ANA-COMMON-PERONEAL-NERVE"
+    ],
+    "resource_ids": [
+      "src_a2ec24de7b5561128fed"
+    ],
+    "source_citation": "Lower Limb MCQ part 3 (Foot, Vessels, Joints), Dr Ibrahim Amr",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "ll3-q02",
+      "page": 2,
+      "title": "Groove on the cuboid bone",
+      "question": "The inferior surface of the cuboid bone is marked by a groove for the passage of:",
+      "options": {
+        "A": "Posterior tibial nerve",
+        "B": "Peroneus longus muscle",
+        "C": "Tibialis posterior muscle",
+        "D": "Dorsalis pedis artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The posterior tibial nerve terminates well proximal to this level, dividing into the plantar nerves near the medial malleolus, not at the cuboid.",
+        "B": "Correct. Peroneus longus's tendon grooves the inferior surface of the cuboid as it turns medially to cross the sole toward its insertion on the base of the first metatarsal and medial cuneiform. Because the groove is a fixed bony landmark, it is used surgically and radiographically to trace the tendon's path even when it cannot be directly visualised.",
+        "C": "Incorrect. Tibialis posterior's tendon runs behind the medial malleolus and inserts chiefly on the navicular, not grooving the cuboid.",
+        "D": "Incorrect. Dorsalis pedis crosses the dorsum of the foot before diving into the sole near the first metatarsal space, not grooving the cuboid's inferior surface."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "The Foot",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that peroneus longus's tendon grooves the inferior surface of the cuboid on its way across the sole.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q2=B",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ll3-q14",
+      "page": 4,
+      "title": "Tendon damaged by a destroyed cuboid groove",
+      "question": "A 21-year-old man was involved in a motorcycle accident, resulting in destruction of the groove in the lower surface of the cuboid bone. Which of the following muscle tendons is most likely damaged?",
+      "options": {
+        "A": "Flexor hallucis longus",
+        "B": "Peroneus brevis",
+        "C": "Peroneus longus",
+        "D": "Tibialis anterior",
+        "E": "Tibialis posterior"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Flexor hallucis longus runs medially behind the ankle and along the sole close to the great toe, not grooving the cuboid.",
+        "B": "Incorrect. Peroneus brevis inserts directly on the base of the fifth metatarsal, without crossing the cuboid's inferior groove the way peroneus longus does.",
+        "C": "Correct. Peroneus longus's tendon runs in the groove on the cuboid's inferior surface as it crosses the sole, so destruction of that groove threatens this tendon specifically. Losing this groove's guiding contour would let the tendon's line of pull shift, weakening the foot's eversion and its dynamic support of the transverse arch.",
+        "D": "Incorrect. Tibialis anterior's tendon runs on the front of the ankle/dorsum, nowhere near the cuboid's plantar surface.",
+        "E": "Incorrect. Tibialis posterior's tendon inserts chiefly on the navicular, medial to the cuboid groove."
+      },
+      "main_concept": "CON-MSK-32B5B7A5CD2A27",
+      "concept_ids": [
+        "CON-MSK-32B5B7A5CD2A27"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Lower limb",
+      "subtopic": "The Foot",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply the cuboid-groove landmark to identify peroneus longus's tendon as the structure at risk.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p12, Q14=C",
+        "applyAfter": "Kasr 103-BMS-anatomy-concepts.md / 103-BMS-anatomy.md"
+      },
+      "author_notes": ""
+    }
+  ]
+}

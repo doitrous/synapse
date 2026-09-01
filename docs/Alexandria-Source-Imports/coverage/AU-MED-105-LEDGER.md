@@ -1,28 +1,13 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| ll2 | 36 | 0 | 14 | 50 |
-| ll3 | 0 | 0 | 50 | 50 |
+| ll2 | 49 | 1 | 0 | 50 |
+| ll3 | 2 | 0 | 48 | 50 |
 
 ## Held
-(none)
+- ll2-q14 — flawed source item — three of the four options (flexor digitorum longus, soleus, tibialis posterior) are all genuinely innervated by the tibial/medial popliteal nerve; only peroneus brevis is distinguishable as wrong. Confirmed against the rendered page (p3): no dropped negation in the stem. Cannot honestly write a false distractor-teaching-sentence for two options that are anatomically correct alongside the printed key (B, soleus).
 
 ## Remaining
-- ll2-q04
-- ll2-q08
-- ll2-q09
-- ll2-q10
-- ll2-q11
-- ll2-q12
-- ll2-q14
-- ll2-q17
-- ll2-q18
-- ll2-q31
-- ll2-q32
-- ll2-q34
-- ll2-q38
-- ll2-q46
 - ll3-q01
-- ll3-q02
 - ll3-q03
 - ll3-q04
 - ll3-q05
@@ -34,7 +19,6 @@
 - ll3-q11
 - ll3-q12
 - ll3-q13
-- ll3-q14
 - ll3-q15
 - ll3-q16
 - ll3-q17
