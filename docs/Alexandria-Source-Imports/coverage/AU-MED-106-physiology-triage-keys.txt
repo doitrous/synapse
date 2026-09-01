@@ -1,0 +1,66 @@
+# AU-MED-106 Physiology — triage key list for ledger.mjs --triage
+# One key per line, grouped by cluster prefix (before the first -qNN), # comments allowed.
+# Source: coverage/AU-MED-106-physiology-triage.md (62-row bank triage + 15-row Telegram
+# addendum = 46 distinct ideas after dedup) and the 44 landed concepts + 1 minted
+# (CON-CVS-06CCAE51B78F52, QT-interval-duration) in
+# concept/AU-MED-106-physiology-concepts.md.
+
+# --- resp cluster (11 keys; 11 authored) ---
+resp-q01
+resp-q02
+resp-q03
+resp-q04
+resp-q05
+resp-q06
+resp-q07
+resp-q08
+resp-q09
+resp-q10
+resp-q11
+
+# --- ecg cluster (15 keys; 15 authored) ---
+ecg-q01
+ecg-q02
+ecg-q03
+ecg-q04
+ecg-q05
+ecg-q06
+ecg-q07
+ecg-q08
+ecg-q09
+ecg-q10
+ecg-q11
+ecg-q12
+ecg-q13
+ecg-q14
+ecg-q15
+
+# --- bp-pulse cluster (19 keys; 19 authored) ---
+bp-q01
+bp-q02
+bp-q03
+bp-q04
+bp-q05
+bp-q06
+bp-q07
+bp-q08
+bp-q09
+bp-q10
+bp-q11
+bp-q12
+bp-q13
+bp-q14
+bp-q15
+bp-q16
+bp-q17
+bp-q18
+bp-q19
+
+# --- pending-arr cluster (2 authored: VT, VFib; 1 remaining: atrial flutter) ---
+pending-arr-q01
+pending-arr-q02
+# Atrial flutter (triage idea #38, HIT-PENDING) has no matching concept id yet resolved
+# in docs/import-ready/concept/SYS-CVS-CONCEPT-T05.md — the triage's Step 2 note ("the
+# matching concept record in that file needs identifying") was never closed. OWED, not
+# authored here; left as remaining rather than guessed.
+pending-arr-q03
