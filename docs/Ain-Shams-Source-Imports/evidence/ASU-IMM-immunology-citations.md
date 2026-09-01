@@ -3565,3 +3565,282 @@ The support span is the verbatim MCQ stem and options as printed in the departme
 
 ## counts_as_claim_evidence
 no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-NK-KILLS-VIRAL-INNATE-01
+
+## claim_id
+CLM-IMM-NK-KILLS-VIRAL-INNATE-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+3- A cell that plays a crucial role in innate immune response & kills virally infected Cells:
+a. B cell
+b. NK cell
+c. Neutrophils
+d. MQ
+e. Tc cell
+
+21- Regarding NK cells:
+a. They are cells of adaptive IR
+b. Can kill virally infected cells
+c. Can share in phagocytosis
+d. Never produce cytokines
+
+## locator_type
+page
+
+## locator_detail
+Chapter 2, pages 4 and 6 of hegazy.pdf, read via OCR text this sitting (tesseract OCR heavily garbled on this file; keys taken from the printed answer-key tables read via OCR, not yet cross-verified against page-image renders for Q3; Q21's key table was image-verified).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.75
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-INFLAMMATION-RECRUITS-PHAGOCYTES-01
+
+## claim_id
+CLM-IMM-INFLAMMATION-RECRUITS-PHAGOCYTES-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+8- An inflammatory response:
+a. Is characterised by a decrease in vascular permeability
+b. Is stimulated by cytokines produced by neutrophils
+c. Occurs only during a secondary response
+d. Recruits phagocytes & lysosomal enzymes to kill pathogens
+
+## locator_type
+page
+
+## locator_detail
+Chapter 2, page 4 of hegazy.pdf, read via OCR text this sitting (tesseract OCR heavily garbled on this file; option text cross-checked against domain knowledge for internal consistency, not yet page-image-verified).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-MBL-ENHANCES-PHAGOCYTOSIS-01
+
+## claim_id
+CLM-IMM-MBL-ENHANCES-PHAGOCYTOSIS-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+19- Mannose binding protein is an acute phase protein participating in innate response through:
+a. Direct cytotoxicity
+b. Enhancing phagocytosis
+c. Stimulating of antibody production
+d. Chemotaxis
+e. Target recognition
+
+## locator_type
+page
+
+## locator_detail
+Chapter 2, page 6 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key row on the same page read directly from the image (Q19 = b).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-OXIDASE-INNATE-NOT-SPECIFIC-01
+
+## claim_id
+CLM-IMM-OXIDASE-INNATE-NOT-SPECIFIC-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+20- All of the following are true about oxidase enzyme in phagocytic cells except:
+a. Result in production of toxic oxygen metabolites
+b. Present in MQs, Neutrophils, DCs
+c. Involved in specific immunity
+d. Play a role in non-oxidative killing
+
+## locator_type
+page
+
+## locator_detail
+Chapter 2, page 6 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key row on the same page read directly from the image (Q20 = c).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-DEFENSIN-TH17-REGULATION-01
+
+## claim_id
+CLM-IMM-DEFENSIN-TH17-REGULATION-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+24- Which of the following best describes defensins?
+a. Toxic to bacteria by degrading peptidoglyan in cell wall
+b. Act as opsonin to enhance phagocytosis
+c. Activate complement to recruit inflammatory cells
+d. Upregulated by cytokines from TH17
+e. Produced by basophils & mast cells
+
+## locator_type
+page
+
+## locator_detail
+Chapter 2, page 6 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key row on the same page read directly from the image (Q24 = d).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.75
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-MACROPHAGE-CYTOKINE-TRIAD-01
+
+## claim_id
+CLM-IMM-MACROPHAGE-CYTOKINE-TRIAD-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+28- Cytokines produced by MQ:
+a- IL2 & IL8.
+b- L4,6 & IL12.
+c- TNFa & IL7.
+d- IL2 & IL7.
+e- IL1 & IL2
+
+## locator_type
+page
+
+## locator_detail
+Chapter 2, page 7 of hegazy.pdf, read via OCR text this sitting (tesseract OCR heavily garbled; the printed key-row fragment at the top of page 7 is scan-noise, not fully legible, but a clean per-question key table lower on the same page confirms Q28 = b).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank; option (b)'s "L4,6" is read as "IL1,6" (a scan artefact dropping the leading "I"), per field_notes on the concept record.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IL1-MACROPHAGE-DERIVED-01
+
+## claim_id
+CLM-IMM-IL1-MACROPHAGE-DERIVED-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+30- Which one of the following statements best describes properties of interleukin 1 (IL-1)?
+a. It is a macrophage-derived product
+b. Causes vasoconstriction
+c. adhesion molecules on the surface of endothelial cells
+d. Involved in leukocytosis
+e. Can bind to mast cells.
+
+## locator_type
+page
+
+## locator_detail
+Chapter 2, page 7 of hegazy.pdf, read via OCR text this sitting; printed answer-key table on the same page confirms Q30 = a.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.75
+
+## counts_as_claim_evidence
+no

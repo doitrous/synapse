@@ -3947,3 +3947,306 @@ no
 
 ## qualifiers
 source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-NK-KILLS-VIRAL-INNATE-01
+
+## concept_id
+CON-IMM-C8CA76DA47FFF1
+
+## subject
+NK cells are an innate lymphoid cell that kills virally infected cells
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch2 Q3 and Q21
+
+## display_text
+NK cells are innate lymphocytes that kill virally infected and tumour cells, recognising loss of normal self MHC class I rather than a clonal antigen receptor.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-INFLAMMATION-RECRUITS-PHAGOCYTES-01
+
+## concept_id
+CON-IMM-0B90320786B534
+
+## subject
+Inflammation recruits phagocytes and their lysosomal enzymes to kill pathogens at the infection site
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch2 Q8
+
+## display_text
+An inflammatory response is cytokine-stimulated, increases (not decreases) vascular permeability, and recruits phagocytes and their lysosomal enzymes to kill pathogens at the infection site.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-MBL-ENHANCES-PHAGOCYTOSIS-01
+
+## concept_id
+CON-IMM-5936A0054FEF93
+
+## subject
+Mannose-binding lectin is an acute-phase protein that enhances phagocytosis
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch2 Q19
+
+## display_text
+Mannose-binding lectin, an acute-phase protein made mainly in the liver, participates in innate defence chiefly by enhancing phagocytosis through opsonisation and lectin-pathway complement activation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-OXIDASE-INNATE-NOT-SPECIFIC-01
+
+## concept_id
+CON-IMM-942C68527FAAA5
+
+## subject
+The phagocyte oxidase enzyme is part of innate, not adaptive/specific, immunity
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch2 Q20
+
+## display_text
+NADPH oxidase in phagocytic cells drives the oxidative burst, is present in macrophages, neutrophils and dendritic cells, and contributes to non-oxidative killing pathways too — but it is an innate, not an adaptive/specific, immune mechanism.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-DEFENSIN-TH17-REGULATION-01
+
+## concept_id
+CON-IMM-23A80C3994B510
+
+## subject
+Defensins are upregulated by cytokines from Th17 cells, alongside IL-1 and IL-6
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch2 Q24
+
+## display_text
+Defensin production is upregulated by inflammatory cytokines including those from the Th17 pathway, alongside IL-1 and IL-6, per this bank's printed key.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+This bank's key selects Th17-cytokine upregulation over the membrane-disruption mechanism tested for defensins elsewhere in the same chapter; treated as two true, non-exclusive facts about the same molecule rather than a genuine conflict.
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-MACROPHAGE-CYTOKINE-TRIAD-01
+
+## concept_id
+CON-IMM-B6AD9E73197AF1
+
+## subject
+Macrophages produce IL-1, IL-6 and IL-12 among their cytokine repertoire
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch2 Q28
+
+## display_text
+IL-1, IL-6 and IL-12 form a characteristic macrophage-derived cytokine triad, distinguished from distractor pairings that mix in T-cell-derived cytokines such as IL-2.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.75
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IL1-MACROPHAGE-DERIVED-01
+
+## concept_id
+CON-IMM-A15EC6751FF401
+
+## subject
+IL-1 is a macrophage-derived product
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch2 Q30
+
+## display_text
+IL-1 is a macrophage-derived product, one of the acute-phase cytokines a macrophage releases on encountering a pathogen.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1

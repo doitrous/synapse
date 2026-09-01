@@ -17046,3 +17046,1312 @@ reviewDue: Set after the first review is completed.
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 rejectedMergeCandidateIds: find-existing.mjs "HLA disease linkage risk" returned no existing record; related to CON-IMM-E4C207D932A84F (MHC gene polymorphism) — linked via related_concept_ids, not merged.
 uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+
+# Item
+
+## id
+CON-IMM-C8CA76DA47FFF1
+
+## label
+NK cells are an innate lymphoid cell that kills virally infected cells
+
+## canonical_key
+nkcell.function.kills-virally-infected-cells-innate
+
+## aliases
+NK cell innate antiviral killing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Natural killer (NK) cells are innate lymphocytes that play a crucial role in the innate immune response by killing virally infected cells (and tumour cells), detecting them through a loss of normal self MHC class I signalling rather than through a clonal antigen receptor.
+
+## explicit_objective
+Identify the NK cell as the innate lymphocyte that kills virally infected cells.
+
+## pitfalls
+Confusing the NK cell's innate, non-clonal recognition of virally infected cells with the cytotoxic T cell's adaptive, MHC-class-I-restricted, antigen-specific recognition of the same target type.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-NK-KILLS-VIRAL-INNATE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+3- A cell that plays a crucial role in innate immune response & kills virally infected Cells:
+a. B cell
+b. NK cell
+c. Neutrophils
+d. MQ
+e. Tc cell
+
+21- Regarding NK cells:
+a. They are cells of adaptive IR
+b. Can kill virally infected cells
+c. Can share in phagocytosis
+d. Never produce cytokines
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch2 Q3 (key b) and Q21 (key b)
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "NK cell" returned tumour/cytokine-focused live concepts, none testing this specific innate-antiviral-killing fact; safe to mint. Q3 and Q21 are merged onto this one concept, both testing the identical fact from two angles.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-0B90320786B534
+
+## label
+Inflammation recruits phagocytes and their lysosomal enzymes to kill pathogens at the infection site
+
+## canonical_key
+inflammation.function.recruits-phagocytes-and-lysosomal-enzymes
+
+## aliases
+Functional role of inflammation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+An inflammatory response is stimulated by cytokines, increases (not decreases) vascular permeability, and recruits phagocytes and their lysosomal enzymes to the infection site to kill pathogens — this recruitment-and-killing function, rather than a decrease in permeability or restriction to secondary responses, is what inflammation functionally achieves.
+
+## explicit_objective
+State that inflammation functions to recruit phagocytes and lysosomal enzymes to the infection site, and that it increases (not decreases) vascular permeability and occurs during both primary and secondary responses.
+
+## pitfalls
+Reversing the direction of vascular permeability change (inflammation increases it, to let plasma proteins and cells reach the tissue, not decreases it), or assuming inflammation is restricted to secondary/repeat exposures rather than occurring on first exposure too.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-INFLAMMATION-RECRUITS-PHAGOCYTES-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+8- An inflammatory response:
+a. Is characterised by a decrease in vascular permeability
+b. Is stimulated by cytokines produced by neutrophils
+c. Occurs only during a secondary response
+d. Recruits phagocytes & lysosomal enzymes to kill pathogens
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch2 Q8
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "inflammatory response recruits" returned no existing record; related to CON-IMM-D1046CFB182DFF's sibling "inflammation.definition.tissue-damage-pathogen-entry-trigger" (Block A, the trigger/definition of inflammation) but distinct — that concept covers what inflammation IS, this one covers what it functionally DOES.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-5936A0054FEF93
+
+## label
+Mannose-binding lectin is an acute-phase protein that enhances phagocytosis
+
+## canonical_key
+mannosebindinglectin.function.enhances-phagocytosis
+
+## aliases
+MBL function
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mannose-binding lectin (MBL) is an acute-phase protein, produced mainly in the liver, that participates in the innate response chiefly by enhancing phagocytosis — acting as an opsonin and activating the lectin complement pathway — rather than through direct cytotoxicity, antibody-production stimulation, or chemotaxis.
+
+## explicit_objective
+State that mannose-binding lectin's principal innate-response mechanism is enhancing phagocytosis (opsonisation and lectin-pathway complement activation).
+
+## pitfalls
+Confusing MBL's opsonising/complement-activating role with direct cytotoxicity or with stimulating antibody production — MBL acts upstream of and independent of the antibody response.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-MBL-ENHANCES-PHAGOCYTOSIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+19- Mannose binding protein is an acute phase protein participating in innate response through:
+a. Direct cytotoxicity
+b. Enhancing phagocytosis
+c. Stimulating of antibody production
+d. Chemotaxis
+e. Target recognition
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch2 Q19
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "mannose binding" returned no existing record.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-942C68527FAAA5
+
+## label
+The phagocyte oxidase enzyme is part of innate, not adaptive/specific, immunity
+
+## canonical_key
+oxidase.function.innate-not-specific-immunity
+
+## aliases
+Oxidative burst enzyme
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The oxidase enzyme in phagocytic cells (NADPH oxidase, driving the oxidative/respiratory burst) results in production of toxic oxygen metabolites, is present in macrophages, neutrophils and dendritic cells, and plays a role in non-oxidative killing pathways as well — but it is a component of innate, not adaptive/specific, immunity.
+
+## explicit_objective
+Identify that the phagocyte oxidase enzyme belongs to innate immunity, distinguishing this from the adaptive/specific immune system.
+
+## pitfalls
+Assuming any phagocyte-associated killing mechanism must be part of adaptive immunity because it contributes to eventual pathogen clearance; the oxidative burst and its enzyme machinery are innate mechanisms, active well before any adaptive response develops.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-OXIDASE-INNATE-NOT-SPECIFIC-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+20- All of the following are true about oxidase enzyme in phagocytic cells except:
+a. Result in production of toxic oxygen metabolites
+b. Present in MQs, Neutrophils, DCs
+c. Involved in specific immunity
+d. Play a role in non-oxidative killing
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch2 Q20
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "oxidase enzyme" returned no existing record.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-23A80C3994B510
+
+## label
+Defensins are upregulated by cytokines from Th17 cells, alongside IL-1 and IL-6
+
+## canonical_key
+defensin.regulation.th17-cytokine-upregulation
+
+## aliases
+Defensin regulation by Th17
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Defensins are antimicrobial peptides that kill bacteria by disrupting their cell membrane; their production is upregulated by inflammatory cytokines, including those from the Th17 pathway (together with IL-1 and IL-6) — rather than being produced by basophils/mast cells, degrading peptidoglycan directly, or acting as complement activators.
+
+## explicit_objective
+State that defensin production is upregulated by Th17-pathway cytokines (with IL-1 and IL-6), distinguishing this from other, incorrect mechanisms attributed to defensins in this bank's option set.
+
+## pitfalls
+Confusing defensins' membrane-disrupting antibacterial mechanism, or their cytokine-driven regulation, with mechanisms belonging to other innate effectors (opsonins, complement, cell-wall-degrading enzymes).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.35
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-IMM-DEFENSIN-TH17-REGULATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+24- Which of the following best describes defensins?
+a. Toxic to bacteria by degrading peptidoglyan in cell wall
+b. Act as opsonin to enhance phagocytosis
+c. Activate complement to recruit inflammatory cells
+d. Upregulated by cytokines from TH17
+e. Produced by basophils & mast cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch2 Q24
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+This bank's key (d) selects Th17-cytokine upregulation over the arguably more textbook-standard "disrupt bacterial cell membrane" mechanism tested for defensins elsewhere (hegazy Ch2 Q15); the two facts are not mutually exclusive (defensins are both membrane-disruptive AND cytokine-upregulated), so this is not treated as a genuine conflict, just two different true facts about the same molecule tested by two different stems.
+
+## uncertainty
+The printed option (a) "degrading peptidoglycan in cell wall" is a plausible near-miss for defensins' actual mechanism (membrane disruption/permeabilization, not peptidoglycan degradation like lysozyme) — kept as printed since the key selects (d), not (a), so this wording quirk in a distractor does not affect the correct answer.
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "defensin" returned a pending "defensins are not [a PAMP]" concept (CON-IMM-096844D3D86109) — a different fact (PAMP classification, not regulation) — not merged.
+uncertainty: The printed option (a) is a plausible near-miss for defensins' real mechanism; kept as printed since the key selects (d).
+
+---
+
+# Item
+
+## id
+CON-IMM-B6AD9E73197AF1
+
+## label
+Macrophages produce IL-1, IL-6 and IL-12 among their cytokine repertoire
+
+## canonical_key
+macrophage.cytokines.il1-il6-il12-triad
+
+## aliases
+Macrophage-derived cytokine triad
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Among the cytokines macrophages produce, IL-1, IL-6 and IL-12 form a characteristic triad tested together in this bank — IL-1 and IL-6 drive the acute-phase and inflammatory response, while IL-12 drives Th1 differentiation — distinguishing this combination from distractor pairings such as IL-2/IL-8 or TNF-alpha/IL-7, which are not the macrophage-derived set this stem asks for.
+
+## explicit_objective
+Identify IL-1, IL-6 and IL-12 as macrophage-derived cytokines, as distinct from other cytokine combinations attributed to macrophages in this bank's distractors.
+
+## pitfalls
+Confusing this macrophage-derived cytokine triad (IL-1, IL-6, IL-12) with T-cell-derived cytokines (such as IL-2) that appear in distractor combinations in the same question.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-MACROPHAGE-CYTOKINE-TRIAD-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+28- Cytokines produced by MQ:
+a- IL2 & IL8.
+b- L4,6 & IL12.
+c- TNFa & IL7.
+d- IL2 & IL7.
+e- IL1 & IL2
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch2 Q28
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The printed option (b) shows "L4,6 & IL12" (missing the "I" of "IL4"), read as "IL1, IL6 & IL12" per the bank's own key and the standard macrophage-cytokine teaching (IL-1/IL-6/IL-12), not literally "IL4" — a probable print/scan artefact, not a genuine "IL4" option, since IL-4 is a Th2 cytokine, not macrophage-derived, and would make no option correct if read literally.
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "IL-1" returned CON-IMM-2AE767715E0D7D (IL-1 as innate inflammatory mediator, a single-cytokine fact) and IL-12/IL-10 pending concepts — none test this specific IL-1/IL-6/IL-12 macrophage-triad combination question; not merged.
+uncertainty: Option (b)'s printed "L4,6 & IL12" is read as "IL1, IL6 & IL12" (a scan/print artefact dropping the leading "I"), not literally IL-4, per the bank's own key and standard teaching.
+
+---
+
+---
+
+# Item
+
+## id
+CON-IMM-A15EC6751FF401
+
+## label
+IL-1 is a macrophage-derived product
+
+## canonical_key
+il1.property.macrophage-derived-product
+
+## aliases
+IL-1 origin
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+IL-1 is a macrophage-derived product, one of the acute-phase-response-driving cytokines a macrophage releases on encountering a pathogen, distinct from vasoconstriction, adhesion-molecule identity, or mast-cell binding as its defining property in this bank's option set.
+
+## explicit_objective
+State that IL-1's origin is macrophage-derived, as the best single description of its properties among this stem's options.
+
+## pitfalls
+Selecting a genuine downstream IL-1 effect (endothelial adhesion-molecule upregulation, leukocytosis) over its more fundamental defining property, cellular origin, when a stem asks for the single best description.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-IL1-MACROPHAGE-DERIVED-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+30- Which one of the following statements best describes properties of interleukin 1 (IL-1)?
+a. It is a macrophage-derived product
+b. Causes vasoconstriction
+c. adhesion molecules on the surface of endothelial cells
+d. Involved in leukocytosis
+e. Can bind to mast cells.
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch2 Q30
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "IL-1" returned a live KAU-scoped concept CON-IMM-2AE767715E0D7D ("IL-1 is an important mediator of innate inflammatory responses", articleIds ART-IMM-TOP-9DEF7D24E6, a Kasr-pipeline article outside this batch's --with set) — close but not identical grain (mediator-role vs macrophage-origin framing), and a cross-university sparse update carries real risk of breaking that record's existing per-university traceability if done without full care; deferred rather than attempted this sitting, and a distinct ASU-scoped concept minted instead.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.

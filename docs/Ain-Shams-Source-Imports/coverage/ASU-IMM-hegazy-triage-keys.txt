@@ -11,6 +11,32 @@ hegazy-ch1-q09
 hegazy-ch1-q10
 hegazy-ch1-q11
 hegazy-ch1-q12
+# Chapter 2 (Innate immunity), 23/32 keyed and authored (Q10, Q11-18 held — unreadable key)
+hegazy-ch2-q01
+hegazy-ch2-q02
+hegazy-ch2-q03
+hegazy-ch2-q04
+hegazy-ch2-q05
+hegazy-ch2-q06
+hegazy-ch2-q07
+hegazy-ch2-q08
+hegazy-ch2-q09
+hegazy-ch2-q19
+hegazy-ch2-q20
+hegazy-ch2-q21
+hegazy-ch2-q22
+hegazy-ch2-q23
+hegazy-ch2-q24
+hegazy-ch2-q25
+hegazy-ch2-q26
+hegazy-ch2-q27
+hegazy-ch2-q28
+hegazy-ch2-q29
+hegazy-ch2-q30
+hegazy-ch2-q31
+hegazy-ch2-q32
+# hegazy-ch2-q10 — held, no printed key visible
+# hegazy-ch2-q11..q18 — held, printed key row straddles the page 5/6 scan boundary, not reliably readable
 # Chapter 3 (Antigens & self molecules), 22/22 keyed and authored
 hegazy-ch3-q01
 hegazy-ch3-q02
@@ -34,5 +60,4 @@ hegazy-ch3-q19
 hegazy-ch3-q20
 hegazy-ch3-q21
 hegazy-ch3-q22
-# Chapter 2 (Innate immunity, 32 Qs): 23 keyed (Q1-9, Q19-32), 9 held (Q10, Q11-18 — key row split across a page break, unreadable) — not yet authored
-# Chapters 4-6 (Cell-mediated immunity, Humoral IR, Complement): not yet read to per-question level this sitting
+# Chapters 4-6 (Cell-mediated immunity, Humoral IR, Complement, ~112 Qs): not yet read to per-question level this sitting
