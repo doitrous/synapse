@@ -1,0 +1,320 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "epith",
+  "header": "ASU-HCB · Epithelium — cell-junction questions of the ASU HCB Dr. Hegazy epithelium MCQ bank (\"MCQs - epith MCQ.pdf\", sourceId src_b86ae41ff2e749179215). All 8 reuse existing pending Kasr 101-ISK cell-junction concepts (tight/zonula occludens, zonula/macula adherens, gap junction, junctional complex, basal infoldings) via a sparse overlay (pending-live/ASU-HCB-epithelium-junctions-overlay-concepts.md) after a find-existing.mjs search found the same junction facts already pending under Kasr's 'Polarity and Membranous Specializations' article. Native text, keys from the printed table, p.6.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-HCB",
+    "module_subject": "ASU-HCB > Histology > Questions > Epithelium classification",
+    "exam_weight_by_year": {
+      "ASU_Y1": "high"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-HIS-MEMBRANOUS-SPECIALISATIONS"
+    ],
+    "resource_ids": [
+      "src_b86ae41ff2e749179215"
+    ],
+    "source_citation": "epith MCQ (Dr. Hegazy), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "epith-q06",
+      "page": 1,
+      "title": "Junction that completely prevents intercellular passage",
+      "question": "Which type of the following structure completely prevents passage of substances between adjacent cells?",
+      "options": {
+        "A": "Hemidesmosomes",
+        "B": "Gap junction",
+        "C": "Tight junction",
+        "D": "Adhering junction",
+        "E": "Lateral interdigitations"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Hemidesmosomes are basal specialisations that fix the epithelium to the basement membrane; they do not seal the space between adjacent lateral cell surfaces.",
+        "B": "Incorrect. The gap junction is, on the contrary, the one lateral junction that specifically allows material (ions and small molecules) to pass between adjacent cells — the opposite of what this question asks for.",
+        "C": "Correct. The tight (zonula occludens) junction is the most apical of the lateral junctions: adjacent plasma membranes fuse at points through transmembrane proteins, obliterating the intercellular space at those points and encircling the apex of the cell like a belt. This seals the paracellular route completely, restricting passage of substances between adjacent cells and forcing anything crossing the epithelium to go through the cells rather than between them — precisely the barrier function this question is testing.",
+        "D": "Incorrect. Adhering (zonula/macula adherens) junctions provide mechanical adhesion, not a seal against paracellular passage; they leave a wide intercellular space rather than obliterating it.",
+        "E": "Incorrect. Lateral interdigitations increase the surface area of contact between adjacent lateral membranes for mechanical interlocking; they do not seal off intercellular passage the way the tight junction does."
+      },
+      "main_concept": "CON-FND-2EAD7BC676C215",
+      "concept_ids": [
+        "CON-FND-2EAD7BC676C215"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the tight (zonula occludens) junction completely seals the paracellular space between adjacent epithelial cells.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q07",
+      "page": 2,
+      "title": "Feature of desmosomes",
+      "question": "Desmosomes:",
+      "options": {
+        "A": "Is called nexus",
+        "B": "Permits passage of molecules from one cell to another",
+        "C": "The transmembrane protein is called connexons",
+        "D": "Is supported by Keratin = tono filaments"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Nexus\" is the alternative name for the gap junction, not the desmosome (macula adherens).",
+        "B": "Incorrect. Desmosomes are purely adhesive junctions with a wide intercellular space; they do not form channels that permit molecules to pass from one cell's interior to another's — that is the gap junction's function.",
+        "C": "Incorrect. Connexons are the channel-forming protein units of the gap junction, not of the desmosome.",
+        "D": "Correct. The desmosome (macula adherens) is a spot-type adhering junction whose thickened cytoplasmic attachment plaque anchors bundles of intermediate filaments — keratin filaments, or tonofilaments, in epithelium — giving the junction its mechanical strength. This tonofilament/keratin support, rather than a communicating-channel function, is the specific feature of the desmosome this question tests."
+      },
+      "main_concept": "CON-FND-59E3FDA20F54AD",
+      "concept_ids": [
+        "CON-FND-59E3FDA20F54AD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that desmosomes are supported by keratin (tonofilament) intermediate filaments anchored into their attachment plaque.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q08",
+      "page": 2,
+      "title": "Where connexins are found",
+      "question": "Connexins are transmembrane protein present in:",
+      "options": {
+        "A": "Zonula occludens",
+        "B": "Fascia occludens",
+        "C": "Zonula adherens",
+        "D": "Desmosomes",
+        "E": "Gap junction"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The zonula occludens (tight junction) is built from a different family of transmembrane proteins (such as occludin and claudins) that fuse adjacent membranes, not connexins.",
+        "B": "Incorrect. Fascia occludens is a variant tight-junction arrangement, again built from occluding-junction proteins rather than connexins.",
+        "C": "Incorrect. The zonula adherens anchors actin filaments through cadherin-type adhesion proteins, not connexins.",
+        "D": "Incorrect. Desmosomes anchor intermediate filaments through desmosomal cadherins and plaque proteins, not connexins.",
+        "E": "Correct. The gap junction is bridged by paired channels, each channel formed of six transmembrane protein subunits — connexins — that assemble into a connexon; two connexons from adjacent cells align to form a complete channel through which ions and small molecules pass directly from one cell's interior to the next. Naming connexin as the gap junction's specific transmembrane protein, as opposed to the different protein families of the other three lateral junctions, is exactly what this question tests."
+      },
+      "main_concept": "CON-FND-ACB35745EC9A5D",
+      "concept_ids": [
+        "CON-FND-ACB35745EC9A5D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name connexin as the transmembrane protein of the gap junction.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q09",
+      "page": 2,
+      "title": "Structure NOT part of the junctional complex",
+      "question": "Which of the following is NOT a part of the junctional complex?",
+      "options": {
+        "A": "Zonula adherens",
+        "B": "Gap junction",
+        "C": "Macula adherens",
+        "D": "Zonula occludens",
+        "E": "Desmosomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (i.e. it IS part of the junctional complex). The zonula adherens is the middle of the three junctions making up the junctional complex.",
+        "B": "Correct. The junctional complex is specifically the zonula occludens, the zonula adherens and the macula adherens (desmosome) occurring together, running from the apex downward — the classic site is between the simple columnar cells of the small intestine. The gap junction is a separate, fourth lateral junction and is explicitly not one of the three that make up the junctional complex, which is precisely the distinction this question tests.",
+        "C": "Incorrect (i.e. it IS part of the junctional complex). The macula adherens (desmosome) is the most basal of the three junctions making up the junctional complex.",
+        "D": "Incorrect (i.e. it IS part of the junctional complex). The zonula occludens is the most apical of the three junctions making up the junctional complex.",
+        "E": "Incorrect (i.e. it IS part of the junctional complex). \"Desmosomes\" here names the same structure as macula adherens, the third member of the junctional complex."
+      },
+      "main_concept": "CON-FND-993662DC8318E5",
+      "concept_ids": [
+        "CON-FND-993662DC8318E5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the gap junction is the one lateral junction that is not part of the junctional complex.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q10",
+      "page": 2,
+      "title": "Protein of the prickle-cell dense plaque",
+      "question": "The dense plaque in the cytoplasmic aspects of the adjacent cells of the prickle cell layer in the epidermis of the skin is associated with...",
+      "options": {
+        "A": "Actin",
+        "B": "Claudin",
+        "C": "Cytokeratin = tonofilaments",
+        "D": "Vimentin",
+        "E": "Laminin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Actin filaments anchor into the zonula adherens attachment site, not the desmosomal dense plaque of the prickle-cell layer.",
+        "B": "Incorrect. Claudin is a tight-junction (zonula occludens) transmembrane protein, not the intermediate filament anchored at the desmosomal plaque.",
+        "C": "Correct. The prickle-cell layer of the epidermis is named for its numerous desmosomes (macula adherens), whose thickened cytoplasmic attachment plaque anchors bundles of intermediate filaments — in epithelium, cytokeratin, also called tonofilaments. This cytokeratin/tonofilament association with the desmosomal dense plaque is exactly the fact this question is testing.",
+        "D": "Incorrect. Vimentin is the intermediate filament of connective tissue and muscle cells, not the epithelial (epidermal) intermediate filament anchored at desmosomes.",
+        "E": "Incorrect. Laminin is a basement-membrane glycoprotein, unrelated to the lateral desmosomal attachment plaque of the prickle-cell layer."
+      },
+      "main_concept": "CON-FND-59E3FDA20F54AD",
+      "concept_ids": [
+        "CON-FND-59E3FDA20F54AD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the prickle-cell layer's desmosomal dense plaque anchors cytokeratin (tonofilaments).",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q11",
+      "page": 2,
+      "title": "Structure coordinating cardiac muscle contraction",
+      "question": "Cardiac muscle fibres are acting together in a coordinated manner due to the presence of.,..",
+      "options": {
+        "A": "Macula adherens",
+        "B": "Zonula occludens",
+        "C": "Zonula adherens",
+        "D": "Fascia adherens",
+        "E": "Gap junction"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The macula adherens (desmosome) provides mechanical adhesion between cardiac cells at the intercalated disc, but it does not itself pass an electrical impulse between them.",
+        "B": "Incorrect. The zonula occludens is an epithelial sealing junction; it is not the structure coordinating cardiac muscle contraction.",
+        "C": "Incorrect. The zonula adherens provides mechanical, actin-anchored adhesion; it does not conduct the electrical impulse between cardiac cells.",
+        "D": "Incorrect. Fascia adherens, like the zonula adherens, is a mechanical anchoring junction (for actin at the intercalated disc), not the conduit for electrical coordination.",
+        "E": "Correct. The gap junction's paired connexin channels, which pass ions and small molecules directly from the interior of one cell to the next in epithelium, carry electrical impulses between muscle cells in exactly the same way — at the cardiac intercalated disc, gap junctions are what let the electrical impulse spread rapidly from one cardiac muscle fibre to the next, coordinating the fibres to contract together as a functional unit. This impulse-conducting role of the gap junction, distinct from the purely mechanical adhesion of the desmosome and adherens junctions at the same intercalated disc, is exactly what this question is testing."
+      },
+      "main_concept": "CON-FND-ACB35745EC9A5D",
+      "concept_ids": [
+        "CON-FND-ACB35745EC9A5D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that gap junctions coordinate cardiac muscle contraction by conducting the electrical impulse between fibres.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q13",
+      "page": 3,
+      "title": "Proteins forming intercellular channels for ions and signalling molecules",
+      "question": "Epithelial cells have membrane channels that permit ions and small signalling molecules to pass between adjacent cells. Which of the following proteins forms these intercellular junctions?",
+      "options": {
+        "A": "claudins",
+        "B": "connexins of gap junctions",
+        "C": "cadherins of adherent junctions",
+        "D": "integrins of desmosomes",
+        "E": "laminin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Claudins are tight-junction (zonula occludens) proteins that seal the paracellular space; they do not form open channels for ions and signalling molecules to pass between cells.",
+        "B": "Correct. Connexins are the transmembrane protein subunits of the gap junction: six connexins assemble into a connexon, and two connexons from adjacent cells align to form a complete channel bridging the narrow intercellular gap, letting ions and small signalling molecules pass directly from the interior of one cell to the next. This channel-forming, molecule-permeable role — distinguishing the gap junction from the sealing, adhesive and anchoring roles of the other three lateral junctions — is exactly what this question tests.",
+        "C": "Incorrect. Cadherins are the calcium-dependent adhesion proteins of the adherens junctions; they provide mechanical adhesion, not an open channel for ion/molecule passage.",
+        "D": "Incorrect. Desmosomes use desmosomal cadherins and plaque proteins to anchor intermediate filaments, not integrins, and they do not form intercellular channels.",
+        "E": "Incorrect. Laminin is a basement-membrane component, unrelated to lateral intercellular channel proteins."
+      },
+      "main_concept": "CON-FND-ACB35745EC9A5D",
+      "concept_ids": [
+        "CON-FND-ACB35745EC9A5D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Name connexins of the gap junction as the proteins forming the intercellular channels for ions and small signalling molecules.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    },
+    {
+      "key": "epith-q14",
+      "page": 3,
+      "title": "Basal surface feature of renal distal convoluted tubule cells",
+      "question": "The basal surfaces of cells lining distal convoluted (renal) tubules are characterized by presence of",
+      "options": {
+        "A": "Infoldings.",
+        "B": "Desmosomes.",
+        "C": "Nexus.",
+        "D": "Interdigitation",
+        "E": "Microvilli"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Basal infoldings are invaginations of the basal cell membrane that increase the basal surface area available for transport, with mitochondria stacked vertically in the compartments between the infoldings to supply, on the spot, the energy active transport needs. The standard example given for this feature is exactly the cells of the kidney tubules, including the distal convoluted tubule, which need to actively reabsorb ions across their basal surface — making basal infoldings the specific feature this question is testing.",
+        "B": "Incorrect. Desmosomes are lateral junctions providing intercellular adhesion; they are not a basal-surface specialisation of an ion-transporting tubule cell.",
+        "C": "Incorrect. Nexus (the gap junction) is a lateral, communicating junction, not a basal-surface transport specialisation.",
+        "D": "Incorrect. Interdigitations increase lateral, not basal, membrane contact area between adjacent cells.",
+        "E": "Incorrect. Microvilli are apical-surface specialisations that increase apical, not basal, surface area for absorption."
+      },
+      "main_concept": "CON-FND-D716C3939DB217",
+      "concept_ids": [
+        "CON-FND-D716C3939DB217"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cell & molecular biology",
+      "subtopic": "Cell junctions",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that renal tubule cells' basal surface is characterised by basal infoldings supporting active transport.",
+      "field_notes": {
+        "keySource": "printed answer key table, foot of p.6"
+      }
+    }
+  ]
+}

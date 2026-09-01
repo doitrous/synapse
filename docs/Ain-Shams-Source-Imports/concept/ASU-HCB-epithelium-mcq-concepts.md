@@ -2718,3 +2718,343 @@ lastReviewed: New ASU batch; not yet faculty reviewed.
 reviewDue: Set after first review.
 resourceOccurrenceIds: Hand-authored from local native text; no separate corpus occurrence record was supplied.
 sourceCandidateIds: Existing content was searched for "apocrine mammary" before minting; no hit anywhere (live or pending).
+
+---
+
+# Item
+
+## id
+CON-FND-32F71AC8F702D5
+
+## label
+The terminal web is an apical actin/intermediate-filament network anchoring microvillus cores and ciliary basal bodies
+
+## canonical_key
+epithelium.terminal-web.actin-composition-apical-location
+
+## definition
+The terminal web is a dense network of cytoskeletal filaments — actin and intermediate filaments — lying in the apical cytoplasm of an absorptive or ciliated epithelial cell, just beneath the free surface. Microvillus actin cores insert into it, and it anchors the basal bodies of cilia, giving the apical cytoplasm mechanical support distinct from the basal or lateral cytoplasm.
+
+## explicit_objective
+Describe the terminal web's location (apical cytoplasm) and composition (actin plus intermediate filaments), and its role anchoring microvilli and ciliary basal bodies.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+SYS-FND-T01-S01
+
+## article_ids
+ART-FND-ASU-HCB-EPITHELIUM-CLASSIFICATION
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## module_subject
+ASU-HCB > Histology > Questions > Epithelium classification
+
+## exam_signal
+src_b86ae41ff2e749179215 | question_book | | p2 | ASU-HCB
+
+## weight_confidence
+0.3
+
+## confidence
+0.78
+
+## atomic_claim_ids
+
+## resource_ids
+src_b86ae41ff2e749179215
+
+## related_article_ids
+
+## original_wording
+Which of the following is a characteristic of the terminal web of the epithelial cells? a. It is located at the basal cytoplasm of the cell. b. It is associated with the axoneme of the cilia. c. It is associated with the basal body of the cilia, d. It is formed of actin and intermediate filaments [correct] e. It is associated with mitochondria.
+A dense network of cytoskeletal filaments in the apical cytoplasm of the epithelial cells is called.... a. Terminal web. [correct]
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Dr. Omar
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Cell & molecular biology
+
+## subtopic
+Cell structure and organelles
+
+## microtopic
+Epithelium
+
+## nanotopic
+
+## secondary_node_ids
+DIS-HIS-T02
+
+## related_concept_ids
+CON-FND-632A634868EEC6
+CON-FND-5114283D5309E5
+
+## modules
+ASU-HCB
+
+## aliases
+Terminal web
+Apical actin/intermediate filament network
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Placing the terminal web at the basal cytoplasm (it is apical) or attributing its composition to actin alone, missing the intermediate-filament component, or confusing it with the axoneme (a microtubule structure) itself.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent non-local histology reference not yet attached; current support is the local ASU Dr. Hegazy epithelium MCQ bank.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## field_notes
+examSignal: No non-assessment exam source was used in this batch.
+arabicLabel: The permitted local MCQ source is English-only; no reviewed Arabic label was available.
+arabicAliases: The permitted local MCQ source is English-only; no reviewed Arabic aliases were available.
+microtopicId: "Epithelium" is used as a local microtopic label; no reviewed canonical microtopic ID exists under SYS-FND for it.
+nanotopicId: No reviewed nanotopic exists for this ASU epithelium MCQ slice.
+approvedFileResourceIds: The MCQ bank is registered as an evidence source, but republication/open-file rights are not cleared.
+approvedVideoResourceIds: No video resource is used in this source slice.
+lastReviewed: New ASU batch; not yet faculty reviewed.
+reviewDue: Set after first review.
+resourceOccurrenceIds: Hand-authored from local native text; no separate corpus occurrence record was supplied.
+sourceCandidateIds: Searched existing content for "terminal web" before minting (find-existing.mjs, 2026-09-02) — 4 hits, all as an incidental detail inside the Kasr 101-ISK microvillus/stereocilium concepts (CON-FND-632A634868EEC6, CON-FND-5114283D5309E5), neither of which stands alone as a terminal-web concept naming its own apical location and actin-plus-intermediate-filament composition, which is what this bank tests directly (epith-q12, epith-q15) — so this is a genuinely absent idea, not a near-duplicate, and the two Kasr concepts are listed as related rather than merged into.
+
+---
+
+# Item
+
+## id
+CON-FND-02F82BC3FA3ACC
+
+## label
+Epithelium does not have a constant thickness — thickness varies by type and body site
+
+## canonical_key
+epithelium.variable-thickness-property
+
+## definition
+Epithelium does not have a constant thickness: thickness varies by epithelial type and body site — a single layer in simple epithelium, many layers in stratified epithelium — unlike epithelium's genuinely constant features (polarity, avascularity, minimal intercellular substance, continuous turnover).
+
+## explicit_objective
+Identify "constant thickness" as a false general statement about epithelium, since thickness in fact varies by type and location.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+SYS-FND-T01-S01
+
+## article_ids
+ART-FND-ASU-HCB-EPITHELIUM-CLASSIFICATION
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## module_subject
+ASU-HCB > Histology > Questions > Epithelium classification
+
+## exam_signal
+src_b86ae41ff2e749179215 | question_book | | p3 | ASU-HCB
+
+## weight_confidence
+0.3
+
+## confidence
+0.78
+
+## atomic_claim_ids
+
+## resource_ids
+src_b86ae41ff2e749179215
+
+## related_article_ids
+
+## original_wording
+Each of the following statements concerning the epithelium is true EXCEPT: [A] They have constant thickness. [correct, i.e. false statement] [b] They have a strong lateral adhesions. [c] They do not contain blood vesseles. [d] They have polarity.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Dr. Omar
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## topic
+Cell & molecular biology
+
+## subtopic
+Cell structure and organelles
+
+## microtopic
+Epithelium
+
+## nanotopic
+
+## secondary_node_ids
+DIS-HIS-T02
+
+## related_concept_ids
+CON-FND-7DFC513C3682EF
+
+## modules
+ASU-HCB
+
+## aliases
+Epithelium variable thickness
+Epithelium is not a constant thickness
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming epithelium has a fixed thickness across all types and locations; thickness is exactly what varies between simple (one layer) and stratified (many layers) epithelium.
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent non-local histology reference not yet attached; current support is the local ASU Dr. Hegazy epithelium MCQ bank.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## field_notes
+examSignal: No non-assessment exam source was used in this batch.
+arabicLabel: The permitted local MCQ source is English-only; no reviewed Arabic label was available.
+arabicAliases: The permitted local MCQ source is English-only; no reviewed Arabic aliases were available.
+microtopicId: "Epithelium" is used as a local microtopic label; no reviewed canonical microtopic ID exists under SYS-FND for it.
+nanotopicId: No reviewed nanotopic exists for this ASU epithelium MCQ slice.
+approvedFileResourceIds: The MCQ bank is registered as an evidence source, but republication/open-file rights are not cleared.
+approvedVideoResourceIds: No video resource is used in this source slice.
+lastReviewed: New ASU batch; not yet faculty reviewed.
+reviewDue: Set after first review.
+resourceOccurrenceIds: Hand-authored from local native text; no separate corpus occurrence record was supplied.
+sourceCandidateIds: Searched existing content for "epithelium thickness" before minting (find-existing.mjs, 2026-09-02) — no hit anywhere (live or pending); the existing general-characteristics concept (CON-FND-7DFC513C3682EF) covers avascularity/turnover/intercellular substance but not thickness, so this is a genuinely absent idea, listed as related rather than merged into.

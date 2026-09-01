@@ -1,0 +1,68 @@
+{
+  "lane": "ASU-HCB",
+  "cluster": "epith",
+  "header": "ASU-HCB \u00b7 Epithelium \u2014 retroactive ledger backfill for the 20 questions already published in question/ASU-HCB-epithelium-mcq.md (authored in an earlier session before this lane's seed->emit->gate workflow existed for ASU-HCB). This seed exists ONLY so ledger.mjs credits these as authored; its questions are stripped to the key field alone and must never be emitted (that would overwrite the real, richer, already-published .md with this stub). See the real content in question/ASU-HCB-epithelium-mcq.md and concept/ASU-HCB-epithelium-mcq-concepts.md.",
+  "defaults": {},
+  "questions": [
+    {
+      "key": "epith-q01"
+    },
+    {
+      "key": "epith-q03"
+    },
+    {
+      "key": "epith-q04"
+    },
+    {
+      "key": "epith-q05"
+    },
+    {
+      "key": "epith-q17"
+    },
+    {
+      "key": "epith-q18"
+    },
+    {
+      "key": "epith-q19"
+    },
+    {
+      "key": "epith-q20"
+    },
+    {
+      "key": "epith-q21"
+    },
+    {
+      "key": "epith-q22"
+    },
+    {
+      "key": "epith-q23"
+    },
+    {
+      "key": "epith-q24"
+    },
+    {
+      "key": "epith-q25"
+    },
+    {
+      "key": "epith-q27"
+    },
+    {
+      "key": "epith-q28"
+    },
+    {
+      "key": "epith-q29"
+    },
+    {
+      "key": "epith-q30"
+    },
+    {
+      "key": "epith-q31"
+    },
+    {
+      "key": "epith-q32"
+    },
+    {
+      "key": "epith-q33"
+    }
+  ]
+}

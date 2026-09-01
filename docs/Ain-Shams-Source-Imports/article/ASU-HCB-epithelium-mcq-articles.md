@@ -89,6 +89,10 @@ A common error is assuming epithelium is vascularised because it lies close to a
 Another is assuming every cell of a stratified epithelium touches the basement membrane or reaches the apical surface — only the basal and surface layers respectively do so.
 A third is mismatching epithelial type to location: assigning a pseudostratified pattern, or a goblet-cell-bearing pattern, to the Fallopian tube (it is simple columnar ciliated without goblet cells) or a stratified pattern to a site that needs distention resistance (transitional epithelium, not stratified squamous, withstands distention).
 
+### Terminal web and epithelial thickness (added for the bank's junction/apical-specialisation questions)
+The terminal web is a dense network of cytoskeletal filaments — actin and intermediate filaments — lying in the apical cytoplasm of an absorptive or ciliated epithelial cell, just beneath the free surface; microvillus actin cores insert into it, and it anchors the basal bodies of cilia. It gives the apical cytoplasm mechanical support distinct from the basal or lateral cytoplasm.
+Epithelium does not have a constant thickness: thickness varies by epithelial type and body site — a single layer in simple epithelium, many layers in stratified epithelium — so "constant thickness" is a false general statement about epithelium as a tissue class, unlike its genuinely constant features (polarity, avascularity, minimal intercellular substance, continuous turnover).
+
 ## published_summary
 
 ## published_sections
@@ -114,6 +118,8 @@ CON-FND-BD15C2BA58C220
 CON-FND-E75ABA09FD9405
 CON-FND-626225395CE7C5
 CON-FND-FBF032D6A83371
+CON-FND-32F71AC8F702D5
+CON-FND-02F82BC3FA3ACC
 
 ## related_articles
 ART-FND-ASU-HCB-GLAND-SECRETION-MECHANISMS: continues the same MCQ bank from epithelium classification into exocrine gland secretion mechanisms
@@ -171,6 +177,14 @@ Block: body
 
 ### definition_of · CON-FND-BD15C2BA58C220
 Quote: transitional epithelium (urothelium) folds and stretches to withstand distention, as in the urinary bladder
+Block: body
+
+### definition_of · CON-FND-32F71AC8F702D5
+Quote: The terminal web is a dense network of cytoskeletal filaments — actin and intermediate filaments — lying in the apical cytoplasm of an absorptive or ciliated epithelial cell, just beneath the free surface; microvillus actin cores insert into it, and it anchors the basal bodies of cilia.
+Block: body
+
+### definition_of · CON-FND-02F82BC3FA3ACC
+Quote: Epithelium does not have a constant thickness: thickness varies by epithelial type and body site
 Block: body
 
 ## media
