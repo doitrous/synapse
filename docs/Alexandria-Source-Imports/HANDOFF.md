@@ -1,97 +1,113 @@
-# HANDOFF — Alexandria University lane (orchestrator)
+# HANDOFF — Alexandria University Year 1 (orchestrator)
 
-Last written 2026-08-23 ~00:50 Cairo. Branch `claude/alexandria-university-content-000583`
-(worktree `.claude/worktrees/alexandria-university-content-000583`). Nothing pushed; main merged
-through `d82dd36` / `0e08ac1` / `ed87a85`. Files are the memory: resume from this file +
-`LANE-BRIEF.md` (§1–§21) + `Instruction Manual for Content Creation/00-START-HERE.md` + `13-orchestration.md`.
+Rewritten 2026-08-27 after the weekly usage limit (reset Aug 27 01:00 Cairo) killed the six
+lanes that were still running, and Omar merged everything to **main**.
 
-## Chain of command
-Report only to the session named `synapse-chief-of-staff-…` ("Chief of staff — content lanes");
-deltas only (hash, number, blocker). Omar's orders in force: Year 1 only until publishable (§17);
-question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (§21).
+## Where the work lives now
+- **All Alexandria Year 1 content is on `main`** (Omar landed the last batch himself:
+  `1ac5ffff ops(content): land AU-MED-105/106 physiology build and pending-live batches`,
+  2026-08-27 01:28). 181 files under `docs/Alexandria-Source-Imports/`. Nothing is owed a
+  commit-and-land pass — it is committed.
+- The original worktree `alexandria-university-content-000583` was removed; branch
+  `claude/alexandria-university-content-000583` still exists and is fully contained in main.
+- This handover worktree is `claude/alexandria-y1-continue` off main. A successor can work here
+  or make its own worktree off main.
+- Read order for a successor: this file → `LANE-BRIEF.md` (§1–§24, the standing law) →
+  `LANE-ORDERS-PHASE1.md` (the per-lane Steps 1–4 recipe) →
+  `Instruction Manual for Content Creation/00-START-HERE.md` and `13-orchestration.md`.
 
-## Committed so far (all on the branch)
-| Hash | What |
-|---|---|
-| f83c7fe | 23 AU modules, `AU-<CODE>` ids, `docs/import-ready/academic/au-modules.md`, `AU_MODULES` |
-| ed7c8f0 / 2a168bc | manifest: 3,502 sources, twins, content twins, stream/cohort signals; OCR complete |
-| 25b0484 / 1bcf357 / 69c79c6 | `scripts/alexandria/extract/pagetext.py` + cache guard; intake textcache separated |
-| c722ea3 / 8b244cd | 13 triages consolidated (`coverage/00-wave1-triage-checkpoint.md`), publish plan (`coverage/00-publish-plan-year1.md`), wave-1 decisions |
-| 1c2fdf6 | AU-MED-102 Anatomy: 3 new concepts, 3 articles, evidence, 3 MCQs (gate lines in body) |
-| 194420e | AU-MED-102 Histology + Physiology: 25 concepts, 5 articles, evidence, 21 MCQs |
-| 76cc236 | AU-MED-102 Biochemistry sub-lane A: CHO chemistry 14 concepts, 1 article, 12 MCQs; 13 resources |
-| c4b3e55 | AU-MED-103 Biochemistry: 26 concepts, 9 articles, 30 MCQs; 38 pending-live updates |
-| 654b24e | AU-MED-102 Biochemistry sub-lane C: 13 concepts, 4 articles, 20 MCQs (+12 on pending ids) |
-| 5ac21ea | AU-MED-102 Anatomy pending-live: 23 labelled Kasr updates + 14 questions |
-| 6ac97cb | AU-MED-102 Terminology: 81 glossary terms, 4 concepts, 2 articles, 4+2 questions — LANE DONE |
-| 6fd9e4e | AU-MED-102 Biochem D: 26 concepts, 3 articles, evidence, 7 pending updates (19 ideas + questions owed) |
-| f9a57e7 | AU-MED-103 Histology: 5 concepts + 5 live updates, 2 articles, 10 MCQs (audit key fix + pending/practical questions owed) |
-| cd248e4 | AU-MED-102 Embryology: 4 concepts, 3 articles, 12 pending updates + 13 questions — LANE DONE |
-| b9cb23c | Terminology shelf (subjects/ node under Foundations) + 3 concepts re-placed — 102-TERM fully DONE |
-| 369ef39 | AU-MED-103 Biochemistry: 33 questions on Kasr ids — 103-BIOC DONE |
-| 432ee37 | AU-MED-102 Biochem A: lipid chemistry 23 concepts, 10 MCQs (protein + enzymology remain) |
-| 5751218 | AU-MED-102 Biochem B: bioenergetics + CHO metabolism — 8 concepts, 6 articles, 12 MCQs, 23 pending updates + 10 questions (lipid metabolism 55 ideas remain) |
-| 78f2205 | AU-MED-105 Anatomy Step 2: 27 concepts, 7 articles, 36 pending updates — questions (460) with fresh lane W1-105-ANAT-Q |
-| 6d32266 | AU-MED-105 Histology: 18 concepts, 8 articles, 33 + 14 questions — LANE DONE |
-| 06f320a | AU-MED-103 Histology: audit 0, 13 pending questions + 9 practical written — LANE DONE |
-| b5415d0 | AU-MED-102 Biochem D complete: 43 concepts, 3 articles, 38 + 5 questions — LANE DONE |
-| c110de5 | AU-MED-102 Biochem B complete: 37 overlays each questioned, 41 pending + 12 own questions — LANE DONE |
-| bcb70d0 / 77d538d | 103 Physiology textbook record fixed (detector recognises only the evidence-source resource shape) |
-| 033e435 | AU-MED-106 Anatomy groundwork: keys confirmed, Telegram bank triaged, 2 overlays (28 concepts + questions running) |
-| ae39518 | AU-MED-102 Biochem B: 37 Kasr overlays (lipid + CHO) + 21 pending questions (lipid questions + explanation bar owed) |
-| d4b0239 | AU-MED-102 Biochem A protein chemistry: 32 concepts, 10 MCQs (enzymology with fresh lane W1-102-BIOC-A2) |
-| 7b86515 | AU-MED-103 Physiology: 19 concepts + 17 updates, 7 articles, 49 MCQs — LANE DONE (resource file format fix in flight; 10 spot items owed) |
+## Standing orders (unchanged, all in LANE-BRIEF.md)
+- **Year 1 only** until it is publishable; Years 2–3 frozen until "RESUME" (§17).
+- Report only to the **chief-of-staff** session ("Chief of staff — content lanes"), deltas only.
+- Question-led scope (§10–§11); overlay minting — one concept id across universities, sparse
+  updates into Kasr ids, never a full-record overwrite (§12/§16).
+- Every record carries the **six per-university tags** (§24 + amendments): `+au`; the AU year
+  (concepts use `learner_years`); `+AU-MED-xxx`; an Alexandria `module_subject` **path as the
+  full union** (module_subject REPLACES — restate Kasr's paths + ours); `exam_weight_by_year`
+  with the exact `AU_Y1` key (a wrong id hides the record from the blueprint); a
+  `university_notes` line (article kind only today — concepts put `au: <src, page>` in
+  `field_notes`; questions/practicals in `coverage/00-university-notes-ledger.md`).
+- Two-sided coverage (§22): a tested concept is covered only when an article NAMES it in
+  `related_concepts` AND teaches it. Verify against the Kasr article's own `related_concepts`.
+- Explanation bar (§18): `explanation_<correct>` ≥3 sentences, one per distractor.
+- Gates per file: `medical:batch` → `medical:simulate` (own dir; for pending-live pass the Kasr
+  concept+article files as plain args FIRST) → `medical:audit` filtered to your ids →
+  `medical:concept-ids`. Resource records use the 17-col evidence-source shape, not the
+  catalogue shape (the detector only recognises the former).
 
-## Lanes (Sonnet subagents; resumable by id from the roster in the orchestrator scratchpad; a lane
-## whose transcript is gone is restarted fresh from its committed triage file — never redo finished work)
-DONE lanes: 102-HIST+PHYS, 102-TERM, 102-EMBR, 102-BIOC-B, 102-BIOC-D, 103-BIOC, 103-HIST, 103-PHYS, 105-HIST, 102-ANAT (pending-id questions limited by 17 Kasr concepts with no article — routed to Kasr Y1), BIOC-C, 103-BIOC (NEW/live scope; pending-id questions in progress).
-Running Steps 2–4 (orders: `LANE-ORDERS-PHASE1.md` + lane rulings in `coverage/00-publish-plan-year1.md` § Corrections):
-102-ANAT (pending-live label fix + 126 questions) · 102-EMBR · 102-TERM (glossary-first; cut by a
-server rate limit, resumable) · 102-BIOC-A (lipid/protein chemistry + enzymology remain) ·
-102-BIOC-B metabolism · 102-BIOC-C nitrogen/blood · 102-BIOC-D molecular · 103-BIOC ·
-103-HIST (owns the boundary questions) · 103-PHYS (textbook resource) · 105-ANAT (keys by eye) ·
-105-HIST. Restarted fresh 2026-08-23 ~01:00 (transcripts lost): 105-PHYS (third sitting), 106-ANAT, 106-PHYS
-(both re-triage against the Telegram practical CVS bank first), F1 fetch (second sitting, ≤20 min).
-103-BIOC sent back for questions on its 12 pending ids; 105-HIST sent back for a missing claim + Step 3.
-Done: 102-HIST+PHYS (194420e). F1 first sitting landed one MED 106 practical CVS bank; found the
-"ASM Minds" cohort channels (paid-content brands with occasional free gifts).
+## Lanes — DONE (landed on main, gates were re-run before commit)
+102: Histology+Physiology, Terminology (+ Foundations terminology shelf), Embryology,
+Biochem-B (bioenergetics/CHO/lipid metabolism), Biochem-C (nitrogen/blood), Biochem-D
+(molecular). 103: Biochemistry, Histology, Physiology. 105: Histology. 105-Physiology landed
+via Omar's commit (concepts 44, articles 3, 19 own + 20 pending questions) — spot-check its
+audit before calling it green.
 
-## API outage 2026-08-23 ~01:00–01:40
-Every resumed authoring lane died with "stalled: no progress for 600s" twice over (Kasr Y1 saw
-the same). Rule from the chief of staff: keep ≤4 concurrent, probe with one small lane
-(BIOC-C: audit + CLAIMS row + report), resume the others only when it completes. Lane ids are
-in the orchestrator's roster; any lane whose transcript is gone restarts from its triage file.
-F1 fetch is DONE (browser free; 1 file landed for MED 106; channels for Omar in the fetch log).
+## Lanes — INCOMPLETE (killed by the weekly limit; groundwork committed, authoring owed)
+1. **105 Anatomy questions** — biggest gap. 27 concepts, 7 articles, 36 overlays are DONE;
+   only **44 of ~460 questions** authored (`question/AU-MED-105-anatomy-mcq.md` 15,
+   `-practical-mcq.md` 29). The 428 bank keys are ALL render-recovered and recorded in
+   `coverage/AU-MED-105-anatomy-triage.md` with page + method. Author the rest: mock exams'
+   labelling items (media_recommendations Priority required, never prose), then the 5 banks;
+   questions on the 36 Kasr overlay ids go in `pending-live/AU-MED-105-anatomy-questions.md`.
+2. **106 Anatomy** — concepts=1, no article, no questions. Groundwork DONE and committed
+   (`033e435`): all 46 ink keys confirmed at 200 dpi, 13 "unreadable" pages recovered, Telegram
+   "ASM Minds" bank triaged — all in `coverage/AU-MED-106-anatomy-triage.md`. Owed: 28 NEW
+   concepts + region article(s) + evidence + ~89 questions. Bank guard (no paper); every item
+   image-dependent → media requests. Note the printed key's IVC/brachiocephalic mixup (record
+   as printed).
+3. **106 Physiology** — concepts=44, articles=3 landed; **no questions authored**. Author the
+   CV cluster's questions and the rest; VSD→absent-Q-wave and oximetry→race stay as printed
+   with a one-sentence sourced note; QT disagreement recorded.
+4. **Biochem-A enzymology** — the last vertical of sub-lane A is entirely undone (0 enzymology
+   concepts in `concept/AU-MED-102-biochem-structural-concepts.md`, which holds 69 CHO/lipid/
+   protein concepts + 69 MCQs already). Author enzymology (kinetics, classification,
+   regulation, inhibition, isoenzymes, clinical enzymes): concepts, one `ART-FND-AU-MED-102-
+   ENZYMOLOGY`, evidence, questions — append to the existing structural files.
+5. **T1 per-university tag audit** — `scripts/alexandria/check-tags.mjs` is committed but the
+   audit was not run to completion and gaps not fixed. Run it, report counts per module (which
+   of the six tags each record carries), fix gaps as sparse updates (module_subject only where
+   proven additive/union; university_notes per the kind rules above).
+6. **102 Anatomy** — 3 own + 14 pending questions done, but 17 of its 23 Kasr overlay concepts
+   have **no teaching article in the Kasr batch**, so their questions cannot validate. This is a
+   Kasr Y1 gap (Kasr Y1 is running a coverage-verification pass). Hold those questions; do not
+   work around it.
 
-## Tag audit (Omar's order, brief §24)
-Lane T1 (`acceff98807d7552d` in the roster) is writing `scripts/alexandria/check-tags.mjs`, proving
-module_subject/exam_weight/university_notes semantics on shared records, and fixing gaps in
-files no other lane is writing. Its numbers go to the chief of staff; the check joins every GATES.
-
-## Uncommitted lane output on disk
-`git status` shows concept/, article/, evidence/, question/, glossary/, pending-live/ files from
-the lanes above. Commit per lane when its report lands, gates re-run first, gate lines in the body,
-question-backed records separate from everything else.
-
-## Next steps, in order
-1. Per lane report: re-run gates (batch per file; simulate of its own files; audit filtered to its
-   ids; pending-live with the Kasr targets as plain simulate args), commit, report the hash.
-2. When F1 stops: "browser free" + landed/not-landed to the chief of staff; re-run
-   `scripts/alexandria/intake/{inventory,probe,classify,manifest,index}.py` so Telegram files get
-   sourceIds; tell the 106 lanes the ids.
-3. Rebuild `INDEX.md` in every import folder (orchestrator only) with Omar's order: academic →
-   Kasr Y1 files named in pending-live/INDEX.md → resources → articles → concepts → evidence →
-   questions → pending-live last.
-4. Publishable check per module (§17); report per module.
-5. Years 2–3 frozen until "RESUME".
+## Closing tasks once the six above are complete (orchestrator only)
+- Rebuild `INDEX.md` in every import folder with Omar's order: academic → the Kasr Y1 files
+  named in `pending-live/INDEX.md` → resources → articles → concepts → evidence → questions →
+  pending-live last.
+- Module-wide `medical:simulate` per module to 0 errors; publishable check per §17 (every
+  triaged question's main concept has an article; pending-live separated with its apply-after
+  line). Report per module to the chief of staff.
+- AU-MED-101 stays unpublishable — empty corpus, Telegram yielded no file. Needs a source
+  from Omar.
 
 ## Open asks of Omar
-Alexandria Telegram channel links / joins (ASM Minds); zero orientation documents for any module;
-the list of Kasr Y1 batches already applied in production; `medical:snapshot-live`.
+- The list of Kasr Y1 batches already applied in production (decides pending-live import order).
+- A production snapshot / `medical:snapshot-live` so HIT-PENDING ids become HIT-LIVE.
+- Join the Alexandria student channels found by the fetch lane (ASM Minds cohort channels) for
+  MED 101 material and future papers — logged in `coverage/00-telegram-fetch-log.md`.
+- Whether image-dependent items (105/106 labelling, histology diagrams — ~250 media requests)
+  publish as Draft pending media or wait.
 
-## Exact resume message for a fresh orchestrator session
-"You are the Alexandria University orchestrator. Read docs/Alexandria-Source-Imports/HANDOFF.md,
-LANE-BRIEF.md, Instruction Manual for Content Creation/00-START-HERE.md and 13-orchestration.md.
-Check `git log --oneline -20` and `git status`; commit any lane output whose report is in
-CLAIMS.md Done after re-running its gates; resume or restart the lanes listed in HANDOFF.md from
-their triage files; report deltas to the chief-of-staff session."
+## Toolchain facts a successor will otherwise rediscover (all proven, in LANE-BRIEF)
+- pagetext cache is `scripts/alexandria/pagetext/` — only `pagetext.py` writes there; intake's
+  text cache is `scripts/alexandria/intake/textcache/`.
+- "[from … Updated]" twins are NOT byte-identical; the manifest carries `nameTwinOf` /
+  `twinPreferred` / `contentTwinOf`. Read the preferred, cite what you read.
+- `find-existing.mjs` searches every `docs/*-Source-Imports/`; before minting also
+  `grep -ril <canonical_key> docs/*-Source-Imports/concept/`.
+- Garbled bank answer keys on 105 Anatomy / 102 Terminology are a corrupted CamScanner text
+  layer — `-layout` does not fix them; recover by 200–300 dpi render read by eye or leave
+  unkeyed. Never reorder letters by pattern.
+
+## Exact resume message for the successor session
+"You are the Alexandria University orchestrator, continuing after a handover. Work from a
+worktree off `main` (all Year 1 content is already on main). Read
+docs/Alexandria-Source-Imports/HANDOFF.md, LANE-BRIEF.md, LANE-ORDERS-PHASE1.md, and
+Instruction Manual for Content Creation/00-START-HERE.md + 13-orchestration.md. Dispatch Sonnet
+lanes for the six INCOMPLETE items in HANDOFF.md (105-anatomy questions, 106-anatomy authoring,
+106-physiology questions, biochem-A enzymology, the T1 tag audit, and the 102-anatomy Kasr-gap
+hold), one lane per (module, task), each resuming from its committed triage file — never redo
+finished work. Re-run every lane's gates before committing; report deltas (hash, numbers,
+blockers) to the chief-of-staff session; keep this HANDOFF.md current."
