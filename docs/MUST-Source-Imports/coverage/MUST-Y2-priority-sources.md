@@ -59,6 +59,22 @@ alone. `MUST-DHB-202-2` is the natural second-module candidate.
 | `MUST-RESEARCH-METHODOLOGY` | 8 |
 | `MUST-PCD-200` | 5 |
 
+## Readability (S1b, `../coverage/MUST-Y2-readability-index.md`)
+
+`pagetext.mjs index` over all 1,334 PDFs: **34,491 pages, 6,241 garbled
+(~18%)**, **236 files fully garbled** (every page 0-word, `ocr=no`). MCQ-bank
+folders (tier 2) are disproportionately hit — in `MUST-CVS-201` alone, 19 of
+its 87 `05 MCQs` files are fully garbled (5 Anatomy, 6 Histology, 5
+Microbiology, 3 Pathology — see the readability index for the full list),
+plus 2 of its 5 department books (both CVS Histology book/MCQ files) and 3
+Pathology "01 University Material" lecture files. None of these have been
+OCR'd yet — flagged as the priority OCR queue for whoever continues
+`MUST-CVS-201`'s triage, since a fully-garbled MCQ file cannot contribute a
+single question until `pagetext.mjs ocr` runs on it. The two files this
+lane's first-tranche triage actually used (`../coverage/MUST-CVS-201-
+triage.md`) were both native-text, chosen deliberately to avoid the OCR
+queue for this Phase-0 pass.
+
 ## Tier 3 (department books, 24 files)
 
 Present for `MUST-CVS-201` (5: Anatomy MCQ book, 2× Histology book/MCQ,
