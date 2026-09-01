@@ -68,9 +68,7 @@ ASU-MBG
 ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
 
 ## related_article_ids
-
-## related_concept_ids
-CON-FND-4DCC3E30FD4C86
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
 
 ## resource_ids
 src_d83a3017c760e2770c22
@@ -231,9 +229,7 @@ ASU-MBG
 ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
 
 ## related_article_ids
-
-## related_concept_ids
-CON-FND-31428037F9FDDF
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
 
 ## resource_ids
 src_d83a3017c760e2770c22

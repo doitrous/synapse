@@ -3981,7 +3981,7 @@ Correct together with option C. Because mRNA is RNA polymerase II's product, alp
 Both (c) and (d)
 
 ## explanation_e
-Correct. Alpha-amanitin inhibits RNA polymerase II, and since RNA polymerase II is the enzyme that synthesises mRNA, blocking it is inseparable from blocking mammalian mRNA synthesis itself — the two are not independent facts but the same mechanism described twice.
+Correct. Alpha-amanitin inhibits RNA polymerase II, and since RNA polymerase II is the enzyme that synthesises mRNA, blocking it is inseparable from blocking mammalian mRNA synthesis itself — the two are not independent facts but the same mechanism described twice. RNA polymerase I stays essentially unaffected and RNA polymerase III is inhibited only at much higher toxin concentrations, so this graded sensitivity is what lets the enzyme and its product be named as a single correct pair rather than two separate mechanisms. The clinical stakes of this mechanism are severe: because hepatocytes constantly turn over their proteins, halting mammalian mRNA synthesis in the liver is what drives the fulminant liver failure seen in death-cap mushroom poisoning.
 
 ## topic
 Molecular biology
@@ -8026,7 +8026,7 @@ Correct together with option C. A frameshift mutation scrambles the reading fram
 Both C and D
 
 ## explanation_e
-Correct. Both a nonsense mutation (a substitution that directly creates a stop codon) and a frameshift mutation (which usually creates a premature stop codon indirectly, by shifting the reading frame) can result in translation terminating early — so both are genuine causes of a truncated protein, and the "both" option is the complete answer.
+Correct. Both a nonsense mutation (a substitution that directly creates a stop codon) and a frameshift mutation (which usually creates a premature stop codon indirectly, by shifting the reading frame) can result in translation terminating early — so both are genuine causes of a truncated protein, and the "both" option is the complete answer. A missense mutation and a silent mutation are excluded for the opposite reason: neither one introduces a premature stop codon, so translation always runs to the normal length in both cases. The mechanism worth remembering is where the stop codon comes from — a nonsense mutation creates it directly by substitution, while a frameshift mutation creates it indirectly by shifting every downstream codon out of register.
 
 ## topic
 Molecular biology
@@ -8831,7 +8831,7 @@ Incorrect. UAG is one of the three stop (termination) codons — the opposite fu
 AUG
 
 ## explanation_d
-Correct. AUG is the standard start codon in essentially every mRNA, where the initiator methionyl-tRNA complex assembles to begin translation.
+Correct. AUG is the standard start codon in essentially every mRNA, where the initiator methionyl-tRNA complex assembles to begin translation. AUG also codes for methionine at any internal position in the reading frame, so it is only the first AUG the scanning ribosome encounters that is read as the start signal. The mechanism worth holding onto is that this same codon sets the reading frame for every triplet that follows it, which is why an insertion or deletion anywhere downstream of it can shift that frame and change every codon read afterward.
 
 ## topic
 Molecular biology
@@ -8957,7 +8957,7 @@ Incorrect. AGG is a sense codon for arginine, not a stop codon.
 UAG
 
 ## explanation_c
-Correct. UAG is one of the three termination (nonsense/stop) codons — UAA, UAG and UGA — which do not code for any amino acid and instead signal the ribosome to end translation.
+Correct. UAG is one of the three termination (nonsense/stop) codons — UAA, UAG and UGA — which do not code for any amino acid and instead signal the ribosome to end translation. Reaching any one of these three in the reading frame causes release factors, rather than a tRNA, to bind the ribosome, ending translation and releasing the finished polypeptide. The name "nonsense codon" records exactly this — the codon makes no amino-acid "sense" — which is why an unintended nonsense mutation earlier in the sequence produces a truncated protein.
 
 ## answer_d
 AUG

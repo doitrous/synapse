@@ -71,7 +71,7 @@ A nucleic acid is a polymer of nucleotides, and the chapter builds DNA in three 
 
 ## module_subject
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures
-102 INT > Biochemistry
+102 INT > Biochemistry > Chemistry of Nucleic Acids
 
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
@@ -109,7 +109,7 @@ Nucleotides build DNA and RNA, but the free ones do four other jobs, and the dep
 
 ## module_subject
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures
-102 INT > Biochemistry
+102 INT > Biochemistry > Chemistry of Free Nucleotides
 
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
@@ -147,7 +147,7 @@ Replication is one job split five ways, and the five DNA polymerases are named b
 
 ## module_subject
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures
-102 INT > Biochemistry
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
 
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
@@ -185,7 +185,7 @@ Down syndrome, Klinefelter syndrome, Turner syndrome and triple X syndrome are f
 
 ## module_subject
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
-104 CPS > Histology > Cytogenetics
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
 
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
@@ -223,7 +223,7 @@ A chromosome does not need to gain or lose a whole copy of itself to cause disea
 
 ## module_subject
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
-104 CPS > Histology > Cytogenetics
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
 
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
@@ -420,7 +420,7 @@ The cytoplasm is sorted twice before anything is described: living organelles ag
 +ASU-MBG
 
 ## module_subject
-101 ISK > Histology > Cytology
+101 ISK > Histology > Cytology > Cytoplasm
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
 
 ## field_notes
@@ -537,6 +537,10 @@ Apoptosis is programmed cell death: energy-dependent, single-cell, membrane-inta
 ## module_subject
 ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
 108 INT > Pathology > Cellular Response to Injury > Apoptosis
+108 INT > Pathology > Cellular Response to Injury > Apoptosis > Causes of apoptosis
+108 INT > Pathology > Cellular Response to Injury > Apoptosis > Morphological changes
+108 INT > Pathology > Cellular Response to Injury > Apoptosis > Control of apoptosis
+108 INT > Pathology > Cellular Response to Injury > Morphologic Alternations in Cell Injury > Irreversible Injury
 
 ## field_notes
 subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).

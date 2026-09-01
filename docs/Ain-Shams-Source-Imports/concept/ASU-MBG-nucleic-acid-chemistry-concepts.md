@@ -123,10 +123,10 @@ Evidence must be attached before publication. The claim below is sourced from th
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## last_reviewed
 
@@ -278,10 +278,10 @@ Evidence must be attached before publication. The claim below is sourced from th
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## last_reviewed
 

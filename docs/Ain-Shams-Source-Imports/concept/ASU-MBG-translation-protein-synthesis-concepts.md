@@ -882,8 +882,7 @@ ASU-MBG
 ART-FND-TRANSLATION-ENERGETICS-GENE-STRUCTURE
 
 ## related_article_ids
-
-## related_concept_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
 
 ## resource_ids
 src_d83a3017c760e2770c22

@@ -61,10 +61,10 @@ Draft
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## summary
 The ASU MBG cytogenetic techniques lecture introduces conventional karyotype as a systematic chromosome arrangement and then separates high-resolution karyotype by its earlier mitotic timing.
@@ -80,13 +80,13 @@ Conventional karyotype is the chromosome-arrangement baseline against which the 
 
 ### Key determinants
 High-resolution karyotype is taught as stopping division at prophase or prometaphase, when chromosomes are still relatively uncondensed.
-That timing is the distinction preserved here; no extra resolution threshold is inferred beyond the source text.
+That timing is the distinction preserved here; high-resolution karyotyping carries no further numeric resolution threshold beyond it.
 
 ### Clinical significance
 This is a local-curriculum foundation slice. Its safe use is to explain what the named karyotype methods mean before choosing among cytogenetic tests.
 
 ### Common misconceptions
-Do not define karyotype as an isolated chromosome image; the source defines it as a systematic arrangement of chromosomes.
+Do not define karyotype as an isolated chromosome image; a karyotype is a systematic arrangement of an individual's chromosomes.
 Do not add unsupported numeric resolution cut-offs to high-resolution karyotype.
 
 ## published_summary
@@ -245,10 +245,10 @@ Draft
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## summary
 The same ASU lecture contrasts FISH with karyotyping and then introduces microarray as a genome-wide copy-number method with a balanced-translocation limitation.
@@ -288,6 +288,7 @@ Treating microarray as a balanced-translocation test.
 ## related_concepts
 CON-FND-F6EED466B61FA3
 CON-FND-6DA77834D84CF7
+CON-FND-74F14B0C28F74B
 
 ## related_articles
 ART-FND-CYTOGENETIC-KARYOTYPE-FOUNDATIONS: provides the karyotype baseline used by the ASU lecture comparison

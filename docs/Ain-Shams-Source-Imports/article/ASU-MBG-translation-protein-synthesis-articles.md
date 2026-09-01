@@ -299,6 +299,7 @@ Reversing which domain is polycistronic (it is prokaryotic operons, not eukaryot
 ## related_concepts
 CON-FND-E8FDAF79A38797
 CON-FND-175BC0480CCD48
+CON-FND-18F0DFB98E394F
 
 ## related_articles
 ART-FND-TRANSLATION-APPARATUS-DEEPENED: this module's own companion translation-mechanics article

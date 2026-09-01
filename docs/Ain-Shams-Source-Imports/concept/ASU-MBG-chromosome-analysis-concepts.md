@@ -78,10 +78,10 @@ Definition: systematic arrangement of chromosomes of an individual. Sample? Any 
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -250,10 +250,10 @@ We stop division at an early stage of mitosis (prophase or prometaphase), when t
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -422,10 +422,10 @@ FISH Can detect chromosomal aneuploidy or rearrangements of any size unlike kary
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -594,10 +594,10 @@ Can detect small rearrangements (copy number variants) across the length of the 
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
