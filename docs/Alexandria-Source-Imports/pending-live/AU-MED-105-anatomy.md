@@ -719,3 +719,41 @@ The ulnar artery is the larger terminal branch of the brachial, and it ends as t
 ## modules
 +AU-MED-105
 
+---
+
+# Item
+
+<!--
+  Added during the AU-MED-105 anatomy verify-and-stage pass (2026-09-02):
+  question/AU-MED-105-anatomy-mcq-ul.md item QST-AU105-UL-UL-Q48 ("Artery
+  injured with a bleeding surgical-neck fracture") had minted a fresh id
+  (CON-MSK-B16E86E4EA39D9) as its main_concept that was never written as an
+  actual concept record anywhere in the tree — tested but unteachable, a
+  two-sided-coverage gap caught by this pass's own concept-graph check. The
+  fact the question tests (posterior circumflex humeral artery travelling
+  with the axillary nerve through the quadrangular space at the surgical
+  neck) is already taught by this existing Kasr concept — source is
+  docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md, same file
+  already named as a dependency in this file's header and in INDEX.md. Two
+  Kasr articles teach it and name it in `related_concepts`:
+  ART-101-ANA-SHOULDER-SPACES-ROTATION (101-ISK-anatomy.md) and
+  ART-101-ANA-SHOULDER-REGION (101-ISK-anatomy-2.md) — coverage confirmed by
+  direct grep, not assumed. The question record was repointed to this id
+  (not re-minted); no new concept text was authored.
+-->
+
+## id
+CON-MSK-8533FCB18D819B
+
+## label
+The quadrangular and two triangular spaces below the shoulder each have set boundaries and their own contents
+
+## universities
++au
+
+## learner_years
++1
+
+## modules
++AU-MED-105
+

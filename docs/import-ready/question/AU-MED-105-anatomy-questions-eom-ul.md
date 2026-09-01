@@ -1,0 +1,12543 @@
+<!--
+  AU-MED-105 Anatomy · EOM-UL bank (Dr Ibrahim Amr's whole-syllabus Upper Limb revision compilation, bank-tier per triage judgement — self-described "a question set covering the whole syllabus", no faculty markers, same personal branding as the sibling non-EOM files; 120 Qs) — questions whose main concept is a Kasr overlay id spanning the whole Upper Limb (shoulder/axilla/brachial plexus, forearm, wrist and hand). Many items duplicate or closely echo questions already authored from the Upper Limb MCQ bank's own Sections A/B/C (docs/Alexandria-Source-Imports/coverage/AU-MED-105-LEDGER.md records the exact holds); this file carries only the genuinely distinct remainder. docs/Kasr-Source-Imports/concept/101-ISK-concepts.md and 101-ISK-mcq-concepts.md, articles in docs/Kasr-Source-Imports/article/101-ISK-anatomy.md and 101-ISK-anatomy-2.md. Apply after those Kasr concept + article batches land.
+
+  Import: Admin › Bulk import → question.
+-->
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q01
+
+## title
+Muscle paralyzed by a surgical-neck fracture
+
+## question
+what muscle may be paralyzed by fracture of the humerus at "surgical neck"?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Subscapularis.
+
+## explanation_a
+Incorrect. Subscapularis is supplied by the upper and lower subscapular nerves, which do not run at the surgical neck.
+
+## answer_b
+Pectoralis major.
+
+## explanation_b
+Incorrect. Pectoralis major is supplied by the medial and lateral pectoral nerves, which do not run at the surgical neck.
+
+## answer_c
+Teres major.
+
+## explanation_c
+Incorrect. Teres major is supplied by the lower subscapular nerve, which does not run at the surgical neck.
+
+## answer_d
+Deltoid.
+
+## explanation_d
+Correct. The axillary nerve winds around the surgical neck of the humerus on its way to the quadrangular space, making it the nerve most exposed by a fracture at this level, and deltoid is its main motor target. A deltoid-paralysing surgical-neck fracture therefore also carries the classic "regimental badge" sensory loss over the lower deltoid, the axillary nerve's own cutaneous territory. This is the same mechanism (nerve wrapped around bone) as the radial nerve's relation to the mid-shaft humerus in the spiral groove, one level distal.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-EE022A2043C10F
+
+## concept_ids
+CON-MSK-EE022A2043C10F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Apply the axillary nerve's course around the surgical neck to predict deltoid paralysis.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q02
+
+## title
+Injury to the lower subscapular nerve
+
+## question
+Injury to the lower subscapular nerve will affect the function of:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Teres major.
+
+## explanation_a
+Correct. The lower subscapular nerve supplies the lower part of subscapularis and, continuing on, teres major, so an injury to it weakens teres major's action (medial rotation and adduction/extension of the arm) alongside subscapularis. The upper subscapular nerve, by contrast, supplies only the upper part of subscapularis. Both subscapular nerves arise from the posterior cord, alongside the thoracodorsal nerve to latissimus dorsi, which lies between them.
+
+## answer_b
+Teres minor.
+
+## explanation_b
+Incorrect. Teres minor is supplied by the axillary nerve, not the lower subscapular nerve.
+
+## answer_c
+Deltoid muscle.
+
+## explanation_c
+Incorrect. Deltoid is supplied by the axillary nerve, not the lower subscapular nerve.
+
+## answer_d
+Supraspinatus muscle.
+
+## explanation_d
+Incorrect. Supraspinatus is supplied by the suprascapular nerve, not the lower subscapular nerve.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-C89FCDA03E8C99
+
+## concept_ids
+CON-MSK-C89FCDA03E8C99
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name teres major as supplied by the lower subscapular nerve.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q04
+
+## title
+Branches of the medial cord, except one
+
+## question
+The following are branches of the medial cord of brachial plexus EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Ulnar nerve.
+
+## explanation_a
+Incorrect. The ulnar nerve is the direct continuation of the medial cord.
+
+## answer_b
+Medial root of median nerve.
+
+## explanation_b
+Incorrect. The medial root of the median nerve is a genuine medial-cord branch.
+
+## answer_c
+Medial cutaneous nerve of the forearm.
+
+## explanation_c
+Incorrect. The medial cutaneous nerve of the forearm is a genuine medial-cord branch.
+
+## answer_d
+Musculocutaneous.
+
+## explanation_d
+Correct. Musculocutaneous is a branch of the lateral cord, not the medial cord, making it the exception here. The medial cord — formed purely from C8 and T1 fibres of the lower trunk's anterior division — gives the medial pectoral nerve, the medial cutaneous nerves of the arm and forearm, the medial root of the median nerve, and continues on as the ulnar nerve. Confusing the lateral cord's musculocutaneous nerve with a medial-cord branch is the classic trap this item sets.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-CF723B5FB24D70
+
+## concept_ids
+CON-MSK-CF723B5FB24D70
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Identify musculocutaneous as a lateral-cord, not medial-cord, branch of the brachial plexus.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q06
+
+## title
+Nerve supply of the medial rotator of the rotator cuff
+
+## question
+the rotator cuff muscle that medially rotates the arm is innervated by?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+upper and lower subscapular nerves
+
+## explanation_a
+Correct. Of the four rotator cuff muscles, subscapularis is the sole medial rotator, and it is supplied by the upper and lower subscapular nerves — the upper part by the upper subscapular nerve, the lower part (continuing to teres major) by the lower subscapular nerve. The other three cuff muscles (supraspinatus, infraspinatus, teres minor) are all lateral rotators or abductors, supplied respectively by the suprascapular nerve (first two) and axillary nerve (teres minor).
+
+## answer_b
+Radial nerve.
+
+## explanation_b
+Incorrect. The radial nerve does not supply any rotator cuff muscle.
+
+## answer_c
+Axillary nerve.
+
+## explanation_c
+Incorrect. The axillary nerve supplies teres minor, a lateral rotator, not subscapularis.
+
+## answer_d
+Suprascapular nerve
+
+## explanation_d
+Incorrect. The suprascapular nerve supplies supraspinatus and infraspinatus, both lateral rotators/abductors, not subscapularis.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-E68EAACB7596AF
+
+## concept_ids
+CON-MSK-E68EAACB7596AF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name subscapularis as the rotator cuff's medial rotator, supplied by the upper and lower subscapular nerves.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q07
+
+## title
+A muscle not supplied by two nerves
+
+## question
+All of the following muscles supplied by double nerve EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Subscapularis.
+
+## explanation_a
+Incorrect. Subscapularis genuinely receives a double nerve supply, from the upper and lower subscapular nerves.
+
+## answer_b
+Flexor digitorum profundus.
+
+## explanation_b
+Incorrect. Flexor digitorum profundus genuinely receives a double nerve supply, split between the anterior interosseous and ulnar nerves.
+
+## answer_c
+Flexor digitorum superficialis.
+
+## explanation_c
+Correct. Flexor digitorum superficialis is supplied by a single nerve, the median nerve proper, so it is the exception among this list of dual-innervated muscles. Subscapularis takes both the upper and lower subscapular nerves, flexor digitorum profundus is split between the anterior interosseous nerve (lateral half) and the ulnar nerve (medial half), and brachialis is unusual in receiving both the musculocutaneous nerve and a small twig from the radial nerve.
+
+## answer_d
+Brachialis.
+
+## explanation_d
+Incorrect. Brachialis genuinely receives a double nerve supply, from the musculocutaneous nerve and a radial nerve twig.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-E68EAACB7596AF
+
+## concept_ids
+CON-MSK-E68EAACB7596AF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Identify flexor digitorum superficialis as single-nerve-supplied, unlike the dual-innervated muscles it is grouped with here.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q08
+
+## title
+The muscle attached to the coracoid process
+
+## question
+What is the muscle attached to the coracoid process?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Deltoid
+
+## explanation_a
+Incorrect. Deltoid attaches to the clavicle, acromion and spine of the scapula, not the coracoid process.
+
+## answer_b
+Trapizius
+
+## explanation_b
+Incorrect. Trapezius attaches to the clavicle, acromion and scapular spine (and the skull and vertebral column), not the coracoid process.
+
+## answer_c
+Pectoralis minor
+
+## explanation_c
+Correct. Pectoralis minor inserts on the tip (medial border and upper surface) of the coracoid process, making it the muscle this landmark is best known for; the coracoid's apex also gives origin to the conjoint tendon of coracobrachialis and the short head of biceps. Deltoid, trapezius and pectoralis major all attach elsewhere: deltoid to the clavicle, acromion and scapular spine; trapezius to the same three plus the occiput and vertebral spines; pectoralis major to the clavicle, sternum and costal cartilages.
+
+## answer_d
+Pectoralis major
+
+## explanation_d
+Incorrect. Pectoralis major attaches to the clavicle, sternum and costal cartilages, not the coracoid process.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-2B9F47FC205689
+
+## concept_ids
+CON-MSK-2B9F47FC205689
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name pectoralis minor as the muscle inserting on the coracoid process.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q10
+
+## title
+The muscle dividing the axillary artery into three parts
+
+## question
+The muscle that divide the axillary artery into 3 parts is:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pectoralis minor.
+
+## explanation_a
+Correct. Pectoralis minor crosses in front of the axillary artery and is the landmark that divides it into three parts by convention: the first part is proximal (medial) to the muscle, the second part lies behind it, and the third part is distal (lateral) to it. Each part gives a set number of branches (one, two, three respectively), a pattern built directly on this muscle's position.
+
+## answer_b
+Pectoralis major.
+
+## explanation_b
+Incorrect. Pectoralis major lies superficial to the axillary vessels and does not define the artery's three parts.
+
+## answer_c
+Teres minor.
+
+## explanation_c
+Incorrect. Teres minor is a rotator cuff muscle at the shoulder, unrelated to the axillary artery's parts.
+
+## answer_d
+Teres major
+
+## explanation_d
+Incorrect. Teres major forms the lower border of the axilla but does not define the axillary artery's three parts.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-C608D59631E713
+
+## concept_ids
+CON-MSK-C608D59631E713
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name pectoralis minor as the landmark dividing the axillary artery into its three parts.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q11
+
+## title
+A muscle acting on the radioulnar joint
+
+## question
+which muscle acts on radioulnar joint?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+brachioradialis
+
+## explanation_a
+Incorrect. Brachioradialis flexes the elbow and does not act on the radioulnar joint.
+
+## answer_b
+Extensor indicis.
+
+## explanation_b
+Incorrect. Extensor indicis extends the index finger and does not act on the radioulnar joint.
+
+## answer_c
+Extensor digitorum longus
+
+## explanation_c
+Incorrect. Extensor digitorum longus is a muscle of the lower limb (leg), unrelated to the upper limb's radioulnar joint.
+
+## answer_d
+pronator quadratus
+
+## explanation_d
+Correct. Pronator quadratus acts directly on the radioulnar joints, pronating the forearm by pulling the distal radius across the ulna, which makes it the deepest and most efficient of the two pronators despite its small size. Brachioradialis and extensor indicis act on the elbow and fingers respectively rather than the radioulnar joint itself, and extensor digitorum longus is a lower-limb muscle, not an upper-limb one, making it doubly wrong here.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-B88F413E4536F9
+
+## concept_ids
+CON-MSK-B88F413E4536F9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name pronator quadratus as a muscle acting directly on the radioulnar joint.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q12
+
+## title
+The nerve injury behind "ape's hand"
+
+## question
+"Ape's hand" is due to injury of which nerve?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Median nerve
+
+## explanation_a
+Correct. "Ape's hand" describes the deformity from a high median nerve lesion (above the elbow): loss of the thenar muscles flattens the thenar eminence and the thumb falls back into the plane of the palm, alongside loss of pronation and of flexion at the wrist and lateral fingers, giving the hand a flattened, ape-like appearance with the thumb unable to oppose. This is distinct from the anterior interosseous nerve's own isolated lesion, which spares the thenar muscles and only weakens pinch.
+
+## answer_b
+Radial nerve.
+
+## explanation_b
+Incorrect. Radial nerve injury causes wrist drop, not ape's hand.
+
+## answer_c
+Deep branch of ulnar nerve.
+
+## explanation_c
+Incorrect. Deep branch of ulnar nerve injury causes claw-hand changes, not ape's hand.
+
+## answer_d
+Anterior interosseous nerve.
+
+## explanation_d
+Incorrect. The anterior interosseous nerve is purely motor to three forearm/wrist muscles and does not paralyse the thenar muscles that produce ape's hand.
+
+## answer_e
+Radial nerve
+
+## explanation_e
+Incorrect. Radial nerve injury causes wrist drop, not ape's hand.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-D81C4A38D695CF
+
+## concept_ids
+CON-MSK-D81C4A38D695CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the median nerve as the nerve behind the ape's hand deformity.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q13
+
+## title
+Effects of a posterior interosseous nerve injury
+
+## question
+Injury of posterior interosseous nerve leads to:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+fingers drop only
+
+## explanation_a
+Correct. The posterior interosseous nerve is purely motor and supplies the deep extensor layer distal to extensor carpi radialis longus and brevis (which are supplied by the radial trunk proper), so its injury causes finger drop at the metacarpophalangeal joints while wrist extension is largely preserved by the intact radial-trunk-supplied wrist extensors — finger drop only, not true wrist drop. Wrist AND finger drop together instead indicate a more proximal radial nerve lesion, and sensory loss over the dorsum of the hand is carried by the superficial (not posterior interosseous) branch, which the posterior interosseous nerve lacks entirely.
+
+## answer_b
+wrist drop and fingers drop
+
+## explanation_b
+Incorrect. Wrist drop together with finger drop indicates a more proximal radial nerve lesion, not an isolated posterior interosseous nerve injury.
+
+## answer_c
+loss of sensation on lateral 2/3 of dorsum of hand
+
+## explanation_c
+Incorrect. The posterior interosseous nerve is purely motor and carries no cutaneous sensation.
+
+## answer_d
+inability to extend elbow
+
+## explanation_d
+Incorrect. Elbow extension is by triceps, supplied by the radial nerve proximal to where the posterior interosseous nerve is given off.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-1FC89E36FFD98E
+
+## concept_ids
+CON-MSK-1FC89E36FFD98E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Distinguish an isolated posterior interosseous nerve lesion (finger drop only, no sensory loss) from a proximal radial nerve lesion.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q14
+
+## title
+The nerve behind sensory loss over the lateral dorsum of the hand
+
+## question
+loss of sensation on lateral 2/3 of dorsum of hand indicates injury of:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Median nerve
+
+## explanation_a
+Incorrect. The median nerve supplies palmar, not dorsal, skin (with the small nail-bed exception), and is not responsible for the dorsum of the hand.
+
+## answer_b
+Superficial branch of radial nerve.
+
+## explanation_b
+Correct. The superficial (sensory) branch of the radial nerve supplies the lateral two-thirds of the dorsum of the hand, so loss of sensation there points to an injury of this branch specifically, distinguishing it from a deep-branch (posterior interosseous nerve) lesion, which is purely motor and causes no sensory loss at all. The superficial branch crosses the roof of the anatomical snuff box on its way to the dorsum, alongside the cephalic vein.
+
+## answer_c
+Deep branch of ulnar nerve.
+
+## explanation_c
+Incorrect. The deep branch of the ulnar nerve is purely motor and carries no cutaneous sensation.
+
+## answer_d
+Anterior interosseous nerve.
+
+## explanation_d
+Incorrect. The anterior interosseous nerve is purely motor and carries no cutaneous sensation.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-1FC89E36FFD98E
+
+## concept_ids
+CON-MSK-1FC89E36FFD98E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the superficial branch of the radial nerve as responsible for sensation over the lateral dorsum of the hand.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q15
+
+## title
+Radial nerve sensory territory, except one area
+
+## question
+injury to radial nerve leads to loss of sensation in all of these areas except:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+posterior surface of arm
+
+## explanation_a
+Incorrect. The posterior surface of the arm is genuinely radial nerve territory (posterior cutaneous nerve of the arm).
+
+## answer_b
+posterior surface of forearm
+
+## explanation_b
+Incorrect. The posterior surface of the forearm is genuinely radial nerve territory (posterior cutaneous nerve of the forearm).
+
+## answer_c
+lower lateral side of arm
+
+## explanation_c
+Incorrect. The lower lateral side of the arm is genuinely radial nerve territory (lower lateral cutaneous nerve of the arm).
+
+## answer_d
+lateral side of forearm
+
+## explanation_d
+Incorrect. The lateral side of the forearm is grouped with the radial nerve's cutaneous distribution in this item.
+
+## answer_e
+dorsal surface of proximal phalanges
+
+## explanation_e
+Correct. The radial nerve's dorsal territory on the fingers stops at the middle phalanges — the dorsal skin over the proximal phalanges is instead supplied by the digital branches of the median and ulnar nerves as they wrap around from the palmar side, so this area is the exception. The radial nerve does supply the posterior arm (via the posterior cutaneous nerve of the arm), the posterior forearm (posterior cutaneous nerve of the forearm), the lower lateral arm (lower lateral cutaneous nerve of the arm), and, through the musculocutaneous nerve's continuation, is often grouped with the lateral forearm territory tested here.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-1FC89E36FFD98E
+
+## concept_ids
+CON-MSK-1FC89E36FFD98E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Identify the dorsal proximal phalanges as outside the radial nerve's cutaneous territory, unlike the rest of its arm/forearm distribution.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q16
+
+## title
+The cause of a complete claw hand
+
+## question
+"Complete claw hand" may occur as a result of injury to:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Median nerve
+
+## explanation_a
+Incorrect. An isolated median nerve lesion does not produce a claw hand at all; it produces ape's hand or pointing index depending on the level.
+
+## answer_b
+Radial nerve.
+
+## explanation_b
+Incorrect. Radial nerve injury causes wrist drop, not claw hand.
+
+## answer_c
+Upper roots of brachial plexus
+
+## explanation_c
+Incorrect. Injury to the upper roots of the brachial plexus (Erb's palsy) affects the shoulder and elbow, not the hand's intrinsic muscles.
+
+## answer_d
+Lower roots of brachial plexus
+
+## explanation_d
+Correct. A complete claw hand results from injury to the lower roots of the brachial plexus (C8, T1) — Klumpke's paralysis — because this takes out both the ulnar nerve AND the medial contribution to the median nerve that supplies the lateral two lumbricals, paralysing all four lumbricals and leaving every finger unopposed by the extensors at the metacarpophalangeal joints. An isolated ulnar nerve lesion, by contrast, produces only a partial claw hand, since the median-supplied lateral two lumbricals (index and middle fingers) are spared and continue to balance those two fingers.
+
+## answer_e
+Ulnar nerve
+
+## explanation_e
+Incorrect. An isolated ulnar nerve injury produces only a partial claw hand, since the median-supplied lateral two lumbricals are spared.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-24A0858459A59D
+
+## concept_ids
+CON-MSK-24A0858459A59D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Distinguish complete claw hand (lower brachial plexus roots, both nerves) from partial claw hand (ulnar nerve alone).
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q17
+
+## title
+The nerve behind loss of thumb opposition
+
+## question
+injury to which nerve my cause loss of ability for opposition of thumb?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Median nerve
+
+## explanation_a
+Correct. Thumb opposition is produced by opponens pollicis, one of the three thenar muscles supplied by the recurrent branch of the median nerve, so a median nerve lesion (proximal to where that branch is given off) abolishes opposition — the functional deficit tested clinically in carpal tunnel syndrome and other median lesions. The anterior interosseous nerve branches off before the recurrent branch and does not itself reach the thenar muscles, so it spares opposition even though it shares the median nerve's parent trunk.
+
+## answer_b
+Ulnar nerve.
+
+## explanation_b
+Incorrect. The ulnar nerve does not supply opponens pollicis.
+
+## answer_c
+Anterior interosseous nerve
+
+## explanation_c
+Incorrect. The anterior interosseous nerve does not reach the thenar muscles and does not affect thumb opposition.
+
+## answer_d
+Radial nerve
+
+## explanation_d
+Incorrect. The radial nerve does not supply any intrinsic hand muscle.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-9B52018C4649BD
+
+## concept_ids
+CON-MSK-9B52018C4649BD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the median nerve's recurrent branch as responsible for thumb opposition via opponens pollicis.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q18
+
+## title
+The level of median nerve injury behind "pointing index"
+
+## question
+"Pointing index" may occur as a result of injury to:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Median nerve above wrist
+
+## explanation_a
+Incorrect. A median nerve injury above the wrist (but below the elbow, after the anterior interosseous nerve is given off) spares flexor digitorum superficialis/profundus and does not produce pointing index.
+
+## answer_b
+Median nerve above elbow
+
+## explanation_b
+Correct. "Pointing index" is the sign of a high median nerve lesion (above the elbow, before the anterior interosseous nerve is given off): asked to make a fist, the patient can flex the ring and little fingers (ulnar-supplied flexor digitorum profundus) but not the index and middle (median/AIN-supplied flexor digitorum profundus and flexor digitorum superficialis), so the index finger stays extended, "pointing", while the ulnar-supplied fingers curl. A lesion below the elbow, after these branches are already given off, would spare this specific deficit.
+
+## answer_c
+Ulnar nerve above wrist
+
+## explanation_c
+Incorrect. Ulnar nerve injury does not affect the median-supplied index and middle finger flexors that produce pointing index.
+
+## answer_d
+Ulnar nerve above elbow
+
+## explanation_d
+Incorrect. Ulnar nerve injury does not affect the median-supplied index and middle finger flexors that produce pointing index.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-D81C4A38D695CF
+
+## concept_ids
+CON-MSK-D81C4A38D695CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Localise pointing index to a high (above-elbow) median nerve lesion, before the AIN and FDS branches are given off.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q19
+
+## title
+A true statement about carpal tunnel syndrome
+
+## question
+In carpel tunnel syndrome:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+hypothenar muscles are wasted
+
+## explanation_a
+Incorrect. The hypothenar muscles are supplied by the ulnar nerve and are unaffected by carpal tunnel syndrome.
+
+## answer_b
+anesthesia over medial third of the palm
+
+## explanation_b
+Incorrect. The medial third of the palm is ulnar nerve territory, unaffected by carpal tunnel syndrome.
+
+## answer_c
+sensation of the palm is not affected
+
+## explanation_c
+Correct. Carpal tunnel syndrome compresses the median nerve trunk deep to the flexor retinaculum, but the palmar cutaneous branch of the median nerve leaves the main trunk proximal to the tunnel and travels superficial to the retinaculum, so palmar sensation is spared even as the fingers go numb — a classic exam point distinguishing carpal tunnel syndrome from a more proximal median lesion. Hypothenar muscles are ulnar-supplied and unaffected; the medial third of the palm is ulnar territory, not median; and only the thenar muscles and lateral two lumbricals are lost, not all finger flexion (which is largely intact via the flexor tendons still passing through, if compressed, though the classic teaching is early thenar weakness rather than a flexion deficit).
+
+## answer_d
+loss of ability for all fingers flexion
+
+## explanation_d
+Incorrect. Finger flexion is largely preserved; carpal tunnel syndrome principally affects the thenar muscles and sensation of the lateral fingers, not all finger flexion.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-9B52018C4649BD
+
+## concept_ids
+CON-MSK-9B52018C4649BD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Explain why carpal tunnel syndrome spares palmar sensation despite compressing the median nerve.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q24
+
+## title
+The muscle supplied by the thoracodorsal nerve
+
+## question
+Thoracodorsal nerve supplies:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Rhombdius.
+
+## explanation_a
+Incorrect. Rhomboids are supplied by the dorsal scapular nerve, not the thoracodorsal nerve.
+
+## answer_b
+Latissmus dorsi.
+
+## explanation_b
+Correct. The thoracodorsal nerve, a branch of the posterior cord arising between the upper and lower subscapular nerves, supplies latissimus dorsi — the large back muscle that adducts, extends and medially rotates the arm and is classically tested by asking a patient to cough (it contracts to stabilise the trunk) or by palpating the posterior axillary fold during resisted adduction. Rhomboids are supplied by the dorsal scapular nerve, trapezius by the accessory nerve, and deltoid by the axillary nerve — none of them thoracodorsal.
+
+## answer_c
+Trapezius.
+
+## explanation_c
+Incorrect. Trapezius is supplied by the accessory nerve (with a proprioceptive contribution from C3,4), not the thoracodorsal nerve.
+
+## answer_d
+Deltoid.
+
+## explanation_d
+Incorrect. Deltoid is supplied by the axillary nerve, not the thoracodorsal nerve.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-C89FCDA03E8C99
+
+## concept_ids
+CON-MSK-C89FCDA03E8C99
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name latissimus dorsi as supplied by the thoracodorsal nerve.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q25
+
+## title
+The origin of the axillary artery
+
+## question
+At where does the axillary artery arise?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Clavicle
+
+## explanation_a
+Incorrect. The clavicle lies near the artery's origin but is not the anatomical landmark that defines it; the outer border of the first rib is.
+
+## answer_b
+First rib
+
+## explanation_b
+Correct. The axillary artery begins as the continuation of the subclavian artery at the outer border of the first rib and ends at the lower border of teres major, where it becomes the brachial artery — the first rib marks its proximal origin, the point used to define where "subclavian" becomes "axillary". The clavicle lies immediately above this point but is not itself the defining landmark, and teres major marks the artery's distal end, not its origin.
+
+## answer_c
+Third rib
+
+## explanation_c
+Incorrect. The third rib is not related to the axillary artery's origin.
+
+## answer_d
+Teres major
+
+## explanation_d
+Incorrect. Teres major's lower border marks the axillary artery's distal end (where it becomes the brachial artery), not its origin.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-C608D59631E713
+
+## concept_ids
+CON-MSK-C608D59631E713
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the outer border of the first rib as the axillary artery's origin.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q28
+
+## title
+The nerve behind winging of the scapula after mastectomy
+
+## question
+Winging of scapula after mastectomy operation is due to cut of the nerve arising from:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Roots of brachial plexus.
+
+## explanation_a
+Correct. Winging of the scapula after a mastectomy or axillary clearance follows injury to the long thoracic nerve, which arises directly from the roots (C5, 6, 7) of the brachial plexus before the trunks even form and runs down over serratus anterior on the medial wall of the axilla — exactly where axillary surgery puts it at risk. Because serratus anterior normally holds the scapula against the chest wall, its paralysis lets the medial border wing outward, most visible when the patient pushes against a wall.
+
+## answer_b
+Trunks of brachial plexus.
+
+## explanation_b
+Incorrect. The long thoracic nerve arises from the roots, not the trunks, of the brachial plexus.
+
+## answer_c
+Medial cord of brachial plexus.
+
+## explanation_c
+Incorrect. The medial cord does not give the long thoracic nerve; it gives the ulnar nerve and the medial root of the median nerve, among others.
+
+## answer_d
+Posterior cord of brachial plexus.
+
+## explanation_d
+Incorrect. The posterior cord does not give the long thoracic nerve; it gives the axillary and radial nerves, among others.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-24E318F2E3F18E
+
+## concept_ids
+CON-MSK-24E318F2E3F18E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Trace winging of the scapula after mastectomy to a root-level long thoracic nerve injury.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q29
+
+## title
+The lymph node group related to the lateral thoracic artery
+
+## question
+Axillary lymph nodes that is related to lateral thoracic artery
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pectoral lymph nodes
+
+## explanation_a
+Correct. The pectoral (anterior) group of axillary lymph nodes lies along the lower border of pectoralis minor, following the course of the lateral thoracic artery and vein, and drains the anterior chest wall and most of the breast — the reason breast cancer spreads preferentially to this group first. The brachial (lateral) group instead follows the axillary vein and drains the arm; the subscapular (posterior) group follows the subscapular vessels; and the apical group, at the axilla's apex, receives efferents from all the other groups before draining into the subclavian trunk.
+
+## answer_b
+Brachial lymph nodes.
+
+## explanation_b
+Incorrect. The brachial (lateral) group of axillary lymph nodes follows the axillary vein, not the lateral thoracic artery.
+
+## answer_c
+Subscapular lymph node
+
+## explanation_c
+Incorrect. The subscapular (posterior) group of axillary lymph nodes follows the subscapular vessels, not the lateral thoracic artery.
+
+## answer_d
+Apical lymph node.
+
+## explanation_d
+Incorrect. The apical group lies at the axilla's apex and receives efferents from the other groups; it does not itself follow the lateral thoracic artery.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-8AA227FAC19B41
+
+## concept_ids
+CON-MSK-8AA227FAC19B41
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the pectoral group of axillary lymph nodes as following the lateral thoracic artery.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q30
+
+## title
+The superior boundary of the lateral (lower) triangular space
+
+## question
+The superior boundary of lateral triangular space
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Teres minor.
+
+## explanation_a
+Incorrect. Teres minor forms the superior boundary of the quadrangular space, not the lateral triangular space.
+
+## answer_b
+Teres major.
+
+## explanation_b
+Correct. The lower (lateral) triangular space is bounded above by teres major, below by the long head of triceps medially and the humeral shaft laterally, and it transmits the radial nerve and profunda brachii artery into the posterior arm — the space's own name distinguishes it from the quadrangular space (bounded above by teres minor) immediately medial to it. Confusing the two spaces' superior boundaries (teres minor for quadrangular, teres major for triangular) is the classic trap.
+
+## answer_c
+Pectoralis minor.
+
+## explanation_c
+Incorrect. Pectoralis minor is not a boundary of either the quadrangular or the triangular space.
+
+## answer_d
+None of above.
+
+## explanation_d
+Incorrect. Teres major genuinely forms the superior boundary of the lateral triangular space.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-8533FCB18D819B
+
+## concept_ids
+CON-MSK-8533FCB18D819B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name teres major as the superior boundary of the lateral triangular space, distinct from teres minor's role in the quadrangular space.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q31
+
+## title
+The muscles forming the posterior axillary fold
+
+## question
+Posterior axillary fold is formed by:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Teres major.
+
+## explanation_a
+Incorrect alone. Teres major contributes to the posterior axillary fold, but so does latissimus dorsi — together, not teres major alone.
+
+## answer_b
+Latissmus dorsi.
+
+## explanation_b
+Incorrect alone. Latissimus dorsi contributes to the posterior axillary fold, but so does teres major — together, not latissimus dorsi alone.
+
+## answer_c
+Subscapularis.
+
+## explanation_c
+Incorrect. Subscapularis forms part of the axilla's posterior wall, not the palpable posterior fold.
+
+## answer_d
+All of above
+
+## explanation_d
+Incorrect. Subscapularis is not part of the posterior axillary fold, so "all of the above" overstates it; only teres major and latissimus dorsi form the fold.
+
+## answer_e
+(A and b)
+
+## explanation_e
+Correct. The posterior axillary fold is formed by teres major and latissimus dorsi together, palpable as the muscular ridge felt when a clinician grips the posterior axilla during a breast or lymph node examination; subscapularis lies on the anterior surface of the scapula, forming the axilla's posterior wall rather than the palpable fold itself. This is why option E (teres major and latissimus dorsi) is more precise than "all of the above", which would wrongly include subscapularis as a fold-forming muscle rather than a wall.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-F602D13792F66F
+
+## concept_ids
+CON-MSK-F602D13792F66F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name teres major and latissimus dorsi together as forming the posterior axillary fold.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q36
+
+## title
+Muscles supplied by the axillary nerve
+
+## question
+Which of the following muscles are supplied by the axillary nerve:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Supraspinatus and infraspinatus muscle.
+
+## explanation_a
+Incorrect. Supraspinatus and infraspinatus are both supplied by the suprascapular nerve, not the axillary nerve.
+
+## answer_b
+infraspinatus and teres major.
+
+## explanation_b
+Incorrect. Infraspinatus is suprascapular-nerve and teres major is lower-subscapular-nerve; neither is axillary.
+
+## answer_c
+Latissmus dorsi and teres major.
+
+## explanation_c
+Incorrect. Latissimus dorsi is thoracodorsal-nerve and teres major is lower-subscapular-nerve; neither is axillary.
+
+## answer_d
+Deltoid and teres minor muscle.
+
+## explanation_d
+Correct. The axillary nerve, a terminal branch of the posterior cord, supplies deltoid and teres minor after passing through the quadrangular space, then continues as the upper lateral cutaneous nerve of the arm to supply the "regimental badge" area of skin. Supraspinatus and infraspinatus are suprascapular-nerve muscles, teres major is lower-subscapular-nerve, and latissimus dorsi is thoracodorsal-nerve — none of them axillary.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-EE022A2043C10F
+
+## concept_ids
+CON-MSK-EE022A2043C10F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name deltoid and teres minor as the two muscles supplied by the axillary nerve.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q37
+
+## title
+The apex of the cubital fossa
+
+## question
+apex of cubital fossa is formed by:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+brachioradialis and pronator teres
+
+## explanation_a
+Correct. The cubital fossa is a triangle with its apex pointing distally, formed where brachioradialis (the lateral border) and pronator teres (the medial border) converge, its base being an imaginary line between the humeral epicondyles proximally. Brachialis and supinator instead form the fossa's floor, not its apex — a distinction between boundary muscles (walls) and floor muscles that this item is testing.
+
+## answer_b
+brachialis and pronator teres
+
+## explanation_b
+Incorrect. Brachialis forms part of the floor of the cubital fossa, not its apex; pronator teres is correctly a border, but paired with the wrong partner here.
+
+## answer_c
+brachialis and brachioradialis
+
+## explanation_c
+Incorrect. Brachialis forms the floor of the cubital fossa, not the apex, and is not paired with brachioradialis at the apex.
+
+## answer_d
+brachioradialis and supinator
+
+## explanation_d
+Incorrect. Supinator forms part of the floor of the cubital fossa, not its apex.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-74BFAB9385B955
+
+## concept_ids
+CON-MSK-74BFAB9385B955
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name brachioradialis and pronator teres as the two muscles converging at the apex of the cubital fossa.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q39
+
+## title
+Ulnar nerve statements, except the false one
+
+## question
+The ulnar nerve, the following statements are true EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+it is a branch of medial cord of brachial plexus
+
+## explanation_a
+Incorrect — this statement is TRUE. The ulnar nerve is the direct continuation of the medial cord of the brachial plexus.
+
+## answer_b
+has no branches in the arm
+
+## explanation_b
+Incorrect — this statement is TRUE. The ulnar nerve gives no branches in the arm.
+
+## answer_c
+it passes behind medial epicondyle of humerus
+
+## explanation_c
+Incorrect — this statement is TRUE. The ulnar nerve passes behind the medial epicondyle of the humerus.
+
+## answer_d
+it supplies extensor carpi ulnaris muscle
+
+## explanation_d
+Correct, this is the FALSE statement. Extensor carpi ulnaris, despite its name, lies in the extensor compartment and is supplied by the posterior interosseous nerve (a radial nerve branch), not the ulnar nerve — the classic naming trap. The other three statements are true: the ulnar nerve is the direct continuation of the medial cord, it gives no branches in the arm, and it does pass behind the medial epicondyle of the humerus on its way into the forearm.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+
+## concept_ids
+CON-MSK-F0F2BDF778A2DD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Identify extensor carpi ulnaris as radial-supplied despite its name, the false statement among true ulnar nerve facts.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q41
+
+## title
+The muscle protracting the shoulder
+
+## question
+Which ONE of the following muscles protracts the shoulder:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Subclavius.
+
+## explanation_a
+Incorrect. Subclavius depresses and steadies the clavicle; it does not protract the shoulder.
+
+## answer_b
+Rhomboideus minor,
+
+## explanation_b
+Incorrect. Rhomboideus minor retracts the scapula, the opposite movement to protraction.
+
+## answer_c
+Pectoralis minor
+
+## explanation_c
+Correct. Pectoralis minor, together with serratus anterior, protracts the scapula (draws it forward around the chest wall), which is the movement clinically tested when a patient pushes against a wall and the scapula is expected to stay flush rather than wing. Rhomboideus minor and major instead retract the scapula (pull it toward the vertebral column), and subclavius stabilises and depresses the clavicle rather than protracting the shoulder.
+
+## answer_d
+Rhomboideus major
+
+## explanation_d
+Incorrect. Rhomboideus major retracts the scapula, the opposite movement to protraction.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-1CA86BE843A07C
+
+## concept_ids
+CON-MSK-1CA86BE843A07C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name pectoralis minor as a protractor of the scapula, opposite to the rhomboids' retraction.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q42
+
+## title
+The nerve controlling adduction of the digits
+
+## question
+which nerve controls adduction of all the digits of the hand?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Ulnar nerve,
+
+## explanation_a
+Correct. Adduction of the fingers toward the middle finger's axis is produced by the palmar interossei and adduction of the thumb by adductor pollicis, both supplied by the deep branch of the ulnar nerve — making the ulnar nerve the nerve of adduction across the whole hand. None of the other three options supplies any interosseous or adductor muscle of the hand.
+
+## answer_b
+Median nerve
+
+## explanation_b
+Incorrect. The median nerve does not supply the interossei or adductor pollicis.
+
+## answer_c
+Radial nerve
+
+## explanation_c
+Incorrect. The radial nerve does not supply any intrinsic hand muscle.
+
+## answer_d
+Upper subscapular nerve
+
+## explanation_d
+Incorrect. The upper subscapular nerve supplies subscapularis at the shoulder, unrelated to the hand.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-24A0858459A59D
+
+## concept_ids
+CON-MSK-24A0858459A59D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the ulnar nerve as controlling adduction of the digits via the palmar interossei and adductor pollicis.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q43
+
+## title
+The nerve arising from the lateral cord
+
+## question
+Which nerve originates from lateral cord of brachial plexus?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Ulnar
+
+## explanation_a
+Incorrect. The ulnar nerve is the direct continuation of the medial cord, not the lateral cord.
+
+## answer_b
+Thoracodorsal.
+
+## explanation_b
+Incorrect. The thoracodorsal nerve arises from the posterior cord, not the lateral cord.
+
+## answer_c
+Suprascapular
+
+## explanation_c
+Incorrect. The suprascapular nerve arises from the upper trunk, proximal to where the cords form, not from the lateral cord.
+
+## answer_d
+Lateral pectoral
+
+## explanation_d
+Correct. The lateral pectoral nerve is one of the lateral cord's branches (with the lateral root of the median nerve and the musculocutaneous nerve), supplying pectoralis major. Ulnar and thoracodorsal are medial cord and posterior cord branches respectively, and the suprascapular nerve arises much earlier, directly from the upper trunk (or, by some descriptions, the roots) rather than from any cord.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-CF723B5FB24D70
+
+## concept_ids
+CON-MSK-CF723B5FB24D70
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the lateral pectoral nerve as a lateral-cord branch of the brachial plexus.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q46
+
+## title
+Origin of the suprascapular nerve
+
+## question
+The suprascapular nerve is a branch from the:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Roots of the brachial plexus.
+
+## explanation_a
+Incorrect. The suprascapular nerve arises from the upper trunk, not directly from the roots.
+
+## answer_b
+Upper trunk.
+
+## explanation_b
+Correct. The suprascapular nerve arises from the upper trunk of the brachial plexus (C5, 6), one of the earliest branches given off before the trunks divide into anterior and posterior divisions, and runs through the suprascapular notch beneath the transverse ligament to supply supraspinatus and infraspinatus. This early, superior origin is why it is spared in some lower-plexus injuries but lost in Erb's palsy, which affects the upper trunk directly.
+
+## answer_c
+Middle trunk.
+
+## explanation_c
+Incorrect. The suprascapular nerve arises from the upper trunk, not the middle trunk.
+
+## answer_d
+Posterior cord.
+
+## explanation_d
+Incorrect. The suprascapular nerve arises from the upper trunk, well proximal to where the cords (including the posterior cord) form.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-C89FCDA03E8C99
+
+## concept_ids
+CON-MSK-C89FCDA03E8C99
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the upper trunk as the origin of the suprascapular nerve.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q47
+
+## title
+Muscles supplied by the median nerve, except one
+
+## question
+The median nerve supplies all of the following muscles EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Flexor carpi ulnaris.
+
+## explanation_a
+Correct. Flexor carpi ulnaris is one of the two named exceptions to the rule that the median nerve supplies the anterior compartment of the forearm — it is ulnar-supplied instead, along with the medial half of flexor digitorum profundus — so it is the muscle the median nerve does NOT supply here. Flexor carpi radialis, flexor digitorum superficialis and palmaris longus are all genuinely median-supplied, forming the bulk of the superficial and intermediate flexor layers.
+
+## answer_b
+Flexor carpi radialis.
+
+## explanation_b
+Incorrect. Flexor carpi radialis is genuinely supplied by the median nerve.
+
+## answer_c
+Flexor digitorum superficialis.
+
+## explanation_c
+Incorrect. Flexor digitorum superficialis is genuinely supplied by the median nerve.
+
+## answer_d
+Palmaris longus.
+
+## explanation_d
+Incorrect. Palmaris longus is genuinely supplied by the median nerve.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-46C40109E7D957
+
+## concept_ids
+CON-MSK-46C40109E7D957
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name flexor carpi ulnaris as the exception among the median nerve's forearm flexor targets.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q49
+
+## title
+A second structure superficial to the flexor retinaculum
+
+## question
+Structure crossing superficial to the flexor retinaculum:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Median nerve.
+
+## explanation_a
+Incorrect. The main trunk of the median nerve passes deep to the flexor retinaculum, through the carpal tunnel.
+
+## answer_b
+Ulnar nerve.
+
+## explanation_b
+Correct. The ulnar nerve, together with the ulnar artery, crosses superficial to the flexor retinaculum through Guyon's canal rather than through the carpal tunnel, which is exactly why an ulnar-nerve wrist compression (Guyon's canal syndrome) is a separate clinical entity from median-nerve carpal tunnel syndrome. The median nerve trunk, flexor digitorum superficialis and flexor pollicis longus all instead pass deep to the retinaculum, in the carpal tunnel.
+
+## answer_c
+Flexor digitorum superficialis.
+
+## explanation_c
+Incorrect. Flexor digitorum superficialis's tendons pass deep to the flexor retinaculum, in the carpal tunnel.
+
+## answer_d
+Flexor pollicis longus.
+
+## explanation_d
+Incorrect. Flexor pollicis longus's tendon passes deep to the flexor retinaculum, in its own synovial sheath.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+
+## concept_ids
+CON-MSK-F0F2BDF778A2DD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the ulnar nerve as passing superficial to the flexor retinaculum, through Guyon's canal.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q51
+
+## title
+A branch of the cords of the brachial plexus
+
+## question
+One of the following is a branch from the cords of the brachial plexus:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Long thoracic nerve.
+
+## explanation_a
+Incorrect. The long thoracic nerve arises from the roots of the brachial plexus, not the cords.
+
+## answer_b
+Nerve to subclavius.
+
+## explanation_b
+Incorrect. The nerve to subclavius arises from the roots (C5, 6) of the brachial plexus, not the cords.
+
+## answer_c
+Thoracodorsal nerve.
+
+## explanation_c
+Correct. The thoracodorsal nerve is a genuine branch of a cord — the posterior cord, arising between the upper and lower subscapular nerves — making it the correct answer among options that are mostly branches of earlier levels. The long thoracic nerve and the nerve to subclavius both arise from the roots, and the suprascapular nerve arises from the upper trunk; none of the other three is a cord-level branch.
+
+## answer_d
+Suprascapular nerve.
+
+## explanation_d
+Incorrect. The suprascapular nerve arises from the upper trunk, not the cords.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-CF723B5FB24D70
+
+## concept_ids
+CON-MSK-CF723B5FB24D70
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the thoracodorsal nerve as a genuine cord-level branch of the brachial plexus, unlike the root- and trunk-level branches listed alongside it.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q52
+
+## title
+Medial rotators of the arm, except one
+
+## question
+All of the following are medial rotators of the arm EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Latissmus dorsi.
+
+## explanation_a
+Incorrect. Latissimus dorsi is genuinely a medial rotator of the arm.
+
+## answer_b
+Infraspinatus.
+
+## explanation_b
+Correct. Infraspinatus is a lateral rotator of the arm, part of the rotator cuff, so it is the exception among this list of medial rotators. Latissimus dorsi, teres major and subscapularis are the classic medial rotator group (with pectoralis major and anterior deltoid), and remembering infraspinatus and teres minor as the cuff's own lateral rotators is the paired fact this item is testing.
+
+## answer_c
+Teres major.
+
+## explanation_c
+Incorrect. Teres major is genuinely a medial rotator of the arm.
+
+## answer_d
+Subscapularis.
+
+## explanation_d
+Incorrect. Subscapularis is genuinely a medial rotator of the arm.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-E68EAACB7596AF
+
+## concept_ids
+CON-MSK-E68EAACB7596AF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Identify infraspinatus as a lateral, not medial, rotator of the arm.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q53
+
+## title
+The muscle raising the arm above the horizontal
+
+## question
+Which ONE of the following muscles raises the arm above the hand?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Serratus anterior.
+
+## explanation_a
+Incorrect. Serratus anterior rotates the scapula to permit abduction beyond 90 degrees, but does not itself raise the arm.
+
+## answer_b
+Middle fibers of deltoid
+
+## explanation_b
+Correct. Full abduction of the arm above the horizontal is produced mainly by the middle fibres of deltoid, working with scapular rotation, once supraspinatus has initiated the first 15 degrees and the deltoid as a whole has carried the movement through roughly the first 90 degrees. Serratus anterior and trapezius instead rotate the scapula to allow abduction beyond 90 degrees, rather than raising the arm themselves, and the anterior fibres of deltoid principally flex (not abduct) the shoulder.
+
+## answer_c
+Supraspinatus.
+
+## explanation_c
+Incorrect. Supraspinatus initiates the first 15 degrees of abduction, but the middle fibres of deltoid carry most of the movement above the horizontal.
+
+## answer_d
+Anterior fibers of deltoid
+
+## explanation_d
+Incorrect. The anterior fibres of deltoid principally flex the shoulder, not abduct it.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-352E28DEA38DF7
+
+## concept_ids
+CON-MSK-352E28DEA38DF7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the middle fibres of deltoid as the prime mover of shoulder abduction above the horizontal.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q54
+
+## title
+Radial artery statements, except the false one
+
+## question
+Regarding the radial artery, the following statements are correct EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+it gives the common interosseous artery.
+
+## explanation_a
+Correct, this is the FALSE statement. The common interosseous artery is a branch of the ulnar artery, not the radial artery, given off shortly after the ulnar artery's origin — so attributing it to the radial artery here is the error the item tests. The other three statements are true of the radial artery: it does begin (with the ulnar artery) opposite the neck of the radius, it does end by forming the deep palmar arch, and its pulsation is felt lateral to the flexor carpi radialis tendon at the wrist.
+
+## answer_b
+It begins opposite the neck of radius
+
+## explanation_b
+Incorrect — this statement is TRUE. The radial artery begins, with the ulnar artery, opposite the neck of the radius.
+
+## answer_c
+it ends by forming the deep palmar arch,
+
+## explanation_c
+Incorrect — this statement is TRUE. The radial artery ends by forming the deep palmar arch.
+
+## answer_d
+Its pulsation can be felt lateral to the tendon of flexor carpi radialis muscle.
+
+## explanation_d
+Incorrect — this statement is TRUE. The radial pulse is felt lateral to the tendon of flexor carpi radialis.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-58D5F74E9595C3
+
+## concept_ids
+CON-MSK-58D5F74E9595C3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Identify the common interosseous artery as a ulnar-, not radial-, artery branch, the false statement among true radial artery facts.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q56
+
+## title
+The muscle that abducts, flexes and extends the arm
+
+## question
+The following muscle abduct, flexes and extends the arm
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Pectoralis major
+
+## explanation_a
+Incorrect. Pectoralis major flexes the shoulder but does not extend it or independently abduct it.
+
+## answer_b
+Deltoid muscle.
+
+## explanation_b
+Correct. Deltoid is unusual in having fibres that produce opposite movements at the same joint: its anterior fibres flex the shoulder, its posterior fibres extend it, and the muscle as a whole (mainly the middle fibres) abducts the arm — a single muscle spanning flexion, extension and abduction because its three fibre groups act almost independently. Pectoralis major flexes but does not extend the shoulder, supraspinatus only initiates abduction, and infraspinatus is a lateral rotator, not an abductor/flexor/extensor.
+
+## answer_c
+Supraspinatus.
+
+## explanation_c
+Incorrect. Supraspinatus only initiates the first 15 degrees of abduction; it does not flex or extend the shoulder.
+
+## answer_d
+Infraspinatus.
+
+## explanation_d
+Incorrect. Infraspinatus is a lateral rotator of the shoulder, not an abductor, flexor or extensor.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-1CA86BE843A07C
+
+## concept_ids
+CON-MSK-1CA86BE843A07C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Recognise deltoid's three fibre groups as producing flexion, extension and abduction of the shoulder.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q57
+
+## title
+Structures transmitted by the bicipital groove
+
+## question
+Bicipital groove of humerus transmits:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Long head of biceps.
+
+## explanation_a
+Correct. The tendon of the long head of biceps runs within the bicipital (intertubercular) groove of the humerus, held in place by the transverse humeral ligament that bridges the groove, on its way from the supraglenoid tubercle to join the muscle belly. The short head of biceps and coracobrachialis both arise from the coracoid process rather than passing through the groove, and the axillary artery lies medial to the humerus in the axilla, unrelated to the bicipital groove.
+
+## answer_b
+Short head of biceps.
+
+## explanation_b
+Incorrect. The short head of biceps arises from the coracoid process and does not pass through the bicipital groove.
+
+## answer_c
+Coracobrachialis.
+
+## explanation_c
+Incorrect. Coracobrachialis arises from the coracoid process and does not pass through the bicipital groove.
+
+## answer_d
+Axillary artery.
+
+## explanation_d
+Incorrect. The axillary artery runs in the axilla, medial to the humerus, unrelated to the bicipital groove.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-38A32E79B1412F
+
+## concept_ids
+CON-MSK-38A32E79B1412F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the long head of biceps tendon as the structure transmitted by the bicipital groove.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q58
+
+## title
+The result of a dorsal scapular nerve injury
+
+## question
+Injury of the dorsal scapular nerve will result in paralysis of:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Trapezius.
+
+## explanation_a
+Incorrect. Trapezius is supplied by the accessory nerve, not the dorsal scapular nerve.
+
+## answer_b
+Rhomboids.
+
+## explanation_b
+Correct. The dorsal scapular nerve, arising directly from the C5 root before the trunks even form, pierces scalenus medius and supplies levator scapulae and both rhomboid muscles, so its injury paralyses the rhomboids and weakens scapular retraction toward the vertebral column. Trapezius is supplied by the accessory nerve, latissimus dorsi by the thoracodorsal nerve, and serratus anterior by the long thoracic nerve — none of them dorsal scapular.
+
+## answer_c
+Latissmus dorsi.
+
+## explanation_c
+Incorrect. Latissimus dorsi is supplied by the thoracodorsal nerve, not the dorsal scapular nerve.
+
+## answer_d
+Serratus anterior
+
+## explanation_d
+Incorrect. Serratus anterior is supplied by the long thoracic nerve, not the dorsal scapular nerve.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-C89FCDA03E8C99
+
+## concept_ids
+CON-MSK-C89FCDA03E8C99
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the rhomboids as paralysed by a dorsal scapular nerve injury.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q60
+
+## title
+The root value of the ulnar nerve
+
+## question
+roots of ulnar nerve are:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+C7,8
+
+## explanation_a
+Incorrect. C7,8 omits T1, which the ulnar nerve genuinely carries, and wrongly includes C7, which it does not.
+
+## answer_b
+C5,6
+
+## explanation_b
+Incorrect. C5,6 forms the upper trunk and its descendants (musculocutaneous, axillary, part of radial), not the ulnar nerve.
+
+## answer_c
+C7,8 + T1
+
+## explanation_c
+Incorrect. C7,8 + T1 wrongly includes C7; the ulnar nerve carries only C8 and T1.
+
+## answer_d
+C8 + T1
+
+## explanation_d
+Correct. The ulnar nerve carries C8 and T1 fibres, the same two roots that form the medial cord of the brachial plexus (of which it is the direct continuation), which is why the ulnar nerve is spared in an upper-trunk (Erb's) injury but devastated in a lower-trunk (Klumpke's) injury. C5,6 forms the upper trunk (and, via the lateral and posterior cords, the musculocutaneous, axillary and much of the radial nerve), and C7 alone contributes to the posterior cord rather than the ulnar nerve.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+
+## concept_ids
+CON-MSK-F0F2BDF778A2DD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+State C8 and T1 as the ulnar nerve's root values.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q61
+
+## title
+Muscles attached to the bicipital groove, except one
+
+## question
+All of the following muscles attached to bicipital groove EXCEPT:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Latissmus dorsi.
+
+## explanation_a
+Incorrect. Latissimus dorsi genuinely inserts into the floor of the bicipital groove.
+
+## answer_b
+Teres major.
+
+## explanation_b
+Incorrect. Teres major genuinely inserts into the medial lip of the bicipital groove.
+
+## answer_c
+Pectoralis major.
+
+## explanation_c
+Incorrect. Pectoralis major genuinely inserts into the lateral lip of the bicipital groove.
+
+## answer_d
+Biceps brachii.
+
+## explanation_d
+Correct. Biceps brachii's long head tendon merely runs through the bicipital groove rather than attaching to its walls, so it is the exception here. The groove's two lips and floor instead give insertion to three named muscles in a fixed order down the groove: pectoralis major to the lateral lip, latissimus dorsi to the floor, and teres major to the medial lip — a classic "lady between two majors" mnemonic (latissimus dorsi sitting between pectoralis major and teres major).
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-38A32E79B1412F
+
+## concept_ids
+CON-MSK-38A32E79B1412F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Distinguish the three muscles that insert into the bicipital groove's walls from the biceps tendon that merely runs through it.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q63
+
+## title
+Origin of the nerve to subclavius
+
+## question
+nerve to subclavius arises from which stage of brachial plexus?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Roots of brachial plexus.
+
+## explanation_a
+Incorrect. The nerve to subclavius arises from the upper trunk, not directly from the roots.
+
+## answer_b
+Trunks of brachial plexus.
+
+## explanation_b
+Correct. The nerve to subclavius arises from the upper trunk of the brachial plexus (C5, 6), one of a small group of "supraclavicular" branches given off before the cords form — grouped here as a trunk-level branch alongside the suprascapular nerve. It supplies subclavius, a small muscle that steadies the clavicle and cushions it during a fall, and occasionally sends a twig (the accessory phrenic nerve) down to join the phrenic nerve.
+
+## answer_c
+Medial cord of brachial plexus.
+
+## explanation_c
+Incorrect. The nerve to subclavius arises from the upper trunk, proximal to where the medial cord forms.
+
+## answer_d
+Posterior cord of brachial plexus.
+
+## explanation_d
+Incorrect. The nerve to subclavius arises from the upper trunk, proximal to where the posterior cord forms.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-CF723B5FB24D70
+
+## concept_ids
+CON-MSK-CF723B5FB24D70
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the upper trunk as the origin of the nerve to subclavius.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q64
+
+## title
+Contents of the quadrangular space, besides the axillary nerve
+
+## question
+Quadrangular space of the shoulder contains the axillary nerve and :
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Circumflex scapular artery.
+
+## explanation_a
+Incorrect. The circumflex scapular artery passes through the (upper) triangular space, not the quadrangular space.
+
+## answer_b
+Radial nerve.
+
+## explanation_b
+Incorrect. The radial nerve passes through the lower triangular space, not the quadrangular space.
+
+## answer_c
+Posterior circumflex humeral artery.
+
+## explanation_c
+Correct. The quadrangular space (bounded by teres minor above, teres major below, the long head of triceps medially and the humeral surgical neck laterally) transmits the axillary nerve together with the posterior circumflex humeral artery, both of which curve around the surgical neck of the humerus — the same fracture site that puts the axillary nerve at risk. The circumflex scapular artery instead passes through the neighbouring triangular space, and the radial nerve and profunda brachii artery pass through the lower (lateral) triangular space, one space further along.
+
+## answer_d
+Profunda brachii artery
+
+## explanation_d
+Incorrect. Profunda brachii artery passes through the lower triangular space, not the quadrangular space.
+
+## answer_e
+Thoracodorsal nerve.
+
+## explanation_e
+Incorrect. The thoracodorsal nerve runs down the posterior axillary wall to latissimus dorsi and does not pass through the quadrangular space.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-8533FCB18D819B
+
+## concept_ids
+CON-MSK-8533FCB18D819B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the posterior circumflex humeral artery as the vessel accompanying the axillary nerve through the quadrangular space.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q65
+
+## title
+The muscle attaching to the upper facet of the greater tuberosity
+
+## question
+which muscle is attached to upper facet of greater tuberosity?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+supraspinatus
+
+## explanation_a
+Correct. The greater tuberosity of the humerus carries three facets in a fixed order from top to bottom, each taking one rotator cuff muscle: supraspinatus on the upper (uppermost) facet, infraspinatus on the middle facet, and teres minor on the lower facet. Teres major, not part of the cuff, inserts instead on the medial lip of the bicipital groove rather than the greater tuberosity at all.
+
+## answer_b
+infraspinatus
+
+## explanation_b
+Incorrect. Infraspinatus attaches to the middle facet of the greater tuberosity, not the upper facet.
+
+## answer_c
+teres minor
+
+## explanation_c
+Incorrect. Teres minor attaches to the lower facet of the greater tuberosity, not the upper facet.
+
+## answer_d
+teres major
+
+## explanation_d
+Incorrect. Teres major attaches to the medial lip of the bicipital groove, not the greater tuberosity at all.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-38A32E79B1412F
+
+## concept_ids
+CON-MSK-38A32E79B1412F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Order the three rotator cuff muscles (supraspinatus, infraspinatus, teres minor) on the greater tuberosity's three facets, top to bottom.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q67
+
+## title
+The nerve behind scapular winging after mastectomy
+
+## question
+Which nerve is responsible for projection of scapula, if it is injured during mastectomy?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Suprascapular
+
+## explanation_a
+Incorrect. The suprascapular nerve supplies supraspinatus and infraspinatus at the posterior shoulder, not serratus anterior, and is not at risk in axillary surgery.
+
+## answer_b
+Long thoracic
+
+## explanation_b
+Correct. The long thoracic nerve, running down the medial wall of the axilla over serratus anterior, is directly exposed during axillary clearance in a mastectomy, and its injury paralyses serratus anterior, which normally holds the scapula flush against the chest wall ("protraction"/projection). Losing this muscle lets the medial border of the scapula wing outward, most visible when the patient pushes against a wall.
+
+## answer_c
+Dorsal scapular
+
+## explanation_c
+Incorrect. The dorsal scapular nerve supplies the rhomboids and levator scapulae, causing a different (medial, not winging) scapular problem, and runs on the posterior chest wall, not the axilla.
+
+## answer_d
+Axillary
+
+## explanation_d
+Incorrect. The axillary nerve supplies deltoid and teres minor at the shoulder, unrelated to scapular winging.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-24E318F2E3F18E
+
+## concept_ids
+CON-MSK-24E318F2E3F18E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the long thoracic nerve as at risk during mastectomy, causing scapular winging via serratus anterior paralysis.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q69
+
+## title
+Movements at the interphalangeal joint
+
+## question
+Which movements can take place at the interphalangeal Joint?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Adduction
+
+## explanation_a
+Incorrect. Adduction requires a biaxial joint; the interphalangeal joints are uniaxial hinge joints, permitting only flexion/extension.
+
+## answer_b
+Circumduction
+
+## explanation_b
+Incorrect. Circumduction requires a biaxial joint; the interphalangeal joints are uniaxial hinge joints, permitting only flexion/extension.
+
+## answer_c
+Flexion
+
+## explanation_c
+Correct. The interphalangeal joints are uniaxial hinge (ginglymus) synovial joints, permitting only flexion and extension — the single axis of movement that follows directly from their hinge shape. Adduction, abduction and circumduction all require at least a biaxial (ellipsoid or saddle) joint, which the interphalangeal joints are not, unlike the metacarpophalangeal joints proximal to them.
+
+## answer_d
+Abduction
+
+## explanation_d
+Incorrect. Abduction requires a biaxial joint; the interphalangeal joints are uniaxial hinge joints, permitting only flexion/extension.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-4D7492BC85C03D
+
+## concept_ids
+CON-MSK-4D7492BC85C03D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name flexion/extension as the only movements at the hinge-type interphalangeal joints.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q70
+
+## title
+The nerve behind loss of thumb adduction
+
+## question
+loss of adduction of thumb is due to injury of:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Median nerve
+
+## explanation_a
+Incorrect. The median nerve supplies the thenar muscles (abduction, opposition), not adductor pollicis.
+
+## answer_b
+Radial nerve.
+
+## explanation_b
+Incorrect. The radial nerve supplies no intrinsic hand muscle.
+
+## answer_c
+anterior interosseous nerve
+
+## explanation_c
+Incorrect. The anterior interosseous nerve supplies flexor pollicis longus, pronator quadratus and part of flexor digitorum profundus, not adductor pollicis.
+
+## answer_d
+Ulnar nerve
+
+## explanation_d
+Correct. Thumb adduction is produced by adductor pollicis, supplied by the deep branch of the ulnar nerve, so an ulnar nerve lesion abolishes it — the deficit tested by Froment's sign, in which a patient with an ulnar lesion substitutes flexor pollicis longus (median/AIN-supplied) and flexes the thumb's interphalangeal joint to compensate when pinching a card. None of the other three nerves supplies adductor pollicis.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-8FB16415EFF905
+
+## concept_ids
+CON-MSK-8FB16415EFF905
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name adductor pollicis, ulnar-supplied, as responsible for thumb adduction — the basis of Froment's sign.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q71
+
+## title
+The tendon passing inside the shoulder joint capsule
+
+## question
+the muscle that passes inside capsule of shoulder joint:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+long head of biceps
+
+## explanation_a
+Correct. The tendon of the long head of biceps arises from the supraglenoid tubercle inside the shoulder joint capsule, running across the head of the humerus (intracapsular but extrasynovial, carrying a tubular sleeve of synovium with it) before emerging into the bicipital groove — an anatomical quirk that lets the tendon act as a stabiliser of the humeral head. The short head of biceps and coracobrachialis both arise from the coracoid process, outside the capsule, and the long head of triceps arises from the infraglenoid tubercle, also outside the capsule.
+
+## answer_b
+short head of biceps
+
+## explanation_b
+Incorrect. The short head of biceps arises from the coracoid process, outside the shoulder joint capsule.
+
+## answer_c
+coracobrachialis
+
+## explanation_c
+Incorrect. Coracobrachialis arises from the coracoid process, outside the shoulder joint capsule.
+
+## answer_d
+long head of triceps
+
+## explanation_d
+Incorrect. The long head of triceps arises from the infraglenoid tubercle, outside the shoulder joint capsule.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-EA4C451C8749B9
+
+## concept_ids
+CON-MSK-EA4C451C8749B9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the long head of biceps as the tendon running inside the shoulder joint capsule.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q72
+
+## title
+A true statement about the elbow joint
+
+## question
+about elbow joint, which is true?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+trochlea of humerus articulates with radial head
+
+## explanation_a
+Incorrect. The trochlea of the humerus articulates with the trochlear notch of the ulna; the radial head articulates with the capitulum instead.
+
+## answer_b
+its capsule extends to superior radioulnar joint
+
+## explanation_b
+Correct. The elbow joint's fibrous capsule is continuous with, and encloses, the superior radioulnar joint, so the two joints share one synovial cavity even though they are functionally distinct (the elbow for flexion/extension, the superior radioulnar joint for rotation) — a shared-capsule relationship also true of the knee and superior tibiofibular-adjacent structures elsewhere in the body. The trochlea articulates with the ulna's trochlear notch (not the radial head, which articulates with the capitulum instead), the elbow is uniaxial (hinge), and supination/pronation happen at the radioulnar joints, not the elbow joint itself.
+
+## answer_c
+it is a biaxial joint
+
+## explanation_c
+Incorrect. The elbow joint is uniaxial (a hinge joint), not biaxial.
+
+## answer_d
+it permits supination and pronation of forearm.
+
+## explanation_d
+Incorrect. Supination and pronation occur at the superior and inferior radioulnar joints, not at the elbow joint itself.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-782A87EC05EF74
+
+## concept_ids
+CON-MSK-782A87EC05EF74
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Recognise the elbow joint's capsule as continuous with the superior radioulnar joint's own capsule.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q73
+
+## title
+A true statement about the superior radioulnar joint
+
+## question
+about superior radioulnar joint, which is true?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+quadrate ligament surrounds head of radius
+
+## explanation_a
+Incorrect. The anular ligament, not a "quadrate" ligament, is the structure that encircles and retains the head of the radius at this joint.
+
+## answer_b
+the head of ulna is the articular surface
+
+## explanation_b
+Incorrect. The head of the radius, not the head of the ulna, is the articular surface at the superior radioulnar joint.
+
+## answer_c
+it is a biaxial joint
+
+## explanation_c
+Incorrect. The superior radioulnar joint is uniaxial (a pivot joint), not biaxial.
+
+## answer_d
+it permits supination and pronation of forearm.
+
+## explanation_d
+Correct. The superior radioulnar joint, a pivot (uniaxial) synovial joint between the head of the radius and the radial notch of the ulna, is exactly where forearm supination and pronation happen, as the radial head rotates within the anular ligament that encircles it (not a "quadrate" ligament — the quadrate ligament, when described, is a separate structure below the anular ligament). It is uniaxial, not biaxial, and its articular surface is the head of the radius, not the head of the ulna.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-782A87EC05EF74
+
+## concept_ids
+CON-MSK-782A87EC05EF74
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the superior radioulnar joint as the pivot joint permitting supination and pronation.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q74
+
+## title
+Direction of the interosseous membrane's fibres
+
+## question
+fibers of interosseous membrane between radius and ulna is directed:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+upwards and medially
+
+## explanation_a
+Incorrect. The membrane's fibres run downward, not upward, from the radius to the ulna.
+
+## answer_b
+upwards and laterally
+
+## explanation_b
+Incorrect. The membrane's fibres run downward and medially, not upward and laterally.
+
+## answer_c
+downwards and medially
+
+## explanation_c
+Correct. The fibres of the forearm's interosseous membrane run from the radius downward and medially to the ulna, that is, from proximal-lateral on the radius to distal-medial on the ulna. This orientation lets the membrane transmit load from the radius to the ulna when a fall on the outstretched hand drives force up through the wrist. Its two surfaces also give origin to deep flexor and extensor muscles of the forearm.
+
+## answer_d
+downwards and laterally
+
+## explanation_d
+Incorrect. The membrane's fibres run medially, not laterally, as they descend from the radius to the ulna.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-782A87EC05EF74
+
+## concept_ids
+CON-MSK-782A87EC05EF74
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+State the interosseous membrane's fibre direction as downward and medial, radius to ulna.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q75
+
+## title
+The type of the wrist joint
+
+## question
+type of wrist joint:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+synovial, hinge
+
+## explanation_a
+Incorrect. A hinge joint permits only flexion/extension, but the wrist also permits abduction/adduction and circumduction.
+
+## answer_b
+synovial, pivot
+
+## explanation_b
+Incorrect. A pivot joint permits only rotation, but the wrist does not rotate independently at all.
+
+## answer_c
+synovial, saddle
+
+## explanation_c
+Incorrect. A saddle joint is the type of the thumb's carpometacarpal joint, not the wrist joint.
+
+## answer_d
+synovial, ellipsoid
+
+## explanation_d
+Correct. The wrist (radiocarpal) joint is a synovial ellipsoid (condyloid) joint, biaxial, permitting flexion/extension and abduction/adduction (radial/ulnar deviation) plus the combined movement circumduction, but no independent rotation — the combination of movements that defines an ellipsoid joint. A hinge joint (like the elbow) would allow only flexion/extension, a pivot joint (like the superior radioulnar joint) only rotation, and a saddle joint (like the thumb's carpometacarpal joint) a different biaxial combination that does include some rotation.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-4D7492BC85C03D
+
+## concept_ids
+CON-MSK-4D7492BC85C03D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Classify the wrist joint as synovial ellipsoid, distinct from hinge, pivot and saddle joints.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q76
+
+## title
+Bones sharing in the wrist joint, except one
+
+## question
+all shares in wrist joint except:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+lower end of radius
+
+## explanation_a
+Incorrect. The lower end of the radius genuinely forms part of the wrist joint's proximal articular surface.
+
+## answer_b
+lunate
+
+## explanation_b
+Incorrect. The lunate genuinely forms part of the wrist joint's distal articular surface.
+
+## answer_c
+lower end of ulna
+
+## explanation_c
+Correct. The lower end of the ulna does NOT directly articulate at the wrist (radiocarpal) joint — it is separated from the carpal bones by the articular disc of the inferior radioulnar joint, which is why the wrist joint proper is formed only by the lower end of the radius (plus that disc) meeting the proximal carpal row (scaphoid, lunate, and triquetrum, the latter via the disc). This is a commonly tested exception: the ulna reaches the wrist region but is excluded from the wrist joint's own articular surface.
+
+## answer_d
+triquetrum
+
+## explanation_d
+Incorrect. The triquetrum genuinely forms part of the wrist joint's distal articular surface (via the articular disc).
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-4D7492BC85C03D
+
+## concept_ids
+CON-MSK-4D7492BC85C03D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Identify the lower end of the ulna as excluded from the wrist joint proper by the articular disc.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q77
+
+## title
+The type of the thumb's carpometacarpal joint
+
+## question
+type of carpo-metacarpel joint of thumb:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+synovial, hinge
+
+## explanation_a
+Incorrect. A hinge joint permits only flexion/extension; the thumb's carpometacarpal joint permits a much wider range, including opposition.
+
+## answer_b
+synovial, pivot
+
+## explanation_b
+Incorrect. A pivot joint permits only rotation; the thumb's carpometacarpal joint is a saddle joint, not a pivot.
+
+## answer_c
+synovial, saddle
+
+## explanation_c
+Correct. The carpometacarpal joint of the thumb, between the trapezium and the base of the first metacarpal, is a synovial saddle (sellar) joint — the classic example of this joint type, whose reciprocally-curved surfaces give it an unusually wide range of movement (flexion/extension, abduction/adduction, and enough passive rotation to allow opposition) that no other saddle joint in the body matches. This mobility is what makes human thumb opposition possible.
+
+## answer_d
+synovial, plane
+
+## explanation_d
+Incorrect. A plane joint permits only gliding; the thumb's carpometacarpal joint permits a much wider, saddle-type range of movement.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-4D7492BC85C03D
+
+## concept_ids
+CON-MSK-4D7492BC85C03D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the thumb's carpometacarpal joint as a synovial saddle joint, the anatomical basis of opposition.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q78
+
+## title
+The type of the interphalangeal joints
+
+## question
+type of interphalangeal joints:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+synovial, hinge
+
+## explanation_a
+Correct. The interphalangeal joints are synovial hinge (ginglymus) joints, uniaxial, permitting flexion and extension only, matching their simple flexion/extension role in gripping. This contrasts with the metacarpophalangeal joints one step proximal, which are ellipsoid (biaxial, permitting abduction/adduction as well), and the thumb's saddle-type carpometacarpal joint further proximal still.
+
+## answer_b
+synovial, pivot
+
+## explanation_b
+Incorrect. A pivot joint permits only rotation; the interphalangeal joints permit only flexion/extension, matching a hinge joint instead.
+
+## answer_c
+synovial, saddle
+
+## explanation_c
+Incorrect. A saddle joint is the type of the thumb's carpometacarpal joint, not the interphalangeal joints.
+
+## answer_d
+synovial, ellipsoid
+
+## explanation_d
+Incorrect. An ellipsoid joint is the type of the metacarpophalangeal joints, not the interphalangeal joints.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-4D7492BC85C03D
+
+## concept_ids
+CON-MSK-4D7492BC85C03D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Classify the interphalangeal joints as synovial hinge joints.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q79
+
+## title
+Movements of the metacarpophalangeal joints
+
+## question
+movements of metacarpophalangeal joints:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+flexion and extension only
+
+## explanation_a
+Incorrect alone. Flexion/extension does occur, but so does abduction/adduction — the joint is biaxial, not uniaxial.
+
+## answer_b
+adduction and abduction only
+
+## explanation_b
+Incorrect alone. Abduction/adduction does occur, but so does flexion/extension — both movements occur, not one alone.
+
+## answer_c
+(a+b)
+
+## explanation_c
+Correct. The metacarpophalangeal joints are synovial ellipsoid (biaxial) joints, permitting both flexion/extension and abduction/adduction (of the fingers relative to the middle finger's axis), plus the combined movement circumduction that follows from having two independent axes — the ellipsoid joint's defining feature, matching the wrist joint's own type one level proximal. They do not permit independent rotation, which is why option D is wrong.
+
+## answer_d
+medial and lateral rotation
+
+## explanation_d
+Incorrect. Ellipsoid joints, including the metacarpophalangeal joints, do not permit independent axial rotation.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-B88F413E4536F9
+
+## concept_ids
+CON-MSK-B88F413E4536F9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name flexion/extension and abduction/adduction together as the metacarpophalangeal joints' movements, matching their ellipsoid type.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q80
+
+## title
+The ligament suspending the scapula from the clavicle
+
+## question
+the ligament that suspend weight of scapula from the clavicle:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+costoclavicular ligament
+
+## explanation_a
+Incorrect. The costoclavicular ligament anchors the clavicle to the first rib, at the sternoclavicular joint, not to the scapula.
+
+## answer_b
+coracohumeral ligament
+
+## explanation_b
+Incorrect. The coracohumeral ligament reinforces the shoulder joint capsule between the coracoid process and the humerus, not the scapula's suspension from the clavicle.
+
+## answer_c
+coracoclavicular ligament
+
+## explanation_c
+Correct. The coracoclavicular ligament, running from the coracoid process of the scapula up to the clavicle (in its conoid and trapezoid parts), is the strong ligament that suspends the weight of the whole upper limb from the clavicle, so its rupture (along with the acromioclavicular ligament) is what allows a true acromioclavicular joint dislocation to displace. The costoclavicular ligament instead anchors the clavicle to the first rib at the sternoclavicular joint, the coracohumeral ligament reinforces the shoulder joint capsule, and the transverse humeral ligament bridges the bicipital groove.
+
+## answer_d
+transverse humeral ligament
+
+## explanation_d
+Incorrect. The transverse humeral ligament bridges the bicipital groove to retain the long head of biceps tendon, unrelated to suspending the scapula.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-EA4C451C8749B9
+
+## concept_ids
+CON-MSK-EA4C451C8749B9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the coracoclavicular ligament as suspending the scapula's (and limb's) weight from the clavicle.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q81
+
+## title
+A true statement about upper limb lymphatics
+
+## question
+about lymphatics of upper limb, which is true?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+lymphatics of thumb follow basilic vein
+
+## explanation_a
+Incorrect. Lymphatics of the thumb follow the cephalic vein, not the basilic vein.
+
+## answer_b
+lymphatics from middle finger follow cephalic vein
+
+## explanation_b
+Incorrect. Lymphatics from the middle finger drain toward both sides depending on which half, but are grouped with the basilic (medial) pathway for its ulnar half, not simply the cephalic vein.
+
+## answer_c
+deep lymphatics ascend along the main blood vessels
+
+## explanation_c
+Correct. The deep lymphatics of the upper limb run alongside the main blood vessels (the brachial and axillary vessels), draining into the deep (humeral/lateral) axillary nodes, following the general rule that deep lymphatics track deep vessels throughout the body. Lateral digits (thumb, index, and the lateral half of the middle finger) actually drain toward the cephalic vein, medial digits toward the basilic vein — the reverse of options A and B — and the right subclavian lymph trunk drains into the right lymphatic duct (or directly into the right venous angle), not the thoracic duct, which serves the left side of the body above the diaphragm.
+
+## answer_d
+the right subclavian lymph trunk drains into the thoracic duct
+
+## explanation_d
+Incorrect. The right subclavian lymph trunk drains into the right lymphatic duct (or the right venous angle directly), not the thoracic duct, which drains the left side of the body.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-BF3670E27D6F12
+
+## concept_ids
+CON-MSK-BF3670E27D6F12
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+State that the deep lymphatics of the upper limb run alongside the main blood vessels.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q82
+
+## title
+Formation of the axillary vein
+
+## question
+the axillary vein is formed by union of:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+basilic vein with cephalic vein
+
+## explanation_a
+Incorrect. The cephalic vein joins the axillary vein separately, near the clavicle, and is not part of the vein's initial formation at teres major's lower border.
+
+## answer_b
+basilic vein with 2 venea comitantes of brachial artery
+
+## explanation_b
+Correct. The axillary vein is formed at the lower border of teres major by the union of the basilic vein with the two venae comitantes that accompany the brachial artery, becoming the single axillary vein that then runs medial to the axillary artery through the axilla. The cephalic vein instead joins the axillary vein much higher, near the clavicle, by piercing the clavipectoral fascia to drain independently into it — it does not contribute to the vein's initial formation.
+
+## answer_c
+cephalic vein with 2 venea comitantes of brachial artery
+
+## explanation_c
+Incorrect. The vein formed with the brachial artery's venae comitantes is the basilic vein, not the cephalic vein.
+
+## answer_d
+cephalic vein with median cubital vein
+
+## explanation_d
+Incorrect. The median cubital vein is a superficial connecting vein at the elbow, unrelated to the axillary vein's formation.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-66A2E56C00F3A7
+
+## concept_ids
+CON-MSK-66A2E56C00F3A7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the basilic vein and the brachial artery's venae comitantes as forming the axillary vein.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q84
+
+## title
+Where the anterior descending branch of profunda brachii anastomoses
+
+## question
+the anterior descending branch of profunda brachii artery anastomoses with radial recurrent artery:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+in front of medial epicondyle
+
+## explanation_a
+Incorrect. The medial epicondyle is where the ulnar (not radial) collateral/recurrent anastomoses occur.
+
+## answer_b
+in front of lateral epicondyle
+
+## explanation_b
+Correct. The profunda brachii artery's anterior (radial collateral) descending branch runs down the lateral side of the arm and anastomoses with the radial recurrent artery in front of the lateral epicondyle, completing the lateral part of the elbow anastomosis — the mirror image of the medial part, where the superior/inferior ulnar collateral arteries meet the ulnar recurrent arteries behind and in front of the medial epicondyle respectively. Confusing the lateral (radial-side) and medial (ulnar-side) anastomotic points is the classic trap this item tests.
+
+## answer_c
+behind medial epicondyle
+
+## explanation_c
+Incorrect. The medial epicondyle is where the ulnar (not radial) collateral/recurrent anastomoses occur, and this is the posterior ulnar meeting point specifically, not the radial one.
+
+## answer_d
+behind lateral epicondyle
+
+## explanation_d
+Incorrect. The radial collateral/recurrent anastomosis occurs in front of, not behind, the lateral epicondyle.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-A4A49A26BA10E7
+
+## concept_ids
+CON-MSK-A4A49A26BA10E7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Locate the radial collateral/radial recurrent anastomosis in front of the lateral epicondyle.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q85
+
+## title
+A forearm muscle that may be absent
+
+## question
+Which of these muscles may be absent sometimes?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+flexor pollicis longus
+
+## explanation_a
+Incorrect. Flexor pollicis longus is consistently present; it is not the classic "absent muscle" of the forearm.
+
+## answer_b
+flexor digitorum profundus
+
+## explanation_b
+Incorrect. Flexor digitorum profundus is consistently present; it is not the classic "absent muscle" of the forearm.
+
+## answer_c
+abductor pollicis brevis
+
+## explanation_c
+Incorrect. Abductor pollicis brevis is consistently present; it is not the classic "absent muscle" of the forearm.
+
+## answer_d
+palmaris longus
+
+## explanation_d
+Correct. Palmaris longus is the classic anatomical variant muscle of the upper limb, congenitally absent (unilaterally or bilaterally) in a substantial minority of people with no functional deficit, which is exactly why surgeons use its tendon as a harvestable graft — first confirming its presence with the standard wrist-flexion-plus-thumb-opposition test. Flexor pollicis longus, flexor digitorum profundus and abductor pollicis brevis are all consistently present, since each is functionally essential (thumb flexion, finger flexion, and thumb abduction respectively) with no redundant alternative.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-46C40109E7D957
+
+## concept_ids
+CON-MSK-46C40109E7D957
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name palmaris longus as the forearm muscle commonly absent as a normal anatomical variant.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q86
+
+## title
+Origin of the suprascapular nerve, restated
+
+## question
+suprascapular nerve arises from which part of brachial plexus?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+posterior cord
+
+## explanation_a
+Incorrect. The suprascapular nerve arises from the upper trunk, well proximal to where the posterior cord forms.
+
+## answer_b
+upper trunk
+
+## explanation_b
+Correct. The suprascapular nerve arises from the upper trunk (C5, 6) of the brachial plexus, one of the earliest branches given off, before the trunk splits into its anterior and posterior divisions — the same upper-trunk origin that makes this nerve's function vulnerable in Erb's palsy. It does not arise from the posterior cord, the middle trunk, or directly from the C7 root.
+
+## answer_c
+middle trunk
+
+## explanation_c
+Incorrect. The suprascapular nerve arises from the upper trunk (C5,6), not the middle trunk (C7).
+
+## answer_d
+C7 root
+
+## explanation_d
+Incorrect. The suprascapular nerve arises from the upper trunk as a whole (C5,6), not directly from the C7 root alone.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-C89FCDA03E8C99
+
+## concept_ids
+CON-MSK-C89FCDA03E8C99
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the upper trunk as the origin of the suprascapular nerve.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q87
+
+## title
+The muscle that initiates abduction of the arm
+
+## question
+which muscle initiates abduction of arm?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+serratus anterior
+
+## explanation_a
+Incorrect. Serratus anterior rotates the scapula to permit abduction beyond 90 degrees; it does not initiate the movement.
+
+## answer_b
+deltoid
+
+## explanation_b
+Incorrect. Deltoid carries abduction from about 15 to 90 degrees, after supraspinatus has already initiated it.
+
+## answer_c
+supraspinatus
+
+## explanation_c
+Correct. Supraspinatus initiates the first roughly 15 degrees of shoulder abduction, before deltoid (mainly its middle fibres) takes over to carry the movement through to about 90 degrees, with serratus anterior and trapezius then rotating the scapula to permit abduction beyond that — the well-known sequence "supraspinatus starts it, deltoid continues it, scapular rotators finish it". Deltoid, serratus anterior and trapezius all contribute to abduction, but none of them initiates the very first degrees the way supraspinatus does.
+
+## answer_d
+trapezius
+
+## explanation_d
+Incorrect. Trapezius rotates the scapula to permit abduction beyond 90 degrees; it does not initiate the movement.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-352E28DEA38DF7
+
+## concept_ids
+CON-MSK-352E28DEA38DF7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name supraspinatus as the muscle initiating the first degrees of shoulder abduction.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q88
+
+## title
+The structure lateral to the brachial artery in the upper arm
+
+## question
+which structure lies on lateral side of brachial artery in the upper 1/2 of arm?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+basilic vein
+
+## explanation_a
+Incorrect. The basilic vein runs medially in the arm, not laterally alongside the brachial artery.
+
+## answer_b
+median nerve
+
+## explanation_b
+Correct. In the upper half of the arm the median nerve lies lateral to the brachial artery, having formed just above by the union of its two roots from the lateral and medial cords; part-way down the arm it crosses in front of the artery to lie medial to it by the cubital fossa — the single relation most often tested about the median nerve's course. The basilic vein runs medially in the arm (joining the venae comitantes to help form the axillary vein), the ulnar nerve runs medially and pierces the medial intermuscular septum, and the radial nerve is posterior, in the spiral groove.
+
+## answer_c
+ulnar nerve
+
+## explanation_c
+Incorrect. The ulnar nerve runs medially in the arm, piercing the medial intermuscular septum, not laterally alongside the brachial artery.
+
+## answer_d
+radial nerve
+
+## explanation_d
+Incorrect. The radial nerve runs posteriorly, in the spiral groove, not laterally alongside the brachial artery in the anterior compartment.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-74BFAB9385B955
+
+## concept_ids
+CON-MSK-74BFAB9385B955
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Locate the median nerve lateral to the brachial artery in the upper arm, before it crosses medially near the elbow.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q89
+
+## title
+The floor of the cubital fossa
+
+## question
+floor of cubital fossa is formed by:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+bicipital aponeurosis
+
+## explanation_a
+Incorrect. The bicipital aponeurosis forms part of the roof of the cubital fossa, not the floor.
+
+## answer_b
+brachioradialis muscle
+
+## explanation_b
+Incorrect. Brachioradialis forms the lateral border (wall) of the cubital fossa, not the floor.
+
+## answer_c
+pronator teres muscle
+
+## explanation_c
+Incorrect. Pronator teres forms the medial border (wall) of the cubital fossa, not the floor.
+
+## answer_d
+supinator muscle
+
+## explanation_d
+Correct. The floor of the cubital fossa is formed by brachialis proximally and supinator distally, so supinator is the correct floor-forming muscle among the options offered. Brachioradialis and pronator teres are instead the fossa's lateral and medial borders, its walls, not its floor. The bicipital aponeurosis forms part of the fossa's roof, protecting the brachial artery and median nerve from superficial structures.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-74BFAB9385B955
+
+## concept_ids
+CON-MSK-74BFAB9385B955
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name supinator (with brachialis) as forming the floor of the cubital fossa, distinct from its bordering muscles.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q90
+
+## title
+The posterior boundary of the anatomical snuff box
+
+## question
+which muscle forms posterior boundary of anatomical snuff box?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+extensor pollicis longus
+
+## explanation_a
+Correct. The anatomical snuff box's posterior boundary is formed by the tendon of extensor pollicis longus, angling in from the third compartment of the extensor retinaculum around Lister's tubercle, while its anterior boundary is formed by the tendons of abductor pollicis longus and extensor pollicis brevis together in the first compartment. Flexor pollicis longus and flexor pollicis brevis are both palmar-side (flexor) tendons and take no part in the snuff box's boundaries at all, which lie on the dorsal/radial aspect of the wrist.
+
+## answer_b
+flexor pollicis longus
+
+## explanation_b
+Incorrect. Flexor pollicis longus is a palmar flexor tendon and does not border the anatomical snuff box.
+
+## answer_c
+extensor pollicis brevis
+
+## explanation_c
+Incorrect. Extensor pollicis brevis forms part of the ANTERIOR boundary of the snuff box, not the posterior boundary.
+
+## answer_d
+flexor pollicis brevis
+
+## explanation_d
+Incorrect. Flexor pollicis brevis is a palmar (thenar) muscle and does not border the anatomical snuff box.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-1424177E093253
+
+## concept_ids
+CON-MSK-1424177E093253
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name extensor pollicis longus as forming the posterior boundary of the anatomical snuff box.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q83
+
+## title
+The superior ulnar collateral artery's anastomotic partner
+
+## question
+the superior ulnar collateral artery anastomoses with:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+anterior ulnar recurrent artery
+
+## explanation_a
+Incorrect. The anterior ulnar recurrent artery anastomoses with the inferior, not the superior, ulnar collateral artery.
+
+## answer_b
+posterior ulnar recurrent artery
+
+## explanation_b
+Correct. The superior ulnar collateral artery, a branch of the brachial artery running with the ulnar nerve behind the medial epicondyle, anastomoses there with the posterior ulnar recurrent artery, one of the ulnar artery's two recurrent branches — the posterior half of the medial elbow anastomosis. Anteriorly, at a separate point, the inferior ulnar collateral artery instead meets the anterior ulnar recurrent artery, and the radial and interosseous recurrent arteries both belong to the lateral/posterior side of the elbow anastomosis, not this medial pairing.
+
+## answer_c
+radial recurrent artery
+
+## explanation_c
+Incorrect. The radial recurrent artery anastomoses with the radial collateral branch of profunda brachii, on the lateral side of the elbow, not with the superior ulnar collateral artery.
+
+## answer_d
+interosseous recurrent artery
+
+## explanation_d
+Incorrect. The interosseous recurrent artery anastomoses with the posterior descending branch of profunda brachii, not with the superior ulnar collateral artery.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-A4A49A26BA10E7
+
+## concept_ids
+CON-MSK-A4A49A26BA10E7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the posterior ulnar recurrent artery as the superior ulnar collateral artery's anastomotic partner.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q92
+
+## title
+The muscle the musculocutaneous nerve passes through
+
+## question
+the musculocutaneous nerve passes through which muscle?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+coracobrachialis
+
+## explanation_a
+Correct. The musculocutaneous nerve pierces coracobrachialis shortly after leaving the lateral cord in the axilla, then runs down between biceps brachii and brachialis, supplying all three muscles of the anterior compartment of the arm before continuing as the lateral cutaneous nerve of the forearm. It supplies biceps and brachialis from alongside, not by piercing through them.
+
+## answer_b
+biceps brachii
+
+## explanation_b
+Incorrect. The musculocutaneous nerve runs between biceps brachii and brachialis, supplying biceps from the side, not by piercing through it.
+
+## answer_c
+brachialis
+
+## explanation_c
+Incorrect. The musculocutaneous nerve runs on brachialis's surface, supplying it from alongside, not by piercing through it.
+
+## answer_d
+brachioradialis
+
+## explanation_d
+Incorrect. Brachioradialis is a forearm muscle supplied by the radial nerve, unrelated to the musculocutaneous nerve's course in the arm.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-F125616F7ED37A
+
+## concept_ids
+CON-MSK-F125616F7ED37A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name coracobrachialis as the muscle pierced by the musculocutaneous nerve.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q93
+
+## title
+The muscle injured in a patient unable to extend the elbow
+
+## question
+a man cannot extend elbow, which muscle is injured?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+extensor digitorum
+
+## explanation_a
+Incorrect. Extensor digitorum extends the fingers, not the elbow.
+
+## answer_b
+deltoid
+
+## explanation_b
+Incorrect. Deltoid acts at the shoulder joint, not the elbow.
+
+## answer_c
+triceps
+
+## explanation_c
+Correct. Triceps brachii is the sole extensor of the elbow, supplied by the radial nerve, so its paralysis (from a radial nerve lesion proximal to where its branches are given off, typically in the axilla) abolishes active elbow extension. Extensor digitorum extends the fingers, not the elbow; deltoid acts at the shoulder; and brachioradialis, despite its extensor-compartment location, actually flexes the elbow rather than extending it.
+
+## answer_d
+brachioradialis
+
+## explanation_d
+Incorrect. Brachioradialis flexes the elbow, despite lying in the extensor compartment; it does not extend it.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-34E34E10280236
+
+## concept_ids
+CON-MSK-34E34E10280236
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name triceps brachii as the sole elbow extensor.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q94
+
+## title
+The tendon lateral to the radial pulse
+
+## question
+pulsation of radial artery can be felt lateral to:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+extensor carpi radialis longus
+
+## explanation_a
+Incorrect. Extensor carpi radialis longus lies on the dorsal side of the wrist, not near the radial pulse point.
+
+## answer_b
+extensor carpi radialis brevis
+
+## explanation_b
+Incorrect. Extensor carpi radialis brevis lies on the dorsal side of the wrist, not near the radial pulse point.
+
+## answer_c
+flexor carpi radialis
+
+## explanation_c
+Correct. The radial pulse is classically taken where the artery lies superficial and lateral to the tendon of flexor carpi radialis at the wrist, between it and brachioradialis — the standard clinical landmark used to take a patient's pulse. Extensor carpi radialis longus and brevis lie on the dorsal (extensor) side of the wrist, not near the radial artery's palpable point, and flexor carpi ulnaris is the landmark for the ulnar, not the radial, pulse.
+
+## answer_d
+flexor carpi ulnaris
+
+## explanation_d
+Incorrect. Flexor carpi ulnaris is the landmark for the ulnar pulse, not the radial pulse.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-58D5F74E9595C3
+
+## concept_ids
+CON-MSK-58D5F74E9595C3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name flexor carpi radialis as the tendon medial to the palpable radial pulse.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q95
+
+## title
+The action of pectoralis major
+
+## question
+what is the action of pectoralis major?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+lateral rotation of shoulder
+
+## explanation_a
+Incorrect. Pectoralis major is a medial rotator of the shoulder, not a lateral rotator.
+
+## answer_b
+extension of shoulder
+
+## explanation_b
+Incorrect. Extension is not pectoralis major's primary action; flexion (via the clavicular head) is.
+
+## answer_c
+flexion of shoulder
+
+## explanation_c
+Correct. Pectoralis major, principally through its clavicular head, flexes the shoulder (and, with its whole mass, adducts and medially rotates it), which is why it is grouped with anterior deltoid and coracobrachialis as a shoulder flexor. It is a medial, not lateral, rotator, and although its sternocostal head can extend an already-flexed shoulder back to neutral, its primary listed action is flexion, not simple extension or abduction (it is in fact an adductor, the opposite of abduction).
+
+## answer_d
+abduction of shoulder
+
+## explanation_d
+Incorrect. Pectoralis major adducts the shoulder; it does not abduct it.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-2B9F47FC205689
+
+## concept_ids
+CON-MSK-2B9F47FC205689
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name flexion as a principal action of pectoralis major at the shoulder.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q96
+
+## title
+The radial-nerve-supplied flexor of the elbow
+
+## question
+the radial nerve innervates which flexor muscle of the elbow?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+biceps brachii
+
+## explanation_a
+Incorrect. Biceps brachii is supplied by the musculocutaneous nerve, not the radial nerve.
+
+## answer_b
+coracobrachialis
+
+## explanation_b
+Incorrect. Coracobrachialis is supplied by the musculocutaneous nerve, not the radial nerve, and does not flex the elbow.
+
+## answer_c
+flexor carpi ulnaris
+
+## explanation_c
+Incorrect. Flexor carpi ulnaris flexes the wrist, not the elbow, and is supplied by the ulnar nerve, not the radial nerve.
+
+## answer_d
+brachioradialis
+
+## explanation_d
+Correct. Brachioradialis is the one elbow flexor supplied by the radial nerve, despite lying in the posterior (extensor) compartment — an exception worth remembering alongside the general rule that the radial nerve supplies extensors. Biceps brachii and coracobrachialis are both musculocutaneous-nerve muscles, and flexor carpi ulnaris is a wrist, not elbow, flexor, supplied by the ulnar nerve.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-1FC89E36FFD98E
+
+## concept_ids
+CON-MSK-1FC89E36FFD98E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name brachioradialis as the radial-nerve-supplied exception among the elbow flexors.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q97
+
+## title
+The location of the radial nerve in the arm
+
+## question
+the radial nerve lies:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+around surgical neck of humerus
+
+## explanation_a
+Incorrect. The axillary nerve, not the radial nerve, winds around the surgical neck of the humerus.
+
+## answer_b
+in the spiral groove of humerus
+
+## explanation_b
+Correct. The radial nerve runs in the spiral (radial) groove on the posterior surface of the humeral shaft, together with the profunda brachii artery, which is exactly why a midshaft humeral fracture is the classic cause of radial nerve injury and wrist drop. The axillary nerve, not the radial nerve, winds around the surgical neck; the radial nerve passes through the lower (lateral) triangular space, not a "medial" triangular space; and it runs posterior to, not medial to, the brachial artery.
+
+## answer_c
+in medial triangular space
+
+## explanation_c
+Incorrect. The radial nerve passes through the lower (lateral) triangular space; there is no distinct "medial" triangular space.
+
+## answer_d
+medial to brachial artery
+
+## explanation_d
+Incorrect. The radial nerve runs posterior to the humeral shaft (in the spiral groove), not medial to the brachial artery.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-712EBE5936F7E4
+
+## concept_ids
+CON-MSK-712EBE5936F7E4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Locate the radial nerve in the spiral groove of the humerus, the classic fracture-injury site.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q98
+
+## title
+The nerve injury causing partial claw hand
+
+## question
+which nerve injury causes partial claw hand?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Median nerve
+
+## explanation_a
+Incorrect. An isolated median nerve lesion does not produce claw hand; it produces ape's hand or pointing index depending on the level.
+
+## answer_b
+Radial nerve.
+
+## explanation_b
+Incorrect. Radial nerve injury causes wrist drop, not claw hand.
+
+## answer_c
+anterior interosseous nerve
+
+## explanation_c
+Incorrect. The anterior interosseous nerve is purely motor to three forearm muscles and does not affect the lumbricals or produce claw hand.
+
+## answer_d
+Ulnar nerve
+
+## explanation_d
+Correct. An isolated ulnar nerve injury produces a partial claw hand: the medial two lumbricals (ulnar-supplied) are lost, so the ring and little fingers claw at the metacarpophalangeal and interphalangeal joints, while the lateral two lumbricals (median-supplied, to the index and middle fingers) are spared and keep those two fingers balanced. A complete claw hand instead needs a lower-brachial-plexus (Klumpke's) lesion, which removes both the ulnar nerve and the median contribution to the lateral lumbricals.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-24A0858459A59D
+
+## concept_ids
+CON-MSK-24A0858459A59D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Distinguish partial claw hand (isolated ulnar nerve) from complete claw hand (lower brachial plexus roots).
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q99
+
+## title
+The muscles of the thenar eminence
+
+## question
+thenar eminence contains which of the following muscles?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+abductor pollicis brevis, adductor pollicis
+
+## explanation_a
+Incorrect. Adductor pollicis lies in a separate deep compartment, not within the thenar eminence itself, and is ulnar- rather than median-supplied.
+
+## answer_b
+abductor pollicis brevis, opponens pollicis
+
+## explanation_b
+Correct. The thenar eminence is formed by three muscles — abductor pollicis brevis, flexor pollicis brevis and opponens pollicis — all supplied by the recurrent branch of the median nerve, so abductor pollicis brevis and opponens pollicis together are genuinely thenar. Adductor pollicis lies deeper, in its own adductor compartment (not the thenar eminence itself), and is ulnar-supplied, and abductor digiti minimi is a hypothenar, not thenar, muscle.
+
+## answer_c
+adductor pollicis, opponens pollicis
+
+## explanation_c
+Incorrect. Adductor pollicis lies in a separate deep compartment, not within the thenar eminence itself.
+
+## answer_d
+abductor digiti mini, opponens pollicis
+
+## explanation_d
+Incorrect. Abductor digiti minimi is a hypothenar, not thenar, muscle.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-8FB16415EFF905
+
+## concept_ids
+CON-MSK-8FB16415EFF905
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name abductor pollicis brevis and opponens pollicis as thenar eminence muscles, distinct from the deeper adductor pollicis.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q100
+
+## title
+The scapular anastomosis connects the subclavian artery with which part of the axillary artery
+
+## question
+anastomosis around scapula connects subclavian artery with:
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+3rd part axillary artery
+
+## explanation_a
+Correct. The scapular anastomosis links branches of the subclavian artery (suprascapular and the dorsal scapular/deep branch of the transverse cervical) with the subscapular artery's circumflex scapular branch, which arises from the third part of the axillary artery — providing a collateral route for blood to reach the upper limb if the axillary artery is occluded proximal to that point, such as after a first-part axillary or subclavian injury. The first and second parts of the axillary artery, and the brachial artery, are not where this specific anastomotic network converges.
+
+## answer_b
+2nd part axillary artery
+
+## explanation_b
+Incorrect. The scapular anastomosis converges through the subscapular/circumflex scapular artery, a branch of the third part of the axillary artery, not the second part.
+
+## answer_c
+brachial artery
+
+## explanation_c
+Incorrect. The scapular anastomosis connects to the axillary artery's third part, proximal to where it becomes the brachial artery.
+
+## answer_d
+1st part axillary artery
+
+## explanation_d
+Incorrect. The scapular anastomosis connects to the third, not the first, part of the axillary artery.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-DF8F395F3D471E
+
+## concept_ids
+CON-MSK-DF8F395F3D471E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the third part of the axillary artery as where the scapular anastomosis rejoins the main arterial line.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q101
+
+## title
+The branch of the ulnar nerve carrying sensation from the little finger
+
+## question
+burning sensation in anterior aspect of little finger is carried by which branch of ulnar?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+superficial terminal branch
+
+## explanation_a
+Correct. At the wrist the ulnar nerve divides into a superficial terminal branch, which is sensory to the palmar skin of the little finger and the medial half of the ring finger (and motor only to palmaris brevis), and a deep terminal branch, which is entirely motor to the hypothenar and other intrinsic hand muscles. The dorsal cutaneous branch instead supplies the dorsum of the medial hand and fingers, given off higher in the forearm, and the palmar cutaneous branch supplies skin over the medial palm proximal to the wrist crease — neither is the branch reaching the little finger's anterior (palmar) aspect distally.
+
+## answer_b
+deep terminal branch
+
+## explanation_b
+Incorrect. The deep terminal branch of the ulnar nerve is entirely motor and carries no cutaneous sensation.
+
+## answer_c
+dorsal cutaneous branch
+
+## explanation_c
+Incorrect. The dorsal cutaneous branch supplies the dorsum of the hand and fingers, not the anterior (palmar) aspect of the little finger.
+
+## answer_d
+palmar cutaneous branch
+
+## explanation_d
+Incorrect. The palmar cutaneous branch supplies skin over the medial palm proximal to the wrist, not the little finger itself.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+
+## concept_ids
+CON-MSK-F0F2BDF778A2DD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the superficial terminal branch of the ulnar nerve as sensory to the anterior little finger.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q102
+
+## title
+The lymph node draining an infected thumb
+
+## question
+a patient with inflammation of thumb, which lymph node drains this area?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+central axillary LN
+
+## explanation_a
+Incorrect. The central axillary group receives efferents from the other groups; it does not drain the thumb directly.
+
+## answer_b
+apical axillary LN
+
+## explanation_b
+Incorrect. The apical group is the final common pathway before the subclavian trunk; it does not drain the thumb directly.
+
+## answer_c
+Lateral axillary LN
+
+## explanation_c
+Correct. The thumb, like the rest of the lateral digits, drains along the cephalic vein's territory into the lateral (brachial/humeral) group of axillary lymph nodes, which follows the axillary vein and receives most of the arm's lymphatic drainage. The central group receives efferents from the pectoral, subscapular and lateral groups rather than draining skin directly, the apical group is the final common pathway before the subclavian trunk, and the anterior (pectoral) group instead drains the anterior chest wall and breast.
+
+## answer_d
+Anterior axillary LN
+
+## explanation_d
+Incorrect. The anterior (pectoral) group drains the anterior chest wall and breast, not the thumb.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-8AA227FAC19B41
+
+## concept_ids
+CON-MSK-8AA227FAC19B41
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the lateral (brachial) axillary lymph node group as draining the thumb.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q105
+
+## title
+Wrist drop with no sensory loss
+
+## question
+A patient come to the emergency with wrist drop But there was no loss of sensation in the whole upper limb, what is the traumatic nerve?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Radial nerve
+
+## explanation_a
+Incorrect. A proximal radial nerve injury would also take the sensory (superficial) branch, causing sensory loss, which this patient does not have.
+
+## answer_b
+ulnar nerve
+
+## explanation_b
+Incorrect. Ulnar nerve injury does not cause wrist drop; it causes claw-hand changes.
+
+## answer_c
+median nerve
+
+## explanation_c
+Incorrect. Median nerve injury does not cause wrist drop; it causes ape's hand or pointing index depending on the level.
+
+## answer_d
+Posterior interosseus nerve
+
+## explanation_d
+Correct. Wrist drop with no accompanying sensory loss points to an isolated posterior interosseous nerve lesion — the deep, purely motor terminal branch of the radial nerve — rather than a proximal radial nerve injury, which would also take the superficial (sensory) branch and cause sensory loss over the dorsum of the hand and forearm. The posterior interosseous nerve's isolated injury still causes finger and wrist extensor weakness (a form of "wrist drop") precisely because it carries no cutaneous fibres at all.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-1FC89E36FFD98E
+
+## concept_ids
+CON-MSK-1FC89E36FFD98E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Distinguish an isolated posterior interosseous nerve lesion (motor deficit, no sensory loss) from a proximal radial nerve injury.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q106
+
+## title
+Weakness of forearm supination: nerves at risk
+
+## question
+12-years old boy has weakness in supination of forearm, Which nerves may be injured?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Axillary nerve & Radial nerve
+
+## explanation_a
+Incorrect. The axillary nerve supplies deltoid and teres minor at the shoulder, neither of which supinates the forearm.
+
+## answer_b
+ulnar nerve & Radial nerve
+
+## explanation_b
+Incorrect. The ulnar nerve supplies no supinating muscle.
+
+## answer_c
+median nerve & Radial nerve
+
+## explanation_c
+Incorrect. The median nerve's forearm muscles (pronator teres, pronator quadratus) pronate, not supinate, the forearm.
+
+## answer_d
+Musculocutaneous & Radial nerve
+
+## explanation_d
+Correct. Supination is produced by two muscles acting together: biceps brachii, the more powerful supinator (supplied by the musculocutaneous nerve), and supinator itself, the weaker but still-active contributor (supplied by the deep branch/posterior interosseous branch of the radial nerve) — so weakness of supination points to injury of the musculocutaneous and radial nerves together. Axillary and ulnar nerves supply no supinating muscle, and the median nerve's forearm muscles are pronators, not supinators.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-F125616F7ED37A
+
+## concept_ids
+CON-MSK-F125616F7ED37A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name biceps brachii (musculocutaneous) and supinator (radial) as the two muscles/nerves behind forearm supination.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q107
+
+## title
+The nerve affected by a lower-trunk brachial plexus injury
+
+## question
+the lower trunk of Brachial plexus is injured, which nerve will be affected?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+musculocutaneous nerve
+
+## explanation_a
+Incorrect. The musculocutaneous nerve derives mainly from C5,6 (upper trunk/lateral cord), not the lower trunk.
+
+## answer_b
+dorsal scapular nerve
+
+## explanation_b
+Incorrect. The dorsal scapular nerve arises from the C5 root, not the lower trunk.
+
+## answer_c
+ulnar nerve
+
+## explanation_c
+Correct. The lower trunk of the brachial plexus (C8, T1) continues into the medial cord, whose direct continuation is the ulnar nerve, so a lower-trunk injury (Klumpke's paralysis) affects the ulnar nerve and the medial contribution to the median nerve, producing a claw-hand picture with intrinsic hand muscle weakness. The musculocutaneous, dorsal scapular and axillary nerves are all upper-trunk/root-level structures (C5,6-dominant), unaffected by a lower-trunk lesion.
+
+## answer_d
+axillary nerve
+
+## explanation_d
+Incorrect. The axillary nerve derives from C5,6 via the posterior cord, not the lower trunk.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-528AA0580391C0
+
+## concept_ids
+CON-MSK-528AA0580391C0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Trace a lower-trunk brachial plexus injury (Klumpke's) to the ulnar nerve via the medial cord.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q108
+
+## title
+The action that best builds latissimus dorsi mass
+
+## question
+If you want to increase the muscle mass of latissimus dorsi, which of the following actions would you most likely perform?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Depression of the scapula
+
+## explanation_a
+Incorrect. Depression of the scapula is a secondary action of latissimus dorsi, not its primary, mass-building action.
+
+## answer_b
+Abduction of the arm
+
+## explanation_b
+Incorrect. Latissimus dorsi adducts, rather than abducts, the arm; abduction is deltoid/supraspinatus's action.
+
+## answer_c
+Extension of the arm
+
+## explanation_c
+Correct. Latissimus dorsi's principal actions are extension, adduction and medial rotation of the arm at the shoulder — the classic "pull-down" and "pull-up" movements that resistance-train it — so extension of the arm is the action most directly loading and building this muscle. It does contribute a secondary depressive pull on the shoulder girdle (as in a "dip"), but its primary, mass-building action is arm extension; abduction and lateral rotation are actions of other muscles (deltoid/supraspinatus for abduction, infraspinatus/teres minor for lateral rotation) that latissimus dorsi opposes rather than performs.
+
+## answer_d
+Lateral rotation of the arm
+
+## explanation_d
+Incorrect. Latissimus dorsi medially, not laterally, rotates the arm; lateral rotation is infraspinatus/teres minor's action.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-1CA86BE843A07C
+
+## concept_ids
+CON-MSK-1CA86BE843A07C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name arm extension as latissimus dorsi's principal, muscle-building action.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q109
+
+## title
+The muscle behind weak medial rotation, flexion and adduction
+
+## question
+Patient has weakness of medial rotation and Flexion and Adduction of arm, what is the injured muscle?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pectoralis Major
+
+## explanation_a
+Correct. Pectoralis major is the one muscle that combines all three actions listed — flexion (via its clavicular head), adduction, and medial rotation of the shoulder — so weakness across all three together points to it specifically. Deltoid abducts (and its anterior fibres flex, but it does not adduct or medially rotate as a primary action), infraspinatus laterally rotates (the opposite of medial rotation), and teres major medially rotates and adducts but does not flex the shoulder.
+
+## answer_b
+Deltoid
+
+## explanation_b
+Incorrect. Deltoid does not adduct or medially rotate the shoulder as a primary action.
+
+## answer_c
+Infraspinatus
+
+## explanation_c
+Incorrect. Infraspinatus laterally rotates the shoulder, the opposite of the medial rotation described here.
+
+## answer_d
+Teres Major
+
+## explanation_d
+Incorrect. Teres major adducts and medially rotates but does not flex the shoulder, unlike pectoralis major.
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder Region
+
+## main_concept
+CON-MSK-2B9F47FC205689
+
+## concept_ids
+CON-MSK-2B9F47FC205689
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name pectoralis major as the single muscle combining flexion, adduction and medial rotation of the shoulder.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q112
+
+## title
+A feature of Erb's palsy
+
+## question
+injury of upper root of brachial plexus (Erb's palsy) .......
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+leads to loss of sensation on medial side of upper limb
+
+## explanation_a
+Incorrect. Erb's palsy causes sensory loss over the lateral side of the upper limb (C5,6 territory), not the medial side.
+
+## answer_b
+leads to permanent flexion of forearm
+
+## explanation_b
+Incorrect. With biceps (the main elbow flexor) paralysed, the elbow lies extended, not permanently flexed.
+
+## answer_c
+causes lateral rotation of arm
+
+## explanation_c
+Incorrect. With the lateral rotators paralysed and the medial rotators intact, the arm is medially, not laterally, rotated.
+
+## answer_d
+the forearm becomes pronated
+
+## explanation_d
+Correct. Erb's palsy (C5,6 injury) paralyses the abductors and lateral rotators of the shoulder along with biceps and supinator, so the arm hangs adducted and medially rotated with the elbow extended (unopposed triceps) and the forearm pronated (unopposed pronator teres, since biceps and supinator are lost) — the classic "waiter's tip" posture. Sensory loss in Erb's palsy affects the lateral, not medial, side of the limb (C5,6 territory), the elbow is extended rather than permanently flexed (since biceps, the flexor, is paralysed), and the arm is medially, not laterally, rotated.
+
+## topic
+Upper limb
+
+## subtopic
+The Axilla
+
+## main_concept
+CON-MSK-FD238B6D305E22
+
+## concept_ids
+CON-MSK-FD238B6D305E22
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Describe the waiter's-tip posture of Erb's palsy, including the pronated forearm from unopposed pronator teres.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q113
+
+## title
+The ligament affected by a radial head dislocation
+
+## question
+a case with dislocation of the head of the radius. Which of the following ligaments is most likely directly affected?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Annular ligament
+
+## explanation_a
+Correct. The annular ligament encircles and retains the head of the radius against the radial notch of the ulna at the superior radioulnar joint, so a radial head dislocation directly disrupts this ligament — classically in a young child pulled up sharply by the hand ("pulled elbow", nursemaid's elbow), where the annular ligament slips off the radial head rather than truly tearing. The joint capsule and the radial and ulnar collateral ligaments stabilise the elbow joint more broadly, but the annular ligament is the one structure specifically retaining the radial head itself.
+
+## answer_b
+Joint capsule
+
+## explanation_b
+Incorrect. The joint capsule stabilises the elbow joint broadly; the annular ligament is the specific structure retaining the radial head.
+
+## answer_c
+Radial collateral ligament
+
+## explanation_c
+Incorrect. The radial collateral ligament stabilises the lateral elbow against varus stress; it does not retain the radial head against the ulna.
+
+## answer_d
+Ulnar collateral ligament
+
+## explanation_d
+Incorrect. The ulnar collateral ligament stabilises the medial elbow against valgus stress; it does not retain the radial head.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-879B4239272078
+
+## concept_ids
+CON-MSK-879B4239272078
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the annular ligament as the structure directly disrupted by a radial head dislocation.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q114
+
+## title
+The nerve affected in carpal tunnel syndrome
+
+## question
+A 57-years old female complains from pins and needle sensation in her lateral 3 fingers, she was diagnosed as carpal tunnel syndrome, which nerve is affected?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+median nerve
+
+## explanation_a
+Correct. Carpal tunnel syndrome is compression of the median nerve under the flexor retinaculum, and its sensory territory is exactly the lateral three and a half fingers (thumb, index, middle, and the lateral half of the ring finger) — the classic distribution of the pins-and-needles this patient describes. Neither the ulnar nerve nor either branch of the radial nerve passes through the carpal tunnel, so none of them is affected by this specific compression.
+
+## answer_b
+ulnar nerve
+
+## explanation_b
+Incorrect. The ulnar nerve passes superficial to the flexor retinaculum (through Guyon's canal), not through the carpal tunnel, and supplies the medial, not lateral, fingers.
+
+## answer_c
+superficial radial nerve
+
+## explanation_c
+Incorrect. The superficial branch of the radial nerve supplies the dorsum of the hand and does not pass through the carpal tunnel.
+
+## answer_d
+deep radial nerve
+
+## explanation_d
+Incorrect. The deep branch of the radial nerve is purely motor to the forearm extensors and does not pass through the carpal tunnel or the hand at all.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-9B52018C4649BD
+
+## concept_ids
+CON-MSK-9B52018C4649BD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the median nerve as the nerve compressed in carpal tunnel syndrome, matching the lateral 3.5-finger sensory distribution.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q115
+
+## title
+The muscle affected in this patient's carpal tunnel syndrome
+
+## question
+which muscle may be affected?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+flexor carpi radialis
+
+## explanation_a
+Incorrect. Flexor carpi radialis is supplied by the median nerve proximal to the carpal tunnel, not by the branch compressed within it.
+
+## answer_b
+flexor pollicis longus
+
+## explanation_b
+Incorrect. Flexor pollicis longus is supplied by the anterior interosseous nerve proximal to the carpal tunnel, not by the branch compressed within it.
+
+## answer_c
+flexor pollicis brevis
+
+## explanation_c
+Correct. Carpal tunnel syndrome compresses the median nerve trunk within the tunnel, affecting the muscles its recurrent branch reaches AFTER passing through — the thenar muscles, including flexor pollicis brevis — producing the classic thenar wasting and weak thumb flexion/opposition of established carpal tunnel syndrome. Flexor carpi radialis and flexor pollicis longus are supplied by the median nerve proximal to the tunnel (so less selectively affected by a purely intra-tunnel compression), and adductor pollicis is ulnar-supplied and entirely unaffected.
+
+## answer_d
+adductor pollicis
+
+## explanation_d
+Incorrect. Adductor pollicis is supplied by the ulnar nerve, which does not pass through the carpal tunnel at all.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-9B52018C4649BD
+
+## concept_ids
+CON-MSK-9B52018C4649BD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name flexor pollicis brevis as a thenar muscle affected by carpal tunnel syndrome, distinct from muscles supplied proximal to the tunnel.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q116
+
+## title
+Sensory loss from a stab wound above the wrist
+
+## question
+if this nerve was injured above the wrist by a stab wound, the patient losses sensation over ....
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+lateral 2/3 of palm
+
+## explanation_a
+Incorrect alone. This area is genuinely lost, but so are the other two listed areas — all three are lost together.
+
+## answer_b
+anterior surface of lateral 3.5 fingers
+
+## explanation_b
+Incorrect alone. This area is genuinely lost, but so are the other two listed areas — all three are lost together.
+
+## answer_c
+posterior surface of terminal phalanges
+
+## explanation_c
+Incorrect alone. This area is genuinely lost, but so are the other two listed areas — all three are lost together.
+
+## answer_d
+all of the above
+
+## explanation_d
+Correct. A median nerve injury above the wrist takes out its entire sensory territory at once. This includes the palmar cutaneous branch's lateral two-thirds of the palm, the digital branches' anterior surface of the lateral three and a half fingers, and the same digital branches' dorsal extension onto the posterior surface of the terminal phalanges of those fingers. All three areas listed are genuinely lost together, making "all of the above" the complete and correct answer.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-37D3C3219F9806
+
+## concept_ids
+CON-MSK-37D3C3219F9806
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Enumerate the median nerve's full sensory territory (palm, palmar fingers, and the dorsal nail-bed exception) lost together by an above-wrist injury.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q117
+
+## title
+The effect of median nerve injury above the elbow
+
+## question
+if this nerve was injured above the elbow, this leads to ............
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+partial claw hand
+
+## explanation_a
+Incorrect. Partial claw hand follows an isolated ulnar nerve injury, not a median nerve injury.
+
+## answer_b
+complete claw hand
+
+## explanation_b
+Incorrect. Complete claw hand follows a lower brachial plexus (Klumpke's) injury, not an isolated median nerve injury above the elbow.
+
+## answer_c
+pointing index
+
+## explanation_c
+Correct. A median nerve injury above the elbow — before the anterior interosseous nerve and the branches to flexor digitorum superficialis are given off — produces "pointing index": asked to make a fist, the patient flexes the ulnar-supplied ring and little fingers normally but cannot flex the median/AIN-supplied index and middle fingers, so the index finger stays extended while the others curl. Claw hand (partial or complete) instead follows ulnar or combined ulnar+median lower-trunk injuries, not an isolated high median lesion, and median nerve injury weakens rather than produces wrist abduction.
+
+## answer_d
+abduction of the wrist
+
+## explanation_d
+Incorrect. A high median nerve injury weakens wrist flexion and abduction (via flexor carpi radialis) rather than producing abduction as a positive sign.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-D81C4A38D695CF
+
+## concept_ids
+CON-MSK-D81C4A38D695CF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name pointing index as the sign of a high (above-elbow) median nerve injury.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q119
+
+## title
+A branch of the radial nerve in the groove between brachialis and brachioradialis
+
+## question
+Which of the following is a branch from radial nerve in the groove between Brachialis and brachioradialis?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Posterior Cutaneous nerve of arm
+
+## explanation_a
+Incorrect. The posterior cutaneous nerve of the arm is given off in the axilla/upper arm, before the radial nerve reaches the spiral groove, well proximal to this interval.
+
+## answer_b
+Muscular Branch to Long Head of Triceps
+
+## explanation_b
+Incorrect. The muscular branch to the long head of triceps is given off in the spiral groove itself, proximal to this interval.
+
+## answer_c
+Muscular Branch to Extensor Carpi Radialis Longus
+
+## explanation_c
+Correct. As the radial nerve emerges from between brachialis and brachioradialis (having pierced the lateral intermuscular septum), it gives a muscular branch to extensor carpi radialis longus from the radial trunk itself, before dividing shortly after into its superficial and deep (posterior interosseous) terminal branches — this is why extensor carpi radialis longus keeps some function even in isolated posterior interosseous nerve lesions. The posterior cutaneous nerve of the arm, the branch to the long head of triceps, and the lower lateral cutaneous nerve of the arm are all given off higher up, in the spiral groove itself, before the nerve reaches this brachialis/brachioradialis interval.
+
+## answer_d
+Lower lateral cutaneous nerve of arm
+
+## explanation_d
+Incorrect. The lower lateral cutaneous nerve of the arm is given off in the spiral groove, proximal to this interval.
+
+## topic
+Upper limb
+
+## subtopic
+The Forearm
+
+## main_concept
+CON-MSK-1FC89E36FFD98E
+
+## concept_ids
+CON-MSK-1FC89E36FFD98E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name the branch to extensor carpi radialis longus as given off where the radial nerve emerges between brachialis and brachioradialis.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
+
+---
+
+# Item
+
+## id
+QST-AU105-EOM-UL-EOM-UL-Q120
+
+## title
+The action of flexor pollicis longus
+
+## question
+What is the action of Flexor Pollicis Longus?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Flexion of elbow
+
+## explanation_a
+Incorrect. Flexor pollicis longus acts at the thumb, not the elbow.
+
+## answer_b
+Flexion of 1st metacarpo-phalangeal joint
+
+## explanation_b
+Correct. Flexor pollicis longus's long tendon crosses both the metacarpophalangeal and interphalangeal joints of the thumb, and it flexes both — including the first (thumb) metacarpophalangeal joint, the action recorded here — though its most distinguishing action, since it is the only muscle that can, is flexing the thumb's interphalangeal joint specifically. It plays no role at the elbow, and it neither pronates nor supinates the forearm, those being pronator teres/quadratus's and biceps/supinator's actions respectively.
+
+## answer_c
+Pronation
+
+## explanation_c
+Incorrect. Pronation is produced by pronator teres and pronator quadratus, not flexor pollicis longus.
+
+## answer_d
+Supination
+
+## explanation_d
+Incorrect. Supination is produced by biceps brachii and supinator, not flexor pollicis longus.
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## main_concept
+CON-MSK-46C40109E7D957
+
+## concept_ids
+CON-MSK-46C40109E7D957
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=moderate
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Bank-tier revision (EOM-UL)
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-SHOULDER-REGION | ART-101-ANA-AXILLA-BREAST | ART-101-ANA-AXILLARY-NERVE | ART-101-ANA-BRACHIAL-ARTERY | ART-101-ANA-BRACHIAL-PLEXUS | ART-101-ANA-BRACHIAL-PLEXUS-INJURIES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-ELBOW-JOINT | ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-MUSCLES-OF-THE-BACK | ART-101-ANA-MUSCULOCUTANEOUS-NERVE | ART-101-ANA-PECTORALIS-MAJOR | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-SHOULDER-SPACES-ROTATION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-VEINS-OF-UPPER-LIMB
+
+## resource_ids
+src_6bb87147b493350691fc
+
+## learning_objective
+Name flexion of the thumb's metacarpophalangeal (and interphalangeal) joint as flexor pollicis longus's action.
+
+## source_citation
+EOM MCQs - Upper limb final MCQ (bank-tier revision compilation), Dr Ibrahim Amr
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: rendered answer table p25
