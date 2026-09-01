@@ -1523,7 +1523,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that extensor pollicis longus is supplied by the posterior interosseous nerve, the radial nerve's deep terminal branch.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -1667,7 +1667,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that flexor digitorum superficialis is supplied by the median nerve proper, not its anterior interosseous branch.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -1811,7 +1811,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that extensor digitorum is a deep-layer extensor supplied by the posterior interosseous nerve, alongside extensor digiti minimi and extensor carpi ulnaris.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -2511,7 +2511,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that abductor digiti minimi is a hypothenar muscle supplied by the deep branch of the ulnar nerve.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -2933,7 +2933,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that the palmar cutaneous branch of the ulnar nerve supplies the medial third of the palm.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -3077,7 +3077,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that the superficial branch of the radial nerve supplies the lateral two-thirds of the dorsum of the hand.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -4907,7 +4907,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+Identify flexor digiti minimi as a hypothenar muscle supplied by the deep branch of the ulnar nerve, distinct from the median-supplied forearm flexors.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -5329,7 +5329,7 @@ ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAN
 src_c86f47635016c192bd42
 
 ## learning_objective
-
+State that the suprascapular artery arises from the thyrocervical trunk of the subclavian artery.
 ## source_citation
 Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr
 
@@ -5461,7 +5461,7 @@ AU-MED-105 > Anatomy > Upper Limb > Forearm, Wrist and Hand
 ## question_only_for
 
 ## library_ids
-ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-DEEP-FASCIA | ART-101-ANA-SHOULDER-REGION | ART-101-ANA-SCAPULAR-ANASTOMOSIS
+ART-101-ANA-FOREARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-HAND-ARTERIES | ART-101-ANA-RADIAL-NERVE | ART-101-ANA-MEDIAN-ULNAR-NERVES | ART-101-ANA-ULNAR-ARTERY | ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES | ART-101-ANA-CUBITAL-FOSSA | ART-101-ANA-DEEP-FASCIA | ART-101-ANA-SHOULDER-REGION | ART-101-ANA-SCAPULAR-ANASTOMOSIS | ART-101-ANA-ARM
 
 ## resource_ids
 src_c86f47635016c192bd42
