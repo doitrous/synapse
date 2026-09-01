@@ -29,6 +29,8 @@
     "medical:batches-present": "python3 scripts/kasr/check-batches-present.py",
     "medical:batch": "node --experimental-strip-types scripts/validate-content-batch.mjs",
     "medical:simulate": "node --experimental-strip-types scripts/simulate-content-import.mjs",
+    "test:content": "node --test scripts/content/*.test.mjs",
+    "content:gate": "node scripts/content/gate.mjs",
     "content:pagetext": "node scripts/content/pagetext.mjs"
   },
   "dependencies": {

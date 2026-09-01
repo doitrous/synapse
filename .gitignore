@@ -78,3 +78,6 @@ scripts/alexandria/intake/textcache/
 
 # Python bytecode from the intake and extraction scripts
 __pycache__/
+
+# scripts/content/gate.mjs writes each gate's full output here (derived, large)
+.gates/
