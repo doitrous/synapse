@@ -227,7 +227,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -468,7 +468,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -675,7 +675,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -865,7 +865,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -1089,7 +1089,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -1294,7 +1294,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -1484,7 +1484,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -1673,7 +1673,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -1879,7 +1879,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -2085,7 +2085,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -2293,7 +2293,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -2500,7 +2500,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -2707,7 +2707,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -3065,7 +3065,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -3272,7 +3272,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -3581,7 +3581,844 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## title
+Sandfly taxonomy, development and bionomics
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Sandfly biology
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly biology
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly biology
+
+## summary
+Sandflies are small sandy-yellow dipteran vectors. Phlebotomus and Lutzomyia are the principal genera, and their complete metamorphosis, nocturnal feeding and weak hopping flight define the governed recognition profile.
+
+## sections
+### Definition
+Sandflies are sandy-yellow insects represented by Phlebotomus in the Old World and Lutzomyia in the New World. Phlebotomus papatasi is the locally prevalent species named in the Egypt teaching context.
+
+### Mechanism
+Sandflies undergo complete metamorphosis, with development from egg to adult taking about thirty days. The name Phlebotomus refers to sucking blood from veins. Females feed at night; adults rest by day in rodent burrows and in cracks or crevices in buildings. They are weak fliers with hopping movement and are more exophilic than endophilic while still using indoor refuges.
+
+### Key determinants
+Sandy-yellow colour explains the common name. Phlebotomus plus Lutzomyia identifies the genera; complete metamorphosis and thirty days define development; nocturnal feeding and weak hopping movement define bionomics.
+
+### Clinical significance
+Taxonomy, development and resting behaviour support vector recognition and explain why control must address both outdoor refuges and indoor cracks.
+
+### Common misconceptions
+Sandflies are not named because they breed in sand and do not breed in water. Exophilic behaviour does not mean that indoor refuges are absent.
+
+### Exam-linked statements
+Sandflies are called sandflies because they have a sandy yellow colour.
+Phlebotomus and Lutzomyia are sandfly genera.
+Sandflies undergo complete metamorphosis.
+Sandfly development from egg to adult takes about 30 days.
+Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+The name Phlebotomus refers to sucking blood from veins.
+Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+Female sandflies are nocturnal feeders.
+Sandflies are weak fliers and characteristically move by hopping.
+Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Sandflies are called sandflies because they have a sandy yellow colour.
+Phlebotomus and Lutzomyia are sandfly genera.
+Sandflies undergo complete metamorphosis.
+Sandfly development from egg to adult takes about 30 days.
+Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+The name Phlebotomus refers to sucking blood from veins.
+Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+Female sandflies are nocturnal feeders.
+Sandflies are weak fliers and characteristically move by hopping.
+Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+
+## lose_the_mark
+The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat.
+Culex, Aedes and Anopheles are mosquito genera rather than the complete sandfly pair offered here.
+The governed deck does not describe incomplete metamorphosis, direct development or absent metamorphosis.
+The governed deck gives 30 days, not 15, 45 or 60 days.
+Lutzomyia longipalpis is a New World sandfly, while Anopheles and Culex are mosquito genera.
+The offered Lutzomyia, Musca and Culex names are not given this meaning in the governed deck.
+Both A and B are supported; sandflies do not use water as the governed daytime hiding site.
+The governed statement is nocturnal, not diurnal, dawn-only or non-feeding.
+The deck does not describe strong continuous or long-distance flight, and burrows are resting habitat rather than movement.
+Sandflies are not restricted to indoors, do not breed in water and are not defined as biting only humans.
+
+## callout_evidence
+### Sandflies are called sandflies because they have a sandy yellow colour.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q01-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q01-01
+Reviewed by: pending medical review
+
+### Phlebotomus and Lutzomyia are sandfly genera.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q02-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q02-01
+Reviewed by: pending medical review
+
+### Sandflies undergo complete metamorphosis.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q03-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q03-01
+Reviewed by: pending medical review
+
+### Sandfly development from egg to adult takes about 30 days.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q04-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q04-01
+Reviewed by: pending medical review
+
+### Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q05-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q05-01
+Reviewed by: pending medical review
+
+### The name Phlebotomus refers to sucking blood from veins.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q06-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q06-01
+Reviewed by: pending medical review
+
+### Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q07-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q07-01
+Reviewed by: pending medical review
+
+### Female sandflies are nocturnal feeders.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q08-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q08-01
+Reviewed by: pending medical review
+
+### Sandflies are weak fliers and characteristically move by hopping.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q10-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q10-01
+Reviewed by: pending medical review
+
+### Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q30-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q30-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-04788D75905E81
+CON-INF-51472DA1BC2690
+CON-INF-F4702893869E6F
+CON-INF-D1A1215A337B4F
+CON-INF-3E498A4DEF942C
+CON-INF-D794E6CF4268C2
+CON-INF-E09D0599F15B92
+CON-INF-509BF395C5EBF9
+CON-INF-3D7119FED6F45C
+
+## related_articles
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES: Sandfly bite reactions and transmitted diseases
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL: Sandfly bite prevention and habitat control
+
+## question_ids
+QST-MUST-FHB1022-PARA-SAND2-Q01
+QST-MUST-FHB1022-PARA-SAND2-Q02
+QST-MUST-FHB1022-PARA-SAND2-Q03
+QST-MUST-FHB1022-PARA-SAND2-Q04
+QST-MUST-FHB1022-PARA-SAND2-Q05
+QST-MUST-FHB1022-PARA-SAND2-Q06
+QST-MUST-FHB1022-PARA-SAND2-Q07
+QST-MUST-FHB1022-PARA-SAND2-Q08
+QST-MUST-FHB1022-PARA-SAND2-Q10
+QST-MUST-FHB1022-PARA-SAND2-Q30
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_a82c32271ee38d0b2cad
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q01-01
+CLM-INF-MUST-FHB1022-SAND2-Q02-01
+CLM-INF-MUST-FHB1022-SAND2-Q03-01
+CLM-INF-MUST-FHB1022-SAND2-Q04-01
+CLM-INF-MUST-FHB1022-SAND2-Q05-01
+CLM-INF-MUST-FHB1022-SAND2-Q06-01
+CLM-INF-MUST-FHB1022-SAND2-Q07-01
+CLM-INF-MUST-FHB1022-SAND2-Q08-01
+CLM-INF-MUST-FHB1022-SAND2-Q10-01
+CLM-INF-MUST-FHB1022-SAND2-Q30-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-SAND2-Q01-01
+SPN-INF-MUST-FHB1022-SAND2-Q02-01
+SPN-INF-MUST-FHB1022-SAND2-Q03-01
+SPN-INF-MUST-FHB1022-SAND2-Q04-01
+SPN-INF-MUST-FHB1022-SAND2-Q05-01
+SPN-INF-MUST-FHB1022-SAND2-Q06-01
+SPN-INF-MUST-FHB1022-SAND2-Q07-01
+SPN-INF-MUST-FHB1022-SAND2-Q08-01
+SPN-INF-MUST-FHB1022-SAND2-Q10-01
+SPN-INF-MUST-FHB1022-SAND2-Q30-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-04788D75905E81
+Quote: Sandflies are called sandflies because they have a sandy yellow colour.
+Block: body
+Id: ann-must-fhb1022-sand2-q01
+
+### definition_of · CON-INF-51472DA1BC2690
+Quote: Phlebotomus and Lutzomyia are sandfly genera.
+Block: body
+Id: ann-must-fhb1022-sand2-q02
+
+### definition_of · CON-INF-F4702893869E6F
+Quote: Sandflies undergo complete metamorphosis.
+Block: body
+Id: ann-must-fhb1022-sand2-q03
+
+### definition_of · CON-INF-F4702893869E6F
+Quote: Sandfly development from egg to adult takes about 30 days.
+Block: body
+Id: ann-must-fhb1022-sand2-q04
+
+### definition_of · CON-INF-D1A1215A337B4F
+Quote: Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+Block: body
+Id: ann-must-fhb1022-sand2-q05
+
+### definition_of · CON-INF-3E498A4DEF942C
+Quote: The name Phlebotomus refers to sucking blood from veins.
+Block: body
+Id: ann-must-fhb1022-sand2-q06
+
+### definition_of · CON-INF-D794E6CF4268C2
+Quote: Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+Block: body
+Id: ann-must-fhb1022-sand2-q07
+
+### definition_of · CON-INF-E09D0599F15B92
+Quote: Female sandflies are nocturnal feeders.
+Block: body
+Id: ann-must-fhb1022-sand2-q08
+
+### definition_of · CON-INF-509BF395C5EBF9
+Quote: Sandflies are weak fliers and characteristically move by hopping.
+Block: body
+Id: ann-must-fhb1022-sand2-q10
+
+### definition_of · CON-INF-3D7119FED6F45C
+Quote: Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+Block: body
+Id: ann-must-fhb1022-sand2-q30
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## title
+Sandfly bite reactions and transmitted diseases
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Sandfly-transmitted disease
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly-transmitted disease
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly-transmitted disease
+
+## summary
+Sandflies cause the local Harrara bite reaction and transmit leishmaniasis, viral sandfly fever and Bartonella bacilliformis infection causing Oroya fever.
+
+## sections
+### Definition
+The direct local sandfly-bite reaction is Harrara, a painful itchy red papule surrounded by erythema. Distinct transmitted diseases include leishmaniasis, viral sandfly fever and Oroya fever.
+
+### Mechanism
+Sandfly fever is caused by a virus. Oroya fever is caused by Bartonella bacilliformis, produces acute hemolytic anemia and follows a propagative transmission pattern in the vector.
+
+### Key determinants
+Harrara identifies the local bite reaction; virus identifies sandfly fever; Bartonella bacilliformis, hemolytic anemia and propagative transmission identify the Oroya-fever profile.
+
+### Clinical significance
+Separating the local reaction from vector-borne infection prevents confusion between Harrara, leishmaniasis, sandfly fever and Oroya fever.
+
+### Common misconceptions
+Malaria is not in the governed sandfly disease list. Leishmania and Bartonella bacilliformis do not cause viral sandfly fever, and Oroya fever is not classified as mechanical transmission.
+
+### Exam-linked statements
+A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+The local reaction caused by a sandfly bite is called Harrara.
+Sandfly fever is caused by a virus.
+Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.
+Oroya fever is caused by Bartonella bacilliformis.
+Oroya fever is associated with acute hemolytic anemia.
+Bartonellosis is transmitted propagatively by sandflies.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+The local reaction caused by a sandfly bite is called Harrara.
+Sandfly fever is caused by a virus.
+Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.
+Oroya fever is caused by Bartonella bacilliformis.
+Oroya fever is associated with acute hemolytic anemia.
+Bartonellosis is transmitted propagatively by sandflies.
+
+## lose_the_mark
+The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister.
+Oroya fever, leishmaniasis and sandfly fever are transmitted diseases rather than the local bite reaction.
+Leishmania causes leishmaniasis and Bartonella bacilliformis causes Oroya fever; neither is the sandfly-fever agent.
+Leishmaniasis, Oroya fever and sandfly fever are all explicitly listed as sandfly-transmitted diseases.
+Leishmania, Plasmodium and Trypanosoma are not the causative agent named for Oroya fever.
+The governed association is hemolysis, not iron deficiency, megaloblastic or aplastic anemia.
+The governed deck distinguishes this propagative pattern from cyclopropagative leishmaniasis and mechanical transmission.
+
+## callout_evidence
+### A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q09-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q09-01
+Reviewed by: pending medical review
+
+### The local reaction caused by a sandfly bite is called Harrara.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q11-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q11-01
+Reviewed by: pending medical review
+
+### Sandfly fever is caused by a virus.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q13-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q13-01
+Reviewed by: pending medical review
+
+### Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q14-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q14-01
+Reviewed by: pending medical review
+
+### Oroya fever is caused by Bartonella bacilliformis.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q21-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q21-01
+Reviewed by: pending medical review
+
+### Oroya fever is associated with acute hemolytic anemia.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q23-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q23-01
+Reviewed by: pending medical review
+
+### Bartonellosis is transmitted propagatively by sandflies.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q24-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q24-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-D884D3F6076D08
+CON-INF-F538E763E1260E
+CON-INF-482144C092C2DD
+
+## related_articles
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY: Sandfly taxonomy, development and bionomics
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL: Sandfly bite prevention and habitat control
+
+## question_ids
+QST-MUST-FHB1022-PARA-SAND2-Q09
+QST-MUST-FHB1022-PARA-SAND2-Q11
+QST-MUST-FHB1022-PARA-SAND2-Q13
+QST-MUST-FHB1022-PARA-SAND2-Q14
+QST-MUST-FHB1022-PARA-SAND2-Q21
+QST-MUST-FHB1022-PARA-SAND2-Q23
+QST-MUST-FHB1022-PARA-SAND2-Q24
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_a82c32271ee38d0b2cad
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q09-01
+CLM-INF-MUST-FHB1022-SAND2-Q11-01
+CLM-INF-MUST-FHB1022-SAND2-Q13-01
+CLM-INF-MUST-FHB1022-SAND2-Q14-01
+CLM-INF-MUST-FHB1022-SAND2-Q21-01
+CLM-INF-MUST-FHB1022-SAND2-Q23-01
+CLM-INF-MUST-FHB1022-SAND2-Q24-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-SAND2-Q09-01
+SPN-INF-MUST-FHB1022-SAND2-Q11-01
+SPN-INF-MUST-FHB1022-SAND2-Q13-01
+SPN-INF-MUST-FHB1022-SAND2-Q14-01
+SPN-INF-MUST-FHB1022-SAND2-Q21-01
+SPN-INF-MUST-FHB1022-SAND2-Q23-01
+SPN-INF-MUST-FHB1022-SAND2-Q24-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-D884D3F6076D08
+Quote: A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+Block: body
+Id: ann-must-fhb1022-sand2-q09
+
+### definition_of · CON-INF-D884D3F6076D08
+Quote: The local reaction caused by a sandfly bite is called Harrara.
+Block: body
+Id: ann-must-fhb1022-sand2-q11
+
+### definition_of · CON-INF-F538E763E1260E
+Quote: Sandfly fever is caused by a virus.
+Block: body
+Id: ann-must-fhb1022-sand2-q13
+
+### definition_of · CON-INF-F538E763E1260E
+Quote: Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.
+Block: body
+Id: ann-must-fhb1022-sand2-q14
+
+### definition_of · CON-INF-482144C092C2DD
+Quote: Oroya fever is caused by Bartonella bacilliformis.
+Block: body
+Id: ann-must-fhb1022-sand2-q21
+
+### definition_of · CON-INF-482144C092C2DD
+Quote: Oroya fever is associated with acute hemolytic anemia.
+Block: body
+Id: ann-must-fhb1022-sand2-q23
+
+### definition_of · CON-INF-482144C092C2DD
+Quote: Bartonellosis is transmitted propagatively by sandflies.
+Block: body
+Id: ann-must-fhb1022-sand2-q24
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists.
+media: The questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Every listed relationship is reciprocal through complete records generated in this bounded import. Prior exact-ID records preserve their governed content and relationships while adding only the approved links.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## title
+Sandfly bite prevention and habitat control
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Sandfly control
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly control
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly control
+
+## summary
+Sandfly control combines narrow-mesh bed nets, repellents, crack filling and insecticides and is directed at non-aquatic resting and breeding habitats.
+
+## sections
+### Definition
+Sandfly prevention uses personal barriers and habitat control suited to a very small, non-aquatic vector.
+
+### Mechanism
+Narrow-mesh mosquito nets help prevent bites. Filling wall cracks removes refuges, and insecticide spraying targets resting adults. Because sandflies do not breed in water, draining stagnant water is not the sandfly-specific control action in the governed set.
+
+### Key determinants
+Narrow mesh identifies the protective net; crack filling and insecticides identify habitat control; non-aquatic breeding excludes stagnant-water drainage from the offered sandfly measures.
+
+### Clinical significance
+Matching intervention to vector habitat supports practical bite prevention without importing mosquito breeding-site assumptions.
+
+### Common misconceptions
+Do not stop using repellents or replace narrow-mesh nets with unsupported measures. Do not treat stagnant-water drainage as the defining sandfly-control method.
+
+### Exam-linked statements
+Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+
+## lose_the_mark
+Stopping repellents, burning plants and dark clothing are not the governed prevention recommendation.
+Crack filling, insecticide spraying and bed nets are each explicitly recommended.
+
+## callout_evidence
+### Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q26-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q26-01
+Reviewed by: pending medical review
+
+### Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+Claims: CLM-INF-MUST-FHB1022-SAND2-Q27-01
+Citations: CIT-INF-MUST-FHB1022-SAND2-Q27-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-D5B09C8CE384D6
+CON-INF-C6B9B514C3AC20
+
+## related_articles
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY: Sandfly taxonomy, development and bionomics
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES: Sandfly bite reactions and transmitted diseases
+
+## question_ids
+QST-MUST-FHB1022-PARA-SAND2-Q26
+QST-MUST-FHB1022-PARA-SAND2-Q27
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_a82c32271ee38d0b2cad
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q26-01
+CLM-INF-MUST-FHB1022-SAND2-Q27-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-SAND2-Q26-01
+SPN-INF-MUST-FHB1022-SAND2-Q27-01
+
+## university_notes
+must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
+
+## annotations
+### definition_of · CON-INF-D5B09C8CE384D6
+Quote: Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+Block: body
+Id: ann-must-fhb1022-sand2-q26
+
+### definition_of · CON-INF-C6B9B514C3AC20
+Quote: Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+Block: body
+Id: ann-must-fhb1022-sand2-q27
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Governed MUST FHB102-2 teaching decks, visually read on the exact cited pages.
+Absalam101 revision banks, visually read on the exact prompt pages and corresponding printed answer tables.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. Held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The source-printed keys remain student-bank evidence and were not upgraded to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.

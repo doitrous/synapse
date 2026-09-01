@@ -2241,3 +2241,839 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mosquitoes Q30
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q01-01
+
+## concept_id
+CON-INF-04788D75905E81
+
+## subject
+Sandflies are named for their sandy yellow colour
+
+## predicate
+states
+
+## object
+Sandflies are called sandflies because they have a sandy yellow colour.
+
+## display_text
+Sandflies are called sandflies because they have a sandy yellow colour.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q1
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q02-01
+
+## concept_id
+CON-INF-51472DA1BC2690
+
+## subject
+Phlebotomus and Lutzomyia are sandfly genera
+
+## predicate
+states
+
+## object
+Phlebotomus and Lutzomyia are sandfly genera.
+
+## display_text
+Phlebotomus and Lutzomyia are sandfly genera.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q2
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q03-01
+
+## concept_id
+CON-INF-F4702893869E6F
+
+## subject
+Sandflies complete metamorphosis in about thirty days
+
+## predicate
+states
+
+## object
+Sandflies undergo complete metamorphosis.
+
+## display_text
+Sandflies undergo complete metamorphosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q3
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q04-01
+
+## concept_id
+CON-INF-F4702893869E6F
+
+## subject
+Sandflies complete metamorphosis in about thirty days
+
+## predicate
+states
+
+## object
+Sandfly development from egg to adult takes about 30 days.
+
+## display_text
+Sandfly development from egg to adult takes about 30 days.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q4
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q05-01
+
+## concept_id
+CON-INF-D1A1215A337B4F
+
+## subject
+Phlebotomus papatasi is prevalent in Egypt
+
+## predicate
+states
+
+## object
+Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+
+## display_text
+Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q5
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q06-01
+
+## concept_id
+CON-INF-3E498A4DEF942C
+
+## subject
+Phlebotomus is named for sucking blood from veins
+
+## predicate
+states
+
+## object
+The name Phlebotomus refers to sucking blood from veins.
+
+## display_text
+The name Phlebotomus refers to sucking blood from veins.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q6
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q07-01
+
+## concept_id
+CON-INF-D794E6CF4268C2
+
+## subject
+Adult sandflies hide in burrows and building cracks by day
+
+## predicate
+states
+
+## object
+Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+
+## display_text
+Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q7
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q08-01
+
+## concept_id
+CON-INF-E09D0599F15B92
+
+## subject
+Female sandflies feed at night
+
+## predicate
+states
+
+## object
+Female sandflies are nocturnal feeders.
+
+## display_text
+Female sandflies are nocturnal feeders.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q8
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q09-01
+
+## concept_id
+CON-INF-D884D3F6076D08
+
+## subject
+Sandfly bites cause the painful itchy Harrara reaction
+
+## predicate
+states
+
+## object
+A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+
+## display_text
+A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q9
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q10-01
+
+## concept_id
+CON-INF-509BF395C5EBF9
+
+## subject
+Sandflies are weak fliers with hopping movement
+
+## predicate
+states
+
+## object
+Sandflies are weak fliers and characteristically move by hopping.
+
+## display_text
+Sandflies are weak fliers and characteristically move by hopping.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q10
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q11-01
+
+## concept_id
+CON-INF-D884D3F6076D08
+
+## subject
+Sandfly bites cause the painful itchy Harrara reaction
+
+## predicate
+states
+
+## object
+The local reaction caused by a sandfly bite is called Harrara.
+
+## display_text
+The local reaction caused by a sandfly bite is called Harrara.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q11
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q13-01
+
+## concept_id
+CON-INF-F538E763E1260E
+
+## subject
+Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever
+
+## predicate
+states
+
+## object
+Sandfly fever is caused by a virus.
+
+## display_text
+Sandfly fever is caused by a virus.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q13
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q14-01
+
+## concept_id
+CON-INF-F538E763E1260E
+
+## subject
+Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever
+
+## predicate
+states
+
+## object
+Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.
+
+## display_text
+Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q14
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q21-01
+
+## concept_id
+CON-INF-482144C092C2DD
+
+## subject
+Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia
+
+## predicate
+states
+
+## object
+Oroya fever is caused by Bartonella bacilliformis.
+
+## display_text
+Oroya fever is caused by Bartonella bacilliformis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q21
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q23-01
+
+## concept_id
+CON-INF-482144C092C2DD
+
+## subject
+Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia
+
+## predicate
+states
+
+## object
+Oroya fever is associated with acute hemolytic anemia.
+
+## display_text
+Oroya fever is associated with acute hemolytic anemia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q23
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q24-01
+
+## concept_id
+CON-INF-482144C092C2DD
+
+## subject
+Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia
+
+## predicate
+states
+
+## object
+Bartonellosis is transmitted propagatively by sandflies.
+
+## display_text
+Bartonellosis is transmitted propagatively by sandflies.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q24
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q26-01
+
+## concept_id
+CON-INF-D5B09C8CE384D6
+
+## subject
+Narrow-mesh nets help prevent sandfly bites
+
+## predicate
+states
+
+## object
+Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+
+## display_text
+Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q26
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q27-01
+
+## concept_id
+CON-INF-C6B9B514C3AC20
+
+## subject
+Sandfly control does not rely on draining stagnant water
+
+## predicate
+states
+
+## object
+Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+
+## display_text
+Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q27
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-SAND2-Q30-01
+
+## concept_id
+CON-INF-3D7119FED6F45C
+
+## subject
+Sandflies are more exophilic than endophilic but use indoor refuges
+
+## predicate
+states
+
+## object
+Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+
+## display_text
+Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Sandfly Q30

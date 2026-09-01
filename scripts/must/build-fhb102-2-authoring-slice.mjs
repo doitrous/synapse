@@ -65,6 +65,9 @@ const introArticles = {
   mosquitoBiology: 'ART-INF-MUST-FHB1022-MOSQUITO-BIOLOGY',
   mosquitoDiseases: 'ART-INF-MUST-FHB1022-MOSQUITO-DISEASES',
   mosquitoControl: 'ART-INF-MUST-FHB1022-MOSQUITO-CONTROL',
+  sandflyBiology: 'ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY',
+  sandflyDiseases: 'ART-INF-MUST-FHB1022-SANDFLY-DISEASES',
+  sandflyControl: 'ART-INF-MUST-FHB1022-SANDFLY-CONTROL',
 }
 
 const introArticleRelations = {
@@ -85,6 +88,9 @@ const introArticleRelations = {
   mosquitoBiology: ['mosquitoDiseases', 'mosquitoControl'],
   mosquitoDiseases: ['mosquitoBiology', 'mosquitoControl'],
   mosquitoControl: ['mosquitoBiology', 'mosquitoDiseases'],
+  sandflyBiology: ['sandflyDiseases', 'sandflyControl'],
+  sandflyDiseases: ['sandflyBiology', 'sandflyControl'],
+  sandflyControl: ['sandflyBiology', 'sandflyDiseases'],
 }
 
 const introItems = [
@@ -466,6 +472,35 @@ const mosquitoItems = [
 }))
 
 introItems.push(...mosquitoItems)
+
+const sandflyItems = [
+  { q: 1, conceptId: 'CON-INF-04788D75905E81', canonicalKey: 'parasitology.sandfly.name-sandy-yellow', label: 'Sandflies are named for their sandy yellow colour', aliases: ['Sandfly name', 'Sandy yellow sandfly'], conceptType: 'morphology', article: 'sandflyBiology', microtopic: 'Sandfly morphology', teachingPage: 2, assessmentPage: 10, stem: 'Why are sandflies called "sandflies"?', key: 'B', options: ['They breed in sand', 'They have a sandy yellow color', 'They live in deserts only', 'They are found in beaches'], claim: 'Sandflies are called sandflies because they have a sandy yellow colour.', support: 'The official deck directly describes sandflies as sandy yellow.', objective: 'Identify sandy yellow colour as the basis of the sandfly name.', pitfalls: 'The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat.', rejected: [] },
+  { q: 2, conceptId: 'CON-INF-51472DA1BC2690', canonicalKey: 'parasitology.sandfly.genera-phlebotomus-lutzomyia', label: 'Phlebotomus and Lutzomyia are sandfly genera', aliases: ['Sandfly genera', 'Phlebotomus and Lutzomyia'], conceptType: 'classification', article: 'sandflyBiology', microtopic: 'Sandfly taxonomy', teachingPage: 4, assessmentPage: 10, stem: 'Which of the following genera belong to sandflies?', key: 'C', options: ['Culex and Aedes', 'Anopheles and Culex', 'Phlebotomus and Lutzomyia', 'Aedes and Phlebotomus'], claim: 'Phlebotomus and Lutzomyia are sandfly genera.', support: 'The official deck lists Phlebotomus in the Old World and Lutzomyia in the New World.', objective: 'Recognise Phlebotomus and Lutzomyia as sandfly genera.', pitfalls: 'Culex, Aedes and Anopheles are mosquito genera rather than the complete sandfly pair offered here.', rejected: [] },
+  { q: 3, conceptId: 'CON-INF-F4702893869E6F', canonicalKey: 'parasitology.sandfly.complete-metamorphosis-30-days', label: 'Sandflies complete metamorphosis in about thirty days', aliases: ['Sandfly metamorphosis', 'Thirty-day sandfly development'], conceptType: 'life cycle', article: 'sandflyBiology', microtopic: 'Sandfly life cycle', teachingPage: 6, assessmentPage: 10, stem: 'What type of metamorphosis do sandflies undergo?', key: 'B', options: ['Incomplete metamorphosis', 'Complete metamorphosis', 'Direct development', 'None of the above'], claim: 'Sandflies undergo complete metamorphosis.', support: 'The official life-cycle slide directly states complete metamorphosis.', objective: 'Identify complete metamorphosis as the sandfly developmental pattern.', pitfalls: 'The governed deck does not describe incomplete metamorphosis, direct development or absent metamorphosis.', rejected: [] },
+  { q: 4, conceptId: 'CON-INF-F4702893869E6F', canonicalKey: 'parasitology.sandfly.complete-metamorphosis-30-days', label: 'Sandflies complete metamorphosis in about thirty days', aliases: ['Sandfly metamorphosis', 'Thirty-day sandfly development'], conceptType: 'life cycle', article: 'sandflyBiology', microtopic: 'Sandfly life cycle', teachingPage: 6, assessmentPage: 11, stem: 'What is the lifespan of sandfly development from egg to adult?', key: 'B', options: ['15 days', '30 days', '45 days', '60 days'], claim: 'Sandfly development from egg to adult takes about 30 days.', support: 'The official life-cycle slide gives approximately 30 days from egg through larva and pupa to adult.', objective: 'Recall the approximately thirty-day sandfly developmental period.', pitfalls: 'The governed deck gives 30 days, not 15, 45 or 60 days.', rejected: [] },
+  { q: 5, conceptId: 'CON-INF-D1A1215A337B4F', canonicalKey: 'parasitology.sandfly.papatasi-egypt', label: 'Phlebotomus papatasi is prevalent in Egypt', aliases: ['Egyptian sandfly species', 'Phlebotomus papatasi'], conceptType: 'epidemiology', article: 'sandflyBiology', microtopic: 'Sandfly distribution', teachingPage: 4, assessmentPage: 11, stem: 'Which species of sandfly is prevalent in Egypt?', key: 'B', options: ['Lutzomyia longipalpis', 'Phlebotomus papatasi', 'Anopheles gambiae', 'Culex quinquefasciatus'], claim: 'Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.', support: 'The official deck identifies Phlebotomus papatasii as the species prevalent in Egypt; the assessment spelling papatasi is retained unchanged.', objective: 'Identify Phlebotomus papatasi as the locally prevalent sandfly species.', pitfalls: 'Lutzomyia longipalpis is a New World sandfly, while Anopheles and Culex are mosquito genera.', rejected: [] },
+  { q: 6, conceptId: 'CON-INF-3E498A4DEF942C', canonicalKey: 'parasitology.sandfly.phlebotomus-sucks-blood-veins', label: 'Phlebotomus is named for sucking blood from veins', aliases: ['Phlebotomus name meaning', 'Vein blood feeding'], conceptType: 'definition', article: 'sandflyBiology', microtopic: 'Sandfly terminology', teachingPage: 2, assessmentPage: 11, stem: 'Which of the following sucks blood from veins?', key: 'B', options: ['Lutzomyia', 'Phlebotomus', 'Musca domestica', 'Culex'], claim: 'The name Phlebotomus refers to sucking blood from veins.', support: 'The official deck explains Phlebotomus as sucking blood from veins.', objective: 'Associate vein blood-feeding terminology with Phlebotomus.', pitfalls: 'The offered Lutzomyia, Musca and Culex names are not given this meaning in the governed deck.', rejected: [] },
+  { q: 7, conceptId: 'CON-INF-D794E6CF4268C2', canonicalKey: 'parasitology.sandfly.daytime-hiding-burrows-cracks', label: 'Adult sandflies hide in burrows and building cracks by day', aliases: ['Sandfly daytime hiding places', 'Burrow and crack resting sites'], conceptType: 'behaviour', article: 'sandflyBiology', microtopic: 'Sandfly bionomics', teachingPage: 8, assessmentPage: 11, stem: 'During the daytime, where are adult sandflies most likely to hide?', key: 'D', options: ['In rodent burrows', 'Inside cracks or crevices in buildings', 'Inside water', 'A & B'], claim: 'Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.', support: 'The official bionomics slide lists rodent burrows and cracks or crevices in buildings as daytime resting sites.', objective: 'Select both governed daytime hiding habitats.', pitfalls: 'Both A and B are supported; sandflies do not use water as the governed daytime hiding site.', rejected: [] },
+  { q: 8, conceptId: 'CON-INF-E09D0599F15B92', canonicalKey: 'parasitology.sandfly.female-nocturnal-feeder', label: 'Female sandflies feed at night', aliases: ['Nocturnal female sandfly', 'Sandfly feeding time'], conceptType: 'behaviour', article: 'sandflyBiology', microtopic: 'Sandfly bionomics', teachingPage: 8, assessmentPage: 12, stem: 'What type of feeder is a female sandfly?', key: 'B', options: ['Diurnal (feeds during the day)', 'Nocturnal (feeds at night)', 'Crepuscular (feeds at dawn)', 'Non-feeding'], claim: 'Female sandflies are nocturnal feeders.', support: 'The official bionomics slide directly states that females feed at night.', objective: 'Identify the female sandfly as a nocturnal feeder.', pitfalls: 'The governed statement is nocturnal, not diurnal, dawn-only or non-feeding.', rejected: [] },
+  { q: 9, conceptId: 'CON-INF-D884D3F6076D08', canonicalKey: 'parasitology.sandfly.harrara-bite-reaction', label: 'Sandfly bites cause the painful itchy Harrara reaction', aliases: ['Harrara', 'Sandfly bite papule'], conceptType: 'clinical association', article: 'sandflyDiseases', microtopic: 'Sandfly bite reaction', teachingPage: 11, assessmentPage: 12, stem: 'What type of reaction is typically seen at the bite site of a sandfly?', key: 'C', options: ['A painless mark with no symptoms', 'A small bruise that quickly fades', 'A painful and itchy red papule surrounded by erythema', 'Immediate blister formation'], claim: 'A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.', support: 'The official clinical slide directly describes a painful itchy red papule surrounded by erythema.', objective: 'Recognise the characteristic local sandfly-bite reaction.', pitfalls: 'The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister.', rejected: [] },
+  { q: 10, conceptId: 'CON-INF-509BF395C5EBF9', canonicalKey: 'parasitology.sandfly.weak-hopping-flight', label: 'Sandflies are weak fliers with hopping movement', aliases: ['Sandfly movement', 'Weak hopping flight'], conceptType: 'behaviour', article: 'sandflyBiology', microtopic: 'Sandfly bionomics', teachingPage: 8, assessmentPage: 12, stem: 'How do sandflies typically move?', key: 'C', options: ['Long-distance flight', 'Strong, continuous flight', 'Weak fliers, hopping movement', 'Underground burrowing'], claim: 'Sandflies are weak fliers and characteristically move by hopping.', support: 'The official bionomics slide directly describes weak flight and hopping movement.', objective: 'Identify weak hopping movement as characteristic sandfly locomotion.', pitfalls: 'The deck does not describe strong continuous or long-distance flight, and burrows are resting habitat rather than movement.', rejected: [] },
+  { q: 11, conceptId: 'CON-INF-D884D3F6076D08', canonicalKey: 'parasitology.sandfly.harrara-bite-reaction', label: 'Sandfly bites cause the painful itchy Harrara reaction', aliases: ['Harrara', 'Sandfly bite papule'], conceptType: 'clinical association', article: 'sandflyDiseases', microtopic: 'Sandfly bite reaction', teachingPages: '10–11', assessmentPage: 12, stem: 'What is the local reaction caused by a sandfly bite called?', key: 'C', options: ['Oroya fever', 'Leishmaniasis', 'Harrara', 'Sandfly fever'], claim: 'The local reaction caused by a sandfly bite is called Harrara.', support: 'The official deck names the direct bite reaction Harrara and describes its painful itchy papule.', objective: 'Name Harrara as the local sandfly-bite reaction.', pitfalls: 'Oroya fever, leishmaniasis and sandfly fever are transmitted diseases rather than the local bite reaction.', rejected: [] },
+  { q: 13, conceptId: 'CON-INF-F538E763E1260E', canonicalKey: 'parasitology.sandfly.disease-profile', label: 'Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever', aliases: ['Sandfly-transmitted diseases', 'Sandfly fever virus'], conceptType: 'clinical association', article: 'sandflyDiseases', microtopic: 'Sandfly-transmitted disease', teachingPages: '10, 26', assessmentPage: 13, stem: 'What is the causative agent of sandfly fever?', key: 'C', options: ['Leishmania spp.', 'Bartonella bacilliformis', 'Virus', 'Protozoa'], claim: 'Sandfly fever is caused by a virus.', support: 'The official deck lists viral sandfly fever and directly states that sandfly fever is caused by a virus.', objective: 'Identify a virus as the cause of sandfly fever.', pitfalls: 'Leishmania causes leishmaniasis and Bartonella bacilliformis causes Oroya fever; neither is the sandfly-fever agent.', rejected: [] },
+  { q: 14, conceptId: 'CON-INF-F538E763E1260E', canonicalKey: 'parasitology.sandfly.disease-profile', label: 'Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever', aliases: ['Sandfly-transmitted diseases', 'Sandfly fever virus'], conceptType: 'clinical association', article: 'sandflyDiseases', microtopic: 'Sandfly-transmitted disease', teachingPage: 10, assessmentPage: 13, stem: 'Which of the following diseases is NOT transmitted by sandflies?', key: 'B', options: ['Leishmaniasis', 'Malaria', 'Oroya fever', 'Sandfly fever'], claim: 'Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.', support: 'The official disease list includes leishmaniasis, Oroya fever and viral sandfly fever and does not include malaria.', objective: 'Identify malaria as outside the governed sandfly-transmitted disease list.', pitfalls: 'Leishmaniasis, Oroya fever and sandfly fever are all explicitly listed as sandfly-transmitted diseases.', rejected: [] },
+  { q: 21, conceptId: 'CON-INF-482144C092C2DD', canonicalKey: 'parasitology.sandfly.oroya-profile', label: 'Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia', aliases: ['Oroya fever profile', 'Bartonella sandfly transmission'], conceptType: 'clinical association', article: 'sandflyDiseases', microtopic: 'Oroya fever', teachingPage: 28, assessmentPage: 15, stem: 'What is the causative agent of Oroya fever?', key: 'B', options: ['Leishmania donovani', 'Bartonella bacilliformis', 'Plasmodium falciparum', 'Trypanosoma cruzi'], claim: 'Oroya fever is caused by Bartonella bacilliformis.', support: 'The official deck directly names Bartonella bacilliformis as the cause of Oroya fever.', objective: 'Identify Bartonella bacilliformis as the Oroya-fever agent.', pitfalls: 'Leishmania, Plasmodium and Trypanosoma are not the causative agent named for Oroya fever.', rejected: [] },
+  { q: 23, conceptId: 'CON-INF-482144C092C2DD', canonicalKey: 'parasitology.sandfly.oroya-profile', label: 'Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia', aliases: ['Oroya fever profile', 'Bartonella sandfly transmission'], conceptType: 'clinical association', article: 'sandflyDiseases', microtopic: 'Oroya fever', teachingPages: '12, 28', assessmentPage: 16, stem: 'What type of anemia is associated with Oroya fever?', key: 'B', options: ['Iron deficiency anemia', 'Hemolytic anemia', 'Megaloblastic anemia', 'Aplastic anemia'], claim: 'Oroya fever is associated with acute hemolytic anemia.', support: 'The official deck directly associates Oroya fever with severe acute hemolytic anemia.', objective: 'Identify hemolytic anemia as the anemia associated with Oroya fever.', pitfalls: 'The governed association is hemolysis, not iron deficiency, megaloblastic or aplastic anemia.', rejected: [] },
+  { q: 24, conceptId: 'CON-INF-482144C092C2DD', canonicalKey: 'parasitology.sandfly.oroya-profile', label: 'Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia', aliases: ['Oroya fever profile', 'Bartonella sandfly transmission'], conceptType: 'mechanism', article: 'sandflyDiseases', microtopic: 'Oroya fever', teachingPages: '10, 28', assessmentPage: 16, stem: 'What type of transmission occurs in Bartonellosis?', key: 'B', options: ['Cyclo-propagative', 'Propagative', 'Mechanical', 'None of the above'], claim: 'Bartonellosis is transmitted propagatively by sandflies.', support: 'The official deck labels Bartonella bacilliformis transmission as propagative.', objective: 'Identify propagative transmission in sandfly-borne bartonellosis.', pitfalls: 'The governed deck distinguishes this propagative pattern from cyclopropagative leishmaniasis and mechanical transmission.', rejected: [] },
+  { q: 26, conceptId: 'CON-INF-D5B09C8CE384D6', canonicalKey: 'parasitology.sandfly.narrow-mesh-net-prevention', label: 'Narrow-mesh nets help prevent sandfly bites', aliases: ['Sandfly bed-net prevention', 'Narrow-mesh mosquito nets'], conceptType: 'prevention', article: 'sandflyControl', microtopic: 'Sandfly bite prevention', teachingPage: 32, assessmentPage: 16, stem: 'What is an effective method to prevent sandfly bites?', key: 'A', options: ['Sleeping under mosquito nets with narrow meshes', 'Stop using repellents', 'Burning dried plants indoors', 'Wearing dark-colored clothes'], claim: 'Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.', support: 'The official control slide recommends narrow-mesh mosquito nets and repellents.', objective: 'Identify narrow-mesh bed nets as a sandfly-bite prevention measure.', pitfalls: 'Stopping repellents, burning plants and dark clothing are not the governed prevention recommendation.', rejected: [] },
+  { q: 27, conceptId: 'CON-INF-C6B9B514C3AC20', canonicalKey: 'parasitology.sandfly.control-not-stagnant-water', label: 'Sandfly control does not rely on draining stagnant water', aliases: ['Sandfly habitat control', 'Non-aquatic sandfly breeding'], conceptType: 'prevention', article: 'sandflyControl', microtopic: 'Sandfly control', teachingPages: '9, 32', assessmentPage: 17, stem: 'Which of the following is NOT a method of sandfly control?', key: 'D', options: ['Filling cracks in walls', 'Spraying insecticides', 'Using bed nets', 'Draining stagnant water'], claim: 'Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.', support: 'The official deck states that sandflies do not breed in water and recommends filling cracks, insecticides and narrow-mesh nets.', objective: 'Identify stagnant-water drainage as outside the governed sandfly-control measures.', pitfalls: 'Crack filling, insecticide spraying and bed nets are each explicitly recommended.', rejected: [] },
+  { q: 30, conceptId: 'CON-INF-3D7119FED6F45C', canonicalKey: 'parasitology.sandfly.exophilic-indoor-adaptation', label: 'Sandflies are more exophilic than endophilic but use indoor refuges', aliases: ['Sandfly exophily', 'Indoor and outdoor sandfly habitats'], conceptType: 'behaviour', article: 'sandflyBiology', microtopic: 'Sandfly bionomics', teachingPage: 8, assessmentPage: 17, stem: 'Why do sandfly control measures focus on indoor and outdoor habitats?', key: 'B', options: ['Sandflies are only found indoors', 'Sandflies are highly exophilic but can adapt to indoor environments', 'Sandflies breed in water', 'Sandflies only bite humans'], claim: 'Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.', support: 'The official deck describes sandflies as more exophilic than endophilic while listing cracks and crevices in buildings among resting sites.', objective: 'Connect sandfly exophily and indoor refuges to control of both habitat settings.', pitfalls: 'Sandflies are not restricted to indoors, do not breed in water and are not defined as biting only humans.', rejected: [] },
+].map((item) => ({
+  idPrefix: 'SAND2', bankQ: item.q, assessmentResourceId: absalamPart2AssessmentResourceId,
+  answerPage: 18, bankLabel: 'Parasitology — Sandfly', teachingResourceId: sandflyResourceId,
+  teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+  primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', ...item,
+}))
+
+introItems.push(...sandflyItems)
 
 const microArticles = {
   foundations: 'ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS',
@@ -9246,6 +9281,60 @@ Method classification links mosquito bionomics to practical prevention and suppo
 ### Common misconceptions
 Do not classify insecticide spraying as mechanical control or fish as chemical control. Pyrethrum is non-residual in the governed comparison, while Malathion is residual.`,
   },
+  sandflyBiology: {
+    title: 'Sandfly taxonomy, development and bionomics', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly biology',
+    summary: 'Sandflies are small sandy-yellow dipteran vectors. Phlebotomus and Lutzomyia are the principal genera, and their complete metamorphosis, nocturnal feeding and weak hopping flight define the governed recognition profile.',
+    sections: `### Definition
+Sandflies are sandy-yellow insects represented by Phlebotomus in the Old World and Lutzomyia in the New World. Phlebotomus papatasi is the locally prevalent species named in the Egypt teaching context.
+
+### Mechanism
+Sandflies undergo complete metamorphosis, with development from egg to adult taking about thirty days. The name Phlebotomus refers to sucking blood from veins. Females feed at night; adults rest by day in rodent burrows and in cracks or crevices in buildings. They are weak fliers with hopping movement and are more exophilic than endophilic while still using indoor refuges.
+
+### Key determinants
+Sandy-yellow colour explains the common name. Phlebotomus plus Lutzomyia identifies the genera; complete metamorphosis and thirty days define development; nocturnal feeding and weak hopping movement define bionomics.
+
+### Clinical significance
+Taxonomy, development and resting behaviour support vector recognition and explain why control must address both outdoor refuges and indoor cracks.
+
+### Common misconceptions
+Sandflies are not named because they breed in sand and do not breed in water. Exophilic behaviour does not mean that indoor refuges are absent.`,
+  },
+  sandflyDiseases: {
+    title: 'Sandfly bite reactions and transmitted diseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly-transmitted disease',
+    summary: 'Sandflies cause the local Harrara bite reaction and transmit leishmaniasis, viral sandfly fever and Bartonella bacilliformis infection causing Oroya fever.',
+    sections: `### Definition
+The direct local sandfly-bite reaction is Harrara, a painful itchy red papule surrounded by erythema. Distinct transmitted diseases include leishmaniasis, viral sandfly fever and Oroya fever.
+
+### Mechanism
+Sandfly fever is caused by a virus. Oroya fever is caused by Bartonella bacilliformis, produces acute hemolytic anemia and follows a propagative transmission pattern in the vector.
+
+### Key determinants
+Harrara identifies the local bite reaction; virus identifies sandfly fever; Bartonella bacilliformis, hemolytic anemia and propagative transmission identify the Oroya-fever profile.
+
+### Clinical significance
+Separating the local reaction from vector-borne infection prevents confusion between Harrara, leishmaniasis, sandfly fever and Oroya fever.
+
+### Common misconceptions
+Malaria is not in the governed sandfly disease list. Leishmania and Bartonella bacilliformis do not cause viral sandfly fever, and Oroya fever is not classified as mechanical transmission.`,
+  },
+  sandflyControl: {
+    title: 'Sandfly bite prevention and habitat control', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly control',
+    summary: 'Sandfly control combines narrow-mesh bed nets, repellents, crack filling and insecticides and is directed at non-aquatic resting and breeding habitats.',
+    sections: `### Definition
+Sandfly prevention uses personal barriers and habitat control suited to a very small, non-aquatic vector.
+
+### Mechanism
+Narrow-mesh mosquito nets help prevent bites. Filling wall cracks removes refuges, and insecticide spraying targets resting adults. Because sandflies do not breed in water, draining stagnant water is not the sandfly-specific control action in the governed set.
+
+### Key determinants
+Narrow mesh identifies the protective net; crack filling and insecticides identify habitat control; non-aquatic breeding excludes stagnant-water drainage from the offered sandfly measures.
+
+### Clinical significance
+Matching intervention to vector habitat supports practical bite prevention without importing mosquito breeding-site assumptions.
+
+### Common misconceptions
+Do not stop using repellents or replace narrow-mesh nets with unsupported measures. Do not treat stagnant-water drainage as the defining sandfly-control method.`,
+  },
 } }
 
 function introArticleRecords() {
@@ -9411,7 +9500,7 @@ No authored question has a teaching contradiction. The source-printed keys remai
 
 
 ## notes
-First three bounded Absalam slices only. Every record remains Draft and local; this file is not an upload instruction.
+Bounded Absalam authoring slices only. Every record remains Draft and local; this file is not an upload instruction.
 
 ## field_notes
 arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
@@ -9555,7 +9644,7 @@ ${introBankSourceTitle(item)}, p${item.assessmentPage ?? '1–5'} ${introBankLab
 yes
 
 ## author_notes
-Printed source key: ${introBankLabel(item)} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 && !item.idPrefix ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 && !item.idPrefix ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}${item.q === 53 ? 'Q53 preserves the source\'s “species” wording although Lucilia and Sarcophaga are genus names; this taxonomy-form risk is disclosed and not silently corrected. ' : ''}${item.q === 54 ? 'Q54 preserves the source\'s literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot; the wording is disclosed and not silently corrected. ' : ''}${item.idPrefix === 'MOSQ2' && item.q === 9 ? 'The source option “Larve” is retained exactly and disclosed rather than silently repaired. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
+Printed source key: ${introBankLabel(item)} = ${item.key}. The wording, option order and key are preserved exactly. ${item.q === 11 && !item.idPrefix ? 'The duplicated word “is is” is a visible source typo and is intentionally retained transparently rather than silently corrected. ' : ''}${item.q === 18 && !item.idPrefix ? 'Q18 preserves the source\'s singular “an organism” wording although Apicomplexa is a group; the wording is disclosed and not silently corrected. ' : ''}${item.q === 53 ? 'Q53 preserves the source\'s “species” wording although Lucilia and Sarcophaga are genus names; this taxonomy-form risk is disclosed and not silently corrected. ' : ''}${item.q === 54 ? 'Q54 preserves the source\'s literal “Diabetes foot ulcers” wording although the governed teaching says diabetic foot; the wording is disclosed and not silently corrected. ' : ''}${item.idPrefix === 'MOSQ2' && item.q === 9 ? 'The source option “Larve” is retained exactly and disclosed rather than silently repaired. ' : ''}${item.idPrefix === 'SAND2' && item.q === 5 ? 'The assessment spelling “papatasi” is retained exactly; the teaching deck spells the name “papatasii”, and the mismatch is disclosed without silently changing the question. ' : ''}${item.idPrefix === 'SAND2' && item.q === 30 ? 'The assessment wording “highly exophilic but can adapt to indoor environments” is retained; the governed deck directly states “more exophilic than endophilic” and lists indoor cracks and crevices as resting sites. ' : ''}The question remains Draft/local-only and is not authorised for upload.`
   }))
 }
 
@@ -9669,9 +9758,10 @@ function introArticleSectionId(key) { return `${introArticles[key].toLowerCase()
 function introTeachingResource(item) { return item.teachingResourceId ?? introTeachingResourceId }
 function introAssessmentResource(item) { return item.assessmentResourceId ?? absalamAssessmentResourceId }
 function introAnswerPage(item) { return item.answerPage ?? (item.bankQ ? 18 : 9) }
-function introBankSourceTitle(item) { return item.idPrefix === 'MOSQ2' ? 'Absalam101 Part 2' : 'Absalam101 Part 1' }
+function introBankSourceTitle(item) { return ['MOSQ2', 'SAND2'].includes(item.idPrefix) ? 'Absalam101 Part 2' : 'Absalam101 Part 1' }
 function introBankLabel(item) {
   if (item.idPrefix === 'MOSQ2') return `Mosquitoes Q${item.bankQ}`
+  if (item.idPrefix === 'SAND2') return `Sandfly Q${item.bankQ}`
   return item.bankQ ? `Arthropoda Q${item.bankQ} (global Q${item.q})` : `Introduction Q${item.q}`
 }
 function introArticleTitle(key, data) {
@@ -10550,6 +10640,30 @@ function microCoverage() {
 - **Mosquitoes Q25 is held as an identity/dependency hold.** Printed A, Eggs are laid singly, is cleanly supported by official teaching page 41, but exact raw candidate \`concept_56ba665277758beb236f7371\` already occupies the identity. No duplicate or unsafe merge was created.
 
 `
+  const sandflyDelta = `### Absalam Part 2 Sandfly Q1–Q30 delta
+
+- The existing 56-page Absalam101 Part 2 assessment resource and the existing 34-page official MUST Sandfly teaching resource are reused; no new resource or download was created. Assessment pages 10–17 and answer page 18 were rendered and visually read, and the teaching pages cited below were visually checked.
+- +19 verified local-curriculum claims, +19 citations and +19 article spans for Sandfly Q1–Q11, Q13, Q14, Q21, Q23, Q24, Q26, Q27 and Q30.
+- +14 under-review / needs-evidence concepts. Q3/Q4 share one development identity, Q9/Q11 share one Harrara identity, Q13/Q14 share one disease-profile identity, and Q21/Q23/Q24 share one Oroya-fever identity.
+- +3 standalone-complete reciprocal Draft articles and +19 Draft questions.
+- +11 explicit dependency, authority or key-conflict holds with no student-facing record: Sandfly Q12, Q15–Q20, Q22, Q25, Q28 and Q29.
+- Every authored stem, option and printed key is unchanged. Q5 retains the assessment spelling “papatasi” while disclosing the teaching deck's “papatasii” spelling. Sandfly Q29 remains an uncorrected direct key conflict: the bank prints D, None of the above, while the official deck directly supports B, DDT.
+- Absalam Part 2 Sandfly Q1–Q30: **19 authored / 11 held / 0 unassessed**. The exact next Part 2 boundary is Mycology Q1–Q30 on assessment pages 19–29.
+
+`
+  const sandflyHolds = `- **Sandfly Q12 is held as a dependency-chain hold.** Printed B, Cyclo-propagative, is cleanly supported by official teaching pages 10 and 12, but existing \`CON-INF-23265735EECCA1\` and \`ART-INF-MUST-FHB1022-CYCLOPROPAGATIVE\` remain in the established unsafe dependency chain. No duplicate or partial exact-ID update was created.
+- **Sandfly Q15 is held as a dependency-chain hold.** Printed B, Promastigote, is supported by official teaching pages 12–13, but the infective-stage identity belongs to the existing cutaneous-leishmaniasis concept/article chain \`CON-INF-5EAC54C4EC6F18\` / \`ART-INF-MUST-FHB1022-CUTANEOUS-LEISHMANIASIS-VECTOR\`. No duplicate was minted.
+- **Sandfly Q16 is held as a dependency-chain hold.** Printed B, By the bite of an infected female sandfly, is supported by official teaching page 15, but the same live cutaneous-leishmaniasis vector chain already governs transmission and cannot be partially widened safely here.
+- **Sandfly Q17 is held as a dependency-chain hold.** Printed D, All of the above, is supported by the official leishmaniasis classification, but the broad disease-type identity overlaps the same existing live article chain and was not duplicated.
+- **Sandfly Q18 is held as a dependency-chain hold.** Printed B, Macrophages of the skin, is supported by official teaching page 24, but it overlaps the existing cutaneous-leishmaniasis concept/article identity. No second concept was created.
+- **Sandfly Q19 is held as a dependency-chain hold.** Printed B, By manipulating macrophage signaling and lysosomal response, is supported by official teaching pages 17–19, but macrophage invasion and evasion belong to the same existing live dependency chain. No unsafe partial update was made.
+- **Sandfly Q20 is held as a dependency-chain hold.** Printed B, Raised borders and a crusted surface, is supported by official teaching page 24, but the lesion morphology already belongs to the existing cutaneous-leishmaniasis article identity.
+- **Sandfly Q22 is held as a dependency-chain hold.** Printed A, Amastigote, is supported by official teaching pages 18–19, but promastigote-to-amastigote transformation is already part of the same live cutaneous-leishmaniasis chain and was not duplicated.
+- **Sandfly Q25 is held as a negative-form authority hold.** The bank prints D, Respiratory distress, but the governed teaching defines the Oroya-fever profile without explicitly establishing this option as the uniquely uncommon manifestation. No exclusion was inferred.
+- **Sandfly Q28 is held as an unsupported-precision hold.** The bank prints D, Introducing genetically modified bacteria, while official teaching page 32 only names paratransgenesis and the governed existing definition uses symbiont bacteria without the offered genetic-modification wording. No precision was invented.
+- **Sandfly Q29 is held as an uncorrected direct key conflict.** The bank prints D, None of the above, while official teaching page 32 directly lists DDT, option B, for sandfly control. The printed key was neither corrected nor taught through a student-facing record.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -10582,7 +10696,14 @@ function microCoverage() {
     .replace('| Articles | 27 |', '| Articles | 30 |')
     .replace('| Questions | 76 |', '| Questions | 98 |')
     .replace('| Question authoring holds | 105 |', '| Question authoring holds | 113 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}`)
+    .replace('| Claims | 98 |', '| Claims | 117 |')
+    .replace('| Citations | 103 |', '| Citations | 122 |')
+    .replace('| Article spans | 98 |', '| Article spans | 117 |')
+    .replace('| Concepts | 89 |', '| Concepts | 103 |')
+    .replace('| Articles | 30 |', '| Articles | 33 |')
+    .replace('| Questions | 98 |', '| Questions | 117 |')
+    .replace('| Question authoring holds | 113 |', '| Question authoring holds | 124 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -10591,21 +10712,27 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 57 clean source-keyed prompts authored; **5,154 raw answer observations remain**, including the 94 held printed-key observations', 'Governed answer observations: 5,211 total; 76 clean source-keyed prompts authored; **5,135 raw answer observations remain**, including the 105 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 76 authored; **5,368 raw prompt observations remain**, including 105 explicit holds', 'Governed prompt observations: 5,444 total; 98 authored; **5,346 raw prompt observations remain**, including 113 explicit holds')
     .replace('Governed answer observations: 5,211 total; 76 clean source-keyed prompts authored; **5,135 raw answer observations remain**, including the 105 held printed-key observations', 'Governed answer observations: 5,211 total; 98 clean source-keyed prompts authored; **5,113 raw answer observations remain**, including the 113 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 98 authored; **5,346 raw prompt observations remain**, including 113 explicit holds', 'Governed prompt observations: 5,444 total; 117 authored; **5,327 raw prompt observations remain**, including 124 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 98 clean source-keyed prompts authored; **5,113 raw answer observations remain**, including the 113 held printed-key observations', 'Governed answer observations: 5,211 total; 117 clean source-keyed prompts authored; **5,094 raw answer observations remain**, including the 124 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
     .replace('Record-level backlog is not asserted as 5,368 unique records', 'Record-level backlog is not asserted as 5,346 unique records')
+    .replace('Record-level backlog is not asserted as 5,346 unique records', 'Record-level backlog is not asserted as 5,327 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
     .replace('All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts', 'All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts')
     .replace('All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts', 'All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts')
+    .replace('All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts', 'All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
+    .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.')
 }

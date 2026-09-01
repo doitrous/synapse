@@ -2037,3 +2037,763 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Mos
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q01-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q01-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck directly describes sandflies as sandy yellow.
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly morphology
+
+## locator_detail
+PDF page 2, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q1 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q02-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q02-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck lists Phlebotomus in the Old World and Lutzomyia in the New World.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly taxonomy
+
+## locator_detail
+PDF page 4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q2 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q03-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q03-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official life-cycle slide directly states complete metamorphosis.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly life cycle
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q3 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q04-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q04-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official life-cycle slide gives approximately 30 days from egg through larva and pupa to adult.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly life cycle
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q4 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q05-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q05-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck identifies Phlebotomus papatasii as the species prevalent in Egypt; the assessment spelling papatasi is retained unchanged.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly distribution
+
+## locator_detail
+PDF page 4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q5 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q06-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q06-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck explains Phlebotomus as sucking blood from veins.
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly terminology
+
+## locator_detail
+PDF page 2, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q6 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q07-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q07-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide lists rodent burrows and cracks or crevices in buildings as daytime resting sites.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bionomics
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q7 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q08-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q08-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide directly states that females feed at night.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bionomics
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q8 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q09-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q09-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official clinical slide directly describes a painful itchy red papule surrounded by erythema.
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bite reaction
+
+## locator_detail
+PDF page 11, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q9 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q10-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q10-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official bionomics slide directly describes weak flight and hopping movement.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bionomics
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q10 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q11-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q11-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck names the direct bite reaction Harrara and describes its painful itchy papule.
+
+## locator_type
+page
+
+## locator_page
+10–11
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bite reaction
+
+## locator_detail
+PDF page 10–11, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q11 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q13-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q13-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck lists viral sandfly fever and directly states that sandfly fever is caused by a virus.
+
+## locator_type
+page
+
+## locator_page
+10, 26
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly-transmitted disease
+
+## locator_detail
+PDF page 10, 26, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q13 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q14-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q14-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official disease list includes leishmaniasis, Oroya fever and viral sandfly fever and does not include malaria.
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly-transmitted disease
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q14 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q21-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q21-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck directly names Bartonella bacilliformis as the cause of Oroya fever.
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Oroya fever
+
+## locator_detail
+PDF page 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q21 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q23-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q23-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck directly associates Oroya fever with severe acute hemolytic anemia.
+
+## locator_type
+page
+
+## locator_page
+12, 28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Oroya fever
+
+## locator_detail
+PDF page 12, 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q23 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q24-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q24-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck labels Bartonella bacilliformis transmission as propagative.
+
+## locator_type
+page
+
+## locator_page
+10, 28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Oroya fever
+
+## locator_detail
+PDF page 10, 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q24 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q26-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q26-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official control slide recommends narrow-mesh mosquito nets and repellents.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bite prevention
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q26 answer A.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q27-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q27-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck states that sandflies do not breed in water and recommends filling cracks, insecticides and narrow-mesh nets.
+
+## locator_type
+page
+
+## locator_page
+9, 32
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly control
+
+## locator_detail
+PDF page 9, 32, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q27 answer D.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-SAND2-Q30-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-SAND2-Q30-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck describes sandflies as more exophilic than endophilic while listing cracks and crevices in buildings among resting sites.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly bionomics
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Sandfly Q30 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

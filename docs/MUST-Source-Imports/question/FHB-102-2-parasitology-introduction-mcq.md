@@ -7749,3 +7749,2891 @@ yes
 
 ## author_notes
 Printed source key: Mosquitoes Q30 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q01
+
+## title
+Why are sandflies called "sandflies"?
+
+## question
+Why are sandflies called "sandflies"?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+They breed in sand
+
+## explanation_a
+Incorrect. The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat. The supported answer is B, They have a sandy yellow color.
+
+## answer_b
+They have a sandy yellow color
+
+## explanation_b
+Sandflies are called sandflies because they have a sandy yellow colour. The governed university slide directly supports They have a sandy yellow color for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+They live in deserts only
+
+## explanation_c
+Incorrect. The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat. The supported answer is B, They have a sandy yellow color.
+
+## answer_d
+They are found in beaches
+
+## explanation_d
+Incorrect. The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat. The supported answer is B, They have a sandy yellow color.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-04788D75905E81
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly morphology
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify sandy yellow colour as the basis of the sandfly name.
+
+## source_citation
+Absalam101 Part 2, p10 Sandfly Q1, printed key p18 (1 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q1 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q02
+
+## title
+Which of the following genera belong to sandflies?
+
+## question
+Which of the following genera belong to sandflies?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Culex and Aedes
+
+## explanation_a
+Incorrect. Culex, Aedes and Anopheles are mosquito genera rather than the complete sandfly pair offered here. The supported answer is C, Phlebotomus and Lutzomyia.
+
+## answer_b
+Anopheles and Culex
+
+## explanation_b
+Incorrect. Culex, Aedes and Anopheles are mosquito genera rather than the complete sandfly pair offered here. The supported answer is C, Phlebotomus and Lutzomyia.
+
+## answer_c
+Phlebotomus and Lutzomyia
+
+## explanation_c
+Phlebotomus and Lutzomyia are sandfly genera. The governed university slide directly supports Phlebotomus and Lutzomyia for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Aedes and Phlebotomus
+
+## explanation_d
+Incorrect. Culex, Aedes and Anopheles are mosquito genera rather than the complete sandfly pair offered here. The supported answer is C, Phlebotomus and Lutzomyia.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-51472DA1BC2690
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly taxonomy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Recognise Phlebotomus and Lutzomyia as sandfly genera.
+
+## source_citation
+Absalam101 Part 2, p10 Sandfly Q2, printed key p18 (2 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q2 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q03
+
+## title
+What type of metamorphosis do sandflies undergo?
+
+## question
+What type of metamorphosis do sandflies undergo?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Incomplete metamorphosis
+
+## explanation_a
+Incorrect. The governed deck does not describe incomplete metamorphosis, direct development or absent metamorphosis. The supported answer is B, Complete metamorphosis.
+
+## answer_b
+Complete metamorphosis
+
+## explanation_b
+Sandflies undergo complete metamorphosis. The governed university slide directly supports Complete metamorphosis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Direct development
+
+## explanation_c
+Incorrect. The governed deck does not describe incomplete metamorphosis, direct development or absent metamorphosis. The supported answer is B, Complete metamorphosis.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. The governed deck does not describe incomplete metamorphosis, direct development or absent metamorphosis. The supported answer is B, Complete metamorphosis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F4702893869E6F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify complete metamorphosis as the sandfly developmental pattern.
+
+## source_citation
+Absalam101 Part 2, p10 Sandfly Q3, printed key p18 (3 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q3 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q04
+
+## title
+What is the lifespan of sandfly development from egg to adult?
+
+## question
+What is the lifespan of sandfly development from egg to adult?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+15 days
+
+## explanation_a
+Incorrect. The governed deck gives 30 days, not 15, 45 or 60 days. The supported answer is B, 30 days.
+
+## answer_b
+30 days
+
+## explanation_b
+Sandfly development from egg to adult takes about 30 days. The governed university slide directly supports 30 days for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+45 days
+
+## explanation_c
+Incorrect. The governed deck gives 30 days, not 15, 45 or 60 days. The supported answer is B, 30 days.
+
+## answer_d
+60 days
+
+## explanation_d
+Incorrect. The governed deck gives 30 days, not 15, 45 or 60 days. The supported answer is B, 30 days.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F4702893869E6F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly life cycle
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Recall the approximately thirty-day sandfly developmental period.
+
+## source_citation
+Absalam101 Part 2, p11 Sandfly Q4, printed key p18 (4 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q4 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q05
+
+## title
+Which species of sandfly is prevalent in Egypt?
+
+## question
+Which species of sandfly is prevalent in Egypt?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Lutzomyia longipalpis
+
+## explanation_a
+Incorrect. Lutzomyia longipalpis is a New World sandfly, while Anopheles and Culex are mosquito genera. The supported answer is B, Phlebotomus papatasi.
+
+## answer_b
+Phlebotomus papatasi
+
+## explanation_b
+Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt. The governed university slide directly supports Phlebotomus papatasi for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Anopheles gambiae
+
+## explanation_c
+Incorrect. Lutzomyia longipalpis is a New World sandfly, while Anopheles and Culex are mosquito genera. The supported answer is B, Phlebotomus papatasi.
+
+## answer_d
+Culex quinquefasciatus
+
+## explanation_d
+Incorrect. Lutzomyia longipalpis is a New World sandfly, while Anopheles and Culex are mosquito genera. The supported answer is B, Phlebotomus papatasi.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D1A1215A337B4F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly distribution
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify Phlebotomus papatasi as the locally prevalent sandfly species.
+
+## source_citation
+Absalam101 Part 2, p11 Sandfly Q5, printed key p18 (5 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q5 = B. The wording, option order and key are preserved exactly. The assessment spelling “papatasi” is retained exactly; the teaching deck spells the name “papatasii”, and the mismatch is disclosed without silently changing the question. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q06
+
+## title
+Which of the following sucks blood from veins?
+
+## question
+Which of the following sucks blood from veins?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Lutzomyia
+
+## explanation_a
+Incorrect. The offered Lutzomyia, Musca and Culex names are not given this meaning in the governed deck. The supported answer is B, Phlebotomus.
+
+## answer_b
+Phlebotomus
+
+## explanation_b
+The name Phlebotomus refers to sucking blood from veins. The governed university slide directly supports Phlebotomus for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Musca domestica
+
+## explanation_c
+Incorrect. The offered Lutzomyia, Musca and Culex names are not given this meaning in the governed deck. The supported answer is B, Phlebotomus.
+
+## answer_d
+Culex
+
+## explanation_d
+Incorrect. The offered Lutzomyia, Musca and Culex names are not given this meaning in the governed deck. The supported answer is B, Phlebotomus.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-3E498A4DEF942C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly terminology
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Associate vein blood-feeding terminology with Phlebotomus.
+
+## source_citation
+Absalam101 Part 2, p11 Sandfly Q6, printed key p18 (6 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q6 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q07
+
+## title
+During the daytime, where are adult sandflies most likely to hide?
+
+## question
+During the daytime, where are adult sandflies most likely to hide?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+In rodent burrows
+
+## explanation_a
+Incorrect. Both A and B are supported; sandflies do not use water as the governed daytime hiding site. The supported answer is D, A & B.
+
+## answer_b
+Inside cracks or crevices in buildings
+
+## explanation_b
+Incorrect. Both A and B are supported; sandflies do not use water as the governed daytime hiding site. The supported answer is D, A & B.
+
+## answer_c
+Inside water
+
+## explanation_c
+Incorrect. Both A and B are supported; sandflies do not use water as the governed daytime hiding site. The supported answer is D, A & B.
+
+## answer_d
+A & B
+
+## explanation_d
+Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime. The governed university slide directly supports A & B for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D794E6CF4268C2
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Select both governed daytime hiding habitats.
+
+## source_citation
+Absalam101 Part 2, p11 Sandfly Q7, printed key p18 (7 = D); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q7 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q08
+
+## title
+What type of feeder is a female sandfly?
+
+## question
+What type of feeder is a female sandfly?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Diurnal (feeds during the day)
+
+## explanation_a
+Incorrect. The governed statement is nocturnal, not diurnal, dawn-only or non-feeding. The supported answer is B, Nocturnal (feeds at night).
+
+## answer_b
+Nocturnal (feeds at night)
+
+## explanation_b
+Female sandflies are nocturnal feeders. The governed university slide directly supports Nocturnal (feeds at night) for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Crepuscular (feeds at dawn)
+
+## explanation_c
+Incorrect. The governed statement is nocturnal, not diurnal, dawn-only or non-feeding. The supported answer is B, Nocturnal (feeds at night).
+
+## answer_d
+Non-feeding
+
+## explanation_d
+Incorrect. The governed statement is nocturnal, not diurnal, dawn-only or non-feeding. The supported answer is B, Nocturnal (feeds at night).
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-E09D0599F15B92
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify the female sandfly as a nocturnal feeder.
+
+## source_citation
+Absalam101 Part 2, p12 Sandfly Q8, printed key p18 (8 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q8 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q09
+
+## title
+What type of reaction is typically seen at the bite site of a sandfly?
+
+## question
+What type of reaction is typically seen at the bite site of a sandfly?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+A painless mark with no symptoms
+
+## explanation_a
+Incorrect. The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister. The supported answer is C, A painful and itchy red papule surrounded by erythema.
+
+## answer_b
+A small bruise that quickly fades
+
+## explanation_b
+Incorrect. The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister. The supported answer is C, A painful and itchy red papule surrounded by erythema.
+
+## answer_c
+A painful and itchy red papule surrounded by erythema
+
+## explanation_c
+A sandfly bite typically causes a painful and itchy red papule surrounded by erythema. The governed university slide directly supports A painful and itchy red papule surrounded by erythema for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Immediate blister formation
+
+## explanation_d
+Incorrect. The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister. The supported answer is C, A painful and itchy red papule surrounded by erythema.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D884D3F6076D08
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bite reaction
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Recognise the characteristic local sandfly-bite reaction.
+
+## source_citation
+Absalam101 Part 2, p12 Sandfly Q9, printed key p18 (9 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q9 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q10
+
+## title
+How do sandflies typically move?
+
+## question
+How do sandflies typically move?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Long-distance flight
+
+## explanation_a
+Incorrect. The deck does not describe strong continuous or long-distance flight, and burrows are resting habitat rather than movement. The supported answer is C, Weak fliers, hopping movement.
+
+## answer_b
+Strong, continuous flight
+
+## explanation_b
+Incorrect. The deck does not describe strong continuous or long-distance flight, and burrows are resting habitat rather than movement. The supported answer is C, Weak fliers, hopping movement.
+
+## answer_c
+Weak fliers, hopping movement
+
+## explanation_c
+Sandflies are weak fliers and characteristically move by hopping. The governed university slide directly supports Weak fliers, hopping movement for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Underground burrowing
+
+## explanation_d
+Incorrect. The deck does not describe strong continuous or long-distance flight, and burrows are resting habitat rather than movement. The supported answer is C, Weak fliers, hopping movement.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-509BF395C5EBF9
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify weak hopping movement as characteristic sandfly locomotion.
+
+## source_citation
+Absalam101 Part 2, p12 Sandfly Q10, printed key p18 (10 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q10 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q11
+
+## title
+What is the local reaction caused by a sandfly bite called?
+
+## question
+What is the local reaction caused by a sandfly bite called?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Oroya fever
+
+## explanation_a
+Incorrect. Oroya fever, leishmaniasis and sandfly fever are transmitted diseases rather than the local bite reaction. The supported answer is C, Harrara.
+
+## answer_b
+Leishmaniasis
+
+## explanation_b
+Incorrect. Oroya fever, leishmaniasis and sandfly fever are transmitted diseases rather than the local bite reaction. The supported answer is C, Harrara.
+
+## answer_c
+Harrara
+
+## explanation_c
+The local reaction caused by a sandfly bite is called Harrara. The governed university slide directly supports Harrara for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Sandfly fever
+
+## explanation_d
+Incorrect. Oroya fever, leishmaniasis and sandfly fever are transmitted diseases rather than the local bite reaction. The supported answer is C, Harrara.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D884D3F6076D08
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bite reaction
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Name Harrara as the local sandfly-bite reaction.
+
+## source_citation
+Absalam101 Part 2, p12 Sandfly Q11, printed key p18 (11 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p10–11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q11 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q13
+
+## title
+What is the causative agent of sandfly fever?
+
+## question
+What is the causative agent of sandfly fever?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Leishmania spp.
+
+## explanation_a
+Incorrect. Leishmania causes leishmaniasis and Bartonella bacilliformis causes Oroya fever; neither is the sandfly-fever agent. The supported answer is C, Virus.
+
+## answer_b
+Bartonella bacilliformis
+
+## explanation_b
+Incorrect. Leishmania causes leishmaniasis and Bartonella bacilliformis causes Oroya fever; neither is the sandfly-fever agent. The supported answer is C, Virus.
+
+## answer_c
+Virus
+
+## explanation_c
+Sandfly fever is caused by a virus. The governed university slide directly supports Virus for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Protozoa
+
+## explanation_d
+Incorrect. Leishmania causes leishmaniasis and Bartonella bacilliformis causes Oroya fever; neither is the sandfly-fever agent. The supported answer is C, Virus.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F538E763E1260E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly-transmitted disease
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify a virus as the cause of sandfly fever.
+
+## source_citation
+Absalam101 Part 2, p13 Sandfly Q13, printed key p18 (13 = C); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p10, 26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q13 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q14
+
+## title
+Which of the following diseases is NOT transmitted by sandflies?
+
+## question
+Which of the following diseases is NOT transmitted by sandflies?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Leishmaniasis
+
+## explanation_a
+Incorrect. Leishmaniasis, Oroya fever and sandfly fever are all explicitly listed as sandfly-transmitted diseases. The supported answer is B, Malaria.
+
+## answer_b
+Malaria
+
+## explanation_b
+Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list. The governed university slide directly supports Malaria for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Oroya fever
+
+## explanation_c
+Incorrect. Leishmaniasis, Oroya fever and sandfly fever are all explicitly listed as sandfly-transmitted diseases. The supported answer is B, Malaria.
+
+## answer_d
+Sandfly fever
+
+## explanation_d
+Incorrect. Leishmaniasis, Oroya fever and sandfly fever are all explicitly listed as sandfly-transmitted diseases. The supported answer is B, Malaria.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F538E763E1260E
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly-transmitted disease
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify malaria as outside the governed sandfly-transmitted disease list.
+
+## source_citation
+Absalam101 Part 2, p13 Sandfly Q14, printed key p18 (14 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q14 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q21
+
+## title
+What is the causative agent of Oroya fever?
+
+## question
+What is the causative agent of Oroya fever?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Leishmania donovani
+
+## explanation_a
+Incorrect. Leishmania, Plasmodium and Trypanosoma are not the causative agent named for Oroya fever. The supported answer is B, Bartonella bacilliformis.
+
+## answer_b
+Bartonella bacilliformis
+
+## explanation_b
+Oroya fever is caused by Bartonella bacilliformis. The governed university slide directly supports Bartonella bacilliformis for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Plasmodium falciparum
+
+## explanation_c
+Incorrect. Leishmania, Plasmodium and Trypanosoma are not the causative agent named for Oroya fever. The supported answer is B, Bartonella bacilliformis.
+
+## answer_d
+Trypanosoma cruzi
+
+## explanation_d
+Incorrect. Leishmania, Plasmodium and Trypanosoma are not the causative agent named for Oroya fever. The supported answer is B, Bartonella bacilliformis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-482144C092C2DD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Oroya fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify Bartonella bacilliformis as the Oroya-fever agent.
+
+## source_citation
+Absalam101 Part 2, p15 Sandfly Q21, printed key p18 (21 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q21 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q23
+
+## title
+What type of anemia is associated with Oroya fever?
+
+## question
+What type of anemia is associated with Oroya fever?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Iron deficiency anemia
+
+## explanation_a
+Incorrect. The governed association is hemolysis, not iron deficiency, megaloblastic or aplastic anemia. The supported answer is B, Hemolytic anemia.
+
+## answer_b
+Hemolytic anemia
+
+## explanation_b
+Oroya fever is associated with acute hemolytic anemia. The governed university slide directly supports Hemolytic anemia for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Megaloblastic anemia
+
+## explanation_c
+Incorrect. The governed association is hemolysis, not iron deficiency, megaloblastic or aplastic anemia. The supported answer is B, Hemolytic anemia.
+
+## answer_d
+Aplastic anemia
+
+## explanation_d
+Incorrect. The governed association is hemolysis, not iron deficiency, megaloblastic or aplastic anemia. The supported answer is B, Hemolytic anemia.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-482144C092C2DD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Oroya fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify hemolytic anemia as the anemia associated with Oroya fever.
+
+## source_citation
+Absalam101 Part 2, p16 Sandfly Q23, printed key p18 (23 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p12, 28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q23 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q24
+
+## title
+What type of transmission occurs in Bartonellosis?
+
+## question
+What type of transmission occurs in Bartonellosis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Cyclo-propagative
+
+## explanation_a
+Incorrect. The governed deck distinguishes this propagative pattern from cyclopropagative leishmaniasis and mechanical transmission. The supported answer is B, Propagative.
+
+## answer_b
+Propagative
+
+## explanation_b
+Bartonellosis is transmitted propagatively by sandflies. The governed university slide directly supports Propagative for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Mechanical
+
+## explanation_c
+Incorrect. The governed deck distinguishes this propagative pattern from cyclopropagative leishmaniasis and mechanical transmission. The supported answer is B, Propagative.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. The governed deck distinguishes this propagative pattern from cyclopropagative leishmaniasis and mechanical transmission. The supported answer is B, Propagative.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-482144C092C2DD
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Oroya fever
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify propagative transmission in sandfly-borne bartonellosis.
+
+## source_citation
+Absalam101 Part 2, p16 Sandfly Q24, printed key p18 (24 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p10, 28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q24 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q26
+
+## title
+What is an effective method to prevent sandfly bites?
+
+## question
+What is an effective method to prevent sandfly bites?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Sleeping under mosquito nets with narrow meshes
+
+## explanation_a
+Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites. The governed university slide directly supports Sleeping under mosquito nets with narrow meshes for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Stop using repellents
+
+## explanation_b
+Incorrect. Stopping repellents, burning plants and dark clothing are not the governed prevention recommendation. The supported answer is A, Sleeping under mosquito nets with narrow meshes.
+
+## answer_c
+Burning dried plants indoors
+
+## explanation_c
+Incorrect. Stopping repellents, burning plants and dark clothing are not the governed prevention recommendation. The supported answer is A, Sleeping under mosquito nets with narrow meshes.
+
+## answer_d
+Wearing dark-colored clothes
+
+## explanation_d
+Incorrect. Stopping repellents, burning plants and dark clothing are not the governed prevention recommendation. The supported answer is A, Sleeping under mosquito nets with narrow meshes.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-D5B09C8CE384D6
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bite prevention
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify narrow-mesh bed nets as a sandfly-bite prevention measure.
+
+## source_citation
+Absalam101 Part 2, p16 Sandfly Q26, printed key p18 (26 = A); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q26 = A. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q27
+
+## title
+Which of the following is NOT a method of sandfly control?
+
+## question
+Which of the following is NOT a method of sandfly control?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Filling cracks in walls
+
+## explanation_a
+Incorrect. Crack filling, insecticide spraying and bed nets are each explicitly recommended. The supported answer is D, Draining stagnant water.
+
+## answer_b
+Spraying insecticides
+
+## explanation_b
+Incorrect. Crack filling, insecticide spraying and bed nets are each explicitly recommended. The supported answer is D, Draining stagnant water.
+
+## answer_c
+Using bed nets
+
+## explanation_c
+Incorrect. Crack filling, insecticide spraying and bed nets are each explicitly recommended. The supported answer is D, Draining stagnant water.
+
+## answer_d
+Draining stagnant water
+
+## explanation_d
+Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water. The governed university slide directly supports Draining stagnant water for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-C6B9B514C3AC20
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly control
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Identify stagnant-water drainage as outside the governed sandfly-control measures.
+
+## source_citation
+Absalam101 Part 2, p17 Sandfly Q27, printed key p18 (27 = D); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p9, 32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q27 = D. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-SAND2-Q30
+
+## title
+Why do sandfly control measures focus on indoor and outdoor habitats?
+
+## question
+Why do sandfly control measures focus on indoor and outdoor habitats?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_a82c32271ee38d0b2cad without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Sandflies are only found indoors
+
+## explanation_a
+Incorrect. Sandflies are not restricted to indoors, do not breed in water and are not defined as biting only humans. The supported answer is B, Sandflies are highly exophilic but can adapt to indoor environments.
+
+## answer_b
+Sandflies are highly exophilic but can adapt to indoor environments
+
+## explanation_b
+Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges. The governed university slide directly supports Sandflies are highly exophilic but can adapt to indoor environments for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Sandflies breed in water
+
+## explanation_c
+Incorrect. Sandflies are not restricted to indoors, do not breed in water and are not defined as biting only humans. The supported answer is B, Sandflies are highly exophilic but can adapt to indoor environments.
+
+## answer_d
+Sandflies only bite humans
+
+## explanation_d
+Incorrect. Sandflies are not restricted to indoors, do not breed in water and are not defined as biting only humans. The supported answer is B, Sandflies are highly exophilic but can adapt to indoor environments.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-3D7119FED6F45C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_a82c32271ee38d0b2cad
+
+## learning_objective
+Connect sandfly exophily and indoor refuges to control of both habitat settings.
+
+## source_citation
+Absalam101 Part 2, p17 Sandfly Q30, printed key p18 (30 = B); MUST FHB102-2 Arthropod Vectors for Disease Transmission — Sandflies, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Sandfly Q30 = B. The wording, option order and key are preserved exactly. The assessment wording “highly exophilic but can adapt to indoor environments” is retained; the governed deck directly states “more exophilic than endophilic” and lists indoor cracks and crevices as resting sites. The question remains Draft/local-only and is not authorised for upload.

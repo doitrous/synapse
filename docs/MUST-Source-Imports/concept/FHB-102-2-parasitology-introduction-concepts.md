@@ -8576,3 +8576,2571 @@ rejectedMergeCandidateIds: concept_93621f76281954bdf8c77e72 — broader raw cont
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-04788D75905E81
+
+## label
+Sandflies are named for their sandy yellow colour
+
+## canonical_key
+parasitology.sandfly.name-sandy-yellow
+
+## aliases
+Sandfly name
+Sandy yellow sandfly
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandflies are called sandflies because they have a sandy yellow colour.
+
+## explicit_objective
+Identify sandy yellow colour as the basis of the sandfly name.
+
+## pitfalls
+The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat.
+
+## concept_type
+morphology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly morphology
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly morphology
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q01-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p10 Sandfly Q1; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p2 direct university teaching
+
+## original_wording
+Why are sandflies called "sandflies"? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q1. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-51472DA1BC2690
+
+## label
+Phlebotomus and Lutzomyia are sandfly genera
+
+## canonical_key
+parasitology.sandfly.genera-phlebotomus-lutzomyia
+
+## aliases
+Sandfly genera
+Phlebotomus and Lutzomyia
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Phlebotomus and Lutzomyia are sandfly genera.
+
+## explicit_objective
+Recognise Phlebotomus and Lutzomyia as sandfly genera.
+
+## pitfalls
+Culex, Aedes and Anopheles are mosquito genera rather than the complete sandfly pair offered here.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly taxonomy
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly taxonomy
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q02-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p10 Sandfly Q2; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p4 direct university teaching
+
+## original_wording
+Which of the following genera belong to sandflies? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q2. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-F4702893869E6F
+
+## label
+Sandflies complete metamorphosis in about thirty days
+
+## canonical_key
+parasitology.sandfly.complete-metamorphosis-30-days
+
+## aliases
+Sandfly metamorphosis
+Thirty-day sandfly development
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandflies undergo complete metamorphosis.
+
+## explicit_objective
+Identify complete metamorphosis as the sandfly developmental pattern.
+
+## pitfalls
+The governed deck does not describe incomplete metamorphosis, direct development or absent metamorphosis.
+
+## concept_type
+life cycle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly life cycle
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly life cycle
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q03-01
+CLM-INF-MUST-FHB1022-SAND2-Q04-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p10 Sandfly Q3; printed answer p18
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p11 Sandfly Q4; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p6 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p6 direct university teaching
+
+## original_wording
+What type of metamorphosis do sandflies undergo? Printed key B; options retained in their original order.
+What is the lifespan of sandfly development from egg to adult? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q3. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q4. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-D1A1215A337B4F
+
+## label
+Phlebotomus papatasi is prevalent in Egypt
+
+## canonical_key
+parasitology.sandfly.papatasi-egypt
+
+## aliases
+Egyptian sandfly species
+Phlebotomus papatasi
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+
+## explicit_objective
+Identify Phlebotomus papatasi as the locally prevalent sandfly species.
+
+## pitfalls
+Lutzomyia longipalpis is a New World sandfly, while Anopheles and Culex are mosquito genera.
+
+## concept_type
+epidemiology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly distribution
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly distribution
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q05-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p11 Sandfly Q5; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p4 direct university teaching
+
+## original_wording
+Which species of sandfly is prevalent in Egypt? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q5. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-3E498A4DEF942C
+
+## label
+Phlebotomus is named for sucking blood from veins
+
+## canonical_key
+parasitology.sandfly.phlebotomus-sucks-blood-veins
+
+## aliases
+Phlebotomus name meaning
+Vein blood feeding
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The name Phlebotomus refers to sucking blood from veins.
+
+## explicit_objective
+Associate vein blood-feeding terminology with Phlebotomus.
+
+## pitfalls
+The offered Lutzomyia, Musca and Culex names are not given this meaning in the governed deck.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly terminology
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly terminology
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q06-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p11 Sandfly Q6; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p2 direct university teaching
+
+## original_wording
+Which of the following sucks blood from veins? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q6. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-D794E6CF4268C2
+
+## label
+Adult sandflies hide in burrows and building cracks by day
+
+## canonical_key
+parasitology.sandfly.daytime-hiding-burrows-cracks
+
+## aliases
+Sandfly daytime hiding places
+Burrow and crack resting sites
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+
+## explicit_objective
+Select both governed daytime hiding habitats.
+
+## pitfalls
+Both A and B are supported; sandflies do not use water as the governed daytime hiding site.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q07-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p11 Sandfly Q7; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
+
+## original_wording
+During the daytime, where are adult sandflies most likely to hide? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q7. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-E09D0599F15B92
+
+## label
+Female sandflies feed at night
+
+## canonical_key
+parasitology.sandfly.female-nocturnal-feeder
+
+## aliases
+Nocturnal female sandfly
+Sandfly feeding time
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Female sandflies are nocturnal feeders.
+
+## explicit_objective
+Identify the female sandfly as a nocturnal feeder.
+
+## pitfalls
+The governed statement is nocturnal, not diurnal, dawn-only or non-feeding.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q08-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p12 Sandfly Q8; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
+
+## original_wording
+What type of feeder is a female sandfly? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q8. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-D884D3F6076D08
+
+## label
+Sandfly bites cause the painful itchy Harrara reaction
+
+## canonical_key
+parasitology.sandfly.harrara-bite-reaction
+
+## aliases
+Harrara
+Sandfly bite papule
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+
+## explicit_objective
+Recognise the characteristic local sandfly-bite reaction.
+
+## pitfalls
+The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly bite reaction
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bite reaction
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q09-01
+CLM-INF-MUST-FHB1022-SAND2-Q11-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p12 Sandfly Q9; printed answer p18
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p12 Sandfly Q11; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p11 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10–11 direct university teaching
+
+## original_wording
+What type of reaction is typically seen at the bite site of a sandfly? Printed key C; options retained in their original order.
+What is the local reaction caused by a sandfly bite called? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q9. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q11. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-509BF395C5EBF9
+
+## label
+Sandflies are weak fliers with hopping movement
+
+## canonical_key
+parasitology.sandfly.weak-hopping-flight
+
+## aliases
+Sandfly movement
+Weak hopping flight
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandflies are weak fliers and characteristically move by hopping.
+
+## explicit_objective
+Identify weak hopping movement as characteristic sandfly locomotion.
+
+## pitfalls
+The deck does not describe strong continuous or long-distance flight, and burrows are resting habitat rather than movement.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q10-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p12 Sandfly Q10; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
+
+## original_wording
+How do sandflies typically move? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q10. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-F538E763E1260E
+
+## label
+Sandflies transmit leishmaniasis, Oroya fever and viral sandfly fever
+
+## canonical_key
+parasitology.sandfly.disease-profile
+
+## aliases
+Sandfly-transmitted diseases
+Sandfly fever virus
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandfly fever is caused by a virus.
+
+## explicit_objective
+Identify a virus as the cause of sandfly fever.
+
+## pitfalls
+Leishmania causes leishmaniasis and Bartonella bacilliformis causes Oroya fever; neither is the sandfly-fever agent.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly-transmitted disease
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly-transmitted disease
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q13-01
+CLM-INF-MUST-FHB1022-SAND2-Q14-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p13 Sandfly Q13; printed answer p18
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p13 Sandfly Q14; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 26 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10 direct university teaching
+
+## original_wording
+What is the causative agent of sandfly fever? Printed key C; options retained in their original order.
+Which of the following diseases is NOT transmitted by sandflies? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q13. Its printed C agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q14. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-482144C092C2DD
+
+## label
+Oroya fever is propagative Bartonella bacilliformis infection with hemolytic anemia
+
+## canonical_key
+parasitology.sandfly.oroya-profile
+
+## aliases
+Oroya fever profile
+Bartonella sandfly transmission
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Oroya fever is caused by Bartonella bacilliformis.
+
+## explicit_objective
+Identify Bartonella bacilliformis as the Oroya-fever agent.
+
+## pitfalls
+Leishmania, Plasmodium and Trypanosoma are not the causative agent named for Oroya fever.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Oroya fever
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Oroya fever
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q21-01
+CLM-INF-MUST-FHB1022-SAND2-Q23-01
+CLM-INF-MUST-FHB1022-SAND2-Q24-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p15 Sandfly Q21; printed answer p18
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q23; printed answer p18
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q24; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p28 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p12, 28 direct university teaching
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 28 direct university teaching
+
+## original_wording
+What is the causative agent of Oroya fever? Printed key B; options retained in their original order.
+What type of anemia is associated with Oroya fever? Printed key B; options retained in their original order.
+What type of transmission occurs in Bartonellosis? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q21. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q23. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Sandfly Q24. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-D5B09C8CE384D6
+
+## label
+Narrow-mesh nets help prevent sandfly bites
+
+## canonical_key
+parasitology.sandfly.narrow-mesh-net-prevention
+
+## aliases
+Sandfly bed-net prevention
+Narrow-mesh mosquito nets
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+
+## explicit_objective
+Identify narrow-mesh bed nets as a sandfly-bite prevention measure.
+
+## pitfalls
+Stopping repellents, burning plants and dark clothing are not the governed prevention recommendation.
+
+## concept_type
+prevention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly bite prevention
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bite prevention
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q26-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p16 Sandfly Q26; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p32 direct university teaching
+
+## original_wording
+What is an effective method to prevent sandfly bites? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q26. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-C6B9B514C3AC20
+
+## label
+Sandfly control does not rely on draining stagnant water
+
+## canonical_key
+parasitology.sandfly.control-not-stagnant-water
+
+## aliases
+Sandfly habitat control
+Non-aquatic sandfly breeding
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+
+## explicit_objective
+Identify stagnant-water drainage as outside the governed sandfly-control measures.
+
+## pitfalls
+Crack filling, insecticide spraying and bed nets are each explicitly recommended.
+
+## concept_type
+prevention
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly control
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly control
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q27-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p17 Sandfly Q27; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p9, 32 direct university teaching
+
+## original_wording
+Which of the following is NOT a method of sandfly control? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q27. Its printed D agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-3D7119FED6F45C
+
+## label
+Sandflies are more exophilic than endophilic but use indoor refuges
+
+## canonical_key
+parasitology.sandfly.exophilic-indoor-adaptation
+
+## aliases
+Sandfly exophily
+Indoor and outdoor sandfly habitats
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+
+## explicit_objective
+Connect sandfly exophily and indoor refuges to control of both habitat settings.
+
+## pitfalls
+Sandflies are not restricted to indoors, do not breed in water and are not defined as biting only humans.
+
+## concept_type
+behaviour
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly bionomics
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly bionomics
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q30-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p17 Sandfly Q30; printed answer p18
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p8 direct university teaching
+
+## original_wording
+Why do sandfly control measures focus on indoor and outdoor habitats? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Sandfly Q30. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.

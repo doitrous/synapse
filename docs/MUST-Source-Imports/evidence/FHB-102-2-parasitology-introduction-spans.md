@@ -1119,3 +1119,421 @@ CLM-INF-MUST-FHB1022-MOSQ2-Q30-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MOSQ2-Q30-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q01-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandflies are called sandflies because they have a sandy yellow colour.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q01-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q01-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q02-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Phlebotomus and Lutzomyia are sandfly genera.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q02-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q02-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q03-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandflies undergo complete metamorphosis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q03-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q03-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q04-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandfly development from egg to adult takes about 30 days.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q04-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q04-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q05-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Phlebotomus papatasi is the sandfly species identified as prevalent in Egypt.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q05-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q05-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q06-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+The name Phlebotomus refers to sucking blood from veins.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q06-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q06-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q07-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Adult sandflies hide in rodent burrows and in cracks or crevices in buildings during the daytime.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q07-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q07-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q08-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Female sandflies are nocturnal feeders.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q08-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q08-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q09-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q09-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q09-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q10-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandflies are weak fliers and characteristically move by hopping.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q10-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q10-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q11-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+The local reaction caused by a sandfly bite is called Harrara.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q11-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q11-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q13-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Sandfly fever is caused by a virus.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q13-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q13-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q14-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Sandflies transmit leishmaniasis, Oroya fever and sandfly fever, but malaria is not in the governed sandfly disease list.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q14-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q14-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q21-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Oroya fever is caused by Bartonella bacilliformis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q21-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q21-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q23-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Oroya fever is associated with acute hemolytic anemia.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q23-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q23-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q24-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Bartonellosis is transmitted propagatively by sandflies.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q24-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q24-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q26-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## section_id
+art-inf-must-fhb1022-sandfly-control-definition
+
+## text
+Sleeping under mosquito nets with narrow meshes helps prevent sandfly bites.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q26-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q26-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q27-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## section_id
+art-inf-must-fhb1022-sandfly-control-definition
+
+## text
+Filling cracks, spraying insecticides and using bed nets are sandfly-control measures, whereas draining stagnant water is not in the governed sandfly-control set because sandflies do not breed in water.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q27-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q27-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-SAND2-Q30-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandflies are more exophilic than endophilic but also use indoor cracks and crevices as refuges.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-SAND2-Q30-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-SAND2-Q30-01
