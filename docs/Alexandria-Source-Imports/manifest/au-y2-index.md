@@ -1,8 +1,36 @@
 # Alexandria University — Year 2 source index
 
-Generated 2026-08-22 from `/Users/doitrous/Desktop/Alexandria University/y2`. **2279 distinct sources** (by sha256; see manifest/README.md "Deduplication reality" for why this is not one row per file).
+Generated 2026-08-22 from `/Users/doitrous/Desktop/Alexandria University/y2`; **re-verified 2026-09-02** against the current tree at `/Users/doitrous/Desktop/Universities/Alexandria University/y2`. **2279 distinct sources** (by sha256; see manifest/README.md "Deduplication reality" for why this is not one row per file).
 
 Machine-readable copy: [`au-y2-sources.json`](./au-y2-sources.json)
+
+## S0 re-verification (2026-09-02) — zero content drift
+
+Full sha256 pass over the current Desktop tree (2319 physical files, 13GB) confirmed the
+manifest's 2279-hash set is unchanged: **zero new sources, zero removed sources, zero
+content changes** since generation. Everything below is still an accurate description of
+the corpus. What *did* move, cosmetic-only, and is now fixed in `au-y2-sources.json`'s
+path fields (`corpusRelativePath`, `sourceRelativePaths`, `absolutePath`,
+`duplicatePathCount`; every other field — category, moduleId, examSignals, textLayer,
+fileType — is content-derived and untouched):
+
+- **corpusRoot** moved from `/Users/doitrous/Desktop/Alexandria University` to
+  `/Users/doitrous/Desktop/Universities/Alexandria University` — same tree, nested one
+  level deeper under a new `Universities` folder.
+- **395 of 2279 sources** had at least one recorded path renamed on disk since generation
+  — almost all Finder double-space-to-single-space normalization (`"Genital book dr
+  Ibrahim .pdf"` → `"Genital book dr Ibrahim.pdf"`), a handful of `"- Copy"` suffix
+  removals.
+- **114 sources** additionally had a proper extension *added* where none existed before
+  (`"Lec.10"` → `"Lec.10.pdf"`) — good news for readability, but their `claimedExtension`/
+  `extensionNote` fields still describe the old extensionless name (stale, not reprobed
+  this pass); `fileType` is magic-byte based and unaffected, so `pagetext.mjs` reads these
+  correctly regardless.
+- **18 sources** lost one duplicate-name physical copy each (a same-folder `"(1)"`
+  collision artifact — two files with identical content and near-identical names in the
+  same folder — was cleaned up); the surviving copy carries the same sha256, so no content
+  was lost. This drops the "byte-identical copies filed under >1 path" count from 53 to
+  **36** (see "Duplicates and name-twins" below, updated).
 
 ## By module
 
@@ -109,6 +137,8 @@ None in this file.
 
 ## Duplicates and name-twins
 
-- **53** sources are byte-identical copies filed under more than one path.
+- **36** sources are byte-identical copies filed under more than one path (was 53 at
+  generation; 17 dropped to a single surviving path in the 2026-09-02 re-verification,
+  see above — no content lost).
 - **1823** sources have a `nameTwinOf` link — a same-folder sibling with the same normalised name (bracket suffix and punctuation stripped) whose bytes differ. **875** of those are the `twinPreferred` one (more extracted text; ties go to the '[from Alexandria University Updated]' copy). See manifest/README.md 'Deduplication reality' — these are never merged, only cross-referenced.
 - **63** sources have a `contentTwinOf` link — same extracted text (≥95% shingle/Jaccard, or an exact normalised-text hash match) on an *unrelated* filename, restricted to exam-paper/question-bank categories. **29** are `contentTwinPreferred`. See manifest/README.md 'Content twins'.
