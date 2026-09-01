@@ -35,8 +35,6 @@ Adrenergic stimulation can produce skeletal-muscle tremor, making this the best 
 Hyperkalemia
 ## explanation_d
 Adrenaline is not characteristically associated with hyperkalaemia in this adverse-effect comparison.
-## explanation
-Adrenaline can cause tremor as an adverse effect.
 ## topic
 General pharmacology
 ## subtopic
@@ -130,8 +128,6 @@ The statement is false because adrenaline activates alpha as well as beta adrene
 False
 ## explanation_b
 Adrenaline is a non-selective adrenergic agonist, so False is correct. It stimulates both alpha and beta receptor families rather than beta-1 alone. Beta-1 cardiac stimulation is only one component of its broader pharmacology.
-## explanation
-Adrenaline is a non-selective adrenergic agonist that stimulates alpha and beta receptors.
 ## topic
 General pharmacology
 ## subtopic
@@ -225,8 +221,6 @@ Adrenaline can increase arterial pressure through cardiac stimulation and vasoco
 False
 ## explanation_b
 The statement is not false: adrenaline has pressor effects that can be used in hypotension.
-## explanation
-Adrenaline can raise arterial pressure and may be used to treat hypotension.
 ## topic
 General pharmacology
 ## subtopic

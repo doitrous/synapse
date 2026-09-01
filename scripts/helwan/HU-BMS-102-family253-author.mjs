@@ -150,7 +150,7 @@ const questionRow = spec => row([
   ['id', spec.id], ['title', spec.stem], ['subject', 'pharm'], ['status', 'Draft'], ['owner', 'Helwan Year-1 authoring lane'], ['vignette', ''],
   ['question', spec.stem], ['format', spec.format], ['derived_from', ''], ['correct_answer', spec.key],
   ...spec.options.flatMap((option, index) => [[`answer_${letters[index].toLowerCase()}`, option], [`explanation_${letters[index].toLowerCase()}`, spec.explanations[index]]]),
-  ['explanation', spec.definition], ['topic', 'General pharmacology'], ['subtopic', 'Adrenergic pharmacology'], ['difficulty', 'Easy'], ['question_type', 'Pharmacology'],
+  ['topic', 'General pharmacology'], ['subtopic', 'Adrenergic pharmacology'], ['difficulty', 'Easy'], ['question_type', 'Pharmacology'],
   ['main_concept', spec.concept], ['module', 'HU-BMS-102'], ['module_subject', `HU-BMS-102 > Pharmacology > Adrenergic pharmacology > Family253 > ${spec.ref}`],
   ['clinical_relevance', '0.68'], ['academic_relevance', '0.94'], ['cognitive_effort_score', '0.34'], ['exam_weight_by_year', 'HU_Y1=0.50'],
   ['question_only_for', 'HU_Y1'], ['concept_ids', '[clear]'], ['years', 'HU_Y1'], ['universities', 'hu'], ['cognitive_effort', 'Low'], ['setting', 'Academic'],
