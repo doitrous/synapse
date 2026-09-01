@@ -26,5 +26,7 @@ First commit within minutes; commit + push every 5–10 questions. Report ≤ 20
 - `pharm` concepts still need an explicit body-system (`FND` or `INF`) per the manual — ASU inherits this from the shared mint, it is not Kasr-only.
 - A branded external question bank (e.g. "Biochemistry Academy") can appear verbatim across multiple universities' corpora — treat a suspiciously familiar bank as a search-first case, not a fresh source.
 
+- **ASU-MBG cluster 6 (Gene Expression)**: the scan's answer keys are blacked out — a real printed key that is unreadable, so HOLD every row (never key editorially); logged as needs-Omar.
+
 ## 8. Walls → where the answer lives
 Id/search/overlay law → `00-START-HERE.md` §3–4. Gate/tool shape → `SHARED-TOOLCHAIN.md` §Content CLI. Explanation/coverage bar → `05-questions.md`. Reviewer/publisher and answer-key rulings → `docs/chief-of-staff/HANDOFF.md` "Standing orders". No ASU-specific hazards register exists yet — if you find one, start `docs/Ain-Shams-Source-Imports/LANE-BRIEF.md` rather than letting it live only in a report.
