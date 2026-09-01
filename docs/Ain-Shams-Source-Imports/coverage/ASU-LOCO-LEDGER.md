@@ -4,7 +4,7 @@
 | collagen | 26 | 4 | 0 | 30 |
 | important | 0 | 0 | 4 | 4 |
 | muscle | 0 | 0 | 25 | 25 |
-| purine | 0 | 0 | 16 | 16 |
+| purine | 14 | 2 | 0 | 16 |
 
 ## Held
 - calcium-q08 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 7 (between Q7 and Q9); confirmed by rendering the page image, not an OCR artifact
@@ -12,6 +12,8 @@
 - collagen-q17 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 4 (between Q15 and Q18); confirmed by rendering the page image, not an OCR artifact
 - collagen-q25 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 5 (between Q24 and Q26); confirmed by rendering the page image, not an OCR artifact
 - collagen-q29 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 5 (between Q28 and Q30); confirmed by rendering the page image, not an OCR artifact
+- purine-q09 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 9 (between Q8 and the Q11-16 matching table); confirmed by rendering the page image, not an OCR artifact
+- purine-q10 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 9 (between Q8 and the Q11-16 matching table); confirmed by rendering the page image, not an OCR artifact
 
 ## Remaining
 - important-q01
@@ -43,19 +45,3 @@
 - muscle-q23
 - muscle-q24
 - muscle-q25
-- purine-q01
-- purine-q02
-- purine-q03
-- purine-q04
-- purine-q05
-- purine-q06
-- purine-q07
-- purine-q08
-- purine-q09
-- purine-q10
-- purine-q11
-- purine-q12
-- purine-q13
-- purine-q14
-- purine-q15
-- purine-q16
