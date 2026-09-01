@@ -1,7 +1,96 @@
 # ASU-MBG progress ledger
 
-Tracks status against the 12 concept clusters in `ASU-MBG-triage.md`. Update this file, do not
-recreate it, as each cluster closes.
+Tracks status against the 12 concept clusters in `ASU-MBG-triage.md`, plus Cluster 13 (Molecular
+Biology of Cancer, found and triaged by author11). Update this file, do not recreate it, as each
+cluster closes.
+
+## Done (author11, branch `asu-mbg-author11`, base `asu-mbg-author10` @ 86222f5c)
+
+**Cluster 13 · Molecular Biology of Cancer — new chapter, not in the original S1 triage. CLOSED,
+all 44 questions authored.**
+
+Found sitting between "Regulation of Gene Expression" (Cluster 6, still blocked) and "Mode of
+Inheritance" (Cluster 7, closed) in file 1 (`EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf`),
+PDF pp.35-41. Unlike Cluster 6, this chapter's scan is clean throughout — no blacked-out or
+unrecoverable answer cells — and its own "Answers of molecular biology of cancer" table (PDF p.41)
+keys all 44 questions. Full triage table: `coverage/ASU-MBG-triage.md` Cluster 13.
+
+| Concept | ID | Qs | Status |
+|---|---|---:|---|
+| Rb/E2F restriction-point control | `CON-FND-05748BDCBE10A5` | 1,2,5,6,14,20,24,41 | **new** |
+| Proto-oncogene vs tumor-suppressor-gene definitions | `CON-FND-1BCB86AE1C6B66` | 8,9,11,12,13,16,18,25,26 | **new** |
+| Proto-oncogene→oncogene activation mechanisms | `CON-FND-76604784CC143B` | 3,17,22 | **new** |
+| Retroviral oncogenesis (promoter insertion + reverse transcriptase) | `CON-FND-4A768CDB232E77` | 39,40 | **new** |
+| p53 DNA-damage response (Mdm2, p21, G1-S halt, apoptosis) | `CON-FND-B03C1C16A79323` | 19,21,37,38 | **new** |
+| Caspase cascade — initiator/effector per pathway + apoptosome | `CON-FND-BBCC9BC05C8C5F` | 29,30,31,32,33,34,36,42,43 | **new** |
+| Cancer-cell hallmark features | `CON-FND-CF3FFDEA6D271F` | 15 | **new** |
+| Cell-cycle/apoptosis regulatory proteins (Kasr 102-INT, overlaid) | `CON-FND-1F66060A9C2625` | 44 | pending-hit |
+| Cyclin-CDK/restriction point (Kasr 102-INT, overlaid) | `CON-FND-FF40DB9ED068F9` | 23 | pending-hit |
+| Caspases general — cysteine proteases (Kasr 102-INT, overlaid) | `CON-FND-70E5BD77E8FE49` | 28 | pending-hit |
+| Apoptosis morphology (108-INT, overlaid) | `CON-FND-46B3AD5A2D8294` | 10,27 | pending-hit |
+| Apoptosis causes, physiological/pathological (108-INT, overlaid) | `CON-FND-A40D59DAB245EA` | 4,35 | pending-hit |
+| Structural chromosomal aberrations / Philadelphia chromosome (already ASU-tagged, author4) | `CON-DEV-D2BA4082190B3F` | 7 | reused |
+
+Two new minimal `TPL-CONCEPT` articles: `ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES` (teaches the
+7 concepts above except the caspase-cascade one) and `ART-FND-CASPASE-CASCADE-AND-APOPTOSOME` (teaches
+the caspase-cascade concept), both cross-linked to the three existing pending articles their reused
+concepts point to (`ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES`, `ART-108-PAT-
+APOPTOSIS`, `ART-104-HIS-STRUCTURAL-ABERRATIONS`) — the latter two getting their own first ASU overlay
+in `pending-live/ASU-MBG-molecular-genetics-articles.md` since neither had been ASU-tagged before.
+Full evidence chain for the 7 new concepts (7 claims, 7 citations, no spans since no new span-worthy
+article text beyond the definitions themselves). Files: `concept/ASU-MBG-molecular-biology-of-cancer-
+concepts.md`, `article/ASU-MBG-molecular-biology-of-cancer-articles.md`, `evidence/ASU-MBG-molecular-
+biology-of-cancer-{claims,citations}.md`, `question/ASU-MBG-molecular-biology-of-cancer-mcq.md`, plus
+5 concept + 2 article sparse-overlay appends to `pending-live/ASU-MBG-molecular-genetics{,-articles}.md`.
+
+**Two transcription errors caught and fixed during authoring, before the gate run**: Q23's key is
+d) "Cyclin-dependent kinase", not b) "Cyclins" as first drafted (fixed in the triage table and the
+pending-live overlay's field_notes before committing); Q24's key is c) "It binds E2F transcription
+factor and prevents cell from entering [S phase]", not b) "...binds E2F and thus stimulates the cell
+to enter S phase" as first drafted — option b reverses the real causality and is the keyed-wrong
+distractor, caught by cross-checking against Q41's own differently-worded restatement of the same
+correct fact. Both re-verified against the rendered source image twice before finalising.
+
+Search-before-mint (`find-existing.mjs`, ≥4 queries each): "proto-oncogene", "tumor suppressor",
+"Rb E2F", "retinoblastoma Rb", "loss of function tumor suppressor", "gain of function oncogene",
+"proto-oncogene activation mechanisms", "chromosomal translocation cancer", "retrovirus oncogene",
+"p53", "initiator caspase", "effector caspase", "apoptosome Apaf-1", "membrane blebbing",
+"phosphatidylserine", "cancer cell characteristics hallmarks" — the 7 new concepts' facts returned no
+hit anywhere; "apoptosis", "caspase", "restriction point" and "Philadelphia chromosome" each hit an
+existing pending or already-ASU-tagged concept, sparse-overlaid rather than duplicated per the 5
+pending-hit / 1 reused rows above.
+
+Gates: `medical:batch` clean (0 errors) on all seven new/changed files together (concepts, articles,
+evidence claims/citations, both pending-live overlay files, the 44-question file), explanation-length
+0% under 200 chars / 0% under 3 sentences on the full 44-question run. `medical:simulate` (positional,
+apply order: resources → concepts → articles → pending-live → evidence → questions, `--emit` to
+scratch) 0 errors, 0 skipped, `delta: {articles:15, concepts:50, claims:7, citations:7, resources:1,
+articleSpans:0}` against the full cumulative pending-live state (the pending-live totals reflect every
+prior session's still-pending overlay work, not just this pass's own contribution, which is 2 articles
++ 7 concepts + 5 pending-live concept overlays + 2 pending-live article overlays + 7 claims + 7
+citations + 0 spans + 44 questions); questions `created: 44, updated: 0, rejected: 0`.
+`medical:audit --source <emitted-state>` — by exact-id filtering, every one of this pass's 7 new
+concepts and 2 new articles appears exactly once each, only in the same generic, harmless
+"microtopicId is blank without an explicit reason" completeness note already present on dozens of
+prior sessions' concepts across this whole simulated state; 0 errors mention any of this pass's 44
+questions, 7 claims or 7 citations, and none of the 7 new concepts appear in any concept-specific
+defect category (canonicalKey/definition/articleIds/etc. missing — those all list only the sparse
+pending-live overlay rows, which correctly omit fields they don't redeclare). `medical:concept-ids`
+run clean: "no rival ids" — no canonical-key collision anywhere in the repo, including the 7 new keys.
+
+**Traceable share:** 44/44 questions traceable to a `main_concept` covered by one of the two new
+articles or one of the three existing overlaid articles — 100%.
+
+**New finding, not triaged or authored this pass:** a "Gene Therapy" chapter starts immediately after
+this chapter's own answer table on the same PDF page (pg41), with its own separate ~24-question answer
+key (germline vs somatic gene therapy, restriction endonucleases, palindromic sequences, molecular
+cloning, plasmids) — not named in this session's dispatch orders. Flagged for the orchestrator to scope
+into a future dispatch; `find-existing.mjs` spot-checks suggest it is likely fully new content.
+
+Commits on `asu-mbg-author11`: triage (this file's Cluster 13 section + `ASU-MBG-triage.md`), concepts
++ articles + evidence + pending-live overlays, questions in three batches (Q1-22, Q23-28, Q29-44,
+the last after fixing the Q23/Q24 transcription errors caught above). Pushed to origin after every
+commit.
 
 ## Done (author10, branch `asu-mbg-author10`, base `asu-mbg-author7` @ 8024699f)
 
@@ -361,7 +450,8 @@ All still sourced from `EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf` unless no
 | 6 · Gene expression regulation | ~16+ Q in file 1's "Regulation of Gene Expression" section | **answers physically blacked out/redacted in the source scan** — genuine unrecoverable-key case (confirmed again this pass on p.15's own table having 2 blacked cells, Q17/Q82, same hazard pattern). `MCQs - Formative Gene expression gene therapy.docx` (4 items) also 0/4 keyed (plain-text extraction strips highlighting) | **blocked** — log needs-Omar, do not force. Do not re-triage per chief-of-staff ruling this session. |
 | 7 · Modes of inheritance | **CLOSED this pass (author6) — see the "Done" section above.** | — | done |
 | (misc) | "Collection Questions" Q1-27, LMS snippets ~15, file 1 pp.33-49 (~17pp not yet opened — pp.20-28, 30 now opened as the Genetic-Codes/Translation chapters and its answer table; pp.33-52 opened this pass while authoring cluster 7, no unrelated content of note beyond the "Molecular Biology of Cancer" chapter noted below), file 8 (essay) page count/remainder | unmapped | not yet triaged in detail |
-| (new finding, unmapped) | A "Molecular Biology of Cancer" chapter sits between "Regulation of Gene Expression" and "Mode of Inheritance" in file 1 (PDF pp.~34-42ish; its own "Answers of Gene Therapy" table seen on PDF p.44/printed "42" covers only a CRISPR/gene-therapy sub-section, Q1-24 — the earlier cancer-biology items, e.g. p53/Rb/apoptosis/retrovirus questions seen on PDF p.40, printed "39," numbered ~Q37-44, must have their own earlier table not yet located). Not in the original 8-source triage's cluster list at all. | Not triaged, not authored, not keyed. | needs full S1 triage before any authoring |
+| 13 · Molecular Biology of Cancer | **CLOSED this pass (author11) — all 44 questions authored, PDF pp.35-41. See "Cluster 13" in the "Done" section above.** | — | done |
+| (new finding, unmapped) | Immediately after Cluster 13's own answer table (PDF p.41), a separate "Gene Therapy" chapter begins its own ~24-question run (germline vs somatic gene therapy, restriction endonucleases, palindromic sequences, molecular cloning, plasmids), with its own "Answers of Gene Therapy" table later in the file. Not named in author11's dispatch orders — not triaged, not authored, not keyed this pass. `find-existing.mjs` spot-checks suggest likely-new content. | Not triaged, not authored, not keyed. | needs its own triage/dispatch before authoring |
 
 ## Page map confirmed this pass (PDF page index, via `pdftoppm`, cross-checked against printed page numbers where visible)
 
