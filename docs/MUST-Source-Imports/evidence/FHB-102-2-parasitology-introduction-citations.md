@@ -4877,3 +4877,43 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q19-01
+
+## resource_id
+src_2c1e04372fbb8b2607f7
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official ocular-and-nasopharyngeal-myiasis slide states that the larvae of flies find their way to the conjunctiva or nose and may cause serious damage, destroying the eyes, orbit or even the sinuses.
+
+## locator_type
+page
+
+## locator_page
+48
+
+## locator_section
+Flies and Myiasis — Clinical myiasis
+
+## locator_detail
+PDF page 48, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Advanced MCQ Q19 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

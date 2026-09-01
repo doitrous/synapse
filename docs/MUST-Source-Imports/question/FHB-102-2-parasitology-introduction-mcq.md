@@ -18541,3 +18541,155 @@ yes
 
 ## author_notes
 Printed source key: Mucize Advanced MCQ Q17 = B. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-PARA-MUCIZEADV-Q19
+
+## title
+Which type of myiasis is characterized by the invasion of the nasal passages or sinuses by fly larvae?
+
+## question
+Which type of myiasis is characterized by the invasion of the nasal passages or sinuses by fly larvae?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_2c1e04372fbb8b2607f7 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Gastric myiasis
+
+## explanation_a
+Incorrect. Gastric, cutaneous and urogenital myiasis are not the site linked to nasal-passage or sinus invasion in the governed teaching. The supported answer is C, Nasopharyngeal myiasis.
+
+## answer_b
+Cutaneous myiasis
+
+## explanation_b
+Incorrect. Gastric, cutaneous and urogenital myiasis are not the site linked to nasal-passage or sinus invasion in the governed teaching. The supported answer is C, Nasopharyngeal myiasis.
+
+## answer_c
+Nasopharyngeal myiasis
+
+## explanation_c
+Nasopharyngeal myiasis involves fly larvae finding their way to the nose and invading the nasal passages, potentially reaching the sinuses. The governed university slide directly supports Nasopharyngeal myiasis for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Urogenital myiasis
+
+## explanation_d
+Incorrect. Gastric, cutaneous and urogenital myiasis are not the site linked to nasal-passage or sinus invasion in the governed teaching. The supported answer is C, Nasopharyngeal myiasis.
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## main_concept
+CON-INF-F42C8B916A3D75
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Clinical myiasis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_2c1e04372fbb8b2607f7
+
+## learning_objective
+Identify nasopharyngeal myiasis as the type invading the nasal passages or sinuses.
+
+## source_citation
+Mucize Doctors FHB102-2 MCQ bank, p26 Mucize Advanced MCQ Q19, printed key p28 (19 = C); MUST FHB102-2 Flies and Myiasis, p48.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Advanced MCQ Q19 = C. The wording, option order and key are preserved exactly. The question remains Draft/local-only and is not authorised for upload.

@@ -5365,3 +5365,47 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Advanced MCQ Q17
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q19-01
+
+## concept_id
+CON-INF-F42C8B916A3D75
+
+## subject
+Nasopharyngeal myiasis invades the nasal passages and sinuses
+
+## predicate
+states
+
+## object
+Nasopharyngeal myiasis involves fly larvae finding their way to the nose and invading the nasal passages, potentially reaching the sinuses.
+
+## display_text
+Nasopharyngeal myiasis involves fly larvae finding their way to the nose and invading the nasal passages, potentially reaching the sinuses.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Advanced MCQ Q19

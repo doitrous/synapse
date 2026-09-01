@@ -2681,3 +2681,25 @@ CLM-INF-MUST-FHB1022-MUCIZEADV-Q17-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZEADV-Q17-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZEADV-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-CLINICAL-SITE-MYIASIS
+
+## section_id
+art-inf-must-fhb1022-clinical-site-myiasis-definition
+
+## text
+Nasopharyngeal myiasis involves fly larvae finding their way to the nose and invading the nasal passages, potentially reaching the sinuses.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZEADV-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZEADV-Q19-01
