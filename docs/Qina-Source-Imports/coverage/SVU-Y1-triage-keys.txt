@@ -1,0 +1,6 @@
+# SVU Year 1 triage keys — empty
+#
+# No source in this corpus (manifest/y1-sources.json, 21 sources) is an exam paper or
+# question bank. There are zero printed questions to recover keys from. See
+# coverage/SVU-Y1-triage.md for the wall this lane hit and the options left for the
+# chief of staff.
