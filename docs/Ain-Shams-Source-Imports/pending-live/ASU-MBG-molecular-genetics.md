@@ -1196,7 +1196,7 @@ ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology 
 ASU_Y1=0.35
 
 ## field_notes
-university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg38 (printed p.37), Molecular Biology of Cancer Q23 ("Passage of a cell through stages of cell cycle is controlled by a protein kinase that phosphorylates many different proteins at appropriate times" ANSWER: b) Cyclins — this concept's own cyclin-CDK mechanism is exactly what the question is asking for).
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar pg38 (printed p.37), Molecular Biology of Cancer Q23 ("Passage of a cell through stages of cell cycle is controlled by a protein kinase that phosphorylates many different proteins at appropriate times" ANSWER: d) Cyclin-dependent kinase — this concept's own cyclin-CDK mechanism is exactly what the question is asking for).
 
 ---
 

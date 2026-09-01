@@ -112,7 +112,7 @@ CLM-FND-RB-E2F-RESTRICTION-POINT-01
 
 ## original_wording
 "Which of the following occur in G1's restriction point? a) Growth factor inhibits cyclin transcription. b) Cyclin inactivates CDK c) The protein P15, P16 activate CDK d) RB protein is phosphorylated. e) E2F transcription factor is inactive." ANSWER: d
-"Which of the following about Rb tumor suppressor protein is correct? a. It binds E2F transcription factor preventing cells from entering S phase..." ANSWER: a (Q41); a different ordering of the same fact is asked again at Q24, answer b) "When a mitogenic signal is received, it binds the transcription factor E2F and thus stimulates the cell to enter S phase"
+"Which of the following about Rb tumor suppressor protein is correct? a. It binds E2F transcription factor preventing cells from entering S phase..." ANSWER: a (Q41); the same fact is asked again at Q24, answer c) "It binds E2F transcription factor and prevents cell from entering [S phase]" — Q24's own option b ("When a mitogenic signal is received, it binds the transcription factor E2F and thus stimulates the cell to enter S phase") is the keyed-wrong distractor, since it reverses the actual causality (a mitogenic signal triggers Rb's phosphorylation and release of E2F, not Rb itself stimulating entry while bound).
 
 ## merge_ids
 

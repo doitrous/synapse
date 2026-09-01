@@ -123,8 +123,8 @@ printed table, high confidence.
 | 20 | Can result in tumor suppression EXCEPT | e) Hyperphosphorylation of Rb | Rb/E2F restriction-point control | new |
 | 21 | Checkpoint halted if DNA damaged | d) G1-S | p53 DNA-damage response | new |
 | 22 | Mechanism does NOT activate proto-oncogene | e) Promotor deletion | Proto-oncogene activation mechanisms | new |
-| 23 | Kinase phosphorylating many proteins through cycle | b) Cyclins (cyclin-CDK) | Cyclin-CDK/restriction point (reused) | pending-hit `CON-FND-FF40DB9ED068F9` |
-| 24 | Correct statement about Rb protein | b) Binds E2F, mitogenic signal releases it → S phase | Rb/E2F restriction-point control | new |
+| 23 | Kinase phosphorylating many proteins through cycle | d) Cyclin-dependent kinase | Cyclin-CDK/restriction point (reused) | pending-hit `CON-FND-FF40DB9ED068F9` |
+| 24 | Correct statement about Rb protein | c) Binds E2F, prevents cell from entering [S phase] | Rb/E2F restriction-point control | new |
 | 25 | Accurately compares TSG and proto-oncogenes | a) Proto-onc code growth factors; TSG inhibit division | Proto-oncogene/TSG definitions | new |
 | 26 | Can stimulate cell cycle | e) Growth factor | Proto-oncogene/TSG definitions | new |
 | 27 | NOT a character of apoptotic cell | d) It swells and ruptures | Apoptosis morphology | pending-hit `CON-FND-46B3AD5A2D8294` |
