@@ -999,6 +999,8 @@ The clavicle, the shoulder girdle's root-branch nerves, and how a fractured clav
 Clavicle fracture
 Dorsal scapular nerve
 Suprascapular nerve
+Pectoral girdle osteology
+Coracoid process attachments
 
 ## subject
 msk
@@ -1055,11 +1057,14 @@ Medical team, Admin team
 Admin team
 
 ## summary
-A fractured clavicle displaces in a predictable way, driven by sternocleidomastoid on one fragment and the arm's own weight (plus pectoralis major, with trapezius too weak to stop it) on the other. The dorsal scapular and suprascapular nerves are both root/upper-trunk branches of the brachial plexus, given off early, each supplying a distinct set of scapular muscles.
+A fractured clavicle displaces in a predictable way, driven by sternocleidomastoid on one fragment and the arm's own weight (plus pectoralis major, with trapezius too weak to stop it) on the other. The dorsal scapular and suprascapular nerves are both root/upper-trunk branches of the brachial plexus, given off early, each supplying a distinct set of scapular muscles. Beneath these clinical and neural facts sits the plain osteology of the same bones: the clavicle's own surface-by-surface attachments and its unusual ossification order, the coracoid process's muscle attachments, and how the scapular spine and medial border relate to their neighbours.
 
 ## sections
 ### Definition
 The clavicle typically fractures at the junction of its two curvatures, its structurally weakest point, from a fall onto the shoulder or outstretched hand. The dorsal scapular nerve arises directly from the C5 root (before the trunks form), pierces scalenus medius, and supplies levator scapulae and both rhomboids, muscles that retract and help elevate the scapula. The suprascapular nerve arises from the upper trunk (C5, C6), passes through the suprascapular notch under the superior transverse scapular ligament (the suprascapular artery passes above it), and supplies supraspinatus and infraspinatus plus sensory branches to the shoulder joint capsule itself — but no cutaneous branch to the overlying skin.
+
+### Pectoral girdle osteology
+The clavicle is the first bone in the body to begin ossifying, in the sixth embryonic week, even though its medial epiphysis is the last of any bone to fuse, in the mid-20s. It articulates only with the manubrium sterni medially and the acromion laterally — never with the coracoid process, which the coracoclavicular ligament merely tethers it to, not a true joint. Trapezius attaches to the posterior border of its lateral one-third; pectoralis major attaches along the anterior border and superior surface of roughly its medial half; deltoid takes the lateral one-third's anterior border and superior surface — the only one of this group not confined to the inferior surface, where subclavius (subclavian groove, middle third), the costoclavicular ligament (costal tuberosity, medial end) and the coracoclavicular ligament (conoid tubercle and trapezoid line, lateral end) all sit instead. On the scapula, the medial (vertebral) border carries levator scapulae, both rhomboids and serratus anterior, while the teres muscles attach to the lateral border instead — the exception to remember among "medial border" muscles. Pectoralis major attaches only to the clavicle, sternum and costal cartilages, never the scapula, unlike deltoid, trapezius and serratus anterior, which all do reach the scapula. The coracoid process attaches pectoralis minor at its tip and the conjoint tendon of coracobrachialis and the short head of biceps at its apex — the long head of biceps arises from the supraglenoid tubercle instead, and the long head of triceps from the infraglenoid tubercle, neither from the coracoid. The scapular spine is continuous laterally with the acromion, where deltoid and trapezius both attach.
 
 ### Mechanism
 After a clavicle fracture, the medial fragment is pulled upward and backward by sternocleidomastoid, now unopposed by the intact bone's counterweight. The lateral fragment is displaced downward, forward and medially by the weight of the whole upper limb and by pectoralis major; trapezius, though still attached to the lateral fragment, is too weak against the limb's dead weight to prevent the drop, producing the classic "dropped shoulder". Because the dorsal scapular and suprascapular nerves both leave the brachial plexus so early (at root or upper-trunk level, before the "big five" terminal branches), they are tested as answers to "which root/trunk gives rise to the nerve supplying X", rather than as sites of common isolated injury.
@@ -1079,16 +1084,21 @@ Recognising the typical clavicle fracture displacement pattern matters for reduc
 The medial clavicular fragment is pulled up by sternocleidomastoid; the lateral fragment drops from the limb's weight because trapezius cannot hold it up.
 The dorsal scapular nerve is a direct C5 root branch, given off before the trunks form.
 The suprascapular nerve supplies the shoulder joint capsule's sensation but carries no cutaneous branch to the skin.
+The clavicle is the first bone to start ossifying and articulates only with the sternum and acromion, never the coracoid process.
+The coracoid process takes pectoralis minor at its tip and coracobrachialis plus the short head of biceps at its apex — not the long head of biceps or triceps.
 
 ## lose_the_mark
 Assuming trapezius, being attached to the lateral fragment and normally an elevator, prevents the fragment from dropping.
 Assuming every scapular nerve arises from a cord the way the terminal branches do.
 Expecting skin numbness from an isolated suprascapular nerve lesion.
+Assuming the coracoclavicular ligament makes the clavicle and coracoid process a true joint.
+Assuming trapezius attaches to the clavicle's medial two-thirds by analogy with pectoralis major on the same bone.
 
 ## related_concepts
 CON-MSK-7F73A394EF5B30
 CON-MSK-EA1DEC9341018E
 CON-MSK-AB846B50993763
+CON-MSK-8E4BB62A579068
 
 ## related_articles
 ART-MSK-AU105-FOREARM-NERVES: another upper-limb region taught in the same lecture set

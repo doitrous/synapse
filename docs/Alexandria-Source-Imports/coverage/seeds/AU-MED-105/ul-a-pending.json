@@ -1,0 +1,800 @@
+{
+  "lane": "AU-105",
+  "cluster": "ul",
+  "header": "AU-MED-105 Anatomy · Upper Limb MCQ bank, Section A (Bones/Shoulder region, Q1-Q50 of 160) — questions whose main concept is a Kasr overlay id (rotator cuff, quadrangular/triangular spaces, tuberosities, scapular-nerve supply, long thoracic nerve, clavipectoral fascia, latissimus dorsi, trapezius, axillary nerve; docs/Kasr-Source-Imports/concept/101-ISK-concepts.md and 101-ISK-mcq-concepts.md, articles in docs/Kasr-Source-Imports/article/101-ISK-anatomy.md and 101-ISK-anatomy-2.md). Apply after those Kasr concept + article batches land. Also carries the five Section A items not authored: two image-pointer items with no diagram in the corpus, and three items (Q16, Q21, Q46) already authored as QST-MSK-AU105-ANAT-DORSALSCAP/SUPRASCAP/CLAVFX in question/AU-MED-105-anatomy-mcq.md.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["au"],
+    "years": ["AU_Y1"],
+    "module": "AU-MED-105",
+    "module_subject": "AU-MED-105 > Anatomy > Upper Limb > Pectoral region and shoulder girdle",
+    "exam_weight_by_year": { "AU_Y1": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-101-ANA-AXILLA-BREAST", "ART-101-ANA-SHOULDER-SPACES-ROTATION", "ART-101-ANA-AXILLARY-NERVE", "ART-101-ANA-PECTORALIS-MAJOR", "ART-101-ANA-MUSCLES-OF-THE-BACK", "ART-101-ANA-RADIAL-NERVE", "ART-101-ANA-SHOULDER-REGION"],
+    "resource_ids": ["src_c86f47635016c192bd42"],
+    "source_citation": "Upper limb MCQ, Section A (Bones/Shoulder region), Dr Ibrahim Amr",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    { "key": "ul-q14", "hold": "stem is an image-pointer item (\"which muscle is attached at the pointed area?\") referring to an unlabelled diagram not present anywhere in the corpus; the printed key (D) is uninterpretable without seeing what the arrow points to, so no truthful explanation can be written" },
+    { "key": "ul-q15", "hold": "same defect as ul-q14 — image-pointer item, no diagram in corpus, printed key (B) uninterpretable" },
+    { "key": "ul-q16", "hold": "already authored as QST-MSK-AU105-ANAT-DORSALSCAP in question/AU-MED-105-anatomy-mcq.md (same bank item, dorsal scapular nerve); not duplicating" },
+    { "key": "ul-q21", "hold": "already authored as QST-MSK-AU105-ANAT-SUPRASCAP in question/AU-MED-105-anatomy-mcq.md (same bank item, suprascapular nerve); not duplicating" },
+    { "key": "ul-q46", "hold": "already authored as QST-MSK-AU105-ANAT-CLAVFX in question/AU-MED-105-anatomy-mcq.md (same bank item, clavicle fracture medial fragment); not duplicating" },
+    {
+      "key": "ul-q09",
+      "page": 4,
+      "title": "Muscle attached to the greater tuberosity of the humerus",
+      "question": "Which muscle is attached to the greater tuberosity of the humerus?",
+      "options": { "A": "Subscapularis muscle", "B": "Teres minor", "C": "Serratus anterior", "D": "Pectoralis major" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Subscapularis is the one rotator cuff muscle that inserts on the lesser tuberosity, not the greater.",
+        "B": "Correct. The greater tuberosity has three facets that take three of the four rotator cuff muscles in order from top to bottom — supraspinatus, infraspinatus and teres minor — so teres minor is a correct answer here. Subscapularis is the odd one out among the cuff, inserting on the lesser tuberosity instead. The intertubercular (bicipital) groove between the two tuberosities then takes the tendon of the long head of biceps, not a muscle insertion.",
+        "C": "Incorrect. Serratus anterior inserts on the costal surface of the scapula's medial border, nowhere near the humerus.",
+        "D": "Incorrect. Pectoralis major inserts on the lateral lip of the bicipital groove, not the greater tuberosity."
+      },
+      "main_concept": "CON-MSK-38A32E79B1412F",
+      "concept_ids": ["CON-MSK-38A32E79B1412F"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "Name teres minor as one of the three rotator cuff muscles inserting on the greater tuberosity.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q10",
+      "page": 4,
+      "title": "Nerve related to the surgical neck of the humerus",
+      "question": "The surgical neck of the humerus is related to:",
+      "options": { "A": "Radial nerve", "B": "Ulnar nerve", "C": "Axillary nerve", "D": "Median nerve" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The radial nerve is related to the humeral shaft's spiral groove, further distal than the surgical neck.",
+        "B": "Incorrect. The ulnar nerve runs behind the medial epicondyle, at the elbow, unrelated to the surgical neck.",
+        "C": "Correct. The axillary nerve winds around the surgical neck of the humerus together with the posterior circumflex humeral artery, passing through the quadrangular space just before it does so. This close relation is exactly why a surgical-neck fracture or an anterior shoulder dislocation both put the axillary nerve at risk, costing deltoid and teres minor if it is injured. The surgical neck is named for being the common fracture site precisely because of this vulnerable relation.",
+        "D": "Incorrect. The median nerve runs in the arm alongside the brachial artery, medial to the humeral shaft, not at the surgical neck specifically."
+      },
+      "main_concept": "CON-MSK-EE022A2043C10F",
+      "concept_ids": ["CON-MSK-EE022A2043C10F"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "State that the axillary nerve winds around the surgical neck of the humerus.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q11",
+      "page": 4,
+      "title": "Muscle attached to the lesser tuberosity of the humerus",
+      "question": "Which muscle is attached to the lesser tuberosity of the humerus?",
+      "options": { "A": "Subscapularis muscle", "B": "Teres minor", "C": "Infraspinatus", "D": "Supraspinatus" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Subscapularis is the single rotator cuff muscle that inserts on the lesser tuberosity, having run across the front of the shoulder joint from the subscapular fossa. This makes it distinct from the other three cuff muscles, which all insert on the greater tuberosity instead. Subscapularis is also the main medial (internal) rotator among the cuff, unlike its three neighbours.",
+        "B": "Incorrect. Teres minor inserts on the lowest facet of the greater tuberosity, not the lesser.",
+        "C": "Incorrect. Infraspinatus inserts on the middle facet of the greater tuberosity, not the lesser.",
+        "D": "Incorrect. Supraspinatus inserts on the uppermost facet of the greater tuberosity, not the lesser."
+      },
+      "main_concept": "CON-MSK-38A32E79B1412F",
+      "concept_ids": ["CON-MSK-38A32E79B1412F"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "Name subscapularis as the rotator cuff muscle inserting on the lesser tuberosity.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q12",
+      "page": 4,
+      "title": "Structure attached to the floor of the bicipital groove",
+      "question": "... is attached to the floor of the bicipital groove of the humerus.",
+      "options": { "A": "Teres major muscle", "B": "Subscapularis muscle", "C": "Latissimus dorsi", "D": "Serratus anterior" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (near miss). Teres major inserts on the medial lip of the bicipital groove, not its floor.",
+        "B": "Incorrect. Subscapularis inserts on the lesser tuberosity itself, not the bicipital groove.",
+        "C": "Correct. Latissimus dorsi, running from as far away as the iliac crest and lower ribs, inserts on the floor of the bicipital (intertubercular) groove of the humerus. This is one of the classic \"three-lip\" mnemonics of the region: pectoralis major on the lateral lip, teres major on the medial lip, and latissimus dorsi on the floor between them. Together the two lips and the floor are occupied by these three large muscles, all of which extend, adduct and medially rotate the arm.",
+        "D": "Incorrect. Serratus anterior inserts on the medial border of the scapula, nowhere near the humerus."
+      },
+      "main_concept": "CON-MSK-38A32E79B1412F",
+      "concept_ids": ["CON-MSK-38A32E79B1412F"],
+      "contextual_concept_ids": ["CON-MSK-84E91B4CD6B6DF"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "Name latissimus dorsi as inserting on the floor of the bicipital groove, between teres major (medial lip) and pectoralis major (lateral lip).",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q13",
+      "page": 4,
+      "title": "True statement about the upper end of the humerus",
+      "question": "About the upper end of the humerus, which is true?",
+      "options": {
+        "A": "Subscapularis muscle attaches to the greater tuberosity",
+        "B": "Teres major is attached to the floor of the bicipital groove",
+        "C": "The bicipital groove allows passage of the short head of biceps",
+        "D": "Its head forms the shoulder joint"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Subscapularis attaches to the lesser, not the greater, tuberosity.",
+        "B": "Incorrect. Teres major attaches to the medial lip of the bicipital groove; latissimus dorsi occupies the floor.",
+        "C": "Incorrect. The bicipital groove carries the tendon of the long head of biceps, not the short head, which instead arises from the coracoid process as part of the conjoint tendon.",
+        "D": "Correct. The humeral head is the smooth, rounded articular surface at the upper end of the humerus, and it is this head — not either tuberosity or the bicipital groove — that articulates with the glenoid cavity of the scapula to form the shoulder (glenohumeral) joint. The head faces medially, superiorly and slightly posteriorly, matched against the shallow glenoid, which is what makes this joint so mobile but also so prone to dislocation. All three other options misattribute a structure to the wrong landmark of the upper humerus."
+      },
+      "main_concept": "CON-MSK-38A32E79B1412F",
+      "concept_ids": ["CON-MSK-38A32E79B1412F"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Classification",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that the humeral head, not either tuberosity, forms the shoulder joint with the glenoid cavity.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q17",
+      "page": 5,
+      "title": "Nerve supply of trapezius",
+      "question": "The trapezius muscle is supplied by:",
+      "options": { "A": "Cranial accessory nerve", "B": "Spinal accessory nerve", "C": "Dorsal scapular nerve", "D": "Thoracodorsal nerve" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The cranial (accessory) root of the accessory nerve joins the vagus and supplies pharyngeal and laryngeal muscles, not trapezius.",
+        "B": "Correct. Trapezius is supplied by the spinal root of the accessory nerve (cranial nerve XI), which descends through the posterior triangle of the neck to reach it, with proprioceptive fibres from C3 and C4 travelling alongside. This makes trapezius the one scapula-moving muscle supplied from outside the brachial plexus entirely — every other scapular muscle in this bank (rhomboids, levator scapulae, serratus anterior, the rotator cuff) takes a plexus branch instead. This is why testing trapezius (asking a patient to shrug against resistance) checks cranial nerve XI, not a plexus root or trunk.",
+        "C": "Incorrect. The dorsal scapular nerve supplies the rhomboids and levator scapulae, not trapezius.",
+        "D": "Incorrect. The thoracodorsal nerve supplies latissimus dorsi, not trapezius."
+      },
+      "main_concept": "CON-MSK-C89FCDA03E8C99",
+      "concept_ids": ["CON-MSK-C89FCDA03E8C99"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Easy", "question_type": "Recall",
+      "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that trapezius is supplied by the spinal accessory nerve, the one scapular muscle nerve arising outside the brachial plexus.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q18",
+      "page": 5,
+      "title": "Muscle that rotates the scapula downward",
+      "question": "Which muscle can rotate the scapula downward?",
+      "options": { "A": "Rhomboideus minor", "B": "Teres minor", "C": "Pectoralis minor", "D": "Latissimus dorsi" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Rhomboid minor, together with rhomboid major and levator scapulae, rotates the scapula so the glenoid cavity faces downward — the opposite action to trapezius and serratus anterior, which rotate it upward during abduction above 90 degrees. This makes the rhomboids and levator scapulae, all three supplied by the dorsal scapular nerve, the antagonists of the upward rotators during arm elevation.",
+        "B": "Incorrect. Teres minor is a rotator cuff muscle that laterally rotates the humerus at the shoulder joint, not a scapular mover.",
+        "C": "Incorrect. Pectoralis minor rotates the scapula downward too by pulling the coracoid process forward and down, but it is not one of the muscles this item's key credits; among these four options, rhomboid minor is the one the bank marks correct.",
+        "D": "Incorrect. Latissimus dorsi acts on the humerus at the shoulder joint (extension, adduction, medial rotation), not on the scapula."
+      },
+      "main_concept": "CON-MSK-C89FCDA03E8C99",
+      "concept_ids": ["CON-MSK-C89FCDA03E8C99"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "Name rhomboid minor among the muscles that rotate the scapula downward.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q19",
+      "page": 5,
+      "title": "Nerve injury causing winging of the scapula",
+      "question": "Winging of the scapula is due to injury of:",
+      "options": { "A": "Axillary nerve", "B": "Musculocutaneous nerve", "C": "Dorsal scapular nerve", "D": "Long thoracic nerve" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Axillary nerve injury weakens deltoid and teres minor, producing a flattened shoulder contour, not winging.",
+        "B": "Incorrect. Musculocutaneous nerve injury weakens the arm's anterior flexor compartment (biceps, brachialis, coracobrachialis), unrelated to the scapula.",
+        "C": "Incorrect. Dorsal scapular nerve injury weakens the rhomboids and levator scapulae but does not produce the classic winging pattern.",
+        "D": "Correct. The long thoracic nerve (C5-C7) runs superficially on serratus anterior's surface, making it vulnerable to injury during mastectomy, axillary surgery or a penetrating stab wound to the chest wall. Its loss paralyses serratus anterior, which normally holds the scapula's medial border flush against the thoracic wall and rotates it upward during abduction; without it, the medial border lifts away from the ribs — winging — most visible when the patient pushes against a wall. This is one of the most frequently tested nerve-injury patterns in the upper limb because the mechanism (surgical or penetrating injury low in the axilla) is so clinically recognisable."
+      },
+      "main_concept": "CON-MSK-24E318F2E3F18E",
+      "concept_ids": ["CON-MSK-24E318F2E3F18E"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "State that long thoracic nerve injury paralyses serratus anterior and produces winging of the scapula.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q20",
+      "page": 5,
+      "title": "Exception among the rotator cuff muscles",
+      "question": "One of the following is NOT a rotator cuff muscle:",
+      "options": { "A": "Teres minor", "B": "Teres major", "C": "Subscapularis", "D": "Infraspinatus" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (true, not the exception). Teres minor is one of the four rotator cuff muscles.",
+        "B": "Correct. Teres major is not part of the rotator cuff — despite its name sounding like a cuff muscle and sitting right next to teres minor, it is supplied by the lower subscapular nerve, medially rotates and adducts the arm, and forms the lower border of the quadrangular space, none of which are rotator cuff functions. The four true rotator cuff muscles are supraspinatus, infraspinatus, teres minor and subscapularis (\"SITS\"), each blending its tendon with the shoulder joint capsule to stabilise the humeral head in the glenoid.",
+        "C": "Incorrect (true, not the exception). Subscapularis is one of the four rotator cuff muscles.",
+        "D": "Incorrect (true, not the exception). Infraspinatus is one of the four rotator cuff muscles."
+      },
+      "main_concept": "CON-MSK-E68EAACB7596AF",
+      "concept_ids": ["CON-MSK-E68EAACB7596AF"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Classification",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify teres major as the shoulder muscle that is not part of the rotator cuff, despite its similar name and position.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q22",
+      "page": 6,
+      "title": "Action shared by muscles attached to the bicipital groove",
+      "question": "All muscles attached to the bicipital groove of the humerus:",
+      "options": { "A": "Adduct the arm", "B": "Flex the arm", "C": "Medially rotate the arm", "D": "(a+c)" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone (true, but incomplete). Adduction is one shared action, but not the only one.",
+        "B": "Incorrect. None of pectoralis major, latissimus dorsi or teres major primarily flexes the arm; pectoralis major's clavicular head assists flexion from an extended position, but this is not the shared action the bank credits.",
+        "C": "Incorrect alone (true, but incomplete). Medial rotation is another shared action, but not the only one.",
+        "D": "Correct. Pectoralis major (lateral lip), latissimus dorsi (floor) and teres major (medial lip) all attach around the bicipital groove, and all three share the same two actions on the humerus: they adduct the arm toward the trunk and medially rotate it. This shared action pattern is why the three are grouped together as the \"bicipital groove muscles\" — a useful shortcut for remembering both their attachments and their combined function in movements like climbing or swimming strokes."
+      },
+      "main_concept": "CON-MSK-84E91B4CD6B6DF",
+      "concept_ids": ["CON-MSK-84E91B4CD6B6DF"],
+      "contextual_concept_ids": ["CON-MSK-38A32E79B1412F"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Classification",
+      "cognitive_effort": "High", "reasoning_level": 2,
+      "learning_objective": "State that the three bicipital groove muscles (pectoralis major, latissimus dorsi, teres major) all adduct and medially rotate the arm.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q23",
+      "page": 6,
+      "title": "Structure piercing the clavipectoral fascia",
+      "question": "Which of the following structures pierces the clavipectoral fascia?",
+      "options": { "A": "Basilic vein", "B": "Superior thoracic artery", "C": "Lateral thoracic artery", "D": "Cephalic vein" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The basilic vein pierces the deep fascia of the arm to become axillary, well below the clavipectoral fascia, not through it.",
+        "B": "Incorrect. The superior thoracic artery arises from the first part of the axillary artery and runs deep to the clavipectoral fascia without piercing it.",
+        "C": "Incorrect. The lateral thoracic artery arises from the second part of the axillary artery, running along serratus anterior's surface, not through the clavipectoral fascia.",
+        "D": "Correct. The clavipectoral fascia, stretched between the clavicle and pectoralis minor/axillary floor, is pierced by the cephalic vein, the thoraco-acromial artery, the lateral pectoral nerve and lymphatics draining toward the apical axillary nodes. The cephalic vein passes through it on its way to join the axillary vein, making the deltopectoral groove (where the cephalic vein runs before this point) a useful surgical landmark for the fascia's upper limit."
+      },
+      "main_concept": "CON-MSK-8DDA3D07A02813",
+      "concept_ids": ["CON-MSK-8DDA3D07A02813"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Axilla", "difficulty": "Hard", "question_type": "Recall",
+      "cognitive_effort": "High", "reasoning_level": 2,
+      "learning_objective": "Name the cephalic vein as a structure that pierces the clavipectoral fascia.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12; option D's text is reconstructed from the source's own text-extraction reading order (the option was interleaved with the next question's stem by pdftotext), cross-checked against the printed key (D) and standard clavipectoral-fascia anatomy — cephalic vein is the only one of these four vessels that actually pierces the fascia" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q24",
+      "page": 6,
+      "title": "Muscle that retracts the scapula",
+      "question": "... retracts the scapula.",
+      "options": { "A": "Serratus anterior muscle", "B": "Pectoralis minor muscle", "C": "Trapezius muscle", "D": "Teres minor muscle" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Serratus anterior protracts the scapula, pulling it forward and around the chest wall — the opposite action to retraction.",
+        "B": "Incorrect. Pectoralis minor also protracts (and depresses) the scapula by pulling the coracoid process forward and down, not retraction.",
+        "C": "Correct. Trapezius's middle fibres, running horizontally from the spinous processes to the scapular spine and acromion, retract the scapula, pulling it toward the vertebral column. This is the antagonist action to serratus anterior and pectoralis minor's protraction, and it is why trapezius's three fibre groups are often taught by their separate actions: upper fibres elevate, middle fibres retract, lower fibres depress.",
+        "D": "Incorrect. Teres minor is a rotator cuff muscle acting on the humerus at the shoulder joint, not a scapular mover."
+      },
+      "main_concept": "CON-MSK-C89FCDA03E8C99",
+      "concept_ids": ["CON-MSK-C89FCDA03E8C99"],
+      "contextual_concept_ids": ["CON-MSK-49E1E587FB6ED6"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Easy", "question_type": "Recall",
+      "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Name trapezius's middle fibres as retracting the scapula.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q25",
+      "page": 6,
+      "title": "Exception among medial rotators of the arm",
+      "question": "All of these muscles cause medial rotation of the arm EXCEPT:",
+      "options": { "A": "Pectoralis major", "B": "Latissimus dorsi", "C": "Teres minor", "D": "Subscapularis" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true, not the exception). Pectoralis major medially rotates the arm.",
+        "B": "Incorrect (true, not the exception). Latissimus dorsi medially rotates the arm.",
+        "C": "Correct. Teres minor is a lateral rotator, not a medial one — grouping it with infraspinatus rather than with subscapularis, the rotator cuff's one medial rotator. This makes teres minor the exception among this list, and it is a common trap because its close neighbour teres major (not a cuff muscle) is in fact a medial rotator, inviting confusion between the two similarly named muscles with opposite rotational actions.",
+        "D": "Incorrect (true, not the exception). Subscapularis, inserting on the lesser tuberosity, is the rotator cuff's medial rotator."
+      },
+      "main_concept": "CON-MSK-E68EAACB7596AF",
+      "concept_ids": ["CON-MSK-E68EAACB7596AF"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Classification",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify teres minor as a lateral, not medial, rotator of the arm, distinguishing it from teres major.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q26",
+      "page": 7,
+      "title": "Nerve supply of infraspinatus",
+      "question": "Infraspinatus muscle is supplied by:",
+      "options": { "A": "Lower subscapular nerve", "B": "Upper subscapular nerve", "C": "Suprascapular nerve", "D": "Dorsal scapular nerve" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The lower subscapular nerve supplies subscapularis (lower part) and teres major, not infraspinatus.",
+        "B": "Incorrect. The upper subscapular nerve supplies only the upper part of subscapularis.",
+        "C": "Correct. The suprascapular nerve, arising from the upper trunk of the brachial plexus and passing through the suprascapular notch, supplies both supraspinatus and infraspinatus — the only nerve to supply two separate rotator cuff muscles. It also gives sensory branches to the shoulder joint capsule, but carries no cutaneous branch to the overlying skin, a point often tested alongside this one.",
+        "D": "Incorrect. The dorsal scapular nerve supplies the rhomboids and levator scapulae, not infraspinatus."
+      },
+      "main_concept": "CON-MSK-E68EAACB7596AF",
+      "concept_ids": ["CON-MSK-E68EAACB7596AF"],
+      "contextual_concept_ids": ["CON-MSK-AB846B50993763"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Easy", "question_type": "Recall",
+      "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that the suprascapular nerve supplies infraspinatus (and supraspinatus).",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q27",
+      "page": 7,
+      "title": "Movement lost with the greater tuberosity",
+      "question": "Loss of the greater tuberosity leads to loss of which movement?",
+      "options": { "A": "Abduction and lateral rotation", "B": "Adduction and medial rotation", "C": "Abduction and medial rotation", "D": "Lateral rotation only" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The greater tuberosity carries the insertions of supraspinatus (initiates abduction), infraspinatus and teres minor (both lateral rotators), so losing this bony attachment site — as in an avulsion fracture — costs both abduction initiation and lateral rotation. This is a direct consequence of which three of the four cuff muscles insert there, distinguishing it from the lesser tuberosity, which carries only subscapularis and would instead cost medial rotation.",
+        "B": "Incorrect. Adduction and medial rotation are actions of the lesser-tuberosity/bicipital-groove muscles (subscapularis, and the pectoralis major/latissimus dorsi/teres major group), not the greater tuberosity's muscles.",
+        "C": "Incorrect. Abduction is correctly lost, but medial rotation is not one of the greater tuberosity muscles' actions — teres minor and infraspinatus laterally rotate, not medially.",
+        "D": "Incorrect (incomplete). Lateral rotation is lost, but so is the initiation of abduction (supraspinatus), which this option omits."
+      },
+      "main_concept": "CON-MSK-38A32E79B1412F",
+      "concept_ids": ["CON-MSK-38A32E79B1412F"],
+      "contextual_concept_ids": ["CON-MSK-E68EAACB7596AF"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Application",
+      "cognitive_effort": "High", "reasoning_level": 3,
+      "learning_objective": "Deduce that losing the greater tuberosity's muscle attachments costs abduction initiation and lateral rotation.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q28",
+      "page": 7,
+      "title": "True statement about serratus anterior",
+      "question": "Serratus anterior muscle:",
+      "options": { "A": "Medially rotates shoulder", "B": "Protracts scapula", "C": "Supplied by thoracodorsal nerve", "D": "Arises from the upper 6 ribs" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Serratus anterior acts on the scapula, not the humerus, so it does not rotate the shoulder joint itself; it does help rotate the scapula upward during abduction.",
+        "B": "Correct. Serratus anterior wraps around the thoracic wall from the upper eight or nine ribs to insert along the whole costal surface of the scapula's medial border, and its main actions are to protract the scapula (hold it against the chest wall and pull it forward, as in a punching motion) and to rotate it upward during arm abduction above 90 degrees. It is supplied by the long thoracic nerve, whose injury paralyses this protraction and produces the classic winged scapula.",
+        "C": "Incorrect. Serratus anterior is supplied by the long thoracic nerve, not the thoracodorsal nerve (which supplies latissimus dorsi).",
+        "D": "Incorrect. Serratus anterior arises from the upper eight or nine ribs, not just the upper six."
+      },
+      "main_concept": "CON-MSK-24E318F2E3F18E",
+      "concept_ids": ["CON-MSK-24E318F2E3F18E"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Classification",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that serratus anterior protracts the scapula and is supplied by the long thoracic nerve.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q29",
+      "page": 7,
+      "title": "Muscle causing lateral rotation of the shoulder",
+      "question": "Which causes lateral rotation of the shoulder?",
+      "options": { "A": "Subscapularis", "B": "Teres minor", "C": "Teres major", "D": "Serratus anterior" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Subscapularis is the rotator cuff's medial rotator, not lateral.",
+        "B": "Correct. Teres minor, together with infraspinatus, is one of the rotator cuff's two lateral rotators of the shoulder joint. Both are supplied by branches from the posterior cord region (teres minor by the axillary nerve, infraspinatus by the suprascapular nerve), and both insert on the greater tuberosity. Lateral rotator strength is clinically tested by asking the patient to rotate the arm outward against resistance with the elbow tucked in.",
+        "C": "Incorrect. Teres major, despite its similar name, medially rotates the arm — the opposite action to teres minor.",
+        "D": "Incorrect. Serratus anterior acts on the scapula (protraction, upward rotation), not on the humerus at the shoulder joint."
+      },
+      "main_concept": "CON-MSK-E68EAACB7596AF",
+      "concept_ids": ["CON-MSK-E68EAACB7596AF"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "Name teres minor as a lateral rotator of the shoulder joint.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q30",
+      "page": 7,
+      "title": "Muscle that initiates shoulder abduction",
+      "question": "Which muscle initiates shoulder abduction?",
+      "options": { "A": "Pectoralis major", "B": "Anterior and posterior fibres of deltoid", "C": "Supraspinatus", "D": "Teres minor" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Pectoralis major flexes and medially rotates the arm; it does not initiate abduction.",
+        "B": "Incorrect. Deltoid's middle fibres carry abduction from about 18 to 90 degrees, after it has already been initiated; the anterior and posterior fibres flex/extend and assist rotation rather than initiating abduction.",
+        "C": "Correct. Supraspinatus initiates the first 0-18 degrees of abduction, before deltoid can effectively act because of the angle of pull at the very start of the movement. Deltoid then carries abduction from about 18 to 90 degrees, after which trapezius and serratus anterior rotate the scapula to complete the movement from 90 to 180 degrees. This three-stage arc (supraspinatus, then deltoid, then scapular rotators) is one of the most frequently tested functional sequences in upper limb anatomy.",
+        "D": "Incorrect. Teres minor laterally rotates the arm; it plays no role in initiating abduction."
+      },
+      "main_concept": "CON-MSK-352E28DEA38DF7",
+      "concept_ids": ["CON-MSK-352E28DEA38DF7"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "State that supraspinatus initiates the first 0-18 degrees of shoulder abduction, before deltoid takes over.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q31",
+      "page": 8,
+      "title": "Actions of latissimus dorsi",
+      "question": "Actions of latissimus dorsi:",
+      "options": { "A": "Flexion", "B": "Lateral rotation", "C": "Abduction", "D": "All of the above", "E": "None of the above" },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Latissimus dorsi extends the arm, not flexes it.",
+        "B": "Incorrect. Latissimus dorsi medially rotates the arm, not laterally.",
+        "C": "Incorrect. Latissimus dorsi adducts the arm, not abducts it.",
+        "D": "Incorrect. Since none of flexion, lateral rotation or abduction is a true action of latissimus dorsi, \"all of the above\" cannot be correct.",
+        "E": "Correct. Latissimus dorsi's true actions are extension, adduction and medial rotation of the arm — the direct opposite of every action offered in options A-C. This makes it functionally grouped with pectoralis major and teres major (the other two bicipital-groove muscles) rather than with deltoid or the rotator cuff's abductors and lateral rotators. Because none of the offered options describes an actual action of latissimus dorsi, \"none of the above\" is the only option that is true."
+      },
+      "main_concept": "CON-MSK-84E91B4CD6B6DF",
+      "concept_ids": ["CON-MSK-84E91B4CD6B6DF"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Classification",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that latissimus dorsi extends, adducts and medially rotates the arm — not flexion, lateral rotation or abduction.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q32",
+      "page": 8,
+      "title": "Exception among facts about pectoralis minor",
+      "question": "Concerning pectoralis minor, all are true EXCEPT:",
+      "options": {
+        "A": "It is an accessory muscle of respiration",
+        "B": "It is attached to the coracoid process",
+        "C": "It retracts the scapula",
+        "D": "It is enveloped by the clavipectoral fascia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true, not the exception). With the ribs fixed, pectoralis minor can help elevate the third to fifth ribs in forced inspiration, an accessory respiratory role.",
+        "B": "Incorrect (true, not the exception). Pectoralis minor inserts on the tip of the coracoid process.",
+        "C": "Correct. Pectoralis minor protracts and depresses the scapula, pulling the coracoid process forward and down — the opposite of retraction. This is the exception in this list: the other three statements are true, but pectoralis minor does not retract the scapula, and confusing protraction with retraction is the specific trap this item sets.",
+        "D": "Incorrect (true, not the exception). Pectoralis minor forms the middle layer of the clavipectoral fascia, between the clavicle above and the axillary floor below."
+      },
+      "main_concept": "CON-MSK-8DDA3D07A02813",
+      "concept_ids": ["CON-MSK-8DDA3D07A02813"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Axilla", "difficulty": "Hard", "question_type": "Classification",
+      "cognitive_effort": "High", "reasoning_level": 2,
+      "learning_objective": "Identify that pectoralis minor protracts, not retracts, the scapula.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q33",
+      "page": 8,
+      "title": "Exception among facts about trapezius",
+      "question": "Concerning trapezius, all the following are true EXCEPT:",
+      "options": {
+        "A": "Takes origin from all thoracic spines",
+        "B": "Inserts into the anterior border of the clavicle",
+        "C": "Supplied by the spinal part of the accessory nerve",
+        "D": "Receives branches from the third and fourth cervical nerves"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (true, not the exception). Trapezius arises from the spinous processes of all twelve thoracic vertebrae, as well as the external occipital protuberance and cervical spines.",
+        "B": "Correct. Trapezius inserts onto the posterior border of the lateral one-third of the clavicle, not the anterior border — the anterior border and superior surface of that same segment belong to deltoid instead. This is the exception in the list, and a natural source of confusion since both muscles converge on the same lateral third of the clavicle from opposite surfaces.",
+        "C": "Incorrect (true, not the exception). Trapezius is supplied by the spinal root of the accessory nerve.",
+        "D": "Incorrect (true, not the exception). Trapezius receives proprioceptive (sensory) branches from the C3-C4 cervical nerves, in addition to its motor supply from the accessory nerve."
+      },
+      "main_concept": "CON-MSK-49E1E587FB6ED6",
+      "concept_ids": ["CON-MSK-49E1E587FB6ED6"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Classification",
+      "cognitive_effort": "High", "reasoning_level": 2,
+      "learning_objective": "Identify that trapezius inserts on the posterior, not anterior, border of the clavicle's lateral third.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q34",
+      "page": 8,
+      "title": "Clinical test for trapezius paralysis",
+      "question": "To test for trapezius muscle paralysis, you would ask the patient to:",
+      "options": { "A": "Flex the arm fully", "B": "Adduct the arm against resistance", "C": "Push against the wall with both hands", "D": "Shrug (elevate) the shoulder" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Full arm flexion tests the flexor group (pectoralis major, anterior deltoid, coracobrachialis), not trapezius.",
+        "B": "Incorrect. Resisted adduction tests pectoralis major, latissimus dorsi and teres major, not trapezius.",
+        "C": "Incorrect. Pushing against a wall tests serratus anterior, revealing winging if the long thoracic nerve is injured — not trapezius.",
+        "D": "Correct. Asking the patient to shrug the shoulders against resistance isolates trapezius's upper fibres, which are its main elevators of the scapula. Weakness or absence of the shrug on one side, together with a drooped shoulder and a laterally rotated, winged-looking scapula, points to accessory nerve injury (from surgery in the posterior triangle, for example). This is the standard bedside test paired with the wall-push test for serratus anterior/long thoracic nerve."
+      },
+      "main_concept": "CON-MSK-49E1E587FB6ED6",
+      "concept_ids": ["CON-MSK-49E1E587FB6ED6"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Application",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that shrugging the shoulders against resistance is the clinical test for trapezius (accessory nerve) function.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q35",
+      "page": 8,
+      "title": "Muscles abducting the arm from 90 to 180 degrees",
+      "question": "Muscles responsible for abducting the humerus from 90-180 degrees are:",
+      "options": {
+        "A": "Teres major and subscapularis",
+        "B": "Deltoid and supraspinatus",
+        "C": "Trapezius and serratus anterior",
+        "D": "Supraspinatus and subscapularis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Teres major and subscapularis are both medial rotators/adductors of the arm, playing no part in abduction.",
+        "B": "Incorrect. Supraspinatus initiates abduction (0-18°) and deltoid carries it to 90°; neither continues the movement past 90 degrees on its own.",
+        "C": "Correct. Beyond 90 degrees, further elevation of the arm requires the scapula itself to rotate so the glenoid cavity faces more upward, and this scapular rotation from 90 to 180 degrees is produced by trapezius (upper and lower fibres) acting together with serratus anterior (lower digitations). This completes the full three-stage arc of abduction: supraspinatus initiates (0-18°), deltoid continues (18-90°), and trapezius with serratus anterior finish it by rotating the scapula (90-180°).",
+        "D": "Incorrect. Supraspinatus initiates abduction early on, and subscapularis is a medial rotator with no abduction role at any stage."
+      },
+      "main_concept": "CON-MSK-04D3ACA71DC025",
+      "concept_ids": ["CON-MSK-04D3ACA71DC025"],
+      "contextual_concept_ids": ["CON-MSK-352E28DEA38DF7"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Recall",
+      "cognitive_effort": "High", "reasoning_level": 2,
+      "learning_objective": "State that trapezius and serratus anterior, by rotating the scapula, complete abduction from 90 to 180 degrees.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q36",
+      "page": 9,
+      "title": "True statement about teres major",
+      "question": "Teres major:",
+      "options": {
+        "A": "Arises from the medial border of the scapula",
+        "B": "Forms the lower border of the quadrangular space",
+        "C": "Abducts the shoulder joint",
+        "D": "Is supplied by the axillary nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Teres major arises from the lateral (axillary) border and inferior angle of the scapula, not the medial border.",
+        "B": "Correct. Teres major, together with the humeral shaft laterally and teres minor above, forms the lower border of the quadrangular space, through which the axillary nerve and posterior circumflex humeral artery pass. This boundary role is one of teres major's most frequently tested facts, alongside its own action (adduction and medial rotation, not abduction) and its nerve supply (the lower subscapular nerve, not the axillary nerve that merely passes near it).",
+        "C": "Incorrect. Teres major adducts and medially rotates the arm; it does not abduct.",
+        "D": "Incorrect. Teres major is supplied by the lower subscapular nerve, not the axillary nerve, even though the axillary nerve passes right along its upper border through the quadrangular space."
+      },
+      "main_concept": "CON-MSK-8533FCB18D819B",
+      "concept_ids": ["CON-MSK-8533FCB18D819B"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Classification",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that teres major forms the lower border of the quadrangular space.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q37",
+      "page": 9,
+      "title": "Exception among boundaries of the quadrangular space",
+      "question": "The quadrangular space is bounded by all the following EXCEPT:",
+      "options": { "A": "Teres minor", "B": "Teres major", "C": "Long head of biceps", "D": "Surgical neck of the humerus" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true, not the exception). Teres minor forms the upper border of the quadrangular space.",
+        "B": "Incorrect (true, not the exception). Teres major forms the lower border.",
+        "C": "Correct. The long head of triceps, not the long head of biceps, forms the medial border of the quadrangular space (and also separates it from the medial triangular space). The long head of biceps runs anteriorly in the bicipital groove and takes no part in bounding either of the posterior shoulder spaces, making it the exception here.",
+        "D": "Incorrect (true, not the exception). The surgical neck of the humerus forms the lateral border of the quadrangular space, which is exactly why the axillary nerve passing through the space is vulnerable to surgical-neck fractures."
+      },
+      "main_concept": "CON-MSK-8533FCB18D819B",
+      "concept_ids": ["CON-MSK-8533FCB18D819B"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Classification",
+      "cognitive_effort": "High", "reasoning_level": 2,
+      "learning_objective": "Identify the long head of triceps (not biceps) as the medial boundary of the quadrangular space.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q38",
+      "page": 9,
+      "title": "Structure passing through the lateral triangular space",
+      "question": "... passes through the lateral triangular space.",
+      "options": { "A": "Axillary nerve", "B": "Median nerve", "C": "Radial nerve", "D": "Ulnar nerve" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The axillary nerve passes through the quadrangular space, not the lateral triangular space.",
+        "B": "Incorrect. The median nerve runs in the arm with the brachial artery, unrelated to either posterior shoulder space.",
+        "C": "Correct. The radial nerve, together with the profunda brachii artery, passes through the lateral triangular (or \"triangular interval\") space on its way to the spiral groove of the humerus. This is a distinct space from the quadrangular space just medial to it, and confusing the two nerves — axillary through quadrangular, radial through the lateral triangular space — is the classic trap this question family sets.",
+        "D": "Incorrect. The ulnar nerve runs medially through the arm to pass behind the medial epicondyle at the elbow, unrelated to either shoulder space."
+      },
+      "main_concept": "CON-MSK-8533FCB18D819B",
+      "concept_ids": ["CON-MSK-8533FCB18D819B"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Recall",
+      "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "Name the radial nerve as the structure passing through the lateral triangular space.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q39",
+      "page": 9,
+      "title": "Medial boundary of the lateral triangular space",
+      "question": "The lateral triangular space is bounded medially by:",
+      "options": { "A": "Humerus", "B": "Long head of triceps", "C": "Teres minor", "D": "Teres major" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The humeral shaft forms the lateral boundary of the lateral triangular space, not its medial boundary.",
+        "B": "Correct. The long head of triceps forms the medial (shared) boundary between the quadrangular space and the lateral triangular space, running vertically between teres minor above and teres major below. This makes the long head of triceps the common wall separating the axillary-nerve-carrying quadrangular space from the radial-nerve-carrying lateral triangular space.",
+        "C": "Incorrect. Teres minor forms the upper border of the quadrangular space, not the medial border of the lateral triangular space.",
+        "D": "Incorrect. Teres major forms the lower border of the quadrangular space, not the medial border of the lateral triangular space."
+      },
+      "main_concept": "CON-MSK-8533FCB18D819B",
+      "concept_ids": ["CON-MSK-8533FCB18D819B"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Recall",
+      "cognitive_effort": "High", "reasoning_level": 2,
+      "learning_objective": "State that the long head of triceps forms the shared medial boundary between the quadrangular and lateral triangular spaces.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q40",
+      "page": 9,
+      "title": "False statement about the quadrangular and lateral triangular spaces",
+      "question": "About the quadrangular and lateral triangular spaces, which is false?",
+      "options": {
+        "A": "Both share the same medial border",
+        "B": "Posterior circumflex humeral artery passes through the quadrangular space",
+        "C": "Teres minor borders both spaces",
+        "D": "The lateral triangular space contains the radial nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (true, not the false statement). Both spaces share the long head of triceps as their common medial border.",
+        "B": "Incorrect (true, not the false statement). The posterior circumflex humeral artery accompanies the axillary nerve through the quadrangular space.",
+        "C": "Correct. Teres minor borders only the quadrangular space, as its upper border — it plays no part in bounding the lateral triangular space, whose borders are instead the long head of triceps (medial), the humeral shaft (lateral) and teres major (inferior, at the space's apex where the three borders converge). This makes the statement false, which is what the question asks for.",
+        "D": "Incorrect (true, not the false statement). The radial nerve, with the profunda brachii artery, passes through the lateral triangular space."
+      },
+      "main_concept": "CON-MSK-8533FCB18D819B",
+      "concept_ids": ["CON-MSK-8533FCB18D819B"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Classification",
+      "cognitive_effort": "High", "reasoning_level": 3,
+      "learning_objective": "Identify that teres minor borders only the quadrangular space, not the lateral triangular space.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q41",
+      "page": 10,
+      "title": "Nerve injured with a stab wound causing winged scapula",
+      "question": "A 29-year-old man comes in with a stab wound and now cannot raise his arm above the horizontal plane. When examined, the doctor noticed a \"winged scapula\". Which of the following structures would most likely be damaged?",
+      "options": { "A": "Medial cord of brachial plexus", "B": "Radial nerve", "C": "Axillary nerve", "D": "Long thoracic nerve" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Medial cord injury affects the median and ulnar nerve territories (forearm and hand flexors, intrinsic hand muscles), not the scapula.",
+        "B": "Incorrect. Radial nerve injury weakens wrist and finger extensors (wrist drop), unrelated to scapular winging.",
+        "C": "Incorrect. Axillary nerve injury weakens deltoid and teres minor, producing a flattened shoulder, not winging.",
+        "D": "Correct. The long thoracic nerve runs superficially along the surface of serratus anterior on the chest wall, making it vulnerable to a penetrating stab wound at this level. Its injury paralyses serratus anterior, so the scapula's medial border lifts off the ribs (winging) and the patient loses the ability to raise the arm fully overhead, since serratus anterior's upward rotation of the scapula is needed to complete abduction past 90 degrees."
+      },
+      "main_concept": "CON-MSK-24E318F2E3F18E",
+      "concept_ids": ["CON-MSK-24E318F2E3F18E"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Clinical vignette",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify long thoracic nerve injury from a stab-wound vignette presenting with winged scapula and limited overhead abduction.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q42",
+      "page": 10,
+      "title": "Cause of pectoralis minor paralysis",
+      "question": "A 27-year-old woman complains of inability to pull the scapula forward and downward because of paralysis of pectoralis minor. Which of the following would most likely be a cause of her condition?",
+      "options": { "A": "Fracture of the clavicle", "B": "Radial nerve injury", "C": "Fracture of the coracoid process", "D": "Axillary nerve injury" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A clavicle fracture displaces the clavicular fragments themselves but does not paralyse pectoralis minor, which is not attached to the clavicle.",
+        "B": "Incorrect. The radial nerve does not supply pectoralis minor; radial nerve injury weakens wrist and finger extensors instead.",
+        "C": "Correct. Pectoralis minor inserts on the tip of the coracoid process, so a fracture there can directly disrupt its mechanical action — its function depends on an intact bony attachment, not just its own nerve supply (the medial pectoral nerve). A coracoid fracture removes the point the muscle pulls on, producing the same loss of scapular protraction/depression as if the muscle itself were paralysed.",
+        "D": "Incorrect. Axillary nerve injury weakens deltoid and teres minor at the shoulder joint, unrelated to pectoralis minor or the scapula."
+      },
+      "main_concept": "CON-MSK-8DDA3D07A02813",
+      "concept_ids": ["CON-MSK-8DDA3D07A02813"],
+      "contextual_concept_ids": ["CON-MSK-8E4BB62A579068"],
+      "topic": "Upper limb", "subtopic": "The Axilla", "difficulty": "Hard", "question_type": "Clinical vignette",
+      "cognitive_effort": "High", "reasoning_level": 3,
+      "learning_objective": "Reason that a coracoid process fracture can disable pectoralis minor's action by removing its attachment site.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q43",
+      "page": 10,
+      "title": "Muscle paralysed after a horseback-riding arm injury",
+      "question": "A 21-year-old woman had an arm injury after falling during horseback riding. Examination indicates that she cannot adduct her arm because of paralysis of which of the following muscles?",
+      "options": { "A": "Trapezius", "B": "Supraspinatus", "C": "Latissimus dorsi", "D": "Infraspinatus" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Trapezius acts on the scapula (elevation, retraction, depression), not on humeral adduction.",
+        "B": "Incorrect. Supraspinatus initiates abduction, the opposite movement to adduction.",
+        "C": "Correct. Latissimus dorsi, supplied by the thoracodorsal nerve, is one of the arm's main adductors alongside pectoralis major and teres major, and it is particularly vulnerable to traction injury from a fall where the arm is wrenched (as when a rider's arm is caught while falling from a horse). Its paralysis leaves the patient unable to pull the arm back down against the trunk, a movement most noticeable when trying to push up from a chair using the arms.",
+        "D": "Incorrect. Infraspinatus laterally rotates the arm; it plays no role in adduction."
+      },
+      "main_concept": "CON-MSK-84E91B4CD6B6DF",
+      "concept_ids": ["CON-MSK-84E91B4CD6B6DF"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Clinical vignette",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify latissimus dorsi as the muscle whose paralysis prevents arm adduction in this vignette.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q44",
+      "page": 10,
+      "title": "Nerves damaged causing complete inability to abduct",
+      "question": "An 18-year-old boy involved in an automobile accident presents with an arm that cannot abduct. His paralysis is caused by damage to which of the following nerves?",
+      "options": {
+        "A": "Suprascapular and axillary",
+        "B": "Thoracodorsal and upper subscapular",
+        "C": "Axillary and musculocutaneous",
+        "D": "Radial and lower subscapular"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Complete loss of abduction requires losing both nerves that drive it in sequence: the suprascapular nerve, which supplies supraspinatus (initiating the first 0-18 degrees), and the axillary nerve, which supplies deltoid (carrying it from about 18 to 90 degrees). Damaging only one would leave a partial, weakened arc of abduction rather than none at all, which is why this vignette specifically requires both nerves to be injured together.",
+        "B": "Incorrect. The thoracodorsal nerve supplies latissimus dorsi (an adductor) and the upper subscapular nerve supplies subscapularis (a medial rotator) — neither drives abduction.",
+        "C": "Incorrect. The musculocutaneous nerve supplies the arm's flexor compartment (biceps, brachialis, coracobrachialis), not an abductor.",
+        "D": "Incorrect. The radial nerve supplies the extensor compartments of the arm and forearm, and the lower subscapular nerve supplies subscapularis and teres major — neither is an abductor's nerve."
+      },
+      "main_concept": "CON-MSK-352E28DEA38DF7",
+      "concept_ids": ["CON-MSK-352E28DEA38DF7"],
+      "contextual_concept_ids": ["CON-MSK-AB846B50993763", "CON-MSK-EE022A2043C10F"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Clinical vignette",
+      "cognitive_effort": "High", "reasoning_level": 3,
+      "learning_objective": "Reason that both the suprascapular nerve (supraspinatus) and axillary nerve (deltoid) must be lost together to abolish abduction entirely.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q47",
+      "page": 11,
+      "title": "Nerve injured with a bleeding surgical-neck fracture",
+      "question": "A 10-year-old boy falls off his bike, has difficulty in moving his shoulder. His radiograph and angiograph reveal fracture of the surgical neck of his humerus and bleeding from the point of the fracture. Which of the following nerves is most likely injured?",
+      "options": { "A": "Musculocutaneous", "B": "Axillary", "C": "Radial", "D": "Median" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The musculocutaneous nerve enters coracobrachialis high in the arm, well proximal to the surgical neck.",
+        "B": "Correct. The axillary nerve winds directly around the surgical neck of the humerus, through the quadrangular space, together with the posterior circumflex humeral artery — the same vessel implicated in the bleeding described here. This tight relation is exactly why surgical-neck fractures are a classic cause of axillary nerve injury, alongside anterior shoulder dislocation, and why the two structures are so often tested as a pair.",
+        "C": "Incorrect. The radial nerve is related to the more distal spiral groove of the humeral shaft, not the surgical neck.",
+        "D": "Incorrect. The median nerve runs in the arm with the brachial artery, medial to the shaft, unrelated to the surgical neck."
+      },
+      "main_concept": "CON-MSK-EE022A2043C10F",
+      "concept_ids": ["CON-MSK-EE022A2043C10F"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Clinical vignette",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify the axillary nerve as the structure injured with a surgical-neck humeral fracture.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q49",
+      "page": 11,
+      "title": "Muscles paralysed after surgical-neck fracture, weak lateral rotation",
+      "question": "Following this accident [surgical neck of humerus fracture], the boy has weakness in rotating his arm laterally. Which of the following muscles are paralyzed?",
+      "options": { "A": "Teres major and teres minor", "B": "Teres minor and deltoid", "C": "Infraspinatus and deltoid", "D": "Supraspinatus and subscapularis" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Teres major is a medial rotator supplied by the lower subscapular nerve, unrelated to the axillary nerve injured here.",
+        "B": "Correct. The axillary nerve, injured at the surgical neck, supplies both deltoid and teres minor. Teres minor is one of the rotator cuff's two lateral rotators, so its loss directly weakens lateral rotation, while deltoid's posterior fibres also assist lateral rotation and extension — together explaining the weakness described. This pairing (deltoid plus teres minor) is the signature muscle loss of an axillary nerve lesion, alongside the well-known \"regimental badge\" sensory loss over the deltoid.",
+        "C": "Incorrect. Infraspinatus is supplied by the suprascapular nerve, not the axillary nerve, so it would not be affected by this particular injury.",
+        "D": "Incorrect. Supraspinatus (suprascapular nerve) and subscapularis (subscapular nerves) are both spared by an isolated axillary nerve injury, and neither is primarily a lateral rotator."
+      },
+      "main_concept": "CON-MSK-EE022A2043C10F",
+      "concept_ids": ["CON-MSK-EE022A2043C10F"],
+      "contextual_concept_ids": ["CON-MSK-E68EAACB7596AF"],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Hard", "question_type": "Clinical vignette",
+      "cognitive_effort": "High", "reasoning_level": 3,
+      "learning_objective": "State that axillary nerve injury paralyses deltoid and teres minor, weakening lateral rotation and abduction.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    },
+    {
+      "key": "ul-q50",
+      "page": 12,
+      "title": "Structure damaged with a lesser tuberosity fracture",
+      "question": "A young man falls on his shoulder, resulting in fracture of the lesser tuberosity of the humerus. Which of the following structures would most likely be damaged?",
+      "options": { "A": "Supraspinatus muscle", "B": "Infraspinatus muscle", "C": "Subscapularis muscle", "D": "Teres minor muscle" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Supraspinatus inserts on the uppermost facet of the greater, not the lesser, tuberosity.",
+        "B": "Incorrect. Infraspinatus inserts on the middle facet of the greater tuberosity, not the lesser.",
+        "C": "Correct. Subscapularis is the one rotator cuff muscle that inserts on the lesser tuberosity, so a fracture there directly threatens its tendon and, with it, the shoulder's main medial rotator. The other three cuff muscles (supraspinatus, infraspinatus, teres minor) all insert on the greater tuberosity instead and would be spared by this particular fracture.",
+        "D": "Incorrect. Teres minor inserts on the lowest facet of the greater tuberosity, not the lesser."
+      },
+      "main_concept": "CON-MSK-38A32E79B1412F",
+      "concept_ids": ["CON-MSK-38A32E79B1412F"],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb", "subtopic": "The Shoulder", "difficulty": "Moderate", "question_type": "Clinical vignette",
+      "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify subscapularis as the muscle at risk with a lesser tuberosity fracture.",
+      "media_recommendations": "", "field_notes": { "keySource": "rendered answer table p12" }, "author_notes": ""
+    }
+  ]
+}
