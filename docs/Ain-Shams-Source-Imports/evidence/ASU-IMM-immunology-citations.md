@@ -3244,3 +3244,324 @@ The support span is the verbatim MCQ stem and options as printed in the departme
 
 ## counts_as_claim_evidence
 no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-ANTIGENICITY-CHEMICAL-COMPLEXITY-01
+
+## claim_id
+CLM-IMM-ANTIGENICITY-CHEMICAL-COMPLEXITY-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+2- Which of the following criteria should be fullfilled for a substance to be antigenic:
+a. Low molecular weight
+b. Simple in structure
+c. Have one antigenic determinant
+d. Resistant to degradation
+e. Chemical complexity
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, page 8 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table on page 9 read directly from the image (Q2 = e).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-MHCII-TCR-CD4-01
+
+## claim_id
+CLM-IMM-MHCII-TCR-CD4-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+3- MHC class II on APCs is recognized by T cell through:
+a. CD8
+b. TCR
+c. CD4
+d. CD3
+e. b&c
+
+21- What is the principle function of class II MHC molecules:
+a. They display peptide Ags for B cells
+b. They display peptide Ags for CD4 molecules on T helper cells
+c. They display peptide Ags for CD8 molecules on T cytotoxic cells
+d. Their Ag binding site lies between al & a2 domains
+e. They recognize microbes by Pathogen associated molecular patterns
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, pages 8 and 10 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key tables read directly from the images (Q3 = e, Q21 = b).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-MHC-RECEPTOR-LOCATION-PRINTED-01
+
+## claim_id
+CLM-IMM-MHC-RECEPTOR-LOCATION-PRINTED-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+6- MHC class I & class II Ag receptors are located on:
+a. T cells
+b. B cells
+c. NK cells
+d. Antigen presenting cells
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, page 8 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table on page 9 read directly from the image (Q6 = d).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank; the key is kept as printed despite the stem's ambiguous wording.
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-MHC-CODOMINANT-EXPRESSION-01
+
+## claim_id
+CLM-IMM-MHC-CODOMINANT-EXPRESSION-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+14- Codominant expression of MHC genes leads to:
+a. High polymorphism of MHC genes in humans
+b. Transplantation rejection
+c. Expression of 12 different HLA proteins on cell surface
+d. All of the above
+
+17- Each person has:
+a. 2 sets of MHC genes
+b. 2 alleles of each of 6 MHC genes
+c. 6 different class I proteins
+d. All of the above
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, page 9 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table on page 9 read directly from the image (Q14 = c, Q17 = d).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-PREGNANCY-MHC-TOLERANCE-01
+
+## claim_id
+CLM-IMM-PREGNANCY-MHC-TOLERANCE-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+15- A mother don't reject a fetus with different MHC alleles dt:
+a. Absence of MHC I on RBCs
+b. Low expression of MHC I on sperms & trophoblasts
+c. Absence of MHC II on sperms & trophoblasts
+d. All of the above
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, page 9 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table on page 9 read directly from the image (Q15 = b).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-DR-MOLECULE-EXPRESSION-01
+
+## claim_id
+CLM-IMM-DR-MOLECULE-EXPRESSION-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+16- DR molecules are present on:
+a. Ag presenting cells
+b. VICs
+c. Tumor cells
+d. All of above
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, page 9 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table on page 9 read directly from the image (Q16 = a).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-ANTIGEN-DEFINITION-01
+
+## claim_id
+CLM-IMM-ANTIGEN-DEFINITION-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+18- How can you define Antigen:
+a. Agent capable of binding specifically to component of immune response when introduced into the body
+b. Any substance stimulates the production of heterophile antibodies
+c. Inherited self protein present only on the surface of nucleated cells
+d. Soluble proteins produced by cells in response to microbes
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, page 10 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table on the same page read directly from the image (Q18 = a).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-IMM-HLA-DISEASE-LINKAGE-01
+
+## claim_id
+CLM-IMM-HLA-DISEASE-LINKAGE-01
+
+## resource_id
+src_834aba143e85f6c3efce
+
+## evidence_role
+local_curriculum
+
+## support_span
+22- Linkage of a disease to an HLA allele means that:
+a. Everyone with that allele will eventually get the disease
+b. People with that allele have a higher risk for the disease
+c. MHC protein encoded by that allele is defective
+d. The allele will eventually disappear from the population
+e. Non of the above is true
+
+## locator_type
+page
+
+## locator_detail
+Chapter 3, page 10 of hegazy.pdf, rendered at 300dpi and read directly as an image; printed answer-key table on the same page read directly from the image (Q22 = b).
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology hegazy MCQ bank.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no

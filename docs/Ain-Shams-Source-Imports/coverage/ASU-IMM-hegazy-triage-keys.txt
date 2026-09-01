@@ -1,4 +1,4 @@
-# hegazy.pdf triage keys — Chapter 1 (Organs & cells of immune system), 12/12 keyed and authored this sitting
+# hegazy.pdf triage keys — Chapter 1 (Organs & cells), 12/12 keyed and authored
 hegazy-ch1-q01
 hegazy-ch1-q02
 hegazy-ch1-q03
@@ -11,6 +11,28 @@ hegazy-ch1-q09
 hegazy-ch1-q10
 hegazy-ch1-q11
 hegazy-ch1-q12
+# Chapter 3 (Antigens & self molecules), 22/22 keyed and authored
+hegazy-ch3-q01
+hegazy-ch3-q02
+hegazy-ch3-q03
+hegazy-ch3-q04
+hegazy-ch3-q05
+hegazy-ch3-q06
+hegazy-ch3-q07
+hegazy-ch3-q08
+hegazy-ch3-q09
+hegazy-ch3-q10
+hegazy-ch3-q11
+hegazy-ch3-q12
+hegazy-ch3-q13
+hegazy-ch3-q14
+hegazy-ch3-q15
+hegazy-ch3-q16
+hegazy-ch3-q17
+hegazy-ch3-q18
+hegazy-ch3-q19
+hegazy-ch3-q20
+hegazy-ch3-q21
+hegazy-ch3-q22
 # Chapter 2 (Innate immunity, 32 Qs): 23 keyed (Q1-9, Q19-32), 9 held (Q10, Q11-18 — key row split across a page break, unreadable) — not yet authored
-# Chapter 3 (Antigens & self, 22 Qs): all 22 keyed — not yet authored
-# Chapters 4-6 (Cell-mediated immunity, Humoral IR, Complement): not yet read this sitting
+# Chapters 4-6 (Cell-mediated immunity, Humoral IR, Complement): not yet read to per-question level this sitting

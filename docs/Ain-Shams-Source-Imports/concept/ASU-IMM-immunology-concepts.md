@@ -15556,3 +15556,1493 @@ exclusionReason: The concept is not excluded; publication is waiting on independ
 rejectedMergeCandidateIds: find-existing.mjs "hematopoietic stem cell" and "pluripotent" returned no existing record.
 relatedArticleIds: This fact is fully covered by its own article_ids (ART-ASU-IMM-LYMPHOID-ORGANS); no additional related article is needed.
 uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+
+# Item
+
+## id
+CON-IMM-B808792A23649B
+
+## label
+An antigenic substance must be chemically complex, not simple, to be immunogenic
+
+## canonical_key
+antigen.immunogenicity.chemical-complexity-requirement
+
+## aliases
+Chemical complexity as an antigenicity criterion
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+For a substance to be antigenic it generally needs to be chemically complex (varied amino-acid or sugar composition), not simple or repetitive in structure — chemical complexity, together with sufficient size and foreignness, underlies immunogenicity, whereas low molecular weight, structural simplicity, a single antigenic determinant, or mere resistance to degradation do not by themselves make a substance antigenic.
+
+## explicit_objective
+Identify chemical complexity (not low molecular weight, structural simplicity, having only one determinant, or degradation-resistance) as a genuine criterion for antigenicity.
+
+## pitfalls
+Assuming any of low molecular weight, simple structure, a single antigenic determinant, or resistance to degradation makes a substance more antigenic — each of these actually works against immunogenicity or is irrelevant to it; chemical complexity is the property that helps.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+CON-IMM-35785A09E9898E
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-ANTIGENICITY-CHEMICAL-COMPLEXITY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+2- Which of the following criteria should be fullfilled for a substance to be antigenic:
+a. Low molecular weight
+b. Simple in structure
+c. Have one antigenic determinant
+d. Resistant to degradation
+e. Chemical complexity
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q2
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "chemical complexity antigenic" returned no existing record; related but distinct from CON-IMM-35785A09E9898E (size/epitope-count immunogenicity criterion) — linked via related_concept_ids rather than merged, since size and chemical complexity are separate criteria a question could test independently.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-9BFD32254DFC64
+
+## label
+MHC class II on an APC is recognised by a T cell through its TCR together with CD4
+
+## canonical_key
+mhc.classii.recognition-tcr-cd4-complex
+
+## aliases
+MHC class II recognition, class II function for CD4 T helper cells
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+MHC class II molecules on antigen-presenting cells are recognised by a T cell through the combination of its T-cell receptor (TCR) and its CD4 co-receptor — this is also, equivalently, the principal function of class II MHC: displaying peptide antigen for CD4+ T helper cells, in contrast with class I MHC's presentation to CD8+ cytotoxic T cells.
+
+## explicit_objective
+State that MHC class II is recognised by, and functions to present antigen to, CD4+ T helper cells via TCR+CD4, distinguishing this from class I/CD8 recognition.
+
+## pitfalls
+Confusing which MHC class pairs with which T-cell co-receptor: class I pairs with CD8 (cytotoxic T cells), class II pairs with CD4 (helper T cells) — swapping this pairing is the commonest error.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-66BCAECBE877F4
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-MHCII-TCR-CD4-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+3- MHC class II on APCs is recognized by T cell through:
+a. CD8
+b. TCR
+c. CD4
+d. CD3
+e. b&c
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q3 (also Q21)
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "MHC class II CD4 recognition" returned no existing record; related to CON-IMM-66BCAECBE877F4 (the class-I/CD8 mirror fact) — linked via related_concept_ids, not merged, since class I/CD8 and class II/CD4 are tested as distinct pairings. Also covers hegazy Ch3 Q21 ("principle function of class II MHC molecules"), the same fact asked from the function angle rather than the recognition angle.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-F6417EBDCB51D8
+
+## label
+Printed-key oddity: this bank keys "MHC class I & II Ag receptors are located on" as antigen-presenting cells
+
+## canonical_key
+mhc.receptorlocation.printed-key-apcs
+
+## aliases
+MHC Ag receptor location (printed key)
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The bank's own printed answer key for "MHC class I & class II Ag receptors are located on: a. T cells / b. B cells / c. NK cells / d. Antigen presenting cells" keys option d (antigen-presenting cells). Taken as the biologically strict TCR-on-T-cells fact, this stem would key (a); taken as "where MHC molecules bearing antigen for presentation are found", APCs is defensible for class II specifically (and class I, being on nearly all nucleated cells, is broader still). Kept as printed rather than silently corrected, per the standing rule against overriding a genuine printed key.
+
+## explicit_objective
+Record, and explain as printed, that this bank keys MHC "Ag receptor" location as antigen-presenting cells rather than T cells — a stem/key pairing that reads more naturally as "where MHC molecules are displayed" than "where the TCR sits".
+
+## pitfalls
+Reading "Ag receptor" here as the T-cell receptor (which would point to T cells) rather than as the bank's apparent intent of "the molecule presenting the antigen" (which points to APCs, at least for class II) — the stem's wording is genuinely ambiguous, which is exactly why it is flagged rather than silently resolved.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-9BFD32254DFC64
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+ASU_Y1=0.2
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.55
+
+## atomic_claim_ids
+CLM-IMM-MHC-RECEPTOR-LOCATION-PRINTED-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+6- MHC class I & class II Ag receptors are located on:
+a. T cells
+b. B cells
+c. NK cells
+d. Antigen presenting cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q6
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+This question's printed key (d, APCs) sits awkwardly against the stricter reading that a T-cell receptor for MHC-bound antigen sits on T cells (a); kept as printed, not resolved, and flagged here rather than silently corrected.
+
+## uncertainty
+Genuine ambiguity in what "Ag receptors" means in this stem (TCR-on-T-cells vs MHC-molecules-on-APCs); confidence lowered accordingly and the question's own explanation names both readings.
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "MHC restriction" and "epitope" found related but not same-grain concepts; this printed-key oddity is recorded as its own concept rather than folded into CON-IMM-9BFD32254DFC64, since the two stems test different (if related) facts.
+uncertainty: Genuine ambiguity in what "Ag receptors" means in this stem; confidence lowered accordingly.
+
+---
+
+# Item
+
+## id
+CON-IMM-E4C207D932A84F
+
+## label
+Codominant expression of MHC genes and their two-alleles-per-locus structure together produce human MHC polymorphism
+
+## canonical_key
+mhc.genetics.codominant-expression-and-allele-count
+
+## aliases
+MHC codominant expression, MHC gene allele count
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Each person carries two sets of MHC genes (one maternal, one paternal haplotype), with two alleles of each of the classical MHC genes; because MHC genes are expressed codominantly, both alleles of each gene are expressed on the cell surface at once. Together these two facts explain both why up to 12 distinct classical HLA class I/II proteins can be displayed on one person's cells, and why MHC genes are the most polymorphic in the human genome, and why mismatched MHC alleles between individuals drive transplant rejection.
+
+## explicit_objective
+State that codominant expression of both parental alleles at each MHC locus is what produces high MHC polymorphism, multiple distinct HLA proteins per cell, and the basis of transplant rejection between MHC-mismatched individuals.
+
+## pitfalls
+Treating "codominant expression" and "high polymorphism" as unrelated facts rather than cause and effect; codominant expression of both alleles at every MHC locus is exactly what lets a person display multiple distinct HLA proteins and is the reason MHC mismatch (not a single-gene defect) drives rejection.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-7123A221F96E40
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-MHC-CODOMINANT-EXPRESSION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+14- Codominant expression of MHC genes leads to:
+a. High polymorphism of MHC genes in humans
+b. Transplantation rejection
+c. Expression of 12 different HLA proteins on cell surface
+d. All of the above
+
+17- Each person has:
+a. 2 sets of MHC genes
+b. 2 alleles of each of 6 MHC genes
+c. 6 different class I proteins
+d. All of the above
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q14 (printed key c) and Q17 (printed key d)
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "codominant MHC" and "polymorphism" returned no existing record; related to CON-IMM-7123A221F96E40 (MHC class I general features/genetics) — linked via related_concept_ids. Q14 and Q17 are merged onto this one concept rather than minted separately: both test the same underlying codominant-expression-and-allele-structure fact from two angles (its consequences vs its structure), and a single record answers both without becoming two questions stapled together.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-DCCEDB2FCDF844
+
+## label
+A mother does not reject her fetus despite MHC mismatch because MHC class I is only weakly expressed on sperm and trophoblast cells
+
+## canonical_key
+pregnancy.mhctolerance.low-mhc-i-trophoblast-sperm
+
+## aliases
+Maternal-fetal MHC tolerance
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Although a fetus carries paternal MHC alleles foreign to the mother, the mother does not mount a rejection response against it, chiefly because MHC class I expression on sperm and on trophoblast cells (the fetal-maternal interface) is low — sharply limiting the alloantigen exposed to the maternal immune system. This is distinct from a general absence of MHC on all fetal tissue, which is not the case.
+
+## explicit_objective
+State that low MHC class I expression on sperm and trophoblast cells, not a complete absence of MHC I on all fetal tissue, explains maternal tolerance of a genetically mismatched fetus.
+
+## pitfalls
+Assuming fetal tissue as a whole lacks MHC class I; the low-expression protection is specific to sperm and the trophoblast layer at the maternal-fetal interface, not a blanket absence across the fetus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-369D0004DD0805
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-PREGNANCY-MHC-TOLERANCE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+15- A mother don't reject a fetus with different MHC alleles dt:
+a. Absence of MHC I on RBCs
+b. Low expression of MHC I on sperms & trophoblasts
+c. Absence of MHC II on sperms & trophoblasts
+d. All of the above
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q15
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "maternal fetal MHC" returned no existing record; related to CON-IMM-369D0004DD0805 (MHC I absent on erythrocytes — a different cell type/mechanism) — linked via related_concept_ids, not merged.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-83AEFDB8F5C4C9
+
+## label
+HLA-DR molecules are MHC class II proteins expressed on antigen-presenting cells
+
+## canonical_key
+mhc.classii.dr-molecule-expression-site
+
+## aliases
+DR molecule expression
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+DR molecules (HLA-DR) are MHC class II gene products, and like other class II molecules are expressed on professional antigen-presenting cells (dendritic cells, macrophages, B cells) — not constitutively on tumour cells or on the broad range of cells that express class I.
+
+## explicit_objective
+State that DR (MHC class II) molecules are expressed on antigen-presenting cells, distinguishing class II's restricted expression from class I's near-universal expression.
+
+## pitfalls
+Confusing MHC class II's restricted expression (professional APCs only) with MHC class I's near-universal expression on nucleated cells.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-9BFD32254DFC64
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-DR-MOLECULE-EXPRESSION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+16- DR molecules are present on:
+a. Ag presenting cells
+b. VICs
+c. Tumor cells
+d. All of above
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q16
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "DR molecules" returned no existing record; related to CON-IMM-9BFD32254DFC64 (class II recognition/function) — linked via related_concept_ids, not merged, since this stem tests expression location specifically.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-4A5D42D1B63203
+
+## label
+An antigen is any agent capable of binding specifically to a component of the immune response once it enters the body
+
+## canonical_key
+antigen.definition.immune-response-binding-agent
+
+## aliases
+Definition of antigen
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+An antigen is defined as any agent capable of binding specifically to a component of the immune response (e.g. an antibody or a T-cell receptor) when introduced into the body — distinct from a heterophile antigen (a shared antigen provoking cross-reactive antibodies), an inherited self protein, or a soluble protein induced by cells in response to microbes.
+
+## explicit_objective
+State the general definition of an antigen as an agent that specifically binds a component of the immune response, distinguishing it from related but narrower terms (heterophile antigen, self protein, induced soluble protein).
+
+## pitfalls
+Confusing the general definition of "antigen" with narrower related terms tested in the same option set — heterophile antigen, inherited self protein, and cytokine-like induced soluble proteins are each a different, more specific thing.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+CON-IMM-C40D293E3E989D
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-ANTIGEN-DEFINITION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+18- How can you define Antigen:
+a. Agent capable of binding specifically to component of immune response when introduced into the body
+b. Any substance stimulates the production of heterophile antibodies
+c. Inherited self protein present only on the surface of nucleated cells
+d. Soluble proteins produced by cells in response to microbes
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q18
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "define antigen agent" returned no existing record; related to CON-IMM-C40D293E3E989D (epitope definition, a narrower term than antigen) — linked via related_concept_ids, not merged.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-D89AAB897371CC
+
+## label
+A disease-HLA allele linkage means carriers have a higher risk, not certainty, of the disease
+
+## canonical_key
+hla.diseaselinkage.relative-risk-not-certainty
+
+## aliases
+HLA-disease linkage interpretation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+When a disease is linked to a particular HLA allele, this means people carrying that allele have a statistically higher risk of developing the disease, not that everyone with the allele will eventually get it, that the encoded MHC protein is necessarily defective, or that the allele will disappear from the population.
+
+## explicit_objective
+State that an HLA-disease linkage confers increased relative risk, not certainty of disease, correcting the common misreading of association as causation or inevitability.
+
+## pitfalls
+Reading a statistical HLA-disease association as deterministic (everyone with the allele gets the disease) or as evidence the allele's protein product is defective — an association is a risk modifier, not either of those things.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Antigens and self molecules
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-E4C207D932A84F
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-HLA-DISEASE-LINKAGE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+22- Linkage of a disease to an HLA allele means that:
+a. Everyone with that allele will eventually get the disease
+b. People with that allele have a higher risk for the disease
+c. MHC protein encoded by that allele is defective
+d. The allele will eventually disappear from the population
+e. Non of the above is true
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch3 Q22
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs "HLA disease linkage risk" returned no existing record; related to CON-IMM-E4C207D932A84F (MHC gene polymorphism) — linked via related_concept_ids, not merged.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.

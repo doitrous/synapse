@@ -3602,3 +3602,348 @@ no
 
 ## qualifiers
 source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-ANTIGENICITY-CHEMICAL-COMPLEXITY-01
+
+## concept_id
+CON-IMM-B808792A23649B
+
+## subject
+An antigenic substance must be chemically complex, not simple, to be immunogenic
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q2
+
+## display_text
+Chemical complexity, together with size and foreignness, underlies antigenicity; low molecular weight, structural simplicity, a single determinant, or degradation-resistance do not by themselves make a substance antigenic.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-MHCII-TCR-CD4-01
+
+## concept_id
+CON-IMM-9BFD32254DFC64
+
+## subject
+MHC class II on an APC is recognised by a T cell through its TCR together with CD4
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q3 and Q21
+
+## display_text
+MHC class II molecules are recognised through the TCR+CD4 combination, and function to display peptide antigen for CD4+ T helper cells — the class II mirror of class I's TCR+CD8/cytotoxic-T-cell pairing.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-MHC-RECEPTOR-LOCATION-PRINTED-01
+
+## concept_id
+CON-IMM-F6417EBDCB51D8
+
+## subject
+Printed-key oddity: this bank keys "MHC class I & II Ag receptors are located on" as antigen-presenting cells
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q6
+
+## display_text
+The bank's printed key for this ambiguously-worded stem selects antigen-presenting cells; kept as printed rather than silently corrected, with both possible readings named in the question's own explanation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+This question's printed key (d, APCs) sits awkwardly against the stricter reading that a T-cell receptor for MHC-bound antigen sits on T cells (a); kept as printed, not resolved.
+
+## confidence
+0.55
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-MHC-CODOMINANT-EXPRESSION-01
+
+## concept_id
+CON-IMM-E4C207D932A84F
+
+## subject
+Codominant expression of MHC genes and their two-alleles-per-locus structure together produce human MHC polymorphism
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q14 and Q17
+
+## display_text
+Two alleles at each of the classical MHC loci, both expressed codominantly, is what produces multiple distinct HLA proteins per cell, high MHC gene polymorphism, and the mismatch that drives transplant rejection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-PREGNANCY-MHC-TOLERANCE-01
+
+## concept_id
+CON-IMM-DCCEDB2FCDF844
+
+## subject
+A mother does not reject her fetus despite MHC mismatch because MHC class I is only weakly expressed on sperm and trophoblast cells
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q15
+
+## display_text
+Low MHC class I expression on sperm and on the trophoblast layer at the maternal-fetal interface, not a blanket absence of MHC on all fetal tissue, limits maternal exposure to paternal alloantigen and protects the fetus from rejection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-DR-MOLECULE-EXPRESSION-01
+
+## concept_id
+CON-IMM-83AEFDB8F5C4C9
+
+## subject
+HLA-DR molecules are MHC class II proteins expressed on antigen-presenting cells
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q16
+
+## display_text
+DR molecules are MHC class II gene products and, like other class II molecules, are expressed on professional antigen-presenting cells rather than the broad range of cells that express class I.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-ANTIGEN-DEFINITION-01
+
+## concept_id
+CON-IMM-4A5D42D1B63203
+
+## subject
+An antigen is any agent capable of binding specifically to a component of the immune response once it enters the body
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q18
+
+## display_text
+An antigen is defined as any agent capable of specifically binding a component of the immune response (antibody or TCR) once introduced into the body, distinct from a heterophile antigen, an inherited self protein, or a microbe-induced soluble protein.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+---
+
+# Item
+
+## id
+CLM-IMM-HLA-DISEASE-LINKAGE-01
+
+## concept_id
+CON-IMM-D89AAB897371CC
+
+## subject
+A disease-HLA allele linkage means carriers have a higher risk, not certainty, of the disease
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at hegazy Ch3 Q22
+
+## display_text
+An HLA-disease linkage means carriers of that allele have a statistically higher risk of the disease, not that they will certainly develop it, and not that the encoded protein is inherently defective.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
