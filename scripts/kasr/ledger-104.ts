@@ -36,12 +36,30 @@ const MODULE_SLUG = '104-CPS'
 const BANK_PATH = `scripts/kasr/extract/${MODULE_SLUG}/mcq-bank.json`
 const SEED_DIR = `scripts/kasr/seeds/mcq/${MODULE_SLUG}`
 const OUT_PATH = `docs/Kasr-Source-Imports/coverage/${MODULE_SLUG}-LEDGER.md`
+/**
+ * Hand-authored classification for bank rows the extractor left with no
+ * `leaf` tag at all — a triage pass over the `(untagged)` bucket, bucketing
+ * each key into a real 104 CPS cluster (an existing leaf name where one
+ * fits, a new topic name when ≥ 8 rows needed one, or `out-of-module` for
+ * content that isn't 104 CPS at all). A bank row's own `leaf` always wins
+ * when present; this file only fills in for rows where `row.leaf` is unset.
+ * Never applies to `mcq-bank.json` or any seed file — it is a ledger-only
+ * reporting aid, not authored content.
+ */
+const LEAF_OVERRIDES_PATH = `scripts/kasr/extract/${MODULE_SLUG}-leaf-overrides.json`
 
 type Bank = { questions: BankRow[] }
+type LeafOverride = { leaf: string; note?: string }
 
 function loadBank(): Map<string, BankRow> {
   const bank = JSON.parse(readFileSync(BANK_PATH, 'utf8')) as Bank
   return new Map(bank.questions.map((row) => [row.key, row]))
+}
+
+function loadLeafOverrides(): Map<string, LeafOverride> {
+  if (!existsSync(LEAF_OVERRIDES_PATH)) return new Map()
+  const raw = JSON.parse(readFileSync(LEAF_OVERRIDES_PATH, 'utf8')) as Record<string, LeafOverride>
+  return new Map(Object.entries(raw))
 }
 
 /** Every leaf seed for 104 CPS, the same way `build-batches.ts` finds them. */
@@ -56,6 +74,7 @@ async function loadLeaves(): Promise<{ leaf: McqLeafSeed, name: string }[]> {
 }
 
 const bank = loadBank()
+const leafOverrides = loadLeafOverrides()
 const leaves = await loadLeaves()
 
 type Claim = { key: string; leafFile: string; leafName: string; excludeReason?: string; answerOverride?: string }
@@ -103,7 +122,9 @@ for (const claim of authored.values()) {
 }
 
 const isKeyed = (row: BankRow) => Boolean(row.answer)
-const clusterOf = (row: BankRow) => row.leaf ?? '(untagged)'
+// A bank row's own `leaf` always wins; the hand-authored override only fills
+// in when the extractor left the row untagged.
+const clusterOf = (row: BankRow) => row.leaf ?? leafOverrides.get(row.key)?.leaf ?? '(untagged)'
 
 const allRows = [...bank.values()]
 const totalBankRows = allRows.length
