@@ -60,9 +60,10 @@
     Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
-    Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
+    Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
-    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
+    Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
+    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
     Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
@@ -81,7 +82,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  169 questions were excluded and 0 held back for having no
+  173 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -10672,6 +10673,7 @@ src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p17 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
 ## article_ids
 +ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
 ## field_notes
@@ -11082,6 +11084,274 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
+Quiet inspiration uses the diaphragm and external intercostals alone; quiet expiration is passive; forced inspiration adds accessory muscles and forced expiration recruits the internal intercostals and abdominal muscles
+## id
+CON-RES-D11C71AADB4DB2
+## canonical_key
+muscles-of-breathing.quiet-vs-forced-inspiration-and-expiration
+## definition
+Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter. Quiet expiration takes no muscle contraction at all — it is passive, driven once the inspiratory muscles relax by the lung's own elastic and surface-tension recoil pulling the chest back to its resting (functional residual capacity) volume. Forced (deep) inspiration recruits accessory muscles on top of the diaphragm and external intercostals — chiefly the sternocleidomastoid and scalene muscles, which further elevate the upper ribs and sternum. Forced expiration is active, recruiting the internal intercostal muscles, which depress the ribs, and the abdominal muscles, which contract to push the relaxed diaphragm further upward, both reducing thoracic volume below its resting value.
+## explicit_objective
+Name the diaphragm and external intercostals as the sole muscles of quiet inspiration, state that quiet expiration is passive, and name the accessory muscles recruited for forced inspiration (sternocleidomastoid, scalenii) and forced expiration (internal intercostals, abdominal muscles).
+## pitfalls
+Assuming the internal intercostals assist inspiration because they are 'the other' intercostal layer. The internal intercostals are expiratory, not inspiratory — only the external intercostals raise the ribs; the internal intercostals depress them, which is why they are recruited for forced, active expiration instead.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p27 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p16 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p25 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p19 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Muscles of inspiration | Muscles of expiration | Accessory muscles of respiration
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] During forced expiration:
+## conflicts
+A live, cross-year catalogue (CON-RES-69811F39EAEB45, 'Diaphragm contraction flattens it and increases thoracic longitudinal diameter'; CON-RES-58E46604D5D495, 'Expiratory muscles act during exercise and voluntary forced expiration') states overlapping facts from a different textbook (Year 3 pulmonology, DIS-PHY-T03). GENERATED_BY-blind to existingConceptIds() for module "104 CPS" — build-batches.ts only scans docs/Kasr-Source-Imports/concept/104-CPS-*.md — the same reasoning documented repeatedly elsewhere in this branch for cross-catalogue overlaps. Not reused; recorded for a future consolidation pass.
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS respiratory article currently states this muscle-of-breathing sequence in its own prose — ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT's own notes explicitly defer it to the cross-year catalogue above. Standard, undisputed physiology; flagged for a future 104-CPS mechanics-of-breathing article.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Intra-alveolar pressure equals atmospheric during the pause between breaths, falls to about 1 mmHg below atmospheric during inspiration, and rises to about 1 mmHg above atmospheric during expiration
+## id
+CON-RES-42BC699422FFFA
+## canonical_key
+intra-alveolar-pressure.changes-through-the-quiet-breathing-cycle
+## definition
+Intra-alveolar (intrapulmonary) pressure oscillates by only about 1 mmHg around atmospheric pressure across the quiet breathing cycle — a small swing compared with intrapleural pressure's own larger, more negative excursion. During the momentary pause between breaths, with no airflow, intra-alveolar pressure equals atmospheric pressure exactly. As inspiration begins, thoracic expansion lowers intra-alveolar pressure to about 1 mmHg below (negative to) atmospheric, and this small pressure gradient is what drives air down into the alveoli; by the end of inspiration, once airflow has equalised the pressures again, it returns to atmospheric. During expiration the reverse occurs: intra-alveolar pressure rises to about 1 mmHg above (positive to) atmospheric, driving air back out, before returning to atmospheric at the next pause.
+## explicit_objective
+State that intra-alveolar pressure is atmospheric at the pause between breaths, about 1 mmHg negative during inspiration and about 1 mmHg positive during expiration — a much smaller swing than intrapleural pressure's own range.
+## pitfalls
+Confusing intra-alveolar pressure's small, roughly 1 mmHg swing with intrapleural pressure's own larger, more negative range (about -3 cmH2O at end-expiration to -6 to -8 cmH2O at end-inspiration). The two are different pressures at different sites: intrapleural pressure is always negative in quiet breathing, while intra-alveolar pressure swings on both sides of, and returns to, atmospheric with every breath.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p17 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p28 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Intra-alveolar pressure | Intrapulmonary pressure | Alveolar pressure during breathing
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Inira-alveolar pressure during normal inspiration:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS respiratory article currently states this specific pressure sequence in its own prose, for the same reason as the muscles-of-breathing concept above — deferred by ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT's own notes to a cross-year catalogue. Standard, undisputed physiology; flagged for the same future article.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
 The lung recoils inward from its elastic tissue and alveolar surface tension; the chest wall springs outward from its own elasticity, and these two opposing pulls keep intrapleural pressure negative
 ## id
 CON-RES-1BA6BE714676EC
@@ -11116,12 +11386,16 @@ src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p27 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p34 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p30 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p19 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p31 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance

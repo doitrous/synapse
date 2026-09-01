@@ -60,9 +60,10 @@
     Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
-    Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
+    Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
-    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
+    Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
+    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
     Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
@@ -81,7 +82,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  169 questions were excluded and 0 held back for having no
+  173 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -55499,6 +55500,98 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-296FC0A53851
+## title
+Which of the following is true during inspiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true during inspiration?
+## answer_a
+The volume in the lungs is less than the functional residual capacity (FRC)
+## explanation_a
+During inspiration lung volume rises above, not falls below, the functional residual capacity it sat at before the breath began.
+## answer_b
+Alveolar pressure equals atmospheric pressure
+## explanation_b
+Alveolar pressure falls BELOW, not equals, atmospheric pressure during inspiration — that pressure gradient is exactly what drives air into the lung.
+## answer_c
+Alveolar pressure is higher than atmospheric pressure
+## explanation_c
+Alveolar pressure is lower than, not higher than, atmospheric pressure during inspiration; a higher alveolar pressure is the condition for expiration, the reverse phase.
+## answer_d
+Intrapleural pressure is more negative than it is during expiration
+## explanation_d
+This is the correct answer. As the thorax expands during inspiration, intrapleural pressure is pulled further below atmospheric — about -6 to -8 cmH2O at end-inspiration compared with about -3 cmH2O at end-expiration — making it more negative during inspiration than during expiration.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that intrapleural pressure is more negative during inspiration than during expiration, not that alveolar pressure equals or exceeds atmospheric or that lung volume falls below FRC.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q61. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-B9878D1AA012
 ## title
 Functional residual capacity: :
@@ -57155,6 +57248,1114 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-E8BD7E9ADE80
+## title
+A healthy, 45-year-old man is reading the newspaper. Which of the following muscles are…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A healthy, 45-year-old man is reading the newspaper. Which of the following muscles are used for quiet breathing?
+## answer_a
+Diaphragm and internal intercostals
+## explanation_a
+The internal intercostals are expiratory (recruited only for forced expiration), not inspiratory, so they do not belong in an inspiration/quiet-breathing pairing with the diaphragm.
+## answer_b
+Internal intercostals and abdominal
+## explanation_b
+The abdominal muscles are accessory expiratory muscles, recruited only for forced expiration; they play no role in quiet breathing, and internal intercostals are likewise expiratory, not inspiratory.
+## answer_c
+Diaphragm and external intercostals
+## explanation_c
+This is the correct answer. A healthy person breathing quietly at rest uses only the diaphragm and the external intercostal muscles — the two muscles of quiet inspiration — with expiration following passively.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## answer_d
+Sternocleidomastoid muscles
+## explanation_d
+The sternocleidomastoid is an accessory muscle recruited only for forced (deep) inspiration, not for ordinary quiet breathing at rest.
+## correct_answer
+C
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology Respiratory System — Mechanics of Breathing
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+Name the diaphragm and external intercostals as the two muscles used for quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p11 q79. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F65AB5DD4DAB
+## title
+Concerning respiration: : a, expiratory muscles act during normal expiration
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning respiration: : a, expiratory muscles act during normal expiration
+## answer_a
+expiratory muscles act during normal expiration.
+## explanation_a
+Expiratory muscles (internal intercostals, abdominal muscles) do NOT act during NORMAL (quiet) expiration — quiet expiration is passive, driven by elastic recoil alone; those muscles are recruited only for forced expiration.
+## answer_b
+diaphragm is the only respiratory muscle.
+## explanation_b
+The diaphragm is not the only respiratory muscle — the external intercostals contract alongside it in quiet inspiration, and further accessory and expiratory muscles are recruited for forced breathing.
+## answer_c
+contraction of external intercostals muscle increase antero-post diameter.
+## explanation_c
+This is the correct answer. Contraction of the external intercostal muscles elevates the ribs, which increases the thorax's antero-posterior diameter — one of the two mechanical events (with the diaphragm's vertical-diameter effect) that expands the chest during quiet inspiration.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## answer_d
+contraction of scalenii muscles.
+## explanation_d
+The scalene muscles are accessory muscles recruited only for forced (deep) inspiration, not muscles that act in ordinary respiration at rest.
+## correct_answer
+C
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that external intercostal contraction increases the antero-posterior diameter of the thorax, as distinct from the false claims that expiratory muscles act in normal expiration or that the diaphragm is the only respiratory muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p27 q11. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-91B78F08E5A6
+## title
+During forced expiration:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During forced expiration:
+## answer_a
+expiration occurs passively
+## explanation_a
+Forced expiration is active, not passive — it is precisely the muscle recruitment beyond passive elastic recoil (internal intercostals, abdominal muscles) that makes an expiration 'forced' rather than quiet.
+## answer_b
+there is contraction of the external intercostals muscles
+## explanation_b
+The external intercostal muscles are inspiratory; forced expiration instead recruits their opposite-acting counterpart, the internal intercostals, which depress rather than elevate the ribs.
+## answer_c
+ribs are elevated. ;
+## explanation_c
+Ribs are depressed, not elevated, during expiration (forced or quiet) — rib elevation is what the external intercostals do during INSPIRATION, the opposite phase.
+## answer_d
+there is contraction of abdominal muscles
+## explanation_d
+This is the correct answer. Forced expiration recruits the abdominal muscles, which contract to raise intra-abdominal pressure and push the relaxed diaphragm further upward, actively reducing thoracic volume beyond what passive recoil alone achieves.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## correct_answer
+D
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that forced expiration is active, recruiting the abdominal muscles, not a passive process with rib elevation or external intercostal contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p16 q6; DPT BOOK Physio MCQ [104][2022].pdf p27 q10. Manifest src_ab84e963639b236e0951, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EFDCAB87EB20
+## title
+Inira-alveolar pressure during normal inspiration:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Inira-alveolar pressure during normal inspiration:
+## answer_a
+does not change
+## explanation_a
+Intra-alveolar pressure does change during inspiration — it falls below atmospheric pressure, which is exactly the small pressure gradient that draws air into the alveoli.
+## answer_b
+becomes about 1 mmHg negative to atmospheric pressure
+## explanation_b
+This is the correct answer. During normal (quiet) inspiration, intra-alveolar pressure falls to about 1 mmHg negative to atmospheric pressure — a small gradient, but the one that drives airflow into the lung.
+
+Why this is right:
+- Intra-alveolar (intrapulmonary) pressure oscillates by only about 1 mmHg around atmospheric pressure across the quiet breathing cycle — a small swing compared with intrapleural pressure's own larger, more negative excursion.
+## answer_c
+becomes positive at end of inspiration
+## explanation_c
+Intra-alveolar pressure returns to atmospheric (not positive) once airflow stops at the end of inspiration; it only becomes positive during expiration, the following phase.
+## answer_d
+decreases to -6 ‏.لقم‎
+## explanation_d
+A fall to -6 mmHg describes the larger swing of intrapleural pressure, not intra-alveolar pressure — intra-alveolar pressure's own normal-inspiration swing is only about -1 mmHg, a much smaller change.
+## correct_answer
+B
+## main_concept
+CON-RES-42BC699422FFFA
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that intra-alveolar pressure becomes about 1 mmHg negative to atmospheric pressure during normal inspiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p17 q12. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6338F77EF546
+## title
+Intra-alveolar pressure during normal inspiration:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Intra-alveolar pressure during normal inspiration:
+## answer_a
+does not change.
+## explanation_a
+Intra-alveolar pressure does change during inspiration — it falls below atmospheric pressure, which is exactly the small pressure gradient that draws air into the alveoli.
+## answer_b
+becomes about 1 mmHg negative to atmospheric pressure.
+## explanation_b
+This is the correct answer. During normal (quiet) inspiration, intra-alveolar pressure falls to about 1 mmHg negative to atmospheric pressure — a small gradient, but the one that drives airflow into the lung.
+
+Why this is right:
+- Intra-alveolar (intrapulmonary) pressure oscillates by only about 1 mmHg around atmospheric pressure across the quiet breathing cycle — a small swing compared with intrapleural pressure's own larger, more negative excursion.
+## answer_c
+becomes positive at end of inspiration.
+## explanation_c
+Intra-alveolar pressure returns to atmospheric (not positive) once airflow stops at the end of inspiration; it only becomes positive during expiration, the following phase.
+## answer_d
+decreases to -6 mmHg.
+## explanation_d
+A fall to -6 mmHg describes the larger swing of intrapleural pressure, not intra-alveolar pressure — intra-alveolar pressure's own normal-inspiration swing is only about -1 mmHg, a much smaller change.
+## correct_answer
+B
+## main_concept
+CON-RES-42BC699422FFFA
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that intra-alveolar pressure becomes about 1 mmHg negative to atmospheric pressure during normal inspiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q17. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-799754A82995
+## title
+Intra-alveolar pressure:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Intra-alveolar pressure:
+## answer_a
+Is negative throughout normal quiet breathing
+## explanation_a
+Intra-alveolar pressure is not negative throughout normal quiet breathing — it is negative only during inspiration, returns to atmospheric (zero) at the pause, and becomes positive during expiration.
+## answer_b
+Is zero (atmospheric P) during pause between inspiration and
+## explanation_b
+This is the correct answer. Intra-alveolar pressure equals atmospheric pressure (taken as zero) during the momentary pause between inspiration and expiration, when airflow has stopped and no pressure gradient remains.
+
+Why this is right:
+- Intra-alveolar (intrapulmonary) pressure oscillates by only about 1 mmHg around atmospheric pressure across the quiet breathing cycle — a small swing compared with intrapleural pressure's own larger, more negative excursion.
+## answer_c
+ls greater than 5-6 mmHg during quiet expiration
+## explanation_c
+5-6 mmHg during quiet expiration is far too large a swing for intra-alveolar pressure, whose normal quiet-breathing range is only about 1 mmHg on either side of atmospheric; a swing that size instead describes intrapleural pressure's own larger excursions.
+## answer_d
+Is more negative than 5-6 mmHg during quiet inspiration
+## explanation_d
+More negative than 5-6 mmHg during quiet inspiration likewise overstates intra-alveolar pressure's real swing (about -1 mmHg); that magnitude belongs to intrapleural pressure, not intra-alveolar pressure.
+## correct_answer
+B
+## main_concept
+CON-RES-42BC699422FFFA
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that intra-alveolar pressure equals atmospheric pressure during the pause between inspiration and expiration, rather than staying negative throughout quiet breathing or reaching the larger magnitudes intrapleural pressure does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p17 q15. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-15668C97E06B
+## title
+Regarding respiration and the changes in the thorax, all the followings are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding respiration and the changes in the thorax, all the followings are true, EXCEPT:
+## answer_a
+Vertical diameter of thorax increases when the diaphragm contracts
+## explanation_a
+True, so not the exception. Diaphragmatic contraction flattens the dome and increases the thorax's vertical diameter — one of the two mechanical events (with intercostal contraction) that expand the chest during inspiration.
+## answer_b
+Anteroposterior diameter is increased when the intercostal muscles contract
+## explanation_b
+True, so not the exception. External intercostal contraction elevates the ribs, increasing the thorax's antero-posterior diameter alongside the diaphragm's vertical-diameter effect.
+## answer_c
+Expiration is a passive phenomenon
+## explanation_c
+True, so not the exception. Quiet expiration is a passive phenomenon, driven by elastic recoil once the inspiratory muscles relax, with no muscle contraction of its own.
+## answer_d
+Root of the lung does not move in inspiration
+## explanation_d
+The exception, and the answer. The root of the lung does move with inspiration: as the diaphragm descends and the thorax expands, the mediastinal structures — including the hilum and root of each lung — shift downward with it, rather than staying fixed in place. (Standard thoracic anatomy; not spelled out verbatim by this leaf's own currently authored article — flagged as a gap for the article-authoring lane.)
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## answer_e
+In deep inspiration, there is a maximum increase in the capacity of thoracic
+## explanation_e
+True, so not the exception. Deep (forced) inspiration produces the maximum increase in thoracic capacity, recruiting accessory muscles on top of the diaphragm and external intercostals used in quiet breathing.
+## correct_answer
+D
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Anatomy
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the root of the lung, unlike the other listed thoracic changes, DOES move during inspiration, rather than staying fixed.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p25 q101. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8667E38C0363
+## title
+The muscles of inspiration include all of the following, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The muscles of inspiration include all of the following, EXCEPT:
+## answer_a
+diaphragm
+## explanation_a
+True, so not the exception. The diaphragm is a (indeed the principal) muscle of inspiration.
+## answer_b
+external intercostals
+## explanation_b
+True, so not the exception. The external intercostals are muscles of quiet inspiration, elevating the ribs.
+## answer_c
+sterno-cleidomastoil. ;
+## explanation_c
+True, so not the exception. The sternocleidomastoid is an accessory muscle of forced inspiration.
+## answer_d
+internal intercostal
+## explanation_d
+The exception, and the answer. The internal intercostal is an EXPIRATORY muscle — it depresses the ribs and is recruited for forced expiration, not inspiration — the opposite role from its external counterpart.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## correct_answer
+D
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify the internal intercostal as the one listed muscle that is expiratory, not inspiratory.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p16 q9. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F343C19CD95D
+## title
+Which ef the following are muscles of inspiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which ef the following are muscles of inspiration?
+## answer_a
+Abdominal muscles and external intercostals
+## explanation_a
+Abdominal muscles are expiratory (forced expiration only), not inspiratory, so pairing them with the external intercostals as inspiratory muscles is incorrect.
+## answer_b
+Diaphragm and abdominal muscles
+## explanation_b
+Abdominal muscles are expiratory, not inspiratory, so pairing them with the diaphragm as inspiratory muscles is incorrect.
+## answer_c
+Diaphragm and exiernal intercostals
+## explanation_c
+This is the correct answer. The diaphragm and the external intercostal muscles are the muscles of (quiet) inspiration.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## answer_d
+Diaphragm and internal intercostals
+## explanation_d
+The internal intercostal is expiratory, not inspiratory — the diaphragm pairs with the EXTERNAL, not internal, intercostals for inspiration.
+## correct_answer
+C
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+Name the diaphragm and external intercostals as the muscles of (quiet) inspiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p19 q25. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6DDDAC9C5DED
+## title
+Which of the following are muscles of inspiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following are muscles of inspiration?
+## answer_a
+Abdominal muscles and external intercostals
+## explanation_a
+Abdominal muscles are expiratory (forced expiration only), not inspiratory, so pairing them with the external intercostals as inspiratory muscles is incorrect.
+## answer_b
+Diaphragm and abdominal muscles ,
+## explanation_b
+Abdominal muscles are expiratory, not inspiratory, so pairing them with the diaphragm as inspiratory muscles is incorrect.
+## answer_c
+Diaphragm and external intercostals :
+## explanation_c
+This is the correct answer. The diaphragm and the external intercostal muscles are the muscles of (quiet) inspiration.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## answer_d
+Diaphragm and internal intercostals
+## explanation_d
+The internal intercostal is expiratory, not inspiratory — the diaphragm pairs with the EXTERNAL, not internal, intercostals for inspiration.
+## correct_answer
+C
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+Name the diaphragm and external intercostals as the muscles of (quiet) inspiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p31 q42. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B200548A67E8
+## title
+Which of the following does NOT happen during inspiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following does NOT happen during inspiration?
+## answer_a
+The ribs move upward
+## explanation_a
+True, so not the exception. Contraction of the external intercostals elevates the ribs during inspiration.
+## answer_b
+The diaphragm lifts up
+## explanation_b
+The exception, and the answer. The diaphragm does NOT lift up during inspiration — it contracts and FLATTENS, moving DOWNWARD, which is exactly what increases the thoracic cavity's vertical diameter.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## answer_c
+The antero-posterior dimensions of the chest are increased
+## explanation_c
+True, so not the exception. External intercostal contraction increases the antero-posterior dimension of the chest during inspiration.
+## answer_d
+The transverse dimensions of the thorax are increased
+## explanation_d
+True, so not the exception. Rib elevation during inspiration also widens the thorax transversely (the 'bucket-handle' movement of the ribs), increasing the transverse dimension.
+## correct_answer
+B
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify that the diaphragm flattens and descends, rather than 'lifting up,' during inspiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p19 q26; DPT BOOK Physio MCQ [104][2022].pdf p31 q43. Manifest src_ab84e963639b236e0951, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-87BD8BF93C2F
+## title
+Which of the following occurs during inspiration? ْ
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following occurs during inspiration? ْ
+## answer_a
+Diaphragm contracts and flattens oe
+## explanation_a
+This is the correct answer. During inspiration, the diaphragm contracts and flattens, descending to increase the thoracic cavity's vertical diameter — the principal mechanical event of quiet inspiration.
+
+Why this is right:
+- Quiet (normal) inspiration is produced by two muscles only: the diaphragm, which contracts and flattens, descending to increase the thoracic cavity's vertical diameter, and the external intercostal muscles, which contract to elevate the ribs and increase the thoracic cavity's antero-posterior diameter.
+## answer_b
+Intrathoracic pressure does not change
+## explanation_b
+Intrathoracic (intrapleural) pressure does change during inspiration — it becomes more negative as the expanding chest pulls further on the pleural space, not unchanged.
+## answer_c
+External intercostals relax
+## explanation_c
+The external intercostals CONTRACT, not relax, during inspiration — their contraction is what elevates the ribs and increases the thorax's antero-posterior diameter.
+## answer_d
+Thoracic volume decreases
+## explanation_d
+Thoracic volume increases, not decreases, during inspiration — a volume decrease is what happens during expiration, the opposite phase.
+## correct_answer
+A
+## main_concept
+CON-RES-D11C71AADB4DB2
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Mechanics of Breathing
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Mechanics of Breathing
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the diaphragm contracts and flattens during inspiration, while intrathoracic pressure falls, the external intercostals contract (not relax), and thoracic volume rises (not falls).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p31 q41. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-B8531BD16D23
 ## title
 Inspiration occurs when: 1 ١
@@ -57608,6 +58809,466 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EEAFB365977B
+## title
+The most likely response in a patient with pneumothorax upon entry of air into the ches…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The most likely response in a patient with pneumothorax upon entry of air into the chest would be:
+## answer_a
+The lungs collapse inward and the chest wall collapses inward
+## explanation_a
+The chest wall does not collapse inward — released from the lung's inward pull once the pleural space is opened, it springs OUTWARD towards its own larger relaxation volume of about 5 litres, which is why the affected side of the chest looks larger, not smaller.
+## answer_b
+The lungs collapse inward and the chest wall springs outward
+## explanation_b
+This is the correct answer. Air entering the pleural space lets the lung and chest wall each spring to their own separate relaxation volume: the lung, no longer held stretched by the chest wall's outward pull, collapses inward towards about 1 litre, while the chest wall, no longer held compressed by the lung's inward pull, springs outward towards about 5 litres.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_c
+The lungs expand outward and the chest wall springs inward
+## explanation_c
+The lungs do not expand outward in pneumothorax — released from the chest wall's outward pull, the lung's own elastic and surface-tension recoil collapses it inward, the opposite of expansion.
+## answer_d
+The lungs expand outward and the chest wall springs outward
+## explanation_d
+Neither structure expands outward together: the lung collapses inward while only the chest wall springs outward — the two move in OPPOSITE directions once the pleural space no longer couples them, not the same direction.
+## correct_answer
+B
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Predict that opening the pleural space collapses the lung inward while the chest wall on that side springs outward, once each is released from the other's opposing pull.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p29 q28. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F61C3719987C
+## title
+When the respiratory muscles are relaxed, the lungs are at:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+When the respiratory muscles are relaxed, the lungs are at:
+## answer_a
+Residual volume (RV)
+## explanation_a
+Residual volume is the air left after a MAXIMAL forced expiration, driven by active expiratory muscle contraction — not the passive, muscles-relaxed equilibrium volume this question asks about.
+## answer_b
+Expiratory reserve volume (ERV)
+## explanation_b
+Expiratory reserve volume is the extra air that CAN be actively exhaled below a normal tidal expiration — it describes a capacity for further active exhalation, not the resting volume reached when the muscles are relaxed.
+## answer_c
+Functional residual capacity (FRC)
+## explanation_c
+This is the correct answer. With every respiratory muscle relaxed, the lung's own inward elastic and surface-tension recoil and the chest wall's own outward elastic recoil pull against each other until they balance — that equilibrium volume, reached passively at the end of a normal quiet expiration, is the functional residual capacity.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_d
+Inspiratory reserve volume (IRV)
+## explanation_d
+Inspiratory reserve volume is the extra air that CAN be actively inhaled above a normal tidal inspiration, requiring further muscle contraction — the opposite of the muscles-relaxed resting state this question describes.
+## correct_answer
+C
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that functional residual capacity is the lung volume at which the inward pull of lung recoil and the outward pull of the chest wall balance with no respiratory muscle contracting.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q68. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9888AF0D2792
+## title
+In quiet breathing, expiration is: :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In quiet breathing, expiration is: :
+## answer_a
+Passive due to elastic tissue alone
+## explanation_a
+Elastic tissue alone understates the lung's recoil: alveolar surface tension is the LARGER of its two sources (about two-thirds of the total), so leaving it out of the passive-recoil answer misses most of the driving force.
+## answer_b
+Passive due to decreased surface tension in the alveoli and elastic tissue recoil
+## explanation_b
+This is the correct answer. Once the inspiratory muscles relax at the end of inspiration, the lung's own inward recoil — from its elastic tissue (about one third) and, more, from alveolar surface tension (about two thirds) — passively drives the air back out with no active muscle contraction needed for quiet breathing.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_c
+Active due to contraction of internal intercostal muscles ; /
+## explanation_c
+The internal intercostals are accessory EXPIRATORY muscles recruited only for forced (active) expiration; they do not contract during ordinary quiet breathing, which is passive.
+## answer_d
+Active due to contraction of diaphragm
+## explanation_d
+The diaphragm is an inspiratory muscle; it relaxes, rather than contracts, once inspiration ends, which is exactly why quiet expiration is passive rather than driven by further diaphragmatic contraction.
+## correct_answer
+B
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that quiet expiration is passive, driven by the lung's own elastic-tissue and alveolar-surface-tension recoil once the inspiratory muscles relax, not by active muscle contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q39. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-11837AF97597
+## title
+Inspiration:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Inspiration:
+## answer_a
+is accomplished by increasing the volume of the lungs
+## explanation_a
+This is the correct answer. Inspiration is accomplished by the diaphragm and external intercostals expanding the thoracic cavity, which increases lung volume — that volume increase is the mechanical event that lowers intra-alveolar pressure and draws air in.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_b
+Takes place when the air pressure in the lungs equals atmospheric
+## explanation_b
+Air pressure in the lungs equalling atmospheric pressure describes the brief pause between breaths, with no pressure gradient to drive airflow — not active inspiration, during which alveolar pressure is instead driven below atmospheric.
+## answer_c
+15 accompanied by an increase in intrapleural pressure
+## explanation_c
+Intrapleural pressure becomes MORE negative, not increased in the sense of less negative, during inspiration, as the expanding chest pulls further on the pleural space.
+## answer_d
+Occurs when the lung volume is decreased
+## explanation_d
+Lung volume increases, not decreases, during inspiration — a decrease in lung volume is what happens during expiration, the opposite phase.
+## correct_answer
+A
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+State that inspiration is accomplished by increasing lung volume, not by any change that leaves intrapulmonary pressure equal to atmospheric or decreases lung volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p19 q23. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-972E0DB31051
+## title
+Inspiration: i
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Inspiration: i
+## answer_a
+is accomplished by increasing the volume of the lungs. ‏ا‎
+## explanation_a
+This is the correct answer. Inspiration is accomplished by the diaphragm and external intercostals expanding the thoracic cavity, which increases lung volume — that volume increase is the mechanical event that lowers intra-alveolar pressure and draws air in.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_b
+Takes place when the air pressure in the lungs equals atmospheric pressure 1 ‏ا‎
+## explanation_b
+Air pressure in the lungs equalling atmospheric pressure describes the brief pause between breaths, with no pressure gradient to drive airflow — not active inspiration, during which alveolar pressure is instead driven below atmospheric.
+## answer_c
+Is accompanied by an increase in intrapleural pressure :
+## explanation_c
+Intrapleural pressure becomes MORE negative, not increased in the sense of less negative, during inspiration, as the expanding chest pulls further on the pleural space.
+## answer_d
+Occurs when the lung volume is decreased
+## explanation_d
+Lung volume increases, not decreases, during inspiration — a decrease in lung volume is what happens during expiration, the opposite phase.
+## correct_answer
+A
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+State that inspiration is accomplished by increasing lung volume, not by any change that leaves intrapulmonary pressure equal to atmospheric or decreases lung volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p31 q40. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
 
 
 

@@ -120,5 +120,39 @@ export const LEAF: McqLeafSeed = {
         D: "Deep inspiration makes intrapleural pressure more negative than normal quiet inspiration, not positive.",
       },
     },
+    // run41 — bank-tagged "Mechanics of Breathing", a leaf-mismatch reroute
+    // onto this file's own already-claimed concept: intrapleural pressure
+    // running more negative during inspiration than during expiration is
+    // exactly the range this concept's own definition already states
+    // (about -3 cmH2O at end-expiration, -6 to -8 cmH2O at end-inspiration).
+    {
+      key: "which-of-the-following-is-true-during-inspiration-b760feb5",
+      conceptKey: "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes",
+      difficulty: "Moderate",
+      questionType: "Recall of a true statement",
+      learningObjective: "State that intrapleural pressure is more negative during inspiration than during expiration, not that alveolar pressure equals or exceeds atmospheric or that lung volume falls below FRC.",
+      explanations: {
+        A: "During inspiration lung volume rises above, not falls below, the functional residual capacity it sat at before the breath began.",
+        B: "Alveolar pressure falls BELOW, not equals, atmospheric pressure during inspiration — that pressure gradient is exactly what drives air into the lung.",
+        C: "Alveolar pressure is lower than, not higher than, atmospheric pressure during inspiration; a higher alveolar pressure is the condition for expiration, the reverse phase.",
+        D: "This is the correct answer. As the thorax expands during inspiration, intrapleural pressure is pulled further below atmospheric — about -6 to -8 cmH2O at end-inspiration compared with about -3 cmH2O at end-expiration — making it more negative during inspiration than during expiration.",
+      },
+    },
+    // run41 — bank-tagged "Mechanics of Breathing", the same corrupted-
+    // stem-plus-missing-option hazard already excluded twice in this file
+    // (in-muller-s-experiment...fe19c8c8, the-intrapleural-pressure-at-
+    // the-end-of-inspiration-is...9c8970b0): option A's own text ("-1
+    // mmHg") has bled into the stem itself, leaving only 3 clean surviving
+    // options (B, C, D).
+    {
+      key: "during-quiet-inspiration-ipp-equals-a-1mmug-003c6ae3",
+      conceptKey: "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Corrupted stem: option A's own text ('a-- 1mmHg') has bled into the stem itself ('During quiet inspiration, IPP equals: a-- 1mmug'), leaving only 3 distinguishable surviving options (B, C, D) — below the platform's 4-to-5-option import contract. The same corruption class already excludes two sibling rows in this file (in-muller-s-experiment-it-reaches-30cmh20...fe19c8c8, the-intrapleural-pressure-at-the-end-of-inspiration-is...9c8970b0); the genuine intrapleural-pressure-range fact is taught cleanly by this file's own concept and its five kept questions above.",
+    },
   ],
 }

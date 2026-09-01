@@ -2205,11 +2205,86 @@ unclaimed, both respected).
 Next: Mechanics of Breathing (22, new leaf) and Lungs — Gross Anatomy (21,
 new leaf), per this run's own dispatch brief.
 
+## run41 continued — Mechanics of Breathing CLOSED (22/22: 18 kept, 4
+excluded, 0 unclaimed). New leaf, new file `physiology-mechanics-of-
+breathing.ts` (2 fresh-mint concepts — `find-existing.mjs` returned "safe
+to create" for every muscle-of-breathing/intra-alveolar-pressure term
+searched, though a live Year 3 pulmonology catalogue (CON-RES-* under
+DIS-PHY-T03) holds overlapping-but-not-identical facts, recorded as a
+`conflicts` entry rather than reused — GENERATED_BY-blind to
+`existingConceptIds()` for module "104 CPS", the same reasoning documented
+repeatedly elsewhere in this branch). Plus 6 leaf-mismatch reroutes onto
+two already-existing files' own concepts (`physiology-pleural-
+mechanics.ts`'s lung-recoil/chest-wall concept, 5 rows;
+`physiology-intrapleural-pressure-extremes.ts`'s transpulmonary-pressure
+concept, 1 row + 1 exclude) — the leaf-tag-unreliable hazard confirmed yet
+again, this time the other direction (rows tagged for this NEW leaf that
+actually belong to two already-authored leaves).
+
+**Article-gap disclosed rather than invented past**:
+`ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT`'s own `## notes` field states
+plainly that "the basic quiet-breathing muscle/pressure sequence" is
+"deliberately not covered by this article" — deferred to the same
+cross-year catalogue found by the dedup search. No 104-CPS article
+currently states the muscle-of-breathing or intra-alveolar-pressure
+content this leaf's own bank rows test; both new concepts cite the
+closest live respiratory-mechanics article anyway (matching this leaf's
+own module_subject) with the gap disclosed on each concept's own `gaps`
+field, per the established pattern elsewhere in this branch for standard,
+undisputed physiology an article hasn't yet written out. Every fact
+authored is corroborated by the bank's own `external-solved-book-
+recovered` answers (cross-checked against the department's solved-paper
+key), not invented from unsourced model knowledge.
+
+**New file `physiology-mechanics-of-breathing.ts`** — 2 concepts:
+`muscles-of-breathing.quiet-vs-forced-inspiration-and-expiration`
+(diaphragm + external intercostals for quiet inspiration; passive quiet
+expiration; sternocleidomastoid/scalenii accessory muscles for forced
+inspiration; internal intercostals + abdominal muscles for forced
+expiration) and `intra-alveolar-pressure.changes-through-the-quiet-
+breathing-cycle` (atmospheric at the breath-to-breath pause, ~-1 mmHg
+during inspiration, ~+1 mmHg during expiration — a much smaller swing
+than intrapleural pressure's own range, a recurring distractor-confusion
+point across several kept questions). 13 kept, 2 excluded (both a
+missing-option corruption; `forced-expiration-b-7d9febd4` additionally
+credits a physiologically-backwards "both internal and external
+intercostals" claim contradicting the concept's own sourced muscle
+roles).
+
+**6 leaf-mismatch reroutes, 0 new mints**: `the-most-likely-response-in-a-
+patient-with-pneumothorax...4477f37f`, `when-the-respiratory-muscles-are-
+relaxed...f4ccf2fa`, `in-quiet-breathing-expiration-is-e59e87c7`,
+`inspiration-50a94c7d`, `inspiration-i-1730519e` onto `physiology-pleural-
+mechanics.ts`'s own `respiratory-mechanics.causes-of-lung-recoil-and-
+chest-wall-expansion` concept (pneumothorax mechanism, FRC-at-relaxation,
+and the passive-recoil/basic-inspiration facts it already teaches, each a
+duplicate occurrence with a different distractor set); `which-of-the-
+following-is-true-during-inspiration-b760feb5` onto `physiology-
+intrapleural-pressure-extremes.ts`'s own transpulmonary-pressure concept
+(IPP more negative in inspiration than expiration); plus 1 exclude in that
+same file (`during-quiet-inspiration-ipp-equals...003c6ae3`, a folded-
+option-A corruption, the same class already excluding two sibling rows
+there) and 1 exclude in the new file (`intra-alveolar-pressure-a-is-
+negative...fa946e59`, a corrupted duplicate of the clean `intra-alveolar-
+pressure-b9340fd1` kept in the new file).
+
+Gate (both commits together): build-batches.ts "104 CPS": 772 kept (+18
+from 754), 173 excluded (+4 from 169), 181 MCQ concepts (+2, both fresh
+mints). `medical:batch --with` (10-file recipe): errors=0. `kasr:ledger-
+104`: Mechanics of Breathing now bank 22, authored 18, excluded 4,
+remaining 0 — CLOSED.
+
 HANDOFF: kasr-104-author-run41@<this commit's sha, see `git log -1`> ·
-resume-first: Mechanics of Breathing (create physiology-mechanics-of-
-breathing.ts; physiology-pleural-mechanics.ts and physiology-intrapleural-
-pressure-extremes.ts already pin several of the relevant facts — check
-before minting), then Lungs — Gross Anatomy (create anatomy-lungs-
-gross.ts; 104-CPS-anatomy-concepts.md already pins a rich set of root/
-fissure/segment/blood-supply/mediastinal-impression concepts — check
-before minting).
+resume-first: Lungs — Gross Anatomy (21, create anatomy-lungs-gross.ts;
+`104-CPS-anatomy-concepts.md` already pins a rich set of root/fissure/
+segment/blood-supply/mediastinal-impression/pleura concepts — canonical
+keys `lung.hilum-and-root`, `lung.fissures-and-lobes`, `bronchopulmonary-
+segment.definition-and-distribution`, `lung.dual-blood-supply`, `lung.
+lymphatic-drainage`, `right-vs-left-lung.differences`, `lung.mediastinal-
+surface-impressions`, `lung.external-features`, `pleura.divisions-and-
+recesses`, `pleura.surface-anatomy`, `pleura.nerve-supply` (in
+`104-CPS-concepts.md`) — check each before minting; the fuller
+bronchopulmonary-segment per-lobe breakdown (3 upper/2 middle/5 lower
+right, 4 upper incl. 2 lingular/4 lower left) is in `104-CPS-anatomy.md`'s
+own article prose, not yet copied into that concept's summary
+definition).

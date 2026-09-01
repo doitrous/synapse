@@ -4,19 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 754 | excluded: 169 | remaining: 229
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 772 | excluded: 173 | remaining: 207
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 754
+- authored (by key, this ledger): 772
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 754
+- authored minus held-back = build-style "kept": 772
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Mechanics of Breathing | 22 | 0 | 0 | 22 |
 | Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
 | Pulmonary Compliance | 45 | 24 | 3 | 18 |
 | Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
@@ -46,6 +45,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
+| Mechanics of Breathing | 22 | 18 | 4 | 0 |
 | Mediastinum | 41 | 30 | 11 | 0 |
 | The Cell Cycle | 5 | 5 | 0 | 0 |
 | The heart | 43 | 31 | 12 | 0 |
@@ -54,31 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Mechanics of Breathing (22)
-
-- `a-healthy-45-year-old-man-is-reading-the-newspaper-which-of-39a53f44` — A healthy, 45-year-old man is reading the newspaper. Which of the following musc…
-- `concerning-respiration-a-expiratory-muscles-act-during-norma-6bd951ba` — Concerning respiration: : a, expiratory muscles act during normal expiration
-- `during-forced-expiration-f768b49b` — During forced expiration:
-- `during-inspiration-there-is-29880fe3` — During inspiration there is: . :
-- `during-quiet-inspiration-ipp-equals-a-1mmug-003c6ae3` — During quiet inspiration, IPP equals: a-- 1mmug
-- `forced-expiration-b-7d9febd4` — Forced expiration B
-- `in-quiet-breathing-expiration-is-e59e87c7` — In quiet breathing, expiration is: :
-- `inira-alveolar-pressure-during-normal-inspiration-2dec0ace` — Inira-alveolar pressure during normal inspiration:
-- `inspiration-50a94c7d` — Inspiration:
-- `inspiration-i-1730519e` — Inspiration: i
-- `intra-alveolar-pressure-a-is-negative-throughout-normal-quie-fa946e59` — Intra-alveolar pressure: a-Is negative throughout normal quiet breathing
-- `intra-alveolar-pressure-b9340fd1` — Intra-alveolar pressure:
-- `intra-alveolar-pressure-during-normal-inspiration-43eb14c9` — Intra-alveolar pressure during normal inspiration:
-- `regarding-respiration-and-the-changes-in-the-thorax-all-the-69394d4b` — Regarding respiration and the changes in the thorax, all the followings are true…
-- `the-most-likely-response-in-a-patient-with-pneumothorax-upon-4477f37f` — The most likely response in a patient with pneumothorax upon entry of air into t…
-- `the-muscles-of-inspiration-include-all-of-the-following-exce-c11b2e68` — The muscles of inspiration include all of the following, EXCEPT:
-- `when-the-respiratory-muscles-are-relaxed-the-lungs-are-at-f4ccf2fa` — When the respiratory muscles are relaxed, the lungs are at:
-- `which-ef-the-following-are-muscles-of-inspiration-0eea2c0f` — Which ef the following are muscles of inspiration?
-- `which-of-the-following-are-muscles-of-inspiration-5936e8bb` — Which of the following are muscles of inspiration?
-- `which-of-the-following-does-not-happen-during-inspiration-61b7b571` — Which of the following does NOT happen during inspiration?
-- `which-of-the-following-is-true-during-inspiration-b760feb5` — Which of the following is true during inspiration?
-- `which-of-the-following-occurs-during-inspiration-d111eb4c` — Which of the following occurs during inspiration? ْ
 
 ### Lungs — Gross Anatomy (21)
 
