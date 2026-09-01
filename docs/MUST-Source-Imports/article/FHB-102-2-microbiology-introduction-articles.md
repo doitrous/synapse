@@ -1483,6 +1483,9 @@ Hypersensitivity is presented as the most important penicillin adverse effect.
 The penicillin table marks cloxacillin and dicloxacillin as orally active.
 The penicillin table places dicloxacillin in the antistaphylococcal group.
 Piperacillin is labelled the most potent antipseudomonal penicillin.
+The official B-Lactam & Vancomycin deck Therapeutic Uses slide lists acute throat infections (tonsillitis) under streptococcal infections and meningococcal meningitis treated with penicillin G or ampicillin IV; the separate Prophylaxis slide lists benzathine penicillin for recurrence of rheumatic fever.
+The official Adverse Effects slide lists hypersensitivity up to anaphylaxis as the most important adverse effect; the separate Therapeutic Uses slide lists meningococcal meningitis (penicillin G or ampicillin), syphilis and gonorrhea, and typhoid and paratyphoid fever (amoxicillin and ampicillin) as indications.
+The official Adverse Effects slide lists hypersensitivity (rashes up to anaphylaxis) and diarrhea from disruption of normal flora, particularly with broad-spectrum incompletely absorbed drugs such as ampicillin, as penicillin adverse effects; the separate Therapeutic Uses slide lists typhoid and paratyphoid fever, treated with amoxicillin and ampicillin, as an indication rather than an adverse effect.
 
 ## published_summary
 
@@ -1502,6 +1505,9 @@ Hypersensitivity reactions are a major adverse effect of penicillins.
 Cloxacillin and dicloxacillin are orally administered antistaphylococcal penicillins in the governed classification.
 Dicloxacillin is an antistaphylococcal penicillin used for susceptible Staphylococcus aureus infection.
 Piperacillin is the most potent antipseudomonal penicillin in the governed penicillin table.
+Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication.
+Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching.
+Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect.
 
 ## lose_the_mark
 Nafcillin is antistaphylococcal, amoxicillin is an aminopenicillin and piperacillin is extended-spectrum.
@@ -1515,6 +1521,9 @@ The governed adverse-effect emphasis is hypersensitivity, not the alternative to
 Because both B and C are supported, selecting only one omits the other governed oral formulation.
 Amoxicillin and ampicillin are aminopenicillins, while benzathine penicillin is a long-acting natural penicillin formulation.
 Penicillin G, amoxicillin and nafcillin are not the most potent antipseudomonal penicillin in the governed table.
+None of the three listed uses is excluded from the governed therapeutic-uses and prophylaxis slides, so no single option alone is the complete governed answer.
+Meningitis, gonorrhea and typhoid are not distractors here: the governed Therapeutic Uses slide lists all three; only anaphylactic shock belongs to the separate Adverse Effects slide.
+Typhoid is not merely absent from the adverse-effects list: the governed Therapeutic Uses slide explicitly lists it as a treated indication, reinforcing that it belongs with the uses rather than the side effects of penicillin.
 
 ## callout_evidence
 ### Penicillin G belongs to the natural penicillin group.
@@ -1572,6 +1581,21 @@ Claims: CLM-INF-MUST-FHB1022-PHARM-Q147-01
 Citations: CIT-INF-MUST-FHB1022-PHARM-Q147-01
 Reviewed by: pending medical review
 
+### Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+Reviewed by: pending medical review
+
+### Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+Reviewed by: pending medical review
+
+### Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-6A330B9A78514F
 CON-INF-D5C29272FC4BC9
@@ -1582,6 +1606,8 @@ CON-INF-3BBF6AEA4C5AB4
 CON-INF-A23FC59A677DB6
 CON-INF-039F2A99E15968
 CON-INF-04E24B1EACC294
+CON-INF-5170E13153A92B
+CON-INF-AB5DEDED904BE8
 
 ## related_articles
 ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS: Cell-wall antibiotics: beta-lactams, vancomycin and bacitracin
@@ -1598,10 +1624,14 @@ QST-MUST-FHB1022-PHARM-Q139
 QST-MUST-FHB1022-PHARM-Q142
 QST-MUST-FHB1022-PHARM-Q146
 QST-MUST-FHB1022-PHARM-Q147
+QST-MUST-FHB1022-ANTIBACT1-Q19
+QST-MUST-FHB1022-ANTIBACT1-Q46
+QST-MUST-FHB1022-ANTIBACT1-Q47
 
 ## resource_ids
 src_875c205531a585cd5b91
 src_4bd3b78f762673d7eb7f
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_875c205531a585cd5b91
@@ -1618,6 +1648,9 @@ CLM-INF-MUST-FHB1022-PHARM-Q139-01
 CLM-INF-MUST-FHB1022-PHARM-Q142-01
 CLM-INF-MUST-FHB1022-PHARM-Q146-01
 CLM-INF-MUST-FHB1022-PHARM-Q147-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-PHARM-Q130-01
@@ -1631,9 +1664,12 @@ SPN-INF-MUST-FHB1022-PHARM-Q139-01
 SPN-INF-MUST-FHB1022-PHARM-Q142-01
 SPN-INF-MUST-FHB1022-PHARM-Q146-01
 SPN-INF-MUST-FHB1022-PHARM-Q147-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q47-01
 
 ## university_notes
-must: Global Q130, Q131, Q132, Q133, Q134, Q135, Q136, Q139, Q142, Q146, Q147 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q130, Q131, Q132, Q133, Q134, Q135, Q136, Q139, Q142, Q146, Q147, Q19, Q46, Q47 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ### definition_of · CON-INF-6A330B9A78514F
@@ -1691,6 +1727,21 @@ Quote: Piperacillin is labelled the most potent antipseudomonal penicillin.
 Block: body
 Id: ann-must-fhb1022-micro-q147
 
+### definition_of · CON-INF-5170E13153A92B
+Quote: The official B-Lactam & Vancomycin deck Therapeutic Uses slide lists acute throat infections (tonsillitis) under streptococcal infections and meningococcal meningitis treated with penicillin G or ampicillin IV; the separate Prophylaxis slide lists benzathine penicillin for recurrence of rheumatic fever.
+Block: body
+Id: ann-must-fhb1022-micro-q19
+
+### definition_of · CON-INF-5170E13153A92B
+Quote: The official Adverse Effects slide lists hypersensitivity up to anaphylaxis as the most important adverse effect; the separate Therapeutic Uses slide lists meningococcal meningitis (penicillin G or ampicillin), syphilis and gonorrhea, and typhoid and paratyphoid fever (amoxicillin and ampicillin) as indications.
+Block: body
+Id: ann-must-fhb1022-micro-q46
+
+### definition_of · CON-INF-AB5DEDED904BE8
+Quote: The official Adverse Effects slide lists hypersensitivity (rashes up to anaphylaxis) and diarrhea from disruption of normal flora, particularly with broad-spectrum incompletely absorbed drugs such as ampicillin, as penicillin adverse effects; the separate Therapeutic Uses slide lists typhoid and paratyphoid fever, treated with amoxicillin and ampicillin, as an indication rather than an adverse effect.
+Block: body
+Id: ann-must-fhb1022-micro-q47
+
 ## media
 
 
@@ -1699,6 +1750,7 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 2. B-Lactam & Vancomycin deck, visually read on exact cited pages.
+Official MUST FHB102-2 B-Lactam & Vancomycin deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps
@@ -1835,6 +1887,12 @@ The official deck places cefazolin in the first-generation cephalosporin group.
 The official deck classifies cefaclor with second-generation cephalosporins and describes that generation as less active on Gram-positive and more active on Gram-negative organisms.
 The official deck lists cefepime under fourth generation and states empirical treatment of nosocomial infections.
 The official fifth-generation slide explicitly lists ceftaroline with MRSA activity.
+The official 1st Generation slide (cefalexin, cefradine, cefazolin) states the spectrum as Gram-positive cocci (streptococci, staphylococci) plus some Gram-negative organisms (E. coli, Klebsiella).
+The official Pharmacokinetics slide states elimination is mainly renal for the class, but cefoperazone and ceftriaxone are excreted mainly in bile; the Adverse Effects slide lists nephrotoxicity, especially with aminoglycosides, as a class effect.
+The official 3rd Generation slide lists cefoperazone, cefotaxime, ceftriaxone and ceftazidime by name, states activity against resistant Gram-negative organisms such as Pseudomonas, and that most agents can cross the BBB for use in meningitis.
+The official Pharmacokinetics slide states that 1st- and 2nd-generation members cannot cross the BBB, while 3rd-generation agents (except cefoperazone) can cross, which is useful in meningitis; cefotaxime is named among the 3rd-generation agents on the preceding slide.
+The official Adverse Effects slide lists hypersensitivity with avoidance in serious penicillin allergy (cross-allergy), nephrotoxicity especially with aminoglycosides, and disulfiram-like reaction (alcohol intolerance) among the numbered cephalosporin adverse effects.
+The official Adverse Effects slide enumerates six numbered cephalosporin adverse effects (hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, disulfiram-like reaction, cross-resistance with penicillins); increased appetite is not one of the six.
 
 ## published_summary
 
@@ -1847,12 +1905,24 @@ Cefazolin is a first-generation cephalosporin.
 Cefaclor belongs to the second-generation cephalosporins, whose governed spectrum retains Gram-positive activity while adding Gram-negative activity.
 Cefepime is a fourth-generation cephalosporin used for empirical treatment of nosocomial infection.
 Ceftaroline is a fifth-generation cephalosporin with activity against MRSA.
+First-generation cephalosporins retain a spectrum weighted toward Gram-positive cocci and bacilli, with only some Gram-negative activity.
+Cefoperazone is excreted mainly in bile in addition to the renal route shared by other cephalosporins, giving it a biliary escape from the class nephrotoxicity risk.
+Cefotaxime is one of the four named third-generation cephalosporins, with activity against resistant Gram-negative organisms including Pseudomonas and the ability to cross the blood-brain barrier.
+Cefotaxime is a third-generation cephalosporin, and the governed teaching states that third-generation agents can cross the BBB except cefoperazone, so cefotaxime is among those able to cross into the CNS.
+Cephalosporins carry hypersensitivity with penicillin cross-allergy, nephrotoxicity especially combined with aminoglycosides, and a disulfiram-like alcohol-intolerance reaction, so all three listed effects are genuine governed adverse effects.
+The governed cephalosporin adverse-effects list covers hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, a disulfiram-like reaction and cross-resistance with penicillins; increased appetite does not appear among them.
 
 ## lose_the_mark
 Cefuroxime is second generation, ceftriaxone is third generation and ceftaroline is fifth generation in the governed deck.
 Cefazolin is first generation, cefotaxime is third generation and cefepime is fourth generation.
 The deck does not assign cefepime to mild skin infection, community-acquired pneumonia or tuberculosis.
 The governed deck does not assign the offered earlier-generation agents this MRSA role.
+The deck's 2nd-generation slide states extended Gram-negative and reduced Gram-positive activity relative to 1st generation, and the 3rd/4th-generation slides emphasise resistant Gram-negative coverage, so the Gram-positive weighting belongs to the first generation.
+The governed deck assigns dual biliary/renal excretion only to cefoperazone and ceftriaxone among cephalosporins; the class-wide slide otherwise lists nephrotoxicity as a shared risk.
+Cefoxitin is a second-generation cephamycin, and cefaclor and cefamandole are second-generation agents in the governed deck, not third-generation.
+Cefoperazone is the named third-generation exception that cannot cross the BBB; cefuroxime and cefoxitin belong to the second generation, which the deck excludes from BBB crossing altogether.
+None of the three listed effects is excluded from the governed Adverse Effects slide, so no single option alone is the complete governed answer.
+Nephrotoxicity is explicitly listed; neurotoxicity and hypokalemia are not named on this slide either, but only increased appetite is offered here as the printed key's NOT-a-side-effect answer.
 
 ## callout_evidence
 ### Cefazolin is a first-generation cephalosporin.
@@ -1875,11 +1945,45 @@ Claims: CLM-INF-MUST-FHB1022-PHARM2-Q6-01
 Citations: CIT-INF-MUST-FHB1022-PHARM2-Q6-01
 Reviewed by: pending medical review
 
+### First-generation cephalosporins retain a spectrum weighted toward Gram-positive cocci and bacilli, with only some Gram-negative activity.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+Reviewed by: pending medical review
+
+### Cefoperazone is excreted mainly in bile in addition to the renal route shared by other cephalosporins, giving it a biliary escape from the class nephrotoxicity risk.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+Reviewed by: pending medical review
+
+### Cefotaxime is one of the four named third-generation cephalosporins, with activity against resistant Gram-negative organisms including Pseudomonas and the ability to cross the blood-brain barrier.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+Reviewed by: pending medical review
+
+### Cefotaxime is a third-generation cephalosporin, and the governed teaching states that third-generation agents can cross the BBB except cefoperazone, so cefotaxime is among those able to cross into the CNS.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+Reviewed by: pending medical review
+
+### Cephalosporins carry hypersensitivity with penicillin cross-allergy, nephrotoxicity especially combined with aminoglycosides, and a disulfiram-like alcohol-intolerance reaction, so all three listed effects are genuine governed adverse effects.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+Reviewed by: pending medical review
+
+### The governed cephalosporin adverse-effects list covers hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, a disulfiram-like reaction and cross-resistance with penicillins; increased appetite does not appear among them.
+Claims: CLM-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+Citations: CIT-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-FB70E1C8BC4339
 CON-INF-9A9E7DD547B182
 CON-INF-7B464634F09F46
 CON-INF-71B43C95050406
+CON-INF-139E187B0495F7
+CON-INF-698A578CAADCD2
+CON-INF-E5BFBA5C2B87F3
+CON-INF-30D5C43BEE183B
 
 ## related_articles
 ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM: Carbapenems and monobactams
@@ -1890,28 +1994,49 @@ QST-MUST-FHB1022-PHARM2-Q1
 QST-MUST-FHB1022-PHARM2-Q3
 QST-MUST-FHB1022-PHARM2-Q5
 QST-MUST-FHB1022-PHARM2-Q6
+QST-MUST-FHB1022-ANTIBACT1-Q21
+QST-MUST-FHB1022-ANTIBACT1-Q22
+QST-MUST-FHB1022-ANTIBACT1-Q23
+QST-MUST-FHB1022-ANTIBACT1-Q24
+QST-MUST-FHB1022-ANTIBACT1-Q25
+QST-MUST-FHB1022-ANTIBACT1-Q28
 
 ## resource_ids
 src_060e284322ddf8fdf92c
+src_875c205531a585cd5b91
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## article_source_ids
 src_060e284322ddf8fdf92c
+src_875c205531a585cd5b91
 
 ## claim_ids
 CLM-INF-MUST-FHB1022-PHARM2-Q1-01
 CLM-INF-MUST-FHB1022-PHARM2-Q3-01
 CLM-INF-MUST-FHB1022-PHARM2-Q5-01
 CLM-INF-MUST-FHB1022-PHARM2-Q6-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q28-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-PHARM2-Q1-01
 SPN-INF-MUST-FHB1022-PHARM2-Q3-01
 SPN-INF-MUST-FHB1022-PHARM2-Q5-01
 SPN-INF-MUST-FHB1022-PHARM2-Q6-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q28-01
 
 ## university_notes
-must: Global Q1, Q3, Q5, Q6 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+must: Global Q1, Q3, Q5, Q6, Q21, Q22, Q23, Q24, Q25, Q28 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
 ### definition_of · CON-INF-FB70E1C8BC4339
@@ -1934,6 +2059,36 @@ Quote: The official fifth-generation slide explicitly lists ceftaroline with MRS
 Block: body
 Id: ann-must-fhb1022-micro-q6
 
+### definition_of · CON-INF-139E187B0495F7
+Quote: The official 1st Generation slide (cefalexin, cefradine, cefazolin) states the spectrum as Gram-positive cocci (streptococci, staphylococci) plus some Gram-negative organisms (E. coli, Klebsiella).
+Block: body
+Id: ann-must-fhb1022-micro-q21
+
+### definition_of · CON-INF-698A578CAADCD2
+Quote: The official Pharmacokinetics slide states elimination is mainly renal for the class, but cefoperazone and ceftriaxone are excreted mainly in bile; the Adverse Effects slide lists nephrotoxicity, especially with aminoglycosides, as a class effect.
+Block: body
+Id: ann-must-fhb1022-micro-q22
+
+### definition_of · CON-INF-E5BFBA5C2B87F3
+Quote: The official 3rd Generation slide lists cefoperazone, cefotaxime, ceftriaxone and ceftazidime by name, states activity against resistant Gram-negative organisms such as Pseudomonas, and that most agents can cross the BBB for use in meningitis.
+Block: body
+Id: ann-must-fhb1022-micro-q23
+
+### definition_of · CON-INF-E5BFBA5C2B87F3
+Quote: The official Pharmacokinetics slide states that 1st- and 2nd-generation members cannot cross the BBB, while 3rd-generation agents (except cefoperazone) can cross, which is useful in meningitis; cefotaxime is named among the 3rd-generation agents on the preceding slide.
+Block: body
+Id: ann-must-fhb1022-micro-q24
+
+### definition_of · CON-INF-30D5C43BEE183B
+Quote: The official Adverse Effects slide lists hypersensitivity with avoidance in serious penicillin allergy (cross-allergy), nephrotoxicity especially with aminoglycosides, and disulfiram-like reaction (alcohol intolerance) among the numbered cephalosporin adverse effects.
+Block: body
+Id: ann-must-fhb1022-micro-q25
+
+### definition_of · CON-INF-30D5C43BEE183B
+Quote: The official Adverse Effects slide enumerates six numbered cephalosporin adverse effects (hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, disulfiram-like reaction, cross-resistance with penicillins); increased appetite is not one of the six.
+Block: body
+Id: ann-must-fhb1022-micro-q28
+
 ## media
 
 
@@ -1942,6 +2097,7 @@ needs_evidence
 
 ## evidence_basis
 Official MUST FHB102-2 Cell Wall and Cell Membrane Inhibitors deck, visually read on exact cited pages.
+Official MUST FHB102-2 B-Lactam & Vancomycin deck, visually read on exact cited pages.
 Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
 
 ## evidence_gaps

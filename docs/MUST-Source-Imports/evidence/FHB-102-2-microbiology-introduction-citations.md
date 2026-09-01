@@ -3757,3 +3757,363 @@ The official MUST teaching deck directly supports the unchanged printed Pharmaco
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official B-Lactam & Vancomycin deck Therapeutic Uses slide lists acute throat infections (tonsillitis) under streptococcal infections and meningococcal meningitis treated with penicillin G or ampicillin IV; the separate Prophylaxis slide lists benzathine penicillin for recurrence of rheumatic fever.
+
+## locator_type
+page
+
+## locator_page
+21-22
+
+## locator_section
+B-Lactam & Vancomycin — Penicillin therapeutic uses
+
+## locator_detail
+PDF page 21-22, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q19 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Adverse Effects slide lists hypersensitivity up to anaphylaxis as the most important adverse effect; the separate Therapeutic Uses slide lists meningococcal meningitis (penicillin G or ampicillin), syphilis and gonorrhea, and typhoid and paratyphoid fever (amoxicillin and ampicillin) as indications.
+
+## locator_type
+page
+
+## locator_page
+21, 23
+
+## locator_section
+B-Lactam & Vancomycin — Penicillin therapeutic uses
+
+## locator_detail
+PDF page 21, 23, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q46 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official 1st Generation slide (cefalexin, cefradine, cefazolin) states the spectrum as Gram-positive cocci (streptococci, staphylococci) plus some Gram-negative organisms (E. coli, Klebsiella).
+
+## locator_type
+page
+
+## locator_page
+25
+
+## locator_section
+B-Lactam & Vancomycin — First-generation cephalosporin spectrum
+
+## locator_detail
+PDF page 25, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q21 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Pharmacokinetics slide states elimination is mainly renal for the class, but cefoperazone and ceftriaxone are excreted mainly in bile; the Adverse Effects slide lists nephrotoxicity, especially with aminoglycosides, as a class effect.
+
+## locator_type
+page
+
+## locator_page
+31-32
+
+## locator_section
+B-Lactam & Vancomycin — Cefoperazone excretion route
+
+## locator_detail
+PDF page 31-32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q22 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official 3rd Generation slide lists cefoperazone, cefotaxime, ceftriaxone and ceftazidime by name, states activity against resistant Gram-negative organisms such as Pseudomonas, and that most agents can cross the BBB for use in meningitis.
+
+## locator_type
+page
+
+## locator_page
+28
+
+## locator_section
+B-Lactam & Vancomycin — Third-generation cephalosporins
+
+## locator_detail
+PDF page 28, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q23 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Pharmacokinetics slide states that 1st- and 2nd-generation members cannot cross the BBB, while 3rd-generation agents (except cefoperazone) can cross, which is useful in meningitis; cefotaxime is named among the 3rd-generation agents on the preceding slide.
+
+## locator_type
+page
+
+## locator_page
+28, 31
+
+## locator_section
+B-Lactam & Vancomycin — Third-generation cephalosporins
+
+## locator_detail
+PDF page 28, 31, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q24 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Adverse Effects slide lists hypersensitivity with avoidance in serious penicillin allergy (cross-allergy), nephrotoxicity especially with aminoglycosides, and disulfiram-like reaction (alcohol intolerance) among the numbered cephalosporin adverse effects.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+B-Lactam & Vancomycin — Cephalosporin adverse effects
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q25 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Adverse Effects slide enumerates six numbered cephalosporin adverse effects (hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, disulfiram-like reaction, cross-resistance with penicillins); increased appetite is not one of the six.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+B-Lactam & Vancomycin — Cephalosporin adverse effects
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q28 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+
+## resource_id
+src_875c205531a585cd5b91
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official Adverse Effects slide lists hypersensitivity (rashes up to anaphylaxis) and diarrhea from disruption of normal flora, particularly with broad-spectrum incompletely absorbed drugs such as ampicillin, as penicillin adverse effects; the separate Therapeutic Uses slide lists typhoid and paratyphoid fever, treated with amoxicillin and ampicillin, as an indication rather than an adverse effect.
+
+## locator_type
+page
+
+## locator_page
+21, 23
+
+## locator_section
+B-Lactam & Vancomycin — Penicillin adverse effects
+
+## locator_detail
+PDF page 21, 23, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (1) MCQ Q47 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

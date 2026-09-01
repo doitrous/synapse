@@ -12775,3 +12775,1099 @@ rejectedMergeCandidateIds: concept_2f8f468f2f638b724ef53978 — exact raw extrac
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-5170E13153A92B
+
+## label
+Penicillins treat tonsillitis, are used for rheumatic-fever prophylaxis and for meningitis
+
+## canonical_key
+pharmacology.penicillins.therapeutic-uses-overview
+
+## aliases
+Penicillin therapeutic uses
+Penicillin indications overview
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication. Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching.
+
+## explicit_objective
+Recognise tonsillitis, rheumatic-fever prophylaxis and meningitis as genuine penicillin indications supporting the all-of-the-above key. Distinguish anaphylactic shock as an adverse effect rather than a therapeutic use, among otherwise-genuine penicillin indications.
+
+## pitfalls
+None of the three listed uses is excluded from the governed therapeutic-uses and prophylaxis slides, so no single option alone is the complete governed answer. Meningitis, gonorrhea and typhoid are not distractors here: the governed Therapeutic Uses slide lists all three; only anaphylactic shock belongs to the separate Adverse Effects slide.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Penicillin therapeutic uses
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin therapeutic uses
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p31 Mucize Antibacterial (1) MCQ Q19; printed answer p36
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p35 Mucize Antibacterial (1) MCQ Q46; printed answer p36
+src_875c205531a585cd5b91 | tier 1 local teaching | p21-22 direct MUST teaching
+src_875c205531a585cd5b91 | tier 1 local teaching | p21, 23 direct MUST teaching
+
+## original_wording
+Penicillins are used in the treatment of: Printed key D; options retained in their original order.
+Which of the following is a use of penicillins except? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q19; printed D agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (1) MCQ Q46; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-139E187B0495F7
+
+## label
+First-generation cephalosporins are mainly effective against Gram-positive bacteria
+
+## canonical_key
+pharmacology.cephalosporins.first-generation-gram-positive-spectrum
+
+## aliases
+First-generation cephalosporin spectrum
+Cefazolin-class Gram-positive activity
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+First-generation cephalosporins retain a spectrum weighted toward Gram-positive cocci and bacilli, with only some Gram-negative activity.
+
+## explicit_objective
+Identify first-generation cephalosporins as the group mainly effective against Gram-positive bacteria.
+
+## pitfalls
+The deck's 2nd-generation slide states extended Gram-negative and reduced Gram-positive activity relative to 1st generation, and the 3rd/4th-generation slides emphasise resistant Gram-negative coverage, so the Gram-positive weighting belongs to the first generation.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+First-generation cephalosporin spectrum
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > First-generation cephalosporin spectrum
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p31 Mucize Antibacterial (1) MCQ Q21; printed answer p36
+src_875c205531a585cd5b91 | tier 1 local teaching | p25 direct MUST teaching
+
+## original_wording
+Which generation of cephalosporins is mainly effective against G+ve bacteria? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q21; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-698A578CAADCD2
+
+## label
+Cefoperazone's biliary excretion route lowers its nephrotoxicity risk
+
+## canonical_key
+pharmacology.cephalosporins.cefoperazone-biliary-excretion
+
+## aliases
+Cefoperazone dual excretion
+Cefoperazone biliary elimination
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cefoperazone is excreted mainly in bile in addition to the renal route shared by other cephalosporins, giving it a biliary escape from the class nephrotoxicity risk.
+
+## explicit_objective
+Identify cefoperazone's biliary excretion route as the basis for its reduced nephrotoxicity risk relative to the renally-eliminated class.
+
+## pitfalls
+The governed deck assigns dual biliary/renal excretion only to cefoperazone and ceftriaxone among cephalosporins; the class-wide slide otherwise lists nephrotoxicity as a shared risk.
+
+## concept_type
+pharmacokinetics
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Cefoperazone excretion route
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cefoperazone excretion route
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p32 Mucize Antibacterial (1) MCQ Q22; printed answer p36
+src_875c205531a585cd5b91 | tier 1 local teaching | p31-32 direct MUST teaching
+
+## original_wording
+Which cephalosporin is NOT nephrotoxic due to dual excretion routes? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q22; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-E5BFBA5C2B87F3
+
+## label
+Cefotaxime is a third-generation cephalosporin that crosses the blood-brain barrier
+
+## canonical_key
+pharmacology.cephalosporins.third-generation-cefotaxime-profile
+
+## aliases
+Cefotaxime generation and BBB crossing
+Third-generation cefotaxime profile
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cefotaxime is one of the four named third-generation cephalosporins, with activity against resistant Gram-negative organisms including Pseudomonas and the ability to cross the blood-brain barrier. Cefotaxime is a third-generation cephalosporin, and the governed teaching states that third-generation agents can cross the BBB except cefoperazone, so cefotaxime is among those able to cross into the CNS.
+
+## explicit_objective
+Classify cefotaxime as a third-generation cephalosporin. Identify cefotaxime as a third-generation cephalosporin able to cross the BBB, unlike the excluded cefoperazone.
+
+## pitfalls
+Cefoxitin is a second-generation cephamycin, and cefaclor and cefamandole are second-generation agents in the governed deck, not third-generation. Cefoperazone is the named third-generation exception that cannot cross the BBB; cefuroxime and cefoxitin belong to the second generation, which the deck excludes from BBB crossing altogether.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Third-generation cephalosporins
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Third-generation cephalosporins
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p32 Mucize Antibacterial (1) MCQ Q23; printed answer p36
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p32 Mucize Antibacterial (1) MCQ Q24; printed answer p36
+src_875c205531a585cd5b91 | tier 1 local teaching | p28 direct MUST teaching
+src_875c205531a585cd5b91 | tier 1 local teaching | p28, 31 direct MUST teaching
+
+## original_wording
+Which of the following is a 3rd generation cephalosporin? Printed key A; options retained in their original order.
+Which cephalosporin can pass the blood-brain barrier (BBB)? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q23; printed A agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (1) MCQ Q24; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-30D5C43BEE183B
+
+## label
+Cephalosporin adverse effects include penicillin cross-allergy, nephrotoxicity and a disulfiram-like reaction
+
+## canonical_key
+pharmacology.cephalosporins.adverse-effects-overview
+
+## aliases
+Cephalosporin adverse effect profile
+Cephalosporin side effects
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cephalosporins carry hypersensitivity with penicillin cross-allergy, nephrotoxicity especially combined with aminoglycosides, and a disulfiram-like alcohol-intolerance reaction, so all three listed effects are genuine governed adverse effects. The governed cephalosporin adverse-effects list covers hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, a disulfiram-like reaction and cross-resistance with penicillins; increased appetite does not appear among them.
+
+## explicit_objective
+Recognise allergy/cross-allergy, nephrotoxicity and the disulfiram-like reaction as governed cephalosporin adverse effects supporting the all-of-the-above key. Identify increased appetite as the distractor that is not a governed cephalosporin adverse effect.
+
+## pitfalls
+None of the three listed effects is excluded from the governed Adverse Effects slide, so no single option alone is the complete governed answer. Nephrotoxicity is explicitly listed; neurotoxicity and hypokalemia are not named on this slide either, but only increased appetite is offered here as the printed key's NOT-a-side-effect answer.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Cephalosporin adverse effects
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cephalosporin adverse effects
+
+## article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p32 Mucize Antibacterial (1) MCQ Q25; printed answer p36
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p32 Mucize Antibacterial (1) MCQ Q28; printed answer p36
+src_875c205531a585cd5b91 | tier 1 local teaching | p32 direct MUST teaching
+src_875c205531a585cd5b91 | tier 1 local teaching | p32 direct MUST teaching
+
+## original_wording
+Which of the following is a common adverse effect of cephalosporins? Printed key D; options retained in their original order.
+Which of the following is NOT a side effect of cephalosporins? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q25; printed D agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (1) MCQ Q28; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-AB5DEDED904BE8
+
+## label
+Penicillin adverse effects include allergy and G.I.T. upset, distinct from its therapeutic uses
+
+## canonical_key
+pharmacology.penicillins.adverse-effects-overview
+
+## aliases
+Penicillin adverse effect profile
+Penicillin side effects versus uses
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect.
+
+## explicit_objective
+Distinguish typhoid, a genuine penicillin indication, from allergy and G.I.T. upset, which are genuine penicillin adverse effects.
+
+## pitfalls
+Typhoid is not merely absent from the adverse-effects list: the governed Therapeutic Uses slide explicitly lists it as a treated indication, reinforcing that it belongs with the uses rather than the side effects of penicillin.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Penicillin adverse effects
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin adverse effects
+
+## article_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_875c205531a585cd5b91
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p35 Mucize Antibacterial (1) MCQ Q47; printed answer p36
+src_875c205531a585cd5b91 | tier 1 local teaching | p21, 23 direct MUST teaching
+
+## original_wording
+Which of the following is a side effect of penicillins except? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (1) MCQ Q47; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

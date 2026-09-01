@@ -14285,3 +14285,1371 @@ yes
 
 ## author_notes
 Printed source key: Pharmacology Q30 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q19
+
+## title
+Penicillins are used in the treatment of:
+
+## question
+Penicillins are used in the treatment of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Tonsillitis
+
+## explanation_a
+Incorrect. None of the three listed uses is excluded from the governed therapeutic-uses and prophylaxis slides, so no single option alone is the complete governed answer. The supported answer is D, All of the above.
+
+## answer_b
+Rheumatic fever prophylaxis
+
+## explanation_b
+Incorrect. None of the three listed uses is excluded from the governed therapeutic-uses and prophylaxis slides, so no single option alone is the complete governed answer. The supported answer is D, All of the above.
+
+## answer_c
+Meningitis
+
+## explanation_c
+Incorrect. None of the three listed uses is excluded from the governed therapeutic-uses and prophylaxis slides, so no single option alone is the complete governed answer. The supported answer is D, All of the above.
+
+## answer_d
+All of the above
+
+## explanation_d
+Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication. The official MUST teaching directly supports All of the above for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-5170E13153A92B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin therapeutic uses
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Recognise tonsillitis, rheumatic-fever prophylaxis and meningitis as genuine penicillin indications supporting the all-of-the-above key.
+
+## source_citation
+Absalam101 Part 2, p31, Mucize Antibacterial (1) MCQ Q19, printed key p36 (19 = D); official MUST B-Lactam & Vancomycin, p21-22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q19 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q46
+
+## title
+Which of the following is a use of penicillins except?
+
+## question
+Which of the following is a use of penicillins except?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Anaphylactic shock
+
+## explanation_a
+Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching. The official MUST teaching directly supports Anaphylactic shock for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Meningitis
+
+## explanation_b
+Incorrect. Meningitis, gonorrhea and typhoid are not distractors here: the governed Therapeutic Uses slide lists all three; only anaphylactic shock belongs to the separate Adverse Effects slide. The supported answer is A, Anaphylactic shock.
+
+## answer_c
+Gonorrhea
+
+## explanation_c
+Incorrect. Meningitis, gonorrhea and typhoid are not distractors here: the governed Therapeutic Uses slide lists all three; only anaphylactic shock belongs to the separate Adverse Effects slide. The supported answer is A, Anaphylactic shock.
+
+## answer_d
+Typhoid
+
+## explanation_d
+Incorrect. Meningitis, gonorrhea and typhoid are not distractors here: the governed Therapeutic Uses slide lists all three; only anaphylactic shock belongs to the separate Adverse Effects slide. The supported answer is A, Anaphylactic shock.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-5170E13153A92B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin therapeutic uses
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Distinguish anaphylactic shock as an adverse effect rather than a therapeutic use, among otherwise-genuine penicillin indications.
+
+## source_citation
+Absalam101 Part 2, p35, Mucize Antibacterial (1) MCQ Q46, printed key p36 (46 = A); official MUST B-Lactam & Vancomycin, p21, 23.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q46 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q21
+
+## title
+Which generation of cephalosporins is mainly effective against G+ve bacteria?
+
+## question
+Which generation of cephalosporins is mainly effective against G+ve bacteria?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+1st generation
+
+## explanation_a
+First-generation cephalosporins retain a spectrum weighted toward Gram-positive cocci and bacilli, with only some Gram-negative activity. The official MUST teaching directly supports 1st generation for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+2nd generation
+
+## explanation_b
+Incorrect. The deck's 2nd-generation slide states extended Gram-negative and reduced Gram-positive activity relative to 1st generation, and the 3rd/4th-generation slides emphasise resistant Gram-negative coverage, so the Gram-positive weighting belongs to the first generation. The supported answer is A, 1st generation.
+
+## answer_c
+3rd generation
+
+## explanation_c
+Incorrect. The deck's 2nd-generation slide states extended Gram-negative and reduced Gram-positive activity relative to 1st generation, and the 3rd/4th-generation slides emphasise resistant Gram-negative coverage, so the Gram-positive weighting belongs to the first generation. The supported answer is A, 1st generation.
+
+## answer_d
+4th generation
+
+## explanation_d
+Incorrect. The deck's 2nd-generation slide states extended Gram-negative and reduced Gram-positive activity relative to 1st generation, and the 3rd/4th-generation slides emphasise resistant Gram-negative coverage, so the Gram-positive weighting belongs to the first generation. The supported answer is A, 1st generation.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-139E187B0495F7
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > First-generation cephalosporin spectrum
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify first-generation cephalosporins as the group mainly effective against Gram-positive bacteria.
+
+## source_citation
+Absalam101 Part 2, p31, Mucize Antibacterial (1) MCQ Q21, printed key p36 (21 = A); official MUST B-Lactam & Vancomycin, p25.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q21 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q22
+
+## title
+Which cephalosporin is NOT nephrotoxic due to dual excretion routes?
+
+## question
+Which cephalosporin is NOT nephrotoxic due to dual excretion routes?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Cefoperazone
+
+## explanation_a
+Cefoperazone is excreted mainly in bile in addition to the renal route shared by other cephalosporins, giving it a biliary escape from the class nephrotoxicity risk. The official MUST teaching directly supports Cefoperazone for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Cefazolin
+
+## explanation_b
+Incorrect. The governed deck assigns dual biliary/renal excretion only to cefoperazone and ceftriaxone among cephalosporins; the class-wide slide otherwise lists nephrotoxicity as a shared risk. The supported answer is A, Cefoperazone.
+
+## answer_c
+Cefradine
+
+## explanation_c
+Incorrect. The governed deck assigns dual biliary/renal excretion only to cefoperazone and ceftriaxone among cephalosporins; the class-wide slide otherwise lists nephrotoxicity as a shared risk. The supported answer is A, Cefoperazone.
+
+## answer_d
+Cefadroxil
+
+## explanation_d
+Incorrect. The governed deck assigns dual biliary/renal excretion only to cefoperazone and ceftriaxone among cephalosporins; the class-wide slide otherwise lists nephrotoxicity as a shared risk. The supported answer is A, Cefoperazone.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-698A578CAADCD2
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cefoperazone excretion route
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify cefoperazone's biliary excretion route as the basis for its reduced nephrotoxicity risk relative to the renally-eliminated class.
+
+## source_citation
+Absalam101 Part 2, p32, Mucize Antibacterial (1) MCQ Q22, printed key p36 (22 = A); official MUST B-Lactam & Vancomycin, p31-32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q22 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q23
+
+## title
+Which of the following is a 3rd generation cephalosporin?
+
+## question
+Which of the following is a 3rd generation cephalosporin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Cefotaxime
+
+## explanation_a
+Cefotaxime is one of the four named third-generation cephalosporins, with activity against resistant Gram-negative organisms including Pseudomonas and the ability to cross the blood-brain barrier. The official MUST teaching directly supports Cefotaxime for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Cefoxitin
+
+## explanation_b
+Incorrect. Cefoxitin is a second-generation cephamycin, and cefaclor and cefamandole are second-generation agents in the governed deck, not third-generation. The supported answer is A, Cefotaxime.
+
+## answer_c
+Cefaclor
+
+## explanation_c
+Incorrect. Cefoxitin is a second-generation cephamycin, and cefaclor and cefamandole are second-generation agents in the governed deck, not third-generation. The supported answer is A, Cefotaxime.
+
+## answer_d
+Cefamandole
+
+## explanation_d
+Incorrect. Cefoxitin is a second-generation cephamycin, and cefaclor and cefamandole are second-generation agents in the governed deck, not third-generation. The supported answer is A, Cefotaxime.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-E5BFBA5C2B87F3
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Third-generation cephalosporins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Classify cefotaxime as a third-generation cephalosporin.
+
+## source_citation
+Absalam101 Part 2, p32, Mucize Antibacterial (1) MCQ Q23, printed key p36 (23 = A); official MUST B-Lactam & Vancomycin, p28.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q23 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q24
+
+## title
+Which cephalosporin can pass the blood-brain barrier (BBB)?
+
+## question
+Which cephalosporin can pass the blood-brain barrier (BBB)?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Cefoperazone
+
+## explanation_a
+Incorrect. Cefoperazone is the named third-generation exception that cannot cross the BBB; cefuroxime and cefoxitin belong to the second generation, which the deck excludes from BBB crossing altogether. The supported answer is B, Cefotaxime.
+
+## answer_b
+Cefotaxime
+
+## explanation_b
+Cefotaxime is a third-generation cephalosporin, and the governed teaching states that third-generation agents can cross the BBB except cefoperazone, so cefotaxime is among those able to cross into the CNS. The official MUST teaching directly supports Cefotaxime for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Cefuroxime
+
+## explanation_c
+Incorrect. Cefoperazone is the named third-generation exception that cannot cross the BBB; cefuroxime and cefoxitin belong to the second generation, which the deck excludes from BBB crossing altogether. The supported answer is B, Cefotaxime.
+
+## answer_d
+Cefoxitin
+
+## explanation_d
+Incorrect. Cefoperazone is the named third-generation exception that cannot cross the BBB; cefuroxime and cefoxitin belong to the second generation, which the deck excludes from BBB crossing altogether. The supported answer is B, Cefotaxime.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-E5BFBA5C2B87F3
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Third-generation cephalosporins
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify cefotaxime as a third-generation cephalosporin able to cross the BBB, unlike the excluded cefoperazone.
+
+## source_citation
+Absalam101 Part 2, p32, Mucize Antibacterial (1) MCQ Q24, printed key p36 (24 = B); official MUST B-Lactam & Vancomycin, p28, 31.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q24 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q25
+
+## title
+Which of the following is a common adverse effect of cephalosporins?
+
+## question
+Which of the following is a common adverse effect of cephalosporins?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Allergy (cross-allergy with penicillin)
+
+## explanation_a
+Incorrect. None of the three listed effects is excluded from the governed Adverse Effects slide, so no single option alone is the complete governed answer. The supported answer is D, All of the above.
+
+## answer_b
+Nephrotoxicity
+
+## explanation_b
+Incorrect. None of the three listed effects is excluded from the governed Adverse Effects slide, so no single option alone is the complete governed answer. The supported answer is D, All of the above.
+
+## answer_c
+Disulfiram-like reaction with alcohol
+
+## explanation_c
+Incorrect. None of the three listed effects is excluded from the governed Adverse Effects slide, so no single option alone is the complete governed answer. The supported answer is D, All of the above.
+
+## answer_d
+All of the above
+
+## explanation_d
+Cephalosporins carry hypersensitivity with penicillin cross-allergy, nephrotoxicity especially combined with aminoglycosides, and a disulfiram-like alcohol-intolerance reaction, so all three listed effects are genuine governed adverse effects. The official MUST teaching directly supports All of the above for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-30D5C43BEE183B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cephalosporin adverse effects
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Recognise allergy/cross-allergy, nephrotoxicity and the disulfiram-like reaction as governed cephalosporin adverse effects supporting the all-of-the-above key.
+
+## source_citation
+Absalam101 Part 2, p32, Mucize Antibacterial (1) MCQ Q25, printed key p36 (25 = D); official MUST B-Lactam & Vancomycin, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q25 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q28
+
+## title
+Which of the following is NOT a side effect of cephalosporins?
+
+## question
+Which of the following is NOT a side effect of cephalosporins?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Nephrotoxicity
+
+## explanation_a
+Incorrect. Nephrotoxicity is explicitly listed; neurotoxicity and hypokalemia are not named on this slide either, but only increased appetite is offered here as the printed key's NOT-a-side-effect answer. The supported answer is D, Increased appetite.
+
+## answer_b
+Neurotoxicity
+
+## explanation_b
+Incorrect. Nephrotoxicity is explicitly listed; neurotoxicity and hypokalemia are not named on this slide either, but only increased appetite is offered here as the printed key's NOT-a-side-effect answer. The supported answer is D, Increased appetite.
+
+## answer_c
+Hypokalemia
+
+## explanation_c
+Incorrect. Nephrotoxicity is explicitly listed; neurotoxicity and hypokalemia are not named on this slide either, but only increased appetite is offered here as the printed key's NOT-a-side-effect answer. The supported answer is D, Increased appetite.
+
+## answer_d
+Increased appetite
+
+## explanation_d
+The governed cephalosporin adverse-effects list covers hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, a disulfiram-like reaction and cross-resistance with penicillins; increased appetite does not appear among them. The official MUST teaching directly supports Increased appetite for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-30D5C43BEE183B
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Cephalosporin adverse effects
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Identify increased appetite as the distractor that is not a governed cephalosporin adverse effect.
+
+## source_citation
+Absalam101 Part 2, p32, Mucize Antibacterial (1) MCQ Q28, printed key p36 (28 = D); official MUST B-Lactam & Vancomycin, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q28 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT1-Q47
+
+## title
+Which of the following is a side effect of penicillins except?
+
+## question
+Which of the following is a side effect of penicillins except?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_875c205531a585cd5b91 without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Allergy
+
+## explanation_a
+Incorrect. Typhoid is not merely absent from the adverse-effects list: the governed Therapeutic Uses slide explicitly lists it as a treated indication, reinforcing that it belongs with the uses rather than the side effects of penicillin. The supported answer is D, Typhoid.
+
+## answer_b
+Resistance
+
+## explanation_b
+Incorrect. Typhoid is not merely absent from the adverse-effects list: the governed Therapeutic Uses slide explicitly lists it as a treated indication, reinforcing that it belongs with the uses rather than the side effects of penicillin. The supported answer is D, Typhoid.
+
+## answer_c
+G.I.T upset
+
+## explanation_c
+Incorrect. Typhoid is not merely absent from the adverse-effects list: the governed Therapeutic Uses slide explicitly lists it as a treated indication, reinforcing that it belongs with the uses rather than the side effects of penicillin. The supported answer is D, Typhoid.
+
+## answer_d
+Typhoid
+
+## explanation_d
+Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect. The official MUST teaching directly supports Typhoid for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-AB5DEDED904BE8
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Penicillin adverse effects
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_875c205531a585cd5b91
+
+## learning_objective
+Distinguish typhoid, a genuine penicillin indication, from allergy and G.I.T. upset, which are genuine penicillin adverse effects.
+
+## source_citation
+Absalam101 Part 2, p35, Mucize Antibacterial (1) MCQ Q47, printed key p36 (47 = D); official MUST B-Lactam & Vancomycin, p21, 23.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (1) MCQ Q47 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

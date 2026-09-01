@@ -2065,3 +2065,201 @@ CLM-INF-MUST-FHB1022-PHARM2-Q30-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-PHARM2-Q30-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+First-generation cephalosporins retain a spectrum weighted toward Gram-positive cocci and bacilli, with only some Gram-negative activity.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Cefoperazone is excreted mainly in bile in addition to the renal route shared by other cephalosporins, giving it a biliary escape from the class nephrotoxicity risk.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Cefotaxime is one of the four named third-generation cephalosporins, with activity against resistant Gram-negative organisms including Pseudomonas and the ability to cross the blood-brain barrier.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Cefotaxime is a third-generation cephalosporin, and the governed teaching states that third-generation agents can cross the BBB except cefoperazone, so cefotaxime is among those able to cross into the CNS.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+Cephalosporins carry hypersensitivity with penicillin cross-allergy, nephrotoxicity especially combined with aminoglycosides, and a disulfiram-like alcohol-intolerance reaction, so all three listed effects are genuine governed adverse effects.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+
+## article_id
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+
+## section_id
+art-inf-must-fhb1022-cephalosporin-generations-definition
+
+## text
+The governed cephalosporin adverse-effects list covers hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, a disulfiram-like reaction and cross-resistance with penicillins; increased appetite does not appear among them.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+
+## article_id
+ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY
+
+## section_id
+art-inf-must-fhb1022-penicillin-classes-use-safety-definition
+
+## text
+Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT1-Q47-01

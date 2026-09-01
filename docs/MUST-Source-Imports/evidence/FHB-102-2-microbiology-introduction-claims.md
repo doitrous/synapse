@@ -4133,3 +4133,399 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
 source question: Absalam Pharmacology Q30
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q19-01
+
+## concept_id
+CON-INF-5170E13153A92B
+
+## subject
+Penicillins treat tonsillitis, are used for rheumatic-fever prophylaxis and for meningitis
+
+## predicate
+states
+
+## object
+Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication.
+
+## display_text
+Penicillins treat streptococcal throat infections (tonsillitis), are used for rheumatic-fever prophylaxis with benzathine penicillin, and treat meningococcal meningitis, so the printed all-of-the-above key reflects a genuine set of listed uses rather than a single indication.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q46-01
+
+## concept_id
+CON-INF-5170E13153A92B
+
+## subject
+Penicillins treat tonsillitis, are used for rheumatic-fever prophylaxis and for meningitis
+
+## predicate
+states
+
+## object
+Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching.
+
+## display_text
+Anaphylactic shock is an adverse hypersensitivity reaction to penicillin, not a therapeutic indication, while meningitis, gonorrhea and typhoid are each listed penicillin or aminopenicillin uses in the governed teaching.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q46
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q21-01
+
+## concept_id
+CON-INF-139E187B0495F7
+
+## subject
+First-generation cephalosporins are mainly effective against Gram-positive bacteria
+
+## predicate
+states
+
+## object
+First-generation cephalosporins retain a spectrum weighted toward Gram-positive cocci and bacilli, with only some Gram-negative activity.
+
+## display_text
+First-generation cephalosporins retain a spectrum weighted toward Gram-positive cocci and bacilli, with only some Gram-negative activity.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q21
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q22-01
+
+## concept_id
+CON-INF-698A578CAADCD2
+
+## subject
+Cefoperazone's biliary excretion route lowers its nephrotoxicity risk
+
+## predicate
+states
+
+## object
+Cefoperazone is excreted mainly in bile in addition to the renal route shared by other cephalosporins, giving it a biliary escape from the class nephrotoxicity risk.
+
+## display_text
+Cefoperazone is excreted mainly in bile in addition to the renal route shared by other cephalosporins, giving it a biliary escape from the class nephrotoxicity risk.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q22
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q23-01
+
+## concept_id
+CON-INF-E5BFBA5C2B87F3
+
+## subject
+Cefotaxime is a third-generation cephalosporin that crosses the blood-brain barrier
+
+## predicate
+states
+
+## object
+Cefotaxime is one of the four named third-generation cephalosporins, with activity against resistant Gram-negative organisms including Pseudomonas and the ability to cross the blood-brain barrier.
+
+## display_text
+Cefotaxime is one of the four named third-generation cephalosporins, with activity against resistant Gram-negative organisms including Pseudomonas and the ability to cross the blood-brain barrier.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q23
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q24-01
+
+## concept_id
+CON-INF-E5BFBA5C2B87F3
+
+## subject
+Cefotaxime is a third-generation cephalosporin that crosses the blood-brain barrier
+
+## predicate
+states
+
+## object
+Cefotaxime is a third-generation cephalosporin, and the governed teaching states that third-generation agents can cross the BBB except cefoperazone, so cefotaxime is among those able to cross into the CNS.
+
+## display_text
+Cefotaxime is a third-generation cephalosporin, and the governed teaching states that third-generation agents can cross the BBB except cefoperazone, so cefotaxime is among those able to cross into the CNS.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q24
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q25-01
+
+## concept_id
+CON-INF-30D5C43BEE183B
+
+## subject
+Cephalosporin adverse effects include penicillin cross-allergy, nephrotoxicity and a disulfiram-like reaction
+
+## predicate
+states
+
+## object
+Cephalosporins carry hypersensitivity with penicillin cross-allergy, nephrotoxicity especially combined with aminoglycosides, and a disulfiram-like alcohol-intolerance reaction, so all three listed effects are genuine governed adverse effects.
+
+## display_text
+Cephalosporins carry hypersensitivity with penicillin cross-allergy, nephrotoxicity especially combined with aminoglycosides, and a disulfiram-like alcohol-intolerance reaction, so all three listed effects are genuine governed adverse effects.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q25
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q28-01
+
+## concept_id
+CON-INF-30D5C43BEE183B
+
+## subject
+Cephalosporin adverse effects include penicillin cross-allergy, nephrotoxicity and a disulfiram-like reaction
+
+## predicate
+states
+
+## object
+The governed cephalosporin adverse-effects list covers hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, a disulfiram-like reaction and cross-resistance with penicillins; increased appetite does not appear among them.
+
+## display_text
+The governed cephalosporin adverse-effects list covers hypersensitivity, nephrotoxicity, local irritation, hypoprothrombinemia and bleeding, a disulfiram-like reaction and cross-resistance with penicillins; increased appetite does not appear among them.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q28
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT1-Q47-01
+
+## concept_id
+CON-INF-AB5DEDED904BE8
+
+## subject
+Penicillin adverse effects include allergy and G.I.T. upset, distinct from its therapeutic uses
+
+## predicate
+states
+
+## object
+Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect.
+
+## display_text
+Allergy and G.I.T. upset are governed penicillin adverse effects, and typhoid fever is instead a listed penicillin/aminopenicillin therapeutic indication, not a side effect.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
+source question: Absalam Mucize Antibacterial (1) MCQ Q47
