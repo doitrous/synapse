@@ -140,6 +140,9 @@ yes
 ## author_notes
 Original paper option order preserved (a=correct here); options b-d are distinct physiological processes a student might substitute for vitamin K's actual synthesis role.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -273,6 +276,9 @@ yes
 
 ## author_notes
 Distractors are the other three of the five immunoglobulin classes, each picking a student who knows the classes exist but not which is functionally tied to hypersensitivity.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -409,6 +415,9 @@ yes
 
 ## author_notes
 Distractors a-c are the three classic nutrient-deficiency anaemias, each a plausible substitute if a student has not separated "marrow deficient in a nutrient" from "marrow missing its hormonal signal".
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -547,6 +556,9 @@ yes
 ## author_notes
 The correct concept (CON-HEM-C8B9CD41563B5B, live, sparse-updated in this batch) already states viscosity/pressure; CON-HEM-5F0CEC52166316 (this batch's own polycythaemia concept) is the mechanism producing it, tagged as concept_ids since the question genuinely tests both the viscosity fact and its polycythaemic driver.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -682,6 +694,9 @@ no
 ## author_notes
 Triage flagged this printed key as physiologically counter-intuitive (leukocytopenia over secondary polycythaemia as a transfusion indication). Per the manual's rule against inventing or "fixing" an answer, the printed key is kept and the tension is stated in the explanation rather than resolved. `randomise_answers: no` because the explanation text refers to option identity directly; difficulty raised to Hard and inferred_difficulty lowered to reflect that even a well-prepared student may reasonably disagree with the keyed answer.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -816,6 +831,9 @@ yes
 
 ## author_notes
 The source paper prints options a-c only for this item (no option d); a fourth distractor (d) was added to meet the importer's 4-option minimum, clearly labelled as an addition and explained as wrong rather than presented as part of the original paper.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -953,6 +971,9 @@ yes
 ## author_notes
 CON-HEM-99E8611BE4DED9 (prostacyclin, this batch's own concept) is the sibling natural-anticoagulant mechanism the same "what keeps blood fluid" question family draws on, tagged as concept_ids.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -1087,6 +1108,9 @@ yes
 
 ## author_notes
 Distractors b-d are all real haematological cell types, each catching a student who is unsure which line responds to red-cell loss specifically.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -1223,6 +1247,9 @@ yes
 ## author_notes
 Distractor c is the most tempting wrong answer, since O-negative status makes anti-D salient — the explanation addresses it directly by noting anti-D is acquired, not automatic.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -1357,6 +1384,9 @@ no
 
 ## author_notes
 Triage flagged this printed key as physiologically inconsistent (altitude classically drives polycythaemia; the stated Hb/Hct read as mildly anaemic rather than sickled). Kept as printed, per the manual's rule against inventing or reconciling an answer silently. `randomise_answers: no` since explanation text refers to option identity; difficulty raised to Challenging and inferred_difficulty lowered to reflect that a strong student may reasonably question the keyed answer.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -1493,6 +1523,9 @@ yes
 ## author_notes
 Distractors c and d are both real endothelium-associated mediators, each catching a student who has not separated pro-thrombotic (thromboxane A2, endothelin-1) from anti-thrombotic (prostacyclin) endothelial signals.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -1627,6 +1660,9 @@ yes
 
 ## author_notes
 The source paper prints three options for this item; a fourth distractor (d, IgE) was added to meet the importer's 4-option minimum, clearly labelled as an addition.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -1771,6 +1807,9 @@ no
 ## author_notes
 Diagram question kept as a diagram question with a media request, per 05-questions.md, rather than rewritten into a prose stem. `randomise_answers: no` since the explanation cannot independently verify option content without the image.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -1905,6 +1944,9 @@ yes
 
 ## author_notes
 Distractors b and d both name real intrinsic-pathway triggers, catching a student who has not separated which pathway each activator belongs to; distractor a is a regulator, not a trigger.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -2041,6 +2083,9 @@ yes
 ## author_notes
 Distractor c is the trap: vitamin K is real, coagulation-relevant vocabulary, but reverses rather than continues anticoagulation.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -2176,6 +2221,9 @@ yes
 ## author_notes
 Distractors a-c are the three chronic-anaemia patterns, each a plausible substitute if a student conflates "anaemia after bleeding" with "anaemia from a nutrient/chronic-loss mechanism".
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -2310,6 +2358,9 @@ yes
 
 ## author_notes
 Distractors c and d each name a real blood disorder treated by a different blood product (platelets, venesection), catching a student who has not matched product to indication precisely.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -2448,6 +2499,9 @@ yes
 ## author_notes
 Original paper prints these as two linked one-word-answer questions (Q37, Q38) sharing one clinical stem; combined here into one two-part best-answer item since both parts test the same vignette and no faculty-set written format exists for them, per 05-questions.md's guidance that an MCQ derivation is free as long as the source items are both captured (both original stems are preserved in the question text).
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -2583,6 +2637,9 @@ yes
 ## author_notes
 Distractors b-d are all real coagulation-related molecules but each opposes or breaks down clotting rather than being required for it, catching a student who recognises the vocabulary without recalling its actual role.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -2717,6 +2774,9 @@ yes
 
 ## author_notes
 Distractors a and d each describe the sixth-bond state, catching a student who has not separated the fifth (fixed, structural) from the sixth (variable, functional) coordination bond.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -2855,6 +2915,9 @@ yes
 ## author_notes
 Distractors b-d are each a real cause of anaemia by a different mechanism (production failure, ineffective erythropoiesis, synthesis defect), none of them haemolytic.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -2991,6 +3054,9 @@ no
 ## author_notes
 Triage flagged this printed key as physiologically inconsistent (a stated low EPO with chronic hypoxic lung disease keyed as secondary, hormone-driven polycythaemia). Kept as printed; `randomise_answers: no` since explanation refers to option identity; difficulty raised to Challenging.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -3126,6 +3192,9 @@ yes
 ## author_notes
 Each distractor names a different ABO group, testing whether the student reasons from antibody presence to antigen absence rather than guessing.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -3260,6 +3329,9 @@ yes
 
 ## author_notes
 Options are a deliberate 2x2 (antigen vs antibody; every labour vs one labour only) — the distractors isolate exactly the two mistakes named in this concept's pitfalls.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -3397,6 +3469,9 @@ yes
 ## author_notes
 Distractors are all real platelet-secreted mediators, each with a distinct role (aggregation, adhesion, vasoconstriction) — testing whether the student has separated clot formation from clot retraction specifically.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -3532,6 +3607,9 @@ yes
 ## author_notes
 Distractors a and d both name bleeding time, the test genuinely unaffected by vitamin K status — a deliberate pairing to test whether the student has correctly separated the platelet-dependent and cascade-dependent tests.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -3666,6 +3744,9 @@ yes
 
 ## author_notes
 Distractor a is the direct contrast case (acute vs chronic loss), testing exactly the timing distinction this concept turns on.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -3804,6 +3885,9 @@ yes
 ## author_notes
 Distractor c directly inverts the correct mechanism, catching a student who remembers "heparin, antithrombin III" as related terms without recalling the direction of the interaction.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -3939,6 +4023,9 @@ yes
 ## author_notes
 Distractors b and d are earlier erythroid precursor stages, catching a student who knows erythropoiesis has stages but not which one is the recognised peripheral-blood marker.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -4073,6 +4160,9 @@ yes
 
 ## author_notes
 Distractors a, b and d each test a different specific confusion (direction of coagulation-time change, bleeding time vs coagulation time, intrinsic vs extrinsic pathway).
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -4210,6 +4300,9 @@ yes
 ## author_notes
 Distractor d names a real clotting factor but one not affected by warfarin (factor VIII is not vitamin K-dependent), testing whether the student knows warfarin's specific target factors.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -4345,6 +4438,9 @@ yes
 
 ## author_notes
 Distractors are each a genuine, distinct step of the innate-immune response to infection (engulfment, migration, chemical attraction), testing whether the student can place opsonisation specifically among them.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -4483,6 +4579,9 @@ yes
 ## author_notes
 Distractors a, b and d are all conditions that lower red-cell mass and so lower (not raise) viscosity, testing whether the student can spot the one option (dehydration) that concentrates rather than dilutes or depletes the cell mass.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -4617,6 +4716,9 @@ yes
 
 ## author_notes
 Distractor a is the deliberate contrast case: chronic renal disease impairs the erythropoietin-producing organ itself, testing whether the student separates "a disease of the kidney" from "a disease that starves the kidney of oxygen".
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -4753,6 +4855,9 @@ yes
 ## author_notes
 Distractor b is the direct primary-vs-secondary contrast; c and d each restate a finding/consequence rather than a cause, testing whether the student can separate cause from effect.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -4887,6 +4992,9 @@ yes
 
 ## author_notes
 Pairs with QST-HEM-AU103-EOM2-Q40 (the fifth bond, deoxyhaemoglobin) as the same fact tested from the opposite bond and oxygenation state.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -5023,6 +5131,9 @@ yes
 ## author_notes
 Each distractor removes a slightly different, specific combination of components, testing precise recall of what plasma retains versus serum.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -5157,6 +5268,9 @@ yes
 
 ## author_notes
 Same teaching point as QST-HEM-AU103-EOM2-Q34, from the second paper/stream — kept as a separate record since it is a separate printed question with its own vignette, per the manual's "one question, one record" rule.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -5293,6 +5407,9 @@ yes
 ## author_notes
 All three distractors are genuine secondary-polycythaemia drivers, deliberately clustered to test whether the student can isolate the one primary (marrow-intrinsic) cause among them.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -5427,6 +5544,9 @@ yes
 
 ## author_notes
 The paper's own key (option a, "light and heavy chains") is broader than the article's precise teaching point (heavy chain alone defines class, per the concept's own definition and pitfalls); explanation_c notes the more precise mechanism without contradicting the printed key.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -5563,6 +5683,9 @@ yes
 ## author_notes
 Every distractor mixes in at least one Rh-positive donor, testing whether the student combines ABO logic (AB = universal recipient) with the separate Rh-compatibility requirement rather than applying only one rule.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -5697,6 +5820,9 @@ yes
 
 ## author_notes
 All four options are Rh combinations, systematically covering the 2x2 space so the student must reason from parental genotype to fetal risk rather than pattern-match a keyword.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -5835,6 +5961,9 @@ yes
 ## author_notes
 Distractors name plausible-sounding but unrelated medical complications, testing basic recall of the antigen-antibody mechanism rather than a subtle distinction.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -5971,6 +6100,9 @@ yes
 ## author_notes
 Distractor a is the closest real near-miss (complement fragments can opsonise), addressed directly in its explanation rather than dismissed as simply wrong.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -6106,6 +6238,9 @@ yes
 ## author_notes
 Same teaching point as QST-HEM-AU103-EOM2-Q30, from the second paper/stream; kept as a separate record for the same reason as the Q15 pair above.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -6240,6 +6375,9 @@ yes
 
 ## author_notes
 Distractors a-c are each a real, early cascade step, deliberately clustered to test whether the student knows exactly where calcium enters, not just that it is "needed for clotting" generally.
+
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -6377,6 +6515,9 @@ yes
 ## author_notes
 Same teaching point as QST-HEM-AU103-EOM2-Q37-38, from the second paper/stream; kept as a separate record per the manual's "one question, one record" rule.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -6513,6 +6654,9 @@ yes
 ## author_notes
 Directly follows Q36 in the same paper (DVT after immobility), completing the pairing of cause (stasis) and natural limiting mechanism (heparin/antithrombin III) within one vignette family.
 
+## module_subject
+AU-MED-103 > Physiology
+
 ---
 
 # Item
@@ -6648,6 +6792,8 @@ yes
 ## author_notes
 Distractor d is a plausible-sounding biochemistry term (a real cobalamin component) inserted to catch a student pattern-matching on "ring structure" vocabulary rather than reasoning about haem coordination chemistry specifically.
 
+## module_subject
+AU-MED-103 > Physiology
 
 ---
 
@@ -6783,3 +6929,6 @@ yes
 
 ## author_notes
 Item 54 of the module's own Blood-practical MCQ bank (an MS-Forms results export). Original option order and correct answer (d) preserved, confirmed visually against the rendered page rather than the OCR text layer, since this corpus's export format places incorrect-selection marks unreliably in extracted text (the known extraction trap for this source family). The concept's full causal list (gastrectomy, intrinsic-factor absence, distal small-intestinal disease) is drawn out in the explanation even though the printed stem itself asks only for the single best cause of the CBC picture shown.
+
+## module_subject
+AU-MED-103 > Physiology

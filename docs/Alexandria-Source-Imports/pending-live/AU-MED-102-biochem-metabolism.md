@@ -53,8 +53,9 @@ A bond is high energy when hydrolysis releases 7.3 kcal/mol or more, which is wh
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Bioenergetics > High- and low-energy phosphate bonds
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
@@ -78,8 +79,9 @@ The respiratory chain has four complexes and two mobile carriers, and NADH and F
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Bioenergetics > Electron transport chain
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
@@ -103,8 +105,9 @@ Complexes I, III and IV pump the protons; the gradient they build is what drives
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Bioenergetics > Chemiosmosis and ATP synthase
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
@@ -129,8 +132,9 @@ Cells do not store energy as ATP; creatine phosphate is the store, and the ATPâ€
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Bioenergetics > ATP-ADP cycle and energy storage
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
@@ -154,8 +158,9 @@ An uncoupler lets oxidation continue while ATP synthesis stops, and the energy l
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Bioenergetics > Uncouplers of oxidative phosphorylation
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p55 | MED 102
@@ -179,8 +184,9 @@ The reducing agent is the electron donor, and oxygen has the highest redox poten
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Bioenergetics > Electron transport chain
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p55 | MED 102
@@ -204,8 +210,9 @@ Glycolysis is the only source of ATP in the red cell, because the red cell has n
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis in the red cell
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
@@ -231,8 +238,9 @@ Hexokinase has a low Km and works everywhere; glucokinase has a high Km, sits in
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
@@ -256,8 +264,9 @@ Glycolysis has three irreversible steps, and the committed one is PFK-1 making f
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
@@ -284,8 +293,9 @@ Substrate-level phosphorylation makes ATP directly at three reactions: two in gl
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Substrate-level phosphorylation
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
@@ -314,8 +324,9 @@ NAD+, NADP+, FMN and FAD are the nucleotide-derived coenzymes that carry hydroge
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Dehydrogenase coenzymes
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
@@ -340,8 +351,9 @@ Fluoride stops glycolysis at enolase and arsenic stops it at glyceraldehyde 3-ph
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis inhibitors
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
@@ -365,8 +377,9 @@ Anaerobic glycolysis makes lactate not for the lactate but to regenerate the NAD
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
@@ -390,8 +403,9 @@ Glycogen synthesis and breakdown are reciprocally switched by one cAMP cascade, 
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycogen metabolism regulation
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
@@ -419,8 +433,9 @@ Glucose yields 32 ATP aerobically and 2 anaerobically, and four of the aerobic A
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Complete glucose oxidation
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
@@ -445,8 +460,9 @@ Pyruvate dehydrogenase is irreversible and needs five coenzymes, of which thiami
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Pyruvate dehydrogenase
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
@@ -472,8 +488,9 @@ Lactate, glucogenic amino acids, glycerol and odd-chain fatty acids give glucose
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p27 | MED 102
@@ -499,8 +516,9 @@ Gluconeogenesis is the reversal of glycolysis except at three irreversible steps
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p27 | MED 102
@@ -528,8 +546,9 @@ Glycolysis and gluconeogenesis are reciprocally regulated, and it is fatty acid 
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis regulation
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p27 | MED 102
@@ -554,8 +573,9 @@ Glycogen breakdown yields mostly glucose-1-phosphate, and only the liver can tur
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycogen metabolism
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
@@ -582,8 +602,9 @@ Von Gierke's disease is glucose 6-phosphatase deficiency, and every feature foll
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycogen storage disease
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
@@ -608,8 +629,9 @@ G6PD deficiency increases RBC susceptibility to oxidant-induced hemolysis
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Hexose Monophosphate Pathway
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
@@ -634,8 +656,9 @@ The hexose monophosphate pathway is the main source of NADPH, and its oxidative 
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Hexose Monophosphate Pathway
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
@@ -662,8 +685,9 @@ Alpha-oxidation handles fatty acids that are too branched for beta-oxidation and
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
@@ -687,8 +711,9 @@ HMG-CoA reductase is the rate-limiting step of cholesterol synthesis, active whe
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Cholesterol metabolism
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
@@ -716,8 +741,9 @@ The plasma lipoproteins form one series ordered by protein content, and that ord
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
@@ -743,8 +769,9 @@ Lipoprotein lipase empties triacylglycerol-rich particles at the capillary wall;
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
@@ -770,8 +797,9 @@ The liver makes ketone bodies it cannot itself use, because it has HMG-CoA synth
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Metabolism of ketone bodies
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
@@ -799,8 +827,9 @@ Acetyl-CoA reaches the cytosol as citrate, and ATP-citrate lyase is what release
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of fatty acids
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
@@ -825,8 +854,9 @@ A fatty acid is activated to acyl-CoA in the cytosol, and only carnitine can car
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
@@ -855,8 +885,9 @@ Beta-oxidation removes two carbons per turn in the mitochondrial matrix, and tha
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
@@ -884,8 +915,9 @@ Adipose tissue lacks glycerol kinase, so it can only build triacylglycerol when 
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of triacylglycerol
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
@@ -910,8 +942,9 @@ Chylomicrons carry dietary triacylglycerol out of the gut; VLDL carries hepatic 
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p45 | MED 102
@@ -939,8 +972,9 @@ Ketosis is what happens when ketogenesis outruns ketolysis, and every cause is a
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Metabolism of ketone bodies
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p46 | MED 102
@@ -964,8 +998,9 @@ Acetyl-CoA carboxylase is the key enzyme of lipogenesis: it needs biotin, it mak
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of fatty acids
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p47 | MED 102
@@ -991,8 +1026,9 @@ Insulin and the anti-insulin hormones pull one switch in opposite directions: th
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Regulation of lipolysis and lipogenesis
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p47 | MED 102
@@ -1018,8 +1054,9 @@ Fatty acid oxidation reduces FAD and NAD+, fatty acid synthesis spends NADPH, an
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Lipid Metabolism > Cofactors of lipid metabolism
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102

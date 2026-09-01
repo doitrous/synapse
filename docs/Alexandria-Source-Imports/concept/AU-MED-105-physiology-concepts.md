@@ -24,9 +24,6 @@ Explain the concept, its stated qualifiers, and its evidence limits: Diffusion i
 ## modules
 +AU-MED-105
 
-## module_subject
-AU-MED-105 > Physiology > Nerve physiology > Resting membrane potential
-
 ## field_notes
 moduleIds: Sparse update — sitting the record inside the existing HIT-LIVE record only adds the Alexandria overlay.
 definition: Restated verbatim from the live record, unchanged, because the batch validator requires a definition on every row regardless of update status; this is not a content change.
@@ -60,9 +57,6 @@ Explain the concept, its stated qualifiers, and its evidence limits: Chronaxie i
 
 ## modules
 +AU-MED-105
-
-## module_subject
-AU-MED-105 > Physiology > Nerve physiology > Strength-duration curve
 
 ## field_notes
 moduleIds: Sparse update — Alexandria's own Physiology bank (Day 1 revision physiology MSK, MCQs lec 1&2) tests both rheobase and chronaxie against this exact record; no content change needed.
@@ -125,9 +119,6 @@ msk
 
 ## modules
 +AU-MED-105
-
-## module_subject
-AU-MED-105 > Physiology > Nerve physiology > Properties of the nerve and excitable tissue
 
 ## original_wording
 +"All or none rule: Single nerve fiber either responds maximally or not at all according to intensity of the stimulus ... This rule applied to: 1-Single nerve fiber. 2-Single nerve fiber of mixed nerve. 3-Cardiac muscle. This rule can't apply to: 1-The whole mixed nerve trunk 2-The whole skeletal muscle ... 5-visceral smooth muscle (with gap junctions)." (Dr_ Aliaa book.pdf, MED 105 Physiology, p10)

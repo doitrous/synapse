@@ -101,6 +101,9 @@ yes
 ## author_notes
 Distractors A and B are genuine adjacent facts about the same cell, deliberately not "wrong" in isolation — the question turns on which one is the mechanism.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -195,6 +198,9 @@ yes
 ## author_notes
 Vignette is a clinical dressing (anaemia work-up); the concept tested is purely the staining mechanism, so the clinical scenario is contextual, not assessed.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -288,6 +294,8 @@ Alexandria University MED 103, EOM - Blood Final Egyptian final, Q62.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -383,6 +391,9 @@ yes
 ## author_notes
 All four options name a real platelet structure; the question tests whether the student can assign the right function to the right zone.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -476,6 +487,8 @@ Alexandria University MED 103, EOM - Blood end wafdeen final, Q4.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -571,6 +584,9 @@ yes
 ## author_notes
 Distractor D is the deliberate one-stage-early trap this concept's own pitfall targets.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -665,6 +681,9 @@ yes
 ## author_notes
 Paired with the Q46 item above; both test the same concept's two stage landmarks from opposite ends.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -758,6 +777,8 @@ Alexandria University MED 103, EOM - Blood Final Egyptian final, Q45.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -852,6 +873,8 @@ Alexandria University MED 103, EOM - Blood end wafdeen final, Q6.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -946,3 +969,6 @@ Alexandria University MED 103, EOM - Blood End Egyptian 1, Q25.
 yes
 ## author_notes
 The paper's own printed key gives only the single word "defenses"; the other three distractors are plausible hemostasis-adjacent terms a student could confuse it with.
+
+## module_subject
+AU-MED-103 > Histology

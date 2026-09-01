@@ -117,6 +117,8 @@ Rights: must be CC-BY or public domain
 90
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -207,6 +209,9 @@ Rights: must be CC-BY or public domain
 90
 ## author_notes
 Part (b)/(c) test the RBC membrane cytoskeleton diagram, related to CON-HEM-23E454BD997B29 (biconcavity/flexibility) but not the same objective, so no Concept: tag was forced onto it.
+
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -299,6 +304,8 @@ Rights: must be CC-BY or public domain
 90
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -392,6 +399,9 @@ Rights: must be CC-BY or public domain
 ## author_notes
 This item's main_concept (CON-HEM-A4B2A60B89E976) is this lane's own NEW concept, live once concept/AU-MED-103-histology-concepts.md is imported — placed here rather than in question/AU-MED-103-histology-mcq.md because it is a written-format item, not a single-best-answer one, and because it sits in the same source bank as the other 8 Spot items.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -483,6 +493,9 @@ Rights: must be CC-BY or public domain
 90
 ## author_notes
 Source bank prints "Identify (5)"/"Identify (7)" with no structure named until the answer key; part (c)'s "medullary lymph sinuses" answer implies the slide set for this spot also shows lymph-node tissue alongside the tonsil, not stated explicitly in the source.
+
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -576,6 +589,9 @@ Rights: must be CC-BY or public domain
 ## author_notes
 Source bank's part (a) names the spleen slide but parts (b)/(c)'s answers ("secondary tonsillar crypt", "mucous acini") belong to a tonsil slide, not the spleen one named in (a) — recorded as printed rather than reconciled; the bank likely shows two slides in this one spot.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -665,6 +681,9 @@ Rights: must be CC-BY or public domain
 90
 ## author_notes
 Part (b), "stromal cells", is deliberately left with no Concept: tag. Its matching concept, CON-FND-C75600D3D3B546 (the reticular cell), is one of the 3 pending ids no Kasr article names yet (Sec22) -- kept in the mark scheme, since the paper's own answer is real, but not tagged to an unauthored-question concept.
+
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -757,6 +776,8 @@ Rights: must be CC-BY or public domain
 90
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -849,3 +870,6 @@ Rights: must be CC-BY or public domain
 90
 ## author_notes
 Source bank's part (a) names a lymph node slide but parts (b)/(c) answers belong to a platelet EM diagram, not the lymph node — recorded as printed, same pattern as Spot 6.
+
+## module_subject
+AU-MED-103 > Histology

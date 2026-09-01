@@ -22,6 +22,10 @@ The two strands of the DNA double helix run antiparallel and are held to each ot
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## field_notes
 examSignal: Tested by AU-MED-102 Biochemistry's DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886, Q24, Q43) and the AFM master bank's Molecular Biology section (src_01ab4268402d32d4d111, Q11, Q25) — both ask for the hydrogen-bond count per base pair and the antiparallel arrangement, the same objective this concept already teaches.
 
@@ -40,6 +44,10 @@ The five eukaryotic DNA polymerases divide the work of replication: α primes, �
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## field_notes
 examSignal: Tested by AU-MED-102 Biochemistry's DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886, Q57) asking which eukaryotic DNA polymerase carries proofreading (the standard teaching answer is delta, the same polymerase this concept already names as the leading-strand enzyme); recorded as the same idea rather than a new one because the role assignment is what the question tests.
@@ -60,6 +68,10 @@ Splicing removes introns and joins exons using the snRNP spliceosome, and splici
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## field_notes
 examSignal: Tested by AU-MED-102 Biochemistry's DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886, Q8 "intron is the portion of mRNA removed after transcription", Q75 "segments retained after conversion of pre-mRNA to mature mRNA = exons") and the AFM master bank (src_01ab4268402d32d4d111, Q7). Both the intron definition and the "exons are retained" fact are the same splicing concept this record already teaches.
 
@@ -78,6 +90,10 @@ The two promoter boxes divide the work — TATA says where transcription starts 
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## field_notes
 examSignal: Tested by AU-MED-102 Biochemistry's DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886, Q37 "a promoter is a specific sequence of DNA to which RNA polymerase binds") and the AFM master bank (src_01ab4268402d32d4d111, Q38). The promoter-definition half of this concept is what the AU question tests; the TATA/CAAT/polyadenylation detail is not separately examined here.
@@ -98,6 +114,10 @@ Free nucleotides do six different jobs — carry energy, signal as second messen
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## field_notes
 examSignal: Tested three separate ways by AU-MED-102 Biochemistry's DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886): Q21 names cAMP as the second-messenger job, Q22 names SAM (active methionine) as the methyl-donor job, Q23 names PAPS as the sulfate-donor job — all three are the same "which job does this nucleotide-derived molecule do" objective already taught here, corroborated by the AFM master bank's Molecular Biology section (src_01ab4268402d32d4d111, Q23-24, Q28).
 
@@ -117,6 +137,10 @@ A base substitution in a coding region is nonsense if it creates a stop codon, m
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## field_notes
 examSignal: Tested three ways by AU-MED-102 Biochemistry's DNA & RNA MCQ bank (src_80f6b1121bd3b85f8886): Q32 (which mutation type produces a stop codon = nonsense), Q67 (silent-mutation definition), and Q17/Q85 plus the short and long EOM papers' sickle-cell items (the HbS Glu6→Val substitution is graded "partially acceptable missense" — the same three-way classification this concept already teaches, applied to a named clinical example). Sub-lane C's protein-chemistry concept for the sickle Hb substitution itself (which amino acid replaces which) is the companion record for the same clinical vignette; this record is only the mutation-type classification.
 
@@ -135,6 +159,10 @@ The four receptor types transduce signals on four different timescales, from mil
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## field_notes
 examSignal: This is the general receptor-mechanism taxonomy the AU-MED-102 Biochemistry Cell Signaling MCQ bank (src_4ff0b2fb099c99bb896e) tests directly and repeatedly: Q1/Q12 (hydrophilic vs hydrophobic ligand and where its receptor sits), Q3 (GPCR structure), Q4/Q11 (ligand-gated ion channels), Q6 (growth-factor receptors = receptor tyrosine kinases), Q9 (steroid hormones bind intracellular receptors) — five of this bank's fourteen questions are five different probes of the same four-way classification already taught here.

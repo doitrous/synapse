@@ -125,6 +125,8 @@ Alexandria University MED 103, EOM - Blood Final Egyptian final, Q23.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -219,6 +221,8 @@ Alexandria University MED 103, EOM - Blood end wafdeen final, Q22.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -313,6 +317,8 @@ Alexandria University MED 103, EOM - Blood Final Egyptian final, Q48.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -407,6 +413,8 @@ Alexandria University MED 103, EOM - Blood End Egyptian 1, Q29.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -502,6 +510,9 @@ yes
 ## author_notes
 Recorded rather than silently corrected: this paper's key places the microtubule bundle in the granulomere, while the department's own histology notes and the Kasr concept both place it in the hyalomere. Explanation D names the discrepancy rather than asserting the paper's zone as fact.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -596,6 +607,9 @@ yes
 ## author_notes
 Source paper prints only three options (a/b/c) for this item; option d (germinal centres) is added to meet the 4-option format floor, drawn from the thymus's own well-documented "no germinal centres" feature rather than invented from nothing.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -689,6 +703,8 @@ Alexandria University MED 103, EOM - Blood Final Egyptian final, Q63.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -784,6 +800,9 @@ yes
 ## author_notes
 The paper's printed option D names Hassall's corpuscles and cortico-medullary arterioles alongside epithelial reticular cells as the keyed answer, which is a looser combination than the concept's own four-layer description (endothelium, basement membrane, perivascular macrophages, epithelial reticular cells) — recorded as the paper's own phrasing rather than silently rewritten to match the concept exactly.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -878,6 +897,9 @@ yes
 ## author_notes
 Flagged rather than smoothed over: option D's own wording ("migrate to the thymus when they are promyelocytes") names the wrong precursor name for a lymphoid cell — "promyelocyte" is a granulocyte-series term — and is nonetheless this paper's own printed key. Recorded as the paper's key; the explanation states the correct concept (thymocytes in the inner cortex) rather than defending the paper's mislabelling.
 
+## module_subject
+AU-MED-103 > Histology
+
 ---
 
 # Item
@@ -971,6 +993,8 @@ Alexandria University MED 103, EOM - Blood End Egyptian 1, Q34.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -1065,6 +1089,8 @@ Alexandria University MED 103, EOM - Blood Final Egyptian final, Q53.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -1159,6 +1185,8 @@ Alexandria University MED 103, EOM - Blood Final Egyptian final, Q52.
 yes
 ## author_notes
 
+## module_subject
+AU-MED-103 > Histology
 
 ---
 
@@ -1252,3 +1280,6 @@ Alexandria University MED 103, EOM - Blood end wafdeen final, Q21.
 ## randomise_answers
 yes
 ## author_notes
+
+## module_subject
+AU-MED-103 > Histology

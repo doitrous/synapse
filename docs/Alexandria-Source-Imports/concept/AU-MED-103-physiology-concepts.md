@@ -27,6 +27,10 @@ CON-HEM-9BDC2EB39840B4
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## exam_signal
 src_56bc398ce32f0140fc29 | end_of_module | p8 | AU-MED-103
 src_c9c9ca53cfa1321d0508 | end_of_module | p4 | AU-MED-103
@@ -51,6 +55,10 @@ CON-HEM-47DFF88A145F5E
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## exam_signal
 src_56bc398ce32f0140fc29 | end_of_module | p12 | AU-MED-103
 
@@ -73,6 +81,10 @@ CON-HEM-7F0EF6B0D6F2FB
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## exam_signal
 src_3e62e4d388493af88dbe | department_questions | AU-MED-103
 
@@ -94,6 +106,10 @@ CON-HEM-AA67D0E4B516BF
 
 ## modules
 +AU-MED-103
+
+
+## learner_years
++1
 
 ## exam_signal
 src_4b9b0c4cf94fde15b14a | department_questions | AU-MED-103
@@ -118,6 +134,10 @@ CON-HEM-F2B664C215C912
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## exam_signal
 src_56bc398ce32f0140fc29 | end_of_module | p13 | AU-MED-103
 
@@ -139,6 +159,10 @@ CON-HEM-CDF561308A4D25
 
 ## modules
 +AU-MED-103
+
+
+## learner_years
++1
 
 ## exam_signal
 src_3e62e4d388493af88dbe | department_questions | AU-MED-103
@@ -162,6 +186,10 @@ CON-HEM-1CA767E86D9C3A
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
 moduleIds: Sibling live concepts (blood viscosity helps maintain arterial pressure; free plasma Hb raises viscosity) round out the same idea this module's EOM1 Q22 and EOM2 Q67 test; sparse update only, no direct exam appearance recorded here to avoid double-counting the single Q22 signal already on CON-HEM-C8B9CD41563B5B below.
 
@@ -180,6 +208,10 @@ CON-HEM-C8B9CD41563B5B
 
 ## modules
 +AU-MED-103
+
+
+## learner_years
++1
 
 ## exam_signal
 src_49f438279b68a489aa42 | end_of_module | p4 | AU-MED-103
@@ -203,6 +235,10 @@ CON-HEM-B70E44482E6095
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## exam_signal
 src_56bc398ce32f0140fc29 | end_of_module | p15 | AU-MED-103
 
@@ -224,6 +260,10 @@ CON-HEM-ABF3EABEDD7170
 
 ## modules
 +AU-MED-103
+
+
+## learner_years
++1
 
 ## exam_signal
 src_49f438279b68a489aa42 | end_of_module | p5 | AU-MED-103
@@ -247,6 +287,10 @@ CON-HEM-FF26A3D7EE6DB7
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
 moduleIds: Sibling to CON-HEM-ABF3EABEDD7170, tested by the same EOM1 Q26 signal already recorded there; sparse update only, no duplicate exam_signal line.
 
@@ -265,6 +309,10 @@ CON-HEM-532BFAEE98CC39
 
 ## modules
 +AU-MED-103
+
+
+## learner_years
++1
 
 ## exam_signal
 src_56bc398ce32f0140fc29 | end_of_module | p14 | AU-MED-103
@@ -288,6 +336,10 @@ CON-HEM-2BF99442385474
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
 moduleIds: Same EOM1 Q26 / EOM2 Q61 signal as its heparin sibling concepts; not re-listed to avoid double-counting one appearance across five sibling records.
 
@@ -307,6 +359,10 @@ CON-HEM-1975918ED45C76
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
 moduleIds: Same heparin-cluster signal (EOM1 Q26 / EOM2 Q61) as its sibling concepts; not re-listed.
 
@@ -325,6 +381,10 @@ CON-HEM-3843C5316D5FE8
 
 ## modules
 +AU-MED-103
+
+
+## learner_years
++1
 
 ## exam_signal
 src_56bc398ce32f0140fc29 | end_of_module | p9 | AU-MED-103
@@ -348,6 +408,10 @@ CON-HEM-C9FEF63D7C15F6
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
 moduleIds: Same EOM2 Q38 signal as its platelet-adhesion sibling concept; not re-listed to avoid double counting.
 
@@ -366,6 +430,10 @@ CON-IMM-DA2EA4EC41707C
 
 ## modules
 +AU-MED-103
+
+
+## learner_years
++1
 
 ## exam_signal
 src_c9c9ca53cfa1321d0508 | end_of_module | p7 | AU-MED-103

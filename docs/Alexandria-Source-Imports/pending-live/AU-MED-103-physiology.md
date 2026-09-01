@@ -19,6 +19,10 @@ CON-HEM-005D132395BF2F
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## exam_signal
 src_dbe1da0da0b7f94a618f | end_of_year | 2024 | p1 | 102 INT
 src_56bc398ce32f0140fc29 | end_of_module | p15 | AU-MED-103

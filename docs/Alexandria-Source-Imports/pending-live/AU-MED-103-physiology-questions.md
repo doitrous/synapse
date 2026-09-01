@@ -139,3 +139,6 @@ yes
 
 ## author_notes
 Tests CON-HEM-005D132395BF2F, live only in Kasr's unimported 102-INT batch — filed here per LANE-BRIEF §21 rather than deferred. Distractors: globulin (the other major plasma-protein class, picks a student who has not separated "abundance/oncotic role" from "defence role"), fibrinogen and prothrombin (both real plasma proteins but clotting-specific, picking a student who conflates "plasma protein" generally with "clotting factor").
+
+## module_subject
+AU-MED-103 > Physiology
