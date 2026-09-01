@@ -46,6 +46,7 @@ node scripts/content/pagetext.mjs ocr <pdf> --pages 4 [--dpi 300] [--force]
 node scripts/content/pagetext.mjs render <pdf> --pages 4 --out <dir>
 node scripts/content/pagetext.mjs index <dir-of-pdfs> --out <file.md>
 node scripts/content/pagetext.mjs grep <pdf-or-dir> <regex> [--context 1] [--max 50] [--case]
+node scripts/content/pagetext.mjs keys <pdf> [--pages 3-5] [--json]
 ```
 
 Extracts a PDF once (`pdftotext -layout`, one page at a time), keyed by the file's
@@ -68,6 +69,22 @@ is unreadable. **Cite by grep:** search the cache for the fact's key words, read
 hit page — `grep` (case-insensitive by default) searches the cached text of one PDF or a
 whole directory and prints `<file> p<N>: <line>`, never auto-OCRs, and exits 1 on zero hits
 so a lane's brief can require "grep first" before quoting a page.
+
+**Visually-marked answer keys (red/underline/highlight) → `keys` first, before rendering
+anything.** Some corpora print the MCQ key by styling only — red text, bold/underline, or a
+highlight/underline/strikeout/square/ink annotation over the correct option — invisible to
+`pdftotext` and to OCR. For a native-text PDF this is recoverable without an image: `keys`
+spawns `scripts/content/pdf_visual_keys.py` (PyMuPDF), which reads each span's colour and
+font flags plus page annotations, reconstructs question/option structure from `Q1)`/`A)`-style
+lines, and prints one row per question — `p<N> Q<n>: <letter>  (<reason>)`, reason one of
+`red-text | underline-flag | bold-flag | highlight-annot | underline-annot | square-annot |
+strikeout-annot | ink-annot` — or `p<N> Q<n>: ?  (0 marked|multiple: B,D)` when it can't tell,
+never a guess. A trailing summary line reads `<keyed> keyed / <ambiguous> ambiguous /
+<unmarked> unmarked across <pages> page(s)`. A page with no text layer at all prints `p<N>:
+no text layer — keys need ocr+render` and is skipped, not guessed at. `--json` prints the
+same rows as `[{page, question, letter|null, reasons[], markedOptions[]}]`. Render (or OCR)
+a page only when `keys` reports it ambiguous or textless — most visually-marked keys don't
+need an image at all.
 
 ### `emit-mcq.mjs` + `ledger.mjs` — seed → generate, and the progress ledger
 

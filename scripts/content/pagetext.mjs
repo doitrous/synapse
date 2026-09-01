@@ -5,6 +5,9 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync, readdirSync, statSync, mkdtempSync, rmSync } from 'node:fs';
 import { homedir, tmpdir } from 'node:os';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 
 const CACHE = process.env.NISHANY_PAGETEXT_CACHE || path.join(homedir(), '.cache', 'nishany-pagetext');
 
@@ -73,7 +76,7 @@ function ocrPage(target, n, dpi, tmpDir) {
 }
 
 const [cmd, target, ...args] = process.argv.slice(2);
-if (!cmd || !target) die(`usage: pagetext.mjs <show|status|mark-garbled|unmark-garbled|render|ocr|index|grep> <pdf|dir> [--pages 3-5] [--out <dir|file>] [--dpi 300] [--force]\n       pagetext.mjs grep <pdf|dir> <regex> [--context N] [--max N] [--ignore-case|--case]`);
+if (!cmd || !target) die(`usage: pagetext.mjs <show|status|mark-garbled|unmark-garbled|render|ocr|index|grep|keys> <pdf|dir> [--pages 3-5] [--out <dir|file>] [--dpi 300] [--force]\n       pagetext.mjs grep <pdf|dir> <regex> [--context N] [--max N] [--ignore-case|--case]\n       pagetext.mjs keys <pdf> [--pages 3-5] [--json]`);
 
 if (cmd === 'grep') {
   const pattern = args[0];
@@ -198,5 +201,54 @@ if (cmd === 'show') {
     const r = spawnSync('pdftoppm', ['-r', '200', '-f', String(n), '-l', String(n), '-png', '-singlefile', target, prefix], { encoding: 'utf8' });
     if (r.status !== 0) die(`pdftoppm failed: ${r.stderr}`, 1);
     console.log(`${prefix}.png`);
+  }
+} else if (cmd === 'keys') {
+  const asJson = args.includes('--json');
+  const helper = path.join(SCRIPT_DIR, 'pdf_visual_keys.py');
+  const r = spawnSync('python3', [helper, target, pages.join(',')], { encoding: 'utf8', maxBuffer: 1 << 28 });
+  if (r.status !== 0) die(`pdf_visual_keys.py failed: ${r.stderr}`, 1);
+  let data;
+  try {
+    data = JSON.parse(r.stdout);
+  } catch (e) {
+    die(`pdf_visual_keys.py produced invalid JSON: ${e.message}\n${r.stdout}`, 1);
+  }
+
+  const rows = [];
+  const noTextLines = [];
+  let keyed = 0, ambiguous = 0, unmarked = 0, pagesCounted = 0;
+  for (const p of data.pages) {
+    if (p.noTextLayer) {
+      noTextLines.push(`p${p.page}: no text layer — keys need ocr+render`);
+      continue;
+    }
+    pagesCounted++;
+    for (const q of p.questions) {
+      const marked = q.options; // [{letter, reasons}]
+      if (marked.length === 1) {
+        keyed++;
+        rows.push({ page: p.page, question: q.number, letter: marked[0].letter, reasons: marked[0].reasons, markedOptions: [marked[0].letter] });
+      } else {
+        ambiguous += marked.length >= 2 ? 1 : 0;
+        unmarked += marked.length === 0 ? 1 : 0;
+        rows.push({ page: p.page, question: q.number, letter: null, reasons: [], markedOptions: marked.map((m) => m.letter) });
+      }
+    }
+  }
+
+  if (asJson) {
+    console.log(JSON.stringify(rows));
+  } else {
+    for (const line of noTextLines) console.log(line);
+    for (const row of rows) {
+      if (row.letter) {
+        console.log(`p${row.page} Q${row.question}: ${row.letter}  (${row.reasons.join(', ')})`);
+      } else if (row.markedOptions.length === 0) {
+        console.log(`p${row.page} Q${row.question}: ?  (0 marked)`);
+      } else {
+        console.log(`p${row.page} Q${row.question}: ?  (multiple: ${row.markedOptions.join(',')})`);
+      }
+    }
+    console.log(`${keyed} keyed / ${ambiguous} ambiguous / ${unmarked} unmarked across ${pagesCounted} page(s)`);
   }
 } else die(`unknown command ${cmd}`);

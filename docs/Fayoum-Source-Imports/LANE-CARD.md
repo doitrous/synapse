@@ -31,7 +31,8 @@ Desktop, nothing to fetch). `node scripts/content/pagetext.mjs show "<pdf>" --pa
 exam/bank) and `امتحانات فارما عملي.pdf` (OCR attempted, failed — non-language garbage on
 every page). **Use existing Desktop sources only — do not download or move anything.**
 Telegram fetching is retired; a gap needing a new source is "needs Omar sources", not a
-fetch task.
+fetch task. Visually-marked keys (red/underline/highlight) → `pagetext.mjs keys` first;
+render only when it reports no text layer or ambiguous.
 
 ## 4. Author: seed → emit → gate
 Not started. Once TRIAGE APPROVED: seed dir `docs/Fayoum-Source-Imports/seed/<module>/` ·
