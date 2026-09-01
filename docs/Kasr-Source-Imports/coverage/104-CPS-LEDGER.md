@@ -4,20 +4,18 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 699 | excluded: 151 | remaining: 302
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 749 | excluded: 167 | remaining: 236
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 699
+- authored (by key, this ledger): 749
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 699
+- authored minus held-back = build-style "kept": 749
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Electrical Activity of the Heart | 82 | 28 | 19 | 35 |
-| The heart | 43 | 10 | 2 | 31 |
 | Basic Mechanisms of Circulatory Control | 36 | 8 | 4 | 24 |
 | Mechanics of Breathing | 22 | 0 | 0 | 22 |
 | Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
@@ -46,86 +44,16 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Tonsils | 18 | 10 | 4 | 1 |
 | (untagged) | 219 | 88 | 4 | 0 |
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
+| Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
 | Mediastinum | 41 | 30 | 11 | 0 |
 | The Cell Cycle | 5 | 5 | 0 | 0 |
+| The heart | 43 | 31 | 12 | 0 |
 | Thoracic Wall | 33 | 28 | 5 | 0 |
 
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Electrical Activity of the Heart (35)
-
-- `about-the-cardiac-conductivity-all-the-following-are-true-ex-6c3fa236` — About the cardiac conductivity, all the following are true except :
-- `about-the-purkinje-tissue-all-the-following-are-true-except-a1365424` — About the purkinje tissue,all the following are true except :
-- `all-the-following-are-correct-except-bbd77f2f` — All the following are correct except :
-- `cells-in-the-sa-node-d8679a3c` — Cells in the SA node
-- `conduction-speed-is-highest-in-the-bc0dd1e9` — Conduction speed is highest in the:
-- `conduction-speed-is-slowest-in-the-99b22b7b` — Conduction speed is slowest in the:
-- `conduction-speed-is-slowest-in-the-tepret-abe02b6a` — Conduction speed is slowest in the: tePret
-- `einthoven-s-triangle-is-an-equilateral-triangle-the-sides-of-a74c2de5` — Einthoven’s triangle is an equilateral triangle, the sides of which represent:
-- `p-r-interval-is-prolonged-in-all-the-following-cases-except-9c1e8349` — P-R interval is prolonged in all the following cases except:
-- `pacemaker-potentials-are-normally-absent-from-98015db5` — Pacemaker potentials are normally absent from:
-- `propagation-of-the-action-potential-through-the-heart-isfast-b5f2c52d` — Propagation of the action potential through the heart isfastest in the :
-- `regarding-the-s-a-node-2d9ef5ca` — Regarding the S-A node :
-- `t-waye-is-inverted-in-a-muscular-exercise-be27b8b3` — 'T waye is inverted in: a, muscular exercise. |
-- `the-average-normal-electrical-axis-of-the-heart-is-6e612f34` — The average normal electrical axis of the heart is;
-- `the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-14f45925` — The exploring electrode of V1 of unipolar chest leads of ECG is placed at: a
-- `the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-fc99a24d` — The exploring electrode of V1 of unipolar chest leads of ECG is placed at:
-- `the-fibers-of-the-a-v-bundle-its-branches-e7478cf8` — The fibers of the A-V bundle & its branches : . |
-- `the-following-are-a-parts-of-the-conductive-system-of-the-he-98ca9ab2` — The following are a parts of the conductive system of the heart, EXCEPT:
-- `the-following-are-parts-of-the-conductive-system-of-the-hear-baaf7de3` — The following are parts of the conductive system of the heart, EXCEPT:
-- `the-function-of-the-av-node-is-to-a-excite-the-left-and-righ-00f4d17c` — The function of the AV node is to: a, Excite the left and right atrium
-- `the-main-function-of-the-cardiac-purkinje-system-is-to-a-pre-867155e1` — The main function of the cardiac purkinje system is to : a, prevent premature ve…
-- `the-sa-node-is-the-normal-pace-maker-because-a4457b2b` — The SA node is the normal pace maker because :
-- `the-slowest-conducting-velocity-occurs-in-5a6c35c5` — The slowest conducting velocity occurs in:
-- `the-slowest-conducting-velocity-occurs-in-which-of-the-follo-af891c81` — The slowest conducting velocity occurs in which of the following structures?
-- `what-is-the-correct-pathway-of-impulses-through-the-conducti-26e4ed5e` — what is the correct pathway of impulses through the conducting system of the hea…
-- `what-is-the-important-function-of-cardiac-purkinje-system-3132c9a7` — What is the important function of cardiac Purkinje system?
-- `when-the-bundle-of-his-is-completely-interrupted-the-1245d791` — When the bundle of His is completely interrupted,the:
-- `when-the-bundle-of-his-is-completely-interrupted-the-ae-7-ea-45a41f10` — When the bundle of His is completely interrupted,the: | ae 7 — eave Faye
-- `which-is-not-a-part-of-the-specialized-self-excitable-conduc-a538dc86` — Which is not a part of the specialized self-excitable conductive system of the h…
-- `which-of-the-following-has-negative-chronotropic-effect-e351e202` — Which of the following has negative chronotropic effect?
-- `which-of-the-following-has-the-slowest-rhythmicity-in-the-au-e06c2b37` — Which of the following has the slowest rhythmicity in the automatic cardiac tiss…
-- `which-of-the-following-is-a-function-of-the-av-node-16a480fe` — Which of the following is a function of the AV node?
-- `which-of-the-following-is-characteristic-about-the-conductin-c32dcb44` — which of the following is characteristic about the conducting system of the hear…
-- `which-of-the-following-is-not-a-part-of-the-specialized-seij-44db1b50` — Which of the following is not a part of the specialized seij-excitable conductiv…
-- `which-of-the-following-is-the-correct-pathway-of-impulses-th-bcc9a59a` — Which of the following is the correct pathway of impulses through the conducting…
-
-### The heart (31)
-
-- `at-which-of-the-following-levels-does-the-base-of-the-heart-3ba1e7d4` — At which of the following levels does the base of the heart lie? ‏كهيعمر‎ ‎a- T2…
-- `blood-flows-into-the-coronary-arteries-arises-from-the-20f83d05` — Blood flows into the coronary arteries arises from the:
-- `concerning-the-left-ventricle-select-the-incorrect-statement-6dc70dc8` — Concerning the left ventricle, select the incorrect statement:
-- `during-the-heart-development-the-left-horn-of-the-sinus-veno-a2954fc5` — During the heart development, the left horn of the sinus venosus becomes smaller…
-- `during-the-heart-development-the-left-horn-of-the-sinus-veno-fb6e29c0` — During the heart development, the left horn of the sinus venosus becomes smaller…
-- `ecg-record-gives-valuable-information-about-all-of-the-follo-68820593` — ECG record gives valuable information about all of the following except: - ‏ظ‎ ‎…
-- `in-the-anatomical-position-the-heart-has-a-7f24a6c3` — In the anatomical position, the heart has a:
-- `one-of-the-following-branches-arises-from-arch-of-aorta-5f0c9b55` — ٠ One of the following branches arises from arch of aorta:
-- `one-of-the-following-does-not-open-into-the-right-atrium-2-a-3a31c50e` — One of the following does not open into the right atrium: (2 azygos vein
-- `one-of-the-following-does-not-open-into-the-right-atrium-679e33ac` — One of the following does not open into the right atrium:
-- `one-of-the-following-structures-lie-below-the-aortic-arch-87da8fa4` — One of the following structures lie below the aortic arch:
-- `one-of-the-followings-is-correct-concerning-the-coronary-sin-cbb41e7c` — One of the followings is correct concerning the coronary sinus of the heart:
-- `one-of-the-followings-is-not-true-concerning-the-left-atrium-cc2b5add` — One of the followings is not true concerning the left atrium: in
-- `regarding-the-arterial-supply-of-the-heart-the-following-sta-726ad32b` — Regarding the arterial supply of the heart, the following statements are true, E…
-- `regarding-the-cardiac-veins-one-is-true-877d38e6` — Regarding the cardiac veins, one is true:
-- `regarding-the-coronary-arteries-all-the-following-statements-402c0dd1` — Regarding the coronary arteries, all the following statements are true, EXCEPT:
-- `regarding-the-coronary-arteries-the-following-statements-are-db3acfda` — Regarding the coronary arteries, the following statements are correct, EXCEPT:
-- `regarding-the-heart-mark-one-correct-statement-d8600a96` — Regarding the heart, mark ONE correct statement:
-- `regarding-the-heart-valves-which-of-the-followings-is-correc-af88156c` — Regarding the heart valves, which of the followings is correct?
-- `regarding-the-right-coronary-artery-select-the-correct-state-6545e80e` — Regarding the right coronary artery, select the correct statement:
-- `structures-passing-between-arch-0-pene-a-and-pulmonary-trunk-c8fde235` — Structures passing between arch - 0 pene a and pulmonary trunk, mark
-- `the-anterior-interventricular-artery-is-accompanied-by-46e16a29` — The anterior interventricular artery is accompanied by:
-- `the-atrio-ventricular-valves-a-have-three-cusps-for-each-val-74e93b22` — The atrio-ventricular valves : a.have three cusps for each valve
-- `the-following-structure-is-present-in-the-cavity-of-the-righ-0db915f2` — The following structure is present in the cavity of the right ventricle:
-- `the-heart-is-situated-in-e707e57c` — The heart is situated in:
-- `the-internal-structure-of-left-ventricle-one-is-correct-f794c1b3` — The internal structure of left ventricle, one is correct:
-- `the-pulmonary-valve-sound-is-best-heard-at-indicate-the-corr-22983fbe` — The pulmonary valve sound is best heard at; indicate the correct answer:
-- `the-right-ventricle-contains-all-the-following-structures-ex-71e6d172` — The right ventricle contains all the following structures, EXCEPT:
-- `which-of-the-following-structures-open-into-the-left-atrium-345fc7a5` — Which of the following structures open into the left atrium?
-- `which-of-the-following-structures-present-at-the-level-of-th-60a385c5` — Which of the following structures present at the level of the lower border of th…
-- `with-respect-to-the-cardiac-plexuses-one-is-true-1f95d468` — With respect to the cardiac plexuses, one is true:
 
 ### Basic Mechanisms of Circulatory Control (24)
 
