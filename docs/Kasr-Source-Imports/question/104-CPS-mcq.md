@@ -6,6 +6,7 @@
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 2 questions, 2 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
+    The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Subdivisions of the Mediastinum — 11 questions, 4 concepts
@@ -1103,6 +1104,841 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q31. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-24BAEEF1968D
+## title
+Concerning the azygos vein, choose the false answer:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the azygos vein, choose the false answer:
+## answer_a
+itis a connection between superior and inferior vena cavae
+## explanation_a
+True, so not the answer sought. The azygos vein is exactly the link the department book describes between the back of the inferior vena cava and the back of the superior vena cava.
+## answer_b
+arches over the root of the right lung
+## explanation_b
+True, so not the answer sought. The azygos vein's arch passes above (arches over) the root of the right lung on its way to the SVC.
+## answer_c
+receives the right superior intercostal vein
+## explanation_c
+True, so not the answer sought. The right superior intercostal vein (formed by the second, third and fourth right posterior intercostal veins) ends in the arch of the azygos vein.
+## answer_d
+drains directly into the right atrium
+## explanation_d
+This is the false statement, and the answer. The azygos vein does not drain directly into the right atrium — its arch turns forward at the T4/T5 level to end in the back of the superior vena cava, opposite the second right costal cartilage, just before that vein itself opens into the right atrium. The azygos vein's own blood reaches the atrium only indirectly, via the SVC.
+
+Why this is right:
+- The azygos vein — the unpaired vein — connects the back of the inferior vena cava in the abdomen with the back of the superior vena cava in the thorax.
+## correct_answer
+D
+## main_concept
+CON-CVS-09E48983DF8E7C
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+The Brachiocephalic Veins, SVC and Azygos System
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the azygos vein ends in the superior vena cava, never directly in the right atrium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p15 q120. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C87740A88218
+## title
+Regarding the azygos vein, the following statements are Correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the azygos vein, the following statements are Correct, EXCEPT:
+## answer_a
+It is an important link between the superior and inferior vena cava
+## explanation_a
+True, so not the exception. The azygos vein is the important link between the superior and inferior vena cavae.
+## answer_b
+It ascends in the posterior mediastinum
+## explanation_b
+True, so not the exception. The azygos vein ascends through the posterior mediastinum before its arch turns forward in the superior mediastinum.
+## answer_c
+It arches above the root of the left lung
+## explanation_c
+This is the exception, and the answer. The azygos vein's arch passes above the root of the RIGHT lung, not the left — the azygos system belongs entirely to the right side of the thorax (with the two hemiazygos veins compensating for the absence of a left-sided equivalent).
+
+Why this is right:
+- The azygos vein — the unpaired vein — connects the back of the inferior vena cava in the abdomen with the back of the superior vena cava in the thorax.
+## answer_d
+It receives the esophageal and pericardial veins
+## explanation_d
+True of general azygos anatomy, so not the exception the question targets here.
+## answer_e
+Its arch crosses the right vagus nerve
+## explanation_e
+True, so not the exception. The right vagus nerve descends beside the trachea and is crossed on its right by the azygos arch as the arch turns forward to the SVC.
+## correct_answer
+C
+## main_concept
+CON-CVS-09E48983DF8E7C
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+Anatomy
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the azygos arch passes above the root of the RIGHT lung, not the left.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p16 q62. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-89F9DAF0C311
+## title
+One of the following veinsdrain into the right brachiocephalic vein:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following veinsdrain into the right brachiocephalic vein:
+## answer_a
+azygos vein
+## explanation_a
+The azygos vein drains into the superior vena cava, not into the right brachiocephalic vein — the two are different large veins at different levels of the superior mediastinum.
+## answer_b
+thoracic duct
+## explanation_b
+The thoracic duct drains into the LEFT brachiocephalic vein, not the right — it is one of that vein's four named tributaries.
+## answer_c
+right lymphatic duct
+## explanation_c
+This is the correct answer. The right brachiocephalic vein receives the right internal thoracic vein, the right first posterior intercostal vein and the right lymphatic duct, which is the mirror-image drainage of the thoracic duct into the left brachiocephalic vein on the opposite side.
+
+Why this is right:
+- The right and left brachiocephalic veins drain the upper limbs, head and neck, the anterior thoracic wall, the upper posterior thoracic wall, and lymph from the whole body, ending by uniting behind the lower border of the first right costal cartilage to form the superior vena cava.
+- The right vein descends nearly vertically from the medial end of the right clavicle, receiving the right internal thoracic vein, the right first posterior intercostal vein and the right lymphatic duct.
+## answer_d
+superior hemiazygos vein
+## explanation_d
+The superior hemiazygos vein drains into the azygos vein, not into the right brachiocephalic vein — it belongs to the left-sided intercostal venous pattern entirely.
+## correct_answer
+C
+## main_concept
+CON-CVS-9CDFD3C60A2550
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+The Brachiocephalic Veins, SVC and Azygos System
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the right lymphatic duct as a tributary of the right brachiocephalic vein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p14 q113. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-41A7921B6B41
+## title
+The superior vena cava, choose the true answer:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The superior vena cava, choose the true answer:
+## answer_a
+has only one tributary terminate in its posterior surface at the level of 15 left costal cartilage
+## explanation_a
+The SVC's one tributary, the azygos vein, terminates on its posterior surface at the level of the SECOND right costal cartilage, not the first left — this option reverses both the side and the exact level.
+## answer_b
+is formed behind the manubrium sterni
+## explanation_b
+This is the correct answer. The two brachiocephalic veins unite behind the lower border of the first right costal cartilage, close to the sternum and behind the manubrium's own lower part, to form the superior vena cava.
+
+Why this is right:
+- The superior vena cava drains venous blood from the head, neck, both upper limbs and the thoracic wall — the upper half of the body.
+- About 5 cm long, it is formed by the union of the two brachiocephalic veins behind the lower border of the first right costal cartilage; its upper half lies in the superior mediastinum and its lower half in the middle mediastinum inside the fibrous pericardium, which it pierces at the level of the second right costal cartilage.
+- It ends by opening into the right atrium behind the third right costal cartilage.
+## answer_d
+it lies in the posterior mediastinum
+## explanation_d
+The SVC's upper half lies in the superior mediastinum and its lower half in the middle mediastinum (inside the fibrous pericardium) — it never lies in the posterior mediastinum, which holds the descending aorta, azygos system, oesophagus and thoracic duct instead.
+## correct_answer
+B
+## main_concept
+CON-CVS-D2307B39C55336
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+Anatomy
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that the SVC forms behind the manubrium, close to the sternum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p46 q11. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-14D34E6D90EC
+## title
+Which one of the followings regarding the superior vena cava is not true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the followings regarding the superior vena cava is not true:
+## answer_a
+is formed behind the 1st right costal cartilages close to the manubrium sterni
+## explanation_a
+True, so not the exception. The SVC is formed behind the lower border of the first right costal cartilage, close to the manubrium sterni.
+## answer_b
+opens into the right atrium behind the right 3rd costal cartilage
+## explanation_b
+True, so not the exception. The SVC opens into the right atrium behind the third right costal cartilage.
+## answer_c
+receives the hemi azygos vein
+## explanation_c
+This is the exception, and the answer. The SVC's only named tributary is the azygos vein, not the hemiazygos vein — the two hemiazygos veins reach the SVC only indirectly, by first draining into the azygos vein, which is itself the single structure that joins the SVC directly.
+
+Why this is right:
+- The superior vena cava drains venous blood from the head, neck, both upper limbs and the thoracic wall — the upper half of the body.
+- About 5 cm long, it is formed by the union of the two brachiocephalic veins behind the lower border of the first right costal cartilage; its upper half lies in the superior mediastinum and its lower half in the middle mediastinum inside the fibrous pericardium, which it pierces at the level of the second right costal cartilage.
+- It ends by opening into the right atrium behind the third right costal cartilage.
+## answer_d
+lies in the superior mediastinum
+## explanation_d
+True, so not the exception. The SVC's upper half lies within the superior mediastinum.
+## correct_answer
+C
+## main_concept
+CON-CVS-D2307B39C55336
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+The Brachiocephalic Veins, SVC and Azygos System
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the azygos vein, not the hemiazygos vein, is the SVC's only direct tributary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q18. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6F19F9599F03
+## title
+Regarding the vessels of the thoracic wall, the following statements are correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the vessels of the thoracic wall, the following statements are correct, EXCEPT:
+## answer_a
+The 1* and 2™ posterior intercostal arteries are branches of the
+## explanation_a
+True, so not the exception. The first and second posterior intercostal arteries are branches of the superior intercostal artery, itself a costocervical-trunk branch of the subclavian artery, rather than of the descending thoracic aorta.
+## answer_b
+The 1° posterior intercostals veins drain into the brachiocephalic veins
+## explanation_b
+True, so not the exception. The first posterior intercostal vein on each side ends in the corresponding brachiocephalic vein, bypassing the azygos/hemiazygos system entirely.
+## answer_c
+The inferior hemiazygos vein arises usually from the right renal vein
+## explanation_c
+This is the exception, and the answer. The department book describes the inferior hemiazygos vein's origin as variable, rather than fixing it to any single named vessel — crediting it with a usual origin from the right renal vein overstates a genuinely unfixed anatomical detail (and confuses it with the left renal vein's own tributaries in the abdomen, a different system altogether).
+
+Why this is right:
+- The azygos vein — the unpaired vein — connects the back of the inferior vena cava in the abdomen with the back of the superior vena cava in the thorax.
+## answer_d
+The lymph vessels of the thoracic wall drain into the intercostal lymph
+## explanation_d
+True of the thoracic wall's general lymphatic pattern, so not the exception sought here.
+## answer_e
+The hemiazygos veins cross behind the descending thoracic aorta
+## explanation_e
+True, so not the exception. The two hemiazygos veins cross the midline behind the descending thoracic aorta on their way to join the azygos vein, at the levels of T8 and T9.
+## correct_answer
+C
+## main_concept
+CON-CVS-09E48983DF8E7C
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+Anatomy
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the inferior hemiazygos vein's origin is described as variable, not as a fixed origin from the right renal vein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p7 q26. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C64F29A9BFD5
+## title
+The Left superior intercostal vein drains usually into the:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The Left superior intercostal vein drains usually into the:
+## answer_a
+Azygos vein
+## explanation_a
+The azygos vein receives the RIGHT superior intercostal vein, not the left — the two sides genuinely do not mirror each other here.
+## answer_b
+Left subclavian vein
+## explanation_b
+The left superior intercostal vein ends in the left brachiocephalic vein, not the left subclavian vein — the subclavian vein is one segment further out, before it even joins the internal jugular to form the brachiocephalic vein.
+## answer_c
+Left brachiocephalic vein
+## explanation_c
+This is the correct answer. The left superior intercostal vein, formed by the second, third and fourth left posterior intercostal veins, drains into the left brachiocephalic vein — unlike its right-sided counterpart, which ends in the arch of the azygos vein instead, because the left side has no azygos arch of its own to receive it.
+
+Why this is right:
+- On the right side the first posterior intercostal vein ends in the right brachiocephalic vein, the second, third and fourth unite as the right superior intercostal vein which ends in the arch of the azygos, and the fifth to eleventh with the subcostal vein open separately into the azygos vein.
+- On the left side the first posterior intercostal vein ends in the left brachiocephalic vein, the second to fourth unite as the left superior intercostal vein which also ends there, the fifth to eighth drain to the superior hemiazygos vein and the ninth to eleventh with the subcostal vein to the inferior hemiazygos, both of which end in the azygos vein.
+## answer_d
+Superior hemiazygos vein
+## explanation_d
+The superior hemiazygos vein receives the fifth to eighth left posterior intercostal veins, a lower group than the second to fourth veins that form the left superior intercostal vein.
+## correct_answer
+C
+## main_concept
+CON-CVS-19E63D8A8E7EDA
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+The Brachiocephalic Veins, SVC and Azygos System
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the left superior intercostal vein ends in the left brachiocephalic vein, not in an azygos arch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q10. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-969963DA03B9
+## title
+The right superior intercostal veins drains into: tePe gd
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The right superior intercostal veins drains into: tePe gd
+## answer_a
+Right brachiocephalic vein
+## explanation_a
+The right brachiocephalic vein receives only the FIRST right posterior intercostal vein directly — the second, third and fourth unite instead as the right superior intercostal vein, which bypasses the brachiocephalic vein and ends in the azygos arch.
+## answer_b
+Left brachiocephalic vein
+## explanation_b
+The left brachiocephalic vein receives the LEFT superior intercostal vein, not the right — the two sides drain into entirely different vessels.
+## answer_d
+Arygos vein
+## explanation_d
+This is the correct answer. The right superior intercostal vein, formed by the second, third and fourth right posterior intercostal veins, ends in the arch of the azygos vein — the asymmetric counterpart to the left superior intercostal vein, which ends in the left brachiocephalic vein instead because the left side has no azygos arch.
+
+Why this is right:
+- On the right side the first posterior intercostal vein ends in the right brachiocephalic vein, the second, third and fourth unite as the right superior intercostal vein which ends in the arch of the azygos, and the fifth to eleventh with the subcostal vein open separately into the azygos vein.
+- On the left side the first posterior intercostal vein ends in the left brachiocephalic vein, the second to fourth unite as the left superior intercostal vein which also ends there, the fifth to eighth drain to the superior hemiazygos vein and the ninth to eleventh with the subcostal vein to the inferior hemiazygos, both of which end in the azygos vein.
+## correct_answer
+D
+## main_concept
+CON-CVS-19E63D8A8E7EDA
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+The Brachiocephalic Veins, SVC and Azygos System
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the right superior intercostal vein ends in the arch of the azygos vein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p5 q32. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CE5527ABDDE6
+## title
+Regarding intercostal blood vessels, one is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding intercostal blood vessels, one is true:
+## answer_a
+right superior intercostal vein drain into the brachiocephalic vein
+## explanation_a
+The right superior intercostal vein ends in the arch of the azygos vein, not directly in the brachiocephalic vein — only the first right posterior intercostal vein (a separate vessel) drains straight into the right brachiocephalic vein.
+## answer_b
+the second intercostal space does not contain a posterior intercostal artery
+## explanation_b
+Every intercostal space, including the second, contains a posterior intercostal artery — the first and second simply arise from the superior intercostal artery rather than the descending thoracic aorta, but they are still present.
+## answer_c
+call intercostal arteries are branches of the descending thoracic aorta
+## explanation_c
+Not all posterior intercostal arteries arise from the descending thoracic aorta — only the third to eleventh spaces do; the first two instead arise from the superior intercostal artery, a costocervical-trunk branch of the subclavian artery.
+## answer_d
+the anterior intercostal veins in the upper two spaces drain into internal mammary vein
+## explanation_d
+This is the correct answer. The anterior intercostal veins of the upper spaces — the first, second and third — drain directly into the internal thoracic vein (the vessel older texts call the internal mammary vein), before the pattern changes for the middle and lower spaces, which reach it only indirectly through the venae comitantes of the internal thoracic and musculophrenic arteries.
+
+Why this is right:
+- The anterior intercostal veins accompany the anterior intercostal arteries — nine pairs, two in each of the upper nine spaces — and drain into the internal thoracic vein or its tributaries.
+## correct_answer
+D
+## main_concept
+CON-CVS-262233E97CFB7E
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+The Brachiocephalic Veins, SVC and Azygos System
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that the upper anterior intercostal veins (first to third space) drain directly into the internal thoracic vein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q30. Manifest src_a80db7ee55cde84f8ec8.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.

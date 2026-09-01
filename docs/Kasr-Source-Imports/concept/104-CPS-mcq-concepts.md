@@ -6,6 +6,7 @@
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 2 questions, 2 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
+    The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Subdivisions of the Mediastinum — 11 questions, 4 concepts
@@ -151,18 +152,21 @@ kau
 1
 ## exam_signal
 src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p15 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p16 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p7 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -446,6 +450,304 @@ src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
 +ART-104-ANA-THORACIC-NERVES
 ## field_notes
 canonical_key "phrenic-nerve.course-and-distribution" already has a pinned id in this module (CON-RES-AFCED19BA66ED2); mintConceptId derives the same id fresh (CON-RES-AFCED19BA66ED2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-9CDFD3C60A2550
+## label
+The two brachiocephalic veins drain the head, neck, upper limbs and thoracic wall, uniting behind the first right costal cartilage to form the superior vena cava
+## canonical_key
+brachiocephalic-veins.formation-and-course
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-WALL-VEINS
+## field_notes
+canonical_key "brachiocephalic-veins.formation-and-course" already has a pinned id in this module (CON-CVS-9CDFD3C60A2550); mintConceptId derives the same id fresh (CON-CVS-9CDFD3C60A2550) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-D2307B39C55336
+## label
+The superior vena cava drains the upper half of the body, has the azygos vein as its only tributary, and enters the right atrium behind the third right costal cartilage
+## canonical_key
+superior-vena-cava.formation-course-and-tributaries
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p46 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-WALL-VEINS
+## field_notes
+canonical_key "superior-vena-cava.formation-course-and-tributaries" already has a pinned id in this module (CON-CVS-D2307B39C55336); mintConceptId derives the same id fresh (CON-CVS-D2307B39C55336) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The right superior intercostal vein (2nd-4th spaces) ends in the azygos arch; the left superior intercostal vein (2nd-4th spaces) instead ends in the left brachiocephalic vein — the two sides do not mirror each other
+## id
+CON-CVS-19E63D8A8E7EDA
+## canonical_key
+posterior-intercostal-and-subcostal-veins.termination
+## definition
+There are eleven posterior intercostal veins and a subcostal vein on each side. On the right the first ends in the right brachiocephalic vein; the second, third and fourth unite as the right superior intercostal vein, which ends in the arch of the azygos vein; and the fifth to eleventh, with the subcostal vein, open separately into the azygos vein. On the left the first ends in the left brachiocephalic vein; the second, third and fourth unite as the left superior intercostal vein, which also ends in the left brachiocephalic vein — not in an azygos arch, since the left side has none; the fifth to eighth open into the superior hemiazygos vein, which begins as the continuation of the fifth; and the ninth, tenth and eleventh, with the subcostal vein, open into the inferior hemiazygos vein. Both hemiazygos veins cross the midline to end in the azygos vein.
+## explicit_objective
+Give the termination of the right and the left superior intercostal vein, and explain why the two sides do not mirror each other.
+## pitfalls
+Mirroring the right-sided pattern onto the left. The left superior intercostal vein ends in the left brachiocephalic vein, not in an azygos arch — there is no left-sided azygos vein to receive it.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Large Veins of the Thorax
+## aliases
+Right superior intercostal vein | Left superior intercostal vein
+## article_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The Left superior intercostal vein drains usually into the:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The anterior intercostal veins drain forwards into the internal thoracic vein or its tributaries, with the pattern changing by space: upper three direct, middle three via the internal thoracic artery's venae comitantes, lower three via the musculophrenic vein
+## id
+CON-CVS-262233E97CFB7E
+## canonical_key
+anterior-intercostal-veins.drainage-pattern
+## definition
+The anterior intercostal veins accompany the anterior intercostal arteries — nine pairs, two in each of the upper nine spaces — and drain into the internal thoracic vein or its tributaries. The first, second and third spaces drain directly into the internal thoracic vein itself; the fourth, fifth and sixth into the venae comitantes of the internal thoracic artery; and the seventh, eighth and ninth into the venae comitantes of the musculophrenic artery, the internal thoracic artery's own terminal branch. Every group ultimately reaches the internal thoracic vein, but only the upper three spaces do so directly.
+## explicit_objective
+State which anterior intercostal veins drain directly into the internal thoracic vein and which reach it only indirectly.
+## pitfalls
+Treating all nine pairs of anterior intercostal veins as draining directly into the internal thoracic vein. Only the upper three (first to third space) do; the middle three and lower three reach it only indirectly, via the venae comitantes of the internal thoracic and musculophrenic arteries respectively.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Large Veins of the Thorax
+## aliases
+Anterior intercostal vein drainage | Internal mammary vein
+## article_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding intercostal blood vessels, one is true:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
