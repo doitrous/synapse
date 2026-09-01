@@ -45,6 +45,34 @@ export const LEAF: McqLeafSeed = {
       type: 'mechanism',
       aliases: ['Determinants of cardiac output', 'What raises or lowers cardiac output'],
     },
+    {
+      // Fresh mint. find-existing.mjs "sympathetic stimulation effects
+      // heart rate contractility cardiac output" / "effect of sympathetic
+      // stimulation on the heart" -> "Safe to create one." Distinct from
+      // this file's own cardiac-output.determinants-and-directional-
+      // effects concept (which covers preload/venous-obstruction routes to
+      // changing CO) and from physiology-cardiac-inotropy-mechanisms.ts's
+      // cAMP-PKA concept (the cellular mechanism of inotropy alone): this
+      // concept is the combined cardiac-side signature of sympathetic
+      // stimulation across all three variables at once, directly grounded
+      // in this file's own article's Mechanism section ("the cardiac-side
+      // signature of dynamic exercise is: heart rate up, inotropy up,
+      // total peripheral resistance down"), restated here for isolated
+      // sympathetic stimulation on the heart rather than the exercise
+      // context specifically — the same directional facts, not a new
+      // claim.
+      key: 'sympathetic-stimulation.cardiac-signature.rate-inotropy-and-cardiac-output',
+      label: 'Sympathetic stimulation of the heart raises heart rate and contractility together, and because cardiac output equals heart rate times stroke volume, this combined rise in both determinants raises cardiac output',
+      definition: "Sympathetic stimulation of the heart, acting mainly through beta1-adrenergic receptors, raises heart rate (a positive chronotropic effect, via a faster SA-node pacemaker current) and raises myocardial contractility (a positive inotropic effect, via increased cytoplasmic Ca++ availability) together, not as two independent, unrelated changes. Because cardiac output equals heart rate multiplied by stroke volume, and increased contractility itself raises stroke volume, both multiplicands of the cardiac output equation rise together under sympathetic drive, so cardiac output rises as well. This article's own account of dynamic exercise states the same three-part cardiac-side signature explicitly: heart rate up, inotropy up, total peripheral resistance down — the identical directional pattern applies to sympathetic stimulation of the heart considered on its own.",
+      objective: 'State that sympathetic stimulation of the heart raises heart rate, contractility and (via both) cardiac output together, as a single coordinated cardiac-side signature rather than three unrelated effects.',
+      pitfall: 'Treating heart rate, contractility and cardiac output as three separate facts to memorise independently, rather than recognising that a coordinated rise in the first two, under the CO = HR x SV relationship, is exactly what produces the third.',
+      subject: 'cvs',
+      primary: 'DIS-PHY-T02',
+      secondary: ['SYS-CVS-T01-S01'],
+      modulePath: '104 CPS > Physiology > Cardiovascular System > Cardiac Function',
+      type: 'mechanism',
+      aliases: ['Sympathetic effects on the heart', 'Cardiac-side signature of sympathetic stimulation'],
+    },
   ],
 
   questions: [
@@ -217,6 +245,50 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: 'The credited option ("Blood pressure of 160/100", i.e. elevated afterload) and the listed distractor "Venous obstruction" are both mechanistically capable of lowering cardiac output (afterload mismatch versus reduced preload), so picking a single best answer between them is not defensible without a source establishing which the examiner intended as the discriminator. The cleaner sibling question testing the same underlying determinants-of-CO fact, without this ambiguity, is already kept as which-of-the-following-is-associated-with-a-decrease-in-card-e182b510.',
+    },
+    {
+      // Leaf-mismatch reroute: bank-tagged "Mechanical Properties of
+      // Cardiac Muscle" — genuinely this file's own cardiac-index concept
+      // (already states CO ~5 L/min and cardiac index ~3.2 L/min/m2), no
+      // new search needed since this is this pipeline's own already-
+      // committed concept.
+      key: 'regarding-cardiac-index-the-following-is-truc-except-80705f05',
+      conceptKey: 'cardiac-output.definition-formula-and-index',
+      difficulty: 'Moderate',
+      questionType: 'Recall of a false statement',
+      learningObjective: 'State that cardiac index — cardiac output per square metre of body surface area, related to a person\'s height and weight and dependent on ventricular contractility — is normally about 3.2 L/min/m2, not the ~5 L/min figure that describes cardiac output itself.',
+      explanations: {
+        A: 'True of cardiac index, so not the exception. Cardiac index is defined as cardiac output divided by body surface area, in L/min/m2.',
+        B: 'The exception, and the answer. About 5 litres/minute is the normal value of cardiac OUTPUT itself, not cardiac index; correcting for a typical adult body surface area of roughly 1.6-1.9 m2 gives a normal cardiac index of about 3.2 L/min/m2, a materially smaller number.',
+        C: 'True of cardiac index, so not the exception. Because cardiac index divides cardiac output by body surface area, and body surface area is calculated from height and weight, cardiac index is related to a person\'s height and weight.',
+        D: 'True of cardiac index, so not the exception. Cardiac index rises and falls with cardiac output, which in turn depends on stroke volume — itself dependent on ventricular contractility — and heart rate.',
+      },
+    },
+    {
+      key: 'sympathetic-stimulation-has-the-following-effect-s-on-the-he-e6a61131',
+      conceptKey: 'sympathetic-stimulation.cardiac-signature.rate-inotropy-and-cardiac-output',
+      difficulty: 'Easy',
+      questionType: 'Recall of a comprehensive true statement',
+      learningObjective: 'State that sympathetic stimulation of the heart increases heart rate, cardiac output and contractility together, as a single coordinated set of effects, so the comprehensive option is correct.',
+      explanations: {
+        A: 'True, but incomplete alone. Sympathetic stimulation does increase heart rate (positive chronotropy) — but it produces this together with the other two listed effects, not instead of them.',
+        B: 'True, but incomplete alone. Sympathetic stimulation does increase cardiac output — as the coordinated consequence of the rise in both heart rate and contractility below — but not as an effect isolated from them.',
+        C: 'True, but incomplete alone. Sympathetic stimulation does increase myocardial contractility (positive inotropy), via the beta-adrenergic-cAMP-PKA pathway — but again, together with the other two effects, not alone.',
+        E: 'Correct. Sympathetic stimulation of the heart raises heart rate and contractility together, and because cardiac output equals heart rate times stroke volume, this combined rise raises cardiac output as well — all three listed effects are genuine, interconnected consequences of sympathetic stimulation, so the comprehensive option is the correct choice.',
+      },
+    },
+    {
+      key: 'what-is-the-effect-of-sympathetic-stimulation-on-the-heart-836e2203',
+      conceptKey: 'sympathetic-stimulation.cardiac-signature.rate-inotropy-and-cardiac-output',
+      difficulty: 'Easy',
+      questionType: 'Recall of a comprehensive true statement',
+      learningObjective: 'State that sympathetic stimulation of the heart increases heart rate, cardiac output and contractility together, as a single coordinated set of effects, so the comprehensive option is correct.',
+      explanations: {
+        A: 'True, but incomplete alone. Sympathetic stimulation does increase heart rate (positive chronotropy) — but together with the other two listed effects, not instead of them.',
+        B: 'True, but incomplete alone. Sympathetic stimulation does increase cardiac output, as the coordinated consequence of the rise in both heart rate and contractility — but not as an effect isolated from them.',
+        C: 'True, but incomplete alone. Sympathetic stimulation does increase myocardial contractility (positive inotropy), via the beta-adrenergic-cAMP-PKA pathway — but again, together with the other two effects, not alone.',
+        D: 'Correct. Sympathetic stimulation of the heart raises heart rate and contractility together, and because cardiac output equals heart rate times stroke volume, this combined rise raises cardiac output as well — all three listed effects are genuine, interconnected consequences of sympathetic stimulation, so the comprehensive option is the correct choice.',
+      },
     },
   ],
 }

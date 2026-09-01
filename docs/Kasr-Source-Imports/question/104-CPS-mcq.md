@@ -11,7 +11,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
-    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 9 questions, 3 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 10 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
@@ -37,13 +37,13 @@
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
-    Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 4 questions, 2 concepts
+    Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 12 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 17 questions, 4 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 16 questions, 6 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -67,7 +67,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  110 questions were excluded and 0 held back for having no
+  116 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -29625,6 +29625,282 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-077BDB9244AD
+## title
+Increasing the inotropic state of the heart will ans —
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Increasing the inotropic state of the heart will ans —
+## answer_a
+Shift the force-velocity relationship down and right
+## explanation_a
+Backwards. Increased inotropy shifts the force-velocity relationship UP and to the RIGHT, not down and to the right — the heart can now generate more force and a higher velocity of shortening at any given afterload.
+## answer_b
+Shift the length tension relationship up and left
+## explanation_b
+Correct. Increased inotropy — more Ca++ available for cross-bridge cycling — lets the myocyte develop a given active tension at the same or an even shorter sarcomere length than before, shifting the length-tension relationship up and to the left.
+
+Why this is right:
+- The force-velocity relationship of cardiac muscle is an inverse curve: as afterload (the load the muscle must shorten against) rises, the velocity of shortening falls, extrapolating toward zero velocity — a fully isometric contraction — at a maximal afterload the muscle cannot overcome at all.
+## answer_c
+Vmax does not change
+## explanation_c
+Backwards. Vmax, the force-velocity curve's maximal, load-independent, zero-load velocity intercept, genuinely INCREASES with increased inotropy — it is a classic index of enhanced contractility, not an unchanged parameter.
+## answer_d
+Decrease in degree of shortening of myocytes Page 2 of
+## explanation_d
+Backwards. Increased inotropy INCREASES, not decreases, the degree of myocyte shortening at any given preload and afterload, which is exactly why it raises stroke volume.
+## correct_answer
+B
+## main_concept
+CON-CVS-EF660365382133
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## subtopic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that increased inotropy shifts the force-velocity curve up and to the right (not down and right), shifts the length-tension curve up and to the left, genuinely raises Vmax, and increases (not decreases) the degree of myocyte shortening.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p3 q18. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E7058EF43416
+## title
+Increasing the inotropic state of the myocardium will:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Increasing the inotropic state of the myocardium will:
+## answer_a
+Increase end-systolic volume
+## explanation_a
+Backwards. A more forcefully contracting ventricle ejects more completely, LOWERING, not raising, end-systolic volume — the blood left behind after ejection falls, it does not rise.
+## answer_b
+Increase the width of the pressure-volume loop
+## explanation_b
+Correct. Increased inotropy lowers end-systolic volume without requiring any change in end-diastolic volume (preload); because the pressure-volume loop's width at any given pressure is the difference between these two volumes (i.e. stroke volume), a lower end-systolic volume at an unchanged end-diastolic volume widens the loop.
+
+Why this is right:
+- The force-velocity relationship of cardiac muscle is an inverse curve: as afterload (the load the muscle must shorten against) rises, the velocity of shortening falls, extrapolating toward zero velocity — a fully isometric contraction — at a maximal afterload the muscle cannot overcome at all.
+## answer_c
+Increase ventricular end-diastolic volume
+## explanation_c
+End-diastolic volume is a preload parameter, set by venous return and ventricular filling before contraction begins — inotropy (contractility) changes what the ventricle does with that volume once contraction starts, not the filling volume itself.
+## answer_d
+Shift the force-velocity relationship to the left
+## explanation_d
+Backwards. Increased inotropy shifts the force-velocity relationship up and to the RIGHT, not to the left — more force and velocity of shortening are available at any given afterload.
+## correct_answer
+B
+## main_concept
+CON-CVS-EF660365382133
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that increased inotropy widens the ventricular pressure-volume loop (by lowering end-systolic volume at an unchanged end-diastolic volume, so stroke volume rises), rather than raising end-systolic or end-diastolic volume or shifting the force-velocity curve leftward.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p13 q96. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CC907DD59905
+## title
+The velocity of shortening of cardiac muscle is decreased by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The velocity of shortening of cardiac muscle is decreased by:
+## answer_a
+increased the preload
+## explanation_a
+Increased preload, via the Frank-Starling mechanism, can modestly INCREASE, not decrease, the degree and velocity of shortening at a given afterload.
+## answer_b
+increased the positive inotropic state
+## explanation_b
+Increased positive inotropic state shifts the entire force-velocity curve up and to the right, INCREASING, not decreasing, the velocity of shortening at any given afterload.
+## answer_c
+increasing the afterload
+## explanation_c
+Correct. As afterload rises, the muscle must generate more force before it can begin to shorten at all, directly reducing the velocity at which shortening occurs — velocity falls toward zero as afterload approaches the fully isometric (maximal) extreme.
+
+Why this is right:
+- The force-velocity relationship of cardiac muscle is an inverse curve: as afterload (the load the muscle must shorten against) rises, the velocity of shortening falls, extrapolating toward zero velocity — a fully isometric contraction — at a maximal afterload the muscle cannot overcome at all.
+## answer_d
+achieving Vmax when the load is zero
+## explanation_d
+Vmax is the MAXIMUM velocity of shortening, reached specifically at zero load — the opposite extreme from a decreased velocity, not a cause of one.
+## correct_answer
+C
+## main_concept
+CON-CVS-EF660365382133
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## subtopic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that increased afterload — not increased preload, increased inotropy, or achieving Vmax at zero load — decreases the velocity of shortening of cardiac muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p8 q56. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-F33C21821BF7
 ## title
 Which phase of the cardiac cycle is absent if there is no P wave on the electrocardiogr…
@@ -34045,6 +34321,282 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-F154DCF19494
+## title
+Regarding cardiac index the following is truc, except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding cardiac index the following is truc, except:
+## answer_a
+It is the cardiac output per square meter of body surface area
+## explanation_a
+True of cardiac index, so not the exception. Cardiac index is defined as cardiac output divided by body surface area, in L/min/m2.
+## answer_b
+It is about 5 liters/min in healthy adult
+## explanation_b
+The exception, and the answer. About 5 litres/minute is the normal value of cardiac OUTPUT itself, not cardiac index; correcting for a typical adult body surface area of roughly 1.6-1.9 m2 gives a normal cardiac index of about 3.2 L/min/m2, a materially smaller number.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+It is related to height and weight of the person. |
+## explanation_c
+True of cardiac index, so not the exception. Because cardiac index divides cardiac output by body surface area, and body surface area is calculated from height and weight, cardiac index is related to a person's height and weight.
+## answer_d
+It depends upon contractility of the ventricles. i
+## explanation_d
+True of cardiac index, so not the exception. Cardiac index rises and falls with cardiac output, which in turn depends on stroke volume — itself dependent on ventricular contractility — and heart rate.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that cardiac index — cardiac output per square metre of body surface area, related to a person's height and weight and dependent on ventricular contractility — is normally about 3.2 L/min/m2, not the ~5 L/min figure that describes cardiac output itself.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p14 q109. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-35C6AD366EFB
+## title
+Sympathetic stimulation has the following effect(s) on the heart:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Sympathetic stimulation has the following effect(s) on the heart:
+## answer_a
+Increased heart rate
+## explanation_a
+True, but incomplete alone. Sympathetic stimulation does increase heart rate (positive chronotropy) — but it produces this together with the other two listed effects, not instead of them.
+## answer_b
+Increased cardiac output
+## explanation_b
+True, but incomplete alone. Sympathetic stimulation does increase cardiac output — as the coordinated consequence of the rise in both heart rate and contractility below — but not as an effect isolated from them.
+## answer_c
+Increased contractility
+## explanation_c
+True, but incomplete alone. Sympathetic stimulation does increase myocardial contractility (positive inotropy), via the beta-adrenergic-cAMP-PKA pathway — but again, together with the other two effects, not alone.
+## answer_e
+All of the above
+## explanation_e
+Correct. Sympathetic stimulation of the heart raises heart rate and contractility together, and because cardiac output equals heart rate times stroke volume, this combined rise raises cardiac output as well — all three listed effects are genuine, interconnected consequences of sympathetic stimulation, so the comprehensive option is the correct choice.
+
+Why this is right:
+- Sympathetic stimulation of the heart, acting mainly through beta1-adrenergic receptors, raises heart rate (a positive chronotropic effect, via a faster SA-node pacemaker current) and raises myocardial contractility (a positive inotropic effect, via increased cytoplasmic Ca++ availability) together, not as two independent, unrelated changes.
+## correct_answer
+E
+## main_concept
+CON-CVS-87EC1C2FC5D77D
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a comprehensive true statement
+## learning_objective
+State that sympathetic stimulation of the heart increases heart rate, cardiac output and contractility together, as a single coordinated set of effects, so the comprehensive option is correct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p13 q99. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D41A8DB6FC8D
+## title
+What is the effect of sympathetic stimulation on the heart?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the effect of sympathetic stimulation on the heart?
+## answer_a
+Increased heart rate 1
+## explanation_a
+True, but incomplete alone. Sympathetic stimulation does increase heart rate (positive chronotropy) — but together with the other two listed effects, not instead of them.
+## answer_b
+Increased cardiac output
+## explanation_b
+True, but incomplete alone. Sympathetic stimulation does increase cardiac output, as the coordinated consequence of the rise in both heart rate and contractility — but not as an effect isolated from them.
+## answer_c
+Increased contractility
+## explanation_c
+True, but incomplete alone. Sympathetic stimulation does increase myocardial contractility (positive inotropy), via the beta-adrenergic-cAMP-PKA pathway — but again, together with the other two effects, not alone.
+## answer_d
+All of the above
+## explanation_d
+Correct. Sympathetic stimulation of the heart raises heart rate and contractility together, and because cardiac output equals heart rate times stroke volume, this combined rise raises cardiac output as well — all three listed effects are genuine, interconnected consequences of sympathetic stimulation, so the comprehensive option is the correct choice.
+
+Why this is right:
+- Sympathetic stimulation of the heart, acting mainly through beta1-adrenergic receptors, raises heart rate (a positive chronotropic effect, via a faster SA-node pacemaker current) and raises myocardial contractility (a positive inotropic effect, via increased cytoplasmic Ca++ availability) together, not as two independent, unrelated changes.
+## correct_answer
+D
+## main_concept
+CON-CVS-87EC1C2FC5D77D
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a comprehensive true statement
+## learning_objective
+State that sympathetic stimulation of the heart increases heart rate, cardiac output and contractility together, as a single coordinated set of effects, so the comprehensive option is correct.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p6 q19. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-30851052ECE6
 ## title
 All about cardiac preload is true, EXCEPT:
@@ -35415,6 +35967,192 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p12 q94. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4F0874A26B73
+## title
+A reduction of carotid sinus pressure would cause a decrease in a, Heart rate b, Myocar…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A reduction of carotid sinus pressure would cause a decrease in a, Heart rate b, Myocardial contractility
+## answer_a
+Heart rate
+## explanation_a
+Backwards. A reduction in carotid sinus pressure lowers baroreceptor discharge, which raises sympathetic outflow to the heart — heart rate RISES, it does not fall.
+## answer_b
+Myocardial contractility
+## explanation_b
+Backwards. The same rise in sympathetic outflow raises myocardial contractility (positive inotropy) — it does not fall.
+## answer_c
+Total peripheral resistance
+## explanation_c
+Backwards. Increased sympathetic outflow constricts arterioles throughout the body, RAISING total peripheral resistance, not lowering it.
+## answer_d
+Venous capacitance
+## explanation_d
+Correct. The same increased sympathetic outflow also constricts the veins — highly compliant capacitance vessels — which REDUCES venous capacitance (the volume the venous system can hold at a given pressure), mobilising blood toward the heart. Among the four listed variables, venous capacitance is the one that genuinely decreases; heart rate, contractility and total peripheral resistance all rise instead.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## correct_answer
+D
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that a fall in carotid sinus pressure lowers baroreceptor discharge, raising sympathetic outflow, so that heart rate, contractility and total peripheral resistance all RISE while venous capacitance is the one variable among these that FALLS, through sympathetically driven venoconstriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p23 q172. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A78CF473DFC8
+## title
+During hemorrhagic shock, the patient exhibits a, Decreased heart rate
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During hemorrhagic shock, the patient exhibits a, Decreased heart rate
+## answer_a
+Decreased heart rate
+## explanation_a
+Backwards. Hemorrhage lowers arterial pressure, which lowers baroreceptor discharge and raises sympathetic outflow to the heart — heart rate RISES (reflex tachycardia), it does not fall.
+## answer_b
+Decreased total peripheral resistance
+## explanation_b
+Backwards. The same rise in sympathetic outflow raises total peripheral resistance, through arteriolar vasoconstriction — it does not fall.
+## answer_c
+Decreased myocardial contractility
+## explanation_c
+Backwards. The same rise in sympathetic outflow raises myocardial contractility (positive inotropy) — it does not fall.
+## answer_d
+Decreased venous pressure
+## explanation_d
+Correct. Venous pressure falls in hemorrhagic shock, reflecting the direct loss of circulating blood volume itself — distinct from the baroreceptor reflex's own compensatory changes (which raise heart rate, contractility and total peripheral resistance, all in the opposite direction from options A-C above).
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## correct_answer
+D
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that in compensated hemorrhagic shock, the baroreceptor reflex to falling arterial pressure raises heart rate, contractility and total peripheral resistance, while venous pressure itself falls as a direct consequence of the underlying blood-volume loss.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q177. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

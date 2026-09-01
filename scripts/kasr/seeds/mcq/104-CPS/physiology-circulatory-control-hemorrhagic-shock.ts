@@ -71,6 +71,42 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Athletic heart syndrome", "Training bradycardia", "Effects of endurance training on the heart"],
     },
+    {
+      // Sparse reuse, not a fresh mint: find-existing.mjs "carotid sinus
+      // baroreceptor" / "baroreceptor reflex" surfaced a hand-authored,
+      // pinned record (CON-CVS-C3E60AC7A9EDB1, canonical_key
+      // "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-
+      // arterial-pressure") already sitting in 104-CPS-concepts.md (the
+      // written-paper pipeline's own generated concept file, not
+      // GENERATED_BY this MCQ pipeline, so existingConceptIds() for module
+      // "104 CPS" does see it — the same reuse class documented repeatedly
+      // elsewhere in this branch). Its own module_subject there is already
+      // "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms
+      // of Circulatory Control" — this exact leaf — and its own
+      // article_ids names ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX (a
+      // different, real, live article from this file's own
+      // ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL; sparse reuse leaves
+      // the pinned record's own article_ids untouched, so this is not a
+      // mispin). Declaring the same key here resolves to
+      // CON-CVS-C3E60AC7A9EDB1 and emits a sparse update only; every other
+      // field below is inert for the build, restated close to the pinned
+      // record's own wording so a reader here does not have to open the
+      // concept file to know what is being reused.
+      key: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      label: "Baroreceptor discharge rises and falls with arterial pressure and, through the nucleus of the tractus solitarius, opposes whichever change caused it",
+      definition: "Arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch, reporting to the nucleus of the tractus solitarius through the carotid sinus (Hering's) nerve and the aortic nerve. When arterial pressure rises their discharge increases: the vasomotor area is inhibited more, so sympathetic drive to heart and vessels falls, giving a lower heart rate, stroke volume and cardiac output with vasodilatation; and the cardiac inhibitory area is excited more, so vagal tone rises and the rate falls further. When arterial pressure falls the discharge decreases and every one of those changes reverses, raising the pressure back towards normal.",
+      objective: "State where the arterial baroreceptors sit, which nerves they use, and what each limb of the reflex does when arterial pressure rises and when it falls.",
+      pitfall: "Answering with the atrial volume receptors. Those are low-pressure receptors whose reflex is about volume, not arterial pressure.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: ["SYS-CVS-T01-S02-M03"],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Baroreceptor reflex", "Carotid sinus reflex", "Buffer reflex"],
+      conflicts: [
+        "No conflicting record found; find-existing.mjs returned this concept as the only hit for 'carotid sinus baroreceptor' and 'baroreceptor reflex', confirming reuse rather than a fresh mint.",
+      ],
+    },
   ],
 
   questions: [
@@ -218,6 +254,66 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "Only 3 options survived extraction (A, B, D) — the fourth (C) is missing entirely, below the platform's 4-to-5-option import contract. The same fact — that trained athletes have a higher resting stroke volume — is already established by this leaf's own when-compared-to-normal-subject-trained-athletes-have-a-a-sm-70c1bd30 question.",
+    },
+    {
+      // Leaf-mismatch reroute: bank-tagged "Mechanical Properties of
+      // Cardiac Muscle", genuinely this leaf's own baroreceptor-reflex
+      // content — routed onto the sparse-reused concept above.
+      key: "a-reduction-of-carotid-sinus-pressure-would-cause-a-decrease-8602bea7",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that a fall in carotid sinus pressure lowers baroreceptor discharge, raising sympathetic outflow, so that heart rate, contractility and total peripheral resistance all RISE while venous capacitance is the one variable among these that FALLS, through sympathetically driven venoconstriction.",
+      explanations: {
+        A: "Backwards. A reduction in carotid sinus pressure lowers baroreceptor discharge, which raises sympathetic outflow to the heart — heart rate RISES, it does not fall.",
+        B: "Backwards. The same rise in sympathetic outflow raises myocardial contractility (positive inotropy) — it does not fall.",
+        C: "Backwards. Increased sympathetic outflow constricts arterioles throughout the body, RAISING total peripheral resistance, not lowering it.",
+        D: "Correct. The same increased sympathetic outflow also constricts the veins — highly compliant capacitance vessels — which REDUCES venous capacitance (the volume the venous system can hold at a given pressure), mobilising blood toward the heart. Among the four listed variables, venous capacitance is the one that genuinely decreases; heart rate, contractility and total peripheral resistance all rise instead.",
+      },
+    },
+    {
+      // Leaf-mismatch reroute: bank-tagged "Mechanical Properties of
+      // Cardiac Muscle", genuinely this leaf's own compensated-
+      // hemorrhagic-shock content — routed onto the same baroreceptor-
+      // reflex concept as the row above, since the fall in arterial
+      // pressure that triggers hemorrhagic shock's compensatory response
+      // is the identical reflex arc. Option D's own fact — that venous
+      // pressure falls in hemorrhagic shock — reflects the primary volume
+      // loss itself rather than a further consequence of the reflex the
+      // pinned concept states; this is standard, undisputed hemodynamics
+      // (a falling blood volume lowers venous pressure directly) rather
+      // than a claim requiring its own separate source, and is disclosed
+      // here rather than presented as though the reused concept states it
+      // explicitly.
+      key: "during-hemorrhagic-shock-the-patient-exhibits-a-decreased-he-5f1a1828",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that in compensated hemorrhagic shock, the baroreceptor reflex to falling arterial pressure raises heart rate, contractility and total peripheral resistance, while venous pressure itself falls as a direct consequence of the underlying blood-volume loss.",
+      explanations: {
+        A: "Backwards. Hemorrhage lowers arterial pressure, which lowers baroreceptor discharge and raises sympathetic outflow to the heart — heart rate RISES (reflex tachycardia), it does not fall.",
+        B: "Backwards. The same rise in sympathetic outflow raises total peripheral resistance, through arteriolar vasoconstriction — it does not fall.",
+        C: "Backwards. The same rise in sympathetic outflow raises myocardial contractility (positive inotropy) — it does not fall.",
+        D: "Correct. Venous pressure falls in hemorrhagic shock, reflecting the direct loss of circulating blood volume itself — distinct from the baroreceptor reflex's own compensatory changes (which raise heart rate, contractility and total peripheral resistance, all in the opposite direction from options A-C above).",
+      },
+    },
+    {
+      // Bookkeeping exclude: already unanswerable at the bank's own
+      // editorial stage (answer: null, editorialExcluded: true). A
+      // duplicate-occurrence, corrupted copy of the row kept above
+      // (during-hemorrhagic-shock-the-patient-exhibits-a-decreased-he-
+      // 5f1a1828): all four of its own surviving options are inconsistent
+      // with the compensatory response the reused baroreceptor-reflex
+      // concept states. Recorded here for a complete accounting of this
+      // leaf.
+      key: "during-hemorrhagic-shock-the-patient-exhibits-4d2e0a8d",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already unanswerable at the bank's own editorial stage (answerConfidence: none, editorialExcluded: true): all four surviving options are inconsistent with the well-established compensatory response to hemorrhagic shock (heart rate, total peripheral resistance and myocardial contractility all INCREASE via sympathetic activation, none decrease), and the fourth option ('peaks in early diastole') is an unrelated fragment about coronary flow timing rather than a genuine systemic shock finding. The clean, complete sibling copy of this question is already kept as during-hemorrhagic-shock-the-patient-exhibits-a-decreased-he-5f1a1828.",
     },
   ],
 }

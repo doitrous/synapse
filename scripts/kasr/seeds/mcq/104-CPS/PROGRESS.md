@@ -1673,3 +1673,154 @@ concept before minting), then hemorrhagic shock (check `physiology-
 circulatory-control-hemorrhagic-shock.ts` before minting), then close out
 the leaf's 2 mistagged rows, then move to Vascular Function per the
 dispatch's own queued order.
+
+## run36 (off run35 @ 4163717f) — Mechanical Properties of Cardiac Muscle
+CLOSED (34/36 accounted: 26 kept, 8 excluded; 2 deliberately left, both
+genuinely out of this cluster). One commit, full gate run before
+committing.
+
+Recomputed the exact remainder directly against the bank (leaf ==
+"Mechanical Properties of Cardiac Muscle") cross-referenced against every
+seed file's own claimed question keys, since the handoff note above was
+written mid-session and undercounted slightly — 15 remained at the start
+of this session, not 17.
+
+**`find-existing.mjs` run for every candidate before minting anything**,
+per the heightened CVS dedup mitigation:
+
+- `physiology-cardiac-preload-frank-starling.ts`: +1 row
+  (`according-to-the-frank-starling-law-of-the-heart-f4ab249c`) onto the
+  file's own already-declared Frank-Starling concept — reroute, no search
+  needed. **Self-caught defect**: drafted as kept on first pass, but the
+  first `medical:batch` run flagged it (3 options, no D — the bank
+  extraction never recovered a 4th option). Converted to `exclude: true`;
+  the fix is reflected in the gate-line history below (first run: 7
+  errors; after fix: back to the 6 pre-existing). The same law is already
+  tested by 8 other kept questions in this file, so no content lost.
+- `physiology-cardiac-output-formula.ts`: +3 rows.
+  `regarding-cardiac-index-the-following-is-truc-except-80705f05` reroutes
+  onto this file's own already-existing
+  `cardiac-output.definition-formula-and-index` concept, which already
+  states CO ~5 L/min and cardiac index ~3.2 L/min/m2 — an exact match for
+  the "except" answer (5 L/min is CO, not cardiac index). **Fresh mint**
+  `sympathetic-stimulation.cardiac-signature.rate-inotropy-and-cardiac-output`
+  (`find-existing.mjs` "sympathetic stimulation effects heart rate
+  contractility cardiac output" -> safe to create), directly grounded in
+  this file's own `ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE` article, whose
+  Mechanism section states the identical "heart rate up, inotropy up"
+  cardiac-side signature for exercise — restated here for isolated
+  sympathetic stimulation, not a new claim. 2 kept questions onto it
+  (`sympathetic-stimulation-has-the-following-effect-s-on-the-he-e6a61131`,
+  `what-is-the-effect-of-sympathetic-stimulation-on-the-heart-836e2203`).
+- `physiology-cardiac-afterload-and-pv-loop.ts`: +5 rows (2 kept, 3
+  excluded), all onto the file's own already-existing
+  `ventricular-afterload.effect-on-shortening.force-velocity-relationship`
+  concept — **no fresh mint needed**: that concept's own definition,
+  minted by an earlier session specifically to contrast afterload against
+  inotropy, already states "increased inotropy... shifts the entire curve
+  up and to the right and genuinely raises Vmax" — exactly the fact this
+  leaf's remaining inotropy/force-velocity/PV-loop rows test. Kept:
+  `increasing-the-inotropic-state-of-the-heart-will-ans-25958be0` (force-
+  velocity/length-tension/Vmax/degree-of-shortening, answer B),
+  `the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-68b1dda6`
+  (afterload decreases shortening velocity, answer C). Leaf-mismatch
+  reroute kept: `increasing-the-inotropic-state-of-the-myocardium-will-
+  4a21ac61` (bank-tagged "The heart", genuinely this concept's own PV-
+  loop-width content, answer B — the row PROGRESS.md's own run31 entry
+  flagged as needing a new concept that a later session, unlogged here,
+  already minted). **Gap disclosed**: the length-tension curve's own
+  shift direction with inotropy (up-and-left) is not explicitly stated by
+  this concept or `ART-104-PHY-CARDIAC-MECHANICS` — standard, undisputed
+  cardiac physiology, flagged for the article-authoring lane. Excluded:
+  `increasing-the-inotropic-state-of-the-heart-will-968a1868` (credited
+  answer's own option text is OCR-garbled — "Wmiax increases" for "Vmax
+  increases" — no seed-level field can repair option text; identical fact
+  taught cleanly by the kept sibling above), plus 2 bank-level-
+  unanswerable bookkeeping excludes
+  (`the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-f3398b36`,
+  `stroke-volume-reserve-sv-7-from-70-up-to-200-ml-during-max-e-64548dbe`)
+  recorded for a complete accounting.
+- `cardiovascular-autonomic-control-and-refractory-periods.ts` (an
+  Electrical Activity of the Heart file — leaf-mismatch reroute): +1
+  excluded row (`positive-chronotropic-effect-of-sympathetic-stimulation-
+  is-8acc86aa`) onto the file's own existing chronotropy-dromotropy
+  concept. A distractor option (B) is an uninterpretable extraction
+  fragment ("The orig decreases the contractility"); the bank's own
+  `variants` field confirms a cleaner copy of this same paper reads
+  differently for B, proving corruption rather than mere terseness. The
+  credited funny-current fact is already taught cleanly by this file's own
+  sibling question, so excluded rather than guessed past.
+- `physiology-circulatory-control-hemorrhagic-shock.ts` (a Basic
+  Mechanisms of Circulatory Control file — leaf-mismatch reroute): +3 rows
+  (2 kept, 1 bookkeeping exclude). **Sparse reuse, not a fresh mint**:
+  `find-existing.mjs "carotid sinus baroreceptor"` / "baroreceptor reflex"
+  surfaced a hand-authored, pinned record (`CON-CVS-C3E60AC7A9EDB1`,
+  canonical_key `arterial-baroreceptor-reflex.response-to-a-rise-and-a-
+  fall-in-arterial-pressure`) already sitting in `104-CPS-concepts.md`
+  (the written-paper pipeline's own generated file, not `GENERATED_BY`
+  this MCQ pipeline), already pinned to this exact leaf's module_subject.
+  2 kept: `a-reduction-of-carotid-sinus-pressure-would-cause-a-decrease-
+  8602bea7` (falling carotid pressure raises HR/contractility/TPR, lowers
+  venous capacitance — the concept's own stated reflex arc) and
+  `during-hemorrhagic-shock-the-patient-exhibits-a-decreased-he-5f1a1828`
+  (same reflex raises HR/contractility/TPR in compensated shock; venous
+  pressure itself falls from the primary volume loss, disclosed as basic
+  undisputed hemodynamics distinct from what the reused concept states
+  explicitly, not invented). 1 bookkeeping exclude
+  (`during-hemorrhagic-shock-the-patient-exhibits-4d2e0a8d`, a corrupted
+  duplicate-occurrence copy already unanswerable at the bank's own
+  editorial stage).
+
+**2 rows left deliberately unclaimed, cluster still counted CLOSED**
+(neither is genuinely Mechanical Properties of Cardiac Muscle content —
+confirmed by reading each row directly):
+- `the-plasticity-of-the-urinary-bladder-is-explained-by-8bf89a19` —
+  genuinely urinary-system smooth-muscle physiology, out of 104 CPS's own
+  cardiovascular scope entirely (no CVS concept or article teaches
+  bladder plasticity; forcing it in would mean inventing a home for it).
+  Left unauthored, no seed file references this key.
+- `the-poiseuille-law-is-concerned-with-which-of-the-following-501dd5db` —
+  genuinely Vascular Function hemodynamics (Poiseuille's law -> vascular
+  resistance), the next cluster in this dispatch's own queued order. Down
+  payment: pick this up first when opening that cluster rather than
+  re-deriving from scratch.
+
+Gate (this commit): 542 kept (+8 from 534), 116 excluded (+6 from 110),
+128 MCQ concepts (+2: 1 fresh mint + 1 pinned concept's first appearance
+in this pipeline's own file via sparse reuse). `medical:batch` full
+`--with` (10-file recipe: 6 concept files + 4 article files): 6 errors —
+all pre-existing (2 known-false-positive `library_ids` coverage errors on
+the digitalis rows, 4 pre-existing respiratory 3-option-contract rows), 0
+new (confirmed by an intermediate run that caught and fixed the
+Frank-Starling 3-option row above; final run matches the 6-error
+baseline exactly). `medical:simulate` (positional, 11 files: 6 concept +
+4 article + the question file): `errors: []`, `skipped: []`, delta
+concepts +240 / articles +57 (whole-library totals, additive). `medical:
+audit --source`: 579 total errors (systemic, pre-existing); every touched
+id (`CON-CVS-87EC1C2FC5D77D` fresh mint, `CON-CVS-C3E60AC7A9EDB1` and
+`CON-CVS-BF82D6F52B72C9` reuses) shows exactly the same pre-existing pair
+(1 shared `atomicClaimIds`-missing bulk line + 1 "references unknown
+resource" line) already documented for every `needs_evidence` concept in
+this branch — 0 real errors introduced. `medical:duplicate-keys`: 0
+canonical key collisions, 1 pre-existing label collision (Aspirin/102
+INT, unrelated).
+
+## Next action (resume-first)
+
+Mechanical Properties of Cardiac Muscle is CLOSED. Next: **Vascular
+Function** (35 bank-tagged rows) per the dispatch's own queued order —
+start with the down-payment `the-poiseuille-law-is-concerned-with-which-
+of-the-following-501dd5db` row above (Poiseuille's law -> vascular
+resistance), then recompute the exact remainder for leaf "Vascular
+Function" the same way this session did (cross-reference the bank against
+every seed file's own claimed question keys — do not trust any prior
+session's row-count note without recomputing). Check
+`104-CPS-physiology-concepts.md` for pinned, unimported Vascular-Function
+concepts before minting anything, per the heightened dedup mitigation —
+this cluster already turned up two "no fresh mint needed, an earlier
+session's own concept already says it" wins, so check thoroughly before
+assuming a gap.
+
+HANDOFF: kasr-104-author-run36@<this commit's sha, see `git log -1`> ·
+resume-first: Vascular Function cluster, starting with the Poiseuille-law
+down-payment row.

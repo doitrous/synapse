@@ -200,5 +200,26 @@ export const LEAF: McqLeafSeed = {
         D: 'Sympathetic stimulation produces a positive, not negative, inotropic effect, via the beta-adrenergic-cAMP-PKA pathway that raises cytoplasmic Ca++.',
       },
     },
+    {
+      // Leaf-mismatch reroute: bank-tagged "Mechanical Properties of
+      // Cardiac Muscle" — genuinely this file's own Frank-Starling
+      // concept, no new search needed.
+      //
+      // Excluded rather than kept: the bank extraction genuinely never
+      // recovered a 4th option for this row (only A, B, C survive — no
+      // D), below the platform's 4-to-5-option import contract
+      // (medical:batch's own gate flags it: "3 options — the contract is
+      // 4 to 5"). The same Frank-Starling law is already tested by 8
+      // other kept questions in this same file, so no teaching content is
+      // lost.
+      key: 'according-to-the-frank-starling-law-of-the-heart-f4ab249c',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "The bank extraction recovered only 3 options (A, B, C) — no D — below the platform's 4-to-5-option import contract (medical:batch rejects it outright: \"3 options — the contract is 4 to 5\"). Frank-Starling's law is already fully tested by this file's own 8 other kept questions, so no teaching content is lost by excluding this corrupted row.",
+    },
   ],
 }

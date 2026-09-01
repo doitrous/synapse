@@ -181,5 +181,32 @@ export const LEAF: McqLeafSeed = {
         D: "True of cardiac muscle, so not the exception: the electrical coupling at intercalated discs lets the myocardium behave as a functional syncytium despite being made of individual cells.",
       },
     },
+    {
+      // Leaf-mismatch reroute: bank-tagged "Mechanical Properties of
+      // Cardiac Muscle", genuinely this leaf's own funny-current/
+      // sympathetic-chronotropy content — routed onto this file's own
+      // chronotropy-dromotropy concept, no new search needed.
+      //
+      // Excluded rather than kept: option B, a distractor, is "The orig
+      // decreases the contractility" — an uninterpretable extraction
+      // fragment (the bank's own `variants` field shows a cleaner copy of
+      // this same paper reads "Due to activation of L-type Ca++ channels"
+      // for option B, confirming this copy's B is corrupted, not merely
+      // terse) with no seed-level field able to repair option text.
+      // Showing an incoherent option to a student, even as a wrong
+      // answer, fails the same "fit to sit" bar as a corrupted credited
+      // answer. The identical funny-current/sympathetic-chronotropy fact
+      // this row tests is already taught cleanly by this file's own
+      // what-is-the-effect-of-sympathetic-stimulation-on-the-membran-
+      // 6c7c92a3 question, so no teaching content is lost.
+      key: "positive-chronotropic-effect-of-sympathetic-stimulation-is-8acc86aa",
+      conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option B is an uninterpretable extraction fragment ('The orig decreases the contractility') with no seed-level field able to repair option text; the bank's own recorded variant of this same paper shows a coherent B ('Due to activation of L-type Ca++ channels'), confirming this copy is corrupted rather than merely terse. The credited fact (sympathetic stimulation speeds SA-node discharge via the funny current) is already taught cleanly by the sibling question what-is-the-effect-of-sympathetic-stimulation-on-the-membran-6c7c92a3, so no teaching content is lost.",
+    },
   ],
 }

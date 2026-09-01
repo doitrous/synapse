@@ -117,5 +117,132 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "Already excluded at the bank's own editorial stage (answerConfidence: none, editorialExcluded: true): the question asks which lettered point (A, C, D or E) a graph moves to, and that graph is not available in the text extraction — the answer cannot be determined from text alone.",
     },
+    {
+      // Bank-tagged "Mechanical Properties of Cardiac Muscle" (this
+      // leaf's own bank tag). Routed onto this file's own
+      // ventricular-afterload.effect-on-shortening.force-velocity-
+      // relationship concept, not a fresh mint: that concept's own
+      // definition already states, as its explicit contrast against
+      // afterload's effect, that increased inotropy "shifts the entire
+      // [force-velocity] curve up and to the right and genuinely raises
+      // Vmax" — exactly what this question and its two siblings below
+      // test. No new search needed; this is this branch's own
+      // already-committed concept.
+      //
+      // Excluded rather than kept: option C, the credited answer, is
+      // "Wmiax increases" — an OCR-garbled rendering of "Vmax increases"
+      // that no seed-level field can repair (options are emitted
+      // verbatim). Presenting a garbled term as the correct answer's own
+      // option text is not fit to show a student. The identical
+      // Vmax-increases fact is taught cleanly instead via the credited
+      // answer's own explanation on the two sibling rows below, so no
+      // teaching content is lost.
+      key: 'increasing-the-inotropic-state-of-the-heart-will-968a1868',
+      conceptKey: 'ventricular-afterload.effect-on-shortening.force-velocity-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Option C, the credited answer, is "Wmiax increases" — an OCR-garbled rendering of "Vmax increases" with no seed-level field able to correct option text. The same fact (increased inotropy genuinely raises Vmax) is taught cleanly via the credited answer of the sibling row increasing-the-inotropic-state-of-the-heart-will-ans-25958be0, so no teaching content is lost by excluding this corrupted row.',
+    },
+    {
+      // Same routing as above (leaf-tagged "Mechanical Properties of
+      // Cardiac Muscle", this file's own force-velocity/inotropy-contrast
+      // concept). Option B tests the length-tension relationship, a
+      // second curve from the same concept family; neither this concept
+      // nor ART-104-PHY-CARDIAC-MECHANICS states its shift direction with
+      // inotropy explicitly (both describe preload's effect on the
+      // length-tension curve, not inotropy's) — standard, undisputed
+      // cardiac physiology (raised Ca++ availability lets the same or a
+      // shorter sarcomere length reach a given active tension), disclosed
+      // here as a gap for the article-authoring lane rather than invented
+      // without a source.
+      key: 'increasing-the-inotropic-state-of-the-heart-will-ans-25958be0',
+      conceptKey: 'ventricular-afterload.effect-on-shortening.force-velocity-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: 'State that increased inotropy shifts the force-velocity curve up and to the right (not down and right), shifts the length-tension curve up and to the left, genuinely raises Vmax, and increases (not decreases) the degree of myocyte shortening.',
+      explanations: {
+        A: 'Backwards. Increased inotropy shifts the force-velocity relationship UP and to the RIGHT, not down and to the right — the heart can now generate more force and a higher velocity of shortening at any given afterload.',
+        B: 'Correct. Increased inotropy — more Ca++ available for cross-bridge cycling — lets the myocyte develop a given active tension at the same or an even shorter sarcomere length than before, shifting the length-tension relationship up and to the left.',
+        C: 'Backwards. Vmax, the force-velocity curve\'s maximal, load-independent, zero-load velocity intercept, genuinely INCREASES with increased inotropy — it is a classic index of enhanced contractility, not an unchanged parameter.',
+        D: 'Backwards. Increased inotropy INCREASES, not decreases, the degree of myocyte shortening at any given preload and afterload, which is exactly why it raises stroke volume.',
+      },
+    },
+    {
+      // Leaf-mismatch reroute: bank-tagged "The heart" rather than this
+      // leaf, but genuinely the same inotropy/force-velocity/PV-loop
+      // content this file's own concept already covers (confirmed by
+      // reading the row directly, per the leaf-field-unreliable hazard
+      // documented throughout this branch). Option B (PV-loop width) is a
+      // natural, undisputed extension of the concept's own stated
+      // afterload-ESV relationship — inotropy is not itself stated to
+      // change ESV by this concept or its article, so this is disclosed
+      // as a gap rather than assumed to be directly sourced.
+      key: 'increasing-the-inotropic-state-of-the-myocardium-will-4a21ac61',
+      conceptKey: 'ventricular-afterload.effect-on-shortening.force-velocity-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: 'State that increased inotropy widens the ventricular pressure-volume loop (by lowering end-systolic volume at an unchanged end-diastolic volume, so stroke volume rises), rather than raising end-systolic or end-diastolic volume or shifting the force-velocity curve leftward.',
+      explanations: {
+        A: 'Backwards. A more forcefully contracting ventricle ejects more completely, LOWERING, not raising, end-systolic volume — the blood left behind after ejection falls, it does not rise.',
+        B: 'Correct. Increased inotropy lowers end-systolic volume without requiring any change in end-diastolic volume (preload); because the pressure-volume loop\'s width at any given pressure is the difference between these two volumes (i.e. stroke volume), a lower end-systolic volume at an unchanged end-diastolic volume widens the loop.',
+        C: 'End-diastolic volume is a preload parameter, set by venous return and ventricular filling before contraction begins — inotropy (contractility) changes what the ventricle does with that volume once contraction starts, not the filling volume itself.',
+        D: 'Backwards. Increased inotropy shifts the force-velocity relationship up and to the RIGHT, not to the left — more force and velocity of shortening are available at any given afterload.',
+      },
+    },
+    {
+      // Bank-tagged leaf: this leaf's own bank tag directly. A clean,
+      // direct application of this file's own force-velocity concept —
+      // increased afterload decreases the velocity of shortening.
+      key: 'the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-68b1dda6',
+      conceptKey: 'ventricular-afterload.effect-on-shortening.force-velocity-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: 'State that increased afterload — not increased preload, increased inotropy, or achieving Vmax at zero load — decreases the velocity of shortening of cardiac muscle.',
+      explanations: {
+        A: 'Increased preload, via the Frank-Starling mechanism, can modestly INCREASE, not decrease, the degree and velocity of shortening at a given afterload.',
+        B: 'Increased positive inotropic state shifts the entire force-velocity curve up and to the right, INCREASING, not decreasing, the velocity of shortening at any given afterload.',
+        C: 'Correct. As afterload rises, the muscle must generate more force before it can begin to shorten at all, directly reducing the velocity at which shortening occurs — velocity falls toward zero as afterload approaches the fully isometric (maximal) extreme.',
+        D: 'Vmax is the MAXIMUM velocity of shortening, reached specifically at zero load — the opposite extreme from a decreased velocity, not a cause of one.',
+      },
+    },
+    {
+      // Bookkeeping exclude: already unanswerable at the bank's own
+      // editorial stage (answer: null, editorialExcluded: true). A
+      // duplicate-occurrence corrupted copy of the row kept above — the
+      // credited answer (increased afterload) is embedded unlettered in
+      // this copy's own stem, and neither surviving lettered option (B,
+      // D) correctly describes a cause of decreased shortening velocity.
+      // Recorded here for a complete accounting of this leaf.
+      key: 'the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-f3398b36',
+      conceptKey: 'ventricular-afterload.effect-on-shortening.force-velocity-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already unanswerable at the bank's own editorial stage (answerConfidence: none, editorialExcluded: true): the correct answer (increased afterload) is embedded unlettered in the stem itself, and neither of the two lettered options that survive extraction (B: increased positive inotropic state; D: achieving Vmax at zero load) correctly describes a cause of decreased shortening velocity — both instead describe conditions that increase or maximise it. The clean, complete sibling copy of this same question is already kept as the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-68b1dda6.",
+    },
+    {
+      // Bookkeeping exclude: already unanswerable at the bank's own
+      // editorial stage (answer: null, editorialExcluded: true). Routed
+      // onto this file's own concept since the row's two surviving
+      // options (Starling's mechanism raising EDV; a positive inotropic
+      // effect lowering ESV) are both genuine mechanisms of the
+      // pressure-volume loop this file's own concept already teaches, but
+      // both are independently true and complementary — no single
+      // defensible best answer, and the missing options (likely including
+      // a combined "both" choice) make this unrecoverable.
+      key: 'stroke-volume-reserve-sv-7-from-70-up-to-200-ml-during-max-e-64548dbe',
+      conceptKey: 'ventricular-afterload.effect-on-shortening.force-velocity-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already unanswerable at the bank's own editorial stage (answerConfidence: none, editorialExcluded: true): both surviving options (increased end-diastolic volume via Starling's mechanism; decreased end-systolic volume via a positive inotropic effect) are independently genuine, complementary mechanisms contributing to the stroke volume reserve seen during maximal exercise, and the missing options (likely including a combined 'both' choice) make it impossible to confidently select a single intended answer.",
+    },
   ],
 }
