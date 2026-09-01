@@ -1286,6 +1286,7 @@ CON-MSK-02A831DFEBC439
 
 ## related_articles
 ART-MSK-AU105-SHOULDER-GIRDLE-NERVES: the shoulder-girdle nerves given off earlier from the same brachial plexus
+ART-MSK-AU105-CARPAL-BONES: the same upper-limb region one joint distal, taught in the same lecture set
 
 
 ## question_ids
@@ -1686,6 +1687,183 @@ Evidence must be attached before publication.
 
 ## notes
 [clear]
+
+## module
+AU-MED-105
+
+## university_notes
+
+
+## conflicts
+
+
+## media
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## callout_evidence
+
+
+## field_notes
+questionIds: No question has been imported yet to link back; set when the question batch lands.
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` is left as free text.
+nanotopicId: No finer subdivision than microtopic exists in the source lecture.
+arabicAliases: No standard second Arabic alias beyond the title is in wide undergraduate use.
+module: AU-MED-105 is this article's sole owning module; module_subject is not a column on articles.
+media: No rights-cleared media asset exists yet for this article; needs are filed as concept-level media_recommendations on the questions that require them.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+universityNotes: Alexandria teaches this identically to the source lecture; no university-specific variation found.
+conflicts: None found between the bank questions and standard gross anatomy.
+
+## universities
+au
+
+## years
+AU_Y1
+---
+
+# Item
+
+## id
+ART-MSK-AU105-CARPAL-BONES
+
+## title
+Carpal bone identification: the scaphoid fracture and the pisiform sesamoid
+
+## arabic_title
+تحديد عظام الرسغ: كسر العظم الزورقي والعظم الحمصي السمسماني
+
+## aliases
+Scaphoid fracture
+Pisiform sesamoid bone
+Carpal bones
+
+## subject
+msk
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-ANA-T02
+
+## secondary_node_ids
+SYS-MSK-T01-S01-M04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The scaphoid is the most commonly fractured carpal bone, typically from a fall on the outstretched hand, and its distally-entering blood supply puts a waist or proximal-pole fracture at risk of avascular necrosis. The pisiform is the wrist's one sesamoid bone, developing inside the tendon of flexor carpi ulnaris rather than as a true carpal bone.
+
+## sections
+### Definition
+Of the eight carpal bones, the scaphoid bridges the proximal and distal rows and is by far the one most often fractured — classically by a fall onto an outstretched, dorsiflexed hand (a "FOOSH" injury), which loads the bone against the radius. The pisiform, by contrast, is not one of the seven bones that ossify as part of the carpal row proper: it is a sesamoid bone, embedded within the tendon of flexor carpi ulnaris, and it forms the medial attachment of the flexor retinaculum.
+
+### Mechanism
+The scaphoid's blood supply enters mainly through its distal pole and runs retrograde toward the proximal pole. A fracture through the waist or proximal third of the bone can therefore cut off the proximal fragment's only blood supply, risking avascular necrosis and non-union — the reason scaphoid fractures are treated cautiously even when an initial X-ray looks normal.
+
+### Key determinants
+Fracture level determines the vascular risk: a distal-pole scaphoid fracture leaves the blood supply intact, while a waist or proximal-pole fracture does not.
+
+### Clinical significance
+Snuff-box tenderness after a fall on the outstretched hand is treated as a scaphoid fracture until proven otherwise, with splinting and repeat imaging even when the first film is negative, because a missed fracture risks silent avascular necrosis.
+
+## published_summary
+
+
+## published_sections
+
+## hold_these
+The scaphoid is the most commonly fractured carpal bone.
+A scaphoid fracture through the waist or proximal pole risks avascular necrosis because the blood supply enters distally.
+The pisiform is the carpal sesamoid bone, embedded in the tendon of flexor carpi ulnaris.
+
+## lose_the_mark
+Assuming any scaphoid fracture carries the same avascular-necrosis risk regardless of level.
+Treating the pisiform as one of the seven true carpal bones rather than a sesamoid.
+
+## related_concepts
+CON-MSK-77C8DFCB26299F
+
+## related_articles
+ART-MSK-AU105-FOREARM-NERVES: the same upper-limb region one joint proximal, taught in the same lecture set
+
+
+## question_ids
+
+
+## resource_ids
+src_c86f47635016c192bd42
+
+## article_source_ids
+src_c86f47635016c192bd42
+
+## claim_ids
+CLM-A6E0F27C9B4D
+CLM-2F9C8E1B5A03
+
+## span_ids
+SPN-AU105-CARPAL-BONES-01
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Department lecture slides and the lecturer's own MCQ/practical bank (bank-tier exam signal; no faculty department book or EOM/EOY paper exists for this module)
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## notes
+[clear]
+
 
 ## module
 AU-MED-105

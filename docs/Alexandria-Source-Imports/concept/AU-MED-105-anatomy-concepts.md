@@ -6250,3 +6250,186 @@ lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 atomicClaimIds: Set after the build-evidence pass; see evidence/AU-MED-105-anatomy-claims.md.
 relationships: Cross-linked to the clavicle-fracture-displacement concept (same bone) and to the medial-border-of-the-scapula concept CON-MSK-59453A6F6ACC2E (pending, cited for the teres-minor exception).
+
+---
+
+# Item
+
+## id
+CON-MSK-77C8DFCB26299F
+
+## label
+The scaphoid is the most commonly fractured carpal bone (classically after a fall on the outstretched hand, with its distal-entering blood supply putting the proximal fragment at risk of avascular necrosis), and the pisiform is the carpal sesamoid bone, embedded in the tendon of flexor carpi ulnaris
+
+## canonical_key
+wrist.carpal-bones-scaphoid-fracture-and-pisiform-sesamoid
+
+## aliases
+Scaphoid fracture
+Most fractured carpal bone
+Fall on the outstretched hand
+Pisiform sesamoid bone
+Carpal bone identification
+
+## arabic_label
+كسر العظم الزورقي والعظم الحمصي كعظم سمسماني
+
+## arabic_aliases
+
+
+## definition
+Of the eight carpal bones, the scaphoid is by far the most frequently fractured, typically from a fall onto an outstretched, dorsiflexed hand (FOOSH injury) that loads the bone against the radius. Its blood supply enters mainly through its distal pole, so a fracture through the waist or proximal third can cut off the proximal fragment's supply and lead to avascular necrosis and non-union — a fracture that may not even show on an initial X-ray, so a patient with snuff-box tenderness after a fall is splinted and re-imaged even with a "normal" film. The pisiform is a separate carpal identification point: it is the one sesamoid bone of the wrist, developing within the tendon of flexor carpi ulnaris rather than as one of the seven bones that ossify in the carpal row proper, and it forms the medial attachment of the flexor retinaculum.
+
+## explicit_objective
+Name the scaphoid as the most commonly fractured carpal bone and explain why its fracture risks avascular necrosis, and identify the pisiform as the carpal sesamoid bone.
+
+## pitfalls
+Confusing the scaphoid's fracture risk with a different carpal bone, or missing that the risk of avascular necrosis follows specifically from the blood supply entering distally rather than proximally — a proximal-pole fracture is the dangerous one, not a distal-pole fracture.
+
+## concept_type
+factual_recall
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T02
+
+## secondary_node_ids
+SYS-MSK-T01-S01-M04
+
+## topic
+Upper limb
+
+## subtopic
+The Wrist and Hand
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Wrist and Hand
+
+## article_ids
+ART-MSK-AU105-CARPAL-BONES
+
+## related_article_ids
+ART-MSK-AU105-FOREARM-NERVES: the same upper-limb region one joint proximal, taught in the same lecture set
+
+
+
+## related_concept_ids
+CON-MSK-1424177E093253
+
+## resource_ids
+src_c86f47635016c192bd42
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-A6E0F27C9B4D
+CLM-2F9C8E1B5A03
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The most carpal bone to be fractured is: (a) Pisiform (b) Hamate (c) Triquetral (d) Scaphoid / Which of the following bone is considered a sesamoid bone (embedded within a muscle)? (a) Pisiform (b) Hamate (c) Triquetral (d) Scaphoid
+
+## exam_signal
+src_c86f47635016c192bd42 | bank | | p27,p37 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries the department lecture's own heading as free text instead.
+arabicAliases: No standard second Arabic alias beyond the label is in wide undergraduate use.
+nanotopicId: No further printed subdivision in the source lecture.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Upper Limb MCQ bank (section C, Forearm/Hand, Q2-Q3) and the same bank's Q51 scaphoid-fracture vignette; no corpus extraction record.
+sourceCandidateIds: Searched "scaphoid", "pisiform" and "carpal bone" against live state and every pending batch. The only hit is the live anatomical-snuff-box concept (CON-MSK-1424177E093253), which mentions the scaphoid as the snuff box's floor but states nothing about fracture frequency, avascular necrosis risk, or the pisiform's sesamoid status — treated as a genuine gap and cross-linked rather than duplicated.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass; see evidence/AU-MED-105-anatomy-claims.md.
+relationships: Cross-linked to the live anatomical-snuff-box concept (the radial artery crosses the snuff box floored by the scaphoid, the vessel put at risk by a scaphoid fracture).

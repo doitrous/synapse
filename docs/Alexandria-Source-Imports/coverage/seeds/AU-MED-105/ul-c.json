@@ -1,0 +1,365 @@
+{
+  "lane": "AU-105",
+  "cluster": "ul-c",
+  "header": "AU-MED-105 Anatomy · Upper Limb MCQ bank, Section C (Forearm/Hand, Q1-Q60 of 160) — questions whose main concept is an AU-owned concept (pronator teres and the anterior compartment nerve split, the anterior interosseous nerve, and the newly-minted carpal-bones identity concept covering the scaphoid's fracture risk and the pisiform's sesamoid status; docs/Alexandria-Source-Imports/concept/AU-MED-105-anatomy-concepts.md, articles in docs/Alexandria-Source-Imports/article/AU-MED-105-anatomy-articles.md). No apply-after needed — these concepts and articles are already on main.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y1"
+    ],
+    "module": "AU-MED-105",
+    "module_subject": "AU-MED-105 > Anatomy > Upper Limb > Forearm, Wrist and Hand",
+    "exam_weight_by_year": {
+      "AU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-MSK-AU105-FOREARM-NERVES",
+      "ART-MSK-AU105-CARPAL-BONES"
+    ],
+    "resource_ids": [
+      "src_c86f47635016c192bd42"
+    ],
+    "source_citation": "Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "ul-c-q02",
+      "page": 27,
+      "title": "The most commonly fractured carpal bone",
+      "question": "The most carpal bone to be fractured is:",
+      "options": {
+        "A": "Pisiform.",
+        "B": "Hamate.",
+        "C": "Triquetral.",
+        "D": "Scaphoid."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The scaphoid bridges the proximal and distal carpal rows and is fractured far more often than any other carpal bone, classically by a fall onto an outstretched, dorsiflexed hand that loads it against the radius. Because its blood supply enters mainly at its distal pole and runs retrograde, a fracture through the waist or proximal third can starve the proximal fragment and cause avascular necrosis and non-union. This is why snuff-box tenderness after a fall is treated as a probable scaphoid fracture and re-imaged even when the first film looks normal.",
+        "A": "Incorrect. The pisiform is a sesamoid bone within flexor carpi ulnaris, not the carpal bone fractured most often.",
+        "B": "Incorrect. The hamate can fracture (classically its hook, in racquet-sport injuries) but far less often than the scaphoid.",
+        "C": "Incorrect. The triquetral is an uncommon fracture site compared with the scaphoid."
+      },
+      "main_concept": "CON-MSK-77C8DFCB26299F",
+      "concept_ids": [
+        "CON-MSK-77C8DFCB26299F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name the scaphoid as the most commonly fractured carpal bone and explain the avascular-necrosis risk.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q03",
+      "page": 27,
+      "title": "The carpal sesamoid bone",
+      "question": "Which of the following bone is considered a sesamoid bone (embedded within a muscle)?",
+      "options": {
+        "A": "Pisiform.",
+        "B": "Hamate.",
+        "C": "Triquetral.",
+        "D": "Scaphoid."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The pisiform is the wrist's one sesamoid bone: rather than ossifying as part of the true carpal row, it develops within the tendon of flexor carpi ulnaris, which is what a sesamoid bone is by definition — a bone embedded in a tendon or muscle. It sits on the anterior surface of the triquetral and forms the medial attachment of the flexor retinaculum. Because it is a sesamoid rather than a true carpal bone, it is the exception when the eight carpal bones are counted as forming two rows of true bones.",
+        "B": "Incorrect. The hamate is a true carpal bone of the distal row, not a sesamoid.",
+        "C": "Incorrect. The triquetral is a true carpal bone of the proximal row, not a sesamoid.",
+        "D": "Incorrect. The scaphoid is a true carpal bone of the proximal row, not a sesamoid."
+      },
+      "main_concept": "CON-MSK-77C8DFCB26299F",
+      "concept_ids": [
+        "CON-MSK-77C8DFCB26299F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the pisiform as the carpal sesamoid bone.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q04",
+      "page": 27,
+      "title": "Nerve supply to the lateral half of flexor digitorum profundus",
+      "question": "lateral part of flexor digitorum profundus muscle is supplied by:",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "radial nerve",
+        "C": "posterior interosseous nerve",
+        "D": "anterior interosseous nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Flexor digitorum profundus is unusual among the forearm flexors in having a split nerve supply: its lateral (radial) half, which flexes the index and middle fingers, is supplied by the anterior interosseous nerve, while its medial (ulnar) half, to the ring and little fingers, is supplied by the ulnar nerve. This split explains why an isolated anterior interosseous nerve lesion weakens flexion at the index finger's distal interphalangeal joint but spares the little finger. It is the same lateral/medial split rule that governs pronator teres's own exception in the anterior compartment.",
+        "A": "Incorrect. The ulnar nerve supplies the medial half of flexor digitorum profundus, not the lateral half.",
+        "B": "Incorrect. The radial nerve supplies the extensor, not the flexor, compartment of the forearm.",
+        "C": "Incorrect. The posterior interosseous nerve is the radial nerve's deep branch to the extensor compartment, not the flexors."
+      },
+      "main_concept": "CON-MSK-02A831DFEBC439",
+      "concept_ids": [
+        "CON-MSK-02A831DFEBC439"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State which nerve supplies the lateral half of flexor digitorum profundus.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q05",
+      "page": 27,
+      "title": "Muscles supplied by the anterior interosseous nerve",
+      "question": "The following muscles are supplied by the anterior interosseous nerve EXCEPT:",
+      "options": {
+        "A": "Pronator teres.",
+        "B": "Flexor pollicis longus.",
+        "C": "Pronator quadratus.",
+        "D": "Flexor digitorum profundus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pronator teres is supplied directly by the median nerve trunk before the anterior interosseous nerve is given off just distal to it, so pronator teres is the exception here rather than one of the anterior interosseous nerve's own targets. The anterior interosseous nerve itself supplies flexor pollicis longus, the lateral half of flexor digitorum profundus, and pronator quadratus at the wrist. Because it branches off the median nerve after pronator teres, testing pronator teres's action does not test the anterior interosseous nerve.",
+        "B": "Incorrect. Flexor pollicis longus is one of the anterior interosseous nerve's three muscles.",
+        "C": "Incorrect. Pronator quadratus is one of the anterior interosseous nerve's three muscles.",
+        "D": "Incorrect. The lateral half of flexor digitorum profundus is one of the anterior interosseous nerve's targets."
+      },
+      "main_concept": "CON-MSK-02A831DFEBC439",
+      "concept_ids": [
+        "CON-MSK-02A831DFEBC439"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "List the three muscles supplied by the anterior interosseous nerve and name the exception.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q10",
+      "page": 28,
+      "title": "A correct statement about pronator teres",
+      "question": "Regarding pronator teres which of the following statements is correct?",
+      "options": {
+        "A": "It forms the lateral border of the cubital fossa",
+        "B": "It is supplied by median nerve",
+        "C": "The Median nerve passes deep to both heads",
+        "D": "It is one of the deep flexors of the forearm"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Pronator teres is supplied by the median nerve, which passes between its two heads — a larger humeral head from the medial epicondyle and a smaller ulnar head from the coronoid process — to enter the forearm, making pronator teres itself a classic median-nerve entrapment site (pronator syndrome). It forms the medial, not lateral, border of the cubital fossa (brachioradialis forms the lateral border), and it belongs to the superficial, not deep, layer of the anterior compartment. The median nerve passes between the two heads rather than deep to both of them.",
+        "A": "Incorrect. Brachioradialis, not pronator teres, forms the lateral border of the cubital fossa; pronator teres forms the medial border.",
+        "C": "Incorrect. The median nerve passes between pronator teres's two heads, not deep to both of them.",
+        "D": "Incorrect. Pronator teres is one of the superficial flexors of the forearm, not a deep flexor."
+      },
+      "main_concept": "CON-MSK-2A322BCDAEBFFD",
+      "concept_ids": [
+        "CON-MSK-2A322BCDAEBFFD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State the median nerve's relation to pronator teres's two heads and its position in the cubital fossa.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q16",
+      "page": 30,
+      "title": "Nerve supply of flexor pollicis longus",
+      "question": "flexor pollicis longus is supplied by ......",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "median nerve",
+        "C": "anterior interosseous nerve",
+        "D": "posterior interosseous nerve",
+        "E": "radial nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Flexor pollicis longus is one of the three muscles supplied by the anterior interosseous nerve, the median nerve's purely motor branch given off just below the elbow, alongside the lateral half of flexor digitorum profundus and pronator quadratus. Because the anterior interosseous nerve carries no cutaneous fibres, its isolated injury weakens thumb interphalangeal flexion without any sensory loss. This is distinct from the median nerve's proper (non-AIN) branches, which supply the rest of the anterior compartment.",
+        "A": "Incorrect. The ulnar nerve does not supply flexor pollicis longus.",
+        "B": "Incorrect. The median nerve trunk itself does not directly supply flexor pollicis longus; its anterior interosseous branch does.",
+        "D": "Incorrect. The posterior interosseous nerve supplies the extensor, not the flexor, compartment.",
+        "E": "Incorrect. The radial nerve does not supply flexor pollicis longus."
+      },
+      "main_concept": "CON-MSK-02A831DFEBC439",
+      "concept_ids": [
+        "CON-MSK-02A831DFEBC439"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q20",
+      "page": 30,
+      "title": "Nerve supply of pronator quadratus",
+      "question": "pronator quadratus is supplied by.........",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "median nerve",
+        "C": "anterior interosseous nerve",
+        "D": "posterior interosseous nerve",
+        "E": "radial nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Pronator quadratus is the most distal of the anterior interosseous nerve's three targets, lying flat across the distal quarter of the radius and ulna and completing the nerve's supply alongside flexor pollicis longus and the lateral half of flexor digitorum profundus. It is the deepest muscle of the forearm's flexor compartment and acts with pronator teres to pronate the forearm.",
+        "A": "Incorrect. The ulnar nerve does not supply pronator quadratus.",
+        "B": "Incorrect. The median nerve trunk itself does not directly supply pronator quadratus; its anterior interosseous branch does.",
+        "D": "Incorrect. The posterior interosseous nerve supplies the extensor, not the flexor, compartment.",
+        "E": "Incorrect. The radial nerve does not supply pronator quadratus."
+      },
+      "main_concept": "CON-MSK-02A831DFEBC439",
+      "concept_ids": [
+        "CON-MSK-02A831DFEBC439"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q51",
+      "page": 37,
+      "title": "Scaphoid fracture: the artery at risk",
+      "question": "A 14-year-old boy falls on his hand and has a fracture of the scaphoid bone. which of the following arteries may be affected?",
+      "options": {
+        "A": "Brachial artery",
+        "B": "Ulnar artery",
+        "C": "Deep palmar arterial arch",
+        "D": "Radial artery",
+        "E": "Princeps pollicis artery"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The radial artery crosses directly over the scaphoid as it runs through the floor of the anatomical snuff box, so a scaphoid fracture — the classic fall-on-outstretched-hand injury — can also injure this segment of the artery, on top of the bone's own well-known risk of avascular necrosis from disruption of its distally-entering blood supply. This dual risk (arterial injury and bone necrosis) is why scaphoid fractures are managed cautiously even when they look undisplaced.",
+        "A": "Incorrect. The brachial artery lies in the arm and cubital fossa, far proximal to the scaphoid, and is not at risk from a wrist-level fracture.",
+        "B": "Incorrect. The ulnar artery runs medially through Guyon's canal, away from the scaphoid, which lies on the lateral (radial) side of the carpus.",
+        "C": "Incorrect. The deep palmar arch lies in the palm, distal to the scaphoid, and is not directly related to the bone's fracture site.",
+        "E": "Incorrect. Princeps pollicis is a small terminal branch to the thumb, distal to and not directly related to the scaphoid."
+      },
+      "main_concept": "CON-MSK-77C8DFCB26299F",
+      "concept_ids": [
+        "CON-MSK-77C8DFCB26299F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply the scaphoid's relation to the radial artery to a fall-on-outstretched-hand fracture vignette.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q60",
+      "page": 39,
+      "title": "Anterior interosseous nerve lesion: muscles paralyzed",
+      "question": "Examination indicates a lesion of the anterior interosseous nerve. Which of the following muscles are paralyzed?",
+      "options": {
+        "A": "Flexor pollicis longus and brevis",
+        "B": "Flexor pollicis longus and opponens pollicis",
+        "C": "Flexor digitorum profundus and pronator quadratus",
+        "D": "Flexor digitorum profundus and superficialis"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The anterior interosseous nerve supplies three muscles: flexor pollicis longus, the lateral (radial) half of flexor digitorum profundus, and pronator quadratus, so a lesion paralyses the lateral half of flexor digitorum profundus and pronator quadratus together with flexor pollicis longus. This is tested by the \"OK sign\": asked to pinch thumb to index fingertip, the patient cannot flex either interphalangeal joint fully and instead makes a triangular pinch, with no accompanying sensory loss since the nerve is purely motor.",
+        "A": "Incorrect. Flexor pollicis brevis is a thenar muscle supplied by the median nerve's recurrent branch, not the anterior interosseous nerve.",
+        "B": "Incorrect. Opponens pollicis is a thenar muscle supplied by the median nerve's recurrent branch, not the anterior interosseous nerve.",
+        "D": "Incorrect. Flexor digitorum superficialis is supplied by the median nerve proper, not the anterior interosseous nerve; only flexor digitorum profundus (its lateral half) is anterior-interosseous territory."
+      },
+      "main_concept": "CON-MSK-02A831DFEBC439",
+      "concept_ids": [
+        "CON-MSK-02A831DFEBC439"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply the anterior interosseous nerve's three-muscle territory to a lesion vignette and its clinical OK-sign test.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    }
+  ]
+}

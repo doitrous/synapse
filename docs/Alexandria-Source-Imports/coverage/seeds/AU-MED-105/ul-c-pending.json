@@ -1,0 +1,1906 @@
+{
+  "lane": "AU-105",
+  "cluster": "ul-c",
+  "header": "AU-MED-105 Anatomy · Upper Limb MCQ bank, Section C (Forearm/Hand, Q1-Q60 of 160) — questions whose main concept is a Kasr overlay id (forearm flexor/extensor compartments, flexor/extensor retinacula and the carpal tunnel, anatomical snuff box, radial/ulnar arteries and their branches in the forearm and hand, ulnar/median nerve course and hand supply, thenar/hypothenar/lumbrical/interossei muscles, palmar arches, cutaneous territories of the palm and dorsum of the hand, elbow anastomosis, wrist-laceration and medial-epicondyle-fracture vignettes, and one stray suprascapular-artery item; docs/Kasr-Source-Imports/concept/101-ISK-concepts.md and 101-ISK-mcq-concepts.md, articles in docs/Kasr-Source-Imports/article/101-ISK-anatomy.md and 101-ISK-anatomy-2.md). Apply after those Kasr concept + article batches land.",
+  "defaults": {
+    "subject": "msk",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "au"
+    ],
+    "years": [
+      "AU_Y1"
+    ],
+    "module": "AU-MED-105",
+    "module_subject": "AU-MED-105 > Anatomy > Upper Limb > Forearm, Wrist and Hand",
+    "exam_weight_by_year": {
+      "AU_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-101-ANA-FOREARM",
+      "ART-101-ANA-FOREARM-RETINACULUM-ROTATION",
+      "ART-101-ANA-HAND-ARTERIES",
+      "ART-101-ANA-RADIAL-NERVE",
+      "ART-101-ANA-MEDIAN-ULNAR-NERVES",
+      "ART-101-ANA-ULNAR-ARTERY",
+      "ART-101-ANA-UPPER-LIMB-CUTANEOUS-NERVES",
+      "ART-101-ANA-CUBITAL-FOSSA",
+      "ART-101-ANA-DEEP-FASCIA",
+      "ART-101-ANA-SHOULDER-REGION",
+      "ART-101-ANA-SCAPULAR-ANASTOMOSIS"
+    ],
+    "resource_ids": [
+      "src_c86f47635016c192bd42"
+    ],
+    "source_citation": "Upper limb MCQ, Section C (Forearm/Hand), Dr Ibrahim Amr",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "ul-c-q01",
+      "page": 27,
+      "title": "Deep muscles of the posterior compartment of the forearm",
+      "question": "All of the followings are deep muscles of posterior compartment of forearm EXCEPT:",
+      "options": {
+        "A": "Abductor pollicis longus.",
+        "B": "Extensor pollicis longus.",
+        "C": "Extensor pollicis brevis.",
+        "D": "Extensor carpi radialis longus."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The posterior compartment of the forearm has a superficial layer (brachioradialis, extensor carpi radialis longus and brevis, extensor digitorum, extensor digiti minimi, extensor carpi ulnaris, anconeus) and a deep layer (supinator, abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis). Extensor carpi radialis longus belongs to the superficial layer, arising from the lateral supracondylar ridge of the humerus above the elbow, which is why it is the exception here. The three thumb muscles and extensor indicis are the deep layer's own group, all supplied by the posterior interosseous nerve and all emerging to cross the wrist extensors obliquely.",
+        "A": "Incorrect. Abductor pollicis longus is one of the deep-layer thumb muscles.",
+        "B": "Incorrect. Extensor pollicis longus is one of the deep-layer thumb muscles.",
+        "C": "Incorrect. Extensor pollicis brevis is one of the deep-layer thumb muscles."
+      },
+      "main_concept": "CON-MSK-E04D8A31AEAC23",
+      "concept_ids": [
+        "CON-MSK-E04D8A31AEAC23"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Separate the superficial and deep layers of the posterior forearm compartment.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q06",
+      "page": 28,
+      "title": "Muscle supplied by the radial nerve",
+      "question": "Which of the following muscles is supplied by the radial nerve?",
+      "options": {
+        "A": "Extensor carpi radialis longus",
+        "B": "Abductor pollicis longus",
+        "C": "Flexor pollicis longus",
+        "D": "Flexor carpi radialis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Extensor carpi radialis longus arises from the lateral supracondylar ridge and is supplied by the main trunk of the radial nerve before it divides into its superficial and deep (posterior interosseous) branches, making it one of the few forearm extensors supplied by the radial nerve proper rather than by the posterior interosseous nerve. Every other posterior-compartment muscle distal to it takes the posterior interosseous branch instead. This makes extensor carpi radialis longus a useful landmark: its power is preserved even in some posterior interosseous nerve lesions that paralyse the rest of the extensors.",
+        "B": "Incorrect. Abductor pollicis longus is a deep extensor supplied by the posterior interosseous nerve.",
+        "C": "Incorrect. Flexor pollicis longus is a flexor-compartment muscle supplied by the anterior interosseous nerve.",
+        "D": "Incorrect. Flexor carpi radialis is a flexor-compartment muscle supplied by the median nerve."
+      },
+      "main_concept": "CON-MSK-1FC89E36FFD98E",
+      "concept_ids": [
+        "CON-MSK-1FC89E36FFD98E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify extensor carpi radialis longus as supplied by the radial nerve trunk rather than the posterior interosseous nerve.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q07",
+      "page": 28,
+      "title": "Structure superficial to the flexor retinaculum",
+      "question": "Structure crossing superficial to the flexor retinaculum:",
+      "options": {
+        "A": "Median nerve.",
+        "B": "Cutaneous branch of median nerve",
+        "C": "Flexor digitorum superficialis.",
+        "D": "Flexor pollicis longus."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The palmar cutaneous branch of the median nerve leaves the nerve proximal to the wrist and crosses superficial to the flexor retinaculum to reach the skin of the palm, which is exactly why carpal tunnel syndrome — a compression deep to the retinaculum — spares palm sensation while numbing the fingers. The main trunk of the median nerve, by contrast, passes deep to the retinaculum through the carpal tunnel itself. This superficial/deep split of the same nerve's branches is a classic examination point.",
+        "A": "Incorrect. The main trunk of the median nerve passes deep to the flexor retinaculum, through the carpal tunnel.",
+        "C": "Incorrect. Flexor digitorum superficialis's tendons pass deep to the flexor retinaculum in the carpal tunnel.",
+        "D": "Incorrect. Flexor pollicis longus's tendon passes deep to the flexor retinaculum in its own synovial sheath."
+      },
+      "main_concept": "CON-MSK-10423E16E36186",
+      "concept_ids": [
+        "CON-MSK-10423E16E36186"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name the palmar cutaneous branch of the median nerve as the structure superficial to the flexor retinaculum.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q08",
+      "page": 28,
+      "title": "Structures deep to the flexor retinaculum",
+      "question": "The following structures passes deep to the flexor retinaculum at wrist, EXCEPT:",
+      "options": {
+        "A": "Flexor digitorum superficialis",
+        "B": "Ulnar nerve.",
+        "C": "Median nerve",
+        "D": "Flexor pollicis longus tendon"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The ulnar nerve does not travel through the carpal tunnel: together with the ulnar artery it passes superficial to the flexor retinaculum, through Guyon's canal, which is why ulnar nerve compression at the wrist is a separate clinical entity from carpal tunnel syndrome. Everything else in the tunnel — the four tendons of flexor digitorum superficialis, the four of flexor digitorum profundus, the tendon of flexor pollicis longus, and the median nerve itself — passes deep to the retinaculum. This deep/superficial split is the anatomical basis for why a wrist fracture or laceration can injure one nerve without the other.",
+        "A": "Incorrect. Flexor digitorum superficialis's tendons pass deep to the flexor retinaculum, in the carpal tunnel.",
+        "C": "Incorrect. The median nerve passes deep to the flexor retinaculum, through the carpal tunnel.",
+        "D": "Incorrect. Flexor pollicis longus's tendon passes deep to the flexor retinaculum, in its own synovial sheath."
+      },
+      "main_concept": "CON-MSK-10423E16E36186",
+      "concept_ids": [
+        "CON-MSK-10423E16E36186"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the ulnar nerve as passing superficial, not deep, to the flexor retinaculum.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q09",
+      "page": 28,
+      "title": "Structures superficial to the flexor retinaculum",
+      "question": "The following structures pass superficial to flexor retinaculum EXCEPT:",
+      "options": {
+        "A": "Ulnar nerve",
+        "B": "Median nerve.",
+        "C": "Cutaneous branch of median nerve.",
+        "D": "Tendon of palmaris longus."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The main trunk of the median nerve is the exception: it passes deep to the flexor retinaculum through the carpal tunnel, not superficial to it. The structures that do cross superficially are the ulnar nerve and ulnar artery, the palmar cutaneous branches of both the median and ulnar nerves, and the tendon of palmaris longus, which partly inserts into the retinaculum itself. Recognising which of the median nerve's own branches is superficial and which is deep is the point the bank keeps returning to.",
+        "A": "Incorrect. The ulnar nerve passes superficial to the flexor retinaculum, through Guyon's canal.",
+        "C": "Incorrect. The palmar cutaneous branch of the median nerve passes superficial to the flexor retinaculum.",
+        "D": "Incorrect. The tendon of palmaris longus passes superficial to (and partly inserts into) the flexor retinaculum."
+      },
+      "main_concept": "CON-MSK-10423E16E36186",
+      "concept_ids": [
+        "CON-MSK-10423E16E36186"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the median nerve trunk as the exception among the superficial structures at the wrist.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q11",
+      "page": 29,
+      "title": "A structure not beneath the extensor retinaculum",
+      "question": "Which structure does not lie beneath extensor retinaculum of wrist?",
+      "options": {
+        "A": "Abductor pollicis longus",
+        "B": "Brachioradialis",
+        "C": "Extensor carpi ulnaris",
+        "D": "Extensor Indicis"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Brachioradialis is a forearm flexor of the elbow that inserts on the distal radius well proximal to the wrist; its tendon does not pass under the extensor retinaculum at all, so it is the exception. The extensor retinaculum instead roofs six compartments carrying the wrist and finger extensor tendons, including abductor pollicis longus (first compartment), extensor carpi ulnaris (sixth compartment), and extensor indicis (fourth compartment, alongside extensor digitorum). Recognising which muscles actually cross the wrist under the retinaculum, versus muscles that merely act near it, is the point of this item.",
+        "A": "Incorrect. Abductor pollicis longus passes beneath the extensor retinaculum, in the first compartment.",
+        "C": "Incorrect. Extensor carpi ulnaris passes beneath the extensor retinaculum, in the sixth compartment.",
+        "D": "Incorrect. Extensor indicis passes beneath the extensor retinaculum, in the fourth compartment."
+      },
+      "main_concept": "CON-MSK-44234D1863CE8E",
+      "concept_ids": [
+        "CON-MSK-44234D1863CE8E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify brachioradialis as not passing beneath the extensor retinaculum.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q12",
+      "page": 29,
+      "title": "The first compartment of the extensor retinaculum",
+      "question": "... muscle passes through 1st compartment of extensor retinaculum",
+      "options": {
+        "A": "extensor carpi ulnaris",
+        "B": "extensor digitorum",
+        "C": "extensor pollicis brevis",
+        "D": "extensor pollicis longus",
+        "E": "extensor carpi radialis longus"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The first compartment of the extensor retinaculum carries abductor pollicis longus and extensor pollicis brevis together, the two tendons that form the anterior boundary of the anatomical snuff box, so extensor pollicis brevis (paired with abductor pollicis longus, not listed here) is the muscle of this list that belongs to it. Extensor pollicis longus instead runs in the third compartment, which is why it forms the snuff box's posterior boundary rather than its anterior one. Knowing each numbered compartment's contents lets a clinician localise a de Quervain's-type tenosynovitis to the first compartment specifically.",
+        "A": "Incorrect. Extensor carpi ulnaris passes through the sixth compartment.",
+        "B": "Incorrect. Extensor digitorum passes through the fourth compartment (with extensor indicis).",
+        "D": "Incorrect. Extensor pollicis longus passes through the third compartment.",
+        "E": "Incorrect. Extensor carpi radialis longus passes through the second compartment (with extensor carpi radialis brevis)."
+      },
+      "main_concept": "CON-MSK-44234D1863CE8E",
+      "concept_ids": [
+        "CON-MSK-44234D1863CE8E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name extensor pollicis brevis as a first-compartment tendon of the extensor retinaculum.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q13",
+      "page": 29,
+      "title": "Muscle supplied by the posterior interosseous nerve",
+      "question": "Which muscle is supplied by the posterior interosseous nerve?",
+      "options": {
+        "A": "Brachioradialis.",
+        "B": "Extensor carpi ulnaris.",
+        "C": "Extensor carpi radialis longus.",
+        "D": "Brachialis"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Extensor carpi ulnaris is one of the deep extensor-compartment muscles supplied by the posterior interosseous nerve, the deep terminal branch of the radial nerve given off after it pierces supinator. Brachioradialis and extensor carpi radialis longus are both supplied by the radial nerve trunk proximal to that division, and brachialis is supplied mainly by the musculocutaneous nerve (with a small radial contribution), so none of the three is a posterior interosseous nerve muscle. This distinction is why a posterior interosseous nerve lesion spares brachioradialis and extensor carpi radialis longus (wrist extension with radial deviation persists) while paralysing extensor carpi ulnaris and the finger extensors.",
+        "A": "Incorrect. Brachioradialis is supplied by the radial nerve trunk, proximal to the posterior interosseous branch.",
+        "C": "Incorrect. Extensor carpi radialis longus is supplied by the radial nerve trunk, proximal to the posterior interosseous branch.",
+        "D": "Incorrect. Brachialis is supplied mainly by the musculocutaneous nerve, not the posterior interosseous nerve."
+      },
+      "main_concept": "CON-MSK-1FC89E36FFD98E",
+      "concept_ids": [
+        "CON-MSK-1FC89E36FFD98E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name extensor carpi ulnaris as a posterior interosseous nerve muscle, distinct from the radial-trunk-supplied muscles proximal to it.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q14",
+      "page": 29,
+      "title": "Muscle inserted into the styloid process of the radius",
+      "question": "which muscle is inserted into styloid process of radius?",
+      "options": {
+        "A": "Brachioradialis.",
+        "B": "Extensor carpi ulnaris.",
+        "C": "Extensor carpi radialis longus.",
+        "D": "Brachialis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Brachioradialis runs the length of the forearm's lateral border from the lateral supracondylar ridge of the humerus to insert on the lateral surface of the distal radius, just proximal to the styloid process, which is the landmark this item is testing. It is a flexor of the elbow despite lying in the extensor (posterior) compartment and being supplied by the radial nerve. Its insertion near the radial styloid also makes it a useful surgical landmark at the wrist.",
+        "B": "Incorrect. Extensor carpi ulnaris inserts on the base of the fifth metacarpal, not the radial styloid process.",
+        "C": "Incorrect. Extensor carpi radialis longus inserts on the base of the second metacarpal, not the radial styloid process.",
+        "D": "Incorrect. Brachialis inserts on the coronoid process and tuberosity of the ulna, not the radial styloid process."
+      },
+      "main_concept": "CON-MSK-E04D8A31AEAC23",
+      "concept_ids": [
+        "CON-MSK-E04D8A31AEAC23"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name brachioradialis as the muscle inserting near the styloid process of the radius.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q15",
+      "page": 29,
+      "title": "Muscle attached to the terminal phalanx of the thumb",
+      "question": "which muscle is attached to terminal phalanx of thumb?",
+      "options": {
+        "A": "abductor pollicis longus",
+        "B": "Flexor pollicis brevis",
+        "C": "extensor pollicis longus",
+        "D": "extensor pollicis brevis"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Extensor pollicis longus inserts on the base of the distal (terminal) phalanx of the thumb, which is what lets it extend the interphalangeal joint — the one thumb extensor able to do so. It runs in the third extensor compartment of the retinaculum and angles around Lister's tubercle on the radius before reaching the thumb, forming the posterior boundary of the anatomical snuff box on its way.",
+        "A": "Incorrect. Abductor pollicis longus inserts on the base of the first metacarpal, not the terminal phalanx.",
+        "B": "Incorrect. Flexor pollicis brevis inserts on the base of the proximal phalanx of the thumb, not the terminal phalanx.",
+        "D": "Incorrect. Extensor pollicis brevis inserts on the base of the proximal phalanx of the thumb, not the terminal phalanx."
+      },
+      "main_concept": "CON-MSK-E04D8A31AEAC23",
+      "concept_ids": [
+        "CON-MSK-E04D8A31AEAC23"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name extensor pollicis longus as the muscle inserting on the terminal phalanx of the thumb.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q17",
+      "page": 30,
+      "title": "Nerve supply of extensor pollicis longus",
+      "question": "extensor pollicis longus is supplied by ...",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "median nerve",
+        "C": "anterior interosseous nerve",
+        "D": "posterior interosseous nerve",
+        "E": "radial nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Extensor pollicis longus is one of the deep extensor-compartment muscles, supplied by the posterior interosseous nerve, the radial nerve's deep terminal branch given off after it pierces supinator. It shares this supply with the other deep-layer muscles — abductor pollicis longus, extensor pollicis brevis, and extensor indicis — that together govern the thumb and index finger's extension.",
+        "A": "Incorrect. The ulnar nerve does not supply extensor pollicis longus.",
+        "B": "Incorrect. The median nerve does not supply extensor pollicis longus, which lies in the extensor compartment.",
+        "C": "Incorrect. The anterior interosseous nerve supplies the flexor, not the extensor, compartment.",
+        "E": "Incorrect. The radial nerve trunk itself does not directly supply extensor pollicis longus; its posterior interosseous branch does."
+      },
+      "main_concept": "CON-MSK-1FC89E36FFD98E",
+      "concept_ids": [
+        "CON-MSK-1FC89E36FFD98E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q18",
+      "page": 30,
+      "title": "Nerve supply of flexor digitorum superficialis",
+      "question": "flexor digitorum superficialis is supplied by .......",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "median nerve",
+        "C": "anterior interosseous nerve",
+        "D": "posterior interosseous nerve",
+        "E": "radial nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Flexor digitorum superficialis is supplied by the median nerve proper (not its anterior interosseous branch), entering the muscle's deep surface as the nerve runs down the forearm between it and flexor digitorum profundus. It is one of the intermediate-layer flexors, forming its own layer between the superficial group (pronator teres, flexor carpi radialis, palmaris longus, flexor carpi ulnaris) and the deep group (flexor digitorum profundus, flexor pollicis longus, pronator quadratus).",
+        "A": "Incorrect. The ulnar nerve does not supply flexor digitorum superficialis.",
+        "C": "Incorrect. The anterior interosseous nerve supplies the deep flexor layer, not flexor digitorum superficialis.",
+        "D": "Incorrect. The posterior interosseous nerve supplies the extensor, not the flexor, compartment.",
+        "E": "Incorrect. The radial nerve does not supply flexor digitorum superficialis."
+      },
+      "main_concept": "CON-MSK-46C40109E7D957",
+      "concept_ids": [
+        "CON-MSK-46C40109E7D957"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q19",
+      "page": 30,
+      "title": "Nerve supply of extensor digitorum",
+      "question": "extensor digitorum muscle is supplied by ..........",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "median nerve",
+        "C": "anterior interosseous nerve",
+        "D": "posterior interosseous nerve",
+        "E": "radial nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Extensor digitorum is a deep-layer extensor supplied by the posterior interosseous nerve, alongside extensor digiti minimi and extensor carpi ulnaris. All three fan out from the common extensor origin on the lateral epicondyle and are paralysed together in a posterior interosseous nerve lesion, producing finger drop at the metacarpophalangeal joints even while wrist extension is partly preserved by the radial-trunk-supplied extensor carpi radialis longus.",
+        "A": "Incorrect. The ulnar nerve does not supply extensor digitorum.",
+        "B": "Incorrect. The median nerve does not supply extensor digitorum, which lies in the extensor compartment.",
+        "C": "Incorrect. The anterior interosseous nerve supplies the flexor, not the extensor, compartment.",
+        "E": "Incorrect. The radial nerve trunk itself does not directly supply extensor digitorum; its posterior interosseous branch does."
+      },
+      "main_concept": "CON-MSK-1FC89E36FFD98E",
+      "concept_ids": [
+        "CON-MSK-1FC89E36FFD98E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q21",
+      "page": 31,
+      "title": "Hand muscle affected by median nerve compression",
+      "question": "The hand muscle likely to be affected by compression of the median nerve?",
+      "options": {
+        "A": "Oppenens pollicis.",
+        "B": "Opponens digiti minimi.",
+        "C": "3rd lumbrical muscle",
+        "D": "Dorsal interossi."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Opponens pollicis is one of the three thenar muscles supplied by the recurrent (muscular) branch of the median nerve after it passes through the carpal tunnel, making it the classic muscle wasted in carpal tunnel syndrome — median nerve compression under the flexor retinaculum. Its loss weakens thumb opposition, the movement patients notice first as clumsiness gripping small objects. The 3rd lumbrical is also median-supplied but is a lesser-known target; opponens pollicis and thenar wasting are what the bank and clinical exam both test.",
+        "B": "Incorrect. Opponens digiti minimi is a hypothenar muscle supplied by the deep branch of the ulnar nerve.",
+        "C": "Incorrect. The 3rd lumbrical is supplied by the deep branch of the ulnar nerve, not the median nerve (only the lateral two lumbricals are median).",
+        "D": "Incorrect. The dorsal interossei are supplied by the deep branch of the ulnar nerve."
+      },
+      "main_concept": "CON-MSK-9B52018C4649BD",
+      "concept_ids": [
+        "CON-MSK-9B52018C4649BD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name opponens pollicis as the classic thenar muscle affected by median nerve compression in the carpal tunnel.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q22",
+      "page": 31,
+      "title": "Hand muscles supplied by the ulnar nerve",
+      "question": "The following muscles of hand are supplied by ulnar nerve except:",
+      "options": {
+        "A": "Palmar interossei",
+        "B": "1st lumbrical.",
+        "C": "Adductor pollicis.",
+        "D": "Abductor digiti mini."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The first lumbrical is one of the two lateral lumbricals supplied by the median nerve rather than the ulnar nerve, which is the exception the rule tests: every other intrinsic hand muscle, including all four palmar and dorsal interossei, adductor pollicis, and the hypothenar group, is supplied by the deep branch of the ulnar nerve, while only the lateral two lumbricals (1st and 2nd) escape to the median nerve. This exception is why an ulnar claw hand spares flexion at the metacarpophalangeal joints of the index and middle fingers more than the ring and little.",
+        "A": "Incorrect. The palmar interossei are supplied by the deep branch of the ulnar nerve.",
+        "C": "Incorrect. Adductor pollicis is supplied by the deep branch of the ulnar nerve.",
+        "D": "Incorrect. Abductor digiti minimi is supplied by the deep branch of the ulnar nerve."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the 1st lumbrical as median-supplied, the exception among ulnar-supplied hand muscles.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q23",
+      "page": 31,
+      "title": "Nerve supply of palmaris brevis",
+      "question": "Palmaris brevis is supplied by which of the following?",
+      "options": {
+        "A": "Recurrent branch of median",
+        "B": "Palmar branch of medlan",
+        "C": "Deep branch ulnar",
+        "D": "Superficial branch of ulnar"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Palmaris brevis, the small skin muscle that wrinkles the hypothenar skin, is the one hand muscle supplied by the superficial branch of the ulnar nerve rather than the deep branch, which instead supplies every other intrinsic muscle the ulnar nerve reaches (hypothenar muscles proper, interossei, adductor pollicis, medial two lumbricals). The superficial branch otherwise carries only sensory fibres to the palmar skin of the little finger and the medial half of the ring finger, making palmaris brevis its sole motor exception.",
+        "A": "Incorrect. The recurrent branch of the median nerve supplies the thenar muscles, not palmaris brevis.",
+        "B": "Incorrect. The palmar (cutaneous) branch of the median nerve is sensory, not motor to palmaris brevis.",
+        "C": "Incorrect. The deep branch of the ulnar nerve supplies the other intrinsic hand muscles, not palmaris brevis."
+      },
+      "main_concept": "CON-MSK-8FB16415EFF905",
+      "concept_ids": [
+        "CON-MSK-8FB16415EFF905"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name palmaris brevis as the one hand muscle supplied by the superficial branch of the ulnar nerve.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q24",
+      "page": 31,
+      "title": "A hand muscle supplied by the median nerve",
+      "question": "Which ONE of the following muscles of hand is supplied by median nerve?",
+      "options": {
+        "A": "Abductor pollicis brevis.",
+        "B": "Adductor pollicis.",
+        "C": "Third lumbrical muscle.",
+        "D": "First dorsal interosseous muscle."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Abductor pollicis brevis is one of the three thenar muscles (with flexor pollicis brevis and opponens pollicis) supplied by the recurrent branch of the median nerve after the nerve emerges from the carpal tunnel. The other three options all belong to the ulnar nerve's deep-branch territory: adductor pollicis, every interosseous muscle, and the medial two lumbricals. Recognising abductor pollicis brevis specifically matters clinically, since thumb abduction weakness (not adduction) is the classic sign tested in carpal tunnel syndrome.",
+        "B": "Incorrect. Adductor pollicis is supplied by the deep branch of the ulnar nerve.",
+        "C": "Incorrect. The third lumbrical is one of the medial two lumbricals, supplied by the deep branch of the ulnar nerve.",
+        "D": "Incorrect. The first dorsal interosseous muscle is supplied by the deep branch of the ulnar nerve."
+      },
+      "main_concept": "CON-MSK-8FB16415EFF905",
+      "concept_ids": [
+        "CON-MSK-8FB16415EFF905"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name abductor pollicis brevis as a median-supplied thenar muscle.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q25",
+      "page": 31,
+      "title": "Nerve supply of abductor digiti minimi",
+      "question": "abductor digiti minimi muscle is supplied by .......",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "radial nerve",
+        "C": "posterior interosseous nerve",
+        "D": "anterior interosseous nerve",
+        "E": "median nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Abductor digiti minimi is one of the three hypothenar muscles (with flexor digiti minimi and opponens digiti minimi), all supplied by the deep branch of the ulnar nerve as it curves around the hook of the hamate into the palm. The hypothenar group mirrors the thenar group structurally but is entirely ulnar rather than median, which is the pairing this cluster of questions is built to test.",
+        "B": "Incorrect. The radial nerve does not supply intrinsic hand muscles.",
+        "C": "Incorrect. The posterior interosseous nerve supplies the forearm extensor compartment, not the hand's intrinsic muscles.",
+        "D": "Incorrect. The anterior interosseous nerve supplies deep forearm flexors, not the hand's intrinsic muscles.",
+        "E": "Incorrect. The median nerve supplies the thenar muscles and lateral two lumbricals, not the hypothenar group."
+      },
+      "main_concept": "CON-MSK-8FB16415EFF905",
+      "concept_ids": [
+        "CON-MSK-8FB16415EFF905"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q26",
+      "page": 32,
+      "title": "Nerve controlling adduction of the digits",
+      "question": "which nerve controls adduction of all the digits of the hand?",
+      "options": {
+        "A": "Ulnar nerve",
+        "B": "Median nerve",
+        "C": "Radial nerve",
+        "D": "Posterior interosseous nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Adduction of the fingers toward the middle finger's axis is produced by the palmar interossei, and adduction of the thumb by adductor pollicis — both supplied by the deep branch of the ulnar nerve, which is why the ulnar nerve is considered the nerve of finger adduction as a whole. This is the functional pairing with the dorsal interossei, which abduct the fingers and are also ulnar-supplied, so the ulnar nerve in fact governs both abduction and adduction at the fingers even though only adduction is asked here.",
+        "B": "Incorrect. The median nerve does not supply the interossei or adductor pollicis.",
+        "C": "Incorrect. The radial nerve does not supply any intrinsic hand muscle.",
+        "D": "Incorrect. The posterior interosseous nerve supplies the forearm extensor compartment, not the hand's intrinsic muscles."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name the ulnar nerve as controlling adduction of the digits via the palmar interossei and adductor pollicis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q27",
+      "page": 32,
+      "title": "Muscles attaching to the extensor expansion",
+      "question": "All of the following muscles attach to the extensor expansion EXCEPT:",
+      "options": {
+        "A": "Lumbricals.",
+        "B": "Extensor indicis.",
+        "C": "Extensor digiti minimi",
+        "D": "Extensor carpi radialis brevis."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Extensor carpi radialis brevis is a wrist extensor that inserts on the base of the third metacarpal and takes no part in the extensor expansion (dorsal digital expansion) over the fingers, making it the exception. The extensor expansion itself is built from the finger extensor tendons (extensor digitorum, extensor indicis, extensor digiti minimi) joined by the lumbricals and interossei, which is why both flexor and extensor systems contribute to finger extension at the interphalangeal joints.",
+        "A": "Incorrect. The lumbricals attach to the extensor expansion (radial side) and help extend the interphalangeal joints.",
+        "B": "Incorrect. Extensor indicis attaches to the extensor expansion of the index finger.",
+        "C": "Incorrect. Extensor digiti minimi attaches to the extensor expansion of the little finger."
+      },
+      "main_concept": "CON-MSK-2AA14F317F45C3",
+      "concept_ids": [
+        "CON-MSK-2AA14F317F45C3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify extensor carpi radialis brevis as not contributing to the extensor expansion.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q28",
+      "page": 32,
+      "title": "Sensation from the medial third of the palm",
+      "question": "sensation from medial third of palm of hand is carried by......",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "radial nerve",
+        "C": "posterior interosseous nerve",
+        "D": "anterior interosseous nerve",
+        "E": "median nerve"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The palmar cutaneous branch of the ulnar nerve supplies the medial (ulnar) third of the palm and the palmar skin of the little finger and medial half of the ring finger, complementing the median nerve's territory over the lateral two-thirds. This palmar split mirrors, but is not identical to, the dorsal split of the hand between the radial and ulnar nerves.",
+        "B": "Incorrect. The radial nerve supplies dorsal, not palmar, skin of the hand.",
+        "C": "Incorrect. The posterior interosseous nerve is entirely motor, with no cutaneous territory.",
+        "D": "Incorrect. The anterior interosseous nerve is entirely motor, with no cutaneous territory.",
+        "E": "Incorrect. The median nerve supplies the lateral two-thirds of the palm, not the medial third."
+      },
+      "main_concept": "CON-MSK-37D3C3219F9806",
+      "concept_ids": [
+        "CON-MSK-37D3C3219F9806"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q29",
+      "page": 32,
+      "title": "Sensation from the lateral dorsum of the hand",
+      "question": "sensation from lateral two third of dorsum of hand is carried by ...........",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "radial nerve",
+        "C": "posterior interosseous nerve",
+        "D": "anterior interosseous nerve",
+        "E": "median nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The superficial branch of the radial nerve supplies the lateral two-thirds of the dorsum of the hand, crossing the roof of the anatomical snuff box on its way, complementing the ulnar nerve's medial one-third territory on the dorsum. This dorsal split is the mirror image of the palmar split between the median and ulnar nerves, and the two maps do not line up — a common source of confusion the bank is testing here.",
+        "A": "Incorrect. The ulnar nerve supplies the medial one-third of the dorsum of the hand, not the lateral two-thirds.",
+        "C": "Incorrect. The posterior interosseous nerve is entirely motor, with no cutaneous territory.",
+        "D": "Incorrect. The anterior interosseous nerve is entirely motor, with no cutaneous territory.",
+        "E": "Incorrect. The median nerve does not supply the dorsum of the hand (except the fingertips, see the nail-bed exception)."
+      },
+      "main_concept": "CON-MSK-37D3C3219F9806",
+      "concept_ids": [
+        "CON-MSK-37D3C3219F9806"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q30",
+      "page": 32,
+      "title": "Sensation over the nails of the lateral fingers",
+      "question": "which nerve is responsible for sensation from nails and adjacent skin In the lateral 3.5 fingers?",
+      "options": {
+        "A": "ulnar nerve",
+        "B": "radial nerve",
+        "C": "posterior interosseous nerve",
+        "D": "anterior interosseous nerve",
+        "E": "median nerve"
+      },
+      "correct": "E",
+      "explanations": {
+        "E": "Correct. Although the radial nerve owns the dorsum of the hand generally, its territory stops short of the nail beds: the digital branches of the median nerve wrap around onto the dorsal aspect of the terminal phalanges to supply the nail beds and adjacent skin of the lateral three and a half fingers (thumb, index, middle, and the lateral half of the ring finger), the same fingers whose palmar surface the median nerve supplies. This is the classic exception to the simple palmar-median/dorsal-radial rule that the bank is testing.",
+        "A": "Incorrect. The ulnar nerve supplies the medial one and a half fingers' nail beds, not the lateral three and a half.",
+        "B": "Incorrect. The radial nerve's dorsal territory stops at the middle phalanges; it does not reach the nail beds of the fingers.",
+        "C": "Incorrect. The posterior interosseous nerve is entirely motor, with no cutaneous territory.",
+        "D": "Incorrect. The anterior interosseous nerve is entirely motor, with no cutaneous territory."
+      },
+      "main_concept": "CON-MSK-37D3C3219F9806",
+      "concept_ids": [
+        "CON-MSK-37D3C3219F9806"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the median nerve's dorsal exception at the nail beds of the lateral three and a half fingers.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q31",
+      "page": 33,
+      "title": "Nerve supply of the 2nd lumbrical",
+      "question": "2nd lumbrical muscle is supplied by ..........",
+      "options": {
+        "A": "superficial branch of ulnar nerve",
+        "B": "median nerve",
+        "C": "anterior interosseous nerve",
+        "D": "deep branch of ulnar nerve",
+        "E": "radial nerve"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The 1st and 2nd lumbricals, arising from the lateral (radial) side of the flexor digitorum profundus tendons to the index and middle fingers, are supplied by the median nerve, while the 3rd and 4th lumbricals, arising from the adjacent sides of the profundus tendons to the ring and little fingers, are supplied by the deep branch of the ulnar nerve. This lateral-two/medial-two split mirrors flexor digitorum profundus's own split supply, since the lumbricals arise directly from that muscle's tendons.",
+        "A": "Incorrect. The superficial branch of the ulnar nerve is sensory and supplies palmaris brevis, not the lumbricals.",
+        "C": "Incorrect. The anterior interosseous nerve supplies flexor pollicis longus, part of flexor digitorum profundus, and pronator quadratus, not the lumbricals.",
+        "D": "Incorrect. The deep branch of the ulnar nerve supplies the 3rd and 4th lumbricals, not the 2nd.",
+        "E": "Incorrect. The radial nerve does not supply any intrinsic hand muscle."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name the median nerve as supplying the lateral two (1st and 2nd) lumbricals.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q32",
+      "page": 33,
+      "title": "Testing finger abduction and adduction",
+      "question": "Asking the patient to abduct and adduct his fingers is a test for which nerve:",
+      "options": {
+        "A": "Median nerve",
+        "B": "Radial nerve.",
+        "C": "Deep branch of ulnar nerve.",
+        "D": "Antenor interosseous nerve."
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Finger abduction is produced by the dorsal interossei and adduction by the palmar interossei, and both muscle groups are supplied by the deep branch of the ulnar nerve, so asking a patient to spread and then squeeze the fingers together is a direct bedside test of that nerve's integrity. This is the same test used to screen for an ulnar claw hand and is often paired with Froment's sign for adductor pollicis.",
+        "A": "Incorrect. The median nerve does not supply the interossei that abduct and adduct the fingers.",
+        "B": "Incorrect. The radial nerve does not supply any intrinsic hand muscle.",
+        "D": "Incorrect. The anterior interosseous nerve is a forearm flexor nerve and supplies no intrinsic hand muscle."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Recognise finger abduction/adduction as a bedside test of the deep branch of the ulnar nerve.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q33",
+      "page": 33,
+      "title": "Nerve supply of adductor pollicis",
+      "question": "adductor pollicis muscle is supplied by .........",
+      "options": {
+        "A": "superficial branch of ulnar nerve",
+        "B": "median nerve",
+        "C": "anterior interosseous nerve",
+        "D": "deep branch of ulnar nerve",
+        "E": "radial nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Adductor pollicis, the deepest of the thumb's intrinsic muscles with oblique and transverse heads, is supplied by the deep branch of the ulnar nerve, distinguishing it from the three thenar muscles (abductor pollicis brevis, flexor pollicis brevis, opponens pollicis) that are median-supplied. Its weakness is what Froment's sign detects: asked to pinch a card between thumb and index finger, a patient with an ulnar nerve lesion substitutes flexor pollicis longus (median/AIN-supplied) and flexes the thumb's interphalangeal joint instead.",
+        "A": "Incorrect. The superficial branch of the ulnar nerve is sensory and supplies palmaris brevis, not adductor pollicis.",
+        "B": "Incorrect. The median nerve supplies the thenar muscles, not adductor pollicis.",
+        "C": "Incorrect. The anterior interosseous nerve does not supply adductor pollicis.",
+        "E": "Incorrect. The radial nerve does not supply any intrinsic hand muscle."
+      },
+      "main_concept": "CON-MSK-8FB16415EFF905",
+      "concept_ids": [
+        "CON-MSK-8FB16415EFF905"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name adductor pollicis as supplied by the deep branch of the ulnar nerve, the basis of Froment's sign.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q34",
+      "page": 33,
+      "title": "Pulsation felt in the anatomical snuff box",
+      "question": "Pulsation of which artery can be felt in anatomical snuff box?",
+      "options": {
+        "A": "radial artery",
+        "B": "ulnar artery",
+        "C": "deep palmar arch",
+        "D": "radial recurrent artery"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The radial artery crosses the floor of the anatomical snuff box, over the scaphoid and trapezium, on its way from the forearm to the dorsum of the hand and then into the palm to form the deep palmar arch, and its pulsation can be felt here as well as at the wrist. This is also why a scaphoid fracture is clinically relevant to the artery's course, though the artery's own risk of injury there is less emphasised than the bone's avascular-necrosis risk.",
+        "B": "Incorrect. The ulnar artery runs medially at the wrist, through Guyon's canal, not through the snuff box.",
+        "C": "Incorrect. The deep palmar arch lies in the palm, formed by the radial artery after it leaves the snuff box, not within the snuff box itself.",
+        "D": "Incorrect. The radial recurrent artery is a branch given off in the cubital fossa, near the elbow, not at the wrist."
+      },
+      "main_concept": "CON-MSK-1424177E093253",
+      "concept_ids": [
+        "CON-MSK-1424177E093253"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name the radial artery as the vessel palpable in the anatomical snuff box.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q35",
+      "page": 33,
+      "title": "Tendons the lumbricals are attached to",
+      "question": "lumbrical muscles are attached to tendons of ............",
+      "options": {
+        "A": "flexor carpi ulnaris",
+        "B": "flexor digitorum profundus",
+        "C": "extensor pollicis longus",
+        "D": "flexor digitorum superficialis"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. All four lumbricals arise from the tendons of flexor digitorum profundus in the palm — the 1st and 2nd from the radial side of the index and middle-finger tendons (unipennate), the 3rd and 4th from the adjacent sides of the ring and little-finger tendons (bipennate) — and insert into the extensor expansion on the radial side of each finger. This origin is why the lumbricals can flex the metacarpophalangeal joints while extending the interphalangeal joints simultaneously, an action no other muscle group duplicates.",
+        "A": "Incorrect. Flexor carpi ulnaris is a wrist flexor and gives no origin to the lumbricals.",
+        "C": "Incorrect. Extensor pollicis longus is a thumb extensor and gives no origin to the lumbricals.",
+        "D": "Incorrect. The lumbricals arise from flexor digitorum profundus, not flexor digitorum superficialis."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name flexor digitorum profundus as the tendon of origin of the lumbrical muscles.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q36",
+      "page": 34,
+      "title": "A muscle not supplied by the ulnar nerve",
+      "question": "Which of the following muscles is NOT supplied by ulnar nerve?",
+      "options": {
+        "A": "Flexor carpi ulnaris.",
+        "B": "Extensor carpi ulnaris.",
+        "C": "Adductor pollicis.",
+        "D": "1st palmar interossei"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Despite its name suggesting an ulnar-nerve muscle, extensor carpi ulnaris lies in the posterior (extensor) compartment and is supplied by the posterior interosseous nerve, a branch of the radial nerve — the classic naming trap the bank is testing. Flexor carpi ulnaris, by contrast, genuinely is ulnar-supplied (one of only two forearm flexors that are), and adductor pollicis and the palmar interossei are both supplied by the deep branch of the ulnar nerve in the hand.",
+        "A": "Incorrect. Flexor carpi ulnaris is supplied by the ulnar nerve — one of the two named exceptions among the median-dominated forearm flexors.",
+        "C": "Incorrect. Adductor pollicis is supplied by the deep branch of the ulnar nerve.",
+        "D": "Incorrect. The 1st palmar interosseous is supplied by the deep branch of the ulnar nerve."
+      },
+      "main_concept": "CON-MSK-44131E0EDEACA2",
+      "concept_ids": [
+        "CON-MSK-44131E0EDEACA2"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify extensor carpi ulnaris as radial-supplied despite its name, unlike flexor carpi ulnaris.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q37",
+      "page": 34,
+      "title": "A false statement about the radial artery in the hand",
+      "question": "Regarding the radial artery in the hand, which of the followings is FALSE?",
+      "options": {
+        "A": "it continues as deep palmar arch.",
+        "B": "It gives only one recurrent branch for anastomosis around the elbow",
+        "C": "its pulsation can be felt medial to the tendon of flexor carpi radialis.",
+        "D": "it passes through the anatomical snuff box"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct, this is the FALSE statement. The radial artery's pulse at the wrist is felt lateral to the tendon of flexor carpi radialis, not medial to it — this is the standard site used to take a patient's pulse, and misplacing it medially is the error the item is testing. The other three statements are true: the artery does continue as the deep palmar arch, it gives the radial recurrent artery as its one contribution to the elbow anastomosis, and it does cross the floor of the anatomical snuff box.",
+        "A": "Incorrect — this statement is TRUE. The radial artery continues into the palm as the deep palmar arch.",
+        "B": "Incorrect — this statement is TRUE. The radial recurrent artery is the radial artery's one branch to the elbow anastomosis.",
+        "D": "Incorrect — this statement is TRUE. The radial artery passes through the floor of the anatomical snuff box."
+      },
+      "main_concept": "CON-MSK-58D5F74E9595C3",
+      "concept_ids": [
+        "CON-MSK-58D5F74E9595C3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the radial pulse as felt lateral, not medial, to the flexor carpi radialis tendon.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q38",
+      "page": 34,
+      "title": "A false statement about the ulnar artery",
+      "question": "Regarding the ulnar artery, which of the followings is FALSE?",
+      "options": {
+        "A": "it gives the common interosseous artery.",
+        "B": "It begins opposite the neck of radius",
+        "C": "it ends by forming the superficial palmar arch",
+        "D": "Its pulsation can be felt lateral to the tendon of flexor carpi radialis muscle."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct, this is the FALSE statement. The ulnar artery's pulse at the wrist is felt lateral to the tendon of flexor carpi ulnaris (not flexor carpi radialis), on the radial side of the pisiform bone — flexor carpi radialis is where the radial, not the ulnar, pulse is referenced from. The other three statements are true: the ulnar artery does give the common interosseous artery in the cubital fossa, it does begin (with the radial artery) opposite the neck of the radius as the brachial artery's bifurcation, and it does end as the superficial palmar arch.",
+        "A": "Incorrect — this statement is TRUE. The ulnar artery gives the common interosseous artery just after its origin.",
+        "B": "Incorrect — this statement is TRUE. The ulnar artery begins, with the radial artery, opposite the neck of the radius.",
+        "C": "Incorrect — this statement is TRUE. The ulnar artery ends by forming the superficial palmar arch."
+      },
+      "main_concept": "CON-MSK-25C6698A72A982",
+      "concept_ids": [
+        "CON-MSK-25C6698A72A982"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the ulnar pulse as referenced to flexor carpi ulnaris, not flexor carpi radialis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q39",
+      "page": 34,
+      "title": "Where the radial pulse is palpable",
+      "question": "Where is the pulse of the radial artery palpable?",
+      "options": {
+        "A": "Superficial to the carpal tunnel",
+        "B": "Lateral to the tendon of the flexor carpi radialls",
+        "C": "Between the tendons of the palmaris longus and flexor carpi ulnaris",
+        "D": "Across the anterlor aspect of the lateral epicondyle of the humerus"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The radial pulse is taken where the artery lies superficially between the tendons of flexor carpi radialis (medially) and brachioradialis (laterally), against the distal radius — described here as lateral to the flexor carpi radialis tendon, the standard clinical landmark. This is distinct from the ulnar pulse, which is instead found between palmaris longus and flexor carpi ulnaris (the distractor in option C describes the ulnar artery's location, not the radial's).",
+        "A": "Incorrect. The carpal tunnel lies deep to the flexor retinaculum and carries the median nerve and flexor tendons, not the radial artery.",
+        "C": "Incorrect. This location, between palmaris longus and flexor carpi ulnaris, is where the ulnar pulse is felt, not the radial pulse.",
+        "D": "Incorrect. The lateral epicondyle is at the elbow, not the wrist, and is not a site for the radial pulse."
+      },
+      "main_concept": "CON-MSK-58D5F74E9595C3",
+      "concept_ids": [
+        "CON-MSK-58D5F74E9595C3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Locate the radial pulse lateral to the flexor carpi radialis tendon at the wrist.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q40",
+      "page": 34,
+      "title": "Radial and ulnar arteries: the false statement",
+      "question": "the following statements are correct about radial and ulnar arteries EXCEPT:",
+      "options": {
+        "A": "they arise from brachial artery, at the level of neck of the radius.",
+        "B": "Both of these give muscular branches.",
+        "C": "Radial artery forms the deep palmar arch.",
+        "D": "Ulnar artery runs deeply in anatomical snuff box."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The ulnar artery does not enter the anatomical snuff box at all — it stays medial at the wrist and passes into the palm through Guyon's canal to form the superficial palmar arch. The radial artery, not the ulnar, is the vessel that crosses through the snuff box, which is why this statement is the false one. The other three statements are true: both arteries arise from the brachial artery's bifurcation opposite the neck of the radius, both give muscular branches along their course, and the radial artery does form the deep palmar arch.",
+        "A": "Incorrect — this statement is TRUE. Both arteries arise from the brachial artery's bifurcation opposite the neck of the radius.",
+        "B": "Incorrect — this statement is TRUE. Both the radial and ulnar arteries give muscular branches in the forearm.",
+        "C": "Incorrect — this statement is TRUE. The radial artery continues as the deep palmar arch."
+      },
+      "main_concept": "CON-MSK-9FF8A29E36480B",
+      "concept_ids": [
+        "CON-MSK-9FF8A29E36480B"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the ulnar artery as absent from the anatomical snuff box, unlike the radial artery.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q41",
+      "page": 35,
+      "title": "A correct statement about the ulnar nerve",
+      "question": "About the ulnar nerve, the following statement is correct:",
+      "options": {
+        "A": "it is a branch of lateral cord of brachial plexus",
+        "B": "it has 3 branches in arm",
+        "C": "it passes behind medial epicondyle of humerus",
+        "D": "it supplies extensor carpi ulnaris muscle"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The ulnar nerve runs down the medial side of the arm and passes behind the medial epicondyle of the humerus, in the groove for the ulnar nerve, before entering the forearm between the two heads of flexor carpi ulnaris — this superficial position behind the epicondyle is exactly why a fracture there so often injures the nerve. It is a branch of the medial cord (not lateral cord), and it gives no branches at all in the arm, entering the forearm as a purely terminal continuation of the medial cord.",
+        "A": "Incorrect. The ulnar nerve is a branch of the medial cord, not the lateral cord.",
+        "B": "Incorrect. The ulnar nerve gives no branches in the arm; its first branches arise in the forearm.",
+        "D": "Incorrect. Extensor carpi ulnaris is supplied by the posterior interosseous nerve, not the ulnar nerve, despite the shared name."
+      },
+      "main_concept": "CON-MSK-F0F2BDF778A2DD",
+      "concept_ids": [
+        "CON-MSK-F0F2BDF778A2DD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Locate the ulnar nerve behind the medial epicondyle and identify it as a medial-cord branch with no branches in the arm.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q42",
+      "page": 35,
+      "title": "A muscle supplied by the ulnar nerve",
+      "question": "The ulnar nerve supplies.......",
+      "options": {
+        "A": "flexor digiti minimi",
+        "B": "Flexor carpi radialis.",
+        "C": "Flexor digitorum superficialis.",
+        "D": "Palmaris longus.",
+        "E": "Pronator teres."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Flexor digiti minimi is one of the three hypothenar muscles, supplied by the deep branch of the ulnar nerve after it curves around the hook of the hamate, alongside abductor and opponens digiti minimi. The other four options are all median-nerve territory: flexor carpi radialis, flexor digitorum superficialis, palmaris longus, and pronator teres are all forearm flexors supplied by the median nerve proper, none of them among the ulnar nerve's two named forearm exceptions (flexor carpi ulnaris and the medial half of flexor digitorum profundus).",
+        "B": "Incorrect. Flexor carpi radialis is supplied by the median nerve.",
+        "C": "Incorrect. Flexor digitorum superficialis is supplied by the median nerve.",
+        "D": "Incorrect. Palmaris longus is supplied by the median nerve.",
+        "E": "Incorrect. Pronator teres is supplied by the median nerve."
+      },
+      "main_concept": "CON-MSK-8FB16415EFF905",
+      "concept_ids": [
+        "CON-MSK-8FB16415EFF905"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q43",
+      "page": 35,
+      "title": "Muscles supplied by the ulnar nerve, except one",
+      "question": "The ulnar nerve supplies all of the following muscles EXCEPT:",
+      "options": {
+        "A": "Adductor pollicis.",
+        "B": "Flexor pollicis longus.",
+        "C": "Interossei muscles.",
+        "D": "Hypothenar muscles.",
+        "E": "Medial 2 lumbricals."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Flexor pollicis longus is supplied by the anterior interosseous branch of the median nerve, not the ulnar nerve, making it the exception here. Every other option is genuinely ulnar: adductor pollicis, all the interossei, the hypothenar group, and the medial two (3rd and 4th) lumbricals are all supplied by the deep branch of the ulnar nerve, forming the bulk of the hand's intrinsic musculature the ulnar nerve governs.",
+        "A": "Incorrect. Adductor pollicis is supplied by the deep branch of the ulnar nerve.",
+        "C": "Incorrect. The interossei are supplied by the deep branch of the ulnar nerve.",
+        "D": "Incorrect. The hypothenar muscles are supplied by the deep branch of the ulnar nerve.",
+        "E": "Incorrect. The medial two lumbricals are supplied by the deep branch of the ulnar nerve."
+      },
+      "main_concept": "CON-MSK-F0F2BDF778A2DD",
+      "concept_ids": [
+        "CON-MSK-F0F2BDF778A2DD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify flexor pollicis longus as the exception among the ulnar nerve's hand and forearm targets.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q44",
+      "page": 35,
+      "title": "A false statement about the ulnar nerve",
+      "question": "Regarding the ulnar nerve, the following statement is false:",
+      "options": {
+        "A": "it is a branch of medial cord of brachial plexus.",
+        "B": "it passes deep to flexor retinaculum",
+        "C": "It gives no branches in arm.",
+        "D": "it passes behind medial epicondyle of humerus."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct, this is the FALSE statement. The ulnar nerve does not pass deep to the flexor retinaculum: together with the ulnar artery, it crosses superficial to it, through Guyon's canal, which is exactly why ulnar nerve compression at the wrist (Guyon's canal syndrome) is a distinct clinical entity from median-nerve carpal tunnel syndrome. The other three statements are true: the ulnar nerve is a branch of the medial cord, it gives no branches in the arm, and it does pass behind the medial epicondyle of the humerus.",
+        "A": "Incorrect — this statement is TRUE. The ulnar nerve is a branch of the medial cord of the brachial plexus.",
+        "C": "Incorrect — this statement is TRUE. The ulnar nerve gives no branches in the arm.",
+        "D": "Incorrect — this statement is TRUE. The ulnar nerve passes behind the medial epicondyle of the humerus."
+      },
+      "main_concept": "CON-MSK-F0F2BDF778A2DD",
+      "concept_ids": [
+        "CON-MSK-F0F2BDF778A2DD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the ulnar nerve as passing superficial, not deep, to the flexor retinaculum.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q45",
+      "page": 35,
+      "title": "Origin of the suprascapular artery",
+      "question": "suprascapular artery is a branch from ..........",
+      "options": {
+        "A": "1s' part of axillary artery",
+        "B": "2nd part of axillary artery",
+        "C": "2nd part of subclavian artery",
+        "D": "Thyrocervical trunk"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The suprascapular artery arises from the thyrocervical trunk, a branch of the first part of the subclavian artery, and runs laterally above the suprascapular ligament (unlike the suprascapular nerve, which passes below it) to reach the back of the scapula and contribute to the scapular anastomosis around the shoulder. It is one of the three vessels — with the circumflex scapular and dorsal scapular arteries — that keep the shoulder region perfused if the axillary artery is occluded distal to this level.",
+        "A": "Incorrect. The 1st part of the axillary artery gives only the superior thoracic artery, not the suprascapular artery.",
+        "B": "Incorrect. The 2nd part of the axillary artery gives the thoraco-acromial and lateral thoracic arteries, not the suprascapular artery.",
+        "C": "Incorrect. The suprascapular artery arises from the thyrocervical trunk, which is itself a branch of the 1st part of the subclavian artery, not directly from the subclavian's 2nd part."
+      },
+      "main_concept": "CON-MSK-DF8F395F3D471E",
+      "concept_ids": [
+        "CON-MSK-DF8F395F3D471E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Shoulder Region",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q46",
+      "page": 36,
+      "title": "Anastomosis of the superior ulnar collateral artery",
+      "question": "superior ulnar collateral artery anastomoses with which artery behind medial epicondyle?",
+      "options": {
+        "A": "inferior ulnar collateral artery",
+        "B": "anterior ulnar recurrent artery",
+        "C": "posterior ulnar recurrent artery",
+        "D": "radial recurrent artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Behind the medial epicondyle, the superior ulnar collateral artery (a branch of the brachial artery, running with the ulnar nerve) anastomoses with the posterior ulnar recurrent artery, one of the ulnar artery's two recurrent branches given off in the cubital fossa. This posterior meeting point complements the anterior meeting point, where the inferior ulnar collateral artery anastomoses instead with the anterior ulnar recurrent artery, together forming the medial part of the elbow anastomosis.",
+        "A": "Incorrect. The inferior ulnar collateral artery anastomoses anteriorly with the anterior ulnar recurrent artery, not behind the medial epicondyle.",
+        "B": "Incorrect. The anterior ulnar recurrent artery anastomoses with the inferior, not the superior, ulnar collateral artery, and anteriorly rather than behind the epicondyle.",
+        "D": "Incorrect. The radial recurrent artery anastomoses with the radial collateral branch of profunda brachii, on the lateral side of the elbow, not behind the medial epicondyle."
+      },
+      "main_concept": "CON-MSK-A4A49A26BA10E7",
+      "concept_ids": [
+        "CON-MSK-A4A49A26BA10E7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name the posterior ulnar recurrent artery as the superior ulnar collateral artery's anastomotic partner behind the medial epicondyle.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q47",
+      "page": 36,
+      "title": "A branch of the radial artery",
+      "question": "which of the following is a branch from radial artery?",
+      "options": {
+        "A": "interosseous recurrent artery",
+        "B": "superficial palmar arch",
+        "C": "princeps pollicis",
+        "D": "anterior interosseous artery"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Princeps pollicis, which supplies the thumb, is a branch of the radial artery given off as the artery curves into the palm to form the deep palmar arch — one of the artery's defining branches in the hand, alongside the radialis indicis. The other three options belong to the ulnar artery's territory instead: the interosseous recurrent and anterior interosseous arteries are branches of the common interosseous artery (itself from the ulnar artery), and the superficial palmar arch is formed by the ulnar artery, not the radial.",
+        "A": "Incorrect. The interosseous recurrent artery is a branch of the common interosseous artery, itself from the ulnar artery.",
+        "B": "Incorrect. The superficial palmar arch is formed mainly by the ulnar artery, not the radial artery.",
+        "D": "Incorrect. The anterior interosseous artery is a branch of the common interosseous artery, itself from the ulnar artery."
+      },
+      "main_concept": "CON-MSK-58D5F74E9595C3",
+      "concept_ids": [
+        "CON-MSK-58D5F74E9595C3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name princeps pollicis as a radial artery branch supplying the thumb.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q48",
+      "page": 36,
+      "title": "The muscle covering the radial artery in the forearm",
+      "question": "the radial artery descends on the lateral side of forearm under cover of which muscle?",
+      "options": {
+        "A": "extensor carpi radialis",
+        "B": "brachioradialis",
+        "C": "flexor digitorum profunds",
+        "D": "flexor carpi ulnaris"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The radial artery runs down the lateral side of the forearm deep to brachioradialis for most of its course, becoming superficial only in the distal forearm where it can be palpated, before crossing the floor of the anatomical snuff box. Brachioradialis is the landmark used surgically to expose the artery, since retracting the muscle laterally exposes the vessel running along the forearm's radial border.",
+        "A": "Incorrect. Extensor carpi radialis lies in the posterior compartment and does not cover the radial artery.",
+        "C": "Incorrect. Flexor digitorum profundus is a deep flexor lying medial to the radial artery's course, not covering it.",
+        "D": "Incorrect. Flexor carpi ulnaris lies on the medial side of the forearm, near the ulnar artery, not the radial artery."
+      },
+      "main_concept": "CON-MSK-9FF8A29E36480B",
+      "concept_ids": [
+        "CON-MSK-9FF8A29E36480B"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Name brachioradialis as the muscle covering the radial artery's course in the forearm.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q49",
+      "page": 36,
+      "title": "The median nerve's position in the upper forearm",
+      "question": "the median nerve descends in the upper half of forearm between which muscles?",
+      "options": {
+        "A": "flexor carpi radialis and brachioradialis",
+        "B": "flexor digitorum profunds and brachioradialis",
+        "C": "flexor digitorum profunds and flexor digitorum superficialis",
+        "D": "flexor carpi ulnaris and brachioradialis"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. After leaving the cubital fossa between the two heads of pronator teres, the median nerve descends the upper half of the forearm on the deep (posterior) surface of flexor digitorum superficialis, lying directly on flexor digitorum profundus — that is, sandwiched between the two flexor digitorum muscles. In the lower forearm it emerges from beneath the lateral border of flexor digitorum superficialis to lie more superficially, just before entering the carpal tunnel.",
+        "A": "Incorrect. Flexor carpi radialis and brachioradialis lie lateral to the median nerve's course, not sandwiching it.",
+        "B": "Incorrect. Brachioradialis lies well lateral to the median nerve's course in the forearm.",
+        "D": "Incorrect. Flexor carpi ulnaris and brachioradialis lie on opposite (medial and lateral) borders of the forearm, not directly around the median nerve's course."
+      },
+      "main_concept": "CON-MSK-D81C4A38D695CF",
+      "concept_ids": [
+        "CON-MSK-D81C4A38D695CF"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Locate the median nerve between flexor digitorum superficialis and profundus in the upper forearm.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q50",
+      "page": 36,
+      "title": "The deep branch of the radial nerve",
+      "question": "the deep branch of radial nerve is:",
+      "options": {
+        "A": "motor to extensor carpi radialis longus",
+        "B": "sensory to lateral 2/3 of dorsum of hand",
+        "C": "motor to supinator muscle",
+        "D": "sensory to lateral side of forearm"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The deep branch of the radial nerve pierces supinator (between its two heads, in the supinator canal) and is motor to it before continuing as the posterior interosseous nerve to supply the rest of the deep extensor compartment. Extensor carpi radialis longus is instead supplied by the radial nerve trunk before it divides, and the sensory functions (dorsum of hand, lateral forearm) belong to the nerve's superficial branch and the lateral cutaneous nerve of the forearm respectively, not to the deep branch, which is purely motor.",
+        "A": "Incorrect. Extensor carpi radialis longus is supplied by the radial nerve trunk, before it divides into superficial and deep branches.",
+        "B": "Incorrect. Sensation to the dorsum of the hand is carried by the radial nerve's superficial branch, not its deep branch.",
+        "D": "Incorrect. Sensation to the lateral forearm is carried by the lateral cutaneous nerve of the forearm (from the musculocutaneous nerve), not the deep branch of the radial nerve."
+      },
+      "main_concept": "CON-MSK-1FC89E36FFD98E",
+      "concept_ids": [
+        "CON-MSK-1FC89E36FFD98E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the deep branch of the radial nerve as purely motor, beginning with supinator.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q52",
+      "page": 37,
+      "title": "Wrist laceration: structures superficial to the flexor retinaculum",
+      "question": "A man injures his wrist on broken glass. Which of the following structures entering the palm superficial to the flexor retinaculum may be damaged?",
+      "options": {
+        "A": "Ulnar nerve and median nerve",
+        "B": "Median nerve and flexor digitorum profundus",
+        "C": "Median nerve and flexor pollicis longus",
+        "D": "Ulnar artery and ulnar nerve",
+        "E": "Ulnar nerve and flexor digitorum superficialis"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The ulnar artery and ulnar nerve travel together superficial to the flexor retinaculum, through Guyon's canal, so a transverse laceration in front of the wrist reaches both of them before it reaches anything protected by the retinaculum. The median nerve and all the long flexor tendons (flexor digitorum superficialis and profundus, flexor pollicis longus) instead pass deep to the retinaculum, in the carpal tunnel, and are relatively shielded from a superficial cut — the distinction this vignette is testing.",
+        "A": "Incorrect. The median nerve passes deep to the flexor retinaculum, not superficial to it.",
+        "B": "Incorrect. Both the median nerve and flexor digitorum profundus pass deep to the flexor retinaculum.",
+        "C": "Incorrect. Both the median nerve and flexor pollicis longus pass deep to the flexor retinaculum.",
+        "E": "Incorrect. Flexor digitorum superficialis passes deep to the flexor retinaculum, not superficial to it."
+      },
+      "main_concept": "CON-MSK-6DD9511FAB3EF1",
+      "concept_ids": [
+        "CON-MSK-6DD9511FAB3EF1"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the ulnar nerve and artery as the structures at risk from a wrist laceration superficial to the flexor retinaculum.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q53",
+      "page": 37,
+      "title": "Median nerve stab wound above the wrist: muscle affected",
+      "question": "a 39 years old man came to the emergency with stab wound above his wrist. After examination, the neurosurgeon noticed severe injury to median nerve. Which muscle may be affected?",
+      "options": {
+        "A": "flexor carpi ulnaris",
+        "B": "abductor pollicis longus",
+        "C": "adductor pollicis",
+        "D": "flexor pollicis brevis"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Flexor pollicis brevis is one of the three thenar muscles supplied by the recurrent branch of the median nerve, so a median nerve injury above the wrist — proximal to where that branch is given off — paralyses it along with abductor pollicis brevis and opponens pollicis, producing thenar wasting and loss of thumb opposition. The other three options are not median-nerve muscles: flexor carpi ulnaris and adductor pollicis are ulnar-supplied, and abductor pollicis longus is a deep extensor supplied by the posterior interosseous nerve.",
+        "A": "Incorrect. Flexor carpi ulnaris is supplied by the ulnar nerve, not the median nerve.",
+        "B": "Incorrect. Abductor pollicis longus is supplied by the posterior interosseous nerve, not the median nerve.",
+        "C": "Incorrect. Adductor pollicis is supplied by the deep branch of the ulnar nerve, not the median nerve."
+      },
+      "main_concept": "CON-MSK-D81C4A38D695CF",
+      "concept_ids": [
+        "CON-MSK-D81C4A38D695CF"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply median nerve injury above the wrist to predict thenar muscle weakness.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q54",
+      "page": 37,
+      "title": "Median nerve stab wound above the wrist: sensory loss",
+      "question": "the patient may lose sensation on which area?",
+      "options": {
+        "A": "lateral two thirds of the dorsum",
+        "B": "medial third of the palm",
+        "C": "anterior surface of the thumb",
+        "D": "posterior surface of the little finger"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The median nerve supplies the palmar (anterior) skin of the lateral three and a half fingers, including the thumb, so a median nerve injury above the wrist causes sensory loss over the anterior surface of the thumb along with the rest of its palmar territory. The other three areas belong to different nerves: the lateral dorsum of the hand and the posterior surface of the little finger are radial and ulnar territory respectively, and the medial third of the palm is ulnar, not median.",
+        "A": "Incorrect. The lateral two-thirds of the dorsum of the hand is radial nerve territory, not median.",
+        "B": "Incorrect. The medial third of the palm is ulnar nerve territory, not median.",
+        "D": "Incorrect. The posterior surface of the little finger is ulnar nerve territory, not median."
+      },
+      "main_concept": "CON-MSK-37D3C3219F9806",
+      "concept_ids": [
+        "CON-MSK-37D3C3219F9806"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply the median nerve's palmar sensory territory to a nerve-injury vignette.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q55",
+      "page": 38,
+      "title": "Sensory loss over the medial hand: which nerve",
+      "question": "A 31-year-old patient complains of sensory loss over the anterior and posterior surfaces of the medial third of the hand and the medial 1.5 fingers. Which of the following nerves is injured?",
+      "options": {
+        "A": "Axillary",
+        "B": "Radial",
+        "C": "Median",
+        "D": "Ulnar"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The ulnar nerve supplies both the anterior (palmar) and posterior (dorsal) skin of the medial third of the hand and the medial one and a half fingers (little finger and the medial half of the ring finger), so a lesion here reproduces exactly this pattern on both surfaces of the hand. This bilateral-surface loss, matching palmar and dorsal branches of the same nerve, is the identifying feature that distinguishes an ulnar lesion from a purely palmar (median) or purely dorsal (radial) pattern.",
+        "A": "Incorrect. The axillary nerve supplies skin over the shoulder (regimental badge area), not the hand.",
+        "B": "Incorrect. The radial nerve supplies only the dorsal, not the palmar, aspect of the hand, and a lateral, not medial, territory.",
+        "C": "Incorrect. The median nerve supplies the lateral, not medial, three and a half fingers, and mainly the palmar surface."
+      },
+      "main_concept": "CON-MSK-37D3C3219F9806",
+      "concept_ids": [
+        "CON-MSK-37D3C3219F9806"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise combined palmar and dorsal medial-hand sensory loss as an ulnar nerve lesion.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q56",
+      "page": 38,
+      "title": "Medial epicondyle fracture: the nerve at risk",
+      "question": "A 21-year-old man injures his right arm in an automobile accident. Radiology reveals a fracture of medial epicondyle of humerus. Which of the following nerves is most likely injured as a result of this accident?",
+      "options": {
+        "A": "Ulnar",
+        "B": "Musculocutaneous",
+        "C": "Radial",
+        "D": "Median"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The ulnar nerve runs directly behind the medial epicondyle of the humerus, in the groove for the ulnar nerve, making it the nerve most vulnerable to a fracture at this site — the same superficial position that makes the nerve easy to strike and feel as the \"funny bone\" even without a fracture. Neither the musculocutaneous, radial, nor median nerve runs behind the medial epicondyle, so none of them is at comparable risk from this specific fracture.",
+        "B": "Incorrect. The musculocutaneous nerve runs in the anterior compartment of the arm, well away from the medial epicondyle.",
+        "C": "Incorrect. The radial nerve runs in the spiral groove on the posterior humeral shaft and near the lateral epicondyle, not the medial epicondyle.",
+        "D": "Incorrect. The median nerve runs anteriorly, medial to the brachial artery at the elbow, and does not pass behind the medial epicondyle."
+      },
+      "main_concept": "CON-MSK-F0F2BDF778A2DD",
+      "concept_ids": [
+        "CON-MSK-F0F2BDF778A2DD"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Forearm",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply the ulnar nerve's course behind the medial epicondyle to a fracture vignette.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q57",
+      "page": 38,
+      "title": "Medial epicondyle fracture: the muscle paralyzed",
+      "question": "Which of the following muscles is most likely paralyzed due to this accident?",
+      "options": {
+        "A": "Extensor pollicis brevis",
+        "B": "Abductor pollicis longus",
+        "C": "Abductor pollicis brevis",
+        "D": "Adductor pollicis"
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. Adductor pollicis is supplied by the deep branch of the ulnar nerve, so an ulnar nerve injury from a medial epicondyle fracture paralyses it, producing the weak pinch grip (positive Froment's sign) classically tested at the bedside. The other three thumb muscles listed — extensor pollicis brevis, abductor pollicis longus (both posterior interosseous nerve), and abductor pollicis brevis (median nerve) — are all supplied by nerves unaffected by an ulnar lesion.",
+        "A": "Incorrect. Extensor pollicis brevis is supplied by the posterior interosseous nerve, not the ulnar nerve.",
+        "B": "Incorrect. Abductor pollicis longus is supplied by the posterior interosseous nerve, not the ulnar nerve.",
+        "C": "Incorrect. Abductor pollicis brevis is supplied by the median nerve, not the ulnar nerve."
+      },
+      "main_concept": "CON-MSK-8FB16415EFF905",
+      "concept_ids": [
+        "CON-MSK-8FB16415EFF905"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply an ulnar nerve lesion to predict adductor pollicis weakness.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q58",
+      "page": 38,
+      "title": "Medial epicondyle fracture: the functional deficit",
+      "question": "After this injury, the patient is unable to do which of the following?",
+      "options": {
+        "A": "Feel touch sensation on lateral part of the palm",
+        "B": "Adduct his index finger",
+        "C": "Feel touch sensation on his middle finger",
+        "D": "Abduct his thumb"
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. Adduction of the index finger toward the middle finger's axis is produced by the palmar interossei, supplied by the deep branch of the ulnar nerve, so the patient cannot perform it after this injury. The other functions listed all belong to nerves the ulnar lesion spares: sensation over the lateral palm and the middle finger is median territory, and thumb abduction is performed by abductor pollicis brevis (median) and abductor pollicis longus (posterior interosseous), neither of them ulnar.",
+        "A": "Incorrect. Sensation on the lateral palm is median nerve territory, unaffected by an ulnar nerve lesion.",
+        "C": "Incorrect. Sensation on the middle finger is median nerve territory, unaffected by an ulnar nerve lesion.",
+        "D": "Incorrect. Thumb abduction is performed by abductor pollicis brevis (median) and abductor pollicis longus (posterior interosseous nerve), neither of them ulnar."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Apply an ulnar nerve lesion to predict loss of index finger adduction.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ul-c-q59",
+      "page": 38,
+      "title": "Unable to hold paper between the fingers: which nerve",
+      "question": "A man is unable to hold a paper between his index and middle fingers. Which of the following nerves was likely injured?",
+      "options": {
+        "A": "Radial nerve",
+        "B": "Median nerve",
+        "C": "Ulnar nerve",
+        "D": "Musculocutaneous nerve"
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Holding a piece of paper between the index and middle fingers depends on finger adduction, produced by the palmar interossei, which are supplied by the deep branch of the ulnar nerve — so the inability to grip the paper (the \"card test\") points to an ulnar nerve lesion, the same muscle group tested by Froment's sign for adductor pollicis. Neither the radial, median, nor musculocutaneous nerve supplies any interosseous muscle, so none of them would produce this specific deficit.",
+        "A": "Incorrect. The radial nerve supplies no intrinsic hand muscle and is not responsible for finger adduction.",
+        "B": "Incorrect. The median nerve supplies the thenar muscles and lateral two lumbricals, not the interossei that adduct the fingers.",
+        "D": "Incorrect. The musculocutaneous nerve supplies the anterior arm muscles (biceps, brachialis, coracobrachialis) and has no branches in the hand."
+      },
+      "main_concept": "CON-MSK-24A0858459A59D",
+      "concept_ids": [
+        "CON-MSK-24A0858459A59D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Upper limb",
+      "subtopic": "The Wrist and Hand",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise the card/paper test for finger adduction as testing the ulnar nerve.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "rendered answer table p39"
+      },
+      "author_notes": ""
+    }
+  ]
+}
