@@ -1,0 +1,1238 @@
+{
+  "bank": "MCQs - PATHO MCQ [GIT].pdf",
+  "sourceId": "src_0421fef5b554718d05bf",
+  "subject": "pathology",
+  "note": "Bank has two chapters, each independently numbered 1-N: 'Diseases of the Oral Cavity and the Gastrointestinal Tract' (pp.2-12, 69 items) and 'Liver, GB & Pancreas' (pp.14-20, 48 items). Only single-best-answer lettered items are in this MCQ bank; the remaining ~38 numbered items in both chapters are written short-answer / enumerate / image-based OSPE questions ('See below' in the answer key) and are out of MCQ scope -- flagged separately for written-question and practical/OSPE authoring. Answer keys recovered by rendering and reading pp.21-22 (chapter 1) and pp.25-26 (chapter 2), not from OCR text, which garbles the answer tables.",
+  "count": 79,
+  "written_items_out_of_scope": {
+    "Diseases of the Oral Cavity and the GIT": [
+      9,
+      11,
+      17,
+      26,
+      27,
+      35,
+      36,
+      37,
+      40,
+      53,
+      54,
+      55,
+      56,
+      59,
+      60,
+      61,
+      62,
+      63,
+      66,
+      67,
+      68,
+      69
+    ],
+    "Liver, GB and Pancreas": [
+      6,
+      12,
+      14,
+      23,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  },
+  "items": [
+    {
+      "num": 1,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 2,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following are true about oral leukoplakia except:",
+      "options": {
+        "a": "It appears as whitish mucosal patch",
+        "b": "It occurs due to chronic irritation",
+        "c": "Common sites are lips, tongue and cheek",
+        "d": "Malignant transformation into adenocarcinoma is a major complication"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "leukoplakia.malignant-transformation-is-to-scc-not-adenocarcinoma"
+    },
+    {
+      "num": 2,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 2,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Predisposing factors of squamous cell carcinoma of the tongue include all of the following except:",
+      "options": {
+        "a": "HPV 16 & 18",
+        "b": "TB ulcer",
+        "c": "Tertiary syphilis (gumma)",
+        "d": "Tobacco chewing"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "tongue-squamous-carcinoma.predisposing-factors"
+    },
+    {
+      "num": 3,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 2,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The aetiology of sialadenitis in Sjogren's syndrome is:",
+      "options": {
+        "a": "Autoimmune",
+        "b": "Traumatic",
+        "c": "Viral infection",
+        "d": "Bacterial infection"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "sialadenitis.sjogren-syndrome-aetiology"
+    },
+    {
+      "num": 4,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 2,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The most common virus causing sialadenitis is:",
+      "options": {
+        "a": "CMV",
+        "b": "EBV",
+        "c": "Mumps",
+        "d": "HSV"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "sialadenitis.viral-aetiology.mumps"
+    },
+    {
+      "num": 5,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 2,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Most salivary gland tumors occur in:",
+      "options": {
+        "a": "Parotid glands",
+        "b": "Submandibular glands",
+        "c": "Sublingual glands",
+        "d": "Minor salivary glands"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "salivary-gland-tumours.site.parotid"
+    },
+    {
+      "num": 6,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 2,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The most common primary malignant salivary gland tumor is:",
+      "options": {
+        "a": "Adenoid cystic carcinoma",
+        "b": "Adenolymphoma",
+        "c": "Adenocarcinoma",
+        "d": "Mucoepidermoid carcinoma"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "salivary-gland-tumours.commonest-malignant.mucoepidermoid"
+    },
+    {
+      "num": 7,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 2,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Achalasia means:",
+      "options": {
+        "a": "Failure of canalisation of the oesophagus",
+        "b": "An outpouching of part of the wall of the oesophagus",
+        "c": "Loss of the contractility of the oesophagus and failure of relaxation of the lower oesophageal sphincter",
+        "d": "Protrusion of the upper part of the oesophagus into the neck"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "achalasia.definition"
+    },
+    {
+      "num": 8,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 3,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following are true about hiatus hernia except:",
+      "options": {
+        "a": "Protrusion of the upper part of the stomach into the thorax",
+        "b": "Predisposing factors include obesity, lifting heavy loads and frequent coughing fits",
+        "c": "It is due to increased intrathoracic pressure and increased diaphragmatic tone",
+        "d": "It results in regurgitation of gastric contents and GERD"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "hiatus-hernia.pathogenesis"
+    },
+    {
+      "num": 10,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 3,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Common causes of acute oesophagitis include all of the following except:",
+      "options": {
+        "a": "HSV1",
+        "b": "CMV",
+        "c": "Candida albicans",
+        "d": "HPV"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "acute-oesophagitis.infective-causes"
+    },
+    {
+      "num": 12,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 3,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The benign oesophageal tumour which may be linked to HPV infection is:",
+      "options": {
+        "a": "Haemangioma",
+        "b": "Squamous cell papilloma",
+        "c": "Leiomyoma",
+        "d": "Lipoma"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "oesophageal-squamous-papilloma.hpv-association"
+    },
+    {
+      "num": 13,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 3,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Common causes of acute gastritis include all of the following except:",
+      "options": {
+        "a": "Alcohol",
+        "b": "Aspirin and NSAIDs",
+        "c": "Autoimmune",
+        "d": "Cortisone and cytotoxic drugs"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "acute-gastritis.causes"
+    },
+    {
+      "num": 14,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 3,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Pathogenesis of acute gastritis includes all of the following except:",
+      "options": {
+        "a": "Damage of epithelial cells",
+        "b": "Diminished secretion of mucous",
+        "c": "Parietal cell destruction leading to diminished acid secretion",
+        "d": "Inhibition of prostaglandin secretion by mucosal cells"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "acute-gastritis.pathogenesis"
+    },
+    {
+      "num": 15,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 4,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The most common cause of acute gastritis is:",
+      "options": {
+        "a": "Alcohol",
+        "b": "Autoimmune gastritis",
+        "c": "H. pylori infection",
+        "d": "NSAIDs"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "acute-gastritis.commonest-cause"
+    },
+    {
+      "num": 16,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 4,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Pathogenesis of H. pylori gastritis includes all of the following except:",
+      "options": {
+        "a": "The organism is found in the mucous layer of gastric epithelium",
+        "b": "High acid production occurs in almost all cases",
+        "c": "The acute inflammatory response is mediated by complement",
+        "d": "Neutrophils release proteases and ROS"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "h-pylori-gastritis.pathogenesis"
+    },
+    {
+      "num": 18,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 4,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Causes of acute gastric ulceration include all of the following except:",
+      "options": {
+        "a": "Stress ulcers",
+        "b": "Zollinger-Ellison syndrome",
+        "c": "Curling ulcers",
+        "d": "Cushing ulcers"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "acute-gastric-ulceration.causes"
+    },
+    {
+      "num": 19,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 4,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the gross features of peptic ulcer disease is:",
+      "options": {
+        "a": "Peptic ulcers are more common in the stomach than the duodenum",
+        "b": "Duodenal ulcers occur in the first few centimetres of the duodenum on the anterior wall",
+        "c": "Gastric ulcers are predominantly located at the junction between the fundus and the body, more on the greater curvature",
+        "d": "Peptic ulcers are usually multiple"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "peptic-ulcer-disease.gross-site"
+    },
+    {
+      "num": 20,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 4,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following are benign mesenchymal gastric tumours except:",
+      "options": {
+        "a": "Adenomatous polyp",
+        "b": "GIST",
+        "c": "Leiomyoma",
+        "d": "Schwannoma"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "gastric-tumours.benign-mesenchymal-vs-epithelial"
+    },
+    {
+      "num": 21,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 4,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Risk of development of adenocarcinoma is high with:",
+      "options": {
+        "a": "Inflammatory polyp",
+        "b": "Hyperplastic polyp",
+        "c": "Adenomatous polyp",
+        "d": "Fundic polyp"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "gastric-polyps.malignant-potential.adenomatous"
+    },
+    {
+      "num": 22,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 5,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the predisposing factors of gastric carcinoma is:",
+      "options": {
+        "a": "Hyperchlorhydria favours the growth of bacteria that catalyse the formation of nitrosamines",
+        "b": "Autoimmune gastritis type A",
+        "c": "Increased expression of E-cadherin in diffuse gastric cancer",
+        "d": "Blood group O"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "gastric-carcinoma.risk-factors"
+    },
+    {
+      "num": 23,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 5,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The most common mesenchymal tumour of the abdomen is:",
+      "options": {
+        "a": "GIST",
+        "b": "Fibroma",
+        "c": "Lipoma",
+        "d": "Leiomyoma"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "gist.commonest-abdominal-mesenchymal-tumour"
+    },
+    {
+      "num": 24,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 5,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "GIST is frequently associated with:",
+      "options": {
+        "a": "Bcl2 mutation",
+        "b": "P53 mutation",
+        "c": "Her2Neu mutation",
+        "d": "c-KIT mutation"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "gist.c-kit-mutation"
+    },
+    {
+      "num": 25,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 5,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Regarding gastric lymphoma, its risk significantly increases with:",
+      "options": {
+        "a": "Peptic ulcer",
+        "b": "H. pylori gastritis",
+        "c": "Adenomatous polyp",
+        "d": "Autoimmune gastritis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "gastric-lymphoma.h-pylori-association"
+    },
+    {
+      "num": 28,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 5,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The following feature is not true about Meckel's diverticulum:",
+      "options": {
+        "a": "It is a remnant of the vitello-intestinal duct",
+        "b": "It is a blind pouch present on the mesenteric border of the small intestine",
+        "c": "Located 2-3 feet from the ileocaecal junction",
+        "d": "May get inflamed and present as acute abdomen"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "meckels-diverticulum.antimesenteric-border"
+    },
+    {
+      "num": 29,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 5,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Features of Hirschsprung disease include all of the following except:",
+      "options": {
+        "a": "It is a disease of children less than one year",
+        "b": "Due to congenital absence of the ganglionic cells in the mesenteric plexus",
+        "c": "Manifested by severe diarrhoea and abdominal distension",
+        "d": "The aganglionic segment is narrow and the segment proximal to it is markedly dilated"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "hirschsprung-disease.clinical-features"
+    },
+    {
+      "num": 30,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 6,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the functional causes of acute intestinal obstruction is:",
+      "options": {
+        "a": "Adhesions",
+        "b": "Strangulated hernia",
+        "c": "Paralytic ileus",
+        "d": "Thrombosis or embolism of mesenteric artery"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "acute-intestinal-obstruction.functional-vs-mechanical"
+    },
+    {
+      "num": 31,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 6,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following are causes of chronic intestinal obstruction except:",
+      "options": {
+        "a": "Fibrous stricture following Crohn's disease",
+        "b": "Annular stricture carcinoma",
+        "c": "Hirschsprung disease",
+        "d": "Strangulated hernia"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "chronic-intestinal-obstruction.causes"
+    },
+    {
+      "num": 32,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 6,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Pathological features of chronic intestinal obstruction include:",
+      "options": {
+        "a": "There is collapse of the proximal segment",
+        "b": "The distal segment is dilated",
+        "c": "The lumen contains liquefied food and gases by the action of bacteria",
+        "d": "Hypertrophy and thickening of the wall of the proximal segment"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "chronic-intestinal-obstruction.pathology"
+    },
+    {
+      "num": 33,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 6,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Bacillary dysentery is caused by:",
+      "options": {
+        "a": "Salmonella organism",
+        "b": "Shigella organism",
+        "c": "Clostridium difficile",
+        "d": "Treponema pallidum"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "bacillary-dysentery.causative-organism"
+    },
+    {
+      "num": 34,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 6,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Bacillary dysentery is:",
+      "options": {
+        "a": "Acute suppurative inflammation",
+        "b": "Acute fibrinous inflammation",
+        "c": "Acute pseudomembranous inflammation",
+        "d": "Acute necrotising inflammation"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "bacillary-dysentery.inflammation-type"
+    },
+    {
+      "num": 38,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 7,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the following features is not true about inflammatory bowel disease:",
+      "options": {
+        "a": "It is a chronic condition resulting from abnormal mucosal immune responses",
+        "b": "It embraces 2 conditions: Crohn's disease and ulcerative colitis",
+        "c": "Crohn's disease commonly affects the large intestine",
+        "d": "Ulcerative colitis commonly affects the rectosigmoid region"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "inflammatory-bowel-disease.crohns-site"
+    },
+    {
+      "num": 39,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 7,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Multiple small flask-shaped ulcers in the intestine is a feature of:",
+      "options": {
+        "a": "Amoebic dysentery",
+        "b": "Bacillary dysentery",
+        "c": "Bilharzial ulcers",
+        "d": "Typhoid fever"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "amoebic-dysentery.flask-shaped-ulcers"
+    },
+    {
+      "num": 41,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 7,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following are true about diverticular disease of the colon except:",
+      "options": {
+        "a": "It is a disease of young infants",
+        "b": "It occurs due to weakness in the intestinal wall",
+        "c": "Chronic constipation may be a cause",
+        "d": "The condition remains silent until inflammation develops"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "diverticular-disease-colon.epidemiology"
+    },
+    {
+      "num": 42,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 7,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Diverticular disease of the colon commonly affects:",
+      "options": {
+        "a": "Rectum",
+        "b": "Sigmoid colon",
+        "c": "Transverse colon",
+        "d": "Ascending colon"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "diverticular-disease-colon.site"
+    },
+    {
+      "num": 43,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the pathological features of diverticular disease of the colon:",
+      "options": {
+        "a": "It is most common in the rectum",
+        "b": "Commonly occurs as a single lesion",
+        "c": "The pouch is formed of mucosa and submucosa only",
+        "d": "The pouch protrudes on the mesenteric border"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "diverticular-disease-colon.pathology"
+    },
+    {
+      "num": 44,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following are types of non-neoplastic colonic polyps except:",
+      "options": {
+        "a": "Bilharzial polyp",
+        "b": "Hyperplastic polyp",
+        "c": "Adenomatous polyp",
+        "d": "Hamartomatous polyp"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "colonic-polyps.non-neoplastic-vs-neoplastic"
+    },
+    {
+      "num": 45,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Features of juvenile polyps include all of the following except:",
+      "options": {
+        "a": "They are a type of hamartomatous polyp",
+        "b": "The most common type in children",
+        "c": "Consist of cystically dilated hyperplastic mucosal glands filled with secretions",
+        "d": "Commonly associated with intestinal and extraintestinal manifestations"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "juvenile-polyp.features"
+    },
+    {
+      "num": 46,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The following statement is not true about adenomas:",
+      "options": {
+        "a": "Their incidence increases with age",
+        "b": "They are probably the precursor of most colorectal cancers",
+        "c": "Most adenomas progress to cancer",
+        "d": "Risk of malignancy is related to size"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "colonic-adenoma.malignant-potential"
+    },
+    {
+      "num": 47,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The commonest site of carcinoid tumour:",
+      "options": {
+        "a": "Stomach",
+        "b": "Small intestine",
+        "c": "Appendix",
+        "d": "Caecum"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "carcinoid-tumour.commonest-site.appendix"
+    },
+    {
+      "num": 48,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Regarding the lymphomas of the GIT, which of the following is incorrect:",
+      "options": {
+        "a": "More common in colon than the small intestine",
+        "b": "Commonly B-cell lymphoma",
+        "c": "May occur as multiple lesions",
+        "d": "May cause intestinal obstruction"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "git-lymphoma.commonest-site"
+    },
+    {
+      "num": 49,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The following are known predisposing factors of acute appendicitis except:",
+      "options": {
+        "a": "Faecolith",
+        "b": "Food residues",
+        "c": "Senility",
+        "d": "Lymphoid hyperplasia"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "acute-appendicitis.predisposing-factors"
+    },
+    {
+      "num": 50,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 8,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Familial adenomatous polyposis (FAP) is an autosomal dominant disease caused by mutation of:",
+      "options": {
+        "a": "Beta-catenin gene",
+        "b": "E-cadherin gene",
+        "c": "APC gene",
+        "d": "Bcl2 gene"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "fap.apc-gene-mutation"
+    },
+    {
+      "num": 51,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 9,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The affected gene in FAP is a member of:",
+      "options": {
+        "a": "Oncogenes",
+        "b": "Tumour suppressor genes",
+        "c": "Genes involved in DNA repair",
+        "d": "Genes controlling apoptosis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "fap.apc-tumour-suppressor-gene"
+    },
+    {
+      "num": 52,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 9,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "What is the suspected modified Dukes stage of a case of colonic carcinoma extending into the muscularis propria with positive metastatic lymph node?",
+      "options": {
+        "a": "B1",
+        "b": "B2",
+        "c": "C1",
+        "d": "C2"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "colorectal-carcinoma.modified-dukes-staging"
+    },
+    {
+      "num": 57,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 10,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Which of the following is not true about pathogenesis of peptic ulcer disease?",
+      "options": {
+        "a": "A mucous-bicarbonate barrier is one of the defensive mechanisms",
+        "b": "Prostaglandin E increases blood flow and increases mucosal regeneration",
+        "c": "High dose corticosteroids suppress prostaglandin synthesis",
+        "d": "In peptic ulcer of the stomach, hyperacidity is more important than breakdown of mucosal defence"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "peptic-ulcer-disease.pathogenesis-gastric-vs-duodenal"
+    },
+    {
+      "num": 58,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 10,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Common sites of peptic ulcer disease include all of the following except:",
+      "options": {
+        "a": "First part of the duodenum",
+        "b": "Pyloric antrum of the stomach",
+        "c": "Ileocaecal valve",
+        "d": "Meckel's diverticulum"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "peptic-ulcer-disease.common-sites"
+    },
+    {
+      "num": 64,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 11,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Which of the following statements is true about duodenal peptic ulcer?",
+      "options": {
+        "a": "It is precancerous",
+        "b": "It has undermined edges",
+        "c": "It is more common in females",
+        "d": "It may be related to gastrinoma"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "duodenal-peptic-ulcer.gastrinoma-association"
+    },
+    {
+      "num": 65,
+      "chapter": "Diseases of the Oral Cavity and the Gastrointestinal Tract",
+      "page": 11,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following conditions may be associated with melena except:",
+      "options": {
+        "a": "Piles",
+        "b": "Duodenal peptic ulcer",
+        "c": "Oesophageal varices",
+        "d": "Gastric carcinoma"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "melena.causes-vs-haematochezia"
+    },
+    {
+      "num": 1,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 14,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The liver zone most susceptible to injury from vascular insufficiency is:",
+      "options": {
+        "a": "Zone 1",
+        "b": "Zone 2",
+        "c": "Zone 3",
+        "d": "None of the above"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "liver-zonation.zone-3-ischaemic-vulnerability"
+    },
+    {
+      "num": 2,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 14,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Which of the following hepatic viruses produce concomitant infection (co-infection):",
+      "options": {
+        "a": "HBV-HAV",
+        "b": "HBV-HCV",
+        "c": "HBV-HDV",
+        "d": "HBV-HEV"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "viral-hepatitis.hbv-hdv-coinfection"
+    },
+    {
+      "num": 3,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 14,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Hepatitis E virus (HEV) is commonly transmitted by:",
+      "options": {
+        "a": "Blood and blood components",
+        "b": "Sexual route",
+        "c": "Transplacentally",
+        "d": "Enterically"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "hev.transmission.faecal-oral"
+    },
+    {
+      "num": 4,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 14,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Which of the following hepatic viruses can cause fatal fulminant hepatitis in pregnant women:",
+      "options": {
+        "a": "HBV",
+        "b": "HCV",
+        "c": "HDV",
+        "d": "HEV"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "hev.fulminant-hepatitis-in-pregnancy"
+    },
+    {
+      "num": 5,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 14,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Clinicopathological syndromes of viral hepatitis include all of the following except:",
+      "options": {
+        "a": "HAV and HBV infections are frequently subclinical",
+        "b": "HAV and HDV do not cause chronic disease",
+        "c": "The carrier state is commonly caused by HBV or HCV",
+        "d": "Acute symptomatic cases are all similar with a variable incubation period"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "viral-hepatitis.hdv-can-cause-chronic-disease"
+    },
+    {
+      "num": 7,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 15,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Metabolic causes of chronic hepatitis include all of the following except:",
+      "options": {
+        "a": "Alpha-1 antitrypsin deficiency",
+        "b": "Cryptogenic",
+        "c": "Haemochromatosis",
+        "d": "Wilson disease"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "chronic-hepatitis.metabolic-causes"
+    },
+    {
+      "num": 8,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 15,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The most common cause of chronic hepatitis is:",
+      "options": {
+        "a": "Viral hepatitis",
+        "b": "Autoimmune hepatitis",
+        "c": "Drug-induced hepatitis",
+        "d": "Metabolic hepatitis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "chronic-hepatitis.commonest-cause-viral"
+    },
+    {
+      "num": 9,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 15,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the causes of multiple liver abscesses is:",
+      "options": {
+        "a": "Infected hydatid cyst",
+        "b": "Traumatic",
+        "c": "Pyaemic",
+        "d": "Complicating cholecystitis"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "liver-abscess.multiple-vs-solitary-causes"
+    },
+    {
+      "num": 10,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 15,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the following is not a granulomatous liver disease:",
+      "options": {
+        "a": "Tuberculosis",
+        "b": "Non-alcoholic steatohepatitis (NASH)",
+        "c": "Primary biliary cirrhosis",
+        "d": "Sarcoidosis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "granulomatous-liver-disease.exclusion-nash"
+    },
+    {
+      "num": 11,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 15,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the following is incorrect regarding acute cholangitic abscess:",
+      "options": {
+        "a": "Caused by mixed flora",
+        "b": "Grossly appears as a single yellow small abscess",
+        "c": "Located mostly in the portal tract areas around the bile ducts",
+        "d": "The bile ducts show all features of acute suppurative inflammation"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "acute-cholangitic-abscess.multiplicity"
+    },
+    {
+      "num": 13,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 16,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Mechanisms of steatosis induced by alcoholism include all of the following except:",
+      "options": {
+        "a": "Increased fatty acid oxidation",
+        "b": "Increased synthesis of triglycerides",
+        "c": "Impaired secretion of lipoproteins",
+        "d": "Increased fat mobilisation from stores"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "alcoholic-steatosis.mechanisms"
+    },
+    {
+      "num": 15,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 16,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "A type of cirrhosis caused by haemochromatosis is:",
+      "options": {
+        "a": "Pigmented cirrhosis",
+        "b": "Post-necrotic cirrhosis",
+        "c": "Nutritional cirrhosis",
+        "d": "Alcoholic cirrhosis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "haemochromatosis.pigmented-cirrhosis"
+    },
+    {
+      "num": 16,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 16,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Budd-Chiari syndrome is characterised by:",
+      "options": {
+        "a": "Prolonged obstruction of extrahepatic bile ducts",
+        "b": "Chronic venous congestion of the liver",
+        "c": "Thrombosis of hepatic veins followed by fibrosis and cirrhosis",
+        "d": "Toxic alkaloids in some plants producing fibrosis of hepatic veins followed by cirrhosis"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "budd-chiari-syndrome.hepatic-vein-thrombosis"
+    },
+    {
+      "num": 17,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 16,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Gallstones may be complicated by:",
+      "options": {
+        "a": "Cardiac cirrhosis",
+        "b": "Secondary biliary cirrhosis",
+        "c": "Post-necrotic cirrhosis",
+        "d": "Nutritional cirrhosis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "gallstones.secondary-biliary-cirrhosis"
+    },
+    {
+      "num": 18,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 16,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the following features concerning regeneration nodules of liver cirrhosis is not true:",
+      "options": {
+        "a": "Liver cells proliferate as one cell thick, regularly radiating from the central vein",
+        "b": "The sinusoids are irregular and the central vein may be absent or eccentric",
+        "c": "Liver cells may be binucleated and may undergo dysplastic changes",
+        "d": "Other changes as necrotic foci, fatty change or hydropic change may be observed"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "cirrhosis.regeneration-nodule-architecture"
+    },
+    {
+      "num": 19,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 16,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Pathological gross features of alcoholic cirrhosis include:",
+      "options": {
+        "a": "The liver is dark brown in colour",
+        "b": "The liver is softer in consistency",
+        "c": "The edges are rounded",
+        "d": "It could be micronodular, macronodular or mixed"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "alcoholic-cirrhosis.gross-features"
+    },
+    {
+      "num": 20,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 16,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the following is incorrect about primary biliary cirrhosis:",
+      "options": {
+        "a": "It is an autoimmune disease",
+        "b": "In most cases, serum antimitochondrial antibodies are detected",
+        "c": "Mostly affects middle-aged males",
+        "d": "The liver is enlarged, green with micronodular cut section"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "primary-biliary-cirrhosis.female-predominance"
+    },
+    {
+      "num": 21,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 17,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Causes of pre-sinusoidal portal hypertension include:",
+      "options": {
+        "a": "Portal tract fibrosis by schistosomiasis",
+        "b": "Liver cirrhosis",
+        "c": "Veno-occlusive disease",
+        "d": "Budd-Chiari syndrome"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "portal-hypertension.presinusoidal-cause-schistosomiasis"
+    },
+    {
+      "num": 22,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 17,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the features of liver cell adenoma is:",
+      "options": {
+        "a": "It is a benign bile duct neoplasm",
+        "b": "Commonly occurs in young males",
+        "c": "Commonly harbours hepatocellular carcinoma",
+        "d": "There is an association with oral contraceptive use"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "liver-cell-adenoma.oral-contraceptive-association"
+    },
+    {
+      "num": 24,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 17,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The serum of patients with hepatocellular carcinoma is characterised by elevation of:",
+      "options": {
+        "a": "CEA",
+        "b": "PSA",
+        "c": "Alpha-fetoprotein (AFP)",
+        "d": "CA19-9"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "hepatocellular-carcinoma.afp-marker"
+    },
+    {
+      "num": 25,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 17,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Causes of chronic liver failure include all of the following except:",
+      "options": {
+        "a": "Chronic biliary obstruction",
+        "b": "Primary and metastatic liver tumours",
+        "c": "Liver granulomas",
+        "d": "Reye's syndrome"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "chronic-liver-failure.causes"
+    },
+    {
+      "num": 26,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 17,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Which of the following is not true about hepatoblastoma?",
+      "options": {
+        "a": "It is an embryonic tumour composed of immature hepatocytes",
+        "b": "Tumour stroma may contain fibrous tissue, cartilage or bone",
+        "c": "It has a historical association with vinyl chloride or arsenic",
+        "d": "The serum alpha-fetoprotein level may be high in such cases"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "hepatoblastoma.angiosarcoma-vs-hepatoblastoma-risk-factors"
+    },
+    {
+      "num": 27,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 17,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Which of the following is incorrect about cholangiocarcinoma?",
+      "options": {
+        "a": "Arises from elements of the intra and extrahepatic biliary tree",
+        "b": "Females are more common than males",
+        "c": "Associated with increase in alpha-fetoprotein",
+        "d": "Can be associated with primary sclerosing cholangitis, HCV infection and thorotrast administration"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "cholangiocarcinoma.afp-not-a-marker"
+    },
+    {
+      "num": 28,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "All of the following could be a cause of cholesterol stones in the gall bladder except:",
+      "options": {
+        "a": "Diabetes",
+        "b": "Pregnancy",
+        "c": "Obesity",
+        "d": "Haemolytic anaemia"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "gallstones.cholesterol-vs-pigment-risk-factors"
+    },
+    {
+      "num": 29,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Pure pigment stones of the gall bladder are commonly caused by:",
+      "options": {
+        "a": "Diabetes",
+        "b": "Haemolytic anaemia",
+        "c": "Obesity",
+        "d": "Infection"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "gallstones.pigment-stones-haemolysis"
+    },
+    {
+      "num": 30,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The most common cause of chronic pancreatitis is:",
+      "options": {
+        "a": "Alcohol intake",
+        "b": "Pancreatic tumours",
+        "c": "Pancreatic calculi",
+        "d": "Recurrent acute pancreatitis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "chronic-pancreatitis.commonest-cause-alcohol"
+    },
+    {
+      "num": 31,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Which of the following is not true about pathogenesis of chronic pancreatitis?",
+      "options": {
+        "a": "Alcohol decreases the protein content of pancreatic secretions",
+        "b": "A plug is formed which becomes calcified",
+        "c": "Alcohol can be directly injurious to acinar cells",
+        "d": "It ends in irreversible parenchymal destruction and fibrosis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "chronic-pancreatitis.pathogenesis"
+    },
+    {
+      "num": 32,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Possible complications of chronic pancreatitis include all of the following except:",
+      "options": {
+        "a": "Malabsorption",
+        "b": "Diabetes mellitus",
+        "c": "Pseudocyst formation",
+        "d": "Tumour transformation"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "chronic-pancreatitis.complications"
+    },
+    {
+      "num": 33,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Pancreatic carcinoma could be clinically presented by all of the following except:",
+      "options": {
+        "a": "Jaundice",
+        "b": "Diabetes",
+        "c": "Weight loss",
+        "d": "Back pain"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "pancreatic-carcinoma.clinical-presentation"
+    },
+    {
+      "num": 34,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "The majority of pancreatic carcinomas arise in:",
+      "options": {
+        "a": "Head of the gland",
+        "b": "Body of the gland",
+        "c": "Tail of the gland",
+        "d": "Body and tail of the gland"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "pancreatic-carcinoma.commonest-site-head"
+    },
+    {
+      "num": 35,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 18,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "One of the following is not a feature of pancreatic pseudocyst:",
+      "options": {
+        "a": "Accounts for most of pancreatic cysts",
+        "b": "Lined by simple squamous epithelium",
+        "c": "Encircled by fibrosed granulation tissue",
+        "d": "Occurs after bouts of acute pancreatitis or following trauma"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "pancreatic-pseudocyst.no-epithelial-lining"
+    },
+    {
+      "num": 36,
+      "chapter": "Liver, GB and Pancreas",
+      "page": 19,
+      "sourceId": "src_0421fef5b554718d05bf",
+      "stem": "Secondary peritoneal deposits are commonly derived from:",
+      "options": {
+        "a": "Hepatocellular carcinoma",
+        "b": "Gastric carcinoma",
+        "c": "Colorectal carcinoma",
+        "d": "Ovarian and pancreatic adenocarcinoma"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "peritoneal-carcinomatosis.commonest-primary"
+    }
+  ]
+}

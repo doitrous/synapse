@@ -1,0 +1,737 @@
+{
+  "bank": "MCQs - Pharma MCQ [GIT].pdf",
+  "sourceId": "src_1a0923ffe31a9ba062fd",
+  "subject": "pharmacology",
+  "note": "52 sequential lettered MCQs, all single-best-answer. OCR misread question numbers 11 and 12 as '41' and '42' on p.2 (a 1-vs-4 digit confusion); corrected here from the surrounding sequence and the answer key, which runs 1-52 cleanly. Answer key recovered by rendering and reading p.8 ('G.I.T. KEY ANSWERS' table); the OCR text of p.8 is unreadable noise.",
+  "count": 52,
+  "items": [
+    {
+      "num": 1,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "The following anti-emetic drug is useful in treatment of motion sickness:",
+      "options": {
+        "a": "Dimenhydrinate",
+        "b": "Chlorpromazine",
+        "c": "Haloperidol",
+        "d": "Metoclopramide"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "antiemetics.motion-sickness.dimenhydrinate"
+    },
+    {
+      "num": 2,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "The following drug has both anti-emetic and prokinetic effects:",
+      "options": {
+        "a": "Hyoscine",
+        "b": "Metoclopramide",
+        "c": "Dimenhydrinate",
+        "d": "Chlorpromazine"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "metoclopramide.dual-antiemetic-prokinetic-action"
+    },
+    {
+      "num": 3,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "The following purgative interferes with absorption of fat-soluble vitamins:",
+      "options": {
+        "a": "Liquid paraffin",
+        "b": "Methyl cellulose",
+        "c": "Magnesium sulphate",
+        "d": "Lactulose"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "liquid-paraffin.fat-soluble-vitamin-malabsorption"
+    },
+    {
+      "num": 4,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "All of the following are used in treatment of diarrhoea EXCEPT:",
+      "options": {
+        "a": "Kaolin",
+        "b": "Neostigmine",
+        "c": "Oral rehydration solution",
+        "d": "Loperamide"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "antidiarrhoeal-drugs.neostigmine-not-antidiarrhoeal"
+    },
+    {
+      "num": 5,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "The following is a mucosal protective agent that is effective in treatment of peptic ulcer, but produces black coloration of mouth cavity and faeces:",
+      "options": {
+        "a": "Omeprazole",
+        "b": "Carbenoxolone",
+        "c": "Colloidal bismuth",
+        "d": "Misoprostol"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "colloidal-bismuth.black-staining-side-effect"
+    },
+    {
+      "num": 6,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which of the following is a proton pump inhibitor effective in treatment of peptic ulcer:",
+      "options": {
+        "a": "Omeprazole",
+        "b": "Ranitidine",
+        "c": "Pirenzepine",
+        "d": "Misoprostol"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "proton-pump-inhibitors.omeprazole"
+    },
+    {
+      "num": 7,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "The drug useful to promote healing of duodenal ulcer is:",
+      "options": {
+        "a": "Sodium citrate",
+        "b": "Famotidine",
+        "c": "Terfenadine",
+        "d": "Ondansetron"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "h2-blockers.famotidine-ulcer-healing"
+    },
+    {
+      "num": 8,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Ranitidine produces which of the following:",
+      "options": {
+        "a": "Blockade of M1-receptors",
+        "b": "Blockade of H1-receptors",
+        "c": "Blockade of H2-receptors",
+        "d": "Acid neutralisation"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "ranitidine.mechanism.h2-receptor-blockade"
+    },
+    {
+      "num": 9,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Drugs useful in eradication of H. pylori include the following EXCEPT:",
+      "options": {
+        "a": "Amoxicillin",
+        "b": "Clarithromycin",
+        "c": "Rifampicin",
+        "d": "Tetracycline"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "h-pylori-eradication.antibiotic-regimen"
+    },
+    {
+      "num": 10,
+      "page": 1,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Drugs useful in maintenance treatment to prevent ulcer relapse include:",
+      "options": {
+        "a": "Aspirin",
+        "b": "Ranitidine",
+        "c": "Sodium bicarbonate",
+        "d": "Metronidazole"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "h2-blockers.maintenance-therapy-ulcer-relapse"
+    },
+    {
+      "num": 11,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "All of the following are true about cimetidine EXCEPT:",
+      "options": {
+        "a": "Useful in duodenal ulcer",
+        "b": "May cause mental confusion",
+        "c": "H1-receptor antagonist",
+        "d": "May cause hepatic dysfunction"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "cimetidine.mechanism-and-adverse-effects"
+    },
+    {
+      "num": 12,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "All the following may cause diarrhoea as a side effect EXCEPT:",
+      "options": {
+        "a": "Digoxin",
+        "b": "Codeine",
+        "c": "Misoprostol",
+        "d": "Metformin"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "drug-induced-diarrhoea.codeine-causes-constipation"
+    },
+    {
+      "num": 13,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Loperamide is:",
+      "options": {
+        "a": "Analgesic anti-pyretic",
+        "b": "Anti-tussive",
+        "c": "Anti-diarrhoeal",
+        "d": "Anti-emetic"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "loperamide.drug-class"
+    },
+    {
+      "num": 14,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Drugs useful to control vomiting include the following EXCEPT:",
+      "options": {
+        "a": "Chlorpromazine",
+        "b": "Domperidone",
+        "c": "Ondansetron",
+        "d": "Apomorphine"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "antiemetics.apomorphine-is-an-emetic"
+    },
+    {
+      "num": 15,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Ondansetron is useful in treatment of:",
+      "options": {
+        "a": "Vomiting induced by cancer therapy",
+        "b": "Vomiting of pregnancy",
+        "c": "Motion sickness",
+        "d": "Acute migraine"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ondansetron.indication.chemotherapy-induced-vomiting"
+    },
+    {
+      "num": 16,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Treatment of diarrhoea includes use of the following EXCEPT:",
+      "options": {
+        "a": "Anti-microbial agents",
+        "b": "Fluid replacement",
+        "c": "Muscarinic agonists",
+        "d": "Loperamide"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "diarrhoea-treatment.muscarinic-agonists-not-used"
+    },
+    {
+      "num": 17,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which of the following is not an anti-diarrhoeal agent:",
+      "options": {
+        "a": "Kaolin",
+        "b": "Diphenoxylate",
+        "c": "Loperamide",
+        "d": "Indapamide"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "antidiarrhoeal-drugs.indapamide-is-a-diuretic"
+    },
+    {
+      "num": 18,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Direct spasmolytics include the following drugs EXCEPT:",
+      "options": {
+        "a": "Aminophylline",
+        "b": "Atropine sulfate",
+        "c": "Mebeverine",
+        "d": "Papaverine"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "antispasmodics.direct-vs-anticholinergic"
+    },
+    {
+      "num": 19,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Physical purgatives include which of the following:",
+      "options": {
+        "a": "Dioctyl sodium sulphosuccinate",
+        "b": "Bisacodyl",
+        "c": "Castor oil",
+        "d": "Croton oil"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "purgatives.physical-vs-irritant-classification"
+    },
+    {
+      "num": 20,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Irritant purgatives act by which of the following:",
+      "options": {
+        "a": "Decreasing peristaltic activity",
+        "b": "Increased peristaltic activity",
+        "c": "Decreased faecal surface tension",
+        "d": "Bulk-forming"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "irritant-purgatives.mechanism"
+    },
+    {
+      "num": 21,
+      "page": 2,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Purgatives are used in the following conditions EXCEPT:",
+      "options": {
+        "a": "Before operations",
+        "b": "After anti-helminthics",
+        "c": "Gastroenteritis",
+        "d": "Oral drug poisoning"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "purgatives.indications-vs-contraindication-gastroenteritis"
+    },
+    {
+      "num": 22,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Dissolution of cholesterol stones in the gall bladder can be achieved by:",
+      "options": {
+        "a": "Glycolic acid",
+        "b": "Chenodeoxycholic acid",
+        "c": "Acetoacetic acid",
+        "d": "Acetylsalicylic acid"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "chenodeoxycholic-acid.gallstone-dissolution"
+    },
+    {
+      "num": 23,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which risk factor is most likely to predispose a patient to the complications of peptic ulcer disease?",
+      "options": {
+        "a": "Obesity",
+        "b": "Race",
+        "c": "Age",
+        "d": "Helicobacter pylori infection"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "peptic-ulcer-disease.h-pylori-risk-factor"
+    },
+    {
+      "num": 24,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Castor oil is classified as which type of laxative?",
+      "options": {
+        "a": "Lubricating laxative",
+        "b": "Anthraquinone laxative",
+        "c": "Irritant laxative",
+        "d": "Stool softening laxative"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "castor-oil.classification.irritant-laxative"
+    },
+    {
+      "num": 25,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which of the following antacids can be complicated with diarrhoea?",
+      "options": {
+        "a": "Aluminium hydroxide",
+        "b": "Magnesium trisilicate",
+        "c": "Calcium carbonate",
+        "d": "Sodium bicarbonate"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "magnesium-antacids.diarrhoea-side-effect"
+    },
+    {
+      "num": 26,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Cimetidine:",
+      "options": {
+        "a": "Is a histamine H1-receptor blocker",
+        "b": "Provides direct protective effect on gastric mucosa",
+        "c": "Can be complicated by gynaecomastia",
+        "d": "Accelerates metabolism of other drugs"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "cimetidine.gynaecomastia-side-effect"
+    },
+    {
+      "num": 27,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "H. pylori infection can be eradicated by a two-week course of:",
+      "options": {
+        "a": "Omeprazole + Clarithromycin + Amoxicillin",
+        "b": "Clarithromycin + Amoxicillin + Metronidazole",
+        "c": "Omeprazole + Clarithromycin",
+        "d": "Omeprazole + Amoxicillin"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "h-pylori-eradication.triple-therapy"
+    },
+    {
+      "num": 28,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "All of the following drugs can be used in treatment of peptic ulcer, EXCEPT:",
+      "options": {
+        "a": "Sucralfate",
+        "b": "Pirenzepine",
+        "c": "Bismuth salts",
+        "d": "Prednisolone"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "peptic-ulcer-drugs.corticosteroids-not-used"
+    },
+    {
+      "num": 29,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which one of the following drugs is NOT a laxative agent?",
+      "options": {
+        "a": "Methyl cellulose",
+        "b": "Diphenoxylate",
+        "c": "Liquid paraffin",
+        "d": "Lactulose"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "laxatives.diphenoxylate-is-antidiarrhoeal"
+    },
+    {
+      "num": 30,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Diarrhoea in children is best managed by:",
+      "options": {
+        "a": "Anticholinergic drug",
+        "b": "Loperamide",
+        "c": "Pectin and kaolin",
+        "d": "Correction of fluid and electrolyte disturbance"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "paediatric-diarrhoea.fluid-electrolyte-correction"
+    },
+    {
+      "num": 31,
+      "page": 3,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which of the following drugs is the best choice to prevent vomiting of motion sickness?",
+      "options": {
+        "a": "Domperidone",
+        "b": "Metoclopramide",
+        "c": "Dimenhydrinate",
+        "d": "Ondansetron"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "antiemetics.motion-sickness.dimenhydrinate"
+    },
+    {
+      "num": 32,
+      "page": 4,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient has severe GERD. In addition to a combination antacid product for symptomatic relief, which drug is most likely prescribed to fully suppress gastric acid secretion?",
+      "options": {
+        "a": "Atropine",
+        "b": "Calcium carbonate",
+        "c": "Cimetidine",
+        "d": "Omeprazole"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "gerd.proton-pump-inhibitor-for-full-acid-suppression"
+    },
+    {
+      "num": 33,
+      "page": 4,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient on theophylline, warfarin, quinidine and phenytoin starts a drug for GI distress and develops toxicity from all other medications with raised serum concentrations. Which drug did he most likely take?",
+      "options": {
+        "a": "Cimetidine",
+        "b": "Sucralfate",
+        "c": "Famotidine",
+        "d": "Nizatidine"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "cimetidine.cytochrome-p450-drug-interactions"
+    },
+    {
+      "num": 34,
+      "page": 4,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "One patient needs suppression of emesis from an anticancer drug; another has diabetic gastroparesis and GERD needing relief. Which drug suits both indications?",
+      "options": {
+        "a": "Diphenoxylate",
+        "b": "Aprepitant",
+        "c": "Pyridoxine",
+        "d": "Metoclopramide"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "metoclopramide.dual-antiemetic-prokinetic-action"
+    },
+    {
+      "num": 35,
+      "page": 4,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient with hepatitis C presents with hepatic portosystemic encephalopathy. Which drug, in relatively high doses, is most suitable for relief of signs and symptoms?",
+      "options": {
+        "a": "Diphenoxylate",
+        "b": "Lansoprazole",
+        "c": "Lactulose",
+        "d": "Loperamide"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "lactulose.hepatic-encephalopathy-treatment"
+    },
+    {
+      "num": 36,
+      "page": 4,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient is prescribed an OTC antacid combining a magnesium salt and an aluminium salt. Why do most such products contain these two particular salts?",
+      "options": {
+        "a": "Al salts counteract the gastric mucosal-irritating effects of Mg salts",
+        "b": "Al salts require activation by an Mg-dependent enzyme to inhibit the parietal cell proton pump",
+        "c": "Mg salts cause a diuresis that helps reduce systemic accumulation of the Al salt",
+        "d": "Mg salts tend to cause a laxative effect that counteracts the constipating tendency of the Al salt"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "antacid-combination.mg-al-balancing-bowel-effects"
+    },
+    {
+      "num": 37,
+      "page": 5,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient with severe abdominal pain and a burning sensation in the upper abdomen has several benign gastric ulcers on endoscopy. Which drug gives the fastest, albeit briefest, relief with a single dose?",
+      "options": {
+        "a": "Antacids",
+        "b": "Belladonna alkaloids",
+        "c": "Cimetidine",
+        "d": "Misoprostol"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "antacids.rapid-onset-brief-duration"
+    },
+    {
+      "num": 38,
+      "page": 5,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient is taking a proton pump inhibitor, metronidazole and clarithromycin. What is the most likely purpose of this drug combination?",
+      "options": {
+        "a": "Antibiotic-associated pseudomembranous colitis",
+        "b": "Irritable bowel syndrome (IBS)",
+        "c": "Refractory or recurrent, severe gastric or duodenal ulcers secondary to H. pylori",
+        "d": "Severe traveller's diarrhoea from E. coli"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "h-pylori-eradication.triple-therapy"
+    },
+    {
+      "num": 39,
+      "page": 5,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient with multiple gastric ulcers takes an OTC heartburn remedy after a large meal and develops severe pain and upper GI blood loss with multiple bleeds on endoscopy. Which drug or product did he most likely take?",
+      "options": {
+        "a": "An aluminium salt",
+        "b": "Sodium bicarbonate",
+        "c": "Magnesium hydroxide",
+        "d": "Ranitidine"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "sodium-bicarbonate.systemic-antacid-rebound-and-bleeding-risk"
+    },
+    {
+      "num": 40,
+      "page": 5,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient is being treated with misoprostol. What is the most likely purpose for which this drug is being administered?",
+      "options": {
+        "a": "Routine management of GERD",
+        "b": "Prophylaxis of GI ulcers during long-term NSAID therapy",
+        "c": "Eradicating H. pylori in acute and recurrent gastric ulcers",
+        "d": "Prevention of acute stress ulcers postoperatively"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "misoprostol.nsaid-ulcer-prophylaxis"
+    },
+    {
+      "num": 41,
+      "page": 5,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient is being treated with sulfasalazine. What is the most likely purpose for which it is being given?",
+      "options": {
+        "a": "Antibiotic-associated pseudomembranous colitis",
+        "b": "E. coli-induced diarrhoea",
+        "c": "Gastric H. pylori infections",
+        "d": "Inflammatory bowel disease"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "sulfasalazine.indication.inflammatory-bowel-disease"
+    },
+    {
+      "num": 42,
+      "page": 5,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient with renal failure on periodic haemodialysis needs to reduce dietary phosphate absorption and remove some phosphate already in the blood. Which drug is most suitable?",
+      "options": {
+        "a": "Aluminium hydroxide gel",
+        "b": "Bismuth subsalicylate",
+        "c": "Magnesium hydroxide/oxide",
+        "d": "Sodium bicarbonate"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "aluminium-hydroxide.phosphate-binding-in-renal-failure"
+    },
+    {
+      "num": 43,
+      "page": 6,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient undergoing cancer chemotherapy gets ondansetron for prophylaxis of drug-induced nausea and vomiting. What best describes this drug's main mechanism of action here?",
+      "options": {
+        "a": "Activates mu-type opioid receptors in the chemoreceptor trigger zone",
+        "b": "Blocks central serotonin (5-HT3) receptors",
+        "c": "Blocks dopamine receptors",
+        "d": "Blocks histamine H1 receptors in the brainstem and inner ear"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "ondansetron.mechanism.5ht3-receptor-blockade"
+    },
+    {
+      "num": 44,
+      "page": 6,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A 55-year-old woman with long-standing insulin-dependent diabetes has severe bloating and abdominal distress after meals, consistent with diabetic gastroparesis. Which prokinetic drug would you most likely recommend?",
+      "options": {
+        "a": "Granisetron",
+        "b": "Cimetidine",
+        "c": "Droperidol",
+        "d": "Metoclopramide"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "metoclopramide.diabetic-gastroparesis"
+    },
+    {
+      "num": 45,
+      "page": 6,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient taking verapamil for hypertension and angina has become constipated. Which drug is an osmotic laxative that could treat this constipation?",
+      "options": {
+        "a": "Aluminium hydroxide",
+        "b": "Diphenoxylate",
+        "c": "Magnesium hydroxide",
+        "d": "Metoclopramide"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "magnesium-hydroxide.osmotic-laxative"
+    },
+    {
+      "num": 46,
+      "page": 6,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which drug is most appropriate for treatment of a patient presenting with Zollinger-Ellison syndrome resulting from a gastrinoma?",
+      "options": {
+        "a": "Metoclopramide",
+        "b": "Omeprazole",
+        "c": "Ondansetron",
+        "d": "Ranitidine"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "zollinger-ellison-syndrome.proton-pump-inhibitor-treatment"
+    },
+    {
+      "num": 47,
+      "page": 6,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A 34-year-old woman has irritable bowel syndrome with diarrhoea not responsive to conventional therapy and begins granisetron. This drug acts as a:",
+      "options": {
+        "a": "5-HT3 receptor antagonist",
+        "b": "5-HT4 receptor agonist",
+        "c": "D2 receptor antagonist",
+        "d": "Muscarinic receptor antagonist"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "granisetron.mechanism.5ht3-receptor-antagonist"
+    },
+    {
+      "num": 48,
+      "page": 6,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "Which anti-diarrhoeal drug, related chemically to the strong opioid analgesic meperidine, could be bought without a prescription?",
+      "options": {
+        "a": "Aluminium hydroxide",
+        "b": "Sulfasalazine",
+        "c": "Loperamide",
+        "d": "Magnesium hydroxide"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "loperamide.opioid-derivative-otc-status"
+    },
+    {
+      "num": 49,
+      "page": 6,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "An antibacterial drug commonly used to eradicate intestinal Helicobacter pylori is:",
+      "options": {
+        "a": "Cefazolin",
+        "b": "Ciprofloxacin",
+        "c": "Clarithromycin",
+        "d": "Clindamycin"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "h-pylori-eradication.clarithromycin"
+    },
+    {
+      "num": 50,
+      "page": 7,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A patient receiving emetogenic chemotherapy for metastatic carcinoma, to prevent chemotherapy-induced nausea and vomiting, is likely to be treated with:",
+      "options": {
+        "a": "Levodopa",
+        "b": "Methotrexate",
+        "c": "Misoprostol",
+        "d": "Dexamethasone"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "chemotherapy-induced-nausea.corticosteroid-adjunct"
+    },
+    {
+      "num": 51,
+      "page": 7,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A couple visiting Machu Picchu asks their doctor to prescribe an agent for diarrhoea. Which of the following would be effective?",
+      "options": {
+        "a": "Omeprazole",
+        "b": "Loperamide",
+        "c": "Famotidine",
+        "d": "Lorazepam"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "loperamide.travellers-diarrhoea"
+    },
+    {
+      "num": 52,
+      "page": 7,
+      "sourceId": "src_1a0923ffe31a9ba062fd",
+      "stem": "A 58-year-old woman with diabetic gastroparesis is prescribed metoclopramide, a drug that acts as a:",
+      "options": {
+        "a": "Beta1-adrenoceptor antagonist",
+        "b": "Dopamine D2-receptor antagonist",
+        "c": "Muscarinic cholinoreceptor antagonist",
+        "d": "Serotonin 5-HT1-receptor antagonist"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "metoclopramide.mechanism.d2-receptor-antagonist"
+    }
+  ]
+}

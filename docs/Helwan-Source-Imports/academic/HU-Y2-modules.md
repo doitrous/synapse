@@ -6,12 +6,24 @@ Telegram channel via `00 Organization Summary.md`, checked 22 Aug 2026). No
 discrepancy: the same four `HU_Y2` modules are on disk now, with real content
 under three of them and administration-only content under the fourth.
 
-| Module ID | Faculty label | Subjects present (offline) | Theory marks | Modular-work quiz marks |
+| Module ID | Faculty label | Subject folders present | Theory marks | Modular-work quiz marks |
 |---|---|---|---|--:|
 | `HU-INH-201` | INH 201 | Microbiology, Parasitology, Pathology, Physiology (+ All Subjects/Assessments) | MCQ 95 + short essay 49 (Micro 15, Para 9, Biochem 5, Pharm ~5, Path ~5, Histo 5, Physio ~5) | 77 (Micro 31, Path 5, Para 18, Pharm 10, Biochem 3, Physio 6, Histo 4) |
-| `HU-Community-202` | Community 202 | **Administration only** — no subject-level teaching/question material found (Community Medicine folder holds only its own Administration subfolder) | not stated in corpus (Arabic mark PDFs held, not yet read for values) | not stated in corpus |
+| `HU-Community-202` | Community 202 | **Administration only** — no subject-level material found (Community Medicine folder holds only its own Administration subfolder) | not stated in corpus (Arabic mark PDFs held, not yet read for values) | not stated in corpus |
 | `HU-NSS-203` | NSS 203 | Anatomy, Biochemistry, Clinical Skills, Histology, Pathology, Pharmacology, Physiology | MCQ 43 + short essay 35 (Pharm 5/3q, Histo 5) | not itemised beyond theory split |
 | `HU-CRS-204` | CRS 204 | Anatomy, Biochemistry, Clinical Skills, Histology, Pathology, Pharmacology, Physiology | MCQ 48 + short essay 36 (Pharm 5, Physio ~5–6, Histo 5, Micro 5; Biochem+Path linked, no numeric split stated) | not itemised beyond theory split |
+
+**Every subject folder listed above holds only administration content** — the
+readability index (`coverage/HU-Y2-readability-index.md`, 63 PDFs, all of
+Year 2) confirms it: every single Year 2 file is a schedule, mark/result
+roster, student-distribution list, portfolio/logbook template, absence list,
+or assessment checklist. There is no department book, lecture note, MCQ
+compilation, or past-paper PDF anywhere in `Year 2/`. Under the question-led
+scope rule ("if you cannot name the question, it is out of scope") **zero
+Year 2 content is authorable from the current corpus** — this is a
+Telegram-fetch gap for every one of the four modules, not a triage backlog.
+Log as "needs Omar sources" per standing instruction (Telegram fetching
+itself stays retired).
 
 Marks source: `Year 2/INH 201/Administration/Assessments and Marks/Mark
 allocation — INH 201, NSS 203, and CRS 204.md` (a name-twin of the copy filed

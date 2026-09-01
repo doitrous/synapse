@@ -1,0 +1,1564 @@
+{
+  "totalDistinctConceptKeys": 281,
+  "liveHit": 13,
+  "pendingHit": 8,
+  "new": 191,
+  "genericNeedsManualSearch": 69,
+  "results": [
+    {
+      "key": "achalasia.definition",
+      "status": "new",
+      "entityPhrase": "achalasia"
+    },
+    {
+      "key": "acute-appendicitis.predisposing-factors",
+      "status": "new",
+      "entityPhrase": "acute appendicitis"
+    },
+    {
+      "key": "acute-cholangitic-abscess.multiplicity",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "acute cholangitic abscess"
+    },
+    {
+      "key": "acute-gastric-ulceration.causes",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "acute gastric ulceration"
+    },
+    {
+      "key": "acute-gastritis.causes",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "acute gastritis"
+    },
+    {
+      "key": "acute-gastritis.commonest-cause",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "acute gastritis"
+    },
+    {
+      "key": "acute-gastritis.pathogenesis",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "acute gastritis"
+    },
+    {
+      "key": "acute-intestinal-obstruction.functional-vs-mechanical",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "acute intestinal obstruction"
+    },
+    {
+      "key": "acute-oesophagitis.infective-causes",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "acute oesophagitis"
+    },
+    {
+      "key": "alcoholic-cirrhosis.gross-features",
+      "status": "new",
+      "entityPhrase": "alcoholic cirrhosis"
+    },
+    {
+      "key": "alcoholic-fatty-liver.increased-nadh-nad-ratio",
+      "status": "new",
+      "entityPhrase": "alcoholic fatty liver"
+    },
+    {
+      "key": "alcoholic-steatosis.mechanisms",
+      "status": "new",
+      "entityPhrase": "alcoholic steatosis"
+    },
+    {
+      "key": "aluminium-hydroxide.phosphate-binding-in-renal-failure",
+      "status": "new",
+      "entityPhrase": "aluminium hydroxide"
+    },
+    {
+      "key": "amoebic-dysentery.flask-shaped-ulcers",
+      "status": "new",
+      "entityPhrase": "amoebic dysentery"
+    },
+    {
+      "key": "amoebic-liver-abscess.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "amoebic liver abscess"
+    },
+    {
+      "key": "ancylostoma-duodenale.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "ancylostoma duodenale"
+    },
+    {
+      "key": "ancylostoma-duodenale.ground-itch",
+      "status": "new",
+      "entityPhrase": "ancylostoma duodenale"
+    },
+    {
+      "key": "ancylostoma-duodenale.infective-stage.filariform-larva",
+      "status": "new",
+      "entityPhrase": "ancylostoma duodenale"
+    },
+    {
+      "key": "ancylostoma-duodenale.iron-deficiency-anemia",
+      "status": "new",
+      "entityPhrase": "ancylostoma duodenale"
+    },
+    {
+      "key": "antacid-combination.mg-al-balancing-bowel-effects",
+      "status": "new",
+      "entityPhrase": "antacid combination"
+    },
+    {
+      "key": "antacids.rapid-onset-brief-duration",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "antacids"
+    },
+    {
+      "key": "antidiarrhoeal-drugs.indapamide-is-a-diuretic",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "antidiarrhoeal drugs"
+    },
+    {
+      "key": "antidiarrhoeal-drugs.neostigmine-not-antidiarrhoeal",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "antidiarrhoeal drugs"
+    },
+    {
+      "key": "antiemetics.apomorphine-is-an-emetic",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "antiemetics"
+    },
+    {
+      "key": "antiemetics.motion-sickness.dimenhydrinate",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "antiemetics"
+    },
+    {
+      "key": "antispasmodics.direct-vs-anticholinergic",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "antispasmodics"
+    },
+    {
+      "key": "ascaris-lumbricoides.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "ascaris lumbricoides"
+    },
+    {
+      "key": "ascaris-lumbricoides.complications.obstruction",
+      "status": "new",
+      "entityPhrase": "ascaris lumbricoides"
+    },
+    {
+      "key": "ascaris-lumbricoides.egg-maturation-in-soil",
+      "status": "new",
+      "entityPhrase": "ascaris lumbricoides"
+    },
+    {
+      "key": "ascaris-lumbricoides.egg-morphology.single-cell",
+      "status": "new",
+      "entityPhrase": "ascaris lumbricoides"
+    },
+    {
+      "key": "ascaris-lumbricoides.loefflers-syndrome",
+      "status": "new",
+      "entityPhrase": "ascaris lumbricoides"
+    },
+    {
+      "key": "ascaris-lumbricoides.pulmonary-migration",
+      "status": "new",
+      "entityPhrase": "ascaris lumbricoides"
+    },
+    {
+      "key": "autoinfection.parasite-scope",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "autoinfection"
+    },
+    {
+      "key": "bacillary-dysentery.causative-organism",
+      "status": "new",
+      "entityPhrase": "bacillary dysentery"
+    },
+    {
+      "key": "bacillary-dysentery.inflammation-type",
+      "status": "new",
+      "entityPhrase": "bacillary dysentery"
+    },
+    {
+      "key": "budd-chiari-syndrome.hepatic-vein-thrombosis",
+      "status": "new",
+      "entityPhrase": "budd chiari syndrome"
+    },
+    {
+      "key": "capillaria-philippinensis.mode-of-infection",
+      "status": "new",
+      "entityPhrase": "capillaria philippinensis"
+    },
+    {
+      "key": "carcinoid-tumour.commonest-site.appendix",
+      "status": "pending-hit",
+      "entityPhrase": "carcinoid tumour",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/103-BMS-mcq-aromatic-concepts.md"
+      ]
+    },
+    {
+      "key": "castor-oil.classification.irritant-laxative",
+      "status": "live-hit",
+      "entityPhrase": "castor oil",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-3DD22DDCB35DC1",
+          "label": "Castor oil is hydrolyzed by intestinal lipase and bile to ricinoleic acid, which irritates small intestine and increases peristalsis",
+          "canonicalKey": "teaching.pharm23.castor-oil.mechanism"
+        }
+      ]
+    },
+    {
+      "key": "cestoda.infective-stage.eggs",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "cestoda"
+    },
+    {
+      "key": "chemotherapy-induced-nausea.corticosteroid-adjunct",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chemotherapy induced nausea"
+    },
+    {
+      "key": "chenodeoxycholic-acid.gallstone-dissolution",
+      "status": "new",
+      "entityPhrase": "chenodeoxycholic acid"
+    },
+    {
+      "key": "cholangiocarcinoma.afp-not-a-marker",
+      "status": "new",
+      "entityPhrase": "cholangiocarcinoma"
+    },
+    {
+      "key": "chronic-hepatitis.commonest-cause-viral",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic hepatitis"
+    },
+    {
+      "key": "chronic-hepatitis.metabolic-causes",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic hepatitis"
+    },
+    {
+      "key": "chronic-intestinal-obstruction.causes",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic intestinal obstruction"
+    },
+    {
+      "key": "chronic-intestinal-obstruction.pathology",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic intestinal obstruction"
+    },
+    {
+      "key": "chronic-liver-failure.causes",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic liver failure"
+    },
+    {
+      "key": "chronic-pancreatitis.commonest-cause-alcohol",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic pancreatitis"
+    },
+    {
+      "key": "chronic-pancreatitis.complications",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic pancreatitis"
+    },
+    {
+      "key": "chronic-pancreatitis.pathogenesis",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "chronic pancreatitis"
+    },
+    {
+      "key": "cimetidine.cytochrome-p450-drug-interactions",
+      "status": "new",
+      "entityPhrase": "cimetidine"
+    },
+    {
+      "key": "cimetidine.gynaecomastia-side-effect",
+      "status": "new",
+      "entityPhrase": "cimetidine"
+    },
+    {
+      "key": "cimetidine.mechanism-and-adverse-effects",
+      "status": "new",
+      "entityPhrase": "cimetidine"
+    },
+    {
+      "key": "cirrhosis.regeneration-nodule-architecture",
+      "status": "live-hit",
+      "entityPhrase": "cirrhosis",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-D5AE5CFC839666",
+          "label": "Excess hepatic fat can cause chronic inflammation, fibrosis or cirrhosis, and impaired liver function",
+          "canonicalKey": "teaching.hepatic.steatosis-progression"
+        }
+      ]
+    },
+    {
+      "key": "coeliac-disease.gluten-trigger",
+      "status": "new",
+      "entityPhrase": "coeliac disease"
+    },
+    {
+      "key": "colloidal-bismuth.black-staining-side-effect",
+      "status": "new",
+      "entityPhrase": "colloidal bismuth"
+    },
+    {
+      "key": "colonic-adenoma.malignant-potential",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "colonic adenoma"
+    },
+    {
+      "key": "colonic-polyps.non-neoplastic-vs-neoplastic",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "colonic polyps"
+    },
+    {
+      "key": "colorectal-carcinoma.modified-dukes-staging",
+      "status": "new",
+      "entityPhrase": "colorectal carcinoma"
+    },
+    {
+      "key": "cryptosporidium.differential-diarrhoea-in-immunosuppressed",
+      "status": "new",
+      "entityPhrase": "cryptosporidium"
+    },
+    {
+      "key": "cryptosporidium.infective-stage.oocyst",
+      "status": "new",
+      "entityPhrase": "cryptosporidium"
+    },
+    {
+      "key": "diarrhoea-treatment.muscarinic-agonists-not-used",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "diarrhoea treatment"
+    },
+    {
+      "key": "dietary-lipid-transport.chylomicrons",
+      "status": "new",
+      "entityPhrase": "dietary lipid transport"
+    },
+    {
+      "key": "diphyllobothrium-latum.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.complication.b12-deficiency-anemia",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.diagnostic-stage",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.differential-b12-deficiency-anemia",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.egg-morphology.operculated",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.infective-stage.plerocercoid-in-fish",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.mechanism-of-b12-deficiency-anemia",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.second-intermediate-host.fish",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "diphyllobothrium-latum.treatment.praziquantel",
+      "status": "new",
+      "entityPhrase": "diphyllobothrium latum"
+    },
+    {
+      "key": "dipylidium-caninum.control.flea-vector",
+      "status": "new",
+      "entityPhrase": "dipylidium caninum"
+    },
+    {
+      "key": "dipylidium-caninum.diagnostic-stage",
+      "status": "new",
+      "entityPhrase": "dipylidium caninum"
+    },
+    {
+      "key": "disaccharide-digestion.pancreatic-enzymes",
+      "status": "new",
+      "entityPhrase": "disaccharide digestion"
+    },
+    {
+      "key": "diverticular-disease-colon.epidemiology",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "diverticular disease colon"
+    },
+    {
+      "key": "diverticular-disease-colon.pathology",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "diverticular disease colon"
+    },
+    {
+      "key": "diverticular-disease-colon.site",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "diverticular disease colon"
+    },
+    {
+      "key": "drug-induced-diarrhoea.codeine-causes-constipation",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "drug induced diarrhoea"
+    },
+    {
+      "key": "duodenal-peptic-ulcer.gastrinoma-association",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "duodenal peptic ulcer"
+    },
+    {
+      "key": "echinococcus-granulosus.intermediate-host.sheep",
+      "status": "new",
+      "entityPhrase": "echinococcus granulosus"
+    },
+    {
+      "key": "echinococcus-granulosus.larval-stage.hydatid-cyst",
+      "status": "new",
+      "entityPhrase": "echinococcus granulosus"
+    },
+    {
+      "key": "echinococcus-granulosus.man-as-intermediate-host",
+      "status": "new",
+      "entityPhrase": "echinococcus granulosus"
+    },
+    {
+      "key": "echinococcus.alveolar-hydatid.intermediate-host",
+      "status": "new",
+      "entityPhrase": "echinococcus"
+    },
+    {
+      "key": "echinococcus.alveolar-hydatid.malignant-like-behaviour",
+      "status": "new",
+      "entityPhrase": "echinococcus"
+    },
+    {
+      "key": "echinococcus.alveolar-hydatid.site",
+      "status": "new",
+      "entityPhrase": "echinococcus"
+    },
+    {
+      "key": "entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate",
+      "status": "new",
+      "entityPhrase": "entamoeba histolytica"
+    },
+    {
+      "key": "entamoeba-histolytica.infective-stage.cyst",
+      "status": "new",
+      "entityPhrase": "entamoeba histolytica"
+    },
+    {
+      "key": "enterobius-vermicularis.airborne-egg-transmission",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.clinical-features.perianal-pruritus",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.diagnosis.graham-swab",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.diagnosis.not-by-stool",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.diagnosis.perianal-swab",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.diagnostic-stage",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.ectopic-egg-deposition",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.egg-morphology.plano-convex",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.egg-under-fingernails",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.identity",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.mode-of-infection.egg-not-larva",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "enterobius-vermicularis.retroinfection",
+      "status": "new",
+      "entityPhrase": "enterobius vermicularis"
+    },
+    {
+      "key": "fap.apc-gene-mutation",
+      "status": "live-hit",
+      "entityPhrase": "fap",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-BA1483A0234CCD",
+          "label": "A count of at least 100 polyps is necessary for diagnosis of classic",
+          "canonicalKey": "teaching::oral and gastrointestinal pathology::fap::a count of at least 100 polyps is necessary for diagnosis of classic."
+        }
+      ]
+    },
+    {
+      "key": "fap.apc-tumour-suppressor-gene",
+      "status": "live-hit",
+      "entityPhrase": "fap",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-BA1483A0234CCD",
+          "label": "A count of at least 100 polyps is necessary for diagnosis of classic",
+          "canonicalKey": "teaching::oral and gastrointestinal pathology::fap::a count of at least 100 polyps is necessary for diagnosis of classic."
+        }
+      ]
+    },
+    {
+      "key": "fasciola-hepatica.intermediate-host.lymnaea-truncatula",
+      "status": "new",
+      "entityPhrase": "fasciola hepatica"
+    },
+    {
+      "key": "fasciola.clinical-course",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.clinical-features-and-diagnosis",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.complication.b12-deficiency-anemia",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.diagnosis.serology-when-stool-negative",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.early-diagnosis.serology",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.habitat.bile-ducts",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.halzoon-syndrome",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.spurious-infection",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.spurious-vs-false-infection",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciola.treatment.triclabendazole",
+      "status": "new",
+      "entityPhrase": "fasciola"
+    },
+    {
+      "key": "fasciolopsis-buski.reservoir-host.pig",
+      "status": "new",
+      "entityPhrase": "fasciolopsis buski"
+    },
+    {
+      "key": "fatty-liver.causes-vs-increased-fatty-acid-oxidation",
+      "status": "live-hit",
+      "entityPhrase": "fatty liver",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-ADAE9B3037FA58",
+          "label": "Carbohydrate overfeeding beyond glycogen-storage capacity promotes fatty liver",
+          "canonicalKey": "teaching.hepatic.carbohydrate-overfeeding"
+        },
+        {
+          "id": "CON-GIT-2D2709CD4D9A17",
+          "label": "Fatty liver or hepatic steatosis is abnormal extensive hepatic lipid accumulation, mainly triacylglycerol",
+          "canonicalKey": "teaching.hepatic.fatty-liver-definition"
+        },
+        {
+          "id": "CON-GIT-5E17AE710409A4",
+          "label": "Overmobilization of adipose fat can exceed hepatic VLDL-synthesis capacity and cause fatty liver",
+          "canonicalKey": "teaching.hepatic.fat-mobilization"
+        }
+      ]
+    },
+    {
+      "key": "fish-borne-helminths",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "fish borne helminths"
+    },
+    {
+      "key": "fructose-absorption.glut-5",
+      "status": "new",
+      "entityPhrase": "fructose absorption"
+    },
+    {
+      "key": "gallstones.cholesterol-vs-pigment-risk-factors",
+      "status": "pending-hit",
+      "entityPhrase": "gallstones",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md"
+      ]
+    },
+    {
+      "key": "gallstones.pigment-stones-haemolysis",
+      "status": "pending-hit",
+      "entityPhrase": "gallstones",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md"
+      ]
+    },
+    {
+      "key": "gallstones.secondary-biliary-cirrhosis",
+      "status": "pending-hit",
+      "entityPhrase": "gallstones",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md"
+      ]
+    },
+    {
+      "key": "gastric-carcinoma.risk-factors",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "gastric carcinoma"
+    },
+    {
+      "key": "gastric-lipase.significance-in-infants",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "gastric lipase"
+    },
+    {
+      "key": "gastric-lymphoma.h-pylori-association",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "gastric lymphoma"
+    },
+    {
+      "key": "gastric-polyps.malignant-potential.adenomatous",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "gastric polyps"
+    },
+    {
+      "key": "gastric-tumours.benign-mesenchymal-vs-epithelial",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "gastric tumours"
+    },
+    {
+      "key": "gerd.proton-pump-inhibitor-for-full-acid-suppression",
+      "status": "new",
+      "entityPhrase": "gerd"
+    },
+    {
+      "key": "giardia-lamblia.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "giardia lamblia"
+    },
+    {
+      "key": "giardia-lamblia.habitat.duodenum-jejunum",
+      "status": "new",
+      "entityPhrase": "giardia lamblia"
+    },
+    {
+      "key": "gist.c-kit-mutation",
+      "status": "new",
+      "entityPhrase": "gist"
+    },
+    {
+      "key": "gist.commonest-abdominal-mesenchymal-tumour",
+      "status": "new",
+      "entityPhrase": "gist"
+    },
+    {
+      "key": "git-lymphoma.commonest-site",
+      "status": "new",
+      "entityPhrase": "git lymphoma"
+    },
+    {
+      "key": "glucose-transporters.intestinal-scglt1-glut2-glut5",
+      "status": "pending-hit",
+      "entityPhrase": "glucose transporters",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md"
+      ]
+    },
+    {
+      "key": "glut-2.basolateral-sugar-exit",
+      "status": "new",
+      "entityPhrase": "glut 2"
+    },
+    {
+      "key": "granisetron.mechanism.5ht3-receptor-antagonist",
+      "status": "new",
+      "entityPhrase": "granisetron"
+    },
+    {
+      "key": "granulomatous-liver-disease.exclusion-nash",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "granulomatous liver disease"
+    },
+    {
+      "key": "h-pylori-eradication.antibiotic-regimen",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "h pylori eradication"
+    },
+    {
+      "key": "h-pylori-eradication.clarithromycin",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "h pylori eradication"
+    },
+    {
+      "key": "h-pylori-eradication.triple-therapy",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "h pylori eradication"
+    },
+    {
+      "key": "h-pylori-gastritis.pathogenesis",
+      "status": "new",
+      "entityPhrase": "h pylori gastritis"
+    },
+    {
+      "key": "h2-blockers.famotidine-ulcer-healing",
+      "status": "new",
+      "entityPhrase": "h2 blockers"
+    },
+    {
+      "key": "h2-blockers.maintenance-therapy-ulcer-relapse",
+      "status": "new",
+      "entityPhrase": "h2 blockers"
+    },
+    {
+      "key": "haemochromatosis.pigmented-cirrhosis",
+      "status": "pending-hit",
+      "entityPhrase": "haemochromatosis",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md"
+      ]
+    },
+    {
+      "key": "hepatic-parasites",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "hepatic parasites"
+    },
+    {
+      "key": "hepatoblastoma.angiosarcoma-vs-hepatoblastoma-risk-factors",
+      "status": "new",
+      "entityPhrase": "hepatoblastoma"
+    },
+    {
+      "key": "hepatocellular-carcinoma.afp-marker",
+      "status": "new",
+      "entityPhrase": "hepatocellular carcinoma"
+    },
+    {
+      "key": "heterophyes.complication.ectopic-egg-emboli",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.complication.egg-emboli",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.complication.myocarditis",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.diagnosis.stool-concentration-technique",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.egg-hatching.no-miracidium-in-water",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.infective-stage.encysted-metacercaria",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.intermediate-host.pirenella-conica",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.life-cycle.lophocercous-cercaria",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.second-intermediate-host.fish",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "heterophyes.treatment.praziquantel",
+      "status": "new",
+      "entityPhrase": "heterophyes"
+    },
+    {
+      "key": "hev.fulminant-hepatitis-in-pregnancy",
+      "status": "new",
+      "entityPhrase": "hev"
+    },
+    {
+      "key": "hev.transmission.faecal-oral",
+      "status": "new",
+      "entityPhrase": "hev"
+    },
+    {
+      "key": "hiatus-hernia.pathogenesis",
+      "status": "new",
+      "entityPhrase": "hiatus hernia"
+    },
+    {
+      "key": "hirschsprung-disease.clinical-features",
+      "status": "new",
+      "entityPhrase": "hirschsprung disease"
+    },
+    {
+      "key": "hookworm-group.iron-deficiency-anemia",
+      "status": "new",
+      "entityPhrase": "hookworm group"
+    },
+    {
+      "key": "hookworm.iron-deficiency-anemia",
+      "status": "live-hit",
+      "entityPhrase": "hookworm",
+      "liveMatches": [
+        {
+          "id": "CON-HEM-F1B029CB7BD806",
+          "label": "Hookworm, peptic-ulcer/pile bleeding, and menorrhagia can cause iron-deficiency anemia",
+          "canonicalKey": "teaching.iron-deficiency.chronic-loss"
+        }
+      ]
+    },
+    {
+      "key": "hymenolepis-diminuta.intermediate-host.arthropod",
+      "status": "new",
+      "entityPhrase": "hymenolepis diminuta"
+    },
+    {
+      "key": "hymenolepis-nana.autoinfection",
+      "status": "new",
+      "entityPhrase": "hymenolepis nana"
+    },
+    {
+      "key": "hymenolepis-nana.direct-life-cycle",
+      "status": "new",
+      "entityPhrase": "hymenolepis nana"
+    },
+    {
+      "key": "hymenolepis-nana.egg-morphology",
+      "status": "new",
+      "entityPhrase": "hymenolepis nana"
+    },
+    {
+      "key": "hymenolepis-nana.epidemiology.children",
+      "status": "new",
+      "entityPhrase": "hymenolepis nana"
+    },
+    {
+      "key": "hymenolepis-nana.larval-stage.cysticercoid",
+      "status": "new",
+      "entityPhrase": "hymenolepis nana"
+    },
+    {
+      "key": "hymenolepis.diagnostic-stage.eggs",
+      "status": "new",
+      "entityPhrase": "hymenolepis"
+    },
+    {
+      "key": "hymenolepis.nana-vs-diminuta.egg-size",
+      "status": "new",
+      "entityPhrase": "hymenolepis"
+    },
+    {
+      "key": "immunodiagnosis.parasite-scope",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "immunodiagnosis"
+    },
+    {
+      "key": "inflammatory-bowel-disease.crohns-site",
+      "status": "live-hit",
+      "entityPhrase": "inflammatory bowel disease",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-C62E7B8F674941",
+          "label": "A small proportion of patients taking antibiotic develop a fulminant colitis",
+          "canonicalKey": "teaching::oral and gastrointestinal pathology::inflammatory bowel disease::a small proportion of patients taking antibiotic develop a fulminant colitis."
+        }
+      ]
+    },
+    {
+      "key": "intestinal-nematodes.complication.appendicitis",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "intestinal nematodes"
+    },
+    {
+      "key": "intestinal-nematodes.diagnostic-stage.adult-worm",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "intestinal nematodes"
+    },
+    {
+      "key": "intestinal-parasites.complication.appendicitis",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "intestinal parasites"
+    },
+    {
+      "key": "irritant-purgatives.mechanism",
+      "status": "new",
+      "entityPhrase": "irritant purgatives"
+    },
+    {
+      "key": "juvenile-polyp.features",
+      "status": "new",
+      "entityPhrase": "juvenile polyp"
+    },
+    {
+      "key": "lactase.hydrolysis-products",
+      "status": "new",
+      "entityPhrase": "lactase"
+    },
+    {
+      "key": "lactose-intolerance.lactase-deficiency",
+      "status": "pending-hit",
+      "entityPhrase": "lactose intolerance",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md"
+      ]
+    },
+    {
+      "key": "lactulose.hepatic-encephalopathy-treatment",
+      "status": "live-hit",
+      "entityPhrase": "lactulose",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-CFF765C2EF7ED9",
+          "label": "Lactulose is an unabsorbed synthetic fructose-galactose disaccharide that retains bowel water and is metabolized by colonic bacteria to lactic acid",
+          "canonicalKey": "teaching.pharm23.lactulose.mechanism"
+        }
+      ]
+    },
+    {
+      "key": "laxatives.diphenoxylate-is-antidiarrhoeal",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "laxatives"
+    },
+    {
+      "key": "leukoplakia.malignant-transformation-is-to-scc-not-adenocarcinoma",
+      "status": "new",
+      "entityPhrase": "leukoplakia"
+    },
+    {
+      "key": "lipotropic-factors.chloroform-is-hepatotoxic",
+      "status": "live-hit",
+      "entityPhrase": "lipotropic factors",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-2F25DC280014C6",
+          "label": "Lipotropic factors include essential amino acids, essential fatty acids, inositol, methyl donors, vitamin B12, and folate",
+          "canonicalKey": "teaching.hepatic.lipotropic-factors"
+        },
+        {
+          "id": "CON-GIT-49C0A180AAED8F",
+          "label": "Lipotropic factors mobilize triacylglycerol from the liver",
+          "canonicalKey": "teaching.hepatic.lipotropic-definition"
+        }
+      ]
+    },
+    {
+      "key": "liquid-paraffin.fat-soluble-vitamin-malabsorption",
+      "status": "live-hit",
+      "entityPhrase": "liquid paraffin",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-262FBDAC8E7506",
+          "label": "Liquid paraffin is an unabsorbed mineral oil that softens and lubricates hard feces and large-intestinal mucosa",
+          "canonicalKey": "teaching.pharm23.liquid-paraffin.mechanism"
+        }
+      ]
+    },
+    {
+      "key": "liver-abscess.multiple-vs-solitary-causes",
+      "status": "new",
+      "entityPhrase": "liver abscess"
+    },
+    {
+      "key": "liver-biopsy.parasitic-diagnosis",
+      "status": "new",
+      "entityPhrase": "liver biopsy"
+    },
+    {
+      "key": "liver-cell-adenoma.oral-contraceptive-association",
+      "status": "new",
+      "entityPhrase": "liver cell adenoma"
+    },
+    {
+      "key": "liver-function-tests.afp-in-liver-cancer",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "liver function tests"
+    },
+    {
+      "key": "liver-function-tests.prothrombin-time-synthetic-function",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "liver function tests"
+    },
+    {
+      "key": "liver-function-tests.transaminases-hepatocellular-damage",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "liver function tests"
+    },
+    {
+      "key": "liver-metabolism.gamma-globulins-not-hepatic-synthesis",
+      "status": "new",
+      "entityPhrase": "liver metabolism"
+    },
+    {
+      "key": "liver-zonation.zone-3-ischaemic-vulnerability",
+      "status": "new",
+      "entityPhrase": "liver zonation"
+    },
+    {
+      "key": "loperamide.drug-class",
+      "status": "new",
+      "entityPhrase": "loperamide"
+    },
+    {
+      "key": "loperamide.opioid-derivative-otc-status",
+      "status": "new",
+      "entityPhrase": "loperamide"
+    },
+    {
+      "key": "loperamide.travellers-diarrhoea",
+      "status": "new",
+      "entityPhrase": "loperamide"
+    },
+    {
+      "key": "magnesium-antacids.diarrhoea-side-effect",
+      "status": "new",
+      "entityPhrase": "magnesium antacids"
+    },
+    {
+      "key": "magnesium-hydroxide.osmotic-laxative",
+      "status": "new",
+      "entityPhrase": "magnesium hydroxide"
+    },
+    {
+      "key": "meckels-diverticulum.antimesenteric-border",
+      "status": "new",
+      "entityPhrase": "meckels diverticulum"
+    },
+    {
+      "key": "melena.causes-vs-haematochezia",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "melena"
+    },
+    {
+      "key": "metoclopramide.diabetic-gastroparesis",
+      "status": "new",
+      "entityPhrase": "metoclopramide"
+    },
+    {
+      "key": "metoclopramide.dual-antiemetic-prokinetic-action",
+      "status": "new",
+      "entityPhrase": "metoclopramide"
+    },
+    {
+      "key": "metoclopramide.mechanism.d2-receptor-antagonist",
+      "status": "new",
+      "entityPhrase": "metoclopramide"
+    },
+    {
+      "key": "misoprostol.nsaid-ulcer-prophylaxis",
+      "status": "new",
+      "entityPhrase": "misoprostol"
+    },
+    {
+      "key": "nematodes.large-intestine-habitat",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "nematodes"
+    },
+    {
+      "key": "nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines",
+      "status": "new",
+      "entityPhrase": "nucleoprotein digestion"
+    },
+    {
+      "key": "oesophageal-squamous-papilloma.hpv-association",
+      "status": "new",
+      "entityPhrase": "oesophageal squamous papilloma"
+    },
+    {
+      "key": "ondansetron.indication.chemotherapy-induced-vomiting",
+      "status": "new",
+      "entityPhrase": "ondansetron"
+    },
+    {
+      "key": "ondansetron.mechanism.5ht3-receptor-blockade",
+      "status": "new",
+      "entityPhrase": "ondansetron"
+    },
+    {
+      "key": "paediatric-diarrhoea.fluid-electrolyte-correction",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "paediatric diarrhoea"
+    },
+    {
+      "key": "pancreatic-carcinoma.clinical-presentation",
+      "status": "new",
+      "entityPhrase": "pancreatic carcinoma"
+    },
+    {
+      "key": "pancreatic-carcinoma.commonest-site-head",
+      "status": "new",
+      "entityPhrase": "pancreatic carcinoma"
+    },
+    {
+      "key": "pancreatic-lipase.cofactors",
+      "status": "pending-hit",
+      "entityPhrase": "pancreatic lipase",
+      "pendingFiles": [
+        "docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md"
+      ]
+    },
+    {
+      "key": "pancreatic-pseudocyst.no-epithelial-lining",
+      "status": "new",
+      "entityPhrase": "pancreatic pseudocyst"
+    },
+    {
+      "key": "pepsin.endopeptidase-not-exopeptidase",
+      "status": "live-hit",
+      "entityPhrase": "pepsin",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-E717E25A1060A4",
+          "label": "Gastrin stimulates gastric acid and pepsin secretion",
+          "canonicalKey": "gastrin.stimulates-acid-pepsin"
+        },
+        {
+          "id": "CON-GIT-E10E05FE786B9A",
+          "label": "Chief cells secrete pepsin as inactive pepsinogen",
+          "canonicalKey": "teaching.bio2.pepsin.secretion"
+        },
+        {
+          "id": "CON-GIT-6E386B69AA17CB",
+          "label": "Hydrochloric acid activates pepsinogen, after which pepsin autocatalytically activates additional molecules",
+          "canonicalKey": "teaching.bio2.pepsin.activation"
+        }
+      ]
+    },
+    {
+      "key": "peptic-ulcer-disease.common-sites",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "peptic ulcer disease"
+    },
+    {
+      "key": "peptic-ulcer-disease.gross-site",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "peptic ulcer disease"
+    },
+    {
+      "key": "peptic-ulcer-disease.h-pylori-risk-factor",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "peptic ulcer disease"
+    },
+    {
+      "key": "peptic-ulcer-disease.pathogenesis-gastric-vs-duodenal",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "peptic ulcer disease"
+    },
+    {
+      "key": "peptic-ulcer-drugs.corticosteroids-not-used",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "peptic ulcer drugs"
+    },
+    {
+      "key": "peritoneal-carcinomatosis.commonest-primary",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "peritoneal carcinomatosis"
+    },
+    {
+      "key": "pirenella-conica.habitat.brackish-water",
+      "status": "new",
+      "entityPhrase": "pirenella conica"
+    },
+    {
+      "key": "pirenella-conica.molluscicide-resistance",
+      "status": "new",
+      "entityPhrase": "pirenella conica"
+    },
+    {
+      "key": "portal-hypertension.presinusoidal-cause-schistosomiasis",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "portal hypertension"
+    },
+    {
+      "key": "praziquantel.spectrum.cestodes-and-trematodes",
+      "status": "new",
+      "entityPhrase": "praziquantel"
+    },
+    {
+      "key": "primary-biliary-cirrhosis.female-predominance",
+      "status": "new",
+      "entityPhrase": "primary biliary cirrhosis"
+    },
+    {
+      "key": "proton-pump-inhibitors.omeprazole",
+      "status": "new",
+      "entityPhrase": "proton pump inhibitors"
+    },
+    {
+      "key": "purgatives.indications-vs-contraindication-gastroenteritis",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "purgatives"
+    },
+    {
+      "key": "purgatives.physical-vs-irritant-classification",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "purgatives"
+    },
+    {
+      "key": "ranitidine.mechanism.h2-receptor-blockade",
+      "status": "new",
+      "entityPhrase": "ranitidine"
+    },
+    {
+      "key": "salivary-gland-tumours.commonest-malignant.mucoepidermoid",
+      "status": "new",
+      "entityPhrase": "salivary gland tumours"
+    },
+    {
+      "key": "salivary-gland-tumours.site.parotid",
+      "status": "new",
+      "entityPhrase": "salivary gland tumours"
+    },
+    {
+      "key": "sglt-1.tissue-distribution-intestine-and-kidney-not-muscle",
+      "status": "new",
+      "entityPhrase": "sglt 1"
+    },
+    {
+      "key": "sialadenitis.sjogren-syndrome-aetiology",
+      "status": "new",
+      "entityPhrase": "sialadenitis"
+    },
+    {
+      "key": "sialadenitis.viral-aetiology.mumps",
+      "status": "new",
+      "entityPhrase": "sialadenitis"
+    },
+    {
+      "key": "sodium-bicarbonate.systemic-antacid-rebound-and-bleeding-risk",
+      "status": "new",
+      "entityPhrase": "sodium bicarbonate"
+    },
+    {
+      "key": "soil-transmitted-helminths.sanitation-control",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "soil transmitted helminths"
+    },
+    {
+      "key": "steatorrhoea.causes-vs-hormone-sensitive-lipase",
+      "status": "new",
+      "entityPhrase": "steatorrhoea"
+    },
+    {
+      "key": "stool-examination.helminth-scope",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "stool examination"
+    },
+    {
+      "key": "strongyloides-stercoralis.corticosteroid-hyperinfection-risk",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.diagnosis.duodenal-aspiration",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.diagnosis.stool-culture",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.diagnostic-stage.rhabditiform-larva",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.larva-currens",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.larva-morphology.double-bulbed-oesophagus",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.life-cycle-forms",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.portal-of-entry.skin",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.rhabditiform-larva-morphology",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.smallest-intestinal-nematode",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "strongyloides-stercoralis.treatment.ivermectin",
+      "status": "new",
+      "entityPhrase": "strongyloides stercoralis"
+    },
+    {
+      "key": "sulfasalazine.indication.inflammatory-bowel-disease",
+      "status": "new",
+      "entityPhrase": "sulfasalazine"
+    },
+    {
+      "key": "taenia-saginata.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "taenia saginata"
+    },
+    {
+      "key": "taenia-saginata.diagnostic-stages",
+      "status": "new",
+      "entityPhrase": "taenia saginata"
+    },
+    {
+      "key": "taenia-saginata.infective-stage.cysticercus-bovis",
+      "status": "new",
+      "entityPhrase": "taenia saginata"
+    },
+    {
+      "key": "taenia-solium.cysticercosis",
+      "status": "new",
+      "entityPhrase": "taenia solium"
+    },
+    {
+      "key": "taenia-solium.cysticercosis-risk",
+      "status": "new",
+      "entityPhrase": "taenia solium"
+    },
+    {
+      "key": "taenia-solium.man-as-accidental-intermediate-host",
+      "status": "new",
+      "entityPhrase": "taenia solium"
+    },
+    {
+      "key": "taenia-solium.not-zoonotic-man-only-host",
+      "status": "new",
+      "entityPhrase": "taenia solium"
+    },
+    {
+      "key": "taenia-solium.treatment.praziquantel",
+      "status": "new",
+      "entityPhrase": "taenia solium"
+    },
+    {
+      "key": "taenia.diagnostic-stage",
+      "status": "new",
+      "entityPhrase": "taenia"
+    },
+    {
+      "key": "taenia.differentiation-by-uterine-branches",
+      "status": "new",
+      "entityPhrase": "taenia"
+    },
+    {
+      "key": "taenia.differentiation-solium-vs-saginata",
+      "status": "new",
+      "entityPhrase": "taenia"
+    },
+    {
+      "key": "tongue-squamous-carcinoma.predisposing-factors",
+      "status": "new",
+      "entityPhrase": "tongue squamous carcinoma"
+    },
+    {
+      "key": "toxocara.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "toxocara"
+    },
+    {
+      "key": "toxocara.infective-stage.embryonated-egg",
+      "status": "new",
+      "entityPhrase": "toxocara"
+    },
+    {
+      "key": "trematode-eggs.operculated-immature",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "trematode eggs"
+    },
+    {
+      "key": "trematode-eggs.stool-concentration-technique",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "trematode eggs"
+    },
+    {
+      "key": "trematodes.infective-stage.encysted-metacercaria",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "trematodes"
+    },
+    {
+      "key": "trichuris-trichiura.clinical-vignette-diagnosis",
+      "status": "new",
+      "entityPhrase": "trichuris trichiura"
+    },
+    {
+      "key": "trichuris-trichiura.complication.rectal-prolapse",
+      "status": "new",
+      "entityPhrase": "trichuris trichiura"
+    },
+    {
+      "key": "trichuris-trichiura.complications",
+      "status": "new",
+      "entityPhrase": "trichuris trichiura"
+    },
+    {
+      "key": "trichuris-trichiura.egg-morphology.bipolar-plugs",
+      "status": "new",
+      "entityPhrase": "trichuris trichiura"
+    },
+    {
+      "key": "trichuris-trichiura.mucosal-attachment",
+      "status": "new",
+      "entityPhrase": "trichuris trichiura"
+    },
+    {
+      "key": "trichuris-trichiura.no-migratory-phase",
+      "status": "new",
+      "entityPhrase": "trichuris trichiura"
+    },
+    {
+      "key": "trypsin.endopeptidase-not-exopeptidase",
+      "status": "live-hit",
+      "entityPhrase": "trypsin",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-DCE600A449FBC4",
+          "label": "Enteropeptidase activates pancreatic trypsinogen to trypsin, followed by autocatalytic activation",
+          "canonicalKey": "teaching.bio2.trypsin.activation"
+        },
+        {
+          "id": "CON-GIT-2E93ABAB29A4BC",
+          "label": "Brush-border enteropeptidase converts trypsinogen to trypsin in the duodenum",
+          "canonicalKey": "teaching.trypsinogen.enteropeptidase"
+        }
+      ]
+    },
+    {
+      "key": "trypsin.substrate-specificity-arginine-lysine",
+      "status": "live-hit",
+      "entityPhrase": "trypsin",
+      "liveMatches": [
+        {
+          "id": "CON-GIT-DCE600A449FBC4",
+          "label": "Enteropeptidase activates pancreatic trypsinogen to trypsin, followed by autocatalytic activation",
+          "canonicalKey": "teaching.bio2.trypsin.activation"
+        },
+        {
+          "id": "CON-GIT-2E93ABAB29A4BC",
+          "label": "Brush-border enteropeptidase converts trypsinogen to trypsin in the duodenum",
+          "canonicalKey": "teaching.trypsinogen.enteropeptidase"
+        }
+      ]
+    },
+    {
+      "key": "viral-hepatitis.hbv-hdv-coinfection",
+      "status": "new",
+      "entityPhrase": "viral hepatitis"
+    },
+    {
+      "key": "viral-hepatitis.hdv-can-cause-chronic-disease",
+      "status": "new",
+      "entityPhrase": "viral hepatitis"
+    },
+    {
+      "key": "zollinger-ellison-syndrome.proton-pump-inhibitor-treatment",
+      "status": "new",
+      "entityPhrase": "zollinger ellison syndrome"
+    },
+    {
+      "key": "zoonotic-dog-transmitted-parasites",
+      "status": "generic-entity-needs-manual-search",
+      "entityPhrase": "zoonotic dog transmitted parasites"
+    }
+  ]
+}

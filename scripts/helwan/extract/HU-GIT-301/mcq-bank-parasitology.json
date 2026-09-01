@@ -1,0 +1,2198 @@
+{
+  "bank": "MCQs - Para MCQ [GIT].pdf",
+  "sourceId": "src_c13e19bc9551ea261622",
+  "subject": "parasitology",
+  "note": "146 lettered MCQs (pp.7-25); pp.2-6 are un-lettered key-facts study cards, not MCQs, and are excluded from this bank. Answer key from p.26, rendered/verified against the printed grid.",
+  "count": 146,
+  "items": [
+    {
+      "num": 1,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Triclabendazole is the drug of choice for treatment of infection by:",
+      "options": {
+        "a": "Taenia solium",
+        "b": "Taenia saginata",
+        "c": "Hymenolepis nana",
+        "d": "Fasciola hepatica"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "fasciola.treatment.triclabendazole"
+    },
+    {
+      "num": 2,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Praziquantel is the drug of choice in treatment of infection of:",
+      "options": {
+        "a": "Taenia solium",
+        "b": "Heterophyes heterophyes",
+        "c": "Hymenolepis nana",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "praziquantel.spectrum.cestodes-and-trematodes"
+    },
+    {
+      "num": 3,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The snail which resists molluscicidal agent is:",
+      "options": {
+        "a": "Bulinus truncatus",
+        "b": "Pirenella conica",
+        "c": "Biomphalaria alexandrina",
+        "d": "Lymnaea caillaudi"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "pirenella-conica.molluscicide-resistance"
+    },
+    {
+      "num": 4,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The snail which lives in brackish water is:",
+      "options": {
+        "a": "Bulinus truncatus",
+        "b": "Pirenella conica",
+        "c": "Biomphalaria alexandrina",
+        "d": "Lymnaea caillaudi"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "pirenella-conica.habitat.brackish-water"
+    },
+    {
+      "num": 5,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Leptocercus cercaria emerges from the following snail:",
+      "options": {
+        "a": "Lymnaea truncatula",
+        "b": "Segmentina snail",
+        "c": "Lymnaea caillaudi",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "fasciola-hepatica.intermediate-host.lymnaea-truncatula"
+    },
+    {
+      "num": 6,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Lophocercus cercaria emerges from the following snail:",
+      "options": {
+        "a": "Lymnaea truncatula",
+        "b": "Segmentina snail",
+        "c": "Pirenella conica",
+        "d": "Lymnaea caillaudi"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "heterophyes.intermediate-host.pirenella-conica"
+    },
+    {
+      "num": 7,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Lophocercus cercaria is a stage in the life cycle of the following parasite:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola hepatica",
+        "c": "Fasciola gigantica",
+        "d": "Fasciolopsis buski"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "heterophyes.life-cycle.lophocercous-cercaria"
+    },
+    {
+      "num": 8,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "As regards halzoon, all are true except:",
+      "options": {
+        "a": "Pharyngeal form of fascioliasis",
+        "b": "Encysted metacercariae are attached to the pharynx",
+        "c": "It is caused by eating raw livers of infected sheep and cattle",
+        "d": "It is treated by gargling with alcoholic drink"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "fasciola.halzoon-syndrome"
+    },
+    {
+      "num": 9,
+      "page": 7,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "As regards fascioliasis, all are true except:",
+      "options": {
+        "a": "Infection is by eating contaminated vegetables",
+        "b": "Infective stage is encysted metacercaria",
+        "c": "Praziquantel is the drug of choice",
+        "d": "The acute phase of the disease begins 2 months after infection"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "fasciola.clinical-course"
+    },
+    {
+      "num": 10,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "False fascioliasis may result from:",
+      "options": {
+        "a": "Ingestion of infected liver with dead Fasciola adults",
+        "b": "Ingestion of insufficiently cooked meat",
+        "c": "Drinking of infected water",
+        "d": "Ingestion of encysted metacercariae in vegetables"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "fasciola.spurious-vs-false-infection"
+    },
+    {
+      "num": 11,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "As regards fascioliasis, the false answer is:",
+      "options": {
+        "a": "It presents by fever, hepatomegaly, anemia and eosinophilia",
+        "b": "Duodenal aspiration could reveal eggs",
+        "c": "It is treated by Triclabendazole",
+        "d": "Infective stage is encysted metacercaria in fish"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "fasciola.clinical-features-and-diagnosis"
+    },
+    {
+      "num": 12,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "For early diagnosis and detection of Fasciola gigantica infection, the best investigation is:",
+      "options": {
+        "a": "Stool examination to detect the eggs",
+        "b": "Indirect serological test (ELISA)",
+        "c": "Demonstration of copro-antigen in stools",
+        "d": "Liver function test"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "fasciola.early-diagnosis.serology"
+    },
+    {
+      "num": 13,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Spurious infection occurs in:",
+      "options": {
+        "a": "Fasciola gigantica",
+        "b": "Diphyllobothrium latum",
+        "c": "Metagonimus yokogawi",
+        "d": "Clonorchis sinensis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "fasciola.spurious-infection"
+    },
+    {
+      "num": 14,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "In pharyngeal fascioliasis (halzoon), the parasitic stage that causes suffocation is:",
+      "options": {
+        "a": "Adult worm",
+        "b": "Egg",
+        "c": "Cercaria",
+        "d": "Encysted metacercaria"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "fasciola.halzoon-syndrome"
+    },
+    {
+      "num": 15,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Operculated eggs containing immature embryo in Trematoda are diagnostic stages in stool except:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciolopsis buski",
+        "c": "Fasciola hepatica",
+        "d": "Fasciola gigantica"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "trematode-eggs.operculated-immature"
+    },
+    {
+      "num": 16,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Adult worms of the following Trematoda lay immature operculated eggs except:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciolopsis buski",
+        "c": "Fasciola hepatica",
+        "d": "Fasciola gigantica"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "trematode-eggs.operculated-immature"
+    },
+    {
+      "num": 17,
+      "page": 8,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "All the Trematoda eggs hatch in water to give miracidium, except:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola gigantica",
+        "c": "Fasciolopsis buski",
+        "d": "Fasciola hepatica"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "heterophyes.egg-hatching.no-miracidium-in-water"
+    },
+    {
+      "num": 18,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "In human liver, Fasciola worms reside in:",
+      "options": {
+        "a": "Liver cells",
+        "b": "Portal blood vessels",
+        "c": "Liver sinusoids",
+        "d": "Bile ducts"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "fasciola.habitat.bile-ducts"
+    },
+    {
+      "num": 19,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Vitamin B12 deficiency anemia may occur in infection with:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola gigantica",
+        "c": "Fasciolopsis buski",
+        "d": "Fasciola hepatica"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "fasciola.complication.b12-deficiency-anemia"
+    },
+    {
+      "num": 20,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Egg emboli may occur in infection with:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola gigantica",
+        "c": "Fasciolopsis buski",
+        "d": "Fasciola hepatica"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "heterophyes.complication.egg-emboli"
+    },
+    {
+      "num": 21,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Pig is the reservoir host of:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola gigantica",
+        "c": "Fasciolopsis buski",
+        "d": "Fasciola hepatica"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "fasciolopsis-buski.reservoir-host.pig"
+    },
+    {
+      "num": 22,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Encysted metacercaria is/are the infective stage(s) of:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola gigantica",
+        "c": "Fasciolopsis buski",
+        "d": "Fasciola hepatica",
+        "e": "All of the above"
+      },
+      "recovered_key": "e",
+      "tested_concept_key": "trematodes.infective-stage.encysted-metacercaria"
+    },
+    {
+      "num": 23,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Myocarditis and coronary embolism may be a complication of infection with:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola gigantica",
+        "c": "Fasciolopsis buski",
+        "d": "Fasciola hepatica",
+        "e": "All of the above"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "heterophyes.complication.myocarditis"
+    },
+    {
+      "num": 24,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Concentration stool examination technique is better used to detect the eggs of:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Fasciola gigantica",
+        "c": "Fasciolopsis buski",
+        "d": "Fasciola hepatica",
+        "e": "All of the above"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "trematode-eggs.stool-concentration-technique"
+    },
+    {
+      "num": 25,
+      "page": 9,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The diagnostic stage(s) of H. nana and H. diminuta is/are:",
+      "options": {
+        "a": "Eggs only",
+        "b": "Eggs and gravid segments",
+        "c": "Eggs and mature segments",
+        "d": "Eggs, egg capsules or gravid segments"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "hymenolepis.diagnostic-stage.eggs"
+    },
+    {
+      "num": 26,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The diagnostic stage(s) of Taenia solium and Taenia saginata:",
+      "options": {
+        "a": "Eggs only",
+        "b": "Eggs, gravid segments and scolices in successful treatment",
+        "c": "Gravid segments",
+        "d": "Eggs, egg capsules or gravid segments"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "taenia.diagnostic-stage"
+    },
+    {
+      "num": 27,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The diagnostic stage(s) of Diphyllobothrium latum:",
+      "options": {
+        "a": "Eggs only",
+        "b": "Eggs and gravid segments",
+        "c": "Eggs and rarely mature segments",
+        "d": "Eggs, eggs capsule or gravid"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "diphyllobothrium-latum.diagnostic-stage"
+    },
+    {
+      "num": 28,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The diagnostic stage(s) of Dipylidium caninum:",
+      "options": {
+        "a": "Eggs only",
+        "b": "Eggs and gravid segments",
+        "c": "Eggs and mature segments",
+        "d": "Eggs, egg capsules or gravid segments"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "dipylidium-caninum.diagnostic-stage"
+    },
+    {
+      "num": 29,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Infective eggs in Cestoda is/are:",
+      "options": {
+        "a": "Hymenolepis nana eggs",
+        "b": "Taenia solium egg",
+        "c": "Echinococcus granulosus eggs",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "cestoda.infective-stage.eggs"
+    },
+    {
+      "num": 30,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Infective stage of Diphyllobothrium latum is:",
+      "options": {
+        "a": "Plerocercoid in Cyclops",
+        "b": "Plerocercoid in vegetable",
+        "c": "Procercoid in fish",
+        "d": "Plerocercoid in fish"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "diphyllobothrium-latum.infective-stage.plerocercoid-in-fish"
+    },
+    {
+      "num": 31,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Infective stage of Taenia saginata is:",
+      "options": {
+        "a": "Cysticercus cellulosae in pig meat",
+        "b": "Cysticercus cellulosae in cattle meat",
+        "c": "Egg of Taenia saginata",
+        "d": "Cysticercus bovis in cattle meat"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "taenia-saginata.infective-stage.cysticercus-bovis"
+    },
+    {
+      "num": 32,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "We can differentiate between Taenia solium and Taenia saginata infections by:",
+      "options": {
+        "a": "Morphology of their gravid segments",
+        "b": "Staining their eggs by modified Ziehl-Neelsen",
+        "c": "The morphology of their scolices in stool after successful treatment",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "taenia.differentiation-solium-vs-saginata"
+    },
+    {
+      "num": 33,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Taenia solium is more dangerous than Taenia saginata due to:",
+      "options": {
+        "a": "Autoinfection in T. solium leading to cysticercosis",
+        "b": "The hooks in Taenia solium scolex leading to bleeding",
+        "c": "All the above",
+        "d": "None of all"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "taenia-solium.cysticercosis-risk"
+    },
+    {
+      "num": 34,
+      "page": 10,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "All these Cestoda are zoonotic except:",
+      "options": {
+        "a": "Dipylidium caninum",
+        "b": "Diphyllobothrium latum",
+        "c": "Hymenolepis diminuta",
+        "d": "Taenia solium"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "taenia-solium.not-zoonotic-man-only-host"
+    },
+    {
+      "num": 35,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The only operculated eggs in Cestoda is the egg of:",
+      "options": {
+        "a": "Taenia saginata",
+        "b": "Hymenolepis diminuta",
+        "c": "Diphyllobothrium latum",
+        "d": "Hymenolepis nana"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "diphyllobothrium-latum.egg-morphology.operculated"
+    },
+    {
+      "num": 36,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Vitamin B12 deficiency anemia in Cestoda may be caused by:",
+      "options": {
+        "a": "Diphyllobothrium latum",
+        "b": "Hymenolepis nana",
+        "c": "All of the above",
+        "d": "Taenia solium"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "diphyllobothrium-latum.complication.b12-deficiency-anemia"
+    },
+    {
+      "num": 37,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Alveolar hydatid cyst is commonly found in:",
+      "options": {
+        "a": "Liver (90-100%)",
+        "b": "Lung (90-100%)",
+        "c": "Brain",
+        "d": "Bone"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "echinococcus.alveolar-hydatid.site"
+    },
+    {
+      "num": 38,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The intermediate host of the alveolar hydatid cyst are:",
+      "options": {
+        "a": "Rodents, occasionally man",
+        "b": "Cattle, sheep, occasionally man",
+        "c": "Dogs",
+        "d": "Foxes and wolves"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "echinococcus.alveolar-hydatid.intermediate-host"
+    },
+    {
+      "num": 39,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Difference(s) between Hymenolepis nana and Hymenolepis diminuta is/are:",
+      "options": {
+        "a": "Size of egg: H. nana egg 30-50 µm while H. diminuta 80 µm",
+        "b": "Colour",
+        "c": "Filaments",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "hymenolepis.nana-vs-diminuta.egg-size"
+    },
+    {
+      "num": 40,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The following tapeworms require an intermediate host, except:",
+      "options": {
+        "a": "Taenia solium",
+        "b": "Taenia saginata",
+        "c": "Hymenolepis nana",
+        "d": "Hymenolepis diminuta"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "hymenolepis-nana.direct-life-cycle"
+    },
+    {
+      "num": 41,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The drug of choice for treatment of Taenia solium infection is:",
+      "options": {
+        "a": "Yomesan (niclosamide)",
+        "b": "Metrifonate",
+        "c": "Praziquantel"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "taenia-solium.treatment.praziquantel"
+    },
+    {
+      "num": 42,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Man can act as blind intermediate host in infection with:",
+      "options": {
+        "a": "Hymenolepis diminuta",
+        "b": "Taenia saginata",
+        "c": "Echinococcus granulosus",
+        "d": "Hymenolepis nana"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "taenia-solium.man-as-accidental-intermediate-host"
+    },
+    {
+      "num": 43,
+      "page": 11,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Autoinfection is a mode of transmission of the following parasites:",
+      "options": {
+        "a": "Taenia saginata",
+        "b": "Hymenolepis nana",
+        "c": "Echinococcus granulosus",
+        "d": "All of the above"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "hymenolepis-nana.autoinfection"
+    },
+    {
+      "num": 44,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The larval stage of the following parasite has a malignant-like behaviour in human tissue:",
+      "options": {
+        "a": "Taenia saginata",
+        "b": "Alveolar hydatid disease",
+        "c": "Echinococcus granulosus",
+        "d": "Hymenolepis diminuta"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "echinococcus.alveolar-hydatid.malignant-like-behaviour"
+    },
+    {
+      "num": 45,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The following parasite is the commonest cestode affecting children:",
+      "options": {
+        "a": "Hymenolepis nana",
+        "b": "Echinococcus granulosus",
+        "c": "Taenia solium",
+        "d": "Taenia saginata"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "hymenolepis-nana.epidemiology.children"
+    },
+    {
+      "num": 46,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The gravid proglottid of Taenia saginata can be best differentiated from that of Taenia solium by the:",
+      "options": {
+        "a": "Morphology of the ova within uterus",
+        "b": "Number of ova within the uterus",
+        "c": "The colour of the proglottid",
+        "d": "Number of lateral uterine branches"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "taenia.differentiation-by-uterine-branches"
+    },
+    {
+      "num": 47,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The 2nd intermediate host of Diphyllobothrium latum:",
+      "options": {
+        "a": "Snail",
+        "b": "Fresh water fish",
+        "c": "Copepod",
+        "d": "Salt water fish"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "diphyllobothrium-latum.second-intermediate-host.fish"
+    },
+    {
+      "num": 48,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The larval stage of Hymenolepis nana is:",
+      "options": {
+        "a": "Cysticercus bovis",
+        "b": "Cysticercus cellulosae",
+        "c": "Cysticercoid",
+        "d": "Hydatid cyst"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "hymenolepis-nana.larval-stage.cysticercoid"
+    },
+    {
+      "num": 49,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "To complete the life cycle, Hymenolepis diminuta eggs must be ingested by:",
+      "options": {
+        "a": "Suitable arthropod",
+        "b": "A dog",
+        "c": "A cat",
+        "d": "Rat"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "hymenolepis-diminuta.intermediate-host.arthropod"
+    },
+    {
+      "num": 50,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Most common intermediate host for Echinococcus granulosus is:",
+      "options": {
+        "a": "Man",
+        "b": "Dog",
+        "c": "Fox",
+        "d": "Sheep"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "echinococcus-granulosus.intermediate-host.sheep"
+    },
+    {
+      "num": 51,
+      "page": 12,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Hydatid cyst is the larva of:",
+      "options": {
+        "a": "Echinococcus granulosus",
+        "b": "Hymenolepis nana",
+        "c": "Dipylidium caninum",
+        "d": "Taenia solium"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "echinococcus-granulosus.larval-stage.hydatid-cyst"
+    },
+    {
+      "num": 52,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Egg of Hymenolepis nana is characterised by the following, except:",
+      "options": {
+        "a": "Double wall with knobs and filaments",
+        "b": "Thick striated shell",
+        "c": "Hexacanth embryo",
+        "d": "Spherical"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "hymenolepis-nana.egg-morphology"
+    },
+    {
+      "num": 53,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Eradication of rat or dog flea is important for control of the following, except:",
+      "options": {
+        "a": "Dipylidium caninum",
+        "b": "Hymenolepis diminuta",
+        "c": "Diphyllobothrium latum",
+        "d": "All of the above"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "dipylidium-caninum.control.flea-vector"
+    },
+    {
+      "num": 54,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Cysticercosis occurs as a complication in infection with:",
+      "options": {
+        "a": "Taenia solium",
+        "b": "Taenia saginata",
+        "c": "Both of the above",
+        "d": "Fasciolopsis buski"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "taenia-solium.cysticercosis"
+    },
+    {
+      "num": 55,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "As regards hydatidosis, the false statement is:",
+      "options": {
+        "a": "It is a zoonotic disease",
+        "b": "Man acts as definitive host",
+        "c": "Man is infected by ingestion of Echinococcus granulosus eggs",
+        "d": "The commonest site is liver"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "echinococcus-granulosus.man-as-intermediate-host"
+    },
+    {
+      "num": 56,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Appendicitis is considered a complication of infection with:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Enterobius vermicularis",
+        "c": "Trichuris trichiura",
+        "d": "Taenia saginata",
+        "e": "All of the above"
+      },
+      "recovered_key": "e",
+      "tested_concept_key": "intestinal-nematodes.complication.appendicitis"
+    },
+    {
+      "num": 57,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Helminths infecting humans through eating fish are:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Metagonimus yokogawi",
+        "c": "Diphyllobothrium latum",
+        "d": "Capillaria philippinensis",
+        "e": "All of the above"
+      },
+      "recovered_key": "e",
+      "tested_concept_key": "fish-borne-helminths"
+    },
+    {
+      "num": 58,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "All these parasites may be found in liver, except:",
+      "options": {
+        "a": "Hydatid cyst",
+        "b": "Fasciola gigantica",
+        "c": "Toxocara",
+        "d": "Fasciolopsis buski"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "hepatic-parasites"
+    },
+    {
+      "num": 59,
+      "page": 13,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Immunodiagnosis is used in diagnosis of all these parasites, except:",
+      "options": {
+        "a": "Acute fascioliasis",
+        "b": "Acute clonorchiasis",
+        "c": "Visceral larva migrans",
+        "d": "Trichostrongylus"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "immunodiagnosis.parasite-scope"
+    },
+    {
+      "num": 60,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Liver biopsy is used for diagnosis of:",
+      "options": {
+        "a": "Visceral larva migrans",
+        "b": "Fasciola hepatica",
+        "c": "Fasciola gigantica",
+        "d": "Clonorchis sinensis",
+        "e": "All of the above"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "liver-biopsy.parasitic-diagnosis"
+    },
+    {
+      "num": 61,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Ingestion of larvae is the mode of infection of all these nematodes, except:",
+      "options": {
+        "a": "Capillaria philippinensis",
+        "b": "Trichostrongylus",
+        "c": "Enterobius vermicularis",
+        "d": "All of the above"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "enterobius-vermicularis.mode-of-infection.egg-not-larva"
+    },
+    {
+      "num": 62,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "All these helminths cause anemia, except:",
+      "options": {
+        "a": "Trichuris trichiura",
+        "b": "Ancylostoma caninum",
+        "c": "Necator americanus",
+        "d": "Trichostrongylus colubriformis",
+        "e": "Fasciolopsis buski"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "hookworm-group.iron-deficiency-anemia"
+    },
+    {
+      "num": 63,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Autoinfection may occur in infection with these parasites, except:",
+      "options": {
+        "a": "Hymenolepis nana",
+        "b": "Enterobius vermicularis",
+        "c": "Strongyloides stercoralis",
+        "d": "Ancylostoma duodenale"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "autoinfection.parasite-scope"
+    },
+    {
+      "num": 64,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Adult worms may be a diagnostic stage in the following infections, except:",
+      "options": {
+        "a": "Ascariasis",
+        "b": "Ancylostomiasis",
+        "c": "Strongyloidiasis",
+        "d": "Enterobiasis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "intestinal-nematodes.diagnostic-stage.adult-worm"
+    },
+    {
+      "num": 65,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "As regards Trichuris trichiura, all the following are true, except:",
+      "options": {
+        "a": "It is a whip-like worm",
+        "b": "It has a migratory phase outside the intestine",
+        "c": "It inhabits the caecum and adjacent parts of small and large intestine",
+        "d": "The female is oviparous"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "trichuris-trichiura.no-migratory-phase"
+    },
+    {
+      "num": 66,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Stool examination can be used for diagnosis of all these helminths, except:",
+      "options": {
+        "a": "Necator americanus",
+        "b": "Ascaris lumbricoides",
+        "c": "Ancylostoma caninum",
+        "d": "Strongyloides stercoralis"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "stool-examination.helminth-scope"
+    },
+    {
+      "num": 67,
+      "page": 14,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Larva currens occurs due to infection with:",
+      "options": {
+        "a": "Ancylostoma caninum",
+        "b": "Ancylostoma duodenale",
+        "c": "Strongyloides stercoralis",
+        "d": "All of the above"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "strongyloides-stercoralis.larva-currens"
+    },
+    {
+      "num": 68,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Rhabditiform larvae of Strongyloides have a:",
+      "options": {
+        "a": "Long mouth cavity",
+        "b": "Large genital primordium",
+        "c": "Tapering tail with sharp end",
+        "d": "A sheath"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "strongyloides-stercoralis.rhabditiform-larva-morphology"
+    },
+    {
+      "num": 69,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Double bulbed oesophagus is a characteristic feature of:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Enterobius vermicularis",
+        "c": "Strongyloides stercoralis",
+        "d": "Trichinella spiralis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "strongyloides-stercoralis.larva-morphology.double-bulbed-oesophagus"
+    },
+    {
+      "num": 70,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Trichuris trichiura (whipworm) maintains its position in the intestinal tract by:",
+      "options": {
+        "a": "Anchoring to mucosal surface with its attenuated anterior portion",
+        "b": "Penetrating the mucosa with its attenuated anterior portion",
+        "c": "Attachment with its cephalic alae",
+        "d": "Attachment with its cutting plates"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "trichuris-trichiura.mucosal-attachment"
+    },
+    {
+      "num": 71,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Nematodes inhabiting the large intestine is/are:",
+      "options": {
+        "a": "Trichuris trichiura",
+        "b": "Enterobius vermicularis",
+        "c": "All of the above",
+        "d": "Strongyloides stercoralis"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "nematodes.large-intestine-habitat"
+    },
+    {
+      "num": 72,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Bipolar mucoid plugs are a specific morphological character for eggs of:",
+      "options": {
+        "a": "Enterobius vermicularis egg",
+        "b": "Trichuris trichiura eggs",
+        "c": "Hookworm egg",
+        "d": "Ascaris lumbricoides"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "trichuris-trichiura.egg-morphology.bipolar-plugs"
+    },
+    {
+      "num": 73,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Rectal prolapse is a complication in heavy infection with:",
+      "options": {
+        "a": "Enterobius vermicularis",
+        "b": "Trichuris trichiura",
+        "c": "Hookworm",
+        "d": "Ascaris lumbricoides"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "trichuris-trichiura.complication.rectal-prolapse"
+    },
+    {
+      "num": 74,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Iron deficiency anemia may be caused by:",
+      "options": {
+        "a": "Ancylostoma duodenale",
+        "b": "Trichuris trichiura",
+        "c": "All of the above",
+        "d": "Ancylostoma caninum"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "hookworm.iron-deficiency-anemia"
+    },
+    {
+      "num": 75,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Appendicitis is a complication of infection with:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Enterobius vermicularis",
+        "c": "Trichuris trichiura",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "intestinal-nematodes.complication.appendicitis"
+    },
+    {
+      "num": 76,
+      "page": 15,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Before submitting a person to corticosteroid therapy, the patient must be screened for:",
+      "options": {
+        "a": "Trichuris trichiura",
+        "b": "Enterobius vermicularis",
+        "c": "All of the above",
+        "d": "Strongyloides stercoralis"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "strongyloides-stercoralis.corticosteroid-hyperinfection-risk"
+    },
+    {
+      "num": 77,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "As regards Capillaria philippinensis, which of the following is not true:",
+      "options": {
+        "a": "Eating insufficiently cooked fish is the mode of infection",
+        "b": "Eating improperly washed vegetables is the mode of infection",
+        "c": "Egg is diagnostic stage",
+        "d": "Causes watery diarrhoea"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "capillaria-philippinensis.mode-of-infection"
+    },
+    {
+      "num": 78,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Cortisone is contraindicated in treatment of:",
+      "options": {
+        "a": "Fasciola gigantica",
+        "b": "Strongyloides stercoralis in heavy infection",
+        "c": "Taenia solium",
+        "d": "Toxocariasis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "strongyloides-stercoralis.corticosteroid-hyperinfection-risk"
+    },
+    {
+      "num": 79,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Myocarditis is a complication of infection with:",
+      "options": {
+        "a": "Heterophyes heterophyes",
+        "b": "Strongyloides stercoralis in heavy infection",
+        "c": "Fasciola gigantica",
+        "d": "Ascaris lumbricoides",
+        "e": "All of the above"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "heterophyes.complication.myocarditis"
+    },
+    {
+      "num": 80,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Autoinfection occurs in:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Enterobius vermicularis",
+        "c": "Ancylostoma duodenale",
+        "d": "Trichuris trichiura"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "enterobius-vermicularis.retroinfection"
+    },
+    {
+      "num": 81,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Loeffler's syndrome accompanies infection with:",
+      "options": {
+        "a": "Hookworms",
+        "b": "Ascaris",
+        "c": "Strongyloides",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "ascaris-lumbricoides.loefflers-syndrome"
+    },
+    {
+      "num": 82,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The parasite that lays eggs containing a single cell is:",
+      "options": {
+        "a": "Ancylostoma duodenale",
+        "b": "Enterobius vermicularis",
+        "c": "Strongyloides",
+        "d": "Ascaris lumbricoides"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "ascaris-lumbricoides.egg-morphology.single-cell"
+    },
+    {
+      "num": 83,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The parasite that passes through the lungs during development in the human body is:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Enterobius vermicularis",
+        "c": "Trichuris trichiura",
+        "d": "Ancylostoma caninum"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ascaris-lumbricoides.pulmonary-migration"
+    },
+    {
+      "num": 84,
+      "page": 16,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Strongyloides stercoralis",
+        "c": "Hymenolepis nana",
+        "d": "Ancylostoma caninum"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ascaris-lumbricoides.complications.obstruction"
+    },
+    {
+      "num": 85,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Loeffler's syndrome manifests with:",
+      "options": {
+        "a": "Loss of appetite and abdominal discomfort",
+        "b": "Chest troubles and high eosinophilia",
+        "c": "Alternating attacks of diarrhoea and constipation",
+        "d": "High periodic fever and lymphadenopathy"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "ascaris-lumbricoides.loefflers-syndrome"
+    },
+    {
+      "num": 86,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "For the egg of Ascaris to develop, they:",
+      "options": {
+        "a": "Need favourable conditions in soil",
+        "b": "Must be in contact with fresh water diluting the stool",
+        "c": "Must be swallowed by the suitable intermediate host",
+        "d": "Must be swallowed by humans and exposed to the acidity of the stomach"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ascaris-lumbricoides.egg-maturation-in-soil"
+    },
+    {
+      "num": 87,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Ivermectin is the drug of choice for treatment of:",
+      "options": {
+        "a": "Strongyloidiasis",
+        "b": "Trichinosis",
+        "c": "Trichuriasis",
+        "d": "None of the above"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "strongyloides-stercoralis.treatment.ivermectin"
+    },
+    {
+      "num": 88,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Larva currens occurs due to infection with:",
+      "options": {
+        "a": "Ancylostoma caninum",
+        "b": "Ancylostoma duodenale",
+        "c": "Strongyloides stercoralis",
+        "d": "Necator americanus"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "strongyloides-stercoralis.larva-currens"
+    },
+    {
+      "num": 89,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Stool culture helps in diagnosis of:",
+      "options": {
+        "a": "Strongyloidiasis",
+        "b": "Fascioliasis",
+        "c": "Trichinosis",
+        "d": "Ascariasis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "strongyloides-stercoralis.diagnosis.stool-culture"
+    },
+    {
+      "num": 90,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Duodenal aspiration can be used to diagnose:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Strongyloides stercoralis",
+        "c": "Ancylostoma duodenale",
+        "d": "Enterobius vermicularis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "strongyloides-stercoralis.diagnosis.duodenal-aspiration"
+    },
+    {
+      "num": 91,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The usual portal of entry of Strongyloides is:",
+      "options": {
+        "a": "Anal orifice",
+        "b": "Skin",
+        "c": "Nasal orifices",
+        "d": "Mouth"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "strongyloides-stercoralis.portal-of-entry.skin"
+    },
+    {
+      "num": 92,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The diagnostic stage of Strongyloides stercoralis in stool is:",
+      "options": {
+        "a": "Egg",
+        "b": "Filariform larva",
+        "c": "Rhabditiform larva",
+        "d": "All of the above"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "strongyloides-stercoralis.diagnostic-stage.rhabditiform-larva"
+    },
+    {
+      "num": 93,
+      "page": 17,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Larva currens is caused by:",
+      "options": {
+        "a": "Furocercous cercaria of schistosomes",
+        "b": "Infective filariform larva of Ancylostoma duodenale",
+        "c": "Infective filariform larva of Wuchereria bancrofti",
+        "d": "Autoinfective larvae of Strongyloides stercoralis"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "strongyloides-stercoralis.larva-currens"
+    },
+    {
+      "num": 94,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Life cycle of Strongyloides involves:",
+      "options": {
+        "a": "Direct cycle",
+        "b": "Indirect cycle",
+        "c": "Auto-infection",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "strongyloides-stercoralis.life-cycle-forms"
+    },
+    {
+      "num": 95,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Ground itch is caused by penetration of human skin by:",
+      "options": {
+        "a": "Furocercous cercaria of schistosomes",
+        "b": "Infective filariform larva of Ancylostoma duodenale",
+        "c": "Infective filariform larva of Wuchereria bancrofti",
+        "d": "Autoinfective larvae of Strongyloides stercoralis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "ancylostoma-duodenale.ground-itch"
+    },
+    {
+      "num": 96,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Stool culture helps in diagnosis of:",
+      "options": {
+        "a": "Strongyloidiasis",
+        "b": "Fascioliasis",
+        "c": "Trichinosis",
+        "d": "Ascariasis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "strongyloides-stercoralis.diagnosis.stool-culture"
+    },
+    {
+      "num": 97,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Air-borne infection may occur in:",
+      "options": {
+        "a": "Enterobius vermicularis",
+        "b": "Taenia solium",
+        "c": "Hymenolepis nana",
+        "d": "All of the above"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "enterobius-vermicularis.airborne-egg-transmission"
+    },
+    {
+      "num": 98,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The egg of this parasite may be found under the finger nail of the patient:",
+      "options": {
+        "a": "Enterobius vermicularis",
+        "b": "Taenia solium",
+        "c": "Hymenolepis nana",
+        "d": "All of the above"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "enterobius-vermicularis.egg-under-fingernails"
+    },
+    {
+      "num": 99,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The smallest intestinal nematode infecting human is:",
+      "options": {
+        "a": "Ancylostoma duodenale",
+        "b": "Strongyloides stercoralis",
+        "c": "Enterobius vermicularis",
+        "d": "Trichinella spiralis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "strongyloides-stercoralis.smallest-intestinal-nematode"
+    },
+    {
+      "num": 100,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Appendicitis is a complication of infection with:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Enterobius vermicularis",
+        "c": "All of the above",
+        "d": "Ancylostoma duodenale"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "intestinal-nematodes.complication.appendicitis"
+    },
+    {
+      "num": 101,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The eggs that may be found in the urine of a female patient is that of:",
+      "options": {
+        "a": "Ascaris egg",
+        "b": "Enterobius vermicularis eggs",
+        "c": "Strongyloides stercoralis eggs"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "enterobius-vermicularis.ectopic-egg-deposition"
+    },
+    {
+      "num": 102,
+      "page": 18,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Autoinfection occurs in:",
+      "options": {
+        "a": "Enterobius vermicularis",
+        "b": "Taenia solium",
+        "c": "Hymenolepis nana",
+        "d": "Strongyloides stercoralis",
+        "e": "Capillaria philippinensis",
+        "f": "All of the above"
+      },
+      "recovered_key": "f",
+      "tested_concept_key": "autoinfection.parasite-scope"
+    },
+    {
+      "num": 103,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Pruritis ani and nocturnal enuresis may be caused by infection with:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Dracunculus medinensis",
+        "c": "Enterobius vermicularis",
+        "d": "Trichuris trichiura"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "enterobius-vermicularis.clinical-features.perianal-pruritus"
+    },
+    {
+      "num": 104,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Egg of Enterobius vermicularis:",
+      "options": {
+        "a": "Shell with coarsely mamillated egg shell",
+        "b": "Is plano-convex, double wall shell",
+        "c": "Is barrel shape with bipolar plugs",
+        "d": "Is thin shell with blunt rounded pole"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "enterobius-vermicularis.egg-morphology.plano-convex"
+    },
+    {
+      "num": 105,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Stool examination is not recommended in the diagnosis of:",
+      "options": {
+        "a": "Hymenolepis nana",
+        "b": "Enterobius vermicularis",
+        "c": "Strongyloides stercoralis",
+        "d": "Ancylostoma duodenale"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "enterobius-vermicularis.diagnosis.not-by-stool"
+    },
+    {
+      "num": 106,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "A reliable method for diagnosing enterobiasis is:",
+      "options": {
+        "a": "Stool examination",
+        "b": "Peri-anal swab",
+        "c": "Rectal snip",
+        "d": "Kato-Katz technique"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "enterobius-vermicularis.diagnosis.perianal-swab"
+    },
+    {
+      "num": 107,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Oxyuriasis is caused by:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Dracunculus medinensis",
+        "c": "Enterobius vermicularis",
+        "d": "Trichuris trichiura"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "enterobius-vermicularis.identity"
+    },
+    {
+      "num": 108,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Graham's swab cellophane technique is useful to detect:",
+      "options": {
+        "a": "Enterobius vermicularis egg",
+        "b": "Enterobius vermicularis female worm",
+        "c": "Whipworm egg",
+        "d": "Hydatid sand"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "enterobius-vermicularis.diagnosis.graham-swab"
+    },
+    {
+      "num": 109,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Adequate disposal of the stool is essential in control of:",
+      "options": {
+        "a": "Trichinella spiralis",
+        "b": "Ascaris lumbricoides",
+        "c": "Enterobius vermicularis",
+        "d": "All of the above"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "soil-transmitted-helminths.sanitation-control"
+    },
+    {
+      "num": 110,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Acute appendicitis, intestinal obstruction and bile duct obstruction are possible complications of:",
+      "options": {
+        "a": "Ascaris lumbricoides",
+        "b": "Strongyloides stercoralis",
+        "c": "Trichinella spiralis",
+        "d": "Ancylostoma caninum"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ascaris-lumbricoides.complications.obstruction"
+    },
+    {
+      "num": 111,
+      "page": 19,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "The parasite that infects man by direct contact with dogs is/are:",
+      "options": {
+        "a": "Toxocariasis",
+        "b": "Hydatid disease",
+        "c": "All of the above",
+        "d": "Ancylostomiasis caninum"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "zoonotic-dog-transmitted-parasites"
+    },
+    {
+      "num": 112,
+      "page": 20,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": null,
+      "stem": "Graham's swab cellophane technique is useful to detect:",
+      "options": {
+        "a": "Enterobius vermicularis egg",
+        "b": "Enterobius vermicularis female worm",
+        "c": "Whipworm egg",
+        "d": "Hydatid sand"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "enterobius-vermicularis.diagnosis.graham-swab"
+    },
+    {
+      "num": 113,
+      "page": 20,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 1: 30-year-old man, upper abdominal and right hypochondrial pain, itching, weight loss, fever, hepatomegaly, jaundice, anaemia and eosinophilia, stool examination free of ova.",
+      "stem": "What is the most probable parasitological cause?",
+      "options": {
+        "a": "Fasciola spp",
+        "b": "Clonorchis",
+        "c": "Hydatid cyst",
+        "d": "Ascaris"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "fasciola.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 114,
+      "page": 20,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 1 (continued): as above.",
+      "stem": "How to confirm your diagnosis in this case?",
+      "options": {
+        "a": "Direct stool examination",
+        "b": "Serological diagnosis to detect specific antibodies",
+        "c": "Duodenal aspiration",
+        "d": "All of the above"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "fasciola.diagnosis.serology-when-stool-negative"
+    },
+    {
+      "num": 115,
+      "page": 20,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 2: 18-year-old student in Cairo, recurrent abdominal colic, vomiting, diarrhoea, passage of white/creamy rectangular fleshy pieces (2x1cm) in stool.",
+      "stem": "What is the most probable parasitological cause?",
+      "options": {
+        "a": "Taenia saginata",
+        "b": "Taenia solium",
+        "c": "Hymenolepis nana",
+        "d": "Hymenolepis diminuta"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "taenia-saginata.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 116,
+      "page": 20,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 2 (continued): as above.",
+      "stem": "What is the other diagnostic stage that can be detected in stool examination?",
+      "options": {
+        "a": "Egg",
+        "b": "Scolex in successful treatment",
+        "c": "All of the above"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "taenia-saginata.diagnostic-stages"
+    },
+    {
+      "num": 117,
+      "page": 21,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 3: 20-year-old male student, fever, abdominal pain, frequent motions with bulky offensive stool with mucus and blood, tender colon, sigmoidoscopy shows ulcers with narrow opening and healthy mucosa between.",
+      "stem": "What parasitic stage can be seen microscopically in the aspirate material obtained by sigmoidoscopy?",
+      "options": {
+        "a": "Cyst of E. histolytica",
+        "b": "Trophozoite of E. histolytica",
+        "c": "Egg of Trichuris",
+        "d": "Cyst of Balantidium coli"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate"
+    },
+    {
+      "num": 118,
+      "page": 21,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 3 (continued): as above.",
+      "stem": "What is the infective stage?",
+      "options": {
+        "a": "Cyst of E. histolytica",
+        "b": "Trophozoite of E. histolytica",
+        "c": "Egg of Trichuris",
+        "d": "Cyst of Balantidium coli"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "entamoeba-histolytica.infective-stage.cyst"
+    },
+    {
+      "num": 119,
+      "page": 21,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 4: AIDS patient, severe watery diarrhoea with dehydration, stool positive by acid-fast staining.",
+      "stem": "What is the infective stage of this parasite?",
+      "options": {
+        "a": "Oocyst containing 4 sporozoites of Cryptosporidium",
+        "b": "Cyst with 4 nuclei",
+        "c": "Amoeboid trophozoite"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "cryptosporidium.infective-stage.oocyst"
+    },
+    {
+      "num": 120,
+      "page": 21,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 4 (continued): as above.",
+      "stem": "Give the name of another parasite that causes severe diarrhoea in AIDS patients.",
+      "options": {
+        "a": "Strongyloides",
+        "b": "Ascaris lumbricoides",
+        "c": "Ancylostoma duodenale",
+        "d": "Capillaria"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "cryptosporidium.differential-diarrhoea-in-immunosuppressed"
+    },
+    {
+      "num": 121,
+      "page": 21,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 5: 7-year-old child, fever, rigors, right hypochondrial pain radiating to right shoulder worsened by cough, tender enlarged liver, X-ray shows raised right hemidiaphragm and dense hepatic shadow, CBC shows polymorph leucocytosis.",
+      "stem": "What is the diagnosis?",
+      "options": {
+        "a": "Amoebic liver abscess",
+        "b": "Hydatid cyst"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "amoebic-liver-abscess.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 122,
+      "page": 22,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 6: 7-year-old girl, abdominal distension, epigastric pain, vomiting, diarrhoea, offensive greasy lentil-soap-like stool without blood, underweight, liver and spleen not enlarged.",
+      "stem": "What is your possible diagnosis?",
+      "options": {
+        "a": "Giardiasis",
+        "b": "Cryptosporidium infection",
+        "c": "E. histolytica infection",
+        "d": "Balantidium coli"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "giardia-lamblia.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 123,
+      "page": 22,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 6 (continued): as above.",
+      "stem": "Name the habitat of the parasite.",
+      "options": {
+        "a": "Large intestine",
+        "b": "Upper part of small intestine (duodenum and jejunum)",
+        "c": "Caecum"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "giardia-lamblia.habitat.duodenum-jejunum"
+    },
+    {
+      "num": 124,
+      "page": 22,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 7: child who plays with stray dogs, asthmatic attack, tender enlarged liver, persistent eosinophilia and hyperglobulinaemia.",
+      "stem": "What is the preliminary parasitic diagnosis?",
+      "options": {
+        "a": "Toxocariasis",
+        "b": "Ascariasis",
+        "c": "Enterobiasis",
+        "d": "Heterophyiasis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "toxocara.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 125,
+      "page": 22,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 7 (continued): as above.",
+      "stem": "What is the infective stage?",
+      "options": {
+        "a": "Embryonated egg containing 2nd stage rhabditiform larva",
+        "b": "Filariform larva",
+        "c": "Rhabditiform larva",
+        "d": "Cyst"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "toxocara.infective-stage.embryonated-egg"
+    },
+    {
+      "num": 126,
+      "page": 22,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 8: 10-year-old child, recurrent severe dysentery, abdominal colic, bulging perianal mass, pale toxic look, distended tender colon, rectal prolapse.",
+      "stem": "What are the diagnostic findings in stool analysis?",
+      "options": {
+        "a": "Egg barrel-shaped with 2 mucoid plugs containing one cell",
+        "b": "E. histolytica cyst",
+        "c": "D-shaped egg containing larva",
+        "d": "Balantidium coli cyst"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "trichuris-trichiura.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 127,
+      "page": 23,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 8 (continued): as above.",
+      "stem": "What are other complications of this parasitic infection?",
+      "options": {
+        "a": "Anemia",
+        "b": "Appendicitis",
+        "c": "Peritonitis",
+        "d": "Growth retardation",
+        "e": "All of the above"
+      },
+      "recovered_key": "e",
+      "tested_concept_key": "trichuris-trichiura.complications"
+    },
+    {
+      "num": 128,
+      "page": 23,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 9: 25-year-old farmer, fatigue, exertional dyspnoea, anorexia, abdominal discomfort, recurrent dark stool, severe pallor, mild lower limb oedema, ova in stool, severe anaemia, decreased serum albumin.",
+      "stem": "This case is due to infection with:",
+      "options": {
+        "a": "Ancylostoma duodenale",
+        "b": "Fasciolopsis buski",
+        "c": "Diphyllobothrium latum",
+        "d": "Fasciola gigantica"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ancylostoma-duodenale.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 129,
+      "page": 23,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 9 (continued): as above.",
+      "stem": "What is the type of anaemia?",
+      "options": {
+        "a": "Iron deficiency anemia",
+        "b": "Vitamin B12 deficiency anemia"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ancylostoma-duodenale.iron-deficiency-anemia"
+    },
+    {
+      "num": 130,
+      "page": 23,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 9 (continued): as above.",
+      "stem": "The infective stage of this parasite is:",
+      "options": {
+        "a": "3rd stage filariform larva",
+        "b": "Rhabditiform larva",
+        "c": "Egg containing 2nd stage rhabditiform larva"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "ancylostoma-duodenale.infective-stage.filariform-larva"
+    },
+    {
+      "num": 131,
+      "page": 23,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 10: 8-year-old girl, peri-anal itching worse at night with insomnia and occasional nocturnal enuresis, mother saw a thready worm about 1cm in stool, multiple perianal/vulval scratches, stool analysis unremarkable.",
+      "stem": "What is the possible parasitic cause?",
+      "options": {
+        "a": "Trichuris trichiura",
+        "b": "Taenia saginata",
+        "c": "Enterobius vermicularis",
+        "d": "Trichostrongylus"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "enterobius-vermicularis.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 132,
+      "page": 23,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 10 (continued): as above.",
+      "stem": "What is the best investigation recommended to approach the diagnosis?",
+      "options": {
+        "a": "Graham's swab",
+        "b": "Stool examination",
+        "c": "Immunodiagnosis"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "enterobius-vermicularis.diagnosis.graham-swab"
+    },
+    {
+      "num": 133,
+      "page": 24,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 10 (continued): as above.",
+      "stem": "What is/are the diagnostic stage(s)?",
+      "options": {
+        "a": "Round spherical egg with thick shell",
+        "b": "D-shaped egg or adult female about 1 cm",
+        "c": "Taenia saginata gravid segments",
+        "d": "Taenia solium gravid segment"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "enterobius-vermicularis.diagnostic-stage"
+    },
+    {
+      "num": 134,
+      "page": 24,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 11: farmer, acute abdominal pain and appendicitis, history of cough, dyspnoea and asthmatic attack, barium sulphate meal shows a linear curved translucent shadow.",
+      "stem": "What is the possible parasitic cause?",
+      "options": {
+        "a": "Trichuris trichiura",
+        "b": "Ascaris lumbricoides",
+        "c": "Enterobius vermicularis",
+        "d": "Trichostrongylus"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "ascaris-lumbricoides.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 135,
+      "page": 24,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 11 (continued): as above.",
+      "stem": "Enumerate other parasites that may complicate with appendicitis.",
+      "options": {
+        "a": "Enterobius vermicularis",
+        "b": "Trichuris trichiura",
+        "c": "E. histolytica",
+        "d": "All of the above"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "intestinal-parasites.complication.appendicitis"
+    },
+    {
+      "num": 136,
+      "page": 24,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 12: woman in Japan who ate salmon, diarrhoea, abdominal pain, loss of appetite, pernicious anaemia.",
+      "stem": "What is the preliminary diagnosis?",
+      "options": {
+        "a": "Infection with Diphyllobothrium latum",
+        "b": "Infection with Fasciolopsis buski",
+        "c": "Infection with Trichuris trichiura",
+        "d": "Infection with Ancylostoma duodenale"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "diphyllobothrium-latum.clinical-vignette-diagnosis"
+    },
+    {
+      "num": 137,
+      "page": 24,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 12 (continued): as above.",
+      "stem": "What is the infective stage of this parasite?",
+      "options": {
+        "a": "Procercoid in fish",
+        "b": "Plerocercoid in fish",
+        "c": "Encysted metacercaria in salty water fish",
+        "d": "Encysted metacercaria in fresh water fish"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "diphyllobothrium-latum.infective-stage.plerocercoid-in-fish"
+    },
+    {
+      "num": 138,
+      "page": 24,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 12 (continued): as above.",
+      "stem": "Enumerate other parasites that may cause the pernicious anaemia.",
+      "options": {
+        "a": "Fasciolopsis buski",
+        "b": "Fasciola gigantica",
+        "c": "Trichostrongylus",
+        "d": "Ancylostoma duodenale"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "diphyllobothrium-latum.differential-b12-deficiency-anemia"
+    },
+    {
+      "num": 139,
+      "page": 24,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 12 (continued): as above.",
+      "stem": "What is the cause of the anaemia in this case?",
+      "options": {
+        "a": "The adult worm consumes vitamin B12 and folic acid",
+        "b": "The effects of toxins arising from the worm",
+        "c": "Malabsorption of vitamin B12"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "diphyllobothrium-latum.mechanism-of-b12-deficiency-anemia"
+    },
+    {
+      "num": 140,
+      "page": 25,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 12 (continued): as above.",
+      "stem": "The diagnostic stages in this case are:",
+      "options": {
+        "a": "Operculated eggs",
+        "b": "Operculated eggs and/or gravid segments",
+        "c": "Operculated eggs and/or mature segments",
+        "d": "Gravid segments"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "diphyllobothrium-latum.diagnostic-stage"
+    },
+    {
+      "num": 141,
+      "page": 25,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 12 (continued): as above.",
+      "stem": "The drug of choice to treat this case is:",
+      "options": {
+        "a": "Niclosamide",
+        "b": "Praziquantel",
+        "c": "Albendazole",
+        "d": "Ivermectin"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "diphyllobothrium-latum.treatment.praziquantel"
+    },
+    {
+      "num": 142,
+      "page": 25,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 13: fisherman near Manzala lakes, severe colicky abdominal pain with intermittent mucoid diarrhoea, history of eating grilled Boury fish, abdominal tenderness on examination.",
+      "stem": "What is the infective stage in this case?",
+      "options": {
+        "a": "Encysted metacercaria",
+        "b": "Lophocercous cercaria",
+        "c": "Plerocercoid",
+        "d": "Sporocyst"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "heterophyes.infective-stage.encysted-metacercaria"
+    },
+    {
+      "num": 143,
+      "page": 25,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 13 (continued): as above.",
+      "stem": "What is the 2nd intermediate host of this parasite?",
+      "options": {
+        "a": "Fish (bolty and boury)",
+        "b": "Pirenella conica",
+        "c": "Cyclops",
+        "d": "Flea"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "heterophyes.second-intermediate-host.fish"
+    },
+    {
+      "num": 144,
+      "page": 25,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 13 (continued): as above.",
+      "stem": "What is the serious complication of this case?",
+      "options": {
+        "a": "Myocarditis",
+        "b": "Myocardial infarction",
+        "c": "Myelitis",
+        "d": "Cerebral emboli",
+        "e": "All of the above"
+      },
+      "recovered_key": "e",
+      "tested_concept_key": "heterophyes.complication.ectopic-egg-emboli"
+    },
+    {
+      "num": 145,
+      "page": 25,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 13 (continued): as above.",
+      "stem": "What drug of choice is used to treat this case?",
+      "options": {
+        "a": "Niclosamide",
+        "b": "Praziquantel",
+        "c": "Albendazole",
+        "d": "Ivermectin"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "heterophyes.treatment.praziquantel"
+    },
+    {
+      "num": 146,
+      "page": 25,
+      "sourceId": "src_c13e19bc9551ea261622",
+      "vignette": "Case 13 (continued): as above.",
+      "stem": "Why is concentrated stool examination better used for diagnosis of this case?",
+      "options": {
+        "a": "Due to the small size of the egg, so not detected easily",
+        "b": "Because adults pass a low number of eggs daily",
+        "c": "All of the above"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "heterophyes.diagnosis.stool-concentration-technique"
+    }
+  ]
+}
