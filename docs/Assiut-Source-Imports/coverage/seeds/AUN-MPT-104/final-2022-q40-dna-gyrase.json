@@ -1,0 +1,57 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "final-2022-q40-dna-gyrase",
+  "header": "AUN-MPT-104 · pending-live overlay on Alexandria's ciprofloxacin/DNA-gyrase concept (AU-MED-102), from the 2022 final exam Q40.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "module_subject": "AUN-MPT-104 > Pharmacology > Antimicrobial pharmacology",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-FND-DNA-REPLICATION-REPAIR-PCR"],
+    "resource_ids": ["src_1c24cca66364c8f2fcbb"],
+    "source_citation": "MPT final exam 17/7/2022, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q40",
+      "id": "QST-AUNMPT104-FINAL2022-Q40",
+      "page": 5,
+      "title": "Ciprofloxacin's mechanism of action in acute bacterial prostatitis",
+      "question": "A 65-year-old man is diagnosed with acute bacterial prostatitis and is prescribed ciprofloxacin for 6 weeks. His agent acts by which of the following mechanisms?",
+      "options": {
+        "A": "Competitive inhibition of para-aminobenzoic acid",
+        "B": "Inhibition of bacterial cell wall synthesis",
+        "C": "Inhibition of DNA gyrase",
+        "D": "Reversible binding to 50S ribosomal subunit"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Competitive inhibition of para-aminobenzoic acid (PABA) in the folate-synthesis pathway is the mechanism of the sulfonamides, not a fluoroquinolone; ciprofloxacin does not touch folate metabolism.",
+        "B": "Incorrect. Inhibition of bacterial cell wall synthesis describes the beta-lactams (penicillins, cephalosporins) and glycopeptides such as vancomycin, which act on peptidoglycan cross-linking, not on DNA replication.",
+        "C": "Correct. Ciprofloxacin is a fluoroquinolone: it inhibits bacterial DNA gyrase (topoisomerase II) and, in Gram-positive organisms, topoisomerase IV, both of which are required to relieve supercoiling ahead of the replication fork. Blocking this step halts DNA replication and is bactericidal — the mechanism that makes fluoroquinolones effective for a deep-tissue infection like bacterial prostatitis, where good tissue penetration and a bactericidal action are both needed.",
+        "D": "Incorrect. Reversible binding to the 50S ribosomal subunit describes macrolides (e.g., erythromycin) and clindamycin, which block protein synthesis — a different target and a different (usually bacteriostatic) class of action from ciprofloxacin's."
+      },
+      "main_concept": "CON-FND-014D200ED96498",
+      "concept_ids": ["CON-FND-014D200ED96498"],
+      "contextual_concept_ids": [],
+      "topic": "Antimicrobial pharmacology",
+      "subtopic": "Fluoroquinolones",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State ciprofloxacin's mechanism of action and distinguish it from the other major antibacterial mechanism classes.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "circled C, printed exam p.5", "pendingConcept": "CON-FND-014D200ED96498 is pending in docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md and docs/import-ready/concept/AU-MED-102-biochem-molecular-concepts.md, canonical_key pharmacology.ciprofloxacin.dna-gyrase-inhibition -- this question and its +aun overlay apply only after Omar imports that Alexandria batch" },
+      "author_notes": ""
+    }
+  ]
+}
