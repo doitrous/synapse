@@ -52,6 +52,7 @@ const antibioticsAdverseResourceId = 'src_0e91f1d10838d0af56f5'
 const penicillinsDetailResourceId = 'src_197fdef8ba580aa5e7ba'
 const gramPositiveCocciResourceId = 'src_e2832d7aebaad9c7b1fe'
 const cellWallTeachingResourceId = 'src_060e284322ddf8fdf92c'
+const generalAntibacterialTwoResourceId = 'src_9a16b2156717527bf0ab'
 
 const introArticles = {
   definitions: 'ART-INF-MUST-FHB1022-PARASITE-DEFINITIONS',
@@ -1154,6 +1155,8 @@ const microArticles = {
   otherBetaLactams: 'ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM',
   vancomycinClinical: 'ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE',
   antimicrobialPrinciples: 'ART-INF-MUST-FHB1022-ANTIMICROBIAL-PRINCIPLES',
+  antimicrobialClinicalUse: 'ART-INF-MUST-FHB1022-ANTIMICROBIAL-CLINICAL-USE',
+  antimicrobialPharmacodynamics: 'ART-INF-MUST-FHB1022-ANTIMICROBIAL-PHARMACODYNAMICS',
 }
 
 const microArticleRelations = {
@@ -1175,6 +1178,8 @@ const microArticleRelations = {
   otherBetaLactams: ['cephalosporins', 'vancomycinClinical'],
   vancomycinClinical: ['cephalosporins', 'otherBetaLactams'],
   antimicrobialPrinciples: ['cellWallAntibiotics', 'penicillins'],
+  antimicrobialClinicalUse: ['penicillins', 'otherBetaLactams', 'vancomycinClinical'],
+  antimicrobialPharmacodynamics: ['antimicrobialPrinciples', 'otherBetaLactams', 'vancomycinClinical'],
 }
 
 const microItems = [
@@ -1978,6 +1983,356 @@ const mucizeAntibacterialOneBacampicillinItems = [
 }))
 
 microItems.push(...mucizeAntibacterialOneBacampicillinItems)
+
+const mucizeAntibacterialTwoOtherBetaLactamsItems = [
+  {
+    q: 3, conceptId: 'CON-INF-B9B72E44C7D4F7', canonicalKey: 'pharmacology.monobactams.aztreonam-beta-lactamase-resistance',
+    label: 'Aztreonam resists beta-lactamase enzymes', aliases: ['Aztreonam beta-lactamase resistance', 'Monobactam enzyme resistance'], conceptType: 'drug profile',
+    article: 'otherBetaLactams', microtopic: 'Aztreonam advantages', assessmentPage: 37, teachingPage: 2,
+    stem: 'What is a key advantage of Aztreonam over other beta-lactams?', key: 'B',
+    options: ['Oral administration', 'Resistance to beta-lactamase', 'Effective against anaerobes', 'Safe in meningitis'],
+    claim: 'Aztreonam resists beta-lactamase enzymes, a distinct advantage from its already-established lack of beta-lactam cross-allergy.',
+    support: 'The official slide states of Aztreonam: "Resist B-lactamase enzyme," alongside its parenteral-only route and low cross-allergy with penicillin.',
+    objective: 'Identify beta-lactamase resistance as a governed Aztreonam advantage over other beta-lactams.',
+    pitfalls: 'The governed slide does not offer Aztreonam orally, does not extend its coverage to anaerobes, and does not state meningitis safety for it.',
+    rejected: [],
+  },
+  {
+    q: 21, conceptId: 'CON-INF-FE05885A26F910', canonicalKey: 'pharmacology.monobactams.aztreonam-parenteral-route',
+    label: 'Aztreonam is given only parenterally (IV/IM)', aliases: ['Aztreonam route of administration', 'Monobactam parenteral-only dosing'], conceptType: 'pharmacokinetics',
+    article: 'otherBetaLactams', microtopic: 'Aztreonam route', assessmentPage: 39, teachingPage: 2,
+    stem: "Aztreonam's route of administration is:", key: 'B',
+    options: ['Oral', 'Parenteral (IV/IM)', 'Topical', 'Inhalational'],
+    claim: 'Aztreonam is a synthetic monobactam given only parenterally, by IV or IM.',
+    support: 'The official slide states of Aztreonam: "Synthetic Parenteral only ----(IV—IM)."',
+    objective: 'Identify parenteral (IV/IM) administration as the governed Aztreonam route.',
+    pitfalls: 'The governed slide does not offer an oral, topical or inhalational route for Aztreonam.',
+    rejected: [],
+  },
+  {
+    q: 6, conceptId: 'CON-INF-32F7EB3D362DE1', canonicalKey: 'pharmacology.carbapenems.meropenem-no-cilastatin-safe-meningitis',
+    label: 'Meropenem resists renal dehydropeptidase, needs no cilastatin, and is safe in meningitis', aliases: ['Meropenem safety profile', 'Meropenem versus imipenem'], conceptType: 'drug profile',
+    article: 'otherBetaLactams', microtopic: 'Meropenem versus imipenem', assessmentPage: 37, teachingPage: 5,
+    stem: 'Which carbapenem is safe for use in meningitis?', key: 'B',
+    options: ['Imipenem', 'Meropenem', 'Aztreonam', 'Vancomycin'],
+    claim: 'Meropenem is stable in the renal tubule, unaffected by dehydropeptidase enzyme, and is safe for use in meningitis, unlike imipenem.',
+    support: 'The official slide states of Meropenem: "Stable in renal tubule (not affected by dehydropeptidase enzyme) - Not need cilastatin - Safe in meningitis (no seizures)," contrasted with Imipenem\'s CNS toxicity/seizure risk on the preceding slide.',
+    objective: 'Identify Meropenem as the carbapenem that is safe for use in meningitis.',
+    pitfalls: 'Imipenem is explicitly excluded from meningitis use on the governed slide due to seizure risk; Aztreonam and Vancomycin are not carbapenems.',
+    rejected: [],
+  },
+  {
+    q: 24, conceptId: 'CON-INF-32F7EB3D362DE1', canonicalKey: 'pharmacology.carbapenems.meropenem-no-cilastatin-safe-meningitis',
+    label: 'Meropenem resists renal dehydropeptidase, needs no cilastatin, and is safe in meningitis', aliases: ['Meropenem safety profile', 'Meropenem versus imipenem'], conceptType: 'drug profile',
+    article: 'otherBetaLactams', microtopic: 'Meropenem versus imipenem', assessmentPage: 40, teachingPage: 5,
+    stem: 'Meropenem does NOT require cilastatin because it is:', key: 'A',
+    options: ['Resistant to renal dehydropeptidase', 'Narrow-spectrum', 'Administered topically', 'Effective against MRSA'],
+    claim: 'Meropenem is stable in the renal tubule and not affected by dehydropeptidase enzyme, so it does not need cilastatin to protect it from renal degradation.',
+    support: 'The official slide states of Meropenem: "Stable in renal tubule (not affected by dehydropeptidase enzyme) - Not need cilastatin."',
+    objective: "Identify Meropenem's resistance to renal dehydropeptidase as the reason it needs no cilastatin.",
+    pitfalls: 'The governed slide does not state that Meropenem is narrow-spectrum, topical, or specifically effective against MRSA as the reason for skipping cilastatin.',
+    rejected: [],
+  },
+  {
+    q: 22, conceptId: 'CON-INF-A82CF3CED7C73C', canonicalKey: 'pharmacology.carbapenems.staph-beta-lactamase-exception',
+    label: 'Carbapenems do not act on beta-lactamase-producing Staphylococcus', aliases: ['Carbapenem spectrum exception', 'Carbapenem staph exception'], conceptType: 'drug profile',
+    article: 'otherBetaLactams', microtopic: 'Carbapenem spectrum exceptions', assessmentPage: 40, teachingPage: 3,
+    stem: 'Which organism is NOT targeted by carbapenems?', key: 'C',
+    options: ['Gram-positive bacteria', 'Anaerobes', 'Beta-lactamase-producing Staphylococcus', 'Pseudomonas'],
+    claim: 'Carbapenems are the broadest-spectrum beta-lactams, covering Gram-positive, Gram-negative and anaerobic organisms including Pseudomonas, but do not act on beta-lactamase-producing Staphylococcus.',
+    support: 'The official slide states of Imipenem-Cilastatin (Tienam), the carbapenem exemplar: "(broadest spectrum B-lactam antibiotic) (not act on staph (B-lactamase producing bacteria))."',
+    objective: 'Identify beta-lactamase-producing Staphylococcus as the stated carbapenem spectrum exception.',
+    pitfalls: 'The governed slide otherwise assigns carbapenems the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms, including Pseudomonas, so only the beta-lactamase-producing-Staphylococcus exception is excluded.',
+    rejected: [],
+  },
+  {
+    q: 23, conceptId: 'CON-INF-2B440070C76505', canonicalKey: 'pharmacology.carbapenems.imipenem-seizure-meningitis',
+    label: 'Imipenem carries CNS toxicity (seizure risk), so it is avoided in meningitis', aliases: ['Imipenem seizure risk', 'Imipenem meningitis avoidance'], conceptType: 'adverse effect',
+    article: 'otherBetaLactams', microtopic: 'Imipenem CNS toxicity', assessmentPage: 40, teachingPage: 3,
+    stem: 'Imipenem is avoided in meningitis due to risk of:', key: 'B',
+    options: ['Nephrotoxicity', 'Seizures', 'Red man syndrome', 'Hepatotoxicity'],
+    claim: 'Imipenem has CNS toxicity manifesting as seizure risk, which is why it is not used in meningitis.',
+    support: 'The official slide states of Imipenem-Cilastatin: "It has CNS toxicity –seizure (not used in meningitis)."',
+    objective: 'Identify seizure risk (CNS toxicity) as the governed reason Imipenem is avoided in meningitis.',
+    pitfalls: 'Red man syndrome is a vancomycin infusion reaction, not an imipenem effect; the governed slide names CNS toxicity/seizure, not nephrotoxicity or hepatotoxicity, as the meningitis-avoidance reason.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'ANTIBACT2', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Antibacterial (2) MCQ', answerPage: 44, teachingResourceId: generalAntibacterialTwoResourceId,
+  teachingTitle: 'general antibacterial 2', topic: 'Pharmacology', subtopic: 'Antimicrobials',
+  primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+microItems.push(...mucizeAntibacterialTwoOtherBetaLactamsItems)
+
+const mucizeAntibacterialTwoVancomycinItems = [
+  {
+    q: 10, conceptId: 'CON-INF-7EA191A357B3AF', canonicalKey: 'pharmacology.vancomycin.adverse-effect-list',
+    label: "Vancomycin's governed adverse effects are thrombophlebitis, red man syndrome, neurotoxicity and nephrotoxicity", aliases: ['Vancomycin adverse-effect list', 'Vancomycin toxicity profile'], conceptType: 'adverse effect',
+    article: 'vancomycinClinical', microtopic: 'Vancomycin adverse-effect list', assessmentPage: 38, teachingPage: 9,
+    stem: 'Which adverse effect is NOT linked to vancomycin?', key: 'D',
+    options: ['Nephrotoxicity', 'Thrombophlebitis', 'Seizures', 'Blue man syndrome'],
+    claim: "Vancomycin's governed adverse-effect list is thrombophlebitis (with fever and chills), red man syndrome, neurotoxicity and nephrotoxicity; blue man syndrome is not among them.",
+    support: 'The official slide lists Vancomycin adverse effects as: "1-Thrombophlebitis with fever and chills 2-Red man syndrome ... 3-Neurotoxic 4-Nephrotoxic," with no mention of blue man syndrome anywhere in the deck.',
+    objective: 'Identify blue man syndrome as the option NOT on the governed vancomycin adverse-effect list.',
+    pitfalls: 'Nephrotoxicity and thrombophlebitis are both explicitly named on the governed list; option C (Seizures) is read as consistent with the list\'s general "Neurotoxic" entry. Only blue man syndrome is absent from the deck entirely.',
+    rejected: [],
+  },
+  {
+    q: 26, conceptId: 'CON-INF-67094DE2D87CAF', canonicalKey: 'pharmacology.vancomycin.oral-not-absorbed',
+    label: 'Oral vancomycin is not absorbed, so it cannot treat systemic infection', aliases: ['Vancomycin oral non-absorption', 'Vancomycin oral versus IV use'], conceptType: 'pharmacokinetics',
+    article: 'vancomycinClinical', microtopic: 'Vancomycin absorption', assessmentPage: 40, teachingPage: 6,
+    stem: 'Oral vancomycin is ineffective for systemic infections because it is:', key: 'B',
+    options: ['Rapidly metabolized', 'Not absorbed', 'Destroyed by gastric acid', 'Highly protein-bound'],
+    claim: 'Vancomycin is not absorbed orally, so oral dosing stays in the gut and cannot reach the systemic circulation to treat systemic infection.',
+    support: 'The official slide states of Vancomycin: "Not absorbed orally," directly under its cell-wall mechanism statement.',
+    objective: 'Identify lack of oral absorption as the governed reason oral vancomycin cannot treat systemic infection.',
+    pitfalls: 'The governed slide does not attribute oral vancomycin\'s systemic ineffectiveness to rapid metabolism, gastric-acid destruction or high protein binding.',
+    rejected: [],
+  },
+  {
+    q: 50, conceptId: 'CON-INF-0DE0B68A1908ED', canonicalKey: 'pharmacology.vancomycin.anaerobic-infection-use',
+    label: 'Vancomycin is used for anaerobic infection', aliases: ['Vancomycin anaerobic use', 'Vancomycin Clostridium difficile coverage'], conceptType: 'clinical use',
+    article: 'vancomycinClinical', microtopic: 'Vancomycin anaerobic-infection use', assessmentPage: 43, teachingPage: 8,
+    stem: 'Which drug is used for anaerobic infections?', key: 'B',
+    options: ['Aztreonam', 'Vancomycin', 'Paracetamol', 'Bacitracin'],
+    claim: 'Vancomycin is listed among the governed uses for anaerobic infection, alongside MRSA infection and pseudomembranous colitis.',
+    support: 'The official slide lists Vancomycin uses as: "1-Methicillin resistant staph aurus (MRSA) infection ... 2-Pseudomembranous colitis (oral) (act on clostridium difficle) 3-Anaerobic infection," corroborated by a second source (Pharma 102 (FHB) (Vancomycin) + (BACITRACIN).pdf, use #5, "Anaerobic infection").',
+    objective: 'Identify vancomycin as the offered drug used for anaerobic infection.',
+    pitfalls: 'Aztreonam is stated elsewhere in this deck to act only on Gram-negative organisms with no effect on anaerobes; Bacitracin is a topical-only agent; Paracetamol is not an antimicrobial.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'ANTIBACT2', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Antibacterial (2) MCQ', answerPage: 44, teachingResourceId: generalAntibacterialTwoResourceId,
+  teachingTitle: 'general antibacterial 2', topic: 'Pharmacology', subtopic: 'Antimicrobials',
+  primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+microItems.push(...mucizeAntibacterialTwoVancomycinItems)
+
+const mucizeAntibacterialTwoCellWallItems = [
+  {
+    q: 11, conceptId: 'CON-INF-C823BEE4EA2E9B', canonicalKey: 'pharmacology.bacitracin.topical-staph-nephrotoxicity',
+    label: 'Bacitracin is limited to topical use against beta-lactamase-producing Staphylococcus because systemic use is nephrotoxic', aliases: ['Bacitracin topical restriction', 'Bacitracin nephrotoxicity'], conceptType: 'adverse effect',
+    article: 'cellWallAntibiotics', microtopic: 'Bacitracin use and safety', assessmentPage: 38, teachingPage: 10,
+    stem: 'Bacitracin is limited to topical use due to its:', key: 'B',
+    options: ['Poor oral absorption', 'Nephrotoxicity when systemic', 'Beta-lactamase production', 'Narrow spectrum'],
+    claim: 'Bacitracin is used topically only, for skin Staphylococcus aureus (beta-lactamase producing) infections, because it is not used systemically owing to nephrotoxicity.',
+    support: 'The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections. Not used systemically because it is nephrotoxic."',
+    objective: 'Identify systemic nephrotoxicity as the governed reason Bacitracin is limited to topical use.',
+    pitfalls: 'The governed slide does not attribute the topical-only restriction to poor oral absorption, beta-lactamase production, or a narrow spectrum.',
+    rejected: [],
+  },
+  {
+    q: 27, conceptId: 'CON-INF-C823BEE4EA2E9B', canonicalKey: 'pharmacology.bacitracin.topical-staph-nephrotoxicity',
+    label: 'Bacitracin is limited to topical use against beta-lactamase-producing Staphylococcus because systemic use is nephrotoxic', aliases: ['Bacitracin topical restriction', 'Bacitracin nephrotoxicity'], conceptType: 'drug profile',
+    article: 'cellWallAntibiotics', microtopic: 'Bacitracin use and safety', assessmentPage: 40, teachingPage: 10,
+    stem: 'Bacitracin is primarily effective against:', key: 'B',
+    options: ['Gram-negative rods', 'Beta-lactamase-producing Staphylococcus', 'Anaerobes', 'Pseudomonas'],
+    claim: 'Bacitracin is used topically for skin infections caused by beta-lactamase-producing Staphylococcus aureus.',
+    support: 'The official slide states of Bacitracin: "indication: Used topically only in treatment of skin Staph. aureus (β-lactamase producing). Infections."',
+    objective: 'Identify beta-lactamase-producing Staphylococcus as the governed Bacitracin target.',
+    pitfalls: 'The governed slide does not assign Bacitracin activity against Gram-negative rods, anaerobes or Pseudomonas.',
+    rejected: [],
+  },
+  {
+    q: 15, conceptId: 'CON-INF-6C3E76AC2AC9D4', canonicalKey: 'pharmacology.polymyxin.membrane-permeability-mechanism',
+    label: 'Polymyxin increases bacterial cell membrane permeability', aliases: ['Polymyxin mechanism', 'Cell membrane permeability agents'], conceptType: 'mechanism',
+    article: 'cellWallAntibiotics', microtopic: 'Polymyxin mechanism', assessmentPage: 39, teachingPage: 11,
+    stem: 'Which antimicrobial increases cell membrane permeability?', key: 'A',
+    options: ['Polymyxin', 'Vancomycin', 'Ceftriaxone', 'Azithromycin'],
+    claim: 'Polymyxin increases the permeability of the bacterial cell membrane.',
+    support: 'The official slide states: "Antimicrobials that Increase permeability of cell membrane are polymyxin and nystatin."',
+    objective: 'Identify Polymyxin as the antimicrobial that increases cell membrane permeability.',
+    pitfalls: 'Vancomycin and Ceftriaxone act on the cell wall rather than membrane permeability, and Azithromycin is a protein-synthesis inhibitor, not a membrane-permeability agent, in the governed deck.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'ANTIBACT2', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Antibacterial (2) MCQ', answerPage: 44, teachingResourceId: generalAntibacterialTwoResourceId,
+  teachingTitle: 'general antibacterial 2', topic: 'Pharmacology', subtopic: 'Antimicrobials',
+  primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+// STAGED-COMMIT-MARKER-B: microItems.push(...mucizeAntibacterialTwoCellWallItems)
+
+const mucizeAntibacterialTwoClinicalUseItems = [
+  {
+    q: 14, conceptId: 'CON-INF-ED3FAB429E5084', canonicalKey: 'pharmacology.chemoprophylaxis.dental-endocarditis-ampicillin-strep-viridans',
+    label: 'Dental-procedure endocarditis chemoprophylaxis uses ampicillin or amoxicillin against Streptococcus viridans', aliases: ['Dental endocarditis prophylaxis', 'Chemoprophylaxis before dental manipulation'], conceptType: 'clinical use',
+    article: 'antimicrobialClinicalUse', microtopic: 'Infective endocarditis chemoprophylaxis', assessmentPage: 38, teachingPage: 11,
+    stem: 'Before dental procedures, endocarditis prophylaxis involves:', key: 'B',
+    options: ['Aztreonam', 'Ampicillin', 'Meropenem', 'Bacitracin'],
+    claim: 'Chemoprophylaxis of infective endocarditis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans.',
+    support: 'The official slide states: "Chemoprophylaxis of infective endocarditis: -Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."',
+    objective: 'Identify ampicillin as the governed drug for dental-procedure endocarditis chemoprophylaxis.',
+    pitfalls: 'The governed slide does not assign this prophylaxis role to Aztreonam, Meropenem or Bacitracin.',
+    rejected: [],
+  },
+  {
+    q: 28, conceptId: 'CON-INF-ED3FAB429E5084', canonicalKey: 'pharmacology.chemoprophylaxis.dental-endocarditis-ampicillin-strep-viridans',
+    label: 'Dental-procedure endocarditis chemoprophylaxis uses ampicillin or amoxicillin against Streptococcus viridans', aliases: ['Dental endocarditis prophylaxis', 'Chemoprophylaxis before dental manipulation'], conceptType: 'clinical use',
+    article: 'antimicrobialClinicalUse', microtopic: 'Infective endocarditis chemoprophylaxis', assessmentPage: 40, teachingPage: 11,
+    stem: 'Chemoprophylaxis for endocarditis targets:', key: 'B',
+    options: ['Streptococcus pyogenes', 'Streptococcus viridans', 'Clostridium difficile', 'MRSA'],
+    claim: 'Chemoprophylaxis of infective endocarditis before dental manipulation is aimed at killing Streptococcus viridans.',
+    support: 'The official slide states: "Before dental manipulation ----ampicillin or amoxicillin 3 gm 2 hours before manipulation and 1.5 gm 6 hours after (kill strept.viridans)."',
+    objective: 'Identify Streptococcus viridans as the governed target organism of dental-endocarditis chemoprophylaxis.',
+    pitfalls: 'Streptococcus pyogenes is the target organism of the separate rheumatic-fever chemoprophylaxis regimen on the same slide, not the endocarditis regimen; the deck does not target Clostridium difficile or MRSA with this prophylaxis.',
+    rejected: [],
+  },
+  {
+    q: 39, conceptId: 'CON-INF-E2874B3C53FC5E', canonicalKey: 'pharmacology.chemoprophylaxis.rheumatic-fever-organism-strep-pyogenes',
+    label: 'Rheumatic-fever chemoprophylaxis prevents infection by Streptococcus pyogenes (Group A beta-hemolytic Streptococcus)', aliases: ['Rheumatic fever prophylaxis organism', 'Group A Streptococcus prophylaxis target'], conceptType: 'clinical use',
+    article: 'antimicrobialClinicalUse', microtopic: 'Rheumatic-fever chemoprophylaxis', assessmentPage: 42, teachingPage: 11,
+    stem: 'Chemoprophylaxis for rheumatic fever prevents infections by:', key: 'B',
+    options: ['Streptococcus pneumoniae', 'Streptococcus pyogenes', 'Staphylococcus aureus', 'Pseudomonas'],
+    claim: 'Chemoprophylaxis against rheumatic-fever recurrence targets Streptococcus pyogenes, the Group A beta-hemolytic Streptococcus, using benzathine penicillin.',
+    support: 'The official slide states: "Prophylaxis against rheumatic fever (strept.pyogenous- Group A beta hemolytic Strept) (by benzathine penicillin)."',
+    objective: 'Identify Streptococcus pyogenes as the governed target organism of rheumatic-fever chemoprophylaxis.',
+    pitfalls: 'The governed slide does not target rheumatic-fever chemoprophylaxis at Streptococcus pneumoniae, Staphylococcus aureus or Pseudomonas; Streptococcus viridans is instead the target of the separate endocarditis regimen on the same slide.',
+    rejected: [],
+  },
+  {
+    q: 16, conceptId: 'CON-INF-9AD357B7C8EAC5', canonicalKey: 'pharmacology.biliary-tract-infection.drug-list',
+    label: 'Biliary tract infection is treated with ceftriaxone, cefoperazone, rifampicin, doxycycline and ampicillin', aliases: ['Biliary tract infection drug list', 'Antimicrobials for biliary tract infection'], conceptType: 'clinical use',
+    article: 'antimicrobialClinicalUse', microtopic: 'Biliary tract infection treatment', assessmentPage: 39, teachingPage: 12,
+    stem: 'Which antibiotic is used in biliary tract infections?', key: 'A',
+    options: ['Ceftriaxone', 'Vancomycin', 'Bacitracin', 'Linezolid'],
+    claim: 'Ceftriaxone is on the governed closed list of antimicrobials used to treat biliary tract infection.',
+    support: 'The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin."',
+    objective: 'Identify ceftriaxone as a governed biliary-tract-infection treatment drug.',
+    pitfalls: 'Vancomycin, Bacitracin and Linezolid are not on the governed five-drug biliary-tract-infection list.',
+    rejected: [],
+  },
+  {
+    q: 31, conceptId: 'CON-INF-9AD357B7C8EAC5', canonicalKey: 'pharmacology.biliary-tract-infection.drug-list',
+    label: 'Biliary tract infection is treated with ceftriaxone, cefoperazone, rifampicin, doxycycline and ampicillin', aliases: ['Biliary tract infection drug list', 'Antimicrobials for biliary tract infection'], conceptType: 'clinical use',
+    article: 'antimicrobialClinicalUse', microtopic: 'Biliary tract infection treatment', assessmentPage: 41, teachingPage: 12,
+    stem: 'Which is NOT listed for biliary tract infections?', key: 'D',
+    options: ['Ceftriaxone', 'Rifampicin', 'Doxycycline', 'Linezolid'],
+    claim: 'Linezolid is absent from the governed closed list of antimicrobials used to treat biliary tract infection, unlike ceftriaxone, rifampicin and doxycycline, which are all listed.',
+    support: 'The official slide lists: "Antimicrobials used in treatment of biliary tract infection: 1-Ceftriaxone 2-Cefoperazone 3-Rifampicin 4-Doxycycline 5-Ampicillin," with no Linezolid entry.',
+    objective: 'Identify Linezolid as the drug absent from the governed biliary-tract-infection list.',
+    pitfalls: 'Ceftriaxone, Rifampicin and Doxycycline are each explicitly on the governed five-drug list; only Linezolid is absent.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'ANTIBACT2', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Antibacterial (2) MCQ', answerPage: 44, teachingResourceId: generalAntibacterialTwoResourceId,
+  teachingTitle: 'general antibacterial 2', topic: 'Pharmacology', subtopic: 'Antimicrobials',
+  primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+// STAGED-COMMIT-MARKER-B: microItems.push(...mucizeAntibacterialTwoClinicalUseItems)
+
+const mucizeAntibacterialTwoPharmacodynamicsItems = [
+  {
+    q: 17, conceptId: 'CON-INF-713CC7D134054A', canonicalKey: 'pharmacology.pkpd.concentration-vs-time-dependent-definition',
+    label: 'Concentration-dependent killing needs high concentrations above MIC; time-dependent killing needs duration above MIC', aliases: ['Concentration-dependent definition', 'Time-dependent definition'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Concentration-dependent definition', assessmentPage: 39, teachingPage: 13,
+    stem: 'Concentration-dependent antibiotics require:', key: 'B',
+    options: ['Prolonged infusion time', 'High concentrations above MIC', 'Minimal PAE', 'Time above MIC'],
+    claim: 'Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect.',
+    support: 'The official slide states: "Concentration-dependent antibiotics 1- High Concentrations (more than MIC) are needed for optimal bactericidal effect. 2- Have high postantibiotic effect (PAE)."',
+    objective: 'Identify high concentrations above MIC as the governed concentration-dependent-antibiotic requirement.',
+    pitfalls: 'The governed slide assigns high PAE (not minimal PAE) and does not define concentration-dependent killing by prolonged infusion time or time above MIC; those describe the contrasting time-dependent category.',
+    rejected: [],
+  },
+  {
+    q: 32, conceptId: 'CON-INF-713CC7D134054A', canonicalKey: 'pharmacology.pkpd.concentration-vs-time-dependent-definition',
+    label: 'Concentration-dependent killing needs high concentrations above MIC; time-dependent killing needs duration above MIC', aliases: ['Concentration-dependent definition', 'Time-dependent definition'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Time-dependent definition', assessmentPage: 41, teachingPage: 14,
+    stem: 'Time-dependent antibiotics prioritize:', key: 'B',
+    options: ['Peak concentration', 'Duration above MIC', 'Post-antibiotic effect', 'Single daily dosing'],
+    claim: 'Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration; higher concentrations do not produce greater killing.',
+    support: 'The official slide states: "The time-dependent antibiotics 1-Time of drug administration is very important for optimum effect 2- Higher concentrations (more than MIC) do not result in greater killing of organisms. 3-They tend to have minimal (PAE)."',
+    objective: 'Identify duration above MIC as the governed time-dependent-antibiotic priority.',
+    pitfalls: 'The governed slide states time-dependent killers have minimal PAE (not a prioritised post-antibiotic effect) and do not benefit from higher peak concentrations, distinguishing them from concentration-dependent agents.',
+    rejected: [],
+  },
+  {
+    q: 18, conceptId: 'CON-INF-D061C3B8911EF4', canonicalKey: 'pharmacology.pkpd.aminoglycosides-concentration-dependent-high-pae',
+    label: 'Aminoglycosides are concentration-dependent with high post-antibiotic effect', aliases: ['Aminoglycoside PK/PD classification', 'Aminoglycoside high PAE'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Aminoglycoside PK/PD classification', assessmentPage: 39, teachingPage: 15,
+    stem: 'Aminoglycosides are classified as:', key: 'B',
+    options: ['Time-dependent antibiotics', 'Concentration-dependent antibiotics', 'Both time and concentration-dependent', 'None of the above'],
+    claim: 'Aminoglycosides are concentration-dependent antibiotics with a high post-antibiotic effect.',
+    support: 'The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," alongside Fluoroquinolones and Metronidazole.',
+    objective: 'Classify Aminoglycosides as concentration-dependent.',
+    pitfalls: 'The governed table places Aminoglycosides in the concentration-dependent column only, not the time-dependent or "both" columns.',
+    rejected: [],
+  },
+  {
+    q: 47, conceptId: 'CON-INF-D061C3B8911EF4', canonicalKey: 'pharmacology.pkpd.aminoglycosides-concentration-dependent-high-pae',
+    label: 'Aminoglycosides are concentration-dependent with high post-antibiotic effect', aliases: ['Aminoglycoside PK/PD classification', 'Aminoglycoside high PAE'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Aminoglycoside PK/PD classification', assessmentPage: 43, teachingPage: 15,
+    stem: 'High PAE is characteristic of:', key: 'B',
+    options: ['Beta-lactams', 'Aminoglycosides', 'Vancomycin', 'Penicillin'],
+    claim: 'Aminoglycosides show a high post-antibiotic effect (PAE), consistent with their concentration-dependent classification.',
+    support: 'The official governed three-column table lists Aminoglycosides under "Concentration-Dependent (with high PAE)," while Beta-lactams, Vancomycin and Penicillin are all listed under "Time-Dependent (with minimal PAE)."',
+    objective: 'Identify Aminoglycosides as the governed high-PAE drug class among the options.',
+    pitfalls: 'Beta-lactams, Vancomycin and Penicillin are each listed under the minimal-PAE, time-dependent column in the governed table, not the high-PAE column.',
+    rejected: [],
+  },
+  {
+    q: 19, conceptId: 'CON-INF-FD6B64970205C9', canonicalKey: 'pharmacology.pkpd.vancomycin-time-dependent-minimal-pae',
+    label: 'Vancomycin is time-dependent with minimal post-antibiotic effect', aliases: ['Vancomycin PK/PD classification', 'Vancomycin minimal PAE'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Vancomycin PK/PD classification', assessmentPage: 39, teachingPage: 15,
+    stem: 'Which antibiotic is time-dependent with minimal PAE?', key: 'C',
+    options: ['Ciprofloxacin', 'Gentamicin', 'Vancomycin', 'Metronidazole'],
+    claim: 'Vancomycin is classified as time-dependent with minimal post-antibiotic effect, alongside the beta-lactams.',
+    support: 'The official governed three-column table lists "1-Beta-lactams 2-Vancomycin" under "Time-Dependent (with minimal PAE)."',
+    objective: 'Identify Vancomycin as time-dependent with minimal PAE.',
+    pitfalls: 'Ciprofloxacin and Gentamicin are not listed in this table\'s time-dependent-minimal-PAE column (Gentamicin is an aminoglycoside, concentration-dependent), and Metronidazole is listed under concentration-dependent, high PAE.',
+    rejected: [],
+  },
+  {
+    q: 20, conceptId: 'CON-INF-1DCDE57508ED81', canonicalKey: 'pharmacology.pkpd.clindamycin-both-dependent',
+    label: 'Clindamycin is both time- and concentration-dependent', aliases: ['Clindamycin PK/PD classification'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Clindamycin PK/PD classification', assessmentPage: 39, teachingPage: 15,
+    stem: 'Clindamycin is categorized as:', key: 'C',
+    options: ['Time-dependent', 'Concentration-dependent', 'Both time and concentration-dependent', 'None'],
+    claim: 'Clindamycin is classified as both time- and concentration-dependent.',
+    support: 'The official governed three-column table lists Clindamycin under "Time-Dependent, Concentration-Dependent," alongside Clarithromycin-Azithromycin, Erythromycin, Linezolid and Tetracyclines.',
+    objective: 'Classify Clindamycin as both time- and concentration-dependent.',
+    pitfalls: 'The governed table does not place Clindamycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column.',
+    rejected: [],
+  },
+  {
+    q: 34, conceptId: 'CON-INF-DA565D20A41E12', canonicalKey: 'pharmacology.pkpd.macrolide-both-dependent',
+    label: 'Clarithromycin and Azithromycin are both time- and concentration-dependent', aliases: ['Macrolide PK/PD classification', 'Azithromycin-clarithromycin both-dependent'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Macrolide PK/PD classification', assessmentPage: 41, teachingPage: 15,
+    stem: 'Which antibiotic is both time and concentration-dependent?', key: 'A',
+    options: ['Azithromycin', 'Penicillin', 'Vancomycin', 'Ampicillin'],
+    claim: 'Azithromycin, grouped with Clarithromycin on the governed table, is classified as both time- and concentration-dependent.',
+    support: 'The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent."',
+    objective: 'Identify Azithromycin as both time- and concentration-dependent.',
+    pitfalls: 'Penicillin, Vancomycin and Ampicillin are beta-lactam-class or glycopeptide agents listed under the time-dependent, minimal-PAE column, not the combined "both" column.',
+    rejected: [],
+  },
+  {
+    q: 49, conceptId: 'CON-INF-DA565D20A41E12', canonicalKey: 'pharmacology.pkpd.macrolide-both-dependent',
+    label: 'Clarithromycin and Azithromycin are both time- and concentration-dependent', aliases: ['Macrolide PK/PD classification', 'Azithromycin-clarithromycin both-dependent'], conceptType: 'classification',
+    article: 'antimicrobialPharmacodynamics', microtopic: 'Macrolide PK/PD classification', assessmentPage: 43, teachingPage: 15,
+    stem: 'Clarithromycin is classified as:', key: 'C',
+    options: ['Time-dependent', 'Concentration-dependent', 'Both', 'Neither'],
+    claim: 'Clarithromycin, grouped with Azithromycin on the governed table, is classified as both time- and concentration-dependent.',
+    support: 'The official governed three-column table lists "1-Clarithromycin-Azithromycin" under "Time-Dependent, Concentration-Dependent." This directly contradicts Q38 of the same printed bank, which keys Clarithromycin as concentration-dependent alone; the governed table sides with this item, not Q38, so Q38 is held on the contradiction rather than silently corrected.',
+    objective: 'Classify Clarithromycin as both time- and concentration-dependent, per the governed table.',
+    pitfalls: 'The governed table does not place Clarithromycin in the time-dependent-only or concentration-dependent-only columns; it is in the combined "both" column, unlike the printed key of this bank\'s own Q38.',
+    rejected: [],
+  },
+].map((item) => ({
+  idPrefix: 'ANTIBACT2', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
+  bankLabel: 'Mucize Antibacterial (2) MCQ', answerPage: 44, teachingResourceId: generalAntibacterialTwoResourceId,
+  teachingTitle: 'general antibacterial 2', topic: 'Pharmacology', subtopic: 'Antimicrobials',
+  primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'], ...item,
+}))
+
+// STAGED-COMMIT-MARKER-C: microItems.push(...mucizeAntibacterialTwoPharmacodynamicsItems)
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -3604,7 +3959,7 @@ function corpusSourceIndex() {
     note: 'Minimal FHB-102-2 corpus source index for this bounded authoring slice; values are copied from governed local-source evidence and direct visual reads.',
     generatedFrom: ['docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json'],
     manifestGeneratedOn: '2026-08-31',
-    count: 29,
+    count: 30,
     sources: {
       [assessmentResourceId]: {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf',
@@ -4011,6 +4366,19 @@ function corpusSourceIndex() {
         sha256: 'f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149',
         processingStatus: 'fully_governed',
         pageCount: 48,
+        languages: ['en'],
+        exclusionReason: null,
+        universityId: 'must',
+        yearIds: ['MUST_Y1'],
+        moduleIds: [moduleId],
+        categories: ['University Material', 'Teaching'],
+      },
+      [generalAntibacterialTwoResourceId]: {
+        sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf',
+        sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf'],
+        sha256: '9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a',
+        processingStatus: 'fully_governed',
+        pageCount: 15,
         languages: ['en'],
         exclusionReason: null,
         universityId: 'must',
@@ -10147,6 +10515,61 @@ All 47 pages were already visually governed in source triage. Physical pages 6�
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+${generalAntibacterialTwoResourceId}
+
+## title
+General Antibacterial (2) — Aztreonam, carbapenems, vancomycin, bacitracin, chemoprophylaxis and PK/PD classification
+
+## institution
+MUST University Faculty of Medicine, Pharmacology teaching material; Dr. Mohamed Abdel Aziz slide deck; no separate department, examiner or authenticated faculty-key declaration beyond the lecturer credit on the title slide
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+${moduleId}
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025
+
+## accessed_at
+2026-09-02
+
+## page_count
+15
+
+## sha256
+9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 15 pages carry native text and were cache-searched (pagetext.mjs grep) for the Mucize Antibacterial (2) authoring pass, then the hit pages were directly read: p2 (Aztreonam/monobactams route, spectrum, beta-lactamase resistance, cross-allergy), p3 and p5 (carbapenems: imipenem/meropenem cilastatin, seizure/meningitis, staph exception), p6/p8/p9 (Vancomycin mechanism, uses including anaerobic infection, oral absorption, adverse-effect list), p10 (Bacitracin mechanism, topical-only use, nephrotoxicity), p11 (Chemoprophylaxis: rheumatic fever and dental endocarditis regimens), p12 (biliary-tract-infection drug list), p13–p15 (concentration- versus time-dependent PK/PD definitions and the governed three-column classification table). The deck is teaching evidence only and does not authenticate the student-printed Mucize answer table.
+
+## confidence
+0.9
+
+## is_assessment
+no
 `
 }
 
@@ -11627,21 +12050,24 @@ Do not substitute antibiotic resistance, spore formation or tissue-degrading enz
   cellWallAntibiotics: {
     title: 'Cell-wall antibiotics: beta-lactams, vancomycin and bacitracin', microtopic: 'Cell-wall antibiotic mechanisms',
     topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
-    summary: 'Beta-lactams are time-dependent bactericidal cell-wall inhibitors. PBPs catalyze peptidoglycan transpeptidation, vancomycin binds D-Ala-D-Ala precursors, bacitracin blocks precursor transport, and beta-lactamase inhibitors protect susceptible partner penicillins.',
+    summary: 'Beta-lactams are time-dependent bactericidal cell-wall inhibitors. PBPs catalyze peptidoglycan transpeptidation, vancomycin binds D-Ala-D-Ala precursors, bacitracin blocks precursor transport, and beta-lactamase inhibitors protect susceptible partner penicillins. Bacitracin is limited to topical use against beta-lactamase-producing Staphylococcus because systemic use is nephrotoxic, and polymyxin is a separate cell-membrane-active agent that increases membrane permeability.',
     sections: `### Definition
-Cell-wall-active antibiotics include beta-lactams and non-beta-lactam agents. Penicillins, cephalosporins and carbapenems are beta-lactams; vancomycin and bacitracin inhibit cell-wall formation by different non-beta-lactam mechanisms.
+Cell-wall-active antibiotics include beta-lactams and non-beta-lactam agents. Penicillins, cephalosporins and carbapenems are beta-lactams; vancomycin and bacitracin inhibit cell-wall formation by different non-beta-lactam mechanisms. Polymyxin is a separate, non-cell-wall agent that acts on the cell membrane.
 
 ### Mechanism
-Beta-lactams inhibit bacterial cell-wall synthesis through PBPs, which catalyze the transpeptidase reaction used to cross-link peptidoglycan. Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors. Bacitracin blocks transport of cell-wall precursors across the membrane. Beta-lactamase inhibitors protect susceptible partner penicillins from enzymatic degradation.
+Beta-lactams inhibit bacterial cell-wall synthesis through PBPs, which catalyze the transpeptidase reaction used to cross-link peptidoglycan. Vancomycin binds the D-alanyl-D-alanyl terminus of peptidoglycan precursors. Bacitracin blocks transport of cell-wall precursors across the membrane. Beta-lactamase inhibitors protect susceptible partner penicillins from enzymatic degradation. Polymyxin increases the permeability of the bacterial cell membrane.
+
+### Bacitracin use and safety
+Bacitracin is used topically only, for skin infections caused by beta-lactamase-producing Staphylococcus aureus. It is not used systemically because it is nephrotoxic.
 
 ### Key determinants
-Vancomycin is not a beta-lactam. PBPs are transpeptidase targets rather than ribosomal or DNA enzymes. Penicillins and cephalosporins share beta-lactam cell-wall inhibition. Beta-lactam killing is time dependent.
+Vancomycin is not a beta-lactam. PBPs are transpeptidase targets rather than ribosomal or DNA enzymes. Penicillins and cephalosporins share beta-lactam cell-wall inhibition. Beta-lactam killing is time dependent. Bacitracin's topical-only use and its beta-lactamase-producing-Staphylococcus target are governed together with its nephrotoxicity. Polymyxin's membrane-permeability mechanism is distinct from every cell-wall mechanism in this article.
 
 ### Clinical significance
-Keeping the mechanisms separate prevents classifying every cell-wall inhibitor as a beta-lactam and supports rational interpretation of protected penicillin combinations.
+Keeping the mechanisms separate prevents classifying every cell-wall inhibitor as a beta-lactam and supports rational interpretation of protected penicillin combinations. Recognising bacitracin's nephrotoxicity explains why it is restricted to topical use despite covering a clinically relevant Staphylococcus population.
 
 ### Common misconceptions
-Do not assign vancomycin to the beta-lactam class. Do not replace bacitracin's precursor-transport block with ribosomal or DNA-gyrase inhibition. Beta-lactamase inhibitors protect the partner antibiotic; they do not repair adverse effects or inhibit DNA replication.`,
+Do not assign vancomycin to the beta-lactam class. Do not replace bacitracin's precursor-transport block with ribosomal or DNA-gyrase inhibition. Beta-lactamase inhibitors protect the partner antibiotic; they do not repair adverse effects or inhibit DNA replication. Do not assign polymyxin's membrane-permeability mechanism to bacitracin, vancomycin or the beta-lactams.`,
   },
   penicillins: {
     title: 'Penicillin classes, combinations, uses and hypersensitivity', microtopic: 'Penicillin pharmacology',
@@ -11687,46 +12113,49 @@ Do not move cefazolin, cefaclor, cefepime or ceftaroline between generations. Th
   otherBetaLactams: {
     title: 'Carbapenems and monobactams', microtopic: 'Carbapenem and monobactam pharmacology',
     topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
-    summary: 'Carbapenems provide broad Gram-positive, Gram-negative and anaerobic coverage; imipenem is paired with cilastatin. Aztreonam is a monobactam directed at aerobic Gram-negative organisms without beta-lactam cross-allergy or aminoglycoside nephrotoxicity.',
+    summary: 'Carbapenems provide broad Gram-positive, Gram-negative and anaerobic coverage but do not cover beta-lactamase-producing Staphylococcus; imipenem is paired with cilastatin and carries a seizure risk that excludes it from meningitis use, while meropenem resists renal dehydropeptidase, needs no cilastatin and is safe in meningitis. Aztreonam is a monobactam given only parenterally, directed at aerobic Gram-negative organisms including Pseudomonas, resistant to beta-lactamase, and carrying no beta-lactam cross-allergy or aminoglycoside-type nephrotoxicity.',
     sections: `### Definition
-Carbapenems and monobactams are beta-lactam antibiotic groups. Imipenem, meropenem and ertapenem are carbapenems; aztreonam is the named monobactam.
+Carbapenems and monobactams are beta-lactam antibiotic groups. Imipenem, meropenem and ertapenem are carbapenems; aztreonam is the named monobactam, given only parenterally (IV/IM).
 
 ### Mechanism
-The governed deck describes carbapenems as the broadest-spectrum beta-lactams across Gram-positive, Gram-negative and anaerobic organisms. Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms.
+The governed deck describes carbapenems as the broadest-spectrum beta-lactams across Gram-positive, Gram-negative and anaerobic organisms, though they do not act on beta-lactamase-producing Staphylococcus. Aztreonam has a narrow spectrum directed at aerobic Gram-negative organisms, including Pseudomonas, and resists beta-lactamase enzymes.
+
+### Imipenem versus meropenem
+Imipenem is degraded by renal dipeptidase and therefore is combined with cilastatin; it also carries CNS toxicity (seizure risk), so it is avoided in meningitis. Meropenem is stable in the renal tubule, is not affected by dehydropeptidase, does not require cilastatin, and is safe for use in meningitis.
 
 ### Key determinants
-Imipenem is degraded by renal dipeptidase and therefore is combined with cilastatin. Aztreonam has no cross-allergy with other beta-lactams and is not nephrotoxic or ototoxic like aminoglycosides.
+Imipenem is degraded by renal dipeptidase and therefore is combined with cilastatin. Aztreonam has no cross-allergy with other beta-lactams and is not nephrotoxic or ototoxic like aminoglycosides. Meropenem's resistance to renal dehydropeptidase is the governed reason it needs no cilastatin and carries a lower seizure risk than imipenem.
 
 ### Clinical significance
-These properties distinguish the broad carbapenem group from the narrow, allergy-sparing monobactam profile.
+These properties distinguish the broad carbapenem group from the narrow, allergy-sparing monobactam profile, and distinguish imipenem's cilastatin/seizure-risk profile from meropenem's safer meningitis-compatible profile.
 
 ### Common misconceptions
-Do not assign cilastatin to meropenem. Do not expand aztreonam to Gram-positive, anaerobic or fungal activity. The held absolute beta-lactamase question is not taught here.`,
+Do not assign cilastatin to meropenem. Do not expand aztreonam to Gram-positive, anaerobic or fungal activity. Do not assume carbapenems cover every organism: beta-lactamase-producing Staphylococcus is a stated exception. The held absolute beta-lactamase question is not taught here.`,
   },
   vancomycinClinical: {
     title: 'Vancomycin clinical profile and pseudomembranous colitis', microtopic: 'Vancomycin use and safety',
     topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
-    summary: 'Vancomycin is a Gram-positive agent used for resistant staphylococcal infection including MRSA and orally for pseudomembranous colitis; rapid infusion produces histamine-mediated red man syndrome, prevented by slow infusion and antihistamine pretreatment.',
+    summary: 'Vancomycin is a Gram-positive agent used for resistant staphylococcal infection including MRSA, orally for pseudomembranous colitis, and for anaerobic infection; it is not absorbed orally, which is why oral dosing cannot treat systemic infection. Rapid infusion produces histamine-mediated red man syndrome, prevented by slow infusion and antihistamine pretreatment, and its governed adverse-effect list is thrombophlebitis, red man syndrome, neurotoxicity and nephrotoxicity — not "blue man syndrome."',
     sections: `### Definition
-Vancomycin is a non-beta-lactam cell-wall antibiotic directed primarily at Gram-positive organisms. The official deck lists resistant staphylococcal infection including MRSA among its uses.
+Vancomycin is a non-beta-lactam cell-wall antibiotic directed primarily at Gram-positive organisms. The official deck lists resistant staphylococcal infection including MRSA, and anaerobic infection, among its uses.
 
 ### Mechanism
 Oral vancomycin remains in the gut because it is unabsorbed, whereas rapid intravenous infusion can release histamine and produce red man syndrome.
 
 ### Administration and colitis
-Vancomycin is unabsorbed orally, so systemic treatment uses intravenous infusion. Oral vancomycin acts locally in pseudomembranous colitis. The same teaching lists metronidazole or vancomycin for drug-induced pseudomembranous colitis and identifies clindamycin as a prominent inciting antibiotic.
+Vancomycin is unabsorbed orally, so systemic treatment uses intravenous infusion; this same lack of oral absorption is why oral vancomycin cannot treat systemic infection. Oral vancomycin acts locally in pseudomembranous colitis. The same teaching lists metronidazole or vancomycin for drug-induced pseudomembranous colitis and identifies clindamycin as a prominent inciting antibiotic.
 
 ### Adverse effects
-Rapid infusion can trigger histamine-mediated red man syndrome. Slow infusion and antihistamine pretreatment are the governed prevention measures.
+The governed adverse-effect list is thrombophlebitis (with fever and chills), red man syndrome (histamine-mediated, on rapid IV injection), neurotoxicity and nephrotoxicity. "Blue man syndrome" is not a governed vancomycin adverse effect. Slow infusion and antihistamine pretreatment are the governed prevention measures for red man syndrome.
 
 ### Key determinants
-Gram-positive spectrum, resistant staphylococcal use, oral treatment of pseudomembranous colitis and infusion-rate-dependent red man syndrome are the source-governed differentiators.
+Gram-positive spectrum, resistant staphylococcal use, anaerobic-infection use, oral treatment of pseudomembranous colitis, oral non-absorption, and infusion-rate-dependent red man syndrome are the source-governed differentiators.
 
 ### Clinical significance
 Route, spectrum and infusion rate determine whether vancomycin is being used appropriately and safely in the bounded curriculum context.
 
 ### Common misconceptions
-Do not extend vancomycin to primary Gram-negative, fungal or viral activity. Hepatotoxicity and last-resort wording were not established by this deck, so those prompts remain held.`,
+Do not extend vancomycin to primary Gram-negative, fungal or viral activity. Do not assign "blue man syndrome" to vancomycin; it is not on the governed adverse-effect list. Hepatotoxicity and last-resort wording were not established by this deck, so those prompts remain held.`,
   },
   antimicrobialPrinciples: {
     title: 'Antimicrobial chemotherapy principles: spectrum, kill kinetics and general adverse effects', microtopic: 'Antimicrobial classification principles',
@@ -11749,6 +12178,47 @@ These principles frame every specific drug-class fact taught afterward: whether 
 
 ### Common misconceptions
 Do not treat "narrow spectrum" and "bactericidal" as synonyms: spectrum describes breadth of coverage, while cidal/static describes the kill mechanism. Do not assign vitamin absorption, enhanced immunity or improved vitamin synthesis to the governed five-target or general-adverse-effect lists; neither list includes them.`,
+  },
+  antimicrobialClinicalUse: {
+    title: 'Chemoprophylaxis regimens and the biliary-tract-infection drug list', microtopic: 'Antimicrobial chemoprophylaxis and indication lists',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'The governed Mucize Antibacterial (2) deck states two named chemoprophylaxis regimens (rheumatic-fever recurrence with benzathine penicillin against Group A beta-hemolytic Streptococcus pyogenes, and dental-procedure infective-endocarditis prophylaxis with ampicillin or amoxicillin against Streptococcus viridans) and a closed five-drug list for biliary tract infection treatment.',
+    sections: `### Definition
+Chemoprophylaxis is the use of antimicrobials to avoid infection, distinct from treatment of an existing infection. The governed deck names two chemoprophylaxis regimens: prevention of rheumatic-fever recurrence and prevention of infective endocarditis around dental manipulation.
+
+### Regimens
+Rheumatic-fever chemoprophylaxis targets Streptococcus pyogenes (Group A beta-hemolytic Streptococcus) and uses benzathine penicillin. Infective-endocarditis chemoprophylaxis before dental manipulation uses ampicillin or amoxicillin, dosed before and after the procedure, to kill Streptococcus viridans.
+
+### Biliary tract infection drug list
+The governed deck lists a closed set of antimicrobials used to treat biliary tract infection: ceftriaxone, cefoperazone, rifampicin, doxycycline and ampicillin. Linezolid is not among them.
+
+### Key determinants
+Each chemoprophylaxis regimen pairs one named drug with one named target organism; the biliary-tract list is a closed five-drug set distinct from any single drug's own pharmacokinetic excretion route.
+
+### Clinical significance
+Recognising which drug prevents which infection, and which organism a prophylactic regimen targets, supports correct prophylaxis selection; recognising the closed biliary-tract drug list prevents assigning that indication to an unlisted agent.
+
+### Common misconceptions
+Do not swap the rheumatic-fever regimen's target organism (Streptococcus pyogenes) for the endocarditis regimen's target organism (Streptococcus viridans), or vice versa. Do not treat cefoperazone's biliary excretion route (a separate cephalosporin pharmacokinetics fact) as the same claim as this deck's biliary-tract-infection treatment list. Linezolid is not a governed biliary-tract-infection drug in this deck.`,
+  },
+  antimicrobialPharmacodynamics: {
+    title: 'Concentration- and time-dependent antimicrobial killing', microtopic: 'Antimicrobial pharmacodynamic classification',
+    topic: 'Pharmacology', subtopic: 'Antimicrobials', primaryNode: 'DIS-PHA-T05', secondaryNodes: ['DIS-PHA'],
+    summary: 'The governed Mucize Antibacterial (2) deck defines concentration-dependent killing (high concentrations above MIC, high post-antibiotic effect) and time-dependent killing (duration of exposure above MIC matters more than peak concentration, minimal PAE), then classifies beta-lactams and vancomycin as time-dependent with minimal PAE, aminoglycosides/fluoroquinolones/metronidazole as concentration-dependent with high PAE, and clarithromycin-azithromycin/clindamycin/erythromycin/linezolid/tetracyclines as both.',
+    sections: `### Definition
+Concentration-dependent antibiotics need high concentrations above the minimum inhibitory concentration (MIC) for optimal bactericidal effect and show a high post-antibiotic effect (PAE), in which bactericidal action continues after the drug is stopped. Time-dependent antibiotics depend on the duration of drug exposure above MIC rather than peak concentration, and higher concentrations do not produce greater killing; they tend to have minimal PAE.
+
+### Classification table
+The governed three-column table places beta-lactams and vancomycin under time-dependent killing with minimal PAE; aminoglycosides, fluoroquinolones and metronidazole under concentration-dependent killing with high PAE; and clarithromycin/azithromycin, clindamycin, erythromycin, linezolid and tetracyclines under drugs that are both time- and concentration-dependent.
+
+### Key determinants
+Aminoglycosides are the governed example of a concentration-dependent, high-PAE class. Vancomycin, despite not being a beta-lactam, is classified with beta-lactams as time-dependent with minimal PAE. Clindamycin and the paired clarithromycin/azithromycin entry are classified as both time- and concentration-dependent, not purely one or the other.
+
+### Clinical significance
+This classification governs dosing strategy: concentration-dependent agents are dosed for a high peak, time-dependent agents are dosed for sustained exposure above MIC.
+
+### Common misconceptions
+Do not classify vancomycin as concentration-dependent; the governed table places it under time-dependent, minimal PAE, alongside beta-lactams. Do not classify clarithromycin as concentration-dependent alone; the governed table places it under "both," not the concentration-dependent-only column.`,
   },
   mycologyFoundations: {
     title: 'General mycology foundations', microtopic: 'Fungal form and terminology',
@@ -12050,7 +12520,7 @@ ${articleItems.map(microSpanId).join('\n')}
 must: Global Q${articleItems.map((item) => item.q).join(', Q')} retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
-${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.annotationQuote ?? item.support}\nBlock: body\nId: ann-must-fhb1022-micro-q${item.q}`).join('\n\n')}
+${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.annotationQuote ?? item.support}\nBlock: body\nId: ann-must-fhb1022-${(item.idPrefix ?? 'micro').toLowerCase()}-q${item.q}`).join('\n\n')}
 
 ## media
 

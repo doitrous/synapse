@@ -4969,3 +4969,399 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Mucize Antibacterial (1) MCQ
 source question: Absalam Mucize Antibacterial (1) MCQ Q16
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q3-01
+
+## concept_id
+CON-INF-B9B72E44C7D4F7
+
+## subject
+Aztreonam resists beta-lactamase enzymes
+
+## predicate
+states
+
+## object
+Aztreonam resists beta-lactamase enzymes, a distinct advantage from its already-established lack of beta-lactam cross-allergy.
+
+## display_text
+Aztreonam resists beta-lactamase enzymes, a distinct advantage from its already-established lack of beta-lactam cross-allergy.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q3
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q21-01
+
+## concept_id
+CON-INF-FE05885A26F910
+
+## subject
+Aztreonam is given only parenterally (IV/IM)
+
+## predicate
+states
+
+## object
+Aztreonam is a synthetic monobactam given only parenterally, by IV or IM.
+
+## display_text
+Aztreonam is a synthetic monobactam given only parenterally, by IV or IM.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q21
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q6-01
+
+## concept_id
+CON-INF-32F7EB3D362DE1
+
+## subject
+Meropenem resists renal dehydropeptidase, needs no cilastatin, and is safe in meningitis
+
+## predicate
+states
+
+## object
+Meropenem is stable in the renal tubule, unaffected by dehydropeptidase enzyme, and is safe for use in meningitis, unlike imipenem.
+
+## display_text
+Meropenem is stable in the renal tubule, unaffected by dehydropeptidase enzyme, and is safe for use in meningitis, unlike imipenem.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q6
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q24-01
+
+## concept_id
+CON-INF-32F7EB3D362DE1
+
+## subject
+Meropenem resists renal dehydropeptidase, needs no cilastatin, and is safe in meningitis
+
+## predicate
+states
+
+## object
+Meropenem is stable in the renal tubule and not affected by dehydropeptidase enzyme, so it does not need cilastatin to protect it from renal degradation.
+
+## display_text
+Meropenem is stable in the renal tubule and not affected by dehydropeptidase enzyme, so it does not need cilastatin to protect it from renal degradation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q24
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q22-01
+
+## concept_id
+CON-INF-A82CF3CED7C73C
+
+## subject
+Carbapenems do not act on beta-lactamase-producing Staphylococcus
+
+## predicate
+states
+
+## object
+Carbapenems are the broadest-spectrum beta-lactams, covering Gram-positive, Gram-negative and anaerobic organisms including Pseudomonas, but do not act on beta-lactamase-producing Staphylococcus.
+
+## display_text
+Carbapenems are the broadest-spectrum beta-lactams, covering Gram-positive, Gram-negative and anaerobic organisms including Pseudomonas, but do not act on beta-lactamase-producing Staphylococcus.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q22
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q23-01
+
+## concept_id
+CON-INF-2B440070C76505
+
+## subject
+Imipenem carries CNS toxicity (seizure risk), so it is avoided in meningitis
+
+## predicate
+states
+
+## object
+Imipenem has CNS toxicity manifesting as seizure risk, which is why it is not used in meningitis.
+
+## display_text
+Imipenem has CNS toxicity manifesting as seizure risk, which is why it is not used in meningitis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q23
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q10-01
+
+## concept_id
+CON-INF-7EA191A357B3AF
+
+## subject
+Vancomycin's governed adverse effects are thrombophlebitis, red man syndrome, neurotoxicity and nephrotoxicity
+
+## predicate
+states
+
+## object
+Vancomycin's governed adverse-effect list is thrombophlebitis (with fever and chills), red man syndrome, neurotoxicity and nephrotoxicity; blue man syndrome is not among them.
+
+## display_text
+Vancomycin's governed adverse-effect list is thrombophlebitis (with fever and chills), red man syndrome, neurotoxicity and nephrotoxicity; blue man syndrome is not among them.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q10
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q26-01
+
+## concept_id
+CON-INF-67094DE2D87CAF
+
+## subject
+Oral vancomycin is not absorbed, so it cannot treat systemic infection
+
+## predicate
+states
+
+## object
+Vancomycin is not absorbed orally, so oral dosing stays in the gut and cannot reach the systemic circulation to treat systemic infection.
+
+## display_text
+Vancomycin is not absorbed orally, so oral dosing stays in the gut and cannot reach the systemic circulation to treat systemic infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q26
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q50-01
+
+## concept_id
+CON-INF-0DE0B68A1908ED
+
+## subject
+Vancomycin is used for anaerobic infection
+
+## predicate
+states
+
+## object
+Vancomycin is listed among the governed uses for anaerobic infection, alongside MRSA infection and pseudomembranous colitis.
+
+## display_text
+Vancomycin is listed among the governed uses for anaerobic infection, alongside MRSA infection and pseudomembranous colitis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mucize Antibacterial (2) MCQ
+source question: Absalam Mucize Antibacterial (2) MCQ Q50

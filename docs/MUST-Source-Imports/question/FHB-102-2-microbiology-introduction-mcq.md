@@ -17173,3 +17173,1371 @@ yes
 
 ## author_notes
 Printed source key: Mucize Antibacterial (1) MCQ Q16 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q3
+
+## title
+What is a key advantage of Aztreonam over other beta-lactams?
+
+## question
+What is a key advantage of Aztreonam over other beta-lactams?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Oral administration
+
+## explanation_a
+Incorrect. The governed slide does not offer Aztreonam orally, does not extend its coverage to anaerobes, and does not state meningitis safety for it. The supported answer is B, Resistance to beta-lactamase.
+
+## answer_b
+Resistance to beta-lactamase
+
+## explanation_b
+Aztreonam resists beta-lactamase enzymes, a distinct advantage from its already-established lack of beta-lactam cross-allergy. The official MUST teaching directly supports Resistance to beta-lactamase for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Effective against anaerobes
+
+## explanation_c
+Incorrect. The governed slide does not offer Aztreonam orally, does not extend its coverage to anaerobes, and does not state meningitis safety for it. The supported answer is B, Resistance to beta-lactamase.
+
+## answer_d
+Safe in meningitis
+
+## explanation_d
+Incorrect. The governed slide does not offer Aztreonam orally, does not extend its coverage to anaerobes, and does not state meningitis safety for it. The supported answer is B, Resistance to beta-lactamase.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-B9B72E44C7D4F7
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam advantages
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify beta-lactamase resistance as a governed Aztreonam advantage over other beta-lactams.
+
+## source_citation
+Absalam101 Part 2, p37, Mucize Antibacterial (2) MCQ Q3, printed key p44 (3 = B); official MUST general antibacterial 2, p2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q3 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q21
+
+## title
+Aztreonam's route of administration is:
+
+## question
+Aztreonam's route of administration is:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Oral
+
+## explanation_a
+Incorrect. The governed slide does not offer an oral, topical or inhalational route for Aztreonam. The supported answer is B, Parenteral (IV/IM).
+
+## answer_b
+Parenteral (IV/IM)
+
+## explanation_b
+Aztreonam is a synthetic monobactam given only parenterally, by IV or IM. The official MUST teaching directly supports Parenteral (IV/IM) for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Topical
+
+## explanation_c
+Incorrect. The governed slide does not offer an oral, topical or inhalational route for Aztreonam. The supported answer is B, Parenteral (IV/IM).
+
+## answer_d
+Inhalational
+
+## explanation_d
+Incorrect. The governed slide does not offer an oral, topical or inhalational route for Aztreonam. The supported answer is B, Parenteral (IV/IM).
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-FE05885A26F910
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam route
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify parenteral (IV/IM) administration as the governed Aztreonam route.
+
+## source_citation
+Absalam101 Part 2, p39, Mucize Antibacterial (2) MCQ Q21, printed key p44 (21 = B); official MUST general antibacterial 2, p2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q21 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q6
+
+## title
+Which carbapenem is safe for use in meningitis?
+
+## question
+Which carbapenem is safe for use in meningitis?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Imipenem
+
+## explanation_a
+Incorrect. Imipenem is explicitly excluded from meningitis use on the governed slide due to seizure risk; Aztreonam and Vancomycin are not carbapenems. The supported answer is B, Meropenem.
+
+## answer_b
+Meropenem
+
+## explanation_b
+Meropenem is stable in the renal tubule, unaffected by dehydropeptidase enzyme, and is safe for use in meningitis, unlike imipenem. The official MUST teaching directly supports Meropenem for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Aztreonam
+
+## explanation_c
+Incorrect. Imipenem is explicitly excluded from meningitis use on the governed slide due to seizure risk; Aztreonam and Vancomycin are not carbapenems. The supported answer is B, Meropenem.
+
+## answer_d
+Vancomycin
+
+## explanation_d
+Incorrect. Imipenem is explicitly excluded from meningitis use on the governed slide due to seizure risk; Aztreonam and Vancomycin are not carbapenems. The supported answer is B, Meropenem.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-32F7EB3D362DE1
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Meropenem versus imipenem
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Meropenem as the carbapenem that is safe for use in meningitis.
+
+## source_citation
+Absalam101 Part 2, p37, Mucize Antibacterial (2) MCQ Q6, printed key p44 (6 = B); official MUST general antibacterial 2, p5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q6 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q24
+
+## title
+Meropenem does NOT require cilastatin because it is:
+
+## question
+Meropenem does NOT require cilastatin because it is:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Resistant to renal dehydropeptidase
+
+## explanation_a
+Meropenem is stable in the renal tubule and not affected by dehydropeptidase enzyme, so it does not need cilastatin to protect it from renal degradation. The official MUST teaching directly supports Resistant to renal dehydropeptidase for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Narrow-spectrum
+
+## explanation_b
+Incorrect. The governed slide does not state that Meropenem is narrow-spectrum, topical, or specifically effective against MRSA as the reason for skipping cilastatin. The supported answer is A, Resistant to renal dehydropeptidase.
+
+## answer_c
+Administered topically
+
+## explanation_c
+Incorrect. The governed slide does not state that Meropenem is narrow-spectrum, topical, or specifically effective against MRSA as the reason for skipping cilastatin. The supported answer is A, Resistant to renal dehydropeptidase.
+
+## answer_d
+Effective against MRSA
+
+## explanation_d
+Incorrect. The governed slide does not state that Meropenem is narrow-spectrum, topical, or specifically effective against MRSA as the reason for skipping cilastatin. The supported answer is A, Resistant to renal dehydropeptidase.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-32F7EB3D362DE1
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Meropenem versus imipenem
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify Meropenem's resistance to renal dehydropeptidase as the reason it needs no cilastatin.
+
+## source_citation
+Absalam101 Part 2, p40, Mucize Antibacterial (2) MCQ Q24, printed key p44 (24 = A); official MUST general antibacterial 2, p5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q24 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q22
+
+## title
+Which organism is NOT targeted by carbapenems?
+
+## question
+Which organism is NOT targeted by carbapenems?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Gram-positive bacteria
+
+## explanation_a
+Incorrect. The governed slide otherwise assigns carbapenems the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms, including Pseudomonas, so only the beta-lactamase-producing-Staphylococcus exception is excluded. The supported answer is C, Beta-lactamase-producing Staphylococcus.
+
+## answer_b
+Anaerobes
+
+## explanation_b
+Incorrect. The governed slide otherwise assigns carbapenems the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms, including Pseudomonas, so only the beta-lactamase-producing-Staphylococcus exception is excluded. The supported answer is C, Beta-lactamase-producing Staphylococcus.
+
+## answer_c
+Beta-lactamase-producing Staphylococcus
+
+## explanation_c
+Carbapenems are the broadest-spectrum beta-lactams, covering Gram-positive, Gram-negative and anaerobic organisms including Pseudomonas, but do not act on beta-lactamase-producing Staphylococcus. The official MUST teaching directly supports Beta-lactamase-producing Staphylococcus for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Pseudomonas
+
+## explanation_d
+Incorrect. The governed slide otherwise assigns carbapenems the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms, including Pseudomonas, so only the beta-lactamase-producing-Staphylococcus exception is excluded. The supported answer is C, Beta-lactamase-producing Staphylococcus.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-A82CF3CED7C73C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Carbapenem spectrum exceptions
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify beta-lactamase-producing Staphylococcus as the stated carbapenem spectrum exception.
+
+## source_citation
+Absalam101 Part 2, p40, Mucize Antibacterial (2) MCQ Q22, printed key p44 (22 = C); official MUST general antibacterial 2, p3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q22 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q23
+
+## title
+Imipenem is avoided in meningitis due to risk of:
+
+## question
+Imipenem is avoided in meningitis due to risk of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Nephrotoxicity
+
+## explanation_a
+Incorrect. Red man syndrome is a vancomycin infusion reaction, not an imipenem effect; the governed slide names CNS toxicity/seizure, not nephrotoxicity or hepatotoxicity, as the meningitis-avoidance reason. The supported answer is B, Seizures.
+
+## answer_b
+Seizures
+
+## explanation_b
+Imipenem has CNS toxicity manifesting as seizure risk, which is why it is not used in meningitis. The official MUST teaching directly supports Seizures for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Red man syndrome
+
+## explanation_c
+Incorrect. Red man syndrome is a vancomycin infusion reaction, not an imipenem effect; the governed slide names CNS toxicity/seizure, not nephrotoxicity or hepatotoxicity, as the meningitis-avoidance reason. The supported answer is B, Seizures.
+
+## answer_d
+Hepatotoxicity
+
+## explanation_d
+Incorrect. Red man syndrome is a vancomycin infusion reaction, not an imipenem effect; the governed slide names CNS toxicity/seizure, not nephrotoxicity or hepatotoxicity, as the meningitis-avoidance reason. The supported answer is B, Seizures.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-2B440070C76505
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Imipenem CNS toxicity
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify seizure risk (CNS toxicity) as the governed reason Imipenem is avoided in meningitis.
+
+## source_citation
+Absalam101 Part 2, p40, Mucize Antibacterial (2) MCQ Q23, printed key p44 (23 = B); official MUST general antibacterial 2, p3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q23 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q10
+
+## title
+Which adverse effect is NOT linked to vancomycin?
+
+## question
+Which adverse effect is NOT linked to vancomycin?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Nephrotoxicity
+
+## explanation_a
+Incorrect. Nephrotoxicity and thrombophlebitis are both explicitly named on the governed list; option C (Seizures) is read as consistent with the list's general "Neurotoxic" entry. Only blue man syndrome is absent from the deck entirely. The supported answer is D, Blue man syndrome.
+
+## answer_b
+Thrombophlebitis
+
+## explanation_b
+Incorrect. Nephrotoxicity and thrombophlebitis are both explicitly named on the governed list; option C (Seizures) is read as consistent with the list's general "Neurotoxic" entry. Only blue man syndrome is absent from the deck entirely. The supported answer is D, Blue man syndrome.
+
+## answer_c
+Seizures
+
+## explanation_c
+Incorrect. Nephrotoxicity and thrombophlebitis are both explicitly named on the governed list; option C (Seizures) is read as consistent with the list's general "Neurotoxic" entry. Only blue man syndrome is absent from the deck entirely. The supported answer is D, Blue man syndrome.
+
+## answer_d
+Blue man syndrome
+
+## explanation_d
+Vancomycin's governed adverse-effect list is thrombophlebitis (with fever and chills), red man syndrome, neurotoxicity and nephrotoxicity; blue man syndrome is not among them. The official MUST teaching directly supports Blue man syndrome for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-7EA191A357B3AF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin adverse-effect list
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify blue man syndrome as the option NOT on the governed vancomycin adverse-effect list.
+
+## source_citation
+Absalam101 Part 2, p38, Mucize Antibacterial (2) MCQ Q10, printed key p44 (10 = D); official MUST general antibacterial 2, p9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q10 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q26
+
+## title
+Oral vancomycin is ineffective for systemic infections because it is:
+
+## question
+Oral vancomycin is ineffective for systemic infections because it is:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Rapidly metabolized
+
+## explanation_a
+Incorrect. The governed slide does not attribute oral vancomycin's systemic ineffectiveness to rapid metabolism, gastric-acid destruction or high protein binding. The supported answer is B, Not absorbed.
+
+## answer_b
+Not absorbed
+
+## explanation_b
+Vancomycin is not absorbed orally, so oral dosing stays in the gut and cannot reach the systemic circulation to treat systemic infection. The official MUST teaching directly supports Not absorbed for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Destroyed by gastric acid
+
+## explanation_c
+Incorrect. The governed slide does not attribute oral vancomycin's systemic ineffectiveness to rapid metabolism, gastric-acid destruction or high protein binding. The supported answer is B, Not absorbed.
+
+## answer_d
+Highly protein-bound
+
+## explanation_d
+Incorrect. The governed slide does not attribute oral vancomycin's systemic ineffectiveness to rapid metabolism, gastric-acid destruction or high protein binding. The supported answer is B, Not absorbed.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-67094DE2D87CAF
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin absorption
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify lack of oral absorption as the governed reason oral vancomycin cannot treat systemic infection.
+
+## source_citation
+Absalam101 Part 2, p40, Mucize Antibacterial (2) MCQ Q26, printed key p44 (26 = B); official MUST general antibacterial 2, p6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q26 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-ANTIBACT2-Q50
+
+## title
+Which drug is used for anaerobic infections?
+
+## question
+Which drug is used for anaerobic infections?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_352f47c6e866e76a9d8b; printed key checked against src_9a16b2156717527bf0ab without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Aztreonam
+
+## explanation_a
+Incorrect. Aztreonam is stated elsewhere in this deck to act only on Gram-negative organisms with no effect on anaerobes; Bacitracin is a topical-only agent; Paracetamol is not an antimicrobial. The supported answer is B, Vancomycin.
+
+## answer_b
+Vancomycin
+
+## explanation_b
+Vancomycin is listed among the governed uses for anaerobic infection, alongside MRSA infection and pseudomembranous colitis. The official MUST teaching directly supports Vancomycin for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Paracetamol
+
+## explanation_c
+Incorrect. Aztreonam is stated elsewhere in this deck to act only on Gram-negative organisms with no effect on anaerobes; Bacitracin is a topical-only agent; Paracetamol is not an antimicrobial. The supported answer is B, Vancomycin.
+
+## answer_d
+Bacitracin
+
+## explanation_d
+Incorrect. Aztreonam is stated elsewhere in this deck to act only on Gram-negative organisms with no effect on anaerobes; Bacitracin is a topical-only agent; Paracetamol is not an antimicrobial. The supported answer is B, Vancomycin.
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## main_concept
+CON-INF-0DE0B68A1908ED
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin anaerobic-infection use
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## resource_ids
+src_352f47c6e866e76a9d8b
+src_9a16b2156717527bf0ab
+
+## learning_objective
+Identify vancomycin as the offered drug used for anaerobic infection.
+
+## source_citation
+Absalam101 Part 2, p43, Mucize Antibacterial (2) MCQ Q50, printed key p44 (50 = B); official MUST general antibacterial 2, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mucize Antibacterial (2) MCQ Q50 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

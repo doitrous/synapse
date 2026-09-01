@@ -2483,3 +2483,201 @@ CLM-INF-MUST-FHB1022-ANTIBACT1-Q16-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-ANTIBACT1-Q16-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q3-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Aztreonam resists beta-lactamase enzymes, a distinct advantage from its already-established lack of beta-lactam cross-allergy.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q3-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q3-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q21-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Aztreonam is a synthetic monobactam given only parenterally, by IV or IM.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q21-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q21-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q6-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Meropenem is stable in the renal tubule, unaffected by dehydropeptidase enzyme, and is safe for use in meningitis, unlike imipenem.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q6-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q6-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q24-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Meropenem is stable in the renal tubule and not affected by dehydropeptidase enzyme, so it does not need cilastatin to protect it from renal degradation.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q24-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q24-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q22-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Carbapenems are the broadest-spectrum beta-lactams, covering Gram-positive, Gram-negative and anaerobic organisms including Pseudomonas, but do not act on beta-lactamase-producing Staphylococcus.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q22-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q22-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q23-01
+
+## article_id
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## section_id
+art-inf-must-fhb1022-carbapenem-monobactam-definition
+
+## text
+Imipenem has CNS toxicity manifesting as seizure risk, which is why it is not used in meningitis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q23-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q23-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q10-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Vancomycin's governed adverse-effect list is thrombophlebitis (with fever and chills), red man syndrome, neurotoxicity and nephrotoxicity; blue man syndrome is not among them.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q10-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q10-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q26-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Vancomycin is not absorbed orally, so oral dosing stays in the gut and cannot reach the systemic circulation to treat systemic infection.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q26-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q26-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-ANTIBACT2-Q50-01
+
+## article_id
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## section_id
+art-inf-must-fhb1022-vancomycin-clinical-profile-definition
+
+## text
+Vancomycin is listed among the governed uses for anaerobic infection, alongside MRSA infection and pseudomembranous colitis.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q50-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q50-01

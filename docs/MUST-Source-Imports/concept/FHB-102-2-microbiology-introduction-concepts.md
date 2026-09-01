@@ -15326,3 +15326,1455 @@ rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survive
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-B9B72E44C7D4F7
+
+## label
+Aztreonam resists beta-lactamase enzymes
+
+## canonical_key
+pharmacology.monobactams.aztreonam-beta-lactamase-resistance
+
+## aliases
+Aztreonam beta-lactamase resistance
+Monobactam enzyme resistance
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Aztreonam resists beta-lactamase enzymes, a distinct advantage from its already-established lack of beta-lactam cross-allergy.
+
+## explicit_objective
+Identify beta-lactamase resistance as a governed Aztreonam advantage over other beta-lactams.
+
+## pitfalls
+The governed slide does not offer Aztreonam orally, does not extend its coverage to anaerobes, and does not state meningitis safety for it.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Aztreonam advantages
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam advantages
+
+## article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q3-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p37 Mucize Antibacterial (2) MCQ Q3; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p2 direct MUST teaching
+
+## original_wording
+What is a key advantage of Aztreonam over other beta-lactams? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q3; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-FE05885A26F910
+
+## label
+Aztreonam is given only parenterally (IV/IM)
+
+## canonical_key
+pharmacology.monobactams.aztreonam-parenteral-route
+
+## aliases
+Aztreonam route of administration
+Monobactam parenteral-only dosing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Aztreonam is a synthetic monobactam given only parenterally, by IV or IM.
+
+## explicit_objective
+Identify parenteral (IV/IM) administration as the governed Aztreonam route.
+
+## pitfalls
+The governed slide does not offer an oral, topical or inhalational route for Aztreonam.
+
+## concept_type
+pharmacokinetics
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Aztreonam route
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Aztreonam route
+
+## article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q21-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p39 Mucize Antibacterial (2) MCQ Q21; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p2 direct MUST teaching
+
+## original_wording
+Aztreonam's route of administration is: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q21; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-32F7EB3D362DE1
+
+## label
+Meropenem resists renal dehydropeptidase, needs no cilastatin, and is safe in meningitis
+
+## canonical_key
+pharmacology.carbapenems.meropenem-no-cilastatin-safe-meningitis
+
+## aliases
+Meropenem safety profile
+Meropenem versus imipenem
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Meropenem is stable in the renal tubule, unaffected by dehydropeptidase enzyme, and is safe for use in meningitis, unlike imipenem. Meropenem is stable in the renal tubule and not affected by dehydropeptidase enzyme, so it does not need cilastatin to protect it from renal degradation.
+
+## explicit_objective
+Identify Meropenem as the carbapenem that is safe for use in meningitis. Identify Meropenem's resistance to renal dehydropeptidase as the reason it needs no cilastatin.
+
+## pitfalls
+Imipenem is explicitly excluded from meningitis use on the governed slide due to seizure risk; Aztreonam and Vancomycin are not carbapenems. The governed slide does not state that Meropenem is narrow-spectrum, topical, or specifically effective against MRSA as the reason for skipping cilastatin.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Meropenem versus imipenem
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Meropenem versus imipenem
+
+## article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q6-01
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q24-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p37 Mucize Antibacterial (2) MCQ Q6; printed answer p44
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p40 Mucize Antibacterial (2) MCQ Q24; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p5 direct MUST teaching
+src_9a16b2156717527bf0ab | tier 1 local teaching | p5 direct MUST teaching
+
+## original_wording
+Which carbapenem is safe for use in meningitis? Printed key B; options retained in their original order.
+Meropenem does NOT require cilastatin because it is: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q6; printed B agrees with the governed MUST teaching. No key conflict affects authored Mucize Antibacterial (2) MCQ Q24; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-A82CF3CED7C73C
+
+## label
+Carbapenems do not act on beta-lactamase-producing Staphylococcus
+
+## canonical_key
+pharmacology.carbapenems.staph-beta-lactamase-exception
+
+## aliases
+Carbapenem spectrum exception
+Carbapenem staph exception
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Carbapenems are the broadest-spectrum beta-lactams, covering Gram-positive, Gram-negative and anaerobic organisms including Pseudomonas, but do not act on beta-lactamase-producing Staphylococcus.
+
+## explicit_objective
+Identify beta-lactamase-producing Staphylococcus as the stated carbapenem spectrum exception.
+
+## pitfalls
+The governed slide otherwise assigns carbapenems the broadest beta-lactam spectrum across Gram-positive, Gram-negative and anaerobic organisms, including Pseudomonas, so only the beta-lactamase-producing-Staphylococcus exception is excluded.
+
+## concept_type
+drug profile
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Carbapenem spectrum exceptions
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Carbapenem spectrum exceptions
+
+## article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q22-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p40 Mucize Antibacterial (2) MCQ Q22; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p3 direct MUST teaching
+
+## original_wording
+Which organism is NOT targeted by carbapenems? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q22; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-2B440070C76505
+
+## label
+Imipenem carries CNS toxicity (seizure risk), so it is avoided in meningitis
+
+## canonical_key
+pharmacology.carbapenems.imipenem-seizure-meningitis
+
+## aliases
+Imipenem seizure risk
+Imipenem meningitis avoidance
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Imipenem has CNS toxicity manifesting as seizure risk, which is why it is not used in meningitis.
+
+## explicit_objective
+Identify seizure risk (CNS toxicity) as the governed reason Imipenem is avoided in meningitis.
+
+## pitfalls
+Red man syndrome is a vancomycin infusion reaction, not an imipenem effect; the governed slide names CNS toxicity/seizure, not nephrotoxicity or hepatotoxicity, as the meningitis-avoidance reason.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Imipenem CNS toxicity
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Imipenem CNS toxicity
+
+## article_ids
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q23-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p40 Mucize Antibacterial (2) MCQ Q23; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p3 direct MUST teaching
+
+## original_wording
+Imipenem is avoided in meningitis due to risk of: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q23; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-7EA191A357B3AF
+
+## label
+Vancomycin's governed adverse effects are thrombophlebitis, red man syndrome, neurotoxicity and nephrotoxicity
+
+## canonical_key
+pharmacology.vancomycin.adverse-effect-list
+
+## aliases
+Vancomycin adverse-effect list
+Vancomycin toxicity profile
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Vancomycin's governed adverse-effect list is thrombophlebitis (with fever and chills), red man syndrome, neurotoxicity and nephrotoxicity; blue man syndrome is not among them.
+
+## explicit_objective
+Identify blue man syndrome as the option NOT on the governed vancomycin adverse-effect list.
+
+## pitfalls
+Nephrotoxicity and thrombophlebitis are both explicitly named on the governed list; option C (Seizures) is read as consistent with the list's general "Neurotoxic" entry. Only blue man syndrome is absent from the deck entirely.
+
+## concept_type
+adverse effect
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin adverse-effect list
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin adverse-effect list
+
+## article_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q10-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p38 Mucize Antibacterial (2) MCQ Q10; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p9 direct MUST teaching
+
+## original_wording
+Which adverse effect is NOT linked to vancomycin? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q10; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-67094DE2D87CAF
+
+## label
+Oral vancomycin is not absorbed, so it cannot treat systemic infection
+
+## canonical_key
+pharmacology.vancomycin.oral-not-absorbed
+
+## aliases
+Vancomycin oral non-absorption
+Vancomycin oral versus IV use
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Vancomycin is not absorbed orally, so oral dosing stays in the gut and cannot reach the systemic circulation to treat systemic infection.
+
+## explicit_objective
+Identify lack of oral absorption as the governed reason oral vancomycin cannot treat systemic infection.
+
+## pitfalls
+The governed slide does not attribute oral vancomycin's systemic ineffectiveness to rapid metabolism, gastric-acid destruction or high protein binding.
+
+## concept_type
+pharmacokinetics
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin absorption
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin absorption
+
+## article_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q26-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p40 Mucize Antibacterial (2) MCQ Q26; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p6 direct MUST teaching
+
+## original_wording
+Oral vancomycin is ineffective for systemic infections because it is: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q26; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-0DE0B68A1908ED
+
+## label
+Vancomycin is used for anaerobic infection
+
+## canonical_key
+pharmacology.vancomycin.anaerobic-infection-use
+
+## aliases
+Vancomycin anaerobic use
+Vancomycin Clostridium difficile coverage
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Vancomycin is listed among the governed uses for anaerobic infection, alongside MRSA infection and pseudomembranous colitis.
+
+## explicit_objective
+Identify vancomycin as the offered drug used for anaerobic infection.
+
+## pitfalls
+Aztreonam is stated elsewhere in this deck to act only on Gram-negative organisms with no effect on anaerobes; Bacitracin is a topical-only agent; Paracetamol is not an antimicrobial.
+
+## concept_type
+clinical use
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PHA-T05
+
+## secondary_node_ids
+DIS-PHA
+
+## topic
+Pharmacology
+
+## subtopic
+Antimicrobials
+
+## microtopic
+Vancomycin anaerobic-infection use
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Pharmacology > Antimicrobials > Vancomycin anaerobic-infection use
+
+## article_ids
+ART-INF-MUST-FHB1022-VANCOMYCIN-CLINICAL-PROFILE
+
+## related_article_ids
+ART-INF-MUST-FHB1022-CEPHALOSPORIN-GENERATIONS
+ART-INF-MUST-FHB1022-CARBAPENEM-MONOBACTAM
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_9a16b2156717527bf0ab
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q50-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p43 Mucize Antibacterial (2) MCQ Q50; printed answer p44
+src_9a16b2156717527bf0ab | tier 1 local teaching | p8 direct MUST teaching
+
+## original_wording
+Which drug is used for anaerobic infections? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Antibacterial (2) MCQ Q50; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Pharmacology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Pharmacology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

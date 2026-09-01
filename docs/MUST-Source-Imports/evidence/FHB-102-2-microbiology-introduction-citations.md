@@ -4517,3 +4517,363 @@ The official MUST teaching deck directly supports the unchanged printed Mucize A
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q3-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q3-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Aztreonam: "Resist B-lactamase enzyme," alongside its parenteral-only route and low cross-allergy with penicillin.
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+general antibacterial 2 — Aztreonam advantages
+
+## locator_detail
+PDF page 2, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q3 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q21-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q21-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Aztreonam: "Synthetic Parenteral only ----(IV—IM)."
+
+## locator_type
+page
+
+## locator_page
+2
+
+## locator_section
+general antibacterial 2 — Aztreonam route
+
+## locator_detail
+PDF page 2, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q21 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q6-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q6-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Meropenem: "Stable in renal tubule (not affected by dehydropeptidase enzyme) - Not need cilastatin - Safe in meningitis (no seizures)," contrasted with Imipenem's CNS toxicity/seizure risk on the preceding slide.
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+general antibacterial 2 — Meropenem versus imipenem
+
+## locator_detail
+PDF page 5, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q6 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q24-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q24-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Meropenem: "Stable in renal tubule (not affected by dehydropeptidase enzyme) - Not need cilastatin."
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+general antibacterial 2 — Meropenem versus imipenem
+
+## locator_detail
+PDF page 5, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q24 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q22-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q22-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Imipenem-Cilastatin (Tienam), the carbapenem exemplar: "(broadest spectrum B-lactam antibiotic) (not act on staph (B-lactamase producing bacteria))."
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+general antibacterial 2 — Carbapenem spectrum exceptions
+
+## locator_detail
+PDF page 3, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q22 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q23-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q23-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Imipenem-Cilastatin: "It has CNS toxicity –seizure (not used in meningitis)."
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+general antibacterial 2 — Imipenem CNS toxicity
+
+## locator_detail
+PDF page 3, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q23 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q10-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q10-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide lists Vancomycin adverse effects as: "1-Thrombophlebitis with fever and chills 2-Red man syndrome ... 3-Neurotoxic 4-Nephrotoxic," with no mention of blue man syndrome anywhere in the deck.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+general antibacterial 2 — Vancomycin adverse-effect list
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q10 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q26-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q26-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide states of Vancomycin: "Not absorbed orally," directly under its cell-wall mechanism statement.
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+general antibacterial 2 — Vancomycin absorption
+
+## locator_detail
+PDF page 6, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q26 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-ANTIBACT2-Q50-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-ANTIBACT2-Q50-01
+
+## resource_id
+src_9a16b2156717527bf0ab
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official slide lists Vancomycin uses as: "1-Methicillin resistant staph aurus (MRSA) infection ... 2-Pseudomembranous colitis (oral) (act on clostridium difficle) 3-Anaerobic infection," corroborated by a second source (Pharma 102 (FHB) (Vancomycin) + (BACITRACIN).pdf, use #5, "Anaerobic infection").
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+general antibacterial 2 — Vancomycin anaerobic-infection use
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mucize Antibacterial (2) MCQ Q50 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes

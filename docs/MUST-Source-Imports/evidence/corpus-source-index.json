@@ -4,7 +4,7 @@
   "docs/MUST-Source-Imports/manifest/fhb102-2-s1-provenance.json"
  ],
  "manifestGeneratedOn": "2026-08-31",
- "count": 29,
+ "count": 30,
  "sources": {
   "src_b9989e9ef3c314f6c771": {
    "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/00 Module-wide/05 MCQs/MCQs - FHB102-2.pdf",
@@ -737,6 +737,30 @@
    "sha256": "f65b3872022ca0b42a79e67c7cf1013a1b5f687b2362c2aa9e0c3fd132605149",
    "processingStatus": "fully_governed",
    "pageCount": 48,
+   "languages": [
+    "en"
+   ],
+   "exclusionReason": null,
+   "universityId": "must",
+   "yearIds": [
+    "MUST_Y1"
+   ],
+   "moduleIds": [
+    "MUST-FHB-102-2"
+   ],
+   "categories": [
+    "University Material",
+    "Teaching"
+   ]
+  },
+  "src_9a16b2156717527bf0ab": {
+   "sourceRelativePath": "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf",
+   "sourceRelativePaths": [
+    "Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf"
+   ],
+   "sha256": "9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a",
+   "processingStatus": "fully_governed",
+   "pageCount": 15,
    "languages": [
     "en"
    ],

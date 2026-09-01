@@ -163,3 +163,58 @@ All 47 pages were already visually governed in source triage. Physical pages 6�
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+src_9a16b2156717527bf0ab
+
+## title
+General Antibacterial (2) — Aztreonam, carbapenems, vancomycin, bacitracin, chemoprophylaxis and PK/PD classification
+
+## institution
+MUST University Faculty of Medicine, Pharmacology teaching material; Dr. Mohamed Abdel Aziz slide deck; no separate department, examiner or authenticated faculty-key declaration beyond the lecturer credit on the title slide
+
+## processing_status
+fully_governed_visually_read_all_pages_native_text
+
+## collection_id
+MUST-FHB-102-2
+
+## source_relative_path
+Year 1/Semester 102/FHB 102-2/Pharmacology/01 University Material/general antibacterial 2.pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+2025
+
+## accessed_at
+2026-09-02
+
+## page_count
+15
+
+## sha256
+9a16b2156717527bf0aba484da9368a741ed5cb904b2ff8012d1c0a65fa5a67a
+
+## rights
+Faculty-distributed teaching material; internal curriculum authoring only.
+
+## qualification
+All 15 pages carry native text and were cache-searched (pagetext.mjs grep) for the Mucize Antibacterial (2) authoring pass, then the hit pages were directly read: p2 (Aztreonam/monobactams route, spectrum, beta-lactamase resistance, cross-allergy), p3 and p5 (carbapenems: imipenem/meropenem cilastatin, seizure/meningitis, staph exception), p6/p8/p9 (Vancomycin mechanism, uses including anaerobic infection, oral absorption, adverse-effect list), p10 (Bacitracin mechanism, topical-only use, nephrotoxicity), p11 (Chemoprophylaxis: rheumatic fever and dental endocarditis regimens), p12 (biliary-tract-infection drug list), p13–p15 (concentration- versus time-dependent PK/PD definitions and the governed three-column classification table). The deck is teaching evidence only and does not authenticate the student-printed Mucize answer table.
+
+## confidence
+0.9
+
+## is_assessment
+no
