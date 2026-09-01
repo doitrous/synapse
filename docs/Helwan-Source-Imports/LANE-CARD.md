@@ -1,6 +1,8 @@
 # LANE-CARD — Helwan University Year 1 (hu)
 This module's content lives on branch `codex/helwan-year1-content`, not `main`. **The approved Year 1 release (HU-BMS-101, HU-BMS-102, HU-LCS-103) is COMPLETE, uploaded to production, and exact-read-back as Draft — do not re-import it.** Read `docs/Helwan-Source-Imports/CLAUDE-HANDOVER.md` on that branch before touching anything; it says STOPPED at Omar's request as of this writing.
 
+Years 2–3 (`HU_Y2`, `HU_Y3`) have their own card: [`LANE-CARD-Y2-3.md`](LANE-CARD-Y2-3.md) — phase-0 survey/triage only, branch `helwan-y2-y3-phase0`, awaiting TRIAGE APPROVED.
+
 ## 1. Identity and ids
 University id `hu`. Years `HU_Y1`… Module ids `HU-<CODE>`: `HU-BMS-101`, `HU-BMS-102`, `HU-LCS-103`, `HU-PSY-104` (the last is an authority hold, zero content — see §7). Files: `docs/Helwan-Source-Imports/{concept,article,question,written,practical,evidence,coverage}/`.
 
