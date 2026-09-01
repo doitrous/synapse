@@ -8,7 +8,7 @@
  *
  * On by default: the peer breakdown is the feature, and this exists to hide
  * it, not to opt into it. Held in the shared, platform-wide state document
- * `synapse-answer-stats-v1` (an unprefixed key, so one admin's change reaches
+ * `nishany-answer-stats-v1` (an unprefixed key, so one admin's change reaches
  * every student's session), the same mechanism the Maristana economy and the
  * student-ID discount use.
  */
@@ -18,7 +18,7 @@ export interface AnswerStatsConfig {
   enabled: boolean
 }
 
-export const ANSWER_STATS_CONFIG_KEY = 'synapse-answer-stats-v1'
+export const ANSWER_STATS_CONFIG_KEY = 'nishany-answer-stats-v1'
 
 export const DEFAULT_ANSWER_STATS_CONFIG: AnswerStatsConfig = { enabled: true }
 

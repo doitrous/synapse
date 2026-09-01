@@ -5,7 +5,7 @@ import { AR } from '@/data/i18n-ar'
 export type Lang = 'en' | 'ar'
 export type Dir = 'ltr' | 'rtl'
 
-export const LANG_STORAGE_KEY = 'synapse-lang'
+export const LANG_STORAGE_KEY = 'nishany-lang'
 
 interface I18nValue {
   lang: Lang

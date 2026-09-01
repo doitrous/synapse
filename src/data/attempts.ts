@@ -104,7 +104,7 @@ export interface AttemptIndex {
   totals: AttemptTotals
 }
 
-export const ATTEMPT_INDEX_KEY = 'synapse.progress.attemptIndex.v1'
+export const ATTEMPT_INDEX_KEY = 'nishany.progress.attemptIndex.v1'
 
 /** `YYYY-MM` — the shard a timestamp belongs to. */
 export function attemptMonth(at: string | Date): string {
@@ -113,7 +113,7 @@ export function attemptMonth(at: string | Date): string {
 }
 
 export function attemptMonthKey(month: string): string {
-  return `synapse.progress.attempts.${month}`
+  return `nishany.progress.attempts.${month}`
 }
 
 export const EMPTY_INDEX: AttemptIndex = {

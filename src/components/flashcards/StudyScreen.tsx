@@ -91,7 +91,7 @@ export function StudyScreen({
   const deck = api.getDeck(deckId)
   const logAttempt = useRecordAttempt()
   const [sessionId] = useState(() => `card-${deckId}-${Date.now().toString(36)}`)
-  const [autoAdvance, setAutoAdvance] = useLocalJsonPreference<AutoAdvanceConfig>('synapse.flashcards.autoAdvance', AUTO_ADVANCE_DEFAULT)
+  const [autoAdvance, setAutoAdvance] = useLocalJsonPreference<AutoAdvanceConfig>('nishany.flashcards.autoAdvance', AUTO_ADVANCE_DEFAULT)
 
   const [queue, setQueue] = useState<string[]>(() => api.studyQueue(deckId).map((c) => c.card.id))
   const [total] = useState(queue.length)

@@ -4,7 +4,7 @@
  * already exists — no one has to hand-author a branch before an article can be
  * found by browsing.
  *
- * `synapse-library-trees-v1` (`src/data/libraryTrees.ts`) is 100% hand-authored
+ * `nishany-library-trees-v1` (`src/data/libraryTrees.ts`) is 100% hand-authored
  * today: a `module:<id>` tree only has structure if an editor built one in
  * Library Setup. An article can be published, correctly tagged with
  * `articleData.moduleIds` and `articleData.moduleSubjectPaths`, and still be
@@ -77,11 +77,11 @@
  * APPLYING THE RESULT
  * ---------------------------------------------------------------------------
  * `mergedDocument` in the artifact is a complete, valid `LibraryTreesDocument`
- * — the same shape the `synapse-library-trees-v1` state key already holds.
+ * — the same shape the `nishany-library-trees-v1` state key already holds.
  * `server/src/stateMerge.js`'s adapter for that key treats every scope
  * (`module:<id>` / `year:<id>`) as its own mergeable item, so writing this
  * document back through the normal editor-tab state route
- * (`PUT /api/state/synapse-library-trees-v1`, `library` tab, editor+) merges
+ * (`PUT /api/state/nishany-library-trees-v1`, `library` tab, editor+) merges
  * per scope — an untouched scope in this artifact does not erase whatever the
  * live document holds for it. That write is a separate, authorised step for
  * Opus/Omar to take (through the admin UI, or a dedicated apply step); this

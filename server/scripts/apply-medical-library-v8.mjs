@@ -3,7 +3,7 @@ import { pool } from '../src/db.js'
 
 const requiredMigrationId = '2026-08-11-remove-live-demo-notifications-v8'
 const approval = process.env.MEDICAL_LIBRARY_APPLY
-const notificationStateKey = 'synapse-notification-campaigns-v1'
+const notificationStateKey = 'nishany-notification-campaigns-v1'
 const demoNotificationIds = new Set([
   'notification-review-window',
   'notification-study-block',

@@ -58,7 +58,7 @@ export function findYearByLabel(university: University, label: string): UniYear 
   return university.years.find((year) => year.year === label)
 }
 
-export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'synapse-academic-universities-v1'
+export const UNIVERSITY_CATALOGUE_STORAGE_KEY = 'nishany-academic-universities-v1'
 
 function buildYears(short: string): UniYear[] {
   const code = short.toUpperCase()

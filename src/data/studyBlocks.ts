@@ -8,7 +8,7 @@
  * so ticking a box on the dashboard changed nothing anywhere.
  */
 
-export const STUDY_BLOCKS_STORAGE_KEY = 'synapse.calendar.blocks'
+export const STUDY_BLOCKS_STORAGE_KEY = 'nishany.calendar.blocks'
 
 export interface StudyBlock {
   id: string

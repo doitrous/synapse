@@ -64,7 +64,7 @@ export interface ModuleSubject {
 /** Keyed `${universityId}:${year.id}:${courseId}`. */
 export type ModuleSubjectStore = Record<string, ModuleSubject[]>
 
-export const MODULE_SUBJECTS_STORAGE_KEY = 'synapse-module-subjects-v1'
+export const MODULE_SUBJECTS_STORAGE_KEY = 'nishany-module-subjects-v1'
 ```
 
 A module subject owns **both** its marks and its content. That is the load-bearing

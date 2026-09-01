@@ -91,7 +91,7 @@ Three of these features look like one feature but are not, because the evidence
 behind them lives in three different places.
 
 **Flags already persist.** `QuestionBank.tsx` keeps them in
-`synapse.qbank.marked.v1`, so a flagged question survives the sitting that
+`nishany.qbank.marked.v1`, so a flagged question survives the sitting that
 flagged it. Nothing reads them back outside the runner.
 
 **Wrong answers are derivable.** Every checked answer writes an `AttemptRecord`
@@ -150,11 +150,11 @@ Four questions were settled before design:
 A new user-owned document:
 
 ```
-synapse.qbank.sessionQuestions.v1 : Record<sessionId, questionId[]>
+nishany.qbank.sessionQuestions.v1 : Record<sessionId, questionId[]>
 ```
 
 Ids in the order they were sat. Written when a sitting begins, alongside the
-existing `synapse.qbank.sessionNames.v1` entry; removed by `deleteSession`.
+existing `nishany.qbank.sessionNames.v1` entry; removed by `deleteSession`.
 
 It needs no change to `stateOwnership.ts` — the existing `/^synapse\.qbank\./`
 pattern already routes it to the student's own record rather than the shared
@@ -296,7 +296,7 @@ Pressing it opens a dialog offering two ways out, plus cancel:
 1. writes an attempt record for every answered question that does not have one
    (see below);
 2. records the sitting's question list under
-   `synapse.qbank.sessionQuestions.v1`, so its unanswered questions become
+   `nishany.qbank.sessionQuestions.v1`, so its unanswered questions become
    omitted;
 3. clears the saved live session, so the test stops offering to resume, and
    opens `phase === 'results'`.
@@ -321,7 +321,7 @@ finished the ordinary way is recorded identically.
 ## 4 · The shell
 
 `AppShell` owns `collapsed`, a preference persisted under
-`synapse.shell.sidebarCollapsed`. Entering a test must not write to it: a student
+`nishany.shell.sidebarCollapsed`. Entering a test must not write to it: a student
 who likes an expanded sidebar should still have one after their test.
 
 A small context module — `src/components/shell/ImmersionContext.tsx` — provides

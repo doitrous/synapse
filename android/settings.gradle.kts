@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Connect Cortex"
+rootProject.name = "Nishany"
 include(":app")

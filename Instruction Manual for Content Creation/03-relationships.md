@@ -254,7 +254,7 @@ Each row needs its own evidence chain. They may share the same claim and citatio
 
 If none of the 26 fits, an admin can define a custom type at
 Admin › Relationships (**"Add a custom relationship type"**), which slugifies it into
-`synapse-relation-types-v1` and makes it available to bulk import. **You cannot create one
+`nishany-relation-types-v1` and makes it available to bulk import. **You cannot create one
 from a batch file** — the importer validates `type` against the stored list, and an unknown
 value fails as `"X" is not a relation type`. If you need one, say so in your report and use
 the closest built-in meanwhile.
@@ -304,7 +304,7 @@ There are 1,741 claims and 1,818 citations already live. Check before authoring:
 
 ```bash
 node -e "
-const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-medical-evidence-v1'];
+const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-medical-evidence-v1'];
 const term=process.argv[1].toLowerCase();
 for(const c of ev.claims) if((c.displayText||'').toLowerCase().includes(term)) console.log(c.id, '|', c.displayText);
 " "frank-starling"
@@ -460,7 +460,7 @@ one, and a made-up ID fails with `Resource X does not exist`. List what is avail
 
 ```bash
 node -e "
-const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-medical-evidence-v1'];
+const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-medical-evidence-v1'];
 for(const r of ev.resources) console.log(r.id,'|',r.title,'|',r.institution||'');
 "
 ```
@@ -511,7 +511,7 @@ there:
 
 ```bash
 node -e "
-const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-concept-graph-v2'];
+const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-concept-graph-v2'];
 const node=process.argv[1];
 const here=g.concepts.filter(c=>(c.primaryNodeId||'').startsWith(node));
 for(const c of here){

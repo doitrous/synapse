@@ -55,7 +55,7 @@ export function Collapse({
   return (
     <div
       id={id}
-      className={cn('cortex-collapse', className)}
+      className={cn('nishany-collapse', className)}
       data-open={open ? 'true' : 'false'}
       style={{ height: height === 'auto' ? 'auto' : `${height}px` }}
       // Hidden from assistive tech while closed, so a collapsed answer is not

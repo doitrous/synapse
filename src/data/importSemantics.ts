@@ -91,7 +91,7 @@ export function applyListDirective<T>(directive: ListDirective<T>, existing: T[]
  * twice under different specifiers, a local symbol would silently stop matching
  * and append would quietly go back to replacing — the very bug this fixes.
  */
-const APPEND = Symbol.for('synapse.import.appendList')
+const APPEND = Symbol.for('nishany.import.appendList')
 
 /** Tag a parsed list as "add these", for the merge to resolve later. */
 export function markAppend<T>(items: T[]): T[] {

@@ -16,7 +16,7 @@ import {
 /**
  * Paste a video URL per tutorial topic.
  *
- * Written to the shared `synapse-tutorial-videos-v1` document — the same
+ * Written to the shared `nishany-tutorial-videos-v1` document — the same
  * shared-state mechanism `NotificationCampaigns` and `EmailAutomations` use —
  * so a saved link reaches every student's Tutorial page, not just this
  * admin's own browser.

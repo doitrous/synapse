@@ -2,13 +2,13 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { diffStateForDelta, isDeltaKey, type StateChange } from './stateDelta.ts'
 
-const LEDGER = 'synapse-admin-content-ledger-v4'
-const GRAPH = 'synapse-concept-graph-v2'
+const LEDGER = 'nishany-admin-content-ledger-v4'
+const GRAPH = 'nishany-concept-graph-v2'
 const q = (id: string, status = 'Draft') => ({ id, kind: 'question', status, title: `Q ${id}` })
 
 test('a delta key is recognised; an unknown key is not', () => {
   assert.equal(isDeltaKey(LEDGER), true)
-  assert.equal(isDeltaKey('synapse-vouchers-v1'), false)
+  assert.equal(isDeltaKey('nishany-vouchers-v1'), false)
 })
 
 test('publishing one question yields exactly one change, carrying before and after', () => {
@@ -58,5 +58,5 @@ test('the concept graph diffs concepts and relations independently', () => {
 })
 
 test('a non-delta key returns null', () => {
-  assert.equal(diffStateForDelta('synapse-vouchers-v1', [{ id: 'a' }], [{ id: 'b' }]), null)
+  assert.equal(diffStateForDelta('nishany-vouchers-v1', [{ id: 'a' }], [{ id: 'b' }]), null)
 })

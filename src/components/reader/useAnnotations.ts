@@ -10,7 +10,7 @@ export type { NoteEntry }
 /**
  * The student's marks on one document.
  *
- * Stored under `synapse.annotations.*`, which `stateOwnership` routes to
+ * Stored under `nishany.annotations.*`, which `stateOwnership` routes to
  * `/api/user-state/:key` — the verified account's own record, versioned and
  * crash-recovered, with the existing 400 ms debounce and `pagehide` flush. So
  * "saved immediately" needs no new infrastructure; what it needs is not putting

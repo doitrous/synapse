@@ -69,18 +69,18 @@ test('the tabs are returned in registry order, so the first one is predictable',
 })
 
 test('a state key resolves to the tabs that may write it', () => {
-  assert.deepEqual(tabsForStateKey('synapse-vouchers-v1'), ['vouchers'])
+  assert.deepEqual(tabsForStateKey('nishany-vouchers-v1'), ['vouchers'])
   assert.deepEqual(
-    tabsForStateKey('synapse-admin-content-ledger-v4'),
+    tabsForStateKey('nishany-admin-content-ledger-v4'),
     ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'resources', 'media'],
   )
   assert.deepEqual(tabsForStateKey(ROLE_TABS_STATE_KEY), ['access'])
-  assert.deepEqual(tabsForStateKey('synapse-media-library-v1'), ['resources', 'media'])
-  assert.deepEqual(tabsForStateKey('synapse-library-trees-v1'), ['library'])
+  assert.deepEqual(tabsForStateKey('nishany-media-library-v1'), ['resources', 'media'])
+  assert.deepEqual(tabsForStateKey('nishany-library-trees-v1'), ['library'])
 })
 
 test('an unregistered key belongs to no tab, so only a super admin may write it', () => {
-  assert.deepEqual(tabsForStateKey('synapse-something-nobody-declared'), [])
+  assert.deepEqual(tabsForStateKey('nishany-something-nobody-declared'), [])
   assert.equal(holdsTab(tabsForRole('editor', null), []), false)
   assert.equal(holdsTab(tabsForRole('editor', null), ['questions']), true)
   assert.equal(holdsTab(tabsForRole('admin', null), ['questions']), false)

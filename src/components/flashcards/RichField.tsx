@@ -60,7 +60,7 @@ const HIGHLIGHTS = ['#fef08a', '#bbf7d0', '#bfdbfe', '#fbcfe8', '#fed7aa']
 const INSERTS = ['→', '←', '↑', '↓', '↔', '°C']
 
 /** `<img>` tags `sanitizeRich` kept — their `src` is a reference, not a URL yet. */
-const MEDIA_IMG_SELECTOR = 'img[src^="synapse-"], img[src^="/media/"]'
+const MEDIA_IMG_SELECTOR = 'img[src^="nishany-"], img[src^="synapse-"], img[src^="/media/"]'
 
 /**
  * Swap every media-reference `<img src>` under `container` for a resolved

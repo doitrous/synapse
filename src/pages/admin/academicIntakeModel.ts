@@ -6,12 +6,12 @@ import type { ModuleScheduleStore } from '../../data/moduleSchedule.ts'
 import { moduleTotal, walkSubjects, type ModuleSubjectStore } from '../../data/moduleSubjects.ts'
 import type { UniYear, University } from '../../data/universities.ts'
 
-export const UNIVERSITY_KEY = 'synapse-academic-universities-v1'
-export const CURRICULA_KEY = 'synapse-course-curricula-v1'
-export const SCHEDULE_KEY = 'synapse-module-schedules-v1'
-export const SUBJECTS_KEY = 'synapse-module-subjects-v1'
-export const PROVENANCE_KEY = 'synapse-academic-source-provenance-v1'
-export const ASSESSMENT_SCHEMES_KEY = 'synapse-assessment-schemes-v1'
+export const UNIVERSITY_KEY = 'nishany-academic-universities-v1'
+export const CURRICULA_KEY = 'nishany-course-curricula-v1'
+export const SCHEDULE_KEY = 'nishany-module-schedules-v1'
+export const SUBJECTS_KEY = 'nishany-module-subjects-v1'
+export const PROVENANCE_KEY = 'nishany-academic-source-provenance-v1'
+export const ASSESSMENT_SCHEMES_KEY = 'nishany-assessment-schemes-v1'
 
 export const ACADEMIC_DOCUMENT_KEYS = [
   UNIVERSITY_KEY,

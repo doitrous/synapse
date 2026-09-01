@@ -8,7 +8,7 @@
  * Module schedules have no import page and no branch in `medical:batch` — the
  * only supported way in is a human retyping every block into the Module
  * schedule dialog, or a patch written straight into the
- * `synapse-module-schedules-v1` state document. This is the gate for the second
+ * `nishany-module-schedules-v1` state document. This is the gate for the second
  * route, and it is the whole gate: nothing else reads this file kind.
  *
  * Three things it does, in order:
@@ -51,7 +51,7 @@ if (!file) {
   process.exit(2)
 }
 
-const DOCUMENT = 'synapse-module-schedules-v1'
+const DOCUMENT = 'nishany-module-schedules-v1'
 
 /** The eight block types, from src/data/moduleSchedule.ts. */
 const TYPES = ['lecture', 'practical', 'review', 'midterm', 'midyear', 'term', 'final', 'logbook']
@@ -209,8 +209,8 @@ if (!cataloguePath) {
     console.error(`${cataloguePath}: not readable as a state bundle — ${error.message}`)
     process.exit(2)
   }
-  const universities = states['synapse-academic-universities-v1'] ?? []
-  const ledger = states['synapse-admin-content-ledger-v4'] ?? []
+  const universities = states['nishany-academic-universities-v1'] ?? []
+  const ledger = states['nishany-admin-content-ledger-v4'] ?? []
   live = states[DOCUMENT] ?? {}
   const articles = new Map(ledger.map((item) => [item.id, item]))
 

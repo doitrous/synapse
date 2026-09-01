@@ -13,7 +13,7 @@ import { seededRandom, shuffle } from './seededRandom.ts'
 
 export type MiniGameKind = 'clinical_sequence' | 'mechanism_chain' | 'red_flag_sort'
 
-export const MINIGAME_PACKS_STORAGE_KEY = 'synapse-minigame-packs-v1'
+export const MINIGAME_PACKS_STORAGE_KEY = 'nishany-minigame-packs-v1'
 
 export interface MiniGameSource {
   label: string
@@ -85,7 +85,7 @@ export const MINI_GAME_PACKS: MiniGamePack[] = [
     topic: 'Emergencies & red flags',
     summary: 'Order the first response steps for an unresponsive adult in a teaching scenario.',
     prompt: 'Place the actions in the order a responder should take before ongoing reassessment.',
-    source: { label: 'Synapse authored emergency-skills seed pack', reviewedBy: 'Content operations' },
+    source: { label: 'Nishany authored emergency-skills seed pack', reviewedBy: 'Content operations' },
     steps: [
       { id: 'danger', text: 'Check the scene for danger before approaching.' },
       { id: 'response', text: 'Check responsiveness and call for help.' },
@@ -104,7 +104,7 @@ export const MINI_GAME_PACKS: MiniGamePack[] = [
     topic: 'Heart failure',
     summary: 'Order the authored cause-to-effect chain behind short-term compensation and longer-term worsening.',
     prompt: 'Arrange the mechanism from the initiating haemodynamic problem to the maladaptive outcome.',
-    source: { label: 'Synapse authored CVS seed pack', reviewedBy: 'Content operations' },
+    source: { label: 'Nishany authored CVS seed pack', reviewedBy: 'Content operations' },
     steps: [
       { id: 'low-output', text: 'Reduced effective cardiac output is sensed.' },
       { id: 'sympathetic', text: 'Sympathetic and renin–angiotensin activation increase.' },
@@ -122,7 +122,7 @@ export const MINI_GAME_PACKS: MiniGamePack[] = [
     topic: 'Respiratory safety',
     summary: 'Sort respiratory findings into urgent escalation versus routine review.',
     prompt: 'Classify each authored finding by the action it should trigger in this learning scenario.',
-    source: { label: 'Synapse authored respiratory seed pack', reviewedBy: 'Content operations' },
+    source: { label: 'Nishany authored respiratory seed pack', reviewedBy: 'Content operations' },
     lanes: {
       urgent: 'Urgent escalation',
       routine: 'Routine review',

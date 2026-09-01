@@ -51,9 +51,9 @@ export interface UserArticle {
   updatedAt: string
 }
 
-export const USER_ARTICLES_KEY = 'synapse.library.userArticles'
+export const USER_ARTICLES_KEY = 'nishany.library.userArticles'
 /** Map of articleId → personal tags, covering built-in articles too. */
-export const PERSONAL_TAGS_KEY = 'synapse.library.personalTags'
+export const PERSONAL_TAGS_KEY = 'nishany.library.personalTags'
 
 /** The default clinical section scaffold offered when authoring a new article. */
 export const DEFAULT_SECTION_HEADINGS = [

@@ -1,10 +1,10 @@
 // src/data/qotdTypes.ts
 
 /** Shared app_state document of admin pins. cohortKey → isoDate → questionId. */
-export const QOTD_PINS_KEY = 'synapse-qotd-pins-v1'
+export const QOTD_PINS_KEY = 'nishany-qotd-pins-v1'
 
 /** User-owned demo-mode answer log (localStorage in demo, user_state in live-unused). */
-export const QOTD_LOCAL_ANSWERS_KEY = 'synapse.qotd.answers.v1'
+export const QOTD_LOCAL_ANSWERS_KEY = 'nishany.qotd.answers.v1'
 
 /** One locally-stored answer in demo mode. */
 export interface QotdLocalAnswer {

@@ -10,60 +10,60 @@ import { isUserOwnedState } from './stateOwnership.ts'
  */
 
 test('a student\'s own work is routed to their own record', () => {
-  assert.equal(isUserOwnedState('synapse.notebook.a3f9'), true)
-  assert.equal(isUserOwnedState('synapse.whiteboard.b1'), true)
-  assert.equal(isUserOwnedState('synapse.calendar.blocks'), true)
-  assert.equal(isUserOwnedState('synapse.qbank.attempts'), true)
-  assert.equal(isUserOwnedState('synapse.progress.mastery.v1'), true)
-  assert.equal(isUserOwnedState('synapse.annotations.doc-1.shard-0'), true)
-  assert.equal(isUserOwnedState('synapse.bookmarks.resources.v1'), true)
-  assert.equal(isUserOwnedState('synapse.account.audience.v1'), true)
-  assert.equal(isUserOwnedState('synapse.essay.answers.v1'), true)
-  assert.equal(isUserOwnedState('synapse.termgrid.progress.v1'), true)
-  assert.equal(isUserOwnedState('synapse.maristanas.onboarding.v1'), true)
+  assert.equal(isUserOwnedState('nishany.notebook.a3f9'), true)
+  assert.equal(isUserOwnedState('nishany.whiteboard.b1'), true)
+  assert.equal(isUserOwnedState('nishany.calendar.blocks'), true)
+  assert.equal(isUserOwnedState('nishany.qbank.attempts'), true)
+  assert.equal(isUserOwnedState('nishany.progress.mastery.v1'), true)
+  assert.equal(isUserOwnedState('nishany.annotations.doc-1.shard-0'), true)
+  assert.equal(isUserOwnedState('nishany.bookmarks.resources.v1'), true)
+  assert.equal(isUserOwnedState('nishany.account.audience.v1'), true)
+  assert.equal(isUserOwnedState('nishany.essay.answers.v1'), true)
+  assert.equal(isUserOwnedState('nishany.termgrid.progress.v1'), true)
+  assert.equal(isUserOwnedState('nishany.maristanas.onboarding.v1'), true)
 })
 
 test('a student\'s flashcard decks and schedules are their own record', () => {
   // Same convention as the qbank prefix above: a dotted namespace under
-  // synapse.flashcards. belongs to the student who owns the deck's schedule,
+  // nishany.flashcards. belongs to the student who owns the deck's schedule,
   // never to the shared catalogue that holds the deck's content.
-  assert.equal(isUserOwnedState('synapse.flashcards.decks.v1'), true)
-  assert.equal(isUserOwnedState('synapse.flashcards.dailyCounts.v1'), true)
+  assert.equal(isUserOwnedState('nishany.flashcards.decks.v1'), true)
+  assert.equal(isUserOwnedState('nishany.flashcards.dailyCounts.v1'), true)
 })
 
 test('every library key a student writes is their own', () => {
-  assert.equal(isUserOwnedState('synapse.library.read'), true)
-  assert.equal(isUserOwnedState('synapse.library.userArticles'), true)
-  assert.equal(isUserOwnedState('synapse.library.personalTags'), true)
+  assert.equal(isUserOwnedState('nishany.library.read'), true)
+  assert.equal(isUserOwnedState('nishany.library.userArticles'), true)
+  assert.equal(isUserOwnedState('nishany.library.personalTags'), true)
   // Highlights and sticky notes on articles.
-  assert.equal(isUserOwnedState('synapse.library.marks.v1'), true)
+  assert.equal(isUserOwnedState('nishany.library.marks.v1'), true)
 })
 
 test('the shared catalogue is not mistaken for a student\'s own', () => {
   // These are admin-written and student-read. Routing one to the per-user store
   // would give every student their own private copy of the whole library.
-  assert.equal(isUserOwnedState('synapse-admin-content-ledger-v4'), false)
-  assert.equal(isUserOwnedState('synapse-academic-universities-v1'), false)
-  assert.equal(isUserOwnedState('synapse-medical-library-taxonomy-v1'), false)
-  assert.equal(isUserOwnedState('synapse-module-schedules-v1'), false)
-  assert.equal(isUserOwnedState('synapse-concept-graph-v2'), false)
+  assert.equal(isUserOwnedState('nishany-admin-content-ledger-v4'), false)
+  assert.equal(isUserOwnedState('nishany-academic-universities-v1'), false)
+  assert.equal(isUserOwnedState('nishany-medical-library-taxonomy-v1'), false)
+  assert.equal(isUserOwnedState('nishany-module-schedules-v1'), false)
+  assert.equal(isUserOwnedState('nishany-concept-graph-v2'), false)
 })
 
 test('a library key that is not a student\'s stays shared', () => {
   // The prefix alone must not be enough, or a future admin-owned library
   // document would silently become per-student.
-  assert.equal(isUserOwnedState('synapse.library.publishedIndex'), false)
+  assert.equal(isUserOwnedState('nishany.library.publishedIndex'), false)
 })
 
 test('a student\'s own uploads and share links are their own record', () => {
   // Both reached the shared admin store under their old, undotted names, where
   // a student is refused every read and every write of them.
-  assert.equal(isUserOwnedState('synapse.myDocuments.v1'), true)
-  assert.equal(isUserOwnedState('synapse.account.shares.v1'), true)
+  assert.equal(isUserOwnedState('nishany.myDocuments.v1'), true)
+  assert.equal(isUserOwnedState('nishany.account.shares.v1'), true)
 })
 
 test('the retired onboarding key is not quietly matched again', () => {
   // Whether an account has been enrolled is the server's answer now, read from
   // `/api/me`. Nothing should route this to either store.
-  assert.equal(isUserOwnedState('synapse-onboarding-v1'), false)
+  assert.equal(isUserOwnedState('nishany-onboarding-v1'), false)
 })

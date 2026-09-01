@@ -71,7 +71,7 @@ function emptySlide(): ManagedContentItem {
 }
 
 /**
- * Stored references (`synapse-media:…`) are opaque, so the editor cannot draw on
+ * Stored references (`nishany-media:…`) are opaque, so the editor cannot draw on
  * them directly — every view is resolved to a displayable URL here, exactly as
  * the student viewer resolves the one view it is showing.
  */

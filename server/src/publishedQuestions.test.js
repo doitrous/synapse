@@ -3,9 +3,9 @@ import assert from 'node:assert/strict'
 import { pool } from './db.js'
 import { invalidatePublishedQuestions, publishedQuestions } from './publishedQuestions.js'
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const MEDIA_KEY = 'synapse-media-library-v1'
-const CATALOGUE_KEY = 'synapse-academic-universities-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const MEDIA_KEY = 'nishany-media-library-v1'
+const CATALOGUE_KEY = 'nishany-academic-universities-v1'
 
 function question(status = 'Published') {
   return {

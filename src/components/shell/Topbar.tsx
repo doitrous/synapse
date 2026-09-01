@@ -58,7 +58,7 @@ export function Topbar({
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
   // The student's own notification preferences, from the Account page.
   const [prefs] = usePersistentState<{ reviewReminders: boolean; calendarReminders: boolean }>(
-    'synapse.account.prefs.v1',
+    'nishany.account.prefs.v1',
     { reviewReminders: true, calendarReminders: true },
   )
   const notifications = [

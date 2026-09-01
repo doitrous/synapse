@@ -37,7 +37,7 @@
 ```ts
 // src/data/courseCurriculum.ts
 /** Where a module's chosen content lives, keyed `${universityId}:${yearId}:${courseId}`. */
-export const COURSE_CURRICULA_STORAGE_KEY = 'synapse-course-curricula-v1'
+export const COURSE_CURRICULA_STORAGE_KEY = 'nishany-course-curricula-v1'
 
 export interface CourseCurriculumSelection {
   articleIds: string[]
@@ -240,7 +240,7 @@ export interface ModuleSubject {
 /** Keyed `${universityId}:${year.id}:${courseId}`. */
 export type ModuleSubjectStore = Record<string, ModuleSubject[]>
 
-export const MODULE_SUBJECTS_STORAGE_KEY = 'synapse-module-subjects-v1'
+export const MODULE_SUBJECTS_STORAGE_KEY = 'nishany-module-subjects-v1'
 
 export const DEFAULT_TERM = 'Term 1'
 

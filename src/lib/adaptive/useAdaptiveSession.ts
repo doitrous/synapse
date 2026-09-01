@@ -16,7 +16,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import type { Confidence, PresentationMode } from '@/data/adaptive/evidenceLedger'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const ADAPTIVE_SESSION_STORAGE_KEY = 'synapse.progress.adaptive.session.v1'
+export const ADAPTIVE_SESSION_STORAGE_KEY = 'nishany.progress.adaptive.session.v1'
 
 export interface RecordedAnswer {
   itemId: string

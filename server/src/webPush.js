@@ -20,7 +20,7 @@ function configured(env = process.env) {
 // mirrors how the module is actually used: env is read at boot, not per send.
 if (configured()) {
   webpush.setVapidDetails(
-    process.env.VAPID_SUBJECT || 'mailto:synapse@mail.doitrous.com',
+    process.env.VAPID_SUBJECT || 'mailto:info@nishany.com',
     process.env.VAPID_PUBLIC_KEY,
     process.env.VAPID_PRIVATE_KEY,
   )

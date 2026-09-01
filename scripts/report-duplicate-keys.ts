@@ -39,7 +39,7 @@ const LIVE = 'server/data/medical-library-v1.json'
 let liveCount = 0
 try {
   const live = JSON.parse(readFileSync(LIVE, 'utf8'))
-  for (const concept of live?.states?.['synapse-concept-graph-v2']?.concepts ?? []) {
+  for (const concept of live?.states?.['nishany-concept-graph-v2']?.concepts ?? []) {
     if (!concept?.id) continue
     rows.push({ id: concept.id, key: (concept.canonicalKey ?? '').trim(), label: (concept.label ?? '').trim(), where: 'live state' })
     liveCount += 1

@@ -82,5 +82,5 @@ test('a long usage list is summarised rather than printed whole', () => {
 })
 
 test('the document this library lives in is named once', () => {
-  assert.equal(MEDIA_STATE_KEY, 'synapse-media-library-v1')
+  assert.equal(MEDIA_STATE_KEY, 'nishany-media-library-v1')
 })

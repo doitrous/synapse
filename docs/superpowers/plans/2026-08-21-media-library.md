@@ -48,7 +48,7 @@
 | File | Change |
 |---|---|
 | `server/src/index.js` | Four media routes; `MEDIA_STORAGE_DIR` |
-| `server/src/tabs.js`, `src/data/adminTabs.ts` | `synapse-media-library-v1` on the Resources tab |
+| `server/src/tabs.js`, `src/data/adminTabs.ts` | `nishany-media-library-v1` on the Resources tab |
 | `server/src/studentLedger.js` | `media` survives into the student projection |
 | `src/data/contentControl.ts` | `MediaPlacement`; `media` on question authoring data |
 | `src/data/qbank.ts` | `media?: MediaPlacement[]` on `Question` |
@@ -313,7 +313,7 @@ EOF
 **Interfaces:**
 - Consumes: `imageMeta.js` (Task 1).
 - Produces:
-  - `MEDIA_STATE_KEY = 'synapse-media-library-v1'`
+  - `MEDIA_STATE_KEY = 'nishany-media-library-v1'`
   - `storageKeyFor(sha256, mimeType): string | null`
   - `mediaReleaseBlockers(record): string[]`
   - `isMediaReleased(record): boolean`
@@ -388,7 +388,7 @@ test('an image in use cannot be deleted, and the refusal says who is using it', 
 })
 
 test('the document this library lives in is named once', () => {
-  assert.equal(MEDIA_STATE_KEY, 'synapse-media-library-v1')
+  assert.equal(MEDIA_STATE_KEY, 'nishany-media-library-v1')
 })
 ```
 
@@ -410,7 +410,7 @@ Expected: FAIL — `Cannot find module './mediaLibrary.js'`
 
 import { MEDIA_MIME_EXTENSION } from './imageMeta.js'
 
-export const MEDIA_STATE_KEY = 'synapse-media-library-v1'
+export const MEDIA_STATE_KEY = 'nishany-media-library-v1'
 
 /**
  * The path a file with this digest is stored at.
@@ -558,14 +558,14 @@ In `server/src/tabs.js`, add the media key to the `resources` entry:
 
 ```js
   { id: 'resources', to: '/admin/resources', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'],
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-media-library-v1'],
     apiPrefixes: ['/api/medical-resources', '/api/media'] },
 ```
 
 Mirror it in `src/data/adminTabs.ts` on the same entry. In `server/src/tabs.test.js`, extend the key-ownership test:
 
 ```js
-  assert.deepEqual(tabsForStateKey('synapse-media-library-v1'), ['resources'])
+  assert.deepEqual(tabsForStateKey('nishany-media-library-v1'), ['resources'])
 ```
 
 Run: `cd server && node --test src/tabs.test.js`
@@ -670,8 +670,8 @@ app.get('/api/media/:id', requireAuthenticated, wrap(async (req, res) => {
 }))
 
 app.delete('/api/media/:id', requireTab('resources'), wrap(async (req, res) => {
-  const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-admin-content-ledger-v4'])
-  const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-concept-graph-v2'])
+  const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['nishany-admin-content-ledger-v4'])
+  const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['nishany-concept-graph-v2'])
   const ledger = ledgerRow.length ? JSON.parse(ledgerRow[0].v) : []
   const concepts = graphRow.length ? (JSON.parse(graphRow[0].v).concepts ?? []) : []
   const refusal = deleteRefusal(req.params.id, ledger, concepts)

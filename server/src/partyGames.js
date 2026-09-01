@@ -4,9 +4,9 @@ import { pool } from './db.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
 
-const GLOSSARY_KEY = 'synapse-medical-glossary-v1'
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const MINIGAME_PACKS_KEY = 'synapse-minigame-packs-v1'
+const GLOSSARY_KEY = 'nishany-medical-glossary-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const MINIGAME_PACKS_KEY = 'nishany-minigame-packs-v1'
 
 const GAME_KINDS = new Set([
   'term-grid',

@@ -52,7 +52,7 @@ Everything is pure + tested in `src/data/flashcards/`; UI in `src/components/fla
 - Study actions (each logs an event): `grade(cardId, answer, timeSpentMs?)`, `reset`, `suspend`, `bury`, `setDue`, `setFlag`.
 - Bulk (single commit): `bulkFlag/bulkSuspend/bulkBury/bulkReset/bulkSetDue/unburyDeck/bulkMoveNotes/bulkTag/bulkDeleteNotes`.
 - **`schedulerFor(deckId)` currently always returns `sm2Scheduler()`** — this is the seam for FSRS (see Task 1).
-- Storage keys: `synapse.flashcards.collection.v2`, `synapse.flashcards.reviewlog.v2`, legacy `synapse.flashcards.decks.v1`.
+- Storage keys: `nishany.flashcards.collection.v2`, `nishany.flashcards.reviewlog.v2`, legacy `nishany.flashcards.decks.v1`.
 
 ### Command/shortcut system — `src/lib/shortcuts/`
 - `keys.ts` — chord normalization (`Mod` = ⌘ on mac / Ctrl else), `eventToChord`, `parseChord`, `isEditableTarget`, `detectMac`. Shifted symbols like `?` drop the redundant Shift.
@@ -72,8 +72,8 @@ Everything is pure + tested in `src/data/flashcards/`; UI in `src/components/fla
 ## How to run / verify
 - Dev server: `preview_start` with `{ name: "synapse" }` (config in `.claude/launch.json`). Demo mode (no `.env`) → identity is `demo`, but an **onboarding modal** blocks the app. Bypass it by setting localStorage before loading `/app/flashcards`:
   ```js
-  localStorage.setItem('synapse.account.audience.v1', JSON.stringify({universityId:'kau', year:'Year 1', group:''}))
-  localStorage.setItem('synapse.account.profile.v1', JSON.stringify({username:'tester', iconId:'stethoscope', universityId:'kau', year:'Year 1'}))
+  localStorage.setItem('nishany.account.audience.v1', JSON.stringify({universityId:'kau', year:'Year 1', group:''}))
+  localStorage.setItem('nishany.account.profile.v1', JSON.stringify({username:'tester', iconId:'stethoscope', universityId:'kau', year:'Year 1'}))
   ```
   Then a provided deck "Heart failure · rapid review" (6 cards) is available to study.
 - Commands: `npm test` · `npx tsc -b` · `npm run lint` · `npm run build`. Tests are `node --test --experimental-strip-types "src/**/*.test.ts"`; colocated `*.test.ts`, `node:assert/strict`, import with `.ts` extension, inject `now`/state.
@@ -130,7 +130,7 @@ Everything is pure + tested in `src/data/flashcards/`; UI in `src/components/fla
 
 **How to verify (pick one):**
 - **Manual:** run the dev server, bypass onboarding (see above), Add → Image Occlusion → choose a real image → draw a few occluders → Save → study the deck; confirm masks render on the front and the asked region reveals on the back (`OcclusionCardFace.tsx`), for both `hide-all` and `hide-one` modes and for a grouped set.
-- **Scripted:** use `javascript_tool` to (a) store a small generated image blob into the `mediaStorage` IndexedDB (DB `synapse-media-v1`, store `attachments` — match `storeMediaFile`'s record shape), (b) inject an `ImageOcclusionNote` into `synapse.flashcards.collection.v2`, (c) study it and screenshot. This exercises `OcclusionCardFace` without a file dialog.
+- **Scripted:** use `javascript_tool` to (a) store a small generated image blob into the `mediaStorage` IndexedDB (DB `nishany-media-v1`, store `attachments` — match `storeMediaFile`'s record shape), (b) inject an `ImageOcclusionNote` into `nishany.flashcards.collection.v2`, (c) study it and screenshot. This exercises `OcclusionCardFace` without a file dialog.
 - Watch for: object-URL revocation on unmount, image-space viewBox mapping (`viewBox="0 0 imageWidth imageHeight"`), duplicate rejection on a second identical save, and the card count matching `occlusionCardCount`.
 
 **Likely-fine, but check:** `resolveMediaSource` returns `{ url, revoke }` — the study renderer must revoke when `revoke` is true and the component unmounts (already implemented — verify it actually fires). Pointer capture on touch. Fit-to-image on load.

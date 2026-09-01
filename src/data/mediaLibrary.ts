@@ -9,7 +9,7 @@
  * rewrite. Same arrangement as `adminRoles.ts` and `contentScope.ts`.
  */
 
-export const MEDIA_STATE_KEY = 'synapse-media-library-v1'
+export const MEDIA_STATE_KEY = 'nishany-media-library-v1'
 
 export const MEDIA_MIME_EXTENSION: Record<string, string> = {
   'image/png': 'png',

@@ -1,4 +1,4 @@
-# App Store listing — Connect Cortex
+# App Store listing — Nishany
 
 Everything App Store Connect asks for, in the order it asks. Fields marked
 **decide** are yours: they are commitments about the business, not facts about
@@ -12,7 +12,7 @@ Character limits are Apple's and are counted, not estimated.
 
 | Field | Value | Count |
 |---|---|---|
-| **App name** | `Connect Cortex` | 14 / 30 |
+| **App name** | `Nishany` | 7 / 30 |
 | **Subtitle** | `Medical study, built to stick` | 29 / 30 |
 | **Bundle ID** | `com.synapse.app` | — |
 | **SKU** | `connect-cortex-ios` | — |
@@ -22,7 +22,7 @@ Character limits are Apple's and are counted, not estimated.
 The bundle identifier keeps the `synapse` name deliberately. It is an address,
 not branding: changing it makes a different app, orphaning every install and
 every device token. The display name is what a student reads, and that is
-already `Connect Cortex`.
+now `Nishany`.
 
 ---
 
@@ -41,7 +41,7 @@ Changeable without review, so use it for what is true this term.
 
 *(1,693 / 4,000)*
 
-> Connect Cortex is a study platform for undergraduate medical students, built
+> Nishany is a study platform for undergraduate medical students, built
 > around a simple idea: the app should be able to explain every claim it makes
 > about you.
 >
@@ -76,7 +76,7 @@ Changeable without review, so use it for what is true this term.
 > **English and Arabic**, with the interface mirrored properly for Arabic
 > readers.
 >
-> Connect Cortex is a study tool. It is not clinical guidance, and nothing in it
+> Nishany is a study tool. It is not clinical guidance, and nothing in it
 > should be used for a decision about a patient.
 
 ---

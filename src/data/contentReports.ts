@@ -53,8 +53,8 @@ export interface ContentReport {
   archivedBy?: string
 }
 
-export const REPORT_STORAGE_KEY = 'synapse-content-reports-v1'
-export const REPORT_TOMBSTONES_KEY = 'synapse-content-report-tombstones-v1'
+export const REPORT_STORAGE_KEY = 'nishany-content-reports-v1'
+export const REPORT_TOMBSTONES_KEY = 'nishany-content-report-tombstones-v1'
 
 /** Statuses a reviewer never sees — archived work belongs to editors and above. */
 export const REVIEWER_HIDDEN_STATUSES: ReportStatus[] = ['Archived']

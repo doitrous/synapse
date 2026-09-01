@@ -16,8 +16,8 @@
 import { pool } from './db.js'
 import { publishedQuestions } from './publishedQuestions.js'
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const PINS_KEY = 'synapse-qotd-pins-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const PINS_KEY = 'nishany-qotd-pins-v1'
 // Bounds the per-user date window used for streaks. A daily feature can never
 // have a current streak longer than days-since-launch, so 400 (>1 year) means
 // `current` never caps in practice; `longest` only under-reports a true streak

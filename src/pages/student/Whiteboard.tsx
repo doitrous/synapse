@@ -132,7 +132,7 @@ export function Whiteboard() {
   /** Whether the "Your boards" / "Shared" section is expanded. Collapsed by
    * default so the board list does not compete with the board itself for
    * space; remembered per student once they change it. */
-  const [boardsPanelOpen, setBoardsPanelOpen] = usePersistentState<boolean>('synapse.whiteboard.boardsPanelOpen', false)
+  const [boardsPanelOpen, setBoardsPanelOpen] = usePersistentState<boolean>('nishany.whiteboard.boardsPanelOpen', false)
   const readyItemsTrigger = usePopoverTrigger()
   const [readyItemQuery, setReadyItemQuery] = useState('')
   /** The line being drawn, before it is committed to the board. */

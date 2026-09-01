@@ -49,7 +49,7 @@ export function Notebook() {
   const linkedArticle = params.get('article')
   const createFromArticle = params.get('new') === '1'
   const { subtopics: allSubtopics } = useLiveLibrary()
-  const [notes, setNotes] = usePersistentState<Note[]>('synapse.notebook.notes', initialNotes)
+  const [notes, setNotes] = usePersistentState<Note[]>('nishany.notebook.notes', initialNotes)
   // Was hardcoded to the demo note id `nb1`, so a student whose notes did not
   // include it opened on "No note selected" even with notes in the list.
   const [selectedId, setSelectedId] = useState<string | null>(null)
@@ -58,7 +58,7 @@ export function Notebook() {
   const [listOpen, setListOpen] = useState(false)
   const [tagOpen, setTagOpen] = useState(false)
   const [newTag, setNewTag] = useState('')
-  const [focusMode, setFocusMode] = usePersistentState<boolean>('synapse.notebook.focusMode', false)
+  const [focusMode, setFocusMode] = usePersistentState<boolean>('nishany.notebook.focusMode', false)
   const [imageError, setImageError] = useState<string | null>(null)
   const [sharing, setSharing] = useState(false)
   const [pendingCapture, setPendingCapture] = useState<NoteCapturePayload | null>(null)
@@ -112,8 +112,8 @@ export function Notebook() {
     handledCapture.current = true
     let captured: string | null = null
     try {
-      captured = sessionStorage.getItem('synapse.notebook.capture')
-      sessionStorage.removeItem('synapse.notebook.capture')
+      captured = sessionStorage.getItem('nishany.notebook.capture')
+      sessionStorage.removeItem('nishany.notebook.capture')
     } catch { /* ignore */ }
     if (!captured) return
     setPendingCapture(parseCapture(captured))

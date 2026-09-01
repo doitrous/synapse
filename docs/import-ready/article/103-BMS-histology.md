@@ -3784,7 +3784,7 @@ Assuming Langerhans cells are joined to keratinocytes like any other epidermal c
 
 Treating albinism and vitiligo as the same disorder because both cause pale skin. Albinism is a genetic enzyme defect present from birth, affecting melanin production everywhere; vitiligo is patchy, acquired, and likely autoimmune, destroying melanocytes that were previously pigmenting normally.
 
-Confusing the Merkel cell-neurite complex with a generic free nerve ending. It is a specific, named, disc-shaped synapse-like structure beneath one particular cell.
+Confusing the Merkel cell-neurite complex with a generic free nerve ending. It is a specific, named, disc-shaped nishany-like structure beneath one particular cell.
 
 ## published_summary
 

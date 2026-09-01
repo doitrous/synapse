@@ -705,7 +705,7 @@ function Reader({
   const [selectedSpanId, setSelectedSpanId] = useState<string | null>(null)
   const selectedSpan = evidence.articleSpans.find((span) => span.id === selectedSpanId)
   const chapterIndex = libraryTopics.find((topic) => topic.id === st.topicId)?.subtopics.findIndex((item) => item.id === id) ?? 0
-  const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('synapse.library.read', {})
+  const [readArticles, setReadArticles] = usePersistentState<Record<string, boolean>>('nishany.library.read', {})
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
   // Traps come from the projection, which has already applied the callout
   // evidence policy. Nothing is invented here when an article has none.
@@ -843,7 +843,7 @@ function Reader({
             iconLeft={NotebookPen}
             onClick={() => {
               try {
-                sessionStorage.setItem('synapse.notebook.capture', JSON.stringify({
+                sessionStorage.setItem('nishany.notebook.capture', JSON.stringify({
                   quote: st.summary,
                   sourceTitle: st.title,
                   articleId: st.id,
@@ -919,7 +919,7 @@ function Reader({
           iconLeft={NotebookPen}
           onClick={() => {
             try {
-              sessionStorage.setItem('synapse.notebook.capture', JSON.stringify({
+              sessionStorage.setItem('nishany.notebook.capture', JSON.stringify({
                 quote: st.summary,
                 sourceTitle: st.title,
                 articleId: st.id,
@@ -1124,7 +1124,7 @@ export function Library() {
   const [personalTags, setPersonalTags] = usePersistentState<Record<string, string[]>>(PERSONAL_TAGS_KEY, {})
   // Articles the student is actively holding onto, most recently held first.
   // A student-side reading shelf — nothing here is authored content.
-  const [heldArticles, setHeldArticles] = usePersistentState<string[]>('synapse.library.held', [])
+  const [heldArticles, setHeldArticles] = usePersistentState<string[]>('nishany.library.held', [])
   const toggleHeld = (articleId: string) =>
     setHeldArticles((prev) => (prev.includes(articleId) ? prev.filter((id) => id !== articleId) : [articleId, ...prev].slice(0, 24)))
   const [selectedId, setSelectedId] = useState(allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : '')
@@ -1135,7 +1135,7 @@ export function Library() {
   // once an article is open: with nothing open, the module menu is the whole
   // page (see `hasSelection`), so a stale "collapsed" preference from a past
   // session can never leave a student staring at an empty canvas.
-  const [railOpen, setRailOpen] = useLocalPreference('synapse.library.rail', true)
+  const [railOpen, setRailOpen] = useLocalPreference('nishany.library.rail', true)
   const railCollapseTimer = useRef<number | null>(null)
   /** Articles jumped from, most recent last — the way back out of "Read next". */
   const [trail, setTrail] = useState<string[]>([])

@@ -106,5 +106,5 @@ test('exportDecksToApkg embeds media and rewrites refs back to Anki filenames', 
   const pkg = await readAnkiDb(container.sqlite)
   const basicNote = pkg.notes.find((n) => n.fields[0].includes('img'))!
   assert.match(basicNote.fields[0], /<img src="heart\.png">/)
-  assert.doesNotMatch(basicNote.fields[0], /synapse-doc/)
+  assert.doesNotMatch(basicNote.fields[0], /nishany-doc/)
 })

@@ -636,7 +636,7 @@ EOF
   - `ADMIN_TABS: Array<{ id, group, stateKeys: string[], apiPrefixes: string[], superAdminOnly?: boolean }>`
   - `TAB_IDS: string[]`
   - `DEFAULT_ROLE_TABS: Record<'editor'|'admin'|'reviewer', string[]>`
-  - `ROLE_TABS_STATE_KEY = 'synapse-role-tabs-v1'`
+  - `ROLE_TABS_STATE_KEY = 'nishany-role-tabs-v1'`
   - `tabsForRole(role, storedConfig): string[]`
   - `tabsForStateKey(key): string[]` — empty array means no tab owns it
   - `holdsTab(heldTabs, wantedTabs): boolean`
@@ -711,16 +711,16 @@ test('the tabs are returned in registry order, so the first one is predictable',
 })
 
 test('a state key resolves to the tabs that may write it', () => {
-  assert.deepEqual(tabsForStateKey('synapse-vouchers-v1'), ['vouchers'])
+  assert.deepEqual(tabsForStateKey('nishany-vouchers-v1'), ['vouchers'])
   assert.deepEqual(
-    tabsForStateKey('synapse-admin-content-ledger-v4'),
+    tabsForStateKey('nishany-admin-content-ledger-v4'),
     ['library', 'questions', 'practical', 'resources', 'media'],
   )
   assert.deepEqual(tabsForStateKey(ROLE_TABS_STATE_KEY), ['access'])
 })
 
 test('an unregistered key belongs to no tab, so only a super admin may write it', () => {
-  assert.deepEqual(tabsForStateKey('synapse-something-nobody-declared'), [])
+  assert.deepEqual(tabsForStateKey('nishany-something-nobody-declared'), [])
   assert.equal(holdsTab(tabsForRole('editor', null), []), false)
   assert.equal(holdsTab(tabsForRole('editor', null), ['questions']), true)
   assert.equal(holdsTab(tabsForRole('admin', null), ['questions']), false)
@@ -758,68 +758,68 @@ Expected: FAIL — `Cannot find module './tabs.js'`
 
 import { rank } from './roles.js'
 
-export const ROLE_TABS_STATE_KEY = 'synapse-role-tabs-v1'
+export const ROLE_TABS_STATE_KEY = 'nishany-role-tabs-v1'
 
 export const ADMIN_TABS = [
   { id: 'dashboard', to: '/admin', group: 'Overview', stateKeys: [], apiPrefixes: [] },
 
   { id: 'taxonomy', to: '/admin/taxonomy', group: 'Content',
-    stateKeys: ['synapse-taxonomy-tree-v4', 'synapse-medical-library-taxonomy-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-taxonomy-tree-v4', 'nishany-medical-library-taxonomy-v1'], apiPrefixes: [] },
   { id: 'glossary', to: '/admin/glossary', group: 'Content',
-    stateKeys: ['synapse-medical-glossary-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-medical-glossary-v1'], apiPrefixes: [] },
   { id: 'academic', to: '/admin/academic', group: 'Content',
-    stateKeys: ['synapse-academic-universities-v1', 'synapse-course-curricula-v1', 'synapse-module-schedules-v1'],
+    stateKeys: ['nishany-academic-universities-v1', 'nishany-course-curricula-v1', 'nishany-module-schedules-v1'],
     apiPrefixes: [] },
   { id: 'marks', to: '/admin/academic/marks', group: 'Content',
-    stateKeys: ['synapse-module-subjects-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-module-subjects-v1'], apiPrefixes: [] },
   { id: 'library', to: '/admin/library', group: 'Content',
     stateKeys: [
-      'synapse-admin-content-ledger-v4',
-      'synapse-medical-evidence-v1',
-      'synapse-medical-evidence-published-v1',
-      'synapse-import-journal-v1',
+      'nishany-admin-content-ledger-v4',
+      'nishany-medical-evidence-v1',
+      'nishany-medical-evidence-published-v1',
+      'nishany-import-journal-v1',
     ],
     apiPrefixes: ['/api/medical-library/coverage'] },
   { id: 'questions', to: '/admin/questions', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'adaptive', to: '/admin/adaptive', group: 'Content',
-    stateKeys: ['synapse-adaptive-config-v1', 'synapse-adaptive-blueprints-v1', 'synapse-adaptive-heldout-v1'],
+    stateKeys: ['nishany-adaptive-config-v1', 'nishany-adaptive-blueprints-v1', 'nishany-adaptive-heldout-v1'],
     apiPrefixes: [] },
   { id: 'practical', to: '/admin/practical', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'concepts', to: '/admin/concepts', group: 'Content',
-    stateKeys: ['synapse-concept-graph-v2', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-concept-graph-v2', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'relationships', to: '/admin/relationships', group: 'Content',
-    stateKeys: ['synapse-concept-graph-v2', 'synapse-relation-types-v1', 'synapse-import-journal-v1'],
+    stateKeys: ['nishany-concept-graph-v2', 'nishany-relation-types-v1', 'nishany-import-journal-v1'],
     apiPrefixes: [] },
   { id: 'resources', to: '/admin/resources', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4'], apiPrefixes: ['/api/medical-resources'] },
+    stateKeys: ['nishany-admin-content-ledger-v4'], apiPrefixes: ['/api/medical-resources'] },
   { id: 'media', to: '/admin/library/media', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4'], apiPrefixes: [] },
   { id: 'reports', to: '/admin/reports', group: 'Content',
-    stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-content-reports-v1'], apiPrefixes: [] },
 
   { id: 'email', to: '/admin/email', group: 'Operations',
-    stateKeys: ['synapse-email-automations-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-email-automations-v1'], apiPrefixes: [] },
   { id: 'mailbox', to: '/admin/mailbox', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/mail', '/api/mailboxes'] },
   { id: 'notifications', to: '/admin/notifications', group: 'Operations',
-    stateKeys: ['synapse-notification-campaigns-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-notification-campaigns-v1'], apiPrefixes: [] },
   { id: 'users', to: '/admin/users', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/access/users'] },
   { id: 'students', to: '/admin/students', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/students'] },
   { id: 'payments', to: '/admin/payments', group: 'Operations',
-    stateKeys: ['synapse-plans-v1', 'synapse-plan-catalog-v1', 'synapse-student-id-discount-v1'],
+    stateKeys: ['nishany-plans-v1', 'nishany-plan-catalog-v1', 'nishany-student-id-discount-v1'],
     apiPrefixes: [] },
   { id: 'vouchers', to: '/admin/vouchers', group: 'Operations',
-    stateKeys: ['synapse-vouchers-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-vouchers-v1'], apiPrefixes: [] },
   { id: 'assistant', to: '/admin/assistant', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/admin/assistant'] },
   { id: 'privacy', to: '/admin/privacy', group: 'Operations', stateKeys: [], apiPrefixes: [] },
 
   { id: 'settings', to: '/admin/settings', group: 'Governance', superAdminOnly: true,
-    stateKeys: ['synapse-storage-limits-v1', 'synapse-system-colors-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-storage-limits-v1', 'nishany-system-colors-v1'], apiPrefixes: [] },
   { id: 'audit', to: '/admin/audit', group: 'Governance', superAdminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/backups', '/api/launch'] },
   { id: 'access', to: '/admin/access', group: 'Governance', superAdminOnly: true,
@@ -902,7 +902,7 @@ import {
 } from 'lucide-react'
 import { rank } from './adminRoles.ts'
 
-export const ROLE_TABS_STATE_KEY = 'synapse-role-tabs-v1'
+export const ROLE_TABS_STATE_KEY = 'nishany-role-tabs-v1'
 
 export type AdminTabGroup = 'Overview' | 'Content' | 'Operations' | 'Governance'
 
@@ -923,54 +923,54 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
   { id: 'dashboard', label: 'Control Dashboard', to: '/admin', icon: Gauge, group: 'Overview', end: true, stateKeys: [], apiPrefixes: [] },
 
   { id: 'taxonomy', label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network, group: 'Content',
-    stateKeys: ['synapse-taxonomy-tree-v4', 'synapse-medical-library-taxonomy-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-taxonomy-tree-v4', 'nishany-medical-library-taxonomy-v1'], apiPrefixes: [] },
   { id: 'glossary', label: 'Glossary', to: '/admin/glossary', icon: Languages, group: 'Content',
-    stateKeys: ['synapse-medical-glossary-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-medical-glossary-v1'], apiPrefixes: [] },
   { id: 'academic', label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap, group: 'Content',
-    stateKeys: ['synapse-academic-universities-v1', 'synapse-course-curricula-v1', 'synapse-module-schedules-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-academic-universities-v1', 'nishany-course-curricula-v1', 'nishany-module-schedules-v1'], apiPrefixes: [] },
   { id: 'marks', label: 'Marks & Weights', to: '/admin/academic/marks', icon: Scale, group: 'Content',
-    stateKeys: ['synapse-module-subjects-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-module-subjects-v1'], apiPrefixes: [] },
   { id: 'library', label: 'Library Setup', to: '/admin/library', icon: Library, group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-medical-evidence-v1', 'synapse-medical-evidence-published-v1', 'synapse-import-journal-v1'],
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-medical-evidence-v1', 'nishany-medical-evidence-published-v1', 'nishany-import-journal-v1'],
     apiPrefixes: ['/api/medical-library/coverage'] },
   { id: 'questions', label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion, group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'adaptive', label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass, group: 'Content',
-    stateKeys: ['synapse-adaptive-config-v1', 'synapse-adaptive-blueprints-v1', 'synapse-adaptive-heldout-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-adaptive-config-v1', 'nishany-adaptive-blueprints-v1', 'nishany-adaptive-heldout-v1'], apiPrefixes: [] },
   { id: 'practical', label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope, group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'concepts', label: 'Concepts', to: '/admin/concepts', icon: Braces, group: 'Content',
-    stateKeys: ['synapse-concept-graph-v2', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-concept-graph-v2', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'relationships', label: 'Relationships', to: '/admin/relationships', icon: GitFork, group: 'Content',
-    stateKeys: ['synapse-concept-graph-v2', 'synapse-relation-types-v1', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-concept-graph-v2', 'nishany-relation-types-v1', 'nishany-import-journal-v1'], apiPrefixes: [] },
   { id: 'resources', label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard, group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4'], apiPrefixes: ['/api/medical-resources'] },
+    stateKeys: ['nishany-admin-content-ledger-v4'], apiPrefixes: ['/api/medical-resources'] },
   { id: 'media', label: 'Media Requests', to: '/admin/library/media', icon: ImagePlus, group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4'], apiPrefixes: [] },
+    stateKeys: ['nishany-admin-content-ledger-v4'], apiPrefixes: [] },
   { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: Flag, group: 'Content',
-    stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-content-reports-v1'], apiPrefixes: [] },
 
   { id: 'email', label: 'Email & Automations', to: '/admin/email', icon: Mail, group: 'Operations',
-    stateKeys: ['synapse-email-automations-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-email-automations-v1'], apiPrefixes: [] },
   { id: 'mailbox', label: 'Mail Box', to: '/admin/mailbox', icon: Inbox, group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/mail', '/api/mailboxes'] },
   { id: 'notifications', label: 'Student Notifications', to: '/admin/notifications', icon: BellRing, group: 'Operations',
-    stateKeys: ['synapse-notification-campaigns-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-notification-campaigns-v1'], apiPrefixes: [] },
   { id: 'users', label: 'Users', to: '/admin/users', icon: UserCog, group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/access/users'] },
   { id: 'students', label: 'Students', to: '/admin/students', icon: Users, group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/students'] },
   { id: 'payments', label: 'Payments & Finance', to: '/admin/payments', icon: Banknote, group: 'Operations',
-    stateKeys: ['synapse-plans-v1', 'synapse-plan-catalog-v1', 'synapse-student-id-discount-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-plans-v1', 'nishany-plan-catalog-v1', 'nishany-student-id-discount-v1'], apiPrefixes: [] },
   { id: 'vouchers', label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent, group: 'Operations',
-    stateKeys: ['synapse-vouchers-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-vouchers-v1'], apiPrefixes: [] },
   { id: 'assistant', label: 'AI Assistant', to: '/admin/assistant', icon: Bot, group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/admin/assistant'] },
   { id: 'privacy', label: 'Privacy & Support', to: '/admin/privacy', icon: LifeBuoy, group: 'Operations',
     stateKeys: [], apiPrefixes: [] },
 
   { id: 'settings', label: 'Settings', to: '/admin/settings', icon: Settings, group: 'Governance', superAdminOnly: true,
-    stateKeys: ['synapse-storage-limits-v1', 'synapse-system-colors-v1'], apiPrefixes: [] },
+    stateKeys: ['nishany-storage-limits-v1', 'nishany-system-colors-v1'], apiPrefixes: [] },
   { id: 'audit', label: 'Audit & Security', to: '/admin/audit', icon: ShieldCheck, group: 'Governance', superAdminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/backups', '/api/launch'] },
   { id: 'access', label: 'Access Control', to: '/admin/access', icon: KeyRound, group: 'Governance', superAdminOnly: true,
@@ -1543,8 +1543,8 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { authoriseChanges, diffDocument, isMergeable, mergeDocument } from './stateMerge.js'
 
-const LEDGER = 'synapse-admin-content-ledger-v4'
-const GRAPH = 'synapse-concept-graph-v2'
+const LEDGER = 'nishany-admin-content-ledger-v4'
+const GRAPH = 'nishany-concept-graph-v2'
 
 const q = (id, title, moduleIds = ['MOD_CVS']) => ({
   id, kind: 'question', title, questionData: { tags: { moduleIds, years: [] } },
@@ -1553,7 +1553,7 @@ const q = (id, title, moduleIds = ['MOD_CVS']) => ({
 test('only the keyed collections merge', () => {
   assert.equal(isMergeable(LEDGER), true)
   assert.equal(isMergeable(GRAPH), true)
-  assert.equal(isMergeable('synapse-vouchers-v1'), false)
+  assert.equal(isMergeable('nishany-vouchers-v1'), false)
 })
 
 test('a diff names what changed, by collection and id', () => {
@@ -1643,7 +1643,7 @@ test('my deletion applies onto what is stored, and leaves their additions alone'
 })
 
 test('an unmergeable document is returned as sent, for the caller to version-check', () => {
-  const merged = mergeDocument('synapse-vouchers-v1', { a: 1 }, { a: 2 }, { a: 3 })
+  const merged = mergeDocument('nishany-vouchers-v1', { a: 1 }, { a: 2 }, { a: 3 })
   assert.equal(merged.ok, true)
   assert.deepEqual(merged.value, { a: 3 })
 })
@@ -1675,8 +1675,8 @@ Expected: FAIL — `Cannot find module './stateMerge.js'`
 import { tabsForStateKey } from './tabs.js'
 import { changeWritableBy } from './contentScope.js'
 
-const LEDGER = 'synapse-admin-content-ledger-v4'
-const GRAPH = 'synapse-concept-graph-v2'
+const LEDGER = 'nishany-admin-content-ledger-v4'
+const GRAPH = 'nishany-concept-graph-v2'
 
 /**
  * How to take a document apart, per key.
@@ -2805,7 +2805,7 @@ EOF
 - Create: `src/pages/admin/AccessControl.tsx`
 
 **Interfaces:**
-- Consumes: `adminTabs.ts` (Task 4), `usePersistentState`, the `synapse-role-tabs-v1` key.
+- Consumes: `adminTabs.ts` (Task 4), `usePersistentState`, the `nishany-role-tabs-v1` key.
 - Produces: the page component `AccessControl`, already routed in Task 13.
 
 - [ ] **Step 1: Write the page**
@@ -3347,8 +3347,8 @@ This is the claim the whole design rests on, so it is tested as behaviour. With 
 1. Set the account's role to `reviewer` and give it a scope of one module.
 2. `GET /api/session` — confirm `tabs` contains `questions` and not `users`.
 3. `POST /api/admin/users/<some-id>/role` with a valid reason — expect **403** `that area is not part of your role`.
-4. `PUT /api/state/synapse-vouchers-v1` — expect **403**.
-5. `PUT /api/state/synapse-admin-content-ledger-v4` changing a question inside the reviewer's module — expect **200**.
+4. `PUT /api/state/nishany-vouchers-v1` — expect **403**.
+5. `PUT /api/state/nishany-admin-content-ledger-v4` changing a question inside the reviewer's module — expect **200**.
 6. The same call changing a question outside it — expect **403** with a `refusals` array naming the item.
 7. `GET /api/state` (bulk hydrate) — expect **403**, super admin only.
 

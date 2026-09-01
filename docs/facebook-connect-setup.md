@@ -7,7 +7,7 @@ off by default — nothing below is optional if you want the button live.
 ## 1. Create the Meta app
 
 1. https://developers.facebook.com/apps → **Create App** → **Consumer**.
-2. Name it, e.g. "Synapse — Study Together".
+2. Name it, e.g. "Nishany — Study Together".
 3. **Settings → Basic**: note the **App ID** and **App Secret** (needed
    below). Set **App Domains** to your production domain and **Privacy
    Policy URL** to `https://<domain>/privacy` (already served by the app).

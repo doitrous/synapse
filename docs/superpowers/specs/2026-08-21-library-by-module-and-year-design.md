@@ -7,7 +7,7 @@ Scope: library trees, the student library, Library Setup
 ## Problem
 
 The library has five views. Four are generated: `system`, `discipline`,
-`skills` and `knowledge` are divisions of `synapse-medical-library-taxonomy-v1`,
+`skills` and `knowledge` are divisions of `nishany-medical-library-taxonomy-v1`,
 a fixed tree an admin can browse and place content into but cannot restructure.
 
 The fifth, **My Curriculum**, renders this and nothing else
@@ -32,7 +32,7 @@ Settled during brainstorming; not open in planning.
 |---|---|
 | Where the content comes from | **The same articles, placed a second time.** A tree files existing articles by id; nothing is copied. |
 | Tree shape | **No fixed depth and no fixed meaning per level.** Subjects, topics, subtopics — or five levels, if that is how a faculty teaches. |
-| Storage | **One document**, `synapse-library-trees-v1`, holding every tree keyed by scope. Not one document per module. |
+| Storage | **One document**, `nishany-library-trees-v1`, holding every tree keyed by scope. Not one document per module. |
 | Who may edit | **Reviewers, for the modules and years they are assigned**, enforced by the server. Editors and above, everywhere. |
 | My Curriculum | **Replaced** by By module and By year. The empty promise goes. |
 | Articles filed nowhere | **Still appear in Systems.** These are additional placements, not a replacement. |
@@ -65,7 +65,7 @@ interface LibraryTreesDocument {
 ```
 
 **Why one document rather than one per module.** A key like
-`synapse-library-tree-module-MOD_CVS` is a dynamic key space, and
+`nishany-library-tree-module-MOD_CVS` is a dynamic key space, and
 `tabsForStateKey` maps exact keys — an unregistered key is super-admin-only by
 design, so every new module's tree would be unreachable until somebody added it
 to the registry. One registered key with a **`stateMerge` adapter** avoids that

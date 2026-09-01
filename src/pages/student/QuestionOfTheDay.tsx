@@ -254,7 +254,7 @@ export function QuestionOfTheDay() {
   async function handleShare() {
     // No question text and no correct option — only the streak, so a share
     // never spoils today's question for the friend who opens it next.
-    const shareText = t('Got today’s Synapse question — {count}-day streak 🔥').replace('{count}', String(qotd.current))
+    const shareText = t('Got today’s Nishany question — {count}-day streak 🔥').replace('{count}', String(qotd.current))
     const shareUrl = `${window.location.origin}/app/qotd`
     if (typeof navigator.share === 'function') {
       try {

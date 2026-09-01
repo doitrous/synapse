@@ -156,7 +156,7 @@ export function ensureEntry<T>(key: string, initial: T | (() => T)): Entry {
     // A shared document's recovery key is known immediately; a user-owned one
     // has to wait for the account id, so that one account's unsent work can
     // never be adopted by the next account to sign in on this browser.
-    recoveryKey: isUserOwnedState(key) ? null : `synapse.pending.v1:shared:${key}`,
+    recoveryKey: isUserOwnedState(key) ? null : `nishany.pending.v1:shared:${key}`,
     unauthorizedAttempts: 0,
     awaitingSession: false,
   }
@@ -417,10 +417,10 @@ export function hydrate(key: string): void {
 
     if (entry.userOwned) {
       const ownerId = await stateOwnerId()
-      entry.recoveryKey = ownerId ? `synapse.pending.v2:user:${ownerId}:${entry.key}` : null
+      entry.recoveryKey = ownerId ? `nishany.pending.v2:user:${ownerId}:${entry.key}` : null
       // The former unscoped recovery key is deliberately retired so data from
       // one account can never be adopted by another account.
-      try { localStorage.removeItem(`synapse.pending.v1:user:${entry.key}`) } catch { /* ignore */ }
+      try { localStorage.removeItem(`nishany.pending.v1:user:${entry.key}`) } catch { /* ignore */ }
     }
 
     // The version this document was read at. Every later save quotes it, so the

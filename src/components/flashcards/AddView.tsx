@@ -80,7 +80,7 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
   const [back, setBack] = useState(editingBasicOrCloze?.type === 'basic' ? editingBasicOrCloze.fields.back : '')
   const [clozeText, setClozeText] = useState(editingBasicOrCloze?.type === 'cloze' ? editingBasicOrCloze.fields.text : '')
   const [extra, setExtra] = useState(editingBasicOrCloze?.type === 'cloze' ? editingBasicOrCloze.fields.extra : '')
-  // Optional card audio (a `synapse-media:` reference); shared by Basic and Cloze.
+  // Optional card audio (a `nishany-media:` reference); shared by Basic and Cloze.
   const [audio, setAudio] = useState<string | undefined>(editingBasicOrCloze?.fields.audio)
   // The audio the note already owned when editing began — never deleted on a mere
   // Remove, so Remove-then-Cancel can't orphan the still-referenced blob.

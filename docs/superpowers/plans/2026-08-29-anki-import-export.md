@@ -241,7 +241,7 @@ test('mergeImport merges optional card meta by card id', () => {
 - [ ] **Step 2: Write failing tests** (extend `richText.test.ts`):
 
 ```ts
-test('sanitizeRich keeps <img> with a synapse-doc media reference src', () => {
+test('sanitizeRich keeps <img> with a nishany-doc media reference src', () => {
   const html = sanitizeRich('<img src="synapse-doc:med-1" alt="x" width="200">')
   assert.match(html, /<img[^>]+src="synapse-doc:med-1"/)
   assert.match(html, /alt="x"/)
@@ -376,7 +376,7 @@ export function mapAnkiPackage(pkg: AnkiPackage, opts: { preserveSchedule: boole
 
 - [ ] **Step 5: Run tests + tsc, expect PASS.** (Server route: smoke via the integration task.)
 
-- [ ] **Step 6: Commit** `feat(media): resolve my-documents-hosted media (synapse-doc refs)`.
+- [ ] **Step 6: Commit** `feat(media): resolve my-documents-hosted media (nishany-doc refs)`.
 
 ---
 

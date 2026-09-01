@@ -8,7 +8,7 @@
  * emitted, Basic and Cloze, matching this app's own note kinds; everything a
  * student authored maps onto one of them.
  *
- * Media travels in reverse of import: a field's `synapse-doc:`/`synapse-media:`
+ * Media travels in reverse of import: a field's `nishany-doc:`/`nishany-media:`
  * reference is resolved back to its original filename + bytes via the injected
  * `fetchMedia`, the reference in the HTML is rewritten to that bare filename
  * (and a note's audio becomes a trailing `[sound:name]`, Anki's own convention),
@@ -167,7 +167,11 @@ const FIELD_SEPARATOR = '\x1f'
 const IMG_SRC_RE = /(<img\b[^>]*?\bsrc\s*=\s*)("([^"]*)"|'([^']*)')/gi
 
 function isMediaReference(value: string): boolean {
-  return value.startsWith('synapse-doc:') || value.startsWith('synapse-media:') || /^\/media\/[^/?#]+$/.test(value)
+  // Current (`nishany-`) and pre-rebrand (`synapse-`) prefixes both count: a deck
+  // saved before the rebrand still carries the old references until re-saved.
+  return value.startsWith('nishany-doc:') || value.startsWith('nishany-media:')
+    || value.startsWith('synapse-doc:') || value.startsWith('synapse-media:')
+    || /^\/media\/[^/?#]+$/.test(value)
 }
 
 interface NoteRowInput {

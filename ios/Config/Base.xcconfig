@@ -6,7 +6,7 @@
 // Swift (see AppConfig). Keep it that way — a truncated URL fails at runtime
 // with a confusing error rather than at build time with a clear one.
 
-PRODUCT_BUNDLE_IDENTIFIER = com.synapse.app
+PRODUCT_BUNDLE_IDENTIFIER = com.nishany.app
 PRODUCT_NAME = Synapse
 MARKETING_VERSION = 0.1.0
 CURRENT_PROJECT_VERSION = 1

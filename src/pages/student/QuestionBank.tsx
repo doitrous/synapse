@@ -116,7 +116,7 @@ const WEAKNESS_EVIDENCE = 3
 const REVIEW_SESSION_SIZE = 5
 
 /** Dotted, so `isUserOwnedState` routes these marks to the student's own record. */
-const QBANK_MARKED_STORAGE_KEY = 'synapse.qbank.marked.v1'
+const QBANK_MARKED_STORAGE_KEY = 'nishany.qbank.marked.v1'
 
 function newSessionId(): string {
   return `qb-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
@@ -254,8 +254,8 @@ interface LiveSession {
 }
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-const ACTIVE_SESSION_STORAGE_KEY = 'synapse.qbank.activeSession.v1'
-const SESSION_NAMES_STORAGE_KEY = 'synapse.qbank.sessionNames.v1'
+const ACTIVE_SESSION_STORAGE_KEY = 'nishany.qbank.activeSession.v1'
+const SESSION_NAMES_STORAGE_KEY = 'nishany.qbank.sessionNames.v1'
 
 /** One number with its name under it, for the row of figures on a sitting. */
 function DetailStat({ label, value, tone }: { label: string; value: string; tone?: 'good' | 'bad' }) {
@@ -278,7 +278,7 @@ function DetailStat({ label, value, tone }: { label: string; value: string; tone
  * other half of the pair: with both, "served but never attempted" is a fact
  * rather than a guess.
  */
-const SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'
+const SESSION_QUESTIONS_STORAGE_KEY = 'nishany.qbank.sessionQuestions.v1'
 
 /**
  * Everything one sitting can say about itself.
@@ -798,7 +798,7 @@ export function QuestionBank() {
    * per-option rationale) into two columns instead of stacking them.
    * Persisted so a student who likes it does not re-toggle every sitting.
    */
-  const [splitView, setSplitView] = usePersistentState<boolean>('synapse.qbank.splitView.v1', false)
+  const [splitView, setSplitView] = usePersistentState<boolean>('nishany.qbank.splitView.v1', false)
   /** Mirrors the `lg` breakpoint — split view never applies below it. */
   const [isDesktop, setIsDesktop] = useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1024px)').matches)
   useEffect(() => {

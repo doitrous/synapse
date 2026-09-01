@@ -22,8 +22,8 @@ export interface RhythmSchemeMeta {
 }
 
 export const RHYTHM_SCHEMES: RhythmSchemeMeta[] = [
-  { id: 'crimson', label: 'Cortex Crimson' },
-  { id: 'blue', label: 'Cortex Blue' },
+  { id: 'crimson', label: 'Nishan Crimson' },
+  { id: 'blue', label: 'Field Blue' },
   { id: 'teal', label: 'Clinical Teal' },
   { id: 'amber', label: 'Amber' },
   { id: 'violet', label: 'Violet' },

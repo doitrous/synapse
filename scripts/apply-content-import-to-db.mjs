@@ -46,7 +46,7 @@ const commit = args.includes('--commit')
 const files = args.filter((a) => !a.startsWith('--'))
 if (!files.length) throw new Error('Give at least one batch file')
 
-const KEYS = ['synapse-admin-content-ledger-v4', 'synapse-concept-graph-v2', 'synapse-medical-evidence-v1', 'synapse-minigame-packs-v1']
+const KEYS = ['nishany-admin-content-ledger-v4', 'nishany-concept-graph-v2', 'nishany-medical-evidence-v1', 'nishany-minigame-packs-v1']
 const LEDGER_KEY = KEYS[0]
 const GRAPH_KEY = KEYS[1]
 const MINIGAME_PACKS_KEY = KEYS[3]

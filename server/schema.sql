@@ -127,7 +127,7 @@ CREATE TABLE IF NOT EXISTS students (
   created_at         TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- Mail addresses we own (e.g. synapse@mail.doitrous.com).
+-- Mail addresses we own (e.g. info@nishany.com).
 CREATE TABLE IF NOT EXISTS mailboxes (
   address    VARCHAR(255) PRIMARY KEY,
   label      VARCHAR(255),

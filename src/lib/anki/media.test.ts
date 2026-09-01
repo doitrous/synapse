@@ -42,7 +42,7 @@ function recordingUpload(): { fn: UploadDoc; files: string[] } {
   return { fn, files }
 }
 
-test('materializeMedia: rewrites <img src> to a synapse-doc ref and uploads the asset', async () => {
+test('materializeMedia: rewrites <img src> to a nishany-doc ref and uploads the asset', async () => {
   const note = basicNote('Q <img src="a.png">', 'plain back')
   const mapped = mappedFrom(note, ['a.png'])
   const { fn, files } = recordingUpload()
@@ -50,7 +50,7 @@ test('materializeMedia: rewrites <img src> to a synapse-doc ref and uploads the 
   const { notes, report } = await materializeMedia(mapped, container([{ ankiName: 'a.png', bytes: Uint8Array.from([1, 2, 3]) }]), fn)
 
   const out = notes[0] as BasicNote
-  assert.match(out.fields.front, /<img[^>]+src="synapse-doc:doc-a\.png"/)
+  assert.match(out.fields.front, /<img[^>]+src="nishany-doc:doc-a\.png"/)
   assert.deepEqual(files, ['a.png'])
   assert.equal(report.mediaRefs, 1)
 })
@@ -63,7 +63,7 @@ test('materializeMedia: [sound:x] becomes the note audio ref and leaves the text
   const { notes } = await materializeMedia(mapped, container([{ ankiName: 's.mp3', bytes: Uint8Array.from([9]) }]), fn)
 
   const out = notes[0] as BasicNote
-  assert.equal(out.fields.audio, 'synapse-doc:doc-s.mp3')
+  assert.equal(out.fields.audio, 'nishany-doc:doc-s.mp3')
   assert.doesNotMatch(out.fields.back, /\[sound:/)
 })
 
@@ -90,7 +90,7 @@ test('materializeMedia: uploads each asset once even if referenced twice', async
 
   assert.deepEqual(files, ['a.png'])
   const out = notes[0] as BasicNote
-  const matches = out.fields.front.match(/synapse-doc:doc-a\.png/g) ?? []
+  const matches = out.fields.front.match(/nishany-doc:doc-a\.png/g) ?? []
   assert.equal(matches.length, 2)
 })
 
@@ -109,7 +109,7 @@ test('materializeMedia: reports when a note carries more than one audio clip', a
   )
 
   const out = notes[0] as BasicNote
-  assert.equal(out.fields.audio, 'synapse-doc:doc-one.mp3')
+  assert.equal(out.fields.audio, 'nishany-doc:doc-one.mp3')
   assert.ok(report.approximations.some((a) => /more than one audio/i.test(a)))
 })
 
@@ -130,5 +130,5 @@ test('materializeMedia: cloze note media is rewritten in text/extra', async () =
 
   const out = notes[0] as ClozeNote
   assert.match(out.fields.text, /\{\{c1::x\}\}/)
-  assert.match(out.fields.text, /synapse-doc:doc-a\.png/)
+  assert.match(out.fields.text, /nishany-doc:doc-a\.png/)
 })

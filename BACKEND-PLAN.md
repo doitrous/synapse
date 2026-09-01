@@ -1,4 +1,4 @@
-# Synapse Backend Plan — MariaDB + Resend on Coolify
+# Nishany Backend Plan — MariaDB + Resend on Coolify
 
 The app today is a static SPA that stores everything in the browser's
 `localStorage`, seeded from demo data. That's why your data "resets to default
@@ -44,7 +44,7 @@ relational tables only where you query across rows (students, emails).
 ```sql
 -- Generic key/value document store (mirrors localStorage keys 1:1)
 CREATE TABLE app_state (
-  k           VARCHAR(128) PRIMARY KEY,     -- e.g. 'synapse-admin-content-ledger-v4'
+  k           VARCHAR(128) PRIMARY KEY,     -- e.g. 'nishany-admin-content-ledger-v4'
   v           LONGTEXT NOT NULL,            -- JSON
   updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );

@@ -188,8 +188,8 @@ export const NOTE_H = NOTE_HEIGHT
  * written into a real student's account the first time they dragged anything.
  */
 export const INITIAL_BOARD: BoardState = { notes: [], links: [], frames: [] }
-export const WHITEBOARD_COLLECTION_KEY = 'synapse.whiteboard.boards.v1'
-export const LEGACY_WHITEBOARD_KEY = 'synapse.whiteboard.board'
+export const WHITEBOARD_COLLECTION_KEY = 'nishany.whiteboard.boards.v1'
+export const LEGACY_WHITEBOARD_KEY = 'nishany.whiteboard.board'
 
 /** A board's collection, whether or not it was saved before the field existed. */
 export const imagesOf = (board: BoardState) => board.images ?? []

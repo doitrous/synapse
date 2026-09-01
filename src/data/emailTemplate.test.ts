@@ -53,7 +53,7 @@ test('the masthead falls back to letters, so it is never a hole', () => {
   // Images off: the client draws the alt text using the styles on the <img>, so
   // the N has to arrive in the same face and size as the run around it.
   assert.match(mark, /alt="N"/)
-  assert.match(mark, /font-family:Orbitron,/)
+  assert.match(mark, /font-family:'Space Grotesk',/)
   assert.match(mark, /font-size:19px/)
   assert.match(mark, /color:#1553b3/)
   // Outlook draws a placeholder icon rather than honour alt text, so Word is

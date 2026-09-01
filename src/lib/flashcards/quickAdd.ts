@@ -19,8 +19,8 @@ import type { FlashcardCollection } from '../../data/flashcards/model.ts'
 import { escapeHtml } from '../../data/flashcards/richText.ts'
 
 /** The storage keys the flashcards collection lives under — must match `useFlashcards`. */
-export const FLASHCARDS_COLLECTION_KEY = 'synapse.flashcards.collection.v2'
-export const FLASHCARDS_LEGACY_DECKS_KEY = 'synapse.flashcards.decks.v1'
+export const FLASHCARDS_COLLECTION_KEY = 'nishany.flashcards.collection.v2'
+export const FLASHCARDS_LEGACY_DECKS_KEY = 'nishany.flashcards.decks.v1'
 
 export interface QuickAddInput {
   front: string

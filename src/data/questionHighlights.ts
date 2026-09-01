@@ -18,12 +18,12 @@ export interface QuestionHighlight {
 }
 
 /**
- * Dotted under `synapse.qbank.`, which `isUserOwnedState` already routes to the
+ * Dotted under `nishany.qbank.`, which `isUserOwnedState` already routes to the
  * student's own record — the same pattern `questionNotes` (`StudyRail`) uses.
  * Without that prefix this would land in the shared catalogue store, where a
  * student has no write permission and every save would be refused.
  */
-export const QUESTION_HIGHLIGHTS_STORAGE_KEY = 'synapse.qbank.questionHighlights.v1'
+export const QUESTION_HIGHLIGHTS_STORAGE_KEY = 'nishany.qbank.questionHighlights.v1'
 
 /** Highlights keyed by the question they sit on. */
 export type QuestionHighlightStore = Record<string, QuestionHighlight[]>

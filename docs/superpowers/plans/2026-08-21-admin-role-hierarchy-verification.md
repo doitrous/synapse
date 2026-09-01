@@ -76,9 +76,9 @@ These are the checks that need a live database and a real Supabase session.
 2. **A hidden tab refuses its API.** As a `reviewer` with one module assigned:
    `GET /api/session` lists `questions` and not `users`;
    `POST /api/admin/users/<id>/role` → **403**;
-   `PUT /api/state/synapse-vouchers-v1` → **403**;
+   `PUT /api/state/nishany-vouchers-v1` → **403**;
    `GET /api/state` (bulk hydrate) → **403**;
-   `PUT /api/state/synapse-admin-content-ledger-v4` changing an in-scope
+   `PUT /api/state/nishany-admin-content-ledger-v4` changing an in-scope
    question → **200**, and an out-of-scope one → **403** with a `refusals` array
    naming the item.
 3. **The merge, with two sessions.** Two console accounts editing *different*

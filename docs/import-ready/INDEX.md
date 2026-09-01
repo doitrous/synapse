@@ -1332,8 +1332,8 @@ detail in `pending-live/INDEX.md`.
 ## Before applying anything
 
 ```bash
-npm run medical:simulate -- "docs/import-ready/"*/*.md --emit /tmp/synapse-sim.json
-npm run medical:audit -- --source /tmp/synapse-sim.json
+npm run medical:simulate -- "docs/import-ready/"*/*.md --emit /tmp/nishany-sim.json
+npm run medical:audit -- --source /tmp/nishany-sim.json
 ```
 
 The first applies every pending batch to a copy of live state and reports the delta. The

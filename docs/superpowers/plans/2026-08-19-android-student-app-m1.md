@@ -1,4 +1,4 @@
-# Connect Cortex for Android — Milestone 1 Implementation Plan
+# Nishany for Android — Milestone 1 Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -13,7 +13,7 @@
 ## Global Constraints
 
 - `applicationId = "com.synapse.android"`, package root `com.synapse.android`. (iOS uses `com.synapse.app`; the stores are separate namespaces and these must not be shared.)
-- App display name: **Connect Cortex**.
+- App display name: **Nishany**.
 - `minSdk = 26`, `targetSdk = 36`, and the compile SDK in AGP 9's block form:
   `compileSdk { version = release(36) { minorApiLevel = 1 } }`. The only platform installed is
   `android-36.1`; asking for a plain `36` sends Gradle looking for a platform that is not on disk.
@@ -98,7 +98,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Connect Cortex"
+rootProject.name = "Nishany"
 include(":app")
 ```
 
@@ -198,7 +198,7 @@ missing using a version the catalog already carries. Do not introduce a new vers
 
     <application
         android:allowBackup="false"
-        android:label="Connect Cortex"
+        android:label="Nishany"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar">
         <activity
@@ -397,7 +397,7 @@ git commit -m "Stand up an Android module that builds without any secrets"
 
 **Interfaces:**
 - Consumes: nothing.
-- Produces: `CortexTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit)`, and `LocalCortex.current: CortexColors` with fields `paper, surface, surface2, inset, ink, ink2, ink3, line, line2, primary, primaryStrong, primaryTint, primaryLine, onPrimary, accent, accentStrong, accentTint, accentLine, onAccent, success, successTint, onSuccess, warning, warningTint, onWarning, danger, dangerTint, onDanger` (all `Color`), plus `CortexRadius.sm/md/lg/xl/xxl` as `Dp`.
+- Produces: `NishanyTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit)`, and `LocalNishany.current: NishanyColors` with fields `paper, surface, surface2, inset, ink, ink2, ink3, line, line2, primary, primaryStrong, primaryTint, primaryLine, onPrimary, accent, accentStrong, accentTint, accentLine, onAccent, success, successTint, onSuccess, warning, warningTint, onWarning, danger, dangerTint, onDanger` (all `Color`), plus `NishanyRadius.sm/md/lg/xl/xxl` as `Dp`.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -415,36 +415,36 @@ class ThemeTest {
 
     @Test
     fun `light palette matches the web tokens`() {
-        assertEquals(Color(0xFFF5F7FB), LightCortexColors.paper)
-        assertEquals(Color(0xFFD13A63), LightCortexColors.primary)
-        assertEquals(Color(0xFF1553B3), LightCortexColors.accent)
+        assertEquals(Color(0xFFF5F7FB), LightNishanyColors.paper)
+        assertEquals(Color(0xFFD13A63), LightNishanyColors.primary)
+        assertEquals(Color(0xFF1553B3), LightNishanyColors.accent)
     }
 
     @Test
     fun `dark grounds are dark and dark ink is light`() {
-        assertEquals(Color(0xFF0D1117), DarkCortexColors.paper)
-        assertEquals(Color(0xFFE8ECF3), DarkCortexColors.ink)
+        assertEquals(Color(0xFF0D1117), DarkNishanyColors.paper)
+        assertEquals(Color(0xFFE8ECF3), DarkNishanyColors.ink)
     }
 
     @Test
     fun `the inset goes darker than the page in dark, as the web does`() {
-        assertEquals(Color(0xFF0A0E14), DarkCortexColors.inset)
+        assertEquals(Color(0xFF0A0E14), DarkNishanyColors.inset)
     }
 
     @Test
     fun `accent is re-picked for dark rather than reused`() {
         // #1553b3 is unreadable on a dark ground. A dark palette that simply
         // reuses the light accent is the tell that the port was mechanical.
-        assertNotEquals(LightCortexColors.accent, DarkCortexColors.accent)
-        assertEquals(Color(0xFF6FA5FF), DarkCortexColors.accent)
+        assertNotEquals(LightNishanyColors.accent, DarkNishanyColors.accent)
+        assertEquals(Color(0xFF6FA5FF), DarkNishanyColors.accent)
     }
 
     @Test
     fun `the primary fill holds its value across themes`() {
         // White on #d13a63 is 4.67:1 on any ground, so the fill does not move;
         // the *text* step moves up the ramp instead.
-        assertEquals(LightCortexColors.primary, DarkCortexColors.primary)
-        assertNotEquals(LightCortexColors.primaryStrong, DarkCortexColors.primaryStrong)
+        assertEquals(LightNishanyColors.primary, DarkNishanyColors.primary)
+        assertNotEquals(LightNishanyColors.primaryStrong, DarkNishanyColors.primaryStrong)
     }
 }
 ```
@@ -455,7 +455,7 @@ class ThemeTest {
 cd android && ./gradlew :app:testDebugUnitTest --tests "*ThemeTest*"
 ```
 
-Expected: `Unresolved reference: LightCortexColors`.
+Expected: `Unresolved reference: LightNishanyColors`.
 
 - [ ] **Step 3: Implement the theme**
 
@@ -475,7 +475,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 @Immutable
-data class CortexColors(
+data class NishanyColors(
     val paper: Color, val surface: Color, val surface2: Color, val inset: Color,
     val ink: Color, val ink2: Color, val ink3: Color,
     val line: Color, val line2: Color,
@@ -488,7 +488,7 @@ data class CortexColors(
     val danger: Color, val dangerTint: Color, val onDanger: Color,
 )
 
-val LightCortexColors = CortexColors(
+val LightNishanyColors = NishanyColors(
     paper = Color(0xFFF5F7FB), surface = Color(0xFFFFFFFF),
     surface2 = Color(0xFFEEF1F7), inset = Color(0xFFE4E9F2),
     ink = Color(0xFF161920), ink2 = Color(0xFF5D636F), ink3 = Color(0xFF949AA8),
@@ -504,7 +504,7 @@ val LightCortexColors = CortexColors(
     danger = Color(0xFFA8121E), dangerTint = Color(0xFFFCE7E9), onDanger = Color(0xFFFFF7F7),
 )
 
-val DarkCortexColors = CortexColors(
+val DarkNishanyColors = NishanyColors(
     paper = Color(0xFF0D1117), surface = Color(0xFF151B24),
     surface2 = Color(0xFF1D2531), inset = Color(0xFF0A0E14),
     ink = Color(0xFFE8ECF3), ink2 = Color(0xFFA2ABBB), ink3 = Color(0xFF7D8798),
@@ -520,7 +520,7 @@ val DarkCortexColors = CortexColors(
     danger = Color(0xFFFF6B6B), dangerTint = Color(0xFF331416), onDanger = Color(0xFF1A0708),
 )
 
-object CortexRadius {
+object NishanyRadius {
     val sm: Dp = 6.dp
     val md: Dp = 8.dp
     val lg: Dp = 10.dp
@@ -529,24 +529,24 @@ object CortexRadius {
     val xxl: Dp = 16.dp
 }
 
-val LocalCortex = staticCompositionLocalOf { LightCortexColors }
+val LocalNishany = staticCompositionLocalOf { LightNishanyColors }
 
 @Composable
-fun CortexTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
-    val colors = if (darkTheme) DarkCortexColors else LightCortexColors
-    CompositionLocalProvider(LocalCortex provides colors) {
+fun NishanyTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
+    val colors = if (darkTheme) DarkNishanyColors else LightNishanyColors
+    CompositionLocalProvider(LocalNishany provides colors) {
         MaterialTheme(
             colorScheme = colors.toMaterialScheme(darkTheme),
-            typography = CortexTypography,
+            typography = NishanyTypography,
             content = content,
         )
     }
 }
 ```
 
-Write `CortexColors.toMaterialScheme(dark: Boolean)` mapping `primary → primary`, `onPrimary → onPrimary`, `accent → secondary`, `paper → background`, `surface → surface`, `ink → onSurface`, `danger → error`, so Material components that are used unstyled still land inside the palette.
+Write `NishanyColors.toMaterialScheme(dark: Boolean)` mapping `primary → primary`, `onPrimary → onPrimary`, `accent → secondary`, `paper → background`, `surface → surface`, `ink → onSurface`, `danger → error`, so Material components that are used unstyled still land inside the palette.
 
-`Type.kt` defines `CortexTypography` with the serif family for reading surfaces and the sans for
+`Type.kt` defines `NishanyTypography` with the serif family for reading surfaces and the sans for
 chrome, matching `--font-serif` / `--font-sans`.
 
 The font binaries are **already on disk** — do not download anything:
@@ -618,33 +618,33 @@ import org.junit.Test
 class StateOwnershipTest {
 
     private val userOwned = listOf(
-        "synapse-lang",
-        "synapse.notebook.abc",
-        "synapse.whiteboard.board-1",
-        "synapse.calendar.blocks",
-        "synapse.library.read",
-        "synapse.library.userArticles",
-        "synapse.library.personalTags",
-        "synapse.library.marks.article-9",
-        "synapse.account.profile",
-        "synapse-notification-read-v1-camp1",
-        "synapse-applied-voucher-v1",
-        "synapse.qbank.activeSession.v1",
-        "synapse.practical.ticks.station-2",
-        "synapse.highlights.article-3",
-        "synapse.annotations.doc-4",
-        "synapse.reader.settings",
-        "synapse.bookmarks.v1",
-        "synapse.progress.attemptIndex.v1",
-        "synapse.progress.attempts.2026-08",
+        "nishany-lang",
+        "nishany.notebook.abc",
+        "nishany.whiteboard.board-1",
+        "nishany.calendar.blocks",
+        "nishany.library.read",
+        "nishany.library.userArticles",
+        "nishany.library.personalTags",
+        "nishany.library.marks.article-9",
+        "nishany.account.profile",
+        "nishany-notification-read-v1-camp1",
+        "nishany-applied-voucher-v1",
+        "nishany.qbank.activeSession.v1",
+        "nishany.practical.ticks.station-2",
+        "nishany.highlights.article-3",
+        "nishany.annotations.doc-4",
+        "nishany.reader.settings",
+        "nishany.bookmarks.v1",
+        "nishany.progress.attemptIndex.v1",
+        "nishany.progress.attempts.2026-08",
     )
 
     private val catalogue = listOf(
-        "synapse-admin-content-ledger-v4",
-        "synapse-concept-graph-v2",
-        "synapse-medical-library-taxonomy-v1",
-        "synapse-plans-v1",
-        "synapse-system-colors-v1",
+        "nishany-admin-content-ledger-v4",
+        "nishany-concept-graph-v2",
+        "nishany-medical-library-taxonomy-v1",
+        "nishany-plans-v1",
+        "nishany-system-colors-v1",
     )
 
     @Test
@@ -662,21 +662,21 @@ class StateOwnershipTest {
         // Left out of the pattern list, marks route to the shared catalogue,
         // which only an admin may write — so every highlight a student made
         // would be refused by the server and dropped.
-        assertTrue(StateOwnership.isUserOwned("synapse.library.marks.article-1"))
+        assertTrue(StateOwnership.isUserOwned("nishany.library.marks.article-1"))
     }
 
     @Test
-    fun `synapse-lang matches only exactly`() {
-        assertTrue(StateOwnership.isUserOwned("synapse-lang"))
-        assertFalse(StateOwnership.isUserOwned("synapse-language-packs-v1"))
+    fun `nishany-lang matches only exactly`() {
+        assertTrue(StateOwnership.isUserOwned("nishany-lang"))
+        assertFalse(StateOwnership.isUserOwned("nishany-language-packs-v1"))
     }
 
     @Test
     fun `the path follows the ownership`() {
-        assertEquals("/api/user-state/synapse.qbank.activeSession.v1",
-            StateOwnership.pathFor("synapse.qbank.activeSession.v1"))
-        assertEquals("/api/state/synapse-plans-v1",
-            StateOwnership.pathFor("synapse-plans-v1"))
+        assertEquals("/api/user-state/nishany.qbank.activeSession.v1",
+            StateOwnership.pathFor("nishany.qbank.activeSession.v1"))
+        assertEquals("/api/state/nishany-plans-v1",
+            StateOwnership.pathFor("nishany-plans-v1"))
     }
 }
 ```
@@ -749,14 +749,14 @@ package com.synapse.android.core.sync
 object StateOwnership {
 
     private val userOwnedPatterns: List<Regex> = listOf(
-        """^synapse-lang$""",
+        """^nishany-lang$""",
         """^synapse\.notebook\.""",
         """^synapse\.whiteboard\.""",
         """^synapse\.calendar\.blocks$""",
         """^synapse\.library\.(read|userArticles|personalTags|marks)""",
         """^synapse\.account\.""",
-        """^synapse-notification-read-v1-""",
-        """^synapse-applied-voucher-v1$""",
+        """^nishany-notification-read-v1-""",
+        """^nishany-applied-voucher-v1$""",
         """^synapse\.qbank\.""",
         """^synapse\.practical\.""",
         """^synapse\.highlights\.""",
@@ -774,7 +774,7 @@ object StateOwnership {
 }
 ```
 
-`containsMatchIn` rather than `matches`, because every pattern is anchored with `^` and most are prefixes — `matches` would require the whole key to match and would reject `synapse.notebook.abc`.
+`containsMatchIn` rather than `matches`, because every pattern is anchored with `^` and most are prefixes — `matches` would require the whole key to match and would reject `nishany.notebook.abc`.
 
 ```kotlin
 package com.synapse.android.core.sync
@@ -1044,8 +1044,8 @@ class AttemptTest {
 
     @Test
     fun `the shard key matches the web's spelling`() {
-        assertEquals("synapse.progress.attempts.2026-08", AttemptStore.monthKey("2026-08"))
-        assertEquals("synapse.progress.attemptIndex.v1", AttemptStore.INDEX_KEY)
+        assertEquals("nishany.progress.attempts.2026-08", AttemptStore.monthKey("2026-08"))
+        assertEquals("nishany.progress.attemptIndex.v1", AttemptStore.INDEX_KEY)
     }
 
     @Test
@@ -1185,7 +1185,7 @@ data class AttemptIndex(
 
 object AttemptStore {
 
-    const val INDEX_KEY = "synapse.progress.attemptIndex.v1"
+    const val INDEX_KEY = "nishany.progress.attemptIndex.v1"
 
     /**
      * `YYYY-MM` — the shard a timestamp belongs to.
@@ -1200,7 +1200,7 @@ object AttemptStore {
         return "%04d-%02d".format(local.year, local.monthValue)
     }
 
-    fun monthKey(month: String) = "synapse.progress.attempts.$month"
+    fun monthKey(month: String) = "nishany.progress.attempts.$month"
 
     /**
      * Fold one record into the running totals.
@@ -1533,7 +1533,7 @@ git commit -m "Read the ledger the way the pipeline actually writes it"
 
 **Interfaces:**
 - Consumes: nothing.
-- Produces: `enum class SittingMode(val wire: String) { TUTOR("tutor"), TIMED("timed") }` with `explainsAsYouGo: Boolean`; `@Serializable data class LiveSession(questionIds, idx, answers: Map<String,Int>, checked: Map<String,Boolean>, mode, sessionId, elapsed, visited: List<Int>, reviewing, name, phase, startedAt)` with `LiveSession.KEY = "synapse.qbank.activeSession.v1"`; `enum class QuestionState { ANSWERED, CORRECT, WRONG, OMITTED, UNSEEN }`.
+- Produces: `enum class SittingMode(val wire: String) { TUTOR("tutor"), TIMED("timed") }` with `explainsAsYouGo: Boolean`; `@Serializable data class LiveSession(questionIds, idx, answers: Map<String,Int>, checked: Map<String,Boolean>, mode, sessionId, elapsed, visited: List<Int>, reviewing, name, phase, startedAt)` with `LiveSession.KEY = "nishany.qbank.activeSession.v1"`; `enum class QuestionState { ANSWERED, CORRECT, WRONG, OMITTED, UNSEEN }`.
 
 - [ ] **Step 1: Build the fixture from the web's writer**
 
@@ -1544,7 +1544,7 @@ written to match the Kotlin proves only that the code agrees with itself.
 
 Read the `LiveSession` interface at `src/pages/student/QuestionBank.tsx:216-229` and
 the `setSaved({ ... })` call at `src/pages/student/QuestionBank.tsx:682-690` — that
-object literal is the exact shape stored under `synapse.qbank.activeSession.v1`.
+object literal is the exact shape stored under `nishany.qbank.activeSession.v1`.
 Reproduce it as `live-session-from-web.json`: every field the writer emits, spelled
 as the writer spells it, with values from a plausible half-finished sitting — four
 questions, two answered, one visited-then-left, `"phase": "running"`.
@@ -1602,7 +1602,7 @@ class LiveSessionTest {
 
     @Test
     fun `the key is spelled as the web spells it`() {
-        assertEquals("synapse.qbank.activeSession.v1", LiveSession.KEY)
+        assertEquals("nishany.qbank.activeSession.v1", LiveSession.KEY)
     }
 
     @Test
@@ -1699,25 +1699,25 @@ class SynapseApiTest {
 
     @Test fun `the access token goes out as a bearer`() = runBlocking {
         server.enqueue(MockResponse().setBody("""{"value":null,"updatedAt":null}"""))
-        api.readState("synapse-plans-v1")
+        api.readState("nishany-plans-v1")
         assertEquals("Bearer token-123", server.takeRequest().getHeader("Authorization"))
     }
 
     @Test fun `a user-owned key goes to the user-state route`() = runBlocking {
         server.enqueue(MockResponse().setBody("""{"value":null,"updatedAt":null}"""))
-        api.readState("synapse.qbank.activeSession.v1")
-        assertEquals("/api/user-state/synapse.qbank.activeSession.v1", server.takeRequest().path)
+        api.readState("nishany.qbank.activeSession.v1")
+        assertEquals("/api/user-state/nishany.qbank.activeSession.v1", server.takeRequest().path)
     }
 
     @Test fun `a catalogue key goes to the shared route`() = runBlocking {
         server.enqueue(MockResponse().setBody("""{"value":null,"updatedAt":null}"""))
-        api.readState("synapse-plans-v1")
-        assertEquals("/api/state/synapse-plans-v1", server.takeRequest().path)
+        api.readState("nishany-plans-v1")
+        assertEquals("/api/state/nishany-plans-v1", server.takeRequest().path)
     }
 
     @Test fun `401 is unauthorized`() = runBlocking {
         server.enqueue(MockResponse().setResponseCode(401))
-        val error = runCatching { api.readState("synapse-plans-v1") }.exceptionOrNull()
+        val error = runCatching { api.readState("nishany-plans-v1") }.exceptionOrNull()
         assertTrue(error is ApiError.Unauthorized)
     }
 
@@ -1725,7 +1725,7 @@ class SynapseApiTest {
         // For a student asking for an admin-only key this is the permanent,
         // correct answer.
         server.enqueue(MockResponse().setResponseCode(403))
-        val error = runCatching { api.readState("synapse-secret") }.exceptionOrNull()
+        val error = runCatching { api.readState("nishany-secret") }.exceptionOrNull()
         assertTrue(error is ApiError.Forbidden)
         assertTrue(!(error as ApiError).isRetryable)
     }
@@ -1738,13 +1738,13 @@ class SynapseApiTest {
 
     @Test fun `500 is transient and is retryable`() = runBlocking {
         server.enqueue(MockResponse().setResponseCode(500))
-        val error = runCatching { api.readState("synapse-plans-v1") }.exceptionOrNull()
+        val error = runCatching { api.readState("nishany-plans-v1") }.exceptionOrNull()
         assertTrue((error as ApiError).isRetryable)
     }
 
     @Test fun `a body that is not the expected shape is malformed`() = runBlocking {
         server.enqueue(MockResponse().setBody("not json"))
-        val error = runCatching { api.readState("synapse-plans-v1") }.exceptionOrNull()
+        val error = runCatching { api.readState("nishany-plans-v1") }.exceptionOrNull()
         assertTrue(error is ApiError.Malformed)
     }
 
@@ -1759,17 +1759,17 @@ class SynapseApiTest {
 
     @Test fun `the manifest parses timestamps and nulls`() = runBlocking {
         server.enqueue(MockResponse().setBody(
-            """{"keys":{"synapse-plans-v1":"2026-08-19T10:00:00.000Z","synapse-vouchers-v1":null}}"""
+            """{"keys":{"nishany-plans-v1":"2026-08-19T10:00:00.000Z","nishany-vouchers-v1":null}}"""
         ))
         val manifest = api.manifest()
-        assertEquals(Instant.parse("2026-08-19T10:00:00Z"), manifest["synapse-plans-v1"])
-        assertNull(manifest["synapse-vouchers-v1"])
-        assertTrue(manifest.containsKey("synapse-vouchers-v1"))
+        assertEquals(Instant.parse("2026-08-19T10:00:00Z"), manifest["nishany-plans-v1"])
+        assertNull(manifest["nishany-vouchers-v1"])
+        assertTrue(manifest.containsKey("nishany-vouchers-v1"))
     }
 
     @Test fun `a write is wrapped in the value envelope`() = runBlocking {
         server.enqueue(MockResponse().setResponseCode(200).setBody("{}"))
-        api.writeState("synapse.reader.settings", JsonPrimitive("large"))
+        api.writeState("nishany.reader.settings", JsonPrimitive("large"))
         val request = server.takeRequest()
         assertEquals("PUT", request.method)
         assertEquals("""{"value":"large"}""", request.body.readUtf8())
@@ -1778,7 +1778,7 @@ class SynapseApiTest {
     @Test fun `no token means no Authorization header rather than a null one`() = runBlocking {
         token = null
         server.enqueue(MockResponse().setBody("""{"value":null,"updatedAt":null}"""))
-        api.readState("synapse-plans-v1")
+        api.readState("nishany-plans-v1")
         assertNull(server.takeRequest().getHeader("Authorization"))
     }
 }
@@ -1934,7 +1934,7 @@ so no Supabase client and no network are involved.
 
 @Test fun `a successful sign-in is confirmed against the API before we claim to be signed in`() {
     // signIn → backend accepts → api.session() is called → only then SignedIn.
-    // Two services have to agree: Supabase issues the token and the Synapse
+    // Two services have to agree: Supabase issues the token and the Nishany
     // API verifies it. Reporting success on Supabase's word alone drops the
     // student into a shell that 401s on its first read.
 }
@@ -1949,7 +1949,7 @@ so no Supabase client and no network are involved.
 
 @Test fun `a Supabase account the API does not know lands on SignedOut with an explanation`() {
     // api.session() answering 200 with a null user is not an error: it means
-    // Supabase knows this address and Synapse has no account for it. Assert
+    // Supabase knows this address and Nishany has no account for it. Assert
     // that it does not throw, that state is SignedOut, and that `message`
     // says so.
 }
@@ -2015,7 +2015,7 @@ git commit -m "Prove the session works before telling anyone they are signed in"
 **Files:**
 - Create: `android/app/src/main/java/com/synapse/android/core/cache/LocalStore.kt`
 - Create: `android/app/src/main/java/com/synapse/android/core/cache/entities/*.kt`
-- Create: `android/app/src/main/java/com/synapse/android/core/cache/CortexDatabase.kt`
+- Create: `android/app/src/main/java/com/synapse/android/core/cache/NishanyDatabase.kt`
 - Test: `android/app/src/test/java/com/synapse/android/core/cache/LocalStoreTest.kt`
 
 **Interfaces:**
@@ -2169,13 +2169,13 @@ Tests to add to `AttemptTest.kt`:
 @Test fun `the catalogue key list matches STUDENT_READABLE_STATE exactly`() {
     assertEquals(
         listOf(
-            "synapse-academic-universities-v1", "synapse-course-curricula-v1",
-            "synapse-module-schedules-v1", "synapse-admin-content-ledger-v4",
-            "synapse-concept-graph-v2", "synapse-relation-types-v1",
-            "synapse-taxonomy-tree-v4", "synapse-medical-library-taxonomy-v1",
-            "synapse-medical-glossary-v1", "synapse-medical-evidence-published-v1",
-            "synapse-plans-v1", "synapse-notification-campaigns-v1",
-            "synapse-vouchers-v1", "synapse-system-colors-v1",
+            "nishany-academic-universities-v1", "nishany-course-curricula-v1",
+            "nishany-module-schedules-v1", "nishany-admin-content-ledger-v4",
+            "nishany-concept-graph-v2", "nishany-relation-types-v1",
+            "nishany-taxonomy-tree-v4", "nishany-medical-library-taxonomy-v1",
+            "nishany-medical-glossary-v1", "nishany-medical-evidence-published-v1",
+            "nishany-plans-v1", "nishany-notification-campaigns-v1",
+            "nishany-vouchers-v1", "nishany-system-colors-v1",
         ),
         SyncEngine.CATALOGUE_KEYS,
     )
@@ -2211,13 +2211,13 @@ actually reads, each verified against the web source that owns it:
 
 ```kotlin
 val USER_KEYS: List<String> = listOf(
-    "synapse.qbank.activeSession.v1",   // src/pages/student/QuestionBank.tsx
-    "synapse.qbank.marked.v1",          // src/pages/student/QuestionBank.tsx
-    "synapse.qbank.questionNotes.v1",   // src/components/qbank/StudyRail.tsx
-    "synapse.qbank.sessionNames.v1",    // src/pages/student/QuestionBank.tsx
-    "synapse.practical.progress.v1",    // src/data/practicalProgress.ts
-    "synapse.account.prefs.v1",         // src/pages/student/Account.tsx
-    "synapse.account.audience.v1",      // src/lib/useIdentity.tsx
+    "nishany.qbank.activeSession.v1",   // src/pages/student/QuestionBank.tsx
+    "nishany.qbank.marked.v1",          // src/pages/student/QuestionBank.tsx
+    "nishany.qbank.questionNotes.v1",   // src/components/qbank/StudyRail.tsx
+    "nishany.qbank.sessionNames.v1",    // src/pages/student/QuestionBank.tsx
+    "nishany.practical.progress.v1",    // src/data/practicalProgress.ts
+    "nishany.account.prefs.v1",         // src/pages/student/Account.tsx
+    "nishany.account.audience.v1",      // src/lib/useIdentity.tsx
 )
 ```
 
@@ -2225,14 +2225,14 @@ plus `AttemptStore.INDEX_KEY` and the current and previous month shards from
 `AttemptStore.monthKey(...)` — two shards, because a sitting that starts on the
 31st and ends after midnight writes into both.
 
-Deliberately excluded, and each for a reason worth keeping: `synapse.qbank.attempts`
+Deliberately excluded, and each for a reason worth keeping: `nishany.qbank.attempts`
 is not a real key — it appears only as an ownership example in
-`src/lib/stateOwnership.test.ts:16`. `synapse.progress.mastery.v1` and
-`synapse.progress.adaptive.*` belong to features M1 does not build; syncing them
+`src/lib/stateOwnership.test.ts:16`. `nishany.progress.mastery.v1` and
+`nishany.progress.adaptive.*` belong to features M1 does not build; syncing them
 would download and re-upload documents no Android code reads, which is how a
-client corrupts state it does not understand. `synapse.library.*`,
-`synapse.notebook.*`, `synapse.whiteboard.*`, `synapse.reader.*`,
-`synapse.bookmarks.*` and `synapse.annotations.*` are later milestones.
+client corrupts state it does not understand. `nishany.library.*`,
+`nishany.notebook.*`, `nishany.whiteboard.*`, `nishany.reader.*`,
+`nishany.bookmarks.*` and `nishany.annotations.*` are later milestones.
 
 Add a test that pins this list the same way the catalogue list is pinned:
 
@@ -2266,7 +2266,7 @@ git commit -m "Ask what moved before downloading anything"
 - Test: `android/app/src/test/java/com/synapse/android/feature/account/AccountViewModelTest.kt`
 
 **Interfaces:**
-- Consumes: `AuthModel`, `SyncEngine`, `CortexTheme`.
+- Consumes: `AuthModel`, `SyncEngine`, `NishanyTheme`.
 - Produces: navigation graph with routes `qbank`, `practical`, `account`; `AccountViewModel` exposing `data class AccountUi(val email: String?, val lastSyncedAt: Instant?, val pendingWrites: Int)`.
 
 - [ ] **Step 0: Build the object graph**
@@ -2276,7 +2276,7 @@ takes its collaborators as constructor parameters, and no task has yet said
 who calls those constructors or how long the instances live. This step does,
 because getting it wrong is not a style problem:
 
-**`CortexDatabase` must be one instance per process.** Room hands out a
+**`NishanyDatabase` must be one instance per process.** Room hands out a
 connection pool per instance; two instances over the same file are two
 writers that do not see each other's invalidations, so a `Flow` from one goes
 quiet after the other writes, and the screen simply stops updating with no
@@ -2317,7 +2317,7 @@ class AppGraph(context: Context, val config: AppConfig) {
     // Task 10 already ships this factory, and it is the only correct way to
     // open the file: it pins the name and forces applicationContext, so the
     // database cannot capture an Activity.
-    val database = CortexDatabase.build(context)
+    val database = NishanyDatabase.build(context)
     val store = LocalStore(database)
     val sync = SyncEngine(api, store)
 }
@@ -2808,7 +2808,7 @@ understates accuracy and overstates effort.
 
 **`PreviousSittingsScreen`** lists `AttemptStats.bySession(...)` filtered to
 `surface == "qbank"`, newest first: name, date, answered count, accuracy.
-Names live under their own key, `synapse.qbank.sessionNames.v1`
+Names live under their own key, `nishany.qbank.sessionNames.v1`
 (`src/pages/student/QuestionBank.tsx:233`) — a sitting with no stored name
 falls back to its date, never to a raw `sessionId`.
 
@@ -2831,7 +2831,7 @@ here.
 Without it the display half of Step 3 is dead code: every Android sitting would
 fall back to its date forever, and a sitting started on the phone would show up
 on the website as "Untitled test", because the web reads names from the shared
-`synapse.qbank.sessionNames.v1` document and not from `LiveSession.name`.
+`nishany.qbank.sessionNames.v1` document and not from `LiveSession.name`.
 
 Port `autoSessionName` and `beginSession`'s naming line
 (`src/pages/student/QuestionBank.tsx:798-799`, `:920-931`):
@@ -2843,7 +2843,7 @@ Port `autoSessionName` and `beginSession`'s naming line
   `scopeName`. Count stored names, not `LiveSession.name` — an unnamed sitting
   must not consume a number.
 - **Write it at the start, keyed by the id that was just minted**, into
-  `synapse.qbank.sessionNames.v1` through `SyncEngine.write` — a `Map<String,
+  `nishany.qbank.sessionNames.v1` through `SyncEngine.write` — a `Map<String,
   String>` of sessionId to name. Only a non-blank name is written.
 
 Both details are scars, not preferences. The web's comment at `:793-796`
@@ -2909,7 +2909,7 @@ git commit -m "Report what was skipped as skipped"
 - Produces, in `core/practical/PracticalProgress.kt` — a port of
   `src/data/practicalProgress.ts`, function for function:
   ```kotlin
-  const val PRACTICAL_PROGRESS_KEY = "synapse.practical.progress.v1"
+  const val PRACTICAL_PROGRESS_KEY = "nishany.practical.progress.v1"
 
   @Serializable data class StationProgress(
       val attempts: Int, val bestMarks: Int, val outOf: Int,
@@ -2935,7 +2935,7 @@ git commit -m "Report what was skipped as skipped"
 - Produces: `PracticalViewModel` with `val items: StateFlow<List<Practical>>`, `val progress: StateFlow<PracticalProgress>`, `val ticks: StateFlow<Set<String>>` (the mark-scheme items ticked in the run currently open, seeded from the stored `checkedItems`), `fun tick(itemId: String, ticked: Boolean)`, `fun finishStation(stationId: String, marks: Int, outOf: Int)`.
 
 **The one way this task loses a student's work.** Android writes the *whole*
-`synapse.practical.progress.v1` document, and that document holds four
+`nishany.practical.progress.v1` document, and that document holds four
 sections: `stations`, `cases`, `labs`, `skills`. If the decoder drops a
 section it does not manage, the first write from the phone erases that
 section from the web. Decode and re-encode every section, including any the
@@ -2998,7 +2998,7 @@ invent a `"practical"` surface; nothing on the web would count it.
     // `type` decides what the reader shows; there is no screen per type.
 }
 @Test fun `a tick is stored under the practical progress key`() {
-    // assertEquals("synapse.practical.progress.v1", PRACTICAL_PROGRESS_KEY)
+    // assertEquals("nishany.practical.progress.v1", PRACTICAL_PROGRESS_KEY)
 }
 @Test fun `ticks survive leaving and reopening a station`()
 @Test fun `finishing a self-ticked station writes an attempt with a null mark`() {
@@ -3063,7 +3063,7 @@ distinction most likely to be got wrong here:
   demand. Read-only: nothing here writes progress or an attempt.
 
 Bundle both verbatim from `src/data/practical.ts`, ids included — the ids are
-what `synapse.practical.progress.v1` keys skill status by, so an invented id
+what `nishany.practical.progress.v1` keys skill status by, so an invented id
 records a student's status where no client will ever read it. **State in the
 report that these two lists are a second copy that will drift when the web's
 changes**, and do not invent a sync mechanism for them in this milestone.
@@ -3105,7 +3105,7 @@ question. **Skills** — the three categories, each row cycling
 `{ready} / {total}` and this copy verbatim (`Practical.tsx:342`):
 
 > This is your own record of what you have practised. A formal sign-off is
-> given by an assessor and is not recorded in Connect Cortex.
+> given by an assessor and is not recorded in Nishany.
 
 That sentence is load-bearing, not decoration: this product has no assessor
 identity, and a screen that implies otherwise tells a student they are signed
@@ -3206,10 +3206,10 @@ this task after Task 15, never before it.**
 `Theme.kt` carries 28 of the web's colour tokens. The activity chart needs a
 29th: `--color-primary-soft`, which is what the web fills its bars with
 (`src/pages/student/QuestionBank.tsx:177`, `bg-primary-soft`). Add it to
-`CortexColors` and to every palette:
+`NishanyColors` and to every palette:
 
 ```kotlin
-// in CortexColors, beside primaryTint
+// in NishanyColors, beside primaryTint
 val primarySoft: Color,
 ```
 
@@ -3284,9 +3284,9 @@ the student by `isSystemInDarkTheme()` and not changeable anywhere.
 - Test: `android/app/src/test/java/com/synapse/android/design/ThemePreferenceTest.kt`
 
 **Interfaces:**
-- Produces: `enum class CortexThemeChoice(val wire: String) { LIGHT("light"), WARM("warm"), DARK("dark") }`;
-  `class ThemePreference(context: Context)` with `val choice: StateFlow<CortexThemeChoice>` and `fun set(choice: CortexThemeChoice)`;
-  `CortexTheme(choice: CortexThemeChoice, content: @Composable () -> Unit)`.
+- Produces: `enum class NishanyThemeChoice(val wire: String) { LIGHT("light"), WARM("warm"), DARK("dark") }`;
+  `class ThemePreference(context: Context)` with `val choice: StateFlow<NishanyThemeChoice>` and `fun set(choice: NishanyThemeChoice)`;
+  `NishanyTheme(choice: NishanyThemeChoice, content: @Composable () -> Unit)`.
 
 - [ ] **Step 1: Add the warm palette**
 
@@ -3303,7 +3303,7 @@ drift from light on the fields it does not claim:
  * A `copy` keeps that true: a token added to light arrives in warm as well,
  * which is what the CSS cascade does.
  */
-val WarmCortexColors = LightCortexColors.copy(
+val WarmNishanyColors = LightNishanyColors.copy(
     paper = Color(0xFFF7F2EA), surface = Color(0xFFFFFDF9),
     surface2 = Color(0xFFF1EBE1), inset = Color(0xFFE9E1D4),
     ink = Color(0xFF1F1B16), ink2 = Color(0xFF675E51), ink3 = Color(0xFF9B9284),
@@ -3325,14 +3325,14 @@ val WarmCortexColors = LightCortexColors.copy(
 @Test fun `warm shares every fill and on-colour with light`()
 ```
 
-The last one is the guard on Step 1: it asserts that `WarmCortexColors` and
-`LightCortexColors` agree on `primary`, `accent`, `success`, `warning`,
+The last one is the guard on Step 1: it asserts that `WarmNishanyColors` and
+`LightNishanyColors` agree on `primary`, `accent`, `success`, `warning`,
 `danger` and every `on*`, so a future edit that hand-writes warm instead of
 copying light fails here rather than in a reader's eyes.
 
 - [ ] **Step 3: Implement the preference**
 
-Plain `SharedPreferences` under the key `synapse-theme`, storing the `wire`
+Plain `SharedPreferences` under the key `nishany-theme`, storing the `wire`
 string. Three deliberate choices:
 
 - **Not `EncryptedSharedPreferences`.** A colour preference is not a secret,
@@ -3460,14 +3460,14 @@ ground).
 ```kotlin
 @Composable
 fun Wordmark(modifier: Modifier = Modifier, height: Dp = 28.dp) {
-    val dark = LocalCortex.current === DarkCortexColors
+    val dark = LocalNishany.current === DarkNishanyColors
     Image(
         painter = painterResource(
             if (dark) R.drawable.brand_wordmark_white else R.drawable.brand_wordmark,
         ),
-        // The lockup reads "Connect Cortex"; that is its accessible name, and
+        // The lockup reads "Nishany"; that is its accessible name, and
         // the artwork must never be announced as a file name.
-        contentDescription = "Connect Cortex",
+        contentDescription = "Nishany",
         modifier = modifier.height(height),
         contentScale = ContentScale.FillHeight,
     )
@@ -3476,7 +3476,7 @@ fun Wordmark(modifier: Modifier = Modifier, height: Dp = 28.dp) {
 
 - [ ] **Step 4: Put it on the sign-in screen**
 
-Replace `Text("Sign in to Connect Cortex")` with the `Wordmark` above a plain
+Replace `Text("Sign in to Nishany")` with the `Wordmark` above a plain
 `Text("Sign in")`, matching `src/pages/auth/AuthLayout.tsx:41`. The lockup
 already says the product's name, so the heading repeating it is the one thing
 the web does not do.

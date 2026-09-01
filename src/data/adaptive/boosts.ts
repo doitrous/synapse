@@ -17,7 +17,7 @@
 import type { AdaptiveConfig } from './config.ts'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const ADAPTIVE_BOOSTS_STORAGE_KEY = 'synapse.progress.adaptive.boosts.v1'
+export const ADAPTIVE_BOOSTS_STORAGE_KEY = 'nishany.progress.adaptive.boosts.v1'
 
 export interface ConceptBoost {
   conceptId: string

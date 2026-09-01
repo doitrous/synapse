@@ -31,8 +31,8 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // Both survive navigation and reload: collapsing the chrome to read is a
   // decision about this screen, and having to make it again on every page is
   // what stopped it being useful.
-  const [collapsed, , toggleCollapsed] = useLocalPreference('synapse.shell.sidebarCollapsed', false)
-  const [focusMode, , toggleFocusMode] = useLocalPreference('synapse.shell.focusMode', false)
+  const [collapsed, , toggleCollapsed] = useLocalPreference('nishany.shell.sidebarCollapsed', false)
+  const [focusMode, , toggleFocusMode] = useLocalPreference('nishany.shell.focusMode', false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
   const mobileButtonRef = useRef<HTMLButtonElement>(null)

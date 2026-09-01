@@ -211,7 +211,7 @@ export function TermGridPage() {
     [glossary.terms, category],
   )
 
-  const [generations, setGenerations] = usePersistentState<Record<string, number>>('synapse.termgrid.generation.v1', {})
+  const [generations, setGenerations] = usePersistentState<Record<string, number>>('nishany.termgrid.generation.v1', {})
   const generation = generations[category] ?? 0
   const generatedSeed = hashSeed(`${category}:${generation}`)
   const seed = pinnedSeed !== null && category === initialCategory ? pinnedSeed : generatedSeed

@@ -33,7 +33,7 @@ export const STATEMENT_RELATIONS = ['definition_of', ...CONCEPT_RELATIONS] as co
 export type ConceptRelationType = (typeof CONCEPT_RELATIONS)[number]
 export type StatementRelationType = (typeof STATEMENT_RELATIONS)[number]
 
-export const CONCEPT_STORAGE_KEY = 'synapse-concept-graph-v2'
+export const CONCEPT_STORAGE_KEY = 'nishany-concept-graph-v2'
 
 export type ConceptStatus = 'active' | 'inactive' | 'under review'
 

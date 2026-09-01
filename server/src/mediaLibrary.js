@@ -8,7 +8,7 @@
 
 import { MEDIA_MIME_EXTENSION } from './imageMeta.js'
 
-export const MEDIA_STATE_KEY = 'synapse-media-library-v1'
+export const MEDIA_STATE_KEY = 'nishany-media-library-v1'
 
 /**
  * The path a file with this digest is stored at.

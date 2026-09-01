@@ -117,7 +117,7 @@ export function BulkImportPage() {
   const [importResult, setImportResult] = useState<{ imported: number; failed: number; errors: string[] } | null>(null)
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [miniGameDocument, setMiniGameDocument] = usePersistentState(MINIGAME_PACKS_STORAGE_KEY, EMPTY_MINIGAME_PACK_DOCUMENT)
-  const [journal, setJournal] = usePersistentState<ImportJournal[]>('synapse-import-journal-v1', [])
+  const [journal, setJournal] = usePersistentState<ImportJournal[]>('nishany-import-journal-v1', [])
 
   const sheet = sheets.find((candidate) => candidate.name === sheetName) ?? sheets[0]
   const fileFingerprint = file ? fingerprint(file, kind) : ''

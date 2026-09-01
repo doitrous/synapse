@@ -14,11 +14,13 @@ export const THEMES = ['light', 'warm', 'dark', 'oled'] as const
 export type Theme = (typeof THEMES)[number]
 
 /**
- * The storage key still reads `synapse-`: it is the address of a preference
- * every existing reader already has on disk, not a piece of branding. Renaming
- * it at the rebrand would silently reset everyone's chosen appearance.
+ * The current key, plus the pre-rebrand key it replaced. A returning reader has
+ * the old `synapse-theme` on disk; `storedTheme` reads it once and migrates it
+ * forward, so the rebrand never silently resets anyone's chosen appearance. The
+ * inline boot script in the HTML head does the same migration before React runs.
  */
-export const THEME_STORAGE_KEY = 'synapse-theme'
+export const THEME_STORAGE_KEY = 'nishany-theme'
+const LEGACY_THEME_STORAGE_KEY = 'synapse-theme'
 
 /** Light is the reference ground the Nishany palette is built around. */
 const DEFAULT_THEME: Theme = 'light'
@@ -39,6 +41,15 @@ function storedTheme(): Theme {
   try {
     const raw = localStorage.getItem(THEME_STORAGE_KEY)
     if (isTheme(raw)) return raw
+    // Carry a pre-rebrand preference forward, once, then retire the old key.
+    const legacy = localStorage.getItem(LEGACY_THEME_STORAGE_KEY)
+    if (isTheme(legacy)) {
+      try {
+        localStorage.setItem(THEME_STORAGE_KEY, legacy)
+        localStorage.removeItem(LEGACY_THEME_STORAGE_KEY)
+      } catch { /* nothing to remember with */ }
+      return legacy
+    }
   } catch {
     // Private browsing: the app still works, it just cannot remember.
   }

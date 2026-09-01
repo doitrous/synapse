@@ -7,7 +7,7 @@ import { tmpdir } from 'node:os'
 import { assembleChunks } from './uploads.js'
 
 test('managed-media assembly can retain chunks until durable registration finishes', async (t) => {
-  const root = await mkdtemp(join(tmpdir(), 'synapse-media-assembly-'))
+  const root = await mkdtemp(join(tmpdir(), 'nishany-media-assembly-'))
   t.after(() => rm(root, { recursive: true, force: true }))
   const workspace = join(root, 'chunks')
   const staging = join(root, 'staging', 'asset')
@@ -29,7 +29,7 @@ test('managed-media assembly can retain chunks until durable registration finish
 })
 
 test('chunk assembly keeps its existing cleanup behaviour by default', async (t) => {
-  const root = await mkdtemp(join(tmpdir(), 'synapse-resource-assembly-'))
+  const root = await mkdtemp(join(tmpdir(), 'nishany-resource-assembly-'))
   t.after(() => rm(root, { recursive: true, force: true }))
   const workspace = join(root, 'chunks')
   const staging = join(root, 'staging', 'asset')

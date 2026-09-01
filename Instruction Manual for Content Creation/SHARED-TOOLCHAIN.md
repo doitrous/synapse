@@ -647,7 +647,7 @@ Agreed by both, 2026-08-21. Each writes its **own** `CLAIMS.md` row — one agen
 
 | Holder | Scope |
 |---|---|
-| `101-isk` (`claude/synapse-content-extraction-plan-1ae3e0`) | sat papers, their concepts, articles, practical |
+| `101-isk` (`claude/nishany-content-extraction-plan-1ae3e0`) | sat papers, their concepts, articles, practical |
 | `101-isk-mcq` (`claude/sad-solomon-4bb999`) | `scripts/kasr/seeds/mcq/**`, `question/101-ISK-mcq.md`, `concept/101-ISK-mcq-concepts.md` |
 
 `101-isk` holds exactly one MCQ leaf — **`granular-leukocytes`** — and will add no more.

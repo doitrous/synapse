@@ -15,7 +15,7 @@ is — and their own blocks are the only thing many students have.
 A new hook, `useNextUp()`, merges two sources into one chronological list:
 
 - published module sessions (`useStudentSchedule`), and
-- the student's own blocks (`synapse.calendar.blocks`, via `studyBlocks`).
+- the student's own blocks (`nishany.calendar.blocks`, via `studyBlocks`).
 
 Both collapse to one shape, `UpcomingItem`, carrying `source: 'faculty' |
 'personal'`. The merge, the "what counts as still to come" rule, and the
@@ -75,7 +75,7 @@ the student told onboarding. So the sidebar says "KAU · Year 1" while the
 account page says every field is "Not recorded". Both will read `audience`.
 
 University, year and group become editable on the account page, saved to
-`synapse.account.audience.v1` — the same user-owned document onboarding writes,
+`nishany.account.audience.v1` — the same user-owned document onboarding writes,
 so the two cannot disagree. Precedence in `useIdentity` flips: the student's own
 answer wins over the roster. Where the roster holds a different value, the field
 shows what the university has on record underneath, so an override is visible
@@ -129,11 +129,11 @@ from the keyboard.
 as the PDF reader's sticky notes and the whiteboard, so there is one palette in
 this app rather than three.
 
-**Storage.** One document, `synapse.library.marks.v1`, keyed by article id.
+**Storage.** One document, `nishany.library.marks.v1`, keyed by article id.
 Marks are a quote and a short note; a whole library of them is tens of
 kilobytes, so the sharding the PDF annotations need would be machinery for
 nothing here. `isUserOwnedState` currently matches only
-`synapse.library.(read|userArticles|personalTags)`, which would route this key
+`nishany.library.(read|userArticles|personalTags)`, which would route this key
 to the shared admin-only store and refuse every student's save. The pattern is
 extended, and the rule gets a test.
 

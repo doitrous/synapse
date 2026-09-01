@@ -546,7 +546,7 @@ test('a live concept may restate the candidate ids it already carries', () => {
   //
   // Read from live state rather than hard-coded, so this cannot drift.
   const live = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
-  const concepts = (live.states['synapse-concept-graph-v2']?.concepts ?? [])
+  const concepts = (live.states['nishany-concept-graph-v2']?.concepts ?? [])
     .filter((concept: { sourceCandidateIds?: string[] }) => concept.sourceCandidateIds?.length)
   const mine = concepts[0]
   const someoneElse = concepts.find((concept: { id: string }) => concept.id !== mine.id)

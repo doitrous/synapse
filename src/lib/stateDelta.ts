@@ -10,9 +10,9 @@
  * a delta key and is saved whole, which is always safe.
  */
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const GRAPH_KEY = 'synapse-concept-graph-v2'
-const TREES_KEY = 'synapse-library-trees-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const GRAPH_KEY = 'nishany-concept-graph-v2'
+const TREES_KEY = 'nishany-library-trees-v1'
 
 interface Identified { id?: unknown }
 interface Collection {

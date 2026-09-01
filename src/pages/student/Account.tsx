@@ -39,10 +39,10 @@ const DEFAULTS: AccountPrefs = {
   calendarReminders: true,
 }
 
-const ACCOUNT_PREFS_STORAGE_KEY = 'synapse.account.prefs.v1'
-const PROFILE_STORAGE_KEY = 'synapse.account.profile.v1'
+const ACCOUNT_PREFS_STORAGE_KEY = 'nishany.account.prefs.v1'
+const PROFILE_STORAGE_KEY = 'nishany.account.profile.v1'
 
-const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
+const SUPPORT_ADDRESS = 'help@nishany.com'
 
 interface StudentProfilePrefs {
   username: string
@@ -350,12 +350,12 @@ export function Account() {
   async function exportData() {
     setExportError('')
     if (!API_MODE) {
-      download('synapse-account-preferences.json', { preferences: prefs })
+      download('nishany-account-preferences.json', { preferences: prefs })
       return
     }
     setExporting(true)
     try {
-      download('synapse-account-data.json', await apiGet<unknown>('/me/export'))
+      download('nishany-account-data.json', await apiGet<unknown>('/me/export'))
     } catch {
       setExportError(t('Your data could not be exported right now. Try again in a moment.'))
     } finally {

@@ -13,7 +13,7 @@
  *    not) and is likewise reported.
  *  - Field HTML is left RAW here — Anki media tokens (`<img src="x">`,
  *    `[sound:x]`) stay in place and are collected into `mediaRefsNeeded`. The
- *    media stage rewrites those to `synapse-doc:` references and only THEN
+ *    media stage rewrites those to `nishany-doc:` references and only THEN
  *    sanitizes, because sanitizing first would strip an `<img src="x">` before
  *    the file behind it could be uploaded. See the media task.
  *  - Tags are always preserved.

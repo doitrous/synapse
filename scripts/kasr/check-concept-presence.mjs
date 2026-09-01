@@ -226,7 +226,7 @@ const SECTION_COLUMNS = ['sections', 'published_sections', 'annotations', 'media
 const LIVE = 'server/data/medical-library-v1.json'
 export let liveConcepts = new Map()
 try {
-  const graph = JSON.parse(readFileSync(LIVE, 'utf8')).states['synapse-concept-graph-v2']?.concepts ?? {}
+  const graph = JSON.parse(readFileSync(LIVE, 'utf8')).states['nishany-concept-graph-v2']?.concepts ?? {}
   const rows = Array.isArray(graph) ? graph : Object.values(graph)
   liveConcepts = new Map(rows.map((concept) => [concept.id, concept]))
 } catch {

@@ -8,7 +8,7 @@ export type { QotdPins } from '@/data/qotdSelection'
 /**
  * Admin overrides for the Question of the Day selector.
  *
- * Backed by the shared `synapse-qotd-pins-v1` app_state document — the same
+ * Backed by the shared `nishany-qotd-pins-v1` app_state document — the same
  * key `GET /api/qotd/today` reads on the server — so a pin set here is what a
  * student's cohort sees, live or demo. `cohortKey → isoDate → questionId`.
  */

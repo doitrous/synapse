@@ -19,7 +19,7 @@ import type { MultiResponsePayload } from './multiResponseQuestion.ts'
 import type { LabelingPayload } from './labelingQuestion.ts'
 import type { CompletionPayload } from './completionQuestion.ts'
 
-export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
+export const CONTENT_LEDGER_STORAGE_KEY = 'nishany-admin-content-ledger-v4'
 
 export type AnswerLabel = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
 

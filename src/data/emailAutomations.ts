@@ -57,7 +57,7 @@ export interface Automation {
   note?: string
 }
 
-export const EMAIL_AUTOMATIONS_STORAGE_KEY = 'synapse-email-automations-v1'
+export const EMAIL_AUTOMATIONS_STORAGE_KEY = 'nishany-email-automations-v1'
 
 /** The order categories are rendered in. */
 export const automationCategories: AutomationCategory[] = [

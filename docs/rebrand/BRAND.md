@@ -1,9 +1,11 @@
 # Nishany — brand implementation spec (v1)
 
-Nishany (نيشاني, "my target") replaces every prior brand name: **Maristana**,
-**Synapse** (internal codename), **Connect Cortex** (mobile/en/ar app label), and the
-Orbitron "ARISTANA" logotype with the Courtyard-M mark. The endorsement line is
-**"BY CONNECT"** (shortened — "BY CONNECT ACADEMY" retires with the rest).
+Nishany (نيشاني, "my target") is the product name everywhere — the rebrand is
+complete. It replaced every prior brand name: **Maristana**, **Synapse** (the
+retired internal codename), **Connect Cortex** (the retired mobile/en/ar app
+label), and the Orbitron "ARISTANA" logotype (now the Courtyard-M mark). The
+endorsement line is **"BY CONNECT"** (shortened — "BY CONNECT ACADEMY" retired
+with the rest).
 
 Decided by Omar 2026-08-31. Design canvas:
 https://claude.ai/code/artifact/595e7dad-255d-4c33-b1ec-a2ccf8924ef2

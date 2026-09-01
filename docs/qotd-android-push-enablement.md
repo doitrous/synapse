@@ -14,7 +14,7 @@ Nothing here sends a single Android push until every step below is done.
 
 1. In the [Firebase console](https://console.firebase.google.com), create a project
    (or add Firebase to an existing GCP project, if one is already used for anything
-   else Synapse-related).
+   else Nishany-related).
 2. Add an Android app with package name `com.synapse.android` (matches
    `applicationId` in `android/app/build.gradle.kts`).
 3. Download the generated `google-services.json`.

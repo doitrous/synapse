@@ -24,7 +24,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.synapse.android"
+        applicationId = "com.nishany.android"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
