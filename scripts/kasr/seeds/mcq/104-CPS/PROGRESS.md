@@ -1982,3 +1982,126 @@ resume-first: recompute "what's left" leaf breakdown, then continue to
 the next largest untouched CVS cluster (likely Basic Mechanisms of
 Circulatory Control or Conducting Portion), checking pinned physiology/
 histology concept files before minting.
+
+## run36 continued — Basic Mechanisms of Circulatory Control CLOSED
+(18/18 accounted: 8 kept, 4 excluded, 6 deliberately left — a small
+cluster with an unusually high conflict rate, so read carefully before
+resuming). Separate commit, full gate run before committing. **Correction
+to this file's own prior note above**: recomputing directly against the
+bank showed all 18 of this leaf's own bank-tagged rows were still
+unclaimed at the start of this pass — the earlier reroutes into
+`physiology-circulatory-control-hemorrhagic-shock.ts` moved rows FROM
+other leaves' own bank tags ONTO this file's concepts, they did not
+themselves close any row bank-tagged "Basic Mechanisms of Circulatory
+Control" — a reminder that "what's left" must always be recomputed
+against the bank's own leaf field, never inferred from which file a
+concept lives in.
+
+Extended `physiology-circulatory-control-hemorrhagic-shock.ts` with one
+more sparse-reuse concept (`central-chemoreceptors.location-stimulus-and-
+blood-brain-barrier`, CON-CVS-230096C97EAB11 — the last of the 5 pinned
+`ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL` `related_concepts` this
+session had not yet used) and 8 kept + 4 excluded questions onto it and
+the 4 chemoreceptor/baroreceptor/CNS-ischaemic concepts already in this
+file.
+
+**Two exclusions from a genuine word-level OCR corruption, cross-checked
+against a sibling row rather than guessed**: `stimulation-of-arterial-
+baroreceptors-leads-6b137511`'s own credited option A reads "stimulation
+of the vasomotor centers" — but this file's own sibling question
+(`stimulation-of-arterial-baroreceptors-leads-to-all-of-these-037f9276`,
+kept) has a PARALLEL option A reading "inhibition of the vasomotor
+centers", credited TRUE there, matching both standard baroreflex
+physiology and this pipeline's own already-published baroreceptor
+concept (rising discharge inhibits, never stimulates, the vasomotor
+area). Read together, the two rows confirm 6b137511's own "stimulation"
+is a likely word-swap corruption of "inhibition" — excluded rather than
+authored to contradict this pipeline's own sourced concept, with the
+reasoning (not a guess in isolation) recorded in the exclude reason.
+`central-chemoreceptors-0a60cec1` (2 surviving options, no B or C) and
+`the-cause-of-compensatoryhyperventilation-in-metabolic-acido-d0688695`
+(already bank-editorial-excluded, 3 options with a corrupted A) are
+ordinary bookkeeping excludes. `fetal-hemoglobin-contains-2alpha-2-gamma-
+chains-cannot-combi-bd5548ea` is a **new hazard variant** not previously
+catalogued in this branch: the STEM describes fetal haemoglobin, but the
+surviving OPTIONS answer an unrelated peripheral-chemoreceptor question —
+two distinct source questions' text merged across the stem/option
+boundary, leaving neither completable.
+
+**6 rows deliberately left unclaimed, cluster still counted CLOSED** —
+genuine source gaps/conflicts/mistags, not guessed past:
+- `epistaxis-mean-6a48dc85` — genuinely ENT/anatomy content (nosebleed
+  definition), unrelated to circulatory control, mistagged.
+- `it-is-correct-to-say-8f7e9d38` — the bank's own credited answer ("B &
+  C are correct") requires option B ("stimulation of baroreceptors leads
+  to PRESSOR response") to be true, but standard baroreflex physiology
+  and this pipeline's own arterial-baroreceptor-reflex concept both state
+  the opposite (a DEPRESSOR response) — a genuine conflict between the
+  bank's own key and a pinned, sourced concept, escalated per the
+  brachiocephalic-vein precedent rather than resolved by picking a side.
+- `mean-systemic-filling-pressure-is-decreased-by-d3f1a38e` — the bank's
+  own credited answer ("decreased venous capacitance" decreases MSFP)
+  contradicts this pipeline's own already-published, sourced
+  `veins.capacitance-compliance-and-blood-volume-reservoir` concept
+  (`cardiovascular-venous-capacitance-and-return.ts`), which states MSFP
+  is set by blood volume AGAINST venous capacity — decreased capacity at
+  constant volume should RAISE, not lower, MSFP (the other 3 options —
+  norepinephrine, sympathetic stimulation, decreased capacitance — all
+  point the same, opposite direction from "decreased"). A genuine
+  conflict, escalated rather than resolved.
+- `long-term-regulation-of-arterial-blood-pressure-is-done-by-4e2ec8e0`,
+  `about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885`,
+  `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` —
+  RAAS depth, and kinins/endothelin specifically, are all explicitly
+  disclaimed as out-of-scope by this leaf's own covering article
+  (`ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL`'s own notes: "The book
+  names further vasoactive hormones (angiotensin II, vasopressin,
+  natriuretic peptides, kinins, endothelium-derived NO/endothelin/
+  prostacyclin)... not covered by this article for reasons of scope").
+  Bundled with the Vascular Function cluster's own ANP and ACE-inhibitor
+  gaps above — all flagged for the same article-authoring lane (a
+  dedicated vasoactive-hormones article would resolve all five at once).
+
+Gate (this commit): 577 kept (+8 from 569), 125 excluded (+4 from 121),
+138 MCQ concepts (+1 sparse-reuse first appearance). `medical:batch` full
+`--with`: 7 errors, unchanged from the previous commit (all pre-existing/
+known-false-positive), 0 new. `medical:simulate` positional (11 files):
+`errors: []`, `skipped: []`. `medical:audit --source`: 581 total errors,
+unchanged from the previous commit (no fresh mint this round, so no new
+`needs_evidence` id added). `medical:duplicate-keys`: 0 canonical key
+collisions, 1 pre-existing label collision. Additive-only id diff: 0
+QM-104-* ids removed, +8 added, matching the kept-count delta exactly.
+
+## Next action (resume-first)
+
+Basic Mechanisms of Circulatory Control is CLOSED. Both the primary
+dispatch targets (Mechanical Properties of Cardiac Muscle, Vascular
+Function) plus this bonus cluster are done, all gates clean. Per the
+dispatch's own queued order, budget permitting, the next candidate is
+**Conducting Portion** (67 bank-tagged rows) — but note this is a
+**different organ system** (respiratory, not cardiovascular), a bigger
+scope shift than the clusters closed this session. Recompute the "what's
+left" leaf breakdown directly against the bank before starting anything
+(this file's own prior note about "already partially closed" was wrong
+once, per the correction above — always recompute, never infer). Check
+`104-CPS-histology-concepts.md` / `104-CPS-physiology-concepts.md` for
+pinned, unimported Conducting-Portion/respiratory concepts before minting
+— this session's own experience (13 pinned concepts found and reused
+across three clusters this session) suggests the same goldmine pattern
+likely holds there too.
+
+Five commits, cross-checked against a sibling row where physiology
+allowed rather than escalating every open question — the general lesson
+this session reinforces for the next one: **when a printed/editorial
+answer seems physiologically backwards, check whether a sibling row or
+this pipeline's own already-published concept states the same fact
+correctly before deciding whether it's a genuine conflict (escalate) or a
+likely word-level OCR corruption (exclude, citing the corroborating
+row)** — three of this session's own exclusions/escalations turned on
+exactly that distinction.
+
+HANDOFF: kasr-104-author-run36@<this commit's sha, see `git log -1`> ·
+resume-first: recompute "what's left" for Conducting Portion (67 rows,
+respiratory) or continue mopping smaller CVS leaves if any remain after
+recomputing; check pinned histology/physiology concept files before
+minting on either.

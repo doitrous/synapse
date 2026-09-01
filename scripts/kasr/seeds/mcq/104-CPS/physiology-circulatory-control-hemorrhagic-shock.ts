@@ -128,6 +128,22 @@ export const LEAF: McqLeafSeed = {
     },
     {
       // Sparse reuse, not a fresh mint: canonical_key already pinned in
+      // 104-CPS-physiology-concepts.md as CON-CVS-230096C97EAB11, this
+      // exact leaf's own module_subject and article.
+      key: "central-chemoreceptors.location-stimulus-and-blood-brain-barrier",
+      label: "Central chemoreceptors near the medulla, protected by the blood-brain barrier and bathed by CSF, are driven mainly by rising PCO2 rather than by arterial hypoxia directly",
+      definition: "Central chemoreceptors are located near the medulla and are stimulated chiefly by a rise in blood/CSF PCO2, because CO2 crosses the blood-brain barrier freely while H+ and O2 do not; they are protected by the blood-brain barrier from the ionised solutes of plasma. Their afferents feed into the medullary cardiovascular centres and, together with the direct stimulant effect of hypercapnia and hypoxia on the vasomotor area itself, raise arterial blood pressure.",
+      objective: "State that central chemoreceptors, located near the medulla and protected by the blood-brain barrier, are stimulated primarily by a rise in blood/CSF PCO2, not directly by arterial O2 or H+.",
+      pitfall: "Treating central chemoreceptors as directly sensitive to arterial hypoxia or plasma H+, the way the peripheral chemoreceptors and other tissues are — the blood-brain barrier specifically protects them from ionised plasma solutes, leaving CO2 (freely diffusible) as their real, dominant stimulus.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      type: "mechanism",
+      aliases: ["Central chemoreceptors", "Blood-brain barrier and PCO2", "Medullary CO2 sensitivity"],
+    },
+    {
+      // Sparse reuse, not a fresh mint: canonical_key already pinned in
       // 104-CPS-physiology-concepts.md as CON-CVS-8E2C7AEC68C4CB, this
       // exact leaf's own module_subject and article.
       key: "cns-ischemic-response.trigger-and-effect",
@@ -488,6 +504,184 @@ export const LEAF: McqLeafSeed = {
         C: "True of hypovolemic shock, so not the exception: cold, pale, sweaty skin reflects the same sympathetic-driven cutaneous vasoconstriction and sweating that helps redirect blood to vital organs.",
         D: "True of hypovolemic shock, so not the exception: rapid respiration is a genuine compensatory sign, partly reflecting sympathetic drive and the metabolic (lactic) acidosis of inadequate tissue perfusion.",
       },
+    },
+    {
+      // Bank-tagged leaf: this leaf's own bank tag directly ("Basic
+      // Mechanisms of Circulatory Control"). Routed onto the already-
+      // reused arterial-baroreceptor-reflex concept, no new search
+      // needed.
+      key: "in-hypovolemis-shock-which-of-the-following-receptors-are-st-b5143c11",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that the primary receptors stimulated in hypovolemic shock are the arterial baroreceptors (carotid sinus and aortic arch), responding to the fall in arterial pressure and stretch, as opposed to peripheral chemoreceptors, atrial stretch receptors, or central chemoreceptors as the FIRST-engaged sensors.",
+      explanations: {
+        A: "Correct. In hypovolaemic shock, the arterial baroreceptors in the carotid sinus and aortic arch are the primary sensors engaged by the fall in arterial pressure and stretch, triggering the baroreceptor reflex arc (reduced discharge, disinhibited medullary centres, increased sympathetic outflow) that drives the compensatory tachycardia and vasoconstriction.",
+        B: "Peripheral chemoreceptors only engage with pressure once it has fallen far enough (40-60 mmHg) to make the carotid/aortic bodies themselves hypoxic — a later, more severe stage than the arterial baroreceptors' own continuous, moment-to-moment engagement.",
+        C: "Atrial stretch receptors respond to atrial filling (venous/volume status), a related but distinct low-pressure reflex from the arterial baroreceptors' own response to arterial pressure itself.",
+        D: "Central chemoreceptors respond to blood/CSF PCO2, not to arterial pressure or blood volume directly, so they are not the primary sensors engaged by hypovolemic shock's own pressure fall.",
+      },
+    },
+    {
+      key: "peripheral-chemoreceptors-are-not-sensitive-to-all-of-the-fo-eb2cd041",
+      conceptKey: "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies",
+      difficulty: "Hard",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that peripheral chemoreceptors detect the partial pressure of O2 dissolved in plasma (PO2) specifically, so they respond to hypoxic hypoxia but are blind to anaemia, carbon monoxide poisoning and methaemoglobinaemia, all of which lower O2 CONTENT without lowering PO2.",
+      explanations: {
+        A: "Peripheral chemoreceptors are NOT sensitive to a fall in O2 content from anaemia (fewer red cells/haemoglobin) — dissolved PO2 stays normal even though total O2 content falls, and it is dissolved PO2, not content, that these receptors detect.",
+        B: "Peripheral chemoreceptors are NOT sensitive to a fall in O2 content from carbon monoxide poisoning — CO occupies hemoglobin's binding sites without lowering the dissolved PO2 the receptors actually sense.",
+        C: "Peripheral chemoreceptors are NOT sensitive to a fall in O2 content from methaemoglobinaemia (haemoglobin iron oxidised, unable to carry O2) — again, dissolved PO2 remains normal even as content falls.",
+        D: "Correct — the exception. Peripheral chemoreceptors ARE sensitive to O2 dissolved in physical solution (i.e. PO2 itself); this is precisely the variable they detect, which is exactly why they respond powerfully to hypoxic hypoxia but fail to detect anaemia, CO poisoning or methaemoglobinaemia, none of which lower PO2 itself.",
+      },
+    },
+    {
+      key: "peripheral-chemoreceptors-are-stimulated-by-fc90086f",
+      conceptKey: "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies",
+      difficulty: "Easy",
+      questionType: "Recall of a true statement",
+      learningObjective: "State that peripheral chemoreceptors are stimulated primarily by hypoxia (low PO2), as opposed to anaemia, hypocapnia, or alkalosis.",
+      explanations: {
+        A: "Correct. Peripheral chemoreceptors (carotid and aortic bodies) are stimulated primarily by a fall in arterial PO2 — hypoxia.",
+        B: "Anaemia lowers O2 content, not PO2 itself, so it does not stimulate the peripheral chemoreceptors, which detect dissolved PO2 specifically.",
+        C: "Hypocapnia (low CO2) does not stimulate the peripheral chemoreceptors; if anything, low CO2 reduces central chemoreceptor drive, the opposite direction from stimulation.",
+        D: "Alkalosis (raised pH) does not stimulate the peripheral chemoreceptors in the same way hypoxia does; the chemoreceptors' primary, dominant stimulus is PO2, not pH.",
+      },
+    },
+    {
+      key: "peripheral-chemoreceptors-are-stimulated-mainly-by-1b87510d",
+      conceptKey: "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies",
+      difficulty: "Easy",
+      questionType: "Recall of a true statement",
+      learningObjective: "State that peripheral chemoreceptors are stimulated mainly by low arterial PO2, as opposed to raised H+ ions or alkalosis.",
+      explanations: {
+        A: "Correct. Peripheral chemoreceptors are stimulated mainly by low arterial PO2 (hypoxia) — their dominant, primary stimulus.",
+        B: "Not the mainstay stimulus for peripheral chemoreceptors specifically (this garbled option restates PO2, already credited as option A's own correct claim, so is not itself a distinct distractor).",
+        C: "Increased H+ ions in arterial blood is more the central chemoreceptors' own domain (via CO2-derived H+ in the CSF); it is not the peripheral chemoreceptors' MAIN stimulus.",
+        D: "Alkalosis (raised pH, i.e. LOWER H+) is the opposite direction from what would stimulate any chemoreceptor via the H+ route, and is not the peripheral chemoreceptors' main stimulus in any case, which is PO2.",
+      },
+    },
+    {
+      key: "respiratory-chemoreceptors-a4e29c8c",
+      conceptKey: "central-chemoreceptors.location-stimulus-and-blood-brain-barrier",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that the central chemoreceptors, in the medulla, respond to changes in arterial PCO2, as opposed to the carotid/aortic bodies being the dominant PCO2 sensor, being strongly driven by low O2 CONTENT in anaemia, or chemoreceptors transducing electrical signals into chemical ones (backwards).",
+      explanations: {
+        A: "Backwards on which receptor dominates the PCO2 response: the CENTRAL chemoreceptors in the medulla, not the carotid/aortic bodies, are the most important sensor for the ventilatory response to elevated PCO2.",
+        B: "Backwards: the carotid/aortic bodies (peripheral chemoreceptors) detect dissolved PO2, not O2 CONTENT — they are essentially blind to anaemia, since dissolved PO2 stays normal even though O2 content falls.",
+        C: "Correct. The central chemoreceptors, located in the medulla, are responsive to changes in arterial PCO2 (via CO2 crossing the blood-brain barrier and generating H+ in the CSF), their own primary, dominant stimulus.",
+        D: "Backwards: chemoreceptors transduce CHEMICAL signals (PCO2, PO2, H+) into ELECTRICAL ones (afferent nerve discharge), not the reverse.",
+      },
+    },
+    {
+      key: "stimulation-of-arterial-baroreceptors-leads-to-all-of-these-037f9276",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify stimulation of the respiratory centre as NOT a direct effect of arterial baroreceptor stimulation, as the exception among its otherwise correct effects (vasomotor inhibition, ADH-secretion inhibition, heart-rate slowing).",
+      explanations: {
+        A: "True of baroreceptor stimulation, so not the exception: a rise in arterial pressure raises baroreceptor discharge, which INHIBITS the vasomotor area, lowering sympathetic drive.",
+        B: "The exception, and the answer. Arterial baroreceptor stimulation is not primarily a respiratory-centre effect; its own direct effects are on the vasomotor area, the cardiac inhibitory (vagal) area, and ADH secretion, not respiratory drive.",
+        C: "True of baroreceptor stimulation, so not the exception: raised arterial pressure inhibits ADH (vasopressin) secretion, part of the same reflex reducing sympathetic and pressor drive.",
+        D: "True of baroreceptor stimulation, so not the exception: increased baroreceptor discharge excites the cardiac inhibitory (vagal) area, slowing heart rate — the depressor limb of the reflex.",
+      },
+    },
+    {
+      key: "the-activity-of-the-central-chemoreceptors-is-stimulated-by-6197201c",
+      conceptKey: "central-chemoreceptors.location-stimulus-and-blood-brain-barrier",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that central chemoreceptor activity is stimulated by a rise in the PCO2 of blood perfusing the brain, as opposed to a fall in PO2, a fall in O2 content, or a fall in local metabolic rate.",
+      explanations: {
+        A: "Correct. Central chemoreceptors in the medulla respond primarily to a rise in the PCO2 of blood flowing through the brain, because CO2 (unlike H+ ions themselves) crosses the blood-brain barrier freely, hydrates within the CSF to form carbonic acid, and dissociates to release H+ that directly stimulates the chemoreceptors.",
+        B: "A fall in PO2 is more the peripheral (carotid/aortic body) chemoreceptors' own primary stimulus; central chemoreceptors are relatively insensitive to hypoxia directly.",
+        C: "A fall in O2 content (as in anaemia) does not directly stimulate the central chemoreceptors, whose stimulus is PCO2/H+ via the blood-brain barrier, not oxygen carriage.",
+        D: "A fall (not rise) in local metabolic rate would, if anything, lower local CO2/H+ production and so lower, not raise, central chemoreceptor stimulation.",
+      },
+    },
+    {
+      key: "the-activity-of-the-central-chemoreceptors-is-stimulated-by-bd93fcab",
+      conceptKey: "central-chemoreceptors.location-stimulus-and-blood-brain-barrier",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that central chemoreceptor activity is stimulated by a rise in the PCO2 of blood perfusing the brain, as opposed to a fall in PO2, a fall in O2 content, or a fall in local metabolic rate.",
+      explanations: {
+        A: "Correct. This is a duplicate-occurrence sibling question: an increase in the PCO2 of blood flowing through the brain remains the central chemoreceptors' primary, dominant stimulus, acting via CO2 crossing the blood-brain barrier and generating H+ ions in the CSF that directly excite these medullary receptors.",
+        B: "A fall in PO2 is more the peripheral (carotid/aortic body) chemoreceptors' own primary stimulus; central chemoreceptors are relatively insensitive to hypoxia directly.",
+        C: "A fall in O2 content does not directly stimulate the central chemoreceptors, whose stimulus is PCO2/H+ via the blood-brain barrier, not oxygen carriage.",
+        D: "A fall (not rise) in local metabolic rate would, if anything, lower local CO2/H+ production and so lower, not raise, central chemoreceptor stimulation.",
+      },
+    },
+    {
+      // Excluded rather than kept: the bank extraction recovered only 2
+      // options (A, D) — no B or C — well below the platform's 4-to-5-
+      // option import contract.
+      key: "central-chemoreceptors-0a60cec1",
+      conceptKey: "central-chemoreceptors.location-stimulus-and-blood-brain-barrier",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The bank extraction recovered only 2 options (A, D) — B and C are both missing entirely — well below the platform's 4-to-5-option import contract. The genuine facts this row tests (central chemoreceptors are NOT primarily PO2-sensitive, and ARE protected by the blood-brain barrier) are already taught cleanly via the sibling questions the-activity-of-the-central-chemoreceptors-is-stimulated-by-6197201c and its own duplicate, and respiratory-chemoreceptors-a4e29c8c.",
+    },
+    {
+      // Excluded: a genuine stem/option mismatch corruption, a new hazard
+      // variant not previously catalogued in this branch — the stem
+      // describes fetal haemoglobin (2-alpha/2-gamma chains, 2,3-DPG
+      // binding), but the surviving options answer an entirely different
+      // question about the peripheral chemoreceptors' own most potent
+      // stimulus (oxygen tension). Two distinct source questions' text
+      // has been merged across the stem/option boundary during
+      // extraction, leaving neither question completable from what
+      // survives.
+      key: "fetal-hemoglobin-contains-2alpha-2-gamma-chains-cannot-combi-bd5548ea",
+      conceptKey: "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Stem/option mismatch corruption: the stem describes fetal haemoglobin (2-alpha/2-gamma chains, 2,3-DPG binding), an entirely different topic from the surviving lettered options, which instead answer a peripheral-chemoreceptor question (oxygen tension as the most potent stimulus). Two distinct source questions have been merged across the stem/option boundary during extraction; neither question is completable from what survives. The genuine peripheral-chemoreceptor/PO2 fact the options describe is already taught cleanly by this file's own peripheral-chemoreceptors-are-stimulated-by-fc90086f and peripheral-chemoreceptors-are-stimulated-mainly-by-1b87510d questions.",
+    },
+    {
+      // Excluded rather than kept: already unanswerable at the bank's own
+      // editorial stage (answer: null, editorialExcluded: true) — only 3
+      // options survive (A, B, C, with A itself corrupted by a stray
+      // "tral ehemoree pis" fragment), no D, below the platform's 4-to-5-
+      // option import contract.
+      key: "the-cause-of-compensatoryhyperventilation-in-metabolic-acido-d0688695",
+      conceptKey: "central-chemoreceptors.location-stimulus-and-blood-brain-barrier",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already unanswerable at the bank's own editorial stage (answerConfidence: none, editorialExcluded: true): only 3 options survive (A, B, C — no D), and option A itself carries a stray corrupted fragment ('tral ehemoree pis'), below the platform's 4-to-5-option import contract.",
+    },
+    {
+      // Excluded rather than kept: option A's own text ("stimulation of
+      // the vasomotor centers") directly contradicts both standard
+      // baroreflex physiology and this file's own already-kept sibling
+      // question (stimulation-of-arterial-baroreceptors-leads-to-all-of-
+      // these-037f9276), whose own option A instead reads "INHIBITION of
+      // the vasomotor centers" and is credited as a TRUE statement there.
+      // Rising baroreceptor discharge inhibits, never stimulates, the
+      // vasomotor area — this is a genuine word-level OCR corruption
+      // ("stimulation" swapped for "inhibition"), the same class of
+      // opposite-word hazard documented elsewhere in this branch (e.g.
+      // "Wmiax" for "Vmax"), with no seed-level field able to repair
+      // option text. Not authored to match a word that contradicts this
+      // pipeline's own sourced, already-published concept.
+      key: "stimulation-of-arterial-baroreceptors-leads-6b137511",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The credited option A's own text ('stimulation of the vasomotor centers') contradicts standard baroreflex physiology and this file's own sibling question (037f9276), whose parallel option A instead reads 'inhibition of the vasomotor centers' and is credited TRUE there — rising baroreceptor discharge inhibits, never stimulates, the vasomotor area. A likely word-level OCR corruption ('stimulation' for 'inhibition'), with no seed-level field able to repair option text; not authored to match a claim contradicting this pipeline's own sourced, already-published concept.",
     },
   ],
 }

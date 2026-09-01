@@ -43,7 +43,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 25 questions, 9 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 37 questions, 10 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -69,7 +69,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  121 questions were excluded and 0 held back for having no
+  125 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -6849,12 +6849,14 @@ src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p16 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.55
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.55
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6956,10 +6958,32 @@ The peripheral chemoreceptor reflex, driven by low arterial PO2 in the carotid a
 peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p23 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p41 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
 ## article_ids
 +ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 ## field_notes
 canonical_key "peripheral-chemoreceptor-reflex.carotid-and-aortic-bodies" already has a pinned id in this module (CON-CVS-131F06D46D3B84); mintConceptId derives the same id fresh (CON-CVS-131F06D46D3B84) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-230096C97EAB11
+## label
+Central chemoreceptors near the medulla, protected by the blood-brain barrier and bathed by CSF, are driven mainly by rising PCO2 rather than by arterial hypoxia directly
+## canonical_key
+central-chemoreceptors.location-stimulus-and-blood-brain-barrier
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p42 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p21 | 104 CPS
+## article_ids
++ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## field_notes
+canonical_key "central-chemoreceptors.location-stimulus-and-blood-brain-barrier" already has a pinned id in this module (CON-CVS-230096C97EAB11); mintConceptId derives the same id fresh (CON-CVS-230096C97EAB11) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

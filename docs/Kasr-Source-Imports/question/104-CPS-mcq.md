@@ -43,7 +43,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 25 questions, 9 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 37 questions, 10 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -69,7 +69,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  121 questions were excluded and 0 held back for having no
+  125 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -37356,6 +37356,744 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p9 q37. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B8992E6A247F
+## title
+In hypovolemis shock, which of the following receptors are stimulated?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In hypovolemis shock, which of the following receptors are stimulated?
+## answer_a
+Baroreceptors in the carotid sinus and aortic arch
+## explanation_a
+Correct. In hypovolaemic shock, the arterial baroreceptors in the carotid sinus and aortic arch are the primary sensors engaged by the fall in arterial pressure and stretch, triggering the baroreceptor reflex arc (reduced discharge, disinhibited medullary centres, increased sympathetic outflow) that drives the compensatory tachycardia and vasoconstriction.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_b
+Peripheral chemoreceptors in the aortic and carotid bodies
+## explanation_b
+Peripheral chemoreceptors only engage with pressure once it has fallen far enough (40-60 mmHg) to make the carotid/aortic bodies themselves hypoxic — a later, more severe stage than the arterial baroreceptors' own continuous, moment-to-moment engagement.
+## answer_c
+Atrial stretch receptors
+## explanation_c
+Atrial stretch receptors respond to atrial filling (venous/volume status), a related but distinct low-pressure reflex from the arterial baroreceptors' own response to arterial pressure itself.
+## answer_d
+Central chernoreceptors in the medulla
+## explanation_d
+Central chemoreceptors respond to blood/CSF PCO2, not to arterial pressure or blood volume directly, so they are not the primary sensors engaged by hypovolemic shock's own pressure fall.
+## correct_answer
+A
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the primary receptors stimulated in hypovolemic shock are the arterial baroreceptors (carotid sinus and aortic arch), responding to the fall in arterial pressure and stretch, as opposed to peripheral chemoreceptors, atrial stretch receptors, or central chemoreceptors as the FIRST-engaged sensors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q41. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-72F7CCB8C3BC
+## title
+Peripheral chemoreceptors are not sensitive to all of the following Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Peripheral chemoreceptors are not sensitive to all of the following Except:
+## answer_a
+O₂ content in case of anemia
+## explanation_a
+Peripheral chemoreceptors are NOT sensitive to a fall in O2 content from anaemia (fewer red cells/haemoglobin) — dissolved PO2 stays normal even though total O2 content falls, and it is dissolved PO2, not content, that these receptors detect.
+## answer_b
+O₂ content in case of CO poisoning
+## explanation_b
+Peripheral chemoreceptors are NOT sensitive to a fall in O2 content from carbon monoxide poisoning — CO occupies hemoglobin's binding sites without lowering the dissolved PO2 the receptors actually sense.
+## answer_c
+O₂ content in case of met Hb
+## explanation_c
+Peripheral chemoreceptors are NOT sensitive to a fall in O2 content from methaemoglobinaemia (haemoglobin iron oxidised, unable to carry O2) — again, dissolved PO2 remains normal even as content falls.
+## answer_d
+O₂ dissolved in physical solution
+## explanation_d
+Correct — the exception. Peripheral chemoreceptors ARE sensitive to O2 dissolved in physical solution (i.e. PO2 itself); this is precisely the variable they detect, which is exactly why they respond powerfully to hypoxic hypoxia but fail to detect anaemia, CO poisoning or methaemoglobinaemia, none of which lower PO2 itself.
+
+Why this is right:
+- Peripheral chemoreceptors in the carotid and aortic bodies are primarily stimulated by low arterial PO2.
+## correct_answer
+D
+## main_concept
+CON-CVS-131F06D46D3B84
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that peripheral chemoreceptors detect the partial pressure of O2 dissolved in plasma (PO2) specifically, so they respond to hypoxic hypoxia but are blind to anaemia, carbon monoxide poisoning and methaemoglobinaemia, all of which lower O2 CONTENT without lowering PO2.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q94. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-80A0B648EFCC
+## title
+Peripheral chemoreceptors are stimulated by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Peripheral chemoreceptors are stimulated by:
+## answer_a
+Hypoxia
+## explanation_a
+Correct. Peripheral chemoreceptors (carotid and aortic bodies) are stimulated primarily by a fall in arterial PO2 — hypoxia.
+
+Why this is right:
+- Peripheral chemoreceptors in the carotid and aortic bodies are primarily stimulated by low arterial PO2.
+## answer_b
+Anemia
+## explanation_b
+Anaemia lowers O2 content, not PO2 itself, so it does not stimulate the peripheral chemoreceptors, which detect dissolved PO2 specifically.
+## answer_c
+Hypocapnia
+## explanation_c
+Hypocapnia (low CO2) does not stimulate the peripheral chemoreceptors; if anything, low CO2 reduces central chemoreceptor drive, the opposite direction from stimulation.
+## answer_d
+Alkalosis 1
+## explanation_d
+Alkalosis (raised pH) does not stimulate the peripheral chemoreceptors in the same way hypoxia does; the chemoreceptors' primary, dominant stimulus is PO2, not pH.
+## correct_answer
+A
+## main_concept
+CON-CVS-131F06D46D3B84
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+State that peripheral chemoreceptors are stimulated primarily by hypoxia (low PO2), as opposed to anaemia, hypocapnia, or alkalosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p41 q122. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-287D8E72D064
+## title
+Peripheral chemoreceptors are stimulated mainly by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Peripheral chemoreceptors are stimulated mainly by:
+## answer_a
+low Poe
+## explanation_a
+Correct. Peripheral chemoreceptors are stimulated mainly by low arterial PO2 (hypoxia) — their dominant, primary stimulus.
+
+Why this is right:
+- Peripheral chemoreceptors in the carotid and aortic bodies are primarily stimulated by low arterial PO2.
+## answer_b
+low ‏ووم‎
+## explanation_b
+Not the mainstay stimulus for peripheral chemoreceptors specifically (this garbled option restates PO2, already credited as option A's own correct claim, so is not itself a distinct distractor).
+## answer_c
+increased H" ions in arterial blood.
+## explanation_c
+Increased H+ ions in arterial blood is more the central chemoreceptors' own domain (via CO2-derived H+ in the CSF); it is not the peripheral chemoreceptors' MAIN stimulus.
+## answer_d
+alkalosis.
+## explanation_d
+Alkalosis (raised pH, i.e. LOWER H+) is the opposite direction from what would stimulate any chemoreceptor via the H+ route, and is not the peripheral chemoreceptors' main stimulus in any case, which is PO2.
+## correct_answer
+A
+## main_concept
+CON-CVS-131F06D46D3B84
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+State that peripheral chemoreceptors are stimulated mainly by low arterial PO2, as opposed to raised H+ ions or alkalosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p23 q50. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EA9F6FFDC95D
+## title
+Respiratory chemoreceptors:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Respiratory chemoreceptors:
+## answer_a
+Carotid and aortic bodies are most important in the ventilator response to an elevated PCO;
+## explanation_a
+Backwards on which receptor dominates the PCO2 response: the CENTRAL chemoreceptors in the medulla, not the carotid/aortic bodies, are the most important sensor for the ventilatory response to elevated PCO2.
+## answer_b
+Carotid and aortic bodies are strongly stimulated by the low arterial O2 content in anemic patients
+## explanation_b
+Backwards: the carotid/aortic bodies (peripheral chemoreceptors) detect dissolved PO2, not O2 CONTENT — they are essentially blind to anaemia, since dissolved PO2 stays normal even though O2 content falls.
+## answer_c
+In the medulla are responsive to changes in arterial PCO,
+## explanation_c
+Correct. The central chemoreceptors, located in the medulla, are responsive to changes in arterial PCO2 (via CO2 crossing the blood-brain barrier and generating H+ in the CSF), their own primary, dominant stimulus.
+
+Why this is right:
+- Hypercapnia, and to a lesser extent hypoxia, directly stimulates the vasomotor area, raising arterial blood pressure.
+## answer_d
+Transduce electrical signals into chemical changes
+## explanation_d
+Backwards: chemoreceptors transduce CHEMICAL signals (PCO2, PO2, H+) into ELECTRICAL ones (afferent nerve discharge), not the reverse.
+## correct_answer
+C
+## main_concept
+CON-CVS-230096C97EAB11
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the central chemoreceptors, in the medulla, respond to changes in arterial PCO2, as opposed to the carotid/aortic bodies being the dominant PCO2 sensor, being strongly driven by low O2 CONTENT in anaemia, or chemoreceptors transducing electrical signals into chemical ones (backwards).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q58. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FCF01289E55D
+## title
+Stimulation of arterial baroreceptors leads to all of these except;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stimulation of arterial baroreceptors leads to all of these except;
+## answer_a
+inhibition of the vasomotor centers
+## explanation_a
+True of baroreceptor stimulation, so not the exception: a rise in arterial pressure raises baroreceptor discharge, which INHIBITS the vasomotor area, lowering sympathetic drive.
+## answer_b
+stimulation of the respiratory center
+## explanation_b
+The exception, and the answer. Arterial baroreceptor stimulation is not primarily a respiratory-centre effect; its own direct effects are on the vasomotor area, the cardiac inhibitory (vagal) area, and ADH secretion, not respiratory drive.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_c
+inhibition of secretion of antidiuretic hormone
+## explanation_c
+True of baroreceptor stimulation, so not the exception: raised arterial pressure inhibits ADH (vasopressin) secretion, part of the same reflex reducing sympathetic and pressor drive.
+## answer_d
+slowing of the heart rate
+## explanation_d
+True of baroreceptor stimulation, so not the exception: increased baroreceptor discharge excites the cardiac inhibitory (vagal) area, slowing heart rate — the depressor limb of the reflex.
+## correct_answer
+B
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify stimulation of the respiratory centre as NOT a direct effect of arterial baroreceptor stimulation, as the exception among its otherwise correct effects (vasomotor inhibition, ADH-secretion inhibition, heart-rate slowing).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q122. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-327F68B0332E
+## title
+The activity of the central chemoreceptors is stimulated by: a, An increase in the PCO,…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The activity of the central chemoreceptors is stimulated by: a, An increase in the PCO, of blood flowing through the brain
+## answer_a
+An increase in the PCO, of blood flowing through the brain .
+## explanation_a
+Correct. Central chemoreceptors in the medulla respond primarily to a rise in the PCO2 of blood flowing through the brain, because CO2 (unlike H+ ions themselves) crosses the blood-brain barrier freely, hydrates within the CSF to form carbonic acid, and dissociates to release H+ that directly stimulates the chemoreceptors.
+
+Why this is right:
+- Hypercapnia, and to a lesser extent hypoxia, directly stimulates the vasomotor area, raising arterial blood pressure.
+## answer_b
+A decrease in the PO2 of blood flowing through the brain
+## explanation_b
+A fall in PO2 is more the peripheral (carotid/aortic body) chemoreceptors' own primary stimulus; central chemoreceptors are relatively insensitive to hypoxia directly.
+## answer_c
+A decrease in the oxygen content of blood flowing through the brain
+## explanation_c
+A fall in O2 content (as in anaemia) does not directly stimulate the central chemoreceptors, whose stimulus is PCO2/H+ via the blood-brain barrier, not oxygen carriage.
+## answer_d
+A decrease in the metabolic rate of the surrounding brain tissue
+## explanation_d
+A fall (not rise) in local metabolic rate would, if anything, lower local CO2/H+ production and so lower, not raise, central chemoreceptor stimulation.
+## correct_answer
+A
+## main_concept
+CON-CVS-230096C97EAB11
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that central chemoreceptor activity is stimulated by a rise in the PCO2 of blood perfusing the brain, as opposed to a fall in PO2, a fall in O2 content, or a fall in local metabolic rate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q124. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AD3EEF1504D8
+## title
+The activity of the central chemoreceptors is stimulated by: —
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The activity of the central chemoreceptors is stimulated by: —
+## answer_a
+An increase in the PCQ, of blood flowing through the brain
+## explanation_a
+Correct. This is a duplicate-occurrence sibling question: an increase in the PCO2 of blood flowing through the brain remains the central chemoreceptors' primary, dominant stimulus, acting via CO2 crossing the blood-brain barrier and generating H+ ions in the CSF that directly excite these medullary receptors.
+
+Why this is right:
+- Hypercapnia, and to a lesser extent hypoxia, directly stimulates the vasomotor area, raising arterial blood pressure.
+## answer_b
+A decrease in the PQ, of blood flowing through the brain
+## explanation_b
+A fall in PO2 is more the peripheral (carotid/aortic body) chemoreceptors' own primary stimulus; central chemoreceptors are relatively insensitive to hypoxia directly.
+## answer_c
+A decrease in the oxygen content of blood flowing through the brain
+## explanation_c
+A fall in O2 content does not directly stimulate the central chemoreceptors, whose stimulus is PCO2/H+ via the blood-brain barrier, not oxygen carriage.
+## answer_d
+A decrease in the metabolic rate of the surrounding brain tissue
+## explanation_d
+A fall (not rise) in local metabolic rate would, if anything, lower local CO2/H+ production and so lower, not raise, central chemoreceptor stimulation.
+## correct_answer
+A
+## main_concept
+CON-CVS-230096C97EAB11
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that central chemoreceptor activity is stimulated by a rise in the PCO2 of blood perfusing the brain, as opposed to a fall in PO2, a fall in O2 content, or a fall in local metabolic rate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p21 q38. Manifest src_ab84e963639b236e0951.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
