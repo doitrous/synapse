@@ -103,7 +103,6 @@ const questionRows = Object.entries(blocks).map(([block, q]) => {
     ['matching_options', q.options.map(([letter, text]) => `${letter} | ${text}`).join('\n')],
     ['matching_prompts', members.map(spec => `${spec.prompt} = ${spec.key}`).join('\n')], ['derived_from', ''],
     ['topic', 'General pharmacology'], ['subtopic', articles[members[0].article].subtopic], ['difficulty', 'Moderate'],
-    ['explanation', members.map(spec => `${spec.prompt}: ${spec.definition}`).join('\n')],
     ['question_type', 'Pharmacology'], ['main_concept', members.map(spec => spec.concept).join(' | ')], ['module', 'HU-BMS-102'],
     ['module_subject', `HU-BMS-102 > Pharmacology > ${articles[members[0].article].subtopic} > Family252 > ${block}`],
     ['clinical_relevance', '0.66'], ['academic_relevance', '0.95'], ['cognitive_effort_score', '0.52'],

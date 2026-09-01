@@ -36,12 +36,6 @@ General pharmacology
 Adrenergic pharmacology
 ## difficulty
 Moderate
-## explanation
-Adrenaline: Adrenaline stimulates alpha and beta adrenergic receptors.
-a- methyl dopa: Alpha-methyldopa reduces adrenergic transmitter synthesis through its central sympatholytic pathway.
-Isoprenaline: Isoprenaline stimulates beta adrenergic receptors rather than alpha receptors.
-Clonidine: Clonidine is an alpha-2 adrenergic receptor agonist.
-Labetolol: Labetalol blocks both alpha and beta adrenergic receptors.
 ## question_type
 Pharmacology
 ## main_concept
@@ -136,11 +130,6 @@ General pharmacology
 Cholinergic pharmacology
 ## difficulty
 Moderate
-## explanation
-Pilocarpine: Pilocarpine is a muscarinic agonist used as a miotic and for glaucoma or xerostomia.
-Bethanechol: Bethanechol is used to stimulate gastrointestinal smooth muscle in megacolon.
-Neostigmine: Neostigmine reverses curare-type neuromuscular blockade and is used in myasthenia gravis.
-Physostigmine: Physostigmine can reverse central and peripheral manifestations of atropine toxicity.
 ## question_type
 Pharmacology
 ## main_concept
