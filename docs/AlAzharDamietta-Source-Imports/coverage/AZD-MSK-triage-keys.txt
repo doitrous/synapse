@@ -1,0 +1,33 @@
+# AZD-MSK -- distinct concepts identified this triage pass
+# (source: Formative exam with answers.pdf, Faculty of Medicine/Year 1/Musculoskeletal/_Telegram Year 1 Archive/)
+# One tested idea per line. Keys recovered by yellow-highlight render (200 dpi),
+# NOT by plain-text extraction -- pagetext.mjs keys found only 1/25 via bold markers.
+
+A1  sarcomere = myofibril segment between 2 successive Z-lines -- live (CON-MSK-70448A9B07D24A)
+A2  albumin is not a muscle protein (myosin/actin/troponin are) -- pending (103-BMS-physiology-concepts)
+A3  osteocalcin is a calcium-binding bone protein -- pending (102-INT-mcq-concepts)
+A4  collagen is firm due to its triple helix, not a double helix -- new (fnd)
+A5  hyaluronic acid is the sulfate-free glycosaminoglycan, lubricates joints -- pending (AU-MED-102-biochem-structural-concepts)
+B1  medial pectoral nerve does not pierce the clavipectoral fascia -- pending (101-ISK-mcq-concepts)
+B2  musculocutaneous nerve pierces coracobrachialis -- live (CON-DER-8387EA6B89BC45)
+B3  teres major is not a rotator cuff muscle -- live (CON-MSK-630F5C52F1CB7C)
+B4  inferior angle of scapula is covered by latissimus dorsi -- new (msk)
+B5  long head of biceps arises from the supraglenoid tubercle -- new (msk)
+B6  biceps brachii is supplied by the musculocutaneous nerve -- live (CON-DER-5AF796E0F2C0D3)
+B7  nipple does not lie over the 6th intercostal space -- new (gyn)
+B8  rhomboid muscles are supplied by the dorsal scapular nerve (C5) -- pending (AU-MED-105-anatomy-concepts)
+B9  brachial plexus roots lie between the scalene muscles -- new (msk)
+B10 brachial artery divides at the level of the radial neck, in the cubital fossa -- new (msk); related but distinct live concept exists (CON-MSK-7757FA9AC100EA, anterior relations)
+C1  skeletal muscle fibres have multiple peripheral nuclei -- new (msk)
+C2  articular cartilage in synovial joints has no perichondrium -- pending (103-BMS-histology-concepts, direct match)
+C3  alpha actinin anchors actin filaments at the Z-line -- new (msk)
+C4  annulus fibrosus of the intervertebral disc is white fibrocartilage -- pending (103-BMS-histology-concepts)
+C5  smooth muscle cells are fusiform, not striated -- pending (AU-MED-105-histology-articles)
+D1  action potential in a nerve is terminated by efflux of K+ (repolarization) -- pending (AU-MED-105-physiology-questions)
+D2  chronaxie = time to stimulate at a stimulus double the rheobase -- live (CON-NEU-105A7842809DC1)
+D3  RMP is caused by the membrane's selective ion permeability -- live (CON-NEU-763D2F7A1571C9); collapsed with D5
+D4  myelin sheath is a lipoprotein complex, acts as an electric insulator -- pending (103-BMS-MCQ-nerve-muscle, same MCQ title)
+D5  RMP is caused mainly by outward diffusion of K+ ions -- live (CON-NEU-763D2F7A1571C9); collapsed with D3
+
+# Checkpoint: 25 questions triaged, 25 keys recovered, 24 distinct concepts
+# (D3+D5 collapsed), 6 live, 10 pending, 8 new (msk x6, gyn x1, fnd x1).
