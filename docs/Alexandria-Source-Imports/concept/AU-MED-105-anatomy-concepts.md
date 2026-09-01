@@ -6068,3 +6068,185 @@ atomicClaimIds: Set after the build-evidence pass against this module's bank sou
 conflicts: None found between the bank questions and standard gross anatomy.
 uncertainty: Some texts show the medial circumflex femoral artery arising directly from the femoral artery in a minority of individuals; the bank's printed key treats profunda femoris as the standard origin, which this record follows.
 relationships: Complements the existing profunda-femoris and femoral-sheath concepts minted for this module's thigh content.
+
+---
+
+# Item
+
+## id
+CON-MSK-8E4BB62A579068
+
+## label
+The clavicle is the first bone to begin ossifying and articulates only with the sternum and acromion (not the coracoid process); its named surfaces carry set muscle and ligament attachments, the coracoid process gives attachment to pectoralis minor, and the scapular spine continues laterally as the acromion
+
+## canonical_key
+shoulder.pectoral-girdle-osteology-landmarks
+
+## aliases
+Clavicle attachments
+Clavicle ossification order
+Coracoid process attachments
+Spine of scapula and acromion
+Medial border of the scapula attachments
+Pectoral girdle osteology
+
+## arabic_label
+تشريح عظمتي الترقوة ولوح الكتف
+
+## arabic_aliases
+
+
+## definition
+The clavicle is the earliest bone in the body to begin ossifying (intramembranous, in the sixth embryonic week) even though its medial epiphysis is the last to fuse, in the mid-20s. It articulates with the manubrium sterni medially and the acromion laterally — it does not articulate with the coracoid process, which is connected to it only indirectly via the coracoclavicular ligament. Trapezius attaches to the posterior border of its lateral one-third (not the medial two-thirds); pectoralis major attaches along the anterior border and superior surface of roughly its medial half. On the lateral one-third, deltoid takes the anterior border and superior surface while the coracoclavicular ligament (conoid tubercle and trapezoid line) takes the inferior surface; subclavius occupies the subclavian groove on the inferior surface of the middle third, and the costoclavicular ligament attaches to the costal tuberosity on the inferior surface of the medial end — so of these, only deltoid attaches to a surface other than the inferior surface. On the scapula, the medial (vertebral) border gives attachment to levator scapulae, both rhomboids and serratus anterior, while teres minor and teres major attach instead to the lateral (axillary) border — so among muscles said to attach to the medial border, teres minor is the exception. Pectoralis major attaches to the clavicle, sternum and upper costal cartilages, not to the scapula at all, unlike deltoid, trapezius and serratus anterior, which all do attach to the scapula. The coracoid process gives attachment to pectoralis minor (its tip), and to coracobrachialis and the short head of biceps together (its apex, the conjoint tendon) — not to the long head of biceps (supraglenoid tubercle) or the long head of triceps (infraglenoid tubercle). The scapular spine, running across the posterior surface, is continuous laterally with the acromion process, the point where deltoid and trapezius both attach.
+
+## explicit_objective
+State that the clavicle is the first bone to start ossifying and articulates only with the sternum and acromion, list which named clavicular surface each muscle or ligament attaches to (and which is the odd one out), name the coracoid process's own muscle attachments, and state that the scapular spine continues laterally as the acromion.
+
+## pitfalls
+Assuming the clavicle articulates with the coracoid process because the coracoclavicular ligament connects them so firmly — the ligament is not a joint, and the clavicle's only two articulations are the sternoclavicular and acromioclavicular joints. Assuming trapezius attaches to the clavicle's medial two-thirds by analogy with pectoralis major's own medial-half attachment on the opposite border — trapezius in fact takes the lateral one-third. Assuming the long head of biceps shares the coracoid process with pectoralis minor and coracobrachialis; it arises instead from the supraglenoid tubercle, above the glenoid rim.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T02
+
+## secondary_node_ids
+SYS-MSK-T01-S01-M01
+
+## topic
+Upper limb
+
+## subtopic
+The Shoulder
+
+## microtopic
+Clavicle, scapula and coracoid process osteology
+
+## nanotopic
+
+
+## modules
+AU-MED-105
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Pectoral region and shoulder girdle
+
+## article_ids
+ART-MSK-AU105-SHOULDER-GIRDLE-NERVES
+
+## related_article_ids
+
+
+
+## related_concept_ids
+CON-MSK-7F73A394EF5B30 | CON-MSK-59453A6F6ACC2E
+
+## resource_ids
+src_c86f47635016c192bd42
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y1=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Regarding the clavicle, which is true? / Which structure is attached to the lateral 1/3 of the clavicle? / The inferior surface of the clavicle gives attachment to all of the following except / The earliest bone to ossify / One of the following is not attached to the medial border of the scapula / The coracoid process gives attachment to ... muscle / All of the following are attached to the scapula except / The spine of the scapula is continuous laterally as the
+
+## exam_signal
+src_c86f47635016c192bd42 | bank | | p2-p3 | AU-MED-105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The canonical taxonomy tree has no MIC_ node finer than this topic/subtopic pair for this module; `microtopic` carries the department lecture's own heading as free text instead.
+arabicAliases: No standard second Arabic alias beyond the label is in wide undergraduate use.
+nanotopicId: No further printed subdivision in the source lecture.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the Upper Limb MCQ bank (section A, Q1-Q3, Q4, Q5-Q8); no corpus extraction record.
+sourceCandidateIds: Searched "coracoid process", "clavicle attachments", "medial border of the scapula" and "spine of scapula" against live state and every pending batch. Live state returns only an unrelated coracoid bursa concept (CON-MSK-058A0E02F0CAF8); the pending 101-ISK batch has no concept stating the clavicle's own surface-by-surface attachment table, its ossification order, or the coracoid process's own attachment list — treated as a genuine gap for this specific osteology-table objective, distinct from the already-minted clavicle-fracture concept.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: Set after the build-evidence pass; see evidence/AU-MED-105-anatomy-claims.md.
+relationships: Cross-linked to the clavicle-fracture-displacement concept (same bone) and to the medial-border-of-the-scapula concept CON-MSK-59453A6F6ACC2E (pending, cited for the teres-minor exception).
