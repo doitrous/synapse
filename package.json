@@ -28,7 +28,8 @@
     "content:reset-visibility": "node --experimental-strip-types scripts/reset-published-content-visibility.mjs",
     "medical:batches-present": "python3 scripts/kasr/check-batches-present.py",
     "medical:batch": "node --experimental-strip-types scripts/validate-content-batch.mjs",
-    "medical:simulate": "node --experimental-strip-types scripts/simulate-content-import.mjs"
+    "medical:simulate": "node --experimental-strip-types scripts/simulate-content-import.mjs",
+    "kasr:ledger-104": "node --experimental-strip-types scripts/kasr/ledger-104.ts"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.3.0",
