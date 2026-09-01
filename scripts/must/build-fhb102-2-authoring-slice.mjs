@@ -427,6 +427,91 @@ const introItems = [
   },
 ]
 
+const microArticles = {
+  foundations: 'ART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS',
+  organisation: 'ART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION',
+}
+
+const microArticleRelations = {
+  foundations: ['organisation'],
+  organisation: ['foundations'],
+}
+
+const microItems = [
+  {
+    q: 62, bankQ: 2, conceptId: 'CON-INF-CC62854BEC55D3', canonicalKey: 'microbiology.classification.microorganism-groups-exclude-plants',
+    label: 'Major microorganism groups exclude plants', aliases: ['Microorganism groups', 'Plants are not microorganisms'], conceptType: 'classification',
+    article: 'foundations', microtopic: 'Scope of microbiology', assessmentPage: 19, teachingPage: 9,
+    stem: 'Which of the following is NOT considered a microorganism?', key: 'D', options: ['Bacteria', 'Viruses', 'Protozoa', 'Plants'],
+    claim: 'The major microorganism groups include bacteria, fungi, protozoa, helminths and viruses; plants are not in that microorganism list.',
+    annotationQuote: 'The five major groups listed in the governed MUST deck are bacteria, fungi, protozoa, helminths and viruses; plants are not in that closed list.',
+    support: 'Microorganisms are minute living things, and the five major groups listed are bacteria, fungi, protozoa, helminths and viruses.',
+    objective: 'Identify plants as outside the closed list of major microorganism groups in the local curriculum.',
+    pitfalls: 'Bacteria, viruses and protozoa are each explicitly included in the governed microorganism list; plants are not.',
+    rejected: [],
+  },
+  {
+    q: 63, bankQ: 3, conceptId: 'CON-INF-4D65B20EBBAE83', canonicalKey: 'microbiology.saprophytes.dead-organic-matter',
+    label: 'Saprophytes feed on dead organic material', aliases: ['Saprophyte function', 'Decomposition of dead organic matter'], conceptType: 'definition',
+    article: 'foundations', microtopic: 'Saprophytes', assessmentPage: 19, teachingPage: 10,
+    stem: 'What is the main function of saprophytes?', key: 'B', options: ['Cause diseases in humans', 'Decompose dead organic matter', 'Reproduce inside living cells', 'Produce antibiotics'],
+    claim: 'Saprophytes feed on dead animal or plant material and thereby decompose dead organic matter.',
+    annotationQuote: 'Saprophytes feed on dead animal or plant material and thereby decompose dead organic matter.',
+    support: 'The majority of microorganisms feed on dead animal or plant material, are harmless to humans, and are labelled saprophytes.',
+    objective: 'Recognise decomposition of dead organic matter as the function associated with saprophytes.',
+    pitfalls: 'Saprophytes are not defined by causing human disease, obligate intracellular replication or antibiotic production.',
+    rejected: [],
+  },
+  {
+    q: 64, bankQ: 4, conceptId: 'CON-INF-02A3740FAEFDAD', canonicalKey: 'microbiology.nomenclature.genus-capitalized-species-lowercase',
+    label: 'Scientific names capitalize the genus, not the species', aliases: ['Genus capitalization', 'Binomial nomenclature capitalization'], conceptType: 'definition',
+    article: 'foundations', microtopic: 'Scientific nomenclature', assessmentPage: '19–20', teachingPage: 11,
+    stem: 'In the scientific nomenclature, which part of the name is capitalized?', key: 'B', options: ['Species', 'Genus', 'Family', 'Class'],
+    claim: 'In scientific nomenclature the genus is the first name and is capitalized, while the following species name is not capitalized.',
+    annotationQuote: 'The genus is the first name and is always capitalized; the species name follows and is not capitalized.',
+    support: 'Scientific nomenclature assigns two names: the genus is first and always capitalized, while the species name follows and is not capitalized.',
+    objective: 'Identify the genus as the capitalized part of a scientific binomial name.',
+    pitfalls: 'The species name follows the genus and is not capitalized; family and class are not the two-name position asked by this item.',
+    rejected: [],
+  },
+  {
+    q: 65, bankQ: 5, conceptId: 'CON-INF-98A3DF2E20880C', canonicalKey: 'microbiology.classification.viruses-acellular-bacteria-prokaryotic',
+    label: 'Viruses are acellular while bacteria are prokaryotic', aliases: ['Cellular classification of microorganisms', 'Viruses acellular and bacteria prokaryotic'], conceptType: 'classification',
+    article: 'organisation', microtopic: 'Cellular classification', assessmentPage: 20, teachingPage: 12,
+    stem: 'Viruses are classified as:', key: 'C', options: ['Prokaryotic cells', 'Eukaryotic cells', 'Acellular agents', 'Multicellular organisms'],
+    claim: 'Viruses are acellular agents rather than prokaryotic, eukaryotic or multicellular organisms.',
+    annotationQuote: 'Viruses are acellular agents and are not true cells.',
+    support: 'The types-of-microorganisms chart places viruses under acellular and states that they are not true cells.',
+    objective: 'Classify viruses as acellular agents.',
+    pitfalls: 'Viruses are not placed under either cellular branch and therefore are not prokaryotic, eukaryotic or multicellular cells.',
+    rejected: ['CON-INF-1165F8B9564697 — covers viral genome, antibiotic non-susceptibility and obligate intracellular existence, not the acellular classification tested here.'],
+  },
+  {
+    q: 66, bankQ: 6, conceptId: 'CON-INF-98A3DF2E20880C', canonicalKey: 'microbiology.classification.viruses-acellular-bacteria-prokaryotic',
+    label: 'Viruses are acellular while bacteria are prokaryotic', aliases: ['Cellular classification of microorganisms', 'Viruses acellular and bacteria prokaryotic'], conceptType: 'classification',
+    article: 'organisation', microtopic: 'Cellular classification', assessmentPage: 20, teachingPage: 12,
+    stem: 'Which of the following is a prokaryotic microorganism?', key: 'B', options: ['Fungi', 'Bacteria', 'Protozoa', 'Algae'],
+    claim: 'Bacteria are the prokaryotic microorganisms among fungi, bacteria, protozoa and algae.',
+    annotationQuote: 'Bacteria occupy the prokaryotic branch, while fungi occupy the eukaryotic branch.',
+    support: 'The cellular microorganism chart places bacteria under prokaryotic and fungi under eukaryotic.',
+    objective: 'Identify bacteria as prokaryotic microorganisms.',
+    pitfalls: 'Fungi, protozoa and algae are eukaryotic groups in this comparison; bacteria are prokaryotic.',
+    rejected: ['CON-INF-29351FD540E214 — covers 70S bacterial ribosomes and protein synthesis, not the base cellular classification tested here.'],
+  },
+  {
+    q: 67, bankQ: 7, conceptId: 'CON-INF-9680A199504CCA', canonicalKey: 'microbiology.cells.prokaryote-vs-eukaryote-nucleus',
+    label: 'A true nucleus distinguishes eukaryotic from prokaryotic cells', aliases: ['Prokaryotic versus eukaryotic nucleus', 'True nucleus distinction'], conceptType: 'classification',
+    article: 'organisation', microtopic: 'Prokaryotic and eukaryotic cells', assessmentPage: 20, teachingPage: 15,
+    stem: 'The main structural difference between prokaryotic and eukaryotic cells is:', key: 'A', options: ['Presence of a nucleus', 'Presence of a cell wall', 'Ability to reproduce', 'None of the above'],
+    claim: 'Prokaryotic cells lack a true nucleus and nuclear membrane, whereas eukaryotic cells have a true membrane-bound nucleus.',
+    annotationQuote: 'Prokaryotic cells lack a true nucleus, nuclear membrane and nucleolus.',
+    support: 'The comparison table states that the true nucleus is absent in prokaryotic cells, with no nuclear membrane or nucleolus, and present with a nuclear membrane in eukaryotic cells.',
+    objective: 'Use the presence of a true membrane-bound nucleus to distinguish eukaryotic from prokaryotic cells.',
+    pitfalls: 'A cell wall is not the universal separator in the offered comparison, and both cell types can reproduce.',
+    rejected: ['CON-FND-54F59770FE61B9 — concerns fungi specifically as eukaryotes, not the general prokaryote/eukaryote nucleus distinction.', 'concept_a4992569b1751dff3ed9ded3 — a fungi-specific true-nucleus raw identity, not this general cellular comparison.'],
+  },
+]
+
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
   'docs/MUST-Source-Imports/evidence/corpus-source-index.json': corpusSourceIndex(),
@@ -485,7 +570,13 @@ const outputs = {
   'docs/MUST-Source-Imports/concept/FHB-102-2-parasitology-introduction-concepts.md': introConcepts(),
   'docs/MUST-Source-Imports/article/FHB-102-2-parasitology-introduction-articles.md': introArticleRecords(),
   'docs/MUST-Source-Imports/question/FHB-102-2-parasitology-introduction-mcq.md': introQuestions(),
-  'docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md': coverage(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-microbiology-introduction-claims.md': microClaims(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-microbiology-introduction-citations.md': microCitations(),
+  'docs/MUST-Source-Imports/evidence/FHB-102-2-microbiology-introduction-spans.md': microSpans(),
+  'docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md': microConcepts(),
+  'docs/MUST-Source-Imports/article/FHB-102-2-microbiology-introduction-articles.md': microArticleRecords(),
+  'docs/MUST-Source-Imports/question/FHB-102-2-microbiology-introduction-mcq.md': microQuestions(),
+  'docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md': microCoverage(),
 }
 
 for (const [relativePath, body] of Object.entries(outputs)) {
@@ -1590,7 +1681,7 @@ en
 Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
-Pages 1, 15, 28–29, 34 and 36 were rendered and visually read for the bounded Q29–Q31 assessments; the other pages are not claimed as visually governed in these slices. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Page 28 states that Gram-positive bacteria have a thick peptidoglycan layer, specified as 40 sheets and 50% of wall thickness, while Gram-negative bacteria have only 1–2 sheets; page 29 diagrams the peptidoglycan lattice. These pages support Q29's unchanged printed D. Page 36 identifies plasmids as extrachromosomal DNA occurring in both Gram-positive and Gram-negative bacteria and explicitly calls them dispensable, "not necessary for the life of bacterial cell." This directly contradicts Q30's printed C and supports offered D, but it does not authenticate or replace the anonymous bank key. Page 15 directly states that the prokaryotic cell has one single circular chromosome, and page 34 identifies the nucleoid as one chromosome made of double-stranded DNA. Those pages support Q31's unchanged printed C without authenticating the anonymous bank key.
+Pages 1, 9–15, 28–30, 32, 34, 36–38 were rendered and visually read across the bounded bacterial-structure and Absalam Microbiology Q61–Q75 assessments; other pages are not claimed as visually governed in these slices. Pages 1, 9–15, 28, 30, 32, 34 and 37–38 were rendered and visually read for global Q61–Q75. Page 1 visibly identifies Misr University for Science and Technology, the College of Medicine, the Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abd El Rhman. Pages 9–12 directly support the major microorganism groups, saprophytes, genus capitalization and acellular/prokaryotic classification; page 15 supports the true-nucleus distinction. Pages 28, 30, 32, 34 and 37–38 support the nine bounded hold decisions without authenticating the student-bank key. Page 28 states that Gram-positive bacteria have a thick peptidoglycan layer, specified as 40 sheets and 50% of wall thickness, while Gram-negative bacteria have only 1–2 sheets; page 29 diagrams the peptidoglycan lattice. Page 36 identifies plasmids as dispensable extrachromosomal DNA. Page 15 states that the prokaryotic cell has one single circular chromosome, and page 34 identifies the nucleoid as one chromosome made of double-stranded DNA.
 
 ## confidence
 0.95
@@ -7612,7 +7703,7 @@ en
 Locally supplied study material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–18, including the complete printed answer tables on pages 9 and 18, were rendered and visually read for the first 60 global prompts: Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 (global Q31–Q60). The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41, Q44, Q47–Q49, Q51–Q54 and Q56–Q58 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43, Q45–Q46, Q50, Q55 and Q59–Q60 remain explicit identity, authority, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
+Pages 1–22 and answer pages 9, 18 and 27 were rendered and visually read for global Q1–Q75. Pages 19–22 and 27 were rendered and visually read for global Q61–Q75. The carrier is visibly attributed to Absalam101 and does not authenticate the answers as a faculty key. Global Q2, Q4, Q5, Q9, Q11, Q14, Q15, Q18, Q19, Q21–Q25, Q31–Q33, Q40–Q41, Q44, Q47–Q49, Q51–Q54, Q56–Q58 and Q62–Q67 are authored with their printed wording, option order and keys unchanged. Global Q1, Q3, Q6–Q8, Q10, Q12–Q13, Q16–Q17, Q20, Q26–Q30, Q34–Q39, Q42–Q43, Q45–Q46, Q50, Q55, Q59–Q61 and Q68–Q75 remain explicit identity, authority, evidence-scope, duplicate, dependency or key-conflict holds with no student-facing record.
 
 ## confidence
 0.6
@@ -8627,4 +8718,687 @@ function introArticleTitle(key, data) {
   if (data[key]) return data[key].title
   if (key === 'sarcophaga') return 'Sarcophaga identification in traumatic wound myiasis'
   throw new Error(`Unknown intro article key: ${key}`)
+}
+
+function microClaimId(item) { return `CLM-INF-MUST-FHB1022-MICRO-Q${item.q}-01` }
+function microCitationId(item) { return `CIT-INF-MUST-FHB1022-MICRO-Q${item.q}-01` }
+function microSpanId(item) { return `SPN-INF-MUST-FHB1022-MICRO-Q${item.q}-01` }
+function microQuestionId(item) { return `QST-MUST-FHB1022-MICRO-INTRO-Q${item.q}` }
+function microArticleSectionId(key) { return `${microArticles[key].toLowerCase()}-definition` }
+
+function microClaims() {
+  return generatedItems(microItems.map((item) => `# Item
+
+## id
+${microClaimId(item)}
+
+## concept_id
+${item.conceptId}
+
+## subject
+${item.label}
+
+## predicate
+states
+
+## object
+${item.claim}
+
+## display_text
+${item.claim}
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Microbiology Chapters 1–3
+source question: Absalam Microbiology Q${item.bankQ} (global Q${item.q})`))
+}
+
+function microCitations() {
+  return generatedItems(microItems.map((item) => `# Item
+
+## id
+${microCitationId(item)}
+
+## claim_id
+${microClaimId(item)}
+
+## resource_id
+${bacterialCellResourceId}
+
+## evidence_role
+local_curriculum
+
+## support_span
+${item.support}
+
+## locator_type
+page
+
+## locator_page
+${item.teachingPage}
+
+## locator_section
+Introduction to Microbiology and Bacterial Cell Structure — ${item.microtopic}
+
+## locator_detail
+PDF page ${item.teachingPage}, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed global Q${item.q} answer ${item.key}; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes`))
+}
+
+function microSpans() {
+  return generatedItems(microItems.map((item) => `# Item
+
+## id
+${microSpanId(item)}
+
+## article_id
+${microArticles[item.article]}
+
+## section_id
+${microArticleSectionId(item.article)}
+
+## text
+${item.claim}
+
+## claim_ids
+${microClaimId(item)}
+
+## citation_ids
+${microCitationId(item)}`))
+}
+
+function microConcepts() {
+  const groups = [...Map.groupBy(microItems, (item) => item.conceptId).values()]
+  return generatedItems(groups.map((group) => {
+    const item = group[0]
+    const rejected = [...new Set(group.flatMap((entry) => entry.rejected))]
+    const rejectedIds = rejected.length ? rejected.map((entry) => entry.split(' — ')[0]).join('\n') : '[clear]'
+    const rejectedNotes = rejected.length ? rejected.join(' ') : 'No exact live, pending or raw-corpus identity survived the manual search gate.'
+    return `# Item
+
+## id
+${item.conceptId}
+
+## label
+${item.label}
+
+## canonical_key
+${item.canonicalKey}
+
+## aliases
+${item.aliases.join('\n')}
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+${group.map((entry) => entry.claim).join(' ')}
+
+## explicit_objective
+${group.map((entry) => entry.objective).join(' ')}
+
+## pitfalls
+${group.map((entry) => entry.pitfalls).join(' ')}
+
+## concept_type
+${item.conceptType}
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+${item.microtopic}
+
+## nanotopic
+
+
+## modules
+${moduleId}
+
+## module_subject
+${moduleId} > Microbiology > General bacteriology > ${item.microtopic}
+
+## article_ids
+${microArticles[item.article]}
+
+## related_article_ids
+${microArticleRelations[item.article].map((key) => microArticles[key]).join('\n')}
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+${bacterialCellResourceId}
+${absalamAssessmentResourceId}
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+${group.map(microClaimId).join('\n')}
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage} Microbiology Q${entry.bankQ} (global Q${entry.q}); printed answer p27`).join('\n')}
+${group.map((entry) => `${bacterialCellResourceId} | tier 1 local teaching | 2025-02-08 | p${entry.teachingPage} direct MUST teaching`).join('\n')}
+
+## original_wording
+${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained in their original order.`).join('\n')}
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+${rejectedIds}
+
+## conflicts
+${group.map((entry) => `No key conflict affects authored global Q${entry.q}; printed ${entry.key} agrees with the governed MUST teaching.`).join(' ')} The nine held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: ${rejectedNotes}
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.`
+  }))
+}
+
+function getMicroArticleData() { return {
+  foundations: {
+    title: 'Microbiology scope, saprophytes and scientific nomenclature', microtopic: 'Microbiology foundations',
+    summary: 'The local curriculum defines the major microorganism groups, associates saprophytes with dead animal or plant material, and capitalizes the genus rather than the species in a scientific name.',
+    sections: `### Definition
+Microorganisms are minute living things. The five major groups listed in the governed MUST deck are bacteria, fungi, protozoa, helminths and viruses; plants are not in that closed list.
+
+### Mechanism
+Saprophytes feed on dead animal or plant material and thereby decompose dead organic matter. The deck contrasts these mostly harmless organisms with the minority that are pathogenic.
+
+### Key determinants
+Scientific nomenclature assigns two names. The genus is the first name and is always capitalized; the species name follows and is not capitalized.
+
+### Clinical significance
+These definitions supply the vocabulary used before the course moves into microbial cellular structure and clinical bacteriology.
+
+### Common misconceptions
+Do not remove viruses from the deck's microorganism list merely because they are acellular. Do not capitalize the species position or define saprophytes by obligate intracellular replication.`,
+  },
+  organisation: {
+    title: 'Cellular organisation of microorganisms', microtopic: 'Microbial cell organisation',
+    summary: 'Viruses are acellular agents, bacteria are prokaryotic microorganisms, and a true membrane-bound nucleus distinguishes eukaryotic from prokaryotic cells.',
+    sections: `### Definition
+The local curriculum divides microorganisms into cellular and acellular categories. Viruses are acellular agents and are not true cells. Bacteria occupy the prokaryotic branch, while fungi occupy the eukaryotic branch.
+
+### Mechanism
+Prokaryotic cells lack a true nucleus, nuclear membrane and nucleolus. Their DNA lies in a nucleoid. Eukaryotic cells have a true nucleus bounded by a nuclear membrane and containing a nucleolus.
+
+### Key determinants
+Viruses select acellular. Bacteria select prokaryotic. Presence of a true membrane-bound nucleus is the structural distinction tested between prokaryotic and eukaryotic cells.
+
+### Clinical significance
+This cellular framework explains why later microbiology teaching assigns different structures and targets to bacteria, fungi and viruses.
+
+### Common misconceptions
+Do not classify viruses as prokaryotic cells. Do not use cell-wall presence as the universal separator: the governed comparison identifies the true nucleus as the defining distinction for this prompt.`,
+  },
+} }
+
+function microArticleRecords() {
+  const data = getMicroArticleData()
+  return generatedItems(Object.entries(data).map(([key, article]) => {
+    const articleItems = microItems.filter((item) => item.article === key)
+    const related = microArticleRelations[key].map((other) => `${microArticles[other]}: ${data[other].title}`).join('\n')
+    return `# Item
+
+## id
+${microArticles[key]}
+
+## title
+${article.title}
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 ${article.microtopic}
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## microtopic
+${article.microtopic}
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC-T01
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Microbiology > General bacteriology > ${article.microtopic}
+
+## summary
+${article.summary}
+
+## sections
+${article.sections}
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+${articleItems.map((item) => item.claim).join('\n')}
+
+## lose_the_mark
+${articleItems.map((item) => item.pitfalls).join('\n')}
+
+## callout_evidence
+${articleItems.map((item) => `### ${item.claim}\nClaims: ${microClaimId(item)}\nCitations: ${microCitationId(item)}\nReviewed by: pending medical review`).join('\n\n')}
+
+## related_concepts
+${[...new Set(articleItems.map((item) => item.conceptId))].join('\n')}
+
+## related_articles
+${related}
+
+## question_ids
+${articleItems.map(microQuestionId).join('\n')}
+
+## resource_ids
+${bacterialCellResourceId}
+${absalamAssessmentResourceId}
+
+## article_source_ids
+${bacterialCellResourceId}
+
+## claim_ids
+${articleItems.map(microClaimId).join('\n')}
+
+## span_ids
+${articleItems.map(microSpanId).join('\n')}
+
+## university_notes
+must: Global Q${articleItems[0].q}–Q${articleItems.at(-1).q} retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.annotationQuote}\nBlock: body\nId: ann-must-fhb1022-micro-q${item.q}`).join('\n\n')}
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 Introduction to Microbiology and Bacterial Cell Structure deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on prompt pages 19–22 and printed-answer page 27.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+First bounded Absalam Microbiology slice only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.`
+  }))
+}
+
+function microQuestions() {
+  return generatedItems(microItems.map((item) => {
+    const correct = item.options['ABCD'.indexOf(item.key)]
+    const explanation = `${item.claim} The official MUST teaching directly supports ${correct} for this prompt. Therefore ${item.key} is retained as the unchanged source-printed answer, pending medical review.`
+    return `# Item
+
+## id
+${microQuestionId(item)}
+
+## title
+${item.stem}
+
+## question
+${item.stem}
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${bacterialCellResourceId} without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+${item.key}
+
+${item.options.map((option, index) => `## answer_${'abcd'[index]}\n${option}\n\n## explanation_${'abcd'[index]}\n${'ABCD'[index] === item.key ? explanation : `Incorrect. ${item.pitfalls} The supported answer is ${item.key}, ${correct}.`}`).join('\n\n')}
+
+## topic
+Microbiology
+
+## subtopic
+General bacteriology
+
+## main_concept
+${item.conceptId}
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+${moduleId}
+
+## module_subject
+${moduleId} > Microbiology > General bacteriology > ${item.microtopic}
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+${microArticles[item.article]}
+
+## resource_ids
+${absalamAssessmentResourceId}
+${bacterialCellResourceId}
+
+## learning_objective
+${item.objective}
+
+## source_citation
+Absalam101 Part 1, p${item.assessmentPage}, Microbiology Q${item.bankQ} (global Q${item.q}), printed key p27 (${item.bankQ} = ${item.key}); official MUST Introduction to Microbiology and Bacterial Cell Structure, p${item.teachingPage}.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Microbiology Q${item.bankQ} (global Q${item.q}) = ${item.key}. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.`
+  }))
+}
+
+function microCoverage() {
+  const delta = `### First Absalam Microbiology Ch1-3 slice delta
+
+- +6 verified local-curriculum claims, +6 citations and +6 article spans for global Q62–Q67.
+- +5 under-review / needs-evidence concepts; global Q65 and Q66 share the cellular-classification concept \`CON-INF-98A3DF2E20880C\` rather than minting duplicates.
+- +2 standalone-complete reciprocal Draft articles and +6 Draft questions: global Q62, Q63, Q64, Q65, Q66 and Q67.
+- +9 explicit holds with no student-facing record: global Q61 and Q68–Q75.
+- Every authored stem, option and printed key is unchanged. The official MUST deck supplies teaching evidence but does not authenticate the student-authored bank key.
+- First Absalam Microbiology Ch1-3 slice, global Q61–Q75: **6 authored / 9 held / 0 unassessed**.
+- Absalam source global Q1–Q75: **36 authored / 39 held / 0 unassessed**. The next unassessed boundary is global Q76–Q90, the second half of Microbiology Chapters 1–3.
+
+`
+  const holds = `- **Q61 is held in the Absalam Microbiology Ch1-3 family as an authority/form hold.** The student bank prints B, “Study of microorganisms and their effects.” Official page 9 supplies the microbiology word derivation and defines microorganisms, but it does not state the keyed option's added “and their effects” wording. The key was not shortened, corrected or taught through a student-facing record.
+- **Q68 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Mesosomes, follows the local deck's classical respiratory-enzyme teaching, but exact pending concept \`CON-INF-E4012E20B5A13D\` and article \`ART-INF-SURFACE-APPENDAGES-MESOSOMES\` already govern this identity and its historical uncertainty. No duplicate or unsafe cross-university dependency update was created.
+- **Q69 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed D, All of the above, is directly supported by shape, structural-support and osmotic-protection statements on official page 28, but exact pending \`CON-INF-3FBC905C4F778F\` / \`ART-INF-CELL-WALL-OUTER-MEMBRANE\` already represents the identity. No student-facing record was created.
+- **Q70 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed C, Flagella, is supported on official page 37, but exact pending \`CON-INF-83707B09F53803\` and broad \`ART-INF-SURFACE-APPENDAGES-MESOSOMES\` already govern bacterial motility. No duplicate was minted.
+- **Q71 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Conjugation and adhesion, is supported by the official ordinary-pili and sex-pili distinction, but exact pending \`CON-INF-BC446C9816D9CE\` and its broad surface-appendages article already govern the identity. No student-facing record was created.
+- **Q72 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Thick, is supported on official page 28, but \`CON-INF-7E3B831D71A008\`, raw candidates \`concept_5590f9ee7f2d30a322063e69\` and \`concept_c8d5af408cd7b5e10a8ed7d9\`, and the broad wall article already collide with the identity. No duplicate was minted.
+- **Q73 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed B, Lipopolysaccharide layer, is supported on official page 30, but pending \`CON-INF-7E3B831D71A008\`, \`CON-INF-BF26D7E563FB78\` and \`ART-INF-CELL-WALL-OUTER-MEMBRANE\` already govern the identity. No unsafe update was made.
+- **Q74 is held in the Absalam Microbiology Ch1-3 family as an identity/dependency hold.** Printed C, Mycoplasma, is directly supported on official page 32, but pending \`CON-INF-271E9930B4B73A\`, \`CON-INF-D2C104EA01CE30\` and \`ART-INF-MYCOPLASMA-L-FORMS\` already govern the cell-wall-deficient identity. No duplicate was minted.
+- **Q75 is held in the Absalam Microbiology Ch1-3 family as an authority hold.** The bank prints D, All of the above. Official page 38 explicitly supports heat and chemicals but does not mention radiation, while pending \`CON-INF-3E6590C8AC2166\` covers only the broader highly resistant endospore identity. The printed key was neither corrected nor promoted to student-facing content.
+
+`
+  return coverage()
+    .replace('| Claims | 38 |', '| Claims | 44 |')
+    .replace('| Citations | 43 |', '| Citations | 49 |')
+    .replace('| Article spans | 38 |', '| Article spans | 44 |')
+    .replace('| Concepts | 35 |', '| Concepts | 40 |')
+    .replace('| Articles | 21 |', '| Articles | 23 |')
+    .replace('| Questions | 38 |', '| Questions | 44 |')
+    .replace('| Question authoring holds | 53 |', '| Question authoring holds | 62 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}## Explicit authoring holds\n\n${holds}`)
+    .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 44 authored; **5,400 raw prompt observations remain**, including 62 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 44 clean source-keyed prompts authored; **5,167 raw answer observations remain**, including the 62 held printed-key observations')
+    .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,400 unique records')
+    .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q75 are fully dispositioned; global Q76–Q90 (the second half of Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.')
+    .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-four questions remain Draft; all forty concepts')
 }
