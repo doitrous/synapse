@@ -30,7 +30,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Scope of microbiol
 PDF page 9, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q62 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q2 (global Q62) answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -70,7 +70,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Saprophytes
 PDF page 10, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q63 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q3 (global Q63) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -110,7 +110,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Scientific nomencl
 PDF page 11, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q64 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q4 (global Q64) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -150,7 +150,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Cellular classific
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q65 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q5 (global Q65) answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -190,7 +190,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Cellular classific
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q66 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q6 (global Q66) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -230,7 +230,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Prokaryotic and eu
 PDF page 15, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q67 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q7 (global Q67) answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -270,7 +270,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Gram-stain cell-wa
 PDF page 28, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q85 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q25 (global Q85) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -310,7 +310,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Modern bacterial c
 PDF page 24, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q88 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q28 (global Q88) answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -350,7 +350,7 @@ Introduction to Microbiology and Bacterial Cell Structure — Peptidoglycan as a
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q90 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Q30 (global Q90) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -390,7 +390,7 @@ Host-Microbe Relationship — Opportunistic pathogens
 PDF page 7–8, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q94 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q4 (global Q94) answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -430,7 +430,7 @@ Host-Microbe Relationship — Normal-flora disruption
 PDF page 7–8, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q95 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q5 (global Q95) answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -470,7 +470,7 @@ Host-Microbe Relationship — Colonization
 PDF page 14, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q99 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q9 (global Q99) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -510,7 +510,7 @@ Host-Microbe Relationship — Carrier state
 PDF page 16, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q102 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q12 (global Q102) answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -550,7 +550,7 @@ Host-Microbe Relationship — Virulence
 PDF page 18, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q104 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q14 (global Q104) answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -590,7 +590,7 @@ Host-Microbe Relationship — Virulence factors
 PDF page 19, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q105 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q15 (global Q105) answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -630,7 +630,7 @@ Host-Microbe Relationship — Antigenic variation
 PDF page 31, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q110 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q20 (global Q110) answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -670,7 +670,7 @@ Host-Microbe Relationship — Antiphagocytic factors
 PDF page 27, 30, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q115 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q25 (global Q115) answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -710,7 +710,7 @@ Host-Microbe Relationship — Iron acquisition
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q116 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q26 (global Q116) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -750,7 +750,7 @@ Host-Microbe Relationship — Coagulase
 PDF page 30, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q117 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Microbiology Chapter 6 Q27 (global Q117) answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -790,7 +790,7 @@ Antibiotics Introd Mechan — Beta-lactam mechanism
 PDF page 30, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q126 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q6 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -830,7 +830,7 @@ Antibiotics Introd Mechan — Penicillin-binding proteins
 PDF page 31, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q127 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q7 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -870,7 +870,7 @@ page
 PDF page 6, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q128 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q8 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -910,7 +910,7 @@ page
 PDF page 33, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q129 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q9 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -950,7 +950,7 @@ page
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q130 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q10 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -990,7 +990,7 @@ page
 PDF page 22, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q131 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q11 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1030,7 +1030,7 @@ page
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q132 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q12 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1070,7 +1070,7 @@ page
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q133 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q13 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1110,7 +1110,7 @@ page
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q134 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q14 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1150,7 +1150,7 @@ page
 PDF page 33, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q135 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q15 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1190,7 +1190,7 @@ page
 PDF page 33, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q136 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q16 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1230,7 +1230,7 @@ Antibiotics Introd Mechan — Vancomycin mechanism
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q137 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q17 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1270,7 +1270,7 @@ Antibiotics Introd Mechan — Bacitracin mechanism
 PDF page 32, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q138 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q18 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1310,7 +1310,7 @@ page
 PDF page 23, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q139 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q19 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1350,7 +1350,7 @@ page
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q142 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q22 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1390,7 +1390,7 @@ page
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q146 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q26 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1430,7 +1430,7 @@ page
 PDF page 12, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q147 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q27 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1470,7 +1470,7 @@ page
 PDF page 6, 8, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q149 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q29 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -1510,7 +1510,487 @@ Antibiotics Introd Mechan — Time-dependent killing
 PDF page 30, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q150 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed Pharmacology Q30 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q1-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q1-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly defines mycology as the study of fungi.
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+General Mycology, Chapter 7 — Mycology definition
+
+## locator_detail
+PDF page 5, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q1 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q7-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q7-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official diagnostic slides present Candida as oval budding yeast cells and Cryptococcus neoformans as oval yeast cells.
+
+## locator_type
+page
+
+## locator_page
+23–24
+
+## locator_section
+General Mycology, Chapter 7 — Yeasts
+
+## locator_detail
+PDF page 23–24, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q7 answer D; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that a mass of hyphae is known as mycelium.
+
+## locator_type
+page
+
+## locator_page
+10
+
+## locator_section
+General Mycology, Chapter 7 — Filamentous fungi
+
+## locator_detail
+PDF page 10, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q8 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q12-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q12-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture defines mycotoxicosis as food poisoning caused by ingestion of food containing mycotoxins.
+
+## locator_type
+page
+
+## locator_page
+16
+
+## locator_section
+General Mycology, Chapter 7 — Mycotoxicosis
+
+## locator_detail
+PDF page 16, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q12 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q16-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q16-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that PCR detects fungal DNA in pathological specimens.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+General Mycology, Chapter 7 — Molecular diagnosis
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q16 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q19-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q19-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture states that fungal spores allow reproduction and promote fungal spread.
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+General Mycology, Chapter 7 — Fungal spores
+
+## locator_detail
+PDF page 13, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q19 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q20-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q20-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture identifies airborne fungal spores as a major cause of respiratory illness and says spore allergens can trigger sinusitis and bronchial asthma.
+
+## locator_type
+page
+
+## locator_page
+13, 15
+
+## locator_section
+General Mycology, Chapter 7 — Fungal allergy
+
+## locator_detail
+PDF page 13, 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q20 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q21-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q21-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that many fungal spores contain allergens.
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+General Mycology, Chapter 7 — Fungal allergy
+
+## locator_detail
+PDF page 15, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q21 answer C; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q22-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q22-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that calcofluor white gives fungi a fluorescent blue-white appearance.
+
+## locator_type
+page
+
+## locator_page
+25–26
+
+## locator_section
+General Mycology, Chapter 7 — Special stains
+
+## locator_detail
+PDF page 25–26, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q22 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q25-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q25-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states detection of fungal DNA by PCR.
+
+## locator_type
+page
+
+## locator_page
+32
+
+## locator_section
+General Mycology, Chapter 7 — Molecular diagnosis
+
+## locator_detail
+PDF page 32, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q25 answer B; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture directly states that specific-antibody detection is used mainly for systemic fungal infections.
+
+## locator_type
+page
+
+## locator_page
+33
+
+## locator_section
+General Mycology, Chapter 7 — Indirect diagnosis
+
+## locator_detail
+PDF page 33, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q26 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## resource_id
+src_72a4c07c4877d4b58c3f
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official lecture gives Candida species as the example of commensals that may cause opportunistic infections.
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+General Mycology, Chapter 7 — Opportunistic fungi
+
+## locator_detail
+PDF page 8, visually read direct teaching statement.
+
+## context_note
+The official MUST teaching deck directly supports the unchanged printed Mycology Q27 answer A; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95

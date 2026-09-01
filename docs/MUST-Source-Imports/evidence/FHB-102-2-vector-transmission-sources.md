@@ -837,7 +837,7 @@ General Mycology, Chapter 7
 Misr University for Science and Technology, Faculty of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abdel Rhman
 
 ## processing_status
-visually_read_pages_1_7_native_text
+fully_governed_visually_read_all_pages_native_text
 
 ## collection_id
 MUST-FHB-102-2
@@ -871,7 +871,7 @@ ar
 Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–7 were rendered and visually read for the bounded Q24 assessment; the remaining pages were not claimed as visually governed in this slice. Page 1 visibly identifies MUST, the Faculty of Medicine Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abdel Rhman. Page 6 directly states that fungi are eukaryotic organisms containing a true nucleus; page 7 contrasts eukaryotic fungi with prokaryotic bacteria and the presence versus absence of a nuclear membrane. These statements support Q24's unchanged printed C. The lecture is teaching evidence only and contains no authenticated examiner key.
+All 34 pages were rendered and visually read for the bounded Mycology Q1–Q30 authoring audit. Page 1 visibly identifies MUST, the Faculty of Medicine Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abdel Rhman. Pages 5–16 govern terminology, structure, classification, spores, disease mechanisms, allergy and mycotoxicosis; pages 17–33 govern direct microscopy, stains, culture, antigen detection, PCR and antibody detection; pages 12 and 34 are supplied teaching quizzes. The lecture is teaching evidence only and contains no authenticated examiner key.
 
 ## confidence
 0.9

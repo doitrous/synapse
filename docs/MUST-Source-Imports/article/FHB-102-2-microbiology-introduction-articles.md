@@ -232,7 +232,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
 
 ---
 
@@ -483,7 +483,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
 
 ---
 
@@ -721,7 +721,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
 
 ---
 
@@ -991,7 +991,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
 
 ---
 
@@ -1300,7 +1300,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
 
 ---
 
@@ -1656,4 +1656,728 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## title
+General mycology foundations
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Fungal form and terminology
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Fungal form and terminology
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal form and terminology
+
+## summary
+Mycology is the study of fungi. The local teaching identifies Candida and Cryptococcus neoformans as yeasts and defines a mycelium as a mass or network of fungal hyphae.
+
+## sections
+### Definition
+Mycology is the study of fungi. A mycelium is the mass or network formed by fungal hyphae.
+
+### Mechanism
+Fungal hyphae collectively form the mycelial network described in the governed teaching.
+
+### Morphological examples
+The diagnostic teaching presents Candida as Gram-positive oval budding yeast cells and Cryptococcus neoformans as oval yeast cells surrounded by an unstained capsule.
+
+### Key determinants
+Mycology names the discipline, mycelium names the hyphal mass, and both Candida and Cryptococcus neoformans satisfy the bounded yeast-example question.
+
+### Clinical significance
+These terms support recognition of basic fungal form before diagnostic methods are selected.
+
+### Common misconceptions
+Do not confuse mycelium with bacterial cells, viral structures or protozoal organelles. Do not omit one of the two directly taught yeast examples when the option field offers both.
+
+### Governed evidence statements
+The official lecture directly defines mycology as the study of fungi.
+The official diagnostic slides present Candida as oval budding yeast cells and Cryptococcus neoformans as oval yeast cells.
+The official lecture directly states that a mass of hyphae is known as mycelium.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Mycology is the study of fungi.
+Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching.
+A mycelium is the mass or network of fungal hyphae.
+
+## lose_the_mark
+Bacteriology, virology and parasitology concern different organism groups.
+Both A and B are directly supported, so selecting only one is incomplete.
+Mycelium is neither bacterial, viral nor protozoal.
+
+## callout_evidence
+### Mycology is the study of fungi.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q1-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q1-01
+Reviewed by: pending medical review
+
+### Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q7-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q7-01
+Reviewed by: pending medical review
+
+### A mycelium is the mass or network of fungal hyphae.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q8-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q8-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-B5C54985E6FD64
+CON-INF-3CCC561E727F2C
+CON-INF-5B5A0738DEDA61
+
+## related_articles
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES: Fungal spores, allergy, mycotoxicosis and opportunism
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS: Core methods for fungal laboratory diagnosis
+
+## question_ids
+QST-MUST-FHB1022-MYCO2-Q1
+QST-MUST-FHB1022-MYCO2-Q7
+QST-MUST-FHB1022-MYCO2-Q8
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_72a4c07c4877d4b58c3f
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q1-01
+CLM-INF-MUST-FHB1022-MYCO2-Q7-01
+CLM-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MYCO2-Q1-01
+SPN-INF-MUST-FHB1022-MYCO2-Q7-01
+SPN-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## university_notes
+must: Global Q1, Q7, Q8 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-B5C54985E6FD64
+Quote: The official lecture directly defines mycology as the study of fungi.
+Block: body
+Id: ann-must-fhb1022-micro-q1
+
+### definition_of · CON-INF-3CCC561E727F2C
+Quote: The official diagnostic slides present Candida as oval budding yeast cells and Cryptococcus neoformans as oval yeast cells.
+Block: body
+Id: ann-must-fhb1022-micro-q7
+
+### definition_of · CON-INF-5B5A0738DEDA61
+Quote: The official lecture directly states that a mass of hyphae is known as mycelium.
+Block: body
+Id: ann-must-fhb1022-micro-q8
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Mycology, Chapter 7 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## title
+Fungal spores, allergy, mycotoxicosis and opportunism
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Fungal disease mechanisms
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Fungal disease mechanisms
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal disease mechanisms
+
+## summary
+Fungal spores support reproduction and spread and can carry respiratory allergens. Mycotoxicosis follows ingestion of fungal toxins, while Candida is presented as a commensal that may cause opportunistic infection under permissive conditions.
+
+## sections
+### Definition
+Fungal spores are reproductive and dispersal structures. Mycotoxicosis is food poisoning caused by ingestion of food containing mycotoxins. Opportunistic infection may emerge when a normally commensal organism causes disease under permissive host conditions.
+
+### Mechanism
+Airborne spores promote spread and may contain allergens that trigger sinusitis, bronchial asthma and other respiratory symptoms. Candida species are the local teaching example of commensals that may cause opportunistic infection.
+
+### Key determinants
+Reproduction and spread identify the spore function; ingestion of toxins identifies mycotoxicosis; fungal spores identify the allergen-bearing component; Candida identifies the offered opportunistic organism.
+
+### Clinical significance
+Separating infection, toxin-mediated illness and allergy prevents conflating three distinct fungal disease mechanisms.
+
+### Common misconceptions
+Do not equate mycotoxicosis with direct invasion. Do not assign the governed allergic trigger to ergosterol, mycotoxin or chitin. The source grammar in Q20 and Q27 remains disclosed rather than silently repaired.
+
+### Governed evidence statements
+The official lecture defines mycotoxicosis as food poisoning caused by ingestion of food containing mycotoxins.
+The official lecture states that fungal spores allow reproduction and promote fungal spread.
+The official lecture identifies airborne fungal spores as a major cause of respiratory illness and says spore allergens can trigger sinusitis and bronchial asthma.
+The official lecture directly states that many fungal spores contain allergens.
+The official lecture gives Candida species as the example of commensals that may cause opportunistic infections.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins.
+Fungal spores support fungal reproduction and spread.
+Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma.
+Fungal spores contain allergens that can trigger allergic respiratory reactions.
+Candida species are presented as commensals that may cause opportunistic infection under certain conditions.
+
+## lose_the_mark
+Mycotoxicosis is toxin ingestion rather than direct fungal infection, spore inhalation or cell-wall contact.
+The governed role is not nutrition, toxin production or immune avoidance.
+The assessment grammar is retained; the governed cause is fungal spores, not hyphae, fungal toxins or bacterial spores.
+The governed slide assigns the allergic trigger to spores rather than ergosterol, mycotoxins or chitin.
+The assessment phrase “a opportunistic” is retained; the governed example is Candida.
+
+## callout_evidence
+### Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q12-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q12-01
+Reviewed by: pending medical review
+
+### Fungal spores support fungal reproduction and spread.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q19-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q19-01
+Reviewed by: pending medical review
+
+### Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q20-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q20-01
+Reviewed by: pending medical review
+
+### Fungal spores contain allergens that can trigger allergic respiratory reactions.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q21-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q21-01
+Reviewed by: pending medical review
+
+### Candida species are presented as commensals that may cause opportunistic infection under certain conditions.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q27-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q27-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-81364DB3512B06
+CON-INF-36FB4AD4FE6CA9
+CON-INF-104E48053D1466
+CON-INF-8C6B6F8D5A9C37
+
+## related_articles
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS: General mycology foundations
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS: Core methods for fungal laboratory diagnosis
+
+## question_ids
+QST-MUST-FHB1022-MYCO2-Q12
+QST-MUST-FHB1022-MYCO2-Q19
+QST-MUST-FHB1022-MYCO2-Q20
+QST-MUST-FHB1022-MYCO2-Q21
+QST-MUST-FHB1022-MYCO2-Q27
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_72a4c07c4877d4b58c3f
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q12-01
+CLM-INF-MUST-FHB1022-MYCO2-Q19-01
+CLM-INF-MUST-FHB1022-MYCO2-Q20-01
+CLM-INF-MUST-FHB1022-MYCO2-Q21-01
+CLM-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MYCO2-Q12-01
+SPN-INF-MUST-FHB1022-MYCO2-Q19-01
+SPN-INF-MUST-FHB1022-MYCO2-Q20-01
+SPN-INF-MUST-FHB1022-MYCO2-Q21-01
+SPN-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## university_notes
+must: Global Q12, Q19, Q20, Q21, Q27 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-81364DB3512B06
+Quote: The official lecture defines mycotoxicosis as food poisoning caused by ingestion of food containing mycotoxins.
+Block: body
+Id: ann-must-fhb1022-micro-q12
+
+### definition_of · CON-INF-36FB4AD4FE6CA9
+Quote: The official lecture states that fungal spores allow reproduction and promote fungal spread.
+Block: body
+Id: ann-must-fhb1022-micro-q19
+
+### definition_of · CON-INF-104E48053D1466
+Quote: The official lecture identifies airborne fungal spores as a major cause of respiratory illness and says spore allergens can trigger sinusitis and bronchial asthma.
+Block: body
+Id: ann-must-fhb1022-micro-q20
+
+### definition_of · CON-INF-104E48053D1466
+Quote: The official lecture directly states that many fungal spores contain allergens.
+Block: body
+Id: ann-must-fhb1022-micro-q21
+
+### definition_of · CON-INF-8C6B6F8D5A9C37
+Quote: The official lecture gives Candida species as the example of commensals that may cause opportunistic infections.
+Block: body
+Id: ann-must-fhb1022-micro-q27
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Mycology, Chapter 7 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.
+
+---
+
+# Item
+
+## id
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## title
+Core methods for fungal laboratory diagnosis
+
+## arabic_title
+
+
+## aliases
+MUST FHB102-2 Fungal diagnostics
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Fungal diagnostics
+
+## nanotopic
+
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+4
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## universities
+must
+
+## years
+MUST_Y1
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal diagnostics
+
+## summary
+PCR detects fungal DNA, calcofluor white produces fluorescent blue-white fungal elements, and specific-antibody detection is used mainly for systemic fungal infections.
+
+## sections
+### Definition
+The governed laboratory sequence includes direct microscopy, culture, fungal-antigen detection, nucleic-acid methods and serological assays.
+
+### Mechanism
+PCR detects fungal DNA in pathological specimens. Calcofluor white stain gives fungal elements a fluorescent blue-white appearance. Indirect detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+
+### Key determinants
+PCR maps to fungal DNA; calcofluor maps to fluorescent blue-white appearance; antibody detection maps mainly to systemic fungal diagnosis.
+
+### Clinical significance
+The tested methods distinguish a molecular target, a microscopy appearance and an indirect serological response.
+
+### Common misconceptions
+Do not substitute latex antigen detection for PCR, or assign the main antibody-detection use to superficial or cutaneous mycosis. Held stain, culture and antigen questions remain outside this article.
+
+### Governed evidence statements
+The official lecture directly states that PCR detects fungal DNA in pathological specimens.
+The official lecture directly states that calcofluor white gives fungi a fluorescent blue-white appearance.
+The official lecture directly states detection of fungal DNA by PCR.
+The official lecture directly states that specific-antibody detection is used mainly for systemic fungal infections.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+PCR detects fungal DNA in pathological specimens.
+Calcofluor white stain gives fungi a fluorescent blue-white appearance.
+PCR is used to detect fungal DNA.
+Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+
+## lose_the_mark
+Latex agglutination detects antigen, while Gram and India ink are microscopy methods.
+Red, green and yellow are not the appearance stated by the governed lecture.
+The governed PCR target is not viral lipid, bacterial protein or parasitic carbohydrate.
+The governed slide does not assign the main use to superficial or cutaneous mycoses.
+
+## callout_evidence
+### PCR detects fungal DNA in pathological specimens.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q16-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q16-01
+Reviewed by: pending medical review
+
+### Calcofluor white stain gives fungi a fluorescent blue-white appearance.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q22-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q22-01
+Reviewed by: pending medical review
+
+### PCR is used to detect fungal DNA.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q25-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q25-01
+Reviewed by: pending medical review
+
+### Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+Claims: CLM-INF-MUST-FHB1022-MYCO2-Q26-01
+Citations: CIT-INF-MUST-FHB1022-MYCO2-Q26-01
+Reviewed by: pending medical review
+
+## related_concepts
+CON-INF-13FD22A18D7B3F
+CON-INF-0BF98D81026D99
+CON-INF-F893330EC83CAC
+
+## related_articles
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS: General mycology foundations
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES: Fungal spores, allergy, mycotoxicosis and opportunism
+
+## question_ids
+QST-MUST-FHB1022-MYCO2-Q16
+QST-MUST-FHB1022-MYCO2-Q22
+QST-MUST-FHB1022-MYCO2-Q25
+QST-MUST-FHB1022-MYCO2-Q26
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## article_source_ids
+src_72a4c07c4877d4b58c3f
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q16-01
+CLM-INF-MUST-FHB1022-MYCO2-Q22-01
+CLM-INF-MUST-FHB1022-MYCO2-Q25-01
+CLM-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## span_ids
+SPN-INF-MUST-FHB1022-MYCO2-Q16-01
+SPN-INF-MUST-FHB1022-MYCO2-Q22-01
+SPN-INF-MUST-FHB1022-MYCO2-Q25-01
+SPN-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## university_notes
+must: Global Q16, Q22, Q25, Q26 retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
+
+## annotations
+### definition_of · CON-INF-13FD22A18D7B3F
+Quote: The official lecture directly states that PCR detects fungal DNA in pathological specimens.
+Block: body
+Id: ann-must-fhb1022-micro-q16
+
+### definition_of · CON-INF-0BF98D81026D99
+Quote: The official lecture directly states that calcofluor white gives fungi a fluorescent blue-white appearance.
+Block: body
+Id: ann-must-fhb1022-micro-q22
+
+### definition_of · CON-INF-13FD22A18D7B3F
+Quote: The official lecture directly states detection of fungal DNA by PCR.
+Block: body
+Id: ann-must-fhb1022-micro-q25
+
+### definition_of · CON-INF-F893330EC83CAC
+Quote: The official lecture directly states that specific-antibody detection is used mainly for systemic fungal infections.
+Block: body
+Id: ann-must-fhb1022-micro-q26
+
+## media
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Official MUST FHB102-2 General Mycology, Chapter 7 deck, visually read on exact cited pages.
+Absalam101 Part 1 revision bank, visually read on exact prompt and printed-answer pages.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication. All held questions have no student-facing projection.
+
+## conflicts
+No authored question has a teaching contradiction. The student-bank keys remain source evidence and were not promoted to authenticated faculty keys.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Bounded Absalam subject slices only. Every record remains Draft and local; this file is not an upload instruction.
+
+## field_notes
+arabicTitle: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+media: These questions are text-only and do not require student-facing media.
+lastReviewed: Draft has not completed medical review.
+reviewDue: Set after first medical review.
+publishedSummary: Draft has no student-safe published projection.
+publishedSections: Draft has no student-safe published projection.
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.

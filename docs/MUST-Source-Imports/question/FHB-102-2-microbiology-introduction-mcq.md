@@ -3018,7 +3018,7 @@ src_ee1fb7a716a473eb2d98
 Identify bacterial cell-wall synthesis as the process inhibited by beta-lactam antibiotics.
 
 ## source_citation
-Absalam101 Part 1, p38, Pharmacology Q6 (global Q126), printed key p45 (6 = D); official MUST Antibiotics Introd Mechan, p30.
+Absalam101 Part 2, p38, Pharmacology Q6, printed key p45 (6 = D); official MUST Antibiotics Introd Mechan, p30.
 
 ## attached_image
 
@@ -3036,7 +3036,7 @@ Absalam101 Part 1, p38, Pharmacology Q6 (global Q126), printed key p45 (6 = D); 
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q6 (global Q126) = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q6 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -3170,7 +3170,7 @@ src_ee1fb7a716a473eb2d98
 Recognise transpeptidation for cell-wall synthesis as a PBP function.
 
 ## source_citation
-Absalam101 Part 1, p38, Pharmacology Q7 (global Q127), printed key p45 (7 = B); official MUST Antibiotics Introd Mechan, p31.
+Absalam101 Part 2, p38, Pharmacology Q7, printed key p45 (7 = B); official MUST Antibiotics Introd Mechan, p31.
 
 ## attached_image
 
@@ -3188,7 +3188,7 @@ Absalam101 Part 1, p38, Pharmacology Q7 (global Q127), printed key p45 (7 = B); 
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q7 (global Q127) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q7 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -3322,7 +3322,7 @@ src_875c205531a585cd5b91
 Distinguish vancomycin from the beta-lactam groups in the option set.
 
 ## source_citation
-Absalam101 Part 1, p38–39, Pharmacology Q8 (global Q128), printed key p45 (8 = C); official MUST 2. B-Lactam & Vancomycin, p6.
+Absalam101 Part 2, p38–39, Pharmacology Q8, printed key p45 (8 = C); official MUST 2. B-Lactam & Vancomycin, p6.
 
 ## attached_image
 
@@ -3340,7 +3340,7 @@ Absalam101 Part 1, p38–39, Pharmacology Q8 (global Q128), printed key p45 (8 =
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q8 (global Q128) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q8 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -3474,7 +3474,7 @@ src_875c205531a585cd5b91
 Explain why a beta-lactamase inhibitor is paired with a susceptible penicillin.
 
 ## source_citation
-Absalam101 Part 1, p39, Pharmacology Q9 (global Q129), printed key p45 (9 = B); official MUST 2. B-Lactam & Vancomycin, p33.
+Absalam101 Part 2, p39, Pharmacology Q9, printed key p45 (9 = B); official MUST 2. B-Lactam & Vancomycin, p33.
 
 ## attached_image
 
@@ -3492,7 +3492,7 @@ Absalam101 Part 1, p39, Pharmacology Q9 (global Q129), printed key p45 (9 = B); 
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q9 (global Q129) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q9 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -3626,7 +3626,7 @@ src_875c205531a585cd5b91
 Identify Penicillin G as the natural penicillin among the offered agents.
 
 ## source_citation
-Absalam101 Part 1, p39, Pharmacology Q10 (global Q130), printed key p45 (10 = C); official MUST 2. B-Lactam & Vancomycin, p12.
+Absalam101 Part 2, p39, Pharmacology Q10, printed key p45 (10 = C); official MUST 2. B-Lactam & Vancomycin, p12.
 
 ## attached_image
 
@@ -3644,7 +3644,7 @@ Absalam101 Part 1, p39, Pharmacology Q10 (global Q130), printed key p45 (10 = C)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q10 (global Q130) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q10 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -3778,7 +3778,7 @@ src_875c205531a585cd5b91
 Identify rheumatic-fever prophylaxis as the stated use of benzathine penicillin.
 
 ## source_citation
-Absalam101 Part 1, p39, Pharmacology Q11 (global Q131), printed key p45 (11 = C); official MUST 2. B-Lactam & Vancomycin, p22.
+Absalam101 Part 2, p39, Pharmacology Q11, printed key p45 (11 = C); official MUST 2. B-Lactam & Vancomycin, p22.
 
 ## attached_image
 
@@ -3796,7 +3796,7 @@ Absalam101 Part 1, p39, Pharmacology Q11 (global Q131), printed key p45 (11 = C)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q11 (global Q131) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q11 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -3930,7 +3930,7 @@ src_875c205531a585cd5b91
 Identify dicloxacillin as beta-lactamase resistant.
 
 ## source_citation
-Absalam101 Part 1, p39–40, Pharmacology Q12 (global Q132), printed key p45 (12 = B); official MUST 2. B-Lactam & Vancomycin, p12.
+Absalam101 Part 2, p39–40, Pharmacology Q12, printed key p45 (12 = B); official MUST 2. B-Lactam & Vancomycin, p12.
 
 ## attached_image
 
@@ -3948,7 +3948,7 @@ Absalam101 Part 1, p39–40, Pharmacology Q12 (global Q132), printed key p45 (12
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q12 (global Q132) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q12 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4082,7 +4082,7 @@ src_875c205531a585cd5b91
 Classify amoxicillin as an aminopenicillin.
 
 ## source_citation
-Absalam101 Part 1, p40, Pharmacology Q13 (global Q133), printed key p45 (13 = B); official MUST 2. B-Lactam & Vancomycin, p12.
+Absalam101 Part 2, p40, Pharmacology Q13, printed key p45 (13 = B); official MUST 2. B-Lactam & Vancomycin, p12.
 
 ## attached_image
 
@@ -4100,7 +4100,7 @@ Absalam101 Part 1, p40, Pharmacology Q13 (global Q133), printed key p45 (13 = B)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q13 (global Q133) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q13 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4234,7 +4234,7 @@ src_875c205531a585cd5b91
 Classify piperacillin as an extended-spectrum penicillin.
 
 ## source_citation
-Absalam101 Part 1, p40, Pharmacology Q14 (global Q134), printed key p45 (14 = A); official MUST 2. B-Lactam & Vancomycin, p12.
+Absalam101 Part 2, p40, Pharmacology Q14, printed key p45 (14 = A); official MUST 2. B-Lactam & Vancomycin, p12.
 
 ## attached_image
 
@@ -4252,7 +4252,7 @@ Absalam101 Part 1, p40, Pharmacology Q14 (global Q134), printed key p45 (14 = A)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q14 (global Q134) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q14 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4386,7 +4386,7 @@ src_875c205531a585cd5b91
 Pair amoxicillin with clavulanate.
 
 ## source_citation
-Absalam101 Part 1, p40, Pharmacology Q15 (global Q135), printed key p45 (15 = A); official MUST 2. B-Lactam & Vancomycin, p33.
+Absalam101 Part 2, p40, Pharmacology Q15, printed key p45 (15 = A); official MUST 2. B-Lactam & Vancomycin, p33.
 
 ## attached_image
 
@@ -4404,7 +4404,7 @@ Absalam101 Part 1, p40, Pharmacology Q15 (global Q135), printed key p45 (15 = A)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q15 (global Q135) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q15 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4538,7 +4538,7 @@ src_875c205531a585cd5b91
 Identify the two components of Unasyn.
 
 ## source_citation
-Absalam101 Part 1, p40–41, Pharmacology Q16 (global Q136), printed key p45 (16 = C); official MUST 2. B-Lactam & Vancomycin, p33.
+Absalam101 Part 2, p40–41, Pharmacology Q16, printed key p45 (16 = C); official MUST 2. B-Lactam & Vancomycin, p33.
 
 ## attached_image
 
@@ -4556,7 +4556,7 @@ Absalam101 Part 1, p40–41, Pharmacology Q16 (global Q136), printed key p45 (16
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q16 (global Q136) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q16 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4690,7 +4690,7 @@ src_ee1fb7a716a473eb2d98
 Identify vancomycin from its D-Ala-D-Ala binding mechanism.
 
 ## source_citation
-Absalam101 Part 1, p41, Pharmacology Q17 (global Q137), printed key p45 (17 = B); official MUST Antibiotics Introd Mechan, p32.
+Absalam101 Part 2, p41, Pharmacology Q17, printed key p45 (17 = B); official MUST Antibiotics Introd Mechan, p32.
 
 ## attached_image
 
@@ -4708,7 +4708,7 @@ Absalam101 Part 1, p41, Pharmacology Q17 (global Q137), printed key p45 (17 = B)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q17 (global Q137) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q17 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4842,7 +4842,7 @@ src_ee1fb7a716a473eb2d98
 Recognise blockade of cell-wall precursor transport as bacitracin’s mechanism.
 
 ## source_citation
-Absalam101 Part 1, p41, Pharmacology Q18 (global Q138), printed key p45 (18 = C); official MUST Antibiotics Introd Mechan, p32.
+Absalam101 Part 2, p41, Pharmacology Q18, printed key p45 (18 = C); official MUST Antibiotics Introd Mechan, p32.
 
 ## attached_image
 
@@ -4860,7 +4860,7 @@ Absalam101 Part 1, p41, Pharmacology Q18 (global Q138), printed key p45 (18 = C)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q18 (global Q138) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q18 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -4994,7 +4994,7 @@ src_875c205531a585cd5b91
 Identify hypersensitivity as a major penicillin adverse effect.
 
 ## source_citation
-Absalam101 Part 1, p41, Pharmacology Q19 (global Q139), printed key p45 (19 = C); official MUST 2. B-Lactam & Vancomycin, p23.
+Absalam101 Part 2, p41, Pharmacology Q19, printed key p45 (19 = C); official MUST 2. B-Lactam & Vancomycin, p23.
 
 ## attached_image
 
@@ -5012,7 +5012,7 @@ Absalam101 Part 1, p41, Pharmacology Q19 (global Q139), printed key p45 (19 = C)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q19 (global Q139) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q19 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -5146,7 +5146,7 @@ src_875c205531a585cd5b91
 Recognise both cloxacillin and dicloxacillin as oral formulations in the offered set.
 
 ## source_citation
-Absalam101 Part 1, p42, Pharmacology Q22 (global Q142), printed key p45 (22 = D); official MUST 2. B-Lactam & Vancomycin, p12.
+Absalam101 Part 2, p42, Pharmacology Q22, printed key p45 (22 = D); official MUST 2. B-Lactam & Vancomycin, p12.
 
 ## attached_image
 
@@ -5164,7 +5164,7 @@ Absalam101 Part 1, p42, Pharmacology Q22 (global Q142), printed key p45 (22 = D)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q22 (global Q142) = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q22 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -5298,7 +5298,7 @@ src_875c205531a585cd5b91
 Select dicloxacillin as the antistaphylococcal penicillin in the offered set.
 
 ## source_citation
-Absalam101 Part 1, p43, Pharmacology Q26 (global Q146), printed key p45 (26 = B); official MUST 2. B-Lactam & Vancomycin, p12.
+Absalam101 Part 2, p43, Pharmacology Q26, printed key p45 (26 = B); official MUST 2. B-Lactam & Vancomycin, p12.
 
 ## attached_image
 
@@ -5316,7 +5316,7 @@ Absalam101 Part 1, p43, Pharmacology Q26 (global Q146), printed key p45 (26 = B)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q26 (global Q146) = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q26 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -5450,7 +5450,7 @@ src_875c205531a585cd5b91
 Identify piperacillin as the most effective offered penicillin against Pseudomonas aeruginosa.
 
 ## source_citation
-Absalam101 Part 1, p43–44, Pharmacology Q27 (global Q147), printed key p45 (27 = C); official MUST 2. B-Lactam & Vancomycin, p12.
+Absalam101 Part 2, p43–44, Pharmacology Q27, printed key p45 (27 = C); official MUST 2. B-Lactam & Vancomycin, p12.
 
 ## attached_image
 
@@ -5468,7 +5468,7 @@ Absalam101 Part 1, p43–44, Pharmacology Q27 (global Q147), printed key p45 (27
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q27 (global Q147) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q27 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -5602,7 +5602,7 @@ src_875c205531a585cd5b91
 Recognise the shared cell-wall-synthesis mechanism of penicillins and cephalosporins.
 
 ## source_citation
-Absalam101 Part 1, p44, Pharmacology Q29 (global Q149), printed key p45 (29 = C); official MUST 2. B-Lactam & Vancomycin, p6, 8.
+Absalam101 Part 2, p44, Pharmacology Q29, printed key p45 (29 = C); official MUST 2. B-Lactam & Vancomycin, p6, 8.
 
 ## attached_image
 
@@ -5620,7 +5620,7 @@ Absalam101 Part 1, p44, Pharmacology Q29 (global Q149), printed key p45 (29 = C)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q29 (global Q149) = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q29 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
 
 ---
 
@@ -5754,7 +5754,7 @@ src_ee1fb7a716a473eb2d98
 Identify beta-lactams as time-dependent killers among the offered antibiotic groups.
 
 ## source_citation
-Absalam101 Part 1, p44, Pharmacology Q30 (global Q150), printed key p45 (30 = A); official MUST Antibiotics Introd Mechan, p30.
+Absalam101 Part 2, p44, Pharmacology Q30, printed key p45 (30 = A); official MUST Antibiotics Introd Mechan, p30.
 
 ## attached_image
 
@@ -5772,4 +5772,1828 @@ Absalam101 Part 1, p44, Pharmacology Q30 (global Q150), printed key p45 (30 = A)
 yes
 
 ## author_notes
-Printed source key: Pharmacology Q30 (global Q150) = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+Printed source key: Pharmacology Q30 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q1
+
+## title
+What is the study of fungi called?
+
+## question
+What is the study of fungi called?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Bacteriology
+
+## explanation_a
+Incorrect. Bacteriology, virology and parasitology concern different organism groups. The supported answer is C, Mycology.
+
+## answer_b
+Virology
+
+## explanation_b
+Incorrect. Bacteriology, virology and parasitology concern different organism groups. The supported answer is C, Mycology.
+
+## answer_c
+Mycology
+
+## explanation_c
+Mycology is the study of fungi. The official MUST teaching directly supports Mycology for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Parasitology
+
+## explanation_d
+Incorrect. Bacteriology, virology and parasitology concern different organism groups. The supported answer is C, Mycology.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-B5C54985E6FD64
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Mycology definition
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Define mycology as the study of fungi.
+
+## source_citation
+Absalam101 Part 2, p19, Mycology Q1, printed key p29 (1 = C); official MUST General Mycology, Chapter 7, p5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q1 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q7
+
+## title
+Which of the following is an example of a yeast?
+
+## question
+Which of the following is an example of a yeast?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+D
+
+## answer_a
+Cryptococcus neoformans
+
+## explanation_a
+Incorrect. Both A and B are directly supported, so selecting only one is incomplete. The supported answer is D, A & B.
+
+## answer_b
+Candida
+
+## explanation_b
+Incorrect. Both A and B are directly supported, so selecting only one is incomplete. The supported answer is D, A & B.
+
+## answer_c
+Histoplasma
+
+## explanation_c
+Incorrect. Both A and B are directly supported, so selecting only one is incomplete. The supported answer is D, A & B.
+
+## answer_d
+A & B
+
+## explanation_d
+Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching. The official MUST teaching directly supports A & B for this prompt. Therefore D is retained as the unchanged source-printed answer, pending medical review.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-3CCC561E727F2C
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Yeasts
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Recognise both Candida and Cryptococcus neoformans as the offered yeast examples.
+
+## source_citation
+Absalam101 Part 2, p21, Mycology Q7, printed key p29 (7 = D); official MUST General Mycology, Chapter 7, p23–24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q7 = D. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q8
+
+## title
+What is a mycelium?
+
+## question
+What is a mycelium?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+A mass of bacterial cells
+
+## explanation_a
+Incorrect. Mycelium is neither bacterial, viral nor protozoal. The supported answer is B, A fungal hyphal network.
+
+## answer_b
+A fungal hyphal network
+
+## explanation_b
+A mycelium is the mass or network of fungal hyphae. The official MUST teaching directly supports A fungal hyphal network for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+A reproductive structure of viruses
+
+## explanation_c
+Incorrect. Mycelium is neither bacterial, viral nor protozoal. The supported answer is B, A fungal hyphal network.
+
+## answer_d
+A protozoan organelle
+
+## explanation_d
+Incorrect. Mycelium is neither bacterial, viral nor protozoal. The supported answer is B, A fungal hyphal network.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-5B5A0738DEDA61
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Filamentous fungi
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Define mycelium as a fungal hyphal network.
+
+## source_citation
+Absalam101 Part 2, p21, Mycology Q8, printed key p29 (8 = B); official MUST General Mycology, Chapter 7, p10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q8 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q12
+
+## title
+Mycotoxicosis is caused by:
+
+## question
+Mycotoxicosis is caused by:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Direct fungal infection
+
+## explanation_a
+Incorrect. Mycotoxicosis is toxin ingestion rather than direct fungal infection, spore inhalation or cell-wall contact. The supported answer is C, Ingestion of fungal toxins.
+
+## answer_b
+Inhalation of fungal spores
+
+## explanation_b
+Incorrect. Mycotoxicosis is toxin ingestion rather than direct fungal infection, spore inhalation or cell-wall contact. The supported answer is C, Ingestion of fungal toxins.
+
+## answer_c
+Ingestion of fungal toxins
+
+## explanation_c
+Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins. The official MUST teaching directly supports Ingestion of fungal toxins for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Contact with fungal cell walls
+
+## explanation_d
+Incorrect. Mycotoxicosis is toxin ingestion rather than direct fungal infection, spore inhalation or cell-wall contact. The supported answer is C, Ingestion of fungal toxins.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-81364DB3512B06
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Mycotoxicosis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Identify ingestion of fungal toxins as the cause of mycotoxicosis.
+
+## source_citation
+Absalam101 Part 2, p22, Mycology Q12, printed key p29 (12 = C); official MUST General Mycology, Chapter 7, p16.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q12 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q16
+
+## title
+Which fungal detection method identifies fungal DNA in pathological specimens?
+
+## question
+Which fungal detection method identifies fungal DNA in pathological specimens?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Latex agglutination test
+
+## explanation_a
+Incorrect. Latex agglutination detects antigen, while Gram and India ink are microscopy methods. The supported answer is B, PCR.
+
+## answer_b
+PCR
+
+## explanation_b
+PCR detects fungal DNA in pathological specimens. The official MUST teaching directly supports PCR for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Gram staining
+
+## explanation_c
+Incorrect. Latex agglutination detects antigen, while Gram and India ink are microscopy methods. The supported answer is B, PCR.
+
+## answer_d
+India ink stain
+
+## explanation_d
+Incorrect. Latex agglutination detects antigen, while Gram and India ink are microscopy methods. The supported answer is B, PCR.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-13FD22A18D7B3F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Molecular diagnosis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Identify PCR as the fungal-DNA detection method.
+
+## source_citation
+Absalam101 Part 2, p24, Mycology Q16, printed key p29 (16 = B); official MUST General Mycology, Chapter 7, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q16 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q19
+
+## title
+What is the main role of fungal spores?
+
+## question
+What is the main role of fungal spores?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Nutrition
+
+## explanation_a
+Incorrect. The governed role is not nutrition, toxin production or immune avoidance. The supported answer is B, Reproduction and spread.
+
+## answer_b
+Reproduction and spread
+
+## explanation_b
+Fungal spores support fungal reproduction and spread. The official MUST teaching directly supports Reproduction and spread for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Producing toxins
+
+## explanation_c
+Incorrect. The governed role is not nutrition, toxin production or immune avoidance. The supported answer is B, Reproduction and spread.
+
+## answer_d
+Preventing immune response
+
+## explanation_d
+Incorrect. The governed role is not nutrition, toxin production or immune avoidance. The supported answer is B, Reproduction and spread.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-36FB4AD4FE6CA9
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal spores
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Identify reproduction and spread as the main role of fungal spores.
+
+## source_citation
+Absalam101 Part 2, p25, Mycology Q19, printed key p29 (19 = B); official MUST General Mycology, Chapter 7, p13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q19 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q20
+
+## title
+Which of the following is a causes of respiratory illness like sinusitis and bronchial asthma?
+
+## question
+Which of the following is a causes of respiratory illness like sinusitis and bronchial asthma?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Fungal hyphae
+
+## explanation_a
+Incorrect. The assessment grammar is retained; the governed cause is fungal spores, not hyphae, fungal toxins or bacterial spores. The supported answer is B, Fungal spores.
+
+## answer_b
+Fungal spores
+
+## explanation_b
+Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma. The official MUST teaching directly supports Fungal spores for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Fungal toxins
+
+## explanation_c
+Incorrect. The assessment grammar is retained; the governed cause is fungal spores, not hyphae, fungal toxins or bacterial spores. The supported answer is B, Fungal spores.
+
+## answer_d
+Bacterial spores
+
+## explanation_d
+Incorrect. The assessment grammar is retained; the governed cause is fungal spores, not hyphae, fungal toxins or bacterial spores. The supported answer is B, Fungal spores.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-104E48053D1466
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal allergy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Identify fungal spores as the offered cause of these respiratory illnesses.
+
+## source_citation
+Absalam101 Part 2, p25, Mycology Q20, printed key p29 (20 = B); official MUST General Mycology, Chapter 7, p13, 15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q20 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q21
+
+## title
+Which fungal component is responsible for allergic reactions?
+
+## question
+Which fungal component is responsible for allergic reactions?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+C
+
+## answer_a
+Ergosterol
+
+## explanation_a
+Incorrect. The governed slide assigns the allergic trigger to spores rather than ergosterol, mycotoxins or chitin. The supported answer is C, Fungal spores.
+
+## answer_b
+Mycotoxins
+
+## explanation_b
+Incorrect. The governed slide assigns the allergic trigger to spores rather than ergosterol, mycotoxins or chitin. The supported answer is C, Fungal spores.
+
+## answer_c
+Fungal spores
+
+## explanation_c
+Fungal spores contain allergens that can trigger allergic respiratory reactions. The official MUST teaching directly supports Fungal spores for this prompt. Therefore C is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_d
+Cell wall chitin
+
+## explanation_d
+Incorrect. The governed slide assigns the allergic trigger to spores rather than ergosterol, mycotoxins or chitin. The supported answer is C, Fungal spores.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-104E48053D1466
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal allergy
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Identify fungal spores as the allergen-bearing component in the governed teaching.
+
+## source_citation
+Absalam101 Part 2, p25, Mycology Q21, printed key p29 (21 = C); official MUST General Mycology, Chapter 7, p15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q21 = C. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q22
+
+## title
+Calcofluor white stain gives fungi a:
+
+## question
+Calcofluor white stain gives fungi a:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Fluorescent blue-white appearance
+
+## explanation_a
+Calcofluor white stain gives fungi a fluorescent blue-white appearance. The official MUST teaching directly supports Fluorescent blue-white appearance for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Red appearance
+
+## explanation_b
+Incorrect. Red, green and yellow are not the appearance stated by the governed lecture. The supported answer is A, Fluorescent blue-white appearance.
+
+## answer_c
+Green appearance
+
+## explanation_c
+Incorrect. Red, green and yellow are not the appearance stated by the governed lecture. The supported answer is A, Fluorescent blue-white appearance.
+
+## answer_d
+Yellow appearance
+
+## explanation_d
+Incorrect. Red, green and yellow are not the appearance stated by the governed lecture. The supported answer is A, Fluorescent blue-white appearance.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-0BF98D81026D99
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Special stains
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Recognise the fluorescent blue-white appearance produced by calcofluor white.
+
+## source_citation
+Absalam101 Part 2, p26, Mycology Q22, printed key p29 (22 = A); official MUST General Mycology, Chapter 7, p25–26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q22 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q25
+
+## title
+PCR is used to detect:
+
+## question
+PCR is used to detect:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+B
+
+## answer_a
+Viral lipids
+
+## explanation_a
+Incorrect. The governed PCR target is not viral lipid, bacterial protein or parasitic carbohydrate. The supported answer is B, Fungal DNA.
+
+## answer_b
+Fungal DNA
+
+## explanation_b
+PCR is used to detect fungal DNA. The official MUST teaching directly supports Fungal DNA for this prompt. Therefore B is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_c
+Bacterial proteins
+
+## explanation_c
+Incorrect. The governed PCR target is not viral lipid, bacterial protein or parasitic carbohydrate. The supported answer is B, Fungal DNA.
+
+## answer_d
+Parasitic carbohydrates
+
+## explanation_d
+Incorrect. The governed PCR target is not viral lipid, bacterial protein or parasitic carbohydrate. The supported answer is B, Fungal DNA.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-13FD22A18D7B3F
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Molecular diagnosis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Select fungal DNA as the PCR target in this local mycology question.
+
+## source_citation
+Absalam101 Part 2, p27, Mycology Q25, printed key p29 (25 = B); official MUST General Mycology, Chapter 7, p32.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q25 = B. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q26
+
+## title
+Antibody detection is useful for diagnosing:
+
+## question
+Antibody detection is useful for diagnosing:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Systemic fungal infections
+
+## explanation_a
+Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections. The official MUST teaching directly supports Systemic fungal infections for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Superficial mycoses
+
+## explanation_b
+Incorrect. The governed slide does not assign the main use to superficial or cutaneous mycoses. The supported answer is A, Systemic fungal infections.
+
+## answer_c
+Cutaneous mycoses
+
+## explanation_c
+Incorrect. The governed slide does not assign the main use to superficial or cutaneous mycoses. The supported answer is A, Systemic fungal infections.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. The governed slide does not assign the main use to superficial or cutaneous mycoses. The supported answer is A, Systemic fungal infections.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-F893330EC83CAC
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Indirect diagnosis
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Identify systemic fungal infections as the main use of antibody detection.
+
+## source_citation
+Absalam101 Part 2, p27, Mycology Q26, printed key p29 (26 = A); official MUST General Mycology, Chapter 7, p33.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q26 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.
+
+---
+
+# Item
+
+## id
+QST-MUST-FHB1022-MYCO2-Q27
+
+## title
+Which of the following fungi is an example of a opportunistic organism?
+
+## question
+Which of the following fungi is an example of a opportunistic organism?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## format
+single best answer
+
+## derived_from
+Transcribed verbatim from src_8bd3b772b3b32db59726; printed key checked against src_72a4c07c4877d4b58c3f without treating the student bank as an authenticated faculty key.
+
+## correct_answer
+A
+
+## answer_a
+Candida
+
+## explanation_a
+Candida species are presented as commensals that may cause opportunistic infection under certain conditions. The official MUST teaching directly supports Candida for this prompt. Therefore A is retained as the unchanged source-printed answer, pending medical review.
+
+## answer_b
+Aspergillus
+
+## explanation_b
+Incorrect. The assessment phrase “a opportunistic” is retained; the governed example is Candida. The supported answer is A, Candida.
+
+## answer_c
+Histoplasma
+
+## explanation_c
+Incorrect. The assessment phrase “a opportunistic” is retained; the governed example is Candida. The supported answer is A, Candida.
+
+## answer_d
+Rhizopus
+
+## explanation_d
+Incorrect. The assessment phrase “a opportunistic” is retained; the governed example is Candida. The supported answer is A, Candida.
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## main_concept
+CON-INF-8C6B6F8D5A9C37
+
+## concept_ids
+[clear]
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## years
+MUST_Y1
+
+## universities
+must
+
+## module
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Opportunistic fungi
+
+## question_only_for
+MUST_Y1
+
+## library_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## resource_ids
+src_8bd3b772b3b32db59726
+src_72a4c07c4877d4b58c3f
+
+## learning_objective
+Identify Candida as the offered opportunistic organism.
+
+## source_citation
+Absalam101 Part 2, p27, Mycology Q27, printed key p29 (27 = A); official MUST General Mycology, Chapter 7, p8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed source key: Mycology Q27 = A. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.

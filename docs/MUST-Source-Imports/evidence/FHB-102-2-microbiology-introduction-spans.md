@@ -833,3 +833,267 @@ CLM-INF-MUST-FHB1022-PHARM-Q150-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-PHARM-Q150-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q1-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## section_id
+art-inf-must-fhb1022-mycology-foundations-definition
+
+## text
+Mycology is the study of fungi.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q1-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q1-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q7-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## section_id
+art-inf-must-fhb1022-mycology-foundations-definition
+
+## text
+Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q7-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q7-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## section_id
+art-inf-must-fhb1022-mycology-foundations-definition
+
+## text
+A mycelium is the mass or network of fungal hyphae.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q8-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q12-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## section_id
+art-inf-must-fhb1022-mycology-disease-spores-definition
+
+## text
+Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q12-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q12-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q16-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## section_id
+art-inf-must-fhb1022-mycology-diagnosis-definition
+
+## text
+PCR detects fungal DNA in pathological specimens.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q16-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q16-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q19-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## section_id
+art-inf-must-fhb1022-mycology-disease-spores-definition
+
+## text
+Fungal spores support fungal reproduction and spread.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q19-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q19-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q20-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## section_id
+art-inf-must-fhb1022-mycology-disease-spores-definition
+
+## text
+Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q20-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q20-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q21-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## section_id
+art-inf-must-fhb1022-mycology-disease-spores-definition
+
+## text
+Fungal spores contain allergens that can trigger allergic respiratory reactions.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q21-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q21-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q22-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## section_id
+art-inf-must-fhb1022-mycology-diagnosis-definition
+
+## text
+Calcofluor white stain gives fungi a fluorescent blue-white appearance.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q22-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q22-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q25-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## section_id
+art-inf-must-fhb1022-mycology-diagnosis-definition
+
+## text
+PCR is used to detect fungal DNA.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q25-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q25-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## section_id
+art-inf-must-fhb1022-mycology-diagnosis-definition
+
+## text
+Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q26-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## article_id
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## section_id
+art-inf-must-fhb1022-mycology-disease-spores-definition
+
+## text
+Candida species are presented as commensals that may cause opportunistic infection under certain conditions.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MYCO2-Q27-01

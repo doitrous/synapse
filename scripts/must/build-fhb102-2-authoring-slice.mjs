@@ -509,6 +509,9 @@ const microArticles = {
   virulenceEvasion: 'ART-INF-MUST-FHB1022-VIRULENCE-EVASION',
   cellWallAntibiotics: 'ART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS',
   penicillins: 'ART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY',
+  mycologyFoundations: 'ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS',
+  mycologyDisease: 'ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES',
+  mycologyDiagnosis: 'ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS',
 }
 
 const microArticleRelations = {
@@ -518,6 +521,9 @@ const microArticleRelations = {
   virulenceEvasion: ['colonizationCarriage'],
   cellWallAntibiotics: ['penicillins'],
   penicillins: ['cellWallAntibiotics'],
+  mycologyFoundations: ['mycologyDisease', 'mycologyDiagnosis'],
+  mycologyDisease: ['mycologyFoundations', 'mycologyDiagnosis'],
+  mycologyDiagnosis: ['mycologyFoundations', 'mycologyDisease'],
 }
 
 const microItems = [
@@ -942,6 +948,28 @@ const microItems = [
     objective: 'Identify beta-lactams as time-dependent killers among the offered antibiotic groups.', pitfalls: 'The governed item contrasts beta-lactam time dependence with other antimicrobial classes; tetracyclines are not bactericidal beta-lactams.', sourceCandidates: ['concept_b63d87129941d4e1074248e5'], rejected: ['concept_b63d87129941d4e1074248e5 — exact raw extraction retained as lineage but not imported as a governed concept.'],
   },
 ]
+
+const mycologyItems = [
+  { q: 1, conceptId: 'CON-INF-B5C54985E6FD64', canonicalKey: 'microbiology.mycology.study-of-fungi', label: 'Mycology is the study of fungi', aliases: ['Mycology definition', 'Study of fungi'], conceptType: 'definition', article: 'mycologyFoundations', microtopic: 'Mycology definition', assessmentPage: 19, teachingPage: 5, stem: 'What is the study of fungi called?', key: 'C', options: ['Bacteriology', 'Virology', 'Mycology', 'Parasitology'], claim: 'Mycology is the study of fungi.', support: 'The official lecture directly defines mycology as the study of fungi.', objective: 'Define mycology as the study of fungi.', pitfalls: 'Bacteriology, virology and parasitology concern different organism groups.', rejected: [] },
+  { q: 7, conceptId: 'CON-INF-3CCC561E727F2C', canonicalKey: 'microbiology.mycology.yeast-examples-candida-cryptococcus', label: 'Candida and Cryptococcus neoformans are yeasts', aliases: ['Yeast examples', 'Candida and Cryptococcus yeasts'], conceptType: 'classification', article: 'mycologyFoundations', microtopic: 'Yeasts', assessmentPage: 21, teachingPage: '23–24', stem: 'Which of the following is an example of a yeast?', key: 'D', options: ['Cryptococcus neoformans', 'Candida', 'Histoplasma', 'A & B'], claim: 'Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching.', support: 'The official diagnostic slides present Candida as oval budding yeast cells and Cryptococcus neoformans as oval yeast cells.', objective: 'Recognise both Candida and Cryptococcus neoformans as the offered yeast examples.', pitfalls: 'Both A and B are directly supported, so selecting only one is incomplete.', rejected: [] },
+  { q: 8, conceptId: 'CON-INF-5B5A0738DEDA61', canonicalKey: 'microbiology.mycology.mycelium-mass-of-hyphae', label: 'Mycelium is a mass of fungal hyphae', aliases: ['Mycelium definition', 'Fungal hyphal network'], conceptType: 'definition', article: 'mycologyFoundations', microtopic: 'Filamentous fungi', assessmentPage: 21, teachingPage: 10, stem: 'What is a mycelium?', key: 'B', options: ['A mass of bacterial cells', 'A fungal hyphal network', 'A reproductive structure of viruses', 'A protozoan organelle'], claim: 'A mycelium is the mass or network of fungal hyphae.', support: 'The official lecture directly states that a mass of hyphae is known as mycelium.', objective: 'Define mycelium as a fungal hyphal network.', pitfalls: 'Mycelium is neither bacterial, viral nor protozoal.', rejected: [] },
+  { q: 12, conceptId: 'CON-INF-81364DB3512B06', canonicalKey: 'microbiology.mycology.mycotoxicosis-ingested-toxins', label: 'Mycotoxicosis follows ingestion of fungal toxins', aliases: ['Mycotoxicosis cause', 'Foodborne mycotoxin poisoning'], conceptType: 'mechanism', article: 'mycologyDisease', microtopic: 'Mycotoxicosis', assessmentPage: 22, teachingPage: 16, stem: 'Mycotoxicosis is caused by:', key: 'C', options: ['Direct fungal infection', 'Inhalation of fungal spores', 'Ingestion of fungal toxins', 'Contact with fungal cell walls'], claim: 'Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins.', support: 'The official lecture defines mycotoxicosis as food poisoning caused by ingestion of food containing mycotoxins.', objective: 'Identify ingestion of fungal toxins as the cause of mycotoxicosis.', pitfalls: 'Mycotoxicosis is toxin ingestion rather than direct fungal infection, spore inhalation or cell-wall contact.', rejected: ['concept_e9eba6e391eacc33f2878d44 — broader raw fungal-disease taxonomy does not state the ingestion mechanism tested here.'] },
+  { q: 16, conceptId: 'CON-INF-13FD22A18D7B3F', canonicalKey: 'microbiology.mycology.pcr-detects-fungal-dna', label: 'PCR detects fungal DNA in pathological specimens', aliases: ['Fungal PCR', 'Fungal DNA detection'], conceptType: 'diagnostic principle', article: 'mycologyDiagnosis', microtopic: 'Molecular diagnosis', assessmentPage: 24, teachingPage: 32, stem: 'Which fungal detection method identifies fungal DNA in pathological specimens?', key: 'B', options: ['Latex agglutination test', 'PCR', 'Gram staining', 'India ink stain'], claim: 'PCR detects fungal DNA in pathological specimens.', support: 'The official lecture directly states that PCR detects fungal DNA in pathological specimens.', objective: 'Identify PCR as the fungal-DNA detection method.', pitfalls: 'Latex agglutination detects antigen, while Gram and India ink are microscopy methods.', rejected: [] },
+  { q: 19, conceptId: 'CON-INF-36FB4AD4FE6CA9', canonicalKey: 'microbiology.mycology.spores-reproduction-spread', label: 'Fungal spores support reproduction and spread', aliases: ['Fungal spore role', 'Fungal reproduction and dispersal'], conceptType: 'function', article: 'mycologyDisease', microtopic: 'Fungal spores', assessmentPage: 25, teachingPage: 13, stem: 'What is the main role of fungal spores?', key: 'B', options: ['Nutrition', 'Reproduction and spread', 'Producing toxins', 'Preventing immune response'], claim: 'Fungal spores support fungal reproduction and spread.', support: 'The official lecture states that fungal spores allow reproduction and promote fungal spread.', objective: 'Identify reproduction and spread as the main role of fungal spores.', pitfalls: 'The governed role is not nutrition, toxin production or immune avoidance.', rejected: ['concept_a71ce81c16fd7cb1209d1ed9 — raw sexual-spore and asexual-conidia classification is broader than the direct reproduction-and-spread function tested here.'] },
+  { q: 20, conceptId: 'CON-INF-104E48053D1466', canonicalKey: 'microbiology.mycology.spore-allergens-respiratory-illness', label: 'Airborne fungal spores can trigger respiratory illness and allergy', aliases: ['Fungal spore allergens', 'Fungal respiratory allergy'], conceptType: 'clinical association', article: 'mycologyDisease', microtopic: 'Fungal allergy', assessmentPage: 25, teachingPage: '13, 15', stem: 'Which of the following is a causes of respiratory illness like sinusitis and bronchial asthma?', key: 'B', options: ['Fungal hyphae', 'Fungal spores', 'Fungal toxins', 'Bacterial spores'], claim: 'Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma.', support: 'The official lecture identifies airborne fungal spores as a major cause of respiratory illness and says spore allergens can trigger sinusitis and bronchial asthma.', objective: 'Identify fungal spores as the offered cause of these respiratory illnesses.', pitfalls: 'The assessment grammar is retained; the governed cause is fungal spores, not hyphae, fungal toxins or bacterial spores.', rejected: [] },
+  { q: 21, conceptId: 'CON-INF-104E48053D1466', canonicalKey: 'microbiology.mycology.spore-allergens-respiratory-illness', label: 'Airborne fungal spores can trigger respiratory illness and allergy', aliases: ['Fungal spore allergens', 'Fungal respiratory allergy'], conceptType: 'clinical association', article: 'mycologyDisease', microtopic: 'Fungal allergy', assessmentPage: 25, teachingPage: 15, stem: 'Which fungal component is responsible for allergic reactions?', key: 'C', options: ['Ergosterol', 'Mycotoxins', 'Fungal spores', 'Cell wall chitin'], claim: 'Fungal spores contain allergens that can trigger allergic respiratory reactions.', support: 'The official lecture directly states that many fungal spores contain allergens.', objective: 'Identify fungal spores as the allergen-bearing component in the governed teaching.', pitfalls: 'The governed slide assigns the allergic trigger to spores rather than ergosterol, mycotoxins or chitin.', rejected: [] },
+  { q: 22, conceptId: 'CON-INF-0BF98D81026D99', canonicalKey: 'microbiology.mycology.calcofluor-blue-white', label: 'Calcofluor white gives fungi a fluorescent blue-white appearance', aliases: ['Calcofluor white stain', 'Fluorescent blue-white fungi'], conceptType: 'diagnostic principle', article: 'mycologyDiagnosis', microtopic: 'Special stains', assessmentPage: 26, teachingPage: '25–26', stem: 'Calcofluor white stain gives fungi a:', key: 'A', options: ['Fluorescent blue-white appearance', 'Red appearance', 'Green appearance', 'Yellow appearance'], claim: 'Calcofluor white stain gives fungi a fluorescent blue-white appearance.', support: 'The official lecture directly states that calcofluor white gives fungi a fluorescent blue-white appearance.', objective: 'Recognise the fluorescent blue-white appearance produced by calcofluor white.', pitfalls: 'Red, green and yellow are not the appearance stated by the governed lecture.', rejected: [] },
+  { q: 25, conceptId: 'CON-INF-13FD22A18D7B3F', canonicalKey: 'microbiology.mycology.pcr-detects-fungal-dna', label: 'PCR detects fungal DNA in pathological specimens', aliases: ['Fungal PCR', 'Fungal DNA detection'], conceptType: 'diagnostic principle', article: 'mycologyDiagnosis', microtopic: 'Molecular diagnosis', assessmentPage: 27, teachingPage: 32, stem: 'PCR is used to detect:', key: 'B', options: ['Viral lipids', 'Fungal DNA', 'Bacterial proteins', 'Parasitic carbohydrates'], claim: 'PCR is used to detect fungal DNA.', support: 'The official lecture directly states detection of fungal DNA by PCR.', objective: 'Select fungal DNA as the PCR target in this local mycology question.', pitfalls: 'The governed PCR target is not viral lipid, bacterial protein or parasitic carbohydrate.', rejected: [] },
+  { q: 26, conceptId: 'CON-INF-F893330EC83CAC', canonicalKey: 'microbiology.mycology.antibody-systemic-infection', label: 'Antibody detection mainly supports systemic fungal diagnosis', aliases: ['Fungal antibody detection', 'Systemic mycosis serology'], conceptType: 'diagnostic principle', article: 'mycologyDiagnosis', microtopic: 'Indirect diagnosis', assessmentPage: 27, teachingPage: 33, stem: 'Antibody detection is useful for diagnosing:', key: 'A', options: ['Systemic fungal infections', 'Superficial mycoses', 'Cutaneous mycoses', 'None of the above'], claim: 'Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.', support: 'The official lecture directly states that specific-antibody detection is used mainly for systemic fungal infections.', objective: 'Identify systemic fungal infections as the main use of antibody detection.', pitfalls: 'The governed slide does not assign the main use to superficial or cutaneous mycoses.', rejected: [] },
+  { q: 27, conceptId: 'CON-INF-8C6B6F8D5A9C37', canonicalKey: 'microbiology.mycology.candida-opportunistic', label: 'Candida is an opportunistic fungus', aliases: ['Opportunistic Candida', 'Candida opportunistic organism'], conceptType: 'classification', article: 'mycologyDisease', microtopic: 'Opportunistic fungi', assessmentPage: 27, teachingPage: 8, stem: 'Which of the following fungi is an example of a opportunistic organism?', key: 'A', options: ['Candida', 'Aspergillus', 'Histoplasma', 'Rhizopus'], claim: 'Candida species are presented as commensals that may cause opportunistic infection under certain conditions.', support: 'The official lecture gives Candida species as the example of commensals that may cause opportunistic infections.', objective: 'Identify Candida as the offered opportunistic organism.', pitfalls: 'The assessment phrase “a opportunistic” is retained; the governed example is Candida.', rejected: [] },
+].map((item) => ({
+  idPrefix: 'MYCO2', bankQ: item.q, assessmentResourceId: absalamPart2AssessmentResourceId,
+  bankLabel: 'Mycology', answerPage: 29, teachingResourceId: mycologyResourceId,
+  teachingTitle: 'General Mycology, Chapter 7', topic: 'Microbiology', subtopic: 'General mycology',
+  primaryNode: 'DIS-MIC', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'], ...item,
+}))
+
+microItems.push(...mycologyItems)
 
 const outputs = {
   'docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md': sources(),
@@ -1859,7 +1887,7 @@ General Mycology, Chapter 7
 Misr University for Science and Technology, Faculty of Medicine, Microbiology and Immunology Departments; Prof. Dr. Amany Tharwat Abdel Rhman
 
 ## processing_status
-visually_read_pages_1_7_native_text
+fully_governed_visually_read_all_pages_native_text
 
 ## collection_id
 ${moduleId}
@@ -1893,7 +1921,7 @@ ar
 Faculty-distributed teaching material; internal curriculum authoring only.
 
 ## qualification
-Pages 1–7 were rendered and visually read for the bounded Q24 assessment; the remaining pages were not claimed as visually governed in this slice. Page 1 visibly identifies MUST, the Faculty of Medicine Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abdel Rhman. Page 6 directly states that fungi are eukaryotic organisms containing a true nucleus; page 7 contrasts eukaryotic fungi with prokaryotic bacteria and the presence versus absence of a nuclear membrane. These statements support Q24's unchanged printed C. The lecture is teaching evidence only and contains no authenticated examiner key.
+All 34 pages were rendered and visually read for the bounded Mycology Q1–Q30 authoring audit. Page 1 visibly identifies MUST, the Faculty of Medicine Microbiology and Immunology Departments and Prof. Dr. Amany Tharwat Abdel Rhman. Pages 5–16 govern terminology, structure, classification, spores, disease mechanisms, allergy and mycotoxicosis; pages 17–33 govern direct microscopy, stains, culture, antigen detection, PCR and antibody detection; pages 12 and 34 are supplied teaching quizzes. The lecture is teaching evidence only and contains no authenticated examiner key.
 
 ## confidence
 0.9
@@ -2503,7 +2531,7 @@ function corpusSourceIndex() {
         sourceRelativePath: 'Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/2.General mycology (Ch 7).pdf',
         sourceRelativePaths: ['Year 1/Semester 102/FHB 102-2/Microbiology/01 University Material/2.General mycology (Ch 7).pdf'],
         sha256: '72a4c07c4877d4b58c3f378249ec654d9a889849a1eeb71394ff18a93c330162',
-        processingStatus: 'partially_governed_pages_1_7',
+        processingStatus: 'fully_governed',
         pageCount: 34,
         languages: ['en', 'ar'],
         exclusionReason: null,
@@ -9777,6 +9805,7 @@ function microSpanId(item) { return `SPN-INF-MUST-FHB1022-${microPrefix(item)}-Q
 function microQuestionId(item) { return item.idPrefix ? `QST-MUST-FHB1022-${item.idPrefix}-Q${item.q}` : `QST-MUST-FHB1022-MICRO-INTRO-Q${item.q}` }
 function microArticleSectionId(key) { return `${microArticles[key].toLowerCase()}-definition` }
 function microTeachingResource(item) { return item.teachingResourceId ?? bacterialCellResourceId }
+function microAssessmentResource(item) { return item.assessmentResourceId ?? absalamAssessmentResourceId }
 function microTeachingTitle(item) { return item.teachingTitle ?? 'Introduction to Microbiology and Bacterial Cell Structure' }
 function microBankLabel(item) { return item.bankLabel ?? 'Microbiology' }
 function microAnswerPage(item) { return item.answerPage ?? 27 }
@@ -9826,7 +9855,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 ${microBankLabel(item)}
-source question: Absalam ${microBankLabel(item)} Q${item.bankQ} (global Q${item.q})`))
+source question: Absalam ${microBankLabel(item)} Q${item.bankQ}${item.idPrefix ? '' : ` (global Q${item.q})`}`))
 }
 
 function microCitations() {
@@ -9860,7 +9889,7 @@ ${microTeachingTitle(item)} — ${item.microtopic}
 PDF page ${item.teachingPage}, visually read direct teaching statement.
 
 ## context_note
-The official MUST teaching deck directly supports the unchanged printed global Q${item.q} answer ${item.key}; the student bank remains source-key evidence rather than an authenticated faculty key.
+The official MUST teaching deck directly supports the unchanged printed ${microBankLabel(item)} Q${item.bankQ}${item.idPrefix ? '' : ` (global Q${item.q})`} answer ${item.key}; the student bank remains source-key evidence rather than an authenticated faculty key.
 
 ## confidence
 0.95
@@ -9974,7 +10003,7 @@ ${microArticleRelations[item.article].map((key) => microArticles[key]).join('\n'
 
 ## resource_ids
 ${microTeachingResource(item)}
-${absalamAssessmentResourceId}
+${microAssessmentResource(item)}
 
 ## approved_file_resource_ids
 [clear]
@@ -10016,7 +10045,7 @@ ${group.map(microClaimId).join('\n')}
 ${item.sourceCandidates?.join('\n') ?? '[clear]'}
 
 ## exam_signal
-${group.map((entry) => `${absalamAssessmentResourceId} | tier 3 | 2025 | p${entry.assessmentPage} ${microBankLabel(entry)} Q${entry.bankQ} (global Q${entry.q}); printed answer p${microAnswerPage(entry)}`).join('\n')}
+${group.map((entry) => `${microAssessmentResource(entry)} | tier 3 | 2025 | p${entry.assessmentPage} ${microBankLabel(entry)} Q${entry.bankQ}${entry.idPrefix ? '' : ` (global Q${entry.q})`}; printed answer p${microAnswerPage(entry)}`).join('\n')}
 ${group.map((entry) => `${microTeachingResource(entry)} | tier 1 local teaching | p${entry.teachingPage} direct MUST teaching`).join('\n')}
 
 ## original_wording
@@ -10029,7 +10058,7 @@ ${group.map((entry) => `${entry.stem} Printed key ${entry.key}; options retained
 ${rejectedIds}
 
 ## conflicts
-${group.map((entry) => `No key conflict affects authored global Q${entry.q}; printed ${entry.key} agrees with the governed MUST teaching.`).join(' ')} Held questions remain outside this concept.
+${group.map((entry) => `No key conflict affects authored ${microBankLabel(entry)} Q${entry.bankQ}${entry.idPrefix ? '' : ` (global Q${entry.q})`}; printed ${entry.key} agrees with the governed MUST teaching.`).join(' ')} Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -10200,6 +10229,66 @@ Correct class and combination recognition guides spectrum and administration dec
 ### Common misconceptions
 Do not classify amoxicillin as natural or piperacillin as penicillinase resistant. Do not interchange amoxicillin-clavulanate, ampicillin-sulbactam and piperacillin-tazobactam. The held piperacillin-sulbactam source item is not taught here.`,
   },
+  mycologyFoundations: {
+    title: 'General mycology foundations', microtopic: 'Fungal form and terminology',
+    topic: 'Microbiology', subtopic: 'General mycology', primaryNode: 'DIS-MIC', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'Mycology is the study of fungi. The local teaching identifies Candida and Cryptococcus neoformans as yeasts and defines a mycelium as a mass or network of fungal hyphae.',
+    sections: `### Definition
+Mycology is the study of fungi. A mycelium is the mass or network formed by fungal hyphae.
+
+### Mechanism
+Fungal hyphae collectively form the mycelial network described in the governed teaching.
+
+### Morphological examples
+The diagnostic teaching presents Candida as Gram-positive oval budding yeast cells and Cryptococcus neoformans as oval yeast cells surrounded by an unstained capsule.
+
+### Key determinants
+Mycology names the discipline, mycelium names the hyphal mass, and both Candida and Cryptococcus neoformans satisfy the bounded yeast-example question.
+
+### Clinical significance
+These terms support recognition of basic fungal form before diagnostic methods are selected.
+
+### Common misconceptions
+Do not confuse mycelium with bacterial cells, viral structures or protozoal organelles. Do not omit one of the two directly taught yeast examples when the option field offers both.`,
+  },
+  mycologyDisease: {
+    title: 'Fungal spores, allergy, mycotoxicosis and opportunism', microtopic: 'Fungal disease mechanisms',
+    topic: 'Microbiology', subtopic: 'General mycology', primaryNode: 'DIS-MIC', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'Fungal spores support reproduction and spread and can carry respiratory allergens. Mycotoxicosis follows ingestion of fungal toxins, while Candida is presented as a commensal that may cause opportunistic infection under permissive conditions.',
+    sections: `### Definition
+Fungal spores are reproductive and dispersal structures. Mycotoxicosis is food poisoning caused by ingestion of food containing mycotoxins. Opportunistic infection may emerge when a normally commensal organism causes disease under permissive host conditions.
+
+### Mechanism
+Airborne spores promote spread and may contain allergens that trigger sinusitis, bronchial asthma and other respiratory symptoms. Candida species are the local teaching example of commensals that may cause opportunistic infection.
+
+### Key determinants
+Reproduction and spread identify the spore function; ingestion of toxins identifies mycotoxicosis; fungal spores identify the allergen-bearing component; Candida identifies the offered opportunistic organism.
+
+### Clinical significance
+Separating infection, toxin-mediated illness and allergy prevents conflating three distinct fungal disease mechanisms.
+
+### Common misconceptions
+Do not equate mycotoxicosis with direct invasion. Do not assign the governed allergic trigger to ergosterol, mycotoxin or chitin. The source grammar in Q20 and Q27 remains disclosed rather than silently repaired.`,
+  },
+  mycologyDiagnosis: {
+    title: 'Core methods for fungal laboratory diagnosis', microtopic: 'Fungal diagnostics',
+    topic: 'Microbiology', subtopic: 'General mycology', primaryNode: 'DIS-MIC', secondaryNodes: ['SYS-FND-T05-S01', 'DIS-MIC'],
+    summary: 'PCR detects fungal DNA, calcofluor white produces fluorescent blue-white fungal elements, and specific-antibody detection is used mainly for systemic fungal infections.',
+    sections: `### Definition
+The governed laboratory sequence includes direct microscopy, culture, fungal-antigen detection, nucleic-acid methods and serological assays.
+
+### Mechanism
+PCR detects fungal DNA in pathological specimens. Calcofluor white stain gives fungal elements a fluorescent blue-white appearance. Indirect detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+
+### Key determinants
+PCR maps to fungal DNA; calcofluor maps to fluorescent blue-white appearance; antibody detection maps mainly to systemic fungal diagnosis.
+
+### Clinical significance
+The tested methods distinguish a molecular target, a microscopy appearance and an indirect serological response.
+
+### Common misconceptions
+Do not substitute latex antigen detection for PCR, or assign the main antibody-detection use to superficial or cutaneous mycosis. Held stain, culture and antigen questions remain outside this article.`,
+  },
 } }
 
 function microArticleRecords() {
@@ -10208,8 +10297,9 @@ function microArticleRecords() {
     const articleItems = microItems.filter((item) => item.article === key)
     const teachingResources = [...new Set(articleItems.map(microTeachingResource))]
     const related = microArticleRelations[key].map((other) => `${microArticles[other]}: ${data[other].title}`).join('\n')
-    const bodySections = article.topic === 'Pharmacology'
-      ? `${article.sections}\n\n### Governed evidence statements\n${articleItems.map((item) => item.annotationQuote).join('\n')}`
+    const needsEvidenceStatements = article.topic === 'Pharmacology' || articleItems.some((item) => !item.annotationQuote)
+    const bodySections = needsEvidenceStatements
+      ? `${article.sections}\n\n### Governed evidence statements\n${articleItems.map((item) => item.annotationQuote ?? item.support).join('\n')}`
       : article.sections
     return `# Item
 
@@ -10323,7 +10413,7 @@ ${articleItems.map(microQuestionId).join('\n')}
 
 ## resource_ids
 ${teachingResources.join('\n')}
-${absalamAssessmentResourceId}
+${[...new Set(articleItems.map(microAssessmentResource))].join('\n')}
 
 ## article_source_ids
 ${teachingResources.join('\n')}
@@ -10338,7 +10428,7 @@ ${articleItems.map(microSpanId).join('\n')}
 must: Global Q${articleItems.map((item) => item.q).join(', Q')} retain literal student-bank wording, option order and printed keys; the official MUST deck supplies teaching support but does not authenticate the bank key.
 
 ## annotations
-${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.annotationQuote}\nBlock: body\nId: ann-must-fhb1022-micro-q${item.q}`).join('\n\n')}
+${articleItems.map((item) => `### definition_of · ${item.conceptId}\nQuote: ${item.annotationQuote ?? item.support}\nBlock: body\nId: ann-must-fhb1022-micro-q${item.q}`).join('\n\n')}
 
 ## media
 
@@ -10373,7 +10463,7 @@ lastReviewed: Draft has not completed medical review.
 reviewDue: Set after first medical review.
 publishedSummary: Draft has no student-safe published projection.
 publishedSections: Draft has no student-safe published projection.
-relatedArticles: Both listed relationships are reciprocal through standalone-complete records in this bounded import.`
+relatedArticles: The listed relationships are reciprocal through standalone-complete records in this bounded import.`
   }))
 }
 
@@ -10408,7 +10498,7 @@ Dr. Omar
 single best answer
 
 ## derived_from
-Transcribed verbatim from ${absalamAssessmentResourceId}; printed key checked against ${microTeachingResource(item)} without treating the student bank as an authenticated faculty key.
+Transcribed verbatim from ${microAssessmentResource(item)}; printed key checked against ${microTeachingResource(item)} without treating the student bank as an authenticated faculty key.
 
 ## correct_answer
 ${item.key}
@@ -10482,14 +10572,14 @@ MUST_Y1
 ${microArticles[item.article]}
 
 ## resource_ids
-${absalamAssessmentResourceId}
+${microAssessmentResource(item)}
 ${microTeachingResource(item)}
 
 ## learning_objective
 ${item.objective}
 
 ## source_citation
-Absalam101 Part 1, p${item.assessmentPage}, ${microBankLabel(item)} Q${item.bankQ} (global Q${item.q}), printed key p${microAnswerPage(item)} (${item.bankQ} = ${item.key}); official MUST ${microTeachingTitle(item)}, p${item.teachingPage}.
+Absalam101 ${item.idPrefix ? 'Part 2' : 'Part 1'}, p${item.assessmentPage}, ${microBankLabel(item)} Q${item.bankQ}${item.idPrefix ? '' : ` (global Q${item.q})`}, printed key p${microAnswerPage(item)} (${item.bankQ} = ${item.key}); official MUST ${microTeachingTitle(item)}, p${item.teachingPage}.
 
 ## attached_image
 
@@ -10507,7 +10597,7 @@ Absalam101 Part 1, p${item.assessmentPage}, ${microBankLabel(item)} Q${item.bank
 yes
 
 ## author_notes
-Printed source key: ${microBankLabel(item)} Q${item.bankQ} (global Q${item.q}) = ${item.key}. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.`
+Printed source key: ${microBankLabel(item)} Q${item.bankQ}${item.idPrefix ? '' : ` (global Q${item.q})`} = ${item.key}. Wording, options and key are preserved exactly. The bank is student-authored; the key was checked against official local teaching and was not promoted to faculty authority. This question remains Draft/local-only and is not authorised for upload.`
   }))
 }
 
@@ -10664,6 +10754,37 @@ function microCoverage() {
 - **Sandfly Q29 is held as an uncorrected direct key conflict.** The bank prints D, None of the above, while official teaching page 32 directly lists DDT, option B, for sandfly control. The printed key was neither corrected nor taught through a student-facing record.
 
 `
+  const mycologyDelta = `### Absalam Part 2 Mycology Q1–Q30 delta
+
+- The existing 56-page Absalam101 Part 2 assessment resource and existing 34-page official MUST General Mycology resource are reused; no new resource or download was created. Assessment pages 19–28, answer page 29 and all 34 teaching pages were rendered and visually read.
+- +12 verified local-curriculum claims, +12 citations and +12 article spans for Mycology Q1, Q7, Q8, Q12, Q16, Q19–Q22 and Q25–Q27.
+- +10 under-review / needs-evidence concepts. Q16/Q25 share the fungal-PCR identity and Q20/Q21 share the fungal-spore-allergy identity.
+- +3 standalone-complete reciprocal Draft articles and +12 Draft questions.
+- +18 explicit identity, authority, wording or key-conflict holds with no student-facing record: Mycology Q2–Q6, Q9–Q11, Q13–Q15, Q17, Q18, Q23, Q24 and Q28–Q30.
+- Every authored stem, option and printed key is unchanged. Q20 retains “is a causes” and Q27 retains “a opportunistic” transparently. Q30 remains held because official teaching does not support assigning bacterial-contamination inhibition to cycloheximide alone.
+- Absalam Part 2 Mycology Q1–Q30: **12 authored / 18 held / 0 unassessed**. The exact next Part 2 boundary is Virology Q1–Q30 on assessment pages 30–38.
+
+`
+  const mycologyHolds = `- **Mycology Q2 is held as an identity/dependency hold.** Printed C, They lack a true nucleus, is the clean negative-form answer, but exact raw fungal-structure identity \`concept_60605d2cc13f26f4d4e1d67a\` and the pending broad fungal chain already govern eukaryotic organisation.
+- **Mycology Q3 is held as an identity/dependency hold.** Printed B, Ergosterol, is supported but belongs to the same exact raw and pending broad fungal-structure chain.
+- **Mycology Q4 is held as an unsupported-generalization hold.** Printed B says fungi reproduce by budding and spore formation, while general teaching establishes spores and shows budding only for Candida. No general budding claim was inferred.
+- **Mycology Q5 is held as an identity/dependency hold.** Printed D, Plasmodium, is excluded by the official mold/yeast/dimorphic classification, but exact raw identity \`concept_ec1d090ce380eb51d14070d9\` already occupies the scope.
+- **Mycology Q6 is held as an identity/dependency hold.** Printed B, both yeast and filamentous forms, is supported but exact raw dimorphism identity \`concept_0931b39113de00d4b6e3a247\` already occupies the scope.
+- **Mycology Q9 is held as an authority/wording hold.** The bank says disease occurs “only” in immunocompromised individuals; teaching describes opportunistic infection under certain conditions and does not support that absolute qualifier.
+- **Mycology Q10 is held as an identity/dependency hold.** Printed C, Histoplasma capsulatum, is the official example but belongs to the existing exact raw dimorphism identity.
+- **Mycology Q11 is held as an unsupported-precision hold.** The lecture lists mycosis categories but does not define superficial mycosis by the bank's skin, hair and nail wording.
+- **Mycology Q13 is held as an identity/dependency hold.** India ink demonstration of the Cryptococcus capsule is supported, but the exact raw diagnostic identity already exists.
+- **Mycology Q14 is held as an identity/dependency hold.** KOH digestion of keratin is supported, but a governed cross-university fungal-diagnosis chain already occupies the exact identity.
+- **Mycology Q15 is held as an identity/dependency hold.** Sabouraud dextrose agar for fungal isolation is supported but already governed by the exact cross-university Sabouraud chain.
+- **Mycology Q17 is held as an identity/dependency hold.** Printed A, It stains fungal cells black, is supported, but the exact raw GMS/silver-stain identity already exists.
+- **Mycology Q18 is held as an identity/dependency hold.** Latex agglutination detection of fungal antigen in CSF is supported, but the existing raw fungal-antigen diagnostic chain occupies the identity.
+- **Mycology Q23 is held as an identity/dependency hold.** Sabouraud selectivity is the same existing Sabouraud identity that holds Q15.
+- **Mycology Q24 is held as an identity/dependency hold.** Latex agglutination detection of fungal antigens is the same existing identity that holds Q18.
+- **Mycology Q28 is held as an identity/dependency hold.** Printed B, structural component of the cell wall, is supported but already belongs to exact raw fungal-structure identity \`concept_60605d2cc13f26f4d4e1d67a\` and its broad pending chain.
+- **Mycology Q29 is held as an identity/dependency hold.** Printed C, Viral, is excluded by the official mycosis categories, but exact raw identity \`concept_e01cc670b0ccd38700d65d86\` already occupies the scope.
+- **Mycology Q30 is held as an uncorrected authority/key conflict.** The bank prints B, Inhibits bacterial contamination. Official page 30 attributes bacterial-contamination minimisation and saprophytic-fungus suppression to the combined addition of chloramphenicol and cycloheximide and does not assign the bacterial effect to cycloheximide alone. The printed key was neither corrected nor promoted.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -10703,7 +10824,14 @@ function microCoverage() {
     .replace('| Articles | 30 |', '| Articles | 33 |')
     .replace('| Questions | 98 |', '| Questions | 117 |')
     .replace('| Question authoring holds | 113 |', '| Question authoring holds | 124 |')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}`)
+    .replace('| Claims | 117 |', '| Claims | 129 |')
+    .replace('| Citations | 122 |', '| Citations | 134 |')
+    .replace('| Article spans | 117 |', '| Article spans | 129 |')
+    .replace('| Concepts | 103 |', '| Concepts | 113 |')
+    .replace('| Articles | 33 |', '| Articles | 36 |')
+    .replace('| Questions | 117 |', '| Questions | 129 |')
+    .replace('| Question authoring holds | 124 |', '| Question authoring holds | 142 |')
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -10714,25 +10842,31 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 76 clean source-keyed prompts authored; **5,135 raw answer observations remain**, including the 105 held printed-key observations', 'Governed answer observations: 5,211 total; 98 clean source-keyed prompts authored; **5,113 raw answer observations remain**, including the 113 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 98 authored; **5,346 raw prompt observations remain**, including 113 explicit holds', 'Governed prompt observations: 5,444 total; 117 authored; **5,327 raw prompt observations remain**, including 124 explicit holds')
     .replace('Governed answer observations: 5,211 total; 98 clean source-keyed prompts authored; **5,113 raw answer observations remain**, including the 113 held printed-key observations', 'Governed answer observations: 5,211 total; 117 clean source-keyed prompts authored; **5,094 raw answer observations remain**, including the 124 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 117 authored; **5,327 raw prompt observations remain**, including 124 explicit holds', 'Governed prompt observations: 5,444 total; 129 authored; **5,315 raw prompt observations remain**, including 142 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 117 clean source-keyed prompts authored; **5,094 raw answer observations remain**, including the 124 held printed-key observations', 'Governed answer observations: 5,211 total; 129 clean source-keyed prompts authored; **5,082 raw answer observations remain**, including the 142 held printed-key observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
     .replace('Record-level backlog is not asserted as 5,387 unique records', 'Record-level backlog is not asserted as 5,368 unique records')
     .replace('Record-level backlog is not asserted as 5,368 unique records', 'Record-level backlog is not asserted as 5,346 unique records')
     .replace('Record-level backlog is not asserted as 5,346 unique records', 'Record-level backlog is not asserted as 5,327 unique records')
+    .replace('Record-level backlog is not asserted as 5,327 unique records', 'Record-level backlog is not asserted as 5,315 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
     .replace('All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts', 'All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts')
     .replace('All twenty-seven student-facing articles and all seventy-six questions remain Draft; all sixty-nine concepts', 'All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts')
     .replace('All thirty student-facing articles and all ninety-eight questions remain Draft; all eighty-nine concepts', 'All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts')
+    .replace('All thirty-three student-facing articles and all one hundred seventeen questions remain Draft; all one hundred three concepts', 'All thirty-six student-facing articles and all one hundred twenty-nine questions remain Draft; all one hundred thirteen concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 105 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 113 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
+    .replace('All 124 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 142 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
     .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.')
+    .replace('global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 and Sandfly Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Mycology Q1–Q30 on pages 19–29.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes, Sandfly and Mycology Q1–Q30 are fully dispositioned. The exact next boundary is Part 2 Virology Q1–Q30 on pages 30–38.')
 }

@@ -133,7 +133,7 @@ Which of the following is NOT considered a microorganism? Printed key D; options
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q62; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q2 (global Q62); printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -314,7 +314,7 @@ What is the main function of saprophytes? Printed key B; options retained in the
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q63; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q3 (global Q63); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -495,7 +495,7 @@ In the scientific nomenclature, which part of the name is capitalized? Printed k
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q64; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q4 (global Q64); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -681,7 +681,7 @@ CON-INF-1165F8B9564697
 CON-INF-29351FD540E214
 
 ## conflicts
-No key conflict affects authored global Q65; printed C agrees with the governed MUST teaching. No key conflict affects authored global Q66; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q5 (global Q65); printed C agrees with the governed MUST teaching. No key conflict affects authored Microbiology Q6 (global Q66); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -863,7 +863,7 @@ CON-FND-54F59770FE61B9
 concept_a4992569b1751dff3ed9ded3
 
 ## conflicts
-No key conflict affects authored global Q67; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q7 (global Q67); printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -1044,7 +1044,7 @@ The Gram stain differentiates bacteria based on: Printed key B; options retained
 concept_0678baa786a55cfe68dc9d7f
 
 ## conflicts
-No key conflict affects authored global Q85; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q25 (global Q85); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -1225,7 +1225,7 @@ The new system of classification is based on: Printed key A; options retained in
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q88; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q28 (global Q88); printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -1406,7 +1406,7 @@ Which of the following is the primary target of antibiotics like penicillin? Pri
 concept_2ea5d75f7d95e485adc3d8ef
 
 ## conflicts
-No key conflict affects authored global Q90; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Q30 (global Q90); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -1587,7 +1587,7 @@ What is the term for a microorganism that normally does not cause disease but ca
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q94; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q4 (global Q94); printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -1768,7 +1768,7 @@ Which factor can lead to harmful effects of normal flora? Printed key D; options
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q95; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q5 (global Q95); printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -1949,7 +1949,7 @@ What is the term for the presence of microbes on a host without causing disease?
 concept_25930191933ec8ce06dbcc36
 
 ## conflicts
-No key conflict affects authored global Q99; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q9 (global Q99); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -2130,7 +2130,7 @@ The carrier state refers to: Printed key A; options retained in their original o
 concept_4c87e58ab0ec70b18fc6482e
 
 ## conflicts
-No key conflict affects authored global Q102; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q12 (global Q102); printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -2311,7 +2311,7 @@ Virulence is: Printed key A; options retained in their original order.
 concept_392ea19120acaefcbc4900f1
 
 ## conflicts
-No key conflict affects authored global Q104; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q14 (global Q104); printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -2492,7 +2492,7 @@ Which of the following is NOT a bacterial virulence factor? Printed key C; optio
 concept_b346ddd4b96640338b4ed62b
 
 ## conflicts
-No key conflict affects authored global Q105; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q15 (global Q105); printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -2674,7 +2674,7 @@ concept_011a8b112c2e6d90b35b02dd
 concept_e56d865081d328eda954a6dc
 
 ## conflicts
-No key conflict affects authored global Q110; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q20 (global Q110); printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -2857,7 +2857,7 @@ concept_968ea0ffa6916e64f08e13f2
 concept_dd998ed010a69462c6739f01
 
 ## conflicts
-No key conflict affects authored global Q115; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q25 (global Q115); printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -3038,7 +3038,7 @@ Bacteria obtain iron in the host using: Printed key B; options retained in their
 concept_ef140fbdea83f0ad8f632b5e
 
 ## conflicts
-No key conflict affects authored global Q116; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q26 (global Q116); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -3219,7 +3219,7 @@ Which bacterial enzyme converts fibrinogen into fibrin to protect bacteria from 
 concept_7e50394238ac7cb476935db2
 
 ## conflicts
-No key conflict affects authored global Q117; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Microbiology Chapter 6 Q27 (global Q117); printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -3387,8 +3387,8 @@ CLM-INF-MUST-FHB1022-PHARM-Q149-01
 concept_94077f144bd452aeaa123adf
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38 Pharmacology Q6 (global Q126); printed answer p45
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p44 Pharmacology Q29 (global Q149); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38 Pharmacology Q6; printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p44 Pharmacology Q29; printed answer p45
 src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p30 direct MUST teaching
 src_875c205531a585cd5b91 | tier 1 local teaching | p6, 8 direct MUST teaching
 
@@ -3404,7 +3404,7 @@ concept_94077f144bd452aeaa123adf
 concept_94077f144bd452aeaa123adf
 
 ## conflicts
-No key conflict affects authored global Q126; printed D agrees with the governed MUST teaching. No key conflict affects authored global Q149; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q6; printed D agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q29; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -3571,7 +3571,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q127-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38 Pharmacology Q7 (global Q127); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38 Pharmacology Q7; printed answer p45
 src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p31 direct MUST teaching
 
 ## original_wording
@@ -3584,7 +3584,7 @@ What is the function of Penicillin-Binding Proteins (PBPs)? Printed key B; optio
 concept_2ea5d75f7d95e485adc3d8ef
 
 ## conflicts
-No key conflict affects authored global Q127; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q7; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -3751,7 +3751,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q128-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38–39 Pharmacology Q8 (global Q128); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p38–39 Pharmacology Q8; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p6 direct MUST teaching
 
 ## original_wording
@@ -3764,7 +3764,7 @@ Which of the following drugs is NOT a beta-lactam? Printed key C; options retain
 concept_1add06a78a1c70b54159a262
 
 ## conflicts
-No key conflict affects authored global Q128; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q8; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -3931,7 +3931,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q129-01
 concept_2702d2a68f2fa4a8f84067f4
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q9 (global Q129); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q9; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p33 direct MUST teaching
 
 ## original_wording
@@ -3944,7 +3944,7 @@ Why are beta-lactamase inhibitors combined with some penicillins? Printed key B;
 concept_2702d2a68f2fa4a8f84067f4
 
 ## conflicts
-No key conflict affects authored global Q129; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q9; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -4111,7 +4111,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q130-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q10 (global Q130); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q10; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
 
 ## original_wording
@@ -4124,7 +4124,7 @@ Which of the following is a natural penicillin? Printed key C; options retained 
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q130; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q10; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -4291,7 +4291,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q131-01
 concept_37b12448aaf7607dcef25f69
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q11 (global Q131); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39 Pharmacology Q11; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p22 direct MUST teaching
 
 ## original_wording
@@ -4304,7 +4304,7 @@ What is the main use of benzathine penicillin? Printed key C; options retained i
 concept_37b12448aaf7607dcef25f69
 
 ## conflicts
-No key conflict affects authored global Q131; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q11; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -4473,9 +4473,9 @@ CLM-INF-MUST-FHB1022-PHARM-Q146-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39–40 Pharmacology Q12 (global Q132); printed answer p45
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p42 Pharmacology Q22 (global Q142); printed answer p45
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p43 Pharmacology Q26 (global Q146); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p39–40 Pharmacology Q12; printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p42 Pharmacology Q22; printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p43 Pharmacology Q26; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
 src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
 src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
@@ -4492,7 +4492,7 @@ Which penicillin is used primarily for Staphylococcus aureus infections? Printed
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q132; printed B agrees with the governed MUST teaching. No key conflict affects authored global Q142; printed D agrees with the governed MUST teaching. No key conflict affects authored global Q146; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q12; printed B agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q22; printed D agrees with the governed MUST teaching. No key conflict affects authored Pharmacology Q26; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -4659,7 +4659,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q133-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q13 (global Q133); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q13; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
 
 ## original_wording
@@ -4672,7 +4672,7 @@ Amoxicillin belongs to which group of penicillins? Printed key B; options retain
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q133; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q13; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -4839,7 +4839,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q134-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q14 (global Q134); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q14; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
 
 ## original_wording
@@ -4852,7 +4852,7 @@ Piperacillin belongs to which category of penicillins? Printed key A; options re
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q134; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q14; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -5019,7 +5019,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q135-01
 concept_550a06f2f8cdb1283f34bc9b
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q15 (global Q135); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40 Pharmacology Q15; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p33 direct MUST teaching
 
 ## original_wording
@@ -5032,7 +5032,7 @@ Which beta-lactamase inhibitor is commonly combined with amoxicillin? Printed ke
 concept_550a06f2f8cdb1283f34bc9b
 
 ## conflicts
-No key conflict affects authored global Q135; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q15; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -5199,7 +5199,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q136-01
 concept_ac6dc41e45d23db7b00bcdc0
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40–41 Pharmacology Q16 (global Q136); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p40–41 Pharmacology Q16; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p33 direct MUST teaching
 
 ## original_wording
@@ -5212,7 +5212,7 @@ Unasyn is a combination of: Printed key C; options retained in their original or
 concept_ac6dc41e45d23db7b00bcdc0
 
 ## conflicts
-No key conflict affects authored global Q136; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q16; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -5379,7 +5379,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q137-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q17 (global Q137); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q17; printed answer p45
 src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p32 direct MUST teaching
 
 ## original_wording
@@ -5392,7 +5392,7 @@ Which antibiotic binds to the D-alanyl-D-alanyl portion of peptidoglycan precurs
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q137; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q17; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -5559,7 +5559,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q138-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q18 (global Q138); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q18; printed answer p45
 src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p32 direct MUST teaching
 
 ## original_wording
@@ -5572,7 +5572,7 @@ Bacitracin works by: Printed key C; options retained in their original order.
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q138; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q18; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -5739,7 +5739,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q139-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q19 (global Q139); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p41 Pharmacology Q19; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p23 direct MUST teaching
 
 ## original_wording
@@ -5752,7 +5752,7 @@ A major adverse effect of penicillins is: Printed key C; options retained in the
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q139; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q19; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -5919,7 +5919,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q147-01
 [clear]
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p43–44 Pharmacology Q27 (global Q147); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p43–44 Pharmacology Q27; printed answer p45
 src_875c205531a585cd5b91 | tier 1 local teaching | p12 direct MUST teaching
 
 ## original_wording
@@ -5932,7 +5932,7 @@ Which penicillin is the most effective against Pseudomonas aeruginosa? Printed k
 [clear]
 
 ## conflicts
-No key conflict affects authored global Q147; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q27; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -6099,7 +6099,7 @@ CLM-INF-MUST-FHB1022-PHARM-Q150-01
 concept_b63d87129941d4e1074248e5
 
 ## exam_signal
-src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p44 Pharmacology Q30 (global Q150); printed answer p45
+src_4bd3b78f762673d7eb7f | tier 3 | 2025 | p44 Pharmacology Q30; printed answer p45
 src_ee1fb7a716a473eb2d98 | tier 1 local teaching | p30 direct MUST teaching
 
 ## original_wording
@@ -6112,7 +6112,7 @@ Which of the following is a time-dependent killer? Printed key A; options retain
 concept_b63d87129941d4e1074248e5
 
 ## conflicts
-No key conflict affects authored global Q150; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+No key conflict affects authored Pharmacology Q30; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
@@ -6154,6 +6154,1834 @@ approvedVideoResourceIds: No video source was supplied.
 resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
 sourceCandidateIds: Raw candidate concept_b63d87129941d4e1074248e5 was retained as provenance but did not replace this narrower governed identity.
 rejectedMergeCandidateIds: concept_b63d87129941d4e1074248e5 — exact raw extraction retained as lineage but not imported as a governed concept.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-B5C54985E6FD64
+
+## label
+Mycology is the study of fungi
+
+## canonical_key
+microbiology.mycology.study-of-fungi
+
+## aliases
+Mycology definition
+Study of fungi
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mycology is the study of fungi.
+
+## explicit_objective
+Define mycology as the study of fungi.
+
+## pitfalls
+Bacteriology, virology and parasitology concern different organism groups.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Mycology definition
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Mycology definition
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q1-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p19 Mycology Q1; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p5 direct MUST teaching
+
+## original_wording
+What is the study of fungi called? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q1; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-3CCC561E727F2C
+
+## label
+Candida and Cryptococcus neoformans are yeasts
+
+## canonical_key
+microbiology.mycology.yeast-examples-candida-cryptococcus
+
+## aliases
+Yeast examples
+Candida and Cryptococcus yeasts
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching.
+
+## explicit_objective
+Recognise both Candida and Cryptococcus neoformans as the offered yeast examples.
+
+## pitfalls
+Both A and B are directly supported, so selecting only one is incomplete.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Yeasts
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Yeasts
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q7-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p21 Mycology Q7; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p23–24 direct MUST teaching
+
+## original_wording
+Which of the following is an example of a yeast? Printed key D; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q7; printed D agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-5B5A0738DEDA61
+
+## label
+Mycelium is a mass of fungal hyphae
+
+## canonical_key
+microbiology.mycology.mycelium-mass-of-hyphae
+
+## aliases
+Mycelium definition
+Fungal hyphal network
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A mycelium is the mass or network of fungal hyphae.
+
+## explicit_objective
+Define mycelium as a fungal hyphal network.
+
+## pitfalls
+Mycelium is neither bacterial, viral nor protozoal.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Filamentous fungi
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Filamentous fungi
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p21 Mycology Q8; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p10 direct MUST teaching
+
+## original_wording
+What is a mycelium? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q8; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-81364DB3512B06
+
+## label
+Mycotoxicosis follows ingestion of fungal toxins
+
+## canonical_key
+microbiology.mycology.mycotoxicosis-ingested-toxins
+
+## aliases
+Mycotoxicosis cause
+Foodborne mycotoxin poisoning
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins.
+
+## explicit_objective
+Identify ingestion of fungal toxins as the cause of mycotoxicosis.
+
+## pitfalls
+Mycotoxicosis is toxin ingestion rather than direct fungal infection, spore inhalation or cell-wall contact.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Mycotoxicosis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Mycotoxicosis
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q12-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p22 Mycology Q12; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p16 direct MUST teaching
+
+## original_wording
+Mycotoxicosis is caused by: Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_e9eba6e391eacc33f2878d44
+
+## conflicts
+No key conflict affects authored Mycology Q12; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_e9eba6e391eacc33f2878d44 — broader raw fungal-disease taxonomy does not state the ingestion mechanism tested here.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-13FD22A18D7B3F
+
+## label
+PCR detects fungal DNA in pathological specimens
+
+## canonical_key
+microbiology.mycology.pcr-detects-fungal-dna
+
+## aliases
+Fungal PCR
+Fungal DNA detection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+PCR detects fungal DNA in pathological specimens. PCR is used to detect fungal DNA.
+
+## explicit_objective
+Identify PCR as the fungal-DNA detection method. Select fungal DNA as the PCR target in this local mycology question.
+
+## pitfalls
+Latex agglutination detects antigen, while Gram and India ink are microscopy methods. The governed PCR target is not viral lipid, bacterial protein or parasitic carbohydrate.
+
+## concept_type
+diagnostic principle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Molecular diagnosis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Molecular diagnosis
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q16-01
+CLM-INF-MUST-FHB1022-MYCO2-Q25-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p24 Mycology Q16; printed answer p29
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p27 Mycology Q25; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p32 direct MUST teaching
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p32 direct MUST teaching
+
+## original_wording
+Which fungal detection method identifies fungal DNA in pathological specimens? Printed key B; options retained in their original order.
+PCR is used to detect: Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q16; printed B agrees with the governed MUST teaching. No key conflict affects authored Mycology Q25; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-36FB4AD4FE6CA9
+
+## label
+Fungal spores support reproduction and spread
+
+## canonical_key
+microbiology.mycology.spores-reproduction-spread
+
+## aliases
+Fungal spore role
+Fungal reproduction and dispersal
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Fungal spores support fungal reproduction and spread.
+
+## explicit_objective
+Identify reproduction and spread as the main role of fungal spores.
+
+## pitfalls
+The governed role is not nutrition, toxin production or immune avoidance.
+
+## concept_type
+function
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Fungal spores
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal spores
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q19-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p25 Mycology Q19; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p13 direct MUST teaching
+
+## original_wording
+What is the main role of fungal spores? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+concept_a71ce81c16fd7cb1209d1ed9
+
+## conflicts
+No key conflict affects authored Mycology Q19; printed B agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: concept_a71ce81c16fd7cb1209d1ed9 — raw sexual-spore and asexual-conidia classification is broader than the direct reproduction-and-spread function tested here.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-104E48053D1466
+
+## label
+Airborne fungal spores can trigger respiratory illness and allergy
+
+## canonical_key
+microbiology.mycology.spore-allergens-respiratory-illness
+
+## aliases
+Fungal spore allergens
+Fungal respiratory allergy
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma. Fungal spores contain allergens that can trigger allergic respiratory reactions.
+
+## explicit_objective
+Identify fungal spores as the offered cause of these respiratory illnesses. Identify fungal spores as the allergen-bearing component in the governed teaching.
+
+## pitfalls
+The assessment grammar is retained; the governed cause is fungal spores, not hyphae, fungal toxins or bacterial spores. The governed slide assigns the allergic trigger to spores rather than ergosterol, mycotoxins or chitin.
+
+## concept_type
+clinical association
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Fungal allergy
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Fungal allergy
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q20-01
+CLM-INF-MUST-FHB1022-MYCO2-Q21-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p25 Mycology Q20; printed answer p29
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p25 Mycology Q21; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p13, 15 direct MUST teaching
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p15 direct MUST teaching
+
+## original_wording
+Which of the following is a causes of respiratory illness like sinusitis and bronchial asthma? Printed key B; options retained in their original order.
+Which fungal component is responsible for allergic reactions? Printed key C; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q20; printed B agrees with the governed MUST teaching. No key conflict affects authored Mycology Q21; printed C agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-0BF98D81026D99
+
+## label
+Calcofluor white gives fungi a fluorescent blue-white appearance
+
+## canonical_key
+microbiology.mycology.calcofluor-blue-white
+
+## aliases
+Calcofluor white stain
+Fluorescent blue-white fungi
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Calcofluor white stain gives fungi a fluorescent blue-white appearance.
+
+## explicit_objective
+Recognise the fluorescent blue-white appearance produced by calcofluor white.
+
+## pitfalls
+Red, green and yellow are not the appearance stated by the governed lecture.
+
+## concept_type
+diagnostic principle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Special stains
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Special stains
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q22-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p26 Mycology Q22; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p25–26 direct MUST teaching
+
+## original_wording
+Calcofluor white stain gives fungi a: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q22; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-F893330EC83CAC
+
+## label
+Antibody detection mainly supports systemic fungal diagnosis
+
+## canonical_key
+microbiology.mycology.antibody-systemic-infection
+
+## aliases
+Fungal antibody detection
+Systemic mycosis serology
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+
+## explicit_objective
+Identify systemic fungal infections as the main use of antibody detection.
+
+## pitfalls
+The governed slide does not assign the main use to superficial or cutaneous mycoses.
+
+## concept_type
+diagnostic principle
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Indirect diagnosis
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Indirect diagnosis
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p27 Mycology Q26; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p33 direct MUST teaching
+
+## original_wording
+Antibody detection is useful for diagnosing: Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q26; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.
+
+---
+
+# Item
+
+## id
+CON-INF-8C6B6F8D5A9C37
+
+## label
+Candida is an opportunistic fungus
+
+## canonical_key
+microbiology.mycology.candida-opportunistic
+
+## aliases
+Opportunistic Candida
+Candida opportunistic organism
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Candida species are presented as commensals that may cause opportunistic infection under certain conditions.
+
+## explicit_objective
+Identify Candida as the offered opportunistic organism.
+
+## pitfalls
+The assessment phrase “a opportunistic” is retained; the governed example is Candida.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-MIC
+
+## secondary_node_ids
+SYS-FND-T05-S01
+DIS-MIC
+
+## topic
+Microbiology
+
+## subtopic
+General mycology
+
+## microtopic
+Opportunistic fungi
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Microbiology > General mycology > Opportunistic fungi
+
+## article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS
+ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_72a4c07c4877d4b58c3f
+src_8bd3b772b3b32db59726
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.55
+
+## confidence
+0.95
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_8bd3b772b3b32db59726 | tier 3 | 2025 | p27 Mycology Q27; printed answer p29
+src_72a4c07c4877d4b58c3f | tier 1 local teaching | p8 direct MUST teaching
+
+## original_wording
+Which of the following fungi is an example of a opportunistic organism? Printed key A; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mycology Q27; printed A agrees with the governed MUST teaching. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to direct local teaching and does not promote the student-authored answer table to faculty-key authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Microbiology node exists.
+microtopicId: The reviewed taxonomy stops at the selected Microbiology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live-and-pending search gate returned no exact record for this concept.
+rejectedMergeCandidateIds: No exact live, pending or raw-corpus identity survived the manual search gate.
 lastReviewed: New under-review record; no medical reviewer has completed review.
 reviewDue: Set after first medical review.
 relationships: Related reading is restricted to the two complete reciprocal Draft articles in this bounded batch; rejected external near-misses are not dependencies.

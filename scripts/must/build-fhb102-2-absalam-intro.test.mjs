@@ -100,8 +100,8 @@ test('the approved Absalam introduction, Arthropoda, Mosquitoes and Sandfly slic
   assert.match(sources, /## id\nsrc_4bd3b78f762673d7eb7f/)
   assert.match(sources, /## id\nsrc_f65b3872022ca0b42a79/)
   assert.match(vectorSources, /## id\nsrc_2c1e04372fbb8b2607f7/)
-  assert.match(coverage, /\| Questions \| 117 \| Draft \|/)
-  assert.match(coverage, /\| Question authoring holds \| 124 \| no student-facing record authored \|/)
+  assert.match(coverage, /\| Questions \| 129 \| Draft \|/)
+  assert.match(coverage, /\| Question authoring holds \| 142 \| no student-facing record authored \|/)
   assert.match(coverage, /First 15-prompt Absalam introduction slice: \*\*7 authored \/ 8 held \/ 0 unassessed\*\*/)
   assert.match(coverage, /Second 15-prompt Absalam introduction slice: \*\*7 authored \/ 8 held \/ 0 unassessed\*\*/)
   assert.match(coverage, /Absalam Parasitology Introduction Q1–Q30: \*\*14 authored \/ 16 held \/ 0 unassessed\*\*/)
@@ -161,12 +161,12 @@ test('global Q61-Q75 emits only the six approved microbiology Draft questions an
   const teachingSource = read('docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md')
   const coverage = read('docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md')
 
-  assert.equal(items(questions).length, 38)
-  assert.equal(items(articles).length, 6)
-  assert.equal(items(concepts).length, 34)
-  assert.equal(items(claims).length, 38)
-  assert.equal(items(citations).length, 38)
-  assert.equal(items(spans).length, 38)
+  assert.equal(items(questions).length, 50)
+  assert.equal(items(articles).length, 9)
+  assert.equal(items(concepts).length, 44)
+  assert.equal(items(claims).length, 50)
+  assert.equal(items(citations).length, 50)
+  assert.equal(items(spans).length, 50)
 
   const expectedQuestions = [
     ['Q62', 'Which of the following is NOT considered a microorganism?', 'D', 'Bacteria', 'Viruses', 'Protozoa', 'Plants'],
@@ -190,10 +190,10 @@ test('global Q61-Q75 emits only the six approved microbiology Draft questions an
     assert.doesNotMatch(questions, new RegExp(`MICRO-INTRO-${held}\\b`))
   }
 
-  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 38)
-  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 6)
-  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 34)
-  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 34)
+  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 50)
+  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 9)
+  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 44)
+  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 44)
   assert.equal((questions.match(/^## main_concept\nCON-INF-98A3DF2E20880C$/gm) || []).length, 2)
 
   assert.match(articles, /## id\nART-INF-MUST-FHB1022-MICROBIOLOGY-FOUNDATIONS[\s\S]*## related_articles\nART-INF-MUST-FHB1022-MICROBIAL-CELL-ORGANISATION:/)
@@ -203,13 +203,13 @@ test('global Q61-Q75 emits only the six approved microbiology Draft questions an
 
   assert.match(coverage, /First Absalam Microbiology Ch1-3 slice, global Q61–Q75: \*\*6 authored \/ 9 held \/ 0 unassessed\*\*/)
   assert.match(coverage, /Absalam source global Q1–Q75: \*\*36 authored \/ 39 held \/ 0 unassessed\*\*/)
-  assert.match(coverage, /\| Claims \| 117 \|/)
-  assert.match(coverage, /\| Citations \| 122 \|/)
-  assert.match(coverage, /\| Article spans \| 117 \|/)
-  assert.match(coverage, /\| Concepts \| 103 \|/)
-  assert.match(coverage, /\| Articles \| 33 \|/)
-  assert.match(coverage, /\| Questions \| 117 \| Draft \|/)
-  assert.match(coverage, /\| Question authoring holds \| 124 \| no student-facing record authored \|/)
+  assert.match(coverage, /\| Claims \| 129 \|/)
+  assert.match(coverage, /\| Citations \| 134 \|/)
+  assert.match(coverage, /\| Article spans \| 129 \|/)
+  assert.match(coverage, /\| Concepts \| 113 \|/)
+  assert.match(coverage, /\| Articles \| 36 \|/)
+  assert.match(coverage, /\| Questions \| 129 \| Draft \|/)
+  assert.match(coverage, /\| Question authoring holds \| 142 \| no student-facing record authored \|/)
   assert.match(coverage, /Q61 is held in the Absalam Microbiology Ch1-3 family.*does not state the keyed option's added “and their effects” wording/s)
   assert.match(coverage, /Q75 is held in the Absalam Microbiology Ch1-3 family.*does not mention radiation/s)
 })
@@ -227,12 +227,12 @@ test('global Q76-Q90 emits only Q85, Q88 and Q90 and preserves all twelve holds'
   const teachingSource = read('docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md')
   const coverage = read('docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md')
 
-  assert.equal(items(questions).length, 38)
-  assert.equal(items(articles).length, 6)
-  assert.equal(items(concepts).length, 34)
-  assert.equal(items(claims).length, 38)
-  assert.equal(items(citations).length, 38)
-  assert.equal(items(spans).length, 38)
+  assert.equal(items(questions).length, 50)
+  assert.equal(items(articles).length, 9)
+  assert.equal(items(concepts).length, 44)
+  assert.equal(items(claims).length, 50)
+  assert.equal(items(citations).length, 50)
+  assert.equal(items(spans).length, 50)
 
   const expectedQuestions = [
     ['Q85', 'The Gram stain differentiates bacteria based on:', 'B', 'Capsule composition', 'Cell wall structure', 'Nucleoid shape', 'Growth pattern'],
@@ -253,22 +253,22 @@ test('global Q76-Q90 emits only Q85, Q88 and Q90 and preserves all twelve holds'
     assert.doesNotMatch(questions, new RegExp(`MICRO-INTRO-${held}\\b`))
   }
 
-  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 38)
-  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 6)
-  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 34)
-  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 34)
+  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 50)
+  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 9)
+  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 44)
+  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 44)
   assert.match(assessmentSource, /Pages 23–27 were rendered and visually read for global Q76–Q90/)
   assert.match(teachingSource, /Pages 24, 28, 30, 32–36 and 38 were rendered and visually read for global Q76–Q90/)
 
   assert.match(coverage, /Second Absalam Microbiology Ch1-3 slice, global Q76–Q90: \*\*3 authored \/ 12 held \/ 0 unassessed\*\*/)
   assert.match(coverage, /Absalam source global Q1–Q90: \*\*39 authored \/ 51 held \/ 0 unassessed\*\*/)
-  assert.match(coverage, /\| Claims \| 117 \|/)
-  assert.match(coverage, /\| Citations \| 122 \|/)
-  assert.match(coverage, /\| Article spans \| 117 \|/)
-  assert.match(coverage, /\| Concepts \| 103 \|/)
-  assert.match(coverage, /\| Articles \| 33 \|/)
-  assert.match(coverage, /\| Questions \| 117 \| Draft \|/)
-  assert.match(coverage, /\| Question authoring holds \| 124 \| no student-facing record authored \|/)
+  assert.match(coverage, /\| Claims \| 129 \|/)
+  assert.match(coverage, /\| Citations \| 134 \|/)
+  assert.match(coverage, /\| Article spans \| 129 \|/)
+  assert.match(coverage, /\| Concepts \| 113 \|/)
+  assert.match(coverage, /\| Articles \| 36 \|/)
+  assert.match(coverage, /\| Questions \| 129 \| Draft \|/)
+  assert.match(coverage, /\| Question authoring holds \| 142 \| no student-facing record authored \|/)
   assert.match(coverage, /Q78 is held in the Absalam Microbiology Ch1-3 family.*both peptidoglycan and hydrolytic enzymes/s)
   assert.match(coverage, /Q84 is held in the Absalam Microbiology Ch1-3 family.*both adherence and nutrient storage/s)
   assert.match(coverage, /global Q1–Q150 are fully dispositioned/)
@@ -287,12 +287,12 @@ test('global Q91-Q120 emits only the ten approved Chapter 6 Draft questions and 
   const sourceIndex = JSON.parse(read('docs/MUST-Source-Imports/evidence/corpus-source-index.json'))
   const coverage = read('docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md')
 
-  assert.equal(items(questions).length, 38)
-  assert.equal(items(articles).length, 6)
-  assert.equal(items(concepts).length, 34)
-  assert.equal(items(claims).length, 38)
-  assert.equal(items(citations).length, 38)
-  assert.equal(items(spans).length, 38)
+  assert.equal(items(questions).length, 50)
+  assert.equal(items(articles).length, 9)
+  assert.equal(items(concepts).length, 44)
+  assert.equal(items(claims).length, 50)
+  assert.equal(items(citations).length, 50)
+  assert.equal(items(spans).length, 50)
 
   const expectedQuestions = [
     ['Q94', 'What is the term for a microorganism that normally does not cause disease but can do so under certain conditions?', 'A', 'Opportunistic pathogen', 'Obligate pathogen', 'Commensal microbe', 'Parasitic microbe'],
@@ -320,10 +320,10 @@ test('global Q91-Q120 emits only the ten approved Chapter 6 Draft questions and 
     assert.doesNotMatch(questions, new RegExp(`MICRO-INTRO-${held}\\b`))
   }
 
-  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 38)
-  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 6)
-  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 34)
-  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 34)
+  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 50)
+  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 9)
+  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 44)
+  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 44)
   assert.match(articles, /## id\nART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE[\s\S]*## related_articles\nART-INF-MUST-FHB1022-VIRULENCE-EVASION:/)
   assert.match(articles, /## id\nART-INF-MUST-FHB1022-VIRULENCE-EVASION[\s\S]*## related_articles\nART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE:/)
   assert.match(sources, /## id\nsrc_e4b2f7ce3e55fad37c9a/)
@@ -333,13 +333,13 @@ test('global Q91-Q120 emits only the ten approved Chapter 6 Draft questions and 
   assert.match(coverage, /Absalam source global Q1–Q120: \*\*49 authored \/ 71 held \/ 0 unassessed\*\*/)
   assert.match(coverage, /Q100 is held in the Absalam Microbiology Chapter 6 family as an uncorrected teaching conflict/)
   assert.match(coverage, /Q111 is held in the Absalam Microbiology Chapter 6 family as an authority\/wording conflict/)
-  assert.match(coverage, /\| Claims \| 117 \|/)
-  assert.match(coverage, /\| Citations \| 122 \|/)
-  assert.match(coverage, /\| Article spans \| 117 \|/)
-  assert.match(coverage, /\| Concepts \| 103 \|/)
-  assert.match(coverage, /\| Articles \| 33 \|/)
-  assert.match(coverage, /\| Questions \| 117 \| Draft \|/)
-  assert.match(coverage, /\| Question authoring holds \| 124 \| no student-facing record authored \|/)
+  assert.match(coverage, /\| Claims \| 129 \|/)
+  assert.match(coverage, /\| Citations \| 134 \|/)
+  assert.match(coverage, /\| Article spans \| 129 \|/)
+  assert.match(coverage, /\| Concepts \| 113 \|/)
+  assert.match(coverage, /\| Articles \| 36 \|/)
+  assert.match(coverage, /\| Questions \| 129 \| Draft \|/)
+  assert.match(coverage, /\| Question authoring holds \| 142 \| no student-facing record authored \|/)
 })
 
 test('global Q121-Q150 emits exactly nineteen approved Pharmacology Draft questions and preserves eleven holds', () => {
@@ -356,12 +356,12 @@ test('global Q121-Q150 emits exactly nineteen approved Pharmacology Draft questi
   const sourceIndex = JSON.parse(read('docs/MUST-Source-Imports/evidence/corpus-source-index.json'))
   const coverage = read('docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md')
 
-  assert.equal(items(questions).length, 38)
-  assert.equal(items(articles).length, 6)
-  assert.equal(items(concepts).length, 34)
-  assert.equal(items(claims).length, 38)
-  assert.equal(items(citations).length, 38)
-  assert.equal(items(spans).length, 38)
+  assert.equal(items(questions).length, 50)
+  assert.equal(items(articles).length, 9)
+  assert.equal(items(concepts).length, 44)
+  assert.equal(items(claims).length, 50)
+  assert.equal(items(citations).length, 50)
+  assert.equal(items(spans).length, 50)
 
   const expectedQuestions = [
     ['Q126', 'Beta-lactam antibiotics work by inhibiting:', 'D', 'DNA replication', 'RNA synthesis', 'Protein synthesis', 'Cell wall synthesis'],
@@ -398,10 +398,10 @@ test('global Q121-Q150 emits exactly nineteen approved Pharmacology Draft questi
     assert.doesNotMatch(questions, new RegExp(`PHARM-${held}\\b`))
   }
 
-  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 38)
-  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 6)
-  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 34)
-  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 34)
+  assert.equal((questions.match(/^## status\nDraft$/gm) || []).length, 50)
+  assert.equal((articles.match(/^## status\nDraft$/gm) || []).length, 9)
+  assert.equal((concepts.match(/^## status\nunder review$/gm) || []).length, 44)
+  assert.equal((concepts.match(/^## publication_status\nneeds_evidence$/gm) || []).length, 44)
   assert.equal((questions.match(/^## main_concept\nCON-INF-AF1A323DC43B0A$/gm) || []).length, 2)
   assert.equal((questions.match(/^## main_concept\nCON-INF-D09939F6D566ED$/gm) || []).length, 3)
   assert.match(articles, /## id\nART-INF-MUST-FHB1022-CELL-WALL-ANTIBIOTICS[\s\S]*## related_articles\nART-INF-MUST-FHB1022-PENICILLIN-CLASSES-USE-SAFETY:/)
@@ -414,13 +414,13 @@ test('global Q121-Q150 emits exactly nineteen approved Pharmacology Draft questi
   assert.match(coverage, /Absalam source global Q1–Q150: \*\*68 authored \/ 82 held \/ 0 unassessed\*\*/)
   assert.match(coverage, /Q145 is held in the Absalam Pharmacology family as an uncorrected teaching conflict/)
   assert.match(coverage, /\| Evidence resources \| 25 \|/)
-  assert.match(coverage, /\| Claims \| 117 \|/)
-  assert.match(coverage, /\| Citations \| 122 \|/)
-  assert.match(coverage, /\| Article spans \| 117 \|/)
-  assert.match(coverage, /\| Concepts \| 103 \|/)
-  assert.match(coverage, /\| Articles \| 33 \|/)
-  assert.match(coverage, /\| Questions \| 117 \| Draft \|/)
-  assert.match(coverage, /\| Question authoring holds \| 124 \| no student-facing record authored \|/)
+  assert.match(coverage, /\| Claims \| 129 \|/)
+  assert.match(coverage, /\| Citations \| 134 \|/)
+  assert.match(coverage, /\| Article spans \| 129 \|/)
+  assert.match(coverage, /\| Concepts \| 113 \|/)
+  assert.match(coverage, /\| Articles \| 36 \|/)
+  assert.match(coverage, /\| Questions \| 129 \| Draft \|/)
+  assert.match(coverage, /\| Question authoring holds \| 142 \| no student-facing record authored \|/)
 })
 
 test('Absalam Part 2 Mosquitoes Q1-Q30 emits only the approved twenty-two Draft questions and eight holds', () => {
@@ -523,7 +523,68 @@ test('Absalam Part 2 Sandfly Q1-Q30 emits only nineteen safe Draft questions and
   assert.match(questions, /The assessment wording “highly exophilic but can adapt to indoor environments” is retained/)
   assert.match(coverage, /Sandfly Q29 is held as an uncorrected direct key conflict[\s\S]*bank prints D[\s\S]*official teaching page 32 directly lists DDT, option B/)
   assert.match(coverage, /Absalam Part 2 Sandfly Q1–Q30: \*\*19 authored \/ 11 held \/ 0 unassessed\*\*/)
-  assert.match(coverage, /exact next Part 2 boundary is Mycology Q1–Q30 on assessment pages 19–29/)
-  assert.match(coverage, /Governed prompt observations: 5,444 total; 117 authored; \*\*5,327 raw prompt observations remain\*\*, including 124 explicit holds/)
-  assert.match(coverage, /Governed answer observations: 5,211 total; 117 clean source-keyed prompts authored; \*\*5,094 raw answer observations remain\*\*, including the 124 held printed-key observations/)
+  assert.match(coverage, /exact next Part 2 boundary is Virology Q1–Q30 on assessment pages 30–38/)
+  assert.match(coverage, /Governed prompt observations: 5,444 total; 129 authored; \*\*5,315 raw prompt observations remain\*\*, including 142 explicit holds/)
+  assert.match(coverage, /Governed answer observations: 5,211 total; 129 clean source-keyed prompts authored; \*\*5,082 raw answer observations remain\*\*, including the 142 held printed-key observations/)
+})
+
+test('Absalam Part 2 Mycology Q1-Q30 emits only twelve safe Draft questions and eighteen exact holds', () => {
+  execFileSync(process.execPath, [generator], { cwd: root, stdio: 'pipe' })
+
+  const questions = read('docs/MUST-Source-Imports/question/FHB-102-2-microbiology-introduction-mcq.md')
+  const articles = read('docs/MUST-Source-Imports/article/FHB-102-2-microbiology-introduction-articles.md')
+  const concepts = read('docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md')
+  const claims = read('docs/MUST-Source-Imports/evidence/FHB-102-2-microbiology-introduction-claims.md')
+  const citations = read('docs/MUST-Source-Imports/evidence/FHB-102-2-microbiology-introduction-citations.md')
+  const spans = read('docs/MUST-Source-Imports/evidence/FHB-102-2-microbiology-introduction-spans.md')
+  const sources = read('docs/MUST-Source-Imports/evidence/FHB-102-2-vector-transmission-sources.md')
+  const sourceIndex = JSON.parse(read('docs/MUST-Source-Imports/evidence/corpus-source-index.json'))
+  const coverage = read('docs/MUST-Source-Imports/coverage/FHB-102-2-AUTHORING.md')
+
+  const approvedKeys = new Map([
+    [1, 'C'], [7, 'D'], [8, 'B'], [12, 'C'], [16, 'B'], [19, 'B'],
+    [20, 'B'], [21, 'C'], [22, 'A'], [25, 'B'], [26, 'A'], [27, 'A'],
+  ])
+  for (const [q, key] of approvedKeys) {
+    const id = `QST-MUST-FHB1022-MYCO2-Q${q}`
+    const item = items(questions).find((candidate) => candidate.includes(`## id\n${id}\n`))
+    assert.ok(item, `Mycology Q${q} must be authored exactly once`)
+    assert.match(item, new RegExp(`## correct_answer\\n${key}\\n`))
+    assert.match(item, /## status\nDraft\n/)
+    assert.match(item, /Absalam101 Part 2/)
+    assert.match(item, /src_72a4c07c4877d4b58c3f/)
+  }
+
+  for (const q of [2, 3, 4, 5, 6, 9, 10, 11, 13, 14, 15, 17, 18, 23, 24, 28, 29, 30]) {
+    assert.match(coverage, new RegExp(`\\*\\*Mycology Q${q} is held`))
+    assert.doesNotMatch(questions, new RegExp(`MYCO2-Q${q}\\b`))
+  }
+
+  const mycologyArticleIds = [
+    'ART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS',
+    'ART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES',
+    'ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS',
+  ]
+  assert.equal(items(questions).filter((item) => /MYCO2-Q/.test(item)).length, 12)
+  assert.equal(items(concepts).filter((item) => mycologyArticleIds.some((id) => item.includes(`## article_ids\n${id}\n`))).length, 10)
+  assert.equal(items(claims).filter((item) => /MYCO2-Q/.test(item)).length, 12)
+  assert.equal(items(citations).filter((item) => /MYCO2-Q/.test(item)).length, 12)
+  assert.equal(items(spans).filter((item) => /MYCO2-Q/.test(item)).length, 12)
+  for (const articleId of mycologyArticleIds) assert.match(articles, new RegExp(`## id\\n${articleId}`))
+  assert.match(articles, /## id\nART-INF-MUST-FHB1022-MYCOLOGY-FOUNDATIONS[\s\S]*## related_articles\nART-INF-MUST-FHB1022-MYCOLOGY-DISEASE-SPORES:[\s\S]*ART-INF-MUST-FHB1022-MYCOLOGY-DIAGNOSIS:/)
+  assert.match(questions, /Which of the following is a causes of respiratory illness like sinusitis and bronchial asthma\?/)
+  assert.match(questions, /Which of the following fungi is an example of a opportunistic organism\?/)
+  assert.match(sources, /## id\nsrc_72a4c07c4877d4b58c3f[\s\S]*fully_governed_visually_read_all_pages_native_text/)
+  assert.equal(sourceIndex.count, 25)
+  assert.equal(sourceIndex.sources.src_72a4c07c4877d4b58c3f.processingStatus, 'fully_governed')
+  assert.match(coverage, /Mycology Q30 is held as an uncorrected authority\/key conflict/)
+  assert.match(coverage, /Absalam Part 2 Mycology Q1–Q30: \*\*12 authored \/ 18 held \/ 0 unassessed\*\*/)
+  assert.match(coverage, /exact next Part 2 boundary is Virology Q1–Q30 on assessment pages 30–38/)
+  assert.match(coverage, /\| Claims \| 129 \|/)
+  assert.match(coverage, /\| Citations \| 134 \|/)
+  assert.match(coverage, /\| Article spans \| 129 \|/)
+  assert.match(coverage, /\| Concepts \| 113 \|/)
+  assert.match(coverage, /\| Articles \| 36 \|/)
+  assert.match(coverage, /\| Questions \| 129 \| Draft \|/)
+  assert.match(coverage, /\| Question authoring holds \| 142 \| no student-facing record authored \|/)
 })

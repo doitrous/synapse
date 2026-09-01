@@ -876,7 +876,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q6 (global Q126)
+source question: Absalam Pharmacology Q6
 
 ---
 
@@ -920,7 +920,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q7 (global Q127)
+source question: Absalam Pharmacology Q7
 
 ---
 
@@ -964,7 +964,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q8 (global Q128)
+source question: Absalam Pharmacology Q8
 
 ---
 
@@ -1008,7 +1008,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q9 (global Q129)
+source question: Absalam Pharmacology Q9
 
 ---
 
@@ -1052,7 +1052,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q10 (global Q130)
+source question: Absalam Pharmacology Q10
 
 ---
 
@@ -1096,7 +1096,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q11 (global Q131)
+source question: Absalam Pharmacology Q11
 
 ---
 
@@ -1140,7 +1140,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q12 (global Q132)
+source question: Absalam Pharmacology Q12
 
 ---
 
@@ -1184,7 +1184,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q13 (global Q133)
+source question: Absalam Pharmacology Q13
 
 ---
 
@@ -1228,7 +1228,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q14 (global Q134)
+source question: Absalam Pharmacology Q14
 
 ---
 
@@ -1272,7 +1272,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q15 (global Q135)
+source question: Absalam Pharmacology Q15
 
 ---
 
@@ -1316,7 +1316,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q16 (global Q136)
+source question: Absalam Pharmacology Q16
 
 ---
 
@@ -1360,7 +1360,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q17 (global Q137)
+source question: Absalam Pharmacology Q17
 
 ---
 
@@ -1404,7 +1404,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q18 (global Q138)
+source question: Absalam Pharmacology Q18
 
 ---
 
@@ -1448,7 +1448,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q19 (global Q139)
+source question: Absalam Pharmacology Q19
 
 ---
 
@@ -1492,7 +1492,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q22 (global Q142)
+source question: Absalam Pharmacology Q22
 
 ---
 
@@ -1536,7 +1536,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q26 (global Q146)
+source question: Absalam Pharmacology Q26
 
 ---
 
@@ -1580,7 +1580,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q27 (global Q147)
+source question: Absalam Pharmacology Q27
 
 ---
 
@@ -1624,7 +1624,7 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q29 (global Q149)
+source question: Absalam Pharmacology Q29
 
 ---
 
@@ -1668,4 +1668,532 @@ no
 
 ## qualifiers
 curriculum: MUST FHB102-2 Pharmacology
-source question: Absalam Pharmacology Q30 (global Q150)
+source question: Absalam Pharmacology Q30
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q1-01
+
+## concept_id
+CON-INF-B5C54985E6FD64
+
+## subject
+Mycology is the study of fungi
+
+## predicate
+states
+
+## object
+Mycology is the study of fungi.
+
+## display_text
+Mycology is the study of fungi.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q1
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q7-01
+
+## concept_id
+CON-INF-3CCC561E727F2C
+
+## subject
+Candida and Cryptococcus neoformans are yeasts
+
+## predicate
+states
+
+## object
+Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching.
+
+## display_text
+Candida and Cryptococcus neoformans are presented as yeasts in the governed teaching.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q7
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q8-01
+
+## concept_id
+CON-INF-5B5A0738DEDA61
+
+## subject
+Mycelium is a mass of fungal hyphae
+
+## predicate
+states
+
+## object
+A mycelium is the mass or network of fungal hyphae.
+
+## display_text
+A mycelium is the mass or network of fungal hyphae.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q8
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q12-01
+
+## concept_id
+CON-INF-81364DB3512B06
+
+## subject
+Mycotoxicosis follows ingestion of fungal toxins
+
+## predicate
+states
+
+## object
+Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins.
+
+## display_text
+Mycotoxicosis is food poisoning caused by ingestion of food containing fungal mycotoxins.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q12
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q16-01
+
+## concept_id
+CON-INF-13FD22A18D7B3F
+
+## subject
+PCR detects fungal DNA in pathological specimens
+
+## predicate
+states
+
+## object
+PCR detects fungal DNA in pathological specimens.
+
+## display_text
+PCR detects fungal DNA in pathological specimens.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q16
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q19-01
+
+## concept_id
+CON-INF-36FB4AD4FE6CA9
+
+## subject
+Fungal spores support reproduction and spread
+
+## predicate
+states
+
+## object
+Fungal spores support fungal reproduction and spread.
+
+## display_text
+Fungal spores support fungal reproduction and spread.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q19
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q20-01
+
+## concept_id
+CON-INF-104E48053D1466
+
+## subject
+Airborne fungal spores can trigger respiratory illness and allergy
+
+## predicate
+states
+
+## object
+Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma.
+
+## display_text
+Airborne fungal spores can cause respiratory illness including sinusitis and bronchial asthma.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q20
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q21-01
+
+## concept_id
+CON-INF-104E48053D1466
+
+## subject
+Airborne fungal spores can trigger respiratory illness and allergy
+
+## predicate
+states
+
+## object
+Fungal spores contain allergens that can trigger allergic respiratory reactions.
+
+## display_text
+Fungal spores contain allergens that can trigger allergic respiratory reactions.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q21
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q22-01
+
+## concept_id
+CON-INF-0BF98D81026D99
+
+## subject
+Calcofluor white gives fungi a fluorescent blue-white appearance
+
+## predicate
+states
+
+## object
+Calcofluor white stain gives fungi a fluorescent blue-white appearance.
+
+## display_text
+Calcofluor white stain gives fungi a fluorescent blue-white appearance.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q22
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q25-01
+
+## concept_id
+CON-INF-13FD22A18D7B3F
+
+## subject
+PCR detects fungal DNA in pathological specimens
+
+## predicate
+states
+
+## object
+PCR is used to detect fungal DNA.
+
+## display_text
+PCR is used to detect fungal DNA.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q25
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q26-01
+
+## concept_id
+CON-INF-F893330EC83CAC
+
+## subject
+Antibody detection mainly supports systemic fungal diagnosis
+
+## predicate
+states
+
+## object
+Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+
+## display_text
+Detection of specific antibodies is used mainly in diagnosis of systemic fungal infections.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q26
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MYCO2-Q27-01
+
+## concept_id
+CON-INF-8C6B6F8D5A9C37
+
+## subject
+Candida is an opportunistic fungus
+
+## predicate
+states
+
+## object
+Candida species are presented as commensals that may cause opportunistic infection under certain conditions.
+
+## display_text
+Candida species are presented as commensals that may cause opportunistic infection under certain conditions.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.95
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Mycology
+source question: Absalam Mycology Q27
