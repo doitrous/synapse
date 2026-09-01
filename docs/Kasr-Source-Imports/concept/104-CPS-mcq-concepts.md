@@ -20,7 +20,7 @@
     The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
-    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 27 questions, 3 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
@@ -53,7 +53,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 37 questions, 10 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -65,7 +65,7 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 16 questions, 5 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -81,7 +81,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  167 questions were excluded and 0 held back for having no
+  169 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -2284,9 +2284,9 @@ Sympathetic activity raises heart rate and conduction velocity while parasympath
 autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy
 ## exam_signal
 src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
-src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
@@ -8647,12 +8647,13 @@ kau
 1
 ## exam_signal
 src_5465875dc14a998b7b21 | question_book | | p10 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p9 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11551,6 +11552,7 @@ Local blood flow is matched to tissue metabolism by two mechanisms — active hy
 local-blood-flow-regulation.myogenic-and-metabolic-autoregulation
 ## exam_signal
 src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
 ## article_ids
 +ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
 ## field_notes

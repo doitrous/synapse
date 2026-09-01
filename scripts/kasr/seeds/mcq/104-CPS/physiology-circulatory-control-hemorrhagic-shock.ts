@@ -683,5 +683,74 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "The credited option A's own text ('stimulation of the vasomotor centers') contradicts standard baroreflex physiology and this file's own sibling question (037f9276), whose parallel option A instead reads 'inhibition of the vasomotor centers' and is credited TRUE there — rising baroreceptor discharge inhibits, never stimulates, the vasomotor area. A likely word-level OCR corruption ('stimulation' for 'inhibition'), with no seed-level field able to repair option text; not authored to match a claim contradicting this pipeline's own sourced, already-published concept.",
     },
+    // run41 — Basic Mechanisms of Circulatory Control's own "what's left"
+    // recompute (docs/Kasr-Source-Imports/coverage/104-CPS-LEDGER.md)
+    // surfaced 18 more bank-tagged rows on top of the 18 run36 already
+    // closed (8 kept, 4 excluded, 6 deliberately left unclaimed — see that
+    // commit's own PROGRESS.md entry, respected unchanged here). Of the 18
+    // new rows, 2 test the arterial-baroreceptor-reflex concept already
+    // authored above directly — no new search needed, same concept, same
+    // article.
+    {
+      key: "a-decrease-in-carotid-sinus-pressure-from-100-mmhg-to-70-mml-6e408561",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Moderate",
+      questionType: "Mechanism",
+      learningObjective: "State that a fall in carotid sinus pressure lowers baroreceptor discharge and so reflexly raises cardiac sympathetic drive.",
+      explanations: {
+        A: "The opposite happens: a fall in carotid sinus pressure lowers the stretch on the baroreceptors, so glossopharyngeal (carotid sinus) nerve traffic to the nucleus of the tractus solitarius DECREASES, not increases.",
+        B: "This is the correct answer. A fall in carotid sinus pressure from 100 to 70 mmHg lowers baroreceptor discharge; with less inhibitory input reaching the vasomotor and cardiac inhibitory areas, sympathetic drive to the heart rises reflexly, raising heart rate and contractility to help restore pressure.",
+        C: "Cholinergic (parasympathetic) postganglionic activity to the heart falls, not rises, when baroreceptor discharge falls — vagal tone drops as part of the same reflex that raises sympathetic drive.",
+        D: "An increase in venous capacitance would lower, not raise, venous return and arterial pressure further — the reflex triggered by a pressure fall instead produces venoCONSTRICTION, reducing capacitance to help restore venous return.",
+      },
+    },
+    {
+      key: "buffer-nerves-are-branches-of-6e5be01a",
+      conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "Name the carotid sinus (glossopharyngeal) nerve and the aortic (vagus) nerve as the two 'buffer nerves' carrying the arterial baroreceptor afferents.",
+      explanations: {
+        A: "This is the correct answer. The 'buffer nerves' are the afferent pathways of the arterial baroreceptor (buffer) reflex: the carotid sinus nerve, a branch of the glossopharyngeal nerve, from the carotid sinus, and the aortic nerve, a branch of the vagus, from the aortic arch — both carrying baroreceptor traffic to the nucleus of the tractus solitarius.",
+        B: "The trigeminal nerve carries no baroreceptor afferents at all; it is not part of the arterial baroreceptor reflex's pathway.",
+        C: "The facial nerve likewise carries no baroreceptor afferents — it is not one of the two nerves the buffer reflex depends on.",
+        D: "Not correct: the buffer nerves are specifically named branches (the carotid sinus nerve of the glossopharyngeal, the aortic nerve of the vagus), not an unnamed 'none of the above.'",
+      },
+    },
+    // Bank-tagged "Basic Mechanisms of Circulatory Control" but the exact
+    // ANP-exception fact this file's own hemorrhagic-shock.rapid-
+    // compensatory-hormone-response concept already teaches (see the
+    // concept block above) — a duplicate-occurrence restating it with a
+    // different distractor set (aldosterone, erythropoietin in place of
+    // angiotensin II, vasopressin). No new search needed.
+    {
+      key: "secretion-of-the-following-hormones-is-increased-during-hemo-62b59647",
+      conceptKey: "hemorrhagic-shock.rapid-compensatory-hormone-response",
+      difficulty: "Moderate",
+      questionType: "Recall of a true statement",
+      learningObjective: "Restate that atrial natriuretic peptide, unlike catecholamines and aldosterone, is not part of the hormonal response hemorrhage raises.",
+      explanations: {
+        A: "True, so not the exception. Catecholamine secretion (adrenal medulla and sympathetic terminals) is part of the rapid humoral compensation for hemorrhage.",
+        B: "The exception, and the answer. Atrial natriuretic peptide is stretch-triggered, needing a distended atrium; hemorrhage lowers venous return and atrial filling, removing that stimulus rather than providing it, so its secretion does not rise as part of the response to hemorrhage — the same point this file's own compensatory-hormone concept makes for vasopressin's atrial-stretch trigger running the opposite way.",
+        C: "True, so not the exception. Increased renin secretion raises angiotensin II, which in turn raises aldosterone secretion as part of the same compensatory response.",
+        D: "Erythropoietin secretion rises with the tissue hypoxia hemorrhage produces, so it is not the exception being tested here; it is ANP, whose own stimulus (atrial stretch) is removed rather than provided by hemorrhage, that stands apart from the other three.",
+      },
+    },
+    // run41 — a genuine option-count/stem-corruption exclude, matching this
+    // exact leaf's own venous-capacitance conflict (mean-systemic-filling-
+    // pressure-is-decreased-by-d3f1a38e, escalated by run36, left
+    // deliberately unclaimed above and still unclaimed here) but a
+    // DIFFERENT bank row/key — this is a second, independently corrupted
+    // occurrence of the same question, not a duplicate of that escalation.
+    {
+      key: "mean-systemic-filling-pressure-is-decreased-by-tepret-ef914ec2",
+      conceptKey: "venous-return.determinants-and-equation",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survive extraction (A, B, D — no C), below the platform's 4-to-5-option import contract; the stem itself also carries a stray corrupted fragment ('tePret'). Independently of the missing option, this row's own content is the same mean-systemic-filling-pressure/venous-capacitance fact already flagged as a genuine conflict against this pipeline's own sourced veins.capacitance-compliance-and-blood-volume-reservoir concept (see mean-systemic-filling-pressure-is-decreased-by-d3f1a38e, left unclaimed above, run36) — not authored either way.",
+    },
   ],
 }

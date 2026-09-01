@@ -20,7 +20,7 @@
     The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
-    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 27 questions, 3 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
@@ -53,7 +53,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 18 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 13 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 37 questions, 10 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 41 questions, 10 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -65,7 +65,7 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 16 questions, 5 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -81,7 +81,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  167 questions were excluded and 0 held back for having no
+  169 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -12912,6 +12912,98 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q45. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C45CAAB2F895
+## title
+The effect of parasympathetic NS on the heart is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The effect of parasympathetic NS on the heart is:
+## answer_a
+Slowing of the heart
+## explanation_a
+Correct. Parasympathetic (vagal) activity has the opposite effect on the heart from sympathetic activity: negative chronotropy, slowing SA node discharge, and negative dromotropy, slowing AV nodal conduction — together producing bradycardia.
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_b
+Increased activity of the SAN
+## explanation_b
+Backwards: parasympathetic activity SLOWS, not increases, SA node activity — this is negative, not positive, chronotropy.
+## answer_c
+Increased activity of the AVN
+## explanation_c
+Backwards: parasympathetic activity, through muscarinic receptors, decreases AV nodal conductance and so SLOWS, not increases, AV node conduction — negative dromotropy.
+## answer_d
+Increased conduction velocity through bundle of His ١
+## explanation_d
+Backwards: parasympathetic stimulation slows, not increases, conduction velocity through the bundle of His and the rest of the conducting system, the same negative-dromotropic direction as its effect on the AV node.
+## correct_answer
+A
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a mechanism
+## learning_objective
+State that parasympathetic (vagal) activity slows the heart via negative chronotropy and negative dromotropy, not by speeding SA or AV nodal activity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p13 q100. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -50622,6 +50714,284 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-3B26204A580C
+## title
+A decrease in carotid sinus pressure from 100 mmHg to 70 mmlIlg will lead to
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A decrease in carotid sinus pressure from 100 mmHg to 70 mmlIlg will lead to
+## answer_a
+An increase in frequency of impulses in glossopharyngeal nerve
+## explanation_a
+The opposite happens: a fall in carotid sinus pressure lowers the stretch on the baroreceptors, so glossopharyngeal (carotid sinus) nerve traffic to the nucleus of the tractus solitarius DECREASES, not increases.
+## answer_b
+A reflex stimulation of cardiac sympathetic nerves
+## explanation_b
+This is the correct answer. A fall in carotid sinus pressure from 100 to 70 mmHg lowers baroreceptor discharge; with less inhibitory input reaching the vasomotor and cardiac inhibitory areas, sympathetic drive to the heart rises reflexly, raising heart rate and contractility to help restore pressure.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_c
+A reflex stimulation of cholinergic postganglionic nerves
+## explanation_c
+Cholinergic (parasympathetic) postganglionic activity to the heart falls, not rises, when baroreceptor discharge falls — vagal tone drops as part of the same reflex that raises sympathetic drive.
+## answer_d
+An increase in venous capacitance
+## explanation_d
+An increase in venous capacitance would lower, not raise, venous return and arterial pressure further — the reflex triggered by a pressure fall instead produces venoCONSTRICTION, reducing capacitance to help restore venous return.
+## correct_answer
+B
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a fall in carotid sinus pressure lowers baroreceptor discharge and so reflexly raises cardiac sympathetic drive.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p23 q173. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-932C18201BAF
+## title
+Buffer nerves are branches of; |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Buffer nerves are branches of; |
+## answer_a
+Vagus and glossopharyngeal nerves.
+## explanation_a
+This is the correct answer. The 'buffer nerves' are the afferent pathways of the arterial baroreceptor (buffer) reflex: the carotid sinus nerve, a branch of the glossopharyngeal nerve, from the carotid sinus, and the aortic nerve, a branch of the vagus, from the aortic arch — both carrying baroreceptor traffic to the nucleus of the tractus solitarius.
+
+Why this is right:
+- The arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch; they report through the carotid sinus (Hering's) nerve, a branch of the glossopharyngeal, and through the aortic nerve, a branch of the vagus, and both buffer nerves end in the nucleus of the tractus solitarius.
+- A rise in arterial pressure increases tonic baroreceptor discharge to the nucleus of the tractus solitarius, which inhibits the vasomotor area and excites the cardiac inhibitory area so that pressure falls back to normal; a fall in pressure reverses every step.
+## answer_b
+Trigeminal nerves.
+## explanation_b
+The trigeminal nerve carries no baroreceptor afferents at all; it is not part of the arterial baroreceptor reflex's pathway.
+## answer_c
+Facial nerves.
+## explanation_c
+The facial nerve likewise carries no baroreceptor afferents — it is not one of the two nerves the buffer reflex depends on.
+## answer_d
+None of the above.
+## explanation_d
+Not correct: the buffer nerves are specifically named branches (the carotid sinus nerve of the glossopharyngeal, the aortic nerve of the vagus), not an unnamed 'none of the above.'
+## correct_answer
+A
+## main_concept
+CON-CVS-C3E60AC7A9EDB1
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name the carotid sinus (glossopharyngeal) nerve and the aortic (vagus) nerve as the two 'buffer nerves' carrying the arterial baroreceptor afferents.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p16 q119. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-011E5F4A9008
+## title
+Secretion of the following hormones is increased during hemorrhagic shock, except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Secretion of the following hormones is increased during hemorrhagic shock, except:
+## answer_a
+Catecholamines
+## explanation_a
+True, so not the exception. Catecholamine secretion (adrenal medulla and sympathetic terminals) is part of the rapid humoral compensation for hemorrhage.
+## answer_b
+Atrial natriuretic peptide
+## explanation_b
+The exception, and the answer. Atrial natriuretic peptide is stretch-triggered, needing a distended atrium; hemorrhage lowers venous return and atrial filling, removing that stimulus rather than providing it, so its secretion does not rise as part of the response to hemorrhage — the same point this file's own compensatory-hormone concept makes for vasopressin's atrial-stretch trigger running the opposite way.
+
+Why this is right:
+- Hemorrhage lowers arterial blood pressure and stimulates rapid neural and humoral compensatory mechanisms.
+## answer_c
+Aldosterone
+## explanation_c
+True, so not the exception. Increased renin secretion raises angiotensin II, which in turn raises aldosterone secretion as part of the same compensatory response.
+## answer_d
+Erythropoietin
+## explanation_d
+Erythropoietin secretion rises with the tissue hypoxia hemorrhage produces, so it is not the exception being tested here; it is ANP, whose own stimulus (atrial stretch) is removed rather than provided by hemorrhage, that stands apart from the other three.
+## correct_answer
+B
+## main_concept
+CON-CVS-419F030679CA1F
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+Restate that atrial natriuretic peptide, unlike catecholamines and aldosterone, is not part of the hormonal response hemorrhage raises.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p9 q39. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-D4B08676451F
 ## title
 Non-chemical influence on respiration includes all of the following Except:
@@ -58622,6 +58992,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D58E66602BF7
+## title
+Increased arteriolar resistance 15i-Metabolic changes that produce vasodilation of resi…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Increased arteriolar resistance 15i-Metabolic changes that produce vasodilation of resistance vessels includes all, except
+## answer_a
+Decreased CO2 tension
+## explanation_a
+The exception, and the answer. A DECREASE in CO2 tension is not a vasodilator stimulus — it is a RISE in local CO2 that acts as one of the vasodilator metabolites of active hyperaemia; a fall moves in the opposite, vasoconstrictor-favouring direction.
+
+Why this is right:
+- In the myogenic mechanism of autoregulation, arteriolar stretch from a pressure rise stimulates calcium entry into smooth muscle fibres, which contract with greater force, producing vasoconstriction.
+## answer_b
+Accumulation of lactate
+## explanation_b
+True, so not the exception. Lactate accumulation is one of the vasodilator metabolites released as local tissue metabolism rises, contributing to active hyperaemia.
+## answer_c
+Acidosis
+## explanation_c
+True, so not the exception. Acidosis (a local rise in H+) is one of the vasodilator metabolites of active hyperaemia, alongside CO2 and adenosine.
+## answer_d
+Adenosine in cardiac muscle :
+## explanation_d
+True, so not the exception. Adenosine released from actively metabolizing (cardiac) muscle is one of the vasodilator metabolites driving local active hyperaemia.
+## correct_answer
+A
+## main_concept
+CON-CVS-56A68328FD03C7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify decreased CO2 tension, not accumulation of lactate, acidosis or adenosine, as the one listed change that does NOT produce local vasodilation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p20 q0. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 

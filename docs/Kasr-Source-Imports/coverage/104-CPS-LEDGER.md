@@ -4,22 +4,22 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 749 | excluded: 167 | remaining: 236
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 754 | excluded: 169 | remaining: 229
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 749
+- authored (by key, this ledger): 754
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 749
+- authored minus held-back = build-style "kept": 754
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
-| Basic Mechanisms of Circulatory Control | 36 | 8 | 4 | 24 |
 | Mechanics of Breathing | 22 | 0 | 0 | 22 |
 | Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
 | Pulmonary Compliance | 45 | 24 | 3 | 18 |
+| Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
 | Gas exchange in the lung | 21 | 4 | 2 | 15 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 9 | 0 | 13 |
 | Cardiac Function | 80 | 44 | 24 | 12 |
@@ -54,33 +54,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 ## Remaining keys by cluster
 
 Every KEYED bank row whose key is not yet claimed by any seed (authored or excluded). A dispatch can copy an exact key list straight out of a section below.
-
-### Basic Mechanisms of Circulatory Control (24)
-
-- `a-decrease-in-carotid-sinus-pressure-from-100-mmhg-to-70-mml-6e408561` — A decrease in carotid sinus pressure from 100 mmHg to 70 mmlIlg will lead to
-- `a-decrease-in-which-would-cause-chronic-hypertension-f762e6fe` — A decrease in which would cause chronic hypertension
-- `about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885` — About mediators and vasoactive substances, all of the following are true Except:
-- `all-about-renin-angiotensin-system-is-correct-except-28636919` — All about renin-angiotensin system is correct, except:
-- `as-regard-carotid-sinus-syndrome-all-of-the-following-is-cor-11f1b928` — As regard carotid sinus syndrome all of the following is correct except;
-- `buffer-nerves-are-branches-of-6e5be01a` — Buffer nerves are branches of; |
-- `concerning-nitric-oxide-no-the-following-are-true-except-a9c985aa` — Concerning nitric oxide NO, the following are true, except
-- `epistaxis-mean-6a48dc85` — Epistaxis mean:
-- `increased-arteriolar-resistance-15i-metabolic-changes-that-p-a0ebb63c` — Increased arteriolar resistance 15i-Metabolic changes that produce vasodilation …
-- `it-is-correct-to-say-8f7e9d38` — It is correct to say
-- `it-the-noradrenergic-nerves-to-the-heart-are-stimulated-afte-65f9cb1e` — It the noradrenergic nerves to the heart are stimulated after giving a B-blocker…
-- `long-term-regulation-of-arterial-blood-pressure-is-done-by-4e2ec8e0` — Long term regulation of arterial blood pressure is done by
-- `mean-systemic-filling-pressure-is-decreased-by-d3f1a38e` — Mean systemic filling pressure is decreased by:
-- `mean-systemic-filling-pressure-is-decreased-by-tepret-ef914ec2` — Mean systemic filling pressure is decreased by: tePret
-- `metabolic-changes-that-produce-vasodilation-of-resistance-ve-d5fa92c6` — Metabolic changes that produce vasodilation of resistance vessels includes: ‏ل‎ …
-- `nitric-oxide-25204420` — Nitric oxide
-- `renhin-is-released-in-the-following-conditions-except-1690beb3` — Renhin is released in the following conditions, except
-- `secretion-of-the-following-hormones-is-increased-during-hemo-62b59647` — Secretion of the following hormones is increased during hemorrhagic shock, excep…
-- `stimalation-of-angiotensin-ii-receptors-at1-produce-all-exce-7cf8d5ad` — Stimalation of angiotensin II receptors AT1 produce all, except
-- `stimulation-of-angiotensin-ii-receptors-at-2-produce-a2994df9` — Stimulation of angiotensin II receptors AT-2 produce:
-- `systemic-arteriolar-constriction-may-result-from-an-increase-fdd3c641` — Systemic arteriolar constriction may result from an increase in local concentrat…
-- `the-effect-of-parasympathetic-ns-on-the-heart-is-fbd13988` — The effect of parasympathetic NS on the heart is:
-- `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
-- `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
 
 ### Mechanics of Breathing (22)
 
@@ -151,6 +124,26 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-represents-the-pressure-difference-th-3a447d91` — Which of the following represents the pressure difference that acts to distend t…
 - `which-of-tne-following-represents-the-pressure-difference-th-8e096a02` — Which of tne following represents the pressure difference that acts to distend t…
 - `which-one-can-increase-the-compliance-of-blood-vessels-3a01102d` — Which one can increase the compliance of blood vessels
+
+### Basic Mechanisms of Circulatory Control (17)
+
+- `a-decrease-in-which-would-cause-chronic-hypertension-f762e6fe` — A decrease in which would cause chronic hypertension
+- `about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885` — About mediators and vasoactive substances, all of the following are true Except:
+- `all-about-renin-angiotensin-system-is-correct-except-28636919` — All about renin-angiotensin system is correct, except:
+- `as-regard-carotid-sinus-syndrome-all-of-the-following-is-cor-11f1b928` — As regard carotid sinus syndrome all of the following is correct except;
+- `concerning-nitric-oxide-no-the-following-are-true-except-a9c985aa` — Concerning nitric oxide NO, the following are true, except
+- `epistaxis-mean-6a48dc85` — Epistaxis mean:
+- `it-is-correct-to-say-8f7e9d38` — It is correct to say
+- `it-the-noradrenergic-nerves-to-the-heart-are-stimulated-afte-65f9cb1e` — It the noradrenergic nerves to the heart are stimulated after giving a B-blocker…
+- `long-term-regulation-of-arterial-blood-pressure-is-done-by-4e2ec8e0` — Long term regulation of arterial blood pressure is done by
+- `mean-systemic-filling-pressure-is-decreased-by-d3f1a38e` — Mean systemic filling pressure is decreased by:
+- `nitric-oxide-25204420` — Nitric oxide
+- `renhin-is-released-in-the-following-conditions-except-1690beb3` — Renhin is released in the following conditions, except
+- `stimalation-of-angiotensin-ii-receptors-at1-produce-all-exce-7cf8d5ad` — Stimalation of angiotensin II receptors AT1 produce all, except
+- `stimulation-of-angiotensin-ii-receptors-at-2-produce-a2994df9` — Stimulation of angiotensin II receptors AT-2 produce:
+- `systemic-arteriolar-constriction-may-result-from-an-increase-fdd3c641` — Systemic arteriolar constriction may result from an increase in local concentrat…
+- `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
+- `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
 
 ### Gas exchange in the lung (15)
 

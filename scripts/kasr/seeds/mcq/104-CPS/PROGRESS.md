@@ -2105,3 +2105,111 @@ resume-first: recompute "what's left" for Conducting Portion (67 rows,
 respiratory) or continue mopping smaller CVS leaves if any remain after
 recomputing; check pinned histology/physiology concept files before
 minting on either.
+
+## run41 — Basic Mechanisms of Circulatory Control reopened, 18 more rows
+(the leaf's own bank-tag count grew from 18 to 36 between run36 and run41 —
+an earlier untagged-rows pass added 18 previously-untagged rows under this
+same leaf). 5 kept (2 sparse reuses onto this file's own
+arterial-baroreceptor-reflex concept, 1 duplicate-occurrence onto this
+file's own hemorrhagic-shock.rapid-compensatory-hormone-response concept,
+2 leaf-mismatch reroutes onto already-existing concepts in sibling files),
+2 excluded, 11 left deliberately unclaimed. Run36's own 6 unclaimed rows
+(epistaxis-mean-6a48dc85, it-is-correct-to-say-8f7e9d38,
+mean-systemic-filling-pressure-is-decreased-by-d3f1a38e,
+long-term-regulation-of-arterial-blood-pressure-is-done-by-4e2ec8e0,
+about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885,
+which-of-the-following-is-not-a-vasodilator-metabolite-8da91769) are
+respected unchanged — not reopened, not re-litigated.
+
+**Kept (5)**:
+- `a-decrease-in-carotid-sinus-pressure-from-100-mmhg-to-70-mml-6e408561`
+  and `buffer-nerves-are-branches-of-6e5be01a`, both onto this file's own
+  `arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-
+  pressure` concept (CON-CVS-C3E60AC7A9EDB1) — no new search needed, the
+  concept's own definition already names the carotid sinus (Hering's)
+  nerve and the aortic nerve verbatim and already carries "Buffer reflex"
+  as an alias.
+- `secretion-of-the-following-hormones-is-increased-during-hemo-62b59647`
+  onto this file's own `hemorrhagic-shock.rapid-compensatory-hormone-
+  response` concept — a duplicate occurrence of the ANP-is-the-exception
+  fact this concept already teaches, with a different distractor set
+  (aldosterone, erythropoietin in place of angiotensin II, vasopressin).
+- `increased-arteriolar-resistance-15i-metabolic-changes-that-p-a0ebb63c`,
+  a leaf-mismatch reroute onto `physiology-vascular-function-
+  hemodynamics.ts`'s own `local-blood-flow-regulation.myogenic-and-
+  metabolic-autoregulation` concept (vasodilator metabolites: CO2, H+,
+  adenosine) — the leaf-tag-unreliable hazard confirmed yet again.
+- `the-effect-of-parasympathetic-ns-on-the-heart-is-fbd13988`, a
+  leaf-mismatch reroute onto `cardiovascular-autonomic-control-and-
+  refractory-periods.ts`'s own `autonomic-nervous-system.heart-rate-and-
+  conduction-velocity.chronotropy-dromotropy` concept (parasympathetic
+  negative chronotropy/dromotropy).
+
+**2 excluded**: `mean-systemic-filling-pressure-is-decreased-by-tepret-
+ef914ec2` (only 3 options survive, A/B/D, no C — a second, independently
+corrupted OCR occurrence of the same MSFP/venous-capacitance fact run36
+already escalated as a genuine conflict under a different key, d3f1a38e,
+still unclaimed); `metabolic-changes-that-produce-vasodilation-of-
+resistance-ve-d5fa92c6` — a genuine two-correct-answer ambiguity, not a
+corruption: both "decreased CO2 tension" (A, credited) and "alkalosis" (C)
+are non-vasodilators by this pipeline's own vasodilator-metabolite
+concept, and nothing in that concept singles out one over the other as
+THE exception; the row's own clean sibling (a0ebb63c, kept above, pairs
+"decreased CO2 tension" against ACIDOSIS instead) is the unambiguous
+version of the same fact.
+
+**11 left deliberately unclaimed, all RAAS/nitric-oxide/vasoactive-hormone
+depth or clinical-syndrome content this leaf's own covering article
+(`ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL`) explicitly disclaims as
+out of scope** ("The book names further vasoactive hormones (angiotensin
+II, vasopressin, natriuretic peptides, kinins, endothelium-derived NO/
+endothelin/prostacyclin)... not covered by this article for reasons of
+scope" — the same disclaimer run36 already invoked for 3 sibling rows,
+extended here rather than re-litigated per-row):
+- `all-about-renin-angiotensin-system-is-correct-except-28636919`,
+  `renhin-is-released-in-the-following-conditions-except-1690beb3`,
+  `stimalation-of-angiotensin-ii-receptors-at1-produce-all-exce-7cf8d5ad`,
+  `stimulation-of-angiotensin-ii-receptors-at-2-produce-a2994df9`,
+  `systemic-arteriolar-constriction-may-result-from-an-increase-fdd3c641`
+  — RAAS depth (angiotensinogen source, AT1 vs AT2 receptor effects,
+  renin-release triggers, angiotensin II as a vasoconstrictor) beyond
+  what any pinned 104-CPS concept currently teaches.
+- `concerning-nitric-oxide-no-the-following-are-true-except-a9c985aa`,
+  `nitric-oxide-25204420`, `the-following-are-true-regarding-no-except-
+  870b8ec2`, `a-decrease-in-which-would-cause-chronic-hypertension-
+  f762e6fe` — NO synthesis/mechanism depth (L-arginine/NO-synthase,
+  guanylate cyclase, shear-stress/acetylcholine stimulation, NO
+  deficiency and hypertension) beyond the single passing mention of NO as
+  a coronary dilator this module's pinned concepts currently carry.
+- `as-regard-carotid-sinus-syndrome-all-of-the-following-is-cor-
+  11f1b928` — the clinical syndrome (carotid sinus hypersensitivity/
+  syncope, denervation as treatment), distinct from the normal-physiology
+  baroreceptor-reflex concept this file already authors against; no
+  pinned concept covers the clinical entity.
+- `it-the-noradrenergic-nerves-to-the-heart-are-stimulated-afte-65f9cb1e`
+  — a specific coronary-flow-after-beta-blockade fact not stated by this
+  pipeline's own `coronary-circulation.phasic-flow-and-autoregulation`
+  concept (which states metabolic autoregulation dominates over neural
+  control in general terms, but not this specific post-blockade outcome);
+  the row's own lower `handwritten-recovered` confidence adds to the
+  case for leaving it rather than inventing the missing mechanism.
+
+Gate (this commit): build-batches.ts "104 CPS": 754 kept (+5 from 749),
+169 excluded (+2 from 167), 179 MCQ concepts (unchanged — all 5 kept
+questions are sparse reuses/reroutes onto already-existing concepts, 0
+fresh mints). `medical:batch --with` (10-file recipe): errors=0.
+`kasr:ledger-104`: Basic Mechanisms of Circulatory Control now bank 36,
+authored 13, excluded 6, remaining 17 (6 run36-unclaimed + 11 new-
+unclaimed, both respected).
+
+Next: Mechanics of Breathing (22, new leaf) and Lungs — Gross Anatomy (21,
+new leaf), per this run's own dispatch brief.
+
+HANDOFF: kasr-104-author-run41@<this commit's sha, see `git log -1`> ·
+resume-first: Mechanics of Breathing (create physiology-mechanics-of-
+breathing.ts; physiology-pleural-mechanics.ts and physiology-intrapleural-
+pressure-extremes.ts already pin several of the relevant facts — check
+before minting), then Lungs — Gross Anatomy (create anatomy-lungs-
+gross.ts; 104-CPS-anatomy-concepts.md already pins a rich set of root/
+fissure/segment/blood-supply/mediastinal-impression concepts — check
+before minting).

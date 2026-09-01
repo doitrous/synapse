@@ -267,6 +267,34 @@ export const LEAF: McqLeafSeed = {
         D: 'Correct. Local metabolic vasodilation — a fall in local vascular resistance driven by tissue metabolites (CO2, H+, adenosine) and hypoxia accumulating during increased metabolic activity — is quantitatively the dominant mechanism matching blood flow to an actively metabolizing tissue\'s own needs, since flow is inversely proportional to resistance for any given driving pressure.',
       },
     },
+    // run41 — bank-tagged "Basic Mechanisms of Circulatory Control", a
+    // leaf-mismatch reroute onto this file's own already-claimed
+    // local-blood-flow-regulation concept: both rows restate the same
+    // vasodilator-metabolite list (CO2, H+/acidosis, adenosine) this
+    // concept already teaches, no new search needed.
+    {
+      key: "increased-arteriolar-resistance-15i-metabolic-changes-that-p-a0ebb63c",
+      conceptKey: 'local-blood-flow-regulation.myogenic-and-metabolic-autoregulation',
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "Identify decreased CO2 tension, not accumulation of lactate, acidosis or adenosine, as the one listed change that does NOT produce local vasodilation.",
+      explanations: {
+        A: "The exception, and the answer. A DECREASE in CO2 tension is not a vasodilator stimulus — it is a RISE in local CO2 that acts as one of the vasodilator metabolites of active hyperaemia; a fall moves in the opposite, vasoconstrictor-favouring direction.",
+        B: "True, so not the exception. Lactate accumulation is one of the vasodilator metabolites released as local tissue metabolism rises, contributing to active hyperaemia.",
+        C: "True, so not the exception. Acidosis (a local rise in H+) is one of the vasodilator metabolites of active hyperaemia, alongside CO2 and adenosine.",
+        D: "True, so not the exception. Adenosine released from actively metabolizing (cardiac) muscle is one of the vasodilator metabolites driving local active hyperaemia.",
+      },
+    },
+    {
+      key: "metabolic-changes-that-produce-vasodilation-of-resistance-ve-d5fa92c6",
+      conceptKey: 'local-blood-flow-regulation.myogenic-and-metabolic-autoregulation',
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Two independently defensible 'exception' answers survive in this option set: option A (decreased CO2 tension) and option C (alkalosis) are BOTH non-vasodilators by this pipeline's own local-blood-flow-regulation concept (vasodilator metabolites are CO2, H+/acidosis and adenosine — a fall in CO2 and a fall in H+/alkalosis both move away from, not toward, the vasodilator direction). The bank credits only option A, but nothing in the sourced concept singles out A over C as the one true exception; the row's sibling occurrence with the same stem (increased-arteriolar-resistance-15i...-a0ebb63c, kept above) pairs 'decreased CO2 tension' against ACIDOSIS specifically, which is unambiguously a genuine vasodilator and leaves A as the sole exception — the clean version of this same fact. Not authored here to avoid asserting a single correct 'except' answer where two are equally defensible.",
+    },
     {
       // Excluded rather than kept: the bank extraction recovered only 3
       // distinguishable option letters (A, B, C) — option C's own text is

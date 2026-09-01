@@ -73,6 +73,23 @@ export const LEAF: McqLeafSeed = {
         D: "Contractility, the force of contraction, is named inotropy — a mechanical property, not the electrical rate property chronotropism names.",
       },
     },
+    // run41 — bank-tagged "Basic Mechanisms of Circulatory Control", a
+    // leaf-mismatch reroute onto this file's own already-claimed
+    // chronotropy-dromotropy concept: parasympathetic slowing of both SA
+    // node rate and AV nodal conduction is exactly what it already teaches.
+    {
+      key: "the-effect-of-parasympathetic-ns-on-the-heart-is-fbd13988",
+      conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
+      difficulty: "Easy",
+      questionType: "Recall of a mechanism",
+      learningObjective: "State that parasympathetic (vagal) activity slows the heart via negative chronotropy and negative dromotropy, not by speeding SA or AV nodal activity.",
+      explanations: {
+        A: "Correct. Parasympathetic (vagal) activity has the opposite effect on the heart from sympathetic activity: negative chronotropy, slowing SA node discharge, and negative dromotropy, slowing AV nodal conduction — together producing bradycardia.",
+        B: "Backwards: parasympathetic activity SLOWS, not increases, SA node activity — this is negative, not positive, chronotropy.",
+        C: "Backwards: parasympathetic activity, through muscarinic receptors, decreases AV nodal conductance and so SLOWS, not increases, AV node conduction — negative dromotropy.",
+        D: "Backwards: parasympathetic stimulation slows, not increases, conduction velocity through the bundle of His and the rest of the conducting system, the same negative-dromotropic direction as its effect on the AV node.",
+      },
+    },
     {
       key: "what-is-the-effect-of-sympathetic-stimulation-on-the-membran-6c7c92a3",
       conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
