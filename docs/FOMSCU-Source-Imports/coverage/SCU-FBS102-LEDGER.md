@@ -134,6 +134,7 @@
 | medical-ethics-publishing-in-journals | 0 | 0 | 1 | 1 |
 | medical-ethics-respect-patient-autonomy | 0 | 0 | 1 | 1 |
 | pending-live-reuse-batch1 | 13 | 0 | 0 | 13 |
+| pending-live-reuse-batch2 | 35 | 0 | 0 | 35 |
 | physiology-300-mosm-per-liter | 0 | 0 | 1 | 1 |
 | physiology-active-transport | 0 | 0 | 1 | 1 |
 | physiology-bulk-flow | 0 | 0 | 1 | 1 |

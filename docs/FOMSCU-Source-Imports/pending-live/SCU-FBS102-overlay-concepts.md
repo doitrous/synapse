@@ -40,6 +40,39 @@
     --with docs/Kasr-Source-Imports/article/101-ISK-anatomy.md \
     --with docs/Kasr-Source-Imports/article/102-INT-coverage.md \
     --with docs/Kasr-Source-Imports/article/102-INT-biochemistry.md
+
+  ---------------------------------------------------------------------------
+  BATCH 2 (second author lane, fomscu-fbs102-author2) — appended below the
+  batch-1 divider above. Covers the 35 questions in the sibling
+  SCU-FBS102-questions-batch2.md. One row is LIVE (CON-MSK-12504AAE2403E8,
+  checked directly against server/data/medical-library-v1.json's snapshot of
+  the concept graph); the other 28 rows are PENDING against 11 source files
+  across Kasr and Alexandria (named in each row's own field_notes "apply
+  after" line, since there are too many distinct targets for a short letter
+  key here — grep each row's field_notes for its own file). Same rule as
+  batch 1: this file only adds SCU's own tags onto an id that already
+  exists elsewhere, never a full record, so it can never evict another
+  university's data. Four originally-"pending" candidates this lane
+  triaged (anatomy-flexion x2, biochemistry-monosaccharides,
+  genetics-second-meiotic-division) found no concept whose own definition
+  actually matches the FOMSCU question on a close read and are NOT in this
+  file — they stay in the ledger's remaining bucket for the S2 minting pass.
+
+  Gate batch 2 together with every file named in this batch's field_notes:
+  node scripts/content/gate.mjs batch docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-questions-batch2.md \
+    --with docs/FOMSCU-Source-Imports/pending-live/SCU-FBS102-overlay-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/101-ISK-practical-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/102-INT-physiology-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md \
+    --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md \
+    --with docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md \
+    --with docs/Alexandria-Source-Imports/concept/AU-MED-102-anatomy-concepts.md \
+    --with docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md
 -->
 
 # Item
@@ -374,3 +407,726 @@ SCU-FBS102 > Histology > Cytology > Cytoplasmic Organelles
 scu: FOMSCU Foundation 1 EOM 2026 Q10 — tests the Golgi apparatus as the organelle that modifies and packages protein for secretion. Target C — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
 
 ---
+
+# Item
+
+## id
+CON-MSK-12504AAE2403E8
+
+## label
+Anatomical bone classification by shape includes long, short, flat, and irregular bones
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Lower Limb > Foot
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q48 (also 2022 Q28) — tests the cuboid as a tarsal (short) bone. Target: live, no apply-after.
+
+---
+
+# Item
+
+## id
+CON-MSK-888467E7C45479
+
+## label
+Skeletal muscles are classified by the direction of their fibres, from strap-like to multipennate
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Basis of Anatomy > Muscular System
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q39 (also 2022 Q19) — tests rectus femoris as bipennate. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-MSK-EE7CDEF8ACA587
+
+## label
+The three anatomical planes are named by the two parts each one leaves behind
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Basis of Anatomy > Anatomical Terminology
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q64 (also 2022 Q44) — tests the coronal plane as anterior/posterior divider. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-MSK-782A87EC05EF74
+
+## label
+The elbow is a synovial hinge between humerus, ulna and radius, held by collateral ligaments
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Upper Limb > Elbow
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q9 — tests the elbow as the typical hinge joint. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-14D80DE53DE835
+
+## label
+Nerve cells are classed by how many processes leave the cell body: one, two, or more than two
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Basis of Anatomy > Nervous Tissue
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q37+38 (also 2022 Q17+18) — one concept covers both the pseudounipolar dorsal-root-ganglion cell and the multipolar motor-neuron shape. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-MSK-B080975D6171CF
+
+## label
+Skeletal, cardiac and smooth muscle differ across site, size, fibre composition, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Anatomy > Basis of Anatomy > Muscular System
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q10 — tests smooth muscle as the visceral muscle type. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-NEU-D28EA156B57AB0
+
+## label
+The autonomic efferent pathway to the viscera is a two-neuron chain - preganglionic then postganglionic - unlike the single-neuron somatic motor pathway to skeletal muscle
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Physiology > Autonomic Nervous System
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q12 — tests the ANS's two divisions. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-physiology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-NEU-42BB9566BBF6CF
+
+## label
+Cells signal each other directly through gap junctions, or at a distance through neural and hormonal communication
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Physiology > Cell Physiology > Intercellular Communication
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q32 (also 2022 Q12) — tests the synaptic cleft. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-D10E79C01B3345
+
+## label
+Adenylate cyclase synthesises cAMP from ATP, and phosphodiesterase degrades cAMP back down, so the balance of the two enzymes sets the second messenger's level
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Enzymes and Cell Signalling
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q12 — tests ATP as cAMP's precursor. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-DABC4FFBD58B80
+
+## label
+Arginine and histidine are the semi-essential amino acids — synthesised by the body but not fast enough to meet demand during growth
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Amino Acids and Proteins
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOM 2026 Q1 — tests arginine as (semi-)essential. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-853096A349FFBD
+
+## label
+Glycolysis has three irreversible steps, and the committed one is PFK-1 making fructose 1,6-bisphosphate
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Carbohydrate Metabolism > Glycolysis
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q19+27 (also 2022 Q7, 2023 Q19) — one concept covers glyceraldehyde 3-phosphate as the preparatory-phase product, asked from two angles. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-3FF9CA93465562
+
+## label
+Glycine is the one amino acid with no asymmetric carbon, making it optically inactive and the shortest amino acid
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Amino Acids and Proteins
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q5 — tests glycine as optically inactive. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-99CEF760A9D2CC
+
+## label
+Secondary structure is mainly α-helix or β-pleated sheet; the α-helix coils the chain along its long axis and is held by intra-chain hydrogen bonds between NH and C=O of different peptide bonds, with R-groups projecting outward, and is disrupted by ionic-bond-forming or ring-structure side chains — while collagen forms its own left-handed helix rather than the ordinary right-handed one
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Protein Structure
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q73 (also 2022 Q52) and EOM 2026 Q4 — same secondary-structure hydrogen-bond fact, paraphrased twice. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-42EE1863F04920
+
+## label
+Irreversible inhibitors permanently disable an enzyme, either by blocking its cofactor or by denaturing or chemically blocking groups on the apoenzyme — heavy-metal salts such as mercury inhibit by combining with the free sulfhydryl group
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Enzymes
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q14 — tests irreversible (covalent) enzyme inhibition. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-85CC08A33D0A88
+
+## label
+The cell membrane is a phospholipid bilayer with cholesterol, peripheral and integral proteins, and carbohydrate on its outer face
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytology > Cell Membrane
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q30 (also 2022 Q10) — tests phospholipids as the membrane-forming component. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-21029C98FEA19F
+
+## label
+Hydrolysis breaks a nucleotide down to a nucleoside plus phosphate, and a nucleoside down to its nitrogenous base plus pentose; named each base, nucleoside and nucleotide by a fixed table (Adenine→Adenosine→AMP, Uracil→Uridine→UMP, and so on)
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Nucleic Acids > Nucleotide Structure
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q13 (also 2023 Q13) — tests guanine (in GTP) as a purine. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-2BD334DFDAE34C
+
+## label
+Monosaccharides form five kinds of derivative — sugar acids, sugar alcohols, deoxy sugars, amino sugars and glycosides — each made by a different modification of the parent sugar
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Carbohydrates > Monosaccharide Derivatives
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q58 (also 2022 Q38) — tests ribitol as a sugar alcohol. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-9F8AE7C57AFBA8
+
+## label
+Tertiary structure folds a polypeptide chain into a specific 3D globular shape, held by hydrophobic interactions between nonpolar side chains, electrostatic bonds between oppositely charged side chains, disulfide bonds between cysteines, hydrogen bonds involving hydroxyl/amide/carboxylic/ring-nitrogen groups, and weak Van der Waals interactions
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Biochemistry > Protein Structure
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q49 — tests tertiary structure as stabilised by R-group interactions. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-A5CFD23270ACE3
+
+## label
+DNA replication is semi-conservative: each daughter molecule keeps one original parental strand and gains one newly synthesized strand
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Genetics > Cell Cycle
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q39 — tests DNA replication as semi-conservative and S-phase-confined. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-DEV-215BD7E9E58872
+
+## label
+Gastrulation makes the trilaminar disc in the third week, and all three of its layers come from the epiblast
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Embryology > Gastrulation
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q33 (also 2022 Q13) — tests the epiblast origin of the trilaminar disc. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-9C205E44C3404D
+
+## label
+The cell cycle is mitosis plus a three-phase interphase, with a G0 stable phase for cells that have left the cycle
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Genetics > Cell Cycle
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q15+40 (also 2022 Q20, 2023 Q15) — one cell-cycle-phases concept covers both the 'interphase' and 'S/synthesis phase' framings of the same DNA-replication-timing fact. Target — apply after docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-F5627F4531F391
+
+## label
+Three checkpoints police the cell cycle: the G1 checkpoint checks cell size, nutrients, growth factors and DNA damage; the G2 checkpoint checks cell size and DNA damage; and the spindle-assembly checkpoint checks that chromosomes are properly attached to the spindle
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Genetics > Cell Cycle
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q52 (also 2022 Q32) — tests the spindle-assembly checkpoint controlling M phase. Target — apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-MSK-0824FE988ADA00
+
+## label
+The sarcomere, the segment between two Z lines, is the functional contractile unit of striated muscle
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Muscle Tissue > Sarcomere
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q16 (also 2023 Q16) — tests the myosin-containing A band as the dark sarcomere band. Target — apply after docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-405BB5EA3C359E
+
+## label
+The Golgi is a stack of flat saccules with an entry and an exit face, and everything it buds off leaves from the exit face
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytology > Cytoplasmic Organelles
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOM 2026 Q10 and EOY 2026 Q23 — same Golgi packaging/modification function, asked from two source papers. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-4284C6B8667CD6
+
+## label
+A ribosome is a non-membranous particle of rRNA and protein, assembled as two unequal subunits in the nucleolus
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Cytology > Nucleus
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOM 2026 Q2 and Formative and Past Exams 2021 Q77 (also 2022 Q56) — same ribosome-biogenesis fact (rRNA made in the nucleolus, unites with protein), asked from two angles. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-NEU-7C20A38BB4B865
+
+## label
+The perineurium, a sleeve of layered flattened cells joined by tight junctions around each nerve fascicle, forms the blood-nerve barrier
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Nervous Tissue > Peripheral Nerve Coverings
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, Formative and Past Exams 2021 Q46 (also 2022 Q26) — tests the perineurium as the per-fascicle covering. Target — apply after docs/Alexandria-Source-Imports/concept/AU-MED-105-histology-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-8EEA6972B77898
+
+## label
+Keratinized and non-keratinized stratified squamous epithelium differ in what lies on the surface
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > General Histology > Epithelial Tissue
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q27 — tests keratinized stratified squamous epithelium as the epidermis lining. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-practical-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-7FB8290199B237
+
+## label
+Yellow elastic connective tissue is a dense field of thin, single, zigzag elastic fibres, yellow in the fresh state
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Histology > Connective Tissue > Types of Connective Tissue Proper
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q36 — tests yellow elastic CT in the aorta wall. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-practical-concepts.md.
+
+---
+
+# Item
+
+## id
+CON-FND-E66C68C0B80D16
+
+## label
+The membrane takes material in by phagocytosis, pinocytosis or receptor-mediated endocytosis, and puts it out by exocytosis
+
+## universities
++scu
+
+## learner_years
++1
+
+## modules
++SCU-FBS102
+
+## module_subject
+SCU-FBS102 > Physiology > Cell Physiology > Membrane Transport
+
+## field_notes
+scu: FOMSCU Foundation 1 QBank, EOY 2026 Q57 — tests receptor-mediated endocytosis as the route lipoproteins take into cells. Target — apply after docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md.
