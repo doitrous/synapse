@@ -1,5 +1,5 @@
 # LANE-CARD — Ain Shams University Year 1 (asu)
-**No separate LANE-BRIEF.md exists for this lane — this card is the brief.** Read this card first; open the full manual only at a wall named in your report.
+**No separate LANE-BRIEF.md exists for this lane — this card is the brief.** Read this card first; open the full manual only at a wall named in your report. **Years 2–3 have their own companion card, `LANE-CARD-Y2-3.md`** (this file was already near the 6 KB cap) — read that one alongside this one for any Y2/Y3 work.
 
 ## 1. Identity and ids
 University id `asu`. Years `ASU_Y1`–`ASU_Y3`. Module ids `ASU-<CODE>` — uppercase, hyphens: `ASU-IBM` (Introduction to Medical Biochemistry), `ASU-HCB`, `ASU-GPHARM`, `ASU-BLOOD`, `ASU-CVS`, `ASU-AE`, `ASU-IMM`, `ASU-RESP`, `ASU-RES-METH-3`, `ASU-COMM`. Concept ids mint university-blind — one canonical key gives one id regardless of who mints it, so ASU biochemistry overlaps heavily with existing Kasr/Alexandria concepts (§7). Files: `docs/Ain-Shams-Source-Imports/{concept,article,question,evidence,coverage,pending-live,manifest,resource}/`.
