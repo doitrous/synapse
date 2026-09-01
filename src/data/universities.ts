@@ -242,6 +242,11 @@ export const universities: University[] = [
   { id: 'mti', name: 'MTI University', short: 'MTI', region: 'Cairo', years: buildYears('MTI') },
   { id: 'must', name: 'MUST University', short: 'MUST', region: 'October City, Cairo', years: buildYears('MUST') },
   { id: 'ksu', name: 'Kafr Elsheikh University', short: 'KSU', region: 'Kafr El Sheikh', years: buildYears('KSU') },
+  { id: 'scu', name: 'Suez Canal University (FOMSCU)', short: 'SCU', region: 'Ismailia', years: buildYears('SCU') },
+  { id: 'aun', name: 'Assiut University', short: 'AUN', region: 'Assiut', years: buildYears('AUN') },
+  { id: 'o6u', name: '6 October University', short: 'O6U', region: '6th of October City', years: buildYears('O6U') },
+  { id: 'mans', name: 'Mansoura University', short: 'MANS', region: 'Mansoura', years: buildYears('MANS') },
+  { id: 'svu', name: 'South Valley University (Qena)', short: 'SVU', region: 'Qena', years: buildYears('SVU') },
 ]
 
 /** A fresh set of years (default curriculum) for a newly added university. */
