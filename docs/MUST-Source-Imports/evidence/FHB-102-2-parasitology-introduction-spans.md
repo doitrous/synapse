@@ -2461,3 +2461,91 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q89-01
 
 ## citation_ids
 CIT-INF-MUST-FHB1022-MUCIZE-Q89-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q91-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q91-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q91-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q92-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## section_id
+art-inf-must-fhb1022-sandfly-diseases-definition
+
+## text
+Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q92-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q92-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q93-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Old World Phlebotomus species are associated with savanna and desert environments.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q93-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q93-01
+
+---
+
+# Item
+
+## id
+SPN-INF-MUST-FHB1022-MUCIZE-Q94-01
+
+## article_id
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## section_id
+art-inf-must-fhb1022-sandfly-biology-definition
+
+## text
+Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.
+
+## claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q94-01
+
+## citation_ids
+CIT-INF-MUST-FHB1022-MUCIZE-Q94-01

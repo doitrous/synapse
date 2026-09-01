@@ -4925,3 +4925,179 @@ no
 ## qualifiers
 curriculum: MUST FHB102-2 Parasitology
 source question: Mucize Parasitology core Q89
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q91-01
+
+## concept_id
+CON-INF-4FA4163EEF10FF
+
+## subject
+Sandflies breed in humid cracks and crevices
+
+## predicate
+states
+
+## object
+Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+
+## display_text
+Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q91
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q92-01
+
+## concept_id
+CON-INF-F25D45A3C5F542
+
+## subject
+Sandflies transmit pathogens through infective bites
+
+## predicate
+states
+
+## object
+Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
+
+## display_text
+Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q92
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q93-01
+
+## concept_id
+CON-INF-A460148960888B
+
+## subject
+Old World Phlebotomus inhabits deserts and savannas
+
+## predicate
+states
+
+## object
+Old World Phlebotomus species are associated with savanna and desert environments.
+
+## display_text
+Old World Phlebotomus species are associated with savanna and desert environments.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q93
+
+---
+
+# Item
+
+## id
+CLM-INF-MUST-FHB1022-MUCIZE-Q94-01
+
+## concept_id
+CON-INF-D1A1215A337B4F
+
+## subject
+Phlebotomus papatasi is prevalent in Egypt
+
+## predicate
+states
+
+## object
+Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.
+
+## display_text
+Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.
+
+## risk_class
+foundational_stable
+
+## verification_status
+verified
+
+## conflict_status
+none
+
+## confidence
+0.9
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+curriculum: MUST FHB102-2 Parasitology
+source question: Mucize Parasitology core Q94

@@ -4123,6 +4123,9 @@ Adult sandflies hide in rodent burrows and in cracks and crevices of buildings d
 Sandflies are weak fliers with a tendency to hop.
 As a rule, female sandflies are the blood-sucking sex.
 Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+Old World Phlebotomus species are associated with savanna and desert environments.
+Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.
 
 ## published_summary
 
@@ -4150,6 +4153,9 @@ Sandflies undergo complete metamorphosis.
 Sandflies are weak fliers with a tendency to hop.
 As a rule, female sandflies are the blood-sucking sex.
 Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
+Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+Old World Phlebotomus species are associated with savanna and desert environments.
+Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.
 
 ## lose_the_mark
 The governed naming feature is colour, not breeding substrate, desert restriction or beach habitat.
@@ -4171,6 +4177,9 @@ The governed deck does not describe incomplete, mixed or absent metamorphosis.
 The deck does not describe strong flight, hovering or straight-line gliding.
 The governed statement does not assign blood feeding to males or to neither sex.
 The governed explanation is not contaminated food, urban restriction or universal worldwide distribution.
+Open water and stagnant pools are mosquito-style aquatic habitats, and animal waste is not the governed answer.
+The governed Old World habitat is not forest, frozen tundra or marshland.
+Lutzomyia longipalpis is a New World sandfly, while Anopheles pharoensis and Aedes aegypti are mosquitoes.
 
 ## callout_evidence
 ### Sandflies are called sandflies because they have a sandy yellow colour.
@@ -4268,6 +4277,21 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q76-01
 Reviewed by: pending medical review
 
+### Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q91-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q91-01
+Reviewed by: pending medical review
+
+### Old World Phlebotomus species are associated with savanna and desert environments.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q93-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q93-01
+Reviewed by: pending medical review
+
+### Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q94-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q94-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-04788D75905E81
 CON-INF-51472DA1BC2690
@@ -4281,6 +4305,8 @@ CON-INF-3D7119FED6F45C
 CON-INF-999163730B9587
 CON-INF-93E9B181184A6B
 CON-INF-F4101FB9DECB61
+CON-INF-4FA4163EEF10FF
+CON-INF-A460148960888B
 
 ## related_articles
 ART-INF-MUST-FHB1022-SANDFLY-DISEASES: Sandfly bite reactions and transmitted diseases
@@ -4306,6 +4332,9 @@ QST-MUST-FHB1022-PARA-MUCIZE-Q72
 QST-MUST-FHB1022-PARA-MUCIZE-Q74
 QST-MUST-FHB1022-PARA-MUCIZE-Q75
 QST-MUST-FHB1022-PARA-MUCIZE-Q76
+QST-MUST-FHB1022-PARA-MUCIZE-Q91
+QST-MUST-FHB1022-PARA-MUCIZE-Q93
+QST-MUST-FHB1022-PARA-MUCIZE-Q94
 
 ## resource_ids
 src_a82c32271ee38d0b2cad
@@ -4335,6 +4364,9 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q72-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q74-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q75-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q76-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q91-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q93-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q94-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SAND2-Q01-01
@@ -4356,6 +4388,9 @@ SPN-INF-MUST-FHB1022-MUCIZE-Q72-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q74-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q75-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q76-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q91-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q93-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q94-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -4455,6 +4490,21 @@ Id: ann-must-fhb1022-mucize-q75
 Quote: Phlebotomus-borne diseases tend to be localized because sandflies are weak fliers.
 Block: body
 Id: ann-must-fhb1022-mucize-q76
+
+### definition_of · CON-INF-4FA4163EEF10FF
+Quote: Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+Block: body
+Id: ann-must-fhb1022-mucize-q91
+
+### definition_of · CON-INF-A460148960888B
+Quote: Old World Phlebotomus species are associated with savanna and desert environments.
+Block: body
+Id: ann-must-fhb1022-mucize-q93
+
+### definition_of · CON-INF-D1A1215A337B4F
+Quote: Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.
+Block: body
+Id: ann-must-fhb1022-mucize-q94
 
 ## media
 
@@ -4605,6 +4655,7 @@ Visceral leishmaniasis is associated with hepatosplenomegaly.
 Sandfly fever is transmitted propagatively by sandflies.
 Bartonella bacilliformis causes Oroya fever.
 Bartonella bacilliformis is transmitted propagatively inside sandflies.
+Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
 
 ## published_summary
 
@@ -4625,6 +4676,7 @@ Sandfly fever is caused by a virus.
 Sandfly fever is transmitted propagatively by sandflies.
 Bartonella bacilliformis causes Oroya fever.
 Bartonella bacilliformis is transmitted propagatively inside sandflies.
+Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
 
 ## lose_the_mark
 The governed reaction is symptomatic papular erythema rather than a painless mark, fading bruise or immediate blister.
@@ -4639,6 +4691,7 @@ Bacteria, protozoa and fungi are not the governed causative-agent class.
 The deck distinguishes this from mechanical, cyclopropagative and cyclodevelopmental transmission.
 Malaria, dengue and leishmaniasis are not caused by Bartonella bacilliformis.
 The governed deck does not label this cyclodevelopmental or mechanical.
+The governed diseases are not transmitted through food, direct contact or inhalation.
 
 ## callout_evidence
 ### A sandfly bite typically causes a painful and itchy red papule surrounded by erythema.
@@ -4701,11 +4754,17 @@ Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
 Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q85-01
 Reviewed by: pending medical review
 
+### Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
+Claims: CLM-INF-MUST-FHB1022-MUCIZE-Q92-01
+Citations: CIT-INF-MUST-FHB1022-MUCIZE-Q92-01
+Reviewed by: pending medical review
+
 ## related_concepts
 CON-INF-D884D3F6076D08
 CON-INF-F538E763E1260E
 CON-INF-482144C092C2DD
 CON-INF-F58AE2DFC9E4A1
+CON-INF-F25D45A3C5F542
 
 ## related_articles
 ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY: Sandfly taxonomy, development and bionomics
@@ -4724,6 +4783,7 @@ QST-MUST-FHB1022-PARA-MUCIZE-Q82
 QST-MUST-FHB1022-PARA-MUCIZE-Q83
 QST-MUST-FHB1022-PARA-MUCIZE-Q84
 QST-MUST-FHB1022-PARA-MUCIZE-Q85
+QST-MUST-FHB1022-PARA-MUCIZE-Q92
 
 ## resource_ids
 src_a82c32271ee38d0b2cad
@@ -4746,6 +4806,7 @@ CLM-INF-MUST-FHB1022-MUCIZE-Q82-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q83-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q84-01
 CLM-INF-MUST-FHB1022-MUCIZE-Q85-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q92-01
 
 ## span_ids
 SPN-INF-MUST-FHB1022-SAND2-Q09-01
@@ -4760,6 +4821,7 @@ SPN-INF-MUST-FHB1022-MUCIZE-Q82-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q83-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q84-01
 SPN-INF-MUST-FHB1022-MUCIZE-Q85-01
+SPN-INF-MUST-FHB1022-MUCIZE-Q92-01
 
 ## university_notes
 must: The bounded Absalam questions are retained with their printed wording, options and keys and checked against the governed MUST FHB102-2 teaching deck named in article_source_ids.
@@ -4824,6 +4886,11 @@ Id: ann-must-fhb1022-mucize-q84
 Quote: Bartonella bacilliformis is transmitted propagatively inside sandflies.
 Block: body
 Id: ann-must-fhb1022-mucize-q85
+
+### definition_of · CON-INF-F25D45A3C5F542
+Quote: Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
+Block: body
+Id: ann-must-fhb1022-mucize-q92
 
 ## media
 

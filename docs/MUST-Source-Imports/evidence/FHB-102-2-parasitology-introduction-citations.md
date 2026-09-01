@@ -4477,3 +4477,163 @@ The university-branded FHB102-2 deck directly supports the unchanged printed Muc
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q91-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q91-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official breeding-site slide identifies humid cracks and crevices of buildings and states that sandflies are not aquatic breeders like mosquitoes.
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly breeding habitat
+
+## locator_detail
+PDF page 9, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q91 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q92-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q92-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official deck describes Leishmania deposition through an infected sandfly bite and injection of sandfly-fever virus or Bartonella with saliva.
+
+## locator_type
+page
+
+## locator_page
+10, 15, 26, 28
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly-borne transmission
+
+## locator_detail
+PDF page 10, 15, 26, 28, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q92 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q93-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q93-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official habits slide describes Old World Phlebotomus as savanna and desert species with low rainfall.
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly ecology
+
+## locator_detail
+PDF page 7, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q93 answer B.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-INF-MUST-FHB1022-MUCIZE-Q94-01
+
+## claim_id
+CLM-INF-MUST-FHB1022-MUCIZE-Q94-01
+
+## resource_id
+src_a82c32271ee38d0b2cad
+
+## evidence_role
+local_curriculum
+
+## support_span
+The official distribution slide directly identifies Phlebotomus papatasii as prevalent in Egypt.
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+Arthropod Vectors for Disease Transmission — Sandflies — Sandfly distribution
+
+## locator_detail
+PDF page 4, visually read direct teaching statement.
+
+## context_note
+The university-branded FHB102-2 deck directly supports the unchanged printed Mucize Parasitology core Q94 answer C.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes

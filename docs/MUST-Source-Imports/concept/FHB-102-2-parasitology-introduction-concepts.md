@@ -9311,6 +9311,7 @@ ART-INF-MUST-FHB1022-SANDFLY-CONTROL
 ## resource_ids
 src_a82c32271ee38d0b2cad
 src_8bd3b772b3b32db59726
+src_352f47c6e866e76a9d8b
 
 ## approved_file_resource_ids
 [clear]
@@ -9344,6 +9345,7 @@ MUST_Y1=0.45
 
 ## atomic_claim_ids
 CLM-INF-MUST-FHB1022-SAND2-Q05-01
+CLM-INF-MUST-FHB1022-MUCIZE-Q94-01
 
 ## resource_occurrence_ids
 [clear]
@@ -9353,10 +9355,13 @@ CLM-INF-MUST-FHB1022-SAND2-Q05-01
 
 ## exam_signal
 src_8bd3b772b3b32db59726 | tier 3 | 2025 | p11 Sandfly Q5; printed answer p18
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p19 Mucize Parasitology core Q94; printed answer p19
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p4 direct university teaching
 src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p4 direct university teaching
 
 ## original_wording
 Which species of sandfly is prevalent in Egypt? Printed key B; options retained in their original order.
+Which species of sandfly is prevalent in Egypt? Printed key C; options retained in their original order.
 
 ## merge_ids
 [clear]
@@ -9365,7 +9370,7 @@ Which species of sandfly is prevalent in Egypt? Printed key B; options retained 
 [clear]
 
 ## conflicts
-No key conflict affects authored Sandfly Q5. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+No key conflict affects authored Sandfly Q5. Its printed B agrees with the governed university teaching statement. No key conflict affects authored Mucize Parasitology core Q94. Its printed C agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
@@ -13788,6 +13793,552 @@ Which of the following insecticides is effective against sandflies? Printed key 
 
 ## conflicts
 No key conflict affects authored Mucize Parasitology core Q88. Its printed A agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-4FA4163EEF10FF
+
+## label
+Sandflies breed in humid cracks and crevices
+
+## canonical_key
+parasitology.sandfly.breeding-humid-cracks-crevices
+
+## aliases
+Sandfly breeding sites
+Humid crack sandfly habitat
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandfly breeding habitat includes humid cracks and crevices rather than open water.
+
+## explicit_objective
+Identify humid cracks and crevices as the offered sandfly breeding habitat.
+
+## pitfalls
+Open water and stagnant pools are mosquito-style aquatic habitats, and animal waste is not the governed answer.
+
+## concept_type
+ecology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly breeding habitat
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly breeding habitat
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q91-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p19 Mucize Parasitology core Q91; printed answer p19
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p9 direct university teaching
+
+## original_wording
+What is the main breeding site of sandflies? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q91. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-F25D45A3C5F542
+
+## label
+Sandflies transmit pathogens through infective bites
+
+## canonical_key
+parasitology.sandfly.bite-pathogen-inoculation
+
+## aliases
+Sandfly bite transmission
+Pathogen inoculation by sandflies
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.
+
+## explicit_objective
+Identify infective biting and pathogen inoculation as the sandfly transmission route.
+
+## pitfalls
+The governed diseases are not transmitted through food, direct contact or inhalation.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly-borne transmission
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly-borne transmission
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q92-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p19 Mucize Parasitology core Q92; printed answer p19
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p10, 15, 26, 28 direct university teaching
+
+## original_wording
+How do sandflies transmit diseases? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q92. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
+
+## uncertainty
+The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.
+
+## evidence_gaps
+Independent standard-reference and medical review remain required before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been medically reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+nanotopicId: No verified nanotopic below the selected Parasitology node exists for this concept.
+microtopicId: The reviewed taxonomy stops at the selected Parasitology topic; the narrower curriculum phrase remains in module_subject rather than inventing a node.
+approvedFileResourceIds: Neither local PDF has been rights-cleared for student download.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: Hand-authored from governed visual evidence; no extraction occurrence was minted.
+sourceCandidateIds: The required live/pending search gate returned no record for this exact proposed concept.
+rejectedMergeCandidateIds: No manual raw-corpus merge candidate survived the identity audit.
+lastReviewed: New under-review record; no medical reviewer has completed review.
+reviewDue: Set after first medical review.
+relationships: Related reading is restricted to complete reciprocal articles in this bounded batch; existing exact-ID articles retain their prior governed content and relationships.
+
+---
+
+# Item
+
+## id
+CON-INF-A460148960888B
+
+## label
+Old World Phlebotomus inhabits deserts and savannas
+
+## canonical_key
+parasitology.sandfly.phlebotomus-desert-savanna
+
+## aliases
+Phlebotomus habitat
+Old World sandfly ecology
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Old World Phlebotomus species are associated with savanna and desert environments.
+
+## explicit_objective
+Identify deserts and savannas as the offered Phlebotomus environment.
+
+## pitfalls
+The governed Old World habitat is not forest, frozen tundra or marshland.
+
+## concept_type
+ecology
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+inf
+
+## primary_node_id
+DIS-PAR-T03
+
+## secondary_node_ids
+SYS-FND-T05-S02-M02
+DIS-PAR
+
+## topic
+Parasitology
+
+## subtopic
+Arthropods and vectors
+
+## microtopic
+Sandfly ecology
+
+## nanotopic
+
+
+## modules
+MUST-FHB-102-2
+
+## module_subject
+MUST-FHB-102-2 > Parasitology > Arthropods and vectors > Sandfly ecology
+
+## article_ids
+ART-INF-MUST-FHB1022-SANDFLY-BIOLOGY
+
+## related_article_ids
+ART-INF-MUST-FHB1022-SANDFLY-DISEASES
+ART-INF-MUST-FHB1022-SANDFLY-CONTROL
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_a82c32271ee38d0b2cad
+src_352f47c6e866e76a9d8b
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+must
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+MUST_Y1=0.45
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.55
+
+## confidence
+0.9
+
+## atomic_claim_ids
+CLM-INF-MUST-FHB1022-MUCIZE-Q93-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## exam_signal
+src_352f47c6e866e76a9d8b | tier 3 | 2025 | p19 Mucize Parasitology core Q93; printed answer p19
+src_a82c32271ee38d0b2cad | tier 2 | 2022-04-01 | p7 direct university teaching
+
+## original_wording
+What type of environment does Phlebotomus prefer? Printed key B; options retained in their original order.
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+No key conflict affects authored Mucize Parasitology core Q93. Its printed B agrees with the governed university teaching statement. Held questions remain outside this concept.
 
 ## uncertainty
 The Draft is limited to the direct local teaching statement and does not upgrade the student-authored printed key to faculty authority.

@@ -932,6 +932,42 @@ const mucizeParasitologyItems = [
     claim: 'Sleeping under mosquito nets with fine or narrow mesh helps prevent sandfly bites.', support: 'The official integrated-control slide recommends mosquito nets with narrow meshes.',
     objective: 'Identify fine-mesh bed nets as an effective sandfly-bite prevention measure.', pitfalls: 'Bright clothing, tap-water avoidance and vitamin intake are not the governed bite-prevention measures.', rejected: [],
   },
+  {
+    q: 91, conceptId: 'CON-INF-4FA4163EEF10FF', canonicalKey: 'parasitology.sandfly.breeding-humid-cracks-crevices',
+    label: 'Sandflies breed in humid cracks and crevices', aliases: ['Sandfly breeding sites', 'Humid crack sandfly habitat'], conceptType: 'ecology',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly breeding habitat', teachingPage: 9, assessmentPage: 19, answerPage: 19,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What is the main breeding site of sandflies?', key: 'B', options: ['Open water', 'Humid cracks and crevices', 'Animal waste', 'Stagnant pools'],
+    claim: 'Sandfly breeding habitat includes humid cracks and crevices rather than open water.', support: 'The official breeding-site slide identifies humid cracks and crevices of buildings and states that sandflies are not aquatic breeders like mosquitoes.',
+    objective: 'Identify humid cracks and crevices as the offered sandfly breeding habitat.', pitfalls: 'Open water and stagnant pools are mosquito-style aquatic habitats, and animal waste is not the governed answer.', rejected: [],
+  },
+  {
+    q: 92, conceptId: 'CON-INF-F25D45A3C5F542', canonicalKey: 'parasitology.sandfly.bite-pathogen-inoculation',
+    label: 'Sandflies transmit pathogens through infective bites', aliases: ['Sandfly bite transmission', 'Pathogen inoculation by sandflies'], conceptType: 'mechanism',
+    article: 'sandflyDiseases', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly-borne transmission', teachingPages: '10, 15, 26, 28', assessmentPage: 19, answerPage: 19,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'How do sandflies transmit diseases?', key: 'B', options: ['Through contaminated food', 'By biting humans and injecting pathogens', 'By direct contact', 'By inhalation'],
+    claim: 'Sandflies transmit governed protozoal, bacterial and viral pathogens through infective bites.', support: 'The official deck describes Leishmania deposition through an infected sandfly bite and injection of sandfly-fever virus or Bartonella with saliva.',
+    objective: 'Identify infective biting and pathogen inoculation as the sandfly transmission route.', pitfalls: 'The governed diseases are not transmitted through food, direct contact or inhalation.', rejected: [],
+  },
+  {
+    q: 93, conceptId: 'CON-INF-A460148960888B', canonicalKey: 'parasitology.sandfly.phlebotomus-desert-savanna',
+    label: 'Old World Phlebotomus inhabits deserts and savannas', aliases: ['Phlebotomus habitat', 'Old World sandfly ecology'], conceptType: 'ecology',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly ecology', teachingPage: 7, assessmentPage: 19, answerPage: 19,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'What type of environment does Phlebotomus prefer?', key: 'B', options: ['Forested areas', 'Deserts and savannas', 'Frozen tundras', 'Marshlands'],
+    claim: 'Old World Phlebotomus species are associated with savanna and desert environments.', support: 'The official habits slide describes Old World Phlebotomus as savanna and desert species with low rainfall.',
+    objective: 'Identify deserts and savannas as the offered Phlebotomus environment.', pitfalls: 'The governed Old World habitat is not forest, frozen tundra or marshland.', rejected: [],
+  },
+  {
+    q: 94, conceptId: 'CON-INF-D1A1215A337B4F', canonicalKey: 'parasitology.sandfly.papatasi-egypt',
+    label: 'Phlebotomus papatasi is prevalent in Egypt', aliases: ['Egyptian sandfly species', 'Phlebotomus papatasi'], conceptType: 'epidemiology',
+    article: 'sandflyBiology', primaryNode: 'DIS-PAR-T03', subtopic: 'Arthropods and vectors', microtopic: 'Sandfly distribution', teachingPage: 4, assessmentPage: 19, answerPage: 19,
+    teachingResourceId: sandflyResourceId, teachingTitle: 'Arthropod Vectors for Disease Transmission — Sandflies',
+    stem: 'Which species of sandfly is prevalent in Egypt?', key: 'C', options: ['Lutzomyia longipalpis', 'Anopheles pharoensis', 'Phlebotomus papatasii', 'Aedes aegypti'],
+    claim: 'Phlebotomus papatasii is the sandfly species identified as prevalent in Egypt.', support: 'The official distribution slide directly identifies Phlebotomus papatasii as prevalent in Egypt.',
+    objective: 'Identify Phlebotomus papatasii as the locally prevalent sandfly species.', pitfalls: 'Lutzomyia longipalpis is a New World sandfly, while Anopheles pharoensis and Aedes aegypti are mosquitoes.', rejected: [],
+  },
 ].map((item) => ({
   idPrefix: 'MUCIZE', bankQ: item.q, assessmentResourceId: mucizeAssessmentResourceId,
   bankLabel: 'Mucize Parasitology core', ...item,
@@ -9550,7 +9586,7 @@ ar
 Locally supplied student study material; internal curriculum authoring only. The source's copyright notice prohibits reproduction, distribution or commercial use without permission, so the PDF is not student-downloadable.
 
 ## qualification
-All 47 pages were already visually governed in source triage. Physical pages 6–18 were rendered and visually re-read for the bounded Parasitology core Q1–Q90 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85 and Q87–Q89 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86 and Q90 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
+All 47 pages were already visually governed in source triage. Physical pages 6–19 were rendered and visually re-read for the bounded Parasitology core Q1–Q95 authoring audit, including every option and same-page printed answer line. Q3, Q5, Q8, Q9, Q11, Q15, Q28, Q29, Q31, Q38, Q41–Q49, Q54, Q57–Q60, Q62, Q67–Q72, Q74–Q76, Q80, Q82–Q85, Q87–Q89 and Q91–Q94 are authored only where their unchanged printed keys align with direct MUST faculty teaching and safe governed local concept/article identities. Q1–Q2, Q4, Q6–Q7, Q10, Q12–Q14, Q16–Q24, Q26–Q27, Q30, Q32–Q37, Q39–Q40, Q50–Q53, Q55–Q56, Q61, Q63–Q66, Q73, Q77–Q79, Q81, Q86, Q90 and Q95 remain explicit identity, duplicate, dependency, negative-closure, unsupported-precision, non-unique-key or authority-form holds. Q25 is source-absent: the answer row skips Q25 and visibly prints “35.B”; no answer was inferred or renumbered. The student answer lines remain source evidence rather than authenticated faculty keys.
 
 ## confidence
 0.6
@@ -11961,6 +11997,20 @@ function microCoverage() {
 - **Mucize Parasitology Q90 is held as a governed-identity hold.** Printed B is supported, but the paratransgenesis definition and purpose are already represented by two governed Draft questions against \`CON-INF-A0D40E9CB0E211\` / \`ART-INF-MUST-FHB1022-PARATRANSGENESIS\`; no third definition-level record was minted.
 
 `
+  const mucizeParasitologyFourthDelta = `### Mucize Doctors Parasitology core Q91–Q95 delta
+
+- The governed Mucize assessment resource is reused. Physical page 19 was rendered and visually read for all five terminal core prompts, options and same-page answer tokens.
+- +4 verified local-curriculum claims, +4 citations and +4 article spans for Q91–Q94.
+- +3 under-review / needs-evidence concepts and +0 articles. Q94 safely reuses the exact governed Phlebotomus-papatasii identity; the existing standalone-complete reciprocal Draft articles are expanded by exact ID without dropping prior fields or links.
+- +4 Draft questions and +1 explicit leishmaniasis dependency-chain hold with no student-facing record.
+- Every authored stem, option and printed key is unchanged. Q95's printed B is supported but remains outside student-facing content because the diagnosis identity overlaps the existing leishmaniasis article chain.
+- Mucize Parasitology core Q91–Q95: **4 authored / 1 held / 0 source-absent / 0 unassessed**.
+- Mucize Parasitology core Q1–Q95 cumulative: **46 authored / 48 held / 1 source-absent / 0 unassessed**. The exact next boundary is Mucize case-based learning Case 1 on physical page 20.
+
+`
+  const mucizeParasitologyFourthHolds = `- **Mucize Parasitology Q95 is held as an established leishmaniasis dependency-chain hold.** Printed B, Microscopic examination of amastigotes in tissue samples, is supported by the official visceral and cutaneous slides, but tissue microscopy and amastigote morphology overlap the existing cutaneous-leishmaniasis concept/article chain. No duplicate or partial exact-ID widening was created.
+
+`
   return coverage()
     .replace('| Evidence resources | 22 |', '| Evidence resources | 23 |')
     .replace('| Claims | 38 |', '| Claims | 47 |')
@@ -12049,9 +12099,15 @@ function microCoverage() {
     .replace('| Concepts | 148 |', '| Concepts | 153 |')
     .replace('| Questions | 197 |', '| Questions | 215 |')
     .replace('| Question authoring holds | 223 |', '| Question authoring holds | 235 |')
+    .replace('| Claims | 215 |', '| Claims | 219 |')
+    .replace('| Citations | 220 |', '| Citations | 224 |')
+    .replace('| Article spans | 215 |', '| Article spans | 219 |')
+    .replace('| Concepts | 153 |', '| Concepts | 156 |')
+    .replace('| Questions | 215 |', '| Questions | 219 |')
+    .replace('| Question authoring holds | 235 |', '| Question authoring holds | 236 |')
     .replace('| Source-absent prompt dispositions | 1 |', '| Source-absent prompt dispositions | 2 |')
     .replace('Q32 has no printed answer and remains un-authored', 'opening-bank Q32 and Mucize Q25 have no printed answer and remain un-authored')
-    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}`)
+    .replace('## Explicit authoring holds\n\n', `${delta}${secondDelta}${thirdDelta}${fourthDelta}${mosquitoDelta}${sandflyDelta}${mycologyDelta}${virologyDelta}${chapter10Delta}${pharmacologyPart2Delta}${mucizeParasitologyDelta}${mucizeParasitologySecondDelta}${mucizeParasitologyThirdDelta}${mucizeParasitologyFourthDelta}## Explicit authoring holds\n\n${holds}${secondHolds}${thirdHolds}${fourthHolds}${mosquitoHolds}${sandflyHolds}${mycologyHolds}${virologyHolds}${chapter10Holds}${pharmacologyPart2Holds}${mucizeParasitologyHolds}${mucizeParasitologySecondHolds}${mucizeParasitologyThirdHolds}${mucizeParasitologyFourthHolds}`)
     .replace('Governed prompt observations: 5,444 total; 38 authored; **5,406 raw prompt observations remain**, including 53 explicit holds', 'Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds')
     .replace('Governed answer observations: 5,211 total; 38 clean source-keyed prompts authored; **5,173 raw answer observations remain**, including the 53 held printed-key observations', 'Governed answer observations: 5,211 total; 47 clean source-keyed prompts authored; **5,164 raw answer observations remain**, including the 74 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 47 authored; **5,397 raw prompt observations remain**, including 74 explicit holds', 'Governed prompt observations: 5,444 total; 57 authored; **5,387 raw prompt observations remain**, including 94 explicit holds')
@@ -12076,8 +12132,11 @@ function microCoverage() {
     .replace('Governed answer observations: 5,211 total; 181 clean source-keyed prompts authored; **5,030 raw answer observations remain**, including the 209 held printed-key observations', 'Governed answer observations: 5,211 total; 197 clean source-keyed prompts authored; **5,014 raw answer observations remain**, including the 223 held printed-key observations')
     .replace('Governed prompt observations: 5,444 total; 197 authored; **5,247 raw prompt observations remain**, including 223 explicit holds', 'Governed prompt observations: 5,444 total; 215 authored; **5,229 raw prompt observations remain**, including 235 explicit holds')
     .replace('Governed answer observations: 5,211 total; 197 clean source-keyed prompts authored; **5,014 raw answer observations remain**, including the 223 held printed-key observations', 'Governed answer observations: 5,211 total; 215 clean source-keyed prompts authored; **4,996 raw answer observations remain**, including the 235 held printed-key observations')
+    .replace('Governed prompt observations: 5,444 total; 215 authored; **5,229 raw prompt observations remain**, including 235 explicit holds', 'Governed prompt observations: 5,444 total; 219 authored; **5,225 raw prompt observations remain**, including 236 explicit holds')
+    .replace('Governed answer observations: 5,211 total; 215 clean source-keyed prompts authored; **4,996 raw answer observations remain**, including the 235 held printed-key observations', 'Governed answer observations: 5,211 total; 219 clean source-keyed prompts authored; **4,992 raw answer observations remain**, including the 236 held printed-key observations')
     .replace('including 223 explicit holds and one source-absent opening-family prompt', 'including 223 explicit holds and two source-absent prompts')
     .replace('including 235 explicit holds and one source-absent opening-family prompt', 'including 235 explicit holds and two source-absent prompts')
+    .replace('including 236 explicit holds and one source-absent opening-family prompt', 'including 236 explicit holds and two source-absent prompts')
     .replace('Q32 contributes no answer observation', 'opening-bank Q32 and Mucize Q25 contribute no answer observations')
     .replace('Record-level backlog is not asserted as 5,406 unique records', 'Record-level backlog is not asserted as 5,397 unique records')
     .replace('Record-level backlog is not asserted as 5,397 unique records', 'Record-level backlog is not asserted as 5,387 unique records')
@@ -12091,6 +12150,7 @@ function microCoverage() {
     .replace('Record-level backlog is not asserted as 5,271 unique records', 'Record-level backlog is not asserted as 5,263 unique records')
     .replace('Record-level backlog is not asserted as 5,263 unique records', 'Record-level backlog is not asserted as 5,247 unique records')
     .replace('Record-level backlog is not asserted as 5,247 unique records', 'Record-level backlog is not asserted as 5,229 unique records')
+    .replace('Record-level backlog is not asserted as 5,229 unique records', 'Record-level backlog is not asserted as 5,225 unique records')
     .replace('global Q61–Q90 (Microbiology Ch1-3) and the two later 30-prompt sections remain unopened for downstream authoring.', 'global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.')
     .replace('All twenty-one student-facing articles and all thirty-eight questions remain Draft; all thirty-five concepts', 'All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts')
     .replace('All twenty-three student-facing articles and all forty-seven questions remain Draft; all forty-three concepts', 'All twenty-five student-facing articles and all fifty-seven questions remain Draft; all fifty-three concepts')
@@ -12104,6 +12164,7 @@ function microCoverage() {
     .replace('All forty-four student-facing articles and all one hundred seventy-three questions remain Draft; all one hundred thirty-nine concepts', 'All forty-four student-facing articles and all one hundred eighty-one questions remain Draft; all one hundred thirty-nine concepts')
     .replace('All forty-four student-facing articles and all one hundred eighty-one questions remain Draft; all one hundred thirty-nine concepts', 'All forty-four student-facing articles and all one hundred ninety-seven questions remain Draft; all one hundred forty-eight concepts')
     .replace('All forty-four student-facing articles and all one hundred ninety-seven questions remain Draft; all one hundred forty-eight concepts', 'All forty-four student-facing articles and all two hundred fifteen questions remain Draft; all one hundred fifty-three concepts')
+    .replace('All forty-four student-facing articles and all two hundred fifteen questions remain Draft; all one hundred fifty-three concepts', 'All forty-four student-facing articles and all two hundred nineteen questions remain Draft; all one hundred fifty-six concepts')
     .replace('## Exact backlog after twenty-six slices and terminal reconciliation', '## Exact backlog after the bounded slices and terminal reconciliation')
     .replace('Q2, Q3, Q4, Q6, Q13 through Q31 exist only as authoring-ledger holds; Q32 exists only as a source-absent ledger disposition.', 'All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
     .replace('All 74 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 94 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.')
@@ -12117,6 +12178,7 @@ function microCoverage() {
     .replace('All 188 held prompts exist only as authoring-ledger dispositions with no student-facing record; Q32 exists only as a source-absent ledger disposition.', 'All 209 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 209 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 223 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('All 223 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 235 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
+    .replace('All 235 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.', 'All 236 held prompts exist only as authoring-ledger dispositions with no student-facing record; opening-bank Q32 and Mucize Q25 exist only as source-absent ledger dispositions.')
     .replace('global Q61–Q90 are fully dispositioned; global Q91–Q120, Microbiology Chapter 6, and the final 30-prompt section remain unopened for downstream authoring.', 'global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.')
     .replace('global Q1–Q120 are fully dispositioned; only global Q121–Q150, the final 30-prompt section, remains unopened for downstream authoring.', 'global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.')
     .replace('global Q1–Q150 are fully dispositioned; the Absalam source has no remaining unassessed family.', 'global Q1–Q150 are fully dispositioned for Absalam Part 1; Part 2 Mosquitoes Q1–Q30 are also fully dispositioned. The exact next boundary is Part 2 Sandfly Q1–Q30 on pages 10–18.')
@@ -12129,4 +12191,6 @@ function microCoverage() {
     .replace('The next family boundary is the completed third triage source, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till Midterm by Absalam101 (Part 1).pdf`, SHA-256 `4bd3b78f762673d7eb7f1c0fc76651d76fd335105a287451e47c51d2bd0be5cf`, a 45-page student-authored revision bank containing five independent 30-MCQ sections (150 prompts / 150 printed answers). Its Parasitology Introduction Q1–Q30 and Arthropoda Q1–Q30 boundaries are fully dispositioned; ', 'The current source boundary is the governed 47-page Mucize Doctors student-authored bank, `Year 1/Semester 102/FHB 102-2/00 Module-wide/08 Midterm Exams/FHB102-2 MCQs till mid_MUCIZE DOCTORS PUPLISH.pdf`, SHA-256 `352f47c6e866e76a9d8b2aa4772a0f7d7a731170aa23214ac95ba51021c7213f`. Its physical pages 6–18 / Parasitology core Q1–Q90 are fully dispositioned; ')
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q31.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q61.')
     .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q61.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q91.')
+    .replace('Its physical pages 6–18 / Parasitology core Q1–Q90 are fully dispositioned;', 'Its physical pages 6–19 / Parasitology core Q1–Q95 are fully dispositioned;')
+    .replace('The Absalam Part 2 source is complete. The exact next boundary is Mucize Parasitology Q91.', 'The Absalam Part 2 source is complete. The exact next boundary is Mucize case-based learning Case 1 on physical page 20.')
 }
