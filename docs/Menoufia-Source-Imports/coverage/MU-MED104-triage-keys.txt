@@ -1,0 +1,8 @@
+biochemistry.collagen-vs-elastin.desmosine-cross-link
+biochemistry.menkes-disease.lysyl-oxidase-defect
+biochemistry.ascorbic-acid.not-synthesized-in-humans
+physiology.calcium-absorption.ph-dependence
+biochemistry.vitamin-d.hormone-classification-criteria
+pathology.giant-cell-tumor-of-bone.osteoclastoma
+physiology.vitamin-d-activation.renal-1-alpha-hydroxylase
+pathology.osteomyelitis.sequestrum-dead-bone

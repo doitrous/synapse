@@ -1,0 +1,1189 @@
+# Menoufia University Year 1 — S2 priority source set
+
+Per module: papers (tier 1) -> banks (tier 2) -> department files (tier 3), then notes/textbooks (tier 4), then lectures/practical (tier 5). Within a tier, sorted by relative path. sourceId is the manifest's stable id (`manifest/y1-sources.json`).
+
+## MU-MED101 — MED101 — Foundation 1
+
+### Tier 1 — exam papers (EOM/EOY/Resit-Baqoon)
+
+- `mu_191aaaeeff88f7bfd219` [paper] EOM Practice - Foundation 1 - Anatomy Embryology Histology - Answer-Labeled.pdf
+- `mu_33f3bc32616ff0e4d827` [paper] EOM Practice - Foundation 1 - Anatomy Embryology Histology - Unanswered.pdf
+- `mu_f63b294e2eeab7da0ff8` [paper] EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant A.pdf
+- `mu_186bd9afca2e2121edae` [paper] EOM Practice - Foundation 1 - Biochemistry and Physiology - Variant B.pdf
+- `mu_ec923f6985ed9baa6620` [paper] EOM Practice - Foundation 1 - Support 43 - Alternate.pdf
+- `mu_34ff78aabb8bfd729922` [paper] EOM Practice - Foundation 1 - Support 43 - With Answers.pdf
+- `mu_8cacfd06664367bf5edf` [paper] EOM Practice - Foundation 1 - Support 43 Final - Answered.pdf
+- `mu_17ae62e8491454921061` [paper] EOM Practice - Foundation 1 - Support 43 Final - Unanswered.pdf
+- `mu_a6b4be6c7c2e5e8e3232` [paper] Biochemistry / EOM - Biochemistry - First Module Exam 2019 - Support 43.pdf
+- `mu_c84559a7a1aaec7edf2d` [paper] Physiology / EOM - General Physiology - Midterm Past Questions 2017 - Support 43.pdf
+- `mu_4967f73eab0078b46ac0` [paper] Physiology / Past Exams - General Physiology - MCQ and Written - Answers Unverified.pdf
+### Tier 2 — question banks
+
+- `mu_e49ed26e2a770500d3d2` [bank] Formative Exam - Anatomy and Embryology - Unanswered.pdf
+- `mu_24c1550b01b6ed364a50` [bank] Formative Quiz - Anatomy and Embryology - Attachment.pdf
+- `mu_e890ca033cfe744b0ca1` [bank] Formative Quiz - Anatomy and Embryology.pdf
+- `mu_b9bc5b037c673423272c` [bank] Questions - Foundation 1 - Anatomy and Histology - Support 43.pdf
+- `mu_bd7cd9885fd20a233fc5` [bank] TBL - Foundation 1 - Anatomy and Embryology - Unanswered.pdf
+- `mu_f8ec2868063216a40525` [bank] TBL - Foundation 1 - Anatomy and Embryology - With Answers.pdf
+- `mu_3219ffc5ae7015021048` [bank] Anatomy / Answer Key - Anatomy MCQ Matching and Complete.pdf
+- `mu_44f1e76d152302d77561` [bank] Anatomy / Assessment - Foundation 1 Anatomy - Answers.pdf
+- `mu_805b37690a95bbf690f7` [bank] Anatomy / Assessment - Foundation 1 Anatomy - Unanswered.pdf
+- `mu_9dff6a2a6068c5c653f6` [bank] Anatomy / Important Questions - Anatomy - Skin Muscles and Fascia.pdf
+- `mu_15e0664209ccc2e543bf` [bank] Anatomy / MCQ - Anatomy - Basic Human Anatomy - Dr Adel El-Hawary.pdf
+- `mu_1bac04333855d543733c` [bank] Anatomy / MCQ - Anatomy - Introduction - 60 Questions.pdf
+- `mu_472699335190086ee211` [bank] Anatomy / MCQ - Anatomy - Introduction - Answers - Alternate.pdf
+- `mu_256beed9334e68e38832` [bank] Anatomy / MCQ - Anatomy - Introduction - Answers.pdf
+- `mu_7f5cf69be8780a5376ef` [bank] Anatomy / MCQ - Anatomy - Introduction - Questions.pdf
+- `mu_1b714fa43ef0d01c8804` [bank] Anatomy / MCQ - Basis of Human Anatomy.pdf
+- `mu_7773adc3dd6fcf06b443` [bank] Anatomy / Questions - Anatomy - Basis of Human Anatomy.pdf
+- `mu_8dc24407fb4856f38846` [bank] Anatomy / Questions - Anatomy - Dr Nader Galal.pdf
+- `mu_bfab2f5cb1396df3f69e` [bank] Anatomy / Questions - Anatomy - Fascia Skin and Muscles - With Answers.pdf
+- `mu_5cd2e00aad7ff671867a` [bank] Anatomy / Questions - Anatomy - Joints Lecture 3 - Variant A.pdf
+- `mu_6c0e3d36a47917298500` [bank] Anatomy / Questions - Anatomy - Joints Lecture 3 - Variant B.pdf
+- `mu_46bc865ce9eff83221d8` [bank] Anatomy / Questions - Anatomy - MFM43 Support - Answered.pdf
+- `mu_202bf7ed28bde52b6437` [bank] Anatomy / Questions - Anatomy - Support.pdf
+- `mu_54a5d99709cc8807dea4` [bank] Anatomy / Quiz - Anatomy - Chapter 1 - Dr Mohamed Gamal.pdf
+- `mu_6103a7a2e1a489617ee5` [bank] Biochemistry / Answer Key - Biochemistry - Carbohydrates MCQ.pdf
+- `mu_bc328cacd6c8ee0da698` [bank] Biochemistry / Answer Key - Biochemistry - Enzymes.pdf
+- `mu_9e88126b1baa799c6ee2` [bank] Biochemistry / Answer Key - Biochemistry - Lecture 1 Chemistry Review.pdf
+- `mu_3bb1381ba39aabf3827c` [bank] Biochemistry / Answer Key - Biochemistry - Lecture 2 Nucleic Acids Review.pdf
+- `mu_9275168be6f27584cbcb` [bank] Biochemistry / Answer Key - Biochemistry - Lipids MCQ.pdf
+- `mu_09543456e1ae2c914c81` [bank] Biochemistry / Answer Key - Biochemistry - Physical Chemistry - El-Falaha - Alternate.pdf
+- `mu_86730f70bd23d275e3f5` [bank] Biochemistry / Answer Key - Biochemistry - Physical Chemistry - El-Falaha.pdf
+- `mu_8f90fe52a6b0f01f7b35` [bank] Biochemistry / Answer Key - Biochemistry - Proteins.pdf
+- `mu_43530f19ef6683cd0d23` [bank] Biochemistry / Formative Exam - Biochemistry - Support.pdf
+- `mu_27b3a614a30f26f62513` [bank] Biochemistry / MCQ - Biochemistry - Carbohydrates - Part 1.pdf
+- `mu_2658fb5bec70ac4744b8` [bank] Biochemistry / MCQ - Biochemistry - Carbohydrates - Questions.pdf
+- `mu_65be545f3f633cb08795` [bank] Biochemistry / QBank - Biochemistry - Doctorology.pdf
+- `mu_2d46783dd53917a79d17` [bank] Biochemistry / Questions - Biochemistry - Carbohydrate Chemistry - Handwritten.pdf
+- `mu_ff3487c571c872186e4f` [bank] Biochemistry / Questions - Biochemistry - Department Book.pdf
+- `mu_9b8c6f22858af9e516c5` [bank] Biochemistry / Questions - Biochemistry - DNA - Handwritten.pdf
+- `mu_967550f7e2881e9c0918` [bank] Biochemistry / Questions - Biochemistry - DNA - With Answers.pdf
+- `mu_6db7569bcc8cf8cde056` [bank] Biochemistry / Questions - Biochemistry - Enzymes - Support.pdf
+- `mu_ad29dd78d90090c9ccd2` [bank] Biochemistry / Questions - Biochemistry - Enzymes - With Answers.pdf
+- `mu_88db9ba3ef9cec784d5a` [bank] Biochemistry / Questions - Biochemistry - Enzymes.pdf
+- `mu_3f548d1d0b3908a2c7bf` [bank] Biochemistry / Questions - Biochemistry - Lipids - With Answers.pdf
+- `mu_53e40417cb8283c53514` [bank] Biochemistry / Questions - Biochemistry - Lipids.pdf
+- `mu_667baf39d8e8b7498323` [bank] Biochemistry / Questions - Biochemistry - Nucleic Acids - Attachment.pdf
+- `mu_4a87f019a04683fd799b` [bank] Biochemistry / Questions - Biochemistry - Nucleic Acids - Handwritten.pdf
+- `mu_39a19e9ff3443d08b4e4` [bank] Biochemistry / Questions - Biochemistry - Physical Chemistry - Handwritten.pdf
+- `mu_f1e6a65418978604a362` [bank] Biochemistry / Questions - Biochemistry - Physical Chemistry - Support.pdf
+- `mu_ffa8fcc6f09b464b91d8` [bank] Biochemistry / Questions - Biochemistry - Proteins - With Answers - Support.pdf
+- `mu_2c0183df9319bd43abbd` [bank] Biochemistry / Questions - Biochemistry - Proteins - With Answers.pdf
+- `mu_003b3c3edffc0286e256` [bank] Biochemistry / Questions - Biochemistry - Proteins.pdf
+- `mu_e1d5527b0c63ad582912` [bank] Biochemistry / Test Yourself - Biochemistry - Proteins - Dr Mohamed El-Gamal.pdf
+- `mu_0078ee6885bc63ca9256` [bank] Comprehensive / MDM Comprehensive Foundation 1 Questions - Unanswered - Telegram mid 8773.pdf
+- `mu_ee1245f59f88ed31665f` [bank] Embryology / Answer Key - Embryology - General Embryology.pdf
+- `mu_0f16ce0edbce40a70d56` [bank] Embryology / Answer Key - Embryology - MCQ Matching Complete.pdf
+- `mu_1eb747781a0f081cfa9c` [bank] Embryology / MCQ - Embryology - General Embryology - 50 Questions.pdf
+- `mu_9ac91d6d4c58f7dfe347` [bank] Embryology / Questions - Embryology - First Week of Pregnancy.pdf
+- `mu_5c3bc8c985fa4eeaf885` [bank] Embryology / Questions - Embryology - MCQ.pdf
+- `mu_4b62a412c7e55711730e` [bank] Embryology / Questions - Embryology - MFM43 Support.pdf
+- `mu_68ce7006b33d37f2ca28` [bank] Embryology / Questions - Embryology - Support - With Answers.pdf
+- `mu_0f19abb738ac9870a2b2` [bank] Embryology / Questions - Embryology - Support 43.pdf
+- `mu_7a0ddbaacfefd9a6f094` [bank] Embryology / Quiz - Embryology - Gametogenesis and Menstrual Cycle.pdf
+- `mu_b05fc14a7e878a08de2d` [bank] Histology / Answer Key - Histology - Dr Amr Essam Question Booklet.pdf
+- `mu_395ec0ee7db9b5e348d4` [bank] Histology / Cases - Histology - Dr Amr Essam - With Answers.pdf
+- `mu_1debdd8078c2c70dd31f` [bank] Histology / Cases - Histology - Membranous Organelles - Dr Amr Essam.pdf
+- `mu_68ea86bbe0cea3d1d48f` [bank] Histology / Formative Exam - Histology - Questions - Unanswered.pdf
+- `mu_4970c2e71f161e9e4bbd` [bank] Histology / Formative Exam - Histology - Questions with Answers.pdf
+- `mu_602a1f7b8b2fd11c2ed6` [bank] Histology / Formative Exam - Histology - Support Questions.pdf
+- `mu_bc9a6050f63818bf4df6` [bank] Histology / Formative Exam - Histology - Support.pdf
+- `mu_42091747a89e87bf7442` [bank] Histology / MCQ - Histology - Cytology.pdf
+- `mu_81c81f1205bd22f95cce` [bank] Histology / MCQ - Histology - Medicine Way.pdf
+- `mu_155e69575f5205f71c67` [bank] Histology / Question Booklet - Histology - Dr Ahmed Roshdy.pdf
+- `mu_af34b243c85958bcec05` [bank] Histology / Question Booklet - Histology - Dr Amr Essam.pdf
+- `mu_97554d0237743bdb0b69` [bank] Histology / Questions - Histology - Full Syllabus - Dr Ahmed El Gazzar.pdf
+- `mu_369638151298ceb92fd8` [bank] Histology / Questions - Histology - MFM43 Support.pdf
+- `mu_bb9d1c6a7033d79f5e2f` [bank] Histology / Questions - Histology - Support 43.pdf
+- `mu_47b0ade1fe91653ff253` [bank] Histology / Questions - Histology - Telegram Quiz Compilation.pdf
+- `mu_370c417253d24a04099a` [bank] Histology / Quiz - Histology - Dr Roshdy - Answers.pdf
+- `mu_4c8003341a27cc0d499b` [bank] Histology / Quiz - Histology - Dr Roshdy - Unanswered.pdf
+- `mu_4f54a67a97d14336869d` [bank] Histology / TBL Questions - Histology.pdf
+- `mu_238915f6f907322320af` [bank] Histology / Written Questions - Histology - Important - Dr Ahmed El Gazzar.pdf
+- `mu_961c527b2fcea589aa50` [bank] Physiology / Answer Key - Physiology - General Physiology - Dr Omar Kassem.pdf
+- `mu_8a72c0280881d1973eec` [bank] Physiology / MCQ - Acid Base Balance - Practical.pdf
+- `mu_6162712c5dc6cdd49768` [bank] Physiology / MCQ - Physiology - Autonomic Nervous System - Copy A - 2023.pdf
+- `mu_1eaeca484bd0c1bf4a57` [bank] Physiology / MCQ - Physiology - Autonomic Nervous System - Copy B - 2023.pdf
+- `mu_77cc3a82f84ee6ddf71d` [bank] Physiology / MCQ - Physiology - Dr Omar Kassem.pdf
+- `mu_1c4ebea0d277cb4e107e` [bank] Physiology / MCQ - Physiology - General Physiology - Copy A.pdf
+- `mu_18855e3a32e157333c37` [bank] Physiology / MCQ - Physiology - General Physiology - Copy B.pdf
+- `mu_cd4c8c49e6bd716da98e` [bank] Physiology / MCQ - Physiology - General Physiology.pdf
+- `mu_62886e052b9f7ac6520d` [bank] Physiology / MCQ - Physiology - Transport and Body Fluid Volume.pdf
+- `mu_aa65dc487ac60954ba00` [bank] Physiology / QBF - Physiology - Dr Omar Kassem.pdf
+- `mu_7e7aba80f6465cf55ad4` [bank] Physiology / Question Booklet - Physiology - Dr Omar Kassem.pdf
+- `mu_4a344a1dc84ef9a81a2b` [bank] Physiology / Questions - Physiology - General Physiology - Answers.pdf
+- `mu_0a8f10857f53e89a207f` [bank] Physiology / Questions - Physiology - General Physiology - Dr Omar Kassem.pdf
+- `mu_fb1373f8bf12a2f0081b` [bank] Physiology / Questions - Physiology - General Physiology - MFM43 Support.pdf
+- `mu_e4dab00d3b319ce507a5` [bank] Physiology / Questions - Physiology - General Physiology.pdf
+- `mu_68e45947ca87bb0a9cff` [bank] Physiology / Review Questions - Physiology - Dr Omar Kassem - Comprehensive.pdf
+### Tier 3 — department books
+
+- `mu_e662497ae16e89b9fd8b` [dept-book] Anatomy / Department Book - Foundation 1 Anatomy - 2023-2024.pdf
+- `mu_2241d0f36c5eb2a423db` [dept-book] Biochemistry / Department Book - Foundation 1 Medical Biochemistry - 2023-2024.pdf
+- `mu_dbeee74d5cc6b4b21966` [dept-book] Embryology / Department Book - Foundation 1 General Embryology - 2023-2024.pdf
+- `mu_c270be8a1915c6528825` [dept-book] Histology / Department Book - Foundation 1 Histology - 2023-2024.pdf
+- `mu_1f85c911d9b634e77e8d` [dept-book] Physiology / Department Book - Foundation 1 Physiology - 2023-2024.pdf
+### Tier 4 — notes/textbooks
+
+- `mu_c780b2b699af1f1c7479` [other] Anatomy / Telegram 9579 - Course Session 1 - Overview of Anatomy.pdf
+- `mu_360fc7e04cd9c6e02564` [other] Anatomy / Telegram 9583 - Skeletal System Course Note.pdf
+- `mu_eb912016ccced9b9327b` [other] Biochemistry / Needs Review - Biochemistry - Support41 CNS2 Questions.pdf
+- `mu_d913f616ffb5b425a603` [other] Biochemistry / Notes - Biochemistry - DNA Support.pdf
+- `mu_d89bd48d57fbf43a455f` [other] Embryology / Notes - Embryology - Support ILOs.pdf
+### Tier 5 — lectures/practical-OSCE/administrative
+
+- `mu_f569ef1c77db195cb7a1` [lecture] Anatomy / Telegram 9517 - Section 1 - Organization Regional Terms Abdomen Regions and Body Cavities - 2023.pdf
+- `mu_67882ff49fb3a2fdeff8` [lecture] Anatomy / Telegram 9521 - Section 2 - Skin Fascia Muscle and Blood Vessels - 2023.pdf
+- `mu_1419d45cc8dc9416ee4a` [lecture] Anatomy / Telegram 9527 - Section 3 - Bony Skeleton Cartilage General Bone and Clavicle - 2023.pdf
+- `mu_d942f47bd0eff9d445d2` [lecture] Anatomy / Telegram 9529 - Section 4 - Scapula and Humerus - 2023.pdf
+- `mu_57ea714582f11d221440` [lecture] Anatomy / Telegram 9533 - Section 5 - Radius Ulna and Bones of the Hand - 2023.pdf
+- `mu_c9d9e7056847bee235a9` [lecture] Anatomy / Telegram 9541 - Section 7 - Hip Bone and Femur - 2023.pdf
+- `mu_8aa9c1861231953989b2` [lecture] Anatomy / Telegram 9545 - Section 8 - Tibia and Fibula - 2023.pdf
+- `mu_0bf7f4933c2848c601c1` [lecture] Anatomy / Telegram 9551 - Section 9 - Bones of the Foot - 2023.pdf
+- `mu_a215c4ccf818776eb6ef` [lecture] Anatomy / Telegram 9555 - Section 10 - Lymphatic and Endocrine Systems - 2023.pdf
+- `mu_9ea3a2894d47411a3961` [lecture] Anatomy / Lecture 1 - Anatomical Position and Terms - Telegram mid 8892.pdf
+- `mu_5874c0d30e759f2e9087` [lecture] Anatomy / Lecture 2 - Skin and Muscle - Telegram mid 8895.pdf
+- `mu_39109368120eb2ce147a` [lecture] Anatomy / Lecture 3 - Cartilage and Bone - Telegram mid 8898.pdf
+- `mu_c23fea2245139838d7f3` [lecture] Anatomy / Lecture 4 - Bone and Solid Joints - Telegram mid 8904.pdf
+- `mu_a1319dcd6709d0866e4f` [lecture] Anatomy / Lecture 5 - Synovial Joints - Telegram mid 8907.pdf
+- `mu_0abf198479ce9ba4245b` [lecture] Anatomy / Lecture 6 - Cardiovascular - Telegram mid 8910.pdf
+- `mu_1fd4d97d64354c2d6575` [lecture] Anatomy / Lecture 7 - Lymphatic and Endocrine - Telegram mid 8915.pdf
+- `mu_0722a17d9d7af8a69923` [lecture] Anatomy / Lecture 8 - Nervous System I - Telegram mid 8918.pdf
+- `mu_cd1cd49305b4a7508501` [lecture] Anatomy / Lecture 9 - Nervous System II - Telegram mid 8921.pdf
+- `mu_453f7cd58f50b162cd15` [lecture] Biochemistry / Telegram 9155 - Lectures 1 and 2 - Solutions and Physicochemical Chemistry.pdf
+- `mu_0faf4f0968421af1369c` [lecture] Biochemistry / Telegram 9164 - Lectures 3 and 4 - Carbohydrates Monosaccharides and Derivatives.pdf
+- `mu_cbf7acdc121d4cf86a04` [lecture] Biochemistry / Telegram 9170 - Lectures 5 and 6 - Disaccharides and Polysaccharides.pdf
+- `mu_32eeaa0c9708da36cd55` [lecture] Biochemistry / Telegram 9181 - Lectures 7 to 9 - Lipid Chemistry.pdf
+- `mu_6b24ff12bf6b747e998e` [lecture] Biochemistry / Telegram 9188 - Lecture 10 - Protein Chemistry 1.pdf
+- `mu_8d1c8b1cf338d719a6d3` [lecture] Biochemistry / Telegram 9189 - Lecture 10 - Protein Chemistry 2.pdf
+- `mu_7533a8023ca559b6838d` [lecture] Biochemistry / Telegram 9193 - Lecture 11 - Protein Chemistry 3.pdf
+- `mu_2b5314ed3c566d726c38` [lecture] Biochemistry / Telegram 9199 - Lecture 12 - Protein Chemistry 4.pdf
+- `mu_d0d2e596c870fd1df898` [lecture] Biochemistry / Telegram 9206 - Lectures 13 and 14 - Enzymes.pdf
+- `mu_be6dfd75851904114790` [lecture] Biochemistry / Telegram 9213 - Lecture 15 - Nucleotide Chemistry.pdf
+- `mu_f00c514d0c2451cd7948` [lecture] Biochemistry / Telegram 9214 - Lecture 15 - DNA Chemistry.pdf
+- `mu_f6fa5620b2c68e963f81` [lecture] Biochemistry / Telegram 9215 - Lecture 15 - RNA Chemistry.pdf
+- `mu_1529f6867030efe8cae3` [lecture] Biochemistry / Telegram 9219 - Lecture 16 - DNA Organization.pdf
+- `mu_81d95b3f058ad9a3a8ce` [lecture] Biochemistry / Telegram 9220 - Lecture 17 - Transcription.pdf
+- `mu_60d6fb1d369b47f3dc89` [lecture] Biochemistry / Telegram 9226 - Lecture 18 - DNA Replication.pdf
+- `mu_38e18d9edf99bced47ea` [lecture] Biochemistry / Telegram 9230 - Lecture 19 - Genetic Code and Mutation.pdf
+- `mu_a8777c5e311e2d7d6399` [lecture] Biochemistry / Telegram 9236 - Lecture 20 - Translation.pdf
+- `mu_095a15b0a1704843b448` [lecture] Biochemistry / Telegram 9245 - Section 1 - Instrumentation Used to Measure pH.pdf
+- `mu_dfea7793469d05ae40f2` [lecture] Biochemistry / Telegram 9246 - Section 1 - Measuring pH of Body Fluids.pdf
+- `mu_3ab963d4ef85e31d6e33` [lecture] Biochemistry / Telegram 9251 - Section 2 - ABG Analysis.pdf
+- `mu_cbef3e7f75c548a5c3a1` [lecture] Biochemistry / Telegram 9255 - Section 2 - ABG Respiratory Cases.pdf
+- `mu_7a258bd7f7a66be9994d` [lecture] Biochemistry / Telegram 9264 - Sections 3 to 5 - General Carbohydrate Scheme.pdf
+- `mu_0b32434781ce9d92c63b` [lecture] Biochemistry / Telegram 9268 - Carbohydrate Experiments Summary.pdf
+- `mu_7f092ac8b93e1e4b8a05` [lecture] Biochemistry / Telegram 9276 - Sections 6 and 7 - General Protein Scheme.pdf
+- `mu_870f83f6901036642138` [lecture] Biochemistry / Telegram 9280 - Protein Experiments Summary.pdf
+- `mu_98f6cfce2ca68db22d87` [lecture] Biochemistry / Telegram 9286 - Section 8 - Enzyme Curves.pdf
+- `mu_2421649f37a0072bc6fa` [lecture] Biochemistry / Telegram 9292 - Section 9 - DNA Extraction.pdf
+- `mu_fcfdc2771de894855981` [lecture] Biochemistry / Telegram 9296 - Section 10 - Polymerase Chain Reaction.pdf
+- `mu_9586c70bbfd011d57387` [lecture] Biochemistry / Telegram 9300 - Section 11 - Cloning.pdf
+- `mu_40228c569019fdeddde6` [lecture] Biochemistry / Telegram 9306 - Section 12 - Gel Electrophoresis.pdf
+- `mu_f0c874517bfd2f974da2` [lecture] Biochemistry / Telegram 9310 - Practical Biochemistry Summary Through Enzymes.pdf
+- `mu_41e1705d1c0f55ef4cdc` [lecture] Biochemistry / Telegram 9312 - DNA Practical Summary.pdf
+- `mu_392c2dd3a721bf129dc2` [lecture] Biochemistry / Combined Biochemistry Lectures - Support - Telegram mid 8963.pdf
+- `mu_e30ca0b3974fa3133fc2` [lecture] Biochemistry / Telegram 8999 - All Biochemistry Sections.pdf
+- `mu_deac8d091d3a3f3a9805` [lecture] Embryology / Lecture 2 - 2023 - Captioned Offline - Telegram mid 8801.pdf
+- `mu_b6aadd45d30a3f34bc92` [lecture] Embryology / Telegram 9112 - Section 1 - First Week of Pregnancy - Lab 10 - 2023.pdf
+- `mu_ea1364185891e02881c0` [lecture] Embryology / Telegram 9116 - Section 2 - Second Week of Pregnancy - Lab 11 - 2022.pdf
+- `mu_e9fa66422a02d324ea4f` [lecture] Embryology / Telegram 9118 - Sections 1 and 2 Models - First and Second Week of Pregnancy.pdf
+- `mu_aaca3743006f46406dec` [lecture] Embryology / Telegram 9128 - Section 3 - Third Week of Pregnancy - Lab 12 - 2023.pdf
+- `mu_2e84f63a229281e4fd31` [lecture] Embryology / Telegram 9130 - Section 3 Models - Third Week of Pregnancy.pdf
+- `mu_2bbbc1f4cd4974fc7f7b` [lecture] Embryology / Telegram 9134 - Section 4 - Fourth Week of Pregnancy - Lab 13 - 2023.pdf
+- `mu_81b24fde0ead3c112fd6` [lecture] Embryology / Combined Embryology Lectures - Support - Telegram mid 8847.pdf
+- `mu_4f0b46e1889c6748c74b` [lecture] Embryology / Lecture 1 - Gametogenesis - Telegram mid 8789.pdf
+- `mu_f4106081945d2b5164ff` [lecture] Embryology / Lecture 3 - 2023 - Telegram mid 8814.pdf
+- `mu_18f3043b62d7b5e6b36f` [lecture] Embryology / Lecture 4 - Second and Third Week of Pregnancy - 2023 - Telegram mid 8834.pdf
+- `mu_8779e75ee596262a184e` [lecture] Embryology / Lecture 5 - Fourth Week of Pregnancy - 2023 - Telegram mid 8837.pdf
+- `mu_1e32705e57f6659ddaf5` [lecture] Embryology / Lecture 6 - Fetal Membranes I - 2023 - Telegram mid 8840.pdf
+- `mu_98510377526ddc6d6761` [lecture] Embryology / Lecture 7 - Fetal Membranes II - 2023 - Telegram mid 8843.pdf
+- `mu_5ccab4b21e33dd6d1c66` [lecture] Embryology / Combined Embryology Section Files - Telegram mid 8882.pdf
+- `mu_25996fb1c426f62be839` [lecture] Histology / Telegram 9323 - Lecture 1 - Membranous Organelles I - 2024.pdf
+- `mu_132a92cbc38614bc46a6` [lecture] Histology / Telegram 9327 - Lecture 2 - Membranous Organelles II - 2024.pdf
+- `mu_03b4264e80748ff5fb54` [lecture] Histology / Telegram 9333 - Lecture 3 - Non-Membranous Organelles.pdf
+- `mu_f13b490e2f5f1a57678e` [lecture] Histology / Telegram 9337 - Lecture 4 - Nucleus and Nucleolus.pdf
+- `mu_3e0d616650da1c452725` [lecture] Histology / Telegram 9341 - Lecture 5 - Cell Division.pdf
+- `mu_796b2db8afc9dff4841c` [lecture] Histology / Telegram 9347 - Lecture 6 - Cytogenetics - 2023.pdf
+- `mu_acfe5416646c5469739e` [lecture] Histology / Telegram 9353 - Lectures 7 and 8 - Epithelial Tissue.pdf
+- `mu_16fb8d8e9187d19afae8` [lecture] Histology / Telegram 9359 - Lecture 9 - Connective Tissue I.pdf
+- `mu_7f95909ee679d2316ec2` [lecture] Histology / Telegram 9363 - Lecture 10 - Connective Tissue II.pdf
+- `mu_c1f5c5f55ee61f20863f` [lecture] Histology / Telegram 9373 - Section 1 - Microscopes and Microtechniques.pdf
+- `mu_6a34be820536a57b9165` [lecture] Histology / Telegram 9377 - Section 2 - Cell Membrane Mitochondria and Golgi.pdf
+- `mu_1da4e2edd58c94714cd3` [lecture] Histology / Telegram 9383 - Section 3 - RER SER and Lysosomes.pdf
+- `mu_e034a4616a6fee7e1bac` [lecture] Histology / Telegram 9387 - Section 4 - Non-Membranous Organelles.pdf
+- `mu_56da08624879fb44cc7a` [lecture] Histology / Telegram 9391 - Section 5 - Cell Inclusions and Nucleus.pdf
+- `mu_a0d9b9d4641b01669893` [lecture] Histology / Telegram 9397 - Section 6 - Mitosis.pdf
+- `mu_16cdc516cc5a852ee98b` [lecture] Histology / Telegram 9027 - All Histology Lectures.pdf
+- `mu_589c8645780c8f49df60` [lecture] Physiology / Telegram 9056 - Section 1 - Estimation of Plasma Volume.pdf
+- `mu_c3ec1dc400c8494a6477` [lecture] Physiology / Telegram 9058 - Section 2 - Homeostasis Worksheet.pdf
+- `mu_31df50344ee3045c77f2` [lecture] Physiology / Telegram 9060 - Section 3 - Osmosis and Osmotic Fragility Test.pdf
+- `mu_36457c18a40917dde761` [lecture] Physiology / Telegram 9062 - Section 4 - Autonomic Cases with Solutions.pdf
+- `mu_4357fd5a227f2ed58547` [practical] Anatomy / Anatomy Labs with Answers - Department Mandatory File - Telegram mid 8928.pdf
+- `mu_b3ac48fd8ef1f9baf09e` [practical] Anatomy / Anatomy Practical Section Questions with Answers - Telegram mid 8752.pdf
+- `mu_09c5377ceaeda91dd0e1` [practical] Anatomy / Anatomy Radiology Compilation - Telegram mid 8930.pdf
+- `mu_0eaddf9e9a5702d2ff5b` [practical] Biochemistry / Department Book - Foundation 1 Practical Biochemistry - 2023-2024.pdf
+- `mu_6d6f305c2000186f8932` [practical] Embryology / Embryology Lab Questions with Answers - 2023 - Telegram mid 8754.pdf
+- `mu_833344d54bf75450d84d` [practical] General / Foundation 1 Practical Shifts - Batch 43 - Telegram mid 8750.pdf
+- `mu_11ba249ce5c7511b2d8e` [practical] Histology / Histology Practical Slides - Answer Reference - Telegram mid 8764.pdf
+- `mu_6ee2d83e00e70e30042c` [practical] Histology / Histology Practical Slides - Unanswered - Telegram mid 8762.pdf
+- `mu_6e8a721a852ad65cff17` [practical] Physiology / Telegram 9445 - Section 1 Practical Question - Estimation of Plasma Volume.pdf
+
+## MU-MED102 — MED102 — Foundation 2
+
+### Tier 1 — exam papers (EOM/EOY/Resit-Baqoon)
+
+- `mu_56d88740af5ca3011894` [paper] End Foundation 2 Batch 43 - Answers - Telegram 9659.pdf
+- `mu_a40cbe8d574c51896267` [paper] End Foundation 2 Batch 43 - Questions - Telegram 9657.pdf
+- `mu_acbb4b426183f9e21e89` [paper] Microbiology / Microbiology Past Exams - Answers - Telegram 9662.pdf
+- `mu_6ce69f36f51c66457176` [paper] Microbiology / Microbiology Past Exams - Questions - Telegram 9661.pdf
+- `mu_a3dfb2b383711f049084` [paper] Parasitology / Parasitology Past Exams - MCQ Answers - Telegram 9673.pdf
+- `mu_22d0b0b03999cf664444` [paper] Parasitology / Parasitology Past Exams - Questions - Telegram 9672.pdf
+- `mu_06d285d2c2e5561da937` [paper] Pathology / Pathology Chapters 1 to 4 Past Exam MCQs - Questions - Telegram 9677.pdf
+- `mu_11999c1093082353caec` [paper] Pathology / Pathology Chapters 5 and 6 Past Exam MCQs - Answers - Telegram 9683.pdf
+- `mu_d3e6f879820d642d33f6` [paper] Pathology / Pathology Chapters 5 and 6 Past Exam MCQs - Questions - Telegram 9682.pdf
+- `mu_f9e1ea2076475a255e81` [paper] Pathology / Pathology Past Exams - Questions - Telegram 9675.pdf
+- `mu_2e666d9f998028e726b7` [paper] Pharmacology / Pharmacology Past Exams - Answers - Telegram 9669.pdf
+- `mu_19f4e145470925af9bb1` [paper] Pharmacology / Pharmacology Past Exams - Questions - Telegram 9666.pdf
+### Tier 2 — question banks
+
+- `mu_0e65ae4ef20945d0a426` [bank] Comprehensive / Telegram 10029 - first week questions.pdf
+- `mu_168c22ce010ea6f4ba2f` [bank] Comprehensive / Telegram 10031 - 2nd & 3rd week questions.pdf
+- `mu_dc4509d378d4cb12c711` [bank] Microbiology / Telegram 10239 - Enumerate.pdf
+- `mu_c5e1830a354c1b556e65` [bank] Microbiology / Telegram 10240 - Justify.pdf
+- `mu_365b152d7a562679df21` [bank] Microbiology / Telegram 10241 - Complete.pdf
+- `mu_ce8cd39961124166a877` [bank] Microbiology / Telegram 10243 - microtbl.pdf
+- `mu_32e269ce02ba30fc0e52` [bank] Microbiology / Telegram 10641 - answered question second 2024 lecture physiology -.pdf
+- `mu_da5370eafa95ce3335d9` [bank] Microbiology / Telegram 10647 - answered question final 2024 Genetics.pdf
+- `mu_6316d446df3ababfd397` [bank] Microbiology / Telegram 9868 - Micro.pdf
+- `mu_fe3cbc2fbf57d618b0d7` [bank] Microbiology / Telegram 9870 - micro questions.pdf
+- `mu_6ee840e91d4a60b900ec` [bank] Microbiology / Telegram 9872 - Micro lec2.pdf
+- `mu_afad956f429ca6a0b6ba` [bank] Microbiology / Telegram 9874 - micro questions lec 3.pdf
+- `mu_eb54945443b22ca7046f` [bank] Microbiology / Telegram 9876 - micro dr.azza.pdf
+- `mu_dd79e7554aa29fd266ed` [bank] Microbiology / Telegram 9882 - Dr Azza written.pdf
+- `mu_3c550252f0cad3820168` [bank] Microbiology / Telegram 9884 - Dr.Azza MCQ.pdf
+- `mu_098bd03f089c5bab5286` [bank] Microbiology / Telegram 9886 - Dr Azza microbiology unsolved questions-support.pdf
+- `mu_458c8520c024d3a2308a` [bank] Microbiology / Telegram 9888 - Dr Azza microbiology solved questions-support.pdf
+- `mu_4529154886efcdb86904` [bank] Microbiology / Telegram 9892 - Micro_support 43.pdf
+- `mu_041740a14d533aef8d4b` [bank] Microbiology / Telegram 9894 - Microbiology questions.pdf
+- `mu_0373449def29ae2808db` [bank] Microbiology / Telegram 9896 - important question of staph and strept.pdf
+- `mu_a09b188a11ca31e2b3b2` [bank] Microbiology / Telegram 9898 - micro.dr.pdf
+- `mu_7ec0dcfb6f414daf2f31` [bank] Microbiology / Telegram 9900 - Microbiology quiz-Support .pdf
+- `mu_04e460ecac6847050ef1` [bank] Microbiology / Telegram 9904 - Micro Quiz with answers - SUPPORT 43.pdf
+- `mu_606a15f08cfb37214582` [bank] Microbiology / Telegram 9906 - Microbiology quiz - support.pdf
+- `mu_7479b151446439ece09b` [bank] Microbiology / Telegram 9908 - Microbiology quiz - support .pdf
+- `mu_b18ece69f8b7869c821c` [bank] Microbiology / Telegram 9911 - Micro-Quiz-MCQ.pdf
+- `mu_e6576f5aa625d6aeaf9d` [bank] Microbiology / Telegram 9916 - Support.pdf
+- `mu_06be3a03bc5de18ab6b7` [bank] Microbiology / Telegram 9918 - General microbiology questions .pdf
+- `mu_ec16b9c3043230342458` [bank] Microbiology / Telegram 9920 - micro.pdf
+- `mu_2e1ac6397c32d19d5e8b` [bank] Microbiology / Telegram 9922 - micro answers.pdf
+- `mu_6948ad82e06f34eb2a2a` [bank] Microbiology / Telegram 9924 - MFM 43 support dr Karim Kamal.pdf
+- `mu_e037000339d0f70d1df0` [bank] Microbiology / Telegram 9928 - Question Bank 1 & 2 General Microbiology Questions.pdf
+- `mu_caffe18ee84a1168fb07` [bank] Microbiology / Telegram 9930 - Virology Questions .Support.pdf
+- `mu_e90decd5925a2ccdb121` [bank] Microbiology / Telegram 9932 - أسئله ميكرو.pdf
+- `mu_328d9bc30d2cbdea670c` [bank] Microbiology / Telegram 9934 - Dr.Azza MCQ.pdf
+- `mu_fd6bef1eb607626c2f6b` [bank] Microbiology / Telegram 9936 - Dr Azza written.pdf
+- `mu_e60261130a4f04a385e5` [bank] Microbiology / Telegram 9940 - Notes.pdf
+- `mu_4334430a3219dd8c4ca6` [bank] Microbiology / Telegram 9942 - our microbial summary Document.pdf
+- `mu_061b2cae1e18f000ebd4` [bank] Microbiology / Telegram 9944 - tbl.pdf
+- `mu_a075cf5dca149c09cba0` [bank] Microbiology / Telegram 9946 - TBL Doctor Azza support.pdf
+- `mu_2d195288f12e07359790` [bank] Microbiology / Telegram 9948 - كتاب cases&mcq مايكرو الجديد.pdf
+- `mu_6889df40f95a5ab627d5` [bank] Microbiology / Telegram 9954 - SUPPORT 43, Micro Questions, Dr Azza.pdf
+- `mu_285f5bca49766c5d5207` [bank] Microbiology / Telegram 9956 - SUPPORT 43, Micro Questions.pdf
+- `mu_36555bf17f9724643b6e` [bank] Microbiology / Telegram 9959 - SUPPORT 43, Micro Answers.pdf
+- `mu_bab984eaa322be9f0e83` [bank] Parasitology / Telegram 9690 - para. lecture 1.pdf
+- `mu_e012782d7ac2beae9494` [bank] Parasitology / Telegram 9691 - para questions. lec 1.pdf
+- `mu_1cc9d4c62f77ef1dabfe` [bank] Parasitology / Telegram 9693 - Nash! , all previous Q for lec1,2 parasitology.pdf
+- `mu_1426cdc502dc905770bf` [bank] Parasitology / Telegram 9696 - 3rd lecture.pdf
+- `mu_b9b76cab66538bc36d21` [bank] Parasitology / Telegram 9699 - Attachment.pdf
+- `mu_94ae755ffd73853559c5` [bank] Parasitology / Telegram 9705 - support 43, para questions.pdf
+- `mu_b0fd8ef4768b5fefe02a` [bank] Parasitology / Telegram 9707 - support 43, para questions_محلول .pdf
+- `mu_520cf60075612f2d576c` [bank] Pathology / Telegram 9712 - 00- باثو اسئله.pdf
+- `mu_fb5a6c435d1a358a77d7` [bank] Pathology / Telegram 9714 - pathology tbl 2.pdf
+- `mu_7eadb189fb1b7a04a171` [bank] Pathology / Telegram 9716 - Attachment.pdf
+- `mu_a10241b7b31dae91f0e8` [bank] Pathology / Telegram 9718 - Patho Cases Support .pdf
+- `mu_7b7b5336f96aa1061973` [bank] Pathology / Telegram 9722 - Neoplasia SUPPORT.pdf
+- `mu_4f9261cf9d9abf388003` [bank] Pathology / Telegram 9723 - Neoplasia adding- support.pdf
+- `mu_69f53654ec69ec0d49d2` [bank] Pathology / Telegram 9725 - Patho TBL Support .pdf
+- `mu_cc81c7873ca5b4b7ef4b` [bank] Pathology / Telegram 9727 - Pathology- Support .pdf
+- `mu_91f19e6b225db6084061` [bank] Pathology / Telegram 9738 - final 1.pdf
+- `mu_7dfa8dccb40072c41fb8` [bank] Pathology / Telegram 9739 - Final 4.pdf
+- `mu_e7419756a9deafeb0144` [bank] Pathology / Telegram 9740 - final 7.pdf
+- `mu_130338dc9e4f8b192532` [bank] Pathology / Telegram 9741 - Final 8.pdf
+- `mu_4464408abfe325e3a487` [bank] Pathology / Telegram 9743 - support 43, patho questions.pdf
+- `mu_63aa5fa65d7c39feebfe` [bank] Pathology / Telegram 9747 - support 43, patho questions.pdf
+- `mu_002b7f646f18c726ccb4` [bank] Pathology / Telegram 9750 - Patho Mousa أسئلة.pdf
+- `mu_ce14f967c49cdc524a35` [bank] Pathology / Telegram 9755 - Support - Patho - Dr.Khalifa.pdf
+- `mu_7073923632fa19922c69` [bank] Pathology / Telegram 9759 - Support - Patho - Dr.Khalifa.pdf
+- `mu_fe637ea4da253449a47a` [bank] Pathology / Telegram 9761 - Support - Patho - Dr.Khalifa.pdf
+- `mu_7e4397e767d359de27fd` [bank] Pathology / Telegram 9764 - باثو شابتر ١و٢.pdf
+- `mu_dcf926471ba32c95d710` [bank] Pathology / Telegram 9784 - Neoplasia questions.pdf
+- `mu_83c227c786568695fd95` [bank] Pharmacology / Telegram 9790 - pharma lec1.pdf
+- `mu_b439f7bcc98705dc2c80` [bank] Pharmacology / Telegram 9792 - pharma lec 2.pdf
+- `mu_6c060c25892bc90effaa` [bank] Pharmacology / Telegram 9797 - Pharmacology Dr Ahmed Nasser - Support.pdf
+- `mu_ed299a9d64566001b57a` [bank] Pharmacology / Telegram 9799 - Distribution questions.pdf
+- `mu_3dd395025247b24228b8` [bank] Pharmacology / Telegram 9804 - pharmacology metabolism Dr Nasser- support.pdf
+- `mu_ce6368e0353920003c61` [bank] Pharmacology / Telegram 9806 - Support- Pharma dr Nasser questions .pdf
+- `mu_b759499de48844a2a683` [bank] Pharmacology / Telegram 9814 - MCQ General pharma 1.pdf
+- `mu_ee2502ef29e317337831` [bank] Pharmacology / Telegram 9816 - Answered MCQ General.pdf
+- `mu_885e2f14de5cba06df31` [bank] Pharmacology / Telegram 9819 - General Pharmacology Quiz support.pdf
+- `mu_44b3e4a1053058997aa8` [bank] Pharmacology / Telegram 9821 - Support- pharmacology questions.pdf
+- `mu_d379be660438d17c3f5b` [bank] Pharmacology / Telegram 9823 - Support - pharmacology quiz solved.pdf
+- `mu_b83ea370c9b713682739` [bank] Pharmacology / Telegram 9826 - Pharmacodynamic - support .pdf
+- `mu_c497985dc8aa5b3b7408` [bank] Pharmacology / Telegram 9828 - كويز د صلاح.pdf
+- `mu_688025ad42bb325e9a18` [bank] Pharmacology / Telegram 9832 - المستند.pdf
+- `mu_211f91f1b987db46f2d4` [bank] Pharmacology / Telegram 9834 - Selective.pdf
+- `mu_95ec06c41788d91d8a23` [bank] Pharmacology / Telegram 9838 - المستند.pdf
+- `mu_fab3c1e12aae5980a511` [bank] Pharmacology / Telegram 9840 - Test Bank on Lec 30 , 31.pdf
+- `mu_171b231ced8d1a4ea047` [bank] Pharmacology / Telegram 9842 - Test Bank on Lec 32.pdf
+- `mu_3d50b23b674fb063085f` [bank] Pharmacology / Telegram 9844 - Support - Pharma lec.pdf
+- `mu_6e7664e8f3b7077619a2` [bank] Pharmacology / Telegram 9846 - NSAIDs- support .pdf
+- `mu_926e9340bb87c5697121` [bank] Pharmacology / Telegram 9850 - NSAIDs Questions.pdf
+- `mu_903ef2f8a8f114bd31ff` [bank] Pharmacology / Telegram 9852 - NSAIDs Answers.pdf
+- `mu_86dca33ab6a1ba9ebcf9` [bank] Pharmacology / Telegram 9854 - Support-ANS Question.pdf
+- `mu_e29c3fe68eaeebf18aa5` [bank] Pharmacology / Telegram 9856 - Pharmacology - support .pdf
+- `mu_39b66a8093bfa5b0e190` [bank] Pharmacology / Telegram 9858 - Ans of ANS WRITTEN .pdf
+- `mu_4fb02d08478cca574248` [bank] Pharmacology / Telegram 9862 - SUPPORT 43, Pharma Questions.pdf
+- `mu_eb17ee8e1fffd0908e4f` [bank] Pharmacology / Telegram 9864 - Support pharma.pdf
+### Tier 3 — department books
+
+- `mu_b3833f5192d979fb15a3` [dept-book] Microbiology / Department Book - Foundation 2 Theoretical Microbiology - Telegram 9644.pdf
+- `mu_67d5e4bdad9c00119bbf` [dept-book] Parasitology / Department Book - Foundation 2 Theoretical Parasitology - Telegram 9640.pdf
+- `mu_22b1c2afda5d9c353367` [dept-book] Pathology / Department Book - Foundation 2 Theoretical Pathology - Telegram 9654.pdf
+- `mu_79f7710edc22a9fb235b` [dept-book] Pharmacology / Department Book - Foundation 2 Theoretical Pharmacology - Telegram 9648.pdf
+### Tier 5 — lectures/practical-OSCE/administrative
+
+- `mu_527c01de16d6bf5e1a79` [lecture] Microbiology / Telegram 10637 - first 2024 lecture general microbiology 1 (1).pdf
+- `mu_aa0fad107e2f6a0c79ad` [lecture] Microbiology / Telegram 10651 - flora and virulence 2024 23 recorded.pdf
+- `mu_45e3394e6605bb09292f` [lecture] Microbiology / Telegram 10655 - streptococci 2024 - 22 recorded.pdf
+- `mu_ec7a911097db2d0dda75` [lecture] Microbiology / Telegram 10661 - 2024 final staph -.pdf
+- `mu_21555758b27722ff20a4` [lecture] Microbiology / Telegram 10665 - complete Neisseria gram negative bacilli_support.pdf
+- `mu_b8bd47330312b1038f03` [lecture] Microbiology / Telegram 10671 - MYCOLOGY - recorded.pdf
+- `mu_27d96a22851e25cf98ee` [lecture] Microbiology / Telegram 10672 - virology 1 (1).pdf
+- `mu_4e33a0fc1208a774fa99` [lecture] Microbiology / Telegram 10676 - virology 2.pdf
+- `mu_63e464c0f3f08022d744` [lecture] Microbiology / Telegram 10677 - virology 3.pdf
+- `mu_e5dd8e9d1bc5745b5659` [lecture] Microbiology / Telegram 10683 - Virology 3.Support.pdf
+- `mu_5b6e7f2b15bc32b485ac` [lecture] Microbiology / Telegram 10684 - Virology 4 . support.pdf
+- `mu_e19a805b96bb247a4027` [lecture] Microbiology / Telegram 11270 - CH1 - Micro MFM Dr Farouk P1.pdf
+- `mu_ce3fd8dcfaab4f25fdb4` [lecture] Microbiology / Telegram 11351 - Chapter 1.pdf
+- `mu_f17e98936c27f3d07c0d` [lecture] Microbiology / Telegram 11353 - Chapter 2.pdf
+- `mu_4d53f41f9db21e53e6b3` [lecture] Microbiology / Telegram 11355 - Attachment.pdf
+- `mu_812d593991fe007e4f54` [lecture] Microbiology / Telegram 11357 - MFM 43 support dr Karim Kamal.pdf
+- `mu_837bc644c89daca5c0a3` [lecture] Parasitology / Telegram 10310 - F2 2ND PART.pdf
+- `mu_7373bdf68ff2cf33d8ac` [lecture] Parasitology / Telegram 10314 - Introduction of trematodes, heterophyes, F2.pdf
+- `mu_f8a95ed470eb59c0bab4` [lecture] Parasitology / Telegram 10320 - Lec 4.Introduction of cestodes .support.pdf
+- `mu_5f3eaf443f0aa21d19a5` [lecture] Parasitology / Telegram 10324 - Class nematoda.pdf
+- `mu_d039d2663b832a000675` [lecture] Parasitology / Telegram 10330 - Lec 6 para . Support.pdf
+- `mu_b3cb42d448fc5578a2b5` [lecture] Parasitology / Telegram 10334 - file.pdf
+- `mu_5c3a9281ee899a75015f` [lecture] Parasitology / Telegram 10338 - lice fleas bugs 2023.pdf
+- `mu_c8204b95cd64d30f4b01` [lecture] Parasitology / Telegram 10342 - lec 9 para.pdf
+- `mu_679f547ff1b06378d1fd` [lecture] Parasitology / Telegram 10346 - para lec 10 .pdf
+- `mu_60a236efbca8377617d3` [lecture] Parasitology / Telegram 11099 - General introduction of Parasitology.pdf
+- `mu_affaeb11bf77c54968fc` [lecture] Parasitology / Telegram 11101 - general into 2.pdf
+- `mu_02b37b8a053b7de7b572` [lecture] Parasitology / Telegram 11103 - Intro 3.pdf
+- `mu_de3aec03d9557cf4e5d4` [lecture] Parasitology / Telegram 11105 - Diagnosis , treatment and cotrol . (1).pdf
+- `mu_90fda1d7a9e4ebdb90a7` [lecture] Parasitology / Telegram 11107 - Trematodes 1 (1).pdf
+- `mu_9514a9e0d28b96afd114` [lecture] Parasitology / Telegram 11111 - Heterophys heterophys.pdf
+- `mu_891551396e538a6bb6a9` [lecture] Parasitology / Telegram 11113 - Cestoda.pdf
+- `mu_72ce10d502bce4c3b0a5` [lecture] Parasitology / Telegram 11115 - H.nana.pdf
+- `mu_f9694c556dc31e6b0f5a` [lecture] Parasitology / Telegram 11117 - H . diminuta.pdf
+- `mu_fdd5cc2184560050c559` [lecture] Parasitology / Telegram 11119 - Dipilidum Caninum.pdf
+- `mu_7737a1c817f067d2e46a` [lecture] Parasitology / Telegram 11135 - Ascaris Lumbricoides.pdf
+- `mu_30bdcd0f2122f7676962` [lecture] Parasitology / Telegram 11137 - protozoa.pdf
+- `mu_8c0ffea4b3b27c275277` [lecture] Parasitology / Telegram 11139 - Giardia.pdf
+- `mu_db788677914adf4d8637` [lecture] Parasitology / Telegram 11141 - T.vaginalis.pdf
+- `mu_411f0d5bcfa2051be06a` [lecture] Parasitology / Telegram 11143 - Arthropoda.pdf
+- `mu_bd54d64fcb3581c280f9` [lecture] Parasitology / Telegram 11147 - Mosquitooo.pdf
+- `mu_b0eb2ef3d959a8a86645` [lecture] Parasitology / Telegram 11149 - fleas.pdf
+- `mu_1360326cf294745849f1` [lecture] Parasitology / Telegram 11151 - Lice.pdf
+- `mu_61fbe9befefc37e8e693` [lecture] Parasitology / Telegram 11153 - Bugs.pdf
+- `mu_4f130edece3b57d75799` [lecture] Parasitology / Telegram 11155 - House Dust Mite.pdf
+- `mu_9c0068fbd68fd9a66452` [lecture] Parasitology / Telegram 11159 - Scabies.pdf
+- `mu_9636d5a0015ce48a3e36` [lecture] Parasitology / Telegram 11161 - Demodex Folliculorum.pdf
+- `mu_058acf92f6532b9e3d99` [lecture] Parasitology / Telegram 11163 - Trombicula akamushi.pdf
+- `mu_120ecec311b9be570fd6` [lecture] Pathology / Telegram 10147 - Pathology support .pdf
+- `mu_69ac93995cd691b9ed07` [lecture] Pathology / Telegram 10390 - Support Pathology Lectures.pdf
+- `mu_f83e32f159fb2cf159c0` [lecture] Pathology / Telegram 10394 - file.pdf
+- `mu_28df9b4d0f7ba0856bbd` [lecture] Pathology / Telegram 10396 - file.pdf
+- `mu_0b85317a51c1c2f09306` [lecture] Pathology / Telegram 10402 - file.pdf
+- `mu_73ab8e34770f0fd4f1de` [lecture] Pathology / Telegram 10406 - Cellular Response final Final-1.pdf
+- `mu_11eae70bbf030ed2b51f` [lecture] Pathology / Telegram 10410 - file.pdf
+- `mu_daa59de4f7fa806f8a36` [lecture] Pathology / Telegram 10416 - file.pdf
+- `mu_63192da907778ea154ed` [lecture] Pathology / Telegram 10420 - file.pdf
+- `mu_fa44453cfcde534a2595` [lecture] Pathology / Telegram 10426 - 2024 CARCINOMA AND SARCOMA.pdf
+- `mu_306d2c21a5593f4bb286` [lecture] Pathology / Telegram 10430 - Neoplasia 3 NEW.pdf
+- `mu_ac4301ed1ef660e7405a` [lecture] Pathology / Telegram 10434 - Tutorial Neoplasia Prof Rehab Samaka NEW2.pdf
+- `mu_4af67ff4d5b98a48dab0` [lecture] Pathology / Telegram 10853 - مرفق.pdf
+- `mu_cb518f1d1d4e8a8789d2` [lecture] Pathology / Telegram 10855 - Patho (Raed and Ahmed Saeda)pt1.pdf
+- `mu_2c178a600e4aabc4a5d7` [lecture] Pathology / Telegram 10857 - patho(Raed and Ahmed Saeda)pt2 .pdf
+- `mu_a919b7926a11f3d382bd` [lecture] Pathology / Telegram 10859 - Repair.pdf
+- `mu_14e44c58ae7a520b7ced` [lecture] Pathology / Telegram 10861 - Cell injury.pdf
+- `mu_1f0c10ce9e60b191531a` [lecture] Pathology / Telegram 10991 - Patho Mousa F3 Final 2021.pdf
+- `mu_ffffb7a4fb00e56a4e9e` [lecture] Pathology / Telegram 11009 - Ch.1 inflamation.pdf
+- `mu_ee145ab0617ba569a107` [lecture] Pharmacology / Telegram 10184 - Supporـ Pharmacokinetics ـLectures.pdf
+- `mu_bd497aa032358c1400b2` [lecture] Pharmacology / Telegram 10188 - SupportـPharmacodynamicsـLectures.pdf
+- `mu_2c53221772be4c10c23b` [lecture] Pharmacology / Telegram 10505 - absorption and distribution (1).pdf
+- `mu_9738fadc0f74c8175dfa` [lecture] Pharmacology / Telegram 10509 - METABOLISM-AND-EXCRETION.pdf
+- `mu_214120dcff8b8c00e221` [lecture] Pharmacology / Telegram 10515 - ORDERS-OF-ELIMINATION-2.pdf
+- `mu_12182a4658ff014cdbdf` [lecture] Pharmacology / Telegram 10520 - pharmacodynamics-lecture-1-copy.pdf
+- `mu_cbc1a3dd94d255d1698c` [lecture] Pharmacology / Telegram 10526 - Pharacodynamic-lecture-2-Dr-Eman-Aboelyazeed.pdf
+- `mu_bbcf1a387e2b63561807` [lecture] Pharmacology / Telegram 10530 - pharmacodynamic-lecture-3-Dr-Eman-Aboelyazeed.pdf
+- `mu_69926a6fa1c368ca7d65` [lecture] Pharmacology / Telegram 10537 - dr doaa Autonomic PANS1_231129_184528.pdf
+- `mu_1f448bdb58ef3f861042` [lecture] Pharmacology / Telegram 10541 - dr doaa Autonomic PANS2_231129_184222.pdf
+- `mu_bce4e595f5e4680c5b29` [lecture] Pharmacology / Telegram 10545 - dr doaa Autonomic SANS1.pdf
+- `mu_fe28b8a7ead8090bd3d5` [lecture] Pharmacology / Telegram 10551 - dr doaa Autonomic SANS2 .pdf
+- `mu_aa8b42e4a783148f4bbd` [lecture] Pharmacology / Telegram 10555 - dr doaa Autonomic SANS 3.pdf
+- `mu_060011f3b3387a84a8f2` [lecture] Pharmacology / Telegram 10561 - dr doaa Autonomic SANS 4.pdf
+- `mu_1c6ec534d1de927bc469` [lecture] Pharmacology / Telegram 10565 - Support43_Autonomic lectures.pdf
+- `mu_d8e8aa4cdaab06f2c8d3` [lecture] Pharmacology / Telegram 10569 - dr doaa NSAIDS & Paracetamol.pdf
+- `mu_a9658c98589ce0be9685` [lecture] Pharmacology / Telegram 11453 - Support 43 dr Ahmed Naser Pharma.pdf
+- `mu_bfc04a1e22eafee8f776` [lecture] Pharmacology / Telegram 11455 - Pharma ANS dr Nasser -Support.pdf
+- `mu_7ccb052e59f632edd080` [lecture] Pharmacology / Telegram 11457 - NSAIDs-1.pdf
+- `mu_a2972b6171f417692cdc` [practical] Microbiology / Department Book - Foundation 2 Practical Microbiology - Telegram 9646.pdf
+- `mu_e210d525516d5c6d7288` [practical] Microbiology / Telegram 10580 - Sec1.Micro.Support.pdf
+- `mu_55b9c5434220d137803f` [practical] Microbiology / Telegram 10584 - nutritional requirements.pdf
+- `mu_ac5560a85a282056dde5` [practical] Microbiology / Telegram 10586 - culture-media.pdf
+- `mu_8de98c421134d18c24d6` [practical] Microbiology / Telegram 10592 - Attachment.pdf
+- `mu_3e068ba808636b99ca04` [practical] Microbiology / Telegram 10596 - Culture character .Support.pdf
+- `mu_9b4373edd60926125a0b` [practical] Microbiology / Telegram 10602 - staphylococci 2024.pdf
+- `mu_671603b179a26e079a10` [practical] Microbiology / Telegram 10606 - strept 2024.pdf
+- `mu_a86a2e2b9dfa4ba2712d` [practical] Microbiology / Telegram 10610 - chapter8,9.pdf
+- `mu_756b81fa314fefd85d5b` [practical] Microbiology / Telegram 10616 - enterobcterciea.pdf
+- `mu_af09ccd52e24bdc534bb` [practical] Microbiology / Telegram 10622 - Hand hygiene2024.pdf
+- `mu_0e48455fc52d2f8479fd` [practical] Microbiology / Telegram 10625 - Mycology And virology2024.pdf
+- `mu_8e8f0a0d295da7405c70` [practical] Microbiology / Telegram 10764 - Support - Micro - DR.Karim.pdf
+- `mu_a58f84849e725b82c91c` [practical] Microbiology / Telegram 9969 - micro support 43.pdf
+- `mu_30ea9ea9c245086a1b6f` [practical] Microbiology / Telegram 9971 - Support-micro practical-part 2_Dr.KK.pdf
+- `mu_53c595baca8555e87ef9` [practical] Microbiology / Telegram 9976 - Micro Practical Support.pdf
+- `mu_5a3d7cab2a6640ef5bdb` [practical] Microbiology / Telegram 9978 - corrected revision F2 practical part 1.pdf
+- `mu_5cf569744e0af65f9025` [practical] Microbiology / Telegram 9979 - corrected F2 practical part 2.pdf
+- `mu_63f691dcebe7c9357757` [practical] Microbiology / Telegram 9983 - Micro practical.pdf
+- `mu_f0a6515b31dc15645cfd` [practical] Parasitology / Department Book - Foundation 2 Practical Parasitology - Telegram 9642.pdf
+- `mu_71100d1e1055364b1772` [practical] Parasitology / Telegram 10097 - presentation rasha.pdf
+- `mu_155b8b21e1e92cb5b6ef` [practical] Parasitology / Telegram 10099 - Attachment.pdf
+- `mu_c1eab242152c4bae9748` [practical] Parasitology / Telegram 10101 - Cestoda.pdf
+- `mu_670eb17222e018f82aa4` [practical] Parasitology / Telegram 10103 - Attachment.pdf
+- `mu_c0617bb68a2530ab9284` [practical] Parasitology / Telegram 10105 - Attachment.pdf
+- `mu_5839153c64c89a608b62` [practical] Parasitology / Telegram 10109 - Para sec 8.pdf
+- `mu_5c69b0b75f67e0878fa5` [practical] Parasitology / Telegram 10111 - para sec 9 .Support.pdf
+- `mu_d70279654552f407387c` [practical] Parasitology / Telegram 10113 - para sec 10 support 43.pdf
+- `mu_cde8e86b7aec3dae601e` [practical] Parasitology / Telegram 9990 - Support43.para.pdf
+- `mu_64ee012730495f0365b6` [practical] Parasitology / Telegram 9992 - Support. parasitology practical.pdf
+- `mu_e4198734e3cbeee4ebe0` [practical] Parasitology / Telegram 9994 - Support. para scheme.pdf
+- `mu_57ee0a5a8a6ce26a7e2c` [practical] Pathology / Telegram 10014 - Support43_patho.pdf
+- `mu_60ee1efba44ced5669cd` [practical] Pathology / Telegram 10016 - Support43.patho.pdf
+- `mu_08ebcef51daa7ad7c125` [practical] Pathology / Telegram 10018 - Patho Final Revision-Copy.pdf
+- `mu_e67677f67abfaa18bb5b` [practical] Pathology / Telegram 10023 - Support_patho_microscope.pdf
+- `mu_0351591ec19073d1b99e` [practical] Pathology / Telegram 10025 - Support_patho_micros.pdf
+- `mu_890c9e44ad1d1d45d24c` [practical] Pathology / Telegram 10359 - file.pdf
+- `mu_67d58f4cc33626501b1a` [practical] Pathology / Telegram 10363 - file.pdf
+- `mu_6a39c3735785a7c1ce7b` [practical] Pathology / Telegram 10369 - Growth disturbance(1)_231120_000827 (1).pdf
+- `mu_6919846197f264469743` [practical] Pathology / Telegram 10373 - Benign tumors(1).pdf
+- `mu_809dc1a1ce9bd3ad87cd` [practical] Pathology / Telegram 10377 - Malignant tumors.pdf
+- `mu_67a8c98ace3772143214` [practical] Pathology / Telegram 10383 - Patho Final Revision.pdf
+- `mu_8f629d864211a9bbccd6` [practical] Pharmacology / Department Book - Foundation 2 Practical Pharmacology - Telegram 9652.pdf
+- `mu_af59cb11ed847f7c39c9` [practical] Pharmacology / Telegram 10001 - MCQ PHARMA.pdf
+- `mu_6b67a20ea5ffbe0e213c` [practical] Pharmacology / Telegram 10003 - MCQ Answers.pdf
+- `mu_83fe9898fb8f859106fb` [practical] Pharmacology / Telegram 10005 - Drug Dose Calculation Questions 3.pdf
+- `mu_9972dc26177e12eb1515` [practical] Pharmacology / Telegram 10007 - practical Revision -.pdf
+- `mu_d5a1bb04ea4f3fa3e580` [practical] Pharmacology / Telegram 10011 - Pharmacology revision support 43.pdf
+- `mu_6a254daad29d83b8b2f4` [practical] Pharmacology / Telegram 10155 - Sources dosage forms.pdf
+- `mu_de86dbb764e19e2b0c26` [practical] Pharmacology / Telegram 10158 - Dosage forms2.pdf
+- `mu_c5bbbb5cc1b57e15e107` [practical] Pharmacology / Telegram 10161 - Route of drug administration powerpoint.pdf
+- `mu_5bb5ebd0a18cb296f5ae` [practical] Pharmacology / Telegram 10166 - Route of drug administration 2 powerpoint.pdf
+- `mu_01c8a6d6662b201ce6ff` [practical] Pharmacology / Telegram 10168 - Writing prescription - Copy_231202_164506.pdf
+- `mu_0211da79672f52f78feb` [practical] Pharmacology / Telegram 10171 - Dose.pdf
+- `mu_1fe215467a852053b20f` [practical] Pharmacology / Telegram 10173 - Dose Response Curve-1.pdf
+- `mu_329dcc797b3d6dba4ca6` [practical] Pharmacology / Telegram 10482 - experimental intestine recorded.pdf
+- `mu_84459827fe5b455ea564` [practical] Pharmacology / Telegram 10494 - pharma-practical-Support 43.pdf
+- `mu_310a61553ee3ca5caefe` [practical] Pharmacology / Telegram 10737 - CamScanner 25-12-2023 08.33.pdf
+- `mu_ff84ccb98f2405704713` [practical] Pharmacology / Telegram 10743 - Experimental pharma.pdf
+- `mu_3f52009733030955a9b1` [practical] Pharmacology / Telegram 10755 - 4_5990072621511739507.pdf
+- `mu_e17344dd1674f804adbf` [practical] Pharmacology / Telegram 9999 - Dose response curve ...pdf
+
+## MU-MED103 — MED103 — Communication Skills (Vertical Integration 1)
+
+### Tier 2 — question banks
+
+- `mu_94704d5c902fa82496a1` [bank] Family Medicine / Telegram 11682 - Communication Skills Final Exam.pdf
+- `mu_070593c52d85aafdbc4a` [bank] Family Medicine / Telegram 11684 - Communication Skills Questions Without Answers.pdf
+- `mu_614ddde071d370142b58` [bank] Family Medicine / Telegram 11685 - Communication Skills Department Questions and Answers.pdf
+- `mu_2d9cddaaa0be0253450e` [bank] Family Medicine / Telegram 11687 - Communication Skills MCQ - Dr Mahmoud Attia.pdf
+### Tier 3 — department books
+
+- `mu_9caa7be956fa41ab5a00` [dept-book] Telegram 11656 - Communication Skills Department Book.pdf
+### Tier 4 — notes/textbooks
+
+- `mu_ac2ad894c80124d7e56e` [other] Family Medicine / Telegram 11675 - Communication Skills Notes - Dr Mahmoud Attia.pdf
+- `mu_83596f71027fd97aa7d2` [other] Family Medicine / Telegram 11696 - Communication Skills Summary - Support 41.pdf
+- `mu_f16c98bf97895c2459b4` [other] Family Medicine / Telegram 11698 - Communication Skills Student Summary.pdf
+### Tier 5 — lectures/practical-OSCE/administrative
+
+- `mu_8143064db3a4fa7836a1` [lecture] Family Medicine / Telegram 11659 - Communication Skills Lecture 1 Support.pdf
+- `mu_d66c4dafa946206ca641` [lecture] Family Medicine / Telegram 11662 - Communication Skills Lecture 2 Support.pdf
+- `mu_a348209c375c83801566` [lecture] Family Medicine / Telegram 11665 - Communication Skills Lecture 3 Support.pdf
+
+## MU-E101 — E101 — Faculty elective 1
+
+No local source files (empty shell — confirmed by S0 scan).
+
+## MU-UNI101 — UNI101 — Introduction to quality and accreditation
+
+No local source files (empty shell — confirmed by S0 scan).
+
+## MU-MED104 — MED104 — Musculoskeletal
+
+### Tier 1 — exam papers (EOM/EOY/Resit-Baqoon)
+
+- `mu_c6bc4b9cefd870477236` [paper] 01- MSK1 endmodule 2018 Group 1.pdf
+- `mu_c4dfd4af7788e7831b4e` [paper] 02- MSK1 endmodule 2018 Group 2.pdf
+- `mu_ab93d1fc3f93d56856fc` [paper] 4_5764773235757417557.pdf
+- `mu_2b2ae5ff3599e526123e` [paper] MFM42Support - Answers of MSK1 END.pdf
+- `mu_a2e312d07d1b3b77c1b6` [paper] MFM42Support - END MODULE MSK1.pdf
+- `mu_71101891726d3a9102a5` [paper] MSK 1 Ends & Finals .pdf
+- `mu_fe7145c92acc2e972647` [paper] MSK 2 Ends & Finals.pdf
+- `mu_f6869acd17fa39839f00` [paper] MSK2 endmodule exam group 1- model answer.pdf
+- `mu_08b95a7a2f4c5e19014b` [paper] MSK2 endmodule exam group 2- model answer.pdf
+- `mu_d453be58605968942867` [paper] support 43 - End MSK.pdf
+- `mu_25d72c6ba05fb90de5c4` [paper] 4_5764773235757417555.pdf
+- `mu_ecf10fc4909094d87124` [paper] Final 40.pdf
+- `mu_672c9c5ed72e56514295` [paper] Final 41.pdf
+- `mu_868be9e509acc04341b3` [paper] Final Msk 1 ( ٤٠ ).pdf
+- `mu_22d5b7f8b142a2873909` [paper] final msk 2 ( 40 ).pdf
+- `mu_5ed0464621f783096d63` [paper] MFM42,Support,answers MSK1.pdf
+- `mu_a94d3e593f3ef9bf1094` [paper] MFM42,Support,MSK1,Final 42_230712_153126.pdf
+- `mu_bc98dd4a59ded1a7cd5c` [paper] SUPPORT 43 - FINAL MSK2 not answered .pdf
+- `mu_60ac35f6aeea5742af20` [paper] Support 43- Final MSK1..pdf
+- `mu_cc8c465b29456bb9d230` [paper] Support 43- final MSK1.pdf
+- `mu_d6186b477122e490f730` [paper] SUPPORT43- FINAL MSK2 answered.pdf
+- `mu_e8e426b77df3c92d0887` [paper] Anatomy / Anatomy MSK Ends & Finals.pdf
+- `mu_f046d72f09782414f4df` [paper] Anatomy / Support 43, anatomy MSK finals.pdf
+- `mu_adc0009439992763079c` [paper] Biochemistry / Support 43,Bio MSK Ends & Finals .pdf
+- `mu_f26778fc6fea78497908` [paper] Histology / 4_5773791687826478153.pdf
+- `mu_3b023ae42d6cf0d4065c` [paper] Pathology / Pathology MSK Ends & Finals.pdf
+- `mu_d11a715967cc6b225bf7` [paper] Physiology / Physiology answers.pdf
+### Tier 2 — question banks
+
+- `mu_ebd9d63b1e32b00d8304` [bank] Support 43, END & Finals.pdf
+- `mu_d56acb718b4cfaee74d1` [bank] Anatomy / Anatomy - Copy 2.pdf
+- `mu_43cf6415e56fc9d8ed48` [bank] Anatomy / Arm and fornt of forearm.pdf
+- `mu_12eeaaaf3de58a596100` [bank] Anatomy / Assessment answers.pdf
+- `mu_087c69ab11dacece85cd` [bank] Anatomy / cases 40.pdf
+- `mu_ca1432a931ac96d0c482` [bank] Anatomy / Joint.pdf
+- `mu_16fac593234a27328a63` [bank] Anatomy / MFM42,Support,Anatomy,Dr,Ayman.pdf
+- `mu_28bc41dd0b0ac591d8ac` [bank] Anatomy / MSK.Anatomy (Lower Limb).pdf
+- `mu_c8d8b1148c423460129c` [bank] Anatomy / MSK.Anatomy (Upper Limp).pdf
+- `mu_7146582fceb3c0a0386b` [bank] Anatomy / MSK1 ASSESSMENT BOOK - FOR INVERTED LECTURES answers.pdf
+- `mu_1beda96320c3caf2582c` [bank] Anatomy / MSK1 ASSESSMENT BOOK - FOR INVERTED LECTURES.pdf
+- `mu_7ba9fc03220066a74b70` [bank] Anatomy / Pectoral and back regions.pdf
+- `mu_739de3cd0582d70eb485` [bank] Anatomy / Posterior part of arm.pdf
+- `mu_de3a113bf59308a44e6b` [bank] Anatomy / Support 43- Anatomy answers .pdf
+- `mu_1e63f4884ca04a53c28b` [bank] Anatomy / Support 43, anatomy answers.pdf
+- `mu_88393f6fbd8e059c8992` [bank] Anatomy / Support 43, Anatomy ENDs & Finals.pdf
+- `mu_80bbfde72a0a1683eaa2` [bank] Anatomy / اسئلة د.نادر.pdf
+- `mu_58e385bb000950c389e5` [bank] Biochemistry / Bio - Bank answers.pdf
+- `mu_0f9f539707884302726a` [bank] Biochemistry / Bio (2).pdf
+- `mu_7829fd05cb5236587009` [bank] Biochemistry / BIO answers.pdf
+- `mu_5e503dc0e3479572eff6` [bank] Biochemistry / Bio Questions.pdf
+- `mu_587fed7fb3f38e649d82` [bank] Biochemistry / Bio.pdf
+- `mu_57987e39dd70746b4217` [bank] Biochemistry / DOC-20240609-WA0074_240620_040031 (1).pdf
+- `mu_a16d2ae57eb02e5e552a` [bank] Biochemistry / DOC-20240609-WA0075_240620_035954.pdf
+- `mu_c4376c10b47bf3407eea` [bank] Biochemistry / DOC-20240617-WA0010_240620_035916.pdf
+- `mu_8decd073cf00ec5cd4bc` [bank] Biochemistry / FS Vitamins answers.pdf
+- `mu_d0614f62b45b4460c42c` [bank] Biochemistry / FS Vitamins Qs.pdf
+- `mu_87aaa32bfce72b9219b0` [bank] Biochemistry / MSK .Bio.pdf
+- `mu_cb00d67e275af57bc0f5` [bank] Biochemistry / Support 43- Bio portfolio 2.pdf
+- `mu_25f71e1386a1b3983a8b` [bank] Biochemistry / support 43- Bio Q3.pdf
+- `mu_03fdcad5a6b48f6bae40` [bank] Biochemistry / Support 43-bio portfolio 1.pdf
+- `mu_2035dc132d9dffa93778` [bank] Biochemistry / Support43- Bio Answers .pdf
+- `mu_b4826ea5bd7a8143e375` [bank] Biochemistry / إجابات الكويز الاول د. الفلاحة.pdf
+- `mu_215950c3d7c167d18055` [bank] Histology / Histo answers.pdf
+- `mu_043e3e7a83baa5295a78` [bank] Histology / Histo.pdf
+- `mu_3711c125740585673eb7` [bank] Histology / MSK.Histo.pdf
+- `mu_c5f13cc03e8a89c9c8b9` [bank] Histology / Support 43- Histo cartilage dr Amr Essam.pdf
+- `mu_c5866502da63a83cf735` [bank] Histology / Support 43- Histo dr Roushdy (2).pdf
+- `mu_268106b213c3867eb0d5` [bank] Histology / Support 43- Histo dr Roushdy.pdf
+- `mu_4dfe545c52d946e3b5ec` [bank] Histology / Support 43- Histology dr amr esam bones.pdf
+- `mu_d2b269bbed283cafa3ab` [bank] Histology / Support 43- Quiz Histology Questions .pdf
+- `mu_2b6df340972765de5a10` [bank] Histology / Support 43-Quiz Histology.pdf
+- `mu_6b17d0e5948ea10ca0a7` [bank] Histology / Support 43, Histo ends&finals.pdf
+- `mu_8c29f1768ac075000236` [bank] Histology / Support43-dr Roshdy Questions.pdf
+- `mu_8cf076910e2064b2bad8` [bank] Histology / Support43-dr Roshdy-Answers of bone.pdf
+- `mu_8c6900c859a669eddb1c` [bank] Pathology / MSK.Pathology.pdf
+- `mu_c1e8fba71eae2c69f82b` [bank] Pathology / Osteomyelitis & arthritis qs.pdf
+- `mu_3797e3f0249ae2849a6b` [bank] Pathology / Patho - Bank answers .pdf
+- `mu_2e9519b17c471e2f5b8b` [bank] Pathology / Patho - Ends & Finals answers.pdf
+- `mu_b01be72aec0d0a16be72` [bank] Physiology / End Test Bank.pdf
+- `mu_a89ef2d20e354aad803e` [bank] Physiology / lect 1 mcq (2).pdf
+- `mu_cc0de1b06fa1aafb3bc2` [bank] Physiology / lect 1 mcq.pdf
+- `mu_c928b374edaca6ff48c4` [bank] Physiology / MSK.Physio.pdf
+- `mu_92c14182549970b828ed` [bank] Physiology / Phsyio copy.pdf
+- `mu_7ca1ab07b9e531b4bdf1` [bank] Physiology / Physio written شبين.pdf
+- `mu_fe4c9192a9c9896ea12f` [bank] Physiology / Support 43, physio ENDs & Finals.pdf
+- `mu_5fbeacb544045e3d1976` [bank] Physiology / أسئلةالـ MCQs ناجي اسكندر nerve.pdf
+### Tier 3 — department books
+
+- `mu_1ba3e4e486a175cba06f` [dept-book] Anatomy / Telegram 11709 - MSK1 ANATOMY 4th EDITION 2023-2024.pdf
+- `mu_fa995f5c142dde4cf731` [dept-book] Anatomy / Telegram 11711 - MSK ANATOMY 4th EDITION (part 2) 2023-2024.pdf
+- `mu_57f44dcc809b58a1a81f` [dept-book] Biochemistry / Telegram 11713 - MSK-main book-2024final.pdf
+- `mu_6bc274c19725a2941196` [dept-book] Biochemistry / Telegram 11715 - Practical-first-year-MSK 2024.pdf
+- `mu_28963e11df2847487705` [dept-book] Histology / Telegram 11717 - file.pdf
+- `mu_ba2144dc371e4cef476b` [dept-book] Histology / Telegram 11721 - MSK عملي معدل.pdf
+- `mu_60e27edc756c95033873` [dept-book] Pathology / Telegram 11723 - (Pathology of Musculoskeletal system 2) (2024).pdf
+- `mu_c021a40ea9f6f8937c6d` [dept-book] Physiology / Telegram 11725 - Muscle book.pdf
+- `mu_9b3c11b9ca159d1accf0` [dept-book] Physiology / Telegram 11727 - Practical Physiology MSK1 (without watermark).pdf
+### Tier 4 — notes/textbooks
+
+- `mu_d2bb1791f147824896d6` [other] Anatomy / 02-07-2024, 6_38 PM Microsoft Lens.pdf
+- `mu_7c53448c77a72bdb75e9` [other] Anatomy / Abdominal wall.pdf
+- `mu_812ec6c3428cdadd0f8b` [other] Anatomy / Connect Dr doaa.pdf
+- `mu_93855a79b06c9dcc4a53` [other] Anatomy / Telegram 12979 - shoulder.pdf
+- `mu_57424e5bbfec491da32b` [other] Anatomy / Telegram 12941 - Lecture 1.pdf
+- `mu_c811dd7a6de0983f7abb` [other] Anatomy / Telegram 12942 - back region.pdf
+- `mu_2ec911584c48c82c93b5` [other] Anatomy / Face.pdf
+- `mu_a6282ff59f5217f260c1` [other] Anatomy / Inspiration & Expiration.pdf
+- `mu_ad5960c538786cf63096` [other] Anatomy / mnemonics 2.pdf
+- `mu_b7e1aa9b928aa000313e` [other] Anatomy / Msk2 Anatomy (2).pdf
+- `mu_41b4ad100b69b67dc008` [other] Anatomy / Neck.pdf
+- `mu_e7d23316b3afefe1d466` [other] Anatomy / Nerves Of Upper .pdf
+- `mu_3c1c906d5852a8aff313` [other] Anatomy / Nerves.pdf
+- `mu_f87420d30ab6dbae4d49` [other] Anatomy / Notability Notes(1).pdf
+- `mu_d20a43efc1fd87047541` [other] Anatomy / Support 43,, Abdominal Wall.pdf
+- `mu_05186fbdbf0618c6ad11` [other] Anatomy / Support 43,,Thoracic Wall.pdf
+- `mu_2bd68504f4c33397b3a9` [other] Anatomy / Support- Anatomy.pdf
+- `mu_19f325b6abbfdcc6b8e7` [other] Anatomy / support-lower limb , head and neck.pdf
+- `mu_d62614d8a2b183851f0e` [other] Anatomy / SUPPORT43UPEER LIMP.pdf
+- `mu_0caf635b98eb3a71fcd6` [other] Anatomy / Thoracic.pdf
+- `mu_1b5af2b49fd01dc6742c` [other] Anatomy / Upper limb_202233_174839.pdf
+- `mu_2e62fbcf568c4b069dbf` [other] Anatomy / Upper Limb.pdf
+- `mu_0482bcc1ef32f8eb0d5f` [other] Anatomy / Vertebral Column - Support 43.pdf
+- `mu_032c976f314bfbfe8183` [other] Anatomy / تجميعات ابر.pdf
+- `mu_71bd7e701a143e101996` [other] Biochemistry / Fat soluable vitamins+ vit c.pdf
+- `mu_028ef01508908b1fab77` [other] Biochemistry / mind map vitamins .pdf
+- `mu_716d5967155f13faf52b` [other] Biochemistry / Support 43- Bio ECM.pdf
+- `mu_5a6cf418a286c3a9151f` [other] Biochemistry / Support 43- Bio microminerals.pdf
+- `mu_a0d867c3eed1fd3b400a` [other] Biochemistry / Support 43- Bio Vitamins .pdf
+- `mu_9634a9f8bef618ebfb6d` [other] Biochemistry / Support 43- Bio vitamins (2).pdf
+- `mu_e270fc7c8499e8b5d288` [other] Biochemistry / Support 43- Bio vitamins.pdf
+- `mu_13d5611eaa0e1504ff10` [other] Biochemistry / Support 43- Biochemistry Macrominerals.pdf
+- `mu_d63630791a612311b91e` [other] Biochemistry / Support 43-FAT SOLUBLE VITAMINS.pdf
+- `mu_621db6e86ab2febe137e` [other] Biochemistry / vitamin b complex.pdf
+- `mu_0d7a94e0613db2c9231a` [other] Biochemistry / Vitamins as co enzymes.pdf
+- `mu_f07fae9d62064cc43915` [other] Biochemistry / Vitamins comparison.pdf
+- `mu_721cfc07d76c4c79075b` [other] Histology / Attachment.pdf
+- `mu_c38e3a38db14f56e840e` [other] Histology / MFM42Support , Dr Essam1, Histology, MSK1.pdf
+- `mu_c3f8f13947f522616eb2` [other] Histology / MFMSUPPORT43, Histology Dr Ahmed Esam Chapter4 MSK pdf.pdf
+- `mu_4a47908c46d2229d131f` [other] Histology / MFMSUPPORT43,Histo,Dr Ahmed Essam.pdf
+- `mu_c36479b4876f083cfcde` [other] Histology / Support 43- Histo.pdf
+- `mu_8e1e2ef8cb03b34fe579` [other] Histology / Support_43_Histology_comparison_between_bones_and_cartilage_.pdf
+- `mu_5a56f99098a3aa3c6b83` [other] Histology / مقارنات هستو.pdf
+- `mu_06e0fd147fcde92b5b10` [other] Pathology / Lec 1.pdf
+- `mu_ea3a15ebd1ed6979269d` [other] Pathology / Lec 2.pdf
+- `mu_654b60a1955212434add` [other] Pathology / LEC 3.pdf
+- `mu_190fd81a74fc003aab4d` [other] Pathology / Lec 4.pdf
+- `mu_804f95b6d5f91857ee96` [other] Pathology / Support43, Patho .pdf
+- `mu_a811d29e79ebe93c6072` [other] Physiology / CamScanner 03-23-2024 01.47.pdf
+- `mu_02caaaa9d84e1300d459` [other] Physiology / KasZem Physiology - MSK (Part 1) 2024.pdf
+- `mu_4d74dbea0672e2cd5438` [other] Physiology / KasZem Physiology - MSK 2024.pdf
+- `mu_c17858498976840c0589` [other] Physiology / Merged_lao6elb9.pdf
+- `mu_ccb1a0d9e422da07788d` [other] Physiology / MSK Physiology 2024_240701_224914.pdf
+- `mu_ceb70a41519e1c775641` [other] Physiology / muscle physiology 1.pdf
+- `mu_d560a0079bce8ede7cce` [other] Physiology / Muscle physiology last part .pdf
+- `mu_aca250ddba834989acdc` [other] Physiology / physiology 2024.pdf
+- `mu_e3b9a29e5089b03ad8d8` [other] Physiology / Support 43- Physio dr Omar Al mokhtar.pdf
+- `mu_c66efd79669ddb7b616f` [other] Physiology / Support 43-Physiology Action Potential .pdf
+### Tier 5 — lectures/practical-OSCE/administrative
+
+- `mu_263e91bef507777be4bf` [lecture] Anatomy / 02. Back (Muscles _ Triangles).pdf
+- `mu_58432c1b3e687cbebdfe` [lecture] Anatomy / 03_Scapular_region_I_Subscapularis_Supra_and_infraspinatus_Teres.pdf
+- `mu_5888abf7e459bf635a00` [lecture] Anatomy / 04_Scapular_region_II_Deltoid_Axillary_nerve_Serratus_Intermuscular.pdf
+- `mu_c1dc8f226d99c71e92be` [lecture] Anatomy / 05_Axilla_Axillary_artery_Anastomosis_around_the_scapula_Axillary.pdf
+- `mu_92a2456a13c031a1e464` [lecture] Anatomy / 06. Brachial plexus.pdf
+- `mu_9544d6212b0025f8da45` [lecture] Anatomy / 07. Arm (I) Anterior compartment (Muscles & Nerves).pdf
+- `mu_a53dbc25c6b805963435` [lecture] Anatomy / 07. Popliteal fossa.pdf
+- `mu_7bad2f8e35c9f585e291` [lecture] Anatomy / 08. Arm (II) Posterior compartment (Muscles & Nerves).pdf
+- `mu_ea40eb779c869aecf3c5` [lecture] Anatomy / 08. Leg (I) Anterior compartment.pdf
+- `mu_38a942065f4f76a0c9b0` [lecture] Anatomy / 09. Leg (II) Lateral compatment.pdf
+- `mu_8b86e12d443b619852ec` [lecture] Anatomy / 1. Thigh(1) (١).pdf
+- `mu_66d8a3e7b9ca8f09ec94` [lecture] Anatomy / 10. Dorsum of the foot.pdf
+- `mu_7bf6734993c37c2ab148` [lecture] Anatomy / 10. Forearm (I) (Anterior compartment - Muscles).pdf
+- `mu_b4c3ef64591bde86223f` [lecture] Anatomy / 11. Leg (III) (Posterior compatment - Muscles).pdf
+- `mu_dfe9d93fac5574c01964` [lecture] Anatomy / 11.Forearm (2).pdf
+- `mu_c6bad3016812c4a02e71` [lecture] Anatomy / 12. Leg (IV)  (Posterior compartment nerves and vessels).pdf
+- `mu_ded62be3d0f855719823` [lecture] Anatomy / 12.Forearm (3).pdf
+- `mu_88848d83e746333622a1` [lecture] Anatomy / 13. Hand (1).pdf
+- `mu_8cdfc2856b48a1550b0f` [lecture] Anatomy / 13. Sole of the foot.pdf
+- `mu_298f568cc2fe319a5915` [lecture] Anatomy / 14.Hand (3).pdf
+- `mu_19772faae4e041096b03` [lecture] Anatomy / 15.shoulder joint+ sternoclavicular joint.pdf
+- `mu_e6cabd8f5be0cd278656` [lecture] Anatomy / 16. Elbow and radio-ulnar joints(1).pdf
+- `mu_46478a88674779682f3b` [lecture] Anatomy / 17.wrist joint and small joint of the hand.pdf
+- `mu_d898bdf1965d31e5ab15` [lecture] Anatomy / 18.viens of the upper limb.pdf
+- `mu_9e8d25a0e5bf7162bc48` [lecture] Anatomy / 19. Lymphatics of upper limb.pdf
+- `mu_ca6b6907eb0ecf137ccb` [lecture] Anatomy / 1st lecture upper limb pectoral region muscles and fascia.pdf
+- `mu_856f23ad8f01e86238f6` [lecture] Anatomy / 2. Thigh (2).pdf
+- `mu_d22349ef78d649b367ad` [lecture] Anatomy / 20.Cutaneous nerves and Dermatous.pdf
+- `mu_072ec545be7f1e5e49a0` [lecture] Anatomy / 21Nerve injuries of upper limb.pdf
+- `mu_baf9576f7cb09697eb13` [lecture] Anatomy / 3. Thigh (3).pdf
+- `mu_736fe3e2980801872294` [lecture] Anatomy / 4.Gluteal region (1).pdf
+- `mu_f3e96b4bf98290b7d5b6` [lecture] Anatomy / 5.Gluteal region (2).pdf
+- `mu_a561af8075a23902fcbc` [lecture] Anatomy / 6. Thigh (4) posterior compartment.pdf
+- `mu_956f496a96162538c49a` [lecture] Anatomy / Anatomy Upper Limb Sameh Doss.pdf
+- `mu_70b44c6cdc135ff7ab6d` [lecture] Anatomy / Femur.pdf
+- `mu_7c99d05c1203a4b679d5` [lecture] Anatomy / Hip bone (١).pdf
+- `mu_f7aaecd308ba2dfe30b9` [lecture] Anatomy / Lower_limb_.._Ahmed_Mostafa_Kamal_.._Abdelrahman_Zaghloul.pdf
+- `mu_922751ecbb113f704786` [lecture] Anatomy / Muscular System.pptx
+- `mu_3b59b12e15aa5c8be01e` [lecture] Anatomy / Telegram 12111 - 1- Development of limbs _ pectoral.pdf
+- `mu_8883f84566965810f27f` [lecture] Anatomy / Telegram 12115 - 2- Axilla.pdf
+- `mu_b2b27e21cd976796eeda` [lecture] Anatomy / Telegram 12122 - 3- back _ scapular.pdf
+- `mu_0c03706158fe27276aae` [lecture] Anatomy / Telegram 12126 - 4- Arm cubital fossa.pdf
+- `mu_33c2dda5120d57904f01` [lecture] Anatomy / Telegram 12132 - 5- Forearm flexors _ flexor retinaculum.pdf
+- `mu_59bda32d592adc157f8f` [lecture] Anatomy / Telegram 12136 - 6- Forearm extensors _ Extensor retinaculum.pdf
+- `mu_8087995e3aae4547be50` [lecture] Anatomy / Telegram 12140 - 7- Hand muscles BP axillary musculocuteneous median.pdf
+- `mu_a2ca6fc66f9867c4c5e2` [lecture] Anatomy / Telegram 12146 - 8- Ulnar radial joints.pdf
+- `mu_cdbe954b43d6a34e559a` [lecture] Anatomy / Telegram 12150 - 1-thigh anterior.pdf
+- `mu_62ad220f9e579801e2e5` [lecture] Anatomy / Telegram 12156 - 2-thigh medial.pdf
+- `mu_07a69270905e933fa3a0` [lecture] Anatomy / Telegram 12160 - 3-gluteal region post thigh pop fossa.pdf
+- `mu_5749cd3388fc23984daa` [lecture] Anatomy / Telegram 12164 - 4-anterior and lateral leg.pdf
+- `mu_c1f58d99c0ab914c5e1c` [lecture] Anatomy / Telegram 12170 - 5-posterior compartment leg.pdf
+- `mu_c0d9115bb94080be4fc8` [lecture] Anatomy / Telegram 12174 - 6-joints.pdf
+- `mu_583c633cc8b4311d3fe1` [lecture] Anatomy / Telegram 12180 - 9- Thoracic wall _ diaphragm.pdf
+- `mu_b35ee792d5b2e51b17a8` [lecture] Anatomy / Telegram 12184 - 10- Abdominal wall.pdf
+- `mu_1386961681fd0d72a705` [lecture] Anatomy / Telegram 12188 - 7-scalp & face.pdf
+- `mu_3374288880b4f9b5509b` [lecture] Anatomy / Telegram 12194 - 8-Sternomastoid muscle supra hyoid cervical lymph nodes.pdf
+- `mu_8cc5b40e16b93fff3511` [lecture] Anatomy / Telegram 12198 - 9-infra hyoid - thyroid.pdf
+- `mu_c77470a12e6a821749d3` [lecture] Anatomy / Telegram 12205 - 10- Muscle of mastication vertebral column.pdf
+- `mu_eaab4a648342b5521560` [lecture] Anatomy / Telegram 12216 - 1st section MSK 2024.pdf
+- `mu_d532800206e536d098a8` [lecture] Anatomy / Telegram 12217 - pectoral region final 2024.pdf
+- `mu_7ba4e35bab95aa95cfd8` [lecture] Anatomy / Telegram 12220 - muscles of the back 2024.pdf
+- `mu_65fedd46dbd298365ed5` [lecture] Anatomy / Telegram 12228 - Scapuler region 2024.pdf
+- `mu_f17aa8e5b2ed2882028e` [lecture] Anatomy / Telegram 12238 - 4th section MSK 2024.pdf
+- `mu_09174fc35bd268af4300` [lecture] Anatomy / Telegram 12246 - arm and cubital fossa.pdf
+- `mu_2e241efe0497390cc83a` [lecture] Anatomy / Telegram 12252 - muscles of forearm.pdf
+- `mu_2ef3fb305f7184c59cee` [lecture] Anatomy / Telegram 12258 - Superficial group of forearm extensors 2024.pdf
+- `mu_734ef368808dfb867b69` [lecture] Anatomy / Telegram 12268 - Final deep muscles of forearm and hand.pdf
+- `mu_d8222e069beddd82123e` [lecture] Anatomy / Telegram 12272 - lab 3 MSK front of the thigh.pdf
+- `mu_99ff1c2e2a06e6add06c` [lecture] Anatomy / Telegram 12280 - lab 4 MSK medial compartment of thigh.pdf
+- `mu_7696d0e44313b1c29c0d` [lecture] Anatomy / Telegram 12286 - gluteal back of thigh final 2023.pdf
+- `mu_56a33c3e6600ed97fdf5` [lecture] Anatomy / Telegram 12292 - ANT LAT of leg.pdf
+- `mu_a4aaffd67191c9bda1fe` [lecture] Anatomy / Telegram 12298 - back of the leg.pdf
+- `mu_a340635aebfa3c013324` [lecture] Anatomy / Telegram 12334 - final Ant abd wall thoracic cage and post abd wall.pdf
+- `mu_fa60bb0d81ea914dce05` [lecture] Anatomy / Telegram 12649 - skull final 3.pdf
+- `mu_9aea38f91055810a9250` [lecture] Anatomy / Telegram 12651 - head neck final modified.pdf
+- `mu_32e6b8f88e00a802de68` [lecture] Anatomy / Telegram 12668 - head neck and thyroid gland final modified merged.pdf
+- `mu_8e0382080081b3e98039` [lecture] Anatomy / Telegram 11855 - TBL.pdf
+- `mu_b43c20317efc43586c9b` [lecture] Anatomy / Telegram 11872 - TBL 2.pdf
+- `mu_3bd1cb11a6c12b08617a` [lecture] Anatomy / Upper_limb_.._Ahmed_Mostafa_Kamal_.._Abdulrahman_Zaghloul.pdf
+- `mu_284168e7b28df306051b` [lecture] Anatomy / المحاضرة التاسعة أناتومي.pdf
+- `mu_5397064a7fc1b79c430e` [lecture] Biochemistry / Telegram 12346 - MSK-main book-2024final.pdf.pdf
+- `mu_689df40c00afe52bac7f` [lecture] Biochemistry / Telegram 12350 - Support 43-Bio lec2.pdf
+- `mu_556c85bc0fe0b580b653` [lecture] Biochemistry / Telegram 12356 - Support 43-Bio lec3.pdf
+- `mu_b7f9667aebcc4f6c119e` [lecture] Biochemistry / Telegram 12361 - Support 43- Bio Minerals.pdf
+- `mu_2f1ddf62627913135673` [lecture] Biochemistry / Telegram 12369 - Microminerals modified.pdf
+- `mu_7c65e37e6a1914f0b64a` [lecture] Biochemistry / Telegram 12374 - msc extracellular matrix final.pdf
+- `mu_dac4f06e9a515f0a9c79` [lecture] Biochemistry / Telegram 12391 - Support 43 Bio sec1.pdf
+- `mu_fe154c602d09cff6eec9` [lecture] Biochemistry / Telegram 12424 - offiwiz_file.pdf
+- `mu_449ab1072324c5666020` [lecture] Biochemistry / Telegram 12437 - section 1 lab precaution and specimen collection.pdf
+- `mu_a29a4172733a1bbd4d76` [lecture] Biochemistry / Telegram 12439 - section 2 physical properties of urine.pdf
+- `mu_3592931e218e971a9d27` [lecture] Biochemistry / Telegram 12443 - section 3 chemical composition of urine.pdf
+- `mu_ef85cbf82dbbb6b67ce0` [lecture] Biochemistry / Telegram 12445 - section 4 abnormal constituents of urine.pdf
+- `mu_4052f9649fe3095f550b` [lecture] Biochemistry / Telegram 12447 - section 5 instruments.pdf
+- `mu_05a089c320185c8605ae` [lecture] Biochemistry / Telegram 12449 - section 6 determination of serum creatinine.pdf
+- `mu_d0c162df24b9126b73c2` [lecture] Biochemistry / Telegram 12455 - section 8 Result interpretation.pdf
+- `mu_694d17a206b994124fea` [lecture] Biochemistry / Telegram 12011 - محاضرة بايو 1.pdf
+- `mu_b82a2f94c0f0bc9f65a3` [lecture] Biochemistry / vitamin Copy.pdf
+- `mu_b44e954055a00d5eb875` [lecture] Histology / Bone_part_1_2021.pptx
+- `mu_f95d5c0025a3f53bb2d1` [lecture] Histology / Bone_part_2_2021.pptx
+- `mu_6d1178b4dde400da0010` [lecture] Histology / Cartilage_2021.pptx
+- `mu_792b7d0d162f9ecbe613` [lecture] Histology / MFMSUPPORT42,Histo,Dr Eisa - Part 1.pdf
+- `mu_6dcc971fbffb73ea5fba` [lecture] Histology / MFMSUPPORT42,Histo,Dr Eisa - Part 2.pdf
+- `mu_63f1928aaec770d9c07c` [lecture] Histology / Muscular_tissue_2021.pptx
+- `mu_0a4147d1783e741b2c5f` [lecture] Histology / Nervous_tissue_2021.pptx
+- `mu_7322fcdf7292510bb538` [lecture] Histology / Telegram 12465 - muscle.pdf
+- `mu_2b81ed0e79ca456121fa` [lecture] Histology / Telegram 12469 - 6-CARTILAGE.pdf
+- `mu_e86c65c8e11dc2e031ce` [lecture] Histology / Telegram 12477 - Bone lecture.pdf
+- `mu_8301b231a5f4263e64f0` [lecture] Histology / Telegram 12481 - nervous tissue part 1-2024.pdf
+- `mu_cb571ca5d01a50b2f395` [lecture] Histology / Telegram 12487 - Nervous tissue part 2.pdf
+- `mu_21e5a8a9daea1ca00f68` [lecture] Histology / Telegram 12490 - Histology drawings.pdf
+- `mu_441c25dec28a88514a06` [lecture] Histology / Telegram 12494 - Msk Histo sec 1.pdf
+- `mu_2b6f0729778928270fa0` [lecture] Histology / Telegram 12496 - Support 43 histo sec2 slide microscope.pdf
+- `mu_6f8a63f4cd4b4eb938d7` [lecture] Histology / Telegram 12502 - Histo sec 2.pdf
+- `mu_c80fb793dfc965b5dba9` [lecture] Histology / Telegram 12505 - Microscope cartilage support 43.pdf
+- `mu_9f4d2f7bee96a04549bb` [lecture] Histology / Telegram 12511 - Histo Sec 3 Bone.pdf
+- `mu_f963a92a5bbfde85be6f` [lecture] Histology / Telegram 12516 - Support 43 histo sec3 microscope.pdf
+- `mu_df4e04854986a54c430c` [lecture] Histology / Telegram 12520 - Histo sec 4 Bone 2.pdf
+- `mu_757dfe4d3257631ff960` [lecture] Histology / Telegram 12522 - Support43 histo sec4.pdf
+- `mu_1bfe83bdc1737588c4bd` [lecture] Histology / Telegram 12529 - Histo sec 5 Nervous.pdf
+- `mu_ab4ae245d40d053b23b2` [lecture] Histology / Telegram 12531 - Support 43 histo sec5 microscope.pdf
+- `mu_cb9ab071f919dc085792` [lecture] Histology / Telegram 12535 - Histo sec 6.pdf
+- `mu_7663ca87047dfea7ae37` [lecture] Histology / Telegram 12539 - Support 43 histo sec 6 microscope.pdf
+- `mu_56ef44a27f4ac9e3b0ca` [lecture] Histology / Telegram 12544 - Microscope revision.pdf
+- `mu_5c2889ddd909d5c78240` [lecture] Pathology / MFM41SUPPORT Patho Dr Eisa.pdf
+- `mu_f3bec341bd25dd169d15` [lecture] Pathology / Telegram 12553 - Bone repair and osteodystrophy MSK Lecture 1.pdf
+- `mu_d5671ef7d3cb169afd68` [lecture] Pathology / Telegram 12557 - OSTEOMYELITIS AND ARTHRITIS 2024.pdf
+- `mu_202ac924ca2292a7190c` [lecture] Pathology / Telegram 12563 - Bone tumors Dr Noha Elkady.pdf
+- `mu_7025c4c03c354b95c9bf` [lecture] Pathology / Telegram 12565 - tables of bone tumors.pdf
+- `mu_cf557134d408917affd3` [lecture] Pathology / Telegram 12569 - Miscellanous tumour dr mona kandil 20.pdf
+- `mu_8c2ead6c046bc5921656` [lecture] Pathology / Telegram 12074 - MSK section 1 2024.pdf
+- `mu_4be4c5c037a7a1398759` [lecture] Pathology / Telegram 12076 - MSK section 2 2024.pdf
+- `mu_20fae5c1f724775478e7` [lecture] Pathology / Telegram 12078 - MSK section 3 2024.pdf
+- `mu_3653f662b490c2f3b0e4` [lecture] Pathology / patho Dr Eisa msk2.pdf
+- `mu_a552e2f85e495977a8d8` [lecture] Physiology / Telegram 12580 - Nerve 1.pdf
+- `mu_8b55f0743e74504f1019` [lecture] Physiology / Telegram 12584 - NM junction.pdf
+- `mu_9d35b1d1ea2db74d9f94` [lecture] Physiology / Telegram 12602 - Practical Physiology MSK1 simple muscle twitch.pdf
+- `mu_a55bdb6c26f38ca32b6f` [practical] a1office_إمتحان عملي 39 الأونلاين.pdf
+- `mu_799890b82d244ddd2eba` [practical] Exam A.pdf
+- `mu_94bd8ef8c5e6b0455d0c` [practical] Exam B.pdf
+- `mu_1233374ce511ace0e413` [practical] EXAM MSK1.pdf
+- `mu_4e73f5a4ef6a1f95b373` [practical] MSK 1 final practical.pdf
+- `mu_0f9f4751f891ed1a6884` [practical] Anatomy / MSK2 LAB ANSWERS.pdf
+- `mu_b5255d7742c93cdd6b8a` [practical] Anatomy / Telegram 12711 - bone revision sec.pdf
+- `mu_0897fde9f00bbc12c6fa` [practical] Anatomy / Telegram 12713 - lower limb bones.pdf
+- `mu_78391c5993aaa21056a0` [practical] Anatomy / Telegram 12715 - Copy of Support 43 Anatomy.pdf
+- `mu_d1c7d6d773188a314f1c` [practical] Anatomy / Telegram 12716 - Support 43 Anatomy.pdf
+- `mu_5a948a2e2420bf99fbfd` [practical] Anatomy / Telegram 12717 - Support 43 models.pdf
+- `mu_c83d20b9089837975523` [practical] Anatomy / Telegram 12718 - Support 43 models Q.pdf
+- `mu_a6a8a2e87da13b7a91bd` [practical] Anatomy / Telegram 12720 - Blank practical atlas.pdf
+- `mu_1260c255f7211e38038a` [practical] Anatomy / Telegram 12724 - Lower limb muscles.pdf
+- `mu_6de5f47fdc263bca3bb8` [practical] Anatomy / Telegram 12726 - muscles of upper limb.pdf
+- `mu_a8bb2901b2ac13480caa` [practical] Anatomy / Telegram 12730 - cervical vertebrae details.pdf
+- `mu_99632be7eedba63ae4b4` [practical] Anatomy / Telegram 12732 - Attachment.pdf
+- `mu_5261ef52a9fbf51fdd44` [practical] Anatomy / اسئلة عملى الاناتومى بالاجابات.pdf
+- `mu_a58e119ae4ca6c97fc8a` [practical] Biochemistry / BIOCHEMISTRY PRACTICAL.pdf
+- `mu_209e7677c86d42a0fe9d` [practical] Biochemistry / Important Numbers.pdf
+- `mu_3ee578a9a63f3396433a` [practical] Biochemistry / Telegram 12835 - Support 43 bio practical Dr Fallaha.pdf
+- `mu_199dfb59f5788bf415f9` [practical] Biochemistry / Telegram 12837 - Urine practical Dr Fallaha.pdf
+- `mu_602361995e9f1bd817e8` [practical] Biochemistry / Telegram 12841 - Attachment.pdf
+- `mu_b62788f42ce745958d54` [practical] Biochemistry / Telegram 12847 - Support43 Bio.pdf
+- `mu_46f70e2ab8c0b35b9c45` [practical] Biochemistry / Telegram 12853 - Attachment.pdf
+- `mu_8ac2b22ac977a1e4dd11` [practical] Biochemistry / Telegram 12865 - Attachment.pdf
+- `mu_2d7fdbcfa50ed2b21812` [practical] Biochemistry / Telegram 12871 - Bio practical part 2.pdf
+- `mu_6a79a0fd0cab2a7e1211` [practical] Biochemistry / Telegram 12873 - Bio practical part 3.pdf
+- `mu_a222304a2d4ca52e2a1a` [practical] Biochemistry / Telegram 12777 - biochemistry practical.pdf
+- `mu_67983303916b1a4cba61` [practical] Biochemistry / Support 43- BIOCHEMISTRY PRACTICAL.pdf
+- `mu_47c1cfa9fe1055e3b494` [practical] Biochemistry / Support 43- Important Numbers.pdf
+- `mu_2d4bd1b88717cf5cc1bf` [practical] Biochemistry / Support 43-bio questions.pdf
+- `mu_cab079fb96052aae218b` [practical] Histology / Microscope ans support .pdf
+- `mu_351fa1808bd6f9774442` [practical] Histology / Telegram 12899 - practical histology.pdf
+- `mu_d11ff1e0408650e4bde3` [practical] Histology / Telegram 12891 - Histology practical Dr Amr Essam.pdf
+- `mu_0bfd509fcbeb55260968` [practical] Histology / Telegram 12785 - Histology practical.pdf
+- `mu_8b1eb2684a0a3b00905c` [practical] Histology / Support 43,MSK,Histo,Questions Data show.pdf
+- `mu_98c41507fef1f9bdac0f` [practical] Histology / support histology microscope.pdf
+- `mu_c211facefdc2df70ea9b` [practical] Histology / Support,MSK,Histo,Ans Data show.pdf
+- `mu_1a4d2ed64dc29496c8aa` [practical] Histology / Support43_histology microscope.pdf
+- `mu_66097bd8fd5130fbdb45` [practical] Histology / عملي الميكروسكوب_compressed (1).pdf
+- `mu_50fdedb7192fcf042114` [practical] Pathology / Telegram 12799 - Attachment.pdf
+- `mu_e8e0c82f881d92b74895` [practical] Pathology / Support 43- Pathology Answers.pdf
+- `mu_341f753c9fdd9f4b9f74` [practical] Pathology / Support 43-Pathology .pdf
+- `mu_028e3785a6eb806444e9` [practical] Physiology / physio. practical.pdf
+- `mu_b44b889cbba05fc17031` [practical] Physiology / Telegram 12924 - practical physiology.pdf
+- `mu_0ef8e32e267d87e13732` [practical] Physiology / Telegram 12802 - physiology.pdf
+
+## MU-MED105 — MED105 — Cardiovascular system
+
+### Tier 1 — exam papers (EOM/EOY/Resit-Baqoon)
+
+- `mu_9ac9f79f9ed25404b19b` [paper] CVS End Module 43.pdf
+- `mu_b2fc082f072c18432ad3` [paper] CVS Final 43 - Paper 1 Answered.pdf
+- `mu_a3aa1fdea67779294c75` [paper] CVS Final 43 - Paper 1 Unanswered.pdf
+- `mu_70ab592bf2e6b55aefa3` [paper] CVS Final 43 - Paper 2 Answered.pdf
+### Tier 2 — question banks
+
+- `mu_ecccf47162df6b1db030` [bank] Ends and Finals Compilation - Paper 1 Anatomy Pathology Histology.pdf
+- `mu_dc6de9ddfa3cc8b9dd27` [bank] Ends and Finals Compilation - Paper 2 Physiology Pharmacology.pdf
+- `mu_f566c57b6e13b3a7d8b0` [bank] Support 43 CVS Comprehensive Questions - Paper 1.pdf
+- `mu_885751dae942cc4a4b4f` [bank] Support 43 CVS Comprehensive Questions - Paper 2.pdf
+- `mu_31e93628413d1a5f8471` [bank] Anatomy / Anatomy Assessment Questions.pdf
+- `mu_a0964f72feeb34a4332f` [bank] Anatomy / Anatomy Ends and Finals Questions.pdf
+- `mu_3d6f9883777723ee8106` [bank] Anatomy / Anatomy Practical Revision Questions - Answered.pdf
+- `mu_ca8f634e1a668f7be645` [bank] Anatomy / Anatomy Practical Revision Questions - Blank.pdf
+- `mu_c8727498ca3ce0d5786e` [bank] Anatomy / Radiology Practice - Answered.pdf
+- `mu_539c2fc05129db44dd81` [bank] Anatomy / Radiology Practice - Unanswered.pdf
+- `mu_0e3a05fd2d47b7467190` [bank] Anatomy / Support Anatomy Compiled Questions - Answered 1-148.pdf
+- `mu_d325186ceb9d67ade091` [bank] Anatomy / Support Anatomy Compiled Questions - Remaining Answers.pdf
+- `mu_1b059f0591f9c4c5d0ed` [bank] Anatomy / Support Anatomy Compiled Questions - Unanswered.pdf
+- `mu_d797e1932b5d8b753a74` [bank] Histology / Histology Ends and Finals Questions - Answered.pdf
+- `mu_240254d56b03877d8a30` [bank] Histology / Histology Practical Questions - Answered.pdf
+- `mu_51d6cfed163b94bb9163` [bank] Histology / Histology Practical Questions - Unanswered.pdf
+- `mu_4e375443179bafa305a5` [bank] Histology / Support Histology Compiled Questions - Answered.pdf
+- `mu_75f4b3c0b85c307b07d5` [bank] Histology / Support Histology Compiled Questions - Unanswered.pdf
+- `mu_20c9b90f47015d7f4d17` [bank] Pathology / Cardio MCQs - Answered.pdf
+- `mu_e9a2484fe029493fe641` [bank] Pathology / Cardio MCQs - Unanswered.pdf
+- `mu_7b398e5d710716efd001` [bank] Pathology / Hemodynamics MCQs - Answered.pdf
+- `mu_45e667e0aee3b5e0d0f0` [bank] Pathology / Hemodynamics MCQs - Unanswered.pdf
+- `mu_de889f5454164fab7296` [bank] Pathology / Pathology Ends and Finals Questions - Answered.pdf
+- `mu_116a4b424a764e71d45c` [bank] Pathology / Pathology Practical Flashcards.apkg
+- `mu_3f37d494f9d6adfa5241` [bank] Pathology / Pathology Practical Revision Questions and Answers.pdf
+- `mu_8d678018ff3c7f84fbb3` [bank] Pathology / Pathology Practical Slide Test - Answered.pdf
+- `mu_ca5a131263ef7e42e5ca` [bank] Pathology / Pathology Practical Slide Test - Unanswered.pdf
+- `mu_59b4558fd14915178f7f` [bank] Pathology / Pathology TBL Questions.pdf
+- `mu_a1e0081efa786106def5` [bank] Pathology / Previous Pathology Practical Questions.pdf
+- `mu_315f535c252e65e1f4fd` [bank] Pathology / Support Pathology Compiled Questions - Answered.pdf
+- `mu_51a1497c6cfd30314cd0` [bank] Pathology / Support Pathology Compiled Questions - Unanswered.pdf
+- `mu_895b54e53b015e143ca1` [bank] Pathology / Thrombosis MCQs - Answered.pdf
+- `mu_907711232dcf6cfd53d0` [bank] Pathology / Thrombosis MCQs - Unanswered.pdf
+- `mu_df574c4f693b5539bcbd` [bank] Pathology / Vascular MCQs - Answered.pdf
+- `mu_21e08e339420733507ec` [bank] Pathology / Vascular MCQs - Unanswered.pdf
+- `mu_12b5818f7974d7e0fb2f` [bank] Pharmacology / Arrhythmia Test Bank - Dr Ahmed Nasser - Answered.pdf
+- `mu_10b9f368f1a263c14d0f` [bank] Pharmacology / Arrhythmia Test Bank - Dr Ahmed Nasser - Unanswered.pdf
+- `mu_f80e909ee6a4d443e228` [bank] Pharmacology / Heart Failure Test Bank - Dr Ahmed Nasser.pdf
+- `mu_f5a26b55a481032e1252` [bank] Pharmacology / Hypertension Questions - Part 1 ACEI and ARBs - Answered.pdf
+- `mu_95a03add1364643ce250` [bank] Pharmacology / Hypertension Questions - Part 1 ACEI and ARBs - Unanswered.pdf
+- `mu_860482a8ccd8a2ee7fcc` [bank] Pharmacology / Hypertension Questions - Part 2 Calcium Channel Blockers - Answered.pdf
+- `mu_25ed42616e4c279c557d` [bank] Pharmacology / Hypertension Questions - Part 2 Calcium Channel Blockers - Unanswered.pdf
+- `mu_2fe6e0c0aff249fd0536` [bank] Pharmacology / Hypertension Questions - Part 3 - Answered.pdf
+- `mu_44e4baf636c9d50bb9b3` [bank] Pharmacology / Hypertension Questions - Part 3 - Unanswered.pdf
+- `mu_c2aea047a7218286b3e0` [bank] Pharmacology / Hypertension TBL Questions.pdf
+- `mu_527920b10809c8b5821b` [bank] Pharmacology / Pharmacology Ends and Finals Questions.pdf
+- `mu_c080cad18dbd7b087f4b` [bank] Pharmacology / Pharmacology Practical Flashcards.apkg
+- `mu_e6c9bb22fae46b867d27` [bank] Pharmacology / Pharmacology Practical Questions - Answered.pdf
+- `mu_2de3cf0c71335f0600d6` [bank] Pharmacology / Pharmacology Question Bank - Dr Ahmed Nasser.pdf
+- `mu_3fd0523d4ef424353b7a` [bank] Pharmacology / Previous Pharmacology Practical Questions.pdf
+- `mu_e48d64402a6943b7fb9d` [bank] Pharmacology / Support Pharmacology Compiled Questions - Answers Part 1.pdf
+- `mu_37a06b1437fe12678994` [bank] Pharmacology / Support Pharmacology Compiled Questions - Answers Part 2.pdf
+- `mu_66c6f97977fff644c602` [bank] Pharmacology / Support Pharmacology Compiled Questions - Final Section.pdf
+- `mu_d2c9aadca5ba7d46ef9f` [bank] Pharmacology / Support Pharmacology Compiled Questions - Unanswered.pdf
+- `mu_c7da5a27e0d0e0fa465a` [bank] Physiology / Cardiac Cycle Questions - Dr Mohamed Abdelsalam - Answered.pdf
+- `mu_551e6967b661e9c09c49` [bank] Physiology / Cardiac Cycle Questions - Dr Mohamed Abdelsalam - Unanswered.pdf
+- `mu_1241abdc8fe65b2bb672` [bank] Physiology / Cardiac Output Questions - Dr Mohamed Abdelsalam - Answered.pdf
+- `mu_fae735c6bac2b803575c` [bank] Physiology / Cardiac Output Questions - Dr Mohamed Abdelsalam - Unanswered.pdf
+- `mu_b4ad1120d66d1e164758` [bank] Physiology / Cardiac Properties Questions - Dr Mohamed Abdelsalam - Answered.pdf
+- `mu_4a625b681ca3064eb6d9` [bank] Physiology / Cardiac Properties Questions - Dr Mohamed Abdelsalam - Unanswered.pdf
+- `mu_fb5d11b444ebb3e10a18` [bank] Physiology / Cardio Questions 2024 - Dr Ahmed El-Gazzar.pdf
+- `mu_2d9ae6891a6d8a11cb20` [bank] Physiology / Dr Omar El-Mokhtar MCQ Answers.pdf
+- `mu_e1f966fead5e51d5914a` [bank] Physiology / Dr Omar Physiology Questions - Support 41.pdf
+- `mu_1427370482006240e6d6` [bank] Physiology / KasZem MCQ - Cardiac Cycle Answers.pdf
+- `mu_74e01f5b83edc8ca80c6` [bank] Physiology / KasZem MCQ - Cardiac Properties and Cardiac Cycle.pdf
+- `mu_bb17b6e6d07561298eac` [bank] Physiology / KasZem MCQ - Cardiac Properties Answers.pdf
+- `mu_789a20d08e0c0a159f76` [bank] Physiology / Physiology Course MCQ - Dr Omar El-Mokhtar.pdf
+- `mu_d8f56b1200756f1587e8` [bank] Physiology / Physiology Ends and Finals Questions - Answered.pdf
+- `mu_d14350f437f1043135cd` [bank] Physiology / Previous Physiology Practical Questions.pdf
+- `mu_d11e1baba457f6855703` [bank] Physiology / Support Physiology Compiled Questions - Answered Full Set.pdf
+- `mu_1c7c8184f577f968cd0a` [bank] Physiology / Support Physiology Compiled Questions - Answered Short Set.pdf
+- `mu_fd5cceee4c9960b4ecdd` [bank] Physiology / Support Physiology Compiled Questions - Unanswered.pdf
+- `mu_c8a4abfd01dca6955e50` [bank] Physiology / Vascular Questions - Dr Ahmed El-Gazzar.pdf
+### Tier 3 — department books
+
+- `mu_5ca028d96bdca72569d0` [dept-book] Integrated CVS Book (final 2).pdf
+- `mu_876c2bd15d1bf71629c5` [dept-book] Anatomy / Support 43, Anatomy CVS.pdf
+- `mu_43dd86dc5ddbc961297d` [dept-book] Histology / Support 43, Histology CVS.pdf
+- `mu_42aa58a36222ae4da750` [dept-book] Pathology / Support43 - Pathology CVS.pdf
+- `mu_c2211278cbca648250b3` [dept-book] Pharmacology / Support 43, Pharmacology CVS.pdf
+- `mu_6662546b4756f26fdeea` [dept-book] Physiology / Support 43, Physiology CVS.pdf
+### Tier 4 — notes/textbooks
+
+- `mu_60822915806e149132bd` [other] Anatomy / Anatomy Summary - Complete Except Final Embryology.pdf
+- `mu_9ee2ca5bce33894483c8` [other] Anatomy / Arteries and Veins Illustrated Summary.pdf
+- `mu_80f69044e8fca79b6c44` [other] Anatomy / External Features and Surface Anatomy of the Heart.pdf
+- `mu_5dd8fe0b44a837b2e5a2` [other] Anatomy / Internal Features of the Heart.pdf
+- `mu_d2db6b18be54f7589310` [other] Anatomy / Nerves and Cardiac Plexuses of the Heart.pdf
+- `mu_6cfd665a36299a19e683` [other] Anatomy / Support 43 - Anatomy Lecture Transcripts.pdf
+- `mu_47b5925ceec01c57c7d8` [other] Anatomy / Support 43 - Development of the Heart.pdf
+- `mu_257a398cf4d7f853426e` [other] Histology / Cardiac Muscle - Two-Page Summary.pdf
+- `mu_a00bd64153b66d27fe24` [other] Histology / Histology Notes - Dr Ahmed El-Gazzar.pdf
+- `mu_73fd32a313d39b700368` [other] Histology / Histology Notes - Dr Ahmed Essam.pdf
+- `mu_8392f9246e854c2fb7ea` [other] Histology / Histology Notes - Dr Ahmed Roshdy.pdf
+- `mu_11b51ae0b1c823ad0f6a` [other] Histology / Support 43 - Histology Summary.pdf
+- `mu_0744da31dc5b3fe73c9a` [other] Pathology / Mechanism of Thrombosis Summary.pdf
+- `mu_ea2ee35ae267a76770cd` [other] Pathology / Pathology Course - Dr Ahmed Saeeda - Final Part.pdf
+- `mu_236046383dca8a7980e6` [other] Pathology / Pathology Course - Dr Ahmed Saeeda - Part 1.pdf
+- `mu_26a5c9f91dd4c105faad` [other] Pathology / Pathology Course - Dr Ahmed Saeeda - Part 2.pdf
+- `mu_cec7df5e19e79f285cd6` [other] Pathology / Support 43 - Pathology Summary.pdf
+- `mu_899c9e633e35414391c9` [other] Pathology / Thrombosis and Embolism - Dr Ahmed Saeeda.pdf
+- `mu_9bac6931cf415c8d2cd8` [other] Pharmacology / Calcium Channel Blockers Summary.pdf
+- `mu_7a2afa438b17a94604ad` [other] Pharmacology / Digitalis Summary.pdf
+- `mu_b7b3d5345c6cf69852d5` [other] Pharmacology / Diuretics Mind Map.pdf
+- `mu_c7b3980a41486831647a` [other] Pharmacology / Diuretics Summary.pdf
+- `mu_83e50b43de811046e39a` [other] Pharmacology / Hypertension Treatment Mind Map - Part 1.pdf
+- `mu_77765a4f5ee0c443c562` [other] Pharmacology / Hypertension Treatment Mind Map - Part 2.pdf
+- `mu_1c1f1971d4280f20acde` [other] Pharmacology / Nitrates Mind Map.pdf
+- `mu_26894902882fb92ae13a` [other] Pharmacology / Pharmacology Course - Dr Ahmed Nasser - Part 1.pdf
+- `mu_de0fc987f33a843f52e9` [other] Pharmacology / Pharmacology Course - Dr Ahmed Nasser - Part 2.pdf
+- `mu_49a1a7bd024e7a408e7d` [other] Pharmacology / Pharmacology Course - Dr Ahmed Nasser - Part 3.pdf
+- `mu_bc27bab3e49b32b48724` [other] Pharmacology / Pharmacology Course - Dr Ahmed Nasser - Part 4 Angina.pdf
+- `mu_dfcb4c8080b9d0f5a04a` [other] Pharmacology / Pharmacology Summary Scan.pdf
+- `mu_1389f93569f7377b691f` [other] Pharmacology / Support 43 - Pharmacology Summary.pdf
+- `mu_28a760a70a6ed86705c3` [other] Pharmacology / Thiazide and Loop Diuretics Comparison.pdf
+- `mu_264b985c354099eca288` [other] Physiology / Cardiac Cycle Summary - Concise.pdf
+- `mu_77bb5f0caa7042b5b57b` [other] Physiology / Cardiac Cycle Summary - Detailed.pdf
+- `mu_7187fb3e7c16a57fc3b8` [other] Physiology / Cardio 2024 - Dr Ahmed El-Gazzar - Part 1.pdf
+- `mu_177735b058b1c274d76d` [other] Physiology / Cardio 2024 - Dr Ahmed El-Gazzar - Part 2.pdf
+- `mu_abf3f56431c22fc5ded8` [other] Physiology / Cardio 2024 - Dr Ahmed El-Gazzar - Part 3.pdf
+- `mu_7bf536bc4eb62cb66da7` [other] Physiology / Dr Nagi Physiology Summary - Lecture 1.pdf
+- `mu_4229f15fcecbd3bc475f` [other] Physiology / Dr Nagi Physiology Summary - Lecture 2 Cardiac Excitability.pdf
+- `mu_31038b04f40aa7351f20` [other] Physiology / Dr Nagi Physiology Summary - Lecture 3.pdf
+- `mu_3f8bb5dbd1c64eaef0f0` [other] Physiology / Dr Nagi Physiology Summary - Lecture 4.pdf
+- `mu_f7929333d7a0ea2ac989` [other] Physiology / Factors Affecting Properties of the Heart - Summary.pdf
+- `mu_dd3fe77fb928d13ad56a` [other] Physiology / KasZem Physiology - Cardiac Cycle.pdf
+- `mu_ae4a34479d156d641589` [other] Physiology / KasZem Physiology - Cardiac Output and Work.pdf
+- `mu_7d89cef9a39401d8a4b7` [other] Physiology / KasZem Physiology CVS - Part 1.pdf
+- `mu_eb0b33d5268f2dfabe78` [other] Physiology / KasZem Physiology CVS - Part 3.pdf
+- `mu_6b20557c6e8aaf8ac4a5` [other] Physiology / KasZem Physiology CVS - Part 6.pdf
+- `mu_4e2377bd46936496af99` [other] Physiology / Physiology Course - Dr Omar El-Mokhtar - New Notes.pdf
+- `mu_7f1f9f54f6eb0f055ce5` [other] Physiology / Physiology Course - Dr Omar El-Mokhtar - Original Notes.pdf
+- `mu_0acbb7851e915d5263fc` [other] Physiology / Physiology Course - Dr Omar El-Mokhtar - Part 2.pdf
+- `mu_212782e93f0690beec31` [other] Physiology / Physiology Course - Dr Omar El-Mokhtar - Part 3.pdf
+- `mu_d3d100036ab23319ca1f` [other] Physiology / Physiology Course - Dr Omar El-Mokhtar - Part 4.pdf
+- `mu_edd57b8ad4a4d3e82601` [other] Physiology / Physiology Course - Dr Omar El-Mokhtar - Part 5.pdf
+- `mu_4314fa4398e3c1fe421d` [other] Physiology / Rhythmicity Mind Map.pdf
+- `mu_1c3bb39d3d4449cf195a` [other] Physiology / Special Circulations Summary.pdf
+- `mu_6402ec6d5a69930ffaad` [other] Physiology / Support 43 - Vascular Physiology Summary.pdf
+- `mu_849fce83f42f0636b4e9` [other] Physiology / Support Physiology Summary.pdf
+- `mu_dcdc112bc50c7f8853f1` [other] Physiology / Vascular 2024 - Dr Ahmed El-Gazzar.pdf
+### Tier 5 — lectures/practical-OSCE/administrative
+
+- `mu_b748bae20e7216dc7c21` [lecture] Anatomy / Anatomy cvs lec.pdf
+- `mu_e9acfbb033786a9fb1cf` [lecture] Anatomy / Arteries 2.pdf
+- `mu_a09afba19b3415fa4d56` [lecture] Anatomy / Arteries 3& Veins.pdf
+- `mu_89485a7df6b186c29ad6` [lecture] Anatomy / Cardiac development.pdf
+- `mu_ed933198883341fbd9c2` [lecture] Anatomy / Lecture 1 CVS.pdf
+- `mu_f25d372a284f54fdf7ca` [lecture] Anatomy / Lecture 2 CVS.pdf
+- `mu_eb8365790f671f662d7e` [lecture] Anatomy / Lecture 3 CVS.pdf
+- `mu_57f7843ace202753460f` [lecture] Histology / Blood vascular system.rania 2024.pdf
+- `mu_60319a1370b4914ecfdb` [lecture] Histology / Heart dr rania.pdf
+- `mu_73b7acc3425f0214b766` [lecture] Pathology / Aneurysm.pdf
+- `mu_fab0249a82d429881e32` [lecture] Pathology / Atherosclerosis and Hypertension - Part 1.pdf
+- `mu_4b69784368ab4b10a965` [lecture] Pathology / Atherosclerosis and Hypertension - Part 2.pdf
+- `mu_1db9746ed5d553b6c6bf` [lecture] Pathology / CVS heart failure periand myocardial diseases.pdf
+- `mu_f2a5bf180a10e99d54f9` [lecture] Pathology / Edema.pdf
+- `mu_bf766e2b52b37b53dd71` [lecture] Pathology / infarction for first grade.pdf
+- `mu_ff715afe9a4d0eb3ebe9` [lecture] Pathology / Rheumatic fever new.pdf
+- `mu_5c134130406361175c48` [lecture] Pathology / Thrombosis and Embolism.pdf
+- `mu_a1d3cf66a0abad3dcc7f` [lecture] Pharmacology / Anti anginal Drugs (Dr. Amany Tawfik).pdf
+- `mu_3c97204526f168b0c5cf` [lecture] Pharmacology / Antiarrhythmic Drugs 2024.pdf
+- `mu_1ef94dfb7789469d62b8` [lecture] Pharmacology / Drug therapy of Heart failure 1 2024 F.pdf
+- `mu_5a0b3059ca6a38e50d73` [lecture] Pharmacology / Heart failure 2 Digoxin F 2024.pdf
+- `mu_c26356b77c475d87a383` [lecture] Pharmacology / hypertension Lecture 2024 1st year Dr. Amany - Part 2.pdf
+- `mu_7062fa65494b494c618e` [lecture] Pharmacology / hypertension Lecture 2024 1st year.pdf
+- `mu_af9329a0a5208b7f0a5e` [lecture] Pharmacology / Renal pharmacology Lecture 2024 Dr. Amany.pdf
+- `mu_2a3b1721bcaaacbf595f` [lecture] Physiology / Capillary Circulation and Edema.pdf
+- `mu_490d484ed19daeee7224` [lecture] Physiology / Cardiac Cycle.pdf
+- `mu_d5580f740ded70e6198c` [lecture] Physiology / Cardiac Output and Venous Return.pdf
+- `mu_496ba077f4e9e6d7faeb` [lecture] Physiology / Cardiac Work Energetics and Reserve.pdf
+- `mu_4c2a207c86f98bf789dd` [lecture] Physiology / Cerebral Circulation 2024.pdf
+- `mu_f40252320cbe3e2d33c5` [lecture] Physiology / Coronary and Capillary Circulation.pdf
+- `mu_b4275d544a3ea1cf8d1f` [lecture] Physiology / CVS Conductivity and Contractility.pdf
+- `mu_d6a3de6b0456f6d5de56` [lecture] Physiology / CVS Excitability.pdf
+- `mu_a2f3a15c56969b940a32` [lecture] Physiology / CVS Rhythmicity.pdf
+- `mu_b19feaf619ae9bc94e7b` [lecture] Physiology / ECG.pdf
+- `mu_1bdbdeeb446bfeddfeb9` [lecture] Physiology / Hemodynamics Shock and Hemorrhage.pdf
+- `mu_263ed2e074ca8bfd9f9c` [lecture] Physiology / Venous and Pulmonary Circulation.pdf
+- `mu_2d4e5d6ff07e9b698b3e` [practical] Pharmacology and Physiology Practical Notes - Dr Mohamed Salah.pdf
+- `mu_8f177f1a982e48452b00` [practical] Anatomy / 5- vessels of head &  neck 2022-23.pdf
+- `mu_6eab09f2b47d08d1d8f0` [practical] Anatomy / Abdominopelvic vessels  ANSWERRED_061552.pptx.pdf
+- `mu_da96586c8f20b3d68868` [practical] Anatomy / Abdominopelvic vessels 2022-23.pdf
+- `mu_52fcf85986f82b88d4cb` [practical] Anatomy / Anatomy of heart external and pericardium.pdf
+- `mu_9b54630a68aa8d7b50c2` [practical] Anatomy / Anatomy of heart internal features.pdf
+- `mu_d678cff422c666ff0cb6` [practical] Anatomy / answered  vessels of head &  neck2022_2023.pptx
+- `mu_71d944181c5d68ec469d` [practical] Anatomy / answers of vessels of upper limb 2022-2023.pptx.pdf
+- `mu_5168757c5d6f4c9bc372` [practical] Anatomy / Blood supply heart, Peric answer 2022-23-1.pptx.pdf
+- `mu_34c27491f183ab569cc6` [practical] Anatomy / Blood supply to the heart and pericardium.pdf
+- `mu_2f60f2b80e713d5fe0a5` [practical] Anatomy / Compressed__a4sd4uq.pdf
+- `mu_54d6c3ba6965246fa5c1` [practical] Anatomy / Heart Ext,Int answer 2022-23.pptx
+- `mu_9f65138865f414054c0a` [practical] Anatomy / Mediast & great vs of heart final 2022-23 (1).pdf
+- `mu_7a0ce7a4931c1027b060` [practical] Anatomy / Mediastinum_great_vessels_of_the_heart_final_3_060603_pptx.pdf
+- `mu_19cac679fbc6974a691c` [practical] Anatomy / Radiology CVS Revision - Presentation Export.pdf
+- `mu_e78af153dfdea0baf18d` [practical] Anatomy / radiology cvs revision.pdf
+- `mu_49062a68274729144884` [practical] Anatomy / vessels of lower answers 2022-23.pptx.pdf
+- `mu_5f9a21f4ca1008290139` [practical] Histology / Arteries and Veins - Microscope Images.pdf
+- `mu_a03fef0ee00843fba8b7` [practical] Histology / Cardiac Muscle - Microscope Images.pdf
+- `mu_d8236d63460a6b2d93cd` [practical] Histology / CVS Histology Final Practical Revision NEEEW 2024.pdf
+- `mu_cebae7bf87f14b679cee` [practical] Histology / cvs module practical histology modified 2.pdf
+- `mu_61c95dee4cdf7aadb1f8` [practical] Pathology / Atherosclerosis - Section 6.pdf
+- `mu_eacbe3d95d44a2ba3d2b` [practical] Pathology / Blood Vessel Tumors - Section 5.pdf
+- `mu_f359aff6fc88f0fc62bf` [practical] Pathology / Congestion and Edema - Microscope Images.pdf
+- `mu_beca7521514177bf954a` [practical] Pathology / Congestion and Edema - Section 7.pdf
+- `mu_e1fd41c2952f7f22e470` [practical] Pathology / Final Practical Revision CVS - Part 1.pdf
+- `mu_a501b37bfa405466b596` [practical] Pathology / Final Practical Revision CVS - Part 2.pdf
+- `mu_76608867d946cd77ff4a` [practical] Pathology / Infarction and Gangrene - Section 4.pdf
+- `mu_ff4b499cbe384f2c272d` [practical] Pathology / Pathology Review Attachment - Dr Ahmed Saeeda.pdf
+- `mu_747930482fd743dc8b5c` [practical] Pathology / Pathology Section 1 Summary.pdf
+- `mu_741988e4ac729d261916` [practical] Pathology / Rheumatic Fever - Section 1.pdf
+- `mu_e48204a77abf159fda21` [practical] Pathology / Thrombosis - Section 3.pdf
+- `mu_177d1643821e4d95f616` [practical] Pharmacology / Alteration of urinary PH.pdf
+- `mu_63012faf5a8e7e77e32a` [practical] Pharmacology / Angina - powerpoint_240514_215600_240519_195944.pdf
+- `mu_ce18bfecaf02eed722c0` [practical] Pharmacology / Diuretic experiment-1_240514_223700.pdf
+- `mu_c531203f85c7ee592f89` [practical] Pharmacology / Experimental Heart - Dr Shaimaa.pdf
+- `mu_22bec54d485e0f209a4e` [practical] Pharmacology / Experimental Heart.pdf
+- `mu_d555359440ecbf14a93f` [practical] Pharmacology / HF.pdf
+- `mu_357abdb69bb834a5eb9d` [practical] Pharmacology / HTN.pdf
+- `mu_a92836831cea24dceb91` [practical] Pharmacology / Pharmacology Practical Course - Dr Ahmed Nasser.pdf
+- `mu_8053426f25e1b32a3376` [practical] Pharmacology / Practical Pharmacology cvs 2024.pdf
+- `mu_5fe7d3ca0e95f275584a` [practical] Pharmacology / Treatment of rheumatic fever.pdf
+- `mu_44fbb49c716fbf90beb3` [practical] Pharmacology / Treatment of Shock - Dr Shaimaa.pdf
+- `mu_a79c3138a31f95bf6252` [practical] Pharmacology / Treatment of Shock-4.pdf
+- `mu_743d7de48c1a38530ef3` [practical] Physiology / Arterial Pulse - Section 10 Notes.pdf
+- `mu_d3e39fe5fad2261c434b` [practical] Physiology / CVS Physiology Practical book (2).pdf
+- `mu_8da47072c7321e3744fd` [practical] Physiology / CVS Physiology Practical book.pdf
+- `mu_bb75be57ce611dd9f48c` [practical] Physiology / ECG 2 - Section 6 Summary.pdf
+- `mu_acead64b659ee535cd9e` [practical] Physiology / Final Practical Physiology Revision.pdf
+- `mu_417a44d92e16c0c9900d` [practical] Physiology / Heart Sounds Mind Map.pdf
+- `mu_c700f36aae5919ec4b6c` [practical] Physiology / Physiology Practical 2024 - Dr Ahmed El-Gazzar.pdf
+- `mu_1fce052bd6a5b4bfb1ad` [practical] Physiology / Physiology Practical Course - Dr Omar.pdf
+- `mu_a7dacafa86f5314c2c31` [practical] Physiology / Physiology Practical Course Notes - Scan.pdf
+- `mu_8c8afbed747a5614a84a` [practical] Physiology / Physiology Practical Notes - Dr Omar El-Mokhtar (2).pdf
+- `mu_25859a8b485194675772` [practical] Physiology / Support 43 - Physiology Practical Notes.pdf
+- `mu_32cf17be9610b9568420` [practical] Physiology / Support 43 - Solved Physiology Practical Book.pdf
+
+## MU-MED106 — MED106 — Medical Professionalism and communication skills
+
+### Tier 1 — exam papers (EOM/EOY/Resit-Baqoon)
+
+- `mu_ab3db0ab67b8f50e0967` [paper] Medical Professionalism - Final Exam.pdf
+### Tier 2 — question banks
+
+- `mu_7ccdc464c656da61a3b1` [bank] Dr Omar Qassem - MCQ Workbook - Solved.pdf
+- `mu_e140f7111dc2b787edcb` [bank] Dr Omar Qassem - MCQ Workbook.pdf
+- `mu_4a359a33291258439b3d` [bank] Flashcards - Full Course.apkg
+- `mu_c1cb1165756447ea52e3` [bank] Flashcards - Lectures 01-05.apkg
+- `mu_c9d279aa69557f8ad164` [bank] Medical Professionalism - Important Questions with Answers.pdf
+- `mu_3a9511ca45048aebbc58` [bank] Medical Professionalism - Lecture and EOM MCQs.pdf
+- `mu_f2b30cbe3680b490a438` [bank] Medical Professionalism - MCQ and Written Questions.pdf
+- `mu_c5e2e949d7be0d3aed0e` [bank] Medical Professionalism - Short Questions.pdf
+### Tier 4 — notes/textbooks
+
+- `mu_7fbe0b790090ad342edd` [other] Mind Maps - Lectures 01-05.pdf
+- `mu_fb7d95b710920b94eddc` [other] Post-Department-Selections Curriculum Summary.pdf
+- `mu_81e41683aa33886044e8` [other] Student Summary - Lecture 01 Professionalism.pdf
+- `mu_65e7b2f1a59b851a0167` [other] Student Summary - Lecture 02 Professional Boundaries.pdf
+- `mu_21140d92d60c5bbb6a6a` [other] Student Summary - Lecture 03 Self Awareness.pdf
+- `mu_c4d0f457b2d48b13cd7e` [other] Student Summary - Lecture 04 Breaking Bad News.pdf
+- `mu_f4afaa0695e5adeb3f00` [other] Student Summary - Lecture 05 Sympathy in Patient Interview.pdf
+- `mu_9dfd55e56bb8edb4b0b4` [other] Student Summary - Lecture 06 How to Set a Goal - Part 1.pdf
+- `mu_83ff02cfcf593be6778a` [other] Student Summary - Lecture 06 How to Set a Goal - Part 2.pdf
+- `mu_d65e0ceb49ece5b60687` [other] Student Summary - Lecture 07 Teamwork and Collaboration.pdf
+- `mu_a578777f290cc94c84ce` [other] Student Summary - Lecture 08 Burnout.pdf
+- `mu_85e14f4dc6d67a4eb4be` [other] Student Summary - Lecture 10 Time Management.pdf
+### Tier 5 — lectures/practical-OSCE/administrative
+
+- `mu_17cecd0891f9a0a4aa6d` [lecture] How to Set a Goal - Part 1.pdf
+- `mu_498e4b858aa1b3d4d07a` [lecture] How to Set a Goal - Part 2.pdf
+- `mu_644b9390941f21e435a3` [lecture] Lecture 01 - Professionalism.pdf
+- `mu_16963770cd29b2d2ac53` [lecture] Lecture 02 - Professional Boundaries - Lecturer Summary.pdf
+- `mu_86e13f8f1c8292150576` [lecture] Lecture 02 - Professional Boundaries.pdf
+- `mu_ac2c4f2a786ae236272f` [lecture] Lecture 03 - Self Awareness - Lecturer Summary.pdf
+- `mu_d409a6e8d34ec5ffdb82` [lecture] Lecture 03 - Self Awareness.pdf
+- `mu_394747e72c4c94345bd4` [lecture] Lecture 04 - Breaking Bad News - Lecturer Summary.pdf
+- `mu_93820daa29c5210491d8` [lecture] Lecture 05 - Sympathy in Patient Interview - Lecturer Summary.pdf
+- `mu_fa34e40142d48727ad71` [lecture] Lecture 07 - Professionalism and Teamwork.pdf
+- `mu_52b7b8f684e650ece90e` [lecture] Lecture 07 - Teamwork and Collaboration - Lecturer Summary.pdf
+- `mu_ac843ff0533856f3b157` [lecture] Lecture 08 - Burnout - Lecturer Summary.pdf
+- `mu_d350d9606de77229e3e4` [lecture] Lecture 08 - Burnout - Part 1.pdf
+- `mu_65f636b607a656321eea` [lecture] Lecture 08 - Burnout - Part 2.pdf
+- `mu_24c2b95be9542d883d88` [lecture] Lecture 09 - Stress Management in Medicine - Lecturer Summary.pdf
+- `mu_3ad8e279b1cb3bef7aab` [lecture] Lecture 09 - Stress Management in Medicine.pdf
+- `mu_c911e8c709471bcf33d8` [lecture] Lecture 11 - Work-Life Balance.pdf
+- `mu_de9bc4d7f58b37521a15` [lecture] Medical Professionalism - Official Handout.pdf
+
+## MU-MED107 — MED107 — vertical integration 2
+
+No local source files (empty shell — confirmed by S0 scan).
+
+## MU-UNI102 — UNI102 — Community issues
+
+No local source files (empty shell — confirmed by S0 scan).
+
+## MU-E102 — E102 — Faculty elective 2
+
+No local source files (empty shell — confirmed by S0 scan).
+
