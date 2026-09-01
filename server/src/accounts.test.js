@@ -57,18 +57,18 @@ test('a reason must be written, not just present', () => {
 
 test('per-user state keys fold into families a person would recognise', () => {
   // An admin asks "has this student written anything", not "what is in
-  // synapse.notebook.a3f". The grouping is what makes the answer readable.
-  assert.equal(stateFamily('synapse.qbank.attempts'), 'Question bank')
-  assert.equal(stateFamily('synapse.notebook.a3f9'), 'Notebook')
-  assert.equal(stateFamily('synapse.library.read'), 'Library')
-  assert.equal(stateFamily('synapse.maristanas.onboarding.v1'), 'Maristanas')
-  assert.equal(stateFamily('synapse-notification-read-v1-42'), 'Notifications')
+  // nishany.notebook.a3f". The grouping is what makes the answer readable.
+  assert.equal(stateFamily('nishany.qbank.attempts'), 'Question bank')
+  assert.equal(stateFamily('nishany.notebook.a3f9'), 'Notebook')
+  assert.equal(stateFamily('nishany.library.read'), 'Library')
+  assert.equal(stateFamily('nishany.maristanas.onboarding.v1'), 'Maristanas')
+  assert.equal(stateFamily('nishany-notification-read-v1-42'), 'Notifications')
 })
 
 test('an unrecognised state key is reported, not dropped', () => {
   // A key nobody has classified yet is still evidence that somebody used the
   // product. Silently discarding it would understate their activity.
-  assert.equal(stateFamily('synapse.something-new.v1'), 'Other')
+  assert.equal(stateFamily('nishany.something-new.v1'), 'Other')
   assert.equal(stateFamily(''), 'Other')
 })
 

@@ -657,43 +657,43 @@
    screen. `backwards` still holds the *first* frame through any
    animation-delay — all `stagger` needs — and leaves the element with no
    transform of its own once it has arrived. */
-@keyframes cortex-fade {
+@keyframes nishany-fade {
   from { opacity: 0; }
   to { opacity: 1; }
 }
-@keyframes cortex-pop {
+@keyframes nishany-pop {
   from { opacity: 0; transform: translateY(6px) scale(0.985); }
   to { opacity: 1; transform: none; }
 }
-@keyframes cortex-rise {
+@keyframes nishany-rise {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: none; }
 }
-@keyframes cortex-slide-x {
+@keyframes nishany-slide-x {
   from { transform: translateX(-100%); }
   to { transform: none; }
 }
-@keyframes cortex-slide-x-rtl {
+@keyframes nishany-slide-x-rtl {
   from { transform: translateX(100%); }
   to { transform: none; }
 }
 
 @utility animate-fade {
-  animation: cortex-fade var(--dur-fast) var(--ease-out-quint) backwards;
+  animation: nishany-fade var(--dur-fast) var(--ease-out-quint) backwards;
 }
 @utility animate-pop {
-  animation: cortex-pop var(--dur-base) var(--ease-out-quint) backwards;
+  animation: nishany-pop var(--dur-base) var(--ease-out-quint) backwards;
 }
 @utility animate-rise {
-  animation: cortex-rise 0.5s var(--ease-out-quint) backwards;
+  animation: nishany-rise 0.5s var(--ease-out-quint) backwards;
 }
 @utility animate-slide-x {
-  animation: cortex-slide-x 0.24s var(--ease-out-quint) backwards;
+  animation: nishany-slide-x 0.24s var(--ease-out-quint) backwards;
 }
 
 /* The mobile drawer anchors to the inline-start edge; in RTL it enters from the right. */
 [dir="rtl"] .animate-slide-x {
-  animation-name: cortex-slide-x-rtl;
+  animation-name: nishany-slide-x-rtl;
 }
 
 /* ---- Screen and list entrances -----------------------------------------
@@ -703,7 +703,7 @@
    background tab, an offscreen thumbnail iframe, a print pass, a DOM-capture
    screenshot. Motion may refine how content arrives; it may never be the
    thing that makes content visible. */
-@keyframes cortex-screen-in {
+@keyframes nishany-screen-in {
   from { transform: translateY(8px); }
   to { transform: none; }
 }
@@ -712,14 +712,14 @@
    changes. 8px, not 24px: the shell stays put, only the page beneath it
    re-settles. Applied to a wrapper keyed on the route, so React remounts it. */
 @utility animate-screen-in {
-  animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
+  animation: nishany-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
 }
 
 /* A list or grid whose rows settle in sequence. Capped at 8 — past that the
    last row arrives late enough to feel broken rather than composed. */
 @utility stagger {
   & > * {
-    animation: cortex-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
+    animation: nishany-screen-in var(--dur-screen) var(--ease-out-quint) backwards;
   }
   & > *:nth-child(1) { animation-delay: 0ms; }
   & > *:nth-child(2) { animation-delay: calc(var(--stagger-step) * 1); }
@@ -735,15 +735,15 @@
    The height is measured and set inline by the Collapse component, because a
    transition to `auto` does not animate. This owns only the easing and the
    fade of the content inside. */
-.cortex-collapse {
+.nishany-collapse {
   overflow: hidden;
   transition: height var(--dur-collapse) var(--ease-out-quint);
 }
-.cortex-collapse > * {
+.nishany-collapse > * {
   transition: opacity var(--dur-collapse) var(--ease-out-quint);
 }
-.cortex-collapse[data-open='false'] > * { opacity: 0; }
-.cortex-collapse[data-open='true'] > * { opacity: 1; }
+.nishany-collapse[data-open='false'] > * { opacity: 0; }
+.nishany-collapse[data-open='true'] > * { opacity: 1; }
 
 /* A disclosure chevron turns rather than swapping glyph. */
 @utility chevron-turn {
@@ -776,7 +776,7 @@
    One rule that *slides* between tabs rather than one rule per tab appearing
    and disappearing; the movement is what tells you where the selection went.
    Position is measured from the active button. */
-.cortex-tab-indicator {
+.nishany-tab-indicator {
   position: absolute;
   bottom: -1px;
   height: 2px;
@@ -801,55 +801,55 @@
 /* ---- The authored moment ----------------------------------------------
    Percentage gauges draw once on page entry, like a calibrated instrument
    settling on its reading. The final value remains visible after motion. */
-@keyframes cortex-ring-fill {
+@keyframes nishany-ring-fill {
   from { stroke-dashoffset: var(--ring-circumference); }
   to { stroke-dashoffset: var(--ring-target-offset); }
 }
-@keyframes cortex-readiness-fill {
+@keyframes nishany-readiness-fill {
   from { left: 0%; }
   to { left: var(--readiness-value); }
 }
-@keyframes cortex-performance-line {
+@keyframes nishany-performance-line {
   from { stroke-dashoffset: 1000; }
   to { stroke-dashoffset: 0; }
 }
-@keyframes cortex-performance-area {
+@keyframes nishany-performance-area {
   from { opacity: 0; transform: scaleX(0); }
   to { opacity: 0.55; transform: scaleX(1); }
 }
 
 .metric-ring-fill {
   stroke-dashoffset: var(--ring-target-offset);
-  animation: cortex-ring-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
+  animation: nishany-ring-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .readiness-marker-fill {
   left: var(--readiness-value);
-  animation: cortex-readiness-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
+  animation: nishany-readiness-fill var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .performance-line-fill {
   stroke-dasharray: 1000;
   stroke-dashoffset: 0;
-  animation: cortex-performance-line var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
+  animation: nishany-performance-line var(--dur-calibrate) var(--ease-out-quint) 0.12s both;
 }
 
 .performance-area-fill {
   transform-box: fill-box;
   transform-origin: left center;
-  animation: cortex-performance-area 0.75s var(--ease-out-quint) 0.18s both;
+  animation: nishany-performance-area 0.75s var(--ease-out-quint) 0.18s both;
 }
 
 /* The centre dot is earned: it mounts only once a ring or meter reaches its
    target, so this is the one moment on a progress surface allowed a little
    overshoot — the mark completing itself, not a loop or an ambient bounce. */
-@keyframes cortex-calibrate-pop {
+@keyframes nishany-calibrate-pop {
   from { opacity: 0; transform: scale(0.35); }
   65% { opacity: 1; transform: scale(1.22); }
   to { opacity: 1; transform: scale(1); }
 }
 .target-ring-dot {
-  animation: cortex-calibrate-pop var(--dur-calibrate) var(--ease-out-quint) both;
+  animation: nishany-calibrate-pop var(--dur-calibrate) var(--ease-out-quint) both;
 }
 
 /* Landing hero: the Noon Dot drawn as an aiming target. One orchestrated
@@ -894,10 +894,10 @@
     scroll-behavior: auto !important;
   }
 
-  .cortex-collapse,
-  .cortex-collapse > *,
+  .nishany-collapse,
+  .nishany-collapse > *,
   .chevron-turn,
-  .cortex-tab-indicator,
+  .nishany-tab-indicator,
   .lift {
     transition: none !important;
   }
@@ -912,7 +912,7 @@
    NOT touch is box-shadow and background-image, so anything drawn with
    those disappears rather than being recoloured: the focus ring tint
    (--ring-field), the box-shadow spine `.nav-selected` uses for the active
-   nav row, the sliding `.cortex-tab-indicator` if it were ever shadow-based,
+   nav row, the sliding `.nishany-tab-indicator` if it were ever shadow-based,
    and the decorative paper grain / vitals-chart grids. Redeclare the pieces
    that carry real meaning in system colour keywords, and let the purely
    decorative ones drop out cleanly instead of leaving a colourless smear.
@@ -934,7 +934,7 @@
   /* The sliding tab underline is a solid background-color fill (a property
      forced-colors *does* respect), but pin it to the system accent so it
      never quietly inherits a brand colour the palette would rather replace. */
-  .cortex-tab-indicator {
+  .nishany-tab-indicator {
     background: Highlight;
   }
 

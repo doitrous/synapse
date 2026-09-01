@@ -552,26 +552,26 @@ export async function setUserPassword(studentId, { password, reason, actorId }) 
  * Which family a per-user state key belongs to.
  *
  * `user_state` is a key-value store whose keys encode what they are —
- * `synapse.qbank.attempts`, `synapse.notebook.<id>`. An admin looking at one
+ * `nishany.qbank.attempts`, `nishany.notebook.<id>`. An admin looking at one
  * person wants "how much have they written, answered, saved", not a list of
  * ninety opaque keys, so the keys are folded into the families a person would
  * recognise. Anything unrecognised is reported as `other` rather than dropped,
  * because a key nobody has classified yet is still evidence of activity.
  */
 export function stateFamily(key) {
-  if (/^synapse\.qbank\./.test(key)) return 'Question bank'
-  if (/^synapse\.practical\./.test(key)) return 'Practicals'
-  if (/^synapse\.progress\./.test(key)) return 'Progress'
-  if (/^synapse\.maristanas\./.test(key)) return 'Maristanas'
-  if (/^synapse\.notebook\./.test(key)) return 'Notebook'
-  if (/^synapse\.whiteboard\./.test(key)) return 'Whiteboards'
-  if (/^synapse\.highlights\./.test(key)) return 'Highlights'
-  if (/^synapse\.bookmarks\./.test(key)) return 'Bookmarks'
-  if (/^synapse\.library\./.test(key)) return 'Library'
-  if (/^synapse\.calendar\./.test(key)) return 'Calendar'
-  if (/^synapse\.account\./.test(key)) return 'Account settings'
-  if (/^synapse-notification-read/.test(key)) return 'Notifications'
-  if (/^synapse-applied-voucher/.test(key)) return 'Vouchers'
+  if (/^nishany\.qbank\./.test(key)) return 'Question bank'
+  if (/^nishany\.practical\./.test(key)) return 'Practicals'
+  if (/^nishany\.progress\./.test(key)) return 'Progress'
+  if (/^nishany\.maristanas\./.test(key)) return 'Maristanas'
+  if (/^nishany\.notebook\./.test(key)) return 'Notebook'
+  if (/^nishany\.whiteboard\./.test(key)) return 'Whiteboards'
+  if (/^nishany\.highlights\./.test(key)) return 'Highlights'
+  if (/^nishany\.bookmarks\./.test(key)) return 'Bookmarks'
+  if (/^nishany\.library\./.test(key)) return 'Library'
+  if (/^nishany\.calendar\./.test(key)) return 'Calendar'
+  if (/^nishany\.account\./.test(key)) return 'Account settings'
+  if (/^nishany-notification-read/.test(key)) return 'Notifications'
+  if (/^nishany-applied-voucher/.test(key)) return 'Vouchers'
   return 'Other'
 }
 

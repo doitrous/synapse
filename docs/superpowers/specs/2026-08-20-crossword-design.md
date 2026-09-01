@@ -140,7 +140,7 @@ words belongs to both.
   because a puzzle finished by revealing everything is not the same as one
   solved, and one number would hide that.
 
-Progress is kept under `synapse.termgrid.` so a puzzle survives a reload, and
+Progress is kept under `nishany.termgrid.` so a puzzle survives a reload, and
 that prefix goes into `stateOwnership.ts` **and** its hand-maintained Swift
 port.
 

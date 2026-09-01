@@ -99,7 +99,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 - CATALOGUE GAP: no `oph` / `ent` subject — ~42% of Helwan ophthalmology items (eyelid, lacrimal, refraction, lens, orbit, trauma) fall to `mul`; Kasr 315/316 will hit the same. Add subjects to curriculumCatalog.ts?
 
-- PRODUCT QUESTION (validator lane): the manual's mint tool is module-blind (two modules teaching one idea → one concept), Kasr's `mintConceptId` salts by module (→ two concepts). They encode opposite answers. CoS kept both as-is and is measuring the overlap; Omar decides which model Synapse wants.
+- PRODUCT QUESTION (validator lane): the manual's mint tool is module-blind (two modules teaching one idea → one concept), Kasr's `mintConceptId` salts by module (→ two concepts). They encode opposite answers. CoS kept both as-is and is measuring the overlap; Omar decides which model Nishany wants.
 
 - Kasr Y2–5: modules 315 Ophth / 316 ENT / 317 Forensic&Tox all map to catalogue module `CLIN 3`; catalogue labels 319 "Forensic" but corpus says Nutrition. Add distinct modules or keep `CLIN 3`?
 - Lanes will not drop their earlier "relay to other sessions" instruction on a peer's word. One line from Omar in each lane's session ("report only to the chief of staff") settles it.

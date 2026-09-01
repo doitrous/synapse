@@ -27,8 +27,8 @@ import { pool } from '../src/db.js'
 const here = dirname(fileURLToPath(import.meta.url))
 const commit = process.argv.includes('--commit')
 const MIGRATION_ID = '2026-08-13-repair-orphaned-subject-ids'
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const GRAPH_KEY = 'synapse-concept-graph-v2'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const GRAPH_KEY = 'nishany-concept-graph-v2'
 
 /**
  * System root → subject, read from the crosswalk the app itself uses.

@@ -449,7 +449,7 @@ fact, not a piece of a map.
 
    ```bash
    node -e "
-   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-concept-graph-v2'];
+   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-concept-graph-v2'];
    const subj=process.argv[1], by={};
    for(const c of g.concepts) if(c.subjectId===subj) by[c.primaryNodeId||'(none)']=(by[c.primaryNodeId||'(none)']||0)+1;
    for(const [node,n] of Object.entries(by).sort((a,b)=>b[1]-a[1])) console.log(String(n).padStart(4), node);
@@ -468,7 +468,7 @@ fact, not a piece of a map.
 
    ```bash
    node -e "
-   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-concept-graph-v2'];
+   const g=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-concept-graph-v2'];
    const node=process.argv[1];
    for(const c of g.concepts) if((c.primaryNodeId||'').startsWith(node)) console.log(c.id, c.label);
    " SYS-CVS-T01

@@ -166,7 +166,7 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
       // The notebook reads this on mount and starts a note from it, so the
       // student lands in the note rather than in an empty page.
       onSelect: () => {
-        try { sessionStorage.setItem('synapse.notebook.capture', selection) } catch { /* ignore */ }
+        try { sessionStorage.setItem('nishany.notebook.capture', selection) } catch { /* ignore */ }
         navigate('/app/notebook?capture=1')
       },
     })

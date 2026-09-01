@@ -14,7 +14,7 @@ export interface StudentIdDiscount {
   percent: number
 }
 
-export const STUDENT_ID_DISCOUNT_STORAGE_KEY = 'synapse-student-id-discount-v1'
+export const STUDENT_ID_DISCOUNT_STORAGE_KEY = 'nishany-student-id-discount-v1'
 
 export const DEFAULT_STUDENT_ID_DISCOUNT: StudentIdDiscount = { enabled: false, percent: 5 }
 
@@ -49,7 +49,7 @@ export interface StudentIdSubmission {
   status: StudentIdStatus
 }
 
-export const STUDENT_ID_SUBMISSION_STORAGE_KEY = 'synapse.account.student-id.v1'
+export const STUDENT_ID_SUBMISSION_STORAGE_KEY = 'nishany.account.student-id.v1'
 
 export const STUDENT_ID_STATUS_LABEL: Record<StudentIdStatus, string> = {
   none: 'Not submitted',

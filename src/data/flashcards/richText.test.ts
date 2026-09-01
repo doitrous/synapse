@@ -64,7 +64,7 @@ test('emptiness ignores markup but respects real content', () => {
   assert.equal(isRichEmpty('<br>'), false)
 })
 
-test('sanitizeRich keeps <img> with a synapse-doc media reference src', () => {
+test('sanitizeRich keeps <img> with a nishany-doc media reference src', () => {
   const html = sanitizeRich('<img src="synapse-doc:med-1" alt="x" width="200">')
   assert.match(html, /<img[^>]+src="synapse-doc:med-1"/)
   assert.match(html, /alt="x"/)

@@ -28,11 +28,11 @@ export interface LibraryMark {
 }
 
 /**
- * Dotted and under `synapse.library.`, which `isUserOwnedState` routes to the
+ * Dotted and under `nishany.library.`, which `isUserOwnedState` routes to the
  * student's own record. Without that it would go to the shared catalogue store,
  * where a student has no write permission and every save would be refused.
  */
-export const LIBRARY_MARKS_STORAGE_KEY = 'synapse.library.marks.v1'
+export const LIBRARY_MARKS_STORAGE_KEY = 'nishany.library.marks.v1'
 
 /** Marks keyed by the article they sit on. */
 export type LibraryMarkStore = Record<string, LibraryMark[]>

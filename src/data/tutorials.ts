@@ -9,12 +9,12 @@
  * Video URLs are admin-authored content that every student must see, so they
  * cannot live in `localStorage` (per-device) or in this static file (a
  * redeploy to change one link). They persist through the same shared-state
- * mechanism as `synapse-notification-campaigns-v1` and
- * `synapse-email-automations-v1`: `usePersistentState` from
+ * mechanism as `nishany-notification-campaigns-v1` and
+ * `nishany-email-automations-v1`: `usePersistentState` from
  * `@/lib/usePersistentState`, keyed on `TUTORIAL_VIDEOS_STATE_KEY`. That hook
  * is backed by `src/lib/stateStore.ts`, which hydrates from and writes to
  * `/api/state/:key` (MariaDB-backed) in live mode — a shared, unprefixed key
- * (not `synapse.foo.v1`) is treated as platform-wide rather than per-user, so
+ * (not `nishany.foo.v1`) is treated as platform-wide rather than per-user, so
  * one admin edit reaches every student's session, not just the admin's own
  * browser or device.
  */
@@ -28,7 +28,7 @@ export interface TutorialTopic {
   instructions: string
 }
 
-export const TUTORIAL_VIDEOS_STATE_KEY = 'synapse-tutorial-videos-v1'
+export const TUTORIAL_VIDEOS_STATE_KEY = 'nishany-tutorial-videos-v1'
 
 /** Admin-authored, topic id → video URL (mp4, YouTube, or Vimeo). */
 export type TutorialVideoMap = Record<string, string>
@@ -61,7 +61,7 @@ export const TUTORIAL_TOPICS: TutorialTopic[] = [
     label: 'Tutorial',
     area: 'Getting started',
     instructions:
-      'This page is the tutorial itself — a short written guide plus a short video for every part of the platform. Use the search box to jump straight to the function you have a question about, or scroll through by section. New to Synapse? Start at the top and work down.',
+      'This page is the tutorial itself — a short written guide plus a short video for every part of the platform. Use the search box to jump straight to the function you have a question about, or scroll through by section. New to Nishany? Start at the top and work down.',
   },
 
   // Study

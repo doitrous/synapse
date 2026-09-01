@@ -95,8 +95,8 @@ export function Settings() {
 
   /**
    * No admin-scoped endpoint reads another student's attempts or highlights —
-   * `/api/user-state/:key` (which backs both `synapse.progress.*` and
-   * `synapse.qbank.questionHighlights`) is always scoped to the caller's own
+   * `/api/user-state/:key` (which backs both `nishany.progress.*` and
+   * `nishany.qbank.questionHighlights`) is always scoped to the caller's own
    * identity, and the shared `/api/state` catalogue store never holds
    * per-student activity. So this preview can only ever show what is
    * available in this browser's own session, and is labelled as such below

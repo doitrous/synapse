@@ -23,7 +23,7 @@ import { voucherDiscount, voucherEligibility, voucherTrialDays, isTrialVoucher, 
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 
 /** Who to write to about a plan, since nobody can change one from this screen. */
-const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
+const SUPPORT_ADDRESS = 'help@nishany.com'
 
 const STATE_TONE: Record<Entitlement['state'], 'success' | 'primary' | 'warning' | 'neutral'> = {
   active: 'success',

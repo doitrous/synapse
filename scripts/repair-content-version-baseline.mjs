@@ -48,13 +48,13 @@ const commit = process.argv.slice(2).includes('--commit')
 
 /** The shared, mergeable documents whose baseline the server depends on. */
 const KEYS = [
-  'synapse-admin-content-ledger-v4',
-  'synapse-concept-graph-v2',
-  'synapse-medical-evidence-v1',
-  'synapse-minigame-packs-v1',
-  'synapse-library-trees-v1',
-  'synapse-academic-universities-v1',
-  'synapse-media-library-v1',
+  'nishany-admin-content-ledger-v4',
+  'nishany-concept-graph-v2',
+  'nishany-medical-evidence-v1',
+  'nishany-minigame-packs-v1',
+  'nishany-library-trees-v1',
+  'nishany-academic-universities-v1',
+  'nishany-media-library-v1',
 ]
 
 async function databaseUrl() {

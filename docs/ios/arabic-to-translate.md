@@ -1,4 +1,4 @@
-# Arabic still needed — Connect Cortex iOS
+# Arabic still needed — Nishany iOS
 
 175 strings. Everything else the app shows is already translated,
 and these fall back to English until this file comes back filled in.
@@ -82,7 +82,7 @@ theatre, keeping it in English is the right answer.
   → 
 - `Applied to your account`
   → 
-- `Connect Cortex does not take card payments in the app, and stores no card details. Your plan is arranged on the website.`
+- `Nishany does not take card payments in the app, and stores no card details. Your plan is arranged on the website.`
   → 
 - `Eligibility is checked on the server against your university, year, group, the voucher dates, and the remaining redemption limit.`
   → 
@@ -108,11 +108,11 @@ theatre, keeping it in English is the right answer.
   → 
 - `Student voucher`
   → 
-- `Subscriptions are managed by the Connect Cortex team. To change or end your plan, use the website.`
+- `Subscriptions are managed by the Nishany team. To change or end your plan, use the website.`
   → 
 - `This plan is not in the current catalogue, so no price is shown for it.`
   → 
-- `Upload your student ID to claim a discount. It is checked by the Connect Cortex team, and the discount applies from your next invoice once it is accepted.`
+- `Upload your student ID to claim a discount. It is checked by the Nishany team, and the discount applies from your next invoice once it is accepted.`
   → 
 - `You save`
   → 
@@ -173,7 +173,7 @@ theatre, keeping it in English is the right answer.
 
 ## Design
 
-- `Connect Cortex`
+- `Nishany`
   → 
 
 ## Library

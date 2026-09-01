@@ -14,7 +14,7 @@ import { cohortKey, qotdDateInCairo } from '@/data/qotdCohort'
  *
  * Auto-selection (deterministic, cohort-seeded) is the default for every
  * cohort on every date; this panel only records exceptions into the shared
- * `synapse-qotd-pins-v1` document — `cohortKey → isoDate → questionId` — which
+ * `nishany-qotd-pins-v1` document — `cohortKey → isoDate → questionId` — which
  * both the demo selector and `GET /api/qotd/today` check first.
  */
 export function QotdPinPanel() {

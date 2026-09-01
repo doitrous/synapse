@@ -18,10 +18,10 @@
  */
 
 /** Dotted, so `isUserOwnedState` routes these to the student's own record. */
-export const ADAPTIVE_EVIDENCE_INDEX_KEY = 'synapse.progress.adaptive.evidenceIndex.v1'
+export const ADAPTIVE_EVIDENCE_INDEX_KEY = 'nishany.progress.adaptive.evidenceIndex.v1'
 
 export function adaptiveEvidenceMonthKey(month: string): string {
-  return `synapse.progress.adaptive.evidence.${month}`
+  return `nishany.progress.adaptive.evidence.${month}`
 }
 
 /**

@@ -28,6 +28,7 @@ import { mediaMeta } from './mediaMeta.js'
 import { MEDIA_STATE_KEY, deleteRefusal, isMediaReleased, storageKeyFor } from './mediaLibrary.js'
 import { createMediaPlaybackToken, readMediaPlaybackToken } from './mediaPlayback.js'
 import { authoriseChanges, diffDocument, mergeDocument, isMergeable, reconstructChanges, applyDelta } from './stateMerge.js'
+import { canonicalStateKey } from './stateKeys.js'
 import { collectMediaRequests } from './mediaRequestPolicy.js'
 import { describeProviders } from './mediaProvider.js'
 import {
@@ -148,9 +149,9 @@ const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || M
 const MEDIA_UPLOAD_MAX_AGE_HOURS = Math.max(1, Number(process.env.MEDIA_UPLOAD_MAX_AGE_HOURS) || 24)
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
-const CONTENT_LEDGER_STATE_KEY = 'synapse-admin-content-ledger-v4'
-const ACADEMIC_CATALOGUE_STATE_KEY = 'synapse-academic-universities-v1'
-const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
+const CONTENT_LEDGER_STATE_KEY = 'nishany-admin-content-ledger-v4'
+const ACADEMIC_CATALOGUE_STATE_KEY = 'nishany-academic-universities-v1'
+const MEDICAL_EVIDENCE_STATE_KEY = 'nishany-medical-evidence-v1'
 let medicalResourceSnapshot = null
 let medicalResourceLoad = null
 
@@ -287,7 +288,7 @@ app.use(express.json({
 const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 const resendReceivingKey = process.env.RESEND_ADMIN_API_KEY || process.env.RESEND_API_KEY
 const resendReceiving = resendReceivingKey ? new Resend(resendReceivingKey) : null
-const MAIL_FROM = process.env.MAIL_FROM || 'synapse@mail.doitrous.com'
+const MAIL_FROM = process.env.MAIL_FROM || 'info@nishany.com'
 // Where unsubscribe links point. The student origin, not the admin one — the
 // reader of a campaign is a student, and the link has to work signed out.
 const PUBLIC_ORIGIN = (process.env.PUBLIC_ORIGIN || 'https://nishany.com').replace(/\/$/, '')
@@ -526,7 +527,7 @@ const MY_DOCUMENT_MAX_BYTES = Number(process.env.MY_DOCUMENT_MAX_BYTES) || 100 *
  * document starts from, and each plan may name its own.
  */
 const MY_DOCUMENT_QUOTA_BYTES = Number(process.env.MY_DOCUMENT_QUOTA_BYTES) || 1024 * 1024 * 1024
-const STORAGE_LIMITS_KEY = 'synapse-storage-limits-v1'
+const STORAGE_LIMITS_KEY = 'nishany-storage-limits-v1'
 
 /**
  * How much room this caller has, and how much of it is gone.
@@ -1274,40 +1275,40 @@ const STUDENT_READABLE_STATE = new Set([
   // are a separate, individually authenticated request.
   MEDIA_STATE_KEY,
   // The faculty's own by-module and by-year structures. Students browse them.
-  'synapse-library-trees-v1',
-  'synapse-academic-universities-v1',
-  'synapse-course-curricula-v1',
-  'synapse-module-schedules-v1',
-  'synapse-admin-content-ledger-v4',
-  'synapse-concept-graph-v2',
-  'synapse-relation-types-v1',
-  'synapse-taxonomy-tree-v4',
-  'synapse-medical-library-taxonomy-v1',
+  'nishany-library-trees-v1',
+  'nishany-academic-universities-v1',
+  'nishany-course-curricula-v1',
+  'nishany-module-schedules-v1',
+  'nishany-admin-content-ledger-v4',
+  'nishany-concept-graph-v2',
+  'nishany-relation-types-v1',
+  'nishany-taxonomy-tree-v4',
+  'nishany-medical-library-taxonomy-v1',
   // The bilingual glossary behind /app/taxonomy. Admin-written, student-read.
-  'synapse-medical-glossary-v1',
-  'synapse-medical-evidence-published-v1',
-  'synapse-plans-v1',
-  'synapse-notification-campaigns-v1',
-  'synapse-vouchers-v1',
-  'synapse-system-colors-v1',
+  'nishany-medical-glossary-v1',
+  'nishany-medical-evidence-published-v1',
+  'nishany-plans-v1',
+  'nishany-notification-campaigns-v1',
+  'nishany-vouchers-v1',
+  'nishany-system-colors-v1',
   // The current plan catalogue. Billing and onboarding both price against it,
   // and without it a student was offered the seeded plans instead of the ones
   // actually being sold.
-  'synapse-plan-catalog-v1',
+  'nishany-plan-catalog-v1',
   // The student-ID discount offer, shown on Billing to the students it is for.
-  'synapse-student-id-discount-v1',
+  'nishany-student-id-discount-v1',
   // The upload allowance, so the demo build can show the limit an admin set.
-  'synapse-storage-limits-v1',
+  'nishany-storage-limits-v1',
   // The construction economy is set by an admin and explained on the student
   // dashboard. Students can read the multipliers but only Settings can write.
-  'synapse-maristana-config-v1',
+  'nishany-maristana-config-v1',
   // Adaptive Study runs entirely on these three, on the student's own screen.
   // Admin-written and student-read: a student must not be able to edit the
   // thresholds they are judged by, but a page that cannot read them silently
   // falls back to defaults and reports figures nobody configured.
-  'synapse-adaptive-config-v1',
-  'synapse-adaptive-blueprints-v1',
-  'synapse-adaptive-heldout-v1',
+  'nishany-adaptive-config-v1',
+  'nishany-adaptive-blueprints-v1',
+  'nishany-adaptive-heldout-v1',
 ])
 
 /**
@@ -1692,7 +1693,8 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // Console access, not the single role 'admin': an editor or a reviewer
   // authors this content and must read it whole. Redaction is for students.
   const authoring = hasConsoleAccess(req.identity?.role)
-  if (!STUDENT_READABLE_STATE.has(req.params.key)) {
+  const key = canonicalStateKey(req.params.key)
+  if (!STUDENT_READABLE_STATE.has(key)) {
     if (!authoring) return res.status(403).json({ error: 'console access required' })
     if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
   }
@@ -1708,12 +1710,12 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // built for delta can never send one to an older server that would read the
   // absent whole `value` as "delete everything". Only meaningful for authors —
   // students do not write.
-  const deltaSupported = authoring && isMergeable(req.params.key)
+  const deltaSupported = authoring && isMergeable(key)
   const [rows] = await pool.query(
     `SELECT s.v, s.updated_at AS updatedAt,
             (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
        FROM app_state s WHERE s.k = ?`,
-    [req.params.key],
+    [key],
   )
   if (!rows.length) return res.json({ value: null, updatedAt: null, version: null, deltaSupported })
   const { updatedAt, version } = rows[0]
@@ -1724,8 +1726,8 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // notes and the provenance of borrowed papers; a student gets its published
   // projection instead. That happens here rather than in the browser, because a
   // field removed after delivery has already been delivered.
-  const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
-  if (!authoring && req.params.key === CONTENT_LEDGER_STATE_KEY) {
+  const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(key)
+  if (!authoring && key === CONTENT_LEDGER_STATE_KEY) {
     const releasedMediaIds = releasedMediaIdsFromDocument({ records: await mediaRecords() })
     const [catalogueRows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [ACADEMIC_CATALOGUE_STATE_KEY])
     let catalogue = []
@@ -1735,7 +1737,7 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // Archived reports stay on the record for editors and super admins, but a
   // reviewer's queue is only the live work: they are filtered out before the
   // document ever reaches a reviewer, not merely hidden in the browser.
-  if (req.identity?.role === 'reviewer' && req.params.key === CONTENT_REPORTS_STATE_KEY && Array.isArray(value)) {
+  if (req.identity?.role === 'reviewer' && key === CONTENT_REPORTS_STATE_KEY && Array.isArray(value)) {
     value = value.filter((report) => report?.status !== 'Archived')
   }
   res.json({ value, updatedAt, version, deltaSupported })
@@ -1847,7 +1849,7 @@ async function enforceMediaSupply(conn, mergedLedger, storedLedger) {
  * wrong, because a save that fails silently is the bug this route used to have.
  */
 app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
-  const key = req.params.key
+  const key = canonicalStateKey(req.params.key)
   const owners = tabsForStateKey(key)
   const held = await heldTabs(req.identity)
   const superAdmin = req.identity.role === 'super_admin'
@@ -2077,7 +2079,8 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
 app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
   // Deleting a whole document is not an edit: it has no per-item diff and so no
   // scope to judge it against. Super admin only.
-  if ([CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_STATE_KEY].includes(req.params.key)) {
+  const key = canonicalStateKey(req.params.key)
+  if ([CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_STATE_KEY].includes(key)) {
     return res.status(409).json({
       error: 'protected_state',
       reason: 'the content ledger, media library, and academic catalogue must be changed through their guarded editors',
@@ -2085,15 +2088,15 @@ app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
   }
   // Reports are removed one at a time, with typed confirmation and a tombstone —
   // never wiped wholesale by a single call. See POST /api/content-reports/:id/delete.
-  if (req.params.key === CONTENT_REPORTS_STATE_KEY) {
+  if (key === CONTENT_REPORTS_STATE_KEY) {
     return res.status(409).json({
       error: 'protected_state',
       reason: 'a content report is deleted one at a time through its own confirmed, audited action',
     })
   }
-  await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
-  invalidateSnapshots(req.params.key)
-  if (req.params.key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
+  await pool.query('DELETE FROM app_state WHERE k = ?', [key])
+  invalidateSnapshots(key)
+  if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
   res.json({ ok: true })
 }))
 
@@ -2223,15 +2226,17 @@ app.get('/api/admin/escalations/count', requireTab('escalations'), wrap(async (r
 /* ── Private, per-user state ─────────────────────────────────────────────── */
 
 app.get('/api/user-state/:key', wrap(async (req, res) => {
+  const key = canonicalStateKey(req.params.key)
   const [rows] = await pool.query(
     'SELECT v, updated_at AS updatedAt FROM user_state WHERE user_id = ? AND k = ?',
-    [req.identity.id, req.params.key],
+    [req.identity.id, key],
   )
   if (!rows.length) return res.json({ value: null, updatedAt: null })
   try { res.json({ value: JSON.parse(rows[0].v), updatedAt: rows[0].updatedAt }) } catch { res.json({ value: null, updatedAt: rows[0].updatedAt }) }
 }))
 
 app.put('/api/user-state/:key', wrap(async (req, res) => {
+  const key = canonicalStateKey(req.params.key)
   const v = JSON.stringify(req.body?.value ?? null)
   const conn = await pool.getConnection()
   let changed = false
@@ -2239,18 +2244,18 @@ app.put('/api/user-state/:key', wrap(async (req, res) => {
     await conn.beginTransaction()
     const [current] = await conn.query(
       'SELECT v FROM user_state WHERE user_id = ? AND k = ? FOR UPDATE',
-      [req.identity.id, req.params.key],
+      [req.identity.id, key],
     )
     if (!current.length || current[0].v !== v) {
       changed = true
       await conn.query(
         'INSERT INTO user_state_versions (user_id, k, v) VALUES (?, ?, ?)',
-        [req.identity.id, req.params.key, v],
+        [req.identity.id, key, v],
       )
       await conn.query(
         `INSERT INTO user_state (user_id, k, v) VALUES (?, ?, ?)
          ON DUPLICATE KEY UPDATE v = VALUES(v)`,
-        [req.identity.id, req.params.key, v],
+        [req.identity.id, key, v],
       )
     }
     await conn.commit()
@@ -2275,7 +2280,7 @@ app.put('/api/user-state/:key', wrap(async (req, res) => {
 }))
 
 app.delete('/api/user-state/:key', wrap(async (req, res) => {
-  await pool.query('DELETE FROM user_state WHERE user_id = ? AND k = ?', [req.identity.id, req.params.key])
+  await pool.query('DELETE FROM user_state WHERE user_id = ? AND k = ?', [req.identity.id, canonicalStateKey(req.params.key)])
   res.json({ ok: true })
 }))
 
@@ -2823,7 +2828,7 @@ async function cleanupStaleMediaUploads() {
 /** Serialise file creation and reclamation for one content-addressed object. */
 async function withManagedMediaDigestLock(digest, work) {
   const conn = await pool.getConnection()
-  const lockName = `synapse-media:${String(digest).slice(0, 48)}`
+  const lockName = `nishany-media:${String(digest).slice(0, 48)}`
   try {
     const [rows] = await conn.query('SELECT GET_LOCK(?, 10) AS acquired', [lockName])
     if (Number(rows[0]?.acquired) !== 1) {
@@ -3181,7 +3186,7 @@ app.get('/api/media-playback/:token', wrap(async (req, res) => {
  */
 app.delete('/api/media/:id', requireTab('resources', 'media'), wrap(async (req, res) => {
   const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
-  const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-concept-graph-v2'])
+  const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['nishany-concept-graph-v2'])
   const ledger = ledgerRow.length ? JSON.parse(ledgerRow[0].v) : []
   const concepts = graphRow.length ? (JSON.parse(graphRow[0].v)?.concepts ?? []) : []
   const refusal = deleteRefusal(req.params.id, ledger, concepts)
@@ -3640,7 +3645,7 @@ const port = Number(process.env.PORT) || 8080
 migrate()
   .then(async () => {
     app.listen(port, () => {
-      console.log(`Maristana on :${port}`)
+      console.log(`Nishany on :${port}`)
       void medicalResourceRecords()
         .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
         .catch((error) => console.error('Medical resource index warm-up failed:', error.message))

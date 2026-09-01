@@ -14,7 +14,7 @@
  * does.
  */
 
-export const PRACTICAL_PROGRESS_STORAGE_KEY = 'synapse.practical.progress.v1'
+export const PRACTICAL_PROGRESS_STORAGE_KEY = 'nishany.practical.progress.v1'
 
 export interface StationProgress {
   attempts: number

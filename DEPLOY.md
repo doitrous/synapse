@@ -1,6 +1,6 @@
-# Deploying Synapse
+# Deploying Nishany
 
-Synapse is a static single-page app (React + React Router + Vite). It builds to a
+Nishany is a static single-page app (React + React Router + Vite). It builds to a
 folder of static files and runs on any static host. No server is required for the
 app itself — only for real email sending (optional, see below).
 

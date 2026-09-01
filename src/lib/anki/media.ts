@@ -2,7 +2,7 @@
  * The media stage of an Anki import: uploads every referenced asset into the
  * student's My Documents (so it counts against their Resources allowance and
  * syncs across devices) and rewrites each note's field HTML from Anki's media
- * tokens to `synapse-doc:` references.
+ * tokens to `nishany-doc:` references.
  *
  * Ordering matters. The mapper deliberately left field HTML RAW — an
  * `<img src="a.png">` still points at the zip's asset name, and `sanitizeRich`
@@ -19,9 +19,10 @@ import { sanitizeRich } from '../../data/flashcards/richText.ts'
 import type { AnkiContainer } from './container.ts'
 import type { ImportReport, MappedImport } from './mapper.ts'
 
-// Mirrors mediaStorage.ts DOC_REFERENCE_PREFIX. Kept inline (not imported) so
+// Mirrors mediaStorage.ts DOC_REFERENCE_PREFIX (the current, post-rebrand form).
+// Kept inline (not imported) so
 // this module — and its tests — never pull in the browser-only mediaStorage.
-const DOC_REFERENCE_PREFIX = 'synapse-doc:'
+const DOC_REFERENCE_PREFIX = 'nishany-doc:'
 
 export type UploadDoc = (
   file: File,
@@ -66,7 +67,7 @@ function toBlobPart(bytes: Uint8Array): BlobPart {
 const IMG_SRC_RE = /(<img\b[^>]*?\bsrc\s*=\s*)("([^"]*)"|'([^']*)')/gi
 const SOUND_RE = /\[sound:([^\]]+)\]/gi
 
-/** Replaces an `<img src="ankiName">` with the uploaded `synapse-doc:` ref; leaves unknown imgs alone. */
+/** Replaces an `<img src="ankiName">` with the uploaded `nishany-doc:` ref; leaves unknown imgs alone. */
 function rewriteImgSrc(html: string, refByName: Map<string, string>): string {
   return html.replace(IMG_SRC_RE, (full, pre: string, _quoted: string, dq?: string, sq?: string) => {
     const name = dq ?? sq ?? ''

@@ -24,7 +24,7 @@ function source(): FlashcardCollection {
     tags: ['anatomy'],
     createdAt: ISO,
     updatedAt: ISO,
-    fields: { front: 'The heart <img src="synapse-doc:doc-1">', back: 'a muscle' },
+    fields: { front: 'The heart <img src="nishany-doc:doc-1">', back: 'a muscle' },
   }
   const cloze: ClozeNote = {
     id: 'n2',
@@ -46,7 +46,7 @@ function source(): FlashcardCollection {
 test('full round trip: export a media-bearing collection, import it through the whole pipeline', async () => {
   // Export (media resolved to a real file + bytes).
   const exportFetch = async (ref: string) =>
-    ref === 'synapse-doc:doc-1' ? { name: 'heart.png', bytes: Uint8Array.from([0x89, 0x50, 0x4e, 0x47]) } : null
+    ref === 'nishany-doc:doc-1' ? { name: 'heart.png', bytes: Uint8Array.from([0x89, 0x50, 0x4e, 0x47]) } : null
   const blob = await exportDecksToApkg(source(), ['d1'], exportFetch)
 
   // Import: container -> db -> map -> media -> commit.
@@ -65,10 +65,10 @@ test('full round trip: export a media-bearing collection, import it through the 
   const importedNotes = Object.values(imported.notes)
   assert.equal(importedNotes.length, 2)
 
-  // The media asset was uploaded and its reference rewritten to a synapse-doc ref.
+  // The media asset was uploaded and its reference rewritten to a nishany-doc ref.
   assert.ok(uploaded.includes('heart.png'))
   const basic = importedNotes.find((n) => n.type === 'basic') as BasicNote
-  assert.match(basic.fields.front, /<img[^>]+src="synapse-doc:up-heart\.png"/)
+  assert.match(basic.fields.front, /<img[^>]+src="nishany-doc:up-heart\.png"/)
   assert.deepEqual(basic.tags, ['anatomy'])
   assert.equal(report.mediaRefs, 1)
 

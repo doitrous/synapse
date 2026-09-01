@@ -1,7 +1,7 @@
 /**
  * Where a student's marks are stored.
  *
- * `usePersistentState` routes any `synapse.annotations.*` key to
+ * `usePersistentState` routes any `nishany.annotations.*` key to
  * `PUT/GET /api/user-state/:key`, scoped to the verified account, versioned and
  * crash-recovered. But one key is one JSON document rewritten in full on every
  * change, and the server writes a full version row alongside it. A heavily
@@ -17,7 +17,7 @@
 /** Pages per shard. Small enough to rewrite cheaply, large enough to be few. */
 export const SHARD_PAGES = 16
 
-const PREFIX = 'synapse.annotations.v1.'
+const PREFIX = 'nishany.annotations.v1.'
 /** `k VARCHAR(160)` in `user_state`. */
 const MAX_KEY_LENGTH = 160
 /** Room for the longest suffix this module appends: `.s` + digits. */

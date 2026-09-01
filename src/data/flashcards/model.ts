@@ -51,7 +51,7 @@ export interface BasicNote extends NoteBase {
     front: RichText
     back: RichText
     /**
-     * A `synapse-media:` reference to an audio blob stored in `mediaStorage`.
+     * A `nishany-media:` reference to an audio blob stored in `mediaStorage`.
      * Optional so v1/legacy cards and existing notes stay valid — absent means
      * no audio.
      */
@@ -66,7 +66,7 @@ export interface ClozeNote extends NoteBase {
     text: RichText
     extra: RichText
     /**
-     * A `synapse-media:` reference to an audio blob stored in `mediaStorage`.
+     * A `nishany-media:` reference to an audio blob stored in `mediaStorage`.
      * Optional so v1/legacy cards and existing notes stay valid — absent means
      * no audio.
      */
@@ -103,7 +103,7 @@ export type OcclusionMode = 'hide-all' | 'hide-one'
 
 export interface ImageOcclusionNote extends NoteBase {
   type: 'image-occlusion'
-  /** A `synapse-media:` reference; the blob lives in `mediaStorage`, not here. */
+  /** A `nishany-media:` reference; the blob lives in `mediaStorage`, not here. */
   image: string
   imageWidth: number
   imageHeight: number

@@ -14,14 +14,14 @@ import { CONCEPT_STORAGE_KEY, type Concept, type ConceptGraph } from './conceptG
 import { MASTERY_STORAGE_KEY, recordEvidence, type MasteryLedger } from './mastery.ts'
 import { PRACTICAL_PROGRESS_STORAGE_KEY, type PracticalProgress } from './practicalProgress.ts'
 
-export const DEMO_SHOWCASE_MARKER_KEY = 'synapse.demo.showcase.version'
+export const DEMO_SHOWCASE_MARKER_KEY = 'nishany.demo.showcase.version'
 export const DEMO_SHOWCASE_VERSION = '2026-08-25.1'
 
-export const DEMO_SESSION_NAMES_KEY = 'synapse.qbank.sessionNames.v1'
-export const DEMO_SESSION_QUESTIONS_KEY = 'synapse.qbank.sessionQuestions.v1'
-export const DEMO_MARKED_QUESTIONS_KEY = 'synapse.qbank.marked.v1'
-export const DEMO_NOTEBOOK_KEY = 'synapse.notebook.notes'
-export const DEMO_BOOKMARKS_KEY = 'synapse.bookmarks.resources.v1'
+export const DEMO_SESSION_NAMES_KEY = 'nishany.qbank.sessionNames.v1'
+export const DEMO_SESSION_QUESTIONS_KEY = 'nishany.qbank.sessionQuestions.v1'
+export const DEMO_MARKED_QUESTIONS_KEY = 'nishany.qbank.marked.v1'
+export const DEMO_NOTEBOOK_KEY = 'nishany.notebook.notes'
+export const DEMO_BOOKMARKS_KEY = 'nishany.bookmarks.resources.v1'
 
 interface StorageLike {
   getItem(key: string): string | null

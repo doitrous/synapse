@@ -60,7 +60,7 @@ const id = `CON-${system}-${hash}`
 const taken = new Map()
 const LIVE = 'server/data/medical-library-v1.json'
 if (existsSync(LIVE)) {
-  const graph = JSON.parse(readFileSync(LIVE, 'utf8')).states['synapse-concept-graph-v2'] ?? { concepts: [] }
+  const graph = JSON.parse(readFileSync(LIVE, 'utf8')).states['nishany-concept-graph-v2'] ?? { concepts: [] }
   for (const concept of graph.concepts) taken.set(concept.id, `live: ${concept.label}`)
 }
 for (const dir of ['docs/import-ready', 'docs/questions-import-ready']) {

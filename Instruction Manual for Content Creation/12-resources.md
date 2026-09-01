@@ -126,7 +126,7 @@ for (const [id, r] of Object.entries(j.sources))
 >
 > ```bash
 > node -e "
-> const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['synapse-medical-evidence-v1'];
+> const ev=JSON.parse(require('fs').readFileSync('server/data/medical-library-v1.json','utf8')).states['nishany-medical-evidence-v1'];
 > const id=process.argv[1];
 > const hit=ev.resources.find(r=>r.id===id);
 > console.log(hit ? 'LIVE: '+hit.title : 'not a live source either — this one really is invented');
@@ -372,8 +372,8 @@ from the corpus index rather than typed from the file. That is the only way to b
 
 ```bash
 npm run medical:batch -- "docs/import-ready/evidence/<your-source-file>.md"
-npm run medical:simulate -- "docs/import-ready/resource/"*.md "docs/import-ready/evidence/"*.md --emit /tmp/synapse-sim.json
-npm run medical:audit -- --source /tmp/synapse-sim.json
+npm run medical:simulate -- "docs/import-ready/resource/"*.md "docs/import-ready/evidence/"*.md --emit /tmp/nishany-sim.json
+npm run medical:audit -- --source /tmp/nishany-sim.json
 ```
 
 **`medical:simulate` has no `--with` flag — only `medical:batch` does.** If you widen

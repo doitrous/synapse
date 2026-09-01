@@ -1,9 +1,9 @@
 {
-  "name": "synapse-api",
+  "name": "nishany-api",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Synapse backend — state store, students, and Resend mail on MariaDB.",
+  "description": "Nishany backend — state store, students, and Resend mail on MariaDB.",
   "main": "src/index.js",
   "scripts": {
     "start": "node --env-file-if-exists=.env src/index.js",

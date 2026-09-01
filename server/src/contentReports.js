@@ -24,8 +24,8 @@
 
 import { rank } from './roles.js'
 
-export const CONTENT_REPORTS_STATE_KEY = 'synapse-content-reports-v1'
-export const CONTENT_REPORT_TOMBSTONES_KEY = 'synapse-content-report-tombstones-v1'
+export const CONTENT_REPORTS_STATE_KEY = 'nishany-content-reports-v1'
+export const CONTENT_REPORT_TOMBSTONES_KEY = 'nishany-content-report-tombstones-v1'
 
 export const REPORT_STATUSES = ['Open', 'In review', 'Resolved', 'Dismissed', 'Archived']
 

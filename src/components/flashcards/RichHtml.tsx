@@ -4,7 +4,7 @@ import { sanitizeRich } from '@/data/flashcards/richText'
 import { resolveMediaSource } from '@/lib/mediaStorage'
 
 /** `<img>` tags `sanitizeRich` kept — their `src` is a reference, not a URL yet. */
-const MEDIA_IMG_SELECTOR = 'img[src^="synapse-"], img[src^="/media/"]'
+const MEDIA_IMG_SELECTOR = 'img[src^="nishany-"], img[src^="synapse-"], img[src^="/media/"]'
 
 /**
  * Render a stored rich-text field.
@@ -16,8 +16,8 @@ const MEDIA_IMG_SELECTOR = 'img[src^="synapse-"], img[src^="/media/"]'
  * result handed to `dangerouslySetInnerHTML`, and by then it is a string built
  * from a fixed allowlist of tags and attributes, nothing executable.
  *
- * Any surviving `<img>` carries a *reference* (`synapse-media:…`, `/media/…`,
- * `synapse-doc:…`), never a browser-loadable URL, so after the sanitized markup
+ * Any surviving `<img>` carries a *reference* (`nishany-media:…`, `/media/…`,
+ * `nishany-doc:…`), never a browser-loadable URL, so after the sanitized markup
  * lands in the DOM each such image is resolved through `resolveMediaSource` —
  * the same resolve-then-revoke pattern as `OcclusionCardFace` — and its `src`
  * swapped for the short-lived object URL, revoked again on unmount or update.

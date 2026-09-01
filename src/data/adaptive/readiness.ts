@@ -23,10 +23,10 @@ import type { BlueprintNode } from './blueprint.ts'
 import { mulberry32, seedFrom } from './blockBuilder.ts'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const READINESS_RESULTS_STORAGE_KEY = 'synapse.progress.adaptive.readiness.v1'
+export const READINESS_RESULTS_STORAGE_KEY = 'nishany.progress.adaptive.readiness.v1'
 
 /** Admin-owned: which items are reserved. Shared, because it governs the bank. */
-export const HELD_OUT_STORAGE_KEY = 'synapse-adaptive-heldout-v1'
+export const HELD_OUT_STORAGE_KEY = 'nishany-adaptive-heldout-v1'
 
 export interface HeldOutRegistry {
   version: 1

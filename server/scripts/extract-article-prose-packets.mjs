@@ -18,8 +18,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const PUBLISHED_EVIDENCE_KEY = 'synapse-medical-evidence-published-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const PUBLISHED_EVIDENCE_KEY = 'nishany-medical-evidence-published-v1'
 
 const args = process.argv.slice(2)
 const flag = (name) => args.includes(`--${name}`)

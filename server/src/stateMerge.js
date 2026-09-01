@@ -18,8 +18,8 @@ import { LIBRARY_TREES_STATE_KEY } from './libraryTrees.js'
 import { authoriseReportChange, CONTENT_REPORTS_STATE_KEY } from './contentReports.js'
 import { authoriseMediaRequestTransitions, collectMediaRequests } from './mediaRequestPolicy.js'
 
-const LEDGER = 'synapse-admin-content-ledger-v4'
-const GRAPH = 'synapse-concept-graph-v2'
+const LEDGER = 'nishany-admin-content-ledger-v4'
+const GRAPH = 'nishany-concept-graph-v2'
 
 /**
  * How to take a document apart, per key.

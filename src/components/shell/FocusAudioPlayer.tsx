@@ -144,7 +144,7 @@ const FocusAudioContext = createContext<FocusAudioContextValue | null>(null)
 
 /** Keeps audio alive while the top bar temporarily disappears in focus mode. */
 export function FocusAudioProvider({ children }: { children: ReactNode }) {
-  const [preference, setPreference] = useLocalJsonPreference('synapse.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
+  const [preference, setPreference] = useLocalJsonPreference('nishany.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
   const [playing, setPlaying] = useState(false)
   const engine = useRef<AudioEngine | null>(null)
 

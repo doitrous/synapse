@@ -4,9 +4,9 @@ import { pool } from './db.js'
 import { invalidatePublishedQuestions } from './publishedQuestions.js'
 import { ANSWER_STATS_MIN_STUDENTS, answerDistributionFor } from './answerDistribution.js'
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const MEDIA_KEY = 'synapse-media-library-v1'
-const CATALOGUE_KEY = 'synapse-academic-universities-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const MEDIA_KEY = 'nishany-media-library-v1'
+const CATALOGUE_KEY = 'nishany-academic-universities-v1'
 
 function question(id, optionCount = 4) {
   const answers = Array.from({ length: optionCount }, (_, index) => ({

@@ -51,9 +51,9 @@ import { escapeHtml } from '@/data/flashcards/richText'
  * the catalogue and only the student's schedules live here.
  */
 
-const COLLECTION_KEY = 'synapse.flashcards.collection.v2'
-const LEGACY_DECKS_KEY = 'synapse.flashcards.decks.v1'
-const REVIEW_LOG_KEY = 'synapse.flashcards.reviewlog.v2'
+const COLLECTION_KEY = 'nishany.flashcards.collection.v2'
+const LEGACY_DECKS_KEY = 'nishany.flashcards.decks.v1'
+const REVIEW_LOG_KEY = 'nishany.flashcards.reviewlog.v2'
 
 /** A generous ceiling; a student's own review history stays well under it. */
 const REVIEW_LOG_CAP = 50_000

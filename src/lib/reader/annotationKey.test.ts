@@ -76,6 +76,6 @@ test('every key is routed to the student\'s own record', () => {
   // `USER_OWNED_PATTERNS` matches on the prefix; if this changes, annotations
   // silently become shared admin state.
   const scope = annotationScope('resource', 'RES-1')
-  assert.ok(manifestKey(scope).startsWith('synapse.annotations.'))
-  assert.ok(shardKey(scope, 3).startsWith('synapse.annotations.'))
+  assert.ok(manifestKey(scope).startsWith('nishany.annotations.'))
+  assert.ok(shardKey(scope, 3).startsWith('nishany.annotations.'))
 })

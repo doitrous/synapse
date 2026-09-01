@@ -8,7 +8,7 @@
  * unavailable — private mode, a different browser — the page asks for the
  * address instead, so nothing here needs to succeed.
  */
-const KEY = 'synapse.auth.pending-email'
+const KEY = 'nishany.auth.pending-email'
 
 export function rememberPendingEmail(email: string): void {
   try { localStorage.setItem(KEY, email) } catch { /* the page falls back to asking */ }

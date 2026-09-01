@@ -71,7 +71,7 @@ function withFixture(fixture: unknown) {
 const EXISTING = {
   migrationId: '2026-08-11-medical-library-reader-quality-v7',
   generatedAt: '2026-08-11T03:09:06.253Z',
-  states: { 'synapse-concept-graph-v2': { concepts: [{ id: 'CON-OLD' }] } },
+  states: { 'nishany-concept-graph-v2': { concepts: [{ id: 'CON-OLD' }] } },
   demoStudentIds: ['demo-1'],
   report: { universities: 12 },
 }
@@ -80,7 +80,7 @@ const fixtureIn = (root: string) =>
   JSON.parse(readFileSync(join(root, 'server', 'data', 'medical-library-v1.json'), 'utf8'))
 
 test('a 200 snapshot replaces the states and marks the file as production-derived', async () => {
-  const states = { 'synapse-concept-graph-v2': { concepts: [{ id: 'CON-NEW' }] }, 'synapse-relation-types-v1': [] }
+  const states = { 'nishany-concept-graph-v2': { concepts: [{ id: 'CON-NEW' }] }, 'nishany-relation-types-v1': [] }
   const server = await stub(() => ({ status: 200, body: JSON.stringify(states) }))
   const root = withFixture(EXISTING)
   try {
@@ -161,10 +161,10 @@ test('staleness reports which keys moved after the fixture was built, and change
     body: JSON.stringify({
       keys: {
         // 11 days after the fixture's generatedAt.
-        'synapse-concept-graph-v2': '2026-08-22T03:09:06.253Z',
+        'nishany-concept-graph-v2': '2026-08-22T03:09:06.253Z',
         // Before it — production has not touched this since, so it is not behind.
-        'synapse-relation-types-v1': '2026-08-01T00:00:00.000Z',
-        'synapse-module-schedules-v1': null,
+        'nishany-relation-types-v1': '2026-08-01T00:00:00.000Z',
+        'nishany-module-schedules-v1': null,
       },
     }),
   }))
@@ -172,9 +172,9 @@ test('staleness reports which keys moved after the fixture was built, and change
   try {
     const { code, output } = await run('snapshot-staleness.mjs', root, server.port)
     assert.equal(code, 0, output)
-    assert.match(output, /synapse-concept-graph-v2\s+11\.0 days newer/)
-    assert.match(output, /synapse-relation-types-v1\s+not changed since/)
-    assert.match(output, /synapse-module-schedules-v1\s+not stored in production/)
+    assert.match(output, /nishany-concept-graph-v2\s+11\.0 days newer/)
+    assert.match(output, /nishany-relation-types-v1\s+not changed since/)
+    assert.match(output, /nishany-module-schedules-v1\s+not stored in production/)
     assert.match(output, /1 of 3 key\(s\) have moved/)
     // It measures; it must not edit.
     assert.deepEqual(fixtureIn(root), EXISTING)
@@ -189,7 +189,7 @@ test('staleness reports rather than failing when the fixture is behind', async (
   // red for the normal state of affairs stops being read.
   const server = await stub(() => ({
     status: 200,
-    body: JSON.stringify({ keys: { 'synapse-concept-graph-v2': '2027-01-01T00:00:00.000Z' } }),
+    body: JSON.stringify({ keys: { 'nishany-concept-graph-v2': '2027-01-01T00:00:00.000Z' } }),
   }))
   const root = withFixture(EXISTING)
   try {

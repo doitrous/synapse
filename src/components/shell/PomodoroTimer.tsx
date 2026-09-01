@@ -70,8 +70,8 @@ const SETTING_LABEL: Record<SettingKey, string> = {
   blocksBeforeLongBreak: 'Blocks before a long break',
 }
 
-const STORAGE_KEY = 'synapse.shell.pomodoro.v1'
-const SETTINGS_KEY = 'synapse.shell.pomodoro.settings.v1'
+const STORAGE_KEY = 'nishany.shell.pomodoro.v1'
+const SETTINGS_KEY = 'nishany.shell.pomodoro.settings.v1'
 
 function clampStep(value: number, key: SettingKey): number {
   const { min, max, step } = RANGES[key]
@@ -202,8 +202,8 @@ export function PomodoroTimer() {
   const settings = clampSettings(rawSettings)
   const durations = durationsFor(settings)
   const [state, setState] = useLocalJsonPreference<PomodoroState>(STORAGE_KEY, initialState)
-  const [sound, setSound] = useLocalPreference('synapse.shell.pomodoro.sound', false)
-  const [notify, setNotify] = useLocalPreference('synapse.shell.pomodoro.notify', false)
+  const [sound, setSound] = useLocalPreference('nishany.shell.pomodoro.sound', false)
+  const [notify, setNotify] = useLocalPreference('nishany.shell.pomodoro.notify', false)
   const [open, setOpen] = useState(false)
   const [settingsOpen, setSettingsOpen] = useState(false)
   const root = useRef<HTMLDivElement>(null)

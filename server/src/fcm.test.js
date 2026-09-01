@@ -12,8 +12,8 @@ function testKey() {
 }
 
 const account = () => ({
-  project_id: 'synapse-qotd',
-  client_email: 'fcm@synapse-qotd.iam.gserviceaccount.com',
+  project_id: 'nishany-qotd',
+  client_email: 'fcm@nishany-qotd.iam.gserviceaccount.com',
   private_key: testKey(),
   token_uri: 'https://oauth2.googleapis.com/token',
 })
@@ -27,11 +27,11 @@ test('an unconfigured server does not pretend it can send', () => {
 test('a service account survives being carried as raw JSON or base64', () => {
   const json = JSON.stringify(account())
   const fromRaw = readServiceAccount({ FCM_SERVICE_ACCOUNT: json })
-  assert.equal(fromRaw.project_id, 'synapse-qotd')
+  assert.equal(fromRaw.project_id, 'nishany-qotd')
 
   const encoded = Buffer.from(json).toString('base64')
   const fromBase64 = readServiceAccount({ FCM_SERVICE_ACCOUNT: encoded })
-  assert.equal(fromBase64.project_id, 'synapse-qotd')
+  assert.equal(fromBase64.project_id, 'nishany-qotd')
 })
 
 test('something that is not a usable service account does not become one', () => {

@@ -7,8 +7,8 @@
  * be traced back to learning never enters this model.
  */
 
-export const MARISTANA_CONFIG_KEY = 'synapse-maristana-config-v1'
-export const MARISTANA_ONBOARDING_KEY = 'synapse.maristanas.onboarding.v1'
+export const MARISTANA_CONFIG_KEY = 'nishany-maristana-config-v1'
+export const MARISTANA_ONBOARDING_KEY = 'nishany.maristanas.onboarding.v1'
 export const MARISTANA_STEPS = 25
 
 export function maristanaStageAsset(stage: number): string {

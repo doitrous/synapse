@@ -211,7 +211,7 @@ git commit -m "Lay medical terms out so they cross"
 
 - [ ] **Step 1** — add `/^synapse\.termgrid\./` to `USER_OWNED_PATTERNS` **and** `"^synapse\\.termgrid\\."` to the Swift port, matching its escaping exactly. That file says it must stay a direct port; a mismatch means the phone writes a student's work where the web never reads it, and nothing reports an error. Add a test for the key.
 
-- [ ] **Step 2** — `useTermGrid` over `usePersistentState` on `synapse.termgrid.progress.v1`, keyed by puzzle id (the seed plus the category), holding: the letters typed, which words were revealed, when it was started, and when it was finished. A puzzle must survive a reload.
+- [ ] **Step 2** — `useTermGrid` over `usePersistentState` on `nishany.termgrid.progress.v1`, keyed by puzzle id (the seed plus the category), holding: the letters typed, which words were revealed, when it was started, and when it was finished. A puzzle must survive a reload.
 
 - [ ] **Step 3** — verify and commit.
 

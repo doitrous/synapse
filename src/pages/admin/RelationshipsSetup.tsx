@@ -40,7 +40,7 @@ import { overlayPortal } from '@/lib/overlayPortal'
 
 /** Built-in directed relationship types (source → target). */
 const RELATION_TYPES: readonly ConceptRelationType[] = CONCEPT_RELATIONS
-const RELATION_TYPES_KEY = 'synapse-relation-types-v1'
+const RELATION_TYPES_KEY = 'nishany-relation-types-v1'
 const slugType = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '_').replace(/(^_|_$)/g, '')
 
 export function RelationshipsSetup() {

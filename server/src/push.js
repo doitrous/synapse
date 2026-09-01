@@ -58,7 +58,7 @@ export function readConfig(env = process.env) {
   return {
     keyId: (env.APNS_KEY_ID || '').trim(),
     teamId: (env.APNS_TEAM_ID || '').trim(),
-    bundleId: (env.APNS_BUNDLE_ID || 'com.synapse.app').trim(),
+    bundleId: (env.APNS_BUNDLE_ID || 'com.nishany.app').trim(),
     // Accepted either as the PEM itself or base64-encoded, because a private
     // key with newlines in it survives very few deployment forms intact.
     key: key.includes('BEGIN') ? key : decodeBase64Key(key),

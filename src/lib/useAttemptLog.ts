@@ -42,7 +42,7 @@ function recordVerified(records: AttemptRecord[]): void {
   })
   if (!attempts.length) return
   void apiPost('/qbank/attempts', { attempts })
-    .then(() => window.dispatchEvent(new Event('synapse:maristana-progress')))
+    .then(() => window.dispatchEvent(new Event('nishany:maristana-progress')))
     // The private record is already safe. A profile still being enrolled or a
     // transient API fault must never interrupt the question the student sees.
     .catch(() => undefined)

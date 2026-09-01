@@ -78,8 +78,8 @@ export async function platformReport() {
     pool.query('SELECT COUNT(*) AS verifiedAnswers, COUNT(DISTINCT user_id) AS activeAnswerers FROM qbank_attempts WHERE verified_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)'),
     pool.query("SELECT COUNT(*) AS pending FROM enrollment_change_requests WHERE status = 'pending'"),
     pool.query('SELECT threshold_gb AS thresholdGb, acknowledged_by AS acknowledgedBy, acknowledged_at AS acknowledgedAt FROM storage_threshold_acknowledgements ORDER BY threshold_gb DESC LIMIT 1'),
-    pool.query("SELECT v FROM app_state WHERE k = 'synapse-admin-content-ledger-v4' LIMIT 1"),
-    pool.query("SELECT v FROM app_state WHERE k = 'synapse-content-reports-v1' LIMIT 1"),
+    pool.query("SELECT v FROM app_state WHERE k = 'nishany-admin-content-ledger-v4' LIMIT 1"),
+    pool.query("SELECT v FROM app_state WHERE k = 'nishany-content-reports-v1' LIMIT 1"),
     pool.query("SELECT COUNT(*) AS sent30d, SUM(status <> 'sent' AND status <> 'delivered') AS problem30d FROM emails WHERE direction = 'outbound' AND created_at >= DATE_SUB(NOW(), INTERVAL 30 DAY)"),
   ])
   const ledger = safeJson(ledgerRows[0]?.v, [])

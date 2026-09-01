@@ -1,4 +1,4 @@
-# Connect Cortex for Android — foundation, Question Bank, Practical
+# Nishany for Android — foundation, Question Bank, Practical
 
 The native Android student app. Admins keep using the web console; this covers
 the student portal only, exactly as `ios/` does.
@@ -48,8 +48,8 @@ item below fails quietly rather than loudly, so each gets a unit test.
 | `USER_OWNED_PATTERNS` | `src/lib/stateOwnership.ts` | A key routed to the shared catalogue store instead of `/api/user-state/:key`. The server refuses the write (student, not admin) or files it where the web never reads. A student's progress splits between phone and browser with no error on either side. |
 | `localCopyWins` | `src/lib/statePrecedence.ts` | A local copy that wins by default lets an idle phone re-upload stale data over newer work done elsewhere. A local copy may only win when it can be *shown* newer. |
 | `QBankScope` keys | `src/data/qbankScope.ts` | Scope keys are `t:<id>` for a whole topic and `s:<id>` for one subtopic, with `qt:` marking a topic the questions named rather than the library. A whole-topic selection must **also** match on lowercased title — without that fallback, a chapter the student can plainly see has questions in it returns an empty sitting whenever the questions are not cross-referenced to articles. |
-| `LiveSession` | `src/pages/student/QuestionBank.tsx` | Stored at `synapse.qbank.activeSession.v1`, field for field. This record is the only thing carrying a half-finished sitting between web and phone; a renamed field silently drops the resume. |
-| `AttemptRecord` and month sharding | `src/data/attempts.ts` | The raw event log every performance figure on both platforms is computed from. Shards are `synapse.progress.attempts.<YYYY-MM>` indexed by `synapse.progress.attemptIndex.v1`, and the month must come from **local** calendar fields — UTC files a late-evening answer for anyone east of Greenwich under the next month, in a shard the web app does not look in. |
+| `LiveSession` | `src/pages/student/QuestionBank.tsx` | Stored at `nishany.qbank.activeSession.v1`, field for field. This record is the only thing carrying a half-finished sitting between web and phone; a renamed field silently drops the resume. |
+| `AttemptRecord` and month sharding | `src/data/attempts.ts` | The raw event log every performance figure on both platforms is computed from. Shards are `nishany.progress.attempts.<YYYY-MM>` indexed by `nishany.progress.attemptIndex.v1`, and the month must come from **local** calendar fields — UTC files a late-evening answer for anyone east of Greenwich under the next month, in a shard the web app does not look in. |
 | Catalogue key list | `STUDENT_READABLE_STATE` in `server/src/index.js` | Anything outside the set earns a 403, correctly. Those 14 documents are what the learning product is made of; everything else on the server is operational data. |
 
 `ios/Synapse/Core/Sync/StateOwnership.swift` and its siblings are the existing
@@ -112,9 +112,9 @@ reader does not take them for mistakes:
 2. Fetch only the catalogues whose stamp moved.
 3. Shred the content ledger into `ledger_items` and rebuild the FTS rows.
 4. Pull the user-owned keys these surfaces read, applying `localCopyWins`:
-   `synapse.qbank.activeSession.v1`, the rest of `synapse.qbank.*` (presets and
-   previous sittings), `synapse.practical.*`, and
-   `synapse.progress.attemptIndex.v1` with the shards for the current and
+   `nishany.qbank.activeSession.v1`, the rest of `nishany.qbank.*` (presets and
+   previous sittings), `nishany.practical.*`, and
+   `nishany.progress.attemptIndex.v1` with the shards for the current and
    previous month. Older shards are fetched on demand rather than on every
    sync — a year of study is not something a phone should pull to show a
    question.

@@ -14,7 +14,7 @@ import {
   type CurriculumSystem,
 } from '@/data/curriculumCatalog'
 
-export const TAXONOMY_STORAGE_KEY = 'synapse-taxonomy-tree-v4'
+export const TAXONOMY_STORAGE_KEY = 'nishany-taxonomy-tree-v4'
 
 export const slug = curriculumSlug
 

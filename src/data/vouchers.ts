@@ -35,8 +35,8 @@ export interface Voucher {
   updatedAt: string
 }
 
-export const VOUCHER_STORAGE_KEY = 'synapse-vouchers-v1'
-export const APPLIED_VOUCHER_STORAGE_KEY = 'synapse-applied-voucher-v1'
+export const VOUCHER_STORAGE_KEY = 'nishany-vouchers-v1'
+export const APPLIED_VOUCHER_STORAGE_KEY = 'nishany-applied-voucher-v1'
 
 export const initialVouchers: Voucher[] = [
   {

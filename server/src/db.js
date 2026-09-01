@@ -166,9 +166,9 @@ export async function migrate() {
     const [applied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [migrationId])
     if (!applied.length) {
       const cleanDocuments = new Map([
-        ['synapse-academic-universities-v1', '[]'],
-        ['synapse-course-curricula-v1', '{}'],
-        ['synapse-module-schedules-v1', '{}'],
+        ['nishany-academic-universities-v1', '[]'],
+        ['nishany-course-curricula-v1', '{}'],
+        ['nishany-module-schedules-v1', '{}'],
       ])
       await conn.beginTransaction()
       try {
@@ -201,7 +201,7 @@ export async function migrate() {
       try {
         await conn.query(
           'DELETE FROM app_state WHERE k IN (?, ?)',
-          ['synapse-concept-mastery-v1', 'synapse-qbank-question-notes-v1'],
+          ['nishany-concept-mastery-v1', 'nishany-qbank-question-notes-v1'],
         )
         await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [orphanId])
         await conn.commit()
@@ -224,7 +224,7 @@ export async function migrate() {
       try {
         await conn.query(
           'DELETE FROM app_state WHERE k IN (?, ?)',
-          ['synapse-onboarding-v1', 'synapse.myDocuments.v1'],
+          ['nishany-onboarding-v1', 'nishany.myDocuments.v1'],
         )
         await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [misroutedId])
         await conn.commit()
@@ -255,6 +255,105 @@ export async function migrate() {
       }
     }
 
+    // The platform rebranded to Nishany. Every persisted document used to be
+    // addressed with a `synapse…` key; the app and server now use `nishany…`.
+    // Rename the stored rows once so the row and the code agree — across
+    // app_state and user_state AND both of their version histories, renamed
+    // together so the merge-base invariant (app_state.k equals its newest
+    // version row's k) is preserved and no client is handed a phantom conflict.
+    // A browser still on the pre-rebrand bundle is handled separately, by
+    // canonicalStateKey mapping its `synapse…` request forward to the renamed
+    // row. Marker-guarded, so the (one-time, potentially large) rewrite runs at
+    // exactly the boot that ships this build. IGNORE skips the impossible case
+    // of a row already present under the new key, keeping the newer one.
+    const stateKeyRebrandId = '2026-09-01-rename-state-keys-to-nishany'
+    const [stateKeyRebrandApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [stateKeyRebrandId])
+    if (!stateKeyRebrandApplied.length) {
+      await conn.beginTransaction()
+      try {
+        for (const table of ['app_state', 'app_state_versions', 'user_state', 'user_state_versions']) {
+          await conn.query(
+            `UPDATE IGNORE ${table} SET k = CONCAT('nishany', SUBSTRING(k, 8))
+               WHERE k LIKE 'synapse-%' OR k LIKE 'synapse.%' OR k LIKE 'synapse:%'`,
+          )
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [stateKeyRebrandId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
+    // The rebrand also reached INSIDE document values, not just their keys: the
+    // media/document reference scheme embedded in saved content (`synapse-doc:` /
+    // `synapse-media:`), and the sender addresses, brand words and links stored
+    // in the email-automations document. Fix that data once. The reference
+    // tokens are colon-suffixed and unambiguous, so a blunt REPLACE is safe even
+    // across medical prose; the brand-word rewrite is scoped to the automations
+    // document, which never holds clinical text, so "Synapse" there is only ever
+    // the retired name. The read paths still accept the old prefixes, so this
+    // pass is a purge, not a correctness dependency.
+    const contentRebrandId = '2026-09-01-rebrand-content-refs-and-email-data'
+    const [contentRebrandApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [contentRebrandId])
+    if (!contentRebrandApplied.length) {
+      await conn.beginTransaction()
+      try {
+        for (const table of ['app_state', 'user_state']) {
+          await conn.query(
+            `UPDATE ${table} SET v = REPLACE(REPLACE(v, 'synapse-doc:', 'nishany-doc:'), 'synapse-media:', 'nishany-media:')
+               WHERE v LIKE '%synapse-doc:%' OR v LIKE '%synapse-media:%'`,
+          )
+        }
+        await conn.query(
+          `UPDATE app_state SET v = REPLACE(REPLACE(REPLACE(v,
+               'synapse@mail.doitrous.com', 'info@nishany.com'),
+               'no-reply@synapse.app', 'info@nishany.com'),
+               '@mail.doitrous.com', '@nishany.com')
+             WHERE v LIKE '%mail.doitrous.com%' OR v LIKE '%synapse.app%'`,
+        )
+        await conn.query(
+          `UPDATE app_state SET v = REPLACE(REPLACE(REPLACE(v,
+               'Connect Cortex', 'Nishany'),
+               'synapse.doitrous.com', 'nishany.com'),
+               'Synapse', 'Nishany')
+             WHERE k = 'nishany-email-automations-v1'`,
+        )
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [contentRebrandId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
+    // The mail addresses the platform sends from and receives at, on the new
+    // domain. Seeded so a fresh or rebranded install has the standard set;
+    // INSERT IGNORE leaves any address the admin already created untouched.
+    const mailboxSeedId = '2026-09-01-seed-nishany-mailboxes'
+    const [mailboxSeedApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [mailboxSeedId])
+    if (!mailboxSeedApplied.length) {
+      const defaultMailboxes = [
+        ['info@nishany.com', 'Info'],
+        ['admin@nishany.com', 'Admin'],
+        ['help@nishany.com', 'Help'],
+        ['reviewer@nishany.com', 'Reviewer'],
+        ['editor@nishany.com', 'Editor'],
+        ['superadmin@nishany.com', 'Super admin'],
+      ]
+      await conn.beginTransaction()
+      try {
+        for (const [address, label] of defaultMailboxes) {
+          await conn.query('INSERT IGNORE INTO mailboxes (address, label) VALUES (?, ?)', [address, label])
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [mailboxSeedId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
+
     // Publishing an imported content item silently reverted to unpublished. The
     // server rebuilds every client's optimistic-merge base from the newest
     // app_state_versions row, which must equal app_state. An earlier import
@@ -273,13 +372,13 @@ export async function migrate() {
     const [versionBaselineApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [versionBaselineId])
     if (!versionBaselineApplied.length) {
       const sharedKeys = [
-        'synapse-admin-content-ledger-v4',
-        'synapse-concept-graph-v2',
-        'synapse-medical-evidence-v1',
-        'synapse-minigame-packs-v1',
-        'synapse-library-trees-v1',
-        'synapse-academic-universities-v1',
-        'synapse-media-library-v1',
+        'nishany-admin-content-ledger-v4',
+        'nishany-concept-graph-v2',
+        'nishany-medical-evidence-v1',
+        'nishany-minigame-packs-v1',
+        'nishany-library-trees-v1',
+        'nishany-academic-universities-v1',
+        'nishany-media-library-v1',
       ]
       // Compare by structure, not by byte, so a re-serialisation is not "drift".
       const canonical = (raw) => {

@@ -77,7 +77,7 @@ export async function sendEmail(input: SendEmailInput): Promise<SendEmailResult>
     }
   }
 
-  const from = input.from ?? DEFAULT_FROM ?? 'Nishany <no-reply@synapse.app>'
+  const from = input.from ?? DEFAULT_FROM ?? 'Nishany <info@nishany.com>'
   if (!ENDPOINT) {
     // Demo build with no backend and no function — record intent only.
     return { ok: true, status: 'Queued', demo: true, id: `demo-${Date.now()}` }

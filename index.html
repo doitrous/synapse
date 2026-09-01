@@ -12,7 +12,8 @@
     <script>
       (function () {
         try {
-          var t = localStorage.getItem('synapse-theme');
+          var t = localStorage.getItem('nishany-theme');
+          if (t === null) { t = localStorage.getItem('synapse-theme'); if (t !== null) { try { localStorage.setItem('nishany-theme', t); localStorage.removeItem('synapse-theme'); } catch (e2) {} } }
           if (t !== 'light' && t !== 'warm' && t !== 'dark' && t !== 'oled') t = 'light';
           document.documentElement.dataset.theme = t;
           var m = document.querySelector('meta[name="theme-color"]');

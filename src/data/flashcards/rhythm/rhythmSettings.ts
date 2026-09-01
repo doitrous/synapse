@@ -16,7 +16,7 @@
  * the panel into a state it has no branch for.
  */
 
-export const RHYTHM_SETTINGS_KEY = 'synapse.flashcards.rhythm.v1'
+export const RHYTHM_SETTINGS_KEY = 'nishany.flashcards.rhythm.v1'
 export const RHYTHM_SETTINGS_VERSION = 1
 
 export const RHYTHM_COLOR_SCHEMES = ['crimson', 'blue', 'teal', 'amber', 'violet', 'mono'] as const

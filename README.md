@@ -181,7 +181,7 @@ Authoring guidance lives in `Instruction Manual for Content Creation/`. Start wi
 
 The canonical import-contract registry is `src/data/importContract.ts`. It is shared by manual-heading parity checks, schemas, parsers, merging, validators, and round-trip tests. Supported contracts include subjects, evidence resources/claims/citations/spans, catalogue resources, articles, concepts, relationships, practicals, questions, glossary terms, decks, essays, histology slides, and authored medicine minigame packs.
 
-Authored minigames are imported through `/admin/import/minigame`. The minigame contract covers Clinical Sequence, Mechanism Chain, and Red Flag Sort packs, including source/reviewer metadata, ordered steps or findings/lanes/rationales, and validation through `validateMiniGamePack`. Valid imported packs enter the `synapse-minigame-packs-v1` library as **In review** and stay out of solo and party games until a reviewer explicitly publishes the validated pack library.
+Authored minigames are imported through `/admin/import/minigame`. The minigame contract covers Clinical Sequence, Mechanism Chain, and Red Flag Sort packs, including source/reviewer metadata, ordered steps or findings/lanes/rationales, and validation through `validateMiniGamePack`. Valid imported packs enter the `nishany-minigame-packs-v1` library as **In review** and stay out of solo and party games until a reviewer explicitly publishes the validated pack library.
 Important import locations:
 
 - `docs/import-ready/` - validated batches staged for manual admin import.

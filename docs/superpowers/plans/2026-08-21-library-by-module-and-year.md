@@ -88,7 +88,7 @@ test('anything that is not a scope is refused rather than guessed', () => {
 })
 
 test('the document these live in is named once', () => {
-  assert.equal(LIBRARY_TREES_STATE_KEY, 'synapse-library-trees-v1')
+  assert.equal(LIBRARY_TREES_STATE_KEY, 'nishany-library-trees-v1')
 })
 ```
 
@@ -111,7 +111,7 @@ Expected: FAIL — `Cannot find module './libraryTrees.js'`
  * No database and no Express, so the rule is testable on its own.
  */
 
-export const LIBRARY_TREES_STATE_KEY = 'synapse-library-trees-v1'
+export const LIBRARY_TREES_STATE_KEY = 'nishany-library-trees-v1'
 
 const KINDS = ['module', 'year']
 
@@ -396,7 +396,7 @@ In `server/src/stateMerge.js`:
 
 - [ ] **Step 4: Register the document**
 
-Add `synapse-library-trees-v1` to the `library` tab's `stateKeys` in both
+Add `nishany-library-trees-v1` to the `library` tab's `stateKeys` in both
 `server/src/tabs.js` and `src/data/adminTabs.ts`, extend the key-ownership test,
 and add it to `STUDENT_READABLE_STATE` in `server/src/index.js` — students browse
 these trees.

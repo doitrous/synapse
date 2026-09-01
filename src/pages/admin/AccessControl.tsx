@@ -18,7 +18,7 @@ type RoleTabConfig = Partial<Record<ConfigurableRole, string[]>>
 
 /** A stored key read back as something a person can scan. */
 function governedLabel(stateKeys: string[], apiPrefixes: string[]): string {
-  const documents = stateKeys.map((key) => key.replace(/^synapse-/, '').replace(/-v\d+$/, ''))
+  const documents = stateKeys.map((key) => key.replace(/^nishany-/, '').replace(/-v\d+$/, ''))
   const parts = [...new Set([...documents, ...apiPrefixes])]
   return parts.length ? parts.join(' · ') : 'the page only'
 }

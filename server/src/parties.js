@@ -27,7 +27,7 @@ const MAX_SESSION_ITEMS = 40
 // The same admin-authored ledger `publishedQuestions.js` freezes questions
 // from. Practical and essay items live in the same document; there is no
 // per-kind table for them to be looked up in instead.
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
 
 function newCode() {
   let code = ''

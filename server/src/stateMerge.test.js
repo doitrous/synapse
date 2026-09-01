@@ -3,9 +3,9 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { authoriseChanges, diffDocument, isMergeable, mergeDocument, reconstructChanges, applyDelta } from './stateMerge.js'
 
-const LEDGER = 'synapse-admin-content-ledger-v4'
-const GRAPH = 'synapse-concept-graph-v2'
-const TREES = 'synapse-library-trees-v1'
+const LEDGER = 'nishany-admin-content-ledger-v4'
+const GRAPH = 'nishany-concept-graph-v2'
+const TREES = 'nishany-library-trees-v1'
 
 const q = (id, title, moduleIds = ['MOD_CVS']) => ({
   id, kind: 'question', title, questionData: { tags: { moduleIds, years: [] } },
@@ -27,7 +27,7 @@ test('every content kind in the ledger is owned by a tab', () => {
 test('only the keyed collections merge', () => {
   assert.equal(isMergeable(LEDGER), true)
   assert.equal(isMergeable(GRAPH), true)
-  assert.equal(isMergeable('synapse-vouchers-v1'), false)
+  assert.equal(isMergeable('nishany-vouchers-v1'), false)
 })
 
 test('a diff names what changed, by collection and id', () => {
@@ -355,7 +355,7 @@ test('malformed change sets are refused, never read as delete-everything', () =>
   assert.equal(reconstructChanges(LEDGER, [{ collection: 'items', id: 42, after: q('q1', 'x') }]), null) // non-string id
   assert.equal(reconstructChanges(LEDGER, [{ collection: 'items', id: 'q1', before: null, after: null }]), null) // empty change
   assert.equal(reconstructChanges(LEDGER, [{ collection: 'items', id: 'q1', after: q('q2', 'x') }]), null) // after.id disagrees
-  assert.equal(reconstructChanges('synapse-vouchers-v1', [{ collection: 'items', id: 'q1', after: q('q1', 'x') }]), null) // not a mergeable key
+  assert.equal(reconstructChanges('nishany-vouchers-v1', [{ collection: 'items', id: 'q1', after: q('q1', 'x') }]), null) // not a mergeable key
 })
 
 test('an empty delta is a no-op that changes nothing', () => {
@@ -366,7 +366,7 @@ test('an empty delta is a no-op that changes nothing', () => {
 })
 
 test('an unmergeable document is returned as sent, for the caller to version-check', () => {
-  const merged = mergeDocument('synapse-vouchers-v1', { a: 1 }, { a: 2 }, { a: 3 })
+  const merged = mergeDocument('nishany-vouchers-v1', { a: 1 }, { a: 2 }, { a: 3 })
   assert.equal(merged.ok, true)
   assert.deepEqual(merged.value, { a: 3 })
 })
@@ -384,7 +384,7 @@ test('Add Article is not a reviewer capability: creating an article needs the li
 
 /* ── Content reports: merge-safe, role-gated ─────────────────────────────── */
 
-const REPORTS = 'synapse-content-reports-v1'
+const REPORTS = 'nishany-content-reports-v1'
 const report = (id, status = 'Open', extra = {}) => ({
   id, contentKind: 'question', contentId: `q_${id}`, contentTitle: `Report ${id}`,
   reporterRole: 'Student', reporterName: 'Maya', reporterUserId: 'u1', category: 'Unclear wording',

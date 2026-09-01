@@ -31,7 +31,7 @@ export interface MedicalTaxonomyDivisionDefinition {
   rootLabel: string
 }
 
-export const MEDICAL_TAXONOMY_STORAGE_KEY = 'synapse-medical-library-taxonomy-v1'
+export const MEDICAL_TAXONOMY_STORAGE_KEY = 'nishany-medical-library-taxonomy-v1'
 
 export const MEDICAL_TAXONOMY_DIVISIONS: MedicalTaxonomyDivisionDefinition[] = [
   { id: 'system', label: 'Systems & General', shortLabel: 'Systems & General', description: 'Learn through organ systems, foundations, life stages, infection, emergencies, and population health.', rootLabel: 'System or domain' },

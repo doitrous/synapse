@@ -118,7 +118,7 @@ export interface GlossaryDoc {
   terms: MedicalTerm[]
 }
 
-export const GLOSSARY_STORAGE_KEY = 'synapse-medical-glossary-v1'
+export const GLOSSARY_STORAGE_KEY = 'nishany-medical-glossary-v1'
 
 export const EMPTY_GLOSSARY: GlossaryDoc = { version: 1, categories: [], terms: [] }
 

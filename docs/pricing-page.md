@@ -56,7 +56,7 @@ search, by an answer engine, and by the browser's own find.
 
 | Tag | English |
 |---|---|
-| Title | Pricing — Synapse · Plans for undergraduate medical study |
+| Title | Pricing — Nishany · Plans for undergraduate medical study |
 | Description | One workspace … priced per student **from {from} a month**. Start free with a 7-day full trial, no card. |
 | Canonical | `https://synapse.doitrous.com/pricing` |
 | hreflang | `en` → /pricing, `ar` → /ar/pricing, `x-default` → /pricing |
@@ -89,7 +89,7 @@ any paid campaign points at this URL.
 
 Three natural tiers already exist and one is clearly the recommendation, which
 is exactly what A is for. The reason not to use C ("pick your path") is that
-Synapse's audiences are not separate: an individual student and a cohort student
+Nishany's audiences are not separate: an individual student and a cohort student
 use the same product, and the cohort is a procurement decision made by somebody
 else. So Campus sits in the demoted row as reassurance rather than as a column
 competing for a student's attention.

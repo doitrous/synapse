@@ -18,7 +18,7 @@ import type { AllocationNeed } from './config.ts'
 import { ALLOCATION_NEEDS } from './config.ts'
 
 /** Dotted, so `isUserOwnedState` routes it to the student's own record. */
-export const STUDY_PLAN_STORAGE_KEY = 'synapse.progress.adaptive.plan.v1'
+export const STUDY_PLAN_STORAGE_KEY = 'nishany.progress.adaptive.plan.v1'
 
 export type TaskTier = 'minimum' | 'recommended' | 'stretch'
 

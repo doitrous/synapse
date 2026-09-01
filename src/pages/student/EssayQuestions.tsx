@@ -37,7 +37,7 @@ import { cn } from '@/lib/cn'
 /** The guide is data so the same list cannot drift between surfaces; every line still goes through `t()` here. */
 function Guide() {
   const t = useT()
-  const [open, setOpen] = useLocalPreference('synapse.essay.guideOpen', true)
+  const [open, setOpen] = useLocalPreference('nishany.essay.guideOpen', true)
   return (
     <Panel className="mb-5 overflow-hidden">
       <button

@@ -17,7 +17,7 @@ import type { Concept } from '@/data/conceptGraph'
 import { derivedExamWeight } from '@/data/examSignal'
 
 /** Admin-owned, so this is a shared catalogue document. */
-export const ADAPTIVE_BLUEPRINT_STORAGE_KEY = 'synapse-adaptive-blueprints-v1'
+export const ADAPTIVE_BLUEPRINT_STORAGE_KEY = 'nishany-adaptive-blueprints-v1'
 
 export interface BlueprintNode {
   conceptId: string

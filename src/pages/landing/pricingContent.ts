@@ -149,7 +149,7 @@ export const EN_PRICING: PricingContent = {
     eyebrow: 'Private scholarship route',
     title: 'Full access can be 100% covered.',
     sub:
-      'Connect Academy provides up to 200 scholarships per year, per university, for students who genuinely need them.',
+      'Connect provides up to 200 scholarships per year, per university, for students who genuinely need them.',
     facts: [
       'Begin through your year representative or Student Union.',
       'Approved access uses a one-time, 100%-off code.',
@@ -292,7 +292,7 @@ export const AR_PRICING: PricingContent = {
     eyebrow: 'مسار منح يحفظ الخصوصية',
     title: 'قد تُغطّى التكلفة كاملة بنسبة ١٠٠٪.',
     sub:
-      'توفّر Connect Academy ما يصل إلى ٢٠٠ منحة سنويًا لكل جامعة للطلاب الذين يحتاجون إليها فعلًا.',
+      'توفّر Connect ما يصل إلى ٢٠٠ منحة سنويًا لكل جامعة للطلاب الذين يحتاجون إليها فعلًا.',
     facts: [
       'ابدأ من خلال ممثل دفعتك أو اتحاد الطلاب.',
       'الوصول المقبول يتم بكود استخدام واحد بخصم ١٠٠٪.',

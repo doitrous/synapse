@@ -129,7 +129,7 @@ export function NoteEditor({
 }: NoteEditorProps) {
   const initialState = useMemo(() => JSON.stringify(normaliseForLexical(editorJson)), [editorJson])
   const locallyEmittedStates = useRef(new Set<string>())
-  const [zoom, setZoom] = usePersistentState<number>('synapse.notebook.zoom', 100)
+  const [zoom, setZoom] = usePersistentState<number>('nishany.notebook.zoom', 100)
   const [drawEnabled, setDrawEnabled] = useState(false)
   const [drawTool, setDrawTool] = useState<DrawTool>('pen')
   const [drawColor, setDrawColor] = useState<string>(DRAW_COLORS[0])
@@ -162,7 +162,7 @@ export function NoteEditor({
   return (
     <LexicalComposer
       initialConfig={{
-        namespace: 'SynapseNoteEditor',
+        namespace: 'NishanyNoteEditor',
         editorState: initialState,
         nodes: NOTE_NODES,
         theme,
@@ -400,7 +400,7 @@ export function NotePreview({ source, editorJson }: { source?: string; editorJso
   return (
     <LexicalComposer
       initialConfig={{
-        namespace: 'SynapseNoteReader',
+        namespace: 'NishanyNoteReader',
         editable: false,
         editorState: initialState,
         nodes: NOTE_NODES,

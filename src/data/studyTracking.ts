@@ -37,7 +37,7 @@ export interface StudyTrackingSettings {
   highlightBehavior: boolean
 }
 
-export const STUDY_TRACKING_SETTINGS_KEY = 'synapse.admin.studyTrackingSettings.v1'
+export const STUDY_TRACKING_SETTINGS_KEY = 'nishany.admin.studyTrackingSettings.v1'
 
 export const DEFAULT_STUDY_TRACKING_SETTINGS: StudyTrackingSettings = {
   answerChanges: true,

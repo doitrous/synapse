@@ -631,12 +631,12 @@ const liveCandidates = new Map()
 try {
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
-  for (const concept of live.states['synapse-concept-graph-v2']?.concepts ?? []) {
+  for (const concept of live.states['nishany-concept-graph-v2']?.concepts ?? []) {
     if (!concept?.id) continue
     liveIds.add(concept.id)
     if (concept.sourceCandidateIds?.length) liveCandidates.set(concept.id, new Set(concept.sourceCandidateIds))
   }
-  for (const item of live.states['synapse-admin-content-ledger-v4'] ?? []) if (item?.id) liveIds.add(item.id)
+  for (const item of live.states['nishany-admin-content-ledger-v4'] ?? []) if (item?.id) liveIds.add(item.id)
 } catch (reason) {
   notes.push(`live state could not be read (${reason.message}) — every ID looks new, so the stub-create check below cannot run`)
 }
@@ -864,8 +864,8 @@ if (kind === 'question') {
   // failure this whole branch exists to catch.
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
-  const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
-  const ledger = live.states['synapse-admin-content-ledger-v4'] ?? []
+  const concepts = new Map((live.states['nishany-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
+  const ledger = live.states['nishany-admin-content-ledger-v4'] ?? []
   const articles = new Map(ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item]))
   const resources = new Set(ledger.filter((item) => item.kind === 'resource').map((item) => item.id))
 
@@ -1027,7 +1027,7 @@ if (kind === 'practical') {
   // batch directory.
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
-  const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
+  const concepts = new Map((live.states['nishany-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
   await foldInSiblings(concepts)
 
   const known = importFieldKeys('practical')

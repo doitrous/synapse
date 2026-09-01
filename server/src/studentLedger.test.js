@@ -550,7 +550,7 @@ describe('The media library a student receives', () => {
   })
 
   test('the media key is redacted on the way out', () => {
-    assert.equal(REDACTED_STATE_KEYS.get('synapse-media-library-v1'), redactMediaForStudent)
+    assert.equal(REDACTED_STATE_KEYS.get('nishany-media-library-v1'), redactMediaForStudent)
   })
 
   test('every field of MediaRecord is classified, so a new one cannot leak by being forgotten', async () => {

@@ -50,7 +50,7 @@ export function AcademicSetup() {
   const [contentItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [conceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [curricula, setCurricula, curriculaStatus] = usePersistentState<Record<string, CourseCurriculumSelection>>(COURSE_CURRICULA_STORAGE_KEY, {})
-  const [schedules, setSchedules, scheduleStatus] = usePersistentState<ModuleScheduleStore>('synapse-module-schedules-v1', {})
+  const [schedules, setSchedules, scheduleStatus] = usePersistentState<ModuleScheduleStore>('nishany-module-schedules-v1', {})
   const [subjects, setSubjects, subjectStatus] = usePersistentState<ModuleSubjectStore>(MODULE_SUBJECTS_STORAGE_KEY, {})
   const [selectedId, setSelectedId] = useState(unis[0]?.id ?? '')
   const [addingUni, setAddingUni] = useState(false)

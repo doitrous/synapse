@@ -18,16 +18,16 @@ if (approval !== requiredMigrationId) {
 
 const stateEntries = Object.entries(launch.states)
 const expectedStateKeys = new Set([
-  'synapse-academic-universities-v1',
-  'synapse-course-curricula-v1',
-  'synapse-module-schedules-v1',
-  'synapse-taxonomy-tree-v4',
-  'synapse-medical-library-taxonomy-v1',
-  'synapse-admin-content-ledger-v4',
-  'synapse-concept-graph-v2',
-  'synapse-medical-evidence-v1',
-  'synapse-medical-evidence-published-v1',
-  'synapse-relation-types-v1',
+  'nishany-academic-universities-v1',
+  'nishany-course-curricula-v1',
+  'nishany-module-schedules-v1',
+  'nishany-taxonomy-tree-v4',
+  'nishany-medical-library-taxonomy-v1',
+  'nishany-admin-content-ledger-v4',
+  'nishany-concept-graph-v2',
+  'nishany-medical-evidence-v1',
+  'nishany-medical-evidence-published-v1',
+  'nishany-relation-types-v1',
 ])
 if (stateEntries.length !== expectedStateKeys.size || stateEntries.some(([key]) => !expectedStateKeys.has(key))) {
   throw new Error('Launch package state-key allowlist validation failed')
@@ -38,7 +38,7 @@ if (launch.report?.universities !== 12 || launch.report?.years !== 84 || launch.
 if (launch.report?.articles !== 10 || launch.report?.concepts !== 98 || launch.report?.claims !== 110 || launch.report?.relations !== 25 || launch.report?.resources !== 15) {
   throw new Error('Reviewed cardiovascular package count validation failed')
 }
-const conceptGraph = launch.states['synapse-concept-graph-v2']
+const conceptGraph = launch.states['nishany-concept-graph-v2']
 if (!conceptGraph?.concepts?.length || conceptGraph.concepts.some((concept) => !(concept.resourceIds || []).length)) {
   throw new Error('Every reviewed concept must list at least one source resource')
 }

@@ -50,7 +50,7 @@ reminders are Phase 2 and Phase 3.
   `qbank_attempts` by `(university_id, year, term)` (`server/src/studentLedger.js`).
   We follow the same shape for a QotD-specific board.
 - **Published questions** come from the redacted admin content ledger
-  (`synapse-admin-content-ledger-v4`), read client-side via
+  (`nishany-admin-content-ledger-v4`), read client-side via
   `usePublishedQuestions()`; server marking uses `publishedQuestions()` +
   `questionKey.js`. `Question.id` = `ManagedContentItem.id`.
 - **`seededRandom(seed:number)` + `shuffle(items, rng)`**
@@ -129,10 +129,10 @@ The separate-track ledger and the substrate for streaks / leaderboard / friends.
   existing key map), never trusting a client `correct` flag — same trust model
   as `qbank_attempts`.
 - Demo mode (no server): the answer + streak live in a user-owned `app_state`
-  document (`synapse.qotd.answers.v1`); leaderboard/friends render empty, the
+  document (`nishany.qotd.answers.v1`); leaderboard/friends render empty, the
   same graceful degradation parties/leaderboards already use.
 
-### 6b. `synapse-qotd-pins-v1` (new shared app_state document)
+### 6b. `nishany-qotd-pins-v1` (new shared app_state document)
 
 Admin overrides only. Small and separate from the 23 MB content ledger.
 
@@ -180,7 +180,7 @@ is unit-tested independently.
 ## 9. Admin override surface
 
 A lightweight admin control to pin a question for a `date + cohort`, writing
-`synapse-qotd-pins-v1`. v1: a small section within an existing admin questions
+`nishany-qotd-pins-v1`. v1: a small section within an existing admin questions
 surface (or a compact new tab if cleaner), gated by `requireConsole`. Auto
 selection is the default; the pin is checked first (§4 step 1).
 
@@ -207,7 +207,7 @@ selection is the default; the pin is checked first (§4 step 1).
 
 ## 11. Separate-track guarantee
 
-QotD answers land **only** in `qotd_answers` (live) or `synapse.qotd.answers.v1`
+QotD answers land **only** in `qotd_answers` (live) or `nishany.qotd.answers.v1`
 (demo). They never call `useRecordAttempt`, never write mastery / SRS, never
 touch `qbank_attempts`. A student can meet the same question later in the normal
 qbank with no "already answered" state. The guarantee is structural (a separate
@@ -234,14 +234,14 @@ Lane A must land the shared contract first; B/C/D then run in parallel.
 - **Lane A — Contract & selector (foundation, lands first).**
   `hash32` helper, `qotdSelection.ts` (deterministic selector, pool scoping,
   cohort key), `computeStreak.ts`, and the shared TypeScript types for the API
-  payloads + `synapse-qotd-pins-v1` shape. All pure, all unit-tested. Everything
+  payloads + `nishany-qotd-pins-v1` shape. All pure, all unit-tested. Everything
   else imports these.
 - **Lane B — Server.** `server/src/qotd.js` + the `qotd_answers` table
   migration + the four endpoints + server tests. Imports Lane A types/marking.
 - **Lane C — Student UI.** `useQotd`, the QotD page, dashboard card, nav entry
   + nudge badge, share card. Imports Lane A; talks to Lane B via `api.ts`
   (mockable so C doesn't block on B).
-- **Lane D — Admin override.** Admin pin surface writing `synapse-qotd-pins-v1`.
+- **Lane D — Admin override.** Admin pin surface writing `nishany-qotd-pins-v1`.
   Imports Lane A.
 - **Integration pass (orchestrator).** Wire routes, run typecheck + full test
   suite, verify in the browser preview, then a `requesting-code-review` pass.

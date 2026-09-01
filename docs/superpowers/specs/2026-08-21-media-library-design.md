@@ -48,7 +48,7 @@ Settled during brainstorming; not open in planning.
 |---|---|
 | Where bytes live | The **existing persistent volume**, `RESOURCE_STORAGE_DIR` (`/data/medical-library`), as a third sibling beside `medical-resources` and `my-documents`. No new infrastructure, no new credentials. |
 | Storage layout | **Content-addressed**: `media/<aa>/<bb>/<sha256>.<ext>`. |
-| Metadata | A new app_state document, `synapse-media-library-v1`, owned by the **Resources & Media** tab — which exists and which reviewers already hold. |
+| Metadata | A new app_state document, `nishany-media-library-v1`, owned by the **Resources & Media** tab — which exists and which reviewers already hold. |
 | Duplicate uploads | **Bytes dedupe; records do not.** The uploader is told the identical image already exists and offered it. |
 | What counts as "uploaded" | The **student's own `QuestionView` component**, re-fetching from the server and rendering the image in its slot. A rendering, not a sentence. |
 | Question media slots | **Stem, each answer A–F, and the explanation.** |

@@ -11,7 +11,7 @@ import { MEDIA_STATE_KEY, emptyMediaLibrary, type MediaLibraryDocument, type Med
 /**
  * An image that exists only in one browser.
  *
- * `synapse-media:` references were written to IndexedDB, so they render for
+ * `nishany-media:` references were written to IndexedDB, so they render for
  * whoever uploaded them and for nobody else — including that same person on a
  * different machine. Saying so where the image appears is the whole point: this
  * was invisible, which is why it survived.

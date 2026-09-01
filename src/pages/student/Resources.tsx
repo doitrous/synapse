@@ -57,7 +57,7 @@ import { filesOf, imagesOf, INITIAL_BOARD, type BoardState } from '@/data/whiteb
 const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
 
 /** Dotted, so `isUserOwnedState` routes bookmarks to the student's own record. */
-const SAVED_RESOURCES_STORAGE_KEY = 'synapse.bookmarks.resources.v1'
+const SAVED_RESOURCES_STORAGE_KEY = 'nishany.bookmarks.resources.v1'
 
 /**
  * Turn a recorded location into a PDF viewer fragment.
@@ -80,7 +80,7 @@ export function Resources() {
   const [section, setSection] = useState<'pdf' | 'video' | 'mine'>('mine')
   // Kept per device: how someone wants their resources laid out is not a
   // per-visit decision, and this reset to System on every mount.
-  const [groupBy, setGroupBy] = useLocalChoice('synapse.resources.groupBy', 'module', ['system', 'module'] as const)
+  const [groupBy, setGroupBy] = useLocalChoice('nishany.resources.groupBy', 'module', ['system', 'module'] as const)
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const [query, setQuery] = useState(params.get('q') ?? '')
   const [type, setType] = useState<ResourceType | 'all'>('all')
@@ -88,7 +88,7 @@ export function Resources() {
   const [uni, setUni] = useState('all')
   const [year, setYear] = useState('all')
   const [savedOnly, setSavedOnly] = useState(false)
-  const [filtersOpen, setFiltersOpen] = useLocalPreference('synapse.resources.filters', true)
+  const [filtersOpen, setFiltersOpen] = useLocalPreference('nishany.resources.filters', true)
   /** The row whose "no file uploaded" reference is currently expanded. */
   const [referenceOnlyId, setReferenceOnlyId] = useState<string | null>(null)
   const activeFilters = [query.trim() !== '', type !== 'all', subject !== 'all', uni !== 'all', year !== 'all', savedOnly]
@@ -567,8 +567,8 @@ function MyUploads() {
   const t = useT()
   const navigate = useNavigate()
   const documents = useMyDocuments()
-  const [notes] = usePersistentState<Note[]>('synapse.notebook.notes', initialNotes)
-  const [board] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
+  const [notes] = usePersistentState<Note[]>('nishany.notebook.notes', initialNotes)
+  const [board] = usePersistentState<BoardState>('nishany.whiteboard.board', INITIAL_BOARD)
   const [busy, setBusy] = useState<number | null>(null)
   const [failure, setFailure] = useState<string | null>(null)
   const [mediaOpen, setMediaOpen] = useState(false)

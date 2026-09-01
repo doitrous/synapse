@@ -11,7 +11,7 @@ import { EMPTY_GLOSSARY, GLOSSARY_STORAGE_KEY, starterGlossary, type GlossaryDoc
  * mode — that would rewrite the document every time an admin opened the page,
  * silently reverting their corrections.
  *
- * `synapse-medical-glossary-v1` is on the server's student-readable allowlist,
+ * `nishany-medical-glossary-v1` is on the server's student-readable allowlist,
  * so students read it and only an admin can write it.
  */
 export function useMedicalGlossary() {

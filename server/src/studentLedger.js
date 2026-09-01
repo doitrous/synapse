@@ -511,7 +511,7 @@ export function redactMediaForStudent(document) {
  * keys an admin has published. `studentUniversityProjection` in `academic.js`
  * already withholds a module's blocks from its own student-facing projection
  * until that flag is set; this document was never supposed to bypass that by
- * being independently readable at `/api/state/synapse-module-schedules-v1`,
+ * being independently readable at `/api/state/nishany-module-schedules-v1`,
  * which returns the store as stored — every module's blocks, published or not.
  *
  * This applies the identical rule at the one other place blocks leave the
@@ -533,7 +533,7 @@ export function redactModuleSchedulesForStudent(document) {
 
 /** The keys that need redacting on the way out, by key name. */
 export const REDACTED_STATE_KEYS = new Map([
-  ['synapse-admin-content-ledger-v4', redactLedgerForStudent],
+  ['nishany-admin-content-ledger-v4', redactLedgerForStudent],
   [MEDIA_STATE_KEY, redactMediaForStudent],
   [SCHEDULE_KEY, redactModuleSchedulesForStudent],
 ])

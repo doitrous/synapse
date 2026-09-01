@@ -291,7 +291,7 @@ function CurriculumView({
         <Panel>
           <EmptyState
             icon={MapPinned}
-            title="Tell Synapse where you study"
+            title="Tell Nishany where you study"
             description="Add your university and year to your account, and this page will fill in with your own modules and timetable."
             action={<ButtonLink to="/app/account" variant="primary">Open account settings</ButtonLink>}
           />

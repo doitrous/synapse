@@ -10,7 +10,7 @@
  * server, which works out what a client changed by comparing documents.
  */
 
-export const LIBRARY_TREES_STATE_KEY = 'synapse-library-trees-v1'
+export const LIBRARY_TREES_STATE_KEY = 'nishany-library-trees-v1'
 
 export type LibraryTreeKind = 'module' | 'year'
 /** `module:MOD_CVS` or `year:OMS_Y2`. The key a tree is stored under. */

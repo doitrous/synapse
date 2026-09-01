@@ -31,7 +31,7 @@ import type { LandingContent } from './content'
  * engines index. So this is a strip, dismissible, remembered per device.
  */
 function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: string }) {
-  const [dismissed, setDismissed] = useLocalPreference('synapse.landing.langOffer.dismissed', false)
+  const [dismissed, setDismissed] = useLocalPreference('nishany.landing.langOffer.dismissed', false)
   const [prefersOther, setPrefersOther] = useState(false)
 
   useEffect(() => {

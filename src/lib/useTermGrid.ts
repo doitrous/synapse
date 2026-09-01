@@ -1,7 +1,7 @@
 import { useCallback } from 'react'
 import { usePersistentState } from './usePersistentState'
 
-const TERM_GRID_STORAGE_KEY = 'synapse.termgrid.progress.v1'
+const TERM_GRID_STORAGE_KEY = 'nishany.termgrid.progress.v1'
 
 /**
  * One puzzle's progress: what a student typed, and which words they gave up

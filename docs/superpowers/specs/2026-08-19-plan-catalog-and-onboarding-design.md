@@ -93,7 +93,7 @@ export interface PlanCatalog {
   plans: CatalogPlan[]
 }
 
-export const PLAN_CATALOG_STORAGE_KEY = 'synapse-plan-catalog-v1'
+export const PLAN_CATALOG_STORAGE_KEY = 'nishany-plan-catalog-v1'
 ```
 
 `comingSoon` exists at two levels because the two cases are different: a period
@@ -128,9 +128,9 @@ data leaves.
 On first read, if `PLAN_CATALOG_STORAGE_KEY` is empty, the catalog is seeded from
 the current English and Arabic `content.ts` plans joined by id, with
 `quarterly → term` and `monthly/yearly` kept. Any plan present in the stored
-`synapse-plans-v1` `PlanDef[]` but absent from the seed is carried over as a
+`nishany-plans-v1` `PlanDef[]` but absent from the seed is carried over as a
 `secondary`, English-only plan with its Arabic left equal to its English, so an
-admin's existing edits are not silently dropped. `synapse-plans-v1` is left in
+admin's existing edits are not silently dropped. `nishany-plans-v1` is left in
 place, unread, so the migration can be re-run and a rollback loses nothing.
 
 Seeding also applies the changes requested: periods become `1 month`, `1 term`,

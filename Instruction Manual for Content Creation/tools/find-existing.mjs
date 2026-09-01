@@ -50,9 +50,9 @@ const rows = []
 
 if (existsSync(LIVE)) {
   const live = JSON.parse(readFileSync(LIVE, 'utf8'))
-  const graph = live.states['synapse-concept-graph-v2'] ?? { concepts: [] }
-  const ledger = live.states['synapse-admin-content-ledger-v4'] ?? []
-  const glossary = live.states['synapse-medical-glossary-v1'] ?? { terms: [] }
+  const graph = live.states['nishany-concept-graph-v2'] ?? { concepts: [] }
+  const ledger = live.states['nishany-admin-content-ledger-v4'] ?? []
+  const glossary = live.states['nishany-medical-glossary-v1'] ?? { terms: [] }
 
   for (const concept of graph.concepts) {
     const aliases = concept.aliases ?? []
@@ -71,7 +71,7 @@ if (existsSync(LIVE)) {
   // Evidence is searched too, because 03-relationships tells you to reuse an
   // existing claim before authoring one, and a rule with no tooling is a rule
   // nobody follows.
-  const evidence = live.states['synapse-medical-evidence-v1'] ?? {}
+  const evidence = live.states['nishany-medical-evidence-v1'] ?? {}
   for (const claim of evidence.claims ?? []) {
     if (hit(claim.displayText) || hit(claim.subject) || hit(claim.object)) {
       rows.push(['live claim', claim.id, claim.displayText ?? '', claim.verificationStatus ?? ''])

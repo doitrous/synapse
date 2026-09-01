@@ -98,7 +98,7 @@ export interface PlanCatalog {
  * plan records retained only so existing subscriptions continue to resolve.
  */
 export const PLAN_CATALOG_SCHEMA_VERSION = 2
-export const PLAN_CATALOG_STORAGE_KEY = 'synapse-plan-catalog-v1'
+export const PLAN_CATALOG_STORAGE_KEY = 'nishany-plan-catalog-v1'
 export const MARISTANA_PLAN_ID = 'maristana'
 export const DEFAULT_PURCHASE_PERIOD_ID = 'term'
 

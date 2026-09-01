@@ -7,7 +7,7 @@
  *     --env-file=/path/to/.env.local
  *
  * Apply (versioned API, AAL2 super-admin token required):
- *   MEDICAL_API_BASE=https://synapse.example MEDICAL_API_TOKEN=... \
+ *   MEDICAL_API_BASE=https://nishany.example MEDICAL_API_TOKEN=... \
  *   node --experimental-strip-types scripts/reset-published-content-visibility.mjs \
  *     --apply --confirm-digest=<digest-from-dry-run>
  *
@@ -22,7 +22,7 @@ import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 import { resetPublishedContentVisibility } from '../src/data/contentVisibilityReset.ts'
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
 const args = process.argv.slice(2)
 const flag = (name) => args.includes(name)
 const option = (name) => args.find((entry) => entry.startsWith(`${name}=`))?.slice(name.length + 1)
@@ -179,7 +179,7 @@ if (!planned.targetIds.length) {
   process.exit(0)
 }
 
-const backupDir = await mkdtemp(join(tmpdir(), 'synapse-content-visibility-'))
+const backupDir = await mkdtemp(join(tmpdir(), 'nishany-content-visibility-'))
 const backupPath = join(backupDir, `ledger-${beforeDigest.slice(0, 12)}.json`)
 await writeFile(backupPath, `${JSON.stringify({ takenAt: new Date().toISOString(), version: snapshot.version, digest: beforeDigest, value: snapshot.value }, null, 1)}\n`, { mode: 0o600 })
 console.log(`recovery snapshot: ${backupPath}`)

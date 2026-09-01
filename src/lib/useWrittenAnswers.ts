@@ -2,12 +2,12 @@ import { useCallback } from 'react'
 import { usePersistentState } from './usePersistentState'
 import type { WrittenTicks } from '@/data/writtenQuestion'
 
-const WRITTEN_ANSWERS_STORAGE_KEY = 'synapse.written.answers.v1'
+const WRITTEN_ANSWERS_STORAGE_KEY = 'nishany.written.answers.v1'
 
 /**
  * One student's attempt at one written exam question.
  *
- * Kept apart from `synapse.essay.answers.v1` rather than folded into it,
+ * Kept apart from `nishany.essay.answers.v1` rather than folded into it,
  * because the shapes differ where it matters: an essay is one prompt with one
  * list of key points, while a written exam question is several parts, each
  * carrying its own marks and its own mark scheme. Storing per-part ticks under

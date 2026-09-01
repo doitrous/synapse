@@ -38,9 +38,9 @@ test('only faults that might pass on a second try are retried', () => {
 })
 
 test('an ApiError keeps the status and path it was built from', () => {
-  const error = new ApiError(403, 'PUT /state/synapse-vouchers-v1')
+  const error = new ApiError(403, 'PUT /state/nishany-vouchers-v1')
   assert.equal(error.status, 403)
-  assert.equal(error.path, 'PUT /state/synapse-vouchers-v1')
+  assert.equal(error.path, 'PUT /state/nishany-vouchers-v1')
   assert.match(error.message, /403/)
   assert.ok(error instanceof Error)
 })

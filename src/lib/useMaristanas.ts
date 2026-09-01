@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { API_MODE, apiGet, apiSend } from './api'
 import { DEMO_MARISTANA_OVERVIEW, type MaristanaOverview } from '@/data/maristanas'
 
-export const MARISTANA_PROGRESS_EVENT = 'synapse:maristana-progress'
+export const MARISTANA_PROGRESS_EVENT = 'nishany:maristana-progress'
 
 export function useMaristanas() {
   const [data, setData] = useState<MaristanaOverview | null>(API_MODE ? null : DEMO_MARISTANA_OVERVIEW)

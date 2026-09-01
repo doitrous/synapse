@@ -4,7 +4,7 @@ import { PLAN_CATALOG_SCHEMA_VERSION, PLAN_CATALOG_STORAGE_KEY, type PlanCatalog
 import { resolvePlanCatalog, type LegacyPlanDef } from '@/data/planCatalogSeed'
 
 /** The key the previous, admin-editable plan list was stored under. */
-const LEGACY_PLANS_STORAGE_KEY = 'synapse-plans-v1'
+const LEGACY_PLANS_STORAGE_KEY = 'nishany-plans-v1'
 
 /**
  * The one plan catalogue, for the landing page, Billing, and the admin console.

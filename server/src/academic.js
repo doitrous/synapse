@@ -1,20 +1,20 @@
 import { createHash } from 'node:crypto'
 
 export const ACADEMIC_STATE_KEYS = [
-  'synapse-academic-universities-v1',
-  'synapse-course-curricula-v1',
-  'synapse-module-schedules-v1',
-  'synapse-module-subjects-v1',
-  'synapse-assessment-schemes-v1',
-  'synapse-academic-source-provenance-v1',
+  'nishany-academic-universities-v1',
+  'nishany-course-curricula-v1',
+  'nishany-module-schedules-v1',
+  'nishany-module-subjects-v1',
+  'nishany-assessment-schemes-v1',
+  'nishany-academic-source-provenance-v1',
 ]
 
-export const UNIVERSITY_KEY = 'synapse-academic-universities-v1'
-export const CURRICULA_KEY = 'synapse-course-curricula-v1'
-export const SCHEDULE_KEY = 'synapse-module-schedules-v1'
-export const SUBJECTS_KEY = 'synapse-module-subjects-v1'
-export const ASSESSMENT_SCHEMES_KEY = 'synapse-assessment-schemes-v1'
-export const PROVENANCE_KEY = 'synapse-academic-source-provenance-v1'
+export const UNIVERSITY_KEY = 'nishany-academic-universities-v1'
+export const CURRICULA_KEY = 'nishany-course-curricula-v1'
+export const SCHEDULE_KEY = 'nishany-module-schedules-v1'
+export const SUBJECTS_KEY = 'nishany-module-subjects-v1'
+export const ASSESSMENT_SCHEMES_KEY = 'nishany-assessment-schemes-v1'
+export const PROVENANCE_KEY = 'nishany-academic-source-provenance-v1'
 
 const DEFAULT_TERM = 'Term 1'
 const HIDDEN_STATES = new Set(['draft', 'conflicted'])

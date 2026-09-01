@@ -18,8 +18,8 @@ import { buildDemoStudentUniversityProjection, type StudentUniversityProjection 
  * being duplicated a second time.
  */
 
-const MODULE_SCHEDULE_STORAGE_KEY = 'synapse-module-schedules-v1'
-const ASSESSMENT_SCHEMES_STORAGE_KEY = 'synapse-assessment-schemes-v1'
+const MODULE_SCHEDULE_STORAGE_KEY = 'nishany-module-schedules-v1'
+const ASSESSMENT_SCHEMES_STORAGE_KEY = 'nishany-assessment-schemes-v1'
 
 export interface StudentCurriculumProjectionState {
   projection: StudentUniversityProjection | null

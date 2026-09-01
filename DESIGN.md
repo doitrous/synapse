@@ -1,14 +1,14 @@
-# Design — Connect Cortex · "The Clinical Chart"
+# Design — Nishany · "The Clinical Chart"
 
 The visual language of medicine's own instruments: ruled vitals charts, graph/ECG
 paper, formulary tables, fine anatomical line-work. Light-first, built for long
 reading. No glass, no decorative gradients, no glow.
 
-This is the **Connect Cortex Design System**, the rebrand of the product formerly
+This is the **Nishany Design System**, the rebrand of the product formerly
 named Synapse. The architecture, interaction model and component inventory carry
 over intact; the identity is new. The palette is a **restrained two-hue brand**
-taken from the split-hemisphere mark: **cortex crimson** is the right hemisphere
-and the working accent (actions, active navigation, selection, meters), **cortex
+taken from the split-hemisphere mark: **Nishan crimson** is the right hemisphere
+and the working accent (actions, active navigation, selection, meters), **Field
 blue** the left and the secondary, structural one (sources, concept chips,
 answered-state markers, categorical marks). Deliberately the reverse of the
 medical-software default, where blue is heavily overused.
@@ -37,9 +37,9 @@ Values below are the **light** theme, which is the reference ground; `warm` and
 | Faint ink (large/decorative) | `--color-ink-3` | `#949aa8` |
 | Hairline / rule | `--color-line` / `--color-line-2` | `#e3e7ef` / `#ccd3e0` |
 | Chart grid | `--color-grid` / `--color-grid-major` | `#e8ecf4` / `#dbe1ec` |
-| **Primary (cortex crimson)** | `--color-primary` | `#d13a63` (hover `-hover #b62d55`, text-on-tint `-strong #a82449`, tint `-tint #fff5f5`) |
+| **Primary (Nishan crimson)** | `--color-primary` | `#d13a63` (hover `-hover #b62d55`, text-on-tint `-strong #a82449`, tint `-tint #fff5f5`) |
 | On primary | `--color-on-primary` | `#ffffff` — 4.67:1 on the fill, clears AA |
-| **Accent (cortex blue)** | `--color-accent` | `#1553b3` (`-strong #0e3f8c`, `-tint #eaf1fd`) |
+| **Accent (Field blue)** | `--color-accent` | `#1553b3` (`-strong #0e3f8c`, `-tint #eaf1fd`) |
 | Success / Warning / Danger | `--color-success/warning/danger` | `#1a6e56` / `#8a5a0a` / `#a8121e` (+ `-tint`) — functional only |
 | Heatmap ramp | `--color-scale-0…5` | `#e8ecf4 → #a82449` (ground → crimson) |
 
@@ -249,7 +249,7 @@ ground the palette is built around.
   sensor noise — and the heatmap ramp ascends in brightness, because on a dark
   ground "more" has to mean lighter.
 
-The theme preference key remains `synapse-theme`: it is the address of a setting
+The theme preference key remains `nishany-theme`: it is the address of a setting
 every existing reader already has on disk, not a piece of branding. The same is
 true of every `synapse.*` storage key, the server state paths, and the
 `synapse.doitrous.com` / `adminsynapse.doitrous.com` hostnames — none were renamed

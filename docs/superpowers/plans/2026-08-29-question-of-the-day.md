@@ -14,7 +14,7 @@
 
 - **No new npm dependencies.** Everything uses what `package.json` already has.
 - **Tests are pure-logic `*.test.ts` (client) / `*.test.js` (server)**, co-located, run by `node --test`. There is no React/DOM test harness — keep all testable logic out of components and in Lane A/B modules.
-- **Separate track is structural:** QotD answers write ONLY to `qotd_answers` (live) or the `synapse.qotd.answers.v1` user-state document (demo). They must never call `useRecordAttempt`, write mastery/SRS, or insert into `qbank_attempts`.
+- **Separate track is structural:** QotD answers write ONLY to `qotd_answers` (live) or the `nishany.qotd.answers.v1` user-state document (demo). They must never call `useRecordAttempt`, write mastery/SRS, or insert into `qbank_attempts`.
 - **Cohort identity = `{ universityId, year-label }`** (e.g. `{ 'kau', 'Year 2' }`) for people/answers; **year _id_** (e.g. `KAU_...`) is what content is tagged with for scoping. Do not conflate them.
 - **Timezone is Africa/Cairo, fixed**, for every "today"/date computation, so a cohort rolls over together.
 - **Live vs demo mode** is `API_MODE` from `src/lib/api.ts` (`Boolean(import.meta.env.VITE_API_BASE)`). Server is authoritative when live; client selects locally when demo.
@@ -50,7 +50,7 @@
 - Modify the student nav (AppShell nav registry — see Task C5) — add QotD entry + unanswered badge.
 
 **Lane D — admin override (`src/`)**
-- Create `src/lib/useQotdPins.ts` — read/write `synapse-qotd-pins-v1`.
+- Create `src/lib/useQotdPins.ts` — read/write `nishany-qotd-pins-v1`.
 - Create `src/components/admin/QotdPinPanel.tsx` — pin editor.
 - Mount it in an existing admin questions surface (see Task D2).
 
@@ -468,10 +468,10 @@ git commit -m "feat(qotd): streak computation from answered dates"
 // src/data/qotdTypes.ts
 
 /** Shared app_state document of admin pins. cohortKey → isoDate → questionId. */
-export const QOTD_PINS_KEY = 'synapse-qotd-pins-v1'
+export const QOTD_PINS_KEY = 'nishany-qotd-pins-v1'
 
 /** User-owned demo-mode answer log (localStorage in demo, user_state in live-unused). */
-export const QOTD_LOCAL_ANSWERS_KEY = 'synapse.qotd.answers.v1'
+export const QOTD_LOCAL_ANSWERS_KEY = 'nishany.qotd.answers.v1'
 
 /** One locally-stored answer in demo mode. */
 export interface QotdLocalAnswer {
@@ -661,8 +661,8 @@ import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { publishedQuestions } from './publishedQuestions.js'
 
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
-const PINS_KEY = 'synapse-qotd-pins-v1'
+const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
+const PINS_KEY = 'nishany-qotd-pins-v1'
 const HISTORY_LIMIT = 60
 
 export function hashText(input) {
@@ -1110,7 +1110,7 @@ git commit -m "feat(qotd): register /app/qotd route"
 - Modify: `src/pages/student/QuestionOfTheDay.tsx` (add the share control)
 
 **Interfaces:**
-- Consumes: the existing share plumbing — inspect `src/components/share/` and `src/lib/useShares.ts` for how other surfaces produce a shareable card; reuse it. If sharing is a Web Share / copy-link affordance, produce text like `` `Got today's Synapse question — ${current}-day streak 🔥` `` with **no** answer/question text.
+- Consumes: the existing share plumbing — inspect `src/components/share/` and `src/lib/useShares.ts` for how other surfaces produce a shareable card; reuse it. If sharing is a Web Share / copy-link affordance, produce text like `` `Got today's Nishany question — ${current}-day streak 🔥` `` with **no** answer/question text.
 
 - [ ] **Step 1: Add the share button** that only appears once `answered`. It must never include the question stem or correct option (no spoilers). Prefer `navigator.share` when available, else copy-to-clipboard with a toast.
 
@@ -1176,7 +1176,7 @@ git commit -m "feat(qotd): dashboard card, nav entry, and unanswered nudge"
 
 ```bash
 git add src/lib/useQotdPins.ts
-git commit -m "feat(qotd): admin pins hook over synapse-qotd-pins-v1"
+git commit -m "feat(qotd): admin pins hook over nishany-qotd-pins-v1"
 ```
 
 ---
@@ -1194,7 +1194,7 @@ git commit -m "feat(qotd): admin pins hook over synapse-qotd-pins-v1"
 
 - [ ] **Step 2: Mount** it in `QuestionsSetup` behind the existing console gate (the page already renders only for authorised staff via the route guard). No new server auth needed — the shared-state write is gated by `requireConsole` server-side.
 
-- [ ] **Step 3: Verify** in preview (admin origin/localhost): set a pin for a cohort+date, confirm `synapse-qotd-pins-v1` receives it (check the network `PUT /api/state/synapse-qotd-pins-v1`), and that a student in that cohort then gets the pinned question (`GET /api/qotd/today` returns it).
+- [ ] **Step 3: Verify** in preview (admin origin/localhost): set a pin for a cohort+date, confirm `nishany-qotd-pins-v1` receives it (check the network `PUT /api/state/nishany-qotd-pins-v1`), and that a student in that cohort then gets the pinned question (`GET /api/qotd/today` returns it).
 
 - [ ] **Step 4: Commit**
 

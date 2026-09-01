@@ -13,8 +13,8 @@ import type { CardSchedule } from '@/data/srs'
  * never see each other's intervals.
  */
 
-const DECKS_KEY = 'synapse.flashcards.decks.v1'
-const DAILY_COUNTS_KEY = 'synapse.flashcards.dailyCounts.v1'
+const DECKS_KEY = 'nishany.flashcards.decks.v1'
+const DAILY_COUNTS_KEY = 'nishany.flashcards.dailyCounts.v1'
 
 export interface StoredDeck {
   id: string

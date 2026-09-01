@@ -13,7 +13,7 @@ import { useModuleLibraryContent } from '@/lib/useModuleLibraryContent'
  * Curriculum dialog has attached to it.
  *
  * This used to read a separate, hand-curated tree document
- * (`synapse-library-trees-v1`) that a faculty filed articles into by hand —
+ * (`nishany-library-trees-v1`) that a faculty filed articles into by hand —
  * a second, mostly-empty source of truth sitting beside the real one. Every
  * module a student is actually enrolled in already carries its coverage
  * through `useModuleLibraryContent` (curriculum coverage, the same source the

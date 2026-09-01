@@ -65,7 +65,7 @@ percentage and drops ease by 20**, and **ease never falls below 1.30**.
 
 ### 3 · A student's cards and their schedule are one document, and it is theirs
 
-`synapse.flashcards.decks.v1` holds the student's own decks and every card's
+`nishany.flashcards.decks.v1` holds the student's own decks and every card's
 schedule — including the schedule of cards that came from a premade deck.
 
 A premade deck is *content*; how well one student knows it is *theirs*. Keeping
@@ -73,7 +73,7 @@ the schedule with the student means an admin can correct a typo on a card
 without resetting anyone's progress, and two students studying the same deck
 never see each other's intervals.
 
-`synapse.flashcards.` is added to `USER_OWNED_PATTERNS` **and** to its
+`nishany.flashcards.` is added to `USER_OWNED_PATTERNS` **and** to its
 hand-maintained Swift port in `ios/Synapse/Core/Sync/StateOwnership.swift`,
 which must stay a direct port.
 

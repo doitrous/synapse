@@ -18,16 +18,16 @@ if (approval !== requiredMigrationId) {
 
 const stateEntries = Object.entries(launch.states)
 const expectedStateKeys = new Set([
-  'synapse-academic-universities-v1',
-  'synapse-course-curricula-v1',
-  'synapse-module-schedules-v1',
-  'synapse-taxonomy-tree-v4',
-  'synapse-medical-library-taxonomy-v1',
-  'synapse-admin-content-ledger-v4',
-  'synapse-concept-graph-v2',
-  'synapse-medical-evidence-v1',
-  'synapse-medical-evidence-published-v1',
-  'synapse-relation-types-v1',
+  'nishany-academic-universities-v1',
+  'nishany-course-curricula-v1',
+  'nishany-module-schedules-v1',
+  'nishany-taxonomy-tree-v4',
+  'nishany-medical-library-taxonomy-v1',
+  'nishany-admin-content-ledger-v4',
+  'nishany-concept-graph-v2',
+  'nishany-medical-evidence-v1',
+  'nishany-medical-evidence-published-v1',
+  'nishany-relation-types-v1',
 ])
 if (stateEntries.length !== expectedStateKeys.size || stateEntries.some(([key]) => !expectedStateKeys.has(key))) {
   throw new Error('Launch package state-key allowlist validation failed')
@@ -55,11 +55,11 @@ for (const [field, expected] of Object.entries(expectedCounts)) {
   if (report[field] !== expected) throw new Error(`Launch package ${field} count is ${report[field]}; expected ${expected}`)
 }
 
-const ledger = launch.states['synapse-admin-content-ledger-v4'] || []
+const ledger = launch.states['nishany-admin-content-ledger-v4'] || []
 const articles = ledger.filter((item) => item.kind === 'article')
-const conceptGraph = launch.states['synapse-concept-graph-v2'] || { concepts: [], relations: [] }
-const evidence = launch.states['synapse-medical-evidence-v1'] || { claims: [], citations: [], resources: [], articleSpans: [] }
-const publishedEvidence = launch.states['synapse-medical-evidence-published-v1'] || { claims: [], citations: [], resources: [], articleSpans: [] }
+const conceptGraph = launch.states['nishany-concept-graph-v2'] || { concepts: [], relations: [] }
+const evidence = launch.states['nishany-medical-evidence-v1'] || { claims: [], citations: [], resources: [], articleSpans: [] }
+const publishedEvidence = launch.states['nishany-medical-evidence-published-v1'] || { claims: [], citations: [], resources: [], articleSpans: [] }
 const claimById = new Map(evidence.claims.map((claim) => [claim.id, claim]))
 const publishedClaimById = new Map(publishedEvidence.claims.map((claim) => [claim.id, claim]))
 const publishedResourceById = new Map(publishedEvidence.resources.map((resource) => [resource.id, resource]))

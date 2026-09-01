@@ -77,7 +77,7 @@ export function ReaderShell() {
     t('This file could not be opened here.'),
   )
 
-  const [fit, setFit] = useLocalChoice<FitMode>('synapse.reader.fit', 'closer', FIT_MODES)
+  const [fit, setFit] = useLocalChoice<FitMode>('nishany.reader.fit', 'closer', FIT_MODES)
   const [scale, setScale] = useState(1)
   const [viewport, setViewport] = useState({ width: 0, height: 0 })
   const [current, setCurrent] = useState(1)

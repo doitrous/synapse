@@ -3,8 +3,8 @@
  * Stable IDs and text hashes survive Markdown reflow; visible line numbers are
  * only a convenience and are never treated as durable evidence locators.
  */
-export const MEDICAL_EVIDENCE_STORAGE_KEY = 'synapse-medical-evidence-v1'
-export const MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY = 'synapse-medical-evidence-published-v1'
+export const MEDICAL_EVIDENCE_STORAGE_KEY = 'nishany-medical-evidence-v1'
+export const MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY = 'nishany-medical-evidence-published-v1'
 
 export type VerificationState = 'verified' | 'needs_evidence' | 'conflicted' | 'excluded'
 export type MedicalRiskClass = 'foundational' | 'clinical' | 'time_sensitive' | 'treatment' | 'procedure' | 'emergency'

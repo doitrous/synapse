@@ -54,8 +54,8 @@ try {
 /* ---- existing content --------------------------------------------------- */
 
 const launch = JSON.parse(await readFile(join(root, 'server', 'data', 'medical-library-v1.json'), 'utf8'))
-const ledger = launch.states['synapse-admin-content-ledger-v4'] ?? []
-const graph = launch.states['synapse-concept-graph-v2'] ?? { concepts: [], relations: [] }
+const ledger = launch.states['nishany-admin-content-ledger-v4'] ?? []
+const graph = launch.states['nishany-concept-graph-v2'] ?? { concepts: [], relations: [] }
 const articles = ledger.filter((item) => item.kind === 'article')
 
 const VALID_SUBJECT_IDS = new Set(CURRICULUM_CATALOG.map((system) => system.id))
