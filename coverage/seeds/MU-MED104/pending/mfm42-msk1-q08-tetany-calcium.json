@@ -1,0 +1,50 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Physiology section), question on an existing Kasr 103-BMS concept id. Key read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Kasr-Source-Imports/concept/103-BMS-mcq-vitamins-nerve-concepts.md and docs/Kasr-Source-Imports/article/103-BMS-mcq-vitamins-nerve.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Physiology",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-103-PHY-NERVE-ACTION-POTENTIAL"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q8 (Menoufia MED104 MSK1 end-module exam, Physiology section)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q08",
+      "id": "QST-MUMED104-MFM42MSK1-Q08",
+      "title": "Ion whose extracellular fall causes tetany",
+      "question": "Decrease the extracellular concentration of which of the following ions to 50% of normal affects the discharge in the peripheral nerves and results in Tetany?",
+      "subject": "neuro",
+      "options": { "A": "Sodium", "B": "Potassium", "C": "Calcium", "D": "Magnesium", "E": "Chloride" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A fall in extracellular sodium mainly shrinks the size of the action potential, since sodium influx drives its upstroke, with comparatively little effect on the resting membrane potential; it is not the classic cause of tetany and does not raise membrane excitability the way low calcium does.",
+        "B": "Incorrect. Potassium governs the resting membrane potential rather than sodium permeability: a fall in extracellular potassium hyperpolarises the resting membrane and lowers excitability, producing weakness or paralysis (as in familial periodic paralysis), which is essentially the opposite clinical picture from the hyperexcitable tetany caused by low calcium.",
+        "C": "Correct. Extracellular calcium normally stabilises the nerve membrane by limiting its permeability to sodium; when extracellular calcium falls, sodium permeability rises, the membrane depolarises more easily toward the firing level, and nerves become hyperexcitable. This is precisely the mechanism of hypocalcaemic tetany — spontaneous, repetitive discharge in peripheral nerves producing the involuntary muscle spasms, such as carpopedal spasm, seen clinically.",
+        "D": "Incorrect. Magnesium does influence neuromuscular excitability, but it is not the ion whose membrane-stabilising, sodium-permeability-limiting mechanism this question describes; that role, and the hyperexcitability produced when the ion falls, is classically attributed to calcium in this system.",
+        "E": "Incorrect. Chloride conductance mainly affects membrane stability through its own permeability pathways rather than through the sodium-permeability mechanism described here, and a fall in extracellular chloride is not the textbook cause of tetany — that clinical picture is specifically tied to low extracellular calcium."
+      },
+      "main_concept": "CON-NEU-77596C8A899A7E",
+      "concept_ids": ["CON-NEU-77596C8A899A7E"],
+      "contextual_concept_ids": [],
+      "topic": "Physiology",
+      "subtopic": "Nerve excitability",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain how a fall in extracellular calcium raises nerve sodium permeability and produces hyperexcitability, and apply this to hypocalcaemic tetany.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p2 (Q8)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q8, Physiology section" },
+      "author_notes": ""
+    }
+  ]
+}

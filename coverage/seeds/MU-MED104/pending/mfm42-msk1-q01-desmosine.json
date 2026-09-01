@@ -1,0 +1,50 @@
+{
+  "lane": "MU-MED104",
+  "cluster": "med104-mfm42-end-msk1",
+  "header": "MU-MED104 pending-live · MFM 42 Support end-module MSK1 exam (Biochemistry section), question on an existing Kasr 102-INT concept id. Key read from the paired 'MFM42Support - Answers of MSK1 END.pdf' (red-text visual key, confirmed by render). Apply after docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md and docs/Kasr-Source-Imports/article/102-INT-biochemistry.md are live.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mu"],
+    "years": ["MU_Y1"],
+    "module": "MU-MED104",
+    "module_subject": "MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Biochemistry",
+    "exam_weight_by_year": { "MU_Y1": "moderate" },
+    "library_ids": ["ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX"],
+    "source_citation": "MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q1 (Menoufia MED104 MSK1 end-module exam, Biochemistry section)",
+    "setting": "Academic",
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "med104-mfm42-end-msk1-q01",
+      "id": "QST-MUMED104-MFM42MSK1-Q01",
+      "title": "Amino acid not present in collagen",
+      "question": "Which amino acid is not present in collagen?",
+      "subject": "fnd",
+      "options": { "A": "Proline", "B": "Hydroxyproline", "C": "Glycine", "D": "Desmosine", "E": "Lysine" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Proline is one of collagen's two signature amino acids, present at roughly one in three residues in its characteristic Gly-X-Y repeating sequence, so it is a normal constituent of collagen rather than an absent one. Its five-membered ring restricts rotation of the polypeptide backbone, which helps the triple helix hold its shape. It is therefore a defining amino acid of collagen, not the answer being sought here.",
+        "B": "Incorrect. Hydroxyproline is formed by post-translational hydroxylation of proline residues within the growing collagen chain and is present in far higher amounts in collagen than in almost any other protein in the body. Its hydroxyl group forms hydrogen bonds that stabilise the assembled triple helix, which is why a deficiency of vitamin C (needed for this hydroxylation) weakens collagen. Because it is a hallmark constituent of collagen, it cannot be the missing amino acid.",
+        "C": "Incorrect. Glycine occupies every third position of collagen's repeating Gly-X-Y sequence because its small side chain, a single hydrogen atom, is the only one that fits inside the crowded core of the triple helix. Without glycine at every third residue the three chains could not pack tightly enough to form the helix at all, making it collagen's most essential amino acid by proportion. It is present in the highest amount of any amino acid in collagen, not absent from it.",
+        "D": "Correct. Desmosine is not one of the twenty standard proteinogenic amino acids incorporated during translation; it is a unique cross-linking amino acid formed after synthesis from four lysine-derived side chains, and it occurs exclusively in elastin. This cross-link gives elastin its rubber-like, reversible stretch, a property collagen does not share, since collagen is instead stabilised by different, non-desmosine cross-links. Because desmosine is elastin-specific and never appears in collagen's amino acid composition, it is the correct answer.",
+        "E": "Incorrect. Lysine is present in collagen and, like proline, undergoes post-translational hydroxylation to hydroxylysine, whose hydroxyl group is a site for the carbohydrate side chains that make collagen a glycoprotein. Some of collagen's lysine and hydroxylysine residues are also enzymatically converted to aldehydes that form the cross-links stabilising collagen fibrils, a different chemistry from elastin's desmosine cross-links. It is therefore a genuine collagen constituent, not the missing amino acid."
+      },
+      "main_concept": "CON-FND-31F96EC2F609C9",
+      "concept_ids": ["CON-FND-31F96EC2F609C9"],
+      "contextual_concept_ids": [],
+      "topic": "Biochemistry",
+      "subtopic": "Collagen and elastin structure",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify desmosine as an elastin-specific cross-linking amino acid absent from collagen, and distinguish it from collagen's own signature amino acids.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "red-text render of MFM42Support - Answers of MSK1 END.pdf p1 (Q1)", "mu": "MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q1, Biochemistry section" },
+      "author_notes": ""
+    }
+  ]
+}

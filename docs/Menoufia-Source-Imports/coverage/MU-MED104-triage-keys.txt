@@ -1,11 +1,160 @@
-biochemistry.collagen-vs-elastin.desmosine-cross-link
-biochemistry.menkes-disease.lysyl-oxidase-defect
-biochemistry.ascorbic-acid.not-synthesized-in-humans
-physiology.calcium-absorption.ph-dependence
-biochemistry.vitamin-d.hormone-classification-criteria
-pathology.giant-cell-tumor-of-bone.osteoclastoma
-physiology.vitamin-d-activation.renal-1-alpha-hydroxylase
-pathology.osteomyelitis.sequestrum-dead-bone
-anatomy.adductor-canal.contents-vs-great-saphenous-vein
-anatomy.greater-trochanter-fracture.gluteus-maximus-spared
-anatomy.deep-posterior-compartment-leg.tibialis-posterior-plantarflexion-inversion
+# MU-MED104 triage keys — format med104-<paper-slug>-q<NN>, one per question.
+# Superseded the old concept-style key list (biochemistry.collagen-vs-elastin...)
+# from the S3 sample triage; those 11 questions are folded in below under their
+# real paper slugs (mfm42-end-msk1 q01/q03/q07/q08/q23/q25/q26/q27/q28 for the
+# MFM42Support pair's Biochem/Physio/Histology section — Q02/Q04/Q05/Q06 are the
+# ones still new/unminted; msk2-2019-g1 q01/q02/q03 for the giant-cell-tumor /
+# 1-alpha-hydroxylase / sequestrum trio; Final41 for the three lower-limb
+# anatomy questions from the watermark-trap bonus batch).
+#
+# Full triage pass, 2026-09-02 (chief-of-staff conditions 1-3): every one of the
+# 27 tier-1 paper files scanned — question count established via
+# `pagetext.mjs grep '^\s*[0-9]{1,3}[-.)]'` (cheap, no render) plus manual
+# numbering-format checks; near-duplicate files (identical header/word-count,
+# confirmed by direct read) are listed once and their duplicate filename noted
+# in a comment, not double-counted. Key-recovery method: red-text visual
+# markup, confirmed by rendering pages 1/2/7/8 of the paired "Answers of MSK1
+# END.pdf" (see coverage/MU-MED104-triage.md and pending-live/MU-MED104-
+# concepts-overlay.md). Every other keyed/unanswered paper below still needs
+# its own render pass — printed keys are visual-only across this whole corpus
+# (LANE-CARD.md §7), one render per source to confirm its own convention.
+
+## med104-mfm42-end-msk1 — MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf (28q, Biochem+Physio+Histology, no Anatomy images in this one paper) — key convention: red text, confirmed p1/p2/p7/p8
+med104-mfm42-end-msk1-q01
+med104-mfm42-end-msk1-q02
+med104-mfm42-end-msk1-q03
+med104-mfm42-end-msk1-q04
+med104-mfm42-end-msk1-q05
+med104-mfm42-end-msk1-q06
+med104-mfm42-end-msk1-q07
+med104-mfm42-end-msk1-q08
+med104-mfm42-end-msk1-q09
+med104-mfm42-end-msk1-q10
+med104-mfm42-end-msk1-q11
+med104-mfm42-end-msk1-q12
+med104-mfm42-end-msk1-q13
+med104-mfm42-end-msk1-q14
+med104-mfm42-end-msk1-q15
+med104-mfm42-end-msk1-q16
+med104-mfm42-end-msk1-q17
+med104-mfm42-end-msk1-q18
+med104-mfm42-end-msk1-q19
+med104-mfm42-end-msk1-q20
+med104-mfm42-end-msk1-q21
+med104-mfm42-end-msk1-q22
+med104-mfm42-end-msk1-q23
+med104-mfm42-end-msk1-q24
+med104-mfm42-end-msk1-q25
+med104-mfm42-end-msk1-q26
+med104-mfm42-end-msk1-q27
+med104-mfm42-end-msk1-q28
+
+## med104-msk1-2018-g1 — 01- MSK1 endmodule 2018 Group 1.pdf (30q, native text; dup: 00 Module-wide/07 EOY Exams/4_5764773235757417555.pdf, identical header/page/word count) — mostly Anatomy-image-heavy (numbered structures/diagrams), Biochem/Histo tail (q15-30) is text-only; key NOT yet recovered, no paired Answers file found among this paper's own tier-1 siblings — needs its own render pass
+med104-msk1-2018-g1-q01
+med104-msk1-2018-g1-q02
+med104-msk1-2018-g1-q03
+med104-msk1-2018-g1-q04
+med104-msk1-2018-g1-q05
+med104-msk1-2018-g1-q06
+med104-msk1-2018-g1-q07
+med104-msk1-2018-g1-q08
+med104-msk1-2018-g1-q09
+med104-msk1-2018-g1-q10
+med104-msk1-2018-g1-q11
+med104-msk1-2018-g1-q12
+med104-msk1-2018-g1-q13
+med104-msk1-2018-g1-q14
+med104-msk1-2018-g1-q15
+med104-msk1-2018-g1-q16
+med104-msk1-2018-g1-q17
+med104-msk1-2018-g1-q18
+med104-msk1-2018-g1-q19
+med104-msk1-2018-g1-q20
+med104-msk1-2018-g1-q21
+med104-msk1-2018-g1-q22
+med104-msk1-2018-g1-q23
+med104-msk1-2018-g1-q24
+med104-msk1-2018-g1-q25
+med104-msk1-2018-g1-q26
+med104-msk1-2018-g1-q27
+med104-msk1-2018-g1-q28
+med104-msk1-2018-g1-q29
+med104-msk1-2018-g1-q30
+
+## med104-msk1-2018-g2 — 02- MSK1 endmodule 2018 Group 2.pdf (30q, native text; dup: 00 Module-wide/06 EOM Exams/4_5764773235757417557.pdf, identical) — same shape as Group 1 (image-heavy Anatomy, text-only Biochem/Histo tail); includes Menkes disease (q19) — key NOT yet recovered
+med104-msk1-2018-g2-q01
+med104-msk1-2018-g2-q02
+med104-msk1-2018-g2-q03
+med104-msk1-2018-g2-q04
+med104-msk1-2018-g2-q05
+med104-msk1-2018-g2-q06
+med104-msk1-2018-g2-q07
+med104-msk1-2018-g2-q08
+med104-msk1-2018-g2-q09
+med104-msk1-2018-g2-q10
+med104-msk1-2018-g2-q11
+med104-msk1-2018-g2-q12
+med104-msk1-2018-g2-q13
+med104-msk1-2018-g2-q14
+med104-msk1-2018-g2-q15
+med104-msk1-2018-g2-q16
+med104-msk1-2018-g2-q17
+med104-msk1-2018-g2-q18
+med104-msk1-2018-g2-q19
+med104-msk1-2018-g2-q20
+med104-msk1-2018-g2-q21
+med104-msk1-2018-g2-q22
+med104-msk1-2018-g2-q23
+med104-msk1-2018-g2-q24
+med104-msk1-2018-g2-q25
+med104-msk1-2018-g2-q26
+med104-msk1-2018-g2-q27
+med104-msk1-2018-g2-q28
+med104-msk1-2018-g2-q29
+med104-msk1-2018-g2-q30
+
+## med104-msk2-2019-g1 — MSK2 endmodule exam group 1- model answer.pdf (32 MCQ + a short-answer section not counted; "model answer" filename = visual key, convention not yet confirmed by render on this specific file though its p1 stems were read directly). q01-q03 triaged in the S3 sample (giant cell tumor of bone=d NEW, renal 1-alpha-hydroxylase=b LIVE CON-END-1DE2C490ABBA64, sequestrum=b NEW)
+med104-msk2-2019-g1-q01
+med104-msk2-2019-g1-q02
+med104-msk2-2019-g1-q03
+# q04-q32: stems not yet read past p1; remaining
+
+## med104-msk2-2019-g2 — MSK2 endmodule exam group 2- model answer.pdf (~32-35 MCQ + short-answer section not counted) — not yet read past the header; remaining in full
+
+## med104-support43-end-msk — support 43 - End MSK.pdf (77 MCQ, native text, no paired Answers file found among tier-1 siblings) — remaining in full
+
+## med104-msk1-ends-finals — "MSK 1 Ends & Finals .pdf" (60p compiled bank spanning End38/39/40/41/42/43 sub-exams concatenated; Anatomy(Lower)+Biochemistry+Pathology sections; ~190 MCQ by raw numbering-pattern count, PLUS a short-answer/essay tail on the final page ("Enumerate", "Give reason" — out of MCQ scope). Numbering resets per sub-exam section, so the raw count is not yet deduped into individual q-keys; several of its Anatomy(lower) questions (adductor canal, greater trochanter/gluteus maximus) were sampled directly and are the "Bonus batch" trio below under Final41, not re-listed here since they were read from the watermarked EOY file, not this one — needs a full read+dedup pass before individual keys are minted
+# q01-~190: remaining, not yet deduped/keyed
+
+## med104-msk2-ends-finals — "MSK 2 Ends & Finals.pdf" (76p compiled bank, ~230 MCQ by raw numbering-pattern count; last section (Physiology, ending "During neuromuscular transmission") duplicates the standalone Physiology/06 EOM Exams/Physiology answers.pdf extract below almost exactly — needs dedup before keying) — remaining in full
+# q01-~230: remaining, not yet deduped/keyed
+
+## med104-final40-eoy-msk1 — 00 Module-wide/07 EOY Exams/Final 40.pdf (12p, fully garbled text layer, OCR'd this pass per MU-Y1-readability-summary.md; OCR text confirms it is a duplicate/near-duplicate of med104-final-msk2-batch40's own "talus fracture" opening question — needs full OCR-text read + dedup, not yet keyed)
+
+## med104-final41-eoy-msk2 — 00 Module-wide/07 EOY Exams/Final 41.pdf (20p; "Make Watermark" phone-photo scan, default OCR fails (13 words/page) but renders cleanly — LANE-CARD's own named trap, §7). Page 1 rendered in the S3 sample: 3 questions (adductor canal / great saphenous vein, greater trochanter fracture / gluteus maximus spared, deep posterior leg compartment / tibialis posterior) — same grey-highlight key convention as MED102's comparison file
+med104-final41-eoy-msk2-q01
+med104-final41-eoy-msk2-q02
+med104-final41-eoy-msk2-q03
+# remaining pages (2-20, minus the ones already OCR-readable per readability summary) not yet rendered/keyed
+
+## med104-final-msk1-batch40-partial — "Final Msk 1 ( ٤٠ ).pdf" (4p) — NOT MCQ format: student-crowdsourced "Enumerate"/short-answer recall, no options, explicitly captioned "this isn't the actual final exam, this is what our batch-40 colleague remembered" — out of scope for MCQ authoring, no printed key possible; excluded from triage totals, not a hold in the seed sense (never enters the pipeline)
+
+## med104-mfm42-final42-msk1 — "MFM42,Support,MSK1,Final 42_230712_153126.pdf" (17p, ~1 word/page even after OCR — essentially garbled, needs render or a better OCR pass; its Answers pair "MFM42,Support,answers MSK1.pdf" is equally garbled) — not yet triaged
+
+## med104-support43-final-msk2 — "SUPPORT 43 - FINAL MSK2 not answered .pdf" / "SUPPORT43- FINAL MSK2 answered.pdf" (Q+A pair, ~45-47 MCQ by raw count) — remaining in full, key convention not yet confirmed by render
+
+## med104-support43-final-msk1 — "Support 43- Final MSK1..pdf" (39 raw hits) / "Support 43- final MSK1.pdf" (52 raw hits) — near-duplicate filenames (double-dot vs single-dot); raw counts differ, not yet confirmed whether same or different content — remaining in full pending a content diff
+
+## med104-final-msk2-batch40 — "final msk 2 ( 40 ).pdf" (~19-20 MCQ, native text, no separate key file found among tier-1 siblings) — remaining in full
+
+## med104-anatomy-msk-ends-finals — Anatomy/06 EOM Exams/Anatomy MSK Ends & Finals.pdf (32p, 103 MCQ by raw count) — likely overlaps med104-msk1-ends-finals's own Anatomy(Lower) section; not yet deduped — remaining in full
+
+## med104-anatomy-support43-msk-finals — Anatomy/07 EOY Exams/Support 43, anatomy MSK finals.pdf (45p, 154 MCQ by raw count) — remaining in full, dedup against the above not yet done
+
+## med104-biochem-support43-msk-ends-finals — Biochemistry/06 EOM Exams/Support 43,Bio MSK Ends & Finals .pdf (20p, 98 MCQ by raw count) — remaining in full
+
+## med104-histology-msk-ends-finals — Histology/06 EOM Exams/4_5773791687826478153.pdf (23p, 81 MCQ by raw count; last question "connective tissue that surrounds the whole muscle" matches med104-support43-end-msk's own tail almost exactly — likely a subject-filtered extract of that file, needs dedup) — remaining in full
+
+## med104-pathology-msk-ends-finals — Pathology/06 EOM Exams/Pathology MSK Ends & Finals.pdf (8p; mostly "Give reason"-style short-answer, not MCQ — MCQ portion small, not yet isolated) — remaining, scope TBD
+
+## med104-physiology-msk-ends-finals — Physiology/06 EOM Exams/Physiology answers.pdf (8p, 22 MCQ by raw count; ends "During neuromuscular transmission" — same ending as med104-msk2-ends-finals, almost certainly a subject-filtered extract of that compiled bank, needs dedup) — remaining in full
