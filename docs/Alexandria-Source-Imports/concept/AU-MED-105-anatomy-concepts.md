@@ -6145,8 +6145,7 @@ AU-MED-105 > Anatomy > Upper Limb > Pectoral region and shoulder girdle
 ART-MSK-AU105-SHOULDER-GIRDLE-NERVES
 
 ## related_article_ids
-
-
+ART-MSK-AU105-FOREARM-NERVES
 
 ## related_concept_ids
 CON-MSK-7F73A394EF5B30 | CON-MSK-59453A6F6ACC2E
