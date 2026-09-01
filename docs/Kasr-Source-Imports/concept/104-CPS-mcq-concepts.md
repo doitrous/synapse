@@ -5,6 +5,7 @@
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
+    The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
     The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
@@ -77,7 +78,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  135 questions were excluded and 0 held back for having no
+  140 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -441,6 +442,162 @@ src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
 +ART-104-ANA-DIAPHRAGM
 ## field_notes
 canonical_key "diaphragm.major-openings" already has a pinned id in this module (CON-RES-80C9B9E43B459B); mintConceptId derives the same id fresh (CON-RES-80C9B9E43B459B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-1861B888CFF02D
+## label
+The internal thoracic artery descends behind the upper six costal cartilages to end opposite the sixth space as the musculophrenic and superior epigastric arteries
+## canonical_key
+internal-thoracic-artery.origin-course-and-branches
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p7 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## field_notes
+canonical_key "internal-thoracic-artery.origin-course-and-branches" already has a pinned id in this module (CON-CVS-1861B888CFF02D); mintConceptId derives the same id fresh (CON-CVS-1861B888CFF02D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Posterior intercostal arteries come from two sources by space — the superior intercostal artery (1st-2nd) and the descending thoracic aorta (3rd-11th) — while anterior intercostal arteries come from the internal thoracic artery directly (upper six spaces) or its musculophrenic branch (7th-9th)
+## id
+CON-CVS-DC039A1BEF31B1
+## canonical_key
+intercostal-arteries.sources-by-space-and-side
+## definition
+The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space. The anterior intercostal arteries instead come from the internal thoracic system: the upper six spaces receive them directly from the internal thoracic artery itself, while the seventh to ninth receive them from its terminal musculophrenic branch — so no single vessel supplies every anterior intercostal space directly. The right third posterior intercostal artery additionally gives off the right bronchial artery, supplying the bronchial tree and lung stroma on that side.
+## explicit_objective
+State which posterior intercostal arteries come from the superior intercostal artery and which from the descending thoracic aorta, and name the vessel that supplies the anterior intercostal arteries of the seventh to ninth spaces.
+## pitfalls
+Crediting the descending thoracic aorta with ALL eleven posterior intercostal arteries, or the internal thoracic artery with ALL nine anterior ones. The first two posterior arteries come from the superior intercostal artery instead, and the seventh to ninth anterior arteries come from the internal thoracic artery's musculophrenic branch rather than the parent vessel itself.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p27 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p1 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p1 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p47 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p2 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Anatomy
+## subtopic
+Intercostal Spaces
+## aliases
+Superior intercostal artery | Posterior intercostal artery origin | Costocervical trunk | Right bronchial artery
+## article_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] ١ Concerning the external intercostal muscle; choose the incorrect answer:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-THORACIC-CAGE
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---

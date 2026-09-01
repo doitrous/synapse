@@ -4,13 +4,13 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 681 | excluded: 135 | remaining: 336
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 692 | excluded: 140 | remaining: 320
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 681
+- authored (by key, this ledger): 692
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 681
+- authored minus held-back = build-style "kept": 692
 
 ## By cluster (leaf tag)
 
@@ -23,7 +23,6 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Lungs — Gross Anatomy | 21 | 0 | 0 | 21 |
 | Gas Transport by the Blood | 35 | 16 | 0 | 19 |
 | Pulmonary Compliance | 45 | 24 | 3 | 18 |
-| Thoracic Wall | 33 | 17 | 0 | 16 |
 | Gas exchange in the lung | 21 | 4 | 2 | 15 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 9 | 0 | 13 |
 | Cardiac Function | 80 | 44 | 24 | 12 |
@@ -50,6 +49,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
 | Human Chromosome | 48 | 43 | 4 | 0 |
 | The Cell Cycle | 5 | 5 | 0 | 0 |
+| Thoracic Wall | 33 | 28 | 5 | 0 |
 
 ## Remaining keys by cluster
 
@@ -245,25 +245,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `which-of-the-following-represents-the-pressure-difference-th-3a447d91` — Which of the following represents the pressure difference that acts to distend t…
 - `which-of-tne-following-represents-the-pressure-difference-th-8e096a02` — Which of tne following represents the pressure difference that acts to distend t…
 - `which-one-can-increase-the-compliance-of-blood-vessels-3a01102d` — Which one can increase the compliance of blood vessels
-
-### Thoracic Wall (16)
-
-- `concerning-the-external-intercostal-muscle-choose-the-incorr-7f6cb920` — ١ Concerning the external intercostal muscle; choose the incorrect answer:
-- `concerning-the-intercostal-and-subcostal-arteries-which-of-t-24b9b038` — Concerning the intercostal and subcostal arteries, which of the following is tru…
-- `concerning-the-internal-thoracic-artery-select-correct-answe-749f950e` — Concerning the internal thoracic artery, select correct answer:
-- `concerning-the-posterior-intercostal-arteries-select-the-cor-80aa271c` — Concerning the posterior intercostal arteries, select the correct answer:
-- `eleventh-1-regarding-the-external-intercostal-muscle-indicat-9a181d08` — Eleventh. 1 @)-Regarding the external - intercostal: muscle; indicate the wrong:…
-- `one-of-the-following-is-not-a-branch-of-the-internal-thoraci-db5ffa2e` — One of the following is not a branch of the internal thoracic artery:
-- `regarding-intercostal-spaces-choose-the-correct-statement-a-7ff13aa0` — Regarding intercostal spaces, choose the correct statement: ‏ا‎ ‎a. Internal int…
-- `regarding-the-intercostal-arteries-one-is-true-15556e57` — Regarding the intercostal arteries, one is true:
-- `regarding-the-intercostal-nerve-mark-one-correct-statement-39200e19` — Regarding the intercostal nerve, mark ONE correct statement:
-- `regarding-the-internal-mammary-artery-the-following-statemen-fae6e956` — Regarding the internal mammary artery, the following statements are correct, EXC…
-- `regarding-the-internal-thoracic-artery-one-is-false-fdbf7a43` — Regarding the internal thoracic artery, one is false:
-- `regarding-the-ribs-one-of-the-following-statements-is-wrong-1d20d8ae` — Regarding the ribs; one of the following statements is wrong: _
-- `regarding-the-thoracic-skeleton-the-following-statements-are-62092e50` — Regarding the thoracic skeleton, the following statements are Correct, EXCEPT:
-- `the-1st-posterior-intercostal-artery-is-a-branch-from-72492885` — The 1st posterior intercostal artery is a branch from:
-- `the-9th-anterior-intercostal-artery-is-a-branch-from-3bef8271` — The 9th anterior intercostal artery is a branch from:
-- `the-internal-mammary-artery-arises-from-bc7138a7` — The Internal Mammary artery arises from:
 
 ### Gas exchange in the lung (15)
 

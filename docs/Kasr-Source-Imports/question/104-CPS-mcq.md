@@ -5,6 +5,7 @@
     Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 4 questions, 2 concepts
+    The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
     The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
     The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
@@ -77,7 +78,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  135 questions were excluded and 0 held back for having no
+  140 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1569,6 +1570,1030 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-D7921BD4073D
+## title
+Concerning the intercostal and subcostal arteries, which of the following is true?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the intercostal and subcostal arteries, which of the following is true?
+## answer_a
+They lie highest in the costal groove
+## explanation_a
+The intercostal ARTERY does not lie highest in the costal groove — the VAN order places the vein uppermost, the artery in the middle and the nerve lowest of the three neurovascular structures.
+## answer_b
+First two posterior intercostal arteries are indirect branches of costocervical
+## explanation_b
+This is the correct answer. The first and second posterior intercostal arteries do not come from the descending thoracic aorta at all; they are indirect branches of the costocervical trunk, reaching each space via the superior intercostal artery, itself a subclavian-artery branch.
+
+Why this is right:
+- The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space.
+## answer_c
+Posterior intercostal arteries are indirect branches of thyrocervical trunk
+## explanation_c
+The upper two posterior intercostal arteries are indirect branches of the COSTOCERVICAL trunk, not the thyrocervical trunk — the two trunks are separate branches of the subclavian artery, and swapping them is a classic distractor.
+## answer_d
+All anterior intercostal arteries are direct branches from internal thoracic and
+## explanation_d
+Not all anterior intercostal arteries are direct branches of the internal thoracic artery — the seventh to ninth spaces instead receive theirs from its terminal musculophrenic branch, an indirect route.
+## answer_e
+Subcostal artery is a direct branch from abdominal aorta
+## explanation_e
+The subcostal artery is a direct branch of the DESCENDING THORACIC aorta, not the abdominal aorta — it arises just above the diaphragm, before the aorta itself becomes abdominal.
+## correct_answer
+B
+## main_concept
+CON-CVS-DC039A1BEF31B1
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that the first two posterior intercostal arteries are indirect branches of the costocervical trunk, via the superior intercostal artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p27 q110. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-61B9F6676097
+## title
+Concerning the internal thoracic artery, select correct answer:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the internal thoracic artery, select correct answer:
+## answer_a
+Arises from the second part of the subclavian artery
+## explanation_a
+The internal thoracic artery arises from the FIRST part of the subclavian artery, not the second — the first part lies medial to scalenus anterior, where several of the subclavian's other named branches also originate.
+## answer_b
+Supplies the upper nine intercostal spaces
+## explanation_b
+The internal thoracic artery supplies the upper SIX intercostal spaces directly (with the seventh to ninth reached indirectly via its musculophrenic branch), not the upper nine.
+## answer_c
+Gives off the superior epigastric artery
+## explanation_c
+This is the correct answer. The internal thoracic artery ends opposite the sixth intercostal space by dividing into its two terminal branches, the superior epigastric and the musculophrenic artery.
+
+Why this is right:
+- The internal thoracic artery arises from the first part of the subclavian artery in the root of the neck, descends behind the upper six costal cartilages half an inch from the sternal margin, and ends opposite the sixth space by dividing into the superior epigastric and musculophrenic arteries.
+## answer_d
+Terminates in the 5th intercostal space
+## explanation_d
+The internal thoracic artery terminates opposite the SIXTH intercostal space, not the fifth — one space lower than this option states.
+## correct_answer
+C
+## main_concept
+CON-CVS-1861B888CFF02D
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+The Internal Thoracic and Intercostal Arteries
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the internal thoracic artery's two terminal branches are the superior epigastric and musculophrenic arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q24. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A65B0A5027BD
+## title
+Concerning the posterior intercostal arteries, select the correct answer:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the posterior intercostal arteries, select the correct answer:
+## answer_a
+They arise from internal thoracic artery
+## explanation_a
+The posterior intercostal arteries do not arise from the internal thoracic artery at all — that vessel instead supplies the ANTERIOR intercostal arteries, a separate system entirely.
+## answer_b
+Allarises from descending thoracic aorta
+## explanation_b
+Not ALL posterior intercostal arteries arise from the descending thoracic aorta — the first two instead come from the superior intercostal artery, a costocervical-trunk branch of the subclavian artery.
+## answer_c
+They arises from superior intercostal artery and descending aorta
+## explanation_c
+This is the correct answer. The posterior intercostal arteries come from two sources depending on the space: the first two from the superior intercostal artery, and the third to eleventh directly from the descending thoracic aorta.
+
+Why this is right:
+- The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space.
+## answer_d
+They arises from internal thoracic artery and descending aorta
+## explanation_d
+The posterior intercostal arteries never arise from the internal thoracic artery — only their anterior counterparts do; the posterior vessels' two sources are the superior intercostal artery and the descending aorta.
+## correct_answer
+C
+## main_concept
+CON-CVS-DC039A1BEF31B1
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+The Internal Thoracic and Intercostal Arteries
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that posterior intercostal arteries have two sources by space: the superior intercostal artery (1st-2nd) and the descending aorta (3rd-11th).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p1 q1. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-99B422C04EE3
+## title
+Eleventh. 1 @)-Regarding the external - intercostal: muscle; indicate the wrong: statem…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Eleventh. 1 @)-Regarding the external - intercostal: muscle; indicate the wrong: statement: mo
+## answer_a
+It is most superficially placed muscle of the intercostal space
+## explanation_a
+True of the external intercostal muscle, so not the wrong statement sought — it is the most superficially placed of the three intercostal muscle layers.
+## answer_b
+Its fibers are directed downward and forward
+## explanation_b
+True of the external intercostal muscle's fibre direction, so not the wrong statement sought — obliquely downwards and forwards.
+## answer_c
+All posterior intercostal arteries are branches from descending thoracic
+## explanation_c
+This is the wrong statement, and the answer. Not all posterior intercostal arteries are branches of the descending thoracic aorta: the first and second come from the superior intercostal artery, a costocervical-trunk branch of the subclavian artery, and only the third to eleventh come directly from the descending thoracic aorta.
+
+Why this is right:
+- The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space.
+## answer_d
+It extends from the rib tubercle to the costochondral junction
+## explanation_d
+True of the external intercostal muscle's extent, so not the wrong statement sought — it runs from the tubercle of the rib above to the costochondral junction, where the anterior intercostal membrane takes over.
+## correct_answer
+C
+## main_concept
+CON-CVS-DC039A1BEF31B1
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that not all posterior intercostal arteries arise from the descending thoracic aorta — the first two come from the superior intercostal artery instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p1 q0. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-82EA3E4C585F
+## title
+One of the following is not a branch of the internal thoracic artery:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is not a branch of the internal thoracic artery:
+## answer_a
+pericardiacophrenic artery
+## explanation_a
+The pericardiacophrenic artery is a genuine internal thoracic artery branch, running with the phrenic nerve to the pericardium, pleura and diaphragm — so not the answer sought.
+## answer_b
+superior epigastric artery
+## explanation_b
+The superior epigastric artery is one of the internal thoracic artery's own two terminal branches — so not the answer sought.
+## answer_c
+musculophrenic artery
+## explanation_c
+The musculophrenic artery is the internal thoracic artery's other terminal branch — so not the answer sought.
+## answer_d
+superior intercostal artery
+## explanation_d
+This is the correct answer. The superior intercostal artery is NOT a branch of the internal thoracic artery — it instead arises from the costocervical trunk, a separate branch of the subclavian artery, and supplies the first two intercostal spaces the internal thoracic artery's own branches never reach.
+
+Why this is right:
+- The internal thoracic artery arises from the first part of the subclavian artery in the root of the neck, descends behind the upper six costal cartilages half an inch from the sternal margin, and ends opposite the sixth space by dividing into the superior epigastric and musculophrenic arteries.
+## correct_answer
+D
+## main_concept
+CON-CVS-1861B888CFF02D
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the superior intercostal artery is not a branch of the internal thoracic artery, but of the costocervical trunk.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q6. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-E75FD0743A5E
+## title
+Regarding the intercostal arteries, one is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the intercostal arteries, one is true:
+## answer_a
+All posterior intercostal arteries arise from the descending aorta
+## explanation_a
+Not ALL posterior intercostal arteries arise from the descending aorta — the first two instead come from the superior intercostal artery, a costocervical-trunk branch of the subclavian artery.
+## answer_b
+They lie superior to the vein and nerve in the costal groove
+## explanation_b
+The intercostal artery does not lie superior to both the vein and the nerve — the VAN order places the vein above the artery, and the artery above the nerve, so the artery is superior only to the nerve, not to the vein as well.
+## answer_c
+All anterior intercostal arteries arise from the internal thoracic artery
+## explanation_c
+Not ALL anterior intercostal arteries arise from the internal thoracic artery directly — the seventh to ninth spaces instead receive theirs from its musculophrenic branch, an indirect route.
+## answer_d
+The right third posterior intercostal artery gives off the right bronchial artery
+## explanation_d
+This is the correct answer. The right third posterior intercostal artery gives off the right bronchial artery, which supplies the bronchial tree and lung stroma on that side — the left lung instead receives two bronchial arteries directly from the descending thoracic aorta.
+
+Why this is right:
+- The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space.
+## correct_answer
+D
+## main_concept
+CON-CVS-DC039A1BEF31B1
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that the right third posterior intercostal artery gives off the right bronchial artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q4. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0F4C9390878C
+## title
+Regarding the internal mammary artery, the following statements are correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the internal mammary artery, the following statements are correct, EXCEPT:
+## answer_a
+It is a branch of the first part of the subclavian artery
+## explanation_a
+True, so not the exception. The internal mammary (internal thoracic) artery is a branch of the first part of the subclavian artery.
+## answer_b
+During its course, the artery is crossed by the intercostals nerves
+## explanation_b
+True, so not the exception. The intercostal nerves cross in front of the internal thoracic vessels near the sternum, on their way to becoming the anterior cutaneous branches.
+## answer_c
+The internal mammary vein ascends on the lateral side of the artery
+## explanation_c
+This is the exception, and the answer, reached by elimination: the department book's own account does not state which side of the artery its accompanying vein runs on, so "the lateral side" cannot be confirmed as correct — unlike the other four statements, each of which the source directly supports.
+
+Why this is right:
+- The internal thoracic artery arises from the first part of the subclavian artery in the root of the neck, descends behind the upper six costal cartilages half an inch from the sternal margin, and ends opposite the sixth space by dividing into the superior epigastric and musculophrenic arteries.
+## answer_d
+It shares in the arterial supply of the breast
+## explanation_d
+True, so not the exception. Perforating branches of the internal thoracic (internal mammary) artery share in the arterial supply of the breast.
+## answer_e
+It ends at the level of the 6" intercostals space
+## explanation_e
+True, so not the exception. The internal thoracic artery ends opposite the sixth intercostal space.
+## correct_answer
+C
+## main_concept
+CON-CVS-1861B888CFF02D
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the unconfirmed claim about the internal thoracic vein's own side relative to its artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p7 q25. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-38E9C5C75F4E
+## title
+Regarding the internal thoracic artery, one is false:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the internal thoracic artery, one is false:
+## answer_a
+arises from the first part of the subclavian artery
+## explanation_a
+True, so not the answer sought. The internal thoracic artery arises from the first part of the subclavian artery.
+## answer_b
+supplies the upper six intercostal spaces
+## explanation_b
+True, so not the answer sought. The internal thoracic artery supplies the upper six intercostal spaces directly, via its anterior intercostal branches.
+## answer_c
+gives off the superior epigastric artery
+## explanation_c
+True, so not the answer sought. The internal thoracic artery gives off the superior epigastric artery as one of its two terminal branches.
+## answer_d
+terminates in the 5th intercostal space
+## explanation_d
+This is the false statement, and the answer. The internal thoracic artery terminates opposite the SIXTH intercostal space, not the fifth, where it divides into the superior epigastric and musculophrenic arteries.
+
+Why this is right:
+- The internal thoracic artery arises from the first part of the subclavian artery in the root of the neck, descends behind the upper six costal cartilages half an inch from the sternal margin, and ends opposite the sixth space by dividing into the superior epigastric and musculophrenic arteries.
+## correct_answer
+D
+## main_concept
+CON-CVS-1861B888CFF02D
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the internal thoracic artery terminates opposite the sixth intercostal space, not the fifth.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p47 q8. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5A96A3808550
+## title
+The 1st posterior intercostal artery is a branch from:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The 1st posterior intercostal artery is a branch from:
+## answer_a
+The subcostal artery
+## explanation_a
+The subcostal artery supplies below the last (eleventh) intercostal space, not the first — the two are at opposite ends of the intercostal artery sequence.
+## answer_b
+The musculophrenic artery
+## explanation_b
+The musculophrenic artery is a terminal branch of the internal thoracic artery, supplying the lower ANTERIOR intercostal spaces (seventh to ninth) — it plays no part in the posterior intercostal system at all.
+## answer_c
+The costocervical trunk
+## explanation_c
+This is the correct answer. The first (and second) posterior intercostal artery is an indirect branch of the costocervical trunk, reaching the space via the superior intercostal artery — the descending thoracic aorta only takes over as the source from the third space onward.
+
+Why this is right:
+- The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space.
+## answer_d
+The internal thoracic artery
+## explanation_d
+The internal thoracic artery supplies the ANTERIOR intercostal arteries of the upper spaces, not the posterior ones — the posterior system's two sources are the superior intercostal artery and the descending thoracic aorta.
+## correct_answer
+C
+## main_concept
+CON-CVS-DC039A1BEF31B1
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+The Internal Thoracic and Intercostal Arteries
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the first posterior intercostal artery is a branch of the costocervical trunk.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q15. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0280347E3501
+## title
+The 9th anterior intercostal artery is a branch from:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The 9th anterior intercostal artery is a branch from:
+## answer_a
+musculophrenic artery
+## explanation_a
+This is the correct answer. The ninth space's anterior intercostal artery comes from the musculophrenic artery, the internal thoracic artery's own terminal branch that supplies the seventh to ninth spaces once the parent vessel itself has ended opposite the sixth space.
+
+Why this is right:
+- The eleven posterior intercostal arteries on each side come from two different sources by space: the first and second arise from the superior intercostal artery, itself an indirect (costocervical-trunk) branch of the subclavian artery, while the third to eleventh arise directly from the descending thoracic aorta, which also gives a subcostal pair below the last space.
+## answer_b
+subcostal artery
+## explanation_b
+The subcostal artery supplies below the eleventh intercostal space — it plays no part in the anterior intercostal system, which is supplied entirely from the internal thoracic side.
+## answer_c
+internal thoracic artery
+## explanation_c
+The internal thoracic artery supplies the upper six spaces' anterior intercostal arteries DIRECTLY, but it has already ended, by dividing into its two terminal branches, before reaching the ninth space.
+## answer_d
+superior intercostal artery
+## explanation_d
+The superior intercostal artery supplies the first two spaces' POSTERIOR intercostal arteries, not the ninth space's anterior one — the two systems (anterior via internal thoracic, posterior via superior intercostal/descending aorta) are separate.
+## correct_answer
+A
+## main_concept
+CON-CVS-DC039A1BEF31B1
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+The Internal Thoracic and Intercostal Arteries
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the ninth anterior intercostal artery is a branch of the musculophrenic artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q28. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-82B6166569B7
+## title
+The Internal Mammary artery arises from:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The Internal Mammary artery arises from:
+## answer_a
+Costocervica! trunk
+## explanation_a
+The costocervical trunk is itself a branch of the subclavian artery, giving the superior intercostal artery — a separate vessel from the internal thoracic artery, which arises directly from the subclavian's own first part.
+## answer_b
+Vertebral artery
+## explanation_b
+The vertebral artery is another first-part branch of the subclavian artery, supplying the posterior cerebral circulation — it has no relation to the thoracic wall.
+## answer_c
+Transverse Cervical artery
+## explanation_c
+The transverse cervical artery arises from the thyrocervical trunk (or directly from the subclavian's third part in some patterns), supplying the neck and shoulder region — not the thoracic wall.
+## answer_d
+Brachiocephalic artery
+## explanation_d
+The brachiocephalic artery is the subclavian artery's own parent vessel on the right side, well proximal to any of the subclavian's own branches — the internal thoracic artery arises from the subclavian, not from the brachiocephalic artery directly.
+## answer_e
+Subclavian artery
+## explanation_e
+This is the correct answer. The internal mammary (internal thoracic) artery arises from the first part of the subclavian artery, in the root of the neck, before descending behind the upper six costal cartilages into the thorax.
+
+Why this is right:
+- The internal thoracic artery arises from the first part of the subclavian artery in the root of the neck, descends behind the upper six costal cartilages half an inch from the sternal margin, and ends opposite the sixth space by dividing into the superior epigastric and musculophrenic arteries.
+## correct_answer
+E
+## main_concept
+CON-CVS-1861B888CFF02D
+## library_ids
+ART-104-ANA-INTERCOSTAL-MUSCLES-NERVES-VESSELS
+## topic
+Anatomy
+## subtopic
+The Internal Thoracic and Intercostal Arteries
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the internal mammary (internal thoracic) artery arises from the subclavian artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p4 q15. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
