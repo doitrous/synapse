@@ -18,7 +18,7 @@
     The Typical Intercostal Nerve — 6 questions, 1 concepts
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
-    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 25 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 2 questions, 1 concepts
@@ -2061,6 +2061,15 @@ Conduction velocity is slowest through the AV node and fastest through the Purki
 cardiac-conduction-system.regional-velocity.av-nodal-delay
 ## exam_signal
 src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p2 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p5 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-CONDUCTION
 ## field_notes

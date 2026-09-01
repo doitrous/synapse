@@ -276,5 +276,158 @@ export const LEAF: McqLeafSeed = {
         D: "Backwards. Decreased antidiuretic hormone (vasopressin) release increases free-water excretion by the kidney, tending to LOWER, not raise, circulating blood volume and so arterial blood pressure.",
       },
     },
+    // run40, second Electrical Activity of the Heart batch: 35 leaf-null bank
+    // rows reclustered by the ledger's own keyword heuristic after run33's
+    // 47/47 closure of the leaf-tagged rows. The largest single group below
+    // (10 rows) restates this file's own already-pinned AV-nodal-delay/
+    // conduction-velocity concept from many different angles across the
+    // question books — no new search needed, every fact is already stated
+    // in that concept's own definition.
+    {
+      key: "about-the-cardiac-conductivity-all-the-following-are-true-ex-6c3fa236",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify that conduction is slowest in the AV node, not the ventricular muscle, as the exception among otherwise true statements about cardiac conductivity.",
+      explanations: {
+        A: "True, so not the exception. Conduction through the AV node is the slowest in the whole conducting system, about 0.05 m/sec, which is exactly what gives the atria time to finish emptying before the ventricles are activated.",
+        B: "True, so not the exception. The Purkinje network conducts fastest of all, about 4 m/sec, letting the impulse spread through the ventricles almost simultaneously.",
+        C: "The exception, and the answer. Conduction is slowest in the AV node, not the ventricular (working) muscle — ordinary ventricular myocardium conducts considerably faster than the AV node's own deliberately delayed transmission, even though it is itself slower than the specialised Purkinje network.",
+        D: "True, so not the exception. Vagal (parasympathetic) stimulation slows AV nodal conduction further (negative dromotropy), which is why excessive vagal tone can produce AV block.",
+      },
+    },
+    {
+      key: "conduction-speed-is-highest-in-the-bc0dd1e9",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Easy",
+      questionType: "Recall of a definition",
+      learningObjective: "State that conduction speed is highest in the Purkinje system among the SA node, internodal atrial bundles, AV node and Purkinje system.",
+      explanations: {
+        A: "The SA node conducts at a moderate rate relative to the rest of the system — well behind the internodal bundles it feeds into, and far behind the Purkinje network downstream.",
+        B: "The internodal atrial bundles conduct faster than the AV node but slower than the ventricular conducting system's own Purkinje fibres.",
+        C: "The AV node is the slowest-conducting tissue in the entire system, about 0.05 m/sec — the opposite extreme from 'highest'.",
+        D: "Correct. Conduction speed is highest in the Purkinje system, about 4 m/sec, which lets the impulse spread through the ventricular myocardium almost simultaneously once it emerges from the AV nodal delay.",
+      },
+    },
+    {
+      key: "conduction-speed-is-slowest-in-the-99b22b7b",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Easy",
+      questionType: "Recall of a definition",
+      learningObjective: "State that conduction speed is slowest in the AV node among the SA node, atrial pathways, AV node and Purkinje system.",
+      explanations: {
+        A: "The SA node conducts at a moderate rate relative to the rest of the system, well faster than the AV node's own deliberately delayed transmission.",
+        B: "Atrial (internodal) pathways conduct impulses across the atria comparatively quickly, well ahead of the sharp slowdown that follows once the impulse reaches the AV node.",
+        C: "Correct. Conduction speed is slowest in the AV node, about 0.05 m/sec — a deliberate delay that gives the atria time to finish emptying into the ventricles before ventricular contraction begins, and that also caps how many rapid atrial impulses per minute can reach the ventricles.",
+        D: "The Purkinje system is the fastest-conducting tissue in the whole system, about 4 m/sec — the opposite extreme from 'slowest'.",
+      },
+    },
+    {
+      key: "propagation-of-the-action-potential-through-the-heart-isfast-b5f2c52d",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Easy",
+      questionType: "Recall of a definition",
+      learningObjective: "State that propagation of the cardiac action potential is fastest through the Purkinje fibres among atrial muscle, the AV node, Purkinje fibres and ventricular muscle.",
+      explanations: {
+        A: "Atrial muscle conducts the impulse across the atria at a moderate speed, well below the Purkinje network's own high conduction velocity.",
+        B: "The AV node conducts the slowest of any tissue in the system, about 0.05 m/sec — the opposite extreme from 'fastest'.",
+        C: "Correct. Propagation is fastest through the Purkinje fibres, about 4 m/sec, letting the impulse activate the ventricular myocardium in near-unison rather than as a slow spreading wave.",
+        D: "Ventricular (working) muscle conducts the impulse cell to cell at a moderate rate, faster than the AV node but well below the specialised Purkinje network that activates it.",
+      },
+    },
+    {
+      key: "the-function-of-the-av-node-is-to-a-excite-the-left-and-righ-00f4d17c",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that the AV node's function is to delay conduction long enough to prevent the atria and ventricles from contracting simultaneously, not to excite the atria or repolarize the heart.",
+      explanations: {
+        A: "Exciting the left and right atria is the SA node's job, as the impulse's point of origin — the AV node instead RECEIVES that excitation and deliberately delays it before passing it on.",
+        B: "Correct. The AV node's slow (about 0.05 m/sec) conduction delays ventricular activation just long enough for the atria to finish contracting and empty into the ventricles first, which is exactly what prevents the atria and ventricles from contracting at the same instant.",
+        C: "Repolarization after systole is a property of individual myocardial cell membranes, driven by K+ efflux, not a function the AV node performs on the heart as a whole.",
+        D: "Since option B correctly describes a genuine AV-node function, 'none of the above' does not apply.",
+      },
+    },
+    {
+      key: "the-main-function-of-the-cardiac-purkinje-system-is-to-a-pre-867155e1",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that the Purkinje system's main function is to enable near-simultaneous ventricular activation, a direct consequence of its high conduction velocity, not to prevent premature beats, coordinate valve movement, or delay systole.",
+      explanations: {
+        A: "Preventing premature ventricular beats is a property of the myocardium's own refractory period, not a function the Purkinje system performs by conducting rapidly.",
+        B: "The Purkinje system's role is purely electrical conduction; coordinating valve movement with contraction is achieved by the papillary muscles and chordae tendinae, an unrelated mechanical apparatus.",
+        C: "Correct. Because the Purkinje network conducts at the highest velocity in the heart (about 4 m/sec), it delivers the impulse to widely separated regions of the ventricular myocardium in near-unison, letting all parts of the ventricle begin contracting together rather than as a slow, spreading, inefficient wave.",
+        D: "Delaying systole until the ventricles fill is the AV node's own deliberately slow (about 0.05 m/sec) conduction, the opposite behaviour from the Purkinje system's high-velocity, near-simultaneous activation.",
+      },
+    },
+    {
+      key: "the-slowest-conducting-velocity-occurs-in-5a6c35c5",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Easy",
+      questionType: "Recall of a definition",
+      learningObjective: "State that the slowest conducting velocity occurs in the AV node among atrial muscles, the AV node, Purkinje fibres and ventricular muscles.",
+      explanations: {
+        A: "Atrial muscle conducts the impulse across the atria at a moderate speed, well ahead of the sharp slowdown that follows once the impulse reaches the AV node.",
+        B: "Correct. The slowest conducting velocity in the heart occurs in the AV node, about 0.05 m/sec — a deliberate delay that lets the atria finish emptying into the ventricles before ventricular contraction begins.",
+        C: "Purkinje fibres are the fastest-conducting tissue in the system, about 4 m/sec — the opposite extreme from 'slowest'.",
+        D: "Ventricular muscle conducts the impulse cell to cell at a moderate rate, faster than the AV node but slower than the specialised Purkinje network that first activates it.",
+      },
+    },
+    {
+      key: "the-slowest-conducting-velocity-occurs-in-which-of-the-follo-af891c81",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Easy",
+      questionType: "Recall of a definition",
+      learningObjective: "State that the slowest conducting velocity occurs in the AV node among atrial muscles, the AV node, Purkinje fibres and ventricular muscles.",
+      explanations: {
+        A: "Atrial muscle conducts the impulse across the atria at a moderate speed, well ahead of the sharp slowdown that follows once the impulse reaches the AV node.",
+        B: "Correct. The slowest conducting velocity in the heart occurs in the AV node, about 0.05 m/sec — a deliberate delay that lets the atria finish emptying into the ventricles before ventricular contraction begins, and that also caps how many rapid atrial impulses per minute can reach the ventricles.",
+        C: "Purkinje fibres are the fastest-conducting tissue in the system, about 4 m/sec — the opposite extreme from 'slowest'.",
+        D: "Ventricular muscle conducts the impulse cell to cell at a moderate rate, faster than the AV node but slower than the specialised Purkinje network that first activates it.",
+      },
+    },
+    {
+      key: "what-is-the-important-function-of-cardiac-purkinje-system-3132c9a7",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that the Purkinje system's important function is to increase (speed up) conduction of the cardiac impulse, not to slow it, amplify it, or increase contractile force.",
+      explanations: {
+        A: "Slowing conduction is the AV node's own deliberate function, the opposite behaviour from the Purkinje system's high-velocity conduction.",
+        B: "Correct. The Purkinje system's important function is to increase the conduction of impulses through the ventricles — at about 4 m/sec, the fastest of any cardiac tissue — so that widely separated regions of ventricular myocardium activate in near-unison rather than as a slow spreading wave.",
+        C: "Purkinje fibres conduct the existing electrical impulse rapidly; they do not amplify its magnitude, which stays set by the depolarizing currents of the myocytes themselves.",
+        D: "The force of ventricular contraction is set by the contractile myocardium and factors such as preload and contractility, not by how fast the Purkinje conduction system itself conducts.",
+      },
+    },
+    {
+      key: "which-of-the-following-is-a-function-of-the-av-node-16a480fe",
+      conceptKey: "cardiac-conduction-system.regional-velocity.av-nodal-delay",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that the AV node's function is to delay conduction long enough to prevent the atria and ventricles from contracting simultaneously, not to excite the atria or repolarize the heart.",
+      explanations: {
+        A: "Exciting the left and right atria is the SA node's job, as the impulse's point of origin — the AV node instead receives that excitation and deliberately delays it before passing it on.",
+        B: "Correct. The AV node's slow (about 0.05 m/sec) conduction delays ventricular activation just long enough for the atria to finish contracting and empty into the ventricles first, which is exactly what prevents the atria and ventricles from contracting at the same instant.",
+        C: "Repolarization after systole is a property of individual myocardial cell membranes, driven by K+ efflux, not a function the AV node performs on the heart as a whole.",
+        D: "Since option B correctly describes a genuine AV-node function, 'none of the above' does not apply.",
+      },
+    },
+    // A leaf-mismatch reroute onto this file's own already-claimed
+    // chronotropy-dromotropy concept — genuinely this same fact (calcium
+    // channel blockers slow the SA node), no new search needed.
+    {
+      key: "which-of-the-following-has-negative-chronotropic-effect-e351e202",
+      conceptKey: "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy",
+      difficulty: "Moderate",
+      questionType: "Discrimination among near-miss options",
+      learningObjective: "State that calcium channel blockers have a negative chronotropic effect by reducing SA-node discharge, as opposed to raised body temperature, beta1-receptor stimulation, or hypokalemia, each of which is not negatively chronotropic.",
+      explanations: {
+        A: "A rise in body temperature INCREASES the SA node's own discharge rate (a positive, not negative, chronotropic effect), via a faster metabolic rate and greater SA-node sensitivity.",
+        B: "Beta1-receptor stimulation is the sympathetic pathway that raises intracellular cAMP and increases the funny current, speeding SA-node discharge — a positive, not negative, chronotropic effect.",
+        C: "Correct. Calcium channel blockers reduce the L-type Ca++ current that drives phase 0 of the pacemaker action potential and slow the funny-current-dependent phase 4 as well, reducing SA-node discharge rate — a genuine negative chronotropic effect, and the mechanism used clinically to slow a fast heart rate.",
+        D: "Hypokalemia is more classically associated with increased cardiac excitability and arrhythmogenic risk than with a straightforward negative chronotropic effect on the SA node.",
+      },
+    },
   ],
 }
