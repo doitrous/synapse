@@ -1252,3 +1252,225 @@ nanotopicId: No verified nanotopic ID was supplied.
 media: No rights-cleared asset exists yet; requests are filed in media_recommendations.
 lastReviewed: New record; not yet reviewed.
 reviewDue: Set when the first review completes.
+
+
+---
+
+# Item
+
+## id
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## title
+Cell-mediated immunity: thymic selection, T-cell signalling and cytotoxic effector mechanisms
+
+## arabic_title
+
+
+## aliases
+Thymic positive and negative selection
+CTL and NK killing mechanisms
+Antigen processing pathways (endogenous vs exogenous)
+
+## subject
+imm
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Cell-mediated immunity depends on thymic education (positive selection for self-MHC restriction, negative selection to delete self-reactive clones), a TCR-CD3 complex that recognises antigen and transduces the signal, and effector mechanisms that differ by cell type: cytotoxic T lymphocytes kill MHC-I-restricted targets with perforin and granzymes or the Fas/FasL pathway, while NK cells kill MHC-I-negative ("missing self") targets by the same granule pathway without MHC restriction. Antigen reaches these cells through two separate processing routes — exogenous/phagocytosed antigen onto MHC class II, and endogenous/cytosolic antigen onto MHC class I — and the whole response is bounded by costimulation, checkpoints, adhesion and CD4+CD25+ regulatory T cells that keep it from turning on self tissue.
+
+## sections
+### Definition
+Cell-mediated immunity (CMI) is the T-lymphocyte, NK-cell and macrophage arm of adaptive immunity, distinct from the antibody-mediated humoral arm. Its cells are educated in the thymus before ever meeting antigen: developing T cells first undergo positive selection in the thymic cortex, in which only cells whose receptor can recognise self MHC are rescued (establishing self-MHC restriction), and then negative selection in the corticomedullary/medullary region, in which cells that bind self-peptide/self-MHC too strongly are deleted by apoptosis (central self-tolerance). The T cells that ultimately leave the thymus as naive — mature but antigen-inexperienced — cells are those that recognise foreign antigen only in the context of self MHC.
+
+### Mechanism
+Antigen recognition itself is carried out by the alpha-beta T-cell receptor (TCR), but the TCR cannot signal alone: it is intimately, non-covalently associated with the CD3 complex on the T-cell membrane, and CD3 transduces the recognition event into the cell. Full activation additionally needs B7 (APC) engaging CD28 (T cell) as a costimulatory second signal, and ICAM-1 (APC) engaging LFA-1 (T cell) as an adhesion molecule pair that stabilises this APC-T-cell contact; activation then proceeds in a fixed order — activation, then proliferation (driven by IL-2), then differentiation — and cytotoxic T-cell clonal expansion specifically requires antigen stimulation, costimulation and IL-2 from Th1 cells together, not any one alone. If antigen binds the TCR without the accompanying costimulatory signal (B7 fails to engage CD28), the cell becomes anergic (functionally unresponsive) rather than activated — a peripheral tolerance mechanism distinct from thymic negative selection.
+
+Two separate pathways bring antigen to this recognition machinery. Phagocytosed, exogenous antigen (extracellular microbes and other material taken up into an endosome/phagosome) is processed and loaded onto MHC class II for presentation to CD4+ T-helper cells; this pathway does not operate inside virally infected or tumour cells. Newly synthesised, endogenous (intracytosolic) antigen — such as a virus replicating inside an infected cell — is instead degraded by the proteasome and loaded onto MHC class I for presentation to CD8+ cytotoxic T cells (CTLs); MHC class II association is false for this route. A superantigen bypasses ordinary antigen-specific recognition altogether, cross-linking the TCR V-beta chain directly to MHC class II outside the normal peptide groove and so activating large numbers of T cells irrespective of their antigen specificity — the basis of the toxic-shock-type presentation some bacterial toxins produce.
+
+### Key determinants
+Once activated, CD8+ CTLs kill their MHC-I-restricted targets chiefly by releasing perforin (which polymerises into a membrane pore) and granzymes (serine proteases that enter through that pore and trigger apoptosis) from cytoplasmic granules, and secondarily through the Fas/FasL pathway, in which Fas ligand on the CTL engages Fas (CD95) on the target to trigger apoptosis without granzyme involvement; lysozyme, a bactericidal enzyme in phagocyte lysosomes, plays no part in either apoptotic route. NK cells share the granule-exocytosis killing mechanism and also kill by apoptosis, but are not MHC-restricted the way CTLs are: an NK cell instead integrates opposing signals from killer-activating receptors and killer-inhibitory receptors, the latter normally engaged by self MHC class I to restrain killing. When a cell loses MHC class I expression — as many virally infected and tumour cells do specifically to escape CTL recognition — that inhibitory signal is removed (the "missing self" state) and the NK cell is released to kill it, the functional opposite of the CTL requirement for MHC-I-presented antigen.
+
+CD4+ T cells are not a single functional pool: besides conventional Th1/Th2 helper subsets, CD4 is also carried by CD4+CD25+ regulatory T cells (Tregs), which are themselves antigen specific (not bystander-acting in an antigen-non-specific way) and enforce peripheral self-tolerance by inhibiting self-reactive clones through the inhibitory cytokines IL-10 and TGF-beta.
+
+### Clinical significance
+Distinguishing NK "missing-self" killing from CTL "presented-antigen" killing explains why viruses that succeed at completely down-regulating MHC class I to dodge CTLs remain vulnerable to NK surveillance instead — a classic exam vignette pairs MHC-I loss on virally infected cells with NK cells as the answer, not CTLs. Superantigen-driven, antigen-nonspecific T-cell activation (as in staphylococcal toxic shock) explains why illness onset is so rapid and severe: an enormous polyclonal fraction of the T-cell pool is engaged at once, rather than the small antigen-specific clone that ordinary infection would recruit.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Positive selection rescues cells recognising self MHC (establishing restriction); negative selection deletes cells that bind self-peptide/self-MHC too strongly (central tolerance) — do not swap these two.
+The TCR recognises antigen but cannot signal alone; CD3 is the associated complex that transduces the signal.
+Exogenous/phagocytosed antigen loads onto MHC class II for CD4+ T cells; endogenous/cytosolic antigen loads onto MHC class I for CD8+ T cells — these two pathways do not cross over.
+CTLs need MHC class I to recognise a target; NK cells kill precisely when MHC class I is ABSENT ("missing self") — opposite logic, easy to reverse under exam pressure.
+Anergy (peripheral, functional silencing from missing costimulation) is not the same mechanism as negative selection (central, thymic deletion by apoptosis).
+
+## lose_the_mark
+Reversing missing-self logic: presence of MHC class I does not release NK inhibition, its absence does.
+Placing granzymes or MHC-II association into the wrong pathway — granzymes belong to CTL/NK granule killing, not the Fas pathway; MHC class II belongs to the exogenous route, not the endogenous one.
+Treating CD4 as synonymous with "helper T cell"; CD4+CD25+ regulatory T cells are also CD4+, and are antigen specific rather than acting non-specifically.
+
+## callout_evidence
+
+
+## related_concepts
+CON-IMM-796177C90507E8
+CON-IMM-543B4509515626
+CON-IMM-F5260440C6AF50
+CON-IMM-5E4D173A9D426C
+CON-IMM-0D8E8EA363F362
+CON-IMM-3D9B295025FE16
+CON-IMM-D006721C472E3B
+CON-IMM-22E0C947E0733C
+CON-IMM-E406FC885617EB
+CON-IMM-FA3F867C3550DE
+CON-IMM-22C28BCBAA4980
+CON-IMM-D5F6A4E2B84825
+CON-IMM-7C77A43A5803BC
+CON-IMM-D5A560A9CF7F7E
+CON-IMM-276ADD34BD24D2
+CON-IMM-D437B97B048F65
+CON-IMM-2C9A5E12E169CD
+CON-IMM-7D683EC21A5E1E
+CON-IMM-42111436C0D27E
+CON-IMM-0E8641D21D4210
+CON-IMM-CF982669CF0AF9
+CON-IMM-C2FF3615467F98
+CON-IMM-DAEBF3B95AFFC1
+
+## related_articles
+ART-ASU-IMM-T-CELL-BIOLOGY: the costimulation, CD4/CD8 restriction and Th1/Th2 basics this article's selection and effector mechanisms build on
+ART-ASU-IMM-ANTIGENS-AND-MHC: the MHC class I/II structure and superantigen mechanism this article's processing pathways route antigen through
+
+## question_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## article_source_ids
+src_834aba143e85f6c3efce
+
+## universities
+asu
+
+## years
+ASU_Y1
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## university_notes
+asu: Ain Shams Year 1 Immunology, Term 1 (hegazy.pdf Chapter 4 Cell-mediated immunity + Cytokines mini-section).
+
+## annotations
+### definition_of · CON-IMM-796177C90507E8
+Quote: cells that bind self-peptide/self-MHC too strongly are deleted by apoptosis
+Block: body
+
+## media
+
+
+## media_recommendations
+### diagram · Positive vs negative thymic selection, side by side
+Purpose: The two checkpoints are easy to swap under exam pressure (which one rescues, which one deletes); a single side-by-side diagram of the thymic cortex-to-medulla journey fixes the sequence and the opposite outcomes far better than prose alone.
+Priority: strongly helpful
+Status: needed
+Section: Definition
+Source direction: openly licensed immunology textbook figure
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Ain Shams Year 1 Immunology lecture corpus cross-read against the department's hegazy.pdf MCQ bank, Chapter 4 (Cell-mediated immunity, pages 11-15) and its Cytokines mini-section (pages 16-17), for exam-tested framing.
+
+## claim_ids
+CLM-IMM-TCELL-NEGATIVE-SELECTION-01
+CLM-IMM-TCR-CD3-SIGNAL-ASSOCIATION-01
+
+## span_ids
+SPN-IMM-CMI-EFFECTOR-MECHANISMS-01
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached beyond the ASU lecture/tutorial corpus and department MCQ bank.
+
+## conflicts
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Authored from hegazy.pdf Chapter 4 (Cell-mediated immunity, 42 questions, pages 11-15) plus its "Cytokines" tail mini-section (15 questions, pages 16-17), read via 300dpi page-image render (not raw tesseract OCR, which mis-read the embedded per-block answer-key strips). Mints the teaching home for thymic selection, TCR-CD3 signalling, CTL/NK killing mechanisms and the two antigen-processing pathways, none of which the existing ART-ASU-IMM-T-CELL-BIOLOGY or ART-ASU-IMM-ANTIGENS-AND-MHC articles covered in this depth.
+
+## field_notes
+arabicTitle: No standard Arabic title is in undergraduate use beyond the English term; left empty rather than guessed.
+questionIds: The question batch authored alongside this article tests it; question_ids is populated on import, not by the author.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+media: No rights-cleared asset exists yet; requests are filed in media_recommendations.
+lastReviewed: New record; not yet reviewed.
+reviewDue: Set when the first review completes.

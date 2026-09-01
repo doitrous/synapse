@@ -1,0 +1,1362 @@
+{
+  "lane": "ASU-IMM",
+  "cluster": "hegazy-ch4",
+  "header": "ASU-IMM · hegazy.pdf Chapter 4 (Cell-mediated immunity) — 42/42 questions, all keyed from the printed per-block answer-key strips at the bottom of pages 11-15, read directly from 300dpi page images (tesseract OCR mangled these embedded key tables).",
+  "defaults": {
+    "subject": "imm",
+    "status": "Draft",
+    "owner": "Dr. Omar",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y1"
+    ],
+    "module": "ASU-IMM",
+    "module_subject": "ASU-IMM > Immunology",
+    "exam_weight_by_year": {
+      "ASU_Y1": "0.3"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS",
+      "ART-ASU-IMM-T-CELL-BIOLOGY",
+      "ART-ASU-IMM-ANTIGENS-AND-MHC",
+      "ART-ASU-IMM-INFLAMMATION-CYTOKINES",
+      "ART-ASU-IMM-HUMORAL-IMMUNITY"
+    ],
+    "resource_ids": [
+      "src_834aba143e85f6c3efce"
+    ],
+    "source_citation": "Ain Shams University Immunology Department, hegazy MCQ bank, Chapter 4 (Cell-mediated immunity), Q{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "hegazy-ch4-q01",
+      "page": "11",
+      "title": "Elimination of self-reactive T cells during thymic development is called:",
+      "question": "Elimination of self-reactive T cells during thymic development is called:",
+      "options": {
+        "A": "Apoptosis",
+        "B": "Positive selection",
+        "C": "Negative selection",
+        "D": "Clonal anergy"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Apoptosis is the execution mechanism by which self-reactive clones are removed, but the process/checkpoint being named here is negative selection, not apoptosis in general.",
+        "B": "Incorrect. Positive selection is the earlier thymic checkpoint that rescues cells recognising self MHC; it does not eliminate self-reactive cells.",
+        "C": "Correct. Negative selection is the thymic checkpoint at which developing T cells whose receptor binds self-peptide/self-MHC too strongly are deleted by apoptosis. This clonal deletion of self-reactive clones is the central mechanism of thymic (central) self-tolerance, and it occurs after positive selection, mainly at the corticomedullary junction and in the medulla.",
+        "D": "Incorrect. Clonal anergy is a peripheral tolerance mechanism that functionally silences a self-reactive cell that has already left the thymus; it is not the thymic elimination process described here."
+      },
+      "main_concept": "CON-IMM-796177C90507E8",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Thymic selection",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify negative selection as the thymic mechanism eliminating self-reactive T cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q1, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q02",
+      "page": "11",
+      "title": "Which of the following cytokines is secreted by T reg cells:",
+      "question": "Which of the following cytokines is secreted by T reg cells:",
+      "options": {
+        "A": "IL-4",
+        "B": "IL-5",
+        "C": "IL-7",
+        "D": "Tumor necrosis factor alpha",
+        "E": "Transforming growth factor beta"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. IL-4 is a Th2-associated cytokine that drives IgE class switching and mast-cell/eosinophil-type responses, not a Treg signature cytokine.",
+        "B": "Incorrect. IL-5 is another Th2 cytokine, chiefly promoting eosinophil growth and activation, not a product of regulatory T cells.",
+        "C": "Incorrect. IL-7 supports lymphoid development from haematopoietic stem cells; it is not a Treg effector cytokine.",
+        "D": "Incorrect. TNF-alpha is a pro-inflammatory cytokine produced mainly by activated macrophages and Th1 cells, the opposite of the inhibitory profile regulatory T cells produce.",
+        "E": "Correct. Regulatory T cells (Tregs) are the classic source of the two inhibitory (immunosuppressive) cytokines IL-10 and TGF-beta. TGF-beta dampens T-cell and macrophage activation and helps enforce peripheral self-tolerance, which is exactly the suppressive role Tregs play in controlling immune responses."
+      },
+      "main_concept": "CON-IMM-E0C9FDCE3A6A5D",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Regulatory T cells",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify TGF-beta as a Treg-secreted cytokine.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q2, key = e"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q03",
+      "page": "11",
+      "title": "Staphylococcal enterotoxins may induce shock because:",
+      "question": "Staphylococcal enterotoxins may induce shock because:",
+      "options": {
+        "A": "They elicit an immune response against hapten & carrier",
+        "B": "They have a complex biochemical structure",
+        "C": "They have a high molecular weight",
+        "D": "They stimulate T lymphocytes irrespective of antigen specificity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The hapten-carrier relationship describes how a small molecule needs a carrier protein to be immunogenic; it is not the mechanism by which staphylococcal enterotoxins cause shock.",
+        "B": "Incorrect. Structural complexity is not the property responsible for the massive cytokine release seen in toxic-shock-type presentations.",
+        "C": "Incorrect. Molecular weight alone does not explain the disproportionate, whole-body T-cell activation these toxins trigger.",
+        "D": "Correct. Staphylococcal enterotoxins are superantigens: they cross-link the TCR V-beta chain directly to MHC class II outside the normal peptide-binding groove, activating a huge, polyclonal fraction of T lymphocytes regardless of their individual antigen specificity. This massive, non-specific T-cell activation drives an equally massive cytokine release, which is what produces the shock-like clinical picture."
+      },
+      "main_concept": "CON-IMM-521ADF1111D704",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Superantigens",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain toxic-shock pathogenesis as antigen-nonspecific superantigen activation of T cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q3, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q04",
+      "page": "11",
+      "title": "Interaction of B7 with which of the following molecules inhibits T cell activation:",
+      "question": "Interaction of B7 with which of the following molecules inhibits T cell activation:",
+      "options": {
+        "A": "CD28",
+        "B": "CD40",
+        "C": "CD14",
+        "D": "CTLA-4",
+        "E": "ICAM-1"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. B7 engaging CD28 is the classic costimulatory (activating) second signal for T-cell activation, the opposite effect from what this question asks about.",
+        "B": "Incorrect. CD40 pairs with CD40L (CD154) to deliver the B-cell class-switch signal from T-helper cells; it is not a B7 ligand.",
+        "C": "Incorrect. CD14 is chiefly a co-receptor for bacterial lipopolysaccharide on monocytes/macrophages, unrelated to B7 signalling on T cells.",
+        "D": "Correct. B7 can engage two different receptors on the T cell with opposite outcomes: CD28 delivers an activating costimulatory signal, while CTLA-4 competes with CD28 for the same B7 molecule and instead delivers an inhibitory signal that down-regulates T-cell activation. This CTLA-4 brake is the biological basis of checkpoint-inhibitor immunotherapy.",
+        "E": "Incorrect. ICAM-1 is an adhesion molecule that binds LFA-1 on the T cell to stabilise APC-T-cell contact; it is not a B7 ligand and does not inhibit activation."
+      },
+      "main_concept": "CON-IMM-F4A968204B2571",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Costimulation and checkpoints",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CTLA-4 as the B7 ligand that inhibits, rather than activates, T-cell activation.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q4, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q05",
+      "page": "11",
+      "title": "Which is true about T cell receptor:",
+      "question": "Which is true about T cell receptor:",
+      "options": {
+        "A": "It recognizes native non-processed antigen",
+        "B": "It is a homodimer",
+        "C": "It is associated with the CD3 protein complex on the membrane",
+        "D": "It is present in low number on Th cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The TCR recognises only processed peptide antigen presented within an MHC groove, never native, unprocessed antigen — direct recognition of native antigen is instead a feature of the B-cell receptor.",
+        "B": "Incorrect. The conventional alpha-beta TCR is a heterodimer (two different chains, alpha and beta), not a homodimer.",
+        "C": "Correct. The TCR itself has only a very short cytoplasmic tail and cannot transduce a signal alone. It is non-covalently but intimately associated on the T-cell membrane with the invariant CD3 complex, which carries the machinery that transduces the antigen-recognition signal into the cell once the TCR engages peptide-MHC.",
+        "D": "Incorrect. The TCR is expressed at high, not low, copy number on the surface of every mature T cell, including Th cells, since it is the cell's primary antigen-recognition receptor."
+      },
+      "main_concept": "CON-IMM-543B4509515626",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "TCR-CD3 complex",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the TCR is associated with the CD3 signalling complex on the T-cell membrane.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q5, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q06",
+      "page": "11",
+      "title": "The correct sequence of events in T cell activation is:",
+      "question": "The correct sequence of events in T cell activation is:",
+      "options": {
+        "A": "Activation, differentiation, proliferation",
+        "B": "Activation, proliferation, differentiation",
+        "C": "Maturation, differentiation, activation",
+        "D": "Differentiation, proliferation, activation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Differentiation is placed too early here; proliferation (clonal expansion, driven chiefly by IL-2) comes before differentiation into effector and memory subsets.",
+        "B": "Correct. Once a naive T cell receives antigen recognition plus costimulation, it is first activated, then undergoes clonal proliferation driven largely by IL-2, and only afterward differentiates into effector (and memory) subsets. The correct order is therefore activation, then proliferation, then differentiation.",
+        "C": "Incorrect. Maturation is a thymic, pre-activation process (part of positive and negative selection), not a step that follows activation in the peripheral response.",
+        "D": "Incorrect. This sequence places differentiation before activation, which is backwards; activation must occur first, driven by antigen and costimulatory signal recognition."
+      },
+      "main_concept": "CON-IMM-F5260440C6AF50",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "T-cell activation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State the correct order of T-cell activation, proliferation and differentiation.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q6, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q07",
+      "page": "11",
+      "title": "Superantigen binds to:",
+      "question": "Superantigen binds to:",
+      "options": {
+        "A": "Alpha & beta chains of TCR",
+        "B": "Alpha chain of TCR + MHC class I",
+        "C": "Beta chain of TCR + MHC class II",
+        "D": "Beta chain of TCR + MHC class I"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A superantigen does not bind both TCR chains together; it engages only the TCR beta (V-beta) chain, and it also requires an MHC-class-II partner on the antigen-presenting cell.",
+        "B": "Incorrect. Superantigens engage MHC class II, not class I, and they bind the TCR beta chain rather than the alpha chain.",
+        "C": "Correct. A superantigen cross-links the TCR V-beta chain directly to MHC class II on the antigen-presenting cell, entirely outside the normal peptide-binding groove. Because this binding does not depend on the antigen-specific peptide groove, it activates a huge, antigen-nonspecific fraction of T cells that share that V-beta gene segment.",
+        "D": "Incorrect. Superantigens require MHC class II as their presenting partner, not MHC class I."
+      },
+      "main_concept": "CON-IMM-521ADF1111D704",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Superantigens",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that superantigens cross-link the TCR beta chain to MHC class II outside the peptide groove.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q7, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q08",
+      "page": "11",
+      "title": "Which of the following is a property of CTLs:",
+      "question": "Which of the following is a property of CTLs:",
+      "options": {
+        "A": "Class II MHC restriction",
+        "B": "CD4 expression",
+        "C": "Release of granzymes",
+        "D": "Peptide presentation to Th cell"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. CTLs (cytotoxic T lymphocytes) are restricted by MHC class I, not class II; class II restriction is a helper-T-cell property.",
+        "B": "Incorrect. CTLs express CD8, not CD4; CD4 marks the helper subset.",
+        "C": "Correct. A defining cytotoxic property of CTLs is releasing the contents of cytoplasmic granules onto the target-cell surface: perforin polymerises to form membrane pores, and granzymes (serine proteases) enter through them to trigger apoptosis in the target cell. This granule-exocytosis pathway is CTLs' chief cytotoxic mechanism, distinct from the class-II restriction, CD4 expression and peptide presentation that instead characterise the helper subset.",
+        "D": "Incorrect. Presenting peptide to a Th cell is an antigen-presenting-cell function, not a property of the cytotoxic T lymphocyte itself, which is instead the cell doing the killing."
+      },
+      "main_concept": "CON-IMM-5E4D173A9D426C",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Cytotoxic T lymphocytes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify granzyme release as a defining cytotoxic property of CTLs.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q8, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q09",
+      "page": "11",
+      "title": "NK cell recognize tumor cells using:",
+      "question": "NK cell recognize tumor cells using:",
+      "options": {
+        "A": "Pattern recognition receptor",
+        "B": "Killer activating & killer inhibitory receptors",
+        "C": "Complement receptor",
+        "D": "Alpha & beta chains",
+        "E": "None of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pattern-recognition receptors bind pathogen-associated molecular patterns and belong to innate recognition generally, not to the NK-specific tumour-recognition mechanism tested here.",
+        "B": "Correct. NK cells decide whether to kill a target by integrating opposing signals from killer-activating receptors (recognising stress-induced or altered-self ligands) and killer-inhibitory receptors (recognising normal self MHC class I, which restrains killing). A tumour cell is lysed when activating signals dominate, typically because it has lost or altered MHC class I.",
+        "C": "Incorrect. A complement receptor mediates a different, opsonin-dependent recognition mechanism, not the killer-activating/inhibitory receptor balance NK cells use here.",
+        "D": "Incorrect. Alpha and beta chains describe TCR structure, a T-cell (not NK-cell) antigen-recognition receptor.",
+        "E": "Incorrect. Option B correctly names the mechanism, so 'none of the above' does not apply."
+      },
+      "main_concept": "CON-IMM-0D8E8EA363F362",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "NK cells",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify killer-activating and killer-inhibitory receptors as the NK tumour-recognition mechanism.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q1-9 strip, bottom of p.11)",
+        "hegazy": "Chapter 4 Q9, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q10",
+      "page": "12",
+      "title": "A major marker retained on all peripheral T cells is:",
+      "question": "A major marker retained on all peripheral T cells is:",
+      "options": {
+        "A": "CD4",
+        "B": "CD8",
+        "C": "CD3",
+        "D": "CD25",
+        "E": "IL-2 receptor"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. CD4 marks only the helper/regulatory subset of peripheral T cells, not every T cell.",
+        "B": "Incorrect. CD8 marks only the cytotoxic subset of peripheral T cells, not every T cell.",
+        "C": "Correct. CD3 is the pan-T-cell marker: it labels every peripheral T cell (both CD4+ and CD8+ subsets) because it is the invariant signalling complex associated with the TCR on every mature T lymphocyte, which is why it is used to count total T cells by flow cytometry. CD4 and CD8 instead mark T-cell subsets rather than the whole T-cell population, which is why CD3 rather than either is used to identify a cell as belonging to the T lineage at all.",
+        "D": "Incorrect. CD25 (the IL-2 receptor alpha chain) marks activated and regulatory T cells specifically, not resting peripheral T cells in general.",
+        "E": "Incorrect. The IL-2 receptor is upregulated on activation, not constitutively retained on every resting peripheral T cell."
+      },
+      "main_concept": "CON-IMM-0E8641D21D4210",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "T-cell markers",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify CD3 as the marker retained on all peripheral T cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q10, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q11",
+      "page": "12",
+      "title": "CMI plays a major role in all of the following except:",
+      "question": "CMI plays a major role in all of the following except:",
+      "options": {
+        "A": "Immunity against extracellular bacteria",
+        "B": "Killing virally infected cells",
+        "C": "Killing tumors",
+        "D": "Destruction of M.TB & Listeria (intracellular bacteria)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cell-mediated immunity's core roles are killing virally infected cells, killing tumour cells, and clearing intracellular pathogens such as M. tuberculosis and Listeria; defence against extracellular bacteria is instead carried out chiefly by humoral immunity, through antibody-mediated opsonization and complement activation.",
+        "B": "Incorrect. Killing virally infected cells is a genuine CMI role, carried out by cytotoxic T lymphocytes and NK cells.",
+        "C": "Incorrect. Killing tumour cells is a genuine CMI role, again mediated by CTLs and NK cells.",
+        "D": "Incorrect. Destroying intracellular bacteria such as M. tuberculosis and Listeria is a genuine CMI role, chiefly through IFN-gamma-activated macrophages."
+      },
+      "main_concept": "CON-IMM-77B61C4222A097",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Cell-mediated immunity",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish cell-mediated immunity's roles (intracellular pathogens, tumours, VICs) from humoral immunity's role against extracellular bacteria.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q11, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q12",
+      "page": "12",
+      "title": "Which isn't true about Fas pathway:",
+      "question": "Which isn't true about Fas pathway:",
+      "options": {
+        "A": "Used by Tc cell",
+        "B": "Involves use of granzymes",
+        "C": "Fas ligand is expressed on immune cells",
+        "D": "Apoptosis occurs in Fas-expressing cells"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this is true). Cytotoxic T cells do use the Fas pathway, alongside the perforin/granzyme pathway, as a mechanism of target-cell killing.",
+        "B": "Correct — this is the false statement. The Fas pathway triggers apoptosis when Fas ligand on the killer cell engages Fas (CD95) on the target cell, activating a caspase cascade. It does not involve granzymes, which belong to the separate perforin/granule-exocytosis pathway.",
+        "C": "Incorrect (this is true). Fas ligand is expressed on activated immune cells, including cytotoxic T cells, which use it to trigger Fas-mediated killing.",
+        "D": "Incorrect (this is true). Apoptosis is exactly the outcome in target cells expressing Fas once Fas ligand engages it."
+      },
+      "main_concept": "CON-IMM-CF982669CF0AF9",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Cytotoxic mechanisms",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that the Fas pathway does not use granzymes, unlike the perforin/granule pathway.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q12, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q13",
+      "page": "12",
+      "title": "NK cell are similar to Tc cell in all of the following except:",
+      "question": "NK cell are similar to Tc cell in all of the following except:",
+      "options": {
+        "A": "Killing by apoptosis",
+        "B": "MHC restriction",
+        "C": "Killing of tumors & virally infected cells",
+        "D": "IFN-gamma production"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this is a shared property). Both NK cells and cytotoxic T cells kill their targets by triggering apoptosis.",
+        "B": "Correct — this is the property NOT shared. Cytotoxic T cells absolutely require MHC class I restriction to recognise a target, whereas NK cells are not MHC-restricted. Indeed NK cells preferentially kill cells that have LOST MHC class I expression, the opposite requirement.",
+        "C": "Incorrect (this is a shared property). Both NK cells and CTLs kill tumour cells and virally infected cells.",
+        "D": "Incorrect (this is a shared property). Both cell types produce IFN-gamma as part of their effector function."
+      },
+      "main_concept": "CON-IMM-3D9B295025FE16",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "NK cells",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify MHC restriction as the property NK cells do not share with cytotoxic T cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q13, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q14",
+      "page": "12",
+      "title": "Which of the following isn't expressed on T cells:",
+      "question": "Which of the following isn't expressed on T cells:",
+      "options": {
+        "A": "CD40L",
+        "B": "CTLA-4",
+        "C": "Fas ligand",
+        "D": "B7"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS expressed on T cells). CD40L (CD154) is expressed on activated T-helper cells and delivers the B-cell class-switch signal.",
+        "B": "Incorrect (this IS expressed on T cells). CTLA-4 is expressed on T cells and competes with CD28 for B7 to deliver an inhibitory signal.",
+        "C": "Incorrect (this IS expressed on T cells). Fas ligand is expressed on activated cytotoxic T cells as part of the Fas-killing pathway.",
+        "D": "Correct. B7 is expressed on antigen-presenting cells (such as dendritic cells, macrophages and activated B cells), not on T cells. T cells instead carry B7's receptors, CD28 and CTLA-4."
+      },
+      "main_concept": "CON-IMM-0E5F986A985CB9",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Costimulation and checkpoints",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify B7 as an APC-side molecule that is not expressed on T cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q14, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q15",
+      "page": "12",
+      "title": "All of the following about Treg are true except:",
+      "question": "All of the following about Treg are true except:",
+      "options": {
+        "A": "Express CD4+ & CD25+",
+        "B": "Not antigen specific",
+        "C": "Inhibit self-reactive clones",
+        "D": "Secrete IL-10, TGF-beta"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this is true). Regulatory T cells are identified by co-expression of CD4 and CD25.",
+        "B": "Correct — this is the false statement. Tregs are, in fact, antigen specific: like any other T cell they carry a defined-specificity TCR, generated through the normal T-cell developmental pathway. They are not bystander cells acting in a purely antigen-non-specific fashion.",
+        "C": "Incorrect (this is true). Inhibiting self-reactive lymphocyte clones is a core Treg function, enforcing peripheral self-tolerance.",
+        "D": "Incorrect (this is true). IL-10 and TGF-beta are the signature inhibitory cytokines Tregs secrete."
+      },
+      "main_concept": "CON-IMM-7D683EC21A5E1E",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Regulatory T cells",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Correct the misconception that Tregs act in an antigen-nonspecific way.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q15, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q16",
+      "page": "12",
+      "title": "Compared to naive cells, memory cells are characterised by all of the following except:",
+      "question": "Compared to naive cells, memory cells are characterised by all of the following except:",
+      "options": {
+        "A": "Requires less costimulation",
+        "B": "Requires smaller antigen amount",
+        "C": "Active during primary immune response",
+        "D": "Longer life span"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is true). Memory T cells require less costimulation to be reactivated than naive cells do.",
+        "B": "Incorrect (this is true). Memory cells can be reactivated by a smaller amount of antigen than naive cells require.",
+        "C": "Correct — this is the false statement. Memory cells are generated BY the primary immune response but are the effectors of the faster, stronger secondary (anamnestic) response, not the primary one. The primary response is, by definition, mediated by naive cells meeting antigen for the first time.",
+        "D": "Incorrect (this is true). Memory cells persist with a markedly longer life span than naive cells."
+      },
+      "main_concept": "CON-IMM-42111436C0D27E",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Memory T cells",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Contrast memory and naive T-cell properties, including which immune response each mediates.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q16, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q17",
+      "page": "12",
+      "title": "Cell mediated IR involves all of the following cells except:",
+      "question": "Cell mediated IR involves all of the following cells except:",
+      "options": {
+        "A": "Th1 cell",
+        "B": "CTLs",
+        "C": "Activated macrophages",
+        "D": "Neutrophils"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this is a genuine CMI cell). Th1 cells are central CMI effectors, activating macrophages and supporting CTL responses through IFN-gamma and IL-2.",
+        "B": "Incorrect (this is a genuine CMI cell). Cytotoxic T lymphocytes are core CMI effectors.",
+        "C": "Incorrect (this is a genuine CMI cell). Macrophages activated by IFN-gamma are core CMI effectors against intracellular pathogens.",
+        "D": "Correct. Neutrophils are innate, phagocyte-lineage cells recruited during acute inflammation. They are not classed among the cell-mediated immunity effector set (Th1 cells, CTLs, activated macrophages, NK cells) tested here."
+      },
+      "main_concept": "CON-IMM-D006721C472E3B",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Cell-mediated immunity",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify neutrophils as not part of the CMI effector-cell set.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q10-17 strip, bottom of p.12)",
+        "hegazy": "Chapter 4 Q17, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q18",
+      "page": "13",
+      "title": "Which of the followings doesn't apply to IFN-gamma?",
+      "question": "Which of the followings doesn't apply to IFN-gamma?",
+      "options": {
+        "A": "Increased expression of MHC I & II on macrophages",
+        "B": "Promotes opsonization",
+        "C": "Enhance NK to phagocytose intracellular bacteria",
+        "D": "Regulate positively Th1 production"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS an IFN-gamma effect). IFN-gamma upregulates MHC class I and II expression on macrophages, enhancing antigen presentation.",
+        "B": "Incorrect (this IS an IFN-gamma effect). IFN-gamma promotes opsonization, supporting phagocytosis of antibody/complement-coated targets.",
+        "C": "Correct. This does NOT apply. NK cells are cytotoxic lymphocytes, not phagocytes: they kill by apoptosis-inducing mechanisms (perforin/granzyme, Fas), not by phagocytosing intracellular bacteria, so IFN-gamma cannot 'enhance NK phagocytosis' — that function does not exist.",
+        "D": "Incorrect (this IS an IFN-gamma effect). IFN-gamma is the signature Th1 cytokine and positively reinforces further Th1 differentiation."
+      },
+      "main_concept": "CON-IMM-17CE429C40F7BD",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Cytokines",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify that NK cells do not phagocytose, so IFN-gamma cannot enhance NK phagocytosis.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q18, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q19",
+      "page": "13",
+      "title": "T cell ligand for B7 on APCs:",
+      "question": "T cell ligand for B7 on APCs:",
+      "options": {
+        "A": "LFA-1",
+        "B": "ICAM-1",
+        "C": "CD28",
+        "D": "CTLA-4",
+        "E": "C & D"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. LFA-1 is the T-cell integrin that binds ICAM-1 for adhesion, not a B7 ligand.",
+        "B": "Incorrect. ICAM-1 is the APC-side adhesion partner of LFA-1, not a T-cell ligand for B7.",
+        "C": "Incorrect alone. CD28 is one genuine B7 ligand on the T cell, but CTLA-4 also binds B7, so CD28 alone is incomplete.",
+        "D": "Incorrect alone. CTLA-4 is one genuine B7 ligand on the T cell, but CD28 also binds B7, so CTLA-4 alone is incomplete.",
+        "E": "Correct. B7 on the antigen-presenting cell has two T-cell ligands with opposite functional outcomes: CD28 delivers the activating costimulatory signal, while CTLA-4 competes for the same B7 molecule and delivers an inhibitory signal instead. Both CD28 and CTLA-4 together are the correct answer, since B7 can engage either one depending on the stage of the response."
+      },
+      "main_concept": "CON-IMM-0E5F986A985CB9",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Costimulation and checkpoints",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CD28 and CTLA-4 together as the T-cell ligands for B7.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q19, key = f"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q20",
+      "page": "13",
+      "title": "CD4 cells can be:",
+      "question": "CD4 cells can be:",
+      "options": {
+        "A": "Helper",
+        "B": "Regulatory",
+        "C": "Cytotoxic",
+        "D": "A & B"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Helper T cells are a genuine CD4+ subset, but so are regulatory T cells, making 'helper' alone incomplete.",
+        "B": "Incorrect alone. Regulatory T cells (Tregs) are a genuine CD4+ subset, but so are helper cells, making 'regulatory' alone incomplete.",
+        "C": "Incorrect. Cytotoxic function belongs to the CD8+ (MHC-class-I-restricted) subset, not CD4+ T cells.",
+        "D": "Correct. The CD4 marker is shared by more than one functional T-cell subset: it is carried by conventional helper T cells (Th1/Th2) and also by CD4+CD25+ regulatory T cells (Tregs). CD4+ T cells are never cytotoxic — that property belongs exclusively to the CD8+ subset."
+      },
+      "main_concept": "CON-IMM-22E0C947E0733C",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "T-cell subsets",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that CD4+ T cells include both helper and regulatory subsets, never cytotoxic.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q20, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q21",
+      "page": "13",
+      "title": "Th1 secretes:",
+      "question": "Th1 secretes:",
+      "options": {
+        "A": "TNF alpha",
+        "B": "IL-4",
+        "C": "IL-10",
+        "D": "IL-5"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Th1 cells characteristically secrete IFN-gamma, IL-2 and TNF-alpha, supporting macrophage activation and cell-mediated immunity against intracellular pathogens. This Th1 cytokine profile drives macrophage-mediated clearance of intracellular pathogens, in contrast to the Th2 profile (IL-4, IL-5, IL-13) that instead supports humoral and allergic-type responses.",
+        "B": "Incorrect. IL-4 is a signature Th2 cytokine, driving IgE class switching and allergic-type responses, not a Th1 product.",
+        "C": "Incorrect. IL-10 is an inhibitory cytokine associated with regulatory T cells (and some Th2/macrophage sources), not a characteristic Th1 secretion.",
+        "D": "Incorrect. IL-5 is a Th2 cytokine that promotes eosinophil activity, not a Th1 product."
+      },
+      "main_concept": "CON-IMM-6C257C64D17F08",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Th1/Th2 cytokines",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify TNF-alpha as a Th1-secreted cytokine.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q21, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q22",
+      "page": "13",
+      "title": "Which of the following substances is NOT released by activated TH cells?",
+      "question": "Which of the following substances is NOT released by activated TH cells?",
+      "options": {
+        "A": "Alpha interferon",
+        "B": "Gamma interferon",
+        "C": "IL-2",
+        "D": "IL-4"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alpha interferon is a type I interferon produced chiefly by virally infected cells and plasmacytoid dendritic cells as part of the early antiviral innate response, not a product of activated T-helper cells. T-helper cells instead characteristically release gamma interferon, IL-2 and IL-4, none of which is alpha interferon.",
+        "B": "Incorrect (this IS released by TH cells). Gamma interferon (a type II interferon) is a signature Th1 cytokine.",
+        "C": "Incorrect (this IS released by TH cells). IL-2 is released by activated T-helper cells and drives T-cell proliferation.",
+        "D": "Incorrect (this IS released by TH cells). IL-4 is released by activated Th2 cells."
+      },
+      "main_concept": "CON-IMM-E406FC885617EB",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Cytokines",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify alpha interferon as not a T-helper-cell product, unlike gamma interferon, IL-2 and IL-4.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q22, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q23",
+      "page": "13",
+      "title": "Target of CTLs are characterised by all of the following except:",
+      "question": "Target of CTLs are characterised by all of the following except:",
+      "options": {
+        "A": "Express MHC class I + foreign antigen",
+        "B": "Include VIC, tumor cells, cells with intracellular bacteria",
+        "C": "Express Fas ligand molecule",
+        "D": "Express CD40"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this is true of CTL targets). CTLs recognise foreign antigen presented on MHC class I on their targets.",
+        "B": "Incorrect (this is true of CTL targets). CTL targets include virally infected cells, tumour cells, and cells harbouring intracellular bacteria.",
+        "C": "Incorrect (this is true of CTL targets). A target cell can itself express Fas, engaged by Fas ligand on the CTL to trigger apoptosis (note this is the target's Fas, distinct from the CTL's Fas ligand).",
+        "D": "Correct. CD40 expression is not a defining feature of CTL targets. CD40 is characteristically expressed on B cells and other antigen-presenting cells as part of the CD40-CD40L class-switch signal, unrelated to what marks a cell as a CTL target."
+      },
+      "main_concept": "CON-IMM-C2FF3615467F98",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Cytotoxic T lymphocytes",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CD40 as not a feature of cells targeted by cytotoxic T lymphocytes.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q23, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q24",
+      "page": "13",
+      "title": "All of the following are true about NK cells except:",
+      "question": "All of the following are true about NK cells except:",
+      "options": {
+        "A": "Express CD56",
+        "B": "Kill by perforin pathway",
+        "C": "Presence of MHC I releases them from normal state of inhibition",
+        "D": "Recognize cells expressing altered self molecules"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is true). CD56 is a characteristic NK-cell surface marker.",
+        "B": "Incorrect (this is true). NK cells kill using the perforin/granzyme granule pathway, the same mechanism CTLs use.",
+        "C": "Correct — this is the false statement, and the logic is reversed. Presence of self MHC class I engages killer-inhibitory receptors and RESTRAINS NK killing. It is the LOSS or absence of MHC class I ('missing self') that releases NK cells from this normal state of inhibition, not its presence.",
+        "D": "Incorrect (this is true). NK cells recognise and kill cells expressing altered-self or stress-induced ligands via their killer-activating receptors."
+      },
+      "main_concept": "CON-IMM-FA3F867C3550DE",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "NK cells",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Correct the reversed 'presence of MHC I inhibits NK cells' statement to 'absence of MHC I releases NK inhibition'.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q24, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q25",
+      "page": "13",
+      "title": "Which of the following aren't involved in Apoptosis:",
+      "question": "Which of the following aren't involved in Apoptosis:",
+      "options": {
+        "A": "CD95",
+        "B": "Fas ligand",
+        "C": "Lysozyme",
+        "D": "Perforins",
+        "E": "Granzymes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS involved). CD95 (Fas) is the receptor that, when engaged by Fas ligand, triggers apoptosis in the target cell.",
+        "B": "Incorrect (this IS involved). Fas ligand engages Fas/CD95 to trigger the apoptotic cascade.",
+        "C": "Correct. Lysozyme is a bactericidal enzyme found in neutrophil and macrophage lysosomes that digests bacterial peptidoglycan. It plays no part in the apoptotic killing pathway, unlike CD95, Fas ligand, perforin and granzymes.",
+        "D": "Incorrect (this IS involved). Perforin polymerises to form the membrane pore that allows granzymes to enter and trigger apoptosis.",
+        "E": "Incorrect (this IS involved). Granzymes are the serine proteases that enter through perforin pores and directly trigger the apoptotic cascade."
+      },
+      "main_concept": "CON-IMM-22C28BCBAA4980",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Apoptosis mechanisms",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify lysozyme as not part of the apoptotic killing machinery.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q25, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q26",
+      "page": "13",
+      "title": "All of the following about processing phagocytosed antigens are true except:",
+      "question": "All of the following about processing phagocytosed antigens are true except:",
+      "options": {
+        "A": "Involves extracellular microbes & exogenous antigens",
+        "B": "Processing & association with MHC class II occurs",
+        "C": "Can occur in virally infected cells & tumor cells",
+        "D": "Leads to activation of Th CD4+ cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is true). Phagocytosed-antigen processing handles extracellular microbes and other exogenous antigen taken up into a phagosome.",
+        "B": "Incorrect (this is true). This exogenous pathway loads processed peptide onto MHC class II.",
+        "C": "Correct — this is the false statement. The exogenous/phagocytic processing pathway does not occur inside virally infected or tumour cells. Those cells instead present antigen through the separate endogenous pathway, in which cytosolic protein is processed and loaded onto MHC class I.",
+        "D": "Incorrect (this is true). MHC-II-restricted presentation of phagocytosed antigen activates CD4+ T-helper cells."
+      },
+      "main_concept": "CON-IMM-D5F6A4E2B84825",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Antigen processing",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that exogenous/phagocytic antigen processing does not occur in virally infected or tumour cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q18-26 strip, bottom of p.13)",
+        "hegazy": "Chapter 4 Q26, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q27",
+      "page": "14",
+      "title": "About processing newly synthesized intracytosolic antigens, which is false:",
+      "question": "About processing newly synthesized intracytosolic antigens, which is false:",
+      "options": {
+        "A": "Occur in tumor cells",
+        "B": "Lead to activation of Tc CD8+ cells",
+        "C": "Association with MHC class II occurs",
+        "D": "Processing of endogenous viral proteins"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this is true). Tumour cells, like virally infected cells, can generate endogenous/intracytosolic antigen that enters this pathway.",
+        "B": "Incorrect (this is true). MHC-I-restricted presentation of endogenous antigen activates CD8+ cytotoxic T cells.",
+        "C": "Correct — this is the false statement. Newly synthesised intracytosolic (endogenous) antigen is processed by the proteasome and loaded onto MHC class I, not MHC class II. MHC-II association belongs to the separate exogenous/phagocytic pathway.",
+        "D": "Incorrect (this is true). Processing endogenous viral proteins made inside an infected cell is the classic example of this pathway."
+      },
+      "main_concept": "CON-IMM-7C77A43A5803BC",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Antigen processing",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that endogenous/cytosolic antigen processing associates with MHC class I, not class II.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q27, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q28",
+      "page": "14",
+      "title": "ICAM-1 molecule:",
+      "question": "ICAM-1 molecule:",
+      "options": {
+        "A": "Presents on APCs",
+        "B": "Essential as a costimulatory signal for T cell",
+        "C": "Binds LFA-1 on T cells",
+        "D": "All of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect alone. ICAM-1 is indeed found on antigen-presenting cells, but this alone does not capture its defining functional role tested here.",
+        "B": "Incorrect. ICAM-1/LFA-1 is an adhesion pair, not the B7/CD28 costimulatory ('signal 2') pathway; it stabilises contact rather than delivering costimulation.",
+        "C": "Correct. ICAM-1 is an adhesion molecule expressed on antigen-presenting cells that binds LFA-1 (an integrin) on the T cell, strengthening and stabilising the APC-T-cell contact (the immune synapse) during antigen recognition. ICAM-1 is distinct from the B7 molecule that instead delivers the costimulatory 'signal 2' through CD28, and it is not restricted to professional antigen-presenting cells alone.",
+        "D": "Incorrect. Because ICAM-1 is an adhesion molecule rather than a costimulatory signal, 'all of the above' is not correct; only the LFA-1-binding adhesion role is accurate."
+      },
+      "main_concept": "CON-IMM-D5A560A9CF7F7E",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Adhesion molecules",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that ICAM-1 binds LFA-1 on T cells to stabilise the immune synapse.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q28, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q29",
+      "page": "14",
+      "title": "Anergy of T cells occur if:",
+      "question": "Anergy of T cells occur if:",
+      "options": {
+        "A": "Antigen doesn't bind to TCR",
+        "B": "MHC class II doesn't bind to CD4",
+        "C": "B7 doesn't bind CD28",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. If antigen never binds the TCR at all, there is simply no recognition event; but anergy specifically describes recognition without costimulation, so this alone is incomplete as the trigger described.",
+        "B": "Incorrect alone. Failure of the CD4 co-receptor interaction weakens signalling, but is only part of the fuller costimulation-failure picture that produces anergy.",
+        "C": "Correct answer requires this option and is captured fully in D. When B7 fails to engage CD28 — i.e., signal 1 (antigen via TCR) occurs without signal 2 (costimulation) — the T cell becomes anergic rather than activated.",
+        "D": "Correct. T-cell anergy is the general outcome of incomplete activation signalling: it can follow from antigen failing to engage the TCR, from the CD4-MHC-II interaction failing, or — most classically — from B7 failing to engage CD28 so that costimulation never arrives. In every one of these scenarios the T cell ends up functionally unresponsive rather than activated, which is exactly what anergy means."
+      },
+      "main_concept": "CON-IMM-DAEBF3B95AFFC1",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Anergy",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that anergy results when full TCR/costimulatory signalling is incomplete.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q29, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q30",
+      "page": "14",
+      "title": "All of the following molecules are present on T cells except:",
+      "question": "All of the following molecules are present on T cells except:",
+      "options": {
+        "A": "CD40",
+        "B": "CD28",
+        "C": "LFA-1",
+        "D": "Antigen receptor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CD40 is expressed on B cells and other antigen-presenting cells, not on T cells. T cells instead express its partner, CD40 ligand (CD40L/CD154), which engages CD40 on the B cell to deliver the class-switch signal.",
+        "B": "Incorrect (this IS present on T cells). CD28 is the T-cell costimulatory receptor for B7.",
+        "C": "Incorrect (this IS present on T cells). LFA-1 is the T-cell integrin that binds ICAM-1 for adhesion.",
+        "D": "Incorrect (this IS present on T cells). The antigen receptor (TCR) is, by definition, present on every T cell."
+      },
+      "main_concept": "CON-IMM-F5355ED5234523",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Costimulation and checkpoints",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CD40 (not CD40L) as absent from T cells; CD40 is on B cells/APCs.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q30, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q31",
+      "page": "14",
+      "title": "Clonal expansion of Tc needs:",
+      "question": "Clonal expansion of Tc needs:",
+      "options": {
+        "A": "Antigen stimulation",
+        "B": "Costimulation",
+        "C": "IL-2 from Th1",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. Antigen stimulation (signal 1) is necessary, but is not sufficient on its own for full clonal expansion.",
+        "B": "Incorrect alone. Costimulation (signal 2) is necessary, but is not sufficient on its own without antigen recognition and proliferative cytokine support.",
+        "C": "Incorrect alone. IL-2 from Th1 cells drives proliferation, but cannot substitute for the antigen-recognition and costimulatory signals that must occur first.",
+        "D": "Correct. Full clonal expansion of a cytotoxic T-cell precursor requires all three elements together: antigen (via the TCR-CD3 complex on MHC-I-presented peptide), costimulation (via B7-CD28), and IL-2 supplied chiefly by activated Th1 cells to drive the actual proliferation. Any one of these three signals alone is insufficient; only their combination drives the sustained IL-2 signalling needed for a cytotoxic clone to expand."
+      },
+      "main_concept": "CON-IMM-276ADD34BD24D2",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "T-cell activation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that clonal expansion of CTLs requires antigen, costimulation and IL-2 together.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q31, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q32",
+      "page": "14",
+      "title": "Binding of B7 to CTLA-4 leads to:",
+      "question": "Binding of B7 to CTLA-4 leads to:",
+      "options": {
+        "A": "Clonal expansion",
+        "B": "T cell inactivation",
+        "C": "IL-2 production",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Clonal expansion is the outcome of B7 binding CD28 (costimulation), not CTLA-4.",
+        "B": "Correct. CTLA-4 competes with CD28 for the same B7 molecule and, when engaged, delivers an inhibitory signal that down-regulates T-cell activity. The result is T-cell inactivation, the opposite outcome from B7-CD28 engagement.",
+        "C": "Incorrect. IL-2 production is driven by CD28 costimulation and TCR signalling, not by the inhibitory CTLA-4 pathway.",
+        "D": "Incorrect. Since B7-CTLA-4 engagement inhibits rather than activates the T cell, clonal expansion and IL-2 production do not occur, so 'all of the above' is wrong."
+      },
+      "main_concept": "CON-IMM-F4A968204B2571",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Costimulation and checkpoints",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that B7-CTLA-4 engagement inactivates the T cell.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q32, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q33",
+      "page": "14",
+      "title": "Positive selection of T cells:",
+      "question": "Positive selection of T cells:",
+      "options": {
+        "A": "Cells recognizing foreign MHC are selected to die",
+        "B": "Result in self tolerance",
+        "C": "Occur in bone marrow",
+        "D": "Cells recognizing self MHC molecule are selected to survive"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Positive selection does not test recognition of foreign MHC at all; it is about whether a cell can recognise SELF MHC, and cells that fail to do so die by neglect, not cells recognising foreign MHC.",
+        "B": "Incorrect. Self-tolerance (deletion of self-reactive clones) is the outcome of negative selection, not positive selection, which instead establishes self-MHC restriction.",
+        "C": "Incorrect. Positive selection occurs in the thymic cortex, not the bone marrow (which is the site of B-cell, not T-cell, maturation).",
+        "D": "Correct. Positive selection is the thymic checkpoint at which developing T cells whose receptor can recognise self MHC molecules are rescued and allowed to survive, establishing self-MHC restriction. Cells that fail to recognise self MHC at all die by neglect."
+      },
+      "main_concept": "CON-IMM-D437B97B048F65",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Thymic selection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that positive selection rescues T cells recognising self MHC.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q33, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q34",
+      "page": "14",
+      "title": "Which is true about negative selection:",
+      "question": "Which is true about negative selection:",
+      "options": {
+        "A": "Occur in thymic cortex",
+        "B": "Cells that don't express TCR are deleted",
+        "C": "Apoptosis of cells recognizing self MHC class I, II",
+        "D": "Eliminates self reactive clones",
+        "E": "None of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Negative selection occurs mainly at the corticomedullary junction and in the medulla, after (not in) the cortex, where positive selection occurs.",
+        "B": "Incorrect. Cells failing to express a functional TCR at all die by neglect during an earlier checkpoint, not specifically through negative selection.",
+        "C": "Incorrect. Negative selection deletes cells that bind self-peptide/self-MHC too STRONGLY (high affinity), not simply any cell 'recognizing' self MHC — recognising self MHC at an appropriate (not excessive) affinity is instead required to survive positive selection.",
+        "D": "Correct. Negative selection is the thymic checkpoint that eliminates self-reactive clones — T cells whose receptor binds self-peptide/self-MHC with high affinity. It removes them by apoptosis, the central mechanism of thymic (central) self-tolerance.",
+        "E": "Incorrect. Option D correctly describes negative selection, so 'none of the above' does not apply."
+      },
+      "main_concept": "CON-IMM-796177C90507E8",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Thymic selection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Confirm that negative selection eliminates self-reactive clones.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q34, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q35",
+      "page": "14",
+      "title": "Which of the following T cells are released from the thymus:",
+      "question": "Which of the following T cells are released from the thymus:",
+      "options": {
+        "A": "Those recognizing self antigen in association with self MHC",
+        "B": "Those recognizing foreign antigen in association with self MHC",
+        "C": "Those recognizing foreign antigen in association with foreign MHC",
+        "D": "Those recognizing foreign antigen without MHC"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cells recognising self antigen with self MHC would be self-reactive and are deleted during negative selection; they are not released from the thymus.",
+        "B": "Correct. The T cells that ultimately leave the thymus as mature, naive cells are those that survived both checkpoints: positive selection established that they recognise self MHC (self-MHC restriction), and negative selection confirmed they are not strongly self-reactive. The net result is a population that recognises foreign antigen only when it is presented in the context of self MHC.",
+        "C": "Incorrect. T cells are restricted to recognising antigen presented by self, not foreign, MHC molecules — this is the definition of MHC restriction.",
+        "D": "Incorrect. T cells never recognise antigen without an MHC context; unlike the BCR, the TCR requires MHC-presented peptide."
+      },
+      "main_concept": "CON-IMM-D437B97B048F65",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Thymic selection",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that thymic emigrants recognise foreign antigen restricted to self MHC.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q27-35 strip, bottom of p.14)",
+        "hegazy": "Chapter 4 Q35, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q36",
+      "page": "15",
+      "title": "Naive B & T lymphocytes are:",
+      "question": "Naive B & T lymphocytes are:",
+      "options": {
+        "A": "Effector cells",
+        "B": "Mature cells before encountering an antigen",
+        "C": "Present in secondary lymphoid organs",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Naive lymphocytes are not yet effector cells; they become effector cells only after activation by antigen.",
+        "B": "Correct. A naive B or T lymphocyte is a fully mature cell (having already completed maturation and selection in the bone marrow or thymus) that has not yet encountered the specific antigen its receptor recognises. Naivety refers to antigen-inexperience, not developmental immaturity.",
+        "C": "Incorrect alone. Naive lymphocytes do recirculate through secondary lymphoid organs, but this fact alone does not define what 'naive' means, which is specifically about being antigen-inexperienced.",
+        "D": "Incorrect. Since naive cells are not yet effector cells, 'all of the above' cannot be correct."
+      },
+      "main_concept": "CON-IMM-2C9A5E12E169CD",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Lymphocyte development",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define naive lymphocytes as mature but antigen-inexperienced cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)",
+        "hegazy": "Chapter 4 Q36, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q37",
+      "page": "15",
+      "title": "Which of the following interacts with MHC for stabilization:",
+      "question": "Which of the following interacts with MHC for stabilization:",
+      "options": {
+        "A": "CD4",
+        "B": "CD3",
+        "C": "TCR",
+        "D": "TLR"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. CD4 acts as a co-receptor that binds MHC class II alongside the TCR, stabilising the TCR-peptide-MHC-II interaction and strengthening the signal on helper T cells (CD8 performs the analogous role with MHC class I). CD3, by contrast, transduces the resulting signal into the cell rather than stabilising the MHC contact itself.",
+        "B": "Incorrect. CD3 transduces the TCR's signal intracellularly; it does not itself bind or stabilise the MHC interaction.",
+        "C": "Incorrect. The TCR is the molecule being stabilised by the CD4/CD8 co-receptor interaction with MHC, not the stabilising partner itself in this framing.",
+        "D": "Incorrect. Toll-like receptors are innate pattern-recognition receptors, unrelated to TCR-MHC stabilisation."
+      },
+      "main_concept": "CON-IMM-9BFD32254DFC64",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "TCR-CD3 complex",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CD4 as the co-receptor that stabilises MHC class II recognition by the TCR.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)",
+        "hegazy": "Chapter 4 Q37, key = a"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q38",
+      "page": "15",
+      "title": "Signaling molecules & antigen recognition proteins all associate with each other to transduce the signal intracellularly. Which protein is intimately associated with the TCR?",
+      "question": "Signaling molecules & antigen recognition proteins all associate with each other to transduce the signal intracellularly. Which protein is intimately associated with the TCR?",
+      "options": {
+        "A": "B7",
+        "B": "CD3",
+        "C": "CD28",
+        "D": "CTLA-4",
+        "E": "MHC class II"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. B7 is an APC-surface costimulatory ligand, not the intracellular signal-transduction partner of the TCR.",
+        "B": "Correct. The TCR itself cannot transduce a signal. It is intimately, non-covalently associated with the CD3 complex on the T-cell membrane, and CD3's cytoplasmic ITAM motifs are what actually transduce the antigen-recognition signal into the cell.",
+        "C": "Incorrect. CD28 is the T-cell costimulatory receptor for B7, a separate ('signal 2') pathway from TCR signal transduction.",
+        "D": "Incorrect. CTLA-4 is the inhibitory counterpart to CD28, also a separate costimulatory-pathway molecule, not the TCR's signalling partner.",
+        "E": "Incorrect. MHC class II is the antigen-presenting molecule the TCR recognises, not an intracellular signal-transduction partner."
+      },
+      "main_concept": "CON-IMM-543B4509515626",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "TCR-CD3 complex",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify CD3 as the protein intimately associated with the TCR for signal transduction.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)",
+        "hegazy": "Chapter 4 Q38, key = b"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q39",
+      "page": "15",
+      "title": "Which of the following statements regarding superantigen is correct?",
+      "question": "Which of the following statements regarding superantigen is correct?",
+      "options": {
+        "A": "Responsible for pathogenesis of rheumatic fever",
+        "B": "Processed & presented by monocytes in class II MHC to CD4",
+        "C": "Lead to markedly elevated circulating levels of IL-10 & TGF-beta",
+        "D": "React with T lymphocytes with different antigen specificities",
+        "E": "Activate large number of B cells"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Rheumatic fever's pathogenesis is attributed to molecular mimicry between streptococcal and cardiac antigens, not to superantigen activity.",
+        "B": "Incorrect. A superantigen is not processed into peptide fragments at all; it binds MHC class II and the TCR V-beta chain intact, outside the normal processing/peptide-groove route.",
+        "C": "Incorrect. Superantigen activation drives a massive surge of pro-inflammatory cytokines (such as IL-2, IFN-gamma and TNF), not the inhibitory cytokines IL-10 and TGF-beta.",
+        "D": "Correct. Because a superantigen cross-links the TCR V-beta chain to MHC class II outside the antigen-specific peptide groove, it engages T lymphocytes irrespective of their individual antigen specificity. It therefore reacts with a huge, polyclonal population of T cells that share only the relevant V-beta gene segment.",
+        "E": "Incorrect. Superantigens act on T lymphocytes via TCR-MHC-II cross-linking; they do not directly activate B cells."
+      },
+      "main_concept": "CON-IMM-521ADF1111D704",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Superantigens",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Confirm that superantigens react with T cells of differing antigen specificities.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)",
+        "hegazy": "Chapter 4 Q39, key = d"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q40",
+      "page": "15",
+      "title": "A man develops encephalitis due to infection with a virus, and the infected astrocytes no longer express MHC class I antigen. Which of the following immune cells is most likely to destroy these infected astrocytes?",
+      "question": "A man develops encephalitis due to infection with a virus, and the infected astrocytes no longer express MHC class I antigen. Which of the following immune cells is most likely to destroy these infected astrocytes?",
+      "options": {
+        "A": "B cell",
+        "B": "Cytotoxic T-cell",
+        "C": "Mast cell",
+        "D": "Neutrophil",
+        "E": "NK cell"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. B cells act through antibody production, not direct cytotoxic killing of infected cells.",
+        "B": "Incorrect. Cytotoxic T cells absolutely require MHC class I to recognise their target's presented antigen; astrocytes that have lost MHC class I have become invisible to CTLs, exactly the immune-evasion strategy the virus is exploiting.",
+        "C": "Incorrect. Mast cells release inflammatory mediators in allergic and parasitic responses; they are not the cytotoxic effector against virally infected cells losing MHC I.",
+        "D": "Incorrect. Neutrophils are phagocytes specialised for extracellular bacterial clearance, not for killing virally infected host cells.",
+        "E": "Correct. NK cells are not MHC-restricted; their killer-inhibitory receptors are normally engaged by self MHC class I to restrain killing. When astrocytes lose MHC class I to evade CTL recognition, that inhibitory signal disappears (the 'missing self' state), releasing NK cells to kill the infected cells instead — the immune system's answer to this specific viral evasion strategy."
+      },
+      "main_concept": "CON-IMM-FA3F867C3550DE",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "NK cells",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Apply missing-self recognition to explain why NK cells (not CTLs) kill MHC-I-negative virally infected cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)",
+        "hegazy": "Chapter 4 Q40, key = e"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q41",
+      "page": "15",
+      "title": "A major marker retained on all peripheral T cells is:",
+      "question": "A major marker retained on all peripheral T cells is:",
+      "options": {
+        "A": "CD4",
+        "B": "CD8",
+        "C": "CD3",
+        "D": "CD25"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. CD4 marks only the helper/regulatory subset of peripheral T cells, not every T cell.",
+        "B": "Incorrect. CD8 marks only the cytotoxic subset of peripheral T cells, not every T cell.",
+        "C": "Correct. CD3 is the pan-T-cell marker, labelling every peripheral T cell because it is the invariant signalling complex associated with the TCR on every mature T lymphocyte. CD4 and CD8 instead mark only the helper or cytotoxic subset respectively, and CD25 marks activation rather than the resting peripheral pool.",
+        "D": "Incorrect. CD25 marks activated and regulatory T cells specifically, not resting peripheral T cells in general."
+      },
+      "main_concept": "CON-IMM-0E8641D21D4210",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "T-cell markers",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify CD3 as the marker retained on all peripheral T cells.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)",
+        "hegazy": "Chapter 4 Q41, key = c"
+      }
+    },
+    {
+      "key": "hegazy-ch4-q42",
+      "page": "15",
+      "title": "The antigen moiety on an antigen-presenting cell recognized by the T cell receptor is:",
+      "question": "The antigen moiety on an antigen-presenting cell recognized by the T cell receptor is:",
+      "options": {
+        "A": "Native protein antigen plus MHC molecule",
+        "B": "Processed peptide antigen plus MHC",
+        "C": "Processed peptide antigen",
+        "D": "Native antigen",
+        "E": "MHC alone"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The TCR never recognises native, unprocessed protein antigen, even together with MHC; the antigen must first be processed into peptide fragments.",
+        "B": "Correct. The TCR recognises antigen only once it has been processed into a short peptide fragment and loaded into the groove of an MHC molecule (class I or class II depending on the pathway). The combined processed-peptide-plus-MHC complex is the actual ligand the TCR binds.",
+        "C": "Incorrect. Processed peptide alone, without its MHC partner, is not recognised by the TCR; MHC restriction means the peptide must be presented within an MHC groove.",
+        "D": "Incorrect. Native (unprocessed) antigen is never the TCR's ligand; only processed peptide is.",
+        "E": "Incorrect. MHC alone, without a bound peptide, is not what the TCR recognises during a genuine antigen-specific response."
+      },
+      "main_concept": "CON-IMM-FD2151E25121CF",
+      "topic": "Cell-mediated immunity",
+      "subtopic": "Antigen recognition",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the TCR recognises processed peptide antigen presented within an MHC molecule.",
+      "field_notes": {
+        "keySource": "printed answer table, hegazy.pdf (Q36-42 strip, bottom of p.15)",
+        "hegazy": "Chapter 4 Q42, key = b"
+      }
+    }
+  ]
+}

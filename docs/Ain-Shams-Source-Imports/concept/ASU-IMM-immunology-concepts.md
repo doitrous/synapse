@@ -18355,3 +18355,4178 @@ reviewDue: Set after the first review is completed.
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 rejectedMergeCandidateIds: find-existing.mjs "IL-1" returned a live KAU-scoped concept CON-IMM-2AE767715E0D7D ("IL-1 is an important mediator of innate inflammatory responses", articleIds ART-IMM-TOP-9DEF7D24E6, a Kasr-pipeline article outside this batch's --with set) — close but not identical grain (mediator-role vs macrophage-origin framing), and a cross-university sparse update carries real risk of breaking that record's existing per-university traceability if done without full care; deferred rather than attempted this sitting, and a distinct ASU-scoped concept minted instead.
 uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-796177C90507E8
+
+## label
+Negative selection in the thymus deletes T cells that react strongly to self antigen presented on self MHC
+
+## canonical_key
+tcell.selection.negative-thymic-elimination-of-self-reactive
+
+## aliases
+Thymic negative selection
+Clonal deletion of self-reactive T cells
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Negative selection is the thymic checkpoint (occurring after positive selection, in the corticomedullary junction and medulla) at which developing T cells whose receptor binds self-peptide/self-MHC with high affinity are eliminated by apoptosis. This clonal deletion of self-reactive clones is the central mechanism of central (thymic) self-tolerance, distinct from apoptosis in general and from clonal anergy, which silences rather than kills a self-reactive cell that escapes the thymus.
+
+## explicit_objective
+Identify negative selection as the thymic process that eliminates self-reactive T-cell clones by apoptosis, and distinguish it from positive selection and from peripheral anergy.
+
+## pitfalls
+Confusing negative selection with positive selection (which rescues, not deletes, self-MHC-restricted cells) or with peripheral anergy (a functional silencing of a self-reactive cell that survived thymic selection, not a deletion mechanism).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-49628CE665F61D
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TCELL-NEGATIVE-SELECTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+1- Elimination of self reactive T cells during thymic development is called: a. Apoptosis b. Positive selection c. Negative selection d. Clonal anergy
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q1/Q34
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-543B4509515626
+
+## label
+The T-cell receptor is non-covalently associated with the CD3 complex, which transduces the antigen-recognition signal
+
+## canonical_key
+tcellreceptor.cd3-complex.membrane-signal-association
+
+## aliases
+TCR-CD3 complex
+CD3 as the TCR signal-transduction partner
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The alpha-beta TCR heterodimer itself has only a very short cytoplasmic tail and cannot transduce a signal alone; it is non-covalently but intimately associated on the T-cell membrane with the invariant CD3 complex (gamma, delta, epsilon and zeta chains), which carries the ITAM motifs that transduce the antigen-recognition signal into the cell once the TCR engages peptide-MHC.
+
+## explicit_objective
+Identify CD3 as the signalling molecule intimately associated with the TCR that transduces the antigen-recognition signal intracellularly.
+
+## pitfalls
+Assuming the TCR signals on its own because it is the antigen-recognition unit; the TCR recognises antigen but CD3 is required to transduce that recognition into an intracellular signal. Do not confuse CD3 (signal transduction) with CD28/B7 (costimulation) or CD4/CD8 (co-receptors).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-D19F42BA79849C
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TCR-CD3-SIGNAL-ASSOCIATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+5- Which is true about T cell receptor: c. It is associated with CD3 protein complex on the membrane / 38- Signaling molecules & antigen recognition proteins all associating with each other to transduce the signal intracellularly. Which protein is intimately associated with the TCR? b. CD3
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q5/Q38
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-F5260440C6AF50
+
+## label
+T-cell activation proceeds in the order activation, then proliferation, then differentiation
+
+## canonical_key
+tcell.activation.sequence-activation-proliferation-differentiation
+
+## aliases
+Sequence of T-cell activation events
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Once a naive T cell receives antigen recognition (signal 1) plus costimulation (signal 2), the correct order of the ensuing events is activation of the cell, then clonal proliferation (driven chiefly by IL-2), and only then differentiation into effector and memory subsets — not maturation or differentiation occurring before activation.
+
+## explicit_objective
+State the correct temporal order of T-cell activation: activation, proliferation, then differentiation.
+
+## pitfalls
+Reversing the order (placing differentiation or maturation before activation); maturation of a T cell is a thymic, pre-activation process and is not part of this peripheral activation sequence.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-E2EFF8D0C78EC2
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TCELL-ACTIVATION-SEQUENCE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+6- The Correct sequence of events in T cell activation is: b. Activation, proliferation, differentiation
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q6
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-5E4D173A9D426C
+
+## label
+Cytotoxic T lymphocytes kill their targets chiefly by releasing perforin and granzymes from cytoplasmic granules
+
+## canonical_key
+ctl.killing.granzyme-perforin-release-mechanism
+
+## aliases
+CTL granule exocytosis pathway
+Granzyme-mediated killing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A property that distinguishes CTLs (CD8+, MHC-class-I-restricted) from helper T cells is that CTLs release the contents of cytoplasmic granules onto the target-cell surface: perforin polymerises to form membrane pores, and granzymes (serine proteases) enter through them to trigger apoptosis in the target cell — a mechanism CTLs share in principle with NK cells but not with helper T cells, which instead present peptide to other cells rather than kill directly.
+
+## explicit_objective
+Identify granzyme (with perforin) release as a defining cytotoxic property of CTLs, distinct from MHC-II restriction, CD4 expression or peptide presentation, which are helper-T-cell features.
+
+## pitfalls
+Attributing class II MHC restriction, CD4 expression or peptide presentation to Th cell to CTLs; those are properties of the CD4+ helper subset, not the CD8+ cytotoxic subset that releases granzymes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-7EBC289118B06C
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-CTL-GRANZYME-PERFORIN-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+8- Which of the following is a property of CTLs: c. Release of granzymes
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q8
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-0D8E8EA363F362
+
+## label
+NK cells recognise and kill tumour cells by integrating signals from killer-activating and killer-inhibitory receptors
+
+## canonical_key
+nkcell.recognition.killer-activating-inhibitory-receptors
+
+## aliases
+NK killer-activating and killer-inhibitory receptors
+NK receptor balance
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+NK cells decide whether to kill a target cell by integrating opposing signals from killer-activating receptors (which recognise stress-induced or altered-self ligands on the target) and killer-inhibitory receptors (which recognise normal self MHC class I and, when engaged, restrain killing); a target is lysed when activating signals dominate, typically because MHC class I is lost or altered and can no longer engage the inhibitory receptor.
+
+## explicit_objective
+Identify killer-activating and killer-inhibitory receptors, not a pattern-recognition or complement receptor, as the mechanism NK cells use to recognise tumour cells.
+
+## pitfalls
+Confusing this NK-specific activating/inhibitory receptor balance with pattern-recognition receptors (an innate, non-NK-specific mechanism) or with a complement receptor (which mediates a different, opsonin-dependent recognition).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-54F0D8B6C8EA26
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-NK-KILLER-RECEPTOR-BALANCE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+9- NK cell recognize tumor cells using: b. Killer activating & killer inhibitory receptors
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q9
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-3D9B295025FE16
+
+## label
+Unlike cytotoxic T cells, NK cells are not MHC-restricted in recognising their targets
+
+## canonical_key
+nkcell.mhc-restriction.absent-unlike-ctl
+
+## aliases
+NK cells lack MHC restriction
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+NK cells resemble cytotoxic T cells in killing by apoptosis, in killing tumour cells and virally infected cells (VICs), and in producing IFN-gamma, but differ in one key respect: NK-cell recognition is not MHC-restricted (indeed NK cells preferentially kill cells that have lost MHC class I), whereas CTL recognition absolutely requires MHC class I restriction.
+
+## explicit_objective
+State that MHC restriction is the property NK cells do NOT share with cytotoxic T cells, despite similarities in killing mechanism, targets and IFN-gamma production.
+
+## pitfalls
+Assuming NK cells share every property with CTLs because both are cytotoxic lymphocytes; MHC restriction specifically is a CTL feature that NK cells lack.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-EDDCC1F705F847
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-NK-NO-MHC-RESTRICTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+13- NK cell are similar to Tc cell in all of the following except: b. MHC restriction
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q13
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-D006721C472E3B
+
+## label
+Cell-mediated immunity does not include neutrophils among its effector cells
+
+## canonical_key
+cellmediatedimmunity.cells.excludes-neutrophils
+
+## aliases
+CMI effector cells exclude neutrophils
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cell-mediated immunity in this course's framing is carried out by Th1 cells, cytotoxic T lymphocytes (CTLs) and activated macrophages; neutrophils are innate, phagocyte-lineage cells recruited in acute inflammation and are not classed as a CMI effector cell alongside these three.
+
+## explicit_objective
+Identify neutrophils as the cell type that is NOT part of the cell-mediated immunity effector set (Th1, CTLs, activated macrophages).
+
+## pitfalls
+Assuming any cell active during an infection belongs to CMI; neutrophils are innate effectors, not one of the CMI cell types tested here.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-146AF1B728B2D2
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-CMI-EXCLUDES-NEUTROPHILS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+17- Cell mediated IR involves all of the following cells except: d. Neutrophils
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q17
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-22E0C947E0733C
+
+## label
+CD4+ T cells comprise both helper and regulatory subsets, not helper cells alone
+
+## canonical_key
+tcell.cd4.subsets-helper-and-regulatory
+
+## aliases
+CD4 T-cell subsets: helper and regulatory
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The CD4 marker is shared by more than one functional T-cell subset: CD4+ T cells can be conventional helper T cells (Th1/Th2, MHC-class-II-restricted) or CD4+CD25+ regulatory T cells (Treg); CD4+ T cells are not cytotoxic, since cytotoxic function is a CD8+ (MHC-class-I-restricted) property.
+
+## explicit_objective
+Identify that CD4+ T cells can be helper or regulatory, but not cytotoxic.
+
+## pitfalls
+Assuming CD4+ automatically means 'helper only'; the regulatory (Treg) subset also carries CD4, while cytotoxic function belongs to the CD8+ subset instead.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-19D6B87A141F6D
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-CD4-SUBSETS-HELPER-REGULATORY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+20- CD4 cells can be: d. a & b (Helper, Regulatory)
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q20
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-E406FC885617EB
+
+## label
+Alpha interferon is not a substance released by activated T-helper cells
+
+## canonical_key
+cytokine.ifnalpha.not-t-helper-product
+
+## aliases
+IFN-alpha is not a Th-cell cytokine
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Activated T-helper cells characteristically release gamma interferon, IL-2 and IL-4, among other cytokines; alpha interferon is a type I interferon produced chiefly by virally infected cells and plasmacytoid dendritic cells as part of the early antiviral innate response, not a product of activated T-helper cells.
+
+## explicit_objective
+Identify alpha interferon as the cytokine NOT released by activated TH cells, distinguishing it from gamma interferon, IL-2 and IL-4, which TH cells do release.
+
+## pitfalls
+Confusing type I interferon (alpha/beta, innate/antiviral source) with type II interferon (gamma, a genuine T-helper/NK product).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-6C257C64D17F08
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-IFN-ALPHA-NOT-TH-PRODUCT-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+22- Which of the following substances is NOT released by activated TH cells? a. Alpha interferon.
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q22
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-FA3F867C3550DE
+
+## label
+NK cells kill cells that lose MHC class I expression because that loss removes the inhibitory 'missing-self' brake
+
+## canonical_key
+nkcell.missingself.mhc-i-absence-triggers-killing
+
+## aliases
+Missing-self recognition by NK cells
+Loss of MHC I triggers NK killing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Under normal conditions, self MHC class I engages killer-inhibitory receptors on NK cells and restrains killing; when a cell loses MHC class I expression (as viruses and some tumours do to evade CTLs), that inhibitory signal is removed — the 'missing self' state — and NK cells are released from inhibition to kill the cell. This is the opposite of the CTL mechanism, which requires MHC class I to present the foreign antigen it recognises.
+
+## explicit_objective
+Explain that loss of MHC class I expression is what releases NK cells from their normal state of killer-inhibitory-receptor inhibition, unlike CTLs, which require MHC class I presence to recognise a target.
+
+## pitfalls
+Reversing the logic and assuming presence (not absence) of MHC class I releases NK inhibition; it is the loss of MHC class I that removes the brake on NK killing. Also distinguishing this NK 'missing-self' mechanism from the CTL mechanism, which needs MHC-I-presented antigen to kill.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-C8CA76DA47FFF1
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-NK-MISSING-SELF-MHC-I-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+24- All of the following are true about NK cells except: c. Presence of MHC I release them from normal state of inhibition / 40- ...astrocytes no longer express MHC class 1 antigen. Which immune cell is most likely to destroy these infected astrocytes? e. NK cell
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q24/Q40
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-22C28BCBAA4980
+
+## label
+Lysozyme is not one of the molecular players that carry out apoptosis
+
+## canonical_key
+apoptosis.mediators.excludes-lysozyme
+
+## aliases
+Apoptosis mediators exclude lysozyme
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The molecules that carry out programmed cell death (apoptosis) in cytotoxic killing include CD95 (Fas), Fas ligand, perforin and granzymes; lysozyme is instead a bactericidal enzyme found in neutrophil and macrophage lysosomes that digests bacterial peptidoglycan, and plays no part in the apoptotic killing pathway.
+
+## explicit_objective
+Identify lysozyme as the molecule NOT involved in apoptosis, distinguishing its bactericidal role from the CD95/FasL/perforin/granzyme apoptotic machinery.
+
+## pitfalls
+Assuming any molecule associated with killing (bacterial or cellular) belongs to the apoptosis pathway; lysozyme kills bacteria enzymatically and has no role in triggering or executing apoptosis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-2C0A5DC86C91AD
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-APOPTOSIS-EXCLUDES-LYSOZYME-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+25- Which of the following aren't involved in Apoptosis: c. Lysosymes
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q25
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-D5F6A4E2B84825
+
+## label
+Phagocytosed (exogenous) antigens are processed and associated with MHC class II, not presented by cells with intracellular (viral) infection
+
+## canonical_key
+antigenprocessing.exogenous.phagocytosed-mhc-ii-pathway
+
+## aliases
+Exogenous antigen processing pathway
+MHC class II presentation of phagocytosed antigen
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Processing of phagocytosed (exogenous) antigens involves extracellular microbes and other exogenous material taken up into an endosomal/phagosomal compartment, association of the resulting peptide with MHC class II, and presentation to activate CD4+ T-helper cells — this exogenous/MHC-II pathway does not occur in virally infected cells or tumour cells, which instead present endogenously synthesised antigen via the separate MHC class I pathway.
+
+## explicit_objective
+State that phagocytosed/exogenous antigen processing associates with MHC class II and activates CD4+ Th cells, and does NOT occur in virally infected or tumour cells (which use the endogenous/MHC-I route instead).
+
+## pitfalls
+Assuming the exogenous (phagocytic) processing pathway also operates inside virally infected or tumour cells; those cells present antigen through the separate endogenous/MHC-I pathway, not this one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_concept_ids
+CON-IMM-9BFD32254DFC64
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-ANTIGEN-PROCESSING-EXOGENOUS-MHCII-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+26- All of the following about processing phagocytosed Ags are true except: c. Can occur in virally infected cells & tumor cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q26
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-7C77A43A5803BC
+
+## label
+Newly synthesised intracytosolic (endogenous) antigen is processed and associated with MHC class I, not MHC class II
+
+## canonical_key
+antigenprocessing.endogenous.cytosolic-mhc-i-pathway
+
+## aliases
+Endogenous antigen processing pathway
+MHC class I presentation of cytosolic antigen
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Processing of newly synthesised intracytosolic antigens (such as viral proteins made inside an infected cell) occurs through the endogenous pathway: cytosolic proteasomal degradation, transport into the endoplasmic reticulum, and loading onto MHC class I for presentation to CD8+ cytotoxic T cells. Association with MHC class II is a feature of the separate exogenous/phagocytic pathway, not this endogenous route.
+
+## explicit_objective
+State that endogenous/cytosolic antigen processing associates with MHC class I and activates CD8+ T cells, and that MHC class II association is false for this pathway.
+
+## pitfalls
+Assigning MHC class II association to the endogenous/cytosolic processing pathway; that pairing belongs to the exogenous/phagocytic pathway instead.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_concept_ids
+CON-IMM-D981D07A61E9FE
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-ANTIGEN-PROCESSING-ENDOGENOUS-MHCI-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+27- [About processing newly synthesized intracytosolic Ags] which is false: c. Association with MHC II occurs
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q27
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-D5A560A9CF7F7E
+
+## label
+ICAM-1 on an antigen-presenting cell binds LFA-1 on the T cell to stabilise the immune synapse
+
+## canonical_key
+icam1.function.binds-lfa1-adhesion
+
+## aliases
+ICAM-1-LFA-1 adhesion pair
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+ICAM-1 is an adhesion molecule expressed on antigen-presenting cells (and other cells) that binds LFA-1 (an integrin) on the T cell, strengthening and stabilising the APC-T-cell contact (the immune synapse) during antigen recognition; ICAM-1 is not itself a costimulatory signal in the B7/CD28 sense, and it is not restricted to professional APCs.
+
+## explicit_objective
+State that ICAM-1 binds LFA-1 on T cells, providing adhesion that stabilises the APC-T-cell contact.
+
+## pitfalls
+Confusing ICAM-1/LFA-1 adhesion with the B7-CD28 costimulatory signal; ICAM-1 stabilises contact rather than delivering the costimulatory 'signal 2'.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-0E5F986A985CB9
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-ICAM1-LFA1-ADHESION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+28- ICAM-1 molecule: c. Binds LFA-1 on T cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q28
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-276ADD34BD24D2
+
+## label
+Clonal expansion of cytotoxic T cells requires antigen stimulation, costimulation, and IL-2 from Th1 cells together
+
+## canonical_key
+tcell.clonalexpansion.requirements-ag-costim-il2
+
+## aliases
+Requirements for CTL clonal expansion
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Full clonal expansion of a cytotoxic T-cell precursor is not driven by any single signal alone: it requires antigen (signal 1, via the TCR-CD3 complex on MHC-I-presented peptide), costimulation (signal 2, via B7-CD28), and IL-2 supplied chiefly by activated Th1 cells to drive proliferation — all three are needed together.
+
+## explicit_objective
+State that antigen stimulation, costimulation and IL-2 from Th1 cells are all required for clonal expansion of cytotoxic T cells, not any single factor alone.
+
+## pitfalls
+Selecting only one requirement (e.g., antigen stimulation alone) as sufficient for clonal expansion; all three signals act together.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-E2EFF8D0C78EC2
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TCELL-CLONAL-EXPANSION-REQUIREMENTS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+31- Clonal expansion of Tc needs: d. All of the above (Ag stimulation, Costimulation, IL2 from Th1)
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q31
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-D437B97B048F65
+
+## label
+Positive selection in the thymus rescues T cells whose receptor recognises self MHC, allowing them to survive
+
+## canonical_key
+tcell.selection.positive-thymic-self-mhc-survival
+
+## aliases
+Thymic positive selection
+Self-MHC restriction acquired in the cortex
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Positive selection is the earlier thymic checkpoint (in the thymic cortex, before negative selection) at which developing T cells whose receptor can recognise self MHC molecules with low-to-moderate affinity are rescued and allowed to survive, establishing self-MHC restriction; cells that fail to recognise self MHC at all die by neglect. The T cells that ultimately leave the thymus are those that recognise foreign antigen presented in the context of self MHC — a product of positive selection (self-MHC restriction) combined with negative selection (deletion of self-reactive clones).
+
+## explicit_objective
+State that positive selection rescues T cells recognising self MHC (establishing self-MHC restriction), and that mature T cells leaving the thymus recognise foreign antigen in association with self MHC.
+
+## pitfalls
+Confusing positive selection (rescue of self-MHC-recognising cells) with negative selection (deletion of self-reactive cells) or with self-tolerance in general; also, assuming cells leaving the thymus recognise foreign antigen with foreign MHC, rather than foreign antigen restricted to self MHC.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-796177C90507E8
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TCELL-POSITIVE-SELECTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+33- Positive selection of T cells: d. Cells recognizing self MHC molecule are selected to survive / 35- Which of the following T cells are released from the thymus: b. Those recognizing foreign Ag in association with self MHC
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q33/Q35
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-2C9A5E12E169CD
+
+## label
+Naive B and T lymphocytes are mature cells that have not yet encountered their specific antigen
+
+## canonical_key
+lymphocyte.naive.mature-before-antigen-encounter
+
+## aliases
+Naive lymphocyte definition
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A naive B or T lymphocyte is a fully mature cell (having already completed maturation and selection in the bone marrow or thymus) that circulates through the blood and secondary lymphoid organs but has not yet encountered the specific antigen its receptor recognises; it is not an effector cell, and naivety refers to antigen-experience, not to developmental immaturity.
+
+## explicit_objective
+Define naive B and T lymphocytes as mature cells that have not yet encountered antigen, distinguishing naivety (antigen-inexperience) from developmental immaturity.
+
+## pitfalls
+Equating 'naive' with 'immature'; naive lymphocytes are fully mature, just antigen-inexperienced, and they are present in secondary (not only primary) lymphoid organs and blood.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-D85F501ED0260E
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-NAIVE-LYMPHOCYTE-DEFINITION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+36- Naive B & T lymphocytes are: b. Mature cells before encountering an Ag
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q36
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-7D683EC21A5E1E
+
+## label
+Regulatory T cells (CD4+CD25+) are antigen specific and suppress self-reactive clones by secreting IL-10 and TGF-beta
+
+## canonical_key
+treg.identity.cd4-cd25-antigen-specific-self-tolerance
+
+## aliases
+Treg identity and specificity
+CD4+CD25+ regulatory T cells
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Regulatory T cells (Tregs) are identified by co-expression of CD4 and CD25, contribute to peripheral self-tolerance by inhibiting self-reactive lymphocyte clones, and act mainly through the inhibitory cytokines IL-10 and TGF-beta. Unlike a common misconception, Tregs are antigen specific (they carry a TCR with defined specificity, generated like any other T cell) rather than acting in a purely antigen-non-specific bystander fashion.
+
+## explicit_objective
+State that CD4+CD25+ regulatory T cells are antigen specific, inhibit self-reactive clones and secrete IL-10/TGF-beta, correcting the misconception that Tregs act non-specifically.
+
+## pitfalls
+Assuming Tregs are 'not antigen specific' because their suppressive effect can extend to bystander cells; Tregs themselves carry an antigen-specific TCR, and 'not antigen specific' is the false statement in this bank's framing.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-E0C9FDCE3A6A5D
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TREG-IDENTITY-ANTIGEN-SPECIFIC-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+15- All of the following about Treg are true except: b. Not Ag specific
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q15
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+
+---
+
+# Item
+
+## id
+CON-IMM-42111436C0D27E
+
+## label
+Memory T cells differ from naive T cells by requiring less costimulation and less antigen, and by acting in the secondary rather than the primary immune response
+
+## canonical_key
+memorytcell.vs.naive-properties
+
+## aliases
+Memory versus naive T-cell properties
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Compared with naive T cells, memory T cells require less costimulation and a smaller amount of antigen to be reactivated, and persist with a longer life span; memory cells are the effectors of the secondary (anamnestic) immune response, not the primary response, since the primary response is by definition mediated by naive cells encountering antigen for the first time.
+
+## explicit_objective
+Contrast memory T cells with naive T cells on costimulation requirement, antigen threshold, life span and which immune response (primary vs secondary) each mediates.
+
+## pitfalls
+Assuming memory cells are active during the primary immune response; memory cells are generated BY the primary response but mediate the faster secondary response, not the primary one itself.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-5D0DFF26A97616
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-MEMORY-VS-NAIVE-TCELL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+16- Compared to naive cells, memory cells are cc by all of the following except: c. Active during 1ry IR
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q16
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-0E8641D21D4210
+
+## label
+CD3 is the pan-T-cell marker, expressed on every peripheral T cell regardless of CD4 or CD8 subset
+
+## canonical_key
+tcell.cd3.pan-t-cell-marker
+
+## aliases
+CD3 as total T-cell marker
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+CD3 is the invariant signalling complex associated with the TCR on every mature T lymphocyte, and because it is present on both CD4+ and CD8+ subsets alike, it is the marker used (for example by flow cytometry) to identify or count the total peripheral T-cell population, unlike CD4 or CD8, which each mark only one subset.
+
+## explicit_objective
+Identify CD3 as the marker retained on all peripheral T cells, unlike the subset-restricted CD4 and CD8 markers.
+
+## pitfalls
+Selecting CD4 or CD8 as the marker present on 'all' T cells; each marks only its own subset, while CD3 alone is pan-T-cell.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-543B4509515626
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-CD3-PAN-TCELL-MARKER-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+10- A major marker retained on all peripheral T cells is: c. CD3 / 41. A major marker retained on all peripheral T cells is: c. CD3
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q10/Q41
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-CF982669CF0AF9
+
+## label
+The Fas pathway triggers target-cell apoptosis through Fas ligand engaging Fas (CD95), without involving granzymes
+
+## canonical_key
+fas.pathway.ligand-receptor-apoptosis-no-granzyme
+
+## aliases
+Fas-FasL apoptosis pathway
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Cytotoxic T cells can kill a target through the Fas pathway: Fas ligand on the killer cell engages Fas (CD95) on the target cell, activating a caspase cascade that triggers apoptosis. This pathway is mechanistically distinct from the perforin/granzyme (granule-exocytosis) pathway — the Fas route does not involve granzymes at all, even though both pathways end in target-cell apoptosis.
+
+## explicit_objective
+State that the Fas/FasL pathway triggers apoptosis without granzyme involvement, distinguishing it from the separate perforin/granzyme pathway.
+
+## pitfalls
+Assuming granzymes are used in the Fas pathway because both routes are described as CTL 'apoptosis' mechanisms; granzyme use is specific to the perforin/granule-exocytosis pathway, not the Fas/FasL pathway.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-5E4D173A9D426C
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-FAS-PATHWAY-NO-GRANZYME-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+12- Which isn't true about Fas pathway: b. Involves use of granzymes
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q12
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-C2FF3615467F98
+
+## label
+Cytotoxic T lymphocytes target cells presenting foreign antigen on MHC class I, including virally infected cells, tumour cells and cells with intracellular bacteria
+
+## canonical_key
+ctl.targets.mhc-i-foreign-antigen-cell-types
+
+## aliases
+CTL target-cell features
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A cell becomes a CTL target when it expresses MHC class I presenting foreign (non-self) antigen and, typically, Fas ligand; this describes virally infected cells (VICs), tumour cells and cells harbouring intracellular bacteria. CD40 expression is not a feature of a CTL target — CD40 is instead characteristically expressed on B cells and other antigen-presenting cells as part of the CD40-CD40L class-switch signal, an unrelated humoral-immunity pathway.
+
+## explicit_objective
+List the features that mark a cell as a CTL target (MHC-I plus foreign antigen, Fas ligand expression, VIC/tumour/intracellular-bacteria identity) and exclude CD40 expression, which is not one of them.
+
+## pitfalls
+Assuming any surface molecule associated with immune signalling (such as CD40) marks a cell as a CTL target; CD40 belongs to the humoral (B-cell class-switch) pathway, not CTL target recognition.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-5E4D173A9D426C
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-CTL-TARGET-FEATURES-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+23- Target of CTLs are cc by all of the following except: d. Express CD40
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q23
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-DAEBF3B95AFFC1
+
+## label
+T-cell anergy is the functional unresponsiveness that follows incomplete activation signalling, most classically when B7 fails to engage CD28
+
+## canonical_key
+tcell.anergy.incomplete-signal-outcome
+
+## aliases
+Causes of T-cell anergy
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Anergy is a peripheral tolerance mechanism in which a T cell becomes functionally unresponsive rather than activated. It results whenever full two-signal activation is not achieved — whether antigen fails to engage the TCR, the CD4-MHC-II co-receptor interaction fails, or (most classically) B7 on the antigen-presenting cell fails to engage CD28 on the T cell, so that costimulation (signal 2) never arrives even though antigen recognition (signal 1) may have occurred.
+
+## explicit_objective
+State that anergy results from incomplete T-cell activation signalling, especially failure of B7-CD28 costimulation.
+
+## pitfalls
+Confusing anergy (a peripheral, functional silencing that a T cell can enter after leaving the thymus) with negative selection (a central, thymic deletion mechanism); anergic cells survive but do not respond.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CMI-EFFECTOR-MECHANISMS
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-0E5F986A985CB9
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-IMM-TCELL-ANERGY-CAUSES-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+29- Anergy of T cells occur if: d. All of the above (Ag doesn't bind TCR / MHC II doesn't bind CD4 / B7 doesn't bind CD28)
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | hegazy Ch4 Q29
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Dr. Omar
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
