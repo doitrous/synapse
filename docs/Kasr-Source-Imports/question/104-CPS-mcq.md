@@ -21,11 +21,11 @@
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
-    Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
+    Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 2 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 21 questions, 4 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
-    Physiology Cardiovascular System — Pacemaker Electrophysiology — 9 questions, 4 concepts
+    Physiology Cardiovascular System — Pacemaker Electrophysiology — 15 questions, 4 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
@@ -15466,6 +15466,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-8BE27A696589
+## title
+About the purkinje tissue,all the following are true except :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+About the purkinje tissue,all the following are true except :
+## answer_a
+they are modified myocardial cells
+## explanation_a
+True, so not the exception. Purkinje fibres are modified cardiac muscle fibres — built from the same conducting-system lineage as the SA node, AV node and AV bundle, all of which the department book states explicitly are specialised cardiac muscle, not nerve tissue.
+## answer_b
+they are confined to the ventricles
+## explanation_b
+True, so not the exception. Purkinje fibres are confined to the ventricles, reached via the moderator band on the right and running beneath the subendocardium of both ventricles, encircling the papillary-muscle bases before ascending toward the ventricular base.
+## answer_c
+they are primitive nerve tissue
+## explanation_c
+The exception, and the answer. Purkinje fibres are not primitive nerve tissue at all — they are modified cardiac MUSCLE fibres, built for rapid conduction rather than force generation. A common trap: assuming a tissue this specialised for signal transmission must be neural, when the heart's whole conducting system, Purkinje fibres included, is built from muscle cells modified for the job, not from nerve cells.
+
+Why this is right:
+- Purkinje fibres are the terminal, specialised cardiac muscle fibres of the heart's conducting system — the right and left branches of the atrioventricular (AV) bundle, reaching the ventricular myocardium via the moderator band on the right, then running beneath the subendocardium to encircle the papillary-muscle bases before ascending towards the ventricular base.
+## answer_d
+they conduct impulses as some nerves
+## explanation_d
+True, so not the exception. Purkinje fibres conduct impulses through gap junctions at a speed comparable to nerve fibres — fast, uniform propagation — which is exactly the property that makes their true (muscular) tissue identity a common point of confusion.
+## correct_answer
+C
+## main_concept
+CON-CVS-3A8240E7E48C00
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Physiology
+## subtopic
+Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres)
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that Purkinje fibres are modified cardiac muscle fibres, not primitive nerve tissue, as the exception among otherwise true statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p3 q17. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-81E15A899387
 ## title
 P wave is due to:
@@ -17765,6 +17857,558 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-0793039C4D38
+## title
+Pacemaker potentials are normally absent from:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Pacemaker potentials are normally absent from:
+## answer_a
+Working myocardial cells
+## explanation_a
+Correct. Working (contractile) myocardial cells hold a stable, flat phase 4 resting potential rather than spontaneously drifting toward threshold; they depolarize only once an action potential arrives from an already-excited neighbouring cell. That passive dependence on an external stimulus is exactly what separates ordinary atrial and ventricular muscle from the heart's genuine pacemaker tissue.
+
+Why this is right:
+- Phase 4 of the pacemaker action potential is a spontaneous depolarization produced first by the funny current (If) through Na+ funny channels together with the Na+-Ca++ exchanger, then by T-type Ca++ channels — in contrast to the stable, non-depolarizing phase 4 of ordinary atrial and ventricular myocytes.
+## answer_b
+Cells in the SA node
+## explanation_b
+Cells in the SA node show the most prominent pacemaker potential of any cardiac tissue, produced by the funny current and, later in phase 4, the T-type calcium current — the opposite of 'absent', since the SA node is the tissue this property defines.
+## answer_c
+AV nodal cells
+## explanation_c
+AV nodal cells retain a real, if slower, pacemaker potential of their own, which is exactly why the AV node can take over as a backup (junctional) pacemaker if the SA node fails to fire.
+## answer_d
+Purkinje fibers
+## explanation_d
+Purkinje fibres carry the slowest pacemaker potential of the three genuine pacemaker tissues, but it is still a real spontaneous phase 4 depolarization — which is what lets them serve as a last-resort ventricular escape pacemaker if both the SA and AV nodes fail.
+## correct_answer
+A
+## main_concept
+CON-CVS-34D3CB7F794801
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that pacemaker potentials (spontaneous phase 4 depolarization) are a property of the specialised conducting tissue and are normally absent from ordinary working myocardial cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p6 q41. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CCAE0935E296
+## title
+The SA node is the normal pace maker because :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The SA node is the normal pace maker because :
+## answer_a
+is the most rapidly discharging part
+## explanation_a
+Correct. The SA node fires faster than every other pacemaker tissue — about 90-105/min against the AV node's roughly 60/min and the Purkinje fibres' roughly 20-40/min — and because it reaches threshold and discharges first each cycle, it drives the whole heart and suppresses the slower tissues below it.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## answer_b
+is the most richly supplied by nerve endings .
+## explanation_b
+The SA node does receive a rich autonomic supply, but the AV node and Purkinje fibres are innervated too; a richer nerve supply alone would not explain why the SA node, rather than either of them, sets the rhythm — its faster intrinsic discharge rate does that.
+## answer_c
+located in the atrium .
+## explanation_c
+Location in the atrium is a fixed anatomical fact about the SA node, but location by itself confers no dominance — the AV node's own fixed location in the interatrial septum does not make it the pacemaker either; only a faster discharge rate can.
+## answer_d
+all of the above
+## explanation_d
+'All of the above' fails because B and C each describe a true anatomical fact about the SA node without explaining WHY it dominates the rhythm — only its faster intrinsic discharge rate (A) does that, so the option set is not jointly correct.
+## correct_answer
+A
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a mechanism
+## learning_objective
+State that the SA node is the normal pacemaker because it is the most rapidly discharging part of the conduction system, not because of its innervation or location.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p2 q10. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7E22222BFDC2
+## title
+When the bundle of His is completely interrupted,the:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+When the bundle of His is completely interrupted,the:
+## answer_a
+ventricles contract at a rate of 30-40 beats / minutes .
+## explanation_a
+Correct. Once the bundle of His — the sole muscular bridge carrying the impulse from atria to ventricles — is completely interrupted, the atria continue beating under SA node control while the ventricles, cut off from that drive, fall back on their own intrinsic Purkinje/ventricular escape rhythm, conventionally cited at about 30-40 beats/minute.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## answer_b
+atria beat irregularly
+## explanation_b
+The atria are unaffected by a block distal to the AV node/bundle of His; the SA node still drives them at its own regular rate, so atrial beating stays regular, not irregular.
+## answer_c
+QRS complexes vary in shape from beat to beat .
+## explanation_c
+In complete heart block the QRS complexes stay uniform in shape beat to beat, since every ventricular beat now originates from the same escape focus below the block, rather than varying in origin.
+## answer_d
+P-R interval remains constant from beat to beat
+## explanation_d
+With the atria and ventricles beating independently (atrioventricular dissociation), there is no fixed timing relationship between a P wave and the following QRS at all, so a constant P-R interval — which presumes one impulse conducting through to produce both — cannot be measured; the two events drift in and out of phase with each other.
+## correct_answer
+A
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that complete interruption of the bundle of His (complete heart block) leaves the ventricles beating at their own slow intrinsic escape rate, about 30-40/min, no longer driven by the atria.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p3 q16. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-39D2C8AD733B
+## title
+When the bundle of His is completely interrupted,the: | ae 7 — eave Faye
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+When the bundle of His is completely interrupted,the: | ae 7 — eave Faye
+## answer_a
+ventricles contract at a rate of 30-40 beats / minutes
+## explanation_a
+Correct. With the bundle of His — the only muscular pathway from atria to ventricles — completely interrupted, the atria go on beating under SA node control while the ventricles adopt their own intrinsic Purkinje/ventricular escape rhythm, conventionally about 30-40 beats/minute, well below the SA node's own rate.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## answer_b
+atria beat irregularly
+## explanation_b
+The SA node still drives the atria at its normal, regular rate regardless of what happens below the block, so the atria do not beat irregularly.
+## answer_c
+QRS complexes vary in shape from beat to beat
+## explanation_c
+Every ventricular beat in complete heart block arises from the same escape focus below the block, so the QRS complexes keep a consistent shape from beat to beat rather than varying.
+## answer_d
+P-R interval remains constant from beat to beat
+## explanation_d
+Because the atria and ventricles now beat independently of each other (atrioventricular dissociation), no single, repeatable interval between a P wave and the following QRS exists to measure — a constant P-R interval requires one impulse to drive both events, which a complete block prevents.
+## correct_answer
+A
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that complete interruption of the bundle of His (complete heart block) leaves the ventricles beating at their own slow intrinsic escape rate, about 30-40/min, no longer driven by the atria.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p2 q3. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-119AA67626EB
+## title
+Which of the following has the slowest rhythmicity in the automatic cardiac tissue?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following has the slowest rhythmicity in the automatic cardiac tissue?
+## answer_a
+SAN
+## explanation_a
+The SA node has the fastest intrinsic rhythmicity of the automatic cardiac tissues, about 90-105/min, which is exactly why it normally dominates the other two and sets the heart's rate — the opposite of slowest.
+## answer_b
+AVN
+## explanation_b
+The AV node's intrinsic rate, about 60/min, is slower than the SA node's but still faster than the Purkinje fibres', placing it in the middle of the hierarchy rather than at the bottom.
+## answer_c
+bundle of Hiss
+## explanation_c
+The bundle of His is the conducting pathway continuous with, and functionally grouped alongside, the Purkinje network; it does not constitute a separately ranked tier with a faster rhythmicity than the Purkinje fibres it feeds into.
+## answer_d
+Purkinje fibers
+## explanation_d
+Correct. The Purkinje fibres have the slowest intrinsic rhythmicity of the three automatic cardiac tissues, about 20-40/min, which is why they never normally set the heart's rate and only emerge as a last-resort escape rhythm when both the SA and AV nodes fail.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## correct_answer
+D
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Rank the automatic cardiac tissues' intrinsic rhythmicity, identifying the Purkinje fibres as the slowest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p5 q16. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4EA2F1E97944
+## title
+which of the following is characteristic about the conducting system of the heart:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+which of the following is characteristic about the conducting system of the heart:
+## answer_a
+Impulses are conducted from the right atrium to the left atrium by the
+## explanation_a
+Impulses spread from the SA node, in the right atrium, across to the left atrium — left to right, not right to left as this option states — so this reverses the true direction of interatrial conduction.
+## answer_b
+The sinoatrial node has an intrinsic rhythmic rate of 40-60 per minute
+## explanation_b
+40-60/min is closer to the AV node's own approximate intrinsic rate; the SA node's intrinsic rate is faster, conventionally cited at about 90-105/min, so this figure is attached to the wrong tissue.
+## answer_c
+The atrioventricular node is the natural pacemaker
+## explanation_c
+The SA node, not the AV node, is the heart's natural (dominant) pacemaker under normal conditions, precisely because its own intrinsic rate outpaces the AV node's and suppresses it.
+## answer_d
+The Purkinje fibers have an intrinsic rhythmic rate of 15-40 per minute
+## explanation_d
+Correct. The Purkinje fibres, the slowest tier of the pacemaker hierarchy, have an intrinsic rhythmic rate of roughly 15-40 per minute — a genuine characteristic of the conducting system, consistent with their role as a last-resort escape pacemaker rather than the normal rhythm-setter.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## correct_answer
+D
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that the Purkinje fibres' intrinsic rhythmic rate of about 15-40/min is a genuine characteristic of the conducting system, as opposed to a reversed interatrial-conduction direction, a swapped SA-node rate figure, or crediting the AV node as the natural pacemaker.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p5 q13. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
 
 ---
 

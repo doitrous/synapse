@@ -83,5 +83,22 @@ export const LEAF: McqLeafSeed = {
         E: "True, so not the exception. The Purkinje fibre's sarcoplasm is pale and vacuolated, a direct result of the abundant glycogen it stores.",
       },
     },
+    // run40, leaf-null bank row reclustered under "Electrical Activity of
+    // the Heart" by the ledger's own keyword heuristic (leaf tag unreliable,
+    // per this branch's standing hazard) — genuinely tests this same
+    // concept's own "modified myocardial cells, not nerve tissue" fact.
+    {
+      key: "about-the-purkinje-tissue-all-the-following-are-true-except-a1365424",
+      conceptKey: "cardiac-conducting-system.purkinje-fibre-site-and-histological-characteristics",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify that Purkinje fibres are modified cardiac muscle fibres, not primitive nerve tissue, as the exception among otherwise true statements.",
+      explanations: {
+        A: "True, so not the exception. Purkinje fibres are modified cardiac muscle fibres — built from the same conducting-system lineage as the SA node, AV node and AV bundle, all of which the department book states explicitly are specialised cardiac muscle, not nerve tissue.",
+        B: "True, so not the exception. Purkinje fibres are confined to the ventricles, reached via the moderator band on the right and running beneath the subendocardium of both ventricles, encircling the papillary-muscle bases before ascending toward the ventricular base.",
+        C: "The exception, and the answer. Purkinje fibres are not primitive nerve tissue at all — they are modified cardiac MUSCLE fibres, built for rapid conduction rather than force generation. A common trap: assuming a tissue this specialised for signal transmission must be neural, when the heart's whole conducting system, Purkinje fibres included, is built from muscle cells modified for the job, not from nerve cells.",
+        D: "True, so not the exception. Purkinje fibres conduct impulses through gap junctions at a speed comparable to nerve fibres — fast, uniform propagation — which is exactly the property that makes their true (muscular) tissue identity a common point of confusion.",
+      },
+    },
   ],
 }

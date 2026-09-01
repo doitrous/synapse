@@ -21,11 +21,11 @@
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 14 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
-    Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
+    Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 2 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 21 questions, 4 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
-    Physiology Cardiovascular System — Pacemaker Electrophysiology — 9 questions, 4 concepts
+    Physiology Cardiovascular System — Pacemaker Electrophysiology — 15 questions, 4 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
@@ -2607,12 +2607,13 @@ kau
 1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p3 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -3292,6 +3293,7 @@ sa-node-pacemaker-potential.phase-4.ionic-basis
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
 ## article_ids
 +ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
 ## field_notes
@@ -3327,6 +3329,8 @@ cardiac-pacemaker-hierarchy.intrinsic-rates.sa-av-purkinje
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p2 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p3 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
 ## field_notes
