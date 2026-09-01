@@ -5128,3 +5128,1147 @@ yes
 main_concept on the caspase-cascade concept since the answer is about caspase-8's pathway specificity; p53's DNA-damage-response concept linked as contextual since option b names it as a genuine intrinsic-pathway participant.
 
 ---
+
+# Item
+
+## id
+
+## title
+The false statement about p53 (antiapoptotic genes)
+
+## question
+Which of the followings is not true about p53 protein ?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+a. It is policeman of the cell.
+
+## explanation_a
+Not the exception — this is true. "Policeman of the cell" is a standard descriptive label for p53's genome-surveillance role.
+
+## answer_b
+It can activate expression of CDK-inhibitor.
+
+## explanation_b
+Not the exception — this is true. p53 activates expression of the CDK inhibitor p21, which halts the cell cycle at the G1-S checkpoint.
+
+## answer_c
+It is activated when the cell is exposed to DNA damage.
+
+## explanation_c
+Not the exception — this is true. p53 is stabilised and activated specifically when the cell is exposed to DNA damage.
+
+## answer_d
+Its action results in hypophosphorylation of Rb protein.
+
+## explanation_d
+Not the exception — this is true. By halting the cycle via p21 (which inhibits CDK activity), p53's action results in Rb remaining hypophosphorylated and active, reinforcing the cell-cycle arrest.
+
+## answer_e
+It activates the gene producing antiapoptotic proteins.
+
+## explanation_e
+Correct — this is the exception (NOT true). p53 activates pro-apoptotic, not anti-apoptotic, gene expression — specifically Bax — when DNA damage is irreparable; describing it as activating antiapoptotic genes reverses its actual role as a driver of apoptosis in damaged cells. This is a second, differently worded probe of the same p53-mechanism concept tested more densely at Q19 earlier in this chapter.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-B03C1C16A79323
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+82
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise that p53 activates pro-apoptotic, not anti-apoptotic, gene expression.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q37, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Second full-question probe of the p53 DNA-damage-response concept (alongside Q19, Q21, Q38); each restates a different clause of the same underlying mechanism from a different option set.
+
+---
+
+# Item
+
+## id
+
+## title
+The p53 property that prevents cancer
+
+## question
+Which property of p53 enables it to prevent the development of cancer?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It prevents replication of cells with damaged DNA
+
+## explanation_a
+Correct. p53 prevents the development of cancer chiefly by halting the cell cycle before damaged DNA can be replicated — arresting the cycle at the G1-S checkpoint through p21 gives the cell time to repair the damage, or triggers apoptosis if the damage proves irreparable, in either case stopping a mutation from being passed on to daughter cells. This dual repair-or-remove strategy is what makes p53 the "guardian of the genome" rather than merely a passive sensor of damage.
+
+## answer_b
+It prevents cells from triggering apoptosis
+
+## explanation_b
+Incorrect. p53 promotes, rather than prevents, apoptosis when DNA damage is irreparable; preventing apoptosis would allow damaged cells to survive and is the opposite of p53's tumor-suppressive role.
+
+## answer_c
+It activates angiogenesis
+
+## explanation_c
+Incorrect. Activating angiogenesis (new blood-vessel growth) supports tumor growth and is not a function of p53's DNA-damage response.
+
+## answer_d
+It is a transcription factor that causes protein production which stimulates the cell cycle
+
+## explanation_d
+Incorrect. p53 halts, rather than stimulates, the cell cycle in response to damage; describing it as stimulating the cycle reverses its actual protective role.
+
+## answer_e
+It stimulates synthesis of DNA repair enzymes that replace telomere sequence lost during cell division.
+
+## explanation_e
+Incorrect. Replacing telomere sequence lost during division describes telomerase's function, not p53's DNA-damage-response mechanism.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-B03C1C16A79323
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that halting replication of damaged DNA is the core mechanism by which p53 prevents cancer.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q38, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Distractor e (telomerase's function) is a genuine, correctly stated biological fact misattributed to p53 rather than an invented one — flagged in explanation_e as belonging to a different enzyme entirely.
+
+---
+
+# Item
+
+## id
+
+## title
+How retroviruses produce a tumor cell
+
+## question
+Retroviruses can produce a tumor cell by
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Point mutation
+
+## explanation_a
+Incorrect. Point mutation is a genuine proto-oncogene activation mechanism generally, but it is not the specific mechanism taught for retroviral oncogenesis, which depends on the virus's own genome integrating next to the target gene.
+
+## answer_b
+Gene amplification
+
+## explanation_b
+Incorrect. Gene amplification raises copy number through DNA replication events, not through a retrovirus's own integration mechanism.
+
+## answer_c
+Chromosomal translocation
+
+## explanation_c
+Incorrect. Chromosomal translocation exchanges material between host chromosomes; it is not the mechanism by which a retrovirus itself activates a proto-oncogene.
+
+## answer_d
+Promotor insertion.
+
+## explanation_d
+Correct. Retroviruses transform a host cell chiefly through promoter insertion (insertional mutagenesis): the retroviral DNA copy integrates into the host genome, and if it lands next to a host proto-oncogene, the strong viral promoter/enhancer it carries drives that gene's overexpression, converting it functionally into an active oncogene. This mechanism is completed by the enzyme tested in the very next question, reverse transcriptase, which makes the DNA copy that integration itself depends on.
+
+## answer_e
+
+## explanation_e
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-4A768CDB232E77
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-76604784CC143B
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+68
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name promoter insertion as the mechanism by which retroviruses transform a host cell.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q39, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Four-option item in the source (no printed option e); left blank rather than invented. First of two questions (Q39, Q40) on the newly minted retroviral-oncogenesis concept.
+
+---
+
+# Item
+
+## id
+
+## title
+Enzyme retroviruses need to produce a tumor cell
+
+## question
+Which of the following enzymes is needed by Retroviruses to produce a tumor cell?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Reverse transcriptase
+
+## explanation_a
+Correct. A retrovirus carries an RNA genome and must first copy it into double-stranded DNA using its own reverse transcriptase before that DNA (the provirus) can integrate into the host chromosome; without reverse transcriptase, the virus cannot make the DNA copy its integration — and therefore its promoter-insertion oncogenic mechanism tested in the previous question — depends on. This is the same enzyme retroviruses use naturally for their entire replication cycle, not a separate oncogenesis-specific enzyme.
+
+## answer_b
+caspase
+
+## explanation_b
+Incorrect. Caspase is an apoptosis-execution enzyme, unrelated to a retrovirus's own replication or integration machinery.
+
+## answer_c
+telomerase
+
+## explanation_c
+Incorrect. Telomerase maintains chromosome ends during host-cell replication; it is not the enzyme a retrovirus needs to convert its RNA genome into an integratable DNA copy.
+
+## answer_d
+Promotor insertion.
+
+## explanation_d
+Incorrect. Promoter insertion is the mechanistic outcome (an activating event), not an enzyme; the question specifically asks which enzyme the retrovirus needs.
+
+## answer_e
+Spliceosome.
+
+## explanation_e
+Incorrect. A spliceosome removes introns from pre-mRNA in host-cell RNA processing; it plays no role in a retrovirus's RNA-to-DNA conversion or genome integration.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-4A768CDB232E77
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+70
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name reverse transcriptase as the enzyme a retrovirus requires to transform a host cell.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q40, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Second of two questions (Q39, Q40) on the retroviral-oncogenesis concept. Alexandria's own generic reverse-transcriptase concept (CON-FND-874F418DFB12AF) is linked as a related concept on CON-FND-4A768CDB232E77 itself (see the concept file's rejected_merge_candidate note), not repeated here as a second concept_id, since this question's own tested fact is the retrovirus-oncogenesis application, not the enzyme's generic DNA-replication role.
+
+---
+
+# Item
+
+## id
+
+## title
+Correct statement about Rb, second asking
+
+## question
+Which of the following about Rb tumor suppressor protein is correct?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It binds E2F transcription factor preventing cells from entering S phase
+
+## explanation_a
+Correct. The Rb tumor suppressor protein, in its active hypophosphorylated state, binds the E2F transcription factor and prevents the cell from entering S phase; this sequestration is released only once cyclin-CDK complexes phosphorylate Rb in response to an appropriate mitogenic signal. This is the same central Rb-E2F mechanism tested from a different angle at Q24 earlier in this chapter, here stated in its most direct, unambiguous form.
+
+## answer_b
+It is a transcription factor that binds to DNA promoter region
+
+## explanation_b
+Incorrect. Rb does not itself bind DNA promoter regions as a transcription factor; it acts by binding and sequestering the E2F transcription factor rather than binding DNA directly.
+
+## answer_c
+It binds and inhibits cyclin/CDK complex
+
+## explanation_c
+Incorrect. Rb does not bind or inhibit the cyclin/CDK complex; if anything, the cyclin-CDK complex acts upstream of Rb, phosphorylating and inactivating it.
+
+## answer_d
+It is activated when phosphorylated by cyclin dependent kinases
+
+## explanation_d
+Incorrect. Rb is inactivated, not activated, when phosphorylated by CDK — phosphorylation releases E2F and permits cycle progression, the opposite of Rb "activation."
+
+## answer_e
+It activates WAF-1 thus inhibiting E2F transcription factor
+
+## explanation_e
+Incorrect. p53, not Rb, is the protein that activates p21 (WAF-1); this option conflates Rb's mechanism with p53's own p21-mediated pathway.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-05748BDCBE10A5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+78
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-ONCOGENES-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Confirm the Rb-E2F mechanism in its clearest form, distinguishing it from p53's separate p21/WAF-1 pathway.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q41, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+This is the clean, directly-worded restatement of the same Rb-E2F fact Q24 tested with a reversed-causality distractor — used as this concept's own primary citation in the evidence file for exactly that reason.
+
+---
+
+# Item
+
+## id
+
+## title
+The effector caspase that actually initiates the cell's death
+
+## question
+The effector caspase/s that actually initiate/s the death of the cell is/are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Caspase-9
+
+## explanation_a
+Incorrect. Caspase 9 is an initiator caspase of the intrinsic pathway, not the effector that carries out the cell's actual destruction.
+
+## answer_b
+Caspase-8
+
+## explanation_b
+Incorrect. Caspase 8 is an initiator caspase of the extrinsic pathway, not the effector that carries out the cell's actual destruction.
+
+## answer_c
+Caspase-3
+
+## explanation_c
+Correct. Caspase 3 is the effector (executioner) caspase that both the intrinsic and extrinsic pathways converge on, and it is caspase 3 alone — not the pathway-specific initiator caspases — that actually carries out the execution phase of apoptosis: DNA fragmentation, cytoskeletal breakdown and the cell's dismantling. Caspase 9 and caspase 8 are initiator caspases; they trigger the cascade but do not themselves execute the cell's death.
+
+## answer_d
+Caspase-9 and 3
+
+## explanation_d
+Incorrect. Pairing caspase 9 with 3 incorrectly includes an initiator caspase alongside the true effector; caspase 3 alone is the executioner this question is asking for.
+
+## answer_e
+Caspase-8 and 3
+
+## explanation_e
+Incorrect. Pairing caspase 8 with 3 incorrectly includes an initiator caspase alongside the true effector; caspase 3 alone is the executioner this question is asking for.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+83
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Confirm caspase 3 alone, not paired with an initiator caspase, as the effector that executes apoptosis.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q42, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Distractor design (pairing the true effector with an initiator caspase) tests whether a student has genuinely separated "initiator" from "effector," not just memorised the number 3.
+
+---
+
+# Item
+
+## id
+
+## title
+Components of the apoptosome
+
+## question
+Which of the following best describes the components of apoptosome?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Phosphatidyl-serine and ethanolamine
+
+## explanation_a
+Incorrect. Phosphatidylserine and ethanolamine are membrane phospholipids relevant to apoptotic-cell recognition and clearance, not components of the apoptosome complex itself.
+
+## answer_b
+Cytochrome C, Apaf-1, and procaspase-9
+
+## explanation_b
+Correct. The apoptosome is the intrinsic-pathway complex assembled from cytochrome c (released from stressed mitochondria), Apaf-1 (apoptosis activation factor) and procaspase-9, together with ATP/dATP; assembly of this complex activates caspase 9, the intrinsic pathway's initiator caspase. This is the same component list tested from the opposite "which one does NOT belong" angle at Q33 earlier in this chapter.
+
+## answer_c
+Caspases-3, -8 and -9
+
+## explanation_c
+Incorrect. Listing caspases 3, 8 and 9 together conflates both pathways' caspases and the effector caspase into one list; the apoptosome specifically contains procaspase-9, not a mix of all three numbered caspases.
+
+## answer_d
+Bax-BCL-2 heterodimer
+
+## explanation_d
+Incorrect. A Bax-Bcl-2 heterodimer describes pro- and anti-apoptotic Bcl-2-family protein interaction at the mitochondrial membrane, not the apoptosome complex itself.
+
+## answer_e
+Cytochrome C- bound Bcl-2 homodimer
+
+## explanation_e
+Incorrect. Cytochrome c bound to a Bcl-2 homodimer does not describe the apoptosome, which instead requires cytochrome c released and free to bind Apaf-1 and procaspase-9.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-BBCC9BC05C8C5F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-FND-CASPASE-CASCADE-AND-APOPTOSOME
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+List cytochrome c, Apaf-1 and procaspase-9 as the apoptosome's components.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q43, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Direct, "best describes" restatement of the apoptosome-composition fact Q33 tested via its "except" form — this concept's own primary citation in the evidence file.
+
+---
+
+# Item
+
+## id
+
+## title
+p53's mechanism of action as a cell-cycle regulator
+
+## question
+Which of the following is the mechanism of action of p53 as a regulator of cell cycle?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Inhibition of mdm2 protein
+
+## explanation_a
+Incorrect. p53 is normally kept inactive by Mdm2 binding and is released when DNA damage disrupts that interaction, but inhibiting Mdm2 describes an upstream event that permits p53 activation, not p53's own downstream cell-cycle-regulatory mechanism.
+
+## answer_b
+Stimulation of cyclin-dependent kinase
+
+## explanation_b
+Incorrect. p53 halts, rather than stimulates, cyclin-dependent kinase activity via p21; stimulating CDK activity would promote, not restrain, cycle progression.
+
+## answer_c
+Activation of p21 gene expression
+
+## explanation_c
+Correct. p53 regulates the cell cycle chiefly by activating expression of p21, a CDK inhibitor that halts the cycle at the G1-S checkpoint, giving the cell time to repair DNA damage before replication proceeds; this p21-mediated arrest is the core mechanism by which p53 exerts its cell-cycle-regulatory, tumor-suppressive effect. This is the same p21 mechanism named in the broader cell-cycle/apoptosis-regulators concept this question's own evidence draws on.
+
+## answer_d
+Inhibition of pro-apoptotic Bax
+
+## explanation_d
+Incorrect. p53 activates, rather than inhibits, the pro-apoptotic protein Bax when DNA damage is irreparable, triggering apoptosis rather than suppressing it.
+
+## answer_e
+Inhibition of Rb tumor suppressor gene.
+
+## explanation_e
+Incorrect. p53 does not inhibit the Rb tumor suppressor gene; both act as cooperating tumor suppressors at the same G1-S checkpoint, not in opposition to one another.
+
+## topic
+Molecular biology
+
+## subtopic
+Molecular Biology of Cancer
+
+## main_concept
+CON-FND-1F66060A9C2625
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-B03C1C16A79323
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Molecular Biology of Cancer
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name p21 gene activation as p53's core cell-cycle-regulatory mechanism.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Molecular Biology of Cancer Q44, p.40.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Closes the chapter. main_concept reuses this lane's pending-hit overlay of Kasr's broader cell-cycle/apoptosis-regulators concept (CON-FND-1F66060A9C2625) — its own definition already states "p53 arrests the cycle in G1 through p21" almost verbatim, an exact match unlike the more granular p53 questions (Q19/Q21/Q37/Q38) that needed the new, more detailed p53-DNA-damage-response concept instead. That new concept is linked as contextual here, completing the chapter's full 44-question run.
+
+---
