@@ -482,5 +482,41 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "The stem itself is OCR-garbled (stray Arabic-diacritic fragment \"‏يك‏\" bled in, \"center SS Only T lymphocytes\" reading as a merged option rather than stem text), and only 2 of 4 option letters survived (C, D — no A, B), below the platform's 4-to-5-option import contract, with no printed answer (answerConfidence: none). Checked against the department histology book (p16): the secondary follicle's germinal centre holds large activated B-lymphocytes and plasma cells (not \"only T lymphocytes\", contradicting the bled-in stem fragment) with macrophages and a few T-lymphocytes also present — so surviving option C (\"No plasma cells\") is false per the book, and D (\"No macrophages\") is also false. With no genuine correct option surviving extraction, this cannot be authored. Excluded.",
     },
+    // kasr-104-author-run46: ledger's second Lymph node batch (4 more
+    // remaining keys, leaf=null in the raw bank so missed by a naive
+    // per-leaf scan — surfaced only by the official ledger tool).
+    {
+      key: "all-secondary-lymphatic-ergons-except-402b68d3",
+      conceptKey: "lymphatic-organs.primary-vs-secondary-classification",
+      difficulty: "Easy",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify the thymus as a PRIMARY (not secondary) lymphatic organ, the exception among lymph node, tonsil and spleen.",
+      explanations: {
+        A: "True, so not the exception. The lymph node is one of this module's own three named secondary (peripheral) lymphatic organs.",
+        B: "True, so not the exception. The tonsil is one of this module's own three named secondary (peripheral) lymphatic organs.",
+        C: "The exception, and the answer. The thymus is a PRIMARY (central) lymphatic organ, alongside bone marrow — the site where T-lymphocytes are produced and mature, not a secondary organ where already-produced lymphocytes mount immune responses.",
+        D: "True, so not the exception. The spleen is one of this module's own three named secondary (peripheral) lymphatic organs.",
+      },
+    },
+    {
+      key: "reticular-ct-can-be-stained-by-50c0381c",
+      conceptKey: "lymph-node.capsule-trabeculae-and-stroma",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option B has absorbed what should be a separate option C into one merged cell ('silver c)Janus green'), leaving only 3 distinguishable choices (A, merged-B/C, D) for what should be a 4-option item — the same option-merge corruption class documented throughout this bank. The underlying fact is well-grounded (this leaf's own concept states the reticular C.T. network 'stains brown with silver stain', p16), but a genuine standalone option C never survived extraction, so this cannot be authored as extracted despite the printed same-file key (A, 'eosin' — itself the correct exception, since silver, not eosin, is the book's own stated stain). Excluded for the contract violation, not for lack of grounding.",
+    },
+    {
+      key: "which-two-of-the-following-are-necessary-to-stimulate-b-lymp-0b3fa792",
+      conceptKey: "lymph-node.functions-filtration-lymphocytopoiesis-and-immunity",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The specific two-factor requirement this row tests (a helper T-lymphocyte AND an antigen, together, to stimulate B-lymphocyte division and differentiation) goes beyond what the department histology book itself states. The book credits antigen exposure alone with triggering B-lymphocyte transformation into activated lymphocytes and germinal-centre formation (p16: 'On exposure to antigen or infection, some of small B-lymphocytes are transformed to large activated lymphocytes') and separately states humoral immunity is 'the activation of B-lymphocytes into plasmablasts, then plasma cells' (p18) — neither passage names a helper T-lymphocyte as a co-requirement. This is standard immunology, but a fact absent from the module's own book is left unauthored rather than filled in from outside knowledge.",
+    },
   ],
 }

@@ -320,5 +320,20 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "A two-question bleed: the stem itself is a stray fragment of a DIFFERENT, already-elsewhere-excluded splenic-trabeculae question ('Divide the spleen into regular compartments'), run on directly into an unrelated numbered item ('22. Regarding Hassall's corpuscles...') whose own 4 options survive. No printed key exists (answerConfidence: none), and the genuine content (Hassall's corpuscles) is thymus histology, not tonsil content at all — leaf-tagged Tonsils in the bank, bookkept here since the stem itself cannot be shown to a student regardless of its true topic. The underlying Hassall's-corpuscle fact (concentric layers of epithelial reticular cells, located in the thymic medulla, not cortex) is already taught cleanly by this module's own thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-cell-functions concept, so no unique teaching content is lost.",
     },
+    {
+      // kasr-104-author-run46: this leaf's own last remaining bank row
+      // (ledger's second Tonsils batch, leaf=null in the raw bank).
+      // Well-grounded (this is the department book's own verbatim
+      // definition of the palatine tonsil), but a genuine option-merge
+      // contract violation independent of grounding.
+      key: "is-aggregation-of-lymph-tissue-with-incomplete-capsule-498c1c81",
+      conceptKey: "tonsil.palatine-epithelium-crypts-and-deep-capsule",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option C has absorbed a separate option D into one merged cell ('spleen d) thymus'), leaving only 3 distinguishable choices (A, B, merged-C/D) for what should be a 4-option item. The underlying claim is well-grounded — the department histology book's own opening definition of the palatine tonsil is 'aggregation of lymphatic tissue, incompletely encapsulated' (p.21), confirming option A — but the missing standalone option D means this cannot be authored as a clean 4-option item per the platform's import contract. Excluded for the contract violation, not for lack of grounding; the same fact is already taught cleanly by this leaf's own tonsil.palatine-epithelium-crypts-and-deep-capsule questions.",
+    },
   ],
 }

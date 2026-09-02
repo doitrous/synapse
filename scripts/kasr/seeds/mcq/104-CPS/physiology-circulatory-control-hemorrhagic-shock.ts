@@ -466,20 +466,34 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
-      // kasr-104-author-run46: revisited. Run 45 excluded this for "no PDF
-      // or cached page-text access" — false; the department physiology book
-      // is cached (src_a11a7faed67c95e2d636, 160 pages) and was grepped
-      // directly this run for "permeability"/"decompensat"/"progressive
-      // shock"/"irreversible shock": 0 hits across all 160 pages. The claim
-      // stays genuinely unsupported, not merely unverifiable.
+      // kasr-104-author-run46: revisited AND CORRECTED. Run 45 excluded
+      // this for "no PDF or cached page-text access" — false. My own first
+      // re-check this run used shell-escaped "\|" alternations in the grep
+      // pattern, which this tool's regex does not parse as alternation —
+      // that produced a false "0 hits" for "permeability" I initially
+      // trusted. Re-checked properly: the book's own refractory-shock
+      // section (p89) names granulocyte-mediated free-radical damage to
+      // capillary walls as a mechanism, and its treatment section (p90)
+      // credits glucocorticoids with protecting capillary endothelium
+      // "thus maintaining normal capillary permeability" — implying
+      // permeability rises abnormally without that protection, i.e. as
+      // shock progresses. This is inference from the book's own language
+      // rather than a verbatim statement, disclosed honestly below; what
+      // makes this row safely authorable is that the other three options
+      // are each DIRECTLY and explicitly contradicted by the book.
       key: "in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04",
       conceptKey: "hemorrhagic-shock.rapid-compensatory-hormone-response",
       difficulty: "Hard",
-      questionType: "Not sittable as extracted.",
-      learningObjective: "Not sittable as extracted.",
-      explanations: {},
-      exclude: true,
-      excludeReason: "The mechanism by which progressive (decompensated) hemorrhagic shock becomes self-worsening — increased capillary permeability from prolonged hypoperfusion — is not stated by this leaf's own sourced concept, which covers the rapid compensatory hormone response (catecholamines, angiotensin II, vasopressin) rather than this later decompensation mechanism. Re-checked directly against the department physiology book (src_a11a7faed67c95e2d636, all 160 cached pages): 0 hits for \"permeability\", \"decompensat-\", or \"progressive/irreversible shock\" anywhere in the book — the module's own source stops at the rapid compensatory response and never reaches decompensated-shock pathophysiology, so the claim is absent from the source, not merely unretrieved.",
+      questionType: "Single best answer",
+      learningObjective: "State that progressive hemorrhagic shock is associated with increased capillary permeability, as opposed to the three directly book-contradicted alternatives (venous dilation, tissue alkalosis, increased urine output).",
+      explanations: {
+        A: "Correct by direct elimination against the book's own explicit statements on the other three options (below), and consistent with the book's own refractory-shock mechanisms (p89: granulocyte-mediated free-radical capillary-wall damage) and its own treatment rationale (p90: glucocorticoids protect capillary endothelium 'thus maintaining normal capillary permeability', implying permeability rises abnormally without that protection as shock continues).",
+        B: "Reversed. The department book states the compensatory response to hemorrhage is VASOCONSTRICTION of veins (p87, p91) — 'limit pooling of blood in lower body veins and push blood upwards to the heart' — not dilation.",
+        C: "Reversed. The department book lists 'Acidosis (due to tissue hypoxia that leads to anaerobic glycolysis and production of excess lactic acid)' (p86) among hemorrhagic shock's own manifestations — not alkalosis.",
+        D: "Reversed. The department book lists 'Reduced urine formation (oliguria) (due to decreased renal blood flow)' (p86-87) among hemorrhagic shock's own manifestations — not increased urine output.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Options B, C and D are each directly and explicitly contradicted by the department physiology book's own statements on hemorrhagic shock (venoconstriction not dilation, p87/p91; acidosis not alkalosis, p86; oliguria not increased urine output, p86-87), leaving A correct by elimination and consistent with the book's own refractory-shock/glucocorticoid-treatment language on capillary permeability (p89-90).",
     },
     {
       key: "baroreceptors-060d2015",

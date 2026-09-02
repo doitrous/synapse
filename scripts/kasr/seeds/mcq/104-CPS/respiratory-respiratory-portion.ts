@@ -94,6 +94,26 @@ export const LEAF: McqLeafSeed = {
         "Overlaps with the live concept CON-RES-4D4CBF3BB8AF1E (canonical_key `pulmonary-surfactant.functions-and-causes-of-deficiency`), authored by the written-paper pipeline into the generated `104-CPS-concepts.md`. Not merged -- see the identical note on this same concept in `physiology-pulmonary-compliance-and-surfactant.ts` and PROGRESS.md.",
       ],
     },
+    {
+      // kasr-104-author-run46: fresh mint. find-existing.mjs "fetal lung"
+      // surfaced only a different module's (102 INT) amniotic-fluid
+      // maturity-marker concept — a different fact entirely, confirming
+      // clean module-blind search. Grounded in the department histology
+      // book (p.38, "Fetal Lung"). Gap disclosed: this leaf's own live
+      // article (ART-104-HIS-RESPIRATORY-PORTION) does not yet cover the
+      // fetal lung at all — flagged for whoever next extends that article.
+      key: "fetal-lung.collapsed-gland-like-histology",
+      label: "The functionless, collapsed fetal lung resembles a gland (bronchiolar tree like ducts, alveoli like acini, distinguished from a true gland by cartilage plates), has clear lobes/lobules from thick septa, folded airways and congested vessels, and sinks whole in water — the basis of a forensic lung-flotation test",
+      definition: "The fetal lung has no respiratory function and so remains collapsed throughout intrauterine life. It is characterized by: resembling a gland, in that branches of the bronchiolar tree resemble ducts and the alveoli resemble acini, while cartilage plates around the bronchi are exactly what differentiates the fetal lung from a true gland; clear lobes and lobules, owing to thick connective-tissue septa (unlike the less distinct lobulation of the mature, expanded lung); folded bronchi and bronchioles; congested lung blood vessels; alveoli that are themselves collapsed and lined by simple cuboidal epithelium (rather than the mature lung's simple squamous type I pneumocytes); and, because it has never been aerated, the whole fetal lung sinks in water — a finding with medico-legal importance, forming the basis of the forensic lung-flotation (hydrostatic) test used to distinguish a stillborn infant (lung never aerated, sinks) from one born alive and breathing (lung aerated, floats).",
+      objective: "State the fetal lung's gland-like resemblance (bronchiolar tree as ducts, alveoli as acini, cartilage as the differentiating feature), its clear lobulation from thick septa, its folded airways, its collapsed cuboidal-lined alveoli, and the medico-legal significance of it sinking whole in water.",
+      pitfall: "Reversing which structure resembles which gland component. It is the ALVEOLI that resemble acini, not the bronchioles — the bronchiolar tree itself resembles a gland's ducts. Also reversing the lobulation direction: thick, not thin, septa are what make the fetal lung's lobes and lobules clear.",
+      subject: "resp",
+      primary: "DIS-HIS-T03",
+      secondary: [],
+      modulePath: "104 CPS > Histology > Respiratory System > Respiratory Portion",
+      type: "structural_description",
+      aliases: ["Fetal lung histology", "Lung flotation test", "Hydrostatic test"],
+    },
   ],
 
   questions: [
@@ -762,6 +782,74 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "Corrupted duplicate of `gas-exchange-occurs-in-53a49db9` (kept above, same concept, same underlying fact): the extracted stem runs two separate source questions together (\"Gas exchange occurs in...\" plus a second, unrelated \"What is the first portion of the respiratory tree...\" fragment), and the lettered options collapse into two garbled blocks with no clean A/B/C/D boundary -- option B's text is fully absorbed into option A's block. No seed-level field exists to rewrite stem or option text.",
+    },
+    // kasr-104-author-run46: this leaf's own 4 remaining bank rows
+    // (ledger's second Respiratory Portion batch, leaf=null in the raw
+    // bank so missed by a naive per-leaf scan).
+    {
+      key: "what-type-of-tissue-forms-the-alveoli-in-the-lung-44df5f2e",
+      conceptKey: "pneumocyte-type-i-vs-type-ii.structure-and-function",
+      difficulty: "Easy",
+      questionType: "Recall",
+      learningObjective: "State that simple squamous epithelium (type I pneumocytes) forms the alveolar wall, covering 97% of its surface.",
+      explanations: {
+        A: "Correct. This leaf's own sourced concept states type I pneumocytes are squamous alveolar cells covering about 97% of the alveolar surface — the dominant epithelial tissue forming the alveolar wall.",
+        B: "Simple cuboidal epithelium describes type II pneumocytes' own shape, but they cover only about 3% of the alveolar surface — the minority, not the tissue that principally 'forms the alveoli'.",
+        C: "Simple columnar epithelium describes neither pneumocyte type; this leaf's own sourced concept names only squamous (type I) and cuboidal (type II) shapes among the alveolar epithelium's two cell types.",
+        D: "Pseudostratified epithelium lines the conducting portion (trachea, bronchi), not the alveoli — a different region of the respiratory tract entirely.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept, itself grounded in the department histology book (p.36): type I pneumocytes, described there as squamous alveolar cells, cover 97% of the alveolar surface — confirming A as the tissue that principally forms the alveolar wall.",
+    },
+    {
+      key: "support-lung-tissue-prevent-over-expansion-684cc6bf",
+      conceptKey: "interalveolar-septum.composition",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "Name reticular fibres, not the capillary network, elastic fibres or extravasated leucocytes, as the interalveolar septum's own component that supports lung tissue and prevents over-expansion injuring the capillaries.",
+      explanations: {
+        A: "Merges two components with different jobs: the capillary network is the septum's dense vascular bed (gas exchange), and elastic fibres ALLOW lung expansion during inspiration — neither is credited with preventing over-expansion.",
+        B: "Correct. This leaf's own sourced concept states reticular fibres 'support lung tissue and prevent overexpansion from injuring the capillaries' — the department book's own words for exactly this function.",
+        C: "This leaf's own sourced concept names extravasated MONOCYTES (which become alveolar phagocytes), not neutrophils, among the septum's own components — and their role is phagocytic, not structural support.",
+        D: "Alveolar phagocytes are the differentiated descendants of the septum's own extravasated monocytes; they do not themselves support lung tissue or resist over-expansion, a structural role reticular fibres alone carry.",
+      },
+      answerOverride: "B",
+      answerOverrideReason: "No printed key exists (answerConfidence: external-solved-book-recovered, from a different solved question book). Re-verified directly against this leaf's own sourced concept, itself grounded in the department histology book (p.36): 'Reticular fibers to support lung tissue and prevent over-expansion that may injure the delicate blood capillaries' — a verbatim match for option B.",
+    },
+    {
+      // kasr-104-author-run46: fresh mint. find-existing.mjs "fetal lung"
+      // surfaced only a different module's (102 INT) amniotic-fluid
+      // maturity-marker concept — a different fact entirely, module-blind
+      // search confirmed clean. Grounded in this leaf's own histology
+      // book (p.38, "Fetal Lung").
+      key: "fetal-lung-is-characterized-by-fd1480a7",
+      conceptKey: "fetal-lung.collapsed-gland-like-histology",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that the whole fetal lung sinks in water, a finding with medico-legal importance (the basis of the forensic lung-flotation test), against three reversed distractors about its lobulation, bronchiolar folding and bronchiole-to-acinus comparison.",
+      explanations: {
+        A: "Reversed. The department book states the fetal lung's lobes and lobules ARE clear, due to the presence of THICK connective-tissue septa — not unclear due to thin septa.",
+        B: "Reversed. The department book states the fetal lung's bronchi and bronchioles ARE folded, not unfolded.",
+        C: "Correct. The department book states directly that the whole fetal lung sinks in water, a finding with medico-legal importance — the basis of the forensic test distinguishing a stillborn (lung never aerated, sinks) from a liveborn infant who breathed (lung aerated, floats).",
+        D: "Reversed at the wrong level. The department book states the fetal lung's ALVEOLI (not its bronchioles) are similar to a gland's acini — its bronchiolar tree is instead similar to a gland's ducts.",
+      },
+      answerOverride: "C",
+      answerOverrideReason: "No printed key exists (answerConfidence: same-file, but re-verified directly against the department book rather than assumed). The department histology book (p.38, 'Fetal Lung') states each of the four options' true content directly: lobes/lobules clear from thick septa (not A), bronchi/bronchioles folded (not B), 'the whole lung sinks in water & this has a medico-legal importance' (verbatim match for C), and alveoli — not bronchioles — resemble acini (not D as stated).",
+    },
+    {
+      key: "fetal-lung-is-similar-to-gland-in-3e898cac",
+      conceptKey: "fetal-lung.collapsed-gland-like-histology",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that the fetal lung's alveoli, not its bronchioles, are what resemble a gland's acini — the bronchiolar tree instead resembles a gland's ducts.",
+      explanations: {
+        A: "Reversed. The department book credits the ALVEOLI, not the bronchioles, with resembling a gland's acini — the bronchiolar tree itself is instead compared to a gland's ducts.",
+        B: "The book credits cartilage plates around the bronchi with being exactly what DIFFERENTIATES the fetal lung FROM a gland (glands have no cartilage) — the opposite of a similarity.",
+        C: "Correct. The department book states directly that the fetal lung is 'similar to a gland where branches of bronchiolar tree are similar to ducts and the alveoli are similar to acini' — alveoli are the acinus-equivalent structure.",
+        D: "Reversed at the wrong level. The book compares alveoli to acini, not to ducts — it is the bronchiolar tree, a different structure, that is compared to ducts.",
+      },
+      answerOverride: "C",
+      answerOverrideReason: "No printed key exists (answerConfidence: same-file, but re-verified directly against the department book rather than assumed). The department histology book (p.38, 'Fetal Lung', point 1) states verbatim: 'Similar to a gland where branches of bronchiolar tree are similar to ducts and the alveoli are similar to acini' — a direct match for option C, with A, B and D each reversing or misattributing a different detail from the same passage.",
     },
   ],
 }

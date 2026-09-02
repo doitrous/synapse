@@ -84,5 +84,36 @@ export const LEAF: McqLeafSeed = {
         D: "Trypan blue, injected as a vital stain, is taken up and accumulated in the cytoplasm of every mononuclear-phagocyte-system cell — the heart failure cell (a haemosiderin-laden alveolar macrophage) included — which is exactly the property that lets the system's members be demonstrated and mapped across all of its named sites.",
       },
     },
+    // kasr-104-author-run46: this leaf's own 2 remaining bank rows (ledger's
+    // second Macrophage system batch, leaf=null in the raw bank so missed
+    // by a naive per-leaf scan) — duplicate-occurrence pair of the same
+    // fill-in-the-blank site/name pairing, sparse reuse of this file's own
+    // concept, no new mint needed.
+    {
+      key: "monocyte-in-while-macrophage-in-ac70f5eb",
+      conceptKey: "mononuclear-phagocyte-system.definition-origin-and-distribution",
+      difficulty: "Easy",
+      questionType: "Fill in the blank",
+      learningObjective: "Name blood as the monocyte's own site and connective tissue as the macrophage's (histiocyte's) own site, the system's two most general named locations.",
+      explanations: {
+        A: "The liver houses the system's von Kupffer cell and the skin houses its Langerhans cell — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.",
+        B: "Correct. This leaf's own sourced concept names monocytes as the system's circulating form in blood, and macrophages (histiocytes) as its resident form in loose connective tissue — the two most general of the system's eight named site/name pairs.",
+        C: "The CNS houses microglia and the lung alveoli house dust cells/heart-failure cells — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.",
+        D: "The spleen and bone marrow sinusoids house littoral cells, and bone's Howship's lacunae house osteoclasts — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.",
+      },
+    },
+    {
+      key: "vonkupffer-cell-in-while-langerhan-s-cell-in-a4a2289a",
+      conceptKey: "mononuclear-phagocyte-system.definition-origin-and-distribution",
+      difficulty: "Easy",
+      questionType: "Fill in the blank",
+      learningObjective: "Name the liver's blood sinusoids as the von Kupffer cell's own site and the skin as the Langerhans cell's own site.",
+      explanations: {
+        A: "Correct. This leaf's own sourced concept names von Kupffer cells as the system's name for macrophages in the liver's blood sinusoids, and Langerhans cells as its name for macrophages in the skin.",
+        B: "Blood houses the system's own circulating monocyte, and loose connective tissue houses the macrophage (histiocyte) — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.",
+        C: "The CNS houses microglia and the lung alveoli house dust cells/heart-failure cells — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.",
+        D: "The spleen and bone marrow sinusoids house littoral cells, and bone's Howship's lacunae house osteoclasts — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.",
+      },
+    },
   ],
 }

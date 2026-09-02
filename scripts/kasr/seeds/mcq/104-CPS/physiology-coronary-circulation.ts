@@ -107,5 +107,26 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "Only 3 options survive extraction (A, B, C — no D), below the platform's 4-to-5-option import contract. The examiner's answer (C, 'No change') is physiologically well-grounded — metabolic autoregulation dominates coronary flow, and blocking β1 removes both the direct β1 vasodilator effect and the indirect vasodilator-metabolite pathway, leaving flow essentially unchanged — but a genuine fourth distractor is not attested anywhere in the source and inventing one would be padding, which the platform's import contract and this lane's own rules forbid.",
     },
+    // kasr-104-author-run46: this leaf's own remaining bank row (ledger's
+    // second Special Circulation batch, leaf=null in the raw bank so
+    // missed by a naive per-leaf scan). Sparse reuse of this file's own
+    // phasic-flow-and-autoregulation concept — no printed key
+    // (answerConfidence: external-solved-book-recovered), verified against
+    // this leaf's own concept text before authoring.
+    {
+      key: "the-coronary-blood-flow-0e0b7a15",
+      conceptKey: "coronary-circulation.phasic-flow-and-autoregulation",
+      difficulty: "Moderate",
+      questionType: "Single best answer",
+      learningObjective: "State that coronary blood flow is autoregulated primarily by local metabolic factors, and that it falls (not rises) in the subendocardium during systole and is decreased, not increased, by adenosine.",
+      explanations: {
+        A: "Correct. This leaf's own concept states coronary flow is regulated primarily by metabolic autoregulation (vasodilator metabolites such as adenosine, CO2, H+ and prostaglandins), not primarily by neural control — the flow is autoregulated to match myocardial O2 demand.",
+        B: "Reversed. Ventricular contraction compresses the intramural coronary vessels, driving flow to a MINIMUM during systole — hardest on the subendocardium specifically, which is exactly why it is most vulnerable to ischaemia — not an increase.",
+        C: "Reversed. Adenosine is one of the vasodilator metabolites this leaf's own concept names as driving metabolic autoregulation — it INCREASES coronary flow by dilating coronary vessels as myocardial metabolism rises, not decreases it.",
+        D: "Reversed, same error as B applied to the left ventricle specifically: coronary flow to the left ventricle falls, not rises, during systole, because ventricular contraction compresses the intramural vessels supplying it.",
+      },
+      answerOverride: "A",
+      answerOverrideReason: "No printed key exists (answerConfidence: external-solved-book-recovered, sourced from a different solved question book rather than this bank's own printed answer). Re-verified directly against this leaf's own sourced concept (coronary-circulation.phasic-flow-and-autoregulation): flow is regulated primarily by metabolic autoregulation, falls to a minimum during systole (hardest on the subendocardium), and adenosine is a vasodilator metabolite that raises, not lowers, flow — confirming A and ruling out B, C and D independently.",
+    },
   ],
 }

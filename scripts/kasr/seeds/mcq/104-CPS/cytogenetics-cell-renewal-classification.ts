@@ -109,5 +109,21 @@ export const LEAF: McqLeafSeed = {
         D: "Cartilage cells (chondrocytes) retain some capacity to divide within the cartilage matrix and are treated as potentially renewable, not as the non-renewing example.",
       },
     },
+    // kasr-104-author-run46: bank-tagged "Macrophage system" (leaf-mismatch
+    // reroute — genuinely this leaf's own cell-renewal classification
+    // content, sparse reuse of the existing concept above, no new mint).
+    {
+      key: "liver-cells-is-example-for-18d16db7",
+      conceptKey: "specialized-cell-renewal.classification-by-ability-to-reproduce",
+      difficulty: "Easy",
+      questionType: "Classification",
+      learningObjective: "Recognise the liver cell as this leaf's own example of a potentially renewable cell — one that leaves the cell cycle but can re-enter it when the liver needs to replace lost tissue.",
+      explanations: {
+        A: "Non-renewing cells never divide again once lost, the department book's example being cardiac muscle and nerve cells; the liver cell is the book's own example of the opposite class.",
+        B: "Correct. This leaf's own sourced concept names liver cells directly as the example of a potentially renewable cell: they leave the cycle for G0 but can re-enter it and divide when replacement is needed after destruction or partial removal.",
+        C: "Continuously renewing cells are end cells that cannot themselves divide at all, replaced instead from a separate stem-cell population (blood cells, sperm); the liver cell itself is capable of dividing directly, which rules out this class.",
+        D: "The liver cell does fit one of the three named classes (potentially renewable), so 'none of the above' is incorrect.",
+      },
+    },
   ],
 }
