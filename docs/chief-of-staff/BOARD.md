@@ -414,3 +414,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - Repair: all 3 lane-5 mints were genuine duplicates → overlaid onto Helwan CON-INF-05D590078F3DCC, MUST CON-INF-C4C74A0874FF61 and CON-INF-17893AA3303251; twins + article annotations deleted, 7 question uses repointed, ch5 re-emitted (simulate rejected=0).
 - ch11 Nematoda Q1-56: 56/56 authored, 0 held; 30 mints + 3 articles, 16 reuses via sparse overlay across 13 pending concepts (9 Helwan GIT-301, ASU-LOCO, MANS-HIS-203, MUST FHB-102). batch errors=0 ×3; 17-file simulate rejected=0. Wall: two sibling concepts (Helwan selective toxicity; CON-GIT-A2A06601B4D8A4's article) cite an article id never authored anywhere → covered by Omar's dangling-article audit chip.
 - INI-105 assignment map now complete: ch1 Q101-161 (lane 14), ch10 Q56-86 + ch11 Q56-110 (lane 12), ch11 Q111-164 (lane 13). Slot goes to the next Year-1 queue head. Fleet 19/20.
+
+### 2026-09-02 — ASSIUT PMS-102 lane 2 LANDED (ab89a9d8)
+- `All quizzes PMS.pdf` pp.65-107 (Quiz 21-29): 38 authored, 2 held (Quiz24 Q5 self-contradicting key; Quiz29 Q1 duplicate option), 35 excluded/logged (fill-in-the-blank blocks, image/matching Quiz29 first occurrence, 5 off-cluster organ-system items for a later lane). 20 mints + 5 articles; 14 Kasr 101-ISK histology concepts reused via sparse overlay. Validator errors=[]; simulate 10 files rejected=0. ≈1.7k tok/q.
+- Remaining: Quiz 30 chromosome theory pp.108-169 (lane 3 dispatched); pp.1-33 and 170-217 need OCR (queued). Fleet 20/20.
