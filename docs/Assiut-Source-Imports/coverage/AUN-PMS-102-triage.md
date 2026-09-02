@@ -325,18 +325,215 @@ line and no distinguishable filled/selected marker anywhere in the OCR
 text (checked across all 9 pages, including both "Answer saved" and "Not
 yet answered" states). **0/9 questions keyed.** Not authored this pass.
 
+## Cluster authored this pass (lane 3): pp.108-169
+
+**Corrected page map -- this is NOT one undivided "Quiz 30" bank.** The
+dispatch briefed pp.108-169 as "Quiz 30, Chromosome Theory of
+Inheritance", carried forward from this triage doc's own earlier
+"queued for the next lane" notes (S1 pass, above), which assumed the
+98.7%-keyed clean range continued as a single quiz. Reading the actual
+pages shows it is a run of **ten** separate per-lecture Moodle quizzes:
+
+| Quiz | Pages | Topic |
+|---|---|---|
+| Quiz 30 | 108-112 | Chromosome Theory of Inheritance (only 13 items) |
+| Quiz 41-42 | 114-125 | Implantation and 2nd week of development |
+| Quiz 43 | 126-129 | Cartilage (general histology) |
+| Quiz 44-45 | 130-137 | Bone (general histology) |
+| Quiz 46 | 138-143 | Gastrulation and notochord formation |
+| Quiz 47 | 144-147 | Further trophoblast development (wholly duplicate of Quiz 46) |
+| Quiz 48 | 148-154 | 3rd-8th week (embryonic period), neurulation |
+| Quiz 49 | 155-160 | Ectodermal derivatives, neurulation continued (neural crest) |
+| Quiz 50 | 161-169 | Mesodermal derivatives |
+
+`pagetext.mjs status` on pp.108-169 confirms the whole range clean
+text-native (0 garbled, matching the S1 pass's key-recovery figure),
+p170 onward reverting to 0-word garbled, confirming the page-108-169
+scope boundary itself is correct even though the "single Quiz 30" label
+was not. The seed cluster key `pmsquiz30` is kept as briefed for
+continuity with the ledger/triage-keys.txt naming, spanning the whole
+corrected range in one authoring pass -- the same approach lane 2 used
+for its own multi-quiz pp.65-107 dispatch.
+
+After deduplicating exact repeated stems, excluding fill-in-the-blank,
+True/False, image-dependent and out-of-source-conflict items, and
+holding printed-key defects:
+
+| Quiz | Raw Qs | Distinct usable | Held | Fill-in/T-F/image (log only) | Exact duplicate |
+|---|--:|--:|--:|--:|--:|
+| Quiz 30 (chromosome theory) | 13 | 4 | 1 | 8 | 0 |
+| Quiz 41-42 (implantation) | 30 | 8 | 2 (1 conflict pair) | 12 | 5 |
+| Quiz 43 (cartilage) | 12 | 7 | 0 | 5 | 0 |
+| Quiz 44-45 (bone) | 24 | 8 | 0 | 13 | 3 |
+| Quiz 46 (gastrulation/notochord) | 16 | 6 | 1 | 4 | 5 |
+| Quiz 47 (trophoblast, dup) | 11 | 0 | 0 | 11 | 0 |
+| Quiz 48 (embryonic period) | 18 | 7 (+1 shared with reuse) | 0 | 3 | 5 |
+| Quiz 49 (ectoderm/neural crest) | 16 | 7 | 0 | 4 | 5 |
+| Quiz 50 (mesoderm) | 25 | 12 (+2 reused own-module) | 1 | 3 | 4 |
+| **Total** | **165** | **65 usable (50 authored)** | **5** | **63** | **27** |
+
+**50 questions authored** this pass, a deliberate subset of the 65
+distinct usable items (target 40-50 per dispatch):
+`coverage/seeds/AUN-PMS-102/pmsquiz30.json` ->
+`question/AUN-PMS-102-quiz30-mcq.md`. 21 newly-minted concepts
+(`concept/AUN-PMS-102-quiz30-concepts.md`) with 6 new articles
+(`article/AUN-PMS-102-quiz30-articles.md`). 27 questions reuse 13
+existing concepts from `docs/Kasr-Source-Imports/concept/103-BMS-
+histology-concepts.md` (8 cartilage/bone concepts) and
+`docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` (5
+gastrulation/neurulation/neural-crest/somite concepts) via a sparse
+overlay, `pending-live/AUN-PMS-102-quiz30-overlay.md` (`+aun`, `+1`,
+`+AUN-PMS-102` tag additions only). 2 questions (the ectopic-pregnancy
+and placenta-previa clinical vignettes) reuse existing **live**
+concepts directly (`CON-OBS-F3B46C8C137FA1`, `CON-OBS-359BB7C45CB7F8`).
+2 questions (folding-4th-week, vitelline-duct) reuse this same
+AUN-PMS-102 module's own lane-1 concepts, since Quiz 50's final items
+(Q21/Q22) restate exactly the same facts lane 1 already minted from
+pp.34-64.
+
+### Held items (this pass)
+
+- **Quiz 30 Q11** (p111, "Chromosomal pattern of Down syndrome"):
+  printed key marks "45 - XY" correct, which is neither a real
+  Down-syndrome karyotype (the correct fact, trisomy 21 / 47,XY or
+  47,XX, does not appear among the printed options at all) nor a
+  coherent answer to the stem. Same numeral-corruption pattern as the
+  MPT-104 Q47 and lane-1 embryology-cluster Klinefelter "44-XXY"
+  precedents (options print 44/45 where standard karyotype notation
+  uses 46/47) -- held rather than asserted as fact, pending a second
+  source copy.
+- **Quiz 41-42 Q9 / Q29** (p118, p125, "regarding uteroplacental
+  circulation is CORRECT"): identical stem and options printed twice
+  in the same source, with two different marked correct answers
+  ("established during the second week of development" vs "hydrolytic
+  enzymes produced by the trophoblast degrade the endothelium of
+  embryonic capillaries"). A direct printed-key conflict within one
+  source -- held per the standing rule (MPT Q47 / lane-1 Quiz54-57
+  Q9-Q19 precedent), neither instance authored.
+- **Quiz 46 Q14** (p143, "At gastrulation, the embryo is bilaminar
+  at: ... Both B & C" = buccopharyngeal membrane and neural folds):
+  conflicts with the same quiz's own Q9 (buccopharyngeal membrane and
+  cloacal membrane) on which second site the embryo stays bilaminar
+  at -- neural folds is not a standard bilaminar-persistence site in
+  undergraduate teaching, and the two printed answers to structurally
+  the same question disagree. Held per the standing printed-key-
+  conflict rule; Q9's answer (matching the live-corpus-confirmed
+  gastrulation fact, see concept search notes below) is authored
+  instead.
+- **Quiz 50 Q12** (p164, "Vertebral column is derived from"): options
+  B and C are both printed as "dermomyotomes" -- collapsing 4 printed
+  options to 3 distinct ones. Held per LANE-CARD S2's floor rule
+  (lane-1 Quiz54-57 Q16/Q26 precedent). The identical fact is authored
+  instead from Q17's later, non-defective 4-distinct-option
+  restatement of the same question (`pmsquiz30-q48`).
+
+### Excluded, not authored (this pass)
+
+Fill-in-the-blank items (Quiz 30 Q1-8, Quiz 41-42 Q16-21, Quiz 43
+Q6-10, Quiz 44-45 Q7-9/Q11/Q13-17/Q22/Q24, Quiz 46 Q3-4, Quiz 48 Q7-8,
+Quiz 49 Q2-4, Quiz 50 Q4-6 -- 41 items total), True/False items (Quiz
+41-42 Q11-15, Quiz 46 Q5, Quiz 48 Q1-3, Quiz 49 Q1, Quiz 50 Q1-3 -- 12
+items), one "Label the diagram" image-dependent item each in Quiz
+41-42 (Q22) and Quiz 46 (Q6), and 27 exact/near-exact duplicate items
+(same stem and key repeated later in the same quiz or the wholly
+duplicate Quiz 47) are logged only in
+`coverage/AUN-PMS-102-triage-keys.txt`, not authored -- matching the
+"Label the diagram" and duplicate-stem exclusion precedents from
+passes 1-2. Quiz 50's final three items (Q23-25: PGC formation in the
+yolk sac, endoderm-derivatives-except-mammary-gland, endoderm-
+derivatives-includes-thyroid-parenchyma) restate concepts already
+minted and authored in lane 1's pp.34-64 pass verbatim; rather than
+mint a third near-identical concept record, they are logged as
+duplicate-of-lane-1 and not re-authored (Quiz 50's other two
+lane-1-overlapping items, Q21/Q22, are instead authored as direct
+concept reuse -- see above).
+
+### Concept search notes (this pass)
+
+`find-existing.mjs` run for every distinct tested idea before minting
+(24+ queries; key results below, full log also visible in this
+lane's session commands):
+
+- **General histology (Quiz 43 cartilage, Quiz 44-45 bone) is
+  saturated**, extending LANE-CARD S7's warning beyond the epithelium/
+  junction facts lane 2 already found in `101-ISK-mcq-concepts.md`:
+  `docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md`
+  turns out to hold a full connective-tissue histology set (cartilage
+  types/cells, bone cells/structure) despite that file's own header
+  comment stating "no cartilage concept is authored here" -- that
+  comment describes only the file's original five records; 60 more
+  were appended later by another lane. Reading the file directly (not
+  just find-existing's truncated hits) found a same-fact concept for
+  all 13 distinct cartilage/bone ideas tested in this pass -- every
+  one reused via overlay rather than minted.
+- **Gastrulation, neurulation, and neural-crest-derivative facts are
+  also saturated** in `docs/Kasr-Source-Imports/concept/
+  101-ISK-mcq-concepts.md`'s "Third Week of Development" section:
+  "gastrulation-primitive-streak-and-the-three-layers-from-epiblast"
+  (`CON-DEV-215BD7E9E58872`) states this pass's own gastrulation
+  facts (primitive streak start, trilaminar-except-two-membranes,
+  bilaminar-at-buccopharyngeal-and-cloacal) verbatim; "neural-plate-
+  and-the-ectodermal-origin-of-the-nervous-system"
+  (`CON-DEV-4BC4233153C3DC`) and "neural-tube-and-neural-crest-
+  derivatives" (`CON-DEV-785CE84F7C03DB`) likewise cover this pass's
+  neurulation and neural-crest-derivative facts -- all reused via
+  overlay.
+- **"notochord"**: pending 101-ISK hit `CON-DEV-1BCF37C48AF307`
+  ("notochord forms in four steps, guides the embryo, ends as the
+  nucleus pulposus") read in full -- covers formation and fate, not
+  this pass's own structural-relations claim (mesodermal, beneath the
+  neural tube, flanked by the somites); no merge, new concept minted
+  and cross-linked as related.
+- **"organogenesis"**: pending 101-ISK hit `CON-DEV-E273F775E9CB77`
+  ("the fetal period... is maturation and growth rather than organ
+  formation") read in full -- states the complementary fetal-period
+  side of this pass's own organogenesis-timing question; reused
+  directly rather than minting a duplicate inverse-framed concept.
+- **"ectopic pregnancy"** / **"placenta previa"**: both **live**,
+  well-established OB/GYN concepts (`CON-OBS-F3B46C8C137FA1`,
+  `CON-OBS-359BB7C45CB7F8`) -- reused directly for the two clinical
+  vignettes in Quiz 41-42, the first direct live-concept reuse in this
+  AUN-PMS-102 lane (prior passes only found live hits that didn't
+  match closely enough to merge).
+- **"intermediate mesoderm"**, **"urogenital ridge"**, **"outer
+  cytotrophoblastic shell"**, **"secondary chorionic villi"**,
+  **"spina bifida"**, **"hCG pregnancy test"**, **"inner cell mass"**,
+  **"blastocyst implantation"**: 0 hits each -- safe to create, all
+  minted new.
+- **"suprarenal medulla mesoderm"**: the 101-ISK neural-crest concept
+  names the suprarenal medulla among the crest's own derivatives
+  (consistent with, but not stating, this pass's own mesoderm-
+  derivatives-EXCEPT framing) -- no merge, new concept minted and
+  cross-linked.
+
+## Placement (this pass)
+
+The 21 newly-minted concepts split by subject: `dev` for all 21
+(genetics is placed under `dev` per this same module's lane-1
+cri-du-chat precedent, since AUN-PMS-102 tests histology, embryology
+and genetics as one module). Topic/subtopic split: `Genetics >
+Chromosome Theory of Inheritance` (4), `Embryology > Implantation and
+the Second Week` (6), `Embryology > Gastrulation and the Notochord`
+(3), `Embryology > Neurulation and the Embryonic Period` (3),
+`Embryology > Ectodermal Derivatives` (2), `Embryology > Mesodermal
+Derivatives` (3) -- one new article per subtopic (6 total). The 13
+reused cartilage/bone/embryology concepts keep their original
+`msk`/`dev` subjects and `CON-MSK-`/`CON-DEV-` ids from 103-BMS/101-ISK,
+unchanged by the overlay (only `universities`/`learner_years`/
+`modules` are appended).
+
 ## Checkpoint table
 
 | Module | Questions triaged | Keys recovered | Held (conflict/corrupted) | Distinct concepts identified | Live-hit | Pending-hit | New |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | AUN-PMS-102 (source b, pp.34-64 cluster) | 68 raw / 34 distinct usable | 34/34 (100% of the authored batch; 310/314 of the whole clean range) | 5 | 27 | 0 direct reuse (2 checked-not-merged) | 5 checked-not-merged | 27 |
 | AUN-PMS-102 (source b, pp.65-107 cluster) | 71 raw / 38 distinct usable | 38/38 (100% of the authored batch) | 2 | 34 (14 reused + 20 new) | 0 direct reuse | 14 reused (101-ISK, overlay) | 20 |
+| AUN-PMS-102 (source b, pp.108-169 cluster) | 165 raw / 65 distinct usable, 50 authored | 50/50 (100% of the authored batch) | 5 | 36 (15 reused + 21 new) | 2 direct reuse (ectopic pregnancy, placenta previa) | 13 reused (103-BMS + 101-ISK, overlay) | 21 |
 
-Concept search across both passes now covers pp.34-107 of source (b) in
-full. pp.108-169 (chromosome theory, Quiz30 -- a single 62-page quiz
-bank) are triaged as part of source (b)'s overall key-recovery rate
-(98.7%) but not yet concept-searched or authored -- queued for the next
-lane, along with the garbled pp.1-33/170-217 (needs OCR first).
+Concept search across all three passes now covers the full clean
+pp.34-169 range of source (b). The garbled pp.1-33/170-217 still need
+OCR before triage; no further clean pages remain in source (b) for a
+future AUN-PMS-102 lane to author from without OCR work first.
 
 ## Needs Omar / open items
 
@@ -354,10 +551,20 @@ lane, along with the garbled pp.1-33/170-217 (needs OCR first).
   items outside this lane's cluster (oesophagus x2, bone ossification,
   trachea x2) -- flagged for whichever future lane covers GI/skeletal/
   respiratory anatomy for Assiut Year 1.
-- pp.108-169 of `All quizzes PMS.pdf` (chromosome theory, Quiz30 -- a
-  single 62-page quiz bank, the largest undivided section of this
-  source) are keyed as part of the 98.7% clean-range rate and
-  page-mapped but not yet concept-searched or authored -- queued for
-  the next AUN-PMS-102 lane, a clean topic boundary immediately after
-  Quiz29's second occurrence ends at p107. The garbled pp.1-33/170-217
-  still need OCR before triage.
+- The 4 held items from this pp.108-169 pass (Quiz 30 Q11 Down-syndrome
+  karyotype numeral corruption, Quiz 41-42 Q9/Q29 uteroplacental-
+  circulation key conflict, Quiz 46 Q14 bilaminar-site key conflict,
+  Quiz 50 Q12 duplicate-option vertebral-column-origin defect) are
+  candidates for a second-copy check, alongside the 8 held items from
+  passes 1-2 already listed above.
+- pp.108-169 of `All quizzes PMS.pdf` is **not** one undivided "Quiz
+  30" bank as earlier assumed -- it is ten separate per-lecture
+  quizzes (see "Cluster authored this pass (lane 3)" above for the
+  corrected page map). This pass authored 50 of the range's 65 usable
+  items; the remaining 15 usable-but-unauthored items (Quiz 44-45's
+  bone-histology tail beyond the 8 authored here, plus a handful of
+  minor mesoderm/embryonic-period facts trimmed to hit the 40-50
+  dispatch target) are logged in `coverage/AUN-PMS-102-triage-keys.txt`
+  as candidates for a future top-up pass if AUN-PMS-102 needs more
+  depth in these topics. The garbled pp.1-33/170-217 still need OCR
+  before any further triage of source (b).
