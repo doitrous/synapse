@@ -58,6 +58,36 @@
   true 96 keys left in the 281-key triage (73 parasitology — nematodes
   pp.14-19 and the protozoa/mixed-vignette section pp.20-25 — plus all 23
   biochemistry keys, untouched by this pass).
+
+  True count, parasitology Part 2 — Intestinal nematodes (this commit): 52
+  items authored (bank items #60-111 of mcq-bank-parasitology.json, pp.14-19,
+  the nematodes block) against 44 unique triage keys — 8 keys are each
+  matched by two or three items (autoinfection.parasite-scope: items #63 and
+  #102; strongyloides-stercoralis.larva-currens: items #67, #88 and #93;
+  strongyloides-stercoralis.corticosteroid-hyperinfection-risk: items #76 and
+  #78; ascaris-lumbricoides.loefflers-syndrome: items #81 and #85;
+  ascaris-lumbricoides.complications.obstruction: items #84 and #110;
+  strongyloides-stercoralis.diagnosis.stool-culture: items #89 and #96;
+  hookworm-group.iron-deficiency-anemia / hookworm.iron-deficiency-anemia:
+  items #62 and #74, consolidated under one concept root; and
+  intestinal-nematodes.complication.appendicitis: items #75 and #100), 0
+  unexpected. Two of the 44 keys (intestinal-nematodes.complication.
+  appendicitis and heterophyes.complication.myocarditis) were already
+  authored by the parasitology-part1 chunk (part1's item #56 and the
+  Heterophyes/myocarditis concept respectively) — this pass reuses those
+  concept ids directly rather than re-minting, so only 42 of the 44 keys were
+  net-new to the 281-key triage's covered set. A direct set-diff of
+  `HU-GIT-301-triage-keys.txt` (281 keys) against every `question[].key`
+  actually present in `coverage/seeds/HU-GIT-301/{pathology-ch1,pathology-
+  ch2,pharmacology-part1,pharmacology-part2,parasitology-part1,parasitology-
+  part2}.json` confirms 227 keys now used (128 from the first three chunks +
+  57 from parasitology-part1 + 42 net-new from this pass) and 54 keys
+  remaining. Individual rows are hand-flipped to 1 authored / 0 remaining for
+  the 42 net-new matched keys, a `parasitology-part2 | 44 | 0 | 0 | 44`
+  summary row is added beside the other cluster rows, and `## Remaining` is
+  rewritten to the true 54 keys left in the 281-key triage (31 parasitology
+  — the protozoa/mixed-vignette section, pp.20-25 — plus all 23 biochemistry
+  keys, both untouched by this pass).
 -->
 
 | cluster | authored | held | remaining | total |
@@ -78,7 +108,7 @@
 | amoebic-dysentery.flask-shaped-ulcers | 0 | 0 | 1 | 1 |
 | amoebic-liver-abscess.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
 | ancylostoma-duodenale.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| ancylostoma-duodenale.ground-itch | 0 | 0 | 1 | 1 |
+| ancylostoma-duodenale.ground-itch | 1 | 0 | 0 | 1 |
 | ancylostoma-duodenale.infective-stage.filariform-larva | 0 | 0 | 1 | 1 |
 | ancylostoma-duodenale.iron-deficiency-anemia | 0 | 0 | 1 | 1 |
 | antacid-combination.mg-al-balancing-bowel-effects | 1 | 0 | 0 | 1 |
@@ -89,16 +119,16 @@
 | antiemetics.motion-sickness.dimenhydrinate | 1 | 0 | 0 | 1 |
 | antispasmodics.direct-vs-anticholinergic | 1 | 0 | 0 | 1 |
 | ascaris-lumbricoides.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| ascaris-lumbricoides.complications.obstruction | 0 | 0 | 1 | 1 |
-| ascaris-lumbricoides.egg-maturation-in-soil | 0 | 0 | 1 | 1 |
-| ascaris-lumbricoides.egg-morphology.single-cell | 0 | 0 | 1 | 1 |
-| ascaris-lumbricoides.loefflers-syndrome | 0 | 0 | 1 | 1 |
-| ascaris-lumbricoides.pulmonary-migration | 0 | 0 | 1 | 1 |
-| autoinfection.parasite-scope | 0 | 0 | 1 | 1 |
+| ascaris-lumbricoides.complications.obstruction | 1 | 0 | 0 | 1 |
+| ascaris-lumbricoides.egg-maturation-in-soil | 1 | 0 | 0 | 1 |
+| ascaris-lumbricoides.egg-morphology.single-cell | 1 | 0 | 0 | 1 |
+| ascaris-lumbricoides.loefflers-syndrome | 1 | 0 | 0 | 1 |
+| ascaris-lumbricoides.pulmonary-migration | 1 | 0 | 0 | 1 |
+| autoinfection.parasite-scope | 1 | 0 | 0 | 1 |
 | bacillary-dysentery.causative-organism | 0 | 0 | 1 | 1 |
 | bacillary-dysentery.inflammation-type | 0 | 0 | 1 | 1 |
 | budd-chiari-syndrome.hepatic-vein-thrombosis | 1 | 0 | 0 | 1 |
-| capillaria-philippinensis.mode-of-infection | 0 | 0 | 1 | 1 |
+| capillaria-philippinensis.mode-of-infection | 1 | 0 | 0 | 1 |
 | carcinoid-tumour.commonest-site.appendix | 0 | 0 | 1 | 1 |
 | castor-oil.classification.irritant-laxative | 1 | 0 | 0 | 1 |
 | cestoda.infective-stage.eggs | 1 | 0 | 0 | 1 |
@@ -151,19 +181,19 @@
 | echinococcus.alveolar-hydatid.site | 1 | 0 | 0 | 1 |
 | entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate | 0 | 0 | 1 | 1 |
 | entamoeba-histolytica.infective-stage.cyst | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.airborne-egg-transmission | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.clinical-features.perianal-pruritus | 0 | 0 | 1 | 1 |
+| enterobius-vermicularis.airborne-egg-transmission | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.clinical-features.perianal-pruritus | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.diagnosis.graham-swab | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.diagnosis.not-by-stool | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.diagnosis.perianal-swab | 0 | 0 | 1 | 1 |
+| enterobius-vermicularis.diagnosis.graham-swab | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.diagnosis.not-by-stool | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.diagnosis.perianal-swab | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.diagnostic-stage | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.ectopic-egg-deposition | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.egg-morphology.plano-convex | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.egg-under-fingernails | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.identity | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.mode-of-infection.egg-not-larva | 0 | 0 | 1 | 1 |
-| enterobius-vermicularis.retroinfection | 0 | 0 | 1 | 1 |
+| enterobius-vermicularis.ectopic-egg-deposition | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.egg-morphology.plano-convex | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.egg-under-fingernails | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.identity | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.mode-of-infection.egg-not-larva | 1 | 0 | 0 | 1 |
+| enterobius-vermicularis.retroinfection | 1 | 0 | 0 | 1 |
 | fap.apc-gene-mutation | 0 | 0 | 1 | 1 |
 | fap.apc-tumour-suppressor-gene | 0 | 0 | 1 | 1 |
 | fasciola-hepatica.intermediate-host.lymnaea-truncatula | 1 | 0 | 0 | 1 |
@@ -224,8 +254,8 @@
 | hev.transmission.faecal-oral | 1 | 0 | 0 | 1 |
 | hiatus-hernia.pathogenesis | 0 | 0 | 1 | 1 |
 | hirschsprung-disease.clinical-features | 0 | 0 | 1 | 1 |
-| hookworm-group.iron-deficiency-anemia | 0 | 0 | 1 | 1 |
-| hookworm.iron-deficiency-anemia | 0 | 0 | 1 | 1 |
+| hookworm-group.iron-deficiency-anemia | 1 | 0 | 0 | 1 |
+| hookworm.iron-deficiency-anemia | 1 | 0 | 0 | 1 |
 | hymenolepis-diminuta.intermediate-host.arthropod | 1 | 0 | 0 | 1 |
 | hymenolepis-nana.autoinfection | 1 | 0 | 0 | 1 |
 | hymenolepis-nana.direct-life-cycle | 1 | 0 | 0 | 1 |
@@ -237,7 +267,7 @@
 | immunodiagnosis.parasite-scope | 1 | 0 | 0 | 1 |
 | inflammatory-bowel-disease.crohns-site | 0 | 0 | 1 | 1 |
 | intestinal-nematodes.complication.appendicitis | 1 | 0 | 0 | 1 |
-| intestinal-nematodes.diagnostic-stage.adult-worm | 0 | 0 | 1 | 1 |
+| intestinal-nematodes.diagnostic-stage.adult-worm | 1 | 0 | 0 | 1 |
 | intestinal-parasites.complication.appendicitis | 0 | 0 | 1 | 1 |
 | irritant-purgatives.mechanism | 1 | 0 | 0 | 1 |
 | juvenile-polyp.features | 0 | 0 | 1 | 1 |
@@ -249,7 +279,7 @@
 | lipotropic-factors.chloroform-is-hepatotoxic | 0 | 0 | 1 | 1 |
 | liquid-paraffin.fat-soluble-vitamin-malabsorption | 1 | 0 | 0 | 1 |
 | liver-abscess.multiple-vs-solitary-causes | 1 | 0 | 0 | 1 |
-| liver-biopsy.parasitic-diagnosis | 0 | 0 | 1 | 1 |
+| liver-biopsy.parasitic-diagnosis | 1 | 0 | 0 | 1 |
 | liver-cell-adenoma.oral-contraceptive-association | 1 | 0 | 0 | 1 |
 | liver-function-tests.afp-in-liver-cancer | 0 | 0 | 1 | 1 |
 | liver-function-tests.prothrombin-time-synthetic-function | 0 | 0 | 1 | 1 |
@@ -267,7 +297,7 @@
 | metoclopramide.dual-antiemetic-prokinetic-action | 1 | 0 | 0 | 1 |
 | metoclopramide.mechanism.d2-receptor-antagonist | 1 | 0 | 0 | 1 |
 | misoprostol.nsaid-ulcer-prophylaxis | 1 | 0 | 0 | 1 |
-| nematodes.large-intestine-habitat | 0 | 0 | 1 | 1 |
+| nematodes.large-intestine-habitat | 1 | 0 | 0 | 1 |
 | nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines | 0 | 0 | 1 | 1 |
 | oesophageal-squamous-papilloma.hpv-association | 0 | 0 | 1 | 1 |
 | ondansetron.indication.chemotherapy-induced-vomiting | 1 | 0 | 0 | 1 |
@@ -281,6 +311,7 @@
 | pathology-ch2 | 32 | 0 | 0 | 32 |
 | pharmacology | 53 | 0 | 0 | 53 |
 | parasitology-part1 | 57 | 0 | 0 | 57 |
+| parasitology-part2 | 44 | 0 | 0 | 44 |
 | pepsin.endopeptidase-not-exopeptidase | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.common-sites | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.gross-site | 0 | 0 | 1 | 1 |
@@ -303,20 +334,20 @@
 | sialadenitis.sjogren-syndrome-aetiology | 0 | 0 | 1 | 1 |
 | sialadenitis.viral-aetiology.mumps | 0 | 0 | 1 | 1 |
 | sodium-bicarbonate.systemic-antacid-rebound-and-bleeding-risk | 1 | 0 | 0 | 1 |
-| soil-transmitted-helminths.sanitation-control | 0 | 0 | 1 | 1 |
+| soil-transmitted-helminths.sanitation-control | 1 | 0 | 0 | 1 |
 | steatorrhoea.causes-vs-hormone-sensitive-lipase | 0 | 0 | 1 | 1 |
-| stool-examination.helminth-scope | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.corticosteroid-hyperinfection-risk | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.diagnosis.duodenal-aspiration | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.diagnosis.stool-culture | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.diagnostic-stage.rhabditiform-larva | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.larva-currens | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.larva-morphology.double-bulbed-oesophagus | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.life-cycle-forms | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.portal-of-entry.skin | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.rhabditiform-larva-morphology | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.smallest-intestinal-nematode | 0 | 0 | 1 | 1 |
-| strongyloides-stercoralis.treatment.ivermectin | 0 | 0 | 1 | 1 |
+| stool-examination.helminth-scope | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.corticosteroid-hyperinfection-risk | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.diagnosis.duodenal-aspiration | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.diagnosis.stool-culture | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.diagnostic-stage.rhabditiform-larva | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.larva-currens | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.larva-morphology.double-bulbed-oesophagus | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.life-cycle-forms | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.portal-of-entry.skin | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.rhabditiform-larva-morphology | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.smallest-intestinal-nematode | 1 | 0 | 0 | 1 |
+| strongyloides-stercoralis.treatment.ivermectin | 1 | 0 | 0 | 1 |
 | sulfasalazine.indication.inflammatory-bowel-disease | 1 | 0 | 0 | 1 |
 | taenia-saginata.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
 | taenia-saginata.diagnostic-stages | 0 | 0 | 1 | 1 |
@@ -336,17 +367,17 @@
 | trematode-eggs.stool-concentration-technique | 1 | 0 | 0 | 1 |
 | trematodes.infective-stage.encysted-metacercaria | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| trichuris-trichiura.complication.rectal-prolapse | 0 | 0 | 1 | 1 |
+| trichuris-trichiura.complication.rectal-prolapse | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.complications | 0 | 0 | 1 | 1 |
-| trichuris-trichiura.egg-morphology.bipolar-plugs | 0 | 0 | 1 | 1 |
-| trichuris-trichiura.mucosal-attachment | 0 | 0 | 1 | 1 |
-| trichuris-trichiura.no-migratory-phase | 0 | 0 | 1 | 1 |
+| trichuris-trichiura.egg-morphology.bipolar-plugs | 1 | 0 | 0 | 1 |
+| trichuris-trichiura.mucosal-attachment | 1 | 0 | 0 | 1 |
+| trichuris-trichiura.no-migratory-phase | 1 | 0 | 0 | 1 |
 | trypsin.endopeptidase-not-exopeptidase | 0 | 0 | 1 | 1 |
 | trypsin.substrate-specificity-arginine-lysine | 0 | 0 | 1 | 1 |
 | viral-hepatitis.hbv-hdv-coinfection | 1 | 0 | 0 | 1 |
 | viral-hepatitis.hdv-can-cause-chronic-disease | 1 | 0 | 0 | 1 |
 | zollinger-ellison-syndrome.proton-pump-inhibitor-treatment | 1 | 0 | 0 | 1 |
-| zoonotic-dog-transmitted-parasites | 0 | 0 | 1 | 1 |
+| zoonotic-dog-transmitted-parasites | 1 | 0 | 0 | 1 |
 
 ## Held
 (none)
@@ -355,17 +386,9 @@
 - alcoholic-fatty-liver.increased-nadh-nad-ratio
 - amoebic-liver-abscess.clinical-vignette-diagnosis
 - ancylostoma-duodenale.clinical-vignette-diagnosis
-- ancylostoma-duodenale.ground-itch
 - ancylostoma-duodenale.infective-stage.filariform-larva
 - ancylostoma-duodenale.iron-deficiency-anemia
 - ascaris-lumbricoides.clinical-vignette-diagnosis
-- ascaris-lumbricoides.complications.obstruction
-- ascaris-lumbricoides.egg-maturation-in-soil
-- ascaris-lumbricoides.egg-morphology.single-cell
-- ascaris-lumbricoides.loefflers-syndrome
-- ascaris-lumbricoides.pulmonary-migration
-- autoinfection.parasite-scope
-- capillaria-philippinensis.mode-of-infection
 - coeliac-disease.gluten-trigger
 - cryptosporidium.differential-diarrhoea-in-immunosuppressed
 - cryptosporidium.infective-stage.oocyst
@@ -377,19 +400,8 @@
 - disaccharide-digestion.pancreatic-enzymes
 - entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate
 - entamoeba-histolytica.infective-stage.cyst
-- enterobius-vermicularis.airborne-egg-transmission
-- enterobius-vermicularis.clinical-features.perianal-pruritus
 - enterobius-vermicularis.clinical-vignette-diagnosis
-- enterobius-vermicularis.diagnosis.graham-swab
-- enterobius-vermicularis.diagnosis.not-by-stool
-- enterobius-vermicularis.diagnosis.perianal-swab
 - enterobius-vermicularis.diagnostic-stage
-- enterobius-vermicularis.ectopic-egg-deposition
-- enterobius-vermicularis.egg-morphology.plano-convex
-- enterobius-vermicularis.egg-under-fingernails
-- enterobius-vermicularis.identity
-- enterobius-vermicularis.mode-of-infection.egg-not-larva
-- enterobius-vermicularis.retroinfection
 - fasciola.clinical-vignette-diagnosis
 - fasciola.diagnosis.serology-when-stool-negative
 - fatty-liver.causes-vs-increased-fatty-acid-oxidation
@@ -404,47 +416,24 @@
 - heterophyes.infective-stage.encysted-metacercaria
 - heterophyes.second-intermediate-host.fish
 - heterophyes.treatment.praziquantel
-- hookworm-group.iron-deficiency-anemia
-- hookworm.iron-deficiency-anemia
-- intestinal-nematodes.diagnostic-stage.adult-worm
 - intestinal-parasites.complication.appendicitis
 - lactase.hydrolysis-products
 - lactose-intolerance.lactase-deficiency
 - lipotropic-factors.chloroform-is-hepatotoxic
-- liver-biopsy.parasitic-diagnosis
 - liver-function-tests.afp-in-liver-cancer
 - liver-function-tests.prothrombin-time-synthetic-function
 - liver-function-tests.transaminases-hepatocellular-damage
 - liver-metabolism.gamma-globulins-not-hepatic-synthesis
-- nematodes.large-intestine-habitat
 - nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines
 - pancreatic-lipase.cofactors
 - pepsin.endopeptidase-not-exopeptidase
 - sglt-1.tissue-distribution-intestine-and-kidney-not-muscle
-- soil-transmitted-helminths.sanitation-control
 - steatorrhoea.causes-vs-hormone-sensitive-lipase
-- stool-examination.helminth-scope
-- strongyloides-stercoralis.corticosteroid-hyperinfection-risk
-- strongyloides-stercoralis.diagnosis.duodenal-aspiration
-- strongyloides-stercoralis.diagnosis.stool-culture
-- strongyloides-stercoralis.diagnostic-stage.rhabditiform-larva
-- strongyloides-stercoralis.larva-currens
-- strongyloides-stercoralis.larva-morphology.double-bulbed-oesophagus
-- strongyloides-stercoralis.life-cycle-forms
-- strongyloides-stercoralis.portal-of-entry.skin
-- strongyloides-stercoralis.rhabditiform-larva-morphology
-- strongyloides-stercoralis.smallest-intestinal-nematode
-- strongyloides-stercoralis.treatment.ivermectin
 - taenia-saginata.clinical-vignette-diagnosis
 - taenia-saginata.diagnostic-stages
 - toxocara.clinical-vignette-diagnosis
 - toxocara.infective-stage.embryonated-egg
 - trichuris-trichiura.clinical-vignette-diagnosis
-- trichuris-trichiura.complication.rectal-prolapse
 - trichuris-trichiura.complications
-- trichuris-trichiura.egg-morphology.bipolar-plugs
-- trichuris-trichiura.mucosal-attachment
-- trichuris-trichiura.no-migratory-phase
 - trypsin.endopeptidase-not-exopeptidase
 - trypsin.substrate-specificity-arginine-lysine
-- zoonotic-dog-transmitted-parasites

@@ -225,3 +225,247 @@ CLM-GIT-IMMUNODIAGNOSIS-PARASITE-01
 
 ## field_notes
 relationships: Covers every concept minted in this cluster; cross-article links deferred to a later pass — see WANTED.
+
+---
+
+# Item
+
+## id
+ART-HU-GIT301-PARA-NEMATODES
+
+## title
+GIT 301 parasitology: Intestinal nematodes
+
+## arabic_title
+الطفيليات في الجهاز الهضمي: الديدان الخيطية المعوية
+
+## aliases
+
+
+## subject
+gi
+
+## topic
+Gastrointestinal parasitology
+
+## subtopic
+Intestinal nematodes of the GI tract
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T02
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+20
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Helwan Year-3 authoring lane
+
+## reviewer
+Medical team, Helwan Pathology faculty
+
+## final_publisher
+Admin team
+
+## summary
+A survey of the soil-transmitted (Ascaris, Trichuris, hookworms) and autoinfective (Strongyloides, Enterobius) intestinal nematodes, plus Capillaria philippinensis and dog-transmitted zoonoses, tested by the HU-GIT-301 department parasitology MCQ bank's intestinal nematode chapter (pp.14-19).
+
+## sections
+### Definition
+The GIT-301 parasitology curriculum continues with the department bank's intestinal nematode chapter: the soil-transmitted helminths (Ascaris lumbricoides, Trichuris trichiura, Ancylostoma duodenale, Necator americanus), the autoinfective nematodes (Strongyloides stercoralis, Enterobius vermicularis), and less common intestinal nematodes (Capillaria philippinensis) and zoonotic dog-transmitted parasites.
+
+### Mechanism
+### Soil-transmitted nematodes
+Ascaris lumbricoides has a direct life cycle: its single-cell egg matures in favourable soil conditions, and after ingestion its larvae migrate through the liver and lungs (producing Loeffler's syndrome, shared with hookworm and Strongyloides) before maturing in the small intestine; heavy infection can obstruct the appendix, gut or bile duct. Trichuris trichiura anchors, without any migratory phase, into the caecal mucosa by its attenuated anterior end, lays a bipolar-plugged barrel-shaped egg, and can cause rectal prolapse in heavy infection. Ancylostoma duodenale and Necator americanus penetrate skin (causing ground itch) as filariform larvae, migrate through the lungs, and cause iron-deficiency anemia by chronic intestinal blood loss — a pathogenicity the dog-only Ancylostoma caninum, which cannot mature in man, does not share.
+
+### Autoinfective nematodes
+Strongyloides stercoralis, the smallest intestinal nematode infecting man, uniquely supports direct, indirect (free-living) and autoinfective life-cycle routes; its autoinfective filariform larvae cause larva currens on re-penetrating perianal skin, and corticosteroid-driven immunosuppression can convert autoinfection into life-threatening hyperinfection, requiring pre-treatment screening. Enterobius vermicularis infects by egg ingestion (not larva, unlike Capillaria philippinensis and Trichostrongylus), inhabits the large intestine, and spreads by direct contact, airborne eggs and retroinfection (perianally hatched larvae migrating back through the anus); its perianal egg deposition causes nocturnal pruritus, enuresis, fingernail contamination and, uncommonly, ectopic urogenital migration, and it is reliably diagnosed only by a perianal (Graham) swab, not stool examination, since stool disposal sanitation — effective for the soil-transmitted nematodes — does not control its spread.
+
+### Cross-cutting facts
+Several facts span organisms: autoinfection is shared by Hymenolepis nana, Enterobius vermicularis, Strongyloides stercoralis and Capillaria philippinensis, but not Ancylostoma duodenale, which needs external soil development; the adult worm is a diagnostic finding in ascariasis, strongyloidiasis and enterobiasis but not ancylostomiasis, which relies on stool eggs; and Trichuris trichiura and Enterobius vermicularis share a large-intestine habitat, unlike the small-intestinal Strongyloides stercoralis. Toxocariasis and hydatid disease are both acquired through contact with dogs, distinct from Ancylostoma caninum's purely cutaneous disease.
+
+### Key determinants
+As in Part 1, separate an exception ("except"/"not true") stem's true statements from its one false statement before selecting an answer, and track which specific organism or species a fact belongs to — this section frequently tests species-specific exceptions (Ancylostoma caninum's inability to mature in man, Trichuris's absent migratory phase, Enterobius's egg-not-larva infectivity) against a background of otherwise shared genus- or family-level nematode facts.
+
+### Clinical significance
+These soil-transmitted and autoinfective nematodes remain leading causes of anemia, growth impairment, and, for Strongyloides specifically, a potentially fatal corticosteroid-triggered hyperinfection syndrome in Egypt and similar settings, making their diagnosis and life-cycle-specific transmission control directly examinable clinical decisions. Every linked record remains Draft pending independent review.
+
+### Exam approach
+For an 'except' stem, first identify which options share the same true claim, then select the one option that breaks the pattern — Ancylostoma caninum is the recurring "false hookworm" answer across this section's anemia, autoinfection and stool-diagnosis items. Item #69's printed key names Enterobius vermicularis, not the more commonly taught Strongyloides stercoralis, for a double-bulbed oesophagus; it stands as printed, with the doubt recorded on that concept. Item #101's source PDF printed only three lettered options; a fourth (Trichuris trichiura eggs) was added at build time to meet the platform's option-count floor, without changing the printed answer.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+
+
+## lose_the_mark
+
+
+## related_concepts
+CON-GIT-55B7FFBCC3813D
+CON-GIT-3812D763B83D17
+CON-GIT-14D35B1D4C4F4E
+CON-GIT-34829890F3985C
+CON-GIT-A2A06601B4D8A4
+CON-GIT-652CB5E7405E53
+CON-GIT-BFD2D52A353171
+CON-GIT-14ABC9FF549976
+CON-GIT-DCC6D015826D41
+CON-GIT-72B74B588567C3
+CON-GIT-58E2DC3BCDB569
+CON-GIT-4E44AA38D16CB4
+CON-GIT-709E28E2095B5A
+CON-GIT-5DEAC87AB891C0
+CON-GIT-D377EBA78DD37E
+CON-GIT-663BF173017BE0
+CON-GIT-8617D2CDC85CB6
+CON-GIT-C4679409F59219
+CON-GIT-AE947A0DB988BC
+CON-GIT-82D069F854C57A
+CON-GIT-BD99E16F832BA8
+CON-GIT-A134E72614DE00
+CON-GIT-9FE3EF6E432ECF
+CON-GIT-E7E6A0569C00BC
+CON-GIT-72E984BC493430
+CON-GIT-5D42E39D871090
+CON-GIT-9041A06C9B074B
+CON-GIT-C963D99A43B1D0
+CON-GIT-BF9B52E4E0D9D6
+CON-GIT-A37E9AD9E27B49
+CON-GIT-6D88AE14B064AF
+CON-GIT-41D12793AF4B79
+CON-GIT-4D6FA79ED5D91F
+CON-GIT-45DA03F58B4D64
+CON-GIT-FF0177C35FE48E
+CON-GIT-5D164711B23268
+CON-GIT-A674A67B72C1B6
+CON-GIT-4730BBC83E073F
+CON-GIT-8EB50F77A2A565
+CON-GIT-F4D22596A3C1DA
+CON-GIT-535A1F8E179D91
+CON-GIT-5AF3E7C4293A73
+CON-GIT-C465585A0366E5
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+
+
+## universities
+hu
+
+## years
+HU_Y3
+
+## module
+HU-GIT-301
+
+## module_subject
+HU-GIT-301 > Parasitology > Intestinal nematodes
+
+## university_notes
+hu: Restricted to HU-GIT-301 Year 3. Sourced from the department parasitology MCQ bank (scripts/helwan/extract/HU-GIT-301/mcq-bank-parasitology.json, items #60-111); no official past-paper key is involved.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## callout_evidence
+
+
+## claim_ids
+CLM-GIT-LIVER-BIOPSY-DIAGNOSIS-01
+CLM-GIT-ENTEROBIUS-MODE-OF-INFEC-01
+CLM-GIT-NEMATODE-ANEMIA-01
+CLM-GIT-AUTOINFECTION-SCOPE-01
+CLM-GIT-ADULT-WORM-DIAGNOSTIC-ST-01
+CLM-GIT-TRICHURIS-NO-MIGRATION-01
+CLM-GIT-STOOL-EXAM-SCOPE-01
+CLM-GIT-LARVA-CURRENS-01
+CLM-GIT-RHABDITIFORM-LARVA-MORPH-01
+CLM-GIT-DOUBLE-BULBED-OESOPHAGUS-01
+CLM-GIT-TRICHURIS-MUCOSAL-ATTACH-01
+CLM-GIT-NEMATODES-LARGE-INTESTIN-01
+CLM-GIT-TRICHURIS-EGG-BIPOLAR-PL-01
+CLM-GIT-TRICHURIS-RECTAL-PROLAPS-01
+CLM-GIT-STRONGYLOIDES-CORTICOSTE-01
+CLM-GIT-CAPILLARIA-MODE-OF-INFEC-01
+CLM-GIT-ENTEROBIUS-RETROINFECTIO-01
+CLM-GIT-ASCARIS-LOEFFLERS-SYNDRO-01
+CLM-GIT-ASCARIS-EGG-SINGLE-CELL-01
+CLM-GIT-ASCARIS-PULMONARY-MIGRAT-01
+CLM-GIT-ASCARIS-COMPLICATIONS-OB-01
+CLM-GIT-ASCARIS-EGG-MATURATION-S-01
+CLM-GIT-STRONGYLOIDES-TREATMENT--01
+CLM-GIT-STRONGYLOIDES-STOOL-CULT-01
+CLM-GIT-STRONGYLOIDES-DUODENAL-A-01
+CLM-GIT-STRONGYLOIDES-PORTAL-OF--01
+CLM-GIT-STRONGYLOIDES-DIAGNOSTIC-01
+CLM-GIT-STRONGYLOIDES-LIFE-CYCLE-01
+CLM-GIT-ANCYLOSTOMA-GROUND-ITCH-01
+CLM-GIT-ENTEROBIUS-AIRBORNE-TRAN-01
+CLM-GIT-ENTEROBIUS-EGG-UNDER-FIN-01
+CLM-GIT-STRONGYLOIDES-SMALLEST-N-01
+CLM-GIT-ENTEROBIUS-ECTOPIC-EGG-D-01
+CLM-GIT-ENTEROBIUS-PERIANAL-PRUR-01
+CLM-GIT-ENTEROBIUS-EGG-MORPHOLOG-01
+CLM-GIT-ENTEROBIUS-DIAGNOSIS-NOT-01
+CLM-GIT-ENTEROBIUS-DIAGNOSIS-PER-01
+CLM-GIT-ENTEROBIUS-IDENTITY-01
+CLM-GIT-ENTEROBIUS-DIAGNOSIS-GRA-01
+CLM-GIT-SOIL-TRANSMITTED-HELMINT-01
+CLM-GIT-ZOONOTIC-DOG-TRANSMITTED-01
+
+## span_ids
+
+
+## evidence_gaps
+[clear]
+
+## notes
+
+
+## field_notes
+relationships: Covers every concept minted in this cluster; cross-article links deferred to a later pass — see WANTED.
