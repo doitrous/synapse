@@ -1795,3 +1795,708 @@ mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continu
 ## review_due
 
 
+---
+
+# Item
+
+## id
+ART-MANS-HIS-COAGULATION-CASCADE-EXTRINSIC-PATHWAY
+
+## title
+The extrinsic pathway: tissue thromboplastin to fibrin
+
+## arabic_title
+
+
+## aliases
+Factor Xa
+Thrombin generation
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Physiology
+
+## subtopic
+Blood — coagulation cascade
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## summary
+The extrinsic pathway is triggered by tissue thromboplastin released from damaged tissue, which activates factor Xa; factor Xa converts prothrombin to thrombin, and thrombin converts fibrinogen to fibrin — with calcium required as a cofactor throughout.
+
+## sections
+### Definition
+The extrinsic coagulation pathway is one of two routes (with the intrinsic pathway) that converge on a common final sequence to form a stable fibrin clot.
+
+### Mechanism
+Tissue thromboplastin (tissue factor, factor III), released from damaged tissue at the injury site, triggers the extrinsic pathway by activating factor X to factor Xa. Factor Xa is the step that directly converts prothrombin into active thrombin. Thrombin then converts soluble fibrinogen into insoluble fibrin strands, stabilising the platelet plug into a definitive clot. Calcium ions are required as a cofactor at multiple points in this cascade, including prothrombin-to-thrombin conversion.
+
+### Key determinants
+"Released from damaged tissue, starts the cascade" = tissue thromboplastin. "Directly converts prothrombin to thrombin" = factor Xa. Both are tested as separate fill-in-the-blank facts on the same cascade.
+
+### Clinical significance
+This pathway underlies the prothrombin time (PT) laboratory test, which specifically probes extrinsic-pathway and common-pathway factor function.
+
+## hold_these
+Extrinsic pathway trigger = tissue thromboplastin (released from damaged tissue). Factor Xa converts prothrombin → thrombin. Thrombin converts fibrinogen → fibrin. Calcium is a required cofactor throughout.
+
+## lose_the_mark
+Mixing up "what starts the cascade" (tissue thromboplastin) with "what directly makes thrombin" (factor Xa) — two different, separately tested facts on the same sequence.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 3" past-exam block, His Continuous Berlin Book 2026.pdf, p.116-118, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the cascade sequence is standard textbook material.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 3 past-exam block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-D2DD281A978DBD
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.116-118, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-HEMOPHILIA-FACTOR-DEFICIENCY
+
+## title
+Haemophilia: a hereditary coagulation-factor deficiency
+
+## arabic_title
+
+
+## aliases
+Factor VIII deficiency
+Haemophilia A
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Physiology
+
+## subtopic
+Blood — coagulation disorders
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## summary
+Haemophilia is a hereditary deficiency of a coagulation factor, classically factor VIII in haemophilia A, producing a lifelong bleeding tendency.
+
+## sections
+### Definition
+Haemophilia names a hereditary (inherited) deficiency of a specific coagulation factor, producing excessive bleeding from minor injury or spontaneously into joints and soft tissue.
+
+### Mechanism
+Haemophilia A, the classic and most common form, is caused by deficiency of factor VIII. A rarer form, haemophilia B (Christmas disease), is caused by deficiency of factor IX. Both are X-linked recessive, which is why haemophilia overwhelmingly affects males.
+
+### Key determinants
+"Hereditary deficiency of coagulation" names the category (haemophilia); "deficiency of factor VIII" names the classic form (haemophilia A) — the department's bank tests both as separate questions on the same condition.
+
+### Clinical significance
+Recognising the X-linked inheritance pattern and the specific missing factor guides both diagnosis (factor assays) and treatment (factor replacement).
+
+## hold_these
+Haemophilia = hereditary coagulation-factor deficiency. Haemophilia A = factor VIII deficiency (the classic, most commonly tested form).
+
+## lose_the_mark
+Treating "haemophilia" as naming only one specific factor rather than a category with named subtypes (A = factor VIII, B = factor IX).
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 3" past-exam block, His Continuous Berlin Book 2026.pdf, p.117, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent haematology reference not yet cross-checked against this department-book framing; the factor identity is standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 3 past-exam block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-DC8364E8254011
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.117, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-PLATELET-ADHESION-VASOCONSTRICTION
+
+## title
+Platelet adhesion and vasoconstriction in primary haemostasis
+
+## arabic_title
+
+
+## aliases
+Von Willebrand factor
+Thromboxane A2
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Physiology
+
+## subtopic
+Blood — primary haemostasis
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## summary
+Von Willebrand factor potentiates platelet adhesion to an injured vessel wall, and thromboxane A2 released from activated platelets causes local vasoconstriction and further aggregation — the mechanism aspirin blocks.
+
+## sections
+### Definition
+Primary haemostasis begins with platelets adhering to exposed subendothelial collagen at an injury site.
+
+### Mechanism
+Von Willebrand factor, a plasma glycoprotein, potentiates (strengthens) that adhesion by bridging platelet surface receptors to collagen. Activated platelets then release thromboxane A2, a potent vasoconstrictor that narrows the injured vessel and promotes further platelet aggregation.
+
+### Key determinants
+"What potentiates platelet adhesion" = von Willebrand factor (against ADP/fibrin stabilising factor/tissue factor distractors). "What produces vasoconstriction" = thromboxane A2.
+
+### Clinical significance
+Aspirin's inhibition of thromboxane A2 synthesis (via COX) both prolongs bleeding time and reduces platelet-driven vasoconstriction and aggregation — the pharmacological basis for aspirin's antiplatelet use.
+
+## hold_these
+Von Willebrand factor potentiates platelet adhesion. Thromboxane A2, released from activated platelets, causes vasoconstriction of the injured vessel.
+
+## lose_the_mark
+Assuming thromboxane A2 only aggregates platelets and missing its distinct vasoconstrictor action on the vessel itself.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 3" past-exam block, His Continuous Berlin Book 2026.pdf, p.118, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the mechanisms are standard.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 3 past-exam block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-761D9E818B8285
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.118, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-MANS-HIS-HEMOSTASIS-SEQUENCE-CLOT-RETRACTION
+
+## title
+The haemostasis sequence and platelet clot retraction
+
+## arabic_title
+
+
+## aliases
+Hemostasis steps order
+Clot retraction
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## topic
+Physiology
+
+## subtopic
+Blood — haemostasis sequence
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PHY-T01
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+4
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+mans
+
+## years
+MANS_Y1
+
+## module
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Haemostasis and coagulation
+
+## summary
+Normal haemostasis follows a fixed sequence — vessel spasm, then platelet plug formation, then coagulation — and activated platelets both release ADP and, after clotting, drive clot retraction.
+
+## sections
+### Definition
+Haemostasis is the body's physiological response to vascular injury, stopping blood loss through a coordinated, ordered sequence of events.
+
+### Mechanism
+First, blood vessel spasm (vasoconstriction) narrows the injured vessel to reduce flow. Second, platelet plug formation seals the breach as platelets adhere, activate and aggregate. Third, blood coagulation lays down fibrin that stabilises the platelet plug into a definitive clot. Activated platelets release ADP, recruiting further platelets to the aggregating plug. After the clot forms, platelets are also necessary for clot retraction — the platelet cytoskeleton contracts, pulling the fibrin meshwork tighter, squeezing out serum, and drawing wound edges together.
+
+### Key determinants
+The correct order — vessel spasm, platelet plug, coagulation — is tested directly; vessel spasm (the fastest response) is often wrongly placed after the platelet plug instead of before it.
+
+### Clinical significance
+Platelet-poor or platelet-dysfunctional states impair clot retraction independently of the coagulation cascade itself, a distinction relevant to interpreting bleeding disorders.
+
+## hold_these
+Haemostasis order: vessel spasm → platelet plug formation → coagulation. Activated platelets release ADP. Platelets are necessary for clot retraction.
+
+## lose_the_mark
+Reordering the three haemostasis steps, especially placing vessel spasm after the platelet plug instead of first.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Mansoura HIS 203 Physiology Important MCQ "Physio HIS 3" past-exam block, His Continuous Berlin Book 2026.pdf, p.120, source id src_c4ee1e63536c22ca52d4.
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the sequence is standard textbook material.
+
+## notes
+Authored from Mansoura HIS 203's own Physio HIS 3 past-exam block.
+
+## field_notes
+arabicTitle: Arabic terminology has not been researched; left empty rather than guessed.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above.
+media: No media request is attached in this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+conflicts: No conflict identified in the selected source pages.
+
+## related_concepts
+CON-HEM-7704DD963194EC
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## article_source_ids
+src_c4ee1e63536c22ca52d4
+
+## claim_ids
+
+
+## span_ids
+
+
+## annotations
+
+
+## callout_evidence
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+mans: Authored from Mansoura HIS 203's own Physiology Important MCQ (His Continuous Berlin Book 2026.pdf, p.120, src_c4ee1e63536c22ca52d4).
+
+## last_reviewed
+
+
+## review_due
+
+
+
