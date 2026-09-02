@@ -497,3 +497,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ASSIUT INI-105 lane 14 (ch1 Q101-161) LANDED (d366f77d) · chapter 1 CLOSED
 - 61 read: 47 authored, 14 held (5 option floor, Q133 double answer, 8 dups). 6 mints, 41 reuses (12 ASU-INF overlays, MUST saprophyte/opportunist). Wall: lane 10's twin repair had deleted this lane's ch5 mint CON-INF-8B02B0EFEE96F5 under it (no textual conflict) — caught by re-running gate post-rebase, Q101 repointed to the MUST sibling. batch errors=0 ×3; 15-file simulate rejected=0. ≈3.5k tok/q. Chapter 1: 136/25/0/161.
 - INI-105 bank status: chapters 1-10 closed; chapter 11 Q57-110 with lane 15. The 886-item bank closes on lane 15's landing. Slot → Assiut queue (see next entry). Fleet 20/20.
+
+### 2026-09-02 — ASSIUT queue: CBF-103 lane 2 DISPATCHED on `All quizzes CBF .pdf` (259 pp OCR triage; fallback All Gds / All formatives). Y1 heads now: CBF-103 OCR, PMS-102 OCR tails, 6 October IPH-108 OCR, Mansoura groups, FOMSCU MS105, Zagazig 105/108, Menoufia MED105 final; everything else Y1 is closed, running, parked or needs Omar.
+
+### 2026-09-02 — HELWAN HU-ORL-305 ophthalmology lane 2 LANDED (23afab31 scripts, 376adfc4 content)
+- Ch3 #21-96: 69 authored, 7 held (5 unkeyed, Q48/Q49 two-option True/False). 28 `CON-OPH-*` mints, 7 reuses of lane 1's. batch errors=0 ×4; whole-tree simulate 98 batches rejected=0; duplicate-keys / concept-ids clean. Chapter 3 closed (89/96). Remaining Ch4-15 = 845 items → lane 3 dispatched on Ch4 (91 items, `ophth-q0136` onward). Fleet 20/20.
