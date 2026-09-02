@@ -2150,7 +2150,6 @@ CON-NEU-21B8B66BE5A8FA
 CON-NEU-21B8B66BE5A8FA
 
 ## contextual_concept_ids
-CON-NEU-168E2C67CB6BA7
 
 ## difficulty
 Moderate
@@ -2224,7 +2223,7 @@ AU-MED-203 Workshop Quiz 2, p5, answer table p10
 yes
 
 ## author_notes
-nearMiss: Topically adjacent to ASU-CNS-3's CON-NEU-168E2C67CB6BA7 (paracentral lobule leg/foot representation), but tests a distinct fact (perineal, not leg/foot, representation) — minted separately, linked via contextual_concept_ids per LANE-BRIEF's near-miss convention, not overlaid.
+nearMiss: Topically adjacent to ASU-CNS-3's CON-NEU-168E2C67CB6BA7 (paracentral lobule leg/foot representation), but tests a distinct fact (perineal, not leg/foot, representation) — minted separately. Was linked via contextual_concept_ids per LANE-BRIEF's near-miss convention; that direct link was pulled 2026-09-02 (chief-of-staff STEP1 fix, lane 4) because ASU-CNS-3-anatomy-mcq-concepts.md is not yet imported to production and is outside this batch's dependency list, so the reference failed gate.mjs simulate ("concept does not exist"). The cross-link is owed back as a contextual_concept_ids update to this question once ASU-CNS-3 is live — not yet re-added anywhere, no overlay file created for it this pass.
 
 ---
 

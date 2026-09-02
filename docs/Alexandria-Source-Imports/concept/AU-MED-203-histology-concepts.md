@@ -509,6 +509,7 @@ sourceCandidateIds: Searched docs/*-Source-Imports/concept/*.md (incl. Kasr 104-
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Workshop Quiz 1, p5 q17
 
+---
 
 # Item
 
