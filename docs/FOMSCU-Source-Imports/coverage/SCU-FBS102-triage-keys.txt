@@ -3,7 +3,7 @@
 # questions (242 raw, exact-text deduped) across 5 own-source keyed MCQ papers.
 # --- Anatomy ---
 anatomy-balance-and-coordination  # new · Q: The cerebellum in the human brain is mainly responsible for which spec
-anatomy-bilateral  # live · Q: Which anatomical term is specifically related to both right and left s
+# anatomy-bilateral  # authored-in SCU-FBS102-fbs102d-mcq.md (was: live; automated hit re-verified as false positive — the live hit was an unrelated clinical finding, not the terminology definition; minted fresh)  · Q: Which anatomical term is specifically related to both right and left s
 # anatomy-bipennate  # authored-in SCU-FBS102-questions-batch2.md (was: pending) · Q: How is the rectus femoris muscle architecturally classified based on i
 # anatomy-coronal-plane  # authored-in SCU-FBS102-questions-batch2.md (was: pending) · Q: Which precise anatomical plane is mathematically used to divide the bo
 # anatomy-cranial-nerve-x  # authored-in SCU-FBS102-questions.md (was: pending) · Q: Which specific cranial nerve has an important role in regulating the h
@@ -12,14 +12,14 @@ anatomy-cranium  # new · Q: Which of the following bony structures protects the
 anatomy-digestive-organs-liver  # new · Q: The specific circulatory pathway that is well known to contain exactly
 anatomy-elbow-flexion  # new · Q: The triceps muscle acts as an antagonist during which of the following
 # anatomy-elbow-joint  # authored-in SCU-FBS102-questions-batch2.md (was: pending) · Q: Which of the following articulations is a typical example of a hinge j
-anatomy-fibers  # live · Q: Which of the following structural components forms the white matter in
+# anatomy-fibers  # authored-in SCU-FBS102-fbs102d-mcq.md (was: live; automated hit re-verified as false positive against a narrower spinal-white-matter-composition record; minted fresh)  · Q: Which of the following structural components forms the white matter in
 anatomy-flexion  # pending · Q: Which of the following movements decreases the angle between two artic
 anatomy-flexion  # pending · Q: Which movement involves bending the joint to decrease the angle betwee
 anatomy-foramen-rotundum-ovale-and-spinosum  # new · Q: Which of the following foramina exist within the sphenoid bone structu
 anatomy-inferior-orbital-fissure  # new · Q: Through which of the following bony openings is the infratemporal foss
 anatomy-inferior-orbital-fissure  # new · Q: Through which of the following openings is the infratemporal fossa dir
 anatomy-maxillary-nerve  # new · Q: Which of the following important nerves is one of the main contents fo
-anatomy-medulla-oblongata  # live · Q: Which of the following structures is considered a core part of the bra
+# anatomy-medulla-oblongata  # authored-in SCU-FBS102-fbs102d-mcq.md (was: live; automated hit re-verified as false positive — no existing record tests this gross-anatomy classification; minted fresh)  · Q: Which of the following structures is considered a core part of the bra
 # anatomy-membranous-ossification  # authored-in SCU-FBS102-questions.md (was: pending) · Q: Which of the following features specifically characterize the clavicle
 anatomy-modified-hinge  # new · Q: How is the knee joint anatomically classified based on its movement ty
 anatomy-nasal-bone  # new · Q: Which of the following bones is anatomically considered a facial bone?
@@ -34,12 +34,12 @@ anatomy-supraorbital-margin  # new · Q: What structure is located immediately a
 anatomy-sutures-of-the-skull  # new · Q: Which of the following is considered a classic example of fibrous join
 # anatomy-sympathetic-and-parasympathetic  # authored-in SCU-FBS102-questions-batch2.md (was: pending) · Q: The autonomic nervous system is mainly composed of which of the follow
 # anatomy-synaptic-cleft  # authored-in SCU-FBS102-questions-batch2.md (was: pending) · Q: What is the anatomical term for the microscopic space located exactly
-anatomy-synergist  # live · Q: What is the muscle called that assists the prime mover to produce a sp
+# anatomy-synergist  # authored-in SCU-FBS102-fbs102d-mcq.md (was: live; automated hit re-verified as false positive — hits were unrelated drug-synergy records, a different sense of the word; minted fresh)  · Q: What is the muscle called that assists the prime mover to produce a sp
 anatomy-temporal-fascia  # new · Q: Which of the following anatomical structures is specifically attached 
 anatomy-the-hip-bone  # new · Q: Which of the following bones forms the pelvic girdle?
 anatomy-the-human-heart  # new · Q: Which of the following major organs is directly protected by the stern
 anatomy-thoracic-and-lumbar-regions  # new · Q: From which specific regions of the central nervous system do the sympa
-anatomy-ventral  # live · Q: Which anatomical term has the exact same positional meaning as the wor
+# anatomy-ventral  # authored-in SCU-FBS102-fbs102d-mcq.md (was: live; automated hit re-verified as false positive — hits were structure-specific facts, not the bare terminology definition; minted fresh)  · Q: Which anatomical term has the exact same positional meaning as the wor
 # --- Biochemistry ---
 biochemistry-active-site-fits  # new · Q: What does Fischers classic lock and key model of the specific enzyme a
 biochemistry-acyl-coa-synthetase  # new · Q: In the beta oxidation process the initial activation of fatty acids ta
@@ -77,10 +77,10 @@ biochemistry-vitamin-c  # live · Q: Scurvy disease is primarily and classically
 # --- Community Medicine ---
 community-medicine-preventing-population-diseases  # new · Q: What is the primary focus of community medicine as a recognized medica
 # --- Embryology ---
-embryology-amniotic-cavity  # live · Q: Which of the following cavities is directly covered and roofed by the 
-embryology-amniotic-cavity  # live · Q: During early embryonic development the epiblast layer directly covers 
-embryology-cloacal-membrane  # live · Q: During embryonic folding the distal end of the developing hind gut is 
-embryology-three-days  # new · Q: The developing morula remains completely free in the uterine cavity fo
+# embryology-amniotic-cavity  # authored-in SCU-FBS102-s2-author3-reuse-questions.md (was: live; automated hit re-verified as false positive; actual reuse target CON-DEV-59DB99C028C33F is pending, from Kasr's 101-ISK-mcq-concepts.md — first of 2 questions sharing this generated key)  · Q: Which of the following cavities is directly covered and roofed by the 
+# embryology-amniotic-cavity  # authored-in SCU-FBS102-s2-author3-reuse-questions.md (was: live; same reuse target CON-DEV-59DB99C028C33F, second of 2 questions sharing this generated key)  · Q: During early embryonic development the epiblast layer directly covers 
+# embryology-cloacal-membrane  # authored-in SCU-FBS102-s2-author3-reuse-questions.md (was: live; automated hit re-verified as false positive; actual reuse target CON-DEV-1AAC12ECDA6AE2 is pending, from Assiut's AUN-PMS-102-concepts.md, already +scu overlaid for FBS103, extended with +SCU-FBS102)  · Q: During embryonic folding the distal end of the developing hind gut is 
+# embryology-three-days  # authored-in SCU-FBS102-fbs102d-mcq.md (was: new)  · Q: The developing morula remains completely free in the uterine cavity fo
 # --- Genetics ---
 genetics-23-duplicated-chromosome  # new · Q: A secondary spermatocyte typically contains which of the following chr
 genetics-carbon-five  # new · Q: In a standard nucleotide structure the phosphate group is covalently j

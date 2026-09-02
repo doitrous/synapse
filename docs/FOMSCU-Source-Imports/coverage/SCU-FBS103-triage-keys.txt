@@ -9,7 +9,7 @@
 # anatomy-glabella  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: What is the name of the bony elevation located between the two superci
 # anatomy-lateral-pterygoid  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending)  · Q: Which of the following muscles of mastication is primarily responsible
 # anatomy-lateral-surface-of-the-ramus-and-angle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: The masseter muscle primarily inserts into which part of the mandible?
-anatomy-mandibular-nerve  # pending · Q: The muscles of mastication receive their motor innervation from which 
+# anatomy-mandibular-nerve  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: The muscles of mastication receive their motor innervation from which 
 # anatomy-medial-surface-of-the-mandible  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: The submandibular gland is located in the submandibular fossa, which i
 # anatomy-medial-surface-of-the-mandibular-angle  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: new)  · Q: What is the insertion site of the medial pterygoid muscle?
 # anatomy-primary-cartilaginous-joint  # authored-in SCU-FBS103-s2-anatomy-questions.md (was: pending)  · Q: What kind of joint is typically seen in the epiphyseal growth plate of
@@ -46,14 +46,14 @@ anatomy-mandibular-nerve  # pending · Q: The muscles of mastication receive the
 # embryology-the-intraembryonic-coelom  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: live; reuses CON-DEV-65C2AEF8C5DB47)  · Q: After differentiation, the lateral plate mesoderm splits to enclose wh
 # --- Histology ---
 # histology-abundant-cytoplasm-and-short-thick-branched-p  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Protoplasmic astrocytes differ from fibrous astrocytes primarily in ha
-histology-central-and-oval  # new · Q: Which of the following best describes the appearance and position of t
+# histology-central-and-oval  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: Which of the following best describes the appearance and position of t
 # histology-dorsal-root-spinal-ganglion  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-FND-14D80DE53DE835)  · Q: Where could the pseudounipolar nerve cells be typically found in the n
-histology-eccentric  # pending · Q: What is the typical position of the nucleus in a macrophage?
+# histology-eccentric  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: What is the typical position of the nucleus in a macrophage?
 # histology-epineurium  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The dense connective tissue sheath that surrounds and covers the entir
-histology-epithelial-tissue  # pending · Q: Which of the following is considered one of the four basic tissues in
+# histology-epithelial-tissue  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: Which of the following is considered one of the four basic tissues in
 # histology-fibrous-astrocytes-have-long-thin-unbranched  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: What is the main morphological difference between fibrous and protopla
-histology-golgi-apparatus  # pending · Q: Which of the following organelles is primarily responsible for the pac
-histology-mesenchymal-cell  # live · Q: Which of the following cells is considered the main mother cell that d
+# histology-golgi-apparatus  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: pending; reuses CON-FND-405BB5EA3C359E, already +scu overlaid for FBS102, extended with +SCU-FBS103)  · Q: Which of the following organelles is primarily responsible for the pac
+# histology-mesenchymal-cell  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: live; actual reuse target CON-FND-9EA7F8E2898EB7 is pending, already +scu overlaid for FBS102, extended with +SCU-FBS103)  · Q: Which of the following cells is considered the main mother cell that d
 # histology-multipolar-neurons  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-FND-14D80DE53DE835, extending its worked-example set to autonomic ganglia)  · Q: The neurons that make up the autonomic sympathetic ganglia are classif
 # histology-one  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: live; automated hit re-verified as false positive against ECG-lead records; actual reuse target CON-FND-14D80DE53DE835 found via a fuller-context re-query)  · Q: How many axons does a typical multipolar neuron possess?
 # histology-phagocytic-cells  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: pending; reuses CON-NEU-93CD087BDE3F7B)  · Q: Microglial cells in the central nervous system are primarily recognize
@@ -61,21 +61,21 @@ histology-mesenchymal-cell  # live · Q: Which of the following cells is conside
 # histology-pseudounipolar-neurons  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-FND-14D80DE53DE835, second of 2 questions sharing this generated key)  · Q: Which of the following neurons are composing the dorsal root ganglia?
 # histology-they-act-as-phagocytic-cells-to-remove-cellul  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-NEU-93CD087BDE3F7B)  · Q: Which of the following statements best describes the function of micro
 # histology-troponin-c  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: During skeletal muscle contraction, calcium ions released from the sar
-histology-walls-of-the-blood-vessels  # new · Q: Which of the following structures is primarily composed of smooth musc
+# histology-walls-of-the-blood-vessels  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: Which of the following structures is primarily composed of smooth musc
 # --- Medical Ethics ---
 medical-ethics-breach-of-confidentiality  # new · Q: A doctor discussing a patient's case with another doctor who is not in
 # --- Microbiology ---
-microbiology-a-protein-coat-and-nucleic-acid  # new · Q: The basic structure of a virus primarily consists of:
-microbiology-aspergillus-species  # new · Q: Aflatoxin acts as a potent mycotoxin that is primarily produced by whi
+# microbiology-a-protein-coat-and-nucleic-acid  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: The basic structure of a virus primarily consists of:
+# microbiology-aspergillus-species  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-FND-D1D48A5564E978)  · Q: Aflatoxin acts as a potent mycotoxin that is primarily produced by whi
 # microbiology-binary-fission  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the primary method by which bacteria replicate?
-microbiology-cell-wall  # pending · Q: Which structural component of Gram-positive bacteria contains a thick 
+# microbiology-cell-wall  # authored-in SCU-FBS103-fbs103c-mcq.md (was: pending)  · Q: Which structural component of Gram-positive bacteria contains a thick 
 # microbiology-continuous-cell-line  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: A type of cell culture that can reproduce for an extended number of ge
 # microbiology-either-dna-or-rna  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: The genome of a virus is exclusively composed of:
-microbiology-exoenzymes-invasion-factors  # new · Q: The enzymes produced by some bacteria to break down tissue barriers an
-microbiology-heterotrophs  # pending · Q: The bacteria that require preformed organic compounds as a carbon sour
+# microbiology-exoenzymes-invasion-factors  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-INF-1EAFF70A6FC769)  · Q: The enzymes produced by some bacteria to break down tissue barriers an
+# microbiology-heterotrophs  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: pending; reuses CON-INF-841FAB7F11BA18)  · Q: The bacteria that require preformed organic compounds as a carbon sour
 # microbiology-mycelium  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: A mass of hyphae forming the vegetative portion of a fungus is called:
 # microbiology-obligate-anaerobes  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: Bacteria that can live only in the complete absence of oxygen and die 
-microbiology-outer-membrane  # pending · Q: Which of the following structures is characteristically present in the
+# microbiology-outer-membrane  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: pending; reuses CON-INF-BF26D7E563FB78)  · Q: Which of the following structures is characteristically present in the
 # --- Parasitology ---
 # parasitology-diagnostic-stage  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The specific stage of a parasite that is detected in laboratory specim
 # parasitology-direct-life-cycle  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: What is the life cycle of a parasite that needs only one host?
@@ -84,7 +84,7 @@ microbiology-outer-membrane  # pending · Q: Which of the following structures i
 # parasitology-molluscs-and-snails  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: In the context of parasitology, the term malacology refers to the scie
 # parasitology-parasite  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: A living organism that depends temporarily or permanently upon another
 # parasitology-rhabditiform-larvae  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: What is the diagnostic stage for some nematodes like Strongyloides ste
-parasitology-sarcodina  # new · Q: According to its old taxonomic classification, which group of protozoa
+# parasitology-sarcodina  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: According to its old taxonomic classification, which group of protozoa
 # parasitology-scolex  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The head of a tapeworm is called:
 # parasitology-skin-penetration-by-larva  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: new; reuses CON-GIT-2FCF45AE17574F, same Helwan file as above)  · Q: In the direct life cycle of Hymenolepis nana, which of the following r
 # parasitology-their-site-of-living-in-the-host  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The distinction between a parasitic infection and an infestation is pr
@@ -96,16 +96,16 @@ parasitology-sarcodina  # new · Q: According to its old taxonomic classificatio
 # pathology-pathogenesis  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: live; automated hit re-verified as false positive, minted fresh)  · Q: The sequence of events in the response of cells or tissues to an etiol
 # pathology-the-expected-further-outcome-of-a-disease  # authored-in SCU-FBS103-s2-physiology-pathology-parasitology-questions.md (was: new)  · Q: The definition of prognosis in pathology refers to:
 # --- Pharmacology ---
-pharmacology-acetylsalicylic-acid  # new · Q: Aspirin is the brand or common name for which of the following chemica
-pharmacology-cross-tolerance  # new · Q: What term is used to describe the development of tolerance to a specif
+# pharmacology-acetylsalicylic-acid  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: Aspirin is the brand or common name for which of the following chemica
+# pharmacology-cross-tolerance  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: What term is used to describe the development of tolerance to a specif
 # pharmacology-full-agonist  # authored-in SCU-FBS103-questions.md (was: pending)  · Q: A drug that binds to a receptor and produces maximum activation with h
 # pharmacology-full-agonist  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: pending; second of 2 questions sharing this generated key, reuses CON-FND-4388E0D8A75FD4, same id/overlay row as BATCH 1's own full-agonist question)  · Q: Which of the following represents the effect of a drug that produces m
 # pharmacology-microorganisms  # authored-in SCU-FBS103-questions.md (was: live)  · Q: Natural penicillin is primarily obtained from which of the following s
 # pharmacology-nicotinic-receptors  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: pending; automated hit not confirmed on re-check, minted fresh)  · Q: Which type of cholinergic receptors is predominantly located in the ga
 # pharmacology-partial-agonist  # authored-in SCU-FBS103-s2-author2-reuse-questions.md (was: pending; reuses CON-FND-4388E0D8A75FD4, same id/overlay row as full-agonist above)  · Q: Which of the following drugs binds to a receptor and produces a submax
-pharmacology-plant-source  # new · Q: What is the natural source from which morphine is primarily derived?
-pharmacology-the-elimination-half-life-of-the-drug-is-cons  # new · Q: Ampicillin is metabolized by first-order kinetics. Which of the follow
-pharmacology-the-study-of-absorption-distribution-metaboli  # new · Q: Which of the following statements correctly represents the concept of
+# pharmacology-plant-source  # authored-in SCU-FBS103-fbs103c-mcq.md (was: new)  · Q: What is the natural source from which morphine is primarily derived?
+# pharmacology-the-elimination-half-life-of-the-drug-is-cons  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-FND-955AD7B6FE6F03)  · Q: Ampicillin is metabolized by first-order kinetics. Which of the follow
+# pharmacology-the-study-of-absorption-distribution-metaboli  # authored-in SCU-FBS103-s2-author3-reuse-questions.md (was: new; reuses CON-FND-6BB35F11EBD54B)  · Q: Which of the following statements correctly represents the concept of
 # pharmacology-type-b-bizarre  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: Which of the following types of adverse drug reactions is best describ
 # pharmacology-type-e-end-of-dose-adverse-effect  # authored-in SCU-FBS103-s2-author2-mint-questions.md (was: new)  · Q: The withdrawal manifestations experienced by an addicted patient upon
 # --- Physiology ---

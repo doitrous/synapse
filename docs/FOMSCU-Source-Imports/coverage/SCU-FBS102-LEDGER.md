@@ -1,16 +1,13 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | anatomy-balance-and-coordination | 1 | 0 | 0 | 1 |
-| anatomy-bilateral | 0 | 0 | 1 | 1 |
 | anatomy-cranium | 1 | 0 | 0 | 1 |
 | anatomy-digestive-organs-liver | 1 | 0 | 0 | 1 |
 | anatomy-elbow-flexion | 1 | 0 | 0 | 1 |
-| anatomy-fibers | 0 | 0 | 1 | 1 |
 | anatomy-flexion | 2 | 0 | 0 | 2 |
 | anatomy-foramen-rotundum-ovale-and-spinosum | 1 | 0 | 0 | 1 |
 | anatomy-inferior-orbital-fissure | 2 | 0 | 0 | 2 |
 | anatomy-maxillary-nerve | 1 | 0 | 0 | 1 |
-| anatomy-medulla-oblongata | 0 | 0 | 1 | 1 |
 | anatomy-modified-hinge | 1 | 0 | 0 | 1 |
 | anatomy-nasal-bone | 1 | 0 | 0 | 1 |
 | anatomy-palatine-crest | 1 | 0 | 0 | 1 |
@@ -18,12 +15,10 @@
 | anatomy-superior-orbital-fissure | 1 | 0 | 0 | 1 |
 | anatomy-supraorbital-margin | 1 | 0 | 0 | 1 |
 | anatomy-sutures-of-the-skull | 1 | 0 | 0 | 1 |
-| anatomy-synergist | 0 | 0 | 1 | 1 |
 | anatomy-temporal-fascia | 1 | 0 | 0 | 1 |
 | anatomy-the-hip-bone | 1 | 0 | 0 | 1 |
 | anatomy-the-human-heart | 1 | 0 | 0 | 1 |
 | anatomy-thoracic-and-lumbar-regions | 1 | 0 | 0 | 1 |
-| anatomy-ventral | 0 | 0 | 1 | 1 |
 | biochemistry-active-site-fits | 1 | 0 | 0 | 1 |
 | biochemistry-acyl-coa-synthetase | 1 | 0 | 0 | 1 |
 | biochemistry-adenosine-triphosphate | 1 | 0 | 0 | 1 |
@@ -44,9 +39,7 @@
 | biochemistry-three-point-six | 1 | 0 | 0 | 1 |
 | biochemistry-vitamin-c | 1 | 0 | 0 | 1 |
 | community-medicine-preventing-population-diseases | 0 | 0 | 1 | 1 |
-| embryology-amniotic-cavity | 0 | 0 | 2 | 2 |
-| embryology-cloacal-membrane | 0 | 0 | 1 | 1 |
-| embryology-three-days | 0 | 0 | 1 | 1 |
+| fbs102d | 9 | 0 | 0 | 9 |
 | genetics-23-duplicated-chromosome | 1 | 0 | 0 | 1 |
 | genetics-carbon-five | 1 | 0 | 0 | 1 |
 | genetics-cyclin-dependent-kinases | 1 | 0 | 0 | 1 |
@@ -123,16 +116,7 @@
 (none)
 
 ## Remaining
-- anatomy-bilateral
-- anatomy-fibers
-- anatomy-medulla-oblongata
-- anatomy-synergist
-- anatomy-ventral
 - community-medicine-preventing-population-diseases
-- embryology-amniotic-cavity
-- embryology-amniotic-cavity
-- embryology-cloacal-membrane
-- embryology-three-days
 - medical-ethics-a-judge-or-legal-guardian
 - medical-ethics-a-unique-professional-bond-for-effective
 - medical-ethics-adolescent-sexuality
