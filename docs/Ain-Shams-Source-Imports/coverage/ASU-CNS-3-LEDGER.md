@@ -2,6 +2,7 @@
 |---|---:|---:|---:|---:|
 | anatomy-mcq | 60 | 21 | 0 | 81 |
 | final2024-mcq | 20 | 14 | 0 | 34 |
+| finalp2-2024-mcq | 30 | 3 | 0 | 33 |
 | physio-mcq | 54 | 11 | 0 | 65 |
 
 ## Held
@@ -40,6 +41,9 @@
 - final2024-mcq-q26 — cross-paper duplicate of this lane's own cluster 1 anatomy concept CON-NEU-D479D9227D90F9 (inferior petrosal sinus drains the cavernous sinus directly into the internal jugular vein) — item 26 ("Inf petrosal to IJV") restates the identical fact
 - final2024-mcq-q27 — cross-paper duplicate of this lane's own cluster 1 anatomy concept CON-NEU-9A281DDFAA6242 (hemiballismus results from a lesion of the contralateral subthalamic nucleus) — item 27 ("Rt hemibalismus- left subthalamic nuclei") restates the identical fact
 - final2024-mcq-q32 — cross-paper duplicate of this lane's own cluster 2 physio concept CON-NEU-5EDD14F7B5859B (static/resting tremor of Parkinson disease attributed to GPi-subthalamic nucleus oscillation) — essay item 6 ("static tremors... due to oscilatory discharge in the globus palidus") restates the same mechanism
+- finalp2-2024-mcq-q05 — ambiguous/factually doubtful printed key — Physio item 1 ("Slow wave sleep (NREM) - Has low threshold of arousal") states the opposite of standard sleep physiology teaching (deep/slow-wave NREM sleep, stage N3, is classically the stage with the HIGHEST arousal threshold — hardest to wake someone from — not the lowest); authoring this fact as printed would embed a medical inaccuracy into a needs_evidence concept, so this item is held for Omar/source verification rather than authored or silently corrected
+- finalp2-2024-mcq-q08 — ambiguous printed key — Physio item 4 ("When reading, first two words are read by …. - Working memory") does not correspond to a standard, confidently citable physiology teaching point about reading/saccades; authoring a confident MCQ and 3+ sentence explanation from it would risk fabricating a mechanism the source does not actually support — held for Omar/source verification
+- finalp2-2024-mcq-q15 — internally incoherent printed key — Patho item 2 ("Patient with hypotonia and left occipital lobe affected .microscopic apperance is … - Gliosis of Caudate nucleus") combines hypotonia, a left occipital lobe lesion and caudate nucleus gliosis into a single item without a recognisable single diagnosis linking all three (caudate gliosis is classically associated with Huntington disease, which does not present with occipital-lobe or hypotonia findings); the text reads as garbled or conflated across more than one source item — held for Omar/source verification rather than guessed at
 - physio-mcq-q53 — cross-paper duplicate of this lane's own cluster 1 anatomy concept CON-NEU-1DAEC8F42F6C4E (gracile/cuneate fasciculi carry kinesthetic sensation, anatomy Q42) — same fact restated ("Gracie and cunate tracts carry kinesthitc senseation")
 - physio-mcq-q59 — within-file duplicate of physio-mcq-q34 ("Crude touch is carried peripherally by which fibre type?", A-delta fibres) — item 59 restates the identical fact ("Crude touch - (A delta) fibers")
 - physio-mcq-q60 — within-file duplicate of physio-mcq-q11 ("The gamma motor neuron synapses on which fibres, in which structure?", intrafusal fibres in the muscle spindle) — item 60 restates the identical fact ("intrafusal muscle fibers innervated by - Gamma motor neurons")

@@ -232,6 +232,51 @@ vs-cortex spastic-hemiplegia distinction against Alexandria's pending
 AU-MED-203 concept, kept as a `rejected_merge_candidate_id` rather than
 merged, since the lesion site genuinely differs).
 
+## Addendum (cluster 5, EOM - CNS final paper 2 2024)
+
+Opened the next paper per `coverage/ASU-Y3-priority-sources.md` §ASU-CNS-3:
+`EOM - CNS final paper 2 2024.pdf` (src_b67868be37571f92a53f, 9 pages,
+native text, 0 garbled). Unlike cluster 3's paper 1 (a single 27-item MCQ
+block), this paper spreads a 5-subject embedded-answer MCQ block across
+pages 1-6 (Anatomy 4, Physio 4, Pharma 5, Patho 4, then Micro 4, Para 2,
+Community 1, Histo 1) followed by a 6-question essay block on pages 6-9
+(15 discrete short-answer facts, no printed options).
+
+Of the MCQ block's 22 in-scope items (Anatomy/Physio/Pharma/Patho/Histo,
+excluding Micro/Para/Community as out of this lane's neuro subject scope,
+the same treatment as biochemistry): 3 held — one item ("Slow wave sleep
+(NREM) - Has low threshold of arousal") contradicts standard sleep
+physiology (deep/slow-wave NREM sleep is classically the hardest stage to
+rouse someone from, not the easiest) and was not authored as a medically
+inaccurate fact; one item (hypotonia + left occipital lobe + "gliosis of
+caudate nucleus") does not cohere into a single recognisable diagnosis and
+reads as garbled/conflated; one reading-comprehension item ("first two
+words are read by working memory") could not be confidently supported from
+standard physiology teaching. One further item (cerebral infarction as
+liquefactive necrosis) duplicates an existing pending Kasr 108-INT concept
+(CON-FND-88508ABAB84A67, whose own definition already names CNS infarction
+as the classic liquefactive-necrosis site) and is reused via overlay
+(`pending-live/ASU-CNS-3-finalpaper2-2024-overlay-concepts.md`) rather than
+re-minted. The remaining 18 items are new mints.
+
+The essay block's 15 facts (pharyngeal arch derivatives, varenicline/
+disulfiram, local-anaesthetic pH pharmacology, non-psychiatric antidepressant
+uses, valproate/phenytoin adverse effects in females, motivation/limbic
+reward-punishment, lithium toxicity management, atypical-vs-typical
+antipsychotics, and the anterior cerebral artery's central and cortical
+territories) are all new mints — none duplicated anything in this lane's own
+prior clusters or in live/pending state, confirmed by a per-item
+`find-existing.mjs` search before minting (a "third pharyngeal pouch" search
+returned no hit; "anterior cerebral artery" and "first pharyngeal arch"
+returned hits on unrelated specific facts in Alexandria's pending AU-MED-203
+batch, checked and confirmed non-duplicate).
+
+`finalp2-2024-mcq` cluster: 30 authored (29 new mints + 1 overlay reuse) /
+3 held / 0 remaining / 33 total. `gate.mjs simulate` clean (0 rejected, 0
+errors) across all 7 files in apply order (Kasr 108-INT concept + article,
+this cluster's own resource/concept/article/overlay/question files).
+`validate-content-batch.mjs` clean (0 errors) on every file individually.
+
 ## Needs Omar
 
 - None yet identified specific to CNS-3 (unlike ASU-IBM/Fayoum). The corpus is source-rich; no
@@ -239,3 +284,6 @@ merged, since the lesion site genuinely differs).
 - Curriculum-move handling for CNS-2/CNS-3 (Y2T2↔Y3, one concept/article with both year/module paths,
   questions keep the year sat) is a standing board ruling already — the authoring lane should confirm
   it still applies unchanged before writing the first CNS-2/CNS-3 shared concept.
+- Three cluster-5 items from `EOM - CNS final paper 2 2024.pdf` held as not medically defensible or
+  incoherent from the printed text (see addendum above) — worth a source re-check by Omar in case the
+  scan/OCR dropped or garbled a line, rather than the examiner's own error.
