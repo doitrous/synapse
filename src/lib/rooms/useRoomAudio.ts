@@ -329,8 +329,8 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
        */
       transport.on('connectionstatechange', (connectionState) => {
         if (connectionState !== 'failed') return
-        const dialled = (params.iceCandidates as { protocol?: string; ip?: string; port?: number }[])
-          .map((candidate) => `${candidate.protocol ?? '?'}://${candidate.ip ?? '?'}:${candidate.port ?? '?'}`)
+        const dialled = (params.iceCandidates as { protocol?: string; address?: string; ip?: string; port?: number }[])
+          .map((candidate) => `${candidate.protocol ?? '?'}://${candidate.address ?? candidate.ip ?? '?'}:${candidate.port ?? '?'}`)
         console.warn(`[rooms] voice ${direction} transport failed; media server candidates: ${dialled.join(' ')}`)
         if (!guard.current.isCurrent(token) || !call.current) return
         closeCall()

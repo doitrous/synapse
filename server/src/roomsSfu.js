@@ -113,6 +113,19 @@ export function describeConfig(config) {
  */
 export const MAX_TRANSPORTS_PER_PEER = 2
 
+/** How long a probe transport stays open for an outside reachability check. */
+export const PROBE_TTL_MS = 30_000
+
+/** The room a probe transport lives in; no member can ever be in it. */
+const PROBE_ROOM = '__voice_probe__'
+
+/** `udp://203.0.113.9:40012 tcp://203.0.113.9:40013`, for a log line. */
+export function formatCandidates(candidates) {
+  return candidates
+    .map((candidate) => `${candidate.protocol}://${candidate.address ?? candidate.ip}:${candidate.port}`)
+    .join(' ')
+}
+
 /** Round-robin across the worker pool, one router (one room) at a time. */
 export function workerForRoom(index, count) {
   return count > 0 ? index % count : 0
@@ -262,6 +275,18 @@ async function startEngine(env) {
     rooms.delete(roomId)
   }
 
+  function listenInfos() {
+    return ['udp', 'tcp'].map((protocol) => ({
+      protocol,
+      ip: config.listenIp,
+      ...(config.announcedAddress ? { announcedAddress: config.announcedAddress } : {}),
+      portRange: { min: config.rtcMinPort, max: config.rtcMaxPort },
+    }))
+  }
+
+  /** `{ transport, result }` of the current probe, while one is open. */
+  let probe = null
+
   return {
     /*
      * Read on every message rather than captured once: a worker can die at any
@@ -288,6 +313,47 @@ async function startEngine(env) {
       return describeConfig(config)
     },
 
+    /**
+     * A throwaway transport, so the media path can be checked from outside.
+     *
+     * Everything a browser dials is decided here — the announced address, the
+     * port a worker picked, whether the host forwards it — and none of it can
+     * be seen from a log line that says "voice ready". The probe opens one
+     * transport in a room of its own, reports the candidates it would offer,
+     * and keeps it open for `PROBE_TTL_MS` so a `curl` and a TCP connect from
+     * anywhere can prove the address is reachable. One at a time: a second
+     * request inside the window gets the same answer, so nobody can use it to
+     * eat the port range.
+     */
+    async probe() {
+      if (probe && !probe.transport.closed) return probe.result
+      const room = await routerFor(PROBE_ROOM)
+      const transport = await room.router.createWebRtcTransport({
+        listenInfos: listenInfos(),
+        enableUdp: true,
+        enableTcp: true,
+        preferUdp: true,
+        appData: { probe: true },
+      })
+      const result = {
+        candidates: transport.iceCandidates.map((candidate) => ({
+          protocol: candidate.protocol,
+          address: candidate.address ?? candidate.ip,
+          port: candidate.port,
+          type: candidate.type,
+        })),
+        openUntil: new Date(Date.now() + PROBE_TTL_MS).toISOString(),
+      }
+      probe = { transport, result }
+      const timer = setTimeout(() => {
+        try { transport.close() } catch { /* already closed */ }
+        if (probe?.transport === transport) probe = null
+        dropRoomIfEmpty(PROBE_ROOM)
+      }, PROBE_TTL_MS)
+      timer.unref?.()
+      return result
+    },
+
     async createTransport(roomId, userId, direction) {
       const room = await routerFor(roomId)
       const peer = peerFor(room, userId)
@@ -308,26 +374,24 @@ async function startEngine(env) {
       if (peer.transports.size >= MAX_TRANSPORTS_PER_PEER) throw new Error('too_many_transports')
 
       const transport = await room.router.createWebRtcTransport({
-        listenInfos: [
-          {
-            protocol: 'udp',
-            ip: config.listenIp,
-            ...(config.announcedAddress ? { announcedAddress: config.announcedAddress } : {}),
-            portRange: { min: config.rtcMinPort, max: config.rtcMaxPort },
-          },
-          {
-            protocol: 'tcp',
-            ip: config.listenIp,
-            ...(config.announcedAddress ? { announcedAddress: config.announcedAddress } : {}),
-            portRange: { min: config.rtcMinPort, max: config.rtcMaxPort },
-          },
-        ],
+        listenInfos: listenInfos(),
         enableUdp: true,
         enableTcp: true,
         preferUdp: true,
         appData: { direction, userId },
       })
       peer.transports.set(transport.id, transport)
+      /*
+       * The one place the media path is visible from the server. A call whose
+       * signalling succeeded and whose audio never arrived leaves no trace
+       * anywhere else; these three lines per transport are what a deployment
+       * log needs to tell "the firewall" from "the announced address" from
+       * "it worked and the problem is the browser".
+       */
+      const label = `[voice] ${direction} transport for ${userId}`
+      console.log(`${label} offers ${formatCandidates(transport.iceCandidates)}`)
+      transport.on('icestatechange', (state) => console.log(`${label} ice ${state}`))
+      transport.on('dtlsstatechange', (state) => console.log(`${label} dtls ${state}`))
       return {
         id: transport.id,
         iceParameters: transport.iceParameters,
