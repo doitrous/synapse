@@ -559,3 +559,78 @@ MUST_Y2
 
 ## description
 MUST CVS-201 Pathology's second EOM final (the first, Dr. Maria's, is a short-answer written compilation tranche 1 already authored) -- 60 MCQs + 10 short-essay questions across cardiomyopathies, pericardial disease, atherosclerosis, hypertension, aneurysms and vasculitis, by Absalam101 & Shahd. A single combined answer key is printed on p.16 itself (not a separate page); model essay answers on pp.18-19. Native-text PDF, no OCR needed. 19 actual pages, not the 23 the tranche-2 inventory estimated. All 60 MCQs authored this pass (0 held -- overlapping facts with Dr. Maria's sibling paper are dual-sourced against the same already-tagged concept, not held as duplicate); the 10 essay questions are out of scope for this lane.
+
+
+---
+
+# Item
+
+## id
+src_165188e079f0f475e54d
+
+## title
+Physiology CVS201 Questions (Final)
+
+## subject
+cvs
+
+## type
+Deck
+
+## source
+MUST -- Faculty of Medicine, CVS 201 course team
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+
+## year
+2024
+
+## topics
+
+
+## chapter
+
+
+## module_ids
+MUST-CVS-201
+
+## included_concepts
+CON-CVS-511A10F77151BC
+CON-CVS-8EE3B5EE80F342
+CON-CVS-AD0D8E768C2018
+CON-CVS-7F05227FE0970F
+CON-CVS-7D26B65DA355A1
+CON-CVS-3E68C888B95668
+CON-CVS-487BC301A49AE2
+CON-CVS-E48F6E57CCBB2F
+CON-CVS-595DFC43B96D7D
+
+## included_articles
+ART-CVS-VASOMOTOR-TONE
+ART-CVS-EPINEPHRINE-DUAL-ACTION
+ART-CVS-KININS-PAIN-PERMEABILITY
+ART-CVS-FLARE-REACTION-AXON-REFLEX
+ART-CVS-ENDOTHELIN-VASOCONSTRICTOR
+ART-CVS-VASCULAR-FUNCTIONAL-CLASSIFICATION
+ART-CVS-PROSTACYCLIN-VASODILATOR
+ART-CVS-BEZOLD-JARISCH-REFLEX
+ART-CVS-MEDULLARY-CARDIOVASCULAR-CENTERS
+
+## concept_locations
+
+
+## universities
+must
+
+## years
+MUST_Y2
+
+## description
+MUST CVS-201 Physiology's EOM final -- 150 MCQs across five topics (Blood Flow 30, Arterial Blood Pressure 40, Capillary Circulation & Oedema 20, Shock 30, Coronary & Pulmonary Circulation 30), by Absalam101, Shahd & Rehab. Printed answer keys on p.9 (Blood Flow) and p.20 (Arterial Blood Pressure), each section keyed separately. Native-text PDF, no OCR needed, 46 pages. Tranche 7 authored 30/30 Blood Flow MCQs and 28/40 Arterial Blood Pressure MCQs (1 held for a garbled option list; 11 not selected this pass); Capillary Circulation & Oedema, Shock and Coronary & Pulmonary Circulation are untouched, queued for later tranches.

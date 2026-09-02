@@ -380,3 +380,59 @@ A department/student-carried Pathology EOM (End of Module) exam compilation with
 
 ## is_assessment
 yes
+
+
+---
+
+# Item
+
+## id
+src_165188e079f0f475e54d
+
+## title
+Physiology CVS201 Questions (Final)
+
+## institution
+MUST -- Faculty of Medicine
+
+## processing_status
+visually_read_native_text
+
+## collection_id
+MUST-CVS-201
+
+## source_relative_path
+Semester 201/CVS 201/Physiology/06 EOM Exams/EOM MCQs - Physiology CVS201 Questions (Final).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+2026-09-02
+
+## page_count
+46
+
+## sha256
+165188e079f0f475e54d51e225f9a0c8e6a660ba273bb9d06b8b27637cae218f
+
+## rights
+Locally supplied study material; internal curriculum authoring only.
+
+## qualification
+A department/student-carried Physiology EOM (End of Module) exam compilation, 150 MCQs across five topics (Blood Flow 30, Arterial Blood Pressure 40, Capillary Circulation & Oedema 20, Shock 30, Coronary & Pulmonary Circulation 30) -- curriculum exam signal for what MUST CVS-201 tests, not an independent medical authority. Each topic section carries its own printed answer key immediately following that section (p.9 Blood Flow, p.20 Arterial Blood Pressure).
+
+## confidence
+0.6
+
+## is_assessment
+yes
