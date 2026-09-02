@@ -152,27 +152,27 @@ AUN: taught in Assiut University's Infection and Immunity module (Year 1, Semest
 
 ## annotations
 ### definition_of · CON-INF-E3D372AD53CCBE
-Quote: A clone is the population of cells produced when a single cell divides repeatedly -- every member is genetically identical to the original parent cell
+Quote: A clone is the population of genetically identical cells produced when a single cell divides repeatedly
 Block: body
 
 ### definition_of · CON-INF-16E0B6ECB647D3
-Quote: Gram-positive bacteria have a thick peptidoglycan wall that traps the crystal violet-iodine complex ... appear violet/purple. Gram-negative bacteria have a thin peptidoglycan layer and an outer lipid membrane ... appearing pink/red
+Quote: a thick peptidoglycan wall (Gram-positive) traps the crystal-violet/iodine complex through decolourisation, so the cell stays violet/purple; a thin wall with an outer lipid membrane (Gram-negative) lets that complex wash out, so the cell instead takes up the safranin counterstain and appears pink/red
 Block: body
 
 ### definition_of · CON-INF-52E3C48A1A2AAA
-Quote: A prokaryotic cell (bacterium) lacks a true, membrane-bound nucleus and lacks membrane-bound organelles ... its genetic material is instead a single circular chromosome held in an unbound cytoplasmic region called the nucleoid
+Quote: A prokaryotic cell has no membrane-bound nucleus or organelles; its DNA is one circular chromosome held in the nucleoid, distinct from a eukaryotic cell's DNA, which sits inside a true, membrane-bound nucleus
 Block: body
 
 ### definition_of · CON-INF-E4E8831D2BE517
-Quote: Monotrichous means a single flagellum at one pole. Amphitrichous means a single flagellum at each of the two poles. Lophotrichous means a tuft (group) of several flagella at one pole. Peritrichous means flagella distributed all around the cell surface
+Quote: monotrichous (one flagellum, one pole), amphitrichous (one flagellum at each of two poles), lophotrichous (a tuft at one pole), or peritrichous (flagella all around the cell)
 Block: body
 
 ### definition_of · CON-INF-A1043E023CD6FB
-Quote: The plasma (cytoplasmic) membrane is the structure that controls the passage of molecules into and out of the cell -- a selectively permeable barrier
+Quote: The plasma membrane is the cell's selectively permeable barrier, controlling what enters and leaves
 Block: body
 
 ### definition_of · CON-INF-B775994AC7062B
-Quote: the antiphagocytic capsule, pili/fimbriae (adherence), secreted extracellular enzymes (tissue invasion) and endotoxin ... are all standard examples. Inclusion granules ... are a bacterial structure but not a virulence factor
+Quote: Bacterial virulence factors -- the capsule, pili, extracellular enzymes and endotoxin -- let an organism establish infection; inclusion granules, by contrast, are an intracellular nutrient-storage structure with no direct role in pathogenesis
 Block: body
 
 ---

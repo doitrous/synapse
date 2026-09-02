@@ -1,0 +1,222 @@
+# AUN-INI-105 -- S3 triage, `INI MCQ .pdf`
+
+Module: Infection and Immunity (`AUN-INI-105`), Year 1 Semester 2. Chosen per
+`coverage/AUN-Y1-priority-sources.md` §AUN-INI-105 as the module's richest
+source: `Year 1/INI/_Telegram 64 Newer/INI MCQ .pdf`, 132 pages / 25,488
+words, 0 garbled pages (`pagetext.mjs status`), not yet triaged before this
+pass. `Week 6 INI Quizzes.pdf` (62p, fully garbled), `Formative 7 INI
+answered .pdf` (7p, fully garbled) and `INI All GDs - solved.pdf` (253p, 40
+garbled pages) are left for a later lane per the dispatch.
+
+## Key-recovery method
+
+`pagetext.mjs keys` was run first on pages 4-10 (per the manual's rule for
+visually-marked keys) and correctly reported 0 marked/0 keyed -- this source
+carries no highlight/circle/red-text keys at all, so the tool's known
+footer-misreport bug (a chief-of-staff tool warning received mid-pass: `keys`
+can misread a page footer as a red-text hit on the last option) never
+produced a false hit here; every recovered key in this triage comes from
+`pagetext.mjs show`'s plain page text instead, not from `keys` output, so
+that bug does not touch this pass's results.
+
+Reading past page 10 found the real key mechanism: the source is not a
+Moodle export like `AUN-MPT-104`'s quiz bank, but a compiled MCQ book where
+**each chapter restarts question numbering at 1 and ends with its own
+plain-text printed answer table** (a grid of question numbers over a grid of
+letters, headed "ANSWERS" -- except the Mycology chapter, whose table is
+headed "**ANSWES**", a typo, findable only by reading past the expected
+"ANSWERS" grep miss). `pagetext.mjs grep "❖"` found all 11 chapter headers in
+one call; `pagetext.mjs grep "ANSWERS"` found 10 of the 11 answer tables in
+one call (the 11th, Mycology's, only turned up on direct page reading because
+of the "ANSWES" typo). Every chapter's answer table was then read directly
+(`pagetext.mjs show`) to recover 100% of that chapter's printed keys -- no
+OCR, no render, no visual key-reading needed anywhere in this file.
+
+## Chapter structure (full source map)
+
+| # | Chapter | Pages | Items | Notes |
+|--:|---|---|--:|---|
+| 1 | Bacterial cell structure | 4-27 | 161 | answer table p26-27; Q133 carries a double answer "D,E" |
+| 2 | Bacterial growth | 28-37 | 60 | answer table p37 |
+| 3 | Bacteriophage | 38-41 | 24 | answer table p41 |
+| 4 | Bacterial Genetics | 42-50 | 58 | answer table p50 |
+| 5 | Antimicrobial chemotherapy & Pathogenesis of bacterial infections | 51-62 | 74 MCQ + 10 True/False (Q75-84) | answer table p62; the True/False block is a different item type (2-valued, no A-D options), not authored this pass |
+| 6 | General virology | 63-77 | 102 | answer table p77 |
+| 7 | General Mycology | 78-82 | 33 | answer table p82, headed "**ANSWES**" (typo) -- the `pagetext.mjs grep "ANSWERS"` sweep misses this one |
+| 8 | Introduction to parasitology | 84-85 | 16 | answer table p86; a second, parasitology-only table of contents sits on p83 |
+| 9 | Trematodes | 87-100 | 98 | answer table wraps p99-100 |
+| 10 | Cestode | 101-111 | 86 | answer table p111 |
+| 11 | Nematoda | 112-130 | 164 | answer table wraps p131-132 |
+
+**Total: 886 items** (876 standard 4-5-option MCQ + 10 True/False), all
+100%-keyed by a printed plain-text table. Micro (chapters 1-7, ending
+General Mycology p82) and para (chapters 8-11) each carry their own
+introductory table of contents (p3 and p83) -- the intro page's claim that
+the file covers "part 1 of micro and part 1 of para" is confirmed accurate;
+`coverage/AUN-Y1-priority-sources.md`'s existing entry for this file did not
+have this chapter breakdown, since the file was unread before this pass.
+
+This pass read and per-question-keyed only **Chapter 1** (Q1-58 of 161, the
+window needed for the ~50-question authoring dispatch); chapters 2-11 are
+counted, page-mapped and confirmed 100%-keyable by the same table mechanism
+(spot-checked on chapters 5, 7, 9, 10, 11 while mapping structure) but not
+read at per-question level -- queued for a later lane. **Chapter-1 key note
+for that later work:** this triage's seed keys use bare `ini-mcq-qNNN`
+(chapter-1's own question number, per the dispatch's literal instruction),
+which only works because chapter 1 is the only chapter authored so far --
+every other chapter also restarts at Q1, so a future lane touching chapter 2
+onward must disambiguate (e.g. `ini-mcq-ch2-qNNN`) or its keys will collide
+with chapter 1's in `ledger.mjs`'s reconciliation.
+
+## Checkpoint table -- Chapter 1, Q1-50 window
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts -- live | pending | new |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch1, Q1-50) | 50 | 50 (100%) | 45 | 5 | 2 | 8 | 6 |
+
+- **Questions read (50):** Q1-Q50 of chapter 1, "Bacterial cell structure"
+  (stems and options read via `pagetext.mjs show`, pages 4-11).
+- **Keys recovered (50 of 50, 100%):** every question in this window has a
+  printed letter (or, for Q42, a printed letter among five options) in the
+  chapter's own plain-text answer table -- comfortably clears the ≥60%
+  condition for TRIAGE APPROVED.
+- **Printed-key vs. expected-answer conflicts found while cross-checking
+  each key against the obvious textbook fact (not assumed correct just
+  because it is printed and machine-readable):**
+  - **Q3** ("Rod shaped bacteria are known as?", options Cocci/Comma
+    forms/**Bacilli**/Pleomorphic forms) is keyed **A "Cocci"** -- textbook
+    fact is Bacilli (C). **Held.**
+  - **Q5** ("Spherical-shaped bacteria are referred as?", options
+    **Cocci**/Bacilli/Spirilla/None) is keyed **B "Bacilli"** -- textbook
+    fact is Cocci (A). **Held.** Q3 and Q5 read as if their intended answers
+    were transposed with each other (a plausible source-side transcription
+    slip); confirmed a genuine conflict either way, not an OCR artefact,
+    since both keys were read as plain, unambiguous printed text.
+  - **Q35** ("All of the following structures of bacteria contain (or are
+    made of) protein EXCEPT?", options Plasmids/Ribosomes/Pili/**Cell
+    membrane**) is keyed **D "Cell membrane"**. Defensible in that a
+    membrane is chiefly phospholipid, but option A "Plasmids" is also
+    arguably correct under the same logic (a plasmid is DNA, not protein)
+    -- two options can defend "except," and nothing in the stem resolves
+    which was intended. **Held** as genuinely ambiguous, not a confident
+    single-letter conflict like Q3/Q5.
+  - All other 47 keys in the Q1-50 window check out against the obvious
+    textbook fact with no conflict -- see the per-question table below.
+- **Schema-shape holds found during authoring, not during triage reading:**
+  **Q13** ("A Gram-negative cell wall is …… than a Gram positive one?") and
+  **Q16** ("The cell wall type that has less peptidoglycan is?") print only
+  **two** options each (Thicker/Thinner; Gram negative/Gram positive) -- both
+  keys are correct and uncontested, but the seed schema's 4-6-option floor
+  (`scripts/content/seed.schema.md`) refused them. Inventing two distractors
+  not in the source was judged worse than holding, so both are held rather
+  than authored -- discovered by `emit-mcq.mjs`'s own validation, not by a
+  pre-read of the stems, which is why they are not counted among the
+  "keys recovered" figure above (their keys ARE recovered; they are held on
+  option-count grounds, not a key conflict).
+- **Stem-absent items: none** in this window.
+- **Duplicates:** none *within* Q1-50 (no two questions in this window share
+  an identical stem), but several Q1-50 stems reappear, near-verbatim, later
+  in chapter 1 outside this window -- e.g. Q17/Q154 ("bacterial pili mainly
+  contain"), Q18/Q155 ("mesosomes are part of"), Q36/Q152 ("endotoxin
+  produced by gram negative bacteria is present in") -- confirming the
+  chapter recycles its own earlier questions later on, a pattern worth a
+  duplicate-collapse pass whenever a later lane authors past Q50.
+
+## Live / pending / new -- search method
+
+`find-existing.mjs` matches only an exact-substring hit of the whole query
+against a field, so short, single-topic terms were searched (`plasmid`,
+`peptidoglycan`, `endotoxin`, `exotoxin`, `flagella`, `capsule`, `bacterial
+spore`, `mesosome`, `teichoic acid`, `pili`, `nucleoid`, `sterol`,
+`virulence factor`, `gram stain`, `plasma membrane`, `prokaryote`, `clone`,
+`mycoplasma`), one term per call, re-run this pass for every concept this
+window's 47 authored questions test. The chapter overlaps heavily with Ain
+Shams's own `ASU-INF-microbiology-concepts.md` (pending, both
+`docs/import-ready/concept/` and `docs/Ain-Shams-Source-Imports/concept/`) --
+exactly the overlap the lane card's §7 flagged in advance -- so most of this
+window's questions reuse an ASU-INF concept rather than mint a twin.
+
+| Q | Tested idea | Printed key | find-existing result |
+|--:|---|:-:|---|
+| 1 | Plasmid: accessory extrachromosomal DNA, not a core cellular function | D | **live** -- `CON-DEV-FE47A8F9B0768E` ("Bacterial plasmids are small circular extrachromosomal DNA molecules") |
+| 2 | Clone: population from a single parent cell | B | new |
+| 3 | Rod-shaped bacteria = bacilli | A | *held -- printed key (Cocci) conflicts with the expected answer (Bacilli)* |
+| 4 | Gram-negative bacteria stain pink (safranin counterstain) | A | new |
+| 5 | Spherical bacteria = cocci | B | *held -- printed key (Bacilli) conflicts with the expected answer (Cocci)* |
+| 6 | Gram-positive bacteria stain violet (crystal violet retained) | B | new |
+| 7 | Eukaryote/prokaryote differences: false claim is "no genetic material" | D | new |
+| 8 | Prokaryote true statement: single circular DNA chromosome | E | new |
+| 9 | Prokaryote characterized by: all of the listed features jointly | E | new |
+| 10 | Capsule protects from phagocytosis | A | **pending** -- `docs/import-ready/concept/ASU-INF-microbiology-concepts.md`, `CON-INF-25846A77987558`, canonical_key `bacteria.capsule.function-virulence-identification-vaccine` |
+| 11 | Peritrichous: flagella all around the cell | B | new |
+| 12 | Cell wall does NOT protect from phagocytosis (that is the capsule's job) | C | **pending** -- `CON-INF-3FBC905C4F778F`, `bacteria.cell-wall.peptidoglycan-rigidity` |
+| 13 | Gram-negative wall thinner than Gram-positive | B | *held -- source prints only 2 options (Thicker/Thinner), short of the schema's 4-option floor; would reuse `CON-INF-7E3B831D71A008`* |
+| 14 | Flagella and pili are made of protein | D | **pending** -- `CON-INF-83707B09F53803`, `bacteria.flagellum.flagellin-motility` |
+| 15 | Gram-negative wall (LPS) contains polysaccharide | A | **pending** -- `CON-INF-0DD46C0FD80938`, `bacteria.gram-negative-cell-wall.composition` |
+| 16 | Gram-negative = less peptidoglycan | A | *held -- source prints only 2 options (Gram negative/Gram positive), short of the schema's 4-option floor; would reuse `CON-INF-7E3B831D71A008`* |
+| 17 | Bacterial pili mainly contain protein | C | **pending** -- `CON-INF-83707B09F53803` (contextual: `CON-INF-BC446C9816D9CE`) |
+| 18 | Mesosomes are part of the plasma membrane | A | **pending** -- `CON-INF-E4012E20B5A13D`, `bacteria.mesosome.structure-and-role` |
+| 19 | Teichoic acid found in Gram-positive bacteria | A | **pending** -- `CON-INF-7E3B831D71A008` |
+| 20 | Mesosomes are sites of respiratory enzymes | D | **pending** -- `CON-INF-E4012E20B5A13D` |
+| 21 | Capsule composed of polysaccharide or (B. anthracis) polypeptide | D | **pending** -- `CON-INF-25846A77987558` |
+| 22 | Cell wall (peptidoglycan) maintains bacterial shape | B | **pending** -- `CON-INF-3FBC905C4F778F` |
+| 23 | Gram+/- differences reside in the cell wall | A | **pending** -- `CON-INF-7E3B831D71A008` |
+| 24 | Bacterial locomotion = flagella (not fimbria) | B | **pending** -- `CON-INF-83707B09F53803` |
+| 25 | Teichoic acid found in Gram-positive walls | A | **pending** -- `CON-INF-7E3B831D71A008` |
+| 26 | Monotrichous: one flagellum, one pole | A | new |
+| 27 | Capsule: protects from phagocytosis AND helps adherence | C | **pending** -- `CON-INF-25846A77987558` |
+| 28 | Bacterium lacks a true (membrane-bound) nucleus | B | new |
+| 29 | False about Gram-negative wall: contains teichoic acid | A | **pending** -- `CON-INF-7E3B831D71A008` (contextual: `CON-INF-0DD46C0FD80938`) |
+| 30 | Pili functions EXCEPT movement (that is the flagellum's job) | B | **pending** -- `CON-INF-BC446C9816D9CE`, `bacteria.pili.ordinary-vs-sex-pili-function` |
+| 31 | Only Gram-negative cells have an LPS layer | A | **pending** -- `CON-INF-7E3B831D71A008` |
+| 32 | Plasma membrane = selective barrier controlling molecular traffic | C | new |
+| 33 | Genetic information stored in the nucleus (vs. ER/Golgi/lysosome) | B | new |
+| 34 | Plasma membrane regulates traffic into/out of the cell | D | new |
+| 35 | Structures containing protein EXCEPT | D | *held -- ambiguous: Cell membrane (D, printed) and Plasmids (A) are both arguably "except"* |
+| 36 | Endotoxin present in lipopolysaccharide | B | **pending** -- `CON-INF-0DD46C0FD80938` (contextual: `CON-INF-C87DF729E2ADDF`) |
+| 37 | Exotoxins are heat labile | A | **pending** -- `CON-INF-C87DF729E2ADDF`, `bacteria.toxins.exotoxin-vs-endotoxin` |
+| 38 | Flagella are the organ of motility | C | **pending** -- `CON-INF-83707B09F53803` |
+| 39 | Lophotrichous: a tuft of flagella at one pole | C | new |
+| 40 | NOT an exotoxin character: prepared by organism disintegration (that is endotoxin's release mechanism) | D | **pending** -- `CON-INF-C87DF729E2ADDF` |
+| 41 | NOT an endotoxin character: converted to formol toxoid (that is an exotoxin property) | C | **pending** -- `CON-INF-C87DF729E2ADDF` |
+| 42 | Virulence factors EXCEPT inclusion granules (a storage structure, not a virulence factor) | E | new |
+| 43 | Exotoxin correct statement: strong antigenic | B | **pending** -- `CON-INF-C87DF729E2ADDF` |
+| 44 | Endotoxin association = lipopolysaccharide | B | **pending** -- `CON-INF-0DD46C0FD80938` (contextual: `CON-INF-C87DF729E2ADDF`) |
+| 45 | Amphitrichous: one flagellum at each of two poles | A | new |
+| 46 | Exotoxin best-matching character: they are strong (potent) | D | **pending** -- `CON-INF-C87DF729E2ADDF` |
+| 47 | Bacterial spores: false statement is "metabolically active" (spores are dormant) | A | **live** -- `CON-INF-3E6590C8AC2166` ("Bacillus and Clostridium can form dormant highly resistant non-replicating endospores") |
+| 48 | Pili occur in both motile and non-motile strains | B | **pending** -- `CON-INF-BC446C9816D9CE` |
+| 49 | Lipopolysaccharide responsible for endotoxin activity | A | **pending** -- `CON-INF-0DD46C0FD80938` (contextual: `CON-INF-C87DF729E2ADDF`) |
+| 50 | NOT an exotoxin property: coded by chromosome (many are plasmid/phage-coded) | A | **pending** -- `CON-INF-C87DF729E2ADDF` |
+
+Concept placement (subject `inf`, per `00-START-HERE.md` §3: "Microbiology
+and Parasitology → inf"; `CON-INF-` prefix, matching Ain Shams's own
+convention for the same subject).
+
+## Held (5 of 50 -- key conflict, key ambiguity, or too few printed options)
+
+| Q | Tested idea | Printed key | Reason |
+|--:|---|:-:|---|
+| 3 | Rod-shaped bacteria | A "Cocci" | Cocci are spherical; the textbook term for rod-shaped bacteria is Bacilli (option C, not marked). |
+| 5 | Spherical-shaped bacteria | B "Bacilli" | Bacilli are rod-shaped; the textbook term for spherical bacteria is Cocci (option A, not marked). Read together with Q3, the two answers look transposed. |
+| 13 | Gram-negative wall vs. Gram-positive wall thickness | B "Thinner" | Key uncontested, but only 2 options are printed (Thicker/Thinner), short of the seed schema's 4-option floor. |
+| 16 | Which wall type has less peptidoglycan | A "Gram negative" | Key uncontested, but only 2 options are printed (Gram negative/Gram positive), short of the seed schema's 4-option floor. |
+| 35 | Structures containing protein EXCEPT | D "Cell membrane" | Defensible, but option A "Plasmids" (DNA, not protein) is equally arguable as the EXCEPT answer; the stem does not disambiguate which was intended. |
+
+## Needs Omar / open items
+
+- Q3 and Q5's transposed-looking keys are worth checking against a second
+  copy of this same bank or an official answer sheet, if Omar has one --
+  they read as a genuine source-side slip, not an extraction artefact.
+- Chapters 2-11 (725 more items, all confirmed 100%-keyable by the same
+  plain-text-table mechanism) are triaged only at the structural level in
+  this pass -- per-question stems, keys and concept searches queued for a
+  later lane.
+- `Week 6 INI Quizzes.pdf`, `Formative 7 INI answered .pdf` (both fully
+  garbled) and `INI All GDs - solved.pdf` (40 garbled pages) remain out of
+  scope per the dispatch -- left for a later lane with OCR budget.
+- The True/False block inside chapter 5 (Q75-84, 10 items) is a different
+  question shape (2-valued, no lettered options) from the rest of the bank
+  -- not authored this pass; a later lane should confirm whether the
+  standard MCQ seed schema is the right vehicle for it or whether it needs
+  its own handling.
