@@ -7231,3 +7231,423 @@ yes
 
 ## author_notes
 keySource: printed answer table p.21 ("60.D")
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q62
+
+## title
+Calculating apparent volume of distribution
+
+## question
+A drug given as 200 mg single dose, results in a peak plasma concentration of 0.02 mg/ml. The apparent volume of distribution (Vd) is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+3 liters
+
+## explanation_a
+Incorrect. 200 mg divided by 0.02 mg/ml is 10,000 ml, not a value that reduces to 3 liters under this formula.
+
+## answer_b
+4 liters
+
+## explanation_b
+Incorrect. 4 liters is the volume of plasma alone in an average adult, the smallest value Vd can take (a drug fully confined to the vascular compartment) — it is not the answer this specific dose and concentration produce.
+
+## answer_c
+5 liters
+
+## explanation_c
+Incorrect. 5 liters does not follow from dividing 200 mg by 0.02 mg/ml; it does not match the arithmetic the formula requires.
+
+## answer_d
+10 liters
+
+## explanation_d
+Correct. Apparent volume of distribution is defined as the total amount of drug in the body divided by the plasma concentration it produces: Vd = amount ÷ concentration. Here, 200 mg ÷ 0.02 mg/ml = 10,000 ml = 10 liters. Because 10 liters is well above the roughly 4-liter plasma volume, this result also tells us the drug is not confined to plasma but has moved out into the tissues to some degree, exactly the kind of numeric-to-physiological reading the formula is meant to support.
+
+## topic
+Pharmacology
+
+## subtopic
+Pharmacokinetics
+
+## main_concept
+CON-FND-CBA2A73AE9A6D8
+
+## concept_ids
+CON-FND-CBA2A73AE9A6D8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Calculation
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > General Pharmacology > Pharmacokinetics
+
+## question_only_for
+
+## library_ids
+ART-FND-TOP-770778D86F
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Calculate the apparent volume of distribution from a single dose and its resulting peak plasma concentration (Vd = dose / concentration).
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.10
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("62.D")
+reuse: CON-FND-CBA2A73AE9A6D8 is a live, university-scoped (kau) but module-blind general-pharmacology teaching concept (moduleIds: [], learnerYears include 2) confirmed via find-existing.mjs ("apparent volume of distribution") and read directly in server/data/medical-library-v1.json -- cited directly, no overlay needed since its scope already covers KAU_Y2 with no module restriction to extend.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q63
+
+## title
+Calculating an infusion rate from clearance
+
+## question
+It is desired to maintain a plasma concentration of 0.2 g/L of an antibiotic in a patient. Plasma clearance equals 6 L /hour. Calculate the infusion rate:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+1.2 g/hour
+
+## explanation_a
+Correct. Clearance is the volume of body fluid from which a drug is removed per unit time; at steady state, the infusion rate needed to maintain a target plasma concentration is exactly the rate at which the body is clearing the drug, so infusion rate = target concentration × clearance. Here, 0.2 g/L × 6 L/hour = 1.2 g/hour. Delivering drug at any lower rate would let the plasma concentration drift downward as clearance kept removing more than was being replaced, and delivering it faster would let the concentration climb above the intended target, which is exactly why matching the infusion rate to clearance-times-target is what defines a steady infusion.
+
+## answer_b
+2.4 g/hour
+
+## explanation_b
+Incorrect. 2.4 g/hour is double the correct product of 0.2 g/L and 6 L/hour; it does not follow from the concentration-times-clearance calculation the question requires.
+
+## answer_c
+3 g/hour
+
+## explanation_c
+Incorrect. 3 g/hour does not follow from multiplying 0.2 g/L by 6 L/hour, so it is not the rate that would hold the plasma concentration steady at the stated target.
+
+## answer_d
+5 g/hour
+
+## explanation_d
+Incorrect. 5 g/hour is far above the product of the given concentration and clearance; delivering the drug this fast would drive the plasma concentration well past the intended 0.2 g/L target rather than maintaining it.
+
+## topic
+Pharmacology
+
+## subtopic
+Pharmacokinetics
+
+## main_concept
+CON-FND-87C323BB0CE321
+
+## concept_ids
+CON-FND-87C323BB0CE321
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Calculation
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > General Pharmacology > Pharmacokinetics
+
+## question_only_for
+
+## library_ids
+ART-FND-TOP-770778D86F
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Calculate the infusion rate needed to maintain a target steady-state plasma concentration, as target concentration multiplied by clearance.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("63.A")
+reuse: CON-FND-87C323BB0CE321 is a live, university-scoped (kau) but module-blind general-pharmacology teaching concept (moduleIds: [], learnerYears include 2) confirmed via find-existing.mjs ("clearance") and read directly in server/data/medical-library-v1.json -- cited directly, no overlay needed.
+
+---
+
+# Item
+
+## id
+QST-KASR208INT-2023EOM-Q64
+
+## title
+Time to reach steady state from half-life
+
+## question
+The half-life of a drug is about 6 hours. Approximately, how long will it take for blood levels of the drug to reach a steady concentration (plateau)?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+12 hours
+
+## explanation_a
+Incorrect. 12 hours is only two half-lives at this drug's 6-hour half-life, which reaches roughly 75% of the eventual plateau, not the full steady state the question asks for.
+
+## answer_b
+24 hours
+
+## explanation_b
+Correct. Steady state is reached once the rate of drug entering the body equals the rate leaving it, and because elimination is first-order, this approach to the plateau is asymptotic: it takes a consistent four to five half-lives to be considered essentially at steady state, regardless of the dose or dosing interval. At a 6-hour half-life, four to five half-lives is 24 to 30 hours, so 24 hours is the closest of the given options — this is why raising the dose changes where the plateau sits but never how quickly it is reached, since only the half-life sets that timing.
+
+## answer_c
+48 hours
+
+## explanation_c
+Incorrect. 48 hours is roughly eight half-lives at this drug's 6-hour half-life, well beyond the four-to-five-half-life window the book uses to define reaching steady state.
+
+## answer_d
+4 days
+
+## explanation_d
+Incorrect. Four days (96 hours) is sixteen half-lives at this drug's 6-hour half-life, far beyond the four-to-five-half-life rule for reaching a plateau.
+
+## topic
+Pharmacology
+
+## subtopic
+Pharmacokinetics
+
+## main_concept
+CON-FND-955AD7B6FE6F03
+
+## concept_ids
+CON-FND-955AD7B6FE6F03
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Calculation
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+208 INT
+
+## module_subject
+208 INT > Chapter 10 Pharmacology > General Pharmacology > Pharmacokinetics; 108 INT > Pharmacology > Fundamental Principles of Pharmacokinetics > Plasma Half Life
+
+## question_only_for
+
+## library_ids
+ART-108-PHA-KINETIC-PRINCIPLES
+
+## resource_ids
+src_5c065efcd90b4ef24136
+
+## learning_objective
+Apply the four-to-five-half-lives rule to estimate the time to reach steady state from a stated half-life.
+
+## source_citation
+Kasr Al Ainy 208 INT EOM 2023 exam paper, p.11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.21 ("64.B")
+reuse: CON-FND-955AD7B6FE6F03 (plasma half-life) is pending in docs/Kasr-Source-Imports/concept/108-INT-concepts-pharmacology.md, module-tied to 108 INT / KAU_Y1 only -- confirmed via find-existing.mjs ("plasma half-life"). Reused via a sparse pending-live overlay (docs/Kasr-Source-Imports/pending-live/208-INT-concepts.md) adding +208 INT and +2, per the chief-of-staff ruling on reusing Year-1 108/102 INT ids for overlapping pharmacology.
