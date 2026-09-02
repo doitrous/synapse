@@ -1,0 +1,559 @@
+{
+  "lane": "MANS-MSS-202",
+  "cluster": "nsaid3-mint",
+  "header": "MANS-MSS-202 lane 3 · NSAID/aspirin pharmacology authored from Most important MCQ (continuous).pdf pp.24-31 — the items lanes 1-2's pharma-mint cluster left unauthored on the same pages (confirmed by direct page re-read), plus pp.27-28's new bold-keyed NSAID mechanism section. All thirteen questions mint new concepts (with new TPL-CONCEPT articles): broad greps for every fact (aspirin-warfarin, ibuprofen mechanism, COX-3, irreversible COX inhibition, NSAID-renal-prostaglandin interactions, acetaminophen hepatotoxicity) found no matching concept distinct from the module's own existing paracetamol/aspirin/celecoxib/NSAID concepts, which cover different specific facts.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "mans"
+    ],
+    "years": [
+      "MANS_Y1"
+    ],
+    "module": "MANS-MSS-202",
+    "resource_ids": [
+      "src_9fa49f3f0021440fcce7"
+    ],
+    "source_citation": "Most important MCQ (continuous).pdf",
+    "setting": "Clinical",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "nsaid3-q01",
+      "page": 24,
+      "title": "What non-narcotic agents cause",
+      "question": "Non-narcotic agents cause….",
+      "options": {
+        "A": "Physical dependence",
+        "B": "Euphoria",
+        "C": "Antipyretic effect",
+        "D": "Antitussive",
+        "E": "Respiratory depression"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Physical dependence is a hallmark risk of narcotic (opioid) analgesics, tied to their action on opioid receptors. Non-narcotic analgesics do not touch that receptor system, so they carry no such dependence risk.",
+        "B": "Incorrect. Euphoria is an opioid-receptor-mediated reward effect. Non-narcotic analgesics, working through cyclooxygenase inhibition rather than opioid receptors, do not produce it.",
+        "C": "Correct. Non-narcotic analgesics reduce central prostaglandin E2 synthesis in the hypothalamus, resetting the elevated thermoregulatory set point of fever back toward normal. This antipyretic action, together with analgesia, is a defining shared property of the group.",
+        "D": "Incorrect. Antitussive (cough-suppressant) action, like codeine's, is an opioid-receptor effect in the brainstem cough centre. Non-narcotic analgesics have no such receptor target and no antitussive action.",
+        "E": "Incorrect. Respiratory depression is a classic opioid-receptor-mediated effect, dangerous at high doses of narcotic analgesics. Non-narcotic analgesics do not depress respiration through this mechanism."
+      },
+      "main_concept": "CON-PHM-A6B7C8D9E0F1A2",
+      "concept_ids": [
+        "CON-PHM-A6B7C8D9E0F1A2"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Easy",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that non-narcotic analgesics act as antipyretics via central prostaglandin inhibition, without opioid-receptor effects.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.24"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-NON-NARCOTIC-ANTIPYRETIC"
+      ]
+    },
+    {
+      "key": "nsaid3-q02",
+      "page": 27,
+      "title": "NSAID side effect not shared with the group",
+      "question": "One of the following is not a side effect shared by NSAIDs:",
+      "options": {
+        "A": "Physical dependence",
+        "B": "Gastrointestinal ulceration",
+        "C": "Hypersensitivity",
+        "D": "Nephropathy",
+        "E": "Nausea and vomiting"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Physical dependence is an opioid-receptor phenomenon. NSAIDs, including aspirin, do not act on opioid receptors and so do not produce tolerance or physical dependence, unlike narcotic analgesics.",
+        "B": "Incorrect. Gastrointestinal ulceration is a genuine, shared NSAID side effect, from reduced protective gastric prostaglandins when cyclooxygenase-1 is inhibited. It is one of the class's best-known risks.",
+        "C": "Incorrect. Hypersensitivity reactions, including NSAID-exacerbated respiratory disease, are recognised across the NSAID class. This is a real shared risk, not the exception being asked for.",
+        "D": "Incorrect. Nephropathy from reduced renal prostaglandin-mediated blood flow is a genuine shared NSAID risk, especially in volume-depleted or renally impaired patients. It is not the odd one out here.",
+        "E": "Incorrect. Nausea and vomiting are common, genuine NSAID side effects from local gastric irritation and systemic prostaglandin inhibition. They belong on the list of true shared effects, unlike physical dependence."
+      },
+      "main_concept": "CON-PHM-A6B7C8D9E0F1A2",
+      "concept_ids": [
+        "CON-PHM-A6B7C8D9E0F1A2"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise that NSAIDs, lacking opioid-receptor action, do not share physical dependence with narcotic analgesics.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.27"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-NON-NARCOTIC-ANTIPYRETIC"
+      ]
+    },
+    {
+      "key": "nsaid3-q03",
+      "page": 24,
+      "title": "Aspirin drug interaction",
+      "question": "Which drug interaction may occur when aspirin is given concomitantly with other drugs?",
+      "options": {
+        "A": "Potentiation of the anticoagulant effect of warfarin",
+        "B": "Potentiation of the antihypertensive effect of beta-blockers",
+        "C": "Potentiation of the coagulant action of vitamin K",
+        "D": "Potentiation of the diuretic effect of furosemide",
+        "E": "Potentiation of the uricosuric effect of probenecid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aspirin potentiates warfarin's anticoagulant effect through two additive mechanisms: displacing warfarin from plasma protein binding, and independently impairing platelet aggregation via irreversible COX-1 inhibition. Together they raise bleeding risk beyond either drug alone.",
+        "B": "Incorrect. Aspirin does not potentiate beta-blockers; if anything, NSAID-class drugs tend to blunt antihypertensive efficacy through reduced vascular prostacyclin, the opposite of potentiation. Beta-blockers are not the classic aspirin interaction being tested.",
+        "C": "Incorrect. Vitamin K promotes coagulation, the opposite effect to what aspirin's antiplatelet action produces; aspirin does not potentiate a coagulant, pro-clotting action. This pairing misdescribes the direction of aspirin's own effect.",
+        "D": "Incorrect. Aspirin does not potentiate furosemide's diuretic effect; NSAIDs as a class tend to blunt diuretic efficacy by inhibiting the renal prostaglandins that support natriuresis, again the opposite of potentiation.",
+        "E": "Incorrect. Low-dose aspirin actually antagonises uricosuric drugs like probenecid, competing for the same renal tubular transport mechanism, rather than potentiating their action. This is the opposite interaction to the one described."
+      },
+      "main_concept": "CON-PHM-B7C8D9E0F1A2B3",
+      "concept_ids": [
+        "CON-PHM-B7C8D9E0F1A2B3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify warfarin's anticoagulant effect as the classic drug potentiated by concomitant aspirin.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.24"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ASPIRIN-WARFARIN-INTERACTION"
+      ]
+    },
+    {
+      "key": "nsaid3-q04",
+      "page": 25,
+      "title": "Aspirin's pharmacologic effect",
+      "question": "Which of the following is a pharmacologic effect of aspirin?",
+      "options": {
+        "A": "Anti-inflammatory, and anti-rheumatic effects",
+        "B": "Promotion of platelet aggregation, which decrease bleeding tendency",
+        "C": "Reduction of pain by stimulation of PGs synthesis",
+        "D": "Central skeletal muscle relaxation",
+        "E": "Reduction of blood pressure by diuretic effects"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At anti-inflammatory doses, aspirin's sustained cyclooxygenase inhibition gives it genuine anti-inflammatory and anti-rheumatic activity, distinct from its lower-dose antiplatelet and analgesic-antipyretic uses. This higher-dose regimen was historically used to arrest progressive joint destruction in acute rheumatic fever. It is the correct pairing of effects among the options listed here.",
+        "B": "Incorrect. Aspirin inhibits, rather than promotes, platelet aggregation, by blocking thromboxane A2 synthesis, and this increases rather than decreases bleeding tendency. The option reverses both the direction of the platelet effect and its consequence.",
+        "C": "Incorrect. Aspirin reduces pain by inhibiting, not stimulating, prostaglandin synthesis. Prostaglandins sensitise nociceptors, so blocking their synthesis is exactly how aspirin relieves pain.",
+        "D": "Incorrect. Aspirin has no central skeletal muscle relaxant action; that effect belongs to a separate drug class (centrally acting muscle relaxants), unrelated to cyclooxygenase inhibition.",
+        "E": "Incorrect. Aspirin is not a diuretic and does not lower blood pressure through a diuretic mechanism. Any blood-pressure effect of NSAIDs as a class tends to work against antihypertensive therapy, not to lower pressure directly."
+      },
+      "main_concept": "CON-PHM-C8D9E0F1A2B3C4",
+      "concept_ids": [
+        "CON-PHM-C8D9E0F1A2B3C4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that aspirin has genuine anti-inflammatory and anti-rheumatic pharmacologic effects at appropriate doses.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.25"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ASPIRIN-ANTI-INFLAMMATORY"
+      ]
+    },
+    {
+      "key": "nsaid3-q05",
+      "page": 25,
+      "title": "Aspirin's therapeutic use in rheumatic fever",
+      "question": "Therapeutic uses of aspirin include:",
+      "options": {
+        "A": "Prophylaxis of migraine.",
+        "B": "Treatment of hypertension with pregnancy.",
+        "C": "Prevent the progress of joint destruction in rheumatic fever.",
+        "D": "Delayed labour",
+        "E": "Treatment of thrombocytopenia"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Migraine prophylaxis is achieved with drugs such as beta-blockers, topiramate or specific anti-CGRP agents, not with aspirin as a preventive strategy. Aspirin can treat an acute migraine attack, but that is a different use from prophylaxis.",
+        "B": "Incorrect. Hypertension in pregnancy is managed with agents such as labetalol, methyldopa or nifedipine. Aspirin has a role in pre-eclampsia prevention at low dose in specific risk groups, but it is not a treatment for established hypertension.",
+        "C": "Correct. At high, sustained anti-inflammatory doses, aspirin's cyclooxygenase inhibition genuinely reduces joint inflammation and helps prevent progressive joint destruction in acute rheumatic fever, a historic and still-recognised therapeutic use. This is a distinct application from aspirin's lower-dose antiplatelet or analgesic-antipyretic roles. The dose needed here is far higher than for simple pain relief.",
+        "D": "Incorrect. Aspirin and other NSAIDs, by inhibiting prostaglandins that help initiate and sustain labour, can delay rather than assist labour; but 'delayed labour' as a therapeutic goal is not among aspirin's recognised uses here, and this option does not describe an intended use.",
+        "E": "Incorrect. Aspirin inhibits platelet function and can worsen bleeding tendency; it is not used to treat thrombocytopenia, and in a thrombocytopenic patient it would be relatively contraindicated because it compounds the bleeding risk."
+      },
+      "main_concept": "CON-PHM-C8D9E0F1A2B3C4",
+      "concept_ids": [
+        "CON-PHM-C8D9E0F1A2B3C4"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify prevention of joint destruction in rheumatic fever as a recognised high-dose therapeutic use of aspirin.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.25"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ASPIRIN-ANTI-INFLAMMATORY"
+      ]
+    },
+    {
+      "key": "nsaid3-q06",
+      "page": 26,
+      "title": "Ibuprofen's mechanism of action",
+      "question": "What is the mechanism of action of ibuprofen?",
+      "options": {
+        "A": "Non selective of COX enzyme inhibitor",
+        "B": "Selective Cox-2 inhibitor",
+        "C": "Phospholipase A2 inhibitor",
+        "D": "Lipooxygenase enzyme inhibitor",
+        "E": "Kallikrein system inhibitor"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Ibuprofen blocks both the COX-1 and COX-2 isoforms without meaningful selectivity between them. This is why it produces both peripheral anti-inflammatory benefit and the gastric/antiplatelet effects tied to COX-1 inhibition. Its lack of isoform preference is what defines it as non-selective, unlike celecoxib.",
+        "B": "Incorrect. Selective COX-2 inhibition describes drugs such as celecoxib, which spare COX-1-mediated gastric protection. Ibuprofen inhibits both isoforms rather than being selective for COX-2.",
+        "C": "Incorrect. Phospholipase A2 inhibition is the mechanism of corticosteroids, acting one step upstream of cyclooxygenase by blocking arachidonic acid release itself. Ibuprofen acts downstream, on cyclooxygenase directly, not on phospholipase A2.",
+        "D": "Incorrect. Lipoxygenase is a separate branch of the arachidonic acid cascade, producing leukotrienes. Ibuprofen's cyclooxygenase-selective action leaves this parallel pathway untouched.",
+        "E": "Incorrect. The kallikrein system generates bradykinin through a separate plasma protease cascade unrelated to arachidonic acid metabolism. Ibuprofen has no action on this system."
+      },
+      "main_concept": "CON-PHM-D9E0F1A2B3C4D5",
+      "concept_ids": [
+        "CON-PHM-D9E0F1A2B3C4D5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that ibuprofen is a non-selective cyclooxygenase (COX-1 and COX-2) inhibitor.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.26"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-IBUPROFEN-MECHANISM"
+      ]
+    },
+    {
+      "key": "nsaid3-q07",
+      "page": 27,
+      "title": "Eicosanoid ibuprofen does not reduce",
+      "question": "Ibuprofen does not reduce the synthesis of one of the following eicosanoids:",
+      "options": {
+        "A": "TXA2",
+        "B": "PGE2",
+        "C": "PGF2a",
+        "D": "LTB4",
+        "E": "PGI2"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. TXA2 (thromboxane A2) is a cyclooxygenase product, synthesised via the COX pathway that ibuprofen inhibits. Its synthesis is reduced by ibuprofen, so it is not the exception.",
+        "B": "Incorrect. PGE2 is likewise a cyclooxygenase product, central to fever and pain sensitisation, and its synthesis falls when ibuprofen blocks COX. It is a genuine target of ibuprofen's action.",
+        "C": "Incorrect. PGF2a is another prostaglandin made via the cyclooxygenase pathway, so ibuprofen reduces its synthesis along with the other COX products. It does not stand apart from the rest of the list.",
+        "D": "Correct. LTB4 (leukotriene B4) is made via the lipoxygenase pathway, a separate branch of arachidonic acid metabolism that cyclooxygenase inhibitors like ibuprofen do not touch. Its synthesis is unaffected by, and can even be relatively favoured by, COX-selective inhibition.",
+        "E": "Incorrect. PGI2 (prostacyclin) is a cyclooxygenase product as well, and ibuprofen reduces its synthesis along with the other COX-pathway eicosanoids, making it part of the affected group rather than the exception."
+      },
+      "main_concept": "CON-PHM-D9E0F1A2B3C4D5",
+      "concept_ids": [
+        "CON-PHM-D9E0F1A2B3C4D5"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Hard",
+      "question_type": "Straight recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Distinguish the cyclooxygenase-pathway eicosanoids ibuprofen reduces from the lipoxygenase product LTB4, which it does not.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.27"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-IBUPROFEN-MECHANISM"
+      ]
+    },
+    {
+      "key": "nsaid3-q08",
+      "page": 27,
+      "title": "NSAID proposed to act via COX-3 inhibition",
+      "question": "NSAID proposed to be acting via inhibition of COX-3 is:",
+      "options": {
+        "A": "Nimesulide",
+        "B": "Paracetamol",
+        "C": "Ketorolac",
+        "D": "Rofecoxib",
+        "E": "Aspirin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Nimesulide is understood through conventional, preferentially COX-2-selective peripheral inhibition, not the COX-3 hypothesis. Its clinical profile (peripheral anti-inflammatory activity) does not match paracetamol's centrally selective one.",
+        "B": "Correct. Paracetamol's centrally selective antipyretic-analgesic action, with minimal peripheral anti-inflammatory effect, has been mechanistically proposed to work through inhibition of a CNS-expressed COX-1 splice variant termed COX-3. This central selectivity is why paracetamol largely avoids the gastric and platelet effects of peripheral NSAIDs. It remains the standard explanation offered for its distinctive profile.",
+        "C": "Incorrect. Ketorolac is a potent, conventional peripheral non-selective COX-1/COX-2 inhibitor used for significant analgesia, not a drug associated with the COX-3 hypothesis.",
+        "D": "Incorrect. Rofecoxib is a selective COX-2 inhibitor, understood through standard peripheral cyclooxygenase pharmacology, not through a central COX-3 mechanism.",
+        "E": "Incorrect. Aspirin's mechanism is conventional, irreversible, non-selective peripheral COX-1/COX-2 inhibition. It is not the drug the COX-3 hypothesis was proposed to explain."
+      },
+      "main_concept": "CON-PHM-E0F1A2B3C4D5E6",
+      "concept_ids": [
+        "CON-PHM-E0F1A2B3C4D5E6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Hard",
+      "question_type": "Straight recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Name paracetamol as the analgesic whose central selectivity has been explained by the COX-3 hypothesis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.27"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-PARACETAMOL-COX3"
+      ]
+    },
+    {
+      "key": "nsaid3-q09",
+      "page": 28,
+      "title": "What makes aspirin unique among NSAIDs",
+      "question": "Among NSAIDs aspirin is unique because it:",
+      "options": {
+        "A": "Irreversibly inhibits its target enzyme",
+        "B": "Reduces the risk of colon cancer",
+        "C": "Reduces fever",
+        "D": "Selectively inhibits COX-2 enzyme",
+        "E": "Analgesic"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Aspirin is the one NSAID that inhibits cyclooxygenase irreversibly, by covalently acetylating a serine residue in the enzyme's active site. Other NSAIDs bind reversibly and competitively instead. This irreversibility is what gives aspirin its durable, once-daily antiplatelet effect.",
+        "B": "Incorrect. Some epidemiological evidence links long-term aspirin use to reduced colorectal cancer risk, but this is not the property that makes aspirin pharmacologically unique among NSAIDs in the way this question is testing.",
+        "C": "Incorrect. Reducing fever (antipyresis) is shared by most NSAIDs through COX inhibition; it is not unique to aspirin at all.",
+        "D": "Incorrect. Aspirin is a non-selective COX inhibitor, not a selective COX-2 inhibitor; selective COX-2 inhibition describes drugs like celecoxib, the opposite classification from aspirin.",
+        "E": "Incorrect. Analgesia is a property shared broadly across the NSAID class through COX inhibition, not something that sets aspirin apart from the others."
+      },
+      "main_concept": "CON-PHM-F1A2B3C4D5E6F7",
+      "concept_ids": [
+        "CON-PHM-F1A2B3C4D5E6F7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Straight recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify irreversible enzyme inhibition as the property that distinguishes aspirin from other, reversibly-acting NSAIDs.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.28"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ASPIRIN-IRREVERSIBLE-COX"
+      ]
+    },
+    {
+      "key": "nsaid3-q10",
+      "page": 28,
+      "title": "Mechanism of aspirin's MI prophylaxis",
+      "question": "Aspirin is used in the prophylaxis of myocardial infarction because it results in:",
+      "options": {
+        "A": "Inhibition of thromboxane synthetase",
+        "B": "Inhibition of cyclooxygenase in platelets",
+        "C": "Decreased serum lipids",
+        "D": "Coronary steal phenomenon",
+        "E": "Coronary vasodilator"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Thromboxane synthetase is a distinct downstream enzyme from cyclooxygenase; aspirin's antiplatelet action works one step earlier, by inhibiting cyclooxygenase itself, not this separate synthetase.",
+        "B": "Correct. Aspirin irreversibly inhibits cyclooxygenase in platelets, which cannot resynthesise the enzyme since they lack a nucleus. This permanently blocks thromboxane A2-driven platelet aggregation for that platelet's lifespan. The resulting antiplatelet effect is what reduces thrombotic risk in myocardial infarction prophylaxis.",
+        "C": "Incorrect. Aspirin has no meaningful lipid-lowering effect; its cardioprotective mechanism is antiplatelet, not related to serum lipid levels at all.",
+        "D": "Incorrect. Coronary steal is a phenomenon associated with certain vasodilators diverting blood flow away from ischemic myocardium; it is not how aspirin works, and is in fact an undesirable effect unrelated to aspirin's mechanism.",
+        "E": "Incorrect. Aspirin is not a direct coronary vasodilator; its protective effect in myocardial infarction prophylaxis comes from reduced platelet aggregation, not from dilating coronary vessels."
+      },
+      "main_concept": "CON-PHM-F1A2B3C4D5E6F7",
+      "concept_ids": [
+        "CON-PHM-F1A2B3C4D5E6F7"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Moderate",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Attribute aspirin's MI-prophylactic effect to irreversible cyclooxygenase inhibition in platelets, blocking thromboxane A2.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.28"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ASPIRIN-IRREVERSIBLE-COX"
+      ]
+    },
+    {
+      "key": "nsaid3-q11",
+      "page": 29,
+      "title": "Why NSAIDs blunt antihypertensive efficacy",
+      "question": "The therapeutic efficacy of antihypertensive drugs is blunted by NSAIDS because they:",
+      "options": {
+        "A": "Cause sodium excretion",
+        "B": "Increase the clearance of antihypertensive drugs",
+        "C": "Decrease the absorption of antihypertensive drugs",
+        "D": "Decrease the synthesis of vascular prostacyclin",
+        "E": "Cause nephropathy"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. NSAIDs tend to promote sodium retention, not sodium excretion, by inhibiting the renal prostaglandins that normally support natriuresis. This is the opposite of what the option describes.",
+        "B": "Incorrect. NSAIDs do not act by increasing hepatic or renal clearance of antihypertensive drugs. Their interaction is pharmacodynamic, working against the antihypertensive's blood-pressure-lowering physiology, not pharmacokinetic clearance.",
+        "C": "Incorrect. NSAIDs do not reduce gastrointestinal absorption of antihypertensive drugs; the interaction happens after absorption, at the level of renal and vascular prostaglandin physiology.",
+        "D": "Correct. NSAIDs inhibit vascular prostacyclin (PGI2) synthesis, a prostaglandin that normally opposes vasoconstriction and helps maintain lower blood pressure. Losing this buffering blunts the efficacy of antihypertensive drugs.",
+        "E": "Incorrect. NSAID-induced nephropathy can occur, especially with prolonged use in susceptible patients, but it is not the specific mechanism by which NSAIDs blunt antihypertensive drug efficacy, which is prostacyclin-mediated rather than a consequence of frank kidney injury."
+      },
+      "main_concept": "CON-PHM-A2B3C4D5E6F7A8",
+      "concept_ids": [
+        "CON-PHM-A2B3C4D5E6F7A8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Hard",
+      "question_type": "Straight recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Attribute NSAID-blunting of antihypertensive drug efficacy to reduced vascular prostacyclin synthesis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.29"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-NSAID-RENAL-PROSTAGLANDINS"
+      ]
+    },
+    {
+      "key": "nsaid3-q12",
+      "page": 31,
+      "title": "How NSAIDs reduce furosemide's diuretic action",
+      "question": "Non-steroidal anti-inflammatory drugs reduce the diuretic action of furosemide by:",
+      "options": {
+        "A": "Preventing prostaglandin mediated internal hemodynamic actions",
+        "B": "Blocking its action in ascending limb of loop of Henle.",
+        "C": "Enhancing salt and water reabsorption in distal tubule.",
+        "D": "Increasing aldosterone secretion.",
+        "E": "Blocking Na+ channel in the distal tubule"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Furosemide's natriuretic effect partly depends on renal prostaglandin-mediated increases in renal blood flow and tubular effects. NSAIDs inhibit these renal prostaglandins, preventing this internal hemodynamic support. The result is a blunted diuretic action from furosemide when the two are combined.",
+        "B": "Incorrect. NSAIDs do not directly block furosemide's own site of action in the ascending limb of the loop of Henle; the interaction is indirect, through loss of a supporting prostaglandin-mediated mechanism, not competition at furosemide's own transporter.",
+        "C": "Incorrect. NSAIDs blunt furosemide's effect by removing prostaglandin support for its action, not by independently enhancing distal tubule reabsorption as a separate mechanism.",
+        "D": "Incorrect. NSAIDs are not described as working through increased aldosterone secretion in this interaction; the mechanism is specifically loss of renal prostaglandin-mediated hemodynamic support.",
+        "E": "Incorrect. Blocking a distal tubule sodium channel describes drugs like amiloride, not the mechanism by which NSAIDs interact with furosemide, which instead works through renal prostaglandin inhibition."
+      },
+      "main_concept": "CON-PHM-A2B3C4D5E6F7A8",
+      "concept_ids": [
+        "CON-PHM-A2B3C4D5E6F7A8"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Hard",
+      "question_type": "Straight recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Attribute NSAID-blunting of furosemide's diuretic action to loss of prostaglandin-mediated renal hemodynamic support.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.31"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-NSAID-RENAL-PROSTAGLANDINS"
+      ]
+    },
+    {
+      "key": "nsaid3-q13",
+      "page": 31,
+      "title": "Cause of liver injury in a rising-dose combination analgesic",
+      "question": "A 32-year-old woman has been taking an oxycodone-acetaminophen product for chronic arthritic pain. On a follow-up appointment her serum aminotransferases are elevated, and she is slightly jaundiced. She admits to increasing the dose of the oxycodone combination product over the past several weeks. The most likely cause of her liver injury is:",
+      "options": {
+        "A": "oxycodone.",
+        "B": "hepatitis A.",
+        "C": "hepatitis C.",
+        "D": "arthritis.",
+        "E": "acetaminophen"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. Oxycodone, the opioid component, has no comparable hepatotoxic mechanism; opioids are not a recognised cause of this pattern of rising aminotransferases and jaundice.",
+        "B": "Incorrect. Hepatitis A would typically present with an acute infectious prodrome and a distinct exposure history, not simply follow a pattern of escalating combination-analgesic dosing. The history here points to a dose-dependent drug cause instead.",
+        "C": "Incorrect. Hepatitis C usually causes a more insidious, chronic pattern of liver injury unrelated to acute dose escalation of a specific medication. It does not fit this vignette's clear temporal link to increasing drug intake.",
+        "D": "Incorrect. Arthritis itself does not cause liver injury; it is the reason she is taking the combination analgesic, not the cause of the hepatotoxicity described.",
+        "E": "Correct. Acetaminophen, the non-opioid component of the combination product, is hepatotoxic when its dose escalates. Rising intake overwhelms hepatic glutathione, letting the reactive metabolite NAPQI accumulate and cause centrilobular hepatocyte injury. This is exactly the rising-aminotransferase, jaundice picture described in her case."
+      },
+      "main_concept": "CON-PHM-B3C4D5E6F7A8B9",
+      "concept_ids": [
+        "CON-PHM-B3C4D5E6F7A8B9"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacology",
+      "subtopic": "Analgesics and NSAIDs",
+      "difficulty": "Hard",
+      "question_type": "Clinical vignette",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Attribute hepatotoxicity in an escalating opioid-acetaminophen combination product to its acetaminophen component.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed key positioned beside question number, p.31"
+      },
+      "author_notes": "",
+      "library_ids": [
+        "ART-MANS-MSS-ACETAMINOPHEN-HEPATOTOXICITY"
+      ]
+    }
+  ]
+}
