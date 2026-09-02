@@ -1,0 +1,347 @@
+{
+  "lane": "SCUMS105",
+  "cluster": "mskaxsh",
+  "header": "SCU-MS105 S3 minting lane 2 (scu-ms105-author2) — cluster 'mskaxsh', 15 of 16 items from FOMSCU Musculoskeletal's tier-2 bank `Anatomy/03 Questions and QBank/MCQ - Axilla and Shoulder - Nadwat.pdf` (native text, one item per odd page, single answer letter on the following even page, 16/16 keyed genuine 4-option MCQ per triage). Item 8 (page 15/16) is held: its printed stem is a verbatim duplicate of item 7's own stem ('Which nerve originates from the posterior cord of the brachial plexus?') but its four options are spinal-root levels (C5-C6 etc.), not nerve names — a stem/option mismatch, not a printed-key dispute, so no coherent question can be authored from it. 3 concepts genuinely new (re-verified with find-existing.mjs plus a grep -ril read of every hit body) plus 12 sparse reuses of existing pending KAU (101-ISK) concepts and one reuse of this lane's own mskmid26/mskarm concept — see pending-live/SCU-MS105-author1-overlay-concepts.md (addendum section, lane 2). Keys read from the answer-letter page following each stem; every explanation is written fresh in house voice.",
+  "defaults": {
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["scu"],
+    "years": ["SCU_Y1"],
+    "module": "SCU-MS105",
+    "subject": "msk",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "question_only_for": "",
+    "resource_ids": [],
+    "topic": "Anatomy",
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "exam_relevance": 5,
+    "library_ids": ["ART-SCU-MS105-ANA-SHOULDER-AXILLA"]
+  },
+  "questions": [
+    {
+      "key": "mskaxsh-q01",
+      "id": "QST-SCUMS105-MSKAXSH-Q01",
+      "title": "Boundaries of the apex of the axilla",
+      "question": "Which structures form the boundaries of the apex of the axilla?",
+      "options": { "A": "Clavicle, first rib, superior border of scapula", "B": "Clavicle, second rib, superior angle of scapula", "C": "Coracoid process, humerus, clavicle", "D": "First rib, sternum, coracoid process" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The apex of the axilla, also called the cervico-axillary canal, is the gateway between the root of the neck and the axilla. It is bounded anteriorly by the clavicle (with subclavius), posteriorly by the upper border of the scapula, and medially by the outer border of the first rib. The axillary vessels and the trunks and divisions of the brachial plexus all pass through this narrow canal.",
+        "B": "Incorrect. The second rib and the superior angle of the scapula are not part of the apex's boundaries; the true boundaries use the first rib and the upper border of the scapula, not its superior angle specifically.",
+        "C": "Incorrect. The coracoid process and humerus relate to the lateral wall and shoulder joint region, not the apex, and the clavicle alone is insufficient to define the apex's three boundaries.",
+        "D": "Incorrect. The sternum and coracoid process play no role in the apex's boundaries; the clavicle is a boundary, but paired with the first rib and scapula, not the sternum and coracoid process."
+      },
+      "subtopic": "Axilla: apex",
+      "main_concept": "CON-MSK-36F854FD651912",
+      "concept_ids": ["CON-MSK-36F854FD651912"],
+      "library_ids": ["ART-101-ANA-AXILLA-BREAST"],
+      "learning_objective": "State the three boundaries of the apex of the axilla (cervico-axillary canal): clavicle, first rib and the superior border of the scapula.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 1",
+      "field_notes": { "keySource": "answer letter 'A' on the page following the stem", "fomscu": "p1 (stem) / p2 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-36F854FD651912 (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md) — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q02",
+      "id": "QST-SCUMS105-MSKAXSH-Q02",
+      "title": "Composition of the base of the axilla",
+      "question": "The base of the axilla is formed by which structure?",
+      "options": { "A": "Pectoralis major muscle", "B": "Skin, subcutaneous tissue, and axillary fascia", "C": "Clavipectoral fascia", "D": "Deltoid muscle" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pectoralis major forms part of the anterior wall of the axilla, along with pectoralis minor, not its base.",
+        "B": "Correct. The base of the axilla is the floor of this pyramidal space, lying between the lower borders of the anterior and posterior axillary folds. It is formed by skin, subcutaneous fat, and the axillary fascia, unlike the four true walls of the axilla, which are all muscular or costal.",
+        "C": "Incorrect. The clavipectoral fascia is a deep fascial sheet related to the anterior wall, deep to pectoralis minor, not the base.",
+        "D": "Incorrect. Deltoid lies lateral to the axilla, forming the rounded contour of the shoulder, and takes no part in forming the axilla's base."
+      },
+      "subtopic": "Axilla: base",
+      "main_concept": "CON-MSK-9261D0F63A246A",
+      "concept_ids": ["CON-MSK-9261D0F63A246A"],
+      "learning_objective": "State that the base of the axilla is formed by skin, subcutaneous tissue and axillary fascia, distinguishing it from the four muscular walls.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 2",
+      "field_notes": { "keySource": "answer letter 'B' on the page following the stem", "fomscu": "p3 (stem) / p4 (key); native-text PDF extraction.", "mint": "Mints CON-MSK-9261D0F63A246A — see concept/SCU-MS105-concepts-2.md." }
+    },
+    {
+      "key": "mskaxsh-q03",
+      "id": "QST-SCUMS105-MSKAXSH-Q03",
+      "title": "Muscles of the anterior wall of the axilla",
+      "question": "The anterior wall of the axilla is mainly formed by which muscles?",
+      "options": { "A": "Pectoralis major and pectoralis minor", "B": "Subscapularis and teres major", "C": "Serratus anterior and intercostal muscles", "D": "Deltoid and coracobrachialis" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The anterior wall of the axilla is formed by pectoralis major superficially, with pectoralis minor, subclavius and the clavipectoral fascia lying deep to it. These two named muscles are the anterior wall's principal components.",
+        "B": "Incorrect. Subscapularis and teres major, together with latissimus dorsi, form the posterior wall of the axilla, not the anterior wall.",
+        "C": "Incorrect. Serratus anterior and the intercostal muscles form the medial wall of the axilla, overlying the upper ribs, not the anterior wall.",
+        "D": "Incorrect. Deltoid and coracobrachialis lie lateral to the axilla, related to its lateral wall region, not the anterior wall."
+      },
+      "subtopic": "Axilla: anterior wall",
+      "main_concept": "CON-MSK-F602D13792F66F",
+      "concept_ids": ["CON-MSK-F602D13792F66F"],
+      "library_ids": ["ART-101-ANA-AXILLA-BREAST"],
+      "learning_objective": "State that the anterior wall of the axilla is formed by pectoralis major and pectoralis minor.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 3",
+      "field_notes": { "keySource": "answer letter 'A' on the page following the stem", "fomscu": "p5 (stem) / p6 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-F602D13792F66F (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md) — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q04",
+      "id": "QST-SCUMS105-MSKAXSH-Q04",
+      "title": "Key muscle of the posterior wall of the axilla",
+      "question": "Which muscle is a key part of the posterior wall of the axilla?",
+      "options": { "A": "Latissimus dorsi", "B": "Pectoralis minor", "C": "Serratus anterior", "D": "Biceps brachii" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The posterior wall of the axilla is formed by subscapularis above, with teres major and latissimus dorsi below it. Latissimus dorsi, together with teres major, forms the lower border of this wall, the posterior axillary fold that can be gripped in the hand.",
+        "B": "Incorrect. Pectoralis minor is part of the anterior wall, not the posterior wall.",
+        "C": "Incorrect. Serratus anterior forms the medial wall of the axilla, overlying the upper ribs, not the posterior wall.",
+        "D": "Incorrect. Biceps brachii lies in the anterior compartment of the arm, distal to the axilla, and forms no part of any axillary wall."
+      },
+      "subtopic": "Axilla: posterior wall",
+      "main_concept": "CON-MSK-1DF213ABE5E25C",
+      "concept_ids": ["CON-MSK-1DF213ABE5E25C"],
+      "learning_objective": "State that latissimus dorsi is a key muscle of the posterior wall of the axilla, alongside subscapularis and teres major.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 4",
+      "field_notes": { "keySource": "answer letter 'A' on the page following the stem", "fomscu": "p7 (stem) / p8 (key); native-text PDF extraction.", "reuse": "Reuses this lane's own live-in-batch concept CON-MSK-1DF213ABE5E25C (docs/FOMSCU-Source-Imports/concept/SCU-MS105-author1-mint-concepts.md, lane 1) — same posterior-wall fact as mskmid26-q04, no overlay row needed since the concept already ships in the sibling concept file." }
+    },
+    {
+      "key": "mskaxsh-q05",
+      "id": "QST-SCUMS105-MSKAXSH-Q05",
+      "title": "Structure that is not a content of the axilla",
+      "question": "Which of the following is NOT a content of the axilla?",
+      "options": { "A": "Axillary artery", "B": "Cephalic vein (directly inside axilla)", "C": "Axillary lymph nodes", "D": "Brachial plexus cords" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect as the answer. The axillary artery is a genuine content of the axilla, running through it enclosed within the axillary sheath.",
+        "B": "Correct. The cephalic vein runs in the deltopectoral groove between deltoid and pectoralis major, staying outside the axillary space itself, and only pierces the clavipectoral fascia to join the axillary vein at the very top of that groove. Because it does not itself run through the body of the axilla, unlike the axillary vein, it is the structure that is not a true content of the axilla, despite this option's own claim that it lies directly inside it.",
+        "C": "Incorrect as the answer. Axillary lymph nodes are a genuine content of the axilla, embedded within its fat.",
+        "D": "Incorrect as the answer. The cords of the brachial plexus are genuine contents of the axilla, lying alongside the axillary vessels within the axillary sheath."
+      },
+      "subtopic": "Axilla: contents",
+      "main_concept": "CON-MSK-AF0860139291A3",
+      "concept_ids": ["CON-MSK-AF0860139291A3"],
+      "learning_objective": "State that the cephalic vein is not a content of the axilla, since it runs in the deltopectoral groove outside the axillary space.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 5",
+      "field_notes": { "keySource": "answer letter 'B' on the page following the stem", "fomscu": "p9 (stem) / p10 (key); native-text PDF extraction.", "mint": "Mints CON-MSK-AF0860139291A3 — see concept/SCU-MS105-concepts-2.md." }
+    },
+    {
+      "key": "mskaxsh-q06",
+      "id": "QST-SCUMS105-MSKAXSH-Q06",
+      "title": "Structure the brachial plexus cords are named relative to",
+      "question": "The cords of the brachial plexus are named according to their position relative to which structure?",
+      "options": { "A": "Clavicle", "B": "Axillary artery", "C": "Humerus", "D": "Subscapularis muscle" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The clavicle separates the plexus's trunks, above it in the neck, from its divisions and cords, below it in the axilla, but the cords are not themselves named for their position relative to the clavicle.",
+        "B": "Correct. The three cords of the brachial plexus, lateral, medial and posterior, are named for their position around the second part of the axillary artery, deep to pectoralis minor. The lateral cord lies lateral to the artery, the medial cord medial to it, and the posterior cord posterior to it. This naming convention makes the artery, not the clavicle or humerus, the anatomical reference point for the cords.",
+        "C": "Incorrect. The humerus is not the reference structure for naming the cords; it becomes relevant more distally, for example in the radial nerve's relationship to the spiral groove.",
+        "D": "Incorrect. Subscapularis is a posterior-wall muscle of the axilla, not the structure the cords are named in relation to."
+      },
+      "subtopic": "Brachial plexus: cord naming",
+      "main_concept": "CON-MSK-C608D59631E713",
+      "concept_ids": ["CON-MSK-C608D59631E713"],
+      "library_ids": ["ART-101-ANA-AXILLA-BREAST"],
+      "learning_objective": "State that the cords of the brachial plexus are named for their position around the second part of the axillary artery.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 6",
+      "field_notes": { "keySource": "answer letter 'B' on the page following the stem", "fomscu": "p11 (stem) / p12 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-C608D59631E713 (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md) — shared with mskaxsh-q11/q12/q13 — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q07",
+      "id": "QST-SCUMS105-MSKAXSH-Q07",
+      "title": "Nerve originating from the posterior cord",
+      "question": "Which nerve originates from the posterior cord of the brachial plexus?",
+      "options": { "A": "Musculocutaneous nerve", "B": "Median nerve", "C": "Radial nerve", "D": "Ulnar nerve" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The musculocutaneous nerve is a terminal branch of the lateral cord, not the posterior cord.",
+        "B": "Incorrect. The median nerve is formed by contributions from both the lateral and medial cords, its two roots, not the posterior cord alone.",
+        "C": "Correct. The radial nerve is the largest branch of the posterior cord of the brachial plexus, carrying root value C5 to T1. It continues the posterior cord's own line, running through the axilla and arm to supply the entire extensor compartment.",
+        "D": "Incorrect. The ulnar nerve is a terminal branch of the medial cord, not the posterior cord."
+      },
+      "subtopic": "Brachial plexus: posterior cord",
+      "main_concept": "CON-MSK-A49B57B03A3610",
+      "concept_ids": ["CON-MSK-A49B57B03A3610"],
+      "library_ids": ["ART-101-ANA-RADIAL-NERVE"],
+      "learning_objective": "State that the radial nerve is the terminal continuation of the posterior cord of the brachial plexus.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 7",
+      "field_notes": { "keySource": "answer letter 'C' on the page following the stem", "fomscu": "p13 (stem) / p14 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-A49B57B03A3610 (docs/Kasr-Source-Imports/concept/101-ISK-concepts.md), shared with mskkhanfour-q05 — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q08",
+      "id": "QST-SCUMS105-MSKAXSH-Q08",
+      "hold": "Contradictory stem/options -- page 15's printed stem is a verbatim duplicate of item 7's ('Which nerve originates from the posterior cord of the brachial plexus?') but its four options are spinal-root levels (C5 and C6, C6 and C7, C7 and C8, C8 and T1), not nerve names, with printed key 'A'. Not a printed-key dispute: the stem asks for a nerve and the options offer root pairs, so no coherent single-best-answer question can be authored from the page as printed. Held per the standing rule (contradictory item).",
+      "field_notes": { "fomscu": "p15 (stem) / p16 (key 'A'); native-text PDF extraction; held, not authored." }
+    },
+    {
+      "key": "mskaxsh-q09",
+      "id": "QST-SCUMS105-MSKAXSH-Q09",
+      "title": "Clinical condition from upper trunk injury",
+      "question": "Injury to the upper trunk of the brachial plexus results in which clinical condition?",
+      "options": { "A": "Klumpke's palsy", "B": "Carpal tunnel syndrome", "C": "Erb's palsy", "D": "Saturday night palsy" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Klumpke's palsy results from injury to the lower trunk (C8, T1), the opposite end of the plexus from the upper trunk.",
+        "B": "Incorrect. Carpal tunnel syndrome is a median nerve compression at the wrist, unrelated to brachial plexus trunk injury.",
+        "C": "Correct. Injury to the upper trunk (C5, C6) of the brachial plexus, classically from excessive lateral displacement of the head with depression of the shoulder during a difficult delivery, produces Erb's (Duchenne-Erb) palsy. The affected muscles give the limb its characteristic porter's-tip posture: an adducted, medially rotated shoulder, an extended elbow, and a pronated forearm.",
+        "D": "Incorrect. 'Saturday night palsy' is a lay term for radial nerve compression in the spiral groove or axilla from prolonged pressure, not an upper trunk brachial plexus injury."
+      },
+      "subtopic": "Brachial plexus: upper trunk injury",
+      "main_concept": "CON-MSK-FD238B6D305E22",
+      "concept_ids": ["CON-MSK-FD238B6D305E22"],
+      "library_ids": ["ART-101-ANA-SHOULDER-REGION"],
+      "question_type": "Application",
+      "reasoning_level": 3,
+      "learning_objective": "Identify Erb's palsy as the clinical condition resulting from upper trunk (C5, C6) brachial plexus injury.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 9",
+      "field_notes": { "keySource": "answer letter 'C' on the page following the stem", "fomscu": "p17 (stem) / p18 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-FD238B6D305E22 (docs/Kasr-Source-Imports/concept/101-ISK-concepts.md) — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q10",
+      "id": "QST-SCUMS105-MSKAXSH-Q10",
+      "title": "Brachial plexus part injured in Klumpke's palsy",
+      "question": "Klumpke's palsy involves damage to which part of the brachial plexus?",
+      "options": { "A": "Lower trunk", "B": "Middle trunk", "C": "Upper trunk", "D": "Posterior cord" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Klumpke's palsy is injury to the lower trunk of the brachial plexus (C8, T1), classically from excessive abduction of the arm with traction on those roots, such as grabbing something while falling. Because C8 and T1 fibres run mainly into the ulnar nerve and supply the small muscles of the hand, the result is a claw hand deformity with sensory loss along the medial arm, forearm and hand.",
+        "B": "Incorrect. The middle trunk, C7 alone, has no dedicated eponymous palsy of its own; it is not the trunk injured in Klumpke's palsy.",
+        "C": "Incorrect. Injury to the upper trunk produces Erb's palsy, the opposite end of the plexus and a different clinical picture, the porter's-tip posture, from Klumpke's claw hand.",
+        "D": "Incorrect. The posterior cord is a later stage of the plexus, formed from all three trunks' posterior divisions, not the trunk-level structure injured in Klumpke's palsy."
+      },
+      "subtopic": "Brachial plexus: lower trunk injury",
+      "main_concept": "CON-MSK-528AA0580391C0",
+      "concept_ids": ["CON-MSK-528AA0580391C0"],
+      "library_ids": ["ART-101-ANA-AXILLA-BREAST"],
+      "learning_objective": "State that Klumpke's palsy results from injury to the lower trunk (C8, T1) of the brachial plexus.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 10",
+      "field_notes": { "keySource": "answer letter 'A' on the page following the stem", "fomscu": "p19 (stem) / p20 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-528AA0580391C0 (docs/Kasr-Source-Imports/concept/101-ISK-concepts.md) — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q11",
+      "id": "QST-SCUMS105-MSKAXSH-Q11",
+      "title": "Branch of the second part of the axillary artery",
+      "question": "Which of the following is a branch of the second part of the axillary artery?",
+      "options": { "A": "Superior thoracic artery", "B": "Subscapular artery", "C": "Lateral thoracic artery", "D": "Anterior circumflex humeral artery" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The superior (highest) thoracic artery is the sole branch of the first part of the axillary artery, proximal to pectoralis minor, not the second part.",
+        "B": "Incorrect. The subscapular artery, the largest branch of the axillary artery, arises from the third part, distal to pectoralis minor.",
+        "C": "Correct. Pectoralis minor divides the axillary artery into three parts. The second part, lying directly behind pectoralis minor, gives two branches: the thoraco-acromial artery and the lateral thoracic artery, the latter running along the lower border of pectoralis minor to supply the breast.",
+        "D": "Incorrect. The anterior circumflex humeral artery arises from the third part of the axillary artery, alongside the posterior circumflex humeral artery, not the second part."
+      },
+      "subtopic": "Axillary artery: branches",
+      "main_concept": "CON-MSK-C608D59631E713",
+      "concept_ids": ["CON-MSK-C608D59631E713"],
+      "library_ids": ["ART-101-ANA-AXILLA-BREAST"],
+      "learning_objective": "State that the lateral thoracic artery is a branch of the second part of the axillary artery.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 11",
+      "field_notes": { "keySource": "answer letter 'C' on the page following the stem", "fomscu": "p21 (stem) / p22 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-C608D59631E713 (docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md) — shared with mskaxsh-q06/q12/q13 — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q12",
+      "id": "QST-SCUMS105-MSKAXSH-Q12",
+      "title": "Largest branch of the axillary artery",
+      "question": "The largest branch of the axillary artery is:",
+      "options": { "A": "Thoracoacromial artery", "B": "Subscapular artery", "C": "Lateral thoracic artery", "D": "Anterior circumflex humeral artery" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The thoraco-acromial artery is a branch of the second part of the axillary artery, but it is a small vessel, not the largest branch overall.",
+        "B": "Correct. The subscapular artery, arising from the third part of the axillary artery, is its largest branch. It gives off the circumflex scapular artery before continuing as the thoracodorsal artery to supply latissimus dorsi.",
+        "C": "Incorrect. The lateral thoracic artery, a second-part branch supplying the breast, is a comparatively small vessel, not the largest branch of the axillary artery.",
+        "D": "Incorrect. The anterior circumflex humeral artery is a small third-part branch contributing to the anastomosis around the surgical neck of the humerus, not the largest branch."
+      },
+      "subtopic": "Axillary artery: branches",
+      "main_concept": "CON-MSK-C608D59631E713",
+      "concept_ids": ["CON-MSK-C608D59631E713"],
+      "library_ids": ["ART-101-ANA-AXILLA-BREAST"],
+      "learning_objective": "State that the subscapular artery is the largest branch of the axillary artery.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 12",
+      "field_notes": { "keySource": "answer letter 'B' on the page following the stem", "fomscu": "p23 (stem) / p24 (key, plus a printed mnemonic 'Infra = Tri, Supra = Bi' relevant to a different item); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-C608D59631E713 — shared with mskaxsh-q06/q11/q13 — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q13",
+      "id": "QST-SCUMS105-MSKAXSH-Q13",
+      "title": "Muscle landmark dividing the axillary artery into three parts",
+      "question": "Which muscle is used as the landmark to divide the axillary artery into three parts?",
+      "options": { "A": "Pectoralis major", "B": "Pectoralis minor", "C": "Subclavius", "D": "Serratus anterior" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pectoralis major lies superficial to the axillary artery throughout its course and is not the muscle used to define its three parts.",
+        "B": "Correct. Pectoralis minor crosses obliquely in front of the axillary artery. It is used as the landmark dividing the artery into three parts: the first part proximal to the muscle, the second part behind it, and the third part distal to it. Each of the three parts has its own characteristic branches, which is why the muscle is the standard reference point for describing them.",
+        "C": "Incorrect. Subclavius lies proximal to the axillary artery's origin, near the clavicle, and plays no role in dividing the artery into its three parts.",
+        "D": "Incorrect. Serratus anterior lies on the medial wall of the axilla, related to the long thoracic nerve, not to the axillary artery's three-part division."
+      },
+      "subtopic": "Axillary artery: parts",
+      "main_concept": "CON-MSK-C608D59631E713",
+      "concept_ids": ["CON-MSK-C608D59631E713"],
+      "library_ids": ["ART-101-ANA-AXILLA-BREAST"],
+      "learning_objective": "State that pectoralis minor is the landmark muscle dividing the axillary artery into its three parts.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 13",
+      "field_notes": { "keySource": "answer letter 'B' on the page following the stem", "fomscu": "p25 (stem) / p26 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-C608D59631E713 — shared with mskaxsh-q06/q11/q12 — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q14",
+      "id": "QST-SCUMS105-MSKAXSH-Q14",
+      "title": "Movement not possible at the shoulder joint",
+      "question": "Which of the following is NOT a movement possible at the shoulder joint?",
+      "options": { "A": "Flexion", "B": "Extension", "C": "Pronation", "D": "Abduction" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the answer. Flexion is a genuine movement of the shoulder (glenohumeral) joint.",
+        "B": "Incorrect as the answer. Extension is a genuine movement of the shoulder joint.",
+        "C": "Correct. Pronation is a rotational movement of the forearm at the proximal and distal radio-ulnar joints, produced by the radius rotating around a fixed ulna. It is not a movement of the shoulder joint at all, which instead performs flexion, extension, abduction, adduction, and medial and lateral rotation.",
+        "D": "Incorrect as the answer. Abduction is a genuine movement of the shoulder joint, contributed to by deltoid, supraspinatus and the scapular rotators through the different parts of its range."
+      },
+      "subtopic": "Shoulder joint: movements",
+      "main_concept": "CON-MSK-B311B2D3290AE7",
+      "concept_ids": ["CON-MSK-B311B2D3290AE7"],
+      "learning_objective": "State that pronation is not a movement of the shoulder joint, since it occurs at the forearm's radio-ulnar joints instead.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 14",
+      "field_notes": { "keySource": "answer letter 'C' on the page following the stem", "fomscu": "p27 (stem) / p28 (key); native-text PDF extraction.", "mint": "Mints CON-MSK-B311B2D3290AE7 — see concept/SCU-MS105-concepts-2.md." }
+    },
+    {
+      "key": "mskaxsh-q15",
+      "id": "QST-SCUMS105-MSKAXSH-Q15",
+      "title": "Nerve injured in anterior shoulder dislocation",
+      "question": "Which nerve is most commonly injured in an anterior dislocation of the shoulder joint?",
+      "options": { "A": "Radial nerve", "B": "Median nerve", "C": "Axillary nerve", "D": "Ulnar nerve" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The radial nerve is instead classically injured by a mid-shaft humeral fracture, where it lies against the bone in the spiral groove, not by shoulder dislocation.",
+        "B": "Incorrect. The median nerve runs well clear of the glenohumeral joint and is not the nerve typically injured by anterior shoulder dislocation.",
+        "C": "Correct. The axillary nerve winds closely around the surgical neck of the humerus, immediately inferior to the shoulder joint capsule, through the quadrangular space. This close relationship makes it the nerve most commonly injured by anterior dislocation of the shoulder, as well as by fracture of the surgical neck or crutch pressure, producing deltoid and teres minor weakness with a numb patch of skin over the lower deltoid.",
+        "D": "Incorrect. The ulnar nerve runs down the medial arm, well away from the shoulder joint capsule, and is not the nerve typically injured by anterior shoulder dislocation."
+      },
+      "subtopic": "Shoulder joint: nerve injury",
+      "main_concept": "CON-MSK-EE022A2043C10F",
+      "concept_ids": ["CON-MSK-EE022A2043C10F"],
+      "library_ids": ["ART-101-ANA-SHOULDER-REGION"],
+      "question_type": "Application",
+      "reasoning_level": 3,
+      "learning_objective": "Identify the axillary nerve as the nerve most commonly injured in anterior dislocation of the shoulder joint.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 15",
+      "field_notes": { "keySource": "answer letter 'C' on the page following the stem", "fomscu": "p29 (stem) / p30 (key); native-text PDF extraction.", "reuse": "Reuses pending concept CON-MSK-EE022A2043C10F (docs/Kasr-Source-Imports/concept/101-ISK-concepts.md) — see pending-live overlay addendum." }
+    },
+    {
+      "key": "mskaxsh-q16",
+      "id": "QST-SCUMS105-MSKAXSH-Q16",
+      "title": "Nerves forming the \"M\" shape of the brachial plexus cords",
+      "question": "The \"M\" shape of the brachial plexus cords is formed by which nerves?",
+      "options": { "A": "Ulnar, Median, and Radial", "B": "Ulnar, Radial, and Musculocutaneous", "C": "Axillary, Radial, and Median", "D": "Median, Ulnar, and Musculocutaneous" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The radial nerve is a posterior-cord branch that lies behind the axillary artery, not part of the anterior \"M\" formed by the lateral and medial cords' terminal branches.",
+        "B": "Incorrect. The radial nerve, again a posterior-cord branch, is not one of the three nerves forming the anterior \"M\"; it lies posterior to the vessels, not part of this anterior pattern.",
+        "C": "Incorrect. The axillary and radial nerves are both posterior-cord branches and take no part in forming the anterior \"M\".",
+        "D": "Correct. On the front of the axillary artery, the musculocutaneous nerve leaves the lateral cord, the two roots of the median nerve converge from the lateral and medial cords, and the ulnar nerve leaves the medial cord. Together these three nerves trace a classic \"M\" shape across the artery, with the median nerve's converging roots forming the central peak. This diagram is a standard dissection landmark for identifying the lateral and medial cords' terminal branches at a glance."
+      },
+      "subtopic": "Brachial plexus: cord terminal branches",
+      "main_concept": "CON-MSK-2B1E44B92E0511",
+      "concept_ids": ["CON-MSK-2B1E44B92E0511"],
+      "learning_objective": "State that the musculocutaneous, median and ulnar nerves form the classic \"M\" shape of the brachial plexus cords' terminal branches.",
+      "source_citation": "FOMSCU Musculoskeletal, Anatomy 03 Questions and QBank, MCQ - Axilla and Shoulder - Nadwat.pdf, item 16",
+      "field_notes": { "keySource": "answer letter 'D' on the page following the stem", "fomscu": "p31 (stem) / p32 (key), p33 closing Arabic sign-off page not counted as an item; native-text PDF extraction.", "mint": "Mints CON-MSK-2B1E44B92E0511 — see concept/SCU-MS105-concepts-2.md." }
+    }
+  ]
+}
