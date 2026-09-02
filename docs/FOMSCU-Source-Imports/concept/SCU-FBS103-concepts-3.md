@@ -162,7 +162,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "mandibular nerve muscles of mastication" — no existing record; a grep for "mandibular nerve" and "muscles of mastication" surfaced Ain Shams's ASU-CNS-3 trigeminal-motor-nucleus record (CON-NEU-4BFE30D065C975, a different fact — see rejected_merge_candidate_ids) and this lane's own SCU-FBS103-s2-mint-concepts.md buccal-nerve record (a different, sensory, branch). Safe to create.
+
 
 ## original_wording
 "The muscles of mastication receive their motor innervation from which of the following nerves? ... Mandibular nerve" (FOMSCU Foundation 2, EOY Final 2025, Q18)
@@ -332,7 +332,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "central and oval nucleus smooth muscle" — no existing record. Safe to create.
+
 
 ## original_wording
 "Which of the following best describes the appearance and position of the nucleus in smooth muscle fibers? ... Central and oval" (FOMSCU Foundation 2, EOM MID 2026, Q53)
@@ -501,7 +501,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "eccentric nucleus macrophage" — no existing record. A grep for "macrophage" surfaced Kasr's 101-ISK "kidney-shaped nucleus" macrophage-identification records (a different feature — outline/shape, not eccentric position). Safe to create.
+
 
 ## original_wording
 "What is the typical position of the nucleus in a macrophage? ... Eccentric" (FOMSCU Foundation 2, Formative 2025, Q1)
@@ -670,7 +670,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "epithelial tissue four basic tissues" — no existing record. Ain Shams's ASU-HCB-epithelium-mcq-concepts.md has a live-adjacent record about epithelium's unique polarity among the four basic tissues (CON-FND-366BDE9995356F) — a different specific fact (polarity, not tissue-category membership) — cross-linked, not merged. Safe to create.
+
 
 ## original_wording
 "Which of the following is considered one of the four basic tissues in the human body? ... Epithelial tissue" (FOMSCU Foundation 2, Formative 2025, Q6)
@@ -840,7 +840,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "walls of blood vessels smooth muscle" — no existing record. Safe to create.
+
 
 ## original_wording
 "Which of the following structures is primarily composed of smooth muscle tissue? ... Walls of the blood vessels" (FOMSCU Foundation 2, Formative 2025, Q13)
@@ -1009,7 +1009,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "virus protein coat nucleic acid" — no existing record. Safe to create.
+
 
 ## original_wording
 "The basic structure of a virus primarily consists of: ... A protein coat and nucleic acid" (FOMSCU Foundation 2, EOM MID 2026, Q17; repeated verbatim in EOY Final 2026, Q17)
@@ -1178,7 +1178,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "gram-positive cell wall thick peptidoglycan" — no existing record. Ain Shams's ASU-INF-microbiology-concepts.md has a related record on teichoic/lipoteichoic acid as Gram-positive-only wall components (CON-INF-7E3B831D71A008), whose own definition states the wall is "thick peptidoglycan" in passing, but its tested/quizzed fact is teichoic acid presence, not "which structure carries the thick layer" against nucleoid/capsule/membrane distractors — cross-linked, not merged.
+
 
 ## original_wording
 "Which structural component of Gram-positive bacteria contains a thick layer of peptidoglycan? ... Cell wall" (FOMSCU Foundation 2, EOM MID 2026, Q19; repeated verbatim in EOY Final 2026, Q19)
@@ -1348,7 +1348,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "sarcodina pseudopodia protozoa" — no existing record. Safe to create.
+
 
 ## original_wording
 "According to its old taxonomic classification, which group of protozoa is characterized by the use of pseudopodia for locomotion? ... Sarcodina" (FOMSCU Foundation 2, EOM MID 2026, Q2; repeated verbatim in EOY Final 2026, Q2)
@@ -1517,7 +1517,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "acetylsalicylic acid aspirin" — no existing record. Safe to create.
+
 
 ## original_wording
 "Aspirin is the brand or common name for which of the following chemical compounds? ... Acetylsalicylic acid" (FOMSCU Foundation 2, EOM MID 2026, Q13; repeated verbatim in EOY Final 2026, Q13)
@@ -1686,7 +1686,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "cross tolerance pharmacology" — no existing record. Safe to create.
+
 
 ## original_wording
 "What term is used to describe the development of tolerance to a specific drug that also results in tolerance to other drugs within the same pharmacological group? ... Cross tolerance" (FOMSCU Foundation 2, EOM MID 2026, Q14; repeated verbatim in EOY Final 2026, Q14)
@@ -1855,7 +1855,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "morphine plant source" — no existing record. Assiut's AUN-MPT-104-concepts.md has a related record on insulin as a drug obtained from more than one source (CON-FND-F468990E215745), which names morphine only as a parenthetical single-source counter-example, not as its own tested fact — cross-linked, not merged.
+
 
 ## original_wording
 "What is the natural source from which morphine is primarily derived? ... Plant source" (FOMSCU Foundation 2, EOM MID 2026, Q48)

@@ -163,7 +163,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "ventral anterior anatomical term" — no existing record. A grep for "ventral" surfaced many unrelated structural facts (ventral root, ventral rami, ventral respiratory group, VPM thalamic nucleus) that use the word as a positional adjective within a specific structure's own fact, not as the bare terminology-definition question tested here. Safe to create.
+
 
 ## original_wording
 "Which anatomical term has the exact same positional meaning as the word anterior? ... Ventral" (FOMSCU Foundation 1, EOY Final 2026, Q1)
@@ -332,7 +332,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "bilateral both sides anatomical term" — no existing record. A grep for "bilateral" surfaced only clinical-fact records that use the word as a descriptor of a specific finding (bilateral renal cysts, bilateral proptosis, bilateral leg oedema), not the bare terminology-definition fact tested here. Safe to create.
+
 
 ## original_wording
 "Which anatomical term is specifically related to both right and left sides of the body? ... Bilateral" (FOMSCU Foundation 1, EOY Final 2026, Q3)
@@ -501,7 +501,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "synergist muscle prime mover" — no existing record. A grep for "synergist" surfaced only unrelated pharmacological/microbiological "synergy between drugs" records (Tadalafil/nitrates, sulfonamide/trimethoprim, daptomycin/ceftaroline) — a different sense of the word entirely, not the muscle-action-role definition tested here. Safe to create.
+
 
 ## original_wording
 "What is the muscle called that assists the prime mover to produce a specific movement? ... Synergist" (FOMSCU Foundation 1, EOY Final 2026, Q11)
@@ -671,7 +671,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "white matter nerve fibers nervous system" — no existing record. Kasr's 103-BMS-mcq-vitamins-nerve-concepts.md names a related but narrower record, CON-NEU-EBD57894496834 ("Spinal white matter contains myelinated nerve fibers and neuroglia"), specifically about spinal-cord white matter composition (fibers plus neuroglia) rather than the general grey-vs-white-matter, fibers-vs-cell-bodies distinction this FOMSCU stem tests — that same Kasr file's own field_notes already flag it as a rejected merge candidate for a similar but distinct myelination concept, confirming the two facts are treated as separate in this corpus. Cross-linked, not merged.
+
 
 ## original_wording
 "Which of the following structural components forms the white matter in the nervous system? ... Fibers" (FOMSCU Foundation 1, EOY Final 2026, Q14)
@@ -841,7 +841,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "medulla oblongata core part brainstem" — no existing record. A grep for "brainstem" and "medulla oblongata" surfaced only unrelated clinical/functional facts about specific brainstem nuclei, tracts and blood supply, none testing the bare gross-anatomy classification (which structures ARE the brainstem) tested here. Safe to create.
+
 
 ## original_wording
 "Which of the following structures is considered a core part of the brainstem? ... Medulla oblongata" (FOMSCU Foundation 1, EOY Final 2026, Q16)
@@ -1010,7 +1010,7 @@ direct_statement
 
 
 ## source_candidate_ids
-find-existing.mjs "morula three days uterine cavity blastocyst" — no existing record. Kasr's 101-ISK-mcq-concepts.md has a related record, CON-DEV-F5A87FDF5D911C, on the same first-week timeline, but its own timing model conflicts with this stem's — see conflicts.
+
 
 ## original_wording
 "The developing morula remains completely free in the uterine cavity for how many days before changing into a blastocyst? ... Three days" (FOMSCU Foundation 1, Formative and Past Exams 2021, Q74; repeated verbatim in 2022, Q53)

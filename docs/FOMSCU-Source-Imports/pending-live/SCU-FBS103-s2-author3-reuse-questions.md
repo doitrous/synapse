@@ -115,6 +115,7 @@ SCU-FBS103 > Histology > Cytoplasmic Organelles
 ## question_only_for
 
 ## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 
 ## resource_ids
 
@@ -254,6 +255,7 @@ SCU-FBS103 > Histology > Connective Tissue Cells
 ## question_only_for
 
 ## library_ids
+ART-101-HIS-CT-CELLS-COMPARED
 
 ## resource_ids
 
@@ -393,6 +395,7 @@ SCU-FBS103 > Microbiology > Mycology
 ## question_only_for
 
 ## library_ids
+ART-FND-208INT-NEOPLASIA-BASICS
 
 ## resource_ids
 
@@ -532,6 +535,7 @@ SCU-FBS103 > Microbiology > Bacterial Virulence
 ## question_only_for
 
 ## library_ids
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY
 
 ## resource_ids
 
@@ -671,6 +675,7 @@ SCU-FBS103 > Microbiology > General Bacteriology
 ## question_only_for
 
 ## library_ids
+ART-INF-GROWTH-REQUIREMENTS-NUTRITION
 
 ## resource_ids
 
@@ -810,6 +815,7 @@ SCU-FBS103 > Microbiology > General Bacteriology
 ## question_only_for
 
 ## library_ids
+ART-INF-CELL-WALL-OUTER-MEMBRANE
 
 ## resource_ids
 
@@ -949,6 +955,7 @@ SCU-FBS103 > Pharmacology > Fundamental Principles of Pharmacokinetics
 ## question_only_for
 
 ## library_ids
+ART-108-PHA-KINETIC-PRINCIPLES
 
 ## resource_ids
 
@@ -1088,6 +1095,7 @@ SCU-FBS103 > Pharmacology > Introduction
 ## question_only_for
 
 ## library_ids
+ART-108-PHA-INTRODUCTION
 
 ## resource_ids
 

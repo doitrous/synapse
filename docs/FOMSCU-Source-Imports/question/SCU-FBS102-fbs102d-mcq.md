@@ -115,6 +115,7 @@ SCU-FBS102 > Anatomy > Introduction to Anatomical Terminology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS102-ANAT-TERMINOLOGY
 
 ## resource_ids
 
@@ -254,6 +255,7 @@ SCU-FBS102 > Anatomy > Introduction to Anatomical Terminology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS102-ANAT-TERMINOLOGY
 
 ## resource_ids
 
@@ -393,6 +395,7 @@ SCU-FBS102 > Anatomy > Muscle Physiology
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS102-ANAT-TERMINOLOGY
 
 ## resource_ids
 
@@ -532,6 +535,7 @@ SCU-FBS102 > Anatomy > Basic Neuroanatomy
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS102-NEU-BRAINSTEM
 
 ## resource_ids
 
@@ -671,6 +675,7 @@ SCU-FBS102 > Anatomy > Basic Neuroanatomy
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS102-NEU-BRAINSTEM
 
 ## resource_ids
 
@@ -810,6 +815,7 @@ SCU-FBS102 > Embryology > First Week
 ## question_only_for
 
 ## library_ids
+ART-SCU-FBS102-EMBRYO-MORULA
 
 ## resource_ids
 
