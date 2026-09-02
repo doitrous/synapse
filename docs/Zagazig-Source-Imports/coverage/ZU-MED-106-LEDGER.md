@@ -1,5 +1,51 @@
 # ZU-MED-106 (Cardiopulmonary) — cps-final-sba cluster ledger
 
+## author2 pass — 3 remaining Priority-4 sources triaged, 0 new MCQs (genuine, not a gap)
+
+Triaged the 3 sources `coverage/ZU-MED-106-triage.md` "Remaining scope" had left untouched
+(`Cardio-Pulmonary Module Final (4).pdf`, `Cardio-Pulmonary Module Final ---Part 2-1.pdf`,
+`all Previous Years ospe Cardiopulmonary (1).pdf`). Result: **0 authorable keyed MCQs** —
+two are 244- and 125-page lecture/study-guide books ("BRIEF IN CLINICAL TEAM"), not exam
+papers despite "Final" in the filename and a `paper`/tier-1 catalog classification; the
+third is a genuine exam but in image-identification OSPE format (no letter options to
+key). Full write-up, including the `pagetext.mjs keys` false-positive trap this pass found
+on the two lecture books, is in `coverage/ZU-MED-106-triage.md` under "The other 3
+Priority-4 Cardiopulmonary sources (author2 pass)".
+
+New seed `coverage/seeds/ZU-MED-106/cps-final4.json` (cluster `cps-final4`) records the 2
+Gaucher-disease case-study MCQs found in `Final (4).pdf` p144 as **held**
+(`held-no-printed-key` — no colour/bold/underline/highlight/hand-mark on any option, so no
+key exists to recover). Triage keys use this pass's corrected `<source-slug>-qNN` format
+(`cps-final4-q01`, `cps-final4-q02`) rather than the original pass's descriptive-slug
+format, so `ledger.mjs --triage` correctly buckets them under `cps-final4` this time
+(verified: `ledger.mjs` output below shows `cps-final4 | 0 | 2 | 0 | 2`, unlike the original
+36 SBA keys, which still all report "remaining" under the pre-existing tool limitation
+noted below — unchanged by this pass).
+
+**Also resolved this pass**: `cps-intra-alveolar-pressure`, the one live-partial hit the
+original triage flagged as "citation only, no full concept" and therefore left out of
+the first pass's 4-way overlay resolution. A second, broader search
+(`find-existing.mjs "alveolar pressure"`, dropping "intra-") found a Kasr 104-CPS *pending*
+concept (`CON-RES-42BC699422FFFA`) whose definition already states the full
+atmospheric/−1 mmHg/+1 mmHg cycle the essay question's "definition and values" objective
+asks for — added as a 6th sparse row to `pending-live/ZU-MED-106-cardiopulmonary-pending-
+overlays.md` (overlay-not-split, same chief-of-staff ruling as the original 4, LANE-CARD.md
+§7). No question is authored against this row — the source item is essay-format (written
+Q4, 3 marks), out of scope for this cluster — the overlay only corrects the ledger's "no
+full concept" note for whoever authors ZU-MED-106's written items next.
+
+```
+node scripts/content/ledger.mjs docs/Zagazig-Source-Imports/coverage/seeds/ZU-MED-106 --triage coverage/ZU-MED-106-triage-keys.txt
+...
+| cps-final-sba | 36 | 0 | ... (still misreports as "remaining" — pre-existing tool limitation, see below)
+| cps-final4    | 0  | 2 | 0 | 2  (correct — new -qNN key format buckets properly)
+## Held
+- cps-final4-q01 — held-no-printed-key — p144 Gaucher disease case study item 1
+- cps-final4-q02 — held-no-printed-key — p144 Gaucher disease case study item 2
+```
+
+## Original pass (author1)
+
 **Tool note (wall found this pass):** `node scripts/content/ledger.mjs docs/Zagazig-Source-Imports/coverage/seeds/ZU-MED-106 --triage coverage/ZU-MED-106-triage-keys.txt`
 reports every one of this cluster's 36 authored keys as "remaining", 0 authored — **not
 accurate**, a tool limitation, not a real gap. `ledger.mjs`'s `clusterForKey()` only strips a
@@ -92,7 +138,7 @@ this pass: posterior cricoarytenoid, thymic epithelial reticular cells, splenic 
 central chemoreceptors). 35 distinct concepts back 36 authored questions (the angiotensin-II
 thirst concept backs 2 identical printed questions, Q14 and Q17).
 
-## Gate summary (this pass)
+## Gate summary (author1 pass)
 
 ```
 GATE batch concept/ZU-MED-106-cardiopulmonary-concepts.md: items=26 errors=0
@@ -103,3 +149,17 @@ GATE batch question/ZU-MED-106-cardiopulmonary-mcq.md: items=36 errors=0
 GATE simulate 13 file(s) (own 5 files + the 6 dependency files the 5 overlay rows target,
   applied in order): batches=13 created=259 updated=10 rejected=0 skipped=0 errors=0
 ```
+
+## Gate summary (author2 pass)
+
+```
+GATE batch pending-live/ZU-MED-106-cardiopulmonary-pending-overlays.md: items=6 errors=0
+GATE simulate 14 file(s) (own 5 files + 9 dependency files across Kasr 104-CPS and
+  Alexandria AU-MED-106 concept+article batches, applied in order — this pass's added
+  6th pending-overlay row plus a full re-check of the other 5): batches=14 created=376
+  updated=87 rejected=0 skipped=0 errors=0
+```
+
+The `cps-final4` seed (2 held items, 0 authored) emits an empty batch — nothing to gate
+(`emit-mcq.mjs` confirmed 0 items written; not committed as a `.md` file since there is
+no content to import).
