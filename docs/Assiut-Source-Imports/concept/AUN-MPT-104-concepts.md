@@ -14779,3 +14779,1858 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "sedating antihistamine impairs driving" -- 0 hits, new concept.
 relationships: this quiz's own correctly-keyed answer (diphenhydramine impairs driving) is the direct pharmacology-fact evidence behind the Q1 (q278) hold, where the printed key wrongly names a sedating antihistamine (meclizine) as appropriate for a patient needing to stay alert.
+
+---
+
+# Item
+
+## id
+CON-FND-37DB89CCC6F059
+
+## label
+Hypoproteinemia is the expected finding with chronic liver disease's leg oedema and ascites
+
+## canonical_key
+edema.hepatic.hypoproteinemia-mechanism
+
+## aliases
+Hepatic oedema mechanism
+Hypoalbuminemia and ascites
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In chronic liver disease, impaired hepatic synthetic function reduces plasma albumin production, producing hypoproteinemia; the resulting fall in plasma oncotic pressure allows fluid to leak from the vasculature into the interstitium and peritoneal cavity, producing bilateral pitting leg oedema and ascites. Leukocytosis, hypertension and hypercalcaemia are not the expected accompanying findings of this hypoalbuminemic mechanism.
+
+## explicit_objective
+State that hypoproteinemia, from impaired hepatic albumin synthesis, is the expected finding accompanying bilateral pitting leg oedema and ascites in chronic liver disease.
+
+## pitfalls
+Assuming hypertension or leukocytosis, rather than hypoproteinemia, is the expected biochemical accompaniment of hepatic (chronic-liver-disease) oedema and ascites.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Oedema mechanisms
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 55 years old man had chronic liver disease. On examination, there is bilateral pitting edema of the leg and ascites. Which of the following findings is most likely to be expected? ... Hypoproteinemia" (Quiz 35 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "hypoproteinemia edema chronic liver disease" -- 0 hits; grep across docs/*-Source-Imports concept dirs for "hypoproteinemia"/"hypoalbuminemia" found unrelated hits (biochemistry/immunology records, not this oedema-mechanism fact). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-E9C75D708151B5
+
+## label
+A collection of fluid beneath the dura is termed a hematoma
+
+## canonical_key
+hemorrhage.subdural.hematoma-terminology
+
+## aliases
+Subdural hematoma terminology
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A localized collection of extravasated blood outside the vessel wall, such as the fluid accumulating beneath the dura after head trauma (a subdural hematoma) and compressing the underlying brain, is termed a hematoma -- distinct from congestion (passive venous engorgement within vessels), petechiae (pinpoint haemorrhages) and ecchymosis (a larger flat bruise), none of which describes a discrete space-occupying collection.
+
+## explicit_objective
+State that a localized extravasated-blood collection, such as a post-traumatic subdural fluid collection compressing the brain, is termed a hematoma, distinguishing it from congestion, petechiae and ecchymosis.
+
+## pitfalls
+Confusing hematoma with petechiae or ecchymosis, both of which describe flat, non-space-occupying skin/subcutaneous bleeding rather than a discrete extravasated-blood collection.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Haemorrhage terminology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"...A head CT scan shows an accumulation of fluid beneath the dura, compressing the left cerebral hemisphere. Which of the following terms best describes this collection of fluid? ... Hematoma" (Quiz 35 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "subdural hematoma fluid dura" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-0CFD7C6059B858
+
+## label
+Ecchymosis is internal (subcutaneous) haemorrhage, not a form of external haemorrhage
+
+## canonical_key
+hemorrhage.classification.external-vs-ecchymosis
+
+## aliases
+External vs internal haemorrhage
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+External haemorrhage describes blood loss that exits the body through a natural passage or surface, such as haematuria (urine), haematemesis (vomit), epistaxis (nose) and haemoptysis (sputum). Ecchymosis, a larger flat subcutaneous bruise from blood extravasating into the skin and soft tissue, remains contained within the body and is therefore a form of internal (not external) haemorrhage, unlike the other four.
+
+## explicit_objective
+Classify ecchymosis as internal (subcutaneous) haemorrhage, distinct from the external-haemorrhage examples haematuria, haematemesis, epistaxis and haemoptysis.
+
+## pitfalls
+Grouping ecchymosis with external haemorrhage because it is visible on the skin surface -- visibility does not equal exit from the body; the blood stays contained subcutaneously.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Haemorrhage classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All are forms of external haemorrhage Except: ... ecchymosis" (Quiz 35 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "ecchymosis internal hemorrhage" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-6AC322F5109ADB
+
+## label
+Lymphatic obstruction is the example of local (not generalized) oedema among cardiac, renal and hepatic causes
+
+## canonical_key
+edema.classification.local-lymphatic-vs-generalized
+
+## aliases
+Local vs generalized oedema
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cardiac, renal and hepatic disease each raise venous/capsular hydrostatic pressure or lower plasma oncotic pressure systemically, producing generalized oedema. Lymphatic obstruction, by contrast, blocks fluid drainage from a specific, localized territory only (e.g. a single limb), producing local rather than generalized oedema -- the example among these four causes.
+
+## explicit_objective
+Identify lymphatic obstruction as an example of local oedema, contrasted with the generalized-oedema mechanisms of cardiac, renal and hepatic disease.
+
+## pitfalls
+Assuming any organ-failure cause of oedema (cardiac, renal, hepatic) is localized rather than generalized -- only a mechanism that blocks drainage from one specific territory, such as lymphatic obstruction, produces local oedema.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Oedema classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"An example of local edema: ... lymphatic" (Quiz 35 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "lymphatic obstruction local edema" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-C771B70391CB03
+
+## label
+Cardiac oedema starts in the legs, the most gravity-dependent site in an ambulant patient
+
+## canonical_key
+edema.cardiac.gravity-dependent-onset-legs
+
+## aliases
+Dependent oedema onset
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cardiac (congestive heart failure) oedema is a gravity-dependent (dependent) oedema: raised systemic venous hydrostatic pressure from right-heart failure pushes fluid out of capillaries preferentially at the most dependent body site, which in an ambulant patient is the legs (ankles), not the chest, hand or face.
+
+## explicit_objective
+State that cardiac oedema begins in the legs, the most gravity-dependent site in an ambulant patient, not the chest, hand or face.
+
+## pitfalls
+Naming a non-dependent site (chest, hand or face) as where cardiac oedema starts -- its gravity-dependent mechanism means the legs are the site of earliest and greatest fluid accumulation in an ambulant patient.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Oedema classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"cardiac edema starts in : ... legs" (Quiz 35 Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "cardiac edema starts in legs" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-1285B5A86515DA
+
+## label
+An exudate clots on standing because of its high fibrinogen (protein) content
+
+## canonical_key
+fluid.exudate.high-protein-clots-on-standing
+
+## aliases
+Exudate vs transudate
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An inflammatory exudate has high protein content, including fibrinogen, which allows the fluid to clot on standing -- unlike a transudate, which has low protein content, a low specific gravity and few cells, and does not clot. Clotting on standing is therefore the characteristic that identifies an exudate among these four options.
+
+## explicit_objective
+State that an exudate clots on standing because of its high, fibrinogen-containing protein content, distinguishing it from a transudate's low-protein, non-clotting profile.
+
+## pitfalls
+Attributing exudate's characteristic properties (poor protein content, low specific gravity, scanty cells) to a transudate instead -- these three describe a transudate, the opposite fluid type.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Exudate vs transudate
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Exudate is characterised by: ... clotting on standing" (Quiz 35 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "exudate clots on standing" -- 0 hits; grep for "exudate" found unrelated hits (immunology/histology records discussing exudate in other contexts, not this specific clotting-on-standing distinguishing fact). New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-82DE35F0E9CF40
+
+## label
+Frequent loss of a small amount of blood over time causes anemia, not shock
+
+## canonical_key
+hemorrhage.chronic.small-repeated-loss-causes-anemia
+
+## aliases
+Chronic blood loss
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Repeated, small-volume blood loss over a long period (e.g. from a chronic bleeding source) does not reduce circulating blood volume acutely enough to trigger shock; instead, the sustained loss of red cell mass and iron over time results in (typically iron-deficiency) anemia. Thrombosis and embolism are unrelated consequences of ongoing external or internal blood loss.
+
+## explicit_objective
+State that frequent, small-volume blood loss over a long period results in anemia, not shock, thrombosis or embolism.
+
+## pitfalls
+Confusing the consequence of chronic small-volume blood loss (anemia) with that of a large, acute haemorrhage (hypovolemic shock) -- the volume and rate of loss determine which of the two occurs.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Haemorrhage consequences
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Frequent loss of a small amount of blood may result in: ... Anemia" (Quiz 35 Q7).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "chronic blood loss anemia" -- 0 hits. New concept. This record is also the direct pathology-fact evidence behind the q298 (Quiz 35 Q15) True/False hold, whose printed answer confirms chronic small blood loss "has effect" (i.e. it does cause anemia).
+
+---
+
+# Item
+
+## id
+CON-FND-D809577C431021
+
+## label
+Cardiac (ascitic) oedema fluid is a low-protein transudate
+
+## canonical_key
+edema.cardiac.ascites-transudate-low-protein
+
+## aliases
+Cardiac ascites transudate
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ascitic fluid of cardiac oedema (from raised systemic/portal venous hydrostatic pressure in right-heart failure) is a transudate: it has low protein content, does not clot on standing, contains few cells, and has a specific gravity below 1015 -- the opposite profile of an inflammatory exudate.
+
+## explicit_objective
+State that cardiac oedema's ascitic fluid is a low-protein transudate (not clotting, few cells, specific gravity under 1015), the hydrostatic-pressure-driven counterpart to an inflammatory exudate.
+
+## pitfalls
+Attributing exudate features (clotting on standing, numerous cells, specific gravity above 1015) to cardiac oedema's ascitic fluid, which is instead a low-protein transudate.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Exudate vs transudate
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-1285B5A86515DA
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In cardiac oedema: ... the ascitic fluid has low protein content" (Quiz 35 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "cardiac ascites transudate low protein" -- 0 hits. New concept.
+relationships: sibling/contrast pair with CON-FND-1285B5A86515DA (this same lecture's exudate concept) -- the two records together cover the exudate-vs-transudate distinction from both directions.
+
+---
+
+# Item
+
+## id
+CON-FND-94AC7220623687
+
+## label
+Malnutrition is the generalized cause of oedema among allergy, acute inflammation and lymphatic obstruction
+
+## canonical_key
+edema.generalized.malnutrition-hypoproteinemia
+
+## aliases
+Generalized oedema causes
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malnutrition lowers plasma protein (albumin) synthesis systemically, reducing plasma oncotic pressure throughout the vasculature and producing generalized oedema. Allergy, acute inflammation and lymphatic obstruction, by contrast, each act at a localized site (a specific reaction, an inflamed area, or a blocked drainage territory), producing local rather than generalized oedema.
+
+## explicit_objective
+Identify malnutrition as a cause of generalized oedema (via systemic hypoproteinemia), contrasted with the localized-oedema mechanisms of allergy, acute inflammation and lymphatic obstruction.
+
+## pitfalls
+Assuming a localized inflammatory or allergic process produces generalized oedema -- only a systemic mechanism such as malnutrition-driven hypoproteinemia does so.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Oedema classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-6AC322F5109ADB
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Oedema is generalized in: ... Malnutrition" (Quiz 35 Q10).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "malnutrition generalized edema" -- 0 hits. New concept.
+relationships: direct contrast pairing with CON-FND-6AC322F5109ADB (this same lecture's local-oedema/lymphatic-obstruction concept).
+
+---
+
+# Item
+
+## id
+CON-FND-19158A048CC02C
+
+## label
+Gangrenous tissue's bad odour comes from hydrogen sulphide produced by putrefactive bacteria
+
+## canonical_key
+gangrene.odour.hydrogen-sulphide-putrefaction
+
+## aliases
+Gangrene odour mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Gangrenous tissue's characteristic bad odour is produced by hydrogen sulphide and other volatile compounds generated by putrefactive bacteria breaking down dead tissue, not simply from the raw quantity of organisms present, the degree of tissue destruction, or the level of systemic toxemia.
+
+## explicit_objective
+State that hydrogen sulphide production by putrefactive bacteria, not organism load, tissue destruction or toxemia alone, is what produces gangrenous tissue's bad odour.
+
+## pitfalls
+Attributing gangrene's bad odour directly to bacterial numbers, tissue destruction or toxemia rather than to the specific putrefactive gas (hydrogen sulphide) these bacteria produce.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Gangrene mechanisms
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The tissue affected by gangrene has a bad odour because of: ... Production of hydrogen sulphide" (Quiz 35 Q11).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "gangrene bad odor hydrogen sulphide" -- 0 hits. New concept. Related to the q300 (Quiz 35 Q17) True/False hold ("Gangrene means necrosis with putrefaction"), whose definitional fact this record's mechanism partially supports.
+
+---
+
+# Item
+
+## id
+CON-FND-87F011172E24D8
+
+## label
+Hemothorax (blood in the pleural cavity) is a form of internal haemorrhage
+
+## canonical_key
+hemorrhage.internal.hemothorax-body-cavity
+
+## aliases
+Internal haemorrhage examples
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Internal haemorrhage describes bleeding contained within a body (serous) cavity, such as hemothorax (blood in the pleural cavity). Haematoma, purpura, ecchymosis and petechiae, by contrast, are skin/subcutaneous bleeding patterns of varying size, not bleeding into a body cavity.
+
+## explicit_objective
+Identify hemothorax as internal haemorrhage (blood within a body cavity), distinguishing it from the skin/subcutaneous bleeding patterns haematoma, purpura, ecchymosis and petechiae.
+
+## pitfalls
+Classifying a subcutaneous bleeding pattern (haematoma, purpura, ecchymosis, petechiae) as internal haemorrhage -- that term is reserved for bleeding into a body cavity such as the pleural, peritoneal or pericardial space.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Haemorrhage classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-0CFD7C6059B858
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a type of internal haemorrhage: ... Hemothorax" (Quiz 35 Q12).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "hemothorax internal hemorrhage" -- 0 hits. New concept.
+relationships: sibling of CON-FND-0CFD7C6059B858 (this same lecture's internal-vs-external haemorrhage classification concept).
+
+---
+
+# Item
+
+## id
+CON-FND-1025F8970116D6
+
+## label
+Lymphatic oedema is non-pitting, unlike cardiac, nutritional and nephritic oedema
+
+## canonical_key
+edema.lymphatic.non-pitting-fibrosis
+
+## aliases
+Non-pitting oedema
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lymphatic oedema is classically non-pitting: the protein-rich fluid that accumulates when lymphatic drainage is obstructed stimulates chronic fibrosis in the affected tissue, so pressure does not leave a persistent indentation. Cardiac, nutritional and nephritic oedema, driven by hydrostatic-pressure or oncotic-pressure mechanisms rather than protein-rich lymphatic stasis, remain pitting.
+
+## explicit_objective
+State that lymphatic oedema is non-pitting (from protein-rich fluid driving tissue fibrosis), unlike the pitting oedema of cardiac, nutritional and nephritic causes.
+
+## pitfalls
+Assuming all oedema is pitting -- lymphatic oedema is the classic non-pitting exception, owing to its protein-rich fluid and fibrotic tissue response.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Oedema classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following type of oedema is non-pitting: ... lymphatic oedema" (Quiz 35 Q13).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "lymphatic oedema non-pitting" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-A24E254A253910
+
+## label
+Volvulus (intestinal torsion) produces moist gangrene via combined venous and arterial occlusion
+
+## canonical_key
+gangrene.moist.volvulus-venous-occlusion
+
+## aliases
+Volvulus gangrene mechanism
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Torsion or twisting of the intestine, as in a volvulus, compresses and occludes both the venous and arterial supply to the affected loop. Because venous outflow is blocked as well as arterial inflow, the bowel becomes engorged with stagnant blood, favouring rapid bacterial putrefaction -- the mechanism of moist, not dry, gas or senile, gangrene.
+
+## explicit_objective
+State that a volvulus produces moist gangrene, since intestinal torsion occludes venous as well as arterial supply, engorging the bowel with stagnant blood and favouring rapid putrefaction.
+
+## pitfalls
+Assuming a mechanical/vascular event such as volvulus produces dry gangrene -- combined arterial-and-venous occlusion, unlike arterial occlusion alone, produces the engorged, rapidly putrefying picture of moist gangrene instead.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Gangrene, heamorhage and edema
+
+## subtopic
+Gangrene mechanisms
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-GANGRENE-HAEMORRHAGE-OEDEMA
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-116B0060AF7B6B
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following types of gangrene occur as a result of torsion or twisting of intestines seen in a volvulus? ... Moist gangrene" (Quiz 35 Q14).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 35 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "volvulus venous gangrene" -- 0 hits. New concept.
+relationships: directly related to the reused CON-FND-116B0060AF7B6B (Kasr 208-INT dry-vs-moist-gangrene demarcation concept, this same lecture's Q9/q292) -- this record supplies the volvulus-specific mechanism example, that one the general dry-vs-moist demarcation contrast.
