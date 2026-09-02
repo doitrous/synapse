@@ -17206,3 +17206,860 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs searched "aliskiren direct renin inhibitor" -- 0 hits; grep for "aliskiren"/"renin inhibitor" found 0 hits across docs/*-Source-Imports concept dirs. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-962C19CA6C839B
+
+## label
+A benign tumour usually shows a mature (well-differentiated) cell population
+
+## canonical_key
+neoplasia.benign.mature-cell-population
+
+## aliases
+Benign tumour histology
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A benign tumour is usually composed of a mature, well-differentiated cell population that closely resembles its tissue of origin, without blood or lymphatic spread, extensive necrosis, or numerous mitotic figures -- features that instead characterise a malignant tumour.
+
+## explicit_objective
+State that a benign tumour usually shows a mature cell population, distinguishing it from the blood/lymphatic spread, necrosis and high mitotic activity of a malignant tumour.
+
+## pitfalls
+Attributing a malignant feature (blood/lymphatic spread, extensive necrosis, many mitotic figures) to a benign tumour, whose defining histological feature is instead a mature, well-differentiated cell population.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: definition and classification
+
+## subtopic
+Benign tumour features
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-DEFINITION-CLASSIFICATION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A benign tumour usually shows: ... mature cell population" (Quiz 37 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 37 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "benign tumour mature differentiated cells" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-02F2597FB9F10A
+
+## label
+A malignant ulcer is characterized by an indurated base
+
+## canonical_key
+neoplasia.malignant-ulcer.indurated-base
+
+## aliases
+Malignant ulcer base
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A malignant ulcer is characterized by an indurated (hard) base, produced by infiltrating malignant tissue -- unlike a punched-out edge (typical of an ischaemic or syphilitic/gummatous ulcer), congestion around the ulcer, or a healthy floor, none of which is the defining feature of malignancy.
+
+## explicit_objective
+State that a malignant ulcer is characterized by an indurated base, distinguishing it from a punched-out edge, surrounding congestion or a healthy floor.
+
+## pitfalls
+Assuming a punched-out edge is the defining feature of a malignant ulcer -- that edge pattern is more typical of an ischaemic or gummatous ulcer, while a malignant ulcer's defining feature is its indurated base.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: definition and classification
+
+## subtopic
+Malignant ulcer features
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-DEFINITION-CLASSIFICATION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-A827F765FDA492
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A malignant ulcer is characterized by: ... indurated base" (Quiz 37 Q2).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 37 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "malignant ulcer indurated base everted edge" -- 0 hits. New concept.
+relationships: paired with CON-FND-A827F765FDA492 (this same lecture's Q4, malignant ulcer edge) -- the two records together cover the malignant-ulcer base-and-edge description.
+
+---
+
+# Item
+
+## id
+CON-FND-8971FF484237C5
+
+## label
+Neoplasia is an autonomous growth that behaves parasitically toward the host
+
+## canonical_key
+neoplasia.definition.autonomous-parasitic-growth
+
+## aliases
+Definition of neoplasia
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Neoplasia is defined as an autonomous (uncontrolled) new growth that, once established, persists independently of the stimulus that initiated it, has no useful function to the host, and escapes normal biological growth control -- behaving parasitically by drawing nutrition from the host without contributing anything useful in return. This is what "autonomous" and "parasitic" mean in the classic definition of neoplasia, distinguishing it from a normal, controlled, functionally useful, stimulus-dependent tissue response.
+
+## explicit_objective
+State that neoplasia is an autonomous growth that behaves parasitically toward the host, without a sustaining stimulus, useful function, or biological control.
+
+## pitfalls
+Assuming neoplastic growth remains dependent on a continuing stimulus, retains a useful function, or stays under normal biological control -- autonomy from all three of these is precisely what defines a neoplasm.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: definition and classification
+
+## subtopic
+Definition of neoplasia
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-DEFINITION-CLASSIFICATION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Neoplasia is an autonomous growth characterized by: ... parasitic" (Quiz 37 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 37 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "neoplasia definition autonomous parasitic growth" -- 0 hits. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-A827F765FDA492
+
+## label
+The edge of a malignant ulcer is raised and everted
+
+## canonical_key
+neoplasia.malignant-ulcer.raised-everted-edge
+
+## aliases
+Malignant ulcer edge
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The edge of a malignant ulcer is raised and everted (rolled outward), produced by the proliferating malignant tissue at its margin -- distinct from a sloping edge (a healing or traumatic/venous ulcer), an undermined edge (classically a tuberculous ulcer), or a punched-out edge (an ischaemic or gummatous ulcer).
+
+## explicit_objective
+State that a malignant ulcer's edge is raised and everted, distinguishing it from the sloping, undermined and punched-out edges of other ulcer types.
+
+## pitfalls
+Confusing a malignant ulcer's raised, everted edge with the undermined edge of a tuberculous ulcer or the punched-out edge of an ischaemic/gummatous ulcer.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: definition and classification
+
+## subtopic
+Malignant ulcer features
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-DEFINITION-CLASSIFICATION
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-02F2597FB9F10A
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.5
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The edge of a malignant ulcer is: ... raised and everted" (Quiz 37 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 37 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "malignant ulcer indurated base everted edge" -- 0 hits. New concept.
+relationships: paired with CON-FND-02F2597FB9F10A (this same lecture's Q2, malignant ulcer base).
+
+---
+
+# Item
+
+## id
+CON-FND-E9841932647962
+
+## label
+Malignant cell nuclei show abnormal mitotic figures
+
+## canonical_key
+neoplasia.malignant-nuclei.abnormal-mitosis
+
+## aliases
+Malignant nuclear features
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The nuclei of malignant cells show abnormal mitotic figures (atypical, sometimes tripolar spindle patterns), reflecting the disordered, excessive cell division that drives malignant growth -- unlike normal nuclear size, a normal nucleus-to-cytoplasm (N/C) ratio, normochromatism, and uniform nuclear shape, which are instead features of benign or normal cells.
+
+## explicit_objective
+State that malignant cell nuclei show abnormal mitotic figures, distinguishing this from the normal size, N/C ratio, chromatin staining and shape of benign or normal nuclei.
+
+## pitfalls
+Attributing normal nuclear features (normal size, normal N/C ratio, normochromatism, uniform shape) to a malignant cell -- these instead describe a benign or normal cell nucleus.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: definition and classification
+
+## subtopic
+Malignant cell nuclear features
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-DEFINITION-CLASSIFICATION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The nuclei of malignant cells show: ... d- abnormal mitosis" (Quiz 37 Q5) -- printed option text carries a stray "d-" prefix (a PDF export artifact matching the option's own letter), cleaned to "Abnormal mitosis" in this record; the marked answer's content is unambiguous.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+CON-FND-D75B95517F50CF
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 37 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "malignant cell nuclei abnormal mitosis" -- 0 hits; grep for "abnormal mitos" found a related but distinct Kasr 208-INT concept (CON-FND-D75B95517F50CF, "Anaplasia... grades a malignant tumor's differentiation") -- that record's focus is the grade-differentiation-anaplasia relationship, using abnormal mitoses as one feature among several, not this record's narrower nuclear-recognition fact; not merged, listed in rejected_merge_candidate_ids. New concept.
+
+---
+
+# Item
+
+## id
+CON-FND-0FAB8FEEC08F4B
+
+## label
+Angioma is the uncapsulated benign tumour among fibroadenoma, neurofibroma, chondroma and lipoma
+
+## canonical_key
+neoplasia.benign-tumour.angioma-uncapsulated
+
+## aliases
+Uncapsulated benign tumour
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Most benign tumours -- fibroadenoma, chondroma and lipoma among them -- grow slowly enough to compress and form a surrounding fibrous capsule. Angioma (a vascular benign tumour/proliferation of blood vessels) characteristically lacks this true capsule, growing instead as an uncapsulated network of vessels within the surrounding tissue, which this teaching point names as the uncapsulated example among the four options.
+
+## explicit_objective
+Identify angioma as the uncapsulated benign tumour among fibroadenoma, neurofibroma, chondroma and lipoma.
+
+## pitfalls
+Assuming every benign tumour is capsulated by definition -- angioma is a recognised exception, growing as an uncapsulated vascular proliferation.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Neoplasia: definition and classification
+
+## subtopic
+Benign tumour capsulation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-NEOPLASIA-DEFINITION-CLASSIFICATION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.4
+
+## confidence
+0.7
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of these benign tumours is uncapsulated ? ... angioma" (Quiz 37 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 37 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source. Neurofibroma is also taught as an uncapsulated benign tumour in some pathology curricula; the source PDF marks angioma specifically as its single correct answer among the five options, so that is what this record follows, but a learner may reasonably encounter neurofibroma cited as uncapsulated elsewhere.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched "angioma uncapsulated benign tumour" -- 0 hits; grep for "uncapsulated"/"capsulat" found only an unrelated hamartoma/choristoma distinction (Kasr 208-INT). New concept.

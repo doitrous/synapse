@@ -3573,3 +3573,165 @@ Block: body
 ### definition_of · CON-FND-DAD9DC4AEE2456
 Quote: aliskiren directly inhibits renin (the first, rate-limiting step, cleaving angiotensinogen to angiotensin I)
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-NEOPLASIA-DEFINITION-CLASSIFICATION
+
+## title
+Neoplasia definition and classification: autonomy, benign vs malignant features, malignant ulcers
+
+## arabic_title
+تعريف وتصنيف الأورام: الاستقلالية، وسمات الورم الحميد والخبيث، والقرحات الخبيثة
+
+## aliases
+Neoplasia: definition and classification
+Lecture 37
+
+## subject
+fnd
+
+## topic
+Neoplasia: definition and classification
+
+## subtopic
+Definition of neoplasia, benign vs malignant tumour features, malignant ulcer description, benign tumour capsulation
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 37 opens the neoplasia block with its core definition and the basic vocabulary for distinguishing benign from malignant growth. Neoplasia is an autonomous, uncontrolled new growth that persists independently of its initiating stimulus, has no useful function, and escapes normal biological growth control -- behaving parasitically toward the host. A benign tumour shows a mature, well-differentiated cell population without blood/lymphatic spread, necrosis or high mitotic activity; a malignant tumour shows the opposite, including abnormal mitotic figures on nuclear histology. A malignant ulcer is described by its indurated base and raised, everted edge, distinguishing it from a healing, tuberculous, ischaemic or gummatous ulcer. Among benign tumours, most form a true fibrous capsule, but angioma is the recognised uncapsulated exception.
+
+## sections
+### Definition
+Neoplasia is defined as an autonomous, uncontrolled new growth that persists independently of its initiating stimulus, has no useful function, and escapes normal biological growth control -- behaving parasitically toward the host by drawing nutrition without contributing anything useful in return. A benign tumour is usually composed of a mature, well-differentiated cell population, while a malignant ulcer shows a raised, everted edge and an indurated base, and malignant cell nuclei show abnormal mitotic figures.
+
+### Mechanism
+A benign tumour grows as a mature, well-differentiated cell population without blood or lymphatic spread, extensive necrosis, or numerous mitotic figures, features instead seen in a malignant tumour. A malignant ulcer's base is indurated by infiltrating tumour, and its edge is raised and everted by the same proliferating margin -- distinct from the sloping edge of a healing/traumatic ulcer, the undermined edge of a tuberculous ulcer, or the punched-out edge of an ischaemic/gummatous ulcer. Malignant cell nuclei show abnormal mitotic figures, reflecting disordered, excessive division, unlike the normal size, N/C ratio, chromatin staining and shape of benign or normal nuclei. Among benign tumours, most (fibroadenoma, chondroma, lipoma) form a true fibrous capsule as they grow slowly, but angioma characteristically lacks this capsule, growing as an uncapsulated vascular proliferation.
+
+### Key determinants
+Neoplasia's autonomy from a sustaining stimulus, useful function or biological control is what makes it "parasitic" toward the host. A benign tumour's mature cell population contrasts with a malignant tumour's blood/lymphatic spread, necrosis and high mitotic activity. A malignant ulcer's indurated base and raised, everted edge together distinguish it from a healing, tuberculous, ischaemic or gummatous ulcer. Angioma, unlike fibroadenoma, neurofibroma, chondroma or lipoma, is the uncapsulated benign tumour example in this teaching scheme.
+
+### Clinical significance
+Recognising a mature cell population as reassuringly benign, versus infiltrative growth, necrosis and high mitotic activity as malignant, guides the urgency of biopsy and referral for a new mass. Palpating an indurated base and a raised, everted edge on a chronic ulcer should raise suspicion for malignancy and prompt biopsy, distinguishing it from a benign healing, tuberculous, ischaemic or gummatous ulcer. Recognising abnormal mitotic figures on histology is part of the standard criteria a pathologist uses to call a lesion malignant.
+
+### Common misconceptions
+Assuming neoplastic growth still depends on a continuing stimulus, retains a useful function, or stays under normal biological control. Attributing a malignant feature (blood/lymphatic spread, necrosis, high mitotic activity) to a benign tumour, or vice versa. Confusing a malignant ulcer's raised, everted edge with the undermined edge of a tuberculous ulcer or the punched-out edge of an ischaemic/gummatous ulcer. Assuming every benign tumour is capsulated, missing angioma as a recognised uncapsulated exception.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Neoplasia is an autonomous, parasitic growth: independent of a sustaining stimulus, without useful function, escaping biological control.
+A benign tumour shows a mature cell population; a malignant tumour shows blood/lymphatic spread, necrosis and high mitotic activity, including abnormal mitotic nuclear figures.
+A malignant ulcer has an indurated base and a raised, everted edge, distinguishing it from healing, tuberculous, ischaemic or gummatous ulcers.
+Most benign tumours are capsulated; angioma is the recognised uncapsulated exception.
+
+## lose_the_mark
+Assuming neoplastic growth depends on a continuing stimulus, has a useful function, or stays under biological control.
+Reversing benign and malignant tumour features (cell maturity vs spread/necrosis/mitotic activity).
+Confusing a malignant ulcer's raised, everted edge with a punched-out, undermined or sloping edge.
+Assuming every benign tumour is capsulated.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-962C19CA6C839B
+CON-FND-02F2597FB9F10A
+CON-FND-8971FF484237C5
+CON-FND-A827F765FDA492
+CON-FND-E9841932647962
+CON-FND-0FAB8FEEC08F4B
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 37 (Neoplasia: definition and classification) -- no department slide deck exists in the corpus past Lecture 8, so all six new mints cite the quiz bank's own printed-answer text instead. Q5 (q315)'s printed option text carried a stray "d-" PDF export artifact bled into the option text ("d- abnormal mitosis"); cleaned to "Abnormal mitosis" since the marked answer and its content are unambiguous.
+
+## annotations
+### definition_of · CON-FND-962C19CA6C839B
+Quote: A benign tumour grows as a mature, well-differentiated cell population without blood or lymphatic spread, extensive necrosis, or numerous mitotic figures
+Block: body
+
+### definition_of · CON-FND-02F2597FB9F10A
+Quote: A malignant ulcer's base is indurated by infiltrating tumour
+Block: body
+
+### definition_of · CON-FND-8971FF484237C5
+Quote: Neoplasia is defined as an autonomous, uncontrolled new growth that persists independently of its initiating stimulus, has no useful function, and escapes normal biological growth control
+Block: body
+
+### definition_of · CON-FND-A827F765FDA492
+Quote: its edge is raised and everted by the same proliferating margin
+Block: body
+
+### definition_of · CON-FND-E9841932647962
+Quote: Malignant cell nuclei show abnormal mitotic figures, reflecting disordered, excessive division
+Block: body
+
+### definition_of · CON-FND-0FAB8FEEC08F4B
+Quote: angioma characteristically lacks this capsule, growing as an uncapsulated vascular proliferation
+Block: body
