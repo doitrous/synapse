@@ -2,7 +2,7 @@
 |---|---:|---:|---:|---:|
 | ini-mcq | 89 | 11 | 0 | 100 |
 | ini-mcq-ch10 | 56 | 30 | 0 | 86 |
-| ini-mcq-ch11 | 83 | 27 | 0 | 110 |
+| ini-mcq-ch11 | 102 | 62 | 0 | 164 |
 | ini-mcq-ch1b | 47 | 14 | 0 | 61 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
 | ini-mcq-ch3 | 21 | 3 | 0 | 24 |
@@ -55,6 +55,41 @@
 - ini-mcq-ch10-q083 — source prints only 3 options (Rodents/Canines(dogs)/Sheep), short of the seed schema's 4-option floor; also a near-duplicate of ini-mcq-ch10-q037 (Helwan pending overlay) -- both test "the definitive host of Echinococcus granulosus" with the same correct fact (dogs)
 - ini-mcq-ch10-q085 — source prints only 3 options (Cysticercus/Plerocercoid/Cysticercoid), short of the seed schema's 4-option floor -- the printed key (B, Plerocercoid, as the EXCEPT) is otherwise textbook-consistent (plerocercoid is a solid, elongated larva, not a fluid-filled cystic one like cysticercus or cysticercoid), but held on option-count grounds
 - ini-mcq-ch10-q086 — duplicate-of ini-mcq-ch10-q053 -- near-verbatim restatement of "Sparganosis is the infection of human tissues by ?", same underlying fact (plerocercoid of Diphyllobothrium mansoni) tested with a differently-shaped option set (adding a Taenia cysticercus distractor and a procercoid-of-D.latum distractor in place of Q53's adult-worm distractors)
+- ini-mcq-ch11-q057 — duplicate-of ini-mcq-ch11-q155 -- identical stem/options (Onchocerca volvulus is called blinding worm)
+- ini-mcq-ch11-q059 — duplicate-of ini-mcq-ch11-q157 -- same fact (Onchocerca volvulus transmitted by Simulium), differing only in OCR-typo'd option spellings
+- ini-mcq-ch11-q060 — duplicate-of ini-mcq-ch11-q158 -- identical stem/options (river blindness due to Onchocerca volvulus)
+- ini-mcq-ch11-q064 — duplicate-of ini-mcq-ch11-q160 -- identical stem/options (Loa loa is the African eye worm)
+- ini-mcq-ch11-q070 — duplicate-of ini-mcq-ch11-q054 -- restates the same fact (Onchocerca volvulus microfilariae are skin-dwelling, not found circulating in blood, hence no periodicity) under an EXCEPT-list-by-detectability framing instead of an EXCEPT-list-by-periodicity framing
+- ini-mcq-ch11-q071 — duplicate-of ini-mcq-ch10-q050 (cross-chapter, already landed) -- same fact (man acts as both intermediate and definitive host for Taenia solium), differing only in the fourth-distractor option set
+- ini-mcq-ch11-q075 — duplicate-of ini-mcq-ch11-q016 -- identical stem/options (Ancylostoma duodenale infection = skin penetration by larva); a third occurrence of this same recycled item after q016 and the already-held q111/q128
+- ini-mcq-ch11-q076 — duplicate-of ini-mcq-ch11-q018 -- same fact (Ancylostoma duodenale inhabits the small intestine, 'inhibits' the source's own typo for 'inhabits'), differing only in the option set
+- ini-mcq-ch11-q077 — duplicate-of ini-mcq-ch11-q021 -- near-verbatim restatement (Ascaris lumbricoides general biology, 'all of the above'); a third occurrence of this same recycled item after q021 and the already-held q130
+- ini-mcq-ch11-q078 — duplicate-of ini-mcq-ch11-q023 -- identical stem/options (Enterobius vermicularis is called the pin worm); a third occurrence of this same recycled item after q023 and the already-held q113/q131
+- ini-mcq-ch11-q079 — duplicate-of ini-mcq-ch11-q142 (already landed) -- restates the same fact (Enterobius vermicularis causes perianal pruritus/nocturnal pruritus ani), differing only in stem wording and option set
+- ini-mcq-ch11-q081 — duplicate-of ini-mcq-ch11-q132 (already landed) -- identical stem/options (infective stage of Ancylostoma duodenale = ensheathed filariform larva); lane 13's own field_notes for q132 flagged this as the same fact as this chapter's then-unauthored Q81, with no anchor to duplicate-of at that time
+- ini-mcq-ch11-q082 — printed key (B, Mature translucent egg) conflicts with this chapter's own already-landed sibling ini-mcq-ch11-q133 (identical stem/options, key A = Immature translucent egg) -- lane 13's own field_notes for q133 flagged this exact conflict in advance; the immature-egg fact is the textbook-correct, already-authored one, so this occurrence is held per the rule that a sibling key conflict is held, matching the q133/q140/q143/q156 precedent
+- ini-mcq-ch11-q083 — duplicate-of ini-mcq-ch11-q134 (already landed) -- identical stem/options (Enterobius vermicularis infective stage = mature egg)
+- ini-mcq-ch11-q084 — duplicate-of ini-mcq-ch11-q135 (already landed) -- identical stem/options (habitat of Ascaris lumbricoides = small intestine)
+- ini-mcq-ch11-q085 — duplicate-of ini-mcq-ch11-q136 (already landed) -- identical stem/options (the Nematodes are round worms)
+- ini-mcq-ch11-q086 — duplicate-of ini-mcq-ch11-q137 (already landed) -- identical stem/options, same source typo ('inhibits' for 'inhabits') (Enterobius vermicularis inhabits the large intestine)
+- ini-mcq-ch11-q087 — duplicate-of ini-mcq-ch11-q138 (already landed) -- identical stem/options (Enterobius vermicularis has no migratory phase to the lung)
+- ini-mcq-ch11-q088 — duplicate-of ini-mcq-ch11-q139 (already landed) -- identical stem/options (Strongyloides stercoralis can live both a parasitic and free-living life)
+- ini-mcq-ch11-q089 — printed key (D, Strongyloides stercoralis) is textbook-correct in isolation, but this chapter's own already-landed sibling ini-mcq-ch11-q140 (identical stem/options) prints a conflicting key (C, Enterobius vermicularis) for the same item; lane 13's own field_notes for q140 named this then-unauthored Q89 in advance as the conflicting sibling. Held per the rule that a sibling key conflict is held, matching the q133/q140/q143/q156 precedent -- flagging as held-printed-key-conflict for Omar.
+- ini-mcq-ch11-q090 — duplicate-of ini-mcq-ch11-q141 (already landed) -- identical stem/options (muscle biopsy is used to diagnose Trichinella spiralis)
+- ini-mcq-ch11-q091 — duplicate-of ini-mcq-ch11-q142 (already landed) -- identical stem/options (Enterobius vermicularis can cause perianal itching)
+- ini-mcq-ch11-q092 — printed key (B, Strongyloides stercoralis) conflicts with this chapter's own already-landed sibling ini-mcq-ch11-q143 (identical stem/options, key A = Trichinella spiralis); lane 13's own field_notes for q143 named this then-unauthored Q92 in advance and flagged the item as genuinely ambiguous besides, since both Trichinella spiralis and Strongyloides stercoralis are truly larviparous (lay live larvae rather than eggs). Held per the rule that a sibling key conflict is held, matching the q133/q140/q143/q156 precedent -- flagging as held-printed-key-conflict for Omar.
+- ini-mcq-ch11-q093 — duplicate-of ini-mcq-ch11-q144 (already landed) -- identical stem/options (Trichinella spiralis enters the host through ingestion of infected food)
+- ini-mcq-ch11-q094 — duplicate-of ini-mcq-ch11-q158 (already landed) -- same fact (river blindness is caused by Onchocerca volvulus), differing only in the fourth-distractor option; a third occurrence of this same fact in this window alongside the already-held q060
+- ini-mcq-ch11-q095 — duplicate-of ini-mcq-ch11-q146 (already landed) -- same fact (Simulium is the arthropod vector of Onchocerca volvulus), reversed stem framing; a fourth occurrence of this same vector fact in this chapter alongside the already-held q059 and the already-landed q146/q157
+- ini-mcq-ch11-q096 — duplicate-of ini-mcq-ch11-q028 -- identical stem/options (Ancylostoma duodenale differs from Necator americanus in geographical distribution)
+- ini-mcq-ch11-q097 — duplicate-of ini-mcq-ch11-q162 (already landed) -- identical stem/options (man infected while walking bare footed on soil EXCEPT Schistosoma)
+- ini-mcq-ch11-q099 — duplicate-of ini-mcq-ch11-q159 (already landed) -- same fact (elephantiasis is caused by Wuchereria bancrofti), differing only in the option set (a 5-option distractor set here vs q159's 4)
+- ini-mcq-ch11-q100 — duplicate-of ini-mcq-ch11-q163 (already landed) -- same four options and key (elephantiasis diagnosed by finding microfilaria in blood), differing only by an added fifth 'All of the above' distractor
+- ini-mcq-ch11-q101 — duplicate-of ini-mcq-ch11-q164 (already landed) -- identical stem/options (arthropod vector of Loa loa = mango fly)
+- ini-mcq-ch11-q105 — printed key (D, All of the above) is doubtful against the stem's own wording, 'the ONLY larval host': Diphyllobothrium latum and Diphyllobothrium mansoni both require Cyclops AND a second, fish, intermediate host, so Cyclops is not truly their 'only' larval host, whereas Dracunculus medinensis genuinely needs no second intermediate host -- the same 'ONLY larval host' wording trap lane 9 already flagged for ini-mcq-ch10-q023 (there too, the printed 'only' key was held rather than resolved by inference); held on the same grounds rather than authored, even though the closely related but differently-worded ini-mcq-ch11-q110 ('acts as intermediate host of', no 'only' qualifier) is authored in this same batch
+- ini-mcq-ch11-q107 — duplicate-of ini-mcq-ch11-q003 -- identical stem/options (Enterobius vermicularis is the commonest cause of nocturnal enuresis in children)
+- ini-mcq-ch11-q108 — duplicate-of ini-mcq-ch11-q005 -- identical stem/options (the following parasites are oviparous EXCEPT Trichinella spiralis)
+- ini-mcq-ch11-q109 — duplicate-of ini-mcq-ch11-q008 (pending Helwan overlay) -- identical stem/options (the following nematodes inhabit the small intestine EXCEPT Trichuris trichiura)
 - ini-mcq-ch11-q111 — duplicate-of ini-mcq-ch11-q016 -- identical stem/options (Ancylostoma duodenale infection = skin penetration by larva)
 - ini-mcq-ch11-q112 — duplicate-of ini-mcq-ch11-q018 -- identical stem/options (Ancylostoma duodenale inhabits the small intestine)
 - ini-mcq-ch11-q113 — duplicate-of ini-mcq-ch11-q023 -- identical stem/options (Enterobius vermicularis is called the pin worm)

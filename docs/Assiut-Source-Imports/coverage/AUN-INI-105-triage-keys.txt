@@ -852,3 +852,57 @@ ini-mcq-ch11-q053  # -- W. bancrofti microfilaria differs from Loa loa's -- new
 ini-mcq-ch11-q054  # -- Onchocerca volvulus microfilariae show no periodicity -- new
 ini-mcq-ch11-q055  # -- adult W. bancrofti worms live in lymph nodes -- pending (Mansoura CON-INF-3DEFB880DFF98F, 2nd use)
 ini-mcq-ch11-q056  # -- Culex transmits W. bancrofti cyclodevelopmentally -- pending (MUST CON-INF-476CFE4CB1DE34)
+ini-mcq-ch11-q057  # -- HELD, duplicate-of ini-mcq-ch11-q155 (Onchocerca volvulus is called blinding worm, identical stem/options)
+ini-mcq-ch11-q058  # -- Onchocerca volvulus microfilariae are subcutaneous -- new (reuses CON-INF-1CE00268409419)
+ini-mcq-ch11-q059  # -- HELD, duplicate-of ini-mcq-ch11-q157 (Onchocerca volvulus transmitted by Simulium, same fact)
+ini-mcq-ch11-q060  # -- HELD, duplicate-of ini-mcq-ch11-q158 (river blindness due to Onchocerca volvulus, identical stem/options)
+ini-mcq-ch11-q061  # -- adult Loa loa inhabits subcutaneous tissue -- new
+ini-mcq-ch11-q062  # -- Calabar swelling is transient, unlike Onchocerca nodule -- new
+ini-mcq-ch11-q063  # -- Ancylostoma is exception to infection by ingestion of larva -- new
+ini-mcq-ch11-q064  # -- HELD, duplicate-of ini-mcq-ch11-q160 (Loa loa is the African eye worm, identical stem/options)
+ini-mcq-ch11-q065  # -- Strongyloides diagnosed by larvae not eggs -- new (reuses CON-INF-A15A4D2A82ECD0)
+ini-mcq-ch11-q066  # -- Trichostrongylus does not invade the lung -- new (reuses CON-INF-873793A1A9183E)
+ini-mcq-ch11-q067  # -- hookworm control = wearing shoes -- new
+ini-mcq-ch11-q068  # -- W. bancrofti infects via larva in mosquito's proboscis -- new (reuses CON-INF-3C9F720722D14E)
+ini-mcq-ch11-q069  # -- Baermann's technique detects Ancylostoma larvae in soil -- new
+ini-mcq-ch11-q070  # -- HELD, duplicate-of ini-mcq-ch11-q054 (Onchocerca microfilariae not detectable in blood, same fact)
+ini-mcq-ch11-q071  # -- HELD, duplicate-of ini-mcq-ch10-q050 (man both intermediate+definitive host = Taenia solium, same fact, cross-chapter)
+ini-mcq-ch11-q072  # -- Strongyloides patients pass larvae in stool -- new (reuses CON-INF-A15A4D2A82ECD0, 2nd use)
+ini-mcq-ch11-q073  # -- nematode attachment organs are teeth or plates -- new
+ini-mcq-ch11-q074  # -- tissue nematode females are larviparous -- new (reuses CON-INF-AB7240400CE546)
+ini-mcq-ch11-q075  # -- HELD, duplicate-of ini-mcq-ch11-q016 (Ancylostoma infection = skin penetration by larva, identical stem/options)
+ini-mcq-ch11-q076  # -- HELD, duplicate-of ini-mcq-ch11-q018 (Ancylostoma inhabits small intestine, same fact)
+ini-mcq-ch11-q077  # -- HELD, duplicate-of ini-mcq-ch11-q021 (Ascaris lumbricoides general biology, all of the above)
+ini-mcq-ch11-q078  # -- HELD, duplicate-of ini-mcq-ch11-q023 (Enterobius called pin worm, identical stem/options)
+ini-mcq-ch11-q079  # -- HELD, duplicate-of ini-mcq-ch11-q142 (Enterobius causes perianal pruritus/nocturnal pruritus ani, same fact)
+ini-mcq-ch11-q080  # -- Enterobius never transmitted by skin penetration -- new
+ini-mcq-ch11-q081  # -- HELD, duplicate-of ini-mcq-ch11-q132 (infective stage of Ancylostoma = ensheathed filariform larva, identical stem/options)
+ini-mcq-ch11-q082  # -- HELD, printed key conflicts with sibling ini-mcq-ch11-q133 (Ancylostoma diagnostic egg immature vs mature, identical stem/options)
+ini-mcq-ch11-q083  # -- HELD, duplicate-of ini-mcq-ch11-q134 (Enterobius infective stage = mature egg, identical stem/options)
+ini-mcq-ch11-q084  # -- HELD, duplicate-of ini-mcq-ch11-q135 (habitat of Ascaris = small intestine, identical stem/options)
+ini-mcq-ch11-q085  # -- HELD, duplicate-of ini-mcq-ch11-q136 (Nematodes are round worms, identical stem/options)
+ini-mcq-ch11-q086  # -- HELD, duplicate-of ini-mcq-ch11-q137 (Enterobius inhabits the large intestine, identical stem/options)
+ini-mcq-ch11-q087  # -- HELD, duplicate-of ini-mcq-ch11-q138 (Enterobius has no migratory phase to the lung, identical stem/options)
+ini-mcq-ch11-q088  # -- HELD, duplicate-of ini-mcq-ch11-q139 (Strongyloides lives both parasitic and free-living life, identical stem/options)
+ini-mcq-ch11-q089  # -- HELD, printed key conflicts with sibling ini-mcq-ch11-q140 (internal autoinfection = Strongyloides vs Enterobius, identical stem/options)
+ini-mcq-ch11-q090  # -- HELD, duplicate-of ini-mcq-ch11-q141 (muscle biopsy diagnoses Trichinella spiralis, identical stem/options)
+ini-mcq-ch11-q091  # -- HELD, duplicate-of ini-mcq-ch11-q142 (Enterobius causes perianal itching, identical stem/options)
+ini-mcq-ch11-q092  # -- HELD, printed key conflicts with sibling ini-mcq-ch11-q143 (lay live larva = Strongyloides vs Trichinella, identical stem/options, also genuinely ambiguous)
+ini-mcq-ch11-q093  # -- HELD, duplicate-of ini-mcq-ch11-q144 (Trichinella enters host by ingestion of infected food, identical stem/options)
+ini-mcq-ch11-q094  # -- HELD, duplicate-of ini-mcq-ch11-q158 (river blindness = Onchocerca volvulus, same fact, 3rd occurrence)
+ini-mcq-ch11-q095  # -- HELD, duplicate-of ini-mcq-ch11-q146 (Simulium is vector of Onchocerca volvulus, same fact, 4th occurrence)
+ini-mcq-ch11-q096  # -- HELD, duplicate-of ini-mcq-ch11-q028 (Ancylostoma differs from Necator in geographical distribution, identical stem/options)
+ini-mcq-ch11-q097  # -- HELD, duplicate-of ini-mcq-ch11-q162 (man infected walking bare footed EXCEPT Schistosoma, identical stem/options)
+ini-mcq-ch11-q098  # -- W. bancrofti overview: vector/infective stage/clinical picture/diagnosis -- new
+ini-mcq-ch11-q099  # -- HELD, duplicate-of ini-mcq-ch11-q159 (elephantiasis caused by W. bancrofti, same fact)
+ini-mcq-ch11-q100  # -- HELD, duplicate-of ini-mcq-ch11-q163 (elephantiasis diagnosed by microfilaria in blood, same fact plus one distractor)
+ini-mcq-ch11-q101  # -- HELD, duplicate-of ini-mcq-ch11-q164 (arthropod vector of Loa loa = mango fly, identical stem/options)
+ini-mcq-ch11-q102  # -- retrofection (Enterobius) vs internal autoinfection (Strongyloides) -- new
+ini-mcq-ch11-q103  # -- man is also a blind host in trichiniasis -- new (reuses ch10's CON-INF-C5335C8176B1C6)
+ini-mcq-ch11-q104  # -- rats are definitive host for H. nana, H. diminuta and Trichinella -- new
+ini-mcq-ch11-q105  # -- HELD, printed 'ONLY larval host' key doubtful (same wording trap as ini-mcq-ch10-q023)
+ini-mcq-ch11-q106  # -- Taenia saginata eggs not infective to man -- new
+ini-mcq-ch11-q107  # -- HELD, duplicate-of ini-mcq-ch11-q003 (Enterobius causes nocturnal enuresis, identical stem/options)
+ini-mcq-ch11-q108  # -- HELD, duplicate-of ini-mcq-ch11-q005 (parasites oviparous EXCEPT Trichinella, identical stem/options)
+ini-mcq-ch11-q109  # -- HELD, duplicate-of ini-mcq-ch11-q008 (nematodes inhabit small intestine EXCEPT Trichuris, identical stem/options)
+ini-mcq-ch11-q110  # -- Cyclops is intermediate host for Dracunculus and both Diphyllobothrium species -- new (reuses ch11c's CON-INF-96D49B675BE976)
