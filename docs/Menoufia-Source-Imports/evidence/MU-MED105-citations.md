@@ -1486,3 +1486,1125 @@ Standard undergraduate cardiovascular teaching, tested directly by the module's 
 
 ## counts_as_claim_evidence
 no
+
+---
+
+<!-- Lane-3 additions below (2026-09-02), one citation per claim above, all locator_type=general (no exact-phrase quote hunted; each fact is standard curriculum teaching directly tested by this cluster's own keyed exam question, named in the matching concept's field_notes). -->
+
+# Item
+
+## id
+CIT-CVS-426BDAEDF23FF3
+
+## claim_id
+CLM-CVS-426BDAEDF23FF3
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate histology fact (blood sinusoids and the spleen's slow, macrophage-mediated red-cell filtering), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Histology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate histology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-A1CABEF78F7DC3
+
+## claim_id
+CLM-CVS-A1CABEF78F7DC3
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate histology fact (the wavy internal elastic lamina identifying a muscular artery), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Histology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate histology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-93386C33A22083
+
+## claim_id
+CLM-CVS-93386C33A22083
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate histology fact (large vein adventitial smooth muscle), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Histology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate histology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-7D3B6519AF9A70
+
+## claim_id
+CLM-CVS-7D3B6519AF9A70
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate head-and-neck anatomy fact (facial artery's tonsillar branch), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, head and neck section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-F98FC7061B98E2
+
+## claim_id
+CLM-CVS-F98FC7061B98E2
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate upper limb anatomy fact (superficial palmar arch formation), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, upper limb section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-1D4229601F06C4
+
+## claim_id
+CLM-CVS-1D4229601F06C4
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate neck anatomy fact (superior thyroid vein drainage into the internal jugular), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, neck section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-9542708C49288F
+
+## claim_id
+CLM-CVS-9542708C49288F
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate upper limb anatomy fact (profunda brachii artery accompanying the radial nerve in the spiral groove), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, upper limb section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-812D4C41C85A2F
+
+## claim_id
+CLM-CVS-812D4C41C85A2F
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate neck anatomy fact (subclavian vein anterior to scalenus anterior, artery posterior), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, root of the neck section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-FD3AF3387766EC
+
+## claim_id
+CLM-CVS-FD3AF3387766EC
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate thoracic anatomy fact (right superior intercostal vein into the azygos arch), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, thorax section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-D4AD9E80701217
+
+## claim_id
+CLM-CVS-D4AD9E80701217
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate lower limb anatomy fact (great saphenous vein anterior to the medial malleolus), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, lower limb section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-9065C501E85979
+
+## claim_id
+CLM-CVS-9065C501E85979
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiac anatomy fact (chordae tendineae preventing AV valve cusp prolapse), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, heart section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-CA0E298E19CEAD
+
+## claim_id
+CLM-CVS-CA0E298E19CEAD
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate cardiac anatomy fact (transverse pericardial sinus behind the great arteries), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, heart section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-D0EBC976A8D99F
+
+## claim_id
+CLM-CVS-D0EBC976A8D99F
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate surface anatomy fact (cardiac apex at the left fifth intercostal space, midclavicular line), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, heart section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-1CD0584522E8BC
+
+## claim_id
+CLM-CVS-1CD0584522E8BC
+
+## resource_id
+src_876c2bd15d1bf71629c5
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate thoracic anatomy fact (SVC spanning the superior and middle mediastinum), consistent with the department's own teaching but not isolated as an exact quoted passage from the Anatomy CVS department book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Anatomy department book, mediastinum section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate anatomy teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-11A1CED5230C0D
+
+## claim_id
+CLM-CVS-11A1CED5230C0D
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (non-bacterial thrombotic/marantic endocarditis in debilitated cancer patients), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-E0F8E645000740
+
+## claim_id
+CLM-CVS-E0F8E645000740
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (Monckeberg medial calcific sclerosis with a patent lumen), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-AF2F860A9D43D5
+
+## claim_id
+CLM-CVS-AF2F860A9D43D5
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (thrombus propagation as ongoing platelet/fibrin deposition), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-7EC2094D5081A6
+
+## claim_id
+CLM-CVS-7EC2094D5081A6
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (late-pregnancy leg oedema from mechanical venous compression), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-DCD446F801232F
+
+## claim_id
+CLM-CVS-DCD446F801232F
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (strangulated-hernia gangrene from combined arterial and venous obstruction), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-9C2C53AAE415CF
+
+## claim_id
+CLM-CVS-9C2C53AAE415CF
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (coagulative necrosis's preserved connective-tissue architecture), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-A6A1D83DD74BC0
+
+## claim_id
+CLM-CVS-A6A1D83DD74BC0
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (aneurysmal varix as venous-wall dilatation from an arteriovenous communication), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-CE2E5976F7BFBF
+
+## claim_id
+CLM-CVS-CE2E5976F7BFBF
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (dissecting aneurysm's hypertension-driven mechanism), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-4A6B6FAE038355
+
+## claim_id
+CLM-CVS-4A6B6FAE038355
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (aortic stenosis as a cause of left-sided heart failure), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-5777FDF4C26257
+
+## claim_id
+CLM-CVS-5777FDF4C26257
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (rheumatic fever's non-erosive arthritis, preserved cartilage), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-2C57180475285E
+
+## claim_id
+CLM-CVS-2C57180475285E
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pathology fact (haemosiderin-driven cardiac cirrhosis from chronic right heart failure), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pathology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pathology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-136EF337EB578B
+
+## claim_id
+CLM-CVS-136EF337EB578B
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pharmacology fact (quinidine as a Class I anti-arrhythmic, sodium-channel blockade), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pharmacology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-E5510D2D844FDB
+
+## claim_id
+CLM-CVS-E5510D2D844FDB
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pharmacology fact (lidocaine sparing AV nodal conduction), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pharmacology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no
+
+---
+
+# Item
+
+## id
+CIT-CVS-DC7789864C39B9
+
+## claim_id
+CLM-CVS-DC7789864C39B9
+
+## resource_id
+src_5ca028d96bdca72569d0
+
+## evidence_role
+local_curriculum
+
+## support_span
+General undergraduate pharmacology fact (quinidine causing cinchonism), consistent with the department's own teaching but not isolated as an exact quoted passage from the Integrated CVS Book.
+
+## locator_type
+general
+
+## locator_page
+
+
+## locator_section
+Pharmacology section
+
+## locator_detail
+General textbook fact, not a page-anchored native-text extraction; see this concept's own evidence_gaps.
+
+## context_note
+Standard undergraduate pharmacology teaching, tested directly by the module's own CVS Final 43 Paper 1 exam question named in this concept's field_notes.
+
+## confidence
+0.5
+
+## counts_as_claim_evidence
+no

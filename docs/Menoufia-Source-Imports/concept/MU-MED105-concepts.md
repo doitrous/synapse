@@ -6870,3 +6870,4751 @@ CON-FND-7E61964BE1D637
 ## field_notes
 never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q74; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
 mu: Tested as "CVS End Module 43.pdf" Q74 ("Which of the following is most likely to have grossly identifiable lines of Zahn:" / arterial Thrombus), yellow-highlight key, rendered p16. Full record is in docs/Helwan-Source-Imports/concept/HU-BMS-102-pathology-family118-part1-concepts.md; simulate with that file as a dependency (its own ## article_ids, ART-HU-BMS102-PAT-THROMBI, has no defining article file yet in this corpus -- a pre-existing gap in the Helwan lane, not fixed here).
+
+---
+
+<!--
+  Lane-3 additions below (2026-09-02), authored for the med105-final43-p1
+  cluster (CVS Final 43 - Paper 1 Answered.pdf, mu_b2fc082f072c18432ad3).
+  1 sparse OVERLAY row (tag-additions only) onto a concept still PENDING in
+  Kasr 104-CPS's own file, found via find-existing.mjs before minting:
+    - CON-CVS-EFDC2163E84213 (Kasr, metarterioles/arteriolar resistance) — q01
+  1 REUSE of a concept already minted in THIS module's own file by an
+  earlier lane (no overlay row needed, already tagged +mu/+MU-MED105 here):
+    - CON-CVS-D6166DE26FC349 (abdominal aorta unpaired branches) — q16
+  28 NEW concepts, self-contained to this lane, grouped into six new
+  articles in article/MU-MED105-articles.md. Evidence (one claim + one
+  citation per new concept) is in evidence/MU-MED105-{claims,citations}.md,
+  citing this module's own two department books (Integrated CVS Book for
+  histology/physiology/pathology/pharmacology facts, Support 43 Anatomy CVS
+  for gross-anatomy facts), per the same resource records used by lane-1/2.
+-->
+
+# Item
+
+## label
+Arterioles are the principal resistance vessels of the systemic circulation, and Poiseuille's law — resistance and flow varying with the fourth power of radius — explains why their smooth-muscle tone has such a powerful effect on local blood flow and total peripheral resistance
+
+## id
+CON-CVS-EFDC2163E84213
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("metarterioles") before minting; hit Kasr 104-CPS's own MCQ concept, which already teaches the identical fact (the metarteriole's precapillary sphincter controls blood flow into the capillary bed) as one sentence within its broader arteriolar-resistance definition.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q1 ("Which vessels regulate the amount of blood going into the capillary bed?" / Metarterioles), yellow-highlight key, rendered p1. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/104-CPS-histology.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Blood sinusoids are wide, thin-walled, slow-flow vessels found in the spleen's red pulp, where the slow transit lets splenic macrophages screen and remove aged or defective red blood cells
+
+## id
+CON-CVS-426BDAEDF23FF3
+
+## canonical_key
+cvs.histology.blood-sinusoids-spleen
+
+## aliases
+Blood sinusoids
+Splenic sinusoids
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Blood sinusoids are wide-calibre, irregular vessels with a thin, often fenestrated or discontinuous wall, distinct from a true capillary's continuous, narrow endothelial tube. Their width and porous wall let blood flow through them slowly compared with a true capillary bed. The spleen's red pulp is the classic sinusoidal bed in the body, built this way so blood lingers in contact with the surrounding macrophage-rich cords long enough for aged, damaged or defective red cells to be identified and removed — the basis of the spleen's red-cell quality-control function. Sinusoids of a similar kind also line the liver and bone marrow, but the spleen is the site tested here.
+
+## explicit_objective
+Identify the spleen's red pulp as the classic site of slow-flow blood sinusoids, and explain why the slow transit supports the spleen's red-cell filtering function.
+
+## pitfalls
+Confusing a sinusoid with a normal true capillary, or assuming any organ with rich blood flow (kidney, fingertip) has sinusoidal circulation — sinusoids are a specific, wide, thin-walled, fenestrated vessel type, not a general description of a well-perfused organ.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+Blood sinusoids
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology
+
+## article_ids
+ART-CVS-MU105-P1-VESSEL-HISTOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.6
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-CVS-426BDAEDF23FF3
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q2: Blood Sinusoids are type of blood vessels where slow circulation occurs, at Which sites it can be seen? / Spleen
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p1 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("blood sinusoids spleen") and a canonical-key grep sweep before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q2, yellow-highlight key, rendered p1.
+
+---
+
+# Item
+
+## label
+A prominent, wavy internal elastic lamina in cross-section is the histological hallmark of a muscular artery such as the basilar artery, distinguishing it from the concentric elastic lamellae of an elastic artery like the aorta
+
+## id
+CON-CVS-A1CABEF78F7DC3
+
+## canonical_key
+cvs.histology.muscular-artery-internal-elastic-lamina
+
+## aliases
+Internal elastic lamina
+Muscular artery identification
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Muscular (medium-sized, distributing) arteries carry a thick, well-developed internal elastic lamina at the junction of the intima and media. Because the vessel wall relaxes after death and during tissue fixation, this lamina buckles into a characteristic wavy line seen in histological cross-section, a feature used to identify a muscular artery such as the basilar artery. This differs from an elastic (large, conducting) artery like the aorta, whose wall is instead dominated by multiple concentric elastic lamellae running throughout the media, not a single prominent lamina at the intima-media junction. It also differs from veins, whose internal elastic lamina, when present at all, is thin and inconspicuous.
+
+## explicit_objective
+Identify a prominent wavy internal elastic lamina in cross-section as the histological hallmark of a muscular artery, and distinguish it from the concentric elastic lamellae of an elastic artery.
+
+## pitfalls
+Confusing the muscular artery's single prominent internal elastic lamina with the elastic artery's multiple concentric elastic lamellae throughout the media — these are two different histological patterns identifying two different artery classes.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+Artery wall classification
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology
+
+## article_ids
+ART-CVS-MU105-P1-VESSEL-HISTOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-A1CABEF78F7DC3
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q3: A prominent internal elastic lamina appearing in cross section as wavy line, is characteristic of which of the following? / Basilar artery
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p1 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("internal elastic lamina wavy") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q3, yellow-highlight key, rendered p1.
+
+---
+
+# Item
+
+## label
+A large vein such as the inferior vena cava has longitudinally-arranged smooth muscle bundles in its thick tunica adventitia, the opposite of an artery's pattern of muscle concentrated in the media
+
+## id
+CON-CVS-93386C33A22083
+
+## canonical_key
+cvs.histology.large-vein-adventitial-smooth-muscle
+
+## aliases
+Large vein wall structure
+IVC histology
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A large vein such as the inferior vena cava has a thin tunica intima and media but a very thick tunica adventitia, which is its dominant, thickest layer — the reverse of the arterial pattern, where the media dominates. This thick adventitia carries longitudinally-arranged smooth muscle bundles, on top of the usual circular muscle of the thin media, giving the wall the mechanical support it needs to resist collapse and stretch despite the vessel's low internal pressure. The thick adventitia also requires its own vasa vasorum for nutrition, since diffusion from the lumen alone is insufficient across such a thick layer.
+
+## explicit_objective
+State that a large vein's defining histological feature is smooth muscle bundles within its thick tunica adventitia, contrasting with an artery's media-dominant muscle pattern.
+
+## pitfalls
+Assuming a vein's smooth muscle is concentrated in the media, as in an artery — a large vein's muscle is instead concentrated in its thick adventitia, the outermost layer.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Histology
+
+## subtopic
+Cardiovascular System
+
+## microtopic
+Vein wall classification
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Histology
+
+## article_ids
+ART-CVS-MU105-P1-VESSEL-HISTOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-93386C33A22083
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q4: Which of the following represents a characteristic finding in the structure of Inferior vena cava (large vein)? / Smooth muscle fibers in the adventitia
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p2 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("large vein tunica adventitia smooth muscle") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q4, yellow-highlight key, rendered p2.
+
+---
+
+# Item
+
+## label
+The main tonsillar artery is a branch of the facial artery, arising as it curves over the superior constrictor muscle to pierce it and reach the palatine tonsil's lower pole
+
+## id
+CON-CVS-7D3B6519AF9A70
+
+## canonical_key
+cvs.anatomy.tonsillar-artery-facial-branch
+
+## aliases
+Tonsillar artery
+Facial artery tonsillar branch
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The palatine tonsil's principal blood supply, the tonsillar artery, is a branch of the facial artery. It arises as the facial artery curves over the upper border of the superior constrictor muscle of the pharynx, piercing that muscle to reach the tonsil's lower pole. Because this vessel is the tonsil's main arterial supply, it is the vessel a surgeon must identify and control during tonsillectomy to avoid significant intraoperative or post-operative haemorrhage. Smaller, inconstant contributions also reach the tonsillar bed from the ascending pharyngeal, lingual and descending palatine arteries, but none of these is the main tonsillar artery.
+
+## explicit_objective
+State that the main tonsillar artery is a branch of the facial artery, reaching the tonsil's lower pole after piercing the superior constrictor muscle.
+
+## pitfalls
+Naming the lingual, ascending pharyngeal or descending palatine artery as the MAIN tonsillar artery — each contributes only a minor, inconstant twig, while the facial artery's branch is the principal, surgically significant vessel.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Head and neck arterial supply
+
+## microtopic
+Tonsillar artery
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-7D3B6519AF9A70
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q7: From which of the following arteries, the main tonsillar artery arises? / Facial
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p2 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("tonsillar artery facial") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q7, yellow-highlight key, rendered p2.
+
+---
+
+# Item
+
+## label
+The superficial palmar arch is formed mainly by the ulnar artery, completed on its lateral side by the superficial palmar branch of the radial artery
+
+## id
+CON-CVS-F98FC7061B98E2
+
+## canonical_key
+cvs.anatomy.superficial-palmar-arch-formation
+
+## aliases
+Superficial palmar arch
+Ulnar artery palmar arch
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The superficial palmar arch, lying just deep to the palmar aponeurosis, is formed principally by the ulnar artery, completed on its lateral (radial) side by the superficial palmar branch of the radial artery. It gives rise to the common palmar digital arteries that supply the fingers. This is the mirror image of the deep palmar arch, which is formed principally by the radial artery and completed by the deep branch of the ulnar artery, so the dominant vessel is reversed between the two arches.
+
+## explicit_objective
+State that the superficial palmar arch is formed mainly by the ulnar artery, completed by the radial artery's superficial palmar branch, and contrast it with the deep arch's reversed dominant vessel.
+
+## pitfalls
+Swapping the two arches' dominant vessels — the superficial arch is ulnar-dominant, the deep arch is radial-dominant, and the two are easy to confuse.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Upper limb arterial supply
+
+## microtopic
+Palmar arches
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-F98FC7061B98E2
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q8: Which of the following is the artery which forms the superficial palmar arch? / The ulnar with a branch from the radial
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p3 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("superficial palmar arch ulnar") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q8, yellow-highlight key, rendered p3.
+
+---
+
+# Item
+
+## label
+The superior thyroid vein drains into the internal jugular vein, directly or via a common trunk with the facial vein
+
+## id
+CON-CVS-1D4229601F06C4
+
+## canonical_key
+cvs.anatomy.superior-thyroid-vein-drainage
+
+## aliases
+Superior thyroid vein
+Thyroid venous drainage
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The superior thyroid vein accompanies the superior thyroid artery upward from the thyroid gland and drains into the internal jugular vein, either directly or via a common trunk shared with the facial vein. The middle thyroid vein takes a similar, short, direct route into the internal jugular vein a little lower down. Both veins are therefore vulnerable to injury near the internal jugular during thyroid surgery. The inferior thyroid veins, by contrast, drain downward into the left brachiocephalic vein, not the internal jugular.
+
+## explicit_objective
+State that the superior thyroid vein drains into the internal jugular vein, and distinguish this from the inferior thyroid veins' separate drainage into the left brachiocephalic vein.
+
+## pitfalls
+Confusing the superior thyroid vein's drainage (internal jugular) with the inferior thyroid veins' drainage (left brachiocephalic vein) — the thyroid's venous outflow does not mirror its arterial inflow one-for-one.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Neck venous drainage
+
+## microtopic
+Thyroid venous drainage
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-1D4229601F06C4
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q9: Into which of the following veins the injured vein [superior thyroid vein] drains? / Internal jugular
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p3 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("superior thyroid vein internal jugular") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q9, yellow-highlight key, rendered p3.
+
+---
+
+# Item
+
+## label
+The profunda brachii artery accompanies the radial nerve through the spiral (radial) groove on the posterior surface of the humerus, so a fracture or injury there classically damages both structures together
+
+## id
+CON-CVS-9542708C49288F
+
+## canonical_key
+cvs.anatomy.profunda-brachii-spiral-groove
+
+## aliases
+Profunda brachii artery
+Radial nerve spiral groove companion vessel
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The profunda brachii (deep brachial) artery arises from the brachial artery and runs with the radial nerve through the spiral (radial) groove on the posterior humeral shaft, supplying the triceps as it goes. Because the nerve and artery travel together through this groove, a mid-shaft humeral fracture or a penetrating injury at this level classically damages both the radial nerve and the profunda brachii artery together, producing wrist drop alongside bleeding from the injured vessel.
+
+## explicit_objective
+State that the profunda brachii artery accompanies the radial nerve through the spiral groove of the humerus, so injury there classically involves both structures.
+
+## pitfalls
+Naming the radial artery, which lies distally in the forearm, as the vessel accompanying the radial nerve in the spiral groove — the companion vessel at that level is the profunda brachii, not the radial artery.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Upper limb neurovascular relations
+
+## microtopic
+Spiral groove neurovascular bundle
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-9542708C49288F
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q12: Injury of the radial nerve in the spiral groove with bleeding from an artery that accompanied the nerve in this groove -- which artery was most likely injured? / Profunda brachii
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p4 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("profunda brachii spiral groove radial nerve") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q12, yellow-highlight key, rendered p4.
+
+---
+
+# Item
+
+## label
+At the root of the neck, the subclavian vein lies anterior (superficial) to scalenus anterior while the subclavian artery lies posterior to the same muscle
+
+## id
+CON-CVS-812D4C41C85A2F
+
+## canonical_key
+cvs.anatomy.subclavian-vein-scalenus-anterior-relation
+
+## aliases
+Subclavian vein position
+Scalenus anterior neurovascular relations
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Scalenus anterior physically separates the subclavian vein from the subclavian artery at the root of the neck: the vein passes anterior to (superficial to) the muscle, while the artery, together with the brachial plexus's roots and trunks, passes posterior to it (between scalenus anterior and scalenus medius). This anterior position is exactly what makes the subclavian vein vulnerable to a superficial penetrating wound at the root of the neck, while the artery, lying deeper, requires the wound to also pass through or around the muscle.
+
+## explicit_objective
+State that the subclavian vein lies anterior (superficial) to scalenus anterior, while the subclavian artery lies posterior to it.
+
+## pitfalls
+Reversing the two vessels' relation to scalenus anterior — the vein is the superficial (anterior) one, the artery the deep (posterior) one, the opposite assignment is a common error.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Root of the neck
+
+## microtopic
+Subclavian vessel relations
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-812D4C41C85A2F
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q14: Bleeding from a vessel that lies superficial to the scalenus anterior muscle -- which vessel would be injured? / Subclavian vein
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p5 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("subclavian vein scalenus anterior") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q14, yellow-highlight key, rendered p5.
+
+---
+
+# Item
+
+## label
+The right superior intercostal vein drains into the arch of the azygos vein, while the left superior intercostal vein drains into the left brachiocephalic vein
+
+## id
+CON-CVS-FD3AF3387766EC
+
+## canonical_key
+cvs.anatomy.superior-intercostal-vein-drainage
+
+## aliases
+Superior intercostal vein
+Azygos arch drainage
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The right superior intercostal vein drains the 2nd-4th right intercostal spaces and ends in the arch of the azygos vein, the point where the azygos vein hooks anteriorly over the root of the right lung just before joining the superior vena cava. The left superior intercostal vein drains the corresponding left-sided spaces but instead crosses the arch of the aorta to join the left brachiocephalic vein, a mirror-image but anatomically distinct pathway from its right-sided counterpart. The azygos vein's own body, further down, receives the lower right intercostal veins directly, separately from this arch-level drainage.
+
+## explicit_objective
+State that the right superior intercostal vein drains into the arch of the azygos vein, contrasting it with the left superior intercostal vein's separate drainage into the left brachiocephalic vein.
+
+## pitfalls
+Assuming the right and left superior intercostal veins drain identically — the right drains into the azygos arch, the left into the left brachiocephalic vein, two different pathways.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Thoracic venous drainage
+
+## microtopic
+Intercostal venous drainage
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-FD3AF3387766EC
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q15: The right superior intercostal vein ends in which of the following veins? / Arch of azygos
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p5 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("superior intercostal vein azygos") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q15, yellow-highlight key, rendered p5.
+
+---
+
+# Item
+
+## label
+The great saphenous vein passes anterior to the medial malleolus as it ascends the leg, a superficial and constant landmark that makes it the classic conduit harvested for coronary artery bypass grafting
+
+## id
+CON-CVS-D4AD9E80701217
+
+## canonical_key
+cvs.anatomy.great-saphenous-vein-medial-malleolus
+
+## aliases
+Great saphenous vein course
+Long saphenous vein
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The great (long) saphenous vein arises from the medial end of the dorsal venous arch of the foot and passes anterior to the medial malleolus as it ascends the leg and thigh to drain into the femoral vein at the saphenofemoral junction. Its superficial, constant course anterior to the medial malleolus makes it an easy, reliable site for venous cannulation, and the same superficial, easily-dissected course through the leg and thigh is what makes it the classic conduit harvested for coronary artery bypass grafting. This is distinct from the small (short) saphenous vein, which instead runs posterior to the lateral malleolus.
+
+## explicit_objective
+State that the great saphenous vein passes anterior to the medial malleolus, and that this superficial course is why it is harvested for coronary bypass grafting.
+
+## pitfalls
+Confusing the great saphenous vein's course (anterior to the medial malleolus) with the small saphenous vein's course (posterior to the lateral malleolus) — the two veins run on opposite sides of the ankle.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Lower limb venous anatomy
+
+## microtopic
+Great saphenous vein
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-ANATOMY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-D4AD9E80701217
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q17: He observed that this vein [greater saphenous vein] runs in which of the following sites? / Anterior to the medial malleolus
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p6 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("great saphenous vein medial malleolus") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q17, yellow-highlight key, rendered p6.
+
+---
+
+# Item
+
+## label
+The chordae tendineae, anchored between the AV valve cusps and the papillary muscles, are pulled taut during ventricular systole and prevent the cusps from prolapsing back into the atrium against the high systolic pressure
+
+## id
+CON-CVS-9065C501E85979
+
+## canonical_key
+cvs.anatomy.chordae-tendineae-prolapse-prevention
+
+## aliases
+Chordae tendineae function
+AV valve prolapse prevention
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The chordae tendineae are tendinous cords running from the free edges of the mitral and tricuspid valve cusps to the papillary muscles of the ventricular wall. When the ventricle contracts, its papillary muscles contract along with it, pulling on the chordae to hold the cusps taut against the closed valve orifice. This tension is exactly what prevents the cusps from ballooning (prolapsing) back into the atrium under the high pressure of ventricular systole. Rupture of a chorda or papillary muscle removes this restraint and is a classic cause of acute mitral (or tricuspid) valve regurgitation.
+
+## explicit_objective
+State that the chordae tendineae, tensioned by papillary muscle contraction, prevent AV valve cusps from prolapsing into the atrium during ventricular systole.
+
+## pitfalls
+Attributing this restraining function to the pectinate muscles or trabeculae carneae, which are unrelated atrial and ventricular wall structures — the chordae tendineae specifically, anchored to the papillary muscles, are what restrain the valve cusps.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Cardiac valve support apparatus
+
+## microtopic
+Chordae tendineae
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VALVES-PERICARDIUM
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-5E6A3445314E64
+CON-CVS-4ABA568F6D69F1
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-9065C501E85979
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q18: Which of the following structures prevents regurgitation of the mitral valve cusps into the left atrium during systole? / Chordae tendineae
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p6 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+Live records CON-CVS-5E6A3445314E64 (tricuspid cusp attachment to chordae) and CON-CVS-4ABA568F6D69F1 (papillary muscle attachment to chordae) were found via find-existing.mjs; both are close in scope (chordae tendineae structure) but neither teaches THIS fact (the cusp-prolapse-prevention function during systole), so this concept was minted rather than overlaid, and both siblings are listed as related_concept_ids instead.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("chordae tendineae") before minting; hit two live concepts about chordae ATTACHMENTS (tricuspid cusp / papillary muscle), a different fact from this one's cusp-prolapse-prevention FUNCTION -- see ## uncertainty above.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q18, yellow-highlight key, rendered p6 (pagetext.mjs keys guessed red-text E here; render shows a clean yellow highlight on D only).
+
+---
+
+# Item
+
+## label
+The transverse pericardial sinus lies behind the ascending aorta and pulmonary trunk, letting a surgeon pass a finger or clamp through it to encircle and cross-clamp the two great arteries together
+
+## id
+CON-CVS-CA0E298E19CEAD
+
+## canonical_key
+cvs.anatomy.transverse-pericardial-sinus
+
+## aliases
+Transverse pericardial sinus
+Great artery cross-clamping
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The transverse pericardial sinus is a passage within the fibrous pericardium that lies behind the ascending aorta and pulmonary trunk (the arterial mesocardium) and in front of the atria and venae cavae. Because it separates the arterial outflow tracts from the venous inflow structures, a surgeon can pass a finger or vascular clamp through this sinus to encircle and cross-clamp the ascending aorta and pulmonary trunk together, a manoeuvre used during cardiopulmonary bypass surgery. This differs from the oblique sinus, a separate pericardial recess that lies behind the left atrium, bounded by the reflections around the pulmonary veins and inferior vena cava, and used to access different structures.
+
+## explicit_objective
+State that the transverse pericardial sinus lies behind the ascending aorta and pulmonary trunk, allowing them to be encircled and clamped together, and distinguish it from the oblique sinus.
+
+## pitfalls
+Confusing the transverse sinus (behind the great arteries, used to clamp them) with the oblique sinus (behind the left atrium, bounded by the great veins) — the two pericardial sinuses have different boundaries and different surgical uses.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Pericardium
+
+## microtopic
+Transverse pericardial sinus
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VALVES-PERICARDIUM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-CA0E298E19CEAD
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q20: Fingers in the transverse pericardial sinus allow a vascular clamp upon which vessels? / Pulmonary trunk and ascending aorta
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p6 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("transverse pericardial sinus") before minting; no existing record matched. This module's own end43-cvs cluster already teaches the OBLIQUE sinus (a different, distinct pericardial recess -- see QST-MUMED105-END43-Q19); not a duplicate.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q20, yellow-highlight key, rendered p6.
+
+---
+
+# Item
+
+## label
+The apex of the heart, formed by the left ventricle, projects to the left fifth intercostal space in the midclavicular line -- the surface landmark for the apex beat
+
+## id
+CON-CVS-D0EBC976A8D99F
+
+## canonical_key
+cvs.anatomy.cardiac-apex-surface-landmark
+
+## aliases
+Apex beat
+Cardiac apex surface projection
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The apex of the heart, formed by the left ventricle, projects onto the anterior chest wall at the left fifth intercostal space in the midclavicular line. This is the classic surface landmark for palpating and auscultating the apex beat (the point of maximal cardiac impulse), and a displaced or diffuse apex beat at this landmark is a clinical sign of left ventricular enlargement. It contrasts with the surface projections of the heart's other borders and valves: the right atrium at the right sternal edge, the aortic valve behind the sternum at the third intercostal space, and the pulmonary valve at the left second intercostal space.
+
+## explicit_objective
+State that the cardiac apex projects to the left fifth intercostal space in the midclavicular line, the surface landmark for the apex beat.
+
+## pitfalls
+Confusing the apex beat's landmark (left fifth intercostal space, midclavicular line) with a valve's own auscultation area -- the apex beat marks the ventricular apex itself, not a valve.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Surface anatomy of the heart
+
+## microtopic
+Apex beat landmark
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VALVES-PERICARDIUM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-D0EBC976A8D99F
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q21: A slight rhythmic pulsation was noted at the left fifth intercostal space in the midclavicular line -- what part of the heart is present at this point? / Apex of the heart
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p7 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("apex beat fifth intercostal midclavicular") before minting; no existing record matched. This module's own end43-cvs Q20 tested the same landmark fact but was HELD (garbled printed stem, per rule 10) -- no concept was ever minted for it, so this is a fresh mint, not a duplicate of an authored item.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q21, yellow-highlight key, rendered p7.
+
+---
+
+# Item
+
+## label
+The superior vena cava spans two mediastinal divisions: its upper part lies in the superior mediastinum, its lower, pericardium-enclosed part in the middle mediastinum
+
+## id
+CON-CVS-1CD0584522E8BC
+
+## canonical_key
+cvs.anatomy.svc-mediastinal-divisions
+
+## aliases
+Superior vena cava mediastinum
+SVC mediastinal location
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The superior vena cava begins behind the first right costal cartilage, within the superior mediastinum, then descends to enter the pericardial sac and drain into the right atrium within the middle mediastinum. It therefore spans both mediastinal divisions rather than sitting wholly within either one, with the mediastinal boundary running directly across its lower course. This differs from the posterior mediastinum, which lies behind the pericardium and contains the oesophagus, descending aorta and azygos system, none of which the SVC passes through.
+
+## explicit_objective
+State that the superior vena cava spans the superior and middle mediastinum, beginning in the former and terminating within the pericardium in the latter.
+
+## pitfalls
+Naming only one mediastinal division for the SVC, or including the posterior mediastinum -- the SVC's course spans exactly the superior and middle divisions, not the posterior one.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-ANA-T04
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Anatomy
+
+## subtopic
+Mediastinum
+
+## microtopic
+SVC mediastinal course
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Anatomy
+
+## article_ids
+ART-CVS-MU105-P1-VALVES-PERICARDIUM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_876c2bd15d1bf71629c5
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-1CD0584522E8BC
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q22: The superior vena cava lies in which of the following mediastinal divisions? / Superior and middle
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p7 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("superior vena cava mediastinum") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q22, yellow-highlight key, rendered p7.
+
+---
+
+# Item
+
+## label
+Non-bacterial thrombotic (marantic) endocarditis produces small, sterile, loosely attached fibrin-and-platelet vegetations along the valve closure line, classically in debilitated or cachectic patients with an underlying hypercoagulable state such as advanced malignancy
+
+## id
+CON-CVS-11A1CED5230C0D
+
+## canonical_key
+cvs.pathology.non-bacterial-thrombotic-endocarditis
+
+## aliases
+Marantic endocarditis
+Non-bacterial thrombotic endocarditis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Non-bacterial thrombotic endocarditis (also called marantic endocarditis) produces small, sterile, loosely attached vegetations of fibrin and platelets along the line of valve closure. It classically occurs in debilitated or cachectic patients with an underlying hypercoagulable state, most often advanced malignancy, and is thought to arise from endothelial injury combined with a hypercoagulable state in the absence of any infecting organism. Because no organism is involved, the vegetations remain sterile on culture, distinguishing this entity from acute or subacute infective endocarditis, both of which are caused by, and contain, an infecting organism.
+
+## explicit_objective
+Identify non-bacterial thrombotic (marantic) endocarditis as sterile, loosely adherent valve vegetations occurring in debilitated cancer patients, and distinguish it from infective and rheumatic endocarditis.
+
+## pitfalls
+Confusing marantic endocarditis with infective endocarditis because both can produce valve vegetations -- the defining difference is that marantic vegetations are sterile (no organism), while infective vegetations are organism-laden.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Endocarditis
+
+## microtopic
+Non-bacterial thrombotic endocarditis
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-11A1CED5230C0D
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q23: Multiple small sterile loosely adherent vegetations over the cardiac valves in a debilitating cancer patient -- most probable type/cause? / Non-bacterial thrombotic endocarditis
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p7 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("non-bacterial thrombotic endocarditis") before minting; no existing record matched. This module's own end43-cvs cluster already teaches infective endocarditis's gross vegetation features (ART-CVS-INFECTIVE-ENDOCARDITIS) -- a different disease entity, not a duplicate.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q23, yellow-highlight key, rendered p7.
+
+---
+
+# Item
+
+## label
+Monckeberg medial calcific sclerosis is calcification confined to the media of a medium-sized muscular artery (classically in the lower limb of an older patient), leaving the lumen patent so the vessel is hard and rigid but not obstructed
+
+## id
+CON-CVS-E0F8E645000740
+
+## canonical_key
+cvs.pathology.monckeberg-medial-calcific-sclerosis
+
+## aliases
+Monckeberg sclerosis
+Medial calcific sclerosis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Monckeberg medial calcific sclerosis is calcification of the muscular media of medium-sized arteries, classically in the lower limb, typically seen in older patients. Because the calcification is confined to the media and does not involve the intima or narrow the lumen, the vessel becomes hard and rigid (a "pipe-stem" artery) on palpation while the lumen itself remains patent and blood flow is not obstructed. This distinguishes it from atherosclerosis, which produces intimal plaques that do narrow or occlude the lumen, and from arteriolosclerosis, which affects small arterioles rather than medium muscular arteries.
+
+## explicit_objective
+Identify Monckeberg medial calcific sclerosis as medial calcification of a medium muscular artery with a preserved, patent lumen, distinct from atherosclerosis.
+
+## pitfalls
+Assuming any hard, calcified artery must have a narrowed lumen, as in atherosclerosis -- Monckeberg sclerosis is specifically defined by a patent lumen despite the calcified, rigid wall.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Arteriosclerosis
+
+## microtopic
+Monckeberg medial calcific sclerosis
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-E0F8E645000740
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q26: Hard and rigid medium sized muscular arteries of lower limb with patent lumen -- diagnosis? / Monkeberg medial calcific sclerosis
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p8 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("monckeberg medial calcific sclerosis") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q26, yellow-highlight key, rendered p8.
+
+---
+
+# Item
+
+## label
+Thrombus propagation is the fate in which a thrombus keeps growing by ongoing deposition of additional platelets and fibrin, trapping more red cells and extending along the vessel, typically towards the heart for a venous thrombus
+
+## id
+CON-CVS-AF2F860A9D43D5
+
+## canonical_key
+cvs.pathology.thrombus-propagation-definition
+
+## aliases
+Thrombus propagation
+Fate of a thrombus
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Propagation is one of the possible fates of a thrombus: the thrombus keeps growing by the ongoing deposition of additional platelets and fibrin, trapping more red cells as it extends along the vessel. For a venous thrombus this means extension proximally, towards the heart, lengthening the original clot rather than replacing it. This growing, often loosely attached column of clot is at particular risk of fragmenting off as an embolus, which is why propagation is a clinically significant fate alongside a thrombus's other possible outcomes: resolution (complete dissolution by the fibrinolytic system), organization (replacement by ingrowing granulation tissue) and recanalization (new channels forming through an organized thrombus).
+
+## explicit_objective
+Define propagation as a thrombus's continued growth by ongoing platelet/fibrin/RBC deposition, extending toward the heart, and distinguish it from resolution, organization and recanalization.
+
+## pitfalls
+Confusing propagation (growth by new deposition) with organization (replacement by granulation tissue) -- these are two different fates a thrombus can undergo, not the same process.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Thrombosis
+
+## microtopic
+Fates of a thrombus
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-FND-2F4E0092DCAF16
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-AF2F860A9D43D5
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q28: Thrombi tend to grow due to deposition of additional platelets, fibrin & RBCs towards the heart -- outcome? / Propagation
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p9 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+CON-FND-2F4E0092DCAF16 (Kasr 208-INT, "site of thrombus propagation") tests a related but different fact -- WHERE propagation happens (leg veins vs artery/aorta/vegetation) -- about the same process this concept DEFINES; listed as a related concept, not merged, since neither fully covers the other.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("thrombus propagation") before minting; hit a Kasr 208-INT question testing a different fact (site of propagation) about the same process -- see ## uncertainty above.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q28, yellow-highlight key, rendered p9.
+
+---
+
+# Item
+
+## label
+Late in pregnancy, the enlarged gravid uterus mechanically compresses the inferior vena cava and pelvic veins, raising venous hydrostatic pressure in the legs and producing bilateral leg oedema despite a normal blood pressure and urine exam
+
+## id
+CON-CVS-7EC2094D5081A6
+
+## canonical_key
+cvs.pathology.pregnancy-venous-hydrostatic-oedema
+
+## aliases
+Pregnancy leg oedema mechanism
+Hydrostatic oedema
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Late in pregnancy, the enlarged gravid uterus mechanically compresses the inferior vena cava and pelvic veins, raising venous hydrostatic pressure in the lower limbs. This simple mechanical rise in hydrostatic pressure pushes fluid out of the capillaries into the interstitium, producing bilateral leg oedema even when blood pressure and urine findings are entirely normal. This distinguishes benign, mechanical late-pregnancy oedema from pre-eclampsia, which instead presents with hypertension and proteinuria, and from oedema caused by decreased oncotic pressure, increased capillary permeability, or salt/water retention, none of which fit a patient with an otherwise normal work-up.
+
+## explicit_objective
+State that late-pregnancy bilateral leg oedema with a normal blood pressure and urine exam reflects mechanical compression of the pelvic veins raising venous hydrostatic pressure, and distinguish it from pre-eclampsia.
+
+## pitfalls
+Assuming any pregnancy-associated oedema signals pre-eclampsia -- a normal blood pressure and urine exam point instead to simple mechanical venous compression, not a hypertensive or renal process.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Oedema mechanisms
+
+## microtopic
+Pregnancy-associated leg oedema
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.55
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-7EC2094D5081A6
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q29: Bilateral lower limb edema in 9th month of pregnancy with normal BP and urine -- mechanism? / Increased hydrostatic pressure
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p9 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("pregnancy leg oedema hydrostatic pressure") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q29, yellow-highlight key, rendered p9 (pagetext.mjs keys guessed red-text E here; render shows a clean yellow highlight on B only).
+
+---
+
+# Item
+
+## label
+Strangulated-hernia gangrene results from combined arterial and venous obstruction at the constricted hernial neck: the thinner-walled vein occludes first causing haemorrhagic pooling, then arterial inflow is also cut off as swelling progresses
+
+## id
+CON-CVS-DCD446F801232F
+
+## canonical_key
+cvs.pathology.strangulated-hernia-gangrene-mechanism
+
+## aliases
+Strangulated hernia gangrene
+Haemorrhagic infarction mechanism
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+In a strangulated hernia, the tight neck of the hernial sac compresses both the artery and vein of the trapped bowel loop. The thinner-walled vein occludes first, causing blood to pool and haemorrhage into the tissue; as swelling within the trapped segment progresses, arterial inflow is also cut off. This combined arterial and venous obstruction produces haemorrhagic (black, gangrenous) infarction of the strangulated segment, distinguishing it from pure arterial obstruction, which instead produces pale, dry (anaemic) infarction without the same haemorrhagic black discolouration.
+
+## explicit_objective
+State that strangulated-hernia gangrene results from combined arterial and venous obstruction at the constricted hernial neck, producing haemorrhagic rather than anaemic infarction.
+
+## pitfalls
+Attributing strangulation gangrene to arterial obstruction alone, as in a typical anaemic infarct -- the haemorrhagic, black appearance specifically reflects venous occlusion happening first, then combined with arterial occlusion.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Infarction and gangrene
+
+## microtopic
+Strangulated hernia gangrene
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-DCD446F801232F
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q31: Strangulated umbilical hernia with development of black spots -- etiological factor? / Arterial and venous obstruction
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("strangulated hernia gangrene") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q31, yellow-highlight key, rendered p10.
+
+---
+
+# Item
+
+## label
+An infarct's basic tissue architecture is preserved in its early phase (coagulative necrosis) because the supporting connective tissue framework survives even though the parenchymal cells themselves die
+
+## id
+CON-CVS-9C2C53AAE415CF
+
+## canonical_key
+cvs.pathology.infarct-architecture-preservation
+
+## aliases
+Coagulative necrosis
+Infarct ghost architecture
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+In coagulative necrosis, the pattern seen in most solid-organ infarcts, the basic outline of the affected tissue is preserved for several days after the infarct occurs. This is because the supporting connective tissue framework -- the collagen and reticulin stroma -- survives even though the parenchymal (functional) cells die. This preserved "ghost" architecture is what allows a pathologist to recognise the outline of a coagulative infarct microscopically before the dead tissue is eventually digested by macrophages and remodelled by granulation tissue and scarring.
+
+## explicit_objective
+State that the supporting connective tissue framework, not the parenchyma, preserves an infarct's architecture in its early phase (coagulative necrosis).
+
+## pitfalls
+Assuming the parenchyma itself is what is preserved after infarction -- it is the parenchyma that dies; the connective tissue stroma is what survives and preserves the tissue outline.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Infarction and coagulative necrosis
+
+## microtopic
+Infarct architecture
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-9C2C53AAE415CF
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q32: The architecture of infarcted tissue is preserved in early phases due to preserved / supporting connective tissue
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("infarct architecture preserved") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q32, yellow-highlight key, rendered p10.
+
+---
+
+# Item
+
+## label
+An aneurysmal varix is an abnormal direct communication between an artery and an adjacent vein, typically post-traumatic, whose resulting aneurysmal dilatation forms as part of the venous wall, not the arterial wall
+
+## id
+CON-CVS-A6A1D83DD74BC0
+
+## canonical_key
+cvs.pathology.aneurysmal-varix
+
+## aliases
+Aneurysmal varix
+Arteriovenous aneurysm
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+An aneurysmal varix is an abnormal direct communication between an artery and an adjacent vein, typically resulting from trauma, through which arterial pressure is transmitted into the vein. The vein wall, not built to withstand arterial pressure, responds by dilating into a pulsatile sac; this dilatation is therefore an aneurysmal change that forms as part of the venous wall itself, not the arterial wall. This distinguishes it from a true aneurysm (atherosclerosis-driven, dilating the arterial wall itself), a dissecting aneurysm (hypertension-driven medial dissection within the arterial wall), a false aneurysm (a contained rupture surrounded by a fibrous capsule), and an inflammatory aneurysm (driven by an inflammatory process in the aortic wall).
+
+## explicit_objective
+Identify an aneurysmal varix as an arteriovenous communication whose aneurysmal dilatation is part of the venous, not arterial, wall, and distinguish it from true, dissecting, false and inflammatory aneurysms.
+
+## pitfalls
+Assuming any pulsatile vascular dilatation is arterial in origin -- an aneurysmal varix's dilatation specifically involves the venous wall, driven by arterial pressure transmitted across an abnormal AV communication.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Aneurysm classification
+
+## microtopic
+Aneurysmal varix
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-CE2E5976F7BFBF
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-A6A1D83DD74BC0
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Match Q35: Aneurysmal varix -- best described by? / Aneurysmal dilatation is part of venous wall
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("aneurysmal varix") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" match item 35, printed answer key (literal letter E in the source's own table), p11.
+
+---
+
+# Item
+
+## label
+A dissecting aneurysm arises when blood tracks into a tear in the aortic intima and dissects along a plane within the weakened media, most classically driven by chronic hypertension
+
+## id
+CON-CVS-CE2E5976F7BFBF
+
+## canonical_key
+cvs.pathology.dissecting-aneurysm-hypertension
+
+## aliases
+Dissecting aneurysm
+Aortic dissection cause
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+A dissecting aneurysm arises when blood tracks into a tear in the aortic intima and dissects along a plane within the weakened media, splitting the wall rather than simply dilating it. Chronic hypertension is the classic driver of this process: the sustained high pressure both predisposes to the underlying cystic medial degeneration and supplies the force that propagates the dissection along the wall. This hypertension-driven mechanism distinguishes a dissecting aneurysm from an atherosclerosis-driven true (fusiform or saccular) aneurysm, and from an aneurysmal varix, whose dilatation instead involves the venous wall following an abnormal arteriovenous communication.
+
+## explicit_objective
+State that hypertension-driven medial degeneration is the classic cause of a dissecting aneurysm, distinguishing it from atherosclerosis-driven true aneurysms.
+
+## pitfalls
+Attributing a dissecting aneurysm to atherosclerosis, as with a true aneurysm -- hypertension and medial degeneration, not atherosclerotic plaque, are the classic drivers of dissection.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Aneurysm classification
+
+## microtopic
+Dissecting aneurysm
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-VASCULAR-PATHOLOGY
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-A6A1D83DD74BC0
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-CE2E5976F7BFBF
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Match Q36: Dissecting aneurysm -- best described by? / Hypertension
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("dissecting aneurysm") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" match item 36, printed answer key (literal letter B in the source's own table), p11.
+
+---
+
+# Item
+
+## label
+Aortic valve stenosis imposes a chronic pressure overload on the left ventricle, driving compensatory hypertrophy and, once exhausted, left-sided heart failure
+
+## id
+CON-CVS-4A6B6FAE038355
+
+## canonical_key
+cvs.pathology.aortic-stenosis-left-heart-failure
+
+## aliases
+Aortic stenosis heart failure
+Left ventricular pressure overload
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Aortic valve stenosis imposes a chronic pressure overload directly on the left ventricle, which must generate higher pressure to eject blood across the narrowed valve. Over time this drives concentric left ventricular hypertrophy as the chamber compensates for the added workload. Once this compensation is exhausted, the overloaded left ventricle dilates and fails, producing left-sided heart failure. This contrasts with mitral stenosis, pulmonary stenosis, emphysema and pulmonary fibrosis, which instead overload the right side of the circulation (raising left atrial/pulmonary pressure without directly overloading the left ventricle, or raising right ventricular afterload) and so cause right-, not left-sided, failure.
+
+## explicit_objective
+State that aortic valve stenosis, via chronic left-ventricular pressure overload, is a cause of left-sided heart failure, distinguishing it from causes of right-sided failure.
+
+## pitfalls
+Grouping aortic stenosis with the causes of right-sided heart failure (mitral stenosis, pulmonary disease, pulmonary stenosis) -- it is the one option among these that directly overloads the LEFT ventricle.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Heart failure
+
+## microtopic
+Left-sided heart failure causes
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-HEART-FAILURE-RHEUMATIC
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-4A6B6FAE038355
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q24: Which one of the following is a cause of left sided heart failure? / Aortic valve stenosis (AS)
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p8 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("left sided heart failure aortic stenosis") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q24, yellow-highlight key, rendered p8.
+
+---
+
+# Item
+
+## label
+The arthritis of acute rheumatic fever is a non-erosive, migratory polyarthritis: the joint is painful and swollen, but the articular cartilage is preserved and the arthritis resolves completely without residual joint damage
+
+## id
+CON-CVS-5777FDF4C26257
+
+## canonical_key
+cvs.pathology.rheumatic-fever-arthritis-non-erosive
+
+## aliases
+Rheumatic fever arthritis
+Migratory polyarthritis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+The arthritis of acute rheumatic fever is a non-erosive, migratory polyarthritis. The synovium is inflamed and the joint is painful and swollen, but the articular cartilage itself is preserved throughout the attack. Because the cartilage is spared, the arthritis resolves completely without any residual joint damage, unlike the carditis of the same illness, which can leave the heart permanently scarred (chronic rheumatic valve disease). This non-erosive, fully-reversible pattern distinguishes rheumatic fever's joint involvement from an erosive arthritis such as rheumatoid arthritis, in which articular cartilage is progressively destroyed.
+
+## explicit_objective
+State that the arthritis of acute rheumatic fever is non-erosive, leaving the articular cartilage preserved and resolving without residual damage, unlike the concurrent carditis.
+
+## pitfalls
+Assuming rheumatic fever's arthritis leaves permanent joint damage, by analogy with its carditis -- the joint disease is fully reversible; only the heart is at risk of lasting scarring.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Rheumatic fever
+
+## microtopic
+Rheumatic arthritis
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-HEART-FAILURE-RHEUMATIC
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-5777FDF4C26257
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q25: Which one of the following is a characteristic feature of Rheumatic arthritis? / Preserved articular cartilage
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p8 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("rheumatic fever articular cartilage") before minting; no existing record matched. This module's own end43-cvs cluster already teaches Mac Callum's patch (rheumatic CARDITIS) -- a different disease component, not a duplicate.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q25, yellow-highlight key, rendered p8.
+
+---
+
+# Item
+
+## label
+Chronic right-sided heart failure raises central venous pressure and produces chronic passive congestion of the liver: centrilobular haemorrhage deposits haemosiderin, and long-standing congestion drives centrilobular fibrosis (cardiac/nutmeg cirrhosis)
+
+## id
+CON-CVS-2C57180475285E
+
+## canonical_key
+cvs.pathology.cardiac-cirrhosis-haemosiderin
+
+## aliases
+Chronic passive congestion of the liver
+Nutmeg liver
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Chronic right-sided heart failure raises central venous pressure, producing chronic passive congestion of the liver: centrilobular sinusoids become engorged, hepatocytes there undergo hypoxic atrophy and haemorrhage, and macrophages break down the extravasated red cells, depositing haemosiderin in the centrilobular zone. This gives the liver its characteristic mottled "nutmeg" appearance grossly. Long-standing congestion of this kind drives centrilobular fibrosis and, eventually, cardiac ("nutmeg") cirrhosis, distinguishing the pigment and mechanism here from bilirubin/biliverdin (jaundice), copper (Wilson disease) or hematin (haemolytic conditions such as malaria).
+
+## explicit_objective
+State that haemosiderin deposition from centrilobular haemorrhage underlies cardiac (nutmeg) liver cirrhosis in chronic right heart failure.
+
+## pitfalls
+Attributing the liver change in chronic right heart failure to bilirubin (jaundice-related) or copper (Wilson disease) pigments -- the specific pigment deposited from centrilobular haemorrhage in chronic passive congestion is haemosiderin.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Chronic venous congestion
+
+## microtopic
+Cardiac (nutmeg) liver cirrhosis
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pathology
+
+## article_ids
+ART-CVS-MU105-P1-HEART-FAILURE-RHEUMATIC
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-2C57180475285E
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q30: Pulmonary hypertension and compensated right sided heart failure with enlarged tender liver -- material responsible for liver cirrhosis? / Hemosiderin
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("hemosiderin liver") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q30, yellow-highlight key, rendered p10.
+
+---
+
+# Item
+
+## label
+Quinidine is a Class I anti-arrhythmic drug, blocking fast voltage-gated sodium channels in cardiac myocytes to slow the action potential's phase 0 upstroke and stabilise the myocardial membrane
+
+## id
+CON-CVS-136EF337EB578B
+
+## canonical_key
+cvs.pharmacology.class-i-antiarrhythmic-quinidine
+
+## aliases
+Class I anti-arrhythmic
+Quinidine mechanism
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Quinidine is a Class I anti-arrhythmic drug: it blocks fast voltage-gated sodium channels in cardiac myocytes, slowing the rate of the action potential's phase 0 upstroke. This membrane-stabilising action slows conduction through the myocardium, the shared mechanism that defines the whole Class I family, of which quinidine is a Class IA member (intermediate sodium-channel blockade with additional potassium-channel effects that prolong the action potential). This contrasts with Class II agents (beta-blockers such as atenolol and propranolol), Class III agents (potassium-channel blockers such as amiodarone) and Class IV agents (calcium-channel blockers such as verapamil), each of which acts through a different channel or receptor.
+
+## explicit_objective
+Identify quinidine as a Class I (sodium-channel blocking) anti-arrhythmic drug, and distinguish the four anti-arrhythmic drug classes by their mechanism.
+
+## pitfalls
+Assigning quinidine to Class III alongside amiodarone because both affect the action potential's repolarisation -- quinidine's PRIMARY, class-defining action is fast sodium-channel blockade (Class I), not the potassium-channel blockade that defines Class III.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Anti-arrhythmic drug classification
+
+## microtopic
+Class I anti-arrhythmics
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-P1-ANTIARRHYTHMIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-DC7789864C39B9
+CON-CVS-E5510D2D844FDB
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.6
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-CVS-136EF337EB578B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q33: Which of the following drugs are Class I anti-arrhythmic drugs? / Quinidine
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("class I antiarrhythmic quinidine") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q33, yellow-highlight key, rendered p10.
+
+---
+
+# Item
+
+## label
+Lidocaine (Class IB) acts preferentially on depolarised ventricular tissue and has little effect on AV nodal conduction, unlike beta-blockers, digitalis and verapamil, which all slow AV nodal conduction
+
+## id
+CON-CVS-E5510D2D844FDB
+
+## canonical_key
+cvs.pharmacology.lidocaine-spares-av-conduction
+
+## aliases
+Lidocaine AV conduction
+Drugs sparing the AV node
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Lidocaine is a Class IB sodium-channel blocker that acts preferentially on depolarised, especially ischaemic, ventricular tissue. It has little effect on the AV node's own calcium-dependent conduction, a different electrical mechanism from the fast sodium channels lidocaine targets. This sets it apart from beta-blockers (esmolol, propranolol), which slow AV conduction by reducing sympathetic drive to the node; digitalis, which slows AV conduction by increasing vagal tone; and verapamil, a calcium-channel blocker that acts directly on the node's calcium-dependent action potential -- all four of which do decrease AV nodal conduction, unlike lidocaine.
+
+## explicit_objective
+State that lidocaine, unlike beta-blockers, digitalis and verapamil, does not significantly decrease AV nodal conduction, because it targets ventricular sodium channels rather than the AV node's calcium-dependent conduction.
+
+## pitfalls
+Grouping lidocaine with the other rate-slowing antiarrhythmics because all are used in arrhythmia -- lidocaine specifically spares the AV node, acting instead on ventricular tissue, the opposite pharmacological target from the other four drugs.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+AV nodal conduction pharmacology
+
+## microtopic
+Lidocaine and the AV node
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-P1-ANTIARRHYTHMIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-136EF337EB578B
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-E5510D2D844FDB
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q34: All of the following drugs decrease AV conduction EXCEPT: / Lidocaine
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("lidocaine AV conduction") before minting; no existing record matched. This module's own end43-cvs cluster already teaches digoxin's AV-conduction-decreasing effect (a different drug, complementary fact) -- not a duplicate.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q34, yellow-highlight key, rendered p11.
+
+---
+
+# Item
+
+## label
+Quinidine, like its parent compound quinine, can cause cinchonism, a dose-related toxicity syndrome of tinnitus, headache, dizziness, blurred vision and gastrointestinal upset
+
+## id
+CON-CVS-DC7789864C39B9
+
+## canonical_key
+cvs.pharmacology.quinidine-cinchonism
+
+## aliases
+Cinchonism
+Quinidine adverse effects
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Quinidine, like its parent compound quinine, can produce cinchonism, a dose-related toxicity syndrome whose features are tinnitus, headache, dizziness, blurred vision and gastrointestinal upset. The syndrome is named for cinchona bark, the original source of quinine-family drugs, and is one of the classic adverse-effect associations tested for this drug. This distinguishes quinidine's adverse-effect profile from that of the other listed anti-arrhythmics: amiodarone (pulmonary fibrosis, thyroid dysfunction, corneal deposits), and the beta-blockers and calcium-channel blocker (bradycardia and their own class-specific effects), none of which cause cinchonism.
+
+## explicit_objective
+State that quinidine can cause cinchonism (tinnitus, headache, dizziness, blurred vision, GI upset), and name cinchona bark as the syndrome's origin.
+
+## pitfalls
+Confusing cinchonism with the adverse effects of the other Class-differing anti-arrhythmics listed alongside quinidine (amiodarone's pulmonary/thyroid effects, or beta-blocker/calcium-channel-blocker bradycardia) -- cinchonism is specifically a quinidine/quinine-family toxicity.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Anti-arrhythmic drug adverse effects
+
+## microtopic
+Cinchonism
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS Final 43 - Paper 1 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-P1-ANTIARRHYTHMIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-CVS-136EF337EB578B
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.6
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-CVS-DC7789864C39B9
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q37: Which of the following drugs can induce cinchonism as an adverse effect? / Quinidine
+
+## exam_signal
+mu_b2fc082f072c18432ad3 | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs ("cinchonism") before minting; no existing record matched.
+mu: Tested as "CVS Final 43 - Paper 1 Answered.pdf" Q37, red text (printed, no highlight needed), p11.
+
+---
