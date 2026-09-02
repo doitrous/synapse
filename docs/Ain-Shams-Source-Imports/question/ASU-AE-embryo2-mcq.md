@@ -6793,3 +6793,2596 @@ yes
 ## author_notes
 keySource: printed answer table p.14 row 50 = b
 asu: Embryo2 p.9 Q50.
+
+---
+
+# Item
+
+## id
+QST-OBS-ASU-AE-EMBRYO2-PLACENTA-ABNORMALITY-DUE-TO-IMPLANTATION-Q51
+
+## title
+Placental abnormality due to abnormal implantation
+
+## question
+Which of the following abnormalities of the placenta is due to an abnormality in implantation?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Battledore placenta
+
+## explanation_a
+Incorrect. Battledore placenta is a cord-insertion abnormality (marginal cord attachment), not a consequence of where the blastocyst implanted.
+
+## answer_b
+Accessory placenta
+
+## explanation_b
+Incorrect. An accessory (succenturiate) placenta is a shape/number abnormality of villous development, not directly a consequence of implantation site.
+
+## answer_c
+Bipartite placenta
+
+## explanation_c
+Incorrect. A bipartite placenta, like an accessory lobule, is a shape/number abnormality, not an implantation-site abnormality.
+
+## answer_d
+Placenta praevia
+
+## explanation_d
+Correct. Placenta praevia results directly from an abnormality of implantation site. The blastocyst implants in the lower part of the uterus rather than its normal, higher position. This distinguishes it from the other listed abnormalities, which are shape/number or cord-insertion anomalies rather than site abnormalities.
+
+## answer_e
+Tripartite placenta
+
+## explanation_e
+Incorrect. A tripartite placenta, like bipartite, is a shape/number abnormality, not an implantation-site abnormality.
+
+## topic
+Embryology - Placenta
+
+## subtopic
+Placenta praevia
+
+## main_concept
+CON-OBS-14805E77091C30
+
+## concept_ids
+CON-OBS-14805E77091C30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-OBS-ASU-AE-EMBRYO2-PREGNANCY-COMPLICATIONS-BASICS
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that placenta praevia is the placental abnormality due to abnormal implantation site.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.14 row 51 = d
+asu: Embryo2 p.9 Q51.
+
+---
+
+# Item
+
+## id
+QST-OBS-ASU-AE-EMBRYO2-CONJOINT-TWINS-ARE-MZ-Q52
+
+## title
+Incorrect statement about twins
+
+## question
+As regards the twins, choose the INCORRECT statement:
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+They may be monozygotic or dizygotic
+
+## explanation_a
+Incorrect (i.e. this statement is TRUE). Twins may indeed arise from a single zygote splitting (monozygotic) or from two separately fertilised oocytes (dizygotic).
+
+## answer_b
+Conjoint twins are dizygotic twins
+
+## explanation_b
+Correct (i.e. this statement is FALSE, the one to choose). Conjoined twinning is a monozygotic phenomenon, arising from incomplete separation of a single embryonic disc -- dizygotic (two-zygote) twins are never conjoined.
+
+## answer_c
+Monozygotic twins have always identical sex & blood groups
+
+## explanation_c
+Incorrect (i.e. this statement is TRUE). Sharing identical genetic material, monozygotic twins always have identical sex and blood groups.
+
+## answer_d
+Dizygotic twins may have identical sex & blood groups
+
+## explanation_d
+Incorrect (i.e. this statement is TRUE). Dizygotic twins, like any siblings, may by chance share the same sex and blood groups even though they arise from separate zygotes.
+
+## answer_e
+Monozygotic twins may have 2 amniotic sacs
+
+## explanation_e
+Incorrect (i.e. this statement is TRUE). Depending on when the single zygote splits, monozygotic twins may share one amniotic sac or have two separate ones.
+
+## topic
+Embryology - Twinning
+
+## subtopic
+Conjoined twin classification
+
+## main_concept
+CON-OBS-75C8162246AD66
+
+## concept_ids
+CON-OBS-75C8162246AD66
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-OBS-ASU-AE-EMBRYO2-PLACENTA-STRUCTURE-HORMONES
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that conjoined twins are always monozygotic, never dizygotic.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.14 row 52 = b
+asu: Embryo2 p.9 Q52.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-FERTILIZATION-RESULTS-ALL-Q53
+
+## title
+Results of fertilization (all of the above)
+
+## question
+Fertilization results in:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Restoration of chromosome number
+
+## explanation_a
+Incorrect on its own (i.e. this IS a result, but not the complete answer). Restoration of the diploid chromosome number is one of several direct results of fertilisation listed here.
+
+## answer_b
+Prevention of further sperm penetration
+
+## explanation_b
+Incorrect on its own (i.e. this IS a result, but not the complete answer). The zona reaction, blocking further sperm entry, is likewise a direct result.
+
+## answer_c
+Extrusion of 2nd polar body
+
+## explanation_c
+Incorrect on its own (i.e. this IS a result, but not the complete answer). Extrusion of the second polar body, completing meiosis II, is also a direct result.
+
+## answer_d
+Initiation of cleavage
+
+## explanation_d
+Incorrect on its own (i.e. this IS a result, but not the complete answer). Initiation of cleavage is also a direct result of fertilisation.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. Fertilisation directly produces all four of these outcomes together. It restores the diploid number, blocks further sperm penetration (via the zona reaction), and extrudes the second polar body as meiosis II completes. It also initiates cleavage, the zygote's first mitotic divisions.
+
+## topic
+Embryology - Fertilisation
+
+## subtopic
+Direct results of fertilisation
+
+## main_concept
+CON-DEV-B80508AE3B5530
+
+## concept_ids
+CON-DEV-B80508AE3B5530
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+List the direct results of fertilisation together.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.14 row 53 = e
+asu: Embryo2 p.9 Q53.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-SPERM-PENETRATE-BECAUSE-OF-Q54
+
+## title
+Mechanism restricting entry to one sperm (2nd asking)
+
+## question
+Only one sperm can penetrate the oocyte membrane because of:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The zona reaction
+
+## explanation_a
+Correct. Cortical granule release, triggered once the first sperm fuses with the oocyte, drives the zona reaction. This alters the zona pellucida so no further sperm can penetrate it. It is the same block-to-polyspermy fact tested again here, with a different distractor set.
+
+## answer_b
+The corona reaction
+
+## explanation_b
+Incorrect. "Corona reaction" is not a real named mechanism -- the corona radiata is a layer the fertilising sperm penetrates on its way in, not a barrier that changes to block further sperm.
+
+## answer_c
+Hyalouronidase reaction
+
+## explanation_c
+Incorrect. Hyaluronidase is an acrosomal enzyme aiding the fertilising sperm's own penetration of the corona radiata; it does not block subsequent sperm.
+
+## answer_d
+Negative chemotaxis
+
+## explanation_d
+Incorrect. Negative chemotaxis (repelling further sperm at a distance) is not the recognised mechanism here -- the block is a chemical change in the zona pellucida itself, occurring once a sperm has already fused.
+
+## answer_e
+Formation of the second polar body
+
+## explanation_e
+Incorrect. Formation of the second polar body is a downstream consequence of fertilisation completing meiosis, not the mechanism that excludes further sperm from entering.
+
+## topic
+Embryology - Fertilisation
+
+## subtopic
+Block to polyspermy
+
+## main_concept
+CON-DEV-F202CC422C987E
+
+## concept_ids
+CON-DEV-F202CC422C987E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that the zona reaction is the mechanism restricting oocyte penetration to a single sperm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 54 = a; stem confirmed by direct render (page 10)
+asu: Embryo2 p.10 Q54.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-FERTILIZATION-NOT-UTERINE-CAVITY-Q56
+
+## title
+Statement about fertilization that is false
+
+## question
+Regarding fertilization, all are true EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It usually occurs in uterine cavity
+
+## explanation_a
+Correct (i.e. this statement is FALSE). Fertilisation normally occurs in the ampulla of the uterine tube, not the uterine cavity -- by the time the conceptus reaches the uterine cavity, it has already progressed to the morula stage, several days after fertilisation.
+
+## answer_b
+It results in the formation of the zygote
+
+## explanation_b
+Incorrect (i.e. this statement is TRUE). Fertilisation does result in formation of the zygote, the single-cell product of sperm-oocyte fusion.
+
+## answer_c
+It results in the restoration of the diploid number of chromosomes
+
+## explanation_c
+Incorrect (i.e. this statement is TRUE). Fertilisation does restore the diploid chromosome number by combining paternal and maternal haploid sets.
+
+## answer_d
+It results in the establishment of the chromosomal sex of embryo
+
+## explanation_d
+Incorrect (i.e. this statement is TRUE). Fertilisation does establish the chromosomal sex of the embryo, fixed by whichever sperm (X- or Y-bearing) achieves fusion.
+
+## answer_e
+It results in initiation of cleavage
+
+## explanation_e
+Incorrect (i.e. this statement is TRUE). Fertilisation does initiate cleavage, the zygote's first mitotic divisions.
+
+## topic
+Embryology - Fertilisation
+
+## subtopic
+Site of fertilisation
+
+## main_concept
+CON-DEV-B05855C98EDF8F
+
+## concept_ids
+CON-DEV-B05855C98EDF8F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that fertilisation does not occur in the uterine cavity.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 56 = a; stem confirmed by direct render (page 10)
+asu: Embryo2 p.10 Q56.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-OOCYTE-REACHES-LUMEN-DAYS-Q57
+
+## title
+Timing of the fertilized oocyte reaching the uterine lumen
+
+## question
+The fertilized human oocyte reaches the uterine lumen after:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+6 hours
+
+## explanation_a
+Incorrect. Six hours after fertilisation the zygote is only just beginning cleavage, far too early to have reached the uterine lumen.
+
+## answer_b
+24 hours
+
+## explanation_b
+Incorrect. At 24 hours the conceptus is still an early cleavage stage, well within the tube.
+
+## answer_c
+Two days
+
+## explanation_c
+Incorrect. At two days the conceptus is still within the uterine tube, undergoing further cleavage divisions.
+
+## answer_d
+3-4 days
+
+## explanation_d
+Correct. The morula is the first cleavage stage to complete the tubal journey. It reaches the uterine lumen about 3-4 days after fertilisation. Only after that does it continue developing into a blastocyst, over the following day or two, before implantation can begin.
+
+## answer_e
+5-10 days
+
+## explanation_e
+Incorrect. By 5-10 days the conceptus has already implanted (implantation begins around day 6 and completes by day 11-12) -- far later than simply reaching the uterine lumen.
+
+## topic
+Embryology - Cleavage
+
+## subtopic
+Tubal transport timing
+
+## main_concept
+CON-DEV-A09CE205CF4E91
+
+## concept_ids
+CON-DEV-A09CE205CF4E91
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-CLEAVAGE-TRANSPORT-BASICS
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that the fertilized oocyte reaches the uterine lumen 3-4 days after fertilisation.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 57 = d; stem confirmed by direct render (page 10)
+asu: Embryo2 p.10 Q57.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-IMPLANTATION-STARTS-6-DAYS-Q58
+
+## title
+Days between fertilization and starting implantation
+
+## question
+Usual number of days between fertilization & starting implantation is:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+One day
+
+## explanation_a
+Incorrect. One day after fertilisation, the zygote has barely begun cleaving -- far too early for implantation to start.
+
+## answer_b
+Three days
+
+## explanation_b
+Incorrect. Three days after fertilisation, the conceptus is around the morula stage, still short of the uterine cavity.
+
+## answer_c
+Six days
+
+## explanation_c
+Correct. Implantation begins about six days after fertilisation. By this point the hatched blastocyst has reached the uterine cavity. Its trophoblast then begins attaching to, and invading, the endometrium, a process that takes several more days to complete.
+
+## answer_d
+Ten days
+
+## explanation_d
+Incorrect. By ten days implantation is essentially complete, not just starting.
+
+## answer_e
+Twelve days
+
+## explanation_e
+Incorrect. By twelve days implantation is complete and second-week events are already underway -- far later than the start of implantation.
+
+## topic
+Embryology - Implantation
+
+## subtopic
+Implantation timing
+
+## main_concept
+CON-DEV-14D17FFD9E6CA3
+
+## concept_ids
+CON-DEV-14D17FFD9E6CA3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that implantation usually starts about six days after fertilisation.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 58 = c; stem confirmed by direct render (page 10)
+asu: Embryo2 p.10 Q58.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-ZONA-DISAPPEARS-BEFORE-IMPLANTATION-Q59
+
+## title
+False statement about the blastocyst
+
+## question
+As regards the blastocyst, all the following statements are true EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It is the stage that implants in the uterus
+
+## explanation_a
+Incorrect (i.e. this statement is TRUE). The blastocyst is indeed the stage that implants into the uterus.
+
+## answer_b
+It is surrounded by zona pellucida until after implantation
+
+## explanation_b
+Correct (i.e. this statement is FALSE, the one to choose). The zona pellucida is shed ("hatching") before implantation, not retained until after it -- the blastocyst's trophoblast can only contact and attach to the endometrium once the zona is gone.
+
+## answer_c
+Its inner mass forms the embryo
+
+## explanation_c
+Incorrect (i.e. this statement is TRUE). The blastocyst's inner cell mass does go on to form the embryo proper.
+
+## answer_d
+Its outer cell mass forms the fetal part of the placenta
+
+## explanation_d
+Incorrect (i.e. this statement is TRUE). The blastocyst's outer cell layer (trophoblast) does form the fetal part of the placenta.
+
+## answer_e
+It implants by its embryonic pole
+
+## explanation_e
+Incorrect (i.e. this statement is TRUE). The blastocyst does implant by its embryonic pole, the side bearing the inner cell mass.
+
+## topic
+Embryology - Events of the second week
+
+## subtopic
+Zona pellucida persistence and hatching
+
+## main_concept
+CON-DEV-54FF30F596B08B
+
+## concept_ids
+CON-DEV-54FF30F596B08B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-SECOND-WEEK-BILAMINAR
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that the zona pellucida disappears before, not after, implantation.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 59 = b; stem confirmed by direct render (page 10)
+asu: Embryo2 p.10 Q59.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-CHORION-CONSISTS-OF-ALL-Q60
+
+## title
+Composition of the chorion
+
+## question
+The chorion consists of:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cytotrophoblast
+
+## explanation_a
+Incorrect on its own (i.e. this IS part of the chorion, but not the complete answer). Cytotrophoblast is one of the chorion's three components.
+
+## answer_b
+Syncytiotrophoblast
+
+## explanation_b
+Incorrect on its own (i.e. this IS part of the chorion, but not the complete answer). Syncytiotrophoblast is another of the chorion's three components.
+
+## answer_c
+Extraembryonic mesoderm
+
+## explanation_c
+Incorrect on its own (i.e. this IS part of the chorion, but not the complete answer). Extraembryonic mesoderm, lining the trophoblast, is the third component.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. The chorion as a whole is built from all three tissues together. Cytotrophoblast and syncytiotrophoblast make up its trophoblastic component. Extraembryonic (primary) mesoderm lines this trophoblast from within, completing the chorionic wall.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect. Since all three listed tissues do form the chorion, "none of the above" is wrong.
+
+## topic
+Embryology - Placenta
+
+## subtopic
+Chorionic villus maturation
+
+## main_concept
+CON-DEV-81EFB3946EB83C
+
+## concept_ids
+CON-DEV-81EFB3946EB83C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that the chorion consists of cytotrophoblast, syncytiotrophoblast and extraembryonic mesoderm together.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 60 = d
+asu: Embryo2 p.11 Q60.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-PRIMARY-STEM-VILLUS-Q61
+
+## title
+Composition of a primary stem villus
+
+## question
+A primary stem villus consists of:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Cytotrophoblast
+
+## explanation_a
+Incorrect. Cytotrophoblast alone omits the syncytiotrophoblast, which is also present in a primary villus -- both trophoblast layers together, with no mesoderm, define this stage.
+
+## answer_b
+Syncytiotrophoblast
+
+## explanation_b
+Incorrect. Syncytiotrophoblast alone likewise omits the cytotrophoblast, also present in a primary villus.
+
+## answer_c
+Cytotrophoblast & Syncytiotrophoblast
+
+## explanation_c
+Correct. A primary villus is trophoblast alone, made of cytotrophoblast plus syncytiotrophoblast. It has no mesenchymal core at all. This is the earliest villus stage, before any mesoderm has invaded it to form a secondary villus.
+
+## answer_d
+Cytotrophoblast, Syncytiotrophoblast & Extraembryonic Mesoderm
+
+## explanation_d
+Incorrect. Adding extraembryonic mesoderm describes the secondary (not primary) villus stage, once mesoderm has invaded the trophoblastic core.
+
+## answer_e
+Syncytiotrophoblast & Extraembryonic mesoderm
+
+## explanation_e
+Incorrect. This combination both omits the cytotrophoblast and wrongly adds mesoderm -- neither belongs to the primary-villus stage.
+
+## topic
+Embryology - Placenta
+
+## subtopic
+Chorionic villus maturation
+
+## main_concept
+CON-DEV-81EFB3946EB83C
+
+## concept_ids
+CON-DEV-81EFB3946EB83C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that a primary stem villus consists of cytotrophoblast and syncytiotrophoblast only.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 61 = c
+asu: Embryo2 p.11 Q61.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-SECONDARY-VILLI-EXCEPT-Q62
+
+## title
+False statement about secondary villi
+
+## question
+As regards the secondary villi, all are true EXCEPT:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+They contain cytotrophoblast
+
+## explanation_a
+Incorrect (i.e. this statement is TRUE). Secondary villi do retain their cytotrophoblast layer, inherited from the primary-villus trophoblast.
+
+## answer_b
+They contain syncytiotrophoblast
+
+## explanation_b
+Incorrect (i.e. this statement is TRUE). Secondary villi likewise retain their syncytiotrophoblast layer.
+
+## answer_c
+The do not contain fetal blood vessels
+
+## explanation_c
+Incorrect (i.e. this statement is TRUE). Secondary villi do not yet contain fetal blood vessels -- vascularisation is what marks the later, tertiary stage.
+
+## answer_d
+They contain a core of 2ry mesoderm
+
+## explanation_d
+Correct (i.e. this statement is FALSE, the one to choose). Secondary villi contain a core of primary (1ry), not secondary (2ry), mesoderm -- this is the same terminology point tested elsewhere in this bank: extraembryonic mesoderm is itself the primary mesoderm.
+
+## answer_e
+They are found in decidua basalis
+
+## explanation_e
+Incorrect (i.e. this statement is TRUE). Villi, secondary included, are found projecting into the intervillous space at the placental site, anchored toward the decidua basalis.
+
+## topic
+Embryology - Placenta
+
+## subtopic
+Chorionic villus maturation
+
+## main_concept
+CON-DEV-81EFB3946EB83C
+
+## concept_ids
+CON-DEV-81EFB3946EB83C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that secondary villi contain a core of primary, not secondary, mesoderm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 62 = d
+asu: Embryo2 p.11 Q62.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-TERTIARY-STEM-VILLUS-Q63
+
+## title
+Composition of a tertiary stem villus
+
+## question
+A tertiary stem villus consists of:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Cytotrophoblast & Syncytiotrophoblast only
+
+## explanation_a
+Incorrect. Trophoblast alone, with no mesoderm, describes the primary-villus stage, not the tertiary (vascularised) stage.
+
+## answer_b
+Syncytiotrophoblast & extraembryonic mesoderm only
+
+## explanation_b
+Incorrect. Omitting the cytotrophoblast is wrong -- both trophoblast layers persist through all villus stages.
+
+## answer_c
+Cytotrophoblast & extraembryonic mesoderm only
+
+## explanation_c
+Incorrect. Omitting the syncytiotrophoblast is likewise wrong, and this option also omits the fetal blood vessels that define the tertiary stage.
+
+## answer_d
+Cytotrophoblast, Syncytiotrophoblast & intraembryonic mesoderm
+
+## explanation_d
+Incorrect. The mesoderm within villi is extraembryonic (primary), not intraembryonic -- intraembryonic mesoderm belongs to the embryo's own body, not the placental villi.
+
+## answer_e
+Cytotrophoblast, Syncytiotrophoblast & extraembryonic mesoderm with small blood vessels
+
+## explanation_e
+Correct. A tertiary (definitive) stem villus consists of cytotrophoblast, syncytiotrophoblast and extraembryonic mesoderm. This mesodermal core now also contains small fetal blood vessels. This is the fully vascularised, mature villus stage, the one capable of fetal-maternal gas and nutrient exchange.
+
+## topic
+Embryology - Placenta
+
+## subtopic
+Chorionic villus maturation
+
+## main_concept
+CON-DEV-81EFB3946EB83C
+
+## concept_ids
+CON-DEV-81EFB3946EB83C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-VILLUS-CHORION-STRUCTURE
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that a tertiary stem villus consists of trophoblast, extraembryonic mesoderm and small fetal blood vessels.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 63 = e
+asu: Embryo2 p.11 Q63.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-IMPLANTATION-EVENTS-ALL-Q64
+
+## title
+Events during implantation
+
+## question
+During implantation, the blastocyst:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Implants in the body of the uterus
+
+## explanation_a
+Incorrect on its own (i.e. this IS true, but not the complete answer). The blastocyst does normally implant in the body of the uterus.
+
+## answer_b
+Causes a change in the endometrial tissues
+
+## explanation_b
+Incorrect on its own (i.e. this IS true, but not the complete answer). Implantation does trigger a decidual change in the endometrial tissue.
+
+## answer_c
+Implants in the endometrium
+
+## explanation_c
+Incorrect on its own (i.e. this IS true, but not the complete answer). The blastocyst does implant within the endometrium.
+
+## answer_d
+Is implanted at its embryonic pole
+
+## explanation_d
+Incorrect on its own (i.e. this IS true, but not the complete answer). Implantation does occur at the embryonic pole, the side bearing the inner cell mass.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. All four statements describe true events of implantation together. They cover site (uterine body), tissue response (endometrial/decidual change), and depth (embedding into the endometrium). They also cover orientation, since implantation proceeds embryonic-pole first.
+
+## topic
+Embryology - Implantation
+
+## subtopic
+Implantation timing
+
+## main_concept
+CON-DEV-14D17FFD9E6CA3
+
+## concept_ids
+CON-DEV-14D17FFD9E6CA3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-FERTILIZATION-IMPLANTATION-BASICS
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+List the events of implantation together (site, endometrial change, depth, orientation).
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 64 = e
+asu: Embryo2 p.11 Q64.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-CAPACITATION-CORRECT-STATEMENT-Q65
+
+## title
+Correct statement about sperm capacitation
+
+## question
+As regards sperm capacitation, choose the CORRECT statement:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Occurs in male just before ejaculation
+
+## explanation_a
+Incorrect. Capacitation occurs within the female genital tract, after ejaculation, not in the male just before it.
+
+## answer_b
+Is essential for fertilization
+
+## explanation_b
+Correct. Capacitation strips the glycoprotein coat and seminal plasma proteins from the sperm surface. This change is a prerequisite for the acrosome reaction. Without capacitation, the sperm cannot undergo the acrosome reaction and so cannot fertilise the oocyte, making it essential for fertilisation.
+
+## answer_c
+Is caused by zona pellucida
+
+## explanation_c
+Incorrect. Capacitation is caused by exposure to secretions of the female genital tract, not by the zona pellucida, which the sperm has not yet reached during capacitation.
+
+## answer_d
+Prevents entrance of more than one sperm to oocyte
+
+## explanation_d
+Incorrect. Preventing entry of more than one sperm is the role of the zona reaction (block to polyspermy), a separate, later event -- not a function of capacitation.
+
+## answer_e
+Removes the head of the sperm
+
+## explanation_e
+Incorrect. Capacitation strips a surface coat from the sperm; it does not remove the sperm head, which remains intact and is required for fertilisation.
+
+## topic
+Embryology - Fertilisation
+
+## subtopic
+Sperm capacitation
+
+## main_concept
+CON-DEV-CA422E559742A2
+
+## concept_ids
+CON-DEV-CA422E559742A2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-AU-MED-102-EMBR-FERTILIZATION
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that sperm capacitation is essential for fertilisation.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 65 = b
+asu: Embryo2 p.11 Q65.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-ZONA-SURROUNDS-ALL-STAGES-Q66
+
+## title
+Structures the zona pellucida surrounds
+
+## question
+Zona pellucida surrounds:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Morula
+
+## explanation_a
+Incorrect on its own (i.e. this IS true, but not the complete answer). The zona pellucida does surround the morula.
+
+## answer_b
+Zygote
+
+## explanation_b
+Incorrect on its own (i.e. this IS true, but not the complete answer). The zona pellucida does surround the zygote.
+
+## answer_c
+Early blastocyst
+
+## explanation_c
+Incorrect on its own (i.e. this IS true, but not the complete answer). The zona pellucida does surround the early blastocyst, before hatching.
+
+## answer_d
+Primary oocyte
+
+## explanation_d
+Incorrect on its own (i.e. this IS true, but not the complete answer). The zona pellucida is present from the primary oocyte stage onward.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. The zona pellucida is present from the primary oocyte stage onward. It continues to surround the zygote and every cleavage stage, morula and early blastocyst alike. It disappears only later, at hatching, before implantation begins.
+
+## topic
+Embryology - Events of the second week
+
+## subtopic
+Zona pellucida persistence and hatching
+
+## main_concept
+CON-DEV-54FF30F596B08B
+
+## concept_ids
+CON-DEV-54FF30F596B08B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-SECOND-WEEK-BILAMINAR
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that the zona pellucida surrounds the conceptus from the primary oocyte through the early blastocyst.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 66 = e
+asu: Embryo2 p.12 Q66.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-EPIBLAST-HYPOBLAST-FIRST-LAYERS-Q67
+
+## title
+First two intraembryonic germ layers to differentiate
+
+## question
+The first 2 intraembryonic germ layers that differentiate are:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ectoderm & endoderm
+
+## explanation_a
+Incorrect. Ectoderm and endoderm are named only after third-week gastrulation; the second-week layers, formed earlier, are called epiblast and hypoblast.
+
+## answer_b
+Epiblast & hypoblast
+
+## explanation_b
+Correct. During the second week, the inner cell mass reorganises into the bilaminar embryonic disc. The epiblast, columnar cells, faces the amniotic cavity. The hypoblast, cuboidal cells, faces the blastocoele/yolk sac, and together these are the first two germ layers to differentiate.
+
+## answer_c
+Ectoderm & mesoderm
+
+## explanation_c
+Incorrect. Ectoderm and mesoderm are both later, third-week gastrulation products, not the earliest second-week layers.
+
+## answer_d
+Ectoderm & hypoblast
+
+## explanation_d
+Incorrect. This mixes an early term (hypoblast) with a later one (ectoderm) -- the correct early pairing is epiblast and hypoblast together.
+
+## answer_e
+Endoderm & epiblast
+
+## explanation_e
+Incorrect. Like option D, this mixes a later term (endoderm) with an early one (epiblast) -- the terms should not be mixed across the two stages.
+
+## topic
+Embryology - Formation of bilaminar embryonic disc
+
+## subtopic
+Epiblast and hypoblast
+
+## main_concept
+CON-DEV-BA2F4F3EF76872
+
+## concept_ids
+CON-DEV-BA2F4F3EF76872
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-SECOND-WEEK-BILAMINAR
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+Name epiblast and hypoblast as the first two germ layers to differentiate.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 67 = b
+asu: Embryo2 p.12 Q67.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-EXTRAEMBRYONIC-COELOM-LINING-Q68
+
+## title
+The extraembryonic coelom
+
+## question
+The Extraembryonic coelom:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Lies between cytotrophoblast & syncytiotrophoblast
+
+## explanation_a
+Incorrect. The extraembryonic coelom forms within extraembryonic mesoderm itself, not as a space between the two trophoblast layers.
+
+## answer_b
+Is first formed in 3rd postnatal week
+
+## explanation_b
+Incorrect. The extraembryonic coelom forms prenatally, during the second week -- there is no "postnatal week" in prenatal embryology, and this option misstates both the timing and the developmental stage entirely.
+
+## answer_c
+Is lined by extraembryonic mesoderm
+
+## explanation_c
+Correct. Coalescing lacunae within extraembryonic mesoderm create the extraembryonic coelom (chorionic cavity). This cavity is entirely lined by that same mesoderm. Its somatic layer lies against the trophoblast/amnion, while its splanchnic layer lies against the yolk sac.
+
+## answer_d
+Is obliterated by the expansion of the placenta
+
+## explanation_d
+Incorrect. The extraembryonic coelom is progressively obliterated as the amniotic cavity expands later in development, not by expansion of the placenta.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect. Option C correctly describes the extraembryonic coelom, so "none of the above" is wrong.
+
+## topic
+Embryology - Formation of extraembryonic mesoderm
+
+## subtopic
+Extraembryonic coelom
+
+## main_concept
+CON-DEV-286E30732523C9
+
+## concept_ids
+CON-DEV-286E30732523C9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-SECOND-WEEK-BILAMINAR
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State that the extraembryonic coelom is lined by extraembryonic mesoderm.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 68 = c
+asu: Embryo2 p.12 Q68.
+
+---
+
+# Item
+
+## id
+QST-DEV-ASU-AE-EMBRYO2-AMNIOTIC-CAVITY-TIMING-Q69
+
+## title
+Development of the amniotic cavity
+
+## question
+The amniotic cavity develops:
+
+## subject
+dev
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Between the inner cell mass & the trophoblast
+
+## explanation_a
+Incorrect per this bank's printed key (letter d is marked correct, not this option) -- though its wording is worth noting: the printed key's own remark text actually restates this option's wording ("between inner cell mass & trophoblast") rather than option d's, a letter/remark mismatch resolved here in favour of the printed letter, per house rule, with the doubt recorded rather than silently corrected.
+
+## answer_b
+In extraembryonic mesoderm
+
+## explanation_b
+Incorrect. The amniotic cavity develops on the epiblast side of the bilaminar disc, not within extraembryonic mesoderm (which instead lines the separate extraembryonic coelom).
+
+## answer_c
+Within the inner cell mass
+
+## explanation_c
+Incorrect. The amniotic cavity develops on the epiblast side, adjacent to but not literally within, the inner cell mass as a whole.
+
+## answer_d
+During 1st week after fertilization
+
+## explanation_d
+Correct per this bank's printed key. This local answer bank marks the amniotic cavity's development to the first week after fertilisation. Most standard embryology teaching instead places this event in the second week, alongside the rest of bilaminar disc formation. This timing is therefore recorded as the bank's own stated answer, flagged for independent verification rather than presented as settled consensus.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect per this bank's printed key, since option d is the letter marked correct.
+
+## topic
+Embryology - Events of the second week
+
+## subtopic
+Amniotic cavity timing
+
+## main_concept
+CON-DEV-D24B4BF3431D89
+
+## concept_ids
+CON-DEV-D24B4BF3431D89
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=moderate
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-AE
+
+## module_subject
+
+## question_only_for
+
+## library_ids
+ART-DEV-ASU-AE-EMBRYO2-SECOND-WEEK-BILAMINAR
+
+## resource_ids
+src_a7e3b821ab294015c05f
+
+## learning_objective
+State this bank's own printed answer for amniotic cavity timing (first week after fertilisation), flagged against mainstream second-week teaching.
+
+## source_citation
+Ain Shams University, ASU-AE (Introduction to Anatomy and Embryology), Embryology, "MCQs - Embryo 2.pdf" question 12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.15 row 69 -- letter reads d ("During 1st week after fertilization"); the row's own remark text instead reads "Amniotic cavity develops between inner cell mass & trophoblast," which is option a's wording, not option d's -- a genuine printed letter/remark mismatch, resolved in favour of the letter per house rule (printed keys stand; a letter/remark mismatch resolves to the letter, doubt recorded in author_notes).
+asu: Embryo2 p.12 Q69.
+Letter/remark mismatch on the printed key (p.15 row 69): letter = d, but the row's own remark text quotes option a's wording verbatim ("between inner cell mass & trophoblast") rather than option d's ("during 1st week after fertilization"). Per the printed-keys-stand rule, the letter (d) is kept as the answer; the doubt is recorded here rather than silently substituting option a. Standard embryology teaching places amniotic cavity formation in the second week, not the first, so this answer should be treated as this local source's own stated position, not independently verified physiology -- see the concept's own evidence_gaps.

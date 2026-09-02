@@ -298,6 +298,60 @@ files, apply order: Kasr 101-ISK concept+article, both overlays, the 2 new files
 the question file) both clean (errors=0/rejected=0), independently re-confirmed via
 `scripts/validate-content-batch.mjs` directly.
 
+## H — Embryo 2 Q11-69 completion pass (lane 10)
+
+`MCQs - Embryo 2.pdf` Q11-69 (59 items) triaged and authored, completing the file (69/69 with Q1-10 from
+lane 9). Stems on pp.3,4,6,7,8,10 (materially garbled OCR) and the printed "Answers of MCQs" key table on
+pp.14-15 (continuing after lane 9's clean p.13 rows 1-20) were rendered and read by eye, each cross-checked
+against the corresponding stem's own options; pages 5,9,11,12 were readable directly from OCR text without
+rendering. Seed `coverage/seeds/ASU-AE/embryo2.json` (appended in 3 chunks of ~19-20), batch
+`question/ASU-AE-embryo2-mcq.md`, triage-keys `embryo2-q11` … `embryo2-q69`.
+
+**Answer-key recovery for rows 11-20 (p.13).** Two rows (13, 14) initially misread on OCR were corrected
+by forcing a fresh `pagetext.mjs ocr --dpi 400/600` pass, after which the letter column matched the
+already-legible remark text. Row 18's letter was noisy in both OCR passes, but its remark text ("Female
+genital tract") is an exact, unambiguous match to option C, independently corroborated by the identical
+fact keyed cleanly at rows 28 and 33 on the p.14 render — used as the answer with the corroboration
+recorded in the question's own `author_notes`/`field_notes`. Row 19 never appeared in either OCR pass
+(jumping from row 18 straight to row 20's "villus" remark); per the "never re-render p.13" instruction and
+the "hold, never fabricate" rule, `embryo2-q19` is held rather than guessed from its siblings' pattern
+(Q41/Q54 test the same underlying fact but with materially different distractor sets, so their answer
+cannot be safely transplanted onto Q19's own option list).
+
+**Letter/remark mismatch (Q69, row 69, p.15).** The printed letter is d ("During 1st week after
+fertilization"), but the row's own remark text instead quotes option a's wording verbatim ("Amniotic
+cavity develops between inner cell mass & trophoblast") — a genuine printed inconsistency. Resolved in
+favour of the letter per house rule; the doubt, and the fact that mainstream teaching places this event in
+the second week rather than the first, are recorded in the question's `author_notes` and in the minted
+concept's own `evidence_gaps`/pitfalls.
+
+**Printing typo (Q46, p.8).** The source prints two options labelled "d" (`d. All of the above` /
+`d. None of the above`); the second is renumbered `e` here to fit the standard 5-option contract, matching
+this bank's own consistent lettering everywhere else.
+
+**Held duplicates.** `embryo2-q28` and `embryo2-q33` are reworded/reordered repeats of `embryo2-q18`
+(sperm capacitation site, identical option set); `embryo2-q55` is a reworded/reordered repeat of
+`embryo2-q40` (sex determined at fertilisation, identical option set). All three held per the same
+same-option-set criterion the youssef-terminology cluster used. Distractor-set variants that share a core
+fact but differ materially in their wrong answers (e.g. the three "what blocks polyspermy" questions
+Q19/Q29/Q41/Q54, or the two "days until implantation begins" questions Q43/Q58) were treated as
+legitimately distinct items and authored separately, not held.
+
+**Search-before-mint.** 6 concepts reused: 2 already-pending ASU-AE concepts from this lane's own Q1-10
+pass (`CON-DEV-F202CC422C987E` polyspermy/zona-reaction block, reused for Q29/Q41/Q54; `CON-DEV-14D17FFD9E6CA3`
+implantation timing, reused for Q43/Q58/Q64), 1 already-pending Kasr-sourced overlay concept
+(`CON-OBS-14805E77091C30` placenta praevia, reused for Q51), 1 live concept found by `find-existing.mjs
+battledore placenta` (`CON-OBS-C095B75A61EA4F`, overlaid onto for Q17/Q24/Q36), and 1 pending Alexandria
+AU-MED-102 concept already overlaid onto once by lane 9's Embryo 1 pass (`CON-DEV-CA422E559742A2`
+capacitation, extended for Q18/Q21/Q65). 24 new concepts minted after all four `find-existing.mjs` queries
+came back empty for every cluster, grouped under 4 new articles by subject (villus/chorion structure;
+cleavage/transport/fertilisation outcomes; placenta structure/hormones/anomalies; second-week
+bilaminar-disc events). `validate-content-batch.mjs` (13 `--with` files: both new concept files, both new
+article files, both new pending-live overlays, lane 9's Q1-10 concept/article files, the resource file, and
+every upstream source file the reused concepts live in — Kasr 101-ISK concept+article, Alexandria AU-MED-102
+concept+article) and `gate.mjs simulate` (14 files, same set plus the question batch) both clean
+(errors=0/rejected=0) for all three authoring chunks.
+
 ## Totals
 
 - **Papers read:** 6 MCQ/mixed sources, all triaged; 16 written (non-MCQ) prompts identified separately.
