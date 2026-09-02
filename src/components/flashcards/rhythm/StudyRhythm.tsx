@@ -104,8 +104,11 @@ export function StudyRhythm({
     [api.decks],
   )
 
-  const goToday = useCallback(() => { setAnchor(todayAnchor(now)); setSelectedDay(localDay(now)) }, [now])
-  const step = useCallback((dir: -1 | 1) => setAnchor((a) => stepAnchor(mode, a, dir)), [mode])
+  // Bumped by the buttons that page the calendar (Today, ‹, ›) — never by an
+  // arrow-key move, so the today-centring scroll does not fight roving focus.
+  const [centreTick, setCentreTick] = useState(0)
+  const goToday = useCallback(() => { setAnchor(todayAnchor(now)); setSelectedDay(localDay(now)); setCentreTick((n) => n + 1) }, [now])
+  const step = useCallback((dir: -1 | 1) => { setAnchor((a) => stepAnchor(mode, a, dir)); setCentreTick((n) => n + 1) }, [mode])
   // Keyboard arrow move: select a day AND bring it into view (weekly/monthly/
   // yearly page to its week/month/year; continuous ignores the anchor).
   const onMove = useCallback((day: string) => { setSelectedDay(day); setAnchor(day) }, [])
@@ -179,7 +182,7 @@ export function StudyRhythm({
               scheme={settings.colorScheme}
               orientation={orientation}
               now={now}
-              anchor={anchor}
+              centreTick={centreTick}
               selectedDay={selectedDay}
               onSelect={setSelectedDay}
               onMove={onMove}
@@ -232,14 +235,15 @@ export function StudyRhythm({
 
 /** The calendar grid itself, orientation-aware, with roving keyboard focus. */
 function RhythmCalendar({
-  layout, mode, scheme, orientation, now, anchor, selectedDay, onSelect, onMove,
+  layout, mode, scheme, orientation, now, centreTick, selectedDay, onSelect, onMove,
 }: {
   layout: CalendarLayout
   mode: RhythmCalendarMode
   scheme: RhythmColorScheme
   orientation: 'rows' | 'columns'
   now: Date
-  anchor: string
+  /** Bumped when the calendar is paged, so the grid re-centres on today. */
+  centreTick: number
   selectedDay: string | null
   onSelect: (day: string) => void
   onMove: (day: string) => void
@@ -287,7 +291,7 @@ function RhythmCalendar({
     const target = scroller.querySelector<HTMLElement>(`[data-day="${today}"]`)
     // `block: 'nearest'` so bringing a column into view never scrolls the page.
     target?.scrollIntoView({ inline: 'center', block: 'nearest' })
-  }, [today, anchor, mode])
+  }, [today, mode, centreTick])
 
   const cellFor = (cd: CalendarDay | null, key: string) => {
     if (!cd) return <div key={key} className={metrics.cell} aria-hidden />
