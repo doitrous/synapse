@@ -1,8 +1,8 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| cell | 0 | 0 | 46 | 46 |
+| cell | 46 | 0 | 0 | 46 |
 | cellhz1 | 67 | 0 | 0 | 67 |
-| epith | 0 | 0 | 33 | 33 |
+| epith | 33 | 0 | 0 | 33 |
 | zahra1 | 0 | 0 | 322 | 322 |
 | zahra2 | 0 | 0 | 36 | 36 |
 
@@ -10,85 +10,6 @@
 (none)
 
 ## Remaining
-- cell-q01
-- cell-q02
-- cell-q03
-- cell-q04
-- cell-q05
-- cell-q06
-- cell-q07
-- cell-q08
-- cell-q09
-- cell-q10
-- cell-q11
-- cell-q12
-- cell-q13
-- cell-q14
-- cell-q15
-- cell-q16
-- cell-q17
-- cell-q18
-- cell-q19
-- cell-q20
-- cell-q21
-- cell-q22
-- cell-q23
-- cell-q24
-- cell-q25
-- cell-q26
-- cell-q27
-- cell-q28
-- cell-q29
-- cell-q30
-- cell-q31
-- cell-q32
-- cell-q33
-- cell-q34
-- cell-q35
-- cell-q36
-- cell-q37
-- cell-q38
-- cell-q39
-- cell-q40
-- cell-q41
-- cell-q42
-- cell-q43
-- cell-q44
-- cell-q45
-- cell-q46
-- epith-q01
-- epith-q02
-- epith-q03
-- epith-q04
-- epith-q05
-- epith-q06
-- epith-q07
-- epith-q08
-- epith-q09
-- epith-q10
-- epith-q11
-- epith-q12
-- epith-q13
-- epith-q14
-- epith-q15
-- epith-q16
-- epith-q17
-- epith-q18
-- epith-q19
-- epith-q20
-- epith-q21
-- epith-q22
-- epith-q23
-- epith-q24
-- epith-q25
-- epith-q26
-- epith-q27
-- epith-q28
-- epith-q29
-- epith-q30
-- epith-q31
-- epith-q32
-- epith-q33
 - zahra1-q001
 - zahra1-q002
 - zahra1-q003
