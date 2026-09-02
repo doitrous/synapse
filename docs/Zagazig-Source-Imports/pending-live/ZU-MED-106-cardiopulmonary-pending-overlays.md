@@ -16,13 +16,25 @@
   epithelial reticular cells, splenic sinusoid, central chemoreceptors) are
   additional pending hits this pass found while searching before minting.
 
-  `## module_subject` is a full-replacement path list (00-START-HERE.md §3) —
-  every row restates the target's existing path(s) verbatim plus ZU's own new
-  line. `## label` restates the target's own live-record label verbatim
-  (required discriminator). `## universities`/`## modules` are true ID-list
-  columns (`+zu`/`+ZU-MED-106`); `## learner_years` is a plain-number ID-list
-  field, already `1` on every target below (Year 1 on both sides), so no `+`
-  addition is needed there.
+  `## label` restates the target's own live-record label verbatim (required
+  discriminator). `## universities`/`## modules` are true ID-list columns —
+  `+zu`/`+ZU-MED-106`, safe appends. `## module_subject` is a full-replacement
+  path list (00-START-HERE.md §3) — every row restates the target's existing
+  path plus ZU's own new line, **ZU's own line listed first**: `gate.mjs
+  batch` only checks `module_subject`'s very first segment (before the first
+  `>` in the whole field) against the modules this row *locally* declares, so
+  with a sparse `+ZU-MED-106` row that segment must be `ZU-MED-106`, not the
+  pre-existing module — line order matters only for this gate check; the
+  union is restated in full either way. This also sidesteps a second gate
+  check (module ids cross-multiplied against every declared university's
+  prefix) that has no correct answer when a record spans two
+  different-prefixed non-Kasr universities on one row — `posterior
+  cricoarytenoid` below (au + zu) hit exactly that combination; keeping this
+  row's own `## universities`/`## modules` sparse (`zu` only, not restating
+  `au`) avoids it without changing the real merge, which is a true ID-list
+  append either way. `## learner_years` is a plain-number ID-list field,
+  already `1` on every target below (Year 1 on both sides), so no addition is
+  needed there.
 -->
 
 # Item
@@ -40,8 +52,8 @@ Each lung is half a cone with an apex, a base, costal and medial surfaces, and a
 +ZU-MED-106
 
 ## module_subject
-104 CPS > Anatomy > Lungs
 ZU-MED-106 > Cardiopulmonary > Lung external features
+104 CPS > Anatomy > Lungs
 
 ## field_notes
 zu: Fakous CPS Final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q1, "Which of the following structures or characteristics does the cancerous lung contain?" [left lung] (answer: lingula, hand-drawn-ink key). This concept's own aliases already list "Lingula" — the fact this ZU question tests (lingula as the left lung's cardiac-notch-adjacent feature, no right-lung counterpart) is exactly what the concept's definition already teaches. Named as the triage's own pending hit (coverage/ZU-MED-106-triage.md, `cps-lung-carcinoma-lingula-anatomy`) — Kasr's own 104-CPS module code coincidentally shares a name with Zagazig's Cardiopulmonary subject matter, unrelated numbering, flagged there as exactly the cross-university overlap this overlay mechanism exists to catch.
@@ -63,8 +75,8 @@ The posterior cricoarytenoid is the only abductor of the vocal folds; the latera
 +ZU-MED-106
 
 ## module_subject
-AU-MED-106 > Anatomy > Larynx
 ZU-MED-106 > Cardiopulmonary > Larynx muscles
+AU-MED-106 > Anatomy > Larynx
 
 ## field_notes
 zu: Fakous CPS Final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q8, "She is unable to abduct the vocal cords during quiet breathing. Which of the following muscles is most likely paralyzed?" (answer: posterior cricoarytenoid, hand-drawn-ink key). Direct match, tested from the inverse direction of this concept's own label (which muscle abducts, vs which muscle's paralysis removes abduction) — same fact, no split. Found by `find-existing.mjs "posterior cricoarytenoid"`.
@@ -86,8 +98,8 @@ Thymic epithelial reticular cells are endodermal, joined into a cellular reticul
 +ZU-MED-106
 
 ## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Thymus
 ZU-MED-106 > Cardiopulmonary > Lymphoid histology
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
 
 ## field_notes
 zu: Fakous CPS Final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q32, "The epithelial reticular cells of thymus gland have which of the following criteria?" (answer: they are joined together by cell junctions, hand-drawn-ink key). Direct match — this is the same fact the live label already states ("joined into a cellular reticulum"), and the ZU question's other three options (reticular-fibre synthesis, mesodermal origin, short wide processes) are corrected by the same concept's existing "endodermal, produce no reticular fibres" text. Found by `find-existing.mjs "thymic epithelial reticular"`.
@@ -109,8 +121,8 @@ Open, closed and open-and-closed theories describe how blood crosses from the te
 +ZU-MED-106
 
 ## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
 ZU-MED-106 > Cardiopulmonary > Lymphoid histology
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
 
 ## field_notes
 zu: Fakous CPS Final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q33, "Splenic sinusoid is characterized by which of the following?" (answer: its endothelial cells are elongated, hand-drawn-ink key). Partial-topic match — the live concept's own label names the open/closed-theory debate about the sinusoid wall; the elongated-endothelial-cell fact ZU's question tests is the same structure's histological feature, close enough in scope to sit under this one concept rather than fork a second splenic-sinusoid record. Found by `find-existing.mjs "splenic sinusoid"`.
@@ -132,8 +144,8 @@ Central chemoreceptors provide 75-80% of resting respiratory drive, responding t
 +ZU-MED-106
 
 ## module_subject
-104 CPS > Physiology > Respiratory System > Control of Respiration
 ZU-MED-106 > Cardiopulmonary > Control of respiration
+104 CPS > Physiology > Respiratory System > Control of Respiration
 
 ## field_notes
 zu: Fakous CPS Final 2024.pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q25, "The central chemoreceptors are more sensitive to which of the following?" (answer: CO2 excess, hand-drawn-ink key). Direct match — the live concept's own label states central chemoreceptors respond mainly to rising PCO2 (via CSF H+) rather than to arterial hypoxia directly, exactly the fact ZU's question tests. Found by `find-existing.mjs "central chemoreceptor"`.
