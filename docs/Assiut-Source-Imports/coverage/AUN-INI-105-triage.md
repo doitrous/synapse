@@ -767,11 +767,17 @@ answer "D,E".
 |---|--:|--:|--:|--:|--:|--:|
 | AUN-INI-105 (ch1, Q101-161 of 161) | 61 | 61 (100%) | 47 | 14 | 6 | 41 |
 
-- **47 authored**, split 26 own-direct (question/AUN-INI-105-ch1b-mcq.md,
+- **47 authored**, split 25 own-direct (question/AUN-INI-105-ch1b-mcq.md,
   reusing already-live/own-lane concepts or this pass's own 6 new mints) and
-  21 pending-live (19 reusing Ain-Shams ASU-INF concepts, one more newly
-  overlaid this pass -- CON-INF-BF26D7E563FB78, outer-membrane porins -- plus
-  2 reusing a newly-overlaid Menoufia MUST saprophyte concept).
+  22 pending-live (19 reusing Ain-Shams ASU-INF concepts, one more newly
+  overlaid this pass -- CON-INF-BF26D7E563FB78, outer-membrane porins --
+  2 reusing a newly-overlaid Menoufia MUST saprophyte concept, and Q101,
+  originally own-direct on this lane's own chapter-5 mint
+  CON-INF-8B02B0EFEE96F5 (opportunistic pathogen) until a concurrent
+  chief-of-staff repair pass deleted that AUN twin -- caught when this pass
+  rebased onto main -- in favour of its pending MUST sibling
+  CON-INF-17893AA3303251, already overlaid for AUN-INI-105 by the chapter-6
+  lane, so Q101 moved to pending-live/AUN-INI-105-ch1b-must-questions.md).
 - **14 held**: 5 on the seed schema's 4-option floor (Q105, Q107, Q124,
   Q140, Q143, each printing only 2-3 options), 1 on the printed double
   answer (Q133), and 8 as near-duplicates of already-authored INI-105
@@ -804,33 +810,52 @@ answer "D,E".
   bacterial chromosome function, restriction endonuclease, diphtheria,
   corynebacterium diphtheriae, saprophyte, spirochete, treponema pallidum,
   crystal violet, 70S ribosome).
-- **41 reused**: 26 own-tree (this lane's own chapter 1/5 mints and live
-  concepts, e.g. `CON-INF-8B02B0EFEE96F5` opportunistic pathogens from this
-  lane's own chapter-5 mint, `CON-INF-52E3C48A1A2AAA` prokaryote
+- **41 reused**: 25 own-tree (this lane's own chapter 1 mints and live
+  concepts, e.g. `CON-INF-52E3C48A1A2AAA` prokaryote
   architecture, `CON-DEV-FE47A8F9B0768E` plasmid, `CON-INF-3E6590C8AC2166`
   spores, `CON-INF-398B4BA280679E` inclusion granules/volutin,
   `CON-INF-A1043E023CD6FB` plasma membrane, `CON-INF-B775994AC7062B`
   virulence factors, `CON-INF-BD1B74226AE7B2` protoplast/spheroplast,
-  `CON-INF-16E0B6ECB647D3` Gram stain); 15 pending-live (12 already-overlaid
+  `CON-INF-16E0B6ECB647D3` Gram stain); 16 pending-live (12 already-overlaid
   ASU-INF concepts from lanes 1/2, one newly overlaid this pass -- porins --
   plus a cross-chapter reuse of chapter 2's own overlaid autotroph/
-  heterotroph concept, and one newly-overlaid Menoufia MUST saprophyte
-  concept, `CON-INF-4D65B20EBBAE83`, reused for both Q159 and Q160).
-- **Gates**: `validate-content-batch.mjs` run directly on all six touched
-  files (`question/AUN-INI-105-ch1b-mcq.md`,
-  `pending-live/AUN-INI-105-ch1b-asuinf-questions.md`,
-  `pending-live/AUN-INI-105-ch1b-must-questions.md`,
-  `concept/AUN-INI-105-ch1b-concepts.md`,
+  heterotroph concept, one newly-overlaid Menoufia MUST saprophyte
+  concept, `CON-INF-4D65B20EBBAE83`, reused for both Q159 and Q160, and
+  Q101's reuse of `CON-INF-17893AA3303251`, chapter 6's own already-overlaid
+  MUST opportunistic-pathogen sibling).
+- **Gates**: `validate-content-batch.mjs` run directly on all touched files
+  (`question/AUN-INI-105-ch1b-mcq.md`, 25 items;
+  `pending-live/AUN-INI-105-ch1b-asuinf-questions.md`, 19 items;
+  `pending-live/AUN-INI-105-ch1b-must-questions.md`, 3 items (Q101, Q159,
+  Q160); `concept/AUN-INI-105-ch1b-concepts.md`;
   `article/AUN-INI-105-ch1b-article.md`, plus the extended
   `pending-live/AUN-INI-105-ch1-asuinf-overlay-concepts.md`), each with its
-  full `--with` sibling chain -- `errors: []` on every file.
-  `gate.mjs batch` on all three question files -- `errors=0` each.
-  `gate.mjs simulate` across the full 16-file apply chain (own concepts,
-  own article, own question file, the ASU-INF concept+article batch, both
-  AUN overlay files, the ASU-INF-reuse question file, the MUST concept+
+  full `--with` sibling chain (Q101's own file also needs chapter 6's
+  overlay, `AUN-INI-105-ch6-asuinf-overlay-concepts.md`, for its repointed
+  concept) -- `errors: []` on every file. `gate.mjs batch` on all three
+  question files -- `errors=0` each. `gate.mjs simulate` across the full
+  15-file apply chain (own concepts, own article, own question file, the
+  ASU-INF concept+article batch, all three AUN overlay files touched
+  -- ch1, ch2, ch6 -- the ASU-INF-reuse question file, the MUST concept+
   article batch, the new MUST overlay file, the MUST-reuse question file)
   -- `rejected=0 errors=0`; every authored question carries a non-empty
   `library_ids`.
+- **Concurrent-lane collision found on rebase**: after this pass's own
+  commits were pushed and rebased onto `origin/main`, a chief-of-staff
+  repair pass (`pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md`)
+  turned out to have deleted this lane's own chapter-5 mint
+  `CON-INF-8B02B0EFEE96F5` (opportunistic pathogen) in favour of a pending
+  MUST sibling, breaking Q101's reuse of it -- caught by a post-rebase
+  gate re-run (`gate.mjs batch` reporting "main_concept ... is not a
+  concept that exists"), not by the rebase itself, since the conflicting
+  files (question/concept files, not the ledger/triage prose) did not
+  textually conflict. Q101 was repointed onto the MUST sibling
+  (`CON-INF-17893AA3303251`, already overlaid for AUN-INI-105 by chapter 6)
+  and moved from the own-direct batch into the MUST pending-live batch;
+  all gates re-run clean afterward. Worth a standing note for any lane
+  reusing another lane's own AUN-native mint: a concurrent repair pass can
+  delete it out from under a rebase without a merge conflict flagging it --
+  re-run the batch gate after every rebase, not just before.
 - **Stop point**: chapter 1 ("Bacterial cell structure," 161 items) is now
   **fully read, keyed and authored end to end** across all four lanes that
   have touched it (lanes 1, 2 and 14; the chapter-2-onward structural map

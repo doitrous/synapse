@@ -1,7 +1,7 @@
 {
   "lane": "AUN-INI-105",
   "cluster": "ini-mcq-ch1b",
-  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 1 \"Bacterial cell structure\" (coverage/AUN-INI-105-triage.md, S3), closing the chapter. This pass (lane 14) reads and keys Q101-Q161, the chapter's final 61 items, against the plain-text ANSWERS table on pp.26-27 (cross-checked two ways: pagetext.mjs show and a direct pdftotext -layout extraction, both agreeing on all 61 keys, including Q133's printed double answer \"D,E\"). This batch authors the 26 of the 47 authored questions whose tested idea rides on a concept already live, already minted by this lane's own earlier chapters (own-tree cross-chapter reuse, chapters 1/2/5/8), or newly minted this pass (concept/AUN-INI-105-ch1b-concepts.md, article/AUN-INI-105-ch1b-article.md). The remaining 21 authored questions reuse pending Ain-Shams ASU-INF and Menoufia MUST concepts and are authored separately in pending-live/ with an apply-after header. 14 of the 61 read items are held: 5 on the seed schema's 4-option floor (Q105, Q107, Q124, Q140, Q143, each printing only 2-3 options), 1 on a printed double answer (Q133, \"D,E\"), and 8 as near-duplicates of already-authored INI-105 items -- Q110/Q111 restate the chapter's own already-authored peritrichous/amphitrichous facts (Q11/Q45), Q129 restates the chapter's own \"role in cell division EXCEPT\" template (Q62) with a swapped option set, Q131 restates the chapter's own \"structure responsible for staining\" fact (Q63) at cell-wall-vs-peptidoglycan granularity, Q149 restates this same pass's own Q120 (near-identical Spores/Capsule/Cell wall/Flagella option set), and Q152/Q154/Q155 restate the chapter's own Q36/Q17/Q18 -- all three flagged in advance by lane 1's own triage note as later recurrences within this chapter. Q160's printed key (\"Parasites\") is doubtful against the standard teaching that the majority of bacteria are saprophytic, but the bank shows no internal inconsistency about it, so it is authored with the key as printed and the doubt noted in author_notes, per the lane's standing rule.",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 1 \"Bacterial cell structure\" (coverage/AUN-INI-105-triage.md, S3), closing the chapter. This pass (lane 14) reads and keys Q101-Q161, the chapter's final 61 items, against the plain-text ANSWERS table on pp.26-27 (cross-checked two ways: pagetext.mjs show and a direct pdftotext -layout extraction, both agreeing on all 61 keys, including Q133's printed double answer \"D,E\"). This batch authors 25 of the 47 authored questions whose tested idea rides on a concept already live, already minted by this lane's own earlier chapters (own-tree cross-chapter reuse, chapters 1/2/8), or newly minted this pass (concept/AUN-INI-105-ch1b-concepts.md, article/AUN-INI-105-ch1b-article.md). Q101 was originally drafted here reusing this lane's own chapter-5 mint CON-INF-8B02B0EFEE96F5 (opportunistic pathogen), but a concurrent chief-of-staff repair pass (pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md) deleted that AUN twin in favour of its pending MUST sibling CON-INF-17893AA3303251, discovered when this pass rebased over main -- Q101 is therefore authored in pending-live/AUN-INI-105-ch1b-must-questions.md instead (see that file's own header), not here. The remaining 22 authored questions reuse pending Ain-Shams ASU-INF and Menoufia MUST concepts and are authored separately in pending-live/ with an apply-after header. 14 of the 61 read items are held: 5 on the seed schema's 4-option floor (Q105, Q107, Q124, Q140, Q143, each printing only 2-3 options), 1 on a printed double answer (Q133, \"D,E\"), and 8 as near-duplicates of already-authored INI-105 items -- Q110/Q111 restate the chapter's own already-authored peritrichous/amphitrichous facts (Q11/Q45), Q129 restates the chapter's own \"role in cell division EXCEPT\" template (Q62) with a swapped option set, Q131 restates the chapter's own \"structure responsible for staining\" fact (Q63) at cell-wall-vs-peptidoglycan granularity, Q149 restates this same pass's own Q120 (near-identical Spores/Capsule/Cell wall/Flagella option set), and Q152/Q154/Q155 restate the chapter's own Q36/Q17/Q18 -- all three flagged in advance by lane 1's own triage note as later recurrences within this chapter. Q160's printed key (\"Parasites\") is doubtful against the standard teaching that the majority of bacteria are saprophytic, but the bank shows no internal inconsistency about it, so it is authored with the key as printed and the doubt noted in author_notes, per the lane's standing rule.",
   "defaults": {
     "subject": "inf",
     "status": "Draft",
@@ -24,34 +24,6 @@
     "reasoning_level": 1
   },
   "questions": [
-    {
-      "key": "ini-mcq-ch1b-q101",
-      "id": "QST-AUNINI105-INI-MCQ-CH1B-Q101",
-      "page": 18,
-      "title": "Impaired defence turns normal flora into opportunistic pathogens",
-      "question": "Normal flora cause infection when body defense is impaired is called?",
-      "options": {
-        "A": "Saprophytic",
-        "B": "Opportunistic pathogens",
-        "C": "Endo-parasites",
-        "D": "pathogen"
-      },
-      "correct": "B",
-      "explanations": {
-        "A": "Incorrect. A saprophyte lives on dead or decaying organic matter in the environment, not on or in a living host, so the term does not describe a normal-flora organism turning pathogenic in an immunocompromised patient.",
-        "B": "Correct. Members of a person's own normal flora ordinarily coexist harmlessly with the host, but they can cause disease specifically when host defences are compromised, as in immunocompromised patients. This condition-dependent behaviour is exactly what defines an opportunistic pathogen, distinguishing it from a true (obligate) pathogen that frequently causes disease even in healthy subjects.",
-        "C": "Incorrect. \"Endo-parasite\" describes a parasite living inside the host's body, a parasitology term, not the standard microbiology term for a normal-flora organism that becomes pathogenic under compromised host defences.",
-        "D": "Incorrect. A true (obligate) pathogen typically causes disease in healthy subjects as its usual behaviour, unlike an opportunistic organism, which specifically requires a compromised host to become clinically significant."
-      },
-      "main_concept": "CON-INF-8B02B0EFEE96F5",
-      "concept_ids": ["CON-INF-8B02B0EFEE96F5"],
-      "contextual_concept_ids": [],
-      "subtopic": "Opportunistic pathogens",
-      "learning_objective": "State that a normal-flora organism causing disease specifically when host defences are impaired is termed an opportunistic pathogen.",
-      "library_ids": ["ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS"],
-      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 1, p26", "reuse": "CON-INF-8B02B0EFEE96F5 is this lane's own chapter-5 mint (concept/AUN-INI-105-ch5-concepts.md), already drafted earlier in this lane's own sequence -- own-tree cross-chapter reuse, no overlay needed." },
-      "author_notes": ""
-    },
     {
       "key": "ini-mcq-ch1b-q102",
       "id": "QST-AUNINI105-INI-MCQ-CH1B-Q102",
