@@ -88,6 +88,27 @@
   rewritten to the true 54 keys left in the 281-key triage (31 parasitology
   — the protozoa/mixed-vignette section, pp.20-25 — plus all 23 biochemistry
   keys, both untouched by this pass).
+
+  True count, parasitology Part 3 — Protozoa and mixed-organism clinical
+  vignettes (this commit): 31 items authored (bank items #113-146 of
+  mcq-bank-parasitology.json, pp.20-25, minus #132/#137/#140 whose
+  tested_concept_key was already covered by Part 1/Part 2) against all 31
+  of the 31 keys remaining in this section, 0 unexpected. 26 new concepts
+  were minted; 5 items (#135, #138, #142, #144, #146) reuse concept ids
+  already minted by parasitology-part1 (a full canonicalKey cross-check
+  against Part 1/Part 2, not just find-existing.mjs, surfaced these
+  same-scope hits) rather than re-minting twins — same precedent as
+  parasitology-part2's own reuse of Part 1 concepts. A direct set-diff of
+  `HU-GIT-301-triage-keys.txt` (281 keys) against every `question[].key`
+  actually present in `coverage/seeds/HU-GIT-301/{pathology-ch1,pathology-
+  ch2,pharmacology-part1,pharmacology-part2,parasitology-part1,parasitology-
+  part2,parasitology-part3}.json` confirms 258 keys now used (227 from the
+  first five chunks + 31 net-new from this pass) and 23 keys remaining —
+  all biochemistry, closing the module's parasitology backlog entirely.
+  Individual rows are hand-flipped to 1 authored / 0 remaining for the 31
+  matched keys, a `parasitology-part3 | 31 | 0 | 0 | 31` summary row is
+  added beside the other cluster rows, and `## Remaining` is rewritten to
+  the true 23 biochemistry keys left in the 281-key triage.
 -->
 
 | cluster | authored | held | remaining | total |
@@ -106,11 +127,11 @@
 | alcoholic-steatosis.mechanisms | 1 | 0 | 0 | 1 |
 | aluminium-hydroxide.phosphate-binding-in-renal-failure | 1 | 0 | 0 | 1 |
 | amoebic-dysentery.flask-shaped-ulcers | 0 | 0 | 1 | 1 |
-| amoebic-liver-abscess.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| ancylostoma-duodenale.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
+| amoebic-liver-abscess.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
+| ancylostoma-duodenale.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
 | ancylostoma-duodenale.ground-itch | 1 | 0 | 0 | 1 |
-| ancylostoma-duodenale.infective-stage.filariform-larva | 0 | 0 | 1 | 1 |
-| ancylostoma-duodenale.iron-deficiency-anemia | 0 | 0 | 1 | 1 |
+| ancylostoma-duodenale.infective-stage.filariform-larva | 1 | 0 | 0 | 1 |
+| ancylostoma-duodenale.iron-deficiency-anemia | 1 | 0 | 0 | 1 |
 | antacid-combination.mg-al-balancing-bowel-effects | 1 | 0 | 0 | 1 |
 | antacids.rapid-onset-brief-duration | 1 | 0 | 0 | 1 |
 | antidiarrhoeal-drugs.indapamide-is-a-diuretic | 1 | 0 | 0 | 1 |
@@ -118,7 +139,7 @@
 | antiemetics.apomorphine-is-an-emetic | 1 | 0 | 0 | 1 |
 | antiemetics.motion-sickness.dimenhydrinate | 1 | 0 | 0 | 1 |
 | antispasmodics.direct-vs-anticholinergic | 1 | 0 | 0 | 1 |
-| ascaris-lumbricoides.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
+| ascaris-lumbricoides.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
 | ascaris-lumbricoides.complications.obstruction | 1 | 0 | 0 | 1 |
 | ascaris-lumbricoides.egg-maturation-in-soil | 1 | 0 | 0 | 1 |
 | ascaris-lumbricoides.egg-morphology.single-cell | 1 | 0 | 0 | 1 |
@@ -152,19 +173,19 @@
 | colonic-adenoma.malignant-potential | 0 | 0 | 1 | 1 |
 | colonic-polyps.non-neoplastic-vs-neoplastic | 0 | 0 | 1 | 1 |
 | colorectal-carcinoma.modified-dukes-staging | 0 | 0 | 1 | 1 |
-| cryptosporidium.differential-diarrhoea-in-immunosuppressed | 0 | 0 | 1 | 1 |
-| cryptosporidium.infective-stage.oocyst | 0 | 0 | 1 | 1 |
+| cryptosporidium.differential-diarrhoea-in-immunosuppressed | 1 | 0 | 0 | 1 |
+| cryptosporidium.infective-stage.oocyst | 1 | 0 | 0 | 1 |
 | diarrhoea-treatment.muscarinic-agonists-not-used | 1 | 0 | 0 | 1 |
 | dietary-lipid-transport.chylomicrons | 0 | 0 | 1 | 1 |
-| diphyllobothrium-latum.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
+| diphyllobothrium-latum.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.complication.b12-deficiency-anemia | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.diagnostic-stage | 1 | 0 | 0 | 1 |
-| diphyllobothrium-latum.differential-b12-deficiency-anemia | 0 | 0 | 1 | 1 |
+| diphyllobothrium-latum.differential-b12-deficiency-anemia | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.egg-morphology.operculated | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.infective-stage.plerocercoid-in-fish | 1 | 0 | 0 | 1 |
-| diphyllobothrium-latum.mechanism-of-b12-deficiency-anemia | 0 | 0 | 1 | 1 |
+| diphyllobothrium-latum.mechanism-of-b12-deficiency-anemia | 1 | 0 | 0 | 1 |
 | diphyllobothrium-latum.second-intermediate-host.fish | 1 | 0 | 0 | 1 |
-| diphyllobothrium-latum.treatment.praziquantel | 0 | 0 | 1 | 1 |
+| diphyllobothrium-latum.treatment.praziquantel | 1 | 0 | 0 | 1 |
 | dipylidium-caninum.control.flea-vector | 1 | 0 | 0 | 1 |
 | dipylidium-caninum.diagnostic-stage | 1 | 0 | 0 | 1 |
 | disaccharide-digestion.pancreatic-enzymes | 0 | 0 | 1 | 1 |
@@ -179,15 +200,15 @@
 | echinococcus.alveolar-hydatid.intermediate-host | 1 | 0 | 0 | 1 |
 | echinococcus.alveolar-hydatid.malignant-like-behaviour | 1 | 0 | 0 | 1 |
 | echinococcus.alveolar-hydatid.site | 1 | 0 | 0 | 1 |
-| entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate | 0 | 0 | 1 | 1 |
-| entamoeba-histolytica.infective-stage.cyst | 0 | 0 | 1 | 1 |
+| entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate | 1 | 0 | 0 | 1 |
+| entamoeba-histolytica.infective-stage.cyst | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.airborne-egg-transmission | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.clinical-features.perianal-pruritus | 1 | 0 | 0 | 1 |
-| enterobius-vermicularis.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
+| enterobius-vermicularis.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.diagnosis.graham-swab | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.diagnosis.not-by-stool | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.diagnosis.perianal-swab | 1 | 0 | 0 | 1 |
-| enterobius-vermicularis.diagnostic-stage | 0 | 0 | 1 | 1 |
+| enterobius-vermicularis.diagnostic-stage | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.ectopic-egg-deposition | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.egg-morphology.plano-convex | 1 | 0 | 0 | 1 |
 | enterobius-vermicularis.egg-under-fingernails | 1 | 0 | 0 | 1 |
@@ -199,9 +220,9 @@
 | fasciola-hepatica.intermediate-host.lymnaea-truncatula | 1 | 0 | 0 | 1 |
 | fasciola.clinical-course | 1 | 0 | 0 | 1 |
 | fasciola.clinical-features-and-diagnosis | 1 | 0 | 0 | 1 |
-| fasciola.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
+| fasciola.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
 | fasciola.complication.b12-deficiency-anemia | 1 | 0 | 0 | 1 |
-| fasciola.diagnosis.serology-when-stool-negative | 0 | 0 | 1 | 1 |
+| fasciola.diagnosis.serology-when-stool-negative | 1 | 0 | 0 | 1 |
 | fasciola.early-diagnosis.serology | 1 | 0 | 0 | 1 |
 | fasciola.habitat.bile-ducts | 1 | 0 | 0 | 1 |
 | fasciola.halzoon-syndrome | 1 | 0 | 0 | 1 |
@@ -221,8 +242,8 @@
 | gastric-polyps.malignant-potential.adenomatous | 0 | 0 | 1 | 1 |
 | gastric-tumours.benign-mesenchymal-vs-epithelial | 0 | 0 | 1 | 1 |
 | gerd.proton-pump-inhibitor-for-full-acid-suppression | 1 | 0 | 0 | 1 |
-| giardia-lamblia.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| giardia-lamblia.habitat.duodenum-jejunum | 0 | 0 | 1 | 1 |
+| giardia-lamblia.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
+| giardia-lamblia.habitat.duodenum-jejunum | 1 | 0 | 0 | 1 |
 | gist.c-kit-mutation | 0 | 0 | 1 | 1 |
 | gist.commonest-abdominal-mesenchymal-tumour | 0 | 0 | 1 | 1 |
 | git-lymphoma.commonest-site | 0 | 0 | 1 | 1 |
@@ -240,16 +261,16 @@
 | hepatic-parasites | 1 | 0 | 0 | 1 |
 | hepatoblastoma.angiosarcoma-vs-hepatoblastoma-risk-factors | 1 | 0 | 0 | 1 |
 | hepatocellular-carcinoma.afp-marker | 1 | 0 | 0 | 1 |
-| heterophyes.complication.ectopic-egg-emboli | 0 | 0 | 1 | 1 |
+| heterophyes.complication.ectopic-egg-emboli | 1 | 0 | 0 | 1 |
 | heterophyes.complication.egg-emboli | 1 | 0 | 0 | 1 |
 | heterophyes.complication.myocarditis | 1 | 0 | 0 | 1 |
-| heterophyes.diagnosis.stool-concentration-technique | 0 | 0 | 1 | 1 |
+| heterophyes.diagnosis.stool-concentration-technique | 1 | 0 | 0 | 1 |
 | heterophyes.egg-hatching.no-miracidium-in-water | 1 | 0 | 0 | 1 |
-| heterophyes.infective-stage.encysted-metacercaria | 0 | 0 | 1 | 1 |
+| heterophyes.infective-stage.encysted-metacercaria | 1 | 0 | 0 | 1 |
 | heterophyes.intermediate-host.pirenella-conica | 1 | 0 | 0 | 1 |
 | heterophyes.life-cycle.lophocercous-cercaria | 1 | 0 | 0 | 1 |
-| heterophyes.second-intermediate-host.fish | 0 | 0 | 1 | 1 |
-| heterophyes.treatment.praziquantel | 0 | 0 | 1 | 1 |
+| heterophyes.second-intermediate-host.fish | 1 | 0 | 0 | 1 |
+| heterophyes.treatment.praziquantel | 1 | 0 | 0 | 1 |
 | hev.fulminant-hepatitis-in-pregnancy | 1 | 0 | 0 | 1 |
 | hev.transmission.faecal-oral | 1 | 0 | 0 | 1 |
 | hiatus-hernia.pathogenesis | 0 | 0 | 1 | 1 |
@@ -268,7 +289,7 @@
 | inflammatory-bowel-disease.crohns-site | 0 | 0 | 1 | 1 |
 | intestinal-nematodes.complication.appendicitis | 1 | 0 | 0 | 1 |
 | intestinal-nematodes.diagnostic-stage.adult-worm | 1 | 0 | 0 | 1 |
-| intestinal-parasites.complication.appendicitis | 0 | 0 | 1 | 1 |
+| intestinal-parasites.complication.appendicitis | 1 | 0 | 0 | 1 |
 | irritant-purgatives.mechanism | 1 | 0 | 0 | 1 |
 | juvenile-polyp.features | 0 | 0 | 1 | 1 |
 | lactase.hydrolysis-products | 0 | 0 | 1 | 1 |
@@ -312,6 +333,7 @@
 | pharmacology | 53 | 0 | 0 | 53 |
 | parasitology-part1 | 57 | 0 | 0 | 57 |
 | parasitology-part2 | 44 | 0 | 0 | 44 |
+| parasitology-part3 | 31 | 0 | 0 | 31 |
 | pepsin.endopeptidase-not-exopeptidase | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.common-sites | 0 | 0 | 1 | 1 |
 | peptic-ulcer-disease.gross-site | 0 | 0 | 1 | 1 |
@@ -349,8 +371,8 @@
 | strongyloides-stercoralis.smallest-intestinal-nematode | 1 | 0 | 0 | 1 |
 | strongyloides-stercoralis.treatment.ivermectin | 1 | 0 | 0 | 1 |
 | sulfasalazine.indication.inflammatory-bowel-disease | 1 | 0 | 0 | 1 |
-| taenia-saginata.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| taenia-saginata.diagnostic-stages | 0 | 0 | 1 | 1 |
+| taenia-saginata.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
+| taenia-saginata.diagnostic-stages | 1 | 0 | 0 | 1 |
 | taenia-saginata.infective-stage.cysticercus-bovis | 1 | 0 | 0 | 1 |
 | taenia-solium.cysticercosis | 1 | 0 | 0 | 1 |
 | taenia-solium.cysticercosis-risk | 1 | 0 | 0 | 1 |
@@ -361,14 +383,14 @@
 | taenia.differentiation-by-uterine-branches | 1 | 0 | 0 | 1 |
 | taenia.differentiation-solium-vs-saginata | 1 | 0 | 0 | 1 |
 | tongue-squamous-carcinoma.predisposing-factors | 0 | 0 | 1 | 1 |
-| toxocara.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
-| toxocara.infective-stage.embryonated-egg | 0 | 0 | 1 | 1 |
+| toxocara.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
+| toxocara.infective-stage.embryonated-egg | 1 | 0 | 0 | 1 |
 | trematode-eggs.operculated-immature | 1 | 0 | 0 | 1 |
 | trematode-eggs.stool-concentration-technique | 1 | 0 | 0 | 1 |
 | trematodes.infective-stage.encysted-metacercaria | 1 | 0 | 0 | 1 |
-| trichuris-trichiura.clinical-vignette-diagnosis | 0 | 0 | 1 | 1 |
+| trichuris-trichiura.clinical-vignette-diagnosis | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.complication.rectal-prolapse | 1 | 0 | 0 | 1 |
-| trichuris-trichiura.complications | 0 | 0 | 1 | 1 |
+| trichuris-trichiura.complications | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.egg-morphology.bipolar-plugs | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.mucosal-attachment | 1 | 0 | 0 | 1 |
 | trichuris-trichiura.no-migratory-phase | 1 | 0 | 0 | 1 |
@@ -384,39 +406,14 @@
 
 ## Remaining
 - alcoholic-fatty-liver.increased-nadh-nad-ratio
-- amoebic-liver-abscess.clinical-vignette-diagnosis
-- ancylostoma-duodenale.clinical-vignette-diagnosis
-- ancylostoma-duodenale.infective-stage.filariform-larva
-- ancylostoma-duodenale.iron-deficiency-anemia
-- ascaris-lumbricoides.clinical-vignette-diagnosis
 - coeliac-disease.gluten-trigger
-- cryptosporidium.differential-diarrhoea-in-immunosuppressed
-- cryptosporidium.infective-stage.oocyst
 - dietary-lipid-transport.chylomicrons
-- diphyllobothrium-latum.clinical-vignette-diagnosis
-- diphyllobothrium-latum.differential-b12-deficiency-anemia
-- diphyllobothrium-latum.mechanism-of-b12-deficiency-anemia
-- diphyllobothrium-latum.treatment.praziquantel
 - disaccharide-digestion.pancreatic-enzymes
-- entamoeba-histolytica.diagnosis.sigmoidoscopic-aspirate
-- entamoeba-histolytica.infective-stage.cyst
-- enterobius-vermicularis.clinical-vignette-diagnosis
-- enterobius-vermicularis.diagnostic-stage
-- fasciola.clinical-vignette-diagnosis
-- fasciola.diagnosis.serology-when-stool-negative
 - fatty-liver.causes-vs-increased-fatty-acid-oxidation
 - fructose-absorption.glut-5
 - gastric-lipase.significance-in-infants
-- giardia-lamblia.clinical-vignette-diagnosis
-- giardia-lamblia.habitat.duodenum-jejunum
 - glucose-transporters.intestinal-scglt1-glut2-glut5
 - glut-2.basolateral-sugar-exit
-- heterophyes.complication.ectopic-egg-emboli
-- heterophyes.diagnosis.stool-concentration-technique
-- heterophyes.infective-stage.encysted-metacercaria
-- heterophyes.second-intermediate-host.fish
-- heterophyes.treatment.praziquantel
-- intestinal-parasites.complication.appendicitis
 - lactase.hydrolysis-products
 - lactose-intolerance.lactase-deficiency
 - lipotropic-factors.chloroform-is-hepatotoxic
@@ -429,11 +426,5 @@
 - pepsin.endopeptidase-not-exopeptidase
 - sglt-1.tissue-distribution-intestine-and-kidney-not-muscle
 - steatorrhoea.causes-vs-hormone-sensitive-lipase
-- taenia-saginata.clinical-vignette-diagnosis
-- taenia-saginata.diagnostic-stages
-- toxocara.clinical-vignette-diagnosis
-- toxocara.infective-stage.embryonated-egg
-- trichuris-trichiura.clinical-vignette-diagnosis
-- trichuris-trichiura.complications
 - trypsin.endopeptidase-not-exopeptidase
 - trypsin.substrate-specificity-arginine-lysine

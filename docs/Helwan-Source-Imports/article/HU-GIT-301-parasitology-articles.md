@@ -469,3 +469,217 @@ CLM-GIT-ZOONOTIC-DOG-TRANSMITTED-01
 
 ## field_notes
 relationships: Covers every concept minted in this cluster; cross-article links deferred to a later pass — see WANTED.
+
+---
+
+# Item
+
+## id
+ART-HU-GIT301-PARA-VIGNETTES
+
+## title
+GIT 301 parasitology: Protozoa and mixed-organism clinical vignettes
+
+## arabic_title
+الطفيليات في الجهاز الهضمي: حالات سريرية مختلطة للأوليات والديدان
+
+## aliases
+
+
+## subject
+gi
+
+## topic
+Gastrointestinal parasitology
+
+## subtopic
+Protozoa and mixed-organism clinical vignettes
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-PAR-T02
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1-3 foundation
+
+## reading_time
+22
+
+## high_yield
+High
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Helwan Year-3 authoring lane
+
+## reviewer
+Medical team, Helwan Pathology faculty
+
+## final_publisher
+Admin team
+
+## summary
+The department parasitology MCQ bank's 13-case clinical-vignette block (pp.20-25): protozoa (Entamoeba histolytica, Giardia lamblia, Cryptosporidium, amoebic liver abscess) and a mixed roster of flukes, tapeworms and nematodes revisited in applied clinical-recognition form.
+
+## sections
+### Definition
+The GIT-301 parasitology curriculum closes with the department bank's 13-case clinical-vignette block (pp.20-25): short clinical stems for protozoa (Entamoeba histolytica, Giardia lamblia, Cryptosporidium) and a mixed roster of previously-covered flukes, tapeworms and nematodes (Fasciola, Taenia saginata, Diphyllobothrium latum, Heterophyes, Toxocara, Trichuris trichiura, Ancylostoma duodenale, Enterobius vermicularis, Ascaris lumbricoides), each tested by recognition of a compatible history, examination and investigation picture rather than an isolated fact.
+
+### Mechanism
+### Protozoa
+Entamoeba histolytica causes amoebic dysentery via its invasive trophozoite, found at the flask-shaped colonic ulcer itself (sigmoidoscopic aspirate), while its resistant cyst is the acid-stable, transmissible stage. Giardia lamblia attaches to the duodenal/jejunal mucosa, producing a malabsorptive, greasy-stool picture without blood or organomegaly, distinguishing it from Entamoeba's dysenteric picture. Cryptosporidium's acid-fast oocyst causes severe watery diarrhoea, particularly in AIDS patients, where Strongyloides stercoralis is a second organism whose diarrhoea severity is amplified by the same immunosuppression. Amoebic liver abscess follows portal spread of invasive Entamoeba histolytica, presenting with fever, rigors, tender hepatomegaly and neutrophilic leucocytosis, distinguished from the more indolent hydatid cyst.
+
+### Mixed organisms revisited in vignette form
+Fasciola's acute hepatic phase can present with an egg-negative stool, confirmed by serology rather than a stool-based method. Taenia saginata is recognised by its actively motile proglottids, diagnosed by egg, proglottid or post-treatment scolex. Diphyllobothrium latum is recognised by a fish-ingestion history with pernicious anaemia from direct B12/folate consumption by the adult worm -- a mechanism distinct from, but paralleled by, Fasciolopsis buski's anaemia via mucosal malabsorption. Heterophyes, from undercooked fish, risks ectopic egg embolisation to the heart, spinal cord or brain. Toxocara (visceral larva migrans) follows dog contact with tissue-migratory eosinophilia. Ancylostoma duodenale, Enterobius vermicularis, Ascaris lumbricoides and Trichuris trichiura recur here in their classic occupational, nocturnal, radiological and dysenteric-with-rectal-prolapse presentations respectively, and several of them, plus Entamoeba histolytica, are recognised causes of parasitic appendicitis.
+
+### Key determinants
+This vignette-block tests recognition, not isolated recall: match the exposure history (farmer, fisherman, dog contact, raw fish), the symptom/sign pattern, and any investigation clue (barium shadow, raised hemidiaphragm, acid-fast stool) to the single best-fitting organism, then answer the follow-up question(s) about that same case using the specific fact asked (diagnostic stage, infective stage, mechanism, treatment) rather than a generic fact about the organism.
+
+### Clinical significance
+These vignettes model real diagnostic reasoning: an exposure history plus a compatible clinical/investigation picture, not a single pathognomonic sign, is what narrows a differential in Egyptian clinical parasitology practice. Every linked record remains Draft pending independent review.
+
+### Exam approach
+Read the full vignette (including any "continued" stem) before answering, since later questions in the same case depend on the same diagnosis already established. For an "all of the above" option over a short list, check whether every listed item is independently true before selecting it, rather than assuming the option is a distractor. Two items (#116, #146) had a 4th option added at build time that is deliberately also-true, keeping the printed "all of the above" answer valid; six others (#119, #121, #123, #129, #130, #139) had a plausible wrong 4th option added to meet the platform's option-count floor without changing the printed answer.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+
+
+## lose_the_mark
+
+
+## related_concepts
+CON-GIT-55AA6EFD12728B
+CON-GIT-4F7F1B3E506296
+CON-GIT-DAB2EA01845F37
+CON-GIT-F9461195C94BEF
+CON-GIT-ABAF5A3E5CAE22
+CON-GIT-C293F5D142CA62
+CON-GIT-1BEDFD8DA5EAFE
+CON-GIT-1FB41DF514D690
+CON-GIT-42823FF780719F
+CON-GIT-79C0B5B92282EE
+CON-GIT-2117D169A473CA
+CON-GIT-9D8DC908CC1F41
+CON-GIT-C83F835B539603
+CON-GIT-D621FB6F16B11A
+CON-GIT-A8BC29E8AB6DDB
+CON-GIT-0AEAEF530A1913
+CON-GIT-2B15969DFC3488
+CON-GIT-C0C6666A1EAB8A
+CON-GIT-01290330E2CC13
+CON-GIT-0639691FC5B030
+CON-GIT-E6EEA1EB7C43B5
+CON-GIT-F170E153F0B871
+CON-GIT-7769B8A270CA6F
+CON-GIT-0D39ACB45BD320
+CON-GIT-4FF6DB551A0A27
+CON-GIT-4AC9026622D265
+CON-GIT-5AF3E7C4293A73
+CON-GIT-C2282601BA6765
+CON-GIT-21DB91C4D24A4C
+CON-GIT-C465585A0366E5
+CON-GIT-6D904B468390C8
+
+## related_articles
+
+
+## question_ids
+
+
+## resource_ids
+
+
+## universities
+hu
+
+## years
+HU_Y3
+
+## module
+HU-GIT-301
+
+## module_subject
+HU-GIT-301 > Parasitology > Protozoa and mixed-organism clinical vignettes
+
+## university_notes
+hu: Restricted to HU-GIT-301 Year 3. Sourced from the department parasitology MCQ bank (scripts/helwan/extract/HU-GIT-301/mcq-bank-parasitology.json, items #113-146); no official past-paper key is involved.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## callout_evidence
+
+
+## claim_ids
+CLM-GIT-FASCIOLA-VIGNETTE-DIAGNO-01
+CLM-GIT-FASCIOLA-SEROLOGY-DIAGNO-01
+CLM-GIT-TAENIA-SAGINATA-VIGNETTE-01
+CLM-GIT-TAENIA-SAGINATA-DIAGNOST-01
+CLM-GIT-ENTAMOEBA-SIGMOIDOSCOPIC-01
+CLM-GIT-ENTAMOEBA-INFECTIVE-CYST-01
+CLM-GIT-CRYPTOSPORIDIUM-OOCYST-I-01
+CLM-GIT-CRYPTOSPORIDIUM-DIFFEREN-01
+CLM-GIT-AMOEBIC-LIVER-ABSCESS-VI-01
+CLM-GIT-GIARDIA-VIGNETTE-DIAGNOS-01
+CLM-GIT-GIARDIA-HABITAT-DUODENUM-01
+CLM-GIT-TOXOCARA-VIGNETTE-DIAGNO-01
+CLM-GIT-TOXOCARA-INFECTIVE-EMBRY-01
+CLM-GIT-TRICHURIS-VIGNETTE-DIAGN-01
+CLM-GIT-TRICHURIS-VIGNETTE-COMPL-01
+CLM-GIT-ANCYLOSTOMA-VIGNETTE-DIA-01
+CLM-GIT-ANCYLOSTOMA-IRON-DEFICIE-01
+CLM-GIT-ANCYLOSTOMA-INFECTIVE-FI-01
+CLM-GIT-ENTEROBIUS-VIGNETTE-DIAG-01
+CLM-GIT-ENTEROBIUS-DXSTAGE-VIGNE-01
+CLM-GIT-ASCARIS-VIGNETTE-DIAGNOS-01
+CLM-GIT-DIPHYLLOBOTHRIUM-VIGNETT-01
+CLM-GIT-DIPHYLLOBOTHRIUM-MECHANI-01
+CLM-GIT-DIPHYLLOBOTHRIUM-TREATME-01
+CLM-GIT-HETEROPHYES-SECOND-INTER-01
+CLM-GIT-HETEROPHYES-TREATMENT-PR-01
+
+## span_ids
+
+
+## evidence_gaps
+[clear]
+
+## notes
+
+
+## field_notes
+relationships: Covers every concept minted in this cluster; cross-article links deferred to a later pass — see WANTED.
