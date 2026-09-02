@@ -156,7 +156,7 @@ export function DeckDashboard({
  * whole surface is the control and whose preview is a route, not a panel that
  * lives on this page.
  */
-function StudyRhythmGate({ children }: { children: ReactNode }) {
+export function StudyRhythmGate({ children }: { children: ReactNode }) {
   const t = useT()
   const [explaining, setExplaining] = useState(false)
   const [previewing, setPreviewing] = useState(false)

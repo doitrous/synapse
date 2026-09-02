@@ -130,3 +130,10 @@ test('sanitizeRich drops any other attribute on an otherwise-valid <img>', () =>
   const html = sanitizeRich('<img src="synapse-media:abc" onerror="alert(1)" class="x" data-z="1" style="position:fixed">')
   assert.equal(html, '<img src="synapse-media:abc">')
 })
+
+test('isLegacyPlainText: a bare < before a letter is still plain text', () => {
+  assert.equal(isLegacyPlainText('a <b c and more'), true)
+  assert.equal(isLegacyPlainText('K<Na, so >140'), true)
+  assert.equal(isLegacyPlainText('x <b>y</b>'), false)
+  assert.equal(isLegacyPlainText('salt &amp; water'), false)
+})

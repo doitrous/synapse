@@ -11,7 +11,7 @@ import { managedDeckToStudentDeck, type StudentDeck } from '@/data/decks'
 import { useFlashcards } from '@/lib/useFlashcards'
 import { ShortcutsProvider, useCommands, useOpenShortcutHelp } from '@/lib/shortcuts/useShortcuts'
 import type { Command } from '@/lib/shortcuts/registry'
-import { DeckDashboard } from '@/components/flashcards/DeckDashboard'
+import { DeckDashboard, StudyRhythmGate } from '@/components/flashcards/DeckDashboard'
 import { StudyScreen } from '@/components/flashcards/StudyScreen'
 import { AddView } from '@/components/flashcards/AddView'
 import { BrowseView } from '@/components/flashcards/BrowseView'
@@ -134,7 +134,8 @@ function FlashcardsShell() {
         />
       )}
       {view === 'browse' && <BrowseView api={api} onAdd={() => openAdd()} onEditNote={(noteId) => openAdd({ noteId })} />}
-      {view === 'stats' && <StatsView api={api} />}
+      {/* Omar: flashcards stats are coming soon — the whole tab sits behind the gate, preview included. */}
+      {view === 'stats' && <StudyRhythmGate><StatsView api={api} /></StudyRhythmGate>}
 
       {guideOpen && <FlashcardsGuide onClose={() => setGuideOpen(false)} />}
     </PageContainer>

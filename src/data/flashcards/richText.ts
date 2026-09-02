@@ -75,8 +75,13 @@ export function escapeHtml(text: string): string {
  * text. A value holding either a tag or an entity is already HTML and must be
  * left exactly as it is — escaping that again would show its own markup.
  */
+const REAL_TAG = /<\/?(?:b|i|u|s|strong|em|sup|sub|span|div|p|br|ul|ol|li|mark|font|a|img|code|pre|blockquote|h[1-6]|hr)\b[^<>]*>/i
+
 export function isLegacyPlainText(value: string): boolean {
-  return !/<[a-zA-Z!/]/.test(value) && !ANY_ENTITY.test(value)
+  // A bare `<` followed by a letter is not enough — "K<Na, so >140" and
+  // "a <b c" are things a student types. Only a complete allowlisted tag
+  // (or an entity) proves the value has already been through the editor.
+  return !REAL_TAG.test(value) && !ANY_ENTITY.test(value)
 }
 
 /**
