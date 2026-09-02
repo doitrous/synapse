@@ -1,0 +1,530 @@
+{
+  "lane": "AUN-CBF-103",
+  "cluster": "cbf-bank-pending-103bms-physiology",
+  "header": "AUN-CBF-103 -- CBF question bank.pdf, Q31-80 batch (author2 lane). Q33,38,39,40,45,54,56,62,64,66,67,69 reuse eight pending Kasr 103-BMS-physiology concepts (nerve excitability/AP-phases, strength-duration curve, Na+ channel gates, RMP definition-and-magnitude, unmyelinated local-circuit conduction, relative refractory period, all-or-none law, and A/B/C fibre classification) found via search-before-mint over docs/import-ready/concept/103-BMS-physiology-concepts.md -- a DIFFERENT Kasr 103-BMS batch from the one lane1's own pending-103bms overlay and this lane's cbf-bank-pending-103bms-2 overlay both draw from (103-BMS-mcq-vitamins-nerve-concepts.md). Omar applies this batch only after: 1) the Kasr 103-BMS-physiology concept batch (docs/import-ready/concept/103-BMS-physiology-concepts.md, article/103-BMS-physiology.md), 2) AUN-CBF-103-cbf-bank-pending-103bms-physiology-concept.md (the sparse +aun overlay). Import order: 1 then 2 then this file, each via Admin > Bulk import -> question.",
+  "defaults": {
+    "subject": "neuro",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-CBF-103",
+    "module_subject": "AUN-CBF-103 > Physiology > Nerve Excitability",
+    "exam_weight_by_year": {
+      "AUN_Y1": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_76eae135453cd8432f14"
+    ],
+    "source_citation": "CBF question bank.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Nerve Excitability"
+  },
+  "questions": [
+    {
+      "key": "cbf-bank-q033",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q033",
+      "page": 4,
+      "title": "Nerve excitability is maximum at the firing level",
+      "question": "Regarding excitability of a nerve:",
+      "options": {
+        "A": "is maximum at the firing level.",
+        "B": "is high during repolarization.",
+        "C": "can respond to a second stimulus during ARP.",
+        "D": "is zero during RRP."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Excitability changes across the course of an action potential: during the initial depolarization, as the membrane approaches the firing level (threshold), excitability rises and peaks right at that point, since the membrane is then closest to the self-sustaining Na+ influx that triggers a full spike. Through the rest of the action potential the fibre becomes refractory instead.",
+        "B": "Incorrect. During repolarization the fibre is within the absolute or relative refractory period, when excitability is reduced or abolished, not elevated.",
+        "C": "Incorrect. No stimulus, however strong, can excite the fibre during the absolute refractory period (ARP) -- the Na+ channels needed for a second spike are simply unavailable until they recover.",
+        "D": "Incorrect. During the relative refractory period (RRP) excitability is reduced, not zero -- a stronger-than-threshold stimulus can still trigger a second action potential, unlike during the ARP."
+      },
+      "main_concept": "CON-NEU-751C4921A154CC",
+      "concept_ids": [
+        "CON-NEU-751C4921A154CC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-AP-SHAPE-CONDUCTION"
+      ],
+      "subtopic": "Action potential phases and excitability",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that nerve excitability is maximum at the firing level, and falls through the refractory periods that follow.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"33- a\"",
+        "pendingConcept": "CON-NEU-751C4921A154CC is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.action-potential.phases-and-excitability-changes -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q038",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q038",
+      "page": 5,
+      "title": "Chronaxie is the time by double rheobasic strength to stimulate the nerve",
+      "question": "The Strength-Duration curve:",
+      "options": {
+        "A": "is the relationship between the duration of the stimulus and amplitude of response.",
+        "B": "has a rheobase which is 2 times chronaxie.",
+        "C": "has a chronaxie which is the time needed by double the rheobasic strength to stimulate the nerve.",
+        "D": "strong stimuli of extreme short duration can excite the nerve."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The strength-duration curve relates a stimulus's intensity to the duration it must be applied to excite the nerve, not to the amplitude of the resulting response -- the action potential's amplitude is fixed by the all-or-none law, not a variable the curve tracks.",
+        "B": "Incorrect. This reverses the two landmarks: chronaxie, not rheobase, is defined in terms of double an intensity -- specifically, double the rheobase intensity -- not the other way around.",
+        "C": "Correct. Rheobase is the minimum stimulus intensity that can excite the nerve, however long it is applied. Chronaxie is the duration needed for a stimulus at exactly twice that rheobase intensity to excite the nerve, and it is used as an index of excitability -- a shorter chronaxie means a more excitable fibre.",
+        "D": "Incorrect. Within limits a stronger stimulus needs a shorter duration to excite the nerve, but an extremely short-duration stimulus will not excite the nerve no matter how intense it is -- there is a floor duration below which no stimulus strength suffices."
+      },
+      "main_concept": "CON-NEU-BC5C6F99B13676",
+      "concept_ids": [
+        "CON-NEU-BC5C6F99B13676"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-NEURON-EXCITABILITY"
+      ],
+      "subtopic": "Strength-duration curve",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that chronaxie is the duration needed for a stimulus at twice rheobase intensity to excite the nerve.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"38- c\"",
+        "pendingConcept": "CON-NEU-BC5C6F99B13676 is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.strength-duration-curve.rheobase-utilization-time -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q039",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q039",
+      "page": 5,
+      "title": "Voltage-gated Na+ channel inactivation gates are open at rest",
+      "question": "Voltage-gated Na+ channels:",
+      "options": {
+        "A": "have activation gates on the inner surface of the membrane and inactivation gates on the outer surface.",
+        "B": "inactivation gates are opened at rest.",
+        "C": "activation gates open during catelectrotonus.",
+        "D": "at threshold potential, the inactivation gates close."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. This reverses the two gates' actual positions: the activation gate sits near the outer surface and the inactivation gate on the inner surface, not the other way around.",
+        "B": "Correct. At the resting membrane potential the voltage-gated Na+ channel's activation gate is closed and its inactivation gate is open, which together define the channel's resting state. Opening the outer (activation) gate on depolarization makes the channel activated; only later does the inner (inactivation) gate close, making it inactivated.",
+        "C": "Incorrect. Activation gates open on depolarization toward threshold, not specifically during catelectrotonus (the local hyperpolarization under a cathode-adjacent anode, or more generally an unrelated electrotonic phenomenon) -- the gate-opening event this question tests is tied to depolarization, not this specific named condition.",
+        "D": "Incorrect. Inactivation gates close shortly after the activation gates open, on a short delay following threshold, not exactly at the threshold potential itself."
+      },
+      "main_concept": "CON-NEU-157E05FAF3B100",
+      "concept_ids": [
+        "CON-NEU-157E05FAF3B100"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-NERVE-ACTION-POTENTIAL"
+      ],
+      "subtopic": "Sodium channel gating",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that the voltage-gated Na+ channel's inactivation gate is open at rest, and its activation gate is closed.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"39- b\"",
+        "pendingConcept": "CON-NEU-157E05FAF3B100 is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.sodium-channel.activation-inactivation-gates -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q040",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q040",
+      "page": 5,
+      "title": "Chronaxie is a measurement of excitability",
+      "question": "Chronaxie is:",
+      "options": {
+        "A": "the time needed for the rheobase to stimulate a nerve fiber.",
+        "B": "the minimum duration of a stimulus needed to excite the nerve.",
+        "C": "a measurement of excitability.",
+        "D": "the utilization time."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The time needed for a stimulus at exactly rheobase intensity to excite the nerve is called the utilization time, not chronaxie -- chronaxie is instead defined at double the rheobase intensity.",
+        "B": "Incorrect. This describes utilization time (the duration at rheobase intensity), not chronaxie, which is defined at twice rheobase intensity, not the minimum intensity itself.",
+        "C": "Correct. Chronaxie -- the duration needed for a stimulus at twice rheobase intensity to excite the nerve -- is used as an index of excitability: a shorter chronaxie indicates a more excitable fibre, and a longer one a less excitable fibre, which is exactly why clinicians and physiologists use it as a measurement of excitability. Because it is expressed as a simple duration, it is easier to compare across fibres or conditions than raw threshold-intensity values alone.",
+        "D": "Incorrect. \"The utilization time\" names a different landmark on the strength-duration curve -- the duration needed at rheobase intensity itself, not at double that intensity."
+      },
+      "main_concept": "CON-NEU-BC5C6F99B13676",
+      "concept_ids": [
+        "CON-NEU-BC5C6F99B13676"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-NEURON-EXCITABILITY"
+      ],
+      "subtopic": "Strength-duration curve",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that chronaxie is used as a measurement (index) of nerve excitability.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"40- c\"",
+        "pendingConcept": "CON-NEU-BC5C6F99B13676, same pending Kasr 103-BMS-physiology concept as Q038 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q045",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q045",
+      "page": 6,
+      "title": "RMP in medium sized nerve is about -70 mV",
+      "question": "Resting membrane potential in medium sized nerve is normally about:",
+      "options": {
+        "A": "– 50 mv.",
+        "B": "35 mv (positive).",
+        "C": "– 90 mv.",
+        "D": "– 70 mv.",
+        "E": "– 55 mv."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. -50 mV is not the standard teaching figure for any of the cell classes whose RMP magnitude is typically taught -- large nerve/muscle fibres, medium neurons, or less excitable cells.",
+        "B": "Incorrect. +35 mV is not a resting value at all -- it is close to the overshoot value the membrane potential reaches at the peak of an action potential, not its resting state.",
+        "C": "Incorrect. -90 mV is the standard teaching figure for large nerve fibres and large skeletal muscle fibres, a different (larger) class of cell than the medium-sized nerve fibre this question asks about.",
+        "D": "Correct. RMP magnitude varies by cell type: about -90 mV in large nerve and skeletal muscle fibres, but about -70 mV in medium-sized neurons -- the class of fibre this question specifically names -- and only -20 to -40 mV in less excitable cells such as red blood cells and epithelium. Naming the wrong cell class for a given RMP value is one of the commonest slips on this fact.",
+        "E": "Incorrect. -55 mV is not the standard teaching figure quoted for medium-sized nerve fibres; it falls between the taught values without corresponding to any of the three standard cell-type categories."
+      },
+      "main_concept": "CON-NEU-8319D639D05322",
+      "concept_ids": [
+        "CON-NEU-8319D639D05322"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-RMP-EQUATIONS"
+      ],
+      "subtopic": "Resting membrane potential",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "State that the resting membrane potential of a medium-sized nerve fibre is about -70 mV, distinct from the -90 mV figure for large fibres.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"45- d\"",
+        "pendingConcept": "CON-NEU-8319D639D05322 is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.resting-potential.definition-and-magnitude -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q054",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q054",
+      "page": 7,
+      "title": "Myelinated fibre stimulation produces reversal of membrane potential",
+      "question": "The stimulation of myelinated nerve fibers would produce:",
+      "options": {
+        "A": "outward flow of sodium ions.",
+        "B": "inward flow of potassium ions.",
+        "C": "reversal of membrane potential.",
+        "D": "displacement of myelin sheath.",
+        "E": "none of the above are correct."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An adequate stimulus produces an inward, not outward, flow of sodium ions -- Na+ moves down its electrochemical gradient into the cell, the mechanism of depolarization.",
+        "B": "Incorrect. Potassium's movement during and after the action potential is outward (efflux), not inward, down its own concentration gradient.",
+        "C": "Correct. An adequate stimulus to a myelinated fibre triggers a full action potential at the nearest node of Ranvier: depolarisation carries the potential from about -90 mV through the firing level to an overshoot of about +35 mV -- a genuine reversal of the membrane potential's sign, not merely a partial shift toward zero. This overshoot is the defining feature that separates a true action potential from a smaller, non-propagated local response.",
+        "D": "Incorrect. Stimulation of a myelinated fibre does not physically displace the myelin sheath; the sheath's job is passive insulation of the internode, unaffected in position by the electrical events of the action potential.",
+        "E": "Incorrect, since option C correctly describes what stimulation of a myelinated fibre produces."
+      },
+      "main_concept": "CON-NEU-751C4921A154CC",
+      "concept_ids": [
+        "CON-NEU-751C4921A154CC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-AP-SHAPE-CONDUCTION"
+      ],
+      "subtopic": "Action potential phases and excitability",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that stimulating a myelinated nerve fibre produces a reversal of the membrane potential (the overshoot), not merely partial depolarization.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"54- c\"",
+        "pendingConcept": "CON-NEU-751C4921A154CC, same pending Kasr 103-BMS-physiology concept as Q033 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q056",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q056",
+      "page": 7,
+      "title": "Local circuit conduction needs more energy than saltatory conduction",
+      "question": "Local circuit mechanism for conduction of action potential:",
+      "options": {
+        "A": "is more rapid than saltatory conduction.",
+        "B": "occurs in the myelinated nerve fibers.",
+        "C": "needs less energy than saltatory conduction.",
+        "D": "needs more energy than saltatory conduction.",
+        "E": "occurs in both myelinated and unmyelinated nerve fibers."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Local circuit (continuous, point-to-point) conduction is slower, not more rapid, than saltatory conduction -- saltatory conduction's node-to-node jumping is exactly what gives myelinated fibres their speed advantage.",
+        "B": "Incorrect. Local circuit conduction is the mechanism of unmyelinated, not myelinated, fibres; myelinated fibres instead use saltatory conduction between their nodes of Ranvier.",
+        "C": "Incorrect. This has the comparison backwards: local circuit conduction needs more, not less, energy than saltatory conduction, for the same reason option D gives.",
+        "D": "Correct. In an unmyelinated axon, the action potential must be freshly regenerated at every point along the membrane via local circuit current flowing to the next resting patch, so the whole membrane's Na+-K+ pump has to restore ionic gradients continuously along its entire length. Saltatory conduction, by contrast, regenerates the impulse only at the sparse nodes of Ranvier, which is far more economical -- so local circuit conduction needs more energy overall than saltatory conduction does.",
+        "E": "Incorrect. Local circuit conduction occurs specifically in unmyelinated fibres; myelinated fibres instead conduct by the separate saltatory mechanism, so this option's claim of occurring in both is not correct."
+      },
+      "main_concept": "CON-NEU-76D490DA0BA0E6",
+      "concept_ids": [
+        "CON-NEU-76D490DA0BA0E6"
+      ],
+      "contextual_concept_ids": [
+        "CON-NEU-A0C8307D2825A6"
+      ],
+      "library_ids": [
+        "ART-103-PHY-AP-SHAPE-CONDUCTION"
+      ],
+      "subtopic": "Local circuit conduction",
+      "difficulty": "Hard",
+      "question_type": "Application",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Explain that local circuit conduction in unmyelinated fibres needs more energy than saltatory conduction, since it regenerates the impulse continuously rather than only at the nodes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"56- d\"",
+        "pendingConcept": "CON-NEU-76D490DA0BA0E6 is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.conduction.unmyelinated-local-circuit -- this question and its +aun overlay apply only after Omar imports that Kasr batch. Paired with CON-NEU-A0C8307D2825A6 (saltatory conduction, already overlaid by lane1) as the comparison this question turns on."
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q062",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q062",
+      "page": 8,
+      "title": "Relative refractory period coincides with second 2/3 of the descending limb",
+      "question": "Relative refractory period:",
+      "options": {
+        "A": "is an increase in excitability.",
+        "B": "is a complete loss of excitability.",
+        "C": "coincides with the second 2/3 of descending limb of spike.",
+        "D": "during it the nerve can't respond to any stimulus whatever its strength.",
+        "E": "coincides with after hyperpolarization."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The relative refractory period is a period of decreased, not increased, excitability -- only a stronger-than-threshold stimulus can excite the fibre during it.",
+        "B": "Incorrect. Complete loss of excitability describes the absolute, not the relative, refractory period; during the relative refractory period some Na+ channels have already recovered and are available.",
+        "C": "Correct. The relative refractory period begins at the end of the absolute refractory period and ends when the membrane potential returns to its resting level -- a window that corresponds to roughly the second two-thirds of the spike's descending limb (repolarization), the first third of which is still part of the absolute refractory period. Only once enough Na+ channels have recovered, partway through repolarization, does the relative refractory period begin.",
+        "D": "Incorrect. This describes the absolute, not the relative, refractory period -- during the relative refractory period a sufficiently strong stimulus CAN still excite the fibre, unlike during the absolute refractory period.",
+        "E": "Incorrect. After-hyperpolarization is a separate, later phase that follows repolarization, not the window the relative refractory period itself occupies."
+      },
+      "main_concept": "CON-NEU-F119674A8DFD8D",
+      "concept_ids": [
+        "CON-NEU-F119674A8DFD8D"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-NERVE-ACTION-POTENTIAL"
+      ],
+      "subtopic": "Refractory periods",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that the relative refractory period coincides with the second two-thirds of the spike's descending limb.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"62- c\"",
+        "pendingConcept": "CON-NEU-F119674A8DFD8D is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.refractory.relative -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q064",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q064",
+      "page": 8,
+      "title": "All-or-none law applies to a single nerve fiber",
+      "question": "All or none law can be applied to:",
+      "options": {
+        "A": "whole skeletal muscle.",
+        "B": "nerve trunk.",
+        "C": "single nerve fiber.",
+        "D": "multi unit smooth muscle.",
+        "E": "single unit smooth muscle."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A whole skeletal muscle is made of many individual fibres with different thresholds, so its overall contraction is graded (by recruiting more fibres and raising stimulation frequency), not all-or-none, even though each single fibre within it does obey the law.",
+        "B": "Incorrect. A nerve trunk is a population of many individual fibres with different thresholds, so the compound action potential it produces is multi-peaked and graded, not fixed and all-or-none the way a single fibre's response is.",
+        "C": "Correct. The nerve action potential obeys the all-or-none law at the level of a single nerve fibre: once triggered, it propagates with the same amplitude, duration and shape regardless of whether the stimulus was exactly at threshold or far above it, as long as conditions stay constant. A whole nerve trunk or muscle, by contrast, is a population of many such fibres with differing thresholds, so its overall response is graded rather than all-or-none.",
+        "D": "Incorrect. Multi-unit smooth muscle is made of many independently-controlled fibres, each responding roughly individually to its own innervation, so the tissue's overall response is graded rather than all-or-none.",
+        "E": "Incorrect. Single-unit smooth muscle fires as an electrically-coupled syncytium once a slow wave reaches its firing level, but the whole sheet's graded mechanical response (through varying wave frequency and coupling) is not the same fixed, all-or-none behaviour tested by this question at the single-fibre level."
+      },
+      "main_concept": "CON-NEU-2DFEA8FD9919EA",
+      "concept_ids": [
+        "CON-NEU-2DFEA8FD9919EA"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-AP-SHAPE-CONDUCTION"
+      ],
+      "subtopic": "All-or-none law",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that the all-or-none law applies to a single nerve fibre's action potential, not to a whole nerve trunk or whole muscle.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"64- c\"",
+        "pendingConcept": "CON-NEU-2DFEA8FD9919EA is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.action-potential.all-or-none-law -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q066",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q066",
+      "page": 8,
+      "title": "Chronaxie: time by current of twice rheobase intensity",
+      "question": "The term \"chronaxie \"refers to:",
+      "options": {
+        "A": "the utilization time.",
+        "B": "the minimal duration of a stimulus which can excites the nerve.",
+        "C": "the time needed by the rheobase to stimulate the nerve fiber.",
+        "D": "the time needed by the current of twice the rheobase intensity to stimulate the nerve.",
+        "E": "none of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Utilization time is a related but different landmark -- the duration needed for a stimulus at exactly rheobase intensity, not at double that intensity, to excite the nerve.",
+        "B": "Incorrect. The minimal duration a stimulus of any strength could ever need corresponds more closely to the strength-duration curve's own asymptotic behaviour, not to chronaxie's specific double-rheobase definition.",
+        "C": "Incorrect. The time needed by a stimulus at exactly rheobase intensity is utilization time, not chronaxie, which is instead defined at twice that intensity.",
+        "D": "Correct. Chronaxie is the duration needed for a stimulus at twice rheobase intensity to excite the nerve -- a specific, standardised point on the strength-duration curve used as an index of excitability. A shorter chronaxie therefore signals a more excitable fibre, and a longer one a less excitable fibre.",
+        "E": "Incorrect, since option D correctly defines chronaxie."
+      },
+      "main_concept": "CON-NEU-BC5C6F99B13676",
+      "concept_ids": [
+        "CON-NEU-BC5C6F99B13676"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-NEURON-EXCITABILITY"
+      ],
+      "subtopic": "Strength-duration curve",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 1,
+      "learning_objective": "Define chronaxie as the duration needed by a stimulus at twice rheobase intensity to excite the nerve.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"66- d\"",
+        "pendingConcept": "CON-NEU-BC5C6F99B13676, same pending Kasr 103-BMS-physiology concept as Q038/Q040 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q067",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q067",
+      "page": "8-9",
+      "title": "Chronaxie is inversely proportional to excitability",
+      "question": "Chronaxie is:",
+      "options": {
+        "A": "the duration of the rheobase stimulus.",
+        "B": "double rheobase stimulus.",
+        "C": "the utilization time.",
+        "D": "the rheobase stimulus.",
+        "E": "inversely proportional to excitability."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The duration of a rheobase-intensity stimulus is utilization time, a different landmark from chronaxie, which is defined at twice, not exactly at, rheobase intensity.",
+        "B": "Incorrect. \"Double rheobase stimulus\" names an intensity, but chronaxie is itself a duration -- specifically, the duration needed by a stimulus at that doubled intensity to excite the nerve, not the intensity value itself.",
+        "C": "Incorrect. Utilization time is the duration at rheobase intensity, a related but distinct landmark from chronaxie's double-rheobase definition.",
+        "D": "Incorrect. Chronaxie is not the rheobase stimulus itself; rheobase is an intensity (the threshold current), while chronaxie is a duration measured at twice that intensity.",
+        "E": "Correct. Chronaxie is used as an index of excitability, and the relationship runs inversely: a more excitable fibre needs only a very brief duration at twice rheobase intensity to fire, giving it a short chronaxie, while a less excitable fibre needs a longer duration, giving it a long chronaxie. This inverse relationship is exactly why chronaxie is used clinically as a quick index of a nerve's excitability."
+      },
+      "main_concept": "CON-NEU-BC5C6F99B13676",
+      "concept_ids": [
+        "CON-NEU-BC5C6F99B13676"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-NEURON-EXCITABILITY"
+      ],
+      "subtopic": "Strength-duration curve",
+      "difficulty": "Hard",
+      "question_type": "Recall",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that chronaxie is inversely proportional to excitability -- a shorter chronaxie means a more excitable fibre.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"67- e\"",
+        "pendingConcept": "CON-NEU-BC5C6F99B13676, same pending Kasr 103-BMS-physiology concept as Q038/Q040/Q066 above -- applies only after that batch is live"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "cbf-bank-q069",
+      "id": "QST-AUNCBF103-CBFBANKPENDING103BMSPHYS-Q069",
+      "page": 9,
+      "title": "Deep pressure decreases conduction mainly in A-type fibres",
+      "question": "Which of the following is correct for nerve fibers:",
+      "options": {
+        "A": "C fibers are myelinated.",
+        "B": "B fibers are faster than A fibers.",
+        "C": "postganglionic nerve fibers are of B type.",
+        "D": "preganglionic nerve fibers are of C type.",
+        "E": "deep pressure decreases conduction mainly in A type."
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. C fibres are unmyelinated, not myelinated -- they are the thinnest, slowest-conducting class of the three (A, B, C).",
+        "B": "Incorrect. This reverses the actual speed ranking: A fibres (2-20 micrometres, 20-120 m/sec) conduct faster than B fibres (1-5 micrometres, 5-15 m/sec), not the other way around.",
+        "C": "Incorrect. Postganglionic autonomic fibres are the example given for C fibres, not B fibres.",
+        "D": "Incorrect. Preganglionic autonomic fibres are the example given for B fibres, not C fibres.",
+        "E": "Correct. Beyond conduction speed, the fibre classes differ in their sensitivity to environmental factors: local anaesthetics depress transmission in C fibres before A fibres, B fibres are the most susceptible to hypoxia, and deep pressure on a nerve can abolish conduction in A fibres while C fibres stay relatively intact -- so deep pressure decreases conduction mainly in A-type fibres. This differential vulnerability is a classic bedside correlate: a limb \"falling asleep\" under sustained pressure loses touch and motor (A-fibre) sensation before it loses dull, aching pain (C-fibre) sensation."
+      },
+      "main_concept": "CON-NEU-3F92C1DEAFFF01",
+      "concept_ids": [
+        "CON-NEU-3F92C1DEAFFF01"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-103-PHY-NERVE-PROPERTIES"
+      ],
+      "subtopic": "Nerve fibre classification",
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 2,
+      "learning_objective": "State that deep pressure on a nerve decreases conduction mainly in A-type fibres, one of several differential sensitivities distinguishing the A, B and C fibre classes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "printed answer table p.18, \"69- e\"",
+        "pendingConcept": "CON-NEU-3F92C1DEAFFF01 is pending in docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md and docs/import-ready/concept/103-BMS-physiology-concepts.md, canonical_key nerve.fibre-classification.a-b-c-types -- this question and its +aun overlay apply only after Omar imports that Kasr batch"
+      },
+      "author_notes": ""
+    }
+  ]
+}
