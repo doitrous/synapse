@@ -685,3 +685,29 @@ ASU-HCB > Histology > Questions > Cytoplasmic inclusions
 
 ## field_notes
 asu: Cited contextually on Q65 (glycogen alpha/beta particle staining, p17) of the ASU-HCB cellhz1 bank.
+
+---
+
+# Item
+
+## id
+CON-FND-721D9B96A2367F
+
+## label
+Sudan III stains fat orange in a frozen section; in H&E the fat has dissolved and the cell is left as a signet ring
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-HCB
+
+## module_subject
+101 ISK > Histology > Introduction > Microtechniques
+ASU-HCB > Histology > Questions > Cell biology
+
+## field_notes
+asu: Tested as zahra1-q056 ("By Sudan III, Fat appears:", key c = orange, p8) of the ASU-HCB zahra1 cytology bank (block C of the module triage). Reused from the 101 ISK microtechniques overlay rather than re-minted; the ASU question tests the stain-colour fact only, not the signet-ring appearance, so the concept's full definition (including the H&E signet-ring half) is cited but not separately re-tested here.
