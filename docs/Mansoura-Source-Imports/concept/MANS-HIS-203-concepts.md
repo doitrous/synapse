@@ -1096,3 +1096,730 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 
 ---
+
+# Item
+
+## label
+Neutrophils are the first-line phagocytic defence against bacterial infection, killing ingested organisms with myeloperoxidase and moving toward chemical signals by chemotaxis before crossing the capillary wall by diapedesis
+
+## id
+CON-IMM-AB99BAACAD2BC2
+
+## canonical_key
+innate-immunity.neutrophil-first-line-and-effector-mechanisms
+
+## aliases
+Neutrophil first line of defence
+Myeloperoxidase
+Diapedesis
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Neutrophils are the most numerous circulating granulocyte and the first phagocytic cell to arrive at a site of bacterial infection, making them the innate immune system's first line of defence against bacteria. Reaching that site requires three linked mechanisms: chemotaxis, the directed movement of the phagocyte along a rising chemical gradient (bacterial products, complement fragments, cytokines) toward the infection; diapedesis, the physical passage of the neutrophil between endothelial cells of the capillary wall from the bloodstream into the tissue space, following margination against the vessel wall; and, once the bacterium is ingested into a phagosome, myeloperoxidase — an enzyme carried in the neutrophil's azurophilic granules that combines with hydrogen peroxide and a halide to generate hypochlorous acid and other potent oxidants that kill the ingested organism.
+## explicit_objective
+Name neutrophils as the first-line phagocytic defence against bacteria, and state the roles of chemotaxis (directed movement to the site), diapedesis (crossing the capillary wall) and myeloperoxidase (intracellular bacterial killing) in getting a neutrophil to a target and destroying it.
+
+## pitfalls
+Confusing chemotaxis (directed movement toward a chemical signal, a property of the whole cell's locomotion) with diapedesis (the specific step of squeezing between endothelial cells into tissue) — the department's own bank tests both as separate named steps in the same recruitment sequence. Attributing myeloperoxidase's killing action to the neutrophil's surface rather than to the phagosome, where the ingested organism is actually degraded.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — phagocyte recruitment and killing
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p112 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-NEUTROPHIL-FIRST-LINE-DEFENCE
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+What is the first line of defense against bacterial infections? [answer: Neutrophils]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent immunology reference not yet cross-checked against this department-book framing; the three named mechanisms are standard and uncontested.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: CON-IMM-96D7626B256F92 (live, chemotaxis) and CON-IMM-DA2EA4EC41707C (live/pending, opsonins) are same-recruitment-sequence neighbours reused directly on other questions in this batch rather than folded into this concept, which is specifically about the neutrophil-as-first-responder bundle.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "neutrophil first line of defense" / "myeloperoxidase" (chemotaxis and diapedesis themselves have existing live/pending homes reused directly, not folded in here — see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Agranulocytosis is bone-marrow failure to produce neutrophils, leaving the body unprotected against infection, and leukaemia is uncontrolled malignant proliferation of white blood cells
+
+## id
+CON-IMM-4E62A6E8359D89
+
+## canonical_key
+leukocyte-disorders-agranulocytosis-and-leukaemia
+
+## aliases
+Agranulocytosis
+Leukaemia definition
+Leukocytosis vs leukaemia
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Agranulocytosis is a severe, clinically dangerous fall in circulating granulocytes (mainly neutrophils) caused by bone-marrow failure to produce them, leaving the body essentially unprotected against bacterial and fungal infection — distinct from ordinary leucopenia (a milder fall in white cell count from many causes) by both its severity and its marrow-production mechanism. Leukaemia is the uncontrolled, malignant proliferation of white blood cells (or their marrow precursors), producing a very high circulating white cell count that displaces normal marrow elements — distinct from leukocytosis, which is an ordinary, physiological or reactive rise in white cell count (as in infection) without malignant transformation.
+## explicit_objective
+Distinguish agranulocytosis (marrow failure to produce granulocytes, leaving the body unprotected) from ordinary leucopenia, and distinguish leukaemia (malignant, uncontrolled WBC proliferation) from ordinary leukocytosis (a reactive rise in WBC count).
+
+## pitfalls
+Treating agranulocytosis as just a synonym for severe leucopenia without the marrow-failure mechanism and infection-risk implication the department's own bank tests. Calling any high WBC count "leukaemia" — leukocytosis (a reactive, non-malignant rise) is the far more common explanation and the two are tested as a discriminating pair.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — leukocyte count disorders
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p113-114 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-LEUKOCYTE-COUNT-DISORDERS
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Name of condition through which bone marrow fails to produce WBCs leaving body unprotected against infection is [answer: Agranulocytosis]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent haematology reference not yet cross-checked against this department-book framing; the definitions themselves are standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found for either fact.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "agranulocytosis" / "leukemia" definition (existing live hits for "leukemia" were about diagnosis/transplant, not the basic uncontrolled-proliferation definition tested here — see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Tissue macrophages take organ-specific names — Kupffer cells in the liver, microglia in the CNS — and, like fibroblasts converging on a wound, they migrate by ameboid movement rather than any other locomotion mechanism
+
+## id
+CON-IMM-CE6C4EB32C6385
+
+## canonical_key
+tissue-macrophage-nomenclature-and-ameboid-migration
+
+## aliases
+Kupffer cells
+Microglia
+Ameboid movement
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Tissue macrophages are monocyte-derived resident phagocytes that take organ-specific names depending on where they reside: Kupffer cells line the hepatic sinusoids of the liver, microglia are the resident macrophage-lineage phagocyte of the central nervous system, alveolar macrophages patrol the lung airspaces, and osteoclasts are the bone-resorbing macrophage-lineage cell of bone. Whichever organ they occupy, tissue macrophages (and other migrating cells responding to injury, such as fibroblasts converging on a wound for repair) move by ameboid movement — the same flowing, pseudopod-driven locomotion an amoeba uses — rather than by ciliary movement, whip-like flagellar movement, or any other mechanism.
+## explicit_objective
+Name Kupffer cells and microglia as the organ-specific tissue-macrophage populations of the liver and CNS respectively, and identify ameboid movement as the locomotion mechanism both tissue macrophages and fibroblasts use to migrate toward a site of injury or infection.
+
+## pitfalls
+Mixing up which organ-specific name belongs to which organ — Kupffer cells (liver) and microglia (CNS) are a repeated pairing distractor in this bank. Assuming a specialised name (chemotaxis, diapedesis) applies to the locomotion mechanism itself, when ameboid movement is the specific term for the pseudopod-driven crawling both macrophages and fibroblasts use.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — tissue macrophages
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p114-115 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-TISSUE-MACROPHAGE-NOMENCLATURE
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+MANS_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.5
+
+## confidence
+0.7
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the following is an example of a tissue macrophage? [answer: Kupffer cells in the liver]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent histology/immunology reference not yet cross-checked against this department-book framing; the nomenclature and locomotion facts are standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: A bundled AU-MED-105 neuroglia concept mentions microglia as one function among four glial cell types, but does not test the tissue-macrophage-nomenclature angle this bank uses; kept separate rather than reused (see MANS-HIS-203-triage.md author3 addendum).
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "kupffer cells" / "ameboid movement fibroblast macrophage" testing this specific nomenclature/locomotion angle (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
+
+# Item
+
+## label
+Granulocytes circulate for only 4-5 days on average, while among the leukocytes monocytes have the longest circulating life span
+
+## id
+CON-IMM-90C19E609496ED
+
+## canonical_key
+granulocyte-vs-monocyte-circulating-lifespan
+
+## aliases
+Granulocyte life span
+Monocyte life span
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Granulocytes (neutrophils, eosinophils, basophils) have a short average circulating life span of about 4-5 days from release into the blood to their eventual destruction or migration into tissue, reflecting their role as short-lived, rapidly deployed first-responder cells. Monocytes, by contrast, are the leukocyte with the longest circulating life span, spending a comparatively long period in the blood before migrating into tissue and differentiating into the long-lived tissue macrophage population.
+## explicit_objective
+State that granulocytes circulate for only about 4-5 days on average, and that monocytes have the longest circulating life span among the leukocytes.
+
+## pitfalls
+Confusing the granulocyte's short circulating life span with the erythrocyte's much longer 120-day life span — a common distractor pairing in this bank's numeric reference-range questions. Assuming neutrophils, being the most numerous leukocyte, also live longest in circulation, when it is the less numerous monocyte that does.
+
+## concept_type
+directly_taught_physiology_concept
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T01
+
+## secondary_node_ids
+[clear]
+
+## topic
+Immunology
+
+## subtopic
+Innate immunity — leukocyte kinetics
+
+## microtopic
+[clear]
+
+## nanotopic
+[clear]
+
+## modules
+MANS-HIS-203
+
+## module_subject
+MANS-HIS-203 > Physiology > Blood > Leukocyte function
+
+## universities
+mans
+
+## learner_years
+1
+
+## exam_signal
+src_c4ee1e63536c22ca52d4 | question_book | | p113,115 | MANS-HIS-203
+
+## article_ids
+ART-MANS-HIS-LEUKOCYTE-LIFESPAN
+
+## related_article_ids
+[clear]
+
+## related_concept_ids
+[clear]
+
+## resource_ids
+src_c4ee1e63536c22ca52d4
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+MANS_Y1=0.25
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.65
+
+## atomic_claim_ids
+[clear]
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The average life span for granulocytes is: [answer: 4-5 days]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent physiology reference not yet cross-checked against this department-book framing; the numeric values are standard.
+
+## owner
+Claude
+
+## reviewer
+
+
+## final_publisher
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been researched; filled during a later evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+secondaryNodeIds: No second reviewed placement identified this pass.
+relatedArticleIds: The one article that teaches this concept is on article_ids; no further-reading article exists yet for this module.
+relatedConceptIds: Left for a relations pass; no same-theme pending/live neighbour was found.
+resourceOccurrenceIds: Read directly from the department book by hand, not by the extraction pipeline; no corpus occurrence record exists to point at.
+sourceCandidateIds: Minted after find-existing.mjs returned no rival record for "granulocyte life span" / "monocyte longest life span leukocyte" (see MANS-HIS-203-triage.md author3 addendum).
+atomicClaimIds: No claim record exists yet; this concept/article batch does not include an evidence pass.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: The searches run before minting returned no near-miss to decide against.
+lastReviewed: New record; no reviewer has seen it yet.
+reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+
+---
