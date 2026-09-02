@@ -432,3 +432,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — FOMSCU SCU-FBS104 lane 1: TRIAGE NOT APPROVED (117c7f82, triage docs only)
 - EOM MID 2026: 34 items, only 4 are ≥4-option MCQs with a marked key; 22 are declarative recall statements, 7 sub-4-option. MEQ Book: 57 essay prompts, 0 SBA sub-questions. Combined 4/91 keyed = 4.4%. No sibling JSON, `01 University Material` empty for all four subjects. 0 authored.
 - NEEDS OMAR: a keyed FBS104 paper, or a ruling to author Foundation 3 by cross-university reuse without a native anchor, or permission to search the unclassified `_Staging/Telegram Year 1/` backlog. Slot refilled with SCU-MS105 lane 1. Fleet 20/20.
+
+### 2026-09-02 — ALEXANDRIA AU-MED-203 lane 5 LANDED (810043d1)
+- Week 1 EOM Final Q51-100 (inline per-page answer lines): 49 authored, 1 held (q99 has 3 options). 35 mints (31 anatomy, 4 physiology), 3 reuses of week1a/Quiz 3-4 concepts (missed by find-existing exact-substring match, found by hand), 8 within-batch angles collapsed. Validator errors=[]; simulate 6 files rejected=0. ≈1.5-2k tok/q.
+- INCIDENT: the shared CoS worktree was flipped to `asu-ug-author4` by the concurrent ASU-UG lane mid-task, wiping this lane's uncommitted edits; recovered from its generator output and re-validated. Root cause = two rate-limit-resumed lanes sharing one checkout. RULE: a resumed lane that lost its worktree must `git worktree add` its own before touching files; CoS will not resume lanes into the session worktree again.
+- Remaining: Week 1 Q101-151, then Week 2/3/4+5 finals (Y2 queue). Slot refilled with Zagazig ZU-MED-108 lane 1 (Y1). Fleet 20/20.
