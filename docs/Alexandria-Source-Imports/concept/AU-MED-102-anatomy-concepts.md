@@ -954,6 +954,7 @@ Basis of Anatomy
 ART-MSK-INVERSION-EVERSION
 
 ## related_article_ids
+ART-MSK-AURICLE-CARTILAGE
 
 ## related_concept_ids
 
@@ -1110,6 +1111,7 @@ Skeletal System
 ART-MSK-AURICLE-CARTILAGE
 
 ## related_article_ids
+ART-MSK-INVERSION-EVERSION
 
 ## related_concept_ids
 

@@ -1046,6 +1046,7 @@ Citations: CIT-MSK-INVERSION-EVERSION-01
 CON-MSK-23DC6DF78D6A35
 
 ## related_articles
+ART-MSK-AURICLE-CARTILAGE: another general-anatomy definitional item minted this same pass from the same Wagih department bank
 
 ## question_ids
 
@@ -1228,6 +1229,7 @@ Citations: CIT-MSK-AURICLE-CARTILAGE-01
 CON-MSK-52169F26686E92
 
 ## related_articles
+ART-MSK-INVERSION-EVERSION: another general-anatomy definitional item minted this same pass from the same Wagih department bank
 
 ## question_ids
 

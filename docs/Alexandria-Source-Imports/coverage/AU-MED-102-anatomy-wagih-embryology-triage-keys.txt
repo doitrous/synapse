@@ -1,0 +1,40 @@
+# AU-MED-102 Anatomy department bank (Wagih), Embryology sub-section -- triage keys.
+# Source: MCQs - Dr. Wagih Anatomy MCQ (1-7).pdf (src_84b91e011582f2b53494), pp.9-16,
+# 32 items (4 per page). Filed under the Anatomy department folder in the source corpus
+# but out of the Anatomy lane's own scope (coverage/AU-MED-102-anatomy-triage.md HAZARDS);
+# authored under AU-MED-102's Embryology department instead. All 32 keyed -- pp.9-16
+# mark-garbled and rendered to images, each page's own printed answer table (row of
+# question numbers over row of answer letters) read directly off the scan, exactly as the
+# General-Anatomy section's own key recovery was done. All 32 authored (no holds).
+embryo-q01
+embryo-q02
+embryo-q03
+embryo-q04
+embryo-q05
+embryo-q06
+embryo-q07
+embryo-q08
+embryo-q09
+embryo-q10
+embryo-q11
+embryo-q12
+embryo-q13
+embryo-q14
+embryo-q15
+embryo-q16
+embryo-q17
+embryo-q18
+embryo-q19
+embryo-q20
+embryo-q21
+embryo-q22
+embryo-q23
+embryo-q24
+embryo-q25
+embryo-q26
+embryo-q27
+embryo-q28
+embryo-q29
+embryo-q30
+embryo-q31
+embryo-q32
