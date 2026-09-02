@@ -89,3 +89,29 @@ node scripts/content/gate.mjs simulate \
   docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md \
   docs/Zagazig-Source-Imports/pending-live/ZU-MED-103-sf-final24-pending-overlays.md
 ```
+
+## `ZU-MED-108-pp2final24-pending-overlays.md`
+
+3 sparse concept overlays (`+zu`, `+ZU-MED-108`) onto ids that exist only in another
+lane's unimported batch — none is in `server/data/medical-library-v1.json` yet (checked
+directly against the JSON). **Apply each row only after its own named source file is
+live**:
+
+| id | Target source file | Module |
+|---|---|---|
+| `CON-CVS-D3ED0A0E795D72` | `docs/import-ready/concept/SYS-CVS-CONCEPT-T02.md` | SYS-CVS (cross-university curriculum bank — carries no existing module tagging at all) |
+| `CON-CVS-20A1EC258BFF30` | `docs/Alexandria-Source-Imports/concept/AU-MED-106-physiology-concepts.md` | AU-MED-106 |
+| `CON-CVS-A0579343614BCD` | `docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md` | 104 CPS |
+
+None of these 3 source files were authored or touched by this lane — they are
+pre-existing pending batches from the SYS-CVS curriculum bank, Alexandria and Kasr lanes.
+This file only records where each overlay row's target lives so Omar (or a validator
+lane) applies in the right order.
+
+Simulate together with the target file each row applies to, e.g.:
+
+```
+node scripts/content/gate.mjs simulate \
+  docs/import-ready/concept/SYS-CVS-CONCEPT-T02.md \
+  docs/Zagazig-Source-Imports/pending-live/ZU-MED-108-pp2final24-pending-overlays.md
+```
