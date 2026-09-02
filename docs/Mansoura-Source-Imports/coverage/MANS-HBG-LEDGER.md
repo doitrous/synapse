@@ -41,6 +41,7 @@
 | Q8  :: B :: synapsis occurs at zygotene stage of meiosis | 0 | 0 | 1 | 1 |
 | Q9  :: B :: chromosome number in G1 of interphase = 46-s | 0 | 0 | 1 | 1 |
 | histoprev1 | 40 | 0 | 0 | 40 |
+| histoprev2 | 50 | 0 | 0 | 50 |
 
 ## Held
 (none)
