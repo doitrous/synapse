@@ -139,6 +139,34 @@ export const LEAF: McqLeafSeed = {
         'The pinned record states that compliance is higher at lower volumes and falls (stiffens) at higher volumes, and separately (in this module\'s own histology concept, arteriovenous-anastomosis\'s sibling capillary-type concepts) that elastin and collagen are the vessel wall\'s two distensible components — but no single 104-CPS record explicitly names elastin-then-collagen sequential recruitment as the mechanism behind the shape of the pressure-volume curve, or the specific factors (sympathetic tone, oestrogen, ageing, atherosclerosis) that raise or lower vascular compliance. Both are standard, undisputed vascular physiology consistent with the pinned record\'s own compliance-falls-at-higher-volume fact, not contradicted by it; disclosed rather than silently assumed taught.',
       ],
     },
+    {
+      // Fresh mint, run43. find-existing.mjs "renin angiotensin aldosterone
+      // ACE atrial natriuretic peptide" -> no matching record. Grepped
+      // 104-CPS-physiology-concepts.md and every seed file for "renin",
+      // "aldosterone" and "natriuretic": only passing mentions turned up (a
+      // postural-hypotension concept naming "renin-angiotensin-aldosterone
+      // secretion" as one item in a reflex list, and physiology-circulatory-
+      // control-hemorrhagic-shock.ts's own hemorrhagic-shock.rapid-
+      // compensatory-hormone-response concept, which states ANP does NOT
+      // rise during hemorrhage specifically because hypovolaemia removes
+      // its atrial-stretch trigger) — neither states the RAAS mechanism
+      // itself or ANP's own stimulus/action as a standalone fact the way
+      // this concept does, so minted fresh rather than reused.
+      key: 'raas-vs-anp.opposing-blood-pressure-and-sodium-hormones',
+      label: 'The renin-angiotensin-aldosterone system raises blood pressure and retains sodium (triggered by low renal perfusion), while atrial natriuretic peptide lowers blood pressure and excretes sodium (triggered by atrial stretch from a rising central blood volume) — physiological opposites',
+      definition: "The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance. RAAS begins when reduced renal perfusion pressure (or reduced NaCl delivery to the macula densa, or increased renal sympathetic activity) raises renin secretion; renin cleaves angiotensinogen to angiotensin I, angiotensin-converting enzyme (ACE, secreted by pulmonary vascular endothelium among other sites) converts this to angiotensin II, which directly vasoconstricts (raising total peripheral resistance and arterial pressure) and stimulates adrenal cortex aldosterone secretion, which in turn raises renal sodium (and secondarily water) reabsorption. Inhibiting ACE therefore lowers angiotensin II and aldosterone, lowering peripheral resistance and sodium reabsorption — but because angiotensin II normally suppresses renin secretion by negative feedback, removing angiotensin II removes that brake, so renin secretion itself RISES with ACE inhibition, not falls. Atrial natriuretic peptide runs in the opposite direction on both fronts: it is secreted by atrial myocytes when a rising central (extracellular fluid) blood volume stretches the atrial wall — as in water immersion up to the neck, which shifts peripheral venous blood centrally — and it lowers blood pressure by promoting vasodilation and increasing renal sodium excretion (natriuresis), the physiological opposite of what RAAS does on both the vascular and renal fronts.",
+      objective: "Contrast RAAS (low renal perfusion -> renin -> angiotensin II -> vasoconstriction + aldosterone -> sodium retention -> raised blood pressure) with ANP (atrial stretch from rising central blood volume, e.g. water immersion -> vasodilation + natriuresis -> lowered blood pressure), and state that ACE inhibition raises, not lowers, renin secretion by removing angiotensin II's negative feedback on it.",
+      pitfall: "Assuming every step of the renin-angiotensin-aldosterone cascade moves in the same direction when the cascade is blocked. ACE inhibition lowers angiotensin II and aldosterone, but renin secretion itself RISES, because angiotensin II's own negative feedback on renin release is what falls away — the one step in the cascade that reverses direction rather than following the others down.",
+      subject: 'cvs',
+      primary: 'DIS-PHY-T02',
+      secondary: [],
+      modulePath: '104 CPS > Physiology > Cardiovascular System > Vascular Function',
+      type: 'mechanism',
+      aliases: ['RAAS', 'Renin-angiotensin-aldosterone system', 'ACE inhibition', 'Atrial natriuretic peptide', 'ANP stimulus and action'],
+      conflicts: [
+        "No conflicting record found; find-existing.mjs returned no match, and the only related pinned content (a postural-hypotension concept naming RAAS as one item in a reflex list, and the hemorrhagic-shock concept covering why ANP does NOT rise in hemorrhage) states neither this concept's RAAS cascade mechanism nor ANP's own stimulus/action as a standalone fact.",
+      ],
+    },
   ],
 
   questions: [
@@ -407,6 +435,86 @@ export const LEAF: McqLeafSeed = {
         C: 'Ageing is classically associated with progressive arterial stiffening (falling elastin, rising collagen content), lowering, not raising, compliance.',
         D: 'Atherosclerosis stiffens the vessel wall with plaque deposition, lowering, not raising, compliance.',
       },
+    },
+
+    // --- run43: 7 kept + 1 excluded of the Vascular Function cluster's 12 remaining ---
+    {
+      key: 'concerning-laminar-blood-flow-one-is-incorrect-eb00a7cf',
+      conceptKey: 'turbulent-blood-flow.reynolds-number-determinants',
+      difficulty: 'Moderate',
+      questionType: 'Recall of a false statement',
+      learningObjective: 'State that laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400, identifying the understated threshold as the false statement.',
+      explanations: {
+        A: 'True of laminar flow, so not the exception. Laminar flow genuinely occurs as concentric, parallel layers (laminae) of fluid moving smoothly together.',
+        B: 'True of laminar flow, so not the exception. Laminar flow is characteristically silent, unlike the audible turbulent flow that produces murmurs and bruits.',
+        C: 'The exception, and the answer. Laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400 — stating 400 as the threshold badly understates how far the Reynolds number must rise before flow tips into turbulence.',
+        D: 'True, so not the exception. A Reynolds number above roughly 2000 does mark the standard threshold for the transition toward turbulent flow.',
+      },
+    },
+    {
+      key: 'turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe',
+      conceptKey: 'turbulent-blood-flow.reynolds-number-determinants',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that turbulent flow is almost always present once the Reynolds number rises above approximately 2000.',
+      explanations: {
+        A: 'Correct. Standard cardiovascular physiology teaching states that once the Reynolds number rises above approximately 2000, turbulent flow will usually (almost always) occur, even in an otherwise straight, smooth vessel — the standard, most commonly cited figure for this threshold.',
+        B: '2500 is not the standard, most commonly cited threshold figure for this specific teaching point.',
+        C: '3000 is not the standard, most commonly cited threshold figure for this specific teaching point.',
+        D: '3500 is not the standard, most commonly cited threshold figure for this specific teaching point.',
+      },
+    },
+    {
+      key: 'which-of-the-following-describes-the-pulse-pressure-212b2ae7',
+      conceptKey: 'arterial-blood-pressure.systolic-diastolic-map-and-pulse-pressure',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that pulse pressure is determined by stroke volume (for a given arterial compliance), not by arterial resistance or by naming the highest or lowest arterial pressure directly.',
+      explanations: {
+        A: "Correct. Pulse pressure -- the difference between systolic and diastolic arterial pressure -- is directly determined by stroke volume for a given arterial compliance: a larger stroke volume ejects more blood into the arterial tree per beat, producing a larger swing in pressure between systole and diastole.",
+        B: 'Pulse pressure is most directly governed by stroke volume and arterial compliance; peripheral arterial resistance primarily determines mean arterial pressure rather than being the main driver of pulse pressure changes.',
+        C: 'The highest pressure measured in the arteries is the systolic pressure itself, not the pulse pressure, which is instead the difference between systolic and diastolic pressure.',
+        D: 'The lowest pressure measured in the arteries is the diastolic pressure itself, not the pulse pressure.',
+      },
+    },
+    {
+      key: 'atrial-natriuretic-peptide-6fd6b3d3',
+      conceptKey: 'raas-vs-anp.opposing-blood-pressure-and-sodium-hormones',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: "State that ANP secretion is increased by atrial stretch from a rising central blood volume, such as during water immersion up to the neck.",
+      explanations: {
+        A: 'A decreased, not increased, ECF volume removes the atrial-stretch stimulus for ANP secretion — the opposite of the direction that triggers its release.',
+        B: 'Correct. Immersion in water up to the neck shifts peripheral venous blood centrally, raising central blood volume and stretching the atrial wall — exactly the stimulus that raises ANP secretion.',
+        C: 'ANP promotes vasodilation, not contraction, of vascular smooth muscle — part of how it lowers, rather than raises, blood pressure.',
+        D: 'ANP lowers, not raises, arterial blood pressure, via vasodilation and increased renal sodium excretion — the physiological opposite of what this option states.',
+      },
+    },
+    {
+      key: 'which-of-the-following-changes-would-not-occur-following-inh-ff65be24',
+      conceptKey: 'raas-vs-anp.opposing-blood-pressure-and-sodium-hormones',
+      difficulty: 'Hard',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: "State that ACE inhibition raises, rather than lowers, renin secretion, by removing angiotensin II's own negative feedback on renin release.",
+      explanations: {
+        A: "Correct, and the exception the question asks for: renin secretion would NOT fall following ACE inhibition -- it would RISE, because angiotensin II normally suppresses renin secretion by negative feedback, and removing angiotensin II (by blocking the enzyme that makes it) removes that brake.",
+        B: 'Aldosterone level genuinely would fall following ACE inhibition, since aldosterone secretion depends on angiotensin II, which ACE inhibition lowers — this change would occur, so it is not the exception.',
+        C: 'Proximal tubular sodium reabsorption genuinely would decrease following ACE inhibition, since it is partly driven by angiotensin II and the aldosterone it stimulates, both of which fall — this change would occur, so it is not the exception.',
+        D: 'Peripheral resistance genuinely would decrease following ACE inhibition, since angiotensin II is a direct vasoconstrictor and ACE inhibition lowers angiotensin II — this change would occur, so it is not the exception.',
+      },
+    },
+    {
+      // Bank-tagged leaf: "Vascular Function"; genuinely this file's own
+      // local-blood-flow-regulation content, but excluded rather than kept
+      // — see excludeReason.
+      key: 'which-combination-of-the-following-local-factors-leads-to-ar-c8779f94',
+      conceptKey: 'local-blood-flow-regulation.myogenic-and-metabolic-autoregulation',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "The extracted option set is internally inconsistent and shows clear OCR corruption (option A reads 'increase in Oz' — a garbled '2' — and the credited option C reads 'Decrease in CO', almost certainly a mis-scan of 'O2' given the question's own topic), and the credited answer's third clause, 'decrease in K+', contradicts standard local-vasodilator-factor teaching (active tissue accumulates, not loses, extracellular K+, and a local RISE in K+ is the textbook vasodilator factor, not a fall). This source (DPT BOOK Physio MCQ [104][2022].pdf) is not in the pagetext cache to render by eye and check which word the corruption altered. Rather than teach a physiologically backwards claim on the strength of a low meanOptionRatio (0.827) fuzzy-OCR match, this row is left unauthored per the law of priority; the correct, uncorrupted version of this fact (decreased O2, increased CO2/H+/lactate/K+/adenosine/osmolarity all cause local vasodilation) is not otherwise untaught in this leaf.",
     },
   ],
 }

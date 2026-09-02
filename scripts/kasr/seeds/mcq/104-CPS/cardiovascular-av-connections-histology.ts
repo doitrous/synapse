@@ -586,5 +586,22 @@ export const LEAF: McqLeafSeed = {
         D: "True, so not the exception — the shunt is enclosed in a connective-tissue capsule and is richly innervated, by sympathetic fibres that open and close it.",
       },
     },
+    // Leaf-mismatch routing (bank-tagged "Vascular Function" — a histology
+    // question on the fenestrated capillary's own diaphragm structure,
+    // genuinely this file's own content, not vascular physiology). Same
+    // routing pattern this file already uses above.
+    {
+      key: "is-non-membranous-cartwheel-like-derived-from-glycocalyx-9fb74d62",
+      conceptKey: "fenestrated-capillary.structure-junctions-and-sites",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "Identify the diaphragm as the non-membranous, cartwheel-like structure derived from the glycocalyx that covers a fenestrated capillary's pores.",
+      explanations: {
+        A: "The basal lamina is a distinct extracellular-matrix layer underlying the endothelium, not the non-membranous, cartwheel-like structure that specifically covers a fenestra — and a fenestrated capillary's basal lamina stays continuous, unlike the diaphragm covering its pores.",
+        B: "A macrophage is a phagocytic cell type, not a non-membranous structural covering derived from the glycocalyx — an unrelated category of answer.",
+        C: "Correct. The diaphragm is a non-membranous, cartwheel-like structure with a central thickening and fourteen wedge-shaped gaps, derived from the glycocalyx, that covers the pores (fenestrae) of a fenestrated capillary's endothelium.",
+        D: "A pericyte is a contractile cell wrapped around the outside of small vessels, not a non-membranous structure covering an endothelial pore — an unrelated category of answer.",
+      },
+    },
   ],
 }

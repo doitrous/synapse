@@ -4,21 +4,19 @@ Machine-regenerable. Computed by joining every `scripts/kasr/seeds/mcq/104-CPS/*
 
 ## Totals
 
-bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 837 | excluded: 184 | remaining: 131
+bank rows: 1289 | keyed: 1114 | unkeyed/OCR-blocked: 175 | authored: 856 | excluded: 189 | remaining: 107
 
 Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" count excludes live-but-unanswered rows, which this ledger counts as AUTHORED since their key is claimed in a seed either way):
 
-- authored (by key, this ledger): 837
+- authored (by key, this ledger): 856
 - of those, held back as unanswered (no printed answer, no `answerOverride`) the same way `mcq()` in build-batches.ts does: 0
-- authored minus held-back = build-style "kept": 837
+- authored minus held-back = build-style "kept": 856
 
 ## By cluster (leaf tag)
 
 | cluster (leaf tag) | bank rows | authored | excluded | remaining |
 |---|---:|---:|---:|---:|
 | Basic Mechanisms of Circulatory Control | 36 | 13 | 6 | 17 |
-| Cardiac Function | 80 | 44 | 24 | 12 |
-| Vascular Function | 44 | 27 | 5 | 12 |
 | Gas Transport by the Blood | 35 | 23 | 1 | 11 |
 | Control of Respiration | 25 | 9 | 6 | 10 |
 | Mechanical Properties of Cardiac Muscle | 42 | 26 | 8 | 8 |
@@ -38,6 +36,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | Tonsils | 18 | 10 | 4 | 1 |
 | (untagged) | 219 | 88 | 4 | 0 |
 | Alveolar Phagocytes | 4 | 3 | 0 | 0 |
+| Cardiac Function | 80 | 54 | 26 | 0 |
 | Chromosomal Aberrations (Abnormalities) | 22 | 21 | 1 | 0 |
 | Electrical Activity of the Heart | 82 | 57 | 25 | 0 |
 | Gas exchange in the lung | 21 | 18 | 3 | 0 |
@@ -50,6 +49,7 @@ Cross-check against `build-batches.ts "104 CPS"`'s own accounting (its "kept" co
 | The Cell Cycle | 5 | 5 | 0 | 0 |
 | The heart | 43 | 31 | 12 | 0 |
 | Thoracic Wall | 33 | 28 | 5 | 0 |
+| Vascular Function | 44 | 36 | 8 | 0 |
 
 ## Remaining keys by cluster
 
@@ -74,36 +74,6 @@ Every KEYED bank row whose key is not yet claimed by any seed (authored or exclu
 - `systemic-arteriolar-constriction-may-result-from-an-increase-fdd3c641` — Systemic arteriolar constriction may result from an increase in local concentrat…
 - `the-following-are-true-regarding-no-except-870b8ec2` — The following are true, regarding NO, except
 - `which-of-the-following-is-not-a-vasodilator-metabolite-8da91769` — Which of the following is not a vasodilator metabolite?
-
-### Cardiac Function (12)
-
-- `cardiac-output-is-17967bd3` — Cardiac output is: |
-- `diacrotic-notch-is-due-to-e9c90ebf` — Diacrotic notch is due to: |
-- `during-the-reduced-ejection-phase-which-one-of-the-following-a7159cd9` — During the reduced ejection phase, which one of the following is true:
-- `if-the-edv-is-increased-within-limits-1a718833` — If the EDV is increased (within limits):
-- `if-the-edv-is-increased-within-limits-which-of-the-following-e4707b02` — If the EDV is increased (within limits), which of the following will occur?
-- `systolic-pressure-in-right-ventricle-is-84464eed` — Systolic pressure in right ventricle is:
-- `the-atrial-component-of-ventricular-filling-is-46a00baf` — The atrial component of ventricular filling is
-- `the-left-ventricle-has-a-thicker-wall-than-the-right-ventric-466aa2d9` — The left ventricle has a thicker wall than the right ventricle because a, itis r…
-- `the-strength-of-contraction-of-left-ventricular-muscle-incre-09963bab` — The strength of contraction of left ventricular muscle increases when : |
-- `the-systolic-pressure-in-the-left-ventricle-is-c234e41a` — The systolic pressure in the left ventricle is:
-- `the-work-performed-by-left-ventricle-is-greater-than-that-pe-eec8e8ca` — The work performed by left ventricle is greater than that performed by right ven…
-- `what-s-the-correct-definition-of-cardiac-output-f23eae83` — What's the correct definition of cardiac output?
-
-### Vascular Function (12)
-
-- `as-the-blood-passes-along-the-tissues-332a11e2` — As the blood passes along the tissues:
-- `atrial-natriuretic-peptide-6fd6b3d3` — Atrial natriuretic peptide
-- `c-wave-in-jugular-venous-pulse-occurs-in-99804bb7` — C wave in jugular venous pulse occurs in:
-- `concerning-laminar-blood-flow-one-is-incorrect-eb00a7cf` — Concerning laminar blood flow, one is incorrect:
-- `is-non-membranous-cartwheel-like-derived-from-glycocalyx-9fb74d62` — is non-membranous Cartwheel-like, derived from glycocalyx
-- `the-capillaries-which-are-present-in-the-nervous-tissue-are-28dee5ce` — The capillaries which are present in the nervous tissue are:
-- `turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe` — Turbulence is almost always present when Reynolds number is more than:
-- `which-combination-of-the-following-local-factors-leads-to-ar-c8779f94` — Which combination of the following local factors leads to arteriolar vasodilatat…
-- `which-of-the-following-changes-would-not-occur-following-inh-ff65be24` — Which of the following changes would not occur following inhibition of angiotens…
-- `which-of-the-following-describes-the-pulse-pressure-212b2ae7` — Which of the following describes the pulse pressure?
-- `y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0` — Y wave in jugular venous pulse occurs in: 1
-- `y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19` — Y wave in jugular venous pulse occurs in:
 
 ### Gas Transport by the Blood (11)
 

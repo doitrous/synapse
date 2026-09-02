@@ -650,5 +650,44 @@ export const LEAF: McqLeafSeed = {
         D: '80% overstates the atrial contribution even further; passive filling, not atrial systole, is responsible for most of ventricular filling.',
       },
     },
+    {
+      // Bank-tagged leaf: "Vascular Function" (a jugular venous pulse
+      // question genuinely tests cardiac-cycle timing, this file's own
+      // content) -- routed here per the leaf-field-unreliable hazard.
+      key: 'c-wave-in-jugular-venous-pulse-occurs-in-99804bb7',
+      conceptKey: 'atrial-pressure-curve.a-c-v-waves',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that the c wave of the atrial (jugular venous) pressure curve occurs at the start of isovolumetric ventricular contraction.',
+      explanations: {
+        A: 'Correct. The c wave is caused by the closed AV valve bulging backward into the atrium as ventricular pressure rises sharply at the start of isovolumetric (isometric) ventricular contraction, immediately after atrial systole has ended.',
+        B: 'Isovolumetric relaxation is instead when the closed semilunar valve produces the second heart sound; the atrial pressure curve is quiet at this point, between the v wave\'s peak and the AV valves reopening for filling.',
+        C: 'The maximum ejection phase is well after the c wave, which occurs at the very start of ventricular systole, not during its main ejection period.',
+        D: 'Atrial systole itself produces the larger a wave, which peaks and is already falling by the time the AV valves shut to start isovolumetric contraction and produce the c wave — the c wave is a ventricular event that follows atrial systole, not part of it.',
+      },
+    },
+    {
+      // Bank-tagged leaf: "Vascular Function"; genuinely this file's own
+      // jugular-venous-pulse content, but excluded rather than kept — see
+      // excludeReason.
+      key: 'y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0',
+      conceptKey: 'atrial-pressure-curve.a-c-v-waves',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survived extraction/repair (A, B, C) — no D — below the platform's 4-to-5-option import contract. This row's own sibling occurrence, y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19 below, tests the identical fact but is itself also below the option-count contract (also only 3 surviving options), so this is a genuine, not merely duplicate, gap — flagged for whoever next finds a clean-option copy of this question in the corpus.",
+    },
+    {
+      key: 'y-wave-in-jugular-venous-pulse-occurs-in-5dec9a19',
+      conceptKey: 'atrial-pressure-curve.a-c-v-waves',
+      difficulty: 'Moderate',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 options survived extraction (A, B, C) — no D — below the platform's 4-to-5-option import contract. The tested fact (the y wave/descent of the jugular venous pulse falls during the maximum filling phase, as the AV valves reopen and the atrium drains rapidly into the ventricle) is real, correctly keyed (C), and consistent with this file's own atrial-pressure-curve.a-c-v-waves concept, but this row's sibling occurrence above (y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0) is also stuck at 3 options rather than 4, so no complete-option occurrence of this fact survives anywhere in this leaf's bank rows — a genuine, not merely duplicate, gap, flagged for whoever next finds a clean-option copy of this question in the corpus.",
+    },
   ],
 }

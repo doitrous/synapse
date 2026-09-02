@@ -353,5 +353,20 @@ export const LEAF: McqLeafSeed = {
         D: "The reverse is true: a decreased CO2 concentration shifts the oxygen-haemoglobin dissociation curve to the LEFT, not the right — falling CO2 (like falling H+) raises, rather than lowers, haemoglobin's affinity for O2.",
       },
     },
+    // Leaf-mismatch routing (bank-tagged "Vascular Function" — a chloride-
+    // shift question, genuinely this file's own gas-transport content).
+    {
+      key: "as-the-blood-passes-along-the-tissues-332a11e2",
+      conceptKey: "gas-transport.co2-forms-and-chloride-shift",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that bicarbonate is formed inside red blood cells, not that chloride falls or that RBC osmolarity/volume decreases, as blood passes through the tissues.",
+      explanations: {
+        A: "Correct. As blood passes along the tissues, CO2 diffuses into red blood cells and carbonic anhydrase rapidly hydrates it to carbonic acid, which dissociates into bicarbonate and H+ — bicarbonate is formed inside the red blood cell, the majority form of CO2 transport.",
+        B: "Chloride RISES, not falls, inside red blood cells at the tissue level: as the newly formed bicarbonate diffuses out to plasma, chloride moves in to replace the negative charge it takes with it — the chloride shift.",
+        C: "Osmolarity of red blood cells INCREASES, not decreases, as chloride (and bicarbonate before it leaves) accumulate inside the cell, drawing water in by osmosis.",
+        D: "RBC volume INCREASES, not decreases, at the tissue level: the osmotic water influx that follows the chloride shift makes venous red blood cells swell slightly, raising venous haematocrit above arterial haematocrit.",
+      },
+    },
   ],
 }

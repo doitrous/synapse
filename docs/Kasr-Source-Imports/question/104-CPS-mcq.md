@@ -22,8 +22,8 @@
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
-    Histology Cardiovascular System — A-V Connections — 35 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
+    Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
@@ -49,7 +49,7 @@
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 42 questions, 9 concepts
+    Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
@@ -59,7 +59,7 @@
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 19 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 29 questions, 3 concepts
@@ -67,7 +67,7 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 20 questions, 6 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  186 questions were excluded and 0 held back for having no
+  189 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -19388,6 +19388,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-00EF6881D330
+## title
+is non-membranous Cartwheel-like, derived from glycocalyx
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is non-membranous Cartwheel-like, derived from glycocalyx
+## answer_a
+basal lamina
+## explanation_a
+The basal lamina is a distinct extracellular-matrix layer underlying the endothelium, not the non-membranous, cartwheel-like structure that specifically covers a fenestra — and a fenestrated capillary's basal lamina stays continuous, unlike the diaphragm covering its pores.
+## answer_b
+macrophage
+## explanation_b
+A macrophage is a phagocytic cell type, not a non-membranous structural covering derived from the glycocalyx — an unrelated category of answer.
+## answer_c
+diaphragm
+## explanation_c
+Correct. The diaphragm is a non-membranous, cartwheel-like structure with a central thickening and fourteen wedge-shaped gaps, derived from the glycocalyx, that covers the pores (fenestrae) of a fenestrated capillary's endothelium.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_d
+pericyte
+## explanation_d
+A pericyte is a contractile cell wrapped around the outside of small vessels, not a non-membranous structure covering an endothelial pore — an unrelated category of answer.
+## correct_answer
+C
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the diaphragm as the non-membranous, cartwheel-like structure derived from the glycocalyx that covers a fenestrated capillary's pores.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q47. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-8BAE61B1B783
 ## title
 Regarding the blood vessels: 1 |
@@ -19933,6 +20025,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-399EF983CDD5
+## title
+The capillaries which are present in the nervous tissue are:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The capillaries which are present in the nervous tissue are:
+## answer_a
+Non fenestrated with diaphragm
+## explanation_a
+"Non-fenestrated with diaphragm" does not describe any of the three standard capillary types; a capillary either has fenestrae (covered by a diaphragm, or open in a sinusoid) or, like the continuous type, has no fenestrae at all.
+## answer_b
+Fenestrated with diaphragm
+## explanation_b
+Fenestrated capillaries with diaphragmed pores are sited in tissues built for fast fluid/solute exchange, such as the intestine and endocrine glands — not nervous tissue, whose capillaries must instead tightly restrict what crosses, forming the blood-brain barrier.
+## answer_c
+Continuous
+## explanation_c
+Correct. Nervous tissue is supplied by continuous capillaries, the least permeable of the three types, with a tightly joined, unbroken endothelium that lets nothing cross except by transport through the cell itself — the structural basis of the blood-brain barrier.
+
+Why this is right:
+- Capillary permeability increases across the sequence continuous capillaries (lowest permeability), fenestrated capillaries, and discontinuous capillaries (highest permeability).
+## answer_d
+Fenestrated without diaphragm
+## explanation_d
+Fenestrated capillaries without a diaphragm (fenestrae with no covering diaphragm at all) are the pattern seen in the renal glomerulus, not nervous tissue.
+## correct_answer
+C
+## main_concept
+CON-CVS-D3D1AF25EFA406
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Histology-general
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify continuous capillaries as the type present in nervous tissue, consistent with the blood-brain barrier's low permeability.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
 
 
 
@@ -48335,6 +48519,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-F4498627A7D3
+## title
+C wave in jugular venous pulse occurs in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+C wave in jugular venous pulse occurs in:
+## answer_a
+isometric contraction phase.
+## explanation_a
+Correct. The c wave is caused by the closed AV valve bulging backward into the atrium as ventricular pressure rises sharply at the start of isovolumetric (isometric) ventricular contraction, immediately after atrial systole has ended.
+
+Why this is right:
+- The atrial pressure curve traces right (or left) atrial pressure across one cardiac cycle and shows three positive waves.
+## answer_b
+isometric relaxation phase.
+## explanation_b
+Isovolumetric relaxation is instead when the closed semilunar valve produces the second heart sound; the atrial pressure curve is quiet at this point, between the v wave's peak and the AV valves reopening for filling.
+## answer_c
+maximum ejection phase,
+## explanation_c
+The maximum ejection phase is well after the c wave, which occurs at the very start of ventricular systole, not during its main ejection period.
+## answer_d
+atrial systole phase. ١
+## explanation_d
+Atrial systole itself produces the larger a wave, which peaks and is already falling by the time the AV valves shut to start isovolumetric contraction and produce the c wave — the c wave is a ventricular event that follows atrial systole, not part of it.
+## correct_answer
+A
+## main_concept
+CON-CVS-B8AFC98120E132
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the c wave of the atrial (jugular venous) pressure curve occurs at the start of isovolumetric ventricular contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q64. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-F175091CC11D
 ## title
 Digitalis has positive inotropic effect through the following mechanism:
@@ -59297,6 +59573,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-8A5F6B7319E7
+## title
+As the blood passes along the tissues:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+As the blood passes along the tissues:
+## answer_a
+HCO; ions is formed inside RBCs
+## explanation_a
+Correct. As blood passes along the tissues, CO2 diffuses into red blood cells and carbonic anhydrase rapidly hydrates it to carbonic acid, which dissociates into bicarbonate and H+ — bicarbonate is formed inside the red blood cell, the majority form of CO2 transport.
+
+Why this is right:
+- CO2 is carried in blood in three forms: dissolved in physical solution (about 3 ml/100 ml, setting blood PCO2), as carbamino compounds formed on terminal amine groups of haemoglobin and, secondarily, plasma proteins (Hb-NH2 + CO2 → Hb-NHCOOH; about 3 ml/100 ml, more on reduced than oxygenated Hb), and as bicarbonate (about 42 ml/100 ml, the majority) via CO2 + H2O → H2CO3 → H+ + HCO3-, a reaction that is slow in plasma but several thousand times faster inside red blood cells because of the enzyme carbonic anhydrase.
+## answer_b
+CTI ions falls inside RBCs
+## explanation_b
+Chloride RISES, not falls, inside red blood cells at the tissue level: as the newly formed bicarbonate diffuses out to plasma, chloride moves in to replace the negative charge it takes with it — the chloride shift.
+## answer_c
+decreased osmolarity of RBCs
+## explanation_c
+Osmolarity of red blood cells INCREASES, not decreases, as chloride (and bicarbonate before it leaves) accumulate inside the cell, drawing water in by osmosis.
+## answer_d
+decreased RBC volume. 1
+## explanation_d
+RBC volume INCREASES, not decreases, at the tissue level: the osmotic water influx that follows the chloride shift makes venous red blood cells swell slightly, raising venous haematocrit above arterial haematocrit.
+## correct_answer
+A
+## main_concept
+CON-RES-5FAC73A8BFC7DD
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that bicarbonate is formed inside red blood cells, not that chloride falls or that RBC osmolarity/volume decreases, as blood passes through the tissues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p43 q136. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-ADBCF0E0F6C9
 ## title
 Cyanosis: 1
@@ -67839,6 +68207,466 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q14. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0B6E64F38EEE
+## title
+Concerning laminar blood flow, one is incorrect:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning laminar blood flow, one is incorrect:
+## answer_a
+Blood flow occurs in layers |
+## explanation_a
+True of laminar flow, so not the exception. Laminar flow genuinely occurs as concentric, parallel layers (laminae) of fluid moving smoothly together.
+## answer_b
+Blood flow is silent
+## explanation_b
+True of laminar flow, so not the exception. Laminar flow is characteristically silent, unlike the audible turbulent flow that produces murmurs and bruits.
+## answer_c
+Re below 400
+## explanation_c
+The exception, and the answer. Laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400 — stating 400 as the threshold badly understates how far the Reynolds number must rise before flow tips into turbulence.
+
+Why this is right:
+- Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises.
+## answer_d
+Re above 2000
+## explanation_d
+True, so not the exception. A Reynolds number above roughly 2000 does mark the standard threshold for the transition toward turbulent flow.
+## correct_answer
+C
+## main_concept
+CON-CVS-BE644093FBBA69
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that laminar flow is maintained up to a Reynolds number of roughly 2000, not as low as 400, identifying the understated threshold as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q23. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BD64EC3327BE
+## title
+Turbulence is almost always present when Reynolds number is more than:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Turbulence is almost always present when Reynolds number is more than:
+## answer_a
+2000
+## explanation_a
+Correct. Standard cardiovascular physiology teaching states that once the Reynolds number rises above approximately 2000, turbulent flow will usually (almost always) occur, even in an otherwise straight, smooth vessel — the standard, most commonly cited figure for this threshold.
+
+Why this is right:
+- Whether blood flow is smooth (laminar) or turbulent is predicted by the Reynolds number, which rises with blood velocity, vessel diameter and blood density, and falls as blood viscosity rises.
+## answer_b
+2500
+## explanation_b
+2500 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## answer_c
+3000
+## explanation_c
+3000 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## answer_d
+3500
+## explanation_d
+3500 is not the standard, most commonly cited threshold figure for this specific teaching point.
+## correct_answer
+A
+## main_concept
+CON-CVS-BE644093FBBA69
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that turbulent flow is almost always present once the Reynolds number rises above approximately 2000.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q20. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-910396F80F4A
+## title
+Which of the following describes the pulse pressure?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following describes the pulse pressure?
+## answer_a
+It’s determined by the stroke volume ١
+## explanation_a
+Correct. Pulse pressure -- the difference between systolic and diastolic arterial pressure -- is directly determined by stroke volume for a given arterial compliance: a larger stroke volume ejects more blood into the arterial tree per beat, producing a larger swing in pressure between systole and diastole.
+
+Why this is right:
+- Mean arterial pressure approximately equals diastolic pressure plus one-third of the pulse pressure, not the arithmetic mean of systolic and diastolic pressure, because systole is shorter than diastole.
+## answer_b
+It's decreased when arterial resistance decreases
+## explanation_b
+Pulse pressure is most directly governed by stroke volume and arterial compliance; peripheral arterial resistance primarily determines mean arterial pressure rather than being the main driver of pulse pressure changes.
+## answer_c
+It’s the highest pressure measured in the arteries
+## explanation_c
+The highest pressure measured in the arteries is the systolic pressure itself, not the pulse pressure, which is instead the difference between systolic and diastolic pressure.
+## answer_d
+It’s the lowest pressure measured in the arteries
+## explanation_d
+The lowest pressure measured in the arteries is the diastolic pressure itself, not the pulse pressure.
+## correct_answer
+A
+## main_concept
+CON-CVS-A0579343614BCD
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that pulse pressure is determined by stroke volume (for a given arterial compliance), not by arterial resistance or by naming the highest or lowest arterial pressure directly.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q32. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-78844D4F6AC6
+## title
+Atrial natriuretic peptide
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Atrial natriuretic peptide
+## answer_a
+Secretion is increased when the ECF volume is decreased
+## explanation_a
+A decreased, not increased, ECF volume removes the atrial-stretch stimulus for ANP secretion — the opposite of the direction that triggers its release.
+## answer_b
+Secretion is increased during immersion in water up to the neck
+## explanation_b
+Correct. Immersion in water up to the neck shifts peripheral venous blood centrally, raising central blood volume and stretching the atrial wall — exactly the stimulus that raises ANP secretion.
+
+Why this is right:
+- The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance.
+## answer_c
+Causes contraction of the vascular smooth muscle cells
+## explanation_c
+ANP promotes vasodilation, not contraction, of vascular smooth muscle — part of how it lowers, rather than raises, blood pressure.
+## answer_d
+Causes rise of the arterial blood pressure
+## explanation_d
+ANP lowers, not raises, arterial blood pressure, via vasodilation and increased renal sodium excretion — the physiological opposite of what this option states.
+## correct_answer
+B
+## main_concept
+CON-CVS-D1F75A76748E54
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that ANP secretion is increased by atrial stretch from a rising central blood volume, such as during water immersion up to the neck.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q31; DPT BOOK Physio MCQ [104][2022].pdf p21 q161. Manifest src_d3160d222c8c55775511, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-248C1FA1CBC8
+## title
+Which of the following changes would not occur following inhibition of angiotensin conv…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following changes would not occur following inhibition of angiotensin converting enzyme?
+## answer_a
+Rennin secretion will fall
+## explanation_a
+Correct, and the exception the question asks for: renin secretion would NOT fall following ACE inhibition -- it would RISE, because angiotensin II normally suppresses renin secretion by negative feedback, and removing angiotensin II (by blocking the enzyme that makes it) removes that brake.
+
+Why this is right:
+- The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance.
+## answer_b
+Aldosterone level in plasma will fall
+## explanation_b
+Aldosterone level genuinely would fall following ACE inhibition, since aldosterone secretion depends on angiotensin II, which ACE inhibition lowers — this change would occur, so it is not the exception.
+## answer_c
+Proximal tubular sodium reabsorption will decrease
+## explanation_c
+Proximal tubular sodium reabsorption genuinely would decrease following ACE inhibition, since it is partly driven by angiotensin II and the aldosterone it stimulates, both of which fall — this change would occur, so it is not the exception.
+## answer_d
+Peripheral resistance will decrease
+## explanation_d
+Peripheral resistance genuinely would decrease following ACE inhibition, since angiotensin II is a direct vasoconstrictor and ACE inhibition lowers angiotensin II — this change would occur, so it is not the exception.
+## correct_answer
+A
+## main_concept
+CON-CVS-D1F75A76748E54
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that ACE inhibition raises, rather than lowers, renin secretion, by removing angiotensin II's own negative feedback on renin release.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p21 q158. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

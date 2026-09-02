@@ -22,8 +22,8 @@
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
-    Histology Cardiovascular System — A-V Connections — 35 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
+    Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
@@ -49,7 +49,7 @@
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 42 questions, 9 concepts
+    Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
@@ -59,7 +59,7 @@
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 19 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 29 questions, 3 concepts
@@ -67,7 +67,7 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 20 questions, 6 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  186 questions were excluded and 0 held back for having no
+  189 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -3047,6 +3047,7 @@ capillary-exchange.diffusion-permeability-and-vesicular-transport
 ## exam_signal
 src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
 src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
 ## field_notes
@@ -7781,12 +7782,13 @@ kau
 1
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p9 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12567,12 +12569,13 @@ kau
 1
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p49 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12809,6 +12812,138 @@ src_e569449acf8dc2af471e | question_book | | p48 | 104 CPS
 +ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
 ## field_notes
 canonical_key "vascular-tree.pressure-and-compliance-distribution" already has a pinned id in this module (CON-CVS-78E74CAC3AE5E5); mintConceptId derives the same id fresh (CON-CVS-78E74CAC3AE5E5) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The renin-angiotensin-aldosterone system raises blood pressure and retains sodium (triggered by low renal perfusion), while atrial natriuretic peptide lowers blood pressure and excretes sodium (triggered by atrial stretch from a rising central blood volume) — physiological opposites
+## id
+CON-CVS-D1F75A76748E54
+## canonical_key
+raas-vs-anp.opposing-blood-pressure-and-sodium-hormones
+## definition
+The renin-angiotensin-aldosterone system (RAAS) and atrial natriuretic peptide (ANP) are a matched pair of opposing hormonal systems for blood pressure and sodium balance. RAAS begins when reduced renal perfusion pressure (or reduced NaCl delivery to the macula densa, or increased renal sympathetic activity) raises renin secretion; renin cleaves angiotensinogen to angiotensin I, angiotensin-converting enzyme (ACE, secreted by pulmonary vascular endothelium among other sites) converts this to angiotensin II, which directly vasoconstricts (raising total peripheral resistance and arterial pressure) and stimulates adrenal cortex aldosterone secretion, which in turn raises renal sodium (and secondarily water) reabsorption. Inhibiting ACE therefore lowers angiotensin II and aldosterone, lowering peripheral resistance and sodium reabsorption — but because angiotensin II normally suppresses renin secretion by negative feedback, removing angiotensin II removes that brake, so renin secretion itself RISES with ACE inhibition, not falls. Atrial natriuretic peptide runs in the opposite direction on both fronts: it is secreted by atrial myocytes when a rising central (extracellular fluid) blood volume stretches the atrial wall — as in water immersion up to the neck, which shifts peripheral venous blood centrally — and it lowers blood pressure by promoting vasodilation and increasing renal sodium excretion (natriuresis), the physiological opposite of what RAAS does on both the vascular and renal fronts.
+## explicit_objective
+Contrast RAAS (low renal perfusion -> renin -> angiotensin II -> vasoconstriction + aldosterone -> sodium retention -> raised blood pressure) with ANP (atrial stretch from rising central blood volume, e.g. water immersion -> vasodilation + natriuresis -> lowered blood pressure), and state that ACE inhibition raises, not lowers, renin secretion by removing angiotensin II's negative feedback on it.
+## pitfalls
+Assuming every step of the renin-angiotensin-aldosterone cascade moves in the same direction when the cascade is blocked. ACE inhibition lowers angiotensin II and aldosterone, but renin secretion itself RISES, because angiotensin II's own negative feedback on renin release is what falls away — the one step in the cascade that reverses direction rather than following the others down.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p21 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+RAAS | Renin-angiotensin-aldosterone system | ACE inhibition | Atrial natriuretic peptide | ANP stimulus and action
+## article_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Atrial natriuretic peptide
+## conflicts
+No conflicting record found; find-existing.mjs returned no match, and the only related pinned content (a postural-hypotension concept naming RAAS as one item in a reflex list, and the hemorrhagic-shock concept covering why ANP does NOT rise in hemorrhage) states neither this concept's RAAS cascade mechanism nor ANP's own stimulus/action as a standalone fact.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
