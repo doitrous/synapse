@@ -83,6 +83,23 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Nervous regulation of respiration", "Non-chemical control of breathing"],
     },
+    // Sparse reuse, not a fresh mint: canonical_key already pinned in
+    // 104-CPS-physiology-concepts.md as CON-RES-228D7C6B6FDE80, this exact
+    // leaf's own module_subject. Not previously claimed by any 104-CPS MCQ
+    // seed (grepped before use).
+    {
+      key: "oxygen-transport.content-capacity-and-p50",
+      label: "About 98% of blood oxygen is carried bound to haemoglobin rather than dissolved, and P50 — the PO2 at which haemoglobin is 50% saturated, normally 27 mmHg — is the single number that marks where the dissociation curve sits",
+      definition: "Oxygen is carried in blood in two forms: physically dissolved (about 0.3 ml O2/100 ml arterial blood, which sets the blood PO2 and so the direction of diffusion) and bound to haemoglobin (about 19.5 ml O2/100 ml arterial blood, about 98% of the total, the main supply for tissue needs). O2 content is the volume of O2 actually combined with haemoglobin per 100 ml blood, and varies with the amount of haemoglobin present; O2 capacity is the maximum volume haemoglobin could carry if fully saturated (1.34 ml O2 per gram of Hb, giving about 20.1 ml O2/100 ml at a normal 15 g Hb/100 ml) — percentage saturation itself does not fall in anaemia, because content and capacity fall together. P50 is the PO2 at which haemoglobin is 50% saturated, normally 27 mmHg, and is the single value used to describe where the dissociation curve sits: a lower P50 means higher O2 affinity (curve shifted left), a higher P50 means lower affinity (curve shifted right).",
+      objective: "Distinguish O2 content from O2 capacity, calculate O2 capacity from haemoglobin concentration (about 20 ml O2/100 ml blood at a normal 15 g Hb/100 ml), and define P50.",
+      pitfall: "Assuming percentage O2 saturation falls in anaemia the way O2 content does. Saturation is a ratio of content to capacity, and anaemia lowers both together, leaving percentage saturation normal even though the blood carries less O2 in absolute terms.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Gas Transport by the Blood",
+      type: "definition",
+      aliases: ["O2 content versus O2 capacity", "O2 capacity of haemoglobin", "P50"],
+    },
   ],
 
   questions: [
@@ -316,6 +333,24 @@ export const LEAF: McqLeafSeed = {
         B: "The opposite is true: haemoglobin's affinity for carbon monoxide is roughly 200 times GREATER than its affinity for oxygen, not lower — this single fact is why even a small inspired CO concentration can tie up a large fraction of the body's haemoglobin.",
         C: "Almost all carbon monoxide in the blood is carried bound to haemoglobin, not dissolved in plasma water — a 97%-dissolved figure instead describes roughly the physically-dissolved fraction of a gas like O2, not CO's own overwhelmingly Hb-bound transport.",
         D: "This is the correct answer. Because haemoglobin's affinity for carbon monoxide is about 200 times greater than for oxygen, a given percentage saturation with CO is reached at a far lower partial pressure than the same saturation with O2 — so the CO-Hb dissociation curve sits well to the left of the O2-Hb curve. This is the same superaffinity that lets bound CO also resist the release of any oxygen molecules still attached to the same haemoglobin tetramer, shifting the O2 curve itself to the left as well.",
+      },
+    },
+    // Leaf-mismatch routing (bank-tagged "Gas exchange in the lung" — the
+    // stem's own "gas exchange across the alveolar membrane" wording pulled
+    // it into that leaf tag, but the credited option is an O2-carrying-
+    // capacity fact and the distractors are Bohr-effect facts, both this
+    // leaf's own concepts, not diffusion mechanics).
+    {
+      key: "with-respect-to-gas-exchange-across-the-alveolar-membrane-e168f662",
+      conceptKey: "oxygen-transport.content-capacity-and-p50",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that 100 ml of blood's haemoglobin can combine with about 20 ml of oxygen (O2 capacity), against three false statements about venous saturation and the Bohr effect.",
+      explanations: {
+        A: "Mixed venous blood's oxygen SATURATION is about 75%, not 40% — 40 mmHg is instead the approximate mixed venous PO2 (partial pressure), a different quantity from percentage saturation that this option conflates with it.",
+        B: "Correct. Haemoglobin's O2 capacity — the maximum volume of oxygen 100 ml of blood can carry when fully saturated — works out to about 20 ml O2/100 ml blood, from 1.34 ml O2 per gram of a normal 15 g Hb/100 ml.",
+        C: "The reverse is true: acidosis (a fall in pH) shifts the oxygen-haemoglobin dissociation curve to the RIGHT, not the left — part of the Bohr effect, which favours O2 release into acidic, actively metabolising tissue.",
+        D: "The reverse is true: a decreased CO2 concentration shifts the oxygen-haemoglobin dissociation curve to the LEFT, not the right — falling CO2 (like falling H+) raises, rather than lowers, haemoglobin's affinity for O2.",
       },
     },
   ],

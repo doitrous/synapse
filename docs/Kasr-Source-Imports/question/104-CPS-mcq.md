@@ -22,7 +22,7 @@
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
-    Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
+    Histology Cardiovascular System — A-V Connections — 35 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
@@ -58,16 +58,16 @@
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
-    Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
+    Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
-    Pulmonary Compliance — 4 questions, 2 concepts
+    Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 20 questions, 6 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  178 questions were excluded and 0 held back for having no
+  180 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -19289,6 +19289,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cardiov
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A1A40A1569B7
+## title
+Av shunt include the following except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Av shunt include the following except
+## answer_a
+Present in tips of finger, toes, placenta
+## explanation_a
+True of an arteriovenous anastomosis, so not the exception — it is characteristically present in exposed sites such as the fingertips, toes and the placenta.
+## answer_b
+intermediate segment has thick smooth muscle to form sphincter
+## explanation_b
+True, so not the exception — the intermediate segment carries a relatively thick smooth-muscle sphincter under sympathetic control.
+## answer_c
+when it close, large amount of blood pass through it
+## explanation_c
+The exception, and the answer. A large volume of blood passes through an arteriovenous anastomosis when its sphincter opens, not when it closes — closing the sphincter is what sends blood through the capillary bed as usual, while opening it lets blood bypass the capillary bed through the short, low-resistance shunt.
+
+Why this is right:
+- An arteriovenous anastomosis (shunt) is a direct connection between an arteriole and a venule that bypasses the capillary bed entirely.
+## answer_d
+enclosed in C.T capsule, richly innervated
+## explanation_d
+True, so not the exception — the shunt is enclosed in a connective-tissue capsule and is richly innervated, by sympathetic fibres that open and close it.
+## correct_answer
+C
+## main_concept
+CON-CVS-4BE9D0F74D4377
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that a large volume of blood passes through an arteriovenous anastomosis when its sphincter opens, not when it closes, as the exception among true statements about the shunt.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q49. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
 
 
@@ -54429,6 +54521,1110 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-D04F8E414FA4
+## title
+A 49-year-old man has a pulmonary embolism that completely blocks blood flow to his lef…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A 49-year-old man has a pulmonary embolism that completely blocks blood flow to his left lung. As a result, which of the following will occur?
+## answer_a
+Ventilation/perfusion (V/Q) ratio in the left lung will be zero
+## explanation_a
+A V/Q ratio of zero describes a shunt (perfusion without ventilation) — the opposite extreme from this scenario, where perfusion is absent but ventilation continues, which instead drives V/Q toward infinity.
+## answer_b
+V/Q ratio in the left lung will be lower than in the right lung
+## explanation_b
+The left lung's V/Q ratio here is far HIGHER than the right lung's (approaching infinity, since ventilation continues with no perfusion at all), not lower.
+## answer_c
+Alveolar 202 in the left lung will be approximately equal to. the PO2 in inspired air
+## explanation_c
+Correct. With perfusion to the left lung completely blocked, ventilation continues without any blood to exchange gas with, so the left lung's alveolar gas composition progressively equilibrates toward that of inspired (tracheal) air rather than being modified by gas exchange with blood — the classic alveolar dead space pattern.
+
+Why this is right:
+- The ventilation-perfusion ratio has two extremes.
+## answer_d
+Alveolar PO2 in the right lung will be approximately equal to the PO2 in venous blood
+## explanation_d
+The right lung, now receiving the entire cardiac output with roughly unchanged total ventilation, develops a comparatively LOW V/Q ratio, and its alveolar PO2 shifts toward — but does not become fully equal to — mixed venous levels; 'approximately equal to venous blood' overstates this shift.
+## correct_answer
+C
+## main_concept
+CON-RES-D987B2C6C2FF07
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Application
+## learning_objective
+Predict that a completely unperfused but still-ventilated left lung equilibrates its alveolar gas toward inspired-air composition (alveolar dead space), against three distractors misreading the same scenario.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q91. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B4F5CAC85ED0
+## title
+All about diffusion of O2 across a membrane is correct, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All about diffusion of O2 across a membrane is correct, except:
+## answer_a
+Increasing the thickness of the membrane would decrease flow of ‏و0‎
+## explanation_a
+True of O2 diffusion across the membrane, so not the exception — increasing membrane thickness lengthens the diffusion path and decreases flow.
+## answer_b
+Increasing the area of the membrane would increase the flow of Op.
+## explanation_b
+True, so not the exception — increasing the membrane's surface area increases the total flow of O2 across it.
+## answer_c
+If you increased the alveolar concentration of O2, you would increase the total flow of ‏و0‎ across the alveolar membrane.
+## explanation_c
+True, so not the exception — raising alveolar O2 concentration raises the pressure gradient driving diffusion, increasing total O2 flow.
+## answer_d
+The lower the diffusion coefficient, the higher the flow.
+## explanation_d
+The exception, and the answer. A gas's diffusion coefficient (set mainly by its solubility) is directly, not inversely, related to its diffusion rate — a LOWER diffusion coefficient means a LOWER, not higher, flow across the membrane.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## correct_answer
+D
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that a lower, not higher, diffusion coefficient predicts a lower flow of a gas across the respiratory membrane, as the exception among true statements about O2 diffusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q114. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A687982921A8
+## title
+Compared with the apex of the lung, the base of the lung has 3
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Compared with the apex of the lung, the base of the lung has 3
+## answer_a
+ahigher pulmonary capillary
+## explanation_a
+Not the credited comparison this row tests; extracted incompletely, and in any case a higher pulmonary capillary PO2 at the base (rather than PCO2) would be the wrong direction — the base's lower V/Q ratio means relatively less, not more, oxygenation of its capillary blood compared with the apex.
+## answer_b
+ahigher pulmonary capillary PCO2
+## explanation_b
+Correct. The base has a lower ventilation-perfusion ratio than the apex (perfusion rises faster than ventilation moving down the upright lung), so basal capillary blood spends relatively more of its exchange 'diluted' toward mixed venous gas composition — a higher pulmonary capillary PCO2 (and lower PO2) than at the apex.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_c
+ahigher ventilation/perfusion (V/Q) ratio
+## explanation_c
+The base has a LOWER, not higher, V/Q ratio than the apex, since perfusion rises faster than ventilation going down the lung.
+## answer_d
+the same V/Q ratio
+## explanation_d
+The V/Q ratio changes substantially from apex to base in the upright lung (about 3.0 to 0.6); it is not the same at both locations.
+## correct_answer
+B
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that the base of the lung has a higher pulmonary capillary PCO2 than the apex, as a direct consequence of its lower ventilation-perfusion ratio.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p36 q86. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-66D466EB6244
+## title
+Compared with the base of the lung, in a person who is standing, the apex of the lung h…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Compared with the base of the lung, in a person who is standing, the apex of the lung has: a, a higher ventilation rate
+## answer_a
+a higher ventilation rate
+## explanation_a
+The apex has a LOWER ventilation rate than the base, not higher — basal alveoli, being less pre-expanded at rest, change volume more on each inspiration.
+## answer_b
+a higher perfusion rate
+## explanation_b
+The apex has a much LOWER perfusion rate than the base, not higher — gravity leaves apical capillaries under low arterial pressure and poorly perfused.
+## answer_c
+ahigher ventilation/perfusion (V/Q) ratio
+## explanation_c
+Correct. The apex has a higher ventilation-perfusion ratio (about 3.0) than the base (about 0.6), because perfusion falls faster than ventilation moving up the upright lung.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_d
+alower pulmonary capillary PO2 :
+## explanation_d
+The apex has a HIGHER, not lower, pulmonary capillary PO2 than the base, precisely because its high V/Q ratio pulls its alveolar and capillary gas composition closer to that of inspired air.
+## correct_answer
+C
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that the apex has a higher ventilation-perfusion ratio than the base, against distractors that reverse the ventilation, perfusion and capillary-PO2 comparisons.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q93. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9AEAE451BF5F
+## title
+Concerning distribution of ventilation and perfusion:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning distribution of ventilation and perfusion:
+## answer_a
+Gradient of change in ventilation is greater than that for perfusion
+## explanation_a
+The gradient of change going up the lung is greater for perfusion than for ventilation, not the reverse — this is exactly why V/Q rises toward the apex.
+## answer_b
+Ventilation increases as we go up the lung
+## explanation_b
+Ventilation decreases, not increases, as we go up the lung, since apical alveoli are already more expanded at rest and change volume less on inspiration.
+## answer_c
+Perfusion increases as we go up the lung
+## explanation_c
+Perfusion decreases, not increases, as we go up the lung — gravity leaves apical capillaries poorly perfused under low arterial pressure.
+## answer_d
+V,/Q ratio at apex is greater than at base
+## explanation_d
+Correct. The ventilation-perfusion ratio is greater at the apex than at the base, because perfusion falls faster than ventilation moving up the upright lung.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## correct_answer
+D
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the ventilation-perfusion ratio is greater at the apex than at the base of the upright lung, against three distractors that misstate the ventilation and perfusion gradients.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p36 q85. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B09405AF81D0
+## title
+Lung emphysema decreases the pulmonary diffusing capacity for gases due to:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Lung emphysema decreases the pulmonary diffusing capacity for gases due to:
+## answer_a
+Decreased the surface area of respiratory membrane
+## explanation_a
+Correct. Emphysema destroys alveolar walls and septa, merging many small alveoli into fewer, larger air spaces and directly reducing the total surface area of the respiratory membrane available for diffusion — and diffusing capacity is directly proportional to that surface area.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## answer_b
+Increased thickness of respiratory membrane
+## explanation_b
+Increased membrane thickness is the mechanism behind reduced diffusing capacity in interstitial lung diseases like pulmonary fibrosis or oedema, not emphysema, which instead destroys tissue and reduces surface area.
+## answer_c
+Increased elasticity of lung tissue
+## explanation_c
+Emphysema is characterised by decreased, not increased, elastic recoil of lung tissue, from elastase-mediated destruction of elastin fibres.
+## answer_d
+Increased solubility of gases
+## explanation_d
+Gas solubility is an intrinsic physicochemical property of the gas and the diffusion medium; it is not altered by emphysema.
+## correct_answer
+A
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology Respiratory System — Gas Exchange in the Lung
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Attribute emphysema's reduced pulmonary diffusing capacity to decreased respiratory membrane surface area, distinct from the membrane-thickening mechanism of interstitial lung disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q83. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-371F7064A680
+## title
+The alveoli at the top of the lungs differ from those at the bottom in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The alveoli at the top of the lungs differ from those at the bottom in:
+## answer_a
+Exhibit greater compliance ;
+## explanation_a
+Apical alveoli, already more expanded at rest, sit on the flatter, less compliant part of the lung's pressure-volume curve and so show smaller, not greater, dynamic compliance (volume change per breath) than basal alveoli.
+## answer_b
+Have a lower V/Q ratio 1
+## explanation_b
+Apical alveoli have a HIGHER, not lower, ventilation-perfusion ratio than basal alveoli, since perfusion falls faster than ventilation moving up the lung.
+## answer_c
+Have larger radii 1
+## explanation_c
+Correct. The more negative intrapleural pressure at the apex (from the lung's own weight) leaves apical alveoli more expanded at rest, so they have larger resting radii than the less-inflated basal alveoli.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_d
+Receive a greater percentage of pulmonary blood flow
+## explanation_d
+Apical alveoli receive a much SMALLER, not greater, percentage of pulmonary blood flow, since gravity leaves apical capillaries poorly perfused under low arterial pressure.
+## correct_answer
+C
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that alveoli at the top of the lungs have larger radii than those at the bottom, because apical alveoli sit more expanded at rest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p41 q121. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-703EBEABB09E
+## title
+Ventilation/perfusion (V4/Q) ratio: : :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Ventilation/perfusion (V4/Q) ratio: : :
+## answer_a
+Is lower at the apices of the lungs than at the bases in the upright position /
+## explanation_a
+The V/Q ratio is HIGHER, not lower, at the apex than at the base in the upright position, since perfusion falls faster than ventilation moving up the lung.
+## answer_b
+Is expected to increase in obstructive lung disease ‏ا‎
+## explanation_b
+Obstructive lung disease lowers, not raises, V/Q in the affected units: airway obstruction reduces ventilation to those alveoli while their perfusion continues, pulling V/Q toward the shunt-like extreme.
+## answer_c
+May be determined from the respiratory minute volume and the pulmonary blood flow
+## explanation_c
+V/Q genuinely may be determined from respiratory minute volume (ventilation) and pulmonary blood flow (perfusion) — it is, by definition, their ratio — so this statement is true, not the exception.
+## answer_d
+Is expected to increase following blockage of a major pulmonary artery ْ
+## explanation_d
+Correct. Blocking a major pulmonary artery abolishes perfusion to the alveoli downstream while ventilation continues, driving V/Q toward its infinite, alveolar-dead-space extreme — exactly the pulmonary embolism scenario tested elsewhere in this same concept.
+
+Why this is right:
+- The ventilation-perfusion ratio has two extremes.
+## correct_answer
+D
+## main_concept
+CON-RES-D987B2C6C2FF07
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the ventilation-perfusion ratio is expected to increase — toward the alveolar dead space extreme — following blockage of a major pulmonary artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q89. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2AA0B80E4973
+## title
+When a person is standing, blood flow in the lungs is
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+When a person is standing, blood flow in the lungs is
+## answer_a
+equal at the apex and the base
+## explanation_a
+Blood flow is not equal at the apex and the base — gravity creates a substantial perfusion gradient between them in the upright lung.
+## answer_b
+highest at the apex owing to the effects of gravity on arterial pressure
+## explanation_b
+The apex is the poorest-, not the best-, perfused region: low pulmonary arterial pressure there lets apical capillaries nearly collapse under gravity's effect.
+## answer_c
+highest at the base because that is where the difference between arterial and venous pressure
+## explanation_c
+Correct. At the base, the highest hydrostatic pressure gives the greatest difference between pulmonary arterial and venous pressure, keeping basal capillaries fully open and driving the greatest blood flow.
+
+Why this is right:
+- The ventilation-perfusion ratio is about 3.0 at the lung apex, where blood flow is relatively poor compared to ventilation, and about 0.6 at the lung base, where blood flow is relatively high compared to ventilation.
+## answer_d
+lowest at the base because that is where alveolar pressure is greater than arterial pressure
+## explanation_d
+The base is the BEST-, not the worst-, perfused region; alveolar pressure exceeding arterial pressure (the 'zone 1' pattern) instead characterises the poorly perfused apex, not the base.
+## correct_answer
+C
+## main_concept
+CON-RES-317D54C114B246
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that pulmonary blood flow is highest at the base of the upright lung, because that is where the arterial-venous pressure difference driving flow is greatest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p37 q92. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DD1EF5EA0BF4
+## title
+Which of following conditions would limit the diffusion of O; from alveoli to pulmonary…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of following conditions would limit the diffusion of O; from alveoli to pulmonary capillary blood?
+## answer_a
+Breathing hyperbaric gas mixture
+## explanation_a
+Breathing a hyperbaric gas mixture raises, rather than limits, the alveolar-to-capillary O2 pressure gradient, increasing diffusion rather than limiting it.
+## answer_b
+Chronic obstructive lung disease
+## explanation_b
+Chronic obstructive lung disease impairs gas exchange mainly through airway obstruction and ventilation-perfusion mismatch, not primarily by thickening the respiratory membrane itself.
+## answer_c
+Increased ventilator rate
+## explanation_c
+An increased ventilator (ventilation) rate would tend to raise, not limit, alveolar O2 delivery and the diffusion gradient.
+## answer_d
+Pulmonary edema
+## explanation_d
+Correct. Pulmonary oedema fills the interstitium and alveoli with fluid, thickening the respiratory membrane and lengthening the path O2 must diffuse across — directly limiting O2 diffusion from alveoli to pulmonary capillary blood.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## correct_answer
+D
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology Respiratory System — Gas Exchange in the Lung
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Identify pulmonary oedema, rather than hyperbaric O2, increased ventilator rate, or COPD, as the condition that limits O2 diffusion from alveoli to pulmonary capillary blood by thickening the respiratory membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q57. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A4084436F7A8
+## title
+Which of the following conditions would limit the diffusion of O, from alveoli to pulmo…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following conditions would limit the diffusion of O, from alveoli to pulmonary capillary blood?
+## answer_a
+Breathing hyperbaric gas mixture
+## explanation_a
+Breathing a hyperbaric gas mixture raises, rather than limits, the alveolar-to-capillary O2 pressure gradient, increasing rather than limiting diffusion.
+## answer_b
+Chronic obstructive lung disease
+## explanation_b
+Chronic obstructive lung disease impairs gas exchange mainly through airway obstruction and ventilation-perfusion mismatch, not primarily by thickening the respiratory membrane.
+## answer_c
+Increased ventilator rate
+## explanation_c
+An increased ventilator (ventilation) rate would tend to raise, not limit, alveolar O2 delivery and the diffusion gradient.
+## answer_d
+Pulmonary edema
+## explanation_d
+Correct. Pulmonary oedema fills the interstitium and alveoli with fluid, thickening the respiratory membrane and directly limiting O2 diffusion from alveoli to pulmonary capillary blood.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## correct_answer
+D
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that pulmonary oedema limits O2 diffusion by thickening the respiratory membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q110. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D1E87FD399B3
+## title
+Which person would be expected to have the largest Alveolar PO2-arterial PO2 gradient?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which person would be expected to have the largest Alveolar PO2-arterial PO2 gradient?
+## answer_a
+Person with pulmonary fibrosis
+## explanation_a
+Correct. Pulmonary fibrosis thickens the respiratory membrane, a genuine diffusion barrier that widens the alveolar-arterial PO2 gradient — unlike the other listed conditions, none of which impairs diffusion across an otherwise normal membrane.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## answer_c
+Person at 12,000 feet above sea level
+## explanation_c
+High altitude lowers both alveolar and arterial PO2 together (by lowering inspired PO2), without impairing diffusion across the membrane itself, so it does not widen the alveolar-arterial gradient the way a genuine diffusion abnormality does.
+## answer_d
+Person with normal lungs breathing 50% 2
+## explanation_d
+Breathing 50% O2 with otherwise normal lungs raises both alveolar and arterial PO2 together without introducing a true diffusion barrier, so it does not produce the widened gradient a diffusion abnormality like fibrosis does.
+## answer_e
+Person with normal lungs breathing 100% 2
+## explanation_e
+Breathing 100% O2 with otherwise normal lungs raises both alveolar and arterial PO2 together without introducing a true diffusion barrier, so it does not produce the widened gradient a diffusion abnormality like fibrosis does.
+## correct_answer
+A
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Comparison
+## learning_objective
+Identify pulmonary fibrosis, rather than altitude or a raised inspired O2 fraction, as producing the largest alveolar-arterial PO2 gradient, since only fibrosis represents a genuine diffusion abnormality.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q95. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-424AB905A7A9
 ## title
 Factors that cause shift of oxygen dissociation curve to the right are:
@@ -55980,6 +57176,98 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-866DC210F9B3
+## title
+With respect to gas exchange across the alveolar membrane:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+With respect to gas exchange across the alveolar membrane:
+## answer_a
+The oxygen saturation in venous blood is 40%
+## explanation_a
+Mixed venous blood's oxygen SATURATION is about 75%, not 40% — 40 mmHg is instead the approximate mixed venous PO2 (partial pressure), a different quantity from percentage saturation that this option conflates with it.
+## answer_b
+On average, the haemoglobin in 100ml of blood can combine with 20ml of oxygen
+## explanation_b
+Correct. Haemoglobin's O2 capacity — the maximum volume of oxygen 100 ml of blood can carry when fully saturated — works out to about 20 ml O2/100 ml blood, from 1.34 ml O2 per gram of a normal 15 g Hb/100 ml.
+
+Why this is right:
+- P50 is the PO2 at which haemoglobin is 50% saturated with oxygen; the normal P50 for human blood is 27 mmHg.
+## answer_c
+Acidosis causes the oxygen — Hb dissociation curve to shift to the left 0
+## explanation_c
+The reverse is true: acidosis (a fall in pH) shifts the oxygen-haemoglobin dissociation curve to the RIGHT, not the left — part of the Bohr effect, which favours O2 release into acidic, actively metabolising tissue.
+## answer_d
+Decreased CO, concentration causes the oxygen - Hb dissociation curve to shift to the right
+## explanation_d
+The reverse is true: a decreased CO2 concentration shifts the oxygen-haemoglobin dissociation curve to the LEFT, not the right — falling CO2 (like falling H+) raises, rather than lowers, haemoglobin's affinity for O2.
+## correct_answer
+B
+## main_concept
+CON-RES-228D7C6B6FDE80
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that 100 ml of blood's haemoglobin can combine with about 20 ml of oxygen (O2 capacity), against three false statements about venous saturation and the Bohr effect.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q97. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
@@ -60974,7 +62262,7 @@ Pulmonary emphysema
 Correct. Emphysema destroys alveolar walls and the elastin and collagen fibres within them, reducing the lung's elastic recoil and making it abnormally easy to inflate — the classic 'floppy lung' of increased compliance.
 
 Why this is right:
-- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch.
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
 ## answer_b
 Pulmonary fibrosis
 ## explanation_b
@@ -61039,6 +62327,1374 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q21. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DA8D5EFC9D2C
+## title
+Among the functions of surfactant:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Among the functions of surfactant:
+## answer_a
+Facilitation of lung expansion
+## explanation_a
+Correct. Surfactant lowers alveolar surface tension, and because surface tension is the larger of the two forces resisting lung expansion, lowering it makes the lung easier to inflate — surfactant facilitates lung expansion.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_b
+Facilitation of lung collapse
+## explanation_b
+Surfactant does the opposite of facilitating lung collapse: by lowering surface tension it helps keep alveoli, particularly the smallest ones, from collapsing.
+## answer_c
+Prevention of alveolar collapse during inspiration
+## explanation_c
+Surfactant's protection against alveolar collapse operates mainly at low lung volumes, near the end of expiration, when small alveoli are most at risk under high surface tension — not specifically 'during inspiration', when alveoli are actively expanding rather than at risk of closing.
+## answer_d
+Favors filtration of fluids from pulmonary capillaries into alveoli
+## explanation_d
+Surfactant, by lowering alveolar surface tension, reduces rather than favours the tendency for fluid to be drawn from the pulmonary capillaries into the alveoli — a high, unopposed surface tension would pull fluid inward, the opposite of surfactant's actual effect.
+## correct_answer
+A
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify facilitation of lung expansion as surfactant's credited function, against a similar-sounding but wrongly-timed distractor about preventing alveolar collapse.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p29 q30. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-37F894BB4634
+## title
+An infant born prematurely in gestational week 25 has neonatal respiratory linc; syndro…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+An infant born prematurely in gestational week 25 has neonatal respiratory linc; syndrome. Which of the following would be expected in this infant?
+## answer_a
+Arterial PO2 of 100 mm Hg
+## explanation_a
+Arterial PO2 falls, rather than reaching a normal value such as 100 mmHg, since collapsed, poorly ventilated alveoli fail to oxygenate blood adequately in surfactant-deficient respiratory distress syndrome.
+## answer_b
+Collapse of the small alveoli
+## explanation_b
+Correct. Without adequate surfactant, alveolar surface tension is markedly increased, and the smallest alveoli — whose surface-tension effect is proportionally greatest, by Laplace's law — collapse first: the defining lesion of respiratory distress syndrome of prematurity.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_c
+Increased lung compliance
+## explanation_c
+Lung compliance falls, not rises, when surfactant is deficient, since the raised alveolar surface tension stiffens the lung.
+## answer_d
+Lecithin:sphingomyelin ratio of greater than 2:1 in amniotic fluid ,
+## explanation_d
+A lecithin:sphingomyelin ratio below, not above, 2:1 in amniotic fluid is what predicts surfactant deficiency and a high risk of respiratory distress syndrome this early in gestation.
+## correct_answer
+B
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Application
+## learning_objective
+Predict collapse of the small alveoli, rather than a normal arterial PO2, increased compliance, or a raised L:S ratio, in a 25-week premature infant with neonatal respiratory distress syndrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q35. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-ED9BDBB889DF
+## title
+If the lungs experimentally filled completely with saline, so the surface tension of fl…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+If the lungs experimentally filled completely with saline, so the surface tension of fluid lining alveoli is:
+## answer_a
+Increased slightly with increase lung compliance
+## explanation_a
+Surface tension is essentially eliminated, not merely 'increased slightly', once the air-liquid interface is removed entirely by filling the alveoli with saline.
+## answer_c
+Remains constant with no change in lung compliance
+## explanation_c
+Compliance changes dramatically (rises), rather than remaining constant, once the air-liquid interface and its surface tension are removed by saline filling.
+## answer_d
+Completely lost with increase in lung compliance
+## explanation_d
+Correct. Filling the lungs completely with saline abolishes the air-liquid interface altogether — both surfaces of the alveolar lining fluid become liquid-liquid — so surface tension's contribution to the lung's elastic recoil is essentially lost, and with that resistance removed, lung compliance rises sharply. This classic experiment is the proof that surfactant's own job is specifically to lower surface tension at that same air-liquid interface, since removing the interface itself reproduces the same easy-inflation effect surfactant partially achieves.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+State that filling the lungs completely with saline abolishes the air-liquid interface and its surface tension, sharply increasing lung compliance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q7. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BB316E4FF0D3
+## title
+Normal value of lung‘ compliance is about....:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Normal value of lung‘ compliance is about....:
+## answer_a
+200 ml/cmH20
+## explanation_a
+Correct. Normal pulmonary compliance is about 200 ml/cmH2O — about 200 ml of additional volume enters the lungs for each 1 cmH2O rise in transpulmonary pressure near the normal operating range.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_b
+2 L/emH20
+## explanation_b
+2 L/cmH2O is ten times too high for normal lung compliance and would represent an implausibly floppy lung.
+## answer_c
+0.02 L/cemH2,0
+## explanation_c
+0.02 L/cmH2O (20 ml/cmH2O) is ten times too low for normal lung compliance and would represent an implausibly stiff lung.
+## answer_d
+0 ml/ cmH,O
+## explanation_d
+A compliance of zero would mean the lung cannot be inflated at all by any pressure change, which is not physiologically meaningful for a functioning lung.
+## correct_answer
+A
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that normal pulmonary compliance is about 200 ml/cmH2O, an order of magnitude different from the three other listed values.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q5. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B3B5514FBE63
+## title
+Regarding transpulmonary pressure all is correct, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding transpulmonary pressure all is correct, except:
+## answer_a
+It is the difference between intra-alveolar and intrapleural pressures
+## explanation_a
+True of transpulmonary pressure, so not the exception — it is, by definition, the difference between intra-alveolar and intrapleural pressures.
+## answer_b
+On inspiration, it is higher than atmospheric pressure
+## explanation_b
+True, so not the exception — transpulmonary pressure is positive (about +3 to +6 cmH2O relative to atmospheric) throughout normal breathing, including on inspiration, so it is higher than atmospheric pressure.
+## answer_c
+It is the pressure which expands the lungs
+## explanation_c
+True, so not the exception — transpulmonary pressure is specifically the force that expands the lungs against their own elastic recoil.
+## answer_d
+It is the pressure between the two layers of the pleural membrane
+## explanation_d
+The exception, and the answer. The pressure between the two layers of the pleural membrane is intrapleural pressure itself, a different quantity from transpulmonary pressure, which is instead the difference between intra-alveolar and intrapleural pressure.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that transpulmonary pressure is the difference between intra-alveolar and intrapleural pressures — not the pressure between the two pleural layers, which is intrapleural pressure itself — as the exception.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q21. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B5A8CD30A74C
+## title
+The recoil tendency of the lungs:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The recoil tendency of the lungs:
+## answer_a
+results from tendency of the lung to expand
+## explanation_a
+The lung's recoil tendency is the opposite of a tendency to expand — it is the lung's tendency to collapse inward, pulling away from the chest wall, which surfactant's surface-tension-lowering effect partly offsets.
+## answer_b
+is due to surface tension of the fluid lining the alveoli
+## explanation_b
+Correct. The dominant source of the lung's elastic recoil is the surface tension of the fluid lining the alveoli, with the elastic fibres of the lung tissue itself contributing the remainder.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_c
+increases during emphysema
+## explanation_c
+Recoil falls, not rises, in emphysema: destruction of the lung's elastin and collagen fibres reduces tissue's own contribution to recoil, producing the classic floppy, low-recoil lung of that disease.
+## answer_d
+decreases in lung fibrosis
+## explanation_d
+Recoil rises, not falls, in lung fibrosis: excess fibrous tissue stiffens the lung and increases, rather than decreases, its tendency to recoil inward.
+## correct_answer
+B
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Attribute the lung's elastic recoil tendency mainly to alveolar surface tension, and state that recoil falls (not rises) in emphysema and rises (not falls) in lung fibrosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p16 q10. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-D8731C1AC20C
+## title
+The resistance of the lungs to inflation is increase by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The resistance of the lungs to inflation is increase by:
+## answer_a
+Increase the elastic forces of the lung tissues
+## explanation_a
+Correct. Resistance to lung inflation rises when the lung tissue's own elastic (recoil) forces increase, since a stiffer lung needs a larger pressure change to achieve the same rise in volume — the definition of reduced compliance, i.e. increased resistance to inflation.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_b
+Decrease the surface tension of the fluid lining the alveoli
+## explanation_b
+Decreasing alveolar surface tension makes the lung easier, not harder, to inflate, lowering resistance to inflation.
+## answer_c
+Increase surfactant concentration
+## explanation_c
+Increasing surfactant concentration lowers surface tension and increases compliance, again easing inflation rather than increasing resistance to it.
+## answer_d
+Decrease collagen and elastic fibers
+## explanation_d
+Decreasing collagen and elastic fibres makes lung tissue floppier (as in emphysema), increasing compliance and decreasing, not increasing, resistance to inflation.
+## correct_answer
+A
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Link increased elastic (recoil) forces in the lung tissue to increased resistance to inflation (reduced compliance), against three factors that instead ease inflation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q6. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F2CCBC198E09
+## title
+Which disease increase lung compliance: ‏ظ‎ ‎a- Emphysema
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which disease increase lung compliance: ‏ظ‎ ‎a- Emphysema
+## answer_a
+Emphysema
+## explanation_a
+Correct. Emphysema destroys alveolar walls and the elastin fibres within them, reducing the lung's elastic recoil and making it abnormally easy to inflate — the classic 'floppy lung' of increased compliance.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range.
+## answer_b
+Lung fibrosis
+## explanation_b
+Lung fibrosis stiffens the lung with excess collagenous tissue, decreasing compliance — the opposite effect from emphysema.
+## answer_c
+Lung congestion : ١ ‏حل‎ Pulmonary edema
+## explanation_c
+Lung congestion and pulmonary oedema stiffen the lung by filling it with excess blood or fluid, decreasing rather than increasing compliance.
+## correct_answer
+A
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify emphysema as the disease that increases lung compliance, against two conditions that instead decrease it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q8. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9D94AFA7A0C7
+## title
+Which disorder decreases the chest compliance:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which disorder decreases the chest compliance:
+## answer_a
+Scoliosis
+## explanation_a
+Scoliosis alone genuinely reduces chest wall compliance by structurally deforming the thoracic cage, but it is not the sole correct answer, since the other two disorders are also classically grouped with it.
+## answer_b
+Fracture ribs
+## explanation_b
+Rib fractures alone genuinely reduce effective chest wall compliance, but again not the sole correct answer given the grouped framing of this question.
+## answer_c
+Paralysis of respiratory muscles
+## explanation_c
+Paralysis of the respiratory muscles alone is classically grouped with the other two disorders as a cause of a restrictive breathing pattern, but again not the sole correct answer here.
+## answer_d
+All are true
+## explanation_d
+Correct. Scoliosis and rib fractures mechanically stiffen and deform the thoracic cage directly, while paralysis prevents the normal active expansion that keeps the chest wall operating over its most compliant range — all three are classically grouped together as causes of decreased chest wall compliance.
+
+Why this is right:
+- Chest wall compliance describes how easily the thoracic cage itself expands, distinct from lung parenchymal compliance (set by lung tissue elastic recoil and surfactant).
+## correct_answer
+D
+## main_concept
+CON-RES-482D1271B64BE0
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Group scoliosis, rib fractures and paralysis of the respiratory muscles together as disorders that all reduce chest wall compliance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q9. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-789F82FE252A
+## title
+Which of the following is correct regarding type Il pneumocytes?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is correct regarding type Il pneumocytes?
+## answer_a
+Secrete surtactant
+## explanation_a
+Correct. Type II pneumocytes are the alveolar cells that secrete pulmonary surfactant.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_b
+Prevent leakage of tissue fluids
+## explanation_b
+Preventing leakage of tissue fluid into the alveoli is a property of the thin blood-air barrier formed by type I pneumocytes and the capillary endothelium together, not a function credited specifically to type II pneumocytes.
+## answer_c
+Flat squamous cells
+## explanation_c
+Type I pneumocytes, not type II, are the flat, squamous cells forming the thin gas-exchange surface of the alveolar wall; type II pneumocytes are cuboidal, surfactant-secreting cells.
+## correct_answer
+A
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that type II pneumocytes secrete surfactant, against distractors describing type I pneumocytes and the blood-air barrier instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p15 q120. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E08210988B0B
+## title
+Which of the following is NOT true concerning respiratory distress syndrome in prematur…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT true concerning respiratory distress syndrome in premature infants?
+## answer_a
+Their ability to synthesize dipalmitoyl lecithin is limited
+## explanation_a
+True of respiratory distress syndrome in premature infants, so not the exception — their type II pneumocytes' ability to synthesise dipalmitoyl lecithin (a major surfactant phospholipid) is limited by immaturity.
+## answer_b
+Higher pressures are required to ventilate the lungs
+## explanation_b
+True, so not the exception — the raised surface tension from surfactant deficiency stiffens the lung, so higher pressures are required to ventilate it.
+## answer_c
+Lung compliance is low. me
+## explanation_c
+True, so not the exception — surfactant deficiency raises alveolar surface tension and so lowers, not raises, lung compliance.
+## answer_d
+Alveoli tend to over expand and sometimes burst-at the end of inspiration
+## explanation_d
+The exception, and the answer. Surfactant-deficient alveoli, especially the smallest ones, tend to collapse at the end of expiration under their raised surface tension, rather than over-expand and burst at the end of inspiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that alveoli in surfactant-deficient respiratory distress syndrome tend to collapse, not over-expand and burst, as the exception among true statements about the disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q32. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A35AF3932BDA
+## title
+Which of the following is NOT true concerning respiratory distress sy ndrome in prematu…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT true concerning respiratory distress sy ndrome in premature infants?
+## answer_a
+Their ability to synthesize dipalmitoy! lecithin is limited
+## explanation_a
+True of respiratory distress syndrome in premature infants, so not the exception — limited dipalmitoyl lecithin synthesis by immature type II pneumocytes is the underlying surfactant deficiency.
+## answer_b
+Higher pressures are required to ventilate the lungs,
+## explanation_b
+True, so not the exception — the raised surface tension from surfactant deficiency stiffens the lung, requiring higher pressures to ventilate it.
+## answer_c
+Lung compliance 5 8 000
+## explanation_c
+True, so not the exception — surfactant deficiency raises surface tension and lowers lung compliance, not the reverse.
+## answer_d
+areal tend to over expand and sometimes burst at the end of inspiration. =
+## explanation_d
+The exception, and the answer. Surfactant-deficient alveoli tend to collapse under raised surface tension, particularly at the end of expiration, rather than over-expand and burst at the end of inspiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify, against a second, independently-extracted occurrence of the same stem, that surfactant-deficient alveoli collapse rather than over-expand and burst.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p6 q43. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B464D8D4E463
+## title
+Which of the following is NOT true concerning respiratory distress = syndrome in premat…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT true concerning respiratory distress = syndrome in premature infants? 03
+## answer_a
+Their ability to synthesize dipalmitoyl lecithin is limited.
+## explanation_a
+True of respiratory distress syndrome in premature infants, so not the exception — the immature lung's limited dipalmitoyl lecithin synthesis is the underlying surfactant deficiency.
+## answer_b
+Higher pressures are required to ventilate the lungs. ‏سيد‎
+## explanation_b
+True, so not the exception — surfactant deficiency's raised surface tension stiffens the lung, requiring higher ventilating pressures.
+## answer_c
+Lung compliance is low.
+## explanation_c
+True, so not the exception — lung compliance is low (not high) when surfactant is deficient, since raised surface tension stiffens the lung.
+## answer_d
+Alveoli tend to over expand and sometimes burst at the end of inspiration.
+## explanation_d
+The exception, and the answer. Alveoli in surfactant deficiency tend to collapse under the raised surface tension, especially toward the end of expiration, rather than over-expand and burst at the end of inspiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Confirm, against a third source occurrence of the same stem, that surfactant-deficient alveoli collapse rather than over-expand and burst.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p18 q19. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3419A3CD311C
+## title
+Which of the following represents the pressure difference that acts to distend the lungs?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following represents the pressure difference that acts to distend the lungs?
+## answer_a
+Alveolar pressure
+## explanation_a
+Alveolar pressure alone is a single pressure, not a pressure difference, and it is not by itself what distends the lungs.
+## answer_b
+Airway opening pressure
+## explanation_b
+Airway opening pressure is the pressure at the mouth or nose, not the pressure difference across the lung that expands it.
+## answer_c
+Transthoracic pressure
+## explanation_c
+Transthoracic pressure is the pressure difference across the whole chest wall and lung together, a broader quantity than the one specifically expanding the lung itself.
+## answer_d
+Transpulmonary pressure
+## explanation_d
+Correct. Transpulmonary pressure — intra-alveolar pressure minus intrapleural pressure — is specifically the pressure difference that acts to distend the lungs against their own elastic recoil.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify transpulmonary pressure, rather than alveolar, airway opening or transthoracic pressure, as the pressure difference that distends the lungs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q22. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FE09B7CE6D81
+## title
+Which of tne following represents the pressure difference that acts to distend the lungs?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of tne following represents the pressure difference that acts to distend the lungs?
+## answer_a
+Alveolar pressure
+## explanation_a
+Alveolar pressure alone is a single pressure, not a pressure difference, and is not by itself what distends the lungs.
+## answer_b
+Airway opening pressure
+## explanation_b
+Airway opening pressure is the pressure at the mouth or nose, not the pressure difference across the lung that expands it.
+## answer_c
+Transthoracic pressure
+## explanation_c
+Transthoracic pressure is the pressure difference across the whole chest wall and lung together, a broader quantity than the one specifically expanding the lung itself.
+## answer_d
+Transpulmonary pressure
+## explanation_d
+Correct. Transpulmonary pressure — intra-alveolar pressure minus intrapleural pressure — is specifically the pressure difference that acts to distend the lungs against their own elastic recoil.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Confirm, against a second, independently-extracted source occurrence, that transpulmonary pressure is the pressure difference that distends the lungs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p17 q14. Manifest src_ab84e963639b236e0951.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -62423,6 +65079,190 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q2. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D0016516F017
+## title
+Concerning compliance of large arterial blood vessels, one is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning compliance of large arterial blood vessels, one is true:
+## answer_a
+The initial linear relationship between volume and pressure is due to stretching of the 1
+## explanation_a
+Correct. At lower distending pressures, an artery's more easily stretched elastin fibres dominate its wall behaviour, producing the initial, more linear (compliant) portion of the pressure-volume curve.
+
+Why this is right:
+- Venous compliance is about 24 times arterial compliance, so veins can accommodate far more blood than arteries for the same change in pressure, which is why veins are described as reservoir vessels.
+## answer_b
+The steeper part of the pressure-volume curve is due to stretching of the elastic fibers in
+## explanation_b
+The steeper, less compliant part of the curve, reached at higher pressures, is due to recruitment of the stiffer collagen fibres, not the elastic fibres, which already dominate the earlier, more compliant portion.
+## answer_c
+40 times
+## explanation_c
+Not a true/false statement about the mechanism this question tests; the credited answer names elastin fibre stretching as the basis of the artery's initial compliant behaviour.
+## answer_d
+The compliance becomes higher by stretching the collagen fibers
+## explanation_d
+Stretching the collagen fibres makes the vessel wall progressively stiffer, lowering (not raising) compliance, since collagen is far less distensible than elastin — the opposite of what this option claims.
+## correct_answer
+A
+## main_concept
+CON-CVS-78E74CAC3AE5E5
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Attribute the initial, more linear (compliant) part of a large artery's pressure-volume curve to stretching of its elastic (elastin) fibres, as opposed to its collagen fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q11. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E19740E61658
+## title
+Which one can increase the compliance of blood vessels
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one can increase the compliance of blood vessels
+## answer_a
+Activation of sympathetic nervous input
+## explanation_a
+Sympathetic activation contracts vascular smooth muscle (vasoconstriction), which stiffens the vessel wall and lowers, not raises, its compliance.
+## answer_b
+Estrogen hormone
+## explanation_b
+Correct. Oestrogen relaxes and dilates the vascular wall, and is associated with genuinely higher vascular compliance — part of why pre-menopausal women typically have more compliant vessels and lower cardiovascular risk than men or post-menopausal women.
+
+Why this is right:
+- Venous compliance is about 24 times arterial compliance, so veins can accommodate far more blood than arteries for the same change in pressure, which is why veins are described as reservoir vessels.
+## answer_c
+Aging
+## explanation_c
+Ageing is classically associated with progressive arterial stiffening (falling elastin, rising collagen content), lowering, not raising, compliance.
+## answer_d
+Atherosclerosis 1
+## explanation_d
+Atherosclerosis stiffens the vessel wall with plaque deposition, lowering, not raising, compliance.
+## correct_answer
+B
+## main_concept
+CON-CVS-78E74CAC3AE5E5
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify oestrogen, among sympathetic activation, ageing and atherosclerosis, as the one factor that raises rather than lowers vascular compliance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q14. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

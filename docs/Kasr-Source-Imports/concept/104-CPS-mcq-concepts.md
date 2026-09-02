@@ -22,7 +22,7 @@
     The Vagus Nerves and the Left Recurrent Laryngeal Nerve — 6 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
-    Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
+    Histology Cardiovascular System — A-V Connections — 35 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
@@ -58,16 +58,16 @@
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
-    Physiology Respiratory System — Gas Exchange in the Lung — 6 questions, 2 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 17 questions, 4 concepts
+    Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 18 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
     Physiology Respiratory System — Mechanics of Breathing — 15 questions, 2 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
-    Pulmonary Compliance — 4 questions, 2 concepts
+    Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 2 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 18 questions, 5 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 20 questions, 6 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 39 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 36 questions, 3 concepts
@@ -83,7 +83,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  178 questions were excluded and 0 held back for having no
+  180 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -2938,12 +2938,13 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
 src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
 src_b1c03ac55330bb88dc62 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -10337,6 +10338,10 @@ Gas diffuses through the respiratory membrane fastest with a large pressure grad
 alveolar-capillary-diffusion.factors-determining-rate
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p36 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p40 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p12 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
 ## article_ids
 +ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
 ## field_notes
@@ -10410,6 +10415,156 @@ Related-but-distinct live topic catalogue: ART-RES-TOP-265990F7BD ("Hypoxia", In
 [clear]
 ## evidence_gaps
 The covering article (ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING) already teaches diffusion impairment and V/Q-mismatch/shunt as hypoxaemia mechanisms in its Clinical Significance section, but its prose does not yet explicitly enumerate hypoventilation or altitude as causes, contrast right-to-left against left-to-right shunt, or state that anaemia/CO poisoning/histotoxic hypoxia leave PaO2 unchanged. Disclosed two-sided coverage gap, not silently assumed taught — see PROGRESS.md.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-317D54C114B246
+## label
+The ventilation-perfusion ratio is about 3.0 at the lung apex and 0.6 at the base, because gravity drops perfusion faster than ventilation moving up the upright lung
+## canonical_key
+ventilation-perfusion-ratio.regional-variation-in-the-lung
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p36 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p37 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p41 | 104 CPS
+## article_ids
++ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## field_notes
+canonical_key "ventilation-perfusion-ratio.regional-variation-in-the-lung" already has a pinned id in this module (CON-RES-317D54C114B246); mintConceptId derives the same id fresh (CON-RES-317D54C114B246) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+A V/Q of zero (shunt: perfused but unventilated alveoli) and an infinite V/Q (alveolar dead space: ventilated but unperfused alveoli, as after a pulmonary embolism) are the two extremes of ventilation-perfusion mismatch, pulling alveolar gas toward mixed venous and inspired-air composition respectively
+## id
+CON-RES-D987B2C6C2FF07
+## canonical_key
+ventilation-perfusion-ratio.extremes-of-shunt-and-dead-space
+## definition
+The ventilation-perfusion ratio has two extremes. A V/Q of zero describes a shunt: alveoli that are perfused but not ventilated, so the blood leaving them is never oxygenated and (where alveolar gas exists at all in that unit) its composition is pulled toward mixed venous blood. A V/Q of infinity describes alveolar dead space: alveoli that are ventilated but not perfused — the classic case is a pulmonary embolism completely blocking blood flow to a lung or lobe — so with no blood exchanging gas with that fresh air, the alveolar gas composition in the affected region equilibrates toward that of inspired (tracheal) air instead, and the unaffected, now-receiving-the-whole-cardiac-output lung shifts its own V/Q toward the opposite, low extreme. Vascular obstruction (a pulmonary embolus blocking a pulmonary artery) raises V/Q toward the dead-space extreme in the affected region; airway obstruction (as in obstructive lung disease) instead lowers V/Q toward the shunt-like extreme, since ventilation to the affected alveoli falls while their perfusion continues.
+## explicit_objective
+State that V/Q = 0 is a shunt (alveolar gas approaches mixed venous composition) and V/Q = infinity is alveolar dead space (alveolar gas approaches inspired-air composition), and that blocking a pulmonary artery raises V/Q while obstructing an airway lowers it.
+## pitfalls
+Assuming a V/Q of zero means alveolar gas composition simply matches inspired air. It is the opposite pole from dead space: with perfusion continuing but ventilation absent, gas composition is instead pulled toward mixed venous blood, not toward fresh inspired air.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p37 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+V/Q = 0 (shunt) | V/Q = infinity (alveolar dead space) | Pulmonary embolism and V/Q
+## article_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] A 49-year-old man has a pulmonary embolism that completely blocks blood flow to his left lung. As a result, which of the following will occur?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS article currently names the V/Q=0 (shunt) and V/Q=infinity (dead space) extremes explicitly, though the covering article's Clinical Significance section does discuss shunt as a hypoxaemia mechanism in general terms. Standard, undisputed respiratory physiology, grounded in the bank's own editorial explanation for the two rows this concept covers; flagged for the article-authoring lane.
 ## arabic_label
 
 ## arabic_aliases
@@ -10769,6 +10924,23 @@ canonical_key "pulmonary-circulation.low-pressure-circuit-and-regulation-of-pvr"
 ---
 
 # Item
+## id
+CON-RES-228D7C6B6FDE80
+## label
+About 98% of blood oxygen is carried bound to haemoglobin rather than dissolved, and P50 — the PO2 at which haemoglobin is 50% saturated, normally 27 mmHg — is the single number that marks where the dissociation curve sits
+## canonical_key
+oxygen-transport.content-capacity-and-p50
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+## article_ids
++ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## field_notes
+canonical_key "oxygen-transport.content-capacity-and-p50" already has a pinned id in this module (CON-RES-228D7C6B6FDE80); mintConceptId derives the same id fresh (CON-RES-228D7C6B6FDE80) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
 ## label
 Hypoxia is classified by where the defect sits — hypoxic, anaemic, stagnant or histotoxic — and only the types with a normal total haemoglobin sitting unsaturated (hypoxic, stagnant) classically produce cyanosis; CO poisoning produces neither a fall in arterial PO2 nor cyanosis
 ## id
@@ -10917,8 +11089,9 @@ src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p17 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p33 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p28 | 104 CPS
 ## article_ids
-+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
++ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE | +ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## field_notes
 canonical_key "transpulmonary-pressure.definition-and-intrapleural-pressure-extremes" already has a pinned id in this module (CON-RES-97B778DE471E7E); mintConceptId derives the same id fresh (CON-RES-97B778DE471E7E) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
@@ -11765,19 +11938,22 @@ kau
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p30 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p47 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p15 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p18 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
-src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
-src_ab84e963639b236e0951 | question_book | | p18 | 104 CPS
 src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -11872,15 +12048,15 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Pulmonary compliance rises when the lung's elastic recoil is lost, as in emphysema, and falls whenever the lung is stiffened by fibrosis, pulmonary oedema or a surfactant deficiency
+Pulmonary compliance rises when the lung's elastic recoil is lost, as in emphysema, and falls whenever the lung is stiffened by fibrosis, pulmonary oedema or a surfactant deficiency; its normal value is about 200 ml/cmH2O
 ## id
 CON-RES-AA4C2193995295
 ## canonical_key
 pulmonary-compliance.rises-in-emphysema-falls-in-fibrosis-oedema-and-surfactant-deficiency
 ## definition
-Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch. It rises whenever the lung's elastic recoil is reduced: in emphysema, destruction of the alveolar walls and their elastin and collagen fibres leaves the lung with less tissue resisting expansion, producing the classic abnormally compliant, 'floppy' lung of that disease. Compliance falls, by contrast, whenever something stiffens the lung: pulmonary fibrosis lays down excess fibrous tissue; acute pulmonary oedema fills the interstitium and alveoli with fluid; and a surfactant deficiency leaves alveolar surface tension abnormally high. All three of these opposite-direction conditions raise, rather than lower, the elastic resistance the respiratory muscles must overcome, and so make the lung harder — not easier — to inflate.
+Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch — and its normal value is about 200 ml/cmH2O, meaning about 200 ml of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range. It rises whenever the lung's elastic recoil is reduced: in emphysema, destruction of the alveolar walls and their elastin and collagen fibres leaves the lung with less tissue resisting expansion, producing the classic abnormally compliant, 'floppy' lung of that disease. Compliance falls, by contrast, whenever something stiffens the lung: pulmonary fibrosis lays down excess fibrous tissue; acute pulmonary oedema fills the interstitium and alveoli with fluid; and a surfactant deficiency leaves alveolar surface tension abnormally high. All three of these opposite-direction conditions raise, rather than lower, the elastic resistance the respiratory muscles must overcome, and so make the lung harder — not easier — to inflate.
 ## explicit_objective
-State that pulmonary compliance is increased in emphysema (lost elastic recoil) and decreased in pulmonary fibrosis, acute pulmonary oedema and surfactant deficiency (all of which stiffen the lung), and explain the mechanism behind each direction of change.
+State the normal value of pulmonary compliance (about 200 ml/cmH2O), and that it is increased in emphysema (lost elastic recoil) and decreased in pulmonary fibrosis, acute pulmonary oedema and surfactant deficiency (all of which stiffen the lung), and explain the mechanism behind each direction of change.
 ## pitfalls
 Assuming any lung disease affects compliance the same way. Emphysema is the one common condition that increases compliance, by destroying elastic tissue; fibrosis, oedema and surfactant deficiency all decrease it, by stiffening the lung through three different mechanisms (excess fibrous tissue, fluid-filled airspaces, and raised surface tension respectively).
 ## concept_type
@@ -11903,18 +12079,21 @@ kau
 1
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p49 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p47 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p16 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p48 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -11933,6 +12112,137 @@ direct_statement
 [clear]
 ## evidence_gaps
 [clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Chest wall compliance is reduced by disorders that mechanically stiffen or deform the thoracic cage — scoliosis, rib fractures — or that prevent its normal active expansion — paralysis of the respiratory muscles
+## id
+CON-RES-482D1271B64BE0
+## canonical_key
+chest-wall-compliance.reduced-by-skeletal-and-neuromuscular-restriction
+## definition
+Chest wall compliance describes how easily the thoracic cage itself expands, distinct from lung parenchymal compliance (set by lung tissue elastic recoil and surfactant). Scoliosis and rib fractures reduce effective chest wall compliance by directly deforming or mechanically restricting the thoracic cage; paralysis of the respiratory muscles reduces it functionally by preventing the normal active expansion that keeps the chest wall operating over its most compliant range. These three disorders are classically grouped together in respiratory physiology teaching as causes of a restrictive breathing pattern with reduced chest wall compliance, contrasted with obstructive lung diseases such as emphysema, which instead increase lung (not chest wall) compliance.
+## explicit_objective
+Group scoliosis, rib fractures and respiratory muscle paralysis together as causes of decreased chest wall compliance, and distinguish chest wall compliance from lung parenchymal compliance.
+## pitfalls
+Treating chest wall compliance and lung compliance as the same quantity. They are mechanically distinct: lung compliance is set by lung tissue elastic recoil and surfactant, while chest wall compliance is set by the thoracic cage's own structural integrity and the respiratory muscles' ability to expand it.
+## concept_type
+classification
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p48 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Chest wall compliance | Restrictive chest wall disorders
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which disorder decreases the chest compliance:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+No 104-CPS article currently teaches chest wall (as opposed to lung parenchymal) compliance specifically; standard, undisputed respiratory physiology (the restrictive-disorder grouping this bank row itself tests), flagged for the article-authoring lane rather than invented without any source at all.
 ## arabic_label
 
 ## arabic_aliases
@@ -12336,6 +12646,23 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-78E74CAC3AE5E5
+## label
+Pressure falls from about 90 mmHg mean in the aorta to a few mmHg by the great veins, while venous compliance is about 24 times arterial compliance, making veins the blood reservoir of the circulation
+## canonical_key
+vascular-tree.pressure-and-compliance-distribution
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p48 | 104 CPS
+## article_ids
++ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## field_notes
+canonical_key "vascular-tree.pressure-and-compliance-distribution" already has a pinned id in this module (CON-CVS-78E74CAC3AE5E5); mintConceptId derives the same id fresh (CON-CVS-78E74CAC3AE5E5) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

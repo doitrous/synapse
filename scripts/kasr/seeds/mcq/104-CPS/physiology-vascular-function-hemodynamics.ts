@@ -113,6 +113,32 @@ export const LEAF: McqLeafSeed = {
         'No 104-CPS article names critical closing pressure; standard, undisputed vascular physiology (the behaviour of a collapsible tube with active wall tension), flagged for the article-authoring lane rather than invented without any source at all.',
       ],
     },
+    {
+      // Sparse reuse, not a fresh mint: canonical_key already pinned in
+      // 104-CPS-physiology-concepts.md as CON-CVS-78E74CAC3AE5E5, this
+      // exact leaf's own module_subject. Not previously claimed by any
+      // 104-CPS MCQ seed (grepped before use). Two leaf-mismatch rows below
+      // (bank-tagged "Pulmonary Compliance", genuinely about arterial and
+      // venous vessel compliance, not lung compliance) are routed here
+      // rather than authored under the pulmonary-compliance leaf, the same
+      // "route to the seed that owns the concept" pattern used elsewhere in
+      // this branch (e.g. the arteriovenous-anastomosis concept in
+      // cardiovascular-av-connections-histology.ts).
+      key: 'vascular-tree.pressure-and-compliance-distribution',
+      label: 'Vascular compliance is higher at lower distending volumes and falls as the vessel stiffens at higher volumes, and venous compliance is about 24 times arterial compliance, making veins the circulation\'s blood reservoir',
+      definition: 'Vascular compliance is the ratio of change in blood volume to change in pressure in a vessel, and it is not fixed: compliance is higher at lower volumes and falls (the vessel stiffens) at higher volumes, because the vessel wall\'s more easily stretched elastic (elastin) component dominates the initial, more compliant part of its pressure-volume behaviour, while its stiffer, less distensible collagen component is progressively recruited and dominates at higher distension. Arterial compliance converts the intermittent flow from the aorta into continuous flow in peripheral vessels, minimises the rise of systolic and the fall of diastolic pressure, and reduces the work the heart must do for a given cardiac output. Venous compliance is about 24 times arterial compliance, so veins can accommodate far more blood than arteries for the same change in pressure, which is why veins are described as reservoir vessels; venous compliance is itself set mainly by venous tone, higher tone giving lower compliance.',
+      objective: 'Define vascular compliance as delta volume / delta pressure, state that it falls as a vessel is stretched toward higher volumes because collagen recruitment progressively stiffens the wall, and explain why the much higher compliance of veins relative to arteries makes them the circulation\'s blood reservoir.',
+      pitfall: 'Assuming a vessel\'s compliance is a single fixed number. It is a slope that itself changes with distension — high (elastin-dominated) at low volumes, low (collagen-dominated) at high volumes — which is exactly what produces the initial, more linear part and the later, steeper part of a vessel\'s own pressure-volume curve.',
+      subject: 'cvs',
+      primary: 'DIS-PHY-T02',
+      secondary: [],
+      modulePath: '104 CPS > Physiology > Cardiovascular System > Vascular Function',
+      type: 'mechanism',
+      aliases: ['Vascular compliance', 'Arterial versus venous compliance', 'Vessel wall elastin and collagen recruitment', 'Veins as capacitance vessels'],
+      gaps: [
+        'The pinned record states that compliance is higher at lower volumes and falls (stiffens) at higher volumes, and separately (in this module\'s own histology concept, arteriovenous-anastomosis\'s sibling capillary-type concepts) that elastin and collagen are the vessel wall\'s two distensible components — but no single 104-CPS record explicitly names elastin-then-collagen sequential recruitment as the mechanism behind the shape of the pressure-volume curve, or the specific factors (sympathetic tone, oestrogen, ageing, atherosclerosis) that raise or lower vascular compliance. Both are standard, undisputed vascular physiology consistent with the pinned record\'s own compliance-falls-at-higher-volume fact, not contradicted by it; disclosed rather than silently assumed taught.',
+      ],
+    },
   ],
 
   questions: [
@@ -351,6 +377,35 @@ export const LEAF: McqLeafSeed = {
         B: 'Pulse pressure is the difference between systolic and diastolic pressure, an unrelated quantity to the pressure at which a vessel collapses.',
         C: 'Correct. Critical closing pressure is the specific transmural pressure below which a blood vessel with active vascular smooth-muscle tone collapses completely, so that flow abruptly ceases rather than tapering off gradually.',
         D: 'Perfusion pressure is the pressure gradient actually driving flow through an organ, not the specific threshold pressure at which a vessel collapses.',
+      },
+    },
+
+    // --- Leaf-mismatch routing (bank-tagged "Pulmonary Compliance", genuinely
+    // about vessel-wall compliance, not lung compliance) ---
+    {
+      key: 'concerning-compliance-of-large-arterial-blood-vessels-one-is-9eea479c',
+      conceptKey: 'vascular-tree.pressure-and-compliance-distribution',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'Attribute the initial, more linear (compliant) part of a large artery\'s pressure-volume curve to stretching of its elastic (elastin) fibres, as opposed to its collagen fibres.',
+      explanations: {
+        A: 'Correct. At lower distending pressures, an artery\'s more easily stretched elastin fibres dominate its wall behaviour, producing the initial, more linear (compliant) portion of the pressure-volume curve.',
+        B: 'The steeper, less compliant part of the curve, reached at higher pressures, is due to recruitment of the stiffer collagen fibres, not the elastic fibres, which already dominate the earlier, more compliant portion.',
+        D: 'Stretching the collagen fibres makes the vessel wall progressively stiffer, lowering (not raising) compliance, since collagen is far less distensible than elastin — the opposite of what this option claims.',
+        C: 'Not a true/false statement about the mechanism this question tests; the credited answer names elastin fibre stretching as the basis of the artery\'s initial compliant behaviour.',
+      },
+    },
+    {
+      key: 'which-one-can-increase-the-compliance-of-blood-vessels-3a01102d',
+      conceptKey: 'vascular-tree.pressure-and-compliance-distribution',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'Identify oestrogen, among sympathetic activation, ageing and atherosclerosis, as the one factor that raises rather than lowers vascular compliance.',
+      explanations: {
+        A: 'Sympathetic activation contracts vascular smooth muscle (vasoconstriction), which stiffens the vessel wall and lowers, not raises, its compliance.',
+        B: 'Correct. Oestrogen relaxes and dilates the vascular wall, and is associated with genuinely higher vascular compliance — part of why pre-menopausal women typically have more compliant vessels and lower cardiovascular risk than men or post-menopausal women.',
+        C: 'Ageing is classically associated with progressive arterial stiffening (falling elastin, rising collagen content), lowering, not raising, compliance.',
+        D: 'Atherosclerosis stiffens the vessel wall with plaque deposition, lowering, not raising, compliance.',
       },
     },
   ],

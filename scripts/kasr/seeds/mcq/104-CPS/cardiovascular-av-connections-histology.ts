@@ -569,5 +569,22 @@ export const LEAF: McqLeafSeed = {
         D: "An arteriovenous anastomosis is a shunt that bypasses the capillary bed, not a type of capillary itself.",
       },
     },
+    // Leaf-mismatch routing (bank-tagged "Gas exchange in the lung" — the
+    // stem's own "Av shunt" wording pulled it into that leaf tag, but the
+    // options are pure arteriovenous-anastomosis histology, not respiratory
+    // gas exchange). Same routing pattern this file already uses above.
+    {
+      key: "av-shunt-include-the-following-except-99b84173",
+      conceptKey: "arteriovenous-anastomosis.direct-shunt-sites-and-innervation",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify that a large volume of blood passes through an arteriovenous anastomosis when its sphincter opens, not when it closes, as the exception among true statements about the shunt.",
+      explanations: {
+        A: "True of an arteriovenous anastomosis, so not the exception — it is characteristically present in exposed sites such as the fingertips, toes and the placenta.",
+        B: "True, so not the exception — the intermediate segment carries a relatively thick smooth-muscle sphincter under sympathetic control.",
+        C: "The exception, and the answer. A large volume of blood passes through an arteriovenous anastomosis when its sphincter opens, not when it closes — closing the sphincter is what sends blood through the capillary bed as usual, while opening it lets blood bypass the capillary bed through the short, low-resistance shunt.",
+        D: "True, so not the exception — the shunt is enclosed in a connective-tissue capsule and is richly innervated, by sympathetic fibres that open and close it.",
+      },
+    },
   ],
 }
