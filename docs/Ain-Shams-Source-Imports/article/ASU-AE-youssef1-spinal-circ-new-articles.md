@@ -160,11 +160,11 @@ asu: Authored from ASU-AE > Anatomy > Questions MCQ answer-key source src_043fae
 
 ## annotations
 ### definition_of · CON-NEU-B7308D9268DE0F
-Quote: The dorsal root carries only afferent, sensory fibres ... the ventral root carries only efferent, motor fibres
+Quote: The dorsal root carries only afferent, sensory fibres, with its cell bodies in the dorsal root ganglion
 Block: body
 
 ### definition_of · CON-NEU-56B48C502A05DE
-Quote: Preganglionic sympathetic fibres ... leave via the ventral root alongside the somatic motor fibres
+Quote: leave via the ventral root alongside the somatic motor fibres
 Block: body
 
 ### definition_of · CON-NEU-AB8200C11B6993
@@ -172,7 +172,7 @@ Quote: The parasympathetic outflow instead arises from cranial nerve nuclei (III
 Block: body
 
 ### definition_of · CON-NEU-17B3F2DDDB4C32
-Quote: The great somatic plexuses ... are formed by the ventral rami only, never the dorsal rami
+Quote: are formed by the ventral rami only, never the dorsal rami
 Block: body
 
 ### definition_of · CON-NEU-D40B9C450800C7
@@ -283,9 +283,6 @@ Claude
 Medical team, Admin team
 
 ## final_publisher
-Admin team
-
-## publisher
 Admin team
 
 ## summary
@@ -416,15 +413,15 @@ asu: Authored from ASU-AE > Anatomy > Questions MCQ answer-key source src_043fae
 
 ## annotations
 ### definition_of · CON-CVS-F6E9644B42BC45
-Quote: An anatomical end artery ... has no anastomosis with neighbouring arteries at all
+Quote: has no anastomosis with neighbouring arteries at all
 Block: body
 
 ### definition_of · CON-CVS-DE4A3995F13DAD
-Quote: The tricuspid valve ... closes during ventricular systole to stop blood regurgitating from the right ventricle back into the right atrium
+Quote: closes during ventricular systole to stop blood regurgitating from the right ventricle back into the right atrium
 Block: body
 
 ### definition_of · CON-CVS-73E44FEDEC74A2
-Quote: Lymphatic capillaries are absent from avascular tissues ... from the central nervous system, and from bone marrow
+Quote: Lymphatic capillaries are absent from avascular tissues (cartilage, cornea, epidermis, nails), from the central nervous system, and from bone marrow
 Block: body
 
 ### definition_of · CON-CVS-328DEF253FACE6
@@ -436,7 +433,7 @@ Quote: Sinusoids are most numerous in the liver, where they are the organ's prin
 Block: body
 
 ### definition_of · CON-CVS-BDB1BEE5FF0A91
-Quote: A portal circulation ... begins in the intestinal capillary bed, passes through the portal vein, and ends in the liver sinusoids
+Quote: begins in the intestinal capillary bed, passes through the portal vein, and ends in the liver sinusoids
 Block: body
 
 ### definition_of · CON-CVS-717661AF36733B
@@ -444,11 +441,11 @@ Quote: where they are obstructed, as in the upper limb, the affected part become
 Block: body
 
 ### definition_of · CON-CVS-2C04787B03A38D
-Quote: Arteriovenous anastomoses are direct arteriole-to-venule connections ... that help control body temperature
+Quote: Arteriovenous anastomoses are direct arteriole-to-venule connections, numerous in the skin of the nose, nail beds and lips, that help control body temperature
 Block: body
 
 ### definition_of · CON-CVS-1AFBD3F0A4B2F9
-Quote: veins are richest in valves, capillaries are the exchange vessels present in virtually every tissue, and arteries ... are richest in elastic fibres
+Quote: veins are richest in valves, capillaries are the exchange vessels present in virtually every tissue, and arteries (especially the larger elastic arteries) are richest in elastic fibres
 Block: body
 
 ### definition_of · CON-CVS-8308AF16408AEC
@@ -460,7 +457,7 @@ Quote: Lymph capillaries characteristically start blindly in the tissues
 Block: body
 
 ### definition_of · CON-CVS-57ED756BD85F95
-Quote: not all of them end in the thoracic duct ... drain instead via the separate right lymphatic duct
+Quote: not all of them end in the thoracic duct: the right upper limb, the right side of the head and neck, and the right thorax drain instead via the separate right lymphatic duct
 Block: body
 
 ## media

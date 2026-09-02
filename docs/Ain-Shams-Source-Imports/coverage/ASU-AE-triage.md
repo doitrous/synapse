@@ -106,6 +106,53 @@ Nervous/CVS-adjacent content filed under ASU-AE's own MCQ folder rather than as
 "Introduction to Anatomy" terminology, and are well beyond the "~35 distinct" scope this
 dispatch described — left untriaged here rather than authored speculatively.
 
+## D — youssef1 spinal-nerve/ANS + circulatory/lymphatic disposition (follow-up pass)
+
+Of the three out-of-scope MCQ blocks flagged in section C, two are now triaged and authored:
+the spinal-nerve/ANS block (pp.18-19) and the circulatory/lymphatic block (pp.22-25). The
+joints/muscles block (pp.12-17, ~51 items) remains untriaged, left for a further dispatch.
+
+**Spinal-nerve/ANS block (pp.18-19, 13 MCQs — Q1-5, Q7-14; Q6 is a written prompt, skipped):**
+all 13 authored, seed `coverage/seeds/ASU-AE/youssef1-spinal-circ.json`, batch
+`question/ASU-AE-youssef1-spinal-circ-mcq.md`. Keyed from the printed answer table on p.19 —
+rendered and read by eye after OCR scattered its letters across the wrong lines (confirmed
+readable and internally consistent against standard neuroanatomy). Covers root sensory/motor
+division, the sympathetic and parasympathetic outflow levels, the ventral-root pathway of
+preganglionic sympathetic fibres, ganglia/plexus formation from ventral rami, CNS/PNS
+terminology (nucleus/ganglion/tract/nerve/synapse), and CSF's subarachnoid location.
+Search-before-mint: one concept (`sympathetic outflow is thoraco-lumbar`) reused as a sparse
+pending-live overlay onto Alexandria's `AU-MED-102-physiology-concepts.md`
+(CON-NEU-67C437462712E4) — university-blind concept-id rule, same fact already minted by that
+lane; 6 concepts newly minted after all four `find-existing.mjs` queries came back empty for
+each cluster.
+
+**Circulatory/lymphatic block (pp.22-25, 23 MCQs authored, 1 held):** original numbering
+Q1-20, Q23-25, Q27 — Q21, Q22 and Q26 are simply absent from the print (a genuine gap in the
+source scan, not an extraction failure: confirmed by both OCR and a rendered image of every
+page in the range), and Q27 is missing its option D in the same way, so it is held rather than
+authored with a fabricated distractor. Keys are hand-marked next to the correct option in the
+original scan on every page — rendered and read by eye per the toolchain warning on
+`pagetext.mjs keys` (footer text misread as a red-text answer on a different lane's file),
+not trusted from the OCR text's inline letters alone. Covers anatomical vs functional end
+arteries, the tricuspid valve's backflow-prevention function, tissues lacking lymphatics
+(avascular tissue, CNS, bone marrow), the pulmonary circulation's pathway, blood sinusoids and
+the liver, the portal circulation's two-capillary-bed structure, lymphatic obstruction and
+oedema, arteriovenous anastomoses and thermoregulation, vessel wall characteristics (valves /
+exchange function / elastic fibres), branches-vs-tributaries and venae comitantes terminology,
+the blind origin of lymph capillaries, and the right lymphatic duct's separate drainage.
+Search-before-mint: 12 concepts newly minted after all four `find-existing.mjs` queries came
+back empty for each — the nearest misses (tricuspid valve cusp attachments/surface projection;
+venae comitantes as an intercostal-vein tributary fact) tested different specific facts, noted
+per-concept. Two new articles (`ART-NEU-ASU-AE-YOUSSEF1-SPINAL-NERVE-BASICS`,
+`ART-CVS-ASU-AE-YOUSSEF1-CIRC-LYMPH-BASICS`) cover the 18 newly minted concepts.
+`gate.mjs batch` (question/concept/article files) and `gate.mjs simulate` (all 7 touched
+files together, apply order) both clean (rejected=0 errors=0).
+
+**Joints/muscles block (pp.12-17, ~51 items across two internal numbering resets) — still
+not triaged:** confirmed present at those pages while locating the spinal-nerve block's start
+on p.18, but not read closely or keyed in this pass. Left for a further follow-up dispatch,
+same disposition as section C originally described.
+
 **Gametogenesis tails (both files) — expected duplicate of Embryo1/Bg-Embryology-Mcq,
 not authored, not individually cross-checked in this pass:** youssef1 pp.31-33
 (spermatogenesis/spermiogenesis, ~15 items, its own answer key on p.30 is a rotated/garbled

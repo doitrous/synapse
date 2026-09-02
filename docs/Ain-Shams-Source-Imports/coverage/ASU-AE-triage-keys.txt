@@ -1,0 +1,52 @@
+# ASU-AE triage keys — youssef1 spinal-nerve/ANS + circulatory/lymphatic blocks
+# (pp.18-19, pp.22-25 of "MCQs - Bg Mcq dr.youssef.pdf"), the follow-up dispatch
+# on out-of-scope MCQ blocks lane 6 discovered but did not author.
+# cluster prefix before the first -qNN groups ledger.mjs's remaining count.
+
+# youssef1-spinalcirc: spinal-nerve/ANS block (pp.18-19, 13 Qs) + circulatory/
+# lymphatic block (pp.22-25, 23 Qs authored, 1 held) -- AUTHORED this session
+youssef1-spinalcirc-q01
+youssef1-spinalcirc-q02
+youssef1-spinalcirc-q03
+youssef1-spinalcirc-q04
+youssef1-spinalcirc-q05
+youssef1-spinalcirc-q06
+youssef1-spinalcirc-q07
+youssef1-spinalcirc-q08
+youssef1-spinalcirc-q09
+youssef1-spinalcirc-q10
+youssef1-spinalcirc-q11
+youssef1-spinalcirc-q12
+youssef1-spinalcirc-q13
+youssef1-spinalcirc-q14
+youssef1-spinalcirc-q15
+youssef1-spinalcirc-q16
+youssef1-spinalcirc-q17
+youssef1-spinalcirc-q18
+youssef1-spinalcirc-q19
+youssef1-spinalcirc-q20
+youssef1-spinalcirc-q21
+youssef1-spinalcirc-q22
+youssef1-spinalcirc-q23
+youssef1-spinalcirc-q24
+youssef1-spinalcirc-q25
+youssef1-spinalcirc-q26
+youssef1-spinalcirc-q27
+youssef1-spinalcirc-q28
+youssef1-spinalcirc-q29
+youssef1-spinalcirc-q30
+youssef1-spinalcirc-q31
+youssef1-spinalcirc-q32
+youssef1-spinalcirc-q33
+youssef1-spinalcirc-q34
+youssef1-spinalcirc-q35
+youssef1-spinalcirc-q36
+youssef1-spinalcirc-q37
+
+# youssef1-joints: joints/muscles classification block (pp.12-17, ~51 items
+# across two internal numbering resets, per coverage/ASU-AE-triage.md) --
+# NOT triaged this pass (only skimmed for scope-boundary purposes while
+# locating the spinal-nerve block start on p.18); left for a further
+# follow-up dispatch. No per-item keys recorded here since the block has not
+# had a real per-question triage pass yet -- do not infer a count from this
+# comment alone.
