@@ -358,3 +358,94 @@ lookup (a resource without a `corpus-source-index.json` entry fails every
 citation naming it, the same "resource vs catalogue-resource" tool
 limitation tranche 4 first documented, but now surfacing at the shared-index
 layer rather than the per-lane registry layer).
+
+## Physiology tranche (2026-09-02, lane 7, branch `must-cvs201-author7`) — two new files, Blood Flow + Arterial BP from the Physiology CVS201 EOM Final paper
+
+Two more files, from the Physiology CVS201 EOM Final paper (150 MCQ across 5
+topics, `src_165188e079f0f475e54d`, separate printed key per topic, p.9 Blood
+Flow / p.20 Arterial BP). This tranche authored the first two topics (Blood
+Flow 30/30, Arterial BP 26/40 + 1 held for a garbled option, 13 not selected)
+— 56 authored, 1 held; Capillary Circulation & Oedema, Shock and Coronary &
+Pulmonary Circulation are untouched. Depends on 15 concept ids: 12 in Kasr's
+own unimported `104-CPS-mcq-concepts.md` (arterioles/Poiseuille's law, laminar
+vs turbulent flow, nitric oxide, circulating vasoconstrictor/vasodilator
+hormones, the renin-angiotensin system, systolic/diastolic/MAP/pulse-pressure
+determinants, the arterial baroreceptor reflex, carotid sinus syndrome, local
+blood-flow autoregulation, the peripheral chemoreceptor reflex, the Cushing
+reflex, and flow = pressure-gradient/resistance) and 3 in Alexandria's own
+unimported physiology-concepts files (`AU-MED-106-physiology-concepts.md`
+blood-flow velocity by vessel type, `AU-MED-102-physiology-concepts.md`
+sacral-parasympathetic erection extended to the general parasympathetic-
+vasodilator-fibres fact, `AU-MED-203-physiology-concepts.md` hypothalamic
+osmoreceptors) — checked directly against `server/data/medical-library-v1.json`
+via a re-run `find-existing.mjs` search on every candidate, none of the 15
+present. 9 more questions reuse `CON-CVS-A531FD56A171D7` (long-term arterial
+BP regulation via RAS/ANP/vasopressin), already committed live-in-lane by
+tranche 1 — no new overlay row needed. 21 of the 56 authored questions instead
+cite concepts that are 9 brand-new mints this tranche (own lane files, not
+pending-live).
+
+| File | Target ids | Records |
+|---|---|---|
+| `MUST-CVS-201-physiology-concepts-overlay.md` | 15 concept ids: 12 in `104-CPS-mcq-concepts.md`, 3 in Alexandria's `AU-MED-106`/`AU-MED-102`/`AU-MED-203` physiology-concepts files | 15 sparse updates — `+must`, `+2`, `+MUST-CVS-201` on `universities`/`learner_years`/`modules`; 9 records carry their own `module_subject` field (Kasr full records, Alexandria's AU-MED-106), restated verbatim plus this record's own MUST-CVS-201 line; 6 carry no `module_subject` field at all (4 sparse Kasr mintConceptId rows, Alexandria's AU-MED-102 and AU-MED-203 which use topic/subtopic instead), so those rows write only the MUST-CVS-201 line, nothing to restate, same as the `SYS-CVS-CONCEPT-T04.md` precedent in the Pathology tranche's own overlay file |
+| `MUST-CVS-201-physiology-questions.md` | 37 MCQ records (`QST-MUSTCVS201-PHYSBLOOD/PHYSABP-…`), `main_concept` pointing at the 15 ids above | New records, not sparse updates — `library_ids` names each target concept's own teaching article, from the same dependency file the concept overlay targets; the 5 questions citing the local-blood-flow-autoregulation concept (`CON-CVS-56A68328FD03C7`) cite `ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL`, not the concept's own (sparse, "+"-prefixed) `article_ids` field value `ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL` — the concept's own teaching article, per that article's own `related_concepts` list (the direction `validate-content-batch.mjs`'s coverage check also honours), is the local/hormonal-control one; citing the concept's own literal field would have failed the coverage check on the stray `+` character |
+
+**Apply after**: `MUST-CVS-201-physiology-concepts-overlay.md` applies after
+its four named dependency files (`104-CPS-mcq-concepts.md`,
+`AU-MED-106-physiology-concepts.md`, `AU-MED-102-physiology-concepts.md`,
+`AU-MED-203-physiology-concepts.md`) are live; `MUST-CVS-201-physiology-
+questions.md` applies after both the overlay file above AND
+`docs/Kasr-Source-Imports/article/104-CPS-physiology.md` /
+`104-CPS-histology.md`, `docs/Alexandria-Source-Imports/article/AU-MED-106-
+physiology-articles.md` / `AU-MED-102-physiology-articles.md` /
+`AU-MED-203-physiology-articles.md` are live. The 21 direct questions in
+`question/MUST-CVS-201-physiology-mcq.md` have no pending-live dependency —
+their concepts, articles and evidence chains are either this lane's own new
+mints or the already-live-in-lane long-term-ABP-regulation concept from
+tranche 1.
+
+Full-tree `gate.mjs simulate` (52 files: the 44-file tree tranche 6 ran, plus
+this tranche's 2 new pending-live files, 1 direct-question file, and 5
+dependency files this simulate run had not needed before — `104-CPS-
+concepts.md`, `104-CPS-articles.md`, `AU-MED-102`/`AU-MED-203` physiology
+concept+article file pairs, `ASU-INF-microbiology-articles.md` and
+`FHB-102-2-microbiology-introduction-articles.md`, the last two closing gaps
+in tranche 5's own dependency list rather than anything this tranche
+authored):
+`batches=52 created=1479 updated=196 rejected=0 skipped=0 errors=0`. Direct
+`node scripts/validate-content-batch.mjs` re-runs (with the full dependency
+list as `--with`) on both new question files confirm the same zero-error
+result. `node scripts/validate-content-batch.mjs` was also run standalone on
+every new/changed file individually (concept, article, claims, citations,
+spans, resource, evidence-source, both question files, the new overlay
+file) — the concept/article/claims/citations/spans/resource/evidence-source
+files and both question files (validated `--with` their dependencies) show 0
+errors; the article file needed one fix along the way (all 9 new articles
+initially omitted the `field_notes` Arabic-title note, LD-15, caught by this
+standalone run and fixed by appending the same `arabicTitle: …` line every
+other article in this file already carries).
+
+**Known gate limitation, not fixed by this tranche**: `node scripts/
+content/gate.mjs batch <overlay-file>` (run without `--with`, and even with
+every named dependency file passed via `--with`) reports `module_subject
+starts with "104 CPS"` / `"AU-MED-106"` errors on every row that restates a
+source concept's own foreign `module_subject` line — this affects `MUST-
+CVS-201-physiology-concepts-overlay.md`'s own 9 full-record rows and, tested
+directly this pass, equally affects the already-landed `MUST-CVS-201-
+histology-concepts-overlay.md` (8/8 rows) — a systemic regression from a
+validator commit ("Make a record's universities, years and modules agree")
+that lands after this whole overlay convention (00-START-HERE.md §3:
+`module_subject` restates the source's line(s) plus MUST-CVS-201's own) was
+already established across five earlier tranches, not something specific to
+this tranche's new content. `gate.mjs simulate`, the gate that actually
+governs "rejected must be 0", does not flag this — the 52-file full-tree
+simulate above reports `rejected=0`. Reported verbatim per the standing
+"catalogue-resource" precedent (tranche 4) rather than reworked unilaterally,
+since any fix belongs at the convention level, not one lane's overlay file.
+
+One new resource record this tranche's own citations needed and registered
+in `evidence/MUST-CVS-201-sources.md` (alongside `resource/MUST-CVS-201-
+resources.md`'s own `catalogue-resource` entry for the same paper) — cited
+for the first time only now that this tranche's new mints need it. Also
+merged one new entry into the shared `evidence/corpus-source-index.json`
+(39 → 40 sources) for the same resource.
