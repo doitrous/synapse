@@ -5951,3 +5951,889 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "lymphokines delayed hypersensitivity" -- 0 hits, new concept.
 relationships: closes the Lecture 23/25 chronic-inflammation-and-granuloma set; related to CON-FND-8AF636D3C0F420 (the macrophage these lymphokines activate).
+
+---
+
+# Item
+
+## id
+CON-FND-E7CF2D41E7F0BC
+
+## label
+Atropine's systemic antimuscarinic adverse-effect profile: dry mouth, urinary retention, blurred vision, reduced GI motility
+
+## canonical_key
+teaching.mpt104.pharmacology.atropine-systemic-adverse-effects
+
+## aliases
+Atropine adverse effects
+Antimuscarinic side-effect profile
+
+## arabic_label
+الآثار الجانبية الجهازية للأتروبين
+
+## arabic_aliases
+ملف الآثار الجانبية لمضادات المسكارين
+
+## definition
+Atropine blocks muscarinic receptors throughout the body, producing effects that are the opposite of muscarinic stimulation. Its systemic adverse-effect profile includes dry mouth (reduced salivation), urinary retention (reduced detrusor tone), sandy or dry eyes with blurred vision (impaired accommodation and reduced lacrimation), and tachycardia, along with reduced gastrointestinal motility -- this reduced motility is also the mechanism behind its antidiarrheal contribution in the combination product diphenoxylate/atropine, and is why muscarinic antagonists specifically decrease urination rather than increase it. Diarrhea and increased salivation are muscarinic-agonist, not antagonist, effects, and are not part of this profile.
+
+## explicit_objective
+List atropine's systemic antimuscarinic adverse effects (dry mouth, urinary retention, blurred vision/sandy eyes, reduced GI motility) and state that these effects are opposite to those of muscarinic stimulation.
+
+## pitfalls
+Selecting diarrhea as an atropine adverse effect -- atropine's reduced GI motility instead makes it useful as an antidiarrheal ingredient. Selecting increased salivation, which is the opposite (muscarinic-agonist) effect.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Antagonists)
+
+## subtopic
+Atropine systemic adverse effects
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-7F6FE263FBC1C0
+CON-FND-568AAC30667942
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Adverse effects which frequently occur during treatment with high doses of atropine include all of the following EXCEPT: ... The correct answer is: Diarrhea" (Quiz 24, Q1, `All Quizzes MPT 2022.pdf` p.87); "Which of the following is an adverse effect of atropine? ... The correct answer is: Blurred vision" (Q2); "Urination in the human subject is decreased by ... The correct answer is: muscarinic antagonists" (Q6, p.89); "Atropine is one of the ingredients in the antidiarrheal combination diphenoxylate/atropine ... Which of the following effects is produced by atropine that contributes to its antidiarrheal effect? ... The correct answer is: Reduction in gastrointestinal motility" (Q8, p.89).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 24 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "atropine adverse effects sandy eyes dry mouth" -- 0 hits, new concept.
+relationships: opens the Lecture 24 antimuscarinic-pharmacology set; collapses Quiz 24 Q1, Q2, Q6 and Q8 (all testing the same atropine adverse-effect-profile fact) onto one concept.
+
+---
+
+# Item
+
+## id
+CON-FND-7F6FE263FBC1C0
+
+## label
+Muscarinic antagonists are useful as a cholinergic antidote, for eye exams and motion sickness, but contraindicated in narrow-angle glaucoma
+
+## canonical_key
+teaching.mpt104.pharmacology.antimuscarinic-contraindications-uses
+
+## aliases
+Antimuscarinic contraindications
+Antimuscarinic therapeutic uses
+
+## arabic_label
+موانع استعمال واستطبابات مضادات المسكارين
+
+## arabic_aliases
+موانع استخدام الأتروبين في الجلوكوما
+
+## definition
+Muscarinic antagonists are useful as an antidote for cholinergic-agonist (and organophosphate) poisoning, for pupillary dilation during eye examinations, and for preventing motion sickness. They are specifically contraindicated for treatment of narrow-angle glaucoma: the pupillary dilation (mydriasis) that makes them useful for an eye exam is exactly what can precipitate an acute angle-closure attack by obstructing aqueous humour outflow, so they worsen rather than treat this condition.
+
+## explicit_objective
+State that muscarinic antagonists are useful as a cholinergic-agonist antidote, for eye examinations and for motion-sickness prevention, but are contraindicated (not useful) in narrow-angle glaucoma.
+
+## pitfalls
+Assuming muscarinic antagonists are useful for narrow-angle glaucoma because they are used for pupillary dilation in eye examinations -- the same mydriasis effect that helps one setting is contraindicated in the other.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Antagonists)
+
+## subtopic
+Antimuscarinic contraindications and uses
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-E7CF2D41E7F0BC
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Muscarinic antagonists are useful for all of the following EXCEPT: ... The correct answer is: Treatment of narrow angle glaucoma" (Quiz 24, Q11, `All Quizzes MPT 2022.pdf` p.90).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 24 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "trimethaphan ganglion blocker" and related antimuscarinic-use terms -- 0 hits, new concept.
+relationships: paired with CON-FND-E7CF2D41E7F0BC (the adverse-effect profile that explains why these uses/contraindications hold).
+
+---
+
+# Item
+
+## id
+CON-FND-568AAC30667942
+
+## label
+Scopolamine is a CNS-penetrant antimuscarinic used for motion sickness, causing mydriasis with cycloplegia
+
+## canonical_key
+teaching.mpt104.pharmacology.scopolamine-cns-antimuscarinic-uses
+
+## aliases
+Scopolamine pharmacology
+Antimuscarinic motion-sickness prevention
+Mydriasis with cycloplegia
+
+## arabic_label
+السكوبولامين كمضاد مسكارين نافذ للجهاز العصبي المركزي
+
+## arabic_aliases
+دوار الحركة وتوسع الحدقة مع شلل التكيف
+
+## definition
+Scopolamine is a muscarinic antagonist that, unlike atropine's more peripherally weighted action, penetrates the CNS well. It is used for prevention of motion sickness (classically as a transdermal patch), and in the eye it produces mydriasis together with cycloplegia -- paralysis of the ciliary muscle that impairs accommodation for near vision -- explaining why a patient dosed with scopolamine cannot read a menu with the affected eye. Muscarinic antagonists in general are also useful as an antidote for cholinergic-agonist toxicity, such as the centrally-acting toxidrome (hallucinations, hot dry skin, mydriasis) produced by ingesting an anticholinergic-containing plant, a picture scopolamine itself can also produce in overdose.
+
+## explicit_objective
+Identify scopolamine as the CNS-penetrant antimuscarinic used for motion-sickness prevention, and state that it produces mydriasis with cycloplegia (impairing near vision, not just pupil size).
+
+## pitfalls
+Confusing scopolamine's mydriasis-with-cycloplegia effect with a pure mydriatic (pupil dilation without loss of near focus) -- an antimuscarinic affects both the pupil and the ciliary muscle at once, since both are under muscarinic control. Selecting a muscarinic agonist, a nicotinic antagonist or an AChE inhibitor as the drug behind an anticholinergic-plant-poisoning or ganglion-blocker vignette that actually describes an antimuscarinic.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Antagonists)
+
+## subtopic
+Scopolamine pharmacology
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-1E1CDB94DF60D6
+CON-FND-7F6FE263FBC1C0
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.55
+
+## exam_weight_by_year
+AUN_Y1=0.55
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"What type of drugs is scopolamine? ... The correct answer is: Muscarinic antagonists" (Quiz 24, Q4, `All Quizzes MPT 2022.pdf` p.88); "A patient presents to the physician with a dilated right eye and complains that she could not read the lunch menu with the same eye ... The correct answer is: Scopolamine" (Q7, p.89); "Which of the following drugs would be the most effective anti-motion sickness drug for a person planning to go on a cruise? ... The correct answer is: Scopolamine" (Q10, p.90); "An 11 year old boy ... eating seeds from a plant while 'trying to get high' ... incoherent, skin hot and dry, pupils dilated and unresponsive to light ... The presumptive diagnosis was drug toxicity due to the ingestion of a compound similar to ... The correct answer is: scopolamine" (Q12, p.91).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 24 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "scopolamine" -- 0 hits anywhere in live state or any pending batch, new concept.
+relationships: collapses Quiz 24 Q4, Q7, Q10 and Q12 (all pointing to scopolamine) onto one concept; paired with CON-FND-1E1CDB94DF60D6 (the toxidrome scopolamine and related antimuscarinics can produce, and its physostigmine reversal).
+
+---
+
+# Item
+
+## id
+CON-FND-1E1CDB94DF60D6
+
+## label
+Physostigmine, a centrally-acting cholinesterase inhibitor, reverses the anticholinergic toxidrome
+
+## canonical_key
+teaching.mpt104.pharmacology.anticholinergic-toxidrome-physostigmine-reversal
+
+## aliases
+Anticholinergic toxidrome
+Physostigmine reversal
+Centrally-acting cholinomimetic antidote
+
+## arabic_label
+متلازمة التسمم المضاد للكولين وعلاجها بالفيزوستيغمين
+
+## arabic_aliases
+الفيزوستيغمين كمضاد سموم مركزي
+
+## definition
+Taken in overdose or from an antimuscarinic-containing plant, atropine-like drugs produce the anticholinergic toxidrome: high fever, hallucinations, marked mydriasis and a dry mouth. This toxidrome is reversed by physostigmine, a centrally-acting (CNS-penetrant) cholinesterase inhibitor whose action raises acetylcholine levels both centrally and peripherally, directly counteracting the antimuscarinic block at its source -- a peripherally-restricted cholinesterase inhibitor cannot reverse the central (hallucination, fever) component of the toxidrome the way physostigmine can.
+
+## explicit_objective
+State that physostigmine, because it is centrally-acting, is the antidote of choice for the anticholinergic (antimuscarinic) toxidrome.
+
+## pitfalls
+Choosing a peripherally-restricted cholinesterase inhibitor, an NSAID, or a parasympatholytic (antimuscarinic, which would worsen rather than treat this toxidrome) as the treatment for a patient presenting with the anticholinergic toxidrome.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Antagonists)
+
+## subtopic
+Anticholinergic toxidrome and reversal
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-568AAC30667942
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient presents at Assiut University Hospital with high fever, hallucinations, marked mydriasis, and a dry mouth after ingesting an unknown drug. To counteract the effects of the drug you prescribe: ... The correct answer is: a centrally-acting cholinomimetic" (Quiz 24, Q3, `All Quizzes MPT 2022.pdf` p.88).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 24 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "physostigmine anticholinergic toxidrome" -- 0 hits, new concept.
+relationships: paired with CON-FND-568AAC30667942 (the scopolamine/antimuscarinic overdose picture this reverses).
+
+---
+
+# Item
+
+## id
+CON-FND-50FB4649C59276
+
+## label
+Ipratropium is the antimuscarinic bronchodilator option in COPD unresponsive to a beta2 agonist
+
+## canonical_key
+teaching.mpt104.pharmacology.ipratropium-copd-bronchodilator
+
+## aliases
+Ipratropium
+Antimuscarinic bronchodilator
+
+## arabic_label
+الإيبراتروبيوم كموسع قصبي مضاد للمسكارين
+
+## arabic_aliases
+علاج مرض الانسداد الرئوي المزمن
+
+## definition
+Ipratropium, an inhaled antimuscarinic bronchodilator, is the next therapeutic option when a patient with chronic obstructive pulmonary disease (COPD) does not respond to a beta2 agonist alone for relief of bronchospasm. It works through a different receptor (blocking muscarinic receptors on airway smooth muscle) rather than repeating or escalating the beta2-adrenergic mechanism, making it a rational add-on or alternative rather than simply "more of the same" bronchodilator class.
+
+## explicit_objective
+State that ipratropium, an antimuscarinic bronchodilator, is the next option for a COPD patient unresponsive to a beta2 agonist.
+
+## pitfalls
+Selecting a muscarinic agonist, a beta1 agonist, or physostigmine as the next bronchodilator option -- a muscarinic agonist would worsen bronchospasm, a beta1 agonist has minimal airway effect, and physostigmine is an unrelated centrally-acting cholinesterase inhibitor with no bronchodilator role.
+
+## concept_type
+application
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Antagonists)
+
+## subtopic
+Ipratropium in COPD
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-7F6FE263FBC1C0
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A patient with chronic obstructive pulmonary disease (COPD) was prescribed a β2 agonist for the relief of bronchospasm. However, the patient did not respond to this treatment. Which of the following drugs or classes of drugs would you suggest for this patient as the next option? ... The correct answer is: Ipratropium." (Quiz 24, Q5, `All Quizzes MPT 2022.pdf` p.88).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 24 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "ipratropium" -- 0 hits, new concept.
+relationships: paired with CON-FND-7F6FE263FBC1C0 (antimuscarinic therapeutic-use pattern this fits within).
+
+---
+
+# Item
+
+## id
+CON-FND-84207418D30CBB
+
+## label
+Trimethaphan is a ganglion blocker acting on nicotinic receptors at the autonomic ganglia
+
+## canonical_key
+teaching.mpt104.pharmacology.ganglion-blockers-trimethaphan
+
+## aliases
+Ganglion blocker
+Nicotinic ganglionic antagonist
+
+## arabic_label
+حاصرات العقد العصبية اللاإرادية (تريميثافان)
+
+## arabic_aliases
+مضاد النيكوتين على مستوى العقدة العصبية
+
+## definition
+Trimethaphan is a ganglion blocker: it acts on nicotinic (not muscarinic) receptors at the autonomic ganglia, blocking transmission through both the sympathetic and parasympathetic divisions at that single site. This makes it mechanistically distinct from every muscarinic antagonist discussed in this lecture -- it is not an antimuscarinic drug, and its site of action is the ganglion itself rather than the postsynaptic muscarinic receptors on an effector organ.
+
+## explicit_objective
+Identify trimethaphan as a ganglion blocker acting on nicotinic receptors at the autonomic ganglia, distinct from a muscarinic antagonist.
+
+## pitfalls
+Confusing a ganglion blocker (nicotinic-receptor antagonism at the ganglion, affecting both sympathetic and parasympathetic transmission) with a muscarinic antagonist (blocking the postsynaptic muscarinic receptor on the effector organ, affecting only parasympathetic-type responses). Selecting an organophosphate (parathion), an irreversible cholinesterase inhibitor (echothiophate) or an antimuscarinic (scopolamine) as a ganglion blocker.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Parasympathetic nervous system (Antagonists)
+
+## subtopic
+Ganglion blockers
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-568AAC30667942
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.65
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following drugs is ganglion blocker? ... The correct answer is: Trimethaphan" (Quiz 24, Q9, `All Quizzes MPT 2022.pdf` p.90).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 24 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "trimethaphan ganglion blocker" -- 0 hits, new concept.
+relationships: closes the Lecture 24 antimuscarinic-pharmacology set; contrasted with CON-FND-568AAC30667942 (scopolamine, a true muscarinic antagonist) to keep the ganglion-blocker mechanism distinct.

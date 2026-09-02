@@ -1564,3 +1564,171 @@ Block: body
 ### definition_of · CON-INF-F3A31EB59340B9
 Quote: Granuloma formation is a type IV (delayed) hypersensitivity reaction
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-ANTIMUSCARINIC-PHARMACOLOGY
+
+## title
+Antimuscarinic pharmacology: atropine, scopolamine, ipratropium and ganglion blockers
+
+## arabic_title
+علم أدوية مضادات المسكارين: الأتروبين والسكوبولامين والإيبراتروبيوم وحاصرات العقد العصبية
+
+## aliases
+Parasympathetic nervous system (Antagonists)
+Lecture 24
+Antimuscarinic drugs
+Anticholinergic drugs
+
+## subject
+fnd
+
+## topic
+Parasympathetic nervous system (Antagonists)
+
+## subtopic
+Atropine, scopolamine and related antimuscarinics
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 24 turns from cholinergic agonists to their antagonists: atropine and its relatives block muscarinic receptors throughout the body, producing a predictable, opposite-of-cholinergic adverse-effect profile (dry mouth, urinary retention, mydriasis, tachycardia, reduced gut motility) that becomes therapeutic in the right clinical setting -- as an antidote for cholinergic-agonist poisoning, for mydriasis in an eye examination, or to prevent motion sickness -- but is contraindicated in narrow-angle glaucoma, where pupil dilation can precipitate an attack. Scopolamine, a CNS-penetrant antimuscarinic, adds central effects atropine's peripheral action does not: cycloplegia impairing near vision, motion-sickness prevention, and the full anticholinergic toxidrome (fever, hallucinations, mydriasis, dry mouth) when taken in overdose or from a plant source, a toxidrome reversed specifically by physostigmine, a centrally-acting cholinesterase inhibitor. Two related but distinct antagonist classes close the lecture: ipratropium, a antimuscarinic bronchodilator used when a beta2 agonist alone fails to control COPD, and trimethaphan, a ganglion blocker acting on nicotinic receptors at the autonomic ganglia rather than on muscarinic receptors at all.
+
+## sections
+### Definition
+Muscarinic antagonists (antimuscarinics) competitively block acetylcholine at muscarinic receptors throughout the parasympathetic nervous system, producing effects that are the pharmacological opposite of muscarinic stimulation. Atropine's systemic adverse-effect profile follows directly from this: dry mouth (reduced salivation), urinary retention (reduced detrusor tone), sandy or dry eyes and blurred vision (impaired accommodation and reduced lacrimation), and reduced gastrointestinal motility -- the opposite of the increased secretion, increased motility and pupillary constriction that muscarinic stimulation produces, and specifically not diarrhea, which a muscarinic antagonist reduces rather than causes.
+
+### Mechanism
+Because it decreases gastrointestinal motility, atropine contributes an antidiarrheal effect when combined with diphenoxylate, and because it decreases detrusor tone, urination is decreased by muscarinic antagonists rather than increased. Scopolamine is an antimuscarinic that, unlike atropine's more peripherally weighted action, penetrates the CNS well: it is used for prevention of motion sickness, and in the eye it produces mydriasis together with cycloplegia (paralysis of the ciliary muscle), which impairs near vision -- explaining why a patient dosed with scopolamine cannot read a menu with the affected eye. Taken in overdose or ingested from an anticholinergic-containing plant, scopolamine and related antimuscarinics produce the full anticholinergic toxidrome: high fever, hallucinations, marked mydriasis and dry mouth. This toxidrome is reversed by physostigmine, a centrally-acting (CNS-penetrant) cholinesterase inhibitor whose action raises acetylcholine levels both centrally and peripherally, counteracting the antimuscarinic block at its source.
+
+### Key determinants
+Muscarinic antagonists are useful as an antidote for cholinergic-agonist (and organophosphate) poisoning, for pupillary dilation during eye examinations, and for preventing motion sickness -- but they are specifically contraindicated for treatment of narrow-angle glaucoma, since the pupillary dilation they cause can precipitate an acute attack by blocking aqueous outflow, rather than relieving one. Ipratropium, an inhaled antimuscarinic bronchodilator, is the next therapeutic option when a COPD patient does not respond to a beta2 agonist alone, working through a different receptor (muscarinic, on airway smooth muscle) rather than simply repeating the beta2 mechanism. Trimethaphan, by contrast, is a ganglion blocker: it acts on nicotinic (not muscarinic) receptors at the autonomic ganglia, blocking both sympathetic and parasympathetic transmission at that single site, a mechanistically distinct class from every muscarinic antagonist in this lecture.
+
+### Clinical significance
+Recognising atropine's or scopolamine's adverse-effect profile at the bedside -- dry mouth, urinary retention, tachycardia, blurred vision -- flags an antimuscarinic drug (or an antimuscarinic-toxidrome poisoning) as the cause. A patient with the full anticholinergic toxidrome (hot, dry, dilated pupils, hallucinating) needs physostigmine, not a peripherally-restricted cholinesterase inhibitor, because the CNS component of the toxidrome will not respond to a drug that cannot cross the blood-brain barrier. Choosing ipratropium over repeating or escalating a beta2 agonist in an unresponsive COPD patient reflects using a second, mechanistically distinct bronchodilator class rather than more of the same one.
+
+### Common misconceptions
+Expecting diarrhea, increased salivation or miosis from an antimuscarinic -- these are muscarinic-agonist effects, and atropine/scopolamine produce their opposites. Confusing scopolamine's CNS-penetrant, centrally-acting profile with atropine's more peripherally weighted one, or forgetting that reversing an anticholinergic toxidrome specifically requires a centrally-acting cholinesterase inhibitor (physostigmine), not just any cholinesterase inhibitor. Assuming muscarinic antagonists are useful for narrow-angle glaucoma because they are used therapeutically for eye examinations -- the mydriasis that makes them useful for one is exactly what contraindicates them for the other. Grouping trimethaphan (a nicotinic-receptor ganglion blocker) with the muscarinic antagonists in this lecture, when its mechanism and site of action are both different.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Atropine's adverse-effect profile: dry mouth, urinary retention, mydriasis/blurred vision, tachycardia, reduced GI motility (constipation, not diarrhea).
+Muscarinic antagonists decrease urination (reduced detrusor tone) and decrease GI motility (their antidiarrheal mechanism in combination products).
+Scopolamine is a CNS-penetrant antimuscarinic: used for motion-sickness prevention, causes mydriasis with cycloplegia (impairing near vision), and in overdose or plant poisoning produces the full anticholinergic toxidrome (fever, hallucinations, mydriasis, dry mouth).
+Physostigmine, a centrally-acting cholinesterase inhibitor, reverses the anticholinergic toxidrome by crossing the blood-brain barrier.
+Muscarinic antagonists are useful as a cholinergic-agonist antidote, for eye examinations and for motion-sickness prevention, but are contraindicated in narrow-angle glaucoma.
+Ipratropium is an antimuscarinic bronchodilator, the next option when a beta2 agonist alone fails in COPD.
+Trimethaphan is a ganglion blocker acting on nicotinic receptors at the autonomic ganglia, not a muscarinic antagonist.
+
+## lose_the_mark
+Selecting diarrhea, increased salivation, mydriasis-with-no-cycloplegia effects, or miosis as an antimuscarinic adverse effect.
+Reversing an anticholinergic toxidrome with a peripherally-restricted rather than centrally-acting cholinesterase inhibitor.
+Including narrow-angle glaucoma among muscarinic antagonists' therapeutic uses instead of their contraindications.
+Choosing a muscarinic agonist or a second beta2 agonist instead of ipratropium for a COPD patient unresponsive to a beta2 agonist.
+Classing trimethaphan as a muscarinic antagonist rather than a nicotinic-receptor ganglion blocker.
+
+## callout_evidence
+
+## related_concepts
+CON-FND-E7CF2D41E7F0BC
+CON-FND-7F6FE263FBC1C0
+CON-FND-568AAC30667942
+CON-FND-1E1CDB94DF60D6
+CON-FND-50FB4649C59276
+CON-FND-84207418D30CBB
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 24 (Parasympathetic nervous system, Antagonists) -- no department slide deck exists in the corpus past Lecture 8, so these six mints cite the quiz bank's own printed-answer text instead.
+
+## annotations
+### definition_of · CON-FND-E7CF2D41E7F0BC
+Quote: dry mouth (reduced salivation), urinary retention (reduced detrusor tone), sandy or dry eyes and blurred vision (impaired accommodation and reduced lacrimation), and reduced gastrointestinal motility
+Block: body
+
+### definition_of · CON-FND-7F6FE263FBC1C0
+Quote: Muscarinic antagonists are useful as an antidote for cholinergic-agonist (and organophosphate) poisoning, for pupillary dilation during eye examinations, and for preventing motion sickness -- but they are specifically contraindicated for treatment of narrow-angle glaucoma
+Block: body
+
+### definition_of · CON-FND-568AAC30667942
+Quote: Scopolamine is an antimuscarinic that, unlike atropine's more peripherally weighted action, penetrates the CNS well: it is used for prevention of motion sickness, and in the eye it produces mydriasis together with cycloplegia
+Block: body
+
+### definition_of · CON-FND-1E1CDB94DF60D6
+Quote: This toxidrome is reversed by physostigmine, a centrally-acting (CNS-penetrant) cholinesterase inhibitor whose action raises acetylcholine levels both centrally and peripherally
+Block: body
+
+### definition_of · CON-FND-50FB4649C59276
+Quote: Ipratropium, an inhaled antimuscarinic bronchodilator, is the next therapeutic option when a COPD patient does not respond to a beta2 agonist alone
+Block: body
+
+### definition_of · CON-FND-84207418D30CBB
+Quote: Trimethaphan, by contrast, is a ganglion blocker: it acts on nicotinic (not muscarinic) receptors at the autonomic ganglia, blocking both sympathetic and parasympathetic transmission at that single site
+Block: body

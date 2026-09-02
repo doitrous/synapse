@@ -49,7 +49,7 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 191 | 3 | 247 | 441 |
+| quizzes-2022 | 203 | 3 | 235 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
@@ -102,18 +102,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q186
-- quizzes-2022-q187
-- quizzes-2022-q188
-- quizzes-2022-q189
-- quizzes-2022-q190
-- quizzes-2022-q191
-- quizzes-2022-q192
-- quizzes-2022-q193
-- quizzes-2022-q194
-- quizzes-2022-q195
-- quizzes-2022-q196
-- quizzes-2022-q197
 - quizzes-2022-q207
 - quizzes-2022-q208
 - quizzes-2022-q209
