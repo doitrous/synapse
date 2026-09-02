@@ -64,7 +64,7 @@ MANS-HIS-203 > Histology > Blood > Erythropoiesis
 +1
 
 ## field_notes
-universityNotes: mans: The His Continuous Berlin Book 2026 (HIS 203) tests both landmarks this concept states as separate questions — Q4 ("mitosis is lost in...", keyed E, normoblast) and Q16 ("hemoglobin starts to appear in...", keyed E, normoblast) — plus the general "erythropoiesis = development of red blood cells" vocabulary question (Q13) and the "first precursor cell for RBCs" question (Q20, keyed C, proerythroblast), all against this concept's own stage series.
+universityNotes: mans: The His Continuous Berlin Book 2026 (HIS 203) tests both landmarks this concept states as separate questions — Q4 ("mitosis is lost in...", keyed E, normoblast, i.e. one stage after the polychromatophilic erythroblast this concept names as the last dividing stage) and Q16 ("hemoglobin starts to appear in...", keyed E, polychromatophilic erythroblast — the stage before haemoglobin synthesis completes at the normoblast, per this concept's own definition) — plus the general "erythropoiesis = development of red blood cells" vocabulary question (Q13) and the "first precursor cell for RBCs" question (Q20, keyed C, proerythroblast), all against this concept's own stage series.
 
 ---
 

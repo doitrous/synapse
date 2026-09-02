@@ -1,0 +1,154 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "microbiology-hypersensitivity",
+  "header": "MANS-HIS-203 · Microbiology — Hypersensitivity classification, authored from the His Continuous Berlin Book 2026 (Microbiology L1 revision, p.46), printed keys. Three questions test the new Gell-Coombs classification concept minted for this batch; one tests an existing live basophil/mast-cell concept.",
+  "defaults": {
+    "subject": "imm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Microbiology > Immunology > Hypersensitivity reactions",
+    "exam_weight_by_year": { "MANS_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-MANS-HIS-HYPERSENSITIVITY-CLASSIFICATION", "ART-IMM-TOP-35CFB732FE"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, Microbiology L1 revision, p.46",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "m1",
+      "page": 46,
+      "title": "Pollen and hypersensitivity type",
+      "question": "Pollen would most likely evoke which type of hypersensitivity?",
+      "options": {
+        "A": "Cytotoxic (Type II)",
+        "B": "Immune complex (Type III)",
+        "C": "Immediate type I",
+        "D": "Cell mediated (Type IV)"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Type II is antibody bound directly to a fixed antigen on a cell or tissue surface, destroying that cell; pollen allergy has no fixed cellular target of that kind.",
+        "B": "Incorrect. Type III is antibody bound to soluble circulating antigen forming immune complexes that deposit in tissue; that is not the mechanism behind pollen allergy either.",
+        "C": "Correct. Pollen most likely evokes a type I (immediate) hypersensitivity reaction. Pollen-specific IgE sits bound to mast cells and basophils, and pollen cross-linking that surface IgE triggers degranulation within minutes. That immediate histamine release is what produces the symptoms of allergic rhinitis or asthma.",
+        "D": "Incorrect. Type IV is T-cell-mediated and delayed, developing over 24-72 hours with no antibody involved; pollen allergy is instead an immediate, antibody (IgE)-mediated reaction."
+      },
+      "main_concept": "CON-IMM-64B2E67A0AAF07",
+      "concept_ids": ["CON-IMM-64B2E67A0AAF07"],
+      "contextual_concept_ids": ["CON-IMM-075EC1A6A3022D"],
+      "topic": "Immunology",
+      "subtopic": "Hypersensitivity reactions",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Classify pollen allergy as a type I (IgE-mediated immediate) hypersensitivity reaction.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.46" },
+      "author_notes": ""
+    },
+    {
+      "key": "m2",
+      "page": 46,
+      "title": "Antibody class that cross-links mast cells",
+      "question": "Which of the following binds to mast cells and cross-links, resulting in degranulation and release of histamine?",
+      "options": {
+        "A": "IgM",
+        "B": "IgG",
+        "C": "IgD",
+        "D": "IgE"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. IgM is the first antibody made in a primary immune response and fixes complement efficiently; it does not bind mast-cell surface receptors the way IgE does.",
+        "B": "Incorrect. IgG mediates type II and III hypersensitivity mechanisms and crosses the placenta, but it is not the antibody class that sits bound to resting mast cells awaiting antigen.",
+        "C": "Incorrect. IgD is mainly a B-cell surface receptor involved in B-cell activation, not an antibody that arms mast cells for degranulation.",
+        "D": "Correct. IgE is the antibody class that binds high-affinity receptors on the surface of mast cells and basophils. When antigen cross-links two adjacent surface-bound IgE molecules, the cell degranulates within minutes, releasing histamine and other mediators — the mechanism behind type I hypersensitivity."
+      },
+      "main_concept": "CON-IMM-075EC1A6A3022D",
+      "concept_ids": ["CON-IMM-075EC1A6A3022D"],
+      "contextual_concept_ids": ["CON-IMM-64B2E67A0AAF07"],
+      "topic": "Immunology",
+      "subtopic": "Hypersensitivity reactions",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify IgE as the antibody class that binds mast cells and, on antigen cross-linking, triggers degranulation and histamine release.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.46" },
+      "author_notes": ""
+    },
+    {
+      "key": "m3",
+      "page": 46,
+      "title": "Mechanism of type I hypersensitivity",
+      "question": "The mechanism of action of type I hypersensitivity involves:",
+      "options": {
+        "A": "Production of IgE in response to certain antigens",
+        "B": "Production of IgG in response to certain antigens",
+        "C": "Production of IgM in response to certain antigens",
+        "D": "Production of IgA in response to certain antigens"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Type I hypersensitivity begins with IgE production against a specific antigen (an allergen). That IgE binds mast cells and basophils, and re-exposure to the same antigen cross-links the surface-bound IgE, triggering immediate degranulation and the type I reaction.",
+        "B": "Incorrect. IgG production is the antibody mechanism behind type II (cytotoxic) and type III (immune complex) hypersensitivity, not type I.",
+        "C": "Incorrect. IgM is the antibody typically made early in a primary response and, like IgG, can participate in type II mechanisms via complement fixation; it is not the antibody class defining type I.",
+        "D": "Incorrect. IgA is the antibody of mucosal secretions and is not the mechanism that defines type I hypersensitivity."
+      },
+      "main_concept": "CON-IMM-64B2E67A0AAF07",
+      "concept_ids": ["CON-IMM-64B2E67A0AAF07"],
+      "contextual_concept_ids": [],
+      "topic": "Immunology",
+      "subtopic": "Hypersensitivity reactions",
+      "difficulty": "Moderate",
+      "question_type": "Mechanism",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that IgE production against a specific antigen is the mechanism that defines type I hypersensitivity.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.46" },
+      "author_notes": ""
+    },
+    {
+      "key": "m4",
+      "page": 46,
+      "title": "Penicillin and pollen hypersensitivity share a mechanism",
+      "question": "Hypersensitivity to drugs like penicillin and hypersensitivity to pollen grains are both:",
+      "options": {
+        "A": "Mediated by IgM antibody",
+        "B": "Mediated by IgE antibody",
+        "C": "Mediated by IgG antibody",
+        "D": "Mediated by IgA antibody",
+        "E": "Mediated by IgD antibody"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. IgM is not the antibody class responsible for either penicillin's immediate allergic reactions or pollen allergy.",
+        "B": "Correct. Penicillin hypersensitivity and pollen hypersensitivity are both mediated by IgE antibody, even though the two triggers — a drug and a plant allergen — are completely different substances. The Gell and Coombs classification sorts a reaction by its mechanism, not by what triggered it, and both of these are type I, IgE-mediated reactions.",
+        "C": "Incorrect. IgG mediates other hypersensitivity mechanisms (type II, type III), not the immediate, mast-cell-degranulating mechanism shared by penicillin and pollen allergy.",
+        "D": "Incorrect. IgA is the secretory antibody of mucosal surfaces, not the mediator of either penicillin's or pollen's immediate allergic reactions.",
+        "E": "Incorrect. IgD functions mainly as a B-cell surface receptor, not as the effector antibody in either of these two reactions."
+      },
+      "main_concept": "CON-IMM-64B2E67A0AAF07",
+      "concept_ids": ["CON-IMM-64B2E67A0AAF07"],
+      "contextual_concept_ids": [],
+      "topic": "Immunology",
+      "subtopic": "Hypersensitivity reactions",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise that penicillin and pollen hypersensitivity share the same IgE-mediated type I mechanism despite having different triggers, illustrating that hypersensitivity type is read from mechanism, not trigger.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.46" },
+      "author_notes": ""
+    }
+  ]
+}
