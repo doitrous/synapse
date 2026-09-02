@@ -1,0 +1,1673 @@
+{
+  "lane": "KASR-208INT",
+  "cluster": "2024-eom-general-pathology-and-pharmacology",
+  "header": "Kasr Al Ainy 208 INT · General pathology (growth disorders, healing, hemodynamics, techniques), bacterial/fungal/viral infections, and autonomic pharmacology — authored from the 208 INT EOM 2024 exam paper (120 MCQs, second tier 1-3 paper triaged by this lane, lane 4), keys read from highlight-annotated answer markings via pagetext.mjs keys, confirmed by two renders (p.1, p.16).",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y2"
+    ],
+    "module": "208 INT",
+    "exam_weight_by_year": {
+      "KAU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-FND-208INT-NEOPLASIA-BASICS"
+    ],
+    "resource_ids": [
+      "src_1904964b1c8502ef5410"
+    ],
+    "source_citation": "Kasr Al Ainy 208 INT EOM 2024 exam paper, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Neoplasia"
+  },
+  "questions": [
+    {
+      "key": "2024eom-q01",
+      "id": "QST-KASR208INT-2024EOM-01",
+      "page": 1,
+      "title": "Systemic fungal infection example",
+      "question": "Which of the following is an example of systemic fungal infection?",
+      "options": {
+        "A": "Tinea pedis",
+        "B": "Histoplasmosis",
+        "C": "Mycetoma",
+        "D": "Vaginal candidiasis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Tinea pedis (athlete's foot) is a superficial dermatophyte infection of the skin, not a systemic (internal-organ) fungal infection.",
+        "B": "Correct. Systemic fungal infections are invasive infections of internal organs, uncommon in normally healthy people; Histoplasma capsulatum (histoplasmosis), primarily infecting the lung, is the department book's named example of this type of affection. Systemic fungal infections belong to the broader opportunistic-infection category that also includes protozoal/helminthic, bacterial and viral organisms the immune system normally suppresses without effort. This is why histoplasmosis specifically, rather than a superficial or subcutaneous fungal disease, answers a question about SYSTEMIC fungal infection.",
+        "C": "Incorrect. Mycetoma is a subcutaneous fungal (or actinomycotic) infection limited to skin and subcutaneous tissue, causing sinuses discharging serosanguinous fluid — not a systemic, internal-organ infection.",
+        "D": "Incorrect. Vaginal candidiasis is a superficial mucosal fungal infection, not a systemic one, even though Candida can also cause systemic disease in immunocompromised hosts elsewhere in the department book's opportunistic-infection list."
+      },
+      "main_concept": "CON-INF-324F03A30F7F5F",
+      "concept_ids": [
+        "CON-INF-324F03A30F7F5F"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify histoplasmosis as the department book's named example of a systemic fungal infection, distinguishing it from superficial (tinea, candidiasis) and subcutaneous (mycetoma) fungal disease.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 6/7 Infections > Opportunistic and Fungal Infections",
+      "library_ids": [
+        "ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Viral and parasitic infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q03",
+      "id": "QST-KASR208INT-2024EOM-03",
+      "page": 1,
+      "title": "Definition of dysplasia",
+      "question": "Dysplasia is:",
+      "options": {
+        "A": "Neoplastic disordered cellular proliferations",
+        "B": "Non-neoplastic ordered cellular proliferations",
+        "C": "Non-neoplastic disordered cellular proliferations",
+        "D": "Hyperplastic cellular proliferations"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Dysplasia is explicitly non-neoplastic in the department book's own definition — calling it neoplastic contradicts the source directly.",
+        "B": "Incorrect. Dysplasia is disordered, not ordered, proliferation — loss of the normal orderly cellular arrangement (polarity) is one of its defining microscopic features.",
+        "C": "Correct. Dysplasia is non-neoplastic disordered proliferation of cells, usually induced by prolonged cell irritation, seen at sites such as the cervix uteri, bronchi, oral cavity, urinary bladder, colon, gall bladder and epidermis. Microscopically it shows loss of normal orderly arrangement (polarity), cellular pleomorphism with nuclear hyperchromasia, and increased mitosis, and is graded low or high by the degree of atypia. Because it is non-neoplastic, low-grade dysplasia is commonly reversible once the irritating cause is removed — a reversibility neoplasia never shares.",
+        "D": "Incorrect. Hyperplasia is a distinct, ordered increase in cell number by division — not the same process as dysplasia's disordered proliferation."
+      },
+      "main_concept": "CON-FND-109E1AB3E33E4E",
+      "concept_ids": [
+        "CON-FND-109E1AB3E33E4E"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Define dysplasia as non-neoplastic, disordered cellular proliferation, distinguishing it from hyperplasia (ordered) and neoplasia.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Dysplasia",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q04",
+      "id": "QST-KASR208INT-2024EOM-04",
+      "page": 1,
+      "title": "Causes of localized atrophy",
+      "question": "All of the following are possible causes of localized atrophy EXCEPT:",
+      "options": {
+        "A": "Atherosclerosis",
+        "B": "Thyrotoxicosis",
+        "C": "Immobilization",
+        "D": "Aortic aneurysm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this IS a cause of localized atrophy, so not the EXCEPT answer). Atherosclerosis of an artery causes vascular atrophy of the organ it supplies (e.g. renal atrophy from renal artery atherosclerosis) — one of the department book's five named localized-atrophy causes.",
+        "B": "Correct — this is the EXCEPT answer. Thyrotoxicosis is listed by the department book under GENERALIZED atrophy (increased catabolism, alongside advanced malignancy's cachexia), affecting all organs — not among the five localized causes (hormonal, vascular, pressure, neuropathic, disuse). Placing it among localized causes reverses the book's own classification. This distinction — localized causes acting on one organ through a specific local mechanism, versus generalized causes acting on the whole body through a systemic metabolic derangement — is exactly what this question tests.",
+        "C": "Incorrect (this IS a cause of localized atrophy, so not the EXCEPT answer). Immobilization causes disuse atrophy of the affected muscles, e.g. after a fracture — one of the department book's five named localized-atrophy causes.",
+        "D": "Incorrect (this IS a cause of localized atrophy, so not the EXCEPT answer). An aortic aneurysm causes pressure atrophy of adjacent structures, such as the vertebral bodies, via ischemia and compromised blood supply — one of the department book's five named localized-atrophy causes."
+      },
+      "main_concept": "CON-FND-BA4E3D79017392",
+      "concept_ids": [
+        "CON-FND-BA4E3D79017392"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Name the five causes of pathological localized atrophy and correctly place thyrotoxicosis under generalized, not localized, atrophy.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Atrophy",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q05",
+      "id": "QST-KASR208INT-2024EOM-05",
+      "page": 1,
+      "title": "Myositis ossificans",
+      "question": "Myositis ossificans represents:",
+      "options": {
+        "A": "Dysplastic condition",
+        "B": "Metaplastic condition",
+        "C": "Hyperplastic condition",
+        "D": "Neoplastic condition"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Myositis ossificans is not a disordered-proliferation (dysplastic) process — it is one mature tissue type replaced by another, which is the definition of metaplasia.",
+        "B": "Correct. Mesenchymal metaplasia is the formation of cartilage, bone or adipose tissue in tissues that normally do not contain these elements. Myositis ossificans — bone formation within muscle — is the department book's worked example, occurring occasionally after intramuscular hemorrhage. This mirrors epithelial metaplasia's general logic (a mature tissue reprogrammed into a different mature tissue type) but applies it to connective tissue rather than epithelium.",
+        "C": "Incorrect. Hyperplasia is an increase in cell NUMBER of the SAME cell type by division — myositis ossificans instead replaces muscle/connective tissue with a different tissue type (bone), which is metaplasia, not hyperplasia.",
+        "D": "Incorrect. Myositis ossificans is not an autonomous, disordered neoplastic growth — it is a reactive metaplastic change, typically following a specific trigger (intramuscular hemorrhage)."
+      },
+      "main_concept": "CON-FND-2A6D478CFC27ED",
+      "concept_ids": [
+        "CON-FND-2A6D478CFC27ED"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Classify myositis ossificans as mesenchymal metaplasia (bone forming in muscle after hemorrhage), not a dysplastic, hyperplastic or neoplastic process.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Metaplasia > Mesenchymal Metaplasia",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q06",
+      "id": "QST-KASR208INT-2024EOM-06",
+      "page": 2,
+      "title": "Precancerous conditions",
+      "question": "All the following conditions are precancerous EXCEPT:",
+      "options": {
+        "A": "Hypertrophy",
+        "B": "Hyperplasia",
+        "C": "Metaplasia",
+        "D": "Dysplasia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The department book's list of non-hereditary preneoplastic disorders explicitly names hyperplastic, metaplastic and dysplastic lesions as precancerous (leukoplakia, endometrial hyperplasia, mammary hyperplasia and cervical dysplasia are its worked examples). Hypertrophy — a simple increase in cell SIZE without any change in cell arrangement or differentiation — is never included in this precancerous list, because it carries none of the disordered-proliferation or altered-differentiation features that make hyperplasia, metaplasia and dysplasia biologically capable of progressing toward neoplasia.",
+        "B": "Incorrect (this IS named precancerous, so not the EXCEPT answer). Hyperplasia is explicitly listed among the department book's precancerous lesions (e.g. endometrial hyperplasia, mammary hyperplasia).",
+        "C": "Incorrect (this IS named precancerous, so not the EXCEPT answer). Metaplasia is explicitly listed among the department book's precancerous lesions (e.g. leukoplakia, squamous metaplasia at named sites).",
+        "D": "Incorrect (this IS named precancerous, so not the EXCEPT answer). Dysplasia is explicitly listed among the department book's precancerous lesions (e.g. cervical dysplasia), and high-grade dysplasia is the direct precursor of carcinoma in situ."
+      },
+      "main_concept": "CON-FND-7F1B5B78F0DF85",
+      "concept_ids": [
+        "CON-FND-7F1B5B78F0DF85"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that hyperplasia, metaplasia and dysplasia (not hypertrophy) are the department book's named precancerous adaptive changes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Precancerous Conditions",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q09",
+      "id": "QST-KASR208INT-2024EOM-09",
+      "page": 2,
+      "title": "Anaplastic tumor differentiation",
+      "question": "Anaplastic tumor is a tumor in which the tissue is:",
+      "options": {
+        "A": "Well differentiated",
+        "B": "Moderately differentiated",
+        "C": "Poorly differentiated",
+        "D": "Undifferentiated"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Well differentiated (grade I) is the LEAST anaplastic grade, the opposite end of the spectrum from an anaplastic (undifferentiated) tumor.",
+        "B": "Incorrect. Moderately differentiated (grade II) sits in the middle of the grading spectrum, still short of the undifferentiated, maximally anaplastic grade IV that the term \"anaplastic tumor\" specifically names.",
+        "C": "Incorrect. Poorly differentiated (grade III) shows marked anaplasia but is not yet the maximal, undifferentiated grade IV that the term \"anaplastic carcinoma\" specifically designates.",
+        "D": "Correct. Malignant tumors are graded well differentiated (grade I), moderately differentiated (grade II), poorly differentiated (grade III) or undifferentiated (grade IV) by how much cellular and nuclear pleomorphism, hyperchromatism, abnormal mitoses and loss of polarity (anaplasia) they show. Undifferentiated (grade IV) tumors show the greatest anaplasia and grow fastest, and this grade is specifically termed anaplastic carcinoma — the label \"anaplastic tumor\" names the undifferentiated end of the grading spectrum, not an intermediate point on it."
+      },
+      "main_concept": "CON-FND-D75B95517F50CF",
+      "concept_ids": [
+        "CON-FND-D75B95517F50CF"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that an anaplastic tumor is, by definition, undifferentiated (grade IV) — the maximal-anaplasia end of the grading spectrum.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Anaplasia and Grading",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q13",
+      "id": "QST-KASR208INT-2024EOM-13",
+      "page": 3,
+      "title": "Locally malignant tumor",
+      "question": "Which of the following is a locally malignant tumor?",
+      "options": {
+        "A": "Squamous cell carcinoma",
+        "B": "Hepatoblastoma",
+        "C": "Osteoclastoma",
+        "D": "Carcinoma simplex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Squamous cell carcinoma is a fully malignant tumor, capable of both local invasion and metastasis — not a member of the intermediate (locally malignant) category.",
+        "B": "Incorrect. Hepatoblastoma is one of the department book's embryonic tumors, a fully malignant tumor of infancy and childhood capable of metastasis — not an intermediate, locally malignant tumor.",
+        "C": "Correct. Intermediate tumors (previously termed locally malignant tumors) are locally invasive and destructive but rarely give rise to metastases, grow slowly, can recur after excision, and carry a better prognosis than fully malignant tumors. Giant cell tumor of bone (osteoclastoma) is one of the department book's named examples of this category, alongside basal cell carcinoma, adamantinoma, carcinoid tumor, chordoma and craniopharyngioma.",
+        "D": "Incorrect. \"Carcinoma simplex\" (undifferentiated carcinoma) is a fully malignant, poorly/undifferentiated tumor category, not an intermediate, locally malignant one."
+      },
+      "main_concept": "CON-FND-471F90B10E495A",
+      "concept_ids": [
+        "CON-FND-471F90B10E495A"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-E795DC3D0573A3"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name giant cell tumor of bone (osteoclastoma) as the department book's example of an intermediate (locally malignant, rarely metastasizing) tumor.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Intermediate (Locally Malignant) Tumors",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q15",
+      "id": "QST-KASR208INT-2024EOM-15",
+      "page": 3,
+      "title": "Choristoma definition",
+      "question": "Presence of mature ectopic pancreatic tissue at the wall of small intestine is called:",
+      "options": {
+        "A": "Teratoma",
+        "B": "Choristoma",
+        "C": "Hamartoma",
+        "D": "Adenoma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A teratoma is a germ-cell tumor composed of tissues from multiple (often all three) germ cell layers, not a single normally organized ectopic tissue nodule.",
+        "B": "Correct. A choristoma is a congenital anomaly consisting of a heterotopic rest of cells — the department book's own worked example is a small nodule of well-developed and normally organized pancreatic tissue found in the mucosa of the stomach, duodenum or (as in this stem) small intestine wall. The tissue itself is normal and normally organized; what makes it a choristoma is that it does not belong at that anatomic site.",
+        "C": "Incorrect. A hamartoma is a disorganized overgrowth of tissue elements NATIVE to the site where it occurs (e.g. lung hamartoma: cartilage, smooth muscle and bronchial mucosa, all normal lung constituents, just haphazardly arranged) — the opposite situation from ectopic pancreatic tissue, which does not belong in the intestinal wall at all.",
+        "D": "Incorrect. An adenoma is a benign epithelial neoplasm of glandular origin, not a congenital heterotopic tissue rest."
+      },
+      "main_concept": "CON-FND-2BD09290BA0B00",
+      "concept_ids": [
+        "CON-FND-2BD09290BA0B00"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify ectopic, normally organized tissue at an abnormal site (e.g. pancreatic tissue in the small intestine wall) as a choristoma, distinguishing it from a hamartoma's disorganized native-tissue overgrowth.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Tumor-Like Lesions > Choristoma",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q17",
+      "id": "QST-KASR208INT-2024EOM-17",
+      "page": 4,
+      "title": "TNM staging system",
+      "question": "TNM system is used for assessment of:",
+      "options": {
+        "A": "Histologic types of cancer",
+        "B": "Histologic grade of cancer",
+        "C": "Staging of cancer",
+        "D": "Etiology of cancer"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Histologic TYPE (e.g. adenocarcinoma vs squamous cell carcinoma) is a separate classification from TNM, which is a staging (not typing) system.",
+        "B": "Incorrect. Histologic GRADE (well to undifferentiated, based on anaplasia) is a separate axis from TNM staging — grade measures differentiation, TNM measures anatomic spread.",
+        "C": "Correct. The TNM system (American Joint Committee on Cancer Staging) classifies a cancer's anatomic extent: T for primary tumor (characterized T1 to T4 based on increasing size), N for regional lymph node involvement, and M for distant metastases. TNM staging varies in its specific criteria by cancer type, but this T/N/M structure is shared across all of them, and it is specifically a STAGING (anatomic-extent) system, not a typing, grading or etiologic one.",
+        "D": "Incorrect. TNM says nothing about a cancer's cause (etiology, e.g. viral, chemical, physical carcinogen) — it is a purely anatomic staging classification."
+      },
+      "main_concept": "CON-FND-9FF27DE891DFBE",
+      "concept_ids": [
+        "CON-FND-9FF27DE891DFBE"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-D75B95517F50CF"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the TNM system stages cancer by tumor size, nodal involvement and distant metastasis, distinguishing staging from grading, typing and etiology.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Staging and Grading > TNM System",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q19",
+      "id": "QST-KASR208INT-2024EOM-19",
+      "page": 4,
+      "title": "EBV-associated malignancy",
+      "question": "EBV is responsible for the development of:",
+      "options": {
+        "A": "Burkitt's lymphoma",
+        "B": "Cancer cervix",
+        "C": "Genital warts",
+        "D": "Kaposi sarcoma"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Epstein-Barr virus is a named viral carcinogen causing Burkitt's lymphoma, nasopharyngeal carcinoma and other B-cell lymphomas (including some Hodgkin lymphoma) in the department book's carcinogenesis teaching. EBV's B-lymphocyte tropism, driving polyclonal then monoclonal B-cell proliferation, is the mechanistic basis for its lymphoma associations specifically.",
+        "B": "Incorrect. Cervical cancer is the department book's named example of human papillomavirus (HPV) carcinogenesis, a different virus from EBV.",
+        "C": "Incorrect. Genital warts are also an HPV-associated lesion (low-risk HPV strains), not an EBV one.",
+        "D": "Incorrect. Kaposi sarcoma is associated with human herpesvirus 8 (HHV-8) in the context of AIDS-related malignancy in this module's own teaching, not with EBV."
+      },
+      "main_concept": "CON-FND-4BA8E4B11685CA",
+      "concept_ids": [
+        "CON-FND-4BA8E4B11685CA"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name Burkitt's lymphoma (and nasopharyngeal carcinoma) as EBV's associated malignancies, distinguishing EBV from HPV (cervical cancer, genital warts) and HHV-8 (Kaposi sarcoma).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Carcinogenesis > Viral Carcinogens",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q22",
+      "id": "QST-KASR208INT-2024EOM-22",
+      "page": 5,
+      "title": "Carbuncle definition",
+      "question": "Multiple communicating deep subcutaneous abscesses, opening on skin by multiple sinuses, is known as:",
+      "options": {
+        "A": "Abscess",
+        "B": "Furuncle",
+        "C": "Carbuncle",
+        "D": "Keloid"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A simple abscess is a single localized collection of pus walled off by staphylococcal coagulase — not the specific multiple, intercommunicating, multi-sinus pattern this stem describes.",
+        "B": "Incorrect. A furuncle (boil) is staphylococcal infection of a single hair follicle — a smaller, single-focus lesion, not the multiple communicating abscesses this stem describes.",
+        "C": "Correct. A carbuncle is multiple communicating deep subcutaneous abscesses, commonly on the back of the neck, opening onto the skin by multiple sinuses, and more common in diabetics (whose low immunity predisposes to this more extensive suppurative pattern). This is a localized suppurative inflammation, walled off by staphylococcal coagulase, but distinguished from a simple abscess or furuncle by its multiple, intercommunicating character.",
+        "D": "Incorrect. A keloid is a wound-healing complication (overdone fibroblast/collagen repair), not a suppurative infective lesion at all."
+      },
+      "main_concept": "CON-FND-342EB8A955CCAE",
+      "concept_ids": [
+        "CON-FND-342EB8A955CCAE"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Define a carbuncle as multiple communicating deep subcutaneous abscesses draining through multiple sinuses, distinguishing it from a simple abscess or furuncle.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 1 Inflammation > Types of Acute Inflammation > Suppurative Inflammation",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q24",
+      "id": "QST-KASR208INT-2024EOM-24",
+      "page": 5,
+      "title": "Chronic specific inflammation with foreign body",
+      "question": "A patient complaining of swelling in his finger started months ago following dealing with small glass particles. The microscopic examination of the swelling showed collection of epithelioid cells and multinucleated giant cells; he is suffering from:",
+      "options": {
+        "A": "Acute suppurative inflammation",
+        "B": "Fibrinous inflammation",
+        "C": "Chronic specific inflammation",
+        "D": "Allergic inflammation"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Acute suppurative inflammation is dominated by neutrophils forming pus, not by epithelioid cells and multinucleated giant cells, and the months-long time course here rules out an acute process.",
+        "B": "Incorrect. Fibrinous inflammation is characterized by a fibrin-rich exudate on serosal surfaces, not by an epithelioid/giant-cell cellular reaction to a retained foreign body.",
+        "C": "Correct. Granulomatous inflammation is a specific pattern of chronic inflammation defined by a localized aggregation of activated macrophages transformed into epithelioid cells, which may fuse into multinucleated giant cells — here, foreign-body type giant cells, with nuclei scattered through the cell centre, forming around the inert retained glass particles. This is chronic SPECIFIC inflammation because the granulomatous pattern is a specific, recognisable response, distinct from ordinary (non-specific) chronic inflammation's simple mononuclear infiltrate.",
+        "D": "Incorrect. Allergic inflammation is a hypersensitivity-mediated process typically involving eosinophils and mast cells, not the epithelioid-cell/giant-cell granulomatous pattern this microscopic picture describes."
+      },
+      "main_concept": "CON-FND-2129BD0D77EC62",
+      "concept_ids": [
+        "CON-FND-2129BD0D77EC62"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise a foreign-body granuloma (epithelioid cells and multinucleated giant cells around retained material) as chronic specific (granulomatous) inflammation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 1 Inflammation > Chronic Inflammation > Granulomatous Inflammation",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q27",
+      "id": "QST-KASR208INT-2024EOM-27",
+      "page": 6,
+      "title": "Prostaglandin effects",
+      "question": "Prostaglandins can mediate all of the following except:",
+      "options": {
+        "A": "Pain",
+        "B": "Vasodilatation",
+        "C": "Chemotaxis",
+        "D": "Fever"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a prostaglandin effect, so not the EXCEPT answer). The department book's own mediator table assigns pain to prostaglandins and bradykinin.",
+        "B": "Incorrect (this IS a prostaglandin effect, so not the EXCEPT answer). The department book's own mediator table assigns vasodilation to histamine and prostaglandins.",
+        "C": "Correct. Chemotaxis and leukocyte recruitment/activation are attributed by the department book's mediator table to TNF, IL-1, C3a, C5a and leukotrienes — prostaglandins are notably absent from that list. Prostaglandins potentiate histamine's effect and contribute to pain and fever, but chemotaxis is driven by a different mediator set entirely, which is exactly the distinction this EXCEPT question tests.",
+        "D": "Incorrect (this IS a prostaglandin effect, so not the EXCEPT answer). The department book's own mediator table assigns fever to IL-1, TNF and prostaglandins."
+      },
+      "main_concept": "CON-FND-1ACF7810E53576",
+      "concept_ids": [
+        "CON-FND-1ACF7810E53576"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Place prostaglandins correctly on the mediator-to-effect table (pain, vasodilation, fever) and recognise chemotaxis as a TNF/IL-1/C5a/leukotriene-driven effect prostaglandins do not mediate.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 1 Inflammation > Chemical Mediators > Prostaglandins",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q29",
+      "id": "QST-KASR208INT-2024EOM-29",
+      "page": 7,
+      "title": "Labile cells",
+      "question": "Which of the following are labile cells?",
+      "options": {
+        "A": "Neurons",
+        "B": "Kidney parenchymal cells",
+        "C": "Hematopoietic cells",
+        "D": "Fibroblasts"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Neurons are permanent cells, confined to the G0 phase and unable to regenerate if lost — the opposite proliferative class from labile cells.",
+        "B": "Incorrect. Kidney parenchymal cells are stable cells, capable of regeneration after minimal damage but not continuously, rapidly dividing under normal conditions the way labile cells are.",
+        "C": "Correct. Regeneration follows damage to rapidly dividing labile cells, such as surface epithelium or hematopoietic cells, or to minimally damaged stable parenchymal cells. Hematopoietic cells continuously and rapidly divide throughout life to replace circulating blood cells, the defining feature of the labile cell class, which is why bone marrow injury regenerates readily as long as stem cells survive.",
+        "D": "Incorrect. Fibroblasts are connective-tissue cells involved in repair (granulation tissue, scar formation) rather than a labile epithelial or hematopoietic cell population."
+      },
+      "main_concept": "CON-FND-434E7A6D0A5BF3",
+      "concept_ids": [
+        "CON-FND-434E7A6D0A5BF3"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify hematopoietic cells (with surface epithelium) as labile cells, distinguishing them from stable (kidney parenchyma) and permanent (neurons) cell classes.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 2 Healing and Repair > Cell Proliferative Classes",
+      "library_ids": [
+        "ART-FND-208INT-HEALING-AND-REPAIR"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q32",
+      "id": "QST-KASR208INT-2024EOM-32",
+      "page": 7,
+      "title": "Implantation epidermal cyst",
+      "question": "Implantation epidermal cysts:",
+      "options": {
+        "A": "Are formed because the epidermal cells may grow down the cut edges of the dermis",
+        "B": "Are due to local dermal squamous metaplasia",
+        "C": "Change into squamous cell carcinoma in 80% of cases",
+        "D": "Are seen mostly in old females"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. During regeneration of the epidermis after a wound, some epidermal cells may grow down along the cut edges of the dermis. These displaced cells are normally later resorbed; if they persist instead, they grow into a keratin-filled cyst within the dermis — the implantation epidermal (dermoid) cyst. This is one of the department book's named complications of wound healing.",
+        "B": "Incorrect. The mechanism the department book states is mechanical trapping of epidermal cells during regeneration, not a metaplastic (cell-type-switching) process of dermal cells.",
+        "C": "Incorrect. The department book does not state any malignant transformation rate for implantation epidermal cysts; malignant transformation from a chronic wound edge is instead named separately and rarely, as Marjolin's ulcer arising from chronic ulcers or burn scars.",
+        "D": "Incorrect. The department book attributes implantation epidermal cysts to a mechanical event during wound regeneration (epidermal cells trapped along a cut edge), not to any age- or sex-specific predisposition."
+      },
+      "main_concept": "CON-FND-4784F833300F29",
+      "concept_ids": [
+        "CON-FND-4784F833300F29"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that an implantation epidermal cyst forms from un-resorbed epidermal cells trapped along the dermis's cut edges during wound regeneration.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 2 Healing and Repair > Complications of Wound Healing",
+      "library_ids": [
+        "ART-FND-208INT-HEALING-AND-REPAIR"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q35",
+      "id": "QST-KASR208INT-2024EOM-35",
+      "page": 8,
+      "title": "Niacin deficiency manifestations",
+      "question": "Niacin deficiency produces all the following manifestations except:",
+      "options": {
+        "A": "Dermatitis",
+        "B": "Deformities of the nasal septum",
+        "C": "Dementia",
+        "D": "Diarrhea"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this IS a niacin deficiency manifestation, so not the EXCEPT answer). Pellagra's \"three D's\" include dermatitis — red, thick, scaly, sharply demarcated skin, especially in sun-exposed regions.",
+        "B": "Correct. Deformities of the nasal septum (saddle nose) are caused by gumma of the nasal septum in tertiary syphilis, not by niacin (vitamin B3) deficiency — an unrelated disease process from a different chapter of the department book. Pellagra's own manifestations are specifically the \"three D's\": dermatitis, diarrhea and dementia, none of which involve the nasal septum.",
+        "C": "Incorrect (this IS a niacin deficiency manifestation, so not the EXCEPT answer). Pellagra's \"three D's\" include dementia.",
+        "D": "Incorrect (this IS a niacin deficiency manifestation, so not the EXCEPT answer). Pellagra's \"three D's\" include diarrhea."
+      },
+      "main_concept": "CON-FND-BFCED5D968B197",
+      "concept_ids": [
+        "CON-FND-BFCED5D968B197"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State pellagra's three-D triad (dermatitis, diarrhea, dementia) precisely, recognising nasal septum deformity as a syphilis (gumma) feature, not a niacin-deficiency one.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 9 Nutritional and Environmental Pathology > Pellagra",
+      "library_ids": [
+        "ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Environmental pathology and cytology",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q36",
+      "id": "QST-KASR208INT-2024EOM-36",
+      "page": 8,
+      "title": "Tissue fixation",
+      "question": "The best solution for tissue fixation is:",
+      "options": {
+        "A": "0.9% Saline",
+        "B": "70% Alcohol",
+        "C": "30% Xylene",
+        "D": "10% buffered formalin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Saline does not fix tissue at all — it is an isotonic solution used for rinsing or transport, not for preventing tissue autolysis and preserving architecture.",
+        "B": "Incorrect. Alcohol has roles later in histopathology technique (dehydration during processing), but the department book names 10% buffered formalin, not alcohol, as the fixative of choice.",
+        "C": "Incorrect. Xylene has a role later in histopathology technique (clearing during processing), but it is not the fixative the department book names.",
+        "D": "Correct. Proper and timely specimen fixation is a critical step in tissue preparation for diagnosis, and the department book states directly that the fixative of choice is 10% buffered formalin. Once fixed, the tissue is processed into a form that can be sectioned thinly for microscopic examination — fixation is specifically the step that happens before that processing, preserving the tissue's architecture in the meantime."
+      },
+      "main_concept": "CON-FND-316FEEFBE17A4A",
+      "concept_ids": [
+        "CON-FND-316FEEFBE17A4A"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that 10% buffered formalin is the department book's fixative of choice for tissue specimen preparation.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 11 Techniques Used in Pathology > Specimen Fixation",
+      "library_ids": [
+        "ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Environmental pathology and cytology",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q37",
+      "id": "QST-KASR208INT-2024EOM-37",
+      "page": 8,
+      "title": "Immunohistochemistry definition",
+      "question": "Immunohistochemistry is the localization of ……………..in tissue sections:",
+      "options": {
+        "A": "DNA",
+        "B": "RNA",
+        "C": "Antigens",
+        "D": "Immunofluorescent particles"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Localizing DNA in tissue sections is the domain of in-situ hybridization or FISH techniques, not immunohistochemistry.",
+        "B": "Incorrect. Localizing RNA in tissue sections is likewise a molecular (in-situ hybridization) technique, not immunohistochemistry.",
+        "C": "Correct. Immunohistochemistry is a powerful tool for determining the histogenesis of poorly differentiated tumors by identifying different tumor types using antibodies against different specific proteins (antigens) expressed by tumor cells — leucocyte common antigen for lymphomas, cytokeratins for carcinomas, vimentin for sarcomas, and S100 protein for Schwann-cell tumors and melanoma are the department book's named examples. The technique's whole logic is antibody-antigen binding, localized in the tissue section and visualized by a coupled detection system.",
+        "D": "Incorrect. \"Immunofluorescent particles\" is not the target being localized — fluorescence (or another detection label) is one possible READOUT method for visualizing where the antibody has bound its antigen, not the substance immunohistochemistry searches tissue for."
+      },
+      "main_concept": "CON-FND-B56A1400847F2D",
+      "concept_ids": [
+        "CON-FND-B56A1400847F2D"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that immunohistochemistry localizes antigens (via antibodies) in tissue sections, using this to determine the histogenesis of poorly differentiated tumors.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 3 Disorders of Growth and Neoplasia > Laboratory Diagnosis of Cancer > Immunohistochemistry",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q40",
+      "id": "QST-KASR208INT-2024EOM-40",
+      "page": 9,
+      "title": "Hyperemia characteristics",
+      "question": "Hyperemia is characterized by all the following EXCEPT:",
+      "options": {
+        "A": "Increased blood flow to organ",
+        "B": "Active vasodilatation of arterioles and capillaries",
+        "C": "May have physiological or pathological cause",
+        "D": "The affected tissues are engorged with deoxygenated blood"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS a hyperemia feature, so not the EXCEPT answer). Hyperemia is, by definition, increased blood flow to an organ, resulting in increased blood content.",
+        "B": "Incorrect (this IS a hyperemia feature, so not the EXCEPT answer). Hyperemia is an active process, due to active vasodilatation of the organ's arterioles and capillaries, unlike congestion's passive mechanism.",
+        "C": "Incorrect (this IS a hyperemia feature, so not the EXCEPT answer). Hyperemia can be physiological (exercising skeletal muscle) or pathological (sites of inflammation) — both mechanisms are named in the department book.",
+        "D": "Correct. Hyperemia brings in oxygenated ARTERIAL blood via active vasodilatation — the tissue is engorged with oxygenated, not deoxygenated, blood. Deoxygenated venous blood engorgement is instead the hallmark of congestion, a passive process caused by impaired blood outflow, mechanistically the opposite of hyperemia. This is precisely the axis this EXCEPT question tests: hyperemia (active, arterial, oxygenated) versus congestion (passive, venous, deoxygenated)."
+      },
+      "main_concept": "CON-FND-70B16C02F32AA5",
+      "concept_ids": [
+        "CON-FND-70B16C02F32AA5"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Distinguish hyperemia (active, arterial, oxygenated blood engorgement) from congestion (passive, venous, deoxygenated blood engorgement).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 4 Hemodynamic Disorders > Hyperemia and Congestion",
+      "library_ids": [
+        "ART-FND-208INT-HEMODYNAMICS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Hemodynamics",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q41",
+      "id": "QST-KASR208INT-2024EOM-41",
+      "page": 9,
+      "title": "Thrombosis characteristics",
+      "question": "Thrombosis is characterized by all the following EXCEPT:",
+      "options": {
+        "A": "It's a pathologic state",
+        "B": "It occurs in living tissues",
+        "C": "It's characterized by formation of blood clot only at the site of vascular injury",
+        "D": "It occurs due to abnormal activation of hemostatic mechanisms"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a true thrombosis feature, so not the EXCEPT answer). Thrombosis is a pathologic state, distinct from the physiological hemostatic plug that stops bleeding after vascular injury.",
+        "B": "Incorrect (this IS a true thrombosis feature, so not the EXCEPT answer). Thrombosis, by definition, occurs in living tissue (in flowing blood within vessels), unlike postmortem clotting.",
+        "C": "Correct. A thrombus does not stay confined to the original site of injury: when a venous thrombus occludes a vein completely, the proximal column of blood clots to the next open tributary, another thrombus forms there where blood is still moving, and once it too occludes the lumen the cycle repeats — propagation — which can extend the clot all the way back to the heart. This propagation is exactly why \"clot forms only at the site of vascular injury\" is false as a general characterization of thrombosis.",
+        "D": "Incorrect (this IS a true thrombosis feature, so not the EXCEPT answer). Thrombosis results from abnormal activation of the hemostatic mechanisms (endothelial injury, altered flow, hypercoagulability — Virchow's triad), not from normal hemostasis functioning as intended."
+      },
+      "main_concept": "CON-FND-2F4E0092DCAF16",
+      "concept_ids": [
+        "CON-FND-2F4E0092DCAF16"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-7805BA779D3A2D"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise that thrombus propagation (repeated clotting at successive venous tributaries) extends a thrombus well beyond the original site of vascular injury.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 4 Hemodynamic Disorders > Thrombosis > Sites and Propagation",
+      "library_ids": [
+        "ART-FND-208INT-HEMODYNAMICS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Hemodynamics",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q42",
+      "id": "QST-KASR208INT-2024EOM-42",
+      "page": 9,
+      "title": "Causes of thrombosis",
+      "question": "Causes of thrombosis include all the following EXCEPT:",
+      "options": {
+        "A": "Ulcerated atherosclerotic plaque",
+        "B": "Endocarditis",
+        "C": "Increased level of protein C & protein S in blood",
+        "D": "Turbulence of blood flow"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a cause of thrombosis, so not the EXCEPT answer). An ulcerated atherosclerotic plaque is a named cause of endothelial injury, the dominant factor in Virchow's triad.",
+        "B": "Incorrect (this IS a cause of thrombosis, so not the EXCEPT answer). Endocarditis is a named cause of endothelial injury in the department book's thrombosis teaching.",
+        "C": "Correct. Hypercoagulability, one arm of Virchow's triad, results from heritable DEFICIENCIES of anticoagulant proteins such as antithrombin III, protein C or protein S — a deficiency (low level) of these proteins removes a natural brake on clotting and predisposes to thrombosis. An INCREASED level of protein C and protein S would do the opposite: more anticoagulant activity, less thrombosis risk — which is exactly why increased (not decreased) levels are the correct EXCEPT answer here.",
+        "D": "Incorrect (this IS a cause of thrombosis, so not the EXCEPT answer). Turbulence of blood flow is a named cause of altered blood flow, the second arm of Virchow's triad, promoting thrombosis by bringing platelets into contact with endothelium and disrupting laminar flow."
+      },
+      "main_concept": "CON-FND-7805BA779D3A2D",
+      "concept_ids": [
+        "CON-FND-7805BA779D3A2D"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Recognise that DEFICIENCY (not excess) of protein C/S causes hypercoagulability, since these proteins are natural anticoagulants.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 4 Hemodynamic Disorders > Thrombosis > Virchow's Triad",
+      "library_ids": [
+        "ART-FND-208INT-HEMODYNAMICS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Hemodynamics",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q43",
+      "id": "QST-KASR208INT-2024EOM-43",
+      "page": 9,
+      "title": "Initial thrombus composition",
+      "question": "Initial thrombus is composed of:",
+      "options": {
+        "A": "Platelets only",
+        "B": "Platelets & fibrin",
+        "C": "Blood clot",
+        "D": "RBCs & WBCs"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Following endothelial injury, platelets adhere to the exposed subendothelial collagen and release ADP, which promotes further platelet aggregation. This factor VIII/collagen-mediated adhesion step forms the initial thrombus of platelets only — pale, fragile, and easily dislodged at this early stage, before fibrin and trapped red/white cells are incorporated as the thrombus matures and propagates.",
+        "B": "Incorrect. Platelets plus fibrin describes a more developed thrombus, once the coagulation cascade has been activated and fibrin has been laid down — not the very first step, which is platelet adhesion alone.",
+        "C": "Incorrect. \"Blood clot\" is a vague, non-specific answer that does not name the initial thrombus's actual composition (platelets adhering to exposed collagen).",
+        "D": "Incorrect. Red and white blood cells become trapped within a thrombus as it matures and propagates, not as its initial, platelets-only composition."
+      },
+      "main_concept": "CON-FND-2F4E0092DCAF16",
+      "concept_ids": [
+        "CON-FND-2F4E0092DCAF16"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the initial thrombus, formed by platelet adhesion to exposed subendothelial collagen after endothelial injury, is composed of platelets only.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render",
+        "gapNote": "Reuses the thrombus-sites-and-propagation concept as main_concept (same department-book page range, p.72-74, as propagation); the concept's own definition does not yet restate this specific initial-composition fact, grounded here directly from p.72."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 4 Hemodynamic Disorders > Thrombosis > Formation Sequence",
+      "library_ids": [
+        "ART-FND-208INT-HEMODYNAMICS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Hemodynamics",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q46",
+      "id": "QST-KASR208INT-2024EOM-46",
+      "page": 10,
+      "title": "Chronic ischemia mechanism",
+      "question": "Chronic ischemia is caused by:",
+      "options": {
+        "A": "Sudden complete arterial occlusion",
+        "B": "Sudden incomplete arterial occlusion",
+        "C": "Gradual complete arterial occlusion",
+        "D": "Gradual incomplete arterial occlusion"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Sudden, complete arterial occlusion is the department book's definition of ACUTE ischemia (e.g. from thrombus or embolus), not chronic.",
+        "B": "Incorrect. The department book's acute/chronic split is defined by BOTH the speed (sudden vs gradual) AND the completeness (complete vs incomplete) of occlusion together — acute is sudden and complete, so \"sudden incomplete\" does not match either named category.",
+        "C": "Incorrect. \"Gradual complete\" mismatches the department book's own pairing — gradual occlusion is specifically paired with INCOMPLETE occlusion in its definition of chronic ischemia, not complete occlusion.",
+        "D": "Correct. The department book classifies ischemia as acute (sudden, complete arterial occlusion, e.g. from thrombus or embolus) or chronic (gradual, incomplete arterial occlusion, e.g. from atherosclerosis, arteritis, or artery compression by a tumor). Because chronic ischemia's narrowing develops slowly, collateral vessels have time to form, which is why chronic ischemia with good collaterals may produce no effect, while poor collaterals result in ischemic atrophy and fibrous replacement rather than the frank infarction or gangrene that poorly-collateralized ACUTE ischemia causes."
+      },
+      "main_concept": "CON-FND-0904A6DD216F4A",
+      "concept_ids": [
+        "CON-FND-0904A6DD216F4A"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "State that chronic ischemia results from gradual, incomplete arterial occlusion, as opposed to acute ischemia's sudden, complete occlusion.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 4 Hemodynamic Disorders > Ischemia > Acute vs Chronic",
+      "library_ids": [
+        "ART-FND-208INT-HEMODYNAMICS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Hemodynamics",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q48",
+      "id": "QST-KASR208INT-2024EOM-48",
+      "page": 10,
+      "title": "Septicemia definition",
+      "question": "The circulation and multiplication of large number of virulent bacteria and their toxins in blood is termed:",
+      "options": {
+        "A": "Septicemia",
+        "B": "Toxemia",
+        "C": "Pyemia",
+        "D": "Bacteremia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Septicemia is the presence of large numbers of multiplying bacteria plus their toxins circulating in the blood, usually a fatal condition. The department book's own definition matches this stem's \"circulation and multiplication of large number of virulent bacteria and their toxins\" precisely. This distinguishes septicemia from the other three blood-spread patterns, each of which is defined by a narrower, more specific mechanism.",
+        "B": "Incorrect. Toxemia is circulating TOXIN alone (endotoxin from dying gram-negative organisms, or exotoxins such as tetanus/diphtheria toxin acting at distant sites) — without the large-scale bacterial multiplication septicemia specifically names.",
+        "C": "Incorrect. Pyemia is circulating SEPTIC EMBOLI from septic thrombophlebitis, forming pyemic abscesses at distant sites — a different mechanism (embolization) from septicemia's bacterial multiplication in the bloodstream itself.",
+        "D": "Incorrect. Bacteremia is low-dose or low-virulence circulating organisms, usually silent unless a diseased heart valve is present — the opposite of this stem's \"large number of virulent bacteria.\""
+      },
+      "main_concept": "CON-INF-6E5B00C79396B9",
+      "concept_ids": [
+        "CON-INF-6E5B00C79396B9"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish septicemia (multiplying bacteria plus toxins in blood), toxemia (circulating toxin alone), pyemia (septic emboli) and bacteremia (low-grade circulating organisms).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Blood-Stream Spread",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q49",
+      "id": "QST-KASR208INT-2024EOM-49",
+      "page": 10,
+      "title": "Primary tuberculosis sites",
+      "question": "The following are sites of primary TB except:",
+      "options": {
+        "A": "Lung",
+        "B": "Skin",
+        "C": "Liver",
+        "D": "Tonsils"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a named primary TB site, so not the EXCEPT answer). The lung is one of the four sites the department book names for primary tuberculosis in an unsensitized host.",
+        "B": "Incorrect (this IS a named primary TB site, so not the EXCEPT answer). Skin is one of the four sites the department book names for primary tuberculosis.",
+        "C": "Correct. Primary tuberculosis (unsensitized host, exogenous source) develops at one of four named sites: lung, intestine, tonsils or skin. The liver is not among these four primary sites — hepatic tuberculous involvement, when it occurs, is a feature of disseminated (miliary/hematogenous) disease, not the primary infection site itself.",
+        "D": "Incorrect (this IS a named primary TB site, so not the EXCEPT answer). Tonsils are one of the four sites the department book names for primary tuberculosis."
+      },
+      "main_concept": "CON-INF-4FF695608AFC33",
+      "concept_ids": [
+        "CON-INF-4FF695608AFC33"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name the four sites of primary tuberculosis (lung, intestine, tonsils, skin), recognising the liver is not among them.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Tuberculosis > Primary Tuberculosis",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q50",
+      "id": "QST-KASR208INT-2024EOM-50",
+      "page": 11,
+      "title": "Primary tuberculosis features",
+      "question": "All the following are considered features of primary tuberculosis except:",
+      "options": {
+        "A": "Infection for the first time",
+        "B": "Mainly affects children",
+        "C": "Massive tissue necrosis",
+        "D": "The bacilli pass to lymph nodes causing their enlargement"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a primary TB feature, so not the EXCEPT answer). Primary tuberculosis is, by definition, infection in an unsensitized host — the first exposure.",
+        "B": "Incorrect (this IS a primary TB feature, so not the EXCEPT answer). Primary tuberculosis mainly affects children, who have not previously been exposed and sensitized.",
+        "C": "Correct. Massive tissue necrosis and extensive caseation are features of SECONDARY tuberculosis (reinfection or reactivation in a previously sensitized host), not primary disease. Primary tuberculosis is instead defined by the triad of a limited tissue lesion, lymphangitis and lymphadenitis — it is secondary disease's pre-existing immune hypersensitivity that produces the more extensive, massive caseating necrosis.",
+        "D": "Incorrect (this IS a primary TB feature, so not the EXCEPT answer). Primary tuberculosis is defined by the triad of tissue lesion, lymphangitis and prominent lymphadenitis — the bacilli passing to and enlarging the regional lymph nodes."
+      },
+      "main_concept": "CON-INF-4FF695608AFC33",
+      "concept_ids": [
+        "CON-INF-4FF695608AFC33"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Distinguish primary tuberculosis (first exposure, mainly children, prominent lymphadenitis, limited lesion) from secondary disease's massive caseating necrosis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Tuberculosis > Primary Tuberculosis",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q51",
+      "id": "QST-KASR208INT-2024EOM-51",
+      "page": 11,
+      "title": "Primary syphilis manifestation",
+      "question": "The following is a manifestation of primary syphilis:",
+      "options": {
+        "A": "Mucous patches",
+        "B": "Chancre",
+        "C": "Condyloma latum",
+        "D": "Generalized skin rash"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Mucous patches are a manifestation of SECONDARY syphilis, appearing about two months after the primary chancre as the organism disseminates.",
+        "B": "Correct. The hard chancre is the primary-stage lesion of syphilis, appearing about two weeks after infection at the entry site. It begins as a single, raised, red papule that ulcerates into a rounded, superficial, painless but highly infective ulcer, with flat edges, a clean floor and a firm margin/base, eventually healing by a thin atrophic scar. Painless, mobile, separately enlarged draining lymph nodes accompany the chancre, completing the primary-stage picture.",
+        "C": "Incorrect. Condyloma latum is a manifestation of SECONDARY syphilis, part of the same generalized dissemination as the rash and mucous patches.",
+        "D": "Incorrect. Generalized skin rash is the hallmark of SECONDARY syphilis, following the primary chancre by about two months as Treponema pallidum disseminates via lymphatics and blood."
+      },
+      "main_concept": "CON-INF-9534D78BFE4A9C",
+      "concept_ids": [
+        "CON-INF-9534D78BFE4A9C"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the hard chancre as the primary-stage lesion of syphilis, distinguishing it from secondary-stage lesions (rash, condyloma latum, mucous patches).",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Syphilis > Primary Stage",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q52",
+      "id": "QST-KASR208INT-2024EOM-52",
+      "page": 11,
+      "title": "Cavitary pulmonary tuberculosis",
+      "question": "A pulmonary cavitary lesion in tuberculous patient most likely occurs in:",
+      "options": {
+        "A": "Primary tuberculosis",
+        "B": "Miliary tuberculosis",
+        "C": "Secondary tuberculosis",
+        "D": "Exudative tuberculosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Primary tuberculosis is defined by a limited tissue lesion with prominent lymphadenitis, not by apical cavitation — that is a secondary-disease finding.",
+        "B": "Incorrect. Miliary tuberculosis is widespread hematogenous seeding producing numerous tiny (millet-seed-like) lesions throughout organs, not the localized apical cavity this stem describes.",
+        "C": "Correct. Chronic fibrocaseous pulmonary tuberculosis is the classic form of secondary (reactivation/reinfection) tuberculosis in a previously sensitized host. It causes an apical cavity with acinar lesions but insignificant lymph node disease, because pre-existing immunity limits nodal involvement in the secondary form. The same pre-existing immunity that limits nodal spread instead drives more vigorous local caseation, producing cavitation at the lung apex specifically.",
+        "D": "Incorrect. \"Exudative tuberculosis\" is not the department book's named category for cavitary disease; cavitation is specifically a secondary-disease feature."
+      },
+      "main_concept": "CON-INF-B525A58C8119DE",
+      "concept_ids": [
+        "CON-INF-B525A58C8119DE"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify apical cavitation as a secondary (chronic fibrocaseous pulmonary) tuberculosis finding, not a primary or miliary one.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Tuberculosis > Secondary Tuberculosis",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q54",
+      "id": "QST-KASR208INT-2024EOM-54",
+      "page": 12,
+      "title": "Nodular leprosy features",
+      "question": "Nodular leprosy is characterized by:",
+      "options": {
+        "A": "Macrophages with vacuolated cytoplasm",
+        "B": "Non caseating granuloma",
+        "C": "Anesthetic patches",
+        "D": "High immunity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Nodular (lepromatous) leprosy shows vacuolated lepra cells -- macrophages laden with mycobacteria, giving a vacuolated/foamy cytoplasm -- and low host immunity. The weak TH1 response lets Mycobacterium leprae proliferate inside macrophages, producing this vacuolated-macrophage, diffuse nodular picture. This is unlike the opposite (tuberculoid) pole, where a strong TH1 response instead produces a non-caseating epithelioid granuloma with low bacillary burden.",
+        "B": "Incorrect. Non-caseating epithelioid granulomas, with low bacillary burden, characterize TUBERCULOID leprosy (the strong-immunity pole), not the lepromatous (nodular) form.",
+        "C": "Incorrect. Anesthetic patches (from nerve involvement with low bacillary burden) characterize TUBERCULOID leprosy, not the lepromatous (nodular) form.",
+        "D": "Incorrect. High immunity (strong TH1/interferon-gamma response) characterizes TUBERCULOID leprosy — nodular (lepromatous) leprosy is specifically the LOW-immunity pole of the spectrum."
+      },
+      "main_concept": "CON-INF-C1BDF0DDE34498",
+      "concept_ids": [
+        "CON-INF-C1BDF0DDE34498"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Place vacuolated lepra cells and low immunity on the lepromatous (nodular) pole of the leprosy spectrum, opposite tuberculoid leprosy's non-caseating granuloma and anesthetic patches.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Leprosy > Lepromatous (Nodular) Leprosy",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q55",
+      "id": "QST-KASR208INT-2024EOM-55",
+      "page": 12,
+      "title": "Actinomycosis causative agent",
+      "question": "The following infective agent causes chronic abscess with sulphur granules:",
+      "options": {
+        "A": "Mycobacterium Leprae",
+        "B": "Spirochetes",
+        "C": "Actinomyces Israeli",
+        "D": "Mycobacterium tuberculosis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Mycobacterium leprae causes leprosy, a granulomatous nerve/skin disease, not sulphur-granule abscesses.",
+        "B": "Incorrect. Spirochetes (Treponema pallidum) cause syphilis, with chancre/gumma lesions, not sulphur-granule abscesses.",
+        "C": "Correct. Actinomycosis is a chronic, gram-positive bacterial disease caused by Actinomyces israelii, an endogenous commensal that becomes invasive with lowered local resistance. It produces abscesses with multiple draining sinuses that discharge characteristic sulphur granules -- colonies of the organism itself. Despite its mycetoma-like clinical picture, the disease is bacterial, not fungal, which is a specific misconception the department book warns against.",
+        "D": "Incorrect. Mycobacterium tuberculosis causes caseating granulomas with Langhans giant cells, not sulphur-granule abscesses — sulphur granules are specifically an actinomycosis finding."
+      },
+      "main_concept": "CON-INF-46951EC6118C17",
+      "concept_ids": [
+        "CON-INF-46951EC6118C17"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify Actinomyces israelii as the causative organism of sulphur-granule abscesses, distinguishing it from mycobacterial and spirochetal infections.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Actinomycosis",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q56",
+      "id": "QST-KASR208INT-2024EOM-56",
+      "page": 12,
+      "title": "Components of the tubercle",
+      "question": "All of the following are components of the tubercle EXCEPT:",
+      "options": {
+        "A": "Epithelioid cells",
+        "B": "Langhans' giant cells",
+        "C": "Neutrophils",
+        "D": "Lymphocytes"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a tubercle component, so not the EXCEPT answer). Activated macrophages transformed into epithelioid cells are the core cellular component of any granuloma, including the tuberculous tubercle.",
+        "B": "Incorrect (this IS a tubercle component, so not the EXCEPT answer). Langhans' giant cells, formed by fusion of epithelioid cells with nuclei arranged in a peripheral horse-shoe pattern, are the classic multinucleate cell of the tuberculous granuloma specifically.",
+        "C": "Correct. Neutrophils are the hallmark of ACUTE, not chronic granulomatous, inflammation. The tubercle is a chronic granulomatous lesion built of epithelioid cells (activated macrophages), Langhans giant cells and a surrounding cuff of lymphocytes, with central caseation necrosis in classic cases — neutrophils are not a named component of this granulomatous architecture.",
+        "D": "Incorrect (this IS a tubercle component, so not the EXCEPT answer). A cuff of lymphocytes surrounds the epithelioid-cell aggregate in any granuloma, including the tubercle."
+      },
+      "main_concept": "CON-FND-2129BD0D77EC62",
+      "concept_ids": [
+        "CON-FND-2129BD0D77EC62"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Name epithelioid cells, Langhans giant cells and lymphocytes as the tubercle's components, recognising neutrophils as an acute- (not granulomatous chronic-) inflammation cell.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Tuberculosis > Granuloma Composition",
+      "library_ids": [
+        "ART-FND-208INT-ACUTE-CHRONIC-INFLAMMATION"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Inflammation and repair",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q57",
+      "id": "QST-KASR208INT-2024EOM-57",
+      "page": 12,
+      "title": "Lupus vulgaris identification",
+      "question": "Lupus vulgaris is:",
+      "options": {
+        "A": "Tuberculosis of joint",
+        "B": "Tuberculosis of epididymis",
+        "C": "Tuberculosis of skin",
+        "D": "Tuberculosis of kidney"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Tuberculous arthritis (TB of joint) is a separate, named site of tuberculous involvement from lupus vulgaris.",
+        "B": "Incorrect. Tuberculous epididymitis is a separate, named genitourinary site of tuberculous involvement from lupus vulgaris.",
+        "C": "Correct. Lupus vulgaris is the prototype of skin (cutaneous) tuberculosis. It can arise by exogenous inoculation, or by endogenous spread from tuberculous disease already present elsewhere in the body. That endogenous route can itself be direct extension from a nearby lesion, or spread via the lymphatics or the bloodstream.",
+        "D": "Incorrect. Renal tuberculosis is a separate, named genitourinary site of tuberculous involvement from lupus vulgaris."
+      },
+      "main_concept": "CON-INF-A59BCAB366BCEE",
+      "concept_ids": [
+        "CON-INF-A59BCAB366BCEE"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify lupus vulgaris as cutaneous (skin) tuberculosis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Tuberculosis > Cutaneous Tuberculosis",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q58",
+      "id": "QST-KASR208INT-2024EOM-58",
+      "page": 12,
+      "title": "Leonine face",
+      "question": "Leonine face is a characteristic feature of:",
+      "options": {
+        "A": "Lupus vulgaris",
+        "B": "Lepromatous leprosy",
+        "C": "Secondary syphilis",
+        "D": "Congenital syphilis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Lupus vulgaris is a facial/skin tuberculous lesion but is not the entity the department book associates with a leonine (lion-like) facial appearance.",
+        "B": "Correct. Lepromatous leprosy's skin lesions include multiple nodules on the face and extremities. The facial nodules develop on the forehead, cheeks, nose, lips and ears, giving the characteristic leonine (lion-like) facial appearance the department book names. This diffuse nodular pattern is distinct from tuberculoid leprosy's limited anesthetic patches, matching the low-immunity, high-bacillary-burden pole of the leprosy spectrum.",
+        "C": "Incorrect. Secondary syphilis produces a generalized rash, condyloma latum and mucous patches, not a leonine facial appearance.",
+        "D": "Incorrect. Congenital syphilis produces its own named features (saddle nose, Hutchinson's teeth, and others), not a leonine facial appearance."
+      },
+      "main_concept": "CON-INF-C1BDF0DDE34498",
+      "concept_ids": [
+        "CON-INF-C1BDF0DDE34498"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the leonine facial appearance as a lepromatous leprosy feature (facial nodules), distinct from tuberculoid leprosy and from syphilis.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 5 Bacterial Infections > Leprosy > Lepromatous (Nodular) Leprosy",
+      "library_ids": [
+        "ART-INF-208INT-BACTERIAL-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Bacterial infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q60",
+      "id": "QST-KASR208INT-2024EOM-60",
+      "page": 13,
+      "title": "AIDS most common cause of death",
+      "question": "The most common cause of death in AIDS infected patients is:",
+      "options": {
+        "A": "Kaposi Sarcoma",
+        "B": "Non-Hodgkin Lymphoma",
+        "C": "Opportunistic infection",
+        "D": "Autoimmune diseases secondary to T-Helper cells dysfunction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Kaposi sarcoma is one of the department book's named AIDS-associated malignancies, but it is not the main cause of death — that role belongs to opportunistic infection.",
+        "B": "Incorrect. Non-Hodgkin lymphoma is one of the department book's named AIDS-associated malignancies, but it is not the main cause of death.",
+        "C": "Correct. HIV's crisis phase begins once host defence collapses and viral replication recrudesces. It comprises opportunistic infections -- protozoal/helminthic (strongyloidiasis, pneumocystis), fungal (candidiasis, histoplasmosis, cryptococcosis), bacterial (tuberculosis, atypical mycobacteriosis, salmonella, shigella) and viral (CMV, HSV, EBV) -- which the department book names directly as the main cause of death. This is kept separate from the crisis phase's other face, its characteristic malignancies (non-Hodgkin's lymphoma, Burkitt's lymphoma, primary CNS lymphoma, Kaposi's sarcoma), which contribute morbidity but are not themselves named as the leading cause of death.",
+        "D": "Incorrect. Autoimmune disease is not the department book's named crisis-phase mechanism; the crisis phase is instead the opposite problem, an immune deficiency state opening the door to opportunistic organisms and malignancy."
+      },
+      "main_concept": "CON-INF-324F03A30F7F5F",
+      "concept_ids": [
+        "CON-INF-324F03A30F7F5F"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that opportunistic infection, not malignancy or autoimmune disease, is the department book's named main cause of death in AIDS.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 6 Viral Infections > AIDS > Crisis Phase",
+      "library_ids": [
+        "ART-INF-208INT-VIRAL-AND-PARASITIC-INFECTIONS"
+      ],
+      "topic": "Pathology",
+      "subtopic": "Viral and parasitic infections",
+      "resource_ids": [
+        "src_71e9056fb934dc28806a"
+      ]
+    },
+    {
+      "key": "2024eom-q71",
+      "id": "QST-KASR208INT-2024EOM-71",
+      "page": 15,
+      "title": "Adrenaline in anaphylaxis mechanism",
+      "question": "A 5-year-old boy has been admitted to the emergency department with severe hypotension and difficulty in breathing after penicillin injection. Adrenaline is saving in this condition as it antagonizes the effect of histamine by:",
+      "options": {
+        "A": "Physical antagonism",
+        "B": "Chemical antagonism",
+        "C": "Physiological antagonism",
+        "D": "Pharmacological antagonism"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Physical antagonism involves a physical property (e.g. adsorption) neutralizing an agent, not receptor-level physiology — not what adrenaline does here.",
+        "B": "Incorrect. Chemical antagonism involves the two substances reacting chemically with each other, inactivating one another directly — adrenaline does not chemically react with histamine.",
+        "C": "Correct. Adrenaline is a physiological antagonist of histamine in anaphylaxis: it reverses histamine's life-threatening effects (bronchospasm, hypotension) by acting on its OWN adrenergic receptors to produce the opposite physiological effect — bronchodilation via beta2, and vasoconstriction plus increased cardiac output via alpha1/beta1 — rather than by occupying or blocking the histamine receptor itself. Two different receptor systems, pulling the physiology in opposite directions toward the same net clinical effect, is the definition of physiological antagonism.",
+        "D": "Incorrect. Pharmacological (competitive receptor) antagonism requires binding the SAME receptor as the agonist — a true antihistamine (H1-blocker) would be a pharmacological antagonist of histamine; adrenaline instead acts on entirely different, adrenergic receptors."
+      },
+      "main_concept": "CON-FND-58E6876CDBBC16",
+      "concept_ids": [
+        "CON-FND-58E6876CDBBC16"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-DA4E563A4E5C48"
+      ],
+      "difficulty": "Hard",
+      "question_type": "Classification",
+      "cognitive_effort": "High",
+      "reasoning_level": 3,
+      "learning_objective": "Classify adrenaline's anaphylaxis action as physiological antagonism of histamine (opposing effect, different receptor), distinguishing it from pharmacological, chemical and physical antagonism.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Sympathomimetics > Adrenaline in Anaphylaxis",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q72",
+      "id": "QST-KASR208INT-2024EOM-72",
+      "page": 15,
+      "title": "Tachyphylaxis mechanism",
+      "question": "Tachyphylaxis is most likely to happen with which of the following?",
+      "options": {
+        "A": "Dopamine",
+        "B": "Adrenaline",
+        "C": "Dobutamine",
+        "D": "Amphetamine"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dopamine is a direct-acting agonist at its various dose-dependent receptors, so it does not depend on releasable norepinephrine stores and is not particularly subject to tachyphylaxis.",
+        "B": "Incorrect. Adrenaline is a direct-acting agonist on adrenergic receptors, not dependent on neuronal NE release, and so does not show the marked tachyphylaxis indirect agonists do.",
+        "C": "Incorrect. Dobutamine is a direct-acting, selective beta1 agonist, engineered to act on the receptor itself rather than through NE release, so it is not the class prone to tachyphylaxis.",
+        "D": "Correct. Amphetamine is an indirect-acting sympathomimetic, working by displacing norepinephrine from nerve-terminal stores rather than acting on the adrenergic receptor itself. Tachyphylaxis is markedly present in indirect agonists precisely because repeated dosing at short intervals depletes the releasable NE pool those drugs depend on, so the response fades with each successive dose — a mechanism direct-acting agonists (dopamine, adrenaline, dobutamine) do not share."
+      },
+      "main_concept": "CON-FND-8BAF5827D0C4E1",
+      "concept_ids": [
+        "CON-FND-8BAF5827D0C4E1"
+      ],
+      "contextual_concept_ids": [
+        "CON-FND-EA0D1633BF0130"
+      ],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify amphetamine (an indirect-acting sympathomimetic) as prone to tachyphylaxis via norepinephrine-store depletion, distinguishing it from direct-acting agonists.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Sympathomimetics > Tachyphylaxis",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q85",
+      "id": "QST-KASR208INT-2024EOM-85",
+      "page": 18,
+      "title": "Baclofen classification",
+      "question": "Baclofen is ....",
+      "options": {
+        "A": "A centrally acting muscle relaxant",
+        "B": "A directly-acting muscle relaxant",
+        "C": "A peripherally acting muscle relaxant",
+        "D": "Both a centrally and a peripherally acting muscle relaxant"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Baclofen is a centrally acting spasmolytic, acting as a GABA-B receptor agonist in the spinal cord, and is the first-line treatment for spasticity resulting from spinal cord injury and multiple sclerosis; abrupt withdrawal of baclofen can cause seizures and hallucinations. Its site of action — the spinal cord, part of the central nervous system — is exactly what makes it \"centrally,\" not peripherally, acting.",
+        "B": "Incorrect. \"Directly acting\" on skeletal muscle itself describes dantrolene (which blocks ryanodine receptors on the sarcoplasmic reticulum), not baclofen, which instead acts at a CNS site (the spinal cord) upstream of the muscle.",
+        "C": "Incorrect. Baclofen's site of action is the spinal cord (central), not the muscle periphery — the opposite of a peripherally acting spasmolytic like dantrolene.",
+        "D": "Incorrect. Baclofen acts at a single site (spinal cord GABA-B receptors), not both centrally and peripherally."
+      },
+      "main_concept": "CON-FND-32969719456125",
+      "concept_ids": [
+        "CON-FND-32969719456125"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Classify baclofen as a centrally acting (spinal cord GABA-B agonist) spasmolytic, distinguishing it from directly/peripherally acting agents such as dantrolene.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render"
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Neuromuscular and Spasmolytic Drugs",
+      "library_ids": [
+        "ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q86",
+      "id": "QST-KASR208INT-2024EOM-86",
+      "page": 18,
+      "title": "Diphenhydramine adverse effect",
+      "question": "A 20-year-old woman is taking diphenhydramine for severe hay fever. Which of the following adverse effects is she most likely to report?",
+      "options": {
+        "A": "Muscarinic increase in bladder tone",
+        "B": "Nausea",
+        "C": "Nervousness, anxiety",
+        "D": "Sedation"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Diphenhydramine's antimuscarinic (atropine-like) effects RELAX, rather than increase, bladder tone — producing urinary retention as a side effect, the opposite direction from this option.",
+        "B": "Incorrect. Nausea is not diphenhydramine's characteristic adverse effect; first-generation antihistamines are, if anything, used as antiemetics for motion sickness via their combined H1/muscarinic vestibular blockade.",
+        "C": "Incorrect. Nervousness/anxiety is a stimulant-type effect, the opposite of what a sedating first-generation antihistamine produces.",
+        "D": "Correct. Diphenhydramine is a first-generation H1-antihistamine; being lipophilic, it crosses the blood-brain barrier and causes marked sedation, unlike the second-generation agents (fexofenadine, loratadine, cetirizine), which have poor blood-brain-barrier penetration and minimal to no sedation. This is the most characteristic, most commonly reported adverse effect of a first-generation antihistamine like diphenhydramine."
+      },
+      "main_concept": "CON-FND-DA4E563A4E5C48",
+      "concept_ids": [
+        "CON-FND-DA4E563A4E5C48"
+      ],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that diphenhydramine's lipophilic blood-brain-barrier crossing causes marked sedation, its most characteristic adverse effect.",
+      "media_recommendations": "",
+      "field_notes": {
+        "keySource": "pagetext.mjs keys (highlight-annot), confirmed by render",
+        "gapNote": "Reuses the existing first-generation-antihistamine concept (CON-FND-DA4E563A4E5C48, minted by lane 3) rather than the new mint originally drafted for this item -- find-existing.mjs returned no hit for this exact concept, a false negative caught by a direct grep of the concept file before minting."
+      },
+      "author_notes": "",
+      "module_subject": "208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Autacoids > First-Generation Antihistamines",
+      "library_ids": [
+        "ART-FND-208INT-ADRENERGIC-PHARMACOLOGY"
+      ],
+      "topic": "Pharmacology",
+      "subtopic": "Autonomic nervous system pharmacology",
+      "resource_ids": [
+        "src_9fa6c2788e36af56304e"
+      ]
+    },
+    {
+      "key": "2024eom-q74",
+      "hold": "Confirmed by render (p.16) that this question genuinely carries no green highlight on any option -- unlike its neighbours (Q75-78), which each show exactly one option highlighted. pagetext.mjs keys independently reported \"0 marked\" for this question, matching the render. Stem: \"In comparison with non-selective a receptor blocker, selective a receptor blockers produce less a. Hypotension b. Tachycardia c. Urinary retention d. Bronchospasm\" -- no printed/marked key recoverable from this source; held per the book-is-the-source rule rather than authored against pharmacological reasoning alone."
+    }
+  ]
+}

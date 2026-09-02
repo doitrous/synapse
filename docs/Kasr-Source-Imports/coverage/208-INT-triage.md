@@ -104,6 +104,49 @@ file. New = no hit — `find-existing.mjs` itself reported "Safe to create one."
   triages and reports; nothing here is authored. **Minting starts only after
   "TRIAGE APPROVED."**
 
+## Second paper (lane 4, S1 continued): 2024 EOM
+
+`EOM - End of Module INT-208 2024 ANS .pdf` (2024 sitting, 120 MCQs, 119/120 keyed by
+green highlight annotation — see `208-INT-triage-keys.txt`'s second section). Read in
+full (all 25 pages, native text layer, no OCR needed) to size the paper against the 2023
+one and pick a representative authoring slice, not to author the whole paper in one pass.
+
+**Composition, by rough count against the 2023 EOM paper already authored:** roughly a
+third of this paper's 120 questions are near-literal duplicates of 2023 EOM items (same
+stem and options, different letter order or light rewording — e.g. Q26 "Chemotaxis is…"
+restates 2023's Q1; Q38/39/44/45 restate 2023's Q34/35/37/38 on edema/congestion/emboli);
+roughly another third retest concepts the 2023 batch already minted, from a different
+angle or a harder clinical-vignette framing (reused directly, no new mint); the remaining
+third is genuinely new content this module has not tested yet, concentrated in two areas
+the 2023 paper covered only thinly — pathology techniques/tumor-like lesions (TNM
+staging, choristoma/hamartoma, intermediate/locally-malignant tumors, tissue fixation)
+and higher-difficulty clinical pharmacology vignettes (spasmolytics, autacoids,
+tachyphylaxis, physiological antagonism in anaphylaxis) — the pharmacology in particular
+is noticeably more USMLE-style/clinical-vignette than the 2023 paper's simpler
+fact-recall pharm items.
+
+**This pass authored 38 items** (`coverage/seeds/208-INT/2024eom.json`), chosen for
+strong single-source grounding (mostly the 208 INT Pathology Department Book, plus the
+Pharma In Points notes for the four pharmacology items) and reuse of the existing 208 INT
+concept bank wherever a fact was already minted: 20 of the 38 reuse an existing concept
+(no new mint), 12 mint new concepts after both `find-existing.mjs` and a direct grep of
+`concept/208-INT-concepts.md` — the direct grep caught two cases `find-existing.mjs`
+missed entirely (a false negative on an exact-phrase search): the diphenhydramine-sedation
+concept (already live in this file from lane 3) and the acute/chronic-ischemia
+classification (already live from an earlier lane) both would have been re-minted as
+duplicates without the second check. Flagging `find-existing.mjs`'s reliability gap for
+whoever owns `Instruction Manual for Content Creation/tools/find-existing.mjs` next — it
+is a hint, not a substitute for grepping the target concept file directly before minting.
+
+1 item (Q74, p.16) is HELD — genuinely unmarked in the source, confirmed by render, not a
+tool-reading error (its four neighbouring questions each show exactly one green-highlighted
+option; Q74 shows none).
+
+**Not authored from this paper:** the ~81 remaining items (duplicates of 2023 EOM,
+concept-reuse candidates not selected this pass, and untriaged remainder) — left for a
+future pass rather than exhaustively worked through, per the lane brief's "~40 keyed
+items" target. 22 more tier 1-3 208 INT papers remain fully untriaged.
+
 ## Method note for the next wave
 
 `pagetext.mjs`'s documented `keys` subcommand (referenced in this lane's brief as

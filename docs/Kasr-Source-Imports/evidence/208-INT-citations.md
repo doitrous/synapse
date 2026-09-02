@@ -1793,3 +1793,339 @@ Read via node scripts/content/pagetext.mjs show; native text layer, no OCR. Cros
 0.6
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DYSPLASIA-DEFINITION-01
+## claim_id
+CLM-FND-208INT-DYSPLASIA-DEFINITION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Dysplasia: Definition: It is non-neoplastic disordered proliferation of cells, usually induced by prolonged cell irritation... Prognosis & Clinical significance: Low grade dysplasia is commonly reversible when the irritating cause is removed.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+Dysplasia
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LOCALIZED-ATROPHY-01
+## claim_id
+CLM-FND-208INT-LOCALIZED-ATROPHY-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+2. Pathological: a. Localized atrophy: i. Hormonal atrophy... ii. Vascular atrophy... iii. Pressure atrophy: Atrophy of the vertebral bodies due to pressure atrophy by aneurysm... iv. Neuropathic atrophy... v. Disuse atrophy... b. Generalized atrophy... Increased catabolism as in advanced stages of malignancy (cachexia) and thyrotoxicosis.
+## locator_type
+printed_page
+## locator_page
+35
+## locator_section
+Atrophy — Types & causes
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-MYOSITIS-OSSIFICANS-01
+## claim_id
+CLM-FND-208INT-MYOSITIS-OSSIFICANS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+II-Mesenchymal Metaplasia: Connective tissue metaplasia is the formation of cartilage, bone, or adipose tissue (mesenchymal tissues) in tissues that normally do not contain these elements. For example, bone formation in muscle, designated myositis ossificans, occasionally occurs after intramuscular hemorrhage.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+Mesenchymal Metaplasia
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LOCALLY-MALIGNANT-TUMORS-01
+## claim_id
+CLM-FND-208INT-LOCALLY-MALIGNANT-TUMORS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Intermediate Tumors (Locally Malignant Tumors). Some malignant tumors are locally invasive and destructive but rarely give rise to metastases... Examples: Basal cell carcinoma of the skin... Giant cell tumor of bone (osteoclastoma). Adamantinoma. Some neuroendocrine tumors as carcinoid tumor. Chordoma. Some tumors of CNS as craniopharyngioma.
+## locator_type
+printed_page
+## locator_page
+46
+## locator_section
+Intermediate Tumors (Locally Malignant Tumors)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-CHORISTOMA-01
+## claim_id
+CLM-FND-208INT-CHORISTOMA-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+II- CHORISTOMA. Choristoma is a congenital anomaly consisting of a heterotropic rest of cells. For example: a small nodule of well-developed and normally organized pancreatic tissue may be found in the mucosa of the stomach, duodenum or [elsewhere].
+## locator_type
+printed_page
+## locator_page
+56
+## locator_section
+Tumor-Like Lesions — Choristoma
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TNM-STAGING-01
+## claim_id
+CLM-FND-208INT-TNM-STAGING-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+This system uses a classification called the TNM system—T for primary tumor, N for regional lymph node involvement, and M for metastases. TNM staging varies for specific forms of cancer, but there are general principles: The primary lesion is characterized as T1 to T4 based on increasing size.
+## locator_type
+printed_page
+## locator_page
+63
+## locator_section
+Staging of Cancer — TNM System
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-IMPLANTATION-CYST-01
+## claim_id
+CLM-FND-208INT-IMPLANTATION-CYST-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+4. Implantation epidermal cyst: During regeneration of the epidermis some epidermal cells may grow down the cut edges of the dermis. These are later resorbed; if they remain, they may grow into a keratin-filled cyst in the epidermis.
+## locator_type
+printed_page
+## locator_page
+27
+## locator_section
+Complications of Wound Healing
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TISSUE-FIXATION-01
+## claim_id
+CLM-FND-208INT-TISSUE-FIXATION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+2. Specimen Fixation: Proper and timely fixation is a critical step in preparation for diagnosis. The fixative of choice is 10% buffered formalin. 3. Tissue Processing: Once the tissue has been fixed, it must be processed into a form in which it can be made into thin microscopic sections.
+## locator_type
+printed_page
+## locator_page
+129
+## locator_section
+Techniques Used in Pathology — Specimen Fixation
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LUPUS-VULGARIS-01
+## claim_id
+CLM-FND-208INT-LUPUS-VULGARIS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Lupus vulgaris. It is the prototype of skin tuberculosis, which can occur by exogenous inoculation or endogenous spread (direct from tuberculous lesion, lymphatic or blood).
+## locator_type
+printed_page
+## locator_page
+98
+## locator_section
+Bacterial Infections — Tuberculosis — Lupus Vulgaris
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.85
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TACHYPHYLAXIS-01
+## claim_id
+CLM-FND-208INT-TACHYPHYLAXIS-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Tachyphylaxis is generally absent in direct agonists / Tachyphylaxis is markedly present in indirect agonists ... Tachyphylaxis occurs due to depletion of releasable NE stores from nerve terminals / Repeated administration at short intervals leads to pronounced decrease in response (Tachyphylaxis).
+## locator_type
+printed_page
+## locator_page
+3
+## locator_section
+Autonomic Nervous System — Sympathomimetics — Tachyphylaxis
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2nd priority instructor material).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-BACLOFEN-01
+## claim_id
+CLM-FND-208INT-BACLOFEN-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Spasmolytic Drugs are used to treat spasticity, which is a velocity-dependent increase in muscle tone with exaggerated reflexes ... Baclofen is a Centrally Acting Spasmolytic that acts as a GABA-B receptor agonist in the spinal cord. Baclofen is the first-line treatment for spasticity resulting from spinal cord injury and multiple sclerosis. Abrupt withdrawal of Baclofen can cause seizures and hallucinations.
+## locator_type
+printed_page
+## locator_page
+5
+## locator_section
+Neuromuscular and Spasmolytic Drugs — Baclofen
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2nd priority instructor material).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ADRENALINE-ANAPHYLAXIS-01
+## claim_id
+CLM-FND-208INT-ADRENALINE-ANAPHYLAXIS-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Adrenaline (Epinephrine) is a physiological Histamine antagonist that reverses life-threatening effects in anaphylaxis, including bronchospasm and hypotension.
+## locator_type
+printed_page
+## locator_page
+5
+## locator_section
+Autonomic Nervous System — Sympathomimetics — Adrenaline
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2nd priority instructor material).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes

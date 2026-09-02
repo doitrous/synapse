@@ -185,3 +185,41 @@ Student-compiled general pathology revision notes (tier 6, sits in the EOM folde
 0.6
 ## is_assessment
 false
+
+---
+
+# Item
+## id
+src_1904964b1c8502ef5410
+## title
+EOM - End of Module INT-208 2024 ANS
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/EOM/EOM - End of Module INT-208 2024 ANS .pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+25
+## sha256
+1904964b1c8502ef541057ab620f9fc4c58532576db8d007d28e764dfb38751a
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+208 INT End-of-Module exam, 2024 sitting, 120 MCQs. Answer key visually marked by green highlight annotation on the correct option (per-question highlight, not a separate printed key table); recovered via node scripts/content/pagetext.mjs keys (PyMuPDF span/annotation reader), 119 of 120 keyed cleanly, 1 unmarked (Q74, confirmed genuinely unmarked by render, held). Two renders (p.1, p.16) confirmed the tool's highlight-annot readings against the true colours by eye before the rest were trusted. Native text layer, no OCR needed. Calendar year 2024 printed on file name; printed date wins over the batch-derived sitting-year formula.
+## confidence
+0.9
+## is_assessment
+true

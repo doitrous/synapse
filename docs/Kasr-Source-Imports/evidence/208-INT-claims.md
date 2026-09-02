@@ -1985,3 +1985,375 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Kasr Al Ainy 208 INT — Chapter 3, Routes of Spread of Malignant Tumors
+
+---
+
+# Item
+## id
+CLM-FND-208INT-DYSPLASIA-DEFINITION-01
+## concept_id
+CON-FND-109E1AB3E33E4E
+## subject
+Dysplasia
+## predicate
+is defined as
+## object
+non-neoplastic disordered proliferation of cells, usually induced by prolonged cell irritation, reversible when the irritating cause is removed
+## display_text
+Dysplasia is non-neoplastic, disordered cellular proliferation from prolonged irritation, and is reversible at the low-grade stage.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Dysplasia
+
+---
+
+# Item
+## id
+CLM-FND-208INT-LOCALIZED-ATROPHY-01
+## concept_id
+CON-FND-BA4E3D79017392
+## subject
+Pathological localized atrophy
+## predicate
+is caused by
+## object
+hormonal, vascular, pressure, neuropathic or disuse mechanisms, not by thyrotoxicosis, which is a generalized-atrophy cause
+## display_text
+Localized atrophy has five named causes (hormonal, vascular, pressure, neuropathic, disuse); thyrotoxicosis causes generalized atrophy instead.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Atrophy
+
+---
+
+# Item
+## id
+CLM-FND-208INT-MYOSITIS-OSSIFICANS-01
+## concept_id
+CON-FND-2A6D478CFC27ED
+## subject
+Myositis ossificans
+## predicate
+is
+## object
+mesenchymal (connective-tissue) metaplasia, bone formation within muscle occurring occasionally after intramuscular hemorrhage
+## display_text
+Myositis ossificans is mesenchymal metaplasia: bone forming within muscle after intramuscular hemorrhage.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Mesenchymal Metaplasia
+
+---
+
+# Item
+## id
+CLM-FND-208INT-LOCALLY-MALIGNANT-TUMORS-01
+## concept_id
+CON-FND-471F90B10E495A
+## subject
+Intermediate (locally malignant) tumors
+## predicate
+include
+## object
+giant cell tumor of bone (osteoclastoma), basal cell carcinoma, adamantinoma, carcinoid tumor, chordoma and craniopharyngioma -- locally destructive but rarely metastasizing
+## display_text
+Osteoclastoma, basal cell carcinoma, adamantinoma, carcinoid, chordoma and craniopharyngioma are the department book's intermediate (locally malignant) tumors.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Intermediate Tumors
+
+---
+
+# Item
+## id
+CLM-FND-208INT-CHORISTOMA-01
+## concept_id
+CON-FND-2BD09290BA0B00
+## subject
+A choristoma
+## predicate
+is
+## object
+a congenital heterotopic rest of normally organized mature tissue in an abnormal site, distinct from a hamartoma's disorganized native-tissue overgrowth
+## display_text
+A choristoma is normally organized tissue found in the wrong (heterotopic) site; a hamartoma is disorganized tissue native to its own site.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Tumor-Like Lesions
+
+---
+
+# Item
+## id
+CLM-FND-208INT-TNM-STAGING-01
+## concept_id
+CON-FND-9FF27DE891DFBE
+## subject
+The TNM system
+## predicate
+is used for
+## object
+staging of cancer by primary tumor size, regional lymph node involvement, and distant metastasis, distinct from histologic grading
+## display_text
+TNM stages cancer by tumor size, nodes and metastasis; grading is a separate axis measuring differentiation.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 3, Staging and Grading
+
+---
+
+# Item
+## id
+CLM-FND-208INT-IMPLANTATION-CYST-01
+## concept_id
+CON-FND-4784F833300F29
+## subject
+An implantation epidermal (dermoid) cyst
+## predicate
+forms because
+## object
+epidermal cells grow down the cut edges of the dermis during regeneration and, if not resorbed, become a keratin-filled cyst
+## display_text
+Implantation epidermal cysts form from un-resorbed epidermal cells trapped along the dermis's cut edges during wound regeneration.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 2, Complications of Wound Healing
+
+---
+
+# Item
+## id
+CLM-FND-208INT-TISSUE-FIXATION-01
+## concept_id
+CON-FND-316FEEFBE17A4A
+## subject
+10% buffered formalin
+## predicate
+is
+## object
+the department book's fixative of choice for tissue specimen preparation
+## display_text
+10% buffered formalin is the fixative of choice for tissue specimen preparation.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 11, Techniques Used in Pathology
+
+---
+
+# Item
+## id
+CLM-FND-208INT-LUPUS-VULGARIS-01
+## concept_id
+CON-INF-A59BCAB366BCEE
+## subject
+Lupus vulgaris
+## predicate
+is
+## object
+the prototype of cutaneous tuberculosis, arising by exogenous inoculation or endogenous spread from tuberculous disease elsewhere
+## display_text
+Lupus vulgaris is the prototype of skin (cutaneous) tuberculosis.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Chapter 5, Tuberculosis
+
+---
+
+# Item
+## id
+CLM-FND-208INT-TACHYPHYLAXIS-01
+## concept_id
+CON-FND-8BAF5827D0C4E1
+## subject
+Tachyphylaxis
+## predicate
+occurs with
+## object
+indirect-acting sympathomimetics (via depletion of releasable norepinephrine stores), and is generally absent with direct-acting agonists
+## display_text
+Tachyphylaxis occurs with indirect-acting sympathomimetics like amphetamine, via norepinephrine-store depletion, not with direct agonists.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Sympathomimetics
+
+---
+
+# Item
+## id
+CLM-FND-208INT-BACLOFEN-01
+## concept_id
+CON-FND-32969719456125
+## subject
+Baclofen
+## predicate
+is
+## object
+a centrally acting spasmolytic, a GABA-B receptor agonist in the spinal cord, first-line for spasticity from spinal cord injury or multiple sclerosis
+## display_text
+Baclofen is a centrally acting spasmolytic (spinal cord GABA-B agonist), first-line for spinal-cord-injury and multiple-sclerosis spasticity.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Neuromuscular and Spasmolytic Drugs
+
+---
+
+# Item
+## id
+CLM-FND-208INT-ADRENALINE-ANAPHYLAXIS-01
+## concept_id
+CON-FND-58E6876CDBBC16
+## subject
+Adrenaline in anaphylaxis
+## predicate
+acts as
+## object
+a physiological antagonist of histamine, reversing bronchospasm and hypotension via its own adrenergic receptors rather than by blocking the histamine receptor
+## display_text
+Adrenaline reverses anaphylaxis by physiological antagonism of histamine -- opposing effect, different receptor -- not by blocking the histamine receptor itself.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+polarity: affirmative
+scope: Kasr Al Ainy 208 INT — Pharmacology, Sympathomimetics

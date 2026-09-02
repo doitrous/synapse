@@ -130,7 +130,7 @@ The liver is the clearest worked example of the regeneration-versus-fibrosis rul
 
 Granulation tissue forms through angiogenesis (new capillary sprouting from existing venules, driven mainly by VEGF and FGF) together with fibroblast migration and proliferation (driven mainly by PDGF, FGF-2 and TGF-beta, largely secreted by macrophages) and deposition of extracellular matrix.
 
-Wound healing, once complete, can still go wrong in its own right, independent of the original disease: cosmetic deformity from extensive scarring; contracture, where scar shortening limits movement across a joint; keloid, a genetically determined overproduction of fibroblasts and collagen after dermal injury (overdone repair, more common in Black patients); an implantation epidermal (dermoid) cyst, from epidermal cells trapped in the dermis during regeneration; a chronic ulcer, sinus or fistula from defective repair with persistent infection or a foreign body; and, rarely, a carcinoma arising from the edge of a chronic ulcer or burn scar — Marjolin's ulcer.
+Wound healing, once complete, can still go wrong in its own right, independent of the original disease: cosmetic deformity from extensive scarring; contracture, where scar shortening limits movement across a joint; keloid, a genetically determined overproduction of fibroblasts and collagen after dermal injury (overdone repair, more common in Black patients); an implantation epidermal (dermoid) cyst, from epidermal cells that grow down the cut edges of the dermis during regeneration and, if not resorbed, become a keratin-filled cyst; a chronic ulcer, sinus or fistula from defective repair with persistent infection or a foreign body; and, rarely, a carcinoma arising from the edge of a chronic ulcer or burn scar — Marjolin's ulcer.
 
 ### Key determinants
 Regeneration versus fibrosis is decided by two questions together, not one: what kind of cell was damaged (labile/stable versus permanent), and whether the connective-tissue framework survived. Getting the liver-cirrhosis question right depends on holding both variables — hepatocyte loss alone regenerates; hepatocyte-plus-framework loss scars.
@@ -167,6 +167,7 @@ SYS-FND-T03-S02
 ## related_concepts
 CON-FND-9853F779478D1A
 CON-FND-434E7A6D0A5BF3
+CON-FND-4784F833300F29
 ## related_articles
 
 ## resource_ids
@@ -195,7 +196,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found — the department book is the only source read for this article.
+university_notes: No university-specific variant found — the department book is the only source read for this article. Extended (lane 4, 2024 EOM paper triage) to name the implantation-cyst mechanism in full and add its dedicated concept id.
 ## reading_time
 9
 
@@ -245,6 +246,9 @@ A rising tumor marker after treatment for a matched cancer type is one of the mo
 
 ### Common misconceptions
 Defining hypertrophy as increased cell number (that is hyperplasia) rather than increased cell size. Treating TP53 as a governor rather than the guardian, or assuming its mutation directly drives proliferation. Assuming every metaplastic change carries the same premalignant risk — this teaching links squamous and intestinal metaplasia at specific named sites to malignancy but does not carry the same association for apocrine metaplasia in fibrocystic breast disease. Assuming better-differentiated tumors show more anaplasia — the relationship runs the other way. Assuming carcinoma in situ retains normal polarity, or that it is benign, because it has not yet invaded — polarity IS disturbed, and CIS is malignant-lineage tissue that simply has not crossed the basement membrane yet. Attributing "carcinomas spread more than sarcomas" to hematogenous spread, when the department book states this specifically for lymphatic spread. Assuming muscle, spleen, pancreas and intestine are common metastatic sites, or that prostatic carcinoma preferentially targets the brain, rather than the vertebrae/bone via the paravertebral plexus. Assuming any pediatric or embryonic-sounding tumor belongs to the five-member embryonic-tumor list — choriocarcinoma does not.
+
+### Definitions, atrophy and tumor-like lesions (2024 EOM extension)
+Dysplasia itself is non-neoplastic disordered cellular proliferation from prolonged irritation — reversible at the low-grade stage, unlike neoplasia — with loss of polarity, pleomorphism and increased mitosis on microscopy; high-grade dysplasia is what passes into carcinoma in situ. Atrophy splits the same way adaptation does elsewhere in this article: pathological LOCALIZED atrophy has five named causes (hormonal, vascular, pressure, neuropathic, disuse), while pathological GENERALIZED atrophy (affecting all organs) is driven by decreased anabolism or increased catabolism — malignancy cachexia and thyrotoxicosis both sit on the generalized side, not the localized one. Mesenchymal metaplasia extends the epithelial metaplasia already described here to connective tissue: cartilage, bone or fat forming where they do not normally occur, myositis ossificans (bone in muscle after intramuscular hemorrhage) being the worked example. Three named tumor-like/borderline categories round out this teaching: intermediate (locally malignant) tumors — basal cell carcinoma, giant cell tumor of bone (osteoclastoma), adamantinoma, carcinoid, chordoma, craniopharyngioma — are locally destructive but rarely metastasize; a choristoma is normally organized tissue found in the wrong (heterotopic) site (e.g. ectopic pancreatic tissue in the small intestine wall), the mirror image of a hamartoma's disorganized tissue native to its own site; and the TNM system stages (not grades) a cancer by primary tumor size, nodal involvement and distant metastasis, a distinct axis from the anaplasia-based grading already covered above.
 ## universities
 kau
 ## years
@@ -284,6 +288,12 @@ CON-FND-AE5841979FCFAE
 CON-FND-7A8E6E9B14047B
 CON-FND-91B66B24922754
 CON-FND-E795DC3D0573A3
+CON-FND-109E1AB3E33E4E
+CON-FND-BA4E3D79017392
+CON-FND-2A6D478CFC27ED
+CON-FND-471F90B10E495A
+CON-FND-2BD09290BA0B00
+CON-FND-9FF27DE891DFBE
 ## related_articles
 
 ## resource_ids
@@ -312,7 +322,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found — the department book is the only source read for this article. Extended in a later gap-closing pass (lane 4) to add carcinoma-in-situ, embryonic-tumors and hematogenous-spread paragraphs, closing the 2023 EOM paper's Q26, Q28 and Q31 gaps; the hematogenous-spread paragraph also draws on a second, lower-confidence source (src_3cd975bf1e54eb95af19) for the tumor-emboli-immune-destruction fact, which the department book's own hematogenous-spread section does not state explicitly.
+university_notes: No university-specific variant found — the department book is the only source read for this article. Extended in a later gap-closing pass (lane 4) to add carcinoma-in-situ, embryonic-tumors and hematogenous-spread paragraphs, closing the 2023 EOM paper's Q26, Q28 and Q31 gaps; the hematogenous-spread paragraph also draws on a second, lower-confidence source (src_3cd975bf1e54eb95af19) for the tumor-emboli-immune-destruction fact, which the department book's own hematogenous-spread section does not state explicitly. Extended again (lane 4, 2024 EOM paper triage) to add dysplasia, localized-atrophy, mesenchymal metaplasia, intermediate/locally-malignant tumors, choristoma and TNM staging.
 ## reading_time
 9
 
@@ -438,7 +448,7 @@ Once local infection breaks through the inflammatory barrier, it spreads by dire
 Once a local infection overwhelms the inflammatory and immune barriers meant to contain it, it spreads either by direct extension, by lymphatics (lymphangitis, then regional then generalized lymphadenitis, reaching blood via the thoracic duct), or by the blood stream itself, in one of four named patterns: bacteraemia (low-dose or low-virulence circulating organisms, usually silent unless a diseased heart valve is present), toxemia (circulating toxin — endotoxin from dying gram-negative organisms, or exotoxins such as tetanus and diphtheria toxin acting at specific distant sites), septicemia (large numbers of multiplying bacteria plus their toxins, usually fatal) and pyemia (circulating septic emboli from septic thrombophlebitis, forming pyemic abscesses). Chronic bacterial infections in this module each show a distinct granulomatous pattern: tuberculosis (caseating granulomas of epithelioid cells, Langhans giant cells and lymphocytes), syphilis (perivascular plasma-cell-rich granulation tissue with early endarteritis obliterans), leprosy (a spectrum from non-caseating tuberculoid to vacuolated-macrophage lepromatous granulomas) and actinomycosis (sulphur-granule abscesses with fibrous walling).
 
 ### Mechanism
-Tuberculosis's immune choreography explains both its granuloma and its two clinical faces. Macrophages that first engulf Mycobacterium tuberculosis cannot immediately kill it — the organism blocks phagosome-lysosome fusion — so early bacteraemic seeding occurs before cell-mediated immunity develops; once TH1 cells arrive (about three weeks in), interferon-gamma-activated macrophages (epithelioid cells) wall the organism into a granuloma with central caseation, some epithelioid cells fusing into Langhans giant cells. Primary tuberculosis (an unsensitized host, exogenous source, at lung, intestine, tonsil or skin) is defined by the triad of tissue lesion, lymphangitis and lymphadenitis; secondary tuberculosis (reinfection or reactivation, pre-existing immunity) shows extensive caseation but minimal lymph node disease, because the migration inhibition factor keeps bacilli-laden macrophages from reaching the nodes in large numbers — which is exactly why chronic fibrocaseous pulmonary tuberculosis (apical cavity, acinar lesions) and the primary intestinal complex (tabes mesenterica) look so different from each other despite sharing an organism. Syphilis's three stages track how long Treponema pallidum has been established: the primary chancre appears about two weeks after inoculation at the entry site; the secondary stage, about two months later, is systemic (rash, condyloma lata, mucous patches, generalized lymphadenitis) as the organism disseminates via lymphatics and blood; and the tertiary stage, at about two years, is either a localized gumma (necrosis walled by fibrosis and granulation tissue) or diffuse fibrosing infiltration of an organ. Leprosy's two forms are opposite ends of the same TH1 spectrum: strong TH1/interferon-gamma response gives tuberculoid leprosy its low bacillary burden, non-caseating epithelioid granulomas and anesthetic patches, while weak TH1 response lets Mycobacterium leprae proliferate inside macrophages in lepromatous leprosy, producing vacuolated lepra cells and diffuse nodular disease. Actinomycosis behaves differently again: Actinomyces israelii is an endogenous commensal that becomes invasive with lowered local resistance, and because its filaments are too large to enter lymphatics, it spreads locally and by blood, walling off into abscesses that intercommunicate and drain through multiple sinuses.
+Tuberculosis's immune choreography explains both its granuloma and its two clinical faces. Macrophages that first engulf Mycobacterium tuberculosis cannot immediately kill it — the organism blocks phagosome-lysosome fusion — so early bacteraemic seeding occurs before cell-mediated immunity develops; once TH1 cells arrive (about three weeks in), interferon-gamma-activated macrophages (epithelioid cells) wall the organism into a granuloma with central caseation, some epithelioid cells fusing into Langhans giant cells. Primary tuberculosis (an unsensitized host, exogenous source, at lung, intestine, tonsil or skin) is defined by the triad of tissue lesion, lymphangitis and lymphadenitis; secondary tuberculosis (reinfection or reactivation, pre-existing immunity) shows extensive caseation but minimal lymph node disease, because the migration inhibition factor keeps bacilli-laden macrophages from reaching the nodes in large numbers — which is exactly why chronic fibrocaseous pulmonary tuberculosis (apical cavity, acinar lesions) and the primary intestinal complex (tabes mesenterica) look so different from each other despite sharing an organism. Syphilis's three stages track how long Treponema pallidum has been established: the primary chancre appears about two weeks after inoculation at the entry site; the secondary stage, about two months later, is systemic (rash, condyloma lata, mucous patches, generalized lymphadenitis) as the organism disseminates via lymphatics and blood; and the tertiary stage, at about two years, is either a localized gumma (necrosis walled by fibrosis and granulation tissue) or diffuse fibrosing infiltration of an organ. Leprosy's two forms are opposite ends of the same TH1 spectrum: strong TH1/interferon-gamma response gives tuberculoid leprosy its low bacillary burden, non-caseating epithelioid granulomas and anesthetic patches, while weak TH1 response lets Mycobacterium leprae proliferate inside macrophages in lepromatous leprosy, producing vacuolated lepra cells and diffuse nodular disease. Actinomycosis behaves differently again: Actinomyces israelii is an endogenous commensal that becomes invasive with lowered local resistance, and because its filaments are too large to enter lymphatics, it spreads locally and by blood, walling off into abscesses that intercommunicate and drain through multiple sinuses. Cutaneous tuberculosis has its own named prototype, lupus vulgaris, reaching the skin either by exogenous inoculation or by endogenous spread (direct extension, or lymphatic/blood spread) from tuberculous disease already present elsewhere in the body.
 
 ### Key determinants
 Every question here turns on placing a described lesion at the right point on one of four axes: which blood-spread pattern (bacteraemia/toxemia/septicemia/pyemia) a given clinical picture represents; whether a tuberculous lesion is primary (unsensitized, triad of lesion/lymphangitis/lymphadenitis, four possible sites) or secondary (pre-existing immunity, extensive caseation, minimal nodal disease, apex-of-lung or terminal-ileum location); which stage of syphilis a lesion belongs to, by its time course after infection; and which pole of the leprosy TH1 spectrum a granuloma or skin lesion describes.
@@ -480,6 +490,7 @@ CON-INF-420A4970289CE0
 CON-INF-9534D78BFE4A9C
 CON-INF-C1BDF0DDE34498
 CON-INF-46951EC6118C17
+CON-INF-A59BCAB366BCEE
 ## related_articles
 
 ## resource_ids
@@ -508,7 +519,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article. Extended (lane 4, 2024 EOM paper triage) to add lupus vulgaris (cutaneous tuberculosis) and its dedicated concept id.
 ## reading_time
 12
 
@@ -601,7 +612,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article. Its existing AIDS/HIV concept (CON-INF-324F03A30F7F5F) was reused, not re-minted, for two 2024 EOM paper items (lane 4 triage): the systemic-fungal-infection example (histoplasmosis, named in this concept's own opportunistic-infection list) and the AIDS-crisis-phase cause-of-death fact.
 ## reading_time
 10
 
@@ -627,7 +638,7 @@ Three late-chapter topics grouped by their shared position in the department boo
 This article groups three otherwise unrelated topics that share only their position late in the department book: cytopathology, a diagnostic technique; total body irradiation, an environmental/physical injury; and pellagra, a nutritional deficiency disease. Cytopathology is rapid, inexpensive, non-invasive evaluation of cells shed or aspirated from a lesion, stained for screening, diagnosis or treatment follow-up. Total body irradiation produces four acute, dose-graded syndromes (radiation sickness, haemopoietic, gastrointestinal, cerebral) plus separate late and organ-specific effects. Pellagra is niacin (vitamin B3) deficiency, producing the "three D's" — dermatitis, diarrhea, dementia — distinct from vitamin D deficiency's bone disease (rickets/osteomalacia), which sits in the same nutritional-disorders chapter but is a different vitamin and a different organ system entirely.
 
 ### Mechanism
-Cytopathology's sample-to-diagnosis pathway starts with a fluid or smear (effusion, ascitic fluid, urine, CSF, cervico-vaginal smear, sputum, fine needle aspirate, or discharge); fluids are centrifuged and the sediment smeared like a blood film, then fixed in 95% ethanol before staining — the department book naming the Papanicolaou (PAP) stain as the ideal cytology stain, most familiar as the basis of cervical cancer screening. Total body irradiation's four acute syndromes track rising absorbed dose because different tissues have different radiosensitivity thresholds: at 50-200 rem only the fastest-turnover tissues (bone marrow, gut epithelium) show mild, largely subclinical injury (radiation sickness); at 200-600 rem bone marrow depression dominates (haemopoietic syndrome); at 300-1000 rem gut epithelial loss causes severe diarrhea, vomiting and haemorrhage (gastrointestinal syndrome); and above 1000 rem, direct CNS injury causes convulsions and coma (cerebral syndrome, uniformly lethal). Niacin deficiency produces pellagra's three-D triad because tryptophan, niacin's metabolic precursor, is both low in maize itself and poorly absorbed from it, so populations dependent on corn as a staple (or with alcohol-related malabsorption/intake failure) develop deficiency in the skin (photosensitive dermatitis), gut (mucosal necrosis and pseudomembranous colitis-like diarrhea) and CNS (frontal-lobe neuronal loss and posterior/lateral spinal column demyelination) simultaneously, because all three tissues depend heavily on niacin-requiring metabolic pathways.
+Cytopathology's sample-to-diagnosis pathway starts with a fluid or smear (effusion, ascitic fluid, urine, CSF, cervico-vaginal smear, sputum, fine needle aspirate, or discharge); fluids are centrifuged and the sediment smeared like a blood film, then fixed in 95% ethanol before staining — the department book naming the Papanicolaou (PAP) stain as the ideal cytology stain, most familiar as the basis of cervical cancer screening. For solid tissue specimens (as opposed to the cytology smears above), the department book's own "Techniques Used in Pathology" chapter names 10% buffered formalin as the fixative of choice — proper, timely fixation is the critical step before the tissue can be processed into thin sections for histologic diagnosis. Total body irradiation's four acute syndromes track rising absorbed dose because different tissues have different radiosensitivity thresholds: at 50-200 rem only the fastest-turnover tissues (bone marrow, gut epithelium) show mild, largely subclinical injury (radiation sickness); at 200-600 rem bone marrow depression dominates (haemopoietic syndrome); at 300-1000 rem gut epithelial loss causes severe diarrhea, vomiting and haemorrhage (gastrointestinal syndrome); and above 1000 rem, direct CNS injury causes convulsions and coma (cerebral syndrome, uniformly lethal). Niacin deficiency produces pellagra's three-D triad because tryptophan, niacin's metabolic precursor, is both low in maize itself and poorly absorbed from it, so populations dependent on corn as a staple (or with alcohol-related malabsorption/intake failure) develop deficiency in the skin (photosensitive dermatitis), gut (mucosal necrosis and pseudomembranous colitis-like diarrhea) and CNS (frontal-lobe neuronal loss and posterior/lateral spinal column demyelination) simultaneously, because all three tissues depend heavily on niacin-requiring metabolic pathways.
 
 ### Key determinants
 For total body irradiation, the exam turns on matching a described clinical picture (mild GI upset vs bone marrow failure vs severe GI haemorrhage vs coma) to its correct dose-graded syndrome name, and on not inventing syndromes the book does not name (there is no "vascular syndrome" among the four). For pellagra, it turns on keeping the three-D mnemonic (dermatitis, diarrhea, dementia) free of features that actually belong to the neighbouring vitamin D deficiency topic (bone bowing, rachitic rosary, craniotabes) in the same chapter.
@@ -665,6 +676,7 @@ SYS-FND-T03-S01
 CON-FND-615C9D19BED36F
 CON-FND-85395A8500798E
 CON-FND-BFCED5D968B197
+CON-FND-316FEEFBE17A4A
 ## related_articles
 
 ## resource_ids
@@ -693,7 +705,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article. Extended (lane 4, 2024 EOM paper triage) to add the specimen-fixation (formalin) fact and its dedicated concept id.
 ## reading_time
 8
 
@@ -730,6 +742,9 @@ Recognising hyoscine's much greater CNS sedation, and atropine's much greater ca
 
 ### Common misconceptions
 Assuming any drug that raises acetylcholine (an anticholinesterase) is the same class as a direct agonist (pilocarpine, carbachol) -- the two work at different points in the same pathway, with different receptor selectivity and different risk of nicotinic side effects. Confusing pilocarpine's miotic action with a mydriatic one. Assuming atropine and hyoscine are interchangeable antimuscarinics rather than agents with sharply different CNS and cardiac profiles. Assuming atropine's antimuscarinic action only ever helps, without weighing its own capacity to precipitate glaucoma or urinary retention. Grouping sugammadex with the acetylcholinesterase-inhibitor reversal agents, when its mechanism -- direct encapsulation of the blocker -- is fundamentally different.
+
+### Spasmolytic drugs (2024 EOM extension)
+Alongside the neuromuscular blockers and their reversal, this chapter also covers spasmolytics for spasticity (a velocity-dependent increase in muscle tone with exaggerated reflexes), which split by site of action the same way antimuscarinic reversal splits by mechanism: baclofen is centrally acting, a GABA-B receptor agonist in the spinal cord and the first-line agent for spasticity from spinal cord injury or multiple sclerosis (its abrupt withdrawal can cause seizures and hallucinations), while dantrolene is directly acting, working on skeletal muscle itself by blocking ryanodine receptors (RyR1) to prevent calcium release from the sarcoplasmic reticulum -- the same direct mechanism that makes it the specific antidote for malignant hyperthermia.
 ## universities
 kau
 ## years
@@ -766,6 +781,7 @@ CON-FND-AE3618871E840B
 CON-FND-9682E927C0F810
 CON-FND-E2A3372187494C
 CON-FND-3C5B050221C5D8
+CON-FND-32969719456125
 ## related_articles
 
 ## resource_ids
@@ -794,7 +810,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead. Extended (lane 4, 2024 EOM paper triage) to add baclofen (centrally acting spasmolytic), p.5 of the same source.
 ## reading_time
 13
 
@@ -827,6 +843,9 @@ Every adrenergic pharmacology question here turns on naming the specific recepto
 Recognising phenylephrine's pure vasopressor, non-inotropic action is why it is chosen when a clinician wants to raise blood pressure without adding heart rate or cardiac stimulation, unlike dobutamine or dopamine. Titrating dopamine by dose band is a bedside skill in shock management, since running an infusion faster than intended can flip a patient from beneficial renal vasodilation to harmful systemic vasoconstriction. Choosing a cardioselective beta-blocker over a non-selective one is a genuine prescribing decision in a diabetic or asthmatic patient, and warning a patient starting prazosin to take the first dose at bedtime, seated, is a direct application of the first-dose hypotension mechanism. Choosing ondansetron specifically (rather than a first-generation antihistamine) for chemotherapy nausea reflects that the emetic drive in that setting is serotonin-mediated, not histamine-mediated.
 ### Common misconceptions
 Assuming any adrenergic agonist raises heart rate -- phenylephrine's pure alpha1 vasopressor action instead tends to slow it reflexively. Assuming dopamine has one fixed pharmacological profile rather than a dose-dependent one. Treating cardioselective beta-blockade as an absolute, rather than relative and dose-dependent, protection from beta2-mediated bronchospasm or hypoglycemia masking. Assuming prazosin's main risk is on the bladder or airway rather than on blood pressure -- alpha1-blockade instead relaxes bladder outflow (useful in BPH) and has no established bronchoconstrictor action. Grouping ondansetron with the antihistamines rather than recognising it as a distinct, serotonin-receptor-targeted antiemetic class.
+
+### Tachyphylaxis and adrenaline in anaphylaxis (2024 EOM extension)
+Repeated dosing at short intervals can blunt a sympathomimetic's own effect (tachyphylaxis), but only for the indirect-acting agonists (amphetamine, ephedrine): because these drugs work by displacing norepinephrine from nerve-terminal stores rather than acting on the receptor themselves, repeated dosing depletes the releasable NE pool and the response fades; a direct-acting agonist (dopamine, adrenaline, dobutamine), which acts on the receptor regardless of neuronal NE stores, is not subject to the same mechanism and generally shows no tachyphylaxis. Adrenaline's role as the drug of choice in anaphylaxis is a distinct, clinically load-bearing fact tested alongside these receptor-selectivity questions: it acts as histamine's physiological antagonist, reversing anaphylactic bronchospasm and hypotension by producing an opposing effect through its OWN adrenergic receptors (beta2 bronchodilation, alpha1/beta1 vasoconstriction and inotropy) rather than by occupying the histamine receptor itself, which is what a true pharmacological antagonist (a first-generation antihistamine, for instance) would do instead.
 ## universities
 kau
 ## years
@@ -861,6 +880,8 @@ CON-FND-823AF5B67E1393
 CON-FND-B34D0C571C3D02
 CON-FND-8F7613BF9B3306
 CON-FND-DA4E563A4E5C48
+CON-FND-8BAF5827D0C4E1
+CON-FND-58E6876CDBBC16
 ## related_articles
 ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
 ## resource_ids
@@ -889,7 +910,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the cholinergic-pharmacology article.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the cholinergic-pharmacology article. Extended (lane 4, 2024 EOM paper triage) to add tachyphylaxis and adrenaline's physiological-antagonism-in-anaphylaxis facts, both from the same PHARMA IN POINTS source, p.3 and p.5 respectively.
 ## reading_time
 11
 

@@ -11335,3 +11335,1380 @@ resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book (
 approvedFileResourceIds: No file resource has been rights-cleared for this concept.
 approvedVideoResourceIds: This module has no cleared video resource.
 relationships: Closes the 2023 EOM paper's Q31 gap, the last of the five-item gap this pass closes. Sibling of CON-FND-7A8E6E9B14047B (embryonic tumors) and CON-FND-91B66B24922754 (carcinoma in situ), authored in the same gap-closing pass. This is the final concept minted for the 2023 EOM gap-closing cluster.
+
+---
+
+# Item
+## id
+CON-FND-109E1AB3E33E4E
+## label
+Dysplasia is a non-neoplastic, disordered cellular proliferation induced by prolonged irritation, distinct from ordered hyperplasia and from neoplasia's autonomous growth
+## canonical_key
+dysplasia.definition.disordered-nonneoplastic
+## aliases
+Definition of dysplasia
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dysplasia is non-neoplastic disordered proliferation of cells, usually induced by prolonged cell irritation, seen at sites such as the cervix uteri, bronchi, oral cavity, urinary bladder, colon and gall bladder mucous membranes, and the epidermis. Microscopically it shows loss of the normal orderly arrangement (polarity), cellular pleomorphism with nuclear hyperchromasia, and increased mitosis; it is graded low or high depending on the degree of cellular atypia, and high-grade dysplasia passes to carcinoma in situ. Being non-neoplastic, low-grade dysplasia is commonly reversible once the irritating cause is removed -- a reversibility neoplasia, by definition, does not share.
+## explicit_objective
+Define dysplasia as non-neoplastic, disordered (not merely increased or ordered) cellular proliferation from prolonged irritation, distinguishing it from hyperplasia (ordered proliferation) and from neoplasia (autonomous, irreversible).
+## pitfalls
+Calling dysplasia "neoplastic disordered proliferation" -- the department book's own definition is explicitly non-neoplastic; dysplasia is a reversible, stimulus-driven precursor state, not neoplasia itself.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Dysplasia
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-31B9E6BCCD93E4
+CON-FND-91B66B24922754
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-DYSPLASIA-DEFINITION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Dysplasia is: a. Neoplastic disordered cellular proliferations. b. Non-neoplastic ordered cellular proliferations. c. Non-neoplastic disordered cellular proliferations. d. Hyperplastic cellular proliferations." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("dysplasia definition disordered proliferation") -- no hit. A direct grep of docs/Kasr-Source-Imports/concept/208-INT-concepts.md found CON-FND-31B9E6BCCD93E4 (general hypertrophy/hyperplasia/atrophy/dysplasia definitions, mentions dysplasia only in passing as part of "altered growth and differentiation") and CON-FND-91B66B24922754 (this lane's own carcinoma-in-situ concept, which names dysplasia only as CIS's precursor) -- neither states dysplasia's own non-neoplastic/disordered definition and microscopic criteria in full; new concept minted, cross-linked to both as related.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.37 ("Dysplasia" definition, sites, microscopic features, grading).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, second 208 INT tier-1-3 exam triaged by this lane (lane 4), Q03. Sibling of the other new concepts minted from this paper's triage.
+
+---
+
+# Item
+## id
+CON-FND-BA4E3D79017392
+## label
+Pathological localized atrophy has five named causes -- hormonal, vascular, pressure, neuropathic and disuse -- distinct from generalized atrophy's causes (malnutrition, cachexia, thyrotoxicosis)
+## canonical_key
+atrophy.causes.localized
+## aliases
+Types and causes of atrophy
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atrophy may be physiological (localized, e.g. thymus after puberty, breasts after menopause; or generalized, as in senility) or pathological. Pathological localized atrophy has five named causes: hormonal atrophy (loss of hormonal stimulation, e.g. breast atrophy after bilateral oophorectomy), vascular atrophy (e.g. renal atrophy from renal artery atherosclerosis), pressure atrophy (e.g. vertebral body atrophy from an aortic aneurysm, via ischemia and compromised blood supply), neuropathic atrophy (loss of innervation, e.g. limb muscle atrophy in poliomyelitis), and disuse atrophy (e.g. muscle atrophy after prolonged immobilization following a fracture). Pathological generalized atrophy, by contrast, affects all organs and is driven by decreased anabolism (chronic malnutrition, starvation) or increased catabolism (advanced malignancy's cachexia, and thyrotoxicosis).
+## explicit_objective
+Name the five causes of pathological LOCALIZED atrophy (hormonal, vascular, pressure, neuropathic, disuse), and place thyrotoxicosis correctly under generalized, not localized, atrophy.
+## pitfalls
+Placing thyrotoxicosis among the localized-atrophy causes because it is "a cause of atrophy" in general -- the department book lists it specifically under generalized atrophy (increased catabolism), alongside malignancy cachexia, not among the five localized causes.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Atrophy
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-31B9E6BCCD93E4
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.4
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-LOCALIZED-ATROPHY-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following are possible causes of localized atrophy EXCEPT: a. Atherosclerosis. b. Thyrotoxicosis. c. Immobilization. d. Aortic aneurysm." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("localized atrophy causes") -- no hit. A direct grep found CON-FND-31B9E6BCCD93E4 (general hypertrophy/hyperplasia/atrophy/dysplasia definitions, mentions only "disuse atrophy after prolonged immobilisation" as one example within a broader definition) -- the department book itself separates "Definition" from "Types & causes" as distinct sub-headings (p.35), so this concept covers the latter, more specific classification as a sibling rather than a duplicate.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.35 ("Types & causes" of atrophy, physiological/pathological, localized/generalized).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q04. Sibling of CON-FND-2A6D478CFC27ED (myositis ossificans), both from the same department-book page range.
+
+---
+
+# Item
+## id
+CON-FND-2A6D478CFC27ED
+## label
+Myositis ossificans is mesenchymal metaplasia -- bone formation in muscle, typically after intramuscular hemorrhage -- one instance of connective-tissue metaplasia forming cartilage, bone or fat where these tissues do not normally occur
+## canonical_key
+metaplasia.mesenchymal.myositis-ossificans
+## aliases
+Mesenchymal metaplasia
+Connective tissue metaplasia
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mesenchymal metaplasia is the formation of cartilage, bone or adipose tissue in tissues that normally do not contain these elements. Myositis ossificans -- bone formation within muscle -- is the department book's worked example, occurring occasionally after intramuscular hemorrhage. This mirrors epithelial metaplasia's general logic (a mature, differentiated tissue reprogrammed into a different mature tissue type, usually as an adaptive or reparative response) but applies it to connective tissue rather than epithelium.
+## explicit_objective
+Classify myositis ossificans as mesenchymal (connective-tissue) metaplasia -- bone forming in muscle after hemorrhage -- rather than a dysplastic, hyperplastic or neoplastic process.
+## pitfalls
+Assuming any abnormal tissue growth is either neoplastic or dysplastic by default -- myositis ossificans is a metaplastic change (one mature tissue type replaced by another, here muscle/connective tissue by bone), not a disordered-proliferation or autonomous-growth process.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Metaplasia > Mesenchymal Metaplasia
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5AD09BF9FC2420
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.35
+## academic_relevance
+0.7
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-MYOSITIS-OSSIFICANS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Myositis ossificans represents: a. Dysplastic condition. b. Metaplastic condition. c. Hyperplastic condition. d. Neoplastic condition." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("myositis ossificans metaplastic") -- no hit; direct grep of the concept file confirmed no existing mesenchymal-metaplasia concept (only the epithelial squamous-metaplasia pending-live overlay concept, CON-FND-5AD09BF9FC2420, which is a different tissue class). New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.37 ("II-Mesenchymal Metaplasia").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q05. Sibling of CON-FND-BA4E3D79017392 (localized atrophy causes).
+
+---
+
+# Item
+## id
+CON-FND-471F90B10E495A
+## label
+Intermediate (locally malignant) tumors -- basal cell carcinoma, giant cell tumor of bone, adamantinoma, carcinoid, chordoma, craniopharyngioma -- are locally invasive and destructive but rarely metastasize, with a better prognosis than metastasizing malignant tumors
+## canonical_key
+neoplasia.locally-malignant.intermediate-tumors
+## aliases
+Locally malignant tumors
+Intermediate tumors
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Intermediate tumors (previously termed locally malignant tumors) are locally invasive and destructive but rarely give rise to metastases. They usually grow slowly, can recur after surgical excision, but carry a better prognosis than malignant tumors that do metastasize. The department book's named examples are basal cell carcinoma of the skin, giant cell tumor of bone (osteoclastoma), adamantinoma, some neuroendocrine tumors such as carcinoid tumor, chordoma, and some CNS tumors such as craniopharyngioma.
+## explicit_objective
+Name giant cell tumor of bone (osteoclastoma), basal cell carcinoma, adamantinoma, carcinoid, chordoma and craniopharyngioma as the department book's intermediate (locally malignant) tumors -- locally destructive, rarely metastasizing, better prognosis than fully malignant tumors.
+## pitfalls
+Classifying osteoclastoma (giant cell tumor of bone) as either fully benign or fully malignant -- the department book places it in a distinct third category, intermediate/locally malignant, defined by local destructiveness without the metastatic capacity that would make it frankly malignant.
+## concept_type
+classification
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Intermediate (Locally Malignant) Tumors
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-E795DC3D0573A3
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.4
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-LOCALLY-MALIGNANT-TUMORS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is a locally malignant tumor? a. Squamous cell carcinoma. b. Hepatoblastoma. c. Osteoclastoma. d. Carcinoma simplex." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("locally malignant intermediate tumors osteoclastoma") -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.46 ("Intermediate Tumors (Locally Malignant Tumors)").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q13. Related to CON-FND-E795DC3D0573A3 (hematogenous spread), the sibling concept about the metastatic behaviour intermediate tumors specifically lack.
+
+---
+
+# Item
+## id
+CON-FND-2BD09290BA0B00
+## label
+A choristoma is a congenital heterotopic rest of normally organized, mature tissue in an abnormal site, distinct from a hamartoma's disorganized overgrowth of tissues native to that site
+## canonical_key
+choristoma.definition.heterotopic-tissue
+## aliases
+Heterotopic rest
+Tumor-like developmental lesions
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A choristoma is a congenital anomaly consisting of a heterotopic rest of cells -- for example, a small nodule of well-developed and normally organized pancreatic tissue found in the mucosa of the stomach, duodenum or elsewhere. This contrasts with a hamartoma, a tumor-like developmental malformation formed of unencapsulated, disorganized mature tissue elements NATIVE to the site where it occurs (e.g. lung hamartoma: cartilage, smooth muscle and bronchial mucosal tissue, all normally present in lung, but haphazardly arranged). The distinguishing axis is whether the tissue belongs at that site at all (hamartoma: yes, disorganized; choristoma: no, heterotopic but normally organized).
+## explicit_objective
+Distinguish a choristoma (normally organized tissue in the WRONG site, e.g. ectopic pancreatic tissue in the small intestine wall) from a hamartoma (disorganized native tissue in the RIGHT site).
+## pitfalls
+Confusing choristoma with hamartoma because both are "tumor-like" developmental lesions -- the deciding question is whether the tissue found is native to that site (hamartoma) or heterotopic, transplanted from elsewhere (choristoma).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Tumor-Like Lesions > Choristoma
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-CHORISTOMA-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Presence of mature ectopic pancreatic tissue at the wall of small intestine is called: a. Teratoma. b. Choristoma. c. Hamartoma. d. Adenoma." ANSWER: b
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("choristoma heterotopic") -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.56 ("Tumor-Like Lesions" > Hamartoma, Choristoma).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q15.
+
+---
+
+# Item
+## id
+CON-FND-9FF27DE891DFBE
+## label
+The TNM system stages cancer by primary Tumor size (T1-T4), regional lymph Node involvement (N), and distant Metastasis (M), distinct from histologic grading, which instead scores differentiation
+## canonical_key
+neoplasia.tnm-staging.system
+## aliases
+TNM staging
+Cancer staging vs grading
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The TNM system (American Joint Committee on Cancer Staging) classifies a cancer's anatomic extent using three axes: T for the primary tumor, characterized T1 to T4 based on increasing size; N for regional lymph node involvement; and M for distant metastases. TNM staging varies in its specific criteria for each cancer type, but this general T/N/M structure is shared across all of them. Staging (TNM) answers "how far has this cancer spread" and is distinct from grading, which answers "how differentiated is this tumor's tissue" (grade I well differentiated through grade IV undifferentiated/anaplastic).
+## explicit_objective
+State that the TNM system stages cancer by tumor size, nodal involvement and distant metastasis, and distinguish staging (TNM, anatomic extent) from grading (differentiation/anaplasia).
+## pitfalls
+Confusing TNM staging with histologic grading -- staging (TNM) measures anatomic spread (tumor size, nodes, metastases); grading measures how differentiated the tumor tissue looks, a separate axis entirely, even though both inform prognosis.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S03
+## topic
+Pathology
+## subtopic
+Neoplasia
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 3 Disorders of Growth and Neoplasia > Staging and Grading > TNM System
+## article_ids
+ART-FND-208INT-NEOPLASIA-BASICS
+## related_article_ids
+
+## related_concept_ids
+CON-FND-D75B95517F50CF
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-TNM-STAGING-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"TNM system is used for assessment of: a. Histologic types of cancer. b. Histologic grade of cancer. c. Staging of cancer. d. Etiology of cancer." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("TNM staging system") -- no hit. New concept, cross-linked to the existing anaplasia-grading concept (CON-FND-D75B95517F50CF) as the staging/grading distinction's other half.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.63 (TNM system definition).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q17.
+
+---
+
+# Item
+## id
+CON-FND-4784F833300F29
+## label
+An implantation epidermal (dermoid) cyst forms when epidermal cells trapped along the cut edges of the dermis during wound regeneration are not resorbed and instead grow into a keratin-filled cyst
+## canonical_key
+healing.implantation-epidermal-cyst.origin
+## aliases
+Implantation dermoid cyst
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During regeneration of the epidermis after a wound, some epidermal cells may grow down along the cut edges of the dermis. These displaced cells are normally later resorbed; if they persist instead, they grow into a keratin-filled cyst within the dermis -- the implantation epidermal (dermoid) cyst. This is one of the department book's named complications of wound healing, alongside cosmetic deformity, contracture, keloid, chronic ulcer/sinus/fistula, and (rarely) Marjolin's ulcer.
+## explicit_objective
+Explain the implantation epidermal cyst's origin as un-resorbed epidermal cells trapped along the dermis's cut edges during wound regeneration, growing into a keratin-filled cyst.
+## pitfalls
+Confusing the implantation epidermal cyst's origin (epidermal cells mechanically trapped during regeneration) with squamous metaplasia of dermal cells, or assigning it a high rate of malignant transformation -- the department book states neither of these; its complications list separately and rarely names carcinoma arising from a chronic ulcer or burn scar edge (Marjolin's ulcer), not from an implantation cyst.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S02
+## topic
+Pathology
+## subtopic
+Inflammation and repair
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 2 Healing and Repair > Complications of Wound Healing
+## article_ids
+ART-FND-208INT-HEALING-AND-REPAIR
+## related_article_ids
+
+## related_concept_ids
+CON-FND-D798D9598473F6
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.7
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-IMPLANTATION-CYST-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Implantation epidermal cysts: a. Are formed because the epidermal cells may grow down the cut edges of the dermis b. Are due to local dermal squamous metaplasia. c. Change into squamous cell carcinoma in 80% of cases. d. Are seen mostly in old females." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("implantation epidermal cyst") -- no hit. A direct grep of the concept file found the implantation cyst mentioned in one sentence within a broader wound-healing-complications concept (sinus/fistula cluster, CON-FND-D798D9598473F6); that concept does not carry this question's mechanism-level detail (which of four specific statements is source-supported), so a dedicated concept was minted and cross-linked as related rather than merged.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.27 ("Complications of wound healing" > "4. Implantation epidermal cyst").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q32.
+
+---
+
+# Item
+## id
+CON-FND-316FEEFBE17A4A
+## label
+10% buffered formalin is the department book's fixative of choice for tissue specimen preparation, the critical first step before tissue processing into microscopic sections
+## canonical_key
+histopathology.tissue-fixation.formalin
+## aliases
+Tissue fixation
+Histopathology technique
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Proper and timely specimen fixation is a critical step in preparing tissue for diagnosis; the fixative of choice is 10% buffered formalin. Once fixed, the tissue must be processed into a form that can be made into thin microscopic sections (tissue processing). Fixation preserves tissue architecture and prevents autolysis/putrefaction before the tissue can be embedded, sectioned and stained.
+## explicit_objective
+State that 10% buffered formalin is the department book's fixative of choice for tissue specimen preparation, ahead of tissue processing and sectioning.
+## pitfalls
+Substituting saline, alcohol or xylene for formalin as "the" tissue fixative -- saline does not fix tissue at all, and while alcohol-based and xylene-based reagents have their own roles elsewhere in histopathology technique (dehydration, clearing), the department book names 10% buffered formalin specifically as the fixative of choice.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-FND-T03-S01
+## topic
+Pathology
+## subtopic
+Environmental pathology and cytology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 11 Techniques Used in Pathology > Specimen Fixation
+## article_ids
+ART-FND-208INT-ENVIRONMENTAL-AND-CYTOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.7
+## weight_confidence
+0.55
+## confidence
+0.85
+## atomic_claim_ids
+CLM-FND-208INT-TISSUE-FIXATION-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The best solution for tissue fixation is: a. 0.9% Saline. b. 70% Alcohol. c. 30% Xylene. d. 10% buffered formalin." ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("tissue fixation formalin") -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.129 ("Specimen Fixation").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q36. Sits in the same "Techniques Used in Pathology" chapter as this article's existing cytopathology (PAP stain) content.
+
+---
+
+# Item
+## id
+CON-INF-A59BCAB366BCEE
+## label
+Lupus vulgaris is the prototype of cutaneous tuberculosis, arising by exogenous inoculation or endogenous spread from a tuberculous lesion elsewhere
+## canonical_key
+tuberculosis.lupus-vulgaris.cutaneous
+## aliases
+Skin tuberculosis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lupus vulgaris is the prototype of skin tuberculosis, which can occur by exogenous inoculation or by endogenous spread (direct extension from a tuberculous lesion, or lymphatic or blood spread) from tuberculous disease elsewhere in the body.
+## explicit_objective
+Identify lupus vulgaris as cutaneous (skin) tuberculosis, arising by exogenous inoculation or endogenous spread from tuberculous disease elsewhere.
+## pitfalls
+Assuming lupus vulgaris affects an organ other than skin (e.g. joint, epididymis, kidney, all separately named tuberculous sites in the department book) -- it is specifically the prototype cutaneous form.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAT
+## secondary_node_ids
+SYS-INF-T01
+## topic
+Pathology
+## subtopic
+Bacterial infections
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 5 Bacterial Infections > Tuberculosis > Cutaneous Tuberculosis
+## article_ids
+ART-INF-208INT-BACTERIAL-INFECTIONS
+## related_article_ids
+
+## related_concept_ids
+CON-INF-4FF695608AFC33
+## resource_ids
+src_71e9056fb934dc28806a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.65
+## weight_confidence
+0.55
+## confidence
+0.8
+## atomic_claim_ids
+CLM-FND-208INT-LUPUS-VULGARIS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Lupus vulgaris is: a. Tuberculosis of joint. b. Tuberculosis of epididymis. c. Tuberculosis of skin. d. Tuberculosis of kidney." ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("lupus vulgaris cutaneous tuberculosis") -- no hit; a direct grep of the concept file found lupus vulgaris only named once, as a bare list entry inside an unrelated precancerous-conditions concept (p.58 exception list), not defined there. New concept.
+resourceOccurrenceIds: Read by hand from the 208 INT Pathology Department Book, p.98 (Lupus vulgaris, prototype of skin tuberculosis).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q57. Related to CON-INF-4FF695608AFC33 (primary tuberculosis), the family concept this cutaneous form sits alongside.
+
+---
+
+# Item
+## id
+CON-FND-8BAF5827D0C4E1
+## label
+Tachyphylaxis -- rapid decrease in response to repeated short-interval dosing -- occurs with indirect-acting sympathomimetics (via depletion of releasable norepinephrine stores) but is generally absent with direct-acting agonists
+## canonical_key
+pharmacology.tachyphylaxis.indirect-agonist-depletion
+## aliases
+Tachyphylaxis
+Indirect sympathomimetic tolerance
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tachyphylaxis is a pronounced decrease in response to a drug after repeated administration at short intervals. Among the sympathomimetics, tachyphylaxis is markedly present with indirect-acting agonists (which act by releasing endogenous norepinephrine from nerve terminals, such as amphetamine, ephedrine and tyramine) because it occurs due to depletion of the releasable norepinephrine stores those drugs depend on; it is generally absent with direct-acting agonists (which act on the adrenergic receptor itself, independent of neuronal NE stores).
+## explicit_objective
+Identify indirect-acting sympathomimetics (amphetamine and similar NE-releasing agents) as the class most likely to show tachyphylaxis, via depletion of releasable norepinephrine stores, and contrast with direct agonists, which do not depend on those stores.
+## pitfalls
+Predicting tachyphylaxis for a direct-acting agonist (dobutamine, adrenaline) by analogy with amphetamine -- the mechanism (NE-store depletion) is specific to indirect-acting agents; a direct agonist's action does not depend on neuronal NE release and so is not subject to the same depletion-driven tolerance.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Sympathomimetics > Tachyphylaxis
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-EA0D1633BF0130
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.55
+## confidence
+0.8
+## atomic_claim_ids
+CLM-FND-208INT-TACHYPHYLAXIS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Tachyphylaxis is most likely to happen with which of the following? a. Dopamine b. Adrenaline c. Dobutamine d. Amphetamine" ANSWER: d
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("tachyphylaxis indirect sympathomimetic amphetamine") -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.2-3 (tachyphylaxis present in indirect agonists, absent in direct agonists; mechanism of NE-store depletion).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q72. Related to CON-FND-EA0D1633BF0130 (dopamine dose-selectivity), another sympathomimetic-family concept in this article.
+
+---
+
+# Item
+## id
+CON-FND-32969719456125
+## label
+Baclofen is a centrally acting spasmolytic -- a GABA-B receptor agonist in the spinal cord -- and first-line treatment for spasticity from spinal cord injury or multiple sclerosis
+## canonical_key
+baclofen.mechanism.centrally-acting-muscle-relaxant
+## aliases
+Baclofen
+Centrally acting spasmolytic
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Spasmolytic drugs treat spasticity, a velocity-dependent increase in muscle tone with exaggerated reflexes. Baclofen is a centrally acting spasmolytic that acts as a GABA-B receptor agonist in the spinal cord, and is the first-line treatment for spasticity resulting from spinal cord injury and multiple sclerosis; abrupt withdrawal of baclofen can cause seizures and hallucinations. This is distinct from a directly-acting spasmolytic such as dantrolene, which instead acts directly on skeletal muscle, blocking ryanodine receptors (RyR1) to inhibit calcium release from the sarcoplasmic reticulum.
+## explicit_objective
+Classify baclofen as a centrally acting (spinal cord GABA-B agonist) spasmolytic, distinguishing it from directly-acting spasmolytics such as dantrolene, which act peripherally on skeletal muscle itself.
+## pitfalls
+Confusing baclofen (centrally acting, GABA-B agonist in the spinal cord) with a directly or peripherally acting muscle relaxant (dantrolene, acting on skeletal muscle ryanodine receptors) -- the two spasmolytic classes act at different anatomic sites by different mechanisms.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Neuromuscular and Spasmolytic Drugs
+## article_ids
+ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.45
+## academic_relevance
+0.6
+## weight_confidence
+0.55
+## confidence
+0.8
+## atomic_claim_ids
+CLM-FND-208INT-BACLOFEN-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Baclofen is .... a. A centrally acting muscle relaxant. b. A directly-acting muscle relaxant. c. A peripherally acting muscle relaxant. d. Both a centrally and a peripherally acting muscle relaxant." ANSWER: a
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("baclofen centrally acting muscle relaxant") -- no hit. New concept.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.5 (Spasmolytic Drugs / Baclofen section).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q85. Placed with the neuromuscular-junction pharmacology this article already covers, though baclofen itself acts spinally rather than at the NMJ.
+
+---
+
+# Item
+## id
+CON-FND-58E6876CDBBC16
+## label
+Adrenaline is a physiological antagonist of histamine in anaphylaxis, reversing life-threatening bronchospasm and hypotension by acting on different receptors toward an opposite physiological effect, not by blocking histamine receptors directly
+## canonical_key
+adrenaline.anaphylaxis.physiological-antagonism-of-histamine
+## aliases
+Physiological antagonism
+Adrenaline in anaphylaxis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adrenaline (epinephrine) is the drug of choice in anaphylaxis, where it acts as a physiological antagonist of histamine: it reverses histamine's life-threatening effects (bronchospasm, hypotension) by acting on its own adrenergic receptors to produce the opposite physiological effect (bronchodilation via beta2, vasoconstriction and increased cardiac output via alpha1/beta1) -- not by occupying or blocking the histamine receptor itself, which is what a pharmacological (competitive receptor) antagonist would do.
+## explicit_objective
+Classify adrenaline's action in anaphylaxis as physiological antagonism of histamine -- opposing its effect via a different receptor system, not blocking the histamine receptor -- distinguishing this from pharmacological, chemical and physical antagonism.
+## pitfalls
+Calling adrenaline's anaphylaxis effect a "pharmacological antagonism" of histamine -- pharmacological antagonism requires binding the SAME receptor as the agonist; adrenaline instead acts on entirely different (adrenergic) receptors to produce a physiologically opposing effect, which is the definition of physiological antagonism.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+SYS-FND-T04-S02
+## secondary_node_ids
+DIS-PHA
+## topic
+Pharmacology
+## subtopic
+Autonomic nervous system pharmacology
+## microtopic
+
+## nanotopic
+
+## modules
+208 INT
+## module_subject
+208 INT > Chapter 10 Pharmacology > Autonomic Nervous System > Sympathomimetics > Adrenaline in Anaphylaxis
+## article_ids
+ART-FND-208INT-ADRENERGIC-PHARMACOLOGY
+## related_article_ids
+
+## related_concept_ids
+CON-FND-DA4E563A4E5C48
+## resource_ids
+src_9fa6c2788e36af56304e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.55
+## confidence
+0.8
+## atomic_claim_ids
+CLM-FND-208INT-ADRENALINE-ANAPHYLAXIS-01
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 5-year-old boy has been admitted to the emergency department with severe hypotension and difficulty in breathing after penicillin injection. Adrenaline is saving in this condition as it antagonizes the effect of histamine by: a. Physical antagonism b. Chemical antagonism c. Physiological antagonism d. Pharmacological antagonism" ANSWER: c
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs searched ("adrenaline physiological antagonism anaphylaxis histamine") -- no hit. New concept, cross-linked to CON-FND-DA4E563A4E5C48 (first-generation antihistamines), the receptor-blocking counterpart this question's distractor (pharmacological antagonism) would describe.
+resourceOccurrenceIds: Read by hand from "Dr Abdallah Salah..PHARMA IN POINTS ...2026.pdf" (2nd priority, src_9fa6c2788e36af56304e), p.5 ("Adrenaline (Epinephrine) is a physiological Histamine antagonist that reverses life-threatening effects in anaphylaxis").
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: This module has no cleared video resource.
+relationships: 2024 EOM paper, Q71. This is the final new concept minted for the 2024 EOM tranche.
