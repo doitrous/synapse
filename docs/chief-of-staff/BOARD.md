@@ -575,3 +575,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — MANSOURA MSS-202 lane 3 LANDED (376fcca9, afd085fb, 818cd9bb) · assigned ranges EXHAUSTED
 - Past Years pp.23-42 + Most important pp.24-48: 54 authored (20 anatomy all reuse, 34 pharma: NSAID/opioid/DMARD mints), 0 held. 27 mints, 20 reuses (17 new overlay rows onto Kasr 101/103 + AU-105). 18-file simulate rejected=0; batch shows only the known Mansoura `resource_ids` noise. ≈4.6k tok/q. Module: 145 authored across 3 lanes; the bank repeats lower-limb items across sittings, so fresh facts are exhausted in the read ranges. Left: Past Years pp.43+ tail and `MSS Lecures & Practical.pdf` (tier 3, unopened).
 - Slot → 6 October O6U-IMB-104 lane 1 (Y1, triage-first with visual check). Fleet 20/20.
+
+### 2026-09-02 — ZAGAZIG ZU-MED-108 lane 2 LANDED (e7ec4f06) · ZU-MED-108 EXHAUSTED
+- OSPE pp.8-10: 17 items, 16 authored, 1 held (print-corrupted options). 3 renders. 15 mints + 4 articles, 1 own reuse. batch errors=0 ×3; simulate own rows rejected=0 (lane 1's 3 cross-lane CVS overlay deps unchanged). Redone from scratch after the outage (no prior push).
+- Zagazig Year 1: 102/103/104/106/107/108 exhausted or closed; 105 lane 3 triaging the last bank; ZU-UNI-101 is tier-9 admin. Slot → Alexandria AU-MED-201 (Endocrine & GU) lane 1, triage-first (Y2). Fleet 20/20.
