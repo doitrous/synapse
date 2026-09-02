@@ -6,7 +6,7 @@
   docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md,
   docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md,
   docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-metabolism-concepts.md).
-  All 9 records are from the same MFM 42 Support end-module MSK1 exam
+  The first 9 records are from the same MFM 42 Support end-module MSK1 exam
   (Biochemistry Q1/Q3, Physiology Q7/Q8, Histology Q23/Q25/Q26/Q27/Q28),
   keyed from the paired "MFM42Support - Answers of MSK1 END.pdf" — red-text
   visual key, confirmed by render (pages 1, 2, 7, 8; text layer carries no key
@@ -31,6 +31,19 @@
       docs/Menoufia-Source-Imports/pending-live/MU-MED104-concepts-overlay.md \
       docs/Menoufia-Source-Imports/pending-live/MU-MED104-questions.md \
       --emit /tmp/sim-MU-MED104-pending.json
+
+  --- lane-2 addition (6 more records) ---
+  The next 4 records (MFM42Support END MODULE MSK1 Q10/Q11/Q13/Q20, Anatomy
+  section, red-text key) and the final 2 (Final 41.pdf Q9/Q10, lower-limb
+  Anatomy, grey-highlight key read from the rendered page — the "Make
+  Watermark" phone-photo trap, LANE-CARD §7) target existing Kasr 101-ISK and
+  Alexandria AU-MED-105 concept ids, all confirmed via find-existing.mjs.
+  Apply after the matching overlay rows appended to
+  pending-live/MU-MED104-concepts-overlay.md land on:
+    docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
+    docs/Kasr-Source-Imports/article/101-ISK-anatomy.md
+    docs/Alexandria-Source-Imports/concept/AU-MED-105-anatomy-concepts.md
+    docs/Alexandria-Source-Imports/article/AU-MED-105-anatomy-articles.md
 
   Import: Admin › Bulk import → question.
 -->
@@ -1337,3 +1350,869 @@ yes
 ## author_notes
 keySource: red-text render of MFM42Support - Answers of MSK1 END.pdf p8 (Q27)
 mu: MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q27, Histology section
+
+
+---
+
+# Item
+
+## id
+QST-MUMED104-MFM42MSK1-Q10
+
+## title
+Insertion of the muscle dividing the axillary artery
+
+## question
+Which one of the following bony parts is the insertion of the muscle that divides the axillary artery into three parts?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Acromion
+
+## explanation_a
+Incorrect. The acromion is the lateral continuation of the scapular spine, giving attachment to deltoid and trapezius, not to pectoralis minor, the muscle that crosses in front of the axillary artery and divides it into its three parts. Pectoralis minor's origin (the third to fifth ribs) and insertion (the coracoid process) do not involve the acromion at all.
+
+## answer_b
+Coracoid process
+
+## explanation_b
+Correct. Pectoralis minor is the muscle that crosses the axillary artery from front to back, dividing it into three parts (one above, one behind, and one below the muscle), and it inserts by its tip into the coracoid process of the scapula. Identifying the coracoid process as pectoralis minor's insertion is what links the artery-division landmark named in the stem to the bony answer being asked for.
+
+## answer_c
+Bicipital groove
+
+## explanation_c
+Incorrect. The bicipital (intertubercular) groove of the humerus is where the tendon of latissimus dorsi and the long head of biceps' tendon run, and where pectoralis major inserts along its lateral lip — it has no relationship to pectoralis minor or to the axillary artery's three parts, which are defined relative to a muscle on the anterior chest wall, not the humeral shaft.
+
+## answer_d
+Supraglenoid tubercle
+
+## explanation_d
+Incorrect. The supraglenoid tubercle is the origin of the long head of biceps brachii, a proximal attachment above the glenoid rim, unrelated to pectoralis minor's coracoid insertion or to the axillary artery, which pectoralis minor (not biceps) crosses and divides.
+
+## answer_e
+Radial tuberosity
+
+## explanation_e
+Incorrect. The radial tuberosity is the insertion of biceps brachii on the radius, in the forearm, far from both the coracoid process and the axilla where pectoralis minor crosses the axillary artery — it plays no part in defining the artery's three parts.
+
+## topic
+Upper limb
+
+## subtopic
+Pectoral girdle osteology and the axillary artery
+
+## main_concept
+CON-MSK-8E4BB62A579068
+
+## concept_ids
+CON-MSK-8E4BB62A579068
+
+## contextual_concept_ids
+CON-MSK-C608D59631E713
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+MU_Y1
+
+## universities
+mu
+
+## module
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-SHOULDER-GIRDLE-NERVES
+
+## resource_ids
+
+## learning_objective
+Identify pectoralis minor, from its role dividing the axillary artery into three parts, and name the coracoid process as its insertion.
+
+## source_citation
+MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q10 (Menoufia MED104 MSK1 end-module exam, Anatomy section)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: red-text render of MFM42Support - Answers of MSK1 END.pdf p3 (Q10)
+mu: MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q10, Anatomy section
+
+---
+
+# Item
+
+## id
+QST-MUMED104-MFM42MSK1-Q11
+
+## title
+Muscles paralysed by surgical neck humerus fracture
+
+## question
+A patient presented with surgical neck humerus fracture; he has weakness in rotating his arm laterally. Which pair of muscles are paralyzed?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Teres Minor and Teres Major
+
+## explanation_a
+Incorrect. Teres major is supplied by the lower subscapular nerve, not the axillary nerve, so a surgical neck humerus fracture (which endangers the axillary nerve as it winds around the bone) does not paralyse it; teres major remains a medial rotator and adductor unaffected by this injury. Pairing it with teres minor mixes a muscle the axillary nerve does supply with one it does not.
+
+## answer_b
+Teres Minor and Deltoid
+
+## explanation_b
+Correct. The axillary nerve winds round the surgical neck of the humerus, so a fracture there is a classic cause of axillary nerve injury, and the axillary nerve supplies exactly two muscles: deltoid and teres minor. Teres minor is a lateral rotator of the shoulder, so its loss, together with deltoid's own contribution to lateral rotation and abduction, produces the weakness in lateral rotation described in the stem.
+
+## answer_c
+Infraspinatus and Deltoid
+
+## explanation_c
+Incorrect. Infraspinatus is a lateral rotator too, but it is supplied by the suprascapular nerve, not the axillary nerve, so it is not paralysed by a surgical neck fracture; deltoid is correctly paired here, but infraspinatus is not one of the axillary nerve's two muscles.
+
+## answer_d
+Supraspinatus and Subscapularis
+
+## explanation_d
+Incorrect. Supraspinatus (suprascapular nerve) initiates abduction and subscapularis (upper and lower subscapular nerves) is a medial rotator — neither is supplied by the axillary nerve, so neither is paralysed by a fracture at the surgical neck, and subscapularis's own action (medial, not lateral, rotation) does not match the weakness described.
+
+## answer_e
+Teres minor and Infraspinatus
+
+## explanation_e
+Incorrect. Infraspinatus (suprascapular nerve) is a lateral rotator but is not one of the two muscles the axillary nerve supplies; teres minor is correctly named, but pairing it with infraspinatus rather than deltoid misidentifies which second muscle the surgical neck fracture actually paralyses.
+
+## topic
+Upper limb
+
+## subtopic
+Axillary nerve injury
+
+## main_concept
+CON-MSK-EE022A2043C10F
+
+## concept_ids
+CON-MSK-EE022A2043C10F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+MU_Y1
+
+## universities
+mu
+
+## module
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-AXILLARY-NERVE
+
+## resource_ids
+
+## learning_objective
+Recognise surgical neck humerus fracture as a cause of axillary nerve injury and name deltoid and teres minor as the two muscles it paralyses.
+
+## source_citation
+MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q11 (Menoufia MED104 MSK1 end-module exam, Anatomy section)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: red-text render of MFM42Support - Answers of MSK1 END.pdf p3 (Q11)
+mu: MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q11, Anatomy section
+
+---
+
+# Item
+
+## id
+QST-MUMED104-MFM42MSK1-Q13
+
+## title
+Root value of the nerve lost in a supracondylar fracture with DIP flexion loss
+
+## question
+A 29-year-old patient complained of inability to flex the distal interphalangeal joint of the index finger as a result of supracondylar fracture of the humerus, which of the following is the root value of the affected nerve?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+C5,6
+
+## explanation_a
+Incorrect. C5,6 is the root value of the axillary and musculocutaneous nerves, not the median nerve whose anterior interosseous branch is injured here; a supracondylar fracture affecting flexor digitorum profundus to the index finger points to median nerve territory, whose root value is far wider than C5,6 alone.
+
+## answer_b
+C5,6,7
+
+## explanation_b
+Incorrect. C5,6,7 omits the C8 and T1 contributions that the median nerve carries from the medial cord, so it understates the nerve's full root value even though C5,6,7 (from the lateral cord component) are genuinely part of it; the complete root value must include all five roots the median nerve draws from via both its lateral and medial cord contributions.
+
+## answer_c
+C6,7,8
+
+## explanation_c
+Incorrect. C6,7,8 omits C5 (from the lateral cord) and T1 (from the medial cord), the two roots at either end of the median nerve's full contribution; this range covers only the middle of the nerve's true root value.
+
+## answer_d
+C8, T1
+
+## explanation_d
+Incorrect. C8, T1 alone describes the medial cord's own root value (and structures such as the ulnar nerve, formed entirely from the medial cord), but the median nerve is formed from both the lateral cord (carrying C5,6,7) and the medial cord (carrying C8,T1) — naming only the medial-cord roots misses half of the nerve actually injured.
+
+## answer_e
+C5,6,7,8, T1
+
+## explanation_e
+Correct. A supracondylar fracture of the humerus classically injures the anterior interosseous nerve, a branch of the median nerve given off just below the elbow, causing weakness of flexor pollicis longus and the index/middle-finger part of flexor digitorum profundus — the inability to flex the distal interphalangeal joint of the index finger described in the stem. The median nerve is formed from contributions of both the lateral cord (C5, C6, C7) and the medial cord (C8, T1) of the brachial plexus, so its full root value is C5,6,7,8,T1.
+
+## topic
+Upper limb
+
+## subtopic
+Median nerve and the anterior interosseous nerve
+
+## main_concept
+CON-MSK-02A831DFEBC439
+
+## concept_ids
+CON-MSK-02A831DFEBC439
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+MU_Y1
+
+## universities
+mu
+
+## module
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-FOREARM-NERVES
+
+## resource_ids
+
+## learning_objective
+Recognise a supracondylar humeral fracture's anterior interosseous nerve injury from loss of index-finger DIP flexion, and state the median nerve's full root value (C5-T1) as the nerve it branches from.
+
+## source_citation
+MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q13 (Menoufia MED104 MSK1 end-module exam, Anatomy section)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: red-text render of MFM42Support - Answers of MSK1 END.pdf p3 (Q13)
+mu: MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q13, Anatomy section
+
+---
+
+# Item
+
+## id
+QST-MUMED104-MFM42MSK1-Q20
+
+## title
+Fracture most likely to cause partial claw hand
+
+## question
+Fracture of which one of the following bony parts is most likely to cause partial claw hand?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Medial Epicondyle
+
+## explanation_a
+Correct. The ulnar nerve descends behind the medial epicondyle, grooving it, and is the nerve most often injured there by fracture, dislocation or compression at the elbow. An ulnar nerve injury at or above the elbow (as a medial epicondyle fracture is) also paralyses the medial half of flexor digitorum profundus, which blunts the clawing compared with a lower, wrist-level ulnar injury — producing the partial claw hand this question describes, rather than the more pronounced claw seen after a wrist-level lesion.
+
+## answer_b
+Lateral Epicondyle
+
+## explanation_b
+Incorrect. The lateral epicondyle gives origin to the common extensor tendon and is related to the radial nerve's posterior interosseous branch as it enters the supinator, not to the ulnar nerve; a fracture there threatens wrist and finger extension (radial nerve territory), not the ulnar-nerve-mediated claw hand described in the stem.
+
+## answer_c
+Neck of Radius
+
+## explanation_c
+Incorrect. The neck of the radius is where the posterior interosseous nerve (a branch of the radial nerve) winds around the bone within supinator, so a fracture there risks radial nerve palsy (wrist drop and loss of finger extension), not the ulnar nerve injury that produces a claw hand.
+
+## answer_d
+Surgical neck humerus
+
+## explanation_d
+Incorrect. The surgical neck of the humerus is where the axillary nerve winds around the bone, so a fracture there risks axillary nerve injury (deltoid and teres minor weakness), an entirely different clinical picture from the ulnar-nerve-mediated claw hand asked about here.
+
+## answer_e
+Midshaft humerus
+
+## explanation_e
+Incorrect. The midshaft (or spiral groove) of the humerus is where the radial nerve lies against bone, so a fracture there classically produces radial nerve palsy (wrist drop), not an ulnar nerve injury or claw hand.
+
+## topic
+Upper limb
+
+## subtopic
+Ulnar nerve injury and claw hand
+
+## main_concept
+CON-MSK-B640E3E982A149
+
+## concept_ids
+CON-MSK-B640E3E982A149
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+
+## years
+MU_Y1
+
+## universities
+mu
+
+## module
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## question_only_for
+
+## library_ids
+ART-101-ANA-MEDIAN-ULNAR-NERVES
+
+## resource_ids
+
+## learning_objective
+Recognise that a medial epicondyle fracture injures the ulnar nerve at the elbow, and explain why this higher-level injury produces a partial, rather than complete, claw hand.
+
+## source_citation
+MFM42Support - END MODULE MSK1 / Answers of MSK1 END, Q20 (Menoufia MED104 MSK1 end-module exam, Anatomy section)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: red-text render of MFM42Support - Answers of MSK1 END.pdf p6 (Q20)
+mu: MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, Q20, Anatomy section
+
+---
+
+# Item
+
+## id
+QST-MUMED104-FINAL41-Q09
+
+## title
+Muscle spared by a greater trochanter fracture
+
+## question
+A 70 year old woman admitted to hospital with a history of fell at home. Examination revealed fracture of the greater trochanter of her femur. Which of the following muscles would continue to function normally?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Piriformis
+
+## explanation_a
+Incorrect. Piriformis inserts onto the upper border of the greater trochanter itself, so a fracture through the greater trochanter directly disrupts its insertion and its ability to act on the hip, unlike gluteus maximus which inserts well away from the fracture site.
+
+## answer_b
+Obturator internus
+
+## explanation_b
+Incorrect. Obturator internus also inserts onto the greater trochanter (the medial surface of its upper border, via the trochanteric fossa region), so a fracture there disrupts its attachment and lateral-rotator action just as it does piriformis, and it would not continue to function normally.
+
+## answer_c
+Gluteus medius
+
+## explanation_c
+Incorrect. Gluteus medius inserts onto the lateral surface of the greater trochanter, making it one of the muscles most directly disrupted by a fracture through the greater trochanter itself, with loss of its abductor function (a Trendelenburg-type deficit) rather than preserved function.
+
+## answer_d
+Gluteus maximus
+
+## explanation_d
+Correct. Gluteus maximus, unlike the short lateral rotators and gluteus medius/minimus, inserts mostly into the iliotibial tract, with only a minority of its fibres reaching the gluteal tuberosity of the femur — a site well below and separate from the greater trochanter. Because a greater trochanter fracture does not involve the iliotibial tract insertion, gluteus maximus's hip-extensor action is preserved even though several neighbouring muscles that do insert on the trochanter are disrupted.
+
+## answer_e
+Gluteus minimus
+
+## explanation_e
+Incorrect. Gluteus minimus inserts onto the anterior surface of the greater trochanter, so it is directly disrupted by a fracture through the greater trochanter, with loss of its contribution to hip abduction and medial rotation, unlike gluteus maximus whose insertion lies elsewhere.
+
+## topic
+Lower limb
+
+## subtopic
+Gluteal region
+
+## main_concept
+CON-MSK-F12505C48037BB
+
+## concept_ids
+CON-MSK-F12505C48037BB
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+
+## years
+MU_Y1
+
+## universities
+mu
+
+## module
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 07 EOY Exams > Final 41 > Anatomy
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-GLUTEAL-HIP-JOINT
+
+## resource_ids
+
+## learning_objective
+Recognise that gluteus maximus's iliotibial-tract insertion, unlike the trochanteric insertions of piriformis, obturator internus, gluteus medius and gluteus minimus, spares it from a greater trochanter fracture.
+
+## source_citation
+00 Module-wide/07 EOY Exams/Final 41.pdf, Q9 (Menoufia MED104 EOY exam, Anatomy section, lower limb)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: grey-highlight, read from rendered page image, Final 41.pdf p1, Q9
+mu: Final 41.pdf, Q9, Anatomy section — the 'Make Watermark' phone-photo scan that defeats default OCR (coverage/MU-MED104-triage.md)
+
+---
+
+# Item
+
+## id
+QST-MUMED104-FINAL41-Q10
+
+## title
+Muscle affected by loss of plantarflexion and inversion
+
+## question
+A 36 years old worker is hit on the leg. On examination he was found unable to plantar flex and invert his foot. Which of the following muscles is most likely affected?
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Tibialis anterior
+
+## explanation_a
+Incorrect. Tibialis anterior is a muscle of the anterior compartment (supplied by the deep peroneal nerve) that dorsiflexes and inverts the foot — it opposes, rather than produces, plantarflexion, so weakness of it would cause foot drop, not the combined loss of plantarflexion and inversion described here.
+
+## answer_b
+Tibialis posterior
+
+## explanation_b
+Correct. Tibialis posterior belongs to the deep group of the posterior compartment of the leg (with flexor digitorum longus, flexor hallucis longus and popliteus), all supplied by the tibial nerve, and this deep group's actions together produce plantarflexion and inversion of the foot. An injury affecting tibialis posterior therefore matches exactly the combined loss of plantarflexion and inversion the worker presents with.
+
+## answer_c
+Peroneus longus
+
+## explanation_c
+Incorrect. Peroneus longus lies in the lateral compartment (superficial peroneal nerve) and produces plantarflexion together with eversion, not inversion, of the foot — its action is opposite in the frontal-plane component to the deficit described, so it does not match the presentation.
+
+## answer_d
+Peroneus brevis
+
+## explanation_d
+Incorrect. Peroneus brevis, also in the lateral compartment (superficial peroneal nerve), plantarflexes and everts the foot, the same eversion (not inversion) pairing as peroneus longus, so it does not account for the inversion loss described in the stem.
+
+## answer_e
+Peroneus tertius
+
+## explanation_e
+Incorrect. Peroneus tertius is an anterior-compartment muscle (deep peroneal nerve) that dorsiflexes and everts the foot — both actions are the opposite of the plantarflexion-and-inversion loss described, so it is not the muscle affected here.
+
+## topic
+Lower limb
+
+## subtopic
+Posterior compartment of the leg
+
+## main_concept
+CON-MSK-9180242FA01B58
+
+## concept_ids
+CON-MSK-9180242FA01B58
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.8
+
+## academic_relevance
+0.2
+
+## exam_weight_by_year
+
+## years
+MU_Y1
+
+## universities
+mu
+
+## module
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 07 EOY Exams > Final 41 > Anatomy
+
+## question_only_for
+
+## library_ids
+ART-MSK-AU105-LEG-NERVES-CUTANEOUS
+
+## resource_ids
+
+## learning_objective
+Recognise combined loss of plantarflexion and inversion as deep posterior compartment (tibial nerve) territory, and name tibialis posterior as its representative muscle.
+
+## source_citation
+00 Module-wide/07 EOY Exams/Final 41.pdf, Q10 (Menoufia MED104 EOY exam, Anatomy section, lower limb)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: grey-highlight, read from rendered page image, Final 41.pdf p1, Q10
+mu: Final 41.pdf, Q10, Anatomy section — the 'Make Watermark' phone-photo scan that defeats default OCR (coverage/MU-MED104-triage.md)

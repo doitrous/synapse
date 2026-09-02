@@ -50,6 +50,18 @@
       docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md \
       docs/Menoufia-Source-Imports/pending-live/MU-MED104-concepts-overlay.md \
       --emit /tmp/sim-MU-MED104-concepts-overlay.json
+
+  --- lane-2 addition (6 more sparse rows below) ---
+  Six more concept ids overlaid, all confirmed unique via find-existing.mjs
+  (no live/pending hit already carrying +mu): CON-MSK-8E4BB62A579068 and
+  CON-MSK-02A831DFEBC439 from docs/Alexandria-Source-Imports/concept/
+  AU-MED-105-anatomy-concepts.md (pectoral girdle osteology; anterior
+  interosseous nerve); CON-MSK-EE022A2043C10F and CON-MSK-B640E3E982A149 from
+  docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md (axillary nerve
+  injury; ulnar nerve/claw hand); CON-MSK-F12505C48037BB and
+  CON-MSK-9180242FA01B58, also from AU-MED-105-anatomy-concepts.md (gluteus
+  maximus action/nerve; posterior leg compartment). Gate these four rows
+  --with the two source files above alongside the six from lane 1.
 -->
 
 # Item
@@ -283,3 +295,159 @@ MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Histology
 
 ## field_notes
 mu: Tested as Q28, "Isogenous groups are made of group of cells up to 8 cells of" (answer: Chondrocytes), MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, red-text key on p8.
+
+---
+
+# Item
+
+## id
+CON-MSK-8E4BB62A579068
+
+## label
+The clavicle is the first bone to begin ossifying and articulates only with the sternum and acromion (not the coracoid process); its named surfaces carry set muscle and ligament attachments, the coracoid process gives attachment to pectoralis minor, and the scapular spine continues laterally as the acromion
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED104
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Pectoral region and shoulder girdle
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## field_notes
+mu: Tested as Q10, "Which one of the following bony parts is the insertion of the muscle that divides the axillary artery into three parts?" (answer: Coracoid process), MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, red-text key on p3.
+
+---
+
+# Item
+
+## id
+CON-MSK-EE022A2043C10F
+
+## label
+Shoulder dislocation endangers the axillary nerve, costing deltoid and teres minor
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED104
+
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## field_notes
+mu: Tested as Q11, "A patient presented with surgical neck humerus fracture; he has weakness in rotating his arm laterally. Which pair of muscles are paralyzed?" (answer: Teres Minor and Deltoid), MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, red-text key on p3.
+
+---
+
+# Item
+
+## id
+CON-MSK-02A831DFEBC439
+
+## label
+The anterior interosseous nerve, a branch of the median nerve given off just below the elbow, supplies flexor pollicis longus, the lateral half of flexor digitorum profundus, and pronator quadratus, and its isolated injury causes a pinch weakness with no sensory loss
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED104
+
+## module_subject
+AU-MED-105 > Anatomy > Upper Limb > Forearm
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## field_notes
+mu: Tested as Q13, "A 29-year-old patient complained of inability to flex the distal interphalangeal joint of the index finger as a result of supracondylar fracture of the humerus, which of the following is the root value of the affected nerve?" (answer: C5,6,7,8,T1), MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, red-text key on p3.
+
+---
+
+# Item
+
+## id
+CON-MSK-B640E3E982A149
+
+## label
+The ulnar nerve behind the medial epicondyle, and why a high injury claws the hand less
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED104
+
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MFM 42 Support > Anatomy
+
+## field_notes
+mu: Tested as Q20, "Fracture of which one of the following bony parts is most likely to cause partial claw hand?" (answer: Medial Epicondyle), MFM42Support - END MODULE MSK1.pdf / Answers of MSK1 END.pdf, red-text key on p6.
+
+---
+
+# Item
+
+## id
+CON-MSK-F12505C48037BB
+
+## label
+Gluteus maximus extends and laterally rotates the hip, is supplied by the inferior gluteal nerve, and inserts mostly into the iliotibial tract with only a minority of fibres reaching the gluteal tuberosity
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED104
+
+## module_subject
+AU-MED-105 > Anatomy > Lower Limb > Gluteal region
+MU-MED104 > 00 Module-wide > 07 EOY Exams > Final 41 > Anatomy
+
+## field_notes
+mu: Tested as "Final 41.pdf" Q9, "A 70 year old woman ... fracture of the greater trochanter of her femur. Which of the following muscles would continue to function normally?" (answer: Gluteus maximus), grey-highlight key, rendered p1 (the "Make Watermark" phone-photo OCR-defeats trap).
+
+---
+
+# Item
+
+## id
+CON-MSK-9180242FA01B58
+
+## label
+The posterior compartment of the leg has a superficial group (gastrocnemius, soleus, plantaris) and a deep group (tibialis posterior, flexor digitorum longus, flexor hallucis longus, popliteus), all supplied by the tibial nerve, and together they plantarflex and invert the foot
+
+## universities
++mu
+
+## learner_years
++MU_Y1
+
+## modules
++MU-MED104
+
+## module_subject
+AU-MED-105 > Anatomy > Leg > Posterior compartment
+MU-MED104 > 00 Module-wide > 07 EOY Exams > Final 41 > Anatomy
+
+## field_notes
+mu: Tested as "Final 41.pdf" Q10, "A 36 years old worker is hit on the leg ... unable to plantar flex and invert his foot. Which of the following muscles is most likely affected?" (answer: Tibialis posterior), grey-highlight key, rendered p1 (the "Make Watermark" phone-photo OCR-defeats trap).
