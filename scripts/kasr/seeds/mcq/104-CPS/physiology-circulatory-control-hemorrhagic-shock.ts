@@ -466,6 +466,25 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Veins cluster, excluded. The mechanism by
+      // which progressive (decompensated) hemorrhagic shock becomes self-
+      // worsening — increased capillary permeability from prolonged
+      // hypoperfusion — is not stated by this leaf's own sourced
+      // hemorrhagic-shock concept, which covers the rapid compensatory
+      // hormone response, not this later decompensation mechanism. This
+      // session has no PDF or cached page-text access to the department
+      // physiology book, so the claim cannot be verified against the
+      // source.
+      key: "in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04",
+      conceptKey: "hemorrhagic-shock.rapid-compensatory-hormone-response",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The mechanism by which progressive (decompensated) hemorrhagic shock becomes self-worsening — increased capillary permeability from prolonged hypoperfusion — is not stated by this leaf's own sourced concept, which covers the rapid compensatory hormone response (catecholamines, angiotensin II, vasopressin) rather than this later decompensation mechanism. This session had no PDF or cached page-text access to the department physiology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge.",
+    },
+    {
       key: "baroreceptors-060d2015",
       conceptKey: "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
       difficulty: "Easy",

@@ -10,7 +10,7 @@
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
     The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
-    The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
+    The Brachiocephalic Veins, SVC and Azygos System — 10 questions, 5 concepts
     Anatomy Respiratory System — Lungs, Gross Anatomy — 21 questions, 10 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
@@ -29,7 +29,7 @@
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 17 questions, 4 concepts
-    Histology Cardiovascular System — Veins — 19 questions, 2 concepts
+    Histology Cardiovascular System — Veins — 20 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
@@ -44,7 +44,7 @@
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
+    Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
@@ -54,7 +54,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 14 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 45 questions, 11 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 46 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -68,7 +68,7 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 7 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 27 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 40 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 42 questions, 3 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  206 questions were excluded and 0 held back for having no
+  211 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4936,6 +4936,99 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8EEA7DC33FAA
+## title
+Regarding brachiocephalic veins, one of the following statements is incorrect: ١
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding brachiocephalic veins, one of the following statements is incorrect: ١
+## answer_a
+They drain both upper limbs and head and neck
+## explanation_a
+True, so not the incorrect statement — each brachiocephalic vein drains its own side's upper limb and head and neck, via the subclavian and internal jugular veins respectively.
+## answer_b
+They drain lymph from whole body. 0
+## explanation_b
+The incorrect statement, and the answer. This leaf's own concept states only the LEFT brachiocephalic vein receives the thoracic duct, as one tributary alongside the left internal thoracic, first posterior intercostal and superior intercostal veins — a single one-sided tributary relationship, not a general claim that the brachiocephalic veins 'drain lymph from the whole body'.
+
+Why this is right:
+- The right and left brachiocephalic veins drain the upper limbs, head and neck, the anterior thoracic wall, the upper posterior thoracic wall, and lymph from the whole body, ending by uniting behind the lower border of the first right costal cartilage to form the superior vena cava.
+- The right vein descends nearly vertically from the medial end of the right clavicle, receiving the right internal thoracic vein, the right first posterior intercostal vein and the right lymphatic duct.
+## answer_c
+It receives the thoracic duct as a tributary
+## explanation_c
+True, so not the incorrect statement — the left brachiocephalic vein does receive the thoracic duct as a tributary, exactly as this leaf's own concept states.
+## answer_d
+It descends obliquely downwards and to the right. ;
+## explanation_d
+True, so not the incorrect statement — the left brachiocephalic vein runs obliquely down and to the right, behind the upper half of the manubrium and along the aortic arch, before uniting with the right to form the SVC.
+## correct_answer
+B
+## main_concept
+CON-CVS-9CDFD3C60A2550
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+Anatomy
+## subtopic
+The Brachiocephalic Veins, SVC and Azygos System
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Veins of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the brachiocephalic veins do not 'drain lymph from the whole body' — only the left one receives the thoracic duct as one of several tributaries — against three genuine statements.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p24 q22. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 

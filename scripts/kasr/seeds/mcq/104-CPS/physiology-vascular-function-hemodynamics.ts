@@ -504,6 +504,26 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Veins cluster, excluded. Total vascular
+      // cross-sectional area by vessel type (greatest at the capillary
+      // level, despite each individual capillary's own tiny bore) is a
+      // standard hemodynamics fact but is not stated by this leaf's own
+      // sourced concepts, which cover the flow/pressure/resistance
+      // relationship and the vascular tree's pressure/compliance
+      // distribution without this specific cross-sectional-area claim.
+      // This session has no PDF or cached page-text access to the
+      // department physiology book, so the claim cannot be verified
+      // against the source.
+      key: 'greatest-total-cross-sectional-area-a-aorta-1242be79',
+      conceptKey: 'vascular-tree.pressure-and-compliance-distribution',
+      difficulty: 'Hard',
+      questionType: 'Not sittable as extracted.',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: "Total vascular cross-sectional area by vessel type (greatest at the capillary level despite each capillary's own tiny bore) is a standard hemodynamics fact but is not stated by this leaf's own sourced concepts, which cover the flow/pressure/resistance relationship and the vascular tree's pressure/compliance distribution without this specific cross-sectional-area claim. This session had no PDF or cached page-text access to the department physiology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge. The row's own recovery method (fuzzy-token-overlap against a different exam book, options repaired from a 2-option extraction) is also this bank's lowest-confidence recovery tier.",
+    },
+    {
       // Bank-tagged leaf: "Vascular Function"; genuinely this file's own
       // local-blood-flow-regulation content, but excluded rather than kept
       // — see excludeReason.

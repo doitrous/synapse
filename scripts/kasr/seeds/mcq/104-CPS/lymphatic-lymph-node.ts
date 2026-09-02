@@ -387,6 +387,46 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Veins cluster, excluded. Tests lymphatic
+      // VESSEL wall structure (bicuspid valves, beaded appearance, CT
+      // adventitia thickness) — a topic none of this module's sourced
+      // concepts cover; the only lymphatic-vessel content sourced anywhere
+      // in this module's seeds is the lymphatic CAPILLARY comparison
+      // (cardiovascular-av-connections-histology.ts), a different,
+      // narrower structure (blind-ended, no valves). This session has no
+      // PDF or cached page-text access to the department histology book,
+      // so the claim cannot be verified against the source.
+      key: "choose-the-correct-statement-concerning-the-lymphatic-vessel-9d893940",
+      conceptKey: "lymph-node.cortex-medulla-zones-and-cell-distribution",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Tests lymphatic VESSEL wall structure (bicuspid valves giving a beaded appearance, adventitia thickness, lumen calibre against venules) — a topic none of this module's sourced concepts cover. The only lymphatic-vessel content sourced anywhere in this module's seeds is the lymphatic CAPILLARY comparison in cardiovascular-av-connections-histology.ts, a narrower, different structure (blind-ended, non-valved). This session had no PDF or cached page-text access to the department histology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge.",
+    },
+    {
+      // kasr-104-author-run45: Veins cluster, excluded. The printed key
+      // (A, "Concave only") contradicts this leaf's own already-established
+      // surface pairing — the lymph node's CONVEX surface receives afferent
+      // lymphatics, and its CONCAVE surface (hilum) is where efferent
+      // vessels and veins leave, confirmed twice already on this exact
+      // leaf (choose-the-correct-statement-about-the-lymph-node-8ca055b5,
+      // regarding-lymph-node-which-answer-is-correct-821e3545). The option
+      // text itself is also garbled for a two-blank stem ("Concave only"
+      // cannot answer a "which surface... while which OTHER surface"
+      // question), consistent with this bank's documented OCR/page-bleed
+      // pattern.
+      key: "surface-receive-lymph-from-afferent-vessel-while-surface-whe-cfcfeed1",
+      conceptKey: "lymph-node.capsule-trabeculae-and-stroma",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The printed answer (A, 'Concave only') contradicts this leaf's own already-established surface pairing, confirmed twice on this exact leaf: the convex surface receives afferent lymphatics, and the concave surface (hilum) is where efferent vessels and veins leave — the reverse of what a bare 'Concave only' key would need to mean for a stem asking about two different surfaces. The option text itself is also garbled for a two-blank stem, consistent with this bank's documented OCR/page-bleed corruption pattern; excluded rather than keyed against a source this leaf's own sibling questions already establish differently.",
+    },
+    {
       key: "which-cell-considered-as-a-part-of-the-phagocytic-system-325b83f1",
       conceptKey: "mononuclear-phagocyte-system.definition-origin-and-distribution",
       difficulty: "Moderate",
