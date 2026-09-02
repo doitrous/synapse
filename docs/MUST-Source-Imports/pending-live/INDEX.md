@@ -449,3 +449,105 @@ resources.md`'s own `catalogue-resource` entry for the same paper) — cited
 for the first time only now that this tranche's new mints need it. Also
 merged one new entry into the shared `evidence/corpus-source-index.json`
 (39 → 40 sources) for the same resource.
+
+## Physiology tranche 2 (2026-09-02, lane 8, branch `must-cvs201-author8`) -- two new files, Arterial BP remainder + Capillary Circulation & Oedema
+
+Two more files, from the same Physiology CVS201 EOM Final paper
+(`src_165188e079f0f475e54d`). This tranche authored the 11 Arterial BP items
+tranche 7 left un-selected (Q7 stays held, unchanged) and the Capillary
+Circulation & Oedema topic in full (20/20) -- 31 authored, 0 held. Shock (30)
+was triaged and keyed but not authored this pass; Coronary & Pulmonary
+Circulation (30) is untouched. Depends on 3 concept ids: 1 in
+`docs/Menoufia-Source-Imports/concept/MU-MED105-concepts.md` (the Bainbridge
+reflex -- first time this lane has reused a Menoufia concept) and 2 in
+`docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md` (Starling
+forces; diffusion/vesicular transport) -- checked directly against
+`server/data/medical-library-v1.json`, none of the 3 present. 2 more
+questions extend a pending overlay row already MUST-CVS-201-tagged by
+tranche 1 (`CON-CVS-6D8E2D62A9F51E`, oedema determinants) and 1 extends a row
+already tagged by tranche 7 (`CON-CVS-56A68328FD03C7`, local blood-flow
+autoregulation) -- both extended with an added field_notes line, not a new
+row. 2 more questions (the flare's own Blood-Flow companion Q6 and the new
+wheal fact Q18) reuse `CON-CVS-7F05227FE0970F`, tranche 7's own live-in-lane
+"skin flare reaction" concept in `concept/MUST-CVS-201-concepts.md` --
+extended directly (definition, aliases, `hold_these`/`callout_evidence`) to
+also state the wheal's histamine mechanism, plus one new claim/citation/span
+triple in this lane's shared `evidence/MUST-CVS-201-{claims,citations,
+spans}.md` files. 17 of the 31 authored questions instead cite 12 brand-new
+mints this tranche -- own lane files, but in a NEW file set
+(`concept/MUST-CVS-201-physiology-2-concepts.md` and its matching
+`article`/`evidence` siblings), not appended to the tranche 1-7 shared files.
+
+| File | Target ids | Records |
+|---|---|---|
+| `MUST-CVS-201-physiology-concepts-overlay.md` (extended, 3 new rows appended) | 3 new concept ids: 1 in `MU-MED105-concepts.md` (Bainbridge reflex), 2 in `104-CPS-physiology-concepts.md` (Starling forces, diffusion/vesicular transport) | 3 new sparse rows -- `+must`, `+2`, `+MUST-CVS-201` on `universities`/`learner_years`/`modules`; `## module_subject` intentionally omitted on all three (a validator change on main since tranche 7 landed now rejects a sparse row, `modules` = `+MUST-CVS-201`, whose `module_subject` first segment does not literally match that `+`-prefixed value) |
+| `MUST-CVS-201-physiology-2-questions.md` (new file) | 14 MCQ records (`QST-MUSTCVS201-PHYSABP2/PHYSCAP-…`), `main_concept` pointing at the 3 new ids above plus the 2 already-tagged pending ids extended this pass (oedema determinants, autoregulation) | New records, not sparse updates -- `library_ids` names each target concept's own existing article, `ART-CVS-MU105-AUTOMATICITY-CONDUCTION` (Bainbridge) or `ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS` (the other four) |
+
+**Apply after**: `MUST-CVS-201-physiology-concepts-overlay.md`'s three new
+rows apply after `MU-MED105-concepts.md` and `104-CPS-physiology-
+concepts.md` are live (the latter already a tranche-1 dependency for a
+different concept in this same file's sibling `MUST-CVS-201-concepts-
+overlay.md`); `MUST-CVS-201-physiology-2-questions.md` applies after both
+that overlay file above AND `docs/Menoufia-Source-Imports/article/MU-MED105-
+articles.md` / `docs/Kasr-Source-Imports/article/104-CPS-physiology.md` are
+live. The 17 direct questions in `question/MUST-CVS-201-physiology-2-mcq.md`
+have no pending-live dependency -- their concepts are either this tranche's
+own new mints or the already-live-in-lane skin-flare/triple-response concept
+extended this same pass.
+
+Simulate (20 files: the resource/evidence-source registries, the 2 new
+Menoufia/Kasr dependency files above with their articles, this lane's own
+`MUST-CVS-201-{concepts,articles,claims,citations,spans}.md` (extended),
+both pending-live overlay files (extended), the 5 new
+`MUST-CVS-201-physiology-2-*` files, and both new question files, real
+dependency files first):
+
+```
+node scripts/content/gate.mjs simulate \
+  docs/MUST-Source-Imports/resource/MUST-CVS-201-resources.md \
+  docs/MUST-Source-Imports/evidence/MUST-CVS-201-sources.md \
+  docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md \
+  docs/Kasr-Source-Imports/article/104-CPS-physiology.md \
+  docs/Menoufia-Source-Imports/concept/MU-MED105-concepts.md \
+  docs/Menoufia-Source-Imports/article/MU-MED105-articles.md \
+  docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md \
+  docs/MUST-Source-Imports/article/MUST-CVS-201-articles.md \
+  docs/MUST-Source-Imports/evidence/MUST-CVS-201-claims.md \
+  docs/MUST-Source-Imports/evidence/MUST-CVS-201-citations.md \
+  docs/MUST-Source-Imports/evidence/MUST-CVS-201-spans.md \
+  docs/MUST-Source-Imports/pending-live/MUST-CVS-201-concepts-overlay.md \
+  docs/MUST-Source-Imports/pending-live/MUST-CVS-201-physiology-concepts-overlay.md \
+  docs/MUST-Source-Imports/concept/MUST-CVS-201-physiology-2-concepts.md \
+  docs/MUST-Source-Imports/article/MUST-CVS-201-physiology-2-articles.md \
+  docs/MUST-Source-Imports/evidence/MUST-CVS-201-physiology-2-claims.md \
+  docs/MUST-Source-Imports/evidence/MUST-CVS-201-physiology-2-citations.md \
+  docs/MUST-Source-Imports/evidence/MUST-CVS-201-physiology-2-spans.md \
+  docs/MUST-Source-Imports/question/MUST-CVS-201-physiology-2-mcq.md \
+  docs/MUST-Source-Imports/pending-live/MUST-CVS-201-physiology-2-questions.md
+```
+→ `batches=20 created=619 updated=18 rejected=0 skipped=0 errors=0` (first
+run, before the article `hold_these` fix below, was `rejected=5` -- a new
+`callout_evidence` heading on the extended flare/triple-response article had
+no matching `hold_these` line; fixed by adding the wheal callout's own
+heading text as a second `hold_these` line, same requirement every other
+callout in this file already satisfies).
+
+`node scripts/validate-content-batch.mjs` was also run standalone (with
+`--with`) on every new/changed file individually -- concept, article, claims,
+citations, spans, both question files, both overlay files -- 0 errors on
+each, except (expected, matches tranche 7's own documented case) `gate.mjs
+batch` on the two overlay files themselves: `MUST-CVS-201-physiology-
+concepts-overlay.md` reports 9 errors (all on the 9 pre-existing tranche-7
+full-record rows with a restated foreign `module_subject`; this tranche's 3
+new rows, with `module_subject` omitted, are error-free) and
+`MUST-CVS-201-concepts-overlay.md` reports 5 errors (same pre-existing
+regression on tranche-1's own 5 full-record rows, including the
+`CON-CVS-6D8E2D62A9F51E` row this tranche only added a field_notes line
+to). Same "known gate limitation, not fixed by this tranche" tranche 7
+already documented -- `gate.mjs simulate` is the check that governs
+`rejected=0`, and it reports zero rejections for both files.
+
+No new resource id this tranche -- every citation targets
+`src_165188e079f0f475e54d`, already registered in
+`evidence/MUST-CVS-201-sources.md`, `resource/MUST-CVS-201-resources.md` and
+`evidence/corpus-source-index.json` since tranche 7.
