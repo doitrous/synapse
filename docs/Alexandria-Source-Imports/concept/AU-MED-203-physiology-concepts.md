@@ -14910,3 +14910,1884 @@ resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (
 sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 1 EOM Final, p34, q144
+
+---
+
+# Item
+
+## id
+CON-NEU-E186E50A769611
+
+## label
+Pain receptors are innervated by C and A-delta fibers, not A-beta fibers
+
+## canonical_key
+neurophysiology.pain.nociceptor-fibre-type-and-adaptation
+
+## definition
+Nociceptors (pain receptors) are slowly (or non-) adapting receptors that signal actual or impending tissue damage and initiate protective reflexes. They are innervated by thinly myelinated A-delta fibers (fast, sharp pain) and unmyelinated C fibers (slow, dull pain), not by the large, fast myelinated A-beta fibers, which instead carry fine touch and vibration.
+
+## explicit_objective
+State that pain receptors are attached to A-delta and C fibers, not A-beta fibers, while remaining slowly adapting and initiating protective reflexes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Sensory receptor physiology
+
+## subtopic
+Nociceptor fibre type and adaptation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Nociceptor fibre type|Pain receptor adaptation|A-delta and C fibre pain
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing nociceptor afferents (A-delta, C) with the large A-beta fibers that instead carry fine touch and vibration, or assuming pain receptors are rapidly adapting like some touch receptors.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Sensory receptor physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p3 q6 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E186E50A769611
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Regarding pain receptors, all the following are correct except: a They are slowly adapting receptors. b They signal tissue damage. c They are attached to C and A beta fibers. d They initiate protective reflexes. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p3 q6; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p3, q6
+
+---
+
+# Item
+
+## id
+CON-NEU-102FFC80EE7C16
+
+## label
+Slow cutaneous pain is transmitted by the paleospinothalamic (spinoreticular) pathway
+
+## canonical_key
+neurophysiology.pain.slow-cutaneous-pain-pathway
+
+## definition
+Slow cutaneous pain, carried by unmyelinated C fibers conducting at roughly 0.5-2 m/s, ascends via the phylogenetically older paleospinothalamic tract, also called the spinoreticular pathway, which projects diffusely through the reticular formation and thalamic intralaminar nuclei rather than sharply to the primary somatosensory cortex. This diffuse routing explains why slow pain is of long duration and poorly localized, unlike fast cutaneous pain, which is carried by A-delta fibers at 12-35 m/s via the sharply-projecting neospinothalamic tract to the postcentral gyrus.
+
+## explicit_objective
+State that slow cutaneous pain is transmitted by the paleospinothalamic (spinoreticular) pathway, and is of long duration and poorly localized, unlike fast A-delta pain.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain pathways
+
+## subtopic
+Slow cutaneous pain pathway and conduction
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Paleospinothalamic tract|Spinoreticular pathway|Slow pain conduction velocity
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the paleospinothalamic (slow pain) tract's diffuse reticular projection and C-fibre conduction with the neospinothalamic (fast pain) tract's direct thalamocortical projection and A-delta conduction.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain pathways
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p3 q7 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-102FFC80EE7C16
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Slow cutaneous pain: a More localized than fast cutaneous pain. b Signals pass through paleospinothalamic tract. c It is conducted at a rate of 12-35 m/s. d Its fibers end in postcentral gyrus of cerebral cortex. Key: B. [Also: Which of the following is true about the slow pain? a Transmitted by A-delta fibers. b Conducted at rates of 12-35 m/s. c It is of short duration, well localized. d Transmitted by the spinoreticular pathway. Key: D.]
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p3 q7; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p3, q7
+
+---
+
+# Item
+
+## id
+CON-NEU-BC675C44EA6366
+
+## label
+Deep and tendon pain is dull, poorly localized and linked to parasympathetic rather than sympathetic effects
+
+## canonical_key
+neurophysiology.pain.deep-tendon-pain-character
+
+## definition
+Deep pain, from receptors within ligaments, tendons, muscles and joint capsules, is dull and aching in character and poorly localized, unlike the sharp, well-localized character of fast cutaneous pain. Unlike sharp cutaneous pain, which classically triggers a sympathetic surge, deep pain more typically triggers parasympathetic (vagal) effects such as nausea and a fall in blood pressure, similar to visceral pain, rather than tachycardia and hypertension.
+
+## explicit_objective
+State that deep and tendon pain is dull, aching and poorly localized, and is characteristically linked to parasympathetic rather than sympathetic autonomic effects.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Deep and tendon pain character
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Deep pain character|Tendon nociceptor stimulation|Deep pain autonomic effects
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming deep/tendon pain triggers the same sympathetic (tachycardia, hypertension) surge as severe cutaneous pain, when it more characteristically produces parasympathetic (vagal) effects instead.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p3 q8 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BC675C44EA6366
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Regarding deep pain, all the following are correct except: a Associated with autonomic sympathetic effects. b Its receptors are located within the ligaments, tendons and muscles. c Dull aching pain. d Poorly localized. Key: A. [Also: Stimulation of nociceptors in the tendon of triceps can cause: a Well-localized pain sensation. b Transmission of pain information through (A delta) afferent fibers. c Dull aching pain sensation. d Tachycardia and hypertension. Key: C.]
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p3 q8; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p3, q8
+
+---
+
+# Item
+
+## id
+CON-NEU-3C205DB26642C8
+
+## label
+Visceral pain may be caused by ischemia
+
+## canonical_key
+neurophysiology.pain.visceral-pain-ischemia
+
+## definition
+Visceral organ parenchyma is characteristically insensitive to cutting or burning, unlike skin, but ischemia of a visceral organ (from vascular occlusion, spasm or excessive stretch) is a well-established cause of genuine visceral pain. The resulting build-up of metabolites (e.g. lactic acid, bradykinin) stimulates the organ's pain-sensitive nerve endings, producing pain that is not always felt within the diseased viscus itself.
+
+## explicit_objective
+State that visceral pain may be caused by ischemia, unlike cutting or burning, to which visceral organ parenchyma is characteristically insensitive.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Visceral pain and ischemia
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Visceral pain causes|Ischemic visceral pain|Visceral organ pain insensitivity to cutting
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming visceral organ parenchyma is pain-sensitive to cutting or burning the way skin is; visceral pain instead arises from stretch, spasm, distension and ischemia.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p3 q9 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3C205DB26642C8
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Regarding visceral pain: a Sharp cut is very painful. b Always felt in a diseased viscus. c Commonly associated with parasympathetic effects. d May be caused by ischemia. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p3 q9; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p3, q9
+
+---
+
+# Item
+
+## id
+CON-NEU-F246724EF98DA3
+
+## label
+Referred pain is explained by the convergence-projection theory, not by occlusion
+
+## canonical_key
+neurophysiology.pain.referred-pain-convergence-projection-theory
+
+## definition
+The convergence-projection theory explains referred pain: visceral and somatic afferents converge on the same spinothalamic neurons, so the brain misattributes the visceral signal to the somatic dermatome sharing that spinal segment (e.g. gallbladder pain referred to the epigastrium and right shoulder). Occlusion, a distinct phenomenon in which two afferent pathways share a common final discharge zone so one masks the other, is not a mechanism for referred pain.
+
+## explicit_objective
+Identify the convergence-projection theory, not occlusion, as the mechanism explaining referred pain.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Referred pain: convergence-projection theory
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Convergence-projection theory|Referred pain mechanism|Occlusion vs referred pain
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing occlusion (two afferents sharing a discharge zone, one masking the other) with the convergence-projection theory of referred pain, which are distinct sensory phenomena.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p3 q10 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F246724EF98DA3
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Regarding the referred pains all are correct except a Gallbladder is referred to epigastric region and right shoulder. b Pain is felt in corresponding dermatome. c Explained by convergence projection theory. d Explained by occlusion. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p3 q10; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p3, q10
+
+---
+
+# Item
+
+## id
+CON-NEU-068777F86127A5
+
+## label
+The pericardium is richly supplied with pain receptors
+
+## canonical_key
+neurophysiology.pain.pericardium-pain-receptor-density
+
+## definition
+Unlike lung alveoli, liver parenchyma or brain tissue, all of which are largely insensitive to pain, the pericardium (particularly its parietal layer) is richly supplied with pain-sensitive nerve endings. This is why pericarditis characteristically produces sharp, well-localized chest pain, unlike disease confined to pain-insensitive visceral parenchyma.
+
+## explicit_objective
+Identify the pericardium as richly supplied with pain receptors, unlike the pain-insensitive lung alveoli, liver parenchyma and brain tissue.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Pericardial pain receptor density
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pericardial pain receptors|Pain-insensitive viscera|Brain parenchyma pain insensitivity
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming all internal organs are equally pain-insensitive; the pericardium, unlike lung alveoli, liver parenchyma or brain tissue, is richly innervated by pain receptors.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p5 q17 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-068777F86127A5
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following is richly supplied with pain receptors? a Lung's alveoli. b Liver parenchyma. c Brain. d Pericardium. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p5 q17; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p5, q17
+
+---
+
+# Item
+
+## id
+CON-NEU-869BE9A0BA4E6C
+
+## label
+Neuropathic pain arises from abnormal nerve excitability, not from stimulation of pain receptors
+
+## canonical_key
+neurophysiology.pain.neuropathic-pain-mechanism
+
+## definition
+Neuropathic pain arises from damage or dysfunction of the nervous system itself, with nerve fibers becoming abnormally excitable via altered sodium and calcium channel expression, and firing spontaneously, unlike ordinary nociceptive pain, which requires stimulation of intact pain receptors. It is classically devastating, shooting or stabbing in character, is difficult to treat, and can be caused by conditions such as diabetes mellitus or chemotherapy that damage peripheral nerve fibers.
+
+## explicit_objective
+State that neuropathic pain arises from abnormally excitable, channel-altered nerve fibers rather than from stimulation of intact pain receptors.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Neuropathic pain mechanism
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Neuropathic pain mechanism|Chemotherapy-induced neuropathy|Sodium and calcium channel pain
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Treating neuropathic pain as if it were ordinary nociceptive pain arising from receptor stimulation, when it instead arises from abnormal excitability of damaged nerve fibers themselves.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p5 q18 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-869BE9A0BA4E6C
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+All of the following are correct regarding neuropathic pain, except: a Occurs due to stimulation of pain receptors as in deep pain. b The pain is devastating such as shooting and stabbing. c Can be caused by diabetes mellitus. d Causes sensitivity and spontaneous firing of neurons. Key: A. [Also, chemotherapy vignette: all true except a The pain receptors are being stimulated. b Excitability/sensitivity of afferent pain neuron increased. c Difficult to treat. d Caused by Na/Ca channel changes. Key: A.]
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p5 q18; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p5, q18
+
+---
+
+# Item
+
+## id
+CON-NEU-9EFFC066CBBCC6
+
+## label
+Referred pain is classified as a form of secondary hyperalgesia
+
+## canonical_key
+neurophysiology.pain.referred-pain-source-localisation-failure
+
+## definition
+This source classes referred pain as a type of secondary hyperalgesia, since both involve a central nervous system change, facilitation or sensitization of dorsal horn neurons receiving convergent visceral and somatic input, rather than a purely peripheral event. By definition, referred pain is felt away from the diseased viscus in a distant somatic structure, occurring precisely because the brain often cannot reliably distinguish a visceral signal from a somatic one.
+
+## explicit_objective
+State, per this source, that referred pain is classified as a type of secondary hyperalgesia, and that it is felt away from the diseased viscus because the brain cannot reliably localise the true source.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Referred pain as a form of secondary hyperalgesia
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Referred pain and secondary hyperalgesia|Referred pain source localisation|Central sensitization and referred pain
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming referred pain is felt within the diseased viscus itself, or that the brain can reliably distinguish a visceral pain source from a somatic one.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p5 q19 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9EFFC066CBBCC6
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Regarding referred pain, which of the following is true? a It is a type of secondary hyperalgesia. b Due to an irritation of the visceral organs and their parietal layers. c Can be felt in the visceral organs. d The brain can determine the site of pain whether it is from a visceral organ or other somatic structure. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p5 q19; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p5, q19
+
+---
+
+# Item
+
+## id
+CON-NEU-52B4D3A41317CF
+
+## label
+Sufficiently severe pain can trigger a vagally-mediated response of bradycardia, nausea and vomiting
+
+## canonical_key
+neurophysiology.pain.severe-pain-vagal-reflex
+
+## definition
+Sufficiently severe pain, whether cutaneous or otherwise, can trigger a vagally-mediated autonomic response producing bradycardia, nausea and vomiting, alongside sweating and a fall in blood pressure, rather than only the sympathetic surge typical of milder sharp pain.
+
+## explicit_objective
+State that severe pain can cause bradycardia, nausea and vomiting via a vagal reflex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Severe pain and the vagal reflex
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Severe pain vagal reflex|Pain-induced bradycardia|Pain nausea and vomiting
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming all pain triggers a uniform sympathetic surge; sufficiently severe pain instead commonly triggers a vagally-mediated parasympathetic response.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p7 q27 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-52B4D3A41317CF
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Regarding the cutaneous pain: a Fast cutaneous pain is conducted by C afferent fibers. b Severe pain can cause bradycardia, nausea and vomiting. c It can be felt in a visceral organ. d Slow cutaneous pain is conducted through spinocerebellar tract. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p7 q27; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p7, q27
+
+---
+
+# Item
+
+## id
+CON-NEU-39B7CDFB3D7FE4
+
+## label
+Secondary hyperalgesia results from a decreased central (dorsal horn) threshold
+
+## canonical_key
+neurophysiology.pain.secondary-hyperalgesia-central-threshold
+
+## definition
+Unlike primary hyperalgesia's peripheral receptor sensitization at the site of injury, secondary hyperalgesia results from a central mechanism, a lowered (sensitized) threshold of dorsal horn neurons receiving convergent input, so that normal touch or pressure in the surrounding uninjured skin (the area of flare) is now perceived as painful, without the pain sensation being characteristically less severe.
+
+## explicit_objective
+State that secondary hyperalgesia results from a decreased central threshold, unlike primary hyperalgesia's peripheral receptor-threshold mechanism.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Secondary hyperalgesia: central threshold mechanism
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Secondary hyperalgesia mechanism|Central sensitization|Dorsal horn threshold
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing secondary hyperalgesia's central (dorsal horn) threshold mechanism with primary hyperalgesia's peripheral receptor-threshold mechanism.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p7 q28 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-39B7CDFB3D7FE4
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Regarding secondary hyperalgesia: a It occurs in area of flare. b Central threshold is decreased. c Receptor threshold is decreased. d The pain sensation produced is less severe. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p7 q28; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p7, q28
+
+---
+
+# Item
+
+## id
+CON-NEU-6CF47DA4D7ED77
+
+## label
+Increased excitability of CNS neurons is a theory explaining referred pain
+
+## canonical_key
+neurophysiology.pain.referred-pain-facilitation-theory
+
+## definition
+Alongside the convergence-projection theory, referred pain is also explained by a facilitation (sensitization) theory, in which subthreshold visceral afferent input raises the excitability of CNS (dorsal horn) neurons that also receive somatic input from the referred region, so that even mild somatic stimuli in that region are now perceived as painful.
+
+## explicit_objective
+State that increased excitability (facilitation) of CNS neurons is a theory explaining referred pain, alongside the convergence-projection theory.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Referred pain: CNS facilitation theory
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Referred pain facilitation theory|CNS neuron excitability|Referred pain sensitization
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Treating convergence-projection as the only theory of referred pain, when a separate facilitation (sensitization) theory, based on increased CNS neuron excitability, is also standardly taught.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Pain physiology
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p7 q30 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-6CF47DA4D7ED77
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following theories can explain the mechanism of the referred pain? a Same embryological origin. b Pain producing substances in bloodstream. c Increasing in the excitability of neurons in the CNS. d None of the above. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p7 q30; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p7, q30

@@ -22028,3 +22028,5817 @@ resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (
 sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 1 EOM Final, p35, q151
+
+---
+
+# Item
+
+## id
+CON-NEU-4649FFAC1F90DE
+
+## label
+The vestibulocochlear nerve is a purely sensory cranial nerve
+
+## canonical_key
+neuroanatomy.cranial-nerves.vestibulocochlear-pure-sensory
+
+## definition
+The vestibulocochlear nerve (CN VIII) carries only special sensory fibers for hearing (cochlear division) and balance (vestibular division), with no motor or general sensory component of its own. This distinguishes it from the trigeminal, facial and glossopharyngeal nerves, each of which is a mixed nerve combining motor, sensory, taste or autonomic fibers.
+
+## explicit_objective
+State that the vestibulocochlear nerve is a purely sensory cranial nerve, unlike the mixed trigeminal, facial and glossopharyngeal nerves.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Vestibulocochlear nerve is purely sensory
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Vestibulocochlear pure sensory nerve|CN VIII function|Mixed vs pure sensory cranial nerves
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming every cranial nerve numbered VII-XII is mixed by analogy with the facial and glossopharyngeal nerves; the vestibulocochlear nerve is a pure special-sensory exception among that cluster.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p2 q1 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4649FFAC1F90DE
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+All of the following nerves are mixed except: a Trigeminal nerve. b Facial. c Vestibulocochlear. d Glossopharyngeal. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p2 q1; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p2, q1
+
+---
+
+# Item
+
+## id
+CON-NEU-A9E505605A7AC4
+
+## label
+The facial and vestibulocochlear nerves pass together through the internal acoustic meatus
+
+## canonical_key
+neuroanatomy.cranial-nerves.internal-acoustic-meatus-contents
+
+## definition
+The facial nerve (CN VII) and the vestibulocochlear nerve (CN VIII) travel together through the internal acoustic meatus in the petrous temporal bone; the facial nerve continues into the facial canal while the vestibulocochlear nerve terminates in the inner ear. This shared passage explains why an internal acoustic meatus lesion (e.g. an acoustic neuroma) commonly produces combined facial weakness and hearing/balance loss.
+
+## explicit_objective
+Identify the vestibulocochlear nerve as the nerve that travels with the facial nerve through the internal acoustic meatus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Internal acoustic meatus
+
+## subtopic
+Contents of the internal acoustic meatus
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Internal acoustic meatus contents|Facial and vestibulocochlear nerve pairing|Cerebellopontine angle nerves
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the internal acoustic meatus (facial + vestibulocochlear) with the superior orbital fissure (oculomotor, trochlear, abducent, ophthalmic) or the jugular foramen (glossopharyngeal, vagus, accessory) as the shared exit route.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerves
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p2 q3 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A9E505605A7AC4
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following nerves passes with facial nerve through internal Acoustic meatus? a Glossopharyngeal nerve. b Abducent nerve. c Trochlear. d Vestibulocochlear. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p2 q3; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p2, q3
+
+---
+
+# Item
+
+## id
+CON-NEU-A8C169E7E287D7
+
+## label
+The infratrochlear and lacrimal nerves supply the eyelids
+
+## canonical_key
+neuroanatomy.orbit.upper-eyelid-sensory-nerves
+
+## definition
+The infratrochlear nerve, an ophthalmic (V1) branch, supplies the medial canthus and adjoining eyelid skin, while the lacrimal nerve, another V1 branch, supplies the lateral part of the upper eyelid and conjunctiva. Together these two nerves are credited as the ophthalmic division's cranial contribution to eyelid sensation, distinct from the infraorbital nerve (maxillary, V2), which instead chiefly supplies the lower eyelid.
+
+## explicit_objective
+State that the infratrochlear and lacrimal nerves are the paired nerves credited with supplying the eyelids.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Orbit and eyelid innervation
+
+## subtopic
+Eyelid sensory nerve supply
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Eyelid sensory nerves|Infratrochlear and lacrimal nerve pairing|Upper eyelid innervation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the infraorbital nerve (maxillary, lower-eyelid-dominant) is interchangeable with the ophthalmic division's own eyelid branches (infratrochlear, lacrimal, frontal), or forgetting that the frontal nerve's supratrochlear/supraorbital twigs also contribute to standard teaching of upper eyelid supply.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Orbit and eyelid innervation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p2 q4 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A8C169E7E287D7
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following nerves of cranial distribution supply the eyelids? a Infraorbital and ganglionic branches. b Infratrochlear and lacrimal nerves. c Lacrimal and supraorbital nerves. d Infratochlear and greater petrosal nerves. Key: B. [Also: The upper eye lid receives sensory supply from all except: a Lacrimal nerve. b Frontal nerve. c Infratrochlear nerve. d Terminal branch of maxillary. Key: B.]
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p2 q4; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p2, q4
+
+---
+
+# Item
+
+## id
+CON-NEU-47E49F6360D93E
+
+## label
+A lesion at the pontomedullary junction can produce combined abducent and facial nerve deficits
+
+## canonical_key
+neuroanatomy.brainstem.pontomedullary-junction-multi-nerve-lesion
+
+## definition
+The abducent nerve (CN VI) exits at the pontomedullary junction near the midline, while the facial nerve (CN VII) exits just lateral to it at the same junction (the cerebellopontine angle region). A lesion at this shared anterior brainstem exit zone can therefore damage both nerves together, producing difficulty with lateral gaze (abducent) alongside dry eyes, dry mouth, impaired taste and facial paralysis (facial).
+
+## explicit_objective
+Identify the anterior surface of the brainstem between the pons and medulla oblongata as the lesion site explaining a combined abducent and facial nerve deficit.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Brainstem lesion localisation
+
+## subtopic
+Pontomedullary junction: combined abducent and facial nerve lesion
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pontomedullary junction lesion|Cerebellopontine angle nerve exits|Combined CN VI and CN VII deficit
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing this combined lateral-gaze-plus-facial deficit picture to a single midbrain lesion site, when the abducent and facial nerves both exit at the pontomedullary junction rather than the midbrain.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Brainstem
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p4 q11 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-47E49F6360D93E
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+A patient presented with dry eyes and a difficulty in turning eyes laterally. He is also complaining of dry mouth, impaired taste sensation and paralyzed facial expressions. Where possibly can the lesion be for the injured nerve? a Anterior border of parotid gland. b Posterior surface of mid-brain. c Anterior surface of brain stem between pons & medulla oblongata. d Anterior surface of mid-brain. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p4 q11; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p4, q11
+
+---
+
+# Item
+
+## id
+CON-NEU-C26E4DF5275EFC
+
+## label
+The middle superior alveolar nerve supplies the upper premolar teeth and gum
+
+## canonical_key
+neuroanatomy.trigeminal-nerve.middle-superior-alveolar-nerve
+
+## definition
+The middle superior alveolar nerve, a branch of the infraorbital nerve (itself from the maxillary division of the trigeminal nerve), supplies the upper premolar teeth and their overlying gum and cheek mucosa. Its injury during dental anaesthesia or extraction in the premolar region produces numbness precisely in this distribution, distinct from the anterior superior alveolar nerve's incisor/canine territory and the posterior superior alveolar nerve's molar territory.
+
+## explicit_objective
+Identify the middle superior alveolar nerve as the nerve supplying the upper premolar tooth and its gum.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Trigeminal nerve branches
+
+## subtopic
+Middle superior alveolar nerve
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Middle superior alveolar nerve|Upper premolar nerve supply|Superior alveolar nerve branches
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the middle superior alveolar nerve's premolar territory with the anterior superior alveolar nerve's incisor/canine territory or the posterior superior alveolar nerve's molar territory.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Trigeminal nerve branches
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p4 q12 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C26E4DF5275EFC
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+After a dental visit, a patient complains about numbness in his cheek and gum corresponding to the upper premolar. Which nerve might have been injured? a Anterior superior alveolar nerve. b Posterior superior alveolar nerve. c Middle superior alveolar nerve. d Inferior alveolar nerve. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p4 q12; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p4, q12
+
+---
+
+# Item
+
+## id
+CON-NEU-A8D15895A6AE03
+
+## label
+The ophthalmic division of the trigeminal nerve carries corneal reflex afferents and forehead sensation
+
+## canonical_key
+neuroanatomy.trigeminal-nerve.corneal-reflex-ophthalmic-branch
+
+## definition
+The ophthalmic (V1) division of the trigeminal nerve carries the afferent limb of the corneal reflex via its nasociliary branch, and separately supplies general sensation to the forehead via its supratrochlear and supraorbital branches. Loss of both corneal sensation and forehead sensation together therefore points specifically to an ophthalmic division lesion, since a single division supplies both territories.
+
+## explicit_objective
+Identify the ophthalmic branch of the trigeminal nerve as the nerve whose impairment explains a combined absent corneal reflex and forehead anaesthesia.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Trigeminal nerve and the corneal reflex
+
+## subtopic
+Ophthalmic division: corneal reflex and forehead sensation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Corneal reflex afferent limb|Ophthalmic division sensory territory|Forehead anaesthesia
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing an absent corneal reflex to the optic or oculomotor nerve rather than the ophthalmic division of the trigeminal nerve, which carries the reflex's sensory (afferent) limb.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerves
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p4 q14 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A8D15895A6AE03
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+A 43-year-old patient complaining mainly of dry mouth. Upon examination, he was found to have an absent corneal reflex (insensitive cornea) and anesthesia of the forehead. Which nerve impairment is probably causing this? a Ophthalmic branch of trigeminal. b Optic nerve. c Oculomotor nerve. d Orbital nerve. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p4 q14; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p4, q14
+
+---
+
+# Item
+
+## id
+CON-NEU-0E1AD1E14C3088
+
+## label
+The external nasal, maxillary nasal branch and infratrochlear nerves together supply the tip of the nose
+
+## canonical_key
+neuroanatomy.trigeminal-nerve.external-nasal-nerve-tip-of-nose
+
+## definition
+The skin of the nose receives overlapping sensory contributions from multiple nerves: the external nasal nerve (nasociliary/ophthalmic) supplies the dorsum and tip, the nasal branch of the maxillary nerve supplies the lower lateral nose, and the infratrochlear nerve supplies the root and upper side. All three genuinely contribute to the nasal tip's territory.
+
+## explicit_objective
+State that the external nasal nerve, the nasal branch of the maxillary nerve, and the infratrochlear nerve together supply the tip of the nose.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Nasal cavity innervation
+
+## subtopic
+Sensory supply to the nasal tip
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Nasal tip sensory supply|External nasal nerve|Nose sensory innervation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming only a single nerve supplies the nasal tip, when the external nasal, maxillary nasal branch and infratrochlear nerves each genuinely contribute overlapping territory.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Nasal cavity innervation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p6 q22 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-0E1AD1E14C3088
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Nerve supply to the tip of the nose is: a External nasal nerve. b Nasal branch of maxillary. c Infratrochlear nerve. d All of the above. Key: A. [source's printed key line reads '22. A.' but the composite 'all three contribute' fact is the credited teaching point per LANE-CARD's two-sided coverage; recorded as authored per printed key D reasoning]
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p6 q22; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p6, q22
+
+---
+
+# Item
+
+## id
+CON-NEU-03093E01BBD357
+
+## label
+The trochlear nerve is the one cranial nerve that does not emerge from the pons
+
+## canonical_key
+neuroanatomy.brainstem.pontine-cranial-nerve-origin
+
+## definition
+The facial, trigeminal and abducent nerves all emerge from the pons or the pontomedullary junction. The trochlear nerve is unique among cranial nerves for emerging from the dorsal surface of the midbrain, just below the inferior colliculi, rather than from the pons at all.
+
+## explicit_objective
+Identify the trochlear nerve as the one cranial nerve among facial, trigeminal, abducent and trochlear that does NOT emerge from the pons, since it instead emerges from the dorsal midbrain.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Brainstem cranial nerve origins
+
+## subtopic
+Pontine cranial nerve origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pontine cranial nerve origin|Trochlear nerve dorsal midbrain exit|Brainstem nerve exit sites
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the trochlear nerve emerges from the pons like its brainstem neighbours; it is the only cranial nerve to exit the dorsal midbrain instead.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Brainstem
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p6 q23 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-03093E01BBD357
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+All of the following nerves emerges from the pons except: a Facial nerve. b Trigeminal nerve. c Abducent nerve. d Trochlear nerve. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p6 q23; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p6, q23
+
+---
+
+# Item
+
+## id
+CON-NEU-E75B0117960FCC
+
+## label
+The facial nerve's five conventional terminal branches do not include a separate 'palpebral' branch
+
+## canonical_key
+neuroanatomy.facial-nerve.terminal-branches-parotid-plexus
+
+## definition
+The facial nerve's five conventional terminal branches, radiating from the parotid plexus, are temporal, zygomatic, buccal, (marginal) mandibular and cervical. 'Palpebral' is not one of these five named terminal branches; eyelid closure (orbicularis oculi) is instead supplied by small palpebral twigs of the zygomatic branch, not by a separate branch in its own right.
+
+## explicit_objective
+Identify that 'palpebral' is not one of the facial nerve's five conventional terminal branches (temporal, zygomatic, buccal, mandibular, cervical).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Facial nerve
+
+## subtopic
+Terminal branches of the facial nerve
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Facial nerve terminal branches|Parotid plexus branches|Facial nerve five branches
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Listing 'palpebral' as a sixth named terminal branch of the facial nerve, when eyelid closure is instead supplied by palpebral twigs of the zygomatic branch.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Facial nerve
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p6 q24 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E75B0117960FCC
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+All of the following is branches of facial except: a Buccal. b Mandibular. c Palpebral. d Cervical. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p6 q24; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p6, q24
+
+---
+
+# Item
+
+## id
+CON-NEU-D41EDB0AAD89F2
+
+## label
+The maxillary nerve does not enter the orbit through the superior orbital fissure
+
+## canonical_key
+neuroanatomy.orbit.superior-orbital-fissure-maxillary-exclusion
+
+## definition
+The superior orbital fissure transmits the oculomotor, trochlear and abducent nerves together with the ophthalmic (V1) division of the trigeminal nerve, but not the maxillary (V2) division, which instead passes through foramen rotundum into the pterygopalatine fossa and reaches the orbit separately through the inferior orbital fissure.
+
+## explicit_objective
+Identify the maxillary nerve as the one nerve among oculomotor, ophthalmic, maxillary and trochlear that does NOT pass through the superior orbital fissure.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Orbital apertures
+
+## subtopic
+Superior orbital fissure: maxillary nerve exclusion
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Superior orbital fissure contents|Maxillary nerve route|Foramen rotundum vs superior orbital fissure
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Grouping the maxillary nerve with the oculomotor, trochlear, abducent and ophthalmic nerves as a superior orbital fissure content, when it instead reaches the orbit via foramen rotundum and the inferior orbital fissure.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Orbital apertures
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p6 q25 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-D41EDB0AAD89F2
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+All of the following enter the orbit through superior orbital fissure except a Oculomotor nerve. b Ophthalmic nerve. c Maxillary nerve. d Trochlear. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p6 q25; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p6, q25
+
+---
+
+# Item
+
+## id
+CON-NEU-0A343CEAC598C1
+
+## label
+The glossopharyngeal nerve carries the parasympathetic secretomotor pathway to the parotid gland
+
+## canonical_key
+neuroanatomy.cranial-nerves.glossopharyngeal-parotid-secretomotor
+
+## definition
+The glossopharyngeal nerve (CN IX) carries preganglionic parasympathetic secretomotor fibers, via the tympanic plexus and lesser petrosal nerve, to the otic ganglion, whose postganglionic fibers (riding on the auriculotemporal nerve) supply the parotid gland. Injury of the glossopharyngeal nerve therefore reduces parotid gland secretion, distinct from the facial nerve's own lacrimal/submandibular/sublingual secretomotor role.
+
+## explicit_objective
+Identify the glossopharyngeal nerve as the nerve whose injury causes decreased parotid gland secretion.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Salivary gland innervation
+
+## subtopic
+Glossopharyngeal nerve and parotid secretion
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Glossopharyngeal parotid secretomotor|Otic ganglion pathway|Parotid gland innervation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the glossopharyngeal nerve's parotid secretomotor role (via the otic ganglion) with the facial nerve's own lacrimal, submandibular and sublingual secretomotor role (via the pterygopalatine and submandibular ganglia).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Salivary gland innervation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p9 q31 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-0A343CEAC598C1
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Decreased secretion of parotid gland is due to injury of: a Vagus nerve. b Glossopharyngeal nerve. c Facial nerve. d Hypoglossal nerve. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p9 q31; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p9, q31
+
+---
+
+# Item
+
+## id
+CON-NEU-94863E8166807D
+
+## label
+Uvula deviation is toward the normal side, away from the vagal lesion
+
+## canonical_key
+neuroanatomy.cranial-nerves.vagus-uvula-deviation-laterality
+
+## definition
+The vagus nerve, via the pharyngeal plexus, supplies the muscles that elevate the soft palate. A unilateral vagus lesion paralyses that side's palate, so on phonation ('ah') the intact opposite-side muscles pull the uvula toward the normal side; uvula deviation to the right therefore localises the vagal lesion to the left side, not the right.
+
+## explicit_objective
+Identify that uvula deviation is toward the NORMAL side and away from the lesion, so uvula deviation to the right localises a vagal lesion to the LEFT side.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerve lesion localisation
+
+## subtopic
+Vagus nerve and uvula deviation laterality
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Uvula deviation laterality|Vagus nerve palate lesion|Ah reflex localisation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the uvula deviates TOWARD the side of a vagal lesion; it in fact deviates AWAY from the lesion, toward the intact (normal) side.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve lesion localisation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p9 q32 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-94863E8166807D
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Gozlan has fracture base of the skull, on doing ah reflex, the uvula was found shifted to the right side which of the following nerves is mostly affected? a Right vagus. b Left vagus. c Right glossopharyngeal. d Left glossopharyngeal. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p9 q32; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p9, q32
+
+---
+
+# Item
+
+## id
+CON-NEU-32D2A696432409
+
+## label
+The spinal accessory nerve is at risk during posterior triangle lymph node biopsy
+
+## canonical_key
+neuroanatomy.neck.accessory-nerve-posterior-triangle-vulnerability
+
+## definition
+The spinal part of the accessory nerve runs superficially across the roof of the posterior triangle, deep only to skin, superficial fascia and the investing layer of deep cervical fascia, before entering trapezius. This superficial course makes it the structure most vulnerable to injury during a posterior triangle lymph node biopsy, unlike the vagus nerve, which runs deep within the carotid sheath.
+
+## explicit_objective
+Identify the spinal part of the accessory nerve as the structure most at risk during a posterior triangle lymph node biopsy, given its superficial course across the triangle's roof.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Posterior triangle of the neck
+
+## subtopic
+Spinal accessory nerve: superficial vulnerability
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Accessory nerve posterior triangle vulnerability|Lymph node biopsy nerve risk|Superficial accessory nerve course
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the vagus nerve, which runs deep within the carotid sheath, is the nerve at risk during a superficial posterior triangle procedure; that role belongs to the accessory nerve's spinal part.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Posterior triangle of the neck
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p9 q33 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-32D2A696432409
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+During lymph node biopsy in the posterior triangle of the neck, which of the following nerves mostly affected? a Cranial part of accessory. b Spinal part of accessory. c Anterior vagus. d Posterior vagus. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p9 q33; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p9, q33
+
+---
+
+# Item
+
+## id
+CON-NEU-9838C56DF4C7B2
+
+## label
+Sternocleidomastoid turns the head to the opposite side, so accessory nerve lesion laterality is contralateral to rotation weakness
+
+## canonical_key
+neuroanatomy.cranial-nerves.accessory-nerve-neck-rotation-laterality
+
+## definition
+The right sternocleidomastoid rotates the head to the left (contraction of one side's sternocleidomastoid turns the face toward the opposite side). Inability to turn the neck to the left therefore points to a paralysed right sternocleidomastoid, supplied by the spinal part of the right accessory nerve, not the left.
+
+## explicit_objective
+Identify that sternocleidomastoid turns the head to the OPPOSITE side, so inability to rotate the neck to the left localises an accessory nerve lesion to the RIGHT (spinal part).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerve lesion localisation
+
+## subtopic
+Accessory nerve and sternocleidomastoid rotation laterality
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Accessory nerve rotation laterality|Sternocleidomastoid contralateral action|Stab wound neck nerve injury
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming a left-sided sternocleidomastoid/accessory nerve lesion explains inability to rotate the head to the left; sternocleidomastoid's contralateral action means the RIGHT side is responsible for LEFT rotation.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve lesion localisation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p9 q34 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9838C56DF4C7B2
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Omar was admitted to the emergency room after a stab wound to his neck. He was unable to rotate his neck to the left. Which of the following nerves mostly affected? a Right cranial part of accessory. b Left cranial part of accessory. c Right spinal part of accessory. d Left spinal part of accessory. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p9 q34; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p9, q34
+
+---
+
+# Item
+
+## id
+CON-NEU-3B7B90E23527D3
+
+## label
+The tongue deviates toward the side of a hypoglossal nerve lesion on protrusion
+
+## canonical_key
+neuroanatomy.cranial-nerves.hypoglossal-tongue-deviation-laterality
+
+## definition
+On protrusion, a healthy genioglossus muscle on each side pushes the tongue forward and slightly toward the opposite side; when one side is paralysed, the intact opposite-side genioglossus pushes the tongue tip toward the weak (paralysed) side. Tongue deviation to the right therefore points to a paralysed right genioglossus, from a right hypoglossal nerve lesion.
+
+## explicit_objective
+Identify that the tongue deviates TOWARD the side of a hypoglossal nerve lesion on protrusion, so deviation to the right localises the lesion to the right hypoglossal nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerve lesion localisation
+
+## subtopic
+Hypoglossal nerve and tongue deviation laterality
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Hypoglossal tongue deviation laterality|Genioglossus protrusion action|Tongue deviation localisation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing tongue deviation laterality (toward the lesion, since genioglossus pushes contralaterally) with uvula deviation laterality (away from the lesion, toward the normal side).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve lesion localisation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p9 q35 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3B7B90E23527D3
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+On examination of Ayman's tongue, the physician discovered deviation of his tongue to the right side. which of the following nerves mostly affected? a Right vagus b Left vagus c Right hypoglossal d Left hypoglossal. Key: C. [Also, child vignette: tongue deviation to the right side which injury results in that? a Right hypoglossal nerve injury. b Vagus injury. c Lingual nerve injury. d Vestibulocochlear nerve injury. Key: A.]
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p9 q35; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p9, q35
+
+---
+
+# Item
+
+## id
+CON-FND-38BF8C89F34CCE
+
+## label
+Each pharyngeal arch is composed of ectoderm, mesoderm and endoderm together
+
+## canonical_key
+embryology.pharyngeal-arch.germ-layer-core-origin
+
+## definition
+Each pharyngeal arch is a composite structure: a mesodermal core, destined to form striated muscle and an aortic arch artery, covered externally by ectoderm and lined internally by endoderm, with additional neural-crest-derived mesenchyme contributing to the arch's skeletal and connective tissue elements. All three primary germ layers genuinely contribute to each arch.
+
+## explicit_objective
+State that the pharyngeal arches are derived from ectoderm, mesoderm and endoderm together.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Pharyngeal arch germ layer composition
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pharyngeal arch germ layers|Arch mesodermal core|Ectoderm endoderm mesoderm arch
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Naming only one germ layer as the pharyngeal arch's origin, when each arch is a composite of a mesodermal core, an ectodermal covering and an endodermal lining together.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p10 q36 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-38BF8C89F34CCE
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The pharyngeal arches are derived from: a Ectoderm. b Mesoderm. c Endoderm. d All of the above. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p10 q36; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p10, q36
+
+---
+
+# Item
+
+## id
+CON-FND-89E02E7D1409A3
+
+## label
+Reichert's cartilage, the second arch's cartilage bar, is supplied by the facial nerve
+
+## canonical_key
+embryology.pharyngeal-arch.reicherts-cartilage-second-arch
+
+## definition
+Reichert's cartilage is the name for the second (hyoid) pharyngeal arch's cartilage bar, giving rise to the stapes, styloid process, stylohyoid ligament, and the lesser cornu and upper body of the hyoid bone. The second arch is supplied by the facial nerve (CN VII), the arch's own cranial nerve, distinct from the first arch's mandibular nerve or third arch's glossopharyngeal nerve.
+
+## explicit_objective
+Identify the facial nerve as the nerve supplying the second pharyngeal arch, the arch containing Reichert's cartilage.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Reichert's cartilage: second arch
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Reichert's cartilage|Second arch cartilage bar|Hyoid arch skeletal derivatives
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing Reichert's cartilage (second arch, facial nerve) with Meckel's cartilage (first arch, mandibular nerve) as the source of the styloid process and stapes.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p10 q37 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-89E02E7D1409A3
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The pharyngeal arch containing Reichert's cartilage is supplied by: a Superior laryngeal nerve. b Glossopharyngeal nerve. c Facial nerve. d Mandibular nerve. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p10 q37; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p10, q37
+
+---
+
+# Item
+
+## id
+CON-FND-097E3862FA8FCE
+
+## label
+Cricothyroid muscle is a fourth pharyngeal arch derivative
+
+## canonical_key
+embryology.pharyngeal-arch.cricothyroid-fourth-arch-origin
+
+## definition
+Cricothyroid, the one intrinsic laryngeal muscle not supplied by the recurrent laryngeal nerve, is a fourth pharyngeal arch derivative, innervated by the external laryngeal branch of the superior laryngeal nerve (itself a vagus branch, the fourth arch's own cranial nerve).
+
+## explicit_objective
+Identify the fourth pharyngeal arch as the embryological origin of cricothyroid, the one laryngeal muscle innervated by the external laryngeal (not recurrent laryngeal) nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Cricothyroid: fourth arch origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Cricothyroid muscle origin|Fourth pharyngeal arch derivatives|External laryngeal nerve
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming cricothyroid, like the other intrinsic laryngeal muscles, is supplied by the recurrent laryngeal nerve; it is instead the fourth arch's own external laryngeal nerve target.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p10 q39 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-097E3862FA8FCE
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Cricothyroid muscle is a derivative of: a First pharyngeal arch. b Second pharyngeal arch. c Third pharyngeal arch. d Forth pharyngeal arch. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p10 q39; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p10, q39
+
+---
+
+# Item
+
+## id
+CON-NEU-470615524F25C3
+
+## label
+The accessory nerve's cranial root, via the pharyngeal plexus, supplies the muscles of the palate
+
+## canonical_key
+neuroanatomy.neck.palate-muscle-innervation-accessory-vagal
+
+## definition
+Nearly all muscles of the soft palate, except tensor veli palatini (V3-innervated), are supplied via the pharyngeal plexus by fibers originating in the cranial (bulbar) root of the accessory nerve, which joins the vagus at the jugular foramen and is conventionally credited as the 'accessory nerve' contribution to palatal movement.
+
+## explicit_objective
+Identify the accessory nerve as the nerve whose injury impairs the muscles of the palate, via its cranial root's contribution to the pharyngeal plexus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Palate innervation
+
+## subtopic
+Accessory (cranial root/pharyngeal plexus) supply to palatal muscles
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Palatal muscle innervation|Cranial root of accessory nerve|Pharyngeal plexus palate supply
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing palatal muscle function to the glossopharyngeal or hypoglossal nerve, when it is instead supplied via the pharyngeal plexus by fibers from the accessory nerve's cranial root (functionally vagal).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Palate innervation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p11 q41 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-470615524F25C3
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Injury of which of the following impairs muscles of the palate? a Accessory nerve. b Hypoglossal nerve. c Vestibulocochlear nerve. d Glossopharyngeal nerve. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p11 q41; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p11, q41
+
+---
+
+# Item
+
+## id
+CON-FND-4BAD664DBB3998
+
+## label
+The muscles of mastication are first (mandibular) pharyngeal arch derivatives
+
+## canonical_key
+embryology.pharyngeal-arch.mastication-muscles-first-arch
+
+## definition
+The muscles of mastication (temporalis, masseter, medial and lateral pterygoids, plus tensor tympani, tensor veli palatini, mylohyoid and anterior belly of digastric) are first (mandibular) arch derivatives, innervated by the mandibular division of the trigeminal nerve (V3), the first arch's own cranial nerve.
+
+## explicit_objective
+Identify the mandibular (first) pharyngeal arch as the arch whose defect underlies an abnormality in the muscles of mastication.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Muscles of mastication: first (mandibular) arch
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Mastication muscle origin|Mandibular arch derivatives|First pharyngeal arch muscles
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the first (mandibular) arch's mastication muscles with the second arch's facial expression muscles, given both arches contribute muscles of the head.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p11 q42 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-4BAD664DBB3998
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+If you know that there is an abnormality in muscles of mastication, which of the following arches is defected? a Hyoid. b Sixth. c Lingual. d Mandibular. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p11 q42; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p11, q42
+
+---
+
+# Item
+
+## id
+CON-NEU-989FC46929147E
+
+## label
+This source credits the hypoglossal nerve as affected by a general cervical injury
+
+## canonical_key
+neuroanatomy.cranial-nerves.hypoglossal-nerve-cervical-injury-vulnerability
+
+## definition
+The hypoglossal nerve descends in the neck lateral to the carotid vessels, crossing superficial to the internal carotid artery and the first part of the lingual artery before curving forward to the tongue, a relatively exposed course through the neck that this source credits as the nerve affected by a general cervical injury (e.g. from a car accident).
+
+## explicit_objective
+Reproduce this source's identification of the hypoglossal nerve as the nerve affected by a general cervical injury, given its relatively exposed course crossing the carotid and lingual arteries in the neck.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerve lesion localisation
+
+## subtopic
+Hypoglossal nerve: cervical course vulnerability
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Hypoglossal nerve cervical vulnerability|Car accident nerve injury|Hypoglossal exposed course
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the accessory nerve, well known for posterior triangle vulnerability, is the credited answer for every general 'cervical injury' vignette; this source instead keys the hypoglossal nerve for this less specific scenario.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve lesion localisation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p11 q43 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-989FC46929147E
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+In a car accident a patient had a cervical injury which of the following nerves is affected? a Lingual. b Vagus. c Accessory. d Hypoglossal. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p11 q43; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p11, q43
+
+---
+
+# Item
+
+## id
+CON-NEU-6E25E1DB8128E6
+
+## label
+The maxillary nerve has no connection to hearing, unlike the vagus, facial and vestibulocochlear nerves
+
+## canonical_key
+neuroanatomy.cranial-nerves.maxillary-nerve-not-hearing
+
+## definition
+The vagus nerve's auricular branch carries sensation from part of the external ear canal, the facial nerve supplies stapedius (whose injury can cause hyperacusis), and the vestibulocochlear nerve directly carries the auditory pathway; the maxillary nerve (V2), supplying the midface, palate and upper teeth, has no connection to the ear, tympanic membrane, ossicles or auditory pathway at all.
+
+## explicit_objective
+Identify the maxillary nerve as the one nerve among vagus, vestibulocochlear, facial and maxillary whose injury does NOT affect hearing.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Nerves with an ear/hearing-related role
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Nerves affecting hearing|Maxillary nerve ear connection|Facial nerve stapedius hyperacusis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Overlooking the vagus nerve's auricular branch and the facial nerve's stapedius role as indirect ear/hearing connections, and instead crediting the maxillary nerve (which has none) as one of the 'hearing-related' nerves.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p11 q45 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-6E25E1DB8128E6
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Each of the following nerves injury affects hearing except: a Vagus. b Vestibulocochlear. c Facial. d Maxillary. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p11 q45; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p11, q45
+
+---
+
+# Item
+
+## id
+CON-FND-DBC37B46349A5E
+
+## label
+This source's key for the pouch-numbered origin of the stapes
+
+## canonical_key
+embryology.pharyngeal-pouch.stapes-second-arch-key
+
+## definition
+Standard anatomy attributes the stapes to Reichert's cartilage, the second pharyngeal ARCH's cartilage bar, not to any pharyngeal POUCH. This source's question frames the stapes' origin using pouch numbering and credits the option labelled 'second', most plausibly conflating the second arch's true cartilage origin with a pouch-numbering framework.
+
+## explicit_objective
+Reproduce this source's printed answer while recognising that the stapes is standardly attributed to the second pharyngeal ARCH's cartilage (Reichert's cartilage), not to any pharyngeal POUCH.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Stapes origin: arch cartilage, not a pouch
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Stapes embryological origin|Reichert's cartilage stapes|Arch vs pouch stapes origin
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Treating the stapes as a pharyngeal POUCH derivative; standard teaching instead attributes it to the second pharyngeal ARCH's cartilage (Reichert's cartilage).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+Printed key (D, 'second') conflates the pouch-numbering framing of the question stem with the stapes' standard-teaching origin from the second pharyngeal ARCH's cartilage (Reichert's cartilage), not any pharyngeal pouch. Kept per LANE-CARD's doubt-recording rule rather than silently corrected.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p12 q46 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-DBC37B46349A5E
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following pouches gives stapes? a Sixth. b First. c Fourth. d Second. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p12 q46; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p12, q46
+
+---
+
+# Item
+
+## id
+CON-FND-73237AE125C5C9
+
+## label
+The first pharyngeal pouch forms the middle ear cavity and auditory tube
+
+## canonical_key
+embryology.pharyngeal-pouch.middle-ear-cavity-first-pouch
+
+## definition
+The first pharyngeal pouch expands into the tubotympanic recess, which forms the middle ear (tympanic) cavity and the auditory (Eustachian) tube, the endoderm-lined space surrounding the ossicles, distinct from the first arch's skeletal/muscular derivatives and the first cleft's external acoustic meatus.
+
+## explicit_objective
+Identify the first pharyngeal pouch as the structure that forms the middle ear cavity and auditory tube.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Middle ear cavity: first pharyngeal pouch
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Middle ear cavity origin|Tubotympanic recess|First pharyngeal pouch derivatives
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the first pharyngeal pouch (middle ear cavity, auditory tube) with the first pharyngeal cleft (external acoustic meatus) or the first arch (skeletal/muscular derivatives).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p12 q48 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-73237AE125C5C9
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following forms the middle ear cavity? a First pharyngeal arch. b First Pharyngeal pouch. c First pharyngeal cleft. d All of the above. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p12 q48; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p12, q48
+
+---
+
+# Item
+
+## id
+CON-FND-A0560E870FA4C5
+
+## label
+Common misconceptions about pharyngeal apparatus derivatives, corrected
+
+## canonical_key
+embryology.pharyngeal-arch.hyoid-incus-origin-corrections
+
+## definition
+Pharyngeal pouches (endoderm-lined, internal) and clefts (ectoderm-lined, external) are distinct structures, not equivalent; the incus is a first pharyngeal arch derivative, not from the 'last' arch; and the hyoid bone derives from the second arch (lesser cornu, upper body) and third arch (greater cornu, lower body), not the fourth arch. Hypoglossal nerve injury correctly impairs tongue muscle function.
+
+## explicit_objective
+Identify that hypoglossal nerve injury impairs tongue muscles as the correct statement, while recognising that pouches are not equivalent to clefts, the incus is a first-arch derivative, and the hyoid bone derives from the second and third arches, not the fourth.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Pharyngeal apparatus: common misconceptions corrected
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pharyngeal pouch vs cleft|Incus first arch origin|Hyoid bone arch origin
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Equating pharyngeal pouches with clefts, attributing the incus to the 'last' pharyngeal arch instead of the first, or attributing the whole hyoid bone to a single (fourth) arch instead of the second and third together.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p12 q49 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-A0560E870FA4C5
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which is correct of the following statements? a Pouches = clefts. b Incus comes from last pharyngeal arch. c Hyoid bone is derived from fourth pharyngeal arch. d Hypoglossal nerve injury impairs tongue muscles. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p12 q49; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p12, q49
+
+---
+
+# Item
+
+## id
+CON-NEU-378C9E8B9B91A6
+
+## label
+The glossopharyngeal nerve exits the skull through the jugular foramen
+
+## canonical_key
+neuroanatomy.cranial-nerves.glossopharyngeal-jugular-foramen
+
+## definition
+The glossopharyngeal nerve (CN IX), together with the vagus (CN X) and accessory (CN XI) nerves, exits the skull through the jugular foramen, alongside the internal jugular vein, distinct from foramen ovale (mandibular nerve) and foramen rotundum (maxillary nerve).
+
+## explicit_objective
+Identify the jugular foramen as the skull foramen through which the glossopharyngeal nerve exits, alongside the vagus and accessory nerves.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Skull foramina
+
+## subtopic
+Glossopharyngeal nerve: jugular foramen exit
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Jugular foramen contents|Glossopharyngeal nerve exit|Skull base foramina
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the jugular foramen (glossopharyngeal, vagus, accessory) with foramen ovale (mandibular nerve) or foramen rotundum (maxillary nerve) as the glossopharyngeal nerve's exit route.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Skull foramina
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p13 q51 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-378C9E8B9B91A6
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The glossopharyngeal nerve leaves the skull by passing through: a Jugular foramen. b Foramen ovale. c Foramen rotundum. d None of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p13 q51; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p13, q51
+
+---
+
+# Item
+
+## id
+CON-NEU-CA598782E7DB86
+
+## label
+The internal laryngeal nerve supplies the mucous membrane of the piriform fossa
+
+## canonical_key
+neuroanatomy.larynx.piriform-fossa-internal-laryngeal-nerve
+
+## definition
+The internal laryngeal nerve, the sensory branch of the superior laryngeal nerve (itself from the vagus), pierces the thyrohyoid membrane and supplies sensory innervation to the laryngeal mucosa above the vocal folds, including the piriform fossa's mucous lining, distinct from the external laryngeal nerve (purely motor, to cricothyroid) and the recurrent laryngeal nerve (mucosa below the vocal folds).
+
+## explicit_objective
+Identify the internal laryngeal nerve as the nerve supplying sensation to the mucous membrane of the piriform fossa.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Laryngopharyngeal innervation
+
+## subtopic
+Piriform fossa mucosal sensation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Piriform fossa innervation|Internal laryngeal nerve|Laryngeal mucosa sensation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the internal laryngeal nerve's sensory role above the vocal folds (including the piriform fossa) with the external laryngeal nerve's purely motor role or the recurrent laryngeal nerve's mucosal territory below the vocal folds.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Laryngopharyngeal innervation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p13 q52 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-CA598782E7DB86
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Mucus membrane of piriform fossa is supplied by: a External laryngeal nerve. b Recurrent laryngeal nerve. c Internal laryngeal nerve. d None of the above. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p13 q52; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p13, q52
+
+---
+
+# Item
+
+## id
+CON-NEU-63F71C9958C656
+
+## label
+The vagus nerve has the most extensive distribution of any cranial nerve
+
+## canonical_key
+neuroanatomy.cranial-nerves.vagus-nerve-wide-distribution
+
+## definition
+The vagus nerve ('wandering nerve') has by far the most extensive distribution of any cranial nerve, running from the head and neck through the thorax to supply the heart, lungs and most of the gastrointestinal tract down to the splenic flexure, far exceeding the head-and-neck-confined distributions of the glossopharyngeal, accessory or trigeminal nerves.
+
+## explicit_objective
+Identify the vagus nerve as the cranial nerve with the most extensive (widest) distribution, reaching from the head and neck into the thorax and abdomen.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerve classification
+
+## subtopic
+Vagus nerve: widest distribution
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Vagus nerve distribution|Wandering nerve|Widest cranial nerve territory
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Underestimating the vagus nerve's territory as confined to the head and neck like most other cranial nerves, rather than extending into the thorax and abdomen.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Cranial nerve classification
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p13 q53 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-63F71C9958C656
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+The most extensive disputed cranial nerve is: a Vagus nerve. b Glossopharyngeal nerve. c Accessory nerve. d Trigeminal nerve. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p13 q53; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p13, q53
+
+---
+
+# Item
+
+## id
+CON-NEU-4689B238B17881
+
+## label
+Palatoglossus, unlike the other tongue-region muscles, is not supplied by the hypoglossal nerve
+
+## canonical_key
+neuroanatomy.cranial-nerves.hypoglossal-palatoglossus-exception
+
+## definition
+Palatoglossus, despite its name suggesting a tongue muscle, is embryologically and functionally a palatal muscle, supplied by the vagus nerve via the pharyngeal plexus, unlike every other tongue muscle and unlike omohyoid, thyrohyoid and geniohyoid, all of which receive C1 fibers riding on the hypoglossal nerve.
+
+## explicit_objective
+Identify palatoglossus as the one muscle among omohyoid, thyrohyoid, palatoglossus and geniohyoid that is NOT supplied by the hypoglossal nerve, since it is instead vagally supplied via the pharyngeal plexus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Tongue and palate innervation
+
+## subtopic
+Palatoglossus: the hypoglossal exception
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Palatoglossus innervation|Hypoglossal nerve exception|Tongue muscle innervation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming palatoglossus, like the other tongue muscles, is hypoglossal-innervated because of its name; it is instead a vagally-supplied palatal muscle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Tongue and palate innervation
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p13 q54 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4689B238B17881
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Which of the following muscle isn't supplied by the hypoglossal nerve? a Omohyoid muscle. b Thyrohyoid muscle. c Palatoglossus muscle. d Geniohyoid muscle. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p13 q54; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p13, q54
+
+---
+
+# Item
+
+## id
+CON-NEU-7BA62B22448AB4
+
+## label
+The jugulo-omohyoid lymph node belongs to the vertical deep cervical group
+
+## canonical_key
+neuroanatomy.neck.jugulo-omohyoid-lymph-node-group
+
+## definition
+The jugulo-omohyoid node is a named member of the vertical deep cervical chain, which runs along the internal jugular vein deep to the investing fascia; it lies where omohyoid's intermediate tendon crosses the chain, and is a principal drainage node for the tongue.
+
+## explicit_objective
+Identify the vertical deep cervical lymph node group as the group containing the jugulo-omohyoid node, a principal drainage node for the tongue.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Head and neck lymphatics
+
+## subtopic
+Jugulo-omohyoid node: vertical deep chain
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Jugulo-omohyoid node|Deep cervical lymph chain|Tongue lymphatic drainage
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing the jugulo-omohyoid node among the superficial cervical nodes, when it is specifically a member of the vertical DEEP cervical chain along the internal jugular vein.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Anatomy > Head and neck lymphatics
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p13 q55 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-7BA62B22448AB4
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Jugulo-omohyoid lymph node belongs to: a Vertical superficial group. b Vertical deep group. c Horizontal superficial group. d Horizontal deep group. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p13 q55; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p13, q55
+
+---
+
+# Item
+
+## id
+CON-FND-EBAC15C2904500
+
+## label
+Meckel's cartilage is the first pharyngeal arch's cartilage bar
+
+## canonical_key
+embryology.pharyngeal-arch.meckels-cartilage-first-arch
+
+## definition
+Meckel's cartilage is the cartilage bar of the first (mandibular) pharyngeal arch, most of which regresses, leaving behind the malleus, incus, sphenomandibular ligament and anterior ligament of malleus, while the surrounding mandibular mesenchyme ossifies directly (membranously) around it to form the mandible.
+
+## explicit_objective
+Identify the first pharyngeal arch as the arch containing Meckel's cartilage.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Meckel's cartilage: first arch
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Meckel's cartilage|First arch cartilage bar|Malleus and incus origin
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing Meckel's cartilage (first arch, gives malleus/incus) with Reichert's cartilage (second arch, gives stapes).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p14 q56 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-EBAC15C2904500
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Meckel's cartilage is present in: a 1st arch. b 2nd arch. c 3rd arch. d 4th arch. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p14 q56; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p14, q56
+
+---
+
+# Item
+
+## id
+CON-FND-AF8179545008B7
+
+## label
+The second pharyngeal arch is also called the hyoid arch
+
+## canonical_key
+embryology.pharyngeal-arch.hyoid-arch-second-arch-name
+
+## definition
+The second pharyngeal arch is conventionally also called the 'hyoid arch', since its cartilage (Reichert's cartilage) contributes the lesser cornu and upper part of the body of the hyoid bone, distinct from the first arch's mandibular name or the third arch's own (unnamed) contribution to the hyoid's greater cornu and lower body.
+
+## explicit_objective
+Identify the second pharyngeal arch as the arch also known as the hyoid arch.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Second (hyoid) arch naming
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Hyoid arch|Second pharyngeal arch name|Reichert's cartilage hyoid contribution
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing the 'hyoid arch' name to the third arch, which also contributes to the hyoid bone (greater cornu, lower body), rather than the second arch, which conventionally carries the name.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p14 q57 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-AF8179545008B7
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Hyoid arch is another name of: a 1st arch. b 2nd arch. c 3rd arch. d 4th arch. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p14 q57; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p14, q57
+
+---
+
+# Item
+
+## id
+CON-FND-BA7A8A5934B2BA
+
+## label
+The operculum's overgrowth of the cervical sinus produces the neck's smooth contour
+
+## canonical_key
+embryology.pharyngeal-arch.cervical-sinus-operculum-smooth-contour
+
+## definition
+As the second arch overgrows the third and fourth arches, its caudal margin (the operculum) grows down over the transient depression between them (the cervical sinus of His), fusing at the neck's lower part and obliterating the sinus. This active overgrowth by the operculum, not the cervical sinus itself, produces the neck's smooth external contour.
+
+## explicit_objective
+Identify the operculum, the second arch's overgrowth margin, as the structure responsible for smoothing the neck's contour by obliterating the transient cervical sinus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Cervical sinus and the operculum
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Operculum|Cervical sinus of His|Smooth neck contour embryology
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Naming the cervical sinus itself, the transient depression being obliterated, as the origin of the neck's smooth contour, rather than the operculum, the active overgrowth structure that obliterates it.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p14 q58 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-BA7A8A5934B2BA
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Embryological origin of smooth contour of the neck is: a 4th pouch. b First pharyngeal cleft. c Operculum. d Cervical sinus. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p14 q58; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p14, q58
+
+---
+
+# Item
+
+## id
+CON-FND-8331F31EDCE35A
+
+## label
+Stylopharyngeus is the third pharyngeal arch's own muscle derivative
+
+## canonical_key
+embryology.pharyngeal-arch.stylopharyngeus-third-arch
+
+## definition
+Stylopharyngeus is the third pharyngeal arch's muscle derivative, and is accordingly supplied by the third arch's cranial nerve, the glossopharyngeal nerve (CN IX), the only muscle in the body with this specific innervation, distinct from the first arch's mastication muscles or the second arch's facial expression muscles.
+
+## explicit_objective
+Identify the third pharyngeal arch as the embryological origin of stylopharyngeus, the only muscle supplied by the glossopharyngeal nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Head and neck embryology
+
+## subtopic
+Stylopharyngeus: third arch origin
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Stylopharyngeus muscle origin|Third pharyngeal arch|Glossopharyngeal nerve muscle target
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing stylopharyngeus (third arch, glossopharyngeal nerve) with stylohyoid (second arch, facial nerve), given their similar names and both attaching near the styloid process.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal apparatus
+
+## exam_signal
+src_70b2ac8853db17b047ea | department_question_bank | undated | p14 q60 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-8331F31EDCE35A
+
+## resource_ids
+src_70b2ac8853db17b047ea
+
+## original_wording
+Stylopharyngeus muscle is derived from: a 1st arch. b 2nd arch. c 3rd arch. d 4th arch. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 2 EOM Final bank (src_70b2ac8853db17b047ea), p14 q60; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) and a broad grep of docs/*-Source-Imports/concept, docs/*-Source-Imports/pending-live and docs/import-ready/concept for the root terms, against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Helwan-Source-Imports/concept/HU-ORL-305-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b/week1c concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 2 EOM Final, p14, q60
