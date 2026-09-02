@@ -14792,3 +14792,4458 @@ authored_from_local_exam_bank_needs_independent_evidence
 arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
 arabicAliases: No reviewed Arabic aliases were supplied.
 asu: Tested as Para Q4 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells
+
+## id
+CON-GYN-4EF6767CA040A1
+
+## canonical_key
+standard-two-cell-corpus-luteum-physiology-credits-progesterone-secretion-mainly-to-granul
+
+## definition
+Standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells.
+
+## explicit_objective
+State that standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T01-S02-M01
+
+## secondary_node_ids
+DIS-HIS-T03
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Pelvic organs
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## confidence
+0.85
+
+## topic
+Female reproductive histology
+
+## subtopic
+Pelvic organs
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+What is the predominant source of progesterone secretion from the corpus luteum after ovulation, as identified in this source?
+
+## pitfalls
+Assuming this source's theca-lutein answer is the universal teaching point; some standard references instead emphasize granulosa lutein cells as the larger corpus luteum progesterone contributor.
+
+## article_ids
+ART-GYN-ASU-UG-STANDARD-TWO-CELL-CORPUS-LUTEUM-PHYSIOLOGY-CREDITS-PROGESTERONE-SECRETION-MAINLY-TO-GRANUL
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Histo Q11, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf. Doubtful key — see author_notes on the paired question and coverage/ASU-UG-LEDGER.md.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors. This item's key is doubtful against some standard teaching sources — see field_notes/author_notes.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-STANDARD-TWO-CELL-CORPUS-LUTEUM-PHYSIOLOGY-CREDITS-PROGESTERONE-SECRETION-MAINLY-TO-GRANUL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Histo Q11 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own. Doubtful key, authored per chief-of-staff ruling with the printed key standing; see author_notes.
+
+---
+
+# Item
+
+## label
+Standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection
+
+## id
+CON-INF-C583F1DD8DD1FC
+
+## canonical_key
+standard-teaching-credits-adenovirus-as-the-classic-viral-cause-of-hemorrhagic-cystitis-th
+
+## definition
+Standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection.
+
+## explicit_objective
+State that standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## confidence
+0.85
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Urinary tract infection
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Which of the following viruses is considered, per this source, an important cause of urinary tract infection?
+
+## pitfalls
+Assuming this source's HSV-2 answer is the universal teaching point; some standard references instead emphasize adenovirus as the classic cause of viral hemorrhagic cystitis.
+
+## article_ids
+ART-INF-ASU-UG-STANDARD-TEACHING-CREDITS-ADENOVIRUS-AS-THE-CLASSIC-VIRAL-CAUSE-OF-HEMORRHAGIC-CYSTITIS-TH
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Micro Q4, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf. Doubtful key — see author_notes on the paired question and coverage/ASU-UG-LEDGER.md.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors. This item's key is doubtful against some standard teaching sources — see field_notes/author_notes.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-INF-ASU-UG-STANDARD-TEACHING-CREDITS-ADENOVIRUS-AS-THE-CLASSIC-VIRAL-CAUSE-OF-HEMORRHAGIC-CYSTITIS-TH-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Micro Q4 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own. Doubtful key, authored per chief-of-staff ruling with the printed key standing; see author_notes.
+
+---
+
+# Item
+
+## label
+Standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen
+
+## id
+CON-INF-079B20244C1F99
+
+## canonical_key
+standard-guidance-requires-penicillin-with-desensitization-if-allergic-for-syphilis-in-pre
+
+## definition
+Standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen.
+
+## explicit_objective
+State that standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen.
+
+## concept_type
+guideline
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-OBS-T01-S01-M03
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Perinatal infection
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## confidence
+0.85
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Perinatal infection
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+What is the best course of treatment for latent syphilis diagnosed in a pregnant woman, as identified in this source?
+
+## pitfalls
+Assuming this source's ampicillin regimen is the universal guideline; standard CDC/WHO guidance instead holds penicillin (via desensitization if allergic) as the only proven regimen for syphilis in pregnancy.
+
+## article_ids
+ART-INF-ASU-UG-STANDARD-GUIDANCE-REQUIRES-PENICILLIN-WITH-DESENSITIZATION-IF-ALLERGIC-FOR-SYPHILIS-IN-PRE
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Micro Q10, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf. Doubtful key — see author_notes on the paired question and coverage/ASU-UG-LEDGER.md.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent textbook reference not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors. This item's key is doubtful against some standard teaching sources — see field_notes/author_notes.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-INF-ASU-UG-STANDARD-GUIDANCE-REQUIRES-PENICILLIN-WITH-DESENSITIZATION-IF-ALLERGIC-FOR-SYPHILIS-IN-PRE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Micro Q10 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own. Doubtful key, authored per chief-of-staff ruling with the printed key standing; see author_notes.
+
+---
+
+# Item
+
+## label
+Nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings
+
+## id
+CON-GYN-4FC8E0FB63542E
+
+## canonical_key
+nabothian-cysts-form-in-chronic-cervicitis-when-squamous-metaplasia-obstructs-endocervical
+
+## definition
+Nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings.
+
+## explicit_objective
+State that nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T04-S01
+
+## secondary_node_ids
+DIS-PAT-T02
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Which of the following is a characteristic histologic finding in chronic cervicitis?
+
+## pitfalls
+Assuming Nabothian cysts signal a specific infection rather than recognizing them as a benign consequence of squamous metaplasia obstructing endocervical glands.
+
+## article_ids
+ART-GYN-ASU-UG-NABOTHIAN-CYSTS-FORM-IN-CHRONIC-CERVICITIS-WHEN-SQUAMOUS-METAPLASIA-OBSTRUCTS-ENDOCERVICAL
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q1, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-NABOTHIAN-CYSTS-FORM-IN-CHRONIC-CERVICITIS-WHEN-SQUAMOUS-METAPLASIA-OBSTRUCTS-ENDOCERVICAL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q1 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Unopposed estrogen stimulation causes endometrial hyperplasia
+
+## id
+CON-GYN-A0DD9DCA9B07F5
+
+## canonical_key
+unopposed-estrogen-stimulation-causes-endometrial-hyperplasia
+
+## definition
+Unopposed estrogen stimulation causes endometrial hyperplasia.
+
+## explicit_objective
+State that unopposed estrogen stimulation causes endometrial hyperplasia.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A woman presents with abnormal uterine bleeding and is found to have unopposed excess estrogen stimulation. Which of the following endometrial changes is most likely?
+
+## pitfalls
+Confusing the proliferative effect of unopposed estrogen (hyperplasia) with the differentiating/secretory effect of progesterone, or with the atrophic changes of estrogen deficiency.
+
+## article_ids
+ART-GYN-ASU-UG-UNOPPOSED-ESTROGEN-STIMULATION-CAUSES-ENDOMETRIAL-HYPERPLASIA
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q2, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-UNOPPOSED-ESTROGEN-STIMULATION-CAUSES-ENDOMETRIAL-HYPERPLASIA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q2 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma
+
+## id
+CON-GYN-4E971C70987FA9
+
+## canonical_key
+phyllodes-tumor-of-the-breast-shows-leaf-like-architecture-with-a-hypercellular-stroma
+
+## definition
+Phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma.
+
+## explicit_objective
+State that phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T06-S01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A breast biopsy shows cystic spaces with leaf-like epithelial-lined projections and an excessively cellular stroma. What is the most likely diagnosis?
+
+## pitfalls
+Mistaking phyllodes tumor for a large fibroadenoma; the distinguishing feature is stromal hypercellularity, not the epithelial component.
+
+## article_ids
+ART-GYN-ASU-UG-PHYLLODES-TUMOR-OF-THE-BREAST-SHOWS-LEAF-LIKE-ARCHITECTURE-WITH-A-HYPERCELLULAR-STROMA
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q3, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-PHYLLODES-TUMOR-OF-THE-BREAST-SHOWS-LEAF-LIKE-ARCHITECTURE-WITH-A-HYPERCELLULAR-STROMA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q3 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Multiparity is protective against, not a risk factor for, endometrial carcinoma
+
+## id
+CON-GYN-CBD143FC1B674C
+
+## canonical_key
+multiparity-is-protective-against-not-a-risk-factor-for-endometrial-carcinoma
+
+## definition
+Multiparity is protective against, not a risk factor for, endometrial carcinoma.
+
+## explicit_objective
+State that multiparity is protective against, not a risk factor for, endometrial carcinoma.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S01-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Which of the following is NOT an established risk factor for endometrial carcinoma?
+
+## pitfalls
+Reflexively grouping nulliparity and multiparity together as 'reproductive factor' risks, when they have opposite associations with endometrial cancer risk.
+
+## article_ids
+ART-GYN-ASU-UG-MULTIPARITY-IS-PROTECTIVE-AGAINST-NOT-A-RISK-FACTOR-FOR-ENDOMETRIAL-CARCINOMA
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q4, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-MULTIPARITY-IS-PROTECTIVE-AGAINST-NOT-A-RISK-FACTOR-FOR-ENDOMETRIAL-CARCINOMA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q4 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+A mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage
+
+## id
+CON-GYN-580AA4B496C9CF
+
+## canonical_key
+a-mature-cystic-teratoma-dermoid-cyst-of-the-ovary-characteristically-contains-hair-and-ca
+
+## definition
+A mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage.
+
+## explicit_objective
+State that a mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S02-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Ovary
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Ovary
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+An ovarian mass is excised and gross examination reveals cartilage and hair within the specimen. What is the most likely diagnosis?
+
+## pitfalls
+Forgetting that only mature teratomas (not other germ cell tumors) contain fully differentiated tissue from all three germ layers.
+
+## article_ids
+ART-GYN-ASU-UG-A-MATURE-CYSTIC-TERATOMA-DERMOID-CYST-OF-THE-OVARY-CHARACTERISTICALLY-CONTAINS-HAIR-AND-CA
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q5, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-A-MATURE-CYSTIC-TERATOMA-DERMOID-CYST-OF-THE-OVARY-CHARACTERISTICALLY-CONTAINS-HAIR-AND-CA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q5 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Adenomyosis is a localized (intrauterine) form of endometriosis
+
+## id
+CON-GYN-9A5B3BE305A236
+
+## canonical_key
+adenomyosis-is-a-localized-intrauterine-form-of-endometriosis
+
+## definition
+Adenomyosis is a localized (intrauterine) form of endometriosis.
+
+## explicit_objective
+State that adenomyosis is a localized (intrauterine) form of endometriosis.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T03-S01-M02
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Uterus
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Uterus
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Adenomyosis is best classified as a form of which of the following?
+
+## pitfalls
+Treating adenomyosis and leiomyoma as interchangeable causes of an enlarged, boggy uterus, when only adenomyosis contains ectopic endometrial glands and stroma.
+
+## article_ids
+ART-GYN-ASU-UG-ADENOMYOSIS-IS-A-LOCALIZED-INTRAUTERINE-FORM-OF-ENDOMETRIOSIS
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q6, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-ADENOMYOSIS-IS-A-LOCALIZED-INTRAUTERINE-FORM-OF-ENDOMETRIOSIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q6 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium
+
+## id
+CON-GYN-5763C95FDCC680
+
+## canonical_key
+serous-cystadenoma-of-the-ovary-is-lined-by-ciliated-tubal-type-epithelium
+
+## definition
+Serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium.
+
+## explicit_objective
+State that serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S02-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Ovary
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Ovary
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+An excised ovarian cyst contains clear fluid and is lined by epithelium that is partly ciliated. What is the most likely diagnosis?
+
+## pitfalls
+Confusing the ciliated, tubal-type epithelium and clear fluid of serous cystadenoma with the thick mucoid content of mucinous cystadenoma.
+
+## article_ids
+ART-GYN-ASU-UG-SEROUS-CYSTADENOMA-OF-THE-OVARY-IS-LINED-BY-CILIATED-TUBAL-TYPE-EPITHELIUM
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q7, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-SEROUS-CYSTADENOMA-OF-THE-OVARY-IS-LINED-BY-CILIATED-TUBAL-TYPE-EPITHELIUM-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q7 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration
+
+## id
+CON-GYN-8947F33D0B41F7
+
+## canonical_key
+mammary-duct-ectasia-plasma-cell-mastitis-shows-dilated-ducts-with-periductal-plasma-cell
+
+## definition
+Mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration.
+
+## explicit_objective
+State that mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T06-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T02
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A breast biopsy shows dilated subareolar ducts with thick secretions and periductal plasma cell infiltration. What is the most likely diagnosis?
+
+## pitfalls
+Mistaking the mass and nipple retraction of duct ectasia for carcinoma, or attributing the periductal infiltrate to acute bacterial infection rather than a chronic reaction to inspissated secretions.
+
+## article_ids
+ART-GYN-ASU-UG-MAMMARY-DUCT-ECTASIA-PLASMA-CELL-MASTITIS-SHOWS-DILATED-DUCTS-WITH-PERIDUCTAL-PLASMA-CELL
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q8, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-MAMMARY-DUCT-ECTASIA-PLASMA-CELL-MASTITIS-SHOWS-DILATED-DUCTS-WITH-PERIDUCTAL-PLASMA-CELL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q8 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate
+
+## id
+CON-GYN-6E7F7B77808280
+
+## canonical_key
+medullary-carcinoma-of-the-breast-grows-in-syncytial-sheets-with-a-prominent-lymphoplasmac
+
+## definition
+Medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate.
+
+## explicit_objective
+State that medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T06-S02-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A movable breast mass shows lymphoplasmacytic infiltration, overlying normal skin, is negative for HER2/neu and ER/PR, and the tumor cells form continuous sheets (syncytial growth). What is the most likely diagnosis?
+
+## pitfalls
+Assuming triple-negative status always implies an aggressive, poor-prognosis picture; medullary carcinoma is a triple-negative subtype that behaves better than most triple-negative cancers because of its distinctive histology.
+
+## article_ids
+ART-GYN-ASU-UG-MEDULLARY-CARCINOMA-OF-THE-BREAST-GROWS-IN-SYNCYTIAL-SHEETS-WITH-A-PROMINENT-LYMPHOPLASMAC
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q9, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-MEDULLARY-CARCINOMA-OF-THE-BREAST-GROWS-IN-SYNCYTIAL-SHEETS-WITH-A-PROMINENT-LYMPHOPLASMAC-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q9 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Atypical endometrial hyperplasia shows crowded, cytologically atypical glands
+
+## id
+CON-GYN-5590F0ABCFCB7A
+
+## canonical_key
+atypical-endometrial-hyperplasia-shows-crowded-cytologically-atypical-glands
+
+## definition
+Atypical endometrial hyperplasia shows crowded, cytologically atypical glands.
+
+## explicit_objective
+State that atypical endometrial hyperplasia shows crowded, cytologically atypical glands.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S01-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A woman with abnormal uterine bleeding has an endometrial biopsy showing crowded, back-to-back glands with mitotically active, cytologically atypical lining epithelium. What is the most likely diagnosis?
+
+## pitfalls
+Missing the cytologic atypia component and calling any crowded-gland pattern 'hyperplasia' without distinguishing the atypical subtype, which is the one with real premalignant significance.
+
+## article_ids
+ART-GYN-ASU-UG-ATYPICAL-ENDOMETRIAL-HYPERPLASIA-SHOWS-CROWDED-CYTOLOGICALLY-ATYPICAL-GLANDS
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q10, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-ATYPICAL-ENDOMETRIAL-HYPERPLASIA-SHOWS-CROWDED-CYTOLOGICALLY-ATYPICAL-GLANDS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q10 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Fibrocystic change of the breast is a benign condition that can include apocrine metaplasia
+
+## id
+CON-GYN-44FF778469EBA7
+
+## canonical_key
+fibrocystic-change-of-the-breast-is-a-benign-condition-that-can-include-apocrine-metaplasi
+
+## definition
+Fibrocystic change of the breast is a benign condition that can include apocrine metaplasia.
+
+## explicit_objective
+State that fibrocystic change of the breast is a benign condition that can include apocrine metaplasia.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T06-S01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Which of the following best describes fibrocystic changes of the breast?
+
+## pitfalls
+Treating any lump or cyst in fibrocystic change as inherently suspicious for malignancy, when the presence of lymphadenopathy or atypical hyperplasia — not fibrocystic change itself — is what should raise that concern.
+
+## article_ids
+ART-GYN-ASU-UG-FIBROCYSTIC-CHANGE-OF-THE-BREAST-IS-A-BENIGN-CONDITION-THAT-CAN-INCLUDE-APOCRINE-METAPLASI
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q11, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-FIBROCYSTIC-CHANGE-OF-THE-BREAST-IS-A-BENIGN-CONDITION-THAT-CAN-INCLUDE-APOCRINE-METAPLASI-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q11 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+High-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA
+
+## id
+CON-AND-B7E375619AA743
+
+## canonical_key
+high-grade-prostatic-intraepithelial-neoplasia-is-associated-with-an-elevated-serum-psa
+
+## definition
+High-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA.
+
+## explicit_objective
+State that high-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+androl
+
+## primary_node_id
+SYS-AND-T04-S02-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Prostate
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Prostate
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Which of the following serum markers is characteristically elevated in high-grade prostatic intraepithelial neoplasia (PIN)?
+
+## pitfalls
+Reaching for a germ-cell tumor marker (AFP, β-hCG) for a prostatic epithelial lesion instead of PSA, the organ-appropriate marker.
+
+## article_ids
+ART-AND-ASU-UG-HIGH-GRADE-PROSTATIC-INTRAEPITHELIAL-NEOPLASIA-IS-ASSOCIATED-WITH-AN-ELEVATED-SERUM-PSA
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q14, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-AND-ASU-UG-HIGH-GRADE-PROSTATIC-INTRAEPITHELIAL-NEOPLASIA-IS-ASSOCIATED-WITH-AN-ELEVATED-SERUM-PSA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q14 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Lymphoma is the most common testicular malignancy in men over 60
+
+## id
+CON-AND-AF8AD37E540976
+
+## canonical_key
+lymphoma-is-the-most-common-testicular-malignancy-in-men-over-60
+
+## definition
+Lymphoma is the most common testicular malignancy in men over 60.
+
+## explicit_objective
+State that lymphoma is the most common testicular malignancy in men over 60.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+androl
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A 65-year-old man presents with painless scrotal (testicular) enlargement. Which of the following is the most likely underlying tumor?
+
+## pitfalls
+Defaulting to 'germ cell tumor' for any testicular mass regardless of age; in an elderly man, lymphoma should be the leading consideration.
+
+## article_ids
+ART-AND-ASU-UG-LYMPHOMA-IS-THE-MOST-COMMON-TESTICULAR-MALIGNANCY-IN-MEN-OVER-60
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q15, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-AND-ASU-UG-LYMPHOMA-IS-THE-MOST-COMMON-TESTICULAR-MALIGNANCY-IN-MEN-OVER-60-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q15 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+An endocervical polyp is not an established risk factor for cervical carcinoma
+
+## id
+CON-GYN-7D69D0535BC7A8
+
+## canonical_key
+an-endocervical-polyp-is-not-an-established-risk-factor-for-cervical-carcinoma
+
+## definition
+An endocervical polyp is not an established risk factor for cervical carcinoma.
+
+## explicit_objective
+State that an endocervical polyp is not an established risk factor for cervical carcinoma.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Which of the following is NOT an established risk factor for cervical carcinoma?
+
+## pitfalls
+Assuming any benign-sounding cervical growth (like a polyp) must still carry oncogenic risk, rather than recognizing that HPV persistence and its behavioral/cofactor risk factors are what actually drive cervical cancer risk.
+
+## article_ids
+ART-GYN-ASU-UG-AN-ENDOCERVICAL-POLYP-IS-NOT-AN-ESTABLISHED-RISK-FACTOR-FOR-CERVICAL-CARCINOMA
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q17, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-AN-ENDOCERVICAL-POLYP-IS-NOT-AN-ESTABLISHED-RISK-FACTOR-FOR-CERVICAL-CARCINOMA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q17 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction
+
+## id
+CON-AND-DABAE918EF0113
+
+## canonical_key
+benign-prostatic-hyperplasia-can-cause-hydronephrosis-and-hydroureter-from-bladder-outlet
+
+## definition
+Benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction.
+
+## explicit_objective
+State that benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+androl
+
+## primary_node_id
+SYS-AND-T04-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Prostate
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Prostate
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+Which of the following is a recognized complication of benign prostatic hyperplasia (BPH)?
+
+## pitfalls
+Attributing invasive features (seminal vesicle invasion) to BPH, which is a benign, non-invasive hyperplastic process whose complications are mechanical/obstructive rather than infiltrative.
+
+## article_ids
+ART-AND-ASU-UG-BENIGN-PROSTATIC-HYPERPLASIA-CAN-CAUSE-HYDRONEPHROSIS-AND-HYDROURETER-FROM-BLADDER-OUTLET
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q18, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-AND-ASU-UG-BENIGN-PROSTATIC-HYPERPLASIA-CAN-CAUSE-HYDRONEPHROSIS-AND-HYDROURETER-FROM-BLADDER-OUTLET-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q18 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP
+
+## id
+CON-AND-F45B8674770F7B
+
+## canonical_key
+yolk-sac-endodermal-sinus-tumor-of-the-testis-shows-schiller-duval-bodies-and-raises-serum
+
+## definition
+Yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP.
+
+## explicit_objective
+State that yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+androl
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T06
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A 2-year-old boy has a testicular mass with glomeruloid (Schiller-Duval body) structures on histology. Which of the following serum markers is most likely to be elevated?
+
+## pitfalls
+Mixing up the two classic germ cell tumor markers — AFP marks yolk sac elements, β-hCG marks syncytiotrophoblastic/choriocarcinomatous elements.
+
+## article_ids
+ART-AND-ASU-UG-YOLK-SAC-ENDODERMAL-SINUS-TUMOR-OF-THE-TESTIS-SHOWS-SCHILLER-DUVAL-BODIES-AND-RAISES-SERUM
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q19, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-AND-ASU-UG-YOLK-SAC-ENDODERMAL-SINUS-TUMOR-OF-THE-TESTIS-SHOWS-SCHILLER-DUVAL-BODIES-AND-RAISES-SERUM-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q19 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis
+
+## id
+CON-GYN-FFFE65A2F6FB3D
+
+## canonical_key
+lichen-sclerosus-of-the-vulva-shows-epidermal-thinning-with-underlying-dermal-sclerosis
+
+## definition
+Lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis.
+
+## explicit_objective
+State that lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S02
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Vulva and vagina
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Vulva and vagina
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A woman presents with vulvar thickening, and biopsy reveals epidermal thinning with underlying dermal fibrosis (sclerosis). What is the most likely diagnosis?
+
+## pitfalls
+Confusing lichen sclerosus (epidermal thinning/atrophy) with lichen simplex chronicus (epidermal thickening) — the two are histologic opposites despite the similar names.
+
+## article_ids
+ART-GYN-ASU-UG-LICHEN-SCLEROSUS-OF-THE-VULVA-SHOWS-EPIDERMAL-THINNING-WITH-UNDERLYING-DERMAL-SCLEROSIS
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q20, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-LICHEN-SCLEROSUS-OF-THE-VULVA-SHOWS-EPIDERMAL-THINNING-WITH-UNDERLYING-DERMAL-SCLEROSIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q20 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia
+
+## id
+CON-GYN-9010FC0BD3C7A2
+
+## canonical_key
+untreated-advanced-cervical-cancer-classically-causes-death-from-ureteral-obstruction-and
+
+## definition
+Untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia.
+
+## explicit_objective
+State that untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia.
+
+## concept_type
+definition
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A woman with untreated stage IV cervical cancer dies of her disease. Which of the following is the most likely direct cause of death?
+
+## pitfalls
+Assuming death from an advanced pelvic malignancy is generally from distant metastasis or hemorrhage, rather than recognizing the specific mechanical mechanism (ureteral obstruction) that dominates in cervical cancer given its pattern of local spread.
+
+## article_ids
+ART-GYN-ASU-UG-UNTREATED-ADVANCED-CERVICAL-CANCER-CLASSICALLY-CAUSES-DEATH-FROM-URETERAL-OBSTRUCTION-AND
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q22, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-UNTREATED-ADVANCED-CERVICAL-CANCER-CLASSICALLY-CAUSES-DEATH-FROM-URETERAL-OBSTRUCTION-AND-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q22 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side
+
+## id
+CON-AND-731FBB987CF49D
+
+## canonical_key
+cryptorchidism-raises-germ-cell-tumor-risk-in-the-contralateral-testis-even-after-orchiect
+
+## definition
+Cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side.
+
+## explicit_objective
+State that cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+androl
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A 25-year-old man with an atrophic, undescended (cryptorchid) inguinal testis undergoes orchiectomy of that testis. Which of the following is a recognized long-term risk he still faces?
+
+## pitfalls
+Assuming that orchiectomy of the maldescended testis eliminates the patient's elevated testicular cancer risk, when the contralateral testis remains at increased risk and needs ongoing follow-up.
+
+## article_ids
+ART-AND-ASU-UG-CRYPTORCHIDISM-RAISES-GERM-CELL-TUMOR-RISK-IN-THE-CONTRALATERAL-TESTIS-EVEN-AFTER-ORCHIECT
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q23, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-AND-ASU-UG-CRYPTORCHIDISM-RAISES-GERM-CELL-TUMOR-RISK-IN-THE-CONTRALATERAL-TESTIS-EVEN-AFTER-ORCHIECT-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q23 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology
+
+## id
+CON-GYN-34271B5FFB6076
+
+## canonical_key
+granulosa-cell-tumor-is-an-estrogen-secreting-ovarian-tumor-with-call-exner-body-microfoll
+
+## definition
+Granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology.
+
+## explicit_objective
+State that granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S02-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Ovary
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Ovary
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A postmenopausal woman presents with abnormal vaginal bleeding. Endometrial biopsy shows hyperplasia without atypia, and imaging reveals an adnexal ovarian mass; the mass shows cuboidal cells arranged in a microfollicular pattern on histology. What is the most likely diagnosis?
+
+## pitfalls
+Forgetting that among sex cord-stromal tumors, it is specifically the granulosa cell tumor that is estrogenic and drives endometrial hyperplasia/postmenopausal bleeding, not fibroma or other stromal tumors.
+
+## article_ids
+ART-GYN-ASU-UG-GRANULOSA-CELL-TUMOR-IS-AN-ESTROGEN-SECRETING-OVARIAN-TUMOR-WITH-CALL-EXNER-BODY-MICROFOLL
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q24, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-GRANULOSA-CELL-TUMOR-IS-AN-ESTROGEN-SECRETING-OVARIAN-TUMOR-WITH-CALL-EXNER-BODY-MICROFOLL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q24 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men
+
+## id
+CON-AND-30D0EA2DEF75DF
+
+## canonical_key
+nodular-prostatic-hyperplasia-bph-is-the-classic-cause-of-bladder-outlet-obstruction-prese
+
+## definition
+Nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men.
+
+## explicit_objective
+State that nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+androl
+
+## primary_node_id
+SYS-AND-T04-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Prostate
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Prostate
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A 78-year-old man with recurrent bouts of cystitis develops acute urinary retention. What is the most likely underlying cause of his bladder outlet obstruction?
+
+## pitfalls
+Overlooking BPH as the default, by-far-most-common cause of obstructive urinary symptoms and recurrent cystitis in an elderly man, in favor of rarer differential diagnoses.
+
+## article_ids
+ART-AND-ASU-UG-NODULAR-PROSTATIC-HYPERPLASIA-BPH-IS-THE-CLASSIC-CAUSE-OF-BLADDER-OUTLET-OBSTRUCTION-PRESE
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q25, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-AND-ASU-UG-NODULAR-PROSTATIC-HYPERPLASIA-BPH-IS-THE-CLASSIC-CAUSE-OF-BLADDER-OUTLET-OBSTRUCTION-PRESE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q25 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion
+
+## id
+CON-AND-8CBA53FC4E36A9
+
+## canonical_key
+leydig-cell-tumor-causes-isosexual-precocious-puberty-in-a-prepubertal-boy-through-androge
+
+## definition
+Leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion.
+
+## explicit_objective
+State that leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+androl
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+An 8-year-old boy presents with precocious puberty, enlargement of the external genitalia, and facial hair. Which of the following testicular neoplasms is the most likely cause?
+
+## pitfalls
+Assuming any prepubertal testicular mass is a germ cell tumor; a functioning sex cord-stromal tumor (Leydig cell tumor) is the classic cause of precocious puberty specifically.
+
+## article_ids
+ART-AND-ASU-UG-LEYDIG-CELL-TUMOR-CAUSES-ISOSEXUAL-PRECOCIOUS-PUBERTY-IN-A-PREPUBERTAL-BOY-THROUGH-ANDROGE
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q26, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-AND-ASU-UG-LEYDIG-CELL-TUMOR-CAUSES-ISOSEXUAL-PRECOCIOUS-PUBERTY-IN-A-PREPUBERTAL-BOY-THROUGH-ANDROGE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q26 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children
+
+## id
+CON-GYN-5DA23D0EC7AD4A
+
+## canonical_key
+sarcoma-botryoides-is-the-grape-like-botryoid-variant-of-embryonal-rhabdomyosarcoma-of-the
+
+## definition
+Sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children.
+
+## explicit_objective
+State that sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+gyn
+
+## primary_node_id
+SYS-GYN-T05-S02
+
+## secondary_node_ids
+DIS-PAT-T06
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Vulva and vagina
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Vulva and vagina
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A 4-year-old girl presents with polypoid, grape-like masses protruding from the vagina. Biopsy shows small round malignant cells, some with eosinophilic, strap-like cytoplasm. How is this lesion best classified?
+
+## pitfalls
+Not recognizing the eosinophilic 'strap cell' cytoplasm as the histologic clue pointing to skeletal muscle (rhabdomyoblastic) differentiation, which is what identifies embryonal rhabdomyosarcoma among the pediatric small round blue cell tumors.
+
+## article_ids
+ART-GYN-ASU-UG-SARCOMA-BOTRYOIDES-IS-THE-GRAPE-LIKE-BOTRYOID-VARIANT-OF-EMBRYONAL-RHABDOMYOSARCOMA-OF-THE
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q27, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-GYN-ASU-UG-SARCOMA-BOTRYOIDES-IS-THE-GRAPE-LIKE-BOTRYOID-VARIANT-OF-EMBRYONAL-RHABDOMYOSARCOMA-OF-THE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q27 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.
+
+---
+
+# Item
+
+## label
+Molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation
+
+## id
+CON-OBS-D7F1F4ACD163B1
+
+## canonical_key
+molar-pregnancy-follow-up-requires-serial-serum-beta-hcg-monitoring-after-evacuation
+
+## definition
+Molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation.
+
+## explicit_objective
+State that molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation.
+
+## concept_type
+classification
+
+## status
+under review
+
+## subject
+obs
+
+## primary_node_id
+SYS-OBS-T02-S01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## modules
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Gestational trophoblastic disease
+
+## universities
+asu
+
+## learner_years
+3
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y3=0.3
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.45
+
+## confidence
+0.85
+
+## topic
+Obstetric pathology
+
+## subtopic
+Gestational trophoblastic disease
+
+## microtopic
+
+
+## nanotopic
+
+
+## aliases
+A 22-year-old woman at 16 weeks of her first pregnancy passes grape-like masses of tissue per vagina, having never felt fetal movement; the uterus measures large for dates, and D&C yields fluid-filled vesicles with avascular villi and trophoblastic proliferation on histology, consistent with a complete hydatidiform mole. What is the best method for her post-evacuation follow-up?
+
+## pitfalls
+Treating molar pregnancy follow-up as a one-off test rather than the serial, sustained beta-hCG surveillance needed to catch persistent or malignant gestational trophoblastic disease.
+
+## article_ids
+ART-OBS-ASU-UG-MOLAR-PREGNANCY-FOLLOW-UP-REQUIRES-SERIAL-SERUM-BETA-HCG-MONITORING-AFTER-EVACUATION
+
+## support_mode
+direct_statement
+
+## original_wording
+Source Patho Q28, embedded-answer format (no printed distractors), read from EOM MCQs - UG Final 2 MCQ Collection.pdf.
+
+## conflicts
+[clear]
+
+## uncertainty
+[clear]
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) not yet attached; current support is this ASU exam-bank compilation only, which ships an embedded answer but no printed distractors.
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## atomic_claim_ids
+CLM-OBS-ASU-UG-MOLAR-PREGNANCY-FOLLOW-UP-REQUIRES-SERIAL-SERUM-BETA-HCG-MONITORING-AFTER-EVACUATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_local_exam_bank_needs_independent_evidence
+
+## weight_confidence
+0.35
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+asu: Tested as Patho Q28 of the ASU-UG EOM MCQs - UG Final 2 MCQ Collection (src_f70355bf7410ead2c7ff), embedded-answer format, no printed distractors — this batch authors its own.

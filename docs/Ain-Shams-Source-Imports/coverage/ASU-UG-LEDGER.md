@@ -1,19 +1,19 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | ass1-ug-2020 | 0 | 0 | 26 | 26 |
-| assessment-1-mcq | 0 | 0 | 62 | 62 |
+| assessment-1-mcq | 20 | 0 | 42 | 62 |
 | eom-final-ug1-2020 | 0 | 0 | 19 | 19 |
 | eom-ug-final1-2024 | 0 | 0 | 19 | 19 |
 | eom-ug-final2-2024 | 0 | 0 | 23 | 23 |
-| eom-ug-final2-collection | 89 | 5 | 34 | 128 |
+| eom-ug-final2-collection | 117 | 5 | 6 | 128 |
 | first-assessment-ug-2024 | 0 | 0 | 24 | 24 |
 
 ## Held
 - eom-ug-final2-collection-q047 — duplicate of q044 (Histo Q2) — Histo Q5 ("cells lining the seminiferous tubules -> Sertoli cell with indistinct cell boundary") re-asks the same apical-infoldings/indistinct-border fact tested in Histo Q2; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
-- eom-ug-final2-collection-q052 — doubtful key — Histo Q11 asks the predominant source of progesterone after ovulation and the source keys "theca lutein cells"; standard two-cell corpus luteum physiology attributes the predominant progesterone secretion to granulosa lutein cells (which lack 17-alpha-hydroxylase and so cannot make androgens), while theca lutein cells mainly supply androgen substrate for aromatization to estrogen. This reverses, rather than merely debates, an accepted mechanism, so it is held rather than authored with a doubt note per the "printed keys stand unless unrecoverable" rule — teaching the reversed mechanism as correct risks misleading students on core reproductive endocrinology; flagged to chief-of-staff / Omar for a ruling before this item is authored.
-- eom-ug-final2-collection-q076 — doubtful key — Micro Q4 asks which virus is an important cause of urinary tract infection and the source keys HSV-2; standard microbiology teaching identifies adenovirus (particularly type 11) as the classic viral cause of (hemorrhagic) cystitis/viral UTI, not HSV-2, which causes genital ulceration and can cause urinary retention via sacral radiculitis but is not the textbook answer to "virus causing UTI". Held rather than authored with a doubt note per the "printed keys stand unless unrecoverable" rule, given the risk of teaching a materially different organism as the standard answer; flagged to chief-of-staff / Omar for a ruling.
-- eom-ug-final2-collection-q082 — doubtful key — Micro Q10 asks the best treatment for latent syphilis in a pregnant woman and the source keys a 3-week ampicillin course followed by one further dose after one week; standard guidance (CDC/WHO) is that penicillin is the only proven-effective therapy against congenital syphilis transmission, so a penicillin-allergic pregnant patient should undergo penicillin desensitization and still be treated with penicillin rather than substituted onto an alternative regimen, and the specific ampicillin schedule printed here does not match a guideline this lane could verify. Held rather than authored with a doubt note given the risk of teaching a non-standard antenatal antibiotic regimen; flagged to chief-of-staff / Omar for a ruling, ideally with the source page re-checked for a possible transcription issue.
 - eom-ug-final2-collection-q085 — duplicate — Micro Q14 (page 12, genital ulcer + adenopathy + multinucleated giant cells + intranuclear inclusions on tissue culture, causative pathogen HSV) re-asks the same HSV/multinucleated-giant-cell fact tested in Micro Q13 (page 11, vesicular lesions turning to ulcers, Tzanck/Giemsa smear finding); collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- eom-ug-final2-collection-q108 — duplicate — Patho Q12 ("mucinous cysts in cervical mucosa obstructed by a squamous tumor -> Nabothian cyst") re-asks the same Nabothian-cyst-from-obstructed-endocervical-gland fact tested in Patho Q1 ("finding in chronic cervicitis -> Nabothian cysts (dt obstruction in endocervical glands)"), authored as eom-ug-final2-collection-q097; collapsed per LANE-CARD-Y2-3 within-file duplicate rule.
+- eom-ug-final2-collection-q109 — doubtful/unclear premise — Patho Q13 asks why colonoscopy is performed for a patient with cervical intraepithelial neoplasia (CIN) and keys "as it has high risk of cancer"; standard teaching does not link CIN (a cervical, HPV-driven squamous lesion confined to the cervix) to a colonoscopy indication — colonoscopy/proctoscopy has a role in staging invasive (not intraepithelial) cervical carcinoma for suspected bowel invasion, and CIN itself is managed with colposcopy, not colonoscopy. The question's premise does not map onto any standard teaching this lane could verify or recover a defensible correct statement from, so it is held rather than guessed at; flagged to chief-of-staff / Omar for a ruling, ideally with the source page re-checked for what was actually being asked (e.g. invasive cervical cancer staging, not CIN).
+- eom-ug-final2-collection-q112 — doubtful key — Patho Q16 asks which statement is true regarding prostatic carcinoma and keys "corpora amylacea in lumen"; standard prostate pathology teaching (reinforced by this same source's own Patho Q21, authored as eom-ug-final2-collection-q117, which correctly keys corpora amylacea as a normal, age-related finding in *benign* prostatic acini) holds that corpora amylacea are a feature of benign glands and are characteristically *absent* from malignant glands — their presence is used as one histologic clue *against* cancer. This reverses, rather than merely debates, an accepted diagnostic teaching point, so it is held rather than authored with a doubt note per the "printed keys stand unless unrecoverable" rule; flagged to chief-of-staff / Omar for a ruling.
 
 ## Remaining
 - ass1-ug-2020-q01
@@ -43,30 +43,10 @@
 - ass1-ug-2020-q25
 - ass1-ug-2020-q26
 - assessment-1-mcq-q01
-- assessment-1-mcq-q02
-- assessment-1-mcq-q03
 - assessment-1-mcq-q04
-- assessment-1-mcq-q05
-- assessment-1-mcq-q06
-- assessment-1-mcq-q07
 - assessment-1-mcq-q08
-- assessment-1-mcq-q09
-- assessment-1-mcq-q10
-- assessment-1-mcq-q11
-- assessment-1-mcq-q12
-- assessment-1-mcq-q13
-- assessment-1-mcq-q14
-- assessment-1-mcq-q15
-- assessment-1-mcq-q16
-- assessment-1-mcq-q17
-- assessment-1-mcq-q18
-- assessment-1-mcq-q19
-- assessment-1-mcq-q20
-- assessment-1-mcq-q21
-- assessment-1-mcq-q22
 - assessment-1-mcq-q23
 - assessment-1-mcq-q24
-- assessment-1-mcq-q25
 - assessment-1-mcq-q26
 - assessment-1-mcq-q27
 - assessment-1-mcq-q28
@@ -167,34 +147,6 @@
 - eom-ug-final2-2024-q23
 - eom-ug-final2-collection-q018
 - eom-ug-final2-collection-q023
-- eom-ug-final2-collection-q097
-- eom-ug-final2-collection-q098
-- eom-ug-final2-collection-q099
-- eom-ug-final2-collection-q100
-- eom-ug-final2-collection-q101
-- eom-ug-final2-collection-q102
-- eom-ug-final2-collection-q103
-- eom-ug-final2-collection-q104
-- eom-ug-final2-collection-q105
-- eom-ug-final2-collection-q106
-- eom-ug-final2-collection-q107
-- eom-ug-final2-collection-q108
-- eom-ug-final2-collection-q109
-- eom-ug-final2-collection-q110
-- eom-ug-final2-collection-q111
-- eom-ug-final2-collection-q112
-- eom-ug-final2-collection-q113
-- eom-ug-final2-collection-q114
-- eom-ug-final2-collection-q115
-- eom-ug-final2-collection-q116
-- eom-ug-final2-collection-q117
-- eom-ug-final2-collection-q118
-- eom-ug-final2-collection-q119
-- eom-ug-final2-collection-q120
-- eom-ug-final2-collection-q121
-- eom-ug-final2-collection-q122
-- eom-ug-final2-collection-q123
-- eom-ug-final2-collection-q124
 - eom-ug-final2-collection-q125
 - eom-ug-final2-collection-q126
 - eom-ug-final2-collection-q127

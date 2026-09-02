@@ -16209,3 +16209,4890 @@ asu: Authored from ASU-UG > Parasitology source src_f70355bf7410ead2c7ff, Para Q
 
 
 ## review_due
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-STANDARD-TWO-CELL-CORPUS-LUTEUM-PHYSIOLOGY-CREDITS-PROGESTERONE-SECRETION-MAINLY-TO-GRANUL
+
+## title
+Standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells
+
+## arabic_title
+
+
+## aliases
+What is the predominant source of progesterone secretion from the corpus luteum after ovulation, as identified in this source?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive histology
+
+## subtopic
+Pelvic organs
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T01-S02-M01
+
+## secondary_node_ids
+DIS-HIS-T03
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Histology > Pelvic organs
+
+## summary
+Standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells.
+
+## sections
+### Definition
+Standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells.
+
+### Mechanism
+As keyed by this source. After ovulation, both the granulosa and theca layers of the ruptured follicle luteinize under LH influence to form the corpus luteum, and theca lutein cells — smaller, more peripheral, and richly vascularized — are steroidogenically active and contribute progesterone alongside androgen substrate to the corpus luteum's output. This source identifies theca lutein cells as the predominant progesterone source; standard two-cell, two-gonadotropin teaching more commonly emphasizes the larger granulosa lutein cell population as the major progesterone producer, a distinction noted for review rather than settled definitively by this exam-bank source alone.
+
+### Key determinants
+Assuming this source's theca-lutein answer is the universal teaching point; some standard references instead emphasize granulosa lutein cells as the larger corpus luteum progesterone contributor.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming this source's theca-lutein answer is the universal teaching point; some standard references instead emphasize granulosa lutein cells as the larger corpus luteum progesterone contributor.
+
+## hold_these
+Standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells.
+
+## lose_the_mark
+Assuming this source's theca-lutein answer is the universal teaching point; some standard references instead emphasize granulosa lutein cells as the larger corpus luteum progesterone contributor.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Histo Q11.
+
+## evidence_gaps
+Independent textbook reference required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own, and this item's key is doubtful against some standard teaching sources (see field_notes/notes).
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-STANDARD-TWO-CELL-CORPUS-LUTEUM-PHYSIOLOGY-CREDITS-PROGESTERONE-SECRETION-MAINLY-TO-GRANUL-01
+
+## span_ids
+SPN-GYN-ASU-UG-STANDARD-TWO-CELL-CORPUS-LUTEUM-PHYSIOLOGY-CREDITS-PROGESTERONE-SECRETION-MAINLY-TO-GRANUL-01
+
+## annotations
+### definition_of · CON-GYN-4EF6767CA040A1
+Quote: Standard two-cell corpus luteum physiology credits progesterone secretion mainly to granulosa lutein cells, though this source keys theca lutein cells.
+Block: body
+Id: ann-gyn-asu-ug-standard-two-cell-corpus-luteum-physiology-credits-progesterone-secretion-mainly-to-granul-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Histology > Pelvic organs source src_f70355bf7410ead2c7ff, Histo Q11. Doubtful key, printed key stands per chief-of-staff ruling.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-INF-ASU-UG-STANDARD-TEACHING-CREDITS-ADENOVIRUS-AS-THE-CLASSIC-VIRAL-CAUSE-OF-HEMORRHAGIC-CYSTITIS-TH
+
+## title
+Standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection
+
+## arabic_title
+
+
+## aliases
+Which of the following viruses is considered, per this source, an important cause of urinary tract infection?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Urinary tract infection
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-INF-T05-S02-M05
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Urinary tract infection
+
+## summary
+Standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection.
+
+## sections
+### Definition
+Standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection.
+
+### Mechanism
+As keyed by this source. HSV-2 causes genital herpes, and its genital lesions can extend to involve the urethral meatus, producing herpetic urethritis/meatitis with dysuria; severe genital outbreaks can also cause urinary retention through lumbosacral autonomic radiculitis affecting bladder innervation. This source credits HSV-2 as an important viral cause of urinary tract infection; other teaching sources instead emphasize adenovirus (particularly type 11) as the classic cause of viral hemorrhagic cystitis, a distinction worth holding in mind alongside this source's answer.
+
+### Key determinants
+Assuming this source's HSV-2 answer is the universal teaching point; some standard references instead emphasize adenovirus as the classic cause of viral hemorrhagic cystitis.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming this source's HSV-2 answer is the universal teaching point; some standard references instead emphasize adenovirus as the classic cause of viral hemorrhagic cystitis.
+
+## hold_these
+Standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection.
+
+## lose_the_mark
+Assuming this source's HSV-2 answer is the universal teaching point; some standard references instead emphasize adenovirus as the classic cause of viral hemorrhagic cystitis.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Micro Q4.
+
+## evidence_gaps
+Independent textbook reference required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own, and this item's key is doubtful against some standard teaching sources (see field_notes/notes).
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-INF-ASU-UG-STANDARD-TEACHING-CREDITS-ADENOVIRUS-AS-THE-CLASSIC-VIRAL-CAUSE-OF-HEMORRHAGIC-CYSTITIS-TH-01
+
+## span_ids
+SPN-INF-ASU-UG-STANDARD-TEACHING-CREDITS-ADENOVIRUS-AS-THE-CLASSIC-VIRAL-CAUSE-OF-HEMORRHAGIC-CYSTITIS-TH-01
+
+## annotations
+### definition_of · CON-INF-C583F1DD8DD1FC
+Quote: Standard teaching credits adenovirus as the classic viral cause of hemorrhagic cystitis, though this source keys HSV-2 as an important viral cause of urinary tract infection.
+Block: body
+Id: ann-inf-asu-ug-standard-teaching-credits-adenovirus-as-the-classic-viral-cause-of-hemorrhagic-cystitis-th-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Microbiology > Urinary tract infection source src_f70355bf7410ead2c7ff, Micro Q4. Doubtful key, printed key stands per chief-of-staff ruling.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-INF-ASU-UG-STANDARD-GUIDANCE-REQUIRES-PENICILLIN-WITH-DESENSITIZATION-IF-ALLERGIC-FOR-SYPHILIS-IN-PRE
+
+## title
+Standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen
+
+## arabic_title
+
+
+## aliases
+What is the best course of treatment for latent syphilis diagnosed in a pregnant woman, as identified in this source?
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Reproductive and urinary tract microbiology
+
+## subtopic
+Perinatal infection
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-OBS-T01-S01-M03
+
+## secondary_node_ids
+DIS-MIC-T01
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Microbiology > Perinatal infection
+
+## summary
+Standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen.
+
+## sections
+### Definition
+Standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen.
+
+### Mechanism
+As keyed by this source. Ampicillin is an aminopenicillin, structurally related to penicillin and active against Treponema pallidum, and this source identifies an extended ampicillin course (three weeks, followed by a further dose after one week) as the best treatment for latent syphilis diagnosed in pregnancy. Standard guideline teaching (CDC/WHO) instead holds that penicillin — with desensitization if the patient is penicillin-allergic — is the only therapy proven to reliably prevent transplacental transmission and treat fetal infection in pregnancy, since alternative regimens such as doxycycline are avoided in pregnancy and are not considered reliably protective for the fetus; this distinction is worth holding in mind alongside this source's answer.
+
+### Key determinants
+Assuming this source's ampicillin regimen is the universal guideline; standard CDC/WHO guidance instead holds penicillin (via desensitization if allergic) as the only proven regimen for syphilis in pregnancy.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming this source's ampicillin regimen is the universal guideline; standard CDC/WHO guidance instead holds penicillin (via desensitization if allergic) as the only proven regimen for syphilis in pregnancy.
+
+## hold_these
+Standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen.
+
+## lose_the_mark
+Assuming this source's ampicillin regimen is the universal guideline; standard CDC/WHO guidance instead holds penicillin (via desensitization if allergic) as the only proven regimen for syphilis in pregnancy.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Micro Q10.
+
+## evidence_gaps
+Independent textbook reference required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own, and this item's key is doubtful against some standard teaching sources (see field_notes/notes).
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-INF-ASU-UG-STANDARD-GUIDANCE-REQUIRES-PENICILLIN-WITH-DESENSITIZATION-IF-ALLERGIC-FOR-SYPHILIS-IN-PRE-01
+
+## span_ids
+SPN-INF-ASU-UG-STANDARD-GUIDANCE-REQUIRES-PENICILLIN-WITH-DESENSITIZATION-IF-ALLERGIC-FOR-SYPHILIS-IN-PRE-01
+
+## annotations
+### definition_of · CON-INF-079B20244C1F99
+Quote: Standard guidance requires penicillin, with desensitization if allergic, for syphilis in pregnancy, though this source keys an ampicillin regimen.
+Block: body
+Id: ann-inf-asu-ug-standard-guidance-requires-penicillin-with-desensitization-if-allergic-for-syphilis-in-pre-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Microbiology > Perinatal infection source src_f70355bf7410ead2c7ff, Micro Q10. Doubtful key, printed key stands per chief-of-staff ruling.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-NABOTHIAN-CYSTS-FORM-IN-CHRONIC-CERVICITIS-WHEN-SQUAMOUS-METAPLASIA-OBSTRUCTS-ENDOCERVICAL
+
+## title
+Nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings
+
+## arabic_title
+
+
+## aliases
+Which of the following is a characteristic histologic finding in chronic cervicitis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T04-S01
+
+## secondary_node_ids
+DIS-PAT-T02
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## summary
+Nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings.
+
+## sections
+### Definition
+Nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings.
+
+### Mechanism
+Chronic cervicitis is an extremely common finding on cervical biopsy, reflecting the cervix's constant exposure to the vaginal flora and repeated minor trauma. As part of the reparative squamous metaplasia that covers the exposed endocervical columnar epithelium in the transformation zone, metaplastic squamous epithelium can grow over and obstruct the mouths of underlying endocervical glands. The trapped mucus secretions then distend the obstructed gland into a visible, mucus-filled Nabothian (nabothian) cyst, a benign incidental finding rather than evidence of a specific infection.
+
+### Key determinants
+Assuming Nabothian cysts signal a specific infection rather than recognizing them as a benign consequence of squamous metaplasia obstructing endocervical glands.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming Nabothian cysts signal a specific infection rather than recognizing them as a benign consequence of squamous metaplasia obstructing endocervical glands.
+
+## hold_these
+Nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings.
+
+## lose_the_mark
+Assuming Nabothian cysts signal a specific infection rather than recognizing them as a benign consequence of squamous metaplasia obstructing endocervical glands.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q1.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-NABOTHIAN-CYSTS-FORM-IN-CHRONIC-CERVICITIS-WHEN-SQUAMOUS-METAPLASIA-OBSTRUCTS-ENDOCERVICAL-01
+
+## span_ids
+SPN-GYN-ASU-UG-NABOTHIAN-CYSTS-FORM-IN-CHRONIC-CERVICITIS-WHEN-SQUAMOUS-METAPLASIA-OBSTRUCTS-ENDOCERVICAL-01
+
+## annotations
+### definition_of · CON-GYN-4FC8E0FB63542E
+Quote: Nabothian cysts form in chronic cervicitis when squamous metaplasia obstructs endocervical gland openings.
+Block: body
+Id: ann-gyn-asu-ug-nabothian-cysts-form-in-chronic-cervicitis-when-squamous-metaplasia-obstructs-endocervical-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Cervix and endometrium source src_f70355bf7410ead2c7ff, Patho Q1.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-UNOPPOSED-ESTROGEN-STIMULATION-CAUSES-ENDOMETRIAL-HYPERPLASIA
+
+## title
+Unopposed estrogen stimulation causes endometrial hyperplasia
+
+## arabic_title
+
+
+## aliases
+A woman presents with abnormal uterine bleeding and is found to have unopposed excess estrogen stimulation. Which of the following endometrial changes is most likely?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## summary
+Unopposed estrogen stimulation causes endometrial hyperplasia.
+
+## sections
+### Definition
+Unopposed estrogen stimulation causes endometrial hyperplasia.
+
+### Mechanism
+Prolonged, unopposed estrogen stimulation — unbalanced by the differentiating, growth-limiting effect of progesterone — drives excessive proliferation of endometrial glands and stroma, producing endometrial hyperplasia. This is the classic mechanism behind abnormal uterine bleeding in conditions of chronic anovulation, obesity, estrogen-secreting tumors, or unopposed estrogen therapy, and it is also the recognized precursor lesion for endometrioid endometrial carcinoma.
+
+### Key determinants
+Confusing the proliferative effect of unopposed estrogen (hyperplasia) with the differentiating/secretory effect of progesterone, or with the atrophic changes of estrogen deficiency.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Confusing the proliferative effect of unopposed estrogen (hyperplasia) with the differentiating/secretory effect of progesterone, or with the atrophic changes of estrogen deficiency.
+
+## hold_these
+Unopposed estrogen stimulation causes endometrial hyperplasia.
+
+## lose_the_mark
+Confusing the proliferative effect of unopposed estrogen (hyperplasia) with the differentiating/secretory effect of progesterone, or with the atrophic changes of estrogen deficiency.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q2.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-UNOPPOSED-ESTROGEN-STIMULATION-CAUSES-ENDOMETRIAL-HYPERPLASIA-01
+
+## span_ids
+SPN-GYN-ASU-UG-UNOPPOSED-ESTROGEN-STIMULATION-CAUSES-ENDOMETRIAL-HYPERPLASIA-01
+
+## annotations
+### definition_of · CON-GYN-A0DD9DCA9B07F5
+Quote: Unopposed estrogen stimulation causes endometrial hyperplasia.
+Block: body
+Id: ann-gyn-asu-ug-unopposed-estrogen-stimulation-causes-endometrial-hyperplasia-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Cervix and endometrium source src_f70355bf7410ead2c7ff, Patho Q2.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-PHYLLODES-TUMOR-OF-THE-BREAST-SHOWS-LEAF-LIKE-ARCHITECTURE-WITH-A-HYPERCELLULAR-STROMA
+
+## title
+Phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma
+
+## arabic_title
+
+
+## aliases
+A breast biopsy shows cystic spaces with leaf-like epithelial-lined projections and an excessively cellular stroma. What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T06-S01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## summary
+Phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma.
+
+## sections
+### Definition
+Phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma.
+
+### Mechanism
+Phyllodes tumor is a fibroepithelial breast neoplasm named for its characteristic leaf-like ("phyllodes") papillary projections of epithelial-lined stroma bulging into cystic spaces. Unlike fibroadenoma, its diagnostic hallmark is a markedly hypercellular, sometimes mitotically active stroma that is the true neoplastic component, and phyllodes tumors can range from benign to borderline to frankly malignant based on stromal atypia, mitotic rate, and margin characteristics.
+
+### Key determinants
+Mistaking phyllodes tumor for a large fibroadenoma; the distinguishing feature is stromal hypercellularity, not the epithelial component.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Mistaking phyllodes tumor for a large fibroadenoma; the distinguishing feature is stromal hypercellularity, not the epithelial component.
+
+## hold_these
+Phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma.
+
+## lose_the_mark
+Mistaking phyllodes tumor for a large fibroadenoma; the distinguishing feature is stromal hypercellularity, not the epithelial component.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q3.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-PHYLLODES-TUMOR-OF-THE-BREAST-SHOWS-LEAF-LIKE-ARCHITECTURE-WITH-A-HYPERCELLULAR-STROMA-01
+
+## span_ids
+SPN-GYN-ASU-UG-PHYLLODES-TUMOR-OF-THE-BREAST-SHOWS-LEAF-LIKE-ARCHITECTURE-WITH-A-HYPERCELLULAR-STROMA-01
+
+## annotations
+### definition_of · CON-GYN-4E971C70987FA9
+Quote: Phyllodes tumor of the breast shows leaf-like architecture with a hypercellular stroma.
+Block: body
+Id: ann-gyn-asu-ug-phyllodes-tumor-of-the-breast-shows-leaf-like-architecture-with-a-hypercellular-stroma-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Breast source src_f70355bf7410ead2c7ff, Patho Q3.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-MULTIPARITY-IS-PROTECTIVE-AGAINST-NOT-A-RISK-FACTOR-FOR-ENDOMETRIAL-CARCINOMA
+
+## title
+Multiparity is protective against, not a risk factor for, endometrial carcinoma
+
+## arabic_title
+
+
+## aliases
+Which of the following is NOT an established risk factor for endometrial carcinoma?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S01-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## summary
+Multiparity is protective against, not a risk factor for, endometrial carcinoma.
+
+## sections
+### Definition
+Multiparity is protective against, not a risk factor for, endometrial carcinoma.
+
+### Mechanism
+Multiparity is protective rather than a risk factor for endometrial carcinoma, because repeated pregnancies interrupt the endometrium's cumulative lifetime exposure to unopposed estrogen with progesterone-dominant, secretory-phase intervals. The recognized risk factors instead cluster around states of excess or unopposed estrogen exposure — obesity (peripheral aromatization of androgens to estrogen in adipose tissue), nulliparity, chronic anovulation/PCOS, unopposed estrogen replacement, and tamoxifen use.
+
+### Key determinants
+Reflexively grouping nulliparity and multiparity together as 'reproductive factor' risks, when they have opposite associations with endometrial cancer risk.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Reflexively grouping nulliparity and multiparity together as 'reproductive factor' risks, when they have opposite associations with endometrial cancer risk.
+
+## hold_these
+Multiparity is protective against, not a risk factor for, endometrial carcinoma.
+
+## lose_the_mark
+Reflexively grouping nulliparity and multiparity together as 'reproductive factor' risks, when they have opposite associations with endometrial cancer risk.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q4.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-MULTIPARITY-IS-PROTECTIVE-AGAINST-NOT-A-RISK-FACTOR-FOR-ENDOMETRIAL-CARCINOMA-01
+
+## span_ids
+SPN-GYN-ASU-UG-MULTIPARITY-IS-PROTECTIVE-AGAINST-NOT-A-RISK-FACTOR-FOR-ENDOMETRIAL-CARCINOMA-01
+
+## annotations
+### definition_of · CON-GYN-CBD143FC1B674C
+Quote: Multiparity is protective against, not a risk factor for, endometrial carcinoma.
+Block: body
+Id: ann-gyn-asu-ug-multiparity-is-protective-against-not-a-risk-factor-for-endometrial-carcinoma-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Cervix and endometrium source src_f70355bf7410ead2c7ff, Patho Q4.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-A-MATURE-CYSTIC-TERATOMA-DERMOID-CYST-OF-THE-OVARY-CHARACTERISTICALLY-CONTAINS-HAIR-AND-CA
+
+## title
+A mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage
+
+## arabic_title
+
+
+## aliases
+An ovarian mass is excised and gross examination reveals cartilage and hair within the specimen. What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Ovary
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S02-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Ovary
+
+## summary
+A mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage.
+
+## sections
+### Definition
+A mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage.
+
+### Mechanism
+A mature cystic teratoma (dermoid cyst) is a benign ovarian germ cell tumor that differentiates along all three embryonic germ layers, so it characteristically contains recognizable mature ectodermal, mesodermal, and endodermal derivatives — classically hair-bearing skin, sebaceous material, teeth, and cartilage or bone. This mixture of tissue types on gross examination is essentially pathognomonic for a mature teratoma among ovarian tumors.
+
+### Key determinants
+Forgetting that only mature teratomas (not other germ cell tumors) contain fully differentiated tissue from all three germ layers.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Forgetting that only mature teratomas (not other germ cell tumors) contain fully differentiated tissue from all three germ layers.
+
+## hold_these
+A mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage.
+
+## lose_the_mark
+Forgetting that only mature teratomas (not other germ cell tumors) contain fully differentiated tissue from all three germ layers.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q5.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-A-MATURE-CYSTIC-TERATOMA-DERMOID-CYST-OF-THE-OVARY-CHARACTERISTICALLY-CONTAINS-HAIR-AND-CA-01
+
+## span_ids
+SPN-GYN-ASU-UG-A-MATURE-CYSTIC-TERATOMA-DERMOID-CYST-OF-THE-OVARY-CHARACTERISTICALLY-CONTAINS-HAIR-AND-CA-01
+
+## annotations
+### definition_of · CON-GYN-580AA4B496C9CF
+Quote: A mature cystic teratoma (dermoid cyst) of the ovary characteristically contains hair and cartilage.
+Block: body
+Id: ann-gyn-asu-ug-a-mature-cystic-teratoma-dermoid-cyst-of-the-ovary-characteristically-contains-hair-and-ca-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Ovary source src_f70355bf7410ead2c7ff, Patho Q5.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-ADENOMYOSIS-IS-A-LOCALIZED-INTRAUTERINE-FORM-OF-ENDOMETRIOSIS
+
+## title
+Adenomyosis is a localized (intrauterine) form of endometriosis
+
+## arabic_title
+
+
+## aliases
+Adenomyosis is best classified as a form of which of the following?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Uterus
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T03-S01-M02
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Uterus
+
+## summary
+Adenomyosis is a localized (intrauterine) form of endometriosis.
+
+## sections
+### Definition
+Adenomyosis is a localized (intrauterine) form of endometriosis.
+
+### Mechanism
+Adenomyosis is the presence of endometrial glands and stroma within the myometrium, i.e., ectopic endometrial tissue growing inside the uterine muscle wall itself. Because this is fundamentally endometrial tissue found outside its normal location, adenomyosis is considered a localized (intrauterine) form of endometriosis, distinguished from classic endometriosis mainly by the site of the ectopic tissue rather than by its basic biology.
+
+### Key determinants
+Treating adenomyosis and leiomyoma as interchangeable causes of an enlarged, boggy uterus, when only adenomyosis contains ectopic endometrial glands and stroma.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Treating adenomyosis and leiomyoma as interchangeable causes of an enlarged, boggy uterus, when only adenomyosis contains ectopic endometrial glands and stroma.
+
+## hold_these
+Adenomyosis is a localized (intrauterine) form of endometriosis.
+
+## lose_the_mark
+Treating adenomyosis and leiomyoma as interchangeable causes of an enlarged, boggy uterus, when only adenomyosis contains ectopic endometrial glands and stroma.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q6.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-ADENOMYOSIS-IS-A-LOCALIZED-INTRAUTERINE-FORM-OF-ENDOMETRIOSIS-01
+
+## span_ids
+SPN-GYN-ASU-UG-ADENOMYOSIS-IS-A-LOCALIZED-INTRAUTERINE-FORM-OF-ENDOMETRIOSIS-01
+
+## annotations
+### definition_of · CON-GYN-9A5B3BE305A236
+Quote: Adenomyosis is a localized (intrauterine) form of endometriosis.
+Block: body
+Id: ann-gyn-asu-ug-adenomyosis-is-a-localized-intrauterine-form-of-endometriosis-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Uterus source src_f70355bf7410ead2c7ff, Patho Q6.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-SEROUS-CYSTADENOMA-OF-THE-OVARY-IS-LINED-BY-CILIATED-TUBAL-TYPE-EPITHELIUM
+
+## title
+Serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium
+
+## arabic_title
+
+
+## aliases
+An excised ovarian cyst contains clear fluid and is lined by epithelium that is partly ciliated. What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Ovary
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S02-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Ovary
+
+## summary
+Serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium.
+
+## sections
+### Definition
+Serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium.
+
+### Mechanism
+Serous cystadenoma is the most common benign ovarian epithelial tumor, forming a thin-walled cyst filled with clear, watery (serous) fluid and lined by a single layer of epithelium that resembles fallopian tube mucosa, including ciliated cells admixed with secretory cells. This tubal-type ciliated lining and clear fluid content are the classic distinguishing features from a mucinous cystadenoma.
+
+### Key determinants
+Confusing the ciliated, tubal-type epithelium and clear fluid of serous cystadenoma with the thick mucoid content of mucinous cystadenoma.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Confusing the ciliated, tubal-type epithelium and clear fluid of serous cystadenoma with the thick mucoid content of mucinous cystadenoma.
+
+## hold_these
+Serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium.
+
+## lose_the_mark
+Confusing the ciliated, tubal-type epithelium and clear fluid of serous cystadenoma with the thick mucoid content of mucinous cystadenoma.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q7.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-SEROUS-CYSTADENOMA-OF-THE-OVARY-IS-LINED-BY-CILIATED-TUBAL-TYPE-EPITHELIUM-01
+
+## span_ids
+SPN-GYN-ASU-UG-SEROUS-CYSTADENOMA-OF-THE-OVARY-IS-LINED-BY-CILIATED-TUBAL-TYPE-EPITHELIUM-01
+
+## annotations
+### definition_of · CON-GYN-5763C95FDCC680
+Quote: Serous cystadenoma of the ovary is lined by ciliated, tubal-type epithelium.
+Block: body
+Id: ann-gyn-asu-ug-serous-cystadenoma-of-the-ovary-is-lined-by-ciliated-tubal-type-epithelium-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Ovary source src_f70355bf7410ead2c7ff, Patho Q7.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-MAMMARY-DUCT-ECTASIA-PLASMA-CELL-MASTITIS-SHOWS-DILATED-DUCTS-WITH-PERIDUCTAL-PLASMA-CELL
+
+## title
+Mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration
+
+## arabic_title
+
+
+## aliases
+A breast biopsy shows dilated subareolar ducts with thick secretions and periductal plasma cell infiltration. What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T06-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T02
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## summary
+Mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration.
+
+## sections
+### Definition
+Mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration.
+
+### Mechanism
+Mammary duct ectasia, also called periductal (plasma cell) mastitis, is a benign condition of perimenopausal or postmenopausal women in which subareolar ducts become dilated and filled with inspissated secretions. This intraductal debris triggers a periductal chronic inflammatory reaction rich in plasma cells, which is the finding that gives the condition its alternative name, and it typically presents with a thick, often greenish nipple discharge and a palpable subareolar mass or nipple retraction that can mimic carcinoma clinically.
+
+### Key determinants
+Mistaking the mass and nipple retraction of duct ectasia for carcinoma, or attributing the periductal infiltrate to acute bacterial infection rather than a chronic reaction to inspissated secretions.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Mistaking the mass and nipple retraction of duct ectasia for carcinoma, or attributing the periductal infiltrate to acute bacterial infection rather than a chronic reaction to inspissated secretions.
+
+## hold_these
+Mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration.
+
+## lose_the_mark
+Mistaking the mass and nipple retraction of duct ectasia for carcinoma, or attributing the periductal infiltrate to acute bacterial infection rather than a chronic reaction to inspissated secretions.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q8.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-MAMMARY-DUCT-ECTASIA-PLASMA-CELL-MASTITIS-SHOWS-DILATED-DUCTS-WITH-PERIDUCTAL-PLASMA-CELL-01
+
+## span_ids
+SPN-GYN-ASU-UG-MAMMARY-DUCT-ECTASIA-PLASMA-CELL-MASTITIS-SHOWS-DILATED-DUCTS-WITH-PERIDUCTAL-PLASMA-CELL-01
+
+## annotations
+### definition_of · CON-GYN-8947F33D0B41F7
+Quote: Mammary duct ectasia (plasma cell mastitis) shows dilated ducts with periductal plasma cell infiltration.
+Block: body
+Id: ann-gyn-asu-ug-mammary-duct-ectasia-plasma-cell-mastitis-shows-dilated-ducts-with-periductal-plasma-cell-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Breast source src_f70355bf7410ead2c7ff, Patho Q8.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-MEDULLARY-CARCINOMA-OF-THE-BREAST-GROWS-IN-SYNCYTIAL-SHEETS-WITH-A-PROMINENT-LYMPHOPLASMAC
+
+## title
+Medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate
+
+## arabic_title
+
+
+## aliases
+A movable breast mass shows lymphoplasmacytic infiltration, overlying normal skin, is negative for HER2/neu and ER/PR, and the tumor cells form continuous sheets (syncytial growth). What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T06-S02-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## summary
+Medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate.
+
+## sections
+### Definition
+Medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate.
+
+### Mechanism
+Medullary carcinoma is a distinctive subtype of invasive breast carcinoma characterized by sheets of high-grade tumor cells growing in a syncytial (continuous, poorly demarcated cell-border) pattern, a prominent lymphoplasmacytic stromal infiltrate, and a well-circumscribed, pushing (rather than infiltrative) border, which is why it often feels like a discrete, movable mass on examination. It is also disproportionately triple-negative (ER/PR/HER2-negative) and is over-represented among BRCA1-associated breast cancers, despite these adverse-sounding markers it tends to carry a relatively favorable prognosis for its grade.
+
+### Key determinants
+Assuming triple-negative status always implies an aggressive, poor-prognosis picture; medullary carcinoma is a triple-negative subtype that behaves better than most triple-negative cancers because of its distinctive histology.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming triple-negative status always implies an aggressive, poor-prognosis picture; medullary carcinoma is a triple-negative subtype that behaves better than most triple-negative cancers because of its distinctive histology.
+
+## hold_these
+Medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate.
+
+## lose_the_mark
+Assuming triple-negative status always implies an aggressive, poor-prognosis picture; medullary carcinoma is a triple-negative subtype that behaves better than most triple-negative cancers because of its distinctive histology.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q9.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-MEDULLARY-CARCINOMA-OF-THE-BREAST-GROWS-IN-SYNCYTIAL-SHEETS-WITH-A-PROMINENT-LYMPHOPLASMAC-01
+
+## span_ids
+SPN-GYN-ASU-UG-MEDULLARY-CARCINOMA-OF-THE-BREAST-GROWS-IN-SYNCYTIAL-SHEETS-WITH-A-PROMINENT-LYMPHOPLASMAC-01
+
+## annotations
+### definition_of · CON-GYN-6E7F7B77808280
+Quote: Medullary carcinoma of the breast grows in syncytial sheets with a prominent lymphoplasmacytic infiltrate.
+Block: body
+Id: ann-gyn-asu-ug-medullary-carcinoma-of-the-breast-grows-in-syncytial-sheets-with-a-prominent-lymphoplasmac-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Breast source src_f70355bf7410ead2c7ff, Patho Q9.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-ATYPICAL-ENDOMETRIAL-HYPERPLASIA-SHOWS-CROWDED-CYTOLOGICALLY-ATYPICAL-GLANDS
+
+## title
+Atypical endometrial hyperplasia shows crowded, cytologically atypical glands
+
+## arabic_title
+
+
+## aliases
+A woman with abnormal uterine bleeding has an endometrial biopsy showing crowded, back-to-back glands with mitotically active, cytologically atypical lining epithelium. What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S01-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## summary
+Atypical endometrial hyperplasia shows crowded, cytologically atypical glands.
+
+## sections
+### Definition
+Atypical endometrial hyperplasia shows crowded, cytologically atypical glands.
+
+### Mechanism
+Atypical endometrial hyperplasia (also classified as endometrial intraepithelial neoplasia) is defined by architectural crowding of glands, often back-to-back with minimal intervening stroma, together with cytologic atypia — nuclear enlargement, irregularity, and increased mitotic activity in the lining epithelium. This combination of architectural complexity and cytologic atypia is what distinguishes it from simple hyperplasia, and it is clinically important because atypical hyperplasia carries a substantially higher risk of progression to, or coexistence with, endometrioid endometrial carcinoma.
+
+### Key determinants
+Missing the cytologic atypia component and calling any crowded-gland pattern 'hyperplasia' without distinguishing the atypical subtype, which is the one with real premalignant significance.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Missing the cytologic atypia component and calling any crowded-gland pattern 'hyperplasia' without distinguishing the atypical subtype, which is the one with real premalignant significance.
+
+## hold_these
+Atypical endometrial hyperplasia shows crowded, cytologically atypical glands.
+
+## lose_the_mark
+Missing the cytologic atypia component and calling any crowded-gland pattern 'hyperplasia' without distinguishing the atypical subtype, which is the one with real premalignant significance.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q10.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-ATYPICAL-ENDOMETRIAL-HYPERPLASIA-SHOWS-CROWDED-CYTOLOGICALLY-ATYPICAL-GLANDS-01
+
+## span_ids
+SPN-GYN-ASU-UG-ATYPICAL-ENDOMETRIAL-HYPERPLASIA-SHOWS-CROWDED-CYTOLOGICALLY-ATYPICAL-GLANDS-01
+
+## annotations
+### definition_of · CON-GYN-5590F0ABCFCB7A
+Quote: Atypical endometrial hyperplasia shows crowded, cytologically atypical glands.
+Block: body
+Id: ann-gyn-asu-ug-atypical-endometrial-hyperplasia-shows-crowded-cytologically-atypical-glands-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Cervix and endometrium source src_f70355bf7410ead2c7ff, Patho Q10.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-FIBROCYSTIC-CHANGE-OF-THE-BREAST-IS-A-BENIGN-CONDITION-THAT-CAN-INCLUDE-APOCRINE-METAPLASI
+
+## title
+Fibrocystic change of the breast is a benign condition that can include apocrine metaplasia
+
+## arabic_title
+
+
+## aliases
+Which of the following best describes fibrocystic changes of the breast?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Breast
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T06-S01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Breast
+
+## summary
+Fibrocystic change of the breast is a benign condition that can include apocrine metaplasia.
+
+## sections
+### Definition
+Fibrocystic change of the breast is a benign condition that can include apocrine metaplasia.
+
+### Mechanism
+Fibrocystic change is the most common benign breast condition, seen predominantly in reproductive-age women, and encompasses a spectrum of changes including cyst formation, fibrosis, adenosis, and apocrine metaplasia (in which cyst-lining cells acquire abundant eosinophilic cytoplasm resembling apocrine sweat gland cells). As a benign process it does not produce the axillary lymphadenopathy that would raise concern for malignancy, and most forms of fibrocystic change (without atypical hyperplasia) carry little to no increased breast cancer risk.
+
+### Key determinants
+Treating any lump or cyst in fibrocystic change as inherently suspicious for malignancy, when the presence of lymphadenopathy or atypical hyperplasia — not fibrocystic change itself — is what should raise that concern.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Treating any lump or cyst in fibrocystic change as inherently suspicious for malignancy, when the presence of lymphadenopathy or atypical hyperplasia — not fibrocystic change itself — is what should raise that concern.
+
+## hold_these
+Fibrocystic change of the breast is a benign condition that can include apocrine metaplasia.
+
+## lose_the_mark
+Treating any lump or cyst in fibrocystic change as inherently suspicious for malignancy, when the presence of lymphadenopathy or atypical hyperplasia — not fibrocystic change itself — is what should raise that concern.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q11.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-FIBROCYSTIC-CHANGE-OF-THE-BREAST-IS-A-BENIGN-CONDITION-THAT-CAN-INCLUDE-APOCRINE-METAPLASI-01
+
+## span_ids
+SPN-GYN-ASU-UG-FIBROCYSTIC-CHANGE-OF-THE-BREAST-IS-A-BENIGN-CONDITION-THAT-CAN-INCLUDE-APOCRINE-METAPLASI-01
+
+## annotations
+### definition_of · CON-GYN-44FF778469EBA7
+Quote: Fibrocystic change of the breast is a benign condition that can include apocrine metaplasia.
+Block: body
+Id: ann-gyn-asu-ug-fibrocystic-change-of-the-breast-is-a-benign-condition-that-can-include-apocrine-metaplasi-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Breast source src_f70355bf7410ead2c7ff, Patho Q11.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-AND-ASU-UG-HIGH-GRADE-PROSTATIC-INTRAEPITHELIAL-NEOPLASIA-IS-ASSOCIATED-WITH-AN-ELEVATED-SERUM-PSA
+
+## title
+High-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA
+
+## arabic_title
+
+
+## aliases
+Which of the following serum markers is characteristically elevated in high-grade prostatic intraepithelial neoplasia (PIN)?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Prostate
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-AND-T04-S02-M02
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Prostate
+
+## summary
+High-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA.
+
+## sections
+### Definition
+High-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA.
+
+### Mechanism
+High-grade prostatic intraepithelial neoplasia (PIN) is a proliferative, dysplastic lesion of prostatic ducts and acini that is considered a precursor to prostatic adenocarcinoma, and like the glandular epithelium it arises from, it can produce and be associated with an elevated serum PSA. Because PSA is not specific for cancer, an elevated level in a patient found to have PIN on biopsy is interpreted with caution and often prompts closer follow-up or repeat biopsy given PIN's association with a subsequently diagnosed cancer.
+
+### Key determinants
+Reaching for a germ-cell tumor marker (AFP, β-hCG) for a prostatic epithelial lesion instead of PSA, the organ-appropriate marker.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Reaching for a germ-cell tumor marker (AFP, β-hCG) for a prostatic epithelial lesion instead of PSA, the organ-appropriate marker.
+
+## hold_these
+High-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA.
+
+## lose_the_mark
+Reaching for a germ-cell tumor marker (AFP, β-hCG) for a prostatic epithelial lesion instead of PSA, the organ-appropriate marker.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q14.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-AND-ASU-UG-HIGH-GRADE-PROSTATIC-INTRAEPITHELIAL-NEOPLASIA-IS-ASSOCIATED-WITH-AN-ELEVATED-SERUM-PSA-01
+
+## span_ids
+SPN-AND-ASU-UG-HIGH-GRADE-PROSTATIC-INTRAEPITHELIAL-NEOPLASIA-IS-ASSOCIATED-WITH-AN-ELEVATED-SERUM-PSA-01
+
+## annotations
+### definition_of · CON-AND-B7E375619AA743
+Quote: High-grade prostatic intraepithelial neoplasia is associated with an elevated serum PSA.
+Block: body
+Id: ann-androl-asu-ug-high-grade-prostatic-intraepithelial-neoplasia-is-associated-with-an-elevated-serum-psa-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Prostate source src_f70355bf7410ead2c7ff, Patho Q14.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-AND-ASU-UG-LYMPHOMA-IS-THE-MOST-COMMON-TESTICULAR-MALIGNANCY-IN-MEN-OVER-60
+
+## title
+Lymphoma is the most common testicular malignancy in men over 60
+
+## arabic_title
+
+
+## aliases
+A 65-year-old man presents with painless scrotal (testicular) enlargement. Which of the following is the most likely underlying tumor?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## summary
+Lymphoma is the most common testicular malignancy in men over 60.
+
+## sections
+### Definition
+Lymphoma is the most common testicular malignancy in men over 60.
+
+### Mechanism
+Although germ cell tumors are the most common testicular tumors overall, they occur mainly in men in their 20s-40s. In men over roughly 60 years of age, lymphoma (usually diffuse large B-cell lymphoma) becomes the most common testicular malignancy, typically presenting as painless testicular enlargement, sometimes bilateral, and often as the initial manifestation of the disease.
+
+### Key determinants
+Defaulting to 'germ cell tumor' for any testicular mass regardless of age; in an elderly man, lymphoma should be the leading consideration.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Defaulting to 'germ cell tumor' for any testicular mass regardless of age; in an elderly man, lymphoma should be the leading consideration.
+
+## hold_these
+Lymphoma is the most common testicular malignancy in men over 60.
+
+## lose_the_mark
+Defaulting to 'germ cell tumor' for any testicular mass regardless of age; in an elderly man, lymphoma should be the leading consideration.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q15.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-AND-ASU-UG-LYMPHOMA-IS-THE-MOST-COMMON-TESTICULAR-MALIGNANCY-IN-MEN-OVER-60-01
+
+## span_ids
+SPN-AND-ASU-UG-LYMPHOMA-IS-THE-MOST-COMMON-TESTICULAR-MALIGNANCY-IN-MEN-OVER-60-01
+
+## annotations
+### definition_of · CON-AND-AF8AD37E540976
+Quote: Lymphoma is the most common testicular malignancy in men over 60.
+Block: body
+Id: ann-androl-asu-ug-lymphoma-is-the-most-common-testicular-malignancy-in-men-over-60-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Testis source src_f70355bf7410ead2c7ff, Patho Q15.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-AN-ENDOCERVICAL-POLYP-IS-NOT-AN-ESTABLISHED-RISK-FACTOR-FOR-CERVICAL-CARCINOMA
+
+## title
+An endocervical polyp is not an established risk factor for cervical carcinoma
+
+## arabic_title
+
+
+## aliases
+Which of the following is NOT an established risk factor for cervical carcinoma?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## summary
+An endocervical polyp is not an established risk factor for cervical carcinoma.
+
+## sections
+### Definition
+An endocervical polyp is not an established risk factor for cervical carcinoma.
+
+### Mechanism
+An endocervical polyp is a common, benign, usually hyperplastic-inflammatory growth of the endocervical canal that is not itself a recognized risk factor for cervical carcinoma. The established risk factors instead center on persistent infection with a high-risk (oncogenic) HPV genotype and cofactors that increase HPV acquisition or persistence, such as multiple sexual partners, early coitarche, smoking, and immunosuppression.
+
+### Key determinants
+Assuming any benign-sounding cervical growth (like a polyp) must still carry oncogenic risk, rather than recognizing that HPV persistence and its behavioral/cofactor risk factors are what actually drive cervical cancer risk.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming any benign-sounding cervical growth (like a polyp) must still carry oncogenic risk, rather than recognizing that HPV persistence and its behavioral/cofactor risk factors are what actually drive cervical cancer risk.
+
+## hold_these
+An endocervical polyp is not an established risk factor for cervical carcinoma.
+
+## lose_the_mark
+Assuming any benign-sounding cervical growth (like a polyp) must still carry oncogenic risk, rather than recognizing that HPV persistence and its behavioral/cofactor risk factors are what actually drive cervical cancer risk.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q17.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-AN-ENDOCERVICAL-POLYP-IS-NOT-AN-ESTABLISHED-RISK-FACTOR-FOR-CERVICAL-CARCINOMA-01
+
+## span_ids
+SPN-GYN-ASU-UG-AN-ENDOCERVICAL-POLYP-IS-NOT-AN-ESTABLISHED-RISK-FACTOR-FOR-CERVICAL-CARCINOMA-01
+
+## annotations
+### definition_of · CON-GYN-7D69D0535BC7A8
+Quote: An endocervical polyp is not an established risk factor for cervical carcinoma.
+Block: body
+Id: ann-gyn-asu-ug-an-endocervical-polyp-is-not-an-established-risk-factor-for-cervical-carcinoma-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Cervix and endometrium source src_f70355bf7410ead2c7ff, Patho Q17.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-AND-ASU-UG-BENIGN-PROSTATIC-HYPERPLASIA-CAN-CAUSE-HYDRONEPHROSIS-AND-HYDROURETER-FROM-BLADDER-OUTLET
+
+## title
+Benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction
+
+## arabic_title
+
+
+## aliases
+Which of the following is a recognized complication of benign prostatic hyperplasia (BPH)?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Prostate
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-AND-T04-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Prostate
+
+## summary
+Benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction.
+
+## sections
+### Definition
+Benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction.
+
+### Mechanism
+BPH is nodular hyperplasia of the periurethral (transition zone) prostatic tissue, which can compress and narrow the prostatic urethra and progressively obstruct bladder outflow. Chronic outlet obstruction leads to bladder wall trabeculation and, if untreated, back-pressure effects that dilate the ureters and renal pelvicalyceal systems, producing hydroureter and hydronephrosis and, eventually, obstructive renal impairment.
+
+### Key determinants
+Attributing invasive features (seminal vesicle invasion) to BPH, which is a benign, non-invasive hyperplastic process whose complications are mechanical/obstructive rather than infiltrative.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Attributing invasive features (seminal vesicle invasion) to BPH, which is a benign, non-invasive hyperplastic process whose complications are mechanical/obstructive rather than infiltrative.
+
+## hold_these
+Benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction.
+
+## lose_the_mark
+Attributing invasive features (seminal vesicle invasion) to BPH, which is a benign, non-invasive hyperplastic process whose complications are mechanical/obstructive rather than infiltrative.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q18.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-AND-ASU-UG-BENIGN-PROSTATIC-HYPERPLASIA-CAN-CAUSE-HYDRONEPHROSIS-AND-HYDROURETER-FROM-BLADDER-OUTLET-01
+
+## span_ids
+SPN-AND-ASU-UG-BENIGN-PROSTATIC-HYPERPLASIA-CAN-CAUSE-HYDRONEPHROSIS-AND-HYDROURETER-FROM-BLADDER-OUTLET-01
+
+## annotations
+### definition_of · CON-AND-DABAE918EF0113
+Quote: Benign prostatic hyperplasia can cause hydronephrosis and hydroureter from bladder outlet obstruction.
+Block: body
+Id: ann-androl-asu-ug-benign-prostatic-hyperplasia-can-cause-hydronephrosis-and-hydroureter-from-bladder-outlet-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Prostate source src_f70355bf7410ead2c7ff, Patho Q18.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-AND-ASU-UG-YOLK-SAC-ENDODERMAL-SINUS-TUMOR-OF-THE-TESTIS-SHOWS-SCHILLER-DUVAL-BODIES-AND-RAISES-SERUM
+
+## title
+Yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP
+
+## arabic_title
+
+
+## aliases
+A 2-year-old boy has a testicular mass with glomeruloid (Schiller-Duval body) structures on histology. Which of the following serum markers is most likely to be elevated?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T06
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## summary
+Yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP.
+
+## sections
+### Definition
+Yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP.
+
+### Mechanism
+Glomeruloid structures called Schiller-Duval bodies are the pathognomonic histologic finding of yolk sac (endodermal sinus) tumor, the most common testicular germ cell tumor of infancy and early childhood. Yolk sac tumor cells recapitulate primitive yolk sac differentiation and characteristically produce alpha-fetoprotein, making serum AFP both a diagnostic clue and a useful marker for monitoring treatment response and detecting recurrence.
+
+### Key determinants
+Mixing up the two classic germ cell tumor markers — AFP marks yolk sac elements, β-hCG marks syncytiotrophoblastic/choriocarcinomatous elements.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Mixing up the two classic germ cell tumor markers — AFP marks yolk sac elements, β-hCG marks syncytiotrophoblastic/choriocarcinomatous elements.
+
+## hold_these
+Yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP.
+
+## lose_the_mark
+Mixing up the two classic germ cell tumor markers — AFP marks yolk sac elements, β-hCG marks syncytiotrophoblastic/choriocarcinomatous elements.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q19.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-AND-ASU-UG-YOLK-SAC-ENDODERMAL-SINUS-TUMOR-OF-THE-TESTIS-SHOWS-SCHILLER-DUVAL-BODIES-AND-RAISES-SERUM-01
+
+## span_ids
+SPN-AND-ASU-UG-YOLK-SAC-ENDODERMAL-SINUS-TUMOR-OF-THE-TESTIS-SHOWS-SCHILLER-DUVAL-BODIES-AND-RAISES-SERUM-01
+
+## annotations
+### definition_of · CON-AND-F45B8674770F7B
+Quote: Yolk sac (endodermal sinus) tumor of the testis shows Schiller-Duval bodies and raises serum AFP.
+Block: body
+Id: ann-androl-asu-ug-yolk-sac-endodermal-sinus-tumor-of-the-testis-shows-schiller-duval-bodies-and-raises-serum-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Testis source src_f70355bf7410ead2c7ff, Patho Q19.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-LICHEN-SCLEROSUS-OF-THE-VULVA-SHOWS-EPIDERMAL-THINNING-WITH-UNDERLYING-DERMAL-SCLEROSIS
+
+## title
+Lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis
+
+## arabic_title
+
+
+## aliases
+A woman presents with vulvar thickening, and biopsy reveals epidermal thinning with underlying dermal fibrosis (sclerosis). What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Vulva and vagina
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S02
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Vulva and vagina
+
+## summary
+Lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis.
+
+## sections
+### Definition
+Lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis.
+
+### Mechanism
+Lichen sclerosus is a chronic inflammatory dermatosis of the vulva, classically producing thin, "parchment-like" or porcelain-white skin on examination, with biopsy showing epidermal thinning (atrophy) overlying a band of dermal sclerosis (homogenized, hyalinized dermal collagen) and a band-like lymphocytic infiltrate beneath it. It predominantly affects postmenopausal women, and while itself benign, it carries a modestly increased risk of subsequent vulvar squamous cell carcinoma, so affected patients require ongoing follow-up.
+
+### Key determinants
+Confusing lichen sclerosus (epidermal thinning/atrophy) with lichen simplex chronicus (epidermal thickening) — the two are histologic opposites despite the similar names.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Confusing lichen sclerosus (epidermal thinning/atrophy) with lichen simplex chronicus (epidermal thickening) — the two are histologic opposites despite the similar names.
+
+## hold_these
+Lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis.
+
+## lose_the_mark
+Confusing lichen sclerosus (epidermal thinning/atrophy) with lichen simplex chronicus (epidermal thickening) — the two are histologic opposites despite the similar names.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q20.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-LICHEN-SCLEROSUS-OF-THE-VULVA-SHOWS-EPIDERMAL-THINNING-WITH-UNDERLYING-DERMAL-SCLEROSIS-01
+
+## span_ids
+SPN-GYN-ASU-UG-LICHEN-SCLEROSUS-OF-THE-VULVA-SHOWS-EPIDERMAL-THINNING-WITH-UNDERLYING-DERMAL-SCLEROSIS-01
+
+## annotations
+### definition_of · CON-GYN-FFFE65A2F6FB3D
+Quote: Lichen sclerosus of the vulva shows epidermal thinning with underlying dermal sclerosis.
+Block: body
+Id: ann-gyn-asu-ug-lichen-sclerosus-of-the-vulva-shows-epidermal-thinning-with-underlying-dermal-sclerosis-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Vulva and vagina source src_f70355bf7410ead2c7ff, Patho Q20.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-UNTREATED-ADVANCED-CERVICAL-CANCER-CLASSICALLY-CAUSES-DEATH-FROM-URETERAL-OBSTRUCTION-AND
+
+## title
+Untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia
+
+## arabic_title
+
+
+## aliases
+A woman with untreated stage IV cervical cancer dies of her disease. Which of the following is the most likely direct cause of death?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Cervix and endometrium
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Cervix and endometrium
+
+## summary
+Untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia.
+
+## sections
+### Definition
+Untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia.
+
+### Mechanism
+Cervical carcinoma spreads primarily by direct local extension into the parametrium and pelvic sidewall before it disseminates widely by the bloodstream, and this local spread characteristically encases and obstructs the distal ureters, which run close to the cervix and uterine arteries. Bilateral ureteral obstruction leads to bilateral hydronephrosis and progressive renal failure with uremia, which is the classic and most common cause of death in advanced, untreated cervical cancer.
+
+### Key determinants
+Assuming death from an advanced pelvic malignancy is generally from distant metastasis or hemorrhage, rather than recognizing the specific mechanical mechanism (ureteral obstruction) that dominates in cervical cancer given its pattern of local spread.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming death from an advanced pelvic malignancy is generally from distant metastasis or hemorrhage, rather than recognizing the specific mechanical mechanism (ureteral obstruction) that dominates in cervical cancer given its pattern of local spread.
+
+## hold_these
+Untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia.
+
+## lose_the_mark
+Assuming death from an advanced pelvic malignancy is generally from distant metastasis or hemorrhage, rather than recognizing the specific mechanical mechanism (ureteral obstruction) that dominates in cervical cancer given its pattern of local spread.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q22.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-UNTREATED-ADVANCED-CERVICAL-CANCER-CLASSICALLY-CAUSES-DEATH-FROM-URETERAL-OBSTRUCTION-AND-01
+
+## span_ids
+SPN-GYN-ASU-UG-UNTREATED-ADVANCED-CERVICAL-CANCER-CLASSICALLY-CAUSES-DEATH-FROM-URETERAL-OBSTRUCTION-AND-01
+
+## annotations
+### definition_of · CON-GYN-9010FC0BD3C7A2
+Quote: Untreated advanced cervical cancer classically causes death from ureteral obstruction and uremia.
+Block: body
+Id: ann-gyn-asu-ug-untreated-advanced-cervical-cancer-classically-causes-death-from-ureteral-obstruction-and-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Cervix and endometrium source src_f70355bf7410ead2c7ff, Patho Q22.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-AND-ASU-UG-CRYPTORCHIDISM-RAISES-GERM-CELL-TUMOR-RISK-IN-THE-CONTRALATERAL-TESTIS-EVEN-AFTER-ORCHIECT
+
+## title
+Cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side
+
+## arabic_title
+
+
+## aliases
+A 25-year-old man with an atrophic, undescended (cryptorchid) inguinal testis undergoes orchiectomy of that testis. Which of the following is a recognized long-term risk he still faces?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## summary
+Cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side.
+
+## sections
+### Definition
+Cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side.
+
+### Mechanism
+Cryptorchidism is associated with an increased risk of testicular germ cell tumor, and this increased risk is not confined to the maldescended testis alone — it reflects a more generalized predisposition affecting both testes, likely related to shared developmental/genetic factors. Consequently, even after orchiectomy removes the cryptorchid testis (whether for atrophy or cancer risk reduction), the patient's contralateral, normally descended testis remains at increased risk relative to the general population and warrants continued awareness and self-examination.
+
+### Key determinants
+Assuming that orchiectomy of the maldescended testis eliminates the patient's elevated testicular cancer risk, when the contralateral testis remains at increased risk and needs ongoing follow-up.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming that orchiectomy of the maldescended testis eliminates the patient's elevated testicular cancer risk, when the contralateral testis remains at increased risk and needs ongoing follow-up.
+
+## hold_these
+Cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side.
+
+## lose_the_mark
+Assuming that orchiectomy of the maldescended testis eliminates the patient's elevated testicular cancer risk, when the contralateral testis remains at increased risk and needs ongoing follow-up.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q23.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-AND-ASU-UG-CRYPTORCHIDISM-RAISES-GERM-CELL-TUMOR-RISK-IN-THE-CONTRALATERAL-TESTIS-EVEN-AFTER-ORCHIECT-01
+
+## span_ids
+SPN-AND-ASU-UG-CRYPTORCHIDISM-RAISES-GERM-CELL-TUMOR-RISK-IN-THE-CONTRALATERAL-TESTIS-EVEN-AFTER-ORCHIECT-01
+
+## annotations
+### definition_of · CON-AND-731FBB987CF49D
+Quote: Cryptorchidism raises germ cell tumor risk in the contralateral testis even after orchiectomy of the affected side.
+Block: body
+Id: ann-androl-asu-ug-cryptorchidism-raises-germ-cell-tumor-risk-in-the-contralateral-testis-even-after-orchiect-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Testis source src_f70355bf7410ead2c7ff, Patho Q23.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-GRANULOSA-CELL-TUMOR-IS-AN-ESTROGEN-SECRETING-OVARIAN-TUMOR-WITH-CALL-EXNER-BODY-MICROFOLL
+
+## title
+Granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology
+
+## arabic_title
+
+
+## aliases
+A postmenopausal woman presents with abnormal vaginal bleeding. Endometrial biopsy shows hyperplasia without atypia, and imaging reveals an adnexal ovarian mass; the mass shows cuboidal cells arranged in a microfollicular pattern on histology. What is the most likely diagnosis?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Ovary
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S02-M01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Ovary
+
+## summary
+Granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology.
+
+## sections
+### Definition
+Granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology.
+
+### Mechanism
+Granulosa cell tumor is an estrogen-secreting sex cord-stromal ovarian tumor, and its excess estrogen production explains the endometrial hyperplasia and postmenopausal bleeding seen in this patient. Histologically it classically shows small, cuboidal granulosa cells arranged around central spaces filled with eosinophilic material in a microfollicular pattern (Call-Exner bodies), and this combination of an estrogenic clinical picture with Call-Exner-body microfollicular histology is the classic teaching link between the tumor and its hormonal effects.
+
+### Key determinants
+Forgetting that among sex cord-stromal tumors, it is specifically the granulosa cell tumor that is estrogenic and drives endometrial hyperplasia/postmenopausal bleeding, not fibroma or other stromal tumors.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Forgetting that among sex cord-stromal tumors, it is specifically the granulosa cell tumor that is estrogenic and drives endometrial hyperplasia/postmenopausal bleeding, not fibroma or other stromal tumors.
+
+## hold_these
+Granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology.
+
+## lose_the_mark
+Forgetting that among sex cord-stromal tumors, it is specifically the granulosa cell tumor that is estrogenic and drives endometrial hyperplasia/postmenopausal bleeding, not fibroma or other stromal tumors.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q24.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-GRANULOSA-CELL-TUMOR-IS-AN-ESTROGEN-SECRETING-OVARIAN-TUMOR-WITH-CALL-EXNER-BODY-MICROFOLL-01
+
+## span_ids
+SPN-GYN-ASU-UG-GRANULOSA-CELL-TUMOR-IS-AN-ESTROGEN-SECRETING-OVARIAN-TUMOR-WITH-CALL-EXNER-BODY-MICROFOLL-01
+
+## annotations
+### definition_of · CON-GYN-34271B5FFB6076
+Quote: Granulosa cell tumor is an estrogen-secreting ovarian tumor with Call-Exner-body microfollicular histology.
+Block: body
+Id: ann-gyn-asu-ug-granulosa-cell-tumor-is-an-estrogen-secreting-ovarian-tumor-with-call-exner-body-microfoll-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Ovary source src_f70355bf7410ead2c7ff, Patho Q24.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-AND-ASU-UG-NODULAR-PROSTATIC-HYPERPLASIA-BPH-IS-THE-CLASSIC-CAUSE-OF-BLADDER-OUTLET-OBSTRUCTION-PRESE
+
+## title
+Nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men
+
+## arabic_title
+
+
+## aliases
+A 78-year-old man with recurrent bouts of cystitis develops acute urinary retention. What is the most likely underlying cause of his bladder outlet obstruction?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Prostate
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-AND-T04-S01-M01
+
+## secondary_node_ids
+DIS-PAT-T07
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Prostate
+
+## summary
+Nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men.
+
+## sections
+### Definition
+Nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men.
+
+### Mechanism
+Nodular hyperplasia of the periurethral prostatic tissue (BPH) is extremely common with advancing age and progressively narrows the prostatic urethra, producing incomplete bladder emptying, urinary stasis, and recurrent cystitis from residual urine, with acute-on-chronic obstruction eventually precipitating acute urinary retention. This combination of an elderly man with recurrent cystitis culminating in acute retention is the classic clinical presentation of obstructing BPH.
+
+### Key determinants
+Overlooking BPH as the default, by-far-most-common cause of obstructive urinary symptoms and recurrent cystitis in an elderly man, in favor of rarer differential diagnoses.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Overlooking BPH as the default, by-far-most-common cause of obstructive urinary symptoms and recurrent cystitis in an elderly man, in favor of rarer differential diagnoses.
+
+## hold_these
+Nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men.
+
+## lose_the_mark
+Overlooking BPH as the default, by-far-most-common cause of obstructive urinary symptoms and recurrent cystitis in an elderly man, in favor of rarer differential diagnoses.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q25.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-AND-ASU-UG-NODULAR-PROSTATIC-HYPERPLASIA-BPH-IS-THE-CLASSIC-CAUSE-OF-BLADDER-OUTLET-OBSTRUCTION-PRESE-01
+
+## span_ids
+SPN-AND-ASU-UG-NODULAR-PROSTATIC-HYPERPLASIA-BPH-IS-THE-CLASSIC-CAUSE-OF-BLADDER-OUTLET-OBSTRUCTION-PRESE-01
+
+## annotations
+### definition_of · CON-AND-30D0EA2DEF75DF
+Quote: Nodular prostatic hyperplasia (BPH) is the classic cause of bladder outlet obstruction presenting with recurrent cystitis and acute urinary retention in elderly men.
+Block: body
+Id: ann-androl-asu-ug-nodular-prostatic-hyperplasia-bph-is-the-classic-cause-of-bladder-outlet-obstruction-prese-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Prostate source src_f70355bf7410ead2c7ff, Patho Q25.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-AND-ASU-UG-LEYDIG-CELL-TUMOR-CAUSES-ISOSEXUAL-PRECOCIOUS-PUBERTY-IN-A-PREPUBERTAL-BOY-THROUGH-ANDROGE
+
+## title
+Leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion
+
+## arabic_title
+
+
+## aliases
+An 8-year-old boy presents with precocious puberty, enlargement of the external genitalia, and facial hair. Which of the following testicular neoplasms is the most likely cause?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Male reproductive pathology
+
+## subtopic
+Testis
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-AND-T05-S01-M03
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Testis
+
+## summary
+Leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion.
+
+## sections
+### Definition
+Leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion.
+
+### Mechanism
+Leydig cell tumor is a sex cord-stromal testicular tumor that secretes androgens (and sometimes estrogens), so when it occurs in a prepubertal boy it produces isosexual precocious puberty, with virilizing features such as enlarged external genitalia, facial and pubic hair, and accelerated growth, well before the normal age of puberty. This androgen-secreting behavior, together with a testicular mass, is the classic teaching link between Leydig cell tumor and precocious puberty in a young boy.
+
+### Key determinants
+Assuming any prepubertal testicular mass is a germ cell tumor; a functioning sex cord-stromal tumor (Leydig cell tumor) is the classic cause of precocious puberty specifically.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Assuming any prepubertal testicular mass is a germ cell tumor; a functioning sex cord-stromal tumor (Leydig cell tumor) is the classic cause of precocious puberty specifically.
+
+## hold_these
+Leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion.
+
+## lose_the_mark
+Assuming any prepubertal testicular mass is a germ cell tumor; a functioning sex cord-stromal tumor (Leydig cell tumor) is the classic cause of precocious puberty specifically.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q26.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-AND-ASU-UG-LEYDIG-CELL-TUMOR-CAUSES-ISOSEXUAL-PRECOCIOUS-PUBERTY-IN-A-PREPUBERTAL-BOY-THROUGH-ANDROGE-01
+
+## span_ids
+SPN-AND-ASU-UG-LEYDIG-CELL-TUMOR-CAUSES-ISOSEXUAL-PRECOCIOUS-PUBERTY-IN-A-PREPUBERTAL-BOY-THROUGH-ANDROGE-01
+
+## annotations
+### definition_of · CON-AND-8CBA53FC4E36A9
+Quote: Leydig cell tumor causes isosexual precocious puberty in a prepubertal boy through androgen secretion.
+Block: body
+Id: ann-androl-asu-ug-leydig-cell-tumor-causes-isosexual-precocious-puberty-in-a-prepubertal-boy-through-androge-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Testis source src_f70355bf7410ead2c7ff, Patho Q26.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-GYN-ASU-UG-SARCOMA-BOTRYOIDES-IS-THE-GRAPE-LIKE-BOTRYOID-VARIANT-OF-EMBRYONAL-RHABDOMYOSARCOMA-OF-THE
+
+## title
+Sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children
+
+## arabic_title
+
+
+## aliases
+A 4-year-old girl presents with polypoid, grape-like masses protruding from the vagina. Biopsy shows small round malignant cells, some with eosinophilic, strap-like cytoplasm. How is this lesion best classified?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Female reproductive pathology
+
+## subtopic
+Vulva and vagina
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-GYN-T05-S02
+
+## secondary_node_ids
+DIS-PAT-T06
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Vulva and vagina
+
+## summary
+Sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children.
+
+## sections
+### Definition
+Sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children.
+
+### Mechanism
+Sarcoma botryoides is the grape-like ("botryoid") clinical variant of embryonal rhabdomyosarcoma, the most common vaginal malignancy of infancy and early childhood, typically presenting before age 5 as a polypoid mass protruding from the vagina. Diagnosis rests on identifying small round malignant cells, some of which show eosinophilic, cross-striated or strap-like cytoplasm reflecting skeletal muscle differentiation, and a dense subepithelial ('cambium') layer of tumor cells, and desmin/myogenin immunostaining confirms the rhabdomyoblastic lineage.
+
+### Key determinants
+Not recognizing the eosinophilic 'strap cell' cytoplasm as the histologic clue pointing to skeletal muscle (rhabdomyoblastic) differentiation, which is what identifies embryonal rhabdomyosarcoma among the pediatric small round blue cell tumors.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Not recognizing the eosinophilic 'strap cell' cytoplasm as the histologic clue pointing to skeletal muscle (rhabdomyoblastic) differentiation, which is what identifies embryonal rhabdomyosarcoma among the pediatric small round blue cell tumors.
+
+## hold_these
+Sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children.
+
+## lose_the_mark
+Not recognizing the eosinophilic 'strap cell' cytoplasm as the histologic clue pointing to skeletal muscle (rhabdomyoblastic) differentiation, which is what identifies embryonal rhabdomyosarcoma among the pediatric small round blue cell tumors.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q27.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-GYN-ASU-UG-SARCOMA-BOTRYOIDES-IS-THE-GRAPE-LIKE-BOTRYOID-VARIANT-OF-EMBRYONAL-RHABDOMYOSARCOMA-OF-THE-01
+
+## span_ids
+SPN-GYN-ASU-UG-SARCOMA-BOTRYOIDES-IS-THE-GRAPE-LIKE-BOTRYOID-VARIANT-OF-EMBRYONAL-RHABDOMYOSARCOMA-OF-THE-01
+
+## annotations
+### definition_of · CON-GYN-5DA23D0EC7AD4A
+Quote: Sarcoma botryoides is the grape-like botryoid variant of embryonal rhabdomyosarcoma of the vagina in young children.
+Block: body
+Id: ann-gyn-asu-ug-sarcoma-botryoides-is-the-grape-like-botryoid-variant-of-embryonal-rhabdomyosarcoma-of-the-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Vulva and vagina source src_f70355bf7410ead2c7ff, Patho Q27.
+
+## last_reviewed
+
+
+## review_due
+
+
+---
+
+# Item
+
+## id
+ART-OBS-ASU-UG-MOLAR-PREGNANCY-FOLLOW-UP-REQUIRES-SERIAL-SERUM-BETA-HCG-MONITORING-AFTER-EVACUATION
+
+## title
+Molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation
+
+## arabic_title
+
+
+## aliases
+A 22-year-old woman at 16 weeks of her first pregnancy passes grape-like masses of tissue per vagina, having never felt fetal movement; the uterus measures large for dates, and D&C yields fluid-filled vesicles with avascular villi and trophoblastic proliferation on histology, consistent with a complete hydatidiform mole. What is the best method for her post-evacuation follow-up?
+
+## subject
+obs
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## topic
+Obstetric pathology
+
+## subtopic
+Gestational trophoblastic disease
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+SYS-OBS-T02-S01
+
+## secondary_node_ids
+DIS-PAT-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 3 Urogenital foundation
+
+## reading_time
+3
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## universities
+asu
+
+## years
+ASU_Y3
+
+## module
+ASU-UG
+
+## module_subject
+ASU-UG > Pathology > Gestational trophoblastic disease
+
+## summary
+Molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation.
+
+## sections
+### Definition
+Molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation.
+
+### Mechanism
+Molar pregnancy is characterized by trophoblastic proliferation that produces very high levels of beta-hCG, and a defining part of its management is serial, regularly-scheduled serum beta-hCG monitoring after evacuation until it falls to and remains at an undetectable level, because a plateauing or rising titer signals persistent or malignant gestational trophoblastic disease (invasive mole or choriocarcinoma) requiring further treatment. Patients are also counseled to avoid pregnancy during this monitoring period, since a new pregnancy would itself raise hCG and confound interpretation.
+
+### Key determinants
+Treating molar pregnancy follow-up as a one-off test rather than the serial, sustained beta-hCG surveillance needed to catch persistent or malignant gestational trophoblastic disease.
+
+### Clinical significance
+This batch does not extend the source's plain fact into further diagnosis, treatment or management claims beyond what the compilation itself states.
+
+### Common misconceptions
+Treating molar pregnancy follow-up as a one-off test rather than the serial, sustained beta-hCG surveillance needed to catch persistent or malignant gestational trophoblastic disease.
+
+## hold_these
+Molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation.
+
+## lose_the_mark
+Treating molar pregnancy follow-up as a one-off test rather than the serial, sustained beta-hCG surveillance needed to catch persistent or malignant gestational trophoblastic disease.
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+ASU Year 3 Urogenital EOM Final 2 MCQ Collection, native-text PDF, source id src_f70355bf7410ead2c7ff, Patho Q28.
+
+## evidence_gaps
+Independent pathology textbook reference (e.g. Robbins Basic Pathology) required before publication. The source is an undated, already-keyed student exam-bank compilation with no printed distractors of its own.
+
+## notes
+ASU-UG EOM MCQs - UG Final 2 MCQ Collection batch. No OCR, web source, or outside fact was used beyond standard pathology teaching needed to write plausible cited distractors; the printed key was read directly from the source.
+
+## field_notes
+arabicTitle: Arabic title has not been reviewed; left empty rather than guessed.
+nanotopicId: No verified nanotopic exists below this ASU slice's microtopic.
+media: No rights-cleared asset exists for this batch.
+lastReviewed: Draft has not completed review.
+reviewDue: Set after first review.
+publishedSummary: Draft has no safe student projection yet.
+publishedSections: Draft has no safe student projection yet.
+questionIds: Linked at import time via the question record's main_concept/library_ids.
+conflicts: No conflict identified in the selected local source slice.
+
+## related_concepts
+
+
+## related_articles
+
+
+## resource_ids
+src_f70355bf7410ead2c7ff
+
+## article_source_ids
+src_f70355bf7410ead2c7ff
+
+## claim_ids
+CLM-OBS-ASU-UG-MOLAR-PREGNANCY-FOLLOW-UP-REQUIRES-SERIAL-SERUM-BETA-HCG-MONITORING-AFTER-EVACUATION-01
+
+## span_ids
+SPN-OBS-ASU-UG-MOLAR-PREGNANCY-FOLLOW-UP-REQUIRES-SERIAL-SERUM-BETA-HCG-MONITORING-AFTER-EVACUATION-01
+
+## annotations
+### definition_of · CON-OBS-D7F1F4ACD163B1
+Quote: Molar pregnancy follow-up requires serial serum beta-hCG monitoring after evacuation.
+Block: body
+Id: ann-obs-asu-ug-molar-pregnancy-follow-up-requires-serial-serum-beta-hcg-monitoring-after-evacuation-001
+
+## callout_evidence
+
+
+## question_ids
+
+
+## media
+
+
+## published_summary
+
+
+## published_sections
+
+
+## conflicts
+
+
+## university_notes
+asu: Authored from ASU-UG > Pathology > Gestational trophoblastic disease source src_f70355bf7410ead2c7ff, Patho Q28.
+
+## last_reviewed
+
+
+## review_due
+

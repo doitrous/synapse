@@ -1,0 +1,892 @@
+{
+  "lane": "ASU-UG",
+  "cluster": "assessment-1-mcq",
+  "header": "ASU-UG · Physiology — authored from the MCQs - Urogenital Assessment 1 MCQ.pdf compilation (~110-120 items across subject blocks; this batch covers 20 items from the previously unsampled Physiology block, pp.7-9, items Physio Q2-Q25), keys read as printed (embedded answer with/adjacent to the stem); distractors authored by this lane.",
+  "defaults": {
+    "subject": "renal",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "asu"
+    ],
+    "years": [
+      "ASU_Y3"
+    ],
+    "module": "ASU-UG",
+    "module_subject": "ASU-UG > Physiology",
+    "exam_weight_by_year": {
+      "ASU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [],
+    "resource_ids": [
+      "src_fe15375a2ac623537954"
+    ],
+    "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q{page}.",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "assessment-1-mcq-q02",
+      "id": "QST-ASUUG-ASS1MCQ-Q02",
+      "page": 2,
+      "title": "Which of the following changes increases the glomerular filtration rate (GFR)?",
+      "question": "Which of the following changes increases the glomerular filtration rate (GFR)?",
+      "options": {
+        "A": "A decrease in plasma (glomerular capillary) oncotic pressure",
+        "B": "An increase in Bowman's capsule hydrostatic pressure",
+        "C": "Afferent arteriolar constriction",
+        "D": "An increase in plasma oncotic pressure"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. GFR is driven by the net filtration pressure across the glomerular capillary, which equals the glomerular capillary hydrostatic pressure minus Bowman's capsule hydrostatic pressure minus the glomerular capillary oncotic pressure (the main opposing force to filtration). Lowering plasma oncotic pressure — as happens with hypoalbuminemia — reduces this opposing force, so more of the hydrostatic pressure is available to drive fluid out of the capillary, increasing GFR.",
+        "B": "Incorrect. Bowman's capsule hydrostatic pressure opposes filtration, so an increase in it (e.g. from obstruction) would decrease, not increase, GFR.",
+        "C": "Incorrect. Afferent arteriolar constriction reduces glomerular capillary hydrostatic pressure and renal plasma flow, decreasing GFR.",
+        "D": "Incorrect. Increased plasma oncotic pressure increases the opposing force to filtration, decreasing GFR — the opposite direction from what the question asks."
+      },
+      "main_concept": "CON-REN-1D0F6664D6170C",
+      "concept_ids": [
+        "CON-REN-1D0F6664D6170C"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-A-DECREASE-IN-PLASMA-ONCOTIC-PRESSURE-INCREASES-GLOMERULAR-FILTRATION-RATE"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Glomerular filtration",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "A decrease in plasma oncotic pressure increases glomerular filtration rate",
+      "module_subject": "ASU-UG > Physiology > Glomerular filtration",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q2.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q2",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q2"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q03",
+      "id": "QST-ASUUG-ASS1MCQ-Q03",
+      "page": 3,
+      "title": "Which of the following is used to measure the maximal secretory capacity (secretory power) of the kidney?",
+      "question": "Which of the following is used to measure the maximal secretory capacity (secretory power) of the kidney?",
+      "options": {
+        "A": "Transport maximum for para-aminohippurate (Tm PAH)",
+        "B": "Inulin clearance",
+        "C": "Creatinine clearance",
+        "D": "Transport maximum for glucose (Tm glucose)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. PAH is both filtered and, once plasma PAH concentration is raised high enough to saturate the proximal tubular organic anion transporters, actively secreted into the tubule at its maximal rate. The transport maximum for PAH (Tm PAH) therefore measures the kidney's maximal tubular secretory capacity, just as Tm glucose measures maximal tubular reabsorptive capacity.",
+        "B": "Incorrect. Inulin is freely filtered and neither reabsorbed nor secreted, which is what makes its clearance a measure of GFR, not of tubular secretory capacity.",
+        "C": "Incorrect. Creatinine clearance approximates GFR (with a small secretory component that makes it a slight overestimate), not a measure of maximal secretory power.",
+        "D": "Incorrect. Tm glucose measures the maximal rate of tubular reabsorption, the opposite direction of transport from secretion."
+      },
+      "main_concept": "CON-REN-AFF5B440BD4C99",
+      "concept_ids": [
+        "CON-REN-AFF5B440BD4C99"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-THE-TRANSPORT-MAXIMUM-FOR-PAH-TM-PAH-MEASURES-THE-KIDNEY-S-MAXIMAL-TUBULAR-SECRETORY-CAPAC"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Tubular secretion",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "The transport maximum for PAH (Tm PAH) measures the kidney's maximal tubular secretory capacity",
+      "module_subject": "ASU-UG > Physiology > Tubular secretion",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q3.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q3",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q3"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q05",
+      "id": "QST-ASUUG-ASS1MCQ-Q05",
+      "page": 5,
+      "title": "Bartter syndrome is characteristically associated with which of the following electrolyte abnormalities?",
+      "question": "Bartter syndrome is characteristically associated with which of the following electrolyte abnormalities?",
+      "options": {
+        "A": "Hypokalemia",
+        "B": "Hyperkalemia",
+        "C": "Hypernatremia",
+        "D": "Hypercalcemia"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bartter syndrome is an inherited tubulopathy caused by defective salt reabsorption in the thick ascending limb of the loop of Henle, functionally mimicking chronic loop diuretic use. This produces volume depletion that activates the renin-angiotensin-aldosterone system, and the resulting hyperaldosteronism drives renal potassium wasting, so patients characteristically present with hypokalemia together with metabolic alkalosis.",
+        "B": "Incorrect. Bartter syndrome causes potassium wasting (via secondary hyperaldosteronism), producing hypokalemia rather than hyperkalemia.",
+        "C": "Incorrect. Bartter syndrome causes salt wasting with generally normal-to-low blood pressure, not hypernatremia.",
+        "D": "Incorrect. Bartter syndrome is associated with hypercalciuria (urinary calcium loss) but typically normal or low, not high, serum calcium."
+      },
+      "main_concept": "CON-REN-9261948507C225",
+      "concept_ids": [
+        "CON-REN-9261948507C225"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-BARTTER-SYNDROME-CAUSES-HYPOKALEMIA-THROUGH-LOOP-OF-HENLE-SALT-WASTING-AND-SECONDARY-HYPER"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Potassium balance",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Bartter syndrome causes hypokalemia through loop-of-Henle salt wasting and secondary hyperaldosteronism",
+      "module_subject": "ASU-UG > Physiology > Potassium balance",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q5.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q5",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q5"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q06",
+      "id": "QST-ASUUG-ASS1MCQ-Q06",
+      "page": 6,
+      "title": "According to the principle of glomerulotubular balance, what happens to peritubular capillary oncotic pressure when GFR increases (at constant renal plasma flow)?",
+      "question": "According to the principle of glomerulotubular balance, what happens to peritubular capillary oncotic pressure when GFR increases (at constant renal plasma flow)?",
+      "options": {
+        "A": "Peritubular capillary oncotic pressure increases",
+        "B": "Peritubular capillary oncotic pressure decreases",
+        "C": "Peritubular capillary oncotic pressure is unaffected by GFR",
+        "D": "Peritubular capillary hydrostatic pressure increases while oncotic pressure falls"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When GFR rises relative to renal plasma flow, the filtration fraction (GFR/RPF) increases, meaning a larger share of plasma water leaves the glomerular capillaries as filtrate while plasma proteins stay behind in the blood that continues on to the peritubular capillaries. This concentrates protein in the post-glomerular blood, raising peritubular capillary oncotic pressure, which in turn enhances proximal tubular fluid reabsorption — the physiological basis of glomerulotubular balance, which keeps the fraction of filtered load reabsorbed roughly constant despite changes in GFR.",
+        "B": "Incorrect. Peritubular capillary oncotic pressure rises, not falls, when filtration fraction increases, since protein is left more concentrated in the blood that did not filter.",
+        "C": "Incorrect. Peritubular capillary oncotic pressure is directly linked to filtration fraction and therefore does change with GFR at a given renal plasma flow.",
+        "D": "Incorrect. Peritubular capillary hydrostatic pressure is set mainly by efferent arteriolar resistance, not directly driven up by GFR in this way, and it is the rise (not a fall) in oncotic pressure that mediates glomerulotubular balance."
+      },
+      "main_concept": "CON-REN-AF7A7D33F9F8FA",
+      "concept_ids": [
+        "CON-REN-AF7A7D33F9F8FA"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-A-RISE-IN-GLOMERULAR-FILTRATION-RATE-INCREASES-PERITUBULAR-CAPILLARY-ONCOTIC-PRESSURE-DRIV"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Glomerular filtration",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "A rise in glomerular filtration rate increases peritubular capillary oncotic pressure, driving glomerulotubular balance",
+      "module_subject": "ASU-UG > Physiology > Glomerular filtration",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q6.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q6",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q6"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q07",
+      "id": "QST-ASUUG-ASS1MCQ-Q07",
+      "page": 7,
+      "title": "Which of the following removes water from the renal medullary interstitium as part of the countercurrent exchange mechanism?",
+      "question": "Which of the following removes water from the renal medullary interstitium as part of the countercurrent exchange mechanism?",
+      "options": {
+        "A": "The ascending limb of the vasa recta",
+        "B": "The descending limb of the vasa recta",
+        "C": "The thick ascending limb of the loop of Henle",
+        "D": "The descending limb of the loop of Henle"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The vasa recta act as passive countercurrent exchangers that preserve, rather than dissipate, the medullary osmotic gradient. As blood ascends back toward the cortex in the ascending limb of the vasa recta, it re-enters progressively less hyperosmotic interstitium, so water that had entered the descending limb (and solute that diffused in along the way) moves back out of the vessel into the blood, effectively removing the excess water that entered the medulla and carrying it away.",
+        "B": "Incorrect. The descending limb of the vasa recta is where water leaves the blood and solute enters as the blood descends into the increasingly hyperosmotic medulla, the opposite direction of net water movement from what the question asks.",
+        "C": "Incorrect. The thick ascending limb of the loop of Henle is impermeable to water; it actively transports NaCl out of the tubule to establish the medullary gradient but does not itself remove interstitial water via blood flow.",
+        "D": "Incorrect. The descending limb of the loop of Henle is where tubular fluid loses water into the hyperosmotic interstitium, adding water to it rather than removing it."
+      },
+      "main_concept": "CON-REN-0393CC617268D2",
+      "concept_ids": [
+        "CON-REN-0393CC617268D2"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-THE-ASCENDING-LIMB-OF-THE-VASA-RECTA-REMOVES-WATER-FROM-THE-RENAL-MEDULLARY-INTERSTITIUM"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Urine concentration",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "The ascending limb of the vasa recta removes water from the renal medullary interstitium",
+      "module_subject": "ASU-UG > Physiology > Urine concentration",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q7.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q7",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q7"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q09",
+      "id": "QST-ASUUG-ASS1MCQ-Q09",
+      "page": 9,
+      "title": "Ammonia (NH3/NH4+) is an especially effective urinary buffer in which of the following locations?",
+      "question": "Ammonia (NH3/NH4+) is an especially effective urinary buffer in which of the following locations?",
+      "options": {
+        "A": "The kidney",
+        "B": "The lungs",
+        "C": "The plasma alone",
+        "D": "The gastrointestinal tract"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The renal tubular epithelium (chiefly the proximal tubule) synthesizes ammonia from glutamine and secretes it into the tubular lumen, where it combines with secreted H+ to form ammonium (NH4+), which is then trapped in the lumen (since the epithelium is far less permeable to the charged NH4+ than to neutral NH3) and excreted in the urine. Because the kidney can increase ammonia synthesis and secretion on demand — unlike the fixed buffering capacity of phosphate — the ammonia buffer system gives the kidney a large, adaptable capacity to excrete the daily acid load and regenerate bicarbonate, making it especially effective specifically in this organ.",
+        "B": "Incorrect. The lungs regulate acid-base balance by adjusting CO2 (respiratory) excretion, not by generating and excreting an ammonia buffer.",
+        "C": "Incorrect. Ammonia buffering is a renal tubular secretory process, not simply a plasma buffer reaction.",
+        "D": "Incorrect. While gut bacteria produce ammonia, it is the kidney's regulated synthesis and urinary trapping of ammonia that makes it a titratable, adaptable acid-base buffer system."
+      },
+      "main_concept": "CON-REN-94B1C659FFB155",
+      "concept_ids": [
+        "CON-REN-94B1C659FFB155"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-AMMONIA-IS-AN-ESPECIALLY-EFFECTIVE-ADAPTABLE-URINARY-BUFFER-IN-THE-KIDNEY"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Acid-base physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Ammonia is an especially effective, adaptable urinary buffer in the kidney",
+      "module_subject": "ASU-UG > Physiology > Acid-base physiology",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q9.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q9",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q9"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q10",
+      "id": "QST-ASUUG-ASS1MCQ-Q10",
+      "page": 10,
+      "title": "Which of the following conditions is associated with a decrease in urinary titratable acid excretion?",
+      "question": "Which of the following conditions is associated with a decrease in urinary titratable acid excretion?",
+      "options": {
+        "A": "Psychogenic (voluntary) hyperventilation",
+        "B": "Chronic kidney disease with metabolic acidosis",
+        "C": "Diabetic ketoacidosis",
+        "D": "Chronic respiratory acidosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Titratable acid excretion depends on renal H+ secretion, which is stimulated by systemic acidosis and suppressed by alkalosis. Psychogenic hyperventilation blows off CO2 and produces a respiratory alkalosis, which reduces the tubular drive to secrete H+ and therefore decreases urinary titratable acid excretion, the opposite of what occurs in an acidotic state.",
+        "B": "Incorrect. Chronic kidney disease with metabolic acidosis reflects reduced net acid excretion capacity overall, but the acidemic stimulus that is present still tends to drive what H+ secretory capacity remains, unlike the alkalosis of hyperventilation which actively suppresses it.",
+        "C": "Incorrect. Diabetic ketoacidosis is a severe acidemic state that maximally stimulates renal H+ secretion and titratable acid excretion (along with ammoniagenesis), not a state that decreases it.",
+        "D": "Incorrect. Chronic respiratory acidosis (CO2 retention) stimulates, rather than decreases, renal H+ secretion and titratable acid excretion as a compensatory response."
+      },
+      "main_concept": "CON-REN-3973548154F035",
+      "concept_ids": [
+        "CON-REN-3973548154F035"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-PSYCHOGENIC-HYPERVENTILATION-CAUSES-RESPIRATORY-ALKALOSIS-THAT-DECREASES-URINARY-TITRATABL"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Acid-base physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Psychogenic hyperventilation causes respiratory alkalosis that decreases urinary titratable acid excretion",
+      "module_subject": "ASU-UG > Physiology > Acid-base physiology",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q10.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q10",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q10"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q11",
+      "id": "QST-ASUUG-ASS1MCQ-Q11",
+      "page": 11,
+      "title": "Which of the following acid-base disturbances is characteristically found in chronic kidney disease?",
+      "question": "Which of the following acid-base disturbances is characteristically found in chronic kidney disease?",
+      "options": {
+        "A": "Metabolic acidosis",
+        "B": "Metabolic alkalosis",
+        "C": "Respiratory acidosis",
+        "D": "Respiratory alkalosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. As nephron mass and function decline in chronic kidney disease, the kidneys' capacity to excrete the daily fixed acid load (via ammoniagenesis and titratable acid excretion) and to regenerate bicarbonate progressively falls short of dietary acid production, leading to a chronic, typically normal-anion-gap (early) transitioning to increased-anion-gap (advanced) metabolic acidosis. This retained-acid, reduced-excretion state is one of the classic systemic complications of chronic kidney disease.",
+        "B": "Incorrect. Metabolic alkalosis is not a characteristic feature of CKD; it more typically arises from causes such as vomiting, diuretic use, or mineralocorticoid excess.",
+        "C": "Incorrect. Respiratory acidosis arises from impaired ventilation (a pulmonary/respiratory problem), not from failing renal acid excretion.",
+        "D": "Incorrect. Respiratory alkalosis arises from hyperventilation, unrelated to the renal acid-excretion defect of CKD."
+      },
+      "main_concept": "CON-REN-4B3B171CD9AE8B",
+      "concept_ids": [
+        "CON-REN-4B3B171CD9AE8B"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-CHRONIC-KIDNEY-DISEASE-CHARACTERISTICALLY-CAUSES-METABOLIC-ACIDOSIS-FROM-REDUCED-RENAL-ACI"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Acid-base physiology",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Chronic kidney disease characteristically causes metabolic acidosis from reduced renal acid excretion",
+      "module_subject": "ASU-UG > Physiology > Acid-base physiology",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q11.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q11",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q11"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q12",
+      "id": "QST-ASUUG-ASS1MCQ-Q12",
+      "page": 12,
+      "title": "Which of the following is a recognized cause of hyperkalemia through cellular potassium release?",
+      "question": "Which of the following is a recognized cause of hyperkalemia through cellular potassium release?",
+      "options": {
+        "A": "Crush (rhabdomyolysis) injury",
+        "B": "Insulin administration",
+        "C": "Beta-2 adrenergic agonist administration (e.g. salbutamol)",
+        "D": "Metabolic alkalosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Crush injury causes rhabdomyolysis, in which damaged skeletal muscle cells release their large intracellular potassium stores directly into the extracellular fluid, producing a rapid rise in serum potassium that can be severe and life-threatening, especially once reperfusion of the injured tissue occurs. This is a classic cause of hyperkalemia through cell lysis/release rather than through impaired renal excretion alone.",
+        "B": "Incorrect. Insulin drives potassium into cells (via stimulating the Na+/K+-ATPase), lowering, not raising, serum potassium — it is used therapeutically to treat hyperkalemia.",
+        "C": "Incorrect. Beta-2 agonists also drive potassium into cells and lower serum potassium, and are likewise used as an emergency treatment for hyperkalemia.",
+        "D": "Incorrect. Alkalosis promotes potassium shift into cells (in exchange for H+ leaving cells to buffer the alkalosis), tending to lower, not raise, serum potassium; acidosis is the acid-base disturbance associated with hyperkalemia."
+      },
+      "main_concept": "CON-REN-42E22F57A1B270",
+      "concept_ids": [
+        "CON-REN-42E22F57A1B270"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-CRUSH-INJURY-CAUSES-HYPERKALEMIA-THROUGH-RHABDOMYOLYSIS-RELATED-POTASSIUM-RELEASE-FROM-DAM"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Potassium balance",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Crush injury causes hyperkalemia through rhabdomyolysis-related potassium release from damaged muscle",
+      "module_subject": "ASU-UG > Physiology > Potassium balance",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q12.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q12",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q12"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q13",
+      "id": "QST-ASUUG-ASS1MCQ-Q13",
+      "page": 13,
+      "title": "Which of the following characterizes potassium and hydrogen ion handling in the distal convoluted tubule and collecting duct?",
+      "question": "Which of the following characterizes potassium and hydrogen ion handling in the distal convoluted tubule and collecting duct?",
+      "options": {
+        "A": "Potassium and hydrogen ion secretion by intercalated/principal cells compete with each other",
+        "B": "Potassium and hydrogen ions are always secreted in direct proportion to one another",
+        "C": "Potassium secretion is entirely independent of acid-base status",
+        "D": "Hydrogen ion secretion occurs exclusively in the proximal tubule, not the distal nephron"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In the distal tubule and collecting duct, principal cells secrete K+ while intercalated cells secrete H+, and these two secretory processes compete with (reciprocally influence) each other because both are linked to the same driving forces (electrochemical gradients set up by Na+ reabsorption) and to intracellular pH/potassium handling. This is why, for example, acidosis (which favors H+ secretion) tends to reduce K+ secretion and predispose to hyperkalemia, while alkalosis favors K+ secretion and can produce hypokalemia — a reciprocal, competitive relationship rather than a fixed proportional one.",
+        "B": "Incorrect. The relationship is reciprocal/competitive, not a fixed direct proportion — favoring one ion's secretion tends to come at the expense of the other's.",
+        "C": "Incorrect. Potassium secretion is very much influenced by acid-base status, which is precisely the basis of the H-K competition described here.",
+        "D": "Incorrect. While the proximal tubule reabsorbs the bulk of filtered bicarbonate via H+ secretion, the distal nephron (intercalated cells) also secretes H+ and is critical for final urinary acidification."
+      },
+      "main_concept": "CON-REN-2E5A4045AAA29D",
+      "concept_ids": [
+        "CON-REN-2E5A4045AAA29D"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-POTASSIUM-AND-HYDROGEN-ION-SECRETION-IN-THE-DISTAL-TUBULE-AND-COLLECTING-DUCT-COMPETE-WITH"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Tubular transport",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Potassium and hydrogen ion secretion in the distal tubule and collecting duct compete with each other",
+      "module_subject": "ASU-UG > Physiology > Tubular transport",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q13.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q13",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q13"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q14",
+      "id": "QST-ASUUG-ASS1MCQ-Q14",
+      "page": 14,
+      "title": "Which of the following would be expected to decrease glomerular filtration rate (GFR)?",
+      "question": "Which of the following would be expected to decrease glomerular filtration rate (GFR)?",
+      "options": {
+        "A": "A ureteric (renal) stone causing urinary tract obstruction",
+        "B": "Afferent arteriolar dilatation",
+        "C": "A decrease in plasma oncotic pressure",
+        "D": "Efferent arteriolar constriction (mild)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Obstruction from a renal or ureteric stone raises the hydrostatic pressure within Bowman's capsule and the tubule upstream of the obstruction. Since Bowman's capsule hydrostatic pressure directly opposes glomerular filtration, this back-pressure lowers net filtration pressure and reduces GFR, and if prolonged, obstruction also triggers vasoconstrictive and structural changes that further impair filtration.",
+        "B": "Incorrect. Afferent arteriolar dilatation increases glomerular capillary hydrostatic pressure and renal plasma flow, increasing (not decreasing) GFR.",
+        "C": "Incorrect. A decrease in plasma oncotic pressure reduces the main force opposing filtration, increasing GFR.",
+        "D": "Incorrect. Mild efferent arteriolar constriction raises glomerular capillary hydrostatic pressure and, up to a point, increases GFR (this is the basis of RAAS-mediated GFR preservation in low-flow states); it is only severe efferent constriction that eventually drops renal plasma flow enough to reduce GFR."
+      },
+      "main_concept": "CON-REN-7430972A8CBEFC",
+      "concept_ids": [
+        "CON-REN-7430972A8CBEFC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-URINARY-TRACT-OBSTRUCTION-FROM-A-RENAL-STONE-DECREASES-GLOMERULAR-FILTRATION-RATE-BY-RAISI"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Glomerular filtration",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Urinary tract obstruction from a renal stone decreases glomerular filtration rate by raising Bowman's capsule pressure",
+      "module_subject": "ASU-UG > Physiology > Glomerular filtration",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q14.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q14",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q14"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q15",
+      "id": "QST-ASUUG-ASS1MCQ-Q15",
+      "page": 15,
+      "title": "A man lost in the desert becomes progressively dehydrated. Which of the following is the primary physiological trigger for his subsequent thirst and ADH release?",
+      "question": "A man lost in the desert becomes progressively dehydrated. Which of the following is the primary physiological trigger for his subsequent thirst and ADH release?",
+      "options": {
+        "A": "Stimulation of hypothalamic osmoreceptors by rising plasma osmolarity",
+        "B": "Stimulation of carotid body chemoreceptors by hypoxia",
+        "C": "Suppression of atrial natriuretic peptide release",
+        "D": "Direct stimulation of the posterior pituitary by falling blood pressure alone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. As the man loses free water through sweating and insensible losses without adequate intake, his plasma osmolarity rises above the normal set point. Hypothalamic osmoreceptors are exquisitely sensitive to small changes in effective osmolarity, and they detect this rise and respond by triggering both the sensation of thirst and increased ADH (vasopressin) release from the posterior pituitary. This ADH release promotes water reabsorption in the collecting duct, conserving water and diluting the plasma back toward normal.",
+        "B": "Incorrect. Carotid body chemoreceptors respond mainly to arterial PO2/PCO2/pH, not to plasma osmolarity, and are not the primary driver of thirst and ADH release in simple dehydration.",
+        "C": "Incorrect. Atrial natriuretic peptide is released in response to atrial stretch (volume expansion) and is suppressed, not the primary trigger, in a volume-depleted, hyperosmolar dehydration state.",
+        "D": "Incorrect. While large falls in blood volume/pressure can also stimulate ADH release via baroreceptors, the earlier and more sensitive trigger in straightforward dehydration is the osmoreceptor response to rising plasma osmolarity, not blood pressure acting directly on the pituitary."
+      },
+      "main_concept": "CON-REN-31BAC73197141F",
+      "concept_ids": [
+        "CON-REN-31BAC73197141F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-RISING-PLASMA-OSMOLARITY-FROM-DEHYDRATION-STIMULATES-HYPOTHALAMIC-OSMORECEPTORS-TO-TRIGGER"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Water balance",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Rising plasma osmolarity from dehydration stimulates hypothalamic osmoreceptors to trigger thirst and ADH release",
+      "module_subject": "ASU-UG > Physiology > Water balance",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q15.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q15",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q15"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q16",
+      "id": "QST-ASUUG-ASS1MCQ-Q16",
+      "page": 16,
+      "title": "Which of the following best describes normal renal blood flow?",
+      "question": "Which of the following best describes normal renal blood flow?",
+      "options": {
+        "A": "It represents approximately 20-25% of cardiac output",
+        "B": "It represents approximately 5% of cardiac output",
+        "C": "It represents approximately 50% of cardiac output",
+        "D": "It is distributed evenly between the renal cortex and medulla"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Despite the kidneys making up only a small fraction of total body mass, they receive a disproportionately large share of cardiac output, roughly 20-25%. This reflects their high metabolic demand for filtration and the large blood volume that must be processed to filter plasma and regulate the body's fluid and electrolyte balance.",
+        "B": "Incorrect. 5% substantially underestimates renal blood flow; the kidneys receive a much larger fraction of cardiac output than this.",
+        "C": "Incorrect. 50% overestimates renal blood flow; that level of flow is not physiologically accurate for the kidneys at rest.",
+        "D": "Incorrect. Renal blood flow is markedly uneven — the cortex receives the great majority of flow (needed for filtration), while the medulla receives only a small fraction, which helps preserve the medullary concentration gradient."
+      },
+      "main_concept": "CON-REN-2E4BFB42D2ADA9",
+      "concept_ids": [
+        "CON-REN-2E4BFB42D2ADA9"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-THE-KIDNEYS-NORMALLY-RECEIVE-APPROXIMATELY-20-25-OF-CARDIAC-OUTPUT"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Renal blood flow",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "The kidneys normally receive approximately 20-25% of cardiac output",
+      "module_subject": "ASU-UG > Physiology > Renal blood flow",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q16.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q16",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q16"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q17",
+      "id": "QST-ASUUG-ASS1MCQ-Q17",
+      "page": 17,
+      "title": "Combining an anti-mineralocorticoid (e.g. spironolactone) with an ACE inhibitor carries a particular risk of which of the following?",
+      "question": "Combining an anti-mineralocorticoid (e.g. spironolactone) with an ACE inhibitor carries a particular risk of which of the following?",
+      "options": {
+        "A": "Hyperkalemia",
+        "B": "Hypokalemia",
+        "C": "Hypernatremia",
+        "D": "Metabolic alkalosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. ACE inhibitors reduce angiotensin II formation and therefore aldosterone secretion, while anti-mineralocorticoids (aldosterone receptor antagonists) directly block aldosterone's action at the principal cell; both mechanisms independently reduce distal nephron potassium secretion. Combining the two drug classes produces an additive, clinically significant risk of hyperkalemia, which is why potassium must be monitored closely when they are co-prescribed.",
+        "B": "Incorrect. Both drug classes reduce, rather than promote, urinary potassium loss, so the combination raises (not lowers) serum potassium.",
+        "C": "Incorrect. Both drug classes tend to promote natriuresis (sodium loss) rather than sodium retention, so hypernatremia is not the characteristic risk.",
+        "D": "Incorrect. By reducing aldosterone-driven H+ secretion as well as K+ secretion, this combination if anything favors a mild acidosis (hyperkalemic distal renal tubular acidosis-like picture) rather than alkalosis."
+      },
+      "main_concept": "CON-REN-267C425BD0C7C5",
+      "concept_ids": [
+        "CON-REN-267C425BD0C7C5"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-COMBINING-AN-ACE-INHIBITOR-WITH-AN-ANTI-MINERALOCORTICOID-CARRIES-AN-ADDITIVE-RISK-OF-HYPE"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Potassium balance",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Combining an ACE inhibitor with an anti-mineralocorticoid carries an additive risk of hyperkalemia",
+      "module_subject": "ASU-UG > Physiology > Potassium balance",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q17.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q17",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q17"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q18",
+      "id": "QST-ASUUG-ASS1MCQ-Q18",
+      "page": 18,
+      "title": "Which of the following is a recognized endocrine function of the kidney?",
+      "question": "Which of the following is a recognized endocrine function of the kidney?",
+      "options": {
+        "A": "Secretion of erythropoietin",
+        "B": "Secretion of insulin",
+        "C": "Secretion of thyroid-stimulating hormone",
+        "D": "Secretion of parathyroid hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. In addition to its filtration and excretory roles, the kidney is an endocrine organ: peritubular fibroblast-like cells in the renal cortex and outer medulla sense tissue hypoxia and secrete erythropoietin, which stimulates red blood cell production in the bone marrow. The kidney also activates vitamin D and secretes renin, but among the options given, erythropoietin secretion is the correct recognized renal endocrine function.",
+        "B": "Incorrect. Insulin is secreted by pancreatic beta cells, not the kidney.",
+        "C": "Incorrect. Thyroid-stimulating hormone is secreted by the anterior pituitary, not the kidney.",
+        "D": "Incorrect. Parathyroid hormone is secreted by the parathyroid glands; the kidney is a target organ for PTH action and activates vitamin D, but it does not secrete PTH itself."
+      },
+      "main_concept": "CON-REN-2072870D6EE87F",
+      "concept_ids": [
+        "CON-REN-2072870D6EE87F"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-THE-KIDNEY-S-ENDOCRINE-FUNCTIONS-INCLUDE-SECRETION-OF-ERYTHROPOIETIN"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Endocrine functions of the kidney",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "The kidney's endocrine functions include secretion of erythropoietin",
+      "module_subject": "ASU-UG > Physiology > Endocrine functions of the kidney",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q18.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q18",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q18"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q19",
+      "id": "QST-ASUUG-ASS1MCQ-Q19",
+      "page": 19,
+      "title": "Among freely filtered substances, which of the following has the lowest renal clearance under normal physiological conditions?",
+      "question": "Among freely filtered substances, which of the following has the lowest renal clearance under normal physiological conditions?",
+      "options": {
+        "A": "Glucose",
+        "B": "Inulin",
+        "C": "Creatinine",
+        "D": "Para-aminohippurate (PAH)"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Glucose is freely filtered at the glomerulus but, under normal conditions (plasma glucose below the renal threshold), is almost completely reabsorbed by sodium-glucose cotransporters in the proximal tubule, so essentially none of the filtered glucose appears in the final urine. Because clearance reflects the volume of plasma cleared of a substance per unit time, and normal urinary glucose excretion is near zero, glucose has an essentially zero (the lowest) renal clearance among substances that are filtered, unlike inulin (cleared at the GFR) or PAH (cleared at a very high rate reflecting near-complete secretion in addition to filtration).",
+        "B": "Incorrect. Inulin is filtered but neither reabsorbed nor secreted, so its clearance equals GFR — a moderate, not the lowest, clearance value.",
+        "C": "Incorrect. Creatinine is filtered and also modestly secreted, giving it a clearance slightly higher than GFR, well above glucose's near-zero clearance.",
+        "D": "Incorrect. PAH is both filtered and almost completely secreted (at low plasma concentrations), giving it the highest clearance of these options, approximating renal plasma flow — the opposite extreme from glucose."
+      },
+      "main_concept": "CON-REN-30E4D7B9C08595",
+      "concept_ids": [
+        "CON-REN-30E4D7B9C08595"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-GLUCOSE-HAS-THE-LOWEST-RENAL-CLEARANCE-AMONG-FREELY-FILTERED-SUBSTANCES-BECAUSE-IT-IS-NORM"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Clearance",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Glucose has the lowest renal clearance among freely filtered substances because it is normally almost completely reabsorbed",
+      "module_subject": "ASU-UG > Physiology > Clearance",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q19.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q19",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q19"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q20",
+      "id": "QST-ASUUG-ASS1MCQ-Q20",
+      "page": 20,
+      "title": "Complete reabsorption of filtered glucose in the proximal tubule occurs under which of the following conditions?",
+      "question": "Complete reabsorption of filtered glucose in the proximal tubule occurs under which of the following conditions?",
+      "options": {
+        "A": "When the filtered glucose load is below the renal (tubular) threshold",
+        "B": "Only when plasma glucose exceeds the transport maximum (Tm) for glucose",
+        "C": "Only during episodes of hyperglycemia",
+        "D": "Regardless of the filtered glucose load, glucose is never fully reabsorbed"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. As long as the filtered load of glucose (plasma glucose concentration times GFR) stays below the renal threshold — the point at which the reabsorptive sodium-glucose cotransporters in the proximal tubule become saturated — essentially all filtered glucose is reabsorbed and none appears in the urine. Once the filtered load exceeds this threshold (transporters saturated, at or beyond Tm glucose), reabsorption can no longer keep pace and glucose begins to spill into the urine (glucosuria).",
+        "B": "Incorrect. Exceeding Tm glucose is precisely when reabsorption becomes incomplete and glucosuria occurs — the opposite of the complete-reabsorption condition described in the question.",
+        "C": "Incorrect. Hyperglycemia, if it pushes the filtered load above the renal threshold, is what causes glucose to appear in the urine, not what ensures complete reabsorption.",
+        "D": "Incorrect. Under normal physiological plasma glucose concentrations, filtered glucose load stays below threshold and is essentially completely reabsorbed; the statement that it is never fully reabsorbed is incorrect."
+      },
+      "main_concept": "CON-REN-D2CD264230A4E7",
+      "concept_ids": [
+        "CON-REN-D2CD264230A4E7"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-FILTERED-GLUCOSE-IS-COMPLETELY-REABSORBED-AS-LONG-AS-THE-FILTERED-LOAD-STAYS-BELOW-THE-REN"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Tubular transport",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Filtered glucose is completely reabsorbed as long as the filtered load stays below the renal threshold",
+      "module_subject": "ASU-UG > Physiology > Tubular transport",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q20.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q20",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q20"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q21",
+      "id": "QST-ASUUG-ASS1MCQ-Q21",
+      "page": 21,
+      "title": "Renal autoregulation of blood flow and GFR is characterized by which of the following?",
+      "question": "Renal autoregulation of blood flow and GFR is characterized by which of the following?",
+      "options": {
+        "A": "It is largely myogenic in origin, with a contribution from tubuloglomerular feedback",
+        "B": "It depends entirely on sympathetic nervous system activity",
+        "C": "It is mediated primarily by circulating angiotensin II acting on the efferent arteriole",
+        "D": "It fails to maintain renal blood flow or GFR over any range of arterial pressure"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Renal autoregulation keeps renal blood flow and GFR relatively constant across a wide range of arterial pressures (roughly 80-180 mmHg) through two intrinsic mechanisms: the myogenic response, in which afferent arteriolar smooth muscle constricts in response to stretch from increased pressure, and tubuloglomerular feedback, in which increased NaCl delivery to the macula densa (from a higher GFR) triggers afferent arteriolar constriction. Because these mechanisms are intrinsic to the kidney itself, autoregulation persists even in a denervated or isolated, perfused kidney.",
+        "B": "Incorrect. Autoregulation is intrinsic to the kidney and persists even without sympathetic innervation (as in a denervated kidney), so it does not depend entirely on the sympathetic nervous system.",
+        "C": "Incorrect. While angiotensin II does preferentially constrict the efferent arteriole and helps preserve GFR in low-flow states, it is not the primary mediator of the myogenic/tubuloglomerular feedback autoregulatory response.",
+        "D": "Incorrect. Autoregulation is specifically defined by its ability to maintain relatively constant renal blood flow and GFR across a defined pressure range, not by a failure to do so."
+      },
+      "main_concept": "CON-REN-7592F22D6E3CB0",
+      "concept_ids": [
+        "CON-REN-7592F22D6E3CB0"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-RENAL-AUTOREGULATION-OF-BLOOD-FLOW-AND-GFR-IS-LARGELY-MYOGENIC-IN-ORIGIN-WITH-A-TUBULOGLOM"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Renal autoregulation",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Renal autoregulation of blood flow and GFR is largely myogenic in origin, with a tubuloglomerular feedback contribution",
+      "module_subject": "ASU-UG > Physiology > Renal autoregulation",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q21.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q21",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q21"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q22",
+      "id": "QST-ASUUG-ASS1MCQ-Q22",
+      "page": 22,
+      "title": "Reabsorption of filtered bicarbonate in the proximal convoluted tubule requires the activity of which of the following?",
+      "question": "Reabsorption of filtered bicarbonate in the proximal convoluted tubule requires the activity of which of the following?",
+      "options": {
+        "A": "Carbonic anhydrase",
+        "B": "Aldosterone",
+        "C": "Antidiuretic hormone (ADH)",
+        "D": "Parathyroid hormone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Proximal tubular bicarbonate reabsorption depends on carbonic anhydrase acting at two sites: within the tubular lumen (brush border isoform), it catalyzes the dehydration of secreted-H+-derived carbonic acid into CO2 and water so CO2 can diffuse into the cell, and within the cytoplasm, it catalyzes the reverse reaction, regenerating carbonic acid that dissociates into H+ (resecreted into the lumen) and bicarbonate (reabsorbed across the basolateral membrane into blood). Carbonic anhydrase inhibitors (e.g. acetazolamide) block this process and produce a bicarbonaturic diuresis, which is direct pharmacological evidence for the enzyme's essential role.",
+        "B": "Incorrect. Aldosterone acts mainly on the distal nephron to promote Na+ reabsorption and K+/H+ secretion, not on proximal tubular bicarbonate reabsorption via carbonic anhydrase.",
+        "C": "Incorrect. ADH regulates collecting duct water permeability and is not required for proximal bicarbonate reabsorption.",
+        "D": "Incorrect. Parathyroid hormone acts on calcium and phosphate handling in the kidney, not on the carbonic-anhydrase-dependent bicarbonate reabsorption mechanism."
+      },
+      "main_concept": "CON-REN-FDE8665076AFFC",
+      "concept_ids": [
+        "CON-REN-FDE8665076AFFC"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-PROXIMAL-TUBULAR-BICARBONATE-REABSORPTION-REQUIRES-CARBONIC-ANHYDRASE-ACTIVITY"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Tubular transport",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Proximal tubular bicarbonate reabsorption requires carbonic anhydrase activity",
+      "module_subject": "ASU-UG > Physiology > Tubular transport",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q22.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q22",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q22"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "assessment-1-mcq-q25",
+      "id": "QST-ASUUG-ASS1MCQ-Q25",
+      "page": 25,
+      "title": "Juxtaglomerular cells release renin primarily in response to which of the following?",
+      "question": "Juxtaglomerular cells release renin primarily in response to which of the following?",
+      "options": {
+        "A": "A drop in afferent arteriolar perfusion pressure",
+        "B": "A rise in afferent arteriolar perfusion pressure",
+        "C": "An increase in NaCl delivery to the macula densa",
+        "D": "Parasympathetic stimulation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Juxtaglomerular cells in the afferent arteriolar wall act as intrarenal baroreceptors, sensing a fall in perfusion pressure (as occurs with volume depletion, hemorrhage, or renal artery stenosis) as reduced stretch of the arteriolar wall; this reduced stretch is a direct stimulus for renin release. Renin then initiates the renin-angiotensin-aldosterone cascade, ultimately promoting sodium and water retention and vasoconstriction to help restore blood pressure and perfusion.",
+        "B": "Incorrect. A rise in perfusion pressure increases arteriolar wall stretch, which suppresses, rather than stimulates, renin release.",
+        "C": "Incorrect. Renin release is instead stimulated by decreased (not increased) NaCl delivery to the macula densa, which signals reduced GFR/perfusion via tubuloglomerular feedback.",
+        "D": "Incorrect. It is sympathetic (beta-1 adrenergic), not parasympathetic, stimulation that promotes renin release from juxtaglomerular cells."
+      },
+      "main_concept": "CON-REN-551BFB22B872BF",
+      "concept_ids": [
+        "CON-REN-551BFB22B872BF"
+      ],
+      "contextual_concept_ids": [],
+      "library_ids": [
+        "ART-REN-ASU-UG-JUXTAGLOMERULAR-CELLS-RELEASE-RENIN-IN-RESPONSE-TO-A-DROP-IN-AFFERENT-ARTERIOLAR-PERFUSION"
+      ],
+      "subject": "renal",
+      "topic": "Renal physiology",
+      "subtopic": "Renin-angiotensin system",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Juxtaglomerular cells release renin in response to a drop in afferent arteriolar perfusion pressure",
+      "module_subject": "ASU-UG > Physiology > Renin-angiotensin system",
+      "source_citation": "Ain Shams Year 3 Urogenital MCQs - Urogenital Assessment 1 MCQ (\"MCQs - Urogenital Assessment 1 MCQ.pdf\"), Physio Q25.",
+      "field_notes": {
+        "keySource": "printed key, Physio Q25",
+        "asu": "ASU-UG MCQs - Urogenital Assessment 1 MCQ, Physio Q25"
+      },
+      "author_notes": ""
+    }
+  ]
+}
