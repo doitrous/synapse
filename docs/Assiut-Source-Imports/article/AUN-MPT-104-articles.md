@@ -2550,3 +2550,169 @@ Block: body
 ### definition_of · CON-FND-079D093B2D302D
 Quote: Prazosin, given for hypertension or BPH, is expected to cause postural hypotension and dizziness specifically after the first dose, dilate both arterioles and veins, and remain beneficial (not contraindicated) in a patient with BPH
 Block: body
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## title
+Hemodynamic disorders: hyperemia, congestion, thrombosis and Virchow's triad
+
+## arabic_title
+اضطرابات الدورة الدموية: الاحتقان، الازدحام الوريدي، تجلط الدم، وثالوث فيرشو
+
+## aliases
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+Lecture 31
+Phlebothrombosis
+Lines of Zahn
+
+## subject
+fnd
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Hyperemia, congestion, phlebothrombosis, thrombus morphology
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+Lecture 31 opens the hemodynamics block with the vocabulary of altered blood flow and its solid consequence, thrombus. Active hyperemia is an active, arteriolar-dilation-driven increase in arterial inflow -- blushing is the standard example -- distinct from chronic general venous congestion, a passive backup of systemic venous blood caused by right-sided heart failure. Phlebothrombosis names thrombus formation specifically in a non-inflamed vein, classically precipitated by immobilization, and a detached venous thrombus travels with venous return to lodge in the lung as a pulmonary embolus. Within the thrombus itself, Lines of Zahn -- alternating pale, platelet-rich layers -- mark it as having formed in flowing blood during life, and Virchow's triad (endothelial injury, stasis, hypercoagulability) names the three broad predisposing factors behind its formation.
+
+## sections
+### Definition
+Active hyperemia is an increase in blood flow into a tissue caused by arteriolar dilation, an active physiological process -- blushing is the standard example, distinct from passive congestion, where impaired venous outflow, not increased arterial inflow, causes blood to accumulate. Chronic general (systemic) venous congestion occurs when the right side of the heart fails to pump venous return forward effectively, backing blood up in the systemic venous system; right-sided heart failure is its classic cause, distinct from a localized cause of venous obstruction such as compression by a tumour or enlarged lymph node.
+
+### Mechanism
+Phlebothrombosis is thrombus formation within a non-inflamed vein -- distinguishing it from thrombophlebitis, where the thrombus forms in a vein already inflamed -- and immobilization (venous stasis, one arm of Virchow's triad) is a classic precipitating factor. A thrombus that forms in the systemic venous circulation and detaches travels with venous blood flow back to the right heart and into the pulmonary circulation, lodging in the lung as a pulmonary embolus -- the pathway that makes the lung, not a systemic organ, the destination of a detached venous thrombus. Within a thrombus that formed in flowing blood during life, Lines of Zahn -- alternating pale, platelet-rich layers laid down in sequence -- distinguish it from a postmortem clot, which lacks this layered structure. Virchow's triad names the three broad factors predisposing to this thrombus formation: endothelial injury, stasis or turbulence of flow, and hypercoagulability of the blood.
+
+### Key determinants
+A 22-year-old student's red face after being questioned in lecture is active hyperemia (arteriolar dilation), not passive congestion, oedema or haemorrhage. A 60-year-old woman with a femoral fracture who develops left-leg swelling, warmth, pain and tenderness three weeks later is showing phlebothrombosis in the femoral vein, precipitated by immobilization -- and if that thrombus detaches, it embolises to the lung, not to a systemic organ, as a pulmonary embolus. A thrombus's Lines of Zahn (platelet layers) confirm it formed during life, distinguishing it from a postmortem clot; a soft mass of blood constituents that forms in stagnant blood during life is properly called a thrombus, and Virchow's triad explains why it formed there.
+
+### Clinical significance
+Recognising active hyperemia (a benign, reversible, physiological vasodilation) against a background of hemodynamic pathology avoids over-interpreting a blush as a sign of disease. Recognising post-fracture limb swelling and tenderness as phlebothrombosis, driven by immobilization, is the clinical trigger for anticoagulation and mobilization measures to prevent its most feared complication, pulmonary embolism -- the destination a detached venous thrombus specifically travels to. Applying Virchow's triad (endothelial injury, stasis, hypercoagulability) to a patient's risk profile -- surgery, immobility, malignancy, inherited thrombophilia -- is the standard framework for anticipating and preventing thrombosis before it occurs.
+
+### Common misconceptions
+Confusing active hyperemia (arteriolar dilation, increased arterial inflow) with passive venous congestion (impaired venous outflow), or with the post-ischaemic subtype, reactive hyperemia, specifically. Confusing phlebothrombosis (non-inflamed vein) with thrombophlebitis (already-inflamed vein). Assuming a detached venous thrombus travels to a systemic organ such as the brain or kidney, rather than to the lung via the right heart. Naming red blood cells, fibrin alone or white blood cells, rather than platelets, as the pale-layer component of Lines of Zahn. Applying Virchow's triad to embolus, ecchymosis or haematoma formation rather than to thrombus formation specifically, or calling a solid mass formed from blood constituents during life a "clot" rather than a "thrombus."
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Active hyperemia is arteriolar-dilation-driven increased arterial inflow (e.g. blushing); passive congestion is impaired venous outflow.
+Chronic general venous congestion is caused by right-sided heart failure.
+Phlebothrombosis forms in a non-inflamed vein, classically from immobilization; a detached venous thrombus embolises to the lung.
+Lines of Zahn (platelet layers) mark an antemortem thrombus, distinct from a postmortem clot.
+Virchow's triad (endothelial injury, stasis, hypercoagulability) concerns thrombus formation specifically.
+
+## lose_the_mark
+Confusing active hyperemia with passive congestion, or with reactive (post-ischaemic) hyperemia specifically.
+Naming a localized cause (tumour/lymph node compression) instead of right-sided heart failure for chronic general venous congestion.
+Confusing phlebothrombosis with thrombophlebitis, or naming a destination other than the lung for a detached venous thrombus.
+Naming red blood cells, fibrin alone or white blood cells as the component of Lines of Zahn instead of platelets.
+Applying Virchow's triad to embolus/ecchymosis/haematoma instead of thrombus formation, or calling an antemortem intravascular mass a "clot."
+
+## callout_evidence
+
+## related_concepts
+CON-FND-B74CD5B149F399
+CON-FND-11AE7596C68944
+CON-FND-38DC299E60FE95
+CON-FND-7C0F3DB1C2FE5E
+CON-FND-E1D44B7FCA92D9
+CON-FND-9968E677B951D2
+
+## related_articles
+
+## question_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## article_source_ids
+
+## claim_ids
+
+## span_ids
+
+## universities
+aun
+
+## years
+AUN_Y1
+
+## module
+AUN-MPT-104
+
+## university_notes
+AUN: taught in Assiut University's Mechanisms and Principles of Diseases and Therapy module (Year 1, Semester 2) as Lecture 31 (Heamodynamic disorders: Hyperemia, congestion and thrombosis) -- no department slide deck exists in the corpus past Lecture 8, so all six mints cite the quiz bank's own printed-answer text instead. Q7 (least likely candidate for a "clot ... during life" definition, printed key "clot") is held: this lecture's own teaching (Q2/Q5 phlebothrombosis, Q6 Lines of Zahn, Q8 Virchow's triad) consistently uses "thrombus," not "clot," for an antemortem intravascular solidification -- "clot" instead denotes a postmortem or extravascular coagulum -- a printed-key/pathology-vocabulary conflict.
+
+## annotations
+### definition_of · CON-FND-B74CD5B149F399
+Quote: Active hyperemia is an increase in blood flow into a tissue caused by arteriolar dilation, an active physiological process -- blushing is the standard example, distinct from passive congestion, where impaired venous outflow, not increased arterial inflow, causes blood to accumulate
+Block: body
+
+### definition_of · CON-FND-11AE7596C68944
+Quote: Phlebothrombosis is thrombus formation within a non-inflamed vein -- distinguishing it from thrombophlebitis, where the thrombus forms in a vein already inflamed -- and immobilization (venous stasis, one arm of Virchow's triad) is a classic precipitating factor
+Block: body
+
+### definition_of · CON-FND-38DC299E60FE95
+Quote: Chronic general (systemic) venous congestion occurs when the right side of the heart fails to pump venous return forward effectively, backing blood up in the systemic venous system; right-sided heart failure is its classic cause
+Block: body
+
+### definition_of · CON-FND-7C0F3DB1C2FE5E
+Quote: A thrombus that forms in the systemic venous circulation and detaches travels with venous blood flow back to the right heart and into the pulmonary circulation, lodging in the lung as a pulmonary embolus
+Block: body
+
+### definition_of · CON-FND-E1D44B7FCA92D9
+Quote: Within a thrombus that formed in flowing blood during life, Lines of Zahn -- alternating pale, platelet-rich layers laid down in sequence -- distinguish it from a postmortem clot, which lacks this layered structure
+Block: body
+
+### definition_of · CON-FND-9968E677B951D2
+Quote: Virchow's triad names the three broad factors predisposing to this thrombus formation: endothelial injury, stasis or turbulence of flow, and hypercoagulability of the blood
+Block: body

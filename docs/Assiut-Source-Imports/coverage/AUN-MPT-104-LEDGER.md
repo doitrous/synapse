@@ -49,13 +49,14 @@
 | final-2022-q40-dna-gyrase | 1 | 0 | 0 | 1 |
 | final-2022-q46-5fu | 1 | 0 | 0 | 1 |
 | final-2022-q9-hsp90 | 1 | 0 | 0 | 1 |
-| quizzes-2022 | 239 | 5 | 197 | 441 |
+| quizzes-2022 | 246 | 6 | 189 | 441 |
 
 ## Held
 - quizzes-2022-q166 — Printed key names Physostigmine as the direct-acting cholinomimetic among {Carbachol, Physostigmine, Isoflurophate, Edrophonium}, but physostigmine is pharmacologically an indirect-acting agent (a reversible acetylcholinesterase inhibitor), same as isoflurophate (irreversible AChE inhibitor) and edrophonium (very short-acting AChE inhibitor) -- all three of the printed distractors are indirect-acting. Carbachol (option A) is the only genuinely direct-acting receptor agonist among the four options and is the pharmacologically correct answer. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q204 — Printed key names neutrophils as the cell whose fusion forms Langhans' giant cells (Quiz 25 Q7: 'Langhans' giant cells result from fusion of: ... The correct answer is: neutrophils'), but this is pathologically wrong -- Langhans giant cells form from the fusion of activated epithelioid macrophages, not neutrophils, a fact this same lecture's own Q3/Q5 rows (macrophage as the key granuloma cell; epithelioid cells as modified macrophages) directly contradict. Held per the printed-key-vs-pathology-fact conflict rule (same handling as Q19, Q25, Q47, Q166 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q224 — Printed key names Norepinephrine as least likely to cause tachycardia in a recent heart-transplant patient (Quiz 28 Q3: 'Which one of the following drugs is least likely to cause tachycardia in this patient? ... The correct answer is: Norepinephrine'). This is a printed-key/pharmacology conflict: in a normally innervated patient, norepinephrine's alpha1-mediated pressor effect triggers baroreceptor-mediated reflex (vagal) bradycardia that partially offsets its own direct beta1 chronotropic effect, making its net heart-rate effect comparatively small -- but the standard teaching point about a denervated transplanted heart is that this vagal reflex arc to the heart is severed and does not return, so the compensatory bradycardia cannot occur and norepinephrine's direct chronotropic effect would be unopposed, if anything producing MORE tachycardia in a transplant patient than in a normally innervated one, not less. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q238 — Printed key names Benign prostatic hypertrophy as the least likely clinical use of alpha1-adrenoceptor antagonists (Quiz 30 Q5: 'Which of the following is the least likely clinical use for alpha-adrenoceptor antagonists? ... The correct answer is: Benign prostatic hypertrophy'), but this contradicts standard pharmacology and this same quiz's own teaching: alpha1 blockers are a mainstay of BPH treatment by relaxing prostatic/bladder-neck smooth muscle. Q3 of this same quiz (q236) names tamsulosin's alpha1A selectivity as specifically suited to BPH, and Q11 (q244) states as a FALSE statement that prazosin 'is not beneficial in patients with BPH' -- confirming prazosin IS beneficial in BPH. Held per the printed-key-vs-pharmacology-fact conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224 in this lane's earlier clusters), not resolved by inference.
+- quizzes-2022-q251 — Printed key names 'clot' for a soft mass of blood constituents forming 'in stagnant blood inside the vessel during life' (Quiz 31 Q7: 'Soft mass of blood constituents in a stagnant blood inside the vessel during life called: ... The correct answer is: clot'). This contradicts the standard pathological distinction: a thrombus is defined as a solid mass forming from blood constituents within a vessel DURING LIFE, while a clot is coagulated blood forming after death (postmortem) or outside the vasculature -- the stem's own wording ('during life') is the textbook definition of thrombus, not clot. This is directly contradicted by this same quiz's own rows: Q2/Q5 (q246/q249) use 'thrombus'/'phlebothrombosis' for exactly this in-vessel-during-life process, Q6 (q250) describes Lines of Zahn as a feature of an antemortem (during-life) thrombus, and Q8 (q252) confirms Virchow's triad concerns 'thrombus' formation. Held per the printed-key-vs-pathology-vocabulary conflict rule (same handling as Q19, Q25, Q47, Q166, Q204, Q224, Q238 in this lane's earlier clusters), not resolved by inference.
 - quizzes-2022-q046 — Match-type question (Lec5.Q10 p23: match each necrosis type to its classic site -- Caseation/Enzymatic fat necrosis/Liquefactive/Coagulative necrosis against Pulmonary TB/Acute pancreatitis/Cerebral infarction/Renal infarction) -- not translatable to this platform's single-answer 4-5 option MCQ format without inventing wrong pairings the source never tested; each of its four underlying facts is already covered by other authored quiz rows on the same reused necrosis-type concepts (q039, q041, q043, q045).
 
 ## Remaining
@@ -104,14 +105,6 @@
 - Q89 bilharzial granuloma -- Type IV hypersensitivity -- new
 - Q9  hsp90-chaperoned intracellular receptors for lipid-soluble ligands -- new
 - Q90 immunohistochemistry -- enzyme-linked antibody tissue staining -- new
-- quizzes-2022-q245
-- quizzes-2022-q246
-- quizzes-2022-q247
-- quizzes-2022-q248
-- quizzes-2022-q249
-- quizzes-2022-q250
-- quizzes-2022-q251
-- quizzes-2022-q252
 - quizzes-2022-q253
 - quizzes-2022-q254
 - quizzes-2022-q255

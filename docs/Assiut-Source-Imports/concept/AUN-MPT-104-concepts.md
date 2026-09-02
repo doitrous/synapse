@@ -10811,3 +10811,885 @@ drafted_not_reviewed
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "prazosin BPH postural hypotension first dose" -- 0 hits, new concept.
 relationships: paired with CON-FND-1E5ADF2DEB83AF (prazosin's mydriasis-blocking mechanism) and CON-FND-336D4E2FB4FDE2 (labetalol, the lecture's other combined/selective-blockade drug); this concept's own printed-key answer directly evidences why Q238 (alpha-blocker least-likely-use, marking BPH) is held as a conflict -- prazosin is confirmed beneficial in BPH by this same quiz.
+
+---
+
+# Item
+
+## id
+CON-FND-B74CD5B149F399
+
+## label
+Active hyperemia is arteriolar dilation increasing blood flow into a tissue, as in blushing
+
+## canonical_key
+teaching.pathology.hemodynamics.active-hyperemia
+
+## aliases
+Physiological hyperemia
+Blushing
+
+## arabic_label
+الاحتقان الفعال (فرط الدم النشط)
+
+## arabic_aliases
+احتقان فسيولوجي
+
+## definition
+Active hyperemia is an increase in blood flow into a tissue caused by arteriolar dilation, an active physiological process. Blushing after an embarrassing moment is the standard example: sympathetic withdrawal and local vasodilator mechanisms dilate facial arterioles, increasing arterial inflow and reddening the skin. This is distinct from passive congestion, in which impaired venous outflow (not increased arterial inflow) causes blood to accumulate in a tissue, and from reactive hyperemia, the specific post-ischaemic subtype of increased flow that follows a period of arterial occlusion rather than a physiological trigger.
+
+## explicit_objective
+Identify blushing (arteriolar dilation increasing arterial inflow) as an example of active hyperemia, distinguishing it from passive/venous congestion and from the post-ischaemic subtype, reactive hyperemia.
+
+## pitfalls
+Confusing active hyperemia (arteriolar dilation, increased arterial inflow, an active process) with passive congestion (impaired venous outflow, a passive process) -- both redden or discolour tissue, but by opposite vascular mechanisms. Also confusing general active hyperemia with reactive hyperemia specifically, which names the post-ischaemic subtype rather than every case of arteriolar-dilation-driven increased flow.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Active hyperemia
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+AUN_Y1=0.45
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 22-year-old second-year medical student develops a 'red' face after being asked a question during lecture. Which of the following statements best describes this vascular reaction? ... Active hyperemia" (Quiz 31 Q1).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+docs/Kasr-Source-Imports/glossary/104-CPS-glossary.md "Reactive hyperemia" -- near-match term (both are hyperemia subtypes), but reactive hyperemia specifically names the post-ischaemic increase-in-flow subtype (e.g. after releasing a tourniquet), while this concept tests the general active-hyperemia mechanism via a purely physiological trigger (blushing, no preceding ischaemia) -- not the same concept, per the standing near-match-confirm-before-merge rule (coverage/AUN-MPT-104-triage.md §7).
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "active hyperemia blushing" and "reactive hyperemia" -- the second query hit a pending Kasr 104-CPS-glossary term ("Reactive hyperemia"), checked and rejected as a near-match, not the same concept (see rejected_merge_candidate_ids); minted new.
+relationships: none within this cluster; a standalone hemodynamics-vocabulary concept.
+
+---
+
+# Item
+
+## id
+CON-FND-11AE7596C68944
+
+## label
+Phlebothrombosis is thrombus formation in a non-inflamed vein, typically from immobilization
+
+## canonical_key
+teaching.pathology.hemodynamics.phlebothrombosis
+
+## aliases
+Deep vein thrombosis
+Venous thrombosis in non-inflamed veins
+
+## arabic_label
+تجلط الأوردة (فليبوثرومبوزس)
+
+## arabic_aliases
+تجلط الأوردة العميقة
+
+## definition
+Phlebothrombosis is thrombus formation within a non-inflamed vein, distinguishing it from thrombophlebitis, in which the thrombus forms in a vein already inflamed. Immobilization -- for example after a fracture requiring bed rest -- is a classic precipitating factor, since venous stasis (one arm of Virchow's triad) promotes clot formation in the stagnant blood of a non-inflamed deep vein. Local swelling, warmth, pain and tenderness in the affected limb, appearing days to weeks after immobilization began, are the clinical picture that should raise phlebothrombosis (deep vein thrombosis) as the diagnosis.
+
+## explicit_objective
+Given a vignette of immobilization followed by limb swelling, warmth, pain and tenderness, identify phlebothrombosis as the underlying process, and state that it forms in non-inflamed veins with immobilization as a precipitating mechanism.
+
+## pitfalls
+Confusing phlebothrombosis (a non-inflamed vein) with thrombophlebitis (an already-inflamed vein) -- these are distinguished by whether inflammation preceded the thrombus, not by the presence of a thrombus itself, and the exam names "non-inflamed veins" specifically as phlebothrombosis's defining site.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Phlebothrombosis
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-7C0F3DB1C2FE5E
+CON-FND-9968E677B951D2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"A 60-year-old woman sustained fractures ... During a physical examination 3 weeks later, the physician observes swelling and warmth in the left leg, and there is local pain and tenderness in the left thigh. Which of the following processes is most likely occurring in the femoral vein? ... Phlebothrombosis" (Quiz 31 Q2); "In phlebothrombosis the thrombus is formed in: ... non inflamed veins" (Q5).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "phlebothrombosis" -- 0 hits, new concept.
+relationships: two quiz rows (Q2/Q5) collapsed onto this one concept -- the same phlebothrombosis fact tested by clinical vignette (Q2) and by direct definition (Q5, non-inflamed veins).
+
+---
+
+# Item
+
+## id
+CON-FND-38DC299E60FE95
+
+## label
+Chronic general venous congestion is caused by right-sided heart failure
+
+## canonical_key
+teaching.pathology.hemodynamics.chronic-venous-congestion-right-heart-failure
+
+## aliases
+Chronic passive congestion
+Right heart failure and congestion
+
+## arabic_label
+الاحتقان الوريدي المزمن العام والفشل القلبي الأيمن
+
+## arabic_aliases
+قصور القلب الأيمن والاحتقان الوريدي
+
+## definition
+Chronic general (systemic) venous congestion occurs when the right side of the heart fails to pump venous return forward effectively, so blood backs up in the systemic venous system. Right-sided heart failure is the classic cause of this generalized, chronic pattern of congestion, producing findings such as hepatic and splenic congestion, dependent oedema and elevated jugular venous pressure. This is distinct from a localized cause of venous obstruction, such as compression by a tumour or an enlarged lymph node, which produces regional rather than systemic congestion.
+
+## explicit_objective
+State that chronic general (systemic) venous congestion is caused by right-sided heart failure, distinguishing it from a localized compressive cause of venous obstruction.
+
+## pitfalls
+Confusing a systemic/general pattern of chronic venous congestion (right heart failure) with a localized cause of venous obstruction (compression by a tumour or enlarged lymph node), which would produce regional, not generalized, congestion.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Chronic venous congestion
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Chronic general venous congestion is noticed in patients with: ... Right sided heart failure" (Quiz 31 Q3).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "chronic venous congestion right heart failure" -- 0 hits, new concept.
+relationships: none within this cluster; a standalone hemodynamics-vocabulary concept.
+
+---
+
+# Item
+
+## id
+CON-FND-7C0F3DB1C2FE5E
+
+## label
+A detached non-septic venous thrombus embolises to the lung
+
+## canonical_key
+teaching.pathology.hemodynamics.venous-thrombus-embolises-to-lung
+
+## aliases
+Pulmonary embolism source
+Venous thromboembolism destination
+
+## arabic_label
+الجلطة الوريدية المنفصلة تنتقل إلى الرئة
+
+## arabic_aliases
+الانصمام الرئوي من جلطة وريدية
+
+## definition
+A thrombus that forms in the systemic venous circulation and detaches (becoming an embolus) travels with venous blood flow back to the right side of the heart and out into the pulmonary arterial circulation, lodging in the lung as a pulmonary embolus. This venous-to-pulmonary pathway is why a detached non-septic venous thrombus (as opposed to an arterial or left-heart thrombus, which would embolise systemically) specifically goes to the lung.
+
+## explicit_objective
+State that a detached non-septic venous thrombus embolises to the lung, via the venous-return pathway to the right heart and pulmonary circulation.
+
+## pitfalls
+Confusing the destination of a venous embolus (the lung, via the right heart) with that of an arterial or left-heart embolus (which travels systemically to the brain, kidney, spleen or limbs) -- the venous side of the circulation empties specifically into the pulmonary arteries.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Venous embolism pathway
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-11AE7596C68944
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Detached non septic venous thrombus goes to the: ... Lung" (Quiz 31 Q4).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "detached venous thrombus lung" -- 0 hits, new concept.
+relationships: paired with CON-FND-11AE7596C68944 (phlebothrombosis) as the lecture's venous-thromboembolism pair.
+
+---
+
+# Item
+
+## id
+CON-FND-E1D44B7FCA92D9
+
+## label
+Lines of Zahn -- alternating platelet-rich pale layers seen in an antemortem thrombus
+
+## canonical_key
+teaching.pathology.hemodynamics.lines-of-zahn
+
+## aliases
+Antemortem thrombus microscopy
+Zahn lines
+
+## arabic_label
+خطوط زان في الجلطة
+
+## arabic_aliases
+الخطوط المميزة للجلطة الحية
+
+## definition
+Lines of Zahn are alternating pale and dark bands seen grossly and microscopically within a thrombus that formed in flowing blood during life (antemortem), distinguishing a true thrombus from a postmortem clot, which lacks this layered structure. The pale bands correspond to layers of platelets (with fibrin), laid down in sequence as the thrombus builds up within the vessel, giving the platelet component its identity as the structural feature named by Lines of Zahn among the option set.
+
+## explicit_objective
+State that Lines of Zahn consist of columns/layers of platelets, and that their presence distinguishes an antemortem thrombus from a postmortem clot.
+
+## pitfalls
+Naming red blood cells, fibrin alone or white blood cells rather than platelets as the component that defines Lines of Zahn's pale layers, or forgetting that their presence (not their absence) is what indicates a thrombus formed during life.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Antemortem thrombus features
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-9968E677B951D2
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Lines of Zahn consist of: ... columns of platelets" (Quiz 31 Q6).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "lines of zahn platelets fibrin thrombus" -- 0 hits, new concept.
+relationships: paired with CON-FND-9968E677B951D2 (Virchow's triad/thrombus formation) as the lecture's other thrombus-morphology grain; also the direct pharmacology-fact evidence behind the Q7 (q251) hold, since "during life" is the defining feature of a thrombus, not a clot.
+
+---
+
+# Item
+
+## id
+CON-FND-9968E677B951D2
+
+## label
+Virchow's triad concerns the three factors predisposing to thrombus formation
+
+## canonical_key
+teaching.pathology.hemodynamics.virchows-triad-thrombus-formation
+
+## aliases
+Virchow triad
+Thrombosis risk factors
+
+## arabic_label
+ثالوث فيرشو وتكوين الجلطة
+
+## arabic_aliases
+عوامل تكوين الجلطة الدموية
+
+## definition
+Virchow's triad names the three broad categories of factors that predispose to thrombus formation: endothelial injury, stasis (or turbulence) of blood flow, and hypercoagulability of the blood. The triad is specifically about thrombus formation, not about embolus, ecchymosis or haematoma, which are separate hemodynamic entities that do not share this same three-factor causal framework.
+
+## explicit_objective
+State that Virchow's triad concerns the formation of a thrombus, not an embolus, ecchymosis or haematoma.
+
+## pitfalls
+Confusing Virchow's triad's target concept (thrombus formation) with a related but distinct hemodynamic entity such as embolus (a thrombus fragment that has already detached and travelled) or a haemorrhagic lesion (ecchymosis, haematoma), which are not what the triad's three risk factors explain.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Heamodynamic disorders: Hyperemia, congestion and thrombosis
+
+## subtopic
+Virchow's triad
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-MPT-104
+
+## article_ids
+ART-FND-AUN-MPT104-HYPEREMIA-CONGESTION-THROMBOSIS
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-E1D44B7FCA92D9
+
+## resource_ids
+src_3e62ae5ed2a35ed7211c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+AUN_Y1=0.5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Virchow's triad is concerned with the formation of: ... Thrombus" (Quiz 31 Q8).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+No department lecture-deck source exists for Lecture 31 in the corpus -- the quiz bank's own printed-answer text is this concept's only available source.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "virchow triad thrombus" -- 0 hits, new concept.
+relationships: paired with CON-FND-E1D44B7FCA92D9 (Lines of Zahn) as the lecture's other thrombus-vocabulary grain; also the direct evidence behind the Q7 (q251) hold, since this question confirms "thrombus," not "clot," is this lecture's own consistently-used term for antemortem intravascular solidification.
