@@ -1,0 +1,123 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- pending-live overlay questions from the All Quizzes MPT 2022.pdf quiz bank triage (coverage/AUN-MPT-104-triage.md, S3b), Quiz 3 rows whose tested idea reuses two pending Kasr 108-INT pathology concepts (CON-FND-D53E254A82F334 cell stress continuum, CON-FND-375B9454502DE8 ATP-depletion mechanism) rather than re-minting. Omar applies this batch only after: 1) docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md (the Kasr concept batch itself), 2) AUN-MPT-104-quizzes-2022-pending-108int-path-concept.md (the sparse +aun overlay on those two concepts, same directory). Import order: 1 then 2 then this file, each via Admin > Bulk import -> question.",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "module_subject": "AUN-MPT-104 > Pathology > Cell injury its mechanism",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-108-PAT-CELL-INJURY-AND-ADAPTATION"],
+    "resource_ids": ["src_5480a97e1b44bd2ffe20", "src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q017",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q017",
+      "page": 10,
+      "title": "Cell death as a sign of irreversible cell injury",
+      "question": "Cell death is a sign of:",
+      "options": {
+        "A": "General response to cellular stress",
+        "B": "Reversible cell injury",
+        "C": "Cellular adaptation",
+        "D": "Irreversible cell injury"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"General response to cellular stress\" is too broad and does not specify an outcome; a cell under stress may adapt, be reversibly injured, or die, and this option names none of those three specific endpoints.",
+        "B": "Incorrect. Reversible cell injury is, by definition, an injury that resolves and returns the cell to normal if the stimulus is removed -- it does not end in cell death, which is the opposite endpoint.",
+        "C": "Incorrect. Cellular adaptation is the response to modest, sustained stress that preserves cell viability (e.g. hypertrophy, atrophy, metaplasia) -- it is not a form of cell death.",
+        "D": "Correct. A cell meets stress with adaptation, reversible injury, or irreversible injury and death, forming one continuum of progressively worse impairment. Cell death itself only occurs once injury has crossed into the irreversible portion of that continuum -- by definition, a cell that dies has sustained damage beyond the point of recovery, which is exactly what \"irreversible\" means in this framework."
+      },
+      "main_concept": "CON-FND-D53E254A82F334",
+      "concept_ids": ["CON-FND-D53E254A82F334"],
+      "contextual_concept_ids": [],
+      "topic": "Cell injury its mechanism",
+      "subtopic": "Irreversible cell injury",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Place cell death on the adaptation-reversible-irreversible continuum as the outcome of irreversible injury specifically.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Irreversible cell injury\"", "pendingConcept": "CON-FND-D53E254A82F334 is pending in docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md and docs/import-ready/concept/108-INT-concepts-pathology.md, canonical_key cell.stress.adaptation-reversible-irreversible-continuum -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q019",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q019",
+      "page": 11,
+      "title": "Necrosis as an example of irreversible cell injury",
+      "question": "Irreversible cell injury includes:",
+      "options": {
+        "A": "Hydropic swelling",
+        "B": "Necrosis",
+        "C": "Fatty change",
+        "D": "Cloudy swelling"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hydropic swelling (cell swelling from sodium and water accumulation) is a classic example of reversible cell injury -- it resolves if the stimulus is removed, which is the opposite of irreversible.",
+        "B": "Correct. Necrosis is the pathological process by which cells die following irreversible injury. It is the standard worked example of an irreversible outcome on the cell-stress continuum. Unlike adaptation or reversible injury, once necrosis has occurred the cell cannot be restored to normal, however promptly the injurious stimulus is removed.",
+        "C": "Incorrect. Fatty change (steatosis, lipid accumulation within a cell) is a reversible cellular accumulation, not a form of cell death, and resolves once the causative stimulus is removed.",
+        "D": "Incorrect. Cloudy swelling is a mild, reversible cellular accumulation (an early, low-grade form of cell swelling), not an example of irreversible injury."
+      },
+      "main_concept": "CON-FND-D53E254A82F334",
+      "concept_ids": ["CON-FND-D53E254A82F334"],
+      "contextual_concept_ids": [],
+      "topic": "Cell injury its mechanism",
+      "subtopic": "Irreversible cell injury",
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify necrosis as the worked example of irreversible cell injury, and distinguish it from the reversible cellular-accumulation examples (hydropic swelling, fatty change, cloudy swelling).",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Necrosis\"", "pendingConcept": "CON-FND-D53E254A82F334, same pending Kasr 108-INT concept as Q017 above -- applies only after that batch is live" },
+      "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q020",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q020",
+      "page": 11,
+      "title": "Mechanisms by which stimuli cause cellular injury",
+      "question": "Stimuli causing cellular injury do so by:",
+      "options": {
+        "A": "Increase free radicals production",
+        "B": "All are correct",
+        "C": "ATP depletion",
+        "D": "Increased intracellular calcium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect on its own. Increased free-radical production is a real mechanism of cell injury (it damages membranes, proteins and DNA), but it is not the only mechanism, and this quiz's own printed key marks all three named mechanisms together as correct, not this one alone.",
+        "B": "Correct. Cell injury proceeds through several linked mechanisms together, not any single one alone: interference with mitochondrial oxidative phosphorylation depletes ATP, which disables the energy-dependent pump that normally keeps intracellular calcium low, so calcium rises; free radicals, generated by the same injurious stimuli (ischaemia-reperfusion, toxins, radiation), independently damage membranes, proteins and DNA. All three -- ATP depletion, calcium rise, and free-radical accumulation -- are genuine, simultaneously-acting mechanisms of cell injury, which is why the printed key marks all of the individually-listed options as correct together.",
+        "C": "Incorrect on its own. ATP depletion is a real mechanism of cell injury (it disables the sodium pump and the calcium-clearing pump), but it is not the only mechanism, and this quiz's own printed key marks all three named mechanisms together as correct, not this one alone.",
+        "D": "Incorrect on its own. Increased intracellular calcium is a real and centrally important mechanism of cell injury, activating phospholipases, proteases and endonucleases, but it is not the only mechanism, and this quiz's own printed key marks all three named mechanisms together as correct, not this one alone."
+      },
+      "main_concept": "CON-FND-375B9454502DE8",
+      "concept_ids": ["CON-FND-375B9454502DE8"],
+      "contextual_concept_ids": [],
+      "topic": "Cell injury its mechanism",
+      "subtopic": "Mechanisms of cell injury",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise that free-radical production, ATP depletion and calcium rise act together, not as mutually exclusive alternative mechanisms of cell injury.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: All are correct\"", "pendingConcept": "CON-FND-375B9454502DE8 is pending in docs/Kasr-Source-Imports/concept/108-INT-concepts-pathology.md and docs/import-ready/concept/108-INT-concepts-pathology.md, canonical_key cell.injury.mechanism-atp-depletion -- this question and its +aun overlay apply only after Omar imports that Kasr batch" },
+      "author_notes": ""
+    }
+  ]
+}
