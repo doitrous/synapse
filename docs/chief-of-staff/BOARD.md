@@ -552,3 +552,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ASSIUT MPT-104 lane 8 (Quiz 35-40) LANDED (9451a5d0 … 0d0aea38)
 - 45 authored, 7 held (5 T/F + 2 matching in Quiz 35), 0 key conflicts. 40 mints, 5 reuses of Kasr 208 concepts via `+aun` overlays. Per-quiz batch errors=0 ×6; validator clean; simulate: own files rejected=0, the 5 overlay questions reject only in the Assiut-only glob (need the Kasr article files in the chain — dependency class). ≈4-5k tok/q. Ledger quizzes-2022: 316 / 19 held / 106 remaining / 441.
 - Lane 9 dispatched on Quiz 41+ (q336, p.169). Fleet 20/20.
+
+### 2026-09-02 — MUST CVS-201 tranche 7 (Physiology: Blood Flow + Arterial BP) LANDED (b6af1fb7)
+- 70/70 keyed (printed keys p.9/p.20): 56 authored (Blood Flow 30/30, Arterial BP 26/40), 1 held (garbled option). 9 mints with articles/claims/citations/spans; 15 pending overlays (Kasr 104-CPS ×12, AU-106/102/203 ×3); 1 live reuse. Per-file validator 0 errors ×9; batch errors=0; 52-file simulate rejected=0. Above baseline tokens (mint-heavy).
+- TOOLING NOTE: a validator commit on main ("Make a record's universities, years and modules agree") now makes `gate.mjs batch` reject overlay rows that restate a foreign `module_subject` — consistent with the standing overlay rule (no module_subject on overlay rows); the already-landed CVS-201 histology overlay file trips it (simulate unaffected, rejected=0). Lanes: strip module_subject from overlay rows on next touch.
+- Tranche 8 dispatched: Arterial BP 12 leftovers + Capillary & Oedema (20) + Shock (30). Fleet 20/20.
