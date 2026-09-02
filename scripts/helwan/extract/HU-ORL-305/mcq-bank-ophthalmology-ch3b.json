@@ -1,0 +1,988 @@
+{
+  "bank": "MCQs - Ophthalmology_question_bank_Dr_Ahmed_Kamal_3r_260612_153055.pdf",
+  "keyBank": "Ophthalmology - Answer Key . Dr. Kamal.pdf",
+  "sourceId": "src_c30b94e296cd15ba86c2",
+  "keySourceId": "src_da00e151bc67cfc81468",
+  "subject": "mul",
+  "note": "Lane-2 cluster: Chapter 3 (The protective system of the eye), items #21-96 (76 bank items; 71 keyed/authored here, 5 unjoined-no-key held: Q32, Q36, Q47, Q50, Q53 — see HU-ORL-305-triage.md). Continues lane-1's mcq-bank-ophthalmology.json (Ch1+Ch2+Ch3 #1-20) without modifying it. Q48 and Q49 additionally held: both are 2-option True/False items (not 4-5 option MCQs), below even the 3-option build-time-4th-option precedent lane-1 used once — fabricating two extra distractors would go beyond that precedent, so both are held rather than authored.",
+  "count": 69,
+  "held": [
+    32,
+    36,
+    47,
+    48,
+    49,
+    50,
+    53
+  ],
+  "items": [
+    {
+      "num": 21,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Ptosis can occur due to the following cause EXCEPT:",
+      "options": {
+        "a": "Congenital lid muscle weakness.",
+        "b": "Lid trauma.",
+        "c": "Third nerve paralysis.",
+        "d": "Orbicularis muscle paralysis."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 22,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Schirmer's test is used for diagnosing:",
+      "options": {
+        "a": "Dry eye.",
+        "b": "Infective keratitis.",
+        "c": "Corneal ulcers.",
+        "d": "Horner's syndrome."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 23,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The most common cause of adult unilateral proptosis is:",
+      "options": {
+        "a": "Thyroid orbitopathy.",
+        "b": "Metastasis.",
+        "c": "Lymphoma.",
+        "d": "Meningioma."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 24,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Mucin layer of tears is secreted by:",
+      "options": {
+        "a": "Goblet cells.",
+        "b": "Main lacrimal gland.",
+        "c": "Meibomian glands.",
+        "d": "Accessory lacrimal glands."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 25,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Nasolacrimal duct opens in:",
+      "options": {
+        "a": "Superior nasal meatus.",
+        "b": "Inferior nasal meatus.",
+        "c": "Middle nasal meatus.",
+        "d": "Nasopharynx."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 26,
+      "chapter": "The protective system of the eye",
+      "page": 12,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "You can differentiate between a stye and a chalazion by:",
+      "options": {
+        "a": "The relation of the lesion to the caruncle.",
+        "b": "Relation to the lid margin.",
+        "c": "The amount of discharge.",
+        "d": "Everting the eyelid."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 27,
+      "chapter": "The protective system of the eye",
+      "page": 13,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Chalazion is a chronic inflammatory granuloma of:",
+      "options": {
+        "a": "Meibomian gland",
+        "b": "Zeis' gland",
+        "c": "Sweat gland",
+        "d": "Wolfring's gland"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 28,
+      "chapter": "The protective system of the eye",
+      "page": 13,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Severe congenital ptosis, with no levator function can be treated by:",
+      "options": {
+        "a": "Levator resection from skin side",
+        "b": "Surgical intervention between age of 6 till 10 years",
+        "c": "Frontalis sling operation",
+        "d": "Tarsorrhaphy operation"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 29,
+      "chapter": "The protective system of the eye",
+      "page": 13,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "If the palpebral fissure does not close completely during sleep, choose the wrong answer:",
+      "options": {
+        "a": "The condition is called lagophthalmos",
+        "b": "There is usually trigeminal nerve palsy",
+        "c": "bell's phenomenon protects the cornea from ulceration",
+        "d": "Lateral tarsorrhaphy is one of the management lines"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 30,
+      "chapter": "The protective system of the eye",
+      "page": 13,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "One of the following is not a test for dry eye:",
+      "options": {
+        "a": "Hirschberg test",
+        "b": "Rose bengal corneal staining",
+        "c": "Schirmer's test",
+        "d": "Tear lysozyme level"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 31,
+      "chapter": "The protective system of the eye",
+      "page": 13,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Defective lacrimal drainage can result in any of these conditions except:",
+      "options": {
+        "a": "Chronic dacryocystitis",
+        "b": "Trichiasis",
+        "c": "Stenosis of lacrimal puncti",
+        "d": "Mucocele of lacrimal sac"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 33,
+      "chapter": "The protective system of the eye",
+      "page": 13,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Congenital ptosis is characterized by:",
+      "options": {
+        "a": "Absent eyelid crease",
+        "b": "Chin elevation",
+        "c": "Forehead corrugation",
+        "d": "All of the above"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 34,
+      "chapter": "The protective system of the eye",
+      "page": 13,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Treatment of hordeolum internum include all of the following except:",
+      "options": {
+        "a": "Hot fomentation",
+        "b": "Antibiotics",
+        "c": "Evacuation",
+        "d": "Epilation of the related lash"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 35,
+      "chapter": "The protective system of the eye",
+      "page": 14,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Trichiasis is caused by the following:",
+      "options": {
+        "a": "Angular blepharitis",
+        "b": "Hordeolum internum",
+        "c": "Ulcerative blepharitis",
+        "d": "Follicular trachoma"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 37,
+      "chapter": "The protective system of the eye",
+      "page": 14,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Dry eye can be caused by all of the following except:",
+      "options": {
+        "a": "Obstruction of the lacrimal puncti.",
+        "b": "Collagen vascular diseases.",
+        "c": "Atrophy of the accessory lacrimal glands.",
+        "d": "Vitamin A deficiency."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 38,
+      "chapter": "The protective system of the eye",
+      "page": 14,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The lacrimal secretory system consists of the following parts except:",
+      "options": {
+        "a": "The lacrimal gland.",
+        "b": "The accessory lacrimal gland.",
+        "c": "The Goblet cells.",
+        "d": "The lacrimal sac."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 39,
+      "chapter": "The protective system of the eye",
+      "page": 14,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The orbital portion of the lacrimal gland is responsible for:",
+      "options": {
+        "a": "Reflex tears secretion.",
+        "b": "Basic tear secretion.",
+        "c": "Mucin layer secretion.",
+        "d": "None of the above."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 40,
+      "chapter": "The protective system of the eye",
+      "page": 14,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A +ve regurge test is diagnostic of:",
+      "options": {
+        "a": "Nasolacrimal duct obstruction.",
+        "b": "Canalicular obstruction.",
+        "c": "Punctal occlusion.",
+        "d": "Ectropion."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 41,
+      "chapter": "The protective system of the eye",
+      "page": 14,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The mucin layer of the pre-corneal tear film is secreted by:",
+      "options": {
+        "a": "The goblet cells.",
+        "b": "The lacrimal gland",
+        "c": "The meibomian gland.",
+        "d": "The limbal stem cells"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 42,
+      "chapter": "The protective system of the eye",
+      "page": 14,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "All the following statements about the pre-corneal tear film are correct except:",
+      "options": {
+        "a": "It provides nutrition to the cornea.",
+        "b": "It protects the cornea through its anti-bacterial effect.",
+        "c": "It lubricates the corneal surface.",
+        "d": "It is not affected by deficiency of the Goblet cells."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 43,
+      "chapter": "The protective system of the eye",
+      "page": 15,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Investigations done in a case of epiphora include all of the following except:",
+      "options": {
+        "a": "Examination of the cheeks and face for scars.",
+        "b": "Examination of the lid margin.",
+        "c": "Jones dye test.",
+        "d": "Fluorescein angiography."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 44,
+      "chapter": "The protective system of the eye",
+      "page": 15,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Complications of acute dacryocystitis include all of the following except:",
+      "options": {
+        "a": "Cavernous sinus thrombosis.",
+        "b": "Orbital cellulitis.",
+        "c": "Fistula.",
+        "d": "Squint."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 45,
+      "chapter": "The protective system of the eye",
+      "page": 15,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A case diagnosed as having chronic dacryocystitis will present with the following clinical picture except:",
+      "options": {
+        "a": "Fullness related to the medial canthus.",
+        "b": "Epiphora.",
+        "c": "Swelling below the medial canthus.",
+        "d": "-ve regurge test."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 46,
+      "chapter": "The protective system of the eye",
+      "page": 15,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Contrast dacryocystography is indicated in the following conditions:",
+      "options": {
+        "a": "To confirm the site of obstruction especially prior to lacrimal surgery.",
+        "b": "To aid in the diagnosis of diverticula and fistula.",
+        "c": "To diagnose the filling defects caused by tumors or stones.",
+        "d": "All of the above."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 51,
+      "chapter": "The protective system of the eye",
+      "page": 16,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Inflammation of lid glands include all of the following EXCEPT:",
+      "options": {
+        "a": "Ulcerative blepharitis",
+        "b": "Hordeolum externum",
+        "c": "Hordeolum internum",
+        "d": "Squamous blepharitis"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 52,
+      "chapter": "The protective system of the eye",
+      "page": 16,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Levator resection operation should be used in:",
+      "options": {
+        "a": "Mild ptosis with levator function",
+        "b": "Moderate ptosis with good levator function",
+        "c": "Moderate ptosis with poor levator function",
+        "d": "Severe ptosis with poor levator function"
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 54,
+      "chapter": "The protective system of the eye",
+      "page": 16,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Thyroid eye disease can occur in:",
+      "options": {
+        "a": "Hyperthyroid state",
+        "b": "Hypothyroid state",
+        "c": "Normal thyroid state",
+        "d": "All of the above"
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 55,
+      "chapter": "The protective system of the eye",
+      "page": 16,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Proptosis is NOT a clinical presentation in:",
+      "options": {
+        "a": "Panophthalmitis",
+        "b": "Orbital cellulitis",
+        "c": "Endophthalmitis",
+        "d": "Graves' disease"
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 56,
+      "chapter": "The protective system of the eye",
+      "page": 16,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Vitamin A deficiency can cause any of the following EXCEPT:",
+      "options": {
+        "a": "Ophthalmoplegia.",
+        "b": "Keratomalacia.",
+        "c": "Bitot spots.",
+        "d": "Night blindness"
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 57,
+      "chapter": "The protective system of the eye",
+      "page": 16,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Lagophthalmos occurs as a result of paralysis of:",
+      "options": {
+        "a": "5th cranial nerve.",
+        "b": "Levator palpebrae superioris.",
+        "c": "6th cranial nerve.",
+        "d": "7th cranial nerve.",
+        "e": "Muller's muscle."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 58,
+      "chapter": "The protective system of the eye",
+      "page": 16,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Proptosis may be present in the following conditions EXCEPT:",
+      "options": {
+        "a": "Orbital cellulitis.",
+        "b": "Horner's syndrome.",
+        "c": "Thyroid ophthalmopathy.",
+        "d": "Idiopathic orbital inflammation.",
+        "e": "Rhabdomyosarcoma."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 59,
+      "chapter": "The protective system of the eye",
+      "page": 17,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 40-year-old female came to your clinic complaining of bilateral protrusion of her eyes. She gave a history of excessive sweating and weight loss. Examination revealed lid lag and lid retraction.",
+      "options": {
+        "a": "Hyperthyroidism is more in females than males.",
+        "b": "Thyroid eye disease is improved by taking radioactive iodine.",
+        "c": "Cornea is never affected in thyroid eye disease.",
+        "d": "Glucocorticoids may be used in treatment of thyroid eye disease."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 60,
+      "chapter": "The protective system of the eye",
+      "page": 17,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 60-year-old male patient came complaining of bilateral proptosis with impairment of central vision of his left eye and defective color vision especially red and green. Examination revealed afferent pupillary defect of his left eye. Vision was 6/24 in right eye and 2/60 in left eye. He gave history of thyroid eye disease.",
+      "options": {
+        "a": "Color vision affection denotes patient should be referred to an ophthalmologist rapidly.",
+        "b": "The cause of proptosis may be due to accumulation of fats in extraocular muscles only.",
+        "c": "CT scan of orbit is a main tool in diagnosis.",
+        "d": "Dry eye never occurs in thyroid eye disease."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 61,
+      "chapter": "The protective system of the eye",
+      "page": 17,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 67-year-old female came to emergency room with severe headache, vomiting and protrusion of her right eye. Examination revealed bilateral papilledema. The patient gave history of radical mastectomy for cancer breast followed by chemotherapy 2 years ago.",
+      "options": {
+        "a": "Proptosis may be due to metastasis.",
+        "b": "Protrusion of the eye may be due to chemotherapy.",
+        "c": "Bilateral papilledema denotes a localized tumor in right eye.",
+        "d": "CT scan of the globe is recommended."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 62,
+      "chapter": "The protective system of the eye",
+      "page": 17,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A female patient 58 years old came to outpatient clinic complaining of swelling at her left upper lid and throbbing pain. She gave history of being diabetic for 10 years. Examination revealed a diffuse red swelling related to a lash close to lid margin and pointing on skin side.",
+      "options": {
+        "a": "Most probable diagnosis is chalazion.",
+        "b": "Most probable diagnosis is stye.",
+        "c": "Treatment is oral and topical antibiotics.",
+        "d": "Cold foments is recommended."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 63,
+      "chapter": "The protective system of the eye",
+      "page": 18,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 30-year-old female came complaining of painless nodule in her right upper lid which appeared during pregnancy and did not subside.",
+      "options": {
+        "a": "Most probable diagnosis is chalazion.",
+        "b": "Most probable diagnosis is stye.",
+        "c": "Possible cause is blockage of orifices of Meibomian glands.",
+        "d": "Curettage and incision from the skin side is the treatment."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 64,
+      "chapter": "The protective system of the eye",
+      "page": 18,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 25-year-old female came complaining of itching at lid margin and small white scales (dandruff-like) detected among her lashes.",
+      "options": {
+        "a": "Possible diagnosis is ulcerative blepharitis.",
+        "b": "Possible diagnosis is squamous blepharitis.",
+        "c": "No loss of lashes in this patient.",
+        "d": "Steroids are the main line for treatment."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 65,
+      "chapter": "The protective system of the eye",
+      "page": 18,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A mother came to ophthalmic clinic with her 2 years child complaining of drooping of upper left eyelid compared to his right eye. Examination revealed absence of lid crease in his left upper lid.",
+      "options": {
+        "a": "Normally the upper lid covers 4mm of the cornea.",
+        "b": "Degree of ptosis is judged by lid margin-corneal reflex distance (MRD).",
+        "c": "Congenital ptosis is the most common cause.",
+        "d": "Dystrophy of orbicularis muscle is the cause of ptosis."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 66,
+      "chapter": "The protective system of the eye",
+      "page": 18,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 65-year-old diabetic male came to ophthalmology clinic complaining of blurred vision and drooping of his right upper lid and deviation of his eye outwards. Examination revealed dilated pupil and paralytic divergent squint.",
+      "options": {
+        "a": "Examination of extraocular muscles is essential.",
+        "b": "Third nerve palsy may be the cause.",
+        "c": "Horner syndrome is the main diagnosis.",
+        "d": "Apraclonidine test is essential in diagnosis."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 67,
+      "chapter": "The protective system of the eye",
+      "page": 18,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 35-year-old female patient came to clinic complaining of foreign body sensation and lacrimation. Examination revealed a row of lashes misdirected and rubbing against the cornea. She was diagnosed trachoma 3 years ago.",
+      "options": {
+        "a": "Probable diagnosis is involutional entropion.",
+        "b": "Trachoma is the main cause.",
+        "c": "Management is by mucous membrane graft.",
+        "d": "Management by antibiotic eye drops is the main line for this patient."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 68,
+      "chapter": "The protective system of the eye",
+      "page": 19,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 45-year-old female came complaining of epiphora and bad cosmetic appearance of her lower lid. She gave a history of chemical burn to her skin below lid in the last 6 months. Examination showed exposure of palpebral conjunctiva.",
+      "options": {
+        "a": "Probable diagnosis is cicatricial ectropion.",
+        "b": "Shortening of skin is not the cause.",
+        "c": "Treatment is by a skin graft.",
+        "d": "Probable diagnosis is involutional ectropion."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 69,
+      "chapter": "The protective system of the eye",
+      "page": 19,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 70-year-old male came complaining of lacrimation, inability to close the lids while sleeping. Examination revealed keratitis and ulcer at lower part of cornea.",
+      "options": {
+        "a": "The commonest cause is Bell's palsy.",
+        "b": "The eyes roll down during sleep.",
+        "c": "Treatment is artificial tears and temporary lateral tarsorrhaphy.",
+        "d": "Proptosis may lead to lagophthalmos."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 70,
+      "chapter": "The protective system of the eye",
+      "page": 19,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 30-year-old female came to ophthalmic clinic with upper lid diffuse edema after putting a new type of cosmetics. The lid was red hot and swollen.",
+      "options": {
+        "a": "Lid edema may be due to mosquito bite.",
+        "b": "Bilateral lid edema maybe due to renal or cardiac diseases.",
+        "c": "Acute hordeolum never causes lid edema.",
+        "d": "Lid edema cannot happen due to spread of fluid from scalp or face."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 71,
+      "chapter": "The protective system of the eye",
+      "page": 19,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A patient came complaining of left epiphora. She gave history of an accident where left lid was wounded and repaired at the medial canthus. Globe was normal.",
+      "options": {
+        "a": "Possible cause of this condition is congenital nasolacrimal duct obstruction.",
+        "b": "Fluorescein dye disappearance test is helpful in diagnosis.",
+        "c": "Punctal or canalicular obstruction may be the cause.",
+        "d": "Treatment with artificial tears is the only line for treatment."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 72,
+      "chapter": "The protective system of the eye",
+      "page": 19,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 62-year-old male came to ophthalmology clinic complaining of swelling at inner canthus. The swelling was painful and tender. Regurge was absent.",
+      "options": {
+        "a": "Most probable diagnosis is chronic dacryocystitis.",
+        "b": "Staphylococcus aureus or streptococcus may be the cause.",
+        "c": "Treatment by DCR is the main line of treatment.",
+        "d": "Predisposing cause to that condition is cataract surgery."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 73,
+      "chapter": "The protective system of the eye",
+      "page": 20,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 58-year-old female came to outpatient clinic complaining of tearing and recurrent mucoid discharge. On examination a swelling below the medial palpebral ligament was detected. Regurge test was positive.",
+      "options": {
+        "a": "Positive regurge test is of no value in diagnosis.",
+        "b": "Recurrent conjunctivitis is one of the complications of the disease.",
+        "c": "Most probable diagnosis is acute dacryocystitis.",
+        "d": "Inflammation of lacrimal sac is due to nasolacrimal duct obstruction."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 74,
+      "chapter": "The protective system of the eye",
+      "page": 20,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A 48-year-old female came complaining of discomfort, irritation and foreign body sensation both eyes. She gave a history of arthritis and dry mouth. On examination there were tear film debris.",
+      "options": {
+        "a": "Probable diagnosis is cicatricial pemphigoid.",
+        "b": "Deficiency in aqueous tears is the main cause.",
+        "c": "Schirmer's test is of value in diagnosis.",
+        "d": "Treatment is mainly surgical."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 75,
+      "chapter": "The protective system of the eye",
+      "page": 20,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A farmer came to outpatient clinic complaining of burning sensation, excessive tears and discomfort which increases while working outdoors in sun. On examination conjunctival scarring, PTDs and Arlt’s line were detected.",
+      "options": {
+        "a": "Cause of this condition is Sjogren's syndrome.",
+        "b": "Mucin deficiency is the main cause.",
+        "c": "BUT (tear film break up time) is not essential in diagnosis.",
+        "d": "Treatment is by artificial tears."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 76,
+      "chapter": "The protective system of the eye",
+      "page": 20,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding proptosis:",
+      "options": {
+        "a": "We measure proptosis by exophthalmometer.",
+        "b": "The distance between lateral orbital margin and corneal apex is normally 12-15 mm.",
+        "c": "Direction of proptosis is not important.",
+        "d": "Proptosis can be generally classified into inflammatory and neoplastic."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 77,
+      "chapter": "The protective system of the eye",
+      "page": 20,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The following may cause proptosis EXCEPT:",
+      "options": {
+        "a": "Retinoblastoma.",
+        "b": "Leukemia in children.",
+        "c": "Chalazion.",
+        "d": "Lacrimal gland tumors."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 78,
+      "chapter": "The protective system of the eye",
+      "page": 20,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The commonest cause of unilateral proptosis in adults is:",
+      "options": {
+        "a": "Cavernous haemangioma.",
+        "b": "Grave's disease.",
+        "c": "Neurofibroma.",
+        "d": "Metastasis."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 79,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The clinical features of thyroid eye disease include all following EXCEPT:",
+      "options": {
+        "a": "Limited adduction.",
+        "b": "Limited elevation.",
+        "c": "Ptosis.",
+        "d": "Proptosis."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 80,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Investigations of a case of proptosis include all following EXCEPT:",
+      "options": {
+        "a": "CT AND MRI of the orbit.",
+        "b": "Thyroid function tests.",
+        "c": "Surgical biopsy in case of tumors.",
+        "d": "Chest x-ray."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 81,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Management of thyroid eye disease includes all the following EXCEPT:",
+      "options": {
+        "a": "Antithyroid drugs.",
+        "b": "Radioactive iodine.",
+        "c": "Thyroidectomy.",
+        "d": "Thyroxin."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 82,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The commonest benign orbital tumor causing proptosis is:",
+      "options": {
+        "a": "Haemangioma.",
+        "b": "Meningioma.",
+        "c": "Rhabdomyosarcoma.",
+        "d": "Lymphoma."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 83,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Clinical features of thyroid eye disease include the following EXCEPT:",
+      "options": {
+        "a": "Diplopia.",
+        "b": "Optic neuropathy.",
+        "c": "Lid retraction.",
+        "d": "Ectropion."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 84,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Predisposing causes for acute hordeolum include the following EXCEPT:",
+      "options": {
+        "a": "Diabetes mellitus.",
+        "b": "Hypertension.",
+        "c": "Lack of sleep.",
+        "d": "Asthenopia."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 85,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Staphylococcus is the causative agent for all the following EXCEPT:",
+      "options": {
+        "a": "Stye.",
+        "b": "Ulcerative blepharitis.",
+        "c": "Acute dacryocystitis.",
+        "d": "Chalazion."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 86,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Cicatricial ectropion is treated by:",
+      "options": {
+        "a": "Horizontal lid shortening.",
+        "b": "Levator muscle resection.",
+        "c": "Skin grafting.",
+        "d": "Lateral tarsorrhaphy."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 87,
+      "chapter": "The protective system of the eye",
+      "page": 21,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Regarding muscles of the lid:",
+      "options": {
+        "a": "The levator palpebrae muscle is responsible for closing the lid.",
+        "b": "Facial nerve is the nerve responsible for lid closure.",
+        "c": "Orbicularis occuli is responsible for lid opening.",
+        "d": "Oculomotor nerve supplies the orbicularis occuli muscle."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 88,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Treatment of congenital ptosis:",
+      "options": {
+        "a": "All cases should be treated as early as possible to achieve good results.",
+        "b": "Levator muscle resection is done if levator action is poor.",
+        "c": "Amblyopia may occur in severe unilateral cases.",
+        "d": "Frontalis suspension is done in mild cases."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 89,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The lacrimal drainage system consists of the following EXCEPT:",
+      "options": {
+        "a": "The puncti.",
+        "b": "The canaliculi.",
+        "c": "Lacrimal sac.",
+        "d": "Goblet cells."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 90,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Complications of chronic dacryocystitis include the following EXCEPT:",
+      "options": {
+        "a": "Acute dacryocystitis.",
+        "b": "Recurrent conjunctivitis.",
+        "c": "Glaucoma.",
+        "d": "Endophthalmitis following cataract."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 91,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Clinical picture of chronic dacryocystitis includes the following EXCEPT:",
+      "options": {
+        "a": "Epiphora.",
+        "b": "Swelling below medial canthus.",
+        "c": "Recurrent mucoid discharge.",
+        "d": "Negative regurge test."
+      },
+      "recovered_key": "D"
+    },
+    {
+      "num": 92,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Treatment of acute dacryocystitis is:",
+      "options": {
+        "a": "Dacryocystorhinostomy.",
+        "b": "Probing.",
+        "c": "Antibiotics and hot fomentation.",
+        "d": "Intubation."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 93,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Dry eye can be caused by the following EXCEPT:",
+      "options": {
+        "a": "Obstruction of the lacrimal puncti.",
+        "b": "Rheumatoid arthritis.",
+        "c": "Chronic trachoma.",
+        "d": "Vitamin A deficiency."
+      },
+      "recovered_key": "A"
+    },
+    {
+      "num": 94,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "A positive regurge test is diagnostic of:",
+      "options": {
+        "a": "Punctal occlusion.",
+        "b": "Canalicular obstruction.",
+        "c": "Nasolacrimal duct obstruction.",
+        "d": "Ectropion."
+      },
+      "recovered_key": "C"
+    },
+    {
+      "num": 95,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "The following test is used for diagnosis of dry eye:",
+      "options": {
+        "a": "Fluorescein dye disappearance test.",
+        "b": "Tear break up time.",
+        "c": "Lacrimal syringing.",
+        "d": "Regurge test."
+      },
+      "recovered_key": "B"
+    },
+    {
+      "num": 96,
+      "chapter": "The protective system of the eye",
+      "page": 22,
+      "sourceId": "src_c30b94e296cd15ba86c2",
+      "stem": "Main line of treatment in acquired nasolacrimal obstruction in adults is:",
+      "options": {
+        "a": "IV antibiotics.",
+        "b": "NLD massage.",
+        "c": "DCR.",
+        "d": "Intubation."
+      },
+      "recovered_key": "C"
+    }
+  ]
+}
