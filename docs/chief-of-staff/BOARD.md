@@ -579,3 +579,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ZAGAZIG ZU-MED-108 lane 2 LANDED (e7ec4f06) · ZU-MED-108 EXHAUSTED
 - OSPE pp.8-10: 17 items, 16 authored, 1 held (print-corrupted options). 3 renders. 15 mints + 4 articles, 1 own reuse. batch errors=0 ×3; simulate own rows rejected=0 (lane 1's 3 cross-lane CVS overlay deps unchanged). Redone from scratch after the outage (no prior push).
 - Zagazig Year 1: 102/103/104/106/107/108 exhausted or closed; 105 lane 3 triaging the last bank; ZU-UNI-101 is tier-9 admin. Slot → Alexandria AU-MED-201 (Endocrine & GU) lane 1, triage-first (Y2). Fleet 20/20.
+
+### 2026-09-02 — AIN SHAMS ASU-UG lane 5 LANDED (6dbed553, 1377494c) · both original clusters CLOSED
+- Assessment 1 closed 63/5/0 (the q48-62 placeholders were stale; real tail = 5-item Micro block); Collection closed 120/5/0 (real total 125, not 128). Assessment 2 MCQ-1 triaged: ~85% recycled from the two closed clusters → 11 authored, 1 held. Lane totals 23 authored, 20 mints, 3 reuses. batch errors=0 ×3; simulate rejected=0 ×3; duplicate-keys 0.
+- Tool notes: ledger.mjs shows cosmetic phantom "all-remaining" rows when a triage key's stripped prefix differs from the seed's cluster field; a shared scratchpad helper was clobbered by a concurrent session (use unique file names). UG remaining papers are dup-heavy (expect ≤15% yield). Slot → Helwan HU-URS-303 lane 1 (Y3, keyed JSON bank expected). Fleet 20/20.
