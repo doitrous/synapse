@@ -55,7 +55,7 @@ pool sitting behind these files on Desktop.
 |--:|---|---|
 | 4 | `5- Blood. Dr.Ahmad.Alarabi. 2016-2017 .pdf` | 42p / 8,925 words, 0 garbled -- department-staff physiology notes, not a keyed question set. |
 | 3 | `HID Physiology MCQ #Diaa (O6U Med Bot).pdf` | 16p, fully garbled -- needs OCR. |
-| 3 | `Histology MCQ HID.pdf` | 7p / 573 words, 0 garbled -- small, clean, not yet triaged. |
+| 3 | `Histology MCQ HID.pdf` | 7p / 573 words, 0 garbled -- triaged and authored 2026-09-02: page 7 prints a plain "Key answer" table for all 22 questions, cross-checked with no contradictions found (`pagetext.mjs keys`' 6 "red-text" hits on this file were a false positive from a page-footer-attribution bug in `pdf_visual_keys.py`, unrelated to the real key). 22/22 authored, 0 held. See `coverage/O6U-IHI-103-triage.md`. |
 | 1 | `HID Quiz & Mid Module 2019(O6U Med Bot).docx` | Not covered by the PDF readability indexer (`.docx`); not yet opened. |
 
 ## O6U-IMB-104 (`IMI-MBI` folder)

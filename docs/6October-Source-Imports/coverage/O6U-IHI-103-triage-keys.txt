@@ -1,0 +1,33 @@
+# O6U-IHI-103 -- distinct questions identified this triage pass
+# (source: Histology MCQ HID.pdf)
+# One question per line, named to match the seed's own question `key` field
+# (coverage/seeds/O6U-IHI-103/HID-histology.json, cluster "hid") so ledger.mjs's cluster
+# inference (strip trailing "-qNN") lines up. ledger.mjs treats an entire non-comment line as
+# the key (docs/6October-Source-Imports/coverage/O6U-IBS-IBF-triage-keys.txt hit this same
+# trap with lane 1's "M1-N" naming) -- every description below is pushed after a trailing
+# "#" so only the bare key (e.g. "hid-q01") survives stripping. Keys recovered from the
+# file's own printed "Key answer" table (page 7), independently cross-checked against
+# standard histology fact.
+
+hid-q01 # neutrophil nucleus is multilobed -- new
+hid-q02 # reticulocytes are about 1% of total erythrocytes, not 10% -- new
+hid-q03 # erythrocyte adaptations: anucleate, biconcave, flexible membrane -- live (CON-HEM-DC720AB51077EE, CON-HEM-23E454BD997B29)
+hid-q04 # erythrocyte circulating lifespan ~120 days -- live (CON-HEM-60C24B6F5C0EC2)
+hid-q05 # eosinophil granules have a crystalline core -- new
+hid-q06 # granulocytes differ by nucleus shape, percentage, granule staining -- new
+hid-q07 # orthochromatophilic erythroblast has acidophilic cytoplasm -- new
+hid-q08 # red bone marrow is the active marrow -- live (CON-HEM-6E7493F79E9DF7)
+hid-q09 # myeloblast has no specific granules (earliest precursor) -- new
+hid-q10 # megakaryocyte found only in bone marrow -- pending (101-ISK-practical-concepts, CON-HEM-CF325DABA0EA62)
+hid-q11 # leukocytosis = raised WBC count -- pending (AU-MED-103-physiology-concepts, CON-HEM-09BC500E55C1AA)
+hid-q12 # T&B lymphocyte stem cells originate in bone marrow -- new
+hid-q13 # RBC maturation condenses/extrudes nucleus, does not lobulate it -- new
+hid-q14 # megakaryocyte facts, 5-option (polyploid/platelet-precursor/bone-marrow) -- live (CON-HEM-3DC3EAA5D4D84B); collapsed with hid-q19
+hid-q15 # reticular cells stimulate haemopoietic stem cells -- new
+hid-q16 # fat cells are the local fuel reserve for hemopoiesis -- new
+hid-q17 # basophil nucleus is bilobed/obscured, not "central and rounded" -- new
+hid-q18 # reticulocyte named for residual ribosomal RNA under supravital stain -- pending (101-ISK-mcq-concepts, CON-FND-5EFDEADAA559B8)
+hid-q19 # megakaryocyte facts, 4-option variant -- live (CON-HEM-3DC3EAA5D4D84B); collapsed with hid-q14
+hid-q20 # neutrophil identified by multilobed nucleus -- new; collapsed with hid-q01
+hid-q21 # eosinophil identified by acidophilic granules -- new; collapsed with hid-q05
+hid-q22 # monocyte is agranular and phagocytic -- new
