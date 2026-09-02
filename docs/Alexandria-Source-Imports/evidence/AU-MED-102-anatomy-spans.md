@@ -68,3 +68,91 @@ CLM-MSK-SPLEEN-GROSS-ANATOMY-01
 
 ## citation_ids
 CIT-MSK-SPLEEN-GROSS-ANATOMY-01
+
+---
+
+# Item
+
+## id
+SPN-MSK-UPPER-LIMB-BONE-LIST-01
+
+## article_id
+ART-MSK-UPPER-LIMB-BONE-LIST
+
+## section_id
+art-msk-upper-limb-bone-list-structure
+
+## text
+The shoulder girdle attaches the upper limb to the trunk and is two bones: the clavicle in front and the scapula behind.
+
+## claim_ids
+CLM-MSK-UPPER-LIMB-BONE-LIST-01
+
+## citation_ids
+CIT-MSK-UPPER-LIMB-BONE-LIST-01
+
+---
+
+# Item
+
+## id
+SPN-MSK-BONE-FUNCTIONS-PROPERTIES-01
+
+## article_id
+ART-MSK-BONE-FUNCTIONS-PROPERTIES
+
+## section_id
+art-msk-bone-functions-properties-blood-supply-innervation-and-lymphatics
+
+## text
+Bone carries an extensive blood supply — nutrient arteries, periosteal vessels, and (in a long bone) separate epiphyseal and metaphyseal supplies — but is poorly supplied by lymphatics.
+
+## claim_ids
+CLM-MSK-BONE-FUNCTIONS-PROPERTIES-01
+
+## citation_ids
+CIT-MSK-BONE-FUNCTIONS-PROPERTIES-01
+
+---
+
+# Item
+
+## id
+SPN-MSK-INVERSION-EVERSION-01
+
+## article_id
+ART-MSK-INVERSION-EVERSION
+
+## section_id
+art-msk-inversion-eversion-relations
+
+## text
+Inversion turns the sole to face medially, toward the midline; eversion turns it to face laterally, away from the midline.
+
+## claim_ids
+CLM-MSK-INVERSION-EVERSION-01
+
+## citation_ids
+CIT-MSK-INVERSION-EVERSION-01
+
+---
+
+# Item
+
+## id
+SPN-MSK-AURICLE-CARTILAGE-01
+
+## article_id
+ART-MSK-AURICLE-CARTILAGE
+
+## section_id
+art-msk-auricle-cartilage-structure
+
+## text
+Elastic cartilage's chondrocytes sit in a matrix built around a dense meshwork of elastic fibres, in addition to the collagen every cartilage type carries.
+
+## claim_ids
+CLM-MSK-AURICLE-CARTILAGE-01
+
+## citation_ids
+CIT-MSK-AURICLE-CARTILAGE-01

@@ -569,3 +569,633 @@ sourceCandidateIds: NEW concept; find-existing.mjs run with >=4 queries ("spleen
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 relationships: See relatedConceptIds above.
+
+---
+
+# Item
+
+## id
+CON-MSK-8EA49C739942E9
+
+## label
+The upper limb skeleton is the shoulder girdle (clavicle, scapula), arm (humerus), forearm (radius, ulna) and hand (8 carpals, 5 metacarpals, 14 phalanges)
+
+## canonical_key
+bone.upper-limb.list
+
+## aliases
+Upper limb bones
+Bones of the upper extremity
+Appendicular skeleton, upper limb
+
+## arabic_label
+عظام الطرف العلوي
+
+## arabic_aliases
+هيكل الطرف العلوي
+عظام الكتف والذراع والساعد واليد
+
+## definition
+The appendicular skeleton's upper limb is four regions of bone. The shoulder girdle is the clavicle and scapula; the arm is a single bone, the humerus; the forearm is two bones, the radius (lateral) and the ulna (medial); and the hand is three rows — proximally eight carpal bones, in the middle five metacarpal bones, and distally fourteen phalanges (two for the thumb, three for each of the other four fingers). A bone that is not in this list, most often confused by name or by being another limb's proximal long bone (the femur, the thigh bone of the lower limb), is the commonest way this list is tested.
+
+## explicit_objective
+List the bones of the upper limb by region — shoulder girdle, arm, forearm, hand — and recognise a lower-limb bone such as the femur as not one of them.
+
+## pitfalls
+Treating the femur, the lower limb's own proximal long bone, as though it belonged to the upper limb because it shares the general shape and role of the humerus. The two are analogous bones of different limbs, not the same bone under different names, and only the humerus is a bone of the upper extremity.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+
+## topic
+Anatomy
+
+## subtopic
+Skeletal System
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## article_ids
+ART-MSK-UPPER-LIMB-BONE-LIST
+
+## related_article_ids
+ART-MSK-BONE-FUNCTIONS-PROPERTIES
+
+## related_concept_ids
+
+## resource_ids
+src_84b91e011582f2b53494
+src_bfb1aee3422c7577592c
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-MSK-UPPER-LIMB-BONE-LIST-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Bones of upper limb: a. Shoulder girdle: clavicle and scapula b. Arm: humerus c. Forearm: radius and ulna d. Hand: - Proximal = 8 carpal bones - Middle = 5 metacarpal bones - Distal = 2 to thumb and 3 to other fingers (14 phalanx)" (Anatomy Summaries, p.4-5) / "Which of the following is not a bone of upper extremities: a. Humerus b. Femur c. Radius d. Clavicle" (Wagih bank p.4 Q1, keyed b)
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The canonical placement (DIS-ANA-T01) is already more precise than a further microtopic overlay would add.
+nanotopicId: The microtopic placement is already more precise than any nanotopic would be.
+secondaryNodeIds: Walked the 17 live concepts under DIS-ANA-T01 for a second valid placement; none adds information beyond DIS-ANA-T01, left empty rather than guessed.
+moduleIds: No verified live module ID was supplied; curriculum mapping is carried by `modules` on the article and question records instead.
+relatedConceptIds: No live or pending concept names the upper limb's own bone list as a dedicated record — the axial/appendicular split (CON-MSK-12504AAE2403E8's sibling record) and regional articles (shoulder, elbow) are each a different grain; no typed edge written.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+resourceOccurrenceIds: Hand-authored from the Wagih department MCQ bank and the Anatomy Summaries sheet; no pipeline extraction record exists for this corpus.
+sourceCandidateIds: NEW concept; find-existing.mjs run with >=4 queries ("upper limb bones", "bones of upper extremity", "upper limb skeleton", "humerus radius ulna") plus `grep -ril "upper limb" docs/*-Source-Imports/concept/` (checked every hit — regional articles or the axial/appendicular split, neither is this list), both clean.
+lastReviewed: New record; not yet reviewed.
+reviewDue: Set when the first review completes.
+relationships: See relatedConceptIds above.
+
+---
+
+# Item
+
+## id
+CON-MSK-88ABD88C19073F
+
+## label
+Bone functions as support, movement (a lever for the muscles acting on it), mineral storage and blood-cell formation, and is poorly supplied by lymphatics
+
+## canonical_key
+bone.functions-and-properties
+
+## aliases
+Functions of bone
+General properties of bone
+Bone as a lever and mineral store
+
+## arabic_label
+وظائف العظام
+
+## arabic_aliases
+خصائص العظام العامة
+تخزين المعادن وتكوين الدم في العظام
+
+## definition
+Bone serves four general functions: it supports the body's soft tissues, it acts as a lever that the muscles crossing a joint pull against to produce movement, it stores minerals — chiefly calcium and phosphorus — that the body draws on and redeposits as needed, and its marrow is a site of blood-cell formation. Bone is a richly vascularised tissue, but it is poorly supplied by lymphatics, not richly — the opposite of what its rich blood supply might suggest, and the specific false-statement pairing this department bank's own items test. Breaking down proteins into amino acids is a liver and digestive-tract function, not a function of bone.
+
+## explicit_objective
+Name the four general functions of bone (support, movement/lever action, mineral storage, blood-cell formation) and recognise "breakdown of proteins into amino acids" and "rich in lymphatics" as false statements about bone.
+
+## pitfalls
+Assuming a tissue with a rich blood supply must also have a rich lymphatic supply. Bone's blood supply and its lymphatic supply are not linked in this way — the marrow and vasculature are extensive, but bone is specifically poor in lymphatics, which is exactly the false statement this department's own item bank tests.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+
+## topic
+Anatomy
+
+## subtopic
+Skeletal System
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## article_ids
+ART-MSK-BONE-FUNCTIONS-PROPERTIES
+
+## related_article_ids
+ART-MSK-UPPER-LIMB-BONE-LIST
+
+## related_concept_ids
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+AU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-MSK-BONE-FUNCTIONS-PROPERTIES-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following not a function of bones: a. Support b. Breakdown of proteins into amino acids c. Movement d. Storage of minerals" (Wagih bank p.4 Q2, keyed b) / "Which of the following statements about bones is false? a. It's the site of blood cell formation b. It's rich in lymphatics c. It stores minerals as calcium and phosphorus d. It provides lever action for the muscles at the joints" (Wagih bank p.5 Q2, keyed b)
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The canonical placement (DIS-ANA-T01) is already more precise than a further microtopic overlay would add.
+nanotopicId: The microtopic placement is already more precise than any nanotopic would be.
+secondaryNodeIds: Walked the 17 live concepts under DIS-ANA-T01; the only related record is hematopoiesis-specific (CON-HEM-F4A6018FB59FDD, a narrower grain covering only the blood-formation function), not the general four-function list — no typed edge added there since this record's article names it in related_articles instead.
+moduleIds: No verified live module ID was supplied; curriculum mapping is carried by `modules` on the article and question records instead.
+relatedConceptIds: CON-HEM-F4A6018FB59FDD (hematopoiesis) covers one of this concept's four functions at a narrower grain; left out of related_concept_ids rather than forced, since the two are not a clean typed relation (part-of would double-count the shared function on both records' blueprint weight).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+resourceOccurrenceIds: Hand-authored from the Wagih department MCQ bank; no pipeline extraction record exists for this corpus.
+sourceCandidateIds: NEW concept; find-existing.mjs run with >=4 queries ("bone functions", "bone properties", "bone mineral storage lever", "protection support movement") plus `grep -ril "function of bone"\|"bone is rich in" docs/*-Source-Imports/concept/`, both clean.
+lastReviewed: New record; not yet reviewed.
+reviewDue: Set when the first review completes.
+relationships: See relatedConceptIds above.
+
+---
+
+# Item
+
+## id
+CON-MSK-23DC6DF78D6A35
+
+## label
+Inversion turns the sole of the foot to face medially and eversion turns it to face laterally, movements at the subtalar and transverse tarsal joints
+
+## canonical_key
+movement.inversion-eversion
+
+## aliases
+Foot inversion and eversion
+Twisting movements of the foot
+Sole-turning movements
+
+## arabic_label
+الانقلاب الداخلي والخارجي للقدم
+
+## arabic_aliases
+حركات القدم الالتوائية
+دوران باطن القدم
+
+## definition
+Inversion and eversion are the two named twisting movements of the foot, produced mainly at the subtalar and transverse tarsal joints rather than at the ankle (talocrural) joint itself. Inversion turns the sole of the foot to face medially, toward the opposite foot; eversion turns it to face laterally, away from the opposite foot. The pair is named from the direction the sole itself comes to face, not from which side of the leg the foot appears to lean toward, which is the detail most easily reversed by a student working from memory rather than from the movement itself.
+
+## explicit_objective
+Name inversion as the movement turning the sole medially and eversion as the movement turning it laterally, and state that both occur mainly at the subtalar and transverse tarsal joints.
+
+## pitfalls
+Reversing inversion and eversion by reasoning from which side the foot appears to tilt toward rather than which way the sole itself faces. The definition turns on the sole's own direction — medial for inversion, lateral for eversion — not on the leg's posture.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+
+## topic
+Anatomy
+
+## subtopic
+Basis of Anatomy
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## article_ids
+ART-MSK-INVERSION-EVERSION
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+AU_Y1=0.25
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-MSK-INVERSION-EVERSION-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Twisting motion of the foot that turns the sole inward is termed: a. Eversion b. Protraction c. Planter flexion d. Inversion" (Wagih bank p.7 Q2, keyed d)
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The canonical placement (DIS-ANA-T01) is already more precise than a further microtopic overlay would add.
+nanotopicId: The microtopic placement is already more precise than any nanotopic would be.
+secondaryNodeIds: Walked the 17 live concepts under DIS-ANA-T01; none names inversion/eversion as a general definitional record — left empty rather than guessed.
+moduleIds: No verified live module ID was supplied; curriculum mapping is carried by `modules` on the article and question records instead.
+relatedConceptIds: The only existing inversion/eversion hits (AU-MED-103, AU-MED-105) are lower-limb joint-mechanism-specific (subtalar joint, named muscles producing the movement), a different grain from this plain definitional item — left out rather than forced, per the same grain distinction this lane already drew for skin/dermis (LANE-CARD §7).
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+resourceOccurrenceIds: Hand-authored from the Wagih department MCQ bank; no pipeline extraction record exists for this corpus.
+sourceCandidateIds: NEW concept; find-existing.mjs run with >=4 queries ("inversion eversion foot sole", "foot inversion", "eversion foot", "twisting motion foot") plus `grep -ril inversion docs/*-Source-Imports/concept/` (every hit inspected — all a different, joint-mechanism grain, none this plain term), both clean. Also checked docs/FOMSCU-Source-Imports/ directly (a concurrent lane's module referencing inversion/eversion in a question's distractor explanations) for a rival mint in progress — no concept/ directory exists there yet, so no rival record to reuse.
+lastReviewed: New record; not yet reviewed.
+reviewDue: Set when the first review completes.
+relationships: See relatedConceptIds above.
+
+---
+
+# Item
+
+## id
+CON-MSK-52169F26686E92
+
+## label
+The cartilage of the auricle (pinna) of the external ear is elastic cartilage
+
+## canonical_key
+cartilage.auricle-elastic
+
+## aliases
+Auricle cartilage
+Pinna cartilage
+Elastic cartilage of the ear
+
+## arabic_label
+غضروف صيوان الأذن
+
+## arabic_aliases
+الغضروف المرن للأذن
+
+## definition
+By type, cartilage is hyaline, elastic or fibrocartilage, and the auricle (pinna) of the external ear is a named worked example of elastic cartilage — flexible cartilage containing a dense network of elastic fibres in its matrix, which lets it bend and spring back to shape rather than staying rigid or splitting under repeated bending. This is a different grain from bone-shape classification: it names which of the three cartilage types belongs to a specific gross structure, not one of the six shape classes bone falls into.
+
+## explicit_objective
+Name elastic cartilage as the cartilage type of the auricle, and distinguish elastic cartilage's flexible recoil from hyaline cartilage's smooth rigidity and fibrocartilage's tensile strength.
+
+## pitfalls
+Naming the auricle's cartilage as hyaline by analogy with the smooth articular cartilage of a synovial joint. Hyaline cartilage is rigid and glassy; elastic cartilage is specifically built to bend, which is what the ear's own shape and repeated flexing require.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-ANA-T01
+
+## secondary_node_ids
+
+## topic
+Anatomy
+
+## subtopic
+Skeletal System
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## article_ids
+ART-MSK-AURICLE-CARTILAGE
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_84b91e011582f2b53494
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.2
+
+## exam_weight_by_year
+AU_Y1=0.2
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-MSK-AURICLE-CARTILAGE-01
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The cartilage which present at auricle is called ... a. Hyaline b. Elastic c. Fibro-cartilage d. None of the above" (Wagih bank p.7 Q4, keyed b)
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+microtopicId: The canonical placement (DIS-ANA-T01) is already more precise than a further microtopic overlay would add.
+nanotopicId: The microtopic placement is already more precise than any nanotopic would be.
+secondaryNodeIds: Walked the 17 live concepts under DIS-ANA-T01; none addresses cartilage type by gross location, left empty rather than guessed.
+moduleIds: No verified live module ID was supplied; curriculum mapping is carried by `modules` on the article and question records instead.
+relatedConceptIds: The only 'elastic cartilage' hits in the corpus (103-BMS-histology-concepts.md, 104-CPS-histology-concepts.md, AU-MED-105-histology-concepts.md) are histology-grain records (tissue structure under the microscope), a different grain from this gross-anatomy, cartilage-by-location record — per this lane's own skin/dermis precedent (LANE-CARD §7), no typed edge written.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+resourceOccurrenceIds: Hand-authored from the Wagih department MCQ bank; no pipeline extraction record exists for this corpus.
+sourceCandidateIds: NEW concept; find-existing.mjs run with >=4 queries ("auricle elastic cartilage ear", "auricle cartilage", "pinna cartilage", "elastic cartilage ear") plus `grep -ril "elastic cartilage" docs/*-Source-Imports/concept/` (every hit inspected — all histology-grain, none this gross-anatomy record), both clean.
+lastReviewed: New record; not yet reviewed.
+reviewDue: Set when the first review completes.
+relationships: See relatedConceptIds above.
