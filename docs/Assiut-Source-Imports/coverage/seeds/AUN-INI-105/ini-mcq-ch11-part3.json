@@ -1,0 +1,326 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch11",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 11 \"Nematoda\" (pp.112-130). Sibling seed file to ini-mcq-ch11-part1.json (same lane, same Q1-56 window -- see that file's header for the full triage summary). This batch authors 11 of the 56 questions whose tested idea rides on one of 7 newly-minted AUN-INI-105 concepts (concept/AUN-INI-105-ch11-concepts-3.md, article/AUN-INI-105-ch11-article.md item 3, \"Nematoda III -- tissue and lymphatic nematodes\").",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-INI-105",
+    "module_subject": "AUN-INI-105 > Nematoda",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-INF-AUN-INI105-NEMATODA-3"],
+    "resource_ids": ["src_6f2f4188bb0cbf848733"],
+    "source_citation": "INI MCQ .pdf, Nematoda, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "topic": "Nematoda",
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch11-q042",
+      "page": 116,
+      "title": "Trichinella spiralis is acquired from undercooked pork",
+      "question": "Man gets infected with Trichinella spiralis on eating?",
+      "options": {
+        "A": "Undercooked beef",
+        "B": "Undercooked pork",
+        "C": "Undercooked fish",
+        "D": "Infected fleas"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Undercooked beef is the source of Taenia saginata (beef tapeworm), not Trichinella spiralis.",
+        "B": "Correct. Man is infected with Trichinella spiralis by eating undercooked pork containing encysted larvae in the animal's striated muscle. In the human small intestine the larva matures to an adult, and the female releases newborn larvae directly that are carried via the bloodstream to encyst in the host's own striated muscle -- the classic pork-borne transmission route (trichinosis) tested throughout this section.",
+        "C": "Incorrect. Undercooked fish is the source of Capillaria philippinensis and several fish-borne trematodes (e.g. Heterophyes heterophyes), not Trichinella spiralis.",
+        "D": "Incorrect. Infected fleas transmit Dipylidium caninum by accidental ingestion, not Trichinella spiralis."
+      },
+      "main_concept": "CON-INF-669E90CC99B7D6",
+      "concept_ids": ["CON-INF-669E90CC99B7D6"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichinella spiralis",
+      "learning_objective": "State that Trichinella spiralis is acquired by eating undercooked pork.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q043",
+      "page": 117,
+      "title": "Trichinella infective stage is the encysted larva",
+      "question": "Infective stage of Trichinella spiralisis?",
+      "options": {
+        "A": "Encysted metacercaria",
+        "B": "Mature egg",
+        "C": "Encysted larva",
+        "D": "Filariform larva"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. An encysted metacercaria is the infective stage of trematodes such as Fasciola or Heterophyes, not of the nematode Trichinella spiralis.",
+        "B": "Incorrect. Trichinella spiralis is viviparous and passes no egg stage at all, so a mature egg cannot be its infective stage.",
+        "C": "Correct. The infective stage of Trichinella spiralis is the encysted larva, present in the striated muscle of an infected animal (classically pork) and swallowed when that muscle is eaten undercooked. Once ingested, the larva is released from its cyst in the small intestine and matures into an adult worm there.",
+        "D": "Incorrect. A filariform larva is the infective stage for hookworms, Strongyloides and Trichostrongylus, not for Trichinella spiralis, which instead has an encysted muscle-larva infective stage."
+      },
+      "main_concept": "CON-INF-669E90CC99B7D6",
+      "concept_ids": ["CON-INF-669E90CC99B7D6"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichinella spiralis",
+      "learning_objective": "State that the infective stage of Trichinella spiralis is the encysted larva.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q044",
+      "page": 117,
+      "title": "Trichinella larvae are carried to striated muscle",
+      "question": "Larva of Trichinella spiralis are carried to?",
+      "options": {
+        "A": "Liver",
+        "B": "Lung",
+        "C": "Lumen of small intestine",
+        "D": "Active striated muscles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Newborn Trichinella larvae are carried through, not lodged in, the liver on their way to their final site.",
+        "B": "Incorrect. Unlike Ascaris, hookworm or Strongyloides, Trichinella's newborn larvae do not undergo a pulmonary migratory phase as their final destination.",
+        "C": "Incorrect. The small-intestinal lumen is where the ingested encysted larva first matures into an adult, not where the newborn larvae are ultimately carried to encyst.",
+        "D": "Correct. Newborn Trichinella spiralis larvae, released by the adult female in the small intestine, penetrate the gut wall, enter the bloodstream, and are carried throughout the body, finally encysting selectively in active striated (skeletal) muscle -- not liver, lung or the intestinal lumen -- where they can persist and eventually calcify. Muscles with a rich blood supply and continuous activity (diaphragm, tongue, extraocular, masseter) are classically most heavily parasitized."
+      },
+      "main_concept": "CON-INF-669E90CC99B7D6",
+      "concept_ids": ["CON-INF-669E90CC99B7D6"],
+      "contextual_concept_ids": [],
+      "subtopic": "Trichinella spiralis",
+      "learning_objective": "State that newborn Trichinella spiralis larvae are carried to and encyst in striated muscle.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q046",
+      "page": 117,
+      "title": "Capillaria philippinensis egg is peanut-shaped and immature",
+      "question": "Egg of Capillaria Philippinensis?",
+      "options": {
+        "A": "Operculated",
+        "B": "Peanut-shaped",
+        "C": "Immature",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true the egg's flattened bipolar plugs resemble opercula, but this is only one of three jointly true descriptors offered.",
+        "B": "Incorrect alone. It is true the egg is peanut-shaped, but this is only one of three jointly true descriptors offered.",
+        "C": "Incorrect alone. It is true the egg is immature (unembryonated) when passed, but this is only one of three jointly true descriptors offered.",
+        "D": "Correct. The egg of Capillaria philippinensis is peanut- (barrel-)shaped with flattened, slightly protruding bipolar plugs resembling opercula at each end, and is immature (unembryonated) when passed in stool. These three descriptive facts are jointly true and are combined here into one 'all of the above' item testing egg recognition, distinguishing it from the smoothly barrel-shaped, non-operculated Trichuris egg."
+      },
+      "main_concept": "CON-INF-59EAC67F716EC4",
+      "concept_ids": ["CON-INF-59EAC67F716EC4"],
+      "contextual_concept_ids": [],
+      "subtopic": "Capillaria philippinensis",
+      "learning_objective": "State that the Capillaria philippinensis egg is operculated (peanut-shaped with plugs), peanut-shaped, and immature when passed.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q047",
+      "page": 117,
+      "title": "Dracunculus medinensis habitat is subcutaneous tissue",
+      "question": "Habitat of Dracunculus medinensis is?",
+      "options": {
+        "A": "Small intestine",
+        "B": "Large intestine",
+        "C": "Lymph nodes",
+        "D": "Subcutaneous tissues"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dracunculus medinensis is not an intestinal parasite; its adult habitat is entirely extra-intestinal.",
+        "B": "Incorrect. Like the small intestine, the large intestine is not the habitat of Dracunculus medinensis's adult worm.",
+        "C": "Incorrect. Lymph nodes are the habitat of adult Wuchereria bancrofti, tested elsewhere in this chapter, not of Dracunculus medinensis.",
+        "D": "Correct. The adult Dracunculus medinensis (guinea worm) inhabits subcutaneous tissue, most classically of the lower limb, where the gravid female eventually forms a painful blister that ruptures on contact with water to release larvae. This entirely extra-intestinal habitat is what makes it the standard exception whenever it is grouped with other 'helminths infecting man' in an intestinal-habitat list, tested from the opposite direction elsewhere in this chapter."
+      },
+      "main_concept": "CON-INF-8A2DEA5FA54BD8",
+      "concept_ids": ["CON-INF-8A2DEA5FA54BD8"],
+      "contextual_concept_ids": [],
+      "subtopic": "Dracunculus medinensis",
+      "learning_objective": "State that Dracunculus medinensis inhabits subcutaneous tissue.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q048",
+      "page": 117,
+      "title": "Cyclops is the intermediate host of Dracunculus",
+      "question": "Intermediate host of Dracunculus medinensis is?",
+      "options": {
+        "A": "Snail",
+        "B": "Flea",
+        "C": "Cyclops",
+        "D": "Cattle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Snails are intermediate hosts for trematodes such as Fasciola, Schistosoma and Heterophyes, not for Dracunculus medinensis.",
+        "B": "Incorrect. Fleas are the intermediate host for Dipylidium caninum, not for Dracunculus medinensis.",
+        "C": "Correct. The intermediate host of Dracunculus medinensis is the copepod Cyclops, ingested in contaminated drinking water. Larvae released by the female worm in water are ingested by Cyclops, develop within it to the infective stage, and complete transmission when a human swallows water containing infected Cyclops.",
+        "D": "Incorrect. Cattle serve as the intermediate/reservoir host for beef tapeworm (Taenia saginata), not for Dracunculus medinensis."
+      },
+      "main_concept": "CON-INF-8A2DEA5FA54BD8",
+      "concept_ids": ["CON-INF-8A2DEA5FA54BD8"],
+      "contextual_concept_ids": [],
+      "subtopic": "Dracunculus medinensis",
+      "learning_objective": "State that Cyclops is the intermediate host of Dracunculus medinensis.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q049",
+      "page": 117,
+      "title": "Niclosamide is not used for Dracunculus",
+      "question": "The following drugs are used in treatment of Dracunculus medinensis EXCEPT?",
+      "options": {
+        "A": "Metronidazole",
+        "B": "Diethylcarbamazine",
+        "C": "Niclosamide",
+        "D": "Thiabendazole"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Metronidazole has historically been used as an adjunct treatment for dracunculiasis, so it is not the exception.",
+        "B": "Incorrect. Diethylcarbamazine has historically been used as an adjunct treatment for dracunculiasis, so it is not the exception.",
+        "C": "Correct. Niclosamide is not used to treat Dracunculus medinensis infection -- it is instead an anticestode (tapeworm) drug, with no activity against this nematode. Historical drug treatment for dracunculiasis has included metronidazole, diethylcarbamazine and thiabendazole (mainly as adjuncts to slow, gradual mechanical extraction of the worm), but niclosamide has no role here because its mechanism targets cestodes specifically.",
+        "D": "Incorrect. Thiabendazole has historically been used as an adjunct treatment for dracunculiasis, so it is not the exception."
+      },
+      "main_concept": "CON-INF-8A2DEA5FA54BD8",
+      "concept_ids": ["CON-INF-8A2DEA5FA54BD8"],
+      "contextual_concept_ids": [],
+      "subtopic": "Dracunculus medinensis",
+      "learning_objective": "Identify niclosamide as not used to treat Dracunculus medinensis, since it is an anticestode drug.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q050",
+      "page": 117,
+      "title": "W. bancrofti infective stage is the filariform larva in the mosquito's labium",
+      "question": "The infective stage of Wuchereria bancrofiti is?",
+      "options": {
+        "A": "Filariform larva in thoracic muscles of mosquito",
+        "B": "Filariform larva in labium of mosquito",
+        "C": "Microfilaria in blood",
+        "D": "Microfilaria in lymphatic"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The filariform larva develops within the mosquito's thoracic flight muscles, but that is its site of development, not the site from which it is transmitted to man.",
+        "B": "Correct. The infective stage of Wuchereria bancrofti is the third-stage (filariform) larva, which develops from the ingested microfilaria within the mosquito's thoracic flight muscles and then migrates forward to the labium (the sheath around the mosquito's proboscis), from where it is deposited onto the skin at the next blood meal and actively penetrates the bite wound. This labium location is the specific site tested as marking the larva's readiness for transmission.",
+        "C": "Incorrect. The microfilaria circulating in human blood is the diagnostic stage found in the human host, not the infective stage transmitted by the mosquito.",
+        "D": "Incorrect. Microfilaria in the lymphatic system describes where adult worms and early larvae originate in the human host, not the mosquito-borne infective stage."
+      },
+      "main_concept": "CON-INF-3C9F720722D14E",
+      "concept_ids": ["CON-INF-3C9F720722D14E"],
+      "contextual_concept_ids": [],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State that the infective stage of Wuchereria bancrofti is the filariform larva found in the mosquito's labium.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q052",
+      "page": 118,
+      "title": "W. bancrofti microfilaria is sheathed",
+      "question": "Microfilaria of Wuchereria bancrofti is?",
+      "options": {
+        "A": "Sheathed",
+        "B": "Posterior end full of nuclei",
+        "C": "No periodicity",
+        "D": "Ingested by Simulium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The microfilaria of Wuchereria bancrofti is sheathed (it retains the egg-shell membrane as a loose covering), and its posterior end is tapered and free of nuclei -- not full of nuclei. It circulates with nocturnal periodicity, and it is ingested during a blood meal by Culex mosquitoes, not by Simulium, making the other three options each false for this species.",
+        "B": "Incorrect. The W. bancrofti microfilaria's posterior end is free of nuclei, not full of nuclei -- that description does not match this species.",
+        "C": "Incorrect. W. bancrofti microfilariae show nocturnal periodicity (most numerous in peripheral blood between roughly 10 pm and 2 am), not an absence of periodicity.",
+        "D": "Incorrect. W. bancrofti microfilariae are ingested by Culex mosquitoes; Simulium (the blackfly) is instead the vector of Onchocerca volvulus, which does not transmit W. bancrofti."
+      },
+      "main_concept": "CON-INF-0D70287E6C9E9B",
+      "concept_ids": ["CON-INF-0D70287E6C9E9B"],
+      "contextual_concept_ids": [],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State that the Wuchereria bancrofti microfilaria is sheathed, with a nucleus-free posterior end and nocturnal periodicity, ingested by Culex.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q053",
+      "page": 118,
+      "title": "W. bancrofti microfilaria differs from Loa loa's",
+      "question": "Microfilaria of Wuchereria bancrofti differs from microfileria of Loa loa in?",
+      "options": {
+        "A": "Loose sheath",
+        "B": "Gentle curves",
+        "C": "No nuclei in posterior end",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone. It is true W. bancrofti's sheath is loose compared with Loa loa's tightly fitting sheath, but this is only one of three jointly true differences offered.",
+        "B": "Incorrect alone. It is true W. bancrofti's body shows gentle, smooth curves compared with Loa loa's kinky, irregular curves, but this is only one of three jointly true differences offered.",
+        "C": "Incorrect alone. It is true W. bancrofti's posterior end is free of nuclei compared with Loa loa's nuclei extending to the tail tip, but this is only one of three jointly true differences offered.",
+        "D": "Correct. The microfilaria of Wuchereria bancrofti differs from that of Loa loa in three linked morphological features, combined here into one 'all of the above' item: W. bancrofti's sheath is loose (versus Loa loa's tightly fitting sheath); its body shows gentle, smooth curves (versus Loa loa's kinky, irregular curves); and its posterior end is free of nuclei (versus Loa loa's nuclei extending to the very tip of the tail). This three-point comparison is the standard way to differentiate the two filarial species on a blood film."
+      },
+      "main_concept": "CON-INF-4C9CE470070E61",
+      "concept_ids": ["CON-INF-4C9CE470070E61"],
+      "contextual_concept_ids": [],
+      "subtopic": "Wuchereria bancrofti",
+      "learning_objective": "State that the W. bancrofti microfilaria differs from Loa loa's by a loose sheath, gentle curves and a nucleus-free posterior tip.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch11-q054",
+      "page": 118,
+      "title": "Onchocerca volvulus microfilariae show no periodicity",
+      "question": "Periodicity is a characteristic feature for the following microfilariae EXCEPT?",
+      "options": {
+        "A": "Wuchereria bancrofti",
+        "B": "Brugia malayi",
+        "C": "Onchocerca volvulus",
+        "D": "Loa loa"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Wuchereria bancrofti microfilariae circulate in blood with nocturnal periodicity, so it is not the exception.",
+        "B": "Incorrect. Brugia malayi microfilariae circulate in blood with (nocturnally subperiodic) periodicity, so it is not the exception.",
+        "C": "Correct. Onchocerca volvulus microfilariae are the exception among filariae in not showing blood periodicity, since they reside in the skin and subcutaneous tissue rather than in the bloodstream. Wuchereria bancrofti, Brugia malayi and Loa loa microfilariae all circulate in peripheral blood with a defined periodicity timed to their respective biting-vector activity, but Onchocerca's skin-dwelling microfilariae show no periodicity at all -- a fact that also explains why Onchocerca is diagnosed by skin snip, not by a timed blood film.",
+        "D": "Incorrect. Loa loa microfilariae circulate in blood with diurnal periodicity, so it is not the exception."
+      },
+      "main_concept": "CON-INF-1CE00268409419",
+      "concept_ids": ["CON-INF-1CE00268409419"],
+      "contextual_concept_ids": [],
+      "subtopic": "Filarial nematodes",
+      "learning_objective": "Identify Onchocerca volvulus as the exception among filariae without blood periodicity, since its microfilariae reside in skin.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed plain-text ANSWERS table, chapter 11, pp.131-132" },
+      "author_notes": ""
+    }
+  ]
+}

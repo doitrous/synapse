@@ -1,32 +1,72 @@
 <!--
   MU-MED105 (Cardiovascular system) · lane-1 authored concepts for the
-  CVS End Module 43 cluster (42 questions: 41 minted/reused + 1 sparse
-  overlay). Searched via find-existing.mjs and a canonical-key grep sweep
-  first (see coverage/MU-MED105-triage.md's concept-search sample and the
-  per-item field_notes below).
+  CVS End Module 43 cluster (42 questions), REPAIRED by lane-2 on
+  2026-09-02 per the chief-of-staff's never-a-twin ruling. Searched via
+  find-existing.mjs and a canonical-key grep sweep first (see
+  coverage/MU-MED105-triage.md's concept-search sample and the per-item
+  field_notes below).
 
-  36 NEW concepts, self-contained to this lane (no other lane's pending
-  files are required as gate/simulate dependencies, by deliberate choice —
-  several of these facts have a near-duplicate already pending in another
-  university's files, Kasr 104-CPS and Alexandria AU-MED-105 chief among
-  them; each such concept's field_notes names the sibling id for a future
-  cross-university dedup pass rather than being overlaid onto that lane's
-  own in-flight file this dispatch, per MED104 lane-3's own caution about
-  missing cross-university article dependencies).
+  Repair summary: lane-1 originally minted 12 concepts it knew, by its own
+  ## uncertainty notes, were "close in scope" to a specific pending
+  concept in Kasr 104-CPS or Alexandria AU-MED-105 — minting them anyway
+  to avoid a cross-lane simulate dependency, which is a never-a-twin
+  violation. Every one of the 12 was read against its named sibling and
+  confirmed the same fact (near-verbatim or a strict-subset match); none
+  was rejected. All 12 twin records were deleted (2 of them, the two
+  cardiac-cycle valve-state concepts, collapsed onto the SAME Kasr
+  sibling), and replaced below with 11 sparse pending-live overlay rows
+  (tag-additions only: +mu, +1, +MU-MED105 — no module_subject, per the
+  ruling) onto their 11 distinct siblings. Their questions' main_concept/
+  concept_ids were repointed to the sibling ids (see question file), and
+  their now-orphaned article sections were deleted or trimmed (see
+  article/MU-MED105-articles.md's own header). Full dispositions and
+  source-question mapping are in each overlay row's own field_notes below.
+
+  24 NEW concepts remain, self-contained to this lane (no gate/simulate
+  dependency beyond this module's own files).
 
   1 sparse OVERLAY row (tag-additions only, no body fields) onto a concept
   already LIVE in server/data/medical-library-v1.json, which needs no
   extra dependency file since gate reads live state directly:
     - CON-CVS-AD0881F8B57C91 (Afterload) — q42
 
+  11 sparse OVERLAY rows (tag-additions only, per the repair above) onto
+  concepts still PENDING in Kasr 104-CPS / Alexandria AU-MED-105's own
+  files — each row's own field_notes names its exam question(s) and its
+  sibling's home concept/article file:
+    - CON-CVS-2A21F1B4F30B61 (Kasr, right coronary artery) — q13, q21
+    - CON-MSK-0415214C935D2D (Alexandria, dorsalis pedis) — q17
+    - CON-CVS-D0CD4A234205EF (Kasr, AP plateau) — q22
+    - CON-CVS-5288011D93888B (Kasr, refractory/supernormal phase) — q24
+    - CON-CVS-A4657614AE6923 (Alexandria, pacemaker vs working AP) — q25
+    - CON-CVS-9B1C94AF064C3D (Kasr, AV node delay) — q28, q29
+    - CON-CVS-859114E6FE6C90 (Alexandria, contractility) — q31, q33
+    - CON-CVS-3142C436848ABD (Alexandria, Frank-Starling law) — q32
+    - CON-CVS-F51E391CCECE6A (Kasr, valve states/heart sounds) — q35, q41
+    - CON-CVS-B8AFC98120E132 (Kasr, atrial pressure a-c-v waves) — q36
+    - CON-CVS-A99309543A270D (Kasr, cardiac reserve) — q44
+
   Evidence (one claim + one citation per new concept) is in the sibling
   evidence/MU-MED105-* files, citing the module's own Integrated CVS Book
   and Anatomy Support 43 CVS book. Teaching articles are in
-  article/MU-MED105-articles.md.
+  article/MU-MED105-articles.md. The 11 pending-live overlays teach from
+  their own sibling's own article, not from this module's articles file.
 
-  Simulate together with the sibling article + evidence files + this
-  module's question batch:
+  Simulate together with the sibling article + evidence files, the 11
+  pending Kasr/Alexandria concept + article files the overlay rows above
+  depend on, and this module's question batch:
     npm run medical:simulate -- \
+      docs/Kasr-Source-Imports/concept/104-CPS-concepts.md \
+      docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md \
+      docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md \
+      docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md \
+      docs/Kasr-Source-Imports/article/104-CPS-anatomy.md \
+      docs/Kasr-Source-Imports/article/104-CPS-articles.md \
+      docs/Kasr-Source-Imports/article/104-CPS-physiology.md \
+      docs/Alexandria-Source-Imports/concept/AU-MED-105-anatomy-concepts.md \
+      docs/Alexandria-Source-Imports/concept/AU-MED-105-physiology-concepts.md \
+      docs/Alexandria-Source-Imports/article/AU-MED-105-anatomy-articles.md \
+      docs/Alexandria-Source-Imports/article/AU-MED-105-physiology-articles.md \
       docs/Menoufia-Source-Imports/concept/MU-MED105-concepts.md \
       docs/Menoufia-Source-Imports/article/MU-MED105-articles.md \
       docs/Menoufia-Source-Imports/evidence/MU-MED105-resources.md \
@@ -1125,7 +1165,7 @@ ART-CVS-MU105-PERIPHERAL-VESSELS
 
 
 ## related_concept_ids
-CON-CVS-C2C8702CBA09CC
+CON-MSK-0415214C935D2D
 
 ## resource_ids
 src_876c2bd15d1bf71629c5
@@ -1463,7 +1503,7 @@ ART-CVS-MU105-CHAMBER-VALVE-PERICARDIUM
 
 
 ## related_concept_ids
-CON-CVS-A275BC451FCD18
+CON-CVS-9B1C94AF064C3D
 
 ## resource_ids
 src_5ca028d96bdca72569d0
@@ -1801,7 +1841,7 @@ ART-CVS-MU105-CORONARY-ANATOMY
 
 
 ## related_concept_ids
-CON-CVS-C0ADE9E8979F5A
+CON-CVS-2A21F1B4F30B61
 
 ## resource_ids
 src_5ca028d96bdca72569d0
@@ -1862,177 +1902,6 @@ mu_9ac9f79f9ed25404b19b | paper | | p3 | MU-MED105
 
 ## uncertainty
 
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-The right coronary artery gives the marginal and posterior interventricular arteries, supplies the whole right side of the heart and, in most people, the whole conducting system — so its posterior interventricular branch carries the middle cardiac vein alongside it
-
-## id
-CON-CVS-C0ADE9E8979F5A
-
-## canonical_key
-cvs.anatomy.right-coronary-artery-course-nodes-middle-cardiac-vein
-
-## aliases
-Right coronary artery distribution
-SA and AV node blood supply
-Middle cardiac vein with posterior interventricular artery
-
-## arabic_label
-الشريان التاجي الأيمن يغذي العقدتين الجيبية والأذينية البطينية
-
-## arabic_aliases
-
-
-## definition
-The right coronary artery arises from the anterior aortic sinus, runs the coronary sulcus, gives the marginal artery near the heart's inferior border, then turns posteriorly to give the posterior (inferior) interventricular artery before anastomosing with the circumflex artery. In most people it supplies the entire right atrium, right ventricle and, importantly, the whole conducting system — both the SA node and the AV node/bundle — which is why occlusion of the right coronary artery is a classic cause of nodal arrhythmias. Its posterior interventricular branch runs the posterior interventricular groove accompanied by the middle cardiac vein, the vessel most at risk of injury when a surgeon exposes that artery.
-
-## explicit_objective
-State that the right coronary artery supplies the SA and AV nodes in most people, gives the posterior (not anterior) interventricular artery, and that the middle cardiac vein is the vessel that accompanies (and is at surgical risk alongside) the posterior interventricular artery.
-
-## pitfalls
-Assuming the artery placed at surgical risk when exposing the posterior interventricular artery is the great or small cardiac vein — it is specifically the middle cardiac vein, the vein that runs the same posterior interventricular groove alongside that artery, not a vein that runs elsewhere.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-ANA-T04
-
-## secondary_node_ids
-SYS-CVS-T01-S01-M03
-
-## topic
-Anatomy
-
-## subtopic
-Coronary vessels
-
-## microtopic
-Right coronary artery distribution
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Anatomy
-
-## article_ids
-ART-CVS-MU105-CORONARY-ANATOMY
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-1457E145410C1C
-CON-CVS-1BAC795EE1ECE7
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.45
-
-## exam_weight_by_year
-MU_Y1=0.45
-
-## clinical_relevance
-0.55
-
-## academic_relevance
-0.85
-
-## weight_confidence
-0.4
-
-## confidence
-0.8
-
-## atomic_claim_ids
-CLM-CVS-C0ADE9E8979F5A
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q13: In most of the population, SA node and AV node are supplied by which of the following? / Right coronary artery. Q21: A 48-year-old male patient had chronic angina. Coronary angiography revealed nearly total blockage of the posterior interventricular artery. In exposing this artery, which accompanying vessel is most susceptible to injury? / Middle cardiac vein
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p4,p5 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-This concept is close in scope to Kasr 104-CPS's own CON-CVS-2A21F1B4F30B61 (right-coronary-artery.course-and-distribution, still pending in that lane's own files) — a strong candidate for a future cross-university dedup/overlay pass rather than two independent concepts long-term.
 
 ## evidence_gaps
 Evidence must be attached before publication.
@@ -2578,175 +2447,6 @@ mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signa
 # Item
 
 ## label
-The anterior tibial artery continues over the front of the ankle as the dorsalis pedis artery
-
-## id
-CON-CVS-C2C8702CBA09CC
-
-## canonical_key
-cvs.anatomy.anterior-tibial-continues-as-dorsalis-pedis
-
-## aliases
-Dorsalis pedis artery origin
-Anterior compartment leg artery continuation
-
-## arabic_label
-الشريان الظنبوبي الأمامي يستمر كشريان ظهر القدم
-
-## arabic_aliases
-
-
-## definition
-The anterior tibial artery is the artery of the leg's anterior compartment, running down between tibialis anterior and extensor digitorum longus. In front of the ankle joint, midway between the two malleoli, it crosses under the extensor retinaculum and is renamed the dorsalis pedis artery, which then runs onto the dorsum of the foot and dives into the sole to help complete the deep plantar arch.
-
-## explicit_objective
-State that the anterior tibial artery becomes the dorsalis pedis artery at the front of the ankle, distinguishing this from the posterior tibial artery's own continuation into the plantar arteries.
-
-## pitfalls
-Confusing the anterior and posterior tibial arteries' respective continuations — the anterior tibial artery becomes the dorsalis pedis (dorsum of the foot); the posterior tibial artery instead divides behind the medial malleolus into the medial and lateral plantar arteries (sole of the foot).
-
-## concept_type
-fact
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-ANA-T04
-
-## secondary_node_ids
-SYS-CVS-T01-S01-M03
-
-## topic
-Anatomy
-
-## subtopic
-Lower limb vasculature
-
-## microtopic
-Leg and foot arteries
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Anatomy
-
-## article_ids
-ART-CVS-MU105-PERIPHERAL-VESSELS
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-FB707E448E503C
-
-## resource_ids
-src_876c2bd15d1bf71629c5
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.35
-
-## exam_weight_by_year
-MU_Y1=0.35
-
-## clinical_relevance
-0.35
-
-## academic_relevance
-0.75
-
-## weight_confidence
-0.35
-
-## confidence
-0.75
-
-## atomic_claim_ids
-CLM-CVS-C2C8702CBA09CC
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q17: The artery of the anterior compartment of the leg continues as which of the following arteries? / Dorsalis pedis artery
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p4 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Alexandria AU-MED-105's own pending CON-MSK-0415214C935D2D (leg.dorsalis-pedis-posterior-tibial-arteries) — a candidate for a future cross-university dedup/overlay pass.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
 The oblique sinus of the pericardium lies behind the left atrium, with the descending thoracic aorta the structure immediately posterior to a hand introduced into it
 
 ## id
@@ -2878,175 +2578,6 @@ mu_9ac9f79f9ed25404b19b | paper | | p5 | MU-MED105
 
 ## uncertainty
 The department book's own oblique-sinus page (p35) is figure-only with minimal running text in the native layer; boundaries description confirmed on p34, but the specific "descending aorta posterior to a hand in the sinus" clinical framing was not itself found as a direct quote — standard gross-anatomy teaching, printed key stands per rule 1, but the citation below is to the general oblique-sinus section, not an exact-phrase match.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-The cardiac action potential's plateau (phase 2) is sustained by a balance between inward Ca2+ influx (L-type calcium channels) and outward K+ efflux
-
-## id
-CON-CVS-9947504F986142
-
-## canonical_key
-cvs.physiology.ap-plateau-calcium-potassium-balance
-
-## aliases
-Cardiac action potential plateau
-Phase 2 plateau
-
-## arabic_label
-هضبة جهد الفعل القلبي
-
-## arabic_aliases
-
-
-## definition
-Phase 2 (the plateau) of the fast-response cardiac action potential follows the rapid depolarisation of phase 0 and holds the membrane near zero millivolts for an extended period. This plateau exists because inward Ca2+ current through L-type calcium channels is balanced against outward K+ current through delayed-rectifier potassium channels; neither current dominates, so the membrane potential barely changes for tens of milliseconds. The plateau is what prolongs cardiac muscle contraction long enough for effective ejection and prevents tetanic (fused) contraction by keeping the cell refractory throughout.
-
-## explicit_objective
-State that the fast-response cardiac action potential's plateau phase is caused by a balance between inward Ca2+ (L-type channel) influx and outward K+ efflux, not by Na+ currents.
-
-## pitfalls
-Attributing the plateau to a Na+/K+ balance (the pattern that shapes phase 0's upstroke and phase 3's repolarisation) rather than the Ca2+/K+ balance specific to phase 2 — fast Na+ channels are already inactivated by the time the plateau is reached.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Cardiac action potential phases
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-84C54F9C48D1C1
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.45
-
-## exam_weight_by_year
-MU_Y1=0.45
-
-## clinical_relevance
-0.4
-
-## academic_relevance
-0.85
-
-## weight_confidence
-0.4
-
-## confidence
-0.85
-
-## atomic_claim_ids
-CLM-CVS-9947504F986142
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q22: Which of the following is the cause of the plateau phase in the fast response cardiac action potential? / Balance between inward Ca++ and outward K +
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p6 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Kasr 104-CPS's own pending CON-CVS-D0CD4A234205EF (cardiac-action-potential.plateau-phase2.calcium-potassium-balance) — a candidate for a future cross-university dedup pass.
 
 ## evidence_gaps
 Evidence must be attached before publication.
@@ -3254,344 +2785,6 @@ mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signa
 # Item
 
 ## label
-The supernormal phase of excitability, at the tail of repolarisation, is a dangerous period because a weak (subthreshold) stimulus can trigger an ectopic beat and precipitate ventricular fibrillation
-
-## id
-CON-CVS-73C75ED6DFDD91
-
-## canonical_key
-cvs.physiology.supernormal-excitability-vulnerable-period
-
-## aliases
-Supernormal phase of excitability
-Vulnerable period cardiac cycle
-
-## arabic_label
-فترة الاستثارة فوق الطبيعية
-
-## arabic_aliases
-
-
-## definition
-As the cardiac action potential repolarises, excitability passes through an absolute refractory period (no stimulus, however strong, can excite the cell), a relative refractory period (only a stronger-than-normal stimulus can), and finally, coinciding with the last half of repolarisation, a brief supernormal phase in which even a weak, subthreshold stimulus can excite the muscle. This supernormal phase is also called the vulnerable period because a stimulus landing during it (for example, from an ectopic focus or an electric shock) can trigger a re-entrant arrhythmia, making ventricular fibrillation the classic danger of a stimulus falling here.
-
-## explicit_objective
-Name the supernormal phase of excitability (coinciding with late repolarisation) as the dangerous, vulnerable period where a subthreshold stimulus can trigger ventricular fibrillation.
-
-## pitfalls
-Assuming the absolute refractory period is the dangerous one because it sounds most "extreme" — the absolute refractory period is in fact the safest, since no stimulus at all can excite the muscle then; the danger is specific to the supernormal phase, where excitability is paradoxically heightened.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Refractory periods and excitability
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-AUTOMATICITY-CONDUCTION
-
-## related_article_ids
-
-
-## related_concept_ids
-
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.45
-
-## exam_weight_by_year
-MU_Y1=0.45
-
-## clinical_relevance
-0.55
-
-## academic_relevance
-0.85
-
-## weight_confidence
-0.4
-
-## confidence
-0.85
-
-## atomic_claim_ids
-CLM-CVS-73C75ED6DFDD91
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q24: In which period of cardiac action potential, the excitability is considered dangerous due to increased susceptibility to ventricular fibrillation? / Supernormal phase of excitability
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p6 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Kasr 104-CPS's own pending CON-CVS-5288011D93888B (cardiac-myocyte-action-potential.refractory-periods.arp-rrp-supernormal) — a candidate for a future cross-university dedup pass.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-Depolarization of an autorhythmic (pacemaker) cell is carried mainly by Ca2+ influx through L-type calcium channels, unlike the fast Na+-driven upstroke of a working myocyte
-
-## id
-CON-CVS-84C54F9C48D1C1
-
-## canonical_key
-cvs.physiology.autorhythmic-cell-calcium-depolarization
-
-## aliases
-Pacemaker cell depolarization
-Autorhythmic action potential upstroke
-
-## arabic_label
-إزالة استقطاب الخلايا ذاتية النظم بواسطة الكالسيوم
-
-## arabic_aliases
-
-
-## definition
-A working (non-pacemaker) atrial or ventricular myocyte depolarises via a fast, large-magnitude Na+ current through voltage-gated fast sodium channels. An autorhythmic (pacemaker) cell such as an SA-node cell instead never rests at a fixed potential — a slow pacemaker current continuously drifts the membrane toward threshold — and once threshold is reached, its own depolarisation upstroke is carried by L-type Ca2+ channels rather than fast Na+ channels, which stay largely inactivated at the pacemaker cell's less negative resting range. This Ca2+-driven upstroke is correspondingly slower and smaller in magnitude than a working myocyte's Na+-driven one.
-
-## explicit_objective
-State that the depolarization (upstroke) of an autorhythmic cell's action potential is driven by Ca2+ influx through L-type channels, not by Na+ influx as in a working myocyte.
-
-## pitfalls
-Applying the working-myocyte rule (fast Na+ channels drive the upstroke) to pacemaker cells by default — pacemaker cells are the exception, with Ca2+ (not Na+) carrying their depolarising current, because their less negative resting potential keeps fast Na+ channels inactivated.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Pacemaker action potential
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-9947504F986142
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.4
-
-## exam_weight_by_year
-MU_Y1=0.4
-
-## clinical_relevance
-0.35
-
-## academic_relevance
-0.85
-
-## weight_confidence
-0.4
-
-## confidence
-0.8
-
-## atomic_claim_ids
-CLM-CVS-84C54F9C48D1C1
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q25: Which one of the following ions is responsible for depolarization phase of the auto rhythmic cell action potential? / Calcium (Ca++) influx
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p6 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Alexandria AU-MED-105's own pending CON-CVS-A4657614AE6923 (heart.action-potential.pacemaker-vs-working-myocardium) — a candidate for a future cross-university dedup pass.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
 The Bainbridge (atrial) reflex: distension of the right atrium by increased venous return stretches the SA node and raises heart rate
 
 ## id
@@ -3723,175 +2916,6 @@ mu_9ac9f79f9ed25404b19b | paper | | p7 | MU-MED105
 
 ## uncertainty
 
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-The AV node's relatively slow conduction delays the impulse just long enough for the atria to complete their contraction before ventricular activation begins
-
-## id
-CON-CVS-A275BC451FCD18
-
-## canonical_key
-cvs.physiology.av-node-conduction-delay-function
-
-## aliases
-AV node conduction delay
-Atrioventricular delay purpose
-
-## arabic_label
-تأخير التوصيل بالعقدة الأذينية البطينية
-
-## arabic_aliases
-
-
-## definition
-Impulse conduction through the AV node is markedly slower than through atrial muscle, the bundle of His or the Purkinje system, taking roughly 0.1 second to cross. This deliberate delay is functionally important: it allows the atria to finish contracting and complete ventricular filling before the ventricles are electrically activated, so atrial and ventricular contraction stay sequential rather than simultaneous, optimising ventricular filling and, through it, stroke volume.
-
-## explicit_objective
-State that the AV node's slow conduction delays the impulse to allow the atria to complete contraction before the ventricles are activated, and locate that delay specifically at the AV node rather than elsewhere in the conducting system.
-
-## pitfalls
-Assuming the AV delay's purpose is to protect the ventricles from a high atrial rate (that is instead the AV node's separate rate-limiting/filtering role during atrial arrhythmias) rather than its normal-rhythm purpose of sequencing atrial-before-ventricular contraction, which is what this question tests.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-AV node conduction
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-AUTOMATICITY-CONDUCTION
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-1BAC795EE1ECE7
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.45
-
-## exam_weight_by_year
-MU_Y1=0.45
-
-## clinical_relevance
-0.4
-
-## academic_relevance
-0.9
-
-## weight_confidence
-0.4
-
-## confidence
-0.85
-
-## atomic_claim_ids
-CLM-CVS-A275BC451FCD18
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q28: Which part of the cardiac conduction system is responsible for delaying the electrical impulses to allow complete atrial contraction? / Atrioventricular node (AVN). Q29: What is the significance of impulse delay in the atrioventricular node (AVN)? / Allows sufficient time for complete atrial contraction
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p7 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Kasr 104-CPS's own pending CON-CVS-9B1C94AF064C3D (av-node.conduction-delay-function) — a candidate for a future cross-university dedup pass.
 
 ## evidence_gaps
 Evidence must be attached before publication.
@@ -4099,344 +3123,6 @@ mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signa
 # Item
 
 ## label
-Contractility is the intrinsic ability of cardiac muscle to generate force and contract, independent of fibre stretch, and is raised by positive inotropic agents
-
-## id
-CON-CVS-58B94753646870
-
-## canonical_key
-cvs.physiology.contractility-definition-inotropy
-
-## aliases
-Cardiac contractility definition
-Positive inotropic effect
-
-## arabic_label
-قوة انقباض عضلة القلب
-
-## arabic_aliases
-
-
-## definition
-Contractility (inotropy) is the intrinsic ability of cardiac muscle to generate force and contract, set by how much calcium reaches the contractile myofilaments independent of the fibre's own resting length — this is what separates it from the Frank-Starling mechanism, where force instead depends on stretch (preload). A positive inotropic agent raises contractility by increasing intracellular calcium availability to the myofilaments, producing a stronger contraction at any given fibre length, which is why such drugs raise stroke volume without needing extra ventricular filling.
-
-## explicit_objective
-Define contractility as the intrinsic force-generating ability of cardiac muscle (calcium-availability-dependent, length-independent), and state that positive inotropic agents work by raising it.
-
-## pitfalls
-Conflating contractility with the Frank-Starling mechanism — both raise the force of contraction, but contractility does so independent of fibre length (via calcium availability), while Frank-Starling does so specifically because of increased fibre length (stretch) at a fixed contractility.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Cardiac contractility
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-948548A19D49EF
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.45
-
-## exam_weight_by_year
-MU_Y1=0.45
-
-## clinical_relevance
-0.5
-
-## academic_relevance
-0.9
-
-## weight_confidence
-0.4
-
-## confidence
-0.85
-
-## atomic_claim_ids
-CLM-CVS-58B94753646870
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q31: What is the meaning of contractility regarding cardiac function? / The ability of the cardiac muscle to generate force and contract. Q33: How do positive inotropic drugs influence cardiac muscle? / They increase contractility
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p8 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Alexandria AU-MED-105's own pending CON-CVS-859114E6FE6C90 (heart.contractility.calcium-atpase-mechanism) — a candidate for a future cross-university dedup pass.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-Frank-Starling law: within physiological limits, a rise in end-diastolic (ventricular filling) volume raises the force of cardiac contraction
-
-## id
-CON-CVS-948548A19D49EF
-
-## canonical_key
-cvs.physiology.frank-starling-law-edv-force
-
-## aliases
-Frank-Starling law
-Frank-Starling mechanism
-
-## arabic_label
-قانون فرانك-ستارلنج
-
-## arabic_aliases
-
-
-## definition
-The Frank-Starling law of the heart states that, within physiological limits, the force of cardiac muscle contraction is directly related to its initial fibre length — in practice, to how much the ventricle is filled (end-diastolic volume) before it contracts. A greater diastolic fill stretches the sarcomeres closer to their optimal length for cross-bridge formation, so the heart automatically pumps out whatever volume flows in, matching output to venous return without requiring any nervous or hormonal signal.
-
-## explicit_objective
-State that, per the Frank-Starling law, an increase in end-diastolic volume (venous return/preload) raises the force of ventricular contraction (and thus stroke volume/contractility as an exam may phrase it), within physiological limits.
-
-## pitfalls
-Treating the Frank-Starling mechanism as identical to an increase in true contractility — the department's own exam key phrases the Frank-Starling response as "contractility increases," but the mechanism driving it is stretch (preload), not a calcium-availability change; the printed key still stands per rule 1, and this distinction is worth teaching alongside it.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Frank-Starling law
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-CONTRACTILITY-PLATEAU
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-58B94753646870
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.5
-
-## exam_weight_by_year
-MU_Y1=0.5
-
-## clinical_relevance
-0.5
-
-## academic_relevance
-0.9
-
-## weight_confidence
-0.45
-
-## confidence
-0.85
-
-## atomic_claim_ids
-CLM-CVS-948548A19D49EF
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q32: According to the Frank-Starling law, what happens to cardiac contractility when the heart fills with more blood during diastole? / Contractility increases
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p8 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-The exam's own phrasing calls the Frank-Starling response a rise in "contractility," which is a looser use of the term than this concept's own strict, stretch-independent definition of contractility (CON-CVS-58B94753646870); printed key stands per rule 1, conflict noted for the article's own teaching, not as a hold.
-
-## uncertainty
-Close in scope to Alexandria AU-MED-105's own pending CON-CVS-3142C436848ABD (heart.frank-starling.edv-force-relationship) — a candidate for a future cross-university dedup pass.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
 Vagal (parasympathetic) stimulation decreases heart rate
 
 ## id
@@ -4568,344 +3254,6 @@ mu_9ac9f79f9ed25404b19b | paper | | p8 | MU-MED105
 
 ## uncertainty
 The Integrated CVS Book's own vagus-nerve mentions found via grep are anatomical (course, branches) rather than this specific chronotropic-effect statement; the physiological fact itself is standard and the printed key stands per rule 1, but no exact-phrase quote was located for this specific framing.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-During isovolumetric contraction, all four heart valves are shut and ventricular pressure rises rapidly while ventricular volume stays constant
-
-## id
-CON-CVS-8FEA34878D341E
-
-## canonical_key
-cvs.physiology.isovolumetric-contraction-pressure-rise
-
-## aliases
-Isovolumetric contraction phase
-Isovolumic contraction
-
-## arabic_label
-مرحلة الانقباض متساوي الحجم
-
-## arabic_aliases
-
-
-## definition
-Isovolumetric (isovolumic) contraction is the phase immediately after the AV valves close, when the ventricle contracts as a closed chamber: both the AV valves (already shut) and the semilunar valves (not yet opened, since ventricular pressure has not yet exceeded aortic/pulmonary pressure) are closed together, so no blood enters or leaves and ventricular volume is fixed. Because the ventricle is contracting against a constant volume, all the mechanical work goes into rapidly raising ventricular pressure, which climbs steeply until it exceeds the pressure in the aorta (or pulmonary trunk) and forces the semilunar valve open, ending the phase.
-
-## explicit_objective
-State that ventricular pressure rises rapidly during isovolumetric contraction while volume stays unchanged, and that this is the one phase where all four cardiac valves are simultaneously closed.
-
-## pitfalls
-Assuming ventricular volume changes during isovolumetric contraction because pressure is changing so dramatically — by definition (isovolumetric = constant volume), volume stays fixed throughout this phase; only pressure rises.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Cardiac cycle phases
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-CARDIAC-CYCLE
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-A7220E2C8D6103
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.45
-
-## exam_weight_by_year
-MU_Y1=0.45
-
-## clinical_relevance
-0.4
-
-## academic_relevance
-0.9
-
-## weight_confidence
-0.4
-
-## confidence
-0.85
-
-## atomic_claim_ids
-CLM-CVS-8FEA34878D341E
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q35: What happens to ventricular pressure during the isovolumetric contraction phase? / Increases rapidly
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p8 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Kasr 104-CPS's own pending CON-CVS-F51E391CCECE6A (cardiac-cycle.valve-states-and-heart-sounds-by-phase) — a candidate for a future cross-university dedup pass.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-The ascending limb of the a-wave in the atrial pressure curve is caused by atrial contraction (atrial systole)
-
-## id
-CON-CVS-6C2A38EA5B232E
-
-## canonical_key
-cvs.physiology.atrial-pressure-a-wave-atrial-contraction
-
-## aliases
-Atrial pressure a-wave
-Atrial systole pressure curve
-
-## arabic_label
-الموجة (a) في منحنى ضغط الأذين
-
-## arabic_aliases
-
-
-## definition
-The atrial pressure curve shows three positive waves: a, c and v. The a-wave is the first and largest, produced directly by atrial contraction (atrial systole) raising atrial pressure as the atrium squeezes its contents against the still-closed AV valve. The smaller c-wave that follows instead reflects the AV valve bulging back into the atrium at the start of ventricular systole, and the v-wave reflects atrial filling against a still-closed AV valve later in the cycle — only the a-wave's ascending limb is attributable to atrial contraction itself.
-
-## explicit_objective
-Attribute the ascending limb of the atrial pressure curve's a-wave specifically to atrial contraction, distinguishing it from the c-wave (AV valve bulging) and v-wave (passive atrial filling).
-
-## pitfalls
-Attributing the a-wave to ventricular events (ejection or relaxation) — the a-wave is specifically atrial, produced by the atrium's own contraction, before the ventricle even begins its systole.
-
-## concept_type
-mechanism
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Atrial pressure curve
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-CARDIAC-CYCLE
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-8FEA34878D341E
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.4
-
-## exam_weight_by_year
-MU_Y1=0.4
-
-## clinical_relevance
-0.3
-
-## academic_relevance
-0.85
-
-## weight_confidence
-0.35
-
-## confidence
-0.75
-
-## atomic_claim_ids
-CLM-CVS-6C2A38EA5B232E
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q36: What causes the ascending limb of a-wave in the atrial pressure curve? / Atrial contraction
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p8 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Kasr 104-CPS's own pending CON-CVS-B8AFC98120E132 (atrial-pressure-curve.a-c-v-waves) — a candidate for a future cross-university dedup pass. Department book's own atrial-pressure-curve section was matched for "increased venous return" (p68-69) but not for the a/c/v-wave naming convention specifically.
 
 ## evidence_gaps
 Evidence must be attached before publication.
@@ -5451,175 +3799,6 @@ mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signa
 # Item
 
 ## label
-The atrioventricular valves remain open throughout atrial diastole and the whole of ventricular diastole, including the maximum (rapid) filling phase
-
-## id
-CON-CVS-8B779861E1A486
-
-## canonical_key
-cvs.physiology.av-valves-open-during-max-filling
-
-## aliases
-AV valves open phase
-Maximum filling phase
-
-## arabic_label
-انفتاح الصمامات الأذينية البطينية أثناء الامتلاء الأقصى
-
-## arabic_aliases
-
-
-## definition
-The atrioventricular (mitral and tricuspid) valves open once ventricular pressure falls below atrial pressure at the start of ventricular diastole, and they stay open throughout ventricular filling — including its most active portion, the maximum (rapid) filling phase, when blood rushes from the atria into the still-relaxing ventricles down a favourable pressure gradient. They only close again once ventricular systole begins and ventricular pressure exceeds atrial pressure.
-
-## explicit_objective
-State that the AV valves are open throughout the maximum (rapid) filling phase of the cardiac cycle, one of the phases during which they remain open alongside atrial systole and reduced (slow) filling.
-
-## pitfalls
-Assuming the AV valves are closed during any part of diastole because "closed" sounds like the safer default — the AV valves are open for essentially the whole of ventricular diastole (all its filling sub-phases), closing only at the very start of the next systole.
-
-## concept_type
-fact
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Cardiac cycle valve states
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-CARDIAC-CYCLE
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-8FEA34878D341E
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.4
-
-## exam_weight_by_year
-MU_Y1=0.4
-
-## clinical_relevance
-0.3
-
-## academic_relevance
-0.85
-
-## weight_confidence
-0.35
-
-## confidence
-0.8
-
-## atomic_claim_ids
-CLM-CVS-8B779861E1A486
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q41: During which phases of the cardiac cycle do the atrioventricular valves remain open? / Maximum filling phase
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p9 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Kasr 104-CPS's own pending CON-CVS-F51E391CCECE6A (cardiac-cycle.valve-states-and-heart-sounds-by-phase), the same sibling concept as CON-CVS-8FEA34878D341E above — a candidate for a future cross-university dedup pass.
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
 Venous return is driven primarily by the mean systemic filling pressure — the pressure that would exist throughout the circulation if the heart stopped — acting against right atrial pressure
 
 ## id
@@ -5752,175 +3931,6 @@ mu_9ac9f79f9ed25404b19b | paper | | p10 | MU-MED105
 
 ## uncertainty
 
-
-## evidence_gaps
-Evidence must be attached before publication.
-
-## owner
-Claude
-
-## reviewer
-Medical team, Admin team
-
-## final_publisher
-Admin team
-
-## last_reviewed
-
-
-## review_due
-
-
-## publication_status
-needs_evidence
-
-## editorial_review_status
-drafted_not_reviewed
-
-## exclusion_reason
-
-
-## field_notes
-sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first (see this concept's own ## uncertainty field and coverage/MU-MED105-triage.md's concept-search sample) before minting.
-mu: Tested as "CVS End Module 43.pdf" (see ## original_wording and ## exam_signal above), yellow-highlight key, rendered per coverage/MU-MED105-triage-keys.txt.
-
-
----
-
-# Item
-
-## label
-Cardiac reserve is the ability of the heart to raise its output above the resting baseline in response to physiological demand
-
-## id
-CON-CVS-3732E943D2A4D6
-
-## canonical_key
-cvs.physiology.cardiac-reserve-definition
-
-## aliases
-Cardiac reserve
-Cardiac output reserve
-
-## arabic_label
-الاحتياطي القلبي
-
-## arabic_aliases
-
-
-## definition
-Cardiac reserve is the maximum percentage by which cardiac output can rise above its resting level, drawn on during exercise or other physiological stress. It has two contributing components: heart-rate reserve (the span from a resting rate of about 75/min up to a maximal rate around 220 minus age) and stroke-volume reserve (raised both by increasing end-diastolic volume through the Frank-Starling mechanism and by lowering end-systolic volume through positive inotropy). A healthy individual has substantial cardiac reserve; a failing heart's reserve is markedly reduced, which is why cardiac reserve is used clinically as an indicator of cardiovascular fitness.
-
-## explicit_objective
-Define cardiac reserve as the heart's ability to raise output above resting baseline in response to physiological demand, and name heart-rate and stroke-volume reserve as its two components.
-
-## pitfalls
-Confusing cardiac reserve (the capacity to increase output ABOVE a resting baseline) with cardiac output itself (the resting or current output value) — reserve is specifically about the available headroom, not the baseline value.
-
-## concept_type
-fact
-
-## status
-under review
-
-## support_mode
-direct_statement
-
-## subject
-cvs
-
-## primary_node_id
-DIS-PHY-T02
-
-## secondary_node_ids
-SYS-CVS-T01-S01
-
-## topic
-Physiology
-
-## subtopic
-Cardiovascular System
-
-## microtopic
-Cardiac reserve
-
-## nanotopic
-
-
-## modules
-MU-MED105
-
-## module_subject
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
-
-## article_ids
-ART-CVS-MU105-VENOUS-RETURN-RESERVE
-
-## related_article_ids
-
-
-## related_concept_ids
-CON-CVS-58B94753646870
-
-## resource_ids
-src_5ca028d96bdca72569d0
-
-## approved_file_resource_ids
-[clear]
-
-## approved_video_resource_ids
-[clear]
-
-## learner_years
-1
-
-## universities
-mu
-
-## blueprint_weight
-0.45
-
-## exam_weight_by_year
-MU_Y1=0.45
-
-## clinical_relevance
-0.5
-
-## academic_relevance
-0.85
-
-## weight_confidence
-0.4
-
-## confidence
-0.9
-
-## atomic_claim_ids
-CLM-CVS-3732E943D2A4D6
-
-## resource_occurrence_ids
-[clear]
-
-## source_candidate_ids
-[clear]
-
-## original_wording
-Q44: What is cardiac reserve? / The ability of the heart to increase its output above baseline levels in response to physiological demands
-
-## exam_signal
-mu_9ac9f79f9ed25404b19b | paper | | p10 | MU-MED105
-
-## merge_ids
-[clear]
-
-## rejected_merge_candidate_ids
-
-
-## conflicts
-
-
-## uncertainty
-Close in scope to Kasr 104-CPS's own pending CON-CVS-A99309543A270D (cardiac-reserve.heart-rate-and-stroke-volume-reserve) — a candidate for a future cross-university dedup pass. This department book's own text (p85-86) matches this concept's definition almost verbatim, unusually strong evidence for a MED105-minted concept.
 
 ## evidence_gaps
 Evidence must be attached before publication.
@@ -6141,9 +4151,2722 @@ CON-CVS-AD0881F8B57C91
 ## modules
 +MU-MED105
 
-## module_subject
-Afterload
-MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
+## field_notes
+mu: Tested as "CVS End Module 43.pdf" Q42, "Which one of the following statements regarding afterload is true?" (answer: Afterload is primarily influenced by systemic vascular resistance and pulmonary vascular resistance), yellow-highlight key, rendered p9. Sparse update only: this concept is already LIVE (server/data/medical-library-v1.json) with its own article ART-CVS-CARDIAC-OUTPUT, which already teaches afterload's SVR/PVR determinants; no gate/simulate dependency file needed since gate reads live state directly. Fixed by lane-2 (2026-09-02): removed a stray ## module_subject field (its value had leaked "Afterload" from the label onto a second line) — per rule 6/the never-a-twin ruling, an overlay row never carries module_subject.
+
+---
+
+# Item
+
+## label
+The right coronary artery runs the coronary sulcus to give the marginal and posterior interventricular arteries, supplying the whole right side of the heart and, in most people, the whole conducting system
+
+## id
+CON-CVS-2A21F1B4F30B61
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
 
 ## field_notes
-mu: Tested as "CVS End Module 43.pdf" Q42, "Which one of the following statements regarding afterload is true?" (answer: Afterload is primarily influenced by systemic vascular resistance and pulmonary vascular resistance), yellow-highlight key, rendered p9. Sparse update only: this concept is already LIVE (server/data/medical-library-v1.json) with its own article ART-CVS-CARDIAC-OUTPUT, which already teaches afterload's SVR/PVR determinants; no gate/simulate dependency file needed since gate reads live state directly.
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-C0ADE9E8979F5A as a full new record for this exact fact, flagging in its own ## uncertainty field that it was "close in scope" to this Kasr 104-CPS concept — confirmed the same fact on read (near-verbatim matching definitions) and merged. Deleted the twin record and its article/MU-MED105-articles.md section (ART-CVS-MU105-CORONARY-ANATOMY, trimmed to its one surviving concept); repointed q13 and q21's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q13 ("In most of the population, SA node and AV node are supplied by which of the following?" / Right coronary artery) and Q21 ("...blockage of the posterior interventricular artery. In exposing this artery, which accompanying vessel is most susceptible to injury?" / Middle cardiac vein), yellow-highlight key, rendered p4-p5. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/104-CPS-anatomy.md) as a dependency.
+
+---
+
+# Item
+
+## label
+The anterior tibial artery becomes the dorsalis pedis artery in front of the ankle midway between the malleoli and ends by diving into the sole to complete the deep plantar arch, while the posterior tibial artery — the tibial nerve's arterial companion — gives the peroneal artery (the leg's main supply and the fibula's nutrient artery) and terminates behind the medial malleolus by dividing into the medial and lateral plantar arteries
+
+## id
+CON-MSK-0415214C935D2D
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-C2C8702CBA09CC (anterior tibial artery continues as dorsalis pedis), flagging in its own ## uncertainty field that it was "close in scope" to this Alexandria AU-MED-105 concept — confirmed the same fact on read (MU's fact is a strict subset of this broader dorsalis-pedis/posterior-tibial record) and merged. Deleted the twin record and its sentence/alias from article/MU-MED105-articles.md's ART-CVS-MU105-PERIPHERAL-VESSELS section; repointed q17's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q17 ("The artery of the anterior compartment of the leg continues as which of the following arteries?" / Dorsalis pedis artery), yellow-highlight key, rendered p4. Full record is in docs/Alexandria-Source-Imports/concept/AU-MED-105-anatomy-concepts.md; simulate with that file (and its own article, docs/Alexandria-Source-Imports/article/AU-MED-105-anatomy-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+The working cardiac myocyte's action potential plateau (phase 2) is sustained by a balance between inward Ca++ current through L-type calcium channels and outward K+ current, prolonging depolarization well beyond a skeletal muscle fibre's brief spike
+
+## id
+CON-CVS-D0CD4A234205EF
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-9947504F986142 (AP plateau Ca2+/K+ balance), flagging in its own ## uncertainty field that it was "close in scope" to this Kasr 104-CPS concept — confirmed the same fact on read (matching mechanism and definition) and merged. Deleted the twin record and its whole article (article/MU-MED105-articles.md's ART-CVS-MU105-CONTRACTILITY-PLATEAU, all 4 of whose concepts were twins — article deleted outright); repointed q22's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q22 ("Which of the following is the cause of the plateau phase in the fast response cardiac action potential?" / Balance between inward Ca++ and outward K+), yellow-highlight key, rendered p6. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/104-CPS-physiology.md) as a dependency.
+
+---
+
+# Item
+
+## label
+The absolute and relative refractory periods of the cardiac myocyte action potential span almost the whole of contraction, which prevents the sustained tetanic contractions seen in skeletal muscle
+
+## id
+CON-CVS-5288011D93888B
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-73C75ED6DFDD91 (supernormal/vulnerable phase), flagging in its own ## uncertainty field that it was "close in scope" to this Kasr 104-CPS concept — confirmed the same fact on read (MU's fact is a subset of this broader ARP/RRP/supernormal record) and merged. Deleted the twin record and its sentences/alias from article/MU-MED105-articles.md's ART-CVS-MU105-AUTOMATICITY-CONDUCTION section; repointed q24's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q24 ("In which period of cardiac action potential, the excitability is considered dangerous due to increased susceptibility to ventricular fibrillation?" / Supernormal phase of excitability), yellow-highlight key, rendered p6. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/104-CPS-physiology.md) as a dependency.
+
+---
+
+# Item
+
+## label
+A pacemaker action potential is unstable at rest; a working cardiac myocyte's action potential is not
+
+## id
+CON-CVS-A4657614AE6923
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-84C54F9C48D1C1 (autorhythmic cell Ca2+ depolarization), flagging in its own ## uncertainty field that it was "close in scope" to this Alexandria AU-MED-105 concept — confirmed the same fact on read (matching mechanism and definition) and merged. Deleted the twin record; it had no dedicated article sentence of its own left after the ART-CVS-MU105-CONTRACTILITY-PLATEAU article (its ## article_ids target) was deleted outright as all 4 of that article's concepts were twins. Repointed q25's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q25 ("Which one of the following ions is responsible for depolarization phase of the auto rhythmic cell action potential?" / Calcium (Ca++) influx), yellow-highlight key, rendered p6. Full record is in docs/Alexandria-Source-Imports/concept/AU-MED-105-physiology-concepts.md; simulate with that file (and its own article, docs/Alexandria-Source-Imports/article/AU-MED-105-physiology-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Every cardiac valve is briefly closed twice a cycle — during isovolumetric contraction (making the first heart sound) and isovolumetric relaxation (making the second) — while the AV valves stay open through atrial systole and both filling phases
+
+## id
+CON-CVS-F51E391CCECE6A
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted TWO separate records for this one Kasr 104-CPS concept — CON-CVS-8FEA34878D341E (isovolumetric contraction, all valves shut) and CON-CVS-8B779861E1A486 (AV valves open through max filling) — each flagging in its own ## uncertainty field that it was "close in scope" to this same Kasr valve-states-by-phase concept. Confirmed both MU facts are proper subsets of this one comprehensive record and merged both onto it. Deleted both twin records and their three concepts' worth of sentences from article/MU-MED105-articles.md's ART-CVS-MU105-CARDIAC-CYCLE section (which now teaches only its two surviving concepts, rapid ejection and the aortic incisura); repointed q35 and q41's main_concept/concept_ids to this one id.
+mu: Tested as "CVS End Module 43.pdf" Q35 ("What happens to ventricular pressure during the isovolumetric contraction phase?" / Increases rapidly), rendered p8, and Q41 ("During which phases of the cardiac cycle do the atrioventricular valves remain open?" / Maximum filling phase), rendered p9, both yellow-highlight key. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/104-CPS-physiology.md) as a dependency.
+
+---
+
+# Item
+
+## label
+The atrioventricular (AV) node's relatively slow conduction delays the impulse just long enough for atrial systole to finish topping up ventricular filling before ventricular contraction begins
+
+## id
+CON-CVS-9B1C94AF064C3D
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-A275BC451FCD18 (AV node conduction delay), flagging in its own ## uncertainty field that it was "close in scope" to this Kasr 104-CPS concept — confirmed the same fact on read (near-verbatim matching definitions) and merged. Deleted the twin record and its sentences/alias from article/MU-MED105-articles.md's ART-CVS-MU105-AUTOMATICITY-CONDUCTION section; repointed q28 and q29's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q28 ("Which part of the cardiac conduction system is responsible for delaying the electrical impulses to allow complete atrial contraction?" / Atrioventricular node (AVN)) and Q29 ("What is the significance of impulse delay in the atrioventricular node (AVN)?" / Allows sufficient time for complete atrial contraction), yellow-highlight key, rendered p7. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/104-CPS-physiology.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Cardiac contractility is set by how much calcium reaches the myofilaments, independent of fibre length
+
+## id
+CON-CVS-859114E6FE6C90
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-58B94753646870 (contractility definition/inotropy), flagging in its own ## uncertainty field that it was "close in scope" to this Alexandria AU-MED-105 concept — confirmed the same fact on read (matching definition) and merged. Deleted the twin record and its whole article (ART-CVS-MU105-CONTRACTILITY-PLATEAU, deleted outright since all 4 of its concepts were twins); repointed q31 and q33's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q31 ("What is the meaning of contractility regarding cardiac function?" / The ability of the cardiac muscle to generate force and contract) and Q33 ("How do positive inotropic drugs influence cardiac muscle?" / They increase contractility), yellow-highlight key, rendered p8. Full record is in docs/Alexandria-Source-Imports/concept/AU-MED-105-physiology-concepts.md; simulate with that file (and its own article, docs/Alexandria-Source-Imports/article/AU-MED-105-physiology-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Within physiological limits, a rise in end-diastolic volume raises the force of cardiac contraction (Frank–Starling law)
+
+## id
+CON-CVS-3142C436848ABD
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-948548A19D49EF (Frank-Starling law), flagging in its own ## uncertainty field that it was "close in scope" to this Alexandria AU-MED-105 concept — confirmed the same fact on read (near-verbatim matching definitions) and merged. Deleted the twin record and its whole article (ART-CVS-MU105-CONTRACTILITY-PLATEAU, deleted outright since all 4 of its concepts were twins); repointed q32's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q32 ("According to the Frank-Starling law, what happens to cardiac contractility when the heart fills with more blood during diastole?" / Contractility increases — printed key stands per rule 1, taught alongside the mechanism/contractility distinction in the sibling's own article), yellow-highlight key, rendered p8. Full record is in docs/Alexandria-Source-Imports/concept/AU-MED-105-physiology-concepts.md; simulate with that file (and its own article, docs/Alexandria-Source-Imports/article/AU-MED-105-physiology-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+The atrial pressure curve rises to an a wave during atrial systole, a smaller c wave when the closed AV valve bulges back into the atrium at the start of isovolumetric ventricular contraction, and a v wave as venous blood fills the atrium against still-closed AV valves — so the a wave, not the c wave, precedes the first heart sound
+
+## id
+CON-CVS-B8AFC98120E132
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-6C2A38EA5B232E (a-wave/atrial contraction), flagging in its own ## uncertainty field that it was "close in scope" to this Kasr 104-CPS concept — confirmed the same fact on read (MU's fact is a subset of this broader a/c/v-wave record) and merged. Deleted the twin record and its sentences/alias from article/MU-MED105-articles.md's ART-CVS-MU105-CARDIAC-CYCLE section; repointed q36's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q36 ("What causes the ascending limb of a-wave in the atrial pressure curve?" / Atrial contraction), yellow-highlight key, rendered p8. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/104-CPS-physiology.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Heart rate reserve runs from about 75/min to 220 minus age, and stroke volume reserve from about 70 ml to 200 ml
+
+## id
+CON-CVS-A99309543A270D
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin repair (chief-of-staff ruling, 2026-09-02): lane-1 minted CON-CVS-3732E943D2A4D6 (cardiac reserve definition), flagging in its own ## uncertainty field that it was "close in scope" to this Kasr 104-CPS concept — confirmed the same fact on read (this department book's own text at p85-86 matches this concept's definition almost verbatim per lane-1's own note) and merged. Deleted the twin record and its sentences/alias from article/MU-MED105-articles.md's ART-CVS-MU105-VENOUS-RETURN-RESERVE section; repointed q44's main_concept/concept_ids to this id.
+mu: Tested as "CVS End Module 43.pdf" Q44 ("What is cardiac reserve?" / The ability of the heart to increase its output above baseline levels in response to physiological demands), yellow-highlight key, rendered p10. Full record is in docs/Kasr-Source-Imports/concept/104-CPS-concepts.md; simulate with that file as a dependency (its own article_ids, ART-104-PHY-CARDIAC-PUMP-FUNCTION, resolves from docs/Kasr-Source-Imports/article/104-CPS-articles.md).
+
+---
+
+# Item
+
+## label
+Amrinone (inamrinone) inhibits phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect in heart failure
+
+## id
+CON-CVS-D1BDCD9C7A28E4
+
+## canonical_key
+cvs.pharmacology.amrinone-pde3-inhibition-camp
+
+## aliases
+Amrinone mechanism
+Inamrinone
+Phosphodiesterase III inhibitor
+
+## arabic_label
+أمرينون يثبط الفوسفودايستريز الثالث
+
+## arabic_aliases
+
+
+## definition
+Amrinone (inamrinone) is a bipyridine inotrope that inhibits phosphodiesterase III (PDE III), the enzyme that normally breaks down cyclic AMP (cAMP) inside cardiac and vascular smooth muscle cells. Blocking PDE III lets intracellular cAMP accumulate; in cardiac myocytes this raises calcium entry through L-type channels, producing a positive inotropic effect independent of beta-adrenergic receptors, while in vascular smooth muscle the same cAMP rise causes vasodilation, lowering both preload and afterload. This combined inotrope-plus-vasodilator (inodilator) action makes amrinone useful for short-term treatment of severe, refractory heart failure, though its use is limited by thrombocytopenia and arrhythmia risk on prolonged dosing.
+
+## explicit_objective
+State that amrinone's mechanism is phosphodiesterase III inhibition, which raises intracellular cAMP to produce a combined positive inotropic and vasodilator (inodilator) effect.
+
+## pitfalls
+Confusing amrinone's mechanism with a drug that activates phosphodiesterase or decreases cAMP -- amrinone specifically inhibits PDE III, which raises (not lowers) cAMP; a drug that activated phosphodiesterase would instead lower cAMP and be a negative, not positive, inotrope.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Positive inotropic agents
+
+## microtopic
+Amrinone / PDE III inhibitors
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-D1BDCD9C7A28E4
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q46: see question record for stem/options (End Module 43, p10).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q46, yellow-highlight key, rendered p10 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Enalapril, an ACE inhibitor, decreases cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis
+
+## id
+CON-CVS-2BECFB3079BFE1
+
+## canonical_key
+cvs.pharmacology.enalapril-ace-inhibitor-remodeling
+
+## aliases
+Enalapril remodeling
+ACE inhibitor cardiac remodeling
+Angiotensin II myocardial hypertrophy
+
+## arabic_label
+إنالابريل يقلل من إعادة تشكل عضلة القلب
+
+## arabic_aliases
+
+
+## definition
+Enalapril is an angiotensin-converting enzyme (ACE) inhibitor that blocks the conversion of angiotensin I to angiotensin II. Beyond its haemodynamic effect of lowering afterload, angiotensin II itself drives pathological cardiac remodeling directly -- it stimulates myocyte hypertrophy, interstitial fibrosis and progressive chamber dilation in the failing heart. By suppressing angiotensin II formation, enalapril and other ACE inhibitors slow or partially reverse this remodeling process, which is why ACE inhibitors improve long-term survival in heart failure rather than only providing short-term symptomatic relief.
+
+## explicit_objective
+State that enalapril decreases cardiac remodeling in heart failure by suppressing angiotensin II, the mediator that otherwise drives myocyte hypertrophy and fibrosis.
+
+## pitfalls
+Assuming any heart-failure drug that improves symptoms also improves remodeling and survival -- positive inotropes like digoxin and amrinone raise contractility without slowing remodeling, which is why ACE inhibitors (and not inotropes) are the drug class specifically credited with an anti-remodeling, survival benefit.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+ACE inhibitors
+
+## microtopic
+Enalapril / cardiac remodeling
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-2BECFB3079BFE1
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q48: see question record for stem/options (End Module 43, p10).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p10 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q48, yellow-highlight key, rendered p10 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Ventricular fibrillation is a contraindication to digoxin, since digoxin raises automaticity and can worsen a ventricular arrhythmia already in progress
+
+## id
+CON-CVS-30FFECEA12AEB8
+
+## canonical_key
+cvs.pharmacology.digoxin-contraindication-ventricular-fibrillation
+
+## aliases
+Digoxin contraindications
+Digoxin and ventricular arrhythmia
+
+## arabic_label
+الرجفان البطيني من موانع استخدام الديجوكسين
+
+## arabic_aliases
+
+
+## definition
+Digoxin is contraindicated in ventricular fibrillation and other ventricular arrhythmias. By inhibiting the cardiac Na+/K+ ATPase, digoxin raises intracellular calcium and, at toxic or inappropriate levels, increases automaticity and ectopic pacemaker activity in ventricular tissue -- exactly the property that can precipitate or worsen ventricular fibrillation rather than treat it. This is the opposite of digoxin's useful, rate-controlling role in supraventricular arrhythmias such as atrial fibrillation, where its vagally-mediated slowing of AV conduction is beneficial; in ventricular fibrillation there is no AV node to slow and its pro-automaticity effect is purely harmful.
+
+## explicit_objective
+State that ventricular fibrillation is a contraindication to digoxin because digoxin's pro-automaticity effect can worsen, not treat, a ventricular arrhythmia.
+
+## pitfalls
+Assuming digoxin is broadly antiarrhythmic because it is useful in atrial fibrillation -- digoxin only helps supraventricular arrhythmias by slowing AV conduction; in ventricular arrhythmias its calcium-raising, automaticity-increasing effect is dangerous, not therapeutic.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Digoxin
+
+## microtopic
+Digoxin contraindications
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-30FFECEA12AEB8
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q50: see question record for stem/options (End Module 43, p11).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q50, yellow-highlight key, rendered p11 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Furosemide is the diuretic preferred in acute renal failure because, unlike thiazides, it remains effective at low glomerular filtration rates
+
+## id
+CON-CVS-B7466D954A0B3B
+
+## canonical_key
+cvs.pharmacology.furosemide-preferred-acute-renal-failure
+
+## aliases
+Furosemide acute renal failure
+Loop diuretic in renal impairment
+
+## arabic_label
+فروسيميد هو المدر المفضل في الفشل الكلوي الحاد
+
+## arabic_aliases
+
+
+## definition
+Furosemide, a loop diuretic, is the diuretic of choice in acute renal failure. Loop diuretics act at the thick ascending limb of the loop of Henle, a site that remains accessible even when glomerular filtration rate (GFR) is markedly reduced, and furosemide can still produce a meaningful diuresis at a GFR too low for thiazide diuretics (which act at the distal convoluted tubule and depend on adequate filtered load) to be effective. In acute renal failure, furosemide is used both to manage volume overload and, by increasing urine output, to attempt conversion of oliguric to non-oliguric renal failure, which is easier to manage clinically even though it does not itself improve renal recovery or survival.
+
+## explicit_objective
+State that furosemide is preferred over thiazide diuretics in acute renal failure because it remains effective at low GFR, unlike thiazides.
+
+## pitfalls
+Assuming any diuretic works equally well regardless of renal function -- thiazide diuretics lose efficacy as GFR falls because they depend on adequate filtered sodium load reaching the distal tubule, while furosemide's site of action (the thick ascending limb) keeps it effective even in significant renal impairment.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Diuretics
+
+## microtopic
+Furosemide in renal failure
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-B7466D954A0B3B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q54: see question record for stem/options (End Module 43, p12).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p12 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q54, yellow-highlight key, rendered p12 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Thiazide diuretics are the most common drug-induced cause of hyponatremia
+
+## id
+CON-CVS-C396B72F394432
+
+## canonical_key
+cvs.pharmacology.thiazide-most-common-drug-cause-hyponatremia
+
+## aliases
+Thiazide-induced hyponatremia
+Drug-induced hyponatremia
+
+## arabic_label
+مدرات الثيازيد هي السبب الدوائي الأكثر شيوعًا لنقص صوديوم الدم
+
+## arabic_aliases
+
+
+## definition
+Thiazide diuretics are the most common drug class responsible for hyponatremia. They block the Na+/Cl- cotransporter in the distal convoluted tubule, a segment of the nephron that is normally water-impermeable and dilutes urine; blocking sodium reabsorption there impairs the kidney's ability to generate free water for excretion, while sodium loss also stimulates thirst and ADH release. The combined effect -- salt loss plus impaired free-water excretion -- lets water intake outstrip excretion, diluting plasma sodium. Loop diuretics carry much lower hyponatremia risk because they act upstream, at the loop of Henle, where they blunt the medullary concentration gradient the kidney would otherwise use to dilute urine maximally, so the water-excretion defect thiazides cause is largely avoided.
+
+## explicit_objective
+State that thiazide diuretics are the most common drug-induced cause of hyponatremia, and explain why loop diuretics carry much less of this risk.
+
+## pitfalls
+Assuming all diuretics cause hyponatremia by the same mechanism or to the same degree -- thiazides specifically impair free-water excretion at the distal convoluted tubule, while loop diuretics act upstream and blunt the medullary concentrating gradient instead, which is why thiazides (not loop diuretics) are the classic drug cause of hyponatremia.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Diuretics
+
+## microtopic
+Thiazide adverse effects
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-C396B72F394432
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q57: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q57, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Mac Callum's patch is a sign of chronic rheumatic mural endocarditis -- a patch of thickened, wrinkled endocardium on the posterior left atrial wall
+
+## id
+CON-CVS-99B1A014E318DA
+
+## canonical_key
+cvs.pathology.mac-callum-patch-chronic-mural-endocarditis
+
+## aliases
+MacCallum's patch
+Rheumatic mural endocarditis
+
+## arabic_label
+لطخة ماك كالوم علامة التهاب الشغاف الجداري الروماتيزمي المزمن
+
+## arabic_aliases
+
+
+## definition
+Mac Callum's patch is an area of thickened, wrinkled, grey-white mural endocardium found on the posterior wall of the left atrium in chronic rheumatic heart disease. It results from the repeated trauma of a regurgitant mitral jet striking the posterior atrial wall, producing localised endocardial fibrous thickening -- a form of chronic mural (as opposed to valvular) rheumatic endocarditis. Its presence and location are a useful reminder that rheumatic mitral regurgitation classically directs its jet posteriorly, in contrast to the anterior-directed jet more typical of other causes of mitral regurgitation.
+
+## explicit_objective
+State that Mac Callum's patch is a sign of chronic mural (not valvular) rheumatic endocarditis, located on the posterior left atrial wall from a regurgitant mitral jet.
+
+## pitfalls
+Confusing Mac Callum's patch (mural endocarditis on the posterior left atrial wall, from jet trauma) with valvular endocarditis or with the Aschoff body (a myocardial, not endocardial, lesion) -- Mac Callum's patch is specifically an endocardial finding on the atrial wall itself, not on a valve leaflet or in the myocardium.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Rheumatic heart disease
+
+## microtopic
+Mac Callum's patch
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-99B1A014E318DA
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q58: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q58, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Milk spots (soldier's patches) are focal areas of fibrous thickening of the visceral pericardium, a sign of chronic fibrosis from repeated friction
+
+## id
+CON-CVS-AE821D7F644263
+
+## canonical_key
+cvs.pathology.milk-spots-pericardial-fibrosis
+
+## aliases
+Milk spots
+Soldier's patches
+Tache laiteuse
+
+## arabic_label
+البقع اللبنية علامة تليف التامور الحشوي
+
+## arabic_aliases
+
+
+## definition
+Milk spots (also called soldier's patches or tache laiteuse) are focal, opaque, white-grey patches of fibrous thickening on the visceral pericardium, most often overlying the right ventricle. They represent chronic fibrosis produced by repeated low-grade friction or mechanical irritation between the visceral and parietal pericardial layers over years, rather than an active inflammatory or infective process, and they are frequently an incidental finding at autopsy or cardiac surgery with no clinical significance of their own.
+
+## explicit_objective
+Identify milk spots as fibrosis of the visceral pericardium from chronic mechanical friction, not congestion, inflammation or necrosis.
+
+## pitfalls
+Assuming any white patch on the pericardium signals active inflammation -- milk spots are old, fibrous and clinically silent, the endpoint of chronic friction rather than an acute or ongoing pericarditis.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Pericardial disease
+
+## microtopic
+Milk spots
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-AE821D7F644263
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q59: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q59, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Aschoff cells (Anitschkow cells) are large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis
+
+## id
+CON-CVS-CA4A15EBB014FE
+
+## canonical_key
+cvs.pathology.aschoff-cells-large-histiocytes
+
+## aliases
+Aschoff giant cells
+Anitschkow cells
+Aschoff bodies
+
+## arabic_label
+خلايا أشوف هي منسجات كبيرة داخل الأجسام الأشوفية
+
+## arabic_aliases
+
+
+## definition
+Aschoff cells (also called Anitschkow cells or Aschoff giant cells) are large, activated histiocytes (macrophages) with abundant cytoplasm and a distinctive nucleus that shows a central, slender ribbon of chromatin -- classically described as caterpillar-shaped when seen in longitudinal section, or owl's-eye when seen in cross-section. They are the characteristic cell of the Aschoff body, the pathognomonic granuloma-like lesion of acute rheumatic myocarditis, which also contains fibrinoid necrosis, lymphocytes and plasma cells within the myocardial interstitium.
+
+## explicit_objective
+Identify Aschoff cells as large activated histiocytes with a caterpillar-shaped nucleus, the characteristic cell within the Aschoff body of rheumatic myocarditis.
+
+## pitfalls
+Mistaking Aschoff cells for lymphocytes, plasma cells or mast cells -- those other cell types can also be present within an Aschoff body's inflammatory infiltrate, but the Aschoff (Anitschkow) cell itself is specifically a large activated histiocyte with its distinctive caterpillar-nucleus appearance.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Rheumatic heart disease
+
+## microtopic
+Aschoff cells
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-CA4A15EBB014FE
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q60: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q60, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+The most common site affected in acute rheumatic myocarditis is the posterior wall of the left atrium
+
+## id
+CON-CVS-10947BC0F5E769
+
+## canonical_key
+cvs.pathology.rheumatic-myocarditis-posterior-left-atrial-wall
+
+## aliases
+Rheumatic myocarditis site
+Rheumatic pancarditis distribution
+
+## arabic_label
+أكثر موضع إصابة في التهاب عضلة القلب الروماتيزمي الحاد هو الجدار الخلفي للأذين الأيسر
+
+## arabic_aliases
+
+
+## definition
+Acute rheumatic fever produces a pancarditis affecting the endocardium, myocardium and pericardium together, but within the myocardium the Aschoff bodies of acute rheumatic myocarditis most commonly affect the posterior wall of the left atrium. This distribution sits close to where Mac Callum's patch forms on the adjacent endocardium, both findings reflecting the same posterior left atrial region that is preferentially involved in rheumatic carditis, alongside the valve apparatus itself (chiefly the mitral valve).
+
+## explicit_objective
+State that the posterior wall of the left atrium is the site most commonly affected in acute rheumatic myocarditis.
+
+## pitfalls
+Assuming rheumatic myocarditis distributes evenly across all four chambers -- it preferentially involves the posterior left atrial wall, the same general region where the mitral valve apparatus and Mac Callum's patch are also affected in rheumatic heart disease.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Rheumatic heart disease
+
+## microtopic
+Rheumatic myocarditis distribution
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-10947BC0F5E769
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q61: see question record for stem/options (End Module 43, p13).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p13 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q61, yellow-highlight key, rendered p13 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Massive pulmonary embolism causes acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome
+
+## id
+CON-CVS-6701FC6B3EF9B6
+
+## canonical_key
+cvs.pathology.massive-pulmonary-embolism-acute-heart-failure
+
+## aliases
+Massive pulmonary embolism acute heart failure
+Acute cor pulmonale
+
+## arabic_label
+الانسداد الرئوي الضخم يسبب فشلًا قلبيًا حادًا
+
+## arabic_aliases
+
+
+## definition
+Massive pulmonary embolism is a cause of acute heart failure. A large embolus obstructing the pulmonary arterial circulation abruptly raises pulmonary vascular resistance and, with it, the afterload the right ventricle must pump against; because this rise happens over minutes rather than the months a chronically hypertrophying right ventricle would have to adapt, the thin-walled right ventricle acutely dilates and fails (acute cor pulmonale), producing sudden right heart failure, a fall in left ventricular filling and cardiac output, and often cardiogenic shock or sudden death. This is distinct from the chronic, gradually compensated right ventricular hypertrophy seen with slowly progressive causes of pulmonary hypertension.
+
+## explicit_objective
+State that massive pulmonary embolism causes acute heart failure through a sudden rise in right ventricular afterload that the unprepared right ventricle cannot overcome.
+
+## pitfalls
+Assuming any cause of chronically raised right heart pressure has the same acute effect as a massive pulmonary embolism -- conditions like systemic hypertension, mitral stenosis or coarctation of the aorta raise pressures gradually, giving the heart time to hypertrophy and compensate, while a massive embolism's suddenness is exactly what makes it a cause of ACUTE, not chronic, heart failure.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Heart failure
+
+## microtopic
+Massive pulmonary embolism
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-6701FC6B3EF9B6
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q65: see question record for stem/options (End Module 43, p14).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p14 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q65, yellow-highlight key, rendered p14 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Amniotic fluid embolism is amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC
+
+## id
+CON-CVS-58677CDDB27828
+
+## canonical_key
+cvs.pathology.amniotic-fluid-embolism-peripartum
+
+## aliases
+Amniotic fluid embolism
+Peripartum embolism
+
+## arabic_label
+الانصمام بالسائل الأمنيوسي
+
+## arabic_aliases
+
+
+## definition
+Amniotic fluid embolism occurs when amniotic fluid, fetal squamous cells, lanugo hair and other fetal debris enter the maternal circulation, typically through tears in uterine veins or the placental implantation site during labour, delivery or the immediate postpartum period, and embolise to the maternal pulmonary arterial circulation. Clinically it presents with the sudden onset of dyspnoea, cyanosis and hypotension, often progressing rapidly to cardiovascular collapse; the amniotic material also activates the coagulation cascade, frequently triggering disseminated intravascular coagulation (DIC) as a life-threatening complication. Histologically, fetal squamous cells and other amniotic debris are identified within the small peripheral pulmonary arteries.
+
+## explicit_objective
+Recognise amniotic fluid embolism from its classic peripartum presentation of sudden dyspnoea, cyanosis and hypotension, and identify fetal/amniotic debris in the peripheral pulmonary arteries as its defining histological finding.
+
+## pitfalls
+Confusing amniotic fluid embolism with fat embolism (fat globules, classically after long-bone fracture), air embolism (gas bubbles) or thromboembolism (aggregated red blood cells/fibrin) -- amniotic fluid embolism is specifically identified by fetal squamous cells and other amniotic debris within the pulmonary arteries of a peripartum patient.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PAT-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pathology
+
+## subtopic
+Embolism
+
+## microtopic
+Amniotic fluid embolism
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pathology
+
+## article_ids
+ART-CVS-MU105-RHEUMATIC-EMBOLIC-PATH
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-58677CDDB27828
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q68: see question record for stem/options (End Module 43, p15).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p15 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q68, yellow-highlight key, rendered p15 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Sympathetic stimulation raises the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart
+
+## id
+CON-CVS-A1107778AE9E3B
+
+## canonical_key
+cvs.physiology.sympathetic-stimulation-raises-msfp
+
+## aliases
+Sympathetic venoconstriction
+Sympathetic effect on mean systemic filling pressure
+
+## arabic_label
+التنبيه الودي يرفع متوسط ضغط الامتلاء الجهازي
+
+## arabic_aliases
+
+
+## definition
+Sympathetic stimulation of the heart and vasculature raises the mean systemic filling pressure (MSFP). The systemic veins normally hold the majority of total blood volume at low pressure, acting as a high-capacitance reservoir; sympathetic activation constricts these veins (venoconstriction), reducing their capacitance and effectively shifting blood out of the venous reservoir toward the heart. Because MSFP is set by the total blood volume relative to the vasculature's capacitance, this venoconstriction raises MSFP even though total blood volume itself has not changed, which in turn increases the pressure gradient driving venous return back to the heart.
+
+## explicit_objective
+State that sympathetic stimulation raises mean systemic filling pressure through venoconstriction, which shifts blood out of the venous reservoir without changing total blood volume.
+
+## pitfalls
+Assuming mean systemic filling pressure can only rise if total blood volume rises -- MSFP is a function of volume relative to vascular capacitance, so sympathetic venoconstriction raises MSFP by reducing venous capacitance alone, with blood volume unchanged.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHY-T02
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Physiology
+
+## subtopic
+Venous return
+
+## microtopic
+Sympathetic effect on MSFP
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Physiology
+
+## article_ids
+ART-CVS-MU105-VENOUS-RETURN-RESERVE
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-A1107778AE9E3B
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q72: see question record for stem/options (End Module 43, p16).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p16 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q72, yellow-highlight key, rendered p16 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Spironolactone characteristically causes gynecomastia (via its anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action)
+
+## id
+CON-CVS-DEBDF72E55A483
+
+## canonical_key
+cvs.pharmacology.spironolactone-gynecomastia-hyperkalemia
+
+## aliases
+Spironolactone side effects
+Spironolactone gynecomastia
+
+## arabic_label
+سبيرونولاكتون يسبب تثدي الرجال وفرط بوتاسيوم الدم
+
+## arabic_aliases
+
+
+## definition
+Spironolactone is an aldosterone-receptor antagonist used as a potassium-sparing diuretic. Because it blocks aldosterone's action at the collecting-tubule mineralocorticoid receptor, it reduces urinary potassium excretion, and this potassium-sparing effect can produce clinically significant hyperkalemia, especially when combined with other potassium-retaining drugs (ACE inhibitors, potassium supplements) or in renal impairment. Spironolactone also has off-target anti-androgenic and progestogenic activity at steroid receptors -- it partially blocks androgen receptors and weakly activates progesterone receptors -- and this hormonal cross-reactivity is what causes gynecomastia (and, in some patients, menstrual irregularities or decreased libido) as a characteristic side effect distinct from its diuretic mechanism.
+
+## explicit_objective
+State that spironolactone causes hyperkalemia through its potassium-sparing, aldosterone-antagonist mechanism, and gynecomastia through separate anti-androgenic/progestogenic receptor activity.
+
+## pitfalls
+Assuming gynecomastia and hyperkalemia share one mechanism -- hyperkalemia follows directly from spironolactone's aldosterone-antagonist diuretic action, while gynecomastia is an unrelated, off-target hormonal effect at androgen and progesterone receptors, not a consequence of its diuretic mechanism.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+cvs
+
+## primary_node_id
+DIS-PHA-T01
+
+## secondary_node_ids
+SYS-CVS-T01-S01
+
+## topic
+Pharmacology
+
+## subtopic
+Diuretics
+
+## microtopic
+Spironolactone adverse effects
+
+## nanotopic
+
+
+## modules
+MU-MED105
+
+## module_subject
+MU-MED105 > 00 Module-wide > 06 EOM Exams > CVS End Module 43 > Pharmacology
+
+## article_ids
+ART-CVS-MU105-HF-DIURETIC-PHARM
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_5ca028d96bdca72569d0
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.8
+
+## weight_confidence
+0.4
+
+## confidence
+0.6
+
+## atomic_claim_ids
+CLM-CVS-DEBDF72E55A483
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Q73: see question record for stem/options (End Module 43, p11).
+
+## exam_signal
+mu_9ac9f79f9ed25404b19b | paper | | p11 | MU-MED105
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+General textbook/lecture fact, not a page-quoted extraction from this module's own department book; confidence set accordingly (0.6) pending a stronger source match.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched via find-existing.mjs against live state and every pending batch first before minting; no close match found (see coverage/MU-MED105-triage.md's reuse-family list and this dispatch's own search log).
+mu: Tested as "CVS End Module 43.pdf" Q73, yellow-highlight key, rendered p11 (lane-2 dispatch render, 2026-09-02).
+
+---
+
+# Item
+
+## label
+Dobutamine's selective beta1 agonism gives it a strong inotropic, minimally chronotropic action, making it first-line for cardiogenic shock and acute decompensated heart failure
+
+## id
+CON-FND-1F4B558BD69110
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q47; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q47 ("Which one of the following drugs is associated with clinically useful or physiologically important positive inotropic effect?" / Dobutamine), yellow-highlight key, rendered p10-11. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Digitalis controls ventricular rate in atrial fibrillation by decreasing AV nodal conduction (vagally mediated), not by restoring rhythm or reducing atrial excitability
+
+## id
+CON-FND-C058332F0BFD90
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q49; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q49 ("In which of the following cases digoxin is a drug of choice?" / Heart failure with Atrial Fibrillation), yellow-highlight key, rendered p11. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Digoxin inhibits the Na+/K+ ATPase enzyme, raising intracellular sodium and, via the Na+/Ca2+ exchanger, intracellular calcium -- its positive inotropic mechanism
+
+## id
+CON-FND-2379F34ADE2AB1
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q51, q52; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q51 ("Digoxin can cause which of the following actions in therapeutic dose" / Positive inotropic effect) and Q52 ("The Mechanism of action of Digoxin is:" / Inhibition of cardiac Na+-K+ ATPase), yellow-highlight key, rendered p11-12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Hypokalemia (alongside renal impairment, hypomagnesemia and hypercalcemia) increases digitalis toxicity, because digoxin and potassium compete for the same Na+/K+ ATPase binding site
+
+## id
+CON-FND-B929F5B301F1E1
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q53; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q53 ("Digoxin toxicity is increased by all EXCEPT:" / Hyperkalemia -- not a risk factor per this concept's own risk-factor list, which is why it is the EXCEPT), yellow-highlight key, rendered p12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Loop diuretics such as furosemide carry an ototoxicity risk, especially in renal insufficiency or with concurrent ototoxic drugs
+
+## id
+CON-FND-8CDAE2FC566F9E
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q55; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q55 ("Concomitant administration of furosemide with the following agent can induce severe ototoxicity:" / Gentamicin), yellow-highlight key, rendered p12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Thiazide diuretics block the Na+/Cl- transporter in the distal convoluted tubule
+
+## id
+CON-FND-B8F8442BE9266F
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q56; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q56 ("Thiazide diuretic is prescribed for:" / Essential Hypertension), yellow-highlight key, rendered p12. Full record is in docs/Kasr-Source-Imports/concept/208-INT-concepts.md; simulate with that file (and its own article, docs/Kasr-Source-Imports/article/208-INT-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Infective endocarditis requires a surface to settle on and organisms to settle there
+
+## id
+CON-CVS-45B20CE90AF6EE
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q62, q63; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q62 ("Vegetation develop as a result of:" / endothelial cell injury) and Q63 (gross features of acute infective endocarditis vegetations / friable), yellow-highlight key, rendered p13-14. Full record is in docs/import-ready/concept/SYS-CVS-CONCEPT-T08.md; simulate with that file (and its own article, docs/import-ready/article/SYS-CVS-ARTICLE-T08.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Restrictive cardiomyopathy impairs filling without dilating the ventricle
+
+## id
+CON-CVS-4A41D59159ED61
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q64; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q64 ("Which is a cause of restrictive cardiomyopathy?" / Sarcoidosis), yellow-highlight key, rendered p14. Full record is in docs/import-ready/concept/SYS-CVS-CONCEPT-T04.md; simulate with that file (and its own article, docs/import-ready/article/SYS-CVS-ARTICLE-T04.md) as a dependency.
+
+---
+
+# Item
+
+## label
+A rigid pericardium makes the ventricles compete for a fixed volume
+
+## id
+CON-CVS-268E5C530580B6
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q66; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q66 ("Which of the following produces a combination of right-sided venous distention and low cardiac output?" / Constrictive pericarditis), yellow-highlight key, rendered p14. Full record is in docs/import-ready/concept/SYS-CVS-CONCEPT-T06.md; simulate with that file (and its own article, docs/import-ready/article/SYS-CVS-ARTICLE-T06.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Deep vein thrombosis follows Virchow's triad (stasis, hypercoagulability, endothelial injury); inflamed clot is thrombophlebitis
+
+## id
+CON-CVS-92BB03F3D57E33
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q67, q69; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q67 ("Thrombophlebitis is defined as:" / thrombosis in inflamed vein) and Q69 (elderly-fracture vignette, leg pain/tenderness / Deep venous thrombosis), yellow-highlight key, rendered p15. Full record is in docs/MUST-Source-Imports/concept/MUST-CVS-201-concepts.md; simulate with that file (and its own article, docs/MUST-Source-Imports/article/MUST-CVS-201-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+The superior gluteal artery is the principal branch of the posterior division of the internal iliac artery
+
+## id
+CON-MSK-7F7CF4EEB4DA70
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q71; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q71 ("The superior and inferior gluteal arteries are branches of which of the following?" / Internal iliac artery), yellow-highlight key, rendered p16. This sibling names the superior gluteal artery specifically (posterior division); the inferior gluteal artery is the anterior division's own parietal branch of the same internal iliac artery, taught in this question's own explanation from general anatomy rather than duplicated here. Full record is in docs/Ain-Shams-Source-Imports/concept/ASU-UG-eom-ug-final2-collection-concepts.md; simulate with that file (and its own article, docs/Ain-Shams-Source-Imports/article/ASU-UG-eom-ug-final2-collection-articles.md) as a dependency.
+
+---
+
+# Item
+
+## label
+Lines of Zahn are alternating platelet-fibrin and erythrocyte-rich layers in an antemortem thrombus
+
+## id
+CON-FND-7E61964BE1D637
+
+## universities
++mu
+
+## learner_years
++1
+
+## modules
++MU-MED105
+
+## field_notes
+never-a-twin discipline (lane-2, 2026-09-02): searched via find-existing.mjs before authoring q74; this sibling concept already covers the fact tested, so no new MU concept was minted -- sparse overlay only, tag-additions and this field_notes row, no module_subject (per the STEP-1 ruling).
+mu: Tested as "CVS End Module 43.pdf" Q74 ("Which of the following is most likely to have grossly identifiable lines of Zahn:" / arterial Thrombus), yellow-highlight key, rendered p16. Full record is in docs/Helwan-Source-Imports/concept/HU-BMS-102-pathology-family118-part1-concepts.md; simulate with that file as a dependency (its own ## article_ids, ART-HU-BMS102-PAT-THROMBI, has no defining article file yet in this corpus -- a pre-existing gap in the Helwan lane, not fixed here).

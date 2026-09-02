@@ -500,50 +500,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-C0ADE9E8979F5A
-
-## concept_id
-CON-CVS-C0ADE9E8979F5A
-
-## subject
-The right coronary artery
-
-## predicate
-supplies
-
-## object
-the SA and AV nodes in most people, and gives the posterior interventricular artery accompanied by the middle cardiac vein
-
-## display_text
-The right coronary artery supplies the SA and AV nodes in most people, and gives the posterior interventricular artery accompanied by the middle cardiac vein.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.8
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-D6166DE26FC349
 
 ## concept_id
@@ -676,50 +632,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-C2C8702CBA09CC
-
-## concept_id
-CON-CVS-C2C8702CBA09CC
-
-## subject
-The anterior tibial artery
-
-## predicate
-continues as
-
-## object
-the dorsalis pedis artery at the front of the ankle
-
-## display_text
-The anterior tibial artery continues as the dorsalis pedis artery at the front of the ankle.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.6
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-5B0C381101C0A4
 
 ## concept_id
@@ -748,50 +660,6 @@ none
 
 ## confidence
 0.6
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-9947504F986142
-
-## concept_id
-CON-CVS-9947504F986142
-
-## subject
-The cardiac action potential plateau (phase 2)
-
-## predicate
-is caused by
-
-## object
-a balance between inward Ca2+ influx (L-type channels) and outward K+ efflux
-
-## display_text
-The cardiac action potential plateau (phase 2) is caused by a balance between inward Ca2+ influx (L-type channels) and outward K+ efflux.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
 
 ## freshness
 stable_local_curriculum_fact
@@ -852,94 +720,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-73C75ED6DFDD91
-
-## concept_id
-CON-CVS-73C75ED6DFDD91
-
-## subject
-The supernormal phase of excitability
-
-## predicate
-is
-
-## object
-a dangerous, vulnerable period, coinciding with late repolarisation, where a weak stimulus can excite the muscle
-
-## display_text
-The supernormal phase of excitability is a dangerous, vulnerable period, coinciding with late repolarisation, where a weak stimulus can excite the muscle.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-84C54F9C48D1C1
-
-## concept_id
-CON-CVS-84C54F9C48D1C1
-
-## subject
-Depolarization of an autorhythmic (pacemaker) cell
-
-## predicate
-is carried by
-
-## object
-Ca2+ influx through L-type calcium channels, unlike the Na+-driven upstroke of a working myocyte
-
-## display_text
-Depolarization of an autorhythmic (pacemaker) cell is carried by Ca2+ influx through L-type calcium channels, unlike the Na+-driven upstroke of a working myocyte.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.7
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-5419DA4CEFDBB6
 
 ## concept_id
@@ -968,50 +748,6 @@ none
 
 ## confidence
 0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-A275BC451FCD18
-
-## concept_id
-CON-CVS-A275BC451FCD18
-
-## subject
-The AV node's slow conduction
-
-## predicate
-delays the impulse to
-
-## object
-allow the atria to complete contraction before ventricular activation
-
-## display_text
-The AV node's slow conduction delays the impulse to allow the atria to complete contraction before ventricular activation.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.7
 
 ## freshness
 stable_local_curriculum_fact
@@ -1072,94 +808,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-58B94753646870
-
-## concept_id
-CON-CVS-58B94753646870
-
-## subject
-Contractility
-
-## predicate
-is defined as
-
-## object
-the ability of cardiac muscle to generate force and contract, raised by positive inotropic agents
-
-## display_text
-Contractility is defined as the ability of cardiac muscle to generate force and contract, raised by positive inotropic agents.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.75
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-948548A19D49EF
-
-## concept_id
-CON-CVS-948548A19D49EF
-
-## subject
-The Frank-Starling law
-
-## predicate
-states that
-
-## object
-the force of cardiac muscle contraction is directly related to the initial length of the muscle fibre (end-diastolic volume)
-
-## display_text
-The Frank-Starling law states that the force of cardiac muscle contraction is directly related to the initial length of the muscle fibre (end-diastolic volume).
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-ED9A0CCE4C631F
 
 ## concept_id
@@ -1188,94 +836,6 @@ none
 
 ## confidence
 0.6
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-8FEA34878D341E
-
-## concept_id
-CON-CVS-8FEA34878D341E
-
-## subject
-Ventricular pressure during isovolumetric contraction
-
-## predicate
-increases rapidly while
-
-## object
-ventricular volume remains constant and all valves stay closed
-
-## display_text
-Ventricular pressure during isovolumetric contraction increases rapidly while ventricular volume remains constant and all valves stay closed.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-6C2A38EA5B232E
-
-## concept_id
-CON-CVS-6C2A38EA5B232E
-
-## subject
-The ascending limb of the atrial pressure curve's a-wave
-
-## predicate
-is caused by
-
-## object
-atrial contraction
-
-## display_text
-The ascending limb of the atrial pressure curve's a-wave is caused by atrial contraction.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.65
 
 ## freshness
 stable_local_curriculum_fact
@@ -1424,50 +984,6 @@ scope: Menoufia MED105 Cardiovascular system department book
 # Item
 
 ## id
-CLM-CVS-8B779861E1A486
-
-## concept_id
-CON-CVS-8B779861E1A486
-
-## subject
-The atrioventricular valves
-
-## predicate
-remain open during
-
-## object
-ventricular diastole, including the maximum (rapid) filling phase
-
-## display_text
-The atrioventricular valves remain open during ventricular diastole, including the maximum (rapid) filling phase.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.65
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
 CLM-CVS-2493448DCCA3E8
 
 ## concept_id
@@ -1496,50 +1012,6 @@ none
 
 ## confidence
 0.9
-
-## freshness
-stable_local_curriculum_fact
-
-## time_sensitive
-no
-
-## qualifiers
-polarity: affirmative
-scope: Menoufia MED105 Cardiovascular system department book
-
----
-
-# Item
-
-## id
-CLM-CVS-3732E943D2A4D6
-
-## concept_id
-CON-CVS-3732E943D2A4D6
-
-## subject
-Cardiac reserve
-
-## predicate
-is defined as
-
-## object
-the ability of the heart to increase its output above baseline levels in response to physiological demands
-
-## display_text
-Cardiac reserve is defined as the ability of the heart to increase its output above baseline levels in response to physiological demands.
-
-## risk_class
-foundational_stable
-
-## verification_status
-needs_evidence
-
-## conflict_status
-none
-
-## confidence
-0.95
 
 ## freshness
 stable_local_curriculum_fact
@@ -1594,3 +1066,575 @@ no
 ## qualifiers
 polarity: affirmative
 scope: Menoufia MED105 Cardiovascular system department book
+
+---
+
+# Item
+
+## id
+CLM-CVS-D1BDCD9C7A28E4
+
+## concept_id
+CON-CVS-D1BDCD9C7A28E4
+
+## subject
+Amrinone
+
+## predicate
+inhibits
+
+## object
+phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect
+
+## display_text
+Amrinone inhibits phosphodiesterase III, raising intracellular cAMP to produce a positive inotropic and vasodilator effect.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-2BECFB3079BFE1
+
+## concept_id
+CON-CVS-2BECFB3079BFE1
+
+## subject
+Enalapril
+
+## predicate
+decreases
+
+## object
+cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis
+
+## display_text
+Enalapril decreases cardiac remodeling in heart failure by blocking angiotensin II-driven myocardial hypertrophy and fibrosis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-30FFECEA12AEB8
+
+## concept_id
+CON-CVS-30FFECEA12AEB8
+
+## subject
+Ventricular fibrillation
+
+## predicate
+is
+
+## object
+a contraindication to digoxin, since digoxin raises automaticity and can worsen an already-present ventricular arrhythmia
+
+## display_text
+Ventricular fibrillation is a contraindication to digoxin, since digoxin raises automaticity and can worsen an already-present ventricular arrhythmia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-B7466D954A0B3B
+
+## concept_id
+CON-CVS-B7466D954A0B3B
+
+## subject
+Furosemide
+
+## predicate
+is
+
+## object
+the diuretic preferred in acute renal failure, because unlike thiazides it remains effective at low glomerular filtration rates
+
+## display_text
+Furosemide is the diuretic preferred in acute renal failure, because unlike thiazides it remains effective at low glomerular filtration rates.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-C396B72F394432
+
+## concept_id
+CON-CVS-C396B72F394432
+
+## subject
+Thiazide diuretics
+
+## predicate
+are
+
+## object
+the most common drug-induced cause of hyponatremia
+
+## display_text
+Thiazide diuretics are the most common drug-induced cause of hyponatremia.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-99B1A014E318DA
+
+## concept_id
+CON-CVS-99B1A014E318DA
+
+## subject
+Mac Callum's patch
+
+## predicate
+is a sign of
+
+## object
+chronic rheumatic mural endocarditis, a patch of thickened, wrinkled endocardium on the posterior left atrial wall
+
+## display_text
+Mac Callum's patch is a sign of chronic rheumatic mural endocarditis, a patch of thickened, wrinkled endocardium on the posterior left atrial wall.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-AE821D7F644263
+
+## concept_id
+CON-CVS-AE821D7F644263
+
+## subject
+Milk spots
+
+## predicate
+are
+
+## object
+focal areas of fibrous thickening of the visceral pericardium from chronic friction
+
+## display_text
+Milk spots are focal areas of fibrous thickening of the visceral pericardium from chronic friction.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-CA4A15EBB014FE
+
+## concept_id
+CON-CVS-CA4A15EBB014FE
+
+## subject
+Aschoff cells
+
+## predicate
+are
+
+## object
+large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis
+
+## display_text
+Aschoff cells are large activated histiocytes with caterpillar-shaped nuclei, found within the Aschoff bodies of rheumatic myocarditis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-10947BC0F5E769
+
+## concept_id
+CON-CVS-10947BC0F5E769
+
+## subject
+The posterior wall of the left atrium
+
+## predicate
+is
+
+## object
+the most common site affected in acute rheumatic myocarditis
+
+## display_text
+The posterior wall of the left atrium is the most common site affected in acute rheumatic myocarditis.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-6701FC6B3EF9B6
+
+## concept_id
+CON-CVS-6701FC6B3EF9B6
+
+## subject
+Massive pulmonary embolism
+
+## predicate
+causes
+
+## object
+acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome
+
+## display_text
+Massive pulmonary embolism causes acute heart failure by suddenly raising right ventricular afterload beyond what the unprepared right ventricle can overcome.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-58677CDDB27828
+
+## concept_id
+CON-CVS-58677CDDB27828
+
+## subject
+Amniotic fluid embolism
+
+## predicate
+is
+
+## object
+amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC
+
+## display_text
+Amniotic fluid embolism is amniotic fluid and fetal debris entering the maternal pulmonary circulation during labour or delivery, causing sudden dyspnoea, cyanosis, hypotension and DIC.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-A1107778AE9E3B
+
+## concept_id
+CON-CVS-A1107778AE9E3B
+
+## subject
+Sympathetic stimulation
+
+## predicate
+raises
+
+## object
+the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart
+
+## display_text
+Sympathetic stimulation raises the mean systemic filling pressure by venoconstriction, shifting blood from the venous reservoir toward the heart.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching
+
+---
+
+# Item
+
+## id
+CLM-CVS-DEBDF72E55A483
+
+## concept_id
+CON-CVS-DEBDF72E55A483
+
+## subject
+Spironolactone
+
+## predicate
+causes
+
+## object
+gynecomastia (via anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action)
+
+## display_text
+Spironolactone causes gynecomastia (via anti-androgenic/progestogenic activity) and hyperkalemia (via its aldosterone-antagonist, potassium-sparing action).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.6
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+polarity: affirmative
+scope: standard undergraduate cardiovascular pharmacology/pathology teaching

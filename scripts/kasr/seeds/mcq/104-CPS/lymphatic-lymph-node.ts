@@ -387,15 +387,12 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
-      // kasr-104-author-run45: Veins cluster, excluded. Tests lymphatic
-      // VESSEL wall structure (bicuspid valves, beaded appearance, CT
-      // adventitia thickness) — a topic none of this module's sourced
-      // concepts cover; the only lymphatic-vessel content sourced anywhere
-      // in this module's seeds is the lymphatic CAPILLARY comparison
-      // (cardiovascular-av-connections-histology.ts), a different,
-      // narrower structure (blind-ended, no valves). This session has no
-      // PDF or cached page-text access to the department histology book,
-      // so the claim cannot be verified against the source.
+      // kasr-104-author-run46: revisited. Run 45 excluded this for "no PDF
+      // or cached page-text access" — false; the department histology book
+      // is cached (src_18d3a953df4ca83c4e74, 53 pages) and was grepped
+      // directly this run for "valve": 3 hits, all heart valves (p5) or
+      // vein valves (p10-11) — none for lymphatic vessels. The claim stays
+      // genuinely unsupported, not merely unverifiable.
       key: "choose-the-correct-statement-concerning-the-lymphatic-vessel-9d893940",
       conceptKey: "lymph-node.cortex-medulla-zones-and-cell-distribution",
       difficulty: "Hard",
@@ -403,7 +400,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Not sittable as extracted.",
       explanations: {},
       exclude: true,
-      excludeReason: "Tests lymphatic VESSEL wall structure (bicuspid valves giving a beaded appearance, adventitia thickness, lumen calibre against venules) — a topic none of this module's sourced concepts cover. The only lymphatic-vessel content sourced anywhere in this module's seeds is the lymphatic CAPILLARY comparison in cardiovascular-av-connections-histology.ts, a narrower, different structure (blind-ended, non-valved). This session had no PDF or cached page-text access to the department histology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge.",
+      excludeReason: "Tests lymphatic VESSEL wall structure (bicuspid valves giving a beaded appearance, adventitia thickness, lumen calibre against venules) — a topic none of this module's sourced concepts cover. The only lymphatic-vessel content sourced anywhere in this module's seeds is the lymphatic CAPILLARY comparison in cardiovascular-av-connections-histology.ts, a narrower, different structure (blind-ended, non-valved). Re-checked directly against the department histology book (src_18d3a953df4ca83c4e74, all 53 cached pages): the book's only 3 uses of \"valve\" are heart valves (p5) and vein valves (p10-11) — lymphatic-vessel valves are never described. The named structure is absent from the module's own source, not merely unretrieved — excluded rather than asserted from outside knowledge.",
     },
     {
       // kasr-104-author-run45: Veins cluster, excluded. The printed key
@@ -438,6 +435,88 @@ export const LEAF: McqLeafSeed = {
         C: "Correct. Littoral cells are the mononuclear phagocyte system's macrophages in the walls of blood sinusoids of the spleen and bone marrow. Like every member of this system, they differentiate from blood monocytes and share the family's phagocytic, pseudopodia-bearing appearance.",
         D: "Merkel's cells are epidermal mechanoreceptor cells, not part of the monocyte-derived mononuclear phagocyte system's list of site-specific names.",
       },
+    },
+    {
+      // kasr-104-author-run46: Lymph node cluster, the 4 remaining bank
+      // rows this leaf's own recompute showed unclaimed — all 4 are
+      // extraction-corrupted (missing option letters / no printed key),
+      // not a source-access gap. Checked against the department histology
+      // book directly this run (src_18d3a953df4ca83c4e74, p16) before
+      // excluding, not merely asserted.
+      key: "inlymph-node-are-lined-by-simple-squamous-epithelium-j-a-sub-34a12bea",
+      conceptKey: "lymph-node.cortex-medulla-zones-and-cell-distribution",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The stem itself is OCR-garbled (stray pipe/bracket characters, page-bleed fragments \"j a.' Subcapsular sinuses. | }\"), and option A never survived extraction — only B (medullary cords), C (primary lymphatic follicles) and D (post-capillary venules) remain, below the platform's 4-to-5-option import contract, with no printed answer (answerConfidence: none). Checked against the department histology book (p16, this leaf's own sourced concept lymph-node.cortex-medulla-zones-and-cell-distribution): none of the three surviving structures is itself lined by simple squamous epithelium in the book's own description (cortical sinuses are lined by endothelium and macrophages; the paracortex's post-capillary venules are lined by simple CUBICAL, not squamous, epithelium) — so even setting the missing option aside, no surviving choice is confidently correct. Excluded.",
+    },
+    {
+      key: "regional-enlargement-of-lymph-nodes-may-be-due-to-a-inflamma-5fbbc1b0",
+      conceptKey: "lymph-node.clinical-enlargement-lymphadenitis-and-metastasis",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 lettered options survived extraction (A, B, C — no D), below the platform's 4-to-5-option import contract, with no printed answer (answerConfidence: none). Checked against the department histology book directly this run: this leaf's own sourced concept confirms option A (inflammation of the drained area, i.e. lymphadenitis) as the book's stated true cause, and confirms B (spread via the BLOOD stream) and C (acute leukaemia) as both absent from or contradicted by the book's own account, which names lymphatic-vessel spread of malignancy, not the blood stream, and does not discuss leukaemia as a regional-enlargement cause at all. The content is well-grounded, but a genuine 4th distractor option was never recovered and no key was printed, so the row cannot be authored as extracted — the same fact is already taught cleanly by this leaf's own lymphadenitis question elsewhere in this file.",
+    },
+    {
+      key: "the-paracortex-of-the-lymph-node-is-characterized-by-d7159f87",
+      conceptKey: "lymph-node.cortex-medulla-zones-and-cell-distribution",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 lettered options survived extraction (A, B, D — no C), below the platform's 4-to-5-option import contract, with no printed answer (answerConfidence: none). Checked against the department histology book (p16, this leaf's own sourced concept): none of the 3 surviving options correctly describes the paracortex. A (\"present directly under the capsule\") is the CORTEX's own location, not the paracortex, which sits between cortex and medulla; B (\"rich in B-lymphocytes and plasma cells\") is the cortical follicles'/sinuses' population, while the book states the paracortex holds T-lymphocytes ONLY; D (\"surrounds the central arteriole\") describes splenic white pulp/PALS, a different organ's structure, not the lymph node paracortex. With the missing option C possibly the genuine correct answer and no printed key to confirm, this cannot be safely keyed by elimination. Excluded.",
+    },
+    {
+      key: "the-secondary-lymphatic-nodules-of-lymph-node-have-center-ss-2b71e601",
+      conceptKey: "lymph-node.cortex-medulla-zones-and-cell-distribution",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The stem itself is OCR-garbled (stray Arabic-diacritic fragment \"‏يك‏\" bled in, \"center SS Only T lymphocytes\" reading as a merged option rather than stem text), and only 2 of 4 option letters survived (C, D — no A, B), below the platform's 4-to-5-option import contract, with no printed answer (answerConfidence: none). Checked against the department histology book (p16): the secondary follicle's germinal centre holds large activated B-lymphocytes and plasma cells (not \"only T lymphocytes\", contradicting the bled-in stem fragment) with macrophages and a few T-lymphocytes also present — so surviving option C (\"No plasma cells\") is false per the book, and D (\"No macrophages\") is also false. With no genuine correct option surviving extraction, this cannot be authored. Excluded.",
+    },
+    // kasr-104-author-run46: ledger's second Lymph node batch (4 more
+    // remaining keys, leaf=null in the raw bank so missed by a naive
+    // per-leaf scan — surfaced only by the official ledger tool).
+    {
+      key: "all-secondary-lymphatic-ergons-except-402b68d3",
+      conceptKey: "lymphatic-organs.primary-vs-secondary-classification",
+      difficulty: "Easy",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify the thymus as a PRIMARY (not secondary) lymphatic organ, the exception among lymph node, tonsil and spleen.",
+      explanations: {
+        A: "True, so not the exception. The lymph node is one of this module's own three named secondary (peripheral) lymphatic organs.",
+        B: "True, so not the exception. The tonsil is one of this module's own three named secondary (peripheral) lymphatic organs.",
+        C: "The exception, and the answer. The thymus is a PRIMARY (central) lymphatic organ, alongside bone marrow — the site where T-lymphocytes are produced and mature, not a secondary organ where already-produced lymphocytes mount immune responses.",
+        D: "True, so not the exception. The spleen is one of this module's own three named secondary (peripheral) lymphatic organs.",
+      },
+    },
+    {
+      key: "reticular-ct-can-be-stained-by-50c0381c",
+      conceptKey: "lymph-node.capsule-trabeculae-and-stroma",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option B has absorbed what should be a separate option C into one merged cell ('silver c)Janus green'), leaving only 3 distinguishable choices (A, merged-B/C, D) for what should be a 4-option item — the same option-merge corruption class documented throughout this bank. The underlying fact is well-grounded (this leaf's own concept states the reticular C.T. network 'stains brown with silver stain', p16), but a genuine standalone option C never survived extraction, so this cannot be authored as extracted despite the printed same-file key (A, 'eosin' — itself the correct exception, since silver, not eosin, is the book's own stated stain). Excluded for the contract violation, not for lack of grounding.",
+    },
+    {
+      key: "which-two-of-the-following-are-necessary-to-stimulate-b-lymp-0b3fa792",
+      conceptKey: "lymph-node.functions-filtration-lymphocytopoiesis-and-immunity",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The specific two-factor requirement this row tests (a helper T-lymphocyte AND an antigen, together, to stimulate B-lymphocyte division and differentiation) goes beyond what the department histology book itself states. The book credits antigen exposure alone with triggering B-lymphocyte transformation into activated lymphocytes and germinal-centre formation (p16: 'On exposure to antigen or infection, some of small B-lymphocytes are transformed to large activated lymphocytes') and separately states humoral immunity is 'the activation of B-lymphocytes into plasmablasts, then plasma cells' (p18) — neither passage names a helper T-lymphocyte as a co-requirement. This is standard immunology, but a fact absent from the module's own book is left unauthored rather than filled in from outside knowledge.",
     },
   ],
 }

@@ -118,9 +118,9 @@
         "C": "Incorrect. Selectivity here is not explained by eukaryotic cells actively inactivating the drug; it is explained by the absence of the drug's target (peptidoglycan) in eukaryotic cells altogether.",
         "D": "Incorrect. Cell-wall synthesis inhibitors are not selective because human cells fail to take up the drug -- many such drugs do reach host cells and tissues; selectivity instead comes from the target structure being absent from host cells, not from an uptake barrier."
       },
-      "main_concept": "CON-INF-BCEB5307771256",
+      "main_concept": "CON-INF-05D590078F3DCC",
       "concept_ids": [
-        "CON-INF-BCEB5307771256"
+        "CON-INF-05D590078F3DCC"
       ],
       "contextual_concept_ids": [
         "CON-INF-88F95673CA38E8"
@@ -129,7 +129,8 @@
       "learning_objective": "Explain that cell-wall synthesis inhibitors are the most selective antibacterial class because bacterial peptidoglycan has no eukaryotic counterpart.",
       "media_recommendations": "",
       "field_notes": {
-        "keySource": "printed plain-text ANSWERS table, chapter 5, p62"
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose."
       },
       "author_notes": ""
     },
@@ -845,16 +846,17 @@
         "D": "Incorrect. \"Narrow spectrum toxicity\" conflates spectrum (how many organisms a drug covers) with selective toxicity (pathogen-vs-host safety) -- two different properties.",
         "E": "Incorrect. \"Different toxicity\" is not a recognised pharmacological term for this host-vs-pathogen safety property."
       },
-      "main_concept": "CON-INF-BCEB5307771256",
+      "main_concept": "CON-INF-05D590078F3DCC",
       "concept_ids": [
-        "CON-INF-BCEB5307771256"
+        "CON-INF-05D590078F3DCC"
       ],
       "contextual_concept_ids": [],
       "subtopic": "Principles of antimicrobial selectivity",
       "learning_objective": "Define selective toxicity as an antimicrobial's ability to inhibit or kill the pathogen without significantly harming the host.",
       "media_recommendations": "",
       "field_notes": {
-        "keySource": "printed plain-text ANSWERS table, chapter 5, p62"
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose."
       },
       "author_notes": ""
     },
@@ -913,9 +915,9 @@
         "D": "Incorrect. Carriers are, in fact, capable of transmitting the organism to others -- that transmissibility is precisely why carriers are epidemiologically important as an often-overlooked source of infection.",
         "E": "Incorrect. Carrier transmission is not restricted to epidemic periods; a carrier can transmit the organism at any time, epidemic or not."
       },
-      "main_concept": "CON-INF-B1C6C40BD3A509",
+      "main_concept": "CON-INF-C4C74A0874FF61",
       "concept_ids": [
-        "CON-INF-B1C6C40BD3A509"
+        "CON-INF-C4C74A0874FF61"
       ],
       "contextual_concept_ids": [
         "CON-INF-837A04FFAD5A95"
@@ -923,8 +925,10 @@
       "subtopic": "Patterns of infection persistence",
       "learning_objective": "State that a carrier is an apparently healthy individual harboring a pathogen who can transmit it to others.",
       "media_recommendations": "",
+      "library_ids": ["ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE"],
       "field_notes": {
-        "keySource": "printed plain-text ANSWERS table, chapter 5, p62"
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-C4C74A0874FF61 is pending in docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md, canonical_key microbiology.infection.carrier-state-asymptomatic-shedding -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that MUST batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md."
       },
       "author_notes": ""
     },
@@ -984,7 +988,7 @@
         "CON-INF-837A04FFAD5A95"
       ],
       "contextual_concept_ids": [
-        "CON-INF-B1C6C40BD3A509"
+        "CON-INF-C4C74A0874FF61"
       ],
       "subtopic": "Patterns of infection persistence",
       "learning_objective": "Define latent infection as years-long microbial persistence with minimal disease and a retained capacity to reactivate.",
@@ -1014,16 +1018,18 @@
         "D": "Incorrect as the exception (a true statement). \"Potential pathogens\" is a standard alternative name for opportunistic pathogens, reflecting their condition-dependent capacity to cause disease.",
         "E": "Incorrect as the exception (a true statement). Opportunistic pathogens are indeed not true (obligate) pathogens, since true pathogens are defined by frequently causing disease in healthy hosts, which opportunists do not."
       },
-      "main_concept": "CON-INF-8B02B0EFEE96F5",
+      "main_concept": "CON-INF-17893AA3303251",
       "concept_ids": [
-        "CON-INF-8B02B0EFEE96F5"
+        "CON-INF-17893AA3303251"
       ],
       "contextual_concept_ids": [],
       "subtopic": "Virulence and pathogenicity",
       "learning_objective": "State that opportunistic pathogens are usually normal-flora members that cause disease chiefly in immunocompromised patients, not frequently in healthy subjects.",
       "media_recommendations": "",
+      "library_ids": ["ART-INF-MUST-FHB1022-COLONIZATION-CARRIAGE"],
       "field_notes": {
-        "keySource": "printed plain-text ANSWERS table, chapter 5, p62"
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-17893AA3303251 is pending in docs/MUST-Source-Imports/concept/FHB-102-2-microbiology-introduction-concepts.md, canonical_key microbiology.opportunism.opportunistic-pathogen-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that MUST batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md."
       },
       "author_notes": "",
       "difficulty": "Moderate",
@@ -1148,16 +1154,17 @@
         "C": "Correct. Selective toxicity means the agent is toxic to the microorganism but not toxic to the host. This is achieved by targeting a microbial structure or pathway that is absent from, or sufficiently different in, host cells. Cell-wall synthesis inhibition, tested by earlier questions in this chapter, is the clearest example of this principle.",
         "D": "Incorrect. Whether an agent avoids inducing resistance is an unrelated pharmacological property from selective toxicity, which specifically concerns pathogen-vs-host safety, not resistance development."
       },
-      "main_concept": "CON-INF-BCEB5307771256",
+      "main_concept": "CON-INF-05D590078F3DCC",
       "concept_ids": [
-        "CON-INF-BCEB5307771256"
+        "CON-INF-05D590078F3DCC"
       ],
       "contextual_concept_ids": [],
       "subtopic": "Principles of antimicrobial selectivity",
       "learning_objective": "Define selective toxicity as an antimicrobial agent being toxic to the microorganism but not to the host.",
       "media_recommendations": "",
       "field_notes": {
-        "keySource": "printed plain-text ANSWERS table, chapter 5, p62"
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose."
       },
       "author_notes": ""
     },
@@ -1371,9 +1378,9 @@
         "C": "Incorrect. Penicillin's safety in human cells is not explained by an uptake barrier; many human cells and tissues are exposed to the drug, but it simply has no relevant target there.",
         "D": "Incorrect. Option A correctly explains the safety of penicillin for human cells, so \"none of the above\" is factually wrong."
       },
-      "main_concept": "CON-INF-BCEB5307771256",
+      "main_concept": "CON-INF-05D590078F3DCC",
       "concept_ids": [
-        "CON-INF-BCEB5307771256"
+        "CON-INF-05D590078F3DCC"
       ],
       "contextual_concept_ids": [
         "CON-INF-88F95673CA38E8"
@@ -1382,7 +1389,8 @@
       "learning_objective": "Explain that penicillin is non-toxic to human cells because its target site is unique to bacteria.",
       "media_recommendations": "",
       "field_notes": {
-        "keySource": "printed plain-text ANSWERS table, chapter 5, p62"
+        "keySource": "printed plain-text ANSWERS table, chapter 5, p62",
+        "pendingConcept": "CON-INF-05D590078F3DCC is pending in docs/Helwan-Source-Imports/concept/HU-BMS-102-microbiology-family11-part1-concepts.md, canonical_key antimicrobial-selective-toxicity-definition -- repair pass (chief-of-staff ruling): repointed a twin AUN mint confirmed the same concept; apply only after Omar imports that Helwan batch and pending-live/AUN-INI-105-ch5-repair-overlay-concepts.md. No article_ids target of that sibling concept (ART-HU-BMS102-MIC-F11P1-SPECTRUM-SELECTIVE-TOXICITY) is authored anywhere in the corpus, so library_ids stays on this lane's own ART-INF-AUN-INI105-ANTIMICROBIAL-PATHOGENESIS article (default), which already carries the selective-toxicity prose."
       },
       "author_notes": ""
     },

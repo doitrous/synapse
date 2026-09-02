@@ -12,28 +12,30 @@ Claude
 ## topic
 Pathology
 ## summary
-Acute inflammation recruits leukocytes through a fixed sequence — margination, rolling, pavementing, emigration, chemotaxis — with neutrophils arriving before monocytes, and it resolves in one of several patterns depending on which organism and toxin are involved: localized suppuration (abscess) walled off by staphylococcal coagulase, diffuse suppuration (cellulitis) spread by streptococcal fibrinolysin, or the toxin-mediated necrotizing pattern of pseudomembranous inflammation. Chronic inflammation, by contrast, is dominated by macrophages, lymphocytes and plasma cells rather than neutrophils, and its key phagocyte — the macrophage — normally dies or migrates into the lymphatics once the stimulus resolves, only persisting and accumulating when the stimulus does not.
+Acute inflammation recruits leukocytes through a fixed sequence — margination, rolling, pavementing, emigration, chemotaxis — with neutrophils arriving before monocytes, and it resolves in one of several patterns depending on which organism and toxin are involved: localized suppuration (abscess) walled off by staphylococcal coagulase, diffuse suppuration (cellulitis) spread by streptococcal fibrinolysin, or the toxin-mediated necrotizing pattern of pseudomembranous inflammation. Two of the macrophage-derived cytokines driving this recruitment, TNF and IL-1, have a specific, testable effect — enhancing adhesion-molecule expression on endothelium and inflammatory cells — distinct from the mediators (histamine, prostaglandins, bradykinin) that drive vasodilation, vascular permeability and pain. Chronic inflammation, by contrast, is dominated by macrophages, lymphocytes and plasma cells rather than neutrophils, and its key phagocyte — the macrophage — normally dies or migrates into the lymphatics once the stimulus resolves, only persisting and accumulating when the stimulus does not; when that persistent accumulation organizes into a localized aggregate of activated (epithelioid) macrophages, the result is a granuloma, the defining lesion of granulomatous inflammation.
 ## sections
 ### Definition
 Acute inflammation is the immediate vascular and cellular response to injury, its cellular arm built entirely around getting leukocytes from the blood into the tissue. Leukocyte recruitment follows a fixed order: slowed flow lets neutrophils marginate out of the axial stream (margination); loosely adherent cells then tumble along the endothelium — rolling, mediated by the selectin family; firmer adhesion follows — pavementing, mediated by integrins on the leukocyte surface; then emigration through the endothelium (chiefly at venules, by squeezing between cells and secreting collagenases to cross the basement membrane); and finally chemotaxis, movement along a chemical gradient toward the site of injury, driven by bacterial products, chemokines, complement C5a and leukotriene B4. Neutrophils accumulate first in the extravascular space, monocytes follow — never the reverse — and this emigration does not deplete the circulating white cell count into leucopenia; the systemic response is typically leukocytosis instead.
 
-Chronic inflammation is inflammation of weeks-to-years duration in which injury, inflammation and fibrosis-based healing proceed together, arising from persistent infection, immune-mediated disease, or prolonged toxic exposure. Its cellular signature is mononuclear rather than neutrophilic: monocytes that migrate in and become macrophages, and B lymphocytes that become antibody-secreting plasma cells, alongside T lymphocytes.
+Chronic inflammation is inflammation of weeks-to-years duration in which injury, inflammation and fibrosis-based healing proceed together, arising from persistent infection, immune-mediated disease, or prolonged toxic exposure. Its cellular signature is mononuclear rather than neutrophilic: monocytes that migrate in and become macrophages, and B lymphocytes that become antibody-secreting plasma cells, alongside T lymphocytes. When chronic macrophage accumulation organizes into a discrete lesion, the result is granulomatous inflammation — defined by a localized aggregate of activated macrophages (a granuloma), not by cholesterol clefts, endothelial-cell/fibroblast proliferation, or hemosiderin pigment, any of which can superficially resemble a macrophage-rich lesion without being one.
 
 ### Mechanism
 Blood monocytes leave the vessels at the site of injury and transform into macrophages — active, motile and phagocytic, though in most acute inflammation they play a lesser phagocytic role than neutrophils until later stages, when neutrophil numbers fall and macrophage numbers rise by local proliferation. Their fate is stimulus-dependent: once the inflammatory reaction resolves, macrophages die or wander off into the lymphatics — not into the blood stream. In chronic inflammation, by contrast, the stimulus does not go away, so macrophages keep arriving from the blood and proliferating locally, and interferon-gamma can fuse activated macrophages into multinucleate giant cells.
+
+In a granuloma, the activated macrophages transform into epithelioid cells (abundant pale eosinophilic cytoplasm, indistinct borders) surrounded by a lymphocyte cuff, and multiple macrophages may fuse into a multinucleated giant cell — Langhans' type (peripheral horse-shoe nuclei) in tuberculous granulomas, or foreign-body type (nuclei scattered through the cell centre) around inert material. In granulomas driven by certain infectious organisms, most classically the tubercle bacillus, hypoxia and free-radical injury produce a central zone of caseous necrosis (grossly granular and cheesy), and healing is accompanied by fibrosis that can be extensive. Chemical mediators orchestrate all of this from further upstream: TNF and IL-1, the two principal macrophage-derived cytokines, enhance adhesion-molecule expression on endothelium and inflammatory cells (in addition to activating fibroblasts for later healing and driving the systemic fever/lethargy/neutrophilia response) — a distinct role from histamine and prostaglandins (vasodilation), histamine/C3a/C5a/leukotrienes (vascular permeability), or prostaglandins and bradykinin (pain), each governed by a different mediator set on the department book's own mediator-to-effect table.
 
 The organism driving a suppurative (pus-forming) infection determines how it behaves locally. Staphylococcus aureus secretes coagulase, which converts fibrinogen to fibrin and walls the infection into a discrete cavity — an abscess, boil or carbuncle (localized suppurative inflammation). Streptococcus pyogenes secretes fibrinolysin, which does the opposite — dissolving fibrin so nothing walls the infection off — plus hyaluronidase, a spreading factor; the result is diffuse suppurative inflammation such as cellulitis, with thin, blood-stained pus from streptococcal haemolysis of red cells. Pseudomembranous inflammation is mechanistically distinct from both: a necrotizing bacterial toxin (diphtheria in the throat/larynx, shigella in the colon) kills the mucosal surface epithelium outright, and the mucosa is covered by a false membrane of fibrin, necrotic epithelium and leukocytes — a severe pattern, not a mild variant of ordinary suppuration.
 
 An abscess that does not resolve or get incised can complicate into a sinus (a blind-ended tract from the deep focus to the surface, with one open end) or a fistula (a double-ended tract connecting two surfaces or hollow organs, such as an ano-rectal fistula from a perianal abscess) — distinguished from a simple ulcer, which is a surface defect with no tract at all.
 
 ### Key determinants
-The single axis every question on this material turns on is sequence and cause-and-effect: which adhesion molecule family acts at which step (selectins for rolling, integrins for pavementing), which organism's enzyme produces which suppurative pattern (staphylococcal coagulase walls off, streptococcal fibrinolysin spreads), and what a macrophage does once its stimulus is gone (dies or migrates to lymphatics) versus while its stimulus persists (accumulates).
+The single axis every question on this material turns on is sequence and cause-and-effect: which adhesion molecule family acts at which step (selectins for rolling, integrins for pavementing), which mediator drives which specific effect (TNF/IL-1 for adhesion-molecule expression, histamine/prostaglandins for vasodilation, prostaglandins/bradykinin for pain), which organism's enzyme produces which suppurative pattern (staphylococcal coagulase walls off, streptococcal fibrinolysin spreads), and what a macrophage does once its stimulus is gone (dies or migrates to lymphatics) versus while its stimulus persists (accumulates, and can organize into a granuloma).
 
 ### Clinical significance
-Recognising the organism behind a suppurative presentation from its behaviour — a walled abscess versus spreading cellulitis — points directly at empirical antibiotic choice before culture results return. A chronic sinus or fistula that will not heal signals either persistent infection or a foreign body maintaining it, which must be addressed before repair can succeed.
+Recognising the organism behind a suppurative presentation from its behaviour — a walled abscess versus spreading cellulitis — points directly at empirical antibiotic choice before culture results return. A chronic sinus or fistula that will not heal signals either persistent infection or a foreign body maintaining it, which must be addressed before repair can succeed. Finding a granuloma on biopsy narrows the differential to a specific, short list of persistent stimuli (tuberculosis and other infections, sarcoidosis, foreign material) that a simple non-specific chronic infiltrate does not.
 
 ### Common misconceptions
-Assigning coagulase to streptococci and fibrinolysin to staphylococci — the enzymes and their effects are the reverse. Calling pseudomembranous inflammation a mild form of suppurative inflammation, when it is a distinct, severe, toxin-mediated pattern. Assuming leukocyte emigration causes leucopenia, when the systemic response to acute inflammation is typically leukocytosis. Assuming macrophages always persist wherever recruited, rather than dying or migrating to lymphatics once an acute stimulus resolves.
+Assigning coagulase to streptococci and fibrinolysin to staphylococci — the enzymes and their effects are the reverse. Calling pseudomembranous inflammation a mild form of suppurative inflammation, when it is a distinct, severe, toxin-mediated pattern. Assuming leukocyte emigration causes leucopenia, when the systemic response to acute inflammation is typically leukocytosis. Assuming macrophages always persist wherever recruited, rather than dying or migrating to lymphatics once an acute stimulus resolves. Treating TNF as the mediator behind every listed inflammatory effect — the department book's own table assigns vasodilation, vascular permeability and pain to other mediators entirely. Confusing a granuloma (a chronic-inflammation macrophage aggregate) with granulation tissue (the vascular, fibroblast-and-capillary tissue of early wound healing) on name alone.
 ## universities
 kau
 ## years
@@ -66,6 +68,8 @@ CON-FND-772C8ED8D14A6D
 CON-FND-759929134FF959
 CON-IMM-96D7626B256F92
 CON-IMM-6047D47CEF7FE2
+CON-FND-2129BD0D77EC62
+CON-FND-1ACF7810E53576
 ## related_articles
 
 ## resource_ids
@@ -94,7 +98,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found for this material — the department book is the only source read for this article.
+university_notes: No university-specific variant found for this material — the department book is the only source read for this article. Extended in a later gap-closing pass (lane 4) to add the granuloma-definition and TNF/IL-1 adhesion-molecule paragraphs, closing the 2023 EOM paper's Q5 and Q10 gaps.
 ## reading_time
 9
 
@@ -126,7 +130,7 @@ The liver is the clearest worked example of the regeneration-versus-fibrosis rul
 
 Granulation tissue forms through angiogenesis (new capillary sprouting from existing venules, driven mainly by VEGF and FGF) together with fibroblast migration and proliferation (driven mainly by PDGF, FGF-2 and TGF-beta, largely secreted by macrophages) and deposition of extracellular matrix.
 
-Wound healing, once complete, can still go wrong in its own right, independent of the original disease: cosmetic deformity from extensive scarring; contracture, where scar shortening limits movement across a joint; keloid, a genetically determined overproduction of fibroblasts and collagen after dermal injury (overdone repair, more common in Black patients); an implantation epidermal (dermoid) cyst, from epidermal cells trapped in the dermis during regeneration; a chronic ulcer, sinus or fistula from defective repair with persistent infection or a foreign body; and, rarely, a carcinoma arising from the edge of a chronic ulcer or burn scar — Marjolin's ulcer.
+Wound healing, once complete, can still go wrong in its own right, independent of the original disease: cosmetic deformity from extensive scarring; contracture, where scar shortening limits movement across a joint; keloid, a genetically determined overproduction of fibroblasts and collagen after dermal injury (overdone repair, more common in Black patients); an implantation epidermal (dermoid) cyst, from epidermal cells that grow down the cut edges of the dermis during regeneration and, if not resorbed, become a keratin-filled cyst; a chronic ulcer, sinus or fistula from defective repair with persistent infection or a foreign body; and, rarely, a carcinoma arising from the edge of a chronic ulcer or burn scar — Marjolin's ulcer.
 
 ### Key determinants
 Regeneration versus fibrosis is decided by two questions together, not one: what kind of cell was damaged (labile/stable versus permanent), and whether the connective-tissue framework survived. Getting the liver-cirrhosis question right depends on holding both variables — hepatocyte loss alone regenerates; hepatocyte-plus-framework loss scars.
@@ -163,6 +167,7 @@ SYS-FND-T03-S02
 ## related_concepts
 CON-FND-9853F779478D1A
 CON-FND-434E7A6D0A5BF3
+CON-FND-4784F833300F29
 ## related_articles
 
 ## resource_ids
@@ -191,7 +196,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found — the department book is the only source read for this article.
+university_notes: No university-specific variant found — the department book is the only source read for this article. Extended (lane 4, 2024 EOM paper triage) to name the implantation-cyst mechanism in full and add its dedicated concept id.
 ## reading_time
 9
 
@@ -211,12 +216,16 @@ Claude
 ## topic
 Pathology
 ## summary
-Cells adapt to a changing environment by hypertrophy (bigger, not more, cells), hyperplasia (more cells by division) or atrophy (smaller organ, smaller cells) — all reversible and stimulus-dependent, unlike neoplasia, which proliferates autonomously and irreversibly. Carcinogenesis converts proto-oncogenes into oncogenes and disables tumor suppressor genes (governors like RB that directly restrain proliferation, guardians like TP53 that sense DNA damage), driven by named chemical (aflatoxin), physical and viral (EBV) carcinogens. The resulting tumor is graded by how much it has lost of the normal tissue's architecture and cytology — anaplasia — and its presence can be tracked, though never diagnosed outright, by tumor markers such as PSA, calcitonin and AFP, while cachexia and named precancerous lesions such as leukoplakia round out the clinical picture.
+Cells adapt to a changing environment by hypertrophy (bigger, not more, cells), hyperplasia (more cells by division) or atrophy (smaller organ, smaller cells) — all reversible and stimulus-dependent, unlike neoplasia, which proliferates autonomously and irreversibly. Carcinogenesis converts proto-oncogenes into oncogenes and disables tumor suppressor genes (governors like RB that directly restrain proliferation, guardians like TP53 that sense DNA damage), driven by named chemical (aflatoxin), physical and viral (EBV) carcinogens. High-grade dysplasia can progress to carcinoma in situ — full-thickness atypia with disturbed polarity but no basement-membrane invasion — the pre-invasive stage immediately before frank malignancy. The resulting tumor is graded by how much it has lost of the normal tissue's architecture and cytology — anaplasia — and its presence can be tracked, though never diagnosed outright, by tumor markers such as PSA, calcitonin and AFP, while cachexia and named precancerous lesions such as leukoplakia round out the clinical picture. A malignant tumor spreads by local invasion, lymphatic or hematogenous routes (the latter mostly failing, since most tumor emboli are destroyed by host immune mechanisms) or trans-coelomic seeding; a distinct, small family of "embryonic tumors" — neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma, medulloblastoma — arises specifically from embryonic cell remnants in infancy and childhood.
 ## sections
 ### Definition
 Cells respond to a changed environment by altering growth rather than only surviving or dying. Hypertrophy is an increase in cell size without division (e.g. left ventricular hypertrophy from hypertension); hyperplasia is an increase in cell number by division (e.g. hormonal breast hyperplasia at puberty); atrophy is a decrease in organ size and weight, from decreased cell size, after the organ reached adult size. All three remain reversible and stimulus-dependent — they stop and regress once the stimulus is withdrawn, and the cells involved stay normally shaped — which is exactly what separates them from neoplasia, autonomous, irreversible proliferation of abnormally shaped cells.
 
 Leukoplakia is a hyperkeratotic white mucosal plaque that is itself a precursor lesion to squamous cell carcinoma (about 40% show dysplasia on biopsy) — a step before, not equivalent to, carcinoma in situ. Malignant cachexia is marked loss of fat and lean body mass, weakness and anemia in advanced cancer.
+
+Carcinoma in situ (CIS) is the pre-invasive stage that high-grade dysplasia progresses to: full-thickness epithelial atypia (severe dysplasia) with disturbed cellular polarity, but critically, no invasion of the basement membrane — the membrane that separates it from its potential routes of metastasis (blood vessels and lymphatics). Once the basement membrane is breached, the CIS phase ends and an actual invasive malignant tumor begins.
+
+Embryonic tumors are a separate, named family: malignant tumors of primitive, undifferentiated small round cells derived from embryonic cell remnants, occurring specifically in infants and young children. The department book names five — neuroblastoma (adrenal medulla/sympathetic ganglia), retinoblastoma (eye), nephroblastoma (kidney, i.e. Wilms tumor), hepatoblastoma (liver) and medulloblastoma (brain) — a list that does not include choriocarcinoma, a trophoblastic tumor of a different, adult germ-cell/placental lineage (marked by hCG, per this article's own tumor-marker table).
 
 ### Mechanism
 Carcinogenesis targets three gene groups: growth-promoting proto-oncogenes, growth-inhibiting tumor suppressor genes, and apoptosis-regulating genes. A proto-oncogene becomes a cancer-causing oncogene by point mutation, chromosomal translocation, or gene amplification, across four functional categories — growth factors, growth factor receptors, signal transduction proteins, and transcription factors; a gene whose product stops proliferation is, by definition, never an oncogene. Tumor suppressor genes split into "governors", which directly restrain proliferation (RB is the worked example — its mutation permits uncontrolled division), and "guardians", which sense genomic damage and arrest the cycle for repair or trigger apoptosis if the damage is too great. TP53, the guardian of the genome, is the worked guardian: its mutation does not directly transform a cell, since loss of guardian function has no direct effect on proliferation by itself — instead it permits and accelerates the accumulation of further mutations in oncogenes and other tumor suppressor genes that do transform the cell.
@@ -225,14 +234,21 @@ Named carcinogens each pair with a specific cancer in this teaching: aflatoxin (
 
 A malignant tumor's grade tracks its anaplasia — cellular and nuclear pleomorphism, nuclear hyperchromatism with an increased nucleocytoplasmic ratio, abnormal mitoses, and loss of normal architectural polarity (loss of gland or layer structure). Grade I (well differentiated) shows the least anaplasia and grows slowest; grade IV (undifferentiated/anaplastic) shows the most anaplasia and grows fastest — grade and aggressiveness move together, not apart. Tumor markers cannot diagnose cancer alone but help detect it and track treatment: PSA for prostate carcinoma, calcitonin for medullary thyroid carcinoma, AFP for hepatocellular carcinoma, CEA for GIT/lung carcinomas, and, on immunohistochemistry, cytokeratin for carcinomas generally. Malignant cachexia is driven by cytokines (e.g. TNF) from the tumor and host macrophages, not by the tumor's own nutritional demands on the host.
 
+Carcinoma in situ's microscopic picture is diffuse cellular atypia through the whole epithelial thickness, with pleomorphic, dark-nucleated, mitotically active cells whose normal architectural orientation is disturbed — but the basement membrane stays intact. That intact membrane is the single feature separating CIS from invasive carcinoma, and it is what keeps CIS's malignant-looking cells away from the blood vessels and lymphatics that would let them metastasize.
+
+Malignant tumors spread by four routes: local (direct) invasion of adjacent structures; lymphatic spread (embolism or permeation), which the department book states occurs more commonly with carcinomas than sarcomas; hematogenous (blood) spread, following venous drainage patterns specific to the tumor's organ of origin (systemic-vein organs like breast/kidney to lungs; lung tumors to liver/bone/brain via the left heart; GIT tumors via the portal vein to liver; vertebral-column-adjacent tumors like thyroid and prostate carcinoma via the paravertebral plexus to vertebrae); and trans-coelomic seeding of body cavities. Grossly, the most common sites of metastasis are the liver, lungs, bones and brain — muscles, spleen, pancreas and intestine are, by contrast, rare sites despite their rich blood supply. Not every tumor cell that enters the circulation survives to metastasize: most tumor emboli are destroyed by host immune mechanisms, and only the survivors — protected in part by platelet adherence — go on to home into a new site and form a secondary deposit. A separate, small family of tumors is defined by origin rather than by spread pattern: embryonic tumors (neuroblastoma, retinoblastoma, nephroblastoma, hepatoblastoma, medulloblastoma) are primitive, undifferentiated malignancies of embryonic cell remnants specific to infancy and childhood, distinct from the adult trophoblastic tumor choriocarcinoma.
+
 ### Key determinants
-Two structural distinctions carry most of this material's questions: reversible, stimulus-dependent adaptation (hypertrophy/hyperplasia/atrophy) versus irreversible, autonomous neoplastic proliferation; and governor tumor suppressor genes (directly restrain division, e.g. RB) versus guardian tumor suppressor genes (sense damage, only indirectly permit transformation when lost, e.g. TP53).
+Three structural distinctions carry most of this material's questions: reversible, stimulus-dependent adaptation (hypertrophy/hyperplasia/atrophy) versus irreversible, autonomous neoplastic proliferation; governor tumor suppressor genes (directly restrain division, e.g. RB) versus guardian tumor suppressor genes (sense damage, only indirectly permit transformation when lost, e.g. TP53); and, for spread, matching the right fact to the right route — carcinoma-over-sarcoma frequency belongs to lymphatic spread, immune destruction of most tumor emboli and the liver/lungs/bones/brain common-sites list belong to hematogenous spread, and neither should be swapped with the other.
 
 ### Clinical significance
-A rising tumor marker after treatment for a matched cancer type is one of the more direct, low-cost signals of recurrence available, even though the same marker could never have made the original diagnosis alone. Recognising a named precancerous lesion — leukoplakia, or squamous/intestinal metaplasia at a site this teaching links to malignancy — is the clinical justification for biopsy and surveillance before invasive cancer develops.
+A rising tumor marker after treatment for a matched cancer type is one of the more direct, low-cost signals of recurrence available, even though the same marker could never have made the original diagnosis alone. Recognising a named precancerous lesion — leukoplakia, or squamous/intestinal metaplasia at a site this teaching links to malignancy — is the clinical justification for biopsy and surveillance before invasive cancer develops, precisely because it can still be caught before it becomes carcinoma in situ or an invasive, metastasis-capable tumor. Knowing an organ's own venous drainage pattern (portal vein to liver, systemic veins to lungs, paravertebral plexus for prostate/thyroid to vertebrae) is what makes a specific metastatic-site search clinically targeted rather than a generic full-body survey.
 
 ### Common misconceptions
-Defining hypertrophy as increased cell number (that is hyperplasia) rather than increased cell size. Treating TP53 as a governor rather than the guardian, or assuming its mutation directly drives proliferation. Assuming every metaplastic change carries the same premalignant risk — this teaching links squamous and intestinal metaplasia at specific named sites to malignancy but does not carry the same association for apocrine metaplasia in fibrocystic breast disease. Assuming better-differentiated tumors show more anaplasia — the relationship runs the other way.
+Defining hypertrophy as increased cell number (that is hyperplasia) rather than increased cell size. Treating TP53 as a governor rather than the guardian, or assuming its mutation directly drives proliferation. Assuming every metaplastic change carries the same premalignant risk — this teaching links squamous and intestinal metaplasia at specific named sites to malignancy but does not carry the same association for apocrine metaplasia in fibrocystic breast disease. Assuming better-differentiated tumors show more anaplasia — the relationship runs the other way. Assuming carcinoma in situ retains normal polarity, or that it is benign, because it has not yet invaded — polarity IS disturbed, and CIS is malignant-lineage tissue that simply has not crossed the basement membrane yet. Attributing "carcinomas spread more than sarcomas" to hematogenous spread, when the department book states this specifically for lymphatic spread. Assuming muscle, spleen, pancreas and intestine are common metastatic sites, or that prostatic carcinoma preferentially targets the brain, rather than the vertebrae/bone via the paravertebral plexus. Assuming any pediatric or embryonic-sounding tumor belongs to the five-member embryonic-tumor list — choriocarcinoma does not.
+
+### Definitions, atrophy and tumor-like lesions (2024 EOM extension)
+Dysplasia itself is non-neoplastic disordered cellular proliferation from prolonged irritation — reversible at the low-grade stage, unlike neoplasia — with loss of polarity, pleomorphism and increased mitosis on microscopy; high-grade dysplasia is what passes into carcinoma in situ. Atrophy splits the same way adaptation does elsewhere in this article: pathological LOCALIZED atrophy has five named causes (hormonal, vascular, pressure, neuropathic, disuse), while pathological GENERALIZED atrophy (affecting all organs) is driven by decreased anabolism or increased catabolism — malignancy cachexia and thyrotoxicosis both sit on the generalized side, not the localized one. Mesenchymal metaplasia extends the epithelial metaplasia already described here to connective tissue: cartilage, bone or fat forming where they do not normally occur, myositis ossificans (bone in muscle after intramuscular hemorrhage) being the worked example. Three named tumor-like/borderline categories round out this teaching: intermediate (locally malignant) tumors — basal cell carcinoma, giant cell tumor of bone (osteoclastoma), adamantinoma, carcinoid, chordoma, craniopharyngioma — are locally destructive but rarely metastasize; a choristoma is normally organized tissue found in the wrong (heterotopic) site (e.g. ectopic pancreatic tissue in the small intestine wall), the mirror image of a hamartoma's disorganized tissue native to its own site; and the TNM system stages (not grades) a cancer by primary tumor size, nodal involvement and distant metastasis, a distinct axis from the anaplasia-based grading already covered above.
 ## universities
 kau
 ## years
@@ -269,10 +285,19 @@ CON-FND-B7FE536D59F695
 CON-FND-D75B95517F50CF
 CON-FND-5AD09BF9FC2420
 CON-FND-AE5841979FCFAE
+CON-FND-7A8E6E9B14047B
+CON-FND-91B66B24922754
+CON-FND-E795DC3D0573A3
+CON-FND-109E1AB3E33E4E
+CON-FND-BA4E3D79017392
+CON-FND-2A6D478CFC27ED
+CON-FND-471F90B10E495A
+CON-FND-2BD09290BA0B00
+CON-FND-9FF27DE891DFBE
 ## related_articles
 
 ## resource_ids
-src_71e9056fb934dc28806a
+src_71e9056fb934dc28806a | src_3cd975bf1e54eb95af19
 ## nanotopic
 
 ## arabic_title
@@ -297,7 +322,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found — the department book is the only source read for this article.
+university_notes: No university-specific variant found — the department book is the only source read for this article. Extended in a later gap-closing pass (lane 4) to add carcinoma-in-situ, embryonic-tumors and hematogenous-spread paragraphs, closing the 2023 EOM paper's Q26, Q28 and Q31 gaps; the hematogenous-spread paragraph also draws on a second, lower-confidence source (src_3cd975bf1e54eb95af19) for the tumor-emboli-immune-destruction fact, which the department book's own hematogenous-spread section does not state explicitly. Extended again (lane 4, 2024 EOM paper triage) to add dysplasia, localized-atrophy, mesenchymal metaplasia, intermediate/locally-malignant tumors, choristoma and TNM staging.
 ## reading_time
 9
 
@@ -423,7 +448,7 @@ Once local infection breaks through the inflammatory barrier, it spreads by dire
 Once a local infection overwhelms the inflammatory and immune barriers meant to contain it, it spreads either by direct extension, by lymphatics (lymphangitis, then regional then generalized lymphadenitis, reaching blood via the thoracic duct), or by the blood stream itself, in one of four named patterns: bacteraemia (low-dose or low-virulence circulating organisms, usually silent unless a diseased heart valve is present), toxemia (circulating toxin — endotoxin from dying gram-negative organisms, or exotoxins such as tetanus and diphtheria toxin acting at specific distant sites), septicemia (large numbers of multiplying bacteria plus their toxins, usually fatal) and pyemia (circulating septic emboli from septic thrombophlebitis, forming pyemic abscesses). Chronic bacterial infections in this module each show a distinct granulomatous pattern: tuberculosis (caseating granulomas of epithelioid cells, Langhans giant cells and lymphocytes), syphilis (perivascular plasma-cell-rich granulation tissue with early endarteritis obliterans), leprosy (a spectrum from non-caseating tuberculoid to vacuolated-macrophage lepromatous granulomas) and actinomycosis (sulphur-granule abscesses with fibrous walling).
 
 ### Mechanism
-Tuberculosis's immune choreography explains both its granuloma and its two clinical faces. Macrophages that first engulf Mycobacterium tuberculosis cannot immediately kill it — the organism blocks phagosome-lysosome fusion — so early bacteraemic seeding occurs before cell-mediated immunity develops; once TH1 cells arrive (about three weeks in), interferon-gamma-activated macrophages (epithelioid cells) wall the organism into a granuloma with central caseation, some epithelioid cells fusing into Langhans giant cells. Primary tuberculosis (an unsensitized host, exogenous source, at lung, intestine, tonsil or skin) is defined by the triad of tissue lesion, lymphangitis and lymphadenitis; secondary tuberculosis (reinfection or reactivation, pre-existing immunity) shows extensive caseation but minimal lymph node disease, because the migration inhibition factor keeps bacilli-laden macrophages from reaching the nodes in large numbers — which is exactly why chronic fibrocaseous pulmonary tuberculosis (apical cavity, acinar lesions) and the primary intestinal complex (tabes mesenterica) look so different from each other despite sharing an organism. Syphilis's three stages track how long Treponema pallidum has been established: the primary chancre appears about two weeks after inoculation at the entry site; the secondary stage, about two months later, is systemic (rash, condyloma lata, mucous patches, generalized lymphadenitis) as the organism disseminates via lymphatics and blood; and the tertiary stage, at about two years, is either a localized gumma (necrosis walled by fibrosis and granulation tissue) or diffuse fibrosing infiltration of an organ. Leprosy's two forms are opposite ends of the same TH1 spectrum: strong TH1/interferon-gamma response gives tuberculoid leprosy its low bacillary burden, non-caseating epithelioid granulomas and anesthetic patches, while weak TH1 response lets Mycobacterium leprae proliferate inside macrophages in lepromatous leprosy, producing vacuolated lepra cells and diffuse nodular disease. Actinomycosis behaves differently again: Actinomyces israelii is an endogenous commensal that becomes invasive with lowered local resistance, and because its filaments are too large to enter lymphatics, it spreads locally and by blood, walling off into abscesses that intercommunicate and drain through multiple sinuses.
+Tuberculosis's immune choreography explains both its granuloma and its two clinical faces. Macrophages that first engulf Mycobacterium tuberculosis cannot immediately kill it — the organism blocks phagosome-lysosome fusion — so early bacteraemic seeding occurs before cell-mediated immunity develops; once TH1 cells arrive (about three weeks in), interferon-gamma-activated macrophages (epithelioid cells) wall the organism into a granuloma with central caseation, some epithelioid cells fusing into Langhans giant cells. Primary tuberculosis (an unsensitized host, exogenous source, at lung, intestine, tonsil or skin) is defined by the triad of tissue lesion, lymphangitis and lymphadenitis; secondary tuberculosis (reinfection or reactivation, pre-existing immunity) shows extensive caseation but minimal lymph node disease, because the migration inhibition factor keeps bacilli-laden macrophages from reaching the nodes in large numbers — which is exactly why chronic fibrocaseous pulmonary tuberculosis (apical cavity, acinar lesions) and the primary intestinal complex (tabes mesenterica) look so different from each other despite sharing an organism. Syphilis's three stages track how long Treponema pallidum has been established: the primary chancre appears about two weeks after inoculation at the entry site; the secondary stage, about two months later, is systemic (rash, condyloma lata, mucous patches, generalized lymphadenitis) as the organism disseminates via lymphatics and blood; and the tertiary stage, at about two years, is either a localized gumma (necrosis walled by fibrosis and granulation tissue) or diffuse fibrosing infiltration of an organ. Leprosy's two forms are opposite ends of the same TH1 spectrum: strong TH1/interferon-gamma response gives tuberculoid leprosy its low bacillary burden, non-caseating epithelioid granulomas and anesthetic patches, while weak TH1 response lets Mycobacterium leprae proliferate inside macrophages in lepromatous leprosy, producing vacuolated lepra cells and diffuse nodular disease. Actinomycosis behaves differently again: Actinomyces israelii is an endogenous commensal that becomes invasive with lowered local resistance, and because its filaments are too large to enter lymphatics, it spreads locally and by blood, walling off into abscesses that intercommunicate and drain through multiple sinuses. Cutaneous tuberculosis has its own named prototype, lupus vulgaris, reaching the skin either by exogenous inoculation or by endogenous spread (direct extension, or lymphatic/blood spread) from tuberculous disease already present elsewhere in the body.
 
 ### Key determinants
 Every question here turns on placing a described lesion at the right point on one of four axes: which blood-spread pattern (bacteraemia/toxemia/septicemia/pyemia) a given clinical picture represents; whether a tuberculous lesion is primary (unsensitized, triad of lesion/lymphangitis/lymphadenitis, four possible sites) or secondary (pre-existing immunity, extensive caseation, minimal nodal disease, apex-of-lung or terminal-ileum location); which stage of syphilis a lesion belongs to, by its time course after infection; and which pole of the leprosy TH1 spectrum a granuloma or skin lesion describes.
@@ -465,6 +490,7 @@ CON-INF-420A4970289CE0
 CON-INF-9534D78BFE4A9C
 CON-INF-C1BDF0DDE34498
 CON-INF-46951EC6118C17
+CON-INF-A59BCAB366BCEE
 ## related_articles
 
 ## resource_ids
@@ -493,7 +519,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article. Extended (lane 4, 2024 EOM paper triage) to add lupus vulgaris (cutaneous tuberculosis) and its dedicated concept id.
 ## reading_time
 12
 
@@ -586,7 +612,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article. Its existing AIDS/HIV concept (CON-INF-324F03A30F7F5F) was reused, not re-minted, for two 2024 EOM paper items (lane 4 triage): the systemic-fungal-infection example (histoplasmosis, named in this concept's own opportunistic-infection list) and the AIDS-crisis-phase cause-of-death fact.
 ## reading_time
 10
 
@@ -612,7 +638,7 @@ Three late-chapter topics grouped by their shared position in the department boo
 This article groups three otherwise unrelated topics that share only their position late in the department book: cytopathology, a diagnostic technique; total body irradiation, an environmental/physical injury; and pellagra, a nutritional deficiency disease. Cytopathology is rapid, inexpensive, non-invasive evaluation of cells shed or aspirated from a lesion, stained for screening, diagnosis or treatment follow-up. Total body irradiation produces four acute, dose-graded syndromes (radiation sickness, haemopoietic, gastrointestinal, cerebral) plus separate late and organ-specific effects. Pellagra is niacin (vitamin B3) deficiency, producing the "three D's" — dermatitis, diarrhea, dementia — distinct from vitamin D deficiency's bone disease (rickets/osteomalacia), which sits in the same nutritional-disorders chapter but is a different vitamin and a different organ system entirely.
 
 ### Mechanism
-Cytopathology's sample-to-diagnosis pathway starts with a fluid or smear (effusion, ascitic fluid, urine, CSF, cervico-vaginal smear, sputum, fine needle aspirate, or discharge); fluids are centrifuged and the sediment smeared like a blood film, then fixed in 95% ethanol before staining — the department book naming the Papanicolaou (PAP) stain as the ideal cytology stain, most familiar as the basis of cervical cancer screening. Total body irradiation's four acute syndromes track rising absorbed dose because different tissues have different radiosensitivity thresholds: at 50-200 rem only the fastest-turnover tissues (bone marrow, gut epithelium) show mild, largely subclinical injury (radiation sickness); at 200-600 rem bone marrow depression dominates (haemopoietic syndrome); at 300-1000 rem gut epithelial loss causes severe diarrhea, vomiting and haemorrhage (gastrointestinal syndrome); and above 1000 rem, direct CNS injury causes convulsions and coma (cerebral syndrome, uniformly lethal). Niacin deficiency produces pellagra's three-D triad because tryptophan, niacin's metabolic precursor, is both low in maize itself and poorly absorbed from it, so populations dependent on corn as a staple (or with alcohol-related malabsorption/intake failure) develop deficiency in the skin (photosensitive dermatitis), gut (mucosal necrosis and pseudomembranous colitis-like diarrhea) and CNS (frontal-lobe neuronal loss and posterior/lateral spinal column demyelination) simultaneously, because all three tissues depend heavily on niacin-requiring metabolic pathways.
+Cytopathology's sample-to-diagnosis pathway starts with a fluid or smear (effusion, ascitic fluid, urine, CSF, cervico-vaginal smear, sputum, fine needle aspirate, or discharge); fluids are centrifuged and the sediment smeared like a blood film, then fixed in 95% ethanol before staining — the department book naming the Papanicolaou (PAP) stain as the ideal cytology stain, most familiar as the basis of cervical cancer screening. For solid tissue specimens (as opposed to the cytology smears above), the department book's own "Techniques Used in Pathology" chapter names 10% buffered formalin as the fixative of choice — proper, timely fixation is the critical step before the tissue can be processed into thin sections for histologic diagnosis. Total body irradiation's four acute syndromes track rising absorbed dose because different tissues have different radiosensitivity thresholds: at 50-200 rem only the fastest-turnover tissues (bone marrow, gut epithelium) show mild, largely subclinical injury (radiation sickness); at 200-600 rem bone marrow depression dominates (haemopoietic syndrome); at 300-1000 rem gut epithelial loss causes severe diarrhea, vomiting and haemorrhage (gastrointestinal syndrome); and above 1000 rem, direct CNS injury causes convulsions and coma (cerebral syndrome, uniformly lethal). Niacin deficiency produces pellagra's three-D triad because tryptophan, niacin's metabolic precursor, is both low in maize itself and poorly absorbed from it, so populations dependent on corn as a staple (or with alcohol-related malabsorption/intake failure) develop deficiency in the skin (photosensitive dermatitis), gut (mucosal necrosis and pseudomembranous colitis-like diarrhea) and CNS (frontal-lobe neuronal loss and posterior/lateral spinal column demyelination) simultaneously, because all three tissues depend heavily on niacin-requiring metabolic pathways.
 
 ### Key determinants
 For total body irradiation, the exam turns on matching a described clinical picture (mild GI upset vs bone marrow failure vs severe GI haemorrhage vs coma) to its correct dose-graded syndrome name, and on not inventing syndromes the book does not name (there is no "vascular syndrome" among the four). For pellagra, it turns on keeping the three-D mnemonic (dermatitis, diarrhea, dementia) free of features that actually belong to the neighbouring vitamin D deficiency topic (bone bowing, rachitic rosary, craniotabes) in the same chapter.
@@ -650,6 +676,7 @@ SYS-FND-T03-S01
 CON-FND-615C9D19BED36F
 CON-FND-85395A8500798E
 CON-FND-BFCED5D968B197
+CON-FND-316FEEFBE17A4A
 ## related_articles
 
 ## resource_ids
@@ -678,7 +705,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No university-specific variant found for this material -- the department book is the only source read for this article.
+university_notes: No university-specific variant found for this material -- the department book is the only source read for this article. Extended (lane 4, 2024 EOM paper triage) to add the specimen-fixation (formalin) fact and its dedicated concept id.
 ## reading_time
 8
 
@@ -715,6 +742,9 @@ Recognising hyoscine's much greater CNS sedation, and atropine's much greater ca
 
 ### Common misconceptions
 Assuming any drug that raises acetylcholine (an anticholinesterase) is the same class as a direct agonist (pilocarpine, carbachol) -- the two work at different points in the same pathway, with different receptor selectivity and different risk of nicotinic side effects. Confusing pilocarpine's miotic action with a mydriatic one. Assuming atropine and hyoscine are interchangeable antimuscarinics rather than agents with sharply different CNS and cardiac profiles. Assuming atropine's antimuscarinic action only ever helps, without weighing its own capacity to precipitate glaucoma or urinary retention. Grouping sugammadex with the acetylcholinesterase-inhibitor reversal agents, when its mechanism -- direct encapsulation of the blocker -- is fundamentally different.
+
+### Spasmolytic drugs (2024 EOM extension)
+Alongside the neuromuscular blockers and their reversal, this chapter also covers spasmolytics for spasticity (a velocity-dependent increase in muscle tone with exaggerated reflexes), which split by site of action the same way antimuscarinic reversal splits by mechanism: baclofen is centrally acting, a GABA-B receptor agonist in the spinal cord and the first-line agent for spasticity from spinal cord injury or multiple sclerosis (its abrupt withdrawal can cause seizures and hallucinations), while dantrolene is directly acting, working on skeletal muscle itself by blocking ryanodine receptors (RyR1) to prevent calcium release from the sarcoplasmic reticulum -- the same direct mechanism that makes it the specific antidote for malignant hyperthermia.
 ## universities
 kau
 ## years
@@ -751,6 +781,7 @@ CON-FND-AE3618871E840B
 CON-FND-9682E927C0F810
 CON-FND-E2A3372187494C
 CON-FND-3C5B050221C5D8
+CON-FND-32969719456125
 ## related_articles
 
 ## resource_ids
@@ -779,7 +810,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead. Extended (lane 4, 2024 EOM paper triage) to add baclofen (centrally acting spasmolytic), p.5 of the same source.
 ## reading_time
 13
 
@@ -812,6 +843,9 @@ Every adrenergic pharmacology question here turns on naming the specific recepto
 Recognising phenylephrine's pure vasopressor, non-inotropic action is why it is chosen when a clinician wants to raise blood pressure without adding heart rate or cardiac stimulation, unlike dobutamine or dopamine. Titrating dopamine by dose band is a bedside skill in shock management, since running an infusion faster than intended can flip a patient from beneficial renal vasodilation to harmful systemic vasoconstriction. Choosing a cardioselective beta-blocker over a non-selective one is a genuine prescribing decision in a diabetic or asthmatic patient, and warning a patient starting prazosin to take the first dose at bedtime, seated, is a direct application of the first-dose hypotension mechanism. Choosing ondansetron specifically (rather than a first-generation antihistamine) for chemotherapy nausea reflects that the emetic drive in that setting is serotonin-mediated, not histamine-mediated.
 ### Common misconceptions
 Assuming any adrenergic agonist raises heart rate -- phenylephrine's pure alpha1 vasopressor action instead tends to slow it reflexively. Assuming dopamine has one fixed pharmacological profile rather than a dose-dependent one. Treating cardioselective beta-blockade as an absolute, rather than relative and dose-dependent, protection from beta2-mediated bronchospasm or hypoglycemia masking. Assuming prazosin's main risk is on the bladder or airway rather than on blood pressure -- alpha1-blockade instead relaxes bladder outflow (useful in BPH) and has no established bronchoconstrictor action. Grouping ondansetron with the antihistamines rather than recognising it as a distinct, serotonin-receptor-targeted antiemetic class.
+
+### Tachyphylaxis and adrenaline in anaphylaxis (2024 EOM extension)
+Repeated dosing at short intervals can blunt a sympathomimetic's own effect (tachyphylaxis), but only for the indirect-acting agonists (amphetamine, ephedrine): because these drugs work by displacing norepinephrine from nerve-terminal stores rather than acting on the receptor themselves, repeated dosing depletes the releasable NE pool and the response fades; a direct-acting agonist (dopamine, adrenaline, dobutamine), which acts on the receptor regardless of neuronal NE stores, is not subject to the same mechanism and generally shows no tachyphylaxis. Adrenaline's role as the drug of choice in anaphylaxis is a distinct, clinically load-bearing fact tested alongside these receptor-selectivity questions: it acts as histamine's physiological antagonist, reversing anaphylactic bronchospasm and hypotension by producing an opposing effect through its OWN adrenergic receptors (beta2 bronchodilation, alpha1/beta1 vasoconstriction and inotropy) rather than by occupying the histamine receptor itself, which is what a true pharmacological antagonist (a first-generation antihistamine, for instance) would do instead.
 ## universities
 kau
 ## years
@@ -846,6 +880,8 @@ CON-FND-823AF5B67E1393
 CON-FND-B34D0C571C3D02
 CON-FND-8F7613BF9B3306
 CON-FND-DA4E563A4E5C48
+CON-FND-8BAF5827D0C4E1
+CON-FND-58E6876CDBBC16
 ## related_articles
 ART-FND-208INT-CHOLINERGIC-PHARMACOLOGY
 ## resource_ids
@@ -874,7 +910,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the cholinergic-pharmacology article.
+university_notes: The [1st priority] pharmacology department book and bank are both garbled (0-word native text layer); this article is grounded in the readable [2nd priority] instructor material by Dr Abdallah Salah instead, same as the cholinergic-pharmacology article. Extended (lane 4, 2024 EOM paper triage) to add tachyphylaxis and adrenaline's physiological-antagonism-in-anaphylaxis facts, both from the same PHARMA IN POINTS source, p.3 and p.5 respectively.
 ## reading_time
 11
 

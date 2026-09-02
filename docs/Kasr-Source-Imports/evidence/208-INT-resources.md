@@ -147,3 +147,79 @@ Instructor-authored MCQ bank with worked explanations (Dr Abdallah Salah, 2nd pr
 0.75
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_3cd975bf1e54eb95af19
+## title
+Symphony of Pink & Purple — General Pathology Book Part 1
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/EOM/EOM - SYMPHONY OF PINK & PURPLE GENERAL PATHOLOGY BOOK PART 1.pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+158
+## sha256
+3cd975bf1e54eb95af1955d73f61216d491d60c259477ccd332ec06c8b026f9e
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+Student-compiled general pathology revision notes (tier 6, sits in the EOM folder but reads as exam-section revision material, not a sat paper — manifest sourceTier 6, sourceCategory "Exam-section revision material", instructor field "SYMPHONY OF PINK & PURPLE"). Used only to ground the "fate of tumor emboli" fact (most destroyed by immune mechanisms, survivors protected by platelet adherence) that the [1st priority] department book's own hematogenous-spread section does not state explicitly. Native text layer, quotable verbatim. Local curriculum, lower-confidence than the department book — not independent medical authority.
+## confidence
+0.6
+## is_assessment
+false
+
+---
+
+# Item
+## id
+src_1904964b1c8502ef5410
+## title
+EOM - End of Module INT-208 2024 ANS
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+208 INT/EOM/EOM - End of Module INT-208 2024 ANS .pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+25
+## sha256
+1904964b1c8502ef541057ab620f9fc4c58532576db8d007d28e764dfb38751a
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it.
+## qualification
+208 INT End-of-Module exam, 2024 sitting, 120 MCQs. Answer key visually marked by green highlight annotation on the correct option (per-question highlight, not a separate printed key table); recovered via node scripts/content/pagetext.mjs keys (PyMuPDF span/annotation reader), 119 of 120 keyed cleanly, 1 unmarked (Q74, confirmed genuinely unmarked by render, held). Two renders (p.1, p.16) confirmed the tool's highlight-annot readings against the true colours by eye before the rest were trusted. Native text layer, no OCR needed. Calendar year 2024 printed on file name; printed date wins over the batch-derived sitting-year formula.
+## confidence
+0.9
+## is_assessment
+true

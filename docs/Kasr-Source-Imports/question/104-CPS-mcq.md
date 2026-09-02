@@ -23,7 +23,7 @@
     Histology Cardiovascular System — Artery Classification — 39 questions, 4 concepts
     Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 28 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 36 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 8 questions, 2 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 9 questions, 3 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 3 questions, 1 concepts
     Physiology Cardiovascular System — Electrocardiogram Basics — 28 questions, 6 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
@@ -37,17 +37,17 @@
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 7 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 6 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 7 questions, 1 concepts
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
-    Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
-    Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
+    Macrophage system — 7 questions, 1 concepts
+    Lymphatic and Macrophage System — Lymph Node — 29 questions, 8 concepts
+    Lymphatic and Macrophage System — Spleen — 26 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 19 questions, 3 concepts
-    Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
+    Lymphatic and Macrophage System — Tonsils — 18 questions, 6 concepts
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 45 questions, 9 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
@@ -56,11 +56,11 @@
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 46 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
-    Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 4 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Cardiovascular System — Endothelium and Vasoactive Hormones — 14 questions, 7 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 19 questions, 4 concepts
-    Physiology Respiratory System — Gas Transport by the Blood — 30 questions, 5 concepts
+    Physiology Respiratory System — Gas Transport by the Blood — 32 questions, 5 concepts
     Physiology Respiratory System — Gas Transport by the Blood — 6 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 10 questions, 1 concepts
     Pulmonary Compliance — 29 questions, 3 concepts
@@ -68,11 +68,11 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 7 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 27 questions, 7 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 28 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 40 questions, 4 concepts
-    Respiratory System — Larynx and Airway Wall — 43 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 49 questions, 6 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 43 questions, 6 concepts
+    Respiratory System — Larynx and Airway Wall — 43 questions, 4 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 53 questions, 7 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  214 questions were excluded and 0 held back for having no
+  221 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -20402,6 +20402,98 @@ Extraction confidence low; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-57F657BD068F
+## title
+All of the following help drainage of lymph Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following help drainage of lymph Except:
+## answer_a
+Positive intrathoracic pressure
+## explanation_a
+The exception, and the answer. The department book credits NEGATIVE intra-thoracic pressure with sucking lymph upward toward the great veins (p.60) — positive intrathoracic pressure would oppose that flow, not help it, making this the false statement among otherwise genuine mechanisms.
+
+Why this is right:
+- Normal lymph flow is about 2-4 L/day, driven by the peristaltic contraction of valved collecting lymphatics, the surrounding skeletal muscle pump, and negative intra-thoracic pressure.
+## answer_b
+Contraction of skeletal muscles surrounding the lymphatics
+## explanation_b
+True, so not the exception. Contraction of the skeletal muscles surrounding the lymphatics squeezes lymph centrally, one of the book's own three named drainage mechanisms.
+## answer_c
+Peristaltic contraction of collecting lymphatics
+## explanation_c
+True, so not the exception. The peristaltic contraction of the collecting lymphatics is the book's own stated main factor pushing lymph centrally.
+## answer_d
+Valves in lymphatics wall allow lymph to move centrally
+## explanation_d
+True, so not the exception. Valves in the lymphatic wall allow lymph to flow in only one direction (centrally) and prevent it flowing backwards, exactly as the book states.
+## correct_answer
+A
+## main_concept
+CON-CVS-2C65CCE1C08853
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that POSITIVE intrathoracic pressure does not help lymph drainage — the book credits NEGATIVE intrathoracic pressure with sucking lymph upward — as the exception among the genuine lymph-drainage mechanisms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q72. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists in the bank (answerConfidence: editorial-no-printed-key). Re-verified directly against the department physiology book (p.60, 'Mechanisms that help drainage of lymph'): the book names peristaltic contraction of collecting lymphatics, contraction of surrounding skeletal muscles, and NEGATIVE intra-thoracic pressure as the three genuine mechanisms — 'positive intrathoracic pressure' is the reverse of what the book actually credits, confirming option A as the exception.
+
+
+---
+
+# Item
+## id
 QM-104-C55EDF8EA6A2
 ## title
 All characters of Purkinje fibers except: XXX
@@ -31765,6 +31857,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-8E135CE576C9
+## title
+liver cells is example for
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+liver cells is example for
+## answer_a
+non renewing cell
+## explanation_a
+Non-renewing cells never divide again once lost, the department book's example being cardiac muscle and nerve cells; the liver cell is the book's own example of the opposite class.
+## answer_b
+potentially renewable cells
+## explanation_b
+Correct. This leaf's own sourced concept names liver cells directly as the example of a potentially renewable cell: they leave the cycle for G0 but can re-enter it and divide when replacement is needed after destruction or partial removal.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_c
+continuously renewing cell
+## explanation_c
+Continuously renewing cells are end cells that cannot themselves divide at all, replaced instead from a separate stem-cell population (blood cells, sperm); the liver cell itself is capable of dividing directly, which rules out this class.
+## answer_d
+None of the above
+## explanation_d
+The liver cell does fit one of the three named classes (potentially renewable), so 'none of the above' is incorrect.
+## correct_answer
+B
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise the liver cell as this leaf's own example of a potentially renewable cell — one that leaves the cell cycle but can re-enter it when the liver needs to replace lost tissue.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q12. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-1F6A47E372B4
 ## title
 barr body in 3-5% in
@@ -40329,6 +40513,190 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-032CE8D9B11C
+## title
+monocyte in ………., while macrophage in ……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+monocyte in ………., while macrophage in ……………
+## answer_a
+liver, skin
+## explanation_a
+The liver houses the system's von Kupffer cell and the skin houses its Langerhans cell — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.
+## answer_b
+blood, C.T
+## explanation_b
+Correct. This leaf's own sourced concept names monocytes as the system's circulating form in blood, and macrophages (histiocytes) as its resident form in loose connective tissue — the two most general of the system's eight named site/name pairs.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## answer_c
+CNS, lung alveoli
+## explanation_c
+The CNS houses microglia and the lung alveoli house dust cells/heart-failure cells — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.
+## answer_d
+spleen, bone
+## explanation_d
+The spleen and bone marrow sinusoids house littoral cells, and bone's Howship's lacunae house osteoclasts — a different pair of this system's site-specific names, not the monocyte/macrophage pair this row asks for.
+## correct_answer
+B
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Histology-general
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Fill in the blank
+## learning_objective
+Name blood as the monocyte's own site and connective tissue as the macrophage's (histiocyte's) own site, the system's two most general named locations.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q30. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E565E1E607AB
+## title
+Vonkupffer cell in ………………., while langerhan's Cell in ……………
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Vonkupffer cell in ………………., while langerhan's Cell in ……………
+## answer_a
+liver, skin
+## explanation_a
+Correct. This leaf's own sourced concept names von Kupffer cells as the system's name for macrophages in the liver's blood sinusoids, and Langerhans cells as its name for macrophages in the skin.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## answer_b
+blood, C.T
+## explanation_b
+Blood houses the system's own circulating monocyte, and loose connective tissue houses the macrophage (histiocyte) — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.
+## answer_c
+CNS, lung alveoli
+## explanation_c
+The CNS houses microglia and the lung alveoli house dust cells/heart-failure cells — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.
+## answer_d
+spleen, bone
+## explanation_d
+The spleen and bone marrow sinusoids house littoral cells, and bone's Howship's lacunae house osteoclasts — a different pair of this system's site-specific names, not the Kupffer/Langerhans pair this row asks for.
+## correct_answer
+A
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Histology-general
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Fill in the blank
+## learning_objective
+Name the liver's blood sinusoids as the von Kupffer cell's own site and the skin as the Langerhans cell's own site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q31. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-584C50B35C60
 ## title
 All contain B-lymph except ------------- with T-lymphocyte
@@ -42162,6 +42530,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphat
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-819BC7B765CE
+## title
+All secondary lymphatic ergons except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All secondary lymphatic ergons except
+## answer_a
+lymph node
+## explanation_a
+True, so not the exception. The lymph node is one of this module's own three named secondary (peripheral) lymphatic organs.
+## answer_b
+tonsil
+## explanation_b
+True, so not the exception. The tonsil is one of this module's own three named secondary (peripheral) lymphatic organs.
+## answer_c
+thymus
+## explanation_c
+The exception, and the answer. The thymus is a PRIMARY (central) lymphatic organ, alongside bone marrow — the site where T-lymphocytes are produced and mature, not a secondary organ where already-produced lymphocytes mount immune responses.
+
+Why this is right:
+- Lymphatic tissue is organised into primary (central) and secondary (peripheral) lymphatic organs.
+## answer_d
+spleen
+## explanation_d
+True, so not the exception. The spleen is one of this module's own three named secondary (peripheral) lymphatic organs.
+## correct_answer
+C
+## main_concept
+CON-HEM-CF6A9A48ADA3AC
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the thymus as a PRIMARY (not secondary) lymphatic organ, the exception among lymph node, tonsil and spleen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
 
 
@@ -46308,6 +46768,98 @@ Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-6FBE35E3DC52
+## title
+The palatine tonsil is characterized by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The palatine tonsil is characterized by:
+## answer_a
+Covered by pseudostratified columnar epithelium
+## explanation_a
+Reversed: the department book states the palatine tonsil's free surface is covered by non-keratinized stratified squamous epithelium (p.22), the pharyngeal tonsil's own site (nasopharynx) that carries pseudostratified columnar epithelium instead.
+## answer_b
+Hypertrophy results in adenoids
+## explanation_b
+Wrong tonsil: hypertrophy producing adenoids is specifically a PHARYNGEAL-tonsil finding, stated by this leaf's own pharyngeal-tonsil concept — the palatine tonsil's own clinical correlate is tonsillitis and tonsillectomy, not adenoids.
+## answer_c
+Having no C.T. capsule
+## explanation_c
+Reversed: the department book states the palatine tonsil has an incomplete connective-tissue capsule deep to its lymphatic tissue (p.22, also shown in the book's own labelled diagram) — it is the LINGUAL tonsil that has no capsule at all.
+## answer_d
+Ducts of mucus glands open on the surface
+## explanation_d
+Correct. The department book states plainly (p.22): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts, so inflammation of crypts is common' — the opposite of the lingual tonsil's crypt-flushing arrangement, and exactly why the palatine tonsil is the one that inflames often.
+
+Why this is right:
+- The palatine tonsil is covered on its free surface by non-keratinized stratified squamous epithelium dipping down as tonsillar crypts, with lymphatic nodules arranged around the crypts and diffuse lymphatic tissue between them, and dense connective tissue deep to the lymphatic tissue forming an incomplete capsule; its mucous gland ducts open on the surface rather than at the base of the crypts, so inflammation of the crypts is common.
+## correct_answer
+D
+## main_concept
+CON-HEM-093013026B640A
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Tonsils
+## subtopic
+Lymphatic and Macrophage System — Tonsils
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that the palatine tonsil's mucous-gland ducts open on the free surface, not into the crypt bases — the opposite of the lingual tonsil's arrangement — and identify this as why palatine tonsillitis is common.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q104. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists in the bank (answerConfidence: none). Re-verified directly against the department histology book (src_18d3a953df4ca83c4e74, p.22, 'Histological Structure of palatine tonsil', point 4): 'Mucous glands are present in the C.T., their ducts open on the surface and not in the base of tonsillar crypts' — matching option D verbatim. The other three options are each independently contradicted by the same page and this leaf's own sourced concepts (A: wrong epithelium type, that of the pharyngeal tonsil; B: wrong tonsil for adenoids; C: the palatine tonsil does have an incomplete capsule, unlike the lingual tonsil). All four options resolve cleanly against the book with no ambiguity.
+
 
 ---
 
@@ -54876,6 +55428,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-53F1D6962893
+## title
+In progressive hemorrhagic shock, which of the following occurs? ~~’
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In progressive hemorrhagic shock, which of the following occurs? ~~’
+## answer_a
+Increased capillary permeability
+## explanation_a
+Correct by direct elimination against the book's own explicit statements on the other three options (below), and consistent with the book's own refractory-shock mechanisms (p89: granulocyte-mediated free-radical capillary-wall damage) and its own treatment rationale (p90: glucocorticoids protect capillary endothelium 'thus maintaining normal capillary permeability', implying permeability rises abnormally without that protection as shock continues).
+
+Why this is right:
+- Hemorrhage lowers arterial blood pressure and stimulates rapid neural and humoral compensatory mechanisms.
+## answer_b
+Dilation of veins
+## explanation_b
+Reversed. The department book states the compensatory response to hemorrhage is VASOCONSTRICTION of veins (p87, p91) — 'limit pooling of blood in lower body veins and push blood upwards to the heart' — not dilation.
+## answer_c
+Tissue alkalosis 03
+## explanation_c
+Reversed. The department book lists 'Acidosis (due to tissue hypoxia that leads to anaerobic glycolysis and production of excess lactic acid)' (p86) among hemorrhagic shock's own manifestations — not alkalosis.
+## answer_d
+Increased urine output
+## explanation_d
+Reversed. The department book lists 'Reduced urine formation (oliguria) (due to decreased renal blood flow)' (p86-87) among hemorrhagic shock's own manifestations — not increased urine output.
+## correct_answer
+A
+## main_concept
+CON-CVS-419F030679CA1F
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Single best answer
+## learning_objective
+State that progressive hemorrhagic shock is associated with increased capillary permeability, as opposed to the three directly book-contradicted alternatives (venous dilation, tissue alkalosis, increased urine output).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q42. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Options B, C and D are each directly and explicitly contradicted by the department physiology book's own statements on hemorrhagic shock (venoconstriction not dilation, p87/p91; acidosis not alkalosis, p86; oliguria not increased urine output, p86-87), leaving A correct by elimination and consistent with the book's own refractory-shock/glucocorticoid-treatment language on capillary permeability (p89-90).
+
+
+---
+
+# Item
+## id
 QM-104-3D1E2726340E
 ## title
 Baroreceptors: |
@@ -58665,6 +59309,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
+
+
+---
+
+# Item
+## id
+QM-104-940FA9A20FD9
+## title
+The coronary blood flow:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The coronary blood flow:
+## answer_a
+Is autoregulated
+## explanation_a
+Correct. This leaf's own concept states coronary flow is regulated primarily by metabolic autoregulation (vasodilator metabolites such as adenosine, CO2, H+ and prostaglandins), not primarily by neural control — the flow is autoregulated to match myocardial O2 demand.
+
+Why this is right:
+- Contraction of the myocardium during systole compresses the coronary vessels within the ventricular wall, increasing their resistance and decreasing coronary flow to a minimum.
+## answer_b
+Increases in the endocardium during systole
+## explanation_b
+Reversed. Ventricular contraction compresses the intramural coronary vessels, driving flow to a MINIMUM during systole — hardest on the subendocardium specifically, which is exactly why it is most vulnerable to ischaemia — not an increase.
+## answer_c
+Decreases by adenosine
+## explanation_c
+Reversed. Adenosine is one of the vasodilator metabolites this leaf's own concept names as driving metabolic autoregulation — it INCREASES coronary flow by dilating coronary vessels as myocardial metabolism rises, not decreases it.
+## answer_d
+Of left ventricle, increases in systole
+## explanation_d
+Reversed, same error as B applied to the left ventricle specifically: coronary flow to the left ventricle falls, not rises, during systole, because ventricular contraction compresses the intramural vessels supplying it.
+## correct_answer
+A
+## main_concept
+CON-CVS-B29600F656A34B
+## library_ids
+ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Special Circulation (Coronary)
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Special Circulation
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that coronary blood flow is autoregulated primarily by local metabolic factors, and that it falls (not rises) in the subendocardium during systole and is decreased, not increased, by adenosine.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p25 q185. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: external-solved-book-recovered, sourced from a different solved question book rather than this bank's own printed answer). Re-verified directly against this leaf's own sourced concept (coronary-circulation.phasic-flow-and-autoregulation): flow is regulated primarily by metabolic autoregulation, falls to a minimum during systole (hardest on the subendocardium), and adenosine is a vasodilator metabolite that raises, not lowers, flow — confirming A and ruling out B, C and D independently.
 
 
 ---
@@ -63073,6 +63809,190 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
+
+
+---
+
+# Item
+## id
+QM-104-B2297F1A46BE
+## title
+All of the following cause pulmonary vasoconstriction Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following cause pulmonary vasoconstriction Except:
+## answer_a
+Low alveolar PO2
+## explanation_a
+True, so not the exception. This leaf's own sourced concept states pulmonary arterioles constrict in response to local alveolar hypoxia — low alveolar PO2 is exactly that trigger.
+## answer_b
+High alveolar PCO2
+## explanation_b
+True, so not the exception. This leaf's own sourced concept names high alveolar PCO2 alongside hypoxia as a trigger for pulmonary vasoconstriction.
+## answer_c
+Histamine
+## explanation_c
+True, so not the exception. Histamine is a pulmonary vasoconstrictor — the reverse of its systemic vasodilator action, one of the pulmonary bed's several exceptions to the usual rules.
+## answer_d
+Nitric Oxide
+## explanation_d
+The exception, and the answer. Nitric oxide is an endothelial vasoDILATOR everywhere in this module's own vascular-endothelium content, not a constrictor — the opposite direction from what this EXCEPT-question asks for.
+
+Why this is right:
+- Unlike systemic vessels, pulmonary arterioles constrict in response to low PO2.
+## correct_answer
+D
+## main_concept
+CON-CVS-76412894FAD01C
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology Respiratory System — Gas Transport by the Blood
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that low alveolar PO2 and high alveolar PCO2 both cause pulmonary vasoconstriction, while nitric oxide, an endothelial vasodilator, is the exception.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q76. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept: hypoxia and high alveolar PCO2 are both explicitly named as pulmonary vasoconstriction triggers, while nitric oxide is this module's own consistently-cited endothelial vasodilator (physiology-endothelium-and-vasoactive-hormones.ts), confirming D as the exception.
+
+
+---
+
+# Item
+## id
+QM-104-C4A8718FC88E
+## title
+Pulmonary vascular resistance
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Pulmonary vascular resistance
+## answer_a
+Increases when the lung volume increases towards total lung capacity
+## explanation_a
+Correct. This leaf's own sourced concept states PVR is lowest at functional residual capacity and rises toward both total lung capacity and residual volume — confirming that PVR increases as lung volume rises toward TLC.
+
+Why this is right:
+- Unlike systemic vessels, pulmonary arterioles constrict in response to low PO2.
+## answer_b
+Decreases when alveolar PCO is high
+## explanation_b
+Reversed. This leaf's own sourced concept states pulmonary arterioles constrict — raising, not lowering, resistance — in response to high alveolar PCO2, the same trigger as hypoxia.
+## answer_c
+Is determined by the arterioles
+## explanation_c
+Overstated. Pulmonary vascular resistance is influenced by more than the arterioles alone — this leaf's own concept ties PVR to lung-volume-dependent compression of both alveolar and extra-alveolar vessels, not arteriolar tone in isolation.
+## answer_d
+Is about 18mmH¢/L/min
+## explanation_d
+This leaf's own sibling concept (hemodynamics.flow-pressure-resistance-relationship) states the pulmonary circulation's own resistance works out to about 1.4 mmHg/L/min, not 18 — 18 mmHg/L/min is instead the SYSTEMIC circulation's resistance, a classic pulmonary/systemic figure swap.
+## correct_answer
+A
+## main_concept
+CON-CVS-76412894FAD01C
+## library_ids
+ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Transport by the Blood
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that pulmonary vascular resistance rises toward total lung capacity (not falls), and that high alveolar PCO2 raises, rather than lowers, PVR by causing vasoconstriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q182. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The bank's own recovered answer (B, from a different solved question book, answerConfidence: external-solved-book-recovered — not a same-file printed key) directly contradicts this leaf's own sourced concept, which states pulmonary vasoconstriction (raised resistance) follows high alveolar PCO2, not a fall in resistance. Re-verified against the same concept's own PVR-by-lung-volume curve (lowest at FRC, rising toward both TLC and RV): option A is the concept's own directly-stated relationship. Overridden to A.
 
 
 ---
@@ -72459,6 +73379,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-28A486EDC697
+## title
+Which one of the following is the correct statement regarding coronary food flow?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following is the correct statement regarding coronary food flow?
+## answer_a
+Coronary blood flow is directly related to perfusion pressure and inversely related to resistance
+## explanation_a
+Correct. This leaf's own concept states flow, pressure and resistance are related by F = deltaP / R for any vascular bed, coronary included — flow rises directly with perfusion pressure and falls directly with resistance (rises inversely as resistance falls).
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## answer_b
+Coronary blood flow is inversely related to perfusion pressure and inversely related to resistance
+## explanation_b
+Reversed on the pressure term. Coronary flow is DIRECTLY, not inversely, related to perfusion pressure — a higher driving pressure increases flow, all else equal.
+## answer_c
+Coronary blood flow is directly related to perfusion pressure and also to resistance
+## explanation_c
+Reversed on the resistance term. Coronary flow is INVERSELY, not directly, related to resistance — a higher resistance decreases flow, all else equal, exactly as F = deltaP / R states.
+## answer_d
+Coronary blood flow is inversely related to both pressure and resistance
+## explanation_d
+Reversed on both terms at once. Coronary flow is directly related to pressure and inversely related to resistance, not the reverse of both as this option states.
+## correct_answer
+A
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Apply F = deltaP / R to coronary flow: flow is directly related to perfusion pressure and inversely related to resistance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q75. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept (F = deltaP / R, applied identically to any vascular bed's flow), confirming A as the only option that states the relationship in the correct direction on both terms.
+
+
+---
+
+# Item
+## id
 QM-104-3B5DE99E918F
 ## title
 Quantitatively, the most important means for increasing blood flow to an actively metab…
@@ -73465,6 +74477,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
+
+
+---
+
+# Item
+## id
+QM-104-B54BCC87E86B
+## title
+Greatest total cross sectional area | a, Aorta |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Greatest total cross sectional area | a, Aorta |
+## answer_a
+Aorta
+## explanation_a
+Reversed. The department book's own Table (4-2) gives the aorta a cross-sectional area of only 2.5 cm^2 — the smallest of the vessel types compared, not the greatest.
+## answer_b
+Small arteries ‏ظ‎
+## explanation_b
+Not named in the book's own comparison table, which sets the aorta directly against capillaries (2.5 cm^2 vs 2500 cm^2) as the two poles of the cross-sectional-area range; small arteries sit between these two extremes, nowhere near the greatest.
+## answer_c
+Capillaries
+## explanation_c
+Correct. The department book's own Table (4-2) gives capillaries a total cross-sectional area of 2500 cm^2 against the aorta's 2.5 cm^2 — a thousand-fold greater total bore, which the book directly ties to the correspondingly thousand-fold lower capillary blood velocity (0.5 mm/sec vs 0.5 m/sec in the aorta).
+
+Why this is right:
+- Applying flow = pressure gradient / resistance to the whole circulation, total peripheral resistance of the systemic circulation is about 18 mmHg/L/min, while pulmonary vascular resistance is only about 1.4 mmHg/L/min for the same cardiac output.
+## answer_d
+Venules
+## explanation_d
+Venules are not named in the book's own aorta-vs-capillary comparison table; the book's own point is specifically that capillaries, not any other vessel type, carry the greatest total cross-sectional area.
+## correct_answer
+C
+## main_concept
+CON-CVS-FA5FB57963DDF7
+## library_ids
+ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that capillaries, not the aorta, small arteries or venules, have the body's greatest total vascular cross-sectional area, and that this is why capillary blood velocity is so much lower than aortic velocity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p17 q126. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists in the bank for this row (answerConfidence: external-solved-book-recovered, from a different solved question book rather than this bank's own printed answer, and the option set itself was repaired from a partial 2-option extraction). Re-verified directly against the department physiology book (p.45, Table 4-2, 'Cross sectional area'): Aorta 2.5 cm^2, Capillaries 2500 cm^2 — a direct numeric confirmation of option C, and of the book's own stated inverse relationship between cross-sectional area and blood velocity.
 
 
 ---
@@ -77059,6 +78163,282 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-AE1DF969B64D
+## title
+Concerning the olfactory epithelium:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the olfactory epithelium:
+## answer_a
+Supporting cells show numerous cilia
+## explanation_a
+Reversed. This leaf's own sourced concept credits the sustentacular (supporting) cells with apical microvilli in a fluid layer, not numerous cilia — it is the olfactory neuron that carries the few, long, non-motile cilia.
+## answer_b
+Olfactory neurons are unipolar cells
+## explanation_b
+Reversed. This leaf's own sourced concept states olfactory neurons are bipolar nerve cells, not unipolar.
+## answer_c
+Basal cells act as receptors
+## explanation_c
+Reversed. This leaf's own sourced concept describes basal cells as small pyramidal stem cells for the sensory and supporting cells, not as the sensory receptors themselves — that role belongs to the olfactory neurons.
+## answer_d
+Is a neuro-epithelium responsible for smell sensation
+## explanation_d
+Correct. The department book states directly that olfactory epithelium 'is the neuro-epithelium responsible for smell sensation' (p.29), the epithelium's own general definition, true regardless of which specific cell-type detail the three other options get wrong.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## correct_answer
+D
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that olfactory epithelium is the neuro-epithelium responsible for smell, against three commonly-confused cell-type details: supporting cells carry microvilli (not numerous cilia), olfactory neurons are bipolar (not unipolar), and basal cells are stem cells (not the sensory receptors).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q117. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified directly against this leaf's own sourced concept, itself grounded in the department histology book (p.29): D restates the book's own definition verbatim, while A, B and C each reverse a specific cell-type detail the same concept states in the opposite direction.
+
+
+---
+
+# Item
+## id
+QM-104-86E1EED14F32
+## title
+Bronchoconstriction is produced by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Bronchoconstriction is produced by:
+## answer_a
+Histamine
+## explanation_a
+Correct. This leaf's own sourced concept states histamine, released from mast cells during allergic reactions, is one of the chemical substances that cause bronchoconstriction and raise airway resistance.
+
+Why this is right:
+- Airway resistance is regulated by nervous and chemical factors, alongside the passive lateral traction alveolar expansion exerts on small-airway walls during inspiration.
+## answer_b
+Epinephrine
+## explanation_b
+Reversed. Epinephrine, like the sympathetic (β2 receptor) stimulation this leaf's own concept names, causes bronchodilation, not bronchoconstriction.
+## answer_c
+Vasopressin
+## explanation_c
+Vasopressin is not named among this leaf's own sourced concept's chemical or nervous factors regulating airway resistance at all — it is a renal water-retention hormone, not an airway-smooth-muscle regulator in this book's own account.
+## answer_d
+Noradrenaline
+## explanation_d
+Noradrenaline, like epinephrine, is a sympathomimetic; this leaf's own concept credits sympathetic (β2 receptor) stimulation with bronchodilation, the opposite of bronchoconstriction.
+## correct_answer
+A
+## main_concept
+CON-RES-42CB3060B8374C
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Name histamine, not epinephrine, vasopressin or noradrenaline, as the chemical factor the department book credits with producing bronchoconstriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q45. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified directly against the department physiology book (p.116, 'Chemical Factors' under airway resistance): 'Many chemical substances cause bronchoconstriction... Histamine: released from mast cells during allergic reactions' — a direct match for option A. The same page's own 'Nervous Factors' section credits sympathetic (β2) stimulation with bronchodilation, ruling out B and D by the same mechanism family; vasopressin is not named anywhere in this section, ruling out C.
+
+
+---
+
+# Item
+## id
+QM-104-3651F2F95433
+## title
+Which of the following are functions of components of the respiratory system?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following are functions of components of the respiratory system?
+## answer_a
+Warming and moistening of inhaled air
+## explanation_a
+True, so not the complete answer on its own. The department book names humidification and warming of inspired air among the conducting zone's three functions.
+## answer_b
+Delivering oxygen to and removing carbon dioxide from the blood
+## explanation_b
+True, so not the complete answer on its own. Gas exchange — delivering O2 to and removing CO2 from the blood — is the respiratory system's primary function, occurring at the alveoli.
+## answer_c
+Assisting in the maintenance of blood pH
+## explanation_c
+True, so not the complete answer on its own. The department book lists regulation of acid-base balance in blood as the first of the respiratory system's own named non-respiratory functions.
+## answer_d
+All of the above
+## explanation_d
+Correct. All three of the above are genuine functions the department book credits to the respiratory system's own components: humidification/warming (conducting zone, p.99), gas exchange (the primary respiratory function throughout the book), and acid-base regulation (its own first-listed non-respiratory function, p.98).
+
+Why this is right:
+- External respiration comprises four major functional events: pulmonary ventilation, gas exchange between alveoli and blood, transport of O2 and CO2 in the blood, and gas exchange between blood and tissues.
+## correct_answer
+D
+## main_concept
+CON-RES-77C80472558840
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Physiology
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Comprehensive true statement
+## learning_objective
+State that warming/moistening inspired air, gas exchange, and blood-pH regulation are all genuine functions the respiratory system's components carry out.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q18. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: external-solved-book-recovered, from a different solved question book). Re-verified directly against the department physiology book: p.98's own 'Non-Respiratory Functions of the Respiratory System' section (under the heading 'Organization of the Respiratory System') names 'Regulation of acid-base balance in blood' as item 1 of 9; p.99's own Conducting Zone section separately names 'Humidification and warming of inspired air' among its 3 functions; gas exchange is the book's central topic throughout. All three confirmed true, so D is the complete, correct answer.
+
+
+---
+
+# Item
+## id
 QM-104-817A9B423643
 ## title
 Cartilage in epiglottis, cuneiform, Corniculate is
@@ -80265,6 +81645,98 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q37. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D626B5F850FD
+## title
+prevent over distension in trachea
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+prevent over distension in trachea
+## answer_a
+smooth trachialis muscle
+## explanation_a
+The trachealis smooth muscle also bridges the C-shaped rings' posterior gap, but the department book credits it with constricting the lumen and increasing airflow force during coughing/forced expiration — a different function from preventing overdistension.
+## answer_b
+fibro elastic ligament
+## explanation_b
+Correct. The department book states directly that the fibro-elastic ligament bridging the tracheal rings' posterior gap 'prevents overdistension' (p.22 of the histology book) — the one structure this exact function is credited to, distinct from the trachealis muscle that shares the same gap.
+
+Why this is right:
+- The trachea, about 12 cm long, runs from the larynx to its bifurcation into the two primary bronchi.
+## answer_c
+Elastic membrane of mucosa
+## explanation_c
+The elastic membrane is a condensation of elastic fibres within the tracheal mucosa's lamina propria, a different layer entirely from the fibrocartilaginous coat's posterior gap this question turns on.
+## answer_d
+respiratory epithelium
+## explanation_d
+Respiratory epithelium lines the tracheal mucosa's free surface; it plays no structural role in bridging the cartilage rings' posterior gap or resisting overdistension.
+## correct_answer
+B
+## main_concept
+CON-RES-AA521B50D2ACAD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Name the fibro-elastic ligament, not the trachealis muscle, elastic membrane or epithelium, as the structure the department book credits with preventing tracheal overdistension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q38. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -84317,4 +85789,372 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respira
 Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-811DABBDD80B
+## title
+What type of tissue forms the alveoli in the lung?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of tissue forms the alveoli in the lung?
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Correct. This leaf's own sourced concept states type I pneumocytes are squamous alveolar cells covering about 97% of the alveolar surface — the dominant epithelial tissue forming the alveolar wall.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_b
+Simple cuboidal epithelium
+## explanation_b
+Simple cuboidal epithelium describes type II pneumocytes' own shape, but they cover only about 3% of the alveolar surface — the minority, not the tissue that principally 'forms the alveoli'.
+## answer_c
+Simple columnar epithelium
+## explanation_c
+Simple columnar epithelium describes neither pneumocyte type; this leaf's own sourced concept names only squamous (type I) and cuboidal (type II) shapes among the alveolar epithelium's two cell types.
+## answer_d
+Pseudostratified. epithelium
+## explanation_d
+Pseudostratified epithelium lines the conducting portion (trachea, bronchi), not the alveoli — a different region of the respiratory tract entirely.
+## correct_answer
+A
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that simple squamous epithelium (type I pneumocytes) forms the alveolar wall, covering 97% of its surface.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q13. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept, itself grounded in the department histology book (p.36): type I pneumocytes, described there as squamous alveolar cells, cover 97% of the alveolar surface — confirming A as the tissue that principally forms the alveolar wall.
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A1F9FAB8C215
+## title
+support lung tissue, prevent over-expansion
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+support lung tissue, prevent over-expansion
+## answer_a
+capillary network, elastic fiber
+## explanation_a
+Merges two components with different jobs: the capillary network is the septum's dense vascular bed (gas exchange), and elastic fibres ALLOW lung expansion during inspiration — neither is credited with preventing over-expansion.
+## answer_b
+reticular fiber
+## explanation_b
+Correct. This leaf's own sourced concept states reticular fibres 'support lung tissue and prevent overexpansion from injuring the capillaries' — the department book's own words for exactly this function.
+
+Why this is right:
+- The interalveolar septum is the delicate connective-tissue partition separating adjacent alveoli.
+## answer_c
+Extra leucocyte especially neutrophils
+## explanation_c
+This leaf's own sourced concept names extravasated MONOCYTES (which become alveolar phagocytes), not neutrophils, among the septum's own components — and their role is phagocytic, not structural support.
+## answer_d
+alveolar phagocyte
+## explanation_d
+Alveolar phagocytes are the differentiated descendants of the septum's own extravasated monocytes; they do not themselves support lung tissue or resist over-expansion, a structural role reticular fibres alone carry.
+## correct_answer
+B
+## main_concept
+CON-RES-4903189C8DA93C
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+Name reticular fibres, not the capillary network, elastic fibres or extravasated leucocytes, as the interalveolar septum's own component that supports lung tissue and prevents over-expansion injuring the capillaries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q60. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: No printed key exists (answerConfidence: external-solved-book-recovered, from a different solved question book). Re-verified directly against this leaf's own sourced concept, itself grounded in the department histology book (p.36): 'Reticular fibers to support lung tissue and prevent over-expansion that may injure the delicate blood capillaries' — a verbatim match for option B.
+
+
+---
+
+# Item
+## id
+QM-104-0DE2D595FB73
+## title
+fetal lung is characterized by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+fetal lung is characterized by:
+## answer_a
+its lobe, lobule not clear due to thin c- septa
+## explanation_a
+Reversed. The department book states the fetal lung's lobes and lobules ARE clear, due to the presence of THICK connective-tissue septa — not unclear due to thin septa.
+## answer_b
+its bronchi, bronchiole not folded
+## explanation_b
+Reversed. The department book states the fetal lung's bronchi and bronchioles ARE folded, not unfolded.
+## answer_c
+whole lung Sink in water, has medico-legal importance
+## explanation_c
+Correct. The department book states directly that the whole fetal lung sinks in water, a finding with medico-legal importance — the basis of the forensic test distinguishing a stillborn (lung never aerated, sinks) from a liveborn infant who breathed (lung aerated, floats).
+
+Why this is right:
+- The fetal lung has no respiratory function and so remains collapsed throughout intrauterine life.
+## answer_d
+branches of bronchiole are similar to acini
+## explanation_d
+Reversed at the wrong level. The department book states the fetal lung's ALVEOLI (not its bronchioles) are similar to a gland's acini — its bronchiolar tree is instead similar to a gland's ducts.
+## correct_answer
+C
+## main_concept
+CON-RES-20906FBD38031D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that the whole fetal lung sinks in water, a finding with medico-legal importance (the basis of the forensic lung-flotation test), against three reversed distractors about its lobulation, bronchiolar folding and bronchiole-to-acinus comparison.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p26 q67. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: No printed key exists (answerConfidence: same-file, but re-verified directly against the department book rather than assumed). The department histology book (p.38, 'Fetal Lung') states each of the four options' true content directly: lobes/lobules clear from thick septa (not A), bronchi/bronchioles folded (not B), 'the whole lung sinks in water & this has a medico-legal importance' (verbatim match for C), and alveoli — not bronchioles — resemble acini (not D as stated).
+
+
+---
+
+# Item
+## id
+QM-104-35F6125E5E6E
+## title
+fetal lung is similar to gland in
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+fetal lung is similar to gland in
+## answer_a
+bronchiole are similar to acini
+## explanation_a
+Reversed. The department book credits the ALVEOLI, not the bronchioles, with resembling a gland's acini — the bronchiolar tree itself is instead compared to a gland's ducts.
+## answer_b
+Cartilage plate around bronchi
+## explanation_b
+The book credits cartilage plates around the bronchi with being exactly what DIFFERENTIATES the fetal lung FROM a gland (glands have no cartilage) — the opposite of a similarity.
+## answer_c
+alveoli are similar to acini
+## explanation_c
+Correct. The department book states directly that the fetal lung is 'similar to a gland where branches of bronchiolar tree are similar to ducts and the alveoli are similar to acini' — alveoli are the acinus-equivalent structure.
+
+Why this is right:
+- The fetal lung has no respiratory function and so remains collapsed throughout intrauterine life.
+## answer_d
+alveoli are similar to duct
+## explanation_d
+Reversed at the wrong level. The book compares alveoli to acini, not to ducts — it is the bronchiolar tree, a different structure, that is compared to ducts.
+## correct_answer
+C
+## main_concept
+CON-RES-20906FBD38031D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Single best answer
+## learning_objective
+State that the fetal lung's alveoli, not its bronchioles, are what resemble a gland's acini — the bronchiolar tree instead resembles a gland's ducts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p26 q68. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: No printed key exists (answerConfidence: same-file, but re-verified directly against the department book rather than assumed). The department histology book (p.38, 'Fetal Lung', point 1) states verbatim: 'Similar to a gland where branches of bronchiolar tree are similar to ducts and the alveoli are similar to acini' — a direct match for option C, with A, B and D each reversing or misattributing a different detail from the same passage.
 

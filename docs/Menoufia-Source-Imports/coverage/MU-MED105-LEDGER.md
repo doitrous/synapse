@@ -1,41 +1,16 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
-| med105-end43-cvs | 42 | 0 | 28 | 70 |
+| med105-end43-cvs | 70 | 4 | 0 | 74 |
 | med105-final43-p1 | 0 | 0 | 36 | 36 |
 | med105-final43-p2 | 0 | 0 | 3 | 3 |
 
 ## Held
-(none)
+- med105-end43-cvs-q06 — image-dependent (arrow/labelled-diagram stem) -- rule 3/9
+- med105-end43-cvs-q18 — image-dependent (arrow/labelled-diagram stem) -- rule 3/9
+- med105-end43-cvs-q20 — printed stem corrupted/garbled in the source PDF itself; key legible via yellow highlight but the clinical-vignette wording cannot be faithfully reconstructed -- held per rule 10
+- med105-end43-cvs-q70 — image-dependent ("structure marked by (A)", a hand-drawn heart diagram) -- rule 3/9
 
 ## Remaining
-- med105-end43-cvs-q06
-- med105-end43-cvs-q18
-- med105-end43-cvs-q20
-- med105-end43-cvs-q46
-- med105-end43-cvs-q47
-- med105-end43-cvs-q48
-- med105-end43-cvs-q49
-- med105-end43-cvs-q50
-- med105-end43-cvs-q51
-- med105-end43-cvs-q52
-- med105-end43-cvs-q53
-- med105-end43-cvs-q54
-- med105-end43-cvs-q55
-- med105-end43-cvs-q56
-- med105-end43-cvs-q57
-- med105-end43-cvs-q58
-- med105-end43-cvs-q59
-- med105-end43-cvs-q60
-- med105-end43-cvs-q61
-- med105-end43-cvs-q62
-- med105-end43-cvs-q63
-- med105-end43-cvs-q64
-- med105-end43-cvs-q65
-- med105-end43-cvs-q66
-- med105-end43-cvs-q67
-- med105-end43-cvs-q68
-- med105-end43-cvs-q69
-- med105-end43-cvs-q74
 - med105-final43-p1-q01
 - med105-final43-p1-q02
 - med105-final43-p1-q03

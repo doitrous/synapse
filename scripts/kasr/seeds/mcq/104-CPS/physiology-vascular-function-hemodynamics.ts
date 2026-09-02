@@ -308,6 +308,25 @@ export const LEAF: McqLeafSeed = {
         D: 'Central venous pressure is set by venous return and right heart function, not directly by blood viscosity.',
       },
     },
+    // kasr-104-author-run46: bank-tagged "Special Circulation" (leaf-
+    // mismatch reroute — applies this leaf's own general flow/pressure/
+    // resistance relationship specifically to coronary flow, sharing the
+    // sourced concept rather than needing a fresh mint).
+    {
+      key: 'which-one-of-the-following-is-the-correct-statement-regardin-c5bde64a',
+      conceptKey: 'hemodynamics.flow-pressure-resistance-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Single best answer',
+      learningObjective: 'Apply F = deltaP / R to coronary flow: flow is directly related to perfusion pressure and inversely related to resistance.',
+      explanations: {
+        A: "Correct. This leaf's own concept states flow, pressure and resistance are related by F = deltaP / R for any vascular bed, coronary included — flow rises directly with perfusion pressure and falls directly with resistance (rises inversely as resistance falls).",
+        B: 'Reversed on the pressure term. Coronary flow is DIRECTLY, not inversely, related to perfusion pressure — a higher driving pressure increases flow, all else equal.',
+        C: 'Reversed on the resistance term. Coronary flow is INVERSELY, not directly, related to resistance — a higher resistance decreases flow, all else equal, exactly as F = deltaP / R states.',
+        D: 'Reversed on both terms at once. Coronary flow is directly related to pressure and inversely related to resistance, not the reverse of both as this option states.',
+      },
+      answerOverride: 'A',
+      answerOverrideReason: "No printed key exists (answerConfidence: editorial-no-printed-key). Re-verified against this leaf's own sourced concept (F = deltaP / R, applied identically to any vascular bed's flow), confirming A as the only option that states the relationship in the correct direction on both terms.",
+    },
     {
       key: 'quantitatively-the-most-important-means-for-increasing-blood-ee55525a',
       conceptKey: 'local-blood-flow-regulation.myogenic-and-metabolic-autoregulation',
@@ -504,24 +523,29 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
-      // kasr-104-author-run45: Veins cluster, excluded. Total vascular
-      // cross-sectional area by vessel type (greatest at the capillary
-      // level, despite each individual capillary's own tiny bore) is a
-      // standard hemodynamics fact but is not stated by this leaf's own
-      // sourced concepts, which cover the flow/pressure/resistance
-      // relationship and the vascular tree's pressure/compliance
-      // distribution without this specific cross-sectional-area claim.
-      // This session has no PDF or cached page-text access to the
-      // department physiology book, so the claim cannot be verified
-      // against the source.
+      // kasr-104-author-run46: revisited AND CORRECTED. Run 45 excluded this
+      // for "no PDF or cached page-text access" — false. My own first
+      // re-check this run used a shell-escaped "cross-sectional\|cross
+      // sectional" grep pattern, which this tool's regex does not parse as
+      // alternation the way a shell pipe would — that produced a false "0
+      // hits" I initially trusted. Re-running with a plain "|" alternation
+      // found the department physiology book's own Table (4-2) on p.45:
+      // Aorta cross-sectional area 2.5 cm^2 vs Capillaries 2500 cm^2 — a
+      // direct, numeric confirmation of the printed answer (capillaries
+      // have by far the greatest total cross-sectional area).
       key: 'greatest-total-cross-sectional-area-a-aorta-1242be79',
-      conceptKey: 'vascular-tree.pressure-and-compliance-distribution',
-      difficulty: 'Hard',
-      questionType: 'Not sittable as extracted.',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason: "Total vascular cross-sectional area by vessel type (greatest at the capillary level despite each capillary's own tiny bore) is a standard hemodynamics fact but is not stated by this leaf's own sourced concepts, which cover the flow/pressure/resistance relationship and the vascular tree's pressure/compliance distribution without this specific cross-sectional-area claim. This session had no PDF or cached page-text access to the department physiology book (Desktop path unreachable, no pagetext cache present), so the claim cannot be verified against the source rather than asserted from outside knowledge. The row's own recovery method (fuzzy-token-overlap against a different exam book, options repaired from a 2-option extraction) is also this bank's lowest-confidence recovery tier.",
+      conceptKey: 'hemodynamics.flow-pressure-resistance-relationship',
+      difficulty: 'Moderate',
+      questionType: 'Single best answer',
+      learningObjective: "State that capillaries, not the aorta, small arteries or venules, have the body's greatest total vascular cross-sectional area, and that this is why capillary blood velocity is so much lower than aortic velocity.",
+      explanations: {
+        A: "Reversed. The department book's own Table (4-2) gives the aorta a cross-sectional area of only 2.5 cm^2 — the smallest of the vessel types compared, not the greatest.",
+        B: "Not named in the book's own comparison table, which sets the aorta directly against capillaries (2.5 cm^2 vs 2500 cm^2) as the two poles of the cross-sectional-area range; small arteries sit between these two extremes, nowhere near the greatest.",
+        C: "Correct. The department book's own Table (4-2) gives capillaries a total cross-sectional area of 2500 cm^2 against the aorta's 2.5 cm^2 — a thousand-fold greater total bore, which the book directly ties to the correspondingly thousand-fold lower capillary blood velocity (0.5 mm/sec vs 0.5 m/sec in the aorta).",
+        D: "Venules are not named in the book's own aorta-vs-capillary comparison table; the book's own point is specifically that capillaries, not any other vessel type, carry the greatest total cross-sectional area.",
+      },
+      answerOverride: "C",
+      answerOverrideReason: "No printed key exists in the bank for this row (answerConfidence: external-solved-book-recovered, from a different solved question book rather than this bank's own printed answer, and the option set itself was repaired from a partial 2-option extraction). Re-verified directly against the department physiology book (p.45, Table 4-2, 'Cross sectional area'): Aorta 2.5 cm^2, Capillaries 2500 cm^2 — a direct numeric confirmation of option C, and of the book's own stated inverse relationship between cross-sectional area and blood velocity.",
     },
     {
       // Bank-tagged leaf: "Vascular Function"; genuinely this file's own

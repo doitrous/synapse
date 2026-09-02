@@ -428,5 +428,21 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "Already flagged editorialExcluded in the bank: the correct pairing (paracortex / periarteriolar lymphatic sheath) is not available among the surviving options — option D is corrupted into an unrelated true statement, and option B pairs the correct lymph-node half with the wrong splenic half (red pulp instead of PALS).",
     },
+    {
+      // kasr-104-author-run46: this leaf's own remaining bank row (ledger's
+      // second Spleen batch, leaf=null in the raw bank). Well-grounded
+      // content (littoral cells = spleen and bone marrow sinusoid
+      // macrophages, per this module's own mononuclear-phagocyte-system
+      // concept) but a genuine 2-3-option contract violation independent
+      // of grounding.
+      key: "the-lymphatic-organ-containing-littoral-macrophage-cells-is-00df2662",
+      conceptKey: "spleen.capsule-trabeculae-white-pulp-and-red-pulp",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 3 lettered options survived extraction (A, B, D — no C), below the platform's 4-to-5-option import contract, with no printed answer (answerConfidence: editorial-no-printed-key). The underlying claim is well-grounded — this module's own mononuclear-phagocyte-system concept names littoral cells as the system's macrophages in the blood sinusoids of spleen AND bone marrow specifically — but the missing option C could plausibly have been 'bone marrow', which would make this an ambiguous two-correct-answer item rather than a clean single-best-answer one. Excluded for the contract violation rather than keyed against an incomplete option set.",
+    },
   ],
 }

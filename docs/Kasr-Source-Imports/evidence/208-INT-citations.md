@@ -1653,3 +1653,479 @@ Dr Abdallah Salah, PHARMA IN POINTS (2026), 2nd-priority instructor reference.
 0.75
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-GRANULOMA-DEFINITION-01
+## claim_id
+CLM-FND-208INT-GRANULOMA-DEFINITION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+2. Granulomatous inflammation (granuloma): Definition: Granulomatous inflammation is a specific pattern of chronic inflammation characterized by the localized aggregation of activated macrophages (granuloma). Morphology of granuloma: These aggregates form tiny granules which fuse to form a tumor like mass hence the suffix -oma. It is formed of a localized aggregate of macrophages, which are activated and transformed into so-called epithelioid cells surrounded by a cuff of lymphocytes.
+## locator_type
+printed_page
+## locator_page
+17
+## locator_section
+Types of chronic inflammation — Granulomatous inflammation (granuloma)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TNF-ADHESION-MOLECULES-01
+## claim_id
+CLM-FND-208INT-TNF-ADHESION-MOLECULES-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Two of the most important cytokines mediating inflammation and produced by macrophages are: Tumor necrosis factor (TNF) and interleukin-1, which enhance the expression of adhesion molecules on endothelium and inflammatory cells, activating fibroblasts for later healing and induce systemic response such as fever, lethargy, neutrophilia. [Table] Vasodilation — Histamine and Prostaglandins. Increased vascular permeability — Histamine, C3a, C5a and Leukotrienes. Chemotaxis, leukocyte recruitment & activation — TNF, IL-1, C3a, C5a and Leukotrienes. Fever — IL-1, TNF and Prostaglandins. Pain — Prostaglandins & Bradykinin.
+## locator_type
+printed_page
+## locator_page
+9
+## locator_section
+Chemical Mediators and Regulators of Inflammation — Cytokines; Table, Role of Mediators in Different Reactions of Inflammation (p.10)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-EMBRYONIC-TUMORS-01
+## claim_id
+CLM-FND-208INT-EMBRYONIC-TUMORS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+II. EMBRYONIC TUMORS: Definition, origin and age: Embryonic tumors are malignant tumors derived from embryonic cell remnants in infants and young children... Examples: 1. Neuroblastoma of adrenal medulla & sympathetic ganglia. 2. Retinoblastoma of eye. 3. Nephroblastoma of kidney. 4. Hepatoblastoma of liver. 5. Medulloblastoma of brain. [Table 3.5] Human Chorionic Gonadotrophin — Trophoblastic tumors.
+## locator_type
+printed_page
+## locator_page
+55
+## locator_section
+Embryonic Tumors; Table 3.5 tumor markers (p.64, hCG/trophoblastic tumors row)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-CARCINOMA-IN-SITU-01
+## claim_id
+CLM-FND-208INT-CARCINOMA-IN-SITU-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Carcinoma In Situ (CIS): Definition: Carcinoma in situ (CIS) represents a pre-invasive stage of carcinoma involving the full thickness of the epithelium and is characterized by severe epithelial atypia (severe dysplasia) without invasion of the basement membrane... Microscopic features: Diffuse cellular atypia involving the whole thickness of the affected epithelium. The cells are pleomorphic with dark nuclei and numerous mitoses. Their architectural orientation (polarity) is disturbed. No invasion of basement membrane.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+Carcinoma In Situ (CIS)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-HEMATOGENOUS-SPREAD-01
+## claim_id
+CLM-FND-208INT-HEMATOGENOUS-SPREAD-01
+## resource_id
+src_3cd975bf1e54eb95af19
+## evidence_role
+local_curriculum
+## support_span
+Fate of emboli (tumor emboli): 3) Tumor cells enter circulation as emboli. Most are destroyed by immune mechanisms. Surviving tumor cells adhere to platelets which protects them from antitumor host immune cells. Finally surviving tumor cell emboli get impacted in small vessels where they adhere to endothelium, cross basement membrane and settle in new site (homing) where tumor cells proliferate forming metastatic deposits (2ry tumors).
+## locator_type
+printed_page
+## locator_page
+102
+## locator_section
+Fate of emboli (tumor emboli)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR. Cross-checked against the 208 INT Pathology Department Book's own hematogenous-spread section (src_71e9056fb934dc28806a, p.42-44) for the routes/sites facts (options a, c, d); that section does not itself state the immune-destruction fact this claim/citation covers.
+## context_note
+"Symphony of Pink & Purple — General Pathology Book Part 1", tier-6 student-compiled revision notes (208 INT/EOM folder) — lower-confidence than the department book; used only because the department book does not state this specific fact.
+## confidence
+0.6
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-DYSPLASIA-DEFINITION-01
+## claim_id
+CLM-FND-208INT-DYSPLASIA-DEFINITION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Dysplasia: Definition: It is non-neoplastic disordered proliferation of cells, usually induced by prolonged cell irritation... Prognosis & Clinical significance: Low grade dysplasia is commonly reversible when the irritating cause is removed.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+Dysplasia
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LOCALIZED-ATROPHY-01
+## claim_id
+CLM-FND-208INT-LOCALIZED-ATROPHY-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+2. Pathological: a. Localized atrophy: i. Hormonal atrophy... ii. Vascular atrophy... iii. Pressure atrophy: Atrophy of the vertebral bodies due to pressure atrophy by aneurysm... iv. Neuropathic atrophy... v. Disuse atrophy... b. Generalized atrophy... Increased catabolism as in advanced stages of malignancy (cachexia) and thyrotoxicosis.
+## locator_type
+printed_page
+## locator_page
+35
+## locator_section
+Atrophy — Types & causes
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-MYOSITIS-OSSIFICANS-01
+## claim_id
+CLM-FND-208INT-MYOSITIS-OSSIFICANS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+II-Mesenchymal Metaplasia: Connective tissue metaplasia is the formation of cartilage, bone, or adipose tissue (mesenchymal tissues) in tissues that normally do not contain these elements. For example, bone formation in muscle, designated myositis ossificans, occasionally occurs after intramuscular hemorrhage.
+## locator_type
+printed_page
+## locator_page
+37
+## locator_section
+Mesenchymal Metaplasia
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LOCALLY-MALIGNANT-TUMORS-01
+## claim_id
+CLM-FND-208INT-LOCALLY-MALIGNANT-TUMORS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Intermediate Tumors (Locally Malignant Tumors). Some malignant tumors are locally invasive and destructive but rarely give rise to metastases... Examples: Basal cell carcinoma of the skin... Giant cell tumor of bone (osteoclastoma). Adamantinoma. Some neuroendocrine tumors as carcinoid tumor. Chordoma. Some tumors of CNS as craniopharyngioma.
+## locator_type
+printed_page
+## locator_page
+46
+## locator_section
+Intermediate Tumors (Locally Malignant Tumors)
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-CHORISTOMA-01
+## claim_id
+CLM-FND-208INT-CHORISTOMA-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+II- CHORISTOMA. Choristoma is a congenital anomaly consisting of a heterotropic rest of cells. For example: a small nodule of well-developed and normally organized pancreatic tissue may be found in the mucosa of the stomach, duodenum or [elsewhere].
+## locator_type
+printed_page
+## locator_page
+56
+## locator_section
+Tumor-Like Lesions — Choristoma
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TNM-STAGING-01
+## claim_id
+CLM-FND-208INT-TNM-STAGING-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+This system uses a classification called the TNM system—T for primary tumor, N for regional lymph node involvement, and M for metastases. TNM staging varies for specific forms of cancer, but there are general principles: The primary lesion is characterized as T1 to T4 based on increasing size.
+## locator_type
+printed_page
+## locator_page
+63
+## locator_section
+Staging of Cancer — TNM System
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-IMPLANTATION-CYST-01
+## claim_id
+CLM-FND-208INT-IMPLANTATION-CYST-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+4. Implantation epidermal cyst: During regeneration of the epidermis some epidermal cells may grow down the cut edges of the dermis. These are later resorbed; if they remain, they may grow into a keratin-filled cyst in the epidermis.
+## locator_type
+printed_page
+## locator_page
+27
+## locator_section
+Complications of Wound Healing
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TISSUE-FIXATION-01
+## claim_id
+CLM-FND-208INT-TISSUE-FIXATION-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+2. Specimen Fixation: Proper and timely fixation is a critical step in preparation for diagnosis. The fixative of choice is 10% buffered formalin. 3. Tissue Processing: Once the tissue has been fixed, it must be processed into a form in which it can be made into thin microscopic sections.
+## locator_type
+printed_page
+## locator_page
+129
+## locator_section
+Techniques Used in Pathology — Specimen Fixation
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.9
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-LUPUS-VULGARIS-01
+## claim_id
+CLM-FND-208INT-LUPUS-VULGARIS-01
+## resource_id
+src_71e9056fb934dc28806a
+## evidence_role
+local_curriculum
+## support_span
+Lupus vulgaris. It is the prototype of skin tuberculosis, which can occur by exogenous inoculation or endogenous spread (direct from tuberculous lesion, lymphatic or blood).
+## locator_type
+printed_page
+## locator_page
+98
+## locator_section
+Bacterial Infections — Tuberculosis — Lupus Vulgaris
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Kasr Al Ainy 208 INT Pathology Department Book.
+## confidence
+0.85
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-TACHYPHYLAXIS-01
+## claim_id
+CLM-FND-208INT-TACHYPHYLAXIS-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Tachyphylaxis is generally absent in direct agonists / Tachyphylaxis is markedly present in indirect agonists ... Tachyphylaxis occurs due to depletion of releasable NE stores from nerve terminals / Repeated administration at short intervals leads to pronounced decrease in response (Tachyphylaxis).
+## locator_type
+printed_page
+## locator_page
+3
+## locator_section
+Autonomic Nervous System — Sympathomimetics — Tachyphylaxis
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2nd priority instructor material).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-BACLOFEN-01
+## claim_id
+CLM-FND-208INT-BACLOFEN-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Spasmolytic Drugs are used to treat spasticity, which is a velocity-dependent increase in muscle tone with exaggerated reflexes ... Baclofen is a Centrally Acting Spasmolytic that acts as a GABA-B receptor agonist in the spinal cord. Baclofen is the first-line treatment for spasticity resulting from spinal cord injury and multiple sclerosis. Abrupt withdrawal of Baclofen can cause seizures and hallucinations.
+## locator_type
+printed_page
+## locator_page
+5
+## locator_section
+Neuromuscular and Spasmolytic Drugs — Baclofen
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2nd priority instructor material).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-FND-208INT-ADRENALINE-ANAPHYLAXIS-01
+## claim_id
+CLM-FND-208INT-ADRENALINE-ANAPHYLAXIS-01
+## resource_id
+src_9fa6c2788e36af56304e
+## evidence_role
+local_curriculum
+## support_span
+Adrenaline (Epinephrine) is a physiological Histamine antagonist that reverses life-threatening effects in anaphylaxis, including bronchospasm and hypotension.
+## locator_type
+printed_page
+## locator_page
+5
+## locator_section
+Autonomic Nervous System — Sympathomimetics — Adrenaline
+## locator_detail
+Read via node scripts/content/pagetext.mjs show; native text layer, no OCR.
+## context_note
+Dr Abdallah Salah, PHARMA IN POINTS (2nd priority instructor material).
+## confidence
+0.75
+## counts_as_claim_evidence
+yes

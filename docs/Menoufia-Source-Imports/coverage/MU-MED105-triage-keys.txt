@@ -80,9 +80,12 @@ med105-end43-cvs-q66
 med105-end43-cvs-q67
 med105-end43-cvs-q68
 med105-end43-cvs-q69
-# q70: "structure marked by (A)" — image-dependent, rule 3/9 hold
-# q71-q73: red-text keyed (E/D/E) but image status/convention not reconciled — hold for S2 review
-# q74: pathology, lines-of-Zahn stem, text-only, not image-dependent
+med105-end43-cvs-q70
+# q70: "structure marked by (A)" — image-dependent, hand-drawn heart diagram — held under rule 3/9 (lane-2, 2026-09-02)
+med105-end43-cvs-q71
+med105-end43-cvs-q72
+med105-end43-cvs-q73
+# q71-q73: this triage's own note flagged a "second, inconsistent red-text marking" (E/D/E) on p16, unreconciled with the primary yellow-highlight convention. Lane-2's fresh p16 render (2026-09-02) found no such thing — p16 keys cleanly by the same yellow-highlight convention as every other page (q71=d, q72=a, q73=b, q74=a). The red-text guess was a tool misread; resolved, all three authored.
 med105-end43-cvs-q74
 
 ## med105-final43-p1 — CVS Final 43 - Paper 1 Answered.pdf / CVS Final 43 - Paper 1 Unanswered.pdf (mu_b2fc082f072c18432ad3 / mu_a3aa1fdea67779294c75; twin pair — Unanswered is stems-only, not double-counted; 51 raw numbered-stem hits, ~37 true continuous MCQ (q01-q37) + a second short MCQ block on p12 (q01-q08, own local numbering, not yet reconciled into this running list) + an essay/short-answer tail from p13 on — out of MCQ scope) — key convention: yellow highlight, confirmed p1 (q01=b, q02=c, q03=b); tool's own "red-text" hits (q18=E, q29=E, q37=B, plus the p12 block q01=B/q02=C/q03=D/q04=E/q08=A) are a second marking layer on top, not yet reconciled with the highlight convention
