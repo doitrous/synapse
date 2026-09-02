@@ -1,0 +1,40 @@
+# ZU-MED-108 (Professional Practice II) — triage keys
+# <source-slug>-qNN, one per SBA item authored this pass.
+# Source: Fakous P.P2 Final 2024.pdf (31/31 MCQs keyed, 100%, all render-confirmed).
+# A second usable source (OSPE "Answers" Yousef Amr.pdf, 17 SBA items, PDF
+# highlight-annotation keys, 100% keyed) was triaged but NOT authored this
+# pass — see coverage/ZU-MED-108-triage.md "Remaining / next author" note.
+
+# --- Fakous P.P2 Final 2024.pdf (author1 pass) ---
+
+pp2final24-q01
+pp2final24-q02
+pp2final24-q03
+pp2final24-q04
+pp2final24-q05
+pp2final24-q06
+pp2final24-q07
+pp2final24-q08
+pp2final24-q09
+pp2final24-q10
+pp2final24-q11
+pp2final24-q12
+pp2final24-q13
+pp2final24-q14
+pp2final24-q15
+pp2final24-q16
+pp2final24-q17
+pp2final24-q18
+pp2final24-q19
+pp2final24-q20
+pp2final24-q21
+pp2final24-q22
+pp2final24-q23
+pp2final24-q24
+pp2final24-q25
+pp2final24-q26
+pp2final24-q27
+pp2final24-q28
+pp2final24-q29
+pp2final24-q30
+pp2final24-q31
