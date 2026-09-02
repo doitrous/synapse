@@ -432,3 +432,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — FOMSCU SCU-FBS104 lane 1: TRIAGE NOT APPROVED (117c7f82, triage docs only)
 - EOM MID 2026: 34 items, only 4 are ≥4-option MCQs with a marked key; 22 are declarative recall statements, 7 sub-4-option. MEQ Book: 57 essay prompts, 0 SBA sub-questions. Combined 4/91 keyed = 4.4%. No sibling JSON, `01 University Material` empty for all four subjects. 0 authored.
 - NEEDS OMAR: a keyed FBS104 paper, or a ruling to author Foundation 3 by cross-university reuse without a native anchor, or permission to search the unclassified `_Staging/Telegram Year 1/` backlog. Slot refilled with SCU-MS105 lane 1. Fleet 20/20.
+
+### 2026-09-02 — HELWAN HU-ORL-305 ophthalmology lane 1 LANDED (ec65608b)
+- Bank 980 items + dedicated key: 959 joined (97.9%), 21 unkeyed. Ch1 (26) + Ch2 (13) + Ch3 #1-20 → 59/59 authored, 0 held. 34 mints (new `CON-OPH-*` family), 1 pending overlay onto Alexandria CON-NEU-3FF95D30CD5825 (ch1 batch shows errors=3 = that single dependency, same class as GIT-301 carcinoid). Self-caught a transcribed key (Q14 A not D) by cross-checking all 59 against the programmatic key extraction. ≈7.6k tok/q (no prior triage to reuse). Walls: no oph/ent subject id (pre-ruled `mul`), no DIS-OPH leaf for eyelid/lacrimal/orbit (T02 used).
+- Remaining 921/980. Lane 2 dispatched on Ch3 #21-96 + Ch4 (Y3 slot). Fleet 20/20.
