@@ -72,7 +72,9 @@
 | pms-quiz-q070 p105 key=A  testis: posterior border of tunica albuginea thickened = mediastinum testis -- new CON-AND-484A544CA03AE9 | 0 | 0 | 1 | 1 |
 | pms-quiz-q071 p105 key=D  normal position of uterus = anteverted and anteflexed -- new CON-GYN-D6C92DF7A6CD5E | 0 | 0 | 1 | 1 |
 | pms-quiz-q072 p106 key=A  length of the vas deferens = 45 cm -- new CON-AND-BF59EEBCE1D05B | 0 | 0 | 1 | 1 |
+| pmsfront | 26 | 0 | 0 | 26 |
 | pmsquiz30 | 50 | 0 | 0 | 50 |
+| pmstail | 23 | 0 | 0 | 23 |
 | quiz-embryology | 34 | 0 | 0 | 34 |
 | quiz-nervous-histology-urogenital | 38 | 0 | 0 | 38 |
 
