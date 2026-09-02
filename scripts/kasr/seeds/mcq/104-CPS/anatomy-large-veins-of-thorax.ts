@@ -84,6 +84,24 @@ export const LEAF: McqLeafSeed = {
 
   questions: [
     {
+      // kasr-104-author-run45: Veins cluster. Matches this leaf's own
+      // sourced concept directly: only the LEFT brachiocephalic vein
+      // receives the thoracic duct as one tributary among several, which
+      // is a different claim from "drains lymph from the whole body" — an
+      // overstatement of a single, one-sided tributary relationship.
+      key: "regarding-brachiocephalic-veins-one-of-the-following-stateme-8aac4731",
+      conceptKey: "brachiocephalic-veins.formation-and-course",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that the brachiocephalic veins do not 'drain lymph from the whole body' — only the left one receives the thoracic duct as one of several tributaries — against three genuine statements.",
+      explanations: {
+        A: "True, so not the incorrect statement — each brachiocephalic vein drains its own side's upper limb and head and neck, via the subclavian and internal jugular veins respectively.",
+        B: "The incorrect statement, and the answer. This leaf's own concept states only the LEFT brachiocephalic vein receives the thoracic duct, as one tributary alongside the left internal thoracic, first posterior intercostal and superior intercostal veins — a single one-sided tributary relationship, not a general claim that the brachiocephalic veins 'drain lymph from the whole body'.",
+        C: "True, so not the incorrect statement — the left brachiocephalic vein does receive the thoracic duct as a tributary, exactly as this leaf's own concept states.",
+        D: "True, so not the incorrect statement — the left brachiocephalic vein runs obliquely down and to the right, behind the upper half of the manubrium and along the aortic arch, before uniting with the right to form the SVC.",
+      },
+    },
+    {
       key: "concerning-the-azygos-vein-choose-the-false-answer-8fa1ebff",
       conceptKey: "azygos-vein.arch-and-relation-to-right-lung-root",
       difficulty: "Moderate",

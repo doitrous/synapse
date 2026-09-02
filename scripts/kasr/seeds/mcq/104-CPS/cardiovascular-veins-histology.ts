@@ -283,6 +283,26 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // kasr-104-author-run45: Veins cluster, excluded. The printed key
+      // (B, "Muscular arteries") contradicts this leaf's own already-
+      // established fact — longitudinal smooth muscle in the tunica
+      // adventitia is a LARGE VEIN feature (see this leaf's own
+      // tunica-adventitia-with-longitudinal-smooth-muscle-fibers-is-
+      // 26042411 and longitudinal-smooth-muscle-fiber-in-large-vein-
+      // 570e9e44), not a muscular-artery one. Options C and D are also
+      // visibly corrupted (C runs two unrelated fragments together; D,
+      // "No hyaline cartilage", is an unrelated bled-in fragment from a
+      // different question entirely, about bronchial cartilage).
+      key: "longitudinal-smooth-muscle-fibers-are-present-in-adventitia-abc2ab0d",
+      conceptKey: "vein-classification.venule-medium-and-large-vein-histology",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The printed answer (B, 'Muscular arteries') contradicts this leaf's own already-established fact — longitudinal smooth muscle in the tunica adventitia is a LARGE VEIN feature (confirmed twice already on this exact leaf: tunica-adventitia-with-longitudinal-smooth-muscle-fibers-is-26042411, longitudinal-smooth-muscle-fiber-in-large-vein-570e9e44), not a muscular artery's. Options C and D are also visibly corrupted — C runs two unrelated fragments together ('Interior vena cava' plus a bled-in intrapulmonary-bronchus stem), and D ('No hyaline cartilage') is an unrelated fragment from a different question about bronchial cartilage entirely. Excluded rather than keyed against a source this leaf's own sibling questions already establish differently.",
+    },
+    {
       key: "the-internal-elastic-lamina-in-the-medium-sized-artery-is-an-b0c0cd7a",
       conceptKey: "artery-vs-vein.medium-sized-histological-comparison",
       difficulty: "Moderate",

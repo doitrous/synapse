@@ -10,7 +10,7 @@
     The Internal Thoracic and Intercostal Arteries — 16 questions, 2 concepts
     The Intercostal Muscles — 4 questions, 1 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
-    The Brachiocephalic Veins, SVC and Azygos System — 9 questions, 5 concepts
+    The Brachiocephalic Veins, SVC and Azygos System — 10 questions, 5 concepts
     Anatomy Respiratory System — Lungs, Gross Anatomy — 21 questions, 10 concepts
     Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
@@ -29,7 +29,7 @@
     Anatomy Cardiovascular System — The Heart (external features) — 14 questions, 3 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 17 questions, 4 concepts
-    Histology Cardiovascular System — Veins — 19 questions, 2 concepts
+    Histology Cardiovascular System — Veins — 20 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
@@ -44,7 +44,7 @@
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 28 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 18 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
-    Lymphatic and Macrophage System — Lymph Node — 20 questions, 8 concepts
+    Lymphatic and Macrophage System — Lymph Node — 22 questions, 8 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Lymphatic and Macrophage System — Tonsils — 14 questions, 6 concepts
@@ -54,7 +54,7 @@
     Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 14 questions, 4 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 24 questions, 5 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 16 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 45 questions, 11 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 46 questions, 11 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 26 questions, 5 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 3 questions, 2 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
@@ -68,7 +68,7 @@
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 10 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 4 concepts
     Physiology Cardiovascular System — Interstitial Fluid Volume and Oedema — 7 questions, 1 concepts
-    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 26 questions, 7 concepts
+    Physiology Cardiovascular System — Hemodynamics, Arterial Pressure and Local Flow Regulation — 27 questions, 7 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 40 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 42 questions, 3 concepts
@@ -84,7 +84,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  206 questions were excluded and 0 held back for having no
+  211 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -898,6 +898,7 @@ The two brachiocephalic veins drain the head, neck, upper limbs and thoracic wal
 ## canonical_key
 brachiocephalic-veins.formation-and-course
 ## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p24 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-ANA-THORACIC-WALL-VEINS
