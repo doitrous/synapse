@@ -1,0 +1,59 @@
+# MU-MED102 triage keys — format f2end43-q<NN>, one per question.
+# S3 tier-1 triage, lane 1, 2026-09-02. Paper: End Foundation 2 Batch 43
+# (mu_a40cbe8d574c51896267 Questions / mu_56d88740af5ca3011894 Answers — same
+# 65-item exam, byte-identical stem/option text; the "Answers" file is the
+# same exam re-issued with the correct option grey-highlighted). Key
+# convention: grey highlight, confirmed p1-p16 (Q1-Q49); pagetext.mjs keys
+# does not detect it (see coverage/MU-MED102-triage.md's finding). Q50-65 not
+# yet read — remaining for the next dispatch.
+
+## f2end43 — End Foundation 2 Batch 43 (both files; 65 raw items, Q1-49 read this dispatch, Q50-65 remaining)
+f2end43-q01
+f2end43-q02
+f2end43-q03
+f2end43-q04
+f2end43-q05
+f2end43-q06
+f2end43-q07
+f2end43-q08
+f2end43-q09
+f2end43-q10
+f2end43-q11
+f2end43-q12
+f2end43-q13
+f2end43-q14
+f2end43-q15
+f2end43-q16
+f2end43-q17
+f2end43-q18
+f2end43-q19
+f2end43-q20
+f2end43-q21
+f2end43-q22
+# q23: dose-response curve image (competitive/non-competitive antagonism from a hand-drawn shifted-curve graph) — held per rule 3/9
+# q24: dose-response curve image (rank four log-dose curves A-D by potency) — held per rule 3/9
+f2end43-q25
+f2end43-q26
+# q27: dose-response curve image (competitive/non-competitive antagonism from a hand-drawn shifted-curve graph) — held per rule 3/9
+f2end43-q28
+f2end43-q29
+f2end43-q30
+f2end43-q31
+f2end43-q32
+f2end43-q33
+f2end43-q34
+f2end43-q35
+f2end43-q36
+f2end43-q37
+f2end43-q38
+f2end43-q39
+# q40: key conflict — printed grey-highlight marks A (Necrosis), a hand-drawn strike-through + yellow highlighter marks B (Apoptosis) instead; held per rule 1/10, not inferred which is authoritative
+f2end43-q41
+f2end43-q42
+f2end43-q43
+f2end43-q44
+f2end43-q45
+f2end43-q46
+f2end43-q47
+f2end43-q48
+f2end43-q49
