@@ -39,8 +39,8 @@
         "C": "Incorrect. Histones are the proteins that do the packing, but the named first-level packing unit they form is the nucleosome, not the histone protein by itself.",
         "D": "Correct. The nucleosome — a histone octamer (two copies each of H2A, H2B, H3 and H4) wrapped by about 140 bp of DNA, connected to the next nucleosome by H1-bound linker DNA — is the first level of DNA packing, giving chromatin its beads-on-a-string appearance before further, higher-order coiling condenses it into the metaphase chromosome. Because histones are lysine- and arginine-rich basic proteins, they are positively charged and bind the acidic, phosphate-rich DNA electrostatically. This first packing level is what all higher orders of chromatin condensation (30 nm fibre, loops, and finally the metaphase chromosome itself) are built on top of."
       },
-      "main_concept": "CON-FND-3660CDEFA054C3",
-      "concept_ids": ["CON-FND-3660CDEFA054C3"],
+      "main_concept": "CON-FND-9604144A11BB6A",
+      "concept_ids": ["CON-FND-9604144A11BB6A"],
       "contextual_concept_ids": [],
       "subject": "fnd",
       "topic": "Cell biology",
@@ -52,7 +52,7 @@
         "keySource": "hand-drawn-ink key, corrupted glyph on option d, confirmed by render --force (coverage/ZU-MED-103-triage.md)",
         "sourceProvenance": "Fakous campus"
       },
-      "library_ids": []
+      "library_ids": ["ART-FND-ZU103-CYTOLOGY-ENZYMES"]
     },
     {
       "key": "sf-final24-q02",
@@ -240,7 +240,7 @@
       "main_concept": "CON-HEM-6662F3A2C71802",
       "concept_ids": ["CON-HEM-6662F3A2C71802"],
       "contextual_concept_ids": [],
-      "subject": "hem",
+      "subject": "haem",
       "topic": "Hematology",
       "subtopic": "Granulocyte development",
       "difficulty": "Moderate",
@@ -273,7 +273,7 @@
       "main_concept": "CON-HEM-3DC3EAA5D4D84B",
       "concept_ids": ["CON-HEM-3DC3EAA5D4D84B"],
       "contextual_concept_ids": [],
-      "subject": "hem",
+      "subject": "haem",
       "topic": "Hematology",
       "subtopic": "Platelet origin",
       "difficulty": "Easy",
@@ -436,7 +436,7 @@
       },
       "correct": "A",
       "explanations": {
-        "A": "Correct. Sympathetic stimulation of abdominal organs inhibits intestinal secretions and motility — the opposite of the parasympathetic system's 'rest and digest' effect — redirecting the body's resources toward a 'fight or flight' state.",
+        "A": "Correct. Sympathetic stimulation of abdominal organs inhibits intestinal secretions and motility — the opposite of the parasympathetic system's 'rest and digest' effect. This redirects the body's resources toward a 'fight or flight' state. The same sympathetic activation simultaneously inhibits insulin release and promotes glycogenolysis, moving several digestive and metabolic processes in a coordinated direction at once.",
         "B": "Incorrect. Sympathetic stimulation inhibits, not stimulates, insulin secretion, acting via alpha-2 adrenergic receptors on pancreatic beta cells.",
         "C": "Incorrect. Sympathetic stimulation promotes glycogenolysis (glycogen breakdown, to raise blood glucose), not glycogenesis (glycogen synthesis), its opposite.",
         "D": "Incorrect. Sympathetic stimulation decreases, not increases, intestinal motility."
@@ -504,7 +504,7 @@
       "explanations": {
         "A": "Incorrect. Hypervolemia raises renal perfusion pressure, which suppresses, rather than stimulates, renin release from juxtaglomerular (JG) cells.",
         "B": "Incorrect. Hypertension likewise raises renal perfusion pressure, suppressing JG-cell renin release rather than stimulating it.",
-        "C": "Correct. Juxtaglomerular cells, modified smooth muscle cells in the afferent arteriole wall, release renin in response to reduced renal perfusion pressure — the state produced by hypovolemia — triggering the renin-angiotensin-aldosterone system to restore blood volume and pressure.",
+        "C": "Correct. Juxtaglomerular cells, modified smooth muscle cells in the afferent arteriole wall, release renin in response to reduced renal perfusion pressure — the state produced by hypovolemia. This triggers the renin-angiotensin-aldosterone system to restore blood volume and pressure. Hypervolemia and hypertension, by raising rather than lowering perfusion pressure, suppress this same release instead.",
         "D": "Incorrect. Hyperosmolarity is instead sensed by hypothalamic osmoreceptors, driving ADH release — a different sensor system entirely from the JG cells' pressure/volume sensing."
       },
       "main_concept": "CON-FND-F717A7C9B7E9BD",
@@ -537,7 +537,7 @@
       "explanations": {
         "A": "Incorrect. Angiotensin II stimulates, not inhibits, thirst sensation, as part of its overall water-and-sodium-retaining action.",
         "B": "Incorrect. Angiotensin II increases, not decreases, aldosterone secretion from the adrenal cortex.",
-        "C": "Correct. Angiotensin II increases ADH (vasopressin) secretion from the posterior pituitary, alongside its other roles of stimulating thirst and raising aldosterone — all coordinated toward retaining water and sodium to restore blood volume and pressure.",
+        "C": "Correct. Angiotensin II increases ADH (vasopressin) secretion from the posterior pituitary. This sits alongside its other roles of stimulating thirst and raising aldosterone. All three effects are coordinated toward retaining water and sodium to restore blood volume and pressure.",
         "D": "Incorrect. Angiotensin II opposes, rather than stimulates, atrial natriuretic peptide, which is released in response to volume expansion — a state angiotensin II's water-retaining actions work against."
       },
       "main_concept": "CON-FND-5CDB9C43FC9C5A",
@@ -576,7 +576,7 @@
       "main_concept": "CON-HEM-2536A37AD16C97",
       "concept_ids": ["CON-HEM-2536A37AD16C97"],
       "contextual_concept_ids": [],
-      "subject": "hem",
+      "subject": "haem",
       "topic": "Erythropoiesis",
       "subtopic": "Regulation of red cell production",
       "difficulty": "Moderate",
@@ -602,14 +602,14 @@
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Hereditary spherocytosis produces spherocytic, microcytic-appearing (not macrocytic) red cells that have lost the normal biconcave disc shape.",
-        "B": "Correct. Hereditary spherocytosis produces less-flexible spherical RBCs that hemolyze readily because of membrane-protein mutations (spectrin, ankyrin and related cytoskeletal proteins) — it is regarded as a type of hemolytic anemia, since the abnormal cells are prematurely destroyed, chiefly in the spleen.",
+        "B": "Correct. Hereditary spherocytosis produces less-flexible spherical RBCs that hemolyze readily because of membrane-protein mutations (spectrin, ankyrin and related cytoskeletal proteins). The abnormal cells are prematurely destroyed, chiefly in the spleen. Because that destruction is a hemolytic process, hereditary spherocytosis is classed as a hemolytic anemia.",
         "C": "Incorrect. Hereditary spherocytosis is most commonly autosomal dominant, not a non-sex-linked recessive disease.",
         "D": "Incorrect. The characteristic membrane defect increases permeability to Na+, not K+, contributing to the cell's fragility and loss of its normal shape."
       },
       "main_concept": "CON-HEM-88860E0417E50F",
       "concept_ids": ["CON-HEM-88860E0417E50F"],
       "contextual_concept_ids": [],
-      "subject": "hem",
+      "subject": "haem",
       "topic": "Hematology",
       "subtopic": "Hemolytic anemia",
       "difficulty": "Moderate",
@@ -668,14 +668,14 @@
       "correct": "B",
       "explanations": {
         "A": "Incorrect. 2,3-DPG falls, not rises, during blood storage, impairing the stored red cells' ability to offload oxygen after transfusion.",
-        "B": "Correct. During blood storage, red cells slowly lose membrane integrity and leak intracellular potassium into the plasma, so plasma K+ rises the longer blood is stored — a clinically relevant risk in massive or rapid transfusion, especially in neonates or renally impaired patients.",
+        "B": "Correct. During blood storage, red cells slowly lose membrane integrity and leak intracellular potassium into the plasma. Plasma K+ therefore rises the longer blood is stored. This is a clinically relevant risk in massive or rapid transfusion, especially in neonates or renally impaired patients.",
         "C": "Incorrect. Glucose (dextrose) falls, not rises, during storage, as ongoing red cell glycolysis consumes it and produces lactate — the option's framing reverses the direction of the glucose change.",
         "D": "Incorrect. Stored blood does not show a clinically significant rise in tissue factor as a defining storage-lesion change; this is not one of the recognised storage lesion findings."
       },
       "main_concept": "CON-HEM-7A52519741DD52",
       "concept_ids": ["CON-HEM-7A52519741DD52"],
       "contextual_concept_ids": [],
-      "subject": "hem",
+      "subject": "haem",
       "topic": "Blood transfusion",
       "subtopic": "Storage lesion",
       "difficulty": "Moderate",
@@ -733,7 +733,7 @@
       },
       "correct": "A",
       "explanations": {
-        "A": "Correct. Lactulose is an unabsorbed synthetic fructose-galactose disaccharide that retains bowel water — giving it an osmotic laxative effect used in constipation — and is metabolized by colonic bacteria to lactic acid, lowering colonic pH and trapping ammonia as the non-absorbable ammonium ion, the mechanism used to treat hepatic encephalopathy.",
+        "A": "Correct. Lactulose is an unabsorbed synthetic fructose-galactose disaccharide that retains bowel water, giving it an osmotic laxative effect used in constipation. It is also metabolized by colonic bacteria to lactic acid, lowering colonic pH. That lowered pH traps ammonia as the non-absorbable ammonium ion, the mechanism used to treat hepatic encephalopathy.",
         "B": "Incorrect. Sucrose is a normal dietary disaccharide (glucose-fructose) that is digested and absorbed; it has no laxative or ammonia-trapping therapeutic use.",
         "C": "Incorrect. Lactose is the normal dietary disaccharide of milk (glucose-galactose); it is not used therapeutically for constipation or hepatic encephalopathy.",
         "D": "Incorrect. Maltose is a starch-digestion product (two glucose units); it has no role in treating constipation or hepatic encephalopathy."
@@ -741,7 +741,7 @@
       "main_concept": "CON-GIT-CFF765C2EF7ED9",
       "concept_ids": ["CON-GIT-CFF765C2EF7ED9"],
       "contextual_concept_ids": [],
-      "subject": "git",
+      "subject": "gi",
       "topic": "Biochemistry",
       "subtopic": "Carbohydrates",
       "difficulty": "Moderate",
@@ -767,7 +767,7 @@
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Oleic acid is a non-essential fatty acid — the body synthesizes it readily.",
-        "B": "Correct. Linoleic acid, an omega-6 polyunsaturated fatty acid, is essential — the body cannot synthesize it de novo and must obtain it from the diet.",
+        "B": "Correct. Linoleic acid is an omega-6 polyunsaturated fatty acid. The body cannot synthesize it de novo, so it must be obtained from the diet. This is what makes it a true essential fatty acid, unlike arachidonic acid, which the body can build from linoleic acid itself.",
         "C": "Incorrect. Arachidonic acid, while biologically important as an eicosanoid precursor, is only conditionally essential: it can be synthesized from linoleic acid itself when dietary linoleic acid is adequate, so it is not a true dietary essential fatty acid in the same sense as linoleic acid.",
         "D": "Incorrect. Palmitic acid is a non-essential saturated fatty acid, readily synthesized by the body."
       },
@@ -901,10 +901,10 @@
         "A": "Incorrect. Albumin is a plasma transport protein; it does not bind DNA.",
         "B": "Incorrect. Globulins are a diverse plasma protein family (including antibodies and transport proteins); they do not bind DNA as a defining function.",
         "C": "Incorrect. Keratin is the intermediate filament protein of epithelium, an entirely structural cytoskeletal role unrelated to DNA binding.",
-        "D": "Correct. Histones are lysine- and arginine-rich basic proteins that condense DNA into nucleosomes — positively charged proteins that bind the acidic, phosphate-rich DNA electrostatically, forming the first level of chromatin packing."
+        "D": "Correct. Histones are lysine- and arginine-rich basic proteins that condense DNA into nucleosomes. As positively charged proteins, they bind the acidic, phosphate-rich DNA electrostatically. This binding forms the first level of chromatin packing."
       },
-      "main_concept": "CON-FND-3660CDEFA054C3",
-      "concept_ids": ["CON-FND-3660CDEFA054C3"],
+      "main_concept": "CON-FND-9604144A11BB6A",
+      "concept_ids": ["CON-FND-9604144A11BB6A"],
       "contextual_concept_ids": [],
       "subject": "fnd",
       "topic": "Cell biology",
@@ -916,7 +916,7 @@
         "keySource": "hand-drawn-ink key, corrupted glyph on option d, confirmed by render --force (coverage/ZU-MED-103-triage.md)",
         "sourceProvenance": "Fakous campus"
       },
-      "library_ids": []
+      "library_ids": ["ART-FND-ZU103-CYTOLOGY-ENZYMES"]
     },
     {
       "key": "sf-final24-q29",
@@ -938,7 +938,7 @@
       },
       "main_concept": "CON-FND-2D132215E37EC0",
       "concept_ids": ["CON-FND-2D132215E37EC0"],
-      "contextual_concept_ids": ["CON-FND-CA2D65E688434A"],
+      "contextual_concept_ids": [],
       "subject": "fnd",
       "topic": "Molecular biology",
       "subtopic": "tRNA structure",
@@ -966,7 +966,7 @@
       "explanations": {
         "A": "Incorrect. Lactate dehydrogenase is a cytoplasmic enzyme of glycolysis/gluconeogenesis; it only appears in blood after cell damage, but its normal site of action is intracellular.",
         "B": "Incorrect. Cytochrome oxidase (Complex IV) is a mitochondrial enzyme of the electron transport chain, entirely intracellular.",
-        "C": "Correct. Pancreatic lipase is secreted by pancreatic acinar cells into the pancreatic duct and, from there, into the intestinal lumen, where it acts on dietary triglycerides entirely outside any cell — a genuine extracellular enzyme.",
+        "C": "Correct. Pancreatic lipase is secreted by pancreatic acinar cells into the pancreatic duct and, from there, into the intestinal lumen. There it acts on dietary triglycerides entirely outside any cell. This makes it a genuine extracellular enzyme, unlike the three intracellular distractors listed here.",
         "D": "Incorrect. Hexokinase is a cytoplasmic enzyme catalysing the first step of glycolysis, an intracellular reaction."
       },
       "main_concept": "CON-FND-68D0529325255C",
@@ -998,7 +998,7 @@
       "correct": "B",
       "explanations": {
         "A": "Incorrect. Requiring structural resemblance to the substrate is the defining feature of competitive inhibition (which binds the same active site as the substrate), not non-competitive inhibition, which binds elsewhere.",
-        "B": "Correct. In reversible non-competitive inhibition, the inhibitor binds a site distinct from the substrate-binding site, effectively removing some active enzyme from the usable pool regardless of substrate concentration — so Vmax falls, and cannot be restored by adding more substrate.",
+        "B": "Correct. In reversible non-competitive inhibition, the inhibitor binds a site distinct from the substrate-binding site. This effectively removes some active enzyme from the usable pool regardless of substrate concentration. Vmax therefore falls, and cannot be restored by adding more substrate.",
         "C": "Incorrect. Km is characteristically unchanged in non-competitive inhibition, not increased — an increased Km is the signature of competitive inhibition instead.",
         "D": "Incorrect. Km is not decreased in non-competitive inhibition; it remains unchanged, since the inhibitor does not compete with the substrate for the same binding site."
       },
@@ -1065,7 +1065,7 @@
       "explanations": {
         "A": "Incorrect. Pyridoxine (B6) deficiency causes peripheral neuropathy, dermatitis and sideroblastic anemia, not this coagulation abnormality.",
         "B": "Incorrect. Riboflavin (B2) deficiency causes mucocutaneous findings (cheilosis, glossitis), not a clotting-time abnormality.",
-        "C": "Correct. Vitamin K is required for gamma-carboxylation of clotting factors II, VII, IX and X in the liver; newborns have low vitamin K stores (poor placental transfer, sterile gut with no bacterial vitamin K synthesis yet, low breast-milk content) and, without prophylaxis, can develop hemorrhagic disease of the newborn — bleeding, classically from the umbilicus, with a prolonged clotting time, exactly as in this vignette.",
+        "C": "Correct. Vitamin K is required for gamma-carboxylation of clotting factors II, VII, IX and X in the liver. Newborns have low vitamin K stores (poor placental transfer, a sterile gut with no bacterial vitamin K synthesis yet, low breast-milk content). Without prophylaxis they can develop hemorrhagic disease of the newborn — bleeding, classically from the umbilicus, with a prolonged clotting time, exactly as in this vignette.",
         "D": "Incorrect. Vitamin C deficiency causes scurvy, a connective-tissue and capillary fragility disorder, not a clotting-factor-dependent bleeding picture with prolonged clotting time."
       },
       "main_concept": "CON-FND-9D7A5392883B71",
@@ -1096,7 +1096,7 @@
       },
       "correct": "A",
       "explanations": {
-        "A": "Correct. Vitamin B1 (thiamine) is a cofactor (as thiamine pyrophosphate) for several key enzymes (pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase); its deficiency causes beriberi, presenting as either a peripheral neuropathy (dry beriberi) or high-output cardiac failure with edema (wet beriberi).",
+        "A": "Correct. Vitamin B1 (thiamine) is a cofactor, as thiamine pyrophosphate, for several key enzymes (pyruvate dehydrogenase, alpha-ketoglutarate dehydrogenase, transketolase). Its deficiency causes beriberi. This presents as either a peripheral neuropathy (dry beriberi) or high-output cardiac failure with edema (wet beriberi).",
         "B": "Incorrect. B2 (riboflavin) deficiency causes ariboflavinosis (cheilosis, glossitis, dermatitis), not beriberi.",
         "C": "Incorrect. B6 (pyridoxine) deficiency causes peripheral neuropathy and dermatitis, a different syndrome from beriberi.",
         "D": "Incorrect. B12 (cobalamin) deficiency causes megaloblastic anemia and neurological findings (subacute combined degeneration), not beriberi."
@@ -1165,7 +1165,7 @@
         "A": "Incorrect. Fatty acid oxidation depends on carnitine and the beta-oxidation enzyme system, not folate.",
         "B": "Incorrect. Fatty acid synthesis depends on acetyl-CoA carboxylase and fatty acid synthase, not folate.",
         "C": "Incorrect. Gluconeogenesis depends on its own dedicated enzyme set (pyruvate carboxylase, PEPCK, fructose-1,6-bisphosphatase, glucose-6-phosphatase), not folate.",
-        "D": "Correct. Folic acid, as its coenzyme form tetrahydrofolate, carries and transfers one-carbon units (methyl, methylene, formyl groups) in reactions including purine synthesis, thymidylate (dTMP) synthesis, and methionine regeneration from homocysteine — collectively 'one-carbon metabolism', folate's core biochemical role."
+        "D": "Correct. Folic acid, as its coenzyme form tetrahydrofolate, carries and transfers one-carbon units (methyl, methylene, formyl groups). These transfers support reactions including purine synthesis, thymidylate (dTMP) synthesis, and methionine regeneration from homocysteine. Collectively this is 'one-carbon metabolism', folate's core biochemical role."
       },
       "main_concept": "CON-FND-BFB1DD86709AE7",
       "concept_ids": ["CON-FND-BFB1DD86709AE7"],

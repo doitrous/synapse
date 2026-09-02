@@ -1,5 +1,5 @@
 <!--
-  ZU-MED-103 (Structure and Function) — 26 NEW concepts minted for the
+  ZU-MED-103 (Structure and Function) — 27 NEW concepts minted for the
   sf-final24 cluster, authored from `Final S&F 2024 .pdf` (Zagazig's Fakous
   campus, Faculty of Medicine — source provenance ruled usable by the chief
   of staff, 2026-09-01; see LANE-CARD.md §7). Search-before-mint run against
@@ -10,13 +10,178 @@
   option 3, `resource_ids`/`atomic_claim_ids` are left blank here and the
   citation lives only in each question's `source_citation`.
 
-  3 live-hit and 5 pending-hit (6 questions) concepts from the same triage
+  3 live-hit and 4 pending-hit (4 questions) concepts from the same triage
   are handled as sparse overlays, not here: see
   `concept/ZU-MED-103-sf-final24-live-overlays.md` and
-  `pending-live/ZU-MED-103-sf-final24-pending-overlays.md`.
+  `pending-live/ZU-MED-103-sf-final24-pending-overlays.md`. A 5th pending
+  candidate for Q1/Q28 (Kasr 102-INT's histone/nucleosome concept) was found
+  but dropped — its own article_ids is empty, no article covers it anywhere
+  in the corpus — so Q1 and Q28 mint the covered concept below instead
+  (`CON-FND-9604144A11BB6A`) rather than propagate a broken coverage chain.
 
   Import: Admin › Concepts › Import.
 -->
+
+# Item
+
+## id
+CON-FND-9604144A11BB6A
+
+## label
+Histones condense DNA into nucleosomes, the first level of DNA packing, by binding it electrostatically
+
+## canonical_key
+histone.nucleosome.dna-condensation-first-packing-level
+
+## aliases
+Nucleosome
+Histone-DNA binding
+First level of chromatin packing
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## definition
+Histones are lysine- and arginine-rich basic proteins; their positive charge lets them bind the acidic, phosphate-rich DNA electrostatically. This binding condenses DNA into nucleosomes — a histone octamer (two copies each of H2A, H2B, H3 and H4) wrapped by about 140 bp of DNA, connected to the next nucleosome by H1-bound linker DNA — the first level of DNA packing, on top of which all higher orders of chromatin condensation (30 nm fibre, loops, and finally the metaphase chromosome) are built. Among plasma/structural proteins, histone is the one with a DNA-binding function; albumin, globulin and keratin do not bind DNA.
+
+## explicit_objective
+State that histones condense DNA into nucleosomes — the first level of DNA packing — by electrostatic binding, and identify histone as the DNA-binding protein among albumin, globulin and keratin.
+
+## pitfalls
+Naming a level of chromatin organisation (euchromatin) or an entirely different molecule (a gene) instead of the nucleosome as the first packing level, or attributing DNA-binding to a non-DNA-binding structural/plasma protein (albumin, globulin, keratin) instead of histone.
+
+## concept_type
+mechanism
+
+## status
+Draft
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+Cell biology
+
+## subtopic
+Chromatin structure
+
+## microtopic
+Nucleosome and histone-DNA binding
+
+## nanotopic
+
+
+## modules
+ZU-MED-103
+
+## article_ids
+ART-FND-ZU103-CYTOLOGY-ENZYMES
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## learner_years
+1
+
+## universities
+zu
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+ZU_Y1=0.6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.4
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## original_wording
+"What is the first level of DNA packing in metaphase chromosome? a. Euchromatin b. Gene c. Histone d. Nucleosome" ANSWER: d (hand-drawn-ink key, Final S&F 2024 .pdf p.2 Q1); "Which one of the following proteins binds to DNA? a. Albumin b. Globulin c. Keratin d. Histone" ANSWER: d (hand-drawn-ink key, Final S&F 2024 .pdf p.5 Q28)
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+CON-FND-3660CDEFA054C3 (Kasr 102-INT, "Histones... condense DNA into nucleosomes") states the same underlying fact but carries no article_ids anywhere in the corpus — searched via `find-existing.mjs "nucleosome"`; not overlaid onto, since a question would then have no article that can teach it, per the same reasoning documented for ZU-MED-107's dropped Helwan HU-BMS-102 candidate.
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+No department-book or corpus-indexed source beyond this exam paper; a standard cell-biology/biochemistry textbook citation would strengthen this before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## field_notes
+sourceProvenance: Fakous campus (Zagazig's second Faculty of Medicine) — see LANE-CARD.md §7.
+resourceIds: No evidence-store src_ id exists for Final S&F 2024 .pdf yet; cited via question source_citation only, per 12-resources.md option 3.
+primaryNodeId: No verified canonical taxonomy node supplied; left unguessed rather than invented.
+
+---
 
 # Item
 
@@ -380,7 +545,7 @@ Draft
 direct_statement
 
 ## subject
-hem
+haem
 
 ## primary_node_id
 
@@ -1821,7 +1986,7 @@ Draft
 direct_statement
 
 ## subject
-hem
+haem
 
 ## primary_node_id
 
@@ -2141,7 +2306,7 @@ Draft
 direct_statement
 
 ## subject
-hem
+haem
 
 ## primary_node_id
 

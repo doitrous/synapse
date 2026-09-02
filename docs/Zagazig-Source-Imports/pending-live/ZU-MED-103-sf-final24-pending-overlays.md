@@ -1,12 +1,20 @@
 <!--
-  ZU-MED-103 (Structure and Function) — 5 sparse PENDING-LIVE concept
-  overlays, covering 6 questions (CON-FND-3660CDEFA054C3 is targeted by both
-  Q1 and Q28).
+  ZU-MED-103 (Structure and Function) — 4 sparse PENDING-LIVE concept
+  overlays, covering 4 questions.
+
+  A 5th candidate, CON-FND-3660CDEFA054C3 (Kasr 102-INT, "Histones... condense
+  DNA into nucleosomes"), was found for Q1/Q28 by `find-existing.mjs
+  "nucleosome"` but dropped: its own `article_ids` field is empty — no
+  authored article covers it anywhere in the corpus, a gap in Kasr's own
+  102-INT batch, not fixable from here (same reasoning as ZU-MED-107's own
+  dropped Helwan HU-BMS-102 candidate, `pending-live/ZU-MED-107-git-pending-
+  overlays.md`). Q1 and Q28 mint a fresh, covered concept instead
+  (`CON-FND-9604144A11BB6A`, `concept/ZU-MED-103-sf-final24-concepts.md`).
 
   Every ## id below targets a concept that exists ONLY in another lane's
   unimported batch — none is in server/data/medical-library-v1.json yet
   (checked directly against the live JSON). Apply this file ONLY after the
-  named source file (Kasr 101-ISK / 102-INT, or Ain Shams ASU-IMM) is live.
+  named source file (Kasr 101-ISK, or Ain Shams ASU-IMM) is live.
 
   Per 00-START-HERE.md §4 ("A hit only in another lane's unimported batch →
   the same sparse update, written into <import root>/pending-live/<slug>.md")
@@ -23,29 +31,6 @@
   *locally* declares). `## learner_years` is a plain-number ID-list field,
   already `1` on every target below, so no addition is needed there.
 -->
-
-# Item
-
-## id
-CON-FND-3660CDEFA054C3
-
-## label
-Histones are lysine- and arginine-rich basic proteins that condense DNA into nucleosomes — an octamer core of H2A, H2B, H3 and H4 wrapped by about 140 bp of DNA, connected by H1-bound linker DNA into a beads-on-a-string chromatin fibre
-
-## universities
-+zu
-
-## modules
-+ZU-MED-103
-
-## module_subject
-ZU-MED-103 > Structure and Function > Cell biology
-102 INT > Biochemistry > Nucleic acids
-
-## field_notes
-zu: Final S&F 2024 .pdf (Zagazig, Fakous campus — LANE-CARD.md §7), Q1, "What is the first level of DNA packing in metaphase chromosome?" (answer: Nucleosome, hand-drawn-ink key) and Q28, "Which one of the following proteins binds to DNA?" (answer: Histone, hand-drawn-ink key). Both questions land on the same underlying fact this Kasr 102-INT concept already states in full (histones bind/condense DNA into nucleosomes) — one concept answers both without becoming two stapled facts, same pattern as ZU-MED-106's Q14/Q17 and ZU-MED-107's Q6/Q9/Q13. Found by `find-existing.mjs "nucleosome"`.
-
----
 
 # Item
 

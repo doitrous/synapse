@@ -117,6 +117,7 @@ Attributing "structural resemblance to substrate" to non-competitive inhibition 
 CON-FND-9E974C31428468
 CON-FND-2D132215E37EC0
 CON-FND-946D9212199A64
+CON-FND-9604144A11BB6A
 
 ## related_articles
 
@@ -147,6 +148,11 @@ ZU-MED-103
 
 ## university_notes
 zu: Fakous campus (Zagazig's second Faculty of Medicine), Final S&F 2024 exam paper, Q2/Q29/Q31 — hand-drawn-ink answer keys, recovered by corrupted-glyph inference and confirmed by rendering the scanned page (LANE-CARD.md §7).
+
+## field_notes
+arabicTitle: Arabic terminology has not been reviewed for this record yet; left blank rather than machine-translated.
+resourceIds: No evidence-store src_ id exists for Final S&F 2024 .pdf yet; cited via each question's source_citation only, per 12-resources.md option 3.
+primaryNodeId: No verified canonical taxonomy node supplied; left unguessed rather than invented.
 
 ---
 
@@ -286,6 +292,11 @@ ZU-MED-103
 ## university_notes
 zu: Fakous campus (Zagazig's second Faculty of Medicine), Final S&F 2024 exam paper, Q3/Q10 — hand-drawn-ink answer keys, recovered by corrupted-glyph inference and confirmed by rendering the scanned page (LANE-CARD.md §7).
 
+## field_notes
+arabicTitle: Arabic terminology has not been reviewed for this record yet; left blank rather than machine-translated.
+resourceIds: No evidence-store src_ id exists for Final S&F 2024 .pdf yet; cited via each question's source_citation only, per 12-resources.md option 3.
+primaryNodeId: No verified canonical taxonomy node supplied; left unguessed rather than invented.
+
 ---
 
 # Item
@@ -305,7 +316,7 @@ Renal anemia
 Blood storage lesion
 
 ## subject
-hem
+haem
 
 ## topic
 Hematology
@@ -427,6 +438,11 @@ ZU-MED-103
 
 ## university_notes
 zu: Fakous campus (Zagazig's second Faculty of Medicine), Final S&F 2024 exam paper, Q7/Q18/Q21 — hand-drawn-ink answer keys, recovered by corrupted-glyph inference and confirmed by rendering the scanned page (LANE-CARD.md §7).
+
+## field_notes
+arabicTitle: Arabic terminology has not been reviewed for this record yet; left blank rather than machine-translated.
+resourceIds: No evidence-store src_ id exists for Final S&F 2024 .pdf yet; cited via each question's source_citation only, per 12-resources.md option 3.
+primaryNodeId: No verified canonical taxonomy node supplied; left unguessed rather than invented.
 
 ---
 
@@ -586,6 +602,11 @@ ZU-MED-103
 ## university_notes
 zu: Fakous campus (Zagazig's second Faculty of Medicine), Final S&F 2024 exam paper, Q11/Q12/Q13/Q14/Q15/Q16/Q17/Q20/Q30 — hand-drawn-ink answer keys, recovered by corrupted-glyph inference and confirmed by rendering the scanned page (LANE-CARD.md §7).
 
+## field_notes
+arabicTitle: Arabic terminology has not been reviewed for this record yet; left blank rather than machine-translated.
+resourceIds: No evidence-store src_ id exists for Final S&F 2024 .pdf yet; cited via each question's source_citation only, per 12-resources.md option 3.
+primaryNodeId: No verified canonical taxonomy node supplied; left unguessed rather than invented.
+
 ---
 
 # Item
@@ -735,3 +756,8 @@ ZU-MED-103
 
 ## university_notes
 zu: Fakous campus (Zagazig's second Faculty of Medicine), Final S&F 2024 exam paper, Q24/Q25/Q26/Q27/Q32/Q33/Q34/Q35/Q36 — hand-drawn-ink answer keys, recovered by corrupted-glyph inference and confirmed by rendering the scanned page (LANE-CARD.md §7).
+
+## field_notes
+arabicTitle: Arabic terminology has not been reviewed for this record yet; left blank rather than machine-translated.
+resourceIds: No evidence-store src_ id exists for Final S&F 2024 .pdf yet; cited via each question's source_citation only, per 12-resources.md option 3.
+primaryNodeId: No verified canonical taxonomy node supplied; left unguessed rather than invented.
