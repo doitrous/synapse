@@ -1351,3 +1351,742 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "refractory period absolute relative nerve" and "sodium channel inactivation gate" -- 0 hits each, safe to create.
+
+---
+
+# Item
+
+## id
+CON-NEU-A4AC183C8E157D
+
+## label
+Threshold is the membrane potential at which enough voltage-gated Na+ channels have opened that sodium influx becomes self-sustaining (regenerative), triggering a full action potential
+
+## canonical_key
+teaching.physiology.nerve.threshold-regenerative-sodium
+
+## aliases
+Threshold potential
+Firing level
+Regenerative sodium influx
+
+## arabic_label
+جهد العتبة والتيار الصوديومي الذاتي التعزيز
+
+## arabic_aliases
+جهد الإطلاق
+
+## definition
+Threshold (the firing level) is the specific membrane potential at which a depolarizing stimulus stops needing outside help to keep going. Below threshold, the Na+ influx a stimulus produces is matched or outpaced by the K+ efflux leaking the charge back out, so the response fades (a local response). At threshold, enough voltage-gated Na+ channels have opened that the resulting Na+ influx itself depolarizes the membrane further, opening still more Na+ channels in a self-reinforcing (regenerative) loop -- this is what makes the action potential a fixed, all-or-none event rather than a graded one. Threshold is therefore best described as the condition under which Na+ channels are triggered to open in the normal, physiological way, not as a fixed voltage value quoted in isolation from that mechanism.
+
+## explicit_objective
+Define threshold as the membrane potential at which sodium channel opening becomes regenerative (self-sustaining), rather than as an arbitrary fixed voltage.
+
+## pitfalls
+Defining threshold purely as "when K+ permeability exceeds Na+ permeability" -- that describes repolarization, not the initiation of the spike. Threshold is crossed when the balance tips the other way, toward self-sustaining Na+ entry.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Nerve Excitability
+
+## subtopic
+Threshold and depolarization
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-NEU-AUN-CBF103-NERVE-EXCITABILITY
+
+## related_article_ids
+
+## related_concept_ids
+CON-NEU-9C5CF2053BB854
+CON-NEU-C79B370AECC47F
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"threshold for production of an action potential in a nerve: ... is a condition where Na+ channels are triggered to open normally" (Q53).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "threshold definition nerve regenerative" -- 0 hits, safe to create.
+relationships: companion to CON-NEU-9C5CF2053BB854 (the sodium-permeability rise threshold triggers) and CON-NEU-C79B370AECC47F (the resting-potential-to-threshold distance that excitability tracks).
+
+---
+
+# Item
+
+## id
+CON-FND-8027C14DF87022
+
+## label
+Energy balance is intake versus output: a neutral balance holds weight steady, a positive balance (as in growth) requires intake above output, and a negative balance causes loss of body weight
+
+## canonical_key
+teaching.physiology.metabolism.energy-balance-body-weight
+
+## aliases
+Energy balance
+Positive and negative energy balance
+Energy intake vs output
+
+## arabic_label
+اتزان الطاقة ووزن الجسم
+
+## arabic_aliases
+الاتزان السلبي للطاقة
+
+## definition
+Energy balance compares the energy taken in as food against the energy the body expends. In a normal, weight-stable adult, intake equals output, not intake exceeding output -- any excess or shortfall is exactly what changes body weight. During growth, intake must exceed output, since some of the surplus energy is laid down as new tissue rather than expended. A negative energy balance -- output exceeding intake -- forces the body to draw on its own stores, chiefly fat, and results in loss of body weight. Obesity itself reflects a sustained positive energy balance, and is characterised by an increase in the body's fat content, not its protein content.
+
+## explicit_objective
+State that a negative energy balance (output exceeding intake) causes loss of body weight, and that a weight-stable adult's intake equals, not exceeds, output.
+
+## pitfalls
+Assuming intake normally exceeds output in a stable adult. It does not -- a stable weight is exactly the sign that intake and output are matched; only growth (and other states of net tissue accretion) require a deliberate surplus.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Energy balance
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5948B69A224D33
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"about the energy balance: ... with a negative energy balance, there is loss of the body weight" (Q71).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "energy balance body weight" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-FND-5948B69A224D33
+
+## label
+Most catabolic energy is released as heat; carbohydrate's physical and physiological heat values are equal (about 4.1 Kcal/g), and the energy equivalent of oxygen is the heat produced when one litre of O2 is consumed
+
+## canonical_key
+teaching.physiology.metabolism.heat-value-and-oxygen-equivalent
+
+## aliases
+Physical vs physiological heat value
+Caloric value of foodstuffs
+Energy equivalent of oxygen
+
+## arabic_label
+القيمة الحرارية للغذاء ومكافئ الأكسجين الحراري
+
+## arabic_aliases
+مكافئ الأكسجين الحراري
+
+## definition
+When a foodstuff is catabolised, most of the chemical energy released appears as heat, not as usable work or stored high-energy phosphate bonds -- the body is a relatively inefficient engine, and even the energy it does capture in ATP is itself dissipated as heat once that ATP is spent on cellular work. Each foodstuff has a physical heat value (measured by burning a weighed sample in a bomb calorimeter) and a physiological heat value (the energy actually available to the body). For carbohydrate and fat, which the body oxidises completely, the two values are equal -- carbohydrate's is about 4.1 Kcal/g. Protein's physical value (about 5.3 Kcal/g) is higher than its physiological value (about 4.1 Kcal/g), because the body cannot fully oxidise the nitrogen-containing part of the protein molecule and excretes it as urea, losing some of that energy. The energy equivalent of oxygen restates the same idea from the oxygen-consumption side: it is the amount of heat produced when one litre of O2 is consumed in oxidising a given substrate, and it is not a single fixed number, since it depends on which substrate (carbohydrate, fat or protein) is being oxidised.
+
+## explicit_objective
+State that most catabolic energy appears as heat, that carbohydrate's physical and physiological heat values are equal (unlike protein's), and define the energy equivalent of oxygen as the heat produced per litre of O2 consumed.
+
+## pitfalls
+Assuming every foodstuff's physical and physiological heat values are equal. Only carbohydrate and fat are fully oxidised by the body; protein's physiological value is lower than its physical value because nitrogen is excreted as urea rather than fully oxidised.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Heat value and caloric equivalents
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8027C14DF87022
+CON-FND-481FB61C091AAE
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"most of the energy released from catabolic processes: ... appears as thermal (heat) energy" (Q72); "the physical heat value of: ... carbohydrate is equal to its physiological heat value" (Q73); "the metabolism of 10 gm protein inside the body would produce: ... 41 Kcal" (Q74); "the energy equivalent of oxygen is: ... the amount of heat (Kcal) produced when one litre of O2 is consumed" (Q79).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+The bank's own figure for 10 g protein (41 Kcal) assumes the standard ~4.1 Kcal/g physiological value for protein; some texts round this to 4.0 or 4.35 Kcal/g.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "heat value carbohydrate protein fat" and "energy equivalent of oxygen" -- 0 hits each, safe to create.
+
+---
+
+# Item
+
+## id
+CON-FND-481FB61C091AAE
+
+## label
+The respiratory quotient (RQ) is the ratio of CO2 produced to O2 consumed -- about 1.0 for carbohydrate, 0.7 for fat -- and is near 1 in the brain, which runs almost entirely on glucose
+
+## canonical_key
+teaching.physiology.metabolism.respiratory-quotient
+
+## aliases
+Respiratory quotient
+RQ
+Non-protein RQ
+
+## arabic_label
+المعدل التنفسي
+
+## arabic_aliases
+نسبة التنفس
+
+## definition
+The respiratory quotient (RQ) is the ratio of the volume of CO2 produced to the volume of O2 consumed in metabolism -- not the reverse ratio. Its value depends on which fuel is being oxidised: about 1.0 for carbohydrate (which contains enough oxygen within its own molecule that CO2 output essentially equals O2 uptake), about 0.7 for fat (which needs to draw in relatively more O2 to complete its oxidation), and about 0.8 for a mixed, average diet. Since the brain normally metabolises almost exclusively glucose, its RQ runs close to 1. An RQ above 1 signals net conversion of carbohydrate into fat (lipogenesis, which releases more CO2 than the O2 consumed), or a transient rise from hyperventilation, heavy exercise, or fever and acidosis (all of which blow off or generate extra CO2 relative to O2 uptake); gluconeogenesis using fat as the substrate to make glucose runs the opposite direction and lowers, not raises, the RQ. An uncontrolled diabetic, unable to use glucose and relying instead on fat oxidation (with ketone body formation), has a low RQ, not one near 1.
+
+## explicit_objective
+Define the RQ as CO2 produced over O2 consumed, state its characteristic values for carbohydrate (~1.0) and fat (~0.7), and identify the physiological causes of a rise above 1 (excluding fat-to-glucose gluconeogenesis, which lowers it).
+
+## pitfalls
+Inverting the RQ ratio (O2/CO2 instead of CO2/O2), or assuming every state of rapid fat handling raises the RQ -- gluconeogenesis from fat is the opposite case, lowering RQ rather than raising it.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Respiratory quotient
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5948B69A224D33
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"a respiratory quotient above one occurs in all the following cases except: ... gluconeogenesis using fat as a substrate to be converted into glucose" (Q75); "the respiratory quotient (RO): ... is about 1 in the brain" (Q76); "the excess R.O.: ... indicates the fuel used during a certain exercise" (Q77).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+Q77's printed "excess R.O." is read as the respiratory exchange ratio measured during the oxygen-debt recovery period after exercise (as opposed to the steady-state RQ during exercise itself); the bank does not spell out this abbreviation, and no independent source in the corpus confirms it.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "respiratory quotient" and "respiratory quotient brain" -- 0 hits each, safe to create.
+
+---
+
+# Item
+
+## id
+CON-FND-BA8CBB467C0506
+
+## label
+BMR is measured after an overnight fast at thermoneutral temperature, at complete physical and mental rest -- not immediately after a meal; specific dynamic action is the rise in metabolic rate after eating, due mainly to the metabolic processing of absorbed nutrients rather than to the mechanical work of digestion itself
+
+## canonical_key
+teaching.physiology.metabolism.bmr-and-specific-dynamic-action
+
+## aliases
+Basal metabolic rate
+BMR measurement conditions
+Specific dynamic action
+SDA
+
+## arabic_label
+معدل الأيض الأساسي والفعل الديناميكي النوعي للغذاء
+
+## arabic_aliases
+الفعل الديناميكي النوعي
+
+## definition
+The basal metabolic rate (BMR) is the energy expenditure needed to keep the vital organs running at complete rest, expressed per unit body surface area per hour (Kcal/m²/hour). For the figure to be valid, it must be measured under strictly standardised conditions: after an overnight (roughly 12-14 hour) fast, not immediately after a meal, at a thermoneutral room temperature (not a cold environment such as 10C, which would itself raise heat production), with the subject awake but completely relaxed. BMR is slightly higher in males than females and is highest in early childhood, falling gradually thereafter. Specific dynamic action (SDA), also called the thermic effect of food, is the rise in metabolic rate that follows eating -- about 30% for a protein meal (the largest effect of the three foodstuffs), about 6% for carbohydrate and about 4% for fat. Contrary to an intuitive guess, SDA is caused mainly by the metabolic processing of the absorbed nutrients (chiefly deamination of amino acids in the liver, for protein) rather than by the mechanical work of digesting and absorbing the food itself; the extra heat it generates can also contribute to warming the body on exposure to cold.
+
+## explicit_objective
+State the standardised fasting and thermoneutral conditions required for a valid BMR measurement, and explain that specific dynamic action is caused mainly by the metabolic processing of absorbed nutrients, not by the mechanical work of digestion and absorption.
+
+## pitfalls
+Assuming SDA is caused by the physical work of digesting and absorbing food. The dominant cause, especially for protein's large SDA, is the metabolic cost of processing the absorbed nutrients afterward (deamination and related liver metabolism), not the digestive process itself.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Basal metabolic rate and specific dynamic action
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-5948B69A224D33
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"about the BMR, all the following is true except: ... it is measured immediately after dinner at an atmospheric temp about 10 C" (Q78); "about the specific dynamic action (SDA), all the following is true except: ... it is generally due to the work done during digestion and absorption of food" (Q80).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "basal metabolic rate" (returned unrelated live CON-FND-AEED54B4151525 on catecholamines raising BMR, not a match for these measurement-condition/SDA facts) and "specific dynamic action" (0 hits) -- safe to create.
