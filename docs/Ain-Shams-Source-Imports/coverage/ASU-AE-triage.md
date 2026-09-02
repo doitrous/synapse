@@ -153,6 +153,49 @@ not triaged:** confirmed present at those pages while locating the spinal-nerve 
 on p.18, but not read closely or keyed in this pass. Left for a further follow-up dispatch,
 same disposition as section C originally described.
 
+## E — youssef1 joints/muscles classification block disposition (second follow-up pass)
+
+The joints/muscles block flagged untriaged in §D is now triaged and authored in full:
+**52 keyed items, all authored, seed `coverage/seeds/ASU-AE/youssef1-joints-muscles.json`,
+batch `question/ASU-AE-youssef1-joints-muscles-mcq.md`.** Pages 12-17 were not flagged
+garbled by `pagetext.mjs status` (words=109-319/page, no OCR failure), but the file has no
+usable text layer at all (a CamScanner image-only scan, confirmed by `pagetext.mjs keys`
+raising `no median for empty data` — the tool warning from LANE-CARD §3 that this file's
+keys cannot be trusted from OCR text alone), so every page in range was mark-garbled and
+rendered, then read by eye for its hand-marked answer letters. The block carries two
+internal numbering resets (the visible run starts mid-sequence, implying an uncaptured Q1-2
+before the first visible "4."; a second reset happens between Q20 and a "22-26" matching
+set) and six genuine print gaps — original Q21, Q26, Q35, Q47, Q55 and Q57 are simply
+absent from the scan, confirmed by rendering every page in the range, the same kind of gap
+already documented for the circulatory/lymphatic block in §D. Items are keyed in page order
+as `youssef1-jm-qNN`, with each item's page and original printed number recorded in
+`field_notes`/`author_notes`.
+
+Covers anatomical/functional joint classification (fibrous: suture/syndesmosis/gomphosis;
+cartilaginous: primary/secondary; synovial: hinge/pivot/plane/ellipsoid/saddle/ball-and-socket),
+named worked examples for each joint type across the upper and lower limb, the TMJ's
+articular disc, muscle shape and fibre-direction classes (parallel/strap, uni-/bi-/multi-/
+circum-pennate, spiral, cruciate, triangular) with their own worked examples, the four
+muscle-action roles (agonist/antagonist/fixator/synergist), muscle attachment types
+(tendon/aponeurosis/direct/raphe, and ligament as the non-muscle-attachment distractor), and
+the origin-is-fixed/insertion-is-movable convention.
+
+**Search-before-mint: overwhelmingly reuse, not new mint.** A four-query `find-existing.mjs`
+pass per concept cluster found this block's joint- and muscle-classification facts already
+minted as generic (university-blind) concepts in Kasr's `101-ISK-mcq-concepts.md` — a single
+Kasr concept typically states a whole classification (e.g. every upper-limb joint's shape,
+or all four pennate-muscle classes) while each ASU MCQ tests just one named example drawn
+from it, so one Kasr concept commonly serves as `main_concept` for many of this block's
+individual questions. 8 existing Kasr concepts reused as sparse pending-live overlays
+(`pending-live/ASU-AE-youssef1-joints-muscles-overlay-concepts.md`) covering 50 of the 52
+questions; only 2 facts (the TMJ's articular disc, and temporalis as the worked example of a
+triangular/fan-shaped muscle) came back with zero hits on all four queries and are newly
+minted (`concept/ASU-AE-youssef1-joints-muscles-new-concepts.md`, with a matching new
+article `article/ASU-AE-youssef1-joints-muscles-new-articles.md`). `gate.mjs batch`
+(question + both new files + the overlay + the Kasr concept/article/resource files it
+depends on) and `gate.mjs simulate` (same 8 files, apply order) both clean
+(errors=0/rejected=0).
+
 **Gametogenesis tails (both files) — expected duplicate of Embryo1/Bg-Embryology-Mcq,
 not authored, not individually cross-checked in this pass:** youssef1 pp.31-33
 (spermatogenesis/spermiogenesis, ~15 items, its own answer key on p.30 is a rotated/garbled
