@@ -40,3 +40,46 @@ msk-final24-q36
 
 # 9 structured essay questions (SEQ1-SEQ9) — no single-letter key, essay-format,
 # graded by rubric/department book; not authored this pass, no triage key minted.
+
+# Fakous MSK Summer 2024.pdf (resit) — 36 SBA triaged, 30 authored, 6 held
+# Format: <source-slug>-qNN
+
+msk-summer24-q01
+msk-summer24-q02
+msk-summer24-q03
+msk-summer24-q04
+msk-summer24-q05
+# msk-summer24-q06 — HELD held-no-printed-key (no mark on any of the 4 options, confirmed by render --force)
+msk-summer24-q07
+msk-summer24-q08
+msk-summer24-q09
+# msk-summer24-q10 — HELD duplicate-of msk-final24-q15 (same fibula-fracture/spared-muscle fact; this paper's key names extensor digitorum longus, conflicting with the Final paper's already-authored tibialis anterior answer)
+msk-summer24-q11
+msk-summer24-q12
+msk-summer24-q13
+msk-summer24-q14
+msk-summer24-q15
+msk-summer24-q16
+msk-summer24-q17
+# msk-summer24-q18 — HELD held-indefensible-key (two conflicting marks: a circle on option b "Subscapular", a separate margin "c" note; render --force confirmed both, no way to tell which is the paper's real key)
+msk-summer24-q19
+msk-summer24-q20
+msk-summer24-q21
+msk-summer24-q22
+msk-summer24-q23
+msk-summer24-q24
+msk-summer24-q25
+msk-summer24-q26
+msk-summer24-q27
+msk-summer24-q28
+msk-summer24-q29
+msk-summer24-q30
+# msk-summer24-q31 — HELD duplicate-of msk-final24-q36 (identical cardiac-action-potential-plateau-ion fact and question structure already authored from the Final paper)
+# msk-summer24-q32 — HELD duplicate-of msk-final24-q35 (same isotonic/isometric-tension concept already authored from the Final paper; this paper's key, applied to the isotonic-specific stem, conflicts with the Final's own already-authored isometric-tension-rises fact)
+msk-summer24-q33
+msk-summer24-q34
+# msk-summer24-q35 — HELD held-indefensible-key (asserts "two transverse tubules, two cisternae" for the skeletal muscle triad, contradicting this same cluster's own msk-summer24-q22 key on the identical fact — an internal two-key conflict within one paper)
+msk-summer24-q36
+
+# 9 structured essay questions (SEQ1-SEQ9, Summer paper) — no single-letter key,
+# essay-format; not authored this pass, no triage key minted.

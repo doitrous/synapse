@@ -106,6 +106,146 @@ target id and source file for every reused concept) is in
   handouts, revision banks, Arabic-titled MCQ collections) are visible in the source
   folder listing but not individually triaged this pass.
 
+## Source: `Fakous MSK Summer 2024.pdf` (resit paper, this pass's own deliverable)
+
+5 pages, same Microsoft Lens/CamScanner-style scan as the Final paper (no
+native PDF text layer, `pagetext.mjs status` reported `words=0 garbled=yes
+ocr=no` on every page before OCR — already OCR'd in the shared cache by the
+sibling `zagazig-104-author1` pass, `pagetext.mjs status` now reports
+`ocr=yes` with 236–433 words/page, not re-OCR'd this pass). Header states
+"Total Number of Questions: 9 (SEQ) & 36 (SBA), Total Marks: 72 Marks, Final
+written Exam (Academic year 2023-2024)". All 36 SBA MCQs and 9
+structured-essay questions were read in full via `pagetext.mjs show`
+(post-OCR).
+
+### Key-recovery method (same trap as the Final paper, plus a second mark type)
+
+`pagetext.mjs keys` reports **0 keyed / 0 ambiguous / 0 unmarked across 0
+pages** on this file, for the identical reason documented for the Final
+paper: the OCR text layer is not a native PDF text layer, so `keys` cannot
+check anything.
+
+This paper's own marking convention differs slightly from the Final's: most
+correct options carry a **circled letter** (a clean oval around the option
+letter and/or its text) rather than the Final's diagonal-ink-stroke
+corrupting the glyph, though the same corrupted-glyph signature (`c) Radial
+collateral` → filled dot/blob replacing "c)") appears on roughly a third of
+the 36 questions. A **second, independent mark type** also appears on this
+paper and was not present on the Final: a **single handwritten letter in the
+right margin**, at roughly the vertical height of the question (not
+necessarily aligned to any one option row), confirmed on renders to be an
+answer-key mark in its own right — used alone on some questions (Q15, Q17,
+where no option is circled) and alongside a circled option on others
+(matching it exactly on Q9/Q14, **conflicting with it on Q18**).
+
+**Confirmed, not just inferred.** Pages 2–5 (all 36 SBA questions) were each
+rendered with `pagetext.mjs render --force` (4 renders total, within the
+LANE-CARD's own ≤6 budget) and visually inspected against both the circled
+marks and the margin-letter marks.
+
+### Checkpoint table
+
+| Source | Questions triaged | Keys recovered | Held | Distinct concepts tested | Reuse-hit | New | Placement for new |
+|---|--:|--:|--:|--:|--:|--:|---|
+| `Fakous MSK Summer 2024.pdf` | 45 (36 SBA + 9 structured essay) | 30/36 SBA authored, 6 held (essay = written, no letter key, not triaged to a key) | 6 (see below) | 30 (30 authored questions, no duplicate pair within this cluster) | 10 | 20 | `msk` (majority — limb anatomy, muscle/bone/skin histology), `neuro` (nerve/muscle spindle physiology), `derm` (skin glands, nail), `fnd` (cartilage/calcium biochemistry) — S3/authoring-time call, same caveat as the Final paper |
+
+Full per-question rollup: `coverage/ZU-MED-104-triage-keys.txt`.
+
+### Held items (6 of 36)
+
+Unlike the Final paper (0 held of 36), this resit paper needed 6 holds:
+
+- **msk-summer24-q06** — `held-no-printed-key`. No circle, corrupted glyph, or
+  margin letter found on any of the 4 options for "Which of the following
+  nerve roots is damaged in positive Trendelenburg sign?", confirmed by
+  render --force.
+- **msk-summer24-q10** — `duplicate-of msk-final24-q15`. Same
+  fibula-fracture/spared-muscle fact the Final paper's own
+  `CON-MSK-03F3DA894D0C4D` already covers (tibialis anterior spared because
+  it originates from the tibia, not the fibula); this paper's own key names
+  extensor digitorum longus instead, which directly conflicts with the
+  Final's already-authored answer to the identical underlying fact.
+- **msk-summer24-q18** — `held-indefensible-key`. Two independent marks
+  disagree: a clean circle around option (b) "Subscapular", and a separate
+  margin "c" note (matching this paper's own margin-letter convention seen
+  clearly elsewhere, e.g. Q9, Q14, Q17). Both confirmed by render --force; no
+  way to tell which is the paper's real key, and neither option is itself
+  anatomically defensible for "which branch of the third part of the
+  axillary artery is normally patent when that part is occluded" (the
+  textbook answer, superior thoracic, arises from the first part and is not
+  one of the two marked options).
+- **msk-summer24-q31** — `duplicate-of msk-final24-q36`. Identical
+  cardiac-action-potential-plateau-ion question (same stem structure, same 4
+  options) already authored from the Final paper as `CON-CVS-C6E888D47E1254`
+  (answer: Ca2+ only).
+- **msk-summer24-q32** — `duplicate-of msk-final24-q35`. Same
+  isotonic/isometric-contraction-tension concept the Final paper already
+  authored as `CON-MSK-242998842BE25C` ("tension increased" is an isometric,
+  not isotonic, property); this paper's own stem asks about isotonic
+  contraction specifically and marks "muscle tension is increased" as
+  correct, the direct inverse of the Final's own already-authored fact.
+- **msk-summer24-q35** — `held-indefensible-key`. Asserts the skeletal muscle
+  triad is "two transverse tubules and two terminal cisternae", directly
+  contradicting this same cluster's own `msk-summer24-q22` (marked correct,
+  "a pair of terminal cisternae with a transverse tubule" — the standard,
+  textbook-consistent triad definition) on the identical underlying fact,
+  within the same paper.
+
+### Uncertain-but-authored items (single mark, conflicts with standard teaching)
+
+15 of the 30 authored questions carry a marked key that conflicts with
+standard anatomy/physiology teaching (a much higher rate than the Final
+paper's own 2 minor uncertainty flags out of 36) — each was checked for a
+*second, conflicting* mark (which would trigger a hold per the rule above)
+and found to carry only the one, unambiguous mark, so each stands per
+LANE-CARD.md §7's printed-key-stands rule. Every one of these 15 concepts
+carries its own `## uncertainty` field documenting the specific conflict for
+reviewer attention (`concept/ZU-MED-104-msk-summer-concepts.md`): msk-q01
+(superficial vs deep peroneal/inversion), q08 (PIN/mid-prone position), q09
+(radial vs ulnar collateral ligament laterality), q12 (6th compartment
+flexion vs extension), q19 (tendo-achillis inversion vs plantarflexion), q20
+(ulnar vs radial artery for the deep palmar arch), q21 (merocrine vs
+sebaceous gland), q23 (gamma vs alpha motor fibers in the spindle), q24
+(collagen type I vs II in hyaline cartilage), q26 (osteoclast basal vs clear
+zone), q28 (calcitonin raises vs lowers calcium), q29 (Na+ influx vs Cl-
+permeability in presynaptic inhibition), q33 (troponin T's tropomyosin- vs
+myosin-binding role), q34 (ATP vs free fatty acid as the "unlimited"
+recovery-period fuel), q36 (chronaxie "variable" vs specifically "longer"
+than its nerve's). The other 15 authored questions (q02, q03, q04, q05, q07,
+q11, q13, q14, q15, q16, q17, q22, q25, q27, q30) checked out cleanly against
+standard teaching, no flag needed. This split is flagged here as a
+corpus-wide pattern worth Omar's attention: this resit paper's own answer
+key appears to carry materially more errors than the Final paper's, a
+plausible real-world consequence of a resit being drafted faster/less
+carefully — not a triage-method artifact, since the same render-confirmation
+method was used throughout and found the same clean single-mark pattern on
+both papers.
+
+### Concept search sample and reuse pattern
+
+Same `find-existing.mjs` short-literal-query approach as the Final paper. 10
+of the 30 authored questions' concepts hit an existing pending record
+(non-conflicting reuse, sparse pending-live overlay): Ain Shams `ASU-AE`
+(1 — toe-axis terminology), Alexandria `AU-MED-105` (2 — leg arteries, knee),
+Kasr `101-ISK` (3 — musculocutaneous nerve, cephalic vein, and, per q17's own
+anatomical cross-check, the obturator nerve), Kasr `103-BMS` (4 — hamstrings,
+common peroneal/fibular neck, epiphyseal plate, excitation-contraction
+coupling). 20 of the 30 needed a fresh mint — either because no existing
+record covers the fact tested, or (the majority of the 20) because the
+question's own marked key conflicts with an already-correct existing
+live/pending concept from this same corpus, and overlaying would have
+corrupted that existing record; each such fresh mint is cross-linked via
+`related_concept_ids`/`contextual_concept_ids` to the existing correct
+concept it conflicts with, rather than silently ignoring it.
+
+## The OSPE file (not authored this pass)
+
+`1st role FAKOS OSPE MSK exam cr 2024-2025.pdf` was already catalogued (not
+authored) by the sibling Final-paper pass — see the "not authored this pass"
+section above. With 30 SBA authored from the Summer paper (comfortably over
+the LANE-CARD's own "~35 authored" catalogue-instead-of-author-more-OSPE
+threshold), this pass did not re-open the OSPE file.
+
 ## Needs Omar / next-pass flags
 
 - **Subject placement defaults** used this pass (msk for anatomy/histology/muscle-nerve
@@ -119,5 +259,17 @@ target id and source file for every reused concept) is in
   phrasing) are flagged in the concept/seed `field_notes` rather than resolved — printed/
   hand-drawn keys stand as printed per LANE-CARD.md §7, no `held-indefensible-key` was
   needed on any of the 36.
-- Summer paper and OSPE stations are real remaining scope, not a gap hidden by this table
-  (see above).
+- Summer paper is now authored (30/36 SBA, 6 held — see above); the OSPE
+  image-identification station file remains catalogued, not authored, per
+  LANE-CARD.md §1.
+- **Flag for Omar: the Summer resit paper's answer key is materially less reliable than
+  the Final paper's own key.** The Final paper: 0 held of 36, 2 minor uncertainty notes.
+  The Summer paper: 6 held of 36 (1 unmarked, 2 indefensible-two-mark conflicts, 3
+  duplicate-of-Final conflicts), plus 15 of the 30 authored questions carrying a marked
+  key that conflicts with standard anatomy/physiology teaching on a single, unambiguous
+  mark (author_notes on each — see the "Uncertain-but-authored items" section above).
+  This was checked against the possibility of a triage-method error (same
+  render-confirmation approach used on both papers, found the same clean single-mark
+  pattern) before being logged here as a property of the source paper itself, not this
+  pass's own method. All 15 uncertain items and the 6 held items would benefit from a
+  department-book cross-check before publication.
