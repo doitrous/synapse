@@ -1,6 +1,6 @@
 {
   "lane": "ASU-CNS3",
-  "cluster": "anatomy",
+  "cluster": "anatomy-mcq",
   "header": "ASU-CNS-3 · Anatomy — authored from the EOM MCQs - ANATOMY CNS PAPER 1 MCQ.pdf compilation (81 items collapsed to 60 distinct facts), keys read as printed (embedded answer/topic before the stem); distractors authored by this lane.",
   "defaults": {
     "subject": "neuro",
