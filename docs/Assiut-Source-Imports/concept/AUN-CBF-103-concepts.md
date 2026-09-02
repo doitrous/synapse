@@ -2090,3 +2090,1349 @@ drafted_not_reviewed
 
 ## field_notes
 sourceCandidateIds: find-existing.mjs run for "basal metabolic rate" (returned unrelated live CON-FND-AEED54B4151525 on catecholamines raising BMR, not a match for these measurement-condition/SDA facts) and "specific dynamic action" (0 hits) -- safe to create.
+
+---
+
+# Item
+
+## id
+CON-FND-65DED043238250
+
+## label
+On exposure to cold, muscle tone rises toward shivering, catecholamine secretion increases, and the sympathetic nervous system produces cutaneous vasoconstriction, piloerection and a preference for high-SDA protein food
+
+## canonical_key
+teaching.physiology.thermoregulation.cold-exposure-response
+
+## aliases
+Cold exposure response
+Shivering thermogenesis
+Cutaneous vasoconstriction in cold
+Piloerection
+
+## arabic_label
+استجابة الجسم للتعرض للبرد
+
+## arabic_aliases
+الارتعاش الحراري
+تضيق الأوعية الجلدية
+
+## definition
+Exposure to cold triggers a coordinated set of heat-conserving and heat-generating responses, all driven mainly through the posterior hypothalamic heat-gain centre and the sympathetic nervous system. Skeletal muscle tone rises, and once it rises enough the asynchronous contractions become visible as shivering, which is a major source of extra heat production. Sympathetic activity itself increases, both through direct neural discharge and through a rise in circulating catecholamines (adrenaline and noradrenaline) from the adrenal medulla, both of which raise metabolic heat production. The same sympathetic activation also produces cutaneous vasoconstriction, which reduces blood flow to the skin and so reduces heat loss to the environment, and piloerection (goose-flesh), which in a furred animal traps an insulating air layer, though in humans it is a vestigial reflex. Protein-rich food is also physiologically preferred in cold weather, because protein's specific dynamic action (about 30%, far higher than carbohydrate's ~6% or fat's ~4%) generates more diet-induced heat than either of the other foodstuffs, supplementing the body's own heat-conserving and heat-generating mechanisms.
+
+## explicit_objective
+List the coordinated responses to cold exposure: rising muscle tone and shivering, increased catecholamine secretion, sympathetically driven cutaneous vasoconstriction and piloerection, and a preference for high-SDA protein food.
+
+## pitfalls
+Treating these as separate, unrelated facts rather than one coordinated sympathetic response to cold. All of them -- shivering, catecholamine release, cutaneous vasoconstriction, piloerection, and even the food preference -- serve the same two goals of reducing heat loss and increasing heat production, and a question that lists several of them together is testing that they all happen at once, not that only one does.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Cold exposure response
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-85B5F4379991F0
+CON-FND-BA8CBB467C0506
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"on exposure to cold: the muscle tone increases and shivering may occur ... there is excessive secretion of catecholamines ... the sympathetic N.S. is activated causing, cutaneous V.C. and piloerection ... ingestion of protein food is preferred due to its high SDA ... all of the above" (Q81).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "exposure to cold thermoregulation" -- 0 hits, safe to create.
+relationships: companion to CON-FND-85B5F4379991F0 (the heat-loss-side mechanisms this record's heat-gain-side response opposes) and CON-FND-BA8CBB467C0506 (the SDA figures behind the protein-food-preference fact stated here).
+
+---
+
+# Item
+
+## id
+CON-FND-85B5F4379991F0
+
+## label
+Evaporation is the only heat-loss mechanism available at any ambient temperature; radiation, conduction and convection all require a negative body-to-environment temperature gradient, and skin vasodilation aids heat loss in a hot humid environment
+
+## canonical_key
+teaching.physiology.thermoregulation.heat-loss-mechanisms
+
+## aliases
+Heat loss mechanisms
+Evaporative heat loss
+Non-evaporative heat loss
+Radiation conduction convection
+
+## arabic_label
+آليات فقد الحرارة من الجسم
+
+## arabic_aliases
+الفقد التبخيري للحرارة
+الفقد غير التبخيري للحرارة
+
+## definition
+The body loses heat to its environment by four physical mechanisms: radiation, conduction, convection and evaporation. Radiation, conduction and convection all move heat down a temperature gradient from the warmer body surface to the cooler environment, so all three require the environment to be cooler than the body -- when the atmospheric temperature is lower than body temperature (for example at 15C), heat is lost mainly by radiation and conduction. When the environment is close to or above body temperature (for example 38C), that gradient disappears or reverses, and evaporation of sweat becomes the only effective heat-loss route, since evaporation depends on a humidity gradient rather than a temperature gradient and so works even when radiation, conduction and convection cannot. This is why evaporation is the one heat-loss mechanism that remains available at every ambient temperature, including temperatures above body temperature -- and conversely, if the body's own temperature is lower than the surrounding atmospheric temperature, radiation, conduction and convection carry heat into the body (heat gain), not out of it, so none of them can be described as a heat-loss route under that reversed gradient. In a hot, humid atmosphere, cutaneous vasodilation increases skin blood flow, bringing core heat to the surface to be lost by whatever non-evaporative gradient remains, even though the high humidity itself blunts evaporative loss.
+
+## explicit_objective
+State that evaporation is the only heat-loss mechanism available at any ambient temperature, that radiation, conduction and convection require the environment to be cooler than the body, and that a body-temperature-below-atmospheric-temperature situation produces heat gain rather than heat loss by those three mechanisms.
+
+## pitfalls
+Assuming radiation, conduction and convection always contribute to heat loss regardless of the ambient temperature. They only move heat down the existing gradient -- when that gradient reverses (environment hotter than the body), they move heat into the body instead, leaving evaporation as the only mechanism still working in the body's favour.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Heat loss mechanisms
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-65DED043238250
+CON-FND-15848C8393D66F
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"the only heat loss mechanism that can occur in all environmental temperatures: ... evaporation" (Q82); "at an environmental temperature 38C and humidity 20%, heat loss occurs by: ... evaporation" (Q83); "when the body temp. is lower than the atmospheric temp, heat loss occurs by: ... none of the above" (Q84); "when the atmospheric temp is 15C heat loss occurs by: ... radiation and conduction" (Q85); "on exposure to a hot humid atmosphere: ... V.D. occurs in the skin blood vessels" (Q86).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "heat loss evaporation radiation conduction" -- 0 hits, safe to create.
+relationships: companion to CON-FND-65DED043238250 (the heat-gain-side response to cold this record's heat-loss mechanisms are balanced against) and CON-FND-15848C8393D66F (sweat gland physiology, the effector behind evaporative heat loss).
+
+---
+
+# Item
+
+## id
+CON-FND-D7298C357C9803
+
+## label
+Endogenous pyrogen is a monocyte/macrophage protein, released by bacterial endotoxin, that resets the hypothalamic thermostat upward through local prostaglandin (not histamine) release, driving both increased heat production and decreased heat loss
+
+## canonical_key
+teaching.physiology.thermoregulation.endogenous-pyrogen
+
+## aliases
+Endogenous pyrogen
+Fever mechanism
+Hypothalamic thermostat resetting
+
+## arabic_label
+البيروجين الداخلي وآلية الحمى
+
+## arabic_aliases
+إعادة ضبط منظم الحرارة الوطائي
+
+## definition
+Endogenous pyrogen is a protein released by monocytes and macrophages, typically in response to endotoxins released from pathogenic bacteria (or other inflammatory stimuli). It acts on the hypothalamus to reset the thermostat to a higher-than-normal set point, and it does this by locally increasing the release of prostaglandins (chiefly PGE2) in the hypothalamus, not by releasing histamine there -- prostaglandin, not histamine, is the local mediator, which is why aspirin's antipyretic action (inhibiting prostaglandin synthesis) works against fever specifically. Once the set point is raised, the body responds exactly as it would to feeling genuinely cold relative to a normal set point: it increases heat production, especially by inducing shivering, and it decreases heat loss, especially by inducing cutaneous vasoconstriction -- both mechanisms drive the body temperature up toward the new, higher set point.
+
+## explicit_objective
+Describe endogenous pyrogen's origin (monocyte/macrophage protein, endotoxin-triggered), its local hypothalamic mediator (prostaglandin, not histamine), and its two downstream effects (increased heat production via shivering, decreased heat loss via cutaneous vasoconstriction).
+
+## pitfalls
+Naming histamine instead of prostaglandin as endogenous pyrogen's local hypothalamic mediator. It is prostaglandin (PGE2) release that resets the thermostat, which is exactly why a prostaglandin-synthesis inhibitor such as aspirin is an effective antipyretic; histamine plays no defining role in this specific mechanism.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Fever and endogenous pyrogen
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-6AD2005CD2C5BE
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"about the endogenous pyrogen, the following is true except: ... it acts by increasing the local release of histamine in the hypothalamus" (Q90, the exception -- the true mechanism is prostaglandin-mediated).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "endogenous pyrogen fever" -- 0 hits, safe to create.
+relationships: companion to CON-FND-6AD2005CD2C5BE (the hyperpyrexia and hypothalamic-centre record fever can escalate into).
+
+---
+
+# Item
+
+## id
+CON-FND-6AD2005CD2C5BE
+
+## label
+Hyperpyrexia reflects a breakdown of hypothalamic thermoregulation rather than heat production alone, and the anterior heat-loss centre (physical, antirise) and posterior heat-gain centre (chemical, antidrop) are each active under the opposite ambient condition their names might suggest
+
+## canonical_key
+teaching.physiology.thermoregulation.hyperpyrexia-and-hypothalamic-centres
+
+## aliases
+Hyperpyrexia
+Heat stroke mechanism
+Heat-loss and heat-gain centres
+Anterior and posterior hypothalamic thermoregulation
+
+## arabic_label
+فرط الحرارة الشديد والمراكز الوطائية لتنظيم الحرارة
+
+## arabic_aliases
+مركز فقد الحرارة
+مركز اكتساب الحرارة
+
+## definition
+Heat stroke (hyperthermia) is primarily caused by the inability to evaporate sweat effectively when ambient humidity is excessive, not simply by excessive heat production or excessive heat gain by conduction. Hyperpyrexia -- a dangerously elevated body temperature -- is likewise mainly due to irregularity of the central thermoregulatory mechanisms themselves and the development of self-reinforcing vicious circles (rising temperature impairing the very mechanisms that should correct it), rather than to excessive heat production in isolation; the danger of hyperpyrexia is a breakdown of the regulatory system's own stability, not merely a single-organ complication such as heart failure. Two hypothalamic centres carry out opposite halves of this regulation: the heat-loss centre, in the anterior hypothalamic nuclei, produces antirise (temperature-lowering) responses mainly through physical processes (vasodilation, sweating) and is active when the body needs to lose heat -- that is, in hot conditions; the heat-gain centre, in the posterior hypothalamic nuclei, produces antidrop (temperature-raising) responses mainly through chemical processes (increased metabolic heat production) and is active in cold conditions. Regulation of body temperature is given priority in homeostasis over most other regulated variables. In very hot environments, wetting the skin with cold water is an efficient way to keep body temperature from rising, supplementing the body's own evaporative and vasodilatory mechanisms; evaporation of about one millilitre of sweat removes roughly 0.6 Kcal of heat. Drugs that alter autonomic tone alter body temperature predictably: atropine (an anticholinergic) blocks sweating and so raises body temperature, while curare (a neuromuscular blocker) abolishes muscle-tone-driven heat production and so lowers it.
+
+## explicit_objective
+State that heat stroke is caused mainly by failure of evaporative cooling in high humidity, that hyperpyrexia reflects central thermoregulatory breakdown rather than heat production alone, and identify the anterior heat-loss centre (active in heat, physical mechanisms) and posterior heat-gain centre (active in cold, chemical mechanisms) by location and by the ambient condition that activates each.
+
+## pitfalls
+Assuming the heat-loss centre is active in cold weather and the heat-gain centre in hot weather, by matching the name to the weather rather than to the centre's actual physiological trigger. Each centre is named for what it does (lose heat or gain heat), and it is switched on exactly when the body needs that response -- the heat-loss centre in hot weather, the heat-gain centre in cold weather -- which is the reverse pairing a name-based guess would produce.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Hyperpyrexia and hypothalamic centres
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-D7298C357C9803
+CON-FND-15848C8393D66F
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"heat stroke (hyperthermia) is primarily caused by: ... inability to evaporate sweat due to excessive humidity" (Q87); "elevation of the body temperature to dangerous levels (hyperpyrexia): ... is mainly due to irregularity of the central thermoregulatory mechanisms and development of vicious circles" (Q88); "which of the following statements is wrong: ... hyperpyrexia is dangerous because it leads to heart failure" (Q91, the exception); "all the following statements are true except: ... the heat-loss center is stimulated in cold weather while the heat-gain center is stimulated in hot weather" (Q93, the exception -- reversed from the true pairing); "about the body temperature: ... all of the above are true" (Q94, covering priority in homeostasis, wetting the skin, ~0.6 Kcal per mL sweat evaporated, and atropine/curare's opposite effects).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+Q91's exact reason hyperpyrexia's danger is not "heart failure" is not spelled out by this source; standard teaching attributes the danger mainly to denaturation of cellular proteins/enzymes and CNS damage once temperature rises well above normal, which is the basis used here, though this source does not itself state that alternative explicitly.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "hyperpyrexia heat stroke" -- 0 hits, safe to create.
+relationships: companion to CON-FND-D7298C357C9803 (endogenous pyrogen, the trigger fever shares with hyperpyrexia) and CON-FND-15848C8393D66F (sweat gland physiology, the effector behind heat-stroke's evaporative failure).
+
+---
+
+# Item
+
+## id
+CON-FND-15848C8393D66F
+
+## label
+Eccrine sweat glands are the true thermoregulatory glands -- sympathetic cholinergic, atropine-sensitive, secreting a hypotonic fluid whose evaporation is impaired, not enabled, by high humidity
+
+## canonical_key
+teaching.physiology.thermoregulation.sweat-glands
+
+## aliases
+Eccrine sweat glands
+Apocrine sweat glands
+Sweat gland innervation
+
+## arabic_label
+الغدد العرقية الإكرينية
+
+## arabic_aliases
+الغدد العرقية الأبوكرينية
+
+## definition
+The body has two types of sweat gland. Eccrine glands are the true thermoregulatory sweat glands, distributed over most of the body surface; they are innervated by sympathetic cholinergic fibres (an unusual pairing, since most sympathetic postganglionic fibres are adrenergic), secrete a hypotonic fluid, and their secretion, because it is cholinergically driven, can be blocked by atropine, an anticholinergic drug. Apocrine glands, by contrast, are confined to specific regions (axillae, groin) and are not the glands responsible for temperature regulation. Because eccrine sweat's cooling effect depends on evaporation rather than secretion alone, sweat evaporates effectively in dry conditions but is impaired -- not enabled -- in a humid climate, where the surrounding air is already close to saturated with water vapour and cannot take up much more; this is why sweating continues but cooling fails in hot, humid environments, exactly the mechanism behind heat stroke.
+
+## explicit_objective
+Identify eccrine glands as the true thermoregulatory sweat glands, sympathetic cholinergic and atropine-sensitive, and state that their evaporative cooling effect is impaired, not enabled, by a humid climate.
+
+## pitfalls
+Assuming sweat evaporation works best, or only, in a humid climate. The opposite is true -- evaporation depends on a dry-air humidity gradient, so high ambient humidity is exactly what blunts evaporative cooling, which is the mechanism behind heat stroke in hot, humid conditions.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Sweat glands
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-85B5F4379991F0
+CON-FND-6AD2005CD2C5BE
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"about the sweat glands: ... the secretion of the eccrine glands can be blocked by atropine" (Q89); "concerning sweat, all the following is true except: ... its evaporation occurs only in humid climates" (Q92, the exception).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "sweat glands eccrine apocrine" -- 0 hits, safe to create.
+
+---
+
+# Item
+
+## id
+CON-FND-C744C0239AE1A0
+
+## label
+During prolonged starvation the body draws on carbohydrate, then fat, then protein in sequence, yet some obligatory protein catabolism and rising urinary ammonia and acidosis begin early, while plasma proteins, electrolytes, and the brain and heart are relatively spared until the terminal stage
+
+## canonical_key
+teaching.physiology.metabolism.starvation-substrate-sequence
+
+## aliases
+Starvation metabolism
+Substrate use order in starvation
+Starvation acidosis
+Protein sparing in starvation
+
+## arabic_label
+التمثيل الغذائي أثناء الجوع
+
+## arabic_aliases
+الحماض أثناء الجوع
+
+## definition
+During starvation, the body draws on its energy stores in a broadly protective sequence: carbohydrate (liver and muscle glycogen) first, then fat, then protein, an order that spares the body's structural and functional protein for as long as possible. Even so, some protein catabolism is unavoidable from the earliest stage, because the brain's obligatory glucose requirement can only be met, before ketone-body adaptation is established, by gluconeogenesis from amino acids released by muscle breakdown. By about one week into starvation, this shift shows up in the urine as an excessive amount of ammonia (NH3) and a fall in urinary pH, as the kidney increasingly excretes hydrogen ion as ammonium to buffer the mounting metabolic acidosis that develops as fat-derived ketone bodies accumulate. Despite ongoing protein catabolism, the plasma protein concentration is relatively protected and does not fall in the earlier phase of starvation the way muscle protein does, blood electrolyte levels remain fairly constant, and the brain and heart are relatively spared functionally until the terminal stage of starvation, when reserves are finally exhausted. As starvation advances, signs of vitamin deficiency and worsening acidosis both develop, reflecting the progressive loss of the body's buffering and nutritional reserves.
+
+## explicit_objective
+State the order of substrate use in starvation (carbohydrate, then fat, then protein), that some protein catabolism and urinary ammonia/acidosis begin early despite that order, and that plasma proteins, electrolytes, and the brain and heart are relatively spared until the terminal stage.
+
+## pitfalls
+Assuming the sequential order of substrate use (carbohydrate, fat, protein) means protein catabolism is delayed until fat stores are exhausted. A baseline level of protein catabolism, to supply the brain's obligatory glucose need by gluconeogenesis, is unavoidable from the start of starvation, running in parallel with, not strictly after, the shift to fat as the dominant fuel.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Starvation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8027C14DF87022
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.75
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"after one week of starvation: ... the urine contains an excessive amount of NH3 and its pH drops" (Q96); "it is false that during starvation: ... the plasma protein concentration decreases" (Q97, the exception); "during starvation: ... all of the above is true" (Q98, covering substrate-use order, unavoidable protein catabolism from the start, stable electrolytes, brain/heart sparing till the terminal stage, and progressive vitamin deficiency/acidosis).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+The precise physiological reconciliation between "carbohydrate then fat then protein" (Q98-A) and "protein catabolism is unavoidable from the start" (Q98-B) is explained here as the brain's early obligatory-glucose need running alongside, not after, the shift toward fat as the dominant fuel; the source itself does not spell out this reconciliation, and both statements are treated here as compatible per the printed key (F, all true) rather than as a conflict, since no two printed marks disagree on this item.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "starvation ketosis nitrogen balance" -- 0 hits, safe to create.
+relationships: companion to CON-FND-8027C14DF87022 (energy balance -- starvation is the extreme case of a sustained negative energy balance).
+
+---
+
+# Item
+
+## id
+CON-FND-686B73EB651445
+
+## label
+Appetite is governed by hypothalamic centres and is not abolished by gastrectomy, and amphetamine's usefulness as an anti-obesity agent comes from suppressing, not increasing, appetite
+
+## canonical_key
+teaching.physiology.metabolism.appetite-regulation
+
+## aliases
+Appetite regulation
+Hypothalamic appetite centres
+Amphetamine and appetite
+
+## arabic_label
+تنظيم الشهية
+
+## arabic_aliases
+مضخة الأمفيتامين وتأثيرها على الشهية
+
+## definition
+Appetite is regulated mainly by hypothalamic centres, which integrate signals such as blood glucose level, gastric distension and ambient temperature: appetite increases as blood glucose falls, is reduced by gastric over-distension, and increases on exposure to cold (part of the same drive toward high-SDA protein food discussed under the cold-exposure response). Gastrectomy (surgical removal of the stomach) reduces appetite by removing the stomach's own distension and hormonal signalling, but it does not completely abolish appetite, since the hypothalamic centres and the other, non-gastric inputs to them remain intact. Amphetamine is used clinically as an anti-obesity agent specifically because it suppresses, not increases, appetite (its central stimulant action includes an anorexiant effect on the hypothalamic appetite centres) -- a claim that amphetamine "increases the appetite" reverses its actual, clinically useful pharmacology.
+
+## explicit_objective
+State that appetite is governed by hypothalamic centres and is reduced, but not abolished, by gastrectomy, and that amphetamine is useful in obesity treatment because it suppresses, not increases, appetite.
+
+## pitfalls
+Assuming gastrectomy completely abolishes appetite, or that amphetamine's anti-obesity usefulness comes from increasing appetite. Gastric signals are only one input among several hypothalamic appetite triggers, so appetite persists after gastrectomy; and amphetamine's clinical usefulness in obesity treatment depends specifically on it suppressing appetite, the opposite of increasing it.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Metabolism and Thermoregulation
+
+## subtopic
+Appetite regulation
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-METABOLISM
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-8027C14DF87022
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.5
+
+## confidence
+0.8
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"concerning the appetite, all the following is true except: ... it is completely lost after gastrectomy" (Q100, the exception); "which of the following statements about obesity is wrong: ... amphetamine is not useful in its treatment since it increases the appetite" (Q102, the exception -- amphetamine is useful precisely because it decreases appetite).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "appetite hypothalamus gastrectomy" -- 0 hits, safe to create.
+relationships: companion to CON-FND-8027C14DF87022 (energy balance and obesity, the outcome appetite regulation feeds into).
+
+---
+
+# Item
+
+## id
+CON-FND-29FC4B40C81EE5
+
+## label
+Peripheral membrane proteins function as hormone receptors and enzymes, integral proteins form the membrane's channels, and the cell membrane itself is a phospholipid bilayer, not a monolayer
+
+## canonical_key
+teaching.physiology.membrane.protein-composition-integral-peripheral
+
+## aliases
+Membrane protein composition
+Integral membrane proteins
+Peripheral membrane proteins
+Phospholipid bilayer
+
+## arabic_label
+تركيب بروتينات الغشاء الخلوي
+
+## arabic_aliases
+البروتينات المتكاملة
+البروتينات الطرفية
+
+## definition
+The cell membrane is built on a phospholipid bilayer -- two layers of phospholipid, not one (a monolipid layer) -- studded with two functionally distinct classes of protein. Integral proteins span or embed within the bilayer and form the channels through which ions and other water-soluble substances cross the membrane; they also include the carrier proteins used in facilitated diffusion and active transport. Peripheral proteins sit on the membrane surface, attached to the integral proteins or the lipid heads rather than spanning the bilayer themselves, and their main functions are to act as receptors to which hormones and other signalling molecules bind to produce their effects, and to act as enzymes catalysing reactions at the membrane surface. This receptor and enzyme role of peripheral proteins is the membrane fact tested repeatedly in this bank, from several different stems: hormones bind peripheral, not integral, proteins to produce their effects, and peripheral proteins may equally function as enzymes or as hormone receptors.
+
+## explicit_objective
+State that the cell membrane is a phospholipid bilayer studded with integral proteins (forming channels) and peripheral proteins (acting as hormone receptors and enzymes), and identify peripheral proteins as the membrane component hormones bind to produce their effects.
+
+## pitfalls
+Confusing integral and peripheral proteins' roles, or assuming the membrane is a single (mono) lipid layer rather than a bilayer. Integral proteins form the channels substances physically cross through; peripheral proteins, sitting on the surface rather than spanning the membrane, are the ones that act as hormone receptors and enzymes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Membrane Transport
+
+## subtopic
+Membrane protein composition
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-MEMBRANE-TRANSPORT
+
+## related_article_ids
+
+## related_concept_ids
+CON-NEU-1D5DC2D67A5291
+CON-FND-9B4D6C075C413E
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"regarding the cell membrane are all true, EXCEPT: ... has a monolipid layer" (Q112, the exception -- it is a bilayer); "among functions of proteins in the cell membrane: ... to act as receptors for hormones" (Q114); "the cell membrane contains: ... peripheral proteins to which hormones can bind to produce their effects" (Q116); "the cell membrane contains: ... peripheral proteins which may function as enzymes or hormone receptors" (Q120).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+None beyond standard undergraduate teaching level.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "integral proteins channels" and "peripheral proteins membrane" -- 0 hits each, safe to create. "cell membrane structure" returned only an unrelated live biochem concept on phospholipid amphipathicity, not a match for this record's integral/peripheral-protein claim.
+relationships: companion to CON-NEU-1D5DC2D67A5291 (the pending Kasr 103-BMS-physiology diffusion/osmosis concept, reused via overlay in this same cluster, which this record's membrane-structure facts sit alongside) and CON-FND-9B4D6C075C413E (internal environment / ECF composition, minted alongside this record from the same page range).
+
+---
+
+# Item
+
+## id
+CON-FND-9B4D6C075C413E
+
+## label
+The internal environment is the extracellular fluid, whose major cation is sodium
+
+## canonical_key
+teaching.physiology.body-fluids.internal-environment-ecf-sodium
+
+## aliases
+Internal environment
+Milieu interieur
+ECF major cation
+
+## arabic_label
+البيئة الداخلية للجسم
+
+## arabic_aliases
+الكاتيون الرئيسي للسائل خارج الخلوي
+
+## definition
+Claude Bernard's concept of the "internal environment" (milieu interieur) refers to the extracellular fluid (ECF) -- the fluid that directly bathes the body's cells and whose composition the body's homeostatic mechanisms work to keep constant, distinct from the intracellular fluid inside the cells themselves. Sodium (Na+) is the major cation of the extracellular fluid, present at a far higher concentration in the ECF than inside cells, where potassium (K+) is instead the dominant cation -- this reciprocal Na+/K+ distribution across the cell membrane, maintained by the Na+-K+ pump, underlies both the resting membrane potential and the body's extracellular osmotic and volume regulation.
+
+## explicit_objective
+Identify the extracellular fluid as the body's internal environment, and state that sodium is its major cation.
+
+## pitfalls
+Confusing the internal environment (ECF) with the intracellular fluid, or naming potassium instead of sodium as its major cation. Potassium is the dominant intracellular cation; sodium is the dominant extracellular one, and it is the extracellular fluid, not the intracellular fluid, that constitutes the "internal environment" the body's homeostatic mechanisms regulate.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Membrane Transport
+
+## subtopic
+Internal environment
+
+## microtopic
+
+## nanotopic
+
+## modules
+AUN-CBF-103
+
+## article_ids
+ART-FND-AUN-CBF103-MEMBRANE-TRANSPORT
+
+## related_article_ids
+
+## related_concept_ids
+CON-FND-29FC4B40C81EE5
+CON-FND-8B36B33DE53183
+
+## resource_ids
+src_76eae135453cd8432f14
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+1
+
+## universities
+aun
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AUN_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.5
+
+## confidence
+0.85
+
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"the internal environment: ... has Na+ as its major cation" (Q115); "the internal body environment refers to: ... ECF" (Q132).
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+No source disagreement found.
+
+## uncertainty
+The pending Kasr 102-INT concept CON-HEM-CAB75A4AE56C30 (reused elsewhere in this same authoring pass for the homeostatic control-loop questions) describes the internal environment more narrowly as "the interstitial fluid surrounding the cells" rather than the broader ECF (interstitial fluid plus plasma) this record and this bank's own printed key (Q132, ECF) both use; not treated as a printed-key conflict (no two marks in this bank disagree), but flagged here as a difference in how specifically two related sources phrase the same underlying Claude Bernard concept.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: find-existing.mjs run for "internal environment ECF" and "major cation extracellular" -- 0 hits each, safe to create.
+relationships: companion to CON-FND-29FC4B40C81EE5 (membrane protein composition, minted alongside this record) and CON-FND-8B36B33DE53183 (body fluid compartment volumes, this lane's Q1-30 record for the same ECF/ICF scheme).

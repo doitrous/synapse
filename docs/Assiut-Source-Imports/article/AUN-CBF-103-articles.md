@@ -289,23 +289,23 @@ Medical team, Admin team
 Admin team
 
 ## summary
-Energy balance compares intake against output: a weight-stable adult's intake equals output, growth requires a surplus, and a negative balance causes weight loss. Most catabolic energy is released as heat rather than captured work, and each foodstuff has a physical heat value (bomb calorimeter) and a physiological heat value (available to the body) that are equal for carbohydrate and fat but not for protein, whose nitrogen is lost as urea. The respiratory quotient (CO2 produced over O2 consumed) runs near 1.0 for carbohydrate and 0.7 for fat, tracking which fuel is being oxidised. The basal metabolic rate must be measured fasting, at thermoneutral temperature and complete rest, and the specific dynamic action that follows a meal is driven mainly by the metabolic processing of absorbed nutrients, not the mechanical work of digestion.
+Energy balance compares intake against output: a weight-stable adult's intake equals output, growth requires a surplus, and a negative balance causes weight loss. Most catabolic energy is released as heat rather than captured work, and each foodstuff has a physical heat value (bomb calorimeter) and a physiological heat value (available to the body) that are equal for carbohydrate and fat but not for protein, whose nitrogen is lost as urea. The respiratory quotient (CO2 produced over O2 consumed) runs near 1.0 for carbohydrate and 0.7 for fat, tracking which fuel is being oxidised. The basal metabolic rate must be measured fasting, at thermoneutral temperature and complete rest, and the specific dynamic action that follows a meal is driven mainly by the metabolic processing of absorbed nutrients, not the mechanical work of digestion. On exposure to cold, rising muscle tone, catecholamine secretion and sympathetic vasoconstriction all conserve or generate heat, opposed by evaporation (the only heat-loss route at any ambient temperature) and, when regulation itself breaks down, by hyperpyrexia and heat stroke. During prolonged starvation the body draws on carbohydrate, then fat, then protein, while appetite and obesity are governed by the same hypothalamic and energy-balance machinery.
 
 ## sections
 ### Definition
-Energy balance is the relationship between energy intake (food) and energy output (expenditure). In a weight-stable adult, intake equals output; during growth, intake must exceed output; when output exceeds intake (a negative balance), the body draws on its own stores and loses weight. Most of the chemical energy released when a foodstuff is catabolised appears as heat, not as captured work or high-energy phosphate bonds. A foodstuff's physical heat value (measured by burning it in a bomb calorimeter) and its physiological heat value (the energy actually available to the body) are equal for carbohydrate and fat, since the body oxidises both completely; protein's physiological value is lower than its physical value because its nitrogen is excreted as urea rather than fully oxidised. The respiratory quotient (RQ) is the ratio of CO2 produced to O2 consumed, about 1.0 for carbohydrate and about 0.7 for fat. The basal metabolic rate (BMR) is the energy expenditure of the vital organs at complete rest, and specific dynamic action (SDA) is the rise in metabolic rate that follows a meal.
+Energy balance is the relationship between energy intake (food) and energy output (expenditure). In a weight-stable adult, intake equals output; during growth, intake must exceed output; when output exceeds intake (a negative balance), the body draws on its own stores and loses weight. Most of the chemical energy released when a foodstuff is catabolised appears as heat, not as captured work or high-energy phosphate bonds. A foodstuff's physical heat value (measured by burning it in a bomb calorimeter) and its physiological heat value (the energy actually available to the body) are equal for carbohydrate and fat, since the body oxidises both completely; protein's physiological value is lower than its physical value because its nitrogen is excreted as urea rather than fully oxidised. The respiratory quotient (RQ) is the ratio of CO2 produced to O2 consumed, about 1.0 for carbohydrate and about 0.7 for fat. The basal metabolic rate (BMR) is the energy expenditure of the vital organs at complete rest, and specific dynamic action (SDA) is the rise in metabolic rate that follows a meal. Thermoregulation holds body temperature constant by balancing heat production against heat loss: on exposure to cold, muscle tone rises toward shivering, catecholamine secretion increases, and the sympathetic nervous system produces cutaneous vasoconstriction, piloerection and a preference for high-SDA protein food. Heat loss itself happens by radiation, conduction, convection and evaporation, of which only evaporation remains available at every ambient temperature. Starvation and obesity sit at the two ends of chronic energy imbalance, and appetite is the hypothalamic drive that, together with intake and expenditure, ultimately sets which end a person moves toward.
 
 ### Mechanism
-Threshold facts anchor these figures: carbohydrate's physical and physiological heat value is about 4.1 Kcal/g, and metabolising 10 g of protein (at about 4.1 Kcal/g physiologically) yields about 41 Kcal. The energy equivalent of oxygen -- the heat produced when one litre of O2 is consumed -- restates the heat-value idea from the oxygen side, and its exact figure depends on which substrate is being oxidised. Because carbohydrate contains oxygen within its own molecule, oxidising it produces CO2 at almost the same rate O2 is consumed (RQ about 1.0); fat needs relatively more O2 to complete its oxidation, so its RQ runs lower, about 0.7. An RQ above 1 signals net conversion of carbohydrate into fat (lipogenesis) or a transient rise from hyperventilation, exercise, or fever and acidosis; gluconeogenesis that uses fat as the substrate for new glucose runs the opposite way and lowers RQ. For a valid BMR reading, the subject must be fasted overnight, resting completely, and in a thermoneutral room -- not fed, active, or cold, all of which would raise measured heat production above the true basal level. Specific dynamic action is caused mainly by the metabolic processing of absorbed nutrients afterward (chiefly deamination of amino acids in the liver for protein, whose SDA at about 30% is by far the largest of the three foodstuffs), not by the mechanical work of digesting and absorbing the food itself.
+Threshold facts anchor these figures: carbohydrate's physical and physiological heat value is about 4.1 Kcal/g, and metabolising 10 g of protein (at about 4.1 Kcal/g physiologically) yields about 41 Kcal. The energy equivalent of oxygen -- the heat produced when one litre of O2 is consumed -- restates the heat-value idea from the oxygen side, and its exact figure depends on which substrate is being oxidised. Because carbohydrate contains oxygen within its own molecule, oxidising it produces CO2 at almost the same rate O2 is consumed (RQ about 1.0); fat needs relatively more O2 to complete its oxidation, so its RQ runs lower, about 0.7. An RQ above 1 signals net conversion of carbohydrate into fat (lipogenesis) or a transient rise from hyperventilation, exercise, or fever and acidosis; gluconeogenesis that uses fat as the substrate for new glucose runs the opposite way and lowers RQ. For a valid BMR reading, the subject must be fasted overnight, resting completely, and in a thermoneutral room -- not fed, active, or cold, all of which would raise measured heat production above the true basal level. Specific dynamic action is caused mainly by the metabolic processing of absorbed nutrients afterward (chiefly deamination of amino acids in the liver for protein, whose SDA at about 30% is by far the largest of the three foodstuffs), not by the mechanical work of digesting and absorbing the food itself -- and this same protein-SDA fact is why protein food is physiologically preferred on exposure to cold. Radiation, conduction and convection all move heat down a temperature gradient from the warmer body to the cooler environment, so they require the environment to be cooler than the body; at 15C, heat is lost mainly by radiation and conduction, but at 38C, close to body temperature, that gradient disappears and evaporation becomes the only effective heat-loss route -- and if body temperature is actually lower than atmospheric temperature, radiation, conduction and convection carry heat into the body rather than out of it. Eccrine sweat glands, sympathetic cholinergic and atropine-sensitive, carry out this evaporative loss, but their cooling effect is impaired, not enabled, by high humidity, since evaporation depends on a dry-air gradient. Heat stroke follows directly from this failure -- inability to evaporate sweat in excessive humidity -- while hyperpyrexia more broadly reflects irregularity of the central thermoregulatory mechanisms and self-reinforcing vicious circles, not excessive heat production alone; endogenous pyrogen, a monocyte/macrophage protein released by bacterial endotoxin, produces the milder, regulated version of this same rise by resetting the hypothalamic thermostat upward through local prostaglandin (not histamine) release. Two hypothalamic centres divide this regulation: the anterior heat-loss centre drives antirise responses mainly by physical processes and switches on in heat, and the posterior heat-gain centre drives antidrop responses mainly by chemical processes and switches on in cold -- each active under the ambient condition its function, not its name, would suggest. During starvation, the body draws on carbohydrate, then fat, then protein in sequence, yet some protein catabolism and rising urinary ammonia and acidosis begin early, since the brain's obligatory glucose need must be met by gluconeogenesis before ketone-body adaptation is established; plasma proteins, electrolytes, and the brain and heart are relatively spared until the terminal stage. Obesity reflects a sustained positive energy balance and increased fat, not protein, deposition, appetite is governed by hypothalamic centres that respond to blood glucose, gastric distension and cold exposure and is not abolished by gastrectomy, and amphetamine is useful in obesity treatment because it suppresses, not increases, appetite.
 
 ### Key determinants
-Since the brain metabolises almost exclusively glucose, its RQ sits close to 1, distinguishing it from fat-reliant tissues. An uncontrolled diabetic, unable to use glucose and relying on fat oxidation, runs a low RQ rather than one near 1. Obesity reflects a sustained positive energy balance and an increase in the body's fat content, not its protein content.
+Since the brain metabolises almost exclusively glucose, its RQ sits close to 1, distinguishing it from fat-reliant tissues. An uncontrolled diabetic, unable to use glucose and relying on fat oxidation, runs a low RQ rather than one near 1. Obesity reflects a sustained positive energy balance and an increase in the body's fat content, not its protein content. Body temperature regulation is given priority in homeostasis; evaporation of about 1 mL of sweat removes roughly 0.6 Kcal, wetting the skin helps in extreme heat, and autonomic drugs act predictably on it -- atropine (anticholinergic, blocks sweating) raises body temperature, curare (blocks muscle tone) lowers it.
 
 ### Clinical significance
-Indirect calorimetry (measuring O2 consumption and CO2 production) lets clinicians estimate a patient's metabolic rate and substrate use non-invasively, using exactly the RQ and energy-equivalent-of-oxygen relationships taught here -- relevant to nutritional support planning in critically ill or metabolically stressed patients.
+Indirect calorimetry (measuring O2 consumption and CO2 production) lets clinicians estimate a patient's metabolic rate and substrate use non-invasively, using exactly the RQ and energy-equivalent-of-oxygen relationships taught here -- relevant to nutritional support planning in critically ill or metabolically stressed patients. Heat stroke and hyperpyrexia are thermoregulatory emergencies whose management follows directly from the mechanisms taught here: cooling a heat-stroke patient must address the humidity-driven failure of evaporative loss, not merely the ambient temperature, and febrile illness's aspirin response works by inhibiting the same prostaglandin pathway endogenous pyrogen uses to raise the hypothalamic set point. Amphetamine's historical use as an anti-obesity agent, and the protein-sparing, ketogenic adaptation of prolonged starvation or therapeutic fasting, both extend directly from the energy-balance and substrate-use mechanisms described here.
 
 ### Common misconceptions
-Assuming a weight-stable adult's intake normally exceeds output, when a stable weight is itself the sign the two are matched. Inverting the RQ ratio (O2 over CO2 instead of CO2 over O2). Attributing specific dynamic action to the physical work of digestion rather than to the metabolic processing of absorbed nutrients afterward. Measuring BMR under fed or cold conditions instead of the required fasting, thermoneutral state.
+Assuming a weight-stable adult's intake normally exceeds output, when a stable weight is itself the sign the two are matched. Inverting the RQ ratio (O2 over CO2 instead of CO2 over O2). Attributing specific dynamic action to the physical work of digestion rather than to the metabolic processing of absorbed nutrients afterward. Measuring BMR under fed or cold conditions instead of the required fasting, thermoneutral state. Assuming radiation, conduction and convection always contribute to heat loss regardless of ambient temperature, rather than only when the environment is cooler than the body. Assuming sweat evaporates best in a humid climate, when humidity is exactly what blunts it. Naming the heat-loss centre as the one active in cold weather (or the heat-gain centre as active in hot weather) by matching the name to the weather rather than to the centre's actual trigger. Assuming gastrectomy abolishes appetite, or that amphetamine's anti-obesity usefulness comes from increasing rather than suppressing appetite.
 
 ## published_summary
 
@@ -317,9 +317,121 @@ Carbohydrate's physical and physiological heat values are equal (~4.1 Kcal/g); p
 RQ = CO2 produced / O2 consumed, about 1.0 for carbohydrate and 0.7 for fat; gluconeogenesis from fat lowers RQ rather than raising it.
 BMR must be measured fasting, at thermoneutral temperature, at complete rest.
 Specific dynamic action is caused mainly by metabolic processing of absorbed nutrients (protein's SDA ~30%, the largest of the three foodstuffs), not by the mechanical work of digestion.
+On exposure to cold, muscle tone/shivering, catecholamine secretion, cutaneous vasoconstriction, piloerection and preference for protein food all rise together.
+Evaporation is the only heat-loss mechanism at every ambient temperature; radiation, conduction and convection need the environment cooler than the body.
+Eccrine glands are the thermoregulatory sweat glands (sympathetic cholinergic, atropine-sensitive); their evaporative cooling is impaired, not enabled, by high humidity -- the mechanism behind heat stroke.
+Hyperpyrexia reflects central thermoregulatory breakdown, not heat production alone; endogenous pyrogen resets the hypothalamic thermostat via prostaglandin, not histamine.
+The anterior heat-loss centre acts in heat; the posterior heat-gain centre acts in cold.
+Starvation uses carbohydrate then fat then protein, yet some protein catabolism and urinary ammonia/acidosis begin early; plasma proteins, electrolytes, brain and heart are spared until the terminal stage.
+Obesity is increased fat, not protein, deposition; appetite is not abolished by gastrectomy; amphetamine suppresses, not increases, appetite.
 
 ## lose_the_mark
 Assuming intake normally exceeds output in a weight-stable adult.
 Inverting the RQ ratio or assuming every fat-related process raises RQ.
 Measuring or imagining BMR measured fed or in a cold room.
 Attributing SDA to digestive work rather than post-absorptive metabolic processing.
+Assuming radiation/conduction/convection cause heat loss even when the environment is hotter than the body.
+Assuming humidity helps, rather than blunts, sweat evaporation.
+Reversing which hypothalamic centre (heat-loss vs heat-gain) is active in which ambient condition.
+Assuming amphetamine or gastrectomy increase, rather than reduce, appetite-related intake.
+
+---
+
+# Item
+
+## id
+ART-FND-AUN-CBF103-MEMBRANE-TRANSPORT
+
+## title
+Cell membrane protein composition and the internal environment
+
+## arabic_title
+تركيب بروتينات الغشاء الخلوي والبيئة الداخلية للجسم
+
+## aliases
+Membrane protein composition
+Integral and peripheral proteins
+Internal environment
+
+## subject
+fnd
+
+## topic
+Membrane Transport
+
+## subtopic
+Foundations
+
+## microtopic
+
+## nanotopic
+
+## primary_node_id
+
+## secondary_node_ids
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Year 1 foundation
+
+## reading_time
+5
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## summary
+The cell membrane is a phospholipid bilayer, not a monolayer, studded with integral proteins that form its channels and peripheral proteins that act as hormone receptors and enzymes. The extracellular fluid is the body's internal environment (Claude Bernard's milieu interieur), with sodium as its major cation, distinct from the potassium-dominant intracellular fluid.
+
+## sections
+### Definition
+The cell membrane's lipid component is a bilayer of phospholipids, two layers, not one -- a "monolipid layer" is not a correct description of it. Embedded in and on this bilayer are two functionally distinct classes of protein: integral proteins, which span or embed within the bilayer, and peripheral proteins, which sit on its surface without spanning it. The internal environment, in the classical (Claude Bernard) sense, is the extracellular fluid (ECF) -- the fluid directly bathing the body's cells -- whose composition the body's homeostatic mechanisms work to keep constant.
+
+### Mechanism
+Integral proteins form the membrane's channels, the physical routes through which ions and water-soluble substances cross, and include the carrier proteins used in facilitated diffusion and active transport. Peripheral proteins, sitting on the surface rather than spanning the bilayer, function instead as receptors, to which hormones and other signalling molecules bind to produce their effects, and as enzymes catalysing surface reactions. Sodium is the major cation of the extracellular fluid (the internal environment), at a far higher concentration than inside cells, where potassium is instead the dominant cation -- a reciprocal distribution the Na+-K+ pump maintains and that underlies both the resting membrane potential and extracellular volume and osmotic regulation.
+
+### Key determinants
+Which membrane component a question is really asking about is often signalled by function: a channel-forming, transport-related role points to an integral protein, while a receptor- or enzyme-related role points to a peripheral protein. Likewise, a "which fluid is regulated to stay constant" question points to the extracellular fluid as the internal environment, not the intracellular fluid.
+
+### Clinical significance
+Peripheral membrane proteins acting as hormone receptors are the binding site most water-soluble hormones (which cannot cross the lipid bilayer directly) depend on for their action, the same receptor logic that underlies much of endocrine pharmacology. Sodium's dominance of the extracellular fluid is the basis for using serum sodium as the standard clinical marker of extracellular volume and osmotic status.
+
+### Common misconceptions
+Describing the cell membrane's lipid component as a single (mono) layer rather than a bilayer. Assigning the receptor/enzyme role to integral rather than peripheral proteins. Naming potassium instead of sodium as the extracellular fluid's major cation, or confusing the extracellular fluid with the intracellular fluid as "the internal environment."
+
+## published_summary
+
+## published_sections
+
+## hold_these
+The cell membrane is a phospholipid bilayer, not a monolayer.
+Integral proteins form membrane channels; peripheral proteins act as hormone receptors and enzymes.
+The internal environment is the extracellular fluid (ECF); sodium is its major cation.
+
+## lose_the_mark
+Calling the membrane's lipid component a monolayer.
+Assigning receptor/enzyme function to integral rather than peripheral proteins.
+Naming potassium, or the intracellular fluid, in place of sodium and the extracellular fluid.
