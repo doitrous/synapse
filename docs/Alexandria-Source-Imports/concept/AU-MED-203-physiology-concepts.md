@@ -11908,3 +11908,3005 @@ resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (
 sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
 relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
 au: Week 1 EOM Final, p23, q95
+
+---
+
+# Item
+
+## id
+CON-NEU-852039D6FAC69D
+
+## label
+Conscious proprioception provides sensory information to the cerebral cortex
+
+## canonical_key
+physiology.conscious-proprioception.cerebral-cortex-destination
+
+## definition
+Conscious proprioception (joint position and movement sense that a person can consciously perceive and report) ascends via the dorsal column-medial lemniscus pathway to the thalamus and terminates in the primary somatosensory cortex (postcentral gyrus), which is precisely why the sensation reaches conscious awareness. This is distinct from unconscious proprioception, carried by the spinocerebellar tracts to the cerebellum for reflex postural and coordination control without ever reaching consciousness or the cerebral cortex.
+
+## explicit_objective
+State that conscious proprioception's sensory information is delivered to the cerebral cortex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Proprioception
+
+## subtopic
+Conscious proprioception destination
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Conscious proprioception pathway|Dorsal column proprioception|Somatosensory cortex proprioception
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing conscious proprioception's cortical destination with unconscious proprioception's cerebellar destination — only the unconscious (spinocerebellar) pathway terminates in the cerebellum.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Proprioception
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p26 q106 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-852039D6FAC69D
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Conscious proprioception provides sensory information to the ... A- Cerebellar cortex. B- Cerebellum. C- Cerebral cortex. D- Pons. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p26, q106
+
+---
+
+# Item
+
+## id
+CON-NEU-5EC8D66C6451A4
+
+## label
+Cutaneous thermoreceptors are innervated by A-delta and C fibers
+
+## canonical_key
+physiology.cutaneous-thermoreceptor.a-delta-and-c-fibre-innervation
+
+## definition
+Cutaneous thermoreceptors (both cold and warm receptors) signal via two afferent fibre types: thinly myelinated A-delta fibers, which conduct relatively quickly, and unmyelinated C fibers, which conduct slowly. Cold receptors are served predominantly by A-delta fibers and warm receptors predominantly by C fibers, but as a class thermoreceptors use both fibre types, unlike large myelinated A-alpha/A-beta fibers, which instead serve proprioception and fine touch.
+
+## explicit_objective
+State that cutaneous thermoreceptors are innervated by A-delta and C fibers.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptor physiology
+
+## subtopic
+Thermoreceptor fibre type
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Thermoreceptor innervation|A-delta and C fiber thermoreception|Cold and warm receptor fibers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Attributing thermoreceptor signalling to the large, fast, myelinated A-alpha/A-beta fibers that instead carry proprioception and fine touch, rather than the thin A-delta and unmyelinated C fibers that actually serve thermoreception.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p26 q107 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5EC8D66C6451A4
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Cutaneous thermoreceptors are innervated by ... A- Myelinated A delta. B- Myelinated c. C- Unmyelinated c. D- A &c. Key: D. (Also tested as week1-q119 (same fact, restated with the option set 'A alpha and A beta / A beta and A delta / A delta and C / none', key C).)
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p26, q107
+
+---
+
+# Item
+
+## id
+CON-NEU-3F7B96676673DC
+
+## label
+Fasciculus gracilis ascends in the medial part of the dorsal column
+
+## canonical_key
+physiology.fasciculus-gracilis.medial-dorsal-column-position
+
+## definition
+The dorsal (posterior) column of the spinal cord is divided into two fascicles: the fasciculus gracilis, occupying the MEDIAL part and carrying fine touch, vibration and conscious proprioception from the lower limb and lower trunk, and the fasciculus cuneatus, occupying the lateral part and carrying the same modalities from the upper limb and upper trunk (present only above mid-thoracic levels). This medial-lower-limb versus lateral-upper-limb somatotopic arrangement is the basis for localising a dorsal column lesion by which limb's discriminative sensation is lost.
+
+## explicit_objective
+State that the fasciculus gracilis ascends in the medial part of the dorsal column.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Dorsal column pathway
+
+## subtopic
+Fasciculus gracilis position
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Fasciculus gracilis position|Dorsal column somatotopy|Gracile and cuneate fasciculi
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Reversing the medial/lateral somatotopy — the fasciculus gracilis (lower limb) is medial, while the fasciculus cuneatus (upper limb) is lateral, not the other way around.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Dorsal column pathway
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p26 q108 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3F7B96676673DC
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Fasciculus gracilis ascends in the … A- Lateral part of dorsal column. B- Medial part of dorsal column. C- A&b. D- None of the above. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p26, q108
+
+---
+
+# Item
+
+## id
+CON-NEU-FB4AAB9CCF1E08
+
+## label
+A right-sided dorsal column lesion causes loss of tactile discrimination on the right side of the body
+
+## canonical_key
+physiology.dorsal-column-lesion.ipsilateral-tactile-discrimination-loss
+
+## definition
+The dorsal column-medial lemniscus pathway ascends ipsilaterally in the spinal cord and does not decussate until the fibers reach the medulla (as the internal arcuate fibers forming the medial lemniscus). A lesion of the dorsal column IN THE CORD, such as a right-sided cut, therefore abolishes fine touch, vibration, tactile discrimination and conscious proprioception on the SAME (right) side of the body below the lesion, unlike the already-crossed anterolateral (spinothalamic) system, whose cord-level lesion instead produces deficits on the opposite side.
+
+## explicit_objective
+State that a right-sided dorsal column lesion causes ipsilateral (right-sided) loss of tactile discrimination, since the pathway has not yet decussated at spinal cord level.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Dorsal column pathway
+
+## subtopic
+Dorsal column lesion laterality
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Dorsal column lesion laterality|Ipsilateral sensory loss|Medial lemniscus decussation level
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Applying the anterolateral system's contralateral lesion rule to the dorsal column — a spinal cord-level dorsal column lesion produces IPSILATERAL loss, because that pathway only crosses in the medulla, not in the cord.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Dorsal column pathway
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p26 q109 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FB4AAB9CCF1E08
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Cut of the dorsal column lemniscus in the right side of the spinal cord is associated with ... A- Loss of tactile discrimination on the right side of the body. B- Loss of pain and temperature sensation on the right side of the body. C- Loss of vibration sense on the left side of the body. D- Loss of tactile localization on the left side of the body. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p26, q109
+
+---
+
+# Item
+
+## id
+CON-NEU-39FCBE37C43CC1
+
+## label
+Ascending sensory tracts' impulses reach the cerebellum and/or the somatosensory cortex
+
+## canonical_key
+physiology.sensory-tract.cerebellum-or-somatosensory-cortex-termination
+
+## definition
+As a general rule spanning the major ascending sensory tracts, unconscious sensory information (e.g. from the spinocerebellar tracts) terminates in the cerebellum for reflex motor coordination, while conscious sensory information (e.g. from the dorsal column-medial lemniscus and spinothalamic tracts) relays through the thalamus to the somatosensory cortex, so as a set these tracts' impulses reach one destination or the other, not a single shared endpoint. This contrasts with the false alternatives that proprioceptive information travels only in the dorsal columns (the spinocerebellar tracts also carry it, unconsciously), that the spinothalamic tracts carry ipsilateral information (they are crossed, carrying contralateral information), or that all afferent fibers cross at the same spinal cord level (the dorsal columns cross far higher, in the medulla).
+
+## explicit_objective
+State that ascending sensory tracts' impulses reach the cerebellum and/or the somatosensory cortex, depending on whether the modality is unconscious or conscious.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Ascending sensory pathways
+
+## subtopic
+General destinations of sensory tracts
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Sensory tract destinations|Cerebellum vs cortex sensory targets|Conscious vs unconscious sensory pathways
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming every ascending sensory tract shares one destination, one decussation level, or one carried modality — proprioception, decussation level and cortical vs cerebellar destination all differ between the dorsal column, spinocerebellar and spinothalamic systems.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Ascending sensory pathways
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p26 q110 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-39FCBE37C43CC1
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Regarding sensory tracts. A- Proprioceptive information is carried in the dorsal columns only. B- Spino-thalamic tracts carry information from ipsilateral side of the body. C- All affects fibers cross the midline at same level of spinal cord. D- Their impulses reach cerebellum and-or somatosensory cortex. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p26, q110
+
+---
+
+# Item
+
+## id
+CON-NEU-C9D6C4D6407818
+
+## label
+The Pacinian corpuscle is the receptor that best senses vibration
+
+## canonical_key
+physiology.vibration-sense.pacinian-corpuscle-as-best-receptor
+
+## definition
+Among the skin's mechanoreceptors, the Pacinian corpuscle's large, onion-like layered capsule makes it a rapidly-adapting receptor exquisitely tuned to detect high-frequency vibration and deep pressure, unlike Meissner's corpuscle (light touch, lower frequency flutter), Merkel discs (sustained pressure and texture) or Ruffini corpuscles (skin stretch). This vibration-sensing role is the same underlying property recorded by this module's related concept on the Pacinian corpuscle's hypodermal location, approached here from the 'which receptor' rather than 'which location' angle.
+
+## explicit_objective
+Identify the Pacinian corpuscle as the receptor best suited to sense vibration, among Meissner, Merkel and Ruffini receptors.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptor physiology
+
+## subtopic
+Vibration-sensing receptor
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Vibration receptor|Pacinian corpuscle function|Rapidly adapting mechanoreceptor
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Attributing vibration sense to Meissner's corpuscle (light touch/flutter) or Merkel discs (sustained pressure) instead of the Pacinian corpuscle, which is the receptor specialised for vibration.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+CON-NEU-63261E1F45420D
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p28 q116 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C9D6C4D6407818
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following receptors best senses vibration. A- Pacinian corpuscle. B- Meissner corpuscle. C- Merkel disc. D- rufinni corpuscle. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p28, q116
+
+---
+
+# Item
+
+## id
+CON-NEU-64A19146CB92F7
+
+## label
+Conscious proprioceptive sensation senses the position and movements of joints
+
+## canonical_key
+physiology.conscious-proprioceptive-sensation.joint-position-movement
+
+## definition
+Conscious proprioceptive sensation is the specific sensory class responsible for perceiving joint position and movement (kinaesthesia), carried consciously via the dorsal column-medial lemniscus pathway. This is distinct from unconscious proprioceptive sensation (the same joint/muscle information relayed instead to the cerebellum for reflex postural control, never reaching awareness), tactile sensation (touch, not joint position specifically), and pain sensation.
+
+## explicit_objective
+State that conscious proprioceptive sensation is the sensory class that senses the position and movement of joints.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Proprioception
+
+## subtopic
+Conscious vs unconscious proprioceptive sensation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Joint position sense|Kinaesthesia|Conscious vs unconscious proprioception
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing conscious proprioceptive sensation (joint position/movement, reaching awareness) with unconscious proprioceptive sensation (the same information relayed to the cerebellum, never consciously perceived).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Proprioception
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p28 q117 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-64A19146CB92F7
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following senses position & movements of joints? A- Conscious proprioceotive sensation. B- Unconscious proprioceptive sensation. C- Tactile sensation. D- Pain sensation. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p28, q117
+
+---
+
+# Item
+
+## id
+CON-NEU-8A4C706ABC0225
+
+## label
+Stimulation of tactile receptors in the deep layers of the skin results in pressure sensation
+
+## canonical_key
+physiology.deep-skin-tactile-receptor.pressure-sensation-result
+
+## definition
+Tactile receptors located deep in the skin (in the dermis and hypodermis, e.g. Pacinian and Ruffini corpuscles) respond to sustained mechanical deformation by producing the sensation of pressure, in contrast to the fine, finely-localised touch sensation produced by superficial receptors such as Meissner's corpuscle in the papillary dermis. Depth of the receptor within the skin is therefore a determinant of whether stimulation is perceived as light touch or as pressure.
+
+## explicit_objective
+State that stimulation of deep-layer skin tactile receptors is perceived as pressure sensation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptor physiology
+
+## subtopic
+Depth-dependent tactile sensation
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Deep tactile receptor|Pressure sensation from skin receptors|Superficial vs deep skin receptors
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming all cutaneous tactile receptors, regardless of depth, produce the same quality of sensation — deep-layer stimulation is perceived as pressure, while superficial-layer stimulation is perceived as fine touch.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p28 q118 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8A4C706ABC0225
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which of the following results from stimulation of tactile receptors in deep layers of the skin. A- Pressure sensation. B- Tactile sensation. C- vibration. D- None of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p28, q118
+
+---
+
+# Item
+
+## id
+CON-NEU-FF5E90372BF3AF
+
+## label
+Cold pain receptors are stimulated at 0-10°C
+
+## canonical_key
+physiology.cold-pain-receptor.stimulation-temperature-range
+
+## definition
+As skin temperature falls, ordinary cold thermoreceptors first signal cooling, but once the temperature drops further into the roughly 0-10°C range, free nerve endings acting as cold pain receptors are additionally recruited, producing the sharp, aching pain of extreme cold. This is distinct from simple cold-receptor thermoreception (which begins signalling at higher, non-painful temperatures) and from the separate classification question of whether cold receptors are thermoreceptors or mechanoreceptors.
+
+## explicit_objective
+State that cold pain receptors are stimulated in the 0-10°C temperature range.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Sensory receptor physiology
+
+## subtopic
+Cold pain receptor threshold
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Cold pain threshold|Cryoalgesia|Cold-induced pain receptors
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Confusing the temperature range that recruits cold PAIN receptors (roughly 0-10°C) with the higher, non-painful range at which ordinary cold thermoreceptors already begin signalling cooling.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Sensory receptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p28 q120 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FF5E90372BF3AF
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Cold pain receptors are stimulated at. A- 0C. B- 0 - 10 C. C- 35 C. D- 15 C. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p28, q120
+
+---
+
+# Item
+
+## id
+CON-NEU-C3B8156EF0AC07
+
+## label
+This source's key for the sensation not transmitted by the gracile and cuneate tracts
+
+## canonical_key
+physiology.dorsal-column-tracts.gracile-cuneate-except-pressure
+
+## definition
+The dorsal column (gracile and cuneate) tracts carry vibration sense, conscious proprioception and fine, discriminative touch. This source keys pressure sense as the exception not transmitted by these tracts, following a teaching convention (used consistently elsewhere in this same paper, e.g. week1-q129) that assigns pressure sensation to the anterolateral (spinothalamic) system rather than the dorsal columns — a distinction some other texts draw differently, crediting the dorsal columns with fine, graded pressure discrimination as well.
+
+## explicit_objective
+State this source's position that pressure sense, unlike vibration, conscious proprioception and fine touch, is not transmitted by the gracile and cuneate tracts.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Dorsal column pathway
+
+## subtopic
+Gracile and cuneate tract modalities
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Dorsal column modalities|Gracile and cuneate tract sensations|Pressure sense tract assignment
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming every textbook agrees on which tract carries pressure sensation — some assign fine, graded pressure discrimination to the dorsal columns, while this source's own convention (consistent across this paper) assigns pressure to the anterolateral system instead.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+CON-NEU-F9E4AE689C20BD
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Dorsal column pathway
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p31 q126 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C3B8156EF0AC07
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Gracile and cuneate tracts transmit the following sensations except. A- Vibration sense. B- Conscious proprioceptive. C- Fine touch. D- Pressure sense. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p31, q126
+
+---
+
+# Item
+
+## id
+CON-NEU-8A3634B2755AAA
+
+## label
+This source's key for the false statement about dorsal column lesion patients
+
+## canonical_key
+physiology.dorsal-column-lesion.position-sense-loss-except-open-eyes-doubt
+
+## definition
+Patients with a dorsal column lesion lose proprioceptive sensation, cannot identify objects by feel with their eyes closed (astereognosis), and cannot report whether their joints are flexed or extended without looking — but they classically CAN identify their limb position when their eyes are OPEN, compensating with vision (the basis of a positive Romberg sign, which appears only on eye closure). This source nonetheless keys 'identify their position when eyes are open' as the FALSE statement (the exception), which runs against the standard teaching that visual compensation with eyes open is preserved in dorsal column disease (see uncertainty).
+
+## explicit_objective
+Reproduce this source's printed answer that dorsal column lesion patients do NOT identify their position even with eyes open, while recognising that standard teaching holds visual compensation is preserved with eyes open.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Dorsal column pathway
+
+## subtopic
+Dorsal column lesion — a keyed inconsistency
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Dorsal column lesion signs|Romberg sign|Proprioceptive loss and vision compensation
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Applying the standard Romberg-sign teaching (preserved position sense with eyes open, lost with eyes closed) directly against this source's key without checking it — this paper's printed answer treats 'position sense preserved with eyes open' as false.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+Standard teaching (the basis of the Romberg test) holds that dorsal column lesion patients CAN identify their limb position when their eyes are open, compensating visually for lost proprioception, and only become unsteady or lose position sense once their eyes are closed. This source's key instead marks 'identify their position when eyes are open' as the false statement (the exception), which appears to invert the expected preserved-with-vision teaching point. Kept as printed per LANE-CARD's 'printed keys stand' rule; the discrepancy is recorded here rather than silently corrected.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Dorsal column pathway
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p31 q127 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-8A3634B2755AAA
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+In patients with lesions in the dorsal column all the following is true except: A- Loss of proprioceptive sensation. B- Can't identify objects when eyes closed. C- Identify their position when eyes are open. D- Can't know if their joints are flexed or extended. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p31, q127
+
+---
+
+# Item
+
+## id
+CON-NEU-620776EC5BF004
+
+## label
+The ventral spinothalamic tract transmits crude touch, itch and tickle
+
+## canonical_key
+physiology.ventral-spinothalamic-tract.crude-touch-itch-tickle
+
+## definition
+The ventral (anterior) spinothalamic tract, part of the anterolateral system, carries crude, poorly-localised touch together with itch and tickle sensation, distinct from vibration (a dorsal column modality) and from the lateral spinothalamic tract, which instead carries pain and temperature. This source's option 'b&c' (crude touch, plus itch and tickle) captures the ventral tract's combined content.
+
+## explicit_objective
+State that the ventral spinothalamic tract transmits crude touch together with itch and tickle sensation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Anterolateral (spinothalamic) system
+
+## subtopic
+Ventral spinothalamic tract modalities
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Ventral spinothalamic tract|Crude touch pathway|Itch and tickle sensation pathway
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assigning vibration sense to the ventral spinothalamic tract, when vibration is instead a dorsal column modality; the ventral spinothalamic tract's own content is crude touch, itch and tickle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Anterolateral (spinothalamic) system
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p31 q128 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-620776EC5BF004
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Ventral spinothalamic tract transmits which of the following sensations? A- Vibration. B- Crude touch. C- Itch and tickle. D- b&c. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p31, q128
+
+---
+
+# Item
+
+## id
+CON-NEU-F9E4AE689C20BD
+
+## label
+This source's key for pressure sense's carrying tract is the ventral spinothalamic tract
+
+## canonical_key
+physiology.pressure-sense.ventral-spinothalamic-tract
+
+## definition
+This paper consistently assigns pressure sensation to the anterolateral system, keying the ventral spinothalamic tract (rather than the dorsal column or the lateral spinothalamic/spinocerebellar tracts) as the pathway transmitting pressure sense — the same convention behind this module's related concept on the gracile/cuneate tracts NOT carrying pressure. Other texts instead credit fine, graded pressure discrimination to the dorsal columns, so students should recognise this as this specific source's own consistent teaching position rather than a universal rule.
+
+## explicit_objective
+State this source's position that pressure sense is transmitted by the ventral spinothalamic tract.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Anterolateral (spinothalamic) system
+
+## subtopic
+Pressure sense tract assignment
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Pressure sense pathway|Ventral spinothalamic tract function|Pressure sensation tract
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating pressure sense's tract assignment as a single universal fact — different sources split pressure between the dorsal columns and the anterolateral system differently, and this paper consistently assigns it to the ventral spinothalamic tract.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+CON-NEU-C3B8156EF0AC07
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Anterolateral (spinothalamic) system
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p31 q129 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F9E4AE689C20BD
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Pressure sense is transmitted by ….. A- Ventral spinothalamic tract. B- Ventral spinocerebellar tract. C- Dorsal column. D- Lateral tract. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p31, q129
+
+---
+
+# Item
+
+## id
+CON-NEU-2DA18E336E9826
+
+## label
+Muscle spindle sensation is carried by the spinocerebellar tracts
+
+## canonical_key
+physiology.muscle-spindle-sensation.spinocerebellar-tract-pathway
+
+## definition
+Muscle spindle afferents (chiefly the fast, group Ia fibers) signal muscle length and rate of stretch primarily for unconscious, reflex control of posture and coordination, and this information reaches the cerebellum via the dorsal and ventral spinocerebellar tracts, distinct from the dorsal column-medial lemniscal route used for conscious joint position sense. This is the pathway this source keys as the muscle spindle's sensory route, for the figure identified in the paired question as a muscle spindle.
+
+## explicit_objective
+State that muscle spindle sensation is carried to the cerebellum via the spinocerebellar tracts.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Muscle spindle physiology
+
+## subtopic
+Muscle spindle afferent pathway
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Muscle spindle afferent pathway|Spinocerebellar tract input|Unconscious proprioception route
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Routing muscle spindle sensation through the dorsal column-medial lemniscus pathway (conscious touch/proprioception) rather than the spinocerebellar tracts, which carry this unconscious, reflex-oriented information to the cerebellum.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Muscle spindle physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p33 q137 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2DA18E336E9826
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+2. the somatic sensations from these receptors are carried by ….... A- Spinothalamic tract. B- Spinocerebeller tracts. C- Spinoreticular tract. D- Dorsal column lemniscal tract. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p33, q137
+
+---
+
+# Item
+
+## id
+CON-NEU-69AB68A874EFA3
+
+## label
+The spinoreticular tract, unlike the dorsal column and dorsal spinocerebellar tracts, is not purely ipsilateral
+
+## canonical_key
+physiology.ipsilateral-ascending-tracts.spinoreticular-exception
+
+## definition
+The dorsal column and the dorsal spinocerebellar tract ascend entirely on the same (ipsilateral) side of the spinal cord without crossing. The spinoreticular tract, part of the anterolateral system carrying pain (particularly the slow, diffuse component) to the reticular formation, instead ascends with a mixture of crossed and uncrossed fibers, so it does not share the strictly ipsilateral course of the other two tracts.
+
+## explicit_objective
+Identify the spinoreticular tract as the exception among these tracts to a strictly ipsilateral course in the spinal cord.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Ascending sensory pathways
+
+## subtopic
+Ipsilateral vs partly-crossed ascending tracts
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Spinoreticular tract laterality|Ipsilateral spinal tracts|Crossed and uncrossed ascending fibers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Assuming every named ascending tract is either fully ipsilateral or fully crossed — the spinoreticular tract's mixed crossed/uncrossed course sets it apart from the strictly ipsilateral dorsal column and dorsal spinocerebellar tracts.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Ascending sensory pathways
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p33 q138 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-69AB68A874EFA3
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+All the following tracts pass at the ipsilateral side of the spinal cord except. A- Dorsal column. B- Doral cerebeller. C- Spinoreticular. D- None of the above. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p33, q138
+
+---
+
+# Item
+
+## id
+CON-NEU-0AC47FBEC22EFC
+
+## label
+Meissner corpuscle sensation is carried by the dorsal column tract
+
+## canonical_key
+physiology.meissner-corpuscle-sensation.dorsal-column-pathway
+
+## definition
+Meissner's corpuscle detects fine, discriminative touch, and this modality is carried centrally by the dorsal column-medial lemniscus pathway to the thalamus and somatosensory cortex, distinct from the spinocerebellar route used by muscle spindle afferents (the receptor in the paired figure question) or the spinothalamic route used by crude touch, pain and temperature.
+
+## explicit_objective
+State that the sensation from Meissner's corpuscle is carried by the dorsal column tract.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Cutaneous mechanoreceptor physiology
+
+## subtopic
+Meissner corpuscle afferent pathway
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Fine touch pathway|Meissner corpuscle sensory route|Dorsal column fine touch
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Routing Meissner corpuscle sensation through the spinocerebellar or spinothalamic tracts, when fine, discriminative touch from this receptor is carried by the dorsal column-medial lemniscus pathway.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Cutaneous mechanoreceptor physiology
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p33 q140 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-0AC47FBEC22EFC
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+The sensation from it is carried by ...... A- Dorsal column tract. B- Spino cerebeller tracts. C- Spinothalamic tract. D- None of the above. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p33, q140
+
+---
+
+# Item
+
+## id
+CON-NEU-01439DFFBA3FF6
+
+## label
+This source's key for the cuneate tract's fiber type is A-alpha
+
+## canonical_key
+physiology.cuneate-tract.a-alpha-fibre-type
+
+## definition
+The cuneate tract's first-order afferents are large-diameter, fast-conducting, heavily myelinated fibers, and this source keys them as 'A-alpha' fibers — a simplified classification some courses use for any large, fast myelinated sensory fiber, though other texts more precisely reserve A-alpha for muscle/tendon proprioceptive afferents (group Ia/Ib) and classify cutaneous touch afferents like the cuneate tract's own as A-beta (group II). Students should recognise the large-fiber, fast-conducting property as the key fact, while noting that A-alpha versus A-beta labelling for cutaneous touch afferents varies between sources.
+
+## explicit_objective
+State this source's classification of the cuneate tract's fibers as A-alpha, while recognising the large, fast myelinated fiber property this label is meant to convey.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Dorsal column pathway
+
+## subtopic
+Cuneate tract fibre classification
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Cuneate tract fiber type|A-alpha vs A-beta afferents|Large myelinated sensory fibers
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating A-alpha versus A-beta labelling for cutaneous dorsal-column afferents as fixed across all sources — some texts reserve A-alpha for proprioceptive (Ia/Ib) afferents and use A-beta for cutaneous touch afferents like the cuneate tract's own, while this source uses A-alpha for the cuneate tract's fiber type.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Dorsal column pathway
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p34 q142 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-01439DFFBA3FF6
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Which type of neuron fiber does cuneate tract contain? A- A alpha. B- B. C- B alpha. D- C alpha. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p34, q142
+
+---
+
+# Item
+
+## id
+CON-NEU-3B631391D8D819
+
+## label
+The ventrolateral system does not transmit emotions
+
+## canonical_key
+physiology.ventrolateral-system.emotions-exception
+
+## definition
+The ventrolateral (anterolateral) system transmits pain, temperature and itch as its core sensory modalities, all genuine sensory qualities carried by ascending spinal tracts. 'Emotions' is not a discrete sensory modality carried by an ascending spinal sensory tract at all, making it the clear exception among these four options, unlike pain, temperature and itch, which the ventrolateral system genuinely transmits.
+
+## explicit_objective
+Identify emotions as the one option NOT transmitted by the ventrolateral system, since pain, temperature and itch are its genuine sensory content.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Anterolateral (spinothalamic) system
+
+## subtopic
+Ventrolateral system modalities
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Ventrolateral system modalities|Anterolateral pathway sensations|Pain temperature itch pathway
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating 'emotions' as a sensory modality carried by an ascending spinal tract like pain, temperature or itch — it is not a discrete somatosensory quality the ventrolateral system transmits.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Anterolateral (spinothalamic) system
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p34 q143 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3B631391D8D819
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Ventrolateral system transmits the following except... A- Pain. B- Temperature. C- Emotions. D- Itch. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p34, q143
+
+---
+
+# Item
+
+## id
+CON-NEU-4CB4DDA9D97B83
+
+## label
+The trigeminal ganglion does not carry fear
+
+## canonical_key
+physiology.trigeminal-ganglion.fear-not-a-sensory-modality-exception
+
+## definition
+The trigeminal ganglion houses the first-order sensory neurons for facial proprioception, temperature and pain, the genuine somatosensory modalities carried from the face by the trigeminal nerve's three divisions. 'Fear' is an emotional state processed by limbic structures (e.g. the amygdala), not a discrete somatosensory modality relayed by a peripheral sensory ganglion, making it the clear exception among these four options.
+
+## explicit_objective
+Identify fear as the one option NOT carried by the trigeminal ganglion, since proprioception, temperature and pain are its genuine sensory content.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+## topic
+Trigeminal nerve
+
+## subtopic
+Trigeminal ganglion sensory modalities
+
+## microtopic
+
+## nanotopic
+
+## modules
+
+## aliases
+Trigeminal ganglion modalities|Facial sensory modalities|Trigeminal nerve sensory content
+
+## arabic_label
+
+## arabic_aliases
+
+## pitfalls
+Treating 'fear' as a sensory modality relayed by the trigeminal ganglion like proprioception, temperature or pain — it is an emotional state processed centrally, not a peripheral sensory quality this ganglion carries.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## conflicts
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+## review_due
+
+## exclusion_reason
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Physiology > Trigeminal nerve
+
+## exam_signal
+src_f5698c4e06db91539a01 | department_question_bank | undated | p34 q144 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4CB4DDA9D97B83
+
+## resource_ids
+src_f5698c4e06db91539a01
+
+## original_wording
+Trigeminal ganglion carries the following except... A- Proprioception. B- fear. C- Temperature. D- Pain. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Week 1 EOM Final bank (src_f5698c4e06db91539a01), Q101-151; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via find-existing.mjs (label/alias/canonical_key/definition terms) against live state and every pending batch, incl. docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-*, docs/Kasr-Source-Imports/, and this module's own quiz1-4/week1a/week1b concept files, before minting. No closer live or pending corpus candidate exists than the related_concept_ids named above.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+au: Week 1 EOM Final, p34, q144
