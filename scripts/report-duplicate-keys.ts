@@ -119,6 +119,19 @@ const byLabel = [...group(rows.filter((row) => row.label), (row) => normalise(ro
   .filter((entry) => !entry.seen.every((row) => byKey.some((k) => k.key === row.key)))
   .sort((a, b) => b.ids.length - a.ids.length || a.label.localeCompare(b.label))
 
+/**
+ * The inverse of §1: one ID, more than one canonical key. The mint is
+ * `sha256(key)`, so this can only happen by hand — an author reused an
+ * existing ID for a key it was never minted from, instead of running
+ * `mint-concept-id.mjs`. A full-record update on that ID then silently
+ * overwrites whichever concept got there first. Found live 2026-09-02
+ * (Helwan Y1 `CON-REN-B9E0531973510E`, reused for an unrelated fact).
+ */
+const byId = [...group(rows.filter((row) => row.key), (row) => row.id)]
+  .map(([id, seen]) => ({ id, seen, keys: [...new Set(seen.map((row) => row.key))] }))
+  .filter((entry) => entry.keys.length > 1)
+  .sort((a, b) => a.id.localeCompare(b.id))
+
 /* ---- report ------------------------------------------------------------- */
 
 const lines: string[] = []
@@ -186,6 +199,28 @@ if (!byLabel.length) {
 }
 say('---')
 say()
+say(`## 3 · One ID, more than one canonical key — ${byId.length} found`)
+say()
+say('The mint is `sha256(key)`, so this can only happen by hand: an author')
+say('reused an existing ID for a key it was never minted from, instead of')
+say('running `mint-concept-id.mjs`. A full-record update on that ID silently')
+say('overwrites whichever concept got there first — this is the enforceable')
+say('check `medical:concept-ids` is missing today.')
+say()
+if (!byId.length) {
+  say('None. Every ID in the tree maps to exactly one canonical key.')
+} else {
+  for (const entry of byId) {
+    say(`### \`${entry.id}\` — ${entry.keys.length} keys`)
+    say()
+    for (const row of entry.seen.sort((a, b) => a.where.localeCompare(b.where))) {
+      say(`- \`${row.key}\` — ${row.where}${row.label ? ` — ${row.label.slice(0, 90)}` : ''}`)
+    }
+    say()
+  }
+}
+say('---')
+say()
 say('## Why the two minters disagree, and what is still undecided')
 say()
 say('Two tools mint concept IDs and they hash different things:')
@@ -214,4 +249,5 @@ writeFileSync(join(OUT_DIR, 'duplicate-keys.md'), `${lines.join('\n')}\n`)
 console.log(`${rows.length} concept rows (${liveCount} live, ${batchCount} pending) across ${ROOTS.length} roots`)
 console.log(`${byKey.length} canonical key(s) with more than one ID`)
 console.log(`${byLabel.length} label collision(s) not already explained by a key collision`)
+console.log(`${byId.length} ID(s) with more than one canonical key`)
 console.log(`-> ${join(OUT_DIR, 'duplicate-keys.md')}`)
