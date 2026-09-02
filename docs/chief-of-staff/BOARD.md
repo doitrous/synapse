@@ -399,3 +399,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ZAGAZIG ZU-MED-103 S&F lane 1 LANDED (c1e6bc70)
 - `Final S&F 2024.pdf` (OCR + hand-ink key, render-confirmed on 4 pages): 36 SBA, 35 keyed → 35 authored, 1 held (Q9 two contradictory marks). `examsssss (1).pdf` compiled bank has NO key (pagetext keys false positive) → closed; 373-page handout catalogued only. 27 mints, 3 live overlays, 4 pending overlays onto Kasr 101-ISK ×3 + ASU-IMM ×1, 5 articles. Gates: batch items=35 errors=0; validator errors=[]; simulate rejected=4 = the cross-lane pending-overlay deps (same pattern as ZU-107, clears when those land/import). ≈1.5k tok/q.
 - ZU-MED-103 has no Priority-1 source left. Slot refilled from the Zagazig queue (102/108). Fleet 20/20.
+
+### 2026-09-02 — MANSOURA MSS-202 lane 1 LANDED (059f2366)
+- `MSS Past Years.pdf` ~99% keyed (plain-text positional key — `pagetext keys` reports 0, read by eye); `Most important MCQ (continuous)` bold key 173/186; `تجميعات MSK` is a fact compilation (0 MCQ). 45 authored, 0 held, 34 mints (own articles), 5 overlays (Kasr 101 ×4, AU-105 ×1). Simulate 13-file chain rejected=0. ≈2.3k tok/q, 0 renders.
+- TOOL BUG (documented in the pending-live header): gate validator checks `module_subject` on an update row against the row's OWN declared modules, not the merge target's — one more reason overlay rows carry no module_subject. NOTE: HIS-203's article file does not pass the TPL-CONCEPT check despite its header comment (pre-existing).
+- Remaining: Past Years pp.7-19 + Most important pp.4-23. Lane 2 dispatched on those ranges. Fleet 20/20.
