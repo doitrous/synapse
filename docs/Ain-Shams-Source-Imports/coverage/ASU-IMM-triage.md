@@ -147,12 +147,19 @@ Read continuously by topic drift (no headers); block boundaries are approximate.
 | Autoimmunity / transplant | ~191–225 | `autoimmunity.mechanisms.loss-of-tolerance`, `transplant.rejection.hyperacute-vs-acute-vs-chronic`, `graft-vs-host-disease.mechanism` (graft rejection is a **live-hit**, see §D) |
 | Immunodeficiency | ~226–241 | `immunodeficiency.common-variable.recurrent-sinopulmonary-infection`, `immunodeficiency.c8-deficiency.neisseria-susceptibility`, `immunodeficiency.digeorge.thymic-aplasia`, `immunodeficiency.selective-iga.presentation`, `immunodeficiency.scid.presentation` — **all in the unkeyed 181–241 range**, so none of this block's questions can be answer-validated from this source. |
 
-**Hazard to flag for a ruling:** 61 of 241 questions (the entire hypersensitivity tail + autoimmunity +
-transplant + immunodeficiency blocks) have no printed key in this file. Per Standing Order 4 ("missing
-key → key editorially with field_note"), these need either (a) cross-checking against the hegazy/Ashraf
-overlap where the same fact is asked and keyed elsewhere, or (b) an editorial key with field_note,
-decided at authoring time — flagging now so triage approval can rule on it rather than Phase 2 discovering
-it mid-batch.
+**Hazard flagged for a ruling — RESOLVED (2026-09-02, asu-imm-author10):** ~61 of 241 questions (the
+tail of the humoral block + hypersensitivity + autoimmunity/transplant + immunodeficiency blocks) have
+no printed key in this file. Per the chief-of-staff's 2026-08-27 answer-key ruling ("missing key →
+key editorially, held only if no defensible single answer exists"), Q181–242 were read page-by-page
+(OCR + render where OCR garbled the stem or digits) and keyed editorially: 48 of the 62 printed
+numbers in that range are present in the corpus and were authored (0 held — every stem had a
+defensible textbook answer); the other 14 (Q200–205, Q210–217) are genuinely ABSENT from the file —
+a scan gap between pp.31/32 and 32/33 with no room for an intervening page in the 39-page sequence,
+not merely unkeyed (see `resource/ASU-IMM-immunology-resources.md` src_cb4ccd618d3bb4539e08 and
+`coverage/ASU-IMM-LEDGER.md`). This also corrected the "≤180 only" scope: the bank's actual printed
+numbering runs to at least Q242, not 241 as this triage pass originally estimated. Seed:
+`coverage/seeds/ASU-IMM/generic-bank-tail.json`; questions:
+`question/ASU-IMM-generic-bank-tail-mcq.md`.
 
 ## D — Live-hit / pending-hit spot-checks run (`find-existing.mjs`, 15 representative terms)
 

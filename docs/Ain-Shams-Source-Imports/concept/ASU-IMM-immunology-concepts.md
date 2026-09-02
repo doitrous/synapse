@@ -27779,3 +27779,7107 @@ reviewDue: Set after the first review is completed.
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
 uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+---
+
+# Item
+
+## id
+CON-IMM-48E174E3BB428E
+
+## label
+C3d-CR2 engagement and PAMP recognition by Toll-like receptors both deliver costimulatory second signals for B-cell activation
+
+## canonical_key
+bcell.activation.c3d-cr2-and-pamp-tlr-costimulatory-signals
+
+## aliases
+B-cell second signals
+Complement receptor 2 costimulation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Naive B-cell activation is augmented by two distinct second-signal pathways acting alongside BCR-antigen engagement: complement component C3d, deposited on antigen during innate complement activation, engages complement receptor 2 (CR2/CD21) on the B cell, and pathogen-associated molecular patterns (PAMPs) on microbes engage Toll-like receptors on the B cell. CTLA-4, in contrast, is an inhibitory receptor on activated T cells that dampens T-cell costimulation and plays no part in delivering a B-cell second signal.
+
+## explicit_objective
+Identify C3d-CR2 engagement and PAMP-TLR recognition as the two genuine costimulatory second signals augmenting B-cell activation, and exclude CTLA-4 (a T-cell inhibitory molecule) as unrelated to B-cell signalling.
+
+## pitfalls
+Selecting CTLA-4 as a B-cell costimulatory signal because it sounds like a costimulatory molecule; CTLA-4 is in fact an inhibitory checkpoint on T cells, not a B-cell second-signal source.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+B-cell activation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-BCELL-C3D-PAMP-COSTIM-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+181. Which of the following induces secondary signals augmenting antigen recognition signals of BCR complex and important for B cell activation a. Complement component (C3d) acting on complement receptor 2 on B lymphocytes b. CTLA-4 on activated T helper cells c. PAMPs on microbes acting on Toll like receptors on B-lymphocytes d. Both a and b e. Both a and c
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q181
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-1EAB6FE64D5BF1
+
+## label
+Affinity maturation occurring in prolonged and repeated infections is due to a high mutation rate among proliferating B cells at the late phase of the humoral immune response
+
+## canonical_key
+antibody.affinitymaturation.late-phase-high-mutation-rate
+
+## aliases
+Somatic hypermutation driver
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+In prolonged or repeated infections, the antibody response's affinity for its antigen rises over time (affinity maturation) because germinal-centre B cells proliferating at the late phase of the humoral response acquire somatic point mutations in their immunoglobulin genes at an unusually high rate; B cells whose mutated receptor binds antigen more tightly are selectively expanded. This is distinct from PAMP-TLR signalling or complement-receptor engagement, which deliver activation signals rather than drive the mutation process itself, and from CD28-mediated T-cell costimulation of B cells, which is not how affinity maturation is generated.
+
+## explicit_objective
+State that affinity maturation in prolonged/repeated infection results from a high somatic mutation rate among late-phase proliferating germinal-centre B cells.
+
+## pitfalls
+Confusing the driver of affinity maturation (high mutation rate in proliferating B cells) with an activation signal such as PAMP-TLR engagement or complement receptor 2 signalling, which are unrelated mechanisms.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody affinity maturation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-AFFINITYMAT-LATEPHASE-MUTATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+182. The phenomenon of affinity maturation of antibodies occurring in prolonged and repeated infections is due to: a. High mutation rate of proliferating B cells at late phase of humoral immune response b. PAMPs on microbes acting on Toll like receptors on B-lymphocytes c. Complement component (C3d) acting on complement receptor 2 on B lymphocytes d. Costimulation of B lymphocytes by CD28 on macrophages
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q182
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-350F57E7C1BAD6
+
+## label
+Affinity maturation of antibodies at the late phase of the humoral immune response is due to mutations in the immunoglobulin V (variable) region
+
+## canonical_key
+antibody.affinitymaturation.v-region-mutation-site
+
+## aliases
+Somatic hypermutation location
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Affinity maturation results from somatic hypermutation targeted specifically to the immunoglobulin variable (V) region — the DNA segment encoding the antigen-binding domain of both heavy and light chains — rather than to the constant-region exons (CH1, CH2, CH3 or CL) that encode isotype and effector-function domains. Because the mutations concentrate in the V region, they can improve antigen-binding affinity without altering the antibody's isotype or effector function.
+
+## explicit_objective
+Localise affinity-maturation mutations to the immunoglobulin V region, distinguishing it from the constant-region exons that determine isotype.
+
+## pitfalls
+Placing affinity-maturation mutations in a constant-region exon (CH1, CH2, CH3 or CL); those regions determine isotype and effector function, not antigen-binding affinity.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody affinity maturation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-AFFINITYMAT-VREGION-SITE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+183. Affinity maturation of antibodies at the late phase of humoral immune response is due to mutations in: a. Ig V region b. CH1 region c. CH2 region d. CH3 region e. CL region
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q183
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-9CD5E9203EF78A
+
+## label
+Monoclonal antibodies are antibodies produced from a single clone of immortalised cells and directed against a single epitope
+
+## canonical_key
+antibody.monoclonal.single-epitope-single-clone-definition
+
+## aliases
+Monoclonal antibody definition
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A monoclonal antibody is, by definition, produced by a single clone of antibody-secreting cells and is therefore directed against one single epitope with one uniform affinity — unlike a polyclonal response, which contains antibodies of differing affinities against multiple epitopes from a single immunising antigen. This is a broader definitional statement than the specific hybridoma production method (fusing a plasma/B cell with an immortal myeloma cell), which is the manufacturing technique used to realise this single-clone, single-epitope property in the laboratory.
+
+## explicit_objective
+Define a monoclonal antibody as one produced from a single immortalised clone and directed against a single epitope, distinguishing it from polyclonal antibodies and from the specific hybridoma fusion technique that manufactures it.
+
+## pitfalls
+Confusing the general definition of a monoclonal antibody (single clone, single epitope) with the specific hybridoma fusion partners (a normal antibody-secreting cell fused with an immortal myeloma cell, not another B cell), or believing monoclonal antibodies can be induced simply by endotoxin activation of B lymphocytes in vitro.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Monoclonal antibodies
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-0706BCC1024657
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-MONOCLONAL-DEFINITION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+184. Which of the following statements describes Monoclonal antibodies a. Antibodies sharing epitopes from different species b. Antibodies against a single epitope and produced from a single clone of immortal cells c. Antibodies with different affinities for the same antigen that induced them d. Produced by fusion of a normal plasma cell with a B cell producing antibodies against a single epitope e. Induced in the lab by B lymphocyte activation by endotoxin
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q184
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-CCB3049ABF5021
+
+## label
+Opsonization is the process by which IgG and/or C3b tag antigens for enhanced phagocytosis and destruction by effector cells
+
+## canonical_key
+phagocytosis.opsonization.igg-c3b-tagging-definition
+
+## aliases
+Opsonization definition
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Opsonization is the process in which IgG antibody and/or the complement fragment C3b coat (tag) a microbial antigen, and phagocytes bearing Fc receptors (for IgG) or complement receptors (for C3b) then recognise the coated particle far more efficiently, enhancing phagocytosis and effector-cell-mediated destruction and removal. It is distinct from neutralization (blocking a microbe or toxin from binding host cells), ADCC (antibody-dependent cellular cytotoxicity, directed at infected or abnormal host cells rather than free antigen), agglutination (antibody cross-linking particulate antigen into clumps) and complement activation as a standalone process.
+
+## explicit_objective
+Identify opsonization as the process by which IgG and/or C3b tag antigen to enhance its phagocytosis and destruction by effector cells, distinguishing it from neutralization, ADCC, agglutination and complement activation as such.
+
+## pitfalls
+Confusing opsonization (enhancing phagocytosis of tagged antigen) with neutralization (blocking microbe-host binding), ADCC (killing an antibody-coated target cell rather than tagging free antigen), or complement activation as a general process rather than its specific opsonizing product C3b.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Opsonization
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-OPSONIZATION-IGG-C3B-DEFINITION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+185. The process by which IgG and/or C3b enhance phagocytosis is called: a. Opsonization b. Neutralization c. ADCC d. Agglutination e. Sensitization | 195. Immunoglobulins can tag antigens for destruction and removal by effector cells. This process is termed: a. Opsonization b. Antibody dependent cellular cytotoxicity (ADCC) c. Neutralization d. Complement activation e. Agglutination
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q185/195
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-CB7E562E3D9ECC
+
+## label
+Neutralization is the binding of antibody to microbial epitopes or soluble molecules in a manner that blocks the microbe's ability to bind host cell surfaces
+
+## canonical_key
+antibody.neutralization.block-microbe-host-binding-definition
+
+## aliases
+Neutralization definition
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Neutralization is the antibody effector mechanism in which antibody binds directly to epitopes on a microbe or to soluble molecules such as a bacterial exotoxin, physically blocking that microbe or toxin from attaching to and entering a host cell — without necessarily requiring complement, phagocytes or any other effector system. This is distinct from agglutination (cross-linking particulate antigens into clumps), complement activation, opsonization (enhancing phagocytosis of a tagged particle) and precipitation (cross-linking soluble antigen into an insoluble lattice).
+
+## explicit_objective
+Identify neutralization as antibody binding that blocks a microbe or toxin from binding host cell surfaces, distinguishing it from agglutination, complement activation, opsonization and precipitation.
+
+## pitfalls
+Confusing neutralization (blocking host-cell binding directly) with opsonization (enhancing phagocytic uptake of an already-tagged particle) or with complement activation, which is a separate, complement-protein-dependent effector pathway.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody effector mechanisms
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-NEUTRALIZATION-BLOCK-BINDING-DEFINITION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+186. The binding of antibodies to microbial epitopes or soluble molecules in a manner that inhibits the ability of these microbes to bind to host cell surfaces is termed a. Agglutination b. Complement activation c. Neutralization d. Opsonization e. Precipitation
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q186
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-4C4E66BEB51B8D
+
+## label
+An important feature of thymus-independent antigens is that they have repeated epitopes that cross-link membrane-bound immunoglobulin on B cells
+
+## canonical_key
+antigen.thymusindependent.repeated-epitope-bcr-crosslinking
+
+## aliases
+TI antigen crosslinking feature
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Thymus-independent (TI) antigens, typically bacterial polysaccharides, characteristically carry multiple repeated copies of the same epitope; this repetitive structure lets a single TI antigen molecule cross-link many membrane-bound immunoglobulin (BCR) molecules on the same B cell simultaneously, delivering a strong enough signal to activate the B cell without T-cell help. This is distinct from a hapten-carrier conjugate (a thymus-dependent antigen structure), eliciting a memory response (TI antigens do not generate memory B cells), leading to secretion of all isotypes (TI responses are largely restricted to IgM), or being an antigen displayed on MHC for T-cell development (irrelevant to TI antigen structure).
+
+## explicit_objective
+Identify repeated, cross-linking epitopes as the defining structural feature of thymus-independent antigens.
+
+## pitfalls
+Describing a thymus-independent antigen as a hapten-carrier conjugate (that is the thymus-dependent pattern) or crediting it with eliciting memory or multiple isotypes, both of which are thymus-dependent, T-cell-help-dependent features.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Thymus-independent antigens
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-TI-ANTIGEN-CROSSLINK-FEATURE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+187. An important feature of Thymic independent antigens is: a. They are composed of a hapten conjugated to a carrier protein b. They have repeated epitopes that cross link membrane bound immunoglobulins on B cells c. They elicit a memory response on re-exposure to them d. They lead to secretion of all isotypes of antibodies e. Ubiquitous antigens in the body displayed on MHC molecules for T cells during their development
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q187
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-1EC55F33E6513B
+
+## label
+Bacterial lipopolysaccharide is considered a thymus-independent antigen
+
+## canonical_key
+antigen.thymusindependent.lps-example
+
+## aliases
+TI antigen example — LPS
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Bacterial lipopolysaccharide (LPS), like other repetitive bacterial polysaccharides, is a classic thymus-independent (TI) antigen: it activates B cells directly via repeated epitopes and TLR/PAMP recognition, without requiring cognate T-cell help. Foreign RBCs, hapten-carrier conjugates, bacterial flagellin (a protein) and the M protein of Streptococcus pyogenes (also a protein) are, in contrast, thymus-dependent antigens or non-antigenic examples that require T-cell help for an antibody response.
+
+## explicit_objective
+Identify bacterial lipopolysaccharide as a thymus-independent antigen, in contrast to protein antigens (flagellin, M protein) and hapten-carrier conjugates, which are thymus-dependent.
+
+## pitfalls
+Classifying a protein antigen such as bacterial flagellin or M protein of Strept pyogenes as thymus-independent; protein antigens require T-cell help and are thymus-dependent.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Thymus-independent antigens
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-TI-ANTIGEN-LPS-EXAMPLE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+188. Which of the following is considered a Thymic independent antigen? a. Foreign RBCs b. Hapten-carrier conjugates c. Bacterial Lipopolysaccharides d. Bacterial flagellin e. M protein of Strept pyogenes
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q188
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-C861A4327CFF21
+
+## label
+The M protein of Streptococcus pyogenes, a protein antigen, is a thymus-dependent antigen
+
+## canonical_key
+antigen.thymusdependent.protein-antigen-example
+
+## aliases
+TD antigen example — M protein
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The M protein of Streptococcus pyogenes is a protein antigen, and protein antigens are processed and presented on MHC to T cells, making them thymus-dependent (TD) — they require cognate T-helper-cell engagement (via CD40L-CD40) to generate a full antibody response with isotype switching and memory. The capsule of Streptococcus pneumoniae and bacterial lipopolysaccharide are, in contrast, polysaccharides and are thymus-independent; penicillin is a hapten, not itself a complete antigen.
+
+## explicit_objective
+Identify a protein antigen (M protein of Strept pyogenes) as thymus-dependent, in contrast to polysaccharide antigens, which are thymus-independent.
+
+## pitfalls
+Classifying a polysaccharide antigen (pneumococcal capsule, bacterial LPS) as thymus-dependent; polysaccharides are the classic thymus-independent antigen class, while protein antigens are thymus-dependent.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Thymus-dependent antigens
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-TD-ANTIGEN-MPROTEIN-EXAMPLE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+189. Which of the following is a Thymic dependent antigen? a. Capsule of Streptococcus pneumoniae b. Bacterial Lipopolysaccharides c. M protein of Strept pyogenes d. Penicillin
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q189
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-73A453CBA8E7DB
+
+## label
+Activation of a naive B cell requires BCR engagement of its specific epitope plus a second signal from CD4+ Th2 cells
+
+## canonical_key
+bcell.activation.second-signal-cd4-th2-source
+
+## aliases
+B-cell activation second signal source
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A naive B cell's activation requires two signals: engagement of its membrane-bound immunoglobulin (BCR) with its specific epitope, and a second signal delivered by CD4+ T-helper-2 (Th2) cells, chiefly via CD40 ligand engaging CD40 on the B cell together with Th2 cytokines. CD4+ Th1 cells, CD8+ cytotoxic T cells, gamma-delta T cells and dendritic cells do not supply this particular second signal for humoral B-cell help.
+
+## explicit_objective
+Identify CD4+ Th2 cells as the source of the second signal required, alongside BCR-epitope engagement, for naive B-cell activation.
+
+## pitfalls
+Crediting CD4+ Th1 cells, CD8+ cytotoxic T cells or dendritic cells with delivering the B-cell second signal; that is specifically a CD4+ Th2 (T-follicular-helper-type) function.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+B-cell activation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-BCELL-SECONDSIGNAL-TH2-SOURCE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+190. Activation of a naive B cell requires both the engagement of its BCR (membrane bound immunoglobulin) with its specific epitope plus additional secondary signals from a. CD4+ TH2 cells b. CD4+ TH1 cells c. CD8+ TC cell d. gamma-delta T cells e. Dendritic cell
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q190
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-660110268CC757
+
+## label
+A characteristic of thymus-independent antigens is that they are multivalent, with repetitive epitopes
+
+## canonical_key
+antigen.thymusindependent.multivalent-repetitive-characteristic
+
+## aliases
+TI antigen multivalency
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Thymus-independent (TI) antigens are characteristically multivalent, carrying many repetitive copies of the same epitope on one molecule, which is what allows them to cross-link enough BCR molecules to activate a B cell without T-cell help. They do not need activation signals from Th1 or Th2 cells (that dependency defines thymus-dependent antigens instead), and univalent antigens or antigens that induce memory B cells are the opposite of the TI pattern.
+
+## explicit_objective
+State that thymus-independent antigens are multivalent with repetitive epitopes, as the structural basis for their T-cell-help-independent B-cell activation.
+
+## pitfalls
+Describing a thymus-independent antigen as univalent or as needing Th1/Th2 activation signals; TI antigens are specifically multivalent and activate B cells without T-cell help.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Thymus-independent antigens
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-TI-ANTIGEN-MULTIVALENT-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+191. Which of the following is characteristic of Thymic independent antigens? a. Univalent antigens b. Multivalent antigens with repetitive epitopes c. Need activation signals from TH1 cells d. Need activation signals from TH2 cells e. Induce memory B cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q191
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-C335897D2B44DA
+
+## label
+A change from an IgM to a predominant IgE antibody response over the course of an allergic reaction is caused by isotype switching
+
+## canonical_key
+antibody.isotypeswitch.igm-to-ige-example
+
+## aliases
+Isotype switch example — IgM to IgE
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+When the initial IgM response to an antigen is followed, over time, by a predominant antigen-specific IgE response (as in the development of an allergy), the change in isotype without a change in antigen specificity is isotype (class) switching — not affinity maturation (which raises binding affinity for the same isotype), allelic exclusion (restricting a B cell to one productively rearranged allele), junctional diversity (a V(D)J recombination mechanism generating diversity) or somatic hypermutation (which drives affinity maturation, not isotype change).
+
+## explicit_objective
+Identify a change from IgM to a predominant IgE response as isotype switching, distinguishing it from affinity maturation, allelic exclusion, junctional diversity and somatic hypermutation.
+
+## pitfalls
+Confusing an isotype change (IgM to IgE) with affinity maturation or somatic hypermutation, which change binding affinity within an isotype rather than the isotype itself.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Isotype switching
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-ISOTYPESWITCH-IGM-IGE-EXAMPLE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+192. In a patient who later developed an allergy to a certain antigen, the initial response to the antigen consisted of immunoglobulin of the IgM class. However, overtime, antigen specific IgE came to be predominant. This change from an IgM to an IgE response is caused by a. Affinity maturation b. Allelic exclusion c. Isotype switching d. Junctional diversity e. Somatic hypermutation
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q192
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-8D6767316335EF
+
+## label
+Point mutations accumulating in the DNA encoding the variable regions of a re-stimulated memory B cell's light and heavy chains can result in generation of antibody with increased binding affinity for its epitope
+
+## canonical_key
+antibody.affinitymaturation.memory-b-cell-restimulation-shm-outcome
+
+## aliases
+Somatic hypermutation outcome
+Affinity maturation term
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+When a memory B cell is re-stimulated by its specific antigen, small point mutations accumulate in the DNA encoding the variable regions of both its light and heavy immunoglobulin chains (somatic hypermutation); B cells whose mutated receptor binds antigen with higher affinity are selectively expanded, so the net result is generation of antibody with increased binding affinity for its epitope — this process, and the resulting increase in affinity itself, is what the term affinity maturation names. It does not create an entirely new antigen specificity, switch isotype, cause DNA chromosomal rearrangement, or inactivate a parental allele, all of which are separate mechanisms from V(D)J recombination or allelic exclusion.
+
+## explicit_objective
+State that somatic point mutations in re-stimulated memory B cells' variable-region DNA generate antibody of increased binding affinity, and that this whole process is termed affinity maturation.
+
+## pitfalls
+Confusing the outcome of variable-region somatic hypermutation (increased affinity for the same epitope, i.e. affinity maturation) with isotype switching, new antigen specificity, or DNA chromosomal rearrangement, which are distinct mechanisms.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody affinity maturation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-AFFINITYMAT-SHM-OUTCOME-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+193. When a memory B cell is re-stimulated by its specific antigen, small point mutations that accumulate in DNA encoding variable regions of both light and heavy chains may result in a. New antigen specificity b. Isotype switching from IgM to IgG c. DNA chromosomal rearrangement and altered antigen specificity d. Inactivation of either the paternal or maternal variable heavy and light alleles e. Generation of antibody with increased binding affinity for its epitope | 194. Accumulation of point mutations that affect light and heavy chain variable regions causing an increase in antibody binding to its specific antigen is termed a. Costimulation b. Tolerance c. Anergy d. Affinity maturation e. Molecular mimicry
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q193/194
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-345DECC4B05646
+
+## label
+The constant region of the five major types of immunoglobulin heavy chains determines the molecule's isotype
+
+## canonical_key
+antibody.isotype.heavychain-constantregion-determinant
+
+## aliases
+Isotype determinant
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+An immunoglobulin's isotype (class — IgM, IgG, IgA, IgD or IgE) is determined by the constant region of its heavy chain (mu, gamma, alpha, delta or epsilon respectively), not by the epitope it binds, the Fab fragment, a tyrosine-based activation motif, or the variable domain, all of which relate to antigen recognition or signalling rather than to isotype identity.
+
+## explicit_objective
+Identify the heavy-chain constant region as what determines an immunoglobulin's isotype.
+
+## pitfalls
+Attributing isotype to the variable domain or the Fab fragment, which instead determine antigen-binding specificity, not isotype.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody structure
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-ISOTYPE-HEAVYCHAIN-CONSTANTREGION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+196. The constant region of the five major types of heavy chains of immunoglobulin molecules determines the molecule's a. Epitope b. Fab fragment c. Isotype d. Tyrosine activation motif e. Variable domain
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q196
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-6E7791C61E02C5
+
+## label
+In immediate (type I) hypersensitivity, cross-linking of allergen-specific IgE on mast cells triggers inflammatory mediator release
+
+## canonical_key
+hypersensitivity.typeI.ige-crosslinking-mediator-release
+
+## aliases
+Immediate hypersensitivity mechanism
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+In an individual with immediate (type I) hypersensitivity — allergy — to an allergen such as dust mites, cross-linking of allergen-specific IgE molecules already bound to mast-cell surface Fc-epsilon receptors, by the allergen itself, triggers mast-cell degranulation and release of inflammatory mediators such as histamine. Histamine, IgA, IgG and mast cells themselves are downstream or unrelated to the specific cross-linking event; it is the allergen-specific IgE molecules that link together and trigger the reaction.
+
+## explicit_objective
+Identify allergen-specific IgE as the molecule whose cross-linking on mast cells triggers immediate (type I) hypersensitivity mediator release.
+
+## pitfalls
+Naming histamine (the released mediator, not the cross-linked molecule), IgA or IgG (isotypes not involved in classic immediate hypersensitivity) as the cross-linked trigger, rather than allergen-specific IgE.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Type I hypersensitivity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-TYPEI-HYPERSENSITIVITY-IGE-CROSSLINK-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+197. In an individual with an immediate hypersensitivity (allergy) to dust mites, cross linking o which of the following dust mite specific molecules will trigger inflammatory mediator release? a. Histamine b. IgA c. IgE d. IgG e. Mast cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q197
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-A3B999104FD387
+
+## label
+Cell-mediated immunity, unlike antibody-mediated immunity, protects against fungal infections
+
+## canonical_key
+immunity.cellmediated.fungal-infection-defence
+
+## aliases
+Cell-mediated vs antibody-mediated immunity
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Of the effector roles of antibody-mediated versus cell-mediated immunity, cell-mediated immunity (T cells, macrophages, NK cells) is the arm that defends against fungal infections, in contrast to antibody-mediated immunity's role against extracellular bacteria and toxins. Antibody-mediated immunity does not chiefly prevent graft rejection (a cell-mediated, T-cell-driven process) or protect against anaphylactic shock or autoimmune disease (both driven by dysregulated immune responses rather than protective antibody function), and cell-mediated immunity does not neutralise extracellular viruses (an antibody function).
+
+## explicit_objective
+Identify fungal infection defence as a cell-mediated, not antibody-mediated, immune function, among a set of paired antibody-mediated/cell-mediated distractors.
+
+## pitfalls
+Assigning graft rejection prevention or anaphylactic-shock protection to antibody-mediated immunity, or extracellular virus neutralisation to cell-mediated immunity — both are reversed from their true mechanism.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody-mediated vs cell-mediated immunity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-CELLMEDIATED-FUNGAL-DEFENCE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+198. Regarding antibody-mediated immunity and cell mediated immunity, which one of the following is the most accurate? a. Antibody-mediated immunity helps to prevent graft rejection b. Antibody-mediated immunity protects against anaphylactic shock c. Antibody-mediated immunity protects against autoimmune diseases d. Cell mediated immunity neutralizes extracellular viruses e. Cell mediated immunity protects against fungal infections
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q198
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-5E418712635A68
+
+## label
+An unconjugated pneumococcal capsular polysaccharide is most likely to induce an IgM antibody response without the participation of helper T cells
+
+## canonical_key
+antigen.thymusindependent.igm-without-t-help-example
+
+## aliases
+TI antigen — T-cell-independent IgM response
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A pneumococcal capsular polysaccharide left unconjugated is a classic thymus-independent antigen and drives an IgM response without helper-T-cell participation, whereas the same polysaccharide conjugated to a protein carrier (such as diphtheria toxoid) becomes thymus-dependent and requires T-cell help for its response. Diphtheria toxoid and tetanus toxoid alone are protein antigens (thymus-dependent), and toxic shock syndrome toxin is a superantigen, none of which produce a T-cell-independent IgM response in this way.
+
+## explicit_objective
+Identify an unconjugated polysaccharide antigen as the example most likely to induce a T-cell-independent IgM response, in contrast to its conjugated (thymus-dependent) form and to protein antigens.
+
+## pitfalls
+Selecting the polysaccharide-toxoid conjugate rather than the unconjugated polysaccharide; conjugation to a protein carrier is precisely what converts a thymus-independent antigen into a thymus-dependent one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Thymus-independent antigens
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-TI-ANTIGEN-IGM-NO-THELP-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+199. Which one of the following is most likely to induce an IgM antibody response without the participation of helper T cells? a. Diphtheria toxoid b. Pneumococcal capsular polysaccharide c. Pneumococcal capsular polysaccharide conjugated to diphtheria toxoid d. Tetanus toxoid e. Toxic shock syndrome toxin
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q199
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-1D65BECFDFACA9
+
+## label
+IgA, the first line of mucosal defence, can be destroyed (cleaved) by bacterial proteases produced by certain bacterial species
+
+## canonical_key
+antibody.iga.bacterial-protease-susceptibility
+
+## aliases
+IgA protease susceptibility
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Secretory IgA, the first line of antibody defence at mucous membranes, can be inactivated by bacterial IgA proteases — enzymes produced by certain mucosal pathogens (such as Neisseria and Haemophilus species) that cleave IgA at its hinge region, undermining mucosal immunity. IgA is present, not absent, in colostrum (where it is in fact the most abundant isotype), is present in saliva (making a salivary IgA diagnostic test meaningful), and can exist as both a monomer and a dimer (with secretory component), not exclusively as a monomer.
+
+## explicit_objective
+State that secretory IgA can be inactivated by bacterial IgA proteases produced by certain mucosal pathogens.
+
+## pitfalls
+Assuming IgA is absent from colostrum or saliva, or that it exists only in monomeric form; secretory IgA is present in both and is chiefly dimeric, and its real vulnerability is bacterial IgA-protease cleavage.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+IgA
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-IGA-BACTERIAL-PROTEASE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+206. IgA is the first line of defense against infections at the mucous membranes. Which of the following statements most accurately describes IgA? a. Complement fixation tests for IgA will be positive if specific IgA is present b. IgA can be destroyed by bacterial proteases produced by certain bacterial species c. IgA is absent in colostrum d. IgA is not found in saliva, therefore an IgA diagnostic test on saliva will be of no value e. IgA is a small molecule with monomeric form only
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q206
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-46930AB100E077
+
+## label
+IgD has no known effector function, circulates in serum at low concentration, and functions as an antigen receptor on the surface of B lymphocytes
+
+## canonical_key
+antibody.igd.no-known-function-bcr-coreceptor
+
+## aliases
+IgD properties
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Among the five immunoglobulin isotypes, IgD is distinctive for having no known independent effector function of its own; it circulates in serum only at low concentration and is instead found, together with IgM, on the surface of naive B lymphocytes, where it functions as part of the B-cell antigen receptor (BCR). IgA, IgM, IgE and IgG all carry recognised effector roles (mucosal defence, complement fixation, mast-cell binding/parasite defence, and being the most abundant serum isotype respectively), unlike IgD.
+
+## explicit_objective
+Identify IgD as the isotype with no known effector function, present at low serum concentration and serving as a B-cell antigen receptor.
+
+## pitfalls
+Assigning IgD an independent effector function analogous to IgM, IgG, IgA or IgE; IgD's distinguishing feature is precisely the absence of a known effector role beyond BCR co-expression with IgM.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody isotypes
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-IGD-NOFUNCTION-BCR-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+207. Which of the following immunoglobulins has no known function, is found in the serum in low concentrations and is present on the surface of B lymphocytes (may function as an antigen receptor) a. IgA b. IgM c. IgE d. IgD e. IgG
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q207
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-28E305BE748FA7
+
+## label
+CD40 ligand deficiency (Hyper-IgM syndrome) causes a significant elevation of IgM due to defective isotype switching
+
+## canonical_key
+immunodeficiency.hyperigm.cd40l-defect-elevated-igm
+
+## aliases
+Hyper-IgM syndrome
+CD40L deficiency
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A patient with severe recurrent pyogenic bacterial infections, normal T-cell and B-cell numbers, and CD4+ T-helper cells found to lack a functional CD40 ligand (CD40L) molecule has X-linked Hyper-IgM syndrome: because CD40L-CD40 engagement is the specific molecular trigger for isotype (class-switch) recombination, its absence blocks class switching, so B cells remain unable to switch out of IgM, producing a significant IgM elevation (with low IgG/IgA/IgE) rather than an elevation of IgA, IgG, IgD or IgE.
+
+## explicit_objective
+Identify CD40L deficiency (Hyper-IgM syndrome) as the cause of a humoral immunodeficiency presenting with elevated IgM due to defective isotype switching.
+
+## pitfalls
+Attributing the humoral abnormality in CD40L deficiency to an isotype other than IgM, or to a mechanism other than defective isotype switching (such as allergic response or secondary immune response), rather than the CD40-CD40L class-switch signal itself.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Immunodeficiency
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-HYPERIGM-CD40L-DEFICIENCY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+208. A young patient with severe recurrent pyogenic bacterial infection, but with normal T cell and B cell numbers. Lab testing reveals that CD4 T helper cells have a defective CD40L molecule. As a result Humoral Immunity reveals a significant elevation in which of the following immunoglobulins? What is the cause? a. IgA/ due to recurrent mucosal infections b. IgM/ due to defective isotype switching c. IgG/ due to secondary immune response by the recurrent pyogenic infections d. IgD/ due to defective CD4 helper function e. IgE/ due to allergic response to certain proteins of pyogenic bacteria
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q208
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-583B458280FA46
+
+## label
+IgG is the predominant antibody of the secondary immune response and the immunoglobulin present in the greatest concentration in the fetus
+
+## canonical_key
+antibody.igg.secondary-response-and-fetal-predominance
+
+## aliases
+IgG secondary response and transplacental predominance
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+IgG is both the predominant antibody isotype of the secondary (memory, anamnestic) immune response, reflecting isotype-switched memory B cells, and the immunoglobulin present at the greatest concentration in the fetus, because IgG alone crosses the placenta from the maternal circulation. IgA, IgM and IgD do not cross the placenta in this way and are not the predominant secondary-response isotype.
+
+## explicit_objective
+Identify IgG as both the predominant secondary-response antibody and the isotype present in the highest concentration in the fetus via placental transfer.
+
+## pitfalls
+Selecting IgM (the predominant primary-response isotype and the one produced by the fetus itself, not transferred from the mother) instead of IgG for either the secondary-response or fetal-concentration property.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+Antibody isotypes
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-IGG-SECONDARY-FETAL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+209. Which antibody is the predominant antibody in the secondary immune response, and has the greatest concentration of the five immunoglobulins in the fetus? a. IgA b. IgM c. IgD d. IgG
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q209
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-F78B0CADA85A71
+
+## label
+Individuals with a genetic deficiency of C6 have decreased resistance to Neisseria bacteremia
+
+## canonical_key
+complement.c6deficiency.neisseria-susceptibility
+
+## aliases
+Terminal complement deficiency — C6
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+C6 is one of the terminal complement components (C5b,6,7,8,9) that assemble the Membrane Attack Complex; a genetic deficiency of C6, like deficiencies of C5, C7, C8 or C9, characteristically causes decreased resistance to Neisseria bacteremia (meningococcal and gonococcal infection), because the MAC's direct lytic action against these Gram-negative diplococci is otherwise largely compensated by opsonization for most other organisms. It does not typically increase hypersensitivity reactions, cancer or autoimmunity, and does not increase resistance to viral infection.
+
+## explicit_objective
+Identify terminal complement (C6) deficiency as a cause of increased susceptibility to Neisseria bacteremia.
+
+## pitfalls
+Assuming a terminal complement component deficiency causes broad immunodeficiency effects (increased cancer, autoimmunity or hypersensitivity) rather than its specific, classic association with recurrent Neisseria infection.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C6DEFICIENCY-NEISSERIA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+219. Individuals with a genetic deficiency of C6 have: a. Decreased resistance to viral infections b. Increased hypersensitivity reactions c. Increased frequency of cancer d. Increased frequency of autoimmunity e. Decreased resistance to Neisseria bacteremia
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q219
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-857642DE889429
+
+## label
+Mannose-binding lectin is a pattern-recognition receptor of the innate, not adaptive, immune system
+
+## canonical_key
+complement.mbl.innate-not-adaptive-classification
+
+## aliases
+MBL classification
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Mannose-binding lectin (MBL) is a pattern-recognition receptor of the innate immune system: it is found on macrophage surfaces and in serum, binds the sugar mannose on bacterial cell surfaces, and acts as an opsonin while also initiating the lectin complement pathway. It is not a component of adaptive immunity, which instead relies on antigen-specific B- and T-cell receptors generated by somatic recombination.
+
+## explicit_objective
+Identify mannose-binding lectin as an innate, not adaptive, pattern-recognition molecule, despite its genuine roles as a pattern-recognition receptor, macrophage-surface molecule, mannose-binder and opsonin.
+
+## pitfalls
+Classifying MBL as a component of adaptive immunity because it participates in a specific-looking recognition event (mannose binding); MBL's recognition is a germline-encoded, innate pattern-recognition mechanism, not an antigen-specific adaptive one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-MBL-INNATE-CLASSIFICATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+222. Which of the following doesn't describe MBL (mannan binding lectin)? a. It is a pattern recognition receptor b. Found on the surface of macrophages c. Binds to the sugar mannose on bacterial cells d. Acts as an opsonin e. Component of adaptive immunity
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q222
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-EBEC3B61D61570
+
+## label
+C5a is the complement component most efficient at attracting neutrophils to the site of infection
+
+## canonical_key
+complement.c5a.neutrophil-chemotaxis-efficiency
+
+## aliases
+C5a chemotactic potency
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Of the complement fragments, C5a is the most potent chemotactic factor for neutrophils, recruiting them efficiently to the site of infection, in addition to its role (shared with C3a) as an anaphylatoxin triggering inflammation; C3a, C4a, C5b and C3b, while active in other complement functions (anaphylatoxin activity, MAC assembly, opsonization respectively), are not the most efficient neutrophil chemoattractant among the choices.
+
+## explicit_objective
+Identify C5a as the most potent neutrophil-chemotactic complement fragment.
+
+## pitfalls
+Crediting C3a with the strongest neutrophil-chemotactic activity; while C3a is also an anaphylatoxin, C5a is the more potent chemoattractant for neutrophils specifically.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-177C4E3BCE9911
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C5A-NEUTROPHIL-CHEMOTAXIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+223. Which of the following complement component is most efficient in attracting neutrophils to site of infection: a. C3a b. C4a c. C5a d. C5b e. C3b
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q223
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-8E3BD262E93CC5
+
+## label
+Decay-accelerating factor (DAF, CD55) is the cell-surface molecule essential for protecting normal host cells from lysis by complement
+
+## canonical_key
+complement.daf.host-cell-protection-function
+
+## aliases
+DAF host protection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Decay-accelerating factor (DAF, CD55) is a host-cell surface molecule essential for protecting normal cells from complement-mediated lysis, by accelerating the decay (dissociation) of the C3 and C5 convertases before they can generate enough C3b/C5b to assemble a damaging Membrane Attack Complex on the host's own membrane. C-reactive protein (an acute-phase opsonin), mannan-binding lectin (a pattern-recognition/lectin-pathway initiator) and C1 inhibitor (a classical-pathway/kinin regulator) play different regulatory or recognition roles rather than this specific host-cell-surface protective function.
+
+## explicit_objective
+Identify decay-accelerating factor (DAF) as the cell-surface molecule protecting normal cells from complement-mediated lysis.
+
+## pitfalls
+Confusing DAF's host-cell protective role with C-reactive protein's opsonizing acute-phase role or with C1 inhibitor's classical-pathway/kinin regulatory role, which are distinct regulatory functions.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-DAF-HOSTCELL-PROTECTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+224. Which of the following cell surface molecules is essential for protecting normal cells from lysis by complement a. C reactive protein b. Mannan binding lectin c. Decay acceleration factor d. C1 inhibitor e. Factor B
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q224
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-92233D0A486CA8
+
+## label
+C3a is classified as an anaphylatoxin
+
+## canonical_key
+complement.c3a.anaphylatoxin-classification
+
+## aliases
+C3a classification
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+C3a is classified as an anaphylatoxin — a small complement fragment that triggers mast-cell degranulation, smooth-muscle contraction and increased vascular permeability, driving acute inflammation, alongside its sister fragment C5a. It is not itself an opsonin (that role belongs to C3b), a complement control protein (such as DAF or CD59), or an acute-phase protein (a liver-derived plasma protein whose levels rise with inflammation, unlike C3a which is a cleavage fragment generated during activation).
+
+## explicit_objective
+Classify C3a as an anaphylatoxin, distinguishing it from an opsonin, a complement control protein and an acute-phase protein.
+
+## pitfalls
+Confusing C3a's anaphylatoxin classification with C3b's opsonin role; C3a and C3b are different cleavage products of C3 with different jobs.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-177C4E3BCE9911
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C3A-ANAPHYLATOXIN-CLASSIFICATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+225. C3a is considered an a. Opsonin b. Complement control protein c. Decay accelerating factor causing the rapid decay of bacteria d. Anaphylatoxin e. Acute phase protein
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q225
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-5ACCA82E08B8F0
+
+## label
+On the first exposure to a microorganism, the alternative complement pathway is more likely to be activated than the classical pathway, since no specific antibody yet exists
+
+## canonical_key
+complement.alternativepathway.first-exposure-antibody-independent-priority
+
+## aliases
+Alternative pathway — first-exposure priority
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Because the classical complement pathway requires an antigen-antibody (immune) complex to trigger C1, it cannot fire on a person's first-ever exposure to a microorganism, before any specific antibody has been generated; the alternative pathway, triggered directly by foreign surfaces independent of antibody, is therefore the pathway more likely to be activated on that first exposure, with the classical pathway becoming more prominent only once specific antibody has developed. This contrasts with incorrect statements that C3 convertase itself protects normal cells (that is DAF's/CD59's role), that C3a is a decay-accelerating factor (it is an anaphylatoxin), that Gram-positive bacteria are more susceptible to complement-mediated killing than Gram-negative bacteria, or that the Membrane Attack Complex forms only via the classical and not the alternative pathway (both pathways converge on MAC assembly).
+
+## explicit_objective
+State that the antibody-independent alternative pathway, not the antibody-dependent classical pathway, is the one more likely activated on a first exposure to a microorganism.
+
+## pitfalls
+Assuming the classical pathway can respond to a first-ever microbial exposure; it needs pre-existing specific antibody, which is precisely what is absent on a first exposure, unlike the alternative pathway.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-3BF6BBC114AB23
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-ALTPATHWAY-FIRSTEXPOSURE-PRIORITY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+226. Regarding the complement pathway, which one of the following is the MOST accurate? a. C3 convertase protects normal cells from lysis by complement b. C3a is a decay acceleration factor and causes the rapid decay of bacteria c. Gram positive bacteria are more likely to be killed by complement than Gram negative d. The membrane attack complex is formed as a result of activation of the classic pathway, but not by activation of the alternative pathway e. The first time a person is exposed to a microorganism, the alternative pathway is more likely to be activated than the classic pathway
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q226
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-EC55557FE8DBDB
+
+## label
+The most important function of complement components C5b,6,7,8,9 is to perforate the target cell membrane, forming the Membrane Attack Complex
+
+## canonical_key
+complement.mac.c5b6789-perforation-function
+
+## aliases
+MAC function
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+C5b,6,7,8,9 together assemble the Membrane Attack Complex (MAC), and its single most important function is to perforate the target cell's membrane, creating a pore that causes osmotic lysis of the target — not to enhance antibody production, inhibit immune-complex formation, opsonize viruses, or release histamine from mast cells, all of which are separate, unrelated immune functions carried out by other mechanisms.
+
+## explicit_objective
+Identify membrane perforation (pore formation) as the most important function of the C5b,6,7,8,9 Membrane Attack Complex.
+
+## pitfalls
+Attributing an unrelated function (antibody enhancement, viral opsonization, histamine release) to C5b-9, rather than its defining lytic pore-forming role.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-8FAEB790724DA0
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-MAC-PERFORATION-FUNCTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+227. Of the following, which one is the most important function of complement components C5b,6,7,8,9? a. To enhance antibody production b. To inhibit immune complex formation c. To opsonize viruses d. To perforate bacterial cell membranes e. To release histamine from mast cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q227
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-B2E56AE630D002
+
+## label
+Angioedema with non-red, non-hot, non-tender swelling of the limbs and throat fullness is most likely explained by C1-inhibitor deficiency
+
+## canonical_key
+complement.c1inhibitordeficiency.hereditary-angioedema-presentation
+
+## aliases
+Hereditary angioedema presentation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A patient with swelling of the arms, legs and throat that is not red, hot or tender — non-inflammatory angioedema, potentially airway-threatening — is most likely explained by a deficiency of C1 inhibitor (hereditary angioedema): without C1 inhibitor, unchecked classical-pathway and kinin-pathway activation generates excess bradykinin and vasoactive complement fragments, producing non-inflammatory tissue swelling. A deficiency in C3b or factor B, or excessive C9 or C5a, do not produce this particular non-inflammatory angioedema presentation.
+
+## explicit_objective
+Identify C1-inhibitor deficiency (hereditary angioedema) as the cause of non-inflammatory, complement-mediated swelling of the limbs and airway.
+
+## pitfalls
+Attributing non-inflammatory angioedema to a deficiency in a downstream complement component (C3b, factor B) or excess of a terminal/anaphylatoxin fragment (C9, C5a), rather than to C1-inhibitor deficiency's unchecked classical-pathway/kinin activation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C1INHIBITOR-ANGIOEDEMA-PRESENTATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+228. Your patient is a 20-year old woman who complains of swelling on her arms and legs and a feeling of fullness in her throat that makes it difficult to breath. The swellings are not red, hot, or tender. You suspect she may have an angioedema caused by a complement abnormality. Of the following, which one is the most likely explanation? a. She has deficiency in C1 inhibitor b. She has a deficiency in C3b c. She has excessive C9 d. She has a deficiency in factor B e. She has excessive C5a
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q228
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-04B951CC3DFCF2
+
+## label
+In a patient with complete absence of C3, killing of intracellular bacteria remains intact because it is T-cell/macrophage-mediated, not C3-dependent
+
+## canonical_key
+complement.c3deficiency.intracellular-killing-intact-function
+
+## aliases
+C3 deficiency — spared functions
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+C3 is required for lysis of bacteria, opsonization, generation of anaphylatoxins and chemotaxis of neutrophils, so a patient with complete absence of C3 loses all of these — but the killing of intracellular bacteria, which depends on cell-mediated mechanisms such as macrophage activation and T-cell-derived interferon-gamma rather than on complement, remains intact despite the C3 deficiency.
+
+## explicit_objective
+Identify intracellular bacterial killing as the immune function that remains intact in complete C3 deficiency, since it is complement-independent and cell-mediated.
+
+## pitfalls
+Assuming C3 deficiency spares an antibody- or complement-dependent function such as opsonization, lysis, chemotaxis or anaphylatoxin generation; those are precisely what C3 deficiency abolishes, unlike cell-mediated intracellular killing.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-F5FC3C8440BA16
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C3DEFICIENCY-INTRACELLULAR-KILLING-INTACT-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+231. A patient is admitted with multiple bacterial infections and is found to have complete absence of C3. Which of the following immune mediated functions would remain intact? a. Lysis of bacteria b. Opsonization of bacteria c. Generation of anaphylatoxins d. Chemotaxis of neutrophils e. Killing of intracellular bacteria
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q231
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-0B13DBE2476141
+
+## label
+The alternative complement pathway is activated by lipopolysaccharide, some viruses, fungal/yeast cell walls and immune complexes, but not characteristically by Gram-positive bacterial cell walls
+
+## canonical_key
+complement.alternativepathway.activator-list-excluding-grampositive
+
+## aliases
+Alternative pathway activators — exclusion
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The alternative (properdin) complement pathway is activated directly by foreign surfaces including bacterial lipopolysaccharide (Gram-negative outer membrane), some viruses, fungal and yeast cell walls, and IgA-containing immune complexes — Gram-positive bacterial cell walls, whose thick peptidoglycan lacks LPS, are not a classic activator of the alternative pathway in the way these other surfaces are.
+
+## explicit_objective
+Identify the surfaces and molecules that activate the alternative complement pathway (LPS, some viruses, fungal/yeast walls, immune complexes), excluding Gram-positive bacterial cell walls.
+
+## pitfalls
+Assuming any bacterial cell wall, Gram-positive or Gram-negative, equally activates the alternative pathway; the classic activating surfaces are Gram-negative LPS, fungal/yeast walls, some viruses and immune complexes, not Gram-positive peptidoglycan.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-1D0D474E931587
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-ALTPATHWAY-ACTIVATOR-EXCLUSION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+232. All of the following activates the alternative pathway except a. Lipopolysaccharides b. Some viruses c. Fungal and yeast cell walls d. Gram positive bacteria e. Immune complexes
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q232
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-E0411656DB79B1
+
+## label
+The alternative complement pathway does not involve activation of C4, which is a classical- and lectin-pathway component
+
+## canonical_key
+complement.alternativepathway.no-c4-involvement
+
+## aliases
+Alternative pathway — no C4
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The alternative complement pathway is characterised by activation of complement components beyond C3 in the cascade, participation of properdin (which stabilises its C3 convertase, C3bBb), generation of anaphylatoxins, and generation of chemotactic factors for neutrophils — but it does NOT involve activation of C4, since C4 belongs specifically to the classical and lectin pathways (forming part of the C4b2b convertase), not the alternative pathway, which begins directly from C3.
+
+## explicit_objective
+Identify C4 activation as NOT a feature of the alternative complement pathway, since C4 belongs to the classical/lectin pathways instead.
+
+## pitfalls
+Assuming the alternative pathway shares C4 activation with the classical pathway because both converge on C3; the alternative pathway specifically bypasses C4 and C2, beginning directly at C3.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-3BF6BBC114AB23
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-ALTPATHWAY-NO-C4-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+233. The alternative pathway of complement is characterized by the functions listed below except: a. Activation of complement components beyond C3 in the cascade b. Participation of properdin c. Generation of anaphylatoxins d. Generation of chemotactic factors for neutrophils e. Activation of C4
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q233
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-6197A1F5885A80
+
+## label
+Decay-accelerating factor (DAF) regulates complement activity by causing dissociation of the C4b2b (classical) and C3bBb (alternative) convertase complexes
+
+## canonical_key
+complement.daf.convertase-dissociation-mechanism
+
+## aliases
+DAF mechanism
+C3 convertase dissociation regulator
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Decay-accelerating factor (DAF, CD55) regulates complement activation specifically by causing dissociation of the C4b2b classical-pathway convertase and the C3bBb alternative-pathway convertase, accelerating their natural decay before they can generate excessive C3b/C5b on a host cell surface — it does not act by blocking C3 convertase from binding bacterial surfaces, inhibiting MAC binding to bacterial membranes, serving as a cofactor for C3b cleavage (a Factor-I-type mechanism), or dissociating a C5 convertase as its defining action. Factor H, Factor I and C1 inhibitor act by other mechanisms (cofactor activity, classical-pathway/kinin inhibition), so DAF remains the specific answer for convertase dissociation among the complement control proteins.
+
+## explicit_objective
+Identify DAF's regulatory mechanism as dissociation of the C4b2b and C3bBb convertases, and DAF as the complement control protein whose defining action is C3-convertase dissociation.
+
+## pitfalls
+Confusing DAF's convertase-dissociation mechanism with Factor I's cofactor-for-cleavage role or Factor H's alternative-pathway-specific regulation, or selecting Factor H or C1 inhibitor instead of DAF for the general 'dissociates the C3 convertase' description.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-DAF-CONVERTASE-DISSOCIATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+230. Which of the complement control proteins acts by dissociation of the C3 convertase a. Factor H b. Factor I c. C1 inhibitor d. DAF (Decay acceleration factor) e. CD59 | 234. DAF (Decay acceleration factor) regulates complement activity by: a. Dissociation of C4b2b or C3bBb enzyme complex b. Blocking the binding of C3 convertase to the surface of bacterial cells c. Inhibiting the membrane attack complex from binding to bacterial membranes d. Acting as a cofactor for the cleavage of C3b e. Causing dissociation of C5 convertase
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q230/234
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-97172930B1A868
+
+## label
+In a C3-deficient individual, antigen-antibody immune complexes still result in activation of C2, since classical-pathway activation proceeds through C1, C4 and C2 upstream of the C3 block
+
+## canonical_key
+complement.c3deficiency.upstream-c2-activation-still-occurs
+
+## aliases
+C3 deficiency — upstream classical activation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The classical pathway activates its components in the order C1, C4, C2, C3; in a C3-deficient individual, an antigen-antibody immune complex can still activate C1, C4 and C2, since these steps occur upstream of C3 — but the cascade halts at that point, so anaphylatoxin production, chemotactic-factor production and activation of C5 (all of which require C3 cleavage first) do not occur, and factor B (an alternative-pathway component) is not activated by this classical-pathway trigger either.
+
+## explicit_objective
+State that C2 activation still occurs upstream of a C3 block in a C3-deficient individual, since the classical pathway activates C1, C4 and C2 before reaching C3.
+
+## pitfalls
+Assuming a C3-deficient individual's classical-pathway activation is blocked entirely from the start; C1, C4 and C2 activation, occurring upstream of C3, are unaffected by the C3 deficiency itself.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-F5FC3C8440BA16
+CON-IMM-BFA60A06BF7648
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C3DEFICIENCY-UPSTREAM-C2-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+235. Antigen-antibody immune complexes in a C3-deficient individual will result in: a. Anaphylatoxin production b. Activation of factor B c. Production of chemotactic factors d. Activation of C2 e. Activation of C5
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q235
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-7E2629BF8EE5A6
+
+## label
+The classical pathway of complement functions to facilitate destruction of microbes
+
+## canonical_key
+complement.classicalpathway.microbe-destruction-function
+
+## aliases
+Classical pathway function
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The overall function of the classical complement pathway, once triggered by an antigen-antibody complex and carried through C1, C4, C2, C3 and on to the Membrane Attack Complex, is to facilitate destruction of microbes via opsonization, inflammation and direct lysis — not to cleave immunoglobulin into Fc fragments, recognise specific epitopes on microbes (an antibody-variable-region function, not a complement one), trigger B-lymphocyte development, or cause histamine release as its overall purpose (histamine release is a downstream anaphylatoxin effect, not the pathway's defining function).
+
+## explicit_objective
+State that the classical complement pathway's overall function is to facilitate destruction of microbes.
+
+## pitfalls
+Attributing the classical pathway's overall function to a narrower downstream effect (histamine release) or to an unrelated process (cleaving immunoglobulin, triggering B-lymphocyte development), rather than its broad role in microbial destruction.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-77B61C4222A097
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-CLASSICALPATHWAY-MICROBE-DESTRUCTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+237. The classical pathway of complement functions to a. Cleave immunoglobulin into Fc fragments b. Facilitate destruction of microbes c. Recognize specific epitopes on microbes d. Trigger B lymphocyte development e. Trigger histamine release
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q237
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-BABF66856DEB66
+
+## label
+A fourth episode of disseminated gonococcal (Neisseria) infection with no other predisposing factor most likely points to a C8 deficiency
+
+## canonical_key
+immunodeficiency.c8deficiency.recurrent-neisseria-presentation
+
+## aliases
+Terminal complement deficiency — C8
+Recurrent Neisseria immunodeficiency
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A man treated for a fourth episode of disseminated gonococcal (Neisseria gonorrhoeae) infection in five years, with no other predisposing condition, most likely has a terminal complement pathway defect such as C8 deficiency: because the Membrane Attack Complex is the chief defence against these Gram-negative diplococci, its absence produces this classic recurrent-Neisseria pattern, rather than common variable immunodeficiency, DiGeorge syndrome, selective IgA deficiency or severe combined immunodeficiency, each of which has its own distinct classic infection pattern.
+
+## explicit_objective
+Identify C8 (terminal complement) deficiency as the immunological defect underlying recurrent disseminated Neisseria infection.
+
+## pitfalls
+Selecting a B-cell, T-cell or combined immunodeficiency (CVID, DiGeorge, selective IgA deficiency, SCID) for a recurrent-Neisseria presentation; that specific pattern classically points to a terminal complement (MAC) deficiency instead.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Immunodeficiency
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-F5FC3C8440BA16
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C8DEFICIENCY-NEISSERIA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+239. A ___ year old man is treated for a fourth episode of disseminated gonorrhea infection in the last 5 years. He had no other predisposing conditions. If he has an immunological defect, which of the following is most likely? a. Common variable immunodeficiency b. C8 deficiency c. DiGeorge syndrome d. Selective IgA deficiency e. Severe combined immunodeficiency
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q239
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-61DF2B782570F4
+
+## label
+A patient with recurrent abdominal pain and swollen lips from hereditary angioedema (C1-inhibitor deficiency) is expected to have reduced C4 levels
+
+## canonical_key
+complement.c1inhibitordeficiency.reduced-c4-laboratory-finding
+
+## aliases
+Hereditary angioedema laboratory finding — low C4
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A patient hospitalised repeatedly for abdominal pain and swollen lips, consistent with hereditary angioedema from C1-inhibitor deficiency, is expected on laboratory testing to have reduced C4 levels: unchecked classical-pathway activation, unrestrained by C1 inhibitor, continuously consumes C4 (and C2), so C4 characteristically runs low even between attacks — not abnormal superoxide production or defective neutrophil chemotaxis (features of phagocyte disorders such as chronic granulomatous disease), or abnormal T-cell numbers or function (features of a T-cell immunodeficiency).
+
+## explicit_objective
+State that reduced C4 levels are the expected laboratory finding in hereditary angioedema from C1-inhibitor deficiency.
+
+## pitfalls
+Expecting a phagocyte-function abnormality (superoxide production, neutrophil chemotaxis) or a T-cell abnormality in hereditary angioedema, rather than the classical-pathway C4 consumption that C1-inhibitor deficiency actually causes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-F5FC3C8440BA16
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-C1INHIBITOR-REDUCED-C4-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+240. A patient has been hospitalized three times for periumbilical abdominal pain and is complaining now of swollen lip. What laboratory findings in this patient is expected? a. Abnormal superoxide anion production by neutrophils b. Abnormal T cell functions c. Abnormal T cell numbers d. Defective neutrophil chemotaxis e. Reduced C4 levels
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q240
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-92B25E9AA5D013
+
+## label
+Patients with C5 through C9 (terminal complement) deficiencies are most likely to be susceptible to Neisseria infections
+
+## canonical_key
+immunodeficiency.terminalcomplement.neisseria-susceptibility-general
+
+## aliases
+Terminal complement deficiency — general Neisseria susceptibility
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Deficiencies of any of the terminal complement components, C5 through C9, which together assemble the Membrane Attack Complex, are most classically associated with susceptibility to Neisseria infections (meningococcal and gonococcal), because MAC-mediated lysis is this Gram-negative diplococcus genus's chief vulnerability to complement — not AIDS, giardiasis, histoplasmosis or pneumococcal infections, which are associated with different immune defects (HIV/CD4 T-cell loss, IgA/mucosal or splenic defects, cell-mediated immunodeficiency, and antibody/complement-opsonization defects respectively).
+
+## explicit_objective
+State that C5-C9 (terminal complement) deficiency is classically associated with susceptibility to Neisseria infections.
+
+## pitfalls
+Associating a terminal complement deficiency with an unrelated infection pattern (AIDS-defining infections, giardiasis, histoplasmosis) instead of its specific, classic Neisseria association.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Immunodeficiency
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-F5FC3C8440BA16
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-TERMINALCOMPLEMENT-NEISSERIA-GENERAL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+241. Patients with C5 through C9 complement deficiencies are most likely to be susceptible to which of the following infections? a. AIDS b. Giardiasis c. Neisseria infections d. Histoplasmosis e. Pneumococcal infections
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q241
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-A79EE6DF171D61
+
+## label
+Complement protects the host from pneumococcal infection chiefly through the classical-pathway route (C1, C2 and C4) generating opsonizing C3b, since Gram-positive organisms resist complement-mediated lysis
+
+## canonical_key
+complement.pneumococcus.classicalpathway-opsonization-not-lysis
+
+## aliases
+Complement defence against pneumococcus
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Streptococcus pneumoniae, a Gram-positive organism with a thick peptidoglycan cell wall, resists direct lysis by the Membrane Attack Complex, so the host is protected from pneumococcal infection chiefly by the classical pathway (C1, C2 and C4, activated by anti-capsular antibody) generating the opsonin C3b, which promotes phagocytic clearance rather than lysis — complement does not inhibit phagocytosis, is not activated by IgE, does not play a minor role in inflammation, and microorganisms coated by complement are typically opsonized for phagocytosis rather than merely agglutinated without further consequence.
+
+## explicit_objective
+State that complement protects against pneumococcal infection chiefly through classical-pathway (C1, C2, C4) opsonization via C3b, since Gram-positive organisms are relatively resistant to complement-mediated lysis.
+
+## pitfalls
+Assuming complement's chief defence against a Gram-positive, thick-walled organism such as pneumococcus is direct MAC-mediated lysis, rather than classical-pathway opsonization via C3b, which is the dominant mechanism for this organism.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+Complement system
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-COMPLEMENT
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-IMM-F5FC3C8440BA16
+
+## resource_ids
+src_834aba143e85f6c3efce
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-IMM-PNEUMOCOCCUS-CLASSICALPATHWAY-OPSONIZATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+242. Complement is a series of important host proteins that provides protection against ich by foreign microorganisms. Which of the following statements best describe complement: a. Complement inhibits phagocytosis b. Complement is activated by IgE antibody classes c. Complement plays a minor role in the inflammatory response d. Microorganisms agglutinate in the presence of complement but do not lyse e. Complement protects the host from pneumococcal infection through C1, C2 and C4
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_834aba143e85f6c3efce | tier 3 | 2023-2024 | generic external MCQ bank (Bg. MCQs immune.pdf) Q242
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU department MCQ bank only. The printed answer key for this generic external bank ends at Q180 (pp.37-39's key table is a physically repeated 3x page-image, confirmed by the previous ASU-IMM lane's md5 check, that never continues past Q180) — this question's key is editorial, per the chief-of-staff's 2026-08-27 answer-key ruling: the unambiguous textbook answer, held rather than guessed if no defensible single answer exists.
+
+## owner
+Dr. Omar
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+rejectedMergeCandidateIds: find-existing.mjs search for this fact's key terms returned no close-grain match in the live graph or any pending batch; a distinct ASU-scoped concept minted.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
