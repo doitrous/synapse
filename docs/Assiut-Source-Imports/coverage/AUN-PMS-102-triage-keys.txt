@@ -182,3 +182,143 @@ pms-quiz-q072 p106 key=A  length of the vas deferens = 45 cm -- new CON-AND-BF59
 # "Quiz for organ systems" [p100-102] Q1 (oesophagus), Q4 (bone ossification),
 #   Q5-6 (trachea) -- out of this dispatch's cluster, not authored.
 # Quiz29 [2nd occurrence, p104-107] Q1 (held above, duplicate options).
+
+# ============================================================================
+# pp.108-169 cluster (lane 3): briefed as "Quiz 30, Chromosome Theory of
+# Inheritance" but actually a run of ten per-lecture quizzes -- Quiz 30 itself
+# (p108-112, only 13 items), Quiz 41-42 (implantation/2nd week, p114-125),
+# Quiz 43 (cartilage, p126-129), Quiz 44-45 (bone, p130-137), Quiz 46
+# (gastrulation/notochord, p138-143), Quiz 47 (duplicate trophoblast material,
+# p144-147, wholly excluded), Quiz 48 (embryonic period/neurulation,
+# p148-154), Quiz 49 (ectodermal derivatives/neural crest, p155-160) and
+# Quiz 50 (mesodermal derivatives, p161-169). One cluster key, `pmsquiz30`,
+# with pure-numeric suffixes (pmsquiz30-q01..q50), per this lane's dispatch
+# instruction -- see coverage/AUN-PMS-102-triage.md for the full corrected
+# page map, per-quiz item tables, held-item reasoning and concept search log.
+# Cartilage/bone reuse docs/Kasr-Source-Imports/concept/103-BMS-histology-
+# concepts.md; gastrulation/neurulation/neural-crest/somite facts reuse
+# docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md; both via
+# pending-live/AUN-PMS-102-quiz30-overlay.md. Ectopic pregnancy and placenta
+# previa reuse existing LIVE concepts. Folding-4th-week and vitelline-duct
+# reuse this same module's own lane-1 concepts.
+# ============================================================================
+
+pmsquiz30-q01 # p110 key=C  primordial germ cells contain 46 single-strand chromosomes -- new CON-DEV-2DD11749B30811
+pmsquiz30-q02 # p111 key=C  synapsis/crossing over occur in prophase of the first meiotic division -- new CON-DEV-C480AF6C596002
+pmsquiz30-q03 # p111 key=C  ploidy = number of chromosomes in each cell -- new CON-DEV-7D289CE1CADBC4
+pmsquiz30-q04 # p112 key=A  gametes contain a haploid number of chromosomes -- new CON-DEV-0B6BDC498E15FC
+pmsquiz30-q05 # p114 key=B  fertilized ovum implants at the blastocyst stage -- new CON-DEV-033AEEC489096D
+pmsquiz30-q06 # p115 key=D  implantation requirements EXCEPT zona pellucida -- new CON-DEV-6B6F35FF432C00
+pmsquiz30-q07 # p115 key=D  vignette: ectopic tubal pregnancy -- reuse live CON-OBS-F3B46C8C137FA1
+pmsquiz30-q08 # p116 key=A  vignette: placenta previa -- reuse live CON-OBS-359BB7C45CB7F8
+pmsquiz30-q09 # p116 key=D  inner cell mass gives rise to the embryo -- new CON-DEV-E58D1D5C25DB69
+pmsquiz30-q10 # p117 key=D  amniotic cavity first appears day 8 between trophoblast and embryoblast -- new CON-DEV-B783AFECFFD32A
+pmsquiz30-q11 # p118 key=D  chorion formed by somatopleuric extraembryonic mesoderm + trophoblast -- new CON-DEV-DB4682BB1AB3CC
+pmsquiz30-q12 # p119 key=E  pregnancy tests detect hCG -- new CON-DEV-857BDB55798E03
+pmsquiz30-q13 # p126 key=B  perichondrium surrounds cartilage -- reuse CON-MSK-FB07A439E2B324 (103-BMS)
+pmsquiz30-q14 # p126 key=B  hyaline cartilage forms tracheal rings -- reuse CON-MSK-0EA979EBF9D434 (103-BMS)
+pmsquiz30-q15 # p127 key=C  elastic cartilage in the external ear -- reuse CON-MSK-0F4870E557FAF4 (103-BMS)
+pmsquiz30-q16 # p127 key=D  fibrocartilage forms the symphysis pubis -- reuse CON-MSK-0F4870E557FAF4 (103-BMS)
+pmsquiz30-q17 # p129 key=D  vignette: articular cartilage = hyaline without perichondrium -- reuse CON-MSK-FB07A439E2B324 (103-BMS)
+pmsquiz30-q18 # p129 key=B  interstitial growth replaces worn articular cartilage -- reuse CON-MSK-CB0E0F665E200B (103-BMS)
+pmsquiz30-q19 # p130 key=A  osteoblast = initial secretion/calcification of bone matrix -- reuse CON-MSK-D137ADEEC56243 (103-BMS)
+pmsquiz30-q20 # p131 key=B  osteoclast = bone resorption -- reuse CON-MSK-76CE11C6DCDC37 (103-BMS)
+pmsquiz30-q21 # p131 key=C  cancellous bone = spongy bone -- reuse CON-MSK-0403FC429F118B (103-BMS)
+pmsquiz30-q22 # p131 key=B  Howship's lacunae contain osteoclasts -- reuse CON-MSK-76CE11C6DCDC37 (103-BMS)
+pmsquiz30-q23 # p132 key=A  Haversian system = osteon -- reuse CON-MSK-A67054CAEEE89E (103-BMS)
+pmsquiz30-q24 # p138 key=D  gastrulation first indicated by the primitive streak -- reuse CON-DEV-215BD7E9E58872 (101-ISK)
+pmsquiz30-q25 # p138 key=C  embryo trilaminar except at the cloacal membrane -- reuse CON-DEV-215BD7E9E58872 (101-ISK)
+pmsquiz30-q26 # p141 key=B  notochord: mesodermal, under neural tube, flanked by somites -- new CON-DEV-7BE5A62AC3D0D1
+pmsquiz30-q27 # p141 key=E  embryo bilaminar at buccopharyngeal + cloacal membrane -- reuse CON-DEV-215BD7E9E58872 (101-ISK)
+pmsquiz30-q28 # p140 key=C  outer cytotrophoblastic shell attaches chorion to endometrium -- new CON-DEV-ADC571EE1F47C0
+pmsquiz30-q29 # p142 key=A  secondary chorionic villi = mesodermal core develops -- new CON-DEV-ACDC0FE22BE06F
+pmsquiz30-q30 # p149 key=B  nervous system derived from ectoderm -- reuse CON-DEV-4BC4233153C3DC (101-ISK)
+pmsquiz30-q31 # p149 key=C  neurulation = process forming the neural tube -- reuse CON-DEV-4BC4233153C3DC (101-ISK)
+pmsquiz30-q32 # p150 key=B  neural folds: all of the above (notochord induction, fusion into tube, 3rd week) -- reuse CON-DEV-4BC4233153C3DC (101-ISK)
+pmsquiz30-q33 # p151 key=D  organogenesis occurs 3rd-8th weeks -- reuse CON-DEV-E273F775E9CB77 (101-ISK)
+pmsquiz30-q34 # p151 key=A  cranial neuropore closure ~day 25 -- new CON-DEV-9FB8E4B0015C2B
+pmsquiz30-q35 # p152 key=B  spina bifida = failure of closure of the caudal neuropore -- new CON-DEV-B74E7BE5E77918
+pmsquiz30-q36 # p152 key=B  major external body features recognizable end of 2nd month -- new CON-DEV-62093248BCEC81
+pmsquiz30-q37 # p156 key=A  ectoderm except kidneys (mesoderm) -- new CON-DEV-4FBEBAB88ED8A2
+pmsquiz30-q38 # p157 key=B  neural crest except bones of the hand -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q39 # p157 key=B  neural crest cells derived from ectoderm -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q40 # p157 key=B  neural crest except dura mater -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q41 # p158 key=A  neural crest gives rise to the adrenal medulla -- reuse CON-DEV-785CE84F7C03DB (101-ISK)
+pmsquiz30-q42 # p158 key=A  ectoderm except upper anal canal (endoderm) -- new CON-DEV-F2328E44A9B7F8
+pmsquiz30-q43 # p163 key=C  intermediate mesoderm -> kidneys and gonads -- new CON-DEV-AD4B6CDA269ED5
+pmsquiz30-q44 # p163 key=B  somites except epidermis of skin -- reuse CON-DEV-5E63C211DEEE00 (101-ISK)
+pmsquiz30-q45 # p163 key=C  somites: all of the above (sclerotome/myotome/paraxial origin) -- reuse CON-DEV-5E63C211DEEE00 (101-ISK)
+pmsquiz30-q46 # p164 key=A  mesoderm except suprarenal medulla (neural crest) -- new CON-DEV-5751F8C42B2EAC
+pmsquiz30-q47 # p164 key=A  total somites = 42-44 pairs -- new CON-DEV-AAFD50C9B1AD15
+pmsquiz30-q48 # p166 key=C  vertebral column from sclerotomes -- reuse CON-DEV-5E63C211DEEE00 (101-ISK)
+pmsquiz30-q49 # p167 key=A  folding of the embryo during the fourth week -- reuse CON-DEV-377B4B783E3C64 (own module, lane 1)
+pmsquiz30-q50 # p168 key=D  midgut communicates with yolk sac via the vitelline duct -- reuse CON-DEV-ACAFA620AE1F4B (own module, lane 1)
+
+# HELD (key conflict / corrupted / illogical / duplicate options) -- not authored
+# p111 Quiz30 Q11: "Chromosomal pattern of Down syndrome" -- printed key marks
+#   "45 - XY" correct, which is neither a real Down syndrome karyotype (the
+#   correct answer, 47,XY/47,XX trisomy 21, does not appear among the
+#   options) nor a coherent answer to the stem -- held as corrupted/incorrect
+#   printed key, same numeral-corruption pattern as the MPT-104/embryology-
+#   cluster Klinefelter "44-XXY" precedent.
+# p118/p125 Quiz41-42 Q9/Q29: "regarding uteroplacental circulation is
+#   CORRECT" -- identical stem and options printed twice with two different
+#   marked answers ("established during the second week" vs "hydrolytic
+#   enzymes... degrade the endothelium of embryonic capillaries") -- a direct
+#   printed-key conflict within one source. Held (MPT Q47 / embryology-
+#   cluster Quiz54-57 Q9/Q19 precedent).
+# p164 Quiz50 Q12: "Vertebral column is derived from" -- options B and C are
+#   both printed as "dermomyotomes" (duplicate, <4 distinct options). Held
+#   per LANE-CARD S2's floor rule; the same fact is authored cleanly instead
+#   from Q17's later, non-defective restatement (pmsquiz30-q48).
+
+# LOGGED ONLY -- pp.108-169 (fill-in-the-blank / True-False / image-dependent
+# / exact-duplicate / out-of-cluster, not authored)
+# Quiz 30 Q1-8 (p108-110): fill-in-the-blank, no options.
+# Quiz 41-42 Q11-15 (p119-120): True/False items (zona pellucida breakdown,
+#   hCG source, day-12 embedding, implantation site, yolk sac lining).
+# Quiz 41-42 Q16-21 (p120-122): fill-in-the-blank, no options.
+# Quiz 41-42 Q22 (p122): "Label the diagram" -- image-dependent.
+# Quiz 41-42 Q25-28, Q30 (p123-125): exact/near-exact duplicates of Q1-Q4/Q10
+#   (same stem, same key) -- duplicate-of, not authored twice.
+# Quiz 43 Q6-10 (p128): fill-in-the-blank, no options.
+# Quiz 44-45 Q7-9, Q11, Q13-17, Q22, Q24 (p132-137): fill-in-the-blank, no
+#   options.
+# Quiz 44-45 Q18, Q20, Q23: exact/near-exact duplicates of Q2/Q19/Q1 --
+#   duplicate-of, not authored twice.
+# Quiz 46 Q3-4 (p139): fill-in-the-blank, no options.
+# Quiz 46 Q5 (p139): True/False (intraembryonic mesoderm at buccopharyngeal
+#   but not cloacal membrane -- printed False).
+# Quiz 46 Q6 (p140): "Label the diagram" -- image-dependent.
+# Quiz 46 Q7, Q12-13, Q15-16 (p140-143): exact/near-exact duplicates of
+#   Q1/Q8/Q10/Q11 -- duplicate-of, not authored twice.
+# Quiz 46 Q14 (p143): "At gastrulation, the embryo is bilaminar at: ...Both B
+#   & C" (buccopharyngeal membrane and neural folds) -- conflicts with the
+#   same quiz's own Q9 (buccopharyngeal + cloacal membrane) on which second
+#   site the embryo stays bilaminar at. Held per the standing printed-key-
+#   conflict rule.
+# Quiz 47 (p144-147), all 11 items: fill-in-the-blank or exact duplicates of
+#   Quiz 46 material -- wholly excluded, 0 new items.
+# Quiz 48 Q1-3 (p148-149): True/False items (cranial/caudal neuropore timing,
+#   neural fold fusion site).
+# Quiz 48 Q7-8 (p150-151): fill-in-the-blank, no options.
+# Quiz 48 Q14-18 (p152-154): exact/near-exact duplicates of Q9-13 --
+#   duplicate-of, not authored twice.
+# Quiz 49 Q1 (p155): True/False (parasympathetic ganglia from neural crest).
+# Quiz 49 Q2-4 (p155-156): fill-in-the-blank, no options.
+# Quiz 49 Q11 (p158): duplicate content already covered by mouth-cavity fact
+#   tested at Q16 -- not separately authored to avoid a near-duplicate
+#   concept; logged only.
+# Quiz 49 Q12-16 (p159-160): exact/near-exact duplicates of Q7-11 --
+#   duplicate-of, not authored twice.
+# Quiz 50 Q1-3 (p161-162): True/False items (total somite count, somite
+#   appearance rate, lateral plate mesoderm/visceral layer).
+# Quiz 50 Q4-6 (p162): fill-in-the-blank, no options.
+# Quiz 50 Q12 (p164): held above (duplicate options).
+# Quiz 50 Q16, Q18-20 (p166-167): exact/near-exact duplicates of Q11/Q13-15 --
+#   duplicate-of, not authored twice.
+# Quiz 50 Q23-25 (p168-169): endoderm-derivatives and PGC-formation facts
+#   that exactly restate concepts already minted and authored in lane 1's
+#   pp.34-64 pass (CON-DEV-10A1C9D550EE53, CON-DEV-28D099E61F4987) --
+#   not re-authored a third time within this same source; logged as
+#   duplicate-of-lane-1, not held or excluded for any content defect.
