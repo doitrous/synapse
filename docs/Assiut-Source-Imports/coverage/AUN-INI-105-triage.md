@@ -426,3 +426,99 @@ reuse a concept already overlaid earlier in this same lane (chapters 1 and
   86 items) and 11 ("Nematoda," 164 items) are entirely unread beyond the
   structural chapter map already recorded above (page ranges, item counts,
   answer-table locations) by lane 1's original full-source-map pass.
+
+
+## Lane 9 -- Chapter 10 (Cestode)
+
+Lane 9's cluster: Chapter 10 "Cestode" (pp.101-111, 86 items, answer table
+p111). This chapter was previously mapped only at the structural level
+(page range, item count, answer-table location -- lane 1's original
+full-source-map pass); this lane triaged it at per-question level for the
+first time and authored the first 55 keyed items in order.
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts -- live | pending | new |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch10, Q1-55 of 86) | 55 | 55 (100%) | 51 | 4 | 0 | 17 | 34 |
+
+- **Questions read (55):** Q1-Q55 of chapter 10 (stems/options via
+  `pagetext.mjs show`, pages 101-107), keyed against the chapter's own
+  plain-text ANSWERS table (p111).
+- **Printed-key vs. expected-answer conflicts (2 of 55):**
+  - **Q2** ("The following cestode larvae not present in man?", options
+    Cysticercus bovis/Cysticercus cellulosae/Hydatid/Coenurus cerebralis)
+    is keyed **D "Coenurus cerebralis"** -- standard teaching is that man
+    is never Taenia saginata's intermediate host (its larva, cysticercus
+    bovis, develops only in cattle), while cysticercus cellulosae, hydatid
+    and coenurus cerebralis can all occur in man as an accidental
+    intermediate host, so the expected answer is **A "Cysticercus
+    bovis,"** not the printed D. **Held.**
+  - **Q23** ("Cyclops is the ONLY larval host for?", options
+    Diphyllobothrium latum/Diphyllobothrium mansoni/Dracunculus
+    medinensis/All of the above) is keyed **A "Diphyllobothrium latum"**
+    -- but D. latum needs Cyclops **and** a second, fish, intermediate
+    host to become infective, so Cyclops is not its only larval host,
+    whereas Dracunculus medinensis (option C) genuinely needs no second
+    intermediate host, making C the better fit for "only." **Held** as a
+    doubt, not resolved by inference, since the source's own intent for
+    this "only" wording is not certain.
+- **Duplicates (2 of 55, both HELD as `duplicate-of`):** Q28 near-restates
+  Q11 ("Cysticercus cellulosae is the infective stage of T. solium," same
+  key A, differing only in the fourth distractor option); Q29
+  near-restates Q9 ("Cysticercus bovis is the infective stage of T.
+  saginata," same correct content, differing only in option
+  lettering/order and the fourth distractor).
+- **Schema-shape holds:** none in this window -- every candidate question
+  in Q1-55 prints 4-5 options.
+- **A same-stem, conflicting-key repeat found while duplicate-checking
+  ahead:** Q10 ("Cysticercoid larva is the infective stage of?", key C
+  "Dipylidium caninum," textbook-correct) reappears later in the chapter's
+  own numbering (its Q65) with identical wording/options but a printed key
+  of D "None of the above" -- a genuine source-side key inconsistency
+  between two copies of the same question, not an OCR artefact. Q10 is
+  authored here with its correct key (C); flagged in `author_notes` for
+  whichever later lane reaches Q65, since the two occurrences should not
+  both be authored with their own literal printed keys.
+- **A near-verbatim recycling pattern confirmed while reading ahead:**
+  Q60-77 of this chapter restate Q5-Q22 almost word for word (e.g. Q60 =
+  Q5 "Taenia saginata?", Q73 = Q22 "All the intestinal cestodes of man
+  inhabit?"), the same self-recycling pattern lane 1 flagged for chapter
+  1. A later lane picking up at Q56 should expect a high duplicate rate
+  through roughly Q77, several with conflicting keys against their first
+  occurrence in the same way Q65 conflicts with Q10.
+- **Rich reuse family found this pass:** Helwan's own unimported
+  `HU-GIT-301-parasitology-concepts.md` batch (landed today per the
+  dispatch, subject `gi`, still pending import) covers Taenia
+  saginata/solium host-specificity and autoinfection, Hymenolepis
+  nana/diminuta direct-life-cycle and childhood-prevalence facts,
+  Diphyllobothrium latum's operculated egg and plerocercoid-in-fish
+  facts, and Echinococcus granulosus's sheep-intermediate-host fact --
+  reused for 17 of this window's 51 authored questions via a sparse
+  `+aun`/`+1`/`+AUN-INI-105` overlay
+  (`pending-live/AUN-INI-105-ch10-helwangit-overlay-concepts.md`), the
+  same cross-subject (`gi` reused into this module's own `inf`) pattern
+  this module's own chapter 6 lane used for an Ain-Shams `ASU-IMM`
+  concept. Mansoura's `MANS-HIS-203` and 6 October's `IMP-106` were
+  searched (`Taenia solium`, `Echinococcus granulosus`, `Dracunculus
+  medinensis`) but turned up no exact matches for this window's facts.
+- **9 new AUN-INI-105 concepts minted, covering 34 of this window's
+  question-uses** (`concept/AUN-INI-105-ch10-concepts.md`), each
+  cleared by `find-existing.mjs` first (search terms: cysticercus bovis,
+  coenurus, hydatid, cysticercus cellulosae, Taenia saginata, Taenia
+  solium, Echinococcus granulosus, Hymenolepis nana, Hymenolepis
+  diminuta, Diphyllobothrium latum, Dipylidium caninum, sparganosis,
+  scolex, cysticercoid, plerocercoid, coracidium, gravid proglottid,
+  Cyclops, blind intermediate host, Dracunculus medinensis -- one term
+  per call). Backed by a three-item article
+  (`article/AUN-INI-105-ch10-article.md`), split by theme (general
+  cestode body plan + the two Taenia species; Diphyllobothrium latum's
+  two-host life cycle + Dipylidium caninum + sparganosis; Echinococcus
+  granulosus + cross-species intermediate-host counting), each with a
+  "Related concepts (reused)" section mentioning the overlaid Helwan
+  facts so every reusing question's `library_ids` still resolves to a
+  local article, per this module's own established precedent (ch2/ch6
+  lanes' identical treatment of reused live concepts).
+- **Stop point:** chapter 10 Q1-55 read, keyed and (51 of 55) authored;
+  Q56 of 86 is the exact resume point for a later lane, with 31 items
+  remaining in this chapter (expect the Q56-77 duplicate cluster
+  described above) plus chapter 11 ("Nematoda," 164 items) entirely
+  unread beyond the structural chapter map already recorded above.

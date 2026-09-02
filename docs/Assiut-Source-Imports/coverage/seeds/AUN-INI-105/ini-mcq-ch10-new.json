@@ -1,0 +1,1354 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch10",
+  "header": "AUN-INI-105 -- INI MCQ .pdf, Chapter 10 \"Cestode\" (Q1-Q55 of 86, answer table p111), lane 9 (coverage/AUN-INI-105-triage.md). Authors the 35 questions whose tested idea rides on a newly-minted AUN-INI-105 concept. The remaining 16 authored Q1-55 questions reuse pending concepts from Helwan HU-GIT-301 and are authored separately in pending-live/ with an apply-after header. Held: Q2 (printed key conflicts with the expected fact), Q23 (printed key doubtful against the stem's own \"only\" wording), Q28 (dup of Q11), Q29 (dup of Q9).",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-INI-105",
+    "exam_weight_by_year": {
+      "AUN_Y1": "high"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_6f2f4188bb0cbf848733"
+    ],
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch10-q001",
+      "page": 101,
+      "title": "Platyhelminths needing two intermediate hosts, except",
+      "question": "The following platyhelminths require two intermediate hosts EXCEPT ?",
+      "options": {
+        "A": "Diphyllobothrium latum",
+        "B": "Heterophyes heterophyes",
+        "C": "Metagonimus yokogawai",
+        "D": "Taenia Solium"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the EXCEPT answer. Diphyllobothrium latum does need two intermediate hosts -- Cyclops, then a fresh-water fish -- so it belongs with the other three-host parasites, not with the exception.",
+        "B": "Incorrect as the EXCEPT answer. Heterophyes heterophyes, a fish-borne intestinal fluke, also needs two intermediate hosts (a snail, then a fish), so it too belongs with the two-host group.",
+        "C": "Incorrect as the EXCEPT answer. Metagonimus yokogawai likewise needs two intermediate hosts (a snail, then a fish), so it stays with the two-host group rather than being the exception.",
+        "D": "Correct. Taenia solium is the exception: it needs only a single intermediate host, the pig, in which its egg develops into the infective cysticercus cellulosae -- unlike Diphyllobothrium latum, Heterophyes heterophyes and Metagonimus yokogawai, which all require two intermediate hosts in succession before becoming infective. This single-intermediate-host pattern is one of the ways exam questions test host-count differences among the platyhelminths."
+      },
+      "main_concept": "CON-INF-75A2A7934657F3",
+      "concept_ids": [
+        "CON-INF-75A2A7934657F3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Platyhelminth host biology",
+      "learning_objective": "State that Taenia solium needs only one intermediate host (the pig), unlike Diphyllobothrium latum, Heterophyes heterophyes and Metagonimus yokogawai, which each need two.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Platyhelminth host biology",
+      "source_citation": "INI MCQ .pdf, Cestode, p101",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q002",
+      "hold": "printed key (D, \"Coenurus cerebralis\") conflicts with the expected textbook answer -- man is not the intermediate host for Taenia saginata (its larva, cysticercus bovis, develops only in cattle), so cysticercus bovis, not coenurus cerebralis, is the larva \"not present in man\": cysticercus cellulosae (T. solium), hydatid (E. granulosus) and coenurus cerebralis (Multiceps multiceps) can all occur in man as an accidental intermediate host, while cysticercus bovis cannot, since man never acts as T. saginata's intermediate host"
+    },
+    {
+      "key": "ini-mcq-ch10-q003",
+      "page": 101,
+      "title": "Dog as definitive host",
+      "question": "Dogs act as a definitive host for ?",
+      "options": {
+        "A": "Toxocara canis",
+        "B": "Echinococcus granulosus",
+        "C": "Multiceps multiceps",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone (true but partial). The dog is indeed the definitive host of Toxocara canis, but this is only one of three jointly true statements the key combines, not the complete answer by itself.",
+        "B": "Incorrect alone (true but partial). The dog is indeed the definitive host of Echinococcus granulosus, whose adult tapeworm lives in the dog intestine, but this too is only one of three jointly true statements.",
+        "C": "Incorrect alone (true but partial). The dog is indeed the definitive host of Multiceps multiceps, but this is again only one of three jointly true statements, not the complete answer alone.",
+        "D": "Correct. The dog is the definitive host for all three listed parasites: Toxocara canis (a nematode causing visceral larva migrans in man), Echinococcus granulosus (whose larval hydatid cyst develops in sheep or, accidentally, man) and Multiceps multiceps (whose larval coenurus cyst develops in sheep) -- since all three statements are true, \"All of the above\" is the correct combined answer. This grouping of three unrelated parasites under one definitive host is a common EXCEPT/All-of-the-above exam pattern."
+      },
+      "main_concept": "CON-INF-D706DE723AB63D",
+      "concept_ids": [
+        "CON-INF-D706DE723AB63D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "Name Toxocara canis, Echinococcus granulosus and Multiceps multiceps as three medically important helminths that all use the dog as their definitive host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p101",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q004",
+      "page": 101,
+      "title": "Herbivorous intermediate hosts, except",
+      "question": "Herbivorous animals act as an intermediate host for the following parasites EXCEPT ?",
+      "options": {
+        "A": "Multiceps multiceps",
+        "B": "Taenia saginata",
+        "C": "Echinococcus granulosus",
+        "D": "Metagonimus yokogawai"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the EXCEPT answer. Multiceps multiceps uses sheep, a herbivorous animal, as its intermediate host, so it belongs with the herbivore-hosted group rather than being the exception.",
+        "B": "Incorrect as the EXCEPT answer. Taenia saginata uses cattle, a herbivorous animal, as its intermediate host, so it too belongs with the herbivore-hosted group.",
+        "C": "Incorrect as the EXCEPT answer. Echinococcus granulosus uses sheep, a herbivorous animal, as its commonest intermediate host, so it also belongs with the herbivore-hosted group.",
+        "D": "Correct. Metagonimus yokogawai is the exception: its intermediate hosts are a snail and then a fresh-water fish, neither of which is a herbivorous animal, unlike Multiceps multiceps, Taenia saginata and Echinococcus granulosus, whose intermediate hosts (sheep or cattle) are all herbivores. This distinction between herbivore-borne and fish/snail-borne transmission is exactly what an EXCEPT question in this pattern is testing."
+      },
+      "main_concept": "CON-INF-75A2A7934657F3",
+      "concept_ids": [
+        "CON-INF-75A2A7934657F3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Platyhelminth host biology",
+      "learning_objective": "State that Metagonimus yokogawai's intermediate hosts (snail, then fish) are not herbivorous animals, unlike Multiceps multiceps, Taenia saginata and Echinococcus granulosus, which all use herbivores.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Platyhelminth host biology",
+      "source_citation": "INI MCQ .pdf, Cestode, p101",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q005",
+      "page": 101,
+      "title": "Taenia saginata facts",
+      "question": "Taenia saginata ?",
+      "options": {
+        "A": "Dog is the definitive host",
+        "B": "Pig is the intermediate host",
+        "C": "Inhabits the large intestine",
+        "D": "Belongs to the order cyclophyllidae"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Man, not the dog, is Taenia saginata's definitive host -- the dog is definitive host for other cestodes, such as Echinococcus granulosus, not for T. saginata.",
+        "B": "Incorrect. Cattle, not the pig, is Taenia saginata's intermediate host; the pig is the intermediate host of the related species Taenia solium instead.",
+        "C": "Incorrect. Taenia saginata inhabits the small intestine, not the large intestine, like the other human intestinal cestodes.",
+        "D": "Correct. Taenia saginata belongs to the order Cyclophyllidea, the order that includes most of the medically important tapeworms (Taenia, Hymenolepis, Echinococcus, Dipylidium), distinguished from the pseudophyllidean order that Diphyllobothrium latum belongs to. Recognising the correct order distinguishes T. saginata from cyclophyllidean look-alikes that share some, but not all, of these features."
+      },
+      "main_concept": "CON-INF-DA646E39A54407",
+      "concept_ids": [
+        "CON-INF-DA646E39A54407"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that Taenia saginata belongs to the order Cyclophyllidea, has man (not the dog) as its definitive host, cattle (not pig) as its intermediate host, and inhabits the small intestine.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p101",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q007",
+      "page": 101,
+      "title": "Taenia saginata scolex, except",
+      "question": "Taenia Saginata scolex has the following EXCEPT ?",
+      "options": {
+        "A": "Globular in Shape",
+        "B": "Having 4 Suckers for attachment",
+        "C": "The presence of hooks",
+        "D": "Attached to the mucosa of small Intestine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect as the EXCEPT answer. Taenia saginata's scolex is indeed globular in shape, a true feature, so it does not belong with the false statement.",
+        "B": "Incorrect as the EXCEPT answer. Taenia saginata's scolex does have four suckers for attachment, a true feature, so it does not belong with the false statement.",
+        "C": "Correct. Taenia saginata's scolex has no hooks -- it is unarmed, unlike Taenia solium's scolex, which carries a double row of hooks in addition to its four suckers -- so \"the presence of hooks\" is the false statement about T. saginata.",
+        "D": "Incorrect as the EXCEPT answer. The scolex does attach to the mucosa of the small intestine, a true feature, so it does not belong with the false statement."
+      },
+      "main_concept": "CON-INF-DA646E39A54407",
+      "concept_ids": [
+        "CON-INF-DA646E39A54407"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that Taenia saginata's scolex is globular, has four suckers, attaches to the small-intestinal mucosa, and -- unlike Taenia solium's -- carries no hooks.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p101",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q010",
+      "page": 102,
+      "title": "Cysticercoid larva infective stage",
+      "question": "Cysticercoid larva is the infective Stage of ?",
+      "options": {
+        "A": "Taenia Saginata",
+        "B": "Taenia Solium",
+        "C": "Dipylidium Caninum",
+        "D": "None of the above"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Taenia saginata's infective larva is cysticercus bovis, a vertebrate (cattle)-host larva, not a cysticercoid.",
+        "B": "Incorrect. Taenia solium's infective larva is cysticercus cellulosae, a vertebrate (pig)-host larva, not a cysticercoid.",
+        "C": "Correct. The cysticercoid is the larval form characteristic of cestodes with an arthropod intermediate host -- Dipylidium caninum develops its cysticercoid within an infected flea, which is then swallowed by the definitive host. Recognising cysticercoid as the arthropod-associated larval name, distinct from cysticercus, the vertebrate-associated one, is the key distinction being tested here.",
+        "D": "Incorrect. Option C, Dipylidium caninum, is correct, so \"none of the above\" does not apply."
+      },
+      "main_concept": "CON-INF-BAF8F514F8DF0E",
+      "concept_ids": [
+        "CON-INF-BAF8F514F8DF0E"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Dipylidium caninum",
+      "learning_objective": "State that the cysticercoid, the larval form found in arthropod (flea) intermediate hosts, is Dipylidium caninum's infective stage.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Dipylidium caninum",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "A repeat of this same stem later in the chapter (Q65 of the chapter's own numbering) prints a conflicting key (\"None of the above\") for identical wording/options -- this occurrence's key (C, Dipylidium caninum) is the textbook-correct one and is what is authored here; flagged for the next lane's attention when it reaches that later item."
+    },
+    {
+      "key": "ini-mcq-ch10-q011",
+      "page": 102,
+      "title": "Cysticercus cellulosae infective stage",
+      "question": "Cysticercus Cellulosae is the infective Stage of ?",
+      "options": {
+        "A": "Taenia Solium",
+        "B": "Taenia Saginata",
+        "C": "Hymenolepis nana",
+        "D": "Hymenolepis diminuta"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cysticercus cellulosae is the larval bladder-worm stage of Taenia solium that develops in pig muscle after pigs ingest T. solium eggs; man develops the adult worm (taeniasis) by eating undercooked pork containing this larva.",
+        "B": "Incorrect. Taenia saginata's infective larva is cysticercus bovis, found in cattle, not cysticercus cellulosae.",
+        "C": "Incorrect. Hymenolepis nana needs no intermediate host and no cysticercus-type larva; its egg is directly infective.",
+        "D": "Incorrect. Hymenolepis diminuta's infective larva is a cysticercoid in an arthropod intermediate host, not cysticercus cellulosae."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that cysticercus cellulosae, found in undercooked pork, is the infective larval stage of Taenia solium.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q012",
+      "page": 102,
+      "title": "Ingesting T. saginata eggs",
+      "question": "Ingestion of eggs of Taenia saginata results in ?",
+      "options": {
+        "A": "Infection with adult worm",
+        "B": "Cysticercosis",
+        "C": "Sparganosis",
+        "D": "None of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Infection with the adult worm (taeniasis) follows eating undercooked beef containing cysticercus bovis, not eating T. saginata eggs -- man cannot become infected by swallowing the eggs themselves.",
+        "B": "Incorrect. Cysticercosis is the tissue disease caused by Taenia solium eggs; T. saginata's oncosphere does not develop into cysticercus bovis in human tissue the way T. solium's does in man.",
+        "C": "Incorrect. Sparganosis is caused by the plerocercoid larva of Diphyllobothrium mansoni, unrelated to Taenia saginata eggs.",
+        "D": "Correct. Man cannot act as an intermediate host for Taenia saginata, so ingesting its eggs produces no infection at all -- none of the listed outcomes occurs, unlike the analogous situation for Taenia solium eggs, which do cause cysticercosis. This is the clearest illustration of T. saginata's strict host specificity for its intermediate stage."
+      },
+      "main_concept": "CON-INF-DA646E39A54407",
+      "concept_ids": [
+        "CON-INF-DA646E39A54407"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that ingesting Taenia saginata eggs produces no infection in man, since man cannot act as its intermediate host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q015",
+      "page": 102,
+      "title": "D. latum infection route",
+      "question": "Infection with Diphyllobothrium latum is through ?",
+      "options": {
+        "A": "Ingestion of egg",
+        "B": "Ingestion of Cyclops",
+        "C": "Ingestion of salmon fish",
+        "D": "Ingestion of pork muscle"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ingesting D. latum's egg does not infect man directly; the egg must first hatch in water and pass through two intermediate hosts before becoming infective.",
+        "B": "Incorrect. Ingesting Cyclops alone does not infect man with D. latum; Cyclops carries only the procercoid stage, one step short of the plerocercoid stage that infects man via fish.",
+        "C": "Correct. Man becomes infected with Diphyllobothrium latum by eating undercooked fresh-water fish (such as salmon) containing the plerocercoid larva, the stage that develops after the procercoid-bearing Cyclops is itself eaten by the fish. Naming the correct intermediate host and its meal source together is what this question is testing.",
+        "D": "Incorrect. Ingesting pork muscle transmits Taenia solium (cysticercus cellulosae) or Trichinella spiralis, not Diphyllobothrium latum."
+      },
+      "main_concept": "CON-INF-1338B6C6D91874",
+      "concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that man is infected with Diphyllobothrium latum by eating fresh-water fish containing the plerocercoid larva.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q017",
+      "page": 102,
+      "title": "Intestinal cestodes of man, except",
+      "question": "The following are intestinal cestode of man EXCEPT ?",
+      "options": {
+        "A": "Taenia saginata",
+        "B": "Taenia solium",
+        "C": "Hymenolepis nana",
+        "D": "Echinococcus granulosus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the EXCEPT answer. Taenia saginata's adult worm does live in man's small intestine, so it belongs with the intestinal cestodes.",
+        "B": "Incorrect as the EXCEPT answer. Taenia solium's adult worm does live in man's small intestine, so it belongs with the intestinal cestodes.",
+        "C": "Incorrect as the EXCEPT answer. Hymenolepis nana's adult worm does live in man's small intestine, so it belongs with the intestinal cestodes.",
+        "D": "Correct. Echinococcus granulosus is the exception: its adult tapeworm lives only in the dog's intestine, never man's -- man, when infected, harbours only the larval hydatid cyst in tissue, not the adult worm in the gut. This exclusion is a frequently tested distinction between the tissue cestodes and the true intestinal cestodes."
+      },
+      "main_concept": "CON-INF-C5335C8176B1C6",
+      "concept_ids": [
+        "CON-INF-C5335C8176B1C6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that Echinococcus granulosus's adult worm lives only in the dog, making it the exception among the intestinal cestodes of man.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q019",
+      "page": 103,
+      "title": "D. latum second intermediate host",
+      "question": "The Second intermediate host of Diphyllobothrium latum is ?",
+      "options": {
+        "A": "Snail",
+        "B": "Fresh-water fish",
+        "C": "Copepod",
+        "D": "Salt-water fish"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A snail is not part of D. latum's cycle; snails serve as intermediate hosts for trematodes such as Fasciola, not for this cestode.",
+        "B": "Correct. Fresh-water fish is Diphyllobothrium latum's second intermediate host, in which the procercoid larva carried by the ingested Cyclops develops further into the infective plerocercoid larva. Ordering the two intermediate hosts correctly -- Cyclops first, then fish -- is the key distinction this question tests.",
+        "C": "Incorrect. Copepod (Cyclops) is D. latum's first intermediate host, not its second.",
+        "D": "Incorrect. D. latum's second intermediate host is fresh-water fish, not salt-water fish."
+      },
+      "main_concept": "CON-INF-1338B6C6D91874",
+      "concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that fresh-water fish is Diphyllobothrium latum's second intermediate host, after Cyclops.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p103",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q021",
+      "page": 103,
+      "title": "Usual site of human tapeworms",
+      "question": "The usual sites for the human tapeworms ?",
+      "options": {
+        "A": "Ileum, Jejunum",
+        "B": "Gall bladder",
+        "C": "Appendix",
+        "D": "Colon"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The human intestinal tapeworms (Taenia, Hymenolepis, Diphyllobothrium, Dipylidium) live attached to the mucosa of the small intestine, in the jejunum and ileum. Locating the tapeworms correctly within the small rather than large intestine is the fact being tested here.",
+        "B": "Incorrect. The gall bladder is not the usual habitat of any of the human intestinal cestodes.",
+        "C": "Incorrect. The appendix is not the usual habitat of the intestinal cestodes, though it can occasionally be obstructed by other intestinal helminths.",
+        "D": "Incorrect. The colon (large intestine) is not the usual site; the human tapeworms inhabit the small intestine."
+      },
+      "main_concept": "CON-INF-FAFE8DFDDE6E1D",
+      "concept_ids": [
+        "CON-INF-FAFE8DFDDE6E1D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "General cestode biology",
+      "learning_objective": "State that the human intestinal tapeworms are usually found in the jejunum and ileum of the small intestine.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > General cestode biology",
+      "source_citation": "INI MCQ .pdf, Cestode, p103",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q022",
+      "page": 103,
+      "title": "All intestinal cestodes inhabit",
+      "question": "All the intestinal Cestodes of man inhabit ?",
+      "options": {
+        "A": "Small intestine",
+        "B": "Large intestine",
+        "C": "Small and large intestines",
+        "D": "Rectosigmoid region"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. All of man's intestinal cestodes -- Taenia saginata, Taenia solium, Hymenolepis nana, Hymenolepis diminuta, Diphyllobothrium latum and Dipylidium caninum -- inhabit the small intestine. This generalisation applies across every intestinal cestode species covered in this chapter.",
+        "B": "Incorrect. None of man's intestinal cestodes inhabit the large intestine; they are all small-intestinal parasites.",
+        "C": "Incorrect. The intestinal cestodes are confined to the small intestine, not distributed across both small and large intestines.",
+        "D": "Incorrect. The rectosigmoid region is not the habitat of the intestinal cestodes."
+      },
+      "main_concept": "CON-INF-FAFE8DFDDE6E1D",
+      "concept_ids": [
+        "CON-INF-FAFE8DFDDE6E1D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "General cestode biology",
+      "learning_objective": "State that all of man's intestinal cestodes inhabit the small intestine.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > General cestode biology",
+      "source_citation": "INI MCQ .pdf, Cestode, p103",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q023",
+      "hold": "printed key (A, \"Diphyllobothrium latum\") is doubtful against the stem's own wording, \"the ONLY larval host\": D. latum needs Cyclops AND a second, fish, intermediate host to become infective, so Cyclops is not its only larval host, whereas Dracunculus medinensis (Guinea worm, option C) truly needs no second intermediate host -- man is infected directly by ingesting Cyclops carrying the infective L3 larva -- making C the better fit for \"only\" larval host; held rather than resolved by inference, since the source's own intent for this EXCEPT-less \"only\" wording is not certain"
+    },
+    {
+      "key": "ini-mcq-ch10-q024",
+      "page": 103,
+      "title": "Cyclops as intermediate host of",
+      "question": "Cyclops acts as intermediate host of ?",
+      "options": {
+        "A": "Dracunculus medinensis",
+        "B": "Diphyllobothrium latum",
+        "C": "Diphyllobothrium mansoni",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect alone (true but partial). Cyclops is indeed an intermediate host of Dracunculus medinensis, but this is only one of three jointly true statements the key combines.",
+        "B": "Incorrect alone (true but partial). Cyclops is indeed the first intermediate host of Diphyllobothrium latum, but this is only one of three jointly true statements.",
+        "C": "Incorrect alone (true but partial). Cyclops is indeed an intermediate host of Diphyllobothrium mansoni, but this is only one of three jointly true statements.",
+        "D": "Correct. Cyclops acts as an intermediate host for all three: Dracunculus medinensis (its sole intermediate host), Diphyllobothrium latum (its first intermediate host, before fish) and Diphyllobothrium mansoni (its first intermediate host, before a second vertebrate host) -- since all three statements are true, \"All of the above\" is correct. Recognising Cyclops's shared role across these otherwise unrelated parasites is the point of this combined question."
+      },
+      "main_concept": "CON-INF-1338B6C6D91874",
+      "concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that Cyclops acts as an intermediate host for Dracunculus medinensis, Diphyllobothrium latum and Diphyllobothrium mansoni.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p103",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q025",
+      "page": 104,
+      "title": "Pig as infection source, except",
+      "question": "Pig is source of infection for the following parasites EXCEPT ?",
+      "options": {
+        "A": "Taenia solium",
+        "B": "Taenia saginata",
+        "C": "Trichinella spiralis",
+        "D": "Balantidium coli"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect as the EXCEPT answer. Taenia solium is indeed acquired from pigs (undercooked pork containing cysticercus cellulosae), so it belongs with the pig-sourced group.",
+        "B": "Correct. Taenia saginata's source is cattle, not the pig -- unlike Taenia solium, Trichinella spiralis and Balantidium coli, all of which man can acquire from pigs. Distinguishing T. saginata's cattle source from the pig-borne parasites in this list is exactly what the EXCEPT wording tests.",
+        "C": "Incorrect as the EXCEPT answer. Trichinella spiralis is indeed acquired from pigs (undercooked pork containing encysted larvae), so it belongs with the pig-sourced group.",
+        "D": "Incorrect as the EXCEPT answer. Balantidium coli, with the pig as its reservoir host, is indeed acquired from pigs, so it belongs with the pig-sourced group."
+      },
+      "main_concept": "CON-INF-75A2A7934657F3",
+      "concept_ids": [
+        "CON-INF-75A2A7934657F3"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Platyhelminth host biology",
+      "learning_objective": "State that pig is a source of infection for Taenia solium, Trichinella spiralis and Balantidium coli, but not for Taenia saginata, whose source is cattle.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Platyhelminth host biology",
+      "source_citation": "INI MCQ .pdf, Cestode, p104",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q026",
+      "page": 104,
+      "title": "Pseudophyllidean cestode",
+      "question": "Which of the following is a pseudophyllidean cestode ?",
+      "options": {
+        "A": "T. solium",
+        "B": "T. saginata",
+        "C": "H. nana",
+        "D": "Diphyllobothrium latum"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Taenia solium belongs to the order Cyclophyllidea, not Pseudophyllidea.",
+        "B": "Incorrect. Taenia saginata belongs to the order Cyclophyllidea, not Pseudophyllidea.",
+        "C": "Incorrect. Hymenolepis nana belongs to the order Cyclophyllidea, not Pseudophyllidea.",
+        "D": "Correct. Diphyllobothrium latum belongs to the order Pseudophyllidea, distinguished by bothria (attachment grooves) instead of the sucker-bearing scolex of cyclophyllidean cestodes, and by its operculated egg. Recognising the order-level classification, rather than only species-level facts, is what distinguishes this question from the others in the chapter."
+      },
+      "main_concept": "CON-INF-1338B6C6D91874",
+      "concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that Diphyllobothrium latum, unlike Taenia solium, Taenia saginata or Hymenolepis nana, belongs to the order Pseudophyllidea.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p104",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q027",
+      "page": 104,
+      "title": "Most frequent hydatid cyst site",
+      "question": "Hydatid cyst can be found in several organs but are most frequent in the ?",
+      "options": {
+        "A": "Liver",
+        "B": "Lung",
+        "C": "Brain",
+        "D": "Bone"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The liver is the most frequent site of hydatid cyst formation, since it is the first capillary filter the oncosphere reaches after penetrating the gut wall and entering the portal circulation. Knowing this ranking helps explain why liver imaging is central to hydatid disease work-up.",
+        "B": "Incorrect. The lung is the second most frequent site, after any oncospheres that pass through the liver reach the systemic (then pulmonary) circulation, but it is not the most frequent site overall.",
+        "C": "Incorrect. The brain is an uncommon hydatid cyst site, well behind the liver and lung.",
+        "D": "Incorrect. Bone is an uncommon hydatid cyst site, well behind the liver and lung."
+      },
+      "main_concept": "CON-INF-C5335C8176B1C6",
+      "concept_ids": [
+        "CON-INF-C5335C8176B1C6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that the liver is the most frequent site of hydatid cyst formation, followed by the lung.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p104",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q028",
+      "hold": "duplicate-of ini-mcq-ch10-q011 -- near-verbatim restatement of \"Cysticercus cellulosae is the infective stage of T. solium\" (same fact and key A, differing only in the fourth distractor option, Diphyllobothrium latum here vs. Hymenolepis diminuta in Q11)"
+    },
+    {
+      "key": "ini-mcq-ch10-q029",
+      "hold": "duplicate-of ini-mcq-ch10-q009 -- near-verbatim restatement of \"Cysticercus bovis is the infective stage of T. saginata\" (same fact and correct content, T. saginata, differing only in option lettering/order and the fourth distractor, Diphyllobothrium latum here vs. Dipylidium caninum in Q9)"
+    },
+    {
+      "key": "ini-mcq-ch10-q032",
+      "page": 104,
+      "title": "Head of tapeworm",
+      "question": "The head of tape worm is called ?",
+      "options": {
+        "A": "Proglottid",
+        "B": "Cysticercus",
+        "C": "Scolex",
+        "D": "Apex"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. A proglottid is one of the segments that make up the tapeworm's body, not its head.",
+        "B": "Incorrect. Cysticercus is a larval bladder-worm stage found in an intermediate host, not the adult worm's head.",
+        "C": "Correct. The scolex is the tapeworm's head, the organ of attachment bearing suckers (and, in some species, hooks) that anchors the worm to the intestinal mucosa. Confusing the scolex with the proglottid, the segment rather than the head, is a common error this question guards against.",
+        "D": "Incorrect. \"Apex\" is not the anatomical term used for the tapeworm's head."
+      },
+      "main_concept": "CON-INF-FAFE8DFDDE6E1D",
+      "concept_ids": [
+        "CON-INF-FAFE8DFDDE6E1D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "General cestode biology",
+      "learning_objective": "Name the scolex as the tapeworm's head, the organ of attachment.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > General cestode biology",
+      "source_citation": "INI MCQ .pdf, Cestode, p104",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q033",
+      "page": 104,
+      "title": "Cause of hydatid disease",
+      "question": "Hydatid disease is caused by ?",
+      "options": {
+        "A": "H. nana",
+        "B": "T. solium",
+        "C": "T. saginata",
+        "D": "Ecchinococcus granulosa"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Hymenolepis nana causes hymenolepiasis, not hydatid disease.",
+        "B": "Incorrect. Taenia solium causes taeniasis and cysticercosis, not hydatid disease.",
+        "C": "Incorrect. Taenia saginata causes taeniasis, not hydatid disease.",
+        "D": "Correct. Hydatid disease is caused by Echinococcus granulosus, whose larval stage forms the hydatid cyst in human tissue (most often the liver) when man accidentally ingests the parasite's eggs. Naming Echinococcus granulosus correctly, rather than any of the intestinal Taenia or Hymenolepis species, is the point being tested."
+      },
+      "main_concept": "CON-INF-C5335C8176B1C6",
+      "concept_ids": [
+        "CON-INF-C5335C8176B1C6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that hydatid disease is caused by Echinococcus granulosus.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p104",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q034",
+      "page": 104,
+      "title": "Cestodes are",
+      "question": "The cestodes are ?",
+      "options": {
+        "A": "Leaf-shaped worms",
+        "B": "Segmented worms",
+        "C": "With separate sex",
+        "D": "Rounded worms"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Leaf-shaped describes the trematodes (flukes), not the cestodes.",
+        "B": "Correct. Cestodes are segmented worms, their body divided into a scolex followed by a chain of proglottid segments -- the defining body plan that separates them from the trematodes and nematodes. This body-plan fact is the anchor for telling cestodes apart from the other two helminth groups on sight.",
+        "C": "Incorrect. Cestodes are hermaphroditic (each proglottid carries both male and female reproductive organs), not of separate sex.",
+        "D": "Incorrect. Rounded (cylindrical) describes the nematodes, not the cestodes."
+      },
+      "main_concept": "CON-INF-FAFE8DFDDE6E1D",
+      "concept_ids": [
+        "CON-INF-FAFE8DFDDE6E1D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "General cestode biology",
+      "learning_objective": "State that cestodes are segmented, hermaphroditic worms, unlike the leaf-shaped trematodes or the rounded nematodes.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > General cestode biology",
+      "source_citation": "INI MCQ .pdf, Cestode, p104",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q035",
+      "page": 105,
+      "title": "D. latum reservoir host",
+      "question": "Fish eating mammals ( dogs ) are the Reservoir host of which of the following cestodes ?",
+      "options": {
+        "A": "H. nana",
+        "B": "Echinococcus granulosa",
+        "C": "Diphyllobothrium latum",
+        "D": "T. saginata"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Hymenolepis nana's reservoir considerations relate to rodents, not fish-eating mammals; it is not defined by a fish-borne reservoir cycle.",
+        "B": "Incorrect. Echinococcus granulosus's reservoir cycle involves dogs as definitive host and herbivores (sheep) as intermediate host, not fish-eating mammals as reservoirs of a fish-borne infection.",
+        "C": "Correct. Diphyllobothrium latum's reservoir hosts include fish-eating mammals such as dogs, cats and bears, which become infected the same way man does, by eating fresh-water fish containing the plerocercoid larva. Recognising dogs specifically as reservoir, rather than definitive, hosts in this fish-borne cycle is the nuance being tested.",
+        "D": "Incorrect. Taenia saginata has no fish-borne reservoir cycle; its intermediate host is cattle."
+      },
+      "main_concept": "CON-INF-1338B6C6D91874",
+      "concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that fish-eating mammals such as dogs act as reservoir hosts for Diphyllobothrium latum.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q036",
+      "page": 105,
+      "title": "Man as intermediate host in",
+      "question": "Man can act as I.H in ?",
+      "options": {
+        "A": "T. solium",
+        "B": "T. saginata",
+        "C": "H. nana",
+        "D": "Diphyllobothrium latum",
+        "E": "Both a&c"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect alone (true but partial). Man can indeed act as Taenia solium's intermediate host, developing cysticercosis, but this is only one of two jointly true statements the key combines.",
+        "B": "Incorrect. Man cannot act as Taenia saginata's intermediate host at all -- ingesting its eggs produces no infection.",
+        "C": "Incorrect alone (true but partial). Man can indeed act as Hymenolepis nana's intermediate host, via its own cysticercoid larval stage developing in the same host's intestinal villus, but this is only one of two jointly true statements.",
+        "D": "Incorrect. Man is Diphyllobothrium latum's definitive host, never its intermediate host.",
+        "E": "Correct. Man can act as intermediate host for both Taenia solium (developing cysticercosis in tissue) and Hymenolepis nana (via its cysticercoid larval stage within the intestine) -- but not for Taenia saginata or Diphyllobothrium latum -- so \"both a & c\" is the correct combined answer. Correctly excluding T. saginata and D. latum from this combined answer, and not just naming one of the two correct options alone, is what the question is testing."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [
+        "CON-GIT-2FCF45AE17574F"
+      ],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that man can act as intermediate host for both Taenia solium and Hymenolepis nana, but not for Taenia saginata or Diphyllobothrium latum.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q038",
+      "page": 105,
+      "title": "T. saginata intermediate host",
+      "question": "The I.H of T. saginata is ?",
+      "options": {
+        "A": "Cattles",
+        "B": "Sheep",
+        "C": "Dogs",
+        "D": "Pig"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cattle is Taenia saginata's intermediate host, in which its egg develops into the infective cysticercus bovis larva. Keeping cattle distinct from the pig used by T. solium is the key distinction this question tests.",
+        "B": "Incorrect. Sheep is not T. saginata's intermediate host; sheep serves parasites such as Echinococcus granulosus and Multiceps multiceps instead.",
+        "C": "Incorrect. The dog is a definitive host for other cestodes (such as Echinococcus granulosus), not an intermediate host for T. saginata.",
+        "D": "Incorrect. Pig is the intermediate host of the related species Taenia solium, not Taenia saginata."
+      },
+      "main_concept": "CON-INF-DA646E39A54407",
+      "concept_ids": [
+        "CON-INF-DA646E39A54407"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that cattle is Taenia saginata's intermediate host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q039",
+      "page": 105,
+      "title": "T. solium intermediate host",
+      "question": "The intermediate host of T. solium is ?",
+      "options": {
+        "A": "Cattles",
+        "B": "Sheep",
+        "C": "Dogs",
+        "D": "Pig"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Cattle is Taenia saginata's intermediate host, not Taenia solium's.",
+        "B": "Incorrect. Sheep serves other cestodes, such as Echinococcus granulosus, not Taenia solium.",
+        "C": "Incorrect. The dog is a definitive host for other cestodes, not an intermediate host for T. solium.",
+        "D": "Correct. Pig is Taenia solium's intermediate host, in which its egg develops into the infective cysticercus cellulosae larva. Keeping the pig distinct from the cattle used by T. saginata is the key distinction this question tests."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that pig is Taenia solium's intermediate host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q041",
+      "page": 105,
+      "title": "T. solium infective stage",
+      "question": "The infective stage of T. solium is ?",
+      "options": {
+        "A": "Cysticercous bovis",
+        "B": "Cysticecous cellulosa",
+        "C": "Eggs of T. solium in pig excreta",
+        "D": "Cysticercoid"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cysticercus bovis is Taenia saginata's infective larva (found in beef), not Taenia solium's.",
+        "B": "Correct. Cysticercus cellulosae, the larva that develops in pig muscle, is Taenia solium's stage infective to man for taeniasis, acquired by eating undercooked pork. Distinguishing this pork-derived larva from T. saginata's beef-derived cysticercus bovis is the point being tested.",
+        "C": "Incorrect. Eggs are shed in human, not pig, excreta, and are what causes cysticercosis (not taeniasis) when ingested directly by man.",
+        "D": "Incorrect. A cysticercoid is the larval form found in arthropod intermediate hosts, not in T. solium's pig intermediate host."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that cysticercus cellulosae, in undercooked pork, is Taenia solium's stage infective for taeniasis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q042",
+      "page": 105,
+      "title": "T. solium mode of transmission",
+      "question": "Mode of transmission of T.solium by ?",
+      "options": {
+        "A": "Ingestion of undercooked beef containing cysticercous cellulosa",
+        "B": "Ingestion of undercooked pork containing cysticercous cellulosa",
+        "C": "Ingestion of undercooked beef containing cysticercous bovis",
+        "D": "Ingestion of undercooked pork containing cysticercous bovis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cysticercus cellulosae develops in pork, not beef.",
+        "B": "Correct. Taenia solium is transmitted by eating undercooked pork containing cysticercus cellulosae, the larval stage that develops in pigs after they ingest T. solium eggs.",
+        "C": "Incorrect. Cysticercus bovis is Taenia saginata's larva (in beef), not T. solium's.",
+        "D": "Incorrect. Cysticercus bovis develops in cattle (beef), not pigs (pork), and belongs to T. saginata, not T. solium."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that Taenia solium is transmitted by eating undercooked pork containing cysticercus cellulosae.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q045",
+      "page": 106,
+      "title": "Cyclops as first intermediate host",
+      "question": "Cyclops is the first I.H of ?",
+      "options": {
+        "A": "H. nana",
+        "B": "Diphyllobothrium latum",
+        "C": "T. saginata",
+        "D": "T. solium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hymenolepis nana needs no intermediate host at all.",
+        "B": "Correct. Cyclops is Diphyllobothrium latum's first intermediate host, in which the coracidium develops into the procercoid larva before a fish, the second intermediate host, is needed. Recognising Cyclops's role as specifically the first, not the only, intermediate host reinforces the two-host nature of this cycle.",
+        "C": "Incorrect. Taenia saginata's only intermediate host is cattle, not Cyclops.",
+        "D": "Incorrect. Taenia solium's only intermediate host is the pig, not Cyclops."
+      },
+      "main_concept": "CON-INF-1338B6C6D91874",
+      "concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that Cyclops is Diphyllobothrium latum's first intermediate host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q046",
+      "page": 106,
+      "title": "Man's role in tissue cestode infection",
+      "question": "In tissue cestode man act as ?",
+      "options": {
+        "A": "Definitive host",
+        "B": "Reservoir host",
+        "C": "Accidental host",
+        "D": "Intermediate host"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. In the tissue (larval) cestode infections -- hydatid disease, cysticercosis, coenurosis, sparganosis -- man never harbours the adult worm, so he is not a definitive host.",
+        "B": "Incorrect. \"Reservoir host\" describes an animal that maintains a parasite's transmission cycle alongside the usual host, not man's own role when he himself develops tissue disease.",
+        "C": "Incorrect as the best answer. Man is indeed accidental to these cycles, but the standard technical category for the host role in which the larval stage develops is \"intermediate host,\" of which man's role is the accidental instance.",
+        "D": "Correct. In tissue cestode infections, man harbours the larval stage in his own tissue, the defining role of an intermediate host -- an accidental, dead-end one, since he is not normally eaten by the parasite's definitive host. This terminology choice reflects where the larval stage develops, in man's own tissue, rather than any accidental circumstance alone."
+      },
+      "main_concept": "CON-INF-C5335C8176B1C6",
+      "concept_ids": [
+        "CON-INF-C5335C8176B1C6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that man acts as an (accidental) intermediate host in tissue cestode infections such as hydatid disease and cysticercosis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q047",
+      "page": 106,
+      "title": "D. latum egg hatching",
+      "question": "When egg of diphyllobothrium Latium hatch it releases ?",
+      "options": {
+        "A": "Coracidium larva",
+        "B": "Procercoid larva",
+        "C": "Pleocercoid larva",
+        "D": "Miracidium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. When Diphyllobothrium latum's egg hatches in water, it releases a free-swimming, ciliated coracidium larva, the first larval stage, which must then be ingested by Cyclops to continue the cycle. Getting the larval sequence's starting point right sets up the rest of the coracidium-procercoid-plerocercoid chain correctly.",
+        "B": "Incorrect. The procercoid is the next larval stage, which develops inside Cyclops after the coracidium is ingested -- it is not what the egg itself releases.",
+        "C": "Incorrect. The plerocercoid is the final larval stage, developing in fish -- it is not what the egg itself releases.",
+        "D": "Incorrect. A miracidium is the free-swimming larva released from a trematode (fluke) egg, such as Fasciola's or Schistosoma's, not from a cestode egg."
+      },
+      "main_concept": "CON-INF-1338B6C6D91874",
+      "concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that Diphyllobothrium latum's egg hatches to release a coracidium larva.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q049",
+      "page": 106,
+      "title": "Hydatid cyst infection route",
+      "question": "We take infection with hydatid cyst by ?",
+      "options": {
+        "A": "Eating cyst in raw meat",
+        "B": "Eating eggs in vegetables",
+        "C": "Eating cyst in pork",
+        "D": "Penetration of the skin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Man is infected by ingesting the parasite's eggs, not by eating an already-formed hydatid cyst.",
+        "B": "Correct. Man becomes infected with Echinococcus granulosus, and develops a hydatid cyst, by ingesting the parasite's eggs -- shed in dog faeces and contaminating food such as vegetables or water -- not by eating any larval or cystic form. This egg-based route, rather than any meat-eating route, is what makes hydatid disease preventable through hand hygiene and food safety around dog faeces.",
+        "C": "Incorrect. Man is infected by ingesting eggs, not by eating a cyst, and pork plays no role in E. granulosus transmission.",
+        "D": "Incorrect. Skin penetration is not E. granulosus's route of infection; that route belongs to parasites such as hookworms or Schistosoma cercariae."
+      },
+      "main_concept": "CON-INF-C5335C8176B1C6",
+      "concept_ids": [
+        "CON-INF-C5335C8176B1C6"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that man is infected with Echinococcus granulosus, and develops a hydatid cyst, by ingesting its eggs, not by eating a cyst.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q050",
+      "page": 106,
+      "title": "Man as both IH and DH",
+      "question": "Man act as I.H & D.H in which of the following ?",
+      "options": {
+        "A": "Echinococcus granulosa",
+        "B": "Diphyllobothrium latum",
+        "C": "T. saginata",
+        "D": "T. solium"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Man is only ever an accidental intermediate host for Echinococcus granulosus, never its definitive host.",
+        "B": "Incorrect. Man is only Diphyllobothrium latum's definitive host, never its intermediate host.",
+        "C": "Incorrect. Man is only Taenia saginata's definitive host; he cannot act as its intermediate host at all.",
+        "D": "Correct. Man can act as both intermediate host (developing cysticercosis from ingested eggs) and definitive host (developing taeniasis from eating cysticercus cellulosae in pork) for Taenia solium -- a dual role unique among the cestodes covered in this chapter. No other cestode in this chapter shares T. solium's ability to complete both host roles in a single person."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that man can act as both intermediate and definitive host for Taenia solium.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q051",
+      "page": 106,
+      "title": "Man as blind intermediate host",
+      "question": "Man act as blind I.H in ?",
+      "options": {
+        "A": "Echinococcus granulosa",
+        "B": "Diphyllobothrium latum",
+        "C": "T. saginata",
+        "D": "T. solium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Man acts as a \"blind\" (dead-end) intermediate host for Echinococcus granulosus: the hydatid cyst that forms in his tissue is not naturally eaten by the dog definitive host, so the parasite's cycle cannot continue from man onward. This dead-end relationship is what separates E. granulosus's use of man from a genuine, transmission-sustaining intermediate host role.",
+        "B": "Incorrect. Man is Diphyllobothrium latum's definitive host, not any kind of intermediate host.",
+        "C": "Incorrect. Man cannot act as an intermediate host for Taenia saginata at all.",
+        "D": "Incorrect. Man is a genuine (not dead-end) intermediate host for Taenia solium in the sense that his own tissue cysts can, in principle, be a source of further transmission if eaten; \"blind\" intermediate host specifically describes E. granulosus's dead-end relationship with man."
+      },
+      "main_concept": "CON-INF-C5335C8176B1C6",
+      "concept_ids": [
+        "CON-INF-C5335C8176B1C6"
+      ],
+      "contextual_concept_ids": [
+        "CON-GIT-B48F10E9444B70"
+      ],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that man acts as a blind (dead-end) intermediate host for Echinococcus granulosus.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q052",
+      "page": 107,
+      "title": "T. solium infection route",
+      "question": "The infection of T. Solium occurs through ?",
+      "options": {
+        "A": "Eating raw pork",
+        "B": "Eating raw vegetables",
+        "C": "Eating raw beef",
+        "D": "Ingestion of eggs"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Man acquires Taenia solium infection (taeniasis, the adult worm) by eating raw or undercooked pork containing cysticercus cellulosae. Distinguishing this pork-borne taeniasis route from the egg-borne cysticercosis route is the nuance being tested.",
+        "B": "Incorrect. Raw vegetables are a route for ingesting T. solium eggs (causing cysticercosis), not for acquiring the adult worm.",
+        "C": "Incorrect. Raw beef transmits Taenia saginata (cysticercus bovis), not Taenia solium.",
+        "D": "Incorrect. Ingesting T. solium eggs causes cysticercosis, a different disease from the taeniasis that eating pork produces."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that eating raw or undercooked pork is how man acquires Taenia solium taeniasis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p107",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q053",
+      "page": 107,
+      "title": "Sparganosis definition",
+      "question": "Sparganosis is ?",
+      "options": {
+        "A": "The infection of human tissue by plerocercoid larva of Diphyllobothrium latum",
+        "B": "The infection of human tissue by plerocercoid larva of Diphyllobothrium mansoni",
+        "C": "The infection of human tissue by adult worm of Diphyllobothrium mansoni",
+        "D": "The infection of human tissue by adult worm of Diphyllobothrium latum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Diphyllobothrium latum's plerocercoid larva, when eaten in fish, causes an ordinary intestinal infection (the adult worm develops in the gut), not sparganosis.",
+        "B": "Correct. Sparganosis is the infection of human tissue specifically by the plerocercoid larva (sparganum) of Diphyllobothrium mansoni, a related but distinct species. Correctly naming both the larval stage and the specific species distinguishes sparganosis from D. latum's ordinary intestinal infection.",
+        "C": "Incorrect. Sparganosis is caused by the larval (plerocercoid) form, not the adult worm.",
+        "D": "Incorrect. Sparganosis is caused by Diphyllobothrium mansoni, not Diphyllobothrium latum, and by the larval form, not the adult worm."
+      },
+      "main_concept": "CON-INF-77A8EED2BAE029",
+      "concept_ids": [
+        "CON-INF-77A8EED2BAE029"
+      ],
+      "contextual_concept_ids": [
+        "CON-INF-1338B6C6D91874"
+      ],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium mansoni",
+      "learning_objective": "State that sparganosis is tissue infection by the plerocercoid larva of Diphyllobothrium mansoni, distinct from Diphyllobothrium latum's intestinal infection.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium mansoni",
+      "source_citation": "INI MCQ .pdf, Cestode, p107",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    },
+    {
+      "key": "ini-mcq-ch10-q054",
+      "page": 107,
+      "title": "Taeniasis solium production",
+      "question": "Taeniasis solium is produced after ingestion of the ?",
+      "options": {
+        "A": "Cysticercoid larvae",
+        "B": "Cysticercus cellulosae",
+        "C": "Cysticercus bovis",
+        "D": "Taenia egg",
+        "E": "None of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A cysticercoid is the larval form found in arthropod intermediate hosts, not in T. solium's pig intermediate host.",
+        "B": "Correct. Taeniasis solium (the adult intestinal worm) is produced after man ingests cysticercus cellulosae, the larva found in undercooked pork. This pork-borne larval route, rather than direct egg ingestion, is what distinguishes taeniasis from cysticercosis.",
+        "C": "Incorrect. Cysticercus bovis is Taenia saginata's larva (in beef), not Taenia solium's.",
+        "D": "Incorrect. Ingesting the Taenia egg causes cysticercosis (tissue disease), not taeniasis (the adult intestinal worm).",
+        "E": "Incorrect. Option B, cysticercus cellulosae, is correct, so \"none of the above\" does not apply."
+      },
+      "main_concept": "CON-INF-90E657F6924BD0",
+      "concept_ids": [
+        "CON-INF-90E657F6924BD0"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that Taenia solium taeniasis is produced after ingesting cysticercus cellulosae in undercooked pork.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p107",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": ""
+    }
+  ]
+}

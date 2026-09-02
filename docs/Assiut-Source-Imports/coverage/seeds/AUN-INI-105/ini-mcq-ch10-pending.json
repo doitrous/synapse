@@ -1,0 +1,645 @@
+{
+  "lane": "AUN-INI-105",
+  "cluster": "ini-mcq-ch10",
+  "header": "AUN-INI-105 -- pending-live overlay questions, Chapter 10 \"Cestode\" triage (coverage/AUN-INI-105-triage.md), 16 questions reusing pending Helwan HU-GIT-301 parasitology concepts. Omar applies this batch only after the Helwan HU-GIT-301 concept batch, then pending-live/AUN-INI-105-ch10-helwangit-overlay-concepts.md, then this file.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "aun"
+    ],
+    "years": [
+      "AUN_Y1"
+    ],
+    "module": "AUN-INI-105",
+    "exam_weight_by_year": {
+      "AUN_Y1": "high"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_6f2f4188bb0cbf848733"
+    ],
+    "setting": "Academic",
+    "estimated_seconds": 50,
+    "randomise_answers": true,
+    "difficulty": "Easy",
+    "question_type": "Recall",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1
+  },
+  "questions": [
+    {
+      "key": "ini-mcq-ch10-q006",
+      "page": 101,
+      "title": "Why Hymenolepis nana is the commonest cestode",
+      "question": "Hymenolepis nana is the commonest cestode because of ?",
+      "options": {
+        "A": "Eggs pass immature",
+        "B": "Auto infection",
+        "C": "inhabits the large intestine",
+        "D": "The smallest tapeworm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hymenolepis nana's eggs are passed mature and directly infective, not immature -- this is part of what allows the direct life cycle, but it is not itself the reason the species is the commonest cestode.",
+        "B": "Correct. Hymenolepis nana's capacity for autoinfection -- the egg hatching and re-infecting the same host internally, without ever leaving the body -- lets a single infected person build up very heavy worm burdens and sustain transmission easily, making it the commonest cestode infection, especially in children. This is why H. nana infection, unlike the other cestodes in this chapter, can persist and intensify within a single untreated host.",
+        "C": "Incorrect. Hymenolepis nana inhabits the small intestine, not the large intestine, like the other intestinal cestodes of man.",
+        "D": "Incorrect. Being the smallest intestinal tapeworm is a true but separate fact about H. nana; small size is not what drives its high prevalence, autoinfection is."
+      },
+      "main_concept": "CON-GIT-2FCF45AE17574F",
+      "concept_ids": [
+        "CON-GIT-2FCF45AE17574F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Hymenolepis nana",
+      "learning_objective": "State that Hymenolepis nana's autoinfection capability, not its egg maturity, intestinal site or size, makes it the commonest cestode infection.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Hymenolepis nana",
+      "source_citation": "INI MCQ .pdf, Cestode, p101",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-2FCF45AE17574F (hymenolepis-nana.direct-life-cycle-autoinfection-and-cysticercoid-larva) via overlay -- see pending-live/AUN-INI-105-ch10-helwangit-overlay-concepts.md. This question and its +aun overlay apply only after that Helwan batch is live.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q006"
+    },
+    {
+      "key": "ini-mcq-ch10-q008",
+      "page": 101,
+      "title": "Egg as infective stage",
+      "question": "Egg is the infective Stage of ?",
+      "options": {
+        "A": "Hymenolepis nana",
+        "B": "Hymenolepis diminuta",
+        "C": "Dipylidium Caninum",
+        "D": "Taenia Saginata"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hymenolepis nana is unique among these cestodes in that its egg is directly infective when ingested -- no obligatory intermediate host is required, since the egg can hatch and develop straight into the cysticercoid larva within the same host's intestinal villus. This directly-infective-egg property is what lets Hymenolepis nana complete its entire life cycle within a single host.",
+        "B": "Incorrect. Hymenolepis diminuta requires an arthropod (grain beetle or flea) intermediate host; its egg alone is not the infective stage for the definitive host.",
+        "C": "Incorrect. Dipylidium caninum requires a flea intermediate host, in which its egg develops into the infective cysticercoid larva; the egg alone is not infective.",
+        "D": "Incorrect. Taenia saginata requires a bovine intermediate host; its infective stage for man is the larval cysticercus bovis in beef, not the egg."
+      },
+      "main_concept": "CON-GIT-2FCF45AE17574F",
+      "concept_ids": [
+        "CON-GIT-2FCF45AE17574F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Hymenolepis nana",
+      "learning_objective": "State that Hymenolepis nana's egg, unlike those of Hymenolepis diminuta, Dipylidium caninum or Taenia saginata, is directly infective without an intermediate host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Hymenolepis nana",
+      "source_citation": "INI MCQ .pdf, Cestode, p101",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-2FCF45AE17574F via overlay, same as Q6.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q008"
+    },
+    {
+      "key": "ini-mcq-ch10-q009",
+      "page": 102,
+      "title": "Cysticercus bovis infective stage",
+      "question": "Cysticercus bovis is the infective Stage of ?",
+      "options": {
+        "A": "Dipylidium Caninum",
+        "B": "Hymenolepis diminuta",
+        "C": "Hymenolepis nana",
+        "D": "Taenia Saginata"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dipylidium caninum's infective larval stage is the cysticercoid, found in its flea intermediate host, not cysticercus bovis.",
+        "B": "Incorrect. Hymenolepis diminuta's infective larval stage is also a cysticercoid, found in its arthropod intermediate host, not cysticercus bovis.",
+        "C": "Incorrect. Hymenolepis nana does not need an intermediate host at all; its egg is directly infective, so cysticercus bovis, a vertebrate-host larva, is irrelevant to it.",
+        "D": "Correct. Cysticercus bovis is the larval bladder-worm stage of Taenia saginata that develops in cattle muscle after cattle ingest T. saginata eggs; man becomes infected, and develops the adult worm, by eating undercooked beef containing this larva."
+      },
+      "main_concept": "CON-GIT-1A541E03119F0D",
+      "concept_ids": [
+        "CON-GIT-1A541E03119F0D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that cysticercus bovis, found in undercooked beef, is the infective larval stage of Taenia saginata.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-1A541E03119F0D (taenia-saginata.cysticercus-bovis-in-cattle-meat) via overlay.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q009"
+    },
+    {
+      "key": "ini-mcq-ch10-q013",
+      "page": 102,
+      "title": "Ingesting T. solium eggs",
+      "question": "Ingestion Of eggs of Taenia Solium results in ?",
+      "options": {
+        "A": "Cysticercosis",
+        "B": "Coenurus Cyst",
+        "C": "Sparganosis",
+        "D": "None of the above"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Ingesting Taenia solium eggs -- from another person's stool or, through autoinfection, from the patient's own intestine -- lets the released oncosphere invade human tissue and form cysticercus cellulosae larvae there, the disease called cysticercosis. This same egg-ingestion route, whether from another person or through the patient's own autoinfection, is what makes T. solium uniquely able to cause tissue disease in man.",
+        "B": "Incorrect. A coenurus cyst is the larva of Multiceps multiceps, not Taenia solium.",
+        "C": "Incorrect. Sparganosis is caused by the plerocercoid larva of Diphyllobothrium mansoni, unrelated to Taenia solium eggs.",
+        "D": "Incorrect. Option A, cysticercosis, is correct, so \"none of the above\" does not apply."
+      },
+      "main_concept": "CON-GIT-D1B1B1D6039555",
+      "concept_ids": [
+        "CON-GIT-D1B1B1D6039555"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that ingesting Taenia solium eggs causes cysticercosis, the tissue larval disease, in man.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-D1B1B1D6039555 (taenia-solium.cysticercosis-via-autoinfection) via overlay.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q013"
+    },
+    {
+      "key": "ini-mcq-ch10-q014",
+      "page": 102,
+      "title": "Only operculated cestode egg",
+      "question": "The only operculated egg in cestoda belongs to ?",
+      "options": {
+        "A": "Taenia solium",
+        "B": "Hymenolepis nana",
+        "C": "Hymenolepis diminuta",
+        "D": "Diphyllobothrium latum"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Taenia solium's egg is a thick-shelled, radially striated egg, not an operculated one.",
+        "B": "Incorrect. Hymenolepis nana's egg is thin-shelled and carries polar filaments, not an operculum.",
+        "C": "Incorrect. Hymenolepis diminuta's egg resembles H. nana's in lacking an operculum, differing mainly in size.",
+        "D": "Correct. Diphyllobothrium latum lays the only operculated egg among the cestodes -- a lid-bearing egg structurally resembling a trematode egg, unlike every other cestode egg in this chapter, which lacks an operculum. This operculated-egg feature reflects D. latum's placement in the pseudophyllidean order, apart from the other cyclophyllidean cestodes in this chapter."
+      },
+      "main_concept": "CON-GIT-0A70FDA5910497",
+      "concept_ids": [
+        "CON-GIT-0A70FDA5910497"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that Diphyllobothrium latum lays the only operculated egg among the cestodes.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-0A70FDA5910497 (diphyllobothrium-latum.diagnosis-operculated-egg-and-b12-deficiency) via overlay.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q014"
+    },
+    {
+      "key": "ini-mcq-ch10-q016",
+      "page": 102,
+      "title": "Where autoinfection occurs",
+      "question": "Autoinfection occurs in ?",
+      "options": {
+        "A": "Taenia saginata",
+        "B": "Taenia solium",
+        "C": "Diphyllobothrium latum",
+        "D": "Hymenolepis diminuta"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Taenia saginata cannot cause autoinfection -- man is never its intermediate host, so its eggs, even from the patient's own stool, produce no tissue infection.",
+        "B": "Correct. Taenia solium can cause autoinfection: the patient's own eggs (from proglottids regurgitated into the stomach, or from faecal-oral self-contamination) are ingested and hatch, letting the oncosphere invade the same person's tissue and cause cysticercosis. This shared capacity for autoinfection is one of the few features Taenia solium has in common with Hymenolepis nana.",
+        "C": "Incorrect. Diphyllobothrium latum requires its full two-host cycle (Cyclops, then fish) and is not described as causing autoinfection.",
+        "D": "Incorrect. Hymenolepis diminuta requires an obligatory arthropod intermediate host and is not described as causing autoinfection in man (unlike Hymenolepis nana, which is)."
+      },
+      "main_concept": "CON-GIT-D1B1B1D6039555",
+      "concept_ids": [
+        "CON-GIT-D1B1B1D6039555"
+      ],
+      "contextual_concept_ids": [
+        "CON-GIT-2FCF45AE17574F"
+      ],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that Taenia solium, alongside Hymenolepis nana, is one of the cestodes capable of autoinfection.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p102",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-D1B1B1D6039555 via overlay, same fact tested by Q13.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q016"
+    },
+    {
+      "key": "ini-mcq-ch10-q018",
+      "page": 103,
+      "title": "Most common intermediate host for E. granulosus",
+      "question": "The most common intermediate host for Echinococcus granulosus is ?",
+      "options": {
+        "A": "Man",
+        "B": "Dog",
+        "C": "Fox",
+        "D": "Sheep"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Man is only an accidental, uncommon intermediate host for Echinococcus granulosus, not the most common one.",
+        "B": "Incorrect. The dog is E. granulosus's definitive host, harbouring the adult worm, not its intermediate host.",
+        "C": "Incorrect. The fox belongs to a less common, sylvatic transmission cycle, not the usual domestic one.",
+        "D": "Correct. Sheep is the most common intermediate host for Echinococcus granulosus in the usual dog-sheep transmission cycle, developing the larval hydatid cyst after ingesting eggs shed in dog faeces. Sheep's role as the usual intermediate host is what sustains the domestic dog-sheep transmission cycle of hydatid disease."
+      },
+      "main_concept": "CON-GIT-B48F10E9444B70",
+      "concept_ids": [
+        "CON-GIT-B48F10E9444B70"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that sheep is the most common intermediate host for Echinococcus granulosus.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p103",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-B48F10E9444B70 (echinococcus-granulosus.cystic-hydatid.sheep-host-hydatid-cyst-and-man-as-accidental-intermediate-host) via overlay.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q018"
+    },
+    {
+      "key": "ini-mcq-ch10-q020",
+      "page": 103,
+      "title": "Differentiating T. saginata and T. solium gravid proglottids",
+      "question": "The gravid Proglottid of Taenia saginata can be best differentiated from that Of Taenia solium by the ?",
+      "options": {
+        "A": "Number of ova within the uterus",
+        "B": "Width of the Proglottid",
+        "C": "Length of the Proglottid",
+        "D": "Number of lateral uterine branches"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The number of ova within the uterus is not the practical, countable feature used to differentiate the two species' gravid proglottids on microscopy.",
+        "B": "Incorrect. Proglottid width is not a reliable distinguishing feature between the two species.",
+        "C": "Incorrect. Proglottid length is not a reliable distinguishing feature between the two species.",
+        "D": "Correct. The number of lateral uterine branches -- roughly 15-20 in Taenia saginata versus roughly 7-13 in Taenia solium -- is the most reliable feature for differentiating the two species' gravid proglottids. This morphological criterion is the one most reliably visible on direct microscopic or radiographic examination of a passed proglottid."
+      },
+      "main_concept": "CON-GIT-C276709D1B1A64",
+      "concept_ids": [
+        "CON-GIT-C276709D1B1A64"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that the number of lateral uterine branches is the most reliable feature differentiating Taenia saginata's gravid proglottid from Taenia solium's.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p103",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-C276709D1B1A64 (taenia.solium-vs-saginata.uterine-branches-morphology-and-staining) via overlay.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q020"
+    },
+    {
+      "key": "ini-mcq-ch10-q030",
+      "page": 104,
+      "title": "Cysticercosis occurs due to ingestion of",
+      "question": "Cystisercousis occurs due to ingestion of ?",
+      "options": {
+        "A": "Food contaminated with eggs of T. solium",
+        "B": "Food contaminated with eggs of T. saginata",
+        "C": "Undercooked beef containing cysticercous bovis",
+        "D": "Undercooked beef containing cysticercous cellulose"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cysticercosis, the tissue larval disease, results from ingesting Taenia solium eggs -- via food or water contaminated with human faeces, or through the patient's own autoinfection -- not from eating any larval form. Recognising that only egg ingestion, never larval ingestion, produces cysticercosis is the core distinction this question tests.",
+        "B": "Incorrect. Ingesting Taenia saginata eggs produces no infection at all in man, since man cannot act as its intermediate host, let alone cysticercosis.",
+        "C": "Incorrect. Eating cysticercus bovis in undercooked beef gives Taenia saginata taeniasis (the adult worm), not cysticercosis, and cysticercus bovis is in any case T. saginata's larva, not T. solium's.",
+        "D": "Incorrect. Eating cysticercus cellulosae in undercooked beef is not how it is normally acquired (it is found in pork, not beef); this option also describes taeniasis by larval ingestion, not cysticercosis by egg ingestion."
+      },
+      "main_concept": "CON-GIT-D1B1B1D6039555",
+      "concept_ids": [
+        "CON-GIT-D1B1B1D6039555"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia solium",
+      "learning_objective": "State that cysticercosis results from ingesting Taenia solium eggs, not from eating any larval form.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia solium",
+      "source_citation": "INI MCQ .pdf, Cestode, p104",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-D1B1B1D6039555 via overlay, same fact tested by Q13/Q16.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q030"
+    },
+    {
+      "key": "ini-mcq-ch10-q031",
+      "page": 105,
+      "title": "T. saginata mode of transmission",
+      "question": "Mode of transmission of T. saginata is by ?",
+      "options": {
+        "A": "Ingestion of undercooked beef containing cysticercous cellulosa",
+        "B": "Ingestion of undercooked pork containing cysticercous cellulosa",
+        "C": "Ingestion of undercooked beef containing cysticercous bovis",
+        "D": "Ingestion of undercooked pork containing cysticercous bovis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cysticercus cellulosae is Taenia solium's larva, not Taenia saginata's, and it develops in pork, not beef.",
+        "B": "Incorrect. Cysticercus cellulosae is Taenia solium's larva, and pork is its meat source, not the beef/cysticercus bovis pairing that transmits T. saginata.",
+        "C": "Correct. Taenia saginata is transmitted by eating undercooked beef containing cysticercus bovis, the larval stage that develops in cattle after they ingest T. saginata eggs.",
+        "D": "Incorrect. Cysticercus bovis develops in cattle (beef), not pigs (pork)."
+      },
+      "main_concept": "CON-GIT-1A541E03119F0D",
+      "concept_ids": [
+        "CON-GIT-1A541E03119F0D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that Taenia saginata is transmitted by eating undercooked beef containing cysticercus bovis.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-1A541E03119F0D via overlay, same fact tested by Q9.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q031"
+    },
+    {
+      "key": "ini-mcq-ch10-q037",
+      "page": 105,
+      "title": "E. granulosus definitive host",
+      "question": "Definitive host of echinococcus granulosa is ?",
+      "options": {
+        "A": "Cattles",
+        "B": "Sheep",
+        "C": "Man",
+        "D": "Dogs"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Cattle are not a typical host in Echinococcus granulosus's usual cycle.",
+        "B": "Incorrect. Sheep is E. granulosus's intermediate host, not its definitive host.",
+        "C": "Incorrect. Man is never E. granulosus's definitive host; at most he is an accidental intermediate host, harbouring the larval hydatid cyst.",
+        "D": "Correct. The dog is Echinococcus granulosus's definitive host, harbouring the adult tapeworm in its intestine. This definitive-host role is what sustains the adult tapeworm stage of the parasite's life cycle."
+      },
+      "main_concept": "CON-GIT-B48F10E9444B70",
+      "concept_ids": [
+        "CON-GIT-B48F10E9444B70"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Echinococcus granulosus",
+      "learning_objective": "State that the dog is Echinococcus granulosus's definitive host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-ECHINOCOCCUS"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Echinococcus granulosus",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-B48F10E9444B70 via overlay, same concept as Q18.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q037"
+    },
+    {
+      "key": "ini-mcq-ch10-q040",
+      "page": 105,
+      "title": "T. saginata infective stage",
+      "question": "The infective stage of T. saginata is ?",
+      "options": {
+        "A": "Cysticercous bovis",
+        "B": "Cysticercous cellulose",
+        "C": "Eggs of T. saginata in cattle excreta",
+        "D": "Cysticercoid"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cysticercus bovis, the larva that develops in cattle muscle, is Taenia saginata's stage infective to man, acquired by eating undercooked beef. Distinguishing this beef-derived larva from T. solium's pork-derived cysticercus cellulosae is the point being tested.",
+        "B": "Incorrect. Cysticercus cellulosae is Taenia solium's infective larva (found in pork), not Taenia saginata's.",
+        "C": "Incorrect. Eggs are shed in human, not cattle, excreta, and are infective to cattle (the intermediate host), not directly to man.",
+        "D": "Incorrect. A cysticercoid is the larval form found in arthropod intermediate hosts, not in T. saginata's cattle intermediate host."
+      },
+      "main_concept": "CON-GIT-1A541E03119F0D",
+      "concept_ids": [
+        "CON-GIT-1A541E03119F0D"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Taenia saginata",
+      "learning_objective": "State that cysticercus bovis, in undercooked beef, is Taenia saginata's stage infective to man.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Taenia saginata",
+      "source_citation": "INI MCQ .pdf, Cestode, p105",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-1A541E03119F0D via overlay, same fact tested by Q9/Q31.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q040"
+    },
+    {
+      "key": "ini-mcq-ch10-q043",
+      "page": 106,
+      "title": "Smallest intestinal cestode",
+      "question": "The smallest intestinal cestode in man is ?",
+      "options": {
+        "A": "H. nana",
+        "B": "Diphyllobothrium latum",
+        "C": "T. saginata",
+        "D": "T. solium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hymenolepis nana, at roughly 2-4 cm long, is the smallest of man's intestinal cestodes -- much shorter than Diphyllobothrium latum, T. saginata or T. solium, all of which can grow to several metres.",
+        "B": "Incorrect. Diphyllobothrium latum is in fact one of the longest human tapeworms, not the smallest.",
+        "C": "Incorrect. Taenia saginata is a large tapeworm, several metres long, not the smallest.",
+        "D": "Incorrect. Taenia solium is also a large tapeworm, several metres long, not the smallest."
+      },
+      "main_concept": "CON-GIT-57162B053DCECE",
+      "concept_ids": [
+        "CON-GIT-57162B053DCECE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Hymenolepis nana",
+      "learning_objective": "State that Hymenolepis nana is the smallest of man's intestinal cestodes.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Hymenolepis nana",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-57162B053DCECE (hymenolepis-nana.commonest-childhood-cestode-and-egg-morphology) via overlay.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q043"
+    },
+    {
+      "key": "ini-mcq-ch10-q044",
+      "page": 106,
+      "title": "Cestode infection common in children",
+      "question": "Which of the following cestodal infection is common in children ?",
+      "options": {
+        "A": "H. nana",
+        "B": "Diphyllobothrium latum",
+        "C": "T. saginata",
+        "D": "T. solium"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Hymenolepis nana infection is especially common in children, driven by poor hygiene, faecal-oral spread among close contacts, and the parasite's own capacity for autoinfection. Poor hygiene and the ease of person-to-person faecal-oral spread compound H. nana's own autoinfection capacity in driving this childhood pattern.",
+        "B": "Incorrect. Diphyllobothrium latum requires the full fish-borne two-host cycle and is not particularly a childhood infection.",
+        "C": "Incorrect. Taenia saginata, acquired from undercooked beef, is not particularly a childhood infection.",
+        "D": "Incorrect. Taenia solium, acquired from undercooked pork, is not particularly a childhood infection (though its autoinfection route can affect any age group)."
+      },
+      "main_concept": "CON-GIT-57162B053DCECE",
+      "concept_ids": [
+        "CON-GIT-57162B053DCECE"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Hymenolepis nana",
+      "learning_objective": "State that Hymenolepis nana is the cestode infection most common in children.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Hymenolepis nana",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-57162B053DCECE via overlay, same concept as Q43.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q044"
+    },
+    {
+      "key": "ini-mcq-ch10-q048",
+      "page": 106,
+      "title": "Undercooked fish with plerocercoid",
+      "question": "Ingestion of undercooked fish containing plerocercoid larva is the mode of infection of ?",
+      "options": {
+        "A": "H. nana",
+        "B": "Diphyllobothrium latum",
+        "C": "T. saginata",
+        "D": "T. solium"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Hymenolepis nana's infective stage is its own egg; it has no plerocercoid larva or fish intermediate host.",
+        "B": "Correct. Eating undercooked fresh-water fish containing the plerocercoid larva is exactly how man becomes infected with Diphyllobothrium latum. This fish-borne route is the one exam questions most often use to distinguish D. latum from the other, non-fish-borne cestodes in this chapter.",
+        "C": "Incorrect. Taenia saginata's infective stage, cysticercus bovis, is found in beef, not fish.",
+        "D": "Incorrect. Taenia solium's infective stage, cysticercus cellulosae, is found in pork, not fish."
+      },
+      "main_concept": "CON-GIT-654FD5B81C47FB",
+      "concept_ids": [
+        "CON-GIT-654FD5B81C47FB"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Diphyllobothrium latum",
+      "learning_objective": "State that eating undercooked fresh-water fish containing the plerocercoid larva is Diphyllobothrium latum's mode of infection for man.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-DIPHYLLOBOTHRIUM"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Diphyllobothrium latum",
+      "source_citation": "INI MCQ .pdf, Cestode, p106",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-654FD5B81C47FB (diphyllobothrium-latum.plerocercoid-in-fresh-water-fish) via overlay.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q048"
+    },
+    {
+      "key": "ini-mcq-ch10-q055",
+      "page": 107,
+      "title": "Cestode not needing an intermediate host",
+      "question": "Which Cestode does not need an intermediate host ?",
+      "options": {
+        "A": "Dipylidium caninum",
+        "B": "Hymenolepis diminuta",
+        "C": "Echinococcus granulosus",
+        "D": "Hymenolepis nana",
+        "E": "Taenia saginata"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dipylidium caninum requires a flea intermediate host, in which its cysticercoid larva develops.",
+        "B": "Incorrect. Hymenolepis diminuta requires an arthropod (grain beetle or flea) intermediate host.",
+        "C": "Incorrect. Echinococcus granulosus requires an intermediate host (typically sheep, or accidentally man) for its larval hydatid cyst to develop.",
+        "D": "Correct. Hymenolepis nana is the only cestode among these that does not need an intermediate host: its egg is directly infective, and it can complete its entire life cycle, including autoinfection, within a single host. This independence from any intermediate host, arthropod or vertebrate, is what makes Hymenolepis nana's life cycle unique among the cestodes listed here.",
+        "E": "Incorrect. Taenia saginata requires cattle as its obligatory intermediate host."
+      },
+      "main_concept": "CON-GIT-2FCF45AE17574F",
+      "concept_ids": [
+        "CON-GIT-2FCF45AE17574F"
+      ],
+      "contextual_concept_ids": [],
+      "topic": "Cestode",
+      "subtopic": "Hymenolepis nana",
+      "learning_objective": "State that Hymenolepis nana, unlike Dipylidium caninum, Hymenolepis diminuta, Echinococcus granulosus or Taenia saginata, needs no intermediate host.",
+      "media_recommendations": "",
+      "library_ids": [
+        "ART-INF-AUN-INI105-CESTODE-TAENIA"
+      ],
+      "module_subject": "AUN-INI-105 > Cestode > Hymenolepis nana",
+      "source_citation": "INI MCQ .pdf, Cestode, p107",
+      "field_notes": {
+        "keySource": "printed plain-text ANSWERS table, chapter 10, p111"
+      },
+      "author_notes": "Reuses pending Helwan HU-GIT-301 concept CON-GIT-2FCF45AE17574F via overlay, same concept as Q6/Q8.",
+      "id": "QST-AUNINI105-INI-MCQ-CH10-Q055"
+    }
+  ]
+}

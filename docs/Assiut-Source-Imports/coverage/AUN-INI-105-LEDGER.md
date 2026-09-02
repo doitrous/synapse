@@ -1,6 +1,7 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | ini-mcq | 89 | 11 | 0 | 100 |
+| ini-mcq-ch10 | 51 | 4 | 0 | 55 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
 | ini-mcq-ch3 | 21 | 3 | 0 | 24 |
 | ini-mcq-ch4 | 48 | 10 | 0 | 58 |
@@ -22,6 +23,10 @@
 - ini-mcq-q074 — near-verbatim restatement of ini-mcq-q039 (lophotrichous): "tuft of flagella at one pole ... is called" vs Q39's "group of flagella at one pole ... is known as" -- duplicate-of ini-mcq-q039
 - ini-mcq-q080 — near-verbatim restatement of ini-mcq-q024 (bacterial locomotion = flagella): "Bacterial locomotion (motility) is accomplished by?" vs Q24's "Bacterial locomotion is accomplished by?" -- duplicate-of ini-mcq-q024
 - ini-mcq-q085 — near-verbatim restatement of ini-mcq-q011 (peritrichous): "distributed over the entire cell ... is known as" vs Q11's "distributed all around a bacterial cell ... is called" -- duplicate-of ini-mcq-q011
+- ini-mcq-ch10-q002 — printed key (D, "Coenurus cerebralis") conflicts with the expected textbook answer -- man is not the intermediate host for Taenia saginata (its larva, cysticercus bovis, develops only in cattle), so cysticercus bovis, not coenurus cerebralis, is the larva "not present in man": cysticercus cellulosae (T. solium), hydatid (E. granulosus) and coenurus cerebralis (Multiceps multiceps) can all occur in man as an accidental intermediate host, while cysticercus bovis cannot, since man never acts as T. saginata's intermediate host
+- ini-mcq-ch10-q023 — printed key (A, "Diphyllobothrium latum") is doubtful against the stem's own wording, "the ONLY larval host": D. latum needs Cyclops AND a second, fish, intermediate host to become infective, so Cyclops is not its only larval host, whereas Dracunculus medinensis (Guinea worm, option C) truly needs no second intermediate host -- man is infected directly by ingesting Cyclops carrying the infective L3 larva -- making C the better fit for "only" larval host; held rather than resolved by inference, since the source's own intent for this EXCEPT-less "only" wording is not certain
+- ini-mcq-ch10-q028 — duplicate-of ini-mcq-ch10-q011 -- near-verbatim restatement of "Cysticercus cellulosae is the infective stage of T. solium" (same fact and key A, differing only in the fourth distractor option, Diphyllobothrium latum here vs. Hymenolepis diminuta in Q11)
+- ini-mcq-ch10-q029 — duplicate-of ini-mcq-ch10-q009 -- near-verbatim restatement of "Cysticercus bovis is the infective stage of T. saginata" (same fact and correct content, T. saginata, differing only in option lettering/order and the fourth distractor, Diphyllobothrium latum here vs. Dipylidium caninum in Q9)
 - ini-mcq-ch2-q020 — figure-dependent question -- the stem refers to "this Figure" showing growth-curve phases labelled A/B/C/D, but the source's diagram is not extractable as text (pagetext.mjs reads plain text only, per the lane's text-only reading method); without seeing which curve segment is labelled A/B/C/D, the printed key (B) cannot be verified or authored from the stem alone
 - ini-mcq-ch2-q028 — duplicate-of ini-mcq-ch2-q016 -- near-verbatim restatement of "organism that can use only molecular oxygen as the final acceptor" (Obligate aerobes), differing only in swapping the fourth distractor (Microaerophilic vs Strict anaerobes) and adding a fifth "None of these" option
 - ini-mcq-ch2-q031 — duplicate-of ini-mcq-ch2-q008 -- near-verbatim restatement of "convalescence phase of an infectious disease corresponds to which phase of bacterial growth" (Decline phase), differing only by an added fifth "Retardation phase" distractor

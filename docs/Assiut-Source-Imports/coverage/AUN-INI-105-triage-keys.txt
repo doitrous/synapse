@@ -433,3 +433,70 @@ ini-mcq-ch9-q018  # -- schistosomulum = cercaria without tail -- new
 ini-mcq-ch9-q019  # -- HELD, printed key B (systemic circulation) conflicts with expected answer (C, portal circulation -- standard teaching for schistosomulum maturation)
 ini-mcq-ch9-q020  # -- trematodes require snail as intermediate host -- new
 ini-mcq-ch9-q021  # -- HELD, options A and B both print "Both benefit" verbatim -- source-side duplicate-option defect
+
+# AUN-INI-105 -- Chapter 10 "Cestode" (Q1-Q55 of 86, answer table p111), lane 9.
+# This lane triaged the chapter at per-question level for the first time (only
+# structurally mapped before -- see coverage/AUN-INI-105-triage.md's chapter table)
+# and authored Q1-Q55 in order, 51 authored + 4 held (Q2, Q23 -- printed-key vs.
+# expected-fact conflicts/doubts; Q28, Q29 -- near-duplicates of Q11/Q9). Q56-86
+# (31 items) remain unread at per-question level; Q56-77 is largely a near-verbatim
+# restatement of Q5-Q22 (confirmed while reading ahead for duplicate-checking), so a
+# later lane should expect a high duplicate rate there. STOP POINT for this lane:
+# chapter 10 Q55 (page 107). A later lane resumes at chapter 10 Q56 (page 107-108),
+# with 31 items remaining in this chapter plus chapter 11 ("Nematoda", 164 items)
+# entirely unread.
+ini-mcq-ch10-q001  # -- platyhelminths needing 2 IH EXCEPT T. solium (1 IH only) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q002  # -- HELD, printed key (Coenurus cerebralis) conflicts with expected fact (Cysticercus bovis is the larva not present in man, since man is never T. saginata's IH)
+ini-mcq-ch10-q003  # -- dog definitive host for Toxocara canis/Echinococcus granulosus/Multiceps multiceps -- new (CON-INF-D706DE723AB63D)
+ini-mcq-ch10-q004  # -- herbivore IH EXCEPT Metagonimus yokogawai (snail/fish IH) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q005  # -- T. saginata: order Cyclophyllidae -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q006  # -- H. nana commonest cestode: autoinfection -- pending (Helwan CON-GIT-2FCF45AE17574F)
+ini-mcq-ch10-q007  # -- T. saginata scolex EXCEPT hooks (unarmed) -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q008  # -- egg is infective stage of H. nana -- pending (Helwan CON-GIT-2FCF45AE17574F)
+ini-mcq-ch10-q009  # -- cysticercus bovis = infective stage of T. saginata -- pending (Helwan CON-GIT-1A541E03119F0D)
+ini-mcq-ch10-q010  # -- cysticercoid = infective stage of Dipylidium caninum -- new (CON-INF-BAF8F514F8DF0E)
+ini-mcq-ch10-q011  # -- cysticercus cellulosae = infective stage of T. solium -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q012  # -- ingesting T. saginata eggs -> none of above (man not IH) -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q013  # -- ingesting T. solium eggs -> cysticercosis -- pending (Helwan CON-GIT-D1B1B1D6039555)
+ini-mcq-ch10-q014  # -- only operculated cestode egg = D. latum -- pending (Helwan CON-GIT-0A70FDA5910497)
+ini-mcq-ch10-q015  # -- D. latum infection via salmon fish -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q016  # -- autoinfection occurs in T. solium -- pending (Helwan CON-GIT-D1B1B1D6039555)
+ini-mcq-ch10-q017  # -- intestinal cestodes of man EXCEPT E. granulosus -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q018  # -- most common IH for E. granulosus = sheep -- pending (Helwan CON-GIT-B48F10E9444B70)
+ini-mcq-ch10-q019  # -- D. latum 2nd IH = fresh-water fish -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q020  # -- T. saginata vs T. solium gravid proglottid: lateral uterine branches -- pending (Helwan CON-GIT-C276709D1B1A64)
+ini-mcq-ch10-q021  # -- human tapeworm site: ileum/jejunum -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q022  # -- all intestinal cestodes inhabit small intestine -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q023  # -- HELD, printed key (D. latum) doubtful against stem's own "only" larval host wording -- D. latum needs 2 IH (Cyclops+fish), Dracunculus medinensis (C) is the true single-IH parasite
+ini-mcq-ch10-q024  # -- Cyclops IH of Dracunculus/D. latum/D. mansoni -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q025  # -- pig source of infection EXCEPT T. saginata (cattle) -- new (CON-INF-75A2A7934657F3)
+ini-mcq-ch10-q026  # -- pseudophyllidean cestode = D. latum -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q027  # -- hydatid cyst most frequent in liver -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q028  # -- HELD, duplicate-of ini-mcq-ch10-q011 (cysticercus cellulosae = T. solium infective stage)
+ini-mcq-ch10-q029  # -- HELD, duplicate-of ini-mcq-ch10-q009 (cysticercus bovis = T. saginata infective stage)
+ini-mcq-ch10-q030  # -- cysticercosis via ingestion of T. solium eggs -- pending (Helwan CON-GIT-D1B1B1D6039555)
+ini-mcq-ch10-q031  # -- T. saginata transmission: beef + cysticercus bovis -- pending (Helwan CON-GIT-1A541E03119F0D)
+ini-mcq-ch10-q032  # -- head of tapeworm = scolex -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q033  # -- hydatid disease caused by E. granulosus -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q034  # -- cestodes are segmented worms -- new (CON-INF-FAFE8DFDDE6E1D)
+ini-mcq-ch10-q035  # -- fish-eating mammals (dogs) reservoir host of D. latum -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q036  # -- man acts as IH in T. solium & H. nana (both a&c) -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q037  # -- E. granulosus definitive host = dog -- pending (Helwan CON-GIT-B48F10E9444B70)
+ini-mcq-ch10-q038  # -- T. saginata IH = cattle -- new (CON-INF-DA646E39A54407)
+ini-mcq-ch10-q039  # -- T. solium IH = pig -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q040  # -- T. saginata infective stage = cysticercus bovis -- pending (Helwan CON-GIT-1A541E03119F0D)
+ini-mcq-ch10-q041  # -- T. solium infective stage = cysticercus cellulosae -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q042  # -- T. solium transmission: pork + cysticercus cellulosae -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q043  # -- smallest intestinal cestode = H. nana -- pending (Helwan CON-GIT-57162B053DCECE)
+ini-mcq-ch10-q044  # -- cestode infection common in children = H. nana -- pending (Helwan CON-GIT-57162B053DCECE)
+ini-mcq-ch10-q045  # -- Cyclops = 1st IH of D. latum -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q046  # -- man acts as IH in tissue cestode -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q047  # -- D. latum egg hatches -> coracidium larva -- new (CON-INF-1338B6C6D91874)
+ini-mcq-ch10-q048  # -- undercooked fish + plerocercoid = D. latum -- pending (Helwan CON-GIT-654FD5B81C47FB)
+ini-mcq-ch10-q049  # -- hydatid cyst infection via egg ingestion -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q050  # -- man acts as IH & DH in T. solium -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q051  # -- man acts as blind IH in E. granulosus -- new (CON-INF-C5335C8176B1C6)
+ini-mcq-ch10-q052  # -- T. solium infection via raw pork -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q053  # -- sparganosis = D. mansoni plerocercoid tissue infection -- new (CON-INF-77A8EED2BAE029)
+ini-mcq-ch10-q054  # -- taeniasis solium via cysticercus cellulosae -- new (CON-INF-90E657F6924BD0)
+ini-mcq-ch10-q055  # -- cestode not needing IH = H. nana -- pending (Helwan CON-GIT-2FCF45AE17574F)
