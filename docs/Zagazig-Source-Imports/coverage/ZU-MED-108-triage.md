@@ -192,3 +192,21 @@ fastest injection route).
   spine precautions, GCS, definitive airway, paediatric choking. Triaged in full above;
   not seeded/authored this pass since the Fakous Final paper alone already supplied a
   complete 30-50-question cluster. `resume-first` for author2/next pass.
+
+## Author2 update (pp2ospe pass)
+
+16/17 of the above authored as cluster `pp2ospe` — `question/ZU-MED-108-pp2ospe-mcq.md`,
+`concept/ZU-MED-108-pp2ospe-concepts.md` (15 new concepts; Q3 reused lane1's own
+`CON-FND-5C4297B73F7F48`, no new mint), `article/ZU-MED-108-pp2ospe-articles.md` (4 new
+articles). `pp2ospe-q16` held: on render, the printed options B/C ("First aid approach
+… DOES NOT include") are corrupted/scrambled in the source PDF itself — "B. Transfer
+the patient on a" cuts off mid-clause and "C. Keep the helmet on wheelchair" reads as
+two concatenated half-sentences — a genuine print defect, not an extraction artifact;
+the PDF highlight marks C but the fact actually tested cannot be recovered with
+confidence. Broad `find-existing.mjs`/`grep -ril` search (including the other Zagazig
+lane, ZU-MED-105 lane 3 — professionalism/ethics only, no overlap) found 0 live hits, 0
+pending hits, and one rejected-merge near-miss (a paediatric GCS *scoring* concept in
+`MUST-Source-Imports`, a different atomic fact from this batch's GCS-*purpose* concept).
+With this pass, `Final Hamdy 1` and `Basic clinical skills 1.pdf` remain catalogue-only
+(no lettered MCQs, confirmed in this file above) — **ZU-MED-108's keyed sources are now
+exhausted.**

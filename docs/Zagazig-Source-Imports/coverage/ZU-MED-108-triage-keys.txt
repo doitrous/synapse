@@ -1,9 +1,13 @@
 # ZU-MED-108 (Professional Practice II) — triage keys
-# <source-slug>-qNN, one per SBA item authored this pass.
-# Source: Fakous P.P2 Final 2024.pdf (31/31 MCQs keyed, 100%, all render-confirmed).
-# A second usable source (OSPE "Answers" Yousef Amr.pdf, 17 SBA items, PDF
-# highlight-annotation keys, 100% keyed) was triaged but NOT authored this
-# pass — see coverage/ZU-MED-108-triage.md "Remaining / next author" note.
+# <source-slug>-qNN, one per SBA item triaged (authored or held) across passes.
+# Source: Fakous P.P2 Final 2024.pdf (31/31 MCQs keyed, 100%, all render-confirmed) — author1.
+# Source: OSPE "Answers" Yousef Amr.pdf pp.8-10 ("The new questions" MCQ set,
+# 17 SBA items, clean PDF highlight-annotation keys, 100% keyed, render-confirmed)
+# — author2. 16/17 authored as cluster pp2ospe; pp2ospe-q16 held (malformed
+# print — options B/C corrupted/scrambled in the source PDF itself).
+# ZU-MED-108's keyed sources are exhausted after this pass: the remaining two
+# priority files (Final Hamdy 1 lecture handout, Basic clinical skills 1.pdf
+# module handout) carry no lettered MCQs — see coverage/ZU-MED-108-triage.md.
 
 # --- Fakous P.P2 Final 2024.pdf (author1 pass) ---
 
@@ -38,3 +42,23 @@ pp2final24-q28
 pp2final24-q29
 pp2final24-q30
 pp2final24-q31
+
+# --- OSPE "Answers" Yousef Amr.pdf pp.8-10 (author2 pass) ---
+
+pp2ospe-q01
+pp2ospe-q02
+pp2ospe-q03
+pp2ospe-q04
+pp2ospe-q05
+pp2ospe-q06
+pp2ospe-q07
+pp2ospe-q08
+pp2ospe-q09
+pp2ospe-q10
+pp2ospe-q11
+pp2ospe-q12
+pp2ospe-q13
+pp2ospe-q14
+pp2ospe-q15
+pp2ospe-q16
+pp2ospe-q17
