@@ -2,7 +2,7 @@
 |---|---:|---:|---:|---:|
 | calcium | 11 | 1 | 0 | 12 |
 | collagen | 26 | 4 | 0 | 30 |
-| important | 0 | 0 | 4 | 4 |
+| important | 4 | 0 | 0 | 4 |
 | muscle | 25 | 0 | 0 | 25 |
 | purine | 14 | 2 | 0 | 16 |
 
@@ -16,7 +16,4 @@
 - purine-q10 — question stem and printed answer-key cell are both physically redacted (black bar) in the source PDF, page 9 (between Q8 and the Q11-16 matching table); confirmed by rendering the page image, not an OCR artifact
 
 ## Remaining
-- important-q01
-- important-q02
-- important-q03
-- important-q04
+(none)
