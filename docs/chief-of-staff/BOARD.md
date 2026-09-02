@@ -471,3 +471,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — MUST CVS-201 tranche 6 (Pathology EOM Final) LANDED (3c8ed3ca)
 - 60 MCQ + 10 essay, combined key p.16: 60/60 authored, 0 held. 14 mints, 3 pending overlays onto SYS-CVS T04/T06, 7 reuses. 44-file simulate rejected=0; per-file validator clean. ≈6.2k tok/q. Tool notes: an overlay row must restate `## label` or detectBatchKind reports "unknown"; a new resource id must be added to `evidence/corpus-source-index.json` or citations fail the corpus lookup.
 - CVS-201 remaining: Physiology paper (150 items) → tranche 7 dispatched (Y2 slot; Y1 heads are OCR-blocked or parked). Pharmacology paper (110) OCR-unrecoverable → needs Omar scans. Fleet 20/20.
+
+### 2026-09-02 — AIN SHAMS ASU-UG lane 4 LANDED (4cb8641f on main; its later 9e614003 is a stale-base commit that deletes 106k lines and must NOT be merged)
+- Assessment 1: Physiology Q26-45 (20) + Pathology block (14) → 34 authored, 4 held (dups). 33 `CON-REN-*` mints + 33 articles; validator errors=[]; simulate errors=0 rejected=0; duplicate-keys 0. Ledger assessment-1-mcq 54/4/20. Lane notes triage-keys numbering for this cluster is stale past Physio Q47 (q48-62 placeholders = the ~5-item Micro block).
+- Second shared-worktree casualty: the lane's recovery push dropped two board entries (AU-203 lane 5, CVS-201 tranche 6) — restored above from history. Both resumed lanes are now finished; the shared checkout is no longer in use.
+- Lane 5 dispatched: Assessment 1 remainder (q01/q04/q08/q23/q24 + Micro block) + Collection leftovers (q018/q023/q125-128) + next UG paper. Fleet 20/20.
