@@ -1104,3 +1104,1908 @@ MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK2 Endmodule Group 1 > Physiology
 
 ## field_notes
 mu: Tested as "MSK2 endmodule exam group 1 - model answer.pdf" Q2, "Vit D deficiency in chronic renal disease — which enzyme defect" (answer: Alpha-1 hydroxylase enzyme), underline key on p1. Sparse update only: this concept's PTH/1-alpha-hydroxylase mechanism is already live; the CKD-defect clinical framing is this question's own new angle, taught in the correct-option explanation.
+
+---
+
+<!--
+  MU-MED104 (Musculoskeletal) · lane-3 authored concepts, from the text-only
+  Biochemistry/Histology/Physiology tail (q15-30) of the two 2018 MSK1
+  end-module papers ("01- MSK1 endmodule 2018 Group 1.pdf" / "02- MSK1
+  endmodule 2018 Group 2.pdf", sourceIds mu_c6bc4b9cefd870477236 /
+  mu_c4dfd4af7788e7831b4e). Keys recovered via pagetext.mjs keys (red-text
+  convention, same as the MFM42Support paper) plus one render of Group 2 p5
+  to resolve four automated-tool ambiguities (q24/25/26/27, cross-checked
+  against the render at coverage/MU-MED104-triage-keys.txt). q1-14 of both
+  papers are Anatomy, numbered-structure/diagram questions — out of scope
+  for this text-only pass, left in the ledger's remaining list. Eleven new
+  concepts below, each searched via find-existing.mjs first (no hit for
+  any — see field_notes), evidenced from MED104's own Anatomy/Biochemistry/
+  Histology/Physiology department books. Two of the eleven each cover a
+  fact tested by both papers (inguinal canal boundaries: roof in Group 1,
+  floor in Group 2; rigor mortis: both papers ask the same mechanism with
+  different option wording) — one concept, two questions apiece. A twelfth
+  question (Group 2 Q19, Menkes disease) reuses CON-FND-C634004C7B9069,
+  already minted in this same file by lane 1/2 — no overlay needed, it is
+  already tagged +mu/+MU_Y1/+MU-MED104.
+
+  Evidence in the sibling evidence/MU-MED104-{claims,citations,resources}.md.
+  Teaching articles: one extends ART-FND-MU104-COLLAGEN-MINERAL-VITD (Marfan
+  and ionized calcium fold into the existing collagen/calcium/vitD-D
+  article's related family); three are new, in article/MU-MED104-articles.md.
+
+  Simulate together with the sibling files, e.g.:
+    npm run medical:simulate -- \
+      docs/Menoufia-Source-Imports/concept/MU-MED104-concepts.md \
+      docs/Menoufia-Source-Imports/article/MU-MED104-articles.md \
+      docs/Menoufia-Source-Imports/evidence/MU-MED104-resources.md \
+      docs/Menoufia-Source-Imports/evidence/MU-MED104-claims.md \
+      docs/Menoufia-Source-Imports/evidence/MU-MED104-citations.md \
+      docs/Menoufia-Source-Imports/question/MU-MED104-msk1-2018-g1-mcq.md \
+      docs/Menoufia-Source-Imports/question/MU-MED104-msk1-2018-g2-mcq.md \
+      --emit /tmp/sim-MU-MED104-lane3.json
+
+  Import: Admin › Concepts › Import.
+-->
+
+# Item
+
+## label
+The inguinal canal's roof is the arching fibers of the internal oblique and transversus abdominis, and its floor is the inguinal (and medially, lacunar) ligament — distinct from its external-oblique-aponeurosis anterior wall and its fascia-transversalis/conjoint-tendon posterior wall
+
+## id
+CON-MSK-896A8D2227FDD0
+
+## canonical_key
+inguinalcanal.boundaries-roof-floor
+
+## aliases
+Inguinal canal boundaries
+Roof of inguinal canal
+Floor of inguinal canal
+Boundaries of the inguinal canal
+
+## arabic_label
+حدود القناة الإربية
+
+## arabic_aliases
+سقف وأرضية القناة الإربية
+
+## definition
+The inguinal canal is an oblique passage in the lower anterior abdominal wall, and each of its four walls is formed by a different layer of the abdominal musculature. The anterior wall is the aponeurosis of the external oblique, reinforced laterally by fibers of internal oblique; the posterior wall is fascia transversalis, reinforced medially by the conjoint tendon. The roof is formed by the arching fibers of the internal oblique and transversus abdominis muscles as they arch over the canal's contents before inserting into the conjoint tendon, while the floor is the inguinal ligament (the rolled-under lower border of the external oblique aponeurosis), reinforced medially by the lacunar ligament. Each wall is reinforced at one end and thin at the other, which is what allows the canal to serve as a controlled weak point for the spermatic cord (or round ligament) to pass through without the abdominal wall failing along its whole length.
+
+## explicit_objective
+Name the tissue forming each of the four walls of the inguinal canal (anterior: external oblique aponeurosis; posterior: fascia transversalis/conjoint tendon; roof: arching internal oblique/transversus abdominis fibers; floor: inguinal/lacunar ligament), and state that this wall arrangement is what an inguinal hernia exploits or is repaired through.
+
+## pitfalls
+Swapping roof and floor: the roof is muscular (arching internal oblique and transversus abdominis fibers arching over the canal), while the floor is ligamentous (inguinal and lacunar ligament) — a question naming a specific muscle layer is asking about the roof, one naming a ligament is asking about the floor, and neither is the anterior or posterior wall.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+
+
+## secondary_node_ids
+SYS-MSK
+
+## topic
+Anterior abdominal wall
+
+## subtopic
+Inguinal canal
+
+## microtopic
+Boundaries of the inguinal canal (roof and floor)
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Anatomy
+
+## article_ids
+ART-MSK-MU104-INGUINAL-CARTILAGE-BONE
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_1ba3e4e486a175cba06f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-MSK-INGUINAL-CANAL-BOUNDARIES-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which one of the following forms the roof of this structure [inguinal canal]? / Arching fibers | Which one of the following forms the floor of this structure? / Inguinal ligament
+
+## exam_signal
+src_c6bc4b9cefd870477236 | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "inguinal canal" and "inguinal canal roof" against live state and every pending batch via find-existing.mjs, and grep -ril "inguinal canal" across docs/*-Source-Imports/concept/ — no existing record found.
+mu: Tested twice — "01- MSK1 endmodule 2018 Group 1.pdf" Q15, "Which one of the following forms the roof of this structure?" (answer: Arching fibers), red-text key p4; "02- MSK1 endmodule 2018 Group 2.pdf" Q15, "...forms the floor of this structure?" (answer: Inguinal ligament), red-text key p3. Same fact family (canal boundaries), one concept, two questions.
+
+---
+
+# Item
+
+## label
+Only the ionizable, diffusible fraction of plasma calcium (about 50%) is physiologically active; the other half is inactive, split between protein-bound (mainly to albumin, 45%) and diffusible-but-non-ionizable calcium citrate (5%)
+
+## id
+CON-FND-253174586AB3B1
+
+## canonical_key
+calcium.ionized-diffusible-active-fraction
+
+## aliases
+Ionized calcium
+Physiologically active calcium
+Diffusible calcium fraction
+Protein-bound calcium
+
+## arabic_label
+الكالسيوم المتأين النشط فسيولوجيًا
+
+## arabic_aliases
+الكسر المتأين من كالسيوم البلازما
+
+## definition
+Plasma calcium is not a single homogeneous pool: about 45% is bound to plasma proteins, chiefly albumin, and is both non-diffusible and physiologically inactive; about 5% is diffusible but complexed to anions such as citrate and so remains non-ionizable and still physiologically inactive; and the remaining roughly 50% is the free, ionizable, diffusible fraction, which is the only physiologically active form. This ionized fraction is what nerve and muscle excitability, and the coagulation cascade, actually respond to — total plasma calcium (9-11 mg/100 ml) can be normal while the ionized fraction is abnormal, or vice versa, depending on plasma protein and anion levels. A fall in the ionizable fraction specifically, not total calcium, is what precipitates tetany.
+
+## explicit_objective
+State that only the ionizable, diffusible fraction of plasma calcium (about 50%) is physiologically active, and that the protein-bound (45%) and non-ionizable diffusible (5%, e.g. calcium citrate) fractions are not.
+
+## pitfalls
+Assuming total plasma calcium concentration alone predicts physiological effect — a change in plasma protein (as in albuminuria) shifts the protein-bound fraction without touching the ionizable fraction and so does not cause tetany, whereas a rise in plasma phosphate precipitates calcium specifically out of the ionizable fraction and does.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+Mineral metabolism
+
+## subtopic
+Calcium homeostasis
+
+## microtopic
+Physiologically active (ionized) fraction of plasma calcium
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Biochemistry
+
+## article_ids
+ART-FND-MU104-CALCIUM-CALCITONIN
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-FND-21CA469838BAA3
+
+## resource_ids
+src_57f44dcc809b58a1a81f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-CALCIUM-IONIZED-ACTIVE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The only physiologically active form of calcium is: / Ionizable diffusible
+
+## exam_signal
+src_c6bc4b9cefd870477236 | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "ionized calcium physiologically active" and "calcium diffusible ionizable" against live state and every pending batch via find-existing.mjs, plus grep -ril for "ionized calcium" — no existing record; distinct from the live CON-FND-21CA469838BAA3 (factors affecting calcium solubility/absorption in the gut, minted by lane 2), which is about absorption, not the plasma-fraction/activity question, so listed as a related concept rather than a duplicate.
+mu: Tested as "01- MSK1 endmodule 2018 Group 1.pdf" Q16, "The only physiologically active form of calcium is:" (answer: Ionizable diffusible), red-text key p4.
+
+---
+
+# Item
+
+## label
+The department's own list of calcium's functions covers being a constituent of bone and teeth, regulating nerve impulses/neuromuscular excitability/muscle contraction, blood and milk clotting, activating enzymes such as lipase and phosphorylase, and regulating hormone secretion such as insulin — "coenzyme of a kinase" is not on that list
+
+## id
+CON-FND-0D6028AF6BB378
+
+## canonical_key
+calcium.physiological-functions-list
+
+## aliases
+Functions of calcium
+Calcium physiological roles
+Calcium enzyme cofactor
+
+## arabic_label
+وظائف الكالسيوم الفسيولوجية
+
+## arabic_aliases
+دور الكالسيوم في الجسم
+
+## definition
+The MED104 Biochemistry department book lists five physiological functions of calcium: it is a structural constituent of bone and teeth; it regulates nerve impulse transmission, neuromuscular excitability and muscle contraction; it is essential for blood and milk clotting; it is required for the activity of certain enzymes, named as lipase and phosphorylase; and it participates in the regulation and secretion of some hormones, named as insulin. Calcium acts in these enzyme and secretory roles as a cofactor/activator rather than as a coenzyme, and the department's own list does not name any kinase among calcium-dependent enzymes, so "coenzyme of a kinase" is not one of its taught functions even though calcium genuinely does modulate some kinases elsewhere in general physiology.
+
+## explicit_objective
+Name the department's five taught functions of calcium (bone/teeth constituent; nerve impulse and neuromuscular excitability and muscle contraction regulation; blood and milk clotting; activator of lipase and phosphorylase; regulation of hormone secretion e.g. insulin), and recognise that "coenzyme of a kinase" is not among them.
+
+## pitfalls
+Treating "calcium activates some kinases" (true in broader physiology, e.g. protein kinase C) as equivalent to the department's own taught list, which names lipase and phosphorylase, not a kinase, as calcium-dependent enzymes — an exam built on this specific list marks a kinase-coenzyme statement as the false one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+Mineral metabolism
+
+## subtopic
+Calcium homeostasis
+
+## microtopic
+Physiological functions of calcium
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Biochemistry
+
+## article_ids
+ART-FND-MU104-CALCIUM-CALCITONIN
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-FND-253174586AB3B1
+
+## resource_ids
+src_57f44dcc809b58a1a81f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+MU_Y1=0.35
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.75
+
+## atomic_claim_ids
+CLM-FND-CALCIUM-FUNCTIONS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Regarding function of calcium one of these is incorrect: / is a coenzyme of kinase [the false statement, i.e. the correct answer]
+
+## exam_signal
+src_c4dfd4af7788e7831b4e | paper | | p3 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "calcium function coenzyme kinase" and "calcium functions physiological role" against live state and every pending batch via find-existing.mjs — no existing record found.
+mu: Tested as "02- MSK1 endmodule 2018 Group 2.pdf" Q16, "Regarding function of calcium one of these is incorrect:" (answer: "is a coenzyme of kinase"), red-text key p3.
+
+---
+
+# Item
+
+## label
+Vitamin D (calcitriol) raises plasma calcium and phosphate by three coordinated actions: increasing intestinal absorption (via calcium-binding protein), increasing renal tubular calcium reabsorption, and stimulating deposition of calcium and phosphate in bone and teeth (mineralization)
+
+## id
+CON-FND-50F3AA5639F2C1
+
+## canonical_key
+vitamind.bone-mineralization-action
+
+## aliases
+Vitamin D action on bone
+Vitamin D bone mineralization
+Vitamin D osteoblast stimulation
+Calcitriol effect on bone remodeling
+
+## arabic_label
+تأثير فيتامين د على ترسيب المعادن في العظم
+
+## arabic_aliases
+دور فيتامين د في بناء العظم
+
+## definition
+Active vitamin D (1,25-dihydroxyvitamin D3, calcitriol) raises plasma calcium and phosphate through three coordinated target-organ actions taught together in the department's own biochemistry book: in the intestine it induces synthesis of a calcium-binding protein that increases intestinal absorption of calcium (with phosphate absorption following secondarily); in the kidney it increases calcium reabsorption from the renal tubule; and in bone it stimulates the deposition of calcium and phosphate into bone matrix, i.e. bone mineralization. This bone action is anabolic to mineralized bone formation — it supplies and drives the deposition of the mineral that osteoblasts lay down as new bone matrix mineralizes — which is the opposite emphasis to a hormone that instead promotes breakdown/resorption of existing bone to raise plasma calcium.
+
+## explicit_objective
+State that, in bone specifically, vitamin D's action is to stimulate deposition of calcium and phosphate (mineralization/osteoblastic bone formation), alongside its intestinal-absorption and renal-reabsorption actions, distinguishing this from a resorptive/osteoclast-stimulating action.
+
+## pitfalls
+Confusing vitamin D's bone action with parathyroid hormone's: PTH raises plasma calcium partly by mobilising (resorbing) calcium out of bone, while vitamin D's own bone action, as taught in the department book, is to stimulate deposition of calcium and phosphate into bone, i.e. mineralization — even though both hormones raise plasma calcium overall via their combined actions on gut, kidney and bone.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+Mineral metabolism
+
+## subtopic
+Vitamin D actions on bone
+
+## microtopic
+Vitamin D and bone mineralization
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Biochemistry
+
+## article_ids
+ART-FND-MU104-CALCIUM-CALCITONIN
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-FND-31131EDB3C9C2A
+
+## resource_ids
+src_57f44dcc809b58a1a81f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.78
+
+## atomic_claim_ids
+CLM-FND-VITD-BONE-MINERALIZATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+In bone remodling, vitamin D, / stimulate osteoblasts
+
+## exam_signal
+src_c6bc4b9cefd870477236 | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "vitamin D osteoblast bone remodeling" against live state and every pending batch via find-existing.mjs — no existing record; distinct from the live/pending CON-FND-31131EDB3C9C2A (why vitamin D counts as a hormone, minted by lane 2 from the same department-book page), which is about hormone classification criteria, not this bone-specific mineralization action, so listed as related rather than merged.
+mu: Tested as "01- MSK1 endmodule 2018 Group 1.pdf" Q17, "In bone remodling, vitamin D," (answer: "stimulate osteoblasts"), red-text key p4. The department book's own wording is "stimulates deposition of Ca2+ and phosphate in bone and teeth (help bone mineralization)" — osteoblasts are the mineral-depositing cells the exam's paraphrase names directly.
+
+---
+
+# Item
+
+## label
+Calcitonin lowers plasma calcium by inhibiting mobilization (resorption) of calcium from bone — the opposite bone action to parathyroid hormone
+
+## id
+CON-FND-AF3E4EC06FC7BD
+
+## canonical_key
+calcitonin.suppresses-bone-resorption
+
+## aliases
+Calcitonin action on bone
+Calcitonin suppresses bone resorption
+Calcitonin lowers plasma calcium
+
+## arabic_label
+الكالسيتونين يثبط ارتشاف العظم
+
+## arabic_aliases
+تأثير الكالسيتونين على مستوى الكالسيوم في الدم
+
+## definition
+Calcitonin is one of the three hormones (alongside parathyroid hormone and vitamin D) that the department book names as controlling plasma calcium. Its action is the reverse of parathyroid hormone's: by inhibiting the mobilization of calcium out of bone, i.e. suppressing bone resorption, calcitonin decreases plasma calcium level, whereas parathyroid hormone raises it by, among other actions, enhancing calcium mobilization from bone. Calcitonin's bone-resorption-suppressing action is therefore calcium-conserving for the skeleton and calcium-lowering for the plasma.
+
+## explicit_objective
+State that calcitonin decreases plasma calcium specifically by inhibiting (suppressing) mobilization of calcium from bone, i.e. suppressing bone resorption — the opposite bone action to parathyroid hormone.
+
+## pitfalls
+Assigning calcitonin a resorptive or calcium-releasing bone action by analogy with parathyroid hormone — the department book states the two hormones act oppositely on bone: PTH mobilises calcium out of bone to raise plasma calcium, while calcitonin inhibits that same mobilization to lower it.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+Mineral metabolism
+
+## subtopic
+Hormonal control of plasma calcium
+
+## microtopic
+Calcitonin action on bone resorption
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Biochemistry
+
+## article_ids
+ART-FND-MU104-CALCIUM-CALCITONIN
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-FND-50F3AA5639F2C1
+
+## resource_ids
+src_57f44dcc809b58a1a81f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-FND-CALCITONIN-BONE-RESORPTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+In bone remodling, calcitonin, / suppress bone resorption
+
+## exam_signal
+src_c4dfd4af7788e7831b4e | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "calcitonin bone resorption" against live state and every pending batch via find-existing.mjs — no existing record found.
+mu: Tested as "02- MSK1 endmodule 2018 Group 2.pdf" Q17, "In bone remodling, calcitonin," (answer: "suppress bone resorption"), red-text key p4.
+
+---
+
+# Item
+
+## label
+Marfan syndrome is an autosomal dominant disorder caused by mutations in the fibrillin-1 gene, the glycoprotein scaffold for elastin deposition, producing lens dislocation, tall stature with arachnodactyly and joint hyperextensibility, and aortic root dilation
+
+## id
+CON-FND-E7A460C7B4418B
+
+## canonical_key
+marfan.fibrillin-1-defect
+
+## aliases
+Marfan syndrome
+Fibrillin-1 mutation
+Fibrillin defect connective tissue
+
+## arabic_label
+متلازمة مارفان ونقص الفيبريللين
+
+## arabic_aliases
+طفرة جين الفيبريللين-1
+
+## definition
+Fibrillin is the structural glycoprotein component of microfibrils, secreted into the extracellular matrix by fibroblasts, where it provides the scaffold onto which elastin is deposited in big arteries, the periosteum and the suspensory ligament of the eye lens. Marfan syndrome is an autosomal dominant trait caused by mutations in the fibrillin-1 gene. Because fibrillin normally scaffolds elastin deposition in these specific tissues, its defect in Marfan syndrome produces a recognisable triad: ocular (lens dislocation, ectopia lentis), skeletal (tall stature, long digits/arachnodactyly, joint hyperextensibility) and cardiovascular (weakness of the aortic media leading to dilation of the ascending aorta) features.
+
+## explicit_objective
+State that Marfan syndrome is caused by a mutation in the fibrillin-1 gene (not collagen, elastin, laminin or fibronectin), and connect the defect to fibrillin's normal role as the microfibril scaffold for elastin deposition.
+
+## pitfalls
+Confusing Marfan syndrome's fibrillin-1 defect with the collagen defects of other connective-tissue disorders (e.g. Ehlers-Danlos) or with Menkes disease's copper/lysyl-oxidase cross-linking defect — fibrillin is a distinct structural glycoprotein, a scaffold for elastin deposition rather than a component or cross-linker of collagen or elastin itself.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+
+
+## secondary_node_ids
+
+
+## topic
+Extracellular matrix proteins
+
+## subtopic
+Connective tissue disorders
+
+## microtopic
+Marfan syndrome (fibrillin-1)
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Biochemistry
+
+## article_ids
+ART-FND-MU104-COLLAGEN-MINERAL-VITD
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-FND-C634004C7B9069
+
+## resource_ids
+src_57f44dcc809b58a1a81f
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.85
+
+## atomic_claim_ids
+CLM-FND-MARFAN-FIBRILLIN-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Marfan syndrome is caused by defect in: / fibrillin
+
+## exam_signal
+src_c6bc4b9cefd870477236 | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "marfan syndrome fibrillin" against live state and every pending batch via find-existing.mjs — no existing record found; same department-book page (p71) as CON-FND-31F96EC2F609C9's collagen/elastin table, so grouped into the same article family as related rather than merged (different gene/protein, different disease).
+mu: Tested as "01- MSK1 endmodule 2018 Group 1.pdf" Q19, "Marfan syndrome is caused by defect in:" (answer: fibrillin), red-text key p4.
+
+---
+
+# Item
+
+## label
+Articular (hyaline) cartilage grows by interstitial growth — division of pre-existing chondrocytes and matrix synthesis from within — during early cartilage formation and at articular surfaces and epiphyseal plates, as opposed to appositional growth from the perichondrium
+
+## id
+CON-MSK-21B3B134059401
+
+## canonical_key
+cartilage.hyaline-interstitial-growth
+
+## aliases
+Interstitial growth cartilage
+Hyaline cartilage growth
+Articular cartilage growth
+Appositional vs interstitial growth
+
+## arabic_label
+النمو الخلالي للغضروف الزجاجي
+
+## arabic_aliases
+نمو الغضروف المفصلي
+
+## definition
+Hyaline cartilage grows by two distinct processes. Interstitial growth results from division of pre-existing chondrocytes and synthesis of new matrix, expanding the cartilage from within; this type of growth occurs only during the early stages of cartilage formation, and specifically continues in articular cartilage and in the epiphyseal plates of long bones, both of which lack a perichondrium. Appositional growth, by contrast, results from differentiation of chondrogenic cells in the perichondrium into chondroblasts/new chondrocytes, which lay down a new layer of matrix on the cartilage surface and increase it in thickness. Because articular cartilage has no perichondrium covering its free (joint) surface, interstitial growth is the only mechanism available to it, which is why a question about articular cartilage's growth mode is specifically testing interstitial, not appositional, growth.
+
+## explicit_objective
+State that hyaline (articular) cartilage grows by interstitial growth — chondrocyte division and matrix synthesis from within — and distinguish this from appositional growth from the perichondrium, which articular cartilage lacks.
+
+## pitfalls
+Defaulting to "appositional growth" as the general answer for cartilage growth without noting that articular cartilage specifically has no perichondrium on its joint surface, so it can only grow interstitially — appositional growth applies to perichondrium-covered cartilage (e.g. during appositional thickening elsewhere), not to the articular surface itself.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+
+
+## secondary_node_ids
+SYS-MSK
+
+## topic
+Cartilage histology
+
+## subtopic
+Cartilage growth
+
+## microtopic
+Interstitial vs appositional growth of hyaline cartilage
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Histology
+
+## article_ids
+ART-MSK-MU104-INGUINAL-CARTILAGE-BONE
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-MSK-0F4870E557FAF4
+
+## resource_ids
+src_28963e11df2847487705
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-MSK-CARTILAGE-INTERSTITIAL-GROWTH-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+An old aged female complains of pain in the knee joints. X-RAY reveals damage of articular cartilage. What is the type of cartilage in this joint & how does it grow: / hyaline cartilage & grows by interstitial growth
+
+## exam_signal
+src_c6bc4b9cefd870477236 | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "hyaline cartilage interstitial growth" against live state and every pending batch via find-existing.mjs — no existing record; the live/pending CON-MSK-0F4870E557FAF4 (elastic vs fibrocartilage, minted by lane 1's overlay) covers a different cartilage-type-identification fact, not growth mechanism, so listed as related rather than merged.
+mu: Tested as "01- MSK1 endmodule 2018 Group 1.pdf" Q20, "...What is the type of cartilage in this joint & how does it grow:" (answer: hyaline cartilage & grows by interstitial growth), red-text key p4.
+
+---
+
+# Item
+
+## label
+Haversian systems (osteons), the structural units of compact bone, are concentric lamellae of osteocyte-containing lacunae organized around a central Haversian canal, which develops around and carries a blood vessel
+
+## id
+CON-MSK-59D70080410958
+
+## canonical_key
+bone.haversian-system-blood-vessel
+
+## aliases
+Haversian system
+Osteon
+Haversian canal blood vessel
+Compact bone structural unit
+
+## arabic_label
+جملة هافرس (الأوستيون)
+
+## arabic_aliases
+قناة هافرس والأوعية الدموية
+
+## definition
+Haversian systems (osteons) are the structural units of compact bone: long cylindrical structures running parallel to the bone's longitudinal axis, each built of 4 to 20 concentric circular lamellae of osteocytes in their lacunae, connected by canaliculi, arranged around a central canal — the Haversian canal. The Haversian canal itself contains loose connective tissue rich in blood and lymphatic vessels and nerves, lined by osteogenic cells and osteoblasts, so the osteon develops and is organized around this central vascular supply rather than around a Volkmann's canal (which instead runs transversely/obliquely to connect adjacent Haversian canals to each other and to the periosteum and marrow cavity, carrying the same contents but not itself the axis the lamellae are built around).
+
+## explicit_objective
+State that a Haversian system (osteon) is built as concentric bone lamellae organized around a central Haversian canal that carries a blood vessel, and distinguish this from a Volkmann's canal, which connects Haversian systems but is not itself the structure the lamellae develop around.
+
+## pitfalls
+Naming a Volkmann's canal as what a Haversian system develops around — Volkmann's canals are the transverse/oblique connecting canals between Haversian systems (and to the periosteum/marrow), sharing the same vascular contents, but the osteon's own concentric lamellae are organized around its own central (Haversian) canal and its blood vessel, not around a Volkmann's canal.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+
+
+## secondary_node_ids
+SYS-MSK
+
+## topic
+Bone histology
+
+## subtopic
+Compact bone structure
+
+## microtopic
+Haversian system (osteon) and its central canal
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Histology
+
+## article_ids
+ART-MSK-MU104-INGUINAL-CARTILAGE-BONE
+
+## related_article_ids
+
+
+## related_concept_ids
+
+
+## resource_ids
+src_28963e11df2847487705
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-MSK-HAVERSIAN-BLOOD-VESSEL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Bone biopsy obtained at the autopsy of a 68-years-old man femur is examined by light microscopy. Which one of the following is a correct statement concerning Haversian systems (osteons)? / develop around a blood vessel
+
+## exam_signal
+src_c6bc4b9cefd870477236 | paper | | p5 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "Haversian system osteon blood vessel" against live state and every pending batch via find-existing.mjs — no existing record found.
+mu: Tested as "01- MSK1 endmodule 2018 Group 1.pdf" Q25, "...correct statement concerning Haversian systems (osteons)?" (answer: develop around a blood vessel), red-text key p5.
+
+---
+
+# Item
+
+## label
+A sarcomere, the contractile unit of skeletal muscle, is defined as the distance between two successive Z lines, spanning an entire A band plus half of the I band on each side
+
+## id
+CON-MSK-F7047BEABE5133
+
+## canonical_key
+muscle.sarcomere-z-line-distance
+
+## aliases
+Sarcomere definition
+Distance between Z lines
+Contractile unit of muscle
+
+## arabic_label
+تعريف الوحدة القلبية (الساركومير)
+
+## arabic_aliases
+المسافة بين خطي Z
+
+## definition
+The sarcomere is the functional contractile unit of the skeletal muscle fiber, defined as the distance between two successive Z lines. Each sarcomere includes the entire A band (the dark band formed by overlapping thick and thin filaments) plus half of the I band (the light band, bisected by the Z line) on either side of that A band. During contraction, as thin filaments slide further onto the thick filaments, the sarcomere shortens and its Z lines move closer together, while the A band's own length stays constant — which is why sarcomere length (the Z-to-Z distance), not A-band length, is the standard measure of how much a muscle fiber has shortened.
+
+## explicit_objective
+Define the sarcomere as the distance between two successive Z lines (one full A band plus a half I band on each side), not the distance between any other pair of striations (A bands, H zones, I bands or M lines).
+
+## pitfalls
+Defining the sarcomere as the distance between two A bands, H zones, I bands or M lines instead of Z lines — the Z line sits in the center of the I band and marks the sarcomere's own boundary, so "successive Z lines" is the only pair of landmarks whose distance equals one full sarcomere.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+
+
+## secondary_node_ids
+SYS-MSK
+
+## topic
+Skeletal muscle physiology
+
+## subtopic
+Sarcomere structure
+
+## microtopic
+Definition of the sarcomere
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Physiology
+
+## article_ids
+ART-MSK-MU104-SARCOMERE-RIGORMORTIS
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-MSK-3111C167F86F7B
+
+## resource_ids
+src_c021a40ea9f6f8937c6d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.85
+
+## atomic_claim_ids
+CLM-MSK-SARCOMERE-Z-LINE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The sarcomere is the distance between two successive: / Z lines
+
+## exam_signal
+src_c4dfd4af7788e7831b4e | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "sarcomere Z line" against live state and every pending batch via find-existing.mjs — no existing record found.
+mu: Tested as "02- MSK1 endmodule 2018 Group 2.pdf" Q25, "The sarcomere is the distance between two successive:" (answer: Z lines), red-text key p5 (rendered to resolve an automated-tool ambiguity on this page — see coverage/MU-MED104-triage-keys.txt).
+
+---
+
+# Item
+
+## label
+Smooth muscle has no T tubules; instead, subsarcolemmal caveolae (sarcolemmal invaginations) serve the equivalent role of conducting the contraction impulse and, alongside the poorly developed sarcoplasmic reticulum, regulating calcium flow
+
+## id
+CON-MSK-3111C167F86F7B
+
+## canonical_key
+smoothmuscle.caveolae-t-tubule-equivalent
+
+## aliases
+Caveolae smooth muscle
+T tubules absent smooth muscle
+Subsarcolemmal caveolae
+
+## arabic_label
+التجاويف الكهفية في العضلة الملساء
+
+## arabic_aliases
+بديل الأنيبيبات المستعرضة في العضلة الملساء
+
+## definition
+Unlike skeletal muscle, smooth muscle has no T-tubule system — the department's histology book states this explicitly. In their place, the smooth muscle cell's sarcolemma shows numerous vesicular invaginations called caveolae (subsarcolemmal caveoli), clustered just beneath the plasma membrane. These caveolae are taught as functionally replacing T tubules: they conduct the contraction impulse into the cell interior the way T tubules do in striated muscle, and — together with the smooth muscle cell's own poorly developed sarcoplasmic reticulum — they help regulate cytoplasmic calcium flow, which in smooth muscle is drawn 90% from the extracellular fluid and only about 10% from the SR.
+
+## explicit_objective
+State that smooth muscle lacks T tubules and that caveolae are its taught functional and structural equivalent, conducting the contraction impulse and helping regulate calcium alongside the poorly developed sarcoplasmic reticulum.
+
+## pitfalls
+Naming dense bodies, attachment plaques, desmin or gap junctions as the T-tubule equivalent — dense bodies and attachment plaques anchor actin filaments (replacing the Z line's anchoring role, not the T tubule's impulse-conducting role), desmin is a cytoskeletal intermediate filament protein, and gap junctions electrically couple adjacent cells rather than conducting the impulse into a single cell's interior; caveolae specifically are the structure the histology book names as functioning like T tubules.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+
+
+## secondary_node_ids
+SYS-MSK
+
+## topic
+Smooth muscle histology
+
+## subtopic
+Smooth muscle ultrastructure
+
+## microtopic
+Caveolae as the T-tubule equivalent
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Histology
+
+## article_ids
+ART-MSK-MU104-SARCOMERE-RIGORMORTIS
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-MSK-A10AC6BAF27F00
+CON-MSK-F7047BEABE5133
+
+## resource_ids
+src_28963e11df2847487705
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.8
+
+## atomic_claim_ids
+CLM-MSK-CAVEOLAE-T-TUBULE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+In smooth muscle cells, which of the following represents T-tubules? / Caveolae
+
+## exam_signal
+src_c4dfd4af7788e7831b4e | paper | | p4 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "smooth muscle caveolae T-tubule" against live state and every pending batch via find-existing.mjs — no existing record; distinct from the live/pending CON-MSK-A10AC6BAF27F00 (smooth muscle action-potential electrophysiology, minted by lane 1's overlay), which is about depolarization type not ultrastructure, so listed as related rather than merged.
+mu: Tested as "02- MSK1 endmodule 2018 Group 2.pdf" Q26, "In smooth muscle cells, which of the following represents T-tubules?" (answer: Caveolae), red-text key p5 (rendered to resolve an automated-tool ambiguity on this page — see coverage/MU-MED104-triage-keys.txt).
+
+---
+
+# Item
+
+## label
+Rigor mortis is the postmortem stiffening of muscle caused by ATP depletion: without ATP, myosin cross bridges that have attached to actin cannot detach, so they remain permanently bound and the muscle becomes rigid
+
+## id
+CON-MSK-9E796550525422
+
+## canonical_key
+muscle.rigor-mortis-atp-crossbridge
+
+## aliases
+Rigor mortis mechanism
+ATP cross bridge detachment
+Postmortem muscle stiffening
+
+## arabic_label
+آلية التيبس الرمي (تيبس ما بعد الموت)
+
+## arabic_aliases
+نفاد الـATP وتيبس العضلات
+
+## definition
+Rigor mortis is the stiffening of the joints and muscles that occurs after death, caused by depletion of ATP. ATP normally supplies the energy for the power stroke of contraction and is also required to break the actin-myosin cross bridge so the head can release and reset for another cycle; it is this second, detachment role that fails in rigor mortis. Once ATP is exhausted after death, the calcium pumps also stop functioning, so cytoplasmic calcium remains elevated and the actin binding sites stay exposed; the myosin cross bridges that attach to these exposed sites can no longer detach for lack of ATP, and this large-scale, unresolved binding of myosin to actin is what makes the body rigid. The muscle remains in rigor until the muscle proteins themselves begin to deteriorate (autolysis/putrefaction breaks the bound cross bridges down), which is why rigor mortis eventually resolves without any new ATP being made.
+
+## explicit_objective
+State that rigor mortis is caused by ATP depletion preventing the detachment of already-formed actin-myosin cross bridges (not by a failure to form cross bridges, and not by ATP continuing to be made after death), leaving the muscle permanently cross-bridged and rigid.
+
+## pitfalls
+Reversing the mechanism — saying ATP is needed for cross-bridge formation rather than detachment, or that ATP continues to be formed after death — rigor mortis specifically results from cross bridges that have already formed becoming unable to detach because no further ATP is being made, not from a failure to form them in the first place.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+
+
+## secondary_node_ids
+SYS-MSK
+
+## topic
+Skeletal muscle physiology
+
+## subtopic
+Muscle contraction and relaxation biochemistry
+
+## microtopic
+Rigor mortis mechanism
+
+## nanotopic
+
+
+## modules
+MU-MED104
+
+## module_subject
+MU-MED104 > 00 Module-wide > 06 EOM Exams > MSK1 Endmodule 2018 > Physiology
+
+## article_ids
+ART-MSK-MU104-SARCOMERE-RIGORMORTIS
+
+## related_article_ids
+
+
+## related_concept_ids
+CON-MSK-F7047BEABE5133
+
+## resource_ids
+src_c021a40ea9f6f8937c6d
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+mu
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+MU_Y1=0.4
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.85
+
+## atomic_claim_ids
+CLM-MSK-RIGOR-MORTIS-CROSSBRIDGE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+A cadaver discovered two days after death showing Rigor Mortis Signs in the form of Stiffening of the joints and muscles. What is the cause of the stifness? / Increased cross-bridge duration [Group 1] · ATP, which is necessary for the detachment of cross bridges, is not being formed [Group 2]
+
+## exam_signal
+src_c6bc4b9cefd870477236 | paper | | p6 | MU-MED104
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+sourceCandidateIds: Searched "rigor mortis cross bridge ATP" against live state and every pending batch via find-existing.mjs — no existing record found.
+mu: Tested twice — "01- MSK1 endmodule 2018 Group 1.pdf" Q30, "...What is the cause of the stifness?" (answer: Increased cross-bridge duration), red-text key p6; "02- MSK1 endmodule 2018 Group 2.pdf" Q30, same stem (answer: "ATP, which is necessary for the detachment of cross bridges, is not being formed"), red-text key p5 (rendered to resolve an automated-tool ambiguity on this page — see coverage/MU-MED104-triage-keys.txt). Same mechanism, two option-wordings, one concept, two questions.
