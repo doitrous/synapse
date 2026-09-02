@@ -476,3 +476,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - Assessment 1: Physiology Q26-45 (20) + Pathology block (14) → 34 authored, 4 held (dups). 33 `CON-REN-*` mints + 33 articles; validator errors=[]; simulate errors=0 rejected=0; duplicate-keys 0. Ledger assessment-1-mcq 54/4/20. Lane notes triage-keys numbering for this cluster is stale past Physio Q47 (q48-62 placeholders = the ~5-item Micro block).
 - Second shared-worktree casualty: the lane's recovery push dropped two board entries (AU-203 lane 5, CVS-201 tranche 6) — restored above from history. Both resumed lanes are now finished; the shared checkout is no longer in use.
 - Lane 5 dispatched: Assessment 1 remainder (q01/q04/q08/q23/q24 + Micro block) + Collection leftovers (q018/q023/q125-128) + next UG paper. Fleet 20/20.
+
+### 2026-09-02 — MANSOURA PPPM lane 1 LANDED (473e3c8b, 902770e5, 9ecfffed)
+- `PPPM Exam Bank (61,60,59,58)`: 218 items / 4 subjects, 216 keyed (99%) by printed red bold marks in a right-margin key column — `pagetext keys` mis-attributes the column (2/10 on spot-check); keys read from 6 renders. Pharmacology pp.1-6: 30/30 authored, 0 held. 13 pending reuses (Kasr 108/208/102, Helwan GIT-301, Assiut MPT-104), 10 mints (one prodrug near-dup in Helwan not reused because its article is an orphan reference). batch errors=0 ×3; 15-file simulate rejected=0. ≈8k tok/q (key investigation + full-schema mints).
+- Lane 2 dispatched on Pharmacology pp.7-16 (~50 items). Fleet 20/20.
