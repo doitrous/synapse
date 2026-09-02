@@ -5643,3 +5643,4449 @@ media: No medical image exists in this repository for this labelling question; f
 au: Workshop Quiz 2, p9 q32
 
 ---
+
+# Item
+
+## id
+CON-NEU-C45E0A9DC87329
+
+## label
+Sternocleidomastoid is spared in facial nerve (LMN) palsy
+
+## canonical_key
+neuro.facial-nerve.sternomastoid-spared-in-palsy
+
+## definition
+The facial nerve (CN VII) supplies the muscles of facial expression, stapedius, buccinator, orbicularis oculi and other second-arch derivatives. Sternocleidomastoid is a spinal accessory nerve (CN XI) muscle, not a facial-nerve muscle, so it is spared even in a complete lower motor neuron facial nerve palsy (Bell's palsy).
+
+## explicit_objective
+State that sternocleidomastoid, being an accessory-nerve (CN XI) muscle, is spared in facial nerve palsy, unlike buccinator and orbicularis oculi.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerves
+
+## subtopic
+Facial nerve motor territory
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Facial nerve palsy|Bell's palsy spared muscles|Accessory nerve muscles
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming every muscle of the head and neck answers to the facial nerve; sternocleidomastoid and trapezius are accessory-nerve (CN XI) muscles, unaffected by a facial nerve lesion.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Cranial nerves
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p2 q1 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C45E0A9DC87329
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following muscle is spared in case of facial nerve palsy ? A- sternomastoid B- stapedius C- buccinator D- orbicularis oculi. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p2 q1
+
+---
+
+# Item
+
+## id
+CON-NEU-AA223B5B388120
+
+## label
+This source's Workshop Quiz 3 marks the olfactory nerve's functional component as SVE, though standard teaching classifies it as SVA
+
+## canonical_key
+neuro.cranial-nerve.olfactory-nerve-functional-component
+
+## definition
+The seven functional-component scheme classifies cranial nerve fibers as GSE/GVE/SVE (motor) or GSA/GVA/SVA/SSA (sensory). The olfactory nerve (CN I) is a purely sensory nerve arising from the olfactory epithelium, and standard neuroanatomy teaching (its embryological kinship with the special-visceral-afferent taste pathway) classifies it as SVA (special visceral afferent) — SVE is a motor category that applies to branchial-arch muscles (e.g. facial, trigeminal, vagus, accessory), which cannot describe a purely sensory nerve.
+
+## explicit_objective
+State that the olfactory nerve is a purely sensory (SVA) cranial nerve, distinct from the SVE (branchiomotor) category used for the trigeminal, facial, glossopharyngeal, vagus and accessory nerves.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerves
+
+## subtopic
+Functional component classification
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Olfactory nerve classification|SVA vs SVE|Cranial nerve functional components
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing SVA (special visceral afferent, the olfactory/taste sensory category) with SVE (special visceral efferent, the branchiomotor category), or assigning a purely sensory nerve a motor functional component.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Cranial nerves
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p2 q3 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-AA223B5B388120
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+what is the nucleus of olfactory nerve ? A- SSA B- GVA C- SVE D- SVA. Key: C (source's printed key; see author_notes).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p2 q3
+
+---
+
+# Item
+
+## id
+CON-NEU-4B44D513B80927
+
+## label
+The parieto-temporo-occipital junction ("circular area"), when destroyed, causes word blindness (alexia)
+
+## canonical_key
+neuro.cerebral-cortex.circular-area-word-blindness
+
+## definition
+The angular gyrus and the surrounding parieto-temporo-occipital junction — sometimes drawn on teaching diagrams as a border-zone "circular area" around the lateral (Sylvian) fissure's posterior end — integrate visual, auditory and somatosensory association cortex for reading and writing. A lesion here classically produces alexia (word blindness, inability to read written language) and, when it extends to include agraphia, forms part of the angular gyrus (Gerstmann-adjacent) syndrome, distinct from Broca's aphasia (expressive, inferior frontal) or cortical deafness (auditory cortex).
+
+## explicit_objective
+Attribute word blindness (alexia) to destruction of the parieto-temporo-occipital junction/angular gyrus region, distinct from Broca's aphasia or hearing loss.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Language and reading cortex
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Circular area|Angular gyrus lesion|Alexia|Word blindness
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing alexia (a reading disorder from a parieto-temporo-occipital lesion) with Broca's aphasia (an expressive-speech disorder from an inferior frontal lesion) or with a primary hearing deficit.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral cortex > Cerebral cortex
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p2 q4 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4B44D513B80927
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following may occur due to destruction of the circular area ? A- Broca's aphasia B- agraphia C- word blindness D- loss of hearing. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p2 q4
+
+---
+
+# Item
+
+## id
+CON-NEU-FE4E8E91C5BFFB
+
+## label
+The middle cerebral artery arises as the larger terminal branch of the internal carotid artery
+
+## canonical_key
+neuro.cerebral-vasculature.mca-origin-from-ica
+
+## definition
+At the base of the brain, the internal carotid artery terminates by dividing into two terminal branches: the smaller anterior cerebral artery and the much larger middle cerebral artery (MCA), which continues the ICA's general trajectory laterally into the Sylvian fissure. The MCA is not a branch of the posterior cerebral or basilar arteries, which instead arise from the vertebrobasilar (posterior circulation) system.
+
+## explicit_objective
+State that the middle cerebral artery is the internal carotid artery's larger terminal branch, distinct from the posterior circulation's basilar/posterior cerebral arteries.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral vasculature
+
+## subtopic
+Circle of Willis — terminal ICA branches
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Middle cerebral artery origin|Internal carotid artery bifurcation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning the MCA to the posterior (vertebrobasilar) circulation rather than as the ICA's own terminal continuation.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral vasculature > Cerebral vasculature
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p2 q5 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FE4E8E91C5BFFB
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following is the origin of the artery passing at green arrow ? [figure: MCA] A- middle cerebral artery B- internal carotid artery C- posterior cerebral artery D- basilar artery. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p2 q5
+
+---
+
+# Item
+
+## id
+CON-NEU-4A0F99727B2E94
+
+## label
+The amygdaloid nucleus bulges into and compresses the temporal (inferior) horn of the lateral ventricle
+
+## canonical_key
+neuro.temporal-lobe.amygdala-compresses-temporal-horn
+
+## definition
+The amygdala sits in the medial temporal lobe at the anterior tip of the temporal (inferior) horn of the lateral ventricle, together with the hippocampus that lines its floor. Its bulging medial surface indents and narrows the temporal horn — a landmark used in reading temporal-lobe imaging — distinct from the 3rd or 4th ventricles, which lie in the midline diencephalon and brainstem/cerebellum respectively, well away from the amygdala.
+
+## explicit_objective
+State that the amygdaloid nucleus bulges into and compresses the temporal horn of the lateral ventricle, not the 3rd or 4th ventricle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Temporal lobe
+
+## subtopic
+Medial temporal lobe and ventricular relations
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Amygdala|Temporal horn of lateral ventricle
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing the amygdala's ventricular relation at the 3rd or 4th ventricle rather than the temporal horn of the lateral ventricle, where it actually sits alongside the hippocampus.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral cortex > Temporal lobe
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p3 q6 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4A0F99727B2E94
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following is compressed by amygdaloid nucleus ? A- 3rd ventricle B- central canal C- 4th ventricle D- lateral ventricle. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p3 q6
+
+---
+
+# Item
+
+## id
+CON-NEU-9D8B5F9A96EFEB
+
+## label
+The facial colliculus swelling in the 4th ventricle floor is formed by the abducens nucleus, looped over by facial nerve fibers
+
+## canonical_key
+neuro.brainstem.facial-colliculus-abducens-nucleus
+
+## definition
+In the pons, the facial nerve's intrapontine fibers loop (the internal genu) around the abducens (CN VI) nucleus before exiting the brainstem, and this looped complex bulges the floor of the fourth ventricle to form the facial colliculus. Despite its name, the colliculus's underlying swelling is produced chiefly by the abducens nucleus, not a facial nucleus that sits at that level — the facial motor nucleus itself lies more ventrolaterally in the pontine tegmentum.
+
+## explicit_objective
+State that the facial colliculus is formed principally by the abducens nucleus (with the looping facial nerve fibers around it), not by a facial nucleus.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Brainstem
+
+## subtopic
+Fourth ventricle floor landmarks
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Facial colliculus|Abducens nucleus|Internal genu of facial nerve
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the facial colliculus is formed by the facial nucleus because of its name, rather than by the abducens nucleus that the facial nerve's internal genu loops around.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Brainstem > Brainstem
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p4 q10 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-9D8B5F9A96EFEB
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following is responsible for the formation of facial colliculus ? A- Abducent nucleus B- facial nucleus C- hypoglossal nucleus D- vestibular nucleus. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p4 q10
+
+---
+
+# Item
+
+## id
+CON-NEU-71F37542DF2271
+
+## label
+Vagus nerve rootlets emerge from the postolivary sulcus, between the olive and the inferior cerebellar peduncle
+
+## canonical_key
+neuro.cranial-nerve.vagus-rootlets-postolivary-sulcus
+
+## definition
+The vagus nerve's rootlets, together with the glossopharyngeal and cranial-root accessory nerve rootlets, emerge from the medulla's postolivary sulcus — the groove between the olive anterolaterally and the inferior cerebellar peduncle posterolaterally. This is distinct from the hypoglossal nerve's rootlets, which instead emerge from the preolivary sulcus, between the pyramid and the olive.
+
+## explicit_objective
+State that vagus nerve rootlets emerge from the postolivary sulcus, between the olive and inferior cerebellar peduncle, distinct from the hypoglossal nerve's preolivary emergence.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerves
+
+## subtopic
+Medullary rootlet emergence
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Vagus nerve rootlets|Postolivary sulcus|Preolivary sulcus
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing vagus nerve rootlets in the preolivary sulcus (the hypoglossal nerve's site) rather than the postolivary sulcus, between the olive and inferior cerebellar peduncle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Cranial nerves
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p4 q13 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-71F37542DF2271
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+The rootlets of the vagus nerve are emerging between A- Pyramid and olive B- Pyramid and pons C- Olive and inferior cerebellar peduncle D- Gracile and cuneate tubercles. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p4 q13
+
+---
+
+# Item
+
+## id
+CON-FND-7B75BAB3A4E6C6
+
+## label
+The muscles of facial expression develop from the first pharyngeal arch
+
+## canonical_key
+embryology.pharyngeal-arch.first-arch-muscles-of-face
+
+## definition
+This source's Workshop Quiz 3 marks the second pharyngeal arch as the origin of the muscles of facial expression, matching standard embryology teaching that these muscles, along with stapedius, stylohyoid and posterior belly of digastric, are second-arch (facial nerve, CN VII) derivatives.
+
+## explicit_objective
+State that the muscles of facial expression are second pharyngeal (branchial) arch derivatives, supplied by the facial nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Pharyngeal arch embryology
+
+## subtopic
+Muscular derivatives of the arches
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Muscles of facial expression|Second pharyngeal arch|Facial nerve muscles
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning the muscles of facial expression to the first (trigeminal, muscles of mastication) rather than the second (facial nerve) pharyngeal arch.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal arch embryology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p5 q15 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-7B75BAB3A4E6C6
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+what is the Origin of muscle of face ? A- first arch B- second arch C- third arch D- fourth arch. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p5 q15
+
+---
+
+# Item
+
+## id
+CON-NEU-C8E29E775C6856
+
+## label
+The maxillary nerve (V2) supplies sensation to the upper lip
+
+## canonical_key
+neuro.cranial-nerve.maxillary-nerve-upper-lip
+
+## definition
+The maxillary division of the trigeminal nerve (V2) supplies cutaneous and mucosal sensation to the mid-face, including the upper lip, via its infraorbital nerve branch. This is distinct from the ophthalmic division (V1, upper face/eye) and the mandibular division (V3, lower face/chin/lower lip), so an isolated upper-lip sensory lesion localises to V2.
+
+## explicit_objective
+Localise upper-lip sensory loss to the maxillary (V2) division of the trigeminal nerve, distinct from the ophthalmic and mandibular divisions.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerves
+
+## subtopic
+Trigeminal nerve sensory territory
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Maxillary nerve|Infraorbital nerve|Trigeminal divisions
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning upper-lip sensation to the ophthalmic (V1) or mandibular (V3) division rather than the maxillary (V2) division, whose infraorbital branch supplies it.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Cranial nerves
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p5 q18 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C8E29E775C6856
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+23 years old male went to the physician with abnormality in the sensation of upper lip, after doing many tests by the physician, he discovered that there's a lesion in which of the following nerve ? A- opthalmic B- mandibular C- Maxillary D- facial. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p5 q18
+
+---
+
+# Item
+
+## id
+CON-NEU-4D96D26186D63D
+
+## label
+This source's Workshop Quiz 3 marks the dorsal nucleus of the vagus as supplying the lacrimal gland, though standard teaching attributes lacrimal parasympathetic supply to the superior salivatory nucleus
+
+## canonical_key
+neuro.autonomic.superior-salivatory-nucleus-lacrimal-gland
+
+## definition
+Standard physiology teaching places the lacrimal gland's parasympathetic supply in the superior salivatory nucleus, whose preganglionic fibers travel via the facial nerve's greater petrosal nerve and synapse in the pterygopalatine ganglion before reaching the gland — the same nucleus also supplies the submandibular and sublingual glands via the chorda tympani. The dorsal (motor) nucleus of the vagus, by contrast, supplies parasympathetic outflow to thoracic and abdominal viscera (heart, lungs, gut to the splenic flexure), not the lacrimal gland.
+
+## explicit_objective
+State that the superior salivatory nucleus, not the dorsal nucleus of the vagus, is the parasympathetic nucleus supplying the lacrimal gland.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Autonomic nervous system
+
+## subtopic
+Cranial parasympathetic nuclei
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Superior salivatory nucleus|Lacrimal gland parasympathetic supply|Dorsal nucleus of vagus
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing lacrimal gland parasympathetic supply to the dorsal (vagal) nucleus, a thoracoabdominal-viscera nucleus, rather than the superior salivatory nucleus; see author_notes for this source's own printed key.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Autonomic nervous system
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p6 q22 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4D96D26186D63D
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+The parasympathetic nucleus supplying the lacrimal gland is: A- Superior salivary B- Inferior salivary C- Edinger-Westiphal D- Dorsal nucleus of vagus. Key: D (source's printed key; see author_notes).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p6 q22
+
+---
+
+# Item
+
+## id
+CON-NEU-B657A9987411BF
+
+## label
+The lateral motor nucleus (limb-muscle motor column) is not found in thoracic spinal cord segments
+
+## canonical_key
+neuro.spinal-cord.thoracic-lateral-motor-nucleus-absent
+
+## definition
+Thoracic spinal cord anterior horn grey matter genuinely contains the medial motor nucleus (axial/trunk muscles) and, in the lateral horn, the sympathetic (intermediolateral) nucleus and Clark's nucleus. The lateral motor nucleus, which supplies limb muscles, is instead concentrated in the cervical and lumbosacral enlargements (the segments innervating the upper and lower limbs), and is essentially absent from the thoracic segments, which have no limb musculature to supply.
+
+## explicit_objective
+State that the lateral (limb) motor nucleus is absent from thoracic spinal cord segments, unlike the medial motor, sympathetic and Clark's nuclei, which are genuinely thoracic.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Spinal cord
+
+## subtopic
+Thoracic cord grey matter nuclei
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Lateral motor nucleus|Thoracic cord grey matter|Limb motor column
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming every named ventral-horn motor nucleus is present at every cord level; the lateral (limb) motor column is confined to the cervical and lumbosacral enlargements, absent thoracically.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Spinal cord > Spinal cord
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p6 q23 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-B657A9987411BF
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following nucleus isn't found in the thoracic segments ? A- medial motor nucleus B- sympathetic nucleus C- Clark's nucleus D- lateral motor nucleus. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p6 q23
+
+---
+
+# Item
+
+## id
+CON-NEU-E52F57F2921C77
+
+## label
+Middle meningeal vessels pass through the foramen spinosum
+
+## canonical_key
+neuro.skull-base.foramen-spinosum-middle-meningeal
+
+## definition
+The middle meningeal artery and vein pass through the foramen spinosum, a small opening in the greater wing of the sphenoid posteromedial to foramen ovale. This is distinct from foramen ovale (mandibular nerve), foramen lacerum (largely closed by cartilage, transmitting only small vessels) and foramen rotundum (maxillary nerve).
+
+## explicit_objective
+State that the middle meningeal vessels pass through the foramen spinosum, distinct from the mandibular nerve's foramen ovale or the maxillary nerve's foramen rotundum.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Skull base
+
+## subtopic
+Skull base foramina
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Foramen spinosum|Middle meningeal artery|Skull base foramina
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing foramen spinosum (middle meningeal vessels) with the adjacent foramen ovale (mandibular nerve) or foramen rotundum (maxillary nerve).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Skull base > Skull base
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p7 q24 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E52F57F2921C77
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+The middle meningeal vessels pass through which of the following skull foramina? A- Ovale B- Spinosum C- Lacerum D- rotundum. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p7 q24
+
+---
+
+# Item
+
+## id
+CON-FND-6741DFE8920A3E
+
+## label
+The palatine tonsil originates from the second pharyngeal pouch
+
+## canonical_key
+embryology.pharyngeal-pouch.palatine-tonsil-second-pouch
+
+## definition
+The palatine tonsil develops from the second pharyngeal pouch's endodermal lining, which is invaded by lymphoid tissue to form the tonsillar crypts and follicles. This is distinct from the first pouch (middle ear/auditory tube), third pouch (inferior parathyroid, thymus) and fourth pouch (superior parathyroid, ultimobranchial body).
+
+## explicit_objective
+State that the palatine tonsil originates from the second pharyngeal pouch, distinct from the first, third or fourth pouches' derivatives.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Pharyngeal pouch embryology
+
+## subtopic
+Second pouch derivatives
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Palatine tonsil origin|Second pharyngeal pouch
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning the palatine tonsil to the first, third or fourth pharyngeal pouch rather than the second, whose endoderm it develops from.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal pouch embryology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p7 q27 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-6741DFE8920A3E
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+what is the Origin of palatine tonsil ? 1- first pouch 2- second arch 3- third pouch 4- second pouch. Key: D (fourth listed option, second pouch).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p7 q27
+
+---
+
+# Item
+
+## id
+CON-FND-70BDEFD335E3E1
+
+## label
+Oligodendrocytes are not derived from the neural crest
+
+## canonical_key
+embryology.neural-crest.oligodendrocyte-not-neural-crest
+
+## definition
+Oligodendrocytes, the CNS myelinating glia, arise from the neuroepithelium of the neural tube, not the neural crest. Schwann cells (PNS myelinating glia) and the pia mater (leptomeninges), by contrast, ARE neural-crest derivatives, along with pharyngeal-arch ectomesenchyme — making oligodendrocytes the exception among these four options.
+
+## explicit_objective
+State that oligodendrocytes are neural-tube (not neural-crest) derivatives, unlike Schwann cells, pia mater and pharyngeal-arch mesenchyme.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Neural crest embryology
+
+## subtopic
+Neural crest vs neural tube derivatives
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Oligodendrocytes|Neural crest derivatives|Schwann cells
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming all glial cells share a neural-crest origin; oligodendrocytes (CNS) are neuroepithelial, while Schwann cells (PNS) are neural-crest derivatives.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Neural crest embryology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p2 q1 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-70BDEFD335E3E1
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following isn't derived from the neural crest ? A- oligodendrocytes B- pia matter C- Schwann cells D- mesenchyme of pharyngeal arches. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p2 q1
+
+---
+
+# Item
+
+## id
+CON-NEU-24E57A0FBCE877
+
+## label
+The ciliary body regulates lens accommodation
+
+## canonical_key
+neuro.eye.ciliary-body-accommodation-b-label
+
+## definition
+The ciliary body, via the ciliary muscle acting through the zonular fibers on the lens capsule, is the structure responsible for accommodation — adjusting lens curvature/power for near vision. This is distinct from the trabecular meshwork (aqueous humor outflow, site of blockage in glaucoma) and the ciliary epithelium's separate secretory role (aqueous humor production), both of which are anatomically related but functionally distinct roles of nearby structures.
+
+## explicit_objective
+Identify the ciliary body/ciliary muscle as the structure regulating accommodation, distinct from the aqueous humor outflow and production roles of neighbouring structures.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Anatomy of the eye
+
+## subtopic
+Ciliary body function
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Ciliary body|Accommodation|Ciliary muscle
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Conflating the ciliary body's accommodation role with the trabecular meshwork's aqueous outflow role or the ciliary epithelium's aqueous production role — three distinct functions of related anterior-segment structures.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses anatomy > Anatomy of the eye
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p2 q3 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-24E57A0FBCE877
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Which of the following statements describes the structure labeled B in the figure below? [eye diagram] A- It is involved in the regulation of accommodation B- It is the site of outflow of vitreous humor from the posterior chamber C- It is responsible for the production of aqueous humer D- It is the site of blockage in glaucoma. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p2 q3
+
+---
+
+# Item
+
+## id
+CON-FND-D33FD145EF1078
+
+## label
+The sixth pharyngeal arch cartilage gives rise to the arytenoid, cricoid and corniculate cartilages
+
+## canonical_key
+embryology.pharyngeal-arch.sixth-arch-cartilage-derivatives
+
+## definition
+The sixth pharyngeal arch cartilage forms the arytenoid, cricoid and corniculate cartilages of the larynx, together with the cricothyroid muscle's antagonist intrinsic laryngeal muscles (supplied by the recurrent laryngeal nerve). The thyroid cartilage instead derives from the fourth arch, and the greater horn of the hyoid bone from the third arch — distinct pharyngeal-arch cartilage assignments that are commonly tested against each other.
+
+## explicit_objective
+State that the arytenoid cartilage is a sixth-arch derivative, distinct from the fourth arch's thyroid cartilage and the third arch's greater horn of the hyoid.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+
+
+## topic
+Pharyngeal arch embryology
+
+## subtopic
+Sixth arch cartilage derivatives
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Sixth pharyngeal arch|Arytenoid cartilage|Laryngeal cartilage development
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning the arytenoid cartilage to the fourth arch (thyroid cartilage's arch) or confusing it with the third arch's greater horn of the hyoid.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Embryology > Pharyngeal arch embryology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p3 q7 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-D33FD145EF1078
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following is derived from the sixth pharyngeal arch? A- cricothyroid muscle B- arytenoid cartilage C- thyroid cartilage D- greater horn of hyoid bone. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p3 q7
+
+---
+
+# Item
+
+## id
+CON-NEU-4962859DA23764
+
+## label
+The lateral horns of spinal cord grey matter contain sympathetic (and sacral parasympathetic) preganglionic nuclei
+
+## canonical_key
+neuro.spinal-cord.lateral-horn-sympathetic-nuclei
+
+## definition
+The lateral horn, present at thoracic and upper lumbar (T1-L2) segments and again at sacral (S2-4) segments, contains the intermediolateral cell column — sympathetic preganglionic neurons at T1-L2 and parasympathetic preganglionic neurons at S2-4. This is distinct from the anterior horn's motor (somatic efferent) nuclei and the posterior horn's sensory relay nuclei, which are not classified as lateral-horn structures.
+
+## explicit_objective
+State that the lateral horn of spinal grey matter houses autonomic (sympathetic T1-L2, parasympathetic S2-4) preganglionic nuclei, distinct from anterior-horn motor or posterior-horn sensory nuclei.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Spinal cord
+
+## subtopic
+Lateral horn autonomic nuclei
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Lateral horn|Intermediolateral cell column|Sympathetic preganglionic neurons
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning motor or sensory function to the lateral horn, which is instead the spinal cord's autonomic (sympathetic/sacral parasympathetic) preganglionic column.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Spinal cord > Spinal cord
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p4 q10 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4962859DA23764
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+The lateral horns of grey matter contain which of the following nuclei ? a. Commissural b. Motor c. Sensory d. Sympathetic. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p4 q10
+
+---
+
+# Item
+
+## id
+CON-NEU-FEDCD802906A53
+
+## label
+The cerebello-reticular tract exits the cerebellum via the inferior cerebellar peduncle
+
+## canonical_key
+neuro.cerebellum.inferior-peduncle-efferent-tracts
+
+## definition
+The inferior cerebellar peduncle (restiform body) carries predominantly afferent input into the cerebellum (dorsal spinocerebellar, olivocerebellar, cuneocerebellar, vestibulocerebellar fibers), but also carries a smaller efferent component leaving the cerebellum — including cerebello-vestibular and cerebello-reticular fibers, which project from the fastigial nucleus to the vestibular nuclei and reticular formation respectively. Corticopontocerebellar fibers, by contrast, enter via the MIDDLE cerebellar peduncle, which is purely afferent.
+
+## explicit_objective
+Identify the cerebello-reticular tract as an efferent pathway leaving the cerebellum via the inferior cerebellar peduncle, alongside its predominantly afferent traffic.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebellum
+
+## subtopic
+Cerebellar peduncle connections
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Inferior cerebellar peduncle|Cerebello-reticular tract|Restiform body
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming the inferior cerebellar peduncle is purely afferent; it also carries a genuine efferent component (cerebello-vestibular, cerebello-reticular fibers) out of the cerebellum.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebellum > Cerebellum
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p4 q11 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FEDCD802906A53
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following tracts exit from inferior cerebellar peduncle ? A- cerebello reticular B- cerebello olivary C- cortico ponntine cerebellum D- vestibulo cerebellum. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p4 q11
+
+---
+
+# Item
+
+## id
+CON-NEU-4E16F054159EF4
+
+## label
+The internal medullary lamina is the Y-shaped white matter sheet dividing the thalamus into anterior, medial and lateral nuclear groups
+
+## canonical_key
+neuro.thalamus.internal-medullary-lamina
+
+## definition
+The internal medullary lamina is a Y-shaped (or vertically-oriented) sheet of myelinated fibers within the thalamus that partitions its grey matter into the anterior, medial and lateral nuclear groups, and splits anteriorly to enclose the anterior nuclear group. This is distinct from the lamina terminalis (a diencephalic midline structure, not intrathalamic) and the stria medullaris thalami (a fiber bundle on the thalamus's dorsomedial surface, not an internal dividing sheet).
+
+## explicit_objective
+Identify the internal medullary lamina as the Y-shaped fiber sheet dividing the thalamus into anterior, medial and lateral nuclear groups.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Thalamus
+
+## subtopic
+Thalamic internal architecture
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Internal medullary lamina|Thalamic nuclear groups|Stria medullaris thalami
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the internal medullary lamina (the intrathalamic Y-shaped dividing sheet) with the stria medullaris thalami or lamina terminalis, which are different structures entirely.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Thalamus > Thalamus
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p5 q13 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-4E16F054159EF4
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+The Y-shaped sheet of white matter that divides thalamus into its three main parts (anterior, medial, and lateral) is called: A- Lamina terminalis B- Stria medullaris thalami C- Internal medullary lamina D- Lamina cribrosa. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p5 q13
+
+---
+
+# Item
+
+## id
+CON-NEU-E82953158F217C
+
+## label
+The posterior inferior cerebellar artery (PICA) shares in the blood supply of the medulla
+
+## canonical_key
+neuro.brainstem-vasculature.pica-medulla-supply
+
+## definition
+The posterior inferior cerebellar artery (PICA), typically a branch of the vertebral artery, supplies the dorsolateral medulla (along with the inferior cerebellar surface) — its occlusion produces the lateral medullary (Wallenberg) syndrome. This is distinct from the superior cerebellar artery (midbrain/pons, branch of the basilar) and the posterior cerebral/middle cerebral arteries, which supply cerebral hemispheric territory rather than the medulla.
+
+## explicit_objective
+State that the posterior inferior cerebellar artery supplies the medulla, distinct from the superior cerebellar, posterior cerebral or middle cerebral arteries.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Brainstem vasculature
+
+## subtopic
+Medullary blood supply
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+PICA|Posterior inferior cerebellar artery|Lateral medullary syndrome
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing medullary blood supply to the superior cerebellar or posterior/middle cerebral arteries rather than the posterior inferior cerebellar artery (PICA).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral vasculature > Brainstem vasculature
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p5 q15 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E82953158F217C
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+The following artery shares in the supply of the medulla: A- Posterior inferior cerebellar B- Superior cerebellar C- Posterior cerebral D- Middle cerebral. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p5 q15
+
+---
+
+# Item
+
+## id
+CON-NEU-6908C5B1242821
+
+## label
+Sternocleidomastoid bends the head to the same (ipsilateral) side and rotates the face to the opposite (contralateral) side
+
+## canonical_key
+neuro.cranial-nerve.sternocleidomastoid-action
+
+## definition
+Unilateral contraction of sternocleidomastoid produces lateral flexion (bending) of the head toward the SAME side as the contracting muscle, combined with rotation of the face toward the OPPOSITE side — the combined action used clinically to test accessory nerve (CN XI) function. This is distinct from trapezius (shoulder shrug/scapular rotation), scalenus medius (rib elevation/lateral neck flexion without the same rotary component) or buccinator (cheek compression, facial nerve).
+
+## explicit_objective
+State that sternocleidomastoid produces ipsilateral head tilt with contralateral face rotation, the muscle's classic combined action.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerves
+
+## subtopic
+Sternocleidomastoid action and innervation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Sternocleidomastoid action|Accessory nerve testing|Head tilt and rotation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Reversing sternocleidomastoid's action (contralateral tilt/ipsilateral rotation) rather than the correct ipsilateral-tilt/contralateral-rotation combination.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Cranial nerves
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p6 q18 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-6908C5B1242821
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+What is the muscle responsible for bending the head to the same side and rotating the face to the opposite side? A- Trapezius B- Stermomastoid C- Scalenus medius D- buccinator. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p6 q18
+
+---
+
+# Item
+
+## id
+CON-NEU-E1A552F884A97E
+
+## label
+The spinal accessory nerve (CN XI) motor nucleus is classified as SVE (special visceral efferent), the branchiomotor category
+
+## canonical_key
+neuro.cranial-nerve.accessory-nerve-sve-classification
+
+## definition
+The cranial nerves supplying muscles derived embryologically from the pharyngeal (branchial) arches — trigeminal, facial, glossopharyngeal, vagus and the cranial/spinal accessory nerve (sternocleidomastoid and trapezius) — share the SVE (special visceral efferent, branchiomotor) functional component, distinct from GSE (somatic motor, e.g. hypoglossal, oculomotor) and GVE (general visceral motor/autonomic) categories.
+
+## explicit_objective
+State that the accessory nerve's motor nucleus, supplying sternocleidomastoid and trapezius, is classified SVE (branchiomotor), like the trigeminal, facial, glossopharyngeal and vagus nerves.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerves
+
+## subtopic
+Functional component classification
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Accessory nerve|SVE classification|Branchiomotor nerves
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Classifying the accessory nerve as GSE (somatic motor) rather than SVE (branchiomotor), the category shared by the other branchial-arch-derived motor cranial nerves.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Cranial nerves
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p6 q19 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E1A552F884A97E
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+what is the type of the cranial nucleus responsible for formation the referred nerve ? [figure, following from the sternocleidomastoid/accessory-nerve question above] A- GSE B- GVE C- SVE D- SVA. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p6 q19
+
+---
+
+# Item
+
+## id
+CON-NEU-5829C2A51C495F
+
+## label
+The precuneus is supplied chiefly by the anterior cerebral artery
+
+## canonical_key
+neuro.cerebral-vasculature.precuneus-aca-supply
+
+## definition
+The precuneus, on the medial surface of the parietal lobe between the marginal (cingulate) sulcus and the parieto-occipital sulcus, lies in an anterior-cerebral-artery / posterior-cerebral-artery border zone but is most often attributed to the pericallosal/distal branches of the anterior cerebral artery (ACA) in standard vascular-territory teaching. This distinguishes it from the middle cerebral artery, which supplies the lateral convexity, and the vertebral artery, which supplies the posterior fossa/brainstem.
+
+## explicit_objective
+State that the precuneus's blood supply is chiefly attributed to the anterior cerebral artery, at the medial parietal ACA/PCA border zone.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral vasculature
+
+## subtopic
+Medial parietal blood supply
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Precuneus|Anterior cerebral artery|Medial parietal cortex
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning the precuneus purely to the posterior or middle cerebral artery territory, without recognising its border-zone position and the anterior cerebral artery's own contribution.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral vasculature > Cerebral vasculature
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p7 q22 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5829C2A51C495F
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+What is the blood supply of precuneus gyrus ? A- posterior cerebral artery B- anterior cerebral artery C- middle cerebral artery D- vertebral artery. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p7 q22
+
+---
+
+# Item
+
+## id
+CON-NEU-7E62EDEAA1FAAA
+
+## label
+The posterior superior alveolar nerve supplies sensation to the upper molar teeth (excluding the mesiobuccal root of the first molar)
+
+## canonical_key
+neuro.cranial-nerve.posterior-superior-alveolar-nerve
+
+## definition
+The posterior superior alveolar nerve, a branch of the maxillary nerve (V2), supplies sensory innervation to the maxillary molar teeth (most reliably the second and third/'last' molars) and the overlying gingiva and maxillary sinus mucosa. This is distinct from the anterior superior alveolar nerve (incisors/canine), the middle superior alveolar nerve (premolars and the first molar's mesiobuccal root, when present), and the inferior alveolar nerve (V3, mandibular teeth).
+
+## explicit_objective
+State that the posterior superior alveolar nerve supplies sensation to the upper (maxillary) molar teeth, distinct from the anterior/middle superior alveolar or inferior alveolar nerves.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Cranial nerves
+
+## subtopic
+Maxillary nerve dental branches
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Posterior superior alveolar nerve|Maxillary molar sensation|Trigeminal dental branches
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning upper-molar (especially last-molar) sensation to the middle superior alveolar or inferior alveolar nerve rather than the posterior superior alveolar nerve.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cranial nerves > Cranial nerves
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p8 q26 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-7E62EDEAA1FAAA
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+23 years old male went to the physician with toothache in the upper last molar teeth, which of the following nerve is responsible for transmission of this sensation ? A- Posterior superior alveolar nerve B- anterior superior alveolar nerve C- inferior alveolar nerve D- middle superior alveolar nerve. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p8 q26
+
+---
+
+# Item
+
+## id
+CON-NEU-27210A54963FBF
+
+## label
+Paramedian branches of the basilar artery supply the pons via the basilar sulcus
+
+## canonical_key
+neuro.brainstem-vasculature.basilar-artery-pontine-branch
+
+## definition
+The basilar artery, formed by the union of the two vertebral arteries at the pontomedullary junction, runs along the midline basilar sulcus on the pons's ventral surface, giving off paramedian and short/long circumferential branches that supply the pons and much of the midbrain. This distinguishes an artery running in this specific groove from the internal or external carotid arteries (anterior circulation) or the lingual artery (a branch of the external carotid supplying the tongue, unrelated to brainstem sulci).
+
+## explicit_objective
+State that the artery running in the pons's basilar sulcus is the basilar artery, supplying the pons via paramedian branches.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Brainstem vasculature
+
+## subtopic
+Basilar artery and pontine supply
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Basilar artery|Basilar sulcus|Pontine blood supply
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing the vessel running in the pons's midline basilar sulcus to the carotid or lingual arteries rather than the basilar artery, the posterior-circulation vessel that actually occupies that groove.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral vasculature > Brainstem vasculature
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p8 q29 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-27210A54963FBF
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+what is the origin of artery passing in this sulcus ? [figure: basilar sulcus of pons] A- basilar artery B- internal carotid artery C- external carotid artery D- lingual artery. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p8 q29
+
+---
+
+# Item
+
+## id
+CON-NEU-3D4ADCAFC8B82E
+
+## label
+The substantia nigra is located in the midbrain
+
+## canonical_key
+neuro.midbrain.substantia-nigra-location
+
+## definition
+The substantia nigra, a dopaminergic nucleus of the basal ganglia system, is located throughout the midbrain (mesencephalon), extending from its upper to lower limits — its degeneration underlies Parkinson disease. This is distinct from the pons or medulla oblongata, and broader than a narrow "superior midbrain only" placement.
+
+## explicit_objective
+State that the substantia nigra is a midbrain structure, spanning its extent rather than being confined to the upper pons or a narrow superior-midbrain slice.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-ANA-T07
+
+## secondary_node_ids
+
+
+## topic
+Midbrain
+
+## subtopic
+Substantia nigra location
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Substantia nigra|Midbrain|Parkinson disease pathology
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing the substantia nigra in the pons or medulla, or restricting it to only the most superior part of the midbrain, rather than recognising it spans the midbrain's extent.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-ANATOMY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Basal ganglia > Midbrain
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p9 q33 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3D4ADCAFC8B82E
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Substantia nigra is present in which of the following sites ? a. Upper pons and lower midbrain b. Medulla oblongata c. Superior midbrain d. Midbrain. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p9 q33
+
+---

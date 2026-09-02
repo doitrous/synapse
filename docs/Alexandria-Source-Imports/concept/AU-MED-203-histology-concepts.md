@@ -1193,3 +1193,2055 @@ relationships: Walked the AU-MED-203 concepts minted alongside this one in the s
 au: Workshop Quiz 2, p7 q23
 
 ---
+
+# Item
+
+## id
+CON-NEU-F36CFF0C0EDE27
+
+## label
+The retina's outer plexiform layer contains synapses between horizontal cells and bipolar cells (with the photoreceptors)
+
+## canonical_key
+neuro.retina.outer-plexiform-layer-synapses
+
+## definition
+The retina's outer plexiform layer (OPL) is the synaptic zone between the photoreceptor layer (rods and cones) and the inner nuclear layer, where photoreceptor terminals synapse onto horizontal and bipolar cell processes. This is distinct from the inner plexiform layer, where bipolar, amacrine and ganglion cells synapse with each other.
+
+## explicit_objective
+State that the outer plexiform layer is where photoreceptors synapse with horizontal and bipolar cells, distinct from the inner plexiform layer's bipolar-amacrine-ganglion synapses.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Retina
+
+## subtopic
+Retinal layers
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Outer plexiform layer|Inner plexiform layer|Horizontal cells|Bipolar cells
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning amacrine-ganglion synapses (an inner plexiform layer relationship) to the outer plexiform layer, which instead pairs photoreceptors with horizontal and bipolar cells; see author_notes for this source's own printed key.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Retina > Retina
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p4 q11 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F36CFF0C0EDE27
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following cells synapse in the outer plexiform layer of retina ? A- amacrine and bipolar cells B- horizontal and ganglion cells C- Muller's cells and rods D- horizontal and bipolar cells. Key: A (source's printed key; see author_notes).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p4 q11
+
+---
+
+# Item
+
+## id
+CON-NEU-3FF95D30CD5825
+
+## label
+Corneal transparency depends on few epithelial layers, regular collagen spacing in the stroma, and avascularity
+
+## canonical_key
+neuro.cornea.transparency-factors
+
+## definition
+The cornea's transparency depends on: a thin, non-keratinised epithelium; a stroma of regularly arranged, uniformly-spaced collagen fibrils in parallel lamellae (the near-crystalline lattice minimises light scatter); relative dehydration maintained by the endothelium's pump function; and complete avascularity. UNEVEN or irregular spacing between the stromal collagen fibrils, by contrast, scatters light and would impair rather than support transparency — it is the property the cornea must avoid, not one contributing to clarity.
+
+## explicit_objective
+Identify regular, evenly-spaced stromal collagen (not irregular spacing) as the arrangement that supports corneal transparency, alongside thin epithelium and avascularity.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Cornea histology
+
+## subtopic
+Corneal transparency
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Corneal transparency|Stromal collagen lamellae|Corneal avascularity
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Treating irregular/uneven inter-fibrillar spacing as a factor supporting transparency, when regular, uniform spacing is what actually minimises light scatter.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Cornea histology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p5 q16 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-3FF95D30CD5825
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following isn't related to the transparency of the cornea ? A- few layers of epithelium B- regular collagen fibers in lamellae C- avascularity D- different spaces between collagen fibers in lamellae. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p5 q16
+
+---
+
+# Item
+
+## id
+CON-NEU-692F1F89993E0D
+
+## label
+Hair cells of the organ of Corti are the auditory receptor cells
+
+## canonical_key
+neuro.organ-of-corti.hair-cells-auditory-receptor
+
+## definition
+Within the organ of Corti, resting on the basilar membrane, the inner and outer hair cells are the true auditory receptor (mechanotransducing) cells: basilar membrane vibration deflects their stereocilia, generating a receptor potential relayed to the cochlear nerve. Supporting cells (pillar cells, Deiters' cells) and the overlying tectorial membrane are accessory structures, not receptor cells themselves.
+
+## explicit_objective
+Identify the hair cells of the organ of Corti as the auditory receptor cells, distinct from supporting pillar/Deiters' cells or the tectorial membrane.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Organ of Corti
+
+## subtopic
+Auditory receptor cells
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Hair cells|Organ of Corti|Auditory receptors
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing mechanotransduction to a supporting structure (pillar cells, tectorial membrane) rather than the hair cells, the organ of Corti's true receptor cells.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Organ of Corti
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p6 q19 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-692F1F89993E0D
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following letter refers the auditory receptors ? [figure, points] A- Point B B- Point F C- Point D D- Point A. Key: B (Point F in the source's own unavailable diagram; underlying fact: hair cells).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p6 q19
+
+---
+
+# Item
+
+## id
+CON-NEU-C4B99D3AFFFA4C
+
+## label
+Inner and outer pillar (rod) cells of the organ of Corti bound the inner tunnel (tunnel of Corti)
+
+## canonical_key
+neuro.organ-of-corti.pillar-cells-tunnel-of-corti
+
+## definition
+The inner and outer pillar cells (rods of Corti) are rigid supporting cells whose bases and heads form a triangular, fluid-filled space — the inner tunnel (tunnel of Corti) — that separates the single row of inner hair cells from the three rows of outer hair cells. This structural role is distinct from the hair cells' own mechanotransducing function.
+
+## explicit_objective
+State that pillar cells form the boundaries of the inner tunnel of Corti, separating inner from outer hair cells, a supporting rather than a receptor role.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Organ of Corti
+
+## subtopic
+Supporting cells of the organ of Corti
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Pillar cells|Tunnel of Corti|Rods of Corti
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the pillar cells' structural (tunnel-of-Corti-forming) role with the hair cells' separate mechanotransducing (auditory receptor) role.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Organ of Corti
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p6 q20 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C4B99D3AFFFA4C
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following letter refers to pillar cells ? [figure, points] A- Point B B- Point F C- Point E D- Point A. Key: A (Point B in the source's own unavailable diagram; underlying fact: pillar cells bound the tunnel of Corti).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p6 q20
+
+---
+
+# Item
+
+## id
+CON-NEU-7F692A413D417D
+
+## label
+Rhodopsin is synthesized in the inner segment of rod photoreceptor cells
+
+## canonical_key
+neuro.retina.rhodopsin-synthesis-rod-inner-segment
+
+## definition
+Rod photoreceptor cells synthesize the visual pigment rhodopsin in their inner segment (rich in ribosomes, endoplasmic reticulum and Golgi apparatus), which is then transported to and incorporated into the membranous discs of the outer segment, where phototransduction actually occurs. The outer segment itself is the site of light absorption and bleaching, not synthesis.
+
+## explicit_objective
+State that rhodopsin is manufactured in the rod cell's inner segment and transported to the outer segment discs, where phototransduction occurs.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Retina
+
+## subtopic
+Rod photoreceptor structure
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Rhodopsin synthesis|Rod inner segment|Rod outer segment
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Locating rhodopsin synthesis in the rod's outer segment (the site of phototransduction) rather than the protein-synthetic inner segment that manufactures it.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Retina
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p8 q28 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-7F692A413D417D
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following letter refers to the site of manufacturing of rhodopsin ? [figure, points] A- Point A B- Point B C- Point C D- Point D. Key: C (the source's own unavailable diagram; underlying fact: rod inner segment).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p8 q28
+
+---
+
+# Item
+
+## id
+CON-NEU-66D3236FE5D418
+
+## label
+Granule cell dendrites (not their axons) are not found in the molecular layer of the cerebellar cortex
+
+## canonical_key
+neuro.cerebellar-cortex.molecular-layer-composition
+
+## definition
+The cerebellar cortex's outer molecular layer contains stellate cell bodies, Purkinje cell dendrites, Golgi cell dendrites, and the parallel fibers — the T-shaped AXONS of granule cells, which ascend from the granular layer and bifurcate to run through the molecular layer. Granule cell DENDRITES, in contrast, remain confined to the granular layer, where they synapse with incoming mossy fibers within cerebellar glomeruli, so they are not found in the molecular layer.
+
+## explicit_objective
+State that granule cell dendrites (unlike their parallel-fiber axons) are confined to the granular layer and absent from the molecular layer of the cerebellar cortex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Cerebellar cortex histology
+
+## subtopic
+Cerebellar cortex layers
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Molecular layer|Granule cell|Parallel fibers|Cerebellar glomeruli
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing granule cell dendrites in the molecular layer by confusing them with the granule cell's own parallel-fiber axons, which do ascend into that layer.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebellum > Cerebellar cortex histology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p8 q30 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-66D3236FE5D418
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following isn't found in molecular layer of the cerebellar cortex ? A- stellated cells B- dendrites of granule cells C- Purkinje dendrites D- dendrites of golgi cells. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p8 q30
+
+---
+
+# Item
+
+## id
+CON-FND-366B1A16B5EF13
+
+## label
+A ganglion is a group of closely-packed nerve cell bodies with a shared function, located OUTSIDE the central nervous system
+
+## canonical_key
+histology.ganglia.definition-cell-bodies-outside-cns
+
+## definition
+By definition, a ganglion is a cluster of neuron CELL BODIES (not fibers) located OUTSIDE the CNS — for example dorsal root ganglia (sensory) or autonomic ganglia. A collection of neuron cell bodies inside the CNS is instead called a NUCLEUS, and a collection of nerve fibers sharing an origin/course/function (inside or outside the CNS) is a TRACT or NERVE, not a ganglion.
+
+## explicit_objective
+State that a ganglion is a group of neuron cell bodies located outside the CNS, distinct from an intra-CNS nucleus or a fiber tract/nerve.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Neurohistology terminology
+
+## subtopic
+Ganglion vs nucleus vs tract
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Ganglion definition|Nucleus vs ganglion|Dorsal root ganglion
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Defining a ganglion as a fiber bundle (that is a tract or nerve) or as an intra-CNS cell cluster (that is a nucleus), rather than an extra-CNS cell-body cluster.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Neurohistology > Neurohistology terminology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p3 q6 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-366B1A16B5EF13
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Which of the following defines ganglia ? a. Group of nerve fibers with same origin, end & function b. Group of close nerve cells with same function inside CNS c. Group of nerve fibers with different origin, end & function d. Group of close nerve cells with same function outside CNS. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p3 q6
+
+---
+
+# Item
+
+## id
+CON-NEU-1006890E355A22
+
+## label
+Degeneration of cochlear hair cells causes sensorineural (neural) deafness
+
+## canonical_key
+neuro.inner-ear.hair-cell-degeneration-neural-deafness
+
+## definition
+Degeneration of the cochlear (organ of Corti) hair cells, or of the cochlear nerve fibers relaying their signal, produces sensorineural hearing loss — described in older terminology as "neural" deafness — distinct from conductive deafness, which instead results from a problem in the external/middle ear's sound-conducting mechanism (ossicles, tympanic membrane) with an intact cochlea and nerve.
+
+## explicit_objective
+State that degeneration of cochlear hair cells (or the cochlear nerve) causes sensorineural (neural) deafness, distinct from conductive deafness.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Inner ear histology
+
+## subtopic
+Hair cell degeneration and hearing loss
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Sensorineural deafness|Neural deafness|Cochlear hair cell degeneration
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing sensorineural (hair cell/cochlear nerve) deafness with conductive deafness (external/middle ear conduction problem, cochlea intact).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Inner ear histology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p4 q9 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1006890E355A22
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+In the following figure, degeneration of the structure pointed out by the arrow in the inner ear of a patient causes: [figure: cochlear hair cells] a. Motion sickness b. Neural deafness c. Vertigo d. Conductive deafness. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p4 q9
+
+---
+
+# Item
+
+## id
+CON-NEU-2C8D6B68556079
+
+## label
+The cochlear duct (scala media) does not communicate with the middle ear through the round window
+
+## canonical_key
+neuro.cochlea.cochlear-duct-not-round-window
+
+## definition
+The cochlear duct (scala media), the membranous, endolymph-filled compartment of the cochlea lying between the scala vestibuli and scala tympani, is a closed compartment that does NOT open directly into the middle ear. The round window instead lies at the basal end of the perilymph-filled scala tympani, separated from the middle ear by the secondary tympanic membrane, distinct from the cochlear duct itself.
+
+## explicit_objective
+State that the cochlear duct is a closed membranous compartment that does not communicate with the middle ear via the round window, which instead terminates the scala tympani.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Cochlea
+
+## subtopic
+Cochlear duct anatomy
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Cochlear duct|Scala media|Round window|Scala tympani
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing a middle-ear connection (round window) to the cochlear duct/scala media, which is in fact a closed compartment; the round window instead terminates the scala tympani.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Cochlea
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p5 q14 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2C8D6B68556079
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+The cochlear duct isn't characterized by which of the following ? A- it communicates with the middle ear through round window B- it is filled with endolymph C- it represents the membranous part of the cochlea D- it is present between scala tympani and scala vestibule. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p5 q14
+
+---
+
+# Item
+
+## id
+CON-NEU-202406B79BDF20
+
+## label
+The crista ampullaris of the semicircular canal detects angular acceleration/deceleration of the head
+
+## canonical_key
+neuro.inner-ear.crista-ampullaris-angular-deceleration
+
+## definition
+The crista ampullaris, a sensory ridge within each semicircular canal's ampulla, is covered by a gelatinous cupula that deflects with endolymph flow during head rotation, exciting hair cells to signal angular acceleration/deceleration. This is distinct from the tectorial-membrane-covered organ of Corti (hearing) and the neuroepithelial macula of the utricle (linear acceleration/head position), which are separate labyrinthine sensory structures.
+
+## explicit_objective
+Identify the crista ampullaris of the semicircular canal as the structure that detects angular acceleration/deceleration, distinct from the cochlear and utricular/saccular receptors.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Vestibular histology
+
+## subtopic
+Crista ampullaris
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Crista ampullaris|Semicircular canal|Angular acceleration detection|Cupula
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the crista ampullaris (angular acceleration, semicircular canals) with the macula of the utricle/saccule (linear acceleration/head position) or the organ of Corti (hearing).
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Vestibular histology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p6 q17 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-202406B79BDF20
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following is related to the following structure ? [figure] A- covered by tectorial membrane B- considered the neuroepithelial thickening in the utricle C- contain pillars cell D- detects angular deceleration. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p6 q17
+
+---
+
+# Item
+
+## id
+CON-NEU-C2DE1B6CF49B52
+
+## label
+The Golgi cell of the cerebellar cortex is not directly attached (synaptically connected) to Purkinje cells
+
+## canonical_key
+neuro.cerebellar-cortex.golgi-cell-not-purkinje-attached
+
+## definition
+Basket cells (axo-somatic, on the Purkinje soma/axon initial segment), stellate cells (axo-dendritic, on Purkinje dendrites in the molecular layer) and granule cells (via their parallel-fiber axons synapsing on Purkinje dendritic spines) all form direct synapses with Purkinje cells. The Golgi cell, by contrast, mainly synapses on granule cell dendrites within cerebellar glomeruli in the granular layer — a feedback-inhibition loop onto granule cells rather than a direct connection to Purkinje cells.
+
+## explicit_objective
+State that the Golgi cell, unlike basket, stellate and granule cells, does not synapse directly onto Purkinje cells, acting instead on granule cell dendrites.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Cerebellar cortex histology
+
+## subtopic
+Cerebellar cortex interneuron connectivity
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Golgi cell|Purkinje cell connections|Basket cell|Stellate cell
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming every cerebellar cortex interneuron synapses directly on Purkinje cells; the Golgi cell instead targets granule cell dendrites, not Purkinje cells themselves — see author_notes for this source's own printed key, which marks the stellate cell as the exception instead.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebellum > Cerebellar cortex histology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p6 q20 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-C2DE1B6CF49B52
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following cell isn't attached to Purkinje cells ? A- basket cell B- golgi cell C- granule cell D- stellate cell. Key: D (source's printed key; see author_notes).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p6 q20
+
+---
+
+# Item
+
+## id
+CON-NEU-F346B9ED001561
+
+## label
+Endolymph is the fluid found within the membranous labyrinth
+
+## canonical_key
+neuro.inner-ear.endolymph-location-membranous-labyrinth
+
+## definition
+Endolymph fills the entire membranous labyrinth — the cochlear duct (scala media), utricle, saccule and semicircular ducts — and is distinguished from perilymph (which fills the surrounding bony labyrinth's scala vestibuli and scala tympani) by its unusually HIGH potassium and low sodium concentration, more like intracellular than typical extracellular fluid, and by being electrically POSITIVE (endocochlear potential, +80mV) relative to perilymph, not negative.
+
+## explicit_objective
+State that endolymph fills the membranous labyrinth, and is high in K+ (unlike typical extracellular fluid) and electrically positive relative to perilymph.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-HIS-T03
+
+## secondary_node_ids
+
+
+## topic
+Inner ear histology
+
+## subtopic
+Endolymph composition and location
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Endolymph|Membranous labyrinth|Endocochlear potential
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing a low-K+, extracellular-like composition to endolymph (it is unusually high in K+) or describing it as electrically negative relative to perilymph, when the endocochlear potential is in fact positive.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-HISTOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses histology > Inner ear histology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p8 q27 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-F346B9ED001561
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following is true regarding to The endolymph ? a. Is found within the membranous labyrinth b. Has a K+ concentration similar to the extracellular fluid c. Bathes the bases of the hair cells of organ of corti d. Is electrically negative with respect to perilymph. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p8 q27
+
+---

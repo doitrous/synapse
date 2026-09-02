@@ -102,6 +102,12 @@ Because bilateral corticobulbar innervation has exceptions at the lower facial n
 
 Low CSF chloride, alongside low glucose and raised protein/white cells, is the classic CSF signature of bacterial (or tuberculous) meningitis, distinguishing it from viral encephalitis's normal-chloride, normal-glucose lymphocytic pleocytosis. Spinal shock produces hypotension with a marked decrease in venous return from loss of sympathetic vasomotor tone (not a rise in arterial pressure), with reflexes — including the plantar response — typically absent during the acute phase; the exaggerated mass reflex and a positive Babinski sign only re-emerge once spinal shock resolves.
 
+Workshop Quiz 3 and 4 extend the muscle spindle/reflex material this bank already draws on. The muscle spindle receives gamma efferent, Ia and group II afferent innervation, but NOT A-alpha fibers, which instead supply the extrafusal fibers outside the spindle capsule; during active contraction, parallel alpha-gamma co-activation keeps the spindle's intrafusal fibers taut and responsive to stretch, preserving proprioceptive feedback, whereas ALPHA discharge alone (without gamma coactivation) instead unloads and silences the spindle as the muscle shortens. The Golgi tendon organ, in series with the muscle at the musculotendinous junction, produces autogenic (Ib-mediated) inhibition of the SAME muscle's own alpha motor neurons — the functional opposite of the spindle's own excitatory (Ia-mediated) stretch reflex. A unilateral lesion of the primary somatosensory area (S1) produces astereognosis in the CONTRALATERAL hand, since somatosensory input has already decussated before reaching the cortex; and in Brown-Séquard (spinal cord hemisection) syndrome, vibration and proprioception are lost IPSILATERAL to the lesion (dorsal columns, uncrossed until the medulla), the mirror image of the CONTRALATERAL pain/temperature loss from the already-crossed spinothalamic tract.
+
+A further cluster covers pain and integrative spinal physiology. The classic descending pain-control transmitters are serotonin, norepinephrine and enkephalin — acetylcholine is not among them — and enkephalin itself acts presynaptically, closing voltage-gated Ca2+ channels in the central terminals of nociceptive afferents to reduce transmitter release onto the dorsal horn's transmission (T) cell; the gate-control theory builds on this same synapse, since large A-beta tactile afferents excite inhibitory interneurons that in turn inhibit the transmission cell itself. Occlusion is the reverse of facilitation: it occurs when two afferent inputs share an overlapping (already-firing) neuronal pool, producing a LESS-than-additive combined response, while after-discharge describes a response that persists after the triggering stimulus itself has stopped (typically via reverberating circuits), distinguishing it from simple stimulus-locked adaptation. In chronic (post-shock) spinal cord injury, the mass reflex arises from irradiation of afferent impulses spreading widely through the isolated cord below the lesion, producing an exaggerated, multi-system reflex response to a trivial stimulus. Primary cutaneous hyperalgesia, unlike the secondary hyperalgesia of the surrounding normal skin, results from a lowered peripheral pain-receptor threshold within the injured tissue itself.
+
+Special-senses and cortical physiology round out the Quiz 3-4 material. In both the primary motor and primary sensory cortex, the body's somatotopic map is inverted (leg superomedial, face inferolateral) — a shared feature of both areas, not one that distinguishes them. Rods are more sensitive to low-intensity (scotopic) light than cones, the basis of night vision, while increased amplitude of basilar membrane vibration (not decreased amplitude, and not fewer stimulated hair cells) is what the auditory system interprets as increased loudness. This source's own Workshop Quiz 3 key marks the neocerebellum, rather than the flocculonodular lobe (archicerebellum), as the balance-related cerebellar division, and its Workshop Quiz 4 key marks encephalitis, rather than bacterial meningitis, as the cause of decreased CSF glucose — standard teaching instead attributes balance to the flocculonodular lobe's direct vestibular connections and low CSF glucose specifically to bacterial (not viral) CNS infection; see each concept's own field_notes for this discrepancy. Cogwheel rigidity is a basal ganglia (extrapyramidal), not a corticospinal tract, sign — corticospinal disease instead produces spasticity, an extensor plantar response and exaggerated tendon jerks. Glutamate, not GABA (the CNS's principal inhibitory transmitter), is the CNS's most abundant excitatory neurotransmitter. And among substances compared between CSF and plasma, folate is a genuine exception, actively transported by the choroid plexus to a HIGHER concentration in CSF than in plasma, unlike urea, protein or calcium.
+
 ## published_summary
 
 
@@ -128,6 +134,15 @@ Hippocampus's principal function is memory (declarative consolidation, spatial n
 Neocerebellar syndrome = dysdiadochokinesia, hypotonia, intention tremor (opposite tone/tremor pattern from Parkinsonism).
 Low CSF chloride indicates bacterial/TB meningitis, not viral encephalitis.
 Spinal shock = hypotension + decreased venous return + absent reflexes acutely; mass reflex/Babinski emerge only after shock resolves.
+Muscle spindle: no A-alpha innervation; alpha-gamma coactivation keeps it responsive during contraction; alpha discharge ALONE unloads (silences) it.
+Golgi tendon organ = Ib-mediated autogenic inhibition of the SAME muscle's alpha motor neurons, opposite the spindle's own excitatory stretch reflex.
+S1 lesion causes CONTRALATERAL astereognosis; Brown-Séquard vibration/proprioception loss is IPSILATERAL, pain/temperature loss is CONTRALATERAL.
+Descending pain-control transmitters = serotonin, norepinephrine, enkephalin (not acetylcholine); enkephalin acts presynaptically (Ca2+ channel block); gate theory inhibits the dorsal-horn transmission cell.
+Occlusion = shared discharge zone, LESS-than-additive response; after-discharge = response persisting after the stimulus stops.
+Mass reflex = irradiation of afferent impulses in the chronically isolated cord; primary hyperalgesia = lowered peripheral receptor threshold in injured tissue itself.
+Both primary motor AND primary sensory cortex share the same inverted (leg superomedial, face inferolateral) somatotopic map.
+Rods are more sensitive to low-intensity light than cones; increased basilar membrane vibration amplitude = increased loudness.
+Cogwheel rigidity is extrapyramidal, not a corticospinal tract sign; glutamate is the CNS's most abundant excitatory transmitter; CSF folate is HIGHER than plasma folate.
 
 ## lose_the_mark
 Attributing muscle-tension detection, six to eight nuclear bag fibers, or purely sensory innervation to the muscle spindle.
@@ -149,6 +164,15 @@ Assigning the hippocampus a primary behavioural-regulation role instead of memor
 Attributing hypertonia, mask face or resting tremor (Parkinsonian features) to neocerebellar syndrome.
 Attributing low CSF chloride to encephalitis or a non-infective cause instead of bacterial meningitis.
 Assuming spinal shock raises arterial pressure or produces a positive Babinski/present mass reflex during its acute phase.
+Including A-alpha fibers in the muscle spindle's own innervation, or assuming isolated alpha discharge increases (rather than unloads) spindle firing.
+Confusing the Golgi tendon organ's inhibitory Ib action with the muscle spindle's excitatory Ia action, or vice versa.
+Placing an S1 lesion's sensory deficit ipsilateral to the lesion, or reversing which Brown-Séquard modalities are ipsilateral vs contralateral.
+Including acetylcholine among descending pain-control transmitters, or attributing enkephalin's action to a peripheral receptor block instead of presynaptic Ca2+ channel inhibition.
+Confusing occlusion (less-than-additive, shared zone) with facilitation (greater-than-additive, shared subliminal fringe), or after-discharge with simple adaptation.
+Attributing the mass reflex to acute decerebrate preparations, or primary hyperalgesia to the uninjured surrounding skin (that is secondary hyperalgesia).
+Assuming only the motor or only the sensory homunculus is inverted, rather than both sharing the same inverted map.
+Reversing rod/cone light sensitivity, or assuming decreased basilar membrane vibration amplitude signals increased loudness.
+Grouping cogwheel rigidity with genuine corticospinal signs, naming GABA as excitatory, or assuming CSF folate is lower than plasma folate like most other CSF solutes.
 
 ## related_concepts
 CON-NEU-77981F7CA5F5D7
@@ -172,6 +196,30 @@ CON-NEU-66798D048B0506
 CON-NEU-41634A83FE4C96
 CON-NEU-50501B21A7377C
 CON-NEU-D9BBAF2099E8AA
+CON-NEU-BA0CF39AB56630
+CON-NEU-CEC6A6BD66BA3F
+CON-NEU-96D5CEC7193664
+CON-NEU-73E5C7B5AF963D
+CON-NEU-0D275EEC4304A9
+CON-NEU-FEA19B26526A97
+CON-NEU-E37557E928EDC4
+CON-NEU-B1FC4D58915F61
+CON-NEU-2227EB6D01FA4E
+CON-NEU-5DAF085BD06C12
+CON-NEU-BBEB7A815C9E10
+CON-NEU-55EE0FE338FC7A
+CON-NEU-A3792F13ABA47A
+CON-NEU-FB2F9ECF3D5840
+CON-NEU-6D6F38874EC1D7
+CON-NEU-EA03D362511238
+CON-NEU-844FC9F4A461B3
+CON-NEU-E2F27C2BEF0125
+CON-NEU-49471098C73E81
+CON-NEU-1DCE1AEB382782
+CON-NEU-73FBA03144D45A
+CON-NEU-EC12DC30F8553B
+CON-NEU-0DA03F843C21EA
+CON-NEU-D515E4BF24434A
 
 ## related_articles
 
@@ -180,6 +228,8 @@ CON-NEU-D9BBAF2099E8AA
 Searched before creating: 10 distinct physiology/pharmacology facts from AU-MED-203 Workshop Quiz 1 (src_9a9b871f19d313ffca54), read in full and keyed against the printed answer table (coverage/AU-MED-203-triage.md). All ten concepts were searched via find-existing.mjs plus a grep pass across docs/*-Source-Imports/concept/*.md (including Kasr 104-CPS autonomic/CV physiology, AU-105/106 physiology) and codex/helwan-year1-content:docs/Helwan-Source-Imports/concept/ before minting. One near-miss was ruled not a hit and confirmed genuinely new: a Kasr 104-CPS physiology concept covers epinephrine/norepinephrine secretion by the adrenal medulla, a different fact from any concept authored here. No live or pending match was found for any of the ten.
 
 Extended for Workshop Quiz 2 (src_e0ce8dbbc37fcf3b12e9): 11 further physiology facts minted after the same per-item search discipline, including a check of ASU-CNS-3's 56 freshly-minted CON-NEU-* neuroanatomy concepts (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md, landed 2026-09-02 at 184a4a49); no hit found among the 11. One Quiz 2 fact (Q3, light-near dissociation/pretectal-region near-response lesion) reuses the same Kasr 102-INT HIT-PENDING concept as Quiz 1's ciliary-ganglion question and is filed as a sibling question in pending-live/AU-MED-203-questions.md, not repeated here as a concept; its own new Argyll-Robertson-pupil concept (Quiz 2 Q4, CON-NEU-16E1FDD95745B6) is cross-linked to it via that pending-live question's contextual_concept_ids.
+
+Extended for Workshop Quiz 3 (src_b016b1b1c534c724e141, 12 facts) and Workshop Quiz 4 (src_caec6d06d9d48d9aaaa2, 12 facts), 24 physiology concepts total, minted after the same per-item search discipline via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch; no hit found for any of the 24. Quiz 4 Q16 (muscle spindle remaining responsive to stretch during contraction) tests the identical alpha-gamma-coactivation fact as Quiz 3 Q25 and shares that concept (CON-NEU-2227EB6D01FA4E) rather than minting a twin, per the near-duplicate-angle convention already used for stria vascularis in the histology file. Three facts are minted with the source's own printed answer key even though it diverges from the more commonly taught answer, per LANE-CARD's "printed keys stand, note doubts" rule: Quiz 3 Q14 (flocculonodular lobe vs neocerebellum for balance), Quiz 4 Q21 (gate theory's synaptic mechanism, where the source marks postsynaptic rather than presynaptic inhibition — the concept's definition presents both the printed key and the more commonly taught presynaptic framing), and Quiz 4 Q34 (CSF glucose decrease — encephalitis vs bacterial meningitis); each concept's own field_notes flags the discrepancy.
 
 ## field_notes
 arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.

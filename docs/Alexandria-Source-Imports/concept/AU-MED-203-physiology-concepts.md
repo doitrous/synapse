@@ -3588,3 +3588,4107 @@ relationships: Walked the AU-MED-203 concepts minted alongside this one in the s
 au: Workshop Quiz 2, p9 q35
 
 ---
+
+# Item
+
+## id
+CON-NEU-BA0CF39AB56630
+
+## label
+A unilateral primary somatosensory (S1) lesion causes contralateral astereognosis
+
+## canonical_key
+neuro.somatosensory-cortex.s1-lesion-contralateral-astereognosis
+
+## definition
+The primary somatosensory area (S1, postcentral gyrus) receives touch, pressure and proprioceptive input that has already crossed the midline in the medial lemniscus/spinothalamic pathways, so each S1 represents the contralateral half of the body. Destruction of left S1 therefore does not abolish crude pain or temperature sensation (subcortical structures still register these) but does abolish cortical discriminative touch, producing astereognosis — inability to identify an object by touch — in the RIGHT hand, not the left.
+
+## explicit_objective
+State that a left S1 lesion produces astereognosis in the right (contralateral) hand, since somatosensory input has already decussated before reaching the cortex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Somatosensory cortex
+
+## subtopic
+Cortical sensory lesions
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Astereognosis|Primary somatosensory area lesion|Contralateral sensory cortex representation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing the sensory deficit on the same side as an S1 lesion, or assuming a cortical lesion abolishes crude pain/temperature sensation, which survive via subcortical relay.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral cortex > Somatosensory cortex
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p2 q2 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BA0CF39AB56630
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+A patient had destruction of somatic sensory area I on left side will show: a- Total lack of pain sensation on the same side b- Total lack of temperature sensation of the same side c- Inability to identify objects put in the left hand d- Inability to identify objects put in the right hand. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p2 q2
+
+---
+
+# Item
+
+## id
+CON-NEU-CEC6A6BD66BA3F
+
+## label
+In Brown-Séquard syndrome, vibration sense is lost IPSILATERAL to the lesion, not contralateral
+
+## canonical_key
+neuro.spinal-cord.brown-sequard-vibration-ipsilateral
+
+## definition
+Brown-Séquard syndrome (spinal cord hemisection) produces ipsilateral loss of the dorsal column modalities (vibration, proprioception, fine touch, which ascend uncrossed until the medulla) and ipsilateral upper motor neuron weakness (corticospinal tract, already crossed above the cord), together with CONTRALATERAL loss of pain and temperature (spinothalamic tract, which crosses within 1-2 segments of entry) beginning a couple of segments below the lesion. A statement placing vibration loss on the side OPPOSITE the lesion is therefore the false one distinguishing this classic dissociated pattern.
+
+## explicit_objective
+State that vibration sense is lost ipsilateral to a Brown-Séquard hemisection, in contrast to the contralateral loss of pain and temperature.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Spinal cord
+
+## subtopic
+Brown-Séquard syndrome
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Spinal cord hemisection|Dissociated sensory loss
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing dorsal-column modalities (vibration, proprioception) on the contralateral side, or spinothalamic modalities (pain, temperature) on the ipsilateral side, of a cord hemisection — the two tracts have opposite laterality relative to the lesion.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Spinal cord > Spinal cord
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p3 q7 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-CEC6A6BD66BA3F
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following isn't related to Brown-Sequard syndrome ? a- Loss of vibration sense on the opposite side below level of the lesion b- Loss of voluntary movements on the same side below the level of the lesion c- Loss of reflex movements on the same side at the level of the lesion d- Loss of pain sensation on the opposite side below the level of the lesion. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p3 q7
+
+---
+
+# Item
+
+## id
+CON-NEU-96D5CEC7193664
+
+## label
+Conscious proprioception (e.g. knee-joint position sense with eyes closed) is carried by the dorsal column-medial lemniscus pathway
+
+## canonical_key
+neuro.dorsal-column.proprioception-transmission-pathway
+
+## definition
+When a patient closes their eyes and reports a joint's position or movement, the signal travels via large-diameter, fast-conducting proprioceptive afferents that ascend uncrossed in the dorsal (posterior) columns — fasciculus gracilis for the lower limb — to synapse in the gracile nucleus of the medulla, decussate as internal arcuate fibers, and continue as the medial lemniscus to the thalamus (VPL) and postcentral gyrus. This bedside test of conscious proprioception is a functional test of dorsal column-medial lemniscus (DCML) pathway integrity, distinct from the anterolateral (spinothalamic) system carrying pain and temperature.
+
+## explicit_objective
+Identify the dorsal column-medial lemniscus pathway as the route transmitting conscious knee-joint proprioception tested with the eyes closed.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Somatosensory pathways
+
+## subtopic
+Dorsal column-medial lemniscus pathway
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Conscious proprioception|Joint position sense|Dorsal column pathway
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing a conscious joint-position-sense test to the spinothalamic (pain/temperature) pathway rather than the dorsal column-medial lemniscus pathway that actually carries it.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Spinal cord tracts > Somatosensory pathways
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p3 q8 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-96D5CEC7193664
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+when the physician asked the patient to close his eye and move his knee joint to evaluate proprioception. Which of the following structure is responsible for transmission of this sensation ? [figure, points A-D] A- Point A B- Point B C- Point C D- Point D. Key: C (source's own labelled diagram is not present in the corpus; the underlying pathway tested is the DCML).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p3 q8
+
+---
+
+# Item
+
+## id
+CON-NEU-73E5C7B5AF963D
+
+## label
+The Golgi tendon organ inhibits alpha motor neuron activity (autogenic inhibition)
+
+## canonical_key
+neuro.reflex-physiology.golgi-tendon-organ-autogenic-inhibition
+
+## definition
+The Golgi tendon organ (GTO), located in series with the muscle fibers at the musculotendinous junction, senses active muscle tension and, via fast-conducting Ib afferents, activates inhibitory interneurons in the spinal cord that suppress (inhibit) the discharge of the alpha motor neurons supplying the SAME muscle — the inverse myotatic (autogenic inhibition) reflex. This protects the muscle-tendon unit from excessive tension, in contrast to the muscle spindle's stretch reflex, which instead EXCITES alpha motor neurons of the stretched muscle.
+
+## explicit_objective
+State that the Golgi tendon organ, via Ib afferents, produces autogenic inhibition of the alpha motor neurons of the same muscle, opposite to the muscle spindle stretch reflex.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Reflex physiology
+
+## subtopic
+Golgi tendon organ / inverse myotatic reflex
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Golgi tendon organ|Autogenic inhibition|Inverse myotatic reflex|Ib afferents
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the Golgi tendon organ's inhibitory (Ib, autogenic inhibition) action on alpha motor neurons with the muscle spindle's excitatory (Ia, stretch reflex) action.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Reflex physiology > Reflex physiology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p3 q9 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-73E5C7B5AF963D
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following is used to prevent the activity of alpha Motor neurons ? A- gamma motor neuron B- primary motor area C- golgi tendon organ D- flower spray afferent. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p3 q9
+
+---
+
+# Item
+
+## id
+CON-NEU-0D275EEC4304A9
+
+## label
+5-HT3 is an ionotropic (ligand-gated ion channel) receptor, not a metabotropic (GPCR) receptor
+
+## canonical_key
+neuro.receptor-pharmacology.5ht3-ionotropic-exception
+
+## definition
+GABA-B, muscarinic acetylcholine and dopaminergic receptors are all G-protein-coupled (metabotropic) receptors acting via second messengers. The 5-HT3 serotonin receptor is the exception among common serotonin/monoamine receptor families: it is a ligand-gated cation channel (ionotropic), producing fast synaptic depolarisation directly rather than through a G-protein cascade.
+
+## explicit_objective
+Identify 5-HT3 as an ionotropic ligand-gated ion channel, the exception among GABA-B, muscarinic and dopaminergic receptors, which are all metabotropic.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Receptor pharmacology
+
+## subtopic
+Ionotropic vs metabotropic receptors
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+5-HT3 receptor|Ionotropic receptor|Metabotropic receptor
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Grouping 5-HT3 with the metabotropic (GPCR) receptor family alongside GABA-B, muscarinic and dopaminergic receptors, when it is in fact the ligand-gated-channel exception.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Receptor pharmacology > Receptor pharmacology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p4 q12 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-0D275EEC4304A9
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following aren't considered the metabotropic receptors ? A- GABA B B- muscarinic C- dopaminergic D- 5HT3. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p4 q12
+
+---
+
+# Item
+
+## id
+CON-NEU-FEA19B26526A97
+
+## label
+This source's Workshop Quiz 3 marks the neocerebellum as the balance-related part of the cerebellum, though standard teaching attributes balance to the flocculonodular lobe (archicerebellum)
+
+## canonical_key
+neuro.cerebellum.flocculonodular-lobe-balance
+
+## definition
+Functionally, the cerebellum is divided into the archicerebellum (flocculonodular lobe/vestibulocerebellum, balance and eye movement coordination via vestibular connections), the paleocerebellum (anterior lobe/spinocerebellum, muscle tone and posture from proprioceptive input), and the neocerebellum (posterior lobe/cerebrocerebellum, planning and coordination of skilled voluntary movement via cortical connections). Standard physiology teaching attributes balance specifically to the flocculonodular lobe (archicerebellum), given its direct vestibular nuclei connections, rather than to the neocerebellum, whose lesions instead classically produce dysdiadochokinesia and intention tremor of skilled movement.
+
+## explicit_objective
+State that the flocculonodular lobe (archicerebellum) is the balance-related division of the cerebellum, distinct from the neocerebellum's role in skilled voluntary movement coordination.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebellum
+
+## subtopic
+Functional cerebellar divisions
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Flocculonodular lobe|Archicerebellum|Neocerebellum|Vestibulocerebellum
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing balance to the neocerebellum (skilled-movement coordination) rather than the flocculonodular lobe/archicerebellum, which has the direct vestibular connections; see author_notes for this source's own printed key.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebellum > Cerebellum
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p4 q14 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FEA19B26526A97
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+The part of the cerebellum concerned with balance is: A- Paleocerebellum B- Neocerebellum C- Flocculonodular D- Lateral zone area. Key: B (source's printed key; see author_notes).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p4 q14
+
+---
+
+# Item
+
+## id
+CON-NEU-E37557E928EDC4
+
+## label
+Acetylcholine is not among the classic descending pain-control transmitters (serotonin, norepinephrine, enkephalin)
+
+## canonical_key
+neuro.pain-physiology.descending-control-transmitters
+
+## definition
+The descending pain-control (analgesia) system uses serotonin (from raphe nuclei), norepinephrine (from locus coeruleus-related pathways), and enkephalin (endogenous opioid interneurons in the dorsal horn) to inhibit nociceptive transmission at the spinal cord level. Acetylcholine is not one of this system's classic transmitters, distinguishing it from these three inhibitory pain-control mediators.
+
+## explicit_objective
+Identify serotonin, norepinephrine and enkephalin (not acetylcholine) as the classic transmitters of the descending pain-control system.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Descending pain-control transmitters
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Descending analgesia|Pain control transmitters|Enkephalin|Raphe nuclei
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Including acetylcholine among the descending pain-control system's transmitters, when the classic set is serotonin, norepinephrine and enkephalin.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Pain physiology > Pain physiology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p5 q17 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E37557E928EDC4
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following isn't related to the Transmitters in pain control system ? a- serotonin b- acetylcholine c- enkephalin d- norepinephrine. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p5 q17
+
+---
+
+# Item
+
+## id
+CON-NEU-B1FC4D58915F61
+
+## label
+The muscle spindle is not innervated by A-alpha (extrafusal skeletomotor) fibers
+
+## canonical_key
+neuro.muscle-spindle.ia-afferent-not-alpha-innervated
+
+## definition
+The muscle spindle's innervation consists of gamma motor (efferent, to intrafusal fibers), Ia (primary afferent, annulospiral) and group II (secondary afferent, flower-spray) fibers. A-alpha motor fibers innervate the EXTRAFUSAL muscle fibers outside the spindle capsule, not the spindle's own intrafusal fibers, so the spindle itself receives no A-alpha innervation.
+
+## explicit_objective
+State that the muscle spindle is innervated by gamma efferent, Ia and group II afferent fibers, but not by A-alpha fibers, which instead supply extrafusal muscle.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Muscle spindle physiology
+
+## subtopic
+Muscle spindle innervation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Muscle spindle innervation|Gamma motor neuron|Ia afferent|Group II afferent
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Including A-alpha fibers among the muscle spindle's own innervation, when alpha motor fibers instead supply the extrafusal fibers outside the spindle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Reflex physiology > Muscle spindle physiology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p6 q21 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-B1FC4D58915F61
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+The muscle spindle is not innervated by: a. Aa fibers b. A gamma fibers c. Ia fibers d. II fibers. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p6 q21
+
+---
+
+# Item
+
+## id
+CON-NEU-2227EB6D01FA4E
+
+## label
+Co-activation of alpha and gamma motor neurons keeps the muscle spindle sensitive to stretch during active muscle contraction
+
+## canonical_key
+neuro.muscle-spindle.alpha-gamma-coactivation
+
+## definition
+During a voluntary contraction, the central nervous system drives alpha and gamma motor neurons together (co-activation): as alpha discharge shortens the extrafusal fibers, parallel gamma discharge takes up the corresponding slack in the spindle's intrafusal fibers, keeping the spindle taut and sensitive to any additional stretch, and preserving ongoing proprioceptive feedback to higher centers throughout the movement. Without this parallel gamma drive, the spindle would fall slack and go silent as the muscle shortens (unloading).
+
+## explicit_objective
+State that alpha-gamma co-activation keeps the muscle spindle taut and responsive to stretch throughout an active contraction, maintaining proprioceptive feedback.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Muscle spindle physiology
+
+## subtopic
+Alpha-gamma co-activation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Alpha-gamma coactivation|Gamma motor neuron|Muscle spindle sensitivity during contraction
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Reversing the direction of alpha-gamma co-activation (treating gamma discharge as driven by alpha discharge, or vice versa, as a strict causal chain) rather than as parallel central commands that keep the spindle responsive.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Reflex physiology > Muscle spindle physiology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p7 q25 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-2227EB6D01FA4E
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+Co-activation of a and y-motor neurons: a- Increases y-motor neuron discharge whenever the activity of a motor neurons increases b- Is mediated by interneurons that link the a and y-motor neurons c- Maintains the proprioceptive information to higher centers during contraction d- Increases the a-motor neuron discharge whenever the activity of y-motor neurons increase. Key: D (source's printed key; see author_notes — the physiological definition of co-activation is best captured by option C).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p7 q25
+
+---
+
+# Item
+
+## id
+CON-NEU-5DAF085BD06C12
+
+## label
+Low-frequency, high-amplitude synchronized cortical rhythms (delta waves) occur during stage 3 and 4 slow-wave sleep
+
+## canonical_key
+neuro.sleep-physiology.slow-wave-sleep-eeg
+
+## definition
+Sleep EEG progresses from the low-voltage, mixed-frequency pattern of stages 1-2 to the high-amplitude, low-frequency (delta) waves that define deep (stages 3-4) slow-wave sleep, reflecting large-scale synchronized cortical neuronal activity. REM sleep, by contrast, shows a desynchronized, low-amplitude, higher-frequency EEG pattern resembling wakefulness, despite behavioral unresponsiveness.
+
+## explicit_objective
+State that low-frequency, high-amplitude synchronized (delta) EEG activity characterises deep (stage 3-4) slow-wave sleep, distinct from REM sleep's desynchronized pattern.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Sleep physiology
+
+## subtopic
+Sleep-stage EEG patterns
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Slow-wave sleep|Delta waves|Sleep EEG stages
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing high-amplitude, low-frequency synchronized EEG activity to REM sleep, which in fact shows a desynchronized, wake-like pattern, rather than to deep slow-wave sleep.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Sleep physiology > Sleep physiology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p7 q26 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-5DAF085BD06C12
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+A low-frequency, high amplitude, synchronized cortical rhythm occurs during: a. stage 1 & 2 slow-wave sleep b. stage 3 & 4 slow-wave sleep c. REM sleep d. narcolepsy. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p7 q26
+
+---
+
+# Item
+
+## id
+CON-NEU-BBEB7A815C9E10
+
+## label
+Increased alpha-motor-neuron discharge alone (extrafusal contraction without gamma coactivation) does NOT increase muscle spindle discharge
+
+## canonical_key
+neuro.muscle-spindle.alpha-motor-discharge-unloads-spindle
+
+## definition
+When alpha motor neuron discharge contracts the extrafusal fibers without accompanying gamma drive, the muscle (and the spindle riding within it) shortens, slackening the spindle's intrafusal fibers and REDUCING, not increasing, spindle afferent discharge — the unloading phenomenon. Spindle discharge is instead increased by stretch of the muscle (and hence the intrafusal fibers), or by increased gamma motor neuron discharge, which independently takes up intrafusal slack.
+
+## explicit_objective
+State that isolated alpha motor neuron discharge unloads (reduces discharge from) the muscle spindle, unlike gamma discharge or muscle stretch, which increase it.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Muscle spindle physiology
+
+## subtopic
+Spindle unloading
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Muscle spindle unloading|Alpha motor neuron discharge|Intrafusal fiber slack
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any increase in motor activity increases spindle discharge; isolated alpha (extrafusal) contraction without gamma coactivation instead slackens and silences the spindle.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Reflex physiology > Muscle spindle physiology
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p8 q29 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-BBEB7A815C9E10
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+which of the following doesn't increase Discharge from muscle spindles ? a- Increased a-motor neuron discharge b- Increased y-motor neuron discharge c- Stretch of the intrafusal muscle fibers d- Stretch of the extrafusal muscle fibers. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p8 q29
+
+---
+
+# Item
+
+## id
+CON-NEU-55EE0FE338FC7A
+
+## label
+Rods are more sensitive to low-intensity light than cones
+
+## canonical_key
+neuro.retina.rod-sensitivity-low-intensity-light
+
+## definition
+Rods have a lower threshold and higher amplification (via their phototransduction cascade and greater convergence onto bipolar/ganglion cells) than cones, making them far more sensitive to low-intensity (scotopic, dim-light/night) vision, while cones require brighter (photopic) light and mediate color vision and high visual acuity. Rods also adapt to darkness more slowly than cones, are concentrated in the peripheral retina rather than the fovea, and are not involved in color vision — all properties opposite to the cone-specific alternatives.
+
+## explicit_objective
+State that rods, not cones, are more sensitive to low-intensity light, the basis of scotopic (dim-light) vision.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Retina
+
+## subtopic
+Rod vs cone physiology
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Rod sensitivity|Scotopic vision|Photopic vision|Dark adaptation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assigning cone-specific properties (foveal concentration, faster dark adaptation, color vision) to rods, when rods are instead defined by peripheral distribution, slower but more complete dark adaptation, and no color discrimination.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses physiology > Retina
+
+## exam_signal
+src_b016b1b1c534c724e141 | department_question_bank | undated | p8 q31 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-55EE0FE338FC7A
+
+## resource_ids
+src_b016b1b1c534c724e141
+
+## original_wording
+When compared with the cones of the retina, the rods: a. are more sensitive to low-intensity light b. adapt to darkness before the cones c. are most highly concentrated on the fovea d. are primarily involved in color vision. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 3 bank (src_b016b1b1c534c724e141); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 3, p8 q31
+
+---
+
+# Item
+
+## id
+CON-NEU-A3792F13ABA47A
+
+## label
+The body is represented upside-down (inverted) in both the primary motor and primary sensory cortical homunculi
+
+## canonical_key
+neuro.cerebral-cortex.motor-sensory-homunculus-inversion
+
+## definition
+In both the precentral (primary motor) and postcentral (primary sensory) gyri, the somatotopic map is inverted: the leg and foot are represented superiorly (extending onto the medial surface), the trunk and arm at the mid-convexity, and the face/hand inferiorly and laterally near the Sylvian fissure. This shared inversion is a genuine feature of BOTH primary areas, not a property distinguishing one from the other.
+
+## explicit_objective
+State that both the primary motor and primary sensory cortex represent the body upside-down, with the leg superomedial and the face inferolateral.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Cerebral cortex
+
+## subtopic
+Motor and sensory homunculus
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Homunculus|Motor cortex somatotopy|Sensory cortex somatotopy
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming only the motor or only the sensory homunculus is inverted; both primary areas share the same upside-down somatotopic organisation.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Cerebral cortex > Cerebral cortex
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p2 q2 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-A3792F13ABA47A
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Regarding the cortical areas of the cerebral hemisphere, one of the following is true: a. The premotor area present in the postcentral gyrus b. Astereognosis occurs due to injury of the primary auditory area c. Broca's area is the sensory speech area d. In both the primary motor and primary sensory areas the body is represented upside-down. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p2 q2
+
+---
+
+# Item
+
+## id
+CON-NEU-FB2F9ECF3D5840
+
+## label
+Occlusion occurs when two afferent neurons share a common discharge zone
+
+## canonical_key
+neuro.spinal-physiology.occlusion-shared-discharge-zone
+
+## definition
+Occlusion is a spinal integrative phenomenon in which two afferent inputs converge on an overlapping (shared) pool of postsynaptic neurons, so their combined response is LESS than the arithmetic sum of each input's individual response, because some of the same neurons are already being fired by both inputs. This is the functional opposite of facilitation/summation, where converging subthreshold inputs on a shared but not-yet-fully-discharged zone produce a GREATER-than-additive response.
+
+## explicit_objective
+State that occlusion occurs when two afferent neurons share a common discharge zone, producing a less-than-additive combined response.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Spinal cord integrative physiology
+
+## subtopic
+Occlusion and facilitation
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Occlusion|Shared discharge zone|Neuronal pool convergence
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing occlusion (shared discharge zone, less-than-additive response) with facilitation (shared subliminal fringe, greater-than-additive response) — the two converging-input phenomena have opposite effects on the summed response.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Reflex physiology > Spinal cord integrative physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p3 q5 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-FB2F9ECF3D5840
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following is related to Occlusion ? a- Due to stimulation of two afferent neurons away from each other b- Occurs when two afferent neurons shared a common discharge zone c- Results in greater response than if each afferent neuron is stimulated alone d- Occurs when 2 afferent neurons shared a common facilitated zone. Key: B.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p3 q5
+
+---
+
+# Item
+
+## id
+CON-NEU-6D6F38874EC1D7
+
+## label
+Enkephalin blocks pain transmission via presynaptic inhibition, by blocking Ca2+ channels in the central terminals of pain afferents
+
+## canonical_key
+neuro.pain-physiology.enkephalin-presynaptic-calcium-block
+
+## definition
+Enkephalin, an endogenous opioid released by inhibitory interneurons in the dorsal horn, binds presynaptic opioid receptors on the central terminals of primary nociceptive afferents, closing voltage-gated Ca2+ channels there. This reduces Ca2+ influx and hence neurotransmitter (substance P, glutamate) release from the afferent terminal onto the second-order (transmission) neuron — a presynaptic inhibitory mechanism, distinct from directly blocking pain receptors peripherally or acting on the cerebral cortex.
+
+## explicit_objective
+State that enkephalin inhibits pain transmission presynaptically, by blocking Ca2+ channels in the central terminals of primary nociceptive afferents.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Enkephalin mechanism
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Enkephalin|Presynaptic inhibition|Endogenous opioids
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing enkephalin's action to blocking peripheral pain receptors or to cortical sensory processing, rather than its actual presynaptic Ca2+-channel-blocking mechanism at the dorsal horn.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Pain physiology > Pain physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p3 q8 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-6D6F38874EC1D7
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Enkephalin blocks pain transmission by: a- Blocking the response of pain receptors to painful stimuli b- Slowing down transmission of pain impulses through synapses in the pain pathway c- Inhibiting the response of the cerebral cortical somatic sensory area to pain signals d- Blocking Ca2+ channels in the central terminals of pain sensory fibers. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p3 q8
+
+---
+
+# Item
+
+## id
+CON-NEU-EA03D362511238
+
+## label
+Increased amplitude of basilar membrane vibration is interpreted by the auditory system as increased loudness
+
+## canonical_key
+neuro.audition.basilar-membrane-amplitude-loudness
+
+## definition
+Loudness perception is coded by the amplitude of basilar membrane vibration at a given frequency's characteristic place: a louder sound produces a larger-amplitude traveling wave, which deflects more hair cell stereocilia more strongly, recruiting more hair cells and increasing their firing rate. Pitch, by contrast, is coded separately by WHICH place along the basilar membrane (tonotopic organisation) is maximally displaced, not by amplitude.
+
+## explicit_objective
+State that increased basilar membrane vibration amplitude codes for increased loudness, distinct from the place-coding mechanism that determines pitch.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Auditory physiology
+
+## subtopic
+Loudness coding
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Basilar membrane amplitude|Loudness perception|Tonotopic organisation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing amplitude-coded loudness with place-coded pitch, or assuming decreased basilar membrane vibration corresponds to a louder, not softer, sound.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Special senses physiology > Auditory physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p4 q12 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-EA03D362511238
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Which of the following events makes the auditory system interprets a sound as loud? a. Fewer inner hair cells are stimulated b. Hair cells excite nerve endings at a diminished rate c. Amplitude of vibration of the basilar membrane decreases d. Amplitude of vibration of the basilar membrane increases. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p4 q12
+
+---
+
+# Item
+
+## id
+CON-NEU-844FC9F4A461B3
+
+## label
+The gate theory of pain suppression is based on inhibition of the transmission (T) cell by dorsal-horn interneurons activated by large tactile afferents
+
+## canonical_key
+neuro.pain-physiology.gate-theory-synaptic-mechanism
+
+## definition
+In the gate-control theory, large-diameter A-beta tactile afferents excite inhibitory interneurons in the substantia gelatinosa, which in turn inhibit the dorsal-horn transmission (T) cell that relays nociceptive input onward — closing the "gate" on pain transmission at that synaptic relay. Because the inhibitory interneuron's synapse onto the transmission cell is itself a conventional postsynaptic inhibitory synapse, several teaching sources describe the mechanism at this specific synapse as postsynaptic inhibition of the transmission cell, distinct from a purely presynaptic action on the nociceptive afferent's own terminal, from a brain-opiate mechanism, or from a peripheral pain-receptor block.
+
+## explicit_objective
+State that gate-theory pain suppression operates through inhibitory dorsal-horn interneurons acting on the transmission (T) cell, activated by large tactile (A-beta) afferents.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Gate theory synaptic mechanism
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Gate theory of pain|Transmission cell inhibition|Substantia gelatinosa interneurons
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Reducing the gate theory to a single generic mechanism (e.g. only presynaptic, or only a brain opiate system) without recognising the specific interneuron-to-transmission-cell inhibitory synapse the theory is built on.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Pain physiology > Pain physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p7 q21 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-844FC9F4A461B3
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Upon which mechanism "the gate theory of pain suppression" is based? a. Post synaptic inhibition b. Pain block at brain level c. Brain opiate system d. Presynaptic inhibition. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p7 q21
+
+---
+
+# Item
+
+## id
+CON-NEU-E2F27C2BEF0125
+
+## label
+Cogwheel rigidity is a basal ganglia (extrapyramidal), not a corticospinal tract, sign
+
+## canonical_key
+neuro.corticospinal-tract.disease-features-exclude-cogwheel
+
+## definition
+Corticospinal tract (upper motor neuron/pyramidal) disease classically produces spasticity, an extensor plantar (Babinski) response, and exaggerated deep tendon reflexes. Cogwheel rigidity, by contrast, is an extrapyramidal (basal ganglia, e.g. Parkinsonian) sign, reflecting a fundamentally different motor system's dysfunction, and is not a feature of corticospinal tract disease.
+
+## explicit_objective
+State that cogwheel rigidity is an extrapyramidal (basal ganglia) sign, not a feature of corticospinal tract (pyramidal) disease, which instead produces spasticity, Babinski sign and hyperreflexia.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Motor system physiology
+
+## subtopic
+Pyramidal vs extrapyramidal signs
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Cogwheel rigidity|Corticospinal tract disease|Spasticity|Babinski sign
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Grouping cogwheel rigidity with the genuine corticospinal (pyramidal) signs — spasticity, Babinski, hyperreflexia — when it in fact belongs to the extrapyramidal (basal ganglia) system.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Motor pathways > Motor system physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p7 q23 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-E2F27C2BEF0125
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Which of the following is not a feature of corticospinal tract disease? a. Cogwheel rigidity b. Spasticity c. Plantar extensor response d. Exaggerated deep tendon reflexes. Key: A.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p7 q23
+
+---
+
+# Item
+
+## id
+CON-NEU-49471098C73E81
+
+## label
+After-discharge is a maintained neural response that continues after the stimulus itself has stopped
+
+## canonical_key
+neuro.synaptic-physiology.after-discharge-definition
+
+## definition
+After-discharge describes continued neuronal firing that outlasts the triggering stimulus, typically produced by reverberating (recurrent, self-re-exciting) neural circuits or prolonged synaptic potentials, so the response persists after stimulation has stopped rather than fading in step with it. This distinguishes it from simple adaptation (decreasing response with maintained stimulus) or facilitation-driven summation (an increased response only WHILE the stimulus continues).
+
+## explicit_objective
+State that after-discharge is a maintained response persisting after stimulus cessation, distinct from adaptation or ordinary summation during ongoing stimulation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Synaptic physiology
+
+## subtopic
+After-discharge
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+After-discharge|Reverberating circuits|Neural response persistence
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing after-discharge (a response that outlasts the stimulus) with adaptation (a response that fades during a maintained stimulus) — the two describe opposite time-courses.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Neural integration > Synaptic physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p7 q24 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-49471098C73E81
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following is related to After discharge ? a- is decreased response with maintained stimulus b- is increased response with maintained stimulus c- is maintained response after stoppage of stimulus d- is only closed chain circuit. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p7 q24
+
+---
+
+# Item
+
+## id
+CON-NEU-1DCE1AEB382782
+
+## label
+Glutamate is the most abundant excitatory neurotransmitter in the central nervous system
+
+## canonical_key
+neuro.neurotransmission.glutamate-most-abundant-excitatory
+
+## definition
+Glutamate is the CNS's principal and most abundant excitatory neurotransmitter, acting on ionotropic (AMPA, NMDA, kainate) and metabotropic receptors throughout the brain and spinal cord. GABA is instead the CNS's principal INHIBITORY transmitter, while acetylcholine and catecholamines, though widely used, are not the most abundant excitatory transmitter overall.
+
+## explicit_objective
+State that glutamate, not GABA, acetylcholine or catecholamines, is the CNS's most abundant excitatory neurotransmitter.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Neurotransmission
+
+## subtopic
+Major CNS neurotransmitters
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Glutamate|Excitatory neurotransmitter|GABA (inhibitory contrast)
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Naming GABA as an excitatory transmitter (it is the CNS's principal inhibitory transmitter) or underestimating glutamate's dominance as the excitatory transmitter of the CNS.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Neurophysiology > Neurotransmission
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p7 q25 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-1DCE1AEB382782
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+what is most abundant excitatory neurotransmitter? A- GABA B- catecholamines C- acetylcholine D- glutamate. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p7 q25
+
+---
+
+# Item
+
+## id
+CON-NEU-73FBA03144D45A
+
+## label
+Folate is found at a higher concentration in CSF than in plasma
+
+## canonical_key
+neuro.csf-physiology.folate-higher-in-csf-than-plasma
+
+## definition
+Unlike urea, protein and calcium (all lower in CSF than plasma), folate is actively transported across the choroid plexus by folate receptors, resulting in a CSF folate concentration roughly three times higher than plasma folate — a genuine exception among substances compared between the two fluids.
+
+## explicit_objective
+State that folate, unlike urea, protein or calcium, is present at a higher concentration in CSF than in plasma, due to active choroid plexus transport.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+CSF physiology
+
+## subtopic
+CSF vs plasma composition
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+CSF folate|Choroid plexus transport|CSF composition
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming every solute compared between CSF and plasma is lower in CSF; folate is an active-transport exception that is higher in CSF.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > CSF physiology > CSF physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p8 q28 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-73FBA03144D45A
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following substance is found at higher concentration in CSF than plasma ? A- urea B- protein C- calcium D- folate. Key: D.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p8 q28
+
+---
+
+# Item
+
+## id
+CON-NEU-EC12DC30F8553B
+
+## label
+The mass reflex, seen in chronic spinal cord injury, is due to irradiation of afferent impulses within the isolated spinal cord
+
+## canonical_key
+neuro.spinal-physiology.mass-reflex-irradiation
+
+## definition
+After spinal shock resolves in a chronic spinal cord injury, a mild cutaneous or visceral stimulus below the lesion can trigger a widespread, exaggerated response — flexor withdrawal, evacuation of bladder/bowel, sweating and piloerection — because the stimulus's afferent impulses irradiate (spread widely) through many spinal cord segments isolated from higher inhibitory control, recruiting far more neurons than the same stimulus would in an intact cord. This irradiation-based spread, occurring in a chronically injured (not acutely decerebrate) cord, is the classic description of the mass reflex's mechanism.
+
+## explicit_objective
+State that the mass reflex arises from irradiation of afferent impulses within the isolated (chronically injured) spinal cord, producing a widespread exaggerated reflex response.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Spinal cord injury physiology
+
+## subtopic
+Mass reflex
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Mass reflex|Irradiation of afferent impulses|Spinal cord injury reflexes
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing the mass reflex to acute decerebrate preparations or to central inhibition, rather than to afferent irradiation within a chronically isolated, injured spinal cord.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Spinal cord > Spinal cord injury physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p9 q30 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-EC12DC30F8553B
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following is related to The mass reflex ? a. is a sign of a central inhibitory state b. occurs in the decerebrate animal c. is due to irradiation of afferent impulses d. is a manifestation of 'release of spinal reflexes' from stimulatory control by higher centers. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p9 q30
+
+---
+
+# Item
+
+## id
+CON-NEU-0DA03F843C21EA
+
+## label
+Primary cutaneous hyperalgesia is due to a lowered threshold (sensitization) of pain receptors in the injured skin itself
+
+## canonical_key
+neuro.pain-physiology.primary-hyperalgesia-receptor-threshold
+
+## definition
+Primary hyperalgesia occurs directly within the injured tissue, where local inflammatory mediators sensitize nociceptors, lowering their activation threshold so normally mild stimuli become painful. This is distinct from SECONDARY hyperalgesia, which develops in the normal, uninjured skin surrounding the flare (mediated by central sensitization rather than a peripheral receptor-threshold change).
+
+## explicit_objective
+State that primary cutaneous hyperalgesia results from a lowered peripheral pain-receptor threshold in the injured tissue itself, distinct from central-sensitization-driven secondary hyperalgesia in surrounding skin.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+Pain physiology
+
+## subtopic
+Primary vs secondary hyperalgesia
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Primary hyperalgesia|Nociceptor sensitization|Secondary hyperalgesia
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Placing primary hyperalgesia in the normal skin AROUND the injury (that is secondary hyperalgesia) rather than in the injured tissue itself, or attributing it to central rather than peripheral receptor sensitization.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > Pain physiology > Pain physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p9 q32 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-0DA03F843C21EA
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+Primary cutaneous hyperalgesia: a- develops in the normal skin region around the area of flare b- is an abnormal condition in the skin in which painful stimuli become more severe c- is due to changes in threshold of pain receptors d- is associated with throbbing type of pain. Key: C.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p9 q32
+
+---
+
+# Item
+
+## id
+CON-NEU-D515E4BF24434A
+
+## label
+This source's Workshop Quiz 4 marks encephalitis as the cause of decreased CSF glucose, though standard teaching attributes this specifically to bacterial meningitis
+
+## canonical_key
+neuro.csf-physiology.csf-glucose-decrease-cause
+
+## definition
+Standard clinical teaching attributes a LOW CSF glucose (hypoglycorrhachia) specifically to bacterial (pyogenic) meningitis, where bacteria and infiltrating leukocytes consume glucose, and to a lesser extent to fungal/tuberculous meningitis or carcinomatous meningitis — with viral meningitis and encephalitis classically showing a NORMAL CSF glucose (since viruses do not consume glucose the way bacteria do), a distinction used clinically to differentiate bacterial from viral CNS infection. A traumatic tap or jaundice do not lower CSF glucose either.
+
+## explicit_objective
+State that a low CSF glucose is the classic marker of bacterial meningitis, distinguishing it from viral encephalitis/meningitis, which typically shows a normal CSF glucose.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+neuro
+
+## primary_node_id
+DIS-PHY-T07
+
+## secondary_node_ids
+
+
+## topic
+CSF physiology
+
+## subtopic
+CSF glucose in CNS infection
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+CSF glucose|Hypoglycorrhachia|Bacterial vs viral meningitis
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing low CSF glucose to viral encephalitis rather than bacterial meningitis, the infection that classically consumes CSF glucose; see author_notes for this source's own printed key.
+
+## article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_article_ids
+ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY
+
+## related_concept_ids
+
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+2
+
+## universities
+au
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+AU_Y2=0.35
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-203 > CSF physiology > CSF physiology
+
+## exam_signal
+src_caec6d06d9d48d9aaaa2 | department_question_bank | undated | p10 q34 | AU-MED-203
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-NEU-D515E4BF24434A
+
+## resource_ids
+src_caec6d06d9d48d9aaaa2
+
+## original_wording
+which of the following causes decrease in the CSF sugar ? A- traumatic tap B- meningitis C- encephalitis D- jaundice. Key: C (source's printed key; see author_notes).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists for this cluster in the curriculum overlay; module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-203 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+arabicLabel: No standard Arabic term for this specific fact is in undergraduate use separate from the English technical vocabulary; Alexandria students are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-203 Nervous System Workshop Quiz 4 bank (src_caec6d06d9d48d9aaaa2); this concept has no pipeline extraction record.
+sourceCandidateIds: Searched via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch for this canonical key and its distinctive terms per coverage/AU-MED-203-triage.md before minting. No closer live or pending corpus candidate exists.
+relationships: Walked the AU-MED-203 concepts minted alongside this one in the same batch; loose same-topic proximity recorded in related_concept_ids where a specific, nameable relationship exists. No typed edge met the bar of a directed relationship beyond plain topic adjacency otherwise.
+au: Workshop Quiz 4, p10 q34
+
+---

@@ -94,6 +94,10 @@ Layer VI, the multiform (polymorphic) layer, is both the deepest layer of the si
 ### Clinical significance
 Because the multiform layer borders the subcortical white matter directly, it is often the cortical layer affected earliest as white-matter disease spreads toward the cortex. The retina's inverted wiring, despite seeming inefficient, preserves visual acuity because the inner layers crossed by light first are thin and transparent, and are displaced laterally out of the direct light path at the fovea — the retinal region of sharpest vision.
 
+Workshop Quiz 3 and 4 extend this histology material with the eye, ear and cerebellar cortex. In the retina, the outer plexiform layer is the synaptic zone between the photoreceptors and the horizontal/bipolar cells of the inner nuclear layer — distinct from the inner plexiform layer's own bipolar-amacrine-ganglion synapses — and rhodopsin is synthesised in the rod cell's protein-synthetic INNER segment before being transported to the light-absorbing outer segment discs; corneal transparency, meanwhile, depends on a thin epithelium, avascularity and REGULAR, evenly-spaced stromal collagen fibrils, not irregular spacing, which would instead scatter light. In the organ of Corti, hair cells are the true mechanotransducing auditory receptor cells, while the rigid pillar (rod) cells are supporting structures whose bases and heads bound the fluid-filled inner tunnel (tunnel of Corti) separating the inner and outer hair cell rows; degeneration of the hair cells (or the cochlear nerve relaying them) produces sensorineural ('neural') deafness, distinct from a middle/external-ear conductive problem. The cochlear duct (scala media) is a closed, endolymph-filled compartment that does NOT open into the middle ear via the round window, which instead terminates the separate, perilymph-filled scala tympani; endolymph itself fills the whole membranous labyrinth (cochlear duct, utricle, saccule, semicircular ducts) and is unusually high in potassium, unlike ordinary extracellular fluid. The crista ampullaris, within each semicircular canal's ampulla, is the sensory structure that detects angular acceleration/deceleration, distinct from the cochlea's organ of Corti (hearing) or the utricle/saccule maculae (linear acceleration).
+
+Two cerebellar cortex facts, and one cross-cutting neurohistology definition, complete the Quiz 3-4 set. Granule cell DENDRITES, unlike their own parallel-fiber AXONS, are confined to the granular layer and are not found in the molecular layer, where those axons instead ascend and bifurcate; and while basket, stellate and granule cells all form direct synapses onto Purkinje cells, the Golgi cell instead synapses chiefly on granule cell dendrites within the granular layer's glomeruli, a feedback loop that does not directly involve the Purkinje cell — though this source's own Workshop Quiz 4 key marks the stellate cell, rather than the Golgi cell, as the one NOT attached to Purkinje cells (see that concept's field_notes). Finally, a ganglion is defined as a group of closely-packed neuron CELL BODIES sharing a function, located OUTSIDE the CNS — an intra-CNS cell-body cluster is instead a nucleus, and a fiber bundle (inside or outside the CNS) is a tract or nerve, not a ganglion.
+
 ## published_summary
 
 
@@ -108,6 +112,15 @@ Basilar membrane: base = narrow/stiff/high-frequency; apex = wide/compliant/low-
 Stria vascularis produces endolymph's high-potassium ionic composition and the endocochlear potential.
 Cerebellar glomerulus = mossy fiber + granule cell dendrites + Golgi cell AXON (not Golgi cell dendrites).
 Synaptic knob = axon terminal, synthesises varied neurotransmitters, releases by Ca2+-triggered exocytosis (voltage-gated channels).
+Outer plexiform layer = photoreceptor-horizontal-bipolar synapses; rhodopsin is made in the rod's inner segment, not the outer segment.
+Corneal transparency needs REGULAR, evenly-spaced stromal collagen — irregular spacing scatters light instead.
+Hair cells are the organ of Corti's true receptor cells; pillar cells are supporting cells bounding the tunnel of Corti.
+Hair-cell degeneration causes sensorineural (neural) deafness, distinct from a conductive problem.
+Cochlear duct/scala media does NOT open into the middle ear via the round window (that terminates the scala tympani); endolymph is unusually high in K+.
+Crista ampullaris detects angular acceleration/deceleration, distinct from the utricle/saccule maculae (linear acceleration) or organ of Corti (hearing).
+Granule cell dendrites (unlike their parallel-fiber axons) stay in the granular layer, absent from the molecular layer.
+Basket, stellate and granule cells synapse directly on Purkinje cells; the Golgi cell instead targets granule cell dendrites.
+A ganglion = neuron cell bodies OUTSIDE the CNS; an intra-CNS cell-body cluster is a nucleus, a fiber bundle is a tract/nerve.
 
 ## lose_the_mark
 Naming the plexiform (layer I, most superficial) layer as the deepest/broadest instead of the multiform (layer VI) layer.
@@ -117,6 +130,15 @@ Reversing the basilar membrane's base/apex width-stiffness-frequency relationshi
 Confusing the stria vascularis's secretory role with the basilar/tectorial membranes' purely mechanical roles.
 Including Golgi cell dendrites (rather than only its axon) as part of the cerebellar glomerulus.
 Placing synaptic knobs at dendrite terminals, or describing transmitter release as diffusion rather than exocytosis.
+Assigning amacrine-ganglion synapses (an inner plexiform layer relationship) to the outer plexiform layer, or locating rhodopsin synthesis in the outer rather than inner segment.
+Treating irregular collagen fibril spacing as a factor supporting corneal transparency, when regular spacing is what actually minimises scatter.
+Confusing pillar cells' structural (tunnel-of-Corti) role with the hair cells' separate mechanotransducing role.
+Confusing sensorineural (hair cell/nerve) deafness with a conductive hearing problem.
+Attributing a middle-ear connection to the cochlear duct, or a low-K+/negative-potential composition to endolymph.
+Confusing the crista ampullaris (angular acceleration) with the maculae (linear acceleration) or the organ of Corti (hearing).
+Placing granule cell dendrites in the molecular layer by confusing them with their own parallel-fiber axons.
+Assuming every cerebellar cortex interneuron synapses directly on Purkinje cells, when the Golgi cell instead targets granule cell dendrites.
+Defining a ganglion as a fiber bundle or an intra-CNS cell cluster rather than an extra-CNS neuron-cell-body cluster.
 
 ## related_concepts
 CON-NEU-42FC49D1399303
@@ -126,6 +148,18 @@ CON-NEU-8C357105B31049
 CON-NEU-A190160C46FE72
 CON-NEU-C48EB9743E7E97
 CON-NEU-3E30EC988602D8
+CON-NEU-F36CFF0C0EDE27
+CON-NEU-3FF95D30CD5825
+CON-NEU-692F1F89993E0D
+CON-NEU-C4B99D3AFFFA4C
+CON-NEU-7F692A413D417D
+CON-NEU-66D3236FE5D418
+CON-FND-366B1A16B5EF13
+CON-NEU-1006890E355A22
+CON-NEU-2C8D6B68556079
+CON-NEU-202406B79BDF20
+CON-NEU-C2DE1B6CF49B52
+CON-NEU-F346B9ED001561
 
 ## related_articles
 
@@ -134,6 +168,8 @@ CON-NEU-3E30EC988602D8
 Searched before creating: 3 distinct histology facts from AU-MED-203 Workshop Quiz 1 (src_9a9b871f19d313ffca54), read in full and keyed against the printed answer table (coverage/AU-MED-203-triage.md). All three concepts were searched via find-existing.mjs plus a grep pass across docs/*-Source-Imports/concept/*.md and codex/helwan-year1-content:docs/Helwan-Source-Imports/concept/ before minting; no live or pending match was found for any of them. The retina light-path concept (Q17) is topically adjacent to the retinal ganglion-cell action-potential concept authored in the physiology file (Q27) and is cross-linked via related_concept_ids.
 
 Extended for Workshop Quiz 2 (src_e0ce8dbbc37fcf3b12e9): 4 further histology facts minted after the same per-item search discipline (find-existing.mjs plus a grep pass, incl. ASU-CNS-3's 56 concepts); no hit found among the 4. Quiz 2 Q22 (an image-labelling variant of the same stria vascularis/endolymph fact tested plainly at Q18) shares Q18's main_concept rather than minting a twin, per the near-duplicate-angle convention documented in coverage/AU-MED-203-triage.md.
+
+Extended for Workshop Quiz 3 (src_b016b1b1c534c724e141, 6 facts) and Workshop Quiz 4 (src_caec6d06d9d48d9aaaa2, 6 facts), 12 histology concepts total, minted after the same per-item search discipline via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch; no hit found for any of the 12. Five of the twelve are image-labelling items (Quiz 3: hair cells, pillar cells, rhodopsin synthesis site; Quiz 4: hair-cell degeneration, crista ampullaris) whose source figures are absent from the corpus — each is minted around the underlying histological fact the source's own printed key is consistent with, per LANE-CARD §4, with `media_recommendations: Priority: required` on the question itself. Two facts are minted with the source's own printed answer key even though it diverges from the more commonly taught answer, per LANE-CARD's "printed keys stand, note doubts" rule: Quiz 3 Q11 (outer plexiform layer synapses) and Quiz 4 Q20 (Golgi cell/Purkinje attachment); each concept's own field_notes flags the discrepancy.
 
 ## field_notes
 arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.

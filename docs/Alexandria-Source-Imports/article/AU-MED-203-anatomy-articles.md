@@ -102,6 +102,14 @@ A mass lesion compressing the preolivary sulcus characteristically produces ipsi
 
 Because the corticospinal/corticobulbar fibers running through the internal capsule have not yet decussated, a unilateral internal capsule lesion produces an upper motor neuron syndrome — spastic paralysis, exaggerated tendon jerks and an extensor plantar response — on the CONTRALATERAL side of the body, not the ipsilateral or flaccid pattern of a lower motor neuron lesion. The basilar artery, formed by the vertebral arteries' union at the pontomedullary junction, supplies the pons and midbrain via paramedian and circumferential branches; its occlusion produces brainstem ischemia ranging from isolated cranial nerve/long tract signs to locked-in syndrome, a different territory from the internal or external carotid arteries.
 
+Workshop Quiz 3 and 4 extend this cranial-nerve grid with several further named-course facts. Sternocleidomastoid is a spinal accessory nerve (CN XI), not facial nerve, muscle, so it is spared even in a complete facial nerve palsy; unilaterally, it bends the head to the SAME side and rotates the face to the OPPOSITE side, and — as a branchial-arch-derived muscle — its accessory-nerve motor nucleus is classified SVE (special visceral efferent) alongside the trigeminal, facial, glossopharyngeal and vagus nerves' own branchiomotor nuclei. The vagus nerve's rootlets emerge from the medulla's postolivary sulcus (between the olive and inferior cerebellar peduncle), the same groove as the glossopharyngeal and accessory rootlets, distinct from the hypoglossal nerve's preolivary emergence between the pyramid and olive. The maxillary division of the trigeminal nerve (V2) supplies the upper lip and, via its posterior superior alveolar branch, the upper molar teeth (excluding the mesiobuccal root of the first molar, a middle superior alveolar territory) — both distinct from the ophthalmic and mandibular divisions' own territories.
+
+Two further named-nucleus facts round out the cranial-nerve grid. The facial colliculus, the swelling in the fourth ventricle's floor, is produced principally by the ABDUCENS nucleus — the facial nerve's own intrapontine fibers merely loop around it (the internal genu) before exiting — a frequently inverted fact given the colliculus's name. This source's own Workshop Quiz 3 key marks the dorsal (vagal) nucleus, rather than the superior salivatory nucleus, as the lacrimal gland's parasympathetic supply; standard teaching instead places lacrimal (and, via the chorda tympani, submandibular/sublingual) parasympathetic outflow in the superior salivatory nucleus, with the dorsal vagal nucleus supplying thoracoabdominal viscera instead — see the individual concept's field_notes for this discrepancy.
+
+Vascular and skull-base anatomy contribute a further cluster. The middle cerebral artery arises as the internal carotid artery's own larger terminal branch (the anterior cerebral artery being the smaller one), distinct from the posterior circulation's basilar/posterior cerebral arteries; the posterior inferior cerebellar artery (PICA), typically from the vertebral artery, supplies the dorsolateral medulla (its occlusion causing lateral medullary/Wallenberg syndrome); a further paramedian branch of the basilar artery, running in the pons's own midline basilar sulcus, supplies the pons itself; and the precuneus, on the medial parietal surface, sits in an anterior/posterior cerebral artery border zone most often attributed to the ACA. Separately, the middle meningeal vessels pass through the foramen spinosum, distinct from the adjacent foramen ovale (mandibular nerve) and foramen rotundum (maxillary nerve).
+
+Three further clusters complete the Workshop Quiz 3-4 anatomy set. In the spinal cord, the lateral horn (T1-L2, S2-4) houses the sympathetic/sacral-parasympathetic preganglionic column, while the LATERAL motor nucleus of the anterior horn — the limb-muscle motor column — is confined to the cervical and lumbosacral enlargements and essentially absent from thoracic segments, which retain only the medial (trunk) motor nucleus, the sympathetic nucleus and Clark's nucleus. In the thalamus, the internal medullary lamina is the Y-shaped fiber sheet that partitions its grey matter into anterior, medial and lateral nuclear groups — a different structure from the stria medullaris thalami or the lamina terminalis. In pharyngeal-arch and pouch embryology, the muscles of facial expression are second-arch (facial nerve) derivatives; the sixth arch cartilage forms the arytenoid, cricoid and corniculate cartilages (the fourth arch instead giving the thyroid cartilage, the third arch the hyoid's greater horn); the palatine tonsil develops from the second pharyngeal pouch; and oligodendrocytes — unlike Schwann cells, the pia mater, or pharyngeal-arch mesenchyme — are NOT neural-crest derivatives, arising instead from the neuroepithelium of the neural tube. Finally, the ciliary body/ciliary muscle, via the zonular fibers, regulates lens accommodation, a distinct anterior-segment function from the trabecular meshwork's aqueous outflow role or the ciliary epithelium's aqueous-production role, and the substantia nigra spans the midbrain (mesencephalon), not the pons or medulla.
+
 ## published_summary
 
 
@@ -135,6 +143,16 @@ Paracentral lobule represents leg/foot AND perineum (bladder/bowel sphincter con
 Optic tract lesion causes contralateral homonymous hemianopia; chiasmal lesion causes bitemporal hemianopia.
 Internal capsule lesion causes CONTRALATERAL spastic hemiplegia (upper motor neuron pattern).
 Basilar artery occlusion causes brainstem (pons/midbrain) ischemia.
+Sternocleidomastoid (CN XI, SVE) is spared in facial palsy; ipsilateral tilt + contralateral rotation is its unilateral action.
+Vagus rootlets emerge from the postolivary sulcus (with glossopharyngeal/accessory); hypoglossal emerges preolivary.
+Maxillary nerve (V2) supplies the upper lip and, via the posterior superior alveolar branch, the upper molars.
+Facial colliculus is formed by the ABDUCENS nucleus, not the facial nucleus, despite the name.
+Middle cerebral artery is the ICA's own larger terminal branch; PICA supplies the dorsolateral medulla; a basilar artery paramedian branch supplies the pons via the basilar sulcus; precuneus is chiefly ACA territory.
+Middle meningeal vessels pass through foramen spinosum, distinct from foramen ovale (V3) and foramen rotundum (V2).
+Lateral horn = sympathetic/sacral parasympathetic preganglionic nuclei; the LATERAL (limb) motor nucleus, unlike the medial motor/sympathetic/Clark's nuclei, is absent from thoracic segments.
+Internal medullary lamina = Y-shaped sheet dividing the thalamus into anterior/medial/lateral nuclear groups.
+Muscles of facial expression = second arch; sixth arch cartilage = arytenoid/cricoid/corniculate; palatine tonsil = second pharyngeal pouch; oligodendrocytes are NOT neural-crest derivatives (Schwann cells and pia mater are).
+Ciliary body/muscle regulates accommodation (not aqueous outflow or production); substantia nigra spans the midbrain, not the pons/medulla.
 
 ## lose_the_mark
 Assigning the lesser cornu of the hyoid or the stapes to the third arch — both are second-arch derivatives.
@@ -163,6 +181,16 @@ Limiting the paracentral lobule's representation to the leg/foot alone, omitting
 Reversing chiasmal (bitemporal) and optic tract (contralateral homonymous) visual field defects.
 Placing the internal capsule lesion's motor deficit on the same side as the lesion, or describing it as flaccid rather than spastic.
 Confusing the basilar artery's brainstem (posterior circulation) territory with the internal carotid artery's cerebral hemisphere (anterior circulation) territory.
+Attributing sternocleidomastoid to the facial nerve (it is CN XI, spared in facial palsy), or reversing its ipsilateral-tilt/contralateral-rotation action.
+Placing vagus rootlets in the preolivary sulcus (the hypoglossal nerve's site) instead of the postolivary sulcus.
+Assigning upper-lip or upper-molar sensation to the ophthalmic or mandibular trigeminal divisions instead of the maxillary (V2) division.
+Assuming the facial colliculus is formed by the facial nucleus because of its name, rather than the abducens nucleus it wraps around.
+Assigning the MCA to the posterior circulation, or medullary/pontine supply to the wrong vessel among PICA/basilar/carotid branches.
+Confusing foramen spinosum (middle meningeal vessels) with the adjacent foramen ovale or foramen rotundum.
+Assuming the lateral (limb) motor nucleus is present at every cord level, or misassigning lateral-horn structures a motor/sensory (rather than autonomic) role.
+Confusing the internal medullary lamina with the stria medullaris thalami or lamina terminalis.
+Assigning the muscles of facial expression, sixth-arch cartilages, or palatine tonsil to the wrong arch/pouch, or treating oligodendrocytes as neural-crest derivatives.
+Conflating the ciliary body's accommodation role with the trabecular meshwork's outflow role, or misplacing the substantia nigra outside the midbrain.
 
 ## related_concepts
 CON-FND-4C5290971D40D1
@@ -198,6 +226,32 @@ CON-NEU-4FB3397E4619F3
 CON-NEU-6BDDD009FFC55C
 CON-NEU-152993798822B6
 CON-NEU-04F7F764A6D679
+CON-NEU-C45E0A9DC87329
+CON-NEU-AA223B5B388120
+CON-NEU-4B44D513B80927
+CON-NEU-FE4E8E91C5BFFB
+CON-NEU-4A0F99727B2E94
+CON-NEU-9D8B5F9A96EFEB
+CON-NEU-71F37542DF2271
+CON-FND-7B75BAB3A4E6C6
+CON-NEU-C8E29E775C6856
+CON-NEU-4D96D26186D63D
+CON-NEU-B657A9987411BF
+CON-NEU-E52F57F2921C77
+CON-FND-6741DFE8920A3E
+CON-FND-70BDEFD335E3E1
+CON-NEU-24E57A0FBCE877
+CON-FND-D33FD145EF1078
+CON-NEU-4962859DA23764
+CON-NEU-FEDCD802906A53
+CON-NEU-4E16F054159EF4
+CON-NEU-E82953158F217C
+CON-NEU-6908C5B1242821
+CON-NEU-E1A552F884A97E
+CON-NEU-5829C2A51C495F
+CON-NEU-7E62EDEAA1FAAA
+CON-NEU-27210A54963FBF
+CON-NEU-3D4ADCAFC8B82E
 
 ## related_articles
 
@@ -206,6 +260,8 @@ CON-NEU-04F7F764A6D679
 Searched before creating: 17 distinct anatomy facts from AU-MED-203 Workshop Quiz 1 (src_9a9b871f19d313ffca54), read in full and keyed against the printed answer table (coverage/AU-MED-203-triage.md). Two facts from the same quiz reuse an existing live Kasr concept via direct citation rather than a new mint (abducens nerve in the cavernous sinus, CON-FND-0D9D7A5BD1305F, Q9) and are authored as questions only, not repeated here. One fact (ciliary ganglion, Q4) is HIT-PENDING against a Kasr 102-INT batch not yet imported and is authored as a question in pending-live/AU-MED-203-questions.md rather than as a concept here. All 17 concepts here were searched via find-existing.mjs plus a grep pass across docs/*-Source-Imports/concept/*.md (Kasr 101-108, ASU, MUST, AU Y1) and codex/helwan-year1-content:docs/Helwan-Source-Imports/concept/ before minting; no live or pending match was found for any of them beyond the ones already cited above.
 
 Extended for Workshop Quiz 2 (src_e0ce8dbbc37fcf3b12e9): 16 further anatomy facts (incl. 2 embryology-flavoured) minted after the same per-item search discipline, this time also checking ASU-CNS-3's 56 freshly-minted CON-NEU-* neuroanatomy concepts (docs/Ain-Shams-Source-Imports/concept/ASU-CNS-3-anatomy-mcq-concepts.md, landed 2026-09-02 at 184a4a49). Two Quiz 2 facts (Q24 frontal lobe/personality, Q28 inferior petrosal sinus->IJV) verified exact hits against that ASU-CNS-3 batch via find-existing.mjs and are NOT repeated here as new concepts — they are sparse-overlay updates in pending-live/AU-MED-203-cns3-overlay-concepts.md plus their own questions in pending-live/AU-MED-203-cns3-overlay-questions.md, since the ASU-CNS-3 batch is itself not yet imported to production (HIT-PENDING against a sibling university's unimported batch, not a mint). One Quiz 2 fact (Q3, light-near dissociation/pretectal-region near-response lesion) reuses the same Kasr 102-INT HIT-PENDING concept as Quiz 1 Q4 and is filed as a sibling question in pending-live/AU-MED-203-questions.md, not repeated here. One near-miss recorded, not overlaid: Q17 (paracentral lobule perineum representation) is topically adjacent to ASU-CNS-3's CON-NEU-168E2C67CB6BA7 (paracentral lobule leg/foot representation) but tests a distinct fact — minted separately and cross-linked via the question's own contextual_concept_ids, per LANE-BRIEF's near-miss convention.
+
+Extended for Workshop Quiz 3 (src_b016b1b1c534c724e141, 13 facts) and Workshop Quiz 4 (src_caec6d06d9d48d9aaaa2, 13 facts), 26 anatomy concepts total, minted after the same per-item search discipline: each canonical key and its distinctive terms was checked via "Instruction Manual for Content Creation/tools/find-existing.mjs" against live state and every docs/*-Source-Imports pending batch (including the ASU-CNS-3 and Kasr 102-INT batches already cited above) before minting; no hit found for any of the 26. Two Workshop Quiz 4 facts reuse concepts minted elsewhere rather than being repeated here: Q4 (abducens nerve first affected in internal carotid aneurysm) reuses the same live Kasr concept (CON-FND-0D9D7A5BD1305F) as Quiz 1 Q9, and Q31 (dentate nucleus as the most lateral deep cerebellar nucleus) reuses a live cross-university concept (CON-NEU-2F4980F4507C06, article ART-NEU-TOP-D2516BCC85) — both cited directly in their own questions, not minted again. Two Workshop Quiz 3 facts (olfactory nerve functional component, Q3; lacrimal gland parasympathetic nucleus, Q22) and one Workshop Quiz 4 fact (Golgi cell/Purkinje attachment, histology file Q20) are minted with the source's own printed answer key even though it diverges from the more commonly taught answer, per LANE-CARD's "printed keys stand, note doubts" rule — each concept's label and field_notes flag the discrepancy explicitly.
 
 ## field_notes
 arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.
