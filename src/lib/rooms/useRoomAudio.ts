@@ -63,6 +63,12 @@ export interface RoomAudio {
  */
 export const VOICE_TRANSPORT_REASON = 'Voice is unavailable right now.'
 
+/**
+ * The call was agreed but the audio never arrived: ICE failed to reach the
+ * media server. Exported for the same reason as the transport reason.
+ */
+export const VOICE_MEDIA_REASON = 'Voice could not reach the media server, so nobody can hear you in this room.'
+
 /** Demo mode has no server to carry a call, and says so rather than blaming the browser. */
 export const DEMO_VOICE_REASON = 'Voice needs the connected server.'
 
@@ -310,6 +316,26 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
           .then(() => callback())
           .catch((error) => errback(error as Error))
       })
+
+      /*
+       * The signalling above only proves the server agreed to a call; the
+       * audio itself rides ICE to the addresses in `iceCandidates`, and when
+       * those are unreachable — a media port range the firewall does not open,
+       * an announced address that is the server's private one — nothing here
+       * ever rejects. `produce` resolves, the room says you are in the call,
+       * and everyone hears silence. So a transport that reaches `failed` is
+       * torn down with a reason the student can read, and the addresses it
+       * was dialling are logged for whoever is debugging the deployment.
+       */
+      transport.on('connectionstatechange', (connectionState) => {
+        if (connectionState !== 'failed') return
+        const dialled = (params.iceCandidates as { protocol?: string; ip?: string; port?: number }[])
+          .map((candidate) => `${candidate.protocol ?? '?'}://${candidate.ip ?? '?'}:${candidate.port ?? '?'}`)
+        console.warn(`[rooms] voice ${direction} transport failed; media server candidates: ${dialled.join(' ')}`)
+        if (!guard.current.isCurrent(token) || !call.current) return
+        closeCall()
+        setLocalReason(VOICE_MEDIA_REASON)
+      })
       return transport
     }
 
@@ -357,7 +383,7 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
       // can talk in; the next person to speak arrives through the channel.
     }
     return true
-  }, [consumeProducer])
+  }, [consumeProducer, closeCall])
 
   const join = useCallback(async () => {
     if (unsupportedReason) return

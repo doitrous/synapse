@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  DEFAULT_STUN_URL, MAX_TRANSPORTS_PER_PEER, iceServersFrom, loadSfu, resetSfu, sfuConfig, workerForRoom,
+  DEFAULT_STUN_URL, MAX_TRANSPORTS_PER_PEER, describeConfig, iceServersFrom, loadSfu, resetSfu, sfuConfig, workerForRoom,
 } from './roomsSfu.js'
 
 test('the defaults are the documented ones', () => {
@@ -176,4 +176,23 @@ test('a worker that dies takes its rooms out of the cache and the SFU says so', 
     await sfu.close()
     resetSfu()
   }
+})
+
+test('the boot line names the announced address, the port range and the relay, never the credential', () => {
+  assert.equal(
+    describeConfig(sfuConfig({})),
+    'announced UNSET, udp/tcp 40000-40400, turn none',
+  )
+  assert.equal(
+    describeConfig(sfuConfig({
+      SFU_ANNOUNCED_IP: '203.0.113.9',
+      SFU_RTC_MIN_PORT: '50000',
+      SFU_RTC_MAX_PORT: '50100',
+      TURN_URLS: 'turn:203.0.113.9:3478?transport=udp, turn:203.0.113.9:3478?transport=tcp',
+      TURN_USERNAME: 'nishany',
+      TURN_CREDENTIAL: 'hunter2',
+    })),
+    'announced 203.0.113.9, udp/tcp 50000-50100, turn turn:203.0.113.9:3478?transport=udp turn:203.0.113.9:3478?transport=tcp',
+  )
+  assert.ok(!describeConfig(sfuConfig({ TURN_URLS: 'turn:x', TURN_USERNAME: 'u', TURN_CREDENTIAL: 'hunter2' })).includes('hunter2'))
 })
