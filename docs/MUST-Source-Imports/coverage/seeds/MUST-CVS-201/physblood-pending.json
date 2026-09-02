@@ -1,0 +1,576 @@
+{
+  "lane": "MUST-CVS201",
+  "cluster": "physblood-pending",
+  "header": "MUST-CVS-201 - Physiology tranche (author7) - Blood Flow pending MCQs (main_concept pending in Kasr 104-CPS-mcq-concepts.md or Alexandria AU-MED-106/102/203 physiology-concepts.md, per pending-live/MUST-CVS-201-physiology-concepts-overlay.md) - from the Physiology CVS201 EOM Final paper, keys read from the paper's own printed Blood Flow answer key (p.9).",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "must"
+    ],
+    "years": [
+      "MUST_Y2"
+    ],
+    "module": "MUST-CVS-201",
+    "exam_weight_by_year": {
+      "MUST_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "topic": "Physiology",
+    "subtopic": "Blood Flow",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "difficulty": "Moderate",
+    "question_type": "Recall",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "resource_ids": [
+      "src_165188e079f0f475e54d"
+    ],
+    "source_citation": "Physiology CVS201 Questions (Final), Blood Flow section, key p.9."
+  },
+  "questions": [
+    {
+      "key": "physblood-q01",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q01",
+      "page": 1,
+      "title": "Poiseuille's law and blood flow",
+      "question": "According to Poiseuille's law, blood flow is most directly proportional to:",
+      "options": {
+        "A": "Viscosity of the blood",
+        "B": "Length of the blood vessel",
+        "C": "The fourth power of the radius (r\u2074)",
+        "D": "Pressure gradient"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Blood flow is inversely, not directly, proportional to viscosity: a rise in viscosity reduces flow for a given pressure gradient and radius.",
+        "B": "Incorrect. Blood flow is inversely, not directly, proportional to vessel length: a longer vessel offers more resistance and so, for a given pressure and radius, less flow.",
+        "C": "Correct. Poiseuille's law states that flow varies with the pressure gradient and with the vessel radius raised to the fourth power, while it varies inversely with viscosity and length. Because flow scales with r to the fourth power, a vessel that doubles its radius increases flow sixteen-fold from that change alone, making radius, of every variable in the equation, by far the most powerful determinant of flow and resistance. This fourth-power relationship is exactly why small changes in arteriolar diameter dominate local blood-flow control far more than comparable changes in driving pressure.",
+        "D": "Incorrect. Flow is directly proportional to the pressure gradient too, but only to its first power, a much weaker relationship than the fourth-power dependence on radius, so radius is the \"most directly proportional\" variable Poiseuille's law singles out."
+      },
+      "main_concept": "CON-CVS-EFDC2163E84213",
+      "concept_ids": [
+        "CON-CVS-EFDC2163E84213"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Resistance and Poiseuille's Law",
+      "library_ids": [
+        "ART-104-HIS-ARTERIES-AND-VEINS"
+      ],
+      "learning_objective": "State that Poiseuille's law makes blood flow vary with the fourth power of vessel radius, the strongest single determinant of flow and resistance."
+    },
+    {
+      "key": "physblood-q02",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q02",
+      "page": 1,
+      "title": "Primary site of vascular resistance",
+      "question": "The primary site of resistance to blood flow in the circulatory system is the:",
+      "options": {
+        "A": "Large arteries",
+        "B": "Capillaries",
+        "C": "Venules",
+        "D": "Arterioles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Large arteries have wide lumens and offer relatively little resistance; their main functional role is elastic conduction and pressure-wave transmission, not resistance.",
+        "B": "Incorrect. Individual capillaries are narrow, but their enormous combined cross-sectional area and lack of smooth muscle mean they are not the principal resistance vessels; their role is exchange, not resistance.",
+        "C": "Incorrect. Venules have thin, low-resistance walls and function mainly as the first collecting vessels of the venous (capacitance) side of the circulation, not as major resistance vessels.",
+        "D": "Correct. Arterioles are the principal resistance vessels of the systemic circulation: their small lumen combined with a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type. Sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed. This resistance role, governed by Poiseuille's fourth-power radius relationship, is why arteriolar diameter dominates both local blood flow and overall arterial pressure."
+      },
+      "main_concept": "CON-CVS-EFDC2163E84213",
+      "concept_ids": [
+        "CON-CVS-EFDC2163E84213"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Resistance and Poiseuille's Law",
+      "library_ids": [
+        "ART-104-HIS-ARTERIES-AND-VEINS"
+      ],
+      "learning_objective": "Identify arterioles as the principal resistance vessels of the systemic circulation."
+    },
+    {
+      "key": "physblood-q03",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q03",
+      "page": 1,
+      "title": "Slowest blood flow velocity",
+      "question": "The velocity of blood flow is slowest in the capillaries because:",
+      "options": {
+        "A": "The pressure is lowest there",
+        "B": "They have the largest total cross-sectional area",
+        "C": "They have the highest resistance",
+        "D": "They are the most numerous"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Although capillary pressure is indeed relatively low, velocity is set by the relationship between flow and total cross-sectional area, not directly by local pressure.",
+        "B": "Correct. For a continuous flow, where the same total volume per minute passes through every level of the circulation, velocity at any point is inversely proportional to the total cross-sectional area available there. Despite each individual capillary being tiny, the sheer number of capillaries running in parallel gives them the largest combined cross-sectional area of any level of the circulation, so velocity falls to its slowest there, roughly 0.03 to 0.05 cm per second, compared to 40 to 50 cm per second in large arteries. This \"traffic jam\" effect is precisely what gives capillary blood the time it needs for gas, nutrient and waste exchange to occur.",
+        "C": "Incorrect. Capillaries individually offer little resistance compared with arterioles, which are the principal resistance vessels; high resistance is not what slows capillary velocity.",
+        "D": "Incorrect. Being numerous is the underlying reason their combined cross-sectional area is so large, but it is that large total cross-sectional area, not numerousness on its own, that is the direct cause of the low velocity."
+      },
+      "main_concept": "CON-CVS-5F39EB05ECFB9B",
+      "concept_ids": [
+        "CON-CVS-5F39EB05ECFB9B"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Velocity and Cross-Sectional Area",
+      "library_ids": [
+        "ART-CVS-BP-PULSE-AUSCULTATION"
+      ],
+      "learning_objective": "State that blood-flow velocity is inversely proportional to total cross-sectional area, making capillaries the slowest despite their tiny individual diameter."
+    },
+    {
+      "key": "physblood-q04",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q04",
+      "page": 2,
+      "title": "Laminar flow definition",
+      "question": "Which type of blood flow is characterized by smooth, parallel layers of blood?",
+      "options": {
+        "A": "Turbulent flow",
+        "B": "Laminar flow",
+        "C": "Bolus flow",
+        "D": "Critical flow"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Turbulent flow is disorganised, with eddies and cross-currents rather than smooth parallel layers, and it is promoted by a high Reynolds number, driven up by higher velocity or vessel diameter and down by higher viscosity.",
+        "B": "Correct. Laminar flow is the normal, smooth pattern of blood movement, in which blood moves in concentric, parallel layers (or streamlines) that slide past one another with the fastest layer at the centre of the vessel and progressively slower layers toward the wall. Whether flow stays laminar or becomes turbulent is predicted by the Reynolds number, and laminar flow is silent, whereas turbulent flow is the physical basis of vascular murmurs and bruits, such as those produced by a partial vessel occlusion that locally raises velocity enough to disrupt the smooth layers.",
+        "C": "Incorrect. \"Bolus flow\" is not a standard term for a basic pattern of blood flow in the circulation; it is not one of the two recognised flow patterns (laminar and turbulent).",
+        "D": "Incorrect. \"Critical flow\" is not a standard classification of blood-flow pattern; the relevant physiological distinction is between laminar and turbulent flow, predicted by the Reynolds number."
+      },
+      "main_concept": "CON-CVS-BE644093FBBA69",
+      "concept_ids": [
+        "CON-CVS-BE644093FBBA69"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Laminar and Turbulent Flow",
+      "library_ids": [
+        "ART-104-PHY-HEMODYNAMICS-AND-ARTERIAL-PRESSURE"
+      ],
+      "learning_objective": "Define laminar flow as the smooth, parallel-layered pattern of normal blood flow, and contrast it with turbulent flow."
+    },
+    {
+      "key": "physblood-q06",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q06",
+      "page": 2,
+      "title": "Angiotensin II as a circulating vasoconstrictor",
+      "question": "Which of the following is a potent circulating vasoconstrictor released in response to renal ischemia?",
+      "options": {
+        "A": "Atrial Natriuretic Peptide (ANP)",
+        "B": "Bradykinin",
+        "C": "Nitric Oxide (NO)",
+        "D": "Angiotensin II"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. ANP is a vasodilator hormone secreted in response to atrial stretch from rising blood volume, not a vasoconstrictor released by renal ischaemia.",
+        "B": "Incorrect. Bradykinin, a kinin, is a local vasodilator, the opposite direction of action from the vasoconstrictor this question describes.",
+        "C": "Incorrect. Nitric oxide is a local vasodilator synthesised by endothelium, not a circulating vasoconstrictor released in response to renal ischaemia.",
+        "D": "Correct. The circulating hormones acting on the vasculature split into vasoconstrictors, angiotensin II, epinephrine, norepinephrine and vasopressin, and vasodilators, kinins and natriuretic peptide. Renal ischaemia (from a fall in arterial pressure) triggers renin secretion, which drives formation of angiotensin II, a potent circulating vasoconstrictor that raises arterial pressure by direct vasoconstriction and by promoting aldosterone and ADH secretion. This renal-ischaemia trigger is exactly what makes angiotensin II, among the four circulating vasoconstrictor hormones, the one specifically tied to falling renal perfusion."
+      },
+      "main_concept": "CON-CVS-2BE3EA659D177B",
+      "concept_ids": [
+        "CON-CVS-2BE3EA659D177B"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "Identify angiotensin II as the circulating vasoconstrictor hormone released in response to renal ischaemia."
+    },
+    {
+      "key": "physblood-q08",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q08",
+      "page": 3,
+      "title": "Autoregulation definition",
+      "question": "The ability of a tissue to regulate its own blood flow according to its metabolic needs is called:",
+      "options": {
+        "A": "Reactive hyperemia",
+        "B": "Autoregulation",
+        "C": "Active hyperemia",
+        "D": "Myogenic response"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Reactive hyperaemia is a specific instance of increased flow following a period of occlusion, not the general term for a tissue's ability to match its own flow to its metabolic needs.",
+        "B": "Correct. Local blood flow is matched to tissue metabolism by two intrinsic mechanisms working together, active hyperaemia, driven by vasodilator metabolites and hypoxia, and myogenic and metabolic autoregulation, which returns flow toward normal after a change in perfusion pressure. Autoregulation is the general term for this tissue-level, self-regulating ability to keep blood flow appropriate to metabolic demand independent of moment-to-moment changes in driving pressure. It is an intrinsic property of the tissue's own vasculature rather than a response requiring external nervous or hormonal input.",
+        "C": "Incorrect. Active hyperaemia is one specific mechanism contributing to autoregulation, driven by local vasodilator metabolites, but it is not itself the general term for the tissue's overall self-regulating ability.",
+        "D": "Incorrect. The myogenic response is one specific mechanism of autoregulation, in which stretch of vascular smooth muscle triggers reflex contraction, but it is not the general term the question asks for."
+      },
+      "main_concept": "CON-CVS-56A68328FD03C7",
+      "concept_ids": [
+        "CON-CVS-56A68328FD03C7"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Autoregulation and Active Hyperaemia",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "Define autoregulation as a tissue's intrinsic ability to match its own blood flow to its metabolic needs."
+    },
+    {
+      "key": "physblood-q09",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q09",
+      "page": 3,
+      "title": "Nitric oxide synthesis and action",
+      "question": "Which substance, synthesized from arginine, is a potent vasodilator essential for maintaining normal blood pressure?",
+      "options": {
+        "A": "Endothelin",
+        "B": "Thromboxane A\u2082",
+        "C": "Vasopressin",
+        "D": "Nitric Oxide (NO)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Endothelin is also produced by endothelium, but it is a peptide, not synthesised from arginine, and it is a potent vasoconstrictor, not a vasodilator.",
+        "B": "Incorrect. Thromboxane A2 is derived from arachidonic acid, not arginine, and it is a vasoconstrictor and platelet-aggregation promoter, the opposite of a vasodilator.",
+        "C": "Incorrect. Vasopressin is a peptide hormone from the posterior pituitary, not synthesised from arginine in the endothelium, and its principal vascular action is vasoconstriction, not vasodilation.",
+        "D": "Correct. Endothelial nitric oxide is synthesised continuously from the amino acid L-arginine by endothelial nitric oxide synthase (eNOS), and it acts through smooth-muscle cyclic GMP to produce vasodilation. It is a short-lived local vasodilator whose deficiency contributes to chronic hypertension, underscoring why adequate NO synthesis is essential for maintaining normal blood pressure rather than merely a minor contributor to it. Shear stress, acetylcholine, bradykinin and histamine all raise NO secretion, linking it to the body's other local vasodilator signalling pathways."
+      },
+      "main_concept": "CON-CVS-73B5BC1B2AB1FD",
+      "concept_ids": [
+        "CON-CVS-73B5BC1B2AB1FD"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "Identify nitric oxide as the arginine-derived, endothelium-synthesised vasodilator essential for normal blood pressure."
+    },
+    {
+      "key": "physblood-q10",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q10",
+      "page": 3,
+      "title": "Reactive hyperaemia after occlusion",
+      "question": "An increase in blood flow to a tissue following a period of occlusion is known as:",
+      "options": {
+        "A": "Active hyperemia",
+        "B": "Autoregulation",
+        "C": "Reactive hyperemia",
+        "D": "Myogenic contraction"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Active hyperaemia is the increase in local blood flow that accompanies increased tissue metabolic activity itself, not specifically the flow surge that follows release of a period of occlusion.",
+        "B": "Incorrect. Autoregulation is the general mechanism that keeps flow matched to metabolic need across a range of perfusion pressures; reactive hyperaemia is one specific, named manifestation of it after occlusion, not the general term.",
+        "C": "Correct. Local blood flow is matched to tissue metabolism by mechanisms that return flow toward normal after a change in perfusion pressure, and when a vessel has been occluded, the resulting build-up of vasodilator metabolites and local hypoxia produces a pronounced increase in blood flow once the occlusion is released, exceeding the resting baseline for a period before settling back down. This surge is specifically named reactive hyperaemia, distinguishing it from active hyperaemia (driven by increased metabolic activity itself) even though both arise from the same underlying local, metabolite-driven vasodilator mechanisms.",
+        "D": "Incorrect. Myogenic contraction describes vascular smooth muscle contracting in response to stretch (e.g. from a rise in pressure), the opposite direction of response from the flow increase reactive hyperaemia describes."
+      },
+      "main_concept": "CON-CVS-56A68328FD03C7",
+      "concept_ids": [
+        "CON-CVS-56A68328FD03C7"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Autoregulation and Active Hyperaemia",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "Name reactive hyperaemia as the specific increase in blood flow that follows release of a period of vascular occlusion."
+    },
+    {
+      "key": "physblood-q11",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q11",
+      "page": 3,
+      "title": "Circulating vasodilator substance",
+      "question": "Which of the following is a circulating vasodilator substance?",
+      "options": {
+        "A": "Norepinephrine",
+        "B": "Vasopressin (ADH)",
+        "C": "Kinins",
+        "D": "Endothelin"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Norepinephrine acts almost exclusively on alpha-adrenergic receptors and is a circulating vasoconstrictor, not a vasodilator, in essentially every vascular bed it reaches.",
+        "B": "Incorrect. Vasopressin is one of the circulating vasoconstrictor hormones, alongside angiotensin II, epinephrine and norepinephrine, not a vasodilator.",
+        "C": "Correct. The circulating hormones acting on the vasculature split into vasoconstrictors, angiotensin II, epinephrine, norepinephrine and vasopressin, and vasodilators, kinins (such as bradykinin) and natriuretic peptides (such as ANP). Kinins are therefore, alongside natriuretic peptide, one of only two classes of circulating vasodilator hormone named in this classification, distinguishing them from the four circulating vasoconstrictors.",
+        "D": "Incorrect. Endothelin, though locally rather than systemically acting, is a potent vasoconstrictor released by endothelium in response to stretch or injury, not a vasodilator."
+      },
+      "main_concept": "CON-CVS-2BE3EA659D177B",
+      "concept_ids": [
+        "CON-CVS-2BE3EA659D177B"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "Identify kinins as one of the two classes of circulating vasodilator hormone, distinct from the four circulating vasoconstrictors."
+    },
+    {
+      "key": "physblood-q17",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q17",
+      "page": 5,
+      "title": "Adenosine as a local vasodilator metabolite",
+      "question": "Which of the following metabolites accumulates during tissue activity and causes vasodilation?",
+      "options": {
+        "A": "Glucose",
+        "B": "Oxygen",
+        "C": "Adenosine",
+        "D": "Bicarbonate"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Glucose is a metabolic substrate consumed, not accumulated, during tissue activity, and it is not itself a recognised local vasodilator metabolite.",
+        "B": "Incorrect. Oxygen is consumed, and so falls rather than accumulates during tissue activity; it is the fall in oxygen tension, not oxygen itself, that promotes local vasodilation.",
+        "C": "Correct. Local blood flow is matched to tissue metabolism by active hyperaemia, driven by vasodilator metabolites and hypoxia. As tissue metabolic activity rises, adenosine, released from cells as ATP is broken down for energy, accumulates locally and acts as one of the vasodilator metabolites that widens the local vasculature, increasing blood flow to match the tissue's rising metabolic demand.",
+        "D": "Incorrect. Bicarbonate is not a classic local vasodilator metabolite of active hyperaemia; carbon dioxide and hydrogen ions, not bicarbonate itself, are the acid-base-related mediators usually cited alongside adenosine."
+      },
+      "main_concept": "CON-CVS-56A68328FD03C7",
+      "concept_ids": [
+        "CON-CVS-56A68328FD03C7"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Autoregulation and Active Hyperaemia",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "Name adenosine as a local vasodilator metabolite that accumulates during increased tissue activity."
+    },
+    {
+      "key": "physblood-q18",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q18",
+      "page": 5,
+      "title": "Resistance and the fourth power of radius",
+      "question": "Resistance to blood flow is directly proportional to:",
+      "options": {
+        "A": "The radius of the vessel",
+        "B": "The fourth power of the radius",
+        "C": "The viscosity of the blood",
+        "D": "The pressure gradient"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Resistance is inversely, not directly, proportional to the vessel radius: a wider vessel offers less resistance.",
+        "B": "Incorrect. Resistance is inversely proportional to the fourth power of the radius (a doubled radius cuts resistance to a sixteenth), the inverse of the relationship this option states; flow, not resistance, rises directly with r to the fourth power.",
+        "C": "Correct. Poiseuille's law shows that vascular resistance rises directly with blood viscosity, alongside vessel length, while it falls with the fourth power of the radius. Because arterioles are the principal resistance vessels, and their small lumen combined with well-developed smooth muscle lets them change resistance more than any other vessel type, viscosity's direct contribution to resistance sits alongside, but is dominated in practice by, the arterioles' own radius changes.",
+        "D": "Incorrect. The pressure gradient is the driving force for flow, related to resistance and flow by flow = pressure gradient / resistance, but resistance itself is not directly proportional to the pressure gradient."
+      },
+      "main_concept": "CON-CVS-EFDC2163E84213",
+      "concept_ids": [
+        "CON-CVS-EFDC2163E84213"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Resistance and Poiseuille's Law",
+      "library_ids": [
+        "ART-104-HIS-ARTERIES-AND-VEINS"
+      ],
+      "learning_objective": "State that vascular resistance rises directly with blood viscosity, per Poiseuille's law."
+    },
+    {
+      "key": "physblood-q21",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q21",
+      "page": 6,
+      "title": "Vasodilation and increased flow",
+      "question": "Which of the following would cause an increase in blood flow (Q) according to the principles of flow?",
+      "options": {
+        "A": "Vasoconstriction",
+        "B": "Increased viscosity",
+        "C": "Vasodilation",
+        "D": "Increased vessel length"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Vasoconstriction narrows the vessel radius, which by Poiseuille's fourth-power relationship sharply reduces, not increases, flow.",
+        "B": "Incorrect. Increased viscosity raises resistance and so reduces flow for a given pressure gradient and radius, the opposite of an increase.",
+        "C": "Correct. By Poiseuille's law, flow varies with the pressure gradient and with vessel radius raised to the fourth power. Vasodilation widens the vessel radius, and because flow scales with r to the fourth power, even a modest increase in radius produces a large rise in flow, for example a doubled radius increases flow sixteen-fold from that change alone. This is the physical basis for why arteriolar vasodilation is such a powerful way to increase local blood flow to a tissue.",
+        "D": "Incorrect. Increased vessel length raises resistance and so reduces flow for a given pressure gradient and radius, the opposite of an increase."
+      },
+      "main_concept": "CON-CVS-EFDC2163E84213",
+      "concept_ids": [
+        "CON-CVS-EFDC2163E84213"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Resistance and Poiseuille's Law",
+      "library_ids": [
+        "ART-104-HIS-ARTERIES-AND-VEINS"
+      ],
+      "learning_objective": "State that vasodilation increases blood flow, via Poiseuille's fourth-power radius relationship."
+    },
+    {
+      "key": "physblood-q22",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q22",
+      "page": 6,
+      "title": "Myogenic theory of autoregulation",
+      "question": "The Myogenic theory of autoregulation states that an increase in blood flow causes:",
+      "options": {
+        "A": "Accumulation of metabolites",
+        "B": "Contraction of muscles",
+        "C": "Release of Nitric Oxide",
+        "D": "Decreased oxygen tension"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Accumulation of metabolites is the basis of the metabolic theory of autoregulation, a different mechanism from the myogenic theory this question asks about.",
+        "B": "Correct. Local blood flow is matched to tissue metabolism partly by myogenic autoregulation, one of the two mechanisms (alongside metabolic/active hyperaemia) that return flow toward normal after a change in perfusion pressure. In the myogenic theory specifically, an increase in blood flow (and the pressure and stretch that accompany it) directly stretches vascular smooth muscle, and stretched vascular smooth muscle responds by contracting, which narrows the vessel and limits the rise in flow back toward normal, an intrinsic, pressure-sensing mechanism independent of nerves or metabolites.",
+        "C": "Incorrect. Release of nitric oxide is a separate, endothelium-mediated vasodilator mechanism triggered by shear stress, not the muscle-stretch-triggered contraction the myogenic theory describes.",
+        "D": "Incorrect. Decreased oxygen tension is part of the metabolic (active hyperaemia) theory of autoregulation, not the myogenic theory, and it is a stimulus for vasodilation, not the myogenic response to increased flow."
+      },
+      "main_concept": "CON-CVS-56A68328FD03C7",
+      "concept_ids": [
+        "CON-CVS-56A68328FD03C7"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Autoregulation and Active Hyperaemia",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "State that the myogenic theory of autoregulation explains increased flow triggering vascular smooth-muscle contraction via stretch."
+    },
+    {
+      "key": "physblood-q24",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q24",
+      "page": 7,
+      "title": "Site of angiotensin conversion",
+      "question": "The conversion of Angiotensin I to Angiotensin II occurs primarily in the:",
+      "options": {
+        "A": "Liver",
+        "B": "Kidney",
+        "C": "Lung",
+        "D": "Adrenal gland"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The liver secretes angiotensinogen, the precursor renin acts on, not the site where angiotensin-converting enzyme converts angiotensin I to angiotensin II.",
+        "B": "Incorrect. The kidney's juxtaglomerular apparatus secretes renin, the enzyme that forms angiotensin I from angiotensinogen, but the conversion of angiotensin I to angiotensin II happens elsewhere.",
+        "C": "Correct. Renin from the juxtaglomerular apparatus cleaves hepatic angiotensinogen to angiotensin I, and angiotensin-converting enzyme (ACE), found in vascular endothelial cells especially of the lung, then converts angiotensin I to the octapeptide angiotensin II. The lung's vast pulmonary capillary endothelial surface area, through which essentially all cardiac output passes, makes it the principal site of this conversion, which is why ACE inhibitor drugs are named for blocking an enzyme concentrated there.",
+        "D": "Incorrect. The adrenal cortex secretes aldosterone in response to angiotensin II and the adrenal medulla secretes epinephrine, but the adrenal gland is not the primary site of angiotensin I to angiotensin II conversion."
+      },
+      "main_concept": "CON-CVS-F7ACE802080250",
+      "concept_ids": [
+        "CON-CVS-F7ACE802080250"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Arterial Blood Pressure Regulation > Renin-Angiotensin System",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "State that angiotensin-converting enzyme in the lung's vascular endothelium is the primary site of angiotensin I to angiotensin II conversion."
+    },
+    {
+      "key": "physblood-q26",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q26",
+      "page": 7,
+      "title": "Hypoxia and local vasodilation",
+      "question": "A decrease in oxygen tension (O\u2082) in a tissue will typically lead to:",
+      "options": {
+        "A": "Vasoconstriction",
+        "B": "Vasodilation",
+        "C": "No change in vessel diameter",
+        "D": "Spasm"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. A local fall in tissue oxygen tension promotes vasodilation, not vasoconstriction, in the systemic circulation, the opposite of the pulmonary vasculature's characteristic hypoxic vasoconstrictor response.",
+        "B": "Correct. Local blood flow is matched to tissue metabolism by active hyperaemia, driven by vasodilator metabolites and hypoxia. When tissue oxygen tension falls, whether from increased metabolic consumption or reduced delivery, local arterioles dilate to increase blood flow and restore oxygen supply toward the tissue's needs, part of the same metabolic autoregulatory response that also responds to accumulated vasodilator metabolites such as adenosine and carbon dioxide.",
+        "C": "Incorrect. A fall in tissue oxygen tension does produce a change in vessel diameter, specifically vasodilation, rather than leaving diameter unchanged.",
+        "D": "Incorrect. \"Spasm\" describes an abnormal, sustained vasoconstriction, not the vasodilator response tissues normally show to a local fall in oxygen tension."
+      },
+      "main_concept": "CON-CVS-56A68328FD03C7",
+      "concept_ids": [
+        "CON-CVS-56A68328FD03C7"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Autoregulation and Active Hyperaemia",
+      "library_ids": [
+        "ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL"
+      ],
+      "learning_objective": "State that a local fall in tissue oxygen tension produces vasodilation as part of active hyperaemia."
+    },
+    {
+      "key": "physblood-q27",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q27",
+      "page": 7,
+      "title": "Parasympathetic vasodilator fibres and genital organs",
+      "question": "Parasympathetic vasodilator fibers are definitively known to supply which organs?",
+      "options": {
+        "A": "Heart and Lungs",
+        "B": "Skeletal Muscle",
+        "C": "Genital Organs",
+        "D": "Cerebral Vessels"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The heart's parasympathetic (vagal) innervation slows heart rate and conduction rather than acting as a vasodilator supply to the coronary vessels, and the lungs' parasympathetic supply mediates bronchoconstriction, not vasodilation to a peripheral vascular bed.",
+        "B": "Incorrect. Skeletal muscle vasodilation during exercise or stress is mediated by sympathetic cholinergic fibres and by epinephrine acting on beta2 receptors, not by parasympathetic vasodilator fibres.",
+        "C": "Correct. Parasympathetic vasodilator fibres are definitively known to supply the genital organs: erection is driven by the sacral parasympathetic outflow (S2 to S4), which produces vasodilatation and engorgement of the erectile tissue. Destruction of the sacral region of the spinal cord removes this outflow and abolishes the capacity for a reflex erection, confirming that this specific vascular bed's vasodilator supply is genuinely parasympathetic, unlike the sympathetically-mediated vasodilation seen in skeletal muscle.",
+        "D": "Incorrect. Cerebral vessels are regulated mainly by local metabolic autoregulation (CO2 and pH) rather than by a definitively parasympathetic vasodilator supply."
+      },
+      "main_concept": "CON-NEU-072664470F6101",
+      "concept_ids": [
+        "CON-NEU-072664470F6101"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Parasympathetic Vasodilator Fibres",
+      "library_ids": [
+        "ART-NEU-PHYSIO-AUTONOMIC-NS"
+      ],
+      "learning_objective": "State that the genital organs are the vascular bed definitively supplied by parasympathetic vasodilator fibres."
+    },
+    {
+      "key": "physblood-q29",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q29",
+      "page": 8,
+      "title": "Regulation of total peripheral resistance",
+      "question": "Total Peripheral Resistance (TPR) is mainly regulated by the:",
+      "options": {
+        "A": "Aorta",
+        "B": "Capillaries",
+        "C": "Large Veins",
+        "D": "Arterioles"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The aorta's role is elastic conduction and pressure-wave buffering; its wide lumen and lack of significant smooth-muscle-driven resistance mean it is not the main regulator of TPR.",
+        "B": "Incorrect. Capillaries are exchange vessels without smooth muscle of their own and cannot actively change their diameter, so they cannot actively regulate TPR.",
+        "C": "Incorrect. Large veins are capacitance vessels, holding a large proportion of blood volume with little pressure change, not the vessels that set overall peripheral resistance.",
+        "D": "Correct. Arterioles are the principal resistance vessels of the systemic circulation, and their small lumen combined with a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type. Sympathetic constriction or dilation of arterioles, governed by Poiseuille's fourth-power radius relationship, is the main lever by which total peripheral resistance is raised or lowered, which is why arterioles, not the aorta, capillaries or veins, are described as the vessels mainly regulating TPR."
+      },
+      "main_concept": "CON-CVS-EFDC2163E84213",
+      "concept_ids": [
+        "CON-CVS-EFDC2163E84213"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Resistance and Poiseuille's Law",
+      "library_ids": [
+        "ART-104-HIS-ARTERIES-AND-VEINS"
+      ],
+      "learning_objective": "State that arterioles are the vessels mainly regulating total peripheral resistance."
+    },
+    {
+      "key": "physblood-q30",
+      "id": "QST-MUSTCVS201-PHYSBLOOD-Q30",
+      "page": 8,
+      "title": "ADH secretion trigger - osmolality",
+      "question": "What is the primary trigger for the secretion of Vasopressin (ADH) from the posterior pituitary?",
+      "options": {
+        "A": "Increased blood pressure",
+        "B": "Decreased plasma osmolality",
+        "C": "Increased plasma osmolality",
+        "D": "Increased blood volume"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Increased blood pressure is not the osmoreceptor-mediated trigger for ADH secretion; the primary trigger tested here is a change in plasma osmolality, sensed independently of pressure.",
+        "B": "Incorrect. Decreased plasma osmolality would reduce, not stimulate, osmoreceptor-driven ADH secretion, since a more dilute plasma is the opposite of the concentrating stimulus that triggers ADH release.",
+        "C": "Correct. Osmoreceptors, specialised cells sensitive to changes in plasma osmolality via cell shrinkage or swelling as water moves osmotically, are located in the hypothalamus, concentrated around the organum vasculosum of the lamina terminalis and the supraoptic nucleus. From there, they drive both the sensation of thirst and the release of antidiuretic hormone from the posterior pituitary specifically when plasma osmolality rises, for example during dehydration, prompting the kidney to retain water and dilute the plasma back toward normal.",
+        "D": "Incorrect. Increased blood volume is sensed by low-pressure atrial volume receptors and tends to reduce, not increase, ADH secretion, the opposite of the osmolality-driven trigger this question tests."
+      },
+      "main_concept": "CON-NEU-4F2FAFD0D5642F",
+      "concept_ids": [
+        "CON-NEU-4F2FAFD0D5642F"
+      ],
+      "contextual_concept_ids": [],
+      "module_subject": "MUST-CVS-201 > Physiology > Blood Flow > Vasoactive Hormones",
+      "library_ids": [
+        "ART-NEU-AU-MED-203-QUIZ1-PHYSIOLOGY"
+      ],
+      "learning_objective": "State that a rise in plasma osmolality, sensed by hypothalamic osmoreceptors, is the primary trigger for ADH secretion."
+    }
+  ]
+}
