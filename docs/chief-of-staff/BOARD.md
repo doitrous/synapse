@@ -536,3 +536,9 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — ZAGAZIG ZU-MED-108 PP II lane 1 LANDED (afec78f4 … 281ae591)
 - Fakous P.P2 Final 2024: 31/31 keyed by hand ink (4 renders), 31 authored, 0 held. `Final Hamdy 1` is a lecture handout (0 MCQs; priority doc mislabelled it a paper → reclassified). OSPE "Answers" Yousef Amr: 17 keyed SBA (clean PDF highlight annotation) triaged, not authored. 28 mints + 7 articles, 3 overlays (SYS-CVS syncope gets its first module tag, AU Korotkoff, Kasr pulse pressure). Validator errors=[] ×4; batch errors=0; full-chain simulate rejected=0. ≈2.5k tok/q.
 - Lane 2 dispatched on the 17 OSPE items. Zagazig Year 1 after that: 102 exhausted (bank needs ruling), 103/106/107 exhausted, 104 closed, 105 lane 3 triaging the last bank, 108 closing. Fleet 20/20.
+
+### 2026-09-02 — ASSIUT INI-105 lane 15 (ch11 Q57-110) LANDED (eba85e23, 44a746cf, 22d5a2f1) · CHAPTER 11 CLOSED · INI-105 BANK CLOSED
+- 54 read: 19 authored, 35 held (30 fact-level dups incl. 3rd/4th recurrences, 3 sibling key conflicts Q82/Q89/Q92 → NEEDS OMAR convention, 1 "only larval host" ambiguity). 11 mints, 8 reuses. Validator errors=[]; batch items=19 errors=0; 13-file simulate rejected=0. ≈4-5k tok/q. ini-mcq-ch11 102/62/0/164.
+- AUN-INI-105 (886-item bank): every chapter dispositioned across 15 lanes. Ledger sum printed in the next line of this entry. Held items awaiting Omar's printed-key-vs-fact convention are listed per chapter in the ledger.
+- Assiut still running: CBF-103 lane 2 (OCR), MPT-104 lane 8, PMS-102 lane 4 (OCR). Freed slot → Kasr 208-INT lane 5 (Y2). Fleet 20/20.
+- INI-105 ledger sum: authored=665, held=211, total=876.
