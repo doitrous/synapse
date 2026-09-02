@@ -484,3 +484,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — AIN SHAMS ASU-AE lane 10 (Embryo 2 Q11-69) LANDED (ae4fe64e)
 - 59 items, 8 renders (p.13 recovered by forced re-OCR at 400/600 dpi instead of a render): 55 authored, 4 held (q19 key row missing from OCR; q28/q33/q55 reordered duplicates). 24 mints + 4 articles; reuses: live battledore placenta, Alexandria AU-102 capacitation (pending), 3 of lane 9's own. Validator errors=0 ×3; simulate 14 files rejected=0. Ledger embryo2 65/69; ASU-AE total 210 authored.
 - Remaining AE: `MCQs - Embryo 3.pdf` (~104 items, untriaged) → lane 11 dispatched. Fleet 20/20.
+
+### 2026-09-02 — MANSOURA HBG lane 1 LANDED (1569044a)
+- `Histo Previous MCQ Exams Final.pdf` pp.2-9: fully scanned (no text layer); printed answer-letter column recoverable only by render (OCR mis-places the letter's line — new trap instance, documented). 40/40 keyed, 40 authored, 0 held. 5 mints, 20 reuses across Kasr 101, Ain Shams, AU-105, FOMSCU, Zagazig. Validator errors=[]; batch items=40 errors=0; 21-file simulate rejected=0. Histology/genetics items interleave per question (PAEHC/PBBG split is per item; `MANS-HBG` prefix, module_subject per item).
+- Lane 2 dispatched on p.10 onward (Q41+) then `Histo MCQ Formatives + Exams Final.pdf`. Fleet 20/20.
