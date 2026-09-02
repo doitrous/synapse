@@ -576,3 +576,113 @@ lane.
 | Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (new overlay row) | Pending-hit (already tagged, no new row) | Live-hit (already live-in-lane) | New mints | Authored | Held |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | MUST-CVS-201 Pathology (full, second paper) | 60 MCQ + 10 essay | 70/70 | 24 | 3 | 3 | 4 | 14 | 60 | 0 |
+
+## S3 -- tranche 7 (2026-09-02, lane 7, branch `must-cvs201-author7`) -- Physiology
+
+Seventh authoring pass, the module's last remaining tier-1 EOM source per
+tranche 2's own inventory table: Physiology CVS201 Questions (Final), 46
+pages, 150 MCQs across five topics (Blood Flow 30, Arterial Blood Pressure
+40, Capillary Circulation & Oedema 20, Shock 30, Coronary & Pulmonary
+Circulation 30), by Absalam101, Shahd & Rehab, `src_165188e079f0f475e54d`.
+Native-text (`pagetext.mjs status`: no garbled pages, no OCR needed). Full
+triage this pass covers only the first two topics named in this module's own
+dispatch scope (Blood Flow and Arterial Blood Pressure, 70 questions
+combined); Capillary Circulation & Oedema, Shock and Coronary & Pulmonary
+Circulation were not opened this pass.
+
+### Full triage -- Blood Flow (30) and Arterial Blood Pressure (40) -- AUTHORED
+
+Blood Flow (Q1-30, printed key p.9) and Arterial Blood Pressure (Q1-40,
+printed key p.20) each carry their own separate printed answer key,
+immediately following that section. 30/30 Blood Flow keyed, 40/40 Arterial
+Blood Pressure keyed -- 70/70, 100% keyed. One source defect noted, not
+corrected: Arterial BP Q2 prints identical text ("60-90 mmHg") for both
+options A and D, a duplication rather than a genuine fourth distractor; the
+printed key (C, 90-150 mmHg) stands per LANE-CARD.md rule 2, same call
+tranche 6 made for its own Pathology Q23 duplicate-option typo. One item
+held for a different defect: Arterial BP Q7 (location of peripheral
+chemoreceptors) prints a self-referential option D ("C & D"), not a
+resolvable combination -- held rather than silently repaired.
+
+30/30 Blood Flow questions authored in full. 26/40 Arterial Blood Pressure
+questions selected and authored (1 held for the garbled option above; 13 of
+the remaining 39 not selected this pass, queued for the next tranche
+alongside the three untouched topics) -- 56 authored this pass, near the
+`LANE-CARD-Y2.md` cluster's ~50-60 question target.
+
+70 raw questions collapse to 24 distinct concept candidates via
+`find-existing.mjs` plus grep across `docs/*-Source-Imports/concept`,
+`docs/*-Source-Imports/pending-live` and `docs/import-ready/concept`, read in
+full where a hit looked plausible (not just the tool's own truncated
+snippet):
+
+- **9 new MUST mints** -- basal sympathetic vasomotor tone, epinephrine's
+  dual alpha/beta2 vascular action, kinins' pain-stimulation and
+  capillary-permeability actions (paired), the skin flare reaction's axon-
+  reflex mechanism, endothelin as the stretch-triggered vasoconstrictor,
+  the resistance/exchange/capacitance functional classification of vessel
+  segments, prostacyclin's local vasodilator action (distinct from its
+  anti-platelet-aggregation role, confirmed by a fresh search that found
+  only the hemostasis-facet concept elsewhere), left ventricular
+  mechano/chemoreceptors and the Bezold-Jarisch reflex (paired), and the
+  medullary pressor/depressor/cardiac-inhibitory centre anatomy (paired) --
+  all in `concept/`, `article/`, `evidence/{claims,citations,spans}.md` (own
+  lane files, not pending-live).
+- **1 live-in-lane reuse, no overlay needed** -- `CON-CVS-A531FD56A171D7`
+  ("long-term arterial blood pressure regulation acts through the
+  renin-angiotensin system, ANP and vasopressin"), already committed to
+  `concept/MUST-CVS-201-concepts.md` by tranche 1, serves 8 questions this
+  tranche (RAS activation trigger, ANP secretion trigger and its opposition
+  to angiotensin II, the renal mechanism as the most important long-term
+  regulator, pressure natriuresis, angiotensin II's own action list, ANP's
+  trigger restated, and vasopressin's water-retention mechanism).
+- **15 pending sparse-overlay reuses**, in `pending-live/MUST-CVS-201-
+  physiology-concepts-overlay.md`: 12 in Kasr's own unimported
+  `104-CPS-mcq-concepts.md` (arterioles/Poiseuille's law/TPR, laminar-vs-
+  turbulent flow, nitric oxide, the circulating vasoconstrictor/vasodilator
+  hormone classification, the renin-angiotensin system, systolic/diastolic/
+  MAP/pulse-pressure determinants -- extended to cover the haemodynamic
+  determinants of those pressures, same "extend rather than duplicate" call
+  earlier tranches made for situs inversus -- the arterial baroreceptor
+  reflex, carotid sinus syndrome, local blood-flow autoregulation, the
+  peripheral chemoreceptor reflex, the Cushing reflex, and the flow =
+  pressure-gradient/resistance identity) and 3 in Alexandria's own
+  unimported physiology-concepts files (AU-MED-106's blood-flow-velocity-
+  by-vessel-type concept; AU-MED-102's sacral-parasympathetic-erection
+  concept, extended to the general parasympathetic-vasodilator-fibres fact
+  its own definition already states; AU-MED-203's hypothalamic-osmoreceptor
+  concept, for the ADH-osmolality-trigger fact, a distinct mechanism from
+  CON-CVS-A531FD56A171D7's own volume/atrial-receptor account of
+  vasopressin).
+
+All 56 authored questions are MCQ seed -> `emit-mcq.mjs`, the paper being
+genuine multiple-choice with separate printed keys per topic. 21 (main_concept
+a new mint this batch or the already-live-in-lane long-term-ABP-regulation
+concept) are in `question/MUST-CVS-201-physiology-mcq.md`; 37 (main_concept
+pending in Kasr or Alexandria's own unimported files) are in `pending-live/
+MUST-CVS-201-physiology-questions.md` alongside the 15-record sparse concept
+overlay above. Full apply order and simulate log in `pending-live/INDEX.md`.
+1 question held for a garbled printed option (not a missing key -- the
+source printed a key for every item, including the held one).
+
+### Not authored this pass (queued, next pass)
+
+11 of the 40 Arterial Blood Pressure questions not selected this pass
+(physiological variation with age/sex, exercise pressure changes, the
+per-centimetre hydrostatic effect, atrial-receptor/Bainbridge-style reflex,
+cutaneous-pain-receptor pressor reflex, the Alam-Smirk reflex, the capillary
+fluid-shift mechanism, and the baroreceptor-vs-chemoreceptor
+excitatory/inhibitory classification) plus the 1 held item (garbled option
+list). All three remaining topics are entirely untouched: Capillary
+Circulation & Oedema (20 MCQs), Shock (30 MCQs) and Coronary & Pulmonary
+Circulation (30 MCQs) -- not opened this pass. Total remaining question
+volume in this source once all three topics and the 12 un-selected Arterial
+BP items are triaged: approximately 93 MCQs (20+30+30+12+1 held), before the
+~12 Midterm papers and 87 MCQ-bank folders inventoried in the first-tranche
+pass are even started.
+
+### Checkpoint table (tranche 7)
+
+| Module | Questions triaged this pass | Keys recovered | Concepts tested (authored subset) | Pending-hit (new overlay row) | Live-hit (already live-in-lane) | New mints | Authored | Held |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|
+| MUST-CVS-201 Physiology (Blood Flow + Arterial BP) | 70 (30 Blood Flow + 40 Arterial BP) | 70/70 | 24 | 15 | 1 | 9 | 56 | 1 |
