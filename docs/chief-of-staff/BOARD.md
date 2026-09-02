@@ -619,3 +619,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ### 2026-09-02 — HELWAN URS-303 lane 1 LANDED (81c4da77) · TRIAGE NOT APPROVED — needs Omar sources
 - Only 3 PDFs exist (GUR questions, phase questions, EOM final Batch 2021); no department bank and no answer key anywhere. GUR (99) and phase (100) are bulleted fact/answer lines, not MCQ stems; phase is ~92% off-module. Final exam is 23 image-only pages; 4-page OCR sample found stem-shaped items but no key (p25 is links). 0 authored, 199 held, no gates to run. Telegram search already empty per the module's source-availability note.
 - Needs Omar: a real URS-303 bank + key, or a ruling on authoring the GUR fact pairs as a non-MCQ shape. Helwan Y3 open work is now ORL-305 only (FTF-304 also needs sources). Slot → Menoufia MED101 lane 2 (Y1).
+
+### 2026-09-02 — AIN SHAMS ASU-AE lane 11 (relaunch) LANDED (1db2b676) · Embryo 3 Q1-55
+- Salvaged 6 files from `agent-acd93d849f101afef` (branch conflict cleared with `git worktree remove --force`). 53 authored, 2 held (Q21/Q27 reordered duplicates of Q19). 14 mints + 2 articles, 8 Kasr 101/104 overlays. 8 renders (400/600 dpi for the torn key table pp.17-18). batch items=53 errors=0; 13-file simulate created=429 updated=9 rejected=0; validate errors=[]. ≈2.4k tok/q. Fixed 6 short explanations and 9 wrong `library_ids` before landing. AE total ≈ 263.
+- Remaining: Embryo 3 Q56-104 (matching rows Q56-64 + EXCEPT/derivative run). Slot → Menoufia MED101 lane 2 (Y1) first; AE lane 12 queued.
