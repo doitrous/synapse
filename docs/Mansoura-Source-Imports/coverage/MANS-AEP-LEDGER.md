@@ -1,9 +1,56 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
+| 18 short-answer "enumerate"/"compare" items on p.26-27 (compare axon/dendrites; enumerate neuron | 0 | 0 | 1 | 1 |
+| A1 :: E :: formation of spinal cord (neurulation) [authored aepcns-q01] | 0 | 0 | 1 | 1 |
+| A10 :: C :: number of cervical nerves (8) [authored aepcns-q09] | 0 | 0 | 1 | 1 |
+| A11 :: D :: parasympathetic system arises from (S2, 3 & 4) [authored aepcns-q10] | 0 | 0 | 1 | 1 |
+| A12 :: B :: nerves carrying impulses from brain to muscles (motor nerves) [authored aepcns-q11] | 0 | 0 | 1 | 1 |
+| A13 :: D :: functional unit of the nervous system, repeat of A4 (nerve cell) [held, literal duplicate of A4] | 0 | 0 | 1 | 1 |
+| A14 :: C :: diseases of the cerebellum cause (loss of balance) [authored aepcns-q12] | 0 | 0 | 1 | 1 |
+| A15 :: C :: axillary local anaesthetic before wrist surgery, aim (block spinal nerves of upper limb) [authored aepcns-q13] | 0 | 0 | 1 | 1 |
+| A2 :: A :: lower part of the brainstem (medulla oblongata) [authored aepcns-q02] | 0 | 0 | 1 | 1 |
+| A3 :: B :: cells synthesizing myelin in PNS (Schwann cells) [authored aepcns-q03] | 0 | 0 | 1 | 1 |
+| A4 :: C :: functional unit of the nervous system (nerve cell) [authored aepcns-q04] | 0 | 0 | 1 | 1 |
+| A5 :: C :: pseudounipolar nerve cells present in (dorsal root ganglia) [authored aepcns-q05] | 0 | 0 | 1 | 1 |
+| A6 :: E :: myelin producing cells include, repeat of A3 (Schwann cells) [held, near-duplicate of A3] | 0 | 0 | 1 | 1 |
+| A7 :: D :: upper part of the brainstem (midbrain) [authored aepcns-q06] | 0 | 0 | 1 | 1 |
+| A8 :: A :: lateral ventricle is the cavity of (cerebral hemisphere) [authored aepcns-q07] | 0 | 0 | 1 | 1 |
+| A9 :: C :: spinal nerves formed by union of (ventral and dorsal roots) [authored aepcns-q08] | 0 | 0 | 1 | 1 |
+| Authored: 28 | 0 | 0 | 1 | 1 |
 | Authored: 38 | 0 | 0 | 1 | 1 |
 | Authored: 40 (19 joints, 21 embryology) | 0 | 0 | 1 | 1 |
+| B1 :: B :: part of NS for equilibrium and muscle tone, repeat concept of A14 (cerebellum) [held, near-duplicate of A14] | 0 | 0 | 1 | 1 |
+| B2 :: B :: cavities inside cerebrum filled with CSF (ventricles) [authored aepcns-q14] | 0 | 0 | 1 | 1 |
+| B3 :: B :: basic unit of the nervous system, repeat of A4 (neuron) [held, near-duplicate of A4] | 0 | 0 | 1 | 1 |
+| B4 :: D :: the one major sulcus (calcarine) [authored aepcns-q15] | 0 | 0 | 1 | 1 |
+| B5 :: B :: meaning of a bundle in the nervous system (printed key: "same origin, termination and function") [held, doubt — printed key contradicts this same source's own p.27 enumerate answer, which defines bundle as the OPPOSITE ("do not all have the same origin...") and that same phrase as the definition of tract instead; not authored while the source's own two pages disagree] | 0 | 0 | 1 | 1 |
+| B6 :: B :: axo-somatic synapse described as meeting between axon and (cell body of another neuron) [authored aepcns-q16] | 0 | 0 | 1 | 1 |
+| B7 :: D :: motor end plate is the meeting between an axon and (a muscle) [authored aepcns-q17] | 0 | 0 | 1 | 1 |
+| B8 :: D :: characteristic of sympathetic nervous system (constriction of the sphincters) [authored aepcns-q18] | 0 | 0 | 1 | 1 |
+| B9 :: B :: direction of impulse carrying information TO the CNS FROM the PNS (printed key: "an efferent neuron, impulse moving distally") [held, doubt — a neuron carrying information to the CNS from the PNS is by definition afferent, not efferent; option C ("an afferent neuron, impulse moving proximally") is the biologically correct pairing, but the printed key names B; not authored while unresolved] | 0 | 0 | 1 | 1 |
+| C1 :: C :: lower part of the brainstem, repeat of A2 (medulla oblongata) [held, near-duplicate of A2] | 0 | 0 | 1 | 1 |
+| C10 :: A :: synaptic vesicles present in (axon terminal) [authored aepcns-q23] | 0 | 0 | 1 | 1 |
+| C11 :: E :: number of thoracic spinal nerves (12) [authored aepcns-q24] | 0 | 0 | 1 | 1 |
+| C12 :: A :: lateral ventricle is the cavity of, repeat of A8 (cerebral hemisphere) [held, near-duplicate of A8] | 0 | 0 | 1 | 1 |
+| C13 :: E :: cranial outflow of parasympathetic arises from (midbrain, pons and medulla) [authored aepcns-q25] | 0 | 0 | 1 | 1 |
+| C14 :: B :: parts of the CNS (brain and spinal cord) [authored aepcns-q26] | 0 | 0 | 1 | 1 |
+| C15 :: A :: cerebellum important in, repeat of A14/B1 (equilibrium) [held, near-duplicate of A14] | 0 | 0 | 1 | 1 |
+| C16 :: E :: ependymal cells function (lining ventricles of brain and spinal cord) [authored aepcns-q27] | 0 | 0 | 1 | 1 |
+| C17 :: A :: which of the following is PNS (cranial nerves & spinal nerves) [authored aepcns-q28] | 0 | 0 | 1 | 1 |
+| C18 :: B :: lower part of brainstem, repeat of A2/C1/C6 (medulla) [held, near-duplicate of A2] | 0 | 0 | 1 | 1 |
+| C19 :: E :: formation of spinal cord, repeat of A1 (neurulation) [held, literal duplicate of A1] | 0 | 0 | 1 | 1 |
+| C2 :: B :: part of spinal nerve containing sensory fibres ONLY (dorsal root) [authored aepcns-q19] | 0 | 0 | 1 | 1 |
+| C3 :: E :: ganglion is a collection of nerve cells at (outside the CNS) [authored aepcns-q20] | 0 | 0 | 1 | 1 |
+| C4 :: D :: cranial nerve arising from outside the brainstem (optic nerve) [authored aepcns-q21] | 0 | 0 | 1 | 1 |
+| C5 :: E :: peripheral neuroglia cell (satellite cells) [authored aepcns-q22] | 0 | 0 | 1 | 1 |
+| C6 :: C :: lower part of the brainstem, repeat of A2/C1 (medulla oblongata) [held, near-duplicate of A2] | 0 | 0 | 1 | 1 |
+| C7 :: C :: diseases of the cerebellum, repeat of A14 (loss of balance) [held, near-duplicate of A14] | 0 | 0 | 1 | 1 |
+| C8 :: D :: upper part of the brainstem, repeat of A7 (midbrain) [held, near-duplicate of A7] | 0 | 0 | 1 | 1 |
+| C9 :: C :: diseases of the cerebellum, repeat of A14/C7 (loss of balance) [held, literal duplicate of C7 within same sitting] | 0 | 0 | 1 | 1 |
 | Held: 11 (5 near/literal duplicate in Lecture 1, 3 near/literal duplicate in Lecture 2 sitting A, 3 in sitting B: 1 near-duplicate + 2 no-matching-concept) | 0 | 0 | 1 | 1 |
+| Held: 15 (13 near/literal duplicate across the three sittings; 2 doubt — printed key contradicts | 0 | 0 | 1 | 1 |
 | Held: 39 (14 p.14-15 Bones restating lane 1; 14 joints sitting A-C duplicate/near-duplicate/terminology-doubt; 10 embryology duplicate/near-duplicate/numeric/terminology-doubt; 1 embryology malformed non-MCQ) | 0 | 0 | 1 | 1 |
+| Keys recovered: 43/43 (100% — every item carries a printed answer-column key) | 0 | 0 | 1 | 1 |
 | Keys recovered: 49/49 (100% — every sampled item carries a printed answer-column key) | 0 | 0 | 1 | 1 |
 | Keys recovered: 79/79 (100% — every item, including the malformed p.102 Q15, carries a printed/stated answer) | 0 | 0 | 1 | 1 |
 | L1-Q01 :: C :: direction of palm in anatomical position [authored q01] | 0 | 0 | 1 | 1 |
@@ -134,21 +181,83 @@
 | L5E-Q14 :: D :: structure responsible for adhesion and penetration to endometrium (trophoblast) [authored aepvip2-q40] | 0 | 0 | 1 | 1 |
 | L5E-Q15 :: (epiblast) [held, not a valid MCQ — no lettered options printed, answer given directly] | 0 | 0 | 1 | 1 |
 | L5E-Q16 :: D :: roof of the yolk sac, repeat (hypoblasts) [held, literal duplicate of aepvip2-q20] | 0 | 0 | 1 | 1 |
+| Not MCQ (skipped, not counted above): 18 short-answer "enumerate"/"compare" items on p.26-27 | 0 | 0 | 1 | 1 |
 | Not MCQ (skipped, not counted above): 2 short-answer "enumerate" items on p.7, 6 short-answer "enumerate/classify" items on p.13 | 0 | 0 | 1 | 1 |
 | Not MCQ (skipped, not counted above): 5 short-answer "enumerate" items on p.19, 2 short-answer items on p.102 | 0 | 0 | 1 | 1 |
+| Raw MCQ items triaged: 15 sitting A (p.23-24) + 9 sitting B (p.25) + 19 sitting C (p.28-29) = 43 | 0 | 0 | 1 | 1 |
 | Raw MCQ items triaged: 47 joints (7 sitting A + 15 sitting B + 11 sitting C from Lecture 3 "Joints", plus 14 from the p.14-15 Lecture 2 "Bones" sitting C held as restating lane 1) + 32 embryology (4 p.98 + 10 p.99 + 2 p.100 + 8 p.101 + 8 p.102, of which 1 is not a valid MCQ) = 79 | 0 | 0 | 1 | 1 |
 | Raw MCQ items triaged: 49 (25 Lecture 1 "Terms", 11 Lecture 2 sitting A "Bones", 13 Lecture 2 sitting B "Skeletal system") | 0 | 0 | 1 | 1 |
+| Scope note: p.23-77 was assigned; CNS/Nervous-System content confirmed confined to p.23-29 by | 0 | 0 | 1 | 1 |
+| Several of these printed model answers (tract/bundle definitions, the sympathetic/ | 0 | 0 | 1 | 1 |
+| aepcns | 28 | 0 | 0 | 28 |
 | anatomy-terms-and-osteology-basics | 38 | 0 | 0 | 38 |
+| factors, brain sulci, brain lobes, brain ventricles, brainstem components, spinal cord segments, | 0 | 0 | 1 | 1 |
+| facts also tested by the MCQs above, per the lane's standing "trust the source" rule, without | 0 | 0 | 1 | 1 |
+| in resource/MANS-AEP-resources.md. | 0 | 0 | 1 | 1 |
 | joints-and-2nd-week-embryology | 40 | 0 | 0 | 40 |
+| nucleus/ganglion/tract/bundle; compare sympathetic/parasympathetic; state cerebellum functions). | 0 | 0 | 1 | 1 |
+| parasympathetic comparison table) were read and used to write concept `definition` fields for | 0 | 0 | 1 | 1 |
+| reading the full range — p.30 onward is Lecture (6) "GIT" and further unrelated lectures, logged | 0 | 0 | 1 | 1 |
+| spinal cord cross-section components; compare dorsal/ventral rami; enumerate ANS parts; define | 0 | 0 | 1 | 1 |
+| themselves being authored as questions. | 0 | 0 | 1 | 1 |
+| this same source's own p.27 definition (B5) or is biologically self-contradictory (B9)) | 0 | 0 | 1 | 1 |
+| types, central/peripheral neuroglia types+functions, synapse types, CNS parts, CNS-protecting | 0 | 0 | 1 | 1 |
 
 ## Held
 (none)
 
 ## Remaining
+- 18 short-answer "enumerate"/"compare" items on p.26-27 (compare axon/dendrites; enumerate neuron
+- A1 :: E :: formation of spinal cord (neurulation) [authored aepcns-q01]
+- A10 :: C :: number of cervical nerves (8) [authored aepcns-q09]
+- A11 :: D :: parasympathetic system arises from (S2, 3 & 4) [authored aepcns-q10]
+- A12 :: B :: nerves carrying impulses from brain to muscles (motor nerves) [authored aepcns-q11]
+- A13 :: D :: functional unit of the nervous system, repeat of A4 (nerve cell) [held, literal duplicate of A4]
+- A14 :: C :: diseases of the cerebellum cause (loss of balance) [authored aepcns-q12]
+- A15 :: C :: axillary local anaesthetic before wrist surgery, aim (block spinal nerves of upper limb) [authored aepcns-q13]
+- A2 :: A :: lower part of the brainstem (medulla oblongata) [authored aepcns-q02]
+- A3 :: B :: cells synthesizing myelin in PNS (Schwann cells) [authored aepcns-q03]
+- A4 :: C :: functional unit of the nervous system (nerve cell) [authored aepcns-q04]
+- A5 :: C :: pseudounipolar nerve cells present in (dorsal root ganglia) [authored aepcns-q05]
+- A6 :: E :: myelin producing cells include, repeat of A3 (Schwann cells) [held, near-duplicate of A3]
+- A7 :: D :: upper part of the brainstem (midbrain) [authored aepcns-q06]
+- A8 :: A :: lateral ventricle is the cavity of (cerebral hemisphere) [authored aepcns-q07]
+- A9 :: C :: spinal nerves formed by union of (ventral and dorsal roots) [authored aepcns-q08]
+- Authored: 28
 - Authored: 38
 - Authored: 40 (19 joints, 21 embryology)
+- B1 :: B :: part of NS for equilibrium and muscle tone, repeat concept of A14 (cerebellum) [held, near-duplicate of A14]
+- B2 :: B :: cavities inside cerebrum filled with CSF (ventricles) [authored aepcns-q14]
+- B3 :: B :: basic unit of the nervous system, repeat of A4 (neuron) [held, near-duplicate of A4]
+- B4 :: D :: the one major sulcus (calcarine) [authored aepcns-q15]
+- B5 :: B :: meaning of a bundle in the nervous system (printed key: "same origin, termination and function") [held, doubt — printed key contradicts this same source's own p.27 enumerate answer, which defines bundle as the OPPOSITE ("do not all have the same origin...") and that same phrase as the definition of tract instead; not authored while the source's own two pages disagree]
+- B6 :: B :: axo-somatic synapse described as meeting between axon and (cell body of another neuron) [authored aepcns-q16]
+- B7 :: D :: motor end plate is the meeting between an axon and (a muscle) [authored aepcns-q17]
+- B8 :: D :: characteristic of sympathetic nervous system (constriction of the sphincters) [authored aepcns-q18]
+- B9 :: B :: direction of impulse carrying information TO the CNS FROM the PNS (printed key: "an efferent neuron, impulse moving distally") [held, doubt — a neuron carrying information to the CNS from the PNS is by definition afferent, not efferent; option C ("an afferent neuron, impulse moving proximally") is the biologically correct pairing, but the printed key names B; not authored while unresolved]
+- C1 :: C :: lower part of the brainstem, repeat of A2 (medulla oblongata) [held, near-duplicate of A2]
+- C10 :: A :: synaptic vesicles present in (axon terminal) [authored aepcns-q23]
+- C11 :: E :: number of thoracic spinal nerves (12) [authored aepcns-q24]
+- C12 :: A :: lateral ventricle is the cavity of, repeat of A8 (cerebral hemisphere) [held, near-duplicate of A8]
+- C13 :: E :: cranial outflow of parasympathetic arises from (midbrain, pons and medulla) [authored aepcns-q25]
+- C14 :: B :: parts of the CNS (brain and spinal cord) [authored aepcns-q26]
+- C15 :: A :: cerebellum important in, repeat of A14/B1 (equilibrium) [held, near-duplicate of A14]
+- C16 :: E :: ependymal cells function (lining ventricles of brain and spinal cord) [authored aepcns-q27]
+- C17 :: A :: which of the following is PNS (cranial nerves & spinal nerves) [authored aepcns-q28]
+- C18 :: B :: lower part of brainstem, repeat of A2/C1/C6 (medulla) [held, near-duplicate of A2]
+- C19 :: E :: formation of spinal cord, repeat of A1 (neurulation) [held, literal duplicate of A1]
+- C2 :: B :: part of spinal nerve containing sensory fibres ONLY (dorsal root) [authored aepcns-q19]
+- C3 :: E :: ganglion is a collection of nerve cells at (outside the CNS) [authored aepcns-q20]
+- C4 :: D :: cranial nerve arising from outside the brainstem (optic nerve) [authored aepcns-q21]
+- C5 :: E :: peripheral neuroglia cell (satellite cells) [authored aepcns-q22]
+- C6 :: C :: lower part of the brainstem, repeat of A2/C1 (medulla oblongata) [held, near-duplicate of A2]
+- C7 :: C :: diseases of the cerebellum, repeat of A14 (loss of balance) [held, near-duplicate of A14]
+- C8 :: D :: upper part of the brainstem, repeat of A7 (midbrain) [held, near-duplicate of A7]
+- C9 :: C :: diseases of the cerebellum, repeat of A14/C7 (loss of balance) [held, literal duplicate of C7 within same sitting]
 - Held: 11 (5 near/literal duplicate in Lecture 1, 3 near/literal duplicate in Lecture 2 sitting A, 3 in sitting B: 1 near-duplicate + 2 no-matching-concept)
+- Held: 15 (13 near/literal duplicate across the three sittings; 2 doubt — printed key contradicts
 - Held: 39 (14 p.14-15 Bones restating lane 1; 14 joints sitting A-C duplicate/near-duplicate/terminology-doubt; 10 embryology duplicate/near-duplicate/numeric/terminology-doubt; 1 embryology malformed non-MCQ)
+- Keys recovered: 43/43 (100% — every item carries a printed answer-column key)
 - Keys recovered: 49/49 (100% — every sampled item carries a printed answer-column key)
 - Keys recovered: 79/79 (100% — every item, including the malformed p.102 Q15, carries a printed/stated answer)
 - L1-Q01 :: C :: direction of palm in anatomical position [authored q01]
@@ -279,7 +388,21 @@
 - L5E-Q14 :: D :: structure responsible for adhesion and penetration to endometrium (trophoblast) [authored aepvip2-q40]
 - L5E-Q15 :: (epiblast) [held, not a valid MCQ — no lettered options printed, answer given directly]
 - L5E-Q16 :: D :: roof of the yolk sac, repeat (hypoblasts) [held, literal duplicate of aepvip2-q20]
+- Not MCQ (skipped, not counted above): 18 short-answer "enumerate"/"compare" items on p.26-27
 - Not MCQ (skipped, not counted above): 2 short-answer "enumerate" items on p.7, 6 short-answer "enumerate/classify" items on p.13
 - Not MCQ (skipped, not counted above): 5 short-answer "enumerate" items on p.19, 2 short-answer items on p.102
+- Raw MCQ items triaged: 15 sitting A (p.23-24) + 9 sitting B (p.25) + 19 sitting C (p.28-29) = 43
 - Raw MCQ items triaged: 47 joints (7 sitting A + 15 sitting B + 11 sitting C from Lecture 3 "Joints", plus 14 from the p.14-15 Lecture 2 "Bones" sitting C held as restating lane 1) + 32 embryology (4 p.98 + 10 p.99 + 2 p.100 + 8 p.101 + 8 p.102, of which 1 is not a valid MCQ) = 79
 - Raw MCQ items triaged: 49 (25 Lecture 1 "Terms", 11 Lecture 2 sitting A "Bones", 13 Lecture 2 sitting B "Skeletal system")
+- Scope note: p.23-77 was assigned; CNS/Nervous-System content confirmed confined to p.23-29 by
+- Several of these printed model answers (tract/bundle definitions, the sympathetic/
+- factors, brain sulci, brain lobes, brain ventricles, brainstem components, spinal cord segments,
+- facts also tested by the MCQs above, per the lane's standing "trust the source" rule, without
+- in resource/MANS-AEP-resources.md.
+- nucleus/ganglion/tract/bundle; compare sympathetic/parasympathetic; state cerebellum functions).
+- parasympathetic comparison table) were read and used to write concept `definition` fields for
+- reading the full range — p.30 onward is Lecture (6) "GIT" and further unrelated lectures, logged
+- spinal cord cross-section components; compare dorsal/ventral rami; enumerate ANS parts; define
+- themselves being authored as questions.
+- this same source's own p.27 definition (B5) or is biologically self-contradictory (B9))
+- types, central/peripheral neuroglia types+functions, synapse types, CNS parts, CNS-protecting
