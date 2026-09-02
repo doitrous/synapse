@@ -1,0 +1,160 @@
+{
+  "lane": "MANS-HIS-203",
+  "cluster": "misc-live",
+  "header": "MANS-HIS-203 · Histology — Leukocyte and spleen facts matching an existing live concept, authored from the His Continuous Berlin Book 2026 (Lecture 1&2 p.27, Lecture 3&4 p.28, دفعة 63 past-exam block p.37), printed keys.",
+  "defaults": {
+    "subject": "haem",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["mans"],
+    "years": ["MANS_Y1"],
+    "module": "MANS-HIS-203",
+    "module_subject": "MANS-HIS-203 > Histology > Blood > Leukocytes",
+    "exam_weight_by_year": { "MANS_Y1": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-HEM-TOP-FD61B0A3D0", "ART-IMM-TOP-35CFB732FE", "ART-HEM-TOP-D3C13B01E3"],
+    "resource_ids": ["src_c4ee1e63536c22ca52d4"],
+    "source_citation": "His Continuous Berlin Book 2026, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q56",
+      "page": 27,
+      "title": "Largest blast cell in the haemopoietic series",
+      "question": "The largest blast cell in the hemopoietic cell line is:",
+      "options": {
+        "A": "Proerythroblast",
+        "B": "Normoblast",
+        "C": "Lymphoblast",
+        "D": "Monoblast",
+        "E": "Megakaryoblast"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The proerythroblast, the earliest cell of the erythroid series, is a mid-sized blast cell, not the largest across all the haemopoietic lines.",
+        "B": "Incorrect. The normoblast is a later, smaller stage of the erythroid series, well past the blast stage, and is not the cell being compared here.",
+        "C": "Incorrect. The lymphoblast, the earliest cell of the lymphoid series, is comparable in size to the other blast cells but not the largest of them.",
+        "D": "Correct. The monoblast, the earliest precursor of the monocyte-macrophage line, is the largest blast cell among the haemopoietic series. This matches the mature monocyte it eventually gives rise to, which is likewise the largest cell normally found in a peripheral blood smear.",
+        "E": "Incorrect. The megakaryoblast is the earliest cell of the thrombopoietic series; it is the megakaryocyte later in that same series, not the megakaryoblast itself, that becomes exceptionally large through endomitosis."
+      },
+      "main_concept": "CON-HEM-BD15B63AB982A9",
+      "concept_ids": ["CON-HEM-BD15B63AB982A9"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Leukocytes",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the monoblast as the largest blast cell among the haemopoietic series, consistent with the monocyte it matures into.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.27" },
+      "author_notes": ""
+    },
+    {
+      "key": "q58",
+      "page": 27,
+      "title": "Eosinophil nucleus shape",
+      "question": "What is the shape of the nucleus of eosinophils?",
+      "options": {
+        "A": "Horse shoe (bilobed) nucleus",
+        "B": "Irregular nucleus",
+        "C": "Segmented nucleus",
+        "D": "Rounded nucleus",
+        "E": "Kidney shaped nucleus"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The eosinophil's nucleus is bilobed, shaped like a horseshoe, with two lobes joined by a thin strand of chromatin. That two-lobe shape, together with its large acidophilic (eosin-staining) specific granules, is what identifies the eosinophil on a blood film. It is this bilobed nucleus that distinguishes it at a glance from the neutrophil's multilobed one.",
+        "B": "Incorrect. \"Irregular\" is too vague to describe the eosinophil's nucleus, which has a specific, recognisable bilobed shape rather than an arbitrary irregular outline.",
+        "C": "Incorrect. A segmented (multilobed, usually 2-5 lobes) nucleus describes the neutrophil, not the eosinophil, which has only two lobes.",
+        "D": "Incorrect. A rounded nucleus describes lymphocytes and monocytes' nuclear shape more closely than the eosinophil's distinctly bilobed one.",
+        "E": "Incorrect. A kidney (or indented oval) shaped nucleus describes the monocyte, not the eosinophil, whose nucleus is bilobed rather than singly indented."
+      },
+      "main_concept": "CON-IMM-1021F84F49EBE0",
+      "concept_ids": ["CON-IMM-1021F84F49EBE0"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Leukocytes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the eosinophil's bilobed (horseshoe-shaped) nucleus as distinct from the neutrophil's segmented and the monocyte's kidney-shaped nucleus.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.27" },
+      "author_notes": ""
+    },
+    {
+      "key": "d63a-4",
+      "page": 37,
+      "title": "Largest cell in the blood smear (past-exam block, دفعة 63)",
+      "question": "Which of the following cells is the largest in the blood smear?",
+      "options": {
+        "A": "Neutrophil",
+        "B": "Eosinophil",
+        "C": "Platelet",
+        "D": "Monocyte",
+        "E": "Basophil"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The neutrophil, at about 10-12 micrometres, is smaller than the monocyte.",
+        "B": "Incorrect. The eosinophil is a similar size to the neutrophil, again smaller than the monocyte.",
+        "C": "Incorrect. The platelet, at only 2-4 micrometres, is in fact the smallest formed element of the blood, the opposite extreme from what this question asks for.",
+        "D": "Correct. The monocyte, at up to 20 micrometres, is the largest normal cell in a peripheral blood smear. It carries a large, eccentric, kidney- or horseshoe-shaped nucleus and abundant grey-blue cytoplasm, and it leaves the circulation to become the tissue macrophage.",
+        "E": "Incorrect. The basophil, the least numerous granulocyte, is similar in size to the neutrophil and eosinophil, again smaller than the monocyte."
+      },
+      "main_concept": "CON-HEM-BD15B63AB982A9",
+      "concept_ids": ["CON-HEM-BD15B63AB982A9"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Leukocytes",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the monocyte as the largest cell in a normal peripheral blood smear.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.37 (دفعة 63 past-exam block, printed item 9)" },
+      "author_notes": ""
+    },
+    {
+      "key": "q63",
+      "page": 28,
+      "title": "Main site of destruction of old RBCs (Lecture 3&4)",
+      "question": "Which of the following is the main site of destruction of old RBCs?",
+      "options": {
+        "A": "Liver",
+        "B": "Lymph node",
+        "C": "Peyer's patches",
+        "D": "Spleen",
+        "E": "Tonsils"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The liver plays a secondary role in removing aged red cells and processing the breakdown products, but it is not the MAIN site — that is the spleen.",
+        "B": "Incorrect. The lymph node filters lymph, not blood, and screens it for antigen; it is not the site where aged red cells are destroyed.",
+        "C": "Incorrect. Peyer's patches are gut-associated lymphoid tissue in the ileum, involved in mucosal immune surveillance, not red cell destruction.",
+        "D": "Correct. The spleen is the main site of destruction of old red blood cells. Its red pulp forces circulating red cells through narrow splenic cords and stave-cell sinusoids, and resident macrophages phagocytose the ones too fragile to deform through that filter.",
+        "E": "Incorrect. The tonsils are lymphoid tissue guarding the oropharynx against inhaled and ingested antigen; they play no role in red cell destruction."
+      },
+      "main_concept": "CON-HEM-F0B1AE47105A5B",
+      "concept_ids": ["CON-HEM-F0B1AE47105A5B"],
+      "contextual_concept_ids": [],
+      "topic": "Hematopoiesis and blood science",
+      "subtopic": "Lymphoid organs",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify the spleen as the main site of destruction of old red blood cells, as distinct from the lymph node's and Peyer's patches' immune-surveillance roles.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed answer letter beside option, p.28" },
+      "author_notes": ""
+    }
+  ]
+}
