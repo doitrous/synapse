@@ -288,3 +288,65 @@ one (`inclusion granule`) turned up an existing **live** record.
   not authored this pass; a later lane should confirm whether the standard
   MCQ seed schema is the right vehicle for it or whether it needs its own
   handling.
+
+## Chapter 6 "General virology" (author6, pp.63-77, 102 items, answer table p.77)
+
+Read via `pagetext.mjs show`, pages 63-71 (≤3 pages/call), keyed against the
+plain-text ANSWERS table on p.77 (already located by lane 1's cross-chapter
+grep sweep). Authored **Q1-58 of 102** in order -- a self-contained "virus
+structure, classification and genetics" run that ends cleanly at Q58's
+exaltation item (the last of a Q51-58 cluster on capsomeres/reassortment/
+phenotypic masking/complementation/mutant types/exaltation); Q59 pivots into
+retrovirus-replication-cycle specifics (penetration, uncoating, viral-DNA
+replication site, antibody-mediated neutralization mechanisms) and antiviral
+immunity, a clearly different sub-topic -- the natural hand-off point.
+**Next lane (author7) resumes at Q59** ("Regarding the replication cycle of
+retrovirus, which sentence is wrong?", p.71); Q60-102 (44 items) remain
+untriaged at per-question level, though the chapter's 100%-keyable-by-
+printed-table status is confirmed for the whole chapter (this lane read the
+full p.77 table, all 102 slots filled except 103-110, which do not exist --
+the table itself confirms exactly 102 items).
+
+**Checkpoint table:**
+
+| Module | Questions read | Keys recovered | Authored | Held | Concepts -- live | pending | new |
+|---|--:|--:|--:|--:|--:|--:|--:|
+| AUN-INI-105 (ch6, Q1-58) | 58 | 58 (100%) | 55 | 3 | 4 (2 concepts x 2 uses each) | 9 (6 concepts) | 42 (24 concepts) |
+
+- **Held (3):** Q32 and Q38 each print only 2 options (schema's 4-option
+  floor), Q52 is a near-verbatim duplicate of Q34 (capsomeres = individual
+  capsid units, same four distractor concepts reordered).
+- **No printed-key vs. expected-answer conflicts** found in Q1-58 -- every
+  key checked out against the obvious textbook fact.
+- **Two items straying off-topic within the chapter's own page range:** Q6
+  (fungal cell membrane = ergosterol) and Q7 (opportunistic fungal infection
+  risk factors) are Mycology-topic questions the source bank itself places
+  inside the "General virology" chapter's pages -- authored here per the
+  bank's own printed structure rather than held for topical purity.
+- **Two source typos carried through unaltered:** Q22 option D prints "Pix
+  virus" (read as Poxvirus); Q47 option B prints "Mobillivirus" (read as
+  Morbillivirus) -- both noted in `author_notes`.
+- **Live/pending reuse:** two ASU-INF concepts already live (capsomer
+  `CON-INF-80960EC6FD48EC`, virion `CON-INF-BBB25C0749A8D4`) reused directly,
+  no overlay needed; six pending concepts reused via sparse overlay -- five
+  from `ASU-INF-microbiology-concepts.md`'s "Viral structure: capsid,
+  envelope and viroids" and "Viral infection patterns" articles (capsid
+  universal component, viroid, envelope origin/composition x3, latent
+  infection, systemic/viraemia), one from Ain-Shams's own `ASU-IMM-
+  immunology-concepts.md` (type I interferon, cross-subject reuse for Q9's
+  "first line of defense" fact).
+- **24 new AUN-INI-105 concepts minted** (`concept/AUN-INI-105-ch6-
+  concepts.md`), each cleared by `find-existing.mjs` first (search terms:
+  antigenic drift, capsomer, prion, bacteriophage, reverse transcriptase,
+  plaque assay, complementation, exaltation, phenotypic masking,
+  conditional-lethal/plaque-size/host-range mutant, interferon, viremia,
+  defective virus, genetic reassortment, naked virus, poxvirus, herpesvirus,
+  parvovirus, Retroviridae, budding, virion, obligate intracellular
+  parasite, ergosterol, opportunistic fungal infection, hemagglutination,
+  host tRNA ribosomes, segmented genome, helper virus, pseudovirion, lytic
+  phage, capsid symmetry, envelope glycoprotein serotype -- one term per
+  call). Backed by a five-item article (`article/AUN-INI-105-ch6-
+  article.md`), split by theme (classification basics; capsid/envelope/
+  general properties; replication cycle; prions/fungi/HIV; genetics and
+  interactions) since one flat article would have been unwieldy at this
+  concept count.

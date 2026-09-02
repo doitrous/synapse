@@ -173,3 +173,74 @@ ini-mcq-ch2-q057  # -- capnophilic: high CO2 -- pending (ASU-INF CON-INF-3D845DC
 ini-mcq-ch2-q058  # -- HELD, duplicate-of ini-mcq-ch2-q025
 ini-mcq-ch2-q059  # -- depends on organic sources for energy: heterotrophs -- pending (ASU-INF CON-INF-841FAB7F11BA18)
 ini-mcq-ch2-q060  # -- HELD, duplicate-of ini-mcq-ch2-q005
+
+# AUN-INI-105 -- Chapter 6 "General virology" triage keys (source: INI MCQ .pdf,
+# pp.63-77, 102 items, answer table p.77). Key format ini-mcq-ch6-qNNN (chapter-6-scoped).
+# This lane (author6) authored Q1-58 of 102, a self-contained "virus structure,
+# classification and genetics" run ending at Q58's exaltation item -- Q59 pivots
+# into retrovirus-replication-cycle specifics (penetration, uncoating, viral-DNA
+# replication site, antibody-mediated virus neutralization), the natural hand-off
+# point for the next lane (author7). STOP POINT FOR NEXT LANE: resume at Q59
+# ("Regarding the replication cycle of retrovirus, which sentence is wrong?"),
+# p.71. Q60-102 (44 more items) remain untriaged at per-question level; the
+# chapter's 100%-keyable-by-printed-table status (coverage/AUN-INI-105-triage.md)
+# holds for the whole chapter, confirmed by this lane's own read through the p.77
+# answer table.
+ini-mcq-ch6-q001  # -- antigenic drift caused by mutation -- new (mint)
+ini-mcq-ch6-q002  # -- naked virus = nucleocapsid only, no envelope -- new (mint)
+ini-mcq-ch6-q003  # -- Parvoviridae is the ssDNA exception among dsDNA families -- new (mint)
+ini-mcq-ch6-q004  # -- DNA viruses replicate in nucleus, RNA viruses in cytoplasm -- new (mint)
+ini-mcq-ch6-q005  # -- enveloped virus exit = budding or exocytosis -- pending (ASU-INF CON-INF-7952070C4BD8AF)
+ini-mcq-ch6-q006  # -- fungal cell membrane contains ergosterol -- new (mint)
+ini-mcq-ch6-q007  # -- opportunistic fungal infection risk factors EXCEPT anaerobic wound -- new (mint)
+ini-mcq-ch6-q008  # -- latent viral infection: occult, reactivating form -- pending (ASU-INF CON-INF-4EC402ABB55946)
+ini-mcq-ch6-q009  # -- first line of defense = type I interferon -- pending (ASU-IMM CON-IMM-E92EE28916590A)
+ini-mcq-ch6-q010  # -- protein particles which infect = prions -- new (mint)
+ini-mcq-ch6-q011  # -- herpesvirus: icosahedral, enveloped, dsDNA -- new (mint)
+ini-mcq-ch6-q012  # -- bacteriophage = virus parasitizing bacteria -- new (mint)
+ini-mcq-ch6-q013  # -- virus contains DNA or RNA -- new (mint)
+ini-mcq-ch6-q014  # -- poxvirus = largest virus -- new (mint)
+ini-mcq-ch6-q015  # -- parvovirus = smallest virus -- new (mint)
+ini-mcq-ch6-q016  # -- virion = extracellular infectious particle -- live (CON-INF-BBB25C0749A8D4)
+ini-mcq-ch6-q017  # -- virus in bloodstream = viraemia -- pending (ASU-INF CON-INF-46988C6D071F21)
+ini-mcq-ch6-q018  # -- HIV belongs to Retroviridae -- new (mint)
+ini-mcq-ch6-q019  # -- retrovirus special feature = reverse transcriptase = RNA-directed DNA polymerase -- new (mint)
+ini-mcq-ch6-q020  # -- AIDS virus = retrovirus -- new (mint)
+ini-mcq-ch6-q021  # -- HIV blood marker = reverse transcriptase -- new (mint)
+ini-mcq-ch6-q022  # -- Paramyxovirus is the RNA exception among DNA viruses -- new (mint)
+ini-mcq-ch6-q023  # -- plaque assay quantitates infectious virus titer -- new (mint)
+ini-mcq-ch6-q024  # -- viral surface proteins protect genome from nucleases -- new (mint)
+ini-mcq-ch6-q025  # -- prion contains no detectable nucleic acid -- new (mint)
+ini-mcq-ch6-q026  # -- virus size range 20-300 nm -- new (mint)
+ini-mcq-ch6-q027  # -- viral replication requires host cell macromolecules -- new (mint)
+ini-mcq-ch6-q028  # -- capsid = protein coat surrounding nucleic acid -- pending (ASU-INF CON-INF-5544B0DB9FAF82)
+ini-mcq-ch6-q029  # -- smallpox capsid symmetry = complex -- new (mint)
+ini-mcq-ch6-q030  # -- viruses do NOT multiply by binary fission -- new (mint)
+ini-mcq-ch6-q031  # -- envelope not made of "small protein subunits" (that is capsomeres) -- new (mint)
+ini-mcq-ch6-q032  # -- HELD, only 2 printed options (Need host cell / Reproduce by binary fission)
+ini-mcq-ch6-q033  # -- viroid = circular RNA, no protein or envelope -- pending (ASU-INF CON-INF-6EE705523FD61C)
+ini-mcq-ch6-q034  # -- capsomere = individual unit of capsid -- live (CON-INF-80960EC6FD48EC)
+ini-mcq-ch6-q035  # -- capsid does NOT absorb nutrients by active transport -- new (mint)
+ini-mcq-ch6-q036  # -- enveloped-virus serotypes vary by envelope protein, not capsid protein -- new (mint)
+ini-mcq-ch6-q037  # -- prions cannot "multiply" the way viruses do -- new (mint)
+ini-mcq-ch6-q038  # -- HELD, only 2 printed options (Culture dish / Host cell)
+ini-mcq-ch6-q039  # -- capsid composed of capsomers -- live (CON-INF-80960EC6FD48EC)
+ini-mcq-ch6-q040  # -- enveloped viruses obtain envelope by budding -- pending (ASU-INF CON-INF-7952070C4BD8AF)
+ini-mcq-ch6-q041  # -- virus multiplies in living tissue -- new (mint)
+ini-mcq-ch6-q042  # -- viruses use HOST tRNA/ribosomes, not viral -- new (mint)
+ini-mcq-ch6-q043  # -- naked viruses = non-enveloped -- new (AUN mint, same concept as q002)
+ini-mcq-ch6-q044  # -- prions = protein infectious particles, no nucleic acid -- new (mint)
+ini-mcq-ch6-q045  # -- envelope structures = lipoproteins -- pending (ASU-INF CON-INF-7952070C4BD8AF)
+ini-mcq-ch6-q046  # -- genetic material in virus = DNA or RNA -- new (AUN mint, same concept as q013)
+ini-mcq-ch6-q047  # -- poxvirus has complex symmetry -- new (AUN mint, same concept as q029)
+ini-mcq-ch6-q048  # -- capsid found in all viruses -- pending (ASU-INF CON-INF-5544B0DB9FAF82)
+ini-mcq-ch6-q049  # -- prions = infectious protein particles without nucleic acid -- new (AUN mint, same concept as q010)
+ini-mcq-ch6-q050  # -- defective viruses need helper virus to replicate -- new (mint)
+ini-mcq-ch6-q051  # -- virus made of protein coat and nucleic acid -- live (CON-INF-BBB25C0749A8D4)
+ini-mcq-ch6-q052  # -- HELD, duplicate-of ini-mcq-ch6-q034
+ini-mcq-ch6-q053  # -- genetic reassortment requires segmented genome -- new (mint)
+ini-mcq-ch6-q054  # -- phenotypic masking: genome packaged in another virus's capsid -- new (mint)
+ini-mcq-ch6-q055  # -- complementation allows defective viruses to replicate -- new (AUN mint, same concept as q050)
+ini-mcq-ch6-q056  # -- conditional-lethal mutants: permissive vs restrictive conditions -- new (mint)
+ini-mcq-ch6-q057  # -- plaque-size mutants alter lysis-zone diameter -- new (AUN mint, same concept as q056)
+ini-mcq-ch6-q058  # -- exaltation: one virus enhances another's growth -- new (mint)

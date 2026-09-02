@@ -2,6 +2,7 @@
 |---|---:|---:|---:|---:|
 | ini-mcq | 89 | 11 | 0 | 100 |
 | ini-mcq-ch2 | 52 | 8 | 0 | 60 |
+| ini-mcq-ch6 | 55 | 3 | 0 | 58 |
 
 ## Held
 - ini-mcq-q003 — printed key (A, Cocci) conflicts with the expected textbook answer (Bacilli, C) for "rod shaped bacteria"
@@ -23,6 +24,9 @@
 - ini-mcq-ch2-q056 — duplicate-of ini-mcq-ch2-q029 -- near-verbatim restatement of "recovery from infectious diseases correlates with" (Decline phase)
 - ini-mcq-ch2-q058 — duplicate-of ini-mcq-ch2-q025 -- near-verbatim restatement of "bacteria highly susceptible to antimicrobial agents when growth occurs in the" (Log/exponential phase)
 - ini-mcq-ch2-q060 — duplicate-of ini-mcq-ch2-q005 -- identical stem and options to Q5 ("The bacterial cells are at their metabolic peak during?", Log phase)
+- ini-mcq-ch6-q032 — source prints only 2 options (Need host cell / Reproduce by binary fission) for an EXCEPT stem, short of the seed schema's 4-option floor
+- ini-mcq-ch6-q038 — source prints only 2 options (Culture dish / Host cell), short of the seed schema's 4-option floor
+- ini-mcq-ch6-q052 — near-verbatim restatement of ini-mcq-ch6-q034 (capsomeres = individual units of capsid): "Capsomeres are?" vs Q34's "Which of the following statements are true about the capsomeres?", same four distractor concepts reordered, same correct fact -- duplicate-of ini-mcq-ch6-q034
 
 ## Remaining
 (none)
