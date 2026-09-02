@@ -26,7 +26,7 @@ inferred from the corrupted text alone.
 
 | Source | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
 |---|--:|--:|--:|--:|--:|--:|---|
-| `Fakous GIT final 2024.pdf` | 46 (10 written + 36 SBA) | 35/36 SBA legible + render-confirmed (1 held, Q20, see below); written = essay, graded by rubric, no single-letter key | 32 distinct (3 SBA share one concept — Q6/Q9/Q13 all test the same ALA-synthase/heme-synthesis record) | 3 | 10 | 19 | `fnd` (bioenergetics, enzymology, carbohydrate/lipid/nitrogen biochemistry — the paper's biochemistry section), `gi` (gastric/intestinal physiology, hepatobiliary and pancreatic anatomy, GI histology — the paper's physiology/anatomy/histology section) |
+| `Fakous GIT final 2024.pdf` | 46 (10 written + 36 SBA) | 35/36 SBA legible + render-confirmed (1 held, Q20, see below); written = essay, graded by rubric, no single-letter key | 33 distinct (3 SBA share one concept — Q6/Q9/Q13 all test the same ALA-synthase/heme-synthesis record) | 3 | 11 | 19 | `fnd` (bioenergetics, enzymology, carbohydrate/lipid/nitrogen biochemistry — the paper's biochemistry section), `gi` (gastric/intestinal physiology, hepatobiliary and pancreatic anatomy, GI histology — the paper's physiology/anatomy/histology section) |
 
 **35/36 = 97% of the Final paper's SBA items keyed with real, legible stems** — well
 above the ≥60% conditional-approval bar in the dispatch. Authoring proceeded without a
@@ -64,9 +64,9 @@ Q18's stem and option c print "Carbonyl phosphate synthase I" (render-confirmed,
 real rate-limiting urea-cycle enzyme. Same treatment: kept as printed in the question,
 explanation names the correct enzyme.
 
-### Concept search — 3 live-hit, 10 pending-hit, 19 new
+### Concept search — 3 live-hit, 11 pending-hit, 19 new
 
-`find-existing.mjs` run for every one of the 32 distinct concepts before minting.
+`find-existing.mjs` run for every one of the 33 distinct concepts before minting.
 
 **3 live hits** (concept already exists in `server/data/medical-library-v1.json`,
 `universityIds: ["kau"]`) — sparse live overlay, `concept/ZU-MED-107-git-live-overlays.md`:
@@ -79,7 +79,7 @@ explanation names the correct enzyme.
   fact (secretin drives pancreatic bicarbonate secretion, which CCK augments), tested from
   the secretin side rather than the CCK side.
 
-**10 pending hits** (concept exists only in another lane's unimported batch — mostly
+**11 pending hits** (concept exists only in another lane's unimported batch — mostly
 Kasr's `103-BMS` biochemistry batch, one Alexandria, one Mansoura) — sparse pending-live
 overlay, `pending-live/ZU-MED-107-git-pending-overlays.md`:
 - `CON-FND-D8A41B5C23B148` (Kasr 103-BMS) "Hydrogen peroxide is disposed of by catalase
