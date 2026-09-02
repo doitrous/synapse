@@ -515,3 +515,81 @@ AU_Y1=0.5
 ## field_notes
 au_scope: The Telegram addendum bank's a21/a18 idea (oesophagus: level of origin C6, mediastinal course; folded into the a18 trachea/oesophagus idea per the triage's own note; sourceId pending) tests this record's own mediastinal-course teaching. Straight match — sparse update only, no new record.
 question_ids: Telegram ASM Minds addendum (a21/a18, sourceId pending). Question authoring itself is in `pending-live/AU-MED-106-anatomy-questions.md` (this sitting).
+
+---
+
+# Item
+
+## id
+CON-CVS-B12EDEA332E53F
+
+## label
+The heart's autonomic supply is parasympathetic from the two vagi and sympathetic from the upper five thoracic segments, meeting in superficial and deep cardiac plexuses that only modulate rate, never initiate it
+
+## universities
++au
+
+## learner_years
++1
+
+## modules
++AU-MED-106
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## field_notes
+au_scope: AU-MED-106's practical bank tests identifying the superficial cardiac plexus near the arch of aorta directly (p.29, key B = superficial cardiac plexus). Straight match to this record's own cardiac-plexus teaching — sparse update only, no new record.
+question_ids: AU-MED-106 anatomy bank p.29. Question authoring itself is in `pending-live/AU-MED-106-anatomy-questions.md` (this sitting).
+
+---
+
+# Item
+
+## id
+CON-HEM-9123D4493320A7
+
+## label
+The thoracic duct crosses from right to left behind the oesophagus at T5 and drains the whole body except the right upper quadrant into the left brachiocephalic vein
+
+## universities
++au
+
+## learner_years
++1
+
+## modules
++AU-MED-106
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## field_notes
+au_scope: AU-MED-106's practical bank tests the thoracic duct's cervical termination directly (recovered p.37, key A = C7). Straight match to this record's own thoracic-duct teaching (course/termination) — sparse update only, no new record.
+question_ids: AU-MED-106 anatomy bank p.37 (recovered). Question authoring itself is in `pending-live/AU-MED-106-anatomy-questions.md` (this sitting).
+
+---
+
+# Item
+
+## id
+CON-RES-6023E5A5A7161F
+
+## label
+The diaphragm arises from sternal, costal and vertebral origins — the vertebral part by two crura and five arcuate ligaments — and converges on a trifoliate central tendon
+
+## universities
++au
+
+## learner_years
++1
+
+## modules
++AU-MED-106
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## field_notes
+au_scope: AU-MED-106's practical bank tests the right crus directly (recovered p.43, key A = right crus). Straight match to this record's own crura teaching — sparse update only, no new record.
+question_ids: AU-MED-106 anatomy bank p.43 (recovered). Question authoring itself is in `pending-live/AU-MED-106-anatomy-questions.md` (this sitting).
