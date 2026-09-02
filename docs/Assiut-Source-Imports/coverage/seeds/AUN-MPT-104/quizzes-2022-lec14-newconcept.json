@@ -1,0 +1,90 @@
+{
+  "lane": "AUN-MPT-104",
+  "cluster": "quizzes-2022",
+  "header": "AUN-MPT-104 -- All Quizzes MPT 2022.pdf quiz bank questions (Lecture 14) riding on the newly-minted AUN-MPT-104 concept CON-FND-27A9BC30BFB2C2 (concept/AUN-MPT-104-concepts.md, article/AUN-MPT-104-articles.md ART-FND-AUN-MPT104-PREGNANCY-DRUG-CATEGORIES), confirmed new by find-existing.mjs -- FDA pregnancy categories are not covered by any pending Kasr 108-INT pharmacology concept.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["aun"],
+    "years": ["AUN_Y1"],
+    "module": "AUN-MPT-104",
+    "module_subject": "AUN-MPT-104 > Pharmacology > Pharmacokinetics variables 1",
+    "exam_weight_by_year": { "AUN_Y1": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-FND-AUN-MPT104-PREGNANCY-DRUG-CATEGORIES"],
+    "resource_ids": ["src_3e62ae5ed2a35ed7211c"],
+    "source_citation": "All Quizzes MPT 2022.pdf, {page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "quizzes-2022-q109",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q109",
+      "page": 54,
+      "title": "Consequence of FDA pregnancy category D",
+      "question": "A drug has been classified under \"D\" in FDA pregnancy categories. What would be the consequences of using that drug?",
+      "options": {
+        "A": "Animal studies have demonstrated adverse effects",
+        "B": "Fetal risk has been demonstrated, in certain circumstances benefits could outweighs the risk",
+        "C": "No risk to the fetus",
+        "D": "Fetal risk has been demonstrated, the risk outweighs any possible benefit to the mother"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Adverse effects only in animal studies, with no human data, describes category C, a less certain level of risk than category D, which is based on demonstrated risk from human data or experience, not animal studies alone.",
+        "B": "Correct. Category D means fetal risk has been demonstrated, from animal studies, human studies, or post-marketing experience. The drug may still be justified in certain circumstances, typically a serious maternal illness with no safer alternative, because its potential benefit could outweigh that known risk.",
+        "C": "Incorrect. \"No risk to the fetus\" would describe category A, the safest category, not category D, which specifically means risk has been demonstrated.",
+        "D": "Incorrect. \"Risk always outweighs benefit\" describes category X, an absolute contraindication -- category D instead leaves room for the drug to be used if the benefit outweighs the risk in a given case."
+      },
+      "main_concept": "CON-FND-27A9BC30BFB2C2",
+      "concept_ids": ["CON-FND-27A9BC30BFB2C2"],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacokinetics variables 1",
+      "subtopic": "Pregnancy risk classification",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State the prescribing consequence of FDA pregnancy category D: demonstrated risk, but usable if benefit outweighs that risk.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Fetal risk has been demonstrated, in certain circumstances benefits could outweighs the risk.\"", "sourceCandidateIds": "find-existing.mjs run for \"FDA pregnancy category\" -- 0 hits, safe to create" },
+      "author_notes": ""
+    },
+    {
+      "key": "quizzes-2022-q118",
+      "id": "QST-AUNMPT104-QUIZZES2022-Q118",
+      "page": 57,
+      "title": "Consequence of FDA pregnancy category X",
+      "question": "A drug has been classified under \"X\" in FDA pregnancy categories. What would be the consequences of using that drug?",
+      "options": {
+        "A": "Fetal risk has been demonstrated, in certain circumstances benefits could outweighs the risk",
+        "B": "No risk to the fetus",
+        "C": "Animal studies have demonstrated no adverse effects",
+        "D": "Fetal risk has been demonstrated, the risk outweighs any possible benefit to the mother"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. \"Benefits could outweigh the risk in certain circumstances\" describes category D, not category X -- category X instead means the risk always outweighs any possible benefit, with no justified-use exception.",
+        "B": "Incorrect. \"No risk to the fetus\" would describe category A, the safest category, the opposite of category X, which carries demonstrated risk that outweighs any benefit.",
+        "C": "Incorrect. \"No adverse effects in animal studies\" would describe category A or B, not category X, which is defined by demonstrated fetal risk, not an absence of it.",
+        "D": "Correct. Category X means fetal risk has been demonstrated, and that risk outweighs any possible benefit to the mother under any circumstance. Category X drugs are therefore contraindicated in pregnancy, with no risk-benefit exception the way category D allows."
+      },
+      "main_concept": "CON-FND-27A9BC30BFB2C2",
+      "concept_ids": ["CON-FND-27A9BC30BFB2C2"],
+      "contextual_concept_ids": [],
+      "topic": "Pharmacokinetics variables 1",
+      "subtopic": "Pregnancy risk classification",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State the prescribing consequence of FDA pregnancy category X: demonstrated risk that always outweighs benefit, an absolute contraindication.",
+      "media_recommendations": "",
+      "field_notes": { "keySource": "printed \"The correct answer is: Fetal risk has been demonstrated, the risk outweighs any possible benefit to the mother.\"", "sourceCandidateIds": "find-existing.mjs run for \"pregnancy category X\" -- 0 hits, safe to create" },
+      "author_notes": ""
+    }
+  ]
+}
